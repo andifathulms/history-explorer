@@ -62,15 +62,34 @@ export default function ContinuityIndex() {
               )
             })}
           </ul>
-          {unthreaded.length ? (
-            <p className="mt-8 max-w-measure text-[15px] text-debu-paper">
-              {unthreaded.map((r) => r.name).join(', ')}{' '}
-              {unthreaded.length > 1 ? 'have' : 'has'} pages and rankings but no thread:
-              no sourced succession joins {unthreaded.length > 1 ? 'those' : 'that'}{' '}
-              {unthreaded.length > 1 ? 'polities' : 'region&rsquo;s polities'} yet.
-            </p>
-          ) : null}
         </section>
+
+        {unthreaded.length ? (
+          <section className="mt-16">
+            <h2 className="text-[13px] uppercase tracking-[0.14em] text-debu-paper">
+              Regions without a thread
+            </h2>
+            <p className="mt-4 max-w-measure text-debu-paper">
+              These are complete, not unfinished. Their polities have pages and stand in
+              the rankings like any other; no sourced succession edge yet joins two of
+              them, which for most of history is the ordinary case.
+            </p>
+            <ul className="mt-6 grid max-w-[900px] gap-x-10 gap-y-4 sm:grid-cols-2">
+              {unthreaded.map((r) => {
+                const n = politiesInRegion(r.id).length
+                return (
+                  <li key={r.id} className="border-t border-kashi/30 pt-3">
+                    <p className="text-[17px] text-kaghaz">{r.name}</p>
+                    <p className="mt-1 text-[14px] text-debu-paper">
+                      {n} {n === 1 ? 'polity' : 'polities'}
+                    </p>
+                  </li>
+                )
+              })}
+            </ul>
+          </section>
+        ) : null}
+
 
         <section className="mt-16 max-w-measure">
           <h2 className="text-[13px] uppercase tracking-[0.14em] text-debu-paper">
