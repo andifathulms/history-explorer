@@ -1,0 +1,204 @@
+# Every source cited anywhere in this repository. A `source:` field elsewhere
+# must be an id in this file. Hard rule 1: no invented citations. If a work is
+# not listed here and the author cannot open it, the value it would have
+# supported is null and the gap renders.
+#
+# `kind` drives nothing in the UI yet; it is here so a later pass can separate
+# reference works from monographs from datasets.
+
+sources:
+  # ---- Reference works, general ----
+  - id: bosworth-1996
+    kind: reference
+    author: C. E. Bosworth
+    title: "The New Islamic Dynasties: A Chronological and Genealogical Manual"
+    publisher: Edinburgh University Press
+    year: 1996
+    note: >-
+      The spine for regnal dates and dynastic spans throughout. Where this
+      repository gives a span as a single year, it is usually Bosworth's.
+
+  - id: chi-4
+    kind: reference
+    author: R. N. Frye (ed.)
+    title: "The Cambridge History of Iran, Volume 4: From the Arab Invasion to the Saljuqs"
+    publisher: Cambridge University Press
+    year: 1975
+
+  - id: chi-5
+    kind: reference
+    author: J. A. Boyle (ed.)
+    title: "The Cambridge History of Iran, Volume 5: The Saljuq and Mongol Periods"
+    publisher: Cambridge University Press
+    year: 1968
+
+  - id: kennedy-2004
+    kind: monograph
+    author: Hugh Kennedy
+    title: "The Prophet and the Age of the Caliphates: The Islamic Near East from the Sixth to the Eleventh Century"
+    edition: 2nd
+    publisher: Pearson Longman
+    year: 2004
+
+  # ---- Monographs, per dynasty ----
+  - id: bosworth-1963
+    kind: monograph
+    author: C. E. Bosworth
+    title: "The Ghaznavids: Their Empire in Afghanistan and Eastern Iran, 994-1040"
+    publisher: Edinburgh University Press
+    year: 1963
+
+  - id: bosworth-1977
+    kind: monograph
+    author: C. E. Bosworth
+    title: "The Later Ghaznavids: Splendour and Decay. The Dynasty in Afghanistan and Northern India, 1040-1186"
+    publisher: Edinburgh University Press
+    year: 1977
+
+  - id: bosworth-1994
+    kind: monograph
+    author: C. E. Bosworth
+    title: "The History of the Saffarids of Sistan and the Maliks of Nimruz (247/861 to 949/1542-3)"
+    publisher: Mazda Publishers
+    year: 1994
+
+  - id: busse-1975
+    kind: chapter
+    author: Heribert Busse
+    title: "Iran under the Buyids"
+    container: "The Cambridge History of Iran, Volume 4"
+    publisher: Cambridge University Press
+    year: 1975
+
+  - id: bosworth-1968
+    kind: chapter
+    author: C. E. Bosworth
+    title: "The Political and Dynastic History of the Iranian World (A.D. 1000-1217)"
+    container: "The Cambridge History of Iran, Volume 5"
+    publisher: Cambridge University Press
+    year: 1968
+
+  - id: jackson-1999
+    kind: monograph
+    author: Peter Jackson
+    title: "The Delhi Sultanate: A Political and Military History"
+    publisher: Cambridge University Press
+    year: 1999
+
+  # ---- Encyclopaedia Iranica ----
+  - id: iranica-taherids
+    kind: encyclopaedia
+    author: C. E. Bosworth
+    title: "TAHERIDS"
+    container: Encyclopaedia Iranica
+    url: https://iranicaonline.org/articles/taherids
+
+  - id: iranica-saffarids
+    kind: encyclopaedia
+    author: C. E. Bosworth
+    title: "SAFFARIDS"
+    container: Encyclopaedia Iranica
+    url: https://iranicaonline.org/articles/saffarids
+
+  - id: iranica-samanids
+    kind: encyclopaedia
+    author: C. E. Bosworth
+    title: "SAMANIDS"
+    container: Encyclopaedia Iranica
+    url: https://iranicaonline.org/articles/samanids
+
+  - id: iranica-al-e-buya
+    kind: encyclopaedia
+    author: Tilman Nagel and others
+    title: "AL-E BUYA"
+    container: Encyclopaedia Iranica
+    url: https://iranicaonline.org/articles/al-e-buya
+
+  - id: iranica-ghaznavids
+    kind: encyclopaedia
+    author: C. E. Bosworth
+    title: "GHAZNAVIDS"
+    container: Encyclopaedia Iranica
+    url: https://iranicaonline.org/articles/ghaznavids
+
+  - id: iranica-saljuqs
+    kind: encyclopaedia
+    author: multiple contributors
+    title: "SALJUQS"
+    container: Encyclopaedia Iranica
+    url: https://iranicaonline.org/articles/saljuqs
+
+  - id: iranica-ghurids
+    kind: encyclopaedia
+    author: C. E. Bosworth
+    title: "GHURIDS"
+    container: Encyclopaedia Iranica
+    url: https://iranicaonline.org/articles/ghurids
+
+  - id: iranica-khwarazmshahs
+    kind: encyclopaedia
+    author: C. E. Bosworth
+    title: "KWARAZMSHAHS"
+    container: Encyclopaedia Iranica
+    url: https://iranicaonline.org/articles/kvarazmshahs-index
+
+  - id: iranica-abbasid-caliphate
+    kind: encyclopaedia
+    author: multiple contributors
+    title: "ABBASID CALIPHATE"
+    container: Encyclopaedia Iranica
+    url: https://iranicaonline.org/articles/abbasid-caliphate
+
+  # ---- Encyclopaedia of Islam ----
+  - id: ei2-karakhanids
+    kind: encyclopaedia
+    author: C. E. Bosworth and others
+    title: "Ilek-Khans or Karakhanids"
+    container: "Encyclopaedia of Islam, 2nd edition"
+    publisher: Brill
+
+  # ---- Quantitative datasets ----
+  - id: taagepera-1997
+    kind: dataset
+    author: Rein Taagepera
+    title: "Expansion and Contraction Patterns of Large Polities: Context for Russia"
+    container: International Studies Quarterly 41(3), 475-504
+    year: 1997
+    note: >-
+      Source for peak territorial extent. Taagepera reports in megametres
+      squared; this repository stores km2 as given, without rescaling beyond
+      the unit conversion.
+
+  - id: taagepera-1979
+    kind: dataset
+    author: Rein Taagepera
+    title: "Size and Duration of Empires: Growth-Decline Curves, 600 B.C. to 600 A.D."
+    container: Social Science History 3(3/4), 115-138
+    year: 1979
+
+  - id: taagepera-1978b
+    kind: dataset
+    author: Rein Taagepera
+    title: "Size and Duration of Empires: Systematics of Size"
+    container: Social Science Research 7(2), 108-127
+    year: 1978
+
+  - id: mcevedy-jones-1978
+    kind: dataset
+    author: Colin McEvedy and Richard Jones
+    title: "Atlas of World Population History"
+    publisher: Penguin Books
+    year: 1978
+    note: >-
+      Source for peak population and for the world-population denominators used
+      by era-normalised mode.
+
+  - id: historical-basemaps
+    kind: dataset
+    author: Andre Ourednik and contributors
+    title: "historical-basemaps: Historical country boundary GeoJSON"
+    url: https://github.com/aourednik/historical-basemaps
+    licence: CC-BY-4.0
+    note: >-
+      Map polygons only. Never a source for a measure. See hard rule 5: areas
+      computed from these polygons are not published as figures.
