@@ -11,6 +11,28 @@
 # describes what `to` was or did with respect to `from`.
 
 edges:
+  # ---- What the conquests arrived in ----
+
+  - from: sasanian
+    to: rashidun
+    type: conquered by
+    year: 651
+    note: "The Sasanian field army was broken at al-Qadisiyya in 636 and
+           Ctesiphon fell, after which the empire was unwound province by
+           province until Yazdegerd III was murdered at Merv."
+    source: donner-1981
+    contested: false
+
+  - from: sasanian
+    to: buyid
+    type: claimed legitimacy of
+    year: 962
+    note: "The Buyid amirs, ruling Iraq and western Iran with the caliph in
+           their keeping, revived the Sasanian title shahanshah as a claim on
+           the Iranian monarchy the Arabs had ended."
+    source: busse-1975
+    contested: false
+
   # ---- Inside the caliphates: one office, three houses ----
 
   - from: rashidun

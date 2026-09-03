@@ -1,0 +1,53 @@
+id: mongol
+region: mongol-world
+
+name:
+  latin: Mongol Empire
+  script: ᠮᠣᠩᠭᠣᠯ ᠤᠯᠤᠰ
+  script_lang: mn
+
+span:
+  start: { min: 1206, max: 1206, source: morgan-2007 }
+  end: { min: 1260, max: 1368, source: morgan-2007, max_source: chi-5 }
+
+identity: >-
+  The largest contiguous land empire ever assembled, and the force that ended
+  most of the polities on this site.
+
+capitals:
+  - { name: Karakorum, from: 1235, to: 1260, source: morgan-2007 }
+
+core_region: The Mongolian steppe, and then most of Eurasia
+
+rulers:
+  founder: { name: Chinggis Khan, reign: [1206, 1227], source: morgan-2007 }
+  peak: { name: Mongke, reign: [1251, 1259], source: morgan-2007 }
+  last: { name: Kublai Khan, reign: [1260, 1294], source: morgan-2007 }
+
+scripts_and_languages:
+  administration: [Mongolian, Persian, Chinese, Uyghur]
+  writing_system: Uyghur-Mongolian
+
+ended:
+  type: fragmentation
+  by: [ilkhanate, chagatai, golden-horde]
+  year: 1260
+  source: morgan-2007
+
+measures:
+  reach_km2: { value: 24000000, at: 1270, source: taagepera-1997 }
+  peak_population: null
+  influence:
+    descendant_scripts:
+      count: 1
+      items: [Mongolian script]
+      source: morgan-2007
+    # Conquest here was not followed by the propagation of a single tradition:
+    # the khanates adopted Islam, Buddhism and Christianity in different
+    # directions, which is prose rather than a count. No consulted source
+    # describes this polity propagating a tradition beyond its own boundary.
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims:
+      count: 3
+      items: [ilkhanate, chagatai, golden-horde]
+      source: morgan-2007

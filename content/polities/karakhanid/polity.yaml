@@ -1,7 +1,5 @@
-# Context polity: edge target only, no chapters in v1.
 id: karakhanid
 region: iranian-intermezzo
-context_only: true
 
 name:
   latin: Karakhanid Khanate
@@ -42,5 +40,12 @@ measures:
   peak_population: null
   influence:
     descendant_scripts: { count: null, items: [], source: null }
-    religions_carried: { count: null, items: [], source: null }
+    # The first Turkish dynasty to rule Transoxiana as Muslims, and the one
+    # under which Islam became the religion of the Karluk confederation rather
+    # than of the towns it ruled. Conversion plus institution-building, which
+    # the coding rules count; the polity's own conversion alone would not.
+    religions_carried:
+      count: 1
+      items: [Sunni Islam]
+      source: golden-1992
     successor_claims: { count: null, items: [], source: null }

@@ -1,0 +1,46 @@
+id: delhi-sultanate
+region: indian-sultanates
+
+name:
+  latin: Delhi Sultanate
+  script: سلطنت دهلی
+  script_lang: fa
+
+span:
+  start: { min: 1206, max: 1206, source: jackson-1999 }
+  end: { min: 1526, max: 1526, source: jackson-1999 }
+
+identity: >-
+  The sultanate founded at Delhi by a Ghurid slave-general, and the polity that
+  absorbed the Mongol pressure that destroyed everything comparable to its west.
+
+capitals:
+  - { name: Delhi, script: دهلی, from: 1206, source: jackson-1999 }
+
+core_region: The Indo-Gangetic plain
+
+rulers:
+  founder: { name: Qutb al-Din Aibak, reign: [1206, 1210], source: jackson-1999 }
+  peak: { name: Ala al-Din Khalji, reign: [1296, 1316], source: jackson-1999 }
+  last: { name: Ibrahim Lodi, reign: [1517, 1526], source: jackson-1999 }
+
+scripts_and_languages:
+  administration: [Persian]
+  writing_system: Perso-Arabic
+
+ended:
+  type: conquest
+  by: [mughal]
+  year: 1526
+  source: jackson-1999
+
+measures:
+  reach_km2: { value: 3200000, at: 1312, source: taagepera-1997 }
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried:
+      count: 1
+      items: [Sunni Islam]
+      source: jackson-1999
+    successor_claims: { count: null, items: [], source: null }
