@@ -2,6 +2,7 @@ import type { Polity } from '@/lib/types'
 import { formatYear } from '@/lib/years'
 import { getBasemap, blurFor } from '@/lib/basemap'
 import { NO_FIGURE, formatKm2 } from '@/lib/gaps'
+import { SectionHead } from '@/components/Shell'
 
 /**
  * The map. An illustration, and labelled as one.
@@ -19,11 +20,11 @@ export function PolityMap({ polity }: { polity: Polity }) {
 
   if (!map) {
     return (
-      <section aria-labelledby="map-heading" className="mt-14">
-        <h2 id="map-heading" className="text-[15px] uppercase tracking-widest text-debu-ink">
+      <section aria-labelledby="map-heading" className="mt-16">
+        <SectionHead ground="paper" id="map-heading">
           Extent
-        </h2>
-        <p className="mt-3 max-w-measure text-body">
+        </SectionHead>
+        <p className="max-w-measure text-body">
           No snapshot in this series draws {polity.name.latin}.{' '}
           {polity.id === 'tahirid'
             ? 'The 800 and 900 snapshots show Khurasan inside the Abbasid Caliphate, which is what the Tahirids formally were — so the dataset is right and there is correctly nothing to draw.'
@@ -36,13 +37,21 @@ export function PolityMap({ polity }: { polity: Polity }) {
   const drift = Math.abs(map.snapshotYear - map.peakYear)
 
   return (
-    <section aria-labelledby="map-heading" className="mt-14">
-      <h2 id="map-heading" className="text-[15px] uppercase tracking-widest text-debu-ink">
+    <section aria-labelledby="map-heading" className="mt-16">
+      <SectionHead
+        ground="paper"
+        id="map-heading"
+        aside={
+          <span className="font-mono text-micro uppercase text-debu-ink">
+            An illustration, not a measurement
+          </span>
+        }
+      >
         Extent
-      </h2>
+      </SectionHead>
 
-      <div className="mt-4 grid gap-6 md:grid-cols-[minmax(0,1fr)_15rem] md:items-start">
-        <div className="overflow-hidden rounded-sm bg-dawat">
+      <div className="grid gap-8 md:grid-cols-[minmax(0,1fr)_16rem] md:items-start">
+        <div className="overflow-hidden rounded border border-dawat-edge bg-dawat">
           <svg
             viewBox={`0 0 ${map.width} ${map.height}`}
             width="100%"
@@ -82,30 +91,35 @@ export function PolityMap({ polity }: { polity: Polity }) {
           </svg>
         </div>
 
-        <div className="text-[15px]">
+        <div className="text-[15px] leading-relaxed">
           {/* Never in a footnote. The polygon is not the peak. */}
-          <p className="text-kashi">
-            Snapshot year <span className="font-semibold tabular-nums">{formatYear(map.snapshotYear)}</span>
+          <p className="font-mono text-micro uppercase text-debu-ink">Snapshot year</p>
+          <p className="mt-1 font-mono text-[22px] tabular-nums text-kashi-deep">
+            {formatYear(map.snapshotYear)}
           </p>
-          <p className="mt-1 text-debu-ink">
+          <p className="mt-2 text-debu-ink">
             This is the nearest available snapshot to the cited peak of{' '}
             <span className="tabular-nums">{formatYear(map.peakYear)}</span>
             {drift ? `, ${drift} years away` : ''}. It is not the peak.
           </p>
 
-          <p className="mt-4 text-kashi">
-            Cited extent{' '}
-            <span className="font-semibold tabular-nums">
-              {cited ? formatKm2(cited.value) : NO_FIGURE}
-            </span>
+          <p className="mt-6 font-mono text-micro uppercase text-debu-ink">Cited extent</p>
+          <p
+            className={
+              cited
+                ? 'mt-1 font-mono text-[22px] tabular-nums text-kashi-deep'
+                : 'mt-1 italic text-debu-ink'
+            }
+          >
+            {cited ? formatKm2(cited.value) : NO_FIGURE}
           </p>
-          <p className="mt-1 text-debu-ink">
+          <p className="mt-2 text-debu-ink">
             {cited
               ? 'The area of the shape on the left will not match this figure. That is expected. The cited figure is the figure; the map is an illustration, and the two are never reconciled.'
               : 'No source in this set gives an extent for this polity. The shape on the left is still only an illustration.'}
           </p>
 
-          <p className="mt-4 text-debu-ink">
+          <p className="mt-5 text-debu-ink">
             Edges are blurred from the dataset&rsquo;s own border-precision field. Every
             feature in this period is marked <span className="tabular-nums">1</span>,
             approximate, so every border here dissolves.
@@ -113,7 +127,7 @@ export function PolityMap({ polity }: { polity: Polity }) {
         </div>
       </div>
 
-      <p className="mt-5 max-w-measure text-[15px] text-debu-ink">
+      <p className="mt-8 max-w-measure text-[15px] leading-relaxed text-debu-ink">
         The dataset author&rsquo;s caveat, which belongs here rather than in the
         footnotes: territorial boundary as a concept is meaningful in Europe only after
         Westphalia, ancient polities overlap, and old vector borders drawn on modern

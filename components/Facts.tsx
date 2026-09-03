@@ -33,7 +33,7 @@ function RulerLine({ r }: { r: Ruler | null }) {
     <span>
       {r.name}
       {r.script ? (
-        <span lang="fa" className="ms-2 text-[17px] text-kashi">
+        <span lang="fa" className="ml-2 text-[17px] text-kashi">
           {r.script}
         </span>
       ) : null}
@@ -63,7 +63,7 @@ export function Facts({ polity }: { polity: Polity }) {
                 <li key={i}>
                   {c.name}
                   {c.script ? (
-                    <span lang="fa" className="ms-2 text-[17px] text-kashi">
+                    <span lang="fa" className="ml-2 text-[17px] text-kashi">
                       {c.script}
                     </span>
                   ) : null}

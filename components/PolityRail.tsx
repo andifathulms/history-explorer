@@ -54,7 +54,7 @@ export function PolityRail({
   }
 
   return (
-        <div className="sticky top-8">
+        <div className="sticky top-24">
           <svg
             width="200"
             height={H}
