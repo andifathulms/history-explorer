@@ -470,6 +470,66 @@ sources:
     publisher: Brill
     year: 1999
 
+  - id: briant-2002
+    kind: book
+    author: Pierre Briant
+    title: "From Cyrus to Alexander: A History of the Persian Empire"
+    publisher: Eisenbrauns
+    year: 2002
+
+  - id: ab-bosworth-1988
+    kind: book
+    author: A. B. Bosworth
+    title: "Conquest and Empire: The Reign of Alexander the Great"
+    publisher: Cambridge University Press
+    year: 1988
+    note: >-
+      A. B. Bosworth, the Alexander historian, not C. E. Bosworth, whose works
+      on the Islamic dynasties are also cited here.
+
+  - id: woolf-2012
+    kind: book
+    author: Greg Woolf
+    title: "Rome: An Empire's Story"
+    publisher: Oxford University Press
+    year: 2012
+
+  - id: loewe-twitchett-1986
+    kind: book
+    author: Denis Twitchett and Michael Loewe (eds)
+    title: "The Cambridge History of China, Volume 1: The Ch'in and Han Empires, 221 BC-AD 220"
+    publisher: Cambridge University Press
+    year: 1986
+
+  - id: di-cosmo-2002
+    kind: book
+    author: Nicola Di Cosmo
+    title: "Ancient China and Its Enemies: The Rise of Nomadic Power in East Asian History"
+    publisher: Cambridge University Press
+    year: 2002
+
+  - id: thapar-2002
+    kind: book
+    author: Romila Thapar
+    title: "Early India: From the Origins to AD 1300"
+    publisher: University of California Press
+    year: 2002
+
+  - id: van-de-mieroop-2015
+    kind: book
+    author: Marc Van De Mieroop
+    title: "A History of the Ancient Near East, ca. 3000-323 BC"
+    publisher: Wiley-Blackwell
+    edition: 3rd
+    year: 2015
+
+  - id: shaw-2000
+    kind: book
+    author: Ian Shaw (ed.)
+    title: The Oxford History of Ancient Egypt
+    publisher: Oxford University Press
+    year: 2000
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors

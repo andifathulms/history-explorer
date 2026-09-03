@@ -1,0 +1,46 @@
+id: kushan
+region: classical-india
+
+name:
+  latin: Kushan Empire
+  script: Κοϸανο
+  script_lang: xbc
+
+span:
+  start: { min: 30, max: 30, source: thapar-2002 }
+  end: { min: 375, max: 375, source: thapar-2002 }
+
+identity: >-
+  The empire on the trade routes between India, Iran and China, and the
+  medium by which Buddhism reached Central Asia.
+
+capitals:
+  - { name: Purushapura, script: पुरुषपुर, from: 30, source: thapar-2002 }
+
+core_region: Bactria, Gandhara and northern India
+
+rulers:
+  founder: { name: Kujula Kadphises, reign: [30, 80], source: thapar-2002 }
+  peak: { name: Kanishka I, reign: [127, 150], source: thapar-2002 }
+  last: { name: Vasudeva II, reign: [290, 375], source: thapar-2002 }
+
+scripts_and_languages:
+  administration: [Bactrian, Prakrit]
+  writing_system: Greek and Kharosthi
+
+ended:
+  type: conquest
+  by: [sasanian]
+  year: 375
+  source: daryaee-2009
+
+measures:
+  reach_km2: { value: 2000000, at: 200, source: taagepera-1979 }
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried:
+      count: 1
+      items: [Mahayana Buddhism]
+      source: thapar-2002
+    successor_claims: { count: null, items: [], source: null }

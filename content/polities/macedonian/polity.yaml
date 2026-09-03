@@ -1,0 +1,43 @@
+id: macedonian
+region: pre-islamic-iran
+
+name:
+  latin: Macedonian Empire
+  script: Μακεδονία
+  script_lang: grc
+
+span:
+  start: { min: -336, max: -336, source: ab-bosworth-1988 }
+  end: { min: -323, max: -323, source: ab-bosworth-1988 }
+
+identity: >-
+  Alexander's conquest of the Achaemenid empire, which lasted thirteen years
+  and rearranged the eastern Mediterranean for a thousand.
+
+capitals:
+  - { name: Babylon, script: Βαβυλών, from: -336, source: ab-bosworth-1988 }
+
+core_region: From Macedon to the Indus
+
+rulers:
+  founder: { name: Alexander III, reign: [-336, -323], source: ab-bosworth-1988 }
+  peak: { name: Alexander III, reign: [-336, -323], source: ab-bosworth-1988 }
+  last: { name: Alexander III, reign: [-336, -323], source: ab-bosworth-1988 }
+
+scripts_and_languages:
+  administration: [Greek, Aramaic]
+  writing_system: Greek
+
+ended:
+  type: fragmentation
+  by: []
+  year: -323
+  source: ab-bosworth-1988
+
+measures:
+  reach_km2: { value: 5200000, at: -323, source: taagepera-1979 }
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

@@ -1,0 +1,43 @@
+id: median
+region: ancient-near-east
+
+name:
+  latin: Median Empire
+  script: 𐎶𐎠𐎭
+  script_lang: peo
+
+span:
+  start: { min: -678, max: -678, source: van-de-mieroop-2015 }
+  end: { min: -549, max: -549, source: van-de-mieroop-2015 }
+
+identity: >-
+  The Iranian power that helped destroy Assyria and was absorbed by the
+  Achaemenids, and whose existence as an empire is disputed.
+
+capitals:
+  - { name: Ecbatana, script: Ecbatana, from: -678, source: van-de-mieroop-2015 }
+
+core_region: Western Iran
+
+rulers:
+  founder: { name: Deioces, reign: [-700, -647], source: van-de-mieroop-2015 }
+  peak: { name: Cyaxares, reign: [-625, -585], source: van-de-mieroop-2015 }
+  last: { name: Astyages, reign: [-585, -549], source: van-de-mieroop-2015 }
+
+scripts_and_languages:
+  administration: [None recorded]
+  writing_system: None recorded
+
+ended:
+  type: conquest
+  by: [achaemenid]
+  year: -549
+  source: briant-2002
+
+measures:
+  reach_km2: { value: 2800000, at: -585, source: taagepera-1979 }
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

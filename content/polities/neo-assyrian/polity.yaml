@@ -1,0 +1,43 @@
+id: neo-assyrian
+region: ancient-near-east
+
+name:
+  latin: Neo-Assyrian Empire
+  script: 𒀸𒋩
+  script_lang: akk
+
+span:
+  start: { min: -911, max: -911, source: van-de-mieroop-2015 }
+  end: { min: -609, max: -609, source: van-de-mieroop-2015 }
+
+identity: >-
+  The first empire to govern the whole Near East with a standing army, mass
+  deportation and a provincial system.
+
+capitals:
+  - { name: Nineveh, script: 𒌷𒉌𒉡𒀀, from: -911, source: van-de-mieroop-2015 }
+
+core_region: Mesopotamia and the Levant
+
+rulers:
+  founder: { name: Adad-nirari II, reign: [-911, -891], source: van-de-mieroop-2015 }
+  peak: { name: Ashurbanipal, reign: [-669, -631], source: van-de-mieroop-2015 }
+  last: { name: Ashur-uballit II, reign: [-612, -609], source: van-de-mieroop-2015 }
+
+scripts_and_languages:
+  administration: [Akkadian, Aramaic]
+  writing_system: Cuneiform
+
+ended:
+  type: conquest
+  by: [median]
+  year: -609
+  source: van-de-mieroop-2015
+
+measures:
+  reach_km2: { value: 1400000, at: -670, source: taagepera-1979 }
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

@@ -28,13 +28,13 @@ regions:
       the whole time it was being asserted.
     thread: true
 
-  - id: late-antique-iran
-    name: Late Antique Iran
+  - id: pre-islamic-iran
+    name: Iran before Islam
     blurb: >-
-      The Iranian empire the Arab conquests ended — Zoroastrian, bureaucratic,
-      and locked in a war with Constantinople that exhausted both of them just
-      before a third party arrived.
-    thread: false
+      Twelve centuries of Iranian empire before the Arab conquests: Achaemenid,
+      Seleucid, Parthian, Sasanian — each of which held roughly the same
+      plateau and claimed, in different terms, to be continuing the last.
+    thread: true
 
   - id: mongol-world
     name: The Mongol World
@@ -78,7 +78,7 @@ regions:
     blurb: >-
       The Roman empire that survived in the east, and the Frankish attempt to
       restore the one that had not survived in the west.
-    thread: false
+    thread: true
 
   - id: east-asia
     name: East Asia
@@ -93,7 +93,7 @@ regions:
     blurb: >-
       The steppe and plateau powers between the caliphate and China: Tibetan,
       Uyghur and Khazar, each of which shaped the others' frontiers.
-    thread: false
+    thread: true
 
   - id: maritime-asia
     name: Maritime Asia
@@ -115,3 +115,17 @@ regions:
       The Turco-Mongol and then Turkmen states that reassembled Iran out of the
       Ilkhanate's collapse, ending with the dynasty that made it Shi'i.
     thread: true
+
+  - id: ancient-near-east
+    name: The Ancient Near East
+    blurb: >-
+      The first territorial empires: Akkad, Egypt's New Kingdom, Assyria and
+      Media, and the argument that any of them was an empire at all.
+    thread: true
+
+  - id: classical-india
+    name: Classical India
+    blurb: >-
+      Maurya, Kushan and Gupta — the subcontinental empires that carried
+      Buddhism out of India and set the terms of its classical culture.
+    thread: false

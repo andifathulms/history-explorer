@@ -1,0 +1,52 @@
+id: roman
+region: byzantium-and-the-latin-west
+
+name:
+  latin: Roman Empire
+  script: Imperium Romanum
+  script_lang: la
+
+span:
+  start: { min: -27, max: -27, source: woolf-2012 }
+  end: { min: 395, max: 395, source: woolf-2012 }
+
+identity: >-
+  The Mediterranean empire whose eastern half became Byzantium, and whose
+  name every later western claimant wanted.
+
+capitals:
+  - { name: Rome, script: Roma, from: -27, source: woolf-2012 }
+
+core_region: The Mediterranean basin
+
+rulers:
+  founder: { name: Augustus, reign: [-27, 14], source: woolf-2012 }
+  peak: { name: Trajan, reign: [98, 117], source: woolf-2012 }
+  last: { name: Theodosius I, reign: [379, 395], source: woolf-2012 }
+
+scripts_and_languages:
+  administration: [Latin, Greek]
+  writing_system: Latin
+
+ended:
+  type: fragmentation
+  by: [byzantine]
+  year: 395
+  source: treadgold-1997
+
+measures:
+  reach_km2: { value: 5000000, at: 117, source: taagepera-1979 }
+  peak_population: null
+  influence:
+    descendant_scripts:
+      count: 1
+      items: [Latin alphabet]
+      source: woolf-2012
+    religions_carried:
+      count: 1
+      items: [Christianity]
+      source: woolf-2012
+    successor_claims:
+      count: 3
+      items: [Byzantine Empire, Carolingian Empire, Ottoman Empire]
+      source: woolf-2012

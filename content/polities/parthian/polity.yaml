@@ -1,0 +1,43 @@
+id: parthian
+region: pre-islamic-iran
+
+name:
+  latin: Parthian Empire
+  script: 𐭀𐭔𐭊𐭍𐭉𐭀
+  script_lang: pal
+
+span:
+  start: { min: -247, max: -247, source: chi-3 }
+  end: { min: 224, max: 224, source: chi-3 }
+
+identity: >-
+  The Arsacid empire that took Iran back from the Greeks and fought Rome to a
+  standstill for nearly three centuries.
+
+capitals:
+  - { name: Ctesiphon, script: Ctesiphon, from: -247, source: chi-3 }
+
+core_region: The Iranian plateau and Mesopotamia
+
+rulers:
+  founder: { name: Arsaces I, reign: [-247, -217], source: chi-3 }
+  peak: { name: Mithridates II, reign: [-124, -88], source: chi-3 }
+  last: { name: Artabanus IV, reign: [213, 224], source: chi-3 }
+
+scripts_and_languages:
+  administration: [Greek, Parthian, Aramaic]
+  writing_system: Aramaic-derived
+
+ended:
+  type: dynastic replacement
+  by: [sasanian]
+  year: 224
+  source: daryaee-2009
+
+measures:
+  reach_km2: { value: 2800000, at: 1, source: taagepera-1979 }
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

@@ -46,4 +46,7 @@ measures:
       count: 1
       items: [Orthodox Christianity]
       source: whittow-1996
-    successor_claims: { count: null, items: [], source: null }
+    successor_claims:
+      count: 1
+      items: [Ottoman Empire]
+      source: imber-2002

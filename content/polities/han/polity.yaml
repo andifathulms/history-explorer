@@ -1,0 +1,46 @@
+id: han
+region: east-asia
+
+name:
+  latin: Han Empire
+  script: 漢
+  script_lang: zh
+
+span:
+  start: { min: -202, max: -202, source: loewe-twitchett-1986 }
+  end: { min: 220, max: 220, source: loewe-twitchett-1986 }
+
+identity: >-
+  The empire that made the Chinese imperial system durable, and the western
+  end of whose trade routes reached Parthia.
+
+capitals:
+  - { name: Chang'an, script: 長安, from: -202, source: loewe-twitchett-1986 }
+
+core_region: The Yellow and Yangtze river basins
+
+rulers:
+  founder: { name: Emperor Gaozu, reign: [-202, -195], source: loewe-twitchett-1986 }
+  peak: { name: Emperor Wu, reign: [-141, -87], source: loewe-twitchett-1986 }
+  last: { name: Emperor Xian, reign: [189, 220], source: loewe-twitchett-1986 }
+
+scripts_and_languages:
+  administration: [Chinese]
+  writing_system: Chinese
+
+ended:
+  type: fragmentation
+  by: []
+  year: 220
+  source: loewe-twitchett-1986
+
+measures:
+  reach_km2: { value: 6500000, at: 100, source: taagepera-1979 }
+  peak_population: null
+  influence:
+    descendant_scripts:
+      count: 1
+      items: [Clerical script]
+      source: loewe-twitchett-1986
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

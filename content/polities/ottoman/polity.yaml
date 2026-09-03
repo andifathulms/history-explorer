@@ -43,7 +43,8 @@ measures:
       count: 1
       items: [Sunni Islam]
       source: imber-2002
-    successor_claims:
-      count: 2
-      items: [Byzantine Empire, Abbasid Caliphate of Cairo]
-      source: imber-2002
+    # Direction matters here and this record had it backwards. The count is of
+    # polities that claimed THIS polity's legitimacy. The Ottomans claimed Rome
+    # and the caliphate; nobody within the period claimed the Ottomans. Those
+    # two claims are recorded on the Byzantine page and as edges.
+    successor_claims: { count: null, items: [], source: null }

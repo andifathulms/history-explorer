@@ -671,3 +671,144 @@ edges:
            still worth crossing the Sahara for."
     source: hunwick-1999
     contested: false
+
+  # ---- Iran before Islam ----
+
+  - from: neo-assyrian
+    to: median
+    type: overthrew
+    year: -612
+    note: "A Median and Babylonian coalition took Nineveh in 612 BC and the
+           Assyrian state was gone within three years."
+    source: van-de-mieroop-2015
+    contested: false
+
+  - from: median
+    to: achaemenid
+    type: overthrew
+    year: -549
+    note: "Cyrus overthrew Astyages and took the Median lands, in a transfer the
+           Achaemenids afterwards presented as a legitimate succession rather
+           than a conquest."
+    source: briant-2002
+    contested: true
+
+  - from: achaemenid
+    to: macedonian
+    type: conquered by
+    year: -330
+    note: "Alexander destroyed the Achaemenid field armies in three battles and
+           took an administrative apparatus that continued functioning under new
+           management."
+    source: ab-bosworth-1988
+    contested: false
+
+  - from: macedonian
+    to: seleucid
+    type: partitioned from
+    year: -312
+    note: "Seleucus took the largest and most difficult share of Alexander's
+           inheritance: Syria, Mesopotamia and the Iranian plateau."
+    source: chi-3
+    contested: false
+
+  - from: seleucid
+    to: parthian
+    type: seceded from
+    year: -247
+    note: "The Arsacids took the Seleucid satrapy of Parthia and spent the next
+           century working west into Media and Mesopotamia."
+    source: chi-3
+    contested: false
+
+  - from: achaemenid
+    to: parthian
+    type: claimed legitimacy of
+    year: -141
+    note: "Arsacid rulers asserted Achaemenid descent in their titulature once
+           they held the Iranian plateau, claiming a continuity the Seleucid
+           interval had broken."
+    source: chi-3
+    contested: true
+
+  - from: parthian
+    to: sasanian
+    type: overthrew
+    year: 224
+    note: "Ardashir, a Sasanian vassal in Fars, killed Artabanus IV at Hormizdgan
+           and replaced a confederation of great houses with a centralised
+           monarchy."
+    source: daryaee-2009
+    contested: false
+
+  - from: achaemenid
+    to: sasanian
+    type: claimed legitimacy of
+    year: 224
+    note: "The Sasanians presented themselves as restoring the Achaemenid empire
+           the Macedonians had destroyed, a claim their own inscriptions make
+           and modern scholarship treats as constructed."
+    source: daryaee-2009
+    contested: true
+
+  - from: kushan
+    to: sasanian
+    type: conquered by
+    year: 230
+    note: "Sasanian campaigns broke Kushan power in Bactria and Gandhara within a
+           decade of the dynasty taking Iran, the one point where this site's
+           Iranian and Indian regions touch directly."
+    source: daryaee-2009
+    contested: false
+
+  # ---- Rome, and the people who wanted its name ----
+
+  - from: roman
+    to: byzantine
+    type: partitioned from
+    year: 395
+    note: "The final administrative division into eastern and western halves; the
+           east continued without a break in institutions, law or
+           self-description for another thousand years."
+    source: treadgold-1997
+    contested: true
+
+  - from: roman
+    to: carolingian
+    type: claimed legitimacy of
+    year: 800
+    note: "Charlemagne was crowned emperor at Rome on the argument that the
+           eastern throne, then held by a woman, was vacant."
+    source: mckitterick-2008
+    contested: false
+
+  - from: roman
+    to: ottoman
+    type: claimed legitimacy of
+    year: 1453
+    note: "Mehmed II took the title Kayser-i Rum on taking Constantinople,
+           claiming the Roman office rather than merely the Byzantine city."
+    source: imber-2002
+    contested: false
+
+  # ---- The steppe ----
+
+  - from: gokturk
+    to: uyghur-khaganate
+    type: absorbed remnants of
+    year: 744
+    note: "The Uyghurs replaced the second Turk khaganate on the Mongolian
+           steppe, inheriting both its ground and its runiform script."
+    source: golden-1992
+    contested: false
+
+  - from: xiongnu
+    to: gokturk
+    type: absorbed remnants of
+    year: 552
+    note: "Steppe authority over the same ground passed through several
+           confederations between the Xiongnu's dissolution and the Turks'
+           revolt, and the Turks were the first to leave their own account of
+           holding it."
+    source: di-cosmo-2002
+    contested: true

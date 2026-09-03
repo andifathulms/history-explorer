@@ -47,6 +47,13 @@ Excluded:
 - **Conquest without a claim.** Taking the territory is an edge in
   `edges.yaml`, not an influence count.
 
+**Direction.** The count on a polity's record is of polities that claimed
+*its* legitimacy — claims pointing *in*, not out. A ruler who takes a
+predecessor's title adds to the predecessor's count, not to his own. This is
+easy to get backwards when the claiming polity is the more famous one: Mehmed II
+taking *Kayser-i Rum* is a claim recorded on Rome and on Byzantium, and the
+Ottoman record counts nothing for it.
+
 **Unit of count:** one per claiming *polity*, not per claiming ruler. Four
 Ghaznavid sultans styling themselves the same way is one claim.
 

@@ -40,7 +40,7 @@ measures:
   influence:
     descendant_scripts: { count: null, items: [], source: null }
     religions_carried: { count: null, items: [], source: null }
-    successor_claims:
-      count: 1
-      items: [Abbasid Caliphate of Cairo]
-      source: el-hibri-2021
+    # The Mamluks drew legitimacy from the caliph they installed at Cairo; the
+    # caliph made no claim on them. That is an edge into this polity, not a
+    # count on it.
+    successor_claims: { count: null, items: [], source: null }

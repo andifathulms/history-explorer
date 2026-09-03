@@ -1,0 +1,43 @@
+id: gupta
+region: classical-india
+
+name:
+  latin: Gupta Empire
+  script: गुप्त साम्राज्य
+  script_lang: sa
+
+span:
+  start: { min: 320, max: 320, source: thapar-2002 }
+  end: { min: 550, max: 550, source: thapar-2002 }
+
+identity: >-
+  The northern Indian empire whose court culture became the classical
+  reference point for Sanskrit literature, art and mathematics.
+
+capitals:
+  - { name: Pataliputra, script: पाटलिपुत्र, from: 320, source: thapar-2002 }
+
+core_region: The Gangetic plain
+
+rulers:
+  founder: { name: Chandragupta I, reign: [320, 335], source: thapar-2002 }
+  peak: { name: Chandragupta II, reign: [375, 415], source: thapar-2002 }
+  last: { name: Vishnugupta, reign: [540, 550], source: thapar-2002 }
+
+scripts_and_languages:
+  administration: [Sanskrit]
+  writing_system: Brahmi
+
+ended:
+  type: fragmentation
+  by: []
+  year: 550
+  source: thapar-2002
+
+measures:
+  reach_km2: { value: 3500000, at: 400, source: taagepera-1979 }
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

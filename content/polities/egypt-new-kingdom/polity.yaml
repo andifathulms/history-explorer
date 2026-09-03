@@ -1,0 +1,43 @@
+id: egypt-new-kingdom
+region: ancient-near-east
+
+name:
+  latin: Egypt, New Kingdom
+  script: 𓆎𓅓𓏏𓊖
+  script_lang: egy
+
+span:
+  start: { min: -1550, max: -1550, source: shaw-2000 }
+  end: { min: -1077, max: -1077, source: shaw-2000 }
+
+identity: >-
+  Egypt at its greatest territorial extent, holding Nubia and the Levant and
+  corresponding with the other great powers as an equal.
+
+capitals:
+  - { name: Thebes, script: 𓋔𓏤, from: -1550, source: shaw-2000 }
+
+core_region: The Nile valley, Nubia and the Levant
+
+rulers:
+  founder: { name: Ahmose I, reign: [-1550, -1525], source: shaw-2000 }
+  peak: { name: Thutmose III, reign: [-1479, -1425], source: shaw-2000 }
+  last: { name: Ramesses XI, reign: [-1107, -1077], source: shaw-2000 }
+
+scripts_and_languages:
+  administration: [Egyptian, Akkadian]
+  writing_system: Hieroglyphic and hieratic
+
+ended:
+  type: fragmentation
+  by: []
+  year: -1077
+  source: shaw-2000
+
+measures:
+  reach_km2: { value: 1000000, at: -1450, source: taagepera-1979 }
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

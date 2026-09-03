@@ -1,0 +1,43 @@
+id: seleucid
+region: pre-islamic-iran
+
+name:
+  latin: Seleucid Empire
+  script: Βασιλεία τῶν Σελευκιδῶν
+  script_lang: grc
+
+span:
+  start: { min: -312, max: -312, source: chi-3 }
+  end: { min: -63, max: -63, source: chi-3 }
+
+identity: >-
+  The largest of Alexander's successor states, and the one that had to govern
+  Iran and Mesopotamia with a Greek-speaking elite.
+
+capitals:
+  - { name: Antioch, script: Ἀντιόχεια, from: -312, source: chi-3 }
+
+core_region: Syria, Mesopotamia and the Iranian plateau
+
+rulers:
+  founder: { name: Seleucus I Nicator, reign: [-312, -281], source: chi-3 }
+  peak: { name: Antiochus III, reign: [-222, -187], source: chi-3 }
+  last: { name: Philip II Philoromaeus, reign: [-65, -63], source: chi-3 }
+
+scripts_and_languages:
+  administration: [Greek, Aramaic]
+  writing_system: Greek
+
+ended:
+  type: conquest
+  by: [roman]
+  year: -63
+  source: woolf-2012
+
+measures:
+  reach_km2: { value: 3900000, at: -301, source: taagepera-1979 }
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

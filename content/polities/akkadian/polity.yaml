@@ -1,0 +1,43 @@
+id: akkadian
+region: ancient-near-east
+
+name:
+  latin: Akkadian Empire
+  script: 𒆳𒌵𒆠
+  script_lang: akk
+
+span:
+  start: { min: -2334, max: -2334, source: van-de-mieroop-2015 }
+  end: { min: -2154, max: -2154, source: van-de-mieroop-2015 }
+
+identity: >-
+  Sargon's state, conventionally the first empire, and the one every later
+  Mesopotamian ruler cited as the precedent.
+
+capitals:
+  - { name: Akkad, script: 𒀀𒂵𒉈𒆠, from: -2334, source: van-de-mieroop-2015 }
+
+core_region: Mesopotamia
+
+rulers:
+  founder: { name: Sargon of Akkad, reign: [-2334, -2279], source: van-de-mieroop-2015 }
+  peak: { name: Naram-Sin, reign: [-2254, -2218], source: van-de-mieroop-2015 }
+  last: { name: Shu-turul, reign: [-2168, -2154], source: van-de-mieroop-2015 }
+
+scripts_and_languages:
+  administration: [Akkadian, Sumerian]
+  writing_system: Cuneiform
+
+ended:
+  type: fragmentation
+  by: []
+  year: -2154
+  source: van-de-mieroop-2015
+
+measures:
+  reach_km2: { value: 650000, at: -2300, source: taagepera-1978b }
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

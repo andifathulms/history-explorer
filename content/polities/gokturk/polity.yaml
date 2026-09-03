@@ -1,0 +1,46 @@
+id: gokturk
+region: inner-asia
+
+name:
+  latin: First Turkic Khaganate
+  script: 𐱅𐰇𐰼𐰰
+  script_lang: otk
+
+span:
+  start: { min: 552, max: 552, source: golden-1992 }
+  end: { min: 603, max: 603, source: golden-1992 }
+
+identity: >-
+  The first polity to call itself Turk, and the one that put a single steppe
+  authority between Byzantium and China.
+
+capitals:
+  - { name: Otukan, script: Otukan, from: 552, source: golden-1992 }
+
+core_region: The Eurasian steppe
+
+rulers:
+  founder: { name: Bumin Qaghan, reign: [552, 552], source: golden-1992 }
+  peak: { name: Istami, reign: [552, 576], source: golden-1992 }
+  last: { name: Tardu, reign: [599, 603], source: golden-1992 }
+
+scripts_and_languages:
+  administration: [Sogdian, Old Turkic]
+  writing_system: Old Turkic
+
+ended:
+  type: fragmentation
+  by: []
+  year: 603
+  source: golden-1992
+
+measures:
+  reach_km2: { value: 6000000, at: 557, source: taagepera-1997 }
+  peak_population: null
+  influence:
+    descendant_scripts:
+      count: 1
+      items: [Old Turkic runiform script]
+      source: golden-1992
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

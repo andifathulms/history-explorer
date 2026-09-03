@@ -1,0 +1,49 @@
+id: achaemenid
+region: pre-islamic-iran
+
+name:
+  latin: Achaemenid Empire
+  script: 𐎧𐏁𐏂
+  script_lang: peo
+
+span:
+  start: { min: -550, max: -550, source: briant-2002 }
+  end: { min: -330, max: -330, source: briant-2002 }
+
+identity: >-
+  The first empire to hold the whole Near East at once, and the administrative
+  model every later Iranian state measured itself against.
+
+capitals:
+  - { name: Persepolis, script: 𐎱𐎠𐎼𐎿, from: -550, source: briant-2002 }
+
+core_region: The Iranian plateau, Mesopotamia, Anatolia and Egypt
+
+rulers:
+  founder: { name: Cyrus II, reign: [-559, -530], source: briant-2002 }
+  peak: { name: Darius I, reign: [-522, -486], source: briant-2002 }
+  last: { name: Darius III, reign: [-336, -330], source: briant-2002 }
+
+scripts_and_languages:
+  administration: [Aramaic, Old Persian, Elamite]
+  writing_system: Cuneiform and Aramaic
+
+ended:
+  type: conquest
+  by: [macedonian]
+  year: -330
+  source: ab-bosworth-1988
+
+measures:
+  reach_km2: { value: 5500000, at: -500, source: taagepera-1979 }
+  peak_population: null
+  influence:
+    descendant_scripts:
+      count: 1
+      items: [Old Persian cuneiform]
+      source: briant-2002
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims:
+      count: 2
+      items: [Parthian Empire, Sasanian Empire]
+      source: briant-2002

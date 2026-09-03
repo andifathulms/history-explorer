@@ -1,0 +1,46 @@
+id: maurya
+region: classical-india
+
+name:
+  latin: Maurya Empire
+  script: मौर्य साम्राज्य
+  script_lang: sa
+
+span:
+  start: { min: -322, max: -322, source: thapar-2002 }
+  end: { min: -185, max: -185, source: thapar-2002 }
+
+identity: >-
+  The first empire to hold most of the subcontinent, and the one whose ruler
+  renounced conquest in inscriptions still standing.
+
+capitals:
+  - { name: Pataliputra, script: पाटलिपुत्र, from: -322, source: thapar-2002 }
+
+core_region: The Indo-Gangetic plain and the Deccan
+
+rulers:
+  founder: { name: Chandragupta Maurya, reign: [-322, -298], source: thapar-2002 }
+  peak: { name: Ashoka, reign: [-268, -232], source: thapar-2002 }
+  last: { name: Brihadratha, reign: [-187, -185], source: thapar-2002 }
+
+scripts_and_languages:
+  administration: [Prakrit, Sanskrit]
+  writing_system: Brahmi
+
+ended:
+  type: internal usurpation
+  by: []
+  year: -185
+  source: thapar-2002
+
+measures:
+  reach_km2: { value: 3400000, at: -250, source: taagepera-1979 }
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried:
+      count: 1
+      items: [Buddhism]
+      source: thapar-2002
+    successor_claims: { count: null, items: [], source: null }
