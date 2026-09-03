@@ -1,0 +1,46 @@
+id: tang
+region: east-asia
+
+name:
+  latin: Tang Empire
+  script: 唐
+  script_lang: zh
+
+span:
+  start: { min: 618, max: 618, source: lewis-2009 }
+  end: { min: 907, max: 907, source: lewis-2009 }
+
+identity: >-
+  The other superpower of the eighth century, and the one the caliphate
+  actually met, once, on the Talas river.
+
+capitals:
+  - { name: Chang'an, script: 長安, from: 618, source: lewis-2009 }
+
+core_region: The Yellow and Yangtze river basins
+
+rulers:
+  founder: { name: Emperor Gaozu, reign: [618, 626], source: lewis-2009 }
+  peak: { name: Emperor Xuanzong, reign: [712, 756], source: lewis-2009 }
+  last: { name: Emperor Ai, reign: [904, 907], source: lewis-2009 }
+
+scripts_and_languages:
+  administration: [Chinese]
+  writing_system: Chinese
+
+ended:
+  type: fragmentation
+  by: []
+  year: 907
+  source: twitchett-1979
+
+measures:
+  reach_km2: { value: 5400000, at: 715, source: taagepera-1997 }
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried:
+      count: 1
+      items: [Mahayana Buddhism]
+      source: lewis-2009
+    successor_claims: { count: null, items: [], source: null }

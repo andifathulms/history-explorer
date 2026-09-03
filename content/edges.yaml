@@ -450,3 +450,53 @@ edges:
            opened by Manzikert."
     source: peacock-yildiz-2013
     contested: false
+
+  # ---- The wider world: contact rather than succession ----
+
+  - from: sasanian
+    to: byzantine
+    type: absorbed remnants of
+    year: 651
+    note: "Byzantium outlived its four-century rival by eight centuries, but the
+           war of 602-628 that exhausted the Sasanians exhausted it too, and both
+           lost their southern provinces to the same conquest."
+    source: treadgold-1997
+    contested: true
+
+  - from: liao
+    to: jin
+    type: overthrew
+    year: 1125
+    note: "Aguda's Jurchen revolt destroyed the empire that had ruled them within
+           eleven years, and the Song alliance that helped it along replaced a
+           tributary neighbour with a conquering one."
+    source: franke-twitchett-1994
+    contested: false
+
+  - from: jin
+    to: mongol
+    type: conquered by
+    year: 1234
+    note: "The Jin took the Mongols over twenty years to destroy, considerably
+           longer than Khwarazm, and occupied Chinggis Khan and his successor for
+           most of that time."
+    source: morgan-2007
+    contested: false
+
+  - from: abbasid
+    to: mongol
+    type: conquered by
+    year: 1258
+    note: "Hulegu took Baghdad, massacred its population over several days, and
+           executed al-Musta'sim, ending five centuries of the office in Iraq."
+    source: morgan-2007
+    contested: false
+
+  - from: rum
+    to: ilkhanate
+    type: vassal of
+    year: 1243
+    note: "After Kose Dag the sultanate continued for sixty years as a tributary
+           whose sultans were installed and removed from Tabriz."
+    source: peacock-yildiz-2013
+    contested: false

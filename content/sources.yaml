@@ -337,6 +337,76 @@ sources:
     publisher: I.B. Tauris
     year: 2013
 
+  - id: treadgold-1997
+    kind: book
+    author: Warren Treadgold
+    title: A History of the Byzantine State and Society
+    publisher: Stanford University Press
+    year: 1997
+
+  - id: whittow-1996
+    kind: book
+    author: Mark Whittow
+    title: "The Making of Orthodox Byzantium, 600-1025"
+    publisher: Macmillan
+    year: 1996
+
+  - id: lewis-2009
+    kind: book
+    author: Mark Edward Lewis
+    title: "China's Cosmopolitan Empire: The Tang Dynasty"
+    publisher: Harvard University Press
+    year: 2009
+
+  - id: twitchett-1979
+    kind: book
+    author: Denis Twitchett (ed.)
+    title: "The Cambridge History of China, Volume 3: Sui and T'ang China, 589-906, Part 1"
+    publisher: Cambridge University Press
+    year: 1979
+
+  - id: franke-twitchett-1994
+    kind: book
+    author: Herbert Franke and Denis Twitchett (eds)
+    title: "The Cambridge History of China, Volume 6: Alien Regimes and Border States, 907-1368"
+    publisher: Cambridge University Press
+    year: 1994
+
+  - id: beckwith-1987
+    kind: book
+    author: Christopher I. Beckwith
+    title: The Tibetan Empire in Central Asia
+    publisher: Princeton University Press
+    year: 1987
+
+  - id: mckitterick-2008
+    kind: book
+    author: Rosamond McKitterick
+    title: "Charlemagne: The Formation of a European Identity"
+    publisher: Cambridge University Press
+    year: 2008
+
+  - id: hall-2011
+    kind: book
+    author: Kenneth R. Hall
+    title: "A History of Early Southeast Asia: Maritime Trade and Societal Development, 100-1500"
+    publisher: Rowman and Littlefield
+    year: 2011
+
+  - id: munro-hay-1991
+    kind: book
+    author: Stuart Munro-Hay
+    title: "Aksum: An African Civilisation of Late Antiquity"
+    publisher: Edinburgh University Press
+    year: 1991
+
+  - id: levtzion-1973
+    kind: book
+    author: Nehemia Levtzion
+    title: Ancient Ghana and Mali
+    publisher: Methuen
+    year: 1973
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors

@@ -1,0 +1,49 @@
+id: byzantine
+region: byzantium-and-the-latin-west
+
+name:
+  latin: Byzantine Empire
+  script: Βασιλεία Ῥωμαίων
+  script_lang: grc
+
+span:
+  start: { min: 395, max: 395, source: treadgold-1997 }
+  end: { min: 1453, max: 1453, source: treadgold-1997 }
+
+identity: >-
+  The Roman empire in its eastern, Greek-speaking continuation: the state the
+  Arab conquests took Syria and Egypt from, and never finished off.
+
+capitals:
+  - { name: Constantinople, script: Κωνσταντινούπολις, from: 395, source: treadgold-1997 }
+
+core_region: Anatolia and the Balkans
+
+rulers:
+  founder: { name: Arcadius, reign: [395, 408], source: treadgold-1997 }
+  peak: { name: Basil II, reign: [976, 1025], source: treadgold-1997 }
+  last: { name: Constantine XI, reign: [1449, 1453], source: treadgold-1997 }
+
+scripts_and_languages:
+  administration: [Greek, Latin]
+  writing_system: Greek
+
+ended:
+  type: conquest
+  by: [ottoman]
+  year: 1453
+  source: treadgold-1997
+
+measures:
+  reach_km2: { value: 1350000, at: 555, source: taagepera-1997 }
+  peak_population: null
+  influence:
+    descendant_scripts:
+      count: 1
+      items: [Cyrillic]
+      source: whittow-1996
+    religions_carried:
+      count: 1
+      items: [Orthodox Christianity]
+      source: whittow-1996
+    successor_claims: { count: null, items: [], source: null }

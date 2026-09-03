@@ -1,0 +1,45 @@
+id: khazar
+region: inner-asia
+
+name:
+  latin: Khazar Khaganate
+  script: Xazar
+  script_lang: kdr
+
+span:
+  start: { min: 650, max: 650, source: golden-1992 }
+  end: { min: 969, max: 969, source: golden-1992 }
+
+identity: >-
+  The steppe power north of the Caucasus that stopped the Arab advance into
+  eastern Europe, and whose elite adopted Judaism.
+
+capitals:
+  - { name: Atil, script: Atil, from: 650, source: golden-1992 }
+
+core_region: The Pontic-Caspian steppe
+
+rulers:
+  founder: { name: Bulan, reign: [740, 750], source: golden-1992 }
+  peak: { name: Joseph, reign: [930, 960], source: golden-1992 }
+  last: { name: Joseph, reign: [930, 960], source: golden-1992 }
+
+scripts_and_languages:
+  administration: [Khazar, Hebrew]
+  writing_system: Old Turkic
+
+ended:
+  type: conquest
+  # Kievan Rus is not on this site and not in the reference set. Named in the
+  # prose rather than given an id that resolves to nothing.
+  by: []
+  year: 969
+  source: golden-1992
+
+measures:
+  reach_km2: { value: 3000000, at: 850, source: taagepera-1997 }
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

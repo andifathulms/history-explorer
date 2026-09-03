@@ -1,0 +1,49 @@
+id: tibetan-empire
+region: inner-asia
+
+name:
+  latin: Tibetan Empire
+  script: བོད་ཆེན་པོ
+  script_lang: bo
+
+span:
+  start: { min: 618, max: 618, source: beckwith-1987 }
+  end: { min: 842, max: 842, source: beckwith-1987 }
+
+identity: >-
+  The plateau empire that fought the Tang and the caliphate at the same
+  time, and briefly held both Chang'an and the Silk Road oases.
+
+capitals:
+  - { name: Lhasa, script: ལྷ་ས, from: 618, source: beckwith-1987 }
+
+core_region: The Tibetan plateau and the Tarim basin
+
+rulers:
+  founder: { name: Songtsen Gampo, reign: [618, 649], source: beckwith-1987 }
+  peak: { name: Trisong Detsen, reign: [755, 797], source: beckwith-1987 }
+  last: { name: Langdarma, reign: [838, 842], source: beckwith-1987 }
+
+scripts_and_languages:
+  administration: [Tibetan]
+  writing_system: Tibetan
+
+ended:
+  type: fragmentation
+  by: []
+  year: 842
+  source: beckwith-1987
+
+measures:
+  reach_km2: { value: 4600000, at: 800, source: taagepera-1997 }
+  peak_population: null
+  influence:
+    descendant_scripts:
+      count: 1
+      items: [Tibetan script]
+      source: beckwith-1987
+    religions_carried:
+      count: 1
+      items: [Tibetan Buddhism]
+      source: beckwith-1987
+    successor_claims: { count: null, items: [], source: null }

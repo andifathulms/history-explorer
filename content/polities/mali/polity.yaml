@@ -1,0 +1,46 @@
+id: mali
+region: africa
+
+name:
+  latin: Mali Empire
+  script: Manden Kurufaba
+  script_lang: man
+
+span:
+  start: { min: 1235, max: 1235, source: levtzion-1973 }
+  end: { min: 1670, max: 1670, source: levtzion-1973 }
+
+identity: >-
+  The Niger empire that controlled the southern end of the gold routes the
+  whole Mediterranean economy depended on.
+
+capitals:
+  - { name: Niani, script: Niani, from: 1235, source: levtzion-1973 }
+
+core_region: The upper Niger
+
+rulers:
+  founder: { name: Sundiata Keita, reign: [1235, 1255], source: levtzion-1973 }
+  peak: { name: Mansa Musa, reign: [1312, 1337], source: levtzion-1973 }
+  last: { name: Mahmud IV, reign: [1590, 1610], source: levtzion-1973 }
+
+scripts_and_languages:
+  administration: [Arabic, Malinke]
+  writing_system: Arabic
+
+ended:
+  type: fragmentation
+  by: []
+  year: 1670
+  source: levtzion-1973
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried:
+      count: 1
+      items: [Sunni Islam]
+      source: levtzion-1973
+    successor_claims: { count: null, items: [], source: null }

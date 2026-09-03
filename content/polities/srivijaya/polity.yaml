@@ -1,0 +1,49 @@
+id: srivijaya
+region: maritime-asia
+
+name:
+  latin: Srivijaya
+  script: ᬰ᭄ᬭᬷᬯᬶᬚᬬ
+  script_lang: sa
+
+span:
+  start: { min: 671, max: 671, source: hall-2011 }
+  end: { min: 1275, max: 1275, source: hall-2011 }
+
+identity: >-
+  A thalassocracy on the Melaka and Sunda straits, whose power came from
+  controlling a passage rather than holding territory.
+
+capitals:
+  - { name: Palembang, script: Palembang, from: 671, source: hall-2011 }
+
+core_region: Sumatra and the straits
+
+rulers:
+  founder: { name: Dapunta Hyang Sri Jayanasa, reign: [671, 702], source: hall-2011 }
+  peak: { name: Balaputradewa, reign: [835, 860], source: hall-2011 }
+  last: { name: Unknown, reign: [1275, 1275], source: hall-2011 }
+
+scripts_and_languages:
+  administration: [Old Malay, Sanskrit]
+  writing_system: Pallava-derived
+
+ended:
+  type: gradual absorption
+  by: []
+  year: 1275
+  source: hall-2011
+
+measures:
+  # Taagepera does not tabulate a maritime polity whose power was over sea
+  # lanes rather than land. No cited km2, and computing one from the map
+  # polygon is forbidden by hard rule 5.
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried:
+      count: 1
+      items: [Mahayana Buddhism]
+      source: hall-2011
+    successor_claims: { count: null, items: [], source: null }

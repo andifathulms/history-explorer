@@ -1,0 +1,46 @@
+id: liao
+region: east-asia
+
+name:
+  latin: Liao Empire
+  script: 大遼
+  script_lang: zh
+
+span:
+  start: { min: 916, max: 916, source: franke-twitchett-1994 }
+  end: { min: 1125, max: 1125, source: franke-twitchett-1994 }
+
+identity: >-
+  The Khitan empire of the northern frontier, which governed steppe and
+  farmland through two separate administrations at once.
+
+capitals:
+  - { name: Shangjing, script: 上京, from: 916, source: franke-twitchett-1994 }
+
+core_region: Manchuria and the northern steppe
+
+rulers:
+  founder: { name: Abaoji, reign: [916, 926], source: franke-twitchett-1994 }
+  peak: { name: Emperor Shengzong, reign: [982, 1031], source: franke-twitchett-1994 }
+  last: { name: Emperor Tianzuo, reign: [1101, 1125], source: franke-twitchett-1994 }
+
+scripts_and_languages:
+  administration: [Khitan, Chinese]
+  writing_system: Khitan
+
+ended:
+  type: conquest
+  by: [jin]
+  year: 1125
+  source: franke-twitchett-1994
+
+measures:
+  reach_km2: { value: 2600000, at: 947, source: taagepera-1997 }
+  peak_population: null
+  influence:
+    descendant_scripts:
+      count: 2
+      items: [Khitan large script, Khitan small script]
+      source: franke-twitchett-1994
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

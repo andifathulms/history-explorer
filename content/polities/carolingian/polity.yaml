@@ -1,0 +1,46 @@
+id: carolingian
+region: byzantium-and-the-latin-west
+
+name:
+  latin: Carolingian Empire
+  script: Imperium Francorum
+  script_lang: la
+
+span:
+  start: { min: 800, max: 800, source: mckitterick-2008 }
+  end: { min: 888, max: 888, source: mckitterick-2008 }
+
+identity: >-
+  Charlemagne's Frankish empire, and the west's attempt to have a Roman
+  emperor of its own again.
+
+capitals:
+  - { name: Aachen, script: Aquisgranum, from: 800, source: mckitterick-2008 }
+
+core_region: Gaul, Germany and northern Italy
+
+rulers:
+  founder: { name: Charlemagne, reign: [800, 814], source: mckitterick-2008 }
+  peak: { name: Charlemagne, reign: [800, 814], source: mckitterick-2008 }
+  last: { name: Charles the Fat, reign: [881, 887], source: mckitterick-2008 }
+
+scripts_and_languages:
+  administration: [Latin]
+  writing_system: Latin
+
+ended:
+  type: fragmentation
+  by: []
+  year: 888
+  source: mckitterick-2008
+
+measures:
+  reach_km2: { value: 1100000, at: 800, source: taagepera-1997 }
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried:
+      count: 1
+      items: [Latin Christianity]
+      source: mckitterick-2008
+    successor_claims: { count: null, items: [], source: null }

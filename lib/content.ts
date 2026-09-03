@@ -214,6 +214,18 @@ export function loadCorpus(): Corpus {
   }
 
   const edges = readYaml<{ edges: Edge[] }>('edges.yaml').edges
+  // A pair may legitimately carry several edges — Ghazna made the Ghurids its
+  // client and the Ghurids later ended Ghazna, and collapsing those would lose
+  // the point. The same triple twice is always a mistake, though: it double
+  // counts a single claim in every view that tallies edges.
+  const seen = new Set<string>()
+  for (const e of edges) {
+    const key = `${e.from}|${e.to}|${e.type}`
+    if (seen.has(key)) {
+      throw new ContentError('edges.yaml', `duplicate edge ${e.from} -> ${e.to} (${e.type})`)
+    }
+    seen.add(key)
+  }
   edges.forEach((e, i) => {
     const where = `edges.yaml[${i}] ${e.from} -> ${e.to}`
     requireSource(e.source, where)

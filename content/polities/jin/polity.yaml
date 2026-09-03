@@ -1,0 +1,46 @@
+id: jin
+region: east-asia
+
+name:
+  latin: Jin Empire
+  script: 大金
+  script_lang: zh
+
+span:
+  start: { min: 1115, max: 1115, source: franke-twitchett-1994 }
+  end: { min: 1234, max: 1234, source: franke-twitchett-1994 }
+
+identity: >-
+  The Jurchen empire that destroyed the Liao and took northern China, and
+  was destroyed by the Mongols in turn.
+
+capitals:
+  - { name: Zhongdu, script: 中都, from: 1115, source: franke-twitchett-1994 }
+
+core_region: Manchuria and northern China
+
+rulers:
+  founder: { name: Aguda, reign: [1115, 1123], source: franke-twitchett-1994 }
+  peak: { name: Emperor Shizong, reign: [1161, 1189], source: franke-twitchett-1994 }
+  last: { name: Emperor Modi, reign: [1234, 1234], source: franke-twitchett-1994 }
+
+scripts_and_languages:
+  administration: [Jurchen, Chinese]
+  writing_system: Jurchen
+
+ended:
+  type: conquest
+  by: [mongol]
+  year: 1234
+  source: franke-twitchett-1994
+
+measures:
+  reach_km2: { value: 2300000, at: 1150, source: taagepera-1997 }
+  peak_population: null
+  influence:
+    descendant_scripts:
+      count: 1
+      items: [Jurchen script]
+      source: franke-twitchett-1994
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

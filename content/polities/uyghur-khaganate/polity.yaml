@@ -1,0 +1,48 @@
+id: uyghur-khaganate
+region: inner-asia
+
+name:
+  latin: Uyghur Khaganate
+  script: Toquz Oghuz
+  script_lang: otk
+
+span:
+  start: { min: 744, max: 744, source: golden-1992 }
+  end: { min: 840, max: 840, source: golden-1992 }
+
+identity: >-
+  The steppe empire that propped up the Tang after An Lushan, and adopted
+  Manichaeism as a state religion.
+
+capitals:
+  - { name: Ordu-Baliq, script: Ordu-Baliq, from: 744, source: golden-1992 }
+
+core_region: The Mongolian steppe
+
+rulers:
+  founder: { name: Qutlugh Bilge Kol, reign: [744, 747], source: golden-1992 }
+  peak: { name: Bogu Khagan, reign: [759, 779], source: golden-1992 }
+  last: { name: Kchik Khagan, reign: [839, 840], source: golden-1992 }
+
+scripts_and_languages:
+  administration: [Old Turkic, Sogdian]
+  writing_system: Old Turkic
+
+ended:
+  type: conquest
+  # The Kyrgyz are not a polity on this site and are not in the reference set,
+  # so they cannot be named here without inventing an id. Named in the prose.
+  by: []
+  year: 840
+  source: golden-1992
+
+measures:
+  reach_km2: { value: 3100000, at: 800, source: taagepera-1997 }
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried:
+      count: 1
+      items: [Manichaeism]
+      source: golden-1992
+    successor_claims: { count: null, items: [], source: null }

@@ -1,0 +1,49 @@
+id: aksum
+region: africa
+
+name:
+  latin: Kingdom of Aksum
+  script: አክሱም
+  script_lang: gez
+
+span:
+  start: { min: 100, max: 100, source: munro-hay-1991 }
+  end: { min: 940, max: 940, source: munro-hay-1991 }
+
+identity: >-
+  The Red Sea kingdom that minted its own gold coinage and adopted
+  Christianity in the fourth century, before Rome's west had finished.
+
+capitals:
+  - { name: Aksum, script: አክሱም, from: 100, source: munro-hay-1991 }
+
+core_region: The northern Ethiopian highlands
+
+rulers:
+  founder: { name: Unknown, reign: [100, 100], source: munro-hay-1991 }
+  peak: { name: Ezana, reign: [320, 360], source: munro-hay-1991 }
+  last: { name: Unknown, reign: [940, 940], source: munro-hay-1991 }
+
+scripts_and_languages:
+  administration: [Ge'ez, Greek]
+  writing_system: Ge'ez
+
+ended:
+  type: gradual absorption
+  by: []
+  year: 940
+  source: munro-hay-1991
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts:
+      count: 1
+      items: [Ge'ez vocalised syllabary]
+      source: munro-hay-1991
+    religions_carried:
+      count: 1
+      items: [Miaphysite Christianity]
+      source: munro-hay-1991
+    successor_claims: { count: null, items: [], source: null }

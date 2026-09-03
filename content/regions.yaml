@@ -72,3 +72,39 @@ regions:
       The Byzantine heartland after Manzikert, ruled by a branch of the Seljuk
       house that outlasted the empire it came from.
     thread: false
+
+  - id: byzantium-and-the-latin-west
+    name: Byzantium and the Latin West
+    blurb: >-
+      The Roman empire that survived in the east, and the Frankish attempt to
+      restore the one that had not survived in the west.
+    thread: false
+
+  - id: east-asia
+    name: East Asia
+    blurb: >-
+      Tang China and the conquest dynasties of the northern frontier — the
+      other end of the Silk Road, and the only states of the period comparable
+      in scale to the caliphate.
+    thread: true
+
+  - id: inner-asia
+    name: Inner Asia
+    blurb: >-
+      The steppe and plateau powers between the caliphate and China: Tibetan,
+      Uyghur and Khazar, each of which shaped the others' frontiers.
+    thread: false
+
+  - id: maritime-asia
+    name: Maritime Asia
+    blurb: >-
+      The polities of the sea routes rather than the land ones, whose power
+      came from controlling straits instead of territory.
+    thread: false
+
+  - id: africa
+    name: Africa
+    blurb: >-
+      Aksum on the Red Sea and Mali on the Niger — the northern end of one
+      trade system and the southern end of another.
+    thread: false
