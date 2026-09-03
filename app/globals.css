@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark light;
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply font-latin text-body antialiased;
+  }
+
+  /* Visible keyboard focus everywhere. Never remove without a replacement. */
+  :focus-visible {
+    outline: 2px solid theme('colors.firuze');
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  ::selection {
+    background: theme('colors.firuze');
+    color: theme('colors.dawat');
+  }
+
+  /* Long-form text must not force horizontal scroll at 100% zoom. */
+  p, li, blockquote, h1, h2, h3 {
+    overflow-wrap: break-word;
+  }
+
+  [lang='fa'],
+  [lang='ar'] {
+    @apply font-arabic;
+    direction: rtl;
+    unicode-bidi: isolate;
+  }
+}
+
+@layer utilities {
+  .skip-link {
+    @apply absolute left-2 top-2 z-50 -translate-y-16 bg-firuze px-3 py-2 text-dawat
+      focus:translate-y-0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
