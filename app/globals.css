@@ -5,14 +5,28 @@
 @layer base {
   :root {
     color-scheme: dark light;
+
+    /* Grain. One SVG turbulence, reused by every ground so the two never look
+       like they came from different sites. Kept far below the threshold where
+       it would cost text contrast. */
+    --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)' opacity='0.5'/%3E%3C/svg%3E");
   }
 
   html {
     -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+    /* Anchors clear the sticky nav rather than landing under it. */
+    scroll-padding-top: 5.5rem;
   }
 
   body {
     @apply font-latin text-body antialiased;
+  }
+
+  /* Figures are the subject matter here, so they get the mono face and true
+     tabular alignment wherever they sit in a column. */
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
   }
 
   /* Visible keyboard focus everywhere. Never remove without a replacement.
@@ -22,18 +36,18 @@
      paper-ground pages get the darkened variant. Keyed off the ground class
      itself so no component has to remember to pass anything. */
   :focus-visible {
-    outline: 2px solid theme('colors.firuze');
+    outline: 2px solid theme('colors.firuze.bright');
     outline-offset: 3px;
-    border-radius: 2px;
+    border-radius: 3px;
   }
 
-  .bg-kaghaz :focus-visible {
+  .ground-paper :focus-visible {
     outline-color: theme('colors.firuze-ink');
   }
 
   ::selection {
-    background: theme('colors.firuze');
-    color: theme('colors.dawat');
+    background: theme('colors.firuze.DEFAULT');
+    color: theme('colors.dawat.DEFAULT');
   }
 
   /* Long-form text must not force horizontal scroll at 100% zoom. */
@@ -49,14 +63,120 @@
   }
 }
 
+@layer components {
+  /* --- Grounds -------------------------------------------------------------
+     Dark for navigating, light for reading. Each ground is a class rather than
+     a bare background utility so the grain, the focus colour and the ambient
+     wash travel with it and cannot be applied half-way. */
+
+  .ground-dark {
+    @apply bg-dawat text-kaghaz;
+    position: relative;
+    isolation: isolate;
+  }
+
+  .ground-paper {
+    @apply bg-kaghaz text-dawat;
+    position: relative;
+    isolation: isolate;
+  }
+
+  .ground-dark::before,
+  .ground-paper::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background-image: var(--grain);
+    background-repeat: repeat;
+  }
+
+  .ground-dark::before {
+    opacity: 0.05;
+  }
+
+  .ground-paper::before {
+    opacity: 0.035;
+  }
+
+  /* A single low, wide wash of tile blue behind the top of a dark page. It is
+     the only gradient on the site and it never sits behind reading text. */
+  .wash-dark::after {
+    content: '';
+    position: absolute;
+    inset: 0 0 auto 0;
+    height: 90vh;
+    z-index: -1;
+    pointer-events: none;
+    background:
+      radial-gradient(120% 70% at 12% 0%, rgba(27, 74, 107, 0.42), transparent 62%),
+      radial-gradient(80% 55% at 88% 4%, rgba(62, 156, 156, 0.16), transparent 60%);
+  }
+
+  /* --- Type ---------------------------------------------------------------- */
+
+  /* The mono kicker above a heading. DESIGN.md forbids eyebrow labels *in
+     prose*; this is navigation furniture on section headers, and it is what
+     lets a heading be a heading instead of a heading plus an explanation. */
+  .kicker {
+    @apply font-mono text-meta uppercase;
+  }
+
+  .rule {
+    @apply border-0 border-t;
+  }
+
+  /* --- Surfaces ------------------------------------------------------------ */
+
+  .card-dark {
+    @apply border border-dawat-edge bg-dawat-raise;
+    transition:
+      background-color 220ms cubic-bezier(0.22, 0.61, 0.36, 1),
+      border-color 220ms cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+
+  .card-paper {
+    @apply border border-kashi/12 bg-kaghaz-raise;
+    transition:
+      box-shadow 220ms cubic-bezier(0.22, 0.61, 0.36, 1),
+      border-color 220ms cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+
+  /* --- The measure --------------------------------------------------------- */
+
+  .prose-measure > * + * {
+    @apply mt-5;
+  }
+}
+
 @layer utilities {
   .skip-link {
-    @apply absolute left-2 top-2 z-50 -translate-y-16 bg-firuze px-3 py-2 text-dawat
-      focus:translate-y-0;
+    @apply absolute left-4 top-4 z-50 -translate-y-24 rounded bg-firuze px-4 py-2
+      font-mono text-meta uppercase text-dawat focus:translate-y-0;
+  }
+
+  /* An underline that grows from the left on hover. Interaction-triggered, so
+     it is welcome under the motion rule: it shows what changed. */
+  .link-underline {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-size: 0% 1px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 260ms cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+
+  .link-underline:hover,
+  .link-underline:focus-visible {
+    background-size: 100% 1px;
   }
 }
 
 @media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
   *,
   *::before,
   *::after {
@@ -70,9 +190,9 @@
 /* ---------------------------------------------------------------------------
    The thread's one orchestrated moment.
 
-   On the landing view the line draws itself once from 819 to 1231, with polity
-   names appearing as it passes. Roughly 1.4s, then completely still. Nothing
-   else on the site animates on its own.
+   On the continuity section the line draws itself once across the region's
+   span, with polity names appearing as it passes. Roughly 1.4s, then completely
+   still. Nothing else on the site animates on its own.
 
    Done in CSS rather than JavaScript so that prefers-reduced-motion is resolved
    by the stylesheet before first paint, rather than by a media query read after
