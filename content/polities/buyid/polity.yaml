@@ -1,0 +1,63 @@
+id: buyid
+name:
+  latin: Buyid Confederation
+  script: آل بویه
+  script_lang: fa
+
+span:
+  start: { min: 934, max: 934, source: bosworth-1996 }
+  end: { min: 1055, max: 1062, source: bosworth-1996, max_source: iranica-al-e-buya }
+
+identity: >-
+  A Daylamite family from the Caspian highlands that took Baghdad, kept the
+  Abbasid caliph, and ruled in his name as Shi'i amirs over a Sunni caliphate.
+
+capitals:
+  - { name: Shiraz, script: شیراز, from: 934, source: iranica-al-e-buya }
+  - { name: Rayy, script: ری, from: 943, source: iranica-al-e-buya }
+  - { name: Baghdad, script: بغداد, from: 945, source: busse-1975 }
+
+core_region: Fars, Jibal and Iraq
+
+rulers:
+  founder:
+    name: Ali ibn Buya, Imad al-Dawla
+    script: عماد الدوله
+    reign: [934, 949]
+    source: bosworth-1996
+  peak:
+    name: Adud al-Dawla
+    script: عضد الدوله
+    reign: [949, 983]
+    source: bosworth-1996
+  last:
+    name: Abu Nasr al-Malik al-Rahim
+    script: الملک الرحیم
+    reign: [1048, 1055]
+    source: bosworth-1996
+
+scripts_and_languages:
+  administration: [Arabic, Persian]
+  writing_system: Perso-Arabic
+
+ended:
+  type: conquest
+  by: [great-seljuk]
+  year: 1055
+  source: busse-1975
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: iranica-al-e-buya }
+    # Buyid patronage built durable Twelver institutions — the shrine cities,
+    # the public Ashura and Ghadir observances at Baghdad, the scholarly
+    # establishment around Shaykh al-Mufid — in territory that had not held
+    # them. That is institution-building, not confessional posture, so it
+    # counts under the coding rules.
+    religions_carried:
+      count: 1
+      items: [Twelver Shi'ism]
+      source: busse-1975
+    successor_claims: { count: 0, items: [], source: busse-1975 }
