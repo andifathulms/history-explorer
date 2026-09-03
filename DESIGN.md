@@ -45,12 +45,19 @@ Persian ceramic, deliberately cooled. Two grounds, each with a job.
 
 | Token | Hex | Job |
 |---|---|---|
-| `dawat` | `#0E1A24` | Ink-over-lapis. Ground for navigating: home, continuity, maps. |
-| `kaghaz` | `#E7E9E3` | Cool grey-green paper. Ground for reading and for tables. |
+| `dawat` | `#0B1520` | Ink-over-lapis. Ground for navigating: home, continuity, maps. |
+| `kaghaz` | `#E9EBE5` | Cool grey-green paper. Ground for reading and for tables. |
 | `kashi` | `#1B4A6B` | Tile blue. Structure: rules, rail, headings on paper. |
 | `firuze` | `#3E9C9C` | Turquoise. The thread itself, and only the thread. |
 | `zarrin` | `#C08A2E` | Saffron. Peak-phase markers only. Nothing else. |
 | `debu` | `#7C8079` | Dust. Secondary text, gap states. |
+
+Each of these now carries steps rather than a single value — `dawat.raise` and
+`dawat.edge` for a surface and its hairline, `kaghaz.raise` for a card on paper,
+`kashi.deep` for display type, `firuze.bright` for the dark ground. The roles did
+not change and no seventh hue was added. A palette gains a colour the moment a
+section wants to feel like itself, and a site that recolours by civilisation is
+asserting a character for each one.
 
 Dark for navigating, light for reading. Switching grounds tells you which mode
 you are in without a label — and with several sections it now carries more
@@ -68,17 +75,35 @@ it does not.
 
 ## Type
 
-**Spectral** for everything Latin — headings and body both, distinguished by size
-and weight rather than by a second face. It holds up at reading length and has a
-slight dryness that suits a reference work.
+**Spectral** for reading — chapters, prose, identity lines. It holds up at
+reading length and has a slight dryness that suits a reference work.
+
+**Fraunces** for headings, and only headings. The earlier draft of this document
+argued for one Latin face distinguished by size alone, and that was right when
+the largest thing on the site was 34px. At 84px it stopped being right: Spectral
+scaled to display size reads as a large paragraph, not as a title, and the front
+door needed a voice. The rule that survives is the underlying one — a second face
+must do a different job, not add flavour.
+
+**IBM Plex Mono** for figures: years, percentiles, km², axis labels, table heads,
+the kicker above a section title. On this site a number is the subject matter
+rather than furniture, and a column of them should line up because they are meant
+to be compared. It is also what keeps a slider value from looking like prose you
+cannot edit.
 
 **Amiri** for Perso-Arabic. It is here to set سامانیان and غزنویان properly,
 which is content, not ornament — the writing system is one of the fields the site
 records. A region using another script adds a face on the same terms: because the
 content is in that script, not to give the section a flavour.
 
-Body 18px/1.65, measure capped at 68 characters. Chapter titles 28px/600 in
-`kashi` on paper. No all-caps in prose. No eyebrow labels above headings.
+Body 18px/1.65, measure capped at 68 characters. Display sizes are fluid, so the
+hero is a hero on a laptop and still fits a phone without a breakpoint. Chapter
+titles in Fraunces, `kashi.deep` on paper.
+
+No all-caps in prose, and no eyebrow labels above a heading *inside* a chapter.
+The mono kicker over a section title is navigation furniture rather than an
+eyebrow: with seven routes it says which section you are standing in, which is
+worth a line.
 
 ## Layout
 
@@ -135,13 +160,16 @@ tooltip.
 
 ## The home page
 
-A hub, and deliberately a plain one: a statement of what the site holds, four
-section cards, and a line of counts. It is the one page that must keep working as
+A hub: a statement of what the site holds, the corpus drawn as one figure, a row
+of live counts, and section cards. It is the one page that must keep working as
 sections are added, so it is a grid that grows rather than a composition that
-would need rebalancing.
+would need rebalancing — the cards went from four to six without a redesign,
+which was the test.
 
 It does not draw the thread. The thread was the old landing view, and leaving it
-there would keep telling readers that succession is the subject.
+there would keep telling readers that succession is the subject. The corpus
+figure is not a replacement hero: it is the grammar, and a grammar scales to
+sections that do not exist yet where a hero does not.
 
 ## Motion
 
@@ -212,3 +240,38 @@ demoting a signature element is to replace it with a new one so the home page
 still has a hero. Resisted — the home page is a hub, and the site's identity now
 rests on the grammar (length is a cited quantity) rather than on a single drawn
 object. A grammar scales to sections that do not exist yet. A hero does not.
+
+## The 2026 rework
+
+The site was correct and looked provisional. Everything in this pass is frame:
+no figure moved, no citation changed, and no rule about gaps was relaxed.
+
+**Texture.** One SVG grain at 5% on dark and 3.5% on paper, and one wide wash of
+tile blue behind the top of dark landing views. That is the entire inventory. The
+wash never sits behind reading text and the grain never costs contrast. The
+temptation with a dark ground is to keep adding glow until the page looks lit;
+resisted, because the corpus figure is the only thing on the home page that
+should draw the eye.
+
+**The corpus figure.** The home page now opens with every polity drawn as a
+hairline on one axis. This is the grammar shown rather than asserted — the same
+bars the timeline and the rankings use, at the density that shows how much of
+history the corpus is and is not. It is deliberately not an illustration: there
+is no artwork here that a reader could mistake for an argument.
+
+**Bars in every ranking column.** The table used to draw a bar only for the
+weighted total, which is the one number the site does not stand behind. The
+three it does stand behind were text. Now every axis carries the bar, an absent
+axis leaves the bar area empty and says *No cited figure* in words, and a
+contested longevity draws both ends of its range.
+
+**A shell.** Sticky nav, a footer that restates the constraint rather than the
+branding, and one set of page primitives. Adding a section is supposed to be a
+new route over the same corpus, and that is only true if the frame is not part of
+what has to be rewritten.
+
+**What was resisted.** A hero image. A second accent colour. Card hovers on the
+home grid that lift and shadow. Scroll-triggered entrances. Each of those would
+have made a screenshot better and the reading worse, and the site's identity
+still rests on the grammar — length is a cited quantity — rather than on any one
+drawn object.

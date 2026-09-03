@@ -60,7 +60,11 @@ export default function PolityPage({ params }: { params: { id: string } }) {
   // values the rating panel expands on, printed once at the top rather than
   // waiting at the foot of a long page — and a missing one says so here too.
   const headline = [
-    { label: 'Reach', value: formatKm2(p.measures.reach_km2?.value ?? null) },
+    {
+      label: 'Reach',
+      value: formatKm2(p.measures.reach_km2?.value ?? null),
+      gap: p.measures.reach_km2?.value == null,
+    },
     {
       label: 'Lasted',
       value:
@@ -69,8 +73,9 @@ export default function PolityPage({ params }: { params: { id: string } }) {
     {
       label: 'Population',
       value: formatPopulation(p.measures.peak_population?.value ?? null),
+      gap: p.measures.peak_population?.value == null,
     },
-    { label: 'Ended by', value: p.ended ? p.ended.type : NO_FIGURE },
+    { label: 'Ended by', value: p.ended ? p.ended.type : NO_FIGURE, gap: !p.ended },
   ]
 
   return (

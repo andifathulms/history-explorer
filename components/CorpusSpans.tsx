@@ -34,9 +34,13 @@ export function CorpusSpans({ polities }: { polities: Polity[] }) {
 
   return (
     <figure className="mt-14">
+      {/* On a phone the axis labels would shrink below legibility if the whole
+          four millennia were squeezed into 350px, so the figure keeps a floor
+          width and scrolls instead. */}
+      <div className="-mx-5 overflow-x-auto px-5 sm:mx-0 sm:px-0">
       <svg
         viewBox={`0 0 ${W} ${H}`}
-        className="w-full"
+        className="w-full min-w-[620px]"
         role="img"
         aria-label={`Every polity on the site drawn as a span, ${formatYear(first)} to ${formatYear(
           last,
@@ -96,6 +100,7 @@ export function CorpusSpans({ polities }: { polities: Polity[] }) {
           )
         })}
       </svg>
+      </div>
       <figcaption className="mt-5 flex flex-wrap items-center gap-x-6 gap-y-2 font-mono text-micro uppercase text-debu-paper">
         <span className="flex items-center gap-2">
           <span className="inline-block h-[3px] w-6 rounded-full bg-firuze/85" /> agreed extent

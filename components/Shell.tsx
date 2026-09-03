@@ -81,12 +81,18 @@ export function PageHead({
   )
 }
 
-/** A run of counts under a page head. Figures in mono, labels beneath. */
+/**
+ * A run of counts under a page head. Figures in mono, labels above.
+ *
+ * `gap: true` renders the value as an absence rather than a figure — italic,
+ * in dust, at reading size. A missing measure set in 22px mono next to a real
+ * one reads as data, which is the one thing it must not do.
+ */
 export function StatRow({
   stats,
   ground,
 }: {
-  stats: { value: React.ReactNode; label: string }[]
+  stats: { value: React.ReactNode; label: string; gap?: boolean }[]
   ground: 'dark' | 'paper'
 }) {
   const dark = ground === 'dark'
@@ -100,8 +106,10 @@ export function StatRow({
         <div key={s.label} className={`px-5 py-5 ${dark ? 'bg-dawat' : 'bg-kaghaz-raise'}`}>
           <dt className={`kicker ${dark ? 'text-debu-paper' : 'text-debu-ink'}`}>{s.label}</dt>
           <dd
-            className={`mt-2 font-mono text-[22px] leading-tight tabular-nums [overflow-wrap:anywhere] ${
-              dark ? 'text-kaghaz' : 'text-kashi-deep'
+            className={`mt-2 leading-tight [overflow-wrap:anywhere] ${
+              s.gap
+                ? 'text-[16px] italic text-debu-ink'
+                : `font-mono text-[22px] tabular-nums ${dark ? 'text-kaghaz' : 'text-kashi-deep'}`
             }`}
           >
             {s.value}
