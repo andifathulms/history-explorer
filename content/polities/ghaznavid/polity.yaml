@@ -1,0 +1,64 @@
+id: ghaznavid
+name:
+  latin: Ghaznavid Empire
+  script: غزنویان
+  script_lang: fa
+
+# 962 is Alptigin's seizure of Ghazna; 977 is Sebuktigin's accession, from which
+# Bosworth dates the dynasty proper. Alptigin founded a garrison lordship, not a
+# dynasty, and the two dates answer different questions, so both are kept.
+span:
+  start: { min: 962, max: 977, source: bosworth-1963, max_source: bosworth-1996 }
+  end: { min: 1186, max: 1186, source: bosworth-1977 }
+
+identity: >-
+  A dynasty founded by a Samanid Turkic slave-general at Ghazna, which took
+  Khurasan from its former masters and carried a Persianate court into northern
+  India.
+
+capitals:
+  - { name: Ghazna, script: غزنه, from: 962, to: 1163, source: iranica-ghaznavids }
+  - { name: Lahore, script: لاهور, from: 1163, source: bosworth-1977 }
+
+core_region: Eastern Afghanistan, Khurasan and the Punjab
+
+rulers:
+  founder:
+    name: Sebuktigin
+    script: سبکتگین
+    reign: [977, 997]
+    source: bosworth-1996
+  peak:
+    name: Mahmud of Ghazna
+    script: محمود غزنوی
+    reign: [998, 1030]
+    source: bosworth-1963
+  last:
+    name: Khusrau Malik
+    script: خسرو ملک
+    reign: [1160, 1186]
+    source: bosworth-1977
+
+scripts_and_languages:
+  administration: [Persian, Arabic]
+  writing_system: Perso-Arabic
+
+ended:
+  type: conquest
+  by: [ghurid]
+  year: 1186
+  source: bosworth-1977
+
+measures:
+  reach_km2: { value: 3400000, at: 1029, source: taagepera-1997 }
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: iranica-ghaznavids }
+    # Conquest in the Punjab followed by durable institutions — the Lahore
+    # establishment, endowed mosques, a permanent administration — which is the
+    # combination the coding rules require. Raiding alone would not have counted.
+    religions_carried:
+      count: 1
+      items: [Sunni Islam]
+      source: bosworth-1963
+    successor_claims: { count: 0, items: [], source: bosworth-1977 }
