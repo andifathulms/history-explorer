@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**212 claims across 21 sources.**
+**252 claims across 26 sources.**
 
 ## C. E. Bosworth, The New Islamic Dynasties: A Chronological and Genealogical Manual
 
@@ -58,12 +58,14 @@ clears one section. Everything below is **unverified until ticked.**
 ## Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia
 *In International Studies Quarterly 41(3), 475-504.*
 
-`taagepera-1997` — 34 claims
+`taagepera-1997` — 36 claims
 
 - [ ] `polity/abbasid` — reach 11,100,000 km2 at 750
 - [ ] `polity/ghaznavid` — reach 3,400,000 km2 at 1029
 - [ ] `polity/great-seljuk` — reach 3,900,000 km2 at 1080
+- [ ] `polity/rashidun` — reach 6,400,000 km2 at 655
 - [ ] `polity/samanid` — reach 2,600,000 km2 at 928
+- [ ] `polity/umayyad` — reach 11,100,000 km2 at 720
 - [ ] `reference/almohad` — reach 2,300,000 km2 at 1200
 - [ ] `reference/british-empire` — reach 35,500,000 km2 at 1920
 - [ ] `reference/byzantine` — reach 1,350,000 km2 at 555
@@ -94,6 +96,25 @@ clears one section. Everything below is **unverified until ticked.**
 - [ ] `reference/umayyad` — reach 11,100,000 km2 at 720
 - [ ] `reference/uyghur-khaganate` — reach 3,100,000 km2 at 800
 - [ ] `reference/yuan` — reach 11,000,000 km2 at 1310
+
+## G. R. Hawting, The First Dynasty of Islam: The Umayyad Caliphate AD 661-750
+
+`hawting-2000` — 14 claims
+
+- [ ] `chapter/umayyad/01-muawiya.mdx` — prose: "Mu'awiya's arrangement"
+- [ ] `chapter/umayyad/02-abd-al-malik.mdx` — prose: "What Abd al-Malik built"
+- [ ] `chapter/umayyad/04-khurasan.mdx` — prose: "The revolution came from Khurasan"
+- [ ] `edge/rashidun->umayyad` — claimed legitimacy of in 661
+- [ ] `edge/umayyad->abbasid` — overthrew in 750
+- [ ] `polity/umayyad` — span starts 661
+- [ ] `polity/umayyad` — span ends 750
+- [ ] `polity/umayyad` — capital Damascus from 661
+- [ ] `polity/umayyad` — capital Harran from 744
+- [ ] `polity/umayyad` — founder Mu'awiya ibn Abi Sufyan r. 661-680
+- [ ] `polity/umayyad` — peak Abd al-Malik ibn Marwan r. 685-705
+- [ ] `polity/umayyad` — last Marwan II r. 744-750
+- [ ] `polity/umayyad` — religions_carried = 1 (Islam)
+- [ ] `polity/umayyad` — ended by dynastic replacement in 750
 
 ## Rein Taagepera, Size and Duration of Empires: Growth-Decline Curves, 600 B.C. to 600 A.D.
 *In Social Science History 3(3/4), 115-138.*
@@ -153,6 +174,23 @@ clears one section. Everything below is **unverified until ticked.**
 - [ ] `polity/khwarazmian` — religions_carried = 0
 - [ ] `polity/khwarazmian` — successor_claims = 0
 - [ ] `polity/khwarazmian` — ended by conquest in 1231
+
+## Hugh Kennedy, The Prophet and the Age of the Caliphates: The Islamic Near East from the Sixth to the Eleventh Century
+
+`kennedy-2004` — 12 claims
+
+- [ ] `chapter/abbasid/01-revolution.mdx` — prose: "What the revolution actually changed"
+- [ ] `chapter/umayyad/03-mawali.mdx` — prose: "The converts problem"
+- [ ] `edge/rashidun->abbasid` — claimed legitimacy of in 750
+- [ ] `polity/abbasid` — religions_carried = 1 (Islam)
+- [ ] `polity/rashidun` — span starts 632
+- [ ] `polity/rashidun` — span ends 661
+- [ ] `polity/rashidun` — capital Medina from 632
+- [ ] `polity/rashidun` — capital Kufa from 656
+- [ ] `polity/rashidun` — founder Abu Bakr r. 632-634
+- [ ] `polity/rashidun` — peak Umar ibn al-Khattab r. 634-644
+- [ ] `polity/rashidun` — successor_claims = 2 (umayyad, abbasid)
+- [ ] `polity/umayyad` — successor_claims = 1 (Umayyad Caliphate of Cordoba)
 
 ## C. E. Bosworth, SAMANIDS
 *In Encyclopaedia Iranica.*
@@ -313,6 +351,16 @@ clears one section. Everything below is **unverified until ticked.**
 - [ ] `polity/great-seljuk` — capital Rayy from 1043
 - [ ] `polity/great-seljuk` — descendant_scripts = 0
 
+## Wilferd Madelung, The Succession to Muhammad: A Study of the Early Caliphate
+
+`madelung-1997` — 5 claims
+
+- [ ] `chapter/rashidun/01-saqifa.mdx` — prose: "The succession nobody had planned"
+- [ ] `chapter/rashidun/04-fitna.mdx` — prose: "The first fitna"
+- [ ] `edge/rashidun->umayyad` — overthrew in 661
+- [ ] `polity/rashidun` — last Ali ibn Abi Talib r. 656-661
+- [ ] `polity/rashidun` — ended by dynastic replacement in 661
+
 ## Peter Jackson, The Delhi Sultanate: A Political and Military History
 
 `jackson-1999` — 4 claims
@@ -322,6 +370,32 @@ clears one section. Everything below is **unverified until ticked.**
 - [ ] `polity/ghurid` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/ghurid` — successor_claims = 1 (Delhi Sultanate)
 
+## multiple contributors, ABBASID CALIPHATE
+*In Encyclopaedia Iranica.*
+<https://iranicaonline.org/articles/abbasid-caliphate>
+
+`iranica-abbasid-caliphate` — 3 claims
+
+- [ ] `chapter/abbasid/04-baghdad-1258.mdx` — prose: "1258"
+- [ ] `polity/abbasid` — capital Baghdad from 762
+- [ ] `polity/abbasid` — capital Samarra from 836
+
+## Tayeb El-Hibri, The Abbasid Caliphate: A History
+
+`el-hibri-2021` — 3 claims
+
+- [ ] `chapter/abbasid/02-harun.mdx` — prose: "Harun al-Rashid, and what came after him"
+- [ ] `chapter/abbasid/03-samarra.mdx` — prose: "The soldiers at Samarra"
+- [ ] `polity/abbasid` — successor_claims = 1 (Abbasid Caliphate of Cairo)
+
+## Fred M. Donner, The Early Islamic Conquests
+
+`donner-1981` — 3 claims
+
+- [ ] `chapter/rashidun/02-conquests.mdx` — prose: "A generation, four directions"
+- [ ] `chapter/rashidun/03-amsar.mdx` — prose: "The garrison towns"
+- [ ] `polity/rashidun` — religions_carried = 1 (Islam)
+
 ## Colin McEvedy and Richard Jones, Atlas of World Population History
 
 `mcevedy-jones-1978` — 3 claims
@@ -329,15 +403,6 @@ clears one section. Everything below is **unverified until ticked.**
 - [ ] `denominator/1000` — world population 265,000,000
 - [ ] `denominator/1200` — world population 360,000,000
 - [ ] `denominator/800` — world population 220,000,000
-
-## multiple contributors, ABBASID CALIPHATE
-*In Encyclopaedia Iranica.*
-<https://iranicaonline.org/articles/abbasid-caliphate>
-
-`iranica-abbasid-caliphate` — 2 claims
-
-- [ ] `polity/abbasid` — capital Baghdad from 762
-- [ ] `polity/abbasid` — capital Samarra from 836
 
 ## C. E. Bosworth, GHAZNAVIDS
 *In Encyclopaedia Iranica.*

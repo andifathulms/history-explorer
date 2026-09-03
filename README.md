@@ -105,7 +105,7 @@ is `null`.
 
 The build guarantees that citations resolve and that nothing was invented at
 entry time. It cannot guarantee that a real citation was read correctly.
-`content/VERIFICATION.md` lists all 212 figures and prose attributions grouped by
+`content/VERIFICATION.md` lists all 252 figures and prose attributions grouped by
 source, as an unticked checklist, and everything in it should be treated as
 unverified until the author has checked it with the book open.
 
