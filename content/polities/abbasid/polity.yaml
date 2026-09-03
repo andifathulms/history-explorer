@@ -1,0 +1,50 @@
+# Context polity. It is an edge target and it appears on the timeline, but it
+# has no chapters in v1 and is not part of the narrative corpus the site claims
+# to have read a source for. See PRD section 3.
+id: abbasid
+context_only: true
+
+name:
+  latin: Abbasid Caliphate
+  script: العباسيون
+  script_lang: ar
+
+span:
+  start: { min: 750, max: 750, source: bosworth-1996 }
+  end: { min: 1258, max: 1258, source: bosworth-1996 }
+
+identity: >-
+  The caliphate every polity in this thread held a grant from, long after it
+  could enforce one.
+
+capitals:
+  - { name: Baghdad, script: بغداد, from: 762, source: iranica-abbasid-caliphate }
+  - { name: Samarra, from: 836, to: 892, source: iranica-abbasid-caliphate }
+
+core_region: Iraq
+
+rulers:
+  founder: { name: al-Saffah, reign: [750, 754], source: bosworth-1996 }
+  peak: { name: Harun al-Rashid, reign: [786, 809], source: bosworth-1996 }
+  last: { name: al-Musta'sim, reign: [1242, 1258], source: bosworth-1996 }
+
+scripts_and_languages:
+  administration: [Arabic]
+  writing_system: Arabic
+
+ended:
+  type: conquest
+  by: [mongol]
+  year: 1258
+  source: bosworth-1996
+
+measures:
+  reach_km2: { value: 11100000, at: 750, source: taagepera-1997 }
+  peak_population: null
+  # Influence is not coded for context polities. Coding it would mean applying
+  # the rulebook without having read a source for this polity, which is the one
+  # thing the rulebook forbids. Null, not zero.
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

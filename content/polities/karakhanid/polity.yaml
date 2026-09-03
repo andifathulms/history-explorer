@@ -1,0 +1,45 @@
+# Context polity: edge target only, no chapters in v1.
+id: karakhanid
+context_only: true
+
+name:
+  latin: Karakhanid Khanate
+  script: قراخانیان
+  script_lang: fa
+
+span:
+  start: { min: 840, max: 840, source: ei2-karakhanids }
+  end: { min: 1212, max: 1212, source: ei2-karakhanids }
+
+identity: >-
+  The first Turkish dynasty of Transoxiana to rule as Muslims, and the power
+  that took Bukhara from the Samanids.
+
+capitals:
+  - { name: Balasaghun, source: ei2-karakhanids }
+  - { name: Kashgar, source: ei2-karakhanids }
+
+core_region: Transoxiana and the Tarim basin
+
+rulers:
+  founder: null
+  peak: null
+  last: null
+
+scripts_and_languages:
+  administration: [Turkic, Persian, Arabic]
+  writing_system: Perso-Arabic
+
+ended:
+  type: conquest
+  by: [khwarazmian]
+  year: 1212
+  source: ei2-karakhanids
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
