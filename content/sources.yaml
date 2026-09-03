@@ -237,6 +237,43 @@ sources:
       Used for the Abbasid arc after Harun al-Rashid, in particular the fourth
       fitna and the Samarra period.
 
+  - id: daryaee-2009
+    kind: book
+    author: Touraj Daryaee
+    title: "Sasanian Persia: The Rise and Fall of an Empire"
+    publisher: I.B. Tauris
+    year: 2009
+    note: >-
+      Used for the Sasanian state, its Zoroastrian establishment, and the
+      collapse of 628-651.
+
+  - id: chi-3
+    kind: book
+    author: Ehsan Yarshater (ed.)
+    title: "The Cambridge History of Iran, Volume 3: The Seleucid, Parthian and Sasanian Periods"
+    publisher: Cambridge University Press
+    year: 1983
+
+  - id: morgan-2007
+    kind: book
+    author: David Morgan
+    title: The Mongols
+    publisher: Blackwell
+    edition: 2nd
+    year: 2007
+    note: >-
+      Used for the Mongol campaigns and for the sceptical handling of the
+      casualty figures the medieval sources give.
+
+  - id: golden-1992
+    kind: book
+    author: Peter B. Golden
+    title: An Introduction to the History of the Turkic Peoples
+    publisher: Otto Harrassowitz
+    year: 1992
+    note: >-
+      Used for the steppe polities: Karakhanid, Uyghur, Khazar.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors

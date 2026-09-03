@@ -27,3 +27,25 @@ regions:
       community, held from Medina, then Damascus, then Baghdad, and contracting
       the whole time it was being asserted.
     thread: true
+
+  - id: late-antique-iran
+    name: Late Antique Iran
+    blurb: >-
+      The Iranian empire the Arab conquests ended — Zoroastrian, bureaucratic,
+      and locked in a war with Constantinople that exhausted both of them just
+      before a third party arrived.
+    thread: false
+
+  - id: mongol-world
+    name: The Mongol World
+    blurb: >-
+      The largest contiguous land empire ever assembled, and the four
+      successor khanates it broke into within two generations of assembling it.
+    thread: false
+
+  - id: indian-sultanates
+    name: The Indian Sultanates
+    blurb: >-
+      Turkic and Afghan rule in northern India, founded by a Ghurid
+      slave-general and outlasting every polity that produced it.
+    thread: false

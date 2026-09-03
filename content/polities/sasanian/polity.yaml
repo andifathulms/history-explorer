@@ -1,0 +1,52 @@
+id: sasanian
+region: late-antique-iran
+
+name:
+  latin: Sasanian Empire
+  script: ērānšahr
+  script_lang: pal
+
+span:
+  start: { min: 224, max: 224, source: daryaee-2009 }
+  end: { min: 651, max: 651, source: daryaee-2009 }
+
+identity: >-
+  The last pre-Islamic Iranian empire: Zoroastrian, centrally administered from
+  Ctesiphon, and Rome's only peer for four centuries.
+
+capitals:
+  - { name: Ctesiphon, from: 224, to: 637, source: daryaee-2009 }
+
+core_region: Mesopotamia and the Iranian plateau
+
+rulers:
+  founder: { name: Ardashir I, reign: [224, 242], source: daryaee-2009 }
+  peak: { name: Khusrau I Anushirvan, reign: [531, 579], source: chi-3 }
+  last: { name: Yazdegerd III, reign: [632, 651], source: daryaee-2009 }
+
+scripts_and_languages:
+  administration: [Middle Persian]
+  writing_system: Pahlavi
+
+ended:
+  type: conquest
+  by: [rashidun]
+  year: 651
+  source: donner-1981
+
+measures:
+  reach_km2: { value: 3500000, at: 550, source: taagepera-1979 }
+  peak_population: null
+  influence:
+    # Pahlavi descends from Aramaic and was long established before this
+    # dynasty; no consulted source attributes a script derived or newly adapted
+    # under the Sasanians to them. Null, not 0.
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried:
+      count: 1
+      items: [Zoroastrianism]
+      source: daryaee-2009
+    successor_claims:
+      count: 1
+      items: [Buyid Confederation]
+      source: busse-1975
