@@ -93,7 +93,37 @@ const lines = [
   '',
   `**${claims.length} claims across ${bySource.size} sources.**`,
   '',
+  '## Where to start',
+  '',
+  'Sections are ordered by how much rests on the work, so the top of this file',
+  'is where an hour buys the most. Sections marked **sole source** are the ones',
+  'to do first: every claim on those polities resolves to that one book, so an',
+  'error in reading it is an error across the whole page with nothing else in',
+  'the corpus to contradict it. Where two works cover the same polity, a',
+  'misreading has a chance of showing up as a disagreement. Here it does not.',
+  '',
 ]
+
+// Which polities depend on exactly one work. Computed here rather than read
+// from the site so the worklist stands alone as a file.
+// `where` is "polity/<id>" or "chapter/<id>/<slug>"; edges, reference entries
+// and denominators are not per-polity and are skipped. Splitting on the first
+// segment instead of the second once counted every polity claim under the
+// literal string "polity", which found one sole-source work instead of ten.
+const sourcesPerPolity = new Map()
+for (const c of claims) {
+  const [kind, id] = c.where.split('/')
+  if (kind !== 'polity' && kind !== 'chapter') continue
+  if (!id) continue
+  if (!sourcesPerPolity.has(id)) sourcesPerPolity.set(id, new Set())
+  sourcesPerPolity.get(id).add(c.source)
+}
+const soleFor = new Map()
+for (const [polity, ids] of sourcesPerPolity) {
+  if (ids.size !== 1) continue
+  const only = [...ids][0]
+  soleFor.set(only, [...(soleFor.get(only) ?? []), polity])
+}
 
 for (const [id, items] of [...bySource.entries()].sort((a, b) => b[1].length - a[1].length)) {
   const s = sources.get(id)
@@ -101,6 +131,14 @@ for (const [id, items] of [...bySource.entries()].sort((a, b) => b[1].length - a
   if (s?.container) lines.push(`*In ${s.container}.*`)
   if (s?.url) lines.push(`<${s.url}>`)
   lines.push('', `\`${id}\` — ${items.length} claims`, '')
+  const sole = soleFor.get(id)
+  if (sole?.length) {
+    lines.push(
+      `**Sole source** for ${sole.sort().map((p) => `\`${p}\``).join(', ')} — ` +
+        'nothing else in the corpus can contradict a misreading here.',
+      '',
+    )
+  }
   for (const c of items.sort((a, b) => a.where.localeCompare(b.where))) {
     lines.push(`- [ ] \`${c.where}\` — ${c.what}`)
   }

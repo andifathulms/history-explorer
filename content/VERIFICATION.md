@@ -12,7 +12,16 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**879 claims across 67 sources.**
+**880 claims across 68 sources.**
+
+## Where to start
+
+Sections are ordered by how much rests on the work, so the top of this file
+is where an hour buys the most. Sections marked **sole source** are the ones
+to do first: every claim on those polities resolves to that one book, so an
+error in reading it is an error across the whole page with nothing else in
+the corpus to contradict it. Where two works cover the same polity, a
+misreading has a chance of showing up as a disagreement. Here it does not.
 
 ## Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia
 *In International Studies Quarterly 41(3), 475-504.*
@@ -197,6 +206,8 @@ clears one section. Everything below is **unverified until ticked.**
 
 `petry-1998` — 30 claims
 
+**Sole source** for `mamluk-sultanate`, `tulunid` — nothing else in the corpus can contradict a misreading here.
+
 - [ ] `chapter/ikhshidid/01-holding-on.mdx` — prose: "Holding the Hijaz"
 - [ ] `chapter/ikhshidid/02-kafur.mdx` — prose: "Kafur"
 - [ ] `chapter/mamluk-sultanate/01-ayn-jalut.mdx` — prose: "Ayn Jalut"
@@ -265,6 +276,8 @@ clears one section. Everything below is **unverified until ticked.**
 ## Jamil M. Abun-Nasr, A History of the Maghrib in the Islamic Period
 
 `abun-nasr-1987` — 28 claims
+
+**Sole source** for `idrisid` — nothing else in the corpus can contradict a misreading here.
 
 - [ ] `chapter/aghlabid/01-a-province-for-rent.mdx` — prose: "A province, for tribute"
 - [ ] `chapter/aghlabid/02-sicily.mdx` — prose: "Seventy-five years for one island"
@@ -363,6 +376,8 @@ clears one section. Everything below is **unverified until ticked.**
 
 `kennedy-2004` — 21 claims
 
+**Sole source** for `hamdanid` — nothing else in the corpus can contradict a misreading here.
+
 - [ ] `chapter/abbasid/01-revolution.mdx` — prose: "What the revolution actually changed"
 - [ ] `chapter/hamdanid/01-sayf-al-dawla.mdx` — prose: "Sayf al-Dawla's frontier"
 - [ ] `chapter/hamdanid/02-mutanabbi.mdx` — prose: "The poet and the frontier"
@@ -388,6 +403,8 @@ clears one section. Everything below is **unverified until ticked.**
 ## Kenneth R. Hall, A History of Early Southeast Asia: Maritime Trade and Societal Development, 100-1500
 
 `hall-2011` — 21 claims
+
+**Sole source** for `majapahit`, `srivijaya` — nothing else in the corpus can contradict a misreading here.
 
 - [ ] `chapter/majapahit/01-the-archipelago.mdx` — prose: "The other thalassocracy"
 - [ ] `chapter/majapahit/02-the-poem.mdx` — prose: "A list of dependencies"
@@ -440,6 +457,8 @@ clears one section. Everything below is **unverified until ticked.**
 ## Amira K. Bennison, The Almoravid and Almohad Empires
 
 `bennison-2016` — 20 claims
+
+**Sole source** for `almoravid` — nothing else in the corpus can contradict a misreading here.
 
 - [ ] `chapter/almohad/01-ibn-tumart.mdx` — prose: "The mahdi of the Atlas"
 - [ ] `chapter/almohad/02-las-navas.mdx` — prose: "Las Navas de Tolosa"
@@ -651,6 +670,8 @@ clears one section. Everything below is **unverified until ticked.**
 
 `peacock-yildiz-2013` — 12 claims
 
+**Sole source** for `rum` — nothing else in the corpus can contradict a misreading here.
+
 - [ ] `chapter/rum/01-anatolia.mdx` — prose: "A branch that outlasted the trunk"
 - [ ] `chapter/rum/02-the-caravanserais.mdx` — prose: "A day's march apart"
 - [ ] `edge/great-seljuk->rum` — partitioned from in 1077
@@ -687,6 +708,8 @@ clears one section. Everything below is **unverified until ticked.**
 
 `hunwick-1999` — 12 claims
 
+**Sole source** for `songhai` — nothing else in the corpus can contradict a misreading here.
+
 - [ ] `chapter/songhai/01-timbuktu.mdx` — prose: "Askia Muhammad's pilgrimage"
 - [ ] `chapter/songhai/02-the-chronicles.mdx` — prose: "Written from Timbuktu"
 - [ ] `edge/abbasid->songhai` — claimed legitimacy of in 1496
@@ -719,6 +742,8 @@ clears one section. Everything below is **unverified until ticked.**
 ## Stuart Munro-Hay, Aksum: An African Civilisation of Late Antiquity
 
 `munro-hay-1991` — 11 claims
+
+**Sole source** for `aksum` — nothing else in the corpus can contradict a misreading here.
 
 - [ ] `chapter/aksum/01-gold-and-scripture.mdx` — prose: "A coinage and an alphabet"
 - [ ] `chapter/aksum/02-the-coinage.mdx` — prose: "Gold, and a change of symbol"
@@ -961,6 +986,8 @@ clears one section. Everything below is **unverified until ticked.**
 
 `kennedy-1996` — 10 claims
 
+**Sole source** for `cordoba` — nothing else in the corpus can contradict a misreading here.
+
 - [ ] `chapter/cordoba/01-survivor.mdx` — prose: "The one who got away"
 - [ ] `chapter/cordoba/02-the-collapse.mdx` — prose: "Thirty years, and then taifas"
 - [ ] `edge/umayyad->cordoba` — claimed legitimacy of in 929
@@ -990,6 +1017,8 @@ clears one section. Everything below is **unverified until ticked.**
 ## Nehemia Levtzion, Ancient Ghana and Mali
 
 `levtzion-1973` — 10 claims
+
+**Sole source** for `mali` — nothing else in the corpus can contradict a misreading here.
 
 - [ ] `chapter/mali/01-the-other-end.mdx` — prose: "The other end of the gold"
 - [ ] `chapter/mali/02-mansa-musa.mdx` — prose: "The pilgrimage, and what it cost"
@@ -1251,3 +1280,9 @@ clears one section. Everything below is **unverified until ticked.**
 
 - [ ] `chapter/tang/02-an-lushan.mdx` — prose: "An Lushan"
 - [ ] `polity/tang` — ended by fragmentation in 907
+
+## R. N. Frye (ed.), The Cambridge History of Iran, Volume 4: From the Arab Invasion to the Saljuqs
+
+`chi-4` — 1 claims
+
+- [ ] `chapter/buyid/04-daylam.mdx` — prose: "Down from Daylam"

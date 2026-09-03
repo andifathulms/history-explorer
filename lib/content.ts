@@ -455,6 +455,13 @@ export function sourceUsage(): SourceUse[] {
     bump(r.reach_km2?.source, null)
     bump(r.peak_population?.source, null)
   }
+  // Era-normalised mode's denominators. Missing these once reported McEvedy &
+  // Jones as cited by nothing, when it is the source for all six of them — a
+  // page about provenance getting provenance wrong.
+  for (const d of c.denominators) {
+    bump(d.world_population?.source, null)
+    bump(d.world_land_under_state_control_km2?.source, null)
+  }
 
   const sole = new Map<string, string[]>()
   for (const [polity, ids] of perPolity) {
