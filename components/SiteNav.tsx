@@ -30,9 +30,15 @@ export function SiteNav({ ground, current }: { ground: 'dark' | 'paper'; current
             <Link
               href={l.href}
               aria-current={current === l.label ? 'page' : undefined}
-              className={`hover:text-firuze ${
-                current === l.label ? 'text-firuze' : dark ? 'text-debu' : 'text-debu'
-              }`}
+              className={
+                current === l.label
+                  ? dark
+                    ? 'text-firuze'
+                    : 'text-firuze-ink'
+                  : dark
+                    ? 'text-debu-paper hover:text-firuze'
+                    : 'text-debu-ink hover:text-firuze-ink'
+              }
             >
               {l.label}
             </Link>

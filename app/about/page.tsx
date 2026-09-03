@@ -107,15 +107,15 @@ export default function About() {
                       <a
                         href={s.url}
                         rel="noreferrer"
-                        className="text-kashi underline underline-offset-2 hover:text-firuze"
+                        className="text-kashi underline underline-offset-2 hover:text-firuze-ink"
                       >
                         link
                       </a>
                     </>
                   ) : null}
                 </p>
-                {s.note ? <p className="mt-1 text-[15px] text-debu">{s.note}</p> : null}
-                <p className="mt-1 font-mono text-[13px] text-debu">{s.id}</p>
+                {s.note ? <p className="mt-1 text-[15px] text-debu-ink">{s.note}</p> : null}
+                <p className="mt-1 font-mono text-[13px] text-debu-ink">{s.id}</p>
               </li>
             ))}
           </ul>

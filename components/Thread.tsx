@@ -54,7 +54,7 @@ export function Thread({
             <text
               x={0}
               y={scale.y(year) + 4}
-              className="fill-debu text-[12px] tabular-nums"
+              className="fill-debu-paper text-[12px] tabular-nums"
             >
               {year}
             </text>
@@ -124,7 +124,7 @@ export function Thread({
                   } hover:fill-firuze`}
                 >
                   {b.polity.name.latin}
-                  <tspan className="fill-debu text-[12px] tabular-nums">
+                  <tspan className="fill-debu-paper text-[12px] tabular-nums">
                     {'  '}
                     {b.polity.span.start.min}
                     {b.hasStartRange ? `–${b.polity.span.start.max}` : ''}
@@ -151,7 +151,7 @@ export function Thread({
             key={`${e.from}-${e.to}-${e.type}-${i}`}
             x={520}
             y={scale.y(e.year as number) + 4}
-            className="thread-label fill-debu text-[12px] italic"
+            className="thread-label fill-debu-paper text-[12px] italic"
             style={{
               ['--d' as string]: `${(((e.year as number) - scale.first) / (scale.last - scale.first) * 1.1).toFixed(2)}s`,
             }}

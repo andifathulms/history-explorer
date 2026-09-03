@@ -16,24 +16,24 @@ function EdgeRow({ edge, other, direction }: { edge: Edge; other: string; direct
   return (
     <li className="border-t border-kashi/15 py-3 first:border-t-0">
       <p className="flex flex-wrap items-baseline gap-x-2">
-        <span className="tabular-nums text-debu">{edge.year ?? '—'}</span>
+        <span className="tabular-nums text-debu-ink">{edge.year ?? '—'}</span>
         <span className="italic text-kashi">{edge.type}</span>
         {hasPage(other) ? (
-          <Link href={`/polity/${other}/`} className="font-semibold text-kashi hover:text-firuze">
+          <Link href={`/polity/${other}/`} className="font-semibold text-kashi hover:text-firuze-ink">
             {name}
           </Link>
         ) : (
-          <span className="font-semibold text-debu" title="No page: context polity or reference backdrop">
+          <span className="font-semibold text-debu-ink" title="No page: context polity or reference backdrop">
             {name}
           </span>
         )}
         {edge.contested ? (
-          <span className="rounded-sm border border-debu/50 px-1.5 py-0.5 text-[12px] text-debu">
+          <span className="rounded-sm border border-debu/50 px-1.5 py-0.5 text-[12px] text-debu-ink">
             contested
           </span>
         ) : null}
       </p>
-      <p className="mt-1 max-w-measure text-[16px] leading-relaxed text-debu">{edge.note}</p>
+      <p className="mt-1 max-w-measure text-[16px] leading-relaxed text-debu-ink">{edge.note}</p>
     </li>
   )
 }
@@ -49,7 +49,7 @@ export function Position({
 }) {
   return (
     <section aria-labelledby="position-heading" className="mt-10">
-      <h2 id="position-heading" className="text-[15px] uppercase tracking-widest text-debu">
+      <h2 id="position-heading" className="text-[15px] uppercase tracking-widest text-debu-ink">
         Position in the thread
       </h2>
 
@@ -63,7 +63,7 @@ export function Position({
               ))}
             </ul>
           ) : (
-            <p className="mt-2 text-debu">
+            <p className="mt-2 text-debu-ink">
               No recorded predecessor. This polity enters the thread from outside it.
             </p>
           )}
@@ -78,7 +78,7 @@ export function Position({
               ))}
             </ul>
           ) : (
-            <p className="mt-2 text-debu">
+            <p className="mt-2 text-debu-ink">
               No recorded successor. Nothing in this corpus continues from here.
             </p>
           )}

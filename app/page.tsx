@@ -17,14 +17,14 @@ export default function ThreadView() {
           <h1 className="text-[32px] leading-tight text-kaghaz">
             How one polity becomes the next
           </h1>
-          <p className="mt-4 text-debu">
+          <p className="mt-4 text-debu-paper">
             Wikipedia has an article on the Samanids and an article on the Ghaznavids. It
             does not have the thing that connects them: Alptigin was a Samanid Turkic
             slave-general who took Ghazna and founded a line that outlived his masters.
             That pattern is the subject here — secession, usurpation by generals, vassals
             swallowing overlords — and it lives in the edges between articles.
           </p>
-          <p className="mt-4 text-debu">
+          <p className="mt-4 text-debu-paper">
             The line below is a time axis. Position on it is date, so concurrency is
             visible: the Saffarids and Samanids ran at the same time and hostile to each
             other, and you can see that without being told.

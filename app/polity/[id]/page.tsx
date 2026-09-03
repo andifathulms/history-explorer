@@ -65,7 +65,7 @@ export default function PolityPage({ params }: { params: { id: string } }) {
                 </p>
               ) : null}
             </div>
-            <p className="mt-1 tabular-nums text-debu">
+            <p className="mt-1 tabular-nums text-debu-ink">
               {startLabel} – {endLabel}
             </p>
             <p className="mt-4 max-w-measure text-body">{p.identity}</p>

@@ -70,7 +70,7 @@ export default function TimelineView() {
                   className="stroke-kashi/15"
                   strokeWidth={1}
                 />
-                <text x={x(year)} y={18} className="fill-debu text-[12px] tabular-nums" textAnchor="middle">
+                <text x={x(year)} y={18} className="fill-debu-ink text-[12px] tabular-nums" textAnchor="middle">
                   {year}
                 </text>
               </g>
@@ -91,11 +91,11 @@ export default function TimelineView() {
               return (
                 <g key={p.id}>
                   <Link href={`/polity/${p.id}/`}>
-                    <text x={0} y={y + 5} className="fill-kashi text-[14px] hover:fill-firuze">
+                    <text x={0} y={y + 5} className="fill-kashi text-[14px] hover:fill-firuze-ink">
                       {p.name.latin}
                     </text>
                   </Link>
-                  <text x={0} y={y + 20} className="fill-debu text-[11px] tabular-nums">
+                  <text x={0} y={y + 20} className="fill-debu-ink text-[11px] tabular-nums">
                     {p.span.start.min}–{p.span.end.max}
                   </text>
 
@@ -115,7 +115,7 @@ export default function TimelineView() {
                     width={Math.max(2, x(p.span.end.min) - x(p.span.start.max))}
                     height={10}
                     rx={5}
-                    className={p.context_only ? 'fill-debu/50' : 'fill-kashi/70'}
+                    className={p.context_only ? 'fill-debu-ink/50' : 'fill-kashi/70'}
                   />
 
                   {chapters.map((c, idx) => (
@@ -126,10 +126,10 @@ export default function TimelineView() {
                         r={c.phase === 'peak' ? 5 : 3.5}
                         className={
                           c.phase === 'peak'
-                            ? 'fill-zarrin'
+                            ? 'fill-zarrin-ink'
                             : c.phase
-                              ? 'fill-firuze'
-                              : 'fill-debu'
+                              ? 'fill-firuze-ink'
+                              : 'fill-debu-ink'
                         }
                       >
                         <title>
@@ -145,15 +145,15 @@ export default function TimelineView() {
           </svg>
         </div>
 
-        <div className="mt-8 flex flex-wrap gap-x-6 gap-y-2 text-[15px] text-debu">
+        <div className="mt-8 flex flex-wrap gap-x-6 gap-y-2 text-[15px] text-debu-ink">
           <span className="flex items-center gap-2">
-            <span className="inline-block h-2.5 w-2.5 rounded-full bg-zarrin" /> peak chapter
+            <span className="inline-block h-2.5 w-2.5 rounded-full bg-zarrin-ink" /> peak chapter
           </span>
           <span className="flex items-center gap-2">
-            <span className="inline-block h-2.5 w-2.5 rounded-full bg-firuze" /> other tagged phase
+            <span className="inline-block h-2.5 w-2.5 rounded-full bg-firuze-ink" /> other tagged phase
           </span>
           <span className="flex items-center gap-2">
-            <span className="inline-block h-2.5 w-2.5 rounded-full bg-debu" /> untagged chapter
+            <span className="inline-block h-2.5 w-2.5 rounded-full bg-debu-ink" /> untagged chapter
           </span>
           <span className="flex items-center gap-2">
             <span className="inline-block h-2.5 w-6 rounded-full bg-kashi/15" /> contested span

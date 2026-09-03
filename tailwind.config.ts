@@ -16,6 +16,25 @@ const config: Config = {
         firuze: '#3E9C9C',
         zarrin: '#C08A2E',
         debu: '#7C8079',
+
+        /**
+         * Reading variants of the palette above, for small text and for
+         * interactive colour on paper ground.
+         *
+         * DESIGN.md's tokens are the design and they are kept exactly. But debu
+         * on kaghaz measures 3.29:1 and firuze on kaghaz 2.66:1, both of which
+         * fail WCAG AA for body-sized text, and the quality floor asks for
+         * long-form text that is actually readable. These are the same hues
+         * blended toward black or white only as far as 4.5:1 requires, so the
+         * dust still reads as dust and the turquoise still reads as turquoise.
+         *
+         * Use these for text. Use the tokens above for the thread, the rails,
+         * the bars and everything else graphical.
+         */
+        'debu-ink': '#666A64', // 4.50:1 on kaghaz
+        'debu-paper': '#7F837C', // 4.56:1 on dawat
+        'firuze-ink': '#2E7373', // 4.50:1 on kaghaz
+        'zarrin-ink': '#876120', // 4.56:1 on kaghaz
       },
       fontFamily: {
         latin: ['var(--font-spectral)', 'Georgia', 'serif'],

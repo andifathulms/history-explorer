@@ -13,14 +13,14 @@ import { citeShort } from '@/lib/content'
 function Row({ label, children }: { label: string; children: React.ReactNode }) {
   return (
     <div className="border-t border-kashi/15 py-3 sm:grid sm:grid-cols-[11rem_1fr] sm:gap-4">
-      <dt className="text-[15px] text-debu">{label}</dt>
+      <dt className="text-[15px] text-debu-ink">{label}</dt>
       <dd className="mt-1 sm:mt-0">{children}</dd>
     </div>
   )
 }
 
 function Gap() {
-  return <span className="italic text-debu">{NO_FIGURE}</span>
+  return <span className="italic text-debu-ink">{NO_FIGURE}</span>
 }
 
 function RulerLine({ r }: { r: Ruler | null }) {
@@ -34,7 +34,7 @@ function RulerLine({ r }: { r: Ruler | null }) {
         </span>
       ) : null}
       {r.reign ? (
-        <span className="ms-2 tabular-nums text-debu">
+        <span className="ms-2 tabular-nums text-debu-ink">
           r. {r.reign[0]}–{r.reign[1]}
         </span>
       ) : null}
@@ -46,7 +46,7 @@ export function Facts({ polity }: { polity: Polity }) {
   const p = polity
   return (
     <section aria-labelledby="facts-heading" className="mt-14">
-      <h2 id="facts-heading" className="text-[15px] uppercase tracking-widest text-debu">
+      <h2 id="facts-heading" className="text-[15px] uppercase tracking-widest text-debu-ink">
         Facts
       </h2>
       <dl className="mt-4">
@@ -64,7 +64,7 @@ export function Facts({ polity }: { polity: Polity }) {
                     </span>
                   ) : null}
                   {c.from ? (
-                    <span className="ms-2 tabular-nums text-debu">
+                    <span className="ms-2 tabular-nums text-debu-ink">
                       from {c.from}
                       {c.to ? ` to ${c.to}` : ''}
                     </span>
@@ -100,8 +100,8 @@ export function Facts({ polity }: { polity: Polity }) {
           {p.ended ? (
             <span>
               <span className="font-semibold text-kashi">{p.ended.type}</span>
-              {p.ended.year ? <span className="ms-2 tabular-nums text-debu">{p.ended.year}</span> : null}
-              <span className="mt-1 block text-[15px] text-debu">
+              {p.ended.year ? <span className="ms-2 tabular-nums text-debu-ink">{p.ended.year}</span> : null}
+              <span className="mt-1 block text-[15px] text-debu-ink">
                 {citeShort(p.ended.source)}
               </span>
             </span>

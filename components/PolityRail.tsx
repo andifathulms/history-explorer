@@ -32,7 +32,7 @@ export function PolityRail({
   if (variant === 'strip') {
     // Mobile: the strip. Same axis, rotated, still tells you where you are.
     return (
-      <div className="flex items-center gap-3 border-b border-kashi/20 px-5 py-3 text-[12px] tabular-nums text-debu lg:hidden">
+      <div className="flex items-center gap-3 border-b border-kashi/20 px-5 py-3 text-[12px] tabular-nums text-debu-ink lg:hidden">
         <span>{first}</span>
         <span className="relative h-[3px] flex-1 rounded-full bg-kashi/25">
           <span
@@ -65,7 +65,7 @@ export function PolityRail({
               x2={44}
               y1={y(first)}
               y2={y(last)}
-              className="stroke-firuze"
+              className="stroke-firuze-ink"
               strokeWidth={2}
               strokeLinecap="round"
             />
@@ -97,18 +97,18 @@ export function PolityRail({
                     x={0}
                     y={top + 4}
                     className={`text-[11px] tabular-nums ${
-                      isActive ? 'fill-zarrin' : 'fill-debu'
+                      isActive ? 'fill-zarrin-ink' : 'fill-debu-ink'
                     }`}
                   >
                     {p.span.start.min}
                   </text>
                   {isActive ? (
                     <>
-                      <circle cx={44} cy={top} r={5} className="fill-zarrin" />
+                      <circle cx={44} cy={top} r={5} className="fill-zarrin-ink" />
                       <text x={60} y={top + 4} className="fill-kashi text-[13px] font-semibold">
                         {p.name.latin}
                       </text>
-                      <text x={60} y={top + 20} className="fill-debu text-[11px] italic">
+                      <text x={60} y={top + 20} className="fill-debu-ink text-[11px] italic">
                         you are here
                       </text>
                     </>
@@ -117,7 +117,7 @@ export function PolityRail({
                       <text
                         x={60}
                         y={top + 4}
-                        className="fill-debu text-[12px] hover:fill-firuze"
+                        className="fill-debu-ink text-[12px] hover:fill-firuze-ink"
                       >
                         {p.name.latin}
                       </text>

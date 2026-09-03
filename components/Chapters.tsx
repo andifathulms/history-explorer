@@ -29,7 +29,7 @@ const components = {
     <ul className="mt-5 max-w-measure list-disc space-y-1 ps-5 text-body" {...p} />
   ),
   a: (p: React.AnchorHTMLAttributes<HTMLAnchorElement>) => (
-    <a className="text-kashi underline underline-offset-2 hover:text-firuze" {...p} />
+    <a className="text-kashi underline underline-offset-2 hover:text-firuze-ink" {...p} />
   ),
 }
 
@@ -47,14 +47,14 @@ async function One({ chapter }: { chapter: Chapter }) {
 
       {/* Hard rule 4: every chapter names its source, on the page, in the
           reading flow. Provenance in a footnote is provenance nobody reads. */}
-      <p className="mt-2 max-w-measure border-b border-kashi/20 pb-3 text-[15px] text-debu">
+      <p className="mt-2 max-w-measure border-b border-kashi/20 pb-3 text-[15px] text-debu-ink">
         Drafted from: <cite className="not-italic">{citeShort(chapter.drafted_from)}</cite>
         {source?.url ? (
           <>
             {' · '}
             <a
               href={source.url}
-              className="underline underline-offset-2 hover:text-firuze"
+              className="underline underline-offset-2 hover:text-firuze-ink"
               rel="noreferrer"
             >
               source

@@ -15,11 +15,20 @@
     @apply font-latin text-body antialiased;
   }
 
-  /* Visible keyboard focus everywhere. Never remove without a replacement. */
+  /* Visible keyboard focus everywhere. Never remove without a replacement.
+
+     The outline colour follows the ground. firuze reads at 5.4:1 on dawat but
+     only 2.66:1 on kaghaz, which is below the 3:1 a focus indicator needs, so
+     paper-ground pages get the darkened variant. Keyed off the ground class
+     itself so no component has to remember to pass anything. */
   :focus-visible {
     outline: 2px solid theme('colors.firuze');
     outline-offset: 3px;
     border-radius: 2px;
+  }
+
+  .bg-kaghaz :focus-visible {
+    outline-color: theme('colors.firuze-ink');
   }
 
   ::selection {

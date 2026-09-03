@@ -82,7 +82,7 @@ export function Comparison({
     <>
       <div className="mt-8 grid gap-8 lg:grid-cols-[300px_1fr]">
         <aside className="lg:sticky lg:top-8 lg:self-start">
-          <h2 className="text-[15px] uppercase tracking-widest text-debu">Your weights</h2>
+          <h2 className="text-[15px] uppercase tracking-widest text-debu-ink">Your weights</h2>
 
           <div className="mt-3 flex flex-wrap gap-2">
             {Object.entries(PRESETS).map(([key, preset]) => (
@@ -90,7 +90,7 @@ export function Comparison({
                 key={key}
                 type="button"
                 onClick={() => setWeights(preset.weights)}
-                className="rounded-sm border border-kashi/40 px-3 py-1 text-[14px] text-kashi hover:border-firuze hover:text-firuze"
+                className="rounded-sm border border-kashi/40 px-3 py-1 text-[14px] text-kashi hover:border-firuze-ink hover:text-firuze-ink"
               >
                 {preset.label}
               </button>
@@ -102,7 +102,7 @@ export function Comparison({
               <label key={a} className="block">
                 <span className="flex justify-between text-[15px]">
                   <span className="text-kashi">{AXIS_LABELS[a]}</span>
-                  <span className="tabular-nums text-debu">{weights[a].toFixed(2)}</span>
+                  <span className="tabular-nums text-debu-ink">{weights[a].toFixed(2)}</span>
                 </span>
                 <input
                   type="range"
@@ -111,16 +111,16 @@ export function Comparison({
                   step={0.05}
                   value={weights[a]}
                   onChange={(e) => setAxis(a, Number(e.target.value))}
-                  className="mt-1 w-full accent-firuze"
+                  className="mt-1 w-full accent-firuze-ink"
                 />
               </label>
             ))}
           </div>
 
-          <h3 className="mt-6 text-[15px] uppercase tracking-widest text-debu">
+          <h3 className="mt-6 text-[15px] uppercase tracking-widest text-debu-ink">
             How to fuse influence
           </h3>
-          <p className="mt-1 text-[14px] text-debu">
+          <p className="mt-1 text-[14px] text-debu-ink">
             The site never combines these three itself. These sliders do it in your view
             only, and travel in the link.
           </p>
@@ -129,7 +129,7 @@ export function Comparison({
               <label key={k} className="block">
                 <span className="flex justify-between text-[15px]">
                   <span className="text-kashi">{INFLUENCE_LABELS[k]}</span>
-                  <span className="tabular-nums text-debu">
+                  <span className="tabular-nums text-debu-ink">
                     {weights.influenceMix[k].toFixed(2)}
                   </span>
                 </span>
@@ -140,14 +140,14 @@ export function Comparison({
                   step={0.05}
                   value={weights.influenceMix[k]}
                   onChange={(e) => setMix(k, Number(e.target.value))}
-                  className="mt-1 w-full accent-firuze"
+                  className="mt-1 w-full accent-firuze-ink"
                 />
               </label>
             ))}
           </div>
 
           <fieldset className="mt-6">
-            <legend className="text-[15px] uppercase tracking-widest text-debu">Scale</legend>
+            <legend className="text-[15px] uppercase tracking-widest text-debu-ink">Scale</legend>
             <div className="mt-2 flex gap-2">
               {(['absolute', 'era-normalised'] as Scale[]).map((s) => (
                 <button
@@ -157,15 +157,15 @@ export function Comparison({
                   aria-pressed={scale === s}
                   className={`rounded-sm border px-3 py-1 text-[14px] ${
                     scale === s
-                      ? 'border-firuze text-firuze'
-                      : 'border-kashi/40 text-kashi hover:border-firuze'
+                      ? 'border-firuze-ink text-firuze-ink'
+                      : 'border-kashi/40 text-kashi hover:border-firuze-ink'
                   }`}
                 >
                   {s === 'absolute' ? 'Absolute' : 'Era-normalised'}
                 </button>
               ))}
             </div>
-            <p className="mt-2 text-[14px] text-debu">
+            <p className="mt-2 text-[14px] text-debu-ink">
               A million km² in 500 BC is not a million km² in 1900, so both scales are
               offered.
             </p>
@@ -174,7 +174,7 @@ export function Comparison({
 
         <div className="min-w-0">
           {eraGapped ? (
-            <p className="mb-5 max-w-measure border-s-2 border-zarrin ps-4 text-[15px] text-debu">
+            <p className="mb-5 max-w-measure border-s-2 border-zarrin-ink ps-4 text-[15px] text-debu-ink">
               Era-normalised reach reads as a gap for every polity here. The denominator
               it needs — world land under state control at a given date — is not carried
               by any source this site cites, and summing the reference set to manufacture
@@ -190,7 +190,7 @@ export function Comparison({
                 Polities ranked by your weighted total, with each axis&rsquo;s cited figure
               </caption>
               <thead>
-                <tr className="border-b border-kashi/30 text-[14px] uppercase tracking-wide text-debu">
+                <tr className="border-b border-kashi/30 text-[14px] uppercase tracking-wide text-debu-ink">
                   <th scope="col" className="py-2 pe-3 font-normal">
                     Polity
                   </th>
@@ -217,11 +217,11 @@ export function Comparison({
                     <th scope="row" className="py-3 pe-3 font-normal">
                       <Link
                         href={`/polity/${r.polity.id}/`}
-                        className="font-semibold text-kashi hover:text-firuze"
+                        className="font-semibold text-kashi hover:text-firuze-ink"
                       >
                         {r.polity.latin}
                       </Link>
-                      <span className="block text-[13px] text-debu">{r.totalProvenance}</span>
+                      <span className="block text-[13px] text-debu-ink">{r.totalProvenance}</span>
                     </th>
 
                     <td className="py-3 pe-3">
@@ -232,12 +232,12 @@ export function Comparison({
                               ? formatKm2(r.reach.raw.value)
                               : `${(r.reach.raw.value * 100).toFixed(1)}%`}
                           </span>
-                          <span className="block text-[13px] text-debu">
+                          <span className="block text-[13px] text-debu-ink">
                             {Math.round((r.reach.pct.present ? r.reach.pct.value : 0) * 100)}th
                           </span>
                         </>
                       ) : (
-                        <span className="italic text-debu">{NO_FIGURE}</span>
+                        <span className="italic text-debu-ink">{NO_FIGURE}</span>
                       )}
                     </td>
 
@@ -247,7 +247,7 @@ export function Comparison({
                           ? `${r.longevity.years.min} yr`
                           : `${r.longevity.years.min}–${r.longevity.years.max} yr`}
                       </span>
-                      <span className="block text-[13px] text-debu">
+                      <span className="block text-[13px] text-debu-ink">
                         {Math.round(r.longevity.pct.min * 100)}
                         {Math.abs(r.longevity.pct.max - r.longevity.pct.min) > 0.005
                           ? `–${Math.round(r.longevity.pct.max * 100)}`
@@ -262,7 +262,7 @@ export function Comparison({
                           {formatPopulation(r.demographic.raw.value)}
                         </span>
                       ) : (
-                        <span className="italic text-debu">{NO_FIGURE}</span>
+                        <span className="italic text-debu-ink">{NO_FIGURE}</span>
                       )}
                     </td>
 
@@ -274,7 +274,7 @@ export function Comparison({
                           return c === null ? '—' : c
                         }).join(' · ')}
                       </span>
-                      <span className="block text-[13px] text-debu">scripts · religions · claims</span>
+                      <span className="block text-[13px] text-debu-ink">scripts · religions · claims</span>
                     </td>
 
                     <td className="py-3">
@@ -291,7 +291,7 @@ export function Comparison({
                           </span>
                         </>
                       ) : (
-                        <span className="italic text-debu">{NO_FIGURE}</span>
+                        <span className="italic text-debu-ink">{NO_FIGURE}</span>
                       )}
                     </td>
                   </tr>
@@ -300,7 +300,7 @@ export function Comparison({
             </table>
           </div>
 
-          <p className="mt-6 max-w-measure text-[15px] text-debu">
+          <p className="mt-6 max-w-measure text-[15px] text-debu-ink">
             Every total states how many axes it was computed from and is renormalised
             across those only. A polity with two documented axes is never pushed below one
             with four for the sake of the missing ones. Percentiles are against these

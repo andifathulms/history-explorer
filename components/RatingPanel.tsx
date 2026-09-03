@@ -21,7 +21,7 @@ function Bar({ pct, gold = false }: { pct: Gapped<number>; gold?: boolean }) {
     <div className="h-[10px] w-full rounded-full bg-kashi/10">
       {pct.present ? (
         <div
-          className={`h-[10px] rounded-full ${gold ? 'bg-zarrin' : 'bg-kashi'}`}
+          className={`h-[10px] rounded-full ${gold ? 'bg-zarrin-ink' : 'bg-kashi'}`}
           style={{ width: `${Math.max(1.5, pct.value * 100)}%` }}
         />
       ) : null}
@@ -61,10 +61,10 @@ function AxisRow({
     <div className="border-t border-kashi/15 py-4">
       <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
         <h3 className="text-[16px] font-semibold text-kashi">{label}</h3>
-        <p className="text-[15px] text-debu">{figure}</p>
+        <p className="text-[15px] text-debu-ink">{figure}</p>
       </div>
       <div className="mt-2">{children}</div>
-      {pct ? <p className="mt-1.5 text-[14px] text-debu">{pct}</p> : null}
+      {pct ? <p className="mt-1.5 text-[14px] text-debu-ink">{pct}</p> : null}
     </div>
   )
 }
@@ -90,14 +90,14 @@ export function RatingPanel({ rating, scale }: { rating: Rating; scale: Scale })
         aria-controls="rating-body"
         className="flex w-full items-baseline justify-between border-t border-kashi/30 py-4 text-left"
       >
-        <span className="text-[15px] uppercase tracking-widest text-debu">Rating</span>
+        <span className="text-[15px] uppercase tracking-widest text-debu-ink">Rating</span>
         <span className="text-[15px] text-kashi">
           {r.totalProvenance} {open ? '−' : '+'}
         </span>
       </button>
 
       <div id="rating-body" hidden={!open}>
-        <p className="max-w-measure text-[15px] text-debu">
+        <p className="max-w-measure text-[15px] text-debu-ink">
           Four axes, all computed from cited numbers and never from editorial judgement.
           Percentiles are against the eight polities here plus a reference backdrop of
           fifty-one from world history. {scaleNote} A missing axis is excluded from the
@@ -149,7 +149,7 @@ export function RatingPanel({ rating, scale }: { rating: Rating; scale: Scale })
             sliders on the comparison view may combine them. */}
         <div className="border-t border-kashi/15 py-4">
           <h3 className="text-[16px] font-semibold text-kashi">Influence</h3>
-          <p className="mt-1 max-w-measure text-[15px] text-debu">
+          <p className="mt-1 max-w-measure text-[15px] text-debu-ink">
             Three separate counts. This site never publishes a single influence number of
             its own; the sliders on the comparison view fuse them only in your view.
           </p>
@@ -158,16 +158,16 @@ export function RatingPanel({ rating, scale }: { rating: Rating; scale: Scale })
               const c = r.influence.counts[k]
               return (
                 <div key={k}>
-                  <p className="text-[15px] text-debu">{INFLUENCE_LABELS[k]}</p>
+                  <p className="text-[15px] text-debu-ink">{INFLUENCE_LABELS[k]}</p>
                   <p
                     className={`mt-0.5 tabular-nums ${
-                      c.count === null ? 'text-[16px] italic text-debu' : 'text-[26px] text-kashi'
+                      c.count === null ? 'text-[16px] italic text-debu-ink' : 'text-[26px] text-kashi'
                     }`}
                   >
                     {c.count === null ? NO_FIGURE : c.count}
                   </p>
                   {c.items.length ? (
-                    <p className="mt-0.5 text-[14px] text-debu">{c.items.join(' · ')}</p>
+                    <p className="mt-0.5 text-[14px] text-debu-ink">{c.items.join(' · ')}</p>
                   ) : null}
                 </div>
               )
@@ -185,7 +185,7 @@ export function RatingPanel({ rating, scale }: { rating: Rating; scale: Scale })
           <div className="mt-2">
             <Bar pct={r.total} gold />
           </div>
-          <p className="mt-1.5 text-[14px] text-debu">
+          <p className="mt-1.5 text-[14px] text-debu-ink">
             {r.totalProvenance}, renormalised across the axes that have figures. A polity
             with two documented axes is not penalised against one with four.
           </p>
