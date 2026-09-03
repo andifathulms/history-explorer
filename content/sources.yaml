@@ -274,6 +274,69 @@ sources:
     note: >-
       Used for the steppe polities: Karakhanid, Uyghur, Khazar.
 
+  - id: brett-2017
+    kind: book
+    author: Michael Brett
+    title: The Fatimid Empire
+    publisher: Edinburgh University Press
+    year: 2017
+
+  - id: halm-1996
+    kind: book
+    author: Heinz Halm
+    title: "The Empire of the Mahdi: The Rise of the Fatimids"
+    publisher: Brill
+    year: 1996
+
+  - id: kennedy-1996
+    kind: book
+    author: Hugh Kennedy
+    title: "Muslim Spain and Portugal: A Political History of al-Andalus"
+    publisher: Longman
+    year: 1996
+
+  - id: abun-nasr-1987
+    kind: book
+    author: Jamil M. Abun-Nasr
+    title: A History of the Maghrib in the Islamic Period
+    publisher: Cambridge University Press
+    year: 1987
+
+  - id: bennison-2016
+    kind: book
+    author: Amira K. Bennison
+    title: The Almoravid and Almohad Empires
+    publisher: Edinburgh University Press
+    year: 2016
+
+  - id: petry-1998
+    kind: book
+    author: Carl F. Petry (ed.)
+    title: "The Cambridge History of Egypt, Volume 1: Islamic Egypt 640-1517"
+    publisher: Cambridge University Press
+    year: 1998
+
+  - id: humphreys-1977
+    kind: book
+    author: R. Stephen Humphreys
+    title: "From Saladin to the Mongols: The Ayyubids of Damascus 1193-1260"
+    publisher: State University of New York Press
+    year: 1977
+
+  - id: hillenbrand-1999
+    kind: book
+    author: Carole Hillenbrand
+    title: "The Crusades: Islamic Perspectives"
+    publisher: Edinburgh University Press
+    year: 1999
+
+  - id: peacock-yildiz-2013
+    kind: book
+    author: A. C. S. Peacock and Sara Nur Yildiz (eds)
+    title: "The Seljuks of Anatolia: Court and Society in the Medieval Middle East"
+    publisher: I.B. Tauris
+    year: 2013
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors

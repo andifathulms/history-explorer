@@ -1,0 +1,47 @@
+id: fatimid
+region: caliphates
+
+name:
+  latin: Fatimid Caliphate
+  script: الخلافة الفاطمية
+  script_lang: ar
+
+span:
+  start: { min: 909, max: 909, source: halm-1996 }
+  end: { min: 1171, max: 1171, source: brett-2017 }
+
+identity: >-
+  The Isma'ili Shi'i counter-caliphate: the only rival that claimed the office
+  itself rather than a province, and held Egypt for two centuries doing it.
+
+capitals:
+  - { name: Mahdiyya, from: 921, to: 973, source: halm-1996 }
+  - { name: Cairo, script: القاهرة, from: 973, source: brett-2017 }
+
+core_region: Ifriqiya, then Egypt
+
+rulers:
+  founder: { name: Abd Allah al-Mahdi, reign: [909, 934], source: halm-1996 }
+  peak: { name: al-Mustansir, reign: [1036, 1094], source: brett-2017 }
+  last: { name: al-Adid, reign: [1160, 1171], source: brett-2017 }
+
+scripts_and_languages:
+  administration: [Arabic]
+  writing_system: Arabic
+
+ended:
+  type: internal usurpation
+  by: [ayyubid]
+  year: 1171
+  source: humphreys-1977
+
+measures:
+  reach_km2: { value: 4100000, at: 969, source: taagepera-1997 }
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried:
+      count: 1
+      items: [Isma'ili Shi'ism]
+      source: brett-2017
+    successor_claims: { count: null, items: [], source: null }

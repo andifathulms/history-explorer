@@ -1,0 +1,46 @@
+id: mamluk-sultanate
+region: central-lands
+
+name:
+  latin: Mamluk Sultanate
+  script: سلطنة المماليك
+  script_lang: ar
+
+span:
+  start: { min: 1250, max: 1250, source: petry-1998 }
+  end: { min: 1517, max: 1517, source: petry-1998 }
+
+identity: >-
+  A state governed by its own slave soldiers, who stopped the Mongols at Ayn
+  Jalut and kept a shadow Abbasid caliph in Cairo for two and a half centuries.
+
+capitals:
+  - { name: Cairo, script: القاهرة, from: 1250, source: petry-1998 }
+
+core_region: Egypt and Syria
+
+rulers:
+  founder: { name: Aybak, reign: [1250, 1257], source: petry-1998 }
+  peak: { name: Baybars, reign: [1260, 1277], source: petry-1998 }
+  last: { name: Tuman Bay II, reign: [1516, 1517], source: petry-1998 }
+
+scripts_and_languages:
+  administration: [Arabic]
+  writing_system: Arabic
+
+ended:
+  type: conquest
+  by: [ottoman]
+  year: 1517
+  source: petry-1998
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims:
+      count: 1
+      items: [Abbasid Caliphate of Cairo]
+      source: el-hibri-2021

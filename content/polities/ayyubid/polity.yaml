@@ -1,0 +1,49 @@
+id: ayyubid
+region: central-lands
+
+name:
+  latin: Ayyubid Sultanate
+  script: الأيوبيون
+  script_lang: ar
+
+span:
+  start: { min: 1171, max: 1171, source: humphreys-1977 }
+  end: { min: 1250, max: 1260, source: humphreys-1977 }
+
+identity: >-
+  Saladin's house: the Kurdish family that ended the Fatimid caliphate, took
+  Jerusalem back from the Crusaders, and then divided itself among cousins.
+
+capitals:
+  - { name: Cairo, script: القاهرة, from: 1171, source: humphreys-1977 }
+  - { name: Damascus, script: دمشق, from: 1174, source: humphreys-1977 }
+
+core_region: Egypt, Syria and the Jazira
+
+rulers:
+  founder: { name: Salah al-Din (Saladin), reign: [1171, 1193], source: hillenbrand-1999 }
+  peak: { name: al-Adil I, reign: [1200, 1218], source: humphreys-1977 }
+  last: { name: al-Nasir Yusuf, reign: [1250, 1260], source: humphreys-1977 }
+
+scripts_and_languages:
+  administration: [Arabic]
+  writing_system: Arabic
+
+ended:
+  type: internal usurpation
+  by: [mamluk-sultanate]
+  year: 1250
+  source: petry-1998
+
+measures:
+  # No figure for this polity's peak extent in the works consulted. Taagepera
+  # does not tabulate it separately and no other cited source gives a km2.
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried:
+      count: 1
+      items: [Sunni Islam]
+      source: humphreys-1977
+    successor_claims: { count: null, items: [], source: null }

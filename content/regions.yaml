@@ -49,3 +49,26 @@ regions:
       Turkic and Afghan rule in northern India, founded by a Ghurid
       slave-general and outlasting every polity that produced it.
     thread: false
+
+  - id: islamic-west
+    name: The Islamic West
+    blurb: >-
+      The Maghreb and al-Andalus — the provinces that left the caliphate
+      earliest and stayed gone, and the Berber empires that later ruled both
+      shores of the strait.
+    thread: false
+
+  - id: central-lands
+    name: Egypt, Syria and the Jazira
+    blurb: >-
+      The provinces closest to Baghdad, and therefore the ones whose autonomy
+      mattered most: Egypt's grain, Syria's frontier with Byzantium, and the
+      Jazira between them.
+    thread: false
+
+  - id: anatolia
+    name: Anatolia
+    blurb: >-
+      The Byzantine heartland after Manzikert, ruled by a branch of the Seljuk
+      house that outlasted the empire it came from.
+    thread: false
