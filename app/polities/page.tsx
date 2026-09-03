@@ -31,19 +31,33 @@ export default function PolitiesIndex() {
           </PageHead>
 
           {/* Sixteen regions is more than a reader should have to scroll past to
-              find one. The jump list is navigation, not a summary. */}
-          <nav aria-label="Regions" className="mt-10 border-y border-kashi/15 py-4">
-            <ul className="flex flex-wrap gap-x-5 gap-y-2">
-              {populated.map((r) => (
-                <li key={r.id}>
-                  <a
-                    href={`#${r.id}`}
-                    className="link-underline font-mono text-[12.5px] uppercase tracking-[0.06em] text-debu-ink hover:text-firuze-ink"
-                  >
-                    {r.name}
-                  </a>
-                </li>
-              ))}
+              find one. Set as a wrapped line of capitals it was a grey block
+              rather than a list — sixteen multi-word names at one weight, with
+              nothing to tell them apart and no reason to prefer any. A column
+              per region with its count reads as a contents page, which is what
+              it is, and the count is the one fact that makes a region worth
+              choosing from here. */}
+          <nav aria-label="Regions" className="mt-12 border-t border-kashi/15 pt-8">
+            <h2 className="kicker text-debu-ink">Jump to a region</h2>
+            <ul className="mt-5 grid gap-x-10 sm:grid-cols-2 lg:grid-cols-3">
+              {populated.map((r) => {
+                const n = politiesInRegion(r.id).filter((p) => !p.context_only).length
+                return (
+                  <li key={r.id} className="border-b border-kashi/10">
+                    <a
+                      href={`#${r.id}`}
+                      className="group flex items-baseline justify-between gap-4 py-2.5"
+                    >
+                      <span className="text-[16px] text-kashi transition-colors group-hover:text-firuze-ink">
+                        {r.name}
+                      </span>
+                      <span className="font-mono text-micro tabular-nums text-debu-ink">
+                        {String(n).padStart(2, '0')}
+                      </span>
+                    </a>
+                  </li>
+                )
+              })}
             </ul>
           </nav>
 
@@ -52,7 +66,7 @@ export default function PolitiesIndex() {
             const ps = inRegion.filter((p) => !p.context_only)
             const ctx = inRegion.filter((p) => p.context_only)
             return (
-              <section key={r.id} id={r.id} className="scroll-mt-28 pt-16">
+              <section key={r.id} id={r.id} className="scroll-mt-28 pt-20">
                 <div className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-2 border-t border-kashi/25 pt-5">
                   <div className="flex flex-wrap items-baseline gap-x-4 gap-y-1">
                     <h2 className="font-display text-title font-semibold text-kashi-deep">
@@ -78,6 +92,11 @@ export default function PolitiesIndex() {
                   </p>
                 ) : null}
 
+                {/* The grid draws its rules as 1px gaps over a tinted parent,
+                    which means a part-filled last row leaves the tint showing
+                    where a card should be. The fillers close the rectangle at
+                    each column count; they are decoration, so they are hidden
+                    from the accessibility tree. */}
                 <ul className="mt-8 grid gap-px border border-kashi/12 bg-kashi/12 md:grid-cols-2 xl:grid-cols-3">
                   {ps.map((p) => {
                     const n = getChapters(p.id).length
@@ -113,7 +132,7 @@ export default function PolitiesIndex() {
                             <dt className="font-mono text-micro uppercase text-debu-ink">
                               Chapters
                             </dt>
-                            <dd className="tabular-nums text-dawat/75">{n}</dd>
+                            <dd className="font-mono tabular-nums text-dawat/75">{n}</dd>
                             <dt className="font-mono text-micro uppercase text-debu-ink">
                               Reach
                             </dt>
@@ -121,7 +140,7 @@ export default function PolitiesIndex() {
                               className={
                                 p.measures.reach_km2?.value == null
                                   ? 'italic text-debu-ink'
-                                  : 'tabular-nums text-dawat/75'
+                                  : 'font-mono tabular-nums text-dawat/75'
                               }
                             >
                               {formatKm2(p.measures.reach_km2?.value ?? null)}
@@ -133,7 +152,7 @@ export default function PolitiesIndex() {
                               className={
                                 p.measures.peak_population?.value == null
                                   ? 'italic text-debu-ink'
-                                  : 'tabular-nums text-dawat/75'
+                                  : 'font-mono tabular-nums text-dawat/75'
                               }
                             >
                               {formatPopulation(p.measures.peak_population?.value ?? null)}
@@ -143,6 +162,16 @@ export default function PolitiesIndex() {
                       </li>
                     )
                   })}
+                  {Array.from({ length: (3 - (ps.length % 3)) % 3 }).map((_, i) => (
+                    <li key={`f3-${i}`} aria-hidden className="hidden bg-kaghaz-raise xl:block" />
+                  ))}
+                  {Array.from({ length: (2 - (ps.length % 2)) % 2 }).map((_, i) => (
+                    <li
+                      key={`f2-${i}`}
+                      aria-hidden
+                      className="hidden bg-kaghaz-raise md:block xl:hidden"
+                    />
+                  ))}
                 </ul>
 
                 {ctx.length ? (
