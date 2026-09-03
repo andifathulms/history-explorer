@@ -21,8 +21,13 @@ capitals:
 core_region: Transoxiana and the Tarim basin
 
 rulers:
-  founder: null
-  peak: null
+  # These were null while this was a context polity with no source read for it.
+  # Now that it has chapters the three are filled from the works consulted.
+  # `last` stays null on purpose: the khanate split into eastern and western
+  # halves in the 1040s and both continued under separate lines, so naming one
+  # final ruler would assert a unity the dynasty no longer had.
+  founder: { name: Satuq Bughra Khan, source: ei2-karakhanids }
+  peak: { name: Nasr b. Ali, source: ei2-karakhanids }
   last: null
 
 scripts_and_languages:
