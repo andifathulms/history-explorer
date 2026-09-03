@@ -1,6 +1,15 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
-import { getRegion, politiesInRegion, edgesInRegion, threadedRegions } from '@/lib/content'
+import {
+  getRegion,
+  politiesInRegion,
+  edgesInRegion,
+  threadedRegions,
+  crossRegionEdges,
+  displayName,
+  hasPage,
+} from '@/lib/content'
+import Link from 'next/link'
 import { Thread } from '@/components/Thread'
 import { SiteNav } from '@/components/SiteNav'
 
@@ -21,11 +30,20 @@ export default function RegionThread({ params }: { params: { region: string } })
   const polities = politiesInRegion(region.id)
   const edges = edgesInRegion(region.id)
 
-  // The Abbasids are an edge target for every polity here, but their span runs
-  // off the top of this scale; drawing them would compress everything else into
-  // the bottom third. Named in the prose instead.
-  const offScale = polities.filter((p) => p.span.start.min < 800)
-  const onThread = polities.filter((p) => p.span.start.min >= 800)
+  // Every polity in the region is drawn. The scale is the region's own span, so
+  // there is nothing to exclude for being too long or too early — that was only
+  // ever a problem when one global thread had to hold every polity at once.
+  const onThread = polities
+
+  // Held from, or claimed against, a polity in another region.
+  const outward = crossRegionEdges(region.id)
+  const outsideIds = [
+    ...new Set(
+      outward.flatMap((e) =>
+        [e.from, e.to].filter((x) => !polities.some((p) => p.id === x)),
+      ),
+    ),
+  ]
 
   return (
     <div className="min-h-screen bg-dawat text-kaghaz">
@@ -37,17 +55,29 @@ export default function RegionThread({ params }: { params: { region: string } })
           <p className="mt-4 text-debu-paper">{region.blurb}</p>
           <p className="mt-4 text-debu-paper">
             The line below is a time axis. Position on it is date, so concurrency is
-            visible: the Saffarids and Samanids ran at the same time and hostile to each
-            other, and you can see that without being told.
-            {offScale.length ? (
-              <>
-                {' '}
-                {offScale.map((p) => p.name.latin).join(' and ')}, which every polity here
-                held a grant from, {offScale.length > 1 ? 'run' : 'runs'} off the top of
-                this scale and {offScale.length > 1 ? 'are' : 'is'} not drawn.
-              </>
-            ) : null}
+            visible: concurrent polities sit side by side rather than in sequence.
           </p>
+          {outsideIds.length ? (
+            <p className="mt-4 text-debu-paper">
+              {outward.length} sourced edge{outward.length === 1 ? '' : 's'} run
+              {outward.length === 1 ? 's' : ''} between this region and another, to{' '}
+              {outsideIds.map((id, i) => (
+                <span key={id}>
+                  {i > 0 ? (i === outsideIds.length - 1 ? ' and ' : ', ') : ''}
+                  {hasPage(id) ? (
+                    <Link href={`/polity/${id}/`} className="text-firuze hover:underline">
+                      {displayName(id)}
+                    </Link>
+                  ) : (
+                    displayName(id)
+                  )}
+                </span>
+              ))}
+              . Those are not drawn on this line — a thread that crossed regions would
+              assert a sequence nobody cited — but they are on each polity&rsquo;s own
+              page.
+            </p>
+          ) : null}
         </header>
 
         <div className="mt-12">

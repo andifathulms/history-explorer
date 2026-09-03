@@ -343,3 +343,19 @@ export function threadedRegions(): Region[] {
 export function inThread(p: Polity): boolean {
   return getRegion(p.region)?.thread === true
 }
+
+/**
+ * Edges with exactly one end inside the region.
+ *
+ * The Intermezzo dynasties all held their authority from a caliphate in another
+ * region, and that is the most important fact about several of them. A thread
+ * must not draw those edges — it would assert a sequence across regions — but
+ * dropping them silently would lose the context entirely, so they are named
+ * beside the thread instead.
+ */
+export function crossRegionEdges(id: string): Edge[] {
+  const ids = new Set(politiesInRegion(id).map((p) => p.id))
+  return loadCorpus().edges.filter(
+    (e) => ids.has(e.from) !== ids.has(e.to),
+  )
+}

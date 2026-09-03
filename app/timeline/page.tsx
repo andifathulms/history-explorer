@@ -23,7 +23,7 @@ export const metadata: Metadata = {
  */
 export default function TimelineView() {
   const { narrative, context } = loadCorpus()
-  const rows = [...narrative, ...context.filter((p) => p.id !== 'abbasid')].sort(
+  const rows = [...narrative, ...context].sort(
     (a, b) => a.span.start.min - b.span.start.min,
   )
   const corpus = loadCorpus()

@@ -26,4 +26,4 @@ regions:
       Umayyad, Abbasid. One continuous claim to authority over the whole
       community, held from Medina, then Damascus, then Baghdad, and contracting
       the whole time it was being asserted.
-    thread: false
+    thread: true

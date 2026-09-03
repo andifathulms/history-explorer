@@ -11,6 +11,48 @@
 # describes what `to` was or did with respect to `from`.
 
 edges:
+  # ---- Inside the caliphates: one office, three houses ----
+
+  - from: rashidun
+    to: umayyad
+    type: overthrew
+    year: 661
+    note: "Mu'awiya, Uthman's kinsman and governor of Syria for twenty years,
+           fought Ali to a stalemate at Siffin and took the caliphate when Ali
+           was murdered and his son Hasan came to terms."
+    source: madelung-1997
+    contested: false
+
+  - from: rashidun
+    to: umayyad
+    type: claimed legitimacy of
+    year: 661
+    note: "Mu'awiya took the titles khalifa and amir al-mu'minin unchanged,
+           presenting the Umayyad accession as the continuation of the Medinan
+           caliphate rather than the founding of a dynasty."
+    source: hawting-2000
+    contested: false
+
+  - from: rashidun
+    to: abbasid
+    type: claimed legitimacy of
+    year: 750
+    note: "The Abbasids justified their rising as the restoration of a rightly
+           guided caliphate the Umayyads had usurped, claiming the Medinan
+           office directly over the dynasty that had held it in between."
+    source: kennedy-2004
+    contested: false
+
+  - from: umayyad
+    to: abbasid
+    type: overthrew
+    year: 750
+    note: "A Khurasani army raised for twenty years in the name of an unnamed
+           member of the Prophet's house destroyed Marwan II at the Great Zab,
+           after which the candidate was revealed to be an Abbasid."
+    source: hawting-2000
+    contested: false
+
   # ---- The caliphate delegates, and keeps delegating ----
   - from: abbasid
     to: tahirid

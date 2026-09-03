@@ -1,9 +1,5 @@
-# Context polity. It is an edge target and it appears on the timeline, but it
-# has no chapters in v1 and is not part of the narrative corpus the site claims
-# to have read a source for. See PRD section 3.
 id: abbasid
-region: iranian-intermezzo
-context_only: true
+region: caliphates
 
 name:
   latin: Abbasid Caliphate
@@ -15,8 +11,8 @@ span:
   end: { min: 1258, max: 1258, source: bosworth-1996 }
 
 identity: >-
-  The caliphate every polity in this thread held a grant from, long after it
-  could enforce one.
+  The caliphate that ruled from Baghdad, and then reigned from it for four
+  centuries after it had stopped ruling anything.
 
 capitals:
   - { name: Baghdad, script: بغداد, from: 762, source: iranica-abbasid-caliphate }
@@ -42,10 +38,22 @@ ended:
 measures:
   reach_km2: { value: 11100000, at: 750, source: taagepera-1997 }
   peak_population: null
-  # Influence is not coded for context polities. Coding it would mean applying
-  # the rulebook without having read a source for this polity, which is the one
-  # thing the rulebook forbids. Null, not zero.
   influence:
+    # As with the other two caliphates: no consulted source here attributes a
+    # derived or newly adapted script to this polity. The adaptation of Arabic
+    # to write Persian happened in the Abbasid east, but the sources read for
+    # this corpus attribute it to no polity in particular, and the coding rules
+    # exclude adaptations a source assigns elsewhere or not at all. Null.
     descendant_scripts: { count: null, items: [], source: null }
-    religions_carried: { count: null, items: [], source: null }
-    successor_claims: { count: null, items: [], source: null }
+    religions_carried:
+      count: 1
+      items: [Islam]
+      source: kennedy-2004
+    # The Intermezzo dynasties named the Abbasid caliph in the khutba, but that
+    # is subordination to a living contemporary, not a claim on a predecessor's
+    # legitimacy, and it is not counted here. The shadow caliphate the Mamluks
+    # installed at Cairo after 1261 is a claim, and is.
+    successor_claims:
+      count: 1
+      items: [Abbasid Caliphate of Cairo]
+      source: el-hibri-2021
