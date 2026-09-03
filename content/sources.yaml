@@ -193,6 +193,50 @@ sources:
       Source for peak population and for the world-population denominators used
       by era-normalised mode.
 
+  - id: donner-1981
+    kind: book
+    author: Fred M. Donner
+    title: The Early Islamic Conquests
+    publisher: Princeton University Press
+    year: 1981
+    note: >-
+      The standard study of the Rashidun conquests, and the reason the Rashidun
+      chapters here are about tribal mobilisation and garrison towns rather than
+      battles.
+
+  - id: madelung-1997
+    kind: book
+    author: Wilferd Madelung
+    title: "The Succession to Muhammad: A Study of the Early Caliphate"
+    publisher: Cambridge University Press
+    year: 1997
+    note: >-
+      Used for the succession disputes and the first fitna. Madelung argues a
+      minority position on the legitimacy question; the chapters follow him on
+      sequence and chronology, not on that argument.
+
+  - id: hawting-2000
+    kind: book
+    author: G. R. Hawting
+    title: "The First Dynasty of Islam: The Umayyad Caliphate AD 661-750"
+    publisher: Routledge
+    edition: 2nd
+    year: 2000
+    note: >-
+      The standard Umayyad monograph, and the source for the Sufyanid/Marwanid
+      split and for the argument that the hostile Abbasid-era sources shape most
+      of what is written about the dynasty.
+
+  - id: el-hibri-2021
+    kind: book
+    author: Tayeb El-Hibri
+    title: "The Abbasid Caliphate: A History"
+    publisher: Cambridge University Press
+    year: 2021
+    note: >-
+      Used for the Abbasid arc after Harun al-Rashid, in particular the fourth
+      fitna and the Samarra period.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors

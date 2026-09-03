@@ -18,3 +18,12 @@ regions:
       succession: slave-generals taking their masters' provinces, vassals
       swallowing overlords, governors inheriting the empire that appointed them.
     thread: true
+
+  - id: caliphates
+    name: The Caliphates
+    blurb: >-
+      The universal Islamic polity and its two dynastic successors — Rashidun,
+      Umayyad, Abbasid. One continuous claim to authority over the whole
+      community, held from Medina, then Damascus, then Baghdad, and contracting
+      the whole time it was being asserted.
+    thread: false
