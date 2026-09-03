@@ -1,0 +1,61 @@
+id: saffarid
+name:
+  latin: Saffarid Dynasty
+  script: صفاریان
+  script_lang: fa
+
+# The imperial Saffarid state and the Saffarid maliks of Nimruz are the same
+# family and arguably not the same polity. 1003 is Mahmud's deposition of Khalaf
+# b. Ahmad; 901 is Amr's defeat, after which the dynasty is a Sistani principality
+# rather than a claimant to Khurasan. Bosworth carries the line to 1003, so the
+# end is a range and the longevity bar is honest about which question it answers.
+span:
+  start: { min: 861, max: 861, source: bosworth-1994 }
+  end: { min: 901, max: 1003, source: iranica-saffarids, max_source: bosworth-1994 }
+
+identity: >-
+  A dynasty out of Sistan, risen from irregular frontier volunteers, that took
+  Khurasan by force and demanded the title afterwards.
+
+capitals:
+  - { name: Zarang, script: زرنج, from: 861, source: iranica-saffarids }
+
+core_region: Sistan, with Khurasan and Fars held intermittently
+
+rulers:
+  founder:
+    name: Ya'qub ibn al-Layth al-Saffar
+    script: یعقوب بن اللیث الصفار
+    reign: [861, 879]
+    source: bosworth-1994
+  peak:
+    name: Amr ibn al-Layth
+    script: عمرو بن اللیث
+    reign: [879, 901]
+    source: bosworth-1994
+  last:
+    name: Khalaf ibn Ahmad
+    script: خلف بن احمد
+    reign: [963, 1003]
+    source: bosworth-1994
+
+scripts_and_languages:
+  administration: [Arabic, Persian]
+  writing_system: Perso-Arabic
+
+ended:
+  type: gradual absorption
+  by: [ghaznavid]
+  year: 1003
+  source: bosworth-1994
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: iranica-saffarids }
+    religions_carried: { count: 0, items: [], source: iranica-saffarids }
+    # No consulted source addresses whether any later polity claimed Saffarid
+    # legitimacy. This is a gap, not a zero: nobody looked, so the site does not
+    # get to say "none".
+    successor_claims: { count: null, items: [], source: null }
