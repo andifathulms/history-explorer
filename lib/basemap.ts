@@ -111,8 +111,15 @@ export function getBasemap(polityId: string, width = 640, height = 380): Basemap
     }))
     .filter((s) => s.d)
 
+  // The projection is fitted to the subject, so most of the snapshot lands off
+  // canvas. Emitting its path data anyway was most of the page weight, so
+  // context is clipped to what is actually in frame.
   const context = fc.features
     .filter((f) => !wanted.has(f.properties.NAME))
+    .filter((f) => {
+      const [[x0, y0], [x1, y1]] = toPath.bounds(f as Feature)
+      return x1 > 0 && y1 > 0 && x0 < width && y0 < height
+    })
     .map((f) => ({ d: toPath(f as Feature) ?? '', name: f.properties.NAME }))
     .filter((c) => c.d)
 
