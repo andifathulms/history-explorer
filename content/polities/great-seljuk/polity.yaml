@@ -1,0 +1,66 @@
+id: great-seljuk
+name:
+  latin: Great Seljuk Empire
+  script: سلجوقیان بزرگ
+  script_lang: fa
+
+span:
+  start: { min: 1037, max: 1040, source: bosworth-1996, max_source: iranica-saljuqs }
+  end: { min: 1194, max: 1194, source: bosworth-1968 }
+
+identity: >-
+  A Turkmen dynasty out of the Oghuz steppe that took Iran and Iraq, held the
+  Abbasid caliph as the Buyids had, and made the sultanate a durable institution.
+
+capitals:
+  - { name: Nishapur, from: 1037, to: 1043, source: iranica-saljuqs }
+  - { name: Rayy, from: 1043, to: 1051, source: iranica-saljuqs }
+  - { name: Isfahan, script: اصفهان, from: 1051, source: bosworth-1968 }
+
+core_region: Iran, Iraq and Anatolia
+
+rulers:
+  founder:
+    name: Tughril I
+    script: طغرل بیگ
+    reign: [1037, 1063]
+    source: bosworth-1996
+  peak:
+    name: Malik-Shah I
+    script: ملکشاه
+    reign: [1072, 1092]
+    source: bosworth-1968
+  last:
+    name: Tughril III
+    script: طغرل سوم
+    reign: [1176, 1194]
+    source: bosworth-1996
+
+scripts_and_languages:
+  administration: [Persian, Arabic]
+  writing_system: Perso-Arabic
+
+ended:
+  type: conquest
+  by: [khwarazmian]
+  year: 1194
+  source: bosworth-1968
+
+measures:
+  reach_km2: { value: 3900000, at: 1080, source: taagepera-1997 }
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: iranica-saljuqs }
+    religions_carried:
+      count: 1
+      items: [Sunni Islam]
+      source: bosworth-1968
+    # Two polities publicly styled themselves the continuation of the Seljuk
+    # sultanate: the Rum branch in Anatolia, and the Khwarazmshahs, who took the
+    # sultanate's titulature after destroying its holder. Both are claims in the
+    # coding rules' sense, and the second is a claim on a polity the claimant
+    # had just extinguished.
+    successor_claims:
+      count: 2
+      items: [Sultanate of Rum, khwarazmian]
+      source: bosworth-1968
