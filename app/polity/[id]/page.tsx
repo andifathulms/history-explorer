@@ -8,9 +8,11 @@ import {
   getNeighbours,
   politiesInRegion,
   inThread,
+  getRegion,
 } from '@/lib/content'
 import { buildField, rate, DEFAULT_WEIGHTS } from '@/lib/ratings'
-import { SiteNav } from '@/components/SiteNav'
+import { formatKm2, formatPopulation, NO_FIGURE } from '@/lib/gaps'
+import { Page, Shell, Crumbs, StatRow } from '@/components/Shell'
 import { PolityRail } from '@/components/PolityRail'
 import { Position } from '@/components/Position'
 import { Chapters } from '@/components/Chapters'
@@ -35,6 +37,7 @@ export default function PolityPage({ params }: { params: { id: string } }) {
 
   const chapters = getChapters(p.id)
   const { predecessors, successors } = getNeighbours(p.id)
+  const region = getRegion(p.region)
 
   // The rail is the continuity section's instrument, so it only appears for a
   // polity that actually stands in a thread — and it is scoped to that polity's
@@ -49,57 +52,101 @@ export default function PolityPage({ params }: { params: { id: string } }) {
   const rating = rate(p, field, DEFAULT_WEIGHTS, 'absolute', corpus.denominators)
 
   const span = p.span
-  const startLabel =
-    formatRange(span.start.min, span.start.max)
-  const endLabel =
-    formatRange(span.end.min, span.end.max)
+  const startLabel = formatRange(span.start.min, span.start.max)
+  const endLabel = formatRange(span.end.min, span.end.max)
+  const years = rating.longevity.years
+
+  // The masthead figures are the four a reader asks first. They are the same
+  // values the rating panel expands on, printed once at the top rather than
+  // waiting at the foot of a long page — and a missing one says so here too.
+  const headline = [
+    { label: 'Reach', value: formatKm2(p.measures.reach_km2?.value ?? null) },
+    {
+      label: 'Lasted',
+      value:
+        years.min === years.max ? `${years.min} yrs` : `${years.min}–${years.max} yrs`,
+    },
+    {
+      label: 'Population',
+      value: formatPopulation(p.measures.peak_population?.value ?? null),
+    },
+    { label: 'Ended by', value: p.ended ? p.ended.type : NO_FIGURE },
+  ]
 
   return (
     // Paper ground: this is a reading view, and the change of ground says so
     // without a label.
-    <div className="ground-paper min-h-screen">
-      <SiteNav ground="paper" current="Polities" />
+    <Page ground="paper" current="Polities">
       {railPolities.length ? (
         <PolityRail polities={railPolities} active={p} variant="strip" />
       ) : null}
 
-      <div className="mx-auto flex w-full max-w-shell gap-10 px-5 pb-28 pt-8 sm:px-8">
-        {railPolities.length ? (
-          <aside className="hidden lg:block lg:w-[200px] lg:shrink-0" aria-label="Thread position">
-            <PolityRail polities={railPolities} active={p} variant="rail" />
-          </aside>
-        ) : null}
+      <Shell className="flex-1 pb-28">
+        <Crumbs
+          ground="paper"
+          trail={[
+            { href: '/polities/', label: 'Polities' },
+            ...(region ? [{ label: region.name }] : []),
+            { label: p.name.latin },
+          ]}
+        />
 
-        <main id="main" className="min-w-0 flex-1">
-          <header>
-            <div className="flex flex-wrap items-baseline gap-x-5 gap-y-1">
-              <h1 className="text-[34px] leading-tight text-kashi">{p.name.latin}</h1>
-              {p.name.script ? (
-                <p
-                  lang={p.name.script_lang ?? 'fa'}
-                  className="text-[30px] leading-tight text-kashi"
-                >
-                  {p.name.script}
-                </p>
-              ) : null}
-            </div>
-            <p className="mt-1 tabular-nums text-debu-ink">
-              {startLabel} – {endLabel}
-            </p>
-            <p className="mt-4 max-w-measure text-body">{p.identity}</p>
-          </header>
+        <div className="flex gap-12">
+          {railPolities.length ? (
+            <aside
+              className="hidden shrink-0 pt-10 lg:block lg:w-[200px]"
+              aria-label="Thread position"
+            >
+              <PolityRail polities={railPolities} active={p} variant="rail" />
+            </aside>
+          ) : null}
 
-          <Position predecessors={predecessors} successors={successors} />
+          <main id="main" className="min-w-0 flex-1">
+            <header className="pt-6">
+              <div className="flex flex-wrap items-baseline gap-x-6 gap-y-2">
+                <h1 className="font-display text-display font-semibold text-kashi-deep">
+                  {p.name.latin}
+                </h1>
+                {p.name.script ? (
+                  <p
+                    lang={p.name.script_lang ?? 'fa'}
+                    className="text-[30px] leading-tight text-kashi"
+                  >
+                    {p.name.script}
+                  </p>
+                ) : null}
+              </div>
 
-          <Chapters chapters={chapters} />
+              {/* Both endpoints are ranges where the sources disagree, so they
+                  are labelled rather than run together: "819–892 – 999–1005"
+                  reads as four dates in a row and says nothing. */}
+              <p className="mt-4 flex flex-wrap gap-x-6 gap-y-1 font-mono text-[13px] uppercase tracking-[0.08em] text-debu-ink">
+                <span>
+                  Began <span className="tabular-nums text-kashi">{startLabel}</span>
+                </span>
+                <span>
+                  Ended <span className="tabular-nums text-kashi">{endLabel}</span>
+                </span>
+                {region ? <span>{region.name}</span> : null}
+              </p>
 
-          <Facts polity={p} />
+              <p className="mt-6 max-w-measure text-lede text-dawat/85">{p.identity}</p>
 
-          <PolityMap polity={p} />
+              <StatRow ground="paper" stats={headline} />
+            </header>
 
-          <RatingPanel rating={rating} scale="absolute" />
-        </main>
-      </div>
-    </div>
+            <Position predecessors={predecessors} successors={successors} />
+
+            <Chapters chapters={chapters} />
+
+            <Facts polity={p} />
+
+            <PolityMap polity={p} />
+
+            <RatingPanel rating={rating} scale="absolute" />
+          </main>
+        </div>
+      </Shell>
+    </Page>
   )
 }

@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
-import { formatSpan } from '@/lib/years'
 import Link from 'next/link'
+import { formatSpan } from '@/lib/years'
 import { loadCorpus, politiesInRegion, getChapters } from '@/lib/content'
-import { SiteNav } from '@/components/SiteNav'
+import { Page, Shell, PageHead } from '@/components/Shell'
 import { formatKm2, formatPopulation } from '@/lib/gaps'
 
 export const metadata: Metadata = {
@@ -11,81 +11,156 @@ export const metadata: Metadata = {
 }
 
 export default function PolitiesIndex() {
-  const { regions } = loadCorpus()
+  const { regions, narrative } = loadCorpus()
+  const populated = regions.filter((r) => politiesInRegion(r.id).some((p) => !p.context_only))
 
   return (
-    <div className="ground-paper min-h-screen">
-      <SiteNav ground="paper" current="Polities" />
-      <main id="main" className="mx-auto w-full max-w-shell px-5 pb-24 pt-10 sm:px-8">
-        <h1 className="text-[32px] leading-tight text-kashi">Polities</h1>
-        <p className="mt-3 max-w-measure text-body">
-          Everything the site has actually read a source for. Each has chapters, facts, a
-          peak-extent map and a rating panel. Regions are a browsing convenience, not a
-          claim that the polities inside one were a single civilisation.
-        </p>
+    <Page ground="paper" current="Polities">
+      <main id="main" className="flex-1">
+        <Shell className="pb-24">
+          <PageHead kicker="The reading core" title="Polities" ground="paper">
+            <p>
+              Everything the site has actually read a source for. Each has chapters, facts,
+              a peak-extent map and a rating panel.
+            </p>
+            <p className="mt-4 text-[17px] leading-relaxed text-debu-ink">
+              Regions are a browsing convenience, not a claim that the polities inside one
+              were a single civilisation — and not a ranking. A region carries a thread
+              only where sourced edges actually join two of its polities.
+            </p>
+          </PageHead>
 
-        {regions.map((r) => {
-          const ps = politiesInRegion(r.id).filter((p) => !p.context_only)
-          const ctx = politiesInRegion(r.id).filter((p) => p.context_only)
-          return (
-            <section key={r.id} className="mt-14">
-              <div className="flex flex-wrap items-baseline gap-x-4">
-                <h2 className="text-[22px] text-kashi">{r.name}</h2>
-                {r.thread ? (
-                  <Link
-                    href={`/continuity/${r.id}/`}
-                    className="text-[15px] text-firuze-ink hover:underline"
+          {/* Sixteen regions is more than a reader should have to scroll past to
+              find one. The jump list is navigation, not a summary. */}
+          <nav aria-label="Regions" className="mt-10 border-y border-kashi/15 py-4">
+            <ul className="flex flex-wrap gap-x-5 gap-y-2">
+              {populated.map((r) => (
+                <li key={r.id}>
+                  <a
+                    href={`#${r.id}`}
+                    className="link-underline font-mono text-[12.5px] uppercase tracking-[0.06em] text-debu-ink hover:text-firuze-ink"
                   >
-                    walk the thread →
-                  </Link>
-                ) : null}
-              </div>
+                    {r.name}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </nav>
 
-              <ul className="mt-6">
-                {ps.map((p) => {
-                  const n = getChapters(p.id).length
-                  return (
-                    <li
-                      key={p.id}
-                      className="border-t border-kashi/15 py-5 first:border-t-0 first:pt-0"
+          {populated.map((r) => {
+            const inRegion = politiesInRegion(r.id)
+            const ps = inRegion.filter((p) => !p.context_only)
+            const ctx = inRegion.filter((p) => p.context_only)
+            return (
+              <section key={r.id} id={r.id} className="scroll-mt-28 pt-16">
+                <div className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-2 border-t border-kashi/25 pt-5">
+                  <div className="flex flex-wrap items-baseline gap-x-4 gap-y-1">
+                    <h2 className="font-display text-title font-semibold text-kashi-deep">
+                      {r.name}
+                    </h2>
+                    <span className="font-mono text-micro uppercase text-debu-ink">
+                      {ps.length} {ps.length === 1 ? 'polity' : 'polities'}
+                    </span>
+                  </div>
+                  {r.thread ? (
+                    <Link
+                      href={`/continuity/${r.id}/`}
+                      className="link-underline font-mono text-[12.5px] uppercase tracking-[0.06em] text-firuze-ink"
                     >
-                      <div className="flex flex-wrap items-baseline gap-x-4 gap-y-1">
+                      Walk the thread →
+                    </Link>
+                  ) : null}
+                </div>
+
+                {r.blurb ? (
+                  <p className="mt-4 max-w-measure text-[17px] leading-relaxed text-debu-ink">
+                    {r.blurb}
+                  </p>
+                ) : null}
+
+                <ul className="mt-8 grid gap-px border border-kashi/12 bg-kashi/12 md:grid-cols-2 xl:grid-cols-3">
+                  {ps.map((p) => {
+                    const n = getChapters(p.id).length
+                    return (
+                      <li key={p.id} className="bg-kaghaz-raise">
                         <Link
                           href={`/polity/${p.id}/`}
-                          className="text-[20px] font-semibold text-kashi hover:text-firuze-ink"
+                          className="group flex h-full flex-col p-6 transition-colors hover:bg-kaghaz-lift"
                         >
-                          {p.name.latin}
+                          <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+                            <h3 className="font-display text-[21px] font-semibold text-kashi-deep transition-colors group-hover:text-firuze-ink">
+                              {p.name.latin}
+                            </h3>
+                            {p.name.script ? (
+                              <span
+                                lang={p.name.script_lang ?? 'fa'}
+                                className="text-[19px] text-kashi/70"
+                              >
+                                {p.name.script}
+                              </span>
+                            ) : null}
+                          </div>
+                          <p className="mt-1.5 font-mono text-micro uppercase tabular-nums text-firuze-ink">
+                            {formatSpan(p.span.start.min, p.span.end.max)}
+                          </p>
+                          <p className="mb-5 mt-3 text-[16px] leading-relaxed text-dawat/80">
+                            {p.identity}
+                          </p>
+                          {/* A dl rather than a run-on line: uppercase prose
+                              turns "No cited figure" into shouting, and a gap
+                              on this site is meant to be read calmly. */}
+                          <dl className="mt-auto grid grid-cols-[6.5rem_1fr] gap-x-3 gap-y-1 border-t border-kashi/12 pt-3.5 text-[13.5px]">
+                            <dt className="font-mono text-micro uppercase text-debu-ink">
+                              Chapters
+                            </dt>
+                            <dd className="tabular-nums text-dawat/75">{n}</dd>
+                            <dt className="font-mono text-micro uppercase text-debu-ink">
+                              Reach
+                            </dt>
+                            <dd
+                              className={
+                                p.measures.reach_km2?.value == null
+                                  ? 'italic text-debu-ink'
+                                  : 'tabular-nums text-dawat/75'
+                              }
+                            >
+                              {formatKm2(p.measures.reach_km2?.value ?? null)}
+                            </dd>
+                            <dt className="font-mono text-micro uppercase text-debu-ink">
+                              Population
+                            </dt>
+                            <dd
+                              className={
+                                p.measures.peak_population?.value == null
+                                  ? 'italic text-debu-ink'
+                                  : 'tabular-nums text-dawat/75'
+                              }
+                            >
+                              {formatPopulation(p.measures.peak_population?.value ?? null)}
+                            </dd>
+                          </dl>
                         </Link>
-                        {p.name.script ? (
-                          <span lang={p.name.script_lang ?? 'fa'} className="text-[19px] text-kashi/75">
-                            {p.name.script}
-                          </span>
-                        ) : null}
-                        <span className="tabular-nums text-[15px] text-debu-ink">
-                          {formatSpan(p.span.start.min, p.span.end.max)}
-                        </span>
-                      </div>
-                      <p className="mt-2 max-w-measure text-body">{p.identity}</p>
-                      <p className="mt-2 text-[14px] text-debu-ink">
-                        {n} chapter{n === 1 ? '' : 's'} · reach{' '}
-                        {formatKm2(p.measures.reach_km2?.value ?? null)} · population{' '}
-                        {formatPopulation(p.measures.peak_population?.value ?? null)}
-                      </p>
-                    </li>
-                  )
-                })}
-              </ul>
+                      </li>
+                    )
+                  })}
+                </ul>
 
-              {ctx.length ? (
-                <p className="mt-6 max-w-measure text-[15px] text-debu-ink">
-                  Also in this region as context, with figures and a place on the timeline
-                  but no chapters yet: {ctx.map((p) => p.name.latin).join(', ')}.
-                </p>
-              ) : null}
-            </section>
-          )
-        })}
+                {ctx.length ? (
+                  <p className="mt-6 max-w-measure text-[15px] leading-relaxed text-debu-ink">
+                    Also in this region as context, with figures and a place on the timeline
+                    but no chapters yet: {ctx.map((p) => p.name.latin).join(', ')}.
+                  </p>
+                ) : null}
+              </section>
+            )
+          })}
+
+          <p className="mt-20 border-t border-kashi/15 pt-6 font-mono text-micro uppercase text-debu-ink">
+            {narrative.length} polities read · {populated.length} regions · coverage claims
+            no completeness
+          </p>
+        </Shell>
       </main>
-    </div>
+    </Page>
   )
 }

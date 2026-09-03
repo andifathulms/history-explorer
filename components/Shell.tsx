@@ -100,7 +100,7 @@ export function StatRow({
         <div key={s.label} className={`px-5 py-5 ${dark ? 'bg-dawat' : 'bg-kaghaz-raise'}`}>
           <dt className={`kicker ${dark ? 'text-debu-paper' : 'text-debu-ink'}`}>{s.label}</dt>
           <dd
-            className={`mt-2 font-mono text-[26px] tabular-nums ${
+            className={`mt-2 font-mono text-[22px] leading-tight tabular-nums [overflow-wrap:anywhere] ${
               dark ? 'text-kaghaz' : 'text-kashi-deep'
             }`}
           >
@@ -109,5 +109,76 @@ export function StatRow({
         </div>
       ))}
     </dl>
+  )
+}
+
+/**
+ * A section heading inside a page: mono kicker over a hairline. Used wherever
+ * a page changes subject — succession, facts, the map — so the eye can find
+ * the joins in a long polity page without the headings shouting.
+ */
+export function SectionHead({
+  children,
+  ground,
+  id,
+  aside,
+}: {
+  children: React.ReactNode
+  ground: 'dark' | 'paper'
+  id?: string
+  aside?: React.ReactNode
+}) {
+  const dark = ground === 'dark'
+  return (
+    <div
+      className={`flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1 border-t pb-4 pt-4 ${
+        dark ? 'border-dawat-edge' : 'border-kashi/15'
+      }`}
+    >
+      <h2 id={id} className={`kicker ${dark ? 'text-debu-paper' : 'text-debu-ink'}`}>
+        {children}
+      </h2>
+      {aside}
+    </div>
+  )
+}
+
+/** Where you are, above the title. Two levels only — this is not a deep site. */
+export function Crumbs({
+  trail,
+  ground,
+}: {
+  trail: { href?: string; label: string }[]
+  ground: 'dark' | 'paper'
+}) {
+  const dark = ground === 'dark'
+  return (
+    <nav aria-label="Breadcrumb" className="pt-10">
+      <ol className="flex flex-wrap items-center gap-x-2 font-mono text-micro uppercase">
+        {trail.map((t, i) => (
+          <li key={t.label} className="flex items-center gap-2">
+            {i > 0 ? (
+              <span aria-hidden="true" className={dark ? 'text-debu-paper' : 'text-debu-ink'}>
+                /
+              </span>
+            ) : null}
+            {t.href ? (
+              <a
+                href={t.href}
+                className={`transition-colors ${
+                  dark
+                    ? 'text-debu-paper hover:text-firuze-bright'
+                    : 'text-debu-ink hover:text-firuze-ink'
+                }`}
+              >
+                {t.label}
+              </a>
+            ) : (
+              <span className={dark ? 'text-kaghaz' : 'text-kashi-deep'}>{t.label}</span>
+            )}
+          </li>
+        ))}
+      </ol>
+    </nav>
   )
 }

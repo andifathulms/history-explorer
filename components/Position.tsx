@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { formatYear } from '@/lib/years'
 import type { Edge } from '@/lib/types'
 import { displayName, hasPage } from '@/lib/content'
+import { SectionHead } from '@/components/Shell'
 
 /**
  * Succession — PRD section 4, item 2.
@@ -17,7 +18,9 @@ function EdgeRow({ edge, other }: { edge: Edge; other: string }) {
   return (
     <li className="border-t border-kashi/15 py-3 first:border-t-0">
       <p className="flex flex-wrap items-baseline gap-x-2">
-        <span className="tabular-nums text-debu-ink">{edge.year == null ? '—' : formatYear(edge.year)}</span>
+        <span className="font-mono text-[14px] tabular-nums text-debu-ink">
+          {edge.year == null ? '—' : formatYear(edge.year)}
+        </span>
         <span className="italic text-kashi">{edge.type}</span>
         {hasPage(other) ? (
           <Link href={`/polity/${other}/`} className="font-semibold text-kashi hover:text-firuze-ink">
@@ -52,11 +55,11 @@ export function Position({
   // truer shape, and it keeps the page from opening on a hole.
   if (!predecessors.length && !successors.length) {
     return (
-      <section aria-labelledby="position-heading" className="mt-10">
-        <h2 id="position-heading" className="text-[15px] uppercase tracking-widest text-debu-ink">
+      <section aria-labelledby="position-heading" className="mt-16">
+        <SectionHead ground="paper" id="position-heading">
           Succession
-        </h2>
-        <p className="mt-3 max-w-measure text-body">
+        </SectionHead>
+        <p className="max-w-measure text-body">
           No sourced succession edge runs into or out of this polity. That is a statement
           about what this site has read, not about the polity: it stands on its own here,
           and is measured on the same axes as everything else.
@@ -66,14 +69,16 @@ export function Position({
   }
 
   return (
-    <section aria-labelledby="position-heading" className="mt-10">
-      <h2 id="position-heading" className="text-[15px] uppercase tracking-widest text-debu-ink">
+    <section aria-labelledby="position-heading" className="mt-16">
+      <SectionHead ground="paper" id="position-heading">
         Succession
-      </h2>
+      </SectionHead>
 
-      <div className="mt-4 grid gap-8 md:grid-cols-2">
+      <div className="grid gap-10 md:grid-cols-2">
         <div>
-          <h3 className="text-[16px] font-semibold text-kashi">What led here</h3>
+          <h3 className="font-display text-[19px] font-semibold text-kashi-deep">
+            What led here
+          </h3>
           {predecessors.length ? (
             <ul className="mt-2">
               {predecessors.map((e, i) => (
@@ -88,7 +93,9 @@ export function Position({
         </div>
 
         <div>
-          <h3 className="text-[16px] font-semibold text-kashi">What led away</h3>
+          <h3 className="font-display text-[19px] font-semibold text-kashi-deep">
+            What led away
+          </h3>
           {successors.length ? (
             <ul className="mt-2">
               {successors.map((e, i) => (
