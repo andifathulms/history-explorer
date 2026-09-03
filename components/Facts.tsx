@@ -1,4 +1,5 @@
 import type { Polity, Ruler } from '@/lib/types'
+import { formatYear, formatSpan } from '@/lib/years'
 import { NO_FIGURE } from '@/lib/gaps'
 import { citeShort } from '@/lib/content'
 
@@ -35,7 +36,7 @@ function RulerLine({ r }: { r: Ruler | null }) {
       ) : null}
       {r.reign ? (
         <span className="ms-2 tabular-nums text-debu-ink">
-          r. {r.reign[0]}–{r.reign[1]}
+          r. {formatSpan(r.reign[0], r.reign[1])}
         </span>
       ) : null}
     </span>
@@ -65,8 +66,8 @@ export function Facts({ polity }: { polity: Polity }) {
                   ) : null}
                   {c.from ? (
                     <span className="ms-2 tabular-nums text-debu-ink">
-                      from {c.from}
-                      {c.to ? ` to ${c.to}` : ''}
+                      from {formatYear(c.from)}
+                      {c.to ? ` to ${formatYear(c.to)}` : ''}
                     </span>
                   ) : null}
                 </li>
@@ -100,7 +101,7 @@ export function Facts({ polity }: { polity: Polity }) {
           {p.ended ? (
             <span>
               <span className="font-semibold text-kashi">{p.ended.type}</span>
-              {p.ended.year ? <span className="ms-2 tabular-nums text-debu-ink">{p.ended.year}</span> : null}
+              {p.ended.year ? <span className="ms-2 tabular-nums text-debu-ink">{formatYear(p.ended.year)}</span> : null}
               <span className="mt-1 block text-[15px] text-debu-ink">
                 {citeShort(p.ended.source)}
               </span>

@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { formatYear } from '@/lib/years'
 import type { Polity } from '@/lib/types'
 import { hasPage } from '@/lib/content'
 
@@ -34,7 +35,7 @@ export function PolityRail({
     // Mobile: the strip. Same axis, rotated, still tells you where you are.
     return (
       <div className="flex items-center gap-3 border-b border-kashi/20 px-5 py-3 text-[12px] tabular-nums text-debu-ink lg:hidden">
-        <span>{first}</span>
+        <span>{formatYear(first)}</span>
         <span className="relative h-[3px] flex-1 rounded-full bg-kashi/25">
           <span
             className="absolute top-0 h-[3px] rounded-full bg-zarrin"
@@ -47,7 +48,7 @@ export function PolityRail({
             }}
           />
         </span>
-        <span>{last}</span>
+        <span>{formatYear(last)}</span>
       </div>
     )
   }
@@ -101,7 +102,7 @@ export function PolityRail({
                       isActive ? 'fill-zarrin-ink' : 'fill-debu-ink'
                     }`}
                   >
-                    {p.span.start.min}
+                    {formatYear(p.span.start.min)}
                   </text>
                   {isActive ? (
                     <>

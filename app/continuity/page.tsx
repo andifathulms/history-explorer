@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { formatSpan } from '@/lib/years'
 import Link from 'next/link'
 import { loadCorpus, politiesInRegion, edgesInRegion } from '@/lib/content'
 import { SiteNav } from '@/components/SiteNav'
@@ -55,7 +56,7 @@ export default function ContinuityIndex() {
                     </h3>
                   </Link>
                   <p className="mt-1 tabular-nums text-[15px] text-debu-paper">
-                    {from} – {to} · {ps.length} polities · {es.length} sourced edges
+                    {formatSpan(from, to)} · {ps.length} polities · {es.length} sourced edges
                   </p>
                   <p className="mt-3 text-debu-paper">{r.blurb}</p>
                 </li>

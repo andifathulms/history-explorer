@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { formatYear, formatRange } from '@/lib/years'
 import type { Edge, Polity } from '@/lib/types'
 import { layoutBands, laneX, makeScale, centuryTicks } from '@/lib/thread'
 import { hasPage } from '@/lib/content'
@@ -57,7 +58,7 @@ export function Thread({
               y={scale.y(year) + 4}
               className="fill-debu-paper text-[12px] tabular-nums"
             >
-              {year}
+              {formatYear(year)}
             </text>
           </g>
         ))}
@@ -132,11 +133,13 @@ export function Thread({
                     {b.polity.name.latin}
                     <tspan className="fill-debu-paper text-[12px] tabular-nums">
                       {'  '}
-                      {b.polity.span.start.min}
-                      {b.hasStartRange ? `–${b.polity.span.start.max}` : ''}
+                      {b.hasStartRange
+                        ? formatRange(b.polity.span.start.min, b.polity.span.start.max)
+                        : formatYear(b.polity.span.start.min)}
                       {' – '}
-                      {b.polity.span.end.min}
-                      {b.hasEndRange ? `–${b.polity.span.end.max}` : ''}
+                      {b.hasEndRange
+                        ? formatRange(b.polity.span.end.min, b.polity.span.end.max)
+                        : formatYear(b.polity.span.end.min)}
                     </tspan>
                   </text>
                 )
@@ -166,7 +169,7 @@ export function Thread({
               ['--d' as string]: `${(((e.year as number) - scale.first) / (scale.last - scale.first) * 1.1).toFixed(2)}s`,
             }}
           >
-            {e.year} · {e.type}
+            {formatYear(e.year as number)} · {e.type}
             {e.contested ? ' (contested)' : ''}
           </text>
         ))}

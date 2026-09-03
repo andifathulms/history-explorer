@@ -1,4 +1,6 @@
 import type { Metadata } from 'next'
+import { formatSpan, formatYear } from '@/lib/years'
+import { tickInterval } from '@/lib/thread'
 import Link from 'next/link'
 import { loadCorpus } from '@/lib/content'
 import { SiteNav } from '@/components/SiteNav'
@@ -36,8 +38,11 @@ export default function TimelineView() {
   const H = rows.length * ROW + 56
   const x = (year: number) => LABEL + ((year - first) / (last - first)) * (W - LABEL - 24)
 
+  // Labels like "2300 BC" need width, and the corpus now spans four millennia.
+  const step = tickInterval(last - first, 12)
   const centuries: number[] = []
-  for (let y = Math.ceil(first / 100) * 100; y <= last; y += 100) centuries.push(y)
+  // No year zero: a tick labelled 0 marks a date that never happened.
+  for (let y = Math.ceil(first / step) * step; y <= last; y += step) if (y !== 0) centuries.push(y)
 
   return (
     <div className="min-h-screen bg-kaghaz text-dawat">
@@ -71,7 +76,7 @@ export default function TimelineView() {
                   strokeWidth={1}
                 />
                 <text x={x(year)} y={18} className="fill-debu-ink text-[12px] tabular-nums" textAnchor="middle">
-                  {year}
+                  {formatYear(year)}
                 </text>
               </g>
             ))}
@@ -103,7 +108,7 @@ export default function TimelineView() {
                     </Link>
                   )}
                   <text x={0} y={y + 20} className="fill-debu-ink text-[11px] tabular-nums">
-                    {p.span.start.min}–{p.span.end.max}
+                    {formatSpan(p.span.start.min, p.span.end.max)}
                   </text>
 
                   {/* Uncertain extent. */}

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { formatRange } from '@/lib/years'
 import { notFound } from 'next/navigation'
 import {
   loadCorpus,
@@ -49,9 +50,9 @@ export default function PolityPage({ params }: { params: { id: string } }) {
 
   const span = p.span
   const startLabel =
-    span.start.min === span.start.max ? `${span.start.min}` : `${span.start.min}–${span.start.max}`
+    formatRange(span.start.min, span.start.max)
   const endLabel =
-    span.end.min === span.end.max ? `${span.end.min}` : `${span.end.min}–${span.end.max}`
+    formatRange(span.end.min, span.end.max)
 
   return (
     // Paper ground: this is a reading view, and the change of ground says so

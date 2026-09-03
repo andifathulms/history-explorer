@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { formatSpan } from '@/lib/years'
 import Link from 'next/link'
 import { loadCorpus, politiesInRegion, getChapters } from '@/lib/content'
 import { SiteNav } from '@/components/SiteNav'
@@ -61,7 +62,7 @@ export default function PolitiesIndex() {
                           </span>
                         ) : null}
                         <span className="tabular-nums text-[15px] text-debu-ink">
-                          {p.span.start.min} – {p.span.end.max}
+                          {formatSpan(p.span.start.min, p.span.end.max)}
                         </span>
                       </div>
                       <p className="mt-2 max-w-measure text-body">{p.identity}</p>

@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { formatYear } from '@/lib/years'
 import type { Edge } from '@/lib/types'
 import { displayName, hasPage } from '@/lib/content'
 
@@ -16,7 +17,7 @@ function EdgeRow({ edge, other }: { edge: Edge; other: string }) {
   return (
     <li className="border-t border-kashi/15 py-3 first:border-t-0">
       <p className="flex flex-wrap items-baseline gap-x-2">
-        <span className="tabular-nums text-debu-ink">{edge.year ?? '—'}</span>
+        <span className="tabular-nums text-debu-ink">{edge.year == null ? '—' : formatYear(edge.year)}</span>
         <span className="italic text-kashi">{edge.type}</span>
         {hasPage(other) ? (
           <Link href={`/polity/${other}/`} className="font-semibold text-kashi hover:text-firuze-ink">

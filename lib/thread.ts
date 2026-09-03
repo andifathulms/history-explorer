@@ -101,9 +101,27 @@ export function datedEdges(edges: Edge[]): Edge[] {
     .sort((a, b) => a.year - b.year)
 }
 
-/** Century marks for the axis. Decades would be noise at this scale. */
-export function centuryTicks(scale: ThreadScale): number[] {
+/**
+ * Axis marks, spaced so the labels do not collide.
+ *
+ * A century was the right interval when the corpus was one region of four
+ * hundred years. Across a span that now starts in the third millennium BC it
+ * produces forty-odd labels a few pixels apart, and a "2300 BC" label needs
+ * real width. So the interval steps up with the span: the axis should orient,
+ * and an unreadable axis orients nobody.
+ */
+export function tickInterval(span: number, maxTicks = 14): number {
+  const steps = [100, 200, 250, 500, 1000, 2000, 2500, 5000]
+  return steps.find((s) => span / s <= maxTicks) ?? steps[steps.length - 1]
+}
+
+export function centuryTicks(scale: ThreadScale, maxTicks = 14): number[] {
+  const step = tickInterval(scale.last - scale.first, maxTicks)
   const ticks: number[] = []
-  for (let y = Math.ceil(scale.first / 100) * 100; y <= scale.last; y += 100) ticks.push(y)
+  for (let y = Math.ceil(scale.first / step) * step; y <= scale.last; y += step) {
+    // There is no year zero: 1 BC is followed by AD 1. A tick labelled 0 marks
+    // a date that never happened, so the era boundary goes unlabelled instead.
+    if (y !== 0) ticks.push(y)
+  }
   return ticks
 }
