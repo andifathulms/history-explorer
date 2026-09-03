@@ -1,0 +1,79 @@
+id: samanid
+name:
+  latin: Samanid Empire
+  script: سامانیان
+  script_lang: fa
+
+# 819 is the conventional start: al-Ma'mun's grant of Transoxianan
+# governorships to the four grandsons of Saman Khuda. 892 is the year Isma'il I
+# held Transoxiana as a single realm from Bukhara. Both dates are defensible
+# starts for different things and both are in the literature, so both are kept.
+span:
+  start: { min: 819, max: 892, source: bosworth-1996, max_source: iranica-samanids }
+  end: { min: 999, max: 1005, source: bosworth-1996, max_source: iranica-samanids }
+
+identity: >-
+  A Persian dynasty ruling Khurasan and Transoxiana from Bukhara, under nominal
+  Abbasid suzerainty, whose court made New Persian a language of administration
+  and literature.
+
+capitals:
+  - { name: Samarkand, from: 819, to: 892, source: iranica-samanids }
+  - { name: Bukhara, script: بخارا, from: 892, source: iranica-samanids }
+
+core_region: Transoxiana and Khurasan
+
+rulers:
+  founder:
+    name: Isma'il I ibn Ahmad
+    script: اسماعیل بن احمد
+    reign: [892, 907]
+    source: bosworth-1996
+  peak:
+    name: Nasr II ibn Ahmad
+    script: نصر بن احمد
+    reign: [914, 943]
+    source: bosworth-1996
+  last:
+    name: Isma'il II al-Muntasir
+    script: اسماعیل المنتصر
+    reign: [1000, 1005]
+    source: bosworth-1996
+
+scripts_and_languages:
+  administration: [Persian, Arabic]
+  writing_system: Perso-Arabic
+
+ended:
+  type: conquest
+  by: [karakhanid]
+  year: 999
+  source: iranica-samanids
+
+measures:
+  reach_km2: { value: 2600000, at: 928, source: taagepera-1997 }
+
+  # McEvedy & Jones is a regional series. No consulted source gives a Samanid
+  # total, and deriving one from the regional figures would be the estimate
+  # hard rule 2 forbids.
+  peak_population: null
+
+  influence:
+    # The Samanids wrote New Persian in an inherited Perso-Arabic script. They
+    # did not extend it. Under the coding rules that is 0, not a gap: the
+    # sources address the question and the answer is none.
+    descendant_scripts: { count: 0, items: [], source: iranica-samanids }
+
+    religions_carried:
+      count: 1
+      items: [Sunni Islam]
+      source: iranica-samanids
+
+    # Applying the coding rules rather than the intuitive answer. The
+    # Karakhanids conquered the Samanids and claimed nothing from them; their
+    # legitimacy was their own. The Ghaznavids did present themselves as the
+    # inheritors of Samanid Khurasan, which is a public claim and counts.
+    successor_claims:
+      count: 1
+      items: [ghaznavid]
+      source: bosworth-1963
