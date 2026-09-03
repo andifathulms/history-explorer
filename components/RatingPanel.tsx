@@ -146,12 +146,12 @@ export function RatingPanel({ rating, scale }: { rating: Rating; scale: Scale })
 
         {/* Influence is never one number. Three counts, shown separately, with no
             bar between them, because they are not one quantity. Only the reader's
-            sliders on the comparison view may combine them. */}
+            sliders on the rankings view may combine them. */}
         <div className="border-t border-kashi/15 py-4">
           <h3 className="text-[16px] font-semibold text-kashi">Influence</h3>
           <p className="mt-1 max-w-measure text-[15px] text-debu-ink">
             Three separate counts. This site never publishes a single influence number of
-            its own; the sliders on the comparison view fuse them only in your view.
+            its own; the sliders on the rankings view fuse them only in your view.
           </p>
           <div className="mt-3 grid gap-4 sm:grid-cols-3">
             {INFLUENCE_KEYS.map((k) => {

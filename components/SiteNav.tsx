@@ -1,9 +1,10 @@
 import Link from 'next/link'
 
 const links = [
-  { href: '/', label: 'Thread' },
+  { href: '/polities/', label: 'Polities' },
+  { href: '/rankings/', label: 'Rankings' },
+  { href: '/continuity/', label: 'Continuity' },
   { href: '/timeline/', label: 'Timeline' },
-  { href: '/comparison/', label: 'Comparison' },
   { href: '/about/', label: 'About' },
 ]
 
@@ -25,7 +26,7 @@ export function SiteNav({ ground, current }: { ground: 'dark' | 'paper'; current
         History Explorer
       </Link>
       <ul className="flex flex-wrap gap-x-5 gap-y-1 text-[15px]">
-        {links.slice(1).map((l) => (
+        {links.map((l) => (
           <li key={l.href}>
             <Link
               href={l.href}

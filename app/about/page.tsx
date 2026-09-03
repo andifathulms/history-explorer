@@ -65,7 +65,7 @@ export default function About() {
             Influence is never published as a single number. It is three separate counts —
             descendant scripts, religions carried, successor claims — coded against a
             written rulebook that is applied to every polity including the ones where the
-            answer is inconvenient. The sliders on the comparison view will fuse those
+            answer is inconvenient. The sliders on the rankings view will fuse those
             three if you want them fused, in your view, and the result travels in the
             address bar rather than being published as this site&rsquo;s opinion.
           </p>

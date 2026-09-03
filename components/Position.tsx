@@ -3,7 +3,7 @@ import type { Edge } from '@/lib/types'
 import { displayName, hasPage } from '@/lib/content'
 
 /**
- * "Position in the thread" — PRD section 4, item 2, and always visible.
+ * Succession — PRD section 4, item 2.
  *
  * The edge type is stated in plain words rather than hidden behind a tooltip,
  * because the type *is* the causation and it is the reason this site exists.
@@ -45,10 +45,29 @@ export function Position({
   predecessors: Edge[]
   successors: Edge[]
 }) {
+  // No edges at all is an ordinary state, not an empty one — it is what most
+  // polities outside a dense region will look like. Two columns of "no recorded
+  // predecessor" would dress that up as a pair of absences; one sentence is the
+  // truer shape, and it keeps the page from opening on a hole.
+  if (!predecessors.length && !successors.length) {
+    return (
+      <section aria-labelledby="position-heading" className="mt-10">
+        <h2 id="position-heading" className="text-[15px] uppercase tracking-widest text-debu-ink">
+          Succession
+        </h2>
+        <p className="mt-3 max-w-measure text-body">
+          No sourced succession edge runs into or out of this polity. That is a statement
+          about what this site has read, not about the polity: it stands on its own here,
+          and is measured on the same axes as everything else.
+        </p>
+      </section>
+    )
+  }
+
   return (
     <section aria-labelledby="position-heading" className="mt-10">
       <h2 id="position-heading" className="text-[15px] uppercase tracking-widest text-debu-ink">
-        Position in the thread
+        Succession
       </h2>
 
       <div className="mt-4 grid gap-8 md:grid-cols-2">
@@ -62,7 +81,7 @@ export function Position({
             </ul>
           ) : (
             <p className="mt-2 text-debu-ink">
-              No recorded predecessor. This polity enters the thread from outside it.
+              No recorded predecessor. This polity enters from outside the corpus.
             </p>
           )}
         </div>

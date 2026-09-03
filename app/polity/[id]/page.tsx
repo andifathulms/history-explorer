@@ -1,6 +1,13 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
-import { loadCorpus, getPolity, getChapters, getNeighbours } from '@/lib/content'
+import {
+  loadCorpus,
+  getPolity,
+  getChapters,
+  getNeighbours,
+  politiesInRegion,
+  inThread,
+} from '@/lib/content'
 import { buildField, rate, DEFAULT_WEIGHTS } from '@/lib/ratings'
 import { SiteNav } from '@/components/SiteNav'
 import { PolityRail } from '@/components/PolityRail'
@@ -28,8 +35,14 @@ export default function PolityPage({ params }: { params: { id: string } }) {
   const chapters = getChapters(p.id)
   const { predecessors, successors } = getNeighbours(p.id)
 
+  // The rail is the continuity section's instrument, so it only appears for a
+  // polity that actually stands in a thread — and it is scoped to that polity's
+  // own region. Once a second region exists, a global rail would put the
+  // Samanids on a line beside Srivijaya and imply a sequence nobody cited.
+  const railPolities = inThread(p) ? politiesInRegion(p.region) : []
+
   // The polity page shows absolute figures with the site's default weights.
-  // Reader weights live on the comparison view, where changing them is the
+  // Reader weights live on the rankings view, where changing them is the
   // point; here they would be a second control competing with the prose.
   const field = buildField(corpus.narrative, corpus.backdrop, 'absolute', corpus.denominators)
   const rating = rate(p, field, DEFAULT_WEIGHTS, 'absolute', corpus.denominators)
@@ -44,13 +57,17 @@ export default function PolityPage({ params }: { params: { id: string } }) {
     // Paper ground: this is a reading view, and the change of ground says so
     // without a label.
     <div className="min-h-screen bg-kaghaz text-dawat">
-      <SiteNav ground="paper" />
-      <PolityRail polities={corpus.all} active={p} variant="strip" />
+      <SiteNav ground="paper" current="Polities" />
+      {railPolities.length ? (
+        <PolityRail polities={railPolities} active={p} variant="strip" />
+      ) : null}
 
       <div className="mx-auto flex max-w-[1180px] gap-10 px-5 pb-28 pt-8 sm:px-8">
-        <aside className="hidden lg:block lg:w-[200px] lg:shrink-0" aria-label="Thread position">
-          <PolityRail polities={corpus.all} active={p} variant="rail" />
-        </aside>
+        {railPolities.length ? (
+          <aside className="hidden lg:block lg:w-[200px] lg:shrink-0" aria-label="Thread position">
+            <PolityRail polities={railPolities} active={p} variant="rail" />
+          </aside>
+        ) : null}
 
         <main id="main" className="min-w-0 flex-1">
           <header>
