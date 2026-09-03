@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import { loadCorpus } from '@/lib/content'
-import { SiteNav } from '@/components/SiteNav'
+import { Page, Shell, PageHead } from '@/components/Shell'
 
 export const metadata: Metadata = {
   title: 'About',
@@ -14,20 +14,23 @@ export default function About() {
   )
 
   return (
-    <div className="ground-paper min-h-screen">
-      <SiteNav ground="paper" current="About" />
-      <main id="main" className="mx-auto w-full max-w-shell px-5 pb-24 pt-10 sm:px-8">
-        <h1 className="text-[32px] leading-tight text-kashi">About</h1>
-        <p className="mt-3 max-w-measure text-body">
+    <Page ground="paper" current="About">
+      <main id="main" className="flex-1">
+        <Shell className="pb-24">
+          <PageHead kicker="Method, limits, sources" title="About" ground="paper">
+            <p>
           History Explorer is a reading site about polities — what they were, how far
           they reached, how long they lasted, and what they left behind. It is built
           around one constraint: every claim carries the work it came from, and where no
-          figure exists the gap is drawn rather than filled.
-        </p>
+              figure exists the gap is drawn rather than filled.
+            </p>
+          </PageHead>
 
-        <section className="mt-12 max-w-measure">
-          <h2 className="text-[22px] text-kashi">Why succession is only one section</h2>
-          <p className="mt-3 text-body">
+        <section className="mt-16 max-w-measure border-t border-kashi/15 pt-8">
+          <h2 className="font-display text-title font-semibold text-kashi-deep">
+            Why succession is only one section
+          </h2>
+          <p className="mt-4 text-body">
             The site began as a single thread through the Iranian Intermezzo, where one
             polity really does become the next with unusual density — slave-generals
             taking their masters&rsquo; provinces, governors inheriting the empire that
@@ -48,9 +51,11 @@ export default function About() {
 
         {/* PRD section 9. The standing note, in plain words, not a disclaimer
             in small type at the bottom. */}
-        <section className="mt-8 max-w-measure">
-          <h2 className="text-[22px] text-kashi">How the chapters were written</h2>
-          <p className="mt-3 text-body">
+        <section className="mt-16 max-w-measure border-t border-kashi/15 pt-8">
+          <h2 className="font-display text-title font-semibold text-kashi-deep">
+            How the chapters were written
+          </h2>
+          <p className="mt-4 text-body">
             The chapters on this site were drafted by an AI model and reviewed by the
             person who runs the site. That is a deliberate trade-off, and the honest
             alternative was not a hand-written version of this site — it was no site at
@@ -71,9 +76,11 @@ export default function About() {
           </p>
         </section>
 
-        <section className="mt-12 max-w-measure">
-          <h2 className="text-[22px] text-kashi">What the numbers are, and are not</h2>
-          <p className="mt-3 text-body">
+        <section className="mt-16 max-w-measure border-t border-kashi/15 pt-8">
+          <h2 className="font-display text-title font-semibold text-kashi-deep">
+            What the numbers are, and are not
+          </h2>
+          <p className="mt-4 text-body">
             No figure on this site is estimated, interpolated, or inferred. Where two
             sources disagree, both are kept and the range is shown — which is why several
             longevity bars are ranges rather than lines. Where no citable figure exists,
@@ -98,9 +105,11 @@ export default function About() {
           </p>
         </section>
 
-        <section className="mt-12 max-w-measure">
-          <h2 className="text-[22px] text-kashi">What this is not</h2>
-          <ul className="mt-3 list-disc space-y-2 ps-5 text-body">
+        <section className="mt-16 max-w-measure border-t border-kashi/15 pt-8">
+          <h2 className="font-display text-title font-semibold text-kashi-deep">
+            What this is not
+          </h2>
+          <ul className="mt-4 list-disc space-y-2 ps-5 text-body marker:text-kashi/50">
             <li>Not a wiki. No editing, no accounts, no contributions. Corrections are
               made by editing files in the repository and redeploying.</li>
             <li>Not a ranking. There is no greatest-empire ordering published here as the
@@ -112,17 +121,17 @@ export default function About() {
           </ul>
         </section>
 
-        <section className="mt-12">
-          <h2 className="text-[22px] text-kashi">Sources</h2>
-          <p className="mt-3 max-w-measure text-body">
+        <section className="mt-16 border-t border-kashi/15 pt-8">
+          <h2 className="font-display text-title font-semibold text-kashi-deep">Sources</h2>
+          <p className="mt-4 max-w-measure text-body">
             Every citation on this site resolves to an item in this list, and the build
             fails if one does not. {list.length} works, cited across {narrative.length}{' '}
             narrative polities, {backdrop.length} reference polities and {edges.length}{' '}
             succession edges.
           </p>
-          <ul className="mt-5 space-y-3">
+          <ul className="mt-8 grid gap-x-12 gap-y-0 lg:grid-cols-2">
             {list.map((s) => (
-              <li key={s.id} className="max-w-measure border-t border-kashi/15 pt-3">
+              <li key={s.id} className="border-t border-kashi/12 py-4">
                 <p>
                   {s.author ? <span>{s.author}, </span> : null}
                   <cite className="italic">{s.title}</cite>
@@ -144,12 +153,13 @@ export default function About() {
                   ) : null}
                 </p>
                 {s.note ? <p className="mt-1 text-[15px] text-debu-ink">{s.note}</p> : null}
-                <p className="mt-1 font-mono text-[13px] text-debu-ink">{s.id}</p>
+                <p className="mt-1.5 font-mono text-micro text-debu-ink">{s.id}</p>
               </li>
             ))}
           </ul>
         </section>
+        </Shell>
       </main>
-    </div>
+    </Page>
   )
 }

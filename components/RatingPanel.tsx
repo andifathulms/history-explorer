@@ -21,7 +21,7 @@ function Bar({ pct, gold = false }: { pct: Gapped<number>; gold?: boolean }) {
     <div className="h-[10px] w-full rounded-full bg-kashi/10">
       {pct.present ? (
         <div
-          className={`h-[10px] rounded-full ${gold ? 'bg-zarrin-ink' : 'bg-kashi'}`}
+          className={`h-[10px] rounded-full ${gold ? 'bg-zarrin' : 'bg-kashi'}`}
           style={{ width: `${Math.max(1.5, pct.value * 100)}%` }}
         />
       ) : null}
@@ -60,11 +60,15 @@ function AxisRow({
   return (
     <div className="border-t border-kashi/15 py-4">
       <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
-        <h3 className="text-[16px] font-semibold text-kashi">{label}</h3>
-        <p className="text-[15px] text-debu-ink">{figure}</p>
+        <h3 className="font-mono text-[13px] uppercase tracking-[0.08em] text-kashi">
+          {label}
+        </h3>
+        <p className="font-mono text-[15px] tabular-nums text-dawat/85">{figure}</p>
       </div>
-      <div className="mt-2">{children}</div>
-      {pct ? <p className="mt-1.5 text-[14px] text-debu-ink">{pct}</p> : null}
+      <div className="mt-2.5">{children}</div>
+      {pct ? (
+        <p className="mt-2 font-mono text-[11.5px] text-debu-ink">{pct}</p>
+      ) : null}
     </div>
   )
 }
@@ -79,7 +83,7 @@ export function RatingPanel({ rating, scale }: { rating: Rating; scale: Scale })
       : 'Absolute figures.'
 
   return (
-    <section aria-labelledby="rating-heading" className="mt-16">
+    <section aria-labelledby="rating-heading" className="mt-20">
       <h2 id="rating-heading" className="sr-only">
         Rating
       </h2>
@@ -88,16 +92,21 @@ export function RatingPanel({ rating, scale }: { rating: Rating; scale: Scale })
         onClick={() => setOpen((o) => !o)}
         aria-expanded={open}
         aria-controls="rating-body"
-        className="flex w-full items-baseline justify-between border-t border-kashi/30 py-4 text-left"
+        className="group flex w-full items-baseline justify-between gap-4 border-t border-kashi/25 py-5 text-left"
       >
-        <span className="text-[15px] uppercase tracking-widest text-debu-ink">Rating</span>
-        <span className="text-[15px] text-kashi">
-          {r.totalProvenance} {open ? '−' : '+'}
+        <span className="kicker text-debu-ink transition-colors group-hover:text-firuze-ink">
+          Rating
+        </span>
+        <span className="font-mono text-micro uppercase text-kashi">
+          {r.totalProvenance}{' '}
+          <span aria-hidden="true" className="ms-2 inline-block text-firuze-ink">
+            {open ? '−' : '+'}
+          </span>
         </span>
       </button>
 
       <div id="rating-body" hidden={!open}>
-        <p className="max-w-measure text-[15px] text-debu-ink">
+        <p className="max-w-measure text-[15px] leading-relaxed text-debu-ink">
           Four axes, all computed from cited numbers and never from editorial judgement.
           Percentiles are against the eight polities here plus a reference backdrop of
           fifty-one from world history. {scaleNote} A missing axis is excluded from the
@@ -148,8 +157,10 @@ export function RatingPanel({ rating, scale }: { rating: Rating; scale: Scale })
             bar between them, because they are not one quantity. Only the reader's
             sliders on the rankings view may combine them. */}
         <div className="border-t border-kashi/15 py-4">
-          <h3 className="text-[16px] font-semibold text-kashi">Influence</h3>
-          <p className="mt-1 max-w-measure text-[15px] text-debu-ink">
+          <h3 className="font-mono text-[13px] uppercase tracking-[0.08em] text-kashi">
+            Influence
+          </h3>
+          <p className="mt-2 max-w-measure text-[15px] leading-relaxed text-debu-ink">
             Three separate counts. This site never publishes a single influence number of
             its own; the sliders on the rankings view fuse them only in your view.
           </p>
@@ -158,10 +169,14 @@ export function RatingPanel({ rating, scale }: { rating: Rating; scale: Scale })
               const c = r.influence.counts[k]
               return (
                 <div key={k}>
-                  <p className="text-[15px] text-debu-ink">{INFLUENCE_LABELS[k]}</p>
+                  <p className="font-mono text-micro uppercase text-debu-ink">
+                    {INFLUENCE_LABELS[k]}
+                  </p>
                   <p
-                    className={`mt-0.5 tabular-nums ${
-                      c.count === null ? 'text-[16px] italic text-debu-ink' : 'text-[26px] text-kashi'
+                    className={`mt-1 tabular-nums ${
+                      c.count === null
+                        ? 'text-[15px] italic text-debu-ink'
+                        : 'font-mono text-[30px] text-kashi-deep'
                     }`}
                   >
                     {c.count === null ? NO_FIGURE : c.count}
@@ -177,15 +192,17 @@ export function RatingPanel({ rating, scale }: { rating: Rating; scale: Scale })
 
         <div className="border-t border-kashi/30 py-4">
           <div className="flex flex-wrap items-baseline justify-between gap-x-4">
-            <h3 className="text-[16px] font-semibold text-kashi">Weighted total</h3>
-            <p className="tabular-nums text-[15px] text-kashi">
+            <h3 className="font-mono text-[13px] uppercase tracking-[0.08em] text-kashi">
+              Weighted total
+            </h3>
+            <p className="font-mono text-[15px] tabular-nums text-kashi-deep">
               {r.total.present ? `${Math.round(r.total.value * 100)}th percentile` : NO_FIGURE}
             </p>
           </div>
           <div className="mt-2">
             <Bar pct={r.total} gold />
           </div>
-          <p className="mt-1.5 text-[14px] text-debu-ink">
+          <p className="mt-2 max-w-measure text-[14px] leading-relaxed text-debu-ink">
             {r.totalProvenance}, renormalised across the axes that have figures. A polity
             with two documented axes is not penalised against one with four.
           </p>

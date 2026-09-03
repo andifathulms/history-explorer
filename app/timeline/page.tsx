@@ -3,7 +3,7 @@ import { formatSpan, formatYear } from '@/lib/years'
 import { tickInterval } from '@/lib/thread'
 import Link from 'next/link'
 import { loadCorpus } from '@/lib/content'
-import { SiteNav } from '@/components/SiteNav'
+import { Page, Shell, PageHead } from '@/components/Shell'
 import { PHASES } from '@/lib/types'
 
 export const metadata: Metadata = {
@@ -45,18 +45,19 @@ export default function TimelineView() {
   for (let y = Math.ceil(first / step) * step; y <= last; y += step) if (y !== 0) centuries.push(y)
 
   return (
-    <div className="ground-paper min-h-screen">
-      <SiteNav ground="paper" current="Timeline" />
-      <main id="main" className="mx-auto w-full max-w-shell px-5 pb-24 pt-10 sm:px-8">
-        <h1 className="text-[32px] leading-tight text-kashi">Timeline</h1>
-        <p className="mt-3 max-w-measure text-body">
+    <Page ground="paper" current="Timeline">
+      <main id="main" className="flex-1">
+        <Shell className="pb-24">
+          <PageHead kicker="Concurrency, not sequence" title="Timeline" ground="paper">
+            <p>
           Overlap is the point. Six of these eight ran concurrently with at least one
           other, and several of them were hostile to the polity drawn directly above or
-          below. A soft bar end means the sources disagree about when it started or
-          stopped.
-        </p>
+              below. A soft bar end means the sources disagree about when it started or
+              stopped.
+            </p>
+          </PageHead>
 
-        <div className="mt-8 overflow-x-auto">
+        <div className="-mx-5 mt-12 overflow-x-auto px-5 sm:-mx-8 sm:px-8">
           <svg
             width="100%"
             viewBox={`0 0 ${W} ${H}`}
@@ -75,7 +76,12 @@ export default function TimelineView() {
                   className="stroke-kashi/15"
                   strokeWidth={1}
                 />
-                <text x={x(year)} y={18} className="fill-debu-ink text-[12px] tabular-nums" textAnchor="middle">
+                <text
+                  x={x(year)}
+                  y={18}
+                  className="fill-debu-ink font-mono text-[11px] tabular-nums"
+                  textAnchor="middle"
+                >
                   {formatYear(year)}
                 </text>
               </g>
@@ -102,12 +108,16 @@ export default function TimelineView() {
                     </text>
                   ) : (
                     <Link href={`/polity/${p.id}/`}>
-                      <text x={0} y={y + 5} className="fill-kashi text-[14px] hover:fill-firuze-ink">
+                      <text
+                        x={0}
+                        y={y + 5}
+                        className="fill-kashi-deep text-[14px] font-semibold hover:fill-firuze-ink"
+                      >
                         {p.name.latin}
                       </text>
                     </Link>
                   )}
-                  <text x={0} y={y + 20} className="fill-debu-ink text-[11px] tabular-nums">
+                  <text x={0} y={y + 20} className="fill-debu-ink font-mono text-[10px] tabular-nums">
                     {formatSpan(p.span.start.min, p.span.end.max)}
                   </text>
 
@@ -157,7 +167,7 @@ export default function TimelineView() {
           </svg>
         </div>
 
-        <div className="mt-8 flex flex-wrap gap-x-6 gap-y-2 text-[15px] text-debu-ink">
+        <div className="mt-8 flex flex-wrap gap-x-6 gap-y-2 font-mono text-micro uppercase text-debu-ink">
           <span className="flex items-center gap-2">
             <span className="inline-block h-2.5 w-2.5 rounded-full bg-zarrin-ink" /> peak chapter
           </span>
@@ -172,9 +182,11 @@ export default function TimelineView() {
           </span>
         </div>
 
-        <section className="mt-12 max-w-measure">
-          <h2 className="text-[20px] text-kashi">Why some rows have no peak</h2>
-          <p className="mt-3 text-body">
+        <section className="mt-16 max-w-measure border-t border-kashi/15 pt-8">
+          <h2 className="font-display text-title font-semibold text-kashi-deep">
+            Why some rows have no peak
+          </h2>
+          <p className="mt-4 text-body">
             The phase vocabulary — {PHASES.join(', ')} — is optional, and the rows that do
             not use all of it are the reason. The Ghurids barely had a golden age before
             Khwarazm ended them, and the Tahirids never expanded: they were granted a
@@ -189,7 +201,8 @@ export default function TimelineView() {
             sits in the arc, not when it happened.
           </p>
         </section>
+        </Shell>
       </main>
-    </div>
+    </Page>
   )
 }

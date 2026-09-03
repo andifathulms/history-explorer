@@ -28,7 +28,21 @@ export function Thread({
   const railX = 56
   const labelX = railX + lanes * 26 + 18
 
-  const dated = edges.filter((e) => e.year !== null)
+  // Edge labels are placed at their own year, which puts two of them on top of
+  // each other whenever a transition took a couple of years — 900 and 901 in the
+  // Iranian Intermezzo. Nudging the later one down keeps both readable; the year
+  // is printed in the label, so the small offset costs no accuracy and the tick
+  // marks still carry the true dates.
+  const MIN_GAP = 16
+  const dated = edges
+    .filter((e) => e.year !== null)
+    .sort((a, b) => (a.year as number) - (b.year as number))
+    .reduce<{ edge: Edge; y: number }[]>((acc, edge) => {
+      const wanted = scale.y(edge.year as number) + 4
+      const prev = acc[acc.length - 1]
+      acc.push({ edge, y: prev && wanted - prev.y < MIN_GAP ? prev.y + MIN_GAP : wanted })
+      return acc
+    }, [])
 
   return (
     <div className="relative overflow-x-auto">
@@ -56,7 +70,7 @@ export function Thread({
             <text
               x={0}
               y={scale.y(year) + 4}
-              className="fill-debu-paper text-[12px] tabular-nums"
+              className="fill-debu-paper font-mono text-[11px] tabular-nums"
             >
               {formatYear(year)}
             </text>
@@ -131,7 +145,7 @@ export function Thread({
                     } ${linked ? 'hover:fill-firuze' : ''}`}
                   >
                     {b.polity.name.latin}
-                    <tspan className="fill-debu-paper text-[12px] tabular-nums">
+                    <tspan className="fill-debu-paper font-mono text-[11px] tabular-nums">
                       {'  '}
                       {b.hasStartRange
                         ? formatRange(b.polity.span.start.min, b.polity.span.start.max)
@@ -159,19 +173,34 @@ export function Thread({
         })}
 
         {/* Edge labels. The label is the causation, so it gets space. */}
-        {dated.map((e, i) => (
-          <text
+        {dated.map(({ edge: e, y }, i) => (
+          <g
             key={`${e.from}-${e.to}-${e.type}-${i}`}
-            x={520}
-            y={scale.y(e.year as number) + 4}
-            className="thread-label fill-debu-paper text-[12px] italic"
+            className="thread-label"
             style={{
               ['--d' as string]: `${(((e.year as number) - scale.first) / (scale.last - scale.first) * 1.1).toFixed(2)}s`,
             }}
           >
-            {formatYear(e.year as number)} · {e.type}
-            {e.contested ? ' (contested)' : ''}
-          </text>
+            {/* A leader back to the edge's true year, so a nudged label still
+                points at the date it belongs to. */}
+            <line
+              x1={496}
+              x2={512}
+              y1={scale.y(e.year as number)}
+              y2={y - 4}
+              stroke="currentColor"
+              className="text-firuze/30"
+              strokeWidth={1}
+            />
+            <text x={518} y={y} className="fill-debu-paper text-[12px] italic">
+              <tspan className="font-mono not-italic tabular-nums">
+                {formatYear(e.year as number)}
+              </tspan>
+              {' · '}
+              {e.type}
+              {e.contested ? ' (contested)' : ''}
+            </text>
+          </g>
         ))}
       </svg>
     </div>

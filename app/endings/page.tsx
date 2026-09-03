@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { loadCorpus, hasPage, displayName } from '@/lib/content'
-import { SiteNav } from '@/components/SiteNav'
+import { Page, Shell, PageHead } from '@/components/Shell'
 import { END_TYPES, type EndType } from '@/lib/types'
 import { formatYear } from '@/lib/years'
 
@@ -33,58 +33,61 @@ export default function Endings() {
   const regionName = (id: string) => regions.find((r) => r.id === id)?.name ?? id
 
   return (
-    <div className="ground-paper min-h-screen">
-      <SiteNav ground="paper" current="Endings" />
-      <main id="main" className="mx-auto w-full max-w-shell px-5 pb-24 pt-10 sm:px-8">
-        <h1 className="text-[32px] leading-tight text-kashi">Endings</h1>
-        <p className="mt-3 max-w-measure text-body">
+    <Page ground="paper" current="Endings">
+      <main id="main" className="flex-1">
+        <Shell className="pb-24">
+          <PageHead kicker="A closed vocabulary of six" title="Endings" ground="paper">
+            <p>
           Every polity here records how it stopped, typed from a closed list of six rather
           than described in prose, so that it can be counted. {ended.length} of{' '}
-          {all.length} carry one.
-        </p>
-        <p className="mt-4 max-w-measure text-body">
+              {all.length} carry one.
+            </p>
+            <p className="mt-4 text-[17px] leading-relaxed text-debu-ink">
           The vocabulary was fixed before most of this corpus existed, which is what makes
           the tally worth reading: it was not shaped to fit the answer. As it stands,{' '}
           <span className="tabular-nums">{conquered}</span> polities here were ended by an
           outside power and <span className="tabular-nums">{otherwise}</span> stopped some
           other way — an even split, which is itself the finding. The half that were not
           conquered came apart over an inheritance, dwindled into a formality, or were
-          taken by the men they had hired to protect them.
-        </p>
+              taken by the men they had hired to protect them.
+            </p>
+          </PageHead>
 
-        <section className="mt-12">
+        <section className="mt-16">
           {END_TYPES.map((t) => {
             const ps = byType.get(t)!
             return (
-              <div key={t} className="border-t border-kashi/15 py-6">
-                <div className="flex flex-wrap items-baseline gap-x-4">
-                  <h2 className="text-[22px] italic text-kashi">{t}</h2>
-                  <span className="tabular-nums text-debu-ink">
+              <div key={t} className="border-t border-kashi/15 py-8">
+                <div className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1">
+                  <h2 className="font-display text-title font-semibold italic text-kashi-deep">
+                    {t}
+                  </h2>
+                  <span className="font-mono text-micro uppercase tabular-nums text-debu-ink">
                     {ps.length} {ps.length === 1 ? 'polity' : 'polities'}
                   </span>
                 </div>
                 {/* Length is a cited quantity: the bar is the count. */}
-                <div className="mt-2 h-[6px] max-w-[520px] rounded-full bg-kashi/10">
+                <div className="mt-4 h-[8px] max-w-[620px] rounded-full bg-kashi/10">
                   <span
-                    className="block h-[6px] rounded-full bg-kashi/60"
+                    className="block h-[8px] rounded-full bg-kashi/60"
                     style={{ width: `${max ? (ps.length / max) * 100 : 0}%` }}
                   />
                 </div>
-                <p className="mt-3 max-w-measure text-body">{GLOSS[t]}</p>
+                <p className="mt-4 max-w-measure text-body">{GLOSS[t]}</p>
                 {ps.length ? (
-                  <ul className="mt-4 grid gap-x-8 gap-y-2 sm:grid-cols-2">
+                  <ul className="mt-6 grid gap-x-10 gap-y-2 sm:grid-cols-2 lg:grid-cols-3">
                     {ps
                       .slice()
                       .sort((a, b) => (a.ended!.year ?? 0) - (b.ended!.year ?? 0))
                       .map((p) => (
                         <li key={p.id} className="text-[15px]">
-                          <span className="tabular-nums text-debu-ink">
+                          <span className="font-mono text-[13px] tabular-nums text-debu-ink">
                             {p.ended!.year == null ? '—' : formatYear(p.ended!.year)}
                           </span>{' '}
                           {hasPage(p.id) ? (
                             <Link
                               href={`/polity/${p.id}/`}
-                              className="text-kashi hover:text-firuze-ink"
+                              className="link-underline text-kashi hover:text-firuze-ink"
                             >
                               {p.name.latin}
                             </Link>
@@ -112,9 +115,11 @@ export default function Endings() {
           })}
         </section>
 
-        <section className="mt-12 max-w-measure">
-          <h2 className="text-[22px] text-kashi">What the vocabulary cannot do</h2>
-          <p className="mt-3 text-body">
+        <section className="mt-16 max-w-measure border-t border-kashi/15 pt-8">
+          <h2 className="font-display text-title font-semibold text-kashi-deep">
+            What the vocabulary cannot do
+          </h2>
+          <p className="mt-4 text-body">
             It types the last act, not the process. The Karakhanids are recorded as{' '}
             <em>conquest</em> because the Khwarazmshah removed their last rulers in 1212,
             after a century in which they had been reduced to a title held under somebody
@@ -129,7 +134,8 @@ export default function Endings() {
             that resolves to nothing.
           </p>
         </section>
+        </Shell>
       </main>
-    </div>
+    </Page>
   )
 }

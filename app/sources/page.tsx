@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { sourceUsage, hasPage, displayName } from '@/lib/content'
-import { SiteNav } from '@/components/SiteNav'
+import { Page, Shell, PageHead, StatRow } from '@/components/Shell'
 
 export const metadata: Metadata = {
   title: 'Sources',
@@ -16,7 +16,10 @@ function PolityList({ ids }: { ids: string[] }) {
         <span key={id}>
           {i > 0 ? ', ' : ''}
           {hasPage(id) ? (
-            <Link href={`/polity/${id}/`} className="text-kashi hover:text-firuze-ink">
+            <Link
+              href={`/polity/${id}/`}
+              className="link-underline text-kashi hover:text-firuze-ink"
+            >
               {displayName(id)}
             </Link>
           ) : (
@@ -41,26 +44,39 @@ export default function Sources() {
   const max = Math.max(...used.map((u) => u.claims))
 
   return (
-    <div className="ground-paper min-h-screen">
-      <SiteNav ground="paper" current="Sources" />
-      <main id="main" className="mx-auto w-full max-w-shell px-5 pb-24 pt-10 sm:px-8">
-        <h1 className="text-[32px] leading-tight text-kashi">Sources</h1>
-        <p className="mt-3 max-w-measure text-body">
+    <Page ground="paper" current="Sources">
+      <main id="main" className="flex-1">
+        <Shell className="pb-24">
+          <PageHead kicker="Where the weight sits" title="Sources" ground="paper">
+            <p>
           {used.length} works carrying {totalClaims.toLocaleString('en-GB')} citations. The
           build already refuses to ship a citation that does not resolve, so this page is
           not about whether the sourcing exists. It is about how it is distributed, which
-          is the more useful question once a corpus is large.
-        </p>
-        <p className="mt-4 max-w-measure text-body">
-          A polity whose every claim rests on one book is not better sourced than a polity
-          with a visible gap. It is one disagreement away from being wrong throughout, and
-          nothing on its own page shows that. This page shows it.
-        </p>
+              is the more useful question once a corpus is large.
+            </p>
+            <p className="mt-4 text-[17px] leading-relaxed text-debu-ink">
+              A polity whose every claim rests on one book is not better sourced than a
+              polity with a visible gap. It is one disagreement away from being wrong
+              throughout, and nothing on its own page shows that. This page shows it.
+            </p>
+          </PageHead>
+
+          <StatRow
+            ground="paper"
+            stats={[
+              { value: used.length, label: 'Works cited' },
+              { value: totalClaims.toLocaleString('en-GB'), label: 'Citations' },
+              { value: concentrated.length, label: 'Single-source polities' },
+              { value: unused.length, label: 'Listed but uncited' },
+            ]}
+          />
 
         {concentrated.length ? (
-          <section className="mt-12 max-w-measure">
-            <h2 className="text-[22px] text-kashi">Single-source polities</h2>
-            <p className="mt-3 text-body">
+          <section className="mt-16 max-w-measure border-t border-kashi/15 pt-8">
+            <h2 className="font-display text-title font-semibold text-kashi-deep">
+              Single-source polities
+            </h2>
+            <p className="mt-4 text-body">
               Every citation on these pages resolves to one work. That is not a fault —
               for several of them one monograph is genuinely most of the modern
               scholarship — but it is a fact a reader should have before relying on the
@@ -81,11 +97,13 @@ export default function Sources() {
           </section>
         ) : null}
 
-        <section className="mt-14">
-          <h2 className="text-[22px] text-kashi">Every work, by how much rests on it</h2>
-          <ul className="mt-6">
+        <section className="mt-16 border-t border-kashi/15 pt-8">
+          <h2 className="font-display text-title font-semibold text-kashi-deep">
+            Every work, by how much rests on it
+          </h2>
+          <ul className="mt-8">
             {used.map((u) => (
-              <li key={u.source.id} className="border-t border-kashi/15 py-4">
+              <li key={u.source.id} className="border-t border-kashi/12 py-5">
                 <div className="flex flex-wrap items-baseline gap-x-3">
                   <p className="text-[17px]">
                     {u.source.author ? <span>{u.source.author}, </span> : null}
@@ -94,12 +112,12 @@ export default function Sources() {
                   </p>
                 </div>
                 {/* Length is a cited quantity here too: the bar is the claim count. */}
-                <div className="mt-2 flex items-center gap-3">
+                <div className="mt-3 flex items-center gap-4">
                   <span
-                    className="h-[6px] rounded-full bg-kashi/60"
+                    className="h-[7px] max-w-[540px] shrink-0 rounded-full bg-kashi/55"
                     style={{ width: `${Math.max(1, (u.claims / max) * 100)}%` }}
                   />
-                  <span className="shrink-0 tabular-nums text-[14px] text-debu-ink">
+                  <span className="shrink-0 font-mono text-micro uppercase tabular-nums text-debu-ink">
                     {u.claims} {u.claims === 1 ? 'citation' : 'citations'}
                     {u.chapters ? ` · ${u.chapters} chapters` : ''}
                   </span>
@@ -119,9 +137,11 @@ export default function Sources() {
         </section>
 
         {unused.length ? (
-          <section className="mt-12 max-w-measure">
-            <h2 className="text-[22px] text-kashi">Listed but uncited</h2>
-            <p className="mt-3 text-body">
+          <section className="mt-16 max-w-measure border-t border-kashi/15 pt-8">
+            <h2 className="font-display text-title font-semibold text-kashi-deep">
+              Listed but uncited
+            </h2>
+            <p className="mt-4 text-body">
               These are in <code className="text-[15px]">sources.yaml</code> and no{' '}
               <code className="text-[15px]">source:</code> field resolves to them. That is
               worth showing rather than hiding: an unused entry is either a work someone
@@ -139,9 +159,9 @@ export default function Sources() {
           </section>
         ) : null}
         {datasets.length ? (
-          <section className="mt-12 max-w-measure">
-            <h2 className="text-[22px] text-kashi">Datasets</h2>
-            <p className="mt-3 text-body">
+          <section className="mt-16 max-w-measure border-t border-kashi/15 pt-8">
+            <h2 className="font-display text-title font-semibold text-kashi-deep">Datasets</h2>
+            <p className="mt-4 text-body">
               Consumed by the map layer through{' '}
               <code className="text-[15px]">basemap-links.yaml</code> rather than by a{' '}
               <code className="text-[15px]">source:</code> field, so they carry no citation
@@ -159,7 +179,8 @@ export default function Sources() {
             </ul>
           </section>
         ) : null}
+        </Shell>
       </main>
-    </div>
+    </Page>
   )
 }
