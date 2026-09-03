@@ -1,0 +1,64 @@
+id: ghurid
+name:
+  latin: Ghurid Sultanate
+  script: غوریان
+  script_lang: fa
+
+# 879 is the local Shansabani chiefship in Ghur as the tradition records it;
+# c. 1011 is Mahmud's campaign, after which the house is documented as a Muslim
+# vassal dynasty. The first is a lineage, the second is a polity in this site's
+# sense, and the sources do not settle which the Ghurids "began" as.
+span:
+  start: { min: 879, max: 1011, source: iranica-ghurids, max_source: bosworth-1996 }
+  end: { min: 1215, max: 1215, source: iranica-ghurids }
+
+identity: >-
+  A highland dynasty from the mountains between Ghazna and Herat, long vassals
+  of the Ghaznavids, who destroyed their former overlords and carried Muslim
+  rule permanently into northern India.
+
+capitals:
+  - { name: Firuzkuh, script: فیروزکوه, source: iranica-ghurids }
+  - { name: Ghazna, from: 1173, to: 1215, source: bosworth-1996 }
+
+core_region: Ghur, with Khurasan and northern India held from the 1170s
+
+rulers:
+  founder:
+    name: Izz al-Din Husayn
+    script: عزالدین حسین
+    reign: [1100, 1146]
+    source: bosworth-1996
+  peak:
+    name: Mu'izz al-Din Muhammad of Ghur
+    script: معزالدین محمد غوری
+    reign: [1173, 1206]
+    source: iranica-ghurids
+  # The Firuzkuh line ends in a rapid series of short reigns under Khwarazmian
+  # pressure and the consulted sources do not agree on which of them was the
+  # last. Rather than pick one, the field is a gap and renders as one.
+  last: null
+
+scripts_and_languages:
+  administration: [Persian]
+  writing_system: Perso-Arabic
+
+ended:
+  type: conquest
+  by: [khwarazmian]
+  year: 1215
+  source: iranica-ghurids
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: iranica-ghurids }
+    religions_carried:
+      count: 1
+      items: [Sunni Islam]
+      source: jackson-1999
+    successor_claims:
+      count: 1
+      items: [Delhi Sultanate]
+      source: jackson-1999
