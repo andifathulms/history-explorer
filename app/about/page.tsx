@@ -18,6 +18,33 @@ export default function About() {
       <SiteNav ground="paper" current="About" />
       <main id="main" className="mx-auto max-w-[1180px] px-5 pb-24 pt-10 sm:px-8">
         <h1 className="text-[32px] leading-tight text-kashi">About</h1>
+        <p className="mt-3 max-w-measure text-body">
+          History Explorer is a reading site about polities — what they were, how far
+          they reached, how long they lasted, and what they left behind. It is built
+          around one constraint: every claim carries the work it came from, and where no
+          figure exists the gap is drawn rather than filled.
+        </p>
+
+        <section className="mt-12 max-w-measure">
+          <h2 className="text-[22px] text-kashi">Why succession is only one section</h2>
+          <p className="mt-3 text-body">
+            The site began as a single thread through the Iranian Intermezzo, where one
+            polity really does become the next with unusual density — slave-generals
+            taking their masters&rsquo; provinces, governors inheriting the empire that
+            appointed them. That thread is still here, and it is still the part that no
+            reference work gives you.
+          </p>
+          <p className="mt-4 text-body">
+            But most of history is not a thread. Rome, Srivijaya, Aksum and the Inca have
+            no succession relationship to the Samanids and never will, and a site
+            organised around continuity would have to either exclude them or invent a
+            connection. So continuity became a section rather than the spine. A polity
+            that seceded from nothing and was inherited by nobody gets a full page and a
+            full ranking here, and simply has no thread to stand in — which the page says
+            in one sentence, as a fact about what has been read rather than a hole in the
+            record.
+          </p>
+        </section>
 
         {/* PRD section 9. The standing note, in plain words, not a disclaimer
             in small type at the bottom. */}
@@ -78,8 +105,10 @@ export default function About() {
               made by editing files in the repository and redeploying.</li>
             <li>Not a ranking. There is no greatest-empire ordering published here as the
               site&rsquo;s own view.</li>
-            <li>Not complete. Coverage follows one person&rsquo;s curiosity, and stops at
-              eight polities in one region over four hundred years.</li>
+            <li>Not complete. Coverage follows one person&rsquo;s curiosity and grows one
+              polity at a time, each drafted against a source that is opened first.</li>
+            <li>Not a claim that the regions here were separate worlds. A region is a
+              browsing group and the boundary of a thread, nothing more.</li>
           </ul>
         </section>
 

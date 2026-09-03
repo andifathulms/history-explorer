@@ -1,14 +1,31 @@
 # History Explorer
 
-A read-only history site about how one polity becomes the next.
+A read-only reading site about polities: what they were, how far they reached,
+how long they lasted, how many people they held, what they left behind — and,
+where a source says so, how one became the next.
 
-Wikipedia has an article on the Samanids and an article on the Ghaznavids. It
-does not have the thing that connects them: Alptigin was a Samanid Turkic
-slave-general who took Ghazna and founded a line that outlived his masters. That
-pattern — secession, usurpation by generals, vassals swallowing overlords — is
-the subject, and it lives in the edges between articles.
+One constraint produces the whole thing: **every claim carries the work it came
+from, and where no figure exists the gap is drawn rather than filled.** No number
+here is estimated, interpolated, or inferred.
 
-Eight polities, 819 to 1231, one continuous thread through one region.
+## Sections
+
+| | |
+|---|---|
+| **Polities** | The reading core — chapters, facts, peak-extent map, rating panel. |
+| **Rankings** | Four axes against a global reference set, weighted by sliders you set. |
+| **Continuity** | Typed, dated, cited succession, scoped to a region. |
+| **Timeline** | Spans on one axis, so concurrency is visible. |
+
+Sections are added over time. Continuity is one of them, not the spine —
+succession is a property some polities have. A polity that seceded from nothing
+and was inherited by nobody gets a full page and a full ranking, and simply has
+no thread to stand in.
+
+First region: the Iranian Intermezzo, eight polities, 819 to 1231. Chosen
+because it is the hardest case for continuity and the worst case for rankings at
+the same time — dense succession, contested dates, and several polities almost
+no one has quantified.
 
 ## Running it
 
@@ -35,9 +52,10 @@ site; CI passes it automatically.
 
 ```
 content/
+  regions.yaml          browsing groups; each says whether it carries a thread
   coding-rules.md       the influence rulebook — read this before touching counts
   sources.yaml          the closed set of citable works
-  edges.yaml            the succession edges: the core object
+  edges.yaml            the succession edges; optional per polity
   reference-set.yaml    51 backdrop polities, numbers only, plus denominators
   basemap-links.yaml    which snapshot polygon illustrates which polity
   VERIFICATION.md       generated worklist of every figure, unticked
@@ -73,6 +91,10 @@ These are not style preferences. Breaking them breaks the product, so
    area, so this cannot be broken by a later edit that looks reasonable.
 6. **Influence is never a single number.** Three counts, shown separately. Only
    the reader's sliders combine them, and only in the reader's own view.
+7. **A polity never requires an edge, and threads never cross regions.** A
+   region claiming `thread: true` with no edge joining two of its own polities
+   fails the build, because an empty spine would imply a continuity nobody
+   cited — the same class of error as a dangling source id.
 
 Two further rules come from `content/coding-rules.md`: a non-zero count must
 name as many items as it claims, and a count of `0` requires a source, because
@@ -96,7 +118,8 @@ is a fact a reader needs before the first paragraph rather than after the last.
 Not a wiki: no editing, no accounts, no contributions. Corrections are made by
 editing files here and redeploying. No greatest-empire ranking is published as
 the site's own opinion. No completeness — coverage follows one person's
-curiosity and stops at eight polities.
+curiosity. No polity is forced into a thread to make the continuity section
+look fuller.
 
 ## Credits
 
