@@ -447,7 +447,32 @@ export function weightsFromQuery(qs: string | URLSearchParams): { weights: Weigh
   return { weights, scale }
 }
 
+/**
+ * English ordinal suffix. The site was printing "81th", "42th" and "1th",
+ * because every call site appended a literal "th" — which on a page whose
+ * whole argument is that its numbers were handled carefully is not a small
+ * thing to get wrong.
+ *
+ * The teens are the exception that the naive rule misses: 11, 12 and 13 take
+ * "th" despite ending in 1, 2 and 3, and so do 111, 112, 113.
+ */
+export function ordinal(n: number): string {
+  const abs = Math.abs(Math.round(n))
+  const tens = abs % 100
+  if (tens >= 11 && tens <= 13) return `${n}th`
+  switch (abs % 10) {
+    case 1:
+      return `${n}st`
+    case 2:
+      return `${n}nd`
+    case 3:
+      return `${n}rd`
+    default:
+      return `${n}th`
+  }
+}
+
 export function formatPercentile(g: Gapped<number>): string {
   if (!g.present) return '—'
-  return `${Math.round(g.value * 100)}th`
+  return ordinal(Math.round(g.value * 100))
 }

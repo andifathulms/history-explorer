@@ -18,6 +18,7 @@ import {
   type Weights,
 } from '@/lib/ratings'
 import { NO_FIGURE, formatKm2, formatPopulation } from '@/lib/gaps'
+import { ordinal } from '@/lib/ratings'
 
 /**
  * The ranked table with weight sliders. Not the front door — the thread is.
@@ -80,7 +81,7 @@ export function Comparison({
 
   return (
     <>
-      <div className="mt-12 grid gap-10 lg:grid-cols-[290px_1fr]">
+      <div className="mt-12 grid gap-8 lg:grid-cols-[264px_1fr]">
         <aside className="card-paper p-6 lg:sticky lg:top-24 lg:self-start">
           <h2 className="kicker text-debu-ink">Your weights</h2>
 
@@ -195,19 +196,23 @@ export function Comparison({
               polity missing an axis leaves that bar area empty and says so in
               words, because a short bar would read as "small" when the truth
               is "unknown". */}
-          <div className="-mx-5 overflow-x-auto px-5 sm:-mx-8 sm:px-8">
-            <table className="w-full min-w-[900px] border-collapse text-left">
+          {/* No negative-margin bleed here. That trick is for a full-width
+              section; inside a two-column grid it pulled the table into the
+              sidebar gutter and added 54px of scrollWidth, so the table showed
+              a horizontal scrollbar on a desktop that had room for it. */}
+          <div className="overflow-x-auto">
+            <table className="w-full min-w-[780px] border-collapse text-left">
               <caption className="sr-only">
                 Polities ranked by your weighted total, with each axis&rsquo;s cited figure
               </caption>
               <colgroup>
-                <col className="w-[3.5rem]" />
-                <col className="w-[16rem]" />
-                <col className="w-[10.5rem]" />
-                <col className="w-[10.5rem]" />
-                <col className="w-[10.5rem]" />
-                <col className="w-[9rem]" />
-                <col className="w-[8rem]" />
+                <col className="w-[3rem]" />
+                <col className="w-[15rem]" />
+                <col className="w-[9.5rem]" />
+                <col className="w-[9.5rem]" />
+                <col className="w-[9.5rem]" />
+                <col className="w-[11rem]" />
+                <col className="w-[7.5rem]" />
               </colgroup>
               <thead>
                 <tr className="border-b border-kashi/30">
@@ -216,9 +221,18 @@ export function Comparison({
                       <th
                         key={h}
                         scope="col"
-                        className="py-3 pe-4 font-mono text-micro font-normal uppercase text-debu-ink"
+                        className="py-3 pe-4 align-bottom font-mono text-micro font-normal uppercase text-debu-ink"
                       >
                         {h === '#' ? <span className="sr-only">Rank</span> : h}
+                        {/* The three counts need naming once, not on all 66
+                            rows — repeated under every cell they wrapped to
+                            three lines and made the table twice as tall as the
+                            data in it. */}
+                        {h === 'Influence' ? (
+                          <span className="mt-1 block whitespace-nowrap normal-case tracking-normal">
+                            scripts · religions · claims
+                          </span>
+                        ) : null}
                       </th>
                     ),
                   )}
@@ -288,8 +302,8 @@ export function Comparison({
                           return c === null ? '—' : c
                         }).join(' · ')}
                       </span>
-                      <span className="mt-1 block font-mono text-[11.5px] leading-snug text-debu-ink">
-                        scripts · religions · claims
+                      <span className="sr-only">
+                        descendant scripts, religions carried, successor claims
                       </span>
                     </td>
 
@@ -378,8 +392,9 @@ function AxisCell({
           </span>
           {pct === null ? null : (
             <span className="mt-1 block font-mono text-micro tabular-nums text-debu-ink">
-              {Math.round(pct * 100)}
-              {pctMax === undefined ? '' : `–${Math.round(pctMax * 100)}`}th
+              {pctMax === undefined
+                ? ordinal(Math.round(pct * 100))
+                : `${Math.round(pct * 100)}–${ordinal(Math.round(pctMax * 100))}`}
             </span>
           )}
         </>

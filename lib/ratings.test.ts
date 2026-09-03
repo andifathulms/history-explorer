@@ -13,6 +13,7 @@ import {
   duration,
   weightsToQuery,
   weightsFromQuery,
+  ordinal,
   DEFAULT_WEIGHTS,
   reachValue,
 } from './ratings.ts'
@@ -160,4 +161,24 @@ test('reader weights survive a round trip through the query string', () => {
   assert.equal(back.scale, 'era-normalised')
   assert.equal(back.weights.reach, 0.7)
   assert.equal(back.weights.influenceMix.religions, 0.5)
+})
+
+/**
+ * The table printed "81th" and "1th" for a year and nobody caught it. On a site
+ * whose whole claim is that its numbers were handled carefully, the suffix is
+ * not cosmetic.
+ */
+test('ordinal suffixes, including the teens the naive rule misses', () => {
+  assert.equal(ordinal(1), '1st')
+  assert.equal(ordinal(2), '2nd')
+  assert.equal(ordinal(3), '3rd')
+  assert.equal(ordinal(4), '4th')
+  assert.equal(ordinal(11), '11th')
+  assert.equal(ordinal(12), '12th')
+  assert.equal(ordinal(13), '13th')
+  assert.equal(ordinal(21), '21st')
+  assert.equal(ordinal(42), '42nd')
+  assert.equal(ordinal(83), '83rd')
+  assert.equal(ordinal(100), '100th')
+  assert.equal(ordinal(111), '111th')
 })

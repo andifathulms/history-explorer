@@ -30,15 +30,31 @@ export function Page({
   )
 }
 
-/** The reading column and the wide column share one gutter and one max width. */
+/**
+ * The reading column and the wide column share one gutter and one max width.
+ *
+ * `wide` is for the rankings table and nothing else so far. Seven columns of
+ * figures beside a control panel do not fit the reading shell, and the symptom
+ * was cited figures wrapping mid-number — "11,100,000" over "km²" — which is
+ * the one thing a table of measurements must never do. Prose stays at the
+ * measure regardless; this only moves the frame.
+ */
 export function Shell({
   children,
+  wide = false,
   className = '',
 }: {
   children: React.ReactNode
+  wide?: boolean
   className?: string
 }) {
-  return <div className={`mx-auto w-full max-w-shell px-5 sm:px-8 ${className}`}>{children}</div>
+  return (
+    <div
+      className={`mx-auto w-full px-5 sm:px-8 ${wide ? 'max-w-[1440px]' : 'max-w-shell'} ${className}`}
+    >
+      {children}
+    </div>
+  )
 }
 
 /**

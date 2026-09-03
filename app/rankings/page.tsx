@@ -15,7 +15,10 @@ export default function RankingsView() {
   return (
     <Page ground="paper" current="Rankings">
       <main id="main" className="flex-1">
-        <Shell className="pb-24">
+        {/* The heading stays on the site's grid, aligned with the nav; only the
+            data block below bleeds wider. A whole page shifted left would read
+            as a different site rather than as a wide table. */}
+        <Shell>
           <PageHead kicker="Measured, not judged" title="Rankings" ground="paper">
             <p>
               Reach, longevity, population and influence — every polity on the site,
@@ -39,6 +42,9 @@ export default function RankingsView() {
             </p>
           </div>
 
+        </Shell>
+
+        <Shell wide className="pb-24">
           <Comparison narrative={narrative} backdrop={backdrop} denominators={denominators} />
         </Shell>
       </main>

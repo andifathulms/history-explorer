@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import type { Rating } from '@/lib/ratings'
-import { INFLUENCE_KEYS, INFLUENCE_LABELS, formatPercentile } from '@/lib/ratings'
+import { INFLUENCE_KEYS, INFLUENCE_LABELS, formatPercentile, ordinal } from '@/lib/ratings'
 import { NO_FIGURE, formatKm2, formatPopulation, type Gapped } from '@/lib/gaps'
 import type { Scale } from '@/lib/ratings'
 
@@ -130,10 +130,10 @@ export function RatingPanel({ rating, scale }: { rating: Rating; scale: Scale })
           }
           pct={
             Math.abs(r.longevity.pct.max - r.longevity.pct.min) < 0.005
-              ? `${Math.round(r.longevity.pct.min * 100)}th percentile`
-              : `${Math.round(r.longevity.pct.min * 100)}th to ${Math.round(
-                  r.longevity.pct.max * 100,
-                )}th percentile — the sources disagree on the span, so the rank is a range too`
+              ? `${ordinal(Math.round(r.longevity.pct.min * 100))} percentile`
+              : `${ordinal(Math.round(r.longevity.pct.min * 100))} to ${ordinal(
+                  Math.round(r.longevity.pct.max * 100),
+                )} percentile — the sources disagree on the span, so the rank is a range too`
           }
         >
           <RangeBar min={r.longevity.pct.min} max={r.longevity.pct.max} />
@@ -196,7 +196,9 @@ export function RatingPanel({ rating, scale }: { rating: Rating; scale: Scale })
               Weighted total
             </h3>
             <p className="font-mono text-[15px] tabular-nums text-kashi-deep">
-              {r.total.present ? `${Math.round(r.total.value * 100)}th percentile` : NO_FIGURE}
+              {r.total.present
+                ? `${ordinal(Math.round(r.total.value * 100))} percentile`
+                : NO_FIGURE}
             </p>
           </div>
           <div className="mt-2">
