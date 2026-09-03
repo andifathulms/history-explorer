@@ -36,6 +36,16 @@ export default function Home() {
       title: 'Timeline',
       body: 'Every span drawn on one axis, so concurrency and overlap are visible rather than asserted.',
     },
+    {
+      href: '/endings/',
+      title: 'Endings',
+      body: 'How polities stopped, typed from a closed list of six so it can be counted. Half were ended by an outside power; the other half came apart on their own.',
+    },
+    {
+      href: '/sources/',
+      title: 'Sources',
+      body: `Every work cited, what rests on it, and which polities depend on a single book. The build proves the citations resolve; this shows how they are distributed.`,
+    },
   ]
 
   return (

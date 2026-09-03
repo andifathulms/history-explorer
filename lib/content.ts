@@ -23,6 +23,7 @@ import {
   type Polity,
   type ReferencePolity,
   type Region,
+  type PolityId,
   type Source,
   type WorldDenominator,
 } from './types.ts'
@@ -376,4 +377,103 @@ export function crossRegionEdges(id: string): Edge[] {
   return loadCorpus().edges.filter(
     (e) => ids.has(e.from) !== ids.has(e.to),
   )
+}
+
+// ---------------------------------------------------------------------------
+// Provenance
+// ---------------------------------------------------------------------------
+
+export interface SourceUse {
+  source: Source
+  /** Polity ids citing this work anywhere: measures, facts, chapters, edges. */
+  polities: PolityId[]
+  /** Chapters drafted from it. */
+  chapters: number
+  /** Distinct claims resolving to it — the same tally the worklist counts. */
+  claims: number
+  /** Polities whose every citation resolves to this one work. */
+  soleSourceFor: PolityId[]
+}
+
+/**
+ * Who cites what.
+ *
+ * The build already guarantees that every citation resolves. It says nothing
+ * about concentration, and concentration is the more useful question once a
+ * corpus is large: a polity whose every claim rests on one book is not better
+ * sourced than one with a gap, it is one disagreement away from being wrong
+ * throughout, and nothing on its page shows that.
+ */
+export function sourceUsage(): SourceUse[] {
+  const c = loadCorpus()
+  const byId = new Map<string, { polities: Set<string>; chapters: number; claims: number }>()
+  const bump = (id: string | null | undefined, polity: string | null) => {
+    if (!id) return
+    if (!byId.has(id)) byId.set(id, { polities: new Set(), chapters: 0, claims: 0 })
+    const e = byId.get(id)!
+    e.claims += 1
+    if (polity) e.polities.add(polity)
+  }
+
+  // Per-polity citations, counted the same way the verification worklist does.
+  const perPolity = new Map<string, Set<string>>()
+  const note = (polity: string, id: string | null | undefined) => {
+    if (!id) return
+    if (!perPolity.has(polity)) perPolity.set(polity, new Set())
+    perPolity.get(polity)!.add(id)
+  }
+
+  for (const p of c.all) {
+    const ids = [
+      p.span?.start?.source,
+      p.span?.start?.max_source,
+      p.span?.end?.source,
+      p.span?.end?.max_source,
+      ...(p.capitals ?? []).map((x) => x.source),
+      p.rulers?.founder?.source,
+      p.rulers?.peak?.source,
+      p.rulers?.last?.source,
+      p.measures?.reach_km2?.source,
+      p.measures?.peak_population?.source,
+      ...Object.values(p.measures?.influence ?? {}).map((x) => x.source),
+      p.ended?.source,
+    ]
+    for (const id of ids) {
+      bump(id, p.id)
+      note(p.id, id)
+    }
+    for (const ch of c.chapters.get(p.id) ?? []) {
+      bump(ch.drafted_from, p.id)
+      note(p.id, ch.drafted_from)
+      const e = byId.get(ch.drafted_from)
+      if (e) e.chapters += 1
+    }
+  }
+  for (const e of c.edges) bump(e.source, null)
+  for (const r of c.backdrop) {
+    bump(r.span?.source, null)
+    bump(r.reach_km2?.source, null)
+    bump(r.peak_population?.source, null)
+  }
+
+  const sole = new Map<string, string[]>()
+  for (const [polity, ids] of perPolity) {
+    if (ids.size === 1) {
+      const only = [...ids][0]
+      sole.set(only, [...(sole.get(only) ?? []), polity])
+    }
+  }
+
+  return [...c.sources.values()]
+    .map((source) => {
+      const e = byId.get(source.id)
+      return {
+        source,
+        polities: [...(e?.polities ?? [])].sort(),
+        chapters: e?.chapters ?? 0,
+        claims: e?.claims ?? 0,
+        soleSourceFor: (sole.get(source.id) ?? []).sort(),
+      }
+    })
+    .sort((a, b) => b.claims - a.claims || a.source.id.localeCompare(b.source.id))
 }

@@ -5,6 +5,8 @@ const links = [
   { href: '/rankings/', label: 'Rankings' },
   { href: '/continuity/', label: 'Continuity' },
   { href: '/timeline/', label: 'Timeline' },
+  { href: '/endings/', label: 'Endings' },
+  { href: '/sources/', label: 'Sources' },
   { href: '/about/', label: 'About' },
 ]
 
