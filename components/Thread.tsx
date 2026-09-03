@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import type { Edge, Polity } from '@/lib/types'
 import { layoutBands, laneX, makeScale, centuryTicks } from '@/lib/thread'
+import { hasPage } from '@/lib/content'
 
 /**
  * The landing view's thread: 819 to 1231, drawn once.
@@ -81,6 +82,7 @@ export function Thread({
           const x = railX + laneX(b.lane) - 26
           const active = b.polity.id === activeId
           const href = `/polity/${b.polity.id}/`
+          const linked = hasPage(b.polity.id)
           const delay = `${((b.yStartMin / scale.height) * 1.1).toFixed(2)}s`
 
           return (
@@ -118,25 +120,30 @@ export function Thread({
                 className="text-firuze/40"
                 strokeWidth={1}
               />
-              <Link href={href}>
-                <text
-                  x={labelX}
-                  y={b.yStart + 5}
-                  className={`thread-label text-[15px] ${
-                    active ? 'fill-zarrin' : 'fill-kaghaz'
-                  } hover:fill-firuze`}
-                >
-                  {b.polity.name.latin}
-                  <tspan className="fill-debu-paper text-[12px] tabular-nums">
-                    {'  '}
-                    {b.polity.span.start.min}
-                    {b.hasStartRange ? `–${b.polity.span.start.max}` : ''}
-                    {' – '}
-                    {b.polity.span.end.min}
-                    {b.hasEndRange ? `–${b.polity.span.end.max}` : ''}
-                  </tspan>
-                </text>
-              </Link>
+              {(() => {
+                const label = (
+                  <text
+                    x={labelX}
+                    y={b.yStart + 5}
+                    className={`thread-label text-[15px] ${
+                      active ? 'fill-zarrin' : linked ? 'fill-kaghaz' : 'fill-kaghaz/55'
+                    } ${linked ? 'hover:fill-firuze' : ''}`}
+                  >
+                    {b.polity.name.latin}
+                    <tspan className="fill-debu-paper text-[12px] tabular-nums">
+                      {'  '}
+                      {b.polity.span.start.min}
+                      {b.hasStartRange ? `–${b.polity.span.start.max}` : ''}
+                      {' – '}
+                      {b.polity.span.end.min}
+                      {b.hasEndRange ? `–${b.polity.span.end.max}` : ''}
+                    </tspan>
+                  </text>
+                )
+                // A context polity earns a band — the era's shape needs it — but
+                // has no chapters, so there is nothing to link to.
+                return linked ? <Link href={href}>{label}</Link> : label
+              })()}
               {/* Anchor dot at the start of certain extent. */}
               <circle
                 cx={x}

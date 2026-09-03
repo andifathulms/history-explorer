@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import type { Polity } from '@/lib/types'
+import { hasPage } from '@/lib/content'
 
 /**
  * The rail on a polity page. Same line as the landing view, compressed to fit a
@@ -112,7 +113,7 @@ export function PolityRail({
                         you are here
                       </text>
                     </>
-                  ) : (
+                  ) : hasPage(p.id) ? (
                     <Link href={`/polity/${p.id}/`}>
                       <text
                         x={60}
@@ -122,6 +123,12 @@ export function PolityRail({
                         {p.name.latin}
                       </text>
                     </Link>
+                  ) : (
+                    /* Context polity: on the rail for the shape of the era, but
+                       it has no chapters and so no page to send the reader to. */
+                    <text x={60} y={top + 4} className="fill-debu-ink/60 text-[12px]">
+                      {p.name.latin}
+                    </text>
                   )}
                 </g>
               )

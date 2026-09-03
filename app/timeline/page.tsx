@@ -90,11 +90,18 @@ export default function TimelineView() {
 
               return (
                 <g key={p.id}>
-                  <Link href={`/polity/${p.id}/`}>
-                    <text x={0} y={y + 5} className="fill-kashi text-[14px] hover:fill-firuze-ink">
+                  {p.context_only ? (
+                    /* Backdrop for the era, but no chapters and so no page. */
+                    <text x={0} y={y + 5} className="fill-kashi/55 text-[14px]">
                       {p.name.latin}
                     </text>
-                  </Link>
+                  ) : (
+                    <Link href={`/polity/${p.id}/`}>
+                      <text x={0} y={y + 5} className="fill-kashi text-[14px] hover:fill-firuze-ink">
+                        {p.name.latin}
+                      </text>
+                    </Link>
+                  )}
                   <text x={0} y={y + 20} className="fill-debu-ink text-[11px] tabular-nums">
                     {p.span.start.min}–{p.span.end.max}
                   </text>
