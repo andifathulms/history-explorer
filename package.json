@@ -11,7 +11,8 @@
     "typecheck": "tsc --noEmit",
     "test": "node --test lib/*.test.ts",
     "basemaps": "node scripts/trim-basemaps.mjs",
-    "verify": "node scripts/verification-report.mjs"
+    "verify": "node scripts/verification-report.mjs",
+    "fonts": "node scripts/fetch-fonts.mjs"
   },
   "dependencies": {
     "d3-array": "^3.2.4",
