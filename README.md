@@ -22,11 +22,11 @@ succession is a property some polities have. A polity that seceded from nothing
 and was inherited by nobody gets a full page and a full ranking, and simply has
 no thread to stand in.
 
-Coverage: 40 polities in 13 regions, 224 to 1526. The Iranian Intermezzo came
-first because it is the hardest case for continuity and the worst case for
+Coverage: 66 polities in 16 regions, 2334 BC to 1922. The Iranian Intermezzo
+came first because it is the hardest case for continuity and the worst case for
 rankings at once — dense succession, contested dates, and several polities
-almost no one has quantified. Five regions carry threads; eight do not, which
-is the ordinary state.
+almost no one has quantified. Fifteen regions carry threads; one does not, which
+is an ordinary state rather than a gap.
 
 ## Running it
 
@@ -106,7 +106,7 @@ is `null`.
 
 The build guarantees that citations resolve and that nothing was invented at
 entry time. It cannot guarantee that a real citation was read correctly.
-`content/VERIFICATION.md` lists all 549 figures and prose attributions grouped by
+`content/VERIFICATION.md` lists all 829 figures and prose attributions grouped by
 source, as an unticked checklist, and everything in it should be treated as
 unverified until the author has checked it with the book open.
 

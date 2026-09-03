@@ -12,31 +12,41 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**549 claims across 50 sources.**
+**829 claims across 67 sources.**
 
 ## Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia
 *In International Studies Quarterly 41(3), 475-504.*
 
-`taagepera-1997` — 48 claims
+`taagepera-1997` — 58 claims
 
 - [ ] `polity/abbasid` — reach 11,100,000 km2 at 750
 - [ ] `polity/almohad` — reach 2,300,000 km2 at 1200
 - [ ] `polity/byzantine` — reach 1,350,000 km2 at 555
 - [ ] `polity/carolingian` — reach 1,100,000 km2 at 800
+- [ ] `polity/chagatai` — reach 3,500,000 km2 at 1310
 - [ ] `polity/delhi-sultanate` — reach 3,200,000 km2 at 1312
 - [ ] `polity/fatimid` — reach 4,100,000 km2 at 969
 - [ ] `polity/ghaznavid` — reach 3,400,000 km2 at 1029
+- [ ] `polity/gokturk` — reach 6,000,000 km2 at 557
+- [ ] `polity/golden-horde` — reach 6,000,000 km2 at 1310
 - [ ] `polity/great-seljuk` — reach 3,900,000 km2 at 1080
+- [ ] `polity/ilkhanate` — reach 3,750,000 km2 at 1310
 - [ ] `polity/jin` — reach 2,300,000 km2 at 1150
 - [ ] `polity/khazar` — reach 3,000,000 km2 at 850
 - [ ] `polity/liao` — reach 2,600,000 km2 at 947
+- [ ] `polity/ming` — reach 6,500,000 km2 at 1450
 - [ ] `polity/mongol` — reach 24,000,000 km2 at 1270
+- [ ] `polity/mughal` — reach 4,000,000 km2 at 1690
+- [ ] `polity/ottoman` — reach 5,200,000 km2 at 1683
 - [ ] `polity/rashidun` — reach 6,400,000 km2 at 655
+- [ ] `polity/safavid` — reach 2,900,000 km2 at 1512
 - [ ] `polity/samanid` — reach 2,600,000 km2 at 928
 - [ ] `polity/tang` — reach 5,400,000 km2 at 715
 - [ ] `polity/tibetan-empire` — reach 4,600,000 km2 at 800
+- [ ] `polity/timurid` — reach 4,400,000 km2 at 1405
 - [ ] `polity/umayyad` — reach 11,100,000 km2 at 720
 - [ ] `polity/uyghur-khaganate` — reach 3,100,000 km2 at 800
+- [ ] `polity/yuan` — reach 11,000,000 km2 at 1310
 - [ ] `reference/almohad` — reach 2,300,000 km2 at 1200
 - [ ] `reference/british-empire` — reach 35,500,000 km2 at 1920
 - [ ] `reference/byzantine` — reach 1,350,000 km2 at 555
@@ -109,6 +119,108 @@ clears one section. Everything below is **unverified until ticked.**
 - [ ] `polity/tahirid` — peak Abdallah ibn Tahir r. 828-845
 - [ ] `polity/tahirid` — last Muhammad ibn Tahir r. 862-873
 
+## Peter B. Golden, An Introduction to the History of the Turkic Peoples
+
+`golden-1992` — 29 claims
+
+- [ ] `chapter/gokturk/01-gokturk.mdx` — prose: "The first people to be called Turks"
+- [ ] `chapter/karakhanid/01-conversion.mdx` — prose: "The first Muslim Turks"
+- [ ] `chapter/khazar/01-the-wall.mdx` — prose: "The wall in the Caucasus"
+- [ ] `chapter/uyghur-khaganate/01-manichaeans.mdx` — prose: "An empire that chose Manichaeism"
+- [ ] `edge/gokturk->uyghur-khaganate` — absorbed remnants of in 744
+- [ ] `polity/gokturk` — span starts 552
+- [ ] `polity/gokturk` — span ends 603
+- [ ] `polity/gokturk` — capital Otukan from 552
+- [ ] `polity/gokturk` — founder Bumin Qaghan r. 552-552
+- [ ] `polity/gokturk` — peak Istami r. 552-576
+- [ ] `polity/gokturk` — last Tardu r. 599-603
+- [ ] `polity/gokturk` — descendant_scripts = 1 (Old Turkic runiform script)
+- [ ] `polity/gokturk` — ended by fragmentation in 603
+- [ ] `polity/karakhanid` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/khazar` — span starts 650
+- [ ] `polity/khazar` — span ends 969
+- [ ] `polity/khazar` — capital Atil from 650
+- [ ] `polity/khazar` — founder Bulan r. 740-750
+- [ ] `polity/khazar` — peak Joseph r. 930-960
+- [ ] `polity/khazar` — last Joseph r. 930-960
+- [ ] `polity/khazar` — ended by conquest in 969
+- [ ] `polity/uyghur-khaganate` — span starts 744
+- [ ] `polity/uyghur-khaganate` — span ends 840
+- [ ] `polity/uyghur-khaganate` — capital Ordu-Baliq from 744
+- [ ] `polity/uyghur-khaganate` — founder Qutlugh Bilge Kol r. 744-747
+- [ ] `polity/uyghur-khaganate` — peak Bogu Khagan r. 759-779
+- [ ] `polity/uyghur-khaganate` — last Kchik Khagan r. 839-840
+- [ ] `polity/uyghur-khaganate` — religions_carried = 1 (Manichaeism)
+- [ ] `polity/uyghur-khaganate` — ended by conquest in 840
+
+## Herbert Franke and Denis Twitchett (eds), The Cambridge History of China, Volume 6: Alien Regimes and Border States, 907-1368
+
+`franke-twitchett-1994` — 29 claims
+
+- [ ] `chapter/jin/01-jurchen.mdx` — prose: "The Jurchen century"
+- [ ] `chapter/liao/01-two-administrations.mdx` — prose: "Governing two things at once"
+- [ ] `chapter/yuan/01-kublai.mdx` — prose: "A steppe dynasty that took all of China"
+- [ ] `edge/jin->yuan` — absorbed remnants of in 1279
+- [ ] `edge/liao->jin` — overthrew in 1125
+- [ ] `edge/mongol->yuan` — partitioned from in 1271
+- [ ] `polity/jin` — span starts 1115
+- [ ] `polity/jin` — span ends 1234
+- [ ] `polity/jin` — capital Zhongdu from 1115
+- [ ] `polity/jin` — founder Aguda r. 1115-1123
+- [ ] `polity/jin` — peak Emperor Shizong r. 1161-1189
+- [ ] `polity/jin` — last Emperor Modi r. 1234-1234
+- [ ] `polity/jin` — descendant_scripts = 1 (Jurchen script)
+- [ ] `polity/jin` — ended by conquest in 1234
+- [ ] `polity/liao` — span starts 916
+- [ ] `polity/liao` — span ends 1125
+- [ ] `polity/liao` — capital Shangjing from 916
+- [ ] `polity/liao` — founder Abaoji r. 916-926
+- [ ] `polity/liao` — peak Emperor Shengzong r. 982-1031
+- [ ] `polity/liao` — last Emperor Tianzuo r. 1101-1125
+- [ ] `polity/liao` — descendant_scripts = 2 (Khitan large script, Khitan small script)
+- [ ] `polity/liao` — ended by conquest in 1125
+- [ ] `polity/yuan` — span starts 1271
+- [ ] `polity/yuan` — span ends 1368
+- [ ] `polity/yuan` — capital Dadu from 1271
+- [ ] `polity/yuan` — founder Kublai Khan r. 1271-1294
+- [ ] `polity/yuan` — peak Kublai Khan r. 1271-1294
+- [ ] `polity/yuan` — last Toghon Temur r. 1333-1368
+- [ ] `polity/yuan` — descendant_scripts = 1 (Phags-pa script)
+
+## Rein Taagepera, Size and Duration of Empires: Growth-Decline Curves, 600 B.C. to 600 A.D.
+*In Social Science History 3(3/4), 115-138.*
+
+`taagepera-1979` — 28 claims
+
+- [ ] `polity/achaemenid` — reach 5,500,000 km2 at -500
+- [ ] `polity/egypt-new-kingdom` — reach 1,000,000 km2 at -1450
+- [ ] `polity/gupta` — reach 3,500,000 km2 at 400
+- [ ] `polity/han` — reach 6,500,000 km2 at 100
+- [ ] `polity/kushan` — reach 2,000,000 km2 at 200
+- [ ] `polity/macedonian` — reach 5,200,000 km2 at -323
+- [ ] `polity/maurya` — reach 3,400,000 km2 at -250
+- [ ] `polity/median` — reach 2,800,000 km2 at -585
+- [ ] `polity/neo-assyrian` — reach 1,400,000 km2 at -670
+- [ ] `polity/parthian` — reach 2,800,000 km2 at 1
+- [ ] `polity/roman` — reach 5,000,000 km2 at 117
+- [ ] `polity/sasanian` — reach 3,500,000 km2 at 550
+- [ ] `polity/seleucid` — reach 3,900,000 km2 at -301
+- [ ] `polity/xiongnu` — reach 9,000,000 km2 at -176
+- [ ] `reference/achaemenid` — reach 5,500,000 km2 at -500
+- [ ] `reference/egypt-new-kingdom` — reach 1,000,000 km2 at -1450
+- [ ] `reference/gupta` — reach 3,500,000 km2 at 400
+- [ ] `reference/han` — reach 6,500,000 km2 at 100
+- [ ] `reference/kushan` — reach 2,000,000 km2 at 200
+- [ ] `reference/macedonian` — reach 5,200,000 km2 at -323
+- [ ] `reference/maurya` — reach 3,400,000 km2 at -250
+- [ ] `reference/median` — reach 2,800,000 km2 at -585
+- [ ] `reference/neo-assyrian` — reach 1,400,000 km2 at -670
+- [ ] `reference/parthian` — reach 2,800,000 km2 at 1
+- [ ] `reference/roman` — reach 5,000,000 km2 at 117
+- [ ] `reference/sasanian` — reach 3,500,000 km2 at 550
+- [ ] `reference/seleucid` — reach 3,900,000 km2 at -301
+- [ ] `reference/xiongnu` — reach 9,000,000 km2 at -176
+
 ## Carl F. Petry (ed.), The Cambridge History of Egypt, Volume 1: Islamic Egypt 640-1517
 
 `petry-1998` — 27 claims
@@ -171,6 +283,65 @@ clears one section. Everything below is **unverified until ticked.**
 - [ ] `polity/rustamid` — peak Aflah ibn Abd al-Wahhab r. 823-872
 - [ ] `polity/rustamid` — last Yaqzan ibn Muhammad r. 894-909
 
+## Romila Thapar, Early India: From the Origins to AD 1300
+
+`thapar-2002` — 25 claims
+
+- [ ] `chapter/gupta/01-gupta.mdx` — prose: "A classical reference point"
+- [ ] `chapter/kushan/01-kushan.mdx` — prose: "The junction"
+- [ ] `chapter/maurya/01-maurya.mdx` — prose: "Ashoka's renunciation"
+- [ ] `polity/gupta` — span starts 320
+- [ ] `polity/gupta` — span ends 550
+- [ ] `polity/gupta` — capital Pataliputra from 320
+- [ ] `polity/gupta` — founder Chandragupta I r. 320-335
+- [ ] `polity/gupta` — peak Chandragupta II r. 375-415
+- [ ] `polity/gupta` — last Vishnugupta r. 540-550
+- [ ] `polity/gupta` — ended by fragmentation in 550
+- [ ] `polity/kushan` — span starts 30
+- [ ] `polity/kushan` — span ends 375
+- [ ] `polity/kushan` — capital Purushapura from 30
+- [ ] `polity/kushan` — founder Kujula Kadphises r. 30-80
+- [ ] `polity/kushan` — peak Kanishka I r. 127-150
+- [ ] `polity/kushan` — last Vasudeva II r. 290-375
+- [ ] `polity/kushan` — religions_carried = 1 (Mahayana Buddhism)
+- [ ] `polity/maurya` — span starts -322
+- [ ] `polity/maurya` — span ends -185
+- [ ] `polity/maurya` — capital Pataliputra from -322
+- [ ] `polity/maurya` — founder Chandragupta Maurya r. -322--298
+- [ ] `polity/maurya` — peak Ashoka r. -268--232
+- [ ] `polity/maurya` — last Brihadratha r. -187--185
+- [ ] `polity/maurya` — religions_carried = 1 (Buddhism)
+- [ ] `polity/maurya` — ended by internal usurpation in -185
+
+## Marc Van De Mieroop, A History of the Ancient Near East, ca. 3000-323 BC
+
+`van-de-mieroop-2015` — 24 claims
+
+- [ ] `chapter/akkadian/01-akkadian.mdx` — prose: "The first, conventionally"
+- [ ] `chapter/median/01-median.mdx` — prose: "An empire, possibly"
+- [ ] `chapter/neo-assyrian/01-neo-assyrian.mdx` — prose: "The machinery of empire"
+- [ ] `edge/neo-assyrian->median` — overthrew in -612
+- [ ] `polity/akkadian` — span starts -2334
+- [ ] `polity/akkadian` — span ends -2154
+- [ ] `polity/akkadian` — capital Akkad from -2334
+- [ ] `polity/akkadian` — founder Sargon of Akkad r. -2334--2279
+- [ ] `polity/akkadian` — peak Naram-Sin r. -2254--2218
+- [ ] `polity/akkadian` — last Shu-turul r. -2168--2154
+- [ ] `polity/akkadian` — ended by fragmentation in -2154
+- [ ] `polity/median` — span starts -678
+- [ ] `polity/median` — span ends -549
+- [ ] `polity/median` — capital Ecbatana from -678
+- [ ] `polity/median` — founder Deioces r. -700--647
+- [ ] `polity/median` — peak Cyaxares r. -625--585
+- [ ] `polity/median` — last Astyages r. -585--549
+- [ ] `polity/neo-assyrian` — span starts -911
+- [ ] `polity/neo-assyrian` — span ends -609
+- [ ] `polity/neo-assyrian` — capital Nineveh from -911
+- [ ] `polity/neo-assyrian` — founder Adad-nirari II r. -911--891
+- [ ] `polity/neo-assyrian` — peak Ashurbanipal r. -669--631
+- [ ] `polity/neo-assyrian` — last Ashur-uballit II r. -612--609
+- [ ] `polity/neo-assyrian` — ended by conquest in -609
+
 ## Hugh Kennedy, The Prophet and the Age of the Caliphates: The Islamic Near East from the Sixth to the Eleventh Century
 
 `kennedy-2004` — 20 claims
@@ -196,53 +367,53 @@ clears one section. Everything below is **unverified until ticked.**
 - [ ] `polity/rashidun` — successor_claims = 2 (umayyad, abbasid)
 - [ ] `polity/umayyad` — successor_claims = 1 (Umayyad Caliphate of Cordoba)
 
-## Herbert Franke and Denis Twitchett (eds), The Cambridge History of China, Volume 6: Alien Regimes and Border States, 907-1368
+## Kenneth R. Hall, A History of Early Southeast Asia: Maritime Trade and Societal Development, 100-1500
 
-`franke-twitchett-1994` — 19 claims
+`hall-2011` — 19 claims
 
-- [ ] `chapter/jin/01-jurchen.mdx` — prose: "The Jurchen century"
-- [ ] `chapter/liao/01-two-administrations.mdx` — prose: "Governing two things at once"
-- [ ] `edge/liao->jin` — overthrew in 1125
-- [ ] `polity/jin` — span starts 1115
-- [ ] `polity/jin` — span ends 1234
-- [ ] `polity/jin` — capital Zhongdu from 1115
-- [ ] `polity/jin` — founder Aguda r. 1115-1123
-- [ ] `polity/jin` — peak Emperor Shizong r. 1161-1189
-- [ ] `polity/jin` — last Emperor Modi r. 1234-1234
-- [ ] `polity/jin` — descendant_scripts = 1 (Jurchen script)
-- [ ] `polity/jin` — ended by conquest in 1234
-- [ ] `polity/liao` — span starts 916
-- [ ] `polity/liao` — span ends 1125
-- [ ] `polity/liao` — capital Shangjing from 916
-- [ ] `polity/liao` — founder Abaoji r. 916-926
-- [ ] `polity/liao` — peak Emperor Shengzong r. 982-1031
-- [ ] `polity/liao` — last Emperor Tianzuo r. 1101-1125
-- [ ] `polity/liao` — descendant_scripts = 2 (Khitan large script, Khitan small script)
-- [ ] `polity/liao` — ended by conquest in 1125
+- [ ] `chapter/majapahit/01-the-archipelago.mdx` — prose: "The other thalassocracy"
+- [ ] `chapter/srivijaya/01-the-straits.mdx` — prose: "Power over a passage"
+- [ ] `edge/srivijaya->majapahit` — absorbed remnants of in 1293
+- [ ] `polity/majapahit` — span starts 1293
+- [ ] `polity/majapahit` — span ends 1527
+- [ ] `polity/majapahit` — capital Trowulan from 1293
+- [ ] `polity/majapahit` — founder Raden Wijaya r. 1293-1309
+- [ ] `polity/majapahit` — peak Hayam Wuruk r. 1350-1389
+- [ ] `polity/majapahit` — last Girindrawardhana r. 1478-1527
+- [ ] `polity/majapahit` — religions_carried = 1 (Hindu-Buddhist Javanese tradition)
+- [ ] `polity/majapahit` — ended by gradual absorption in 1527
+- [ ] `polity/srivijaya` — span starts 671
+- [ ] `polity/srivijaya` — span ends 1275
+- [ ] `polity/srivijaya` — capital Palembang from 671
+- [ ] `polity/srivijaya` — founder Dapunta Hyang Sri Jayanasa r. 671-702
+- [ ] `polity/srivijaya` — peak Balaputradewa r. 835-860
+- [ ] `polity/srivijaya` — last Unknown r. 1275-1275
+- [ ] `polity/srivijaya` — religions_carried = 1 (Mahayana Buddhism)
+- [ ] `polity/srivijaya` — ended by gradual absorption in 1275
 
-## Peter B. Golden, An Introduction to the History of the Turkic Peoples
+## Ehsan Yarshater (ed.), The Cambridge History of Iran, Volume 3: The Seleucid, Parthian and Sasanian Periods
 
-`golden-1992` — 19 claims
+`chi-3` — 19 claims
 
-- [ ] `chapter/karakhanid/01-conversion.mdx` — prose: "The first Muslim Turks"
-- [ ] `chapter/khazar/01-the-wall.mdx` — prose: "The wall in the Caucasus"
-- [ ] `chapter/uyghur-khaganate/01-manichaeans.mdx` — prose: "An empire that chose Manichaeism"
-- [ ] `polity/karakhanid` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/khazar` — span starts 650
-- [ ] `polity/khazar` — span ends 969
-- [ ] `polity/khazar` — capital Atil from 650
-- [ ] `polity/khazar` — founder Bulan r. 740-750
-- [ ] `polity/khazar` — peak Joseph r. 930-960
-- [ ] `polity/khazar` — last Joseph r. 930-960
-- [ ] `polity/khazar` — ended by conquest in 969
-- [ ] `polity/uyghur-khaganate` — span starts 744
-- [ ] `polity/uyghur-khaganate` — span ends 840
-- [ ] `polity/uyghur-khaganate` — capital Ordu-Baliq from 744
-- [ ] `polity/uyghur-khaganate` — founder Qutlugh Bilge Kol r. 744-747
-- [ ] `polity/uyghur-khaganate` — peak Bogu Khagan r. 759-779
-- [ ] `polity/uyghur-khaganate` — last Kchik Khagan r. 839-840
-- [ ] `polity/uyghur-khaganate` — religions_carried = 1 (Manichaeism)
-- [ ] `polity/uyghur-khaganate` — ended by conquest in 840
+- [ ] `chapter/parthian/01-parthian.mdx` — prose: "The empire Rome could not finish"
+- [ ] `chapter/sasanian/02-khusrau.mdx` — prose: "Khusrau's reforms, and Rome"
+- [ ] `chapter/seleucid/01-seleucid.mdx` — prose: "Governing Iran in Greek"
+- [ ] `edge/achaemenid->parthian` — claimed legitimacy of in -141
+- [ ] `edge/macedonian->seleucid` — partitioned from in -312
+- [ ] `edge/seleucid->parthian` — seceded from in -247
+- [ ] `polity/parthian` — span starts -247
+- [ ] `polity/parthian` — span ends 224
+- [ ] `polity/parthian` — capital Ctesiphon from -247
+- [ ] `polity/parthian` — founder Arsaces I r. -247--217
+- [ ] `polity/parthian` — peak Mithridates II r. -124--88
+- [ ] `polity/parthian` — last Artabanus IV r. 213-224
+- [ ] `polity/sasanian` — peak Khusrau I Anushirvan r. 531-579
+- [ ] `polity/seleucid` — span starts -312
+- [ ] `polity/seleucid` — span ends -63
+- [ ] `polity/seleucid` — capital Antioch from -312
+- [ ] `polity/seleucid` — founder Seleucus I Nicator r. -312--281
+- [ ] `polity/seleucid` — peak Antiochus III r. -222--187
+- [ ] `polity/seleucid` — last Philip II Philoromaeus r. -65--63
 
 ## Amira K. Bennison, The Almoravid and Almohad Empires
 
@@ -267,26 +438,25 @@ clears one section. Everything below is **unverified until ticked.**
 - [ ] `polity/almoravid` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/almoravid` — ended by conquest in 1147
 
-## Rein Taagepera, Size and Duration of Empires: Growth-Decline Curves, 600 B.C. to 600 A.D.
-*In Social Science History 3(3/4), 115-138.*
+## Colin Imber, The Ottoman Empire, 1300-1650: The Structure of Power
 
-`taagepera-1979` — 15 claims
+`imber-2002` — 15 claims
 
-- [ ] `polity/sasanian` — reach 3,500,000 km2 at 550
-- [ ] `reference/achaemenid` — reach 5,500,000 km2 at -500
-- [ ] `reference/egypt-new-kingdom` — reach 1,000,000 km2 at -1450
-- [ ] `reference/gupta` — reach 3,500,000 km2 at 400
-- [ ] `reference/han` — reach 6,500,000 km2 at 100
-- [ ] `reference/kushan` — reach 2,000,000 km2 at 200
-- [ ] `reference/macedonian` — reach 5,200,000 km2 at -323
-- [ ] `reference/maurya` — reach 3,400,000 km2 at -250
-- [ ] `reference/median` — reach 2,800,000 km2 at -585
-- [ ] `reference/neo-assyrian` — reach 1,400,000 km2 at -670
-- [ ] `reference/parthian` — reach 2,800,000 km2 at 1
-- [ ] `reference/roman` — reach 5,000,000 km2 at 117
-- [ ] `reference/sasanian` — reach 3,500,000 km2 at 550
-- [ ] `reference/seleucid` — reach 3,900,000 km2 at -301
-- [ ] `reference/xiongnu` — reach 9,000,000 km2 at -176
+- [ ] `chapter/ottoman/01-a-frontier-beylik.mdx` — prose: "The smallest of the beyliks"
+- [ ] `chapter/ottoman/02-1453.mdx` — prose: "Two inheritances"
+- [ ] `edge/byzantine->ottoman` — claimed legitimacy of in 1453
+- [ ] `edge/mamluk-sultanate->ottoman` — conquered by in 1517
+- [ ] `edge/roman->ottoman` — claimed legitimacy of in 1453
+- [ ] `edge/rum->ottoman` — absorbed remnants of in 1299
+- [ ] `polity/byzantine` — successor_claims = 1 (Ottoman Empire)
+- [ ] `polity/ottoman` — span starts 1299
+- [ ] `polity/ottoman` — span ends 1922
+- [ ] `polity/ottoman` — capital Istanbul from 1299
+- [ ] `polity/ottoman` — founder Osman I r. 1299-1324
+- [ ] `polity/ottoman` — peak Suleyman I r. 1520-1566
+- [ ] `polity/ottoman` — last Mehmed VI r. 1918-1922
+- [ ] `polity/ottoman` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/ottoman` — ended by fragmentation in 1922
 
 ## Peter Jackson, The Delhi Sultanate: A Political and Military History
 
@@ -365,6 +535,24 @@ clears one section. Everything below is **unverified until ticked.**
 - [ ] `polity/khwarazmian` — successor_claims = 0
 - [ ] `polity/khwarazmian` — ended by conquest in 1231
 
+## Touraj Daryaee, Sasanian Persia: The Rise and Fall of an Empire
+
+`daryaee-2009` — 13 claims
+
+- [ ] `chapter/sasanian/01-ardashir.mdx` — prose: "A vassal takes the crown"
+- [ ] `chapter/sasanian/03-collapse.mdx` — prose: "Twenty-six years, then eight"
+- [ ] `edge/achaemenid->sasanian` — claimed legitimacy of in 224
+- [ ] `edge/kushan->sasanian` — conquered by in 230
+- [ ] `edge/parthian->sasanian` — overthrew in 224
+- [ ] `polity/kushan` — ended by conquest in 375
+- [ ] `polity/parthian` — ended by dynastic replacement in 224
+- [ ] `polity/sasanian` — span starts 224
+- [ ] `polity/sasanian` — span ends 651
+- [ ] `polity/sasanian` — capital Ctesiphon from 224
+- [ ] `polity/sasanian` — founder Ardashir I r. 224-242
+- [ ] `polity/sasanian` — last Yazdegerd III r. 632-651
+- [ ] `polity/sasanian` — religions_carried = 1 (Zoroastrianism)
+
 ## David Morgan, The Mongols
 
 `morgan-2007` — 13 claims
@@ -402,6 +590,22 @@ clears one section. Everything below is **unverified until ticked.**
 - [ ] `polity/samanid` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/samanid` — ended by conquest in 999
 
+## Pierre Briant, From Cyrus to Alexander: A History of the Persian Empire
+
+`briant-2002` — 11 claims
+
+- [ ] `chapter/achaemenid/01-achaemenid.mdx` — prose: "Satrapies"
+- [ ] `edge/median->achaemenid` — overthrew in -549
+- [ ] `polity/achaemenid` — span starts -550
+- [ ] `polity/achaemenid` — span ends -330
+- [ ] `polity/achaemenid` — capital Persepolis from -550
+- [ ] `polity/achaemenid` — founder Cyrus II r. -559--530
+- [ ] `polity/achaemenid` — peak Darius I r. -522--486
+- [ ] `polity/achaemenid` — last Darius III r. -336--330
+- [ ] `polity/achaemenid` — descendant_scripts = 1 (Old Persian cuneiform)
+- [ ] `polity/achaemenid` — successor_claims = 2 (Parthian Empire, Sasanian Empire)
+- [ ] `polity/median` — ended by conquest in -549
+
 ## R. Stephen Humphreys, From Saladin to the Mongols: The Ayyubids of Damascus 1193-1260
 
 `humphreys-1977` — 11 claims
@@ -434,6 +638,22 @@ clears one section. Everything below is **unverified until ticked.**
 - [ ] `polity/zangid` — last Mahmud al-Qahir r. 1219-1233
 - [ ] `polity/zangid` — religions_carried = 1 (Sunni Islam)
 
+## Warren Treadgold, A History of the Byzantine State and Society
+
+`treadgold-1997` — 11 claims
+
+- [ ] `chapter/byzantine/01-the-survivor.mdx` — prose: "The empire that lost half of itself and continued"
+- [ ] `edge/roman->byzantine` — partitioned from in 395
+- [ ] `edge/sasanian->byzantine` — absorbed remnants of in 651
+- [ ] `polity/byzantine` — span starts 395
+- [ ] `polity/byzantine` — span ends 1453
+- [ ] `polity/byzantine` — capital Constantinople from 395
+- [ ] `polity/byzantine` — founder Arcadius r. 395-408
+- [ ] `polity/byzantine` — peak Basil II r. 976-1025
+- [ ] `polity/byzantine` — last Constantine XI r. 1449-1453
+- [ ] `polity/byzantine` — ended by conquest in 1453
+- [ ] `polity/roman` — ended by fragmentation in 395
+
 ## C. E. Bosworth, GHURIDS
 *In Encyclopaedia Iranica.*
 <https://iranicaonline.org/articles/ghurids>
@@ -451,6 +671,22 @@ clears one section. Everything below is **unverified until ticked.**
 - [ ] `polity/ghurid` — peak Mu'izz al-Din Muhammad of Ghur r. 1173-1206
 - [ ] `polity/ghurid` — descendant_scripts = 0
 - [ ] `polity/ghurid` — ended by conquest in 1215
+
+## Greg Woolf, Rome: An Empire's Story
+
+`woolf-2012` — 11 claims
+
+- [ ] `chapter/roman/01-roman.mdx` — prose: "The name everyone wanted afterwards"
+- [ ] `polity/roman` — span starts -27
+- [ ] `polity/roman` — span ends 395
+- [ ] `polity/roman` — capital Rome from -27
+- [ ] `polity/roman` — founder Augustus r. -27-14
+- [ ] `polity/roman` — peak Trajan r. 98-117
+- [ ] `polity/roman` — last Theodosius I r. 379-395
+- [ ] `polity/roman` — descendant_scripts = 1 (Latin alphabet)
+- [ ] `polity/roman` — religions_carried = 1 (Christianity)
+- [ ] `polity/roman` — successor_claims = 3 (Byzantine Empire, Carolingian Empire, Ottoman Empire)
+- [ ] `polity/seleucid` — ended by conquest in -63
 
 ## A. C. S. Peacock and Sara Nur Yildiz (eds), The Seljuks of Anatolia: Court and Society in the Medieval Middle East
 
@@ -484,6 +720,37 @@ clears one section. Everything below is **unverified until ticked.**
 - [ ] `polity/saffarid` — last Khalaf ibn Ahmad r. 963-1003
 - [ ] `polity/saffarid` — ended by gradual absorption in 1003
 
+## John O. Hunwick, Timbuktu and the Songhay Empire
+
+`hunwick-1999` — 11 claims
+
+- [ ] `chapter/songhai/01-timbuktu.mdx` — prose: "Askia Muhammad's pilgrimage"
+- [ ] `edge/abbasid->songhai` — claimed legitimacy of in 1496
+- [ ] `edge/mali->songhai` — absorbed remnants of in 1468
+- [ ] `polity/songhai` — span starts 1464
+- [ ] `polity/songhai` — span ends 1591
+- [ ] `polity/songhai` — capital Gao from 1464
+- [ ] `polity/songhai` — founder Sunni Ali r. 1464-1492
+- [ ] `polity/songhai` — peak Askia Muhammad I r. 1493-1528
+- [ ] `polity/songhai` — last Askia Ishaq II r. 1588-1591
+- [ ] `polity/songhai` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/songhai` — ended by conquest in 1591
+
+## A. B. Bosworth, Conquest and Empire: The Reign of Alexander the Great
+
+`ab-bosworth-1988` — 10 claims
+
+- [ ] `chapter/macedonian/01-macedonian.mdx` — prose: "Thirteen years"
+- [ ] `edge/achaemenid->macedonian` — conquered by in -330
+- [ ] `polity/achaemenid` — ended by conquest in -330
+- [ ] `polity/macedonian` — span starts -336
+- [ ] `polity/macedonian` — span ends -323
+- [ ] `polity/macedonian` — capital Babylon from -336
+- [ ] `polity/macedonian` — founder Alexander III r. -336--323
+- [ ] `polity/macedonian` — peak Alexander III r. -336--323
+- [ ] `polity/macedonian` — last Alexander III r. -336--323
+- [ ] `polity/macedonian` — ended by fragmentation in -323
+
 ## Stuart Munro-Hay, Aksum: An African Civilisation of Late Antiquity
 
 `munro-hay-1991` — 10 claims
@@ -515,6 +782,96 @@ clears one section. Everything below is **unverified until ticked.**
 - [ ] `polity/buyid` — ended by conquest in 1055
 - [ ] `polity/sasanian` — successor_claims = 1 (Buyid Confederation)
 
+## Rosamond McKitterick, Charlemagne: The Formation of a European Identity
+
+`mckitterick-2008` — 10 claims
+
+- [ ] `chapter/carolingian/01-two-emperors.mdx` — prose: "Two emperors, and an embassy"
+- [ ] `edge/roman->carolingian` — claimed legitimacy of in 800
+- [ ] `polity/carolingian` — span starts 800
+- [ ] `polity/carolingian` — span ends 888
+- [ ] `polity/carolingian` — capital Aachen from 800
+- [ ] `polity/carolingian` — founder Charlemagne r. 800-814
+- [ ] `polity/carolingian` — peak Charlemagne r. 800-814
+- [ ] `polity/carolingian` — last Charles the Fat r. 881-887
+- [ ] `polity/carolingian` — religions_carried = 1 (Latin Christianity)
+- [ ] `polity/carolingian` — ended by fragmentation in 888
+
+## Charles J. Halperin, Russia and the Golden Horde: The Mongol Impact on Medieval Russian History
+
+`halperin-1985` — 10 claims
+
+- [ ] `chapter/golden-horde/01-at-a-distance.mdx` — prose: "Ruling without occupying"
+- [ ] `edge/mongol->golden-horde` — partitioned from in 1242
+- [ ] `polity/golden-horde` — span starts 1242
+- [ ] `polity/golden-horde` — span ends 1502
+- [ ] `polity/golden-horde` — capital Sarai from 1242
+- [ ] `polity/golden-horde` — founder Batu Khan r. 1242-1255
+- [ ] `polity/golden-horde` — peak Ozbeg Khan r. 1313-1341
+- [ ] `polity/golden-horde` — last Shaykh Ahmad r. 1481-1502
+- [ ] `polity/golden-horde` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/golden-horde` — ended by fragmentation in 1502
+
+## Peter Jackson, The Mongols and the Islamic World: From Conquest to Conversion
+
+`jackson-2017` — 10 claims
+
+- [ ] `chapter/ilkhanate/01-conversion.mdx` — prose: "The conquerors convert"
+- [ ] `edge/mongol->ilkhanate` — partitioned from in 1256
+- [ ] `polity/ilkhanate` — span starts 1256
+- [ ] `polity/ilkhanate` — span ends 1335
+- [ ] `polity/ilkhanate` — capital Tabriz from 1256
+- [ ] `polity/ilkhanate` — founder Hulegu r. 1256-1265
+- [ ] `polity/ilkhanate` — peak Ghazan r. 1295-1304
+- [ ] `polity/ilkhanate` — last Abu Sa'id r. 1316-1335
+- [ ] `polity/ilkhanate` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/ilkhanate` — ended by fragmentation in 1335
+
+## Frederick W. Mote and Denis Twitchett (eds), The Cambridge History of China, Volume 7: The Ming Dynasty, 1368-1644, Part 1
+
+`mote-twitchett-1988` — 10 claims
+
+- [ ] `chapter/ming/01-the-fleets.mdx` — prose: "Seven fleets, and then none"
+- [ ] `edge/yuan->ming` — overthrew in 1368
+- [ ] `polity/ming` — span starts 1368
+- [ ] `polity/ming` — span ends 1644
+- [ ] `polity/ming` — capital Beijing from 1368
+- [ ] `polity/ming` — founder Hongwu Emperor r. 1368-1398
+- [ ] `polity/ming` — peak Yongle Emperor r. 1402-1424
+- [ ] `polity/ming` — last Chongzhen Emperor r. 1627-1644
+- [ ] `polity/ming` — ended by conquest in 1644
+- [ ] `polity/yuan` — ended by conquest in 1368
+
+## John F. Richards, The Mughal Empire (The New Cambridge History of India, I.5)
+
+`richards-1993` — 10 claims
+
+- [ ] `chapter/mughal/01-babur.mdx` — prose: "A Timurid with nowhere to go"
+- [ ] `edge/delhi-sultanate->mughal` — conquered by in 1526
+- [ ] `edge/timurid->mughal` — claimed legitimacy of in 1526
+- [ ] `polity/mughal` — span starts 1526
+- [ ] `polity/mughal` — span ends 1857
+- [ ] `polity/mughal` — capital Agra from 1526
+- [ ] `polity/mughal` — founder Babur r. 1526-1530
+- [ ] `polity/mughal` — peak Akbar r. 1556-1605
+- [ ] `polity/mughal` — last Bahadur Shah II r. 1837-1857
+- [ ] `polity/mughal` — ended by conquest in 1857
+
+## Andrew J. Newman, Safavid Iran: Rebirth of a Persian Empire
+
+`newman-2006` — 10 claims
+
+- [ ] `chapter/safavid/01-a-decreed-confession.mdx` — prose: "A confession imposed by decree"
+- [ ] `edge/timurid->safavid` — absorbed remnants of in 1501
+- [ ] `polity/safavid` — span starts 1501
+- [ ] `polity/safavid` — span ends 1736
+- [ ] `polity/safavid` — capital Isfahan from 1501
+- [ ] `polity/safavid` — founder Isma'il I r. 1501-1524
+- [ ] `polity/safavid` — peak Abbas I r. 1588-1629
+- [ ] `polity/safavid` — last Abbas III r. 1732-1736
+- [ ] `polity/safavid` — religions_carried = 1 (Twelver Shi'ism)
+- [ ] `polity/safavid` — ended by conquest in 1736
+
 ## Christopher I. Beckwith, The Tibetan Empire in Central Asia
 
 `beckwith-1987` — 10 claims
@@ -530,33 +887,34 @@ clears one section. Everything below is **unverified until ticked.**
 - [ ] `polity/tibetan-empire` — religions_carried = 1 (Tibetan Buddhism)
 - [ ] `polity/tibetan-empire` — ended by fragmentation in 842
 
-## Warren Treadgold, A History of the Byzantine State and Society
+## Beatrice Forbes Manz, The Rise and Rule of Tamerlane
 
-`treadgold-1997` — 9 claims
+`manz-1989` — 10 claims
 
-- [ ] `chapter/byzantine/01-the-survivor.mdx` — prose: "The empire that lost half of itself and continued"
-- [ ] `edge/sasanian->byzantine` — absorbed remnants of in 651
-- [ ] `polity/byzantine` — span starts 395
-- [ ] `polity/byzantine` — span ends 1453
-- [ ] `polity/byzantine` — capital Constantinople from 395
-- [ ] `polity/byzantine` — founder Arcadius r. 395-408
-- [ ] `polity/byzantine` — peak Basil II r. 976-1025
-- [ ] `polity/byzantine` — last Constantine XI r. 1449-1453
-- [ ] `polity/byzantine` — ended by conquest in 1453
+- [ ] `chapter/timurid/01-amir-not-khan.mdx` — prose: "The man who could not be khan"
+- [ ] `edge/chagatai->timurid` — seceded from in 1370
+- [ ] `edge/ilkhanate->timurid` — absorbed remnants of in 1393
+- [ ] `polity/timurid` — span starts 1370
+- [ ] `polity/timurid` — span ends 1507
+- [ ] `polity/timurid` — capital Samarkand from 1370
+- [ ] `polity/timurid` — founder Timur r. 1370-1405
+- [ ] `polity/timurid` — peak Timur r. 1370-1405
+- [ ] `polity/timurid` — last Badi al-Zaman r. 1506-1507
+- [ ] `polity/timurid` — ended by conquest in 1507
 
-## Rosamond McKitterick, Charlemagne: The Formation of a European Identity
+## Michal Biran, Qaidu and the Rise of the Independent Mongol State in Central Asia
 
-`mckitterick-2008` — 9 claims
+`biran-1997` — 9 claims
 
-- [ ] `chapter/carolingian/01-two-emperors.mdx` — prose: "Two emperors, and an embassy"
-- [ ] `polity/carolingian` — span starts 800
-- [ ] `polity/carolingian` — span ends 888
-- [ ] `polity/carolingian` — capital Aachen from 800
-- [ ] `polity/carolingian` — founder Charlemagne r. 800-814
-- [ ] `polity/carolingian` — peak Charlemagne r. 800-814
-- [ ] `polity/carolingian` — last Charles the Fat r. 881-887
-- [ ] `polity/carolingian` — religions_carried = 1 (Latin Christianity)
-- [ ] `polity/carolingian` — ended by fragmentation in 888
+- [ ] `chapter/chagatai/01-the-poorest-khanate.mdx` — prose: "The khanate that stayed on the steppe"
+- [ ] `edge/mongol->chagatai` — partitioned from in 1226
+- [ ] `polity/chagatai` — span starts 1226
+- [ ] `polity/chagatai` — span ends 1347
+- [ ] `polity/chagatai` — capital Almaliq from 1226
+- [ ] `polity/chagatai` — founder Chagatai Khan r. 1226-1242
+- [ ] `polity/chagatai` — peak Kebek r. 1309-1325
+- [ ] `polity/chagatai` — last Qazan r. 1343-1347
+- [ ] `polity/chagatai` — ended by fragmentation in 1347
 
 ## Hugh Kennedy, Muslim Spain and Portugal: A Political History of al-Andalus
 
@@ -600,6 +958,20 @@ clears one section. Everything below is **unverified until ticked.**
 - [ ] `polity/ghaznavid` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/samanid` — successor_claims = 1 (ghaznavid)
 
+## Denis Twitchett and Michael Loewe (eds), The Cambridge History of China, Volume 1: The Ch'in and Han Empires, 221 BC-AD 220
+
+`loewe-twitchett-1986` — 9 claims
+
+- [ ] `chapter/han/01-han.mdx` — prose: "Four centuries, and a road west"
+- [ ] `polity/han` — span starts -202
+- [ ] `polity/han` — span ends 220
+- [ ] `polity/han` — capital Chang'an from -202
+- [ ] `polity/han` — founder Emperor Gaozu r. -202--195
+- [ ] `polity/han` — peak Emperor Wu r. -141--87
+- [ ] `polity/han` — last Emperor Xian r. 189-220
+- [ ] `polity/han` — descendant_scripts = 1 (Clerical script)
+- [ ] `polity/han` — ended by fragmentation in 220
+
 ## Nehemia Levtzion, Ancient Ghana and Mali
 
 `levtzion-1973` — 9 claims
@@ -613,20 +985,6 @@ clears one section. Everything below is **unverified until ticked.**
 - [ ] `polity/mali` — last Mahmud IV r. 1590-1610
 - [ ] `polity/mali` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/mali` — ended by fragmentation in 1670
-
-## Kenneth R. Hall, A History of Early Southeast Asia: Maritime Trade and Societal Development, 100-1500
-
-`hall-2011` — 9 claims
-
-- [ ] `chapter/srivijaya/01-the-straits.mdx` — prose: "Power over a passage"
-- [ ] `polity/srivijaya` — span starts 671
-- [ ] `polity/srivijaya` — span ends 1275
-- [ ] `polity/srivijaya` — capital Palembang from 671
-- [ ] `polity/srivijaya` — founder Dapunta Hyang Sri Jayanasa r. 671-702
-- [ ] `polity/srivijaya` — peak Balaputradewa r. 835-860
-- [ ] `polity/srivijaya` — last Unknown r. 1275-1275
-- [ ] `polity/srivijaya` — religions_carried = 1 (Mahayana Buddhism)
-- [ ] `polity/srivijaya` — ended by gradual absorption in 1275
 
 ## C. E. Bosworth, TAHERIDS
 *In Encyclopaedia Iranica.*
@@ -644,6 +1002,20 @@ clears one section. Everything below is **unverified until ticked.**
 - [ ] `polity/tahirid` — successor_claims = 0
 - [ ] `polity/tahirid` — ended by conquest in 873
 
+## Nicola Di Cosmo, Ancient China and Its Enemies: The Rise of Nomadic Power in East Asian History
+
+`di-cosmo-2002` — 9 claims
+
+- [ ] `chapter/xiongnu/01-xiongnu.mdx` — prose: "The first confederation"
+- [ ] `edge/xiongnu->gokturk` — absorbed remnants of in 552
+- [ ] `polity/xiongnu` — span starts -209
+- [ ] `polity/xiongnu` — span ends 91
+- [ ] `polity/xiongnu` — capital Longcheng from -209
+- [ ] `polity/xiongnu` — founder Modu Chanyu r. -209--174
+- [ ] `polity/xiongnu` — peak Modu Chanyu r. -209--174
+- [ ] `polity/xiongnu` — last Unknown r. 91-91
+- [ ] `polity/xiongnu` — ended by fragmentation in 91
+
 ## Heinz Halm, The Empire of the Mahdi: The Rise of the Fatimids
 
 `halm-1996` — 8 claims
@@ -657,6 +1029,19 @@ clears one section. Everything below is **unverified until ticked.**
 - [ ] `polity/fatimid` — founder Abd Allah al-Mahdi r. 909-934
 - [ ] `polity/rustamid` — ended by conquest in 909
 
+## Ian Shaw (ed.), The Oxford History of Ancient Egypt
+
+`shaw-2000` — 8 claims
+
+- [ ] `chapter/egypt-new-kingdom/01-egypt-new-kingdom.mdx` — prose: "A great power among great powers"
+- [ ] `polity/egypt-new-kingdom` — span starts -1550
+- [ ] `polity/egypt-new-kingdom` — span ends -1077
+- [ ] `polity/egypt-new-kingdom` — capital Thebes from -1550
+- [ ] `polity/egypt-new-kingdom` — founder Ahmose I r. -1550--1525
+- [ ] `polity/egypt-new-kingdom` — peak Thutmose III r. -1479--1425
+- [ ] `polity/egypt-new-kingdom` — last Ramesses XI r. -1107--1077
+- [ ] `polity/egypt-new-kingdom` — ended by fragmentation in -1077
+
 ## C. E. Bosworth, The Later Ghaznavids: Splendour and Decay. The Dynasty in Afghanistan and Northern India, 1040-1186
 
 `bosworth-1977` — 8 claims
@@ -669,19 +1054,6 @@ clears one section. Everything below is **unverified until ticked.**
 - [ ] `polity/ghaznavid` — last Khusrau Malik r. 1160-1186
 - [ ] `polity/ghaznavid` — successor_claims = 0
 - [ ] `polity/ghaznavid` — ended by conquest in 1186
-
-## Touraj Daryaee, Sasanian Persia: The Rise and Fall of an Empire
-
-`daryaee-2009` — 8 claims
-
-- [ ] `chapter/sasanian/01-ardashir.mdx` — prose: "A vassal takes the crown"
-- [ ] `chapter/sasanian/03-collapse.mdx` — prose: "Twenty-six years, then eight"
-- [ ] `polity/sasanian` — span starts 224
-- [ ] `polity/sasanian` — span ends 651
-- [ ] `polity/sasanian` — capital Ctesiphon from 224
-- [ ] `polity/sasanian` — founder Ardashir I r. 224-242
-- [ ] `polity/sasanian` — last Yazdegerd III r. 632-651
-- [ ] `polity/sasanian` — religions_carried = 1 (Zoroastrianism)
 
 ## Mark Edward Lewis, China's Cosmopolitan Empire: The Tang Dynasty
 
@@ -721,16 +1093,6 @@ clears one section. Everything below is **unverified until ticked.**
 - [ ] `polity/saffarid` — capital Zarang from 861
 - [ ] `polity/saffarid` — descendant_scripts = 0
 - [ ] `polity/saffarid` — religions_carried = 0
-
-## Tayeb El-Hibri, The Abbasid Caliphate: A History
-
-`el-hibri-2021` — 5 claims
-
-- [ ] `chapter/abbasid/02-harun.mdx` — prose: "Harun al-Rashid, and what came after him"
-- [ ] `chapter/abbasid/03-samarra.mdx` — prose: "The soldiers at Samarra"
-- [ ] `edge/abbasid->mamluk-sultanate` — claimed legitimacy of in 1261
-- [ ] `polity/abbasid` — successor_claims = 1 (Abbasid Caliphate of Cairo)
-- [ ] `polity/mamluk-sultanate` — successor_claims = 1 (Abbasid Caliphate of Cairo)
 
 ## Tilman Nagel and others, AL-E BUYA
 *In Encyclopaedia Iranica.*
@@ -776,6 +1138,15 @@ clears one section. Everything below is **unverified until ticked.**
 - [ ] `polity/rashidun` — religions_carried = 1 (Islam)
 - [ ] `polity/sasanian` — ended by conquest in 651
 
+## Tayeb El-Hibri, The Abbasid Caliphate: A History
+
+`el-hibri-2021` — 4 claims
+
+- [ ] `chapter/abbasid/02-harun.mdx` — prose: "Harun al-Rashid, and what came after him"
+- [ ] `chapter/abbasid/03-samarra.mdx` — prose: "The soldiers at Samarra"
+- [ ] `edge/abbasid->mamluk-sultanate` — claimed legitimacy of in 1261
+- [ ] `polity/abbasid` — successor_claims = 1 (Abbasid Caliphate of Cairo)
+
 ## multiple contributors, ABBASID CALIPHATE
 *In Encyclopaedia Iranica.*
 <https://iranicaonline.org/articles/abbasid-caliphate>
@@ -793,6 +1164,14 @@ clears one section. Everything below is **unverified until ticked.**
 - [ ] `denominator/1000` — world population 265,000,000
 - [ ] `denominator/1200` — world population 360,000,000
 - [ ] `denominator/800` — world population 220,000,000
+
+## Rein Taagepera, Size and Duration of Empires: Systematics of Size
+*In Social Science Research 7(2), 108-127.*
+
+`taagepera-1978b` — 2 claims
+
+- [ ] `polity/akkadian` — reach 650,000 km2 at -2300
+- [ ] `reference/akkadian` — reach 650,000 km2 at -2300
 
 ## Mark Whittow, The Making of Orthodox Byzantium, 600-1025
 
@@ -817,22 +1196,8 @@ clears one section. Everything below is **unverified until ticked.**
 - [ ] `chapter/mongol/03-division.mdx` — prose: "An empire that divided itself"
 - [ ] `polity/mongol` — span end upper bound 1368
 
-## Ehsan Yarshater (ed.), The Cambridge History of Iran, Volume 3: The Seleucid, Parthian and Sasanian Periods
-
-`chi-3` — 2 claims
-
-- [ ] `chapter/sasanian/02-khusrau.mdx` — prose: "Khusrau's reforms, and Rome"
-- [ ] `polity/sasanian` — peak Khusrau I Anushirvan r. 531-579
-
 ## Denis Twitchett (ed.), The Cambridge History of China, Volume 3: Sui and T'ang China, 589-906, Part 1
 
 `twitchett-1979` — 1 claims
 
 - [ ] `polity/tang` — ended by fragmentation in 907
-
-## Rein Taagepera, Size and Duration of Empires: Systematics of Size
-*In Social Science Research 7(2), 108-127.*
-
-`taagepera-1978b` — 1 claims
-
-- [ ] `reference/akkadian` — reach 650,000 km2 at -2300
