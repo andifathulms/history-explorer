@@ -1,5 +1,6 @@
 # Context polity: edge target only, no chapters in v1.
 id: karakhanid
+region: iranian-intermezzo
 context_only: true
 
 name:

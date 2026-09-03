@@ -1,0 +1,20 @@
+# Regions group polities for browsing, and give a continuity thread its scope.
+#
+# A region is a browsing convenience and the boundary of a succession thread. It
+# is NOT a claim that the polities inside it were one civilisation, one people,
+# or one story.
+#
+# Crucially, a region need not carry a thread at all. Succession is a property
+# that some polities have and others do not: a polity that seceded from nothing
+# and was inherited by nobody still gets a page, still enters the rankings, and
+# simply has no thread to stand in. `thread: false` is an ordinary, expected
+# state, not an unfinished one — see PRD section 3.
+regions:
+  - id: iranian-intermezzo
+    name: The Iranian Intermezzo
+    blurb: >-
+      The Persianate dynasties between the fading of direct Abbasid rule and the
+      Mongol arrival — Khurasan, Transoxiana and the Iranian plateau. Dense with
+      succession: slave-generals taking their masters' provinces, vassals
+      swallowing overlords, governors inheriting the empire that appointed them.
+    thread: true

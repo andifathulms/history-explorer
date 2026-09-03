@@ -22,6 +22,7 @@ import {
   type Edge,
   type Polity,
   type ReferencePolity,
+  type Region,
   type Source,
   type WorldDenominator,
 } from './types.ts'
@@ -44,7 +45,9 @@ class ContentError extends Error {
 let cache: Corpus | null = null
 
 export interface Corpus {
-  /** Polities with chapters. The eight the site claims to have read. */
+  /** Browsing groups, and the scope of each continuity thread. */
+  regions: Region[]
+  /** Polities with chapters. The ones the site claims to have read. */
   narrative: Polity[]
   /** Edge targets and timeline presences with no chapters in v1. */
   context: Polity[]
@@ -72,6 +75,12 @@ export function loadCorpus(): Corpus {
     if (!sources.has(id)) {
       throw new ContentError(where, `source "${id}" is not in sources.yaml`)
     }
+  }
+
+  const regions = readYaml<{ regions: Region[] }>('regions.yaml').regions
+  const regionIds = new Set(regions.map((r) => r.id))
+  if (regionIds.size !== regions.length) {
+    throw new ContentError('regions.yaml', 'duplicate region id')
   }
 
   const refFile = readYaml<{
@@ -105,6 +114,10 @@ export function loadCorpus(): Corpus {
     ) as Polity
 
     if (p.id !== id) throw new ContentError(where, `id "${p.id}" does not match its directory`)
+    if (!p.region) throw new ContentError(where, 'every polity names a region')
+    if (!regionIds.has(p.region)) {
+      throw new ContentError(where, `region "${p.region}" is not in regions.yaml`)
+    }
 
     requireSource(p.span?.start?.source, where)
     requireSource(p.span?.start?.max_source, where)
@@ -212,10 +225,25 @@ export function loadCorpus(): Corpus {
     if (!e.note?.trim()) throw new ContentError(where, 'an edge must explain itself')
   })
 
+  // A region only claims a thread if its polities are actually joined. Without
+  // this, `thread: true` on an unconnected region would render an empty spine
+  // and quietly imply a continuity nobody sourced.
+  for (const r of regions.filter((x) => x.thread)) {
+    const inRegion = new Set(all.filter((p) => p.region === r.id).map((p) => p.id))
+    const joined = edges.some((e) => inRegion.has(e.from) && inRegion.has(e.to))
+    if (!joined) {
+      throw new ContentError(
+        `regions.yaml/${r.id}`,
+        'claims thread: true but no edge joins two of its polities; use thread: false',
+      )
+    }
+  }
+
   const narrative = all.filter((p) => !p.context_only).sort((a, b) => a.span.start.min - b.span.start.min)
   const context = all.filter((p) => p.context_only)
 
   cache = {
+    regions,
     narrative,
     context,
     all: [...narrative, ...context],
@@ -280,4 +308,38 @@ export function citeShort(id: string): string {
   const author = s.author ? `${s.author.split(' ').slice(-1)[0]}, ` : ''
   const year = s.year ? ` (${s.year})` : ''
   return `${author}${s.container ?? s.title}${year}`
+}
+
+// ---------------------------------------------------------------------------
+// Regions
+// ---------------------------------------------------------------------------
+
+export function getRegion(id: string): Region | undefined {
+  return loadCorpus().regions.find((r) => r.id === id)
+}
+
+/** Everything in a region, narrative and context alike, in date order. */
+export function politiesInRegion(id: string): Polity[] {
+  return loadCorpus()
+    .all.filter((p) => p.region === id)
+    .sort((a, b) => a.span.start.min - b.span.start.min)
+}
+
+/** Edges with both ends inside the region — the ones a thread can draw. */
+export function edgesInRegion(id: string): Edge[] {
+  const ids = new Set(politiesInRegion(id).map((p) => p.id))
+  return loadCorpus().edges.filter((e) => ids.has(e.from) && ids.has(e.to))
+}
+
+/** Regions that can be walked end to end. May legitimately be empty. */
+export function threadedRegions(): Region[] {
+  return loadCorpus().regions.filter((r) => r.thread)
+}
+
+/**
+ * Whether this polity stands in a thread. False is ordinary: a polity that
+ * seceded from nothing and was inherited by nobody is not incomplete.
+ */
+export function inThread(p: Polity): boolean {
+  return getRegion(p.region)?.thread === true
 }

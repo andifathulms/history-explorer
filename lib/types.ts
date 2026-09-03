@@ -5,6 +5,22 @@
 
 export type SourceId = string
 export type PolityId = string
+export type RegionId = string
+
+/**
+ * A grouping for browsing, and the scope of a continuity thread.
+ *
+ * `thread` says whether this region's polities are joined by enough sourced
+ * succession edges to be walked end to end. A region with `thread: false` is
+ * complete and ordinary — succession is a property some polities have, not the
+ * site's organising principle.
+ */
+export interface Region {
+  id: RegionId
+  name: string
+  blurb: string
+  thread: boolean
+}
 
 /** A value that exists only when a source says so. Hard rule 2: no estimates. */
 export interface Cited<T> {
@@ -92,6 +108,8 @@ export interface Measures {
 
 export interface Polity {
   id: PolityId
+  /** Which region groups this polity, and whose thread it may stand in. */
+  region: RegionId
   name: { latin: string; script: string | null; script_lang: string | null }
   span: Span
   identity: string
