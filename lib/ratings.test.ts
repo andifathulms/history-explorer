@@ -1,0 +1,163 @@
+/**
+ * Run with: npm test
+ *
+ * These guard the two properties the PRD states as requirements rather than
+ * preferences. If either breaks, the app is publishing a false comparison.
+ */
+import { test } from 'node:test'
+import assert from 'node:assert/strict'
+import {
+  buildField,
+  rate,
+  percentile,
+  duration,
+  weightsToQuery,
+  weightsFromQuery,
+  DEFAULT_WEIGHTS,
+  reachValue,
+} from './ratings.ts'
+import { isPresent, renormalise } from './gaps.ts'
+import type { Polity, WorldDenominator } from './types.ts'
+
+const blankInfluence = {
+  descendant_scripts: { count: null, items: [], source: null },
+  religions_carried: { count: null, items: [], source: null },
+  successor_claims: { count: null, items: [], source: null },
+}
+
+function polity(over: Partial<Polity> & { id: string }): Polity {
+  return {
+    name: { latin: over.id, script: null, script_lang: null },
+    span: {
+      start: { min: 900, max: 900, source: 's' },
+      end: { min: 1000, max: 1000, source: 's' },
+    },
+    identity: '',
+    capitals: [],
+    core_region: '',
+    rulers: { founder: null, peak: null, last: null },
+    scripts_and_languages: { administration: [], writing_system: null },
+    ended: null,
+    measures: { reach_km2: null, peak_population: null, influence: blankInfluence },
+    ...over,
+  } as Polity
+}
+
+const denominators: WorldDenominator[] = [
+  {
+    year: 1000,
+    world_population: { value: 265_000_000, source: 'mcevedy-jones-1978' },
+    world_land_under_state_control_km2: null,
+  },
+]
+
+test('a polity missing two axes does not score below one with four', () => {
+  // Documented on every axis it has, but modestly. Four axes available.
+  const documented = polity({
+    id: 'documented',
+    measures: {
+      reach_km2: { value: 1_000_000, at: 1000, source: 's' },
+      peak_population: { value: 5_000_000, at: 1000, source: 's' },
+      influence: {
+        descendant_scripts: { count: 0, items: [], source: 's' },
+        religions_carried: { count: 0, items: [], source: 's' },
+        successor_claims: { count: 0, items: [], source: 's' },
+      },
+    },
+  })
+  // Enormous where it is documented, silent elsewhere. Two axes available.
+  const sparse = polity({
+    id: 'sparse',
+    measures: {
+      reach_km2: { value: 9_000_000, at: 1000, source: 's' },
+      peak_population: null,
+      influence: blankInfluence,
+    },
+  })
+
+  const corpus = [documented, sparse]
+  const field = buildField(corpus, [], 'absolute', denominators)
+  const a = rate(documented, field, DEFAULT_WEIGHTS, 'absolute', denominators)
+  const b = rate(sparse, field, DEFAULT_WEIGHTS, 'absolute', denominators)
+
+  assert.equal(a.axesAvailable, 4)
+  assert.equal(b.axesAvailable, 2)
+  assert.ok(isPresent(a.total) && isPresent(b.total))
+  assert.ok(
+    isPresent(b.total) && isPresent(a.total) && b.total.value > a.total.value,
+    'the sparse polity leads on the axis it has, so it must not be dragged below by its gaps',
+  )
+})
+
+test('a missing axis is excluded from the total, never counted as zero', () => {
+  const p = polity({
+    id: 'p',
+    measures: {
+      reach_km2: { value: 2_000_000, at: 1000, source: 's' },
+      peak_population: null,
+      influence: blankInfluence,
+    },
+  })
+  const field = buildField([p], [], 'absolute', denominators)
+  const r = rate(p, field, DEFAULT_WEIGHTS, 'absolute', denominators)
+  // Sole member of the field, so reach and longevity both sit at the 50th.
+  // A zero-filled demographic or influence axis would pull the total under it.
+  assert.ok(isPresent(r.total))
+  assert.equal(isPresent(r.total) ? Math.round(r.total.value * 100) : -1, 50)
+  assert.equal(r.totalProvenance, 'computed from 2 of 4 axes')
+})
+
+test('era-normalised gaps rather than falling back to the absolute figure', () => {
+  const p = polity({
+    id: 'p',
+    measures: {
+      reach_km2: { value: 2_600_000, at: 1000, source: 's' },
+      peak_population: null,
+      influence: blankInfluence,
+    },
+  })
+  // No land denominator is cited for any year, so reach must gap.
+  const era = reachValue(p, 'era-normalised', denominators)
+  assert.equal(era.present, false)
+  assert.equal(era.present === false ? era.reason : '', 'no-denominator')
+
+  const abs = reachValue(p, 'absolute', denominators)
+  assert.ok(isPresent(abs) && abs.value === 2_600_000)
+})
+
+test('longevity keeps both ends of a contested span', () => {
+  const p = polity({
+    id: 'p',
+    span: {
+      start: { min: 819, max: 819, source: 's' },
+      end: { min: 999, max: 1005, source: 's' },
+    },
+  })
+  assert.deepEqual(duration(p), { min: 180, max: 186 })
+})
+
+test('renormalise refuses to invent a total when nothing is present', () => {
+  assert.equal(renormalise([1, 1, 1], [false, false, false]), null)
+  assert.deepEqual(renormalise([1, 1, 2], [true, false, true]), [1 / 3, 0, 2 / 3])
+})
+
+test('ties percentile identically', () => {
+  assert.equal(percentile(5, [5, 5, 5, 5]), 0.5)
+  assert.equal(percentile(9, [1, 2, 3]), 1)
+  assert.equal(percentile(0, [1, 2, 3]), 0)
+})
+
+test('reader weights survive a round trip through the query string', () => {
+  const w = {
+    ...DEFAULT_WEIGHTS,
+    reach: 0.7,
+    longevity: 0.1,
+    demographic: 0.1,
+    influence: 0.1,
+    influenceMix: { scripts: 0.25, religions: 0.5, claims: 1 },
+  }
+  const back = weightsFromQuery(weightsToQuery(w, 'era-normalised'))
+  assert.equal(back.scale, 'era-normalised')
+  assert.equal(back.weights.reach, 0.7)
+  assert.equal(back.weights.influenceMix.religions, 0.5)
+})
