@@ -191,10 +191,16 @@ export function loadCorpus(): Corpus {
       }
     })
 
-    if (!p.context_only && list.length === 0) {
+    // PRD section 5 says 2-8 chapters. The floor is enforced because a
+    // one-chapter page is what a batch import leaves behind, and it renders as
+    // a finished polity rather than a stub — the reader cannot tell the
+    // difference, which is the problem. Mark it context_only if it has none.
+    const MIN_CHAPTERS = 2
+    if (!p.context_only && list.length < MIN_CHAPTERS) {
       throw new ContentError(
         `polities/${id}`,
-        'a narrative polity needs at least one chapter; mark it context_only if it has none',
+        `a narrative polity needs at least ${MIN_CHAPTERS} chapters (has ${list.length}); ` +
+          'mark it context_only if it has none',
       )
     }
     if (p.context_only && list.length > 0) {
