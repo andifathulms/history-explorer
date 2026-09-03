@@ -1,0 +1,48 @@
+id: idrisid
+region: islamic-west
+
+name:
+  latin: Idrisid Dynasty
+  script: الأدارسة
+  script_lang: ar
+
+span:
+  start: { min: 788, max: 788, source: abun-nasr-1987 }
+  end: { min: 974, max: 974, source: abun-nasr-1987 }
+
+identity: >-
+  The first Alid state in the Maghreb, founded by a fugitive from a failed
+  rising near Mecca.
+
+capitals:
+  - { name: Fez, script: فاس, from: 788, source: abun-nasr-1987 }
+
+core_region: Northern Morocco
+
+rulers:
+  founder: { name: Idris I, reign: [788, 791], source: abun-nasr-1987 }
+  peak: { name: Idris II, reign: [803, 828], source: abun-nasr-1987 }
+  last: { name: al-Hasan al-Hajjam, reign: [970, 974], source: abun-nasr-1987 }
+
+scripts_and_languages:
+  administration: [Arabic]
+  writing_system: Arabic
+
+ended:
+  type: gradual absorption
+  by: [fatimid, cordoba]
+  year: 974
+  source: abun-nasr-1987
+
+measures:
+  # No cited km2 for this polity in the works consulted; Taagepera does not
+  # tabulate it separately. The axis is empty rather than borrowed.
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried:
+      count: 1
+      items: [Sunni Islam]
+      source: abun-nasr-1987
+    successor_claims: { count: null, items: [], source: null }

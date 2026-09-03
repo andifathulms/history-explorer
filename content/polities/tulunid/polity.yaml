@@ -1,0 +1,45 @@
+id: tulunid
+region: central-lands
+
+name:
+  latin: Tulunid Emirate
+  script: الطولونيون
+  script_lang: ar
+
+span:
+  start: { min: 868, max: 868, source: petry-1998 }
+  end: { min: 905, max: 905, source: petry-1998 }
+
+identity: >-
+  The first dynasty to rule Egypt as an autonomous state since the conquest,
+  founded by a Turkish officer sent to govern it.
+
+capitals:
+  - { name: Fustat, script: الفسطاط, from: 868, source: petry-1998 }
+
+core_region: Egypt and southern Syria
+
+rulers:
+  founder: { name: Ahmad ibn Tulun, reign: [868, 884], source: petry-1998 }
+  peak: { name: Ahmad ibn Tulun, reign: [868, 884], source: petry-1998 }
+  last: { name: Shayban ibn Ahmad, reign: [905, 905], source: petry-1998 }
+
+scripts_and_languages:
+  administration: [Arabic]
+  writing_system: Arabic
+
+ended:
+  type: conquest
+  by: [abbasid]
+  year: 905
+  source: petry-1998
+
+measures:
+  # No cited km2 for this polity in the works consulted; Taagepera does not
+  # tabulate it separately. The axis is empty rather than borrowed.
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

@@ -1,0 +1,45 @@
+id: rustamid
+region: islamic-west
+
+name:
+  latin: Rustamid Imamate
+  script: الرستميون
+  script_lang: ar
+
+span:
+  start: { min: 776, max: 776, source: abun-nasr-1987 }
+  end: { min: 909, max: 909, source: abun-nasr-1987 }
+
+identity: >-
+  An Ibadi Kharijite imamate in the central Maghreb, elected rather than
+  inherited, and the longest-lived Kharijite state.
+
+capitals:
+  - { name: Tahert, script: تاهرت, from: 776, source: abun-nasr-1987 }
+
+core_region: The central Maghreb
+
+rulers:
+  founder: { name: Abd al-Rahman ibn Rustam, reign: [776, 788], source: abun-nasr-1987 }
+  peak: { name: Aflah ibn Abd al-Wahhab, reign: [823, 872], source: abun-nasr-1987 }
+  last: { name: Yaqzan ibn Muhammad, reign: [894, 909], source: abun-nasr-1987 }
+
+scripts_and_languages:
+  administration: [Arabic]
+  writing_system: Arabic
+
+ended:
+  type: conquest
+  by: [fatimid]
+  year: 909
+  source: halm-1996
+
+measures:
+  # No cited km2 for this polity in the works consulted; Taagepera does not
+  # tabulate it separately. The axis is empty rather than borrowed.
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

@@ -56,7 +56,7 @@ regions:
       The Maghreb and al-Andalus — the provinces that left the caliphate
       earliest and stayed gone, and the Berber empires that later ruled both
       shores of the strait.
-    thread: false
+    thread: true
 
   - id: central-lands
     name: Egypt, Syria and the Jazira
@@ -64,7 +64,7 @@ regions:
       The provinces closest to Baghdad, and therefore the ones whose autonomy
       mattered most: Egypt's grain, Syria's frontier with Byzantium, and the
       Jazira between them.
-    thread: false
+    thread: true
 
   - id: anatolia
     name: Anatolia

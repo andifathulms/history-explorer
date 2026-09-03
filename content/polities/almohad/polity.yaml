@@ -1,0 +1,43 @@
+id: almohad
+region: islamic-west
+
+name:
+  latin: Almohad Caliphate
+  script: الموحدون
+  script_lang: ar
+
+span:
+  start: { min: 1121, max: 1121, source: bennison-2016 }
+  end: { min: 1269, max: 1269, source: bennison-2016 }
+
+identity: >-
+  A Berber religious movement that declared its founder the mahdi, took the
+  caliphal title, and ruled the whole Maghreb and al-Andalus.
+
+capitals:
+  - { name: Marrakesh, script: مراكش, from: 1147, source: bennison-2016 }
+
+core_region: The Maghreb and al-Andalus
+
+rulers:
+  founder: { name: Ibn Tumart, reign: [1121, 1130], source: bennison-2016 }
+  peak: { name: Abu Yusuf Ya'qub al-Mansur, reign: [1184, 1199], source: bennison-2016 }
+  last: { name: Idris II al-Wathiq, reign: [1266, 1269], source: bennison-2016 }
+
+scripts_and_languages:
+  administration: [Arabic, Berber]
+  writing_system: Arabic
+
+ended:
+  type: fragmentation
+  by: []
+  year: 1269
+  source: bennison-2016
+
+measures:
+  reach_km2: { value: 2300000, at: 1200, source: taagepera-1997 }
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

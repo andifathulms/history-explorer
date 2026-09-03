@@ -1,0 +1,45 @@
+id: hamdanid
+region: central-lands
+
+name:
+  latin: Hamdanid Dynasty
+  script: الحمدانيون
+  script_lang: ar
+
+span:
+  start: { min: 890, max: 890, source: kennedy-2004 }
+  end: { min: 1004, max: 1004, source: kennedy-2004 }
+
+identity: >-
+  An Arab dynasty of the Jazira whose Aleppo branch fought Byzantium on the
+  frontier and kept the most celebrated court of the century.
+
+capitals:
+  - { name: Aleppo, script: حلب, from: 890, source: kennedy-2004 }
+
+core_region: The Jazira and northern Syria
+
+rulers:
+  founder: { name: Hamdan ibn Hamdun, reign: [890, 895], source: kennedy-2004 }
+  peak: { name: Sayf al-Dawla, reign: [945, 967], source: kennedy-2004 }
+  last: { name: Sa'd al-Dawla, reign: [967, 991], source: kennedy-2004 }
+
+scripts_and_languages:
+  administration: [Arabic]
+  writing_system: Arabic
+
+ended:
+  type: gradual absorption
+  by: [fatimid]
+  year: 1004
+  source: kennedy-2004
+
+measures:
+  # No cited km2 for this polity in the works consulted; Taagepera does not
+  # tabulate it separately. The axis is empty rather than borrowed.
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

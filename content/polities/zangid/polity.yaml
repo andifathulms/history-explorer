@@ -1,0 +1,48 @@
+id: zangid
+region: central-lands
+
+name:
+  latin: Zangid Dynasty
+  script: الزنكيون
+  script_lang: ar
+
+span:
+  start: { min: 1127, max: 1127, source: hillenbrand-1999 }
+  end: { min: 1250, max: 1250, source: hillenbrand-1999 }
+
+identity: >-
+  The Turkish atabegs of Mosul and Aleppo who made the counter-crusade a
+  programme rather than a series of raids.
+
+capitals:
+  - { name: Aleppo, script: حلب, from: 1127, source: hillenbrand-1999 }
+
+core_region: The Jazira and northern Syria
+
+rulers:
+  founder: { name: Imad al-Din Zangi, reign: [1127, 1146], source: hillenbrand-1999 }
+  peak: { name: Nur al-Din, reign: [1146, 1174], source: hillenbrand-1999 }
+  last: { name: Mahmud al-Qahir, reign: [1219, 1233], source: hillenbrand-1999 }
+
+scripts_and_languages:
+  administration: [Arabic]
+  writing_system: Arabic
+
+ended:
+  type: gradual absorption
+  by: [ayyubid]
+  year: 1250
+  source: humphreys-1977
+
+measures:
+  # No cited km2 for this polity in the works consulted; Taagepera does not
+  # tabulate it separately. The axis is empty rather than borrowed.
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried:
+      count: 1
+      items: [Sunni Islam]
+      source: hillenbrand-1999
+    successor_claims: { count: null, items: [], source: null }

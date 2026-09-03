@@ -1,0 +1,45 @@
+id: ikhshidid
+region: central-lands
+
+name:
+  latin: Ikhshidid Emirate
+  script: الإخشيديون
+  script_lang: ar
+
+span:
+  start: { min: 935, max: 935, source: petry-1998 }
+  end: { min: 969, max: 969, source: petry-1998 }
+
+identity: >-
+  The second autonomous Egyptian dynasty, holding Egypt and the holy cities
+  against Fatimid pressure for a generation.
+
+capitals:
+  - { name: Fustat, script: الفسطاط, from: 935, source: petry-1998 }
+
+core_region: Egypt, southern Syria and the Hijaz
+
+rulers:
+  founder: { name: Muhammad ibn Tughj al-Ikhshid, reign: [935, 946], source: petry-1998 }
+  peak: { name: Muhammad ibn Tughj al-Ikhshid, reign: [935, 946], source: petry-1998 }
+  last: { name: Abu al-Fawaris Ahmad, reign: [968, 969], source: petry-1998 }
+
+scripts_and_languages:
+  administration: [Arabic]
+  writing_system: Arabic
+
+ended:
+  type: conquest
+  by: [fatimid]
+  year: 969
+  source: brett-2017
+
+measures:
+  # No cited km2 for this polity in the works consulted; Taagepera does not
+  # tabulate it separately. The axis is empty rather than borrowed.
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

@@ -1,0 +1,48 @@
+id: almoravid
+region: islamic-west
+
+name:
+  latin: Almoravid Empire
+  script: المرابطون
+  script_lang: ar
+
+span:
+  start: { min: 1040, max: 1040, source: bennison-2016 }
+  end: { min: 1147, max: 1147, source: bennison-2016 }
+
+identity: >-
+  A Saharan Berber movement that took Morocco and then al-Andalus, and put
+  both shores of the strait under one ruler for the first time.
+
+capitals:
+  - { name: Marrakesh, script: مراكش, from: 1040, source: bennison-2016 }
+
+core_region: Morocco and al-Andalus
+
+rulers:
+  founder: { name: Abd Allah ibn Yasin, reign: [1040, 1059], source: bennison-2016 }
+  peak: { name: Yusuf ibn Tashfin, reign: [1061, 1106], source: bennison-2016 }
+  last: { name: Ishaq ibn Ali, reign: [1146, 1147], source: bennison-2016 }
+
+scripts_and_languages:
+  administration: [Arabic]
+  writing_system: Arabic
+
+ended:
+  type: conquest
+  by: [almohad]
+  year: 1147
+  source: bennison-2016
+
+measures:
+  # No cited km2 for this polity in the works consulted; Taagepera does not
+  # tabulate it separately. The axis is empty rather than borrowed.
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried:
+      count: 1
+      items: [Sunni Islam]
+      source: bennison-2016
+    successor_claims: { count: null, items: [], source: null }

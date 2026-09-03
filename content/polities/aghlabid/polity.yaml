@@ -1,0 +1,48 @@
+id: aghlabid
+region: islamic-west
+
+name:
+  latin: Aghlabid Emirate
+  script: الأغالبة
+  script_lang: ar
+
+span:
+  start: { min: 800, max: 800, source: abun-nasr-1987 }
+  end: { min: 909, max: 909, source: abun-nasr-1987 }
+
+identity: >-
+  The hereditary governorship of Ifriqiya that Harun al-Rashid traded for
+  tribute, and the fleet that took Sicily.
+
+capitals:
+  - { name: Kairouan, script: القيروان, from: 800, source: abun-nasr-1987 }
+
+core_region: Ifriqiya and Sicily
+
+rulers:
+  founder: { name: Ibrahim I ibn al-Aghlab, reign: [800, 812], source: abun-nasr-1987 }
+  peak: { name: Ziyadat Allah I, reign: [817, 838], source: abun-nasr-1987 }
+  last: { name: Ziyadat Allah III, reign: [903, 909], source: abun-nasr-1987 }
+
+scripts_and_languages:
+  administration: [Arabic]
+  writing_system: Arabic
+
+ended:
+  type: conquest
+  by: [fatimid]
+  year: 909
+  source: halm-1996
+
+measures:
+  # No cited km2 for this polity in the works consulted; Taagepera does not
+  # tabulate it separately. The axis is empty rather than borrowed.
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried:
+      count: 1
+      items: [Sunni Islam]
+      source: abun-nasr-1987
+    successor_claims: { count: null, items: [], source: null }

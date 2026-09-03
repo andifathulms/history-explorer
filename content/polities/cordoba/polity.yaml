@@ -1,0 +1,43 @@
+id: cordoba
+region: caliphates
+
+name:
+  latin: Umayyad Caliphate of Cordoba
+  script: الخلافة الأموية في الأندلس
+  script_lang: ar
+
+span:
+  start: { min: 756, max: 929, source: kennedy-1996 }
+  end: { min: 1031, max: 1031, source: kennedy-1996 }
+
+identity: >-
+  The Umayyad survivor state in al-Andalus, which ruled as an emirate for
+  173 years and then claimed the caliphal title outright.
+
+capitals:
+  - { name: Cordoba, script: قرطبة, from: 756, source: kennedy-1996 }
+
+core_region: Al-Andalus
+
+rulers:
+  founder: { name: Abd al-Rahman I, reign: [756, 788], source: kennedy-1996 }
+  peak: { name: Abd al-Rahman III, reign: [912, 961], source: kennedy-1996 }
+  last: { name: Hisham III, reign: [1027, 1031], source: kennedy-1996 }
+
+scripts_and_languages:
+  administration: [Arabic]
+  writing_system: Arabic
+
+ended:
+  type: fragmentation
+  by: []
+  year: 1031
+  source: kennedy-1996
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

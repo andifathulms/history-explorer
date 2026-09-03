@@ -319,3 +319,134 @@ edges:
       Khalaf b. Ahmad.
     source: bosworth-1994
     contested: true
+
+  # ---- The Islamic west leaves, and stays gone ----
+
+  - from: umayyad
+    to: cordoba
+    type: claimed legitimacy of
+    year: 929
+    note: "Abd al-Rahman III took the titles caliph and amir al-mu'minin at
+           Cordoba, asserting that the Umayyad house rather than the Abbasids
+           held the office his ancestors had lost in 750."
+    source: kennedy-1996
+    contested: false
+
+  - from: abbasid
+    to: aghlabid
+    type: vassal of
+    year: 800
+    note: "Harun al-Rashid granted Ifriqiya to Ibrahim ibn al-Aghlab as a
+           hereditary governorship in exchange for tribute and the khutba,
+           the first province converted into a client at the empire's height."
+    source: abun-nasr-1987
+    contested: false
+
+  - from: aghlabid
+    to: fatimid
+    type: overthrew
+    year: 909
+    note: "The Kutama Berber army raised by the Isma'ili missionary Abu Abdallah
+           al-Shi'i destroyed the Aghlabid emirate and delivered Ifriqiya to a
+           caliph who had not yet arrived in it."
+    source: halm-1996
+    contested: false
+
+  - from: rustamid
+    to: fatimid
+    type: conquered by
+    year: 909
+    note: "Tahert was taken by the same Kutama advance, ending the longest-lived
+           Kharijite state."
+    source: halm-1996
+    contested: false
+
+  - from: almoravid
+    to: almohad
+    type: overthrew
+    year: 1147
+    note: "Ibn Tumart's movement declared the Almoravids unbelievers on doctrinal
+           grounds and took Marrakesh, replacing an enforcement of Maliki law
+           with a caliphate founded on a claim to be the mahdi."
+    source: bennison-2016
+    contested: false
+
+  # ---- Egypt, Syria and the Jazira ----
+
+  - from: abbasid
+    to: tulunid
+    type: seceded from
+    year: 868
+    note: "Ahmad ibn Tulun, sent from Samarra as a deputy governor, took control
+           of Egypt's revenue and stopped remitting it, while keeping the
+           caliph's name on the coinage."
+    source: petry-1998
+    contested: false
+
+  - from: tulunid
+    to: ikhshidid
+    type: absorbed remnants of
+    year: 935
+    note: "After thirty years of restored Abbasid rule, Muhammad ibn Tughj
+           reassembled the Tulunid arrangement in Egypt under a new family and
+           an old Central Asian title."
+    source: petry-1998
+    contested: false
+
+  - from: ikhshidid
+    to: fatimid
+    type: conquered by
+    year: 969
+    note: "The Fatimids took Egypt at the fourth attempt, against a divided court
+           and a failed harvest, a year after the death of the eunuch Kafur."
+    source: brett-2017
+    contested: false
+
+  - from: fatimid
+    to: ayyubid
+    type: overthrew
+    year: 1171
+    note: "Saladin, appointed Fatimid vizier as the nephew of a Syrian
+           expeditionary commander, dismantled the Isma'ili establishment and
+           had the khutba in Cairo preached for the Abbasid caliph."
+    source: humphreys-1977
+    contested: false
+
+  - from: zangid
+    to: ayyubid
+    type: absorbed remnants of
+    year: 1174
+    note: "Saladin took Damascus from Nur al-Din's heirs within months of his
+           death, inheriting both the unified Syria and the counter-crusade
+           programme built to use it."
+    source: hillenbrand-1999
+    contested: false
+
+  - from: ayyubid
+    to: mamluk-sultanate
+    type: overthrew
+    year: 1250
+    note: "The Bahriyya regiment of Kipchak slave soldiers defeated a Crusade,
+           then killed the sultan's heir Turanshah and took the sultanate."
+    source: petry-1998
+    contested: false
+
+  - from: abbasid
+    to: mamluk-sultanate
+    type: claimed legitimacy of
+    year: 1261
+    note: "Baybars installed a survivor of the Abbasid house at Cairo as caliph
+           and had himself invested by him, reviving three years after Baghdad
+           an office with no territory and considerable value."
+    source: el-hibri-2021
+    contested: false
+
+  - from: great-seljuk
+    to: rum
+    type: partitioned from
+    year: 1077
+    note: "Suleyman ibn Qutalmish, from a Seljuk line that had lost a succession
+           war against the main house, established himself in the Anatolia
+           opened by Manzikert."
+    source: peacock-yildiz-2013
+    contested: false

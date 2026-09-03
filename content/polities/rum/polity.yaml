@@ -1,0 +1,46 @@
+id: rum
+region: anatolia
+
+name:
+  latin: Sultanate of Rum
+  script: سلجوقيان روم
+  script_lang: fa
+
+span:
+  start: { min: 1077, max: 1077, source: peacock-yildiz-2013 }
+  end: { min: 1308, max: 1308, source: peacock-yildiz-2013 }
+
+identity: >-
+  The Seljuk branch that took Anatolia from Byzantium and outlasted the empire
+  it had seceded from by more than a century.
+
+capitals:
+  - { name: Konya, script: قونیه, from: 1097, source: peacock-yildiz-2013 }
+
+core_region: Anatolia
+
+rulers:
+  founder: { name: Suleyman ibn Qutalmish, reign: [1077, 1086], source: peacock-yildiz-2013 }
+  peak: { name: Ala al-Din Kayqubad I, reign: [1220, 1237], source: peacock-yildiz-2013 }
+  last: { name: Mesud II, reign: [1284, 1308], source: peacock-yildiz-2013 }
+
+scripts_and_languages:
+  administration: [Persian]
+  writing_system: Perso-Arabic
+
+ended:
+  type: gradual absorption
+  by: [ilkhanate]
+  year: 1308
+  source: peacock-yildiz-2013
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried:
+      count: 1
+      items: [Sunni Islam]
+      source: peacock-yildiz-2013
+    successor_claims: { count: null, items: [], source: null }
