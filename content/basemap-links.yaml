@@ -7,17 +7,145 @@
 #
 # `snapshot` is the nearest available snapshot year to the polity's peak, not
 # the peak. The difference is shown in the UI on every map, never in a footnote.
+# BC snapshots carry the dataset's own `bc` prefix.
 #
-# Two polities have no entry at all, and both absences are informative rather
-# than pending work:
+# scripts/trim-basemaps.mjs reads this file to decide what to fetch and what
+# region of each snapshot to keep, so adding a link here and re-running
+# `npm run basemaps` is the whole workflow.
 #
-#   tahirid — the 800 and 900 snapshots show Khurasan inside the Abbasid
-#     Caliphate, because that is what the Tahirids formally were. The dataset is
-#     right and the map correctly has nothing to draw.
-#   ghurid  — no snapshot in this series names the Ghurids. Their imperial
-#     career fell between the 1100 and 1200 snapshots and left no mark on either.
+# Polities with no entry:
+#   akkadian, median, kushan, rashidun, tahirid, ghurid, tulunid, ikhshidid,
+#   hamdanid, rustamid, karakhanid, zangid, ayyubid, rum, jin, majapahit
+#
+# Sixteen polities have no entry because no feature in any nearby snapshot
+# names them. The dataset draws the large states of each period and folds the
+# rest into whichever neighbour formally held the ground: the Tahirids and
+# Rustamids appear inside the Abbasid and Aghlabid polygons, the Ayyubids and
+# Zangids inside their neighbours, the Rashidun inside the Umayyad snapshot
+# that follows them. That is the dataset being right about formal authority,
+# and the map correctly has nothing of its own to draw.
 
 links:
+  - polity: egypt-new-kingdom
+    snapshot: bc1500
+    peak_year: -1450
+    features: [Egypt]
+
+  - polity: neo-assyrian
+    snapshot: bc700
+    peak_year: -670
+    features: [Assyria]
+
+  - polity: achaemenid
+    snapshot: bc500
+    peak_year: -500
+    features: [Achaemenid Empire]
+
+  - polity: macedonian
+    snapshot: bc323
+    peak_year: -323
+    features: [Empire of Alexander]
+
+  - polity: maurya
+    snapshot: bc300
+    peak_year: -250
+    features: [Mauryan Empire]
+
+  - polity: seleucid
+    snapshot: bc300
+    peak_year: -301
+    features: [Seleucid Kingdom]
+
+  - polity: xiongnu
+    snapshot: bc200
+    peak_year: -176
+    features: [Xiongnu]
+
+  - polity: parthian
+    snapshot: bc1
+    peak_year: 1
+    features: [Parthian Empire]
+
+  - polity: han
+    snapshot: 100
+    peak_year: 100
+    features: [Han]
+
+  - polity: roman
+    snapshot: 100
+    peak_year: 117
+    features: [Roman Empire]
+
+  - polity: gupta
+    snapshot: 400
+    peak_year: 400
+    features: [Gupta Empire]
+
+  - polity: sasanian
+    snapshot: 500
+    peak_year: 550
+    features: [Sasanian Empire]
+
+  - polity: byzantine
+    snapshot: 600
+    peak_year: 555
+    features: [Eastern Roman Empire]
+
+  - polity: gokturk
+    snapshot: 600
+    peak_year: 557
+    features: [Göktürks]
+
+  - polity: umayyad
+    snapshot: 700
+    peak_year: 720
+    features: [Umayyad Caliphate]
+
+  - polity: abbasid
+    snapshot: 800
+    peak_year: 800
+    features: [Abbasid Caliphate]
+
+  - polity: tang
+    snapshot: 800
+    peak_year: 715
+    features: [Tang Empire]
+
+  - polity: carolingian
+    snapshot: 800
+    peak_year: 800
+    features: [Carolingian Empire]
+
+  - polity: khazar
+    snapshot: 800
+    peak_year: 850
+    features: [Khazars]
+
+  - polity: tibetan-empire
+    snapshot: 800
+    peak_year: 800
+    features: [Tibetan Empire]
+
+  - polity: uyghur-khaganate
+    snapshot: 800
+    peak_year: 800
+    features: [Ouighurs]
+
+  - polity: aghlabid
+    snapshot: 800
+    peak_year: 850
+    features: [Aghlabid Emirate]
+
+  - polity: idrisid
+    snapshot: 800
+    peak_year: 850
+    features: [Idrisid Caliphate]
+
+  - polity: cordoba
+    snapshot: 900
+    peak_year: 950
+    features: [Emirate of Córdoba]
+
   - polity: samanid
     snapshot: 900
     peak_year: 928
@@ -27,6 +155,21 @@ links:
     snapshot: 900
     peak_year: 880
     features: [Saffarids]
+
+  - polity: liao
+    snapshot: 1000
+    peak_year: 947
+    features: [Liao]
+
+  - polity: fatimid
+    snapshot: 1000
+    peak_year: 969
+    features: [Fatimid Caliphate]
+
+  - polity: srivijaya
+    snapshot: 1000
+    peak_year: 1000
+    features: [Srivijaya Empire]
 
   - polity: buyid
     snapshot: 1000
@@ -38,17 +181,92 @@ links:
     peak_year: 1029
     features: [Ghaznavid Emirate]
 
+  - polity: almoravid
+    snapshot: 1100
+    peak_year: 1100
+    features: [Almoravid dynasty]
+
   - polity: great-seljuk
     snapshot: 1100
     peak_year: 1080
     features: [Seljuk Empire]
+
+  - polity: almohad
+    snapshot: 1200
+    peak_year: 1200
+    features: [Almohad Caliphate]
 
   - polity: khwarazmian
     snapshot: 1200
     peak_year: 1218
     features: [Kwarizm-Shah]
 
-  - polity: abbasid
-    snapshot: 800
-    peak_year: 800
-    features: [Abbasid Caliphate]
+  - polity: mongol
+    snapshot: 1279
+    peak_year: 1270
+    features: [Great Khanate, Ilkhanate, Chagatai Khanate, Khanate of the Golden Horde]
+
+  - polity: chagatai
+    snapshot: 1300
+    peak_year: 1310
+    features: [Chagatai Khanate]
+
+  - polity: delhi-sultanate
+    snapshot: 1300
+    peak_year: 1312
+    features: [Sultanate of Delhi]
+
+  - polity: golden-horde
+    snapshot: 1300
+    peak_year: 1310
+    features: [Khanate of the Golden Horde]
+
+  - polity: ilkhanate
+    snapshot: 1300
+    peak_year: 1310
+    features: [Ilkhanate]
+
+  - polity: yuan
+    snapshot: 1300
+    peak_year: 1310
+    features: [Great Khanate]
+
+  - polity: mamluk-sultanate
+    snapshot: 1400
+    peak_year: 1400
+    features: [Mamluke Sultanate]
+
+  - polity: timurid
+    snapshot: 1400
+    peak_year: 1405
+    features: [Timurid Empire]
+
+  - polity: mali
+    snapshot: 1492
+    peak_year: 1350
+    features: [Mali]
+
+  - polity: ming
+    snapshot: 1492
+    peak_year: 1450
+    features: [Ming Empire]
+
+  - polity: safavid
+    snapshot: 1530
+    peak_year: 1512
+    features: [Safavid Empire]
+
+  - polity: songhai
+    snapshot: 1530
+    peak_year: 1530
+    features: [Songhai]
+
+  - polity: mughal
+    snapshot: 1700
+    peak_year: 1690
+    features: [Mughal Empire]
+
+  - polity: ottoman
+    snapshot: 1700
+    peak_year: 1683
+    features: [Ottoman Empire]

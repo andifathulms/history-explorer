@@ -27,7 +27,10 @@ export interface BasemapProps {
 }
 
 export interface BasemapView {
-  snapshot: number
+  /** The dataset's own tag for the file, e.g. "900" or "bc500". */
+  snapshot: string
+  /** That tag as a signed year, for arithmetic and for display. */
+  snapshotYear: number
   peakYear: number
   /** The polity's own polygons, drawn at reading weight. */
   subject: { d: string; precision: number | null; name: string }[]
@@ -39,9 +42,24 @@ export interface BasemapView {
 
 interface Link {
   polity: string
-  snapshot: number
+  /** YAML gives a number for AD tags and a string for the "bc" ones. */
+  snapshot: string | number
   peak_year: number
   features: string[]
+}
+
+/**
+ * "bc500" -> -500, "900" -> 900.
+ *
+ * The dataset names its pre-Christian files with a bc prefix, so the tag is not
+ * a number and must not be treated as one: subtracting it from a peak year
+ * silently yields NaN, which renders as no drift at all rather than as an
+ * error. That is the worst possible failure for a label whose entire job is to
+ * say how far the polygon is from the peak.
+ */
+function snapshotYear(tag: string | number): number {
+  const s = String(tag)
+  return s.startsWith('bc') ? -Number(s.slice(2)) : Number(s)
 }
 
 let links: Link[] | null = null
@@ -55,14 +73,14 @@ function getLinks(): Link[] {
   return links
 }
 
-const cache = new Map<number, FeatureCollection<Geometry, BasemapProps>>()
+const cache = new Map<string, FeatureCollection<Geometry, BasemapProps>>()
 
-function snapshot(year: number): FeatureCollection<Geometry, BasemapProps> {
-  const hit = cache.get(year)
+function snapshot(tag: string): FeatureCollection<Geometry, BasemapProps> {
+  const hit = cache.get(tag)
   if (hit) return hit
-  const file = path.join(process.cwd(), 'data', 'basemaps', `${year}.json`)
+  const file = path.join(process.cwd(), 'data', 'basemaps', `${tag}.json`)
   const fc = JSON.parse(fs.readFileSync(file, 'utf8')) as FeatureCollection<Geometry, BasemapProps>
-  cache.set(year, fc)
+  cache.set(tag, fc)
   return fc
 }
 
@@ -89,7 +107,7 @@ export function getBasemap(polityId: string, width = 640, height = 380): Basemap
   const link = getLinks().find((l) => l.polity === polityId)
   if (!link) return null
 
-  const fc = snapshot(link.snapshot)
+  const fc = snapshot(String(link.snapshot))
   const wanted = new Set(link.features)
   const subjectFeatures = fc.features.filter((f) => wanted.has(f.properties.NAME))
   if (subjectFeatures.length === 0) return null
@@ -123,5 +141,13 @@ export function getBasemap(polityId: string, width = 640, height = 380): Basemap
     .map((f) => ({ d: toPath(f as Feature) ?? '', name: f.properties.NAME }))
     .filter((c) => c.d)
 
-  return { snapshot: link.snapshot, peakYear: link.peak_year, subject, context, width, height }
+  return {
+    snapshot: String(link.snapshot),
+    snapshotYear: snapshotYear(link.snapshot),
+    peakYear: link.peak_year,
+    subject,
+    context,
+    width,
+    height,
+  }
 }

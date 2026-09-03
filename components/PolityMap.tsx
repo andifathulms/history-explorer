@@ -1,4 +1,5 @@
 import type { Polity } from '@/lib/types'
+import { formatYear } from '@/lib/years'
 import { getBasemap, blurFor } from '@/lib/basemap'
 import { NO_FIGURE, formatKm2 } from '@/lib/gaps'
 
@@ -32,7 +33,7 @@ export function PolityMap({ polity }: { polity: Polity }) {
     )
   }
 
-  const drift = Math.abs(map.snapshot - map.peakYear)
+  const drift = Math.abs(map.snapshotYear - map.peakYear)
 
   return (
     <section aria-labelledby="map-heading" className="mt-14">
@@ -46,7 +47,7 @@ export function PolityMap({ polity }: { polity: Polity }) {
             viewBox={`0 0 ${map.width} ${map.height}`}
             width="100%"
             role="img"
-            aria-label={`${polity.name.latin} on the ${map.snapshot} basemap snapshot`}
+            aria-label={`${polity.name.latin} on the ${formatYear(map.snapshotYear)} basemap snapshot`}
           >
             <defs>
               {[0, 1.5, 4].map((b) => (
@@ -84,11 +85,11 @@ export function PolityMap({ polity }: { polity: Polity }) {
         <div className="text-[15px]">
           {/* Never in a footnote. The polygon is not the peak. */}
           <p className="text-kashi">
-            Snapshot year <span className="font-semibold tabular-nums">{map.snapshot}</span>
+            Snapshot year <span className="font-semibold tabular-nums">{formatYear(map.snapshotYear)}</span>
           </p>
           <p className="mt-1 text-debu-ink">
             This is the nearest available snapshot to the cited peak of{' '}
-            <span className="tabular-nums">{map.peakYear}</span>
+            <span className="tabular-nums">{formatYear(map.peakYear)}</span>
             {drift ? `, ${drift} years away` : ''}. It is not the peak.
           </p>
 

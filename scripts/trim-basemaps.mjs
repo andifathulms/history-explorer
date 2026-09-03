@@ -16,13 +16,22 @@
 import fs from 'node:fs'
 import path from 'node:path'
 
-const SNAPSHOTS = [800, 900, 1000, 1100, 1200]
 const BASE = 'https://raw.githubusercontent.com/aourednik/historical-basemaps/master/geojson'
 const OUT = path.join(process.cwd(), 'data', 'basemaps')
+const LINKS = path.join(process.cwd(), 'content', 'basemap-links.yaml')
 
-// Iran, Transoxiana, Afghanistan and the approaches, with enough margin that
-// neighbouring polities render as context rather than the target floating alone.
-const BBOX = { west: 30, east: 92, south: 18, north: 52 }
+// Which snapshots to fetch, and which features matter in each, is read from
+// content/basemap-links.yaml rather than hardcoded — the links are the claim
+// about which polygon illustrates which polity, and this script should follow
+// them rather than keep a second copy of the same list.
+//
+// The region kept per snapshot used to be a fixed box around Iran, which was
+// right when the corpus was one region. It is computed per snapshot now: the
+// bounding box of that snapshot's own target features, widened by MARGIN so
+// neighbours render as context rather than the target floating alone. A global
+// keep would be about 430 kB per snapshot and this site ships everything in
+// the bundle.
+const MARGIN = 12
 
 const round = (n) => Math.round(n * 100) / 100
 
@@ -55,7 +64,7 @@ function simplifyGeometry(geom) {
   return null
 }
 
-function touchesRegion(geom) {
+function touchesRegion(geom, BBOX) {
   let hit = false
   const walk = (c) => {
     if (hit) return
@@ -69,17 +78,71 @@ function touchesRegion(geom) {
   return hit
 }
 
+/** Bounding box of a geometry, in degrees. */
+function bboxOf(geom, box) {
+  const walk = (c) => {
+    if (typeof c[0] === 'number') {
+      box.west = Math.min(box.west, c[0])
+      box.east = Math.max(box.east, c[0])
+      box.south = Math.min(box.south, c[1])
+      box.north = Math.max(box.north, c[1])
+      return
+    }
+    for (const x of c) walk(x)
+  }
+  walk(geom.coordinates)
+  return box
+}
+
+// Minimal YAML read: this file is a flat list and pulling in a parser for the
+// build scripts is not worth it.
+const linkText = fs.readFileSync(LINKS, 'utf8')
+const wanted = new Map() // snapshot -> Set(feature names)
+{
+  let snapshot = null
+  for (const line of linkText.split('\n')) {
+    const snap = line.match(/^\s*snapshot:\s*(\S+)/)
+    if (snap) snapshot = snap[1].replace(/['"]/g, '')
+    const feats = line.match(/^\s*features:\s*\[(.*)\]/)
+    if (feats && snapshot) {
+      const names = feats[1].split(',').map((n) => n.trim().replace(/^['"]|['"]$/g, ''))
+      if (!wanted.has(snapshot)) wanted.set(snapshot, new Set())
+      for (const n of names) wanted.get(snapshot).add(n)
+    }
+  }
+}
+const SNAPSHOTS = [...wanted.keys()]
+
 fs.mkdirSync(OUT, { recursive: true })
 
+let total = 0
 for (const year of SNAPSHOTS) {
   const res = await fetch(`${BASE}/world_${year}.geojson`)
   if (!res.ok) throw new Error(`world_${year}: HTTP ${res.status}`)
   const world = await res.json()
 
+  // The box this snapshot has to cover: its own targets, plus a margin.
+  const targets = wanted.get(year)
+  const box = { west: 180, east: -180, south: 90, north: -90 }
+  let found = 0
+  for (const f of world.features) {
+    if (f.geometry && targets.has(f.properties?.NAME)) {
+      bboxOf(f.geometry, box)
+      found++
+    }
+  }
+  if (!found) throw new Error(`world_${year}: none of [${[...targets].join(', ')}] found`)
+  const BBOX = {
+    west: box.west - MARGIN,
+    east: box.east + MARGIN,
+    south: box.south - MARGIN,
+    north: box.north + MARGIN,
+  }
+
   const features = []
   for (const f of world.features) {
     if (!f.geometry || !f.properties?.NAME) continue
-    if (!touchesRegion(f.geometry)) continue
+    if (!touchesRegion(f.geometry, BBOX)) continue
     const geometry = simplifyGeometry(f.geometry)
     if (!geometry) continue
     features.push({
@@ -97,8 +160,10 @@ for (const year of SNAPSHOTS) {
   const out = { type: 'FeatureCollection', name: `world_${year}_trimmed`, year, features }
   const file = path.join(OUT, `${year}.json`)
   fs.writeFileSync(file, JSON.stringify(out))
-  const kb = (fs.statSync(file).size / 1024).toFixed(0)
-  console.log(`${year}: ${features.length} features, ${kb} kB`)
+  const kb = fs.statSync(file).size / 1024
+  total += kb
+  console.log(`${year}: ${features.length} features, ${kb.toFixed(0)} kB`)
 }
 
-console.log('\nSource: aourednik/historical-basemaps, CC-BY-4.0.')
+console.log(`\n${SNAPSHOTS.length} snapshots, ${(total / 1024).toFixed(2)} MB total.`)
+console.log('Source: aourednik/historical-basemaps, CC-BY-4.0.')
