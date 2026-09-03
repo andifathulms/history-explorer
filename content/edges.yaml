@@ -1,0 +1,257 @@
+# Every succession edge. This is the core object of the site: the thing that
+# lives between the Wikipedia articles and that no reference work exposes.
+#
+# An edge is a claim about causation and is held to the same sourcing standard
+# as prose. Where scholarship disagrees on the nature of a transition, both
+# edges are recorded and both are marked contested, rather than one being
+# picked. `note` is one sentence and must say what actually happened, not
+# restate the type.
+#
+# Direction: `from` is the earlier polity, `to` is the later one. The type
+# describes what `to` was or did with respect to `from`.
+
+edges:
+  # ---- The caliphate delegates, and keeps delegating ----
+  - from: abbasid
+    to: tahirid
+    type: vassal of
+    year: 821
+    note: >-
+      Tahir b. al-Husayn was made governor of Khurasan as the reward for winning
+      al-Ma'mun's civil war, and his family held the governorship for fifty
+      years without ever formally ceasing to be governors.
+    source: iranica-taherids
+    contested: false
+
+  - from: tahirid
+    to: samanid
+    type: vassal of
+    year: 819
+    note: >-
+      The four grandsons of Saman Khuda received their Transoxianan
+      governorships under Tahirid authority, so the Samanids began as vassals of
+      the vassals.
+    source: bosworth-1996
+    contested: false
+
+  # ---- 873: the Tahirid collapse opens the whole thread ----
+  - from: tahirid
+    to: saffarid
+    type: overthrew
+    year: 873
+    note: >-
+      Ya'qub b. al-Layth took Nishapur and captured Muhammad b. Tahir, having
+      been refused the appointment he had asked Baghdad for and taken the
+      province regardless.
+    source: bosworth-1994
+    contested: false
+
+  - from: saffarid
+    to: samanid
+    type: conquered by
+    year: 900
+    note: >-
+      Isma'il b. Ahmad defeated and captured Amr b. al-Layth at Balkh, after
+      which the caliph transferred the governorship of Khurasan from the
+      Saffarids to the Samanids.
+    source: iranica-samanids
+    contested: false
+
+  # ---- The Samanid slave establishment produces its own successor ----
+  - from: samanid
+    to: ghaznavid
+    type: slave-general of
+    year: 962
+    note: >-
+      Alptigin, a Samanid Turkic slave-general who had backed the losing
+      candidate at Bukhara, withdrew east and seized Ghazna, founding a line
+      that outlasted his masters.
+    source: bosworth-1963
+    contested: false
+
+  - from: samanid
+    to: ghaznavid
+    type: claimed legitimacy of
+    year: 999
+    note: >-
+      After Bukhara fell the Ghaznavids kept Khurasan and presented themselves
+      publicly as the rightful continuation of the Samanid state, inheriting its
+      chancery, its administrative Persian and its slave-soldier system intact.
+    source: bosworth-1963
+    contested: false
+
+  - from: samanid
+    to: karakhanid
+    type: conquered by
+    year: 999
+    note: >-
+      The Karakhanids took Bukhara with little fighting and kept Transoxiana,
+      claiming nothing from the dynasty they had ended.
+    source: iranica-samanids
+    contested: false
+
+  # ---- The Buyids, arriving from outside the Khurasani sequence ----
+  - from: abbasid
+    to: buyid
+    type: vassal of
+    year: 945
+    note: >-
+      Ahmad b. Buya entered Baghdad, took the title amir al-umara and left the
+      caliph on the throne, holding a formal grant for everything he had already
+      taken by force.
+    source: busse-1975
+    contested: false
+
+  # ---- Dandanaqan, and the sultanate changing hands ----
+  - from: ghaznavid
+    to: great-seljuk
+    type: conquered by
+    year: 1040
+    note: >-
+      A Ghaznavid army marched around Khurasan without adequate water broke
+      against the Seljuk Turkmen at Dandanaqan, and the richest province in the
+      eastern Islamic world changed hands in a single engagement.
+    source: bosworth-1968
+    contested: false
+
+  - from: buyid
+    to: great-seljuk
+    type: overthrew
+    year: 1055
+    note: >-
+      Tughril Beg entered Baghdad, arrested al-Malik al-Rahim and received the
+      sultanate from the caliph — the same transaction in the same building as
+      945, with the confession of the incoming power reversed.
+    source: busse-1975
+    contested: false
+
+  # ---- The Ghurids: client house eats overlord ----
+  - from: ghaznavid
+    to: ghurid
+    type: vassal of
+    year: 1011
+    note: >-
+      Mahmud of Ghazna campaigned into Ghur and imposed vassalage on the
+      Shansabani chiefs, whose conversion and political standing both date from
+      that subordination.
+    source: iranica-ghurids
+    contested: false
+
+  - from: ghaznavid
+    to: ghurid
+    type: overthrew
+    year: 1186
+    note: >-
+      Mu'izz al-Din of Ghur took Lahore and ended the line, a hundred and
+      seventy-five years after Ghazna had made his house its client.
+    source: bosworth-1977
+    contested: false
+
+  - from: ghurid
+    to: delhi-sultanate
+    type: slave-general of
+    year: 1206
+    note: >-
+      Mu'izz al-Din died without a son and his Turkish slave-generals kept the
+      Indian conquests; Qutb al-Din Aibak held Delhi and Lahore, and the line
+      that followed him ruled northern India for three centuries.
+    source: jackson-1999
+    contested: false
+
+  # ---- Khwarazm: the appointment that outgrew the appointer ----
+  - from: great-seljuk
+    to: khwarazmian
+    type: vassal of
+    year: 1077
+    note: >-
+      Malik-Shah gave the governorship of Khwarazm to Anushtigin Gharchai, a
+      Turkish slave of the royal household, and the post became hereditary
+      within two generations.
+    source: iranica-khwarazmshahs
+    contested: false
+
+  - from: great-seljuk
+    to: khwarazmian
+    type: overthrew
+    year: 1194
+    note: >-
+      Ala al-Din Tekish killed Tughril III near Rayy, ending the Seljuk
+      sultanate of Iran at the hands of an office the Seljuks had themselves
+      created.
+    source: bosworth-1968
+    contested: false
+
+  - from: great-seljuk
+    to: khwarazmian
+    type: claimed legitimacy of
+    year: 1194
+    note: >-
+      Having extinguished the sultanate, the Khwarazmshahs took its titulature
+      and chancery style and presented their rule as its continuation rather
+      than its replacement.
+    source: bosworth-1968
+    contested: false
+
+  - from: karakhanid
+    to: khwarazmian
+    type: conquered by
+    year: 1212
+    note: >-
+      Ala al-Din Muhammad II took Samarkand and ended the western Karakhanid
+      line, briefly reuniting Transoxiana with Khurasan under one power for the
+      first time since 999.
+    source: ei2-karakhanids
+    contested: false
+
+  - from: ghurid
+    to: khwarazmian
+    type: conquered by
+    year: 1215
+    note: >-
+      Firuzkuh fell to Ala al-Din Muhammad of Khwarazm, nine years after Mu'izz
+      al-Din's death had left the Ghurid state without a centre.
+    source: iranica-ghurids
+    contested: false
+
+  # ---- 1231 ----
+  - from: khwarazmian
+    to: mongol
+    type: conquered by
+    year: 1220
+    note: >-
+      The Mongol invasion reduced Otrar, Bukhara, Samarkand and Gurganj in
+      turn against an army its ruler had chosen to distribute rather than
+      concentrate, and Ala al-Din Muhammad died on a Caspian island with no
+      territory left.
+    source: iranica-khwarazmshahs
+    contested: false
+
+  # ---- Contested: the Saffarid ending ----
+  #
+  # Two readings of the same century, both in the literature, neither of which
+  # this site is in a position to adjudicate. Recorded as two edges, both
+  # marked contested, per PRD section 5. Whether the imperial Saffarid state
+  # ends at Balkh in 901 or the Saffarid polity ends at Mahmud's deposition of
+  # Khalaf in 1003 depends on whether "the Saffarids" names the claimant to
+  # Khurasan or the family that went on ruling Sistan.
+  - from: saffarid
+    to: samanid
+    type: absorbed remnants of
+    year: 901
+    note: >-
+      On one reading the Saffarid state ends with Amr's defeat and the Samanids
+      absorb what was left of it, leaving the Sistani maliks as a local
+      survival rather than a continuation of the same polity.
+    source: iranica-saffarids
+    contested: true
+
+  - from: saffarid
+    to: ghaznavid
+    type: absorbed remnants of
+    year: 1003
+    note: >-
+      On the other reading the Saffarids continue as the maliks of Nimruz for a
+      further century and the dynasty ends only when Mahmud of Ghazna deposes
+      Khalaf b. Ahmad.
+    source: bosworth-1994
+    contested: true
