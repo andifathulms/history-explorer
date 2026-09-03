@@ -66,7 +66,7 @@ export default function Home() {
   return (
     <Page ground="dark" current="Home" wash>
       <main id="main" className="flex-1">
-        <Shell className="pb-6 pt-16 sm:pt-24">
+        <Shell className="pb-4 pt-16 sm:pt-20">
           <p className="kicker text-firuze-bright">A reading site about polities</p>
           <h1 className="mt-6 max-w-[15ch] font-display text-hero font-semibold text-kaghaz">
             What empires were, and what can actually be said about them
@@ -97,7 +97,7 @@ export default function Home() {
           />
         </Shell>
 
-        <Shell className="py-20 sm:py-24">
+        <Shell className="py-16 sm:py-20">
           <h2 className="kicker text-debu-paper">Six ways in</h2>
           <ul className="mt-8 grid gap-px border border-dawat-edge bg-dawat-edge sm:grid-cols-2 lg:grid-cols-3">
             {sections.map((s, i) => (
@@ -129,29 +129,41 @@ export default function Home() {
         </Shell>
 
         <Shell className="pb-24">
-          <div className="border-t border-dawat-edge pt-12">
-            <h2 className="kicker text-debu-paper">What is in it so far</h2>
-            <p className="mt-6 max-w-measure text-[17px] leading-relaxed text-kaghaz/80">
-              {narrative.length} polities across {chapters} chapters
-              {context.length ? `, plus ${context.length} more carried for context` : ''}, in{' '}
-              {regions.length === 1 ? 'one region' : `${regions.length} regions`}
-              {threaded.length ? (
-                <>
-                  {' '}
-                  — {threaded.length} of which
-                  {threaded.length === 1 ? ' carries a thread' : ' carry threads'}
-                </>
-              ) : null}
-              . Every claim resolves to one of {sources.size} listed works. Coverage follows
-              one person&rsquo;s curiosity and makes no attempt at completeness; the{' '}
-              <Link
-                href="/about/"
-                className="link-underline text-firuze-bright"
-              >
-                About page
-              </Link>{' '}
-              says so plainly, along with how the chapters were drafted and what that costs.
-            </p>
+          {/* Two columns, because one paragraph set at reading measure across a
+              1240px shell leaves half the page empty and reads as an
+              afterthought. What the corpus holds on the left, what it does not
+              claim on the right. */}
+          <div className="grid gap-x-16 gap-y-8 border-t border-dawat-edge pt-10 md:grid-cols-2">
+            <div>
+              <h2 className="kicker text-debu-paper">What is in it so far</h2>
+              <p className="mt-5 text-[17px] leading-relaxed text-kaghaz/80">
+                {narrative.length} polities across {chapters} chapters
+                {context.length ? `, plus ${context.length} more carried for context` : ''}, in{' '}
+                {regions.length === 1 ? 'one region' : `${regions.length} regions`}
+                {threaded.length ? (
+                  <>
+                    {' '}
+                    — {threaded.length} of which
+                    {threaded.length === 1 ? ' carries a thread' : ' carry threads'}
+                  </>
+                ) : null}
+                . Every claim resolves to one of {sources.size} listed works, and the build
+                refuses to ship a citation that does not.
+              </p>
+            </div>
+            <div>
+              <h2 className="kicker text-debu-paper">What it does not claim</h2>
+              <p className="mt-5 text-[17px] leading-relaxed text-kaghaz/80">
+                Coverage follows one person&rsquo;s curiosity and makes no attempt at
+                completeness, the regions are browsing groups rather than civilisations,
+                and no ordering here is published as this site&rsquo;s own verdict. The{' '}
+                <Link href="/about/" className="link-underline text-firuze-bright">
+                  About page
+                </Link>{' '}
+                says all of that plainly, along with how the chapters were drafted and what
+                that costs.
+              </p>
+            </div>
           </div>
         </Shell>
       </main>
