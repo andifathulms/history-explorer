@@ -11,7 +11,7 @@ import { displayName, hasPage } from '@/lib/content'
  * hundred and seventy-five years between Ghazna making the Ghurids its client
  * and the Ghurids ending Ghazna.
  */
-function EdgeRow({ edge, other, direction }: { edge: Edge; other: string; direction: 'in' | 'out' }) {
+function EdgeRow({ edge, other }: { edge: Edge; other: string }) {
   const name = displayName(other)
   return (
     <li className="border-t border-kashi/15 py-3 first:border-t-0">
@@ -41,11 +41,9 @@ function EdgeRow({ edge, other, direction }: { edge: Edge; other: string; direct
 export function Position({
   predecessors,
   successors,
-  selfId,
 }: {
   predecessors: Edge[]
   successors: Edge[]
-  selfId: string
 }) {
   return (
     <section aria-labelledby="position-heading" className="mt-10">
@@ -59,7 +57,7 @@ export function Position({
           {predecessors.length ? (
             <ul className="mt-2">
               {predecessors.map((e, i) => (
-                <EdgeRow key={i} edge={e} other={e.from} direction="in" />
+                <EdgeRow key={i} edge={e} other={e.from} />
               ))}
             </ul>
           ) : (
@@ -74,7 +72,7 @@ export function Position({
           {successors.length ? (
             <ul className="mt-2">
               {successors.map((e, i) => (
-                <EdgeRow key={i} edge={e} other={e.to} direction="out" />
+                <EdgeRow key={i} edge={e} other={e.to} />
               ))}
             </ul>
           ) : (

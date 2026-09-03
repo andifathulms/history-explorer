@@ -69,7 +69,10 @@ export function Thread({
           y2={scale.y(scale.last)}
           stroke="currentColor"
           className="thread-line text-firuze"
-          style={{ ['--len' as string]: scale.height }}
+          // The dash length must be the line's own length, not the container's:
+          // an over-long dasharray finishes the draw early and leaves dead time
+          // at the end of the one moment the site animates.
+          style={{ ['--len' as string]: scale.y(scale.last) - scale.y(scale.first) }}
           strokeWidth={2}
           strokeLinecap="round"
         />

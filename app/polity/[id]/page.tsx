@@ -71,7 +71,7 @@ export default function PolityPage({ params }: { params: { id: string } }) {
             <p className="mt-4 max-w-measure text-body">{p.identity}</p>
           </header>
 
-          <Position predecessors={predecessors} successors={successors} selfId={p.id} />
+          <Position predecessors={predecessors} successors={successors} />
 
           <Chapters chapters={chapters} />
 
