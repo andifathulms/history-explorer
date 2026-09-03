@@ -1,0 +1,46 @@
+id: ilkhanate
+region: mongol-world
+
+name:
+  latin: Ilkhanate
+  script: ایلخانان
+  script_lang: fa
+
+span:
+  start: { min: 1256, max: 1256, source: jackson-2017 }
+  end: { min: 1335, max: 1335, source: jackson-2017 }
+
+identity: >-
+  The Mongol successor state in Iran and Iraq, founded by the army that
+  sacked Baghdad and Muslim within two generations of doing it.
+
+capitals:
+  - { name: Tabriz, script: تبریز, from: 1256, source: jackson-2017 }
+
+core_region: Iran, Iraq and the Caucasus
+
+rulers:
+  founder: { name: Hulegu, reign: [1256, 1265], source: jackson-2017 }
+  peak: { name: Ghazan, reign: [1295, 1304], source: jackson-2017 }
+  last: { name: Abu Sa'id, reign: [1316, 1335], source: jackson-2017 }
+
+scripts_and_languages:
+  administration: [Persian, Mongolian]
+  writing_system: Perso-Arabic
+
+ended:
+  type: fragmentation
+  by: []
+  year: 1335
+  source: jackson-2017
+
+measures:
+  reach_km2: { value: 3750000, at: 1310, source: taagepera-1997 }
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried:
+      count: 1
+      items: [Sunni Islam]
+      source: jackson-2017
+    successor_claims: { count: null, items: [], source: null }

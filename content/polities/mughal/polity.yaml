@@ -1,0 +1,43 @@
+id: mughal
+region: indian-sultanates
+
+name:
+  latin: Mughal Empire
+  script: گورکانیان
+  script_lang: fa
+
+span:
+  start: { min: 1526, max: 1526, source: richards-1993 }
+  end: { min: 1857, max: 1857, source: richards-1993 }
+
+identity: >-
+  The Timurid dynasty that took northern India from the Delhi Sultanate and
+  built the most centralised revenue state the subcontinent had seen.
+
+capitals:
+  - { name: Agra, script: آگره, from: 1526, source: richards-1993 }
+
+core_region: The Indo-Gangetic plain and the Deccan
+
+rulers:
+  founder: { name: Babur, reign: [1526, 1530], source: richards-1993 }
+  peak: { name: Akbar, reign: [1556, 1605], source: richards-1993 }
+  last: { name: Bahadur Shah II, reign: [1837, 1857], source: richards-1993 }
+
+scripts_and_languages:
+  administration: [Persian]
+  writing_system: Perso-Arabic
+
+ended:
+  type: conquest
+  by: [british-empire]
+  year: 1857
+  source: richards-1993
+
+measures:
+  reach_km2: { value: 4000000, at: 1690, source: taagepera-1997 }
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

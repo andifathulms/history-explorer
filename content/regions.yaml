@@ -41,14 +41,14 @@ regions:
     blurb: >-
       The largest contiguous land empire ever assembled, and the four
       successor khanates it broke into within two generations of assembling it.
-    thread: false
+    thread: true
 
   - id: indian-sultanates
     name: The Indian Sultanates
     blurb: >-
       Turkic and Afghan rule in northern India, founded by a Ghurid
       slave-general and outlasting every polity that produced it.
-    thread: false
+    thread: true
 
   - id: islamic-west
     name: The Islamic West
@@ -71,7 +71,7 @@ regions:
     blurb: >-
       The Byzantine heartland after Manzikert, ruled by a branch of the Seljuk
       house that outlasted the empire it came from.
-    thread: false
+    thread: true
 
   - id: byzantium-and-the-latin-west
     name: Byzantium and the Latin West

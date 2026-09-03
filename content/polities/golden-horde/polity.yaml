@@ -1,0 +1,46 @@
+id: golden-horde
+region: mongol-world
+
+name:
+  latin: Golden Horde
+  script: Улуг Улус
+  script_lang: tt
+
+span:
+  start: { min: 1242, max: 1242, source: halperin-1985 }
+  end: { min: 1502, max: 1502, source: halperin-1985 }
+
+identity: >-
+  The Jochid khanate of the western steppe, which ruled the Russian
+  principalities at a distance for two and a half centuries.
+
+capitals:
+  - { name: Sarai, script: Sarai, from: 1242, source: halperin-1985 }
+
+core_region: The Pontic-Caspian steppe and the Volga
+
+rulers:
+  founder: { name: Batu Khan, reign: [1242, 1255], source: halperin-1985 }
+  peak: { name: Ozbeg Khan, reign: [1313, 1341], source: halperin-1985 }
+  last: { name: Shaykh Ahmad, reign: [1481, 1502], source: halperin-1985 }
+
+scripts_and_languages:
+  administration: [Kipchak Turkic, Mongolian]
+  writing_system: Uyghur-Mongolian
+
+ended:
+  type: fragmentation
+  by: []
+  year: 1502
+  source: halperin-1985
+
+measures:
+  reach_km2: { value: 6000000, at: 1310, source: taagepera-1997 }
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried:
+      count: 1
+      items: [Sunni Islam]
+      source: halperin-1985
+    successor_claims: { count: null, items: [], source: null }

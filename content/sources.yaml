@@ -407,6 +407,41 @@ sources:
     publisher: Methuen
     year: 1973
 
+  - id: imber-2002
+    kind: book
+    author: Colin Imber
+    title: "The Ottoman Empire, 1300-1650: The Structure of Power"
+    publisher: Palgrave Macmillan
+    year: 2002
+
+  - id: richards-1993
+    kind: book
+    author: John F. Richards
+    title: "The Mughal Empire (The New Cambridge History of India, I.5)"
+    publisher: Cambridge University Press
+    year: 1993
+
+  - id: jackson-2017
+    kind: book
+    author: Peter Jackson
+    title: "The Mongols and the Islamic World: From Conquest to Conversion"
+    publisher: Yale University Press
+    year: 2017
+
+  - id: halperin-1985
+    kind: book
+    author: Charles J. Halperin
+    title: "Russia and the Golden Horde: The Mongol Impact on Medieval Russian History"
+    publisher: Indiana University Press
+    year: 1985
+
+  - id: biran-1997
+    kind: book
+    author: Michal Biran
+    title: "Qaidu and the Rise of the Independent Mongol State in Central Asia"
+    publisher: Curzon Press
+    year: 1997
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors

@@ -500,3 +500,74 @@ edges:
            whose sultans were installed and removed from Tabriz."
     source: peacock-yildiz-2013
     contested: false
+
+  # ---- The Mongol inheritance, and what grew out of it ----
+
+  - from: mongol
+    to: ilkhanate
+    type: partitioned from
+    year: 1256
+    note: "Hulegu was sent west by his brother Mongke and kept Iran and Iraq as
+           an appanage, notionally deputy to a great khan who after 1260 was in
+           China and no longer giving orders."
+    source: jackson-2017
+    contested: false
+
+  - from: mongol
+    to: golden-horde
+    type: partitioned from
+    year: 1242
+    note: "Jochi's line took the western steppe as its share of the patrimony
+           and governed the Rus principalities from Sarai without occupying
+           them."
+    source: halperin-1985
+    contested: false
+
+  - from: mongol
+    to: chagatai
+    type: partitioned from
+    year: 1226
+    note: "Chagatai's inheritance was Transoxiana and the Tarim, containing both
+           the richest cities of Central Asia and the pasture that made settling
+           in them politically impossible."
+    source: biran-1997
+    contested: false
+
+  - from: rum
+    to: ottoman
+    type: absorbed remnants of
+    year: 1299
+    note: "Osman's beylik was one of a dozen principalities that replaced the
+           Sultanate of Rum, and the one placed on the Byzantine frontier rather
+           than among richer Anatolian neighbours."
+    source: imber-2002
+    contested: false
+
+  - from: byzantine
+    to: ottoman
+    type: claimed legitimacy of
+    year: 1453
+    note: "Mehmed II took Constantinople and the title Kayser-i Rum, moved his
+           capital into the city, and kept the Orthodox patriarchate in being
+           under his protection."
+    source: imber-2002
+    contested: false
+
+  - from: mamluk-sultanate
+    to: ottoman
+    type: conquered by
+    year: 1517
+    note: "Selim I took Egypt, Syria and the guardianship of Mecca and Medina,
+           and with them the shadow Abbasid caliph the Mamluks had kept at Cairo
+           since 1261."
+    source: imber-2002
+    contested: false
+
+  - from: delhi-sultanate
+    to: mughal
+    type: conquered by
+    year: 1526
+    note: "Babur, a Timurid prince who had failed to hold Samarkand, beat the
+           last Lodi sultan at Panipat with artillery and a smaller army."
+    source: richards-1993
+    contested: false

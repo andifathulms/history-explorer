@@ -1,0 +1,49 @@
+id: ottoman
+region: anatolia
+
+name:
+  latin: Ottoman Empire
+  script: دولت عليه عثمانیه
+  script_lang: ota
+
+span:
+  start: { min: 1299, max: 1299, source: imber-2002 }
+  end: { min: 1922, max: 1922, source: imber-2002 }
+
+identity: >-
+  The beylik on the Byzantine frontier that took Constantinople, the Arab
+  lands and the caliphal title, and lasted into the twentieth century.
+
+capitals:
+  - { name: Istanbul, script: قسطنطينيه, from: 1299, source: imber-2002 }
+
+core_region: Anatolia, the Balkans and the Arab lands
+
+rulers:
+  founder: { name: Osman I, reign: [1299, 1324], source: imber-2002 }
+  peak: { name: Suleyman I, reign: [1520, 1566], source: imber-2002 }
+  last: { name: Mehmed VI, reign: [1918, 1922], source: imber-2002 }
+
+scripts_and_languages:
+  administration: [Ottoman Turkish]
+  writing_system: Perso-Arabic
+
+ended:
+  type: fragmentation
+  by: []
+  year: 1922
+  source: imber-2002
+
+measures:
+  reach_km2: { value: 5200000, at: 1683, source: taagepera-1997 }
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried:
+      count: 1
+      items: [Sunni Islam]
+      source: imber-2002
+    successor_claims:
+      count: 2
+      items: [Byzantine Empire, Abbasid Caliphate of Cairo]
+      source: imber-2002

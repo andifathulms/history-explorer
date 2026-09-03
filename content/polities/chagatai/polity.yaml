@@ -1,0 +1,43 @@
+id: chagatai
+region: mongol-world
+
+name:
+  latin: Chagatai Khanate
+  script: خانان جغتای
+  script_lang: fa
+
+span:
+  start: { min: 1226, max: 1226, source: biran-1997 }
+  end: { min: 1347, max: 1347, source: biran-1997 }
+
+identity: >-
+  The Mongol khanate of Transoxiana and the Tarim, the poorest of the four
+  and the one that stayed nomadic longest.
+
+capitals:
+  - { name: Almaliq, script: Almaliq, from: 1226, source: biran-1997 }
+
+core_region: Transoxiana and the Tarim basin
+
+rulers:
+  founder: { name: Chagatai Khan, reign: [1226, 1242], source: biran-1997 }
+  peak: { name: Kebek, reign: [1309, 1325], source: biran-1997 }
+  last: { name: Qazan, reign: [1343, 1347], source: biran-1997 }
+
+scripts_and_languages:
+  administration: [Chagatai Turkic, Mongolian]
+  writing_system: Uyghur-Mongolian
+
+ended:
+  type: fragmentation
+  by: []
+  year: 1347
+  source: biran-1997
+
+measures:
+  reach_km2: { value: 3500000, at: 1310, source: taagepera-1997 }
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
