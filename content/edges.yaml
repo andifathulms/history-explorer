@@ -571,3 +571,103 @@ edges:
            last Lodi sultan at Panipat with artillery and a smaller army."
     source: richards-1993
     contested: false
+
+  # ---- After the Mongols ----
+
+  - from: chagatai
+    to: timurid
+    type: seceded from
+    year: 1370
+    note: "Timur rose within the western Chagatai lands and took them, ruling as
+           amir and keeping a Chinggisid puppet khan because he could not
+           legitimately hold the title himself."
+    source: manz-1989
+    contested: false
+
+  - from: ilkhanate
+    to: timurid
+    type: absorbed remnants of
+    year: 1393
+    note: "Timur took the Iranian and Iraqi territories that had fragmented
+           among successor dynasties after the Ilkhanate collapsed in 1335."
+    source: manz-1989
+    contested: false
+
+  - from: timurid
+    to: safavid
+    type: absorbed remnants of
+    year: 1501
+    note: "Isma'il took Tabriz and then the Timurid east, replacing a Turco-Mongol
+           patrimonial order with a state built on a Sufi order's following and
+           an imposed confession."
+    source: newman-2006
+    contested: false
+
+  - from: timurid
+    to: mughal
+    type: claimed legitimacy of
+    year: 1526
+    note: "Babur was Timur's descendant and styled his Indian state on that
+           descent; the dynasty called itself Gurkani, from Timur's own title of
+           royal son-in-law."
+    source: richards-1993
+    contested: false
+
+  - from: mongol
+    to: yuan
+    type: partitioned from
+    year: 1271
+    note: "Kublai won the succession war of 1260, moved the centre of gravity to
+           China and proclaimed a Chinese dynastic name for the eastern share of
+           the patrimony."
+    source: franke-twitchett-1994
+    contested: false
+
+  - from: jin
+    to: yuan
+    type: absorbed remnants of
+    year: 1279
+    note: "The Yuan completed what the campaigns against the Jin had begun,
+           taking the Southern Song in 1279 and ruling all of China for the first
+           time from the steppe."
+    source: franke-twitchett-1994
+    contested: false
+
+  - from: yuan
+    to: ming
+    type: overthrew
+    year: 1368
+    note: "Rebellions across the Yuan south put a former mendicant monk on the
+           throne, and the Mongol court withdrew to the steppe rather than being
+           destroyed in China."
+    source: mote-twitchett-1988
+    contested: false
+
+  - from: srivijaya
+    to: majapahit
+    type: absorbed remnants of
+    year: 1293
+    note: "Javanese power replaced Sumatran as the organiser of the archipelago's
+           sea lanes, using the same oath-bound arrangements with coastal chiefs
+           that Srivijaya had used."
+    source: hall-2011
+    contested: true
+
+  - from: mali
+    to: songhai
+    type: absorbed remnants of
+    year: 1468
+    note: "Songhai rose at Gao as Mali receded and took Timbuktu and Djenne, the
+           cities that carried the middle Niger's scholarship and its trade."
+    source: hunwick-1999
+    contested: false
+
+  - from: abbasid
+    to: songhai
+    type: claimed legitimacy of
+    year: 1496
+    note: "Askia Muhammad obtained recognition as caliph of the Sudan from the
+           shadow Abbasid caliph at Cairo, an office with no territory that was
+           still worth crossing the Sahara for."
+    source: hunwick-1999
+    contested: false

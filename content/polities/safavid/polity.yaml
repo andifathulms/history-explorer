@@ -1,0 +1,47 @@
+id: safavid
+region: later-iran
+
+name:
+  latin: Safavid Empire
+  script: صفویان
+  script_lang: fa
+
+span:
+  start: { min: 1501, max: 1501, source: newman-2006 }
+  end: { min: 1736, max: 1736, source: newman-2006 }
+
+identity: >-
+  The dynasty that imposed Twelver Shi'ism on Iran by decree, and thereby made
+  Iran a distinct thing within the Islamic world.
+
+capitals:
+  - { name: Isfahan, script: اصفهان, from: 1501, source: newman-2006 }
+
+core_region: The Iranian plateau
+
+rulers:
+  founder: { name: Isma'il I, reign: [1501, 1524], source: newman-2006 }
+  peak: { name: Abbas I, reign: [1588, 1629], source: newman-2006 }
+  last: { name: Abbas III, reign: [1732, 1736], source: newman-2006 }
+
+scripts_and_languages:
+  administration: [Persian]
+  writing_system: Perso-Arabic
+
+ended:
+  type: conquest
+  # Nadir Shah and the Afsharids are outside this corpus. Named in the prose.
+  by: []
+  year: 1736
+  source: newman-2006
+
+measures:
+  reach_km2: { value: 2900000, at: 1512, source: taagepera-1997 }
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried:
+      count: 1
+      items: [Twelver Shi'ism]
+      source: newman-2006
+    successor_claims: { count: null, items: [], source: null }

@@ -1,0 +1,43 @@
+id: ming
+region: east-asia
+
+name:
+  latin: Ming Empire
+  script: 大明
+  script_lang: zh
+
+span:
+  start: { min: 1368, max: 1368, source: mote-twitchett-1988 }
+  end: { min: 1644, max: 1644, source: mote-twitchett-1988 }
+
+identity: >-
+  The dynasty that expelled the Mongols, sent seven fleets into the Indian
+  Ocean, and then stopped.
+
+capitals:
+  - { name: Beijing, script: 北京, from: 1368, source: mote-twitchett-1988 }
+
+core_region: China
+
+rulers:
+  founder: { name: Hongwu Emperor, reign: [1368, 1398], source: mote-twitchett-1988 }
+  peak: { name: Yongle Emperor, reign: [1402, 1424], source: mote-twitchett-1988 }
+  last: { name: Chongzhen Emperor, reign: [1627, 1644], source: mote-twitchett-1988 }
+
+scripts_and_languages:
+  administration: [Chinese]
+  writing_system: Chinese
+
+ended:
+  type: conquest
+  by: [qing]
+  year: 1644
+  source: mote-twitchett-1988
+
+measures:
+  reach_km2: { value: 6500000, at: 1450, source: taagepera-1997 }
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

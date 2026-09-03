@@ -1,0 +1,46 @@
+id: yuan
+region: east-asia
+
+name:
+  latin: Yuan Empire
+  script: 大元
+  script_lang: zh
+
+span:
+  start: { min: 1271, max: 1271, source: franke-twitchett-1994 }
+  end: { min: 1368, max: 1368, source: franke-twitchett-1994 }
+
+identity: >-
+  Kublai's Chinese dynasty: the first time the whole of China was ruled by a
+  conquest regime from the steppe.
+
+capitals:
+  - { name: Dadu, script: 大都, from: 1271, source: franke-twitchett-1994 }
+
+core_region: China and the Mongolian steppe
+
+rulers:
+  founder: { name: Kublai Khan, reign: [1271, 1294], source: franke-twitchett-1994 }
+  peak: { name: Kublai Khan, reign: [1271, 1294], source: franke-twitchett-1994 }
+  last: { name: Toghon Temur, reign: [1333, 1368], source: franke-twitchett-1994 }
+
+scripts_and_languages:
+  administration: [Mongolian, Chinese]
+  writing_system: Uyghur-Mongolian
+
+ended:
+  type: conquest
+  by: [ming]
+  year: 1368
+  source: mote-twitchett-1988
+
+measures:
+  reach_km2: { value: 11000000, at: 1310, source: taagepera-1997 }
+  peak_population: null
+  influence:
+    descendant_scripts:
+      count: 1
+      items: [Phags-pa script]
+      source: franke-twitchett-1994
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

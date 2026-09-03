@@ -1,0 +1,47 @@
+id: songhai
+region: africa
+
+name:
+  latin: Songhai Empire
+  script: Songhay
+  script_lang: ses
+
+span:
+  start: { min: 1464, max: 1464, source: hunwick-1999 }
+  end: { min: 1591, max: 1591, source: hunwick-1999 }
+
+identity: >-
+  The last and largest of the West African empires of the Niger, and the one
+  that made Timbuktu a centre of Islamic scholarship.
+
+capitals:
+  - { name: Gao, script: Gao, from: 1464, source: hunwick-1999 }
+
+core_region: The middle Niger
+
+rulers:
+  founder: { name: Sunni Ali, reign: [1464, 1492], source: hunwick-1999 }
+  peak: { name: Askia Muhammad I, reign: [1493, 1528], source: hunwick-1999 }
+  last: { name: Askia Ishaq II, reign: [1588, 1591], source: hunwick-1999 }
+
+scripts_and_languages:
+  administration: [Arabic, Songhai]
+  writing_system: Arabic
+
+ended:
+  type: conquest
+  # The Saadian sultanate of Morocco is not on this site. Named in the prose.
+  by: []
+  year: 1591
+  source: hunwick-1999
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried:
+      count: 1
+      items: [Sunni Islam]
+      source: hunwick-1999
+    successor_claims: { count: null, items: [], source: null }

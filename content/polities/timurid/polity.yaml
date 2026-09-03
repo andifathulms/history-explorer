@@ -1,0 +1,45 @@
+id: timurid
+region: later-iran
+
+name:
+  latin: Timurid Empire
+  script: تیموریان
+  script_lang: fa
+
+span:
+  start: { min: 1370, max: 1370, source: manz-1989 }
+  end: { min: 1507, max: 1507, source: manz-1989 }
+
+identity: >-
+  Timur's empire and the courts of his descendants: assembled by a man who
+  could not legally be khan, and remembered for what it patronised.
+
+capitals:
+  - { name: Samarkand, script: سمرقند, from: 1370, source: manz-1989 }
+
+core_region: Transoxiana and Iran
+
+rulers:
+  founder: { name: Timur, reign: [1370, 1405], source: manz-1989 }
+  peak: { name: Timur, reign: [1370, 1405], source: manz-1989 }
+  last: { name: Badi al-Zaman, reign: [1506, 1507], source: manz-1989 }
+
+scripts_and_languages:
+  administration: [Persian, Chagatai Turkic]
+  writing_system: Perso-Arabic
+
+ended:
+  type: conquest
+  # The Uzbek Shaybanids are not on this site and not in the reference set.
+  # Named in the prose rather than given an id that resolves to nothing.
+  by: []
+  year: 1507
+  source: manz-1989
+
+measures:
+  reach_km2: { value: 4400000, at: 1405, source: taagepera-1997 }
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

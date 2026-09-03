@@ -100,11 +100,18 @@ regions:
     blurb: >-
       The polities of the sea routes rather than the land ones, whose power
       came from controlling straits instead of territory.
-    thread: false
+    thread: true
 
   - id: africa
     name: Africa
     blurb: >-
       Aksum on the Red Sea and Mali on the Niger — the northern end of one
       trade system and the southern end of another.
-    thread: false
+    thread: true
+
+  - id: later-iran
+    name: Iran after the Mongols
+    blurb: >-
+      The Turco-Mongol and then Turkmen states that reassembled Iran out of the
+      Ilkhanate's collapse, ending with the dynasty that made it Shi'i.
+    thread: true

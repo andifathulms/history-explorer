@@ -1,0 +1,48 @@
+id: majapahit
+region: maritime-asia
+
+name:
+  latin: Majapahit
+  script: ꦩꦗꦥꦲꦶꦠ᭄
+  script_lang: jv
+
+span:
+  start: { min: 1293, max: 1293, source: hall-2011 }
+  end: { min: 1527, max: 1527, source: hall-2011 }
+
+identity: >-
+  The Javanese thalassocracy that succeeded Srivijaya as the power of the
+  archipelago's sea lanes.
+
+capitals:
+  - { name: Trowulan, script: Trowulan, from: 1293, source: hall-2011 }
+
+core_region: Java and the archipelago
+
+rulers:
+  founder: { name: Raden Wijaya, reign: [1293, 1309], source: hall-2011 }
+  peak: { name: Hayam Wuruk, reign: [1350, 1389], source: hall-2011 }
+  last: { name: Girindrawardhana, reign: [1478, 1527], source: hall-2011 }
+
+scripts_and_languages:
+  administration: [Old Javanese, Sanskrit]
+  writing_system: Kawi
+
+ended:
+  type: gradual absorption
+  by: []
+  year: 1527
+  source: hall-2011
+
+measures:
+  # As with Srivijaya: no cited km2, and area is the wrong measure for a
+  # polity whose power was over sea lanes. See hard rule 5.
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried:
+      count: 1
+      items: [Hindu-Buddhist Javanese tradition]
+      source: hall-2011
+    successor_claims: { count: null, items: [], source: null }

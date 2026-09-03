@@ -442,6 +442,34 @@ sources:
     publisher: Curzon Press
     year: 1997
 
+  - id: manz-1989
+    kind: book
+    author: Beatrice Forbes Manz
+    title: The Rise and Rule of Tamerlane
+    publisher: Cambridge University Press
+    year: 1989
+
+  - id: newman-2006
+    kind: book
+    author: Andrew J. Newman
+    title: "Safavid Iran: Rebirth of a Persian Empire"
+    publisher: I.B. Tauris
+    year: 2006
+
+  - id: mote-twitchett-1988
+    kind: book
+    author: Frederick W. Mote and Denis Twitchett (eds)
+    title: "The Cambridge History of China, Volume 7: The Ming Dynasty, 1368-1644, Part 1"
+    publisher: Cambridge University Press
+    year: 1988
+
+  - id: hunwick-1999
+    kind: book
+    author: John O. Hunwick
+    title: "Timbuktu and the Songhay Empire"
+    publisher: Brill
+    year: 1999
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors
