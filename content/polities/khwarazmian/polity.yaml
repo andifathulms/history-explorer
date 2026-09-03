@@ -1,0 +1,60 @@
+id: khwarazmian
+name:
+  latin: Khwarazmian Empire
+  script: خوارزمشاهیان
+  script_lang: fa
+
+# 1077 is Anushtigin's appointment as Seljuk governor of Khwarazm; 1097 is Qutb
+# al-Din Muhammad's accession, from which the line rules as Khwarazmshahs. As
+# with the Samanids, the two dates mark the appointment and the dynasty.
+span:
+  start: { min: 1077, max: 1097, source: iranica-khwarazmshahs, max_source: bosworth-1996 }
+  end: { min: 1220, max: 1231, source: bosworth-1996, max_source: iranica-khwarazmshahs }
+
+identity: >-
+  A line of Seljuk provincial governors on the lower Oxus that outgrew the
+  sultanate that appointed it, took its titles, and was destroyed within a
+  decade by the Mongols.
+
+capitals:
+  - { name: Gurganj, script: گرگانج, from: 1097, source: iranica-khwarazmshahs }
+  - { name: Samarkand, script: سمرقند, from: 1212, source: bosworth-1996 }
+
+core_region: Khwarazm, Transoxiana, Khurasan and western Iran
+
+rulers:
+  founder:
+    name: Anushtigin Gharchai
+    script: انوشتگین غرچه‌ای
+    reign: [1077, 1097]
+    source: bosworth-1996
+  peak:
+    name: Ala al-Din Muhammad II
+    script: علاءالدین محمد
+    reign: [1200, 1220]
+    source: bosworth-1996
+  last:
+    name: Jalal al-Din Mingburnu
+    script: جلال‌الدین منکبرنی
+    reign: [1220, 1231]
+    source: iranica-khwarazmshahs
+
+scripts_and_languages:
+  administration: [Persian, Arabic]
+  writing_system: Perso-Arabic
+
+ended:
+  type: conquest
+  by: [mongol]
+  year: 1231
+  source: iranica-khwarazmshahs
+
+measures:
+  # No consulted dataset gives a Khwarazmian peak extent, and the empire held
+  # its greatest size for only about eight years. The axis is a gap.
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: iranica-khwarazmshahs }
+    religions_carried: { count: 0, items: [], source: iranica-khwarazmshahs }
+    successor_claims: { count: 0, items: [], source: iranica-khwarazmshahs }
