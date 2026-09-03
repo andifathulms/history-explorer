@@ -1,0 +1,57 @@
+id: rashidun
+region: caliphates
+
+name:
+  latin: Rashidun Caliphate
+  script: الخلافة الراشدة
+  script_lang: ar
+
+span:
+  start: { min: 632, max: 632, source: kennedy-2004 }
+  end: { min: 661, max: 661, source: kennedy-2004 }
+
+identity: >-
+  The caliphate of the four successors elected at Medina, under whom the Arab
+  conquests took Syria, Iraq, Egypt and the Iranian plateau in a generation.
+
+capitals:
+  - { name: Medina, script: المدينة, from: 632, to: 656, source: kennedy-2004 }
+  - { name: Kufa, script: الكوفة, from: 656, to: 661, source: kennedy-2004 }
+
+core_region: Arabia, Syria, Iraq and Egypt
+
+rulers:
+  founder: { name: Abu Bakr, reign: [632, 634], source: kennedy-2004 }
+  peak: { name: Umar ibn al-Khattab, reign: [634, 644], source: kennedy-2004 }
+  last: { name: Ali ibn Abi Talib, reign: [656, 661], source: madelung-1997 }
+
+scripts_and_languages:
+  administration: [Arabic, Greek, Middle Persian]
+  writing_system: Arabic
+
+ended:
+  type: dynastic replacement
+  by: [umayyad]
+  year: 661
+  source: madelung-1997
+
+measures:
+  reach_km2: { value: 6400000, at: 655, source: taagepera-1997 }
+  # McEvedy & Jones give regional populations, not a figure for this polity at
+  # its peak. Deriving one would mean adding regions across a date the atlas
+  # does not tabulate, which is hard rule 2. Null, and the gap is drawn.
+  peak_population: null
+  influence:
+    # No source consulted here addresses a script derived or newly adapted
+    # under the Rashidun. The Arabic script's dotting and vocalisation are
+    # attributed to the Umayyad period and are counted there, not here. Null,
+    # because nobody looked, rather than 0, which would claim they did.
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried:
+      count: 1
+      items: [Islam]
+      source: donner-1981
+    successor_claims:
+      count: 2
+      items: [umayyad, abbasid]
+      source: kennedy-2004
