@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import { loadCorpus } from '@/lib/content'
-import { SiteNav } from '@/components/SiteNav'
+import { Page, Shell, PageHead } from '@/components/Shell'
 import { Comparison } from '@/components/Comparison'
 
 export const metadata: Metadata = {
@@ -13,27 +13,35 @@ export default function RankingsView() {
   const { narrative, backdrop, denominators } = loadCorpus()
 
   return (
-    <div className="ground-paper min-h-screen">
-      <SiteNav ground="paper" current="Rankings" />
-      <main id="main" className="mx-auto w-full max-w-shell px-5 pb-24 pt-10 sm:px-8">
-        <h1 className="text-[32px] leading-tight text-kashi">Rankings</h1>
-        <p className="mt-3 max-w-measure text-body">
-          Reach, longevity, population and influence — every polity on the site, measured
-          against a reference set of the largest states in world history so that a
-          percentile is a true statement rather than a comparison against eight things.
-        </p>
-        <p className="mt-4 max-w-measure text-body">
-          The ordering is a function of the sliders, which start even and are yours to
-          move. No arrangement of them is the site&rsquo;s own opinion, and none is
-          published as a greatest-empire ordering. The weights travel in the address bar,
-          so you can send someone a view rather than an argument.
-        </p>
-        <p className="mt-4 max-w-measure text-body">
-          Every polity is eligible here, whether or not it stands in a succession thread.
-          Measurement does not require a predecessor.
-        </p>
-        <Comparison narrative={narrative} backdrop={backdrop} denominators={denominators} />
+    <Page ground="paper" current="Rankings">
+      <main id="main" className="flex-1">
+        <Shell className="pb-24">
+          <PageHead kicker="Measured, not judged" title="Rankings" ground="paper">
+            <p>
+              Reach, longevity, population and influence — every polity on the site,
+              measured against {backdrop.length} of the largest states in world history so
+              that a percentile is a true statement rather than a comparison against eight
+              things.
+            </p>
+          </PageHead>
+
+          <div className="mt-8 grid max-w-[74rem] gap-x-12 gap-y-4 text-[16px] leading-relaxed text-debu-ink md:grid-cols-2">
+            <p>
+              The ordering is a function of the sliders, which start even and are yours to
+              move. No arrangement of them is the site&rsquo;s own opinion, and none is
+              published as a greatest-empire ordering. The weights travel in the address
+              bar, so you can send someone a view rather than an argument.
+            </p>
+            <p>
+              Every polity is eligible here, whether or not it stands in a succession
+              thread — measurement does not require a predecessor. A missing axis leaves
+              its bar empty and is excluded from the total rather than counted as zero.
+            </p>
+          </div>
+
+          <Comparison narrative={narrative} backdrop={backdrop} denominators={denominators} />
+        </Shell>
       </main>
-    </div>
+    </Page>
   )
 }

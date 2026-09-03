@@ -80,29 +80,33 @@ export function Comparison({
 
   return (
     <>
-      <div className="mt-8 grid gap-8 lg:grid-cols-[300px_1fr]">
-        <aside className="lg:sticky lg:top-8 lg:self-start">
-          <h2 className="text-[15px] uppercase tracking-widest text-debu-ink">Your weights</h2>
+      <div className="mt-12 grid gap-10 lg:grid-cols-[290px_1fr]">
+        <aside className="card-paper p-6 lg:sticky lg:top-24 lg:self-start">
+          <h2 className="kicker text-debu-ink">Your weights</h2>
 
-          <div className="mt-3 flex flex-wrap gap-2">
+          <div className="mt-4 flex flex-wrap gap-2">
             {Object.entries(PRESETS).map(([key, preset]) => (
               <button
                 key={key}
                 type="button"
                 onClick={() => setWeights(preset.weights)}
-                className="rounded-sm border border-kashi/40 px-3 py-1 text-[14px] text-kashi hover:border-firuze-ink hover:text-firuze-ink"
+                className="rounded-full border border-kashi/30 px-3 py-1 font-mono text-micro uppercase text-kashi transition-colors hover:border-firuze-ink hover:text-firuze-ink"
               >
                 {preset.label}
               </button>
             ))}
           </div>
 
-          <div className="mt-5 space-y-4">
+          <div className="mt-6 space-y-5">
             {AXES.map((a) => (
               <label key={a} className="block">
-                <span className="flex justify-between text-[15px]">
-                  <span className="text-kashi">{AXIS_LABELS[a]}</span>
-                  <span className="tabular-nums text-debu-ink">{weights[a].toFixed(2)}</span>
+                <span className="flex items-baseline justify-between">
+                  <span className="font-mono text-[12.5px] uppercase tracking-[0.06em] text-kashi">
+                    {AXIS_LABELS[a]}
+                  </span>
+                  <span className="font-mono text-[13px] tabular-nums text-debu-ink">
+                    {weights[a].toFixed(2)}
+                  </span>
                 </span>
                 <input
                   type="range"
@@ -111,25 +115,27 @@ export function Comparison({
                   step={0.05}
                   value={weights[a]}
                   onChange={(e) => setAxis(a, Number(e.target.value))}
-                  className="mt-1 w-full accent-firuze-ink"
+                  className="mt-2 w-full accent-firuze-ink"
                 />
               </label>
             ))}
           </div>
 
-          <h3 className="mt-6 text-[15px] uppercase tracking-widest text-debu-ink">
+          <h3 className="kicker mt-8 border-t border-kashi/15 pt-6 text-debu-ink">
             How to fuse influence
           </h3>
-          <p className="mt-1 text-[14px] text-debu-ink">
+          <p className="mt-3 text-[14px] leading-relaxed text-debu-ink">
             The site never combines these three itself. These sliders do it in your view
             only, and travel in the link.
           </p>
-          <div className="mt-3 space-y-4">
+          <div className="mt-5 space-y-5">
             {INFLUENCE_KEYS.map((k) => (
               <label key={k} className="block">
-                <span className="flex justify-between text-[15px]">
-                  <span className="text-kashi">{INFLUENCE_LABELS[k]}</span>
-                  <span className="tabular-nums text-debu-ink">
+                <span className="flex items-baseline justify-between">
+                  <span className="font-mono text-[12.5px] uppercase tracking-[0.06em] text-kashi">
+                    {INFLUENCE_LABELS[k]}
+                  </span>
+                  <span className="font-mono text-[13px] tabular-nums text-debu-ink">
                     {weights.influenceMix[k].toFixed(2)}
                   </span>
                 </span>
@@ -140,32 +146,32 @@ export function Comparison({
                   step={0.05}
                   value={weights.influenceMix[k]}
                   onChange={(e) => setMix(k, Number(e.target.value))}
-                  className="mt-1 w-full accent-firuze-ink"
+                  className="mt-2 w-full accent-firuze-ink"
                 />
               </label>
             ))}
           </div>
 
-          <fieldset className="mt-6">
-            <legend className="text-[15px] uppercase tracking-widest text-debu-ink">Scale</legend>
-            <div className="mt-2 flex gap-2">
+          <fieldset className="mt-8 border-t border-kashi/15 pt-6">
+            <legend className="kicker text-debu-ink">Scale</legend>
+            <div className="mt-4 flex flex-wrap gap-2">
               {(['absolute', 'era-normalised'] as Scale[]).map((s) => (
                 <button
                   key={s}
                   type="button"
                   onClick={() => setScale(s)}
                   aria-pressed={scale === s}
-                  className={`rounded-sm border px-3 py-1 text-[14px] ${
+                  className={`rounded-full border px-3 py-1 font-mono text-micro uppercase transition-colors ${
                     scale === s
-                      ? 'border-firuze-ink text-firuze-ink'
-                      : 'border-kashi/40 text-kashi hover:border-firuze-ink'
+                      ? 'border-firuze-ink bg-firuze-ink text-kaghaz'
+                      : 'border-kashi/30 text-kashi hover:border-firuze-ink'
                   }`}
                 >
                   {s === 'absolute' ? 'Absolute' : 'Era-normalised'}
                 </button>
               ))}
             </div>
-            <p className="mt-2 text-[14px] text-debu-ink">
+            <p className="mt-3 text-[14px] leading-relaxed text-debu-ink">
               A million km² in 500 BC is not a million km² in 1900, so both scales are
               offered.
             </p>
@@ -184,106 +190,116 @@ export function Comparison({
             </p>
           ) : null}
 
-          <div className="overflow-x-auto">
-            <table className="w-full min-w-[720px] border-collapse text-left">
+          {/* A rank number, and a percentile bar in every axis column rather
+              than only in the total. Length is a cited quantity here too: a
+              polity missing an axis leaves that bar area empty and says so in
+              words, because a short bar would read as "small" when the truth
+              is "unknown". */}
+          <div className="-mx-5 overflow-x-auto px-5 sm:-mx-8 sm:px-8">
+            <table className="w-full min-w-[900px] border-collapse text-left">
               <caption className="sr-only">
                 Polities ranked by your weighted total, with each axis&rsquo;s cited figure
               </caption>
+              <colgroup>
+                <col className="w-[3.5rem]" />
+                <col className="w-[16rem]" />
+                <col className="w-[10.5rem]" />
+                <col className="w-[10.5rem]" />
+                <col className="w-[10.5rem]" />
+                <col className="w-[9rem]" />
+                <col className="w-[8rem]" />
+              </colgroup>
               <thead>
-                <tr className="border-b border-kashi/30 text-[14px] uppercase tracking-wide text-debu-ink">
-                  <th scope="col" className="py-2 pe-3 font-normal">
-                    Polity
-                  </th>
-                  <th scope="col" className="py-2 pe-3 font-normal">
-                    Reach
-                  </th>
-                  <th scope="col" className="py-2 pe-3 font-normal">
-                    Longevity
-                  </th>
-                  <th scope="col" className="py-2 pe-3 font-normal">
-                    Population
-                  </th>
-                  <th scope="col" className="py-2 pe-3 font-normal">
-                    Influence
-                  </th>
-                  <th scope="col" className="py-2 font-normal">
-                    Total
-                  </th>
+                <tr className="border-b border-kashi/30">
+                  {['#', 'Polity', 'Reach', 'Longevity', 'Population', 'Influence', 'Total'].map(
+                    (h) => (
+                      <th
+                        key={h}
+                        scope="col"
+                        className="py-3 pe-4 font-mono text-micro font-normal uppercase text-debu-ink"
+                      >
+                        {h === '#' ? <span className="sr-only">Rank</span> : h}
+                      </th>
+                    ),
+                  )}
                 </tr>
               </thead>
               <tbody>
-                {rows.map((r) => (
-                  <tr key={r.polity.id} className="border-b border-kashi/15 align-top">
-                    <th scope="row" className="py-3 pe-3 font-normal">
+                {rows.map((r, i) => (
+                  <tr
+                    key={r.polity.id}
+                    className="border-b border-kashi/12 align-top transition-colors hover:bg-kaghaz-raise"
+                  >
+                    <td className="py-4 pe-4 font-mono text-[13px] tabular-nums text-debu-ink">
+                      {r.total.present ? String(i + 1).padStart(2, '0') : '—'}
+                    </td>
+
+                    <th scope="row" className="py-4 pe-4 font-normal">
                       <Link
                         href={`/polity/${r.polity.id}/`}
-                        className="font-semibold text-kashi hover:text-firuze-ink"
+                        className="link-underline font-display text-[18px] font-semibold text-kashi-deep hover:text-firuze-ink"
                       >
                         {r.polity.latin}
                       </Link>
-                      <span className="block text-[13px] text-debu-ink">{r.totalProvenance}</span>
+                      <span className="mt-1 block font-mono text-[11.5px] text-debu-ink">
+                        {r.totalProvenance}
+                      </span>
                     </th>
 
-                    <td className="py-3 pe-3">
-                      {r.reach.raw.present ? (
-                        <>
-                          <span className="tabular-nums">
-                            {scale === 'absolute'
-                              ? formatKm2(r.reach.raw.value)
-                              : `${(r.reach.raw.value * 100).toFixed(1)}%`}
-                          </span>
-                          <span className="block text-[13px] text-debu-ink">
-                            {Math.round((r.reach.pct.present ? r.reach.pct.value : 0) * 100)}th
-                          </span>
-                        </>
-                      ) : (
-                        <span className="italic text-debu-ink">{NO_FIGURE}</span>
-                      )}
-                    </td>
+                    <AxisCell
+                      figure={
+                        r.reach.raw.present
+                          ? scale === 'absolute'
+                            ? formatKm2(r.reach.raw.value)
+                            : `${(r.reach.raw.value * 100).toFixed(1)}%`
+                          : null
+                      }
+                      pct={r.reach.pct.present ? r.reach.pct.value : null}
+                    />
 
-                    <td className="py-3 pe-3">
-                      <span className="tabular-nums">
-                        {r.longevity.years.min === r.longevity.years.max
+                    <AxisCell
+                      figure={
+                        r.longevity.years.min === r.longevity.years.max
                           ? `${r.longevity.years.min} yr`
-                          : `${r.longevity.years.min}–${r.longevity.years.max} yr`}
-                      </span>
-                      <span className="block text-[13px] text-debu-ink">
-                        {Math.round(r.longevity.pct.min * 100)}
-                        {Math.abs(r.longevity.pct.max - r.longevity.pct.min) > 0.005
-                          ? `–${Math.round(r.longevity.pct.max * 100)}`
-                          : ''}
-                        th
-                      </span>
-                    </td>
+                          : `${r.longevity.years.min}–${r.longevity.years.max} yr`
+                      }
+                      pct={r.longevity.pct.min}
+                      pctMax={
+                        Math.abs(r.longevity.pct.max - r.longevity.pct.min) > 0.005
+                          ? r.longevity.pct.max
+                          : undefined
+                      }
+                    />
 
-                    <td className="py-3 pe-3">
-                      {r.demographic.raw.present ? (
-                        <span className="tabular-nums">
-                          {formatPopulation(r.demographic.raw.value)}
-                        </span>
-                      ) : (
-                        <span className="italic text-debu-ink">{NO_FIGURE}</span>
-                      )}
-                    </td>
+                    <AxisCell
+                      figure={
+                        r.demographic.raw.present
+                          ? formatPopulation(r.demographic.raw.value)
+                          : null
+                      }
+                      pct={r.demographic.pct.present ? r.demographic.pct.value : null}
+                    />
 
                     {/* Three numbers, never one, even in a table cell. */}
-                    <td className="py-3 pe-3">
-                      <span className="tabular-nums">
+                    <td className="py-4 pe-4">
+                      <span className="font-mono text-[15px] tabular-nums text-dawat/85">
                         {INFLUENCE_KEYS.map((k) => {
                           const c = r.influence.counts[k].count
                           return c === null ? '—' : c
                         }).join(' · ')}
                       </span>
-                      <span className="block text-[13px] text-debu-ink">scripts · religions · claims</span>
+                      <span className="mt-1 block font-mono text-[11.5px] leading-snug text-debu-ink">
+                        scripts · religions · claims
+                      </span>
                     </td>
 
-                    <td className="py-3">
+                    <td className="py-4">
                       {r.total.present ? (
                         <>
-                          <span className="tabular-nums text-[17px] text-kashi">
+                          <span className="font-mono text-[19px] tabular-nums text-kashi-deep">
                             {Math.round(r.total.value * 100)}
                           </span>
-                          <span className="mt-1 block h-[6px] w-24 rounded-full bg-kashi/10">
+                          <span className="mt-2 block h-[6px] w-full rounded-full bg-kashi/10">
                             <span
                               className="block h-[6px] rounded-full bg-kashi"
                               style={{ width: `${Math.max(2, r.total.value * 100)}%` }}
@@ -291,7 +307,7 @@ export function Comparison({
                           </span>
                         </>
                       ) : (
-                        <span className="italic text-debu-ink">{NO_FIGURE}</span>
+                        <span className="text-[14px] italic text-debu-ink">{NO_FIGURE}</span>
                       )}
                     </td>
                   </tr>
@@ -300,7 +316,7 @@ export function Comparison({
             </table>
           </div>
 
-          <p className="mt-6 max-w-measure text-[15px] text-debu-ink">
+          <p className="mt-8 max-w-measure text-[15px] leading-relaxed text-debu-ink">
             Every total states how many axes it was computed from and is renormalised
             across those only. A polity with two documented axes is never pushed below one
             with four for the sake of the missing ones. Percentiles are against these
@@ -312,5 +328,62 @@ export function Comparison({
         </div>
       </div>
     </>
+  )
+}
+
+/**
+ * One measured cell: the cited figure, then a bar whose length is the
+ * percentile. A missing figure leaves the bar area empty and says No cited
+ * figure — never a short bar, which would say "small" when the truth is
+ * "unknown".
+ *
+ * `pctMax` draws the second end of a contested longevity range, so a polity
+ * whose span the sources disagree about carries a rank that is honestly a
+ * range rather than a point.
+ */
+function AxisCell({
+  figure,
+  pct,
+  pctMax,
+}: {
+  figure: string | null
+  pct: number | null
+  pctMax?: number
+}) {
+  return (
+    <td className="py-4 pe-4">
+      {figure === null ? (
+        <span className="text-[14px] italic text-debu-ink">{NO_FIGURE}</span>
+      ) : (
+        <>
+          <span className="font-mono text-[15px] tabular-nums text-dawat/85">{figure}</span>
+          <span className="mt-2 block h-[6px] w-full rounded-full bg-kashi/10">
+            {pct === null ? null : (
+              <>
+                <span
+                  className="block h-[6px] rounded-full bg-kashi/55"
+                  style={{ width: `${Math.max(2, pct * 100)}%` }}
+                />
+                {pctMax === undefined ? null : (
+                  <span
+                    className="-mt-[6px] block h-[6px] rounded-full bg-kashi/25"
+                    style={{
+                      marginInlineStart: `${pct * 100}%`,
+                      width: `${Math.max(1, (pctMax - pct) * 100)}%`,
+                    }}
+                  />
+                )}
+              </>
+            )}
+          </span>
+          {pct === null ? null : (
+            <span className="mt-1 block font-mono text-micro tabular-nums text-debu-ink">
+              {Math.round(pct * 100)}
+              {pctMax === undefined ? '' : `–${Math.round(pctMax * 100)}`}th
+            </span>
+          )}
+        </>
+      )}
+    </td>
   )
 }

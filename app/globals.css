@@ -137,7 +137,7 @@
   }
 
   .card-paper {
-    @apply border border-kashi/12 bg-kaghaz-raise;
+    @apply border border-kashi/10 bg-kaghaz-raise;
     transition:
       box-shadow 220ms cubic-bezier(0.22, 0.61, 0.36, 1),
       border-color 220ms cubic-bezier(0.22, 0.61, 0.36, 1);
