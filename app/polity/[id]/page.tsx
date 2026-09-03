@@ -8,6 +8,7 @@ import { Position } from '@/components/Position'
 import { Chapters } from '@/components/Chapters'
 import { Facts } from '@/components/Facts'
 import { RatingPanel } from '@/components/RatingPanel'
+import { PolityMap } from '@/components/PolityMap'
 
 export function generateStaticParams() {
   return loadCorpus().narrative.map((p) => ({ id: p.id }))
@@ -75,6 +76,8 @@ export default function PolityPage({ params }: { params: { id: string } }) {
           <Chapters chapters={chapters} />
 
           <Facts polity={p} />
+
+          <PolityMap polity={p} />
 
           <RatingPanel rating={rating} scale="absolute" />
         </main>

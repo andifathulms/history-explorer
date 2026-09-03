@@ -1,0 +1,54 @@
+# Which snapshot polygon illustrates which polity.
+#
+# This is a claim and it lives in content rather than in code. The polygon is an
+# illustration, never a measure: hard rule 5 forbids computing km2 from these
+# shapes or reconciling them with the cited extent figures. They will disagree
+# with the cited figures, and that is expected and correct.
+#
+# `snapshot` is the nearest available snapshot year to the polity's peak, not
+# the peak. The difference is shown in the UI on every map, never in a footnote.
+#
+# Two polities have no entry at all, and both absences are informative rather
+# than pending work:
+#
+#   tahirid — the 800 and 900 snapshots show Khurasan inside the Abbasid
+#     Caliphate, because that is what the Tahirids formally were. The dataset is
+#     right and the map correctly has nothing to draw.
+#   ghurid  — no snapshot in this series names the Ghurids. Their imperial
+#     career fell between the 1100 and 1200 snapshots and left no mark on either.
+
+links:
+  - polity: samanid
+    snapshot: 900
+    peak_year: 928
+    features: [Samanid Empire]
+
+  - polity: saffarid
+    snapshot: 900
+    peak_year: 880
+    features: [Saffarids]
+
+  - polity: buyid
+    snapshot: 1000
+    peak_year: 980
+    features: [Buyid Emirate, Buwayhid Emirates]
+
+  - polity: ghaznavid
+    snapshot: 1000
+    peak_year: 1029
+    features: [Ghaznavid Emirate]
+
+  - polity: great-seljuk
+    snapshot: 1100
+    peak_year: 1080
+    features: [Seljuk Empire]
+
+  - polity: khwarazmian
+    snapshot: 1200
+    peak_year: 1218
+    features: [Kwarizm-Shah]
+
+  - polity: abbasid
+    snapshot: 800
+    peak_year: 800
+    features: [Abbasid Caliphate]
