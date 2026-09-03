@@ -1,0 +1,55 @@
+id: umayyad
+region: caliphates
+
+name:
+  latin: Umayyad Caliphate
+  script: الخلافة الأموية
+  script_lang: ar
+
+span:
+  start: { min: 661, max: 661, source: hawting-2000 }
+  end: { min: 750, max: 750, source: hawting-2000 }
+
+identity: >-
+  The first dynastic caliphate, ruling from Damascus on Syrian military power,
+  and the one that turned a conquest arrangement into a state.
+
+capitals:
+  - { name: Damascus, script: دمشق, from: 661, to: 744, source: hawting-2000 }
+  - { name: Harran, from: 744, to: 750, source: hawting-2000 }
+
+core_region: Syria
+
+rulers:
+  founder: { name: Mu'awiya ibn Abi Sufyan, reign: [661, 680], source: hawting-2000 }
+  peak: { name: Abd al-Malik ibn Marwan, reign: [685, 705], source: hawting-2000 }
+  last: { name: Marwan II, reign: [744, 750], source: hawting-2000 }
+
+scripts_and_languages:
+  administration: [Arabic, Greek, Middle Persian]
+  writing_system: Arabic
+
+ended:
+  type: dynastic replacement
+  by: [abbasid]
+  year: 750
+  source: hawting-2000
+
+measures:
+  reach_km2: { value: 11100000, at: 720, source: taagepera-1997 }
+  peak_population: null
+  influence:
+    # Abd al-Malik's reforms standardised and pointed the Arabic script, but
+    # under the coding rules that is neither a derivation nor an adaptation to
+    # a new language — it is the same script writing the same language better.
+    # The adaptation of Arabic to write Persian is attributed elsewhere. No
+    # consulted source gives this polity a descendant script, so: null.
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried:
+      count: 1
+      items: [Islam]
+      source: hawting-2000
+    successor_claims:
+      count: 1
+      items: [Umayyad Caliphate of Cordoba]
+      source: kennedy-2004

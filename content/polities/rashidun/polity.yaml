@@ -43,9 +43,10 @@ measures:
   peak_population: null
   influence:
     # No source consulted here addresses a script derived or newly adapted
-    # under the Rashidun. The Arabic script's dotting and vocalisation are
-    # attributed to the Umayyad period and are counted there, not here. Null,
-    # because nobody looked, rather than 0, which would claim they did.
+    # under the Rashidun. The Arabic script's dotting and vocalisation belong to
+    # the Umayyad period, and in any case are not a descendant script under the
+    # coding rules: same script, same language, written better. Null, because
+    # nobody looked, rather than 0, which would claim they did.
     descendant_scripts: { count: null, items: [], source: null }
     religions_carried:
       count: 1
