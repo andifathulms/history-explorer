@@ -1,0 +1,60 @@
+id: tahirid
+name:
+  latin: Tahirid Dynasty
+  script: طاهریان
+  script_lang: fa
+
+span:
+  start: { min: 821, max: 821, source: bosworth-1996 }
+  end: { min: 873, max: 873, source: bosworth-1996 }
+
+identity: >-
+  Abbasid governors of Khurasan who made the governorship hereditary without
+  ever ceasing to be governors.
+
+capitals:
+  - { name: Merv, from: 821, to: 830, source: iranica-taherids }
+  - { name: Nishapur, script: نیشابور, from: 830, source: iranica-taherids }
+
+core_region: Khurasan
+
+rulers:
+  founder:
+    name: Tahir I ibn al-Husayn
+    script: طاهر بن الحسین
+    reign: [821, 822]
+    source: bosworth-1996
+  peak:
+    name: Abdallah ibn Tahir
+    script: عبدالله بن طاهر
+    reign: [828, 845]
+    source: bosworth-1996
+  last:
+    name: Muhammad ibn Tahir
+    script: محمد بن طاهر
+    reign: [862, 873]
+    source: bosworth-1996
+
+scripts_and_languages:
+  administration: [Arabic, Persian]
+  writing_system: Perso-Arabic
+
+ended:
+  type: conquest
+  by: [saffarid]
+  year: 873
+  source: iranica-taherids
+
+measures:
+  # No consulted dataset gives a Tahirid extent. Taagepera's series does not
+  # descend to the governorate scale, and computing one from a map polygon is
+  # forbidden by hard rule 5. The axis is a gap.
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: iranica-taherids }
+    # The Tahirids governed long-Muslim Khurasan. Maintaining an established
+    # tradition inside already-held territory is not propagation under the
+    # coding rules, so this is 0 rather than a gap.
+    religions_carried: { count: 0, items: [], source: iranica-taherids }
+    successor_claims: { count: 0, items: [], source: iranica-taherids }
