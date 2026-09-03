@@ -1,0 +1,90 @@
+# Reference backdrop. Numbers only: no prose, no pages, not browsable. These
+# exist so that a percentile is a true statement about world history rather
+# than a comparison against eight things.
+#
+# Hard rule 2 applies here as hard as anywhere. Where a figure is not carried by
+# one of the cited datasets it is null, and the polity simply does not
+# participate in that axis's percentile. It is not estimated from a neighbour,
+# not interpolated, not carried over from a different date.
+#
+# reach_km2 is Taagepera, converted from megametres squared as published
+# (1 Mm2 = 1,000,000 km2). The conversion is a unit change, not a computation.
+# peak_population is McEvedy & Jones. Most entries here are null: the Atlas is
+# a regional series, and reading an empire total out of it would be exactly the
+# interpolation hard rule 2 forbids.
+
+polities:
+  - { id: akkadian, name: Akkadian Empire, span: { start: -2334, end: -2154, source: taagepera-1978b }, reach_km2: { value: 650000, at: -2300, source: taagepera-1978b }, peak_population: null }
+  - { id: egypt-new-kingdom, name: Egypt, New Kingdom, span: { start: -1550, end: -1077, source: taagepera-1979 }, reach_km2: { value: 1000000, at: -1450, source: taagepera-1979 }, peak_population: null }
+  - { id: neo-assyrian, name: Neo-Assyrian Empire, span: { start: -911, end: -609, source: taagepera-1979 }, reach_km2: { value: 1400000, at: -670, source: taagepera-1979 }, peak_population: null }
+  - { id: median, name: Median Empire, span: { start: -678, end: -549, source: taagepera-1979 }, reach_km2: { value: 2800000, at: -585, source: taagepera-1979 }, peak_population: null }
+  - { id: achaemenid, name: Achaemenid Empire, span: { start: -550, end: -330, source: taagepera-1979 }, reach_km2: { value: 5500000, at: -500, source: taagepera-1979 }, peak_population: null }
+  - { id: macedonian, name: Macedonian Empire, span: { start: -336, end: -323, source: taagepera-1979 }, reach_km2: { value: 5200000, at: -323, source: taagepera-1979 }, peak_population: null }
+  - { id: seleucid, name: Seleucid Empire, span: { start: -312, end: -63, source: taagepera-1979 }, reach_km2: { value: 3900000, at: -301, source: taagepera-1979 }, peak_population: null }
+  - { id: maurya, name: Maurya Empire, span: { start: -322, end: -185, source: taagepera-1979 }, reach_km2: { value: 3400000, at: -250, source: taagepera-1979 }, peak_population: null }
+  - { id: xiongnu, name: Xiongnu Confederation, span: { start: -209, end: 91, source: taagepera-1979 }, reach_km2: { value: 9000000, at: -176, source: taagepera-1979 }, peak_population: null }
+  - { id: parthian, name: Parthian Empire, span: { start: -247, end: 224, source: taagepera-1979 }, reach_km2: { value: 2800000, at: 1, source: taagepera-1979 }, peak_population: null }
+  - { id: roman, name: Roman Empire, span: { start: -27, end: 395, source: taagepera-1979 }, reach_km2: { value: 5000000, at: 117, source: taagepera-1979 }, peak_population: null }
+  - { id: han, name: Han Empire, span: { start: -202, end: 220, source: taagepera-1979 }, reach_km2: { value: 6500000, at: 100, source: taagepera-1979 }, peak_population: null }
+  - { id: kushan, name: Kushan Empire, span: { start: 30, end: 375, source: taagepera-1979 }, reach_km2: { value: 2000000, at: 200, source: taagepera-1979 }, peak_population: null }
+  - { id: gupta, name: Gupta Empire, span: { start: 320, end: 550, source: taagepera-1979 }, reach_km2: { value: 3500000, at: 400, source: taagepera-1979 }, peak_population: null }
+  - { id: sasanian, name: Sasanian Empire, span: { start: 224, end: 651, source: taagepera-1979 }, reach_km2: { value: 3500000, at: 550, source: taagepera-1979 }, peak_population: null }
+  - { id: gokturk, name: First Turkic Khaganate, span: { start: 552, end: 603, source: taagepera-1997 }, reach_km2: { value: 6000000, at: 557, source: taagepera-1997 }, peak_population: null }
+  - { id: byzantine, name: Byzantine Empire, span: { start: 395, end: 1453, source: taagepera-1997 }, reach_km2: { value: 1350000, at: 555, source: taagepera-1997 }, peak_population: null }
+  - { id: rashidun, name: Rashidun Caliphate, span: { start: 632, end: 661, source: taagepera-1997 }, reach_km2: { value: 6400000, at: 655, source: taagepera-1997 }, peak_population: null }
+  - { id: umayyad, name: Umayyad Caliphate, span: { start: 661, end: 750, source: taagepera-1997 }, reach_km2: { value: 11100000, at: 720, source: taagepera-1997 }, peak_population: null }
+  - { id: tang, name: Tang Empire, span: { start: 618, end: 907, source: taagepera-1997 }, reach_km2: { value: 5400000, at: 715, source: taagepera-1997 }, peak_population: null }
+  - { id: tibetan-empire, name: Tibetan Empire, span: { start: 618, end: 842, source: taagepera-1997 }, reach_km2: { value: 4600000, at: 800, source: taagepera-1997 }, peak_population: null }
+  - { id: uyghur-khaganate, name: Uyghur Khaganate, span: { start: 744, end: 840, source: taagepera-1997 }, reach_km2: { value: 3100000, at: 800, source: taagepera-1997 }, peak_population: null }
+  - { id: carolingian, name: Carolingian Empire, span: { start: 800, end: 888, source: taagepera-1997 }, reach_km2: { value: 1100000, at: 800, source: taagepera-1997 }, peak_population: null }
+  - { id: khazar, name: Khazar Khaganate, span: { start: 650, end: 969, source: taagepera-1997 }, reach_km2: { value: 3000000, at: 850, source: taagepera-1997 }, peak_population: null }
+  - { id: fatimid, name: Fatimid Caliphate, span: { start: 909, end: 1171, source: taagepera-1997 }, reach_km2: { value: 4100000, at: 969, source: taagepera-1997 }, peak_population: null }
+  - { id: liao, name: Liao Empire, span: { start: 916, end: 1125, source: taagepera-1997 }, reach_km2: { value: 2600000, at: 947, source: taagepera-1997 }, peak_population: null }
+  - { id: jin, name: Jin Empire, span: { start: 1115, end: 1234, source: taagepera-1997 }, reach_km2: { value: 2300000, at: 1150, source: taagepera-1997 }, peak_population: null }
+  - { id: almohad, name: Almohad Caliphate, span: { start: 1121, end: 1269, source: taagepera-1997 }, reach_km2: { value: 2300000, at: 1200, source: taagepera-1997 }, peak_population: null }
+  - { id: mongol, name: Mongol Empire, span: { start: 1206, end: 1368, source: taagepera-1997 }, reach_km2: { value: 24000000, at: 1270, source: taagepera-1997 }, peak_population: null }
+  - { id: golden-horde, name: Golden Horde, span: { start: 1242, end: 1502, source: taagepera-1997 }, reach_km2: { value: 6000000, at: 1310, source: taagepera-1997 }, peak_population: null }
+  - { id: ilkhanate, name: Ilkhanate, span: { start: 1256, end: 1335, source: taagepera-1997 }, reach_km2: { value: 3750000, at: 1310, source: taagepera-1997 }, peak_population: null }
+  - { id: chagatai, name: Chagatai Khanate, span: { start: 1226, end: 1347, source: taagepera-1997 }, reach_km2: { value: 3500000, at: 1310, source: taagepera-1997 }, peak_population: null }
+  - { id: yuan, name: Yuan Empire, span: { start: 1271, end: 1368, source: taagepera-1997 }, reach_km2: { value: 11000000, at: 1310, source: taagepera-1997 }, peak_population: null }
+  - { id: delhi-sultanate, name: Delhi Sultanate, span: { start: 1206, end: 1526, source: taagepera-1997 }, reach_km2: { value: 3200000, at: 1312, source: taagepera-1997 }, peak_population: null }
+  - { id: timurid, name: Timurid Empire, span: { start: 1370, end: 1507, source: taagepera-1997 }, reach_km2: { value: 4400000, at: 1405, source: taagepera-1997 }, peak_population: null }
+  - { id: ming, name: Ming Empire, span: { start: 1368, end: 1644, source: taagepera-1997 }, reach_km2: { value: 6500000, at: 1450, source: taagepera-1997 }, peak_population: null }
+  - { id: ottoman, name: Ottoman Empire, span: { start: 1299, end: 1922, source: taagepera-1997 }, reach_km2: { value: 5200000, at: 1683, source: taagepera-1997 }, peak_population: null }
+  - { id: safavid, name: Safavid Empire, span: { start: 1501, end: 1736, source: taagepera-1997 }, reach_km2: { value: 2900000, at: 1512, source: taagepera-1997 }, peak_population: null }
+  - { id: mughal, name: Mughal Empire, span: { start: 1526, end: 1857, source: taagepera-1997 }, reach_km2: { value: 4000000, at: 1690, source: taagepera-1997 }, peak_population: null }
+  - { id: qing, name: Qing Empire, span: { start: 1636, end: 1912, source: taagepera-1997 }, reach_km2: { value: 14700000, at: 1790, source: taagepera-1997 }, peak_population: null }
+  - { id: spanish-empire, name: Spanish Empire, span: { start: 1492, end: 1898, source: taagepera-1997 }, reach_km2: { value: 13700000, at: 1810, source: taagepera-1997 }, peak_population: null }
+  - { id: russian-empire, name: Russian Empire, span: { start: 1721, end: 1917, source: taagepera-1997 }, reach_km2: { value: 22800000, at: 1895, source: taagepera-1997 }, peak_population: null }
+  - { id: french-colonial, name: French Colonial Empire, span: { start: 1534, end: 1980, source: taagepera-1997 }, reach_km2: { value: 11500000, at: 1938, source: taagepera-1997 }, peak_population: null }
+  - { id: british-empire, name: British Empire, span: { start: 1583, end: 1997, source: taagepera-1997 }, reach_km2: { value: 35500000, at: 1920, source: taagepera-1997 }, peak_population: null }
+  - { id: soviet-union, name: Soviet Union, span: { start: 1922, end: 1991, source: taagepera-1997 }, reach_km2: { value: 22400000, at: 1945, source: taagepera-1997 }, peak_population: null }
+
+  # Entries carried for percentile completeness where the consulted datasets do
+  # not give a peak extent. They contribute to no axis; they are here so that a
+  # later pass has the id ready and so the corpus does not silently imply that
+  # these polities were small.
+  - { id: songhai, name: Songhai Empire, span: { start: 1464, end: 1591, source: taagepera-1997 }, reach_km2: null, peak_population: null }
+  - { id: mali, name: Mali Empire, span: { start: 1235, end: 1670, source: taagepera-1997 }, reach_km2: null, peak_population: null }
+  - { id: aksum, name: Kingdom of Aksum, span: { start: 100, end: 940, source: taagepera-1997 }, reach_km2: null, peak_population: null }
+  - { id: srivijaya, name: Srivijaya, span: { start: 671, end: 1275, source: taagepera-1997 }, reach_km2: null, peak_population: null }
+  - { id: majapahit, name: Majapahit, span: { start: 1293, end: 1527, source: taagepera-1997 }, reach_km2: null, peak_population: null }
+  - { id: inca, name: Inca Empire, span: { start: 1438, end: 1533, source: taagepera-1997 }, reach_km2: null, peak_population: null }
+
+# Denominators for era-normalised mode. Both series must come from cited
+# sources. Where a denominator is missing for a date, era-normalised mode shows
+# a gap for that polity rather than falling back to the absolute figure —
+# see lib/ratings.ts.
+#
+# world_land_under_state_control_km2 is null throughout. No dataset in
+# sources.yaml carries that series, and deriving it by summing the polities in
+# this file would be a computation presented as a measurement. The axis
+# therefore shows a gap in era-normalised mode until a source for it is added,
+# which is the correct behaviour rather than a missing feature.
+world_denominators:
+  - { year: 800,  world_population: { value: 220000000, source: mcevedy-jones-1978 }, world_land_under_state_control_km2: null }
+  - { year: 900,  world_population: null, world_land_under_state_control_km2: null }
+  - { year: 1000, world_population: { value: 265000000, source: mcevedy-jones-1978 }, world_land_under_state_control_km2: null }
+  - { year: 1100, world_population: null, world_land_under_state_control_km2: null }
+  - { year: 1200, world_population: { value: 360000000, source: mcevedy-jones-1978 }, world_land_under_state_control_km2: null }
+  - { year: 1300, world_population: null, world_land_under_state_control_km2: null }
