@@ -14,9 +14,9 @@ export default function About() {
   )
 
   return (
-    <div className="min-h-screen bg-kaghaz text-dawat">
+    <div className="ground-paper min-h-screen">
       <SiteNav ground="paper" current="About" />
-      <main id="main" className="mx-auto max-w-[1180px] px-5 pb-24 pt-10 sm:px-8">
+      <main id="main" className="mx-auto w-full max-w-shell px-5 pb-24 pt-10 sm:px-8">
         <h1 className="text-[32px] leading-tight text-kashi">About</h1>
         <p className="mt-3 max-w-measure text-body">
           History Explorer is a reading site about polities — what they were, how far

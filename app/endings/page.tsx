@@ -33,9 +33,9 @@ export default function Endings() {
   const regionName = (id: string) => regions.find((r) => r.id === id)?.name ?? id
 
   return (
-    <div className="min-h-screen bg-kaghaz text-dawat">
+    <div className="ground-paper min-h-screen">
       <SiteNav ground="paper" current="Endings" />
-      <main id="main" className="mx-auto max-w-[1180px] px-5 pb-24 pt-10 sm:px-8">
+      <main id="main" className="mx-auto w-full max-w-shell px-5 pb-24 pt-10 sm:px-8">
         <h1 className="text-[32px] leading-tight text-kashi">Endings</h1>
         <p className="mt-3 max-w-measure text-body">
           Every polity here records how it stopped, typed from a closed list of six rather

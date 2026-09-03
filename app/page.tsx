@@ -49,7 +49,7 @@ export default function Home() {
   ]
 
   return (
-    <div className="min-h-screen bg-dawat text-kaghaz">
+    <div className="ground-dark min-h-screen">
       <SiteNav ground="dark" current="Home" />
       <main id="main" className="px-5 pb-24 pt-12 sm:px-8">
         <header className="max-w-measure">

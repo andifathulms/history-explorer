@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function NotFound() {
   return (
-    <div className="min-h-screen bg-dawat text-kaghaz">
+    <div className="ground-dark min-h-screen">
       <main id="main" className="mx-auto max-w-measure px-5 py-24 sm:px-8">
         <h1 className="text-[32px] text-kaghaz">Nothing here</h1>
         <p className="mt-4 text-debu-paper">

@@ -45,9 +45,9 @@ export default function TimelineView() {
   for (let y = Math.ceil(first / step) * step; y <= last; y += step) if (y !== 0) centuries.push(y)
 
   return (
-    <div className="min-h-screen bg-kaghaz text-dawat">
+    <div className="ground-paper min-h-screen">
       <SiteNav ground="paper" current="Timeline" />
-      <main id="main" className="mx-auto max-w-[1180px] px-5 pb-24 pt-10 sm:px-8">
+      <main id="main" className="mx-auto w-full max-w-shell px-5 pb-24 pt-10 sm:px-8">
         <h1 className="text-[32px] leading-tight text-kashi">Timeline</h1>
         <p className="mt-3 max-w-measure text-body">
           Overlap is the point. Six of these eight ran concurrently with at least one

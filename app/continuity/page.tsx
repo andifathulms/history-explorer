@@ -17,7 +17,7 @@ export default function ContinuityIndex() {
   const unthreaded = regions.filter((r) => !r.thread)
 
   return (
-    <div className="min-h-screen bg-dawat text-kaghaz">
+    <div className="ground-dark min-h-screen">
       <SiteNav ground="dark" current="Continuity" />
       <main id="main" className="px-5 pb-24 pt-10 sm:px-8">
         <header className="max-w-measure">

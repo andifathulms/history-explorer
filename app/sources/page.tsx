@@ -41,9 +41,9 @@ export default function Sources() {
   const max = Math.max(...used.map((u) => u.claims))
 
   return (
-    <div className="min-h-screen bg-kaghaz text-dawat">
+    <div className="ground-paper min-h-screen">
       <SiteNav ground="paper" current="Sources" />
-      <main id="main" className="mx-auto max-w-[1180px] px-5 pb-24 pt-10 sm:px-8">
+      <main id="main" className="mx-auto w-full max-w-shell px-5 pb-24 pt-10 sm:px-8">
         <h1 className="text-[32px] leading-tight text-kashi">Sources</h1>
         <p className="mt-3 max-w-measure text-body">
           {used.length} works carrying {totalClaims.toLocaleString('en-GB')} citations. The

@@ -57,13 +57,13 @@ export default function PolityPage({ params }: { params: { id: string } }) {
   return (
     // Paper ground: this is a reading view, and the change of ground says so
     // without a label.
-    <div className="min-h-screen bg-kaghaz text-dawat">
+    <div className="ground-paper min-h-screen">
       <SiteNav ground="paper" current="Polities" />
       {railPolities.length ? (
         <PolityRail polities={railPolities} active={p} variant="strip" />
       ) : null}
 
-      <div className="mx-auto flex max-w-[1180px] gap-10 px-5 pb-28 pt-8 sm:px-8">
+      <div className="mx-auto flex w-full max-w-shell gap-10 px-5 pb-28 pt-8 sm:px-8">
         {railPolities.length ? (
           <aside className="hidden lg:block lg:w-[200px] lg:shrink-0" aria-label="Thread position">
             <PolityRail polities={railPolities} active={p} variant="rail" />
