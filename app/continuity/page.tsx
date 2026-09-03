@@ -55,13 +55,20 @@ export default function ContinuityIndex() {
                       {r.name}
                     </h3>
                     <p className="mt-2 font-mono text-micro uppercase tabular-nums text-firuze">
-                      {formatSpan(from, to)} · {ps.length} polities · {es.length} edges
+                      {formatSpan(from, to)} · {ps.length} polities · {es.length} edge
+                      {es.length === 1 ? '' : 's'}
                     </p>
                     <p className="mt-4 text-[16px] leading-relaxed text-debu-paper">{r.blurb}</p>
                   </Link>
                 </li>
               )
             })}
+            {/* An odd number of threads leaves the tinted parent showing where a
+                card should be. One filler closes the rectangle; it is
+                decoration, so it is hidden from the accessibility tree. */}
+            {threaded.length % 2 === 1 ? (
+              <li aria-hidden className="hidden bg-dawat md:block" />
+            ) : null}
           </ul>
         </section>
 
@@ -71,11 +78,19 @@ export default function ContinuityIndex() {
               Regions without a thread
             </h2>
             <p className="mt-5 max-w-measure text-[17px] leading-relaxed text-debu-paper">
-              These are complete, not unfinished. Their polities have pages and stand in
-              the rankings like any other; no sourced succession edge yet joins two of
-              them, which for most of history is the ordinary case.
+              {unthreaded.length === 1 ? 'This one is' : 'These are'} complete, not
+              unfinished. {unthreaded.length === 1 ? 'Its' : 'Their'} polities have pages
+              and stand in the rankings like any other; no sourced succession edge yet
+              joins two of them, which for most of history is the ordinary case.
             </p>
-            <ul className="mt-8 grid gap-x-10 gap-y-4 sm:grid-cols-2 lg:grid-cols-3">
+            {/* A lone entry in a three-column grid sits under a rule a third of
+                the page wide, which reads as a layout that lost its siblings.
+                One region gets one column. */}
+            <ul
+              className={`mt-8 grid gap-x-10 gap-y-4 ${
+                unthreaded.length > 1 ? 'sm:grid-cols-2 lg:grid-cols-3' : 'max-w-measure'
+              }`}
+            >
               {unthreaded.map((r) => {
                 const n = politiesInRegion(r.id).length
                 return (
