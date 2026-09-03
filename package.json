@@ -1,8 +1,8 @@
 {
-  "name": "sambung",
+  "name": "history-explorer",
   "version": "0.1.0",
   "private": true,
-  "description": "A read-only history site about how one polity becomes the next.",
+  "description": "A reading site about polities: what they were, how they measure, and how some became the next.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

@@ -19,11 +19,11 @@ const amiri = Amiri({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Sambung',
-    template: '%s · Sambung',
+    default: 'History Explorer',
+    template: '%s · History Explorer',
   },
   description:
-    'How one polity becomes the next: typed, dated, cited succession across the Iranian Intermezzo.',
+    'A reading site about polities: what they were, how far they reached, how long they lasted, and — where a source says so — how one became the next.',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

@@ -1,4 +1,4 @@
-# Sambung
+# History Explorer
 
 A read-only history site about how one polity becomes the next.
 

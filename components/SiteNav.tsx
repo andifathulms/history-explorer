@@ -22,7 +22,7 @@ export function SiteNav({ ground, current }: { ground: 'dark' | 'paper'; current
       }`}
     >
       <Link href="/" className="text-[17px] font-semibold tracking-tight">
-        Sambung
+        History Explorer
       </Link>
       <ul className="flex flex-wrap gap-x-5 gap-y-1 text-[15px]">
         {links.slice(1).map((l) => (
