@@ -32,10 +32,29 @@ export default function TimelineView() {
 
   const first = Math.min(...rows.map((p) => p.span.start.min))
   const last = Math.max(...rows.map((p) => p.span.end.max))
+
+  // Counted, not asserted. The lede used to say "six of these eight", which was
+  // true when the corpus had eight polities and has been wrong for fifty-eight
+  // of them since. Deriving it means the sentence cannot go stale again.
+  const concurrent = rows.filter((p) =>
+    rows.some(
+      (q) =>
+        q.id !== p.id &&
+        p.span.start.min <= q.span.end.max &&
+        q.span.start.min <= p.span.end.max,
+    ),
+  ).length
+
   const W = 900
   const LABEL = 150
-  const ROW = 62
+  // Two lines of label per row and no more. At 62 this chart ran to 4,150
+  // units — five screens of mostly gap, with the year axis only at the top.
+  const ROW = 46
   const H = rows.length * ROW + 56
+  // A four-thousand-unit chart needs its axis more than once. The scale repeats
+  // every band so a reader who has scrolled past the header still knows what
+  // year a bar sits at.
+  const BAND = 14
   const x = (year: number) => LABEL + ((year - first) / (last - first)) * (W - LABEL - 24)
 
   // Labels like "2300 BC" need width, and the corpus now spans four millennia.
@@ -50,14 +69,32 @@ export default function TimelineView() {
         <Shell className="pb-24">
           <PageHead kicker="Concurrency, not sequence" title="Timeline" ground="paper">
             <p>
-          Overlap is the point. Six of these eight ran concurrently with at least one
-          other, and several of them were hostile to the polity drawn directly above or
-              below. A soft bar end means the sources disagree about when it started or
-              stopped.
+              Overlap is the point: {concurrent} of these {rows.length} ran concurrently
+              with at least one other, which is the thing a list of dynasties by region
+              cannot show you. Rows are sorted by cited start date, so a neighbour on this
+              axis is a contemporary. A soft bar end means the sources disagree about when
+              it started or stopped.
             </p>
           </PageHead>
 
-        <div className="-mx-5 mt-12 overflow-x-auto px-5 sm:-mx-8 sm:px-8">
+        {/* Above the chart, not below it. A key at the foot of four thousand
+            pixels is a key you cannot see while you are reading the marks. */}
+        <div className="mt-12 flex flex-wrap gap-x-6 gap-y-2 border-t border-kashi/15 pt-5 font-mono text-micro uppercase text-debu-ink">
+          <span className="flex items-center gap-2">
+            <span className="inline-block h-2.5 w-2.5 rounded-full bg-zarrin-ink" /> peak chapter
+          </span>
+          <span className="flex items-center gap-2">
+            <span className="inline-block h-2.5 w-2.5 rounded-full bg-firuze-ink" /> other tagged phase
+          </span>
+          <span className="flex items-center gap-2">
+            <span className="inline-block h-2.5 w-2.5 rounded-full bg-debu-ink" /> untagged chapter
+          </span>
+          <span className="flex items-center gap-2">
+            <span className="inline-block h-2.5 w-6 rounded-full bg-kashi/15" /> contested span
+          </span>
+        </div>
+
+        <div className="-mx-5 mt-8 overflow-x-auto px-5 sm:-mx-8 sm:px-8">
           <svg
             width="100%"
             viewBox={`0 0 ${W} ${H}`}
@@ -67,25 +104,50 @@ export default function TimelineView() {
             aria-label={`Timeline of ${rows.length} polities from ${first} to ${last}`}
           >
             {centuries.map((year) => (
-              <g key={year}>
-                <line
-                  x1={x(year)}
-                  x2={x(year)}
-                  y1={28}
-                  y2={H - 12}
-                  className="stroke-kashi/15"
-                  strokeWidth={1}
-                />
-                <text
-                  x={x(year)}
-                  y={18}
-                  className="fill-debu-ink font-mono text-[11px] tabular-nums"
-                  textAnchor="middle"
-                >
-                  {formatYear(year)}
-                </text>
-              </g>
+              <line
+                key={`grid-${year}`}
+                x1={x(year)}
+                x2={x(year)}
+                y1={28}
+                y2={H - 12}
+                className="stroke-kashi/15"
+                strokeWidth={1}
+              />
             ))}
+
+            {/* The scale, repeated every band. A chart this tall labelled only
+                at its head asks the reader to hold the axis in their memory for
+                three thousand pixels. */}
+            {Array.from({ length: Math.ceil(rows.length / BAND) }).map((_, band) => {
+              const y = band === 0 ? 18 : 44 + band * BAND * ROW - 20
+              return (
+                <g key={`axis-${band}`}>
+                  {band > 0 ? (
+                    <line
+                      /* Starts at the plot edge: run to x=0 and it underlines
+                         the polity name in the row above. */
+                      x1={LABEL - 12}
+                      x2={W}
+                      y1={y + 7}
+                      y2={y + 7}
+                      className="stroke-kashi/20"
+                      strokeWidth={1}
+                    />
+                  ) : null}
+                  {centuries.map((year) => (
+                    <text
+                      key={year}
+                      x={x(year)}
+                      y={y}
+                      className="fill-debu-ink font-mono text-[11px] tabular-nums"
+                      textAnchor="middle"
+                    >
+                      {formatYear(year)}
+                    </text>
+                  ))}
+                </g>
+              )
+            })}
 
             {rows.map((p, i) => {
               const y = 44 + i * ROW
@@ -117,7 +179,7 @@ export default function TimelineView() {
                       </text>
                     </Link>
                   )}
-                  <text x={0} y={y + 20} className="fill-debu-ink font-mono text-[10px] tabular-nums">
+                  <text x={0} y={y + 18} className="fill-debu-ink font-mono text-[10px] tabular-nums">
                     {formatSpan(p.span.start.min, p.span.end.max)}
                   </text>
 
@@ -167,20 +229,6 @@ export default function TimelineView() {
           </svg>
         </div>
 
-        <div className="mt-8 flex flex-wrap gap-x-6 gap-y-2 font-mono text-micro uppercase text-debu-ink">
-          <span className="flex items-center gap-2">
-            <span className="inline-block h-2.5 w-2.5 rounded-full bg-zarrin-ink" /> peak chapter
-          </span>
-          <span className="flex items-center gap-2">
-            <span className="inline-block h-2.5 w-2.5 rounded-full bg-firuze-ink" /> other tagged phase
-          </span>
-          <span className="flex items-center gap-2">
-            <span className="inline-block h-2.5 w-2.5 rounded-full bg-debu-ink" /> untagged chapter
-          </span>
-          <span className="flex items-center gap-2">
-            <span className="inline-block h-2.5 w-6 rounded-full bg-kashi/15" /> contested span
-          </span>
-        </div>
 
         <section className="mt-16 max-w-measure border-t border-kashi/15 pt-8">
           <h2 className="font-display text-title font-semibold text-kashi-deep">
