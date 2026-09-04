@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**947 claims across 71 sources.**
+**958 claims across 74 sources.**
 
 ## Where to start
 
@@ -269,6 +269,46 @@ ordinary state, not an item to clear.
 - [ ] `polity/yuan` — last Toghon Temur r. 1333-1368
 - [ ] `polity/yuan` — descendant_scripts = 1 (Phags-pa script)
 
+## Jamil M. Abun-Nasr, A History of the Maghrib in the Islamic Period
+
+`abun-nasr-1987` — 33 claims
+
+**Sole source** for `idrisid` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/aghlabid/01-a-province-for-rent.mdx` — prose: "A province, for tribute"
+- [ ] `chapter/aghlabid/02-sicily.mdx` — prose: "Seventy-five years for one island"
+- [ ] `chapter/idrisid/01-fez.mdx` — prose: "A fugitive founds a city"
+- [ ] `chapter/idrisid/02-descent-as-a-claim.mdx` — prose: "Descent, used as a claim"
+- [ ] `chapter/rustamid/01-tahert.mdx` — prose: "An elected imamate"
+- [ ] `chapter/rustamid/02-the-trade.mdx` — prose: "Doctrine along the caravan routes"
+- [ ] `chapter/umayyad/07-the-berber-revolt.mdx` — prose: "Where it broke first"
+- [ ] `edge/abbasid->aghlabid` — vassal of in 800
+- [ ] `polity/aghlabid` — span starts 800
+- [ ] `polity/aghlabid` — span ends 909
+- [ ] `polity/aghlabid` — capital Kairouan from 800
+- [ ] `polity/aghlabid` — founder Ibrahim I ibn al-Aghlab r. 800-812
+- [ ] `polity/aghlabid` — peak Ziyadat Allah I r. 817-838
+- [ ] `polity/aghlabid` — last Ziyadat Allah III r. 903-909
+- [ ] `polity/aghlabid` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/idrisid` — span starts 788
+- [ ] `polity/idrisid` — span ends 974
+- [ ] `polity/idrisid` — capital Fez from 788
+- [ ] `polity/idrisid` — founder Idris I r. 788-791
+- [ ] `polity/idrisid` — peak Idris II r. 803-828
+- [ ] `polity/idrisid` — last al-Hasan al-Hajjam r. 970-974
+- [ ] `polity/idrisid` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/idrisid` — ended by gradual absorption in 974
+- [ ] `polity/rustamid` — span starts 776
+- [ ] `polity/rustamid` — span ends 909
+- [ ] `polity/rustamid` — capital Tahert from 776
+- [ ] `polity/rustamid` — founder Abd al-Rahman ibn Rustam r. 776-788
+- [ ] `polity/rustamid` — peak Aflah ibn Abd al-Wahhab r. 823-872
+- [ ] `polity/rustamid` — last Yaqzan ibn Muhammad r. 894-909
+- [ ] `polity/rustamid` — revenue basis coded trade-toll
+- [ ] `polity/rustamid` — succession rule coded election
+- [ ] `polity/rustamid` — legitimation coded election
+- [ ] `polity/umayyad` — turning point 740 The Berber revolt
+
 ## Peter B. Golden, An Introduction to the History of the Turkic Peoples
 
 `golden-1992` — 33 claims
@@ -306,45 +346,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/uyghur-khaganate` — turning point 762 Bogu Khagan's adoption of Manichaeism
 - [ ] `polity/uyghur-khaganate` — religions_carried = 1 (Manichaeism)
 - [ ] `polity/uyghur-khaganate` — ended by conquest in 840
-
-## Jamil M. Abun-Nasr, A History of the Maghrib in the Islamic Period
-
-`abun-nasr-1987` — 32 claims
-
-**Sole source** for `idrisid` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/aghlabid/01-a-province-for-rent.mdx` — prose: "A province, for tribute"
-- [ ] `chapter/aghlabid/02-sicily.mdx` — prose: "Seventy-five years for one island"
-- [ ] `chapter/idrisid/01-fez.mdx` — prose: "A fugitive founds a city"
-- [ ] `chapter/idrisid/02-descent-as-a-claim.mdx` — prose: "Descent, used as a claim"
-- [ ] `chapter/rustamid/01-tahert.mdx` — prose: "An elected imamate"
-- [ ] `chapter/rustamid/02-the-trade.mdx` — prose: "Doctrine along the caravan routes"
-- [ ] `chapter/umayyad/04-the-berber-revolt.mdx` — prose: "Where it broke first"
-- [ ] `edge/abbasid->aghlabid` — vassal of in 800
-- [ ] `polity/aghlabid` — span starts 800
-- [ ] `polity/aghlabid` — span ends 909
-- [ ] `polity/aghlabid` — capital Kairouan from 800
-- [ ] `polity/aghlabid` — founder Ibrahim I ibn al-Aghlab r. 800-812
-- [ ] `polity/aghlabid` — peak Ziyadat Allah I r. 817-838
-- [ ] `polity/aghlabid` — last Ziyadat Allah III r. 903-909
-- [ ] `polity/aghlabid` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/idrisid` — span starts 788
-- [ ] `polity/idrisid` — span ends 974
-- [ ] `polity/idrisid` — capital Fez from 788
-- [ ] `polity/idrisid` — founder Idris I r. 788-791
-- [ ] `polity/idrisid` — peak Idris II r. 803-828
-- [ ] `polity/idrisid` — last al-Hasan al-Hajjam r. 970-974
-- [ ] `polity/idrisid` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/idrisid` — ended by gradual absorption in 974
-- [ ] `polity/rustamid` — span starts 776
-- [ ] `polity/rustamid` — span ends 909
-- [ ] `polity/rustamid` — capital Tahert from 776
-- [ ] `polity/rustamid` — founder Abd al-Rahman ibn Rustam r. 776-788
-- [ ] `polity/rustamid` — peak Aflah ibn Abd al-Wahhab r. 823-872
-- [ ] `polity/rustamid` — last Yaqzan ibn Muhammad r. 894-909
-- [ ] `polity/rustamid` — revenue basis coded trade-toll
-- [ ] `polity/rustamid` — succession rule coded election
-- [ ] `polity/rustamid` — legitimation coded election
 
 ## Rein Taagepera, Size and Duration of Empires: Growth-Decline Curves, 600 B.C. to 600 A.D.
 *In Social Science History 3(3/4), 115-138.*
@@ -453,7 +454,7 @@ ordinary state, not an item to clear.
 - [ ] `chapter/abbasid/01-revolution.mdx` — prose: "What the revolution actually changed"
 - [ ] `chapter/hamdanid/01-sayf-al-dawla.mdx` — prose: "Sayf al-Dawla's frontier"
 - [ ] `chapter/hamdanid/02-mutanabbi.mdx` — prose: "The poet and the frontier"
-- [ ] `chapter/umayyad/03-mawali.mdx` — prose: "The converts problem"
+- [ ] `chapter/umayyad/06-mawali.mdx` — prose: "The converts problem"
 - [ ] `edge/rashidun->abbasid` — claimed legitimacy of in 750
 - [ ] `polity/abbasid` — legitimation coded descent
 - [ ] `polity/abbasid` — religions_carried = 1 (Islam)
@@ -559,6 +560,30 @@ ordinary state, not an item to clear.
 - [ ] `polity/seleucid` — peak Antiochus III r. -222--187
 - [ ] `polity/seleucid` — last Philip II Philoromaeus r. -65--63
 
+## G. R. Hawting, The First Dynasty of Islam: The Umayyad Caliphate AD 661-750
+
+`hawting-2000` — 19 claims
+
+- [ ] `chapter/umayyad/01-muawiya.mdx` — prose: "Mu'awiya's arrangement"
+- [ ] `chapter/umayyad/02-karbala.mdx` — prose: "Karbala, and the war that remade the dynasty"
+- [ ] `chapter/umayyad/04-abd-al-malik.mdx` — prose: "What Abd al-Malik built"
+- [ ] `chapter/umayyad/08-khurasan.mdx` — prose: "The revolution came from Khurasan"
+- [ ] `edge/rashidun->umayyad` — claimed legitimacy of in 661
+- [ ] `edge/umayyad->abbasid` — overthrew in 750
+- [ ] `polity/umayyad` — span starts 661
+- [ ] `polity/umayyad` — span ends 750
+- [ ] `polity/umayyad` — capital Damascus from 661
+- [ ] `polity/umayyad` — capital Harran from 744
+- [ ] `polity/umayyad` — founder Mu'awiya ibn Abi Sufyan r. 661-680
+- [ ] `polity/umayyad` — peak Abd al-Malik ibn Marwan r. 685-705
+- [ ] `polity/umayyad` — last Marwan II r. 744-750
+- [ ] `polity/umayyad` — succession rule coded nomination
+- [ ] `polity/umayyad` — turning point 680 Karbala
+- [ ] `polity/umayyad` — turning point 684 Marj Rahit
+- [ ] `polity/umayyad` — turning point 696 The epigraphic dinar and the Arabic registers
+- [ ] `polity/umayyad` — religions_carried = 1 (Islam)
+- [ ] `polity/umayyad` — ended by dynastic replacement in 750
+
 ## Colin Imber, The Ottoman Empire, 1300-1650: The Structure of Power
 
 `imber-2002` — 17 claims
@@ -661,25 +686,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/safavid` — turning point 1501 The Shi’i decree at Tabriz
 - [ ] `polity/safavid` — religions_carried = 1 (Twelver Shi'ism)
 - [ ] `polity/safavid` — ended by conquest in 1736
-
-## G. R. Hawting, The First Dynasty of Islam: The Umayyad Caliphate AD 661-750
-
-`hawting-2000` — 14 claims
-
-- [ ] `chapter/umayyad/01-muawiya.mdx` — prose: "Mu'awiya's arrangement"
-- [ ] `chapter/umayyad/02-abd-al-malik.mdx` — prose: "What Abd al-Malik built"
-- [ ] `chapter/umayyad/05-khurasan.mdx` — prose: "The revolution came from Khurasan"
-- [ ] `edge/rashidun->umayyad` — claimed legitimacy of in 661
-- [ ] `edge/umayyad->abbasid` — overthrew in 750
-- [ ] `polity/umayyad` — span starts 661
-- [ ] `polity/umayyad` — span ends 750
-- [ ] `polity/umayyad` — capital Damascus from 661
-- [ ] `polity/umayyad` — capital Harran from 744
-- [ ] `polity/umayyad` — founder Mu'awiya ibn Abi Sufyan r. 661-680
-- [ ] `polity/umayyad` — peak Abd al-Malik ibn Marwan r. 685-705
-- [ ] `polity/umayyad` — last Marwan II r. 744-750
-- [ ] `polity/umayyad` — religions_carried = 1 (Islam)
-- [ ] `polity/umayyad` — ended by dynastic replacement in 750
 
 ## Pierre Briant, From Cyrus to Alexander: A History of the Persian Empire
 
@@ -1401,6 +1407,22 @@ ordinary state, not an item to clear.
 - [ ] `chapter/mongol/03-division.mdx` — prose: "An empire that divided itself"
 - [ ] `polity/mongol` — span end upper bound 1368
 
+## Khalid Yahya Blankinship, The End of the Jihad State: The Reign of Hisham Ibn 'Abd al-Malik and the Collapse of the Umayyads
+*In SUNY Series in Medieval Middle East History.*
+
+`blankinship-1994` — 2 claims
+
+- [ ] `polity/umayyad` — revenue basis coded land-tax + poll-tax + plunder
+- [ ] `polity/umayyad` — turning point 718 The second siege of Constantinople
+
+## Patricia Crone and Martin Hinds, God's Caliph: Religious Authority in the First Centuries of Islam
+*In University of Cambridge Oriental Publications 37.*
+
+`crone-hinds-1986` — 2 claims
+
+- [ ] `chapter/umayyad/05-khalifat-allah.mdx` — prose: "What they called themselves"
+- [ ] `polity/umayyad` — legitimation coded divine-sanction + descent
+
 ## R. N. Frye (ed.), The Cambridge History of Iran, Volume 4: From the Arab Invasion to the Saljuqs
 
 `chi-4` — 1 claims
@@ -1427,3 +1449,9 @@ ordinary state, not an item to clear.
 `hoyland-1997` — 1 claims
 
 - [ ] `chapter/rashidun/08-the-sources.mdx` — prose: "What the neighbours wrote down"
+
+## Hugh Kennedy, The Great Arab Conquests: How the Spread of Islam Changed the World We Live In
+
+`kennedy-2007` — 1 claims
+
+- [ ] `chapter/umayyad/03-the-second-wave.mdx` — prose: "Three frontiers in one decade"

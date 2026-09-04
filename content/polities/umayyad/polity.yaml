@@ -37,9 +37,79 @@ ended:
 
 institutions:
   military_basis: { values: [tribal-levy], source: kennedy-2004 }
-  revenue_basis: null
-  succession_rule: null
-  legitimation: null
+  # Plunder is coded here on Blankinship's argument that conquest income was
+  # structural rather than incidental: stipends, loyalty and legitimacy all
+  # assumed a growing revenue, and the dynasty's last thirty years are what
+  # happened when the growth stopped. Kharaj and jizya are the settled taxes
+  # the mawali chapter is a quarrel about.
+  revenue_basis: { values: [land-tax, poll-tax, plunder], source: blankinship-1994 }
+  # Mu'awiya had Yazid acknowledged in his own lifetime and took oaths from the
+  # provinces in advance, which nobody had done. It was never defended as a
+  # principle — the practice arrived and the theory did not — but a designated
+  # heir is the rule this dynasty actually ran on.
+  succession_rule: { values: [nomination], source: hawting-2000 }
+  # Coded from what the dynasty claimed rather than from what the dynasty that
+  # replaced it said it claimed. Crone and Hinds read khalifat Allah — deputy
+  # of God — off coinage, inscription and poetry the Abbasid tradition did not
+  # curate; the thesis is contested and the chapter drafted from it says so.
+  # Descent is the Qurashi and Uthmanid claim Mu'awiya's case rested on.
+  legitimation: { values: [divine-sanction, descent], source: crone-hinds-1986 }
+
+turning_points:
+  - year: 680
+    type: battle
+    name: "Karbala"
+    changed: >-
+      A skirmish that took an afternoon gave a political tendency a founding
+      injustice, a martyr, a place and a date — and it was inflicted by the
+      caliph's own troops on the Prophet's own grandson, which is not a charge
+      any later settlement could answer. The Umayyads were illegitimate to the
+      Shi'a from this point regardless of anything they did afterwards.
+    source: hawting-2000
+    contested: false
+  - year: 684
+    type: succession-crisis
+    name: "Marj Rahit"
+    changed: >-
+      The Sufyanid line ended and the Marwanid branch took the caliphate, on a
+      victory won by mobilising the Yaman confederation against the Qays. That
+      saved the dynasty and converted a tribal rivalry into the organising
+      principle of its provincial politics: every governorship for the next
+      sixty years was a Qaysi or a Yamani appointment.
+    source: hawting-2000
+    contested: false
+  - year: 696
+    type: reform
+    name: "The epigraphic dinar and the Arabic registers"
+    changed: >-
+      A state that had taxed through somebody else's bureaucracy, in somebody
+      else's language, using coin carrying somebody else's god, replaced all
+      three: purely inscriptional coinage with no portrait, cross or fire
+      altar, and tax registers converted to Arabic across Syria, Iraq and Egypt
+      over the following decade. It also created the demand for an
+      Arabic-literate official class that the mawali quarrel is downstream of.
+    source: hawting-2000
+    contested: false
+  - year: 718
+    type: siege
+    name: "The second siege of Constantinople"
+    changed: >-
+      A large Syrian army and its fleet were destroyed outside the walls over a
+      winter, and the Arab armies never seriously tried again. The Taurus
+      became a frontier rather than a stage, and the expansion on whose
+      continuation the stipend system was premised met a limit it did not pass.
+    source: blankinship-1994
+    contested: false
+  - year: 740
+    type: revolt
+    name: "The Berber revolt"
+    changed: >-
+      Umayyad authority was never restored west of Ifriqiya. The caliphate lost
+      its western third a decade before it lost the rest, and the Abbasids
+      inherited that loss rather than causing it — the space the revolt cleared
+      is where the Rustamids, Idrisids and Aghlabids on this site begin.
+    source: abun-nasr-1987
+    contested: false
 
 measures:
   reach_km2: { value: 11100000, at: 720, source: taagepera-1997 }

@@ -204,6 +204,48 @@ sources:
       chapters here are about tribal mobilisation and garrison towns rather than
       battles.
 
+  - id: kennedy-2007
+    kind: book
+    author: Hugh Kennedy
+    title: "The Great Arab Conquests: How the Spread of Islam Changed the World We Live In"
+    publisher: Weidenfeld & Nicolson
+    year: 2007
+    note: >-
+      Used for the second wave of conquest under al-Walid I — Transoxiana, Sind
+      and al-Andalus in the same decade — which is the campaign that produced
+      this site's second-largest reach figure and which the Umayyad page had no
+      chapter for.
+
+  - id: blankinship-1994
+    kind: book
+    author: Khalid Yahya Blankinship
+    title: "The End of the Jihad State: The Reign of Hisham Ibn 'Abd al-Malik and the Collapse of the Umayyads"
+    container: SUNY Series in Medieval Middle East History
+    publisher: State University of New York Press
+    year: 1994
+    note: >-
+      The argument that the Umayyad state was structurally financed by
+      continuing conquest and could not survive its stopping. Cited here for
+      the Umayyad revenue coding — it is the source that treats campaign
+      proceeds as structural income rather than as something armies did — and
+      for the second siege of Constantinople as the point the expansion met a
+      limit it never passed.
+
+  - id: crone-hinds-1986
+    kind: book
+    author: Patricia Crone and Martin Hinds
+    title: "God's Caliph: Religious Authority in the First Centuries of Islam"
+    container: University of Cambridge Oriental Publications 37
+    publisher: Cambridge University Press
+    year: 1986
+    note: >-
+      Argues from early poetry, coinage and epigraphy that the Umayyads styled
+      themselves khalifat Allah, deputy of God, and claimed a religious
+      authority the later Sunni tradition reserved for the scholars. The thesis
+      is contested and the Umayyad chapter drafted from it says so; it is cited
+      because the legitimation coding on that page has to rest on what the
+      dynasty claimed rather than on what its successors said it claimed.
+
   - id: hinds-1972
     kind: chapter
     author: Martin Hinds
