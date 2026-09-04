@@ -204,6 +204,31 @@ sources:
       chapters here are about tribal mobilisation and garrison towns rather than
       battles.
 
+  - id: walker-2009
+    kind: book
+    author: Paul E. Walker
+    title: "Caliph of Cairo: Al-Hakim bi-Amr Allah, 996-1021"
+    publisher: American University in Cairo Press
+    year: 2009
+    note: >-
+      The full-length study of the Fatimid caliph the sources cannot agree
+      about. Used because the chapter drafted from it is as much about the
+      historiography as about the reign: Walker's point that the mad tyrant and
+      the divinely ordained imam are two constituencies' portraits of the same
+      man is the reason this site declines to pick one.
+
+  - id: goitein-1967
+    kind: book
+    author: S. D. Goitein
+    title: "A Mediterranean Society: The Jewish Communities of the Arab World as Portrayed in the Documents of the Cairo Geniza"
+    publisher: University of California Press
+    year: 1967
+    note: >-
+      Six volumes published between 1967 and 1993; cited by the first. Used for
+      the Fatimid chapter on the Geniza, which is the one place in this corpus
+      where a polity's ordinary economic life is documented by its own paper
+      rather than reconstructed from chronicles written afterwards.
+
   - id: gutas-1998
     kind: book
     author: Dimitri Gutas

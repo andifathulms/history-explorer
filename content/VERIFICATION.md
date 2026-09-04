@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**965 claims across 75 sources.**
+**977 claims across 77 sources.**
 
 ## Where to start
 
@@ -587,6 +587,29 @@ ordinary state, not an item to clear.
 - [ ] `polity/umayyad` — religions_carried = 1 (Islam)
 - [ ] `polity/umayyad` — ended by dynastic replacement in 750
 
+## Michael Brett, The Fatimid Empire
+
+`brett-2017` — 18 claims
+
+- [ ] `chapter/fatimid/02-cairo.mdx` — prose: "Cairo"
+- [ ] `chapter/fatimid/05-the-shidda.mdx` — prose: "The years the Nile did not come"
+- [ ] `chapter/fatimid/06-jerusalem-1099.mdx` — prose: "Losing the coast"
+- [ ] `chapter/fatimid/07-decline.mdx` — prose: "The viziers, and Saladin"
+- [ ] `edge/ikhshidid->fatimid` — conquered by in 969
+- [ ] `polity/fatimid` — span ends 1171
+- [ ] `polity/fatimid` — capital Cairo from 973
+- [ ] `polity/fatimid` — peak al-Mustansir r. 1036-1094
+- [ ] `polity/fatimid` — last al-Adid r. 1160-1171
+- [ ] `polity/fatimid` — military basis coded tribal-levy + slave-soldier
+- [ ] `polity/fatimid` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/fatimid` — turning point 969 The founding of Cairo
+- [ ] `polity/fatimid` — turning point 1065 The shidda
+- [ ] `polity/fatimid` — turning point 1074 Badr al-Jamali's vizierate
+- [ ] `polity/fatimid` — turning point 1094 The Nizari schism
+- [ ] `polity/fatimid` — turning point 1099 The loss of Jerusalem
+- [ ] `polity/fatimid` — religions_carried = 1 (Isma'ili Shi'ism)
+- [ ] `polity/ikhshidid` — ended by conquest in 969
+
 ## Colin Imber, The Ottoman Empire, 1300-1650: The Structure of Power
 
 `imber-2002` — 17 claims
@@ -926,6 +949,22 @@ ordinary state, not an item to clear.
 - [ ] `polity/rum` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/rum` — ended by gradual absorption in 1308
 
+## Heinz Halm, The Empire of the Mahdi: The Rise of the Fatimids
+
+`halm-1996` — 11 claims
+
+- [ ] `chapter/fatimid/01-mahdi.mdx` — prose: "A counter-caliphate"
+- [ ] `chapter/fatimid/04-the-dawa.mdx` — prose: "The apparatus that outlived the state"
+- [ ] `edge/aghlabid->fatimid` — overthrew in 909
+- [ ] `edge/rustamid->fatimid` — conquered by in 909
+- [ ] `polity/aghlabid` — ended by conquest in 909
+- [ ] `polity/fatimid` — span starts 909
+- [ ] `polity/fatimid` — capital Mahdiyya from 921
+- [ ] `polity/fatimid` — founder Abd Allah al-Mahdi r. 909-934
+- [ ] `polity/fatimid` — succession rule coded nomination
+- [ ] `polity/fatimid` — legitimation coded descent + divine-sanction
+- [ ] `polity/rustamid` — ended by conquest in 909
+
 ## Stuart Munro-Hay, Aksum: An African Civilisation of Late Antiquity
 
 `munro-hay-1991` — 11 claims
@@ -1155,21 +1194,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/chagatai` — last Qazan r. 1343-1347
 - [ ] `polity/chagatai` — ended by fragmentation in 1347
 
-## Michael Brett, The Fatimid Empire
-
-`brett-2017` — 10 claims
-
-- [ ] `chapter/fatimid/02-cairo.mdx` — prose: "Cairo"
-- [ ] `chapter/fatimid/04-decline.mdx` — prose: "The viziers, and Saladin"
-- [ ] `edge/ikhshidid->fatimid` — conquered by in 969
-- [ ] `polity/fatimid` — span ends 1171
-- [ ] `polity/fatimid` — capital Cairo from 973
-- [ ] `polity/fatimid` — peak al-Mustansir r. 1036-1094
-- [ ] `polity/fatimid` — last al-Adid r. 1160-1171
-- [ ] `polity/fatimid` — turning point 969 The founding of Cairo
-- [ ] `polity/fatimid` — religions_carried = 1 (Isma'ili Shi'ism)
-- [ ] `polity/ikhshidid` — ended by conquest in 969
-
 ## Denis Twitchett and Michael Loewe (eds), The Cambridge History of China, Volume 1: The Ch'in and Han Empires, 221 BC-AD 220
 
 `loewe-twitchett-1986` — 10 claims
@@ -1214,20 +1238,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/xiongnu` — peak Modu Chanyu r. -209--174
 - [ ] `polity/xiongnu` — last Unknown r. 91-91
 - [ ] `polity/xiongnu` — ended by fragmentation in 91
-
-## Heinz Halm, The Empire of the Mahdi: The Rise of the Fatimids
-
-`halm-1996` — 9 claims
-
-- [ ] `chapter/fatimid/01-mahdi.mdx` — prose: "A counter-caliphate"
-- [ ] `chapter/fatimid/03-the-dawa.mdx` — prose: "The apparatus that outlived the state"
-- [ ] `edge/aghlabid->fatimid` — overthrew in 909
-- [ ] `edge/rustamid->fatimid` — conquered by in 909
-- [ ] `polity/aghlabid` — ended by conquest in 909
-- [ ] `polity/fatimid` — span starts 909
-- [ ] `polity/fatimid` — capital Mahdiyya from 921
-- [ ] `polity/fatimid` — founder Abd Allah al-Mahdi r. 909-934
-- [ ] `polity/rustamid` — ended by conquest in 909
 
 ## Ian Shaw (ed.), The Oxford History of Ancient Egypt
 
@@ -1440,6 +1450,18 @@ ordinary state, not an item to clear.
 `chi-4` — 1 claims
 
 - [ ] `chapter/buyid/02-daylam.mdx` — prose: "Down from Daylam"
+
+## Paul E. Walker, Caliph of Cairo: Al-Hakim bi-Amr Allah, 996-1021
+
+`walker-2009` — 1 claims
+
+- [ ] `chapter/fatimid/03-al-hakim.mdx` — prose: "The caliph the sources cannot agree about"
+
+## S. D. Goitein, A Mediterranean Society: The Jewish Communities of the Arab World as Portrayed in the Documents of the Cairo Geniza
+
+`goitein-1967` — 1 claims
+
+- [ ] `chapter/fatimid/08-the-geniza.mdx` — prose: "A storeroom in Fustat"
 
 ## Martin Hinds, The Murder of the Caliph 'Uthman
 *In International Journal of Middle East Studies 3(4), 450-469.*

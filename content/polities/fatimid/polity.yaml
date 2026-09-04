@@ -35,6 +35,25 @@ ended:
   year: 1171
   source: humphreys-1977
 
+institutions:
+  # Kutama Berber tribal contingents raised by the da'wa took Ifriqiya and then
+  # Egypt; from the eleventh century the army was Turkish and Sudanese
+  # regiments recruited separately and loyal separately, which is what fought
+  # itself through Cairo during the shidda.
+  military_basis: { values: [tribal-levy, slave-soldier], source: brett-2017 }
+  # The Nile, and a Red Sea and Indian Ocean trade deliberately cultivated as
+  # an alternative to the Gulf routes running through Abbasid Iraq. The Geniza
+  # chapter is that second half of the coding documented from the inside.
+  revenue_basis: { values: [land-tax, trade-toll], source: brett-2017 }
+  # Nass: the imam designates his successor, and the designation is doctrine
+  # rather than practice. That is why the disputed succession of 1094 did not
+  # merely divide a dynasty but split the mission permanently.
+  succession_rule: { values: [nomination], source: halm-1996 }
+  # Descent from Fatima and Ali, and the imamate that descent carries. Not
+  # caliphal-investiture and not election: the whole Fatimid claim is that the
+  # office belongs to a line by right and that Baghdad holds it by usurpation.
+  legitimation: { values: [descent, divine-sanction], source: halm-1996 }
+
 turning_points:
   - year: 969
     type: capital-move
@@ -48,6 +67,53 @@ turning_points:
     source: brett-2017
     contested: false
 
+  - year: 1065
+    type: catastrophe
+    name: "The shidda"
+    changed: >-
+      The Nile came in short for several years running in a country whose
+      agriculture is a function of that flood, the separately recruited
+      regiments fought each other through Cairo for what revenue was left, and
+      the treasury and the palace libraries were emptied to pay soldiers. Egypt
+      recovered; the caliphate never again governed without a soldier standing
+      over it.
+    source: brett-2017
+    contested: false
+  - year: 1074
+    type: reform
+    name: "Badr al-Jamali's vizierate"
+    changed: >-
+      An Armenian commander brought his own troops from Acre, ended the
+      factional war, and took the vizierate together with the armies, the
+      judiciary and the mission — every civil and religious office the state
+      had. The caliph reigned and the vizier ruled thereafter, and the office
+      that saved the dynasty in 1074 is the office that ended it in 1171.
+    source: brett-2017
+    contested: false
+  - year: 1094
+    type: succession-crisis
+    name: "The Nizari schism"
+    changed: >-
+      A vizier put his own candidate on the throne over the claim of
+      al-Mustansir's elder son, and the da'wa split along the same line.
+      Hasan-i Sabbah, holding Alamut as a Fatimid agent, backed the losing
+      claimant and ran the eastern network independently of the caliphate that
+      had built it — which outlasted Cairo by eighty-five years.
+    source: brett-2017
+    contested: false
+  - year: 1099
+    type: siege
+    name: "The loss of Jerusalem"
+    changed: >-
+      The city had been retaken from the Seljuks eleven months earlier, so the
+      power the First Crusade dispossessed there was the Isma'ili caliphate and
+      not the Sunni sultanate the Crusade had been preached against. The
+      Levantine ports followed over the next fifty years, and a caliphate that
+      had held Sicily, the Hijaz and the Friday sermon at Mecca became a power
+      whose reach ended at its own delta.
+    source: brett-2017
+    contested: false
+
 measures:
   reach_km2: { value: 4100000, at: 969, source: taagepera-1997 }
   peak_population: null
@@ -57,4 +123,10 @@ measures:
       count: 1
       items: [Isma'ili Shi'ism]
       source: brett-2017
+    # The Sulayhids of Yemen ruled in the Fatimid caliph's name and the Nizari
+    # and Musta'li lines both continue the imamate, but neither is a later
+    # polity publicly claiming a predecessor's legitimacy: the first is
+    # subordination to a living contemporary and the second is a continuing
+    # religious hierarchy rather than a state. Null, because no consulted
+    # source addresses the question in the terms the coding rules require.
     successor_claims: { count: null, items: [], source: null }
