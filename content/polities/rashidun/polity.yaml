@@ -35,7 +35,52 @@ ended:
   year: 661
   source: madelung-1997
 
+institutions:
+  # Raised through tribal contingents that Medina directed rather than created —
+  # the ridda demonstrated the capability and the conquests used it. The diwan
+  # made those men salaried, which is a fact about revenue and not about
+  # recruitment, so it is coded on the revenue field and not here.
+  military_basis: { values: [tribal-levy], source: donner-1981 }
+  # Plunder is coded because a source treats campaign proceeds as structural
+  # income here rather than as something armies did: the stipend roll was
+  # written on the assumption that conquest continued, and the crisis under
+  # Uthman is what happened when it slowed.
+  revenue_basis: { values: [land-tax, poll-tax, plunder], source: kennedy-2004 }
+  # Four successions, three procedures, in twenty-nine years: Abu Bakr
+  # acclaimed at Saqifa, Umar nominated by his predecessor, Uthman chosen by a
+  # council, Ali acclaimed at Medina. Coding all three is the honest reading —
+  # the rule in force changed every time, which is the polity's central
+  # constitutional fact and not a brief experiment.
+  succession_rule: { values: [acclamation, nomination, election], source: madelung-1997 }
+  # Election, and descent in the restricted sense the rules require: the
+  # argument that carried Saqifa was publicly a claim about Quraysh, invoked as
+  # the qualification to rule. Not caliphal-investiture — this is the office
+  # that later polities sought investiture from.
+  legitimation: { values: [election, descent], source: madelung-1997 }
+
 turning_points:
+  - year: 632
+    type: revolt
+    name: "The ridda"
+    changed: >-
+      Medina answered the withholding of zakat by calling it apostasy, which
+      asserted that the agreements had been made with a permanent polity and
+      not with Muhammad personally — and the concentration of armed force
+      assembled to enforce that claim was still assembled, and unpaid, when
+      the fighting inside Arabia ran out of enemies.
+    source: donner-1981
+    contested: false
+  - year: 636
+    type: battle
+    name: "The Yarmuk"
+    changed: >-
+      The Byzantine field army in Syria was destroyed and Heraclius withdrew
+      behind the Taurus, conceding the empire's richest provinces rather than
+      raising a second army for them; Syria was never seriously contested
+      again. Al-Qadisiyya, its Sasanian counterpart, is not recorded here
+      because it is already an edge between two polities on this site.
+    source: donner-1981
+    contested: false
   - year: 656
     type: revolt
     name: "The killing of Uthman"

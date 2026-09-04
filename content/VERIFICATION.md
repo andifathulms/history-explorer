@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**936 claims across 68 sources.**
+**946 claims across 71 sources.**
 
 ## Where to start
 
@@ -446,7 +446,7 @@ ordinary state, not an item to clear.
 
 ## Hugh Kennedy, The Prophet and the Age of the Caliphates: The Islamic Near East from the Sixth to the Eleventh Century
 
-`kennedy-2004` — 23 claims
+`kennedy-2004` — 24 claims
 
 **Sole source** for `hamdanid` — nothing else in the corpus can contradict a misreading here.
 
@@ -470,6 +470,7 @@ ordinary state, not an item to clear.
 - [ ] `polity/rashidun` — capital Kufa from 656
 - [ ] `polity/rashidun` — founder Abu Bakr r. 632-634
 - [ ] `polity/rashidun` — peak Umar ibn al-Khattab r. 634-644
+- [ ] `polity/rashidun` — revenue basis coded land-tax + poll-tax + plunder
 - [ ] `polity/rashidun` — successor_claims = 2 (umayyad, abbasid)
 - [ ] `polity/umayyad` — military basis coded tribal-levy
 - [ ] `polity/umayyad` — successor_claims = 1 (Umayyad Caliphate of Cordoba)
@@ -1232,6 +1233,34 @@ ordinary state, not an item to clear.
 - [ ] `polity/karakhanid` — peak Nasr b. Ali
 - [ ] `polity/karakhanid` — ended by conquest in 1212
 
+## Wilferd Madelung, The Succession to Muhammad: A Study of the Early Caliphate
+
+`madelung-1997` — 9 claims
+
+- [ ] `chapter/rashidun/01-saqifa.mdx` — prose: "The succession nobody had planned"
+- [ ] `chapter/rashidun/07-fitna.mdx` — prose: "The first fitna"
+- [ ] `edge/rashidun->umayyad` — overthrew in 661
+- [ ] `polity/rashidun` — last Ali ibn Abi Talib r. 656-661
+- [ ] `polity/rashidun` — succession rule coded acclamation + nomination + election
+- [ ] `polity/rashidun` — legitimation coded election + descent
+- [ ] `polity/rashidun` — turning point 656 The killing of Uthman
+- [ ] `polity/rashidun` — turning point 657 The arbitration at Siffin
+- [ ] `polity/rashidun` — ended by dynastic replacement in 661
+
+## Fred M. Donner, The Early Islamic Conquests
+
+`donner-1981` — 9 claims
+
+- [ ] `chapter/rashidun/02-ridda.mdx` — prose: "The war that made the polity"
+- [ ] `chapter/rashidun/03-conquests.mdx` — prose: "A generation, four directions"
+- [ ] `chapter/rashidun/04-amsar.mdx` — prose: "The garrison towns"
+- [ ] `edge/sasanian->rashidun` — conquered by in 651
+- [ ] `polity/rashidun` — military basis coded tribal-levy
+- [ ] `polity/rashidun` — turning point 632 The ridda
+- [ ] `polity/rashidun` — turning point 636 The Yarmuk
+- [ ] `polity/rashidun` — religions_carried = 1 (Islam)
+- [ ] `polity/sasanian` — ended by conquest in 651
+
 ## C. E. Bosworth, TAHERIDS
 *In Encyclopaedia Iranica.*
 <https://iranicaonline.org/articles/taherids>
@@ -1274,18 +1303,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/tang` — last Emperor Ai r. 904-907
 - [ ] `polity/tang` — religions_carried = 1 (Mahayana Buddhism)
 
-## Wilferd Madelung, The Succession to Muhammad: A Study of the Early Caliphate
-
-`madelung-1997` — 7 claims
-
-- [ ] `chapter/rashidun/01-saqifa.mdx` — prose: "The succession nobody had planned"
-- [ ] `chapter/rashidun/04-fitna.mdx` — prose: "The first fitna"
-- [ ] `edge/rashidun->umayyad` — overthrew in 661
-- [ ] `polity/rashidun` — last Ali ibn Abi Talib r. 656-661
-- [ ] `polity/rashidun` — turning point 656 The killing of Uthman
-- [ ] `polity/rashidun` — turning point 657 The arbitration at Siffin
-- [ ] `polity/rashidun` — ended by dynastic replacement in 661
-
 ## Tilman Nagel and others, AL-E BUYA
 *In Encyclopaedia Iranica.*
 <https://iranicaonline.org/articles/al-e-buya>
@@ -1324,16 +1341,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/saffarid` — capital Zarang from 861
 - [ ] `polity/saffarid` — descendant_scripts = 0
 - [ ] `polity/saffarid` — religions_carried = 0
-
-## Fred M. Donner, The Early Islamic Conquests
-
-`donner-1981` — 5 claims
-
-- [ ] `chapter/rashidun/02-conquests.mdx` — prose: "A generation, four directions"
-- [ ] `chapter/rashidun/03-amsar.mdx` — prose: "The garrison towns"
-- [ ] `edge/sasanian->rashidun` — conquered by in 651
-- [ ] `polity/rashidun` — religions_carried = 1 (Islam)
-- [ ] `polity/sasanian` — ended by conquest in 651
 
 ## multiple contributors, ABBASID CALIPHATE
 *In Encyclopaedia Iranica.*
@@ -1398,3 +1405,24 @@ ordinary state, not an item to clear.
 `chi-4` — 1 claims
 
 - [ ] `chapter/buyid/02-daylam.mdx` — prose: "Down from Daylam"
+
+## Martin Hinds, The Murder of the Caliph 'Uthman
+*In International Journal of Middle East Studies 3(4), 450-469.*
+
+`hinds-1972` — 1 claims
+
+- [ ] `chapter/rashidun/05-uthman.mdx` — prose: "Twelve years, and who got the surplus"
+
+## Nicolai Sinai, The Qur'an: A Historical-Critical Introduction
+*In The New Edinburgh Islamic Surveys.*
+
+`sinai-2017` — 1 claims
+
+- [ ] `chapter/rashidun/06-the-codex.mdx` — prose: "One reading, and the others burned"
+
+## Robert G. Hoyland, Seeing Islam as Others Saw It: A Survey and Evaluation of Christian, Jewish and Zoroastrian Writings on Early Islam
+*In Studies in Late Antiquity and Early Islam 13.*
+
+`hoyland-1997` — 1 claims
+
+- [ ] `chapter/rashidun/08-the-sources.mdx` — prose: "What the neighbours wrote down"

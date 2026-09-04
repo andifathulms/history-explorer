@@ -204,6 +204,49 @@ sources:
       chapters here are about tribal mobilisation and garrison towns rather than
       battles.
 
+  - id: hinds-1972
+    kind: chapter
+    author: Martin Hinds
+    title: "The Murder of the Caliph 'Uthman"
+    container: International Journal of Middle East Studies 3(4), 450-469
+    year: 1972
+    note: >-
+      Used for Uthman's caliphate, which this site previously recorded only as a
+      corpse. Hinds reads the killing as the outcome of a distributional
+      quarrel — fiscal centralisation over the conquered crown lands, Umayyad
+      kinsmen in the governorships, and precedence in Islam used as a claim on
+      stipend rank — rather than as a moral episode. The Rashidun chapter on
+      Uthman follows him, including his argument that the pious rallying-cry
+      was a cloak for material grievance.
+
+  - id: hoyland-1997
+    kind: book
+    author: Robert G. Hoyland
+    title: "Seeing Islam as Others Saw It: A Survey and Evaluation of Christian, Jewish and Zoroastrian Writings on Early Islam"
+    container: Studies in Late Antiquity and Early Islam 13
+    publisher: Darwin Press
+    year: 1997
+    note: >-
+      The survey of roughly 120 non-Muslim texts bearing on the first century
+      and a half of Islam. Used for the Rashidun chapter on the evidence, which
+      is the one place this site says plainly that its most important polity is
+      reconstructed from sources written a century and more after the events,
+      and what independent contemporaries do and do not confirm.
+
+  - id: sinai-2017
+    kind: book
+    author: Nicolai Sinai
+    title: "The Qur'an: A Historical-Critical Introduction"
+    container: The New Edinburgh Islamic Surveys
+    publisher: Edinburgh University Press
+    year: 2017
+    note: >-
+      Used for the Uthmanic standardisation of the Qur'anic text: the
+      traditional account of the committee and the copies sent to the garrison
+      towns, and what the early manuscript evidence does and does not settle.
+      Cited for a chapter that is about a state act and its distribution
+      network, not about scripture.
+
   - id: madelung-1997
     kind: book
     author: Wilferd Madelung
