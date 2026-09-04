@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { loadCorpus } from '@/lib/content'
 import { Page, Shell, PageHead } from '@/components/Shell'
+import { Cite } from '@/components/Cite'
 
 export const metadata: Metadata = {
   title: 'About',
@@ -133,24 +134,7 @@ export default function About() {
             {list.map((s) => (
               <li key={s.id} className="border-t border-kashi/12 py-4">
                 <p>
-                  {s.author ? <span>{s.author}, </span> : null}
-                  <cite className="italic">{s.title}</cite>
-                  {s.container ? <span>, in {s.container}</span> : null}
-                  {s.edition ? <span>, {s.edition} edn</span> : null}
-                  {s.publisher ? <span> ({s.publisher}</span> : null}
-                  {s.publisher && s.year ? <span>, {s.year})</span> : s.publisher ? <span>)</span> : s.year ? <span> ({s.year})</span> : null}
-                  {s.url ? (
-                    <>
-                      {' '}
-                      <a
-                        href={s.url}
-                        rel="noreferrer"
-                        className="text-kashi underline underline-offset-2 hover:text-firuze-ink"
-                      >
-                        link
-                      </a>
-                    </>
-                  ) : null}
+                  <Cite source={s} showUrl />
                 </p>
                 {s.note ? <p className="mt-1 text-[15px] text-debu-ink">{s.note}</p> : null}
                 <p className="mt-1.5 font-mono text-micro text-debu-ink">{s.id}</p>

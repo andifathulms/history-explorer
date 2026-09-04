@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { sourceUsage, hasPage, displayName } from '@/lib/content'
 import { Page, Shell, PageHead, StatRow } from '@/components/Shell'
+import { Cite } from '@/components/Cite'
 
 export const metadata: Metadata = {
   title: 'Sources',
@@ -88,8 +89,7 @@ export default function Sources() {
                   <p className="text-body">
                     <PolityList ids={u.soleSourceFor} />
                     {' — '}
-                    <span className="italic">{u.source.title}</span>
-                    {u.source.author ? `, ${u.source.author}` : ''}
+                    <Cite source={u.source} />
                   </p>
                 </li>
               ))}
@@ -106,9 +106,7 @@ export default function Sources() {
               <li key={u.source.id} className="border-t border-kashi/12 py-5">
                 <div className="flex flex-wrap items-baseline gap-x-3">
                   <p className="text-[17px]">
-                    {u.source.author ? <span>{u.source.author}, </span> : null}
-                    <cite className="italic">{u.source.title}</cite>
-                    {u.source.year ? <span className="text-debu-ink"> ({u.source.year})</span> : null}
+                    <Cite source={u.source} />
                   </p>
                 </div>
                 {/* Length is a cited quantity here too: the bar is the claim count. */}
@@ -119,7 +117,7 @@ export default function Sources() {
                   />
                   <span className="shrink-0 font-mono text-micro uppercase tabular-nums text-debu-ink">
                     {u.claims} {u.claims === 1 ? 'citation' : 'citations'}
-                    {u.chapters ? ` · ${u.chapters} chapters` : ''}
+                    {u.chapters ? ` · ${u.chapters} chapter${u.chapters === 1 ? '' : 's'}` : ''}
                   </span>
                 </div>
                 {u.polities.length ? (
@@ -151,8 +149,8 @@ export default function Sources() {
             <ul className="mt-4 space-y-1 text-body">
               {unused.map((u) => (
                 <li key={u.source.id}>
-                  <cite className="italic">{u.source.title}</cite>
-                  <span className="ms-2 font-mono text-[13px] text-debu-ink">{u.source.id}</span>
+                  <Cite source={u.source} />
+                  <span className="ms-2 font-mono text-micro text-debu-ink">{u.source.id}</span>
                 </li>
               ))}
             </ul>
@@ -170,7 +168,7 @@ export default function Sources() {
             <ul className="mt-4 space-y-1 text-body">
               {datasets.map((u) => (
                 <li key={u.source.id}>
-                  <cite className="italic">{u.source.title}</cite>
+                  <Cite source={u.source} />
                   {u.source.licence ? (
                     <span className="ms-2 text-[14px] text-debu-ink">{u.source.licence}</span>
                   ) : null}

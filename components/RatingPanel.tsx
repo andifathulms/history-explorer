@@ -125,7 +125,7 @@ export function RatingPanel({ rating, scale }: { rating: Rating; scale: Scale })
           label="Longevity"
           figure={
             r.longevity.years.min === r.longevity.years.max
-              ? `${r.longevity.years.min} years`
+              ? `${r.longevity.years.min} year${r.longevity.years.min === 1 ? '' : 's'}`
               : `${r.longevity.years.min}–${r.longevity.years.max} years`
           }
           pct={

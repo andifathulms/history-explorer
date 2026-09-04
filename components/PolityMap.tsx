@@ -100,7 +100,8 @@ export function PolityMap({ polity }: { polity: Polity }) {
           <p className="mt-2 text-debu-ink">
             This is the nearest available snapshot to the cited peak of{' '}
             <span className="tabular-nums">{formatYear(map.peakYear)}</span>
-            {drift ? `, ${drift} years away` : ''}. It is not the peak.
+            {drift ? `, ${drift} year${drift === 1 ? '' : 's'} away` : ''}. It is not the
+            peak.
           </p>
 
           <p className="mt-6 font-mono text-micro uppercase text-debu-ink">Cited extent</p>
