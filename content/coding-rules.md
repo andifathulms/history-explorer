@@ -190,11 +190,25 @@ this field that matters.
   distributed, and a corpus that admits every well-documented engagement will
   make the well-studied polities look eventful and the rest look quiet. The
   filter is consequence, not documentation.
-- **Anything another file already records.** How the polity stopped is `ended`.
-  A relationship between two polities is an edge. Where the capital sat is
-  `capitals`. `capital-move` is in the vocabulary only for the case where a
-  source treats the move itself as the hinge, and it does not replace the
-  `capitals` entry.
+- **A restatement of what another file already says.** How the polity stopped is
+  `ended`. Where the capital sat is `capitals`. `capital-move` is in the
+  vocabulary only where a source treats the move itself as the hinge, and it
+  does not replace the `capitals` entry.
+
+  **This is not a rule that an event may appear only once.** An edge and a
+  turning point make different claims about different things: an edge says what
+  passed between two polities, a turning point says what an event did to one
+  polity's trajectory, and the same fighting can honestly produce both. The
+  original wording of this rule was read strictly enough to keep al-Qadisiyya
+  off the Rashidun page on the grounds that the Sasanian conquest was already an
+  edge — while the Yarmuk, which is the identical case against Byzantium, was
+  admitted. That asymmetry was the rule failing, not the data.
+
+  The test is duplication of content, not of subject matter. If the edge's
+  `note` and the turning point's `changed` say the same thing, one of them is
+  redundant. Where the edge records a conquest completed in 651 and the turning
+  point records what a battle in 636 did to the victor's revenue, they are two
+  claims and both belong.
 - **Wars, as opposed to events in them.** A turning point is dated to a year. A
   twenty-year war is a period, and the hinge inside it — if a source names one
   — is the entry.

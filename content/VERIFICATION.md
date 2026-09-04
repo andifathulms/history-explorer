@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**946 claims across 71 sources.**
+**947 claims across 71 sources.**
 
 ## Where to start
 
@@ -1161,6 +1161,21 @@ ordinary state, not an item to clear.
 - [ ] `polity/han` — descendant_scripts = 1 (Clerical script)
 - [ ] `polity/han` — ended by fragmentation in 220
 
+## Fred M. Donner, The Early Islamic Conquests
+
+`donner-1981` — 10 claims
+
+- [ ] `chapter/rashidun/02-ridda.mdx` — prose: "The war that made the polity"
+- [ ] `chapter/rashidun/03-conquests.mdx` — prose: "A generation, four directions"
+- [ ] `chapter/rashidun/04-amsar.mdx` — prose: "The garrison towns"
+- [ ] `edge/sasanian->rashidun` — conquered by in 651
+- [ ] `polity/rashidun` — military basis coded tribal-levy
+- [ ] `polity/rashidun` — turning point 632 The ridda
+- [ ] `polity/rashidun` — turning point 636 The Yarmuk
+- [ ] `polity/rashidun` — turning point 636 Al-Qadisiyya
+- [ ] `polity/rashidun` — religions_carried = 1 (Islam)
+- [ ] `polity/sasanian` — ended by conquest in 651
+
 ## Nicola Di Cosmo, Ancient China and Its Enemies: The Rise of Nomadic Power in East Asian History
 
 `di-cosmo-2002` — 10 claims
@@ -1246,20 +1261,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/rashidun` — turning point 656 The killing of Uthman
 - [ ] `polity/rashidun` — turning point 657 The arbitration at Siffin
 - [ ] `polity/rashidun` — ended by dynastic replacement in 661
-
-## Fred M. Donner, The Early Islamic Conquests
-
-`donner-1981` — 9 claims
-
-- [ ] `chapter/rashidun/02-ridda.mdx` — prose: "The war that made the polity"
-- [ ] `chapter/rashidun/03-conquests.mdx` — prose: "A generation, four directions"
-- [ ] `chapter/rashidun/04-amsar.mdx` — prose: "The garrison towns"
-- [ ] `edge/sasanian->rashidun` — conquered by in 651
-- [ ] `polity/rashidun` — military basis coded tribal-levy
-- [ ] `polity/rashidun` — turning point 632 The ridda
-- [ ] `polity/rashidun` — turning point 636 The Yarmuk
-- [ ] `polity/rashidun` — religions_carried = 1 (Islam)
-- [ ] `polity/sasanian` — ended by conquest in 651
 
 ## C. E. Bosworth, TAHERIDS
 *In Encyclopaedia Iranica.*

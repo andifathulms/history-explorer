@@ -77,8 +77,20 @@ turning_points:
       The Byzantine field army in Syria was destroyed and Heraclius withdrew
       behind the Taurus, conceding the empire's richest provinces rather than
       raising a second army for them; Syria was never seriously contested
-      again. Al-Qadisiyya, its Sasanian counterpart, is not recorded here
-      because it is already an edge between two polities on this site.
+      again. Its Sasanian counterpart at al-Qadisiyya follows in the same
+      year.
+    source: donner-1981
+    contested: false
+  - year: 636
+    type: battle
+    name: "Al-Qadisiyya"
+    changed: >-
+      The Sasanian field army broke and Ctesiphon was open, which turned a raid
+      on the Iraqi frontier into the acquisition of the empire's richest tax
+      province — the sawn-and-irrigated Sawad, whose kharaj funded the stipend
+      roll and whose surplus is what the caliphate's next civil war was fought
+      over. The conquest of the Sasanian state itself is recorded separately as
+      an edge, dated to its completion in 651.
     source: donner-1981
     contested: false
   - year: 656
