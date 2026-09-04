@@ -27,6 +27,11 @@ const SPECS = [
   { family: 'Spectral', q: 'Spectral:ital,wght@0,600', subsets: ['latin', 'latin-ext'], base: 'spectral-600', weight: '600', style: 'normal' },
   { family: 'Spectral', q: 'Spectral:ital,wght@1,400', subsets: ['latin', 'latin-ext'], base: 'spectral-400-italic', weight: '400', style: 'italic' },
   { family: 'Fraunces', q: 'Fraunces:wght@400..700', subsets: ['latin', 'latin-ext'], base: 'fraunces-var', weight: '400 700', style: 'normal' },
+  // Latin only, deliberately. Display italic is used in exactly one place —
+  // the ending types — and END_TYPES is a closed vocabulary of six ASCII
+  // words, so the latin-ext companion would be 40KB nothing could ever
+  // request. If an ending type ever needs a diacritic, add it here.
+  { family: 'Fraunces', q: 'Fraunces:ital,wght@1,400..700', subsets: ['latin'], base: 'fraunces-var-italic', weight: '400 700', style: 'italic' },
   { family: 'IBM Plex Mono', q: 'IBM+Plex+Mono:wght@400', subsets: ['latin', 'latin-ext'], base: 'plexmono-400', weight: '400', style: 'normal' },
   { family: 'Amiri', q: 'Amiri:wght@400', subsets: ['arabic'], base: 'amiri-400', weight: '400', style: 'normal' },
 ]
@@ -40,11 +45,11 @@ const BANNER = `/* -------------------------------------------------------------
    party being reachable at that moment, so the files now live in the repo and
    the build touches the network for nothing.
 
-   Only the weights the site actually uses are here: 400 and 600, plus one
-   italic. Fraunces ships as a single variable file covering 400-700. Latin
-   faces carry latin and latin-ext, which is what puts the macron in Ardashīr
-   in the same face as the rest of the word; Amiri carries arabic only, since
-   it is here to set the script names and nothing else.
+   Only the weights the site actually uses are here: 400 and 600. Fraunces
+   ships as variable files covering 400-700, roman and italic. Latin faces
+   carry latin and latin-ext, which is what puts the macron in Ardashīr in the
+   same face as the rest of the word; Amiri carries arabic only, since it is
+   here to set the script names and nothing else.
 
    The unicode-range on each rule is Google's own, kept verbatim. It is what
    lets the browser skip downloading latin-ext for a page with no diacritics,

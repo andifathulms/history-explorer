@@ -16,9 +16,21 @@ markup, so there are none here.
 | Family | Weights | Styles | Subsets |
 |---|---|---|---|
 | Spectral | 400, 600 | normal, italic (400 only) | latin, latin-ext |
-| Fraunces | 400–700 variable, one file | normal | latin, latin-ext |
+| Fraunces | 400–700 variable, one file per style | normal, italic | latin, latin-ext (roman); latin only (italic) |
 | IBM Plex Mono | 400 | normal | latin, latin-ext |
 | Amiri | 400 | normal | arabic |
+
+Fraunces italic is carried because the ending types — *conquest*,
+*fragmentation*, *dynastic replacement* — are set in display italic, and
+without the real face the browser skews the roman instead. It is `latin` only:
+`END_TYPES` is a closed vocabulary of six ASCII words, so the latin-ext
+companion would be 40KB nothing could ever request. If an ending type ever
+needs a diacritic, add the subset back in `scripts/fetch-fonts.mjs`.
+
+Because each rule carries a `unicode-range` and a style, a browser fetches only
+what a page sets. The italic Fraunces file is requested on `/endings/` and
+nowhere else; `spectral-600` on polity pages and the timeline; `latin-ext` only
+where a diacritic appears.
 
 `latin-ext` is carried for the Latin faces because the corpus sets names like
 Ardashīr and Šāpūr, and a macron falling back to Georgia mid-word is visible.
