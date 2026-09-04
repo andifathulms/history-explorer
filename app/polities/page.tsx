@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { formatSpan } from '@/lib/years'
 import { loadCorpus, politiesInRegion, getChapters } from '@/lib/content'
 import { Page, Shell, PageHead } from '@/components/Shell'
+import { CrossCut, type CrossCutPolity } from '@/components/CrossCut'
 import { formatKm2, formatPopulation } from '@/lib/gaps'
 
 export const metadata: Metadata = {
@@ -13,6 +14,16 @@ export const metadata: Metadata = {
 export default function PolitiesIndex() {
   const { regions, narrative } = loadCorpus()
   const populated = regions.filter((r) => politiesInRegion(r.id).some((p) => !p.context_only))
+
+  // Only what the cross-cut actually reads. Passing whole polities across the
+  // server/client boundary would ship every chapter body into the bundle.
+  const regionName = new Map(regions.map((r) => [r.id, r.name]))
+  const crossCut: CrossCutPolity[] = narrative.map((p) => ({
+    id: p.id,
+    latin: p.name.latin,
+    regionName: regionName.get(p.region) ?? p.region,
+    institutions: p.institutions,
+  }))
 
   return (
     <Page ground="paper" current="Polities">
@@ -60,6 +71,8 @@ export default function PolitiesIndex() {
               })}
             </ul>
           </nav>
+
+          <CrossCut polities={crossCut} />
 
           {populated.map((r) => {
             const inRegion = politiesInRegion(r.id)
