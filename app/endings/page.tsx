@@ -21,6 +21,26 @@ const GLOSS: Record<EndType, string> = {
   'still contested': 'Scholarship does not agree that it ended, or when.',
 }
 
+/**
+ * How each type reads inside the summary sentence, as a verb phrase.
+ *
+ * Typed Record<EndType, string> on purpose: the sentence used to name three of
+ * the four non-conquest categories and claim to have described the half, which
+ * on a page whose argument is that the tally is exact is not a rounding error.
+ * Building it from the vocabulary means a seventh end type cannot be added
+ * without the compiler asking what it does to this sentence.
+ */
+const CLAUSE: Record<EndType, string> = {
+  conquest: 'were taken by an outside power',
+  fragmentation: 'came apart over an inheritance',
+  'gradual absorption': 'dwindled into a formality',
+  'internal usurpation': 'were taken by the men they had hired to protect them',
+  // No internal "and" or comma in any clause: they are joined into one
+  // sentence, and a conjunction inside a list item reads as a list separator.
+  'dynastic replacement': 'kept the institution but not the family holding it',
+  'still contested': 'have no ending scholarship agrees on',
+}
+
 export default function Endings() {
   const { all, regions } = loadCorpus()
   const ended = all.filter((p) => p.ended)
@@ -30,6 +50,15 @@ export default function Endings() {
   const max = Math.max(...END_TYPES.map((t) => byType.get(t)!.length))
   const conquered = byType.get('conquest')!.length
   const otherwise = ended.length - conquered
+  // The non-conquest half, enumerated from the vocabulary rather than by hand,
+  // so the parts always sum to the whole. Empty types are skipped: "0 have no
+  // ending scholarship agrees on" is noise, and the type still gets its own
+  // section below where the zero is the point.
+  const rest = END_TYPES.filter((t) => t !== 'conquest' && byType.get(t)!.length > 0)
+    .map((t) => ({ type: t, count: byType.get(t)!.length, clause: CLAUSE[t] }))
+    // Largest first. A breakdown read as "19, 3, 8, 3" makes the reader stop and
+    // check; the sections below keep vocabulary order, where it belongs.
+    .sort((a, b) => b.count - a.count || END_TYPES.indexOf(a.type) - END_TYPES.indexOf(b.type))
   const regionName = (id: string) => regions.find((r) => r.id === id)?.name ?? id
 
   return (
@@ -43,13 +72,22 @@ export default function Endings() {
               {all.length} carry one.
             </p>
             <p className="mt-4 text-[17px] leading-relaxed text-debu-ink">
-          The vocabulary was fixed before most of this corpus existed, which is what makes
-          the tally worth reading: it was not shaped to fit the answer. As it stands,{' '}
-          <span className="tabular-nums">{conquered}</span> polities here were ended by an
-          outside power and <span className="tabular-nums">{otherwise}</span> stopped some
-          other way — an even split, which is itself the finding. The half that were not
-          conquered came apart over an inheritance, dwindled into a formality, or were
-              taken by the men they had hired to protect them.
+              The vocabulary was fixed before most of this corpus existed, which is what
+              makes the tally worth reading: it was not shaped to fit the answer. As it
+              stands, <span className="tabular-nums">{conquered}</span> polities here were
+              ended by an outside power and{' '}
+              <span className="tabular-nums">{otherwise}</span> stopped some other way — an
+              even split, which is itself the finding.
+            </p>
+            <p className="mt-4 text-[17px] leading-relaxed text-debu-ink">
+              That second half divides again:{' '}
+              {rest.map((r, i) => (
+                <span key={r.type}>
+                  {i > 0 ? (i === rest.length - 1 ? ' and ' : ', ') : ''}
+                  <span className="tabular-nums">{r.count}</span> {r.clause}
+                </span>
+              ))}
+              .
             </p>
           </PageHead>
 
