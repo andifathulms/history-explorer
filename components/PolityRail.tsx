@@ -11,6 +11,23 @@ import { hasPage } from '@/lib/content'
  * On mobile this collapses to a horizontal strip, which is the same information
  * rotated: 819 at one end, 1231 at the other, a marker where you are.
  */
+/**
+ * SVG text does not wrap, so a long name runs past the viewBox and is clipped:
+ * "Umayyad Caliphate of Cordoba" arrived as "Umayyad Caliphate of Cord". The
+ * rail is a sidebar and cannot simply be widened, so names break onto a second
+ * line at the last word that fits.
+ *
+ * The width is estimated from the character count rather than measured — there
+ * is no layout engine at build time — which is why the budget is deliberately
+ * conservative.
+ */
+function wrapName(name: string, maxChars = 21): [string] | [string, string] {
+  if (name.length <= maxChars) return [name]
+  const cut = name.lastIndexOf(' ', maxChars)
+  if (cut <= 0) return [name]
+  return [name.slice(0, cut), name.slice(cut + 1)]
+}
+
 export function PolityRail({
   polities,
   active,
@@ -115,9 +132,17 @@ export function PolityRail({
                     <>
                       <circle cx={RAIL_X} cy={top} r={5} className="fill-zarrin-ink" />
                       <text x={NAME_X} y={top + 4} className="fill-kashi text-[13px] font-semibold">
-                        {p.name.latin}
+                        {wrapName(p.name.latin).map((line, i) => (
+                          <tspan key={i} x={NAME_X} dy={i === 0 ? 0 : 14}>
+                            {line}
+                          </tspan>
+                        ))}
                       </text>
-                      <text x={NAME_X} y={top + 20} className="fill-debu-ink text-[11px] italic">
+                      <text
+                        x={NAME_X}
+                        y={top + 4 + wrapName(p.name.latin).length * 16}
+                        className="fill-debu-ink text-[11px] italic"
+                      >
                         you are here
                       </text>
                     </>
@@ -128,14 +153,22 @@ export function PolityRail({
                         y={top + 4}
                         className="fill-debu-ink text-[12px] hover:fill-firuze-ink"
                       >
-                        {p.name.latin}
+                        {wrapName(p.name.latin).map((line, i) => (
+                          <tspan key={i} x={NAME_X} dy={i === 0 ? 0 : 13}>
+                            {line}
+                          </tspan>
+                        ))}
                       </text>
                     </Link>
                   ) : (
                     /* Context polity: on the rail for the shape of the era, but
                        it has no chapters and so no page to send the reader to. */
                     <text x={NAME_X} y={top + 4} className="fill-debu-ink/60 text-[12px]">
-                      {p.name.latin}
+                      {wrapName(p.name.latin).map((line, i) => (
+                        <tspan key={i} x={NAME_X} dy={i === 0 ? 0 : 13}>
+                          {line}
+                        </tspan>
+                      ))}
                     </text>
                   )}
                 </g>
