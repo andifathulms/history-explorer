@@ -1,7 +1,8 @@
 import type { Metadata } from 'next'
 import { formatSpan } from '@/lib/years'
 import Link from 'next/link'
-import { loadCorpus, politiesInRegion, edgesInRegion } from '@/lib/content'
+import { loadCorpus, politiesInRegion, edgesInRegion, displayName, hasPage } from '@/lib/content'
+import { edgeTallies } from '@/lib/thread'
 import { Page, Shell, PageHead } from '@/components/Shell'
 import { EDGE_TYPES } from '@/lib/types'
 
@@ -12,9 +13,13 @@ export const metadata: Metadata = {
 }
 
 export default function ContinuityIndex() {
-  const { regions } = loadCorpus()
+  const { regions, edges } = loadCorpus()
   const threaded = regions.filter((r) => r.thread)
   const unthreaded = regions.filter((r) => !r.thread)
+
+  // Every edge, not only the ones inside a thread: this is a tally of the
+  // corpus, and a cross-region edge is as much a part of it as any other.
+  const tallies = edgeTallies(edges, displayName).filter((t) => t.out > 0).slice(0, 12)
 
   return (
     <Page ground="dark" current="Continuity" wash>
@@ -106,6 +111,51 @@ export default function ContinuityIndex() {
           </section>
         ) : null}
 
+
+        {/* Deliberately here and not in /rankings/. This orders polities by how
+            densely the corpus has been read around them, and putting that in
+            the rankings would rank polities by whether they have edges — which
+            is exactly what hard rules 7 and 8 exist to prevent. On the page
+            about edges, labelled as a fact about the corpus, it is honest and
+            it is interesting. */}
+        <section className="mt-20">
+          <h2 className="kicker border-t border-dawat-edge pt-5 text-debu-paper">
+            What led away from what
+          </h2>
+          <p className="mt-5 max-w-measure text-[17px] leading-relaxed text-debu-paper">
+            The polities with the most sourced edges leading away from them, in
+            this corpus. <strong className="font-semibold text-kaghaz">This is not
+            a ranking and is not on the rankings page.</strong> It measures how
+            densely this site has read around a polity, not how much that polity
+            spawned: a polity leads because its successors have pages here, and
+            one with no edges at all is not a polity that produced nothing —
+            it is one nothing sourced has yet been entered for.
+          </p>
+
+          <ol className="mt-8 grid gap-x-10 sm:grid-cols-2 lg:grid-cols-3">
+            {tallies.map((t) => (
+              <li
+                key={t.id}
+                className="flex items-baseline justify-between gap-4 border-t border-dawat-edge py-2.5"
+              >
+                {hasPage(t.id) ? (
+                  <Link
+                    href={`/polity/${t.id}/`}
+                    className="link-underline text-[16px] text-kaghaz hover:text-firuze-bright"
+                  >
+                    {t.name}
+                  </Link>
+                ) : (
+                  <span className="text-[16px] text-debu-paper">{t.name}</span>
+                )}
+                <span className="whitespace-nowrap font-mono text-micro uppercase tabular-nums text-firuze">
+                  {t.out} out
+                  <span className="text-debu-paper"> · {t.in} in</span>
+                </span>
+              </li>
+            ))}
+          </ol>
+        </section>
 
         <section className="mt-20 max-w-measure">
           <h2 className="kicker border-t border-dawat-edge pt-5 text-debu-paper">

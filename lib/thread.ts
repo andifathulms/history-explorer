@@ -150,3 +150,44 @@ export function centuryTicks(scale: ThreadScale, maxTicks = 14): number[] {
   }
   return ticks
 }
+
+// ---------------------------------------------------------------------------
+// Edge tallies
+// ---------------------------------------------------------------------------
+
+/**
+ * How many sourced edges lead away from a polity, and how many lead into it.
+ *
+ * This deliberately lives in the continuity section and **must not** become a
+ * ranking. It measures how densely this corpus has been read around a polity,
+ * not how much that polity spawned: the Abbasids lead the tally because seven
+ * of their successors have pages here, and Srivijaya has no edges at all
+ * because nothing sourced has been entered joining it to anything — which says
+ * something about the reading and nothing about the polity.
+ *
+ * Putting that ordering in /rankings/ would rank polities by whether they have
+ * edges, which is precisely what hard rules 7 and 8 exist to prevent. Here it
+ * is what it actually is: a fact about this corpus, on the page about edges,
+ * labelled as one.
+ */
+export interface EdgeTally {
+  id: string
+  name: string
+  /** Edges where this polity is the earlier party. */
+  out: number
+  /** Edges where it is the later party. */
+  in: number
+}
+
+export function edgeTallies(edges: Edge[], name: (id: string) => string): EdgeTally[] {
+  const out = new Map<string, number>()
+  const inn = new Map<string, number>()
+  for (const e of edges) {
+    out.set(e.from, (out.get(e.from) ?? 0) + 1)
+    inn.set(e.to, (inn.get(e.to) ?? 0) + 1)
+  }
+  const ids = new Set([...out.keys(), ...inn.keys()])
+  return [...ids]
+    .map((id) => ({ id, name: name(id), out: out.get(id) ?? 0, in: inn.get(id) ?? 0 }))
+    .sort((a, b) => b.out - a.out || b.in - a.in || a.name.localeCompare(b.name))
+}

@@ -158,3 +158,30 @@ test('a polity already in the narrative corpus is not repeated from the backdrop
   assert.equal(certain.length + possible.length, 1)
   assert.equal(certain[0].hasPage, true)
 })
+
+// --- edge tallies --------------------------------------------------------
+
+import { edgeTallies } from './thread.ts'
+import type { Edge } from './types.ts'
+
+test('edge tallies count both directions and order by outward edges', () => {
+  const e = (from: string, to: string): Edge =>
+    ({ from, to, type: 'overthrew', year: null, note: 'n', source: 's', contested: false }) as Edge
+  const t = edgeTallies([e('a', 'b'), e('a', 'c'), e('d', 'a')], (id) => id)
+  assert.deepEqual(
+    t.map((x) => [x.id, x.out, x.in]),
+    [
+      ['a', 2, 1],
+      ['d', 1, 0],
+      ['b', 0, 1],
+      ['c', 0, 1],
+    ],
+  )
+})
+
+test('a polity with no edges is absent from the tally, not zero-ranked', () => {
+  // The distinction the continuity page turns on: no edges means nothing has
+  // been entered, which is not a score of zero and must not be printed as one.
+  const t = edgeTallies([], (id) => id)
+  assert.equal(t.length, 0)
+})
