@@ -99,7 +99,7 @@ export default function PolityPage({ params }: { params: { id: string } }) {
         <div className="flex gap-12">
           {railPolities.length ? (
             <aside
-              className="hidden shrink-0 pt-10 lg:block lg:w-[200px]"
+              className="hidden shrink-0 pt-10 lg:block lg:w-[224px]"
               aria-label="Thread position"
             >
               <PolityRail polities={railPolities} active={p} variant="rail" />

@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { SiteNav } from '@/components/SiteNav'
 
 /**
@@ -187,7 +188,10 @@ export function Crumbs({
               </span>
             ) : null}
             {t.href ? (
-              <a
+              // next/link, not a bare anchor: a raw href skips basePath, and
+              // this site is served from /history-explorer on Pages. Every
+              // breadcrumb on every polity and thread page was a 404.
+              <Link
                 href={t.href}
                 className={`transition-colors ${
                   dark
@@ -196,7 +200,7 @@ export function Crumbs({
                 }`}
               >
                 {t.label}
-              </a>
+              </Link>
             ) : (
               <span className={dark ? 'text-kaghaz' : 'text-kashi-deep'}>{t.label}</span>
             )}

@@ -42,6 +42,15 @@ jobs:
         env:
           NEXT_PUBLIC_BASE_PATH: ${{ steps.pages.outputs.base_path }}
 
+      # A green build is not a working site. Breadcrumbs shipped as bare
+      # anchors, which skip basePath, so every one of them 404'd on Pages while
+      # typecheck, tests and build all passed. This walks the export and fails
+      # if an internal link misses the basePath or points at a file that is not
+      # there.
+      - run: npm run check:links
+        env:
+          NEXT_PUBLIC_BASE_PATH: ${{ steps.pages.outputs.base_path }}
+
       - uses: actions/upload-pages-artifact@v5
         with:
           path: out

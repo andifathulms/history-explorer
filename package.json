@@ -12,7 +12,8 @@
     "test": "node --test lib/*.test.ts",
     "basemaps": "node scripts/trim-basemaps.mjs",
     "verify": "node scripts/verification-report.mjs",
-    "fonts": "node scripts/fetch-fonts.mjs"
+    "fonts": "node scripts/fetch-fonts.mjs",
+    "check:links": "node scripts/check-links.mjs"
   },
   "dependencies": {
     "d3-array": "^3.2.4",

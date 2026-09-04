@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { formatYear } from '@/lib/years'
+import { formatYear, formatRange } from '@/lib/years'
 import type { Polity } from '@/lib/types'
 import { hasPage } from '@/lib/content'
 
@@ -26,6 +26,13 @@ export function PolityRail({
   const last = Math.max(...polities.map((p) => p.span.end.max))
   const H = 560
   const PAD = 16
+  // The year gutter has to hold "879-1011", not just "879". Before this the
+  // rail printed start.min at a y computed from start.max, so the Ghurids'
+  // 879 sat where 1011 belongs and the column read as though it were unsorted.
+  // A number beside a time axis has to be the number that position means.
+  const RAIL_X = 60
+  const NAME_X = 76
+  const W = 224
   const y = (year: number) => PAD + ((year - first) / (last - first)) * (H - PAD * 2)
   const pct = (year: number) => (((year - first) / (last - first)) * 100).toFixed(2)
 
@@ -56,15 +63,15 @@ export function PolityRail({
   return (
         <div className="sticky top-24">
           <svg
-            width="200"
+            width={W}
             height={H}
-            viewBox={`0 0 200 ${H}`}
+            viewBox={`0 0 ${W} ${H}`}
             role="img"
             aria-label={`Position of ${active.name.latin} in the thread, ${first} to ${last}`}
           >
             <line
-              x1={44}
-              x2={44}
+              x1={RAIL_X}
+              x2={RAIL_X}
               y1={y(first)}
               y2={y(last)}
               className="stroke-firuze-ink"
@@ -78,8 +85,8 @@ export function PolityRail({
               return (
                 <g key={p.id}>
                   <line
-                    x1={44}
-                    x2={44}
+                    x1={RAIL_X}
+                    x2={RAIL_X}
                     y1={y(p.span.start.min)}
                     y2={y(p.span.end.max)}
                     className={isActive ? 'stroke-zarrin/30' : 'stroke-transparent'}
@@ -87,8 +94,8 @@ export function PolityRail({
                     strokeLinecap="round"
                   />
                   <line
-                    x1={isActive ? 44 : 50}
-                    x2={isActive ? 44 : 50}
+                    x1={isActive ? RAIL_X : RAIL_X + 6}
+                    x2={isActive ? RAIL_X : RAIL_X + 6}
                     y1={top}
                     y2={bottom}
                     className={isActive ? 'stroke-zarrin' : 'stroke-kashi/45'}
@@ -98,26 +105,26 @@ export function PolityRail({
                   <text
                     x={0}
                     y={top + 4}
-                    className={`text-[11px] tabular-nums ${
+                    className={`font-mono text-[10px] tabular-nums ${
                       isActive ? 'fill-zarrin-ink' : 'fill-debu-ink'
                     }`}
                   >
-                    {formatYear(p.span.start.min)}
+                    {formatRange(p.span.start.min, p.span.start.max)}
                   </text>
                   {isActive ? (
                     <>
-                      <circle cx={44} cy={top} r={5} className="fill-zarrin-ink" />
-                      <text x={60} y={top + 4} className="fill-kashi text-[13px] font-semibold">
+                      <circle cx={RAIL_X} cy={top} r={5} className="fill-zarrin-ink" />
+                      <text x={NAME_X} y={top + 4} className="fill-kashi text-[13px] font-semibold">
                         {p.name.latin}
                       </text>
-                      <text x={60} y={top + 20} className="fill-debu-ink text-[11px] italic">
+                      <text x={NAME_X} y={top + 20} className="fill-debu-ink text-[11px] italic">
                         you are here
                       </text>
                     </>
                   ) : hasPage(p.id) ? (
                     <Link href={`/polity/${p.id}/`}>
                       <text
-                        x={60}
+                        x={NAME_X}
                         y={top + 4}
                         className="fill-debu-ink text-[12px] hover:fill-firuze-ink"
                       >
@@ -127,7 +134,7 @@ export function PolityRail({
                   ) : (
                     /* Context polity: on the rail for the shape of the era, but
                        it has no chapters and so no page to send the reader to. */
-                    <text x={60} y={top + 4} className="fill-debu-ink/60 text-[12px]">
+                    <text x={NAME_X} y={top + 4} className="fill-debu-ink/60 text-[12px]">
                       {p.name.latin}
                     </text>
                   )}
