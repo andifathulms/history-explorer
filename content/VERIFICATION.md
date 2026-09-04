@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**977 claims across 77 sources.**
+**986 claims across 78 sources.**
 
 ## Where to start
 
@@ -563,6 +563,31 @@ ordinary state, not an item to clear.
 - [ ] `polity/seleucid` — peak Antiochus III r. -222--187
 - [ ] `polity/seleucid` — last Philip II Philoromaeus r. -65--63
 
+## Hugh Kennedy, Muslim Spain and Portugal: A Political History of al-Andalus
+
+`kennedy-1996` — 20 claims
+
+- [ ] `chapter/cordoba/01-survivor.mdx` — prose: "The one who got away"
+- [ ] `chapter/cordoba/02-the-state-behind-the-title.mdx` — prose: "The state behind the title"
+- [ ] `chapter/cordoba/03-what-al-hakam-left.mdx` — prose: "What al-Hakam left"
+- [ ] `chapter/cordoba/04-al-mansur.mdx` — prose: "The chamberlain who did not need the title"
+- [ ] `chapter/cordoba/06-the-collapse.mdx` — prose: "Thirty years, and then taifas"
+- [ ] `edge/umayyad->cordoba` — claimed legitimacy of in 929
+- [ ] `polity/cordoba` — span starts 756
+- [ ] `polity/cordoba` — span ends 1031
+- [ ] `polity/cordoba` — capital Cordoba from 756
+- [ ] `polity/cordoba` — founder Abd al-Rahman I r. 756-788
+- [ ] `polity/cordoba` — peak Abd al-Rahman III r. 912-961
+- [ ] `polity/cordoba` — last Hisham III r. 1027-1031
+- [ ] `polity/cordoba` — military basis coded slave-soldier + mercenary
+- [ ] `polity/cordoba` — succession rule coded nomination
+- [ ] `polity/cordoba` — legitimation coded descent + titulature
+- [ ] `polity/cordoba` — turning point 929 Taking the caliphal title
+- [ ] `polity/cordoba` — turning point 939 Simancas
+- [ ] `polity/cordoba` — turning point 976 Hisham II's minority
+- [ ] `polity/cordoba` — turning point 1009 The fitna of al-Andalus
+- [ ] `polity/cordoba` — ended by fragmentation in 1031
+
 ## G. R. Hawting, The First Dynasty of Islam: The Umayyad Caliphate AD 661-750
 
 `hawting-2000` — 19 claims
@@ -893,25 +918,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/zangid` — peak Nur al-Din r. 1146-1174
 - [ ] `polity/zangid` — last Mahmud al-Qahir r. 1219-1233
 - [ ] `polity/zangid` — religions_carried = 1 (Sunni Islam)
-
-## Hugh Kennedy, Muslim Spain and Portugal: A Political History of al-Andalus
-
-`kennedy-1996` — 12 claims
-
-**Sole source** for `cordoba` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/cordoba/01-survivor.mdx` — prose: "The one who got away"
-- [ ] `chapter/cordoba/02-the-state-behind-the-title.mdx` — prose: "The state behind the title"
-- [ ] `chapter/cordoba/03-what-al-hakam-left.mdx` — prose: "What al-Hakam left"
-- [ ] `chapter/cordoba/04-the-collapse.mdx` — prose: "Thirty years, and then taifas"
-- [ ] `edge/umayyad->cordoba` — claimed legitimacy of in 929
-- [ ] `polity/cordoba` — span starts 756
-- [ ] `polity/cordoba` — span ends 1031
-- [ ] `polity/cordoba` — capital Cordoba from 756
-- [ ] `polity/cordoba` — founder Abd al-Rahman I r. 756-788
-- [ ] `polity/cordoba` — peak Abd al-Rahman III r. 912-961
-- [ ] `polity/cordoba` — last Hisham III r. 1027-1031
-- [ ] `polity/cordoba` — ended by fragmentation in 1031
 
 ## Peter Jackson, The Mongols and the Islamic World: From Conquest to Conversion
 
@@ -1450,6 +1456,12 @@ ordinary state, not an item to clear.
 `chi-4` — 1 claims
 
 - [ ] `chapter/buyid/02-daylam.mdx` — prose: "Down from Daylam"
+
+## Janina M. Safran, Defining Boundaries in al-Andalus: Muslims, Christians, and Jews in Islamic Iberia
+
+`safran-2013` — 1 claims
+
+- [ ] `chapter/cordoba/05-the-boundaries.mdx` — prose: "What the jurists were asked"
 
 ## Paul E. Walker, Caliph of Cairo: Al-Hakim bi-Amr Allah, 996-1021
 

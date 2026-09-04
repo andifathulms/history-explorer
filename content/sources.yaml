@@ -418,6 +418,20 @@ sources:
     publisher: Longman
     year: 1996
 
+  - id: safran-2013
+    kind: book
+    author: Janina M. Safran
+    title: "Defining Boundaries in al-Andalus: Muslims, Christians, and Jews in Islamic Iberia"
+    publisher: Cornell University Press
+    year: 2013
+    note: >-
+      Reads the ninth- and tenth-century Andalusi jurists on the practical
+      problem of keeping communal boundaries legible in a society where
+      conversion, intermarriage and a shared language kept dissolving them.
+      Cited for the Cordoba chapter on the three communities, which is
+      deliberately not a chapter about tolerance — and it is the second work
+      cited on that page, which until now rested entirely on one book.
+
   - id: abun-nasr-1987
     kind: book
     author: Jamil M. Abun-Nasr

@@ -34,10 +34,88 @@ ended:
   year: 1031
   source: kennedy-1996
 
+institutions:
+  # Deliberately not an Arab tribal levy: saqaliba slaves of European origin
+  # and Berber contingents brought from the Maghreb, paid from the treasury.
+  # Troops with no local kin had no local faction, which is what a caliph who
+  # had spent twenty years fighting local factions wanted — and what the men
+  # who captured the state afterwards used it for.
+  military_basis: { values: [slave-soldier, mercenary], source: kennedy-1996 }
+  # Null, and deliberately. The chapters here describe a treasury paying for
+  # troops in Cordoba and allegiances in the Maghreb, but no source read for
+  # this polity is cited on where that revenue came from, and coding land-tax
+  # because it is the obvious answer is exactly what coding rule 9 forbids.
+  revenue_basis: null
+  succession_rule: { values: [nomination], source: kennedy-1996 }
+  # Descent from the Umayyad house is the whole basis of the emirate: they were
+  # the family the Abbasids had displaced, which is legitimacy the eastern
+  # governors could not claim. Titulature is the 929 act, and it agrees with
+  # the single successor claim counted on this site's Umayyad Caliphate page —
+  # coding rule 8 asks for that check, and here it passes.
+  legitimation: { values: [descent, titulature], source: kennedy-1996 }
+
+turning_points:
+  - year: 929
+    type: reform
+    name: "Taking the caliphal title"
+    changed: >-
+      After 173 years of ruling a detached province without formally denying
+      that a caliphate existed, Abd al-Rahman III took the titles caliph and
+      amir al-mu'minin. The provocation was the Fatimid claim recruiting Berber
+      clients across the strait, and the effect was that from 929 there were
+      three caliphs in the Islamic world and al-Andalus was nobody's province.
+    source: kennedy-1996
+    contested: false
+  - year: 939
+    type: battle
+    name: "Simancas"
+    changed: >-
+      Ramiro II of Leon broke an Umayyad army, and Abd al-Rahman III never took
+      the field in person again. The strongest state in the western
+      Mediterranean was not the strongest army on the peninsula, and its
+      northern policy became raiding and tribute rather than conquest.
+    source: kennedy-1996
+    contested: false
+  - year: 976
+    type: succession-crisis
+    name: "Hisham II's minority"
+    changed: >-
+      An eleven-year-old inherited a state at full strength whose
+      administration, army and revenue all answered to one point of control in
+      the palace. Within a few years the chamberlain held every part of it and
+      the caliph was a formality — a machine with a single point of control
+      changes hands completely when the point of control does.
+    source: kennedy-1996
+    contested: false
+  - year: 1009
+    type: revolt
+    name: "The fitna of al-Andalus"
+    changed: >-
+      The Berber regiments recruited to hold the arrangement together, the
+      Cordoban population and rival Umayyad claimants fought each other for
+      twenty-two years. Madinat al-Zahra was sacked in 1010 and Cordoba by its
+      own troops in 1013, and no faction could rebuild a state the others would
+      accept — which is why this polity's ending has no agent.
+    source: kennedy-1996
+    contested: false
+
 measures:
   reach_km2: null
   peak_population: null
   influence:
+    # Arabic in al-Andalus was the inherited script writing an inherited
+    # language, extended to nothing new by this polity; and the Latin-script
+    # traditions around it are not derived from it. No consulted source
+    # addresses the question, so null rather than 0.
     descendant_scripts: { count: null, items: [], source: null }
+    # This polity received a conversion rather than propagating one. The
+    # Andalusi population became Muslim over generations under its rule, which
+    # the coding rules exclude — adoption inside the borders is not carrying —
+    # and no source read here describes Cordoban state action propagating
+    # beyond them. Null, because the question has not been put to a source.
     religions_carried: { count: null, items: [], source: null }
+    # The taifa kings who divided al-Andalus after 1031 ruled the ground and
+    # mostly did not claim the house, and no later polity here takes the
+    # Cordoban caliphate as the ground of its own authority. Null rather than
+    # 0: no source consulted for this polity was asked the question.
     successor_claims: { count: null, items: [], source: null }
