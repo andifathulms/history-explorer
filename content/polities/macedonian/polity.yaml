@@ -34,6 +34,19 @@ ended:
   year: -323
   source: ab-bosworth-1988
 
+turning_points:
+  - year: -323
+    type: succession-crisis
+    name: "The settlement at Babylon"
+    changed: >-
+      Alexander died with no adult heir and nothing connecting a conquering
+      army to a captured Persian bureaucracy except himself. A joint kingship
+      of an unborn child and an incompetent lasted about two years, after
+      which the officers stopped ruling on anyone's behalf and called
+      themselves kings, in wars that ran four decades.
+    source: ab-bosworth-1988
+    contested: false
+
 measures:
   reach_km2: { value: 5200000, at: -323, source: taagepera-1979 }
   peak_population: null

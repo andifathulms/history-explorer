@@ -35,6 +35,28 @@ ended:
   year: 661
   source: madelung-1997
 
+turning_points:
+  - year: 656
+    type: revolt
+    name: "The killing of Uthman"
+    changed: >-
+      Mutineers from the Egyptian and Iraqi garrisons besieged the caliph in
+      his own house at Medina and killed him over the distribution of stipends
+      and governorships, and every subsequent claimant inherited the
+      accusation of having benefited from a murder he had not prevented.
+    source: madelung-1997
+    contested: false
+  - year: 657
+    type: treaty
+    name: "The arbitration at Siffin"
+    changed: >-
+      Ali agreed to arbitrate with Mu'awiya rather than settle the war in the
+      field, and the agreement split his own army: the faction holding that
+      submitting God's judgement to human arbitrators was itself the sin
+      became the Kharijites, and one of them killed him at Kufa in 661.
+    source: madelung-1997
+    contested: false
+
 measures:
   reach_km2: { value: 6400000, at: 655, source: taagepera-1997 }
   # McEvedy & Jones give regional populations, not a figure for this polity at

@@ -136,6 +136,57 @@ export interface Measures {
   influence: Influence
 }
 
+/**
+ * Closed vocabulary for a turning point.
+ *
+ * Deliberately small, and deliberately not a list of things that happened. Each
+ * value names a *kind of hinge*, and the test for admitting a new one is
+ * whether an existing value would misdescribe a real case — not whether a new
+ * label would be tidier.
+ *
+ * Nothing here duplicates an object the corpus already has. A partition between
+ * two polities is an edge in `edges.yaml`; how a polity stopped is `ended`;
+ * where its capital sat is `capitals`. A turning point is the third thing: an
+ * event inside one polity's life that changed its trajectory, which no other
+ * file records.
+ */
+export const TURNING_POINT_TYPES = [
+  'battle',
+  'siege',
+  'treaty',
+  'revolt',
+  'succession-crisis',
+  'conversion',
+  'capital-move',
+  'catastrophe',
+  'reform',
+] as const
+export type TurningPointType = (typeof TURNING_POINT_TYPES)[number]
+
+/**
+ * A dated event that changed the polity's trajectory.
+ *
+ * `changed` is the field that keeps this from becoming a battle list. It must
+ * say what the event altered, not what the event was — the same discipline
+ * `Edge.note` is held to. If it cannot be written, the entry is not a turning
+ * point: it is something that happened, and things that happened belong in a
+ * chapter.
+ *
+ * A polity with none is complete. Most conflicts in most polities' lives were
+ * not hinges, and a page with an empty list is making no admission.
+ */
+export interface TurningPoint {
+  year: number
+  type: TurningPointType
+  /** What it is called. "Manzikert", not "the battle of Manzikert in 1071". */
+  name: string
+  /** What it altered. Required, and held to the standard of an edge note. */
+  changed: string
+  source: SourceId
+  /** Where scholarship disputes that this was a hinge at all. */
+  contested: boolean
+}
+
 export interface Polity {
   id: PolityId
   /** Which region groups this polity, and whose thread it may stand in. */
@@ -151,6 +202,12 @@ export interface Polity {
     writing_system: string | null
   }
   ended: Ending | null
+  /**
+   * Dated hinges in this polity's life, in year order. Ordinarily empty, and
+   * empty is not a gap: see the note on TurningPoint and hard rule 7, whose
+   * logic this follows exactly.
+   */
+  turning_points: TurningPoint[]
   measures: Measures
   /** Context polities appear on the timeline and as edge targets, no chapters. */
   context_only?: boolean

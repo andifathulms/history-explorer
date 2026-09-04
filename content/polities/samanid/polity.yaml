@@ -51,6 +51,28 @@ ended:
   year: 999
   source: iranica-samanids
 
+turning_points:
+  - year: 892
+    type: capital-move
+    name: "Bukhara"
+    changed: >-
+      Isma'il moved the centre of gravity from Samarkand, the older and
+      grander city, to a working administrative seat that was his own. It is
+      the point at which the Samanids stop being a provincial family and start
+      being a state.
+    source: iranica-samanids
+    contested: false
+  - year: 900
+    type: battle
+    name: "Balkh"
+    changed: >-
+      Amr ibn al-Layth was captured and sent to Baghdad, and the caliph
+      transferred the recognition of Khurasan from the Saffarids to the
+      Samanids — a grant that followed the outcome and dressed it rather than
+      producing it.
+    source: iranica-samanids
+    contested: false
+
 measures:
   reach_km2: { value: 2600000, at: 928, source: taagepera-1997 }
 

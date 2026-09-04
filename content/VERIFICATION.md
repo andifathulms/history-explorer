@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**886 claims across 68 sources.**
+**903 claims across 68 sources.**
 
 ## Where to start
 
@@ -186,7 +186,7 @@ ordinary state, not an item to clear.
 
 ## Peter B. Golden, An Introduction to the History of the Turkic Peoples
 
-`golden-1992` — 32 claims
+`golden-1992` — 33 claims
 
 - [ ] `chapter/gokturk/01-gokturk.mdx` — prose: "The first people to be called Turks"
 - [ ] `chapter/gokturk/02-the-inscriptions.mdx` — prose: "A steppe empire in its own words"
@@ -218,12 +218,13 @@ ordinary state, not an item to clear.
 - [ ] `polity/uyghur-khaganate` — founder Qutlugh Bilge Kol r. 744-747
 - [ ] `polity/uyghur-khaganate` — peak Bogu Khagan r. 759-779
 - [ ] `polity/uyghur-khaganate` — last Kchik Khagan r. 839-840
+- [ ] `polity/uyghur-khaganate` — turning point 762 Bogu Khagan's adoption of Manichaeism
 - [ ] `polity/uyghur-khaganate` — religions_carried = 1 (Manichaeism)
 - [ ] `polity/uyghur-khaganate` — ended by conquest in 840
 
 ## Herbert Franke and Denis Twitchett (eds), The Cambridge History of China, Volume 6: Alien Regimes and Border States, 907-1368
 
-`franke-twitchett-1994` — 32 claims
+`franke-twitchett-1994` — 33 claims
 
 - [ ] `chapter/jin/01-jurchen.mdx` — prose: "The Jurchen century"
 - [ ] `chapter/jin/02-the-double-bind.mdx` — prose: "Preserving what conquest dissolves"
@@ -248,6 +249,7 @@ ordinary state, not an item to clear.
 - [ ] `polity/liao` — founder Abaoji r. 916-926
 - [ ] `polity/liao` — peak Emperor Shengzong r. 982-1031
 - [ ] `polity/liao` — last Emperor Tianzuo r. 1101-1125
+- [ ] `polity/liao` — turning point 1005 The Treaty of Chanyuan
 - [ ] `polity/liao` — descendant_scripts = 2 (Khitan large script, Khitan small script)
 - [ ] `polity/liao` — ended by conquest in 1125
 - [ ] `polity/yuan` — span starts 1271
@@ -260,7 +262,7 @@ ordinary state, not an item to clear.
 
 ## Carl F. Petry (ed.), The Cambridge History of Egypt, Volume 1: Islamic Egypt 640-1517
 
-`petry-1998` — 30 claims
+`petry-1998` — 31 claims
 
 **Sole source** for `mamluk-sultanate`, `tulunid` — nothing else in the corpus can contradict a misreading here.
 
@@ -286,6 +288,7 @@ ordinary state, not an item to clear.
 - [ ] `polity/mamluk-sultanate` — founder Aybak r. 1250-1257
 - [ ] `polity/mamluk-sultanate` — peak Baybars r. 1260-1277
 - [ ] `polity/mamluk-sultanate` — last Tuman Bay II r. 1516-1517
+- [ ] `polity/mamluk-sultanate` — turning point 1260 Ayn Jalut
 - [ ] `polity/mamluk-sultanate` — ended by conquest in 1517
 - [ ] `polity/tulunid` — span starts 868
 - [ ] `polity/tulunid` — span ends 905
@@ -457,6 +460,34 @@ ordinary state, not an item to clear.
 - [ ] `polity/rashidun` — successor_claims = 2 (umayyad, abbasid)
 - [ ] `polity/umayyad` — successor_claims = 1 (Umayyad Caliphate of Cordoba)
 
+## Amira K. Bennison, The Almoravid and Almohad Empires
+
+`bennison-2016` — 21 claims
+
+**Sole source** for `almoravid` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/almohad/01-ibn-tumart.mdx` — prose: "The mahdi of the Atlas"
+- [ ] `chapter/almohad/02-las-navas.mdx` — prose: "Las Navas de Tolosa"
+- [ ] `chapter/almoravid/01-ribat.mdx` — prose: "From the Sahara"
+- [ ] `chapter/almoravid/02-gold.mdx` — prose: "The gold road"
+- [ ] `edge/almoravid->almohad` — overthrew in 1147
+- [ ] `polity/almohad` — span starts 1121
+- [ ] `polity/almohad` — span ends 1269
+- [ ] `polity/almohad` — capital Marrakesh from 1147
+- [ ] `polity/almohad` — founder Ibn Tumart r. 1121-1130
+- [ ] `polity/almohad` — peak Abu Yusuf Ya'qub al-Mansur r. 1184-1199
+- [ ] `polity/almohad` — last Idris II al-Wathiq r. 1266-1269
+- [ ] `polity/almohad` — turning point 1212 Las Navas de Tolosa
+- [ ] `polity/almohad` — ended by fragmentation in 1269
+- [ ] `polity/almoravid` — span starts 1040
+- [ ] `polity/almoravid` — span ends 1147
+- [ ] `polity/almoravid` — capital Marrakesh from 1040
+- [ ] `polity/almoravid` — founder Abd Allah ibn Yasin r. 1040-1059
+- [ ] `polity/almoravid` — peak Yusuf ibn Tashfin r. 1061-1106
+- [ ] `polity/almoravid` — last Ishaq ibn Ali r. 1146-1147
+- [ ] `polity/almoravid` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/almoravid` — ended by conquest in 1147
+
 ## Kenneth R. Hall, A History of Early Southeast Asia: Maritime Trade and Societal Development, 100-1500
 
 `hall-2011` — 21 claims
@@ -511,36 +542,9 @@ ordinary state, not an item to clear.
 - [ ] `polity/seleucid` — peak Antiochus III r. -222--187
 - [ ] `polity/seleucid` — last Philip II Philoromaeus r. -65--63
 
-## Amira K. Bennison, The Almoravid and Almohad Empires
-
-`bennison-2016` — 20 claims
-
-**Sole source** for `almoravid` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/almohad/01-ibn-tumart.mdx` — prose: "The mahdi of the Atlas"
-- [ ] `chapter/almohad/02-las-navas.mdx` — prose: "Las Navas de Tolosa"
-- [ ] `chapter/almoravid/01-ribat.mdx` — prose: "From the Sahara"
-- [ ] `chapter/almoravid/02-gold.mdx` — prose: "The gold road"
-- [ ] `edge/almoravid->almohad` — overthrew in 1147
-- [ ] `polity/almohad` — span starts 1121
-- [ ] `polity/almohad` — span ends 1269
-- [ ] `polity/almohad` — capital Marrakesh from 1147
-- [ ] `polity/almohad` — founder Ibn Tumart r. 1121-1130
-- [ ] `polity/almohad` — peak Abu Yusuf Ya'qub al-Mansur r. 1184-1199
-- [ ] `polity/almohad` — last Idris II al-Wathiq r. 1266-1269
-- [ ] `polity/almohad` — ended by fragmentation in 1269
-- [ ] `polity/almoravid` — span starts 1040
-- [ ] `polity/almoravid` — span ends 1147
-- [ ] `polity/almoravid` — capital Marrakesh from 1040
-- [ ] `polity/almoravid` — founder Abd Allah ibn Yasin r. 1040-1059
-- [ ] `polity/almoravid` — peak Yusuf ibn Tashfin r. 1061-1106
-- [ ] `polity/almoravid` — last Ishaq ibn Ali r. 1146-1147
-- [ ] `polity/almoravid` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/almoravid` — ended by conquest in 1147
-
 ## Colin Imber, The Ottoman Empire, 1300-1650: The Structure of Power
 
-`imber-2002` — 15 claims
+`imber-2002` — 16 claims
 
 - [ ] `chapter/ottoman/01-a-frontier-beylik.mdx` — prose: "The smallest of the beyliks"
 - [ ] `chapter/ottoman/02-1453.mdx` — prose: "Two inheritances"
@@ -555,6 +559,7 @@ ordinary state, not an item to clear.
 - [ ] `polity/ottoman` — founder Osman I r. 1299-1324
 - [ ] `polity/ottoman` — peak Suleyman I r. 1520-1566
 - [ ] `polity/ottoman` — last Mehmed VI r. 1918-1922
+- [ ] `polity/ottoman` — turning point 1453 The taking of Constantinople
 - [ ] `polity/ottoman` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/ottoman` — ended by fragmentation in 1922
 
@@ -576,6 +581,27 @@ ordinary state, not an item to clear.
 - [ ] `polity/delhi-sultanate` — ended by conquest in 1526
 - [ ] `polity/ghurid` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/ghurid` — successor_claims = 1 (Delhi Sultanate)
+
+## C. E. Bosworth, SAMANIDS
+*In Encyclopaedia Iranica.*
+<https://iranicaonline.org/articles/samanids>
+
+`iranica-samanids` — 14 claims
+
+- [ ] `chapter/samanid/02-ismail-and-bukhara.mdx` — prose: "Isma'il moves the capital"
+- [ ] `chapter/samanid/03-nasr-ii-bukhara.mdx` — prose: "Nasr II's Bukhara"
+- [ ] `chapter/samanid/05-999.mdx` — prose: "999, and the six years after"
+- [ ] `edge/saffarid->samanid` — conquered by in 900
+- [ ] `edge/samanid->karakhanid` — conquered by in 999
+- [ ] `polity/samanid` — span start upper bound 892
+- [ ] `polity/samanid` — span end upper bound 1005
+- [ ] `polity/samanid` — capital Samarkand from 819
+- [ ] `polity/samanid` — capital Bukhara from 892
+- [ ] `polity/samanid` — turning point 892 Bukhara
+- [ ] `polity/samanid` — turning point 900 Balkh
+- [ ] `polity/samanid` — descendant_scripts = 0
+- [ ] `polity/samanid` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/samanid` — ended by conquest in 999
 
 ## G. R. Hawting, The First Dynasty of Islam: The Umayyad Caliphate AD 661-750
 
@@ -689,6 +715,23 @@ ordinary state, not an item to clear.
 - [ ] `polity/mongol` — successor_claims = 3 (ilkhanate, chagatai, golden-horde)
 - [ ] `polity/mongol` — ended by fragmentation in 1260
 
+## A. B. Bosworth, Conquest and Empire: The Reign of Alexander the Great
+
+`ab-bosworth-1988` — 12 claims
+
+- [ ] `chapter/macedonian/01-macedonian.mdx` — prose: "Thirteen years"
+- [ ] `chapter/macedonian/02-the-succession.mdx` — prose: "What happens when there is no institution"
+- [ ] `edge/achaemenid->macedonian` — conquered by in -330
+- [ ] `polity/achaemenid` — ended by conquest in -330
+- [ ] `polity/macedonian` — span starts -336
+- [ ] `polity/macedonian` — span ends -323
+- [ ] `polity/macedonian` — capital Babylon from -336
+- [ ] `polity/macedonian` — founder Alexander III r. -336--323
+- [ ] `polity/macedonian` — peak Alexander III r. -336--323
+- [ ] `polity/macedonian` — last Alexander III r. -336--323
+- [ ] `polity/macedonian` — turning point -323 The settlement at Babylon
+- [ ] `polity/macedonian` — ended by fragmentation in -323
+
 ## Carole Hillenbrand, The Crusades: Islamic Perspectives
 
 `hillenbrand-1999` — 12 claims
@@ -724,6 +767,23 @@ ordinary state, not an item to clear.
 - [ ] `polity/cordoba` — peak Abd al-Rahman III r. 912-961
 - [ ] `polity/cordoba` — last Hisham III r. 1027-1031
 - [ ] `polity/cordoba` — ended by fragmentation in 1031
+
+## Peter Jackson, The Mongols and the Islamic World: From Conquest to Conversion
+
+`jackson-2017` — 12 claims
+
+- [ ] `chapter/ilkhanate/01-conversion.mdx` — prose: "The conquerors convert"
+- [ ] `chapter/ilkhanate/02-rashid-al-din.mdx` — prose: "The first world history"
+- [ ] `edge/mongol->ilkhanate` — partitioned from in 1256
+- [ ] `polity/ilkhanate` — span starts 1256
+- [ ] `polity/ilkhanate` — span ends 1335
+- [ ] `polity/ilkhanate` — capital Tabriz from 1256
+- [ ] `polity/ilkhanate` — founder Hulegu r. 1256-1265
+- [ ] `polity/ilkhanate` — peak Ghazan r. 1295-1304
+- [ ] `polity/ilkhanate` — last Abu Sa'id r. 1316-1335
+- [ ] `polity/ilkhanate` — turning point 1295 Ghazan's conversion to Islam
+- [ ] `polity/ilkhanate` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/ilkhanate` — ended by fragmentation in 1335
 
 ## Greg Woolf, Rome: An Empire's Story
 
@@ -761,24 +821,22 @@ ordinary state, not an item to clear.
 - [ ] `polity/rum` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/rum` — ended by gradual absorption in 1308
 
-## C. E. Bosworth, SAMANIDS
-*In Encyclopaedia Iranica.*
-<https://iranicaonline.org/articles/samanids>
+## Andrew J. Newman, Safavid Iran: Rebirth of a Persian Empire
 
-`iranica-samanids` — 12 claims
+`newman-2006` — 12 claims
 
-- [ ] `chapter/samanid/02-ismail-and-bukhara.mdx` — prose: "Isma'il moves the capital"
-- [ ] `chapter/samanid/03-nasr-ii-bukhara.mdx` — prose: "Nasr II's Bukhara"
-- [ ] `chapter/samanid/05-999.mdx` — prose: "999, and the six years after"
-- [ ] `edge/saffarid->samanid` — conquered by in 900
-- [ ] `edge/samanid->karakhanid` — conquered by in 999
-- [ ] `polity/samanid` — span start upper bound 892
-- [ ] `polity/samanid` — span end upper bound 1005
-- [ ] `polity/samanid` — capital Samarkand from 819
-- [ ] `polity/samanid` — capital Bukhara from 892
-- [ ] `polity/samanid` — descendant_scripts = 0
-- [ ] `polity/samanid` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/samanid` — ended by conquest in 999
+- [ ] `chapter/safavid/01-a-decreed-confession.mdx` — prose: "A confession imposed by decree"
+- [ ] `chapter/safavid/02-isfahan.mdx` — prose: "Abbas rebuilds"
+- [ ] `edge/timurid->safavid` — absorbed remnants of in 1501
+- [ ] `polity/safavid` — span starts 1501
+- [ ] `polity/safavid` — span ends 1736
+- [ ] `polity/safavid` — capital Isfahan from 1501
+- [ ] `polity/safavid` — founder Isma'il I r. 1501-1524
+- [ ] `polity/safavid` — peak Abbas I r. 1588-1629
+- [ ] `polity/safavid` — last Abbas III r. 1732-1736
+- [ ] `polity/safavid` — turning point 1501 The Shi’i decree at Tabriz
+- [ ] `polity/safavid` — religions_carried = 1 (Twelver Shi'ism)
+- [ ] `polity/safavid` — ended by conquest in 1736
 
 ## John O. Hunwick, Timbuktu and the Songhay Empire
 
@@ -798,22 +856,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/songhai` — last Askia Ishaq II r. 1588-1591
 - [ ] `polity/songhai` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/songhai` — ended by conquest in 1591
-
-## A. B. Bosworth, Conquest and Empire: The Reign of Alexander the Great
-
-`ab-bosworth-1988` — 11 claims
-
-- [ ] `chapter/macedonian/01-macedonian.mdx` — prose: "Thirteen years"
-- [ ] `chapter/macedonian/02-the-succession.mdx` — prose: "What happens when there is no institution"
-- [ ] `edge/achaemenid->macedonian` — conquered by in -330
-- [ ] `polity/achaemenid` — ended by conquest in -330
-- [ ] `polity/macedonian` — span starts -336
-- [ ] `polity/macedonian` — span ends -323
-- [ ] `polity/macedonian` — capital Babylon from -336
-- [ ] `polity/macedonian` — founder Alexander III r. -336--323
-- [ ] `polity/macedonian` — peak Alexander III r. -336--323
-- [ ] `polity/macedonian` — last Alexander III r. -336--323
-- [ ] `polity/macedonian` — ended by fragmentation in -323
 
 ## Stuart Munro-Hay, Aksum: An African Civilisation of Late Antiquity
 
@@ -915,22 +957,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/golden-horde` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/golden-horde` — ended by fragmentation in 1502
 
-## Peter Jackson, The Mongols and the Islamic World: From Conquest to Conversion
-
-`jackson-2017` — 11 claims
-
-- [ ] `chapter/ilkhanate/01-conversion.mdx` — prose: "The conquerors convert"
-- [ ] `chapter/ilkhanate/02-rashid-al-din.mdx` — prose: "The first world history"
-- [ ] `edge/mongol->ilkhanate` — partitioned from in 1256
-- [ ] `polity/ilkhanate` — span starts 1256
-- [ ] `polity/ilkhanate` — span ends 1335
-- [ ] `polity/ilkhanate` — capital Tabriz from 1256
-- [ ] `polity/ilkhanate` — founder Hulegu r. 1256-1265
-- [ ] `polity/ilkhanate` — peak Ghazan r. 1295-1304
-- [ ] `polity/ilkhanate` — last Abu Sa'id r. 1316-1335
-- [ ] `polity/ilkhanate` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/ilkhanate` — ended by fragmentation in 1335
-
 ## Frederick W. Mote and Denis Twitchett (eds), The Cambridge History of China, Volume 7: The Ming Dynasty, 1368-1644, Part 1
 
 `mote-twitchett-1988` — 11 claims
@@ -962,22 +988,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/mughal` — peak Akbar r. 1556-1605
 - [ ] `polity/mughal` — last Bahadur Shah II r. 1837-1857
 - [ ] `polity/mughal` — ended by conquest in 1857
-
-## Andrew J. Newman, Safavid Iran: Rebirth of a Persian Empire
-
-`newman-2006` — 11 claims
-
-- [ ] `chapter/safavid/01-a-decreed-confession.mdx` — prose: "A confession imposed by decree"
-- [ ] `chapter/safavid/02-isfahan.mdx` — prose: "Abbas rebuilds"
-- [ ] `edge/timurid->safavid` — absorbed remnants of in 1501
-- [ ] `polity/safavid` — span starts 1501
-- [ ] `polity/safavid` — span ends 1736
-- [ ] `polity/safavid` — capital Isfahan from 1501
-- [ ] `polity/safavid` — founder Isma'il I r. 1501-1524
-- [ ] `polity/safavid` — peak Abbas I r. 1588-1629
-- [ ] `polity/safavid` — last Abbas III r. 1732-1736
-- [ ] `polity/safavid` — religions_carried = 1 (Twelver Shi'ism)
-- [ ] `polity/safavid` — ended by conquest in 1736
 
 ## C. E. Bosworth, The History of the Saffarids of Sistan and the Maliks of Nimruz (247/861 to 949/1542-3)
 
@@ -1058,6 +1068,21 @@ ordinary state, not an item to clear.
 - [ ] `polity/chagatai` — last Qazan r. 1343-1347
 - [ ] `polity/chagatai` — ended by fragmentation in 1347
 
+## Michael Brett, The Fatimid Empire
+
+`brett-2017` — 10 claims
+
+- [ ] `chapter/fatimid/02-cairo.mdx` — prose: "Cairo"
+- [ ] `chapter/fatimid/04-decline.mdx` — prose: "The viziers, and Saladin"
+- [ ] `edge/ikhshidid->fatimid` — conquered by in 969
+- [ ] `polity/fatimid` — span ends 1171
+- [ ] `polity/fatimid` — capital Cairo from 973
+- [ ] `polity/fatimid` — peak al-Mustansir r. 1036-1094
+- [ ] `polity/fatimid` — last al-Adid r. 1160-1171
+- [ ] `polity/fatimid` — turning point 969 The founding of Cairo
+- [ ] `polity/fatimid` — religions_carried = 1 (Isma'ili Shi'ism)
+- [ ] `polity/ikhshidid` — ended by conquest in 969
+
 ## Denis Twitchett and Michael Loewe (eds), The Cambridge History of China, Volume 1: The Ch'in and Han Empires, 221 BC-AD 220
 
 `loewe-twitchett-1986` — 10 claims
@@ -1133,20 +1158,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/egypt-new-kingdom` — last Ramesses XI r. -1107--1077
 - [ ] `polity/egypt-new-kingdom` — ended by fragmentation in -1077
 
-## Michael Brett, The Fatimid Empire
-
-`brett-2017` — 9 claims
-
-- [ ] `chapter/fatimid/02-cairo.mdx` — prose: "Cairo"
-- [ ] `chapter/fatimid/04-decline.mdx` — prose: "The viziers, and Saladin"
-- [ ] `edge/ikhshidid->fatimid` — conquered by in 969
-- [ ] `polity/fatimid` — span ends 1171
-- [ ] `polity/fatimid` — capital Cairo from 973
-- [ ] `polity/fatimid` — peak al-Mustansir r. 1036-1094
-- [ ] `polity/fatimid` — last al-Adid r. 1160-1171
-- [ ] `polity/fatimid` — religions_carried = 1 (Isma'ili Shi'ism)
-- [ ] `polity/ikhshidid` — ended by conquest in 969
-
 ## C. E. Bosworth, The Ghaznavids: Their Empire in Afghanistan and Eastern Iran, 994-1040
 
 `bosworth-1963` — 9 claims
@@ -1192,6 +1203,19 @@ ordinary state, not an item to clear.
 - [ ] `polity/tahirid` — successor_claims = 0
 - [ ] `polity/tahirid` — ended by conquest in 873
 
+## Tayeb El-Hibri, The Abbasid Caliphate: A History
+
+`el-hibri-2021` — 8 claims
+
+- [ ] `chapter/abbasid/02-harun.mdx` — prose: "Harun al-Rashid, and what came after him"
+- [ ] `chapter/abbasid/03-samarra.mdx` — prose: "The soldiers at Samarra"
+- [ ] `chapter/abbasid/04-the-caliph-they-kept.mdx` — prose: "945, and the caliph they kept"
+- [ ] `chapter/abbasid/05-al-nasir.mdx` — prose: "The forty-five years when it nearly worked"
+- [ ] `edge/abbasid->mamluk-sultanate` — claimed legitimacy of in 1261
+- [ ] `polity/abbasid` — turning point 836 The move to Samarra
+- [ ] `polity/abbasid` — turning point 861 The anarchy at Samarra
+- [ ] `polity/abbasid` — successor_claims = 1 (Abbasid Caliphate of Cairo)
+
 ## C. E. Bosworth, The Later Ghaznavids: Splendour and Decay. The Dynasty in Afghanistan and Northern India, 1040-1186
 
 `bosworth-1977` — 8 claims
@@ -1218,16 +1242,30 @@ ordinary state, not an item to clear.
 - [ ] `polity/tang` — last Emperor Ai r. 904-907
 - [ ] `polity/tang` — religions_carried = 1 (Mahayana Buddhism)
 
-## Tayeb El-Hibri, The Abbasid Caliphate: A History
+## Wilferd Madelung, The Succession to Muhammad: A Study of the Early Caliphate
 
-`el-hibri-2021` — 6 claims
+`madelung-1997` — 7 claims
 
-- [ ] `chapter/abbasid/02-harun.mdx` — prose: "Harun al-Rashid, and what came after him"
-- [ ] `chapter/abbasid/03-samarra.mdx` — prose: "The soldiers at Samarra"
-- [ ] `chapter/abbasid/04-the-caliph-they-kept.mdx` — prose: "945, and the caliph they kept"
-- [ ] `chapter/abbasid/05-al-nasir.mdx` — prose: "The forty-five years when it nearly worked"
-- [ ] `edge/abbasid->mamluk-sultanate` — claimed legitimacy of in 1261
-- [ ] `polity/abbasid` — successor_claims = 1 (Abbasid Caliphate of Cairo)
+- [ ] `chapter/rashidun/01-saqifa.mdx` — prose: "The succession nobody had planned"
+- [ ] `chapter/rashidun/04-fitna.mdx` — prose: "The first fitna"
+- [ ] `edge/rashidun->umayyad` — overthrew in 661
+- [ ] `polity/rashidun` — last Ali ibn Abi Talib r. 656-661
+- [ ] `polity/rashidun` — turning point 656 The killing of Uthman
+- [ ] `polity/rashidun` — turning point 657 The arbitration at Siffin
+- [ ] `polity/rashidun` — ended by dynastic replacement in 661
+
+## multiple contributors, SALJUQS
+*In Encyclopaedia Iranica.*
+<https://iranicaonline.org/articles/saljuqs>
+
+`iranica-saljuqs` — 6 claims
+
+- [ ] `chapter/great-seljuk/01-dandanaqan.mdx` — prose: "Dandanaqan"
+- [ ] `polity/great-seljuk` — span start upper bound 1040
+- [ ] `polity/great-seljuk` — capital Nishapur from 1037
+- [ ] `polity/great-seljuk` — capital Rayy from 1043
+- [ ] `polity/great-seljuk` — turning point 1040 Dandanaqan
+- [ ] `polity/great-seljuk` — descendant_scripts = 0
 
 ## C. E. Bosworth, SAFFARIDS
 *In Encyclopaedia Iranica.*
@@ -1253,28 +1291,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/buyid` — capital Shiraz from 934
 - [ ] `polity/buyid` — capital Rayy from 943
 - [ ] `polity/buyid` — descendant_scripts = 0
-
-## multiple contributors, SALJUQS
-*In Encyclopaedia Iranica.*
-<https://iranicaonline.org/articles/saljuqs>
-
-`iranica-saljuqs` — 5 claims
-
-- [ ] `chapter/great-seljuk/01-dandanaqan.mdx` — prose: "Dandanaqan"
-- [ ] `polity/great-seljuk` — span start upper bound 1040
-- [ ] `polity/great-seljuk` — capital Nishapur from 1037
-- [ ] `polity/great-seljuk` — capital Rayy from 1043
-- [ ] `polity/great-seljuk` — descendant_scripts = 0
-
-## Wilferd Madelung, The Succession to Muhammad: A Study of the Early Caliphate
-
-`madelung-1997` — 5 claims
-
-- [ ] `chapter/rashidun/01-saqifa.mdx` — prose: "The succession nobody had planned"
-- [ ] `chapter/rashidun/04-fitna.mdx` — prose: "The first fitna"
-- [ ] `edge/rashidun->umayyad` — overthrew in 661
-- [ ] `polity/rashidun` — last Ali ibn Abi Talib r. 656-661
-- [ ] `polity/rashidun` — ended by dynastic replacement in 661
 
 ## Fred M. Donner, The Early Islamic Conquests
 
@@ -1303,6 +1319,14 @@ ordinary state, not an item to clear.
 - [ ] `chapter/byzantine/02-the-name.mdx` — prose: "Nobody there called it Byzantium"
 - [ ] `polity/byzantine` — descendant_scripts = 1 (Cyrillic)
 - [ ] `polity/byzantine` — religions_carried = 1 (Orthodox Christianity)
+
+## Denis Twitchett (ed.), The Cambridge History of China, Volume 3: Sui and T'ang China, 589-906, Part 1
+
+`twitchett-1979` — 3 claims
+
+- [ ] `chapter/tang/02-an-lushan.mdx` — prose: "An Lushan"
+- [ ] `polity/tang` — turning point 755 The An Lushan rebellion
+- [ ] `polity/tang` — ended by fragmentation in 907
 
 ## Colin McEvedy and Richard Jones, Atlas of World Population History
 
@@ -1335,13 +1359,6 @@ ordinary state, not an item to clear.
 
 - [ ] `chapter/mongol/03-division.mdx` — prose: "An empire that divided itself"
 - [ ] `polity/mongol` — span end upper bound 1368
-
-## Denis Twitchett (ed.), The Cambridge History of China, Volume 3: Sui and T'ang China, 589-906, Part 1
-
-`twitchett-1979` — 2 claims
-
-- [ ] `chapter/tang/02-an-lushan.mdx` — prose: "An Lushan"
-- [ ] `polity/tang` — ended by fragmentation in 907
 
 ## R. N. Frye (ed.), The Cambridge History of Iran, Volume 4: From the Arab Invasion to the Saljuqs
 

@@ -20,6 +20,7 @@ import {
   EDGE_TYPES,
   END_TYPES,
   PHASES,
+  TURNING_POINT_TYPES,
   type Chapter,
   type Edge,
   type Polity,
@@ -228,6 +229,69 @@ export function loadCorpus(): Corpus {
 
     if (p.span.end.min < p.span.start.min) {
       throw new ContentError(where, 'span ends before it starts')
+    }
+
+    // Turning points. Normalised to [] so no consumer needs a null check, and
+    // so an absent key and an empty list say the same ordinary thing.
+    p.turning_points ??= []
+    if (!Array.isArray(p.turning_points)) {
+      throw new ContentError(where, 'turning_points must be a list')
+    }
+
+    let lastTurningYear: number | null = null
+    const turningSeen = new Set<string>()
+    for (const t of p.turning_points) {
+      const tWhere = `${where}/turning_point "${t?.name ?? '?'}"`
+      if (!t?.name?.trim()) throw new ContentError(tWhere, 'a turning point is named')
+      if (typeof t.year !== 'number' || !Number.isInteger(t.year)) {
+        throw new ContentError(tWhere, 'a turning point is dated to a year')
+      }
+      if (!TURNING_POINT_TYPES.includes(t.type)) {
+        throw new ContentError(
+          tWhere,
+          `type "${t.type}" is outside the closed vocabulary (${TURNING_POINT_TYPES.join(', ')})`,
+        )
+      }
+      requireSource(t.source, tWhere)
+      if (!t.source) throw new ContentError(tWhere, 'a turning point names its source')
+      if (typeof t.contested !== 'boolean') {
+        throw new ContentError(tWhere, 'contested is true or false, never absent')
+      }
+
+      // The rule that keeps this from becoming a battle list. `changed` must
+      // say what the event altered; a restatement of the name or the type is
+      // the failure mode, and it is cheap to catch the obvious forms of it.
+      const changed = t.changed?.trim() ?? ''
+      if (!changed) {
+        throw new ContentError(
+          tWhere,
+          'changed is required: say what the event altered, not what it was. ' +
+            'If that cannot be written, this is not a turning point',
+        )
+      }
+      if (changed.length < 60) {
+        throw new ContentError(tWhere, `changed is ${changed.length} characters; that is a label, not a consequence`)
+      }
+      const trivial = changed.toLowerCase().replace(/[^a-z0-9]/g, '')
+      const nameKey = t.name.toLowerCase().replace(/[^a-z0-9]/g, '')
+      if (trivial === nameKey || trivial === t.type.replace(/-/g, '')) {
+        throw new ContentError(tWhere, 'changed restates the name or the type')
+      }
+
+      if (t.year < p.span.start.min || t.year > p.span.end.max) {
+        throw new ContentError(
+          tWhere,
+          `dated ${t.year}, outside the cited span ${p.span.start.min}-${p.span.end.max}`,
+        )
+      }
+      if (lastTurningYear !== null && t.year < lastTurningYear) {
+        throw new ContentError(tWhere, `dated ${t.year}, which is before ${lastTurningYear}; turning points run in year order`)
+      }
+      lastTurningYear = t.year
+
+      const key = `${t.year}|${nameKey}`
+      if (turningSeen.has(key)) throw new ContentError(tWhere, 'the same event is listed twice')
+      turningSeen.add(key)
     }
 
     all.push(p)
@@ -535,6 +599,7 @@ export function sourceUsage(): SourceUse[] {
       p.rulers?.last?.source,
       p.measures?.reach_km2?.source,
       ...(p.measures?.extent ?? []).map((x) => x.source),
+      ...(p.turning_points ?? []).map((x) => x.source),
       p.measures?.peak_population?.source,
       ...Object.values(p.measures?.influence ?? {}).map((x) => x.source),
       p.ended?.source,

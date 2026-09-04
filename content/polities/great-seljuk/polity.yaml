@@ -47,6 +47,19 @@ ended:
   year: 1194
   source: bosworth-1968
 
+turning_points:
+  - year: 1040
+    type: battle
+    name: "Dandanaqan"
+    changed: >-
+      One battle transferred the richest province in the eastern Islamic world
+      from a dynasty at the height of its administrative sophistication to a
+      confederation with none, and Tughril Beg was proclaimed ruler of
+      Khurasan. The Ghaznavid state did not fail with it; it went on
+      functioning in India for another century and a half.
+    source: iranica-saljuqs
+    contested: false
+
 measures:
   reach_km2: { value: 3900000, at: 1080, source: taagepera-1997 }
   peak_population: null

@@ -35,6 +35,28 @@ ended:
   year: 1258
   source: bosworth-1996
 
+turning_points:
+  - year: 836
+    type: capital-move
+    name: "The move to Samarra"
+    changed: >-
+      Baghdad's population and the new Turkish slave guard could not be kept
+      in one city, so the whole apparatus went sixty miles up the Tigris to a
+      planned caliphal city containing almost nobody the caliph had not
+      brought there.
+    source: el-hibri-2021
+    contested: false
+  - year: 861
+    type: succession-crisis
+    name: "The anarchy at Samarra"
+    changed: >-
+      Four caliphs were raised and destroyed by their own Turkish commanders
+      in nine years, and the office never recovered its independence from the
+      men who held its weapons; the army bought to free the caliphs from
+      provincial politics became the only politics there was.
+    source: el-hibri-2021
+    contested: false
+
 measures:
   reach_km2: { value: 11100000, at: 750, source: taagepera-1997 }
   peak_population: null

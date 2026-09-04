@@ -35,6 +35,19 @@ ended:
   year: 1171
   source: humphreys-1977
 
+turning_points:
+  - year: 969
+    type: capital-move
+    name: "The founding of Cairo"
+    changed: >-
+      A palace city north of Fustat replaced Ifriqiya as the centre, and
+      Egypt's Nile agriculture and cultivated Red Sea trade gave the caliphate
+      a revenue base that funded a gold dinar of famous reliability and a navy
+      — and the Hijaz, which meant the Friday sermon at Mecca and Medina was
+      preached in the Fatimid caliph's name.
+    source: brett-2017
+    contested: false
+
 measures:
   reach_km2: { value: 4100000, at: 969, source: taagepera-1997 }
   peak_population: null

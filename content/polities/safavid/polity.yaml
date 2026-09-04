@@ -35,6 +35,19 @@ ended:
   year: 1736
   source: newman-2006
 
+turning_points:
+  - year: 1501
+    type: conversion
+    name: "The Shi’i decree at Tabriz"
+    changed: >-
+      Twelver Shi'ism was declared the religion of an overwhelmingly Sunni
+      country and enforced, changing the confession of a large settled
+      population within roughly a century by importing a clergy that did not
+      previously exist there — and making the wars that followed the first
+      sustained confessional conflict between two great Muslim powers.
+    source: newman-2006
+    contested: false
+
 measures:
   reach_km2: { value: 2900000, at: 1512, source: taagepera-1997 }
   peak_population: null

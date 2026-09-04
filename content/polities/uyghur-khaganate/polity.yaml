@@ -36,6 +36,18 @@ ended:
   year: 840
   source: golden-1992
 
+turning_points:
+  - year: 762
+    type: conversion
+    name: "Bogu Khagan's adoption of Manichaeism"
+    changed: >-
+      A steppe empire took a persecuted Mesopotamian dualist faith as its
+      state cult, the only state in history to have done so, and with it the
+      Sogdian commercial network that was the medium of the choice and the
+      literate administration that came through it.
+    source: golden-1992
+    contested: false
+
 measures:
   reach_km2: { value: 3100000, at: 800, source: taagepera-1997 }
   peak_population: null

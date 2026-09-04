@@ -34,6 +34,19 @@ ended:
   year: 907
   source: twitchett-1979
 
+turning_points:
+  - year: 755
+    type: revolt
+    name: "The An Lushan rebellion"
+    changed: >-
+      To fight it the court granted regional commanders control of their own
+      taxation and troops and never took it back, so the second half of the
+      dynasty is a central government negotiating with provinces that remit
+      what they choose. The western garrisons were withdrawn permanently and
+      the Tarim basin passed to the Tibetans.
+    source: twitchett-1979
+    contested: false
+
 measures:
   reach_km2: { value: 5400000, at: 715, source: taagepera-1997 }
   peak_population: null

@@ -34,6 +34,19 @@ ended:
   year: 1125
   source: franke-twitchett-1994
 
+turning_points:
+  - year: 1005
+    type: treaty
+    name: "The Treaty of Chanyuan"
+    changed: >-
+      The Song paid an annual sum in silver and silk and the frontier stayed
+      quiet for a hundred and twenty years. The two courts addressed each
+      other as formal equals with negotiated borders, which no Chinese
+      diplomatic template provided for, and the border markets it opened
+      profited both economies.
+    source: franke-twitchett-1994
+    contested: false
+
 measures:
   reach_km2: { value: 2600000, at: 947, source: taagepera-1997 }
   peak_population: null

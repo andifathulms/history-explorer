@@ -34,6 +34,18 @@ ended:
   year: 1922
   source: imber-2002
 
+turning_points:
+  - year: 1453
+    type: siege
+    name: "The taking of Constantinople"
+    changed: >-
+      Mehmed II moved his capital into the city after a fifty-three day siege,
+      turning a frontier principality into the successor state of the eastern
+      Roman empire in its own description of itself as well as in its
+      territory.
+    source: imber-2002
+    contested: false
+
 measures:
   reach_km2: { value: 5200000, at: 1683, source: taagepera-1997 }
   peak_population: null

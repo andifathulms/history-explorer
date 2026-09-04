@@ -34,6 +34,19 @@ ended:
   year: 1269
   source: bennison-2016
 
+turning_points:
+  - year: 1212
+    type: battle
+    name: "Las Navas de Tolosa"
+    changed: >-
+      The field army was destroyed and with it the Almohad ability to hold al-
+      Andalus: Cordoba fell in 1236 and Seville in 1248. The caliphate rested
+      on Ibn Tumart's status as infallible mahdi, and his successors quietly
+      abandoned the doctrine rather than defend it against a visible
+      judgement, which removed the argument for their own authority.
+    source: bennison-2016
+    contested: false
+
 measures:
   reach_km2: { value: 2300000, at: 1200, source: taagepera-1997 }
   peak_population: null

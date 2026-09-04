@@ -34,6 +34,18 @@ ended:
   year: 1335
   source: jackson-2017
 
+turning_points:
+  - year: 1295
+    type: conversion
+    name: "Ghazan's conversion to Islam"
+    changed: >-
+      The confessional order of the state reversed. Within a generation the
+      dynasty that had killed the caliph was building mosques, endowing Sunni
+      and Shi'i foundations, and issuing coinage carrying the Muslim
+      profession of faith.
+    source: jackson-2017
+    contested: false
+
 measures:
   reach_km2: { value: 3750000, at: 1310, source: taagepera-1997 }
   peak_population: null

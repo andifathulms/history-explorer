@@ -42,6 +42,13 @@ for (const dir of fs.readdirSync(path.join(C, 'polities')).sort()) {
   if (p.measures.reach_km2) {
     add(p.measures.reach_km2.source, w, `reach ${p.measures.reach_km2.value.toLocaleString('en-GB')} km2 at ${p.measures.reach_km2.at}`)
   }
+  // Turning points are cited claims and go on the worklist like any other.
+  // There is deliberately no companion list of polities *without* them: an
+  // empty list is a true statement, and printing it as an outstanding item
+  // would turn coding rule 4.3 inside out.
+  for (const t of p.turning_points ?? []) {
+    add(t.source, w, `turning point ${t.year} ${t.name}${t.contested ? ' (contested)' : ''}`)
+  }
   if (p.measures.reach_km2 && (p.measures.extent ?? []).length < 2) {
     noTrajectory.push({ id: p.id, source: p.measures.reach_km2.source, at: p.measures.reach_km2.at })
   }

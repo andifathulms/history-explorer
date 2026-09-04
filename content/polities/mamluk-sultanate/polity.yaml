@@ -34,6 +34,18 @@ ended:
   year: 1517
   source: petry-1998
 
+turning_points:
+  - year: 1260
+    type: battle
+    name: "Ayn Jalut"
+    changed: >-
+      The first significant Mongol defeat in the west left Syria to a ten-
+      year-old sultanate rather than to the Ilkhanate, and Baybars spent the
+      following seventeen years making it a Mamluk province and reducing the
+      Crusader states to a coastal strip.
+    source: petry-1998
+    contested: false
+
 measures:
   reach_km2: null
   peak_population: null
