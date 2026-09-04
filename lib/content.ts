@@ -131,6 +131,75 @@ export function loadCorpus(): Corpus {
     requireSource(p.measures?.reach_km2?.source, where)
     requireSource(p.measures?.peak_population?.source, where)
 
+    // Extent series. Normalised to [] here so that every consumer can iterate
+    // without a null check, and so an absent key and an empty list mean the
+    // same ordinary thing: nobody has transcribed a series for this polity.
+    if (p.measures) p.measures.extent ??= []
+    const extent = p.measures?.extent ?? []
+    if (!Array.isArray(extent)) {
+      throw new ContentError(where, 'measures.extent must be a list of dated figures')
+    }
+
+    let previousYear: number | null = null
+    for (const pt of extent) {
+      const eWhere = `${where}/extent@${pt?.at}`
+      if (typeof pt?.km2 !== 'number' || !Number.isFinite(pt.km2) || pt.km2 <= 0) {
+        throw new ContentError(eWhere, 'every extent point needs a positive km2 figure')
+      }
+      // Mandatory, and the reason the shape is not Cited<number>: an undated
+      // extent cannot stand anywhere on a trajectory.
+      if (typeof pt.at !== 'number' || !Number.isInteger(pt.at)) {
+        throw new ContentError(eWhere, 'every extent point needs the year the source dates it to')
+      }
+      requireSource(pt.source, eWhere)
+      if (!pt.source) throw new ContentError(eWhere, 'every extent point names its source')
+
+      // In date order, one figure per year. Two figures for the same year are
+      // two sources disagreeing, which is a CitedRange question and not
+      // something a trajectory can draw.
+      if (previousYear !== null && pt.at <= previousYear) {
+        throw new ContentError(
+          eWhere,
+          `extent points run in date order and one figure per year; ${pt.at} follows ${previousYear}`,
+        )
+      }
+      previousYear = pt.at
+
+      // The widest window any cited date supports. A figure outside it means
+      // either the span or the extent is wrong, and the build should say so
+      // rather than draw a bar off the end of the polity's life.
+      if (pt.at < p.span.start.min || pt.at > p.span.end.max) {
+        throw new ContentError(
+          eWhere,
+          `dated ${pt.at}, outside the cited span ${p.span.start.min}-${p.span.end.max}`,
+        )
+      }
+    }
+
+    if (extent.length > 0) {
+      // A series with no declared peak would leave the polity ranking as
+      // uncited on reach while the page shows cited figures — the one
+      // inconsistency a reader could not explain.
+      if (!p.measures.reach_km2) {
+        throw new ContentError(
+          where,
+          'measures.extent has figures but reach_km2 is null; name which cited figure is the peak',
+        )
+      }
+      // Not an equality check: the peak may come from a work the series does
+      // not, and a higher peak from another source is a legitimate reading.
+      // A peak *below* a figure on its own trajectory never is.
+      const highest = extent.reduce((a, b) => (b.km2 > a.km2 ? b : a))
+      if (p.measures.reach_km2.value < highest.km2) {
+        throw new ContentError(
+          where,
+          `reach_km2 is ${p.measures.reach_km2.value.toLocaleString('en-GB')} km2 but the ` +
+            `trajectory cites ${highest.km2.toLocaleString('en-GB')} km2 at ${highest.at}; ` +
+            'a peak cannot be smaller than a point on its own series',
+        )
+      }
+    }
+
     const inf = p.measures?.influence
     for (const [key, c] of Object.entries(inf ?? {})) {
       requireSource(c.source, `${where}/influence.${key}`)
@@ -465,6 +534,7 @@ export function sourceUsage(): SourceUse[] {
       p.rulers?.peak?.source,
       p.rulers?.last?.source,
       p.measures?.reach_km2?.source,
+      ...(p.measures?.extent ?? []).map((x) => x.source),
       p.measures?.peak_population?.source,
       ...Object.values(p.measures?.influence ?? {}).map((x) => x.source),
       p.ended?.source,

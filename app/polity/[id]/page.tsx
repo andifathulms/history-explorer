@@ -19,6 +19,7 @@ import { Chapters } from '@/components/Chapters'
 import { Facts } from '@/components/Facts'
 import { RatingPanel } from '@/components/RatingPanel'
 import { PolityMap } from '@/components/PolityMap'
+import { ExtentTrajectory } from '@/components/ExtentTrajectory'
 
 export function generateStaticParams() {
   return loadCorpus().narrative.map((p) => ({ id: p.id }))
@@ -145,6 +146,8 @@ export default function PolityPage({ params }: { params: { id: string } }) {
             <Chapters chapters={chapters} />
 
             <Facts polity={p} />
+
+            <ExtentTrajectory polity={p} />
 
             <PolityMap polity={p} />
 

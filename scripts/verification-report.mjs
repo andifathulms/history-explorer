@@ -21,6 +21,8 @@ const read = (f) => parse(fs.readFileSync(path.join(C, f), 'utf8'))
 const sources = new Map(read('sources.yaml').sources.map((s) => [s.id, s]))
 const refs = read('reference-set.yaml')
 const claims = []
+/** Polities carrying a peak extent but no series to put it on. */
+const noTrajectory = []
 
 const add = (source, where, what) => {
   if (source) claims.push({ source, where, what })
@@ -39,6 +41,12 @@ for (const dir of fs.readdirSync(path.join(C, 'polities')).sort()) {
   }
   if (p.measures.reach_km2) {
     add(p.measures.reach_km2.source, w, `reach ${p.measures.reach_km2.value.toLocaleString('en-GB')} km2 at ${p.measures.reach_km2.at}`)
+  }
+  if (p.measures.reach_km2 && (p.measures.extent ?? []).length < 2) {
+    noTrajectory.push({ id: p.id, source: p.measures.reach_km2.source, at: p.measures.reach_km2.at })
+  }
+  for (const e of p.measures.extent ?? []) {
+    add(e.source, w, `extent ${e.km2.toLocaleString('en-GB')} km2 at ${e.at}`)
   }
   if (p.measures.peak_population) {
     add(p.measures.peak_population.source, w, `peak population ${p.measures.peak_population.value.toLocaleString('en-GB')}`)
@@ -103,6 +111,35 @@ const lines = [
   'misreading has a chance of showing up as a disagreement. Here it does not.',
   '',
 ]
+
+// A second worklist, and a different kind of task: not checking a figure that
+// is here, but transcribing figures that are not. Taagepera prints a series per
+// polity and the site was keeping one point of it, which is why every reach
+// measure is a single number and no page can show a rise or a loss.
+if (noTrajectory.length) {
+  lines.push(
+    '## Extent trajectories outstanding',
+    '',
+    'These polities carry a cited peak extent and no series behind it, so their',
+    'pages show one number where the source prints several. Transcribing the rest',
+    'of the series is a read of a table, not a judgement: copy each published',
+    'figure with the year it is published for into `measures.extent`. The build',
+    'checks the order, the dates against the span, and that the declared peak is',
+    'not below a point on its own trajectory.',
+    '',
+    'A polity with genuinely one published figure stays as it is. That is an',
+    'ordinary state, not an item to clear.',
+    '',
+  )
+  for (const t of noTrajectory) {
+    const s = sources.get(t.source)
+    lines.push(
+      `- [ ] \`${t.id}\` — one figure${t.at != null ? `, at ${t.at}` : ''} ` +
+        `(${s?.author ? `${s.author}, ` : ''}${s?.title ?? t.source})`,
+    )
+  }
+  lines.push('')
+}
 
 // Which polities depend on exactly one work. Computed here rather than read
 // from the site so the worklist stands alone as a file.

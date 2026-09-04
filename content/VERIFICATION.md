@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**880 claims across 68 sources.**
+**886 claims across 68 sources.**
 
 ## Where to start
 
@@ -22,6 +22,62 @@ to do first: every claim on those polities resolves to that one book, so an
 error in reading it is an error across the whole page with nothing else in
 the corpus to contradict it. Where two works cover the same polity, a
 misreading has a chance of showing up as a disagreement. Here it does not.
+
+## Extent trajectories outstanding
+
+These polities carry a cited peak extent and no series behind it, so their
+pages show one number where the source prints several. Transcribing the rest
+of the series is a read of a table, not a judgement: copy each published
+figure with the year it is published for into `measures.extent`. The build
+checks the order, the dates against the span, and that the declared peak is
+not below a point on its own trajectory.
+
+A polity with genuinely one published figure stays as it is. That is an
+ordinary state, not an item to clear.
+
+- [ ] `abbasid` — one figure, at 750 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
+- [ ] `achaemenid` — one figure, at -500 (Rein Taagepera, Size and Duration of Empires: Growth-Decline Curves, 600 B.C. to 600 A.D.)
+- [ ] `akkadian` — one figure, at -2300 (Rein Taagepera, Size and Duration of Empires: Systematics of Size)
+- [ ] `almohad` — one figure, at 1200 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
+- [ ] `byzantine` — one figure, at 555 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
+- [ ] `carolingian` — one figure, at 800 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
+- [ ] `chagatai` — one figure, at 1310 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
+- [ ] `delhi-sultanate` — one figure, at 1312 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
+- [ ] `egypt-new-kingdom` — one figure, at -1450 (Rein Taagepera, Size and Duration of Empires: Growth-Decline Curves, 600 B.C. to 600 A.D.)
+- [ ] `fatimid` — one figure, at 969 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
+- [ ] `ghaznavid` — one figure, at 1029 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
+- [ ] `gokturk` — one figure, at 557 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
+- [ ] `golden-horde` — one figure, at 1310 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
+- [ ] `great-seljuk` — one figure, at 1080 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
+- [ ] `gupta` — one figure, at 400 (Rein Taagepera, Size and Duration of Empires: Growth-Decline Curves, 600 B.C. to 600 A.D.)
+- [ ] `han` — one figure, at 100 (Rein Taagepera, Size and Duration of Empires: Growth-Decline Curves, 600 B.C. to 600 A.D.)
+- [ ] `ilkhanate` — one figure, at 1310 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
+- [ ] `jin` — one figure, at 1150 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
+- [ ] `khazar` — one figure, at 850 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
+- [ ] `kushan` — one figure, at 200 (Rein Taagepera, Size and Duration of Empires: Growth-Decline Curves, 600 B.C. to 600 A.D.)
+- [ ] `liao` — one figure, at 947 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
+- [ ] `macedonian` — one figure, at -323 (Rein Taagepera, Size and Duration of Empires: Growth-Decline Curves, 600 B.C. to 600 A.D.)
+- [ ] `maurya` — one figure, at -250 (Rein Taagepera, Size and Duration of Empires: Growth-Decline Curves, 600 B.C. to 600 A.D.)
+- [ ] `median` — one figure, at -585 (Rein Taagepera, Size and Duration of Empires: Growth-Decline Curves, 600 B.C. to 600 A.D.)
+- [ ] `ming` — one figure, at 1450 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
+- [ ] `mongol` — one figure, at 1270 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
+- [ ] `mughal` — one figure, at 1690 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
+- [ ] `neo-assyrian` — one figure, at -670 (Rein Taagepera, Size and Duration of Empires: Growth-Decline Curves, 600 B.C. to 600 A.D.)
+- [ ] `ottoman` — one figure, at 1683 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
+- [ ] `parthian` — one figure, at 1 (Rein Taagepera, Size and Duration of Empires: Growth-Decline Curves, 600 B.C. to 600 A.D.)
+- [ ] `rashidun` — one figure, at 655 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
+- [ ] `roman` — one figure, at 117 (Rein Taagepera, Size and Duration of Empires: Growth-Decline Curves, 600 B.C. to 600 A.D.)
+- [ ] `safavid` — one figure, at 1512 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
+- [ ] `samanid` — one figure, at 928 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
+- [ ] `sasanian` — one figure, at 550 (Rein Taagepera, Size and Duration of Empires: Growth-Decline Curves, 600 B.C. to 600 A.D.)
+- [ ] `seleucid` — one figure, at -301 (Rein Taagepera, Size and Duration of Empires: Growth-Decline Curves, 600 B.C. to 600 A.D.)
+- [ ] `tang` — one figure, at 715 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
+- [ ] `tibetan-empire` — one figure, at 800 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
+- [ ] `timurid` — one figure, at 1405 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
+- [ ] `umayyad` — one figure, at 720 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
+- [ ] `uyghur-khaganate` — one figure, at 800 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
+- [ ] `xiongnu` — one figure, at -176 (Rein Taagepera, Size and Duration of Empires: Growth-Decline Curves, 600 B.C. to 600 A.D.)
+- [ ] `yuan` — one figure, at 1310 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
 
 ## Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia
 *In International Studies Quarterly 41(3), 475-504.*
@@ -239,6 +295,42 @@ misreading has a chance of showing up as a disagreement. Here it does not.
 - [ ] `polity/tulunid` — last Shayban ibn Ahmad r. 905-905
 - [ ] `polity/tulunid` — ended by conquest in 905
 
+## Jamil M. Abun-Nasr, A History of the Maghrib in the Islamic Period
+
+`abun-nasr-1987` — 29 claims
+
+**Sole source** for `idrisid` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/aghlabid/01-a-province-for-rent.mdx` — prose: "A province, for tribute"
+- [ ] `chapter/aghlabid/02-sicily.mdx` — prose: "Seventy-five years for one island"
+- [ ] `chapter/idrisid/01-fez.mdx` — prose: "A fugitive founds a city"
+- [ ] `chapter/idrisid/02-descent-as-a-claim.mdx` — prose: "Descent, used as a claim"
+- [ ] `chapter/rustamid/01-tahert.mdx` — prose: "An elected imamate"
+- [ ] `chapter/rustamid/02-the-trade.mdx` — prose: "Doctrine along the caravan routes"
+- [ ] `chapter/umayyad/04-the-berber-revolt.mdx` — prose: "Where it broke first"
+- [ ] `edge/abbasid->aghlabid` — vassal of in 800
+- [ ] `polity/aghlabid` — span starts 800
+- [ ] `polity/aghlabid` — span ends 909
+- [ ] `polity/aghlabid` — capital Kairouan from 800
+- [ ] `polity/aghlabid` — founder Ibrahim I ibn al-Aghlab r. 800-812
+- [ ] `polity/aghlabid` — peak Ziyadat Allah I r. 817-838
+- [ ] `polity/aghlabid` — last Ziyadat Allah III r. 903-909
+- [ ] `polity/aghlabid` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/idrisid` — span starts 788
+- [ ] `polity/idrisid` — span ends 974
+- [ ] `polity/idrisid` — capital Fez from 788
+- [ ] `polity/idrisid` — founder Idris I r. 788-791
+- [ ] `polity/idrisid` — peak Idris II r. 803-828
+- [ ] `polity/idrisid` — last al-Hasan al-Hajjam r. 970-974
+- [ ] `polity/idrisid` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/idrisid` — ended by gradual absorption in 974
+- [ ] `polity/rustamid` — span starts 776
+- [ ] `polity/rustamid` — span ends 909
+- [ ] `polity/rustamid` — capital Tahert from 776
+- [ ] `polity/rustamid` — founder Abd al-Rahman ibn Rustam r. 776-788
+- [ ] `polity/rustamid` — peak Aflah ibn Abd al-Wahhab r. 823-872
+- [ ] `polity/rustamid` — last Yaqzan ibn Muhammad r. 894-909
+
 ## Rein Taagepera, Size and Duration of Empires: Growth-Decline Curves, 600 B.C. to 600 A.D.
 *In Social Science History 3(3/4), 115-138.*
 
@@ -272,41 +364,6 @@ misreading has a chance of showing up as a disagreement. Here it does not.
 - [ ] `reference/sasanian` — reach 3,500,000 km2 at 550
 - [ ] `reference/seleucid` — reach 3,900,000 km2 at -301
 - [ ] `reference/xiongnu` — reach 9,000,000 km2 at -176
-
-## Jamil M. Abun-Nasr, A History of the Maghrib in the Islamic Period
-
-`abun-nasr-1987` — 28 claims
-
-**Sole source** for `idrisid` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/aghlabid/01-a-province-for-rent.mdx` — prose: "A province, for tribute"
-- [ ] `chapter/aghlabid/02-sicily.mdx` — prose: "Seventy-five years for one island"
-- [ ] `chapter/idrisid/01-fez.mdx` — prose: "A fugitive founds a city"
-- [ ] `chapter/idrisid/02-descent-as-a-claim.mdx` — prose: "Descent, used as a claim"
-- [ ] `chapter/rustamid/01-tahert.mdx` — prose: "An elected imamate"
-- [ ] `chapter/rustamid/02-the-trade.mdx` — prose: "Doctrine along the caravan routes"
-- [ ] `edge/abbasid->aghlabid` — vassal of in 800
-- [ ] `polity/aghlabid` — span starts 800
-- [ ] `polity/aghlabid` — span ends 909
-- [ ] `polity/aghlabid` — capital Kairouan from 800
-- [ ] `polity/aghlabid` — founder Ibrahim I ibn al-Aghlab r. 800-812
-- [ ] `polity/aghlabid` — peak Ziyadat Allah I r. 817-838
-- [ ] `polity/aghlabid` — last Ziyadat Allah III r. 903-909
-- [ ] `polity/aghlabid` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/idrisid` — span starts 788
-- [ ] `polity/idrisid` — span ends 974
-- [ ] `polity/idrisid` — capital Fez from 788
-- [ ] `polity/idrisid` — founder Idris I r. 788-791
-- [ ] `polity/idrisid` — peak Idris II r. 803-828
-- [ ] `polity/idrisid` — last al-Hasan al-Hajjam r. 970-974
-- [ ] `polity/idrisid` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/idrisid` — ended by gradual absorption in 974
-- [ ] `polity/rustamid` — span starts 776
-- [ ] `polity/rustamid` — span ends 909
-- [ ] `polity/rustamid` — capital Tahert from 776
-- [ ] `polity/rustamid` — founder Abd al-Rahman ibn Rustam r. 776-788
-- [ ] `polity/rustamid` — peak Aflah ibn Abd al-Wahhab r. 823-872
-- [ ] `polity/rustamid` — last Yaqzan ibn Muhammad r. 894-909
 
 ## Romila Thapar, Early India: From the Origins to AD 1300
 
@@ -526,7 +583,7 @@ misreading has a chance of showing up as a disagreement. Here it does not.
 
 - [ ] `chapter/umayyad/01-muawiya.mdx` — prose: "Mu'awiya's arrangement"
 - [ ] `chapter/umayyad/02-abd-al-malik.mdx` — prose: "What Abd al-Malik built"
-- [ ] `chapter/umayyad/04-khurasan.mdx` — prose: "The revolution came from Khurasan"
+- [ ] `chapter/umayyad/05-khurasan.mdx` — prose: "The revolution came from Khurasan"
 - [ ] `edge/rashidun->umayyad` — claimed legitimacy of in 661
 - [ ] `edge/umayyad->abbasid` — overthrew in 750
 - [ ] `polity/umayyad` — span starts 661
@@ -648,6 +705,25 @@ misreading has a chance of showing up as a disagreement. Here it does not.
 - [ ] `polity/zangid` — peak Nur al-Din r. 1146-1174
 - [ ] `polity/zangid` — last Mahmud al-Qahir r. 1219-1233
 - [ ] `polity/zangid` — religions_carried = 1 (Sunni Islam)
+
+## Hugh Kennedy, Muslim Spain and Portugal: A Political History of al-Andalus
+
+`kennedy-1996` — 12 claims
+
+**Sole source** for `cordoba` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/cordoba/01-survivor.mdx` — prose: "The one who got away"
+- [ ] `chapter/cordoba/02-the-state-behind-the-title.mdx` — prose: "The state behind the title"
+- [ ] `chapter/cordoba/03-what-al-hakam-left.mdx` — prose: "What al-Hakam left"
+- [ ] `chapter/cordoba/04-the-collapse.mdx` — prose: "Thirty years, and then taifas"
+- [ ] `edge/umayyad->cordoba` — claimed legitimacy of in 929
+- [ ] `polity/cordoba` — span starts 756
+- [ ] `polity/cordoba` — span ends 1031
+- [ ] `polity/cordoba` — capital Cordoba from 756
+- [ ] `polity/cordoba` — founder Abd al-Rahman I r. 756-788
+- [ ] `polity/cordoba` — peak Abd al-Rahman III r. 912-961
+- [ ] `polity/cordoba` — last Hisham III r. 1027-1031
+- [ ] `polity/cordoba` — ended by fragmentation in 1031
 
 ## Greg Woolf, Rome: An Empire's Story
 
@@ -956,8 +1032,8 @@ misreading has a chance of showing up as a disagreement. Here it does not.
 
 `busse-1975` — 10 claims
 
-- [ ] `chapter/buyid/02-shahanshah.mdx` — prose: "Adud al-Dawla takes an old title"
-- [ ] `chapter/buyid/03-the-arrangement-fails.mdx` — prose: "What the arrangement could not survive"
+- [ ] `chapter/buyid/03-shahanshah.mdx` — prose: "Adud al-Dawla takes an old title"
+- [ ] `chapter/buyid/04-the-arrangement-fails.mdx` — prose: "What the arrangement could not survive"
 - [ ] `edge/abbasid->buyid` — vassal of in 945
 - [ ] `edge/buyid->great-seljuk` — overthrew in 1055
 - [ ] `edge/sasanian->buyid` — claimed legitimacy of in 962
@@ -981,23 +1057,6 @@ misreading has a chance of showing up as a disagreement. Here it does not.
 - [ ] `polity/chagatai` — peak Kebek r. 1309-1325
 - [ ] `polity/chagatai` — last Qazan r. 1343-1347
 - [ ] `polity/chagatai` — ended by fragmentation in 1347
-
-## Hugh Kennedy, Muslim Spain and Portugal: A Political History of al-Andalus
-
-`kennedy-1996` — 10 claims
-
-**Sole source** for `cordoba` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/cordoba/01-survivor.mdx` — prose: "The one who got away"
-- [ ] `chapter/cordoba/02-the-collapse.mdx` — prose: "Thirty years, and then taifas"
-- [ ] `edge/umayyad->cordoba` — claimed legitimacy of in 929
-- [ ] `polity/cordoba` — span starts 756
-- [ ] `polity/cordoba` — span ends 1031
-- [ ] `polity/cordoba` — capital Cordoba from 756
-- [ ] `polity/cordoba` — founder Abd al-Rahman I r. 756-788
-- [ ] `polity/cordoba` — peak Abd al-Rahman III r. 912-961
-- [ ] `polity/cordoba` — last Hisham III r. 1027-1031
-- [ ] `polity/cordoba` — ended by fragmentation in 1031
 
 ## Denis Twitchett and Michael Loewe (eds), The Cambridge History of China, Volume 1: The Ch'in and Han Empires, 221 BC-AD 220
 
@@ -1046,6 +1105,20 @@ misreading has a chance of showing up as a disagreement. Here it does not.
 - [ ] `polity/xiongnu` — last Unknown r. 91-91
 - [ ] `polity/xiongnu` — ended by fragmentation in 91
 
+## Heinz Halm, The Empire of the Mahdi: The Rise of the Fatimids
+
+`halm-1996` — 9 claims
+
+- [ ] `chapter/fatimid/01-mahdi.mdx` — prose: "A counter-caliphate"
+- [ ] `chapter/fatimid/03-the-dawa.mdx` — prose: "The apparatus that outlived the state"
+- [ ] `edge/aghlabid->fatimid` — overthrew in 909
+- [ ] `edge/rustamid->fatimid` — conquered by in 909
+- [ ] `polity/aghlabid` — ended by conquest in 909
+- [ ] `polity/fatimid` — span starts 909
+- [ ] `polity/fatimid` — capital Mahdiyya from 921
+- [ ] `polity/fatimid` — founder Abd Allah al-Mahdi r. 909-934
+- [ ] `polity/rustamid` — ended by conquest in 909
+
 ## Ian Shaw (ed.), The Oxford History of Ancient Egypt
 
 `shaw-2000` — 9 claims
@@ -1065,7 +1138,7 @@ misreading has a chance of showing up as a disagreement. Here it does not.
 `brett-2017` — 9 claims
 
 - [ ] `chapter/fatimid/02-cairo.mdx` — prose: "Cairo"
-- [ ] `chapter/fatimid/03-decline.mdx` — prose: "The viziers, and Saladin"
+- [ ] `chapter/fatimid/04-decline.mdx` — prose: "The viziers, and Saladin"
 - [ ] `edge/ikhshidid->fatimid` — conquered by in 969
 - [ ] `polity/fatimid` — span ends 1171
 - [ ] `polity/fatimid` — capital Cairo from 973
@@ -1119,19 +1192,6 @@ misreading has a chance of showing up as a disagreement. Here it does not.
 - [ ] `polity/tahirid` — successor_claims = 0
 - [ ] `polity/tahirid` — ended by conquest in 873
 
-## Heinz Halm, The Empire of the Mahdi: The Rise of the Fatimids
-
-`halm-1996` — 8 claims
-
-- [ ] `chapter/fatimid/01-mahdi.mdx` — prose: "A counter-caliphate"
-- [ ] `edge/aghlabid->fatimid` — overthrew in 909
-- [ ] `edge/rustamid->fatimid` — conquered by in 909
-- [ ] `polity/aghlabid` — ended by conquest in 909
-- [ ] `polity/fatimid` — span starts 909
-- [ ] `polity/fatimid` — capital Mahdiyya from 921
-- [ ] `polity/fatimid` — founder Abd Allah al-Mahdi r. 909-934
-- [ ] `polity/rustamid` — ended by conquest in 909
-
 ## C. E. Bosworth, The Later Ghaznavids: Splendour and Decay. The Dynasty in Afghanistan and Northern India, 1040-1186
 
 `bosworth-1977` — 8 claims
@@ -1157,6 +1217,17 @@ misreading has a chance of showing up as a disagreement. Here it does not.
 - [ ] `polity/tang` — peak Emperor Xuanzong r. 712-756
 - [ ] `polity/tang` — last Emperor Ai r. 904-907
 - [ ] `polity/tang` — religions_carried = 1 (Mahayana Buddhism)
+
+## Tayeb El-Hibri, The Abbasid Caliphate: A History
+
+`el-hibri-2021` — 6 claims
+
+- [ ] `chapter/abbasid/02-harun.mdx` — prose: "Harun al-Rashid, and what came after him"
+- [ ] `chapter/abbasid/03-samarra.mdx` — prose: "The soldiers at Samarra"
+- [ ] `chapter/abbasid/04-the-caliph-they-kept.mdx` — prose: "945, and the caliph they kept"
+- [ ] `chapter/abbasid/05-al-nasir.mdx` — prose: "The forty-five years when it nearly worked"
+- [ ] `edge/abbasid->mamluk-sultanate` — claimed legitimacy of in 1261
+- [ ] `polity/abbasid` — successor_claims = 1 (Abbasid Caliphate of Cairo)
 
 ## C. E. Bosworth, SAFFARIDS
 *In Encyclopaedia Iranica.*
@@ -1215,22 +1286,13 @@ misreading has a chance of showing up as a disagreement. Here it does not.
 - [ ] `polity/rashidun` — religions_carried = 1 (Islam)
 - [ ] `polity/sasanian` — ended by conquest in 651
 
-## Tayeb El-Hibri, The Abbasid Caliphate: A History
-
-`el-hibri-2021` — 4 claims
-
-- [ ] `chapter/abbasid/02-harun.mdx` — prose: "Harun al-Rashid, and what came after him"
-- [ ] `chapter/abbasid/03-samarra.mdx` — prose: "The soldiers at Samarra"
-- [ ] `edge/abbasid->mamluk-sultanate` — claimed legitimacy of in 1261
-- [ ] `polity/abbasid` — successor_claims = 1 (Abbasid Caliphate of Cairo)
-
 ## multiple contributors, ABBASID CALIPHATE
 *In Encyclopaedia Iranica.*
 <https://iranicaonline.org/articles/abbasid-caliphate>
 
 `iranica-abbasid-caliphate` — 3 claims
 
-- [ ] `chapter/abbasid/04-baghdad-1258.mdx` — prose: "1258"
+- [ ] `chapter/abbasid/06-baghdad-1258.mdx` — prose: "1258"
 - [ ] `polity/abbasid` — capital Baghdad from 762
 - [ ] `polity/abbasid` — capital Samarra from 836
 
@@ -1285,4 +1347,4 @@ misreading has a chance of showing up as a disagreement. Here it does not.
 
 `chi-4` — 1 claims
 
-- [ ] `chapter/buyid/04-daylam.mdx` — prose: "Down from Daylam"
+- [ ] `chapter/buyid/02-daylam.mdx` — prose: "Down from Daylam"

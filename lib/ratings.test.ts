@@ -39,7 +39,7 @@ function polity(over: Partial<Polity> & { id: string }): Polity {
     rulers: { founder: null, peak: null, last: null },
     scripts_and_languages: { administration: [], writing_system: null },
     ended: null,
-    measures: { reach_km2: null, peak_population: null, influence: blankInfluence },
+    measures: { reach_km2: null, extent: [], peak_population: null, influence: blankInfluence },
     ...over,
   } as Polity
 }
@@ -58,6 +58,7 @@ test('a polity missing two axes does not score below one with four', () => {
     id: 'documented',
     measures: {
       reach_km2: { value: 1_000_000, at: 1000, source: 's' },
+      extent: [],
       peak_population: { value: 5_000_000, at: 1000, source: 's' },
       influence: {
         descendant_scripts: { count: 0, items: [], source: 's' },
@@ -71,6 +72,7 @@ test('a polity missing two axes does not score below one with four', () => {
     id: 'sparse',
     measures: {
       reach_km2: { value: 9_000_000, at: 1000, source: 's' },
+      extent: [],
       peak_population: null,
       influence: blankInfluence,
     },
@@ -95,6 +97,7 @@ test('a missing axis is excluded from the total, never counted as zero', () => {
     id: 'p',
     measures: {
       reach_km2: { value: 2_000_000, at: 1000, source: 's' },
+      extent: [],
       peak_population: null,
       influence: blankInfluence,
     },
@@ -113,6 +116,7 @@ test('era-normalised gaps rather than falling back to the absolute figure', () =
     id: 'p',
     measures: {
       reach_km2: { value: 2_600_000, at: 1000, source: 's' },
+      extent: [],
       peak_population: null,
       influence: blankInfluence,
     },

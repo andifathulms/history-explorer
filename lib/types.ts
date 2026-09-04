@@ -100,8 +100,38 @@ export interface Influence {
   successor_claims: InfluenceCount
 }
 
+/**
+ * One cited territorial extent at one date.
+ *
+ * Separate from `Cited<number>` because `at` is mandatory here: a figure with
+ * no date cannot stand in a trajectory, and a trajectory is the only reason
+ * this shape exists. Transcribed from a source that publishes a series —
+ * Taagepera prints several datapoints per polity, and the site was keeping one
+ * of them.
+ */
+export interface ExtentPoint {
+  km2: number
+  at: number
+  source: SourceId
+  /** What the source ties the figure to, where it names more than a year. */
+  note?: string
+}
+
 export interface Measures {
+  /**
+   * The greatest cited extent. Kept as its own field rather than derived from
+   * `extent`, so that the number the rankings use is one an author wrote down
+   * and a source printed, not one the app picked by scanning a list.
+   */
   reach_km2: Cited<number> | null
+  /**
+   * Cited extents in date order. Ordinarily empty: most polities here have one
+   * figure, and a series only appears when someone has opened a source that
+   * publishes one. An empty series is not a gap in a measure — `reach_km2`
+   * carries that — it is the ordinary state of a polity nobody has transcribed
+   * a series for.
+   */
+  extent: ExtentPoint[]
   peak_population: Cited<number> | null
   influence: Influence
 }

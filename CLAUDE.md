@@ -104,7 +104,14 @@ ended:
   year: 999
   source: ...
 measures:
-  reach_km2:      { value: 2600000, at: 928, source: taagepera-1997 }
+  reach_km2:      { value: 2600000, at: 928, source: taagepera-1997 }  # the peak
+  # Cited extents in date order, one figure per year, every point dated and
+  # sourced. Ordinarily empty: a series only appears once someone has opened a
+  # source that publishes one, and an empty series is not a gap — reach_km2
+  # carries the measure. Points are never joined when drawn; see hard rule 9.
+  extent:
+    - { km2: 900000,  at: 900, source: taagepera-1997 }
+    - { km2: 2600000, at: 928, source: taagepera-1997 }
   peak_population: null    # see gap rules below
   influence:
     descendant_scripts:  { count: 0, items: [], source: ... }
@@ -164,6 +171,22 @@ These are not style preferences. Breaking them breaks the product.
 
 8. **Rankings include every polity.** Threaded or not, region or none.
    Measurement does not require a predecessor.
+
+9. **Never join two cited figures with a line.** A trajectory is drawn as
+   columns standing at the years the sources name, with nothing between them. A
+   line from 909 to 969 asserts an extent in 940 that nobody published — the
+   same invention hard rule 2 forbids, committed in pixels instead of YAML,
+   where it is harder to notice and impossible to cite. A picture that reads as
+   a measurement is held to the standard of one.
+
+10. **A chapter's `phase` is a claim about sequence, and the arc runs one way.**
+    `formation → expansion → peak → contraction → end → afterlife`. A chapter
+    tagged out of order fails the build. `aside` is the tag for a chapter whose
+    subject is a single object, document, institution, or the record itself; it
+    is unordered and stands outside the arc. The test is not the subject's
+    importance but whether it advances the chronology. An arc phase with no
+    chapter is never rendered as a gap — the arc is a way of reading, not a
+    shape every polity had.
 
 ## Ratings maths (`lib/ratings.ts`)
 

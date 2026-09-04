@@ -29,3 +29,31 @@ test('an unrecognised tag is not silently treated as position zero', () => {
   // A typo must not sort as `formation` and pass the build's ordering check.
   assert.equal(arcIndex('formaton' as never), null)
 })
+
+// --- extent series -------------------------------------------------------
+// The loader holds the invariants (order, dates inside the span, peak not
+// below the series). These cover the arithmetic the trajectory draws with.
+
+test('a trajectory is scaled against the highest cited figure, not the last', () => {
+  const points = [
+    { km2: 900_000, at: 900, source: 's' },
+    { km2: 2_600_000, at: 928, source: 's' },
+    { km2: 1_200_000, at: 990, source: 's' },
+  ]
+  const peak = points.reduce((a, b) => (b.km2 > a.km2 ? b : a))
+  assert.equal(peak.at, 928)
+  // A polity that ended smaller than it peaked must not have its last column
+  // drawn full height.
+  assert.ok(points[2].km2 / peak.km2 < 1)
+})
+
+test('column positions come from the span, so a series ending early looks early', () => {
+  const from = 819
+  const to = 1005
+  const at = (y: number) => ((y - from) / (to - from)) * 100
+  assert.equal(at(819), 0)
+  assert.equal(at(1005), 100)
+  // The Samanid peak year sits where its date puts it, not at the midpoint of
+  // however many figures happen to have been transcribed.
+  assert.ok(at(928) > 50 && at(928) < 60)
+})
