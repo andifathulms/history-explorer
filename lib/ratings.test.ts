@@ -13,11 +13,14 @@ import {
   duration,
   weightsToQuery,
   weightsFromQuery,
+  logMagnitude,
+  sortForBoard,
+  type Rating,
   ordinal,
   DEFAULT_WEIGHTS,
   reachValue,
 } from './ratings.ts'
-import { isPresent, renormalise } from './gaps.ts'
+import { isPresent, renormalise, gap, value } from './gaps.ts'
 import type { Polity, WorldDenominator } from './types.ts'
 
 const blankInfluence = {
@@ -185,4 +188,63 @@ test('ordinal suffixes, including the teens the naive rule misses', () => {
   assert.equal(ordinal(83), '83rd')
   assert.equal(ordinal(100), '100th')
   assert.equal(ordinal(111), '111th')
+})
+
+// --- normalisation and boards --------------------------------------------
+
+test('log magnitude keeps the distance percentile throws away', () => {
+  const field = [650_000, 2_600_000, 11_100_000, 35_500_000]
+  const umayyad = logMagnitude(11_100_000, field)
+  const mongol = logMagnitude(35_500_000, field)
+  assert.ok(umayyad.present && mongol.present)
+  // Under percentile these two sit one rank apart at the top of the field.
+  // Under log magnitude the gap between them is visible and large.
+  assert.ok(mongol.value - umayyad.value > 0.25)
+  assert.equal(mongol.value, 1)
+  const smallest = logMagnitude(650_000, field)
+  assert.ok(smallest.present && smallest.value === 0)
+})
+
+test('log magnitude gaps rather than inventing a floor', () => {
+  // A count of zero has no logarithm, and a field with no spread has no scale.
+  assert.equal(logMagnitude(0, [1, 10]).present, false)
+  assert.equal(logMagnitude(-5, [1, 10]).present, false)
+  assert.equal(logMagnitude(5, [5, 5]).present, false)
+  assert.equal(logMagnitude(5, []).present, false)
+})
+
+test('a board separates unrankable rows from the ranking rather than sorting them last', () => {
+  const mk = (id: string, reach: number | null): Rating =>
+    ({
+      polity: { id, latin: id, script: null },
+      reach: { id: 'reach', label: '', raw: reach === null ? gap() : value(reach), pct: gap() },
+      longevity: { id: 'longevity', label: '', years: { min: 10, max: 10 }, pct: { min: gap(), max: gap() } },
+      demographic: { id: 'demographic', label: '', raw: gap(), pct: gap() },
+      influence: { id: 'influence', label: '', counts: {} as never, readerFused: gap() },
+      intensity: { perYear: gap() },
+      total: gap(),
+      totalProvenance: '',
+      axesAvailable: 0,
+      axesTotal: 4,
+    }) as unknown as Rating
+
+  const { ranked, unranked } = sortForBoard(
+    [mk('small', 1000), mk('uncited', null), mk('big', 9000)],
+    'size',
+  )
+  assert.deepEqual(ranked.map((r) => r.polity.id), ['big', 'small'])
+  // The point of the split: "no cited extent" must not read as "smallest".
+  assert.deepEqual(unranked.map((r) => r.polity.id), ['uncited'])
+})
+
+test('the whole view round-trips through the query string', () => {
+  const qs = weightsToQuery(DEFAULT_WEIGHTS, 'era-normalised', 'log-magnitude', 'endurance')
+  const back = weightsFromQuery(qs)
+  assert.equal(back.scale, 'era-normalised')
+  assert.equal(back.normalisation, 'log-magnitude')
+  assert.equal(back.board, 'endurance')
+})
+
+test('an unknown board in a link falls back rather than rendering nothing', () => {
+  assert.equal(weightsFromQuery('board=greatest').board, 'overall')
 })

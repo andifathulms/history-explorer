@@ -129,14 +129,20 @@ export function RatingPanel({ rating, scale }: { rating: Rating; scale: Scale })
               : `${r.longevity.years.min}–${r.longevity.years.max} years`
           }
           pct={
-            Math.abs(r.longevity.pct.max - r.longevity.pct.min) < 0.005
-              ? `${ordinal(Math.round(r.longevity.pct.min * 100))} percentile`
-              : `${ordinal(Math.round(r.longevity.pct.min * 100))} to ${ordinal(
-                  Math.round(r.longevity.pct.max * 100),
-                )} percentile — the sources disagree on the span, so the rank is a range too`
+            !r.longevity.pct.min.present || !r.longevity.pct.max.present
+              ? NO_FIGURE
+              : Math.abs(r.longevity.pct.max.value - r.longevity.pct.min.value) < 0.005
+                ? `${ordinal(Math.round(r.longevity.pct.min.value * 100))} percentile`
+                : `${ordinal(Math.round(r.longevity.pct.min.value * 100))} to ${ordinal(
+                    Math.round(r.longevity.pct.max.value * 100),
+                  )} percentile — the sources disagree on the span, so the rank is a range too`
           }
         >
-          <RangeBar min={r.longevity.pct.min} max={r.longevity.pct.max} />
+          {r.longevity.pct.min.present && r.longevity.pct.max.present ? (
+            <RangeBar min={r.longevity.pct.min.value} max={r.longevity.pct.max.value} />
+          ) : (
+            <Bar pct={r.longevity.pct.min} />
+          )}
         </AxisRow>
 
         <AxisRow

@@ -19,6 +19,13 @@ export type GapReason =
   | 'uncited'
   /** The figure exists but era-normalised mode has no denominator for its date. */
   | 'no-denominator'
+  /**
+   * The figure exists but cannot be placed on the active normalisation. Only
+   * log-magnitude produces this: a logarithm needs a positive value and a field
+   * with some spread in it, and where either is missing the honest answer is a
+   * gap rather than a floor value invented to fill the cell.
+   */
+  | 'not-comparable'
 
 export const gap = (reason: GapReason = 'uncited'): Gapped<never> => ({
   present: false,

@@ -10,10 +10,17 @@ import {
   INFLUENCE_KEYS,
   INFLUENCE_LABELS,
   PRESETS,
+  BOARDS,
+  BOARD_META,
+  NORMALISATION_LABELS,
+  axisCoverage,
   buildField,
   rate,
+  sortForBoard,
   weightsFromQuery,
   weightsToQuery,
+  type Board,
+  type Normalisation,
   type Scale,
   type Weights,
 } from '@/lib/ratings'
@@ -43,33 +50,39 @@ export function Comparison({
 }) {
   const [weights, setWeights] = useState<Weights>(DEFAULT_WEIGHTS)
   const [scale, setScale] = useState<Scale>('absolute')
+  const [normalisation, setNormalisation] = useState<Normalisation>('percentile')
+  const [board, setBoard] = useState<Board>('overall')
   const [ready, setReady] = useState(false)
 
   useEffect(() => {
     const parsed = weightsFromQuery(window.location.search.replace(/^\?/, ''))
     setWeights(parsed.weights)
     setScale(parsed.scale)
+    setNormalisation(parsed.normalisation)
+    setBoard(parsed.board)
     setReady(true)
   }, [])
 
   useEffect(() => {
     if (!ready) return
-    const qs = weightsToQuery(weights, scale)
+    const qs = weightsToQuery(weights, scale, normalisation, board)
     window.history.replaceState(null, '', `${window.location.pathname}?${qs}`)
-  }, [weights, scale, ready])
+  }, [weights, scale, normalisation, board, ready])
 
-  const rows = useMemo(() => {
+  const coverage = useMemo(
+    () => axisCoverage(narrative, scale, denominators),
+    [narrative, scale, denominators],
+  )
+
+  // Unrankable rows are kept apart rather than sorted to the bottom. A polity
+  // with no cited extent is not the smallest polity here.
+  const { ranked, unranked } = useMemo(() => {
     const field = buildField(narrative, backdrop, scale, denominators)
-    return narrative
-      .map((p) => rate(p, field, weights, scale, denominators))
-      .sort((a, b) => {
-        // Polities with no computable total sort last rather than to zero.
-        if (!a.total.present && !b.total.present) return 0
-        if (!a.total.present) return 1
-        if (!b.total.present) return -1
-        return b.total.value - a.total.value
-      })
-  }, [narrative, backdrop, denominators, weights, scale])
+    const rated = narrative.map((p) => rate(p, field, weights, scale, denominators, normalisation))
+    return sortForBoard(rated, board)
+  }, [narrative, backdrop, denominators, weights, scale, normalisation, board])
+
+  const meta = BOARD_META[board]
 
   const setAxis = (k: 'reach' | 'longevity' | 'demographic' | 'influence', v: number) =>
     setWeights((w) => ({ ...w, [k]: v }))
@@ -118,6 +131,20 @@ export function Comparison({
                   onChange={(e) => setAxis(a, Number(e.target.value))}
                   className="mt-2 w-full accent-firuze-ink"
                 />
+                {/* An axis can be weighted to 1.00 and move nothing. Population
+                    is null for every polity here and every entry in the
+                    backdrop, so this slider is a control over an empty field —
+                    counted rather than hard-coded, so it stops saying so the
+                    day a figure is entered. */}
+                <span
+                  className={`mt-1 block font-mono text-micro tabular-nums ${
+                    coverage[a].carried === 0 ? 'text-zarrin-ink' : 'text-debu-ink'
+                  }`}
+                >
+                  {coverage[a].carried === 0
+                    ? 'no polity carries this axis'
+                    : `${coverage[a].carried} of ${coverage[a].of} carry it`}
+                </span>
               </label>
             ))}
           </div>
@@ -177,9 +204,85 @@ export function Comparison({
               offered.
             </p>
           </fieldset>
+
+          <fieldset className="mt-8 border-t border-kashi/15 pt-6">
+            <legend className="kicker text-debu-ink">How position is measured</legend>
+            <div className="mt-4 flex flex-wrap gap-2">
+              {(Object.keys(NORMALISATION_LABELS) as Normalisation[]).map((n) => (
+                <button
+                  key={n}
+                  type="button"
+                  onClick={() => setNormalisation(n)}
+                  aria-pressed={normalisation === n}
+                  className={`rounded-full border px-3 py-1 font-mono text-micro uppercase transition-colors ${
+                    normalisation === n
+                      ? 'border-firuze-ink bg-firuze-ink text-kaghaz'
+                      : 'border-kashi/30 text-kashi hover:border-firuze-ink'
+                  }`}
+                >
+                  {NORMALISATION_LABELS[n]}
+                </button>
+              ))}
+            </div>
+            <p className="mt-3 text-[14px] leading-relaxed text-debu-ink">
+              Percentile answers how many it beat, and compresses the top: the Mongol
+              empire and the Umayyad caliphate both sit near the hundredth while differing
+              by more than the whole Sasanian empire. Log magnitude answers how much
+              bigger. Neither is more correct, and where they disagree that is worth
+              seeing. The three influence counts stay on percentile in both modes — they
+              run 0 to 3 and span no orders of magnitude for a logarithm to express.
+            </p>
+          </fieldset>
         </aside>
 
         <div className="min-w-0">
+          {/* Several rankings, not one. A single ordering reads as the site's
+              opinion about which polity was greatest, which is the claim the
+              PRD refuses to make; naming the question each board answers is
+              what keeps them apart. Two of the five are the reader's own and
+              say so. */}
+          <nav aria-label="Rankings" className="mb-6">
+            <div className="flex flex-wrap gap-2">
+              {BOARDS.map((b) => (
+                <button
+                  key={b}
+                  type="button"
+                  onClick={() => setBoard(b)}
+                  aria-pressed={board === b}
+                  className={`rounded-full border px-3.5 py-1.5 font-mono text-micro uppercase tracking-[0.06em] transition-colors ${
+                    board === b
+                      ? 'border-kashi bg-kashi text-kaghaz'
+                      : 'border-kashi/30 text-kashi hover:border-firuze-ink hover:text-firuze-ink'
+                  }`}
+                >
+                  {BOARD_META[b].label}
+                </button>
+              ))}
+            </div>
+
+            <p className="mt-4 max-w-measure text-[15px] leading-relaxed">
+              <span className="font-display text-[17px] text-kashi-deep">
+                {meta.question}
+              </span>{' '}
+              <span className="text-debu-ink">{meta.note}</span>
+            </p>
+
+            {meta.readerOwned ? (
+              <p className="mt-2 max-w-measure font-mono text-micro uppercase tracking-[0.06em] text-zarrin-ink">
+                This ordering is yours, not the site&rsquo;s
+              </p>
+            ) : null}
+          </nav>
+
+          {unranked.length ? (
+            <p className="mb-5 max-w-measure text-[15px] text-debu-ink">
+              {unranked.length}{' '}
+              {unranked.length === 1 ? 'polity carries' : 'polities carry'} no figure this
+              board can order, and {unranked.length === 1 ? 'sits' : 'sit'} below the
+              ranking rather than at the bottom of it. Unranked is not last place.
+            </p>
+          ) : null}
+
           {eraGapped ? (
             <p className="mb-5 max-w-measure border-s-2 border-zarrin-ink ps-4 text-[15px] text-debu-ink">
               Era-normalised reach reads as a gap for every polity here. The denominator
@@ -239,13 +342,13 @@ export function Comparison({
                 </tr>
               </thead>
               <tbody>
-                {rows.map((r, i) => (
+                {[...ranked, ...unranked].map((r, i) => (
                   <tr
                     key={r.polity.id}
                     className="border-b border-kashi/12 align-top transition-colors hover:bg-kaghaz-raise"
                   >
                     <td className="py-4 pe-4 font-mono text-[13px] tabular-nums text-debu-ink">
-                      {r.total.present ? String(i + 1).padStart(2, '0') : '—'}
+                      {i < ranked.length ? String(i + 1).padStart(2, '0') : '—'}
                     </td>
 
                     <th scope="row" className="py-4 pe-4 font-normal">
@@ -277,10 +380,12 @@ export function Comparison({
                           ? `${r.longevity.years.min} yr`
                           : `${r.longevity.years.min}–${r.longevity.years.max} yr`
                       }
-                      pct={r.longevity.pct.min}
+                      pct={r.longevity.pct.min.present ? r.longevity.pct.min.value : null}
                       pctMax={
-                        Math.abs(r.longevity.pct.max - r.longevity.pct.min) > 0.005
-                          ? r.longevity.pct.max
+                        r.longevity.pct.min.present &&
+                        r.longevity.pct.max.present &&
+                        Math.abs(r.longevity.pct.max.value - r.longevity.pct.min.value) > 0.005
+                          ? r.longevity.pct.max.value
                           : undefined
                       }
                     />

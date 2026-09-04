@@ -21,24 +21,28 @@ export default function RankingsView() {
         <Shell>
           <PageHead kicker="Measured, not judged" title="Rankings" ground="paper">
             <p>
-              Reach, longevity, population and influence — every polity on the site,
-              measured against {backdrop.length} of the largest states in world history so
-              that a percentile is a true statement rather than a comparison against eight
-              things.
+              Five boards over one corpus, measured against {backdrop.length} of the
+              largest states in world history so that a position is a true statement
+              rather than a comparison against eight things. Largest and longest are
+              different questions, and this page answers them separately rather than
+              handing you their average.
             </p>
           </PageHead>
 
           <div className="mt-8 grid max-w-[74rem] gap-x-12 gap-y-4 text-[16px] leading-relaxed text-debu-ink md:grid-cols-2">
             <p>
-              The ordering is a function of the sliders, which start even and are yours to
-              move. No arrangement of them is the site&rsquo;s own opinion, and none is
-              published as a greatest-empire ordering. The weights travel in the address
-              bar, so you can send someone a view rather than an argument.
+              Two of the five boards fuse anything at all, and both are functions of your
+              sliders rather than of the site&rsquo;s opinion. Nothing here is published
+              as a greatest-empire ordering. The board, the sliders, the scale and the
+              choice between percentile and log magnitude all travel in the address bar,
+              so you can send someone a view rather than an argument.
             </p>
             <p>
               Every polity is eligible here, whether or not it stands in a succession
               thread — measurement does not require a predecessor. A missing axis leaves
-              its bar empty and is excluded from the total rather than counted as zero.
+              its bar empty and is excluded from the total rather than counted as zero,
+              and a polity a board cannot order sits below that board rather than at the
+              bottom of it.
             </p>
           </div>
 
