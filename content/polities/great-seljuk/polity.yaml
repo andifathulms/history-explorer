@@ -47,6 +47,12 @@ ended:
   year: 1194
   source: bosworth-1968
 
+institutions:
+  military_basis: { values: [tribal-levy, land-grant], source: bosworth-1968 }
+  revenue_basis: { values: [land-tax], source: bosworth-1968 }
+  succession_rule: null
+  legitimation: null
+
 turning_points:
   - year: 1040
     type: battle

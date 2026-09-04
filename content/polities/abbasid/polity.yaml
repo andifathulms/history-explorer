@@ -35,6 +35,12 @@ ended:
   year: 1258
   source: bosworth-1996
 
+institutions:
+  military_basis: { values: [slave-soldier], source: el-hibri-2021 }
+  revenue_basis: null
+  succession_rule: null
+  legitimation: { values: [descent], source: kennedy-2004 }
+
 turning_points:
   - year: 836
     type: capital-move

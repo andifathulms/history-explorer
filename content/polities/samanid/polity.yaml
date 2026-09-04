@@ -51,6 +51,12 @@ ended:
   year: 999
   source: iranica-samanids
 
+institutions:
+  military_basis: { values: [slave-soldier], source: bosworth-1963 }
+  revenue_basis: null
+  succession_rule: null
+  legitimation: { values: [caliphal-investiture], source: iranica-samanids }
+
 turning_points:
   - year: 892
     type: capital-move

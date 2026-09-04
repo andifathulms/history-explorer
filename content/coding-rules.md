@@ -2,7 +2,7 @@
 
 Binding rules for the structured fields that are judgements rather than
 transcriptions. Sections 1-3 cover the three influence counts; section 4 covers
-turning points. Read the relevant section before entering any data, and apply
+turning points; sections 5-8 cover the four institutional codings. Read the relevant section before entering any data, and apply
 it uniformly — including to the polities where the answer is inconvenient, and
 including to regions added later, where the temptation to bend a definition to
 fit an unfamiliar case will be strongest.
@@ -227,3 +227,127 @@ event is doubted, while the direction of the choice is not.
 One entry per event, in year order, at most a handful per polity. If a polity
 accumulates more than about five, the list has started describing the polity's
 history rather than its hinges, and the surplus belongs in a chapter.
+
+---
+
+# Part three: institutions
+
+Four coded sets per polity: **military basis**, **revenue basis**, **succession
+rule**, **legitimation**. Each is a set of values from a closed vocabulary with
+one source for the coding, and each is independently `null`.
+
+These are the comparative substance that extent cannot carry. Two empires of the
+same size that raised their armies differently were different things, and the
+point of coding them is that a reader can see the pattern across sixty polities
+instead of finding it four times in prose.
+
+Four standing requirements:
+
+1. **Code the arrangement in force for most of the polity's life**, and add a
+   second value where a source describes a real change or a genuine duality —
+   the Safavids replaced a tribal army with a slave one inside a century, and
+   the Liao ran two administrations at once. Do not add a second value for a
+   brief experiment or a single ruler's preference.
+2. **A set is never empty.** An empty list would assert that the polity had no
+   army, no revenue or no succession. Where no consulted source addresses the
+   question the whole field is `null`, and it renders as a gap.
+3. **Code what the source describes, not what the label suggests.** The
+   vocabularies use terms that carry baggage from European history. `land-grant`
+   covers iqta', timar and jagir; it does not import feudalism, and nothing
+   should be coded from an analogy.
+4. **The same rules apply to polities outside this corpus's centre of gravity.**
+   The vocabularies were built on a corpus that is heavily Islamic and Iranian.
+   When an East Asian, African or maritime polity does not fit, the answer is
+   `null` or a vocabulary change argued on the merits — never the nearest
+   familiar label.
+
+## 5. Military basis
+
+> **How the fighting force was raised**, not how it fought or where.
+
+| Value | Coded when |
+| --- | --- |
+| `tribal-levy` | Contingents raised through kin or tribal structures the ruler did not create |
+| `client-levy` | Contingents owed by subordinate chiefs or vassals under an obligation |
+| `conscript` | Levied from a settled population by administrative obligation |
+| `land-grant` | Service in return for assigned revenue — iqta', timar, jagir |
+| `slave-soldier` | Purchased unfree troops attached to the ruler personally |
+| `mercenary` | Hired for pay, with no standing obligation either way |
+| `standing-professional` | Paid, permanent, recruited and commanded centrally |
+
+Excluded: naval force. A fleet is a domain a state operates in, and the men on
+it were raised one of the ways above like everyone else. Srivijaya's crews came
+from coastal chiefs under obligation, which is `client-levy`; that they went to
+sea is on its page in prose, where it belongs.
+
+`mercenary` and `slave-soldier` are distinguished by whether the soldier could
+leave. Daylamite infantry hiring themselves out to whoever was paying are
+mercenaries; a Turkish ghulam bought as a boy is not, and the difference is
+exactly what the Buyid page turns on.
+
+## 6. Revenue basis
+
+> **What the state lived on**, as its sources describe it.
+
+`land-tax`, `poll-tax`, `trade-toll`, `tribute`, `plunder`, `mining`,
+`monopoly`.
+
+- `tribute` is revenue *received* from another polity. Payment made to someone
+  else is not a revenue basis, and the Song paying the Liao appears here on the
+  Liao record only.
+- `plunder` is coded only where a source treats campaign proceeds as a
+  structural part of the state's income, not merely as something armies did.
+- `trade-toll` covers customs, straits dues and caravan levies together. The
+  distinction between them is a matter for prose.
+- Where a source describes the mix without ranking it, code the set unranked.
+  **Do not order the values by importance** — the field has no way to express
+  rank, and an ordered-looking list would smuggle in a judgement.
+
+## 7. Succession rule
+
+> **The rule in force, not the outcome.** A polity with a clear rule that was
+> repeatedly violated is coded by the rule.
+
+`primogeniture`, `tanistry` (lateral seniority within the house), `appanage`
+(patrimonial division among heirs), `nomination` (a designated heir),
+`election`, `acclamation` (by army or assembly), `factional`.
+
+`factional` is a real coding and not a disguised null. The Mamluk sultanate had
+no succession rule and a throne that went to whichever military faction could
+impose its man; recording that as unaddressed would lose the most distinctive
+thing about the polity. Use it only where a source describes the *absence* of a
+rule, never where a source is simply silent.
+
+## 8. Legitimation
+
+> **On what public ground the right to rule was asserted**, in the polity's own
+> self-description.
+
+`descent`, `divine-sanction`, `conquest`, `caliphal-investiture`, `titulature`,
+`election`.
+
+- The test is publicity, as in section 1: what was said on coins, in the khutba,
+  in titles and in chancery documents — not what a modern account infers.
+- `titulature` here means taking a *predecessor's* title as one's own ground.
+  Where it is coded, there is very often a successor claim counted on the
+  predecessor's record, and the two should agree. A disagreement is worth
+  finding.
+- `divine-sanction` covers the mandate of heaven, divine kingship, and a claim
+  to be mahdi or imam. These are different theologies and the same move: the
+  right comes from above rather than from a predecessor, a lineage or an army.
+- `caliphal-investiture` is separated from `descent` and `titulature` because it
+  is the characteristic move of half this corpus, and collapsing it into a
+  general category would hide the pattern the site exists to show.
+
+## 9. What coding these fields will look like
+
+Most polities will carry some fields and not others for a long time. That is the
+expected state and not a backlog: coding requires a source that addresses the
+question, and a work that is excellent on a dynasty's army is often silent on
+how its succession was supposed to work. Four gaps on a page is an honest page.
+
+The failure to watch for is the opposite one. These vocabularies are small
+enough that every polity *can* be given four plausible values from general
+knowledge in about a minute, and the result would be uniform, complete, and
+entirely unsourced. Coding rule 3 in part one applies here with full force: a
+value without a source that addresses the question is not enterable.

@@ -50,6 +50,12 @@ ended:
   year: 1186
   source: bosworth-1977
 
+institutions:
+  military_basis: { values: [slave-soldier], source: bosworth-1963 }
+  revenue_basis: { values: [plunder], source: bosworth-1963 }
+  succession_rule: null
+  legitimation: { values: [caliphal-investiture], source: bosworth-1963 }
+
 measures:
   reach_km2: { value: 3400000, at: 1029, source: taagepera-1997 }
   peak_population: null

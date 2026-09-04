@@ -21,6 +21,10 @@ import {
   END_TYPES,
   PHASES,
   TURNING_POINT_TYPES,
+  MILITARY_BASES,
+  REVENUE_BASES,
+  SUCCESSION_RULES,
+  LEGITIMATIONS,
   type Chapter,
   type Edge,
   type Polity,
@@ -229,6 +233,49 @@ export function loadCorpus(): Corpus {
 
     if (p.span.end.min < p.span.start.min) {
       throw new ContentError(where, 'span ends before it starts')
+    }
+
+    // Institutions. Four independently nullable coded sets; see part three of
+    // content/coding-rules.md, which is binding on what may go in them.
+    p.institutions ??= {
+      military_basis: null,
+      revenue_basis: null,
+      succession_rule: null,
+      legitimation: null,
+    }
+    const VOCABS = {
+      military_basis: MILITARY_BASES,
+      revenue_basis: REVENUE_BASES,
+      succession_rule: SUCCESSION_RULES,
+      legitimation: LEGITIMATIONS,
+    } as const
+    for (const [field, vocab] of Object.entries(VOCABS)) {
+      const key = field as keyof typeof VOCABS
+      const coded = p.institutions[key]
+      if (coded === null || coded === undefined) {
+        p.institutions[key] = null
+        continue
+      }
+      const iWhere = `${where}/institutions.${field}`
+      requireSource(coded.source, iWhere)
+      if (!coded.source) throw new ContentError(iWhere, 'a coding names the source it was read from')
+      if (!Array.isArray(coded.values) || coded.values.length === 0) {
+        // The distinction hard rule 3 turns on, in a new place: a field with no
+        // values is `null` — nobody addressed it. A set of nothing would be a
+        // claim that the polity had no army, no revenue or no succession.
+        throw new ContentError(
+          iWhere,
+          'an empty set is not a value; use null where no source addresses the question',
+        )
+      }
+      for (const v of coded.values) {
+        if (!(vocab as readonly string[]).includes(v)) {
+          throw new ContentError(iWhere, `"${v}" is outside the closed vocabulary (${vocab.join(', ')})`)
+        }
+      }
+      if (new Set(coded.values).size !== coded.values.length) {
+        throw new ContentError(iWhere, 'the same value is coded twice')
+      }
     }
 
     // Turning points. Normalised to [] so no consumer needs a null check, and
@@ -600,6 +647,7 @@ export function sourceUsage(): SourceUse[] {
       p.measures?.reach_km2?.source,
       ...(p.measures?.extent ?? []).map((x) => x.source),
       ...(p.turning_points ?? []).map((x) => x.source),
+      ...Object.values(p.institutions ?? {}).map((c) => c?.source ?? null),
       p.measures?.peak_population?.source,
       ...Object.values(p.measures?.influence ?? {}).map((x) => x.source),
       p.ended?.source,

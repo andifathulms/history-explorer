@@ -35,6 +35,12 @@ ended:
   year: 1250
   source: petry-1998
 
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: { values: [appanage], source: humphreys-1977 }
+  legitimation: null
+
 measures:
   # No figure for this polity's peak extent in the works consulted. Taagepera
   # does not tabulate it separately and no other cited source gives a km2.

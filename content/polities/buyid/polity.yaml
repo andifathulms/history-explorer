@@ -47,6 +47,12 @@ ended:
   year: 1055
   source: busse-1975
 
+institutions:
+  military_basis: { values: [mercenary], source: iranica-al-e-buya }
+  revenue_basis: null
+  succession_rule: null
+  legitimation: { values: [titulature], source: busse-1975 }
+
 measures:
   reach_km2: null
   peak_population: null

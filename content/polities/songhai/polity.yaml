@@ -35,6 +35,12 @@ ended:
   year: 1591
   source: hunwick-1999
 
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  legitimation: { values: [caliphal-investiture], source: hunwick-1999 }
+
 measures:
   reach_km2: null
   peak_population: null

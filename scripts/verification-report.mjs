@@ -42,6 +42,13 @@ for (const dir of fs.readdirSync(path.join(C, 'polities')).sort()) {
   if (p.measures.reach_km2) {
     add(p.measures.reach_km2.source, w, `reach ${p.measures.reach_km2.value.toLocaleString('en-GB')} km2 at ${p.measures.reach_km2.at}`)
   }
+  // Institutional codings are judgements against a rulebook, so they need
+  // checking harder than a transcribed figure does. No companion list of
+  // *uncoded* fields is emitted: coding rule 9 says gaps here are the expected
+  // state and not a backlog, and a checklist would say the opposite.
+  for (const [field, coded] of Object.entries(p.institutions ?? {})) {
+    if (coded) add(coded.source, w, `${field.replace(/_/g, ' ')} coded ${coded.values.join(' + ')}`)
+  }
   // Turning points are cited claims and go on the worklist like any other.
   // There is deliberately no companion list of polities *without* them: an
   // empty list is a true statement, and printing it as an outstanding item

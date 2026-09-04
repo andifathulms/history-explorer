@@ -35,6 +35,12 @@ ended:
   year: 750
   source: hawting-2000
 
+institutions:
+  military_basis: { values: [tribal-levy], source: kennedy-2004 }
+  revenue_basis: null
+  succession_rule: null
+  legitimation: null
+
 measures:
   reach_km2: { value: 11100000, at: 720, source: taagepera-1997 }
   peak_population: null

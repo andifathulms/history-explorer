@@ -34,6 +34,12 @@ ended:
   year: 1275
   source: hall-2011
 
+institutions:
+  military_basis: { values: [client-levy], source: hall-2011 }
+  revenue_basis: { values: [trade-toll], source: hall-2011 }
+  succession_rule: null
+  legitimation: null
+
 measures:
   # Taagepera does not tabulate a maritime polity whose power was over sea
   # lanes rather than land. No cited km2, and computing one from the map

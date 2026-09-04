@@ -187,6 +187,113 @@ export interface TurningPoint {
   contested: boolean
 }
 
+// ---------------------------------------------------------------------------
+// Institutions
+// ---------------------------------------------------------------------------
+
+/**
+ * How the fighting force was raised.
+ *
+ * Recruitment, not tactics or theatre. "Naval" is not here: a fleet is a domain
+ * a state operates in, and the men on it were raised one of these ways like
+ * everyone else. Srivijaya's crews came from coastal chiefs under obligation,
+ * which is `client-levy`, and the fact that they went to sea is on its page in
+ * prose where it belongs.
+ */
+export const MILITARY_BASES = [
+  'tribal-levy',
+  'client-levy',
+  'conscript',
+  'land-grant',
+  'slave-soldier',
+  'mercenary',
+  'standing-professional',
+] as const
+export type MilitaryBasis = (typeof MILITARY_BASES)[number]
+
+/**
+ * What the state lived on.
+ *
+ * `land-grant` above and `land-tax` here are different questions: one is how
+ * the soldier was paid, the other is where the money came from, and the iqta'
+ * systems in this corpus are precisely the case where the same revenue answers
+ * both.
+ */
+export const REVENUE_BASES = [
+  'land-tax',
+  'poll-tax',
+  'trade-toll',
+  'tribute',
+  'plunder',
+  'mining',
+  'monopoly',
+] as const
+export type RevenueBasis = (typeof REVENUE_BASES)[number]
+
+/**
+ * How the next ruler was determined — the rule in force, not the outcome.
+ *
+ * `factional` is a real answer and not a null: the Mamluk sultanate had no
+ * succession rule and a throne that went to whichever military faction could
+ * impose its man, and recording that as "unaddressed" would lose the single
+ * most distinctive thing about the polity.
+ */
+export const SUCCESSION_RULES = [
+  'primogeniture',
+  'tanistry',
+  'appanage',
+  'nomination',
+  'election',
+  'acclamation',
+  'factional',
+] as const
+export type SuccessionRule = (typeof SUCCESSION_RULES)[number]
+
+/** On what public ground the right to rule was asserted. */
+export const LEGITIMATIONS = [
+  'descent',
+  'divine-sanction',
+  'conquest',
+  'caliphal-investiture',
+  'titulature',
+  'election',
+] as const
+export type Legitimation = (typeof LEGITIMATIONS)[number]
+
+/**
+ * A coded set: one or more vocabulary values, and the source for the coding.
+ *
+ * A set rather than a single value on purpose. Several of these polities ran
+ * two arrangements at once — the Liao governed two populations under two
+ * administrations, the Safavids replaced a tribal army with a slave one inside
+ * a century — and forcing one value would make the site choose where its
+ * sources do not. `null` for the whole field is the gap; an empty list is not a
+ * legal value, because a set of nothing is a claim nobody made.
+ */
+export interface CodedSet<T extends string> {
+  values: T[]
+  source: SourceId
+}
+
+/**
+ * How the polity was actually put together.
+ *
+ * The comparative substance km2 cannot carry. Two empires of the same extent
+ * that raised their armies differently were different things, and until this
+ * field existed nothing in the corpus could say so outside prose.
+ *
+ * Every field is independently nullable and a null renders as a gap like any
+ * other missing measure: coding this requires a source that addresses the
+ * question, and most polities here will carry some fields and not others for a
+ * long time.
+ */
+export interface Institutions {
+  military_basis: CodedSet<MilitaryBasis> | null
+  revenue_basis: CodedSet<RevenueBasis> | null
+  succession_rule: CodedSet<SuccessionRule> | null
+  legitimation: CodedSet<Legitimation> | null
+}
+
 export interface Polity {
   id: PolityId
   /** Which region groups this polity, and whose thread it may stand in. */
@@ -202,6 +309,8 @@ export interface Polity {
     writing_system: string | null
   }
   ended: Ending | null
+  /** Coded per content/coding-rules.md part three. Fields are independently null. */
+  institutions: Institutions
   /**
    * Dated hinges in this polity's life, in year order. Ordinarily empty, and
    * empty is not a gap: see the note on TurningPoint and hard rule 7, whose

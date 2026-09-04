@@ -34,6 +34,12 @@ ended:
   year: 1517
   source: petry-1998
 
+institutions:
+  military_basis: { values: [slave-soldier], source: petry-1998 }
+  revenue_basis: null
+  succession_rule: { values: [factional], source: petry-1998 }
+  legitimation: null
+
 turning_points:
   - year: 1260
     type: battle

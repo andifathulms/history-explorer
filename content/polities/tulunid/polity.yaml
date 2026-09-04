@@ -34,6 +34,12 @@ ended:
   year: 905
   source: petry-1998
 
+institutions:
+  military_basis: { values: [slave-soldier], source: petry-1998 }
+  revenue_basis: { values: [land-tax], source: petry-1998 }
+  succession_rule: null
+  legitimation: { values: [caliphal-investiture], source: petry-1998 }
+
 measures:
   # No cited km2 for this polity in the works consulted; Taagepera does not
   # tabulate it separately. The axis is empty rather than borrowed.

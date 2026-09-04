@@ -35,6 +35,12 @@ ended:
   year: 1736
   source: newman-2006
 
+institutions:
+  military_basis: { values: [tribal-levy, slave-soldier], source: newman-2006 }
+  revenue_basis: null
+  succession_rule: null
+  legitimation: { values: [divine-sanction], source: newman-2006 }
+
 turning_points:
   - year: 1501
     type: conversion

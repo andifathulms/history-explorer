@@ -34,6 +34,12 @@ ended:
   year: 1670
   source: levtzion-1973
 
+institutions:
+  military_basis: null
+  revenue_basis: { values: [mining, trade-toll], source: levtzion-1973 }
+  succession_rule: null
+  legitimation: null
+
 measures:
   reach_km2: null
   peak_population: null

@@ -103,6 +103,25 @@ ended:
   by: [karakhanid, ghaznavid]
   year: 999
   source: ...
+# Four coded sets, each independently null and each rendering as a gap when it
+# is. Binding vocabularies and rules: content/coding-rules.md part three.
+institutions:
+  military_basis: { values: [slave-soldier], source: bosworth-1963 }
+  revenue_basis:  null     # null, never an empty list — see hard rule 3
+  succession_rule: null
+  legitimation:   { values: [caliphal-investiture], source: iranica-samanids }
+# Dated hinges, in year order. Empty is ordinary — see hard rule 7 and coding
+# rule 4.3. `changed` says what the event altered, never what it was.
+turning_points:
+  - year: 892
+    type: capital-move     # closed vocabulary — see lib/types.ts
+    name: Bukhara
+    changed: >-
+      Isma'il moved the centre of gravity from Samarkand to a working
+      administrative seat that was his own. It is the point at which the
+      Samanids stop being a provincial family and start being a state.
+    source: iranica-samanids
+    contested: false
 measures:
   reach_km2:      { value: 2600000, at: 928, source: taagepera-1997 }  # the peak
   # Cited extents in date order, one figure per year, every point dated and

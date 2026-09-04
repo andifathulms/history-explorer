@@ -34,6 +34,12 @@ ended:
   year: 1125
   source: franke-twitchett-1994
 
+institutions:
+  military_basis: null
+  revenue_basis: { values: [tribute], source: franke-twitchett-1994 }
+  succession_rule: null
+  legitimation: null
+
 turning_points:
   - year: 1005
     type: treaty

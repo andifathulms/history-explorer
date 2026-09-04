@@ -34,6 +34,12 @@ ended:
   year: 395
   source: treadgold-1997
 
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: { values: [factional], source: woolf-2012 }
+  legitimation: null
+
 measures:
   reach_km2: { value: 5000000, at: 117, source: taagepera-1979 }
   peak_population: null
