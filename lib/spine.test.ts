@@ -57,3 +57,104 @@ test('column positions come from the span, so a series ending early looks early'
   // however many figures happen to have been transcribed.
   assert.ok(at(928) > 50 && at(928) < 60)
 })
+
+// --- contemporaries ------------------------------------------------------
+
+import { contemporariesOf } from './contemporaries.ts'
+import type { Polity, ReferencePolity } from './types.ts'
+
+const bare = (id: string, sMin: number, sMax: number, eMin: number, eMax: number): Polity =>
+  ({
+    id,
+    region: 'r',
+    name: { latin: id, script: null, script_lang: null },
+    span: {
+      start: { min: sMin, max: sMax, source: 's' },
+      end: { min: eMin, max: eMax, source: 's' },
+    },
+    identity: '',
+    capitals: [],
+    core_region: '',
+    rulers: { founder: null, peak: null, last: null },
+    scripts_and_languages: { administration: [], writing_system: null },
+    ended: null,
+    institutions: {
+      military_basis: null,
+      revenue_basis: null,
+      succession_rule: null,
+      legitimation: null,
+    },
+    turning_points: [],
+    measures: {
+      reach_km2: null,
+      extent: [],
+      peak_population: null,
+      influence: {
+        descendant_scripts: { count: null, items: [], source: null },
+        religions_carried: { count: null, items: [], source: null },
+        successor_claims: { count: null, items: [], source: null },
+      },
+    },
+  }) as Polity
+
+test('overlap on every reading of the dates is certain', () => {
+  const subject = bare('a', 800, 800, 900, 900)
+  const other = bare('b', 850, 850, 950, 950)
+  const { certain, possible } = contemporariesOf(subject, [subject, other], [])
+  assert.deepEqual(certain.map((c) => c.id), ['b'])
+  assert.equal(possible.length, 0)
+  assert.equal(certain[0].certainYears, 50)
+})
+
+test('overlap that depends on which cited date you accept is possible, not certain', () => {
+  // Contact only if you take b's earliest start and a's latest end. The site
+  // must not resolve that by picking one; it says the answer is open.
+  const subject = bare('a', 800, 810, 880, 900)
+  const other = bare('b', 890, 895, 960, 970)
+  const { certain, possible } = contemporariesOf(subject, [subject, other], [])
+  assert.equal(certain.length, 0)
+  assert.deepEqual(possible.map((c) => c.id), ['b'])
+})
+
+test('spans that cannot meet on any reading are absent entirely', () => {
+  const subject = bare('a', 800, 810, 880, 900)
+  const other = bare('b', 950, 960, 990, 999)
+  const { certain, possible } = contemporariesOf(subject, [subject, other], [])
+  assert.equal(certain.length + possible.length, 0)
+})
+
+test('a polity is never its own contemporary', () => {
+  const subject = bare('a', 800, 800, 900, 900)
+  const { certain, possible } = contemporariesOf(subject, [subject], [])
+  assert.equal(certain.length + possible.length, 0)
+})
+
+test('the reference backdrop is included, and marked as having no page', () => {
+  const subject = bare('a', 800, 800, 900, 900)
+  const ref = {
+    id: 'r1',
+    name: 'Backdrop',
+    span: { start: 700, end: 1000, source: 's' },
+    reach_km2: null,
+    peak_population: null,
+  } as ReferencePolity
+  const { certain } = contemporariesOf(subject, [subject], [ref])
+  assert.deepEqual(certain.map((c) => [c.id, c.hasPage]), [['r1', false]])
+})
+
+test('a polity already in the narrative corpus is not repeated from the backdrop', () => {
+  // Most narrative polities also have a reference-set row. Listing both would
+  // print every major contemporary twice, once linked and once not.
+  const subject = bare('a', 800, 800, 900, 900)
+  const other = bare('b', 820, 820, 880, 880)
+  const dupe = {
+    id: 'b',
+    name: 'b',
+    span: { start: 820, end: 880, source: 's' },
+    reach_km2: null,
+    peak_population: null,
+  } as ReferencePolity
+  const { certain, possible } = contemporariesOf(subject, [subject, other], [dupe])
+  assert.equal(certain.length + possible.length, 1)
+  assert.equal(certain[0].hasPage, true)
+})

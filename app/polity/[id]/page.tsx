@@ -11,6 +11,7 @@ import {
   getRegion,
 } from '@/lib/content'
 import { buildField, rate, DEFAULT_WEIGHTS } from '@/lib/ratings'
+import { contemporariesOf } from '@/lib/contemporaries'
 import { formatKm2, formatPopulation, NO_FIGURE } from '@/lib/gaps'
 import { Page, Shell, Crumbs, StatRow } from '@/components/Shell'
 import { PolityRail } from '@/components/PolityRail'
@@ -22,6 +23,7 @@ import { PolityMap } from '@/components/PolityMap'
 import { ExtentTrajectory } from '@/components/ExtentTrajectory'
 import { TurningPoints } from '@/components/TurningPoints'
 import { Institutions } from '@/components/Institutions'
+import { Contemporaries } from '@/components/Contemporaries'
 
 export function generateStaticParams() {
   return loadCorpus().narrative.map((p) => ({ id: p.id }))
@@ -53,6 +55,8 @@ export default function PolityPage({ params }: { params: { id: string } }) {
   // point; here they would be a second control competing with the prose.
   const field = buildField(corpus.narrative, corpus.backdrop, 'absolute', corpus.denominators)
   const rating = rate(p, field, DEFAULT_WEIGHTS, 'absolute', corpus.denominators)
+
+  const { certain, possible } = contemporariesOf(p, corpus.all, corpus.backdrop)
 
   const span = p.span
   const startLabel = formatRange(span.start.min, span.start.max)
@@ -154,6 +158,8 @@ export default function PolityPage({ params }: { params: { id: string } }) {
             <TurningPoints polity={p} />
 
             <ExtentTrajectory polity={p} />
+
+            <Contemporaries certain={certain} possible={possible} />
 
             <PolityMap polity={p} />
 
