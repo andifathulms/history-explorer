@@ -315,11 +315,25 @@ export function Comparison({
                 <col className="w-[9.5rem]" />
                 <col className="w-[9.5rem]" />
                 <col className="w-[11rem]" />
+                {board === 'intensity' ? <col className="w-[9rem]" /> : null}
                 <col className="w-[7.5rem]" />
               </colgroup>
               <thead>
                 <tr className="border-b border-kashi/30">
-                  {['#', 'Polity', 'Reach', 'Longevity', 'Population', 'Influence', 'Total'].map(
+                  {[
+                    '#',
+                    'Polity',
+                    'Reach',
+                    'Longevity',
+                    'Population',
+                    'Influence',
+                    // Only on the board that orders by it. A ratio column
+                    // standing permanently beside four measured ones would
+                    // read as a fifth measurement rather than as an axis
+                    // derived from two of them.
+                    ...(board === 'intensity' ? ['km² per year'] : []),
+                    'Total',
+                  ].map(
                     (h) => (
                       <th
                         key={h}
@@ -411,6 +425,29 @@ export function Comparison({
                         descendant scripts, religions carried, successor claims
                       </span>
                     </td>
+
+                    {board === 'intensity' ? (
+                      <td className="py-4 pe-4">
+                        {r.intensity.perYear.present ? (
+                          <>
+                            <span className="font-mono text-[15px] tabular-nums text-dawat/85">
+                              {Math.round(r.intensity.perYear.value.min).toLocaleString('en-GB')}
+                            </span>
+                            {/* A range, because the duration is one. Collapsing
+                                it to a midpoint would print a figure neither
+                                cited date supports. */}
+                            {Math.round(r.intensity.perYear.value.max) !==
+                            Math.round(r.intensity.perYear.value.min) ? (
+                              <span className="font-mono text-[15px] tabular-nums text-debu-ink">
+                                –{Math.round(r.intensity.perYear.value.max).toLocaleString('en-GB')}
+                              </span>
+                            ) : null}
+                          </>
+                        ) : (
+                          <span className="text-[14px] italic text-debu-ink">{NO_FIGURE}</span>
+                        )}
+                      </td>
+                    ) : null}
 
                     <td className="py-4">
                       {r.total.present ? (
