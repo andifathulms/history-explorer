@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**958 claims across 74 sources.**
+**965 claims across 75 sources.**
 
 ## Where to start
 
@@ -414,6 +414,40 @@ ordinary state, not an item to clear.
 - [ ] `polity/maurya` — religions_carried = 1 (Buddhism)
 - [ ] `polity/maurya` — ended by internal usurpation in -185
 
+## Hugh Kennedy, The Prophet and the Age of the Caliphates: The Islamic Near East from the Sixth to the Eleventh Century
+
+`kennedy-2004` — 27 claims
+
+**Sole source** for `hamdanid` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/abbasid/01-revolution.mdx` — prose: "What the revolution actually changed"
+- [ ] `chapter/hamdanid/01-sayf-al-dawla.mdx` — prose: "Sayf al-Dawla's frontier"
+- [ ] `chapter/hamdanid/02-mutanabbi.mdx` — prose: "The poet and the frontier"
+- [ ] `chapter/umayyad/06-mawali.mdx` — prose: "The converts problem"
+- [ ] `edge/rashidun->abbasid` — claimed legitimacy of in 750
+- [ ] `polity/abbasid` — military basis coded standing-professional + slave-soldier
+- [ ] `polity/abbasid` — revenue basis coded land-tax + poll-tax
+- [ ] `polity/abbasid` — legitimation coded descent
+- [ ] `polity/abbasid` — turning point 762 The founding of Baghdad
+- [ ] `polity/abbasid` — religions_carried = 1 (Islam)
+- [ ] `polity/hamdanid` — span starts 890
+- [ ] `polity/hamdanid` — span ends 1004
+- [ ] `polity/hamdanid` — capital Aleppo from 890
+- [ ] `polity/hamdanid` — founder Hamdan ibn Hamdun r. 890-895
+- [ ] `polity/hamdanid` — peak Sayf al-Dawla r. 945-967
+- [ ] `polity/hamdanid` — last Sa'd al-Dawla r. 967-991
+- [ ] `polity/hamdanid` — ended by gradual absorption in 1004
+- [ ] `polity/rashidun` — span starts 632
+- [ ] `polity/rashidun` — span ends 661
+- [ ] `polity/rashidun` — capital Medina from 632
+- [ ] `polity/rashidun` — capital Kufa from 656
+- [ ] `polity/rashidun` — founder Abu Bakr r. 632-634
+- [ ] `polity/rashidun` — peak Umar ibn al-Khattab r. 634-644
+- [ ] `polity/rashidun` — revenue basis coded land-tax + poll-tax + plunder
+- [ ] `polity/rashidun` — successor_claims = 2 (umayyad, abbasid)
+- [ ] `polity/umayyad` — military basis coded tribal-levy
+- [ ] `polity/umayyad` — successor_claims = 1 (Umayyad Caliphate of Cordoba)
+
 ## Marc Van De Mieroop, A History of the Ancient Near East, ca. 3000-323 BC
 
 `van-de-mieroop-2015` — 26 claims
@@ -444,37 +478,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/neo-assyrian` — peak Ashurbanipal r. -669--631
 - [ ] `polity/neo-assyrian` — last Ashur-uballit II r. -612--609
 - [ ] `polity/neo-assyrian` — ended by conquest in -609
-
-## Hugh Kennedy, The Prophet and the Age of the Caliphates: The Islamic Near East from the Sixth to the Eleventh Century
-
-`kennedy-2004` — 24 claims
-
-**Sole source** for `hamdanid` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/abbasid/01-revolution.mdx` — prose: "What the revolution actually changed"
-- [ ] `chapter/hamdanid/01-sayf-al-dawla.mdx` — prose: "Sayf al-Dawla's frontier"
-- [ ] `chapter/hamdanid/02-mutanabbi.mdx` — prose: "The poet and the frontier"
-- [ ] `chapter/umayyad/06-mawali.mdx` — prose: "The converts problem"
-- [ ] `edge/rashidun->abbasid` — claimed legitimacy of in 750
-- [ ] `polity/abbasid` — legitimation coded descent
-- [ ] `polity/abbasid` — religions_carried = 1 (Islam)
-- [ ] `polity/hamdanid` — span starts 890
-- [ ] `polity/hamdanid` — span ends 1004
-- [ ] `polity/hamdanid` — capital Aleppo from 890
-- [ ] `polity/hamdanid` — founder Hamdan ibn Hamdun r. 890-895
-- [ ] `polity/hamdanid` — peak Sayf al-Dawla r. 945-967
-- [ ] `polity/hamdanid` — last Sa'd al-Dawla r. 967-991
-- [ ] `polity/hamdanid` — ended by gradual absorption in 1004
-- [ ] `polity/rashidun` — span starts 632
-- [ ] `polity/rashidun` — span ends 661
-- [ ] `polity/rashidun` — capital Medina from 632
-- [ ] `polity/rashidun` — capital Kufa from 656
-- [ ] `polity/rashidun` — founder Abu Bakr r. 632-634
-- [ ] `polity/rashidun` — peak Umar ibn al-Khattab r. 634-644
-- [ ] `polity/rashidun` — revenue basis coded land-tax + poll-tax + plunder
-- [ ] `polity/rashidun` — successor_claims = 2 (umayyad, abbasid)
-- [ ] `polity/umayyad` — military basis coded tribal-levy
-- [ ] `polity/umayyad` — successor_claims = 1 (Umayyad Caliphate of Cordoba)
 
 ## Kenneth R. Hall, A History of Early Southeast Asia: Maritime Trade and Societal Development, 100-1500
 
@@ -1122,6 +1125,21 @@ ordinary state, not an item to clear.
 - [ ] `polity/timurid` — last Badi al-Zaman r. 1506-1507
 - [ ] `polity/timurid` — ended by conquest in 1507
 
+## Tayeb El-Hibri, The Abbasid Caliphate: A History
+
+`el-hibri-2021` — 10 claims
+
+- [ ] `chapter/abbasid/02-harun.mdx` — prose: "Harun al-Rashid, and what came after him"
+- [ ] `chapter/abbasid/05-samarra.mdx` — prose: "The soldiers at Samarra"
+- [ ] `chapter/abbasid/06-the-caliph-they-kept.mdx` — prose: "945, and the caliph they kept"
+- [ ] `chapter/abbasid/07-al-nasir.mdx` — prose: "The forty-five years when it nearly worked"
+- [ ] `edge/abbasid->mamluk-sultanate` — claimed legitimacy of in 1261
+- [ ] `polity/abbasid` — succession rule coded nomination
+- [ ] `polity/abbasid` — turning point 813 The siege of Baghdad
+- [ ] `polity/abbasid` — turning point 836 The move to Samarra
+- [ ] `polity/abbasid` — turning point 861 The anarchy at Samarra
+- [ ] `polity/abbasid` — successor_claims = 1 (Abbasid Caliphate of Cairo)
+
 ## Michal Biran, Qaidu and the Rise of the Independent Mongol State in Central Asia
 
 `biran-1997` — 10 claims
@@ -1196,20 +1214,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/xiongnu` — peak Modu Chanyu r. -209--174
 - [ ] `polity/xiongnu` — last Unknown r. 91-91
 - [ ] `polity/xiongnu` — ended by fragmentation in 91
-
-## Tayeb El-Hibri, The Abbasid Caliphate: A History
-
-`el-hibri-2021` — 9 claims
-
-- [ ] `chapter/abbasid/02-harun.mdx` — prose: "Harun al-Rashid, and what came after him"
-- [ ] `chapter/abbasid/03-samarra.mdx` — prose: "The soldiers at Samarra"
-- [ ] `chapter/abbasid/04-the-caliph-they-kept.mdx` — prose: "945, and the caliph they kept"
-- [ ] `chapter/abbasid/05-al-nasir.mdx` — prose: "The forty-five years when it nearly worked"
-- [ ] `edge/abbasid->mamluk-sultanate` — claimed legitimacy of in 1261
-- [ ] `polity/abbasid` — military basis coded slave-soldier
-- [ ] `polity/abbasid` — turning point 836 The move to Samarra
-- [ ] `polity/abbasid` — turning point 861 The anarchy at Samarra
-- [ ] `polity/abbasid` — successor_claims = 1 (Abbasid Caliphate of Cairo)
 
 ## Heinz Halm, The Empire of the Mahdi: The Rise of the Fatimids
 
@@ -1349,13 +1353,23 @@ ordinary state, not an item to clear.
 - [ ] `polity/saffarid` — descendant_scripts = 0
 - [ ] `polity/saffarid` — religions_carried = 0
 
+## Patricia Crone and Martin Hinds, God's Caliph: Religious Authority in the First Centuries of Islam
+*In University of Cambridge Oriental Publications 37.*
+
+`crone-hinds-1986` — 4 claims
+
+- [ ] `chapter/abbasid/04-the-mihna.mdx` — prose: "The last caliph who tried to say what Islam was"
+- [ ] `chapter/umayyad/05-khalifat-allah.mdx` — prose: "What they called themselves"
+- [ ] `polity/abbasid` — turning point 833 The mihna
+- [ ] `polity/umayyad` — legitimation coded divine-sanction + descent
+
 ## multiple contributors, ABBASID CALIPHATE
 *In Encyclopaedia Iranica.*
 <https://iranicaonline.org/articles/abbasid-caliphate>
 
 `iranica-abbasid-caliphate` — 3 claims
 
-- [ ] `chapter/abbasid/06-baghdad-1258.mdx` — prose: "1258"
+- [ ] `chapter/abbasid/08-baghdad-1258.mdx` — prose: "1258"
 - [ ] `polity/abbasid` — capital Baghdad from 762
 - [ ] `polity/abbasid` — capital Samarra from 836
 
@@ -1415,13 +1429,11 @@ ordinary state, not an item to clear.
 - [ ] `polity/umayyad` — revenue basis coded land-tax + poll-tax + plunder
 - [ ] `polity/umayyad` — turning point 718 The second siege of Constantinople
 
-## Patricia Crone and Martin Hinds, God's Caliph: Religious Authority in the First Centuries of Islam
-*In University of Cambridge Oriental Publications 37.*
+## Dimitri Gutas, Greek Thought, Arabic Culture: The Graeco-Arabic Translation Movement in Baghdad and Early 'Abbasid Society
 
-`crone-hinds-1986` — 2 claims
+`gutas-1998` — 1 claims
 
-- [ ] `chapter/umayyad/05-khalifat-allah.mdx` — prose: "What they called themselves"
-- [ ] `polity/umayyad` — legitimation coded divine-sanction + descent
+- [ ] `chapter/abbasid/03-the-translation-movement.mdx` — prose: "Two centuries of translation, and who paid for it"
 
 ## R. N. Frye (ed.), The Cambridge History of Iran, Volume 4: From the Arab Invasion to the Saljuqs
 

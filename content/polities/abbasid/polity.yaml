@@ -36,12 +36,61 @@ ended:
   source: bosworth-1996
 
 institutions:
-  military_basis: { values: [slave-soldier], source: el-hibri-2021 }
-  revenue_basis: null
-  succession_rule: null
+  # Two arrangements, and the change between them is the polity's central
+  # story. The revolution's Khurasani army was paid, permanent and commanded
+  # from the centre; from 836 the caliphs replaced it with purchased Turkish
+  # slave soldiers attached to themselves personally, and were being deposed by
+  # them within thirty years.
+  military_basis: { values: [standing-professional, slave-soldier], source: kennedy-2004 }
+  # The Sawad — the irrigated alluvium of lower Iraq, taken at al-Qadisiyya on
+  # this site's Rashidun page — is the tax base the whole arrangement sat on,
+  # and losing control of provincial revenue is what the ninth century does to
+  # this polity.
+  revenue_basis: { values: [land-tax, poll-tax], source: kennedy-2004 }
+  # The reigning caliph designated his heir. Harun designated two, with the
+  # terms deposited at the Ka'ba, and the empire's two halves fought over it.
+  succession_rule: { values: [nomination], source: el-hibri-2021 }
+  # Descent from al-Abbas, the Prophet's uncle — the claim the revolution was
+  # made in the name of, and the one that distinguishes them from the Alid
+  # candidates their coalition had been imagining. Not divine-sanction: the
+  # mihna chapter is about the Abbasids making that larger claim and losing it.
   legitimation: { values: [descent], source: kennedy-2004 }
 
 turning_points:
+  - year: 762
+    type: capital-move
+    name: "The founding of Baghdad"
+    changed: >-
+      An empty site was chosen for its rivers and for its distance from Kufa's
+      politics, and within fifty years it was probably the largest city west of
+      China. The caliphate's centre of gravity moved from Syria to Iraq and
+      never moved back, which is why every polity in this site's Iranian
+      Intermezzo holds its province from Baghdad rather than from Damascus.
+    source: kennedy-2004
+    contested: false
+  - year: 813
+    type: succession-crisis
+    name: "The siege of Baghdad"
+    changed: >-
+      Harun had divided the succession between two sons with the terms
+      deposited at the Ka'ba, and the empire's two halves fought it out with
+      their own provincial armies: Baghdad was besieged and sacked by Khurasani
+      troops and al-Amin killed. The capital's garrison was never trusted
+      again, and every later attempt to solve the army problem starts here.
+    source: el-hibri-2021
+    contested: false
+  - year: 833
+    type: reform
+    name: "The mihna"
+    changed: >-
+      The caliph claimed jurisdiction over a question of belief and required
+      the religious professionals to accept his answer. Fifteen years later the
+      policy was abandoned, and what had been settled was not the doctrine but
+      who was entitled to determine it: after the mihna the definition of Islam
+      belonged to the scholars, and the caliphate held a religious title with
+      the content taken out of it.
+    source: crone-hinds-1986
+    contested: false
   - year: 836
     type: capital-move
     name: "The move to Samarra"
