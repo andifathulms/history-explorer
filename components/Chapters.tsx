@@ -1,15 +1,20 @@
 import { compileMDX } from 'next-mdx-remote/rsc'
-import type { Chapter } from '@/lib/types'
+import { ASIDE, type Chapter } from '@/lib/types'
 import { citeShort, getSource } from '@/lib/content'
 import { SectionHead } from '@/components/Shell'
+import { Spine } from '@/components/Spine'
 
 /**
  * Chapters are free-form, 2 to 8 per polity, with titles the author wrote.
  *
- * The phase tag is optional on purpose: the template does not fit everyone.
- * The Ghurids barely had a golden age before Khwarazm ended them, and forcing a
- * peak chapter would mean writing something untrue. Where a tag is absent
- * nothing renders, rather than a placeholder.
+ * The phase tag does not force a template: the Ghurids barely had a golden age
+ * before Khwarazm ended them, and forcing a peak chapter would mean writing
+ * something untrue. Where a tag is absent nothing renders in its place.
+ *
+ * `aside` is the tag for a chapter that is not a stage of anything — a coinage,
+ * a treaty, a library, or the evidence itself. It is rendered differently from
+ * an arc phase because it is a different kind of claim: "peak" says when this
+ * chapter sits, "aside" says that the question does not apply.
  */
 
 const components = {
@@ -67,7 +72,18 @@ async function One({ chapter }: { chapter: Chapter }) {
           </>
         ) : null}
         {chapter.phase ? (
-          <span className="ms-3 rounded-full border border-kashi/20 px-2 py-0.5 font-mono text-micro uppercase not-italic">
+          <span
+            className={`ms-3 rounded-full px-2 py-0.5 font-mono text-micro uppercase not-italic ${
+              chapter.phase === ASIDE
+                ? 'border border-dashed border-kashi/25 text-debu-ink'
+                : 'border border-kashi/20'
+            }`}
+            title={
+              chapter.phase === ASIDE
+                ? 'Outside the arc: this chapter is about one object, document or institution rather than a stretch of the polity\u2019s existence.'
+                : undefined
+            }
+          >
             {chapter.phase}
           </span>
         ) : null}
@@ -93,12 +109,14 @@ export async function Chapters({ chapters }: { chapters: Chapter[] }) {
         Chapters
       </SectionHead>
 
-      {/* A contents list, because these pages run to eight chapters and a
-          reader who wants the peak should not have to scroll for it. The
-          phase tag is shown where there is one and nothing stands in for it
-          where there is not. */}
+      {/* The spine first: where these chapters sit in the polity's life, and
+          how much of it they cover. Then a contents list, because these pages
+          run to eight chapters and a reader who wants the peak should not have
+          to scroll for it. */}
+      <Spine chapters={chapters} />
+
       {chapters.length > 2 ? (
-        <nav aria-label="Chapters" className="-mt-1 mb-14">
+        <nav aria-label="Chapters" className="mt-10 mb-14">
           <ol className="grid gap-x-8 gap-y-1 sm:grid-cols-2">
             {chapters.map((c, i) => (
               <li key={c.slug} className="flex gap-3 border-b border-kashi/10 py-2">
@@ -120,7 +138,9 @@ export async function Chapters({ chapters }: { chapters: Chapter[] }) {
             ))}
           </ol>
         </nav>
-      ) : null}
+      ) : (
+        <div className="mb-14" />
+      )}
 
       {chapters.map((c) => (
         // Each chapter compiles independently, so one malformed file cannot

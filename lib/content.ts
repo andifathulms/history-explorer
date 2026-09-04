@@ -15,6 +15,8 @@ import path from 'node:path'
 import matter from 'gray-matter'
 import { parse as parseYaml } from 'yaml'
 import {
+  arcIndex,
+  CHAPTER_PHASES,
   EDGE_TYPES,
   END_TYPES,
   PHASES,
@@ -177,8 +179,12 @@ export function loadCorpus(): Corpus {
       }
       requireSource(data.drafted_from, chWhere)
       if (!data.title) throw new ContentError(chWhere, 'frontmatter is missing title')
-      if (data.phase != null && !PHASES.includes(data.phase)) {
-        throw new ContentError(chWhere, `phase "${data.phase}" is outside the closed vocabulary`)
+      if (data.phase != null && !CHAPTER_PHASES.includes(data.phase)) {
+        throw new ContentError(
+          chWhere,
+          `phase "${data.phase}" is outside the closed vocabulary ` +
+            `(${CHAPTER_PHASES.join(', ')})`,
+        )
       }
 
       return {
@@ -191,6 +197,31 @@ export function loadCorpus(): Corpus {
         body: content,
       }
     })
+
+    // The arc runs one way. A chapter tagged `formation` sitting after one
+    // tagged `end` is either a mistagging or a filing mistake, and both were
+    // present before this check: four polities read backwards, and the
+    // Byzantine page opened on contraction and then claimed a peak after it.
+    //
+    // Only arc phases are compared. Asides are unordered by definition and
+    // untagged chapters make no claim, so neither can break the sequence — a
+    // thematic chapter is free to sit anywhere its author wants it.
+    let highest = -1
+    let highestFrom = ''
+    for (const ch of list) {
+      const i = arcIndex(ch.phase)
+      if (i === null) continue
+      if (i < highest) {
+        throw new ContentError(
+          `polities/${id}/${ch.slug}.mdx`,
+          `phase "${ch.phase}" follows "${highestFrom}"; the arc (${PHASES.join(' → ')}) ` +
+            'does not run backwards. Retag the chapter, refile it, or mark it `aside` ' +
+            'if it stands outside the chronology.',
+        )
+      }
+      highest = i
+      highestFrom = ch.phase as string
+    }
 
     // PRD section 5 says 2-8 chapters. The floor is enforced because a
     // one-chapter page is what a batch import leaves behind, and it renders as

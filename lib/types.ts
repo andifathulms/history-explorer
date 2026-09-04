@@ -188,6 +188,14 @@ export function edgeParties(edge: Edge): { subject: PolityId; object: PolityId }
     : { subject: edge.to, object: edge.from }
 }
 
+/**
+ * The narrative arc, in order.
+ *
+ * A chapter carries one of these when it narrates a stretch of the polity's
+ * existence. The order is the whole point: it is what lets a page show where
+ * its chapters sit in the life of the thing, and what makes a chapter tagged
+ * `formation` after one tagged `end` a build error rather than a curiosity.
+ */
 export const PHASES = [
   'formation',
   'expansion',
@@ -198,6 +206,35 @@ export const PHASES = [
 ] as const
 export type Phase = (typeof PHASES)[number]
 
+/**
+ * Outside the arc.
+ *
+ * A large class of chapters here are not stages of anything: a coinage, a
+ * treaty, a library, a poem, the examination system, or the evidence itself
+ * and what it will not support. Before this value existed they were tagged
+ * `peak` because the vocabulary offered nothing better, which put fifteen
+ * polities on the site with two chapters both marked peak — a tag carrying no
+ * information at all, and in several cases a false chronological claim.
+ *
+ * The test is not the subject's importance but whether it advances the
+ * chronology. A chapter takes an arc phase when it narrates a stretch of the
+ * polity's existence; it takes `aside` when its subject is a single object,
+ * document, institution, or the record itself. An aside is never ordered and
+ * never stands in the spine.
+ */
+export const ASIDE = 'aside' as const
+
+/** Everything a chapter's `phase` frontmatter may say. */
+export const CHAPTER_PHASES = [...PHASES, ASIDE] as const
+export type ChapterPhase = (typeof CHAPTER_PHASES)[number]
+
+/** Position in the arc, or null for anything that does not stand in it. */
+export function arcIndex(phase: ChapterPhase | null | undefined): number | null {
+  if (phase == null || phase === ASIDE) return null
+  const i = PHASES.indexOf(phase)
+  return i === -1 ? null : i
+}
+
 export interface Chapter {
   polity: PolityId
   slug: string
@@ -205,7 +242,8 @@ export interface Chapter {
   title: string
   /** Required. Hard rule 4: a chapter without this does not render. */
   drafted_from: SourceId
-  phase: Phase | null
+  /** An arc phase, `aside`, or null where the author has not tagged it yet. */
+  phase: ChapterPhase | null
   body: string
 }
 
