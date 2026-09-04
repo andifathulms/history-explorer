@@ -139,6 +139,36 @@ export const EDGE_TYPES = [
 ] as const
 export type EdgeType = (typeof EDGE_TYPES)[number]
 
+/**
+ * Which end of an edge is the grammatical subject of its type.
+ *
+ * Edges are recorded predecessor -> successor: `to` is the later party and the
+ * one that acted, `from` the earlier one acted upon. Seven of the eight types
+ * are worded actively or relationally, so they read "to <type> from" — the
+ * Ghaznavids slave-general of the Samanids, the Tulunids seceded from the
+ * Abbasids. Checked against every type's own note.
+ *
+ * "conquered by" is the vocabulary's only passive phrasing, and passive voice
+ * puts the acted-upon first: "Saffarid Dynasty conquered by Samanid Empire".
+ * Rendering it like the others inverts the claim, which is what the Samanid
+ * page was doing — "900 conquered by Saffarid Dynasty" sat directly above a
+ * note saying Isma'il b. Ahmad defeated Amr b. al-Layth.
+ *
+ * This is a fact about English, not about the data, and it is recorded here so
+ * that adding a passive type cannot silently reverse fifteen claims. The
+ * vocabulary itself is untouched.
+ */
+export const EDGE_VOICE: Record<EdgeType, 'active' | 'passive'> = {
+  'seceded from': 'active',
+  overthrew: 'active',
+  'slave-general of': 'active',
+  'vassal of': 'active',
+  'absorbed remnants of': 'active',
+  'claimed legitimacy of': 'active',
+  'partitioned from': 'active',
+  'conquered by': 'passive',
+}
+
 export interface Edge {
   from: PolityId
   to: PolityId
@@ -149,6 +179,13 @@ export interface Edge {
   /** Where scholarship disagrees on the nature of a transition, both edges are
    *  recorded and both are marked contested rather than one being picked. */
   contested: boolean
+}
+
+/** Who does what to whom, in the order the type's wording requires. */
+export function edgeParties(edge: Edge): { subject: PolityId; object: PolityId } {
+  return EDGE_VOICE[edge.type] === 'passive'
+    ? { subject: edge.from, object: edge.to }
+    : { subject: edge.to, object: edge.from }
 }
 
 export const PHASES = [

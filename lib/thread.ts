@@ -12,14 +12,37 @@
 
 import type { Edge, Polity } from './types.ts'
 
-/** Pixels per year. Chosen so the whole 819-1231 span is a comfortable scroll. */
-export const PX_PER_YEAR = 3.2
+/**
+ * Pixels per year.
+ *
+ * 3.2 was chosen when the only thread ran 819-1231, where it makes a
+ * comfortable scroll. It is a ceiling now rather than a constant: East Asia
+ * spans 1,846 years and at 3.2 drew a chart ten screens tall holding six
+ * polities, which is not a time axis, it is an empty corridor with six doors
+ * off it.
+ *
+ * A thread is scoped to one region and is never laid beside another — hard
+ * rule 7 — so each may set its own density without any comparison being
+ * implied. Position still encodes date, because the mapping stays linear and
+ * the century ticks are drawn; only the constant differs.
+ */
+export const PX_PER_YEAR_MAX = 3.2
+export const PX_PER_YEAR_MIN = 0.85
+/** Band area a thread aims to occupy before the ceiling or floor takes over. */
+export const TARGET_BAND_PX = 1250
 export const TOP_PAD = 48
 export const BOTTOM_PAD = 64
+
+export function pxPerYear(span: number): number {
+  if (span <= 0) return PX_PER_YEAR_MAX
+  return Math.max(PX_PER_YEAR_MIN, Math.min(PX_PER_YEAR_MAX, TARGET_BAND_PX / span))
+}
 
 export interface ThreadScale {
   first: number
   last: number
+  /** Pixels per year for this thread. Varies by span; see pxPerYear. */
+  perYear: number
   height: number
   y: (year: number) => number
   /** Inverse, for hit-testing a scrub position back to a year. */
@@ -29,13 +52,15 @@ export interface ThreadScale {
 export function makeScale(polities: Polity[]): ThreadScale {
   const first = Math.min(...polities.map((p) => p.span.start.min))
   const last = Math.max(...polities.map((p) => p.span.end.max))
-  const y = (year: number) => TOP_PAD + (year - first) * PX_PER_YEAR
+  const perYear = pxPerYear(last - first)
+  const y = (year: number) => TOP_PAD + (year - first) * perYear
   return {
     first,
     last,
-    height: TOP_PAD + (last - first) * PX_PER_YEAR + BOTTOM_PAD,
+    perYear,
+    height: TOP_PAD + (last - first) * perYear + BOTTOM_PAD,
     y,
-    yearAt: (py: number) => first + (py - TOP_PAD) / PX_PER_YEAR,
+    yearAt: (py: number) => first + (py - TOP_PAD) / perYear,
   }
 }
 

@@ -1,8 +1,8 @@
 import Link from 'next/link'
 import { formatYear, formatRange } from '@/lib/years'
-import type { Edge, Polity } from '@/lib/types'
+import { edgeParties, type Edge, type Polity } from '@/lib/types'
 import { layoutBands, laneX, makeScale, centuryTicks } from '@/lib/thread'
-import { hasPage } from '@/lib/content'
+import { hasPage, displayName } from '@/lib/content'
 
 /**
  * The landing view's thread: 819 to 1231, drawn once.
@@ -27,6 +27,15 @@ export function Thread({
   const lanes = Math.max(...bands.map((b) => b.lane)) + 1
   const railX = 56
   const labelX = railX + lanes * 26 + 18
+  /**
+   * The viewBox used to be 720 wide against a container of about 1,176, so
+   * everything on this page was drawn and then scaled up by 1.63 — names set at
+   * 15px arrived at 24px, and the whole chart got a third taller than it was
+   * designed to be. Matching the viewBox to the real width means the type is the
+   * size it says it is, and it buys the room the edge labels needed.
+   */
+  const W = 1100
+  const edgeX = Math.max(620, labelX + 360)
 
   // Edge labels are placed at their own year, which puts two of them on top of
   // each other whenever a transition took a couple of years — 900 and 901 in the
@@ -49,18 +58,18 @@ export function Thread({
       <svg
         width="100%"
         height={scale.height}
-        viewBox={`0 0 720 ${scale.height}`}
+        viewBox={`0 0 ${W} ${scale.height}`}
         preserveAspectRatio="xMinYMin meet"
         role="img"
         aria-label={`The succession thread from ${scale.first} to ${scale.last}, ${polities.length} polities`}
-        className="min-w-[720px]"
+        className="min-w-[720px] max-w-[1100px]"
       >
         {/* Century marks. Quiet: they orient, they do not compete. */}
         {centuryTicks(scale).map((year) => (
           <g key={year} className="thread-tick">
             <line
               x1={railX - 8}
-              x2={700}
+              x2={W - 20}
               y1={scale.y(year)}
               y2={scale.y(year)}
               stroke="currentColor"
@@ -150,7 +159,11 @@ export function Thread({
                       {b.hasStartRange
                         ? formatRange(b.polity.span.start.min, b.polity.span.start.max)
                         : formatYear(b.polity.span.start.min)}
-                      {' – '}
+                      {/* An en-dash separator between two en-dashed ranges gave
+                          "861 – 901–1003", which reads as three numbers and says
+                          nothing. Where either end is contested the span gets a
+                          word instead. */}
+                      {b.hasStartRange || b.hasEndRange ? ' to ' : ' – '}
                       {b.hasEndRange
                         ? formatRange(b.polity.span.end.min, b.polity.span.end.max)
                         : formatYear(b.polity.span.end.min)}
@@ -184,21 +197,29 @@ export function Thread({
             {/* A leader back to the edge's true year, so a nudged label still
                 points at the date it belongs to. */}
             <line
-              x1={496}
-              x2={512}
+              x1={edgeX - 22}
+              x2={edgeX - 6}
               y1={scale.y(e.year as number)}
               y2={y - 4}
               stroke="currentColor"
               className="text-firuze/30"
               strokeWidth={1}
             />
-            <text x={518} y={y} className="fill-debu-paper text-[12px] italic">
-              <tspan className="font-mono not-italic tabular-nums">
+            {/* Both ends, named. "1055 · overthrew" states a type and leaves out
+                the causation, which is the one thing this section exists to
+                record. The edge types are written to slot between the two
+                names, so the label reads as the sentence it is. */}
+            <text x={edgeX} y={y} className="fill-debu-paper text-[12px]">
+              <tspan className="font-mono tabular-nums">
                 {formatYear(e.year as number)}
               </tspan>
-              {' · '}
-              {e.type}
-              {e.contested ? ' (contested)' : ''}
+              {'  '}
+              <tspan className="fill-kaghaz/80">{displayName(edgeParties(e).subject)}</tspan>
+              {' '}
+              <tspan className="italic">{e.type}</tspan>
+              {' '}
+              <tspan className="fill-kaghaz/80">{displayName(edgeParties(e).object)}</tspan>
+              {e.contested ? <tspan className="fill-debu-paper"> (contested)</tspan> : null}
             </text>
           </g>
         ))}

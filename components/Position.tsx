@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { formatYear } from '@/lib/years'
-import type { Edge } from '@/lib/types'
+import { edgeParties, type Edge } from '@/lib/types'
 import { displayName, hasPage } from '@/lib/content'
 import { SectionHead } from '@/components/Shell'
 
@@ -13,26 +13,50 @@ import { SectionHead } from '@/components/Shell'
  * hundred and seventy-five years between Ghazna making the Ghurids its client
  * and the Ghurids ending Ghazna.
  */
+/** One party in the sentence: linked where it has a page, plain where it does not. */
+function Party({ id, emphasise }: { id: string; emphasise: boolean }) {
+  const name = displayName(id)
+  if (!emphasise) return <span className="text-dawat/70">{name}</span>
+  return hasPage(id) ? (
+    <Link
+      href={`/polity/${id}/`}
+      className="link-underline font-semibold text-kashi hover:text-firuze-ink"
+    >
+      {name}
+    </Link>
+  ) : (
+    <span
+      className="font-semibold text-debu-ink"
+      title="No page: context polity or reference backdrop"
+    >
+      {name}
+    </span>
+  )
+}
+
+/**
+ * Both parties are named, in the order the edge type's wording requires.
+ *
+ * The row used to print the type and the other polity, leaving this page's
+ * polity as the implicit subject. That reads correctly for seven of the eight
+ * types and inverts the eighth: "900 conquered by Saffarid Dynasty" stood on
+ * the Samanid page directly above a note saying Isma'il b. Ahmad defeated Amr
+ * b. al-Layth at Balkh. Naming both ends costs a few words and cannot be read
+ * backwards.
+ */
 function EdgeRow({ edge, other }: { edge: Edge; other: string }) {
-  const name = displayName(other)
+  const { subject, object } = edgeParties(edge)
   return (
     <li className="border-t border-kashi/15 py-3 first:border-t-0">
       <p className="flex flex-wrap items-baseline gap-x-2">
         <span className="font-mono text-[14px] tabular-nums text-debu-ink">
           {edge.year == null ? '—' : formatYear(edge.year)}
         </span>
+        <Party id={subject} emphasise={subject === other} />
         <span className="italic text-kashi">{edge.type}</span>
-        {hasPage(other) ? (
-          <Link href={`/polity/${other}/`} className="font-semibold text-kashi hover:text-firuze-ink">
-            {name}
-          </Link>
-        ) : (
-          <span className="font-semibold text-debu-ink" title="No page: context polity or reference backdrop">
-            {name}
-          </span>
-        )}
+        <Party id={object} emphasise={object === other} />
         {edge.contested ? (
-          <span className="rounded-sm border border-debu/50 px-1.5 py-0.5 text-[12px] text-debu-ink">
+          <span className="rounded-full border border-debu/50 px-2 py-0.5 font-mono text-micro uppercase text-debu-ink">
             contested
           </span>
         ) : null}
