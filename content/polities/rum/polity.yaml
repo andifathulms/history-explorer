@@ -34,6 +34,37 @@ ended:
   year: 1308
   source: peacock-yildiz-2013
 
+institutions:
+  # Turkmen tribal contingents on the marches, and from the thirteenth century
+  # a paid standing force of ghulams and hired Frankish and Georgian troops
+  # around the sultan — the same divergence between a tribal following and a
+  # professional guard this site's Great Seljuk page describes in the trunk.
+  military_basis: { values: [tribal-levy, slave-soldier], source: peacock-yildiz-2013 }
+  # The plateau's agriculture, and deliberately acquired customs: Antalya on
+  # the Mediterranean and Sinop on the Black Sea were taken to hold both ends
+  # of a route, and the caravanserai network exists to make the middle of it
+  # safe.
+  revenue_basis: { values: [land-tax, trade-toll], source: peacock-yildiz-2013 }
+  succession_rule: null
+  # Descent from the Seljuk house — the branch that seceded and outlasted the
+  # trunk — asserted with Persian throne-names taken from the Shahnama, which
+  # is a claim on Iranian kingship made by Turks ruling Greeks.
+  legitimation: { values: [descent], source: peacock-yildiz-2013 }
+
+turning_points:
+  - year: 1243
+    type: battle
+    name: "Kosedag"
+    changed: >-
+      A Mongol army destroyed the Seljuk forces in a few hours and then did not
+      occupy Anatolia: it took tribute and left the dynasty at Konya as a
+      vassal for two more generations while Ilkhanid governors decided who sat
+      there. The marches filled with independent Turkmen beyliks the sultanate
+      could no longer restrain, one of which is where this site's Ottoman page
+      begins.
+    source: peacock-yildiz-2013
+    contested: false
+
 measures:
   reach_km2: null
   peak_population: null

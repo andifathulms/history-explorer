@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1258 claims across 86 sources.**
+**1265 claims across 86 sources.**
 
 ## Where to start
 
@@ -872,6 +872,32 @@ ordinary state, not an item to clear.
 - [ ] `polity/qara-khitai` — religions_carried = 0
 - [ ] `polity/qara-khitai` — ended by conquest in 1218
 
+## A. C. S. Peacock and Sara Nur Yildiz (eds), The Seljuks of Anatolia: Court and Society in the Medieval Middle East
+
+`peacock-yildiz-2013` — 19 claims
+
+**Sole source** for `rum` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/rum/01-anatolia.mdx` — prose: "A branch that outlasted the trunk"
+- [ ] `chapter/rum/02-kayqubad.mdx` — prose: "The forty years it worked"
+- [ ] `chapter/rum/03-the-caravanserais.mdx` — prose: "A day's march apart"
+- [ ] `chapter/rum/04-kosedag.mdx` — prose: "Kösedağ"
+- [ ] `chapter/rum/05-konya.mdx` — prose: "What was written at Konya"
+- [ ] `edge/great-seljuk->rum` — partitioned from in 1077
+- [ ] `edge/rum->ilkhanate` — vassal of in 1243
+- [ ] `polity/rum` — span starts 1077
+- [ ] `polity/rum` — span ends 1308
+- [ ] `polity/rum` — capital Konya from 1097
+- [ ] `polity/rum` — founder Suleyman ibn Qutalmish r. 1077-1086
+- [ ] `polity/rum` — peak Ala al-Din Kayqubad I r. 1220-1237
+- [ ] `polity/rum` — last Mesud II r. 1284-1308
+- [ ] `polity/rum` — military basis coded tribal-levy + slave-soldier
+- [ ] `polity/rum` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/rum` — legitimation coded descent
+- [ ] `polity/rum` — turning point 1243 Kosedag
+- [ ] `polity/rum` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/rum` — ended by gradual absorption in 1308
+
 ## Peter Jackson, The Delhi Sultanate: A Political and Military History
 
 `jackson-1999` — 18 claims
@@ -1314,25 +1340,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/ilkhanate` — turning point 1295 Ghazan's conversion to Islam
 - [ ] `polity/ilkhanate` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/ilkhanate` — ended by fragmentation in 1335
-
-## A. C. S. Peacock and Sara Nur Yildiz (eds), The Seljuks of Anatolia: Court and Society in the Medieval Middle East
-
-`peacock-yildiz-2013` — 12 claims
-
-**Sole source** for `rum` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/rum/01-anatolia.mdx` — prose: "A branch that outlasted the trunk"
-- [ ] `chapter/rum/02-the-caravanserais.mdx` — prose: "A day's march apart"
-- [ ] `edge/great-seljuk->rum` — partitioned from in 1077
-- [ ] `edge/rum->ilkhanate` — vassal of in 1243
-- [ ] `polity/rum` — span starts 1077
-- [ ] `polity/rum` — span ends 1308
-- [ ] `polity/rum` — capital Konya from 1097
-- [ ] `polity/rum` — founder Suleyman ibn Qutalmish r. 1077-1086
-- [ ] `polity/rum` — peak Ala al-Din Kayqubad I r. 1220-1237
-- [ ] `polity/rum` — last Mesud II r. 1284-1308
-- [ ] `polity/rum` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/rum` — ended by gradual absorption in 1308
 
 ## Paul Dresch, Tribes, Government, and History in Yemen
 
