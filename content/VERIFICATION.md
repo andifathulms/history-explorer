@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1051 claims across 80 sources.**
+**1064 claims across 80 sources.**
 
 ## Where to start
 
@@ -404,6 +404,44 @@ ordinary state, not an item to clear.
 - [ ] `polity/uyghur-khaganate` — religions_carried = 1 (Manichaeism)
 - [ ] `polity/uyghur-khaganate` — ended by conquest in 840
 
+## Farhad Daftary, The Isma'ilis: Their History and Doctrines
+
+`daftary-2007` — 31 claims
+
+**Sole source** for `nizari`, `qarmatian` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/nizari/01-alamut.mdx` — prose: "A state with no middle"
+- [ ] `chapter/nizari/02-the-qiyama.mdx` — prose: "The day the law was abolished"
+- [ ] `chapter/nizari/03-the-legend.mdx` — prose: "The garden that was not there"
+- [ ] `chapter/qarmatian/01-the-other-ismailis.mdx` — prose: "The Isma'ilis who said no to the Fatimids"
+- [ ] `chapter/qarmatian/02-the-black-stone.mdx` — prose: "Twenty-two years in al-Hasa"
+- [ ] `edge/fatimid->nizari` — partitioned from in 1094
+- [ ] `edge/great-seljuk->nizari` — seceded from in 1090
+- [ ] `edge/qarmatian->fatimid` — claimed legitimacy of in 909
+- [ ] `polity/nizari` — span starts 1090
+- [ ] `polity/nizari` — span ends 1256
+- [ ] `polity/nizari` — capital Alamut from 1090
+- [ ] `polity/nizari` — founder Hasan-i Sabbah r. 1090-1124
+- [ ] `polity/nizari` — peak Hasan II r. 1162-1166
+- [ ] `polity/nizari` — last Rukn al-Din Khurshah r. 1255-1256
+- [ ] `polity/nizari` — revenue basis coded land-tax
+- [ ] `polity/nizari` — succession rule coded nomination
+- [ ] `polity/nizari` — legitimation coded descent + divine-sanction
+- [ ] `polity/nizari` — turning point 1090 The seizure of Alamut
+- [ ] `polity/nizari` — turning point 1164 The qiyama
+- [ ] `polity/nizari` — religions_carried = 1 (Nizari Isma'ilism)
+- [ ] `polity/nizari` — ended by conquest in 1256
+- [ ] `polity/qarmatian` — span starts 899
+- [ ] `polity/qarmatian` — span ends 1058
+- [ ] `polity/qarmatian` — capital al-Hasa from 899
+- [ ] `polity/qarmatian` — founder Abu Sa'id al-Jannabi r. 899-913
+- [ ] `polity/qarmatian` — peak Abu Tahir al-Jannabi r. 923-944
+- [ ] `polity/qarmatian` — military basis coded tribal-levy
+- [ ] `polity/qarmatian` — revenue basis coded tribute
+- [ ] `polity/qarmatian` — legitimation coded divine-sanction
+- [ ] `polity/qarmatian` — turning point 930 The taking of the Black Stone
+- [ ] `polity/qarmatian` — ended by gradual absorption in 1077
+
 ## Rein Taagepera, Size and Duration of Empires: Growth-Decline Curves, 600 B.C. to 600 A.D.
 *In Social Science History 3(3/4), 115-138.*
 
@@ -667,31 +705,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/fatimid` — turning point 1099 The loss of Jerusalem
 - [ ] `polity/fatimid` — religions_carried = 1 (Isma'ili Shi'ism)
 - [ ] `polity/ikhshidid` — ended by conquest in 969
-
-## Farhad Daftary, The Isma'ilis: Their History and Doctrines
-
-`daftary-2007` — 18 claims
-
-**Sole source** for `nizari` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/nizari/01-alamut.mdx` — prose: "A state with no middle"
-- [ ] `chapter/nizari/02-the-qiyama.mdx` — prose: "The day the law was abolished"
-- [ ] `chapter/nizari/03-the-legend.mdx` — prose: "The garden that was not there"
-- [ ] `edge/fatimid->nizari` — partitioned from in 1094
-- [ ] `edge/great-seljuk->nizari` — seceded from in 1090
-- [ ] `polity/nizari` — span starts 1090
-- [ ] `polity/nizari` — span ends 1256
-- [ ] `polity/nizari` — capital Alamut from 1090
-- [ ] `polity/nizari` — founder Hasan-i Sabbah r. 1090-1124
-- [ ] `polity/nizari` — peak Hasan II r. 1162-1166
-- [ ] `polity/nizari` — last Rukn al-Din Khurshah r. 1255-1256
-- [ ] `polity/nizari` — revenue basis coded land-tax
-- [ ] `polity/nizari` — succession rule coded nomination
-- [ ] `polity/nizari` — legitimation coded descent + divine-sanction
-- [ ] `polity/nizari` — turning point 1090 The seizure of Alamut
-- [ ] `polity/nizari` — turning point 1164 The qiyama
-- [ ] `polity/nizari` — religions_carried = 1 (Nizari Isma'ilism)
-- [ ] `polity/nizari` — ended by conquest in 1256
 
 ## Colin Imber, The Ottoman Empire, 1300-1650: The Structure of Power
 

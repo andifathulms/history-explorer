@@ -1,0 +1,79 @@
+id: qarmatian
+region: arabia
+
+name:
+  latin: Qarmatian State of Bahrayn
+  script: القرامطة
+  script_lang: ar
+
+# 1058 is the loss of Bahrain island and 1077 the expulsion from al-Hasa by the
+# Uyunids, and the sources treat the state as ending somewhere between them.
+span:
+  start: { min: 899, max: 899, source: daftary-2007 }
+  end: { min: 1058, max: 1077, source: daftary-2007 }
+
+identity: >-
+  The Isma'ili state of eastern Arabia that rejected the Fatimid imamate, took
+  tribute from both caliphs while recognising neither, and held the Black Stone
+  of the Ka'ba for twenty-two years.
+
+capitals:
+  - { name: al-Hasa, script: الأحساء, from: 899, source: daftary-2007 }
+
+core_region: Eastern Arabia and the Gulf coast
+
+rulers:
+  founder: { name: Abu Sa'id al-Jannabi, reign: [899, 913], source: daftary-2007 }
+  peak: { name: Abu Tahir al-Jannabi, reign: [923, 944], source: daftary-2007 }
+  # After Abu Tahir the state was governed by a council rather than by a single
+  # ruler, which is a fact about the polity and not a gap in the sources: there
+  # was no last ruler to name.
+  last: null
+
+scripts_and_languages:
+  administration: [Arabic]
+  writing_system: Arabic
+
+ended:
+  type: gradual absorption
+  by: []
+  year: 1077
+  source: daftary-2007
+
+institutions:
+  military_basis: { values: [tribal-levy], source: daftary-2007 }
+  # The reported arrangement is unusual enough to be worth coding carefully.
+  # Residents of al-Hasa are described as untaxed; the state's income came from
+  # its own estates worked by slaves, from its mills, and from tribute
+  # extracted from the two caliphates it refused to recognise.
+  revenue_basis: { values: [tribute], source: daftary-2007 }
+  # Not nomination and not election as the vocabulary means them: after Abu
+  # Tahir authority sat with a council of notables. Coding rule 4 of part three
+  # applies — the answer is null rather than the nearest familiar label.
+  succession_rule: null
+  # The whole basis was the expected return of Muhammad ibn Isma'il, which is
+  # why they refused the Fatimid imam: an authority derived from a mahdi who
+  # had not yet come cannot be transferred to one who says he has.
+  legitimation: { values: [divine-sanction], source: daftary-2007 }
+
+turning_points:
+  - year: 930
+    type: siege
+    name: "The taking of the Black Stone"
+    changed: >-
+      Abu Tahir entered Mecca during the pilgrimage, killed pilgrims, and
+      carried the Black Stone away to al-Hasa, where it stayed for twenty-two
+      years. It was an argument as much as a raid — that the pilgrimage was
+      void and the age of the law had ended — and it cost the Isma'ili cause
+      more than it gained: the Fatimids, who were building a caliphate on the
+      same doctrinal family, spent the next century being blamed for it.
+    source: daftary-2007
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

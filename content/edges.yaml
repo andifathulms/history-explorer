@@ -910,3 +910,17 @@ edges:
            final ruler to Constantinople."
     source: abun-nasr-1987
     contested: false
+
+  # ---- The Isma'ili split at the moment of its first success ----
+
+  - from: qarmatian
+    to: fatimid
+    type: claimed legitimacy of
+    year: 909
+    note: "Abd Allah's declaration as mahdi in Ifriqiya was a claim on the
+           imamate the eastern Isma'ili communities had been taught to await,
+           and the Qarmatians of Bahrayn rejected it and kept waiting — the
+           edge runs this way because the Fatimids were claiming an authority
+           the older Qarmati mission already held in trust."
+    source: daftary-2007
+    contested: true
