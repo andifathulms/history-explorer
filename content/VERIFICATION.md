@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1479 claims across 88 sources.**
+**1481 claims across 88 sources.**
 
 ## Where to start
 
@@ -277,7 +277,7 @@ ordinary state, not an item to clear.
 
 ## Jamil M. Abun-Nasr, A History of the Maghrib in the Islamic Period
 
-`abun-nasr-1987` — 66 claims
+`abun-nasr-1987` — 68 claims
 
 **Sole source** for `hafsid`, `idrisid` — nothing else in the corpus can contradict a misreading here.
 
@@ -286,7 +286,8 @@ ordinary state, not an item to clear.
 - [ ] `chapter/aghlabid/03-sicily.mdx` — prose: "Seventy-five years for one island"
 - [ ] `chapter/hafsid/01-the-governor-who-stayed.mdx` — prose: "Keeping the province when the doctrine went"
 - [ ] `chapter/hafsid/02-a-caliph-in-tunis.mdx` — prose: "A caliph in Tunis, for about a year"
-- [ ] `chapter/hafsid/03-a-prize-in-someone-elses-war.mdx` — prose: "A prize in somebody else's war"
+- [ ] `chapter/hafsid/03-ibn-khaldun.mdx` — prose: "The man who wrote the theory of this website"
+- [ ] `chapter/hafsid/04-a-prize-in-someone-elses-war.mdx` — prose: "A prize in somebody else's war"
 - [ ] `chapter/idrisid/01-fez.mdx` — prose: "A fugitive founds a city"
 - [ ] `chapter/idrisid/02-fez.mdx` — prose: "Two banks of a river"
 - [ ] `chapter/idrisid/03-what-happened-to-the-pieces.mdx` — prose: "What happened to the pieces"
@@ -320,6 +321,7 @@ ordinary state, not an item to clear.
 - [ ] `polity/hafsid` — revenue basis coded trade-toll + plunder
 - [ ] `polity/hafsid` — legitimation coded descent + titulature
 - [ ] `polity/hafsid` — turning point 1259 The sharif of Mecca acknowledges a caliph in Tunis
+- [ ] `polity/hafsid` — turning point 1377 The Muqaddima
 - [ ] `polity/hafsid` — turning point 1535 Charles V takes Tunis
 - [ ] `polity/hafsid` — ended by conquest in 1574
 - [ ] `polity/idrisid` — span starts 788

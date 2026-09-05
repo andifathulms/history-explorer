@@ -64,6 +64,19 @@ turning_points:
       at all.
     source: abun-nasr-1987
     contested: false
+  - year: 1377
+    type: reform
+    name: "The Muqaddima"
+    changed: >-
+      A Hafsid official between employments wrote, in about five months, a
+      theory of why dynasties rise and fall: that the cohesion of groups living
+      hard lives on the margins lets them take settled states, and dissolves in
+      three or four generations of holding one. It changed nothing about the
+      Hafsid state and it is the most consequential thing produced under it —
+      and it is a description of the pattern every region of this site
+      documents.
+    source: abun-nasr-1987
+    contested: false
   - year: 1535
     type: siege
     name: "Charles V takes Tunis"
