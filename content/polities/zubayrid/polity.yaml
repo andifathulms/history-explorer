@@ -1,0 +1,92 @@
+id: zubayrid
+region: caliphates
+
+name:
+  latin: Zubayrid Caliphate
+  script: خلافة ابن الزبير
+  script_lang: ar
+
+# 680 is the refusal of the oath to Yazid, which is when the claim begins as a
+# refusal; 683 is the proclamation after Yazid's death, which is when it begins
+# as a caliphate. Both are defensible starts for different things.
+span:
+  start: { min: 680, max: 683, source: hawting-2000 }
+  end: { min: 692, max: 692, source: hawting-2000 }
+
+identity: >-
+  The caliphate proclaimed at Mecca after Yazid's death and recognised across
+  most of the Islamic world for the better part of a decade — the rival the
+  Umayyads beat, and therefore the one remembered as a rebellion.
+
+capitals:
+  - { name: Mecca, script: مكة, from: 683, to: 692, source: hawting-2000 }
+
+core_region: The Hijaz, with Iraq and Egypt for most of the 680s
+
+# All three are the same man. He had no predecessor in the office he claimed
+# and no successor in it, which is not a gap in the record but the shape of the
+# polity: it was one claimant's lifetime.
+rulers:
+  founder: { name: Abd Allah ibn al-Zubayr, reign: [683, 692], source: hawting-2000 }
+  peak: { name: Abd Allah ibn al-Zubayr, reign: [683, 692], source: hawting-2000 }
+  last: { name: Abd Allah ibn al-Zubayr, reign: [683, 692], source: hawting-2000 }
+
+scripts_and_languages:
+  administration: [Arabic]
+  writing_system: Arabic
+
+ended:
+  type: conquest
+  by: [umayyad]
+  year: 692
+  source: hawting-2000
+
+institutions:
+  military_basis: { values: [tribal-levy], source: hawting-2000 }
+  # Null. He held Iraq and Egypt through governors for most of the 680s and
+  # therefore their revenue, but no source read for this polity is cited on how
+  # the Zubayrid state financed itself, and inferring kharaj because it is the
+  # obvious answer is what coding rule 9 forbids.
+  revenue_basis: null
+  # Null, and not for want of sources: no succession occurred. The claim was
+  # that the office should be settled by consultation among Quraysh rather than
+  # inherited, which is a rule about how it *should* pass; the polity was
+  # destroyed before it passed at all.
+  succession_rule: null
+  legitimation: { values: [election, descent], source: hawting-2000 }
+
+turning_points:
+  - year: 683
+    type: siege
+    name: "The first siege of Mecca"
+    changed: >-
+      An Umayyad army besieged the sanctuary itself and the Ka'ba was wrecked
+      by bombardment during the fighting. Yazid died while it was in progress
+      and the besiegers went home, leaving a claimant in possession of the holy
+      city and the Umayyads holding the memory of having shelled it —
+      after which most of the Islamic world acknowledged Ibn al-Zubayr.
+    source: hawting-2000
+    contested: false
+  - year: 691
+    type: battle
+    name: "Maskin"
+    changed: >-
+      Abd al-Malik took Iraq and Mus'ab ibn al-Zubayr was killed, which reduced
+      a caliphate recognised from Egypt to Khurasan back to the city it had
+      started in. Everything after it is a siege.
+    source: hawting-2000
+    contested: false
+
+measures:
+  # Taagepera does not tabulate this polity. At its widest recognition it held
+  # more ground than several polities on this site that do carry a figure,
+  # which is a fact about what datasets record rather than about extent.
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    # Nobody claimed this caliphate's legitimacy afterwards, which is what
+    # happens to a claimant who is beaten and whose opponents write the account.
+    # Null rather than 0: no source read here was asked the question.
+    successor_claims: { count: null, items: [], source: null }

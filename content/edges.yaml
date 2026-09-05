@@ -865,3 +865,25 @@ edges:
            out of territory the sultans claimed and never recovered."
     source: daftary-2007
     contested: false
+
+  # ---- The rival nobody calls a caliphate ----
+
+  - from: umayyad
+    to: zubayrid
+    type: seceded from
+    year: 683
+    note: "Ibn al-Zubayr refused the oath to Yazid, held Mecca through the siege
+           of 683, and took the title amir al-mu'minin after Yazid died, taking
+           most of the empire's provinces into his obedience with him."
+    source: hawting-2000
+    contested: false
+
+  - from: zubayrid
+    to: umayyad
+    type: conquered by
+    year: 692
+    note: "Abd al-Malik took Iraq at Maskin in 691 and al-Hajjaj besieged Mecca
+           the following year, where Ibn al-Zubayr was killed fighting near the
+           sanctuary."
+    source: hawting-2000
+    contested: false

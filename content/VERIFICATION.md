@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1020 claims across 80 sources.**
+**1035 claims across 80 sources.**
 
 ## Where to start
 
@@ -268,6 +268,47 @@ ordinary state, not an item to clear.
 - [ ] `polity/yuan` — peak Kublai Khan r. 1271-1294
 - [ ] `polity/yuan` — last Toghon Temur r. 1333-1368
 - [ ] `polity/yuan` — descendant_scripts = 1 (Phags-pa script)
+
+## G. R. Hawting, The First Dynasty of Islam: The Umayyad Caliphate AD 661-750
+
+`hawting-2000` — 34 claims
+
+**Sole source** for `zubayrid` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/umayyad/01-muawiya.mdx` — prose: "Mu'awiya's arrangement"
+- [ ] `chapter/umayyad/02-karbala.mdx` — prose: "Karbala, and the war that remade the dynasty"
+- [ ] `chapter/umayyad/04-abd-al-malik.mdx` — prose: "What Abd al-Malik built"
+- [ ] `chapter/umayyad/08-khurasan.mdx` — prose: "The revolution came from Khurasan"
+- [ ] `chapter/zubayrid/01-the-refusal.mdx` — prose: "The man who would not swear"
+- [ ] `chapter/zubayrid/02-the-loser.mdx` — prose: "What the winners called it"
+- [ ] `edge/rashidun->umayyad` — claimed legitimacy of in 661
+- [ ] `edge/umayyad->abbasid` — overthrew in 750
+- [ ] `edge/umayyad->zubayrid` — seceded from in 683
+- [ ] `edge/zubayrid->umayyad` — conquered by in 692
+- [ ] `polity/umayyad` — span starts 661
+- [ ] `polity/umayyad` — span ends 750
+- [ ] `polity/umayyad` — capital Damascus from 661
+- [ ] `polity/umayyad` — capital Harran from 744
+- [ ] `polity/umayyad` — founder Mu'awiya ibn Abi Sufyan r. 661-680
+- [ ] `polity/umayyad` — peak Abd al-Malik ibn Marwan r. 685-705
+- [ ] `polity/umayyad` — last Marwan II r. 744-750
+- [ ] `polity/umayyad` — succession rule coded nomination
+- [ ] `polity/umayyad` — turning point 680 Karbala
+- [ ] `polity/umayyad` — turning point 684 Marj Rahit
+- [ ] `polity/umayyad` — turning point 696 The epigraphic dinar and the Arabic registers
+- [ ] `polity/umayyad` — religions_carried = 1 (Islam)
+- [ ] `polity/umayyad` — ended by dynastic replacement in 750
+- [ ] `polity/zubayrid` — span starts 680
+- [ ] `polity/zubayrid` — span ends 692
+- [ ] `polity/zubayrid` — capital Mecca from 683
+- [ ] `polity/zubayrid` — founder Abd Allah ibn al-Zubayr r. 683-692
+- [ ] `polity/zubayrid` — peak Abd Allah ibn al-Zubayr r. 683-692
+- [ ] `polity/zubayrid` — last Abd Allah ibn al-Zubayr r. 683-692
+- [ ] `polity/zubayrid` — military basis coded tribal-levy
+- [ ] `polity/zubayrid` — legitimation coded election + descent
+- [ ] `polity/zubayrid` — turning point 683 The first siege of Mecca
+- [ ] `polity/zubayrid` — turning point 691 Maskin
+- [ ] `polity/zubayrid` — ended by conquest in 692
 
 ## Jamil M. Abun-Nasr, A History of the Maghrib in the Islamic Period
 
@@ -587,30 +628,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/cordoba` — turning point 976 Hisham II's minority
 - [ ] `polity/cordoba` — turning point 1009 The fitna of al-Andalus
 - [ ] `polity/cordoba` — ended by fragmentation in 1031
-
-## G. R. Hawting, The First Dynasty of Islam: The Umayyad Caliphate AD 661-750
-
-`hawting-2000` — 19 claims
-
-- [ ] `chapter/umayyad/01-muawiya.mdx` — prose: "Mu'awiya's arrangement"
-- [ ] `chapter/umayyad/02-karbala.mdx` — prose: "Karbala, and the war that remade the dynasty"
-- [ ] `chapter/umayyad/04-abd-al-malik.mdx` — prose: "What Abd al-Malik built"
-- [ ] `chapter/umayyad/08-khurasan.mdx` — prose: "The revolution came from Khurasan"
-- [ ] `edge/rashidun->umayyad` — claimed legitimacy of in 661
-- [ ] `edge/umayyad->abbasid` — overthrew in 750
-- [ ] `polity/umayyad` — span starts 661
-- [ ] `polity/umayyad` — span ends 750
-- [ ] `polity/umayyad` — capital Damascus from 661
-- [ ] `polity/umayyad` — capital Harran from 744
-- [ ] `polity/umayyad` — founder Mu'awiya ibn Abi Sufyan r. 661-680
-- [ ] `polity/umayyad` — peak Abd al-Malik ibn Marwan r. 685-705
-- [ ] `polity/umayyad` — last Marwan II r. 744-750
-- [ ] `polity/umayyad` — succession rule coded nomination
-- [ ] `polity/umayyad` — turning point 680 Karbala
-- [ ] `polity/umayyad` — turning point 684 Marj Rahit
-- [ ] `polity/umayyad` — turning point 696 The epigraphic dinar and the Arabic registers
-- [ ] `polity/umayyad` — religions_carried = 1 (Islam)
-- [ ] `polity/umayyad` — ended by dynastic replacement in 750
 
 ## Michael Brett, The Fatimid Empire
 
