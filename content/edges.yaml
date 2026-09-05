@@ -935,3 +935,13 @@ edges:
            behalf."
     source: daftary-2007
     contested: false
+
+  - from: oman-imamate
+    to: abbasid
+    type: conquered by
+    year: 893
+    note: "A faction in the Ibadi civil war over the deposition of the imam
+           al-Salt invited in the Abbasid governor of Bahrayn, whose army took
+           Nizwa in 893 and killed the imam."
+    source: wilkinson-1987
+    contested: false

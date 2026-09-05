@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1096 claims across 81 sources.**
+**1111 claims across 82 sources.**
 
 ## Where to start
 
@@ -792,6 +792,29 @@ ordinary state, not an item to clear.
 - [ ] `polity/great-seljuk` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/great-seljuk` — successor_claims = 2 (Sultanate of Rum, khwarazmian)
 - [ ] `polity/great-seljuk` — ended by conquest in 1194
+
+## John C. Wilkinson, The Imamate Tradition of Oman
+*In Cambridge Middle East Library.*
+
+`wilkinson-1987` — 15 claims
+
+**Sole source** for `oman-imamate` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/oman-imamate/01-elected-and-removable.mdx` — prose: "Elected, and removable"
+- [ ] `chapter/oman-imamate/02-an-office-that-comes-back.mdx` — prose: "An office that comes back"
+- [ ] `edge/oman-imamate->abbasid` — conquered by in 893
+- [ ] `polity/oman-imamate` — span starts 750
+- [ ] `polity/oman-imamate` — span ends 893
+- [ ] `polity/oman-imamate` — capital Nizwa from 750
+- [ ] `polity/oman-imamate` — founder al-Julanda ibn Mas'ud r. 749-751
+- [ ] `polity/oman-imamate` — peak al-Salt ibn Malik
+- [ ] `polity/oman-imamate` — last Azzan ibn Tamim
+- [ ] `polity/oman-imamate` — military basis coded tribal-levy
+- [ ] `polity/oman-imamate` — succession rule coded election
+- [ ] `polity/oman-imamate` — legitimation coded election
+- [ ] `polity/oman-imamate` — turning point 751 The killing of al-Julanda
+- [ ] `polity/oman-imamate` — turning point 793 The imamate reconstituted
+- [ ] `polity/oman-imamate` — ended by conquest in 893
 
 ## C. E. Bosworth, SAMANIDS
 *In Encyclopaedia Iranica.*

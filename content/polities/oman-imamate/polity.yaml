@@ -1,0 +1,84 @@
+id: oman-imamate
+region: arabia
+
+name:
+  latin: Ibadi Imamate of Oman
+  script: الإمامة الإباضية في عمان
+  script_lang: ar
+
+# Two defensible starts and the site keeps both. 750 is al-Julanda's election,
+# which lasted about two years before an Abbasid force killed him; 793 is the
+# reconstitution that lasted a century. The end is firm: Nizwa fell in 893.
+span:
+  start: { min: 750, max: 793, source: wilkinson-1987 }
+  end: { min: 893, max: 893, source: wilkinson-1987 }
+
+identity: >-
+  The Ibadi imamate of the Omani interior, whose imam was elected on merit by
+  the scholars and could be deposed by them — the eastern counterpart of the
+  Rustamids, and the first of many times the same office was constituted in the
+  same mountains.
+
+capitals:
+  - { name: Nizwa, script: نزوى, from: 750, source: wilkinson-1987 }
+
+core_region: The Omani interior, behind the Hajar mountains
+
+rulers:
+  founder: { name: al-Julanda ibn Mas'ud, reign: [749, 751], source: wilkinson-1987 }
+  # Reigns omitted where this site has not transcribed the years.
+  peak: { name: al-Salt ibn Malik, source: wilkinson-1987 }
+  last: { name: Azzan ibn Tamim, source: wilkinson-1987 }
+
+scripts_and_languages:
+  administration: [Arabic]
+  writing_system: Arabic
+
+ended:
+  type: conquest
+  by: [abbasid]
+  year: 893
+  source: wilkinson-1987
+
+institutions:
+  military_basis: { values: [tribal-levy], source: wilkinson-1987 }
+  revenue_basis: null
+  # The same coding as the Rustamid Imamate on this site, and deliberately: the
+  # two are the western and eastern halves of the same Kharijite inheritance,
+  # and both held that the community's leader should be the most qualified
+  # Muslim regardless of descent, chosen by those competent to judge, and
+  # removable if he failed. Nothing else in the corpus is coded election for
+  # both fields.
+  succession_rule: { values: [election], source: wilkinson-1987 }
+  legitimation: { values: [election], source: wilkinson-1987 }
+
+turning_points:
+  - year: 751
+    type: battle
+    name: "The killing of al-Julanda"
+    changed: >-
+      An Abbasid expedition ended the first imamate after about two years and
+      killed the imam. What it did not end was the doctrine that an imamate
+      could be constituted wherever qualified men elected one — and the office
+      came back forty years later in the same mountains, which is the pattern
+      for the following eleven centuries.
+    source: wilkinson-1987
+    contested: false
+  - year: 793
+    type: revolt
+    name: "The imamate reconstituted"
+    changed: >-
+      Abbasid governors were expelled and an imam elected again, this time
+      lasting a century. It established the working arrangement of the Omani
+      interior: an elected imamate at Nizwa behind the mountains, and whoever
+      held the coast trading with whoever would trade.
+    source: wilkinson-1987
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
