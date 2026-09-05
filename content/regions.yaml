@@ -133,6 +133,17 @@ regions:
       Media, and the argument that any of them was an empire at all.
     thread: true
 
+  - id: arabia
+    name: The Arabian Peninsula
+    blurb: >-
+      The peninsula the caliphate came out of and then largely stopped
+      governing. Once the centre moved to Damascus and Baghdad, Yemen, Oman and
+      the eastern coast were held for centuries at a time by Zaydi, Ibadi and
+      Isma'ili polities that the imperial armies could reach and could not
+      keep — mountain and desert country where an imamate elected on merit
+      outlasted every dynasty that came to collect its taxes.
+    thread: false
+
   - id: classical-india
     name: Classical India
     blurb: >-
