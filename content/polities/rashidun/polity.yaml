@@ -35,6 +35,17 @@ ended:
   year: 661
   source: madelung-1997
 
+# No banner block. The Rashidun caliphate is the case the whole field was
+# designed around: the demand for a flag is strongest here and the evidence is
+# weakest. Iranica records that the Ash'ari tribe possessed a small banner said
+# to be inherited from the Prophet, two streamers, one black with a red crescent
+# and one white — but that is a tribe's relic, not a state's standard, and the
+# caliphate is not what it stood for. The green "Rashidun Flag" in wide
+# circulation online traces to a Reddit post and contradicts the tradition it
+# claims to follow. Rendering a gap here is the accurate answer, not a pending
+# one.
+banner: null
+
 institutions:
   # Raised through tribal contingents that Medina directed rather than created —
   # the ridda demonstrated the capability and the conquests used it. The diwan

@@ -42,6 +42,13 @@ ended:
   year: 1517
   source: banister-2021
 
+# No banner block. Iranica describes the black standard of the caliphs at
+# Baghdad and says nothing of the line the Mamluks kept at Cairo, and inheriting
+# the black from Baghdad is exactly the sort of inference this file may not make:
+# whether the Cairo Abbasids carried the colour of an office they held without
+# ruling is a real question, and nobody in sources.yaml answers it.
+banner: null
+
 institutions:
   # Null is the answer and it is not a gap in the sources. This polity had no
   # army. Coding rule 5 asks how the fighting force was raised, and there was

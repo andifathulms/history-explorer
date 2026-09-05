@@ -35,6 +35,24 @@ ended:
   year: 1171
   source: humphreys-1977
 
+banner:
+  description: >-
+    Green, and chosen as a refusal. Iranica puts the Fatimid adoption of green
+    under the heading of opposition to Abbasid rule expressed by discarding
+    black — the same movement that had Alid rebels in Persia raising white. For a
+    caliphate whose whole claim was that the office in Baghdad was held by
+    usurpers, the colour was an argument, not a decoration.
+  source: iranica-flags
+  attested:
+    - colour: green
+      source: iranica-flags
+      reported_from: "Sarre, p. 361f."
+  # The green flags on Wikimedia Commons for this polity sit in that project's
+  # own category for fictional flags awaiting deletion, and one invents a
+  # swallowtail. The cited colour renders as a band instead; see
+  # content/flag-credits.yaml.
+  image: null
+
 institutions:
   # Kutama Berber tribal contingents raised by the da'wa took Ifriqiya and then
   # Egypt; from the eleventh century the army was Turkish and Sudanese

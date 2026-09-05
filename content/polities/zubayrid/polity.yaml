@@ -41,6 +41,11 @@ ended:
   year: 692
   source: hawting-2000
 
+# No banner block, and no prospect of one. Nine years, a rival caliphate at
+# Mecca, and nothing in the cited literature about what it raised in the field.
+# Nothing on Wikimedia Commons either. See the note in content/flag-credits.yaml.
+banner: null
+
 institutions:
   military_basis: { values: [tribal-levy], source: hawting-2000 }
   # Null. He held Iraq and Egypt through governors for most of the 680s and

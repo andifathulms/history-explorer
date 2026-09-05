@@ -35,6 +35,34 @@ ended:
   year: 1258
   source: bosworth-1996
 
+banner:
+  # The one polity in this region with both a cited description and a drawing
+  # anyone can defend. Everything else here is a colour and a sentence.
+  description: >-
+    The imperial standard of the Abbasid caliphs was black, carrying the legend
+    "Muhammad is the Apostle of God" in white. Black was the revolution's colour
+    before it was the dynasty's: Abu Muslim raised two great banners in Khurasan,
+    one black and one white inscribed with Qur'an 22:39. It then stayed the
+    state's for five centuries, and did real administrative work — client rulers
+    received a black banner from Baghdad as their sign of legitimacy and carried
+    it beside their own dynastic standards, and opposition to Abbasid rule was
+    expressed by discarding black. When al-Ma'mun named Ali al-Rida his heir he
+    adopted green, the Alid colour, for his banners and his dress; he was accused
+    of following Persian custom, and reverted to the official black.
+  source: iranica-flags
+  attested:
+    - colour: black
+      source: iranica-flags
+      reported_from: "Margoliouth and Amedroz, Eclipse I, p. 199"
+  image:
+    file: abbasid.svg
+    status: reconstruction
+    credit: abbasid-caliphal-banner
+    divergence: >-
+      Iranica gives the legend in white; this drawing renders it gilded, after
+      Nicolle. No Abbasid standard survives to settle the difference, which is
+      the whole reason the label says reconstruction.
+
 institutions:
   # Two arrangements, and the change between them is the polity's central
   # story. The revolution's Khurasani army was paid, permanent and commanded

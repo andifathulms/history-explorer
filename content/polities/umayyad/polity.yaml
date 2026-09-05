@@ -35,6 +35,25 @@ ended:
   year: 750
   source: hawting-2000
 
+banner:
+  # Two colours, two chroniclers, no reconciliation. Hard rule 2 in a field that
+  # is not a number: picking one would be inventing the agreement.
+  description: >-
+    White — though the report is not unanimous. Tabari gives the Umayyad banners
+    as white; Bal'ami says they were green. The white matters mostly for what was
+    raised against it: the Abbasid revolution defined itself in black, and the
+    opposition of the two colours outlived both houses, hardening much later into
+    black for Sunni and white for Shi'i Islam.
+  source: iranica-flags
+  attested:
+    - colour: white
+      source: iranica-flags
+      reported_from: "Tabari II, p. 1921"
+    - colour: green
+      source: iranica-flags
+      reported_from: "Bal'ami, ed. Rowshan, II, p. 1024"
+  image: null
+
 institutions:
   military_basis: { values: [tribal-levy], source: kennedy-2004 }
   # Plunder is coded here on Blankinship's argument that conquest income was

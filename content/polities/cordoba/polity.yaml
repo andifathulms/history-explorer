@@ -34,6 +34,13 @@ ended:
   year: 1031
   source: kennedy-1996
 
+# No banner block. The one image in circulation — a green field with a white
+# eagle, described as the caliphal standard of Abd al-Rahman III — is sourced on
+# Commons to a WordPress blog, and Iranica's survey of Islamic banners does not
+# reach al-Andalus. A caliphate this well documented having no cited banner is
+# not an oversight in the record; it is the ordinary state of the question.
+banner: null
+
 institutions:
   # Deliberately not an Arab tribal levy: saqaliba slaves of European origin
   # and Berber contingents brought from the Maghreb, paid from the treasury.
