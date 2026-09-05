@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1632 claims across 89 sources.**
+**1638 claims across 89 sources.**
 
 ## Where to start
 
@@ -520,6 +520,63 @@ ordinary state, not an item to clear.
 - [ ] `reference/uyghur-khaganate` — reach 3,100,000 km2 at 800
 - [ ] `reference/yuan` — reach 11,000,000 km2 at 1310
 
+## Carl F. Petry (ed.), The Cambridge History of Egypt, Volume 1: Islamic Egypt 640-1517
+
+`petry-1998` — 50 claims
+
+**Sole source** for `mamluk-sultanate`, `tulunid` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/ikhshidid/01-holding-on.mdx` — prose: "Holding the Hijaz"
+- [ ] `chapter/ikhshidid/02-kafur.mdx` — prose: "Kafur"
+- [ ] `chapter/mamluk-sultanate/01-ayn-jalut.mdx` — prose: "Ayn Jalut"
+- [ ] `chapter/mamluk-sultanate/02-a-state-of-slaves.mdx` — prose: "A state that would not become a dynasty"
+- [ ] `chapter/tulunid/01-ibn-tulun.mdx` — prose: "The governor who stopped remitting"
+- [ ] `chapter/tulunid/02-the-army-and-the-quarrel.mdx` — prose: "The army, and the quarrel"
+- [ ] `chapter/tulunid/03-the-most-expensive-wedding.mdx` — prose: "The most expensive wedding of the ninth century"
+- [ ] `chapter/tulunid/04-the-mosque.mdx` — prose: "Building where the money stayed"
+- [ ] `chapter/tulunid/05-905.mdx` — prose: "What was left of the quarter"
+- [ ] `edge/abbasid->tulunid` — seceded from in 868
+- [ ] `edge/ayyubid->mamluk-sultanate` — overthrew in 1250
+- [ ] `edge/cilician-armenia->mamluk-sultanate` — conquered by in 1375
+- [ ] `edge/tulunid->ikhshidid` — absorbed remnants of in 935
+- [ ] `polity/ayyubid` — ended by internal usurpation in 1250
+- [ ] `polity/cilician-armenia` — span ends 1375
+- [ ] `polity/cilician-armenia` — last Levon V r. 1374-1375
+- [ ] `polity/cilician-armenia` — turning point 1266 Mari
+- [ ] `polity/cilician-armenia` — ended by conquest in 1375
+- [ ] `polity/ikhshidid` — span starts 935
+- [ ] `polity/ikhshidid` — span ends 969
+- [ ] `polity/ikhshidid` — capital Fustat from 935
+- [ ] `polity/ikhshidid` — founder Muhammad ibn Tughj al-Ikhshid r. 935-946
+- [ ] `polity/ikhshidid` — peak Muhammad ibn Tughj al-Ikhshid r. 935-946
+- [ ] `polity/ikhshidid` — last Abu al-Fawaris Ahmad r. 968-969
+- [ ] `polity/ikhshidid` — military basis coded slave-soldier
+- [ ] `polity/ikhshidid` — revenue basis coded land-tax
+- [ ] `polity/ikhshidid` — legitimation coded caliphal-investiture
+- [ ] `polity/mamluk-sultanate` — span starts 1250
+- [ ] `polity/mamluk-sultanate` — span ends 1517
+- [ ] `polity/mamluk-sultanate` — capital Cairo from 1250
+- [ ] `polity/mamluk-sultanate` — founder Aybak r. 1250-1257
+- [ ] `polity/mamluk-sultanate` — peak Baybars r. 1260-1277
+- [ ] `polity/mamluk-sultanate` — last Tuman Bay II r. 1516-1517
+- [ ] `polity/mamluk-sultanate` — military basis coded slave-soldier
+- [ ] `polity/mamluk-sultanate` — succession rule coded factional
+- [ ] `polity/mamluk-sultanate` — turning point 1260 Ayn Jalut
+- [ ] `polity/mamluk-sultanate` — ended by conquest in 1517
+- [ ] `polity/tulunid` — span starts 868
+- [ ] `polity/tulunid` — span ends 905
+- [ ] `polity/tulunid` — capital Fustat from 868
+- [ ] `polity/tulunid` — founder Ahmad ibn Tulun r. 868-884
+- [ ] `polity/tulunid` — peak Ahmad ibn Tulun r. 868-884
+- [ ] `polity/tulunid` — last Shayban ibn Ahmad r. 905-905
+- [ ] `polity/tulunid` — military basis coded slave-soldier
+- [ ] `polity/tulunid` — revenue basis coded land-tax
+- [ ] `polity/tulunid` — succession rule coded nomination
+- [ ] `polity/tulunid` — legitimation coded caliphal-investiture
+- [ ] `polity/tulunid` — turning point 882 The jurists at Damascus
+- [ ] `polity/tulunid` — turning point 905 Al-Qata'i burned
+- [ ] `polity/tulunid` — ended by conquest in 905
+
 ## Farhad Daftary, The Isma'ilis: Their History and Doctrines
 
 `daftary-2007` — 49 claims
@@ -625,57 +682,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/ziyarid` — legitimation coded titulature
 - [ ] `polity/ziyarid` — turning point 935 Mardavij killed in his bath
 - [ ] `polity/ziyarid` — turning point 1012 The army deposes Qabus
-
-## Carl F. Petry (ed.), The Cambridge History of Egypt, Volume 1: Islamic Egypt 640-1517
-
-`petry-1998` — 44 claims
-
-**Sole source** for `mamluk-sultanate`, `tulunid` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/ikhshidid/01-holding-on.mdx` — prose: "Holding the Hijaz"
-- [ ] `chapter/ikhshidid/02-kafur.mdx` — prose: "Kafur"
-- [ ] `chapter/mamluk-sultanate/01-ayn-jalut.mdx` — prose: "Ayn Jalut"
-- [ ] `chapter/mamluk-sultanate/02-a-state-of-slaves.mdx` — prose: "A state that would not become a dynasty"
-- [ ] `chapter/tulunid/01-ibn-tulun.mdx` — prose: "The governor who stopped remitting"
-- [ ] `chapter/tulunid/02-the-mosque.mdx` — prose: "Building where the money stayed"
-- [ ] `edge/abbasid->tulunid` — seceded from in 868
-- [ ] `edge/ayyubid->mamluk-sultanate` — overthrew in 1250
-- [ ] `edge/cilician-armenia->mamluk-sultanate` — conquered by in 1375
-- [ ] `edge/tulunid->ikhshidid` — absorbed remnants of in 935
-- [ ] `polity/ayyubid` — ended by internal usurpation in 1250
-- [ ] `polity/cilician-armenia` — span ends 1375
-- [ ] `polity/cilician-armenia` — last Levon V r. 1374-1375
-- [ ] `polity/cilician-armenia` — turning point 1266 Mari
-- [ ] `polity/cilician-armenia` — ended by conquest in 1375
-- [ ] `polity/ikhshidid` — span starts 935
-- [ ] `polity/ikhshidid` — span ends 969
-- [ ] `polity/ikhshidid` — capital Fustat from 935
-- [ ] `polity/ikhshidid` — founder Muhammad ibn Tughj al-Ikhshid r. 935-946
-- [ ] `polity/ikhshidid` — peak Muhammad ibn Tughj al-Ikhshid r. 935-946
-- [ ] `polity/ikhshidid` — last Abu al-Fawaris Ahmad r. 968-969
-- [ ] `polity/ikhshidid` — military basis coded slave-soldier
-- [ ] `polity/ikhshidid` — revenue basis coded land-tax
-- [ ] `polity/ikhshidid` — legitimation coded caliphal-investiture
-- [ ] `polity/mamluk-sultanate` — span starts 1250
-- [ ] `polity/mamluk-sultanate` — span ends 1517
-- [ ] `polity/mamluk-sultanate` — capital Cairo from 1250
-- [ ] `polity/mamluk-sultanate` — founder Aybak r. 1250-1257
-- [ ] `polity/mamluk-sultanate` — peak Baybars r. 1260-1277
-- [ ] `polity/mamluk-sultanate` — last Tuman Bay II r. 1516-1517
-- [ ] `polity/mamluk-sultanate` — military basis coded slave-soldier
-- [ ] `polity/mamluk-sultanate` — succession rule coded factional
-- [ ] `polity/mamluk-sultanate` — turning point 1260 Ayn Jalut
-- [ ] `polity/mamluk-sultanate` — ended by conquest in 1517
-- [ ] `polity/tulunid` — span starts 868
-- [ ] `polity/tulunid` — span ends 905
-- [ ] `polity/tulunid` — capital Fustat from 868
-- [ ] `polity/tulunid` — founder Ahmad ibn Tulun r. 868-884
-- [ ] `polity/tulunid` — peak Ahmad ibn Tulun r. 868-884
-- [ ] `polity/tulunid` — last Shayban ibn Ahmad r. 905-905
-- [ ] `polity/tulunid` — military basis coded slave-soldier
-- [ ] `polity/tulunid` — revenue basis coded land-tax
-- [ ] `polity/tulunid` — legitimation coded caliphal-investiture
-- [ ] `polity/tulunid` — ended by conquest in 905
 
 ## Hugh Kennedy, Muslim Spain and Portugal: A Political History of al-Andalus
 

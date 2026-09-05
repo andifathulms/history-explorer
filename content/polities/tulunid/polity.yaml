@@ -37,8 +37,32 @@ ended:
 institutions:
   military_basis: { values: [slave-soldier], source: petry-1998 }
   revenue_basis: { values: [land-tax], source: petry-1998 }
-  succession_rule: null
+  succession_rule: { values: [nomination], source: petry-1998 }
   legitimation: { values: [caliphal-investiture], source: petry-1998 }
+
+turning_points:
+  - year: 882
+    type: revolt
+    name: "The jurists at Damascus"
+    changed: >-
+      Ibn Tulun had assembled jurists declare the caliph's brother and regent
+      deposed from the succession, and offered the caliph refuge in Egypt from
+      him. Neither party could reach the other. It is the moment a provincial
+      governor with an army and a tax base could argue with the caliphate as an
+      equal, in the caliphate's own legal vocabulary, and nothing followed.
+    source: petry-1998
+    contested: false
+  - year: 905
+    type: siege
+    name: "Al-Qata'i burned"
+    changed: >-
+      The Abbasid army that retook Egypt systematically destroyed the
+      administrative quarter — palaces, barracks, offices — and deliberately
+      left the mosque standing. What Baghdad objected to was never the Friday
+      prayer, in which the caliph had always been named, but a provincial
+      capital, an army and a treasury that did not remit.
+    source: petry-1998
+    contested: false
 
 measures:
   # No cited km2 for this polity in the works consulted; Taagepera does not
