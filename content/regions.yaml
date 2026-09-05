@@ -138,8 +138,9 @@ regions:
   - id: ancient-near-east
     name: The Ancient Near East
     blurb: >-
-      The first territorial empires: Akkad, Egypt's New Kingdom, Assyria and
-      Media, and the argument that any of them was an empire at all.
+      The first territorial empires: Akkad, Egypt's New Kingdom, Mitanni,
+      Assyria and Media, and the argument that any of them was an empire at
+      all.
     thread: true
 
   - id: arabia

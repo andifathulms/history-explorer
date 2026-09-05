@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1834 claims across 99 sources.**
+**1851 claims across 100 sources.**
 
 ## Where to start
 
@@ -766,6 +766,51 @@ ordinary state, not an item to clear.
 - [ ] `polity/ziyarid` — turning point 935 Mardavij killed in his bath
 - [ ] `polity/ziyarid` — turning point 1012 The army deposes Qabus
 
+## Marc Van De Mieroop, A History of the Ancient Near East, ca. 3000-323 BC
+
+`van-de-mieroop-2015` — 40 claims
+
+- [ ] `chapter/akkadian/01-akkadian.mdx` — prose: "The first, conventionally"
+- [ ] `chapter/akkadian/02-a-capital-nobody-can-find.mdx` — prose: "A capital nobody can find"
+- [ ] `chapter/median/01-median.mdx` — prose: "An empire, possibly"
+- [ ] `chapter/mitanni/02-the-empire.mdx` — prose: "From the sea to the mountains"
+- [ ] `chapter/mitanni/03-my-brother.mdx` — prose: "My brother"
+- [ ] `chapter/mitanni/04-an-empire-with-no-archive.mdx` — prose: "An empire with no archive"
+- [ ] `chapter/mitanni/06-suppiluliuma.mdx` — prose: "Taken apart twice"
+- [ ] `chapter/neo-assyrian/01-neo-assyrian.mdx` — prose: "The machinery of empire"
+- [ ] `chapter/neo-assyrian/02-the-library.mdx` — prose: "Ashurbanipal's library"
+- [ ] `edge/neo-assyrian->median` — overthrew in -612
+- [ ] `polity/akkadian` — span starts -2334
+- [ ] `polity/akkadian` — span ends -2154
+- [ ] `polity/akkadian` — capital Akkad from -2334
+- [ ] `polity/akkadian` — founder Sargon of Akkad r. -2334--2279
+- [ ] `polity/akkadian` — peak Naram-Sin r. -2254--2218
+- [ ] `polity/akkadian` — last Shu-turul r. -2168--2154
+- [ ] `polity/akkadian` — ended by fragmentation in -2154
+- [ ] `polity/median` — span starts -678
+- [ ] `polity/median` — span ends -549
+- [ ] `polity/median` — capital Ecbatana from -678
+- [ ] `polity/median` — founder Deioces r. -700--647
+- [ ] `polity/median` — peak Cyaxares r. -625--585
+- [ ] `polity/median` — last Astyages r. -585--549
+- [ ] `polity/mitanni` — span starts -1550
+- [ ] `polity/mitanni` — span ends -1340
+- [ ] `polity/mitanni` — capital Washukanni
+- [ ] `polity/mitanni` — founder Kirta
+- [ ] `polity/mitanni` — peak Saushtatar
+- [ ] `polity/mitanni` — last Shattiwaza
+- [ ] `polity/mitanni` — turning point -1465 The sack of Assur
+- [ ] `polity/mitanni` — turning point -1380 The Egyptian marriage
+- [ ] `polity/mitanni` — turning point -1340 The Shattiwaza treaty
+- [ ] `polity/mitanni` — ended by conquest in -1260
+- [ ] `polity/neo-assyrian` — span starts -911
+- [ ] `polity/neo-assyrian` — span ends -609
+- [ ] `polity/neo-assyrian` — capital Nineveh from -911
+- [ ] `polity/neo-assyrian` — founder Adad-nirari II r. -911--891
+- [ ] `polity/neo-assyrian` — peak Ashurbanipal r. -669--631
+- [ ] `polity/neo-assyrian` — last Ashur-uballit II r. -612--609
+- [ ] `polity/neo-assyrian` — ended by conquest in -609
+
 ## Hugh Kennedy, Muslim Spain and Portugal: A Political History of al-Andalus
 
 `kennedy-1996` — 39 claims
@@ -1168,37 +1213,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/maurya` — last Brihadratha r. -187--185
 - [ ] `polity/maurya` — religions_carried = 1 (Buddhism)
 - [ ] `polity/maurya` — ended by internal usurpation in -185
-
-## Marc Van De Mieroop, A History of the Ancient Near East, ca. 3000-323 BC
-
-`van-de-mieroop-2015` — 26 claims
-
-- [ ] `chapter/akkadian/01-akkadian.mdx` — prose: "The first, conventionally"
-- [ ] `chapter/akkadian/02-a-capital-nobody-can-find.mdx` — prose: "A capital nobody can find"
-- [ ] `chapter/median/01-median.mdx` — prose: "An empire, possibly"
-- [ ] `chapter/neo-assyrian/01-neo-assyrian.mdx` — prose: "The machinery of empire"
-- [ ] `chapter/neo-assyrian/02-the-library.mdx` — prose: "Ashurbanipal's library"
-- [ ] `edge/neo-assyrian->median` — overthrew in -612
-- [ ] `polity/akkadian` — span starts -2334
-- [ ] `polity/akkadian` — span ends -2154
-- [ ] `polity/akkadian` — capital Akkad from -2334
-- [ ] `polity/akkadian` — founder Sargon of Akkad r. -2334--2279
-- [ ] `polity/akkadian` — peak Naram-Sin r. -2254--2218
-- [ ] `polity/akkadian` — last Shu-turul r. -2168--2154
-- [ ] `polity/akkadian` — ended by fragmentation in -2154
-- [ ] `polity/median` — span starts -678
-- [ ] `polity/median` — span ends -549
-- [ ] `polity/median` — capital Ecbatana from -678
-- [ ] `polity/median` — founder Deioces r. -700--647
-- [ ] `polity/median` — peak Cyaxares r. -625--585
-- [ ] `polity/median` — last Astyages r. -585--549
-- [ ] `polity/neo-assyrian` — span starts -911
-- [ ] `polity/neo-assyrian` — span ends -609
-- [ ] `polity/neo-assyrian` — capital Nineveh from -911
-- [ ] `polity/neo-assyrian` — founder Adad-nirari II r. -911--891
-- [ ] `polity/neo-assyrian` — peak Ashurbanipal r. -669--631
-- [ ] `polity/neo-assyrian` — last Ashur-uballit II r. -612--609
-- [ ] `polity/neo-assyrian` — ended by conquest in -609
 
 ## Colin Imber, The Ottoman Empire, 1300-1650: The Structure of Power
 
@@ -2346,6 +2360,15 @@ ordinary state, not an item to clear.
 - [ ] `chapter/byzantine/02-the-name.mdx` — prose: "Nobody there called it Byzantium"
 - [ ] `polity/byzantine` — descendant_scripts = 1 (Cyrillic)
 - [ ] `polity/byzantine` — religions_carried = 1 (Orthodox Christianity)
+
+## Gernot Wilhelm, trans. Jennifer Barnes, The Hurrians
+*In Ancient Near East Series.*
+
+`wilhelm-1989` — 3 claims
+
+- [ ] `chapter/mitanni/01-the-hurrians.mdx` — prose: "Four names for one country"
+- [ ] `chapter/mitanni/05-the-gods-in-the-treaty.mdx` — prose: "The gods in the treaty"
+- [ ] `polity/mitanni` — military basis coded land-grant
 
 ## Denis Twitchett (ed.), The Cambridge History of China, Volume 3: Sui and T'ang China, 589-906, Part 1
 

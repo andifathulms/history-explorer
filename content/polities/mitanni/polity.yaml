@@ -1,0 +1,119 @@
+id: mitanni
+region: ancient-near-east
+
+name:
+  latin: Mitanni
+  # Cuneiform on clay, in Hurrian and Akkadian. The site does not put a
+  # cuneiform string here because the kingdom's own name for itself is not
+  # securely established: Egypt called it Naharin, Assyria called it Hanigalbat,
+  # Hatti called it the land of Hurri, and "Mittani" is the form that appears in
+  # documents from the kingdom's own orbit. Four neighbours, four names.
+  script: null
+  script_lang: null
+
+# All dates here follow the conventional Middle Chronology and are approximate
+# in a way the rest of this corpus's dates are not. The kingdom emerges in the
+# record between about 1550 and 1500, and ends twice: as an independent state
+# around 1340 when it becomes a Hittite vassal, and as a territory around 1260
+# when Assyria annexes it.
+span:
+  start: { min: -1550, max: -1500, source: van-de-mieroop-2015 }
+  end: { min: -1340, max: -1260, source: van-de-mieroop-2015 }
+
+identity: >-
+  A Hurrian empire across northern Syria and the Jazira, known almost entirely
+  from the archives of the states that fought it, whose capital has never been
+  found.
+
+capitals:
+  # Washukanni is named repeatedly in Hittite, Assyrian and Egyptian documents
+  # and has never been located. Tell Fekheriye on the Khabur headwaters is the
+  # long-standing candidate and is not confirmed. No `from` year is given
+  # because none is known.
+  - { name: Washukanni, source: van-de-mieroop-2015 }
+
+core_region: The Khabur triangle and northern Syria, between the Euphrates and the Tigris
+
+rulers:
+  founder: { name: Kirta, source: van-de-mieroop-2015 }
+  peak: { name: Saushtatar, source: van-de-mieroop-2015 }
+  # The independent line ends with Tushratta, murdered in the collapse. His son
+  # Shattiwaza was installed by the Hittites over what was left, under a treaty
+  # that survives and is the fullest document the kingdom produced.
+  last: { name: Shattiwaza, source: van-de-mieroop-2015 }
+
+scripts_and_languages:
+  administration: [Hurrian, Akkadian]
+  writing_system: Cuneiform
+
+# The conquerors were the Middle Assyrian kings Adad-nirari I and Shalmaneser I.
+# This corpus's Assyrian entry is the Neo-Assyrian Empire, which begins in 911 —
+# three and a half centuries later and, for the purposes of this site's edges, a
+# different polity. `by` is empty rather than wrong.
+ended:
+  type: conquest
+  by: []
+  year: -1260
+  source: van-de-mieroop-2015
+
+institutions:
+  # The maryannu: a hereditary chariot aristocracy holding estates in return for
+  # service. The coding rests on the land documents from Nuzi and Alalakh —
+  # places Mitanni ruled — rather than on anything from its own administration,
+  # which does not survive, and the exact social content of the term is debated.
+  # It makes this the earliest polity in the corpus coded `land-grant`, the same
+  # value the kleruchy, the iqta' and the timar carry.
+  military_basis: { values: [land-grant], source: wilhelm-1989 }
+  # Not unaddressed by accident. No archive of the Mitanni state survives, so
+  # nothing consulted can say what it lived on. This is the purest gap in the
+  # corpus and the fourth chapter is about it.
+  revenue_basis: null
+  # Father to son, so far as the king lists go, and violently contested at the
+  # end — the Hittites installed one claimant against another. A sequence of
+  # sons is not a recorded rule.
+  succession_rule: null
+  legitimation: null
+
+turning_points:
+  - year: -1465
+    type: siege
+    name: "The sack of Assur"
+    changed: >-
+      Saushtatar took the Assyrian capital and carried a door of gold and silver
+      back to Washukanni. It made Assyria a Mitanni dependency for roughly a
+      century, which is the period Assyrian royal inscriptions later treat as
+      the humiliation their own empire was built to reverse — and the Assyrians
+      are the people who eventually erased this kingdom from the map.
+    source: van-de-mieroop-2015
+    contested: false
+  - year: -1380
+    type: treaty
+    name: "The Egyptian marriage"
+    changed: >-
+      After a century of fighting Egypt for northern Syria, Mitanni made an
+      alliance with it and sent daughters to the pharaoh's household. It ended
+      the southern war, freed both kingdoms to face the Hittites, and produced
+      the Amarna correspondence — which is the reason a modern reader can hear a
+      Mitanni king's voice at all, complaining about the quality of Egyptian
+      gold.
+    source: van-de-mieroop-2015
+    contested: false
+  - year: -1340
+    type: treaty
+    name: "The Shattiwaza treaty"
+    changed: >-
+      Suppiluliuma I broke the kingdom, and the settlement that followed
+      installed Tushratta's son over a rump state as a Hittite vassal, with the
+      lands east of the Euphrates left open to Assyria. Mitanni stopped being
+      one of the great powers of the Late Bronze Age and became the ground two
+      others fought over.
+    source: van-de-mieroop-2015
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

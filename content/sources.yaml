@@ -972,6 +972,21 @@ sources:
       individuals rather than with peoples. That distinction is a claim about
       what kind of object a polity is, which is this site's own question.
 
+  - id: wilhelm-1989
+    kind: book
+    author: "Gernot Wilhelm, trans. Jennifer Barnes"
+    title: The Hurrians
+    container: Ancient Near East Series
+    publisher: Aris & Phillips
+    year: 1989
+    note: >-
+      The survey of the Hurrian-speaking world by the principal authority on the
+      language, with a chapter on the archaeology by Diana L. Stein. Cited here
+      because Mitanni cannot be written from a political narrative alone: no
+      archive of the kingdom survives, and what is known about how it worked
+      comes from Hurrian material found at the places it ruled rather than from
+      the place it ruled them from.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors
