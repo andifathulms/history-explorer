@@ -1,0 +1,116 @@
+id: muzaffarid
+region: later-iran
+
+name:
+  latin: Muzaffarid Dynasty
+  script: آل مظفر
+  script_lang: fa
+
+# The conventional start date sits inside the Ilkhanate, because it dates from
+# when the family took over a governorship rather than from independence: they
+# were Ilkhanid officials at Yazd until 1335 and a power in their own right
+# only from the conquest of Kerman.
+span:
+  start: { min: 1314, max: 1340, source: chi-6 }
+  end: { min: 1393, max: 1393, source: chi-6 }
+
+identity: >-
+  The house that held Fars and Kerman between the Ilkhanate and Timur, and paid
+  for the poet whose divan is in more Iranian houses than any book but one.
+
+capitals:
+  - { name: Kerman, script: کرمان, from: 1340, source: chi-6 }
+  - { name: Shiraz, script: شیراز, from: 1353, source: chi-6 }
+
+core_region: Fars, Kerman and central Iran
+
+rulers:
+  founder: { name: Mubariz al-Din Muhammad, source: chi-6 }
+  peak: { name: Shah Shuja, reign: [1358, 1384], source: chi-6 }
+  last: { name: Shah Mansur, source: chi-6 }
+
+scripts_and_languages:
+  administration: [Persian]
+  writing_system: Perso-Arabic
+
+ended:
+  type: conquest
+  by: [timurid]
+  year: 1393
+  source: chi-6
+
+institutions:
+  # The same coding as the Jalayirid record and for the same reason: the amirs
+  # of Fars and Kerman who had held revenue assignments under the Ilkhanate,
+  # continued under a family that had been one of them. Neither dynasty built
+  # an army; both inherited a provincial establishment and kept paying it.
+  military_basis: { values: [tribal-levy, land-grant], source: chi-6 }
+  # The land tax of Fars and Kerman, and the customs of the road to Hormuz —
+  # the Gulf trade came up through Muzaffarid country to reach the rest of
+  # Iran. Unranked.
+  revenue_basis: { values: [land-tax, trade-toll], source: chi-6 }
+  # Genuinely appanage, and the page turns on it. Mubariz al-Din assigned
+  # Shiraz, Isfahan and Kerman to different sons as their own, which is what
+  # made the war of 1384 to 1393 a war between cities rather than a court
+  # quarrel.
+  succession_rule: { values: [appanage], source: chi-6 }
+  # Mubariz al-Din obtained diplomas of investiture from the Abbasid caliph at
+  # Cairo — the shadow caliphate this site carries as its own polity, being
+  # asked for authorisation by a dynasty in Fars a hundred years after Baghdad
+  # fell and a thousand miles from the man issuing it. The corpus's own rule
+  # holds: naming a living caliph is subordination to a contemporary, not a
+  # claim on a predecessor, so nothing is counted on the Cairo record for it.
+  legitimation: { values: [caliphal-investiture, conquest], source: banister-2021 }
+
+turning_points:
+  - year: 1353
+    type: siege
+    name: "The taking of Shiraz"
+    changed: >-
+      Mubariz al-Din took Fars from the Injuids, which turned a family holding
+      two provincial towns into the government of the richest and most
+      cultivated city in southern Iran. Everything this dynasty is remembered
+      for happened in the city it acquired in that year, and none of it was
+      what the man who took it wanted.
+    source: chi-6
+    contested: false
+  - year: 1358
+    type: succession-crisis
+    name: "The blinding of Mubariz al-Din"
+    changed: >-
+      His own sons seized and blinded him, ending a regime that had banned wine,
+      closed the taverns and enforced the prayer, and replacing it with one that
+      paid poets. It is the sharpest single reversal of cultural policy in the
+      corpus, it happened inside one family in one year, and Hafez wrote about
+      both halves of it.
+    source: chi-6
+    contested: false
+  - year: 1387
+    type: siege
+    name: "Timur at Isfahan"
+    changed: >-
+      The city submitted, then killed the tax collectors Timur left in it, and
+      he returned and destroyed it. The reported death toll is in the tens of
+      thousands and the towers of skulls are the standard image of him. It
+      removed the northern half of the Muzaffarid territory and demonstrated to
+      the surviving princes that submission was survivable and revolt was not.
+    source: chi-6
+    contested: false
+  - year: 1393
+    type: battle
+    name: "Shah Mansur at Shiraz"
+    changed: >-
+      The last Muzaffarid attacked Timur's centre personally and nearly reached
+      him before being killed. Timur then had the surviving princes of the house
+      executed, which is why this record has no remnant, no claimant and no
+      successor claim — unlike the Jalayirids, who were merely defeated.
+    source: chi-6
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

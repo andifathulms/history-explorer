@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1912 claims across 107 sources.**
+**1936 claims across 107 sources.**
 
 ## Where to start
 
@@ -650,6 +650,65 @@ ordinary state, not an item to clear.
 - [ ] `reference/uyghur-khaganate` — reach 3,100,000 km2 at 800
 - [ ] `reference/yuan` — reach 11,000,000 km2 at 1310
 
+## Peter Jackson and Laurence Lockhart (eds), The Cambridge History of Iran, Volume 6: The Timurid and Safavid Periods
+
+`chi-6` — 54 claims
+
+- [ ] `chapter/jalayirid/01-what-1335-left.mdx` — prose: "What 1335 left"
+- [ ] `chapter/jalayirid/02-shaykh-uways.mdx` — prose: "The nearest thing to a restoration"
+- [ ] `chapter/jalayirid/04-ahmad.mdx` — prose: "Sultan Ahmad's twenty years of running"
+- [ ] `chapter/jalayirid/05-basra.mdx` — prose: "Basra"
+- [ ] `chapter/karakoyunlu/01-the-black-sheep.mdx` — prose: "What filled the space"
+- [ ] `chapter/karakoyunlu/02-qara-yusuf.mdx` — prose: "The man who came back"
+- [ ] `chapter/karakoyunlu/03-jahan-shah.mdx` — prose: "Jahan Shah"
+- [ ] `chapter/karakoyunlu/05-two-sheep.mdx` — prose: "Why there were two"
+- [ ] `chapter/karakoyunlu/06-chapakchur.mdx` — prose: "One year"
+- [ ] `chapter/muzaffarid/01-yazd-to-shiraz.mdx` — prose: "An official who kept going"
+- [ ] `chapter/muzaffarid/02-the-muhtasib.mdx` — prose: "The censor"
+- [ ] `chapter/muzaffarid/03-shah-shuja.mdx` — prose: "Shah Shuja"
+- [ ] `chapter/muzaffarid/04-hafez.mdx` — prose: "Hafez"
+- [ ] `chapter/muzaffarid/05-the-brothers.mdx` — prose: "Five princes and a will"
+- [ ] `chapter/muzaffarid/06-1393.mdx` — prose: "The one who charged"
+- [ ] `edge/ilkhanate->jalayirid` — absorbed remnants of in 1336
+- [ ] `edge/ilkhanate->muzaffarid` — absorbed remnants of in 1340
+- [ ] `edge/jalayirid->karakoyunlu` — conquered by in 1432
+- [ ] `edge/muzaffarid->timurid` — conquered by in 1393
+- [ ] `polity/jalayirid` — span starts 1335
+- [ ] `polity/jalayirid` — span ends 1410
+- [ ] `polity/jalayirid` — capital Baghdad from 1340
+- [ ] `polity/jalayirid` — capital Tabriz from 1360
+- [ ] `polity/jalayirid` — founder Hasan Buzurg r. 1336-1356
+- [ ] `polity/jalayirid` — peak Shaykh Uways r. 1356-1374
+- [ ] `polity/jalayirid` — last Husayn II
+- [ ] `polity/jalayirid` — military basis coded tribal-levy + land-grant
+- [ ] `polity/jalayirid` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/jalayirid` — legitimation coded conquest
+- [ ] `polity/jalayirid` — turning point 1340 The taking of Baghdad
+- [ ] `polity/jalayirid` — turning point 1360 Tabriz
+- [ ] `polity/jalayirid` — turning point 1401 Timur at Baghdad
+- [ ] `polity/jalayirid` — turning point 1410 The death of Sultan Ahmad
+- [ ] `polity/jalayirid` — ended by conquest in 1432
+- [ ] `polity/karakoyunlu` — revenue basis coded land-tax
+- [ ] `polity/karakoyunlu` — turning point 1408 Sardrud
+- [ ] `polity/karakoyunlu` — turning point 1446 The taking of Baghdad
+- [ ] `polity/karakoyunlu` — turning point 1458 Herat
+- [ ] `polity/karakoyunlu` — turning point 1467 Chapakchur
+- [ ] `polity/muzaffarid` — span starts 1314
+- [ ] `polity/muzaffarid` — span ends 1393
+- [ ] `polity/muzaffarid` — capital Kerman from 1340
+- [ ] `polity/muzaffarid` — capital Shiraz from 1353
+- [ ] `polity/muzaffarid` — founder Mubariz al-Din Muhammad
+- [ ] `polity/muzaffarid` — peak Shah Shuja r. 1358-1384
+- [ ] `polity/muzaffarid` — last Shah Mansur
+- [ ] `polity/muzaffarid` — military basis coded tribal-levy + land-grant
+- [ ] `polity/muzaffarid` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/muzaffarid` — succession rule coded appanage
+- [ ] `polity/muzaffarid` — turning point 1353 The taking of Shiraz
+- [ ] `polity/muzaffarid` — turning point 1358 The blinding of Mubariz al-Din
+- [ ] `polity/muzaffarid` — turning point 1387 Timur at Isfahan
+- [ ] `polity/muzaffarid` — turning point 1393 Shah Mansur at Shiraz
+- [ ] `polity/muzaffarid` — ended by conquest in 1393
+
 ## Farhad Daftary, The Isma'ilis: Their History and Doctrines
 
 `daftary-2007` — 49 claims
@@ -1101,42 +1160,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/yuan` — last Toghon Temur r. 1333-1368
 - [ ] `polity/yuan` — descendant_scripts = 1 (Phags-pa script)
 
-## Peter Jackson and Laurence Lockhart (eds), The Cambridge History of Iran, Volume 6: The Timurid and Safavid Periods
-
-`chi-6` — 31 claims
-
-- [ ] `chapter/jalayirid/01-what-1335-left.mdx` — prose: "What 1335 left"
-- [ ] `chapter/jalayirid/02-shaykh-uways.mdx` — prose: "The nearest thing to a restoration"
-- [ ] `chapter/jalayirid/04-ahmad.mdx` — prose: "Sultan Ahmad's twenty years of running"
-- [ ] `chapter/jalayirid/05-basra.mdx` — prose: "Basra"
-- [ ] `chapter/karakoyunlu/01-the-black-sheep.mdx` — prose: "What filled the space"
-- [ ] `chapter/karakoyunlu/02-qara-yusuf.mdx` — prose: "The man who came back"
-- [ ] `chapter/karakoyunlu/03-jahan-shah.mdx` — prose: "Jahan Shah"
-- [ ] `chapter/karakoyunlu/05-two-sheep.mdx` — prose: "Why there were two"
-- [ ] `chapter/karakoyunlu/06-chapakchur.mdx` — prose: "One year"
-- [ ] `edge/ilkhanate->jalayirid` — absorbed remnants of in 1336
-- [ ] `edge/jalayirid->karakoyunlu` — conquered by in 1432
-- [ ] `polity/jalayirid` — span starts 1335
-- [ ] `polity/jalayirid` — span ends 1410
-- [ ] `polity/jalayirid` — capital Baghdad from 1340
-- [ ] `polity/jalayirid` — capital Tabriz from 1360
-- [ ] `polity/jalayirid` — founder Hasan Buzurg r. 1336-1356
-- [ ] `polity/jalayirid` — peak Shaykh Uways r. 1356-1374
-- [ ] `polity/jalayirid` — last Husayn II
-- [ ] `polity/jalayirid` — military basis coded tribal-levy + land-grant
-- [ ] `polity/jalayirid` — revenue basis coded land-tax + trade-toll
-- [ ] `polity/jalayirid` — legitimation coded conquest
-- [ ] `polity/jalayirid` — turning point 1340 The taking of Baghdad
-- [ ] `polity/jalayirid` — turning point 1360 Tabriz
-- [ ] `polity/jalayirid` — turning point 1401 Timur at Baghdad
-- [ ] `polity/jalayirid` — turning point 1410 The death of Sultan Ahmad
-- [ ] `polity/jalayirid` — ended by conquest in 1432
-- [ ] `polity/karakoyunlu` — revenue basis coded land-tax
-- [ ] `polity/karakoyunlu` — turning point 1408 Sardrud
-- [ ] `polity/karakoyunlu` — turning point 1446 The taking of Baghdad
-- [ ] `polity/karakoyunlu` — turning point 1458 Herat
-- [ ] `polity/karakoyunlu` — turning point 1467 Chapakchur
-
 ## C. E. Bosworth, The Political and Dynastic History of the Iranian World (A.D. 1000-1217)
 *In The Cambridge History of Iran, Volume 5.*
 
@@ -1406,6 +1429,34 @@ ordinary state, not an item to clear.
 - [ ] `polity/ptolemaic` — turning point -168 The Day of Eleusis
 - [ ] `polity/ptolemaic` — ended by conquest in -30
 
+## Mustafa Banister, The Abbasid Caliphate of Cairo, 1261-1517: Out of the Shadows
+*In Edinburgh Studies in Classical Islamic History and Culture.*
+
+`banister-2021` — 20 claims
+
+**Sole source** for `abbasid-cairo` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/abbasid-cairo/01-a-caliph-for-cairo.mdx` — prose: "A caliph for Cairo"
+- [ ] `chapter/abbasid-cairo/02-what-an-empty-office-was-for.mdx` — prose: "What an empty office was for"
+- [ ] `chapter/abbasid-cairo/03-what-an-investiture-was.mdx` — prose: "What an investiture actually was"
+- [ ] `chapter/abbasid-cairo/04-1517.mdx` — prose: "Taken to Constantinople"
+- [ ] `edge/abbasid->abbasid-cairo` — claimed legitimacy of in 1261
+- [ ] `edge/abbasid-cairo->ottoman` — conquered by in 1517
+- [ ] `edge/mamluk-sultanate->abbasid-cairo` — vassal of in 1261
+- [ ] `polity/abbasid-cairo` — span starts 1261
+- [ ] `polity/abbasid-cairo` — span ends 1517
+- [ ] `polity/abbasid-cairo` — capital Cairo from 1261
+- [ ] `polity/abbasid-cairo` — founder al-Mustansir II r. 1261-1261
+- [ ] `polity/abbasid-cairo` — peak al-Musta'in r. 1406-1414
+- [ ] `polity/abbasid-cairo` — last al-Mutawakkil III r. 1508-1517
+- [ ] `polity/abbasid-cairo` — succession rule coded nomination
+- [ ] `polity/abbasid-cairo` — legitimation coded descent
+- [ ] `polity/abbasid-cairo` — turning point 1261 Baybars installs a caliph
+- [ ] `polity/abbasid-cairo` — turning point 1412 The caliph who was also sultan
+- [ ] `polity/abbasid-cairo` — ended by conquest in 1517
+- [ ] `polity/mamluk-sultanate` — legitimation coded caliphal-investiture
+- [ ] `polity/muzaffarid` — legitimation coded caliphal-investiture + conquest
+
 ## Caroline Finkel, Osman's Dream: The Story of the Ottoman Empire 1300-1923
 
 `finkel-2005` — 20 claims
@@ -1538,33 +1589,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/qara-khitai` — turning point 1211 Kuchlug takes the gurkhanate
 - [ ] `polity/qara-khitai` — religions_carried = 0
 - [ ] `polity/qara-khitai` — ended by conquest in 1218
-
-## Mustafa Banister, The Abbasid Caliphate of Cairo, 1261-1517: Out of the Shadows
-*In Edinburgh Studies in Classical Islamic History and Culture.*
-
-`banister-2021` — 19 claims
-
-**Sole source** for `abbasid-cairo` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/abbasid-cairo/01-a-caliph-for-cairo.mdx` — prose: "A caliph for Cairo"
-- [ ] `chapter/abbasid-cairo/02-what-an-empty-office-was-for.mdx` — prose: "What an empty office was for"
-- [ ] `chapter/abbasid-cairo/03-what-an-investiture-was.mdx` — prose: "What an investiture actually was"
-- [ ] `chapter/abbasid-cairo/04-1517.mdx` — prose: "Taken to Constantinople"
-- [ ] `edge/abbasid->abbasid-cairo` — claimed legitimacy of in 1261
-- [ ] `edge/abbasid-cairo->ottoman` — conquered by in 1517
-- [ ] `edge/mamluk-sultanate->abbasid-cairo` — vassal of in 1261
-- [ ] `polity/abbasid-cairo` — span starts 1261
-- [ ] `polity/abbasid-cairo` — span ends 1517
-- [ ] `polity/abbasid-cairo` — capital Cairo from 1261
-- [ ] `polity/abbasid-cairo` — founder al-Mustansir II r. 1261-1261
-- [ ] `polity/abbasid-cairo` — peak al-Musta'in r. 1406-1414
-- [ ] `polity/abbasid-cairo` — last al-Mutawakkil III r. 1508-1517
-- [ ] `polity/abbasid-cairo` — succession rule coded nomination
-- [ ] `polity/abbasid-cairo` — legitimation coded descent
-- [ ] `polity/abbasid-cairo` — turning point 1261 Baybars installs a caliph
-- [ ] `polity/abbasid-cairo` — turning point 1412 The caliph who was also sultan
-- [ ] `polity/abbasid-cairo` — ended by conquest in 1517
-- [ ] `polity/mamluk-sultanate` — legitimation coded caliphal-investiture
 
 ## R. Stephen Humphreys, From Saladin to the Mongols: The Ayyubids of Damascus 1193-1260
 

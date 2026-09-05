@@ -1253,6 +1253,27 @@ edges:
   # ---- The two sheep ----
 
   - from: ilkhanate
+    to: muzaffarid
+    type: absorbed remnants of
+    year: 1340
+    note: "The Muzaffarids had governed Yazd for the Ilkhans; when the state
+           stopped they kept the governorship, took Kerman and then Fars, and
+           went on running the provincial administration they had been part
+           of."
+    source: chi-6
+    contested: false
+
+  - from: muzaffarid
+    to: timurid
+    type: conquered by
+    year: 1393
+    note: "Timur destroyed Shah Mansur outside Shiraz and then had the surviving
+           princes of the house executed together, which is why nothing of the
+           dynasty continued anywhere."
+    source: chi-6
+    contested: false
+
+  - from: ilkhanate
     to: jalayirid
     type: absorbed remnants of
     year: 1336
