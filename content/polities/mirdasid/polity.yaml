@@ -1,0 +1,105 @@
+id: mirdasid
+region: central-lands
+
+name:
+  latin: Mirdasid Emirate
+  script: المرداسيون
+  script_lang: ar
+
+# The Kilab were the paramount power around Aleppo from 1014; the emirate dates
+# from the city itself, besieged in late 1024 and entered in early 1025. The
+# range is the siege, not a disagreement between sources.
+span:
+  start: { min: 1024, max: 1025, source: zakkar-1971 }
+  end: { min: 1080, max: 1080, source: zakkar-1971 }
+
+identity: >-
+  A bedouin tribe that took Aleppo and kept it for fifty-five years by selling
+  its allegiance, in turn, to the Fatimids, the Byzantines and the Seljuks.
+
+capitals:
+  - { name: Aleppo, script: حلب, from: 1025, source: zakkar-1971 }
+
+core_region: Northern Syria, from Aleppo to the Euphrates
+
+rulers:
+  founder: { name: Salih ibn Mirdas, reign: [1025, 1029], source: zakkar-1971 }
+  peak: { name: Mu'izz al-Dawla Thimal, source: zakkar-1971 }
+  last: { name: Sabiq ibn Mahmud, source: zakkar-1971 }
+
+scripts_and_languages:
+  administration: [Arabic]
+  writing_system: Arabic
+
+# Not a conquest. Aleppo was handed to the Uqaylid Muslim ibn Quraysh by a city
+# that wanted a protector against Turkmen raiding and no longer believed the
+# Mirdasids were one. A different Arab house took the same seat by agreement,
+# which is what this type is for.
+ended:
+  type: dynastic replacement
+  by: [uqaylid]
+  year: 1080
+  source: zakkar-1971
+
+institutions:
+  # Kilabi horsemen, raised through the tribe. The emirate also depended on the
+  # ahdath, the armed urban militia of Aleppo, which was not raised by the emir
+  # at all and is the subject of its own chapter — the vocabulary has no value
+  # for a city arming itself, and inventing one to fill this field would assert
+  # something about the corpus that only Aleppo and Damascus support.
+  military_basis: { values: [tribal-levy], source: zakkar-1971 }
+  # The land tax of northern Syria and the customs of a city sitting on the road
+  # between the caliphates and Byzantium. Unranked.
+  revenue_basis: { values: [land-tax, trade-toll], source: zakkar-1971 }
+  # No source consulted describes a rule. Aleppo passed among Salih's sons,
+  # brothers and nephews by whichever of them the Kilab would follow, and coding
+  # that as `appanage` would credit the emirate with a patrimonial system it is
+  # not recorded as having had.
+  succession_rule: null
+  # The interesting fact about this field here is not the value but that the
+  # caliph changed. The khutba at Aleppo was read for the Fatimid imam, then for
+  # the Abbasid caliph and the Seljuk sultan after 1071, and each switch was a
+  # transaction. See the turning points.
+  legitimation: { values: [caliphal-investiture], source: zakkar-1971 }
+
+turning_points:
+  - year: 1025
+    type: siege
+    name: "The taking of Aleppo"
+    changed: >-
+      A century of Kilabi pressure on the city ended with the tribe inside it,
+      which converted a bedouin confederation that had been sold as auxiliaries
+      to Hamdanids and Fatimids into a power that collected the taxes itself.
+      It is the point at which the Kilab stop being somebody's cavalry.
+    source: zakkar-1971
+    contested: false
+  - year: 1029
+    type: battle
+    name: "Al-Uqhuwana"
+    changed: >-
+      Salih ibn Mirdas overreached into Palestine against the Fatimids and was
+      killed there four years after taking Aleppo. His sons inherited a
+      halved emirate and the permanent lesson of it: the Mirdasids never again
+      fought a great power for territory, and spent the next fifty years
+      selling their allegiance to one instead.
+    source: zakkar-1971
+    contested: false
+  - year: 1071
+    type: conversion
+    name: "Alp Arslan at Aleppo"
+    changed: >-
+      Mahmud ibn Nasr submitted to the Seljuk sultan after a short siege and the
+      khutba at Aleppo passed from the Fatimid imam to the Abbasid caliph. A
+      Shi'i Arab emirate that had spent half a century playing Cairo against
+      Constantinople became a Sunni client of a Turkish sultanate, which
+      removed both the customers its position depended on.
+    source: wilson-2023
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

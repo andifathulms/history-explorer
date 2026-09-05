@@ -1,0 +1,106 @@
+id: burid
+region: central-lands
+
+name:
+  latin: Burid Emirate of Damascus
+  script: البوريون
+  script_lang: ar
+
+span:
+  start: { min: 1104, max: 1104, source: el-azhari-1997 }
+  end: { min: 1154, max: 1154, source: el-azhari-1997 }
+
+identity: >-
+  The atabeg house that held Damascus for fifty years between the Seljuks and
+  Nur al-Din, and kept it independent by paying tribute to the kingdom of
+  Jerusalem.
+
+capitals:
+  - { name: Damascus, script: دمشق, from: 1104, source: el-azhari-1997 }
+
+core_region: Southern Syria, from Damascus to the Hawran
+
+rulers:
+  founder: { name: Toghtekin, reign: [1104, 1128], source: el-azhari-1997 }
+  # Not a Burid. Unur was the atabeg who governed for the last emirs, held the
+  # city through the Second Crusade, and is the reason there was still an
+  # emirate in 1149 — which is a fact about how this polity worked, not an
+  # error in the field.
+  peak: { name: Mu'in al-Din Unur, reign: [1138, 1149], source: el-azhari-1997 }
+  last: { name: Mujir al-Din Abaq, source: el-azhari-1997 }
+
+scripts_and_languages:
+  administration: [Arabic]
+  writing_system: Arabic
+
+# Not a storming. Nur al-Din had been closing on Damascus for six years by
+# marriage, blockade and the argument that the Burids were the Franks'
+# tributaries; in 1154 the gates were opened from inside and Abaq was pensioned
+# with Homs.
+ended:
+  type: gradual absorption
+  by: [zangid]
+  year: 1154
+  source: el-azhari-1997
+
+institutions:
+  # This is where the slave soldiers come back. Toghtekin was himself a Turkish
+  # mamluk, an atabeg is a freed slave commander, and the Burid askar was a
+  # purchased Turkish regiment — the arrangement the Mirdasids, Uqaylids and
+  # Marwanids did not have and could not match.
+  military_basis: { values: [slave-soldier], source: el-azhari-1997 }
+  # The land tax of the Ghuta and the Hawran and the tolls of the pilgrim and
+  # caravan roads. Unranked. The tribute paid to the kingdom of Jerusalem is not
+  # here: money going out is not a revenue basis, by coding rule 6.
+  revenue_basis: { values: [land-tax, trade-toll], source: el-azhari-1997 }
+  # Damascus passed from Toghtekin to his son and then among grandsons while
+  # atabegs and the ahdath decided who actually governed. Nothing consulted
+  # describes a rule, and the outcome does not supply one.
+  succession_rule: null
+  # The Burids bought Abbasid recognition with gifts and got it, which is the
+  # cheapest version of the move half this corpus makes.
+  legitimation: { values: [caliphal-investiture], source: el-azhari-1997 }
+
+turning_points:
+  - year: 1104
+    type: succession-crisis
+    name: "Toghtekin keeps Damascus"
+    changed: >-
+      The Seljuk prince Duqaq died and his atabeg — the freed slave appointed to
+      tutor and command for him — took the city rather than handing it on. It is
+      the founding move of the atabeg states, made at Damascus before Zangi made
+      it at Mosul, and it put southern Syria under a Turkish military household
+      for the first time.
+    source: el-azhari-1997
+    contested: false
+  - year: 1129
+    type: revolt
+    name: "The killing of the Nizaris in Damascus"
+    changed: >-
+      The vizier al-Mazdaghani had brought the Isma'ilis into the city's
+      politics and offered them Banyas; when he was killed the Damascenes hunted
+      down the Nizaris in the streets. It ended Isma'ili influence in Damascus,
+      cost the emirate a frontier fortress that went straight to the Franks, and
+      demonstrated that the ahdath and the city's notables, not the emir, held
+      the deciding vote.
+    source: el-azhari-1997
+    contested: false
+  - year: 1148
+    type: siege
+    name: "The Second Crusade at Damascus"
+    changed: >-
+      A Frankish army besieged the one Muslim power in Syria that had been
+      paying it tribute and allying with it against Aleppo, and left after four
+      days. The alliance that had kept Damascus independent of both Zangids and
+      Franks was destroyed by the people who benefited from it, and within six
+      years the city was Nur al-Din's.
+    source: el-azhari-1997
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

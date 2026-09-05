@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1694 claims across 91 sources.**
+**1772 claims across 95 sources.**
 
 ## Where to start
 
@@ -456,6 +456,79 @@ ordinary state, not an item to clear.
 - [ ] `polity/rum` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/rum` — ended by gradual absorption in 1308
 
+## Hugh Kennedy, The Prophet and the Age of the Caliphates: The Islamic Near East from the Sixth to the Eleventh Century
+
+`kennedy-2004` — 66 claims
+
+**Sole source** for `hamdanid` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/abbasid/01-revolution.mdx` — prose: "What the revolution actually changed"
+- [ ] `chapter/hamdanid/01-two-branches.mdx` — prose: "Two branches, one family"
+- [ ] `chapter/hamdanid/02-sayf-al-dawla.mdx` — prose: "Sayf al-Dawla's frontier"
+- [ ] `chapter/hamdanid/03-mutanabbi.mdx` — prose: "The poet and the frontier"
+- [ ] `chapter/hamdanid/04-al-farabi.mdx` — prose: "The second teacher"
+- [ ] `chapter/hamdanid/05-tributary.mdx` — prose: "Paying both sides"
+- [ ] `chapter/marwanid/01-badh.mdx` — prose: "The shepherd"
+- [ ] `chapter/marwanid/02-nasr-al-dawla.mdx` — prose: "Fifty years"
+- [ ] `chapter/marwanid/04-the-seljuks.mdx` — prose: "The counterweight goes"
+- [ ] `chapter/marwanid/05-ibn-jahir.mdx` — prose: "The vizier"
+- [ ] `chapter/mirdasid/01-the-kilab.mdx` — prose: "A hundred years outside the wall"
+- [ ] `chapter/umayyad/06-mawali.mdx` — prose: "The converts problem"
+- [ ] `chapter/uqaylid/01-mosul.mdx` — prose: "The buffer that took the city"
+- [ ] `chapter/uqaylid/02-the-khutba-of-1010.mdx` — prose: "The Friday the caliph changed"
+- [ ] `chapter/uqaylid/04-the-arab-century.mdx` — prose: "What the eleventh century was"
+- [ ] `edge/hamdanid->uqaylid` — absorbed remnants of in 996
+- [ ] `edge/marwanid->great-seljuk` — conquered by in 1085
+- [ ] `edge/rashidun->abbasid` — claimed legitimacy of in 750
+- [ ] `polity/abbasid` — military basis coded standing-professional + slave-soldier
+- [ ] `polity/abbasid` — revenue basis coded land-tax + poll-tax
+- [ ] `polity/abbasid` — legitimation coded descent
+- [ ] `polity/abbasid` — turning point 762 The founding of Baghdad
+- [ ] `polity/abbasid` — religions_carried = 1 (Islam)
+- [ ] `polity/hamdanid` — span starts 890
+- [ ] `polity/hamdanid` — span ends 1004
+- [ ] `polity/hamdanid` — capital Aleppo from 890
+- [ ] `polity/hamdanid` — founder Hamdan ibn Hamdun r. 890-895
+- [ ] `polity/hamdanid` — peak Sayf al-Dawla r. 945-967
+- [ ] `polity/hamdanid` — last Sa'd al-Dawla r. 967-991
+- [ ] `polity/hamdanid` — military basis coded tribal-levy + slave-soldier
+- [ ] `polity/hamdanid` — revenue basis coded land-tax + tribute
+- [ ] `polity/hamdanid` — succession rule coded appanage
+- [ ] `polity/hamdanid` — legitimation coded caliphal-investiture
+- [ ] `polity/hamdanid` — turning point 944 Aleppo taken
+- [ ] `polity/hamdanid` — turning point 969 The treaty of Safar
+- [ ] `polity/hamdanid` — ended by gradual absorption in 1004
+- [ ] `polity/marwanid` — span starts 983
+- [ ] `polity/marwanid` — span ends 1085
+- [ ] `polity/marwanid` — capital Mayyafariqin from 990
+- [ ] `polity/marwanid` — founder Badh ibn Dustak
+- [ ] `polity/marwanid` — peak Nasr al-Dawla Ahmad r. 1011-1061
+- [ ] `polity/marwanid` — military basis coded tribal-levy
+- [ ] `polity/marwanid` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/marwanid` — legitimation coded caliphal-investiture
+- [ ] `polity/marwanid` — turning point 990 Badh's death and the Banu Marwan
+- [ ] `polity/marwanid` — turning point 1085 The fall of Mayyafariqin
+- [ ] `polity/marwanid` — ended by conquest in 1085
+- [ ] `polity/rashidun` — span starts 632
+- [ ] `polity/rashidun` — span ends 661
+- [ ] `polity/rashidun` — capital Medina from 632
+- [ ] `polity/rashidun` — capital Kufa from 656
+- [ ] `polity/rashidun` — founder Abu Bakr r. 632-634
+- [ ] `polity/rashidun` — peak Umar ibn al-Khattab r. 634-644
+- [ ] `polity/rashidun` — revenue basis coded land-tax + poll-tax + plunder
+- [ ] `polity/rashidun` — successor_claims = 2 (umayyad, abbasid)
+- [ ] `polity/umayyad` — military basis coded tribal-levy
+- [ ] `polity/umayyad` — successor_claims = 1 (Umayyad Caliphate of Cordoba)
+- [ ] `polity/uqaylid` — span starts 990
+- [ ] `polity/uqaylid` — span ends 1096
+- [ ] `polity/uqaylid` — capital Mosul from 996
+- [ ] `polity/uqaylid` — founder Muhammad ibn al-Musayyab
+- [ ] `polity/uqaylid` — military basis coded tribal-levy
+- [ ] `polity/uqaylid` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/uqaylid` — legitimation coded caliphal-investiture
+- [ ] `polity/uqaylid` — turning point 996 The taking of Mosul
+- [ ] `polity/uqaylid` — turning point 1010 Qirwash's khutba for Cairo
+
 ## Carl F. Petry (ed.), The Cambridge History of Egypt, Volume 1: Islamic Egypt 640-1517
 
 `petry-1998` — 60 claims
@@ -871,49 +944,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/zangid` — turning point 1163 The house of justice
 - [ ] `polity/zangid` — religions_carried = 1 (Sunni Islam)
 
-## Hugh Kennedy, The Prophet and the Age of the Caliphates: The Islamic Near East from the Sixth to the Eleventh Century
-
-`kennedy-2004` — 36 claims
-
-**Sole source** for `hamdanid` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/abbasid/01-revolution.mdx` — prose: "What the revolution actually changed"
-- [ ] `chapter/hamdanid/01-two-branches.mdx` — prose: "Two branches, one family"
-- [ ] `chapter/hamdanid/02-sayf-al-dawla.mdx` — prose: "Sayf al-Dawla's frontier"
-- [ ] `chapter/hamdanid/03-mutanabbi.mdx` — prose: "The poet and the frontier"
-- [ ] `chapter/hamdanid/04-al-farabi.mdx` — prose: "The second teacher"
-- [ ] `chapter/hamdanid/05-tributary.mdx` — prose: "Paying both sides"
-- [ ] `chapter/umayyad/06-mawali.mdx` — prose: "The converts problem"
-- [ ] `edge/rashidun->abbasid` — claimed legitimacy of in 750
-- [ ] `polity/abbasid` — military basis coded standing-professional + slave-soldier
-- [ ] `polity/abbasid` — revenue basis coded land-tax + poll-tax
-- [ ] `polity/abbasid` — legitimation coded descent
-- [ ] `polity/abbasid` — turning point 762 The founding of Baghdad
-- [ ] `polity/abbasid` — religions_carried = 1 (Islam)
-- [ ] `polity/hamdanid` — span starts 890
-- [ ] `polity/hamdanid` — span ends 1004
-- [ ] `polity/hamdanid` — capital Aleppo from 890
-- [ ] `polity/hamdanid` — founder Hamdan ibn Hamdun r. 890-895
-- [ ] `polity/hamdanid` — peak Sayf al-Dawla r. 945-967
-- [ ] `polity/hamdanid` — last Sa'd al-Dawla r. 967-991
-- [ ] `polity/hamdanid` — military basis coded tribal-levy + slave-soldier
-- [ ] `polity/hamdanid` — revenue basis coded land-tax + tribute
-- [ ] `polity/hamdanid` — succession rule coded appanage
-- [ ] `polity/hamdanid` — legitimation coded caliphal-investiture
-- [ ] `polity/hamdanid` — turning point 944 Aleppo taken
-- [ ] `polity/hamdanid` — turning point 969 The treaty of Safar
-- [ ] `polity/hamdanid` — ended by gradual absorption in 1004
-- [ ] `polity/rashidun` — span starts 632
-- [ ] `polity/rashidun` — span ends 661
-- [ ] `polity/rashidun` — capital Medina from 632
-- [ ] `polity/rashidun` — capital Kufa from 656
-- [ ] `polity/rashidun` — founder Abu Bakr r. 632-634
-- [ ] `polity/rashidun` — peak Umar ibn al-Khattab r. 634-644
-- [ ] `polity/rashidun` — revenue basis coded land-tax + poll-tax + plunder
-- [ ] `polity/rashidun` — successor_claims = 2 (umayyad, abbasid)
-- [ ] `polity/umayyad` — military basis coded tribal-levy
-- [ ] `polity/umayyad` — successor_claims = 1 (Umayyad Caliphate of Cordoba)
-
 ## G. R. Hawting, The First Dynasty of Islam: The Umayyad Caliphate AD 661-750
 
 `hawting-2000` — 36 claims
@@ -1308,6 +1338,34 @@ ordinary state, not an item to clear.
 - [ ] `polity/trebizond` — last David Megas Komnenos r. 1459-1461
 - [ ] `polity/trebizond` — ended by conquest in 1461
 
+## Taef Kamal El-Azhari, The Saljuqs of Syria During the Crusades, 463-549 A.H./1070-1154 A.D.
+*In Islamkundliche Untersuchungen 211.*
+
+`el-azhari-1997` — 20 claims
+
+**Sole source** for `burid` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/burid/01-the-atabeg.mdx` — prose: "What an atabeg was"
+- [ ] `chapter/burid/02-tribute.mdx` — prose: "Paying the Franks"
+- [ ] `chapter/burid/03-1129.mdx` — prose: "The year the city decided"
+- [ ] `chapter/burid/04-unur.mdx` — prose: "Unur, and four days in July"
+- [ ] `chapter/burid/05-the-gates.mdx` — prose: "The gates opened from inside"
+- [ ] `edge/burid->zangid` — absorbed remnants of in 1154
+- [ ] `edge/great-seljuk->burid` — seceded from in 1104
+- [ ] `polity/burid` — span starts 1104
+- [ ] `polity/burid` — span ends 1154
+- [ ] `polity/burid` — capital Damascus from 1104
+- [ ] `polity/burid` — founder Toghtekin r. 1104-1128
+- [ ] `polity/burid` — peak Mu'in al-Din Unur r. 1138-1149
+- [ ] `polity/burid` — last Mujir al-Din Abaq
+- [ ] `polity/burid` — military basis coded slave-soldier
+- [ ] `polity/burid` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/burid` — legitimation coded caliphal-investiture
+- [ ] `polity/burid` — turning point 1104 Toghtekin keeps Damascus
+- [ ] `polity/burid` — turning point 1129 The killing of the Nizaris in Damascus
+- [ ] `polity/burid` — turning point 1148 The Second Crusade at Damascus
+- [ ] `polity/burid` — ended by gradual absorption in 1154
+
 ## Michael Brett, The Fatimid Empire
 
 `brett-2017` — 20 claims
@@ -1527,6 +1585,28 @@ ordinary state, not an item to clear.
 - [ ] `polity/safavid` — turning point 1501 The Shi’i decree at Tabriz
 - [ ] `polity/safavid` — religions_carried = 1 (Twelver Shi'ism)
 - [ ] `polity/safavid` — ended by conquest in 1736
+
+## Suhayl Zakkar, The Emirate of Aleppo, 1004-1094
+
+`zakkar-1971` — 17 claims
+
+- [ ] `chapter/mirdasid/02-between-two-empires.mdx` — prose: "The price of the khutba"
+- [ ] `chapter/mirdasid/03-thimal.mdx` — prose: "Thimal's peace"
+- [ ] `chapter/mirdasid/04-the-ahdath.mdx` — prose: "The city's own soldiers"
+- [ ] `edge/fatimid->mirdasid` — vassal of in 1025
+- [ ] `edge/mirdasid->uqaylid` — absorbed remnants of in 1080
+- [ ] `polity/mirdasid` — span starts 1024
+- [ ] `polity/mirdasid` — span ends 1080
+- [ ] `polity/mirdasid` — capital Aleppo from 1025
+- [ ] `polity/mirdasid` — founder Salih ibn Mirdas r. 1025-1029
+- [ ] `polity/mirdasid` — peak Mu'izz al-Dawla Thimal
+- [ ] `polity/mirdasid` — last Sabiq ibn Mahmud
+- [ ] `polity/mirdasid` — military basis coded tribal-levy
+- [ ] `polity/mirdasid` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/mirdasid` — legitimation coded caliphal-investiture
+- [ ] `polity/mirdasid` — turning point 1025 The taking of Aleppo
+- [ ] `polity/mirdasid` — turning point 1029 Al-Uqhuwana
+- [ ] `polity/mirdasid` — ended by dynastic replacement in 1080
 
 ## John O. Hunwick, Timbuktu and the Songhay Empire
 
@@ -2000,6 +2080,21 @@ ordinary state, not an item to clear.
 - [ ] `polity/han` — descendant_scripts = 1 (Clerical script)
 - [ ] `polity/han` — ended by fragmentation in 220
 
+## James Wilson, Medieval Syria and the Onset of the Crusades: The Political World of Bilad al-Sham 1050-1128
+
+`wilson-2023` — 10 claims
+
+- [ ] `chapter/mirdasid/05-the-turkmen.mdx` — prose: "The Turkmen"
+- [ ] `chapter/mirdasid/06-handed-over.mdx` — prose: "Handed over"
+- [ ] `chapter/uqaylid/03-sharaf-al-dawla.mdx` — prose: "Sharaf al-Dawla"
+- [ ] `chapter/uqaylid/05-kerbogha.mdx` — prose: "Kerbogha"
+- [ ] `edge/great-seljuk->mirdasid` — vassal of in 1071
+- [ ] `edge/uqaylid->great-seljuk` — conquered by in 1096
+- [ ] `polity/mirdasid` — turning point 1071 Alp Arslan at Aleppo
+- [ ] `polity/uqaylid` — peak Sharaf al-Dawla Muslim ibn Quraysh r. 1061-1085
+- [ ] `polity/uqaylid` — turning point 1085 The death of Muslim ibn Quraysh
+- [ ] `polity/uqaylid` — ended by conquest in 1096
+
 ## Fred M. Donner, The Early Islamic Conquests
 
 `donner-1981` — 10 claims
@@ -2263,6 +2358,13 @@ ordinary state, not an item to clear.
 `flood-2009` — 1 claims
 
 - [ ] `chapter/ghurid/05-what-they-built.mdx` — prose: "A tower nobody could find"
+
+## Thomas Ripper, Die Marwaniden von Diyar Bakr: eine kurdische Dynastie im islamischen Mittelalter
+*In Mitteilungen zur Sozial- und Kulturgeschichte der islamischen Welt.*
+
+`ripper-2000` — 1 claims
+
+- [ ] `chapter/marwanid/03-a-kurdish-state.mdx` — prose: "A Kurdish state"
 
 ## Martin Hinds, The Murder of the Caliph 'Uthman
 *In International Journal of Middle East Studies 3(4), 450-469.*

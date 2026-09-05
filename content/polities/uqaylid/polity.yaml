@@ -1,0 +1,99 @@
+id: uqaylid
+region: central-lands
+
+name:
+  latin: Uqaylid Emirate
+  script: العقيليون
+  script_lang: ar
+
+# The range at the start is the establishment at Mosul, not a disagreement:
+# the Banu Uqayl were installed in the Jazira by the Buyids around 990 and had
+# taken Mosul from the last Hamdanids by 996. The Mosul line ends in 1096; a
+# branch held Qal'at Ja'bar on the Euphrates for another seventy years, which
+# is in the last chapter and not in this field.
+span:
+  start: { min: 990, max: 996, source: kennedy-2004 }
+  end: { min: 1096, max: 1096, source: kennedy-2004 }
+
+identity: >-
+  The Arab tribal power that held Mosul and the Jazira between the Hamdanids and
+  the Seljuks, took Aleppo when it was offered, and was destroyed by the Turkmen
+  it had helped invite.
+
+capitals:
+  - { name: Mosul, script: الموصل, from: 996, source: kennedy-2004 }
+
+core_region: The Jazira and northern Iraq, from Mosul to the Euphrates
+
+rulers:
+  founder: { name: Muhammad ibn al-Musayyab, source: kennedy-2004 }
+  peak: { name: Sharaf al-Dawla Muslim ibn Quraysh, reign: [1061, 1085], source: wilson-2023 }
+  # No source consulted names a last emir of Mosul rather than the Seljuk
+  # officer who took it, and this site does not supply one.
+  last: { name: null, source: null }
+
+scripts_and_languages:
+  administration: [Arabic]
+  writing_system: Arabic
+
+ended:
+  type: conquest
+  by: [great-seljuk]
+  year: 1096
+  source: wilson-2023
+
+institutions:
+  military_basis: { values: [tribal-levy], source: kennedy-2004 }
+  # Mosul's land tax and the tolls of the Tigris crossing and the Jazira caravan
+  # roads. Unranked.
+  revenue_basis: { values: [land-tax, trade-toll], source: kennedy-2004 }
+  # As with the Mirdasids, no consulted source describes a rule. The emirate
+  # passed among brothers, sons and cousins according to who the Uqayl would
+  # follow, and naming that `appanage` would credit a system nobody records.
+  succession_rule: null
+  # And as with the Mirdasids, the value is less interesting than the fact that
+  # the caliph was negotiable — Qirwash changed his in 1010 and changed back.
+  legitimation: { values: [caliphal-investiture], source: kennedy-2004 }
+
+turning_points:
+  - year: 996
+    type: revolt
+    name: "The taking of Mosul"
+    changed: >-
+      A tribe the Buyids had settled in the Jazira as a buffer against the
+      Kurds took the largest city in it instead, ending the Hamdanid line at
+      Mosul and converting a paid frontier auxiliary into the power that
+      collected northern Iraq's revenue for a century.
+    source: kennedy-2004
+    contested: false
+  - year: 1010
+    type: conversion
+    name: "Qirwash's khutba for Cairo"
+    changed: >-
+      The emir had the Friday sermon at Mosul, Kufa and al-Mada'in read for the
+      Fatimid caliph, moving the richest province next to Baghdad into the
+      Isma'ili obedience, and then reversed it within months under Buyid
+      military pressure and Abbasid money. The episode fixed the terms the
+      Uqaylids were governed on for eighty years: nobody could remove them, and
+      they could not afford to be removed from.
+    source: kennedy-2004
+    contested: false
+  - year: 1085
+    type: battle
+    name: "The death of Muslim ibn Quraysh"
+    changed: >-
+      The emirate's one great ruler was killed near Antioch fighting the Seljuk
+      prince Sulayman ibn Qutulmish, five years after Aleppo had been handed to
+      him. Everything he had assembled — Mosul, the Jazira and northern Syria
+      under one Arab house — came apart in a season, and the Seljuks took the
+      pieces one at a time.
+    source: wilson-2023
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

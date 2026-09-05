@@ -441,6 +441,87 @@ edges:
     source: el-hibri-2021
     contested: false
 
+  - from: marwanid
+    to: great-seljuk
+    type: conquered by
+    year: 1085
+    note: "Fakhr al-Dawla ibn Jahir, the Marwanids' own former vizier, persuaded
+           Malikshah that Diyar Bakr was worth taking and led the campaign that
+           took it, sending a century's accumulated treasury to Isfahan."
+    source: kennedy-2004
+    contested: false
+
+  - from: great-seljuk
+    to: burid
+    type: seceded from
+    year: 1104
+    note: "Toghtekin, atabeg to the Seljuk prince Duqaq of Damascus, kept the
+           city on his ward's death instead of passing it to the heir, and
+           married the prince's mother."
+    source: el-azhari-1997
+    contested: false
+
+  - from: burid
+    to: zangid
+    type: absorbed remnants of
+    year: 1154
+    note: "Nur al-Din took Damascus after a six-year blockade and argument rather
+           than a storming; the gates were opened from inside and Mujir al-Din
+           Abaq was pensioned with Homs."
+    source: el-azhari-1997
+    contested: false
+
+  - from: hamdanid
+    to: uqaylid
+    type: absorbed remnants of
+    year: 996
+    note: "The Banu Uqayl, settled in the Jazira by the Buyids as a counterweight
+           to the Kurds, took Mosul instead and ended the Hamdanid line there
+           six years after being hired to guard its approaches."
+    source: kennedy-2004
+    contested: false
+
+  - from: mirdasid
+    to: uqaylid
+    type: absorbed remnants of
+    year: 1080
+    note: "Aleppo, unprotected against Turkmen raiding by its own emirs, invited
+           Muslim ibn Quraysh of Mosul to take the city, and Sabiq ibn Mahmud
+           gave it up without a siege."
+    source: zakkar-1971
+    contested: false
+
+  - from: uqaylid
+    to: great-seljuk
+    type: conquered by
+    year: 1096
+    note: "Kerbogha took Mosul in the confusion after Malikshah's death and made
+           himself its atabeg, two years before losing the relief army for
+           Antioch to the First Crusade."
+    source: wilson-2023
+    contested: false
+
+  - from: fatimid
+    to: mirdasid
+    type: vassal of
+    year: 1025
+    note: "Salih ibn Mirdas took Aleppo and had the khutba read for the Fatimid
+           imam, receiving Cairo's recognition and a Fatimid title for it; the
+           acknowledgement was renewed, withdrawn and sold again by his
+           successors for the next forty-five years."
+    source: zakkar-1971
+    contested: false
+
+  - from: great-seljuk
+    to: mirdasid
+    type: vassal of
+    year: 1071
+    note: "Alp Arslan besieged Aleppo on his way north to Manzikert and Mahmud
+           ibn Nasr submitted, moving the khutba from the Fatimid imam to the
+           Abbasid caliph and the Seljuk sultan."
+    source: wilson-2023
+    contested: false
+
   - from: great-seljuk
     to: rum
     type: partitioned from

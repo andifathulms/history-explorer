@@ -1,0 +1,88 @@
+id: marwanid
+region: central-lands
+
+name:
+  latin: Marwanid Emirate
+  script: المروانيون
+  script_lang: ar
+
+# 983 is Badh ibn Dustak taking Mayyafariqin; 990 is his death and the passage
+# of the emirate to his sister's sons, the Banu Marwan, who gave it the name and
+# the dynasty. The range is that transition, not a disagreement between sources.
+span:
+  start: { min: 983, max: 990, source: kennedy-2004 }
+  end: { min: 1085, max: 1085, source: kennedy-2004 }
+
+identity: >-
+  A Kurdish house on the upper Tigris whose fifty-year peak under one ruler was
+  the most prosperous stretch Diyar Bakr had between the caliphate and the Turks.
+
+capitals:
+  - { name: Mayyafariqin, script: ميافارقين, from: 990, source: kennedy-2004 }
+
+core_region: Diyar Bakr, the upper Tigris between Amid and Lake Van
+
+rulers:
+  founder: { name: Badh ibn Dustak, source: kennedy-2004 }
+  peak: { name: Nasr al-Dawla Ahmad, reign: [1011, 1061], source: kennedy-2004 }
+  # The works consulted name the Seljuk commander who took Mayyafariqin rather
+  # than the emir who lost it, and this site does not supply the missing name.
+  last: { name: null, source: null }
+
+scripts_and_languages:
+  administration: [Arabic]
+  writing_system: Arabic
+
+ended:
+  type: conquest
+  by: [great-seljuk]
+  year: 1085
+  source: kennedy-2004
+
+institutions:
+  # Humaydi Kurdish tribesmen, raised the way the Kilab and the Uqayl were
+  # raised. This is the only polity in the corpus coded tribal-levy on a Kurdish
+  # confederation, and the coding is the same one for the same reason.
+  military_basis: { values: [tribal-levy], source: kennedy-2004 }
+  # The land tax of the upper Tigris and the tolls of the roads north into
+  # Armenia and west to Byzantine Anatolia. Unranked.
+  revenue_basis: { values: [land-tax, trade-toll], source: kennedy-2004 }
+  # The emirate passed from Badh to his nephews and then among three brothers
+  # before descending to sons, which looks like lateral seniority and is not
+  # described as a rule by anything consulted here. Coding it `tanistry` would
+  # turn a sequence into a system.
+  succession_rule: null
+  legitimation: { values: [caliphal-investiture], source: kennedy-2004 }
+
+turning_points:
+  - year: 990
+    type: succession-crisis
+    name: "Badh's death and the Banu Marwan"
+    changed: >-
+      A shepherd who had taken Mayyafariqin by force was killed seven years
+      later, and instead of the conquest dissolving with him it passed to his
+      sister's sons, who held it for a further ninety-five years. It is the
+      point at which a warlord's territory became a dynasty's country, and the
+      dynasty is named for a man who never ruled it.
+    source: kennedy-2004
+    contested: false
+  - year: 1085
+    type: siege
+    name: "The fall of Mayyafariqin"
+    changed: >-
+      Fakhr al-Dawla ibn Jahir, who had been the emirate's own vizier,
+      persuaded Malikshah to take it and led the campaign himself; the capital
+      fell, its accumulated treasury went to Isfahan, and Diyar Bakr passed
+      from Kurdish self-rule to a Seljuk province it never left. What the
+      Marwanids had spent a century buying — distance from every great power —
+      was sold by the man who had done the buying.
+    source: kennedy-2004
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

@@ -861,6 +861,62 @@ sources:
       — how a household actually took a sultanate, and why the Qalawunids are
       the exception that proves the sultanate had no succession rule.
 
+  - id: zakkar-1971
+    kind: book
+    author: Suhayl Zakkar
+    title: "The Emirate of Aleppo, 1004-1094"
+    publisher: Dar al-Amanah
+    year: 1971
+    note: >-
+      The monograph on the ninety years between the Hamdanids and the Seljuks,
+      which is the century this region's record skipped. Zakkar is the standard
+      account of the Mirdasid emirate and of the Kilab, and is quoted in every
+      later treatment for the judgement that the tribe "served those who paid
+      most and often, at a time of crisis, would sell their employer to the
+      highest bidder" — which is a description of a revenue basis, not a moral
+      complaint.
+
+  - id: wilson-2023
+    kind: book
+    author: James Wilson
+    title: "Medieval Syria and the Onset of the Crusades: The Political World of Bilad al-Sham 1050-1128"
+    publisher: Edinburgh University Press
+    year: 2023
+    note: >-
+      Reads the Seljuk arrival and the First Crusade from inside Syria rather
+      than from either invading direction, and takes the local Arab, Kurdish
+      and urban powers seriously as the actors they were rather than as the
+      furniture two invasions rearranged. Cited for the polities this site
+      added to close the gap between 1004 and 1102.
+
+  - id: ripper-2000
+    kind: book
+    author: Thomas Ripper
+    title: "Die Marwaniden von Diyar Bakr: eine kurdische Dynastie im islamischen Mittelalter"
+    container: Mitteilungen zur Sozial- und Kulturgeschichte der islamischen Welt
+    publisher: Ergon Verlag
+    year: 2000
+    note: >-
+      The only monograph on the Marwanids, in German, and cited here for the one
+      argument this site takes from it directly: that the eleventh-century
+      emirate began the westward Kurdish settlement that made Diyar Bakr a
+      Kurdish country. The narrative chapters on that page are drafted from
+      kennedy-2004, which is what this site could actually read against.
+
+  - id: el-azhari-1997
+    kind: book
+    author: Taef Kamal El-Azhari
+    title: "The Saljuqs of Syria During the Crusades, 463-549 A.H./1070-1154 A.D."
+    container: Islamkundliche Untersuchungen 211
+    publisher: Klaus Schwarz Verlag
+    year: 1997
+    note: >-
+      The study of the Syrian Seljuk principalities and the atabeg houses that
+      replaced them, which is the institution this site had described five times
+      — Zangi at Mosul, Nur al-Din, the Burids at Damascus — without ever citing
+      a work about it. Ends in 1154, the year Damascus falls to Nur al-Din, which
+      is where the region's record picks up again.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors
