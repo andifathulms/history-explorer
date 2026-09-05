@@ -834,6 +834,33 @@ sources:
     publisher: Oxford University Press
     year: 2000
 
+  - id: edde-2011
+    kind: book
+    author: "Anne-Marie Eddé, trans. Jane Marie Todd"
+    title: Saladin
+    publisher: Belknap Press of Harvard University Press
+    year: 2011
+    note: >-
+      The full-length modern biography, and the corrective this site needed for
+      a page whose only Saladin source was a book about how Europe read him.
+      Eddé works from the Arabic chancery and chronicle material on the parts
+      the legend has no use for — the Egyptian fiscal reorganisation, the iqta'
+      assignments, the twelve years spent fighting other Muslims — and is
+      unsentimental about the propaganda apparatus Saladin's own secretaries
+      ran.
+
+  - id: irwin-1986
+    kind: book
+    author: Robert Irwin
+    title: "The Middle East in the Middle Ages: The Early Mamluk Sultanate 1250-1382"
+    publisher: Croom Helm
+    year: 1986
+    note: >-
+      The political history of the Bahri period at the length the Cambridge
+      volume's single chapter cannot give it. Cited for the factional mechanics
+      — how a household actually took a sultanate, and why the Qalawunids are
+      the exception that proves the sultanate had no succession rule.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors

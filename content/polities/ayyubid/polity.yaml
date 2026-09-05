@@ -36,10 +36,75 @@ ended:
   source: petry-1998
 
 institutions:
-  military_basis: null
-  revenue_basis: null
+  # Kurdish and Turkish cavalry holding iqta' assignments carved out of the
+  # Fatimid crown lands, alongside purchased regiments that grew across the
+  # dynasty's life until the last of them took the state. Both are real; the
+  # second is the whole of the final chapter.
+  military_basis: { values: [land-grant, slave-soldier], source: edde-2011 }
+  # Nile agriculture and the customs of Alexandria and the Red Sea ports.
+  # Unranked: Edde describes the mix without putting one above the other.
+  revenue_basis: { values: [land-tax, trade-toll], source: edde-2011 }
   succession_rule: { values: [appanage], source: humphreys-1977 }
-  legitimation: null
+  # The public ground was the Abbasid diploma. Saladin restored the Baghdad
+  # khutba in Cairo in 1171 and took his robes and his title from the caliph;
+  # the family asserted no descent worth the name and said so.
+  legitimation: { values: [caliphal-investiture], source: edde-2011 }
+
+turning_points:
+  - year: 1171
+    type: conversion
+    name: "The Abbasid khutba restored in Cairo"
+    changed: >-
+      Egypt stopped being the seat of a rival caliphate and became a Sunni
+      province with an Abbasid diploma, which dissolved the Isma'ili teaching
+      establishment, freed the Fatimid crown lands for reassignment as iqta',
+      and put the richest revenue in the region behind a Syrian war it had
+      previously been fought against.
+    source: edde-2011
+    contested: false
+  - year: 1187
+    type: battle
+    name: "Hattin"
+    changed: >-
+      The field army of the kingdom of Jerusalem ceased to exist in a morning,
+      and with no one left to garrison the interior the city and most of the
+      inland castles fell within three months. It also ended the charge inside
+      the Muslim world that Saladin was a servant who had robbed his master's
+      heirs, which no one repeated in public afterwards.
+    source: hillenbrand-1999
+    contested: false
+  - year: 1193
+    type: succession-crisis
+    name: "Saladin's death"
+    changed: >-
+      The territories were divided among sons, brothers and nephews who fought
+      each other for seven years, and the Ayyubid lands were never again
+      administered as one state. Every later Ayyubid dealing with the Franks,
+      including the surrender of Jerusalem in 1229, was made by one prince with
+      his own army rather than by the dynasty.
+    source: humphreys-1977
+    contested: false
+  - year: 1229
+    type: treaty
+    name: "The Treaty of Jaffa"
+    changed: >-
+      Al-Kamil handed Jerusalem, Bethlehem and a corridor to the coast to
+      Frederick II for ten years in exchange for a counterweight against his
+      brother in Damascus, and bought the reassembly of the confederation at
+      the cost of the one asset that had made his uncle's reputation. The
+      preaching against him ran from Aleppo to Baghdad and outlasted the truce.
+    source: humphreys-1977
+    contested: false
+  - year: 1250
+    type: revolt
+    name: "The killing of Turanshah"
+    changed: >-
+      The Bahriyya regiment destroyed a crusade, then killed the heir who was
+      replacing their commanders and kept the sultanate for themselves, ending
+      Ayyubid rule in Egypt and beginning two and a half centuries in which the
+      slave soldiers were the state rather than its instrument.
+    source: petry-1998
+    contested: false
 
 measures:
   # No figure for this polity's peak extent in the works consulted. Taagepera

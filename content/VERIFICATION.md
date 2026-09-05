@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1666 claims across 89 sources.**
+**1680 claims across 90 sources.**
 
 ## Where to start
 
@@ -522,7 +522,7 @@ ordinary state, not an item to clear.
 
 ## Carl F. Petry (ed.), The Cambridge History of Egypt, Volume 1: Islamic Egypt 640-1517
 
-`petry-1998` — 53 claims
+`petry-1998` — 54 claims
 
 **Sole source** for `mamluk-sultanate`, `tulunid` — nothing else in the corpus can contradict a misreading here.
 
@@ -540,6 +540,7 @@ ordinary state, not an item to clear.
 - [ ] `edge/ayyubid->mamluk-sultanate` — overthrew in 1250
 - [ ] `edge/cilician-armenia->mamluk-sultanate` — conquered by in 1375
 - [ ] `edge/tulunid->ikhshidid` — absorbed remnants of in 935
+- [ ] `polity/ayyubid` — turning point 1250 The killing of Turanshah
 - [ ] `polity/ayyubid` — ended by internal usurpation in 1250
 - [ ] `polity/cilician-armenia` — span ends 1375
 - [ ] `polity/cilician-armenia` — last Levon V r. 1374-1375
@@ -822,6 +823,48 @@ ordinary state, not an item to clear.
 - [ ] `polity/almoravid` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/almoravid` — ended by conquest in 1147
 
+## Carole Hillenbrand, The Crusades: Islamic Perspectives
+
+`hillenbrand-1999` — 37 claims
+
+- [ ] `chapter/artuqid/01-the-jazira-in-three-pieces.mdx` — prose: "The Jazira, in three pieces"
+- [ ] `chapter/artuqid/02-the-bridge.mdx` — prose: "The bridge"
+- [ ] `chapter/artuqid/03-two-hundred-and-seventy-five-years-of-somebody-elses.mdx` — prose: "Two hundred and seventy-five years of somebody else's"
+- [ ] `chapter/artuqid/04-the-book-of-machines.mdx` — prose: "The book of machines"
+- [ ] `chapter/ayyubid/01-saladin.mdx` — prose: "Saladin"
+- [ ] `chapter/ayyubid/03-hattin.mdx` — prose: "Hattin"
+- [ ] `chapter/ayyubid/04-richard.mdx` — prose: "The war after the victory"
+- [ ] `chapter/nizari/03-sinan-and-the-castles-in-syria.mdx` — prose: "The old man of the mountain"
+- [ ] `chapter/zangid/01-edessa.mdx` — prose: "Edessa"
+- [ ] `chapter/zangid/02-nur-al-din.mdx` — prose: "Making the counter-crusade a programme"
+- [ ] `chapter/zangid/03-justice-and-a-hospital.mdx` — prose: "A hospital, and a room to be complained in"
+- [ ] `chapter/zangid/04-the-minbar.mdx` — prose: "A pulpit made in advance"
+- [ ] `edge/zangid->ayyubid` — absorbed remnants of in 1174
+- [ ] `polity/artuqid` — span starts 1102
+- [ ] `polity/artuqid` — span ends 1232
+- [ ] `polity/artuqid` — peak Ilghazi
+- [ ] `polity/artuqid` — military basis coded tribal-levy + land-grant
+- [ ] `polity/artuqid` — revenue basis coded land-tax
+- [ ] `polity/artuqid` — turning point 1119 The Field of Blood
+- [ ] `polity/artuqid` — turning point 1148 The bridge over the Batman
+- [ ] `polity/artuqid` — turning point 1260 Qara Arslan submits to Hulegu
+- [ ] `polity/ayyubid` — founder Salah al-Din (Saladin) r. 1171-1193
+- [ ] `polity/ayyubid` — turning point 1187 Hattin
+- [ ] `polity/nizari` — turning point 1176 Saladin turns back from Masyaf (contested)
+- [ ] `polity/zangid` — span starts 1127
+- [ ] `polity/zangid` — span ends 1250
+- [ ] `polity/zangid` — capital Aleppo from 1127
+- [ ] `polity/zangid` — founder Imad al-Din Zangi r. 1127-1146
+- [ ] `polity/zangid` — peak Nur al-Din r. 1146-1174
+- [ ] `polity/zangid` — last Mahmud al-Qahir r. 1219-1233
+- [ ] `polity/zangid` — military basis coded slave-soldier + land-grant
+- [ ] `polity/zangid` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/zangid` — succession rule coded appanage
+- [ ] `polity/zangid` — legitimation coded caliphal-investiture
+- [ ] `polity/zangid` — turning point 1144 Edessa
+- [ ] `polity/zangid` — turning point 1163 The house of justice
+- [ ] `polity/zangid` — religions_carried = 1 (Sunni Islam)
+
 ## Hugh Kennedy, The Prophet and the Age of the Caliphates: The Islamic Near East from the Sixth to the Eleventh Century
 
 `kennedy-2004` — 36 claims
@@ -947,45 +990,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/uyghur-khaganate` — turning point 762 Bogu Khagan's adoption of Manichaeism
 - [ ] `polity/uyghur-khaganate` — religions_carried = 1 (Manichaeism)
 - [ ] `polity/uyghur-khaganate` — ended by conquest in 840
-
-## Carole Hillenbrand, The Crusades: Islamic Perspectives
-
-`hillenbrand-1999` — 34 claims
-
-- [ ] `chapter/artuqid/01-the-jazira-in-three-pieces.mdx` — prose: "The Jazira, in three pieces"
-- [ ] `chapter/artuqid/02-the-bridge.mdx` — prose: "The bridge"
-- [ ] `chapter/artuqid/03-two-hundred-and-seventy-five-years-of-somebody-elses.mdx` — prose: "Two hundred and seventy-five years of somebody else's"
-- [ ] `chapter/artuqid/04-the-book-of-machines.mdx` — prose: "The book of machines"
-- [ ] `chapter/ayyubid/01-saladin.mdx` — prose: "Saladin"
-- [ ] `chapter/nizari/03-sinan-and-the-castles-in-syria.mdx` — prose: "The old man of the mountain"
-- [ ] `chapter/zangid/01-edessa.mdx` — prose: "Edessa"
-- [ ] `chapter/zangid/02-nur-al-din.mdx` — prose: "Making the counter-crusade a programme"
-- [ ] `chapter/zangid/03-justice-and-a-hospital.mdx` — prose: "A hospital, and a room to be complained in"
-- [ ] `chapter/zangid/04-the-minbar.mdx` — prose: "A pulpit made in advance"
-- [ ] `edge/zangid->ayyubid` — absorbed remnants of in 1174
-- [ ] `polity/artuqid` — span starts 1102
-- [ ] `polity/artuqid` — span ends 1232
-- [ ] `polity/artuqid` — peak Ilghazi
-- [ ] `polity/artuqid` — military basis coded tribal-levy + land-grant
-- [ ] `polity/artuqid` — revenue basis coded land-tax
-- [ ] `polity/artuqid` — turning point 1119 The Field of Blood
-- [ ] `polity/artuqid` — turning point 1148 The bridge over the Batman
-- [ ] `polity/artuqid` — turning point 1260 Qara Arslan submits to Hulegu
-- [ ] `polity/ayyubid` — founder Salah al-Din (Saladin) r. 1171-1193
-- [ ] `polity/nizari` — turning point 1176 Saladin turns back from Masyaf (contested)
-- [ ] `polity/zangid` — span starts 1127
-- [ ] `polity/zangid` — span ends 1250
-- [ ] `polity/zangid` — capital Aleppo from 1127
-- [ ] `polity/zangid` — founder Imad al-Din Zangi r. 1127-1146
-- [ ] `polity/zangid` — peak Nur al-Din r. 1146-1174
-- [ ] `polity/zangid` — last Mahmud al-Qahir r. 1219-1233
-- [ ] `polity/zangid` — military basis coded slave-soldier + land-grant
-- [ ] `polity/zangid` — revenue basis coded land-tax + trade-toll
-- [ ] `polity/zangid` — succession rule coded appanage
-- [ ] `polity/zangid` — legitimation coded caliphal-investiture
-- [ ] `polity/zangid` — turning point 1144 Edessa
-- [ ] `polity/zangid` — turning point 1163 The house of justice
-- [ ] `polity/zangid` — religions_carried = 1 (Sunni Islam)
 
 ## Herbert Franke and Denis Twitchett (eds), The Cambridge History of China, Volume 6: Alien Regimes and Border States, 907-1368
 
@@ -1351,6 +1355,30 @@ ordinary state, not an item to clear.
 - [ ] `polity/qara-khitai` — religions_carried = 0
 - [ ] `polity/qara-khitai` — ended by conquest in 1218
 
+## R. Stephen Humphreys, From Saladin to the Mongols: The Ayyubids of Damascus 1193-1260
+
+`humphreys-1977` — 19 claims
+
+- [ ] `chapter/ayyubid/05-a-family-not-a-state.mdx` — prose: "A family, not a state"
+- [ ] `chapter/ayyubid/06-al-adil.mdx` — prose: "The brother who put it back together"
+- [ ] `chapter/ayyubid/07-jerusalem-by-treaty.mdx` — prose: "Jerusalem, given back"
+- [ ] `chapter/ayyubid/08-mansura.mdx` — prose: "Mansura, and the regiment that stayed"
+- [ ] `chapter/zangid/05-the-officer-they-sent-to-egypt.mdx` — prose: "The officer they sent to Egypt"
+- [ ] `edge/fatimid->ayyubid` — overthrew in 1171
+- [ ] `polity/ayyubid` — span starts 1171
+- [ ] `polity/ayyubid` — span ends 1250
+- [ ] `polity/ayyubid` — capital Cairo from 1171
+- [ ] `polity/ayyubid` — capital Damascus from 1174
+- [ ] `polity/ayyubid` — peak al-Adil I r. 1200-1218
+- [ ] `polity/ayyubid` — last al-Nasir Yusuf r. 1250-1260
+- [ ] `polity/ayyubid` — succession rule coded appanage
+- [ ] `polity/ayyubid` — turning point 1193 Saladin's death
+- [ ] `polity/ayyubid` — turning point 1229 The Treaty of Jaffa
+- [ ] `polity/ayyubid` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/fatimid` — ended by internal usurpation in 1171
+- [ ] `polity/zangid` — turning point 1169 Shirkuh dies two months into the vizierate
+- [ ] `polity/zangid` — ended by gradual absorption in 1250
+
 ## L. P. Harvey, Islamic Spain, 1250 to 1500
 
 `harvey-1990` — 19 claims
@@ -1560,25 +1588,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/samanid` — descendant_scripts = 0
 - [ ] `polity/samanid` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/samanid` — ended by conquest in 999
-
-## R. Stephen Humphreys, From Saladin to the Mongols: The Ayyubids of Damascus 1193-1260
-
-`humphreys-1977` — 14 claims
-
-- [ ] `chapter/ayyubid/02-confederation.mdx` — prose: "A family, not a state"
-- [ ] `chapter/zangid/05-the-officer-they-sent-to-egypt.mdx` — prose: "The officer they sent to Egypt"
-- [ ] `edge/fatimid->ayyubid` — overthrew in 1171
-- [ ] `polity/ayyubid` — span starts 1171
-- [ ] `polity/ayyubid` — span ends 1250
-- [ ] `polity/ayyubid` — capital Cairo from 1171
-- [ ] `polity/ayyubid` — capital Damascus from 1174
-- [ ] `polity/ayyubid` — peak al-Adil I r. 1200-1218
-- [ ] `polity/ayyubid` — last al-Nasir Yusuf r. 1250-1260
-- [ ] `polity/ayyubid` — succession rule coded appanage
-- [ ] `polity/ayyubid` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/fatimid` — ended by internal usurpation in 1171
-- [ ] `polity/zangid` — turning point 1169 Shirkuh dies two months into the vizierate
-- [ ] `polity/zangid` — ended by gradual absorption in 1250
 
 ## Heribert Busse, Iran under the Buyids
 *In The Cambridge History of Iran, Volume 4.*
@@ -2094,6 +2103,16 @@ ordinary state, not an item to clear.
 - [ ] `polity/saffarid` — capital Zarang from 861
 - [ ] `polity/saffarid` — descendant_scripts = 0
 - [ ] `polity/saffarid` — religions_carried = 0
+
+## Anne-Marie Eddé, trans. Jane Marie Todd, Saladin
+
+`edde-2011` — 5 claims
+
+- [ ] `chapter/ayyubid/02-the-sunni-turn.mdx` — prose: "What Saladin did to Egypt"
+- [ ] `polity/ayyubid` — military basis coded land-grant + slave-soldier
+- [ ] `polity/ayyubid` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/ayyubid` — legitimation coded caliphal-investiture
+- [ ] `polity/ayyubid` — turning point 1171 The Abbasid khutba restored in Cairo
 
 ## Patricia Crone and Martin Hinds, God's Caliph: Religious Authority in the First Centuries of Islam
 *In University of Cambridge Oriental Publications 37.*
