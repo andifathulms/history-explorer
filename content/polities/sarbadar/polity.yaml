@@ -1,0 +1,111 @@
+id: sarbadar
+region: later-iran
+
+name:
+  latin: Sarbadars
+  script: سربداران
+  script_lang: fa
+
+span:
+  start: { min: 1337, max: 1337, source: smith-1970 }
+  end: { min: 1381, max: 1381, source: smith-1970 }
+
+identity: >-
+  A state in Khurasan run for forty-four years by a coalition of dervishes and
+  landowners who killed most of their own rulers, and the one polity in this
+  corpus that was not a dynasty.
+
+capitals:
+  - { name: Sabzavar, script: سبزوار, from: 1337, source: smith-1970 }
+
+core_region: Western Khurasan, around Sabzavar and Nishapur
+
+rulers:
+  founder: { name: Abd al-Razzaq, source: smith-1970 }
+  peak: { name: Wajih al-Din Mas'ud, reign: [1338, 1344], source: smith-1970 }
+  last: { name: Ali Mu'ayyad, source: smith-1970 }
+
+scripts_and_languages:
+  administration: [Persian]
+  writing_system: Perso-Arabic
+
+# Not conquered. Ali Mu'ayyad submitted to Timur, invited him into Khurasan
+# against his own neighbours, and entered his service; the Sarbadar territory
+# passed into the Timurid state without a siege.
+ended:
+  type: gradual absorption
+  by: [timurid]
+  year: 1381
+  source: smith-1970
+
+institutions:
+  # Null for the third reason, and the distinction is worth keeping. Usually a
+  # null here means no consulted source addresses the question. Sometimes it
+  # means the polity had a real arrangement the vocabulary cannot name. This is
+  # the second kind. The Sarbadar force was the movement in arms — the armed
+  # following of a dervish brotherhood alongside the retainers of the
+  # landowners who had risen with it — and none of `tribal-levy`,
+  # `client-levy`, `conscript`, `land-grant`, `slave-soldier`, `mercenary` or
+  # `standing-professional` describes a religious order's membership under
+  # arms. Coding it `conscript` would assert an administrative obligation that
+  # did not exist. See the third chapter.
+  military_basis: null
+  # The land tax of the Sabzavar district and western Khurasan — the thing the
+  # revolt of 1337 began over, collected afterwards by the people who had
+  # revolted.
+  revenue_basis: { values: [land-tax], source: smith-1970 }
+  # `factional`, which coding rule 7 built for the Mamluks and describes this
+  # case exactly: no rule, a leadership that went to whichever faction could
+  # impose its man, and about a dozen rulers in forty-four years of whom most
+  # were killed by their own side. It is worth noticing that the corpus's two
+  # clearest instances are a slave-soldier sultanate in Cairo and a coalition
+  # of dervishes and landowners in Khurasan, which arrived at the same answer
+  # from opposite directions.
+  succession_rule: { values: [factional], source: smith-1970 }
+  # The dervish faction's claim was the hidden imam's, and the reports of a
+  # horse kept saddled at Sabzavar against his return are the form it took in
+  # public. The landowning faction had no comparable claim and did not need
+  # one, which is part of why the two could not share a state.
+  legitimation: { values: [divine-sanction], source: smith-1970 }
+
+turning_points:
+  - year: 1337
+    type: revolt
+    name: "Bashtin"
+    changed: >-
+      A landowner killed a tax official in a village near Sabzavar and the
+      district rose behind him, took the town and did not give it back. It is
+      the only polity in this corpus that begins with a tax collector, and the
+      thing it built lasted forty-four years in country the Ilkhanate had held
+      six months earlier.
+    source: smith-1970
+    contested: false
+  - year: 1342
+    type: battle
+    name: "Zawa"
+    changed: >-
+      Shaykh Hasan Juri, who led the dervish half of the movement, was killed
+      during the battle — by his own side, according to the accounts the
+      chronicles preferred. It removed the one figure whose authority both
+      factions accepted, and the state spent its remaining thirty-nine years
+      alternating between them rather than combining them.
+    source: smith-1970
+    contested: true
+  - year: 1344
+    type: battle
+    name: "Mas'ud in Mazandaran"
+    changed: >-
+      The ablest of the Sarbadar leaders was defeated and killed campaigning
+      north, which ended the expansion. Everything after this is a state
+      holding western Khurasan and quarrelling internally, and no later leader
+      lasted long enough to try anything else.
+    source: smith-1970
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1936 claims across 107 sources.**
+**1956 claims across 108 sources.**
 
 ## Where to start
 
@@ -1589,6 +1589,34 @@ ordinary state, not an item to clear.
 - [ ] `polity/qara-khitai` — turning point 1211 Kuchlug takes the gurkhanate
 - [ ] `polity/qara-khitai` — religions_carried = 0
 - [ ] `polity/qara-khitai` — ended by conquest in 1218
+
+## John Masson Smith, Jr., The History of the Sarbadar Dynasty 1336-1381 A.D. and its Sources
+*In Publications in Near and Middle East Studies, Series A, 11.*
+
+`smith-1970` — 20 claims
+
+**Sole source** for `sarbadar` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/sarbadar/01-heads-on-the-gallows.mdx` — prose: "Heads on the gallows"
+- [ ] `chapter/sarbadar/02-two-parties.mdx` — prose: "Two parties in one town"
+- [ ] `chapter/sarbadar/03-not-a-dynasty.mdx` — prose: "Not a dynasty"
+- [ ] `chapter/sarbadar/04-the-horse.mdx` — prose: "The saddled horse"
+- [ ] `chapter/sarbadar/05-ali-muayyad.mdx` — prose: "The last one invited Timur in"
+- [ ] `edge/ilkhanate->sarbadar` — seceded from in 1337
+- [ ] `edge/sarbadar->timurid` — absorbed remnants of in 1381
+- [ ] `polity/sarbadar` — span starts 1337
+- [ ] `polity/sarbadar` — span ends 1381
+- [ ] `polity/sarbadar` — capital Sabzavar from 1337
+- [ ] `polity/sarbadar` — founder Abd al-Razzaq
+- [ ] `polity/sarbadar` — peak Wajih al-Din Mas'ud r. 1338-1344
+- [ ] `polity/sarbadar` — last Ali Mu'ayyad
+- [ ] `polity/sarbadar` — revenue basis coded land-tax
+- [ ] `polity/sarbadar` — succession rule coded factional
+- [ ] `polity/sarbadar` — legitimation coded divine-sanction
+- [ ] `polity/sarbadar` — turning point 1337 Bashtin
+- [ ] `polity/sarbadar` — turning point 1342 Zawa (contested)
+- [ ] `polity/sarbadar` — turning point 1344 Mas'ud in Mazandaran
+- [ ] `polity/sarbadar` — ended by gradual absorption in 1381
 
 ## R. Stephen Humphreys, From Saladin to the Mongols: The Ayyubids of Damascus 1193-1260
 

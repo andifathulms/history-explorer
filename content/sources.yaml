@@ -1086,6 +1086,21 @@ sources:
       state needed. Cited because this site had disposed of a hundred years and
       the fall of a capital in one sentence.
 
+  - id: smith-1970
+    kind: book
+    author: "John Masson Smith, Jr."
+    title: "The History of the Sarbadar Dynasty 1336-1381 A.D. and its Sources"
+    container: "Publications in Near and Middle East Studies, Series A, 11"
+    publisher: Mouton
+    year: 1970
+    note: >-
+      The monograph on a polity that is hard to write about because its own
+      records do not survive and the chronicles that describe it were written
+      by people who disapproved. Smith works the coins and the inscriptions
+      alongside the literary sources, which matters here: the numismatic
+      evidence is most of what establishes who was actually ruling in a state
+      that changed rulers a dozen times in forty-four years.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors
