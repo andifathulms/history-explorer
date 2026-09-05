@@ -73,11 +73,13 @@ const bare = (id: string, sMin: number, sMax: number, eMin: number, eMax: number
       end: { min: eMin, max: eMax, source: 's' },
     },
     identity: '',
+    banner: null,
     capitals: [],
     core_region: '',
     rulers: { founder: null, peak: null, last: null },
     scripts_and_languages: { administration: [], writing_system: null },
     ended: null,
+    banner: null,
     institutions: {
       military_basis: null,
       revenue_basis: null,
