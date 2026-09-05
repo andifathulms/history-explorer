@@ -1076,3 +1076,13 @@ edges:
            years after Constantinople."
     source: finkel-2005
     contested: false
+
+  - from: cilician-armenia
+    to: mamluk-sultanate
+    type: conquered by
+    year: 1375
+    note: "Raided at intervals from 1266 for having ridden with the Mongols,
+           reduced to tribute by 1285, and finished when Sis fell in April
+           1375; the last king died in exile in Paris."
+    source: petry-1998
+    contested: false

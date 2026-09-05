@@ -1,0 +1,94 @@
+id: cilician-armenia
+region: anatolia
+
+name:
+  latin: Armenian Kingdom of Cilicia
+  script: Կիլիկիայի Հայկական Թագավորություն
+  script_lang: hy
+
+# 1080 is Ruben's principality and 1198 the coronation of Levon I; one is a
+# lordship in the mountains and the other a kingdom recognised by two emperors
+# and a pope, and the sources use both as the beginning.
+span:
+  start: { min: 1080, max: 1198, source: peacock-yildiz-2013 }
+  end: { min: 1375, max: 1375, source: petry-1998 }
+
+identity: >-
+  An Armenian state built six hundred miles from Armenia by people displaced
+  after Manzikert, which allied with crusaders and then with Mongols, and was
+  destroyed by the Mamluks.
+
+capitals:
+  - { name: Sis, script: Սիս, source: peacock-yildiz-2013 }
+
+core_region: Cilicia, between the Taurus mountains and the Mediterranean
+
+rulers:
+  founder: { name: Ruben I, reign: [1080, 1095], source: peacock-yildiz-2013 }
+  peak: { name: Levon I, reign: [1198, 1219], source: peacock-yildiz-2013 }
+  last: { name: Levon V, reign: [1374, 1375], source: petry-1998 }
+
+scripts_and_languages:
+  administration: [Armenian, Greek, Latin]
+  writing_system: Armenian
+
+ended:
+  type: conquest
+  by: [mamluk-sultanate]
+  year: 1375
+  source: petry-1998
+
+institutions:
+  # A landed nobility holding castles on service terms, reorganised on
+  # explicitly Frankish lines after the crusader states arrived — the barons,
+  # the offices and much of the vocabulary were borrowed.
+  military_basis: { values: [land-grant], source: peacock-yildiz-2013 }
+  # Ayas on the gulf was one of the great transit ports of the thirteenth
+  # century, where the route from Tabriz reached the Mediterranean, and the
+  # Genoese and Venetians held quarters there.
+  revenue_basis: { values: [trade-toll, land-tax], source: peacock-yildiz-2013 }
+  succession_rule: null
+  legitimation: { values: [descent], source: peacock-yildiz-2013 }
+
+turning_points:
+  - year: 1198
+    type: reform
+    name: "A crown from two emperors"
+    changed: >-
+      Levon was crowned king at Tarsus with recognition from the western
+      emperor and the pope, and a crown from Byzantium besides. A refugee
+      lordship in the Taurus became a kingdom that the Latin and Greek worlds
+      both acknowledged, at the price of a church union with Rome that the
+      Armenian clergy and population largely refused.
+    source: peacock-yildiz-2013
+    contested: false
+  - year: 1253
+    type: treaty
+    name: "Hetum goes to Karakorum"
+    changed: >-
+      Ten years after Kosedag the king travelled to Mongolia in person and
+      submitted, and got terms: protection, tax privileges for the Armenian
+      church, and an ally against the Muslim powers to the south. Alone among
+      the states of the region Cilicia chose the Mongols before it had to, and
+      for fifty years that was the correct bet.
+    source: jackson-2017
+    contested: false
+  - year: 1266
+    type: battle
+    name: "Mari"
+    changed: >-
+      The first great Mamluk invasion beat the Armenian army, sacked Sis and
+      carried off the population of the plain. Cilicia had backed the Mongols
+      and the Mongols had lost at Ayn Jalut six years earlier; from here the
+      kingdom is a tributary being raided at intervals by a power it could not
+      fight and an ally it could not reach.
+    source: petry-1998
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
