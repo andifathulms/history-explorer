@@ -47,6 +47,29 @@ turning_points:
       counter-crusade.
     source: hillenbrand-1999
     contested: false
+  - year: 1148
+    type: reform
+    name: "The bridge over the Batman"
+    changed: >-
+      A single stone arch of nearly forty-one metres, among the widest built
+      anywhere before the modern period, thrown across a river that floods in a
+      country where the alternative was a seasonal ford. It is the first half
+      of what this dynasty spent its quiet on; al-Jazari's machines are the
+      second.
+    source: hillenbrand-1999
+    contested: false
+  - year: 1260
+    type: treaty
+    name: "Qara Arslan submits to Hulegu"
+    changed: >-
+      The ruler of Mardin went to the Mongols in person and kept his rock,
+      which is the ninth of nine sovereignties the branch acknowledged across
+      two hundred and seventy-five years. A power heading somewhere else
+      prefers a tributary on a scarp to a siege, and the Artuqids made sure
+      that preference was always available.
+    source: hillenbrand-1999
+    contested: false
+
 measures:
   reach_km2: null
   peak_population: null

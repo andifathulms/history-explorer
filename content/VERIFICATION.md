@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1662 claims across 89 sources.**
+**1666 claims across 89 sources.**
 
 ## Where to start
 
@@ -948,6 +948,45 @@ ordinary state, not an item to clear.
 - [ ] `polity/uyghur-khaganate` — religions_carried = 1 (Manichaeism)
 - [ ] `polity/uyghur-khaganate` — ended by conquest in 840
 
+## Carole Hillenbrand, The Crusades: Islamic Perspectives
+
+`hillenbrand-1999` — 34 claims
+
+- [ ] `chapter/artuqid/01-the-jazira-in-three-pieces.mdx` — prose: "The Jazira, in three pieces"
+- [ ] `chapter/artuqid/02-the-bridge.mdx` — prose: "The bridge"
+- [ ] `chapter/artuqid/03-two-hundred-and-seventy-five-years-of-somebody-elses.mdx` — prose: "Two hundred and seventy-five years of somebody else's"
+- [ ] `chapter/artuqid/04-the-book-of-machines.mdx` — prose: "The book of machines"
+- [ ] `chapter/ayyubid/01-saladin.mdx` — prose: "Saladin"
+- [ ] `chapter/nizari/03-sinan-and-the-castles-in-syria.mdx` — prose: "The old man of the mountain"
+- [ ] `chapter/zangid/01-edessa.mdx` — prose: "Edessa"
+- [ ] `chapter/zangid/02-nur-al-din.mdx` — prose: "Making the counter-crusade a programme"
+- [ ] `chapter/zangid/03-justice-and-a-hospital.mdx` — prose: "A hospital, and a room to be complained in"
+- [ ] `chapter/zangid/04-the-minbar.mdx` — prose: "A pulpit made in advance"
+- [ ] `edge/zangid->ayyubid` — absorbed remnants of in 1174
+- [ ] `polity/artuqid` — span starts 1102
+- [ ] `polity/artuqid` — span ends 1232
+- [ ] `polity/artuqid` — peak Ilghazi
+- [ ] `polity/artuqid` — military basis coded tribal-levy + land-grant
+- [ ] `polity/artuqid` — revenue basis coded land-tax
+- [ ] `polity/artuqid` — turning point 1119 The Field of Blood
+- [ ] `polity/artuqid` — turning point 1148 The bridge over the Batman
+- [ ] `polity/artuqid` — turning point 1260 Qara Arslan submits to Hulegu
+- [ ] `polity/ayyubid` — founder Salah al-Din (Saladin) r. 1171-1193
+- [ ] `polity/nizari` — turning point 1176 Saladin turns back from Masyaf (contested)
+- [ ] `polity/zangid` — span starts 1127
+- [ ] `polity/zangid` — span ends 1250
+- [ ] `polity/zangid` — capital Aleppo from 1127
+- [ ] `polity/zangid` — founder Imad al-Din Zangi r. 1127-1146
+- [ ] `polity/zangid` — peak Nur al-Din r. 1146-1174
+- [ ] `polity/zangid` — last Mahmud al-Qahir r. 1219-1233
+- [ ] `polity/zangid` — military basis coded slave-soldier + land-grant
+- [ ] `polity/zangid` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/zangid` — succession rule coded appanage
+- [ ] `polity/zangid` — legitimation coded caliphal-investiture
+- [ ] `polity/zangid` — turning point 1144 Edessa
+- [ ] `polity/zangid` — turning point 1163 The house of justice
+- [ ] `polity/zangid` — religions_carried = 1 (Sunni Islam)
+
 ## Herbert Franke and Denis Twitchett (eds), The Cambridge History of China, Volume 6: Alien Regimes and Border States, 907-1368
 
 `franke-twitchett-1994` — 34 claims
@@ -986,41 +1025,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/yuan` — peak Kublai Khan r. 1271-1294
 - [ ] `polity/yuan` — last Toghon Temur r. 1333-1368
 - [ ] `polity/yuan` — descendant_scripts = 1 (Phags-pa script)
-
-## Carole Hillenbrand, The Crusades: Islamic Perspectives
-
-`hillenbrand-1999` — 30 claims
-
-- [ ] `chapter/artuqid/01-the-jazira-in-three-pieces.mdx` — prose: "The Jazira, in three pieces"
-- [ ] `chapter/artuqid/02-the-book-of-machines.mdx` — prose: "The book of machines"
-- [ ] `chapter/ayyubid/01-saladin.mdx` — prose: "Saladin"
-- [ ] `chapter/nizari/03-sinan-and-the-castles-in-syria.mdx` — prose: "The old man of the mountain"
-- [ ] `chapter/zangid/01-edessa.mdx` — prose: "Edessa"
-- [ ] `chapter/zangid/02-nur-al-din.mdx` — prose: "Making the counter-crusade a programme"
-- [ ] `chapter/zangid/03-justice-and-a-hospital.mdx` — prose: "A hospital, and a room to be complained in"
-- [ ] `chapter/zangid/04-the-minbar.mdx` — prose: "A pulpit made in advance"
-- [ ] `edge/zangid->ayyubid` — absorbed remnants of in 1174
-- [ ] `polity/artuqid` — span starts 1102
-- [ ] `polity/artuqid` — span ends 1232
-- [ ] `polity/artuqid` — peak Ilghazi
-- [ ] `polity/artuqid` — military basis coded tribal-levy + land-grant
-- [ ] `polity/artuqid` — revenue basis coded land-tax
-- [ ] `polity/artuqid` — turning point 1119 The Field of Blood
-- [ ] `polity/ayyubid` — founder Salah al-Din (Saladin) r. 1171-1193
-- [ ] `polity/nizari` — turning point 1176 Saladin turns back from Masyaf (contested)
-- [ ] `polity/zangid` — span starts 1127
-- [ ] `polity/zangid` — span ends 1250
-- [ ] `polity/zangid` — capital Aleppo from 1127
-- [ ] `polity/zangid` — founder Imad al-Din Zangi r. 1127-1146
-- [ ] `polity/zangid` — peak Nur al-Din r. 1146-1174
-- [ ] `polity/zangid` — last Mahmud al-Qahir r. 1219-1233
-- [ ] `polity/zangid` — military basis coded slave-soldier + land-grant
-- [ ] `polity/zangid` — revenue basis coded land-tax + trade-toll
-- [ ] `polity/zangid` — succession rule coded appanage
-- [ ] `polity/zangid` — legitimation coded caliphal-investiture
-- [ ] `polity/zangid` — turning point 1144 Edessa
-- [ ] `polity/zangid` — turning point 1163 The house of justice
-- [ ] `polity/zangid` — religions_carried = 1 (Sunni Islam)
 
 ## C. E. Bosworth, The Political and Dynastic History of the Iranian World (A.D. 1000-1217)
 *In The Cambridge History of Iran, Volume 5.*
