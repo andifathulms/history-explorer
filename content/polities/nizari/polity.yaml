@@ -1,0 +1,98 @@
+id: nizari
+region: iranian-intermezzo
+
+name:
+  latin: Nizari Isma'ili State
+  script: دولت نزاری اسماعیلی
+  script_lang: fa
+
+# 1090 is the seizure of Alamut. The end is a genuine range and is kept as one:
+# Alamut fell in December 1256, but Girdkuh held out to 1270 and the Syrian
+# castles were taken by the Mamluks between 1270 and 1273. Which of those is
+# the end depends on whether the state is the centre or the network.
+span:
+  start: { min: 1090, max: 1090, source: daftary-2007 }
+  end: { min: 1256, max: 1273, source: daftary-2007 }
+
+identity: >-
+  A state made of dispersed mountain fortresses in Iran and Syria, held by a
+  religious hierarchy rather than a dynasty, which never controlled a
+  contiguous territory and survived inside hostile ones for a century and a
+  half.
+
+capitals:
+  - { name: Alamut, script: الموت, from: 1090, to: 1256, source: daftary-2007 }
+
+core_region: The Alborz, Quhistan, and the Jabal Bahra in Syria
+
+rulers:
+  founder: { name: Hasan-i Sabbah, reign: [1090, 1124], source: daftary-2007 }
+  peak: { name: Hasan II, reign: [1162, 1166], source: daftary-2007 }
+  last: { name: Rukn al-Din Khurshah, reign: [1255, 1256], source: daftary-2007 }
+
+scripts_and_languages:
+  administration: [Persian, Arabic]
+  writing_system: Perso-Arabic
+
+ended:
+  type: conquest
+  by: [mongol, mamluk-sultanate]
+  year: 1256
+  source: daftary-2007
+
+institutions:
+  # Null, and this one is the vocabulary's limit rather than the sources'. The
+  # Nizari fortresses were garrisoned from the converted local populations of
+  # the valleys they stood in, under a religious hierarchy of da'is rather than
+  # commanders. That is not a tribal levy, a client levy, a conscription, a
+  # land grant, a purchase or a hire, and coding it as the nearest of those
+  # would say something untrue. Coding rule 4 in part three applies: the answer
+  # is null or a vocabulary change argued on the merits, never the nearest
+  # familiar label.
+  military_basis: null
+  revenue_basis: { values: [land-tax], source: daftary-2007 }
+  # Nass, as with the Fatimids from whom this line separated: the imam
+  # designates. It is the same doctrine, and the 1094 dispute over which
+  # designation was valid is what produced this polity.
+  succession_rule: { values: [nomination], source: daftary-2007 }
+  legitimation: { values: [descent, divine-sanction], source: daftary-2007 }
+
+turning_points:
+  - year: 1090
+    type: revolt
+    name: "The seizure of Alamut"
+    changed: >-
+      A mission with no territory acquired a place it could not be removed
+      from, and converted a clandestine network into a polity. The method was
+      the point: the castle was taken by converting the people inside it rather
+      than by besieging it, which is the method the next century and a half
+      repeats across the Alborz, Quhistan and Syria.
+    source: daftary-2007
+    contested: false
+  - year: 1164
+    type: conversion
+    name: "The qiyama"
+    changed: >-
+      Hasan II proclaimed the Resurrection at Alamut and declared the outward
+      law abrogated for those who recognised the imam. A polity that had held
+      its ground for seventy years by being unassailable now separated itself
+      doctrinally as well, and the reversal of the policy a generation later
+      shows how much it had cost.
+    source: daftary-2007
+    contested: false
+
+measures:
+  # Taagepera does not tabulate this polity, and the omission is structural
+  # rather than an oversight: a state of scattered castles and the valleys
+  # under them has no area a dataset of large polities would record. This is
+  # the reach axis meeting a shape it cannot describe, as Srivijaya's page also
+  # says of a different shape.
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried:
+      count: 1
+      items: [Nizari Isma'ilism]
+      source: daftary-2007
+    successor_claims: { count: null, items: [], source: null }

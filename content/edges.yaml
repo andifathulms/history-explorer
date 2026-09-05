@@ -843,3 +843,25 @@ edges:
            to Constantinople with the rest of the state's moveable assets."
     source: banister-2021
     contested: false
+
+  # ---- The Nizari separation ----
+
+  - from: fatimid
+    to: nizari
+    type: partitioned from
+    year: 1094
+    note: "When a vizier put al-Musta'li on the Fatimid throne over his elder
+           brother Nizar, Hasan-i Sabbah backed Nizar's line and took the
+           eastern mission out of Cairo's obedience with him."
+    source: daftary-2007
+    contested: false
+
+  - from: great-seljuk
+    to: nizari
+    type: seceded from
+    year: 1090
+    note: "Alamut stood inside the Seljuk sultanate and was held for it until
+           its garrison converted; the fortresses taken afterwards were carved
+           out of territory the sultans claimed and never recovered."
+    source: daftary-2007
+    contested: false

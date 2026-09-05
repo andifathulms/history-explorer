@@ -418,6 +418,20 @@ sources:
     publisher: Longman
     year: 1996
 
+  - id: daftary-2007
+    kind: book
+    author: Farhad Daftary
+    title: "The Isma'ilis: Their History and Doctrines"
+    edition: 2nd
+    publisher: Cambridge University Press
+    year: 2007
+    note: >-
+      The standard survey of Isma'ili history across twelve centuries, and the
+      source for the Nizari state on this site. Used particularly for its
+      insistence that the Nizaris be read from Isma'ili material rather than
+      from the hostile chronicles and Crusader traveller-tales that supplied
+      almost everything Europe believed about them.
+
   - id: banister-2021
     kind: book
     author: Mustafa Banister
