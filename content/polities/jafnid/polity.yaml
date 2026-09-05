@@ -1,0 +1,112 @@
+id: jafnid
+region: eastern-mediterranean
+
+name:
+  latin: Jafnid Dynasty
+  script: آل جفنة
+  script_lang: ar
+
+# 502 is the conventional date for the Jafnid treaty with Anastasius; 529 is
+# Justinian making al-Harith supreme phylarch over all the Roman Arab allies,
+# which is when the dynasty becomes a single authority rather than one chief
+# among several. Later Arabic tradition runs Ghassan back to the third century;
+# that is a claim about a confederacy, not about this family — see chapter 3.
+span:
+  start: { min: 502, max: 529, source: fisher-2011 }
+  # 582 is the deposition and the deliberate breaking-up of the phylarchate by
+  # Rome; 636 is Yarmuk, where later tradition puts the last of the line.
+  end: { min: 582, max: 636, source: fisher-2011 }
+
+identity: >-
+  The Arab family Rome raised to hold its desert frontier, remembered under the
+  name of the confederacy it led rather than its own.
+
+# The court moved. Jabiya in the Golan is the place the sources return to and
+# the one the Umayyads later used, but calling it a capital imports a fixed
+# seat this polity is not recorded as having had.
+capitals:
+  - { name: Jabiya, script: الجابية, source: fisher-2011 }
+
+core_region: The steppe frontier of Roman Syria, from the Golan and the Hawran to the Euphrates
+
+rulers:
+  founder: { name: Jabala ibn al-Harith, source: fisher-2011 }
+  peak: { name: al-Harith ibn Jabala, reign: [529, 569], source: fisher-2011 }
+  # The line after 582 is disputed. Later Arabic tradition names Jabala ibn
+  # al-Ayham at Yarmuk and this site will not enter him as a fact on the
+  # strength of it.
+  last: { name: null, source: null }
+
+scripts_and_languages:
+  administration: [Greek, Arabic]
+  writing_system: Greek, alongside some of the earliest Arabic-script inscriptions
+
+# Rome dismantled its own client. The supreme phylarch was arrested and exiled
+# and his following divided among fifteen chiefs — a fragmentation carried out
+# deliberately by the polity's patron, which the closed vocabulary has no better
+# word for and which `conquest` would misdescribe entirely.
+ended:
+  type: fragmentation
+  by: [byzantine]
+  year: 582
+  source: fisher-2011
+
+institutions:
+  military_basis: { values: [tribal-levy], source: fisher-2011 }
+  # Roman subsidy. The vocabulary's `tribute` means revenue received from
+  # another polity, and this is that, though the word carries the wrong
+  # implication: Rome was retaining a client, not buying off a threat. The field
+  # asks where the money came from, and the answer is Constantinople.
+  revenue_basis: { values: [tribute], source: fisher-2011 }
+  # Hereditary within the family in practice, and confirmed by the emperor. The
+  # events of 582 settle the question of who actually decided, which is why this
+  # is not coded `primogeniture` and not coded at all.
+  succession_rule: null
+  # A real gap, and worth stating rather than filling. The Jafnids' public
+  # ground was an imperial grant: al-Harith held Roman rank and the phylarchate
+  # from Justinian, and this is structurally the same move as the
+  # `caliphal-investiture` that half this corpus is coded for. The vocabulary
+  # has a value for investiture by a caliph and none for investiture by an
+  # emperor, and `titulature` is not it — a title conferred is not a
+  # predecessor's title claimed. See chapter 5.
+  legitimation: null
+
+turning_points:
+  - year: 529
+    type: reform
+    name: "The supreme phylarchate"
+    changed: >-
+      Justinian put every Roman Arab ally under one man and gave him patrician
+      rank, converting a set of separate agreements with separate chiefs into a
+      single command that could meet the Nasrids of al-Hira on equal terms. It
+      is the act that makes this a polity rather than a list of allies, and
+      Rome undid it in 582 for the same reason it had made it.
+    source: fisher-2011
+    contested: false
+  - year: 554
+    type: battle
+    name: "The killing of al-Mundhir of al-Hira"
+    changed: >-
+      Al-Harith destroyed his Nasrid counterpart, the Persian client who had
+      raided Roman Syria for forty years, and removed the threat the
+      phylarchate had been assembled to answer. A client that has finished its
+      task is a different proposition to its patron, and the following thirty
+      years of Jafnid history are about what Rome then did with one.
+    source: fisher-2011
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    # Counted for the propagation, not the adherence. The Jafnids obtained the
+    # consecration of Miaphysite bishops when the confession had no hierarchy,
+    # endowed churches and shrines along the frontier, and carried a
+    # non-Chalcedonian Christianity to Arab populations that had not held it.
+    # Coding rule 2 excludes a polity's own faith and includes exactly this.
+    religions_carried:
+      count: 1
+      items: [Miaphysite Christianity]
+      source: fisher-2011
+    successor_claims: { count: null, items: [], source: null }

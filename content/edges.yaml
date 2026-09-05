@@ -793,6 +793,26 @@ edges:
     source: chi-3
     contested: false
 
+  - from: byzantine
+    to: jafnid
+    type: vassal of
+    year: 529
+    note: "Justinian put every Roman Arab ally under al-Harith ibn Jabala and
+           gave him patrician rank, paying and confirming a frontier authority
+           that answered raids the regular army could not."
+    source: fisher-2011
+    contested: false
+
+  - from: jafnid
+    to: rashidun
+    type: conquered by
+    year: 636
+    note: "The frontier the phylarchate had held was taken at the Yarmuk fifty-
+           four years after Rome dismantled it; later Arabic tradition places a
+           Jafnid on the Roman side of the battle."
+    source: fisher-2011
+    contested: true
+
   - from: roman
     to: palmyrene
     type: seceded from

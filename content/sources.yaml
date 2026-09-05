@@ -956,6 +956,22 @@ sources:
       The emphasis matters for this site: the caravan city is the polity, and
       Zenobia is what it did once.
 
+  - id: fisher-2011
+    kind: book
+    author: Greg Fisher
+    title: "Between Empires: Arabs, Romans, and Sasanians in Late Antiquity"
+    container: Oxford Classical Monographs
+    publisher: Oxford University Press
+    year: 2011
+    note: >-
+      The study of the Arab clients of Rome and Iran in the century before
+      Islam, and the reason this site's page is called Jafnid rather than
+      Ghassanid. Fisher separates the ruling families — Jafnids, Nasrids,
+      Hujrids — from the confederacies later tradition attached to them
+      (Ghassan, Lakhm, Kinda), and argues that the empires' agreements were with
+      individuals rather than with peoples. That distinction is a claim about
+      what kind of object a polity is, which is this site's own question.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors
