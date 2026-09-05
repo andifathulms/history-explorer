@@ -1,0 +1,93 @@
+id: zaydi-yemen
+region: arabia
+
+name:
+  latin: Zaydi Imamate of Yemen
+  script: الإمامة الزيدية
+  script_lang: ar
+
+# 897 is al-Hadi's arrival at Sa'da and 1962 the revolution that abolished the
+# office. Both dates are firm; what they enclose is not a single continuously
+# governing state, and the third chapter on this page is about that. The span
+# model cannot express an interruption, so the caveat is written rather than
+# encoded.
+span:
+  start: { min: 897, max: 897, source: bosworth-1996 }
+  end: { min: 1962, max: 1962, source: dresch-1989 }
+
+identity: >-
+  An office rather than a dynasty: a qualified descendant of Ali who rose and
+  called for allegiance could become imam, and someone did, in the northern
+  Yemeni highlands, on and off for more than a thousand years.
+
+capitals:
+  - { name: Sa'da, script: صعدة, from: 897, source: bosworth-1996 }
+  - { name: Sana'a, script: صنعاء, source: dresch-1989 }
+
+core_region: The northern highlands of Yemen
+
+rulers:
+  founder: { name: al-Hadi ila'l-Haqq Yahya, reign: [897, 911], source: bosworth-1996 }
+  # Reigns are omitted where the works consulted here were not checked for the
+  # exact years. The names are firm; the dates would be transcription this
+  # site has not done.
+  peak: { name: al-Mu'ayyad Muhammad, source: dresch-1989 }
+  last: { name: Muhammad al-Badr, source: dresch-1989 }
+
+scripts_and_languages:
+  administration: [Arabic]
+  writing_system: Arabic
+
+ended:
+  type: internal usurpation
+  by: []
+  year: 1962
+  source: dresch-1989
+
+institutions:
+  military_basis: { values: [tribal-levy], source: dresch-1989 }
+  revenue_basis: null
+  # Null, and this is the third polity added today where the vocabulary has no
+  # honest value. The Zaydi imam is not designated, not inherited and not
+  # elected: any qualified Alid who satisfies the conditions may claim the
+  # office by rising and calling for allegiance, and becomes imam if enough of
+  # the community answers. `acclamation` describes the answer but not the
+  # claim, and the initiative here lies entirely with the claimant. Coding rule
+  # 4 of part three: null, or a vocabulary change argued on the merits.
+  succession_rule: null
+  # Descent from Ali is a necessary condition and not a sufficient one, which
+  # is what separates this from every other descent claim in the corpus: the
+  # candidate must also be learned, pious and brave enough to satisfy a list of
+  # conditions, and must rise.
+  legitimation: { values: [descent, election], source: dresch-1989 }
+
+turning_points:
+  - year: 1636
+    type: revolt
+    name: "The expulsion of the Ottomans"
+    changed: >-
+      An imamate that had spent most of its history holding highland districts
+      drove an Ottoman provincial administration out of Yemen entirely and
+      ruled the whole country, coast and interior, for the first time. The
+      Qasimid family that did it held the office from then until the end.
+    source: dresch-1989
+    contested: false
+  - year: 1948
+    type: succession-crisis
+    name: "The killing of Imam Yahya"
+    changed: >-
+      The first serious attempt to replace the imamate with something else
+      killed the imam and failed within weeks, and his son recovered the
+      office. It established that the question was now whether Yemen would have
+      an imam at all rather than which Alid it would be, and the answer
+      fourteen years later was no.
+    source: dresch-1989
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1064 claims across 80 sources.**
+**1079 claims across 81 sources.**
 
 ## Where to start
 
@@ -199,6 +199,50 @@ ordinary state, not an item to clear.
 - [ ] `polity/rustamid` — legitimation coded election
 - [ ] `polity/umayyad` — turning point 740 The Berber revolt
 
+## C. E. Bosworth, The New Islamic Dynasties: A Chronological and Genealogical Manual
+
+`bosworth-1996` — 39 claims
+
+- [ ] `chapter/samanid/01-four-brothers.mdx` — prose: "Four brothers and a governorship"
+- [ ] `edge/tahirid->samanid` — vassal of in 819
+- [ ] `polity/abbasid` — span starts 750
+- [ ] `polity/abbasid` — span ends 1258
+- [ ] `polity/abbasid` — founder al-Saffah r. 750-754
+- [ ] `polity/abbasid` — peak Harun al-Rashid r. 786-809
+- [ ] `polity/abbasid` — last al-Musta'sim r. 1242-1258
+- [ ] `polity/abbasid` — ended by conquest in 1258
+- [ ] `polity/buyid` — span starts 934
+- [ ] `polity/buyid` — span ends 1055
+- [ ] `polity/buyid` — founder Ali ibn Buya, Imad al-Dawla r. 934-949
+- [ ] `polity/buyid` — peak Adud al-Dawla r. 949-983
+- [ ] `polity/buyid` — last Abu Nasr al-Malik al-Rahim r. 1048-1055
+- [ ] `polity/ghaznavid` — span start upper bound 977
+- [ ] `polity/ghaznavid` — founder Sebuktigin r. 977-997
+- [ ] `polity/ghurid` — span start upper bound 1011
+- [ ] `polity/ghurid` — capital Ghazna from 1173
+- [ ] `polity/ghurid` — founder Izz al-Din Husayn r. 1100-1146
+- [ ] `polity/great-seljuk` — span starts 1037
+- [ ] `polity/great-seljuk` — founder Tughril I r. 1037-1063
+- [ ] `polity/great-seljuk` — last Tughril III r. 1176-1194
+- [ ] `polity/khwarazmian` — span start upper bound 1097
+- [ ] `polity/khwarazmian` — span ends 1220
+- [ ] `polity/khwarazmian` — capital Samarkand from 1212
+- [ ] `polity/khwarazmian` — founder Anushtigin Gharchai r. 1077-1097
+- [ ] `polity/khwarazmian` — peak Ala al-Din Muhammad II r. 1200-1220
+- [ ] `polity/samanid` — span starts 819
+- [ ] `polity/samanid` — span ends 999
+- [ ] `polity/samanid` — founder Isma'il I ibn Ahmad r. 892-907
+- [ ] `polity/samanid` — peak Nasr II ibn Ahmad r. 914-943
+- [ ] `polity/samanid` — last Isma'il II al-Muntasir r. 1000-1005
+- [ ] `polity/tahirid` — span starts 821
+- [ ] `polity/tahirid` — span ends 873
+- [ ] `polity/tahirid` — founder Tahir I ibn al-Husayn r. 821-822
+- [ ] `polity/tahirid` — peak Abdallah ibn Tahir r. 828-845
+- [ ] `polity/tahirid` — last Muhammad ibn Tahir r. 862-873
+- [ ] `polity/zaydi-yemen` — span starts 897
+- [ ] `polity/zaydi-yemen` — capital Sa'da from 897
+- [ ] `polity/zaydi-yemen` — founder al-Hadi ila'l-Haqq Yahya r. 897-911
+
 ## Carl F. Petry (ed.), The Cambridge History of Egypt, Volume 1: Islamic Egypt 640-1517
 
 `petry-1998` — 39 claims
@@ -244,47 +288,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/tulunid` — revenue basis coded land-tax
 - [ ] `polity/tulunid` — legitimation coded caliphal-investiture
 - [ ] `polity/tulunid` — ended by conquest in 905
-
-## C. E. Bosworth, The New Islamic Dynasties: A Chronological and Genealogical Manual
-
-`bosworth-1996` — 36 claims
-
-- [ ] `chapter/samanid/01-four-brothers.mdx` — prose: "Four brothers and a governorship"
-- [ ] `edge/tahirid->samanid` — vassal of in 819
-- [ ] `polity/abbasid` — span starts 750
-- [ ] `polity/abbasid` — span ends 1258
-- [ ] `polity/abbasid` — founder al-Saffah r. 750-754
-- [ ] `polity/abbasid` — peak Harun al-Rashid r. 786-809
-- [ ] `polity/abbasid` — last al-Musta'sim r. 1242-1258
-- [ ] `polity/abbasid` — ended by conquest in 1258
-- [ ] `polity/buyid` — span starts 934
-- [ ] `polity/buyid` — span ends 1055
-- [ ] `polity/buyid` — founder Ali ibn Buya, Imad al-Dawla r. 934-949
-- [ ] `polity/buyid` — peak Adud al-Dawla r. 949-983
-- [ ] `polity/buyid` — last Abu Nasr al-Malik al-Rahim r. 1048-1055
-- [ ] `polity/ghaznavid` — span start upper bound 977
-- [ ] `polity/ghaznavid` — founder Sebuktigin r. 977-997
-- [ ] `polity/ghurid` — span start upper bound 1011
-- [ ] `polity/ghurid` — capital Ghazna from 1173
-- [ ] `polity/ghurid` — founder Izz al-Din Husayn r. 1100-1146
-- [ ] `polity/great-seljuk` — span starts 1037
-- [ ] `polity/great-seljuk` — founder Tughril I r. 1037-1063
-- [ ] `polity/great-seljuk` — last Tughril III r. 1176-1194
-- [ ] `polity/khwarazmian` — span start upper bound 1097
-- [ ] `polity/khwarazmian` — span ends 1220
-- [ ] `polity/khwarazmian` — capital Samarkand from 1212
-- [ ] `polity/khwarazmian` — founder Anushtigin Gharchai r. 1077-1097
-- [ ] `polity/khwarazmian` — peak Ala al-Din Muhammad II r. 1200-1220
-- [ ] `polity/samanid` — span starts 819
-- [ ] `polity/samanid` — span ends 999
-- [ ] `polity/samanid` — founder Isma'il I ibn Ahmad r. 892-907
-- [ ] `polity/samanid` — peak Nasr II ibn Ahmad r. 914-943
-- [ ] `polity/samanid` — last Isma'il II al-Muntasir r. 1000-1005
-- [ ] `polity/tahirid` — span starts 821
-- [ ] `polity/tahirid` — span ends 873
-- [ ] `polity/tahirid` — founder Tahir I ibn al-Husayn r. 821-822
-- [ ] `polity/tahirid` — peak Abdallah ibn Tahir r. 828-845
-- [ ] `polity/tahirid` — last Muhammad ibn Tahir r. 862-873
 
 ## Herbert Franke and Denis Twitchett (eds), The Cambridge History of China, Volume 6: Alien Regimes and Border States, 907-1368
 
@@ -1049,6 +1052,23 @@ ordinary state, not an item to clear.
 - [ ] `polity/rum` — last Mesud II r. 1284-1308
 - [ ] `polity/rum` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/rum` — ended by gradual absorption in 1308
+
+## Paul Dresch, Tribes, Government, and History in Yemen
+
+`dresch-1989` — 12 claims
+
+- [ ] `chapter/zaydi-yemen/01-invited-to-arbitrate.mdx` — prose: "Invited to arbitrate"
+- [ ] `chapter/zaydi-yemen/02-the-qasimid-century.mdx` — prose: "The century it ruled everything"
+- [ ] `chapter/zaydi-yemen/03-what-a-thousand-years-means.mdx` — prose: "What a thousand years means here"
+- [ ] `polity/zaydi-yemen` — span ends 1962
+- [ ] `polity/zaydi-yemen` — capital Sana'a
+- [ ] `polity/zaydi-yemen` — peak al-Mu'ayyad Muhammad
+- [ ] `polity/zaydi-yemen` — last Muhammad al-Badr
+- [ ] `polity/zaydi-yemen` — military basis coded tribal-levy
+- [ ] `polity/zaydi-yemen` — legitimation coded descent + election
+- [ ] `polity/zaydi-yemen` — turning point 1636 The expulsion of the Ottomans
+- [ ] `polity/zaydi-yemen` — turning point 1948 The killing of Imam Yahya
+- [ ] `polity/zaydi-yemen` — ended by internal usurpation in 1962
 
 ## Heinz Halm, The Empire of the Mahdi: The Rise of the Fatimids
 

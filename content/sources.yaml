@@ -418,6 +418,32 @@ sources:
     publisher: Longman
     year: 1996
 
+  - id: dresch-1989
+    kind: book
+    author: Paul Dresch
+    title: "Tribes, Government, and History in Yemen"
+    publisher: Clarendon Press
+    year: 1989
+    note: >-
+      Combines ethnography with history to describe the tribal system of the
+      northern Yemeni highlands over roughly a thousand years, and the relation
+      of the tribes to Islamic learning and to the Zaydi imamate. Cited here
+      for why an office that had to be claimed rather than inherited lasted so
+      much longer than the states around it.
+
+  - id: wilkinson-1987
+    kind: book
+    author: John C. Wilkinson
+    title: The Imamate Tradition of Oman
+    container: Cambridge Middle East Library
+    publisher: Cambridge University Press
+    year: 1987
+    note: >-
+      Traces regional identity, tribal organisation and political authority in
+      south-eastern Arabia across some twelve hundred years. Cited for the
+      first Ibadi imamate, and for the distinction between an imamate as an
+      office repeatedly reconstituted and a dynasty that persists.
+
   - id: daftary-2007
     kind: book
     author: Farhad Daftary
