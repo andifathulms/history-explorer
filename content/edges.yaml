@@ -945,3 +945,26 @@ edges:
            Nizwa in 893 and killed the imam."
     source: wilkinson-1987
     contested: false
+
+  # ---- The Liao, continued two thousand miles west ----
+
+  - from: liao
+    to: qara-khitai
+    type: claimed legitimacy of
+    year: 1124
+    note: "Yelu Dashi, of the Liao imperial clan, kept the dynastic name, the
+           reign names, the Chinese titles and the Chinese-form coinage after
+           the Jin destroyed the state, and reconstituted them in the
+           Semirechye."
+    source: biran-2005
+    contested: false
+
+  - from: qara-khitai
+    to: mongol
+    type: conquered by
+    year: 1218
+    note: "Jebe's army arrived proclaiming the restoration of religious freedom
+           against the usurper Kuchlug, and the Tarim oases treated it as a
+           deliverance rather than an invasion."
+    source: biran-2005
+    contested: false

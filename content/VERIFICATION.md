@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1176 claims across 85 sources.**
+**1196 claims across 86 sources.**
 
 ## Where to start
 
@@ -741,6 +741,34 @@ ordinary state, not an item to clear.
 - [ ] `polity/cordoba` — turning point 976 Hisham II's minority
 - [ ] `polity/cordoba` — turning point 1009 The fitna of al-Andalus
 - [ ] `polity/cordoba` — ended by fragmentation in 1031
+
+## Michal Biran, The Empire of the Qara Khitai in Eurasian History: Between China and the Islamic World
+*In Cambridge Studies in Islamic Civilization.*
+
+`biran-2005` — 20 claims
+
+**Sole source** for `qara-khitai` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/qara-khitai/01-a-dynasty-in-exile.mdx` — prose: "A dynasty that walked west"
+- [ ] `chapter/qara-khitai/02-qatwan.mdx` — prose: "The day Transoxiana stopped being Muslim-ruled"
+- [ ] `chapter/qara-khitai/03-how-to-rule-what-you-cannot-outnumber.mdx` — prose: "How to rule what you cannot outnumber"
+- [ ] `chapter/qara-khitai/04-kuchlug.mdx` — prose: "The refugee who wrecked it"
+- [ ] `edge/liao->qara-khitai` — claimed legitimacy of in 1124
+- [ ] `edge/qara-khitai->mongol` — conquered by in 1218
+- [ ] `polity/qara-khitai` — span starts 1124
+- [ ] `polity/qara-khitai` — span ends 1218
+- [ ] `polity/qara-khitai` — capital Balasaghun from 1134
+- [ ] `polity/qara-khitai` — founder Yelu Dashi r. 1124-1143
+- [ ] `polity/qara-khitai` — peak Yelu Dashi r. 1124-1143
+- [ ] `polity/qara-khitai` — last Kuchlug r. 1211-1218
+- [ ] `polity/qara-khitai` — military basis coded tribal-levy
+- [ ] `polity/qara-khitai` — revenue basis coded tribute
+- [ ] `polity/qara-khitai` — succession rule coded nomination
+- [ ] `polity/qara-khitai` — legitimation coded descent + titulature
+- [ ] `polity/qara-khitai` — turning point 1141 Qatwan
+- [ ] `polity/qara-khitai` — turning point 1211 Kuchlug takes the gurkhanate
+- [ ] `polity/qara-khitai` — religions_carried = 0
+- [ ] `polity/qara-khitai` — ended by conquest in 1218
 
 ## Peter Jackson, The Delhi Sultanate: A Political and Military History
 

@@ -687,6 +687,20 @@ sources:
     publisher: Indiana University Press
     year: 1985
 
+  - id: biran-2005
+    kind: book
+    author: Michal Biran
+    title: "The Empire of the Qara Khitai in Eurasian History: Between China and the Islamic World"
+    container: Cambridge Studies in Islamic Civilization
+    publisher: Cambridge University Press
+    year: 2005
+    note: >-
+      The first monograph in a Western language on a dynasty four chapters of
+      this site were already leaning on. Used for the whole Qara Khitai record:
+      the Chinese imperial forms retained two thousand miles from China, the
+      indirect rule through Muslim vassals, and the religious policy that its
+      last ruler reversed.
+
   - id: biran-1997
     kind: book
     author: Michal Biran

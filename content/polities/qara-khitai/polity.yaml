@@ -1,0 +1,98 @@
+id: qara-khitai
+region: inner-asia
+
+name:
+  latin: Qara Khitai
+  script: 西遼
+  script_lang: zh
+
+# 1124 is Yelu Dashi raising his standard in the north after the Liao collapse;
+# 1134 is the taking of Balasaghun, from which there is a state with a capital.
+# The first is a claimant in flight and the second is an empire.
+span:
+  start: { min: 1124, max: 1134, source: biran-2005 }
+  end: { min: 1218, max: 1218, source: biran-2005 }
+
+identity: >-
+  A Chinese dynasty in exile ruling Muslim Central Asia: Buddhist Khitans who
+  kept Liao imperial forms two thousand miles from China, governed through
+  local vassals, and left their subjects' religion alone.
+
+capitals:
+  - { name: Balasaghun, from: 1134, source: biran-2005 }
+
+core_region: Transoxiana, Semirechye and the Tarim basin, held through vassals
+
+rulers:
+  founder: { name: Yelu Dashi, script: 耶律大石, reign: [1124, 1143], source: biran-2005 }
+  peak: { name: Yelu Dashi, script: 耶律大石, reign: [1124, 1143], source: biran-2005 }
+  # Not a Khitan and not of the house: a Naiman prince who took refuge here
+  # after the Mongols broke his own people, usurped the gurkhanate in 1211, and
+  # reversed the one policy that had made the empire tolerable to its subjects.
+  last: { name: Kuchlug, reign: [1211, 1218], source: biran-2005 }
+
+scripts_and_languages:
+  administration: [Chinese, Persian, Khitan]
+  writing_system: Chinese
+
+ended:
+  type: conquest
+  by: [mongol]
+  year: 1218
+  source: biran-2005
+
+institutions:
+  military_basis: { values: [tribal-levy], source: biran-2005 }
+  # They ruled through vassals and took what the vassals remitted. The
+  # Karakhanids on this site's Iranian Intermezzo page are described as their
+  # tax collectors, which is precisely the arrangement: a small ruling group
+  # over a large sedentary population it did not administer directly.
+  revenue_basis: { values: [tribute], source: biran-2005 }
+  # Designation within the house, and unusually the house included women:
+  # Dashi's widow ruled as regent and his daughter later ruled in her own name,
+  # which almost nothing else in this corpus records.
+  succession_rule: { values: [nomination], source: biran-2005 }
+  # Descent from the Liao imperial clan, and the Liao imperial style kept whole
+  # — dynastic name, reign names, Chinese titles, Chinese-form coinage — in a
+  # country where none of it meant anything to anybody.
+  legitimation: { values: [descent, titulature], source: biran-2005 }
+
+turning_points:
+  - year: 1141
+    type: battle
+    name: "Qatwan"
+    changed: >-
+      A Buddhist steppe army destroyed the Seljuk sultan Sanjar outside
+      Samarkand, which made Transoxiana tributary to a non-Muslim power for the
+      first time since the conquests and reduced the Karakhanids and Khwarazm
+      to vassals. Reports of a great non-Muslim king defeating a Muslim empire
+      in the east reached Europe soon afterwards and are generally thought to
+      lie behind the Prester John story.
+    source: biran-2005
+    contested: false
+  - year: 1211
+    type: revolt
+    name: "Kuchlug takes the gurkhanate"
+    changed: >-
+      A Naiman prince who had taken refuge here after the Mongols broke his own
+      people usurped the throne, and then did the one thing his predecessors
+      never had: he persecuted his Muslim subjects, closing mosques and forcing
+      conversions. Seven years later the population of the Tarim oases treated
+      an approaching Mongol army as a deliverance.
+    source: biran-2005
+    contested: false
+
+measures:
+  # No dataset in the consulted set tabulates this polity, which is
+  # characteristic rather than accidental: an empire held through vassals has
+  # no boundary of the kind an extent series records.
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    # They carried nothing and propagated nothing. Buddhist rulers who left an
+    # overwhelmingly Muslim population alone are the opposite of the case the
+    # coding rules count, and the sources address it directly, so this is 0
+    # rather than a gap.
+    religions_carried: { count: 0, items: [], source: biran-2005 }
+    successor_claims: { count: null, items: [], source: null }
