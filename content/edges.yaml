@@ -674,6 +674,17 @@ edges:
     source: manz-1989
     contested: false
 
+  - from: shirvanshah
+    to: safavid
+    type: conquered by
+    year: 1538
+    note: "Isma'il killed Farrukh Yasar in 1500 in the first campaign he ever
+           fought — revenge for a father and a grandfather the Shirvanshahs had
+           killed — and Tahmasp deposed the last of the line thirty-eight years
+           later and governed Shirvan from Tabriz."
+    source: newman-2006
+    contested: false
+
   - from: golden-horde
     to: shaybanid
     type: partitioned from

@@ -1163,6 +1163,18 @@ sources:
       corpus had been naming in prose on two pages while leaving the field that
       should point at it empty.
 
+  - id: minorsky-1958
+    kind: book
+    author: Vladimir Minorsky
+    title: "A History of Sharvan and Darband in the 10th-11th Centuries"
+    publisher: W. Heffer & Sons
+    year: 1958
+    note: >-
+      An edition, translation and commentary of the local chronicle that is
+      almost the only narrative source for the eastern Caucasus in these two
+      centuries. It exists because Minorsky reconstructed the text from a later
+      compilation; without it the Shirvanshahs would be a king-list with dates.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors

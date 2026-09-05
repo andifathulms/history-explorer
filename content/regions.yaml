@@ -183,3 +183,18 @@ regions:
       taxed in another, and the Arab powers that grew in the space between Rome
       and Iran.
     thread: false
+
+  # Added with thread: false, per the workflow rule. The Shirvanshahs span 799
+  # to 1538 and belong to no region this site had: the Iranian Intermezzo is
+  # bounded by the Mongol arrival, Iran after the Mongols begins in 1335, and
+  # the isthmus was in neither as a matter of geography or of what its dynasties
+  # thought they were. Georgia, Armenia and Derbend are the obvious further
+  # members and none of them is here yet.
+  - id: caucasus
+    name: The Caucasus
+    blurb: >-
+      The isthmus between the Black Sea and the Caspian: a corridor every empire
+      on either side wanted, none could cheaply hold, and all of them marched
+      through — where local houses survived by being expensive to take and
+      useful to leave alone.
+    thread: false

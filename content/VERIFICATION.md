@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**2062 claims across 113 sources.**
+**2080 claims across 114 sources.**
 
 ## Where to start
 
@@ -262,10 +262,11 @@ ordinary state, not an item to clear.
 
 ## C. E. Bosworth, The New Islamic Dynasties: A Chronological and Genealogical Manual
 
-`bosworth-1996` — 101 claims
+`bosworth-1996` — 107 claims
 
 - [ ] `chapter/kakuyid/04-the-last-one-died-at-qatwan.mdx` — prose: "The last one died at Qatwan"
 - [ ] `chapter/samanid/01-four-brothers.mdx` — prose: "Four brothers and a governorship"
+- [ ] `chapter/shirvanshah/04-baku.mdx` — prose: "Baku"
 - [ ] `edge/artuqid->karakoyunlu` — conquered by in 1409
 - [ ] `edge/great-seljuk->artuqid` — seceded from in 1102
 - [ ] `edge/kakuyid->great-seljuk` — conquered by in 1051
@@ -349,6 +350,11 @@ ordinary state, not an item to clear.
 - [ ] `polity/samanid` — founder Isma'il I ibn Ahmad r. 892-907
 - [ ] `polity/samanid` — peak Nasr II ibn Ahmad r. 914-943
 - [ ] `polity/samanid` — last Isma'il II al-Muntasir r. 1000-1005
+- [ ] `polity/shirvanshah` — span ends 1500
+- [ ] `polity/shirvanshah` — capital Baku from 1417
+- [ ] `polity/shirvanshah` — peak Khalilullah I r. 1417-1465
+- [ ] `polity/shirvanshah` — turning point 1386 Ibrahim I submits to Timur
+- [ ] `polity/shirvanshah` — ended by conquest in 1538
 - [ ] `polity/tahirid` — span starts 821
 - [ ] `polity/tahirid` — span ends 873
 - [ ] `polity/tahirid` — founder Tahir I ibn al-Husayn r. 821-822
@@ -1294,6 +1300,36 @@ ordinary state, not an item to clear.
 - [ ] `polity/ottoman` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/ottoman` — ended by fragmentation in 1922
 
+## Andrew J. Newman, Safavid Iran: Rebirth of a Persian Empire
+
+`newman-2006` — 25 claims
+
+- [ ] `chapter/safavid/02-1501.mdx` — prose: "A confession imposed by decree"
+- [ ] `chapter/safavid/04-abbas.mdx` — prose: "Abbas breaks his own army"
+- [ ] `chapter/safavid/05-isfahan.mdx` — prose: "Isfahan"
+- [ ] `chapter/safavid/06-the-clergy.mdx` — prose: "The scholars they imported"
+- [ ] `chapter/shirvanshah/05-farrukh-yasar.mdx` — prose: "The debt Isma'il collected"
+- [ ] `edge/akkoyunlu->safavid` — conquered by in 1508
+- [ ] `edge/shirvanshah->safavid` — conquered by in 1538
+- [ ] `edge/timurid->safavid` — absorbed remnants of in 1501
+- [ ] `polity/akkoyunlu` — span ends 1501
+- [ ] `polity/akkoyunlu` — ended by conquest in 1508
+- [ ] `polity/safavid` — span starts 1501
+- [ ] `polity/safavid` — span ends 1736
+- [ ] `polity/safavid` — capital Tabriz from 1501
+- [ ] `polity/safavid` — capital Qazvin from 1555
+- [ ] `polity/safavid` — capital Isfahan from 1598
+- [ ] `polity/safavid` — founder Isma'il I r. 1501-1524
+- [ ] `polity/safavid` — peak Abbas I r. 1588-1629
+- [ ] `polity/safavid` — last Abbas III r. 1732-1736
+- [ ] `polity/safavid` — military basis coded tribal-levy + slave-soldier
+- [ ] `polity/safavid` — revenue basis coded land-tax + monopoly
+- [ ] `polity/safavid` — turning point 1501 The Shi’i decree at Tabriz
+- [ ] `polity/safavid` — turning point 1598 Isfahan
+- [ ] `polity/safavid` — religions_carried = 1 (Twelver Shi'ism)
+- [ ] `polity/shirvanshah` — last Farrukh Yasar r. 1465-1500
+- [ ] `polity/shirvanshah` — turning point 1500 The killing of Farrukh Yasar
+
 ## Nicola Di Cosmo, Allen J. Frank and Peter B. Golden (eds), The Cambridge History of Inner Asia: The Chinggisid Age
 
 `di-cosmo-2009` — 24 claims
@@ -1409,32 +1445,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/afsharid` — turning point 1747 The murder of Nadir
 - [ ] `polity/hotaki` — turning point 1729 Damghan and Murche-Khort
 - [ ] `polity/hotaki` — ended by conquest in 1738
-
-## Andrew J. Newman, Safavid Iran: Rebirth of a Persian Empire
-
-`newman-2006` — 21 claims
-
-- [ ] `chapter/safavid/02-1501.mdx` — prose: "A confession imposed by decree"
-- [ ] `chapter/safavid/04-abbas.mdx` — prose: "Abbas breaks his own army"
-- [ ] `chapter/safavid/05-isfahan.mdx` — prose: "Isfahan"
-- [ ] `chapter/safavid/06-the-clergy.mdx` — prose: "The scholars they imported"
-- [ ] `edge/akkoyunlu->safavid` — conquered by in 1508
-- [ ] `edge/timurid->safavid` — absorbed remnants of in 1501
-- [ ] `polity/akkoyunlu` — span ends 1501
-- [ ] `polity/akkoyunlu` — ended by conquest in 1508
-- [ ] `polity/safavid` — span starts 1501
-- [ ] `polity/safavid` — span ends 1736
-- [ ] `polity/safavid` — capital Tabriz from 1501
-- [ ] `polity/safavid` — capital Qazvin from 1555
-- [ ] `polity/safavid` — capital Isfahan from 1598
-- [ ] `polity/safavid` — founder Isma'il I r. 1501-1524
-- [ ] `polity/safavid` — peak Abbas I r. 1588-1629
-- [ ] `polity/safavid` — last Abbas III r. 1732-1736
-- [ ] `polity/safavid` — military basis coded tribal-levy + slave-soldier
-- [ ] `polity/safavid` — revenue basis coded land-tax + monopoly
-- [ ] `polity/safavid` — turning point 1501 The Shi’i decree at Tabriz
-- [ ] `polity/safavid` — turning point 1598 Isfahan
-- [ ] `polity/safavid` — religions_carried = 1 (Twelver Shi'ism)
 
 ## C. E. Bosworth, The Ghaznavids: Their Empire in Afghanistan and Eastern Iran, 994-1040
 
@@ -2500,6 +2510,19 @@ ordinary state, not an item to clear.
 - [ ] `polity/rashidun` — turning point 656 The killing of Uthman
 - [ ] `polity/rashidun` — turning point 657 The arbitration at Siffin
 - [ ] `polity/rashidun` — ended by dynastic replacement in 661
+
+## Vladimir Minorsky, A History of Sharvan and Darband in the 10th-11th Centuries
+
+`minorsky-1958` — 8 claims
+
+- [ ] `chapter/shirvanshah/01-arabs-who-became-sasanians.mdx` — prose: "Arabs who became Sasanians"
+- [ ] `chapter/shirvanshah/02-what-lasting-costs.mdx` — prose: "What lasting looks like in the fields"
+- [ ] `chapter/shirvanshah/03-khaqani.mdx` — prose: "The twelfth-century court"
+- [ ] `polity/shirvanshah` — span starts 799
+- [ ] `polity/shirvanshah` — capital Shamakhi from 861
+- [ ] `polity/shirvanshah` — founder Yazid ibn Mazyad al-Shaybani
+- [ ] `polity/shirvanshah` — revenue basis coded land-tax + trade-toll + mining
+- [ ] `polity/shirvanshah` — legitimation coded descent
 
 ## Mark Edward Lewis, China's Cosmopolitan Empire: The Tang Dynasty
 

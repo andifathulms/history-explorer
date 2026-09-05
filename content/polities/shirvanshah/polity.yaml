@@ -1,0 +1,103 @@
+id: shirvanshah
+region: caucasus
+
+name:
+  latin: Shirvanshahs
+  script: شروانشاهان
+  script_lang: fa
+
+# 799 is Yazid ibn Mazyad's Abbasid governorship of Shirvan; 861 is when his
+# descendants stopped acting as governors and took the title. The end is a range
+# for the same kind of reason: independence ended when Isma'il killed Farrukh
+# Yasar in 1500, and the title was abolished when Tahmasp deposed the last of
+# them in 1538.
+span:
+  start: { min: 799, max: 861, source: minorsky-1958 }
+  end: { min: 1500, max: 1538, source: bosworth-1996 }
+
+identity: >-
+  Seven centuries on the corridor between the Caspian and the mountains, held by
+  a house that submitted early to everyone who came and outlasted almost all of
+  them.
+
+# The seat moved with the century and with an earthquake: Shamakhi for most of
+# the dynasty's life, Baku after the shock of 1191 and again under the Derbendi
+# line, and back to Shamakhi in between.
+capitals:
+  - { name: Shamakhi, script: شماخی, from: 861, source: minorsky-1958 }
+  - { name: Baku, script: باکو, from: 1417, source: bosworth-1996 }
+
+core_region: Shirvan, the eastern Caucasus between the Kura and Derbend
+
+rulers:
+  founder: { name: Yazid ibn Mazyad al-Shaybani, source: minorsky-1958 }
+  peak: { name: Khalilullah I, reign: [1417, 1465], source: bosworth-1996 }
+  last: { name: Farrukh Yasar, reign: [1465, 1500], source: newman-2006 }
+
+scripts_and_languages:
+  administration: [Persian, Arabic]
+  writing_system: Perso-Arabic
+
+ended:
+  type: conquest
+  by: [safavid]
+  year: 1538
+  source: bosworth-1996
+
+institutions:
+  # Null, and for a reason particular to this record. Coding rule 1 asks for the
+  # arrangement in force for most of the polity's life, and this polity's life
+  # is seven centuries, across which it was an Abbasid governorship, a Seljuk
+  # vassal, a Mongol tributary, a Timurid client and a Safavid dependency. The
+  # source this page is drafted from covers two of those centuries. There is no
+  # arrangement that held for most of it, and a value here would be a claim
+  # about five hundred years nobody consulted has described.
+  military_basis: null
+  # Land tax, the tolls of the Caspian coast road and the Derbend pass, and —
+  # unusually — extraction. The naphtha seeps and wells of the Absheron
+  # peninsula and the salt pans beside them were a taxed royal asset that Arab
+  # geographers describe and later travellers came to see. `mining` is the
+  # vocabulary's value for revenue from extraction and it is being stretched to
+  # cover petroleum; the stretch is recorded rather than hidden, and it makes
+  # this the only entry under that value outside two West African gold polities.
+  revenue_basis: { values: [land-tax, trade-toll, mining], source: minorsky-1958 }
+  succession_rule: null
+  # Descent, and a spectacular one. The dynasty began as Arabs of the Banu
+  # Shayban and ended claiming the Sasanians — Bahram Gur and Khusraw
+  # Anushirvan — with the names, the titulature and the regalia of pre-Islamic
+  # Persian kingship. Almost nobody believes the genealogy; the point of the
+  # field is what was asserted in public, and this was asserted for five hundred
+  # years.
+  legitimation: { values: [descent], source: minorsky-1958 }
+
+turning_points:
+  - year: 1386
+    type: treaty
+    name: "Ibrahim I submits to Timur"
+    changed: >-
+      The Shirvanshah went to Timur in person, submitted before being attacked,
+      and was confirmed in his own country and used as an ally on the Caucasus
+      frontier. Shirvan came through the period intact while Isfahan, Baghdad,
+      Delhi and Damascus were being destroyed, and the century of prosperity
+      that built Baku follows directly from a decision taken before any fighting.
+    source: bosworth-1996
+    contested: false
+  - year: 1500
+    type: battle
+    name: "The killing of Farrukh Yasar"
+    changed: >-
+      The first campaign Isma'il fought was against Shirvan, and it was
+      revenge: the Shirvanshahs had killed both his father Haydar and his
+      grandfather Junayd in battle. Farrukh Yasar was defeated and killed, the
+      dynasty's independence ended after seven centuries, and the Safavid state
+      was founded on the proceeds — Isma'il took Tabriz the following year.
+    source: newman-2006
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
