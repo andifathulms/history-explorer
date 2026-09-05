@@ -1001,3 +1001,23 @@ edges:
            delta and carried its scholars to Ghazna."
     source: bosworth-1963
     contested: false
+
+  - from: buyid
+    to: kakuyid
+    type: seceded from
+    year: 1008
+    note: "Sayyida Shirin, governing the Jibal for her Buyid son, gave Isfahan
+           to her uncle's son; within fifteen years he held it and Hamadan in
+           his own right and was dealing with the Buyids as a power."
+    source: chi-4
+    contested: false
+
+  - from: kakuyid
+    to: great-seljuk
+    type: conquered by
+    year: 1051
+    note: "A year-long siege gave the Seljuks Isfahan, which became their
+           capital; the family was transferred to Yazd and Abarkuh as fief-
+           holders rather than destroyed."
+    source: bosworth-1996
+    contested: false

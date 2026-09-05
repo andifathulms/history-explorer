@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1241 claims across 86 sources.**
+**1258 claims across 86 sources.**
 
 ## Where to start
 
@@ -81,9 +81,11 @@ ordinary state, not an item to clear.
 
 ## C. E. Bosworth, The New Islamic Dynasties: A Chronological and Genealogical Manual
 
-`bosworth-1996` — 61 claims
+`bosworth-1996` — 72 claims
 
+- [ ] `chapter/kakuyid/03-the-last-one-died-at-qatwan.mdx` — prose: "The last one died at Qatwan"
 - [ ] `chapter/samanid/01-four-brothers.mdx` — prose: "Four brothers and a governorship"
+- [ ] `edge/kakuyid->great-seljuk` — conquered by in 1051
 - [ ] `edge/tahirid->samanid` — vassal of in 819
 - [ ] `edge/ziyarid->nizari` — conquered by in 1090
 - [ ] `polity/abbasid` — span starts 750
@@ -111,6 +113,15 @@ ordinary state, not an item to clear.
 - [ ] `polity/great-seljuk` — span starts 1037
 - [ ] `polity/great-seljuk` — founder Tughril I r. 1037-1063
 - [ ] `polity/great-seljuk` — last Tughril III r. 1176-1194
+- [ ] `polity/kakuyid` — span starts 1008
+- [ ] `polity/kakuyid` — span ends 1051
+- [ ] `polity/kakuyid` — capital Isfahan from 1008
+- [ ] `polity/kakuyid` — capital Yazd from 1051
+- [ ] `polity/kakuyid` — founder Ala al-Dawla Muhammad r. 1008-1041
+- [ ] `polity/kakuyid` — peak Ala al-Dawla Muhammad r. 1008-1041
+- [ ] `polity/kakuyid` — last Garshasp II
+- [ ] `polity/kakuyid` — turning point 1051 Isfahan falls to the Seljuks
+- [ ] `polity/kakuyid` — ended by gradual absorption in 1141
 - [ ] `polity/khwarazmian` — span start upper bound 1097
 - [ ] `polity/khwarazmian` — span ends 1220
 - [ ] `polity/khwarazmian` — capital Samarkand from 1212
@@ -367,6 +378,49 @@ ordinary state, not an item to clear.
 - [ ] `polity/tulunid` — legitimation coded caliphal-investiture
 - [ ] `polity/tulunid` — ended by conquest in 905
 
+## R. N. Frye (ed.), The Cambridge History of Iran, Volume 4: From the Arab Invasion to the Saljuqs
+
+`chi-4` — 38 claims
+
+- [ ] `chapter/bavandid/01-the-mountains-nobody-wanted.mdx` — prose: "The mountains nobody wanted enough"
+- [ ] `chapter/bavandid/02-three-lines.mdx` — prose: "Three lines, two gaps"
+- [ ] `chapter/bavandid/03-what-six-hundred-and-ninety-eight-years-means.mdx` — prose: "What six hundred and ninety-eight years means"
+- [ ] `chapter/buyid/01-down-from-daylam.mdx` — prose: "Down from Daylam"
+- [ ] `chapter/buyid/02-paying-an-army-with-land.mdx` — prose: "Paying an army with land"
+- [ ] `chapter/kakuyid/01-son-of-the-maternal-uncle.mdx` — prose: "Son of the maternal uncle"
+- [ ] `chapter/kakuyid/02-the-settled-decade.mdx` — prose: "The only settled years Ibn Sina had"
+- [ ] `chapter/mamunid/01-the-court-at-gurganj.mdx` — prose: "The best court in the east, for about fifteen years"
+- [ ] `chapter/samanid/04-the-trade-in-men.mdx` — prose: "The trade the whole system ran on"
+- [ ] `chapter/samanid/06-943.mdx` — prose: "The year the army chose the amir"
+- [ ] `chapter/tahirid/03-the-other-half.mdx` — prose: "The family that also policed Baghdad"
+- [ ] `chapter/ziyarid/01-the-man-who-wanted-the-crown-back.mdx` — prose: "The man who wanted the crown back"
+- [ ] `chapter/ziyarid/02-a-client-among-clients.mdx` — prose: "A client among clients"
+- [ ] `chapter/ziyarid/03-a-tower-and-a-book.mdx` — prose: "A tower and a book"
+- [ ] `edge/buyid->kakuyid` — seceded from in 1008
+- [ ] `edge/ziyarid->buyid` — seceded from in 934
+- [ ] `polity/bavandid` — peak Shah Ghazi Rustam
+- [ ] `polity/bavandid` — military basis coded tribal-levy
+- [ ] `polity/bavandid` — legitimation coded descent + titulature
+- [ ] `polity/bavandid` — turning point 842 Qarin I accepts Islam
+- [ ] `polity/bavandid` — turning point 1073 The line reconstituted
+- [ ] `polity/buyid` — military basis coded mercenary + land-grant
+- [ ] `polity/buyid` — revenue basis coded land-tax
+- [ ] `polity/buyid` — succession rule coded appanage
+- [ ] `polity/kakuyid` — military basis coded tribal-levy
+- [ ] `polity/kakuyid` — legitimation coded descent
+- [ ] `polity/kakuyid` — turning point 1024 Ibn Sina comes to Isfahan
+- [ ] `polity/mamunid` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/samanid` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/samanid` — succession rule coded nomination
+- [ ] `polity/samanid` — turning point 943 The deposition of Nasr II (contested)
+- [ ] `polity/tahirid` — military basis coded standing-professional
+- [ ] `polity/tahirid` — revenue basis coded land-tax
+- [ ] `polity/tahirid` — turning point 865 Baghdad besieged, and a caliph traded
+- [ ] `polity/ziyarid` — military basis coded tribal-levy + slave-soldier
+- [ ] `polity/ziyarid` — legitimation coded titulature
+- [ ] `polity/ziyarid` — turning point 935 Mardavij killed in his bath
+- [ ] `polity/ziyarid` — turning point 1012 The army deposes Qabus
+
 ## Peter B. Golden, An Introduction to the History of the Turkic Peoples
 
 `golden-1992` — 35 claims
@@ -486,43 +540,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/zubayrid` — turning point 683 The first siege of Mecca
 - [ ] `polity/zubayrid` — turning point 691 Maskin
 - [ ] `polity/zubayrid` — ended by conquest in 692
-
-## R. N. Frye (ed.), The Cambridge History of Iran, Volume 4: From the Arab Invasion to the Saljuqs
-
-`chi-4` — 32 claims
-
-- [ ] `chapter/bavandid/01-the-mountains-nobody-wanted.mdx` — prose: "The mountains nobody wanted enough"
-- [ ] `chapter/bavandid/02-three-lines.mdx` — prose: "Three lines, two gaps"
-- [ ] `chapter/bavandid/03-what-six-hundred-and-ninety-eight-years-means.mdx` — prose: "What six hundred and ninety-eight years means"
-- [ ] `chapter/buyid/01-down-from-daylam.mdx` — prose: "Down from Daylam"
-- [ ] `chapter/buyid/02-paying-an-army-with-land.mdx` — prose: "Paying an army with land"
-- [ ] `chapter/mamunid/01-the-court-at-gurganj.mdx` — prose: "The best court in the east, for about fifteen years"
-- [ ] `chapter/samanid/04-the-trade-in-men.mdx` — prose: "The trade the whole system ran on"
-- [ ] `chapter/samanid/06-943.mdx` — prose: "The year the army chose the amir"
-- [ ] `chapter/tahirid/03-the-other-half.mdx` — prose: "The family that also policed Baghdad"
-- [ ] `chapter/ziyarid/01-the-man-who-wanted-the-crown-back.mdx` — prose: "The man who wanted the crown back"
-- [ ] `chapter/ziyarid/02-a-client-among-clients.mdx` — prose: "A client among clients"
-- [ ] `chapter/ziyarid/03-a-tower-and-a-book.mdx` — prose: "A tower and a book"
-- [ ] `edge/ziyarid->buyid` — seceded from in 934
-- [ ] `polity/bavandid` — peak Shah Ghazi Rustam
-- [ ] `polity/bavandid` — military basis coded tribal-levy
-- [ ] `polity/bavandid` — legitimation coded descent + titulature
-- [ ] `polity/bavandid` — turning point 842 Qarin I accepts Islam
-- [ ] `polity/bavandid` — turning point 1073 The line reconstituted
-- [ ] `polity/buyid` — military basis coded mercenary + land-grant
-- [ ] `polity/buyid` — revenue basis coded land-tax
-- [ ] `polity/buyid` — succession rule coded appanage
-- [ ] `polity/mamunid` — revenue basis coded land-tax + trade-toll
-- [ ] `polity/samanid` — revenue basis coded land-tax + trade-toll
-- [ ] `polity/samanid` — succession rule coded nomination
-- [ ] `polity/samanid` — turning point 943 The deposition of Nasr II (contested)
-- [ ] `polity/tahirid` — military basis coded standing-professional
-- [ ] `polity/tahirid` — revenue basis coded land-tax
-- [ ] `polity/tahirid` — turning point 865 Baghdad besieged, and a caliph traded
-- [ ] `polity/ziyarid` — military basis coded tribal-levy + slave-soldier
-- [ ] `polity/ziyarid` — legitimation coded titulature
-- [ ] `polity/ziyarid` — turning point 935 Mardavij killed in his bath
-- [ ] `polity/ziyarid` — turning point 1012 The army deposes Qabus
 
 ## C. E. Bosworth, The Political and Dynastic History of the Iranian World (A.D. 1000-1217)
 *In The Cambridge History of Iran, Volume 5.*

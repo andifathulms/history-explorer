@@ -1,0 +1,85 @@
+id: kakuyid
+region: iranian-intermezzo
+
+name:
+  latin: Kakuyid Dynasty
+  script: کاکویه
+  script_lang: fa
+
+# 1008 is Ala al-Dawla taking Isfahan as a Buyid appointee who then stopped
+# being one; 1141 is the death of the last Kakuyid at Qatwan. Between 1051 and
+# then they held Yazd and Abarkuh as Seljuk fief-holders rather than as an
+# independent power, which the chapters describe and the span cannot.
+span:
+  start: { min: 1008, max: 1008, source: bosworth-1996 }
+  end: { min: 1051, max: 1141, source: bosworth-1996 }
+
+identity: >-
+  A Daylamite house related to the Buyids by a woman, which held Isfahan for
+  forty years, gave Ibn Sina the only settled decade of his life, and ended at
+  a battle fought for somebody else.
+
+capitals:
+  - { name: Isfahan, script: اصفهان, from: 1008, to: 1051, source: bosworth-1996 }
+  - { name: Yazd, script: یزد, from: 1051, source: bosworth-1996 }
+
+core_region: Isfahan and the Jibal, later Yazd and Abarkuh
+
+rulers:
+  founder: { name: Ala al-Dawla Muhammad, reign: [1008, 1041], source: bosworth-1996 }
+  peak: { name: Ala al-Dawla Muhammad, reign: [1008, 1041], source: bosworth-1996 }
+  last: { name: Garshasp II, source: bosworth-1996 }
+
+scripts_and_languages:
+  administration: [Persian, Arabic]
+  writing_system: Perso-Arabic
+
+ended:
+  type: gradual absorption
+  by: [great-seljuk]
+  year: 1141
+  source: bosworth-1996
+
+institutions:
+  military_basis: { values: [tribal-levy], source: chi-4 }
+  revenue_basis: null
+  succession_rule: null
+  # The name is the claim. Kakuya means "son of the maternal uncle": the
+  # founder's father was uncle to the Buyid Sayyida, who governed the Jibal for
+  # her son, and the family's standing was that relationship. Descent through a
+  # woman, publicly invoked as the ground of a governorship, is unusual enough
+  # in this corpus to be worth the coding.
+  legitimation: { values: [descent], source: chi-4 }
+
+turning_points:
+  - year: 1024
+    type: reform
+    name: "Ibn Sina comes to Isfahan"
+    changed: >-
+      A philosopher who had spent a decade moving between failing courts in
+      western Iran found a patron who kept him for the rest of his life. What
+      that bought is not measurable on this page and is the reason the page
+      exists: the completion of the Canon, and the Danishnama, which is a
+      philosophical summa written in Persian for a Persian patron when almost
+      all such work was written in Arabic.
+    source: chi-4
+    contested: false
+  - year: 1051
+    type: siege
+    name: "Isfahan falls to the Seljuks"
+    changed: >-
+      A year-long siege ended the Kakuyid state and gave the Seljuks the city
+      that became their capital. The family was not destroyed: it was
+      transferred, receiving Yazd and Abarkuh as fiefs and continuing as Seljuk
+      governors for another ninety years, which is what the vocabulary's
+      `gradual absorption` describes.
+    source: bosworth-1996
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
