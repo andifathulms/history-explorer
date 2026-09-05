@@ -34,6 +34,56 @@ ended:
   year: 1250
   source: humphreys-1977
 
+institutions:
+  # Turkish askari — the professional household cavalry of a Seljuk successor
+  # — paid by iqta assignments of the kind this site's Buyid and Great Seljuk
+  # pages describe, with Turkmen and Kurdish contingents alongside.
+  military_basis: { values: [slave-soldier, land-grant], source: hillenbrand-1999 }
+  revenue_basis: { values: [land-tax, trade-toll], source: hillenbrand-1999 }
+  # Atabeg holdings divided among sons and kinsmen: Mosul and Aleppo went
+  # separate ways at Zangi's death and were never reunited under one Zangid,
+  # which is why Saladin took them one at a time.
+  succession_rule: { values: [appanage], source: hillenbrand-1999 }
+  # A Seljuk guardianship that became a possession, held under a caliphal
+  # investiture the family sought and advertised — and, from Nur al-Din, an
+  # explicit claim to be the government that would recover Jerusalem.
+  legitimation: { values: [caliphal-investiture], source: hillenbrand-1999 }
+
+turning_points:
+  - year: 1144
+    type: siege
+    name: "Edessa"
+    changed: >-
+      The first crusader state to be founded was the first to fall, and Zangi
+      became the first ruler of the period with a reputation as a fighter of
+      Franks. It also produced the Second Crusade, which achieved nothing
+      except to attack Damascus — the one Muslim power prepared to deal with
+      the Franks — and thereby deliver it to his son ten years later.
+    source: hillenbrand-1999
+    contested: false
+  - year: 1163
+    type: reform
+    name: "The house of justice"
+    changed: >-
+      Nur al-Din built the first dar al-adl at Damascus: a hall where the ruler
+      sat in public on fixed days to hear grievances against his own officials
+      and soldiers. A Turkish commander with no lineage, governing an Arab
+      population and asking it to pay for a long war, made his answerability
+      the public face of his government, and the Ayyubids and Mamluks built
+      their own.
+    source: hillenbrand-1999
+    contested: false
+  - year: 1169
+    type: succession-crisis
+    name: "Shirkuh dies two months into the vizierate"
+    changed: >-
+      The commander sent to win Egypt won it and died at once, and the post
+      passed to the nephew he had brought with him. Nur al-Din spent five years
+      watching Saladin hold Egypt in his name and remit very little, and died
+      in 1174 preparing to march south. His heir was eleven.
+    source: humphreys-1977
+    contested: false
+
 measures:
   # No cited km2 for this polity in the works consulted; Taagepera does not
   # tabulate it separately. The axis is empty rather than borrowed.
