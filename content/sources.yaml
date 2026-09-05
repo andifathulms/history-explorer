@@ -1029,6 +1029,63 @@ sources:
       on the authority of a genealogical manual, which does not carry the
       claim.
 
+  - id: manz-2007
+    kind: book
+    author: Beatrice Forbes Manz
+    title: "Power, Politics and Religion in Timurid Iran"
+    container: Cambridge Studies in Islamic Civilization
+    publisher: Cambridge University Press
+    year: 2007
+    note: >-
+      The successor volume to this site's Tamerlane source, on Shahrukh's Iran
+      rather than Timur's conquests. Its question is the one the corpus keeps
+      running into: how a government with no monopoly of force controlled a
+      heterogeneous society, and why that arrangement was stable for decades at
+      a time. Cited for the half of the Timurid century this site's page had
+      compressed into a sentence.
+
+  - id: lentz-lowry-1989
+    kind: book
+    author: Thomas W. Lentz and Glenn D. Lowry
+    title: "Timur and the Princely Vision: Persian Art and Culture in the Fifteenth Century"
+    publisher: "Los Angeles County Museum of Art and Arthur M. Sackler Gallery, Smithsonian Institution"
+    year: 1989
+    note: >-
+      The exhibition catalogue that is still the standard treatment of Timurid
+      art as a court programme rather than as a collection of objects. Cited
+      because this site had been asserting that the Herat and Samarkand
+      workshops set the standard three later empires worked from, on the
+      authority of a political biography.
+
+  - id: babayan-2002
+    kind: book
+    author: Kathryn Babayan
+    title: "Mystics, Monarchs, and Messiahs: Cultural Landscapes of Early Modern Iran"
+    container: Harvard Middle Eastern Monographs 35
+    publisher: Harvard University Press
+    year: 2002
+    note: >-
+      On what the Safavid movement was before it was a state: Persianate
+      Sufism and Alid messianism, and rulers whose followers expected the end
+      of the world rather than a government. It is the source for the
+      `divine-sanction` on this site's Safavid record, which had been coded off
+      a general history that describes the outcome rather than the claim.
+
+  - id: matthee-2012
+    kind: book
+    author: Rudi Matthee
+    title: "Persia in Crisis: Safavid Decline and the Fall of Isfahan"
+    container: International Library of Iranian Studies
+    publisher: I.B. Tauris
+    year: 2012
+    note: >-
+      Argues against the moral-decline account of the seventeenth century — the
+      weak shahs, the harem, the wine — and for a structural one: a small
+      economic base, a tribal composition that had to be renegotiated
+      continuously, and an environment that would not support the revenue the
+      state needed. Cited because this site had disposed of a hundred years and
+      the fall of a capital in one sentence.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors

@@ -36,10 +36,90 @@ ended:
   year: 1507
   source: manz-1989
 
+institutions:
+  # Timur's army was the Chaghatay tribal following he assembled, plus the
+  # personal nokers who owed him rather than a tribe. Under his successors the
+  # soyurghal — a hereditary revenue assignment against service — became the
+  # normal way of paying it, which is a real change a source describes rather
+  # than one ruler's preference, so both values stand.
+  military_basis: { values: [tribal-levy, land-grant], source: manz-1989 }
+  # Plunder is coded here in the strict sense coding rule 6 requires: Manz
+  # treats campaign proceeds as a structural part of the state's income and not
+  # as something armies happened to do. Timur campaigned every year for
+  # thirty-five years, and the building programme at Samarkand was paid for out
+  # of Delhi and Damascus. Under Shahrukh the land tax of Iran and Khurasan
+  # carries the state instead.
+  revenue_basis: { values: [plunder, land-tax], source: manz-1989 }
+  succession_rule: { values: [appanage], source: manz-1989 }
+  # `conquest`, and the field cannot say the interesting part. Timur was barred
+  # from the title of khan by descent and ruled for thirty-five years in the
+  # name of a puppet Chinggisid he kept at court, styling himself amir and
+  # gurkan — son-in-law of the house. That is structurally the same arrangement
+  # as a Buyid amir ruling in the name of a caliph, and the vocabulary has
+  # `caliphal-investiture` for one and nothing for the other. It is the second
+  # time this corpus has hit that gap; see the Jafnid record for the first.
+  legitimation: { values: [conquest], source: manz-1989 }
+
+turning_points:
+  - year: 1370
+    type: reform
+    name: "Amir and gurkan"
+    changed: >-
+      Timur took Balkh and had himself proclaimed, and the terms he was
+      proclaimed in fixed everything afterwards: not khan, which his descent
+      barred, but amir, ruling beside a Chinggisid of the correct line who had
+      no power and was necessary. A following that could not be commanded by
+      right had to be held by victory, and the campaigns never stopped because
+      they could not.
+    source: manz-1989
+    contested: false
+  - year: 1402
+    type: battle
+    name: "Ankara"
+    changed: >-
+      Timur destroyed the Ottoman army and captured Bayezid I, which broke the
+      Ottoman state for a decade and postponed the fall of Constantinople by
+      half a century. For Timur it changed nothing he kept: he took the plunder
+      and the submissions, installed the Anatolian emirates his site's own
+      pages record, and left. It is the clearest single case of what this
+      empire was for.
+    source: manz-1989
+    contested: false
+  - year: 1409
+    type: capital-move
+    name: "Shahrukh at Herat"
+    changed: >-
+      Timur's surviving son won the succession war and governed from Herat
+      rather than Samarkand, which moved the centre of the empire from the
+      steppe frontier into Khurasan and turned a conquest state into an Iranian
+      one. The forty years that followed are where nearly everything the
+      Timurids are remembered for was made.
+    source: manz-2007
+    contested: false
+  - year: 1449
+    type: succession-crisis
+    name: "The murder of Ulugh Beg"
+    changed: >-
+      Shahrukh's son and successor was deposed and beheaded on his own son's
+      order within two years of inheriting, and the eastern half of the empire
+      never reassembled. It ended the Samarkand court that had built the
+      observatory, and it left Herat as the only Timurid centre for the
+      remaining sixty years.
+    source: manz-2007
+    contested: false
+
 measures:
   reach_km2: { value: 4400000, at: 1405, source: taagepera-1997 }
   peak_population: null
   influence:
     descendant_scripts: { count: null, items: [], source: null }
     religions_carried: { count: null, items: [], source: null }
-    successor_claims: { count: null, items: [], source: null }
+    # The Mughals. Babur was Timur's descendant and said so, the dynasty called
+    # itself Gurkani after Timur's own title, and Timurid descent was the public
+    # ground of its right to rule in India for three centuries. This site
+    # already carried the `claimed legitimacy of` edge and counted nothing here,
+    # which is the mismatch the rulebook says is a bug worth finding.
+    successor_claims:
+      count: 1
+      items: [Mughal Empire]
+      source: richards-1993

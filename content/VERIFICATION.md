@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1865 claims across 103 sources.**
+**1890 claims across 107 sources.**
 
 ## Where to start
 
@@ -1265,6 +1265,33 @@ ordinary state, not an item to clear.
 - [ ] `polity/srivijaya` — religions_carried = 1 (Mahayana Buddhism)
 - [ ] `polity/srivijaya` — ended by gradual absorption in 1275
 
+## Andrew J. Newman, Safavid Iran: Rebirth of a Persian Empire
+
+`newman-2006` — 22 claims
+
+- [ ] `chapter/safavid/02-1501.mdx` — prose: "A confession imposed by decree"
+- [ ] `chapter/safavid/04-abbas.mdx` — prose: "Abbas breaks his own army"
+- [ ] `chapter/safavid/05-isfahan.mdx` — prose: "Isfahan"
+- [ ] `chapter/safavid/06-the-clergy.mdx` — prose: "The scholars they imported"
+- [ ] `edge/akkoyunlu->safavid` — conquered by in 1508
+- [ ] `edge/timurid->safavid` — absorbed remnants of in 1501
+- [ ] `polity/akkoyunlu` — span ends 1501
+- [ ] `polity/akkoyunlu` — ended by conquest in 1508
+- [ ] `polity/safavid` — span starts 1501
+- [ ] `polity/safavid` — span ends 1736
+- [ ] `polity/safavid` — capital Tabriz from 1501
+- [ ] `polity/safavid` — capital Qazvin from 1555
+- [ ] `polity/safavid` — capital Isfahan from 1598
+- [ ] `polity/safavid` — founder Isma'il I r. 1501-1524
+- [ ] `polity/safavid` — peak Abbas I r. 1588-1629
+- [ ] `polity/safavid` — last Abbas III r. 1732-1736
+- [ ] `polity/safavid` — military basis coded tribal-levy + slave-soldier
+- [ ] `polity/safavid` — revenue basis coded land-tax + monopoly
+- [ ] `polity/safavid` — turning point 1501 The Shi’i decree at Tabriz
+- [ ] `polity/safavid` — turning point 1598 Isfahan
+- [ ] `polity/safavid` — religions_carried = 1 (Twelver Shi'ism)
+- [ ] `polity/safavid` — ended by conquest in 1736
+
 ## C. E. Bosworth, The Ghaznavids: Their Empire in Afghanistan and Eastern Iran, 994-1040
 
 `bosworth-1963` — 21 claims
@@ -1648,28 +1675,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/rustamid` — turning point 909 Tahert taken
 - [ ] `polity/rustamid` — ended by conquest in 909
 
-## Andrew J. Newman, Safavid Iran: Rebirth of a Persian Empire
-
-`newman-2006` — 17 claims
-
-- [ ] `chapter/safavid/01-a-decreed-confession.mdx` — prose: "A confession imposed by decree"
-- [ ] `chapter/safavid/02-isfahan.mdx` — prose: "Abbas rebuilds"
-- [ ] `edge/akkoyunlu->safavid` — conquered by in 1508
-- [ ] `edge/timurid->safavid` — absorbed remnants of in 1501
-- [ ] `polity/akkoyunlu` — span ends 1501
-- [ ] `polity/akkoyunlu` — ended by conquest in 1508
-- [ ] `polity/safavid` — span starts 1501
-- [ ] `polity/safavid` — span ends 1736
-- [ ] `polity/safavid` — capital Isfahan from 1501
-- [ ] `polity/safavid` — founder Isma'il I r. 1501-1524
-- [ ] `polity/safavid` — peak Abbas I r. 1588-1629
-- [ ] `polity/safavid` — last Abbas III r. 1732-1736
-- [ ] `polity/safavid` — military basis coded tribal-levy + slave-soldier
-- [ ] `polity/safavid` — legitimation coded divine-sanction
-- [ ] `polity/safavid` — turning point 1501 The Shi’i decree at Tabriz
-- [ ] `polity/safavid` — religions_carried = 1 (Twelver Shi'ism)
-- [ ] `polity/safavid` — ended by conquest in 1736
-
 ## Suhayl Zakkar, The Emirate of Aleppo, 1004-1094
 
 `zakkar-1971` — 17 claims
@@ -1691,6 +1696,28 @@ ordinary state, not an item to clear.
 - [ ] `polity/mirdasid` — turning point 1025 The taking of Aleppo
 - [ ] `polity/mirdasid` — turning point 1029 Al-Uqhuwana
 - [ ] `polity/mirdasid` — ended by dynastic replacement in 1080
+
+## Beatrice Forbes Manz, The Rise and Rule of Tamerlane
+
+`manz-1989` — 17 claims
+
+- [ ] `chapter/timurid/01-amir-not-khan.mdx` — prose: "The man who could not be khan"
+- [ ] `chapter/timurid/02-the-campaigns.mdx` — prose: "What the campaigns were for"
+- [ ] `edge/chagatai->timurid` — seceded from in 1370
+- [ ] `edge/ilkhanate->timurid` — absorbed remnants of in 1393
+- [ ] `polity/timurid` — span starts 1370
+- [ ] `polity/timurid` — span ends 1507
+- [ ] `polity/timurid` — capital Samarkand from 1370
+- [ ] `polity/timurid` — founder Timur r. 1370-1405
+- [ ] `polity/timurid` — peak Timur r. 1370-1405
+- [ ] `polity/timurid` — last Badi al-Zaman r. 1506-1507
+- [ ] `polity/timurid` — military basis coded tribal-levy + land-grant
+- [ ] `polity/timurid` — revenue basis coded plunder + land-tax
+- [ ] `polity/timurid` — succession rule coded appanage
+- [ ] `polity/timurid` — legitimation coded conquest
+- [ ] `polity/timurid` — turning point 1370 Amir and gurkan
+- [ ] `polity/timurid` — turning point 1402 Ankara
+- [ ] `polity/timurid` — ended by conquest in 1507
 
 ## John O. Hunwick, Timbuktu and the Songhay Empire
 
@@ -1970,6 +1997,23 @@ ordinary state, not an item to clear.
 - [ ] `polity/macedonian` — turning point -323 The settlement at Babylon
 - [ ] `polity/macedonian` — ended by fragmentation in -323
 
+## John F. Richards, The Mughal Empire (The New Cambridge History of India, I.5)
+
+`richards-1993` — 12 claims
+
+- [ ] `chapter/mughal/01-babur.mdx` — prose: "A Timurid with nowhere to go"
+- [ ] `chapter/mughal/02-the-settlement-breaks.mdx` — prose: "When the settlement broke"
+- [ ] `edge/delhi-sultanate->mughal` — conquered by in 1526
+- [ ] `edge/timurid->mughal` — claimed legitimacy of in 1526
+- [ ] `polity/mughal` — span starts 1526
+- [ ] `polity/mughal` — span ends 1857
+- [ ] `polity/mughal` — capital Agra from 1526
+- [ ] `polity/mughal` — founder Babur r. 1526-1530
+- [ ] `polity/mughal` — peak Akbar r. 1556-1605
+- [ ] `polity/mughal` — last Bahadur Shah II r. 1837-1857
+- [ ] `polity/mughal` — ended by conquest in 1857
+- [ ] `polity/timurid` — successor_claims = 1 (Mughal Empire)
+
 ## Paul Dresch, Tribes, Government, and History in Yemen
 
 `dresch-1989` — 12 claims
@@ -2087,22 +2131,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/ming` — ended by conquest in 1644
 - [ ] `polity/yuan` — ended by conquest in 1368
 
-## John F. Richards, The Mughal Empire (The New Cambridge History of India, I.5)
-
-`richards-1993` — 11 claims
-
-- [ ] `chapter/mughal/01-babur.mdx` — prose: "A Timurid with nowhere to go"
-- [ ] `chapter/mughal/02-the-settlement-breaks.mdx` — prose: "When the settlement broke"
-- [ ] `edge/delhi-sultanate->mughal` — conquered by in 1526
-- [ ] `edge/timurid->mughal` — claimed legitimacy of in 1526
-- [ ] `polity/mughal` — span starts 1526
-- [ ] `polity/mughal` — span ends 1857
-- [ ] `polity/mughal` — capital Agra from 1526
-- [ ] `polity/mughal` — founder Babur r. 1526-1530
-- [ ] `polity/mughal` — peak Akbar r. 1556-1605
-- [ ] `polity/mughal` — last Bahadur Shah II r. 1837-1857
-- [ ] `polity/mughal` — ended by conquest in 1857
-
 ## Christopher I. Beckwith, The Tibetan Empire in Central Asia
 
 `beckwith-1987` — 11 claims
@@ -2118,22 +2146,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/tibetan-empire` — descendant_scripts = 1 (Tibetan script)
 - [ ] `polity/tibetan-empire` — religions_carried = 1 (Tibetan Buddhism)
 - [ ] `polity/tibetan-empire` — ended by fragmentation in 842
-
-## Beatrice Forbes Manz, The Rise and Rule of Tamerlane
-
-`manz-1989` — 11 claims
-
-- [ ] `chapter/timurid/01-amir-not-khan.mdx` — prose: "The man who could not be khan"
-- [ ] `chapter/timurid/02-herat.mdx` — prose: "Herat"
-- [ ] `edge/chagatai->timurid` — seceded from in 1370
-- [ ] `edge/ilkhanate->timurid` — absorbed remnants of in 1393
-- [ ] `polity/timurid` — span starts 1370
-- [ ] `polity/timurid` — span ends 1507
-- [ ] `polity/timurid` — capital Samarkand from 1370
-- [ ] `polity/timurid` — founder Timur r. 1370-1405
-- [ ] `polity/timurid` — peak Timur r. 1370-1405
-- [ ] `polity/timurid` — last Badi al-Zaman r. 1506-1507
-- [ ] `polity/timurid` — ended by conquest in 1507
 
 ## Tayeb El-Hibri, The Abbasid Caliphate: A History
 
@@ -2333,6 +2345,18 @@ ordinary state, not an item to clear.
 - [ ] `polity/saffarid` — descendant_scripts = 0
 - [ ] `polity/saffarid` — religions_carried = 0
 
+## Beatrice Forbes Manz, Power, Politics and Religion in Timurid Iran
+*In Cambridge Studies in Islamic Civilization.*
+
+`manz-2007` — 6 claims
+
+- [ ] `chapter/timurid/03-how-it-was-held.mdx` — prose: "A government without a monopoly of force"
+- [ ] `chapter/timurid/04-shahrukh.mdx` — prose: "Shahrukh"
+- [ ] `chapter/timurid/05-ulugh-beg.mdx` — prose: "Ulugh Beg"
+- [ ] `chapter/timurid/07-the-uzbeks.mdx` — prose: "Taken by cousins"
+- [ ] `polity/timurid` — turning point 1409 Shahrukh at Herat
+- [ ] `polity/timurid` — turning point 1449 The murder of Ulugh Beg
+
 ## Anne-Marie Eddé, trans. Jane Marie Todd, Saladin
 
 `edde-2011` — 5 claims
@@ -2363,6 +2387,16 @@ ordinary state, not an item to clear.
 - [ ] `polity/buyid` — capital Shiraz from 934
 - [ ] `polity/buyid` — capital Rayy from 943
 - [ ] `polity/buyid` — descendant_scripts = 0
+
+## Kathryn Babayan, Mystics, Monarchs, and Messiahs: Cultural Landscapes of Early Modern Iran
+*In Harvard Middle Eastern Monographs 35.*
+
+`babayan-2002` — 4 claims
+
+- [ ] `chapter/safavid/01-the-order.mdx` — prose: "Two hundred years of being a Sufi order"
+- [ ] `chapter/safavid/03-chaldiran.mdx` — prose: "Chaldiran"
+- [ ] `polity/safavid` — legitimation coded divine-sanction + descent
+- [ ] `polity/safavid` — turning point 1514 Chaldiran
 
 ## multiple contributors, ABBASID CALIPHATE
 *In Encyclopaedia Iranica.*
@@ -2445,6 +2479,14 @@ ordinary state, not an item to clear.
 
 - [ ] `chapter/ptolemaic/04-ruling-through.mdx` — prose: "Ruling through"
 - [ ] `polity/ptolemaic` — revenue basis coded land-tax + monopoly + trade-toll
+
+## Rudi Matthee, Persia in Crisis: Safavid Decline and the Fall of Isfahan
+*In International Library of Iranian Studies.*
+
+`matthee-2012` — 2 claims
+
+- [ ] `chapter/safavid/07-1722.mdx` — prose: "What actually fell"
+- [ ] `polity/safavid` — turning point 1722 The siege of Isfahan
 
 ## Khalid Yahya Blankinship, The End of the Jihad State: The Reign of Hisham Ibn 'Abd al-Malik and the Collapse of the Umayyads
 *In SUNY Series in Medieval Middle East History.*
@@ -2531,6 +2573,12 @@ ordinary state, not an item to clear.
 `frye-1965` — 1 claims
 
 - [ ] `chapter/samanid/05-what-bukhara-was.mdx` — prose: "What Bukhara was"
+
+## Thomas W. Lentz and Glenn D. Lowry, Timur and the Princely Vision: Persian Art and Culture in the Fifteenth Century
+
+`lentz-lowry-1989` — 1 claims
+
+- [ ] `chapter/timurid/06-the-princely-vision.mdx` — prose: "The princely vision"
 
 ## Hugh Kennedy, The Great Arab Conquests: How the Spread of Islam Changed the World We Live In
 

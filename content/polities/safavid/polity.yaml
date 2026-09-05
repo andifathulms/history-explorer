@@ -14,8 +14,13 @@ identity: >-
   The dynasty that imposed Twelver Shi'ism on Iran by decree, and thereby made
   Iran a distinct thing within the Islamic world.
 
+# The capital moved twice and the page had only the third one, dated to the
+# founding. Tabriz was the capital from 1501 and was too close to the Ottoman
+# frontier after Chaldiran; Qazvin from 1555; Isfahan from 1598.
 capitals:
-  - { name: Isfahan, script: اصفهان, from: 1501, source: newman-2006 }
+  - { name: Tabriz, script: تبریز, from: 1501, source: newman-2006 }
+  - { name: Qazvin, script: قزوین, from: 1555, source: newman-2006 }
+  - { name: Isfahan, script: اصفهان, from: 1598, source: newman-2006 }
 
 core_region: The Iranian plateau
 
@@ -36,10 +41,32 @@ ended:
   source: newman-2006
 
 institutions:
+  # Qizilbash tribal cavalry for the first century, then the ghulam corps
+  # Abbas I built to break them — Georgian, Armenian and Circassian captives
+  # raised as converts and owing the shah personally. Coding rule 1's
+  # paradigm case of a real change inside one polity's life.
   military_basis: { values: [tribal-levy, slave-soldier], source: newman-2006 }
-  revenue_basis: null
+  # The land tax of the plateau, and the silk export run as a crown monopoly
+  # from Abbas I onward — the state as sole buyer, sold through Armenian
+  # merchants relocated to New Julfa and shipped around Ottoman territory.
+  # Unranked. The only other polities in this corpus coded `monopoly` are
+  # Ptolemaic Egypt, the Mamluks and the Saadis, and all four did it for the
+  # same reason: a commodity the world wanted and a border they controlled.
+  revenue_basis: { values: [land-tax, monopoly], source: newman-2006 }
+  # Nothing consulted describes a rule. What it describes is a change of
+  # practice: princes were sent to the provinces as governors with Qizilbash
+  # tutors until Abbas I, and confined to the harem afterwards, which removed
+  # the risk of a rebel son and produced successors with no experience of
+  # governing anything. That is an outcome and a practice, not a rule, and
+  # coding rule 7 asks for the rule.
   succession_rule: null
-  legitimation: { values: [divine-sanction], source: newman-2006 }
+  # Two claims and both public. Descent from Musa al-Kazim, the seventh imam,
+  # asserted in the dynasty's own genealogies and generally regarded by
+  # scholarship as constructed. And divine sanction of a much stronger kind:
+  # Isma'il's Turkish poetry addresses his followers as their god, and the
+  # Qizilbash fought for him on that understanding. Babayan is the source for
+  # the second, which had been coded off a general history.
+  legitimation: { values: [divine-sanction, descent], source: babayan-2002 }
 
 turning_points:
   - year: 1501
@@ -52,6 +79,41 @@ turning_points:
       previously exist there — and making the wars that followed the first
       sustained confessional conflict between two great Muslim powers.
     source: newman-2006
+    contested: false
+  - year: 1514
+    type: battle
+    name: "Chaldiran"
+    changed: >-
+      Selim I destroyed the Qizilbash cavalry with artillery and janissary
+      firearms, took Tabriz, and fixed a frontier in eastern Anatolia that has
+      moved very little since. What it did inside Iran mattered more: a shah
+      whose followers believed him divine had been beaten in the field, and the
+      messianic claim that had raised the army was never again the state's
+      working basis. Isma'il is said not to have led an army afterwards.
+    source: babayan-2002
+    contested: false
+  - year: 1598
+    type: capital-move
+    name: "Isfahan"
+    changed: >-
+      Abbas I moved the capital to the centre of the plateau, out of reach of
+      the Ottoman and Uzbek frontiers, and rebuilt it around a new maidan as a
+      commercial instrument as much as a monument — with the silk monopoly, the
+      Armenian merchant suburb at New Julfa and direct dealing with the English
+      and Dutch companies designed into the same programme. The move is the
+      hinge, not the buildings.
+    source: newman-2006
+    contested: false
+  - year: 1722
+    type: siege
+    name: "The siege of Isfahan"
+    changed: >-
+      A Ghilzai Afghan force of perhaps twenty thousand, from a province the
+      empire had governed, blockaded the capital for six months until it starved
+      and the shah abdicated to their commander in person. It ended Safavid rule
+      in fact — the later shahs were other men's puppets — and began the
+      turbulence Iran spent the eighteenth century in.
+    source: matthee-2012
     contested: false
 
 measures:
