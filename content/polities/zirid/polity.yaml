@@ -1,0 +1,88 @@
+id: zirid
+region: islamic-west
+
+name:
+  latin: Zirid Dynasty
+  script: الزيريون
+  script_lang: ar
+
+span:
+  start: { min: 972, max: 972, source: abun-nasr-1987 }
+  end: { min: 1148, max: 1148, source: abun-nasr-1987 }
+
+identity: >-
+  The Sanhaja governors the Fatimids left behind when they went to Cairo, who
+  changed sides after eighty years and were answered with a migration.
+
+capitals:
+  - { name: Sabra al-Mansuriyya, from: 972, to: 1057, source: abun-nasr-1987 }
+  - { name: Mahdia, script: المهدية, from: 1057, source: abun-nasr-1987 }
+
+core_region: Ifriqiya
+
+rulers:
+  founder: { name: Buluggin ibn Ziri, reign: [972, 984], source: abun-nasr-1987 }
+  peak: { name: al-Mu'izz ibn Badis, reign: [1016, 1062], source: abun-nasr-1987 }
+  last: { name: al-Hasan ibn Ali, source: abun-nasr-1987 }
+
+scripts_and_languages:
+  administration: [Arabic]
+  writing_system: Arabic
+
+ended:
+  type: conquest
+  by: []
+  year: 1148
+  source: abun-nasr-1987
+
+institutions:
+  military_basis: { values: [tribal-levy, slave-soldier], source: abun-nasr-1987 }
+  # Ifriqiya's agriculture until the Banu Hilal ruined it, and from 1057 the
+  # customs and shipping of one fortified port, which is a different state
+  # living on a different thing.
+  revenue_basis: { values: [land-tax, trade-toll], source: abun-nasr-1987 }
+  succession_rule: { values: [appanage], source: abun-nasr-1987 }
+  # Held from the Fatimids as viceroys, and then from the Abbasids after the
+  # switch — the whole political history of the dynasty is which caliph's name
+  # was said in the sermon.
+  legitimation: { values: [caliphal-investiture], source: abun-nasr-1987 }
+
+turning_points:
+  - year: 1015
+    type: succession-crisis
+    name: "The Hammadid split"
+    changed: >-
+      A cadet branch at the Qal'a in the central Maghreb rebelled, put the
+      Abbasid name in its own khutba, and founded a separate dynasty that
+      lasted a century and a half. Ifriqiya and the central Maghreb became two
+      polities, thirty-five years before either had to face the Banu Hilal.
+    source: abun-nasr-1987
+    contested: false
+  - year: 1052
+    type: battle
+    name: "Haydaran"
+    changed: >-
+      A Zirid army was broken by a far smaller Banu Hilal force, and the
+      migration the Fatimids had loosed could not be stopped afterwards. It is
+      the point at which a state stopped being able to protect the agriculture
+      it lived on.
+    source: abun-nasr-1987
+    contested: false
+  - year: 1057
+    type: capital-move
+    name: "Kairouan abandoned"
+    changed: >-
+      The capital of Ifriqiya since the conquest, the city of the mosque this
+      site's Aghlabid page describes, was left to be sacked, and the dynasty
+      moved to a fortified peninsula on the coast. What remained was a port
+      state living on shipping — smaller, and for ninety years viable.
+    source: abun-nasr-1987
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

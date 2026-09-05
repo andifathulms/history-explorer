@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1556 claims across 89 sources.**
+**1576 claims across 89 sources.**
 
 ## Where to start
 
@@ -78,6 +78,139 @@ ordinary state, not an item to clear.
 - [ ] `uyghur-khaganate` — one figure, at 800 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
 - [ ] `xiongnu` — one figure, at -176 (Rein Taagepera, Size and Duration of Empires: Growth-Decline Curves, 600 B.C. to 600 A.D.)
 - [ ] `yuan` — one figure, at 1310 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
+
+## Jamil M. Abun-Nasr, A History of the Maghrib in the Islamic Period
+
+`abun-nasr-1987` — 126 claims
+
+**Sole source** for `hafsid`, `idrisid`, `marinid`, `zayyanid`, `zirid` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/aghlabid/01-a-province-for-rent.mdx` — prose: "A province, for tribute"
+- [ ] `chapter/aghlabid/02-kairouan.mdx` — prose: "What a hundred years of tribute paid for"
+- [ ] `chapter/aghlabid/03-sicily.mdx` — prose: "Seventy-five years for one island"
+- [ ] `chapter/hafsid/01-the-governor-who-stayed.mdx` — prose: "Keeping the province when the doctrine went"
+- [ ] `chapter/hafsid/02-a-caliph-in-tunis.mdx` — prose: "A caliph in Tunis, for about a year"
+- [ ] `chapter/hafsid/03-ibn-khaldun.mdx` — prose: "The man who wrote the theory of this website"
+- [ ] `chapter/hafsid/04-a-prize-in-someone-elses-war.mdx` — prose: "A prize in somebody else's war"
+- [ ] `chapter/idrisid/01-fez.mdx` — prose: "A fugitive founds a city"
+- [ ] `chapter/idrisid/02-fez.mdx` — prose: "Two banks of a river"
+- [ ] `chapter/idrisid/03-what-happened-to-the-pieces.mdx` — prose: "What happened to the pieces"
+- [ ] `chapter/idrisid/04-descent-as-a-claim.mdx` — prose: "Descent, used as a claim"
+- [ ] `chapter/marinid/01-a-dynasty-without-a-doctrine.mdx` — prose: "A dynasty without a doctrine"
+- [ ] `chapter/marinid/02-what-they-built-instead.mdx` — prose: "What they built instead"
+- [ ] `chapter/marinid/03-the-book-they-paid-for.mdx` — prose: "The book they paid a secretary for"
+- [ ] `chapter/marinid/04-one-year-of-the-whole-maghreb.mdx` — prose: "One year of the whole Maghreb"
+- [ ] `chapter/rustamid/01-tahert.mdx` — prose: "An elected imamate"
+- [ ] `chapter/rustamid/02-an-argument-that-stayed-open.mdx` — prose: "An argument that stayed open"
+- [ ] `chapter/rustamid/03-the-trade.mdx` — prose: "Doctrine along the caravan routes"
+- [ ] `chapter/rustamid/04-into-the-desert.mdx` — prose: "Into the desert"
+- [ ] `chapter/umayyad/07-the-berber-revolt.mdx` — prose: "Where it broke first"
+- [ ] `chapter/zayyanid/01-the-crossroads.mdx` — prose: "The crossroads"
+- [ ] `chapter/zayyanid/02-a-city-built-to-take-a-city.mdx` — prose: "A city built to take a city"
+- [ ] `chapter/zayyanid/03-the-funduk.mdx` — prose: "Where the gold changed hands"
+- [ ] `chapter/zayyanid/04-between-two-empires.mdx` — prose: "Between two empires, again"
+- [ ] `chapter/zirid/01-left-behind.mdx` — prose: "Left behind"
+- [ ] `chapter/zirid/02-the-answer-was-a-migration.mdx` — prose: "The answer was a migration"
+- [ ] `chapter/zirid/03-a-port-instead-of-a-province.mdx` — prose: "A port instead of a province"
+- [ ] `edge/abbasid->aghlabid` — vassal of in 800
+- [ ] `edge/almohad->hafsid` — seceded from in 1229
+- [ ] `edge/almohad->marinid` — overthrew in 1269
+- [ ] `edge/almohad->zayyanid` — seceded from in 1235
+- [ ] `edge/fatimid->zirid` — vassal of in 972
+- [ ] `edge/hafsid->ottoman` — conquered by in 1574
+- [ ] `edge/zayyanid->ottoman` — conquered by in 1551
+- [ ] `edge/zirid->almohad` — absorbed remnants of in 1160
+- [ ] `polity/aghlabid` — span starts 800
+- [ ] `polity/aghlabid` — span ends 909
+- [ ] `polity/aghlabid` — capital Kairouan from 800
+- [ ] `polity/aghlabid` — founder Ibrahim I ibn al-Aghlab r. 800-812
+- [ ] `polity/aghlabid` — peak Ziyadat Allah I r. 817-838
+- [ ] `polity/aghlabid` — last Ziyadat Allah III r. 903-909
+- [ ] `polity/aghlabid` — military basis coded tribal-levy + slave-soldier
+- [ ] `polity/aghlabid` — revenue basis coded land-tax + trade-toll + plunder
+- [ ] `polity/aghlabid` — succession rule coded nomination
+- [ ] `polity/aghlabid` — legitimation coded caliphal-investiture
+- [ ] `polity/aghlabid` — turning point 827 The landing in Sicily
+- [ ] `polity/aghlabid` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/hafsid` — span starts 1229
+- [ ] `polity/hafsid` — span ends 1574
+- [ ] `polity/hafsid` — capital Tunis from 1229
+- [ ] `polity/hafsid` — founder Abu Zakariya Yahya r. 1229-1249
+- [ ] `polity/hafsid` — peak al-Mustansir r. 1249-1277
+- [ ] `polity/hafsid` — military basis coded tribal-levy + mercenary
+- [ ] `polity/hafsid` — revenue basis coded trade-toll + plunder
+- [ ] `polity/hafsid` — legitimation coded descent + titulature
+- [ ] `polity/hafsid` — turning point 1259 The sharif of Mecca acknowledges a caliph in Tunis
+- [ ] `polity/hafsid` — turning point 1377 The Muqaddima
+- [ ] `polity/hafsid` — turning point 1535 Charles V takes Tunis
+- [ ] `polity/hafsid` — ended by conquest in 1574
+- [ ] `polity/idrisid` — span starts 788
+- [ ] `polity/idrisid` — span ends 974
+- [ ] `polity/idrisid` — capital Fez from 788
+- [ ] `polity/idrisid` — founder Idris I r. 788-791
+- [ ] `polity/idrisid` — peak Idris II r. 803-828
+- [ ] `polity/idrisid` — last al-Hasan al-Hajjam r. 970-974
+- [ ] `polity/idrisid` — military basis coded tribal-levy
+- [ ] `polity/idrisid` — succession rule coded appanage
+- [ ] `polity/idrisid` — legitimation coded descent
+- [ ] `polity/idrisid` — turning point 818 The Cordoba suburb, expelled
+- [ ] `polity/idrisid` — turning point 828 Idris II divides among his sons
+- [ ] `polity/idrisid` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/idrisid` — ended by gradual absorption in 974
+- [ ] `polity/marinid` — span starts 1244
+- [ ] `polity/marinid` — span ends 1465
+- [ ] `polity/marinid` — capital Fez from 1248
+- [ ] `polity/marinid` — founder Abu Yahya
+- [ ] `polity/marinid` — peak Abu al-Hasan r. 1331-1348
+- [ ] `polity/marinid` — last Abd al-Haqq II
+- [ ] `polity/marinid` — military basis coded tribal-levy + mercenary
+- [ ] `polity/marinid` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/marinid` — succession rule coded nomination
+- [ ] `polity/marinid` — legitimation coded conquest
+- [ ] `polity/marinid` — turning point 1340 Rio Salado
+- [ ] `polity/marinid` — turning point 1348 Kairouan, and the plague
+- [ ] `polity/marinid` — turning point 1415 Ceuta
+- [ ] `polity/marinid` — ended by internal usurpation in 1465
+- [ ] `polity/rustamid` — span starts 776
+- [ ] `polity/rustamid` — span ends 909
+- [ ] `polity/rustamid` — capital Tahert from 776
+- [ ] `polity/rustamid` — founder Abd al-Rahman ibn Rustam r. 776-788
+- [ ] `polity/rustamid` — peak Aflah ibn Abd al-Wahhab r. 823-872
+- [ ] `polity/rustamid` — last Yaqzan ibn Muhammad r. 894-909
+- [ ] `polity/rustamid` — military basis coded tribal-levy
+- [ ] `polity/rustamid` — revenue basis coded trade-toll
+- [ ] `polity/rustamid` — succession rule coded election
+- [ ] `polity/rustamid` — legitimation coded election
+- [ ] `polity/rustamid` — turning point 784 The Nukkar refuse
+- [ ] `polity/umayyad` — turning point 740 The Berber revolt
+- [ ] `polity/zayyanid` — span starts 1235
+- [ ] `polity/zayyanid` — span ends 1551
+- [ ] `polity/zayyanid` — capital Tlemcen from 1235
+- [ ] `polity/zayyanid` — founder Yaghmurasan ibn Zayyan r. 1235-1283
+- [ ] `polity/zayyanid` — peak Abu Hammu Musa II r. 1359-1389
+- [ ] `polity/zayyanid` — last Hasan ibn Abdallah
+- [ ] `polity/zayyanid` — military basis coded tribal-levy + mercenary
+- [ ] `polity/zayyanid` — revenue basis coded trade-toll + land-tax
+- [ ] `polity/zayyanid` — succession rule coded nomination
+- [ ] `polity/zayyanid` — legitimation coded conquest
+- [ ] `polity/zayyanid` — turning point 1299 The eight-year siege
+- [ ] `polity/zayyanid` — turning point 1337 Tlemcen taken
+- [ ] `polity/zayyanid` — ended by conquest in 1551
+- [ ] `polity/zirid` — span starts 972
+- [ ] `polity/zirid` — span ends 1148
+- [ ] `polity/zirid` — capital Sabra al-Mansuriyya from 972
+- [ ] `polity/zirid` — capital Mahdia from 1057
+- [ ] `polity/zirid` — founder Buluggin ibn Ziri r. 972-984
+- [ ] `polity/zirid` — peak al-Mu'izz ibn Badis r. 1016-1062
+- [ ] `polity/zirid` — last al-Hasan ibn Ali
+- [ ] `polity/zirid` — military basis coded tribal-levy + slave-soldier
+- [ ] `polity/zirid` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/zirid` — succession rule coded appanage
+- [ ] `polity/zirid` — legitimation coded caliphal-investiture
+- [ ] `polity/zirid` — turning point 1015 The Hammadid split
+- [ ] `polity/zirid` — turning point 1052 Haydaran
+- [ ] `polity/zirid` — turning point 1057 Kairouan abandoned
+- [ ] `polity/zirid` — ended by conquest in 1148
 
 ## C. E. Bosworth, The New Islamic Dynasties: A Chronological and Genealogical Manual
 
@@ -194,119 +327,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/ziyarid` — peak Qabus ibn Vushmgir
 - [ ] `polity/ziyarid` — last Gilanshah
 - [ ] `polity/ziyarid` — ended by conquest in 1090
-
-## Jamil M. Abun-Nasr, A History of the Maghrib in the Islamic Period
-
-`abun-nasr-1987` — 106 claims
-
-**Sole source** for `hafsid`, `idrisid`, `marinid`, `zayyanid` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/aghlabid/01-a-province-for-rent.mdx` — prose: "A province, for tribute"
-- [ ] `chapter/aghlabid/02-kairouan.mdx` — prose: "What a hundred years of tribute paid for"
-- [ ] `chapter/aghlabid/03-sicily.mdx` — prose: "Seventy-five years for one island"
-- [ ] `chapter/hafsid/01-the-governor-who-stayed.mdx` — prose: "Keeping the province when the doctrine went"
-- [ ] `chapter/hafsid/02-a-caliph-in-tunis.mdx` — prose: "A caliph in Tunis, for about a year"
-- [ ] `chapter/hafsid/03-ibn-khaldun.mdx` — prose: "The man who wrote the theory of this website"
-- [ ] `chapter/hafsid/04-a-prize-in-someone-elses-war.mdx` — prose: "A prize in somebody else's war"
-- [ ] `chapter/idrisid/01-fez.mdx` — prose: "A fugitive founds a city"
-- [ ] `chapter/idrisid/02-fez.mdx` — prose: "Two banks of a river"
-- [ ] `chapter/idrisid/03-what-happened-to-the-pieces.mdx` — prose: "What happened to the pieces"
-- [ ] `chapter/idrisid/04-descent-as-a-claim.mdx` — prose: "Descent, used as a claim"
-- [ ] `chapter/marinid/01-a-dynasty-without-a-doctrine.mdx` — prose: "A dynasty without a doctrine"
-- [ ] `chapter/marinid/02-what-they-built-instead.mdx` — prose: "What they built instead"
-- [ ] `chapter/marinid/03-the-book-they-paid-for.mdx` — prose: "The book they paid a secretary for"
-- [ ] `chapter/marinid/04-one-year-of-the-whole-maghreb.mdx` — prose: "One year of the whole Maghreb"
-- [ ] `chapter/rustamid/01-tahert.mdx` — prose: "An elected imamate"
-- [ ] `chapter/rustamid/02-an-argument-that-stayed-open.mdx` — prose: "An argument that stayed open"
-- [ ] `chapter/rustamid/03-the-trade.mdx` — prose: "Doctrine along the caravan routes"
-- [ ] `chapter/rustamid/04-into-the-desert.mdx` — prose: "Into the desert"
-- [ ] `chapter/umayyad/07-the-berber-revolt.mdx` — prose: "Where it broke first"
-- [ ] `chapter/zayyanid/01-the-crossroads.mdx` — prose: "The crossroads"
-- [ ] `chapter/zayyanid/02-a-city-built-to-take-a-city.mdx` — prose: "A city built to take a city"
-- [ ] `chapter/zayyanid/03-the-funduk.mdx` — prose: "Where the gold changed hands"
-- [ ] `chapter/zayyanid/04-between-two-empires.mdx` — prose: "Between two empires, again"
-- [ ] `edge/abbasid->aghlabid` — vassal of in 800
-- [ ] `edge/almohad->hafsid` — seceded from in 1229
-- [ ] `edge/almohad->marinid` — overthrew in 1269
-- [ ] `edge/almohad->zayyanid` — seceded from in 1235
-- [ ] `edge/hafsid->ottoman` — conquered by in 1574
-- [ ] `edge/zayyanid->ottoman` — conquered by in 1551
-- [ ] `polity/aghlabid` — span starts 800
-- [ ] `polity/aghlabid` — span ends 909
-- [ ] `polity/aghlabid` — capital Kairouan from 800
-- [ ] `polity/aghlabid` — founder Ibrahim I ibn al-Aghlab r. 800-812
-- [ ] `polity/aghlabid` — peak Ziyadat Allah I r. 817-838
-- [ ] `polity/aghlabid` — last Ziyadat Allah III r. 903-909
-- [ ] `polity/aghlabid` — military basis coded tribal-levy + slave-soldier
-- [ ] `polity/aghlabid` — revenue basis coded land-tax + trade-toll + plunder
-- [ ] `polity/aghlabid` — succession rule coded nomination
-- [ ] `polity/aghlabid` — legitimation coded caliphal-investiture
-- [ ] `polity/aghlabid` — turning point 827 The landing in Sicily
-- [ ] `polity/aghlabid` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/hafsid` — span starts 1229
-- [ ] `polity/hafsid` — span ends 1574
-- [ ] `polity/hafsid` — capital Tunis from 1229
-- [ ] `polity/hafsid` — founder Abu Zakariya Yahya r. 1229-1249
-- [ ] `polity/hafsid` — peak al-Mustansir r. 1249-1277
-- [ ] `polity/hafsid` — military basis coded tribal-levy + mercenary
-- [ ] `polity/hafsid` — revenue basis coded trade-toll + plunder
-- [ ] `polity/hafsid` — legitimation coded descent + titulature
-- [ ] `polity/hafsid` — turning point 1259 The sharif of Mecca acknowledges a caliph in Tunis
-- [ ] `polity/hafsid` — turning point 1377 The Muqaddima
-- [ ] `polity/hafsid` — turning point 1535 Charles V takes Tunis
-- [ ] `polity/hafsid` — ended by conquest in 1574
-- [ ] `polity/idrisid` — span starts 788
-- [ ] `polity/idrisid` — span ends 974
-- [ ] `polity/idrisid` — capital Fez from 788
-- [ ] `polity/idrisid` — founder Idris I r. 788-791
-- [ ] `polity/idrisid` — peak Idris II r. 803-828
-- [ ] `polity/idrisid` — last al-Hasan al-Hajjam r. 970-974
-- [ ] `polity/idrisid` — military basis coded tribal-levy
-- [ ] `polity/idrisid` — succession rule coded appanage
-- [ ] `polity/idrisid` — legitimation coded descent
-- [ ] `polity/idrisid` — turning point 818 The Cordoba suburb, expelled
-- [ ] `polity/idrisid` — turning point 828 Idris II divides among his sons
-- [ ] `polity/idrisid` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/idrisid` — ended by gradual absorption in 974
-- [ ] `polity/marinid` — span starts 1244
-- [ ] `polity/marinid` — span ends 1465
-- [ ] `polity/marinid` — capital Fez from 1248
-- [ ] `polity/marinid` — founder Abu Yahya
-- [ ] `polity/marinid` — peak Abu al-Hasan r. 1331-1348
-- [ ] `polity/marinid` — last Abd al-Haqq II
-- [ ] `polity/marinid` — military basis coded tribal-levy + mercenary
-- [ ] `polity/marinid` — revenue basis coded land-tax + trade-toll
-- [ ] `polity/marinid` — succession rule coded nomination
-- [ ] `polity/marinid` — legitimation coded conquest
-- [ ] `polity/marinid` — turning point 1340 Rio Salado
-- [ ] `polity/marinid` — turning point 1348 Kairouan, and the plague
-- [ ] `polity/marinid` — turning point 1415 Ceuta
-- [ ] `polity/marinid` — ended by internal usurpation in 1465
-- [ ] `polity/rustamid` — span starts 776
-- [ ] `polity/rustamid` — span ends 909
-- [ ] `polity/rustamid` — capital Tahert from 776
-- [ ] `polity/rustamid` — founder Abd al-Rahman ibn Rustam r. 776-788
-- [ ] `polity/rustamid` — peak Aflah ibn Abd al-Wahhab r. 823-872
-- [ ] `polity/rustamid` — last Yaqzan ibn Muhammad r. 894-909
-- [ ] `polity/rustamid` — military basis coded tribal-levy
-- [ ] `polity/rustamid` — revenue basis coded trade-toll
-- [ ] `polity/rustamid` — succession rule coded election
-- [ ] `polity/rustamid` — legitimation coded election
-- [ ] `polity/rustamid` — turning point 784 The Nukkar refuse
-- [ ] `polity/umayyad` — turning point 740 The Berber revolt
-- [ ] `polity/zayyanid` — span starts 1235
-- [ ] `polity/zayyanid` — span ends 1551
-- [ ] `polity/zayyanid` — capital Tlemcen from 1235
-- [ ] `polity/zayyanid` — founder Yaghmurasan ibn Zayyan r. 1235-1283
-- [ ] `polity/zayyanid` — peak Abu Hammu Musa II r. 1359-1389
-- [ ] `polity/zayyanid` — last Hasan ibn Abdallah
-- [ ] `polity/zayyanid` — military basis coded tribal-levy + mercenary
-- [ ] `polity/zayyanid` — revenue basis coded trade-toll + land-tax
-- [ ] `polity/zayyanid` — succession rule coded nomination
-- [ ] `polity/zayyanid` — legitimation coded conquest
-- [ ] `polity/zayyanid` — turning point 1299 The eight-year siege
-- [ ] `polity/zayyanid` — turning point 1337 Tlemcen taken
-- [ ] `polity/zayyanid` — ended by conquest in 1551
 
 ## A. C. S. Peacock and Sara Nur Yildiz (eds), The Seljuks of Anatolia: Court and Society in the Medieval Middle East
 

@@ -1244,3 +1244,23 @@ edges:
            forfeited authority."
     source: kennedy-1996
     contested: false
+
+  - from: fatimid
+    to: zirid
+    type: vassal of
+    year: 972
+    note: "When al-Mu'izz went east to Cairo he left Ifriqiya to the Sanhaja
+           family that had held the central Maghreb for him, as viceroys with
+           the whole western half of the caliphate under them."
+    source: abun-nasr-1987
+    contested: false
+
+  - from: zirid
+    to: almohad
+    type: absorbed remnants of
+    year: 1160
+    note: "The Almohads took the Tunisian coast back from the Normans a decade
+           after Mahdia fell, and the last Zirid died under their protection in
+           1167."
+    source: abun-nasr-1987
+    contested: false
