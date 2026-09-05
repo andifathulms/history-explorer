@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1265 claims across 86 sources.**
+**1281 claims across 88 sources.**
 
 ## Where to start
 
@@ -709,6 +709,37 @@ ordinary state, not an item to clear.
 - [ ] `polity/neo-assyrian` — last Ashur-uballit II r. -612--609
 - [ ] `polity/neo-assyrian` — ended by conquest in -609
 
+## Colin Imber, The Ottoman Empire, 1300-1650: The Structure of Power
+
+`imber-2002` — 26 claims
+
+- [ ] `chapter/ottoman/01-a-frontier-beylik.mdx` — prose: "The smallest of the beyliks"
+- [ ] `chapter/ottoman/02-the-balkans-first.mdx` — prose: "The Balkans first"
+- [ ] `chapter/ottoman/03-1453.mdx` — prose: "Two inheritances"
+- [ ] `chapter/ottoman/04-selim.mdx` — prose: "Two years that changed what the empire was"
+- [ ] `chapter/ottoman/05-suleyman-and-the-law.mdx` — prose: "The lawgiver, and what he actually did"
+- [ ] `chapter/ottoman/06-the-devshirme.mdx` — prose: "The levy of boys"
+- [ ] `edge/byzantine->ottoman` — claimed legitimacy of in 1453
+- [ ] `edge/mamluk-sultanate->ottoman` — conquered by in 1517
+- [ ] `edge/roman->ottoman` — claimed legitimacy of in 1453
+- [ ] `edge/rum->ottoman` — absorbed remnants of in 1299
+- [ ] `polity/byzantine` — successor_claims = 1 (Ottoman Empire)
+- [ ] `polity/ottoman` — span starts 1299
+- [ ] `polity/ottoman` — span ends 1922
+- [ ] `polity/ottoman` — capital Istanbul from 1453
+- [ ] `polity/ottoman` — founder Osman I r. 1299-1324
+- [ ] `polity/ottoman` — peak Suleyman I r. 1520-1566
+- [ ] `polity/ottoman` — last Mehmed VI r. 1918-1922
+- [ ] `polity/ottoman` — military basis coded land-grant + slave-soldier + tribal-levy
+- [ ] `polity/ottoman` — revenue basis coded land-tax + poll-tax + trade-toll
+- [ ] `polity/ottoman` — succession rule coded factional + tanistry
+- [ ] `polity/ottoman` — legitimation coded titulature
+- [ ] `polity/ottoman` — turning point 1402 Ankara
+- [ ] `polity/ottoman` — turning point 1453 The taking of Constantinople
+- [ ] `polity/ottoman` — turning point 1517 Ridaniya, and the Arab lands
+- [ ] `polity/ottoman` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/ottoman` — ended by fragmentation in 1922
+
 ## Kenneth R. Hall, A History of Early Southeast Asia: Maritime Trade and Societal Development, 100-1500
 
 `hall-2011` — 23 claims
@@ -966,28 +997,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/saffarid` — turning point 867 The first Persian qasida (contested)
 - [ ] `polity/saffarid` — turning point 876 Dayr al-Aqul
 - [ ] `polity/saffarid` — ended by gradual absorption in 1003
-
-## Colin Imber, The Ottoman Empire, 1300-1650: The Structure of Power
-
-`imber-2002` — 17 claims
-
-- [ ] `chapter/ottoman/01-a-frontier-beylik.mdx` — prose: "The smallest of the beyliks"
-- [ ] `chapter/ottoman/02-1453.mdx` — prose: "Two inheritances"
-- [ ] `edge/byzantine->ottoman` — claimed legitimacy of in 1453
-- [ ] `edge/mamluk-sultanate->ottoman` — conquered by in 1517
-- [ ] `edge/roman->ottoman` — claimed legitimacy of in 1453
-- [ ] `edge/rum->ottoman` — absorbed remnants of in 1299
-- [ ] `polity/byzantine` — successor_claims = 1 (Ottoman Empire)
-- [ ] `polity/ottoman` — span starts 1299
-- [ ] `polity/ottoman` — span ends 1922
-- [ ] `polity/ottoman` — capital Istanbul from 1299
-- [ ] `polity/ottoman` — founder Osman I r. 1299-1324
-- [ ] `polity/ottoman` — peak Suleyman I r. 1520-1566
-- [ ] `polity/ottoman` — last Mehmed VI r. 1918-1922
-- [ ] `polity/ottoman` — legitimation coded titulature
-- [ ] `polity/ottoman` — turning point 1453 The taking of Constantinople
-- [ ] `polity/ottoman` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/ottoman` — ended by fragmentation in 1922
 
 ## Mustafa Banister, The Abbasid Caliphate of Cairo, 1261-1517: Out of the Shadows
 *In Edinburgh Studies in Classical Islamic History and Culture.*
@@ -1678,6 +1687,16 @@ ordinary state, not an item to clear.
 - [ ] `polity/saffarid` — descendant_scripts = 0
 - [ ] `polity/saffarid` — religions_carried = 0
 
+## Caroline Finkel, Osman's Dream: The Story of the Ottoman Empire 1300-1923
+
+`finkel-2005` — 5 claims
+
+- [ ] `chapter/ottoman/08-1922.mdx` — prose: "The last of the three"
+- [ ] `polity/ottoman` — capital Sogut from 1299
+- [ ] `polity/ottoman` — capital Bursa from 1335
+- [ ] `polity/ottoman` — capital Edirne from 1369
+- [ ] `polity/ottoman` — turning point 1699 Karlowitz
+
 ## Patricia Crone and Martin Hinds, God's Caliph: Religious Authority in the First Centuries of Islam
 *In University of Cambridge Oriental Publications 37.*
 
@@ -1756,6 +1775,14 @@ ordinary state, not an item to clear.
 
 - [ ] `chapter/mongol/03-division.mdx` — prose: "An empire that divided itself"
 - [ ] `polity/mongol` — span end upper bound 1368
+
+## Baki Tezcan, The Second Ottoman Empire: Political and Social Transformation in the Early Modern World
+*In Cambridge Studies in Islamic Civilization.*
+
+`tezcan-2010` — 2 claims
+
+- [ ] `chapter/ottoman/07-the-second-empire.mdx` — prose: "The empire that was not declining"
+- [ ] `polity/ottoman` — turning point 1622 Osman II killed by the janissaries (contested)
 
 ## Khalid Yahya Blankinship, The End of the Jihad State: The Reign of Hisham Ibn 'Abd al-Malik and the Collapse of the Umayyads
 *In SUNY Series in Medieval Middle East History.*

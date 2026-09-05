@@ -659,6 +659,31 @@ sources:
     publisher: Methuen
     year: 1973
 
+  - id: finkel-2005
+    kind: book
+    author: Caroline Finkel
+    title: "Osman's Dream: The Story of the Ottoman Empire 1300-1923"
+    publisher: John Murray
+    year: 2005
+    note: >-
+      The standard single-volume narrative across the whole span. Cited here
+      because imber-2002 stops at 1650 and this site's Ottoman record runs to
+      1922 — the later chapters had no source until this was added.
+
+  - id: tezcan-2010
+    kind: book
+    author: Baki Tezcan
+    title: "The Second Ottoman Empire: Political and Social Transformation in the Early Modern World"
+    container: Cambridge Studies in Islamic Civilization
+    publisher: Cambridge University Press
+    year: 2010
+    note: >-
+      Argues against the decline narrative: that the late sixteenth and
+      seventeenth centuries were a socio-economic transformation producing a
+      second, differently constituted state rather than the beginning of a
+      long failure. Cited for the chapter on that period, which this site would
+      otherwise have had to write in the vocabulary of decline by default.
+
   - id: imber-2002
     kind: book
     author: Colin Imber

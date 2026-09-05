@@ -15,7 +15,10 @@ identity: >-
   lands and the caliphal title, and lasted into the twentieth century.
 
 capitals:
-  - { name: Istanbul, script: قسطنطينيه, from: 1299, source: imber-2002 }
+  - { name: Sogut, from: 1299, to: 1335, source: finkel-2005 }
+  - { name: Bursa, script: بورسه, from: 1335, to: 1369, source: finkel-2005 }
+  - { name: Edirne, script: ادرنه, from: 1369, to: 1453, source: finkel-2005 }
+  - { name: Istanbul, script: قسطنطينيه, from: 1453, source: imber-2002 }
 
 core_region: Anatolia, the Balkans and the Arab lands
 
@@ -35,12 +38,38 @@ ended:
   source: imber-2002
 
 institutions:
-  military_basis: null
-  revenue_basis: null
-  succession_rule: null
+  # Three values because the army was three things at once for most of its
+  # history: timar-holding provincial cavalry paid by assigned revenue, the
+  # devshirme levy that produced the janissaries and the palace administration,
+  # and Turkmen and later provincial contingents raised for campaigns.
+  military_basis: { values: [land-grant, slave-soldier, tribal-levy], source: imber-2002 }
+  revenue_basis: { values: [land-tax, poll-tax, trade-toll], source: imber-2002 }
+  # The rule changed twice without the family changing. Until the seventeenth
+  # century the throne went to whichever son could take it, with fratricide
+  # legalised to settle it; afterwards to the eldest surviving male of the
+  # house, with the rest confined rather than killed. Coding rule 7 asks for
+  # the rule in force, and there were two.
+  succession_rule: { values: [factional, tanistry], source: imber-2002 }
+  # Kayser-i Rum from 1453 and the guardianship of the holy cities from 1517,
+  # neither of which is descent and both of which are titles taken as the
+  # ground of authority. The formal caliphal claim is an eighteenth-century
+  # construction, which this record does not code and both relevant chapters
+  # say.
   legitimation: { values: [titulature], source: imber-2002 }
 
 turning_points:
+  - year: 1402
+    type: battle
+    name: "Ankara"
+    changed: >-
+      Timur destroyed Bayezid's army, took him prisoner and restored the
+      Anatolian beyliks, and the Ottoman state broke into an eleven-year civil
+      war between his sons. That it reassembled — a dynasty losing its sultan,
+      its army and its Anatolian provinces and governing all of them again
+      within twenty years — is the first evidence that this was a state and not
+      a successful warband.
+    source: imber-2002
+    contested: false
   - year: 1453
     type: siege
     name: "The taking of Constantinople"
@@ -50,6 +79,40 @@ turning_points:
       Roman empire in its own description of itself as well as in its
       territory.
     source: imber-2002
+    contested: false
+
+  - year: 1517
+    type: siege
+    name: "Ridaniya, and the Arab lands"
+    changed: >-
+      Two years took Syria, Egypt and the Hijaz from the Mamluks, and with them
+      guardianship of Mecca and Medina and the Abbasid caliph the Mamluks had
+      kept at Cairo since 1261. A largely Christian state ruled by Muslims
+      became the largest Muslim polity in the world, and its centre of
+      population, revenue and religious institutions moved accordingly.
+    source: imber-2002
+    contested: false
+  - year: 1622
+    type: succession-crisis
+    name: "Osman II killed by the janissaries"
+    changed: >-
+      A reigning sultan was deposed and murdered by his own household troops.
+      Read as decline it is a symptom; read as Tezcan reads it, it is the
+      moment a different constitution became visible — a ruler answerable to
+      identifiable constituencies with the means to remove him, which is an
+      early modern arrangement rather than a failing absolutist one.
+    source: tezcan-2010
+    contested: true
+  - year: 1699
+    type: treaty
+    name: "Karlowitz"
+    changed: >-
+      Hungary was ceded, and for the first time the Ottomans negotiated as a
+      defeated party conceding territory rather than as an empire granting
+      terms. The frontier stopped moving outward permanently, and the two
+      centuries after it are the ones the standard account compresses into the
+      word decline.
+    source: finkel-2005
     contested: false
 
 measures:
