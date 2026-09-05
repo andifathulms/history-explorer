@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1590 claims across 89 sources.**
+**1594 claims across 89 sources.**
 
 ## Where to start
 
@@ -81,7 +81,7 @@ ordinary state, not an item to clear.
 
 ## Jamil M. Abun-Nasr, A History of the Maghrib in the Islamic Period
 
-`abun-nasr-1987` — 136 claims
+`abun-nasr-1987` — 139 claims
 
 **Sole source** for `hafsid`, `idrisid`, `marinid`, `zayyanid`, `zirid` — nothing else in the corpus can contradict a misreading here.
 
@@ -101,6 +101,8 @@ ordinary state, not an item to clear.
 - [ ] `chapter/marinid/03-the-book-they-paid-for.mdx` — prose: "The book they paid a secretary for"
 - [ ] `chapter/marinid/04-one-year-of-the-whole-maghreb.mdx` — prose: "One year of the whole Maghreb"
 - [ ] `chapter/midrarid/01-the-northern-end.mdx` — prose: "The northern end of the road"
+- [ ] `chapter/midrarid/02-salt-for-gold.mdx` — prose: "Salt for gold"
+- [ ] `chapter/midrarid/04-what-is-left-of-it.mdx` — prose: "What is left of it"
 - [ ] `chapter/rustamid/01-tahert.mdx` — prose: "An elected imamate"
 - [ ] `chapter/rustamid/02-an-argument-that-stayed-open.mdx` — prose: "An argument that stayed open"
 - [ ] `chapter/rustamid/03-the-trade.mdx` — prose: "Doctrine along the caravan routes"
@@ -112,7 +114,8 @@ ordinary state, not an item to clear.
 - [ ] `chapter/zayyanid/04-between-two-empires.mdx` — prose: "Between two empires, again"
 - [ ] `chapter/zirid/01-left-behind.mdx` — prose: "Left behind"
 - [ ] `chapter/zirid/02-the-answer-was-a-migration.mdx` — prose: "The answer was a migration"
-- [ ] `chapter/zirid/03-a-port-instead-of-a-province.mdx` — prose: "A port instead of a province"
+- [ ] `chapter/zirid/03-the-mountain-capital.mdx` — prose: "The other half, in the mountains"
+- [ ] `chapter/zirid/04-a-port-instead-of-a-province.mdx` — prose: "A port instead of a province"
 - [ ] `edge/abbasid->aghlabid` — vassal of in 800
 - [ ] `edge/almohad->hafsid` — seceded from in 1229
 - [ ] `edge/almohad->marinid` — overthrew in 1269
@@ -639,6 +642,52 @@ ordinary state, not an item to clear.
 - [ ] `polity/tulunid` — legitimation coded caliphal-investiture
 - [ ] `polity/tulunid` — ended by conquest in 905
 
+## Hugh Kennedy, Muslim Spain and Portugal: A Political History of al-Andalus
+
+`kennedy-1996` — 39 claims
+
+**Sole source** for `abbadid` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/abbadid/01-a-caliph-made-of-a-mat-maker.mdx` — prose: "A caliph made of a mat-maker"
+- [ ] `chapter/abbadid/02-the-poet-king.mdx` — prose: "The poet, and the men he bought off"
+- [ ] `chapter/abbadid/03-what-the-small-courts-made.mdx` — prose: "What the small courts made"
+- [ ] `chapter/abbadid/04-camels-and-swine.mdx` — prose: "Camels and swine"
+- [ ] `chapter/cordoba/01-survivor.mdx` — prose: "The one who got away"
+- [ ] `chapter/cordoba/02-the-state-behind-the-title.mdx` — prose: "The state behind the title"
+- [ ] `chapter/cordoba/03-what-al-hakam-left.mdx` — prose: "What al-Hakam left"
+- [ ] `chapter/cordoba/04-al-mansur.mdx` — prose: "The chamberlain who did not need the title"
+- [ ] `chapter/cordoba/06-the-collapse.mdx` — prose: "Thirty years, and then taifas"
+- [ ] `edge/abbadid->almoravid` — conquered by in 1091
+- [ ] `edge/cordoba->abbadid` — partitioned from in 1023
+- [ ] `edge/umayyad->cordoba` — claimed legitimacy of in 929
+- [ ] `polity/abbadid` — span starts 1023
+- [ ] `polity/abbadid` — span ends 1091
+- [ ] `polity/abbadid` — capital Seville from 1023
+- [ ] `polity/abbadid` — founder Abu al-Qasim Muhammad ibn Abbad r. 1023-1042
+- [ ] `polity/abbadid` — peak al-Mu'tadid r. 1042-1069
+- [ ] `polity/abbadid` — last al-Mu'tamid r. 1069-1091
+- [ ] `polity/abbadid` — military basis coded mercenary + slave-soldier
+- [ ] `polity/abbadid` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/abbadid` — succession rule coded nomination
+- [ ] `polity/abbadid` — legitimation coded descent
+- [ ] `polity/abbadid` — turning point 1035 The caliph they made
+- [ ] `polity/abbadid` — turning point 1085 Toledo falls, and the invitation
+- [ ] `polity/abbadid` — ended by conquest in 1091
+- [ ] `polity/cordoba` — span starts 756
+- [ ] `polity/cordoba` — span ends 1031
+- [ ] `polity/cordoba` — capital Cordoba from 756
+- [ ] `polity/cordoba` — founder Abd al-Rahman I r. 756-788
+- [ ] `polity/cordoba` — peak Abd al-Rahman III r. 912-961
+- [ ] `polity/cordoba` — last Hisham III r. 1027-1031
+- [ ] `polity/cordoba` — military basis coded slave-soldier + mercenary
+- [ ] `polity/cordoba` — succession rule coded nomination
+- [ ] `polity/cordoba` — legitimation coded descent + titulature
+- [ ] `polity/cordoba` — turning point 929 Taking the caliphal title
+- [ ] `polity/cordoba` — turning point 939 Simancas
+- [ ] `polity/cordoba` — turning point 976 Hisham II's minority
+- [ ] `polity/cordoba` — turning point 1009 The fitna of al-Andalus
+- [ ] `polity/cordoba` — ended by fragmentation in 1031
+
 ## Warren Treadgold, A History of the Byzantine State and Society
 
 `treadgold-1997` — 39 claims
@@ -684,51 +733,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/trebizond` — revenue basis coded trade-toll
 - [ ] `polity/trebizond` — legitimation coded descent + titulature
 - [ ] `polity/trebizond` — turning point 1282 Giving up the imperial title
-
-## Hugh Kennedy, Muslim Spain and Portugal: A Political History of al-Andalus
-
-`kennedy-1996` — 38 claims
-
-**Sole source** for `abbadid` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/abbadid/01-a-caliph-made-of-a-mat-maker.mdx` — prose: "A caliph made of a mat-maker"
-- [ ] `chapter/abbadid/02-the-poet-king.mdx` — prose: "The poet, and the men he bought off"
-- [ ] `chapter/abbadid/03-camels-and-swine.mdx` — prose: "Camels and swine"
-- [ ] `chapter/cordoba/01-survivor.mdx` — prose: "The one who got away"
-- [ ] `chapter/cordoba/02-the-state-behind-the-title.mdx` — prose: "The state behind the title"
-- [ ] `chapter/cordoba/03-what-al-hakam-left.mdx` — prose: "What al-Hakam left"
-- [ ] `chapter/cordoba/04-al-mansur.mdx` — prose: "The chamberlain who did not need the title"
-- [ ] `chapter/cordoba/06-the-collapse.mdx` — prose: "Thirty years, and then taifas"
-- [ ] `edge/abbadid->almoravid` — conquered by in 1091
-- [ ] `edge/cordoba->abbadid` — partitioned from in 1023
-- [ ] `edge/umayyad->cordoba` — claimed legitimacy of in 929
-- [ ] `polity/abbadid` — span starts 1023
-- [ ] `polity/abbadid` — span ends 1091
-- [ ] `polity/abbadid` — capital Seville from 1023
-- [ ] `polity/abbadid` — founder Abu al-Qasim Muhammad ibn Abbad r. 1023-1042
-- [ ] `polity/abbadid` — peak al-Mu'tadid r. 1042-1069
-- [ ] `polity/abbadid` — last al-Mu'tamid r. 1069-1091
-- [ ] `polity/abbadid` — military basis coded mercenary + slave-soldier
-- [ ] `polity/abbadid` — revenue basis coded land-tax + trade-toll
-- [ ] `polity/abbadid` — succession rule coded nomination
-- [ ] `polity/abbadid` — legitimation coded descent
-- [ ] `polity/abbadid` — turning point 1035 The caliph they made
-- [ ] `polity/abbadid` — turning point 1085 Toledo falls, and the invitation
-- [ ] `polity/abbadid` — ended by conquest in 1091
-- [ ] `polity/cordoba` — span starts 756
-- [ ] `polity/cordoba` — span ends 1031
-- [ ] `polity/cordoba` — capital Cordoba from 756
-- [ ] `polity/cordoba` — founder Abd al-Rahman I r. 756-788
-- [ ] `polity/cordoba` — peak Abd al-Rahman III r. 912-961
-- [ ] `polity/cordoba` — last Hisham III r. 1027-1031
-- [ ] `polity/cordoba` — military basis coded slave-soldier + mercenary
-- [ ] `polity/cordoba` — succession rule coded nomination
-- [ ] `polity/cordoba` — legitimation coded descent + titulature
-- [ ] `polity/cordoba` — turning point 929 Taking the caliphal title
-- [ ] `polity/cordoba` — turning point 939 Simancas
-- [ ] `polity/cordoba` — turning point 976 Hisham II's minority
-- [ ] `polity/cordoba` — turning point 1009 The fitna of al-Andalus
-- [ ] `polity/cordoba` — ended by fragmentation in 1031
 
 ## Amira K. Bennison, The Almoravid and Almohad Empires
 
@@ -1385,7 +1389,7 @@ ordinary state, not an item to clear.
 - [ ] `chapter/aghlabid/04-909.mdx` — prose: "Recruited from inside"
 - [ ] `chapter/fatimid/01-mahdi.mdx` — prose: "A counter-caliphate"
 - [ ] `chapter/fatimid/04-the-dawa.mdx` — prose: "The apparatus that outlived the state"
-- [ ] `chapter/midrarid/02-the-prisoner.mdx` — prose: "The prisoner in the oasis"
+- [ ] `chapter/midrarid/03-the-prisoner.mdx` — prose: "The prisoner in the oasis"
 - [ ] `edge/aghlabid->fatimid` — overthrew in 909
 - [ ] `edge/midrarid->fatimid` — conquered by in 909
 - [ ] `edge/rustamid->fatimid` — conquered by in 909
