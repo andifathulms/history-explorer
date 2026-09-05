@@ -35,10 +35,38 @@ ended:
   source: halm-1996
 
 institutions:
-  military_basis: null
+  # Berber tribal contingents, principally Nafusa and Zanata, and never a
+  # standing force: an imamate whose ruler could in principle be deposed by the
+  # scholars did not build an army that answered only to him.
+  military_basis: { values: [tribal-levy], source: abun-nasr-1987 }
   revenue_basis: { values: [trade-toll], source: abun-nasr-1987 }
   succession_rule: { values: [election], source: abun-nasr-1987 }
   legitimation: { values: [election], source: abun-nasr-1987 }
+
+turning_points:
+  - year: 784
+    type: succession-crisis
+    name: "The Nukkar refuse"
+    changed: >-
+      A faction rejected the succession of the founder's son on the grounds
+      that the choice had been made by too narrow a circle and that hereditary
+      succession was what the doctrine existed to prevent. The split is
+      permanent and Ibadism has been divided along it since — a schism about
+      whether an election was properly conducted, which is a rarer kind of
+      division than this corpus otherwise records.
+    source: abun-nasr-1987
+    contested: false
+  - year: 909
+    type: siege
+    name: "Tahert taken"
+    changed: >-
+      The Kutama army raised by the Isma'ili mission destroyed the city in the
+      same campaign that ended the Aghlabids. The imamate stopped; the
+      community withdrew south into the pre-Saharan steppe and eventually the
+      Mzab, and reconstituted itself under a council of scholars with no ruler
+      at all, which Ibadi law provides for.
+    source: halm-1996
+    contested: false
 
 measures:
   # No cited km2 for this polity in the works consulted; Taagepera does not

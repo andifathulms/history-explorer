@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1459 claims across 88 sources.**
+**1464 claims across 88 sources.**
 
 ## Where to start
 
@@ -277,7 +277,7 @@ ordinary state, not an item to clear.
 
 ## Jamil M. Abun-Nasr, A History of the Maghrib in the Islamic Period
 
-`abun-nasr-1987` — 62 claims
+`abun-nasr-1987` — 66 claims
 
 **Sole source** for `hafsid`, `idrisid` — nothing else in the corpus can contradict a misreading here.
 
@@ -292,7 +292,9 @@ ordinary state, not an item to clear.
 - [ ] `chapter/idrisid/03-what-happened-to-the-pieces.mdx` — prose: "What happened to the pieces"
 - [ ] `chapter/idrisid/04-descent-as-a-claim.mdx` — prose: "Descent, used as a claim"
 - [ ] `chapter/rustamid/01-tahert.mdx` — prose: "An elected imamate"
-- [ ] `chapter/rustamid/02-the-trade.mdx` — prose: "Doctrine along the caravan routes"
+- [ ] `chapter/rustamid/02-an-argument-that-stayed-open.mdx` — prose: "An argument that stayed open"
+- [ ] `chapter/rustamid/03-the-trade.mdx` — prose: "Doctrine along the caravan routes"
+- [ ] `chapter/rustamid/04-into-the-desert.mdx` — prose: "Into the desert"
 - [ ] `chapter/umayyad/07-the-berber-revolt.mdx` — prose: "Where it broke first"
 - [ ] `edge/abbasid->aghlabid` — vassal of in 800
 - [ ] `edge/almohad->hafsid` — seceded from in 1229
@@ -339,9 +341,11 @@ ordinary state, not an item to clear.
 - [ ] `polity/rustamid` — founder Abd al-Rahman ibn Rustam r. 776-788
 - [ ] `polity/rustamid` — peak Aflah ibn Abd al-Wahhab r. 823-872
 - [ ] `polity/rustamid` — last Yaqzan ibn Muhammad r. 894-909
+- [ ] `polity/rustamid` — military basis coded tribal-levy
 - [ ] `polity/rustamid` — revenue basis coded trade-toll
 - [ ] `polity/rustamid` — succession rule coded election
 - [ ] `polity/rustamid` — legitimation coded election
+- [ ] `polity/rustamid` — turning point 784 The Nukkar refuse
 - [ ] `polity/umayyad` — turning point 740 The Berber revolt
 
 ## Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia
@@ -1309,6 +1313,25 @@ ordinary state, not an item to clear.
 - [ ] `polity/samanid` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/samanid` — ended by conquest in 999
 
+## Heinz Halm, The Empire of the Mahdi: The Rise of the Fatimids
+
+`halm-1996` — 14 claims
+
+- [ ] `chapter/aghlabid/04-909.mdx` — prose: "Recruited from inside"
+- [ ] `chapter/fatimid/01-mahdi.mdx` — prose: "A counter-caliphate"
+- [ ] `chapter/fatimid/04-the-dawa.mdx` — prose: "The apparatus that outlived the state"
+- [ ] `edge/aghlabid->fatimid` — overthrew in 909
+- [ ] `edge/rustamid->fatimid` — conquered by in 909
+- [ ] `polity/aghlabid` — turning point 893 The da'wa reaches the Kutama
+- [ ] `polity/aghlabid` — ended by conquest in 909
+- [ ] `polity/fatimid` — span starts 909
+- [ ] `polity/fatimid` — capital Mahdiyya from 921
+- [ ] `polity/fatimid` — founder Abd Allah al-Mahdi r. 909-934
+- [ ] `polity/fatimid` — succession rule coded nomination
+- [ ] `polity/fatimid` — legitimation coded descent + divine-sanction
+- [ ] `polity/rustamid` — turning point 909 Tahert taken
+- [ ] `polity/rustamid` — ended by conquest in 909
+
 ## Heribert Busse, Iran under the Buyids
 *In The Cambridge History of Iran, Volume 4.*
 
@@ -1425,24 +1448,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/achaemenid` — descendant_scripts = 1 (Old Persian cuneiform)
 - [ ] `polity/achaemenid` — successor_claims = 2 (Parthian Empire, Sasanian Empire)
 - [ ] `polity/median` — ended by conquest in -549
-
-## Heinz Halm, The Empire of the Mahdi: The Rise of the Fatimids
-
-`halm-1996` — 13 claims
-
-- [ ] `chapter/aghlabid/04-909.mdx` — prose: "Recruited from inside"
-- [ ] `chapter/fatimid/01-mahdi.mdx` — prose: "A counter-caliphate"
-- [ ] `chapter/fatimid/04-the-dawa.mdx` — prose: "The apparatus that outlived the state"
-- [ ] `edge/aghlabid->fatimid` — overthrew in 909
-- [ ] `edge/rustamid->fatimid` — conquered by in 909
-- [ ] `polity/aghlabid` — turning point 893 The da'wa reaches the Kutama
-- [ ] `polity/aghlabid` — ended by conquest in 909
-- [ ] `polity/fatimid` — span starts 909
-- [ ] `polity/fatimid` — capital Mahdiyya from 921
-- [ ] `polity/fatimid` — founder Abd Allah al-Mahdi r. 909-934
-- [ ] `polity/fatimid` — succession rule coded nomination
-- [ ] `polity/fatimid` — legitimation coded descent + divine-sanction
-- [ ] `polity/rustamid` — ended by conquest in 909
 
 ## C. E. Bosworth, KWARAZMSHAHS
 *In Encyclopaedia Iranica.*
