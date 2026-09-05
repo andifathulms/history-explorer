@@ -29,12 +29,19 @@ ended:
   source: newman-2006
 institutions:
   military_basis: { values: [tribal-levy], source: bosworth-1996 }
-  revenue_basis: null
+  # The qanunname of Uzun Hasan — a promulgated code regulating taxes and dues
+  # across the territory, collected through a Persian divan. It is the reason
+  # this field is coded here and null on most confederations: the Ak Koyunlu
+  # produced a fiscal instrument, and it outlived them under both the Safavids
+  # and the Ottomans.
+  revenue_basis: { values: [land-tax], source: woods-1999 }
   succession_rule: { values: [appanage], source: bosworth-1996 }
-  # Conquest, and from Uzun Hasan a Persian chancery and a promulgated law code
-  # laid over it — the same movement the Seljuks made four centuries earlier
-  # and the Safavids made thirty years later.
-  legitimation: { values: [conquest], source: bosworth-1996 }
+  # Two claims, both public. Conquest, obviously, from 1467. And descent from
+  # Bayandur Khan, grandson of Oghuz Khan, which made the ruling clan the
+  # legitimate leadership of the Oghuz and which was carried in the chancery
+  # documents and the coinage for a century before there was anything to
+  # conquer. Woods' book is largely about the second one.
+  legitimation: { values: [conquest, descent], source: woods-1999 }
 turning_points:
   - year: 1469
     type: battle
@@ -45,7 +52,7 @@ turning_points:
       left the White Sheep holding Azerbaijan, Iraq and much of Iran. For a
       decade this was the principal Muslim power between the Ottomans and
       India.
-    source: bosworth-1996
+    source: woods-1999
     contested: false
   - year: 1473
     type: battle
@@ -57,7 +64,18 @@ turning_points:
       Ottoman, and it is the first of the three occasions in forty years —
       with Chaldiran and Ridaniya on this site's Ottoman page — on which
       gunpowder decided who ruled the region.
-    source: bosworth-1996
+    source: woods-1999
+    contested: false
+  - year: 1490
+    type: succession-crisis
+    name: "The death of Ya'qub"
+    changed: >-
+      Uzun Hasan's competent son died at about thirty and the confederation
+      divided among cousins who fought each other for a decade, splitting into
+      an eastern and a western half with the Turkmen leaders choosing between
+      claimants. It is the vacancy the Safavid order at Ardabil grew into, and
+      the tribes that followed Isma'il into Tabriz in 1501 chose him during it.
+    source: woods-1999
     contested: false
 measures:
   reach_km2: null

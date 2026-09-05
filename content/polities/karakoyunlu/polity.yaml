@@ -28,19 +28,59 @@ ended:
   source: bosworth-1996
 institutions:
   military_basis: { values: [tribal-levy], source: bosworth-1996 }
-  revenue_basis: null
+  # The land tax of Azerbaijan and Iraq, collected through the Persian divan the
+  # confederation inherited from the Jalayirids and the Ilkhanate rather than
+  # built. The vocabulary has no value for the thing the Kara Koyunlu were
+  # actually wealthy in, which was livestock on pasture, and adding one would
+  # need a rule that could be applied across the corpus. The gap is real and is
+  # not filled by `tribute`.
+  revenue_basis: { values: [land-tax], source: chi-6 }
   succession_rule: { values: [appanage], source: bosworth-1996 }
   legitimation: { values: [conquest], source: bosworth-1996 }
 turning_points:
+  - year: 1408
+    type: battle
+    name: "Sardrud"
+    changed: >-
+      Qara Yusuf beat and killed Miran Shah, Timur's own son, three years after
+      Timur's death, and took Azerbaijan. It converted a confederation that had
+      been driven out of its own pastures and scattered across two exiles into
+      the government of the richest province in the north-west, and it is the
+      reason the Timurids never held the west of Iran securely again.
+    source: chi-6
+    contested: false
+  - year: 1446
+    type: siege
+    name: "The taking of Baghdad"
+    changed: >-
+      Jahan Shah added Iraq to Azerbaijan, which gave a pastoral confederation
+      two settled tax bases and the administrative apparatus that came with
+      them. Everything the Kara Koyunlu did in Iran afterwards was paid for out
+      of country their grandfathers had grazed rather than governed.
+    source: chi-6
+    contested: false
+  - year: 1458
+    type: siege
+    name: "Herat"
+    changed: >-
+      Jahan Shah took the Timurid capital, the furthest east a Kara Koyunlu army
+      ever reached, and had to abandon it within months because his son had
+      risen behind him in Azerbaijan. It fixed the ceiling of the polity: an
+      army held together by one man's presence cannot occupy two ends of Iran,
+      and no Turkmen confederation ever solved that.
+    source: chi-6
+    contested: false
   - year: 1467
     type: battle
     name: "Chapakchur"
     changed: >-
       Jahan Shah, who had held Azerbaijan, Iraq and much of central Iran for
       thirty years and was the strongest ruler in the region, was defeated and
-      killed by Uzun Hasan. Within a year the confederation had lost everything
-      to its rival, and the two sheep were one.
-    source: bosworth-1996
+      killed by Uzun Hasan. Within a year his son could not raise the tribes,
+      hold Tabriz or keep his own men, and the confederation had ceased to
+      exist — which is the difference between a confederation and a state
+      losing a battle.
+    source: chi-6
     contested: false
 measures:
   reach_km2: null

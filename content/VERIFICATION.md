@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1851 claims across 100 sources.**
+**1865 claims across 103 sources.**
 
 ## Where to start
 
@@ -262,15 +262,9 @@ ordinary state, not an item to clear.
 
 ## C. E. Bosworth, The New Islamic Dynasties: A Chronological and Genealogical Manual
 
-`bosworth-1996` — 109 claims
+`bosworth-1996` — 101 claims
 
-**Sole source** for `karakoyunlu` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/akkoyunlu/01-uzun-hasan.mdx` — prose: "Ten years as the strongest power in Iran"
-- [ ] `chapter/akkoyunlu/02-otlukbeli-and-after.mdx` — prose: "What gunpowder settled"
 - [ ] `chapter/kakuyid/04-the-last-one-died-at-qatwan.mdx` — prose: "The last one died at Qatwan"
-- [ ] `chapter/karakoyunlu/01-the-black-sheep.mdx` — prose: "What filled the space"
-- [ ] `chapter/karakoyunlu/02-two-sheep.mdx` — prose: "Why there were two"
 - [ ] `chapter/samanid/01-four-brothers.mdx` — prose: "Four brothers and a governorship"
 - [ ] `edge/artuqid->karakoyunlu` — conquered by in 1409
 - [ ] `edge/great-seljuk->artuqid` — seceded from in 1102
@@ -293,9 +287,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/akkoyunlu` — last Sultan Murad
 - [ ] `polity/akkoyunlu` — military basis coded tribal-levy
 - [ ] `polity/akkoyunlu` — succession rule coded appanage
-- [ ] `polity/akkoyunlu` — legitimation coded conquest
-- [ ] `polity/akkoyunlu` — turning point 1469 Qarabagh
-- [ ] `polity/akkoyunlu` — turning point 1473 Otlukbeli
 - [ ] `polity/artuqid` — span end upper bound 1409
 - [ ] `polity/artuqid` — capital Hisn Kayfa from 1102
 - [ ] `polity/artuqid` — capital Mardin from 1106
@@ -340,7 +331,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/karakoyunlu` — military basis coded tribal-levy
 - [ ] `polity/karakoyunlu` — succession rule coded appanage
 - [ ] `polity/karakoyunlu` — legitimation coded conquest
-- [ ] `polity/karakoyunlu` — turning point 1467 Chapakchur
 - [ ] `polity/karakoyunlu` — ended by conquest in 1468
 - [ ] `polity/khwarazmian` — span start upper bound 1097
 - [ ] `polity/khwarazmian` — span ends 1220
@@ -1997,6 +1987,22 @@ ordinary state, not an item to clear.
 - [ ] `polity/zaydi-yemen` — turning point 1948 The killing of Imam Yahya
 - [ ] `polity/zaydi-yemen` — ended by internal usurpation in 1962
 
+## John E. Woods, The Aqquyunlu: Clan, Confederation, Empire
+
+`woods-1999` — 11 claims
+
+- [ ] `chapter/akkoyunlu/01-bayandur.mdx` — prose: "Seventy years of being the smaller one"
+- [ ] `chapter/akkoyunlu/02-uzun-hasan.mdx` — prose: "Three years"
+- [ ] `chapter/akkoyunlu/03-the-chancery.mdx` — prose: "What Uzun Hasan hired"
+- [ ] `chapter/akkoyunlu/04-the-western-embassy.mdx` — prose: "The guns that did not come"
+- [ ] `chapter/akkoyunlu/05-otlukbeli.mdx` — prose: "What gunpowder settled"
+- [ ] `chapter/akkoyunlu/06-the-grandson.mdx` — prose: "The grandson"
+- [ ] `polity/akkoyunlu` — revenue basis coded land-tax
+- [ ] `polity/akkoyunlu` — legitimation coded conquest + descent
+- [ ] `polity/akkoyunlu` — turning point 1469 Qarabagh
+- [ ] `polity/akkoyunlu` — turning point 1473 Otlukbeli
+- [ ] `polity/akkoyunlu` — turning point 1490 The death of Ya'qub
+
 ## Stuart Munro-Hay, Aksum: An African Civilisation of Late Antiquity
 
 `munro-hay-1991` — 11 claims
@@ -2173,6 +2179,21 @@ ordinary state, not an item to clear.
 - [ ] `polity/han` — last Emperor Xian r. 189-220
 - [ ] `polity/han` — descendant_scripts = 1 (Clerical script)
 - [ ] `polity/han` — ended by fragmentation in 220
+
+## Peter Jackson and Laurence Lockhart (eds), The Cambridge History of Iran, Volume 6: The Timurid and Safavid Periods
+
+`chi-6` — 10 claims
+
+- [ ] `chapter/karakoyunlu/01-the-black-sheep.mdx` — prose: "What filled the space"
+- [ ] `chapter/karakoyunlu/02-qara-yusuf.mdx` — prose: "The man who came back"
+- [ ] `chapter/karakoyunlu/03-jahan-shah.mdx` — prose: "Jahan Shah"
+- [ ] `chapter/karakoyunlu/05-two-sheep.mdx` — prose: "Why there were two"
+- [ ] `chapter/karakoyunlu/06-chapakchur.mdx` — prose: "One year"
+- [ ] `polity/karakoyunlu` — revenue basis coded land-tax
+- [ ] `polity/karakoyunlu` — turning point 1408 Sardrud
+- [ ] `polity/karakoyunlu` — turning point 1446 The taking of Baghdad
+- [ ] `polity/karakoyunlu` — turning point 1458 Herat
+- [ ] `polity/karakoyunlu` — turning point 1467 Chapakchur
 
 ## James Wilson, Medieval Syria and the Onset of the Crusades: The Political World of Bilad al-Sham 1050-1128
 
@@ -2468,6 +2489,13 @@ ordinary state, not an item to clear.
 `flood-2009` — 1 claims
 
 - [ ] `chapter/ghurid/05-what-they-built.mdx` — prose: "A tower nobody could find"
+
+## Vladimir Minorsky, Jihan-shah Qara-qoyunlu and his Poetry (Turkmenica 9)
+*In Bulletin of the School of Oriental and African Studies.*
+
+`minorsky-1954` — 1 claims
+
+- [ ] `chapter/karakoyunlu/04-haqiqi.mdx` — prose: "Haqiqi"
 
 ## Thomas Ripper, Die Marwaniden von Diyar Bakr: eine kurdische Dynastie im islamischen Mittelalter
 *In Mitteilungen zur Sozial- und Kulturgeschichte der islamischen Welt.*

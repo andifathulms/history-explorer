@@ -987,6 +987,48 @@ sources:
       comes from Hurrian material found at the places it ruled rather than from
       the place it ruled them from.
 
+  - id: chi-6
+    kind: book
+    author: Peter Jackson and Laurence Lockhart (eds)
+    title: "The Cambridge History of Iran, Volume 6: The Timurid and Safavid Periods"
+    publisher: Cambridge University Press
+    year: 1986
+    note: >-
+      Contains H. R. Roemer's chapters on the Türkmen dynasties and the
+      successors of Timur, which are the standard English narrative of the
+      fifteenth century in Iran and Azerbaijan. This site had been running two
+      Turkmen pages off a genealogical manual.
+
+  - id: woods-1999
+    kind: book
+    author: John E. Woods
+    title: "The Aqquyunlu: Clan, Confederation, Empire"
+    publisher: University of Utah Press
+    edition: revised and expanded
+    year: 1999
+    note: >-
+      The monograph on the White Sheep, and the book that made the fifteenth
+      century in this region an argument rather than an interval. Woods reads
+      the confederation through its own genealogical ideology — the descent
+      from Bayandur Khan, the Oghuz past invoked as a right to rule — and
+      through the three-stage movement his subtitle names, which is how this
+      page's legitimation field came to be coded.
+
+  - id: minorsky-1954
+    kind: article
+    author: Vladimir Minorsky
+    title: "Jihan-shah Qara-qoyunlu and his Poetry (Turkmenica 9)"
+    container: Bulletin of the School of Oriental and African Studies
+    volume: "16/2"
+    pages: "271-297"
+    year: 1954
+    note: >-
+      Edits a selection of Jahan Shah's divan from manuscript and discusses the
+      Azerbaijani Turkic he wrote it in. Cited because this site's page had
+      asserted that a Kara Koyunlu ruler wrote Turkic poetry under a pen-name
+      on the authority of a genealogical manual, which does not carry the
+      claim.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors
