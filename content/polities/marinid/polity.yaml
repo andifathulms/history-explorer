@@ -1,0 +1,95 @@
+id: marinid
+region: islamic-west
+
+name:
+  latin: Marinid Sultanate
+  script: المرينيون
+  script_lang: ar
+
+# 1244 is the beginning of the conquest of the Almohad north and 1269 the
+# taking of Marrakesh, which is when there is a state rather than a campaign.
+span:
+  start: { min: 1244, max: 1269, source: abun-nasr-1987 }
+  end: { min: 1465, max: 1465, source: abun-nasr-1987 }
+
+identity: >-
+  Zenata Berbers who took Morocco from the Almohads without a doctrine to
+  justify it, and legitimated themselves instead by building schools.
+
+capitals:
+  - { name: Fez, script: فاس, from: 1248, source: abun-nasr-1987 }
+
+core_region: Morocco, with the central Maghreb held intermittently
+
+rulers:
+  founder: { name: Abu Yahya, source: abun-nasr-1987 }
+  peak: { name: Abu al-Hasan, reign: [1331, 1348], source: abun-nasr-1987 }
+  last: { name: Abd al-Haqq II, source: abun-nasr-1987 }
+
+scripts_and_languages:
+  administration: [Arabic]
+  writing_system: Arabic
+
+ended:
+  type: internal usurpation
+  by: []
+  year: 1465
+  source: abun-nasr-1987
+
+institutions:
+  # Zenata tribal cavalry — Abu al-Hasan is credited with some forty thousand
+  # of it — alongside Arab nomad contingents, Andalusi archers and a Christian
+  # mercenary guard of the kind every Maghribi dynasty in this region kept.
+  military_basis: { values: [tribal-levy, mercenary], source: abun-nasr-1987 }
+  revenue_basis: { values: [land-tax, trade-toll], source: abun-nasr-1987 }
+  succession_rule: { values: [nomination], source: abun-nasr-1987 }
+  # This is the interesting coding on the page and the second chapter is about
+  # it. The Almoravids had a legal programme and the Almohads a mahdi; the
+  # Marinids had neither, and what they asserted instead was that they were the
+  # correct kind of Muslim government — Maliki, orthodox, endowing scholarship.
+  # `divine-sanction` would be false and `descent` would be false; conquest is
+  # what they actually had and what the coding records.
+  legitimation: { values: [conquest], source: abun-nasr-1987 }
+
+turning_points:
+  - year: 1340
+    type: battle
+    name: "Rio Salado"
+    changed: >-
+      A Castilian and Portuguese army destroyed the combined Marinid and
+      Granadan force near Tarifa, and the last serious North African attempt to
+      hold ground in Iberia ended. Algeciras went four years later. From here
+      the Islamic west is two separate theatres, and this site's Nasrid page
+      spends its remaining hundred and fifty years alone.
+    source: abun-nasr-1987
+    contested: false
+  - year: 1348
+    type: catastrophe
+    name: "Kairouan, and the plague"
+    changed: >-
+      Abu al-Hasan had taken Tlemcen and then Ifriqiya and was master of the
+      Maghreb from the Atlantic towards Tripoli; an Arab tribal revolt broke
+      his army near Kairouan in the same year the Black Death arrived. The
+      unification lasted about a year, his son rebelled, and no Maghribi
+      dynasty attempted it again.
+    source: abun-nasr-1987
+    contested: false
+  - year: 1415
+    type: siege
+    name: "Ceuta"
+    changed: >-
+      Portugal took the port and kept it, which is the first European territorial
+      foothold in North Africa and the beginning of the process that would ring
+      the Maghreb with Portuguese and Spanish presidios. A dynasty that had
+      crossed the strait to intervene in Iberia eighty years earlier was now
+      being landed on.
+    source: abun-nasr-1987
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

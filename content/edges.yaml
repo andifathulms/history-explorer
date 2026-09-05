@@ -1191,3 +1191,13 @@ edges:
            six years later because it was defensible and near the sea."
     source: harvey-1990
     contested: false
+
+  - from: almohad
+    to: marinid
+    type: overthrew
+    year: 1269
+    note: "Zenata pastoralists took Fez in 1248 and Marrakesh in 1269, ending
+           Almohad rule in Morocco without ever advancing a religious claim of
+           their own against it."
+    source: abun-nasr-1987
+    contested: false
