@@ -159,3 +159,17 @@ regions:
       Maurya, Kushan and Gupta — the subcontinental empires that carried
       Buddhism out of India and set the terms of its classical culture.
     thread: false
+
+  # Added with thread: false, per the workflow rule. Ptolemaic Egypt had
+  # nowhere to go: "Iran before Islam" holds the Macedonians and the Seleucids
+  # because they held the plateau, and Egypt never did; "The Ancient Near East"
+  # is a period that conventionally stops at Alexander; and "Egypt, Syria and
+  # the Jazira" is defined by proximity to Baghdad, which did not exist.
+  - id: eastern-mediterranean
+    name: The Eastern Mediterranean after Alexander
+    blurb: >-
+      The countries Alexander took and did not keep, between his death and the
+      Arab conquests: Greek kingdoms that governed in one language and were
+      taxed in another, and the Arab powers that grew in the space between Rome
+      and Iran.
+    thread: false

@@ -793,6 +793,27 @@ edges:
     source: chi-3
     contested: false
 
+  - from: macedonian
+    to: ptolemaic
+    type: partitioned from
+    year: -305
+    note: "Ptolemy son of Lagos asked for Egypt in the division of 323, took the
+           diadem eighteen years later when the last attempt to reassemble the
+           empire had failed, and had by then buried Alexander's body in his own
+           capital."
+    source: holbl-2001
+    contested: false
+
+  - from: ptolemaic
+    to: roman
+    type: conquered by
+    year: -30
+    note: "Octavian took Alexandria the year after Actium and made Egypt his
+           personal possession rather than a senatorial province, governed by an
+           equestrian prefect and closed to senators."
+    source: holbl-2001
+    contested: false
+
   - from: seleucid
     to: parthian
     type: seceded from

@@ -917,6 +917,33 @@ sources:
       a work about it. Ends in 1154, the year Damascus falls to Nur al-Din, which
       is where the region's record picks up again.
 
+  - id: holbl-2001
+    kind: book
+    author: "Günther Hölbl, trans. Tina Saavedra"
+    title: A History of the Ptolemaic Empire
+    publisher: Routledge
+    year: 2001
+    note: >-
+      The standard narrative of the dynasty from Alexander's death to Actium,
+      and the first general history of the Ptolemies since Bevan in 1928.
+      Hölbl is an Egyptologist rather than a classicist, which is why the
+      pharaonic half of the arrangement — the temple decrees, the ruler cult,
+      the titulary — is present at all.
+
+  - id: manning-2010
+    kind: book
+    author: J. G. Manning
+    title: "The Last Pharaohs: Egypt Under the Ptolemies, 305-30 BC"
+    publisher: Princeton University Press
+    year: 2010
+    note: >-
+      Reads the Ptolemaic state as a state rather than as a Greek episode in
+      Egyptian history or an Egyptian episode in Greek history. Its argument —
+      "bargained incorporation", a political economy negotiated between the
+      ruler and the constituencies who could withhold cooperation, and a dynasty
+      that ruled through Egyptian society rather than over it — is what this
+      site's institutions fields for the polity are coded from.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors

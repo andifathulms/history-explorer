@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1772 claims across 95 sources.**
+**1795 claims across 97 sources.**
 
 ## Where to start
 
@@ -1313,6 +1313,32 @@ ordinary state, not an item to clear.
 - [ ] `polity/seleucid` — peak Antiochus III r. -222--187
 - [ ] `polity/seleucid` — last Philip II Philoromaeus r. -65--63
 
+## Günther Hölbl, trans. Tina Saavedra, A History of the Ptolemaic Empire
+
+`holbl-2001` — 21 claims
+
+- [ ] `chapter/ptolemaic/01-the-body.mdx` — prose: "The body of Alexander"
+- [ ] `chapter/ptolemaic/02-alexandria.mdx` — prose: "The city by Egypt"
+- [ ] `chapter/ptolemaic/03-the-empire-outside-egypt.mdx` — prose: "The empire outside Egypt"
+- [ ] `chapter/ptolemaic/05-raphia.mdx` — prose: "Raphia, and what it cost to win"
+- [ ] `chapter/ptolemaic/06-the-circle-in-the-sand.mdx` — prose: "The circle in the sand"
+- [ ] `chapter/ptolemaic/07-cleopatra.mdx` — prose: "The last of them"
+- [ ] `edge/macedonian->ptolemaic` — partitioned from in -305
+- [ ] `edge/ptolemaic->roman` — conquered by in -30
+- [ ] `polity/ptolemaic` — span starts -323
+- [ ] `polity/ptolemaic` — span ends -30
+- [ ] `polity/ptolemaic` — capital Alexandria from -305
+- [ ] `polity/ptolemaic` — founder Ptolemy I Soter r. -305--282
+- [ ] `polity/ptolemaic` — peak Ptolemy III Euergetes r. -246--222
+- [ ] `polity/ptolemaic` — last Cleopatra VII r. -51--30
+- [ ] `polity/ptolemaic` — military basis coded land-grant + mercenary
+- [ ] `polity/ptolemaic` — succession rule coded primogeniture
+- [ ] `polity/ptolemaic` — legitimation coded divine-sanction + descent
+- [ ] `polity/ptolemaic` — turning point -217 Raphia
+- [ ] `polity/ptolemaic` — turning point -200 Panion
+- [ ] `polity/ptolemaic` — turning point -168 The Day of Eleusis
+- [ ] `polity/ptolemaic` — ended by conquest in -30
+
 ## Caroline Finkel, Osman's Dream: The Story of the Ottoman Empire 1300-1923
 
 `finkel-2005` — 20 claims
@@ -2314,6 +2340,13 @@ ordinary state, not an item to clear.
 
 - [ ] `chapter/ottoman/07-the-second-empire.mdx` — prose: "The empire that was not declining"
 - [ ] `polity/ottoman` — turning point 1622 Osman II killed by the janissaries (contested)
+
+## J. G. Manning, The Last Pharaohs: Egypt Under the Ptolemies, 305-30 BC
+
+`manning-2010` — 2 claims
+
+- [ ] `chapter/ptolemaic/04-ruling-through.mdx` — prose: "Ruling through"
+- [ ] `polity/ptolemaic` — revenue basis coded land-tax + monopoly + trade-toll
 
 ## Khalid Yahya Blankinship, The End of the Jihad State: The Reign of Hisham Ibn 'Abd al-Malik and the Collapse of the Umayyads
 *In SUNY Series in Medieval Middle East History.*

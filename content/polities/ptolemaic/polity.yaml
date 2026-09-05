@@ -1,0 +1,119 @@
+id: ptolemaic
+region: eastern-mediterranean
+
+name:
+  latin: Ptolemaic Kingdom
+  script: Πτολεμαῖοι
+  script_lang: grc
+
+# 323 is Ptolemy taking Egypt as satrap on Alexander's death; 305 is the year
+# he stopped pretending to hold it for somebody and took the diadem. Both dates
+# are used and the difference is the whole of the first chapter.
+span:
+  start: { min: -323, max: -305, source: holbl-2001 }
+  end: { min: -30, max: -30, source: holbl-2001 }
+
+identity: >-
+  A Macedonian family that ruled Egypt for three centuries as pharaohs,
+  administered it in Greek, and taxed it more thoroughly than any Egyptian
+  dynasty had.
+
+capitals:
+  - { name: Alexandria, script: Ἀλεξάνδρεια, from: -305, source: holbl-2001 }
+
+core_region: Egypt, with Cyrenaica and Cyprus, and for a century southern Syria
+
+rulers:
+  founder: { name: Ptolemy I Soter, reign: [-305, -282], source: holbl-2001 }
+  peak: { name: Ptolemy III Euergetes, reign: [-246, -222], source: holbl-2001 }
+  last: { name: Cleopatra VII, reign: [-51, -30], source: holbl-2001 }
+
+scripts_and_languages:
+  administration: [Greek, Egyptian]
+  writing_system: Greek alphabet, alongside Egyptian demotic and hieroglyphic
+
+# This site's Roman entry begins in 27 BC. Octavian took Egypt three years
+# earlier as a triumvir of a republic — the same man, not yet the same polity —
+# and the edge is recorded to `roman` because there is nowhere else to record
+# it and no honest way to pretend the conqueror was somebody different.
+ended:
+  type: conquest
+  by: [roman]
+  year: -30
+  source: holbl-2001
+
+institutions:
+  # The kleruchy: Greek and Macedonian settlers holding allotments of Egyptian
+  # land in return for service, alongside hired troops. It is the same
+  # institution the iqta' pages in this corpus are coded for, thirteen centuries
+  # earlier and in Greek — see coding rule 3, which says the label does not
+  # import a European model and does not import a Near Eastern one either.
+  military_basis: { values: [land-grant, mercenary], source: holbl-2001 }
+  # Grain from the most productive agricultural land in the ancient world, the
+  # customs of Alexandria, and a set of royal monopolies — oil, salt, textiles,
+  # papyrus, beer — administered in more detail than anything else in this
+  # corpus before the Mamluk spice monopoly. Unranked.
+  revenue_basis: { values: [land-tax, monopoly, trade-toll], source: manning-2010 }
+  # Coded by the rule and not the outcome, as coding rule 7 requires. The throne
+  # descended in the male line, normally to a son designated as co-regent in his
+  # father's lifetime and married to his own sister; after 145 BC the rule was
+  # violated in almost every generation, usually with an army involved.
+  succession_rule: { values: [primogeniture], source: holbl-2001 }
+  # Both halves of the arrangement. In Greek the Ptolemies were living gods with
+  # a state cult and a dynastic priesthood at Alexandria; in Egyptian they were
+  # pharaohs with the full titulary, shown on temple walls making offerings to
+  # Egyptian gods. Descent from Ptolemy son of Lagos carried the claim inside
+  # the family; divinity carried it in public, in two languages.
+  legitimation: { values: [divine-sanction, descent], source: holbl-2001 }
+
+turning_points:
+  - year: -217
+    type: battle
+    name: "Raphia"
+    changed: >-
+      Ptolemy IV beat Antiochus III by putting twenty thousand native Egyptians
+      into the phalanx, having previously kept the army Greek and Macedonian by
+      design. The battle was won and the settlement was not: within a decade
+      Upper Egypt was in revolt under its own pharaohs and the Thebaid had
+      seceded for twenty years. The dynasty never again armed Egyptians on that
+      scale and never again beat a Seleucid army.
+    source: holbl-2001
+    contested: false
+  - year: -200
+    type: battle
+    name: "Panion"
+    changed: >-
+      Antiochus III took Coele-Syria for good, ending a century in which Egypt
+      had held southern Syria, and with it the timber, the ports and the land
+      frontier that made the Ptolemies a great power rather than a rich one.
+      Everything after this is a kingdom the size of Egypt.
+    source: holbl-2001
+    contested: false
+  - year: -168
+    type: treaty
+    name: "The Day of Eleusis"
+    changed: >-
+      Antiochus IV had taken Egypt and was outside Alexandria when a Roman
+      envoy handed him the senate's demand, drew a circle in the sand around him
+      and required an answer before he stepped out of it. He withdrew. The
+      kingdom survived another hundred and thirty-eight years, and from that
+      afternoon it survived because Rome preferred it to, which is a different
+      condition from independence and was understood as one at the time.
+    source: holbl-2001
+    contested: false
+
+measures:
+  # Taagepera's series does not carry a Ptolemaic figure in the tables this site
+  # transcribes from, and no other cited source consulted publishes one. Null
+  # rather than a number computed from a map — hard rule 5.
+  reach_km2: null
+  peak_population: null
+  influence:
+    # Coptic — Egyptian written in Greek letters with demotic additions — is
+    # the obvious candidate and is not enterable here. It is attested from the
+    # Roman period, no consulted source attributes it to the Ptolemies, and
+    # coding rule 2's exclusion of adaptations a source assigns elsewhere is
+    # exactly this case. Null, not zero: nothing consulted addressed it.
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
