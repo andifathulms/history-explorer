@@ -55,6 +55,37 @@ export function PolityRail({
 
   const ordered = [...polities].sort((a, b) => a.span.start.min - b.span.start.min)
 
+  /**
+   * Labels are placed by date and dates cluster, so they collide.
+   *
+   * With two polities in a region this never showed. Anatolia now has seven,
+   * four of which begin within thirty years of each other, and the rail
+   * rendered "Danishmendid Dynasty" and "Sultanate of Rum" on top of one
+   * another — two lines of type in the same place, both unreadable.
+   *
+   * The fix keeps the measurement honest and moves only the writing. Each
+   * polity's bar and marker stay at the y its dates put them at; the label is
+   * pushed down until it clears the one above, and a leader line joins the two
+   * when they have come apart. A reader can still read the position off the
+   * axis, which is the thing that has to stay true — the label is a caption,
+   * not a datum.
+   */
+  const LINE = 13
+  const rowsFor = (p: Polity) =>
+    wrapName(p.name.latin).length + (p.id === active.id ? 1 : 0)
+
+  const anchor = ordered.map((p) => y(p.span.start.max))
+  const label: number[] = []
+  let cursor = -Infinity
+  ordered.forEach((p, i) => {
+    const placed = Math.max(anchor[i], cursor)
+    label.push(placed)
+    cursor = placed + rowsFor(p) * LINE + 6
+  })
+  // The axis is a fixed height; a run of pushed labels can need more room than
+  // it has, so the canvas grows rather than the captions overlapping again.
+  const CANVAS = Math.max(H, (label[label.length - 1] ?? 0) + LINE * 3)
+
   if (variant === 'strip') {
     // Mobile: the strip. Same axis, rotated, still tells you where you are.
     return (
@@ -81,8 +112,8 @@ export function PolityRail({
         <div className="sticky top-24">
           <svg
             width={W}
-            height={H}
-            viewBox={`0 0 ${W} ${H}`}
+            height={CANVAS}
+            viewBox={`0 0 ${W} ${CANVAS}`}
             role="img"
             aria-label={`Position of ${active.name.latin} in the thread, ${first} to ${last}`}
           >
@@ -95,12 +126,25 @@ export function PolityRail({
               strokeWidth={2}
               strokeLinecap="round"
             />
-            {ordered.map((p) => {
+            {ordered.map((p, i) => {
               const isActive = p.id === active.id
-              const top = y(p.span.start.max)
+              const top = anchor[i]
               const bottom = y(p.span.end.min)
+              // Where the caption actually sits, after being pushed clear.
+              const at = label[i]
+              const shifted = at - top > 1
               return (
                 <g key={p.id}>
+                  {shifted ? (
+                    <line
+                      x1={RAIL_X + 6}
+                      y1={top}
+                      x2={NAME_X - 6}
+                      y2={at}
+                      className={isActive ? 'stroke-zarrin/50' : 'stroke-kashi/25'}
+                      strokeWidth={1}
+                    />
+                  ) : null}
                   <line
                     x1={RAIL_X}
                     x2={RAIL_X}
@@ -121,7 +165,7 @@ export function PolityRail({
                   />
                   <text
                     x={0}
-                    y={top + 4}
+                    y={at + 4}
                     className={`font-mono text-[10px] tabular-nums ${
                       isActive ? 'fill-zarrin-ink' : 'fill-debu-ink'
                     }`}
@@ -131,7 +175,7 @@ export function PolityRail({
                   {isActive ? (
                     <>
                       <circle cx={RAIL_X} cy={top} r={5} className="fill-zarrin-ink" />
-                      <text x={NAME_X} y={top + 4} className="fill-kashi text-[13px] font-semibold">
+                      <text x={NAME_X} y={at + 4} className="fill-kashi text-[13px] font-semibold">
                         {wrapName(p.name.latin).map((line, i) => (
                           <tspan key={i} x={NAME_X} dy={i === 0 ? 0 : 14}>
                             {line}
@@ -140,7 +184,7 @@ export function PolityRail({
                       </text>
                       <text
                         x={NAME_X}
-                        y={top + 4 + wrapName(p.name.latin).length * 16}
+                        y={at + 4 + wrapName(p.name.latin).length * 16}
                         className="fill-debu-ink text-[11px] italic"
                       >
                         you are here
@@ -150,7 +194,7 @@ export function PolityRail({
                     <Link href={`/polity/${p.id}/`}>
                       <text
                         x={NAME_X}
-                        y={top + 4}
+                        y={at + 4}
                         className="fill-debu-ink text-[12px] hover:fill-firuze-ink"
                       >
                         {wrapName(p.name.latin).map((line, i) => (
@@ -163,7 +207,7 @@ export function PolityRail({
                   ) : (
                     /* Context polity: on the rail for the shape of the era, but
                        it has no chapters and so no page to send the reader to. */
-                    <text x={NAME_X} y={top + 4} className="fill-debu-ink/60 text-[12px]">
+                    <text x={NAME_X} y={at + 4} className="fill-debu-ink/60 text-[12px]">
                       {wrapName(p.name.latin).map((line, i) => (
                         <tspan key={i} x={NAME_X} dy={i === 0 ? 0 : 13}>
                           {line}
