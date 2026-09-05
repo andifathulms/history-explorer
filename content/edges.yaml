@@ -1221,3 +1221,26 @@ edges:
            died there as Carlos."
     source: abun-nasr-1987
     contested: false
+
+  # ---- What Cordoba broke into, and what ended it ----
+
+  - from: cordoba
+    to: abbadid
+    type: partitioned from
+    year: 1023
+    note: "The qadi of Seville took the city as the caliphate dissolved, one of
+           some thirty taifa states formed out of it, and governed for a decade
+           in the name of a man he presented as the vanished caliph Hisham II."
+    source: kennedy-1996
+    contested: false
+
+  - from: abbadid
+    to: almoravid
+    type: conquered by
+    year: 1091
+    note: "Al-Mu'tamid invited the Almoravids across the strait against
+           Castile; they won at Sagrajas, went home, returned, and deposed him
+           on a legal opinion that rulers paying tribute to Christians had
+           forfeited authority."
+    source: kennedy-1996
+    contested: false

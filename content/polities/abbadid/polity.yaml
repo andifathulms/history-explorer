@@ -1,0 +1,84 @@
+id: abbadid
+region: islamic-west
+
+name:
+  latin: Taifa of Seville
+  script: مملكة إشبيلية
+  script_lang: ar
+
+span:
+  start: { min: 1023, max: 1023, source: kennedy-1996 }
+  end: { min: 1091, max: 1091, source: kennedy-1996 }
+
+identity: >-
+  The largest of the successor states of Cordoba: a city governed by its qadi
+  that swallowed its neighbours, paid Castile for protection, invited the
+  Almoravids to stop paying, and was deposed by them.
+
+capitals:
+  - { name: Seville, script: إشبيلية, from: 1023, source: kennedy-1996 }
+
+core_region: The lower Guadalquivir and, by 1069, much of western al-Andalus
+
+rulers:
+  founder: { name: Abu al-Qasim Muhammad ibn Abbad, reign: [1023, 1042], source: kennedy-1996 }
+  peak: { name: al-Mu'tadid, reign: [1042, 1069], source: kennedy-1996 }
+  last: { name: al-Mu'tamid, reign: [1069, 1091], source: kennedy-1996 }
+
+scripts_and_languages:
+  administration: [Arabic]
+  writing_system: Arabic
+
+ended:
+  type: conquest
+  by: [almoravid]
+  year: 1091
+  source: kennedy-1996
+
+institutions:
+  # Not an inherited army: Seville had none. The first Abbadid recruited
+  # Berbers, Arabs, Christians, foreigners and slaves from Nubia and the Sudan,
+  # and paid them — which is what a city with money and no military tradition
+  # does.
+  military_basis: { values: [mercenary, slave-soldier], source: kennedy-1996 }
+  revenue_basis: { values: [land-tax, trade-toll], source: kennedy-1996 }
+  succession_rule: { values: [nomination], source: kennedy-1996 }
+  # There is no good value for what the Abbadids actually did, which was to
+  # govern in the name of a caliph they had invented — a mat-maker resembling
+  # the dead Hisham II, produced to give their coalition a lawful head. The
+  # coding records the descent claim the family advertised afterwards; the
+  # first chapter records the pretender, because the vocabulary cannot.
+  legitimation: { values: [descent], source: kennedy-1996 }
+
+turning_points:
+  - year: 1035
+    type: reform
+    name: "The caliph they made"
+    changed: >-
+      Needing a lawful head for a coalition against the Berber taifas, the qadi
+      of Seville produced a man said to be the caliph Hisham II, who had
+      disappeared thirty years earlier — by trade a mat-maker who resembled
+      him. Several taifas recognised the fiction and joined. It is the clearest
+      demonstration in this corpus that legitimacy could be a functional
+      requirement met by whatever came to hand.
+    source: kennedy-1996
+    contested: false
+  - year: 1085
+    type: siege
+    name: "Toledo falls, and the invitation"
+    changed: >-
+      Alfonso VI took Toledo, the largest taifa capital, and the parias the
+      other kings paid stopped looking like protection. Al-Mu'tamid sent for
+      the Almoravids across the strait, saying he would rather pasture camels
+      for them than herd swine in Castile, and they came — beat Alfonso at
+      Sagrajas, went home, came back, and deposed him.
+    source: kennedy-1996
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
