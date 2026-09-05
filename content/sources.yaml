@@ -430,6 +430,19 @@ sources:
     publisher: Brill
     year: 1996
 
+  - id: harvey-1990
+    kind: book
+    author: L. P. Harvey
+    title: "Islamic Spain, 1250 to 1500"
+    publisher: University of Chicago Press
+    year: 1990
+    note: >-
+      The standard account of the two and a half centuries between the fall of
+      Seville and the fall of Granada, covering the Nasrid emirate and the
+      Muslim communities living under Christian rule alongside it. Cited for
+      the Nasrid record, which needed a source that treats the period as
+      something other than an epilogue.
+
   - id: kennedy-1996
     kind: book
     author: Hugh Kennedy

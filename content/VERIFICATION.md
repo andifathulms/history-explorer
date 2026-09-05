@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1481 claims across 88 sources.**
+**1500 claims across 89 sources.**
 
 ## Where to start
 
@@ -1167,6 +1167,32 @@ ordinary state, not an item to clear.
 - [ ] `polity/qara-khitai` — turning point 1211 Kuchlug takes the gurkhanate
 - [ ] `polity/qara-khitai` — religions_carried = 0
 - [ ] `polity/qara-khitai` — ended by conquest in 1218
+
+## L. P. Harvey, Islamic Spain, 1250 to 1500
+
+`harvey-1990` — 19 claims
+
+**Sole source** for `nasrid` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/nasrid/01-what-was-left.mdx` — prose: "What was left"
+- [ ] `chapter/nasrid/02-a-tributary-that-worked.mdx` — prose: "A tributary that worked"
+- [ ] `chapter/nasrid/03-the-alhambra.mdx` — prose: "The palace with the writing on it"
+- [ ] `chapter/nasrid/04-the-help-that-stopped-coming.mdx` — prose: "The help that stopped coming"
+- [ ] `chapter/nasrid/05-1492.mdx` — prose: "1492"
+- [ ] `edge/almohad->nasrid` — seceded from in 1232
+- [ ] `polity/nasrid` — span starts 1232
+- [ ] `polity/nasrid` — span ends 1492
+- [ ] `polity/nasrid` — capital Granada from 1238
+- [ ] `polity/nasrid` — founder Muhammad I ibn al-Ahmar r. 1232-1273
+- [ ] `polity/nasrid` — peak Muhammad V r. 1362-1391
+- [ ] `polity/nasrid` — last Muhammad XII r. 1487-1492
+- [ ] `polity/nasrid` — military basis coded conscript + mercenary
+- [ ] `polity/nasrid` — revenue basis coded trade-toll + land-tax
+- [ ] `polity/nasrid` — legitimation coded descent
+- [ ] `polity/nasrid` — turning point 1246 The Treaty of Jaen
+- [ ] `polity/nasrid` — turning point 1340 Rio Salado
+- [ ] `polity/nasrid` — turning point 1482 The war and the civil war
+- [ ] `polity/nasrid` — ended by conquest in 1492
 
 ## Mustafa Banister, The Abbasid Caliphate of Cairo, 1261-1517: Out of the Shadows
 *In Edinburgh Studies in Classical Islamic History and Culture.*

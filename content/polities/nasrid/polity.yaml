@@ -1,0 +1,101 @@
+id: nasrid
+region: islamic-west
+
+name:
+  latin: Emirate of Granada
+  script: مملكة غرناطة
+  script_lang: ar
+
+# 1232 is the proclamation at Arjona and 1238 the move to Granada; the first is
+# a claimant with a following and the second is a state with a capital.
+span:
+  start: { min: 1232, max: 1238, source: harvey-1990 }
+  end: { min: 1492, max: 1492, source: harvey-1990 }
+
+identity: >-
+  The last Muslim state in Iberia: a mountain emirate that survived two and a
+  half centuries as a Castilian tributary, built the Alhambra while paying for
+  the privilege, and surrendered in the year Columbus sailed.
+
+capitals:
+  - { name: Granada, script: غرناطة, from: 1238, source: harvey-1990 }
+
+core_region: The Sierra Nevada and the coast from Gibraltar to Almeria
+
+rulers:
+  founder: { name: Muhammad I ibn al-Ahmar, reign: [1232, 1273], source: harvey-1990 }
+  peak: { name: Muhammad V, reign: [1362, 1391], source: harvey-1990 }
+  last: { name: Muhammad XII, reign: [1487, 1492], source: harvey-1990 }
+
+scripts_and_languages:
+  administration: [Arabic]
+  writing_system: Arabic
+
+ended:
+  type: conquest
+  by: []
+  year: 1492
+  source: harvey-1990
+
+institutions:
+  # Andalusi levies and a professional guard, and for much of the fourteenth
+  # century North African Zanata volunteers — the ghuzat, recruited from the
+  # Marinid realm and commanded by their own shaykh, who were the emirate's
+  # strike force and periodically a threat to it.
+  military_basis: { values: [conscript, mercenary], source: harvey-1990 }
+  # Silk above all: the Granadan sierra was the largest silk-producing region
+  # in Europe and the Genoese bought it at Malaga. Plus the land tax of an
+  # intensively irrigated territory, and the tribute paid outward rather than
+  # received, which the vocabulary has no way to record.
+  revenue_basis: { values: [trade-toll, land-tax], source: harvey-1990 }
+  succession_rule: null
+  # Descent, asserted from the Ansar of Medina, and the title of amir
+  # al-muslimin the Almoravids had used rather than the caliphal title — a
+  # deliberately modest claim by a dynasty that never pretended to be more than
+  # it was.
+  legitimation: { values: [descent], source: harvey-1990 }
+
+turning_points:
+  - year: 1246
+    type: treaty
+    name: "The Treaty of Jaen"
+    changed: >-
+      Muhammad I accepted vassalage to Castile and an annual tribute, and two
+      years later sent troops to help Ferdinand III take Seville from other
+      Muslims. It is the transaction the emirate existed on: two hundred and
+      fifty more years, bought by becoming a tributary of the power that was
+      conquering the rest of al-Andalus.
+    source: harvey-1990
+    contested: false
+  - year: 1340
+    type: battle
+    name: "Rio Salado"
+    changed: >-
+      A combined Castilian and Portuguese army destroyed a joint Marinid and
+      Granadan force near Tarifa, and North African intervention in Iberia
+      effectively ended. Granada was on its own from then on, and the strategy
+      of playing Fez against Castile — which had kept it alive for a century —
+      stopped being available.
+    source: harvey-1990
+    contested: false
+  - year: 1482
+    type: succession-crisis
+    name: "The war and the civil war"
+    changed: >-
+      Castile took Alhama in the same months that Muhammad XII overthrew his
+      own father, and the emirate fought the last ten years of its existence as
+      two or three parties in a dynastic quarrel. Ferdinand and Isabella
+      negotiated separately with each of them.
+    source: harvey-1990
+    contested: false
+
+measures:
+  # Taagepera does not tabulate the emirate. Its area was roughly that of three
+  # modern Spanish provinces, which is a figure this site cannot cite and will
+  # not compute from a map: hard rule 5.
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

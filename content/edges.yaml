@@ -1179,3 +1179,15 @@ edges:
            wars to change sides in."
     source: finkel-2005
     contested: false
+
+  # ---- What was left of al-Andalus ----
+
+  - from: almohad
+    to: nasrid
+    type: seceded from
+    year: 1232
+    note: "Ibn al-Ahmar was proclaimed at Arjona in the fragmentation that
+           followed the Almohad collapse in al-Andalus, and moved to Granada
+           six years later because it was defensible and near the sea."
+    source: harvey-1990
+    contested: false
