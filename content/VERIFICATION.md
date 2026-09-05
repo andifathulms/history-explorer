@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1125 claims across 83 sources.**
+**1132 claims across 83 sources.**
 
 ## Where to start
 
@@ -344,6 +344,46 @@ ordinary state, not an item to clear.
 - [ ] `polity/tulunid` — legitimation coded caliphal-investiture
 - [ ] `polity/tulunid` — ended by conquest in 905
 
+## Peter B. Golden, An Introduction to the History of the Turkic Peoples
+
+`golden-1992` — 35 claims
+
+- [ ] `chapter/gokturk/01-gokturk.mdx` — prose: "The first people to be called Turks"
+- [ ] `chapter/gokturk/02-the-inscriptions.mdx` — prose: "A steppe empire in its own words"
+- [ ] `chapter/karakhanid/01-conversion.mdx` — prose: "The first Muslim Turks"
+- [ ] `chapter/karakhanid/03-the-first-turkish-books.mdx` — prose: "Two books, and what they were claiming"
+- [ ] `chapter/khazar/01-the-wall.mdx` — prose: "The wall in the Caucasus"
+- [ ] `chapter/khazar/02-the-correspondence.mdx` — prose: "A letter to Cordoba"
+- [ ] `chapter/uyghur-khaganate/01-manichaeans.mdx` — prose: "An empire that chose Manichaeism"
+- [ ] `chapter/uyghur-khaganate/02-what-they-left.mdx` — prose: "The alphabet the Mongols borrowed"
+- [ ] `edge/gokturk->uyghur-khaganate` — absorbed remnants of in 744
+- [ ] `polity/gokturk` — span starts 552
+- [ ] `polity/gokturk` — span ends 603
+- [ ] `polity/gokturk` — capital Otukan from 552
+- [ ] `polity/gokturk` — founder Bumin Qaghan r. 552-552
+- [ ] `polity/gokturk` — peak Istami r. 552-576
+- [ ] `polity/gokturk` — last Tardu r. 599-603
+- [ ] `polity/gokturk` — descendant_scripts = 1 (Old Turkic runiform script)
+- [ ] `polity/gokturk` — ended by fragmentation in 603
+- [ ] `polity/karakhanid` — turning point 1069 The Kutadgu Bilig
+- [ ] `polity/karakhanid` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/khazar` — span starts 650
+- [ ] `polity/khazar` — span ends 969
+- [ ] `polity/khazar` — capital Atil from 650
+- [ ] `polity/khazar` — founder Bulan r. 740-750
+- [ ] `polity/khazar` — peak Joseph r. 930-960
+- [ ] `polity/khazar` — last Joseph r. 930-960
+- [ ] `polity/khazar` — ended by conquest in 969
+- [ ] `polity/uyghur-khaganate` — span starts 744
+- [ ] `polity/uyghur-khaganate` — span ends 840
+- [ ] `polity/uyghur-khaganate` — capital Ordu-Baliq from 744
+- [ ] `polity/uyghur-khaganate` — founder Qutlugh Bilge Kol r. 744-747
+- [ ] `polity/uyghur-khaganate` — peak Bogu Khagan r. 759-779
+- [ ] `polity/uyghur-khaganate` — last Kchik Khagan r. 839-840
+- [ ] `polity/uyghur-khaganate` — turning point 762 Bogu Khagan's adoption of Manichaeism
+- [ ] `polity/uyghur-khaganate` — religions_carried = 1 (Manichaeism)
+- [ ] `polity/uyghur-khaganate` — ended by conquest in 840
+
 ## Herbert Franke and Denis Twitchett (eds), The Cambridge History of China, Volume 6: Alien Regimes and Border States, 907-1368
 
 `franke-twitchett-1994` — 34 claims
@@ -423,44 +463,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/zubayrid` — turning point 683 The first siege of Mecca
 - [ ] `polity/zubayrid` — turning point 691 Maskin
 - [ ] `polity/zubayrid` — ended by conquest in 692
-
-## Peter B. Golden, An Introduction to the History of the Turkic Peoples
-
-`golden-1992` — 33 claims
-
-- [ ] `chapter/gokturk/01-gokturk.mdx` — prose: "The first people to be called Turks"
-- [ ] `chapter/gokturk/02-the-inscriptions.mdx` — prose: "A steppe empire in its own words"
-- [ ] `chapter/karakhanid/01-conversion.mdx` — prose: "The first Muslim Turks"
-- [ ] `chapter/khazar/01-the-wall.mdx` — prose: "The wall in the Caucasus"
-- [ ] `chapter/khazar/02-the-correspondence.mdx` — prose: "A letter to Cordoba"
-- [ ] `chapter/uyghur-khaganate/01-manichaeans.mdx` — prose: "An empire that chose Manichaeism"
-- [ ] `chapter/uyghur-khaganate/02-what-they-left.mdx` — prose: "The alphabet the Mongols borrowed"
-- [ ] `edge/gokturk->uyghur-khaganate` — absorbed remnants of in 744
-- [ ] `polity/gokturk` — span starts 552
-- [ ] `polity/gokturk` — span ends 603
-- [ ] `polity/gokturk` — capital Otukan from 552
-- [ ] `polity/gokturk` — founder Bumin Qaghan r. 552-552
-- [ ] `polity/gokturk` — peak Istami r. 552-576
-- [ ] `polity/gokturk` — last Tardu r. 599-603
-- [ ] `polity/gokturk` — descendant_scripts = 1 (Old Turkic runiform script)
-- [ ] `polity/gokturk` — ended by fragmentation in 603
-- [ ] `polity/karakhanid` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/khazar` — span starts 650
-- [ ] `polity/khazar` — span ends 969
-- [ ] `polity/khazar` — capital Atil from 650
-- [ ] `polity/khazar` — founder Bulan r. 740-750
-- [ ] `polity/khazar` — peak Joseph r. 930-960
-- [ ] `polity/khazar` — last Joseph r. 930-960
-- [ ] `polity/khazar` — ended by conquest in 969
-- [ ] `polity/uyghur-khaganate` — span starts 744
-- [ ] `polity/uyghur-khaganate` — span ends 840
-- [ ] `polity/uyghur-khaganate` — capital Ordu-Baliq from 744
-- [ ] `polity/uyghur-khaganate` — founder Qutlugh Bilge Kol r. 744-747
-- [ ] `polity/uyghur-khaganate` — peak Bogu Khagan r. 759-779
-- [ ] `polity/uyghur-khaganate` — last Kchik Khagan r. 839-840
-- [ ] `polity/uyghur-khaganate` — turning point 762 Bogu Khagan's adoption of Manichaeism
-- [ ] `polity/uyghur-khaganate` — religions_carried = 1 (Manichaeism)
-- [ ] `polity/uyghur-khaganate` — ended by conquest in 840
 
 ## Rein Taagepera, Size and Duration of Empires: Growth-Decline Curves, 600 B.C. to 600 A.D.
 *In Social Science History 3(3/4), 115-138.*
@@ -856,6 +858,26 @@ ordinary state, not an item to clear.
 - [ ] `polity/delhi-sultanate` — ended by conquest in 1526
 - [ ] `polity/ghurid` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/ghurid` — successor_claims = 1 (Delhi Sultanate)
+
+## C. E. Bosworth and others, Ilek-Khans or Karakhanids
+*In Encyclopaedia of Islam, 2nd edition.*
+
+`ei2-karakhanids` — 14 claims
+
+- [ ] `chapter/karakhanid/02-999.mdx` — prose: "Taking Bukhara"
+- [ ] `chapter/karakhanid/04-two-khanates-and-a-protector.mdx` — prose: "Two khanates, and somebody else's protection"
+- [ ] `edge/karakhanid->khwarazmian` — conquered by in 1212
+- [ ] `polity/karakhanid` — span starts 840
+- [ ] `polity/karakhanid` — span ends 1212
+- [ ] `polity/karakhanid` — capital Balasaghun
+- [ ] `polity/karakhanid` — capital Kashgar
+- [ ] `polity/karakhanid` — founder Satuq Bughra Khan
+- [ ] `polity/karakhanid` — peak Nasr b. Ali
+- [ ] `polity/karakhanid` — military basis coded tribal-levy
+- [ ] `polity/karakhanid` — succession rule coded appanage
+- [ ] `polity/karakhanid` — legitimation coded descent
+- [ ] `polity/karakhanid` — turning point 1141 Qatwan
+- [ ] `polity/karakhanid` — ended by conquest in 1212
 
 ## Andrew J. Newman, Safavid Iran: Rebirth of a Persian Empire
 
@@ -1448,21 +1470,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/egypt-new-kingdom` — peak Thutmose III r. -1479--1425
 - [ ] `polity/egypt-new-kingdom` — last Ramesses XI r. -1107--1077
 - [ ] `polity/egypt-new-kingdom` — ended by fragmentation in -1077
-
-## C. E. Bosworth and others, Ilek-Khans or Karakhanids
-*In Encyclopaedia of Islam, 2nd edition.*
-
-`ei2-karakhanids` — 9 claims
-
-- [ ] `chapter/karakhanid/02-999.mdx` — prose: "Taking Bukhara"
-- [ ] `edge/karakhanid->khwarazmian` — conquered by in 1212
-- [ ] `polity/karakhanid` — span starts 840
-- [ ] `polity/karakhanid` — span ends 1212
-- [ ] `polity/karakhanid` — capital Balasaghun
-- [ ] `polity/karakhanid` — capital Kashgar
-- [ ] `polity/karakhanid` — founder Satuq Bughra Khan
-- [ ] `polity/karakhanid` — peak Nasr b. Ali
-- [ ] `polity/karakhanid` — ended by conquest in 1212
 
 ## Wilferd Madelung, The Succession to Muhammad: A Study of the Early Caliphate
 

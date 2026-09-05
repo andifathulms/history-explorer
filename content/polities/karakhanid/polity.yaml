@@ -40,6 +40,47 @@ ended:
   year: 1212
   source: ei2-karakhanids
 
+institutions:
+  military_basis: { values: [tribal-levy], source: ei2-karakhanids }
+  revenue_basis: null
+  # Not nomination and not tanistry as the vocabulary means them. Authority was
+  # held by the family collectively and distributed as appanages, with a graded
+  # ladder of titles a prince climbed as he gained seniority and territory —
+  # which is why the khanate divided in two around 1040 and why this record
+  # carries no last ruler.
+  succession_rule: { values: [appanage], source: ei2-karakhanids }
+  # Steppe legitimacy: the ruling house's own standing among the Karluk
+  # confederation, asserted through the khaqanal titulature rather than through
+  # any grant. The Karakhanids took Bukhara without seeking an investiture and
+  # claimed nothing from the dynasty they ended, which is why the Samanid page
+  # counts them as no successor claim.
+  legitimation: { values: [descent], source: ei2-karakhanids }
+
+turning_points:
+  - year: 1069
+    type: reform
+    name: "The Kutadgu Bilig"
+    changed: >-
+      A Karakhanid court accepted and rewarded a long didactic poem written in
+      Turkic, in the metre of the Shahnama, by a man who knew the Persian and
+      Arabic models and declined their language. With Kashgari's Turkic
+      dictionary compiled for the caliph a few years later, it is the point at
+      which the language of the dynasties now running the Islamic east acquired
+      a literature of its own.
+    source: golden-1992
+    contested: false
+  - year: 1141
+    type: battle
+    name: "Qatwan"
+    changed: >-
+      The Qara Khitai destroyed the Seljuk sultan Sanjar on the Qatwan steppe,
+      and Transoxiana passed from a Muslim overlord to a Buddhist one. The
+      first Turkish Muslim dynasty spent its last seventy years collecting
+      taxes for a non-Muslim steppe empire that was largely indifferent to what
+      its subjects believed.
+    source: ei2-karakhanids
+    contested: false
+
 measures:
   reach_km2: null
   peak_population: null
