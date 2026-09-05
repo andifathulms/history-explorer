@@ -76,11 +76,20 @@ regions:
       Jazira between them.
     thread: true
 
+  # Membership is the peninsula, not a lineage. That needs saying because the
+  # blurb previously described the Sultanate of Rum and nothing else, in a
+  # region where the Ottomans account for six hundred and twenty-three of the
+  # eight hundred and forty-five years.
   - id: anatolia
     name: Anatolia
     blurb: >-
-      The Byzantine heartland after Manzikert, ruled by a branch of the Seljuk
-      house that outlasted the empire it came from.
+      The peninsula after Manzikert, which took four hundred years to stop
+      being contested. A Seljuk branch organised the plateau and was broken by
+      the Mongols; the marches it could no longer hold filled with Turkmen
+      principalities; Greek and Armenian states survived on the coasts and in
+      the mountains, one of them outlasting Constantinople itself. The polity
+      that eventually took all of it began as the smallest of the
+      principalities and is the reason the rest are usually left out.
     thread: true
 
   - id: byzantium-and-the-latin-west
