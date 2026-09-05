@@ -1,0 +1,107 @@
+id: zand
+region: later-iran
+
+name:
+  latin: Zand Dynasty
+  script: زندیان
+  script_lang: fa
+
+span:
+  start: { min: 1751, max: 1751, source: perry-1979 }
+  end: { min: 1794, max: 1794, source: perry-1979 }
+
+identity: >-
+  Karim Khan's thirty years of recovery, run from Shiraz by a man who declined
+  to call himself shah and is the one ruler in this region's six centuries whom
+  Iranians remember warmly.
+
+capitals:
+  - { name: Shiraz, script: شیراز, from: 1765, source: perry-1979 }
+
+core_region: Central and southern Iran, from Isfahan to the Gulf
+
+rulers:
+  founder: { name: Karim Khan Zand, reign: [1751, 1779], source: perry-1979 }
+  peak: { name: Karim Khan Zand, reign: [1751, 1779], source: perry-1979 }
+  last: { name: Lutf Ali Khan, source: perry-1979 }
+
+scripts_and_languages:
+  administration: [Persian]
+  writing_system: Perso-Arabic
+
+ended:
+  type: conquest
+  by: [qajar]
+  year: 1794
+  source: perry-1979
+
+institutions:
+  # Zand, Lak and Lur tribesmen from the Zagros, raised through the
+  # confederation Karim Khan led. He made no attempt to build anything like
+  # Nadir's salaried army, which is the whole difference between the two
+  # records: one man spent a country on an instrument and the other did not
+  # buy one.
+  military_basis: { values: [tribal-levy], source: perry-1979 }
+  # The land tax, deliberately set low and collected without the exactions of
+  # the previous twenty years, and the customs of a Gulf trade he worked to
+  # revive — the English factory at Bushehr, and Basra taken from the Ottomans
+  # in 1775 partly to redirect the traffic. Unranked.
+  revenue_basis: { values: [land-tax, trade-toll], source: perry-1979 }
+  # Karim Khan left brothers, sons and nephews with commands and no rule among
+  # them, and they destroyed the dynasty within five years of his death.
+  succession_rule: null
+  # `conquest` is what the field can carry and it is the least interesting
+  # thing about the case. Karim Khan refused the title of shah for his whole
+  # reign. He ruled as vakil — deputy, advocate — nominally on behalf of a
+  # Safavid child he had installed and, in his own formulation, on behalf of
+  # the subjects: vakil al-ra'aya. This is the fourth record in the corpus
+  # where a ruler's public ground is an authority he holds for somebody rather
+  # than claims for himself, after the Jafnid, Timurid and Jalayirid pages, and
+  # the vocabulary still has a value only for the version where the somebody is
+  # a caliph.
+  legitimation: { values: [conquest], source: perry-1979 }
+
+turning_points:
+  - year: 1759
+    type: battle
+    name: "The death of Muhammad Hasan Khan Qajar"
+    changed: >-
+      The strongest of Karim Khan's rivals for the succession to Nadir was
+      defeated and killed by his own men, which left the Zand the only real
+      power in Iran and ended twelve years of civil war. It also produced the
+      dead man's son, taken to Shiraz as a hostage, who spent sixteen years
+      watching how Karim Khan governed and then spent fifteen destroying
+      everything he had built.
+    source: perry-1979
+    contested: false
+  - year: 1765
+    type: capital-move
+    name: "Shiraz"
+    changed: >-
+      Karim Khan settled on Shiraz rather than Isfahan or a northern city, and
+      rebuilt it — the citadel, the bazaar, the mosque, the walls — as the seat
+      of a government that had decided its business was recovery rather than
+      conquest. The choice put the capital next to the Gulf trade he was
+      reviving and a long way from the Ottoman and Russian frontiers he did not
+      intend to fight on.
+    source: perry-1979
+    contested: false
+  - year: 1779
+    type: succession-crisis
+    name: "The death of Karim Khan"
+    changed: >-
+      A polity with no succession rule, no institution above the person of its
+      ruler and a hostage in the palace who had been waiting sixteen years came
+      apart immediately. Agha Muhammad Khan was out of Shiraz and in Mazandaran
+      within days, and the Zand family spent the following fifteen years
+      fighting each other while he took the country.
+    source: perry-1979
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

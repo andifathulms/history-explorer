@@ -674,6 +674,64 @@ edges:
     source: manz-1989
     contested: false
 
+  - from: safavid
+    to: hotaki
+    type: overthrew
+    year: 1722
+    note: "A Ghilzai force from Kandahar broke the Safavid field army at
+           Gulnabad, blockaded Isfahan for six months until it starved, and took
+           the crown from Shah Sultan Husayn in person."
+    source: matthee-2012
+    contested: false
+
+  - from: safavid
+    to: afsharid
+    type: absorbed remnants of
+    year: 1736
+    note: "Nadir expelled the Afghans in the name of Tahmasp II, deposed him,
+           ruled as regent for an infant, and then had himself elected shah at
+           Mughan with the last Safavid claimant dead."
+    source: axworthy-2006
+    contested: false
+
+  - from: hotaki
+    to: afsharid
+    type: conquered by
+    year: 1738
+    note: "Nadir drove the Afghans out of Persia in 1729 and took Kandahar after
+           a year's siege nine years later, destroying the city."
+    source: axworthy-2006
+    contested: false
+
+  - from: afsharid
+    to: zand
+    type: absorbed remnants of
+    year: 1751
+    note: "Karim Khan came out of the twelve-year war among Nadir's officers and
+           rivals holding the centre and the south, and governed as deputy for a
+           Safavid child rather than as Nadir's successor."
+    source: perry-1979
+    contested: false
+
+  - from: zand
+    to: qajar
+    type: conquered by
+    year: 1794
+    note: "Agha Muhammad Khan, whom Karim Khan had kept in Shiraz as a hostage
+           for sixteen years, hunted the last Zand for four years and had him
+           blinded and killed at Bam."
+    source: perry-1979
+    contested: false
+
+  - from: afsharid
+    to: qajar
+    type: conquered by
+    year: 1796
+    note: "Agha Muhammad Khan took Mashhad and tortured the blind Shahrukh, last
+           of Nadir's line, to death to find where the treasure was buried."
+    source: chi-7
+    contested: false
+
   - from: timurid
     to: safavid
     type: absorbed remnants of

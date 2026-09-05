@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1956 claims across 108 sources.**
+**2038 claims across 112 sources.**
 
 ## Where to start
 
@@ -1324,9 +1324,64 @@ ordinary state, not an item to clear.
 - [ ] `polity/srivijaya` — religions_carried = 1 (Mahayana Buddhism)
 - [ ] `polity/srivijaya` — ended by gradual absorption in 1275
 
+## Abbas Amanat, Iran: A Modern History
+
+`amanat-2017` — 22 claims
+
+**Sole source** for `qajar` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/qajar/01-the-eunuch.mdx` — prose: "The hostage takes the country"
+- [ ] `chapter/qajar/02-turkmanchay.mdx` — prose: "The century's terms are set"
+- [ ] `chapter/qajar/03-nasir-al-din.mdx` — prose: "Forty-eight years"
+- [ ] `chapter/qajar/04-the-concessions.mdx` — prose: "Selling what was left"
+- [ ] `chapter/qajar/05-the-tobacco-protest.mdx` — prose: "The institution the Safavids built, arriving"
+- [ ] `chapter/qajar/06-the-constitution.mdx` — prose: "A law the shah did not make"
+- [ ] `chapter/qajar/07-the-colonel.mdx` — prose: "The brigade"
+- [ ] `polity/qajar` — span starts 1789
+- [ ] `polity/qajar` — span ends 1925
+- [ ] `polity/qajar` — capital Tehran from 1786
+- [ ] `polity/qajar` — founder Agha Muhammad Khan r. 1789-1797
+- [ ] `polity/qajar` — peak Nasir al-Din Shah r. 1848-1896
+- [ ] `polity/qajar` — last Ahmad Shah r. 1909-1925
+- [ ] `polity/qajar` — military basis coded tribal-levy + standing-professional
+- [ ] `polity/qajar` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/qajar` — succession rule coded nomination
+- [ ] `polity/qajar` — legitimation coded divine-sanction + descent
+- [ ] `polity/qajar` — turning point 1828 Turkmanchay
+- [ ] `polity/qajar` — turning point 1891 The Tobacco Protest
+- [ ] `polity/qajar` — turning point 1906 The Constitutional Revolution
+- [ ] `polity/qajar` — turning point 1908 Oil at Masjed Soleyman
+- [ ] `polity/qajar` — ended by internal usurpation in 1925
+
+## Michael Axworthy, The Sword of Persia: Nader Shah, from Tribal Warrior to Conquering Tyrant
+
+`axworthy-2006` — 21 claims
+
+- [ ] `chapter/afsharid/01-the-man-from-khurasan.mdx` — prose: "The man from Khurasan"
+- [ ] `chapter/afsharid/02-mughan.mdx` — prose: "Mughan"
+- [ ] `chapter/afsharid/03-the-army.mdx` — prose: "The thing nobody could afford"
+- [ ] `chapter/afsharid/04-delhi.mdx` — prose: "Delhi"
+- [ ] `chapter/afsharid/05-what-it-cost.mdx` — prose: "What it cost"
+- [ ] `chapter/hotaki/04-nadir.mdx` — prose: "The career they created"
+- [ ] `edge/hotaki->afsharid` — conquered by in 1738
+- [ ] `edge/safavid->afsharid` — absorbed remnants of in 1736
+- [ ] `polity/afsharid` — span starts 1736
+- [ ] `polity/afsharid` — span ends 1747
+- [ ] `polity/afsharid` — capital Mashhad from 1736
+- [ ] `polity/afsharid` — founder Nadir Shah r. 1736-1747
+- [ ] `polity/afsharid` — peak Nadir Shah r. 1736-1747
+- [ ] `polity/afsharid` — military basis coded standing-professional
+- [ ] `polity/afsharid` — revenue basis coded plunder + land-tax
+- [ ] `polity/afsharid` — legitimation coded conquest + election
+- [ ] `polity/afsharid` — turning point 1736 The Mughan assembly
+- [ ] `polity/afsharid` — turning point 1739 Karnal
+- [ ] `polity/afsharid` — turning point 1747 The murder of Nadir
+- [ ] `polity/hotaki` — turning point 1729 Damghan and Murche-Khort
+- [ ] `polity/hotaki` — ended by conquest in 1738
+
 ## Andrew J. Newman, Safavid Iran: Rebirth of a Persian Empire
 
-`newman-2006` — 22 claims
+`newman-2006` — 21 claims
 
 - [ ] `chapter/safavid/02-1501.mdx` — prose: "A confession imposed by decree"
 - [ ] `chapter/safavid/04-abbas.mdx` — prose: "Abbas breaks his own army"
@@ -1349,7 +1404,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/safavid` — turning point 1501 The Shi’i decree at Tabriz
 - [ ] `polity/safavid` — turning point 1598 Isfahan
 - [ ] `polity/safavid` — religions_carried = 1 (Twelver Shi'ism)
-- [ ] `polity/safavid` — ended by conquest in 1736
 
 ## C. E. Bosworth, The Ghaznavids: Their Empire in Afghanistan and Eastern Iran, 994-1040
 
@@ -1618,6 +1672,34 @@ ordinary state, not an item to clear.
 - [ ] `polity/sarbadar` — turning point 1344 Mas'ud in Mazandaran
 - [ ] `polity/sarbadar` — ended by gradual absorption in 1381
 
+## John R. Perry, Karim Khan Zand: A History of Iran, 1747-1779
+*In Publications of the Center for Middle Eastern Studies 12.*
+
+`perry-1979` — 20 claims
+
+**Sole source** for `zand` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/zand/01-after-nadir.mdx` — prose: "Twelve years of everybody"
+- [ ] `chapter/zand/02-the-vakil.mdx` — prose: "Vakil"
+- [ ] `chapter/zand/03-shiraz.mdx` — prose: "Shiraz"
+- [ ] `chapter/zand/04-the-hostage.mdx` — prose: "The hostage"
+- [ ] `chapter/zand/05-lutf-ali.mdx` — prose: "The last Zand"
+- [ ] `edge/afsharid->zand` — absorbed remnants of in 1751
+- [ ] `edge/zand->qajar` — conquered by in 1794
+- [ ] `polity/zand` — span starts 1751
+- [ ] `polity/zand` — span ends 1794
+- [ ] `polity/zand` — capital Shiraz from 1765
+- [ ] `polity/zand` — founder Karim Khan Zand r. 1751-1779
+- [ ] `polity/zand` — peak Karim Khan Zand r. 1751-1779
+- [ ] `polity/zand` — last Lutf Ali Khan
+- [ ] `polity/zand` — military basis coded tribal-levy
+- [ ] `polity/zand` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/zand` — legitimation coded conquest
+- [ ] `polity/zand` — turning point 1759 The death of Muhammad Hasan Khan Qajar
+- [ ] `polity/zand` — turning point 1765 Shiraz
+- [ ] `polity/zand` — turning point 1779 The death of Karim Khan
+- [ ] `polity/zand` — ended by conquest in 1794
+
 ## R. Stephen Humphreys, From Saladin to the Mongols: The Ayyubids of Damascus 1193-1260
 
 `humphreys-1977` — 19 claims
@@ -1806,6 +1888,27 @@ ordinary state, not an item to clear.
 - [ ] `polity/timurid` — turning point 1370 Amir and gurkan
 - [ ] `polity/timurid` — turning point 1402 Ankara
 - [ ] `polity/timurid` — ended by conquest in 1507
+
+## Peter Avery, Gavin Hambly and Charles Melville (eds), The Cambridge History of Iran, Volume 7: From Nadir Shah to the Islamic Republic
+
+`chi-7` — 16 claims
+
+- [ ] `chapter/afsharid/06-nothing-to-hand-over.mdx` — prose: "Nothing to hand over"
+- [ ] `chapter/hotaki/01-kandahar.mdx` — prose: "Kandahar"
+- [ ] `chapter/hotaki/03-the-occupation.mdx` — prose: "Seven years"
+- [ ] `edge/afsharid->qajar` — conquered by in 1796
+- [ ] `polity/afsharid` — last Shahrukh Shah
+- [ ] `polity/afsharid` — ended by conquest in 1796
+- [ ] `polity/hotaki` — span starts 1709
+- [ ] `polity/hotaki` — span ends 1738
+- [ ] `polity/hotaki` — capital Kandahar from 1709
+- [ ] `polity/hotaki` — capital Isfahan from 1722
+- [ ] `polity/hotaki` — founder Mirwais Hotak r. 1709-1715
+- [ ] `polity/hotaki` — peak Mahmud Hotak r. 1717-1725
+- [ ] `polity/hotaki` — last Husayn Hotak
+- [ ] `polity/hotaki` — military basis coded tribal-levy
+- [ ] `polity/hotaki` — legitimation coded conquest
+- [ ] `polity/hotaki` — turning point 1709 The killing of Gurgin Khan
 
 ## John O. Hunwick, Timbuktu and the Songhay Empire
 
@@ -2405,6 +2508,18 @@ ordinary state, not an item to clear.
 - [ ] `polity/great-seljuk` — turning point 1040 Dandanaqan
 - [ ] `polity/great-seljuk` — descendant_scripts = 0
 
+## Rudi Matthee, Persia in Crisis: Safavid Decline and the Fall of Isfahan
+*In International Library of Iranian Studies.*
+
+`matthee-2012` — 6 claims
+
+- [ ] `chapter/hotaki/02-gulnabad.mdx` — prose: "Gulnabad"
+- [ ] `chapter/safavid/07-1722.mdx` — prose: "What actually fell"
+- [ ] `edge/safavid->hotaki` — overthrew in 1722
+- [ ] `polity/hotaki` — turning point 1722 Gulnabad
+- [ ] `polity/safavid` — turning point 1722 The siege of Isfahan
+- [ ] `polity/safavid` — ended by conquest in 1722
+
 ## C. E. Bosworth, SAFFARIDS
 *In Encyclopaedia Iranica.*
 <https://iranicaonline.org/articles/saffarids>
@@ -2559,14 +2674,6 @@ ordinary state, not an item to clear.
 
 - [ ] `chapter/ptolemaic/04-ruling-through.mdx` — prose: "Ruling through"
 - [ ] `polity/ptolemaic` — revenue basis coded land-tax + monopoly + trade-toll
-
-## Rudi Matthee, Persia in Crisis: Safavid Decline and the Fall of Isfahan
-*In International Library of Iranian Studies.*
-
-`matthee-2012` — 2 claims
-
-- [ ] `chapter/safavid/07-1722.mdx` — prose: "What actually fell"
-- [ ] `polity/safavid` — turning point 1722 The siege of Isfahan
 
 ## Khalid Yahya Blankinship, The End of the Jihad State: The Reign of Hisham Ibn 'Abd al-Malik and the Collapse of the Umayyads
 *In SUNY Series in Medieval Middle East History.*

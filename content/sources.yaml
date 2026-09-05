@@ -1101,6 +1101,55 @@ sources:
       evidence is most of what establishes who was actually ruling in a state
       that changed rulers a dozen times in forty-four years.
 
+  - id: chi-7
+    kind: book
+    author: Peter Avery, Gavin Hambly and Charles Melville (eds)
+    title: "The Cambridge History of Iran, Volume 7: From Nadir Shah to the Islamic Republic"
+    publisher: Cambridge University Press
+    year: 1991
+    note: >-
+      The last volume of the series, covering 1722 to 1979, and the spine of
+      this region's extension past the Safavids. It carries the political
+      narrative of the Afghan interlude, the Afsharids, the Zands and the
+      Qajars, together with the parts this site's institutions fields need —
+      land tenure, revenue administration, and the tribes.
+
+  - id: axworthy-2006
+    kind: book
+    author: Michael Axworthy
+    title: "The Sword of Persia: Nader Shah, from Tribal Warrior to Conquering Tyrant"
+    publisher: I.B. Tauris
+    year: 2006
+    note: >-
+      The first full study of Nader in English since Lockhart in 1938, and
+      unusually good on the military question this corpus keeps running into:
+      how an army was actually raised, paid and made to fight, and what it cost
+      the country underneath it to keep one in the field.
+
+  - id: perry-1979
+    kind: book
+    author: John R. Perry
+    title: "Karim Khan Zand: A History of Iran, 1747-1779"
+    container: Publications of the Center for Middle Eastern Studies 12
+    publisher: University of Chicago Press
+    year: 1979
+    note: >-
+      The monograph on the one ruler in this region's six hundred years whom
+      Iranians remember warmly, and on the thirty years of recovery he ran from
+      Shiraz while declining to call himself shah.
+
+  - id: amanat-2017
+    kind: book
+    author: Abbas Amanat
+    title: "Iran: A Modern History"
+    publisher: Yale University Press
+    year: 2017
+    note: >-
+      A thousand pages from the Safavid revolution to 2009 by a specialist in
+      the nineteenth century, layering ideology, economy and the arts over the
+      dynastic narrative. Cited for the Qajar record, where the political
+      history alone would make the century look like a list of concessions.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors

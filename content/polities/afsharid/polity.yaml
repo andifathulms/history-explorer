@@ -1,0 +1,110 @@
+id: afsharid
+region: later-iran
+
+name:
+  latin: Afsharid Dynasty
+  script: افشاریان
+  script_lang: fa
+
+# 1736 is the assembly on the Mughan plain at which Nadir took the crown. The
+# state he built did not survive his murder in 1747 in any meaningful sense;
+# 1796 is when the last Afsharid in Khurasan was killed by the first Qajar.
+span:
+  start: { min: 1736, max: 1736, source: axworthy-2006 }
+  end: { min: 1747, max: 1796, source: axworthy-2006 }
+
+identity: >-
+  Nadir Shah's empire: the last time an Iranian army took Delhi, paid for by a
+  standing professional force that the country underneath it could not afford.
+
+capitals:
+  - { name: Mashhad, script: مشهد, from: 1736, source: axworthy-2006 }
+
+core_region: Iran, with Afghanistan, the Caucasus and, briefly, Transoxiana
+
+rulers:
+  founder: { name: Nadir Shah, reign: [1736, 1747], source: axworthy-2006 }
+  peak: { name: Nadir Shah, reign: [1736, 1747], source: axworthy-2006 }
+  last: { name: Shahrukh Shah, source: chi-7 }
+
+scripts_and_languages:
+  administration: [Persian]
+  writing_system: Perso-Arabic
+
+ended:
+  type: conquest
+  by: [qajar]
+  year: 1796
+  source: chi-7
+
+institutions:
+  # The corpus's clearest instance of the thing its own gunpowder chapters keep
+  # saying nobody in the region could support. Nadir's army was paid, permanent,
+  # centrally recruited across every people he ruled, and equipped with
+  # firearms and artillery on the Ottoman model. The Ak Koyunlu at Otlukbeli
+  # and the Safavids at Chaldiran lost to exactly this and could not build it;
+  # Nadir built it, and the sixth chapter is about what it cost.
+  military_basis: { values: [standing-professional], source: axworthy-2006 }
+  # Plunder in the strict sense coding rule 6 requires — Axworthy treats the
+  # Indian treasure as structural income, and Nadir remitted three years of
+  # taxation on the strength of it — and then the land tax of Iran, collected
+  # with a severity that produced revolts, once the treasure was spent.
+  revenue_basis: { values: [plunder, land-tax], source: axworthy-2006 }
+  # Nadir blinded his own heir in 1742 on suspicion and then had the witnesses
+  # killed. There was no rule and the state did not outlive him by a season.
+  succession_rule: null
+  # Conquest, and `election` for a specific and unusual act: Nadir summoned an
+  # assembly of notables, clergy and tribal leaders to the Mughan plain in 1736
+  # and had himself elected, on conditions he set. `acclamation` would be the
+  # better word and it is not available here — the vocabularies keep it for
+  # succession rules, where it means an army or assembly raising a ruler, and
+  # the legitimation list has `election` instead. The distinction is real: what
+  # the field records is the ground the right was asserted on, and Nadir
+  # asserted it on having been chosen.
+  legitimation: { values: [conquest, election], source: axworthy-2006 }
+
+turning_points:
+  - year: 1736
+    type: conversion
+    name: "The Mughan assembly"
+    changed: >-
+      Nadir made his acceptance of the crown conditional on Iran abandoning the
+      public cursing of the first three caliphs and on Twelver Shi'ism being
+      recognised as a fifth school within Sunni Islam. It was a deliberate
+      attempt to undo the settlement of 1501 — to make the confession a legal
+      school rather than a frontier — and it failed completely, in the country
+      and at Istanbul. Nothing else in this corpus tries to reverse a
+      conversion by treaty.
+    source: axworthy-2006
+    contested: false
+  - year: 1739
+    type: battle
+    name: "Karnal"
+    changed: >-
+      An Iranian army destroyed a Mughal force several times its size in three
+      hours, took Delhi, and carried off a treasure large enough that Nadir
+      remitted three years of taxation in Iran on the strength of it. It
+      financed the empire, it removed the Mughals as a power in northern India,
+      and it is the last occasion on which an army from Iran took an Indian
+      capital.
+    source: axworthy-2006
+    contested: false
+  - year: 1747
+    type: succession-crisis
+    name: "The murder of Nadir"
+    changed: >-
+      His own officers killed him in his tent in Khurasan, and the empire
+      dissolved within weeks — the Afghan contingent went home and founded a
+      state, the Caucasus went its own way, the provinces took their own
+      commanders. A polity whose cohesion is one man's army and one man's
+      reputation has nothing to hand over.
+    source: axworthy-2006
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

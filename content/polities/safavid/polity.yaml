@@ -33,12 +33,14 @@ scripts_and_languages:
   administration: [Persian]
   writing_system: Perso-Arabic
 
+# The Ghilzai Afghans took Isfahan in 1722 and the dynasty was other men's
+# authorisation for fourteen years afterwards, until Nadir ended the line. Both
+# polities are now in this corpus and the field resolves.
 ended:
   type: conquest
-  # Nadir Shah and the Afsharids are outside this corpus. Named in the prose.
-  by: []
-  year: 1736
-  source: newman-2006
+  by: [hotaki]
+  year: 1722
+  source: matthee-2012
 
 institutions:
   # Qizilbash tribal cavalry for the first century, then the ghulam corps

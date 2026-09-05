@@ -1,0 +1,128 @@
+id: qajar
+region: later-iran
+
+name:
+  latin: Qajar Dynasty
+  script: قاجاریان
+  script_lang: fa
+
+# 1789 is Agha Muhammad Khan's assumption of power in the north; 1796 is the
+# coronation at Tehran, after the last Zand and the last Afsharid were dead.
+span:
+  start: { min: 1789, max: 1796, source: amanat-2017 }
+  end: { min: 1925, max: 1925, source: amanat-2017 }
+
+identity: >-
+  A hundred and thirty years spent between the Russian and British empires, at
+  the end of which Iran had a constitution, an oil industry and a colonel from
+  its own Cossack Brigade on the throne.
+
+capitals:
+  - { name: Tehran, script: تهران, from: 1786, source: amanat-2017 }
+
+core_region: The Iranian plateau
+
+rulers:
+  founder: { name: Agha Muhammad Khan, reign: [1789, 1797], source: amanat-2017 }
+  peak: { name: Nasir al-Din Shah, reign: [1848, 1896], source: amanat-2017 }
+  last: { name: Ahmad Shah, reign: [1909, 1925], source: amanat-2017 }
+
+scripts_and_languages:
+  administration: [Persian]
+  writing_system: Perso-Arabic
+
+# Reza Khan, commander of the Cossack Brigade, took power by coup in 1921 and
+# was made shah by the assembly in 1925. The Pahlavi state is outside this
+# corpus, which is why the field is empty rather than wrong.
+ended:
+  type: internal usurpation
+  by: []
+  year: 1925
+  source: amanat-2017
+
+institutions:
+  # Qajar and allied tribal cavalry for most of the century, alongside the
+  # successive attempts at a European-modelled regular army that never had the
+  # revenue behind them. The second value is for the one that worked: the
+  # Persian Cossack Brigade, raised in 1879 under Russian officers, paid,
+  # permanent and centrally commanded. It was the only effective force in the
+  # country by 1900, and in 1921 its commander took the state. The corpus has
+  # recorded that outcome from Samarra onwards; this is the last instance, and
+  # the instructors were foreign.
+  military_basis: { values: [tribal-levy, standing-professional], source: amanat-2017 }
+  # The land tax, farmed to provincial governors who bid for the office, and
+  # customs that were themselves farmed and then from 1898 administered by
+  # Belgian officials. What the vocabulary cannot hold is the thing that made
+  # the century what it was: concessions sold to foreign companies for cash and
+  # a royalty — the tobacco monopoly of 1890, the D'Arcy oil concession of 1901
+  # — which is not `monopoly`, because the state did not operate them, and not
+  # `tribute`, because nobody was subordinate. See the fourth chapter.
+  revenue_basis: { values: [land-tax, trade-toll], source: amanat-2017 }
+  # A designated heir, the vali-ahd, named in the shah's lifetime and by
+  # convention required to be the son of a Qajar mother — which repeatedly put
+  # a younger son in front of an elder and is why this is `nomination` rather
+  # than `primogeniture`.
+  succession_rule: { values: [nomination], source: amanat-2017 }
+  # Descent from the Qajar Qoyunlu and a claimed continuity with the Safavids,
+  # and above that the old Iranian sacral formula the dynasty used constantly:
+  # Zill Allah, the shadow of God on earth, and Qibla-yi Alam, the pivot of the
+  # universe. The second is `divine-sanction` in the vocabulary's sense — the
+  # right comes from above rather than from a predecessor or an army.
+  legitimation: { values: [divine-sanction, descent], source: amanat-2017 }
+
+turning_points:
+  - year: 1828
+    type: treaty
+    name: "Turkmanchay"
+    changed: >-
+      The second Russian war ended with Iran ceding the Caucasus north of the
+      Aras, paying an indemnity it could not afford, and granting
+      extraterritorial rights to Russian subjects. The frontier has not moved
+      since. It also set the pattern of the following century: a state that
+      could not defend itself and had begun paying for that with legal
+      privileges granted to foreigners.
+    source: amanat-2017
+    contested: false
+  - year: 1891
+    type: revolt
+    name: "The Tobacco Protest"
+    changed: >-
+      A monopoly on the purchase and sale of all Iranian tobacco, sold to a
+      British company, was defeated by a nationwide boycott after a ruling
+      attributed to the senior Shi'i jurist in Iraq — observed, it is reported,
+      even inside the shah's own household. The concession was cancelled. It
+      established that the clergy and the bazaar together could overrule the
+      state, which is the alliance that made 1906 and, eventually, 1979.
+    source: amanat-2017
+    contested: false
+  - year: 1906
+    type: reform
+    name: "The Constitutional Revolution"
+    changed: >-
+      Merchants, clerics and reformers forced the shah to grant a constitution
+      and an elected majles, which made law something a body other than the
+      monarch could make. The assembly was bombarded by the Cossack Brigade two
+      years later and the constitution survived anyway, and every Iranian
+      government since has had to account for it.
+    source: amanat-2017
+    contested: false
+  - year: 1908
+    type: reform
+    name: "Oil at Masjed Soleyman"
+    changed: >-
+      A concession granted in 1901 to a British speculator produced the first
+      commercially significant oil strike in the Middle East, and the company
+      formed to work it was majority-owned by the British government within six
+      years. It gave the twentieth century its central Iranian political
+      question, and the dynasty that signed the concession away had seventeen
+      years left.
+    source: amanat-2017
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

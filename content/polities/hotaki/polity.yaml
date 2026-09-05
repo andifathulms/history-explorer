@@ -1,0 +1,103 @@
+id: hotaki
+region: later-iran
+
+name:
+  latin: Hotak Dynasty
+  script: هوتکیان
+  script_lang: ps
+
+span:
+  start: { min: 1709, max: 1709, source: chi-7 }
+  end: { min: 1738, max: 1738, source: chi-7 }
+
+identity: >-
+  The Ghilzai Afghans of Kandahar, who revolted against a Safavid governor,
+  took Isfahan seven years later, and could not govern what they had taken.
+
+# The awkwardness is real and is left visible. This polity's centre was
+# Kandahar, which is not in this region and is barely in Iran; it is filed here
+# because the seven years it spent ruling Persia are why anyone records it, and
+# because the Safavid page's `ended.by` had nothing to point at.
+capitals:
+  - { name: Kandahar, script: کندهار, from: 1709, source: chi-7 }
+  - { name: Isfahan, script: اصفهان, from: 1722, source: chi-7 }
+
+core_region: Kandahar and the Afghan south-east; for seven years, Persia
+
+rulers:
+  founder: { name: Mirwais Hotak, reign: [1709, 1715], source: chi-7 }
+  peak: { name: Mahmud Hotak, reign: [1717, 1725], source: chi-7 }
+  last: { name: Husayn Hotak, source: chi-7 }
+
+scripts_and_languages:
+  administration: [Persian, Pashto]
+  writing_system: Perso-Arabic
+
+ended:
+  type: conquest
+  by: [afsharid]
+  year: 1738
+  source: axworthy-2006
+
+institutions:
+  military_basis: { values: [tribal-levy], source: chi-7 }
+  # Null, and the reason is not that nobody has looked. The regime in Persia
+  # did not build a fiscal administration; it lived on confiscation from a
+  # country it never learned to tax. `plunder` is not the answer either,
+  # because coding rule 6 admits it only where a source treats campaign
+  # proceeds as structural income, and what is described here is extraction by
+  # an occupier rather than a revenue basis anyone designed.
+  revenue_basis: null
+  # Brother, then son, then cousin, with two of the four transitions
+  # accomplished by murder. That is a sequence and not a rule.
+  succession_rule: null
+  # Conquest. Mirwais had been sent to Isfahan as a hostage, went on the hajj
+  # from there, and is reported to have obtained a ruling at Mecca that revolt
+  # against a Shi'i sovereign was lawful — which is a real thing to have done
+  # and is not any of the six values. The vocabulary has `caliphal-investiture`
+  # for authorisation by a sovereign and nothing for authorisation by a
+  # jurist, and this record does not invent one.
+  legitimation: { values: [conquest], source: chi-7 }
+
+turning_points:
+  - year: 1709
+    type: revolt
+    name: "The killing of Gurgin Khan"
+    changed: >-
+      The Ghilzai of Kandahar killed the Georgian governor Isfahan had set over
+      them and held the city against every force sent to retake it. It removed
+      the empire's eastern frontier province, and it demonstrated over the
+      following decade that Safavid armies could be beaten by a provincial
+      tribal levy — which is the information the invasion of 1722 was based on.
+    source: chi-7
+    contested: false
+  - year: 1722
+    type: battle
+    name: "Gulnabad"
+    changed: >-
+      An Afghan force perhaps a third the size of the army sent against it broke
+      the Safavid field army outside Isfahan, and there was nothing behind it.
+      A tribal confederation from one province became, in an afternoon, the
+      government of an empire it had no apparatus to administer, which is the
+      whole of the following seven years.
+    source: matthee-2012
+    contested: false
+  - year: 1729
+    type: battle
+    name: "Damghan and Murche-Khort"
+    changed: >-
+      Nadir, then a commander in Safavid service, beat Ashraf twice in a year
+      and drove the Afghans out of Persia. It ended the occupation, and it made
+      the reputation of the man who would take the throne himself seven years
+      later — the Hotak conquest's most durable consequence was the career it
+      created in the process of being reversed.
+    source: axworthy-2006
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

@@ -128,11 +128,19 @@ regions:
       trade system and the southern end of another.
     thread: true
 
+  # Extended past 1736. The blurb previously ended at "the dynasty that made it
+  # Shi'i", which described the corpus rather than the country: the Safavid
+  # record's own `ended.by` was empty and pointed at men with no pages. The
+  # region now runs from the Ilkhanate's collapse to the last Qajar.
   - id: later-iran
     name: Iran after the Mongols
     blurb: >-
-      The Turco-Mongol and then Turkmen states that reassembled Iran out of the
-      Ilkhanate's collapse, ending with the dynasty that made it Shi'i.
+      Six centuries between the Ilkhanate and the twentieth century: the
+      provincial officers who kept the pieces of a Mongol state working, the
+      Turkmen confederations that fought over the pastures, the dynasty that
+      made Iran Shi'i, and what followed it — an Afghan occupation, a conqueror
+      who took Delhi, a regent who refused the title of shah, and a century
+      spent between two European empires.
     thread: true
 
   - id: ancient-near-east
