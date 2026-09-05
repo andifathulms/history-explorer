@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1281 claims across 88 sources.**
+**1297 claims across 88 sources.**
 
 ## Where to start
 
@@ -420,6 +420,48 @@ ordinary state, not an item to clear.
 - [ ] `polity/ziyarid` — legitimation coded titulature
 - [ ] `polity/ziyarid` — turning point 935 Mardavij killed in his bath
 - [ ] `polity/ziyarid` — turning point 1012 The army deposes Qabus
+
+## A. C. S. Peacock and Sara Nur Yildiz (eds), The Seljuks of Anatolia: Court and Society in the Medieval Middle East
+
+`peacock-yildiz-2013` — 35 claims
+
+**Sole source** for `danishmendid`, `rum` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/danishmendid/01-the-other-turkish-state.mdx` — prose: "The other Turkish state"
+- [ ] `chapter/danishmendid/02-taken-in-pieces.mdx` — prose: "Taken in pieces"
+- [ ] `chapter/rum/01-anatolia.mdx` — prose: "A branch that outlasted the trunk"
+- [ ] `chapter/rum/02-kayqubad.mdx` — prose: "The forty years it worked"
+- [ ] `chapter/rum/03-the-caravanserais.mdx` — prose: "A day's march apart"
+- [ ] `chapter/rum/04-kosedag.mdx` — prose: "Kösedağ"
+- [ ] `chapter/rum/05-konya.mdx` — prose: "What was written at Konya"
+- [ ] `edge/danishmendid->rum` — conquered by in 1178
+- [ ] `edge/great-seljuk->rum` — partitioned from in 1077
+- [ ] `edge/rum->ilkhanate` — vassal of in 1243
+- [ ] `polity/danishmendid` — span starts 1071
+- [ ] `polity/danishmendid` — span ends 1178
+- [ ] `polity/danishmendid` — capital Sivas
+- [ ] `polity/danishmendid` — capital Niksar
+- [ ] `polity/danishmendid` — founder Danishmend Gazi
+- [ ] `polity/danishmendid` — peak Emir Gazi
+- [ ] `polity/danishmendid` — last Ayn al-Dawla
+- [ ] `polity/danishmendid` — military basis coded tribal-levy
+- [ ] `polity/danishmendid` — succession rule coded appanage
+- [ ] `polity/danishmendid` — legitimation coded conquest
+- [ ] `polity/danishmendid` — turning point 1100 The capture of Bohemond
+- [ ] `polity/danishmendid` — turning point 1142 The realm divided
+- [ ] `polity/danishmendid` — ended by conquest in 1178
+- [ ] `polity/rum` — span starts 1077
+- [ ] `polity/rum` — span ends 1308
+- [ ] `polity/rum` — capital Konya from 1097
+- [ ] `polity/rum` — founder Suleyman ibn Qutalmish r. 1077-1086
+- [ ] `polity/rum` — peak Ala al-Din Kayqubad I r. 1220-1237
+- [ ] `polity/rum` — last Mesud II r. 1284-1308
+- [ ] `polity/rum` — military basis coded tribal-levy + slave-soldier
+- [ ] `polity/rum` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/rum` — legitimation coded descent
+- [ ] `polity/rum` — turning point 1243 Kosedag
+- [ ] `polity/rum` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/rum` — ended by gradual absorption in 1308
 
 ## Peter B. Golden, An Introduction to the History of the Turkic Peoples
 
@@ -902,32 +944,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/qara-khitai` — turning point 1211 Kuchlug takes the gurkhanate
 - [ ] `polity/qara-khitai` — religions_carried = 0
 - [ ] `polity/qara-khitai` — ended by conquest in 1218
-
-## A. C. S. Peacock and Sara Nur Yildiz (eds), The Seljuks of Anatolia: Court and Society in the Medieval Middle East
-
-`peacock-yildiz-2013` — 19 claims
-
-**Sole source** for `rum` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/rum/01-anatolia.mdx` — prose: "A branch that outlasted the trunk"
-- [ ] `chapter/rum/02-kayqubad.mdx` — prose: "The forty years it worked"
-- [ ] `chapter/rum/03-the-caravanserais.mdx` — prose: "A day's march apart"
-- [ ] `chapter/rum/04-kosedag.mdx` — prose: "Kösedağ"
-- [ ] `chapter/rum/05-konya.mdx` — prose: "What was written at Konya"
-- [ ] `edge/great-seljuk->rum` — partitioned from in 1077
-- [ ] `edge/rum->ilkhanate` — vassal of in 1243
-- [ ] `polity/rum` — span starts 1077
-- [ ] `polity/rum` — span ends 1308
-- [ ] `polity/rum` — capital Konya from 1097
-- [ ] `polity/rum` — founder Suleyman ibn Qutalmish r. 1077-1086
-- [ ] `polity/rum` — peak Ala al-Din Kayqubad I r. 1220-1237
-- [ ] `polity/rum` — last Mesud II r. 1284-1308
-- [ ] `polity/rum` — military basis coded tribal-levy + slave-soldier
-- [ ] `polity/rum` — revenue basis coded land-tax + trade-toll
-- [ ] `polity/rum` — legitimation coded descent
-- [ ] `polity/rum` — turning point 1243 Kosedag
-- [ ] `polity/rum` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/rum` — ended by gradual absorption in 1308
 
 ## Peter Jackson, The Delhi Sultanate: A Political and Military History
 

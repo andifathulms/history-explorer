@@ -1021,3 +1021,15 @@ edges:
            holders rather than destroyed."
     source: bosworth-1996
     contested: false
+
+  # ---- Anatolia had two Turkish states ----
+
+  - from: danishmendid
+    to: rum
+    type: conquered by
+    year: 1178
+    note: "Kilij Arslan II took the Sivas branch by 1175 and Malatya in 1178,
+           after the realm had divided in 1142 and failed to reunite; the
+           surviving Danishmendids entered Seljuk service."
+    source: peacock-yildiz-2013
+    contested: false

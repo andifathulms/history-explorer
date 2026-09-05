@@ -1,0 +1,85 @@
+id: danishmendid
+region: anatolia
+
+name:
+  latin: Danishmendid Dynasty
+  script: دانشمندیان
+  script_lang: fa
+
+# 1071 and 1075 are both given for the establishment, which is the ordinary
+# imprecision of a warband becoming a state on a frontier that had just
+# dissolved.
+span:
+  start: { min: 1071, max: 1075, source: peacock-yildiz-2013 }
+  end: { min: 1178, max: 1178, source: peacock-yildiz-2013 }
+
+identity: >-
+  The other Turkish state in Anatolia: a century-long rival to the Seljuks of
+  Rum out of Sivas and Malatya, which struck coins in Greek and was eventually
+  absorbed by the polity it had spent its existence containing.
+
+capitals:
+  - { name: Sivas, script: سیواس, source: peacock-yildiz-2013 }
+  - { name: Niksar, source: peacock-yildiz-2013 }
+
+core_region: Central and north-eastern Anatolia
+
+rulers:
+  # The founder's origins are genuinely unresolved: the sources make him a
+  # Turkmen emir, an Armenian, a kinsman of Malik-Shah and a commander at
+  # Manzikert, and this site does not choose between them.
+  founder: { name: Danishmend Gazi, source: peacock-yildiz-2013 }
+  peak: { name: Emir Gazi, source: peacock-yildiz-2013 }
+  last: { name: Ayn al-Dawla, source: peacock-yildiz-2013 }
+
+scripts_and_languages:
+  administration: [Persian, Greek, Arabic]
+  writing_system: Perso-Arabic
+
+ended:
+  type: conquest
+  by: [rum]
+  year: 1178
+  source: peacock-yildiz-2013
+
+institutions:
+  military_basis: { values: [tribal-levy], source: peacock-yildiz-2013 }
+  revenue_basis: null
+  # The realm divided between Sivas and Malatya branches after 1142 and never
+  # reunited, which is what let Rum take it in pieces. Appanage in the same
+  # sense the Great Seljuk record uses, in a state small enough that one
+  # division was fatal.
+  succession_rule: { values: [appanage], source: peacock-yildiz-2013 }
+  legitimation: { values: [conquest], source: peacock-yildiz-2013 }
+
+turning_points:
+  - year: 1100
+    type: battle
+    name: "The capture of Bohemond"
+    changed: >-
+      Emir Gazi took the prince of Antioch prisoner and held him for three
+      years, and the following year a Danishmendid and Seljuk alliance
+      destroyed the crusade sent partly to retrieve him. It established that
+      the new Turkish states in Anatolia could beat western armies in the
+      field, and it made the Danishmendids, briefly, the most formidable power
+      in the peninsula.
+    source: peacock-yildiz-2013
+    contested: false
+  - year: 1142
+    type: succession-crisis
+    name: "The realm divided"
+    changed: >-
+      On Melik Mehmed's death the state split between a Sivas branch and a
+      Malatya branch and was never reassembled. Rum then took it in pieces
+      rather than in one campaign — Sivas by 1175, Malatya in 1178 — and the
+      surviving Danishmendids entered Seljuk service.
+    source: peacock-yildiz-2013
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
