@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1638 claims across 89 sources.**
+**1647 claims across 89 sources.**
 
 ## Where to start
 
@@ -819,6 +819,49 @@ ordinary state, not an item to clear.
 - [ ] `polity/almoravid` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/almoravid` — ended by conquest in 1147
 
+## Hugh Kennedy, The Prophet and the Age of the Caliphates: The Islamic Near East from the Sixth to the Eleventh Century
+
+`kennedy-2004` — 36 claims
+
+**Sole source** for `hamdanid` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/abbasid/01-revolution.mdx` — prose: "What the revolution actually changed"
+- [ ] `chapter/hamdanid/01-two-branches.mdx` — prose: "Two branches, one family"
+- [ ] `chapter/hamdanid/02-sayf-al-dawla.mdx` — prose: "Sayf al-Dawla's frontier"
+- [ ] `chapter/hamdanid/03-mutanabbi.mdx` — prose: "The poet and the frontier"
+- [ ] `chapter/hamdanid/04-al-farabi.mdx` — prose: "The second teacher"
+- [ ] `chapter/hamdanid/05-tributary.mdx` — prose: "Paying both sides"
+- [ ] `chapter/umayyad/06-mawali.mdx` — prose: "The converts problem"
+- [ ] `edge/rashidun->abbasid` — claimed legitimacy of in 750
+- [ ] `polity/abbasid` — military basis coded standing-professional + slave-soldier
+- [ ] `polity/abbasid` — revenue basis coded land-tax + poll-tax
+- [ ] `polity/abbasid` — legitimation coded descent
+- [ ] `polity/abbasid` — turning point 762 The founding of Baghdad
+- [ ] `polity/abbasid` — religions_carried = 1 (Islam)
+- [ ] `polity/hamdanid` — span starts 890
+- [ ] `polity/hamdanid` — span ends 1004
+- [ ] `polity/hamdanid` — capital Aleppo from 890
+- [ ] `polity/hamdanid` — founder Hamdan ibn Hamdun r. 890-895
+- [ ] `polity/hamdanid` — peak Sayf al-Dawla r. 945-967
+- [ ] `polity/hamdanid` — last Sa'd al-Dawla r. 967-991
+- [ ] `polity/hamdanid` — military basis coded tribal-levy + slave-soldier
+- [ ] `polity/hamdanid` — revenue basis coded land-tax + tribute
+- [ ] `polity/hamdanid` — succession rule coded appanage
+- [ ] `polity/hamdanid` — legitimation coded caliphal-investiture
+- [ ] `polity/hamdanid` — turning point 944 Aleppo taken
+- [ ] `polity/hamdanid` — turning point 969 The treaty of Safar
+- [ ] `polity/hamdanid` — ended by gradual absorption in 1004
+- [ ] `polity/rashidun` — span starts 632
+- [ ] `polity/rashidun` — span ends 661
+- [ ] `polity/rashidun` — capital Medina from 632
+- [ ] `polity/rashidun` — capital Kufa from 656
+- [ ] `polity/rashidun` — founder Abu Bakr r. 632-634
+- [ ] `polity/rashidun` — peak Umar ibn al-Khattab r. 634-644
+- [ ] `polity/rashidun` — revenue basis coded land-tax + poll-tax + plunder
+- [ ] `polity/rashidun` — successor_claims = 2 (umayyad, abbasid)
+- [ ] `polity/umayyad` — military basis coded tribal-levy
+- [ ] `polity/umayyad` — successor_claims = 1 (Umayyad Caliphate of Cordoba)
+
 ## G. R. Hawting, The First Dynasty of Islam: The Umayyad Caliphate AD 661-750
 
 `hawting-2000` — 36 claims
@@ -1043,40 +1086,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/maurya` — last Brihadratha r. -187--185
 - [ ] `polity/maurya` — religions_carried = 1 (Buddhism)
 - [ ] `polity/maurya` — ended by internal usurpation in -185
-
-## Hugh Kennedy, The Prophet and the Age of the Caliphates: The Islamic Near East from the Sixth to the Eleventh Century
-
-`kennedy-2004` — 27 claims
-
-**Sole source** for `hamdanid` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/abbasid/01-revolution.mdx` — prose: "What the revolution actually changed"
-- [ ] `chapter/hamdanid/01-sayf-al-dawla.mdx` — prose: "Sayf al-Dawla's frontier"
-- [ ] `chapter/hamdanid/02-mutanabbi.mdx` — prose: "The poet and the frontier"
-- [ ] `chapter/umayyad/06-mawali.mdx` — prose: "The converts problem"
-- [ ] `edge/rashidun->abbasid` — claimed legitimacy of in 750
-- [ ] `polity/abbasid` — military basis coded standing-professional + slave-soldier
-- [ ] `polity/abbasid` — revenue basis coded land-tax + poll-tax
-- [ ] `polity/abbasid` — legitimation coded descent
-- [ ] `polity/abbasid` — turning point 762 The founding of Baghdad
-- [ ] `polity/abbasid` — religions_carried = 1 (Islam)
-- [ ] `polity/hamdanid` — span starts 890
-- [ ] `polity/hamdanid` — span ends 1004
-- [ ] `polity/hamdanid` — capital Aleppo from 890
-- [ ] `polity/hamdanid` — founder Hamdan ibn Hamdun r. 890-895
-- [ ] `polity/hamdanid` — peak Sayf al-Dawla r. 945-967
-- [ ] `polity/hamdanid` — last Sa'd al-Dawla r. 967-991
-- [ ] `polity/hamdanid` — ended by gradual absorption in 1004
-- [ ] `polity/rashidun` — span starts 632
-- [ ] `polity/rashidun` — span ends 661
-- [ ] `polity/rashidun` — capital Medina from 632
-- [ ] `polity/rashidun` — capital Kufa from 656
-- [ ] `polity/rashidun` — founder Abu Bakr r. 632-634
-- [ ] `polity/rashidun` — peak Umar ibn al-Khattab r. 634-644
-- [ ] `polity/rashidun` — revenue basis coded land-tax + poll-tax + plunder
-- [ ] `polity/rashidun` — successor_claims = 2 (umayyad, abbasid)
-- [ ] `polity/umayyad` — military basis coded tribal-levy
-- [ ] `polity/umayyad` — successor_claims = 1 (Umayyad Caliphate of Cordoba)
 
 ## Marc Van De Mieroop, A History of the Ancient Near East, ca. 3000-323 BC
 

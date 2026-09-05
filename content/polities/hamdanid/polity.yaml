@@ -34,6 +34,42 @@ ended:
   year: 1004
   source: kennedy-2004
 
+institutions:
+  # Taghlibi Arab tribal manpower, which is what makes them unusual in a
+  # century when almost every effective force in the Islamic world was Turkish,
+  # Daylami or Berber, with ghulams and Bedouin allies alongside it.
+  military_basis: { values: [tribal-levy, slave-soldier], source: kennedy-2004 }
+  revenue_basis: { values: [land-tax, tribute], source: kennedy-2004 }
+  succession_rule: { values: [appanage], source: kennedy-2004 }
+  # A caliphal grant, held from an institution the family briefly had in its
+  # own keeping at Baghdad in the 940s — which is the sharpest illustration in
+  # this corpus of what the investiture had become.
+  legitimation: { values: [caliphal-investiture], source: kennedy-2004 }
+
+turning_points:
+  - year: 944
+    type: siege
+    name: "Aleppo taken"
+    changed: >-
+      Sayf al-Dawla took the city and turned a Jaziran family's western holding
+      into a frontier emirate facing Byzantium. It gave the Islamic world a
+      symbol of the frontier war at exactly the moment the caliphate had
+      stopped being able to prosecute one, and it is the reason a minor dynasty
+      is remembered at all.
+    source: kennedy-2004
+    contested: false
+  - year: 969
+    type: treaty
+    name: "The treaty of Safar"
+    changed: >-
+      After Antioch fell, Aleppo was made a Byzantine tributary rather than
+      annexed: it kept its ruler and its religion and paid. The emirate spent
+      its last thirty-five years paying Constantinople and looking to Fatimid
+      Cairo, and looking back to Constantinople when Cairo pressed — which is
+      the position this corpus records for the Nasrids and the Trapezuntines.
+    source: kennedy-2004
+    contested: false
+
 measures:
   # No cited km2 for this polity in the works consulted; Taagepera does not
   # tabulate it separately. The axis is empty rather than borrowed.
