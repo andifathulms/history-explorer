@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1472 claims across 88 sources.**
+**1479 claims across 88 sources.**
 
 ## Where to start
 
@@ -615,6 +615,49 @@ ordinary state, not an item to clear.
 - [ ] `polity/trebizond` — legitimation coded descent + titulature
 - [ ] `polity/trebizond` — turning point 1282 Giving up the imperial title
 
+## Amira K. Bennison, The Almoravid and Almohad Empires
+
+`bennison-2016` — 36 claims
+
+**Sole source** for `almoravid` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/almohad/01-ibn-tumart.mdx` — prose: "The mahdi of the Atlas"
+- [ ] `chapter/almohad/02-the-hierarchy.mdx` — prose: "A movement with ranks"
+- [ ] `chapter/almohad/03-two-things-at-once.mdx` — prose: "Two things at once"
+- [ ] `chapter/almohad/04-las-navas.mdx` — prose: "Las Navas de Tolosa"
+- [ ] `chapter/almoravid/01-ribat.mdx` — prose: "From the Sahara"
+- [ ] `chapter/almoravid/02-the-veil-and-the-city.mdx` — prose: "The veil, and the city they had to build"
+- [ ] `chapter/almoravid/03-gold.mdx` — prose: "The gold road"
+- [ ] `chapter/almoravid/04-the-mountain-and-the-islands.mdx` — prose: "The mountain, and the islands"
+- [ ] `edge/almoravid->almohad` — overthrew in 1147
+- [ ] `polity/almohad` — span starts 1121
+- [ ] `polity/almohad` — span ends 1269
+- [ ] `polity/almohad` — capital Marrakesh from 1147
+- [ ] `polity/almohad` — founder Ibn Tumart r. 1121-1130
+- [ ] `polity/almohad` — peak Abu Yusuf Ya'qub al-Mansur r. 1184-1199
+- [ ] `polity/almohad` — last Idris II al-Wathiq r. 1266-1269
+- [ ] `polity/almohad` — military basis coded tribal-levy + mercenary
+- [ ] `polity/almohad` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/almohad` — succession rule coded nomination
+- [ ] `polity/almohad` — legitimation coded divine-sanction
+- [ ] `polity/almohad` — turning point 1121 The mahdi proclaimed at Tinmal
+- [ ] `polity/almohad` — turning point 1212 Las Navas de Tolosa
+- [ ] `polity/almohad` — ended by fragmentation in 1269
+- [ ] `polity/almoravid` — span starts 1040
+- [ ] `polity/almoravid` — span ends 1147
+- [ ] `polity/almoravid` — capital Marrakesh from 1040
+- [ ] `polity/almoravid` — founder Abd Allah ibn Yasin r. 1040-1059
+- [ ] `polity/almoravid` — peak Yusuf ibn Tashfin r. 1061-1106
+- [ ] `polity/almoravid` — last Ishaq ibn Ali r. 1146-1147
+- [ ] `polity/almoravid` — military basis coded tribal-levy + slave-soldier
+- [ ] `polity/almoravid` — revenue basis coded trade-toll + land-tax
+- [ ] `polity/almoravid` — succession rule coded nomination
+- [ ] `polity/almoravid` — legitimation coded divine-sanction
+- [ ] `polity/almoravid` — turning point 1055 Both ends of the gold road
+- [ ] `polity/almoravid` — turning point 1086 Sagrajas
+- [ ] `polity/almoravid` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/almoravid` — ended by conquest in 1147
+
 ## G. R. Hawting, The First Dynasty of Islam: The Umayyad Caliphate AD 661-750
 
 `hawting-2000` — 36 claims
@@ -772,42 +815,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/khwarazmian` — legitimation coded titulature
 - [ ] `polity/khwarazmian` — turning point 1210 Breaking the Qara Khitai
 - [ ] `polity/khwarazmian` — turning point 1217 A rival caliph, and snow in the Zagros
-
-## Amira K. Bennison, The Almoravid and Almohad Empires
-
-`bennison-2016` — 29 claims
-
-**Sole source** for `almoravid` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/almohad/01-ibn-tumart.mdx` — prose: "The mahdi of the Atlas"
-- [ ] `chapter/almohad/02-las-navas.mdx` — prose: "Las Navas de Tolosa"
-- [ ] `chapter/almoravid/01-ribat.mdx` — prose: "From the Sahara"
-- [ ] `chapter/almoravid/02-the-veil-and-the-city.mdx` — prose: "The veil, and the city they had to build"
-- [ ] `chapter/almoravid/03-gold.mdx` — prose: "The gold road"
-- [ ] `chapter/almoravid/04-the-mountain-and-the-islands.mdx` — prose: "The mountain, and the islands"
-- [ ] `edge/almoravid->almohad` — overthrew in 1147
-- [ ] `polity/almohad` — span starts 1121
-- [ ] `polity/almohad` — span ends 1269
-- [ ] `polity/almohad` — capital Marrakesh from 1147
-- [ ] `polity/almohad` — founder Ibn Tumart r. 1121-1130
-- [ ] `polity/almohad` — peak Abu Yusuf Ya'qub al-Mansur r. 1184-1199
-- [ ] `polity/almohad` — last Idris II al-Wathiq r. 1266-1269
-- [ ] `polity/almohad` — turning point 1212 Las Navas de Tolosa
-- [ ] `polity/almohad` — ended by fragmentation in 1269
-- [ ] `polity/almoravid` — span starts 1040
-- [ ] `polity/almoravid` — span ends 1147
-- [ ] `polity/almoravid` — capital Marrakesh from 1040
-- [ ] `polity/almoravid` — founder Abd Allah ibn Yasin r. 1040-1059
-- [ ] `polity/almoravid` — peak Yusuf ibn Tashfin r. 1061-1106
-- [ ] `polity/almoravid` — last Ishaq ibn Ali r. 1146-1147
-- [ ] `polity/almoravid` — military basis coded tribal-levy + slave-soldier
-- [ ] `polity/almoravid` — revenue basis coded trade-toll + land-tax
-- [ ] `polity/almoravid` — succession rule coded nomination
-- [ ] `polity/almoravid` — legitimation coded divine-sanction
-- [ ] `polity/almoravid` — turning point 1055 Both ends of the gold road
-- [ ] `polity/almoravid` — turning point 1086 Sagrajas
-- [ ] `polity/almoravid` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/almoravid` — ended by conquest in 1147
 
 ## Rein Taagepera, Size and Duration of Empires: Growth-Decline Curves, 600 B.C. to 600 A.D.
 *In Social Science History 3(3/4), 115-138.*

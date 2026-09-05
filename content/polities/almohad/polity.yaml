@@ -34,7 +34,31 @@ ended:
   year: 1269
   source: bennison-2016
 
+institutions:
+  # Masmuda and other Berber tribal contingents enrolled into the movement
+  # collectively, with a paid guard and Christian mercenaries around the caliph
+  # from the later twelfth century.
+  military_basis: { values: [tribal-levy, mercenary], source: bennison-2016 }
+  revenue_basis: { values: [land-tax, trade-toll], source: bennison-2016 }
+  succession_rule: { values: [nomination], source: bennison-2016 }
+  # Not descent, not investiture, not conquest. Abd al-Mu'min took the caliphal
+  # title on the authority of a mahdi — the Maghreb produced its own caliphate
+  # on doctrine rather than lineage, which is the only such case in this
+  # corpus.
+  legitimation: { values: [divine-sanction], source: bennison-2016 }
+
 turning_points:
+  - year: 1121
+    type: conversion
+    name: "The mahdi proclaimed at Tinmal"
+    changed: >-
+      Ibn Tumart's followers proclaimed him the rightly guided one, which made
+      the movement's founder infallible and its enemies unbelievers rather than
+      rivals. It authorised a war against a Muslim dynasty, it produced the only
+      caliphate in this corpus founded on doctrine rather than descent, and it
+      is the claim whose failure at Las Navas the last chapter is about.
+    source: bennison-2016
+    contested: false
   - year: 1212
     type: battle
     name: "Las Navas de Tolosa"
