@@ -21,14 +21,17 @@ import {
   END_TYPES,
   PHASES,
   TURNING_POINT_TYPES,
+  BANNER_COLOURS,
   MILITARY_BASES,
   REVENUE_BASES,
   SUCCESSION_RULES,
   LEGITIMATIONS,
+  type Banner,
   type Chapter,
   type Edge,
   type Polity,
   type ReferencePolity,
+  type FlagCredit,
   type Region,
   type PolityId,
   type Source,
@@ -66,6 +69,13 @@ export interface Corpus {
   edges: Edge[]
   sources: Map<string, Source>
   chapters: Map<string, Chapter[]>
+  /**
+   * Author and licence for every image file under public/flags. Separate from
+   * sources.yaml because it credits the drawing, not the scholarship: several
+   * of these are CC BY-SA, where attribution is a licence term rather than a
+   * courtesy, and the site has to be able to print it.
+   */
+  flagCredits: Map<string, FlagCredit>
 }
 
 export function loadCorpus(): Corpus {
@@ -82,6 +92,19 @@ export function loadCorpus(): Corpus {
     if (id === null || id === undefined) return
     if (!sources.has(id)) {
       throw new ContentError(where, `source "${id}" is not in sources.yaml`)
+    }
+  }
+
+  const creditList = readYaml<{ credits: FlagCredit[] }>('flag-credits.yaml').credits ?? []
+  const credits = new Map(creditList.map((c) => [c.id, c]))
+  if (credits.size !== creditList.length) {
+    throw new ContentError('flag-credits.yaml', 'duplicate credit id')
+  }
+  for (const c of creditList) {
+    // A licence with no author to attribute cannot be complied with, so the
+    // build refuses it rather than shipping an unattributed file.
+    if (!c.author?.trim() || !c.licence?.trim() || !c.url?.trim()) {
+      throw new ContentError(`flag-credits.yaml/${c.id}`, 'a credit names its author, licence and source URL')
     }
   }
 
@@ -275,6 +298,52 @@ export function loadCorpus(): Corpus {
       }
       if (new Set(coded.values).size !== coded.values.length) {
         throw new ContentError(iWhere, 'the same value is coded twice')
+      }
+    }
+
+    // Banner. Null is the ordinary answer and stays null; a present block is
+    // held to the same standard as a measure, because a flag on a page reads as
+    // evidence faster than any number does.
+    p.banner ??= null
+    if (p.banner) {
+      const bWhere = `${where}/banner`
+      requireSource(p.banner.source, bWhere)
+      if (!p.banner.description?.trim()) {
+        throw new ContentError(bWhere, 'a banner block says in prose what the source describes')
+      }
+      if (!Array.isArray(p.banner.attested) || p.banner.attested.length === 0) {
+        throw new ContentError(
+          bWhere,
+          'an empty attestation list is not a value; use null where no source names a colour',
+        )
+      }
+      for (const a of p.banner.attested) {
+        if (!(BANNER_COLOURS as readonly string[]).includes(a?.colour)) {
+          throw new ContentError(
+            bWhere,
+            `colour "${a?.colour}" is outside the closed vocabulary (${BANNER_COLOURS.join(', ')})`,
+          )
+        }
+        requireSource(a.source, bWhere)
+      }
+      const img = p.banner.image
+      if (img) {
+        // The three fields that keep a picture from becoming an assertion. A
+        // file with no status would render unlabelled, and an unlabelled
+        // reconstruction is the failure this whole field exists to prevent.
+        if (img.status !== 'reconstruction' && img.status !== 'contemporary') {
+          throw new ContentError(bWhere, `image.status "${img.status}" is not reconstruction or contemporary`)
+        }
+        if (!img.file?.trim()) throw new ContentError(bWhere, 'a banner image names its file')
+        if (!fs.existsSync(path.join(process.cwd(), 'public', 'flags', img.file))) {
+          throw new ContentError(bWhere, `image file public/flags/${img.file} does not exist`)
+        }
+        if (!credits.has(img.credit)) {
+          throw new ContentError(
+            bWhere,
+            `image.credit "${img.credit}" is not an entry in content/flag-credits.yaml — every file carries its author and licence`,
+          )
+        }
       }
     }
 
@@ -482,6 +551,7 @@ export function loadCorpus(): Corpus {
     edges,
     sources,
     chapters,
+    flagCredits: credits,
   }
   return cache
 }
@@ -525,6 +595,10 @@ export function displayName(id: string): string {
 export function hasPage(id: string): boolean {
   const p = loadCorpus().all.find((x) => x.id === id)
   return !!p && !p.context_only
+}
+
+export function getFlagCredit(id: string): FlagCredit | undefined {
+  return loadCorpus().flagCredits.get(id)
 }
 
 export function getSource(id: string): Source | undefined {

@@ -149,6 +149,25 @@ sources:
     container: Encyclopaedia Iranica
     url: https://iranicaonline.org/articles/abbasid-caliphate
 
+  - id: iranica-flags
+    kind: encyclopaedia
+    author: A. Sh. Shahbazi
+    title: "FLAGS i. Of Persia"
+    container: Encyclopaedia Iranica
+    volume: "X/1"
+    pages: "12-27"
+    year: 1999
+    url: https://iranicaonline.org/articles/flags-i/
+    note: >-
+      The banner section of this article is the only source in this file that
+      addresses dynastic colours directly, and it does so by reporting primaries
+      rather than asserting: the Umayyad white is Tabari II p. 1921, the green
+      variant is Bal'ami, the Abbasid black standard with its white legend is
+      Margoliouth and Amedroz, and the Fatimid green is Sarre. Those primaries
+      are not entries here, so a banner attestation cites this article and names
+      the primary in plain text. It says nothing about Cordoba, the Zubayrids or
+      the Cairo Abbasids, which is why those three carry no banner block.
+
   # ---- Encyclopaedia of Islam ----
   - id: ei2-karakhanids
     kind: encyclopaedia
@@ -417,6 +436,19 @@ sources:
     title: "Muslim Spain and Portugal: A Political History of al-Andalus"
     publisher: Longman
     year: 1996
+
+  - id: flood-2009
+    kind: book
+    author: Finbarr Barry Flood
+    title: 'Objects of Translation: Material Culture and Medieval "Hindu-Muslim" Encounter'
+    publisher: Princeton University Press
+    year: 2009
+    note: >-
+      Reads the material culture of the eighth to thirteenth centuries in what
+      is now Afghanistan, Pakistan and north India against the standard account
+      of the period as unbroken hostility between two monolithic religious
+      cultures. Cited for the Ghurid chapter on what the dynasty built, which
+      is very nearly all it left.
 
   - id: frye-1965
     kind: book

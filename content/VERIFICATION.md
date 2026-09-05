@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1139 claims across 83 sources.**
+**1147 claims across 84 sources.**
 
 ## Where to start
 
@@ -705,6 +705,29 @@ ordinary state, not an item to clear.
 - [ ] `polity/cordoba` — turning point 1009 The fitna of al-Andalus
 - [ ] `polity/cordoba` — ended by fragmentation in 1031
 
+## Peter Jackson, The Delhi Sultanate: A Political and Military History
+
+`jackson-1999` — 18 claims
+
+- [ ] `chapter/delhi-sultanate/01-slave-kings.mdx` — prose: "The slave kings"
+- [ ] `chapter/delhi-sultanate/02-mongol-frontier.mdx` — prose: "The frontier that held"
+- [ ] `chapter/ghurid/03-india.mdx` — prose: "Mu'izz al-Din's India"
+- [ ] `chapter/ghurid/04-the-slave-generals.mdx` — prose: "The instrument that did not walk away"
+- [ ] `edge/ghurid->delhi-sultanate` — slave-general of in 1206
+- [ ] `polity/delhi-sultanate` — span starts 1206
+- [ ] `polity/delhi-sultanate` — span ends 1526
+- [ ] `polity/delhi-sultanate` — capital Delhi from 1206
+- [ ] `polity/delhi-sultanate` — founder Qutb al-Din Aibak r. 1206-1210
+- [ ] `polity/delhi-sultanate` — peak Ala al-Din Khalji r. 1296-1316
+- [ ] `polity/delhi-sultanate` — last Ibrahim Lodi r. 1517-1526
+- [ ] `polity/delhi-sultanate` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/delhi-sultanate` — ended by conquest in 1526
+- [ ] `polity/ghurid` — military basis coded tribal-levy + slave-soldier
+- [ ] `polity/ghurid` — turning point 1192 The second battle of Tarain
+- [ ] `polity/ghurid` — turning point 1206 Mu'izz al-Din assassinated with no son
+- [ ] `polity/ghurid` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/ghurid` — successor_claims = 1 (Delhi Sultanate)
+
 ## Michael Brett, The Fatimid Empire
 
 `brett-2017` — 18 claims
@@ -863,24 +886,26 @@ ordinary state, not an item to clear.
 - [ ] `polity/samanid` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/samanid` — ended by conquest in 999
 
-## Peter Jackson, The Delhi Sultanate: A Political and Military History
+## C. E. Bosworth, GHURIDS
+*In Encyclopaedia Iranica.*
+<https://iranicaonline.org/articles/ghurids>
 
-`jackson-1999` — 14 claims
+`iranica-ghurids` — 14 claims
 
-- [ ] `chapter/delhi-sultanate/01-slave-kings.mdx` — prose: "The slave kings"
-- [ ] `chapter/delhi-sultanate/02-mongol-frontier.mdx` — prose: "The frontier that held"
-- [ ] `chapter/ghurid/03-india.mdx` — prose: "Mu'izz al-Din's India"
-- [ ] `edge/ghurid->delhi-sultanate` — slave-general of in 1206
-- [ ] `polity/delhi-sultanate` — span starts 1206
-- [ ] `polity/delhi-sultanate` — span ends 1526
-- [ ] `polity/delhi-sultanate` — capital Delhi from 1206
-- [ ] `polity/delhi-sultanate` — founder Qutb al-Din Aibak r. 1206-1210
-- [ ] `polity/delhi-sultanate` — peak Ala al-Din Khalji r. 1296-1316
-- [ ] `polity/delhi-sultanate` — last Ibrahim Lodi r. 1517-1526
-- [ ] `polity/delhi-sultanate` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/delhi-sultanate` — ended by conquest in 1526
-- [ ] `polity/ghurid` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/ghurid` — successor_claims = 1 (Delhi Sultanate)
+- [ ] `chapter/ghurid/01-the-mountains.mdx` — prose: "The last place to convert"
+- [ ] `chapter/ghurid/02-jahansuz.mdx` — prose: "The world-burner"
+- [ ] `chapter/ghurid/06-1215.mdx` — prose: "Squeezed out"
+- [ ] `edge/ghaznavid->ghurid` — vassal of in 1011
+- [ ] `edge/ghurid->khwarazmian` — conquered by in 1215
+- [ ] `polity/ghurid` — span starts 879
+- [ ] `polity/ghurid` — span ends 1215
+- [ ] `polity/ghurid` — capital Firuzkuh
+- [ ] `polity/ghurid` — peak Mu'izz al-Din Muhammad of Ghur r. 1173-1206
+- [ ] `polity/ghurid` — succession rule coded appanage
+- [ ] `polity/ghurid` — legitimation coded descent + caliphal-investiture
+- [ ] `polity/ghurid` — turning point 1151 The burning of Ghazna
+- [ ] `polity/ghurid` — descendant_scripts = 0
+- [ ] `polity/ghurid` — ended by conquest in 1215
 
 ## C. E. Bosworth and others, Ilek-Khans or Karakhanids
 *In Encyclopaedia of Islam, 2nd edition.*
@@ -1257,24 +1282,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/carolingian` — last Charles the Fat r. 881-887
 - [ ] `polity/carolingian` — religions_carried = 1 (Latin Christianity)
 - [ ] `polity/carolingian` — ended by fragmentation in 888
-
-## C. E. Bosworth, GHURIDS
-*In Encyclopaedia Iranica.*
-<https://iranicaonline.org/articles/ghurids>
-
-`iranica-ghurids` — 11 claims
-
-- [ ] `chapter/ghurid/01-the-mountains.mdx` — prose: "The last place to convert"
-- [ ] `chapter/ghurid/02-jahansuz.mdx` — prose: "The world-burner"
-- [ ] `chapter/ghurid/04-1215.mdx` — prose: "Squeezed out"
-- [ ] `edge/ghaznavid->ghurid` — vassal of in 1011
-- [ ] `edge/ghurid->khwarazmian` — conquered by in 1215
-- [ ] `polity/ghurid` — span starts 879
-- [ ] `polity/ghurid` — span ends 1215
-- [ ] `polity/ghurid` — capital Firuzkuh
-- [ ] `polity/ghurid` — peak Mu'izz al-Din Muhammad of Ghur r. 1173-1206
-- [ ] `polity/ghurid` — descendant_scripts = 0
-- [ ] `polity/ghurid` — ended by conquest in 1215
 
 ## Charles J. Halperin, Russia and the Golden Horde: The Mongol Impact on Medieval Russian History
 
@@ -1656,6 +1663,12 @@ ordinary state, not an item to clear.
 `goitein-1967` — 1 claims
 
 - [ ] `chapter/fatimid/08-the-geniza.mdx` — prose: "A storeroom in Fustat"
+
+## Finbarr Barry Flood, Objects of Translation: Material Culture and Medieval "Hindu-Muslim" Encounter
+
+`flood-2009` — 1 claims
+
+- [ ] `chapter/ghurid/05-what-they-built.mdx` — prose: "A tower nobody could find"
 
 ## Martin Hinds, The Murder of the Caliph 'Uthman
 *In International Journal of Middle East Studies 3(4), 450-469.*

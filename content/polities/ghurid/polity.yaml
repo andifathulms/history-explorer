@@ -50,6 +50,61 @@ ended:
   year: 1215
   source: iranica-ghurids
 
+institutions:
+  # Highland Ghuri contingents from the Shansabani homeland, and from the 1170s
+  # purchased Turkish ghulams raised to command — the instrument that took the
+  # Indian conquests and then kept them when the dynasty died.
+  military_basis: { values: [tribal-levy, slave-soldier], source: jackson-1999 }
+  # Null. Ghur itself was poor and the Indian campaigns were plainly lucrative,
+  # but no source read for this polity is cited on how the state was financed,
+  # and inferring plunder from the narrative is what coding rule 9 forbids.
+  revenue_basis: null
+  # Two brothers held the state jointly for thirty years, one senior at
+  # Firuzkuh and one operational at Ghazna, without either supplanting the
+  # other; the Bamiyan line held a third share. That is an appanage division
+  # that happened to work, which is rare enough in this corpus to be the
+  # coding rather than an exception to it.
+  succession_rule: { values: [appanage], source: iranica-ghurids }
+  # Descent in the Shansabani line, and the sultanate held under a caliphal
+  # investiture the Ghurids sought and advertised once they held Ghazna.
+  legitimation: { values: [descent, caliphal-investiture], source: iranica-ghurids }
+
+turning_points:
+  - year: 1151
+    type: siege
+    name: "The burning of Ghazna"
+    changed: >-
+      A vassal sacked its overlord's capital and was called Jahansuz,
+      world-burner, for it. He did not keep the city; what he demonstrated was
+      that it could be taken, and the generation after him took it and used it
+      as the base for India. A hundred and ten years of a client growing
+      stronger while its patron weakened produced exactly one outcome.
+    source: iranica-ghurids
+    contested: false
+  - year: 1192
+    type: battle
+    name: "The second battle of Tarain"
+    changed: >-
+      Mu'izz al-Din had lost on the same ground the year before. He returned,
+      won, and the Chauhan kingdom collapsed; Delhi fell the following year and
+      his generals took Bihar and then Bengal. Where Mahmud of Ghazna had
+      raided India for thirty years and annexed only the Punjab, this campaign
+      installed garrisons and governors and left them there — which is the
+      difference the religion-carried count on this page rests on.
+    source: jackson-1999
+    contested: false
+  - year: 1206
+    type: succession-crisis
+    name: "Mu'izz al-Din assassinated with no son"
+    changed: >-
+      The Indian provinces passed to the Turkish slave-generals holding them
+      and never came back. Because the dynasty collapsed behind them within a
+      decade, there was no metropole to secede from and nothing to fragment:
+      the succession relocated the state rather than dividing it, and Aibak's
+      line became the Delhi Sultanate.
+    source: jackson-1999
+    contested: false
+
 measures:
   reach_km2: null
   peak_population: null
