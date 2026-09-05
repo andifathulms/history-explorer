@@ -37,8 +37,36 @@ ended:
 institutions:
   military_basis: { values: [slave-soldier], source: petry-1998 }
   revenue_basis: { values: [land-tax], source: petry-1998 }
-  succession_rule: null
+  # Designated within the family, and twice overtaken: Kafur was regent for
+  # two of Ibn Tughj's sons and then ruled in his own name, with the khutba
+  # pronounced for a purchased slave rather than for the house.
+  succession_rule: { values: [nomination], source: petry-1998 }
   legitimation: { values: [caliphal-investiture], source: petry-1998 }
+
+turning_points:
+  - year: 936
+    type: battle
+    name: "The third Fatimid attempt fails"
+    changed: >-
+      A Fatimid army came east for the third time in twenty-two years and was
+      beaten in the delta by the officer Baghdad had just granted the province
+      to. It bought thirty years, during which the Friday sermon at Mecca and
+      Medina was pronounced for the Abbasid caliph because an Egyptian governor
+      kept the road open and fed the holy cities.
+    source: petry-1998
+    contested: false
+  - year: 969
+    type: treaty
+    name: "The terms at Fustat"
+    changed: >-
+      After a low Nile, a famine and a divided court, the Fatimid general came
+      east with grain and the Egyptian notables and jurists negotiated a
+      written surrender: persons and property safe, the Sunni legal schools and
+      their judges maintained, no forced conversion, endowments respected. The
+      terms held in substance for two centuries, and the Hijaz went with Egypt
+      inside a year.
+    source: brett-2017
+    contested: false
 
 measures:
   # No cited km2 for this polity in the works consulted; Taagepera does not

@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1657 claims across 89 sources.**
+**1662 claims across 89 sources.**
 
 ## Where to start
 
@@ -522,12 +522,13 @@ ordinary state, not an item to clear.
 
 ## Carl F. Petry (ed.), The Cambridge History of Egypt, Volume 1: Islamic Egypt 640-1517
 
-`petry-1998` — 50 claims
+`petry-1998` — 53 claims
 
 **Sole source** for `mamluk-sultanate`, `tulunid` — nothing else in the corpus can contradict a misreading here.
 
 - [ ] `chapter/ikhshidid/01-holding-on.mdx` — prose: "Holding the Hijaz"
-- [ ] `chapter/ikhshidid/02-kafur.mdx` — prose: "Kafur"
+- [ ] `chapter/ikhshidid/02-three-attempts.mdx` — prose: "Three attempts, and the sermon at Mecca"
+- [ ] `chapter/ikhshidid/03-kafur.mdx` — prose: "Kafur"
 - [ ] `chapter/mamluk-sultanate/01-ayn-jalut.mdx` — prose: "Ayn Jalut"
 - [ ] `chapter/mamluk-sultanate/02-a-state-of-slaves.mdx` — prose: "A state that would not become a dynasty"
 - [ ] `chapter/tulunid/01-ibn-tulun.mdx` — prose: "The governor who stopped remitting"
@@ -552,7 +553,9 @@ ordinary state, not an item to clear.
 - [ ] `polity/ikhshidid` — last Abu al-Fawaris Ahmad r. 968-969
 - [ ] `polity/ikhshidid` — military basis coded slave-soldier
 - [ ] `polity/ikhshidid` — revenue basis coded land-tax
+- [ ] `polity/ikhshidid` — succession rule coded nomination
 - [ ] `polity/ikhshidid` — legitimation coded caliphal-investiture
+- [ ] `polity/ikhshidid` — turning point 936 The third Fatimid attempt fails
 - [ ] `polity/mamluk-sultanate` — span starts 1250
 - [ ] `polity/mamluk-sultanate` — span ends 1517
 - [ ] `polity/mamluk-sultanate` — capital Cairo from 1250
@@ -1291,6 +1294,31 @@ ordinary state, not an item to clear.
 - [ ] `polity/trebizond` — last David Megas Komnenos r. 1459-1461
 - [ ] `polity/trebizond` — ended by conquest in 1461
 
+## Michael Brett, The Fatimid Empire
+
+`brett-2017` — 20 claims
+
+- [ ] `chapter/fatimid/02-cairo.mdx` — prose: "Cairo"
+- [ ] `chapter/fatimid/05-the-shidda.mdx` — prose: "The years the Nile did not come"
+- [ ] `chapter/fatimid/06-jerusalem-1099.mdx` — prose: "Losing the coast"
+- [ ] `chapter/fatimid/07-decline.mdx` — prose: "The viziers, and Saladin"
+- [ ] `chapter/ikhshidid/04-969.mdx` — prose: "A negotiated surrender"
+- [ ] `edge/ikhshidid->fatimid` — conquered by in 969
+- [ ] `polity/fatimid` — span ends 1171
+- [ ] `polity/fatimid` — capital Cairo from 973
+- [ ] `polity/fatimid` — peak al-Mustansir r. 1036-1094
+- [ ] `polity/fatimid` — last al-Adid r. 1160-1171
+- [ ] `polity/fatimid` — military basis coded tribal-levy + slave-soldier
+- [ ] `polity/fatimid` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/fatimid` — turning point 969 The founding of Cairo
+- [ ] `polity/fatimid` — turning point 1065 The shidda
+- [ ] `polity/fatimid` — turning point 1074 Badr al-Jamali's vizierate
+- [ ] `polity/fatimid` — turning point 1094 The Nizari schism
+- [ ] `polity/fatimid` — turning point 1099 The loss of Jerusalem
+- [ ] `polity/fatimid` — religions_carried = 1 (Isma'ili Shi'ism)
+- [ ] `polity/ikhshidid` — turning point 969 The terms at Fustat
+- [ ] `polity/ikhshidid` — ended by conquest in 969
+
 ## Michal Biran, The Empire of the Qara Khitai in Eurasian History: Between China and the Islamic World
 *In Cambridge Studies in Islamic Civilization.*
 
@@ -1393,29 +1421,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/ghurid` — turning point 1206 Mu'izz al-Din assassinated with no son
 - [ ] `polity/ghurid` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/ghurid` — successor_claims = 1 (Delhi Sultanate)
-
-## Michael Brett, The Fatimid Empire
-
-`brett-2017` — 18 claims
-
-- [ ] `chapter/fatimid/02-cairo.mdx` — prose: "Cairo"
-- [ ] `chapter/fatimid/05-the-shidda.mdx` — prose: "The years the Nile did not come"
-- [ ] `chapter/fatimid/06-jerusalem-1099.mdx` — prose: "Losing the coast"
-- [ ] `chapter/fatimid/07-decline.mdx` — prose: "The viziers, and Saladin"
-- [ ] `edge/ikhshidid->fatimid` — conquered by in 969
-- [ ] `polity/fatimid` — span ends 1171
-- [ ] `polity/fatimid` — capital Cairo from 973
-- [ ] `polity/fatimid` — peak al-Mustansir r. 1036-1094
-- [ ] `polity/fatimid` — last al-Adid r. 1160-1171
-- [ ] `polity/fatimid` — military basis coded tribal-levy + slave-soldier
-- [ ] `polity/fatimid` — revenue basis coded land-tax + trade-toll
-- [ ] `polity/fatimid` — turning point 969 The founding of Cairo
-- [ ] `polity/fatimid` — turning point 1065 The shidda
-- [ ] `polity/fatimid` — turning point 1074 Badr al-Jamali's vizierate
-- [ ] `polity/fatimid` — turning point 1094 The Nizari schism
-- [ ] `polity/fatimid` — turning point 1099 The loss of Jerusalem
-- [ ] `polity/fatimid` — religions_carried = 1 (Isma'ili Shi'ism)
-- [ ] `polity/ikhshidid` — ended by conquest in 969
 
 ## C. E. Bosworth, The History of the Saffarids of Sistan and the Maliks of Nimruz (247/861 to 949/1542-3)
 
