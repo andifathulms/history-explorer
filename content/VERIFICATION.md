@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1213 claims across 86 sources.**
+**1227 claims across 86 sources.**
 
 ## Where to start
 
@@ -143,6 +143,66 @@ ordinary state, not an item to clear.
 - [ ] `reference/uyghur-khaganate` — reach 3,100,000 km2 at 800
 - [ ] `reference/yuan` — reach 11,000,000 km2 at 1310
 
+## C. E. Bosworth, The New Islamic Dynasties: A Chronological and Genealogical Manual
+
+`bosworth-1996` — 55 claims
+
+- [ ] `chapter/samanid/01-four-brothers.mdx` — prose: "Four brothers and a governorship"
+- [ ] `edge/tahirid->samanid` — vassal of in 819
+- [ ] `edge/ziyarid->nizari` — conquered by in 1090
+- [ ] `polity/abbasid` — span starts 750
+- [ ] `polity/abbasid` — span ends 1258
+- [ ] `polity/abbasid` — founder al-Saffah r. 750-754
+- [ ] `polity/abbasid` — peak Harun al-Rashid r. 786-809
+- [ ] `polity/abbasid` — last al-Musta'sim r. 1242-1258
+- [ ] `polity/abbasid` — ended by conquest in 1258
+- [ ] `polity/buyid` — span starts 934
+- [ ] `polity/buyid` — span ends 1055
+- [ ] `polity/buyid` — founder Ali ibn Buya, Imad al-Dawla r. 934-949
+- [ ] `polity/buyid` — peak Adud al-Dawla r. 949-983
+- [ ] `polity/buyid` — last Abu Nasr al-Malik al-Rahim r. 1048-1055
+- [ ] `polity/ghaznavid` — span start upper bound 977
+- [ ] `polity/ghaznavid` — founder Sebuktigin r. 977-997
+- [ ] `polity/ghurid` — span start upper bound 1011
+- [ ] `polity/ghurid` — capital Ghazna from 1173
+- [ ] `polity/ghurid` — founder Izz al-Din Husayn r. 1100-1146
+- [ ] `polity/great-seljuk` — span starts 1037
+- [ ] `polity/great-seljuk` — founder Tughril I r. 1037-1063
+- [ ] `polity/great-seljuk` — last Tughril III r. 1176-1194
+- [ ] `polity/khwarazmian` — span start upper bound 1097
+- [ ] `polity/khwarazmian` — span ends 1220
+- [ ] `polity/khwarazmian` — capital Samarkand from 1212
+- [ ] `polity/khwarazmian` — founder Anushtigin Gharchai r. 1077-1097
+- [ ] `polity/khwarazmian` — peak Ala al-Din Muhammad II r. 1200-1220
+- [ ] `polity/mamunid` — span starts 995
+- [ ] `polity/mamunid` — span ends 1017
+- [ ] `polity/mamunid` — capital Gurganj from 995
+- [ ] `polity/mamunid` — founder Ma'mun I ibn Muhammad
+- [ ] `polity/mamunid` — peak Ma'mun II ibn Ma'mun r. 1009-1017
+- [ ] `polity/mamunid` — last Abu'l-Harith Muhammad r. 1017-1017
+- [ ] `polity/mamunid` — legitimation coded titulature
+- [ ] `polity/samanid` — span starts 819
+- [ ] `polity/samanid` — span ends 999
+- [ ] `polity/samanid` — founder Isma'il I ibn Ahmad r. 892-907
+- [ ] `polity/samanid` — peak Nasr II ibn Ahmad r. 914-943
+- [ ] `polity/samanid` — last Isma'il II al-Muntasir r. 1000-1005
+- [ ] `polity/tahirid` — span starts 821
+- [ ] `polity/tahirid` — span ends 873
+- [ ] `polity/tahirid` — founder Tahir I ibn al-Husayn r. 821-822
+- [ ] `polity/tahirid` — peak Abdallah ibn Tahir r. 828-845
+- [ ] `polity/tahirid` — last Muhammad ibn Tahir r. 862-873
+- [ ] `polity/zaydi-yemen` — span starts 897
+- [ ] `polity/zaydi-yemen` — capital Sa'da from 897
+- [ ] `polity/zaydi-yemen` — founder al-Hadi ila'l-Haqq Yahya r. 897-911
+- [ ] `polity/ziyarid` — span starts 931
+- [ ] `polity/ziyarid` — span ends 1090
+- [ ] `polity/ziyarid` — capital Gurgan
+- [ ] `polity/ziyarid` — capital Amul
+- [ ] `polity/ziyarid` — founder Mardavij ibn Ziyar r. 931-935
+- [ ] `polity/ziyarid` — peak Qabus ibn Vushmgir
+- [ ] `polity/ziyarid` — last Gilanshah
+- [ ] `polity/ziyarid` — ended by conquest in 1090
+
 ## Jamil M. Abun-Nasr, A History of the Maghrib in the Islamic Period
 
 `abun-nasr-1987` — 49 claims
@@ -254,59 +314,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/sulayhid` — turning point 1094 Choosing between Cairo's claimants
 - [ ] `polity/sulayhid` — religions_carried = 1 (Tayyibi Isma'ilism)
 - [ ] `polity/sulayhid` — ended by fragmentation in 1138
-
-## C. E. Bosworth, The New Islamic Dynasties: A Chronological and Genealogical Manual
-
-`bosworth-1996` — 48 claims
-
-- [ ] `chapter/samanid/01-four-brothers.mdx` — prose: "Four brothers and a governorship"
-- [ ] `edge/tahirid->samanid` — vassal of in 819
-- [ ] `edge/ziyarid->nizari` — conquered by in 1090
-- [ ] `polity/abbasid` — span starts 750
-- [ ] `polity/abbasid` — span ends 1258
-- [ ] `polity/abbasid` — founder al-Saffah r. 750-754
-- [ ] `polity/abbasid` — peak Harun al-Rashid r. 786-809
-- [ ] `polity/abbasid` — last al-Musta'sim r. 1242-1258
-- [ ] `polity/abbasid` — ended by conquest in 1258
-- [ ] `polity/buyid` — span starts 934
-- [ ] `polity/buyid` — span ends 1055
-- [ ] `polity/buyid` — founder Ali ibn Buya, Imad al-Dawla r. 934-949
-- [ ] `polity/buyid` — peak Adud al-Dawla r. 949-983
-- [ ] `polity/buyid` — last Abu Nasr al-Malik al-Rahim r. 1048-1055
-- [ ] `polity/ghaznavid` — span start upper bound 977
-- [ ] `polity/ghaznavid` — founder Sebuktigin r. 977-997
-- [ ] `polity/ghurid` — span start upper bound 1011
-- [ ] `polity/ghurid` — capital Ghazna from 1173
-- [ ] `polity/ghurid` — founder Izz al-Din Husayn r. 1100-1146
-- [ ] `polity/great-seljuk` — span starts 1037
-- [ ] `polity/great-seljuk` — founder Tughril I r. 1037-1063
-- [ ] `polity/great-seljuk` — last Tughril III r. 1176-1194
-- [ ] `polity/khwarazmian` — span start upper bound 1097
-- [ ] `polity/khwarazmian` — span ends 1220
-- [ ] `polity/khwarazmian` — capital Samarkand from 1212
-- [ ] `polity/khwarazmian` — founder Anushtigin Gharchai r. 1077-1097
-- [ ] `polity/khwarazmian` — peak Ala al-Din Muhammad II r. 1200-1220
-- [ ] `polity/samanid` — span starts 819
-- [ ] `polity/samanid` — span ends 999
-- [ ] `polity/samanid` — founder Isma'il I ibn Ahmad r. 892-907
-- [ ] `polity/samanid` — peak Nasr II ibn Ahmad r. 914-943
-- [ ] `polity/samanid` — last Isma'il II al-Muntasir r. 1000-1005
-- [ ] `polity/tahirid` — span starts 821
-- [ ] `polity/tahirid` — span ends 873
-- [ ] `polity/tahirid` — founder Tahir I ibn al-Husayn r. 821-822
-- [ ] `polity/tahirid` — peak Abdallah ibn Tahir r. 828-845
-- [ ] `polity/tahirid` — last Muhammad ibn Tahir r. 862-873
-- [ ] `polity/zaydi-yemen` — span starts 897
-- [ ] `polity/zaydi-yemen` — capital Sa'da from 897
-- [ ] `polity/zaydi-yemen` — founder al-Hadi ila'l-Haqq Yahya r. 897-911
-- [ ] `polity/ziyarid` — span starts 931
-- [ ] `polity/ziyarid` — span ends 1090
-- [ ] `polity/ziyarid` — capital Gurgan
-- [ ] `polity/ziyarid` — capital Amul
-- [ ] `polity/ziyarid` — founder Mardavij ibn Ziyar r. 931-935
-- [ ] `polity/ziyarid` — peak Qabus ibn Vushmgir
-- [ ] `polity/ziyarid` — last Gilanshah
-- [ ] `polity/ziyarid` — ended by conquest in 1090
 
 ## Carl F. Petry (ed.), The Cambridge History of Egypt, Volume 1: Islamic Egypt 640-1517
 
@@ -642,6 +649,35 @@ ordinary state, not an item to clear.
 - [ ] `polity/neo-assyrian` — last Ashur-uballit II r. -612--609
 - [ ] `polity/neo-assyrian` — ended by conquest in -609
 
+## R. N. Frye (ed.), The Cambridge History of Iran, Volume 4: From the Arab Invasion to the Saljuqs
+
+`chi-4` — 24 claims
+
+- [ ] `chapter/buyid/01-down-from-daylam.mdx` — prose: "Down from Daylam"
+- [ ] `chapter/buyid/02-paying-an-army-with-land.mdx` — prose: "Paying an army with land"
+- [ ] `chapter/mamunid/01-the-court-at-gurganj.mdx` — prose: "The best court in the east, for about fifteen years"
+- [ ] `chapter/samanid/04-the-trade-in-men.mdx` — prose: "The trade the whole system ran on"
+- [ ] `chapter/samanid/06-943.mdx` — prose: "The year the army chose the amir"
+- [ ] `chapter/tahirid/03-the-other-half.mdx` — prose: "The family that also policed Baghdad"
+- [ ] `chapter/ziyarid/01-the-man-who-wanted-the-crown-back.mdx` — prose: "The man who wanted the crown back"
+- [ ] `chapter/ziyarid/02-a-client-among-clients.mdx` — prose: "A client among clients"
+- [ ] `chapter/ziyarid/03-a-tower-and-a-book.mdx` — prose: "A tower and a book"
+- [ ] `edge/ziyarid->buyid` — seceded from in 934
+- [ ] `polity/buyid` — military basis coded mercenary + land-grant
+- [ ] `polity/buyid` — revenue basis coded land-tax
+- [ ] `polity/buyid` — succession rule coded appanage
+- [ ] `polity/mamunid` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/samanid` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/samanid` — succession rule coded nomination
+- [ ] `polity/samanid` — turning point 943 The deposition of Nasr II (contested)
+- [ ] `polity/tahirid` — military basis coded standing-professional
+- [ ] `polity/tahirid` — revenue basis coded land-tax
+- [ ] `polity/tahirid` — turning point 865 Baghdad besieged, and a caliph traded
+- [ ] `polity/ziyarid` — military basis coded tribal-levy + slave-soldier
+- [ ] `polity/ziyarid` — legitimation coded titulature
+- [ ] `polity/ziyarid` — turning point 935 Mardavij killed in his bath
+- [ ] `polity/ziyarid` — turning point 1012 The army deposes Qabus
+
 ## Kenneth R. Hall, A History of Early Southeast Asia: Maritime Trade and Societal Development, 100-1500
 
 `hall-2011` — 23 claims
@@ -672,33 +708,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/srivijaya` — religions_carried = 1 (Mahayana Buddhism)
 - [ ] `polity/srivijaya` — ended by gradual absorption in 1275
 
-## R. N. Frye (ed.), The Cambridge History of Iran, Volume 4: From the Arab Invasion to the Saljuqs
-
-`chi-4` — 22 claims
-
-- [ ] `chapter/buyid/01-down-from-daylam.mdx` — prose: "Down from Daylam"
-- [ ] `chapter/buyid/02-paying-an-army-with-land.mdx` — prose: "Paying an army with land"
-- [ ] `chapter/samanid/04-the-trade-in-men.mdx` — prose: "The trade the whole system ran on"
-- [ ] `chapter/samanid/06-943.mdx` — prose: "The year the army chose the amir"
-- [ ] `chapter/tahirid/03-the-other-half.mdx` — prose: "The family that also policed Baghdad"
-- [ ] `chapter/ziyarid/01-the-man-who-wanted-the-crown-back.mdx` — prose: "The man who wanted the crown back"
-- [ ] `chapter/ziyarid/02-a-client-among-clients.mdx` — prose: "A client among clients"
-- [ ] `chapter/ziyarid/03-a-tower-and-a-book.mdx` — prose: "A tower and a book"
-- [ ] `edge/ziyarid->buyid` — seceded from in 934
-- [ ] `polity/buyid` — military basis coded mercenary + land-grant
-- [ ] `polity/buyid` — revenue basis coded land-tax
-- [ ] `polity/buyid` — succession rule coded appanage
-- [ ] `polity/samanid` — revenue basis coded land-tax + trade-toll
-- [ ] `polity/samanid` — succession rule coded nomination
-- [ ] `polity/samanid` — turning point 943 The deposition of Nasr II (contested)
-- [ ] `polity/tahirid` — military basis coded standing-professional
-- [ ] `polity/tahirid` — revenue basis coded land-tax
-- [ ] `polity/tahirid` — turning point 865 Baghdad besieged, and a caliph traded
-- [ ] `polity/ziyarid` — military basis coded tribal-levy + slave-soldier
-- [ ] `polity/ziyarid` — legitimation coded titulature
-- [ ] `polity/ziyarid` — turning point 935 Mardavij killed in his bath
-- [ ] `polity/ziyarid` — turning point 1012 The army deposes Qabus
-
 ## Amira K. Bennison, The Almoravid and Almohad Empires
 
 `bennison-2016` — 21 claims
@@ -726,6 +735,32 @@ ordinary state, not an item to clear.
 - [ ] `polity/almoravid` — last Ishaq ibn Ali r. 1146-1147
 - [ ] `polity/almoravid` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/almoravid` — ended by conquest in 1147
+
+## C. E. Bosworth, The Ghaznavids: Their Empire in Afghanistan and Eastern Iran, 994-1040
+
+`bosworth-1963` — 21 claims
+
+- [ ] `chapter/ghaznavid/01-alptigin-goes-east.mdx` — prose: "Alptigin goes east"
+- [ ] `chapter/ghaznavid/02-mahmud.mdx` — prose: "Mahmud, and the uses of a caliph"
+- [ ] `chapter/ghaznavid/05-the-book-about-india.mdx` — prose: "The book about India"
+- [ ] `chapter/mamunid/02-one-sentence-in-the-friday-sermon.mdx` — prose: "One sentence in the Friday sermon"
+- [ ] `chapter/samanid/07-the-slave-guard.mdx` — prose: "The instrument that walked away"
+- [ ] `edge/mamunid->ghaznavid` — conquered by in 1017
+- [ ] `edge/samanid->ghaznavid` — slave-general of in 962
+- [ ] `edge/samanid->ghaznavid` — claimed legitimacy of in 999
+- [ ] `polity/ghaznavid` — span starts 962
+- [ ] `polity/ghaznavid` — peak Mahmud of Ghazna r. 998-1030
+- [ ] `polity/ghaznavid` — military basis coded slave-soldier
+- [ ] `polity/ghaznavid` — revenue basis coded plunder + land-tax
+- [ ] `polity/ghaznavid` — succession rule coded nomination
+- [ ] `polity/ghaznavid` — legitimation coded caliphal-investiture
+- [ ] `polity/ghaznavid` — turning point 999 The Oxus agreed as a frontier
+- [ ] `polity/ghaznavid` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/mamunid` — military basis coded slave-soldier
+- [ ] `polity/mamunid` — turning point 1014 The name in the khutba
+- [ ] `polity/mamunid` — ended by conquest in 1017
+- [ ] `polity/samanid` — military basis coded slave-soldier
+- [ ] `polity/samanid` — successor_claims = 1 (ghaznavid)
 
 ## Ehsan Yarshater (ed.), The Cambridge History of Iran, Volume 3: The Seleucid, Parthian and Sasanian Periods
 
@@ -920,27 +955,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/abbasid-cairo` — turning point 1261 Baybars installs a caliph
 - [ ] `polity/abbasid-cairo` — turning point 1412 The caliph who was also sultan
 - [ ] `polity/abbasid-cairo` — ended by conquest in 1517
-
-## C. E. Bosworth, The Ghaznavids: Their Empire in Afghanistan and Eastern Iran, 994-1040
-
-`bosworth-1963` — 16 claims
-
-- [ ] `chapter/ghaznavid/01-alptigin-goes-east.mdx` — prose: "Alptigin goes east"
-- [ ] `chapter/ghaznavid/02-mahmud.mdx` — prose: "Mahmud, and the uses of a caliph"
-- [ ] `chapter/ghaznavid/05-the-book-about-india.mdx` — prose: "The book about India"
-- [ ] `chapter/samanid/07-the-slave-guard.mdx` — prose: "The instrument that walked away"
-- [ ] `edge/samanid->ghaznavid` — slave-general of in 962
-- [ ] `edge/samanid->ghaznavid` — claimed legitimacy of in 999
-- [ ] `polity/ghaznavid` — span starts 962
-- [ ] `polity/ghaznavid` — peak Mahmud of Ghazna r. 998-1030
-- [ ] `polity/ghaznavid` — military basis coded slave-soldier
-- [ ] `polity/ghaznavid` — revenue basis coded plunder + land-tax
-- [ ] `polity/ghaznavid` — succession rule coded nomination
-- [ ] `polity/ghaznavid` — legitimation coded caliphal-investiture
-- [ ] `polity/ghaznavid` — turning point 999 The Oxus agreed as a frontier
-- [ ] `polity/ghaznavid` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/samanid` — military basis coded slave-soldier
-- [ ] `polity/samanid` — successor_claims = 1 (ghaznavid)
 
 ## John C. Wilkinson, The Imamate Tradition of Oman
 *In Cambridge Middle East Library.*

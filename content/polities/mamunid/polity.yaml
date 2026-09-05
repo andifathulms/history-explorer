@@ -1,0 +1,72 @@
+id: mamunid
+region: iranian-intermezzo
+
+name:
+  latin: Ma'munid Khwarazmshahs
+  script: مأمونیان
+  script_lang: fa
+
+span:
+  start: { min: 995, max: 995, source: bosworth-1996 }
+  end: { min: 1017, max: 1017, source: bosworth-1996 }
+
+identity: >-
+  Twenty-two years at Gurganj: a small delta state that assembled the best
+  scientific court in the eastern Islamic world and lost it, and its
+  independence, to one demand about the Friday sermon.
+
+capitals:
+  - { name: Gurganj, script: گرگانج, from: 995, source: bosworth-1996 }
+
+core_region: Khwarazm, the lower Oxus delta
+
+rulers:
+  founder: { name: Ma'mun I ibn Muhammad, source: bosworth-1996 }
+  peak: { name: Ma'mun II ibn Ma'mun, reign: [1009, 1017], source: bosworth-1996 }
+  last: { name: Abu'l-Harith Muhammad, reign: [1017, 1017], source: bosworth-1996 }
+
+scripts_and_languages:
+  administration: [Persian, Arabic]
+  writing_system: Perso-Arabic
+
+ended:
+  type: conquest
+  by: [ghaznavid]
+  year: 1017
+  source: bosworth-1963
+
+institutions:
+  military_basis: { values: [slave-soldier], source: bosworth-1963 }
+  # Khwarazm is an irrigated delta and was wealthy in proportion to its size,
+  # and it sat on the route by which northern furs, amber and slaves reached
+  # the Islamic world — the same trade this site's Samanid page describes from
+  # the other end.
+  revenue_basis: { values: [land-tax, trade-toll], source: chi-4 }
+  succession_rule: null
+  # The old Khwarazmian royal title, taken over from the dynasty they
+  # displaced. Shah of Khwarazm predates Islam by centuries and the Ma'munids
+  # assumed it as the ground of their own authority, which is what the coding
+  # rules mean by titulature.
+  legitimation: { values: [titulature], source: bosworth-1996 }
+
+turning_points:
+  - year: 1014
+    type: treaty
+    name: "The name in the khutba"
+    changed: >-
+      Mahmud of Ghazna required that his name be pronounced in the Friday
+      sermon at Gurganj, which is the formal act by which one polity states it
+      holds under another. Ma'mun II, who was married to Mahmud's sister,
+      temporised; his commanders and notables refused outright, and killed him
+      for having considered it. The demand cost the dynasty its ruler and then
+      its existence within three years.
+    source: bosworth-1963
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

@@ -990,3 +990,14 @@ edges:
            same Caspian country the dynasty had come out of."
     source: bosworth-1996
     contested: false
+
+  - from: mamunid
+    to: ghaznavid
+    type: conquered by
+    year: 1017
+    note: "Mahmud required his name in the Friday sermon at Gurganj; when
+           Ma'mun II's own commanders killed him for considering it, Mahmud
+           took the murder of his brother-in-law as the pretext, annexed the
+           delta and carried its scholars to Ghazna."
+    source: bosworth-1963
+    contested: false
