@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1035 claims across 80 sources.**
+**1051 claims across 80 sources.**
 
 ## Where to start
 
@@ -142,6 +142,62 @@ ordinary state, not an item to clear.
 - [ ] `reference/umayyad` — reach 11,100,000 km2 at 720
 - [ ] `reference/uyghur-khaganate` — reach 3,100,000 km2 at 800
 - [ ] `reference/yuan` — reach 11,000,000 km2 at 1310
+
+## Jamil M. Abun-Nasr, A History of the Maghrib in the Islamic Period
+
+`abun-nasr-1987` — 49 claims
+
+**Sole source** for `hafsid`, `idrisid` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/aghlabid/01-a-province-for-rent.mdx` — prose: "A province, for tribute"
+- [ ] `chapter/aghlabid/02-sicily.mdx` — prose: "Seventy-five years for one island"
+- [ ] `chapter/hafsid/01-the-governor-who-stayed.mdx` — prose: "Keeping the province when the doctrine went"
+- [ ] `chapter/hafsid/02-a-caliph-in-tunis.mdx` — prose: "A caliph in Tunis, for about a year"
+- [ ] `chapter/hafsid/03-a-prize-in-someone-elses-war.mdx` — prose: "A prize in somebody else's war"
+- [ ] `chapter/idrisid/01-fez.mdx` — prose: "A fugitive founds a city"
+- [ ] `chapter/idrisid/02-descent-as-a-claim.mdx` — prose: "Descent, used as a claim"
+- [ ] `chapter/rustamid/01-tahert.mdx` — prose: "An elected imamate"
+- [ ] `chapter/rustamid/02-the-trade.mdx` — prose: "Doctrine along the caravan routes"
+- [ ] `chapter/umayyad/07-the-berber-revolt.mdx` — prose: "Where it broke first"
+- [ ] `edge/abbasid->aghlabid` — vassal of in 800
+- [ ] `edge/almohad->hafsid` — seceded from in 1229
+- [ ] `edge/hafsid->ottoman` — conquered by in 1574
+- [ ] `polity/aghlabid` — span starts 800
+- [ ] `polity/aghlabid` — span ends 909
+- [ ] `polity/aghlabid` — capital Kairouan from 800
+- [ ] `polity/aghlabid` — founder Ibrahim I ibn al-Aghlab r. 800-812
+- [ ] `polity/aghlabid` — peak Ziyadat Allah I r. 817-838
+- [ ] `polity/aghlabid` — last Ziyadat Allah III r. 903-909
+- [ ] `polity/aghlabid` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/hafsid` — span starts 1229
+- [ ] `polity/hafsid` — span ends 1574
+- [ ] `polity/hafsid` — capital Tunis from 1229
+- [ ] `polity/hafsid` — founder Abu Zakariya Yahya r. 1229-1249
+- [ ] `polity/hafsid` — peak al-Mustansir r. 1249-1277
+- [ ] `polity/hafsid` — military basis coded tribal-levy + mercenary
+- [ ] `polity/hafsid` — revenue basis coded trade-toll + plunder
+- [ ] `polity/hafsid` — legitimation coded descent + titulature
+- [ ] `polity/hafsid` — turning point 1259 The sharif of Mecca acknowledges a caliph in Tunis
+- [ ] `polity/hafsid` — turning point 1535 Charles V takes Tunis
+- [ ] `polity/hafsid` — ended by conquest in 1574
+- [ ] `polity/idrisid` — span starts 788
+- [ ] `polity/idrisid` — span ends 974
+- [ ] `polity/idrisid` — capital Fez from 788
+- [ ] `polity/idrisid` — founder Idris I r. 788-791
+- [ ] `polity/idrisid` — peak Idris II r. 803-828
+- [ ] `polity/idrisid` — last al-Hasan al-Hajjam r. 970-974
+- [ ] `polity/idrisid` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/idrisid` — ended by gradual absorption in 974
+- [ ] `polity/rustamid` — span starts 776
+- [ ] `polity/rustamid` — span ends 909
+- [ ] `polity/rustamid` — capital Tahert from 776
+- [ ] `polity/rustamid` — founder Abd al-Rahman ibn Rustam r. 776-788
+- [ ] `polity/rustamid` — peak Aflah ibn Abd al-Wahhab r. 823-872
+- [ ] `polity/rustamid` — last Yaqzan ibn Muhammad r. 894-909
+- [ ] `polity/rustamid` — revenue basis coded trade-toll
+- [ ] `polity/rustamid` — succession rule coded election
+- [ ] `polity/rustamid` — legitimation coded election
+- [ ] `polity/umayyad` — turning point 740 The Berber revolt
 
 ## Carl F. Petry (ed.), The Cambridge History of Egypt, Volume 1: Islamic Egypt 640-1517
 
@@ -309,46 +365,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/zubayrid` — turning point 683 The first siege of Mecca
 - [ ] `polity/zubayrid` — turning point 691 Maskin
 - [ ] `polity/zubayrid` — ended by conquest in 692
-
-## Jamil M. Abun-Nasr, A History of the Maghrib in the Islamic Period
-
-`abun-nasr-1987` — 33 claims
-
-**Sole source** for `idrisid` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/aghlabid/01-a-province-for-rent.mdx` — prose: "A province, for tribute"
-- [ ] `chapter/aghlabid/02-sicily.mdx` — prose: "Seventy-five years for one island"
-- [ ] `chapter/idrisid/01-fez.mdx` — prose: "A fugitive founds a city"
-- [ ] `chapter/idrisid/02-descent-as-a-claim.mdx` — prose: "Descent, used as a claim"
-- [ ] `chapter/rustamid/01-tahert.mdx` — prose: "An elected imamate"
-- [ ] `chapter/rustamid/02-the-trade.mdx` — prose: "Doctrine along the caravan routes"
-- [ ] `chapter/umayyad/07-the-berber-revolt.mdx` — prose: "Where it broke first"
-- [ ] `edge/abbasid->aghlabid` — vassal of in 800
-- [ ] `polity/aghlabid` — span starts 800
-- [ ] `polity/aghlabid` — span ends 909
-- [ ] `polity/aghlabid` — capital Kairouan from 800
-- [ ] `polity/aghlabid` — founder Ibrahim I ibn al-Aghlab r. 800-812
-- [ ] `polity/aghlabid` — peak Ziyadat Allah I r. 817-838
-- [ ] `polity/aghlabid` — last Ziyadat Allah III r. 903-909
-- [ ] `polity/aghlabid` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/idrisid` — span starts 788
-- [ ] `polity/idrisid` — span ends 974
-- [ ] `polity/idrisid` — capital Fez from 788
-- [ ] `polity/idrisid` — founder Idris I r. 788-791
-- [ ] `polity/idrisid` — peak Idris II r. 803-828
-- [ ] `polity/idrisid` — last al-Hasan al-Hajjam r. 970-974
-- [ ] `polity/idrisid` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/idrisid` — ended by gradual absorption in 974
-- [ ] `polity/rustamid` — span starts 776
-- [ ] `polity/rustamid` — span ends 909
-- [ ] `polity/rustamid` — capital Tahert from 776
-- [ ] `polity/rustamid` — founder Abd al-Rahman ibn Rustam r. 776-788
-- [ ] `polity/rustamid` — peak Aflah ibn Abd al-Wahhab r. 823-872
-- [ ] `polity/rustamid` — last Yaqzan ibn Muhammad r. 894-909
-- [ ] `polity/rustamid` — revenue basis coded trade-toll
-- [ ] `polity/rustamid` — succession rule coded election
-- [ ] `polity/rustamid` — legitimation coded election
-- [ ] `polity/umayyad` — turning point 740 The Berber revolt
 
 ## Peter B. Golden, An Introduction to the History of the Turkic Peoples
 

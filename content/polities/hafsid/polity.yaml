@@ -1,0 +1,85 @@
+id: hafsid
+region: islamic-west
+
+name:
+  latin: Hafsid Sultanate
+  script: الحفصيون
+  script_lang: ar
+
+span:
+  start: { min: 1229, max: 1229, source: abun-nasr-1987 }
+  end: { min: 1574, max: 1574, source: abun-nasr-1987 }
+
+identity: >-
+  The Almohad governors of Ifriqiya who kept the province when the doctrine
+  behind the empire was disowned, ruled Tunis for three and a half centuries,
+  and were briefly acknowledged as caliphs when there was no caliph anywhere.
+
+capitals:
+  - { name: Tunis, script: تونس, from: 1229, source: abun-nasr-1987 }
+
+core_region: Ifriqiya
+
+rulers:
+  founder: { name: Abu Zakariya Yahya, reign: [1229, 1249], source: abun-nasr-1987 }
+  peak: { name: al-Mustansir, reign: [1249, 1277], source: abun-nasr-1987 }
+  # The sources consulted for this polity differ on the numbering of the last
+  # Hafsid, and this site does not print the most-cited guess. Same rule as the
+  # Ghurid last sultan: the gap is rendered rather than filled.
+  last: null
+
+scripts_and_languages:
+  administration: [Arabic]
+  writing_system: Arabic
+
+ended:
+  type: conquest
+  by: [ottoman]
+  year: 1574
+  source: abun-nasr-1987
+
+institutions:
+  military_basis: { values: [tribal-levy, mercenary], source: abun-nasr-1987 }
+  # Tunis sat where the trans-Saharan caravan routes met the Mediterranean, and
+  # the state lived on both ends of that: treaty-regulated trade with the
+  # Italian cities and Aragon, and corsairing, which the sources treat as
+  # income rather than as incident.
+  revenue_basis: { values: [trade-toll, plunder], source: abun-nasr-1987 }
+  succession_rule: null
+  # Descent from Abu Hafs Umar, one of Ibn Tumart's inner circle, is the
+  # dynasty's name and its claim on the Almohad inheritance; the caliphal title
+  # is the larger assertion that 1259 briefly made real.
+  legitimation: { values: [descent, titulature], source: abun-nasr-1987 }
+
+turning_points:
+  - year: 1259
+    type: reform
+    name: "The sharif of Mecca acknowledges a caliph in Tunis"
+    changed: >-
+      A year after Hulegu killed the last Abbasid at Baghdad there was no
+      caliph anywhere, and the sharif of Mecca recognised the Hafsid ruler as
+      caliph. The recognition was temporary and never became general, but for a
+      moment the guardian of the holy cities located the office in Ifriqiya —
+      which is why a Maghribi sultanate belongs in an account of the caliphate
+      at all.
+    source: abun-nasr-1987
+    contested: false
+  - year: 1535
+    type: siege
+    name: "Charles V takes Tunis"
+    changed: >-
+      An Ottoman capture of the city the year before was reversed by a Spanish
+      expedition that restored the Hafsid ruler as a tributary, and the dynasty
+      stopped being a party to the Mediterranean contest and became a prize
+      inside it. Everything after this is Spain and the Ottomans using Tunis
+      against each other until one of them stopped bothering with a Hafsid.
+    source: abun-nasr-1987
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

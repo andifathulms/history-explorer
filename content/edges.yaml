@@ -887,3 +887,26 @@ edges:
            sanctuary."
     source: hawting-2000
     contested: false
+
+  # ---- Ifriqiya keeps the doctrine the capital dropped ----
+
+  - from: almohad
+    to: hafsid
+    type: seceded from
+    year: 1229
+    note: "When the Almohad caliph al-Ma'mun repudiated Ibn Tumart's mahdist
+           doctrine, the family governing Ifriqiya declined to follow him and
+           kept the province, arguing that the centre had left the movement
+           rather than the province leaving the centre."
+    source: abun-nasr-1987
+    contested: false
+
+  - from: hafsid
+    to: ottoman
+    type: conquered by
+    year: 1574
+    note: "The Ottomans took Tunis for the last time after four decades of
+           installing and deposing Hafsids against the Spanish, and carried the
+           final ruler to Constantinople."
+    source: abun-nasr-1987
+    contested: false
