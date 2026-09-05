@@ -1201,3 +1201,23 @@ edges:
            their own against it."
     source: abun-nasr-1987
     contested: false
+
+  - from: almohad
+    to: zayyanid
+    type: seceded from
+    year: 1235
+    note: "Yaghmurasan was the Almohad governor of Tlemcen and stopped being
+           one as the empire came apart, six years after the governor of Tunis
+           had done the same and nine before the Zenata began taking Morocco."
+    source: abun-nasr-1987
+    contested: false
+
+  - from: zayyanid
+    to: ottoman
+    type: conquered by
+    year: 1551
+    note: "The Ottomans took Tlemcen from the sea-based power they had built at
+           Algiers; the last Zayyanid fled to Spanish Oran, was baptised, and
+           died there as Carlos."
+    source: abun-nasr-1987
+    contested: false

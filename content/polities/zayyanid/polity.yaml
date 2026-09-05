@@ -1,0 +1,81 @@
+id: zayyanid
+region: islamic-west
+
+name:
+  latin: Zayyanid Kingdom of Tlemcen
+  script: الزيانيون
+  script_lang: ar
+
+# 1551 is the Ottoman capture of Tlemcen and 1556 the absorption of the
+# territory into the Regency of Algiers as a beylik; the dynasty ends at the
+# first and the kingdom at the second.
+span:
+  start: { min: 1235, max: 1235, source: abun-nasr-1987 }
+  end: { min: 1551, max: 1556, source: abun-nasr-1987 }
+
+identity: >-
+  The middle one: a Zenata kingdom on the trade crossroads of the central
+  Maghreb, besieged, occupied and restored by its larger neighbours for three
+  centuries, and rich the whole time.
+
+capitals:
+  - { name: Tlemcen, script: تلمسان, from: 1235, source: abun-nasr-1987 }
+
+core_region: The central Maghreb, between the Moulouya and the Chelif
+
+rulers:
+  founder: { name: Yaghmurasan ibn Zayyan, reign: [1235, 1283], source: abun-nasr-1987 }
+  peak: { name: Abu Hammu Musa II, reign: [1359, 1389], source: abun-nasr-1987 }
+  last: { name: Hasan ibn Abdallah, source: abun-nasr-1987 }
+
+scripts_and_languages:
+  administration: [Arabic]
+  writing_system: Arabic
+
+ended:
+  type: conquest
+  by: [ottoman]
+  year: 1551
+  source: abun-nasr-1987
+
+institutions:
+  military_basis: { values: [tribal-levy, mercenary], source: abun-nasr-1987 }
+  # The crossing point of two trade systems: the east-west road between
+  # Morocco and Ifriqiya, and the north-south route from the ports to the
+  # Sudan. The kingdom's entire strategic value to everyone else was that it
+  # sat on both, and its revenue was the customs.
+  revenue_basis: { values: [trade-toll, land-tax], source: abun-nasr-1987 }
+  succession_rule: { values: [nomination], source: abun-nasr-1987 }
+  legitimation: { values: [conquest], source: abun-nasr-1987 }
+
+turning_points:
+  - year: 1299
+    type: siege
+    name: "The eight-year siege"
+    changed: >-
+      The Marinids invested Tlemcen for eight years and, rather than assault
+      it, built a walled city outside the walls — al-Mansura, with its own
+      mosque, baths and palaces — to take over the trade the siege was
+      strangling. They withdrew in 1307 when their sultan was murdered, and the
+      Zayyanids came out and demolished it. It is the clearest statement in
+      this corpus of what a medieval siege was actually competing for.
+    source: abun-nasr-1987
+    contested: false
+  - year: 1337
+    type: siege
+    name: "Tlemcen taken"
+    changed: >-
+      Abu al-Hasan of Fez took the city and held it for eleven years, and took
+      it again in 1352 for another seven. The kingdom was extinguished twice
+      and restored twice by the collapse of the power that had extinguished it,
+      which is the pattern of its whole existence.
+    source: abun-nasr-1987
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

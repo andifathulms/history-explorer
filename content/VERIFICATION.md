@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1518 claims across 89 sources.**
+**1536 claims across 89 sources.**
 
 ## Where to start
 
@@ -197,9 +197,9 @@ ordinary state, not an item to clear.
 
 ## Jamil M. Abun-Nasr, A History of the Maghrib in the Islamic Period
 
-`abun-nasr-1987` — 86 claims
+`abun-nasr-1987` — 104 claims
 
-**Sole source** for `hafsid`, `idrisid`, `marinid` — nothing else in the corpus can contradict a misreading here.
+**Sole source** for `hafsid`, `idrisid`, `marinid`, `zayyanid` — nothing else in the corpus can contradict a misreading here.
 
 - [ ] `chapter/aghlabid/01-a-province-for-rent.mdx` — prose: "A province, for tribute"
 - [ ] `chapter/aghlabid/02-kairouan.mdx` — prose: "What a hundred years of tribute paid for"
@@ -220,10 +220,15 @@ ordinary state, not an item to clear.
 - [ ] `chapter/rustamid/03-the-trade.mdx` — prose: "Doctrine along the caravan routes"
 - [ ] `chapter/rustamid/04-into-the-desert.mdx` — prose: "Into the desert"
 - [ ] `chapter/umayyad/07-the-berber-revolt.mdx` — prose: "Where it broke first"
+- [ ] `chapter/zayyanid/01-the-crossroads.mdx` — prose: "The crossroads"
+- [ ] `chapter/zayyanid/02-a-city-built-to-take-a-city.mdx` — prose: "A city built to take a city"
+- [ ] `chapter/zayyanid/03-between-two-empires.mdx` — prose: "Between two empires, again"
 - [ ] `edge/abbasid->aghlabid` — vassal of in 800
 - [ ] `edge/almohad->hafsid` — seceded from in 1229
 - [ ] `edge/almohad->marinid` — overthrew in 1269
+- [ ] `edge/almohad->zayyanid` — seceded from in 1235
 - [ ] `edge/hafsid->ottoman` — conquered by in 1574
+- [ ] `edge/zayyanid->ottoman` — conquered by in 1551
 - [ ] `polity/aghlabid` — span starts 800
 - [ ] `polity/aghlabid` — span ends 909
 - [ ] `polity/aghlabid` — capital Kairouan from 800
@@ -287,6 +292,19 @@ ordinary state, not an item to clear.
 - [ ] `polity/rustamid` — legitimation coded election
 - [ ] `polity/rustamid` — turning point 784 The Nukkar refuse
 - [ ] `polity/umayyad` — turning point 740 The Berber revolt
+- [ ] `polity/zayyanid` — span starts 1235
+- [ ] `polity/zayyanid` — span ends 1551
+- [ ] `polity/zayyanid` — capital Tlemcen from 1235
+- [ ] `polity/zayyanid` — founder Yaghmurasan ibn Zayyan r. 1235-1283
+- [ ] `polity/zayyanid` — peak Abu Hammu Musa II r. 1359-1389
+- [ ] `polity/zayyanid` — last Hasan ibn Abdallah
+- [ ] `polity/zayyanid` — military basis coded tribal-levy + mercenary
+- [ ] `polity/zayyanid` — revenue basis coded trade-toll + land-tax
+- [ ] `polity/zayyanid` — succession rule coded nomination
+- [ ] `polity/zayyanid` — legitimation coded conquest
+- [ ] `polity/zayyanid` — turning point 1299 The eight-year siege
+- [ ] `polity/zayyanid` — turning point 1337 Tlemcen taken
+- [ ] `polity/zayyanid` — ended by conquest in 1551
 
 ## A. C. S. Peacock and Sara Nur Yildiz (eds), The Seljuks of Anatolia: Court and Society in the Medieval Middle East
 
