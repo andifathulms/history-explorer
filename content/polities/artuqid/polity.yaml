@@ -1,0 +1,56 @@
+id: artuqid
+region: central-lands
+name:
+  latin: Artuqid Dynasty
+  script: أرتقيون
+  script_lang: ar
+# 1102 is the first branch at Hisn Kayfa; 1409 is the fall of Mardin, which
+# outlasted the other two branches by nearly two centuries.
+span:
+  start: { min: 1102, max: 1102, source: hillenbrand-1999 }
+  end: { min: 1232, max: 1409, source: hillenbrand-1999, max_source: bosworth-1996 }
+identity: >-
+  A Turkmen house that took the Jazira from the Seljuks, fought the crusader
+  states, survived as somebody's vassal for three centuries, and paid for the
+  best book on machines written before the Renaissance.
+capitals:
+  - { name: Hisn Kayfa, script: حصن كيفا, from: 1102, source: bosworth-1996 }
+  - { name: Mardin, script: ماردين, from: 1106, source: bosworth-1996 }
+core_region: The Jazira, between the upper Tigris and Euphrates
+rulers:
+  founder: { name: Artuq ibn Eksuk, source: bosworth-1996 }
+  peak: { name: Ilghazi, source: hillenbrand-1999 }
+  last: { name: null, source: null }
+scripts_and_languages:
+  administration: [Arabic, Persian]
+  writing_system: Perso-Arabic
+ended:
+  type: conquest
+  by: [karakoyunlu]
+  year: 1409
+  source: bosworth-1996
+institutions:
+  military_basis: { values: [tribal-levy, land-grant], source: hillenbrand-1999 }
+  revenue_basis: { values: [land-tax], source: hillenbrand-1999 }
+  succession_rule: { values: [appanage], source: bosworth-1996 }
+  legitimation: { values: [conquest], source: bosworth-1996 }
+turning_points:
+  - year: 1119
+    type: battle
+    name: "The Field of Blood"
+    changed: >-
+      Ilghazi destroyed the army of the principality of Antioch and killed its
+      prince, in the heaviest defeat a crusader state suffered before Hattin.
+      It did not produce a conquest — he could not hold his Turkmen together
+      long enough to take Antioch — which is the recurring limit of this kind
+      of polity and the reason the Zangids rather than the Artuqids became the
+      counter-crusade.
+    source: hillenbrand-1999
+    contested: false
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

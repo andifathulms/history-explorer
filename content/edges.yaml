@@ -1139,3 +1139,23 @@ edges:
            1461."
     source: finkel-2005
     contested: true
+
+  - from: great-seljuk
+    to: artuqid
+    type: seceded from
+    year: 1102
+    note: "Artuq held Jerusalem for the Seljuks of Damascus; his sons lost it to
+           the First Crusade and kept the Jazira instead, dividing it into
+           branches that acknowledged the sultanate and then everyone else."
+    source: bosworth-1996
+    contested: false
+
+  - from: artuqid
+    to: karakoyunlu
+    type: conquered by
+    year: 1409
+    note: "The Mardin branch outlasted the other two by nearly two centuries as
+           a vassal of whoever held Iraq, and fell when the Black Sheep took
+           the city."
+    source: bosworth-1996
+    contested: false

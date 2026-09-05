@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1392 claims across 88 sources.**
+**1409 claims across 88 sources.**
 
 ## Where to start
 
@@ -81,7 +81,7 @@ ordinary state, not an item to clear.
 
 ## C. E. Bosworth, The New Islamic Dynasties: A Chronological and Genealogical Manual
 
-`bosworth-1996` — 100 claims
+`bosworth-1996` — 109 claims
 
 **Sole source** for `karakoyunlu` — nothing else in the corpus can contradict a misreading here.
 
@@ -91,6 +91,8 @@ ordinary state, not an item to clear.
 - [ ] `chapter/karakoyunlu/01-the-black-sheep.mdx` — prose: "What filled the space"
 - [ ] `chapter/karakoyunlu/02-two-sheep.mdx` — prose: "Why there were two"
 - [ ] `chapter/samanid/01-four-brothers.mdx` — prose: "Four brothers and a governorship"
+- [ ] `edge/artuqid->karakoyunlu` — conquered by in 1409
+- [ ] `edge/great-seljuk->artuqid` — seceded from in 1102
 - [ ] `edge/kakuyid->great-seljuk` — conquered by in 1051
 - [ ] `edge/karakoyunlu->akkoyunlu` — conquered by in 1468
 - [ ] `edge/tahirid->samanid` — vassal of in 819
@@ -113,6 +115,13 @@ ordinary state, not an item to clear.
 - [ ] `polity/akkoyunlu` — legitimation coded conquest
 - [ ] `polity/akkoyunlu` — turning point 1469 Qarabagh
 - [ ] `polity/akkoyunlu` — turning point 1473 Otlukbeli
+- [ ] `polity/artuqid` — span end upper bound 1409
+- [ ] `polity/artuqid` — capital Hisn Kayfa from 1102
+- [ ] `polity/artuqid` — capital Mardin from 1106
+- [ ] `polity/artuqid` — founder Artuq ibn Eksuk
+- [ ] `polity/artuqid` — succession rule coded appanage
+- [ ] `polity/artuqid` — legitimation coded conquest
+- [ ] `polity/artuqid` — ended by conquest in 1409
 - [ ] `polity/bavandid` — span starts 651
 - [ ] `polity/bavandid` — span ends 1349
 - [ ] `polity/bavandid` — capital Firim
@@ -911,6 +920,33 @@ ordinary state, not an item to clear.
 - [ ] `polity/srivijaya` — religions_carried = 1 (Mahayana Buddhism)
 - [ ] `polity/srivijaya` — ended by gradual absorption in 1275
 
+## Carole Hillenbrand, The Crusades: Islamic Perspectives
+
+`hillenbrand-1999` — 22 claims
+
+- [ ] `chapter/artuqid/01-the-jazira-in-three-pieces.mdx` — prose: "The Jazira, in three pieces"
+- [ ] `chapter/artuqid/02-the-book-of-machines.mdx` — prose: "The book of machines"
+- [ ] `chapter/ayyubid/01-saladin.mdx` — prose: "Saladin"
+- [ ] `chapter/nizari/03-sinan-and-the-castles-in-syria.mdx` — prose: "The old man of the mountain"
+- [ ] `chapter/zangid/01-nur-al-din.mdx` — prose: "Making the counter-crusade a programme"
+- [ ] `chapter/zangid/02-the-minbar.mdx` — prose: "A pulpit made in advance"
+- [ ] `edge/zangid->ayyubid` — absorbed remnants of in 1174
+- [ ] `polity/artuqid` — span starts 1102
+- [ ] `polity/artuqid` — span ends 1232
+- [ ] `polity/artuqid` — peak Ilghazi
+- [ ] `polity/artuqid` — military basis coded tribal-levy + land-grant
+- [ ] `polity/artuqid` — revenue basis coded land-tax
+- [ ] `polity/artuqid` — turning point 1119 The Field of Blood
+- [ ] `polity/ayyubid` — founder Salah al-Din (Saladin) r. 1171-1193
+- [ ] `polity/nizari` — turning point 1176 Saladin turns back from Masyaf (contested)
+- [ ] `polity/zangid` — span starts 1127
+- [ ] `polity/zangid` — span ends 1250
+- [ ] `polity/zangid` — capital Aleppo from 1127
+- [ ] `polity/zangid` — founder Imad al-Din Zangi r. 1127-1146
+- [ ] `polity/zangid` — peak Nur al-Din r. 1146-1174
+- [ ] `polity/zangid` — last Mahmud al-Qahir r. 1219-1233
+- [ ] `polity/zangid` — religions_carried = 1 (Sunni Islam)
+
 ## Amira K. Bennison, The Almoravid and Almohad Empires
 
 `bennison-2016` — 21 claims
@@ -1224,25 +1260,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/samanid` — descendant_scripts = 0
 - [ ] `polity/samanid` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/samanid` — ended by conquest in 999
-
-## Carole Hillenbrand, The Crusades: Islamic Perspectives
-
-`hillenbrand-1999` — 14 claims
-
-- [ ] `chapter/ayyubid/01-saladin.mdx` — prose: "Saladin"
-- [ ] `chapter/nizari/03-sinan-and-the-castles-in-syria.mdx` — prose: "The old man of the mountain"
-- [ ] `chapter/zangid/01-nur-al-din.mdx` — prose: "Making the counter-crusade a programme"
-- [ ] `chapter/zangid/02-the-minbar.mdx` — prose: "A pulpit made in advance"
-- [ ] `edge/zangid->ayyubid` — absorbed remnants of in 1174
-- [ ] `polity/ayyubid` — founder Salah al-Din (Saladin) r. 1171-1193
-- [ ] `polity/nizari` — turning point 1176 Saladin turns back from Masyaf (contested)
-- [ ] `polity/zangid` — span starts 1127
-- [ ] `polity/zangid` — span ends 1250
-- [ ] `polity/zangid` — capital Aleppo from 1127
-- [ ] `polity/zangid` — founder Imad al-Din Zangi r. 1127-1146
-- [ ] `polity/zangid` — peak Nur al-Din r. 1146-1174
-- [ ] `polity/zangid` — last Mahmud al-Qahir r. 1219-1233
-- [ ] `polity/zangid` — religions_carried = 1 (Sunni Islam)
 
 ## Heribert Busse, Iran under the Buyids
 *In The Cambridge History of Iran, Volume 4.*
