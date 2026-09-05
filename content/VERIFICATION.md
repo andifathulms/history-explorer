@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1444 claims across 88 sources.**
+**1452 claims across 88 sources.**
 
 ## Where to start
 
@@ -341,12 +341,13 @@ ordinary state, not an item to clear.
 
 ## Jamil M. Abun-Nasr, A History of the Maghrib in the Islamic Period
 
-`abun-nasr-1987` — 49 claims
+`abun-nasr-1987` — 55 claims
 
 **Sole source** for `hafsid`, `idrisid` — nothing else in the corpus can contradict a misreading here.
 
 - [ ] `chapter/aghlabid/01-a-province-for-rent.mdx` — prose: "A province, for tribute"
-- [ ] `chapter/aghlabid/02-sicily.mdx` — prose: "Seventy-five years for one island"
+- [ ] `chapter/aghlabid/02-kairouan.mdx` — prose: "What a hundred years of tribute paid for"
+- [ ] `chapter/aghlabid/03-sicily.mdx` — prose: "Seventy-five years for one island"
 - [ ] `chapter/hafsid/01-the-governor-who-stayed.mdx` — prose: "Keeping the province when the doctrine went"
 - [ ] `chapter/hafsid/02-a-caliph-in-tunis.mdx` — prose: "A caliph in Tunis, for about a year"
 - [ ] `chapter/hafsid/03-a-prize-in-someone-elses-war.mdx` — prose: "A prize in somebody else's war"
@@ -364,6 +365,11 @@ ordinary state, not an item to clear.
 - [ ] `polity/aghlabid` — founder Ibrahim I ibn al-Aghlab r. 800-812
 - [ ] `polity/aghlabid` — peak Ziyadat Allah I r. 817-838
 - [ ] `polity/aghlabid` — last Ziyadat Allah III r. 903-909
+- [ ] `polity/aghlabid` — military basis coded tribal-levy + slave-soldier
+- [ ] `polity/aghlabid` — revenue basis coded land-tax + trade-toll + plunder
+- [ ] `polity/aghlabid` — succession rule coded nomination
+- [ ] `polity/aghlabid` — legitimation coded caliphal-investiture
+- [ ] `polity/aghlabid` — turning point 827 The landing in Sicily
 - [ ] `polity/aghlabid` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/hafsid` — span starts 1229
 - [ ] `polity/hafsid` — span ends 1574
@@ -1413,6 +1419,24 @@ ordinary state, not an item to clear.
 - [ ] `polity/achaemenid` — successor_claims = 2 (Parthian Empire, Sasanian Empire)
 - [ ] `polity/median` — ended by conquest in -549
 
+## Heinz Halm, The Empire of the Mahdi: The Rise of the Fatimids
+
+`halm-1996` — 13 claims
+
+- [ ] `chapter/aghlabid/04-909.mdx` — prose: "Recruited from inside"
+- [ ] `chapter/fatimid/01-mahdi.mdx` — prose: "A counter-caliphate"
+- [ ] `chapter/fatimid/04-the-dawa.mdx` — prose: "The apparatus that outlived the state"
+- [ ] `edge/aghlabid->fatimid` — overthrew in 909
+- [ ] `edge/rustamid->fatimid` — conquered by in 909
+- [ ] `polity/aghlabid` — turning point 893 The da'wa reaches the Kutama
+- [ ] `polity/aghlabid` — ended by conquest in 909
+- [ ] `polity/fatimid` — span starts 909
+- [ ] `polity/fatimid` — capital Mahdiyya from 921
+- [ ] `polity/fatimid` — founder Abd Allah al-Mahdi r. 909-934
+- [ ] `polity/fatimid` — succession rule coded nomination
+- [ ] `polity/fatimid` — legitimation coded descent + divine-sanction
+- [ ] `polity/rustamid` — ended by conquest in 909
+
 ## C. E. Bosworth, KWARAZMSHAHS
 *In Encyclopaedia Iranica.*
 <https://iranicaonline.org/articles/kvarazmshahs-index>
@@ -1559,22 +1583,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/zaydi-yemen` — turning point 1636 The expulsion of the Ottomans
 - [ ] `polity/zaydi-yemen` — turning point 1948 The killing of Imam Yahya
 - [ ] `polity/zaydi-yemen` — ended by internal usurpation in 1962
-
-## Heinz Halm, The Empire of the Mahdi: The Rise of the Fatimids
-
-`halm-1996` — 11 claims
-
-- [ ] `chapter/fatimid/01-mahdi.mdx` — prose: "A counter-caliphate"
-- [ ] `chapter/fatimid/04-the-dawa.mdx` — prose: "The apparatus that outlived the state"
-- [ ] `edge/aghlabid->fatimid` — overthrew in 909
-- [ ] `edge/rustamid->fatimid` — conquered by in 909
-- [ ] `polity/aghlabid` — ended by conquest in 909
-- [ ] `polity/fatimid` — span starts 909
-- [ ] `polity/fatimid` — capital Mahdiyya from 921
-- [ ] `polity/fatimid` — founder Abd Allah al-Mahdi r. 909-934
-- [ ] `polity/fatimid` — succession rule coded nomination
-- [ ] `polity/fatimid` — legitimation coded descent + divine-sanction
-- [ ] `polity/rustamid` — ended by conquest in 909
 
 ## Stuart Munro-Hay, Aksum: An African Civilisation of Late Antiquity
 

@@ -34,6 +34,48 @@ ended:
   year: 909
   source: halm-1996
 
+institutions:
+  # The jund — the Arab military settlers of Ifriqiya, inherited from the
+  # conquest and in periodic revolt for a century, which is why the dynasty
+  # preferred them in Sicily. Slave and Black African troops were recruited
+  # against them from the ninth century.
+  military_basis: { values: [tribal-levy, slave-soldier], source: abun-nasr-1987 }
+  # Ifriqiya's agriculture and the customs of a coast that traded with Egypt,
+  # Sicily and Italy, plus the proceeds of the Sicilian campaign, which the
+  # sources treat as a way of paying the army without taxing the province
+  # harder.
+  revenue_basis: { values: [land-tax, trade-toll, plunder], source: abun-nasr-1987 }
+  succession_rule: { values: [nomination], source: abun-nasr-1987 }
+  # A caliphal grant, and this is the clean case of it in the western Islamic
+  # world: a written hereditary governorship in exchange for tribute and the
+  # khutba, which the Abbasid page names as the moment the empire began
+  # converting itself into a system of clients.
+  legitimation: { values: [caliphal-investiture], source: abun-nasr-1987 }
+
+turning_points:
+  - year: 827
+    type: siege
+    name: "The landing in Sicily"
+    changed: >-
+      A fleet carrying perhaps ten thousand men crossed to Byzantine Sicily and
+      began a campaign that took seventy-five years. It gave a factious Arab
+      military class somewhere to be, paid from plunder rather than from taxing
+      Ifriqiya harder, and it produced a Muslim Sicily that lasted two and a
+      half centuries and whose administration the Norman kings kept.
+    source: abun-nasr-1987
+    contested: false
+  - year: 893
+    type: revolt
+    name: "The da'wa reaches the Kutama"
+    changed: >-
+      An Isma'ili missionary went to the Berbers of the Lesser Kabylie — inside
+      Aghlabid territory and outside Aghlabid control — converted them and
+      reorganised them as an army. The emirate was destroyed sixteen years
+      later by a force raised out of its own subjects, which is a mechanism the
+      closed vocabulary's `conquest` cannot express.
+    source: halm-1996
+    contested: false
+
 measures:
   # No cited km2 for this polity in the works consulted; Taagepera does not
   # tabulate it separately. The axis is empty rather than borrowed.
