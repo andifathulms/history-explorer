@@ -418,6 +418,21 @@ sources:
     publisher: Longman
     year: 1996
 
+  - id: banister-2021
+    kind: book
+    author: Mustafa Banister
+    title: "The Abbasid Caliphate of Cairo, 1261-1517: Out of the Shadows"
+    container: Edinburgh Studies in Classical Islamic History and Culture
+    publisher: Edinburgh University Press
+    year: 2021
+    note: >-
+      The full-length study of the line this site counted as the Abbasids' only
+      successor claim while describing it nowhere. Its argument is against the
+      dismissal in its own subtitle — that a caliphate with no territory, army
+      or revenue was nonetheless doing work, and that reading these men purely
+      as figureheads is a judgement inherited from hostile brevity rather than
+      one made from the record.
+
   - id: safran-2013
     kind: book
     author: Janina M. Safran

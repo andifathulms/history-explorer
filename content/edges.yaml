@@ -812,3 +812,34 @@ edges:
            holding it."
     source: di-cosmo-2002
     contested: true
+
+  # ---- The office after Baghdad ----
+
+  - from: abbasid
+    to: abbasid-cairo
+    type: claimed legitimacy of
+    year: 1261
+    note: "Baybars found a survivor of the Abbasid house who had escaped the
+           sack of Baghdad and invested him at Cairo, reviving the office the
+           Mongols had extinguished three years earlier."
+    source: banister-2021
+    contested: false
+
+  - from: mamluk-sultanate
+    to: abbasid-cairo
+    type: vassal of
+    year: 1261
+    note: "The caliphate was created by the sultanate, housed and paid by it,
+           and its holders were chosen and deposed at the sultan's discretion
+           for two and a half centuries."
+    source: banister-2021
+    contested: false
+
+  - from: abbasid-cairo
+    to: ottoman
+    type: conquered by
+    year: 1517
+    note: "Selim I destroyed the Mamluk sultanate and removed al-Mutawakkil III
+           to Constantinople with the rest of the state's moveable assets."
+    source: banister-2021
+    contested: false

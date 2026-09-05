@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**986 claims across 78 sources.**
+**1002 claims across 79 sources.**
 
 ## Where to start
 
@@ -656,6 +656,30 @@ ordinary state, not an item to clear.
 - [ ] `polity/ottoman` — turning point 1453 The taking of Constantinople
 - [ ] `polity/ottoman` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/ottoman` — ended by fragmentation in 1922
+
+## Mustafa Banister, The Abbasid Caliphate of Cairo, 1261-1517: Out of the Shadows
+*In Edinburgh Studies in Classical Islamic History and Culture.*
+
+`banister-2021` — 16 claims
+
+**Sole source** for `abbasid-cairo` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/abbasid-cairo/01-a-caliph-for-cairo.mdx` — prose: "A caliph for Cairo"
+- [ ] `chapter/abbasid-cairo/02-what-an-empty-office-was-for.mdx` — prose: "What an empty office was for"
+- [ ] `edge/abbasid->abbasid-cairo` — claimed legitimacy of in 1261
+- [ ] `edge/abbasid-cairo->ottoman` — conquered by in 1517
+- [ ] `edge/mamluk-sultanate->abbasid-cairo` — vassal of in 1261
+- [ ] `polity/abbasid-cairo` — span starts 1261
+- [ ] `polity/abbasid-cairo` — span ends 1517
+- [ ] `polity/abbasid-cairo` — capital Cairo from 1261
+- [ ] `polity/abbasid-cairo` — founder al-Mustansir II r. 1261-1261
+- [ ] `polity/abbasid-cairo` — peak al-Musta'in r. 1406-1414
+- [ ] `polity/abbasid-cairo` — last al-Mutawakkil III r. 1508-1517
+- [ ] `polity/abbasid-cairo` — succession rule coded nomination
+- [ ] `polity/abbasid-cairo` — legitimation coded descent
+- [ ] `polity/abbasid-cairo` — turning point 1261 Baybars installs a caliph
+- [ ] `polity/abbasid-cairo` — turning point 1412 The caliph who was also sultan
+- [ ] `polity/abbasid-cairo` — ended by conquest in 1517
 
 ## C. E. Bosworth, The Political and Dynastic History of the Iranian World (A.D. 1000-1217)
 *In The Cambridge History of Iran, Volume 5.*

@@ -1,0 +1,96 @@
+id: abbasid-cairo
+region: caliphates
+
+name:
+  latin: Abbasid Caliphate of Cairo
+  script: الخلافة العباسية في القاهرة
+  script_lang: ar
+
+span:
+  start: { min: 1261, max: 1261, source: banister-2021 }
+  end: { min: 1517, max: 1517, source: banister-2021 }
+
+identity: >-
+  The Abbasid line re-established at Cairo under Mamluk protection three years
+  after Baghdad fell: a caliphate with no territory, no army and no revenue,
+  which invested sultans for two and a half centuries.
+
+# The office had no seat of its own. It was housed in the citadel and the city
+# where the sultanate was, which is a fact about the office rather than an
+# omission.
+capitals:
+  - { name: Cairo, script: القاهرة, from: 1261, source: banister-2021 }
+
+core_region: None; the office resided at Cairo without territory
+
+rulers:
+  founder: { name: al-Mustansir II, reign: [1261, 1261], source: banister-2021 }
+  # Not the most powerful caliph, because none of them held power. The one
+  # moment the office was more than an office: al-Musta'in was made sultan as
+  # well as caliph in 1412, for six months, by amirs who could agree on nobody
+  # else.
+  peak: { name: al-Musta'in, reign: [1406, 1414], source: banister-2021 }
+  last: { name: al-Mutawakkil III, reign: [1508, 1517], source: banister-2021 }
+
+scripts_and_languages:
+  administration: [Arabic]
+  writing_system: Arabic
+
+ended:
+  type: conquest
+  by: [ottoman]
+  year: 1517
+  source: banister-2021
+
+institutions:
+  # Null is the answer and it is not a gap in the sources. This polity had no
+  # army. Coding rule 5 asks how the fighting force was raised, and there was
+  # no fighting force: the Mamluk sultanate supplied the violence and the
+  # caliph supplied the investiture. A value here would be an invention.
+  military_basis: null
+  # Likewise. The caliphs were maintained on a stipend from the sultanate and
+  # on endowment income. That is a household budget, not a state's revenue
+  # basis, and the vocabulary has no honest value for it.
+  revenue_basis: null
+  # Within the Abbasid house, by designation — with the sultan's assent, which
+  # in practice meant at the sultan's choice.
+  succession_rule: { values: [nomination], source: banister-2021 }
+  legitimation: { values: [descent], source: banister-2021 }
+
+turning_points:
+  - year: 1261
+    type: reform
+    name: "Baybars installs a caliph"
+    changed: >-
+      Three years after Hulegu executed the last caliph at Baghdad, a surviving
+      Abbasid who had been hiding among desert tribes was brought to Cairo and
+      invested. A Kipchak slave soldier who had murdered his way to the
+      sultanate acquired the one thing he could not manufacture for himself,
+      and the office acquired a permanent home in a state that needed it.
+    source: banister-2021
+    contested: false
+  - year: 1412
+    type: succession-crisis
+    name: "The caliph who was also sultan"
+    changed: >-
+      After Faraj was deposed the amirs could agree on no candidate and made
+      the caliph al-Musta'in sultan as well, the only time in these two and a
+      half centuries that a Cairo caliph held actual power. It lasted six
+      months before he was set aside, and it is the episode that makes the
+      figurehead reading harder to hold than it looks.
+    source: banister-2021
+    contested: false
+
+measures:
+  # Taagepera does not tabulate this polity and could not: it held no ground.
+  # The gap on this page is the most informative one on the site.
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    # The Ottoman assertion that the caliphate was formally transferred when
+    # Selim took Cairo is, as this site's Ottoman page says, largely an
+    # eighteenth-century construction. Whether that counts under coding rule 1
+    # is a question no source read here has been asked, so: null, not 1.
+    successor_claims: { count: null, items: [], source: null }
