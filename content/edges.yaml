@@ -793,6 +793,27 @@ edges:
     source: chi-3
     contested: false
 
+  - from: roman
+    to: palmyrene
+    type: seceded from
+    year: 270
+    note: "Palmyrene forces took Egypt and Anatolia while still striking coins
+           that named Aurelian, and in 271 dropped him from them; the authority
+           Rome had granted Odaenathus personally was being exercised by his
+           widow and son without a renewal."
+    source: smith-2013
+    contested: false
+
+  - from: palmyrene
+    to: roman
+    type: conquered by
+    year: 273
+    note: "Aurelian beat the Palmyrene army at Immae and Emesa and took the city
+           in 272; when it rose again the following year he returned, sacked it
+           and dispersed its population."
+    source: smith-2013
+    contested: false
+
   - from: macedonian
     to: ptolemaic
     type: partitioned from

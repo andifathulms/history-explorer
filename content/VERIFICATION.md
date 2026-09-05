@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1795 claims across 97 sources.**
+**1815 claims across 98 sources.**
 
 ## Where to start
 
@@ -1416,6 +1416,33 @@ ordinary state, not an item to clear.
 - [ ] `polity/fatimid` — religions_carried = 1 (Isma'ili Shi'ism)
 - [ ] `polity/ikhshidid` — turning point 969 The terms at Fustat
 - [ ] `polity/ikhshidid` — ended by conquest in 969
+
+## Andrew M. Smith II, Roman Palmyra: Identity, Community, and State Formation
+
+`smith-2013` — 20 claims
+
+**Sole source** for `palmyrene` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/palmyrene/01-tadmor.mdx` — prose: "Tadmor"
+- [ ] `chapter/palmyrene/02-odaenathus.mdx` — prose: "The man who was given the east"
+- [ ] `chapter/palmyrene/03-zenobia.mdx` — prose: "Zenobia"
+- [ ] `chapter/palmyrene/04-what-the-coins-say.mdx` — prose: "Two borrowed vocabularies"
+- [ ] `chapter/palmyrene/05-aurelian.mdx` — prose: "Aurelian"
+- [ ] `edge/palmyrene->roman` — conquered by in 273
+- [ ] `edge/roman->palmyrene` — seceded from in 270
+- [ ] `polity/palmyrene` — span starts 260
+- [ ] `polity/palmyrene` — span ends 272
+- [ ] `polity/palmyrene` — capital Palmyra from 260
+- [ ] `polity/palmyrene` — founder Odaenathus r. 260-267
+- [ ] `polity/palmyrene` — peak Zenobia r. 267-272
+- [ ] `polity/palmyrene` — last Vaballathus
+- [ ] `polity/palmyrene` — military basis coded tribal-levy
+- [ ] `polity/palmyrene` — revenue basis coded trade-toll
+- [ ] `polity/palmyrene` — legitimation coded titulature + conquest
+- [ ] `polity/palmyrene` — turning point 260 Odaenathus on the Euphrates
+- [ ] `polity/palmyrene` — turning point 267 The murder of Odaenathus
+- [ ] `polity/palmyrene` — turning point 270 The taking of Egypt
+- [ ] `polity/palmyrene` — ended by conquest in 273
 
 ## Michal Biran, The Empire of the Qara Khitai in Eurasian History: Between China and the Islamic World
 *In Cambridge Studies in Islamic Civilization.*

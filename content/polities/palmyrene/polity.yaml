@@ -1,0 +1,111 @@
+id: palmyrene
+region: eastern-mediterranean
+
+name:
+  latin: Palmyrene Empire
+  # The city called itself Tadmor and wrote it in the Palmyrene alphabet, a
+  # distinct Aramaic script this site cannot render reliably. Substituting the
+  # square Aramaic or Syriac form would put a script on the page that Palmyra
+  # did not use, which is a small version of the thing hard rule 2 forbids.
+  script: null
+  script_lang: null
+
+# 260 is Odaenathus taking command of the Roman east after Valerian's capture;
+# 270 is Zenobia's invasion of Egypt, which is when the sources stop being able
+# to describe Palmyra as a Roman command. Both are used as the start and the
+# difference between them is the argument on this page.
+span:
+  start: { min: 260, max: 270, source: smith-2013 }
+  end: { min: 272, max: 273, source: smith-2013 }
+
+identity: >-
+  An oasis city between Rome and Iran that spent three centuries taxing caravans
+  and thirteen years ruling from the Nile to the Bosphorus.
+
+capitals:
+  - { name: Palmyra, from: 260, source: smith-2013 }
+
+core_region: >-
+  The Syrian desert between Damascus and the Euphrates; briefly Syria, Egypt and
+  central Anatolia
+
+rulers:
+  founder: { name: Odaenathus, reign: [260, 267], source: smith-2013 }
+  # Zenobia ruled as regent for her son and never claimed the throne in her own
+  # name; the coins are his. The field asks who the polity was at its height,
+  # and every source consulted answers her.
+  peak: { name: Zenobia, reign: [267, 272], source: smith-2013 }
+  last: { name: Vaballathus, source: smith-2013 }
+
+scripts_and_languages:
+  administration: [Palmyrene Aramaic, Greek]
+  writing_system: The Palmyrene alphabet, alongside Greek
+
+ended:
+  type: conquest
+  by: [roman]
+  year: 273
+  source: smith-2013
+
+institutions:
+  # Palmyra's armed force began as caravan escort raised by the city's leading
+  # families and its tribal divisions, and the archers and camel cavalry that
+  # beat Shapur were the same men. Odaenathus also commanded Roman regular units
+  # as a Roman officer, which is not this field's question: those troops were
+  # Rome's.
+  military_basis: { values: [tribal-levy], source: smith-2013 }
+  # The only polity in this corpus coded on the tolls alone. Palmyra grew no
+  # surplus worth taxing and mined nothing; it lived on the caravan traffic
+  # between the Euphrates and the Mediterranean, and the tariff inscription of
+  # AD 137 is the most detailed customs schedule to survive from antiquity.
+  revenue_basis: { values: [trade-toll], source: smith-2013 }
+  # One succession in thirteen years, from father to son with the mother as
+  # regent. That is a sequence, not a rule, and this site will not promote it.
+  succession_rule: null
+  # Odaenathus took "king of kings" — the Sasanian title — after beating a
+  # Sasanian army, and his son's coinage ran Roman imperial titles alongside
+  # Aurelian's before replacing them. The claim was made in two borrowed
+  # vocabularies at once, which is what the fourth chapter is about.
+  legitimation: { values: [titulature, conquest], source: smith-2013 }
+
+turning_points:
+  - year: 260
+    type: battle
+    name: "Odaenathus on the Euphrates"
+    changed: >-
+      A Roman emperor had just been captured by the Sasanians and the eastern
+      command had ceased to exist; a Palmyrene notable caught Shapur's army
+      returning across the Euphrates with its plunder and beat it. Rome
+      responded by giving him the east to govern, which turned a caravan city's
+      militia into the only functioning military authority between Anatolia and
+      Egypt.
+    source: smith-2013
+    contested: false
+  - year: 267
+    type: succession-crisis
+    name: "The murder of Odaenathus"
+    changed: >-
+      Odaenathus and his heir were killed together, and the position he had held
+      personally from Rome passed to a widow and a small boy who had no such
+      grant. Everything Palmyra did afterwards followed from holding an
+      authority that had been given to a man who was dead.
+    source: smith-2013
+    contested: false
+  - year: 270
+    type: battle
+    name: "The taking of Egypt"
+    changed: >-
+      Palmyrene forces occupied Egypt and with it the grain that fed the city of
+      Rome. Whatever the intention — the coins still named Aurelian — this made
+      the arrangement one no emperor could leave standing, and it converted a
+      client that had been useful into a war that had to be won.
+    source: smith-2013
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

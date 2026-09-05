@@ -944,6 +944,18 @@ sources:
       that ruled through Egyptian society rather than over it — is what this
       site's institutions fields for the polity are coded from.
 
+  - id: smith-2013
+    kind: book
+    author: Andrew M. Smith II
+    title: "Roman Palmyra: Identity, Community, and State Formation"
+    publisher: Oxford University Press
+    year: 2013
+    note: >-
+      Reads Palmyra from its own inscriptions and archaeology as a community
+      that built a state, rather than as the backdrop to thirteen famous years.
+      The emphasis matters for this site: the caravan city is the polity, and
+      Zenobia is what it did once.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors
