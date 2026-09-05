@@ -34,6 +34,48 @@ ended:
   year: 974
   source: abun-nasr-1987
 
+institutions:
+  # Berber tribal contingents, principally the Awraba who accepted Idris I and
+  # the Zanata and others who followed; there was never a standing force
+  # independent of the tribes, which is part of why the succession divided so
+  # completely.
+  military_basis: { values: [tribal-levy], source: abun-nasr-1987 }
+  revenue_basis: null
+  # Idris II divided among his sons at the first succession and the state did
+  # not survive it. This site codes appanage on the Seljuks, Mongols, Ghurids
+  # and Buyids; here it happens immediately, completely, and with nothing to
+  # arrest it.
+  succession_rule: { values: [appanage], source: abun-nasr-1987 }
+  # Descent from Ali, publicly invoked as the whole basis of the right to rule
+  # — which is what the coding rules require and what the fourth chapter on
+  # this page is about.
+  legitimation: { values: [descent], source: abun-nasr-1987 }
+
+turning_points:
+  - year: 818
+    type: revolt
+    name: "The Cordoba suburb, expelled"
+    changed: >-
+      Al-Hakam I crushed a rising in the suburb of Cordoba and expelled the
+      survivors; several thousand came west and settled the right bank at Fez.
+      Refugees from Kairouan settled the left bank six years later. A Berber
+      country with no substantial city acquired one because the two established
+      centres of the Islamic west produced displaced populations at the same
+      moment.
+    source: abun-nasr-1987
+    contested: false
+  - year: 828
+    type: succession-crisis
+    name: "Idris II divides among his sons"
+    changed: >-
+      The state ended at its first succession, a century and a half before the
+      date on this record. What followed was not decline but a family scattered
+      across a country, subdividing further for a hundred years, with no
+      mechanism to reassemble — which is why the tenth-century Fatimid and
+      Umayyad proxy war found the far Maghreb already in pieces.
+    source: abun-nasr-1987
+    contested: false
+
 measures:
   # No cited km2 for this polity in the works consulted; Taagepera does not
   # tabulate it separately. The axis is empty rather than borrowed.

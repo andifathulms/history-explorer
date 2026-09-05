@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1452 claims across 88 sources.**
+**1459 claims across 88 sources.**
 
 ## Where to start
 
@@ -275,6 +275,75 @@ ordinary state, not an item to clear.
 - [ ] `polity/rum` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/rum` — ended by gradual absorption in 1308
 
+## Jamil M. Abun-Nasr, A History of the Maghrib in the Islamic Period
+
+`abun-nasr-1987` — 62 claims
+
+**Sole source** for `hafsid`, `idrisid` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/aghlabid/01-a-province-for-rent.mdx` — prose: "A province, for tribute"
+- [ ] `chapter/aghlabid/02-kairouan.mdx` — prose: "What a hundred years of tribute paid for"
+- [ ] `chapter/aghlabid/03-sicily.mdx` — prose: "Seventy-five years for one island"
+- [ ] `chapter/hafsid/01-the-governor-who-stayed.mdx` — prose: "Keeping the province when the doctrine went"
+- [ ] `chapter/hafsid/02-a-caliph-in-tunis.mdx` — prose: "A caliph in Tunis, for about a year"
+- [ ] `chapter/hafsid/03-a-prize-in-someone-elses-war.mdx` — prose: "A prize in somebody else's war"
+- [ ] `chapter/idrisid/01-fez.mdx` — prose: "A fugitive founds a city"
+- [ ] `chapter/idrisid/02-fez.mdx` — prose: "Two banks of a river"
+- [ ] `chapter/idrisid/03-what-happened-to-the-pieces.mdx` — prose: "What happened to the pieces"
+- [ ] `chapter/idrisid/04-descent-as-a-claim.mdx` — prose: "Descent, used as a claim"
+- [ ] `chapter/rustamid/01-tahert.mdx` — prose: "An elected imamate"
+- [ ] `chapter/rustamid/02-the-trade.mdx` — prose: "Doctrine along the caravan routes"
+- [ ] `chapter/umayyad/07-the-berber-revolt.mdx` — prose: "Where it broke first"
+- [ ] `edge/abbasid->aghlabid` — vassal of in 800
+- [ ] `edge/almohad->hafsid` — seceded from in 1229
+- [ ] `edge/hafsid->ottoman` — conquered by in 1574
+- [ ] `polity/aghlabid` — span starts 800
+- [ ] `polity/aghlabid` — span ends 909
+- [ ] `polity/aghlabid` — capital Kairouan from 800
+- [ ] `polity/aghlabid` — founder Ibrahim I ibn al-Aghlab r. 800-812
+- [ ] `polity/aghlabid` — peak Ziyadat Allah I r. 817-838
+- [ ] `polity/aghlabid` — last Ziyadat Allah III r. 903-909
+- [ ] `polity/aghlabid` — military basis coded tribal-levy + slave-soldier
+- [ ] `polity/aghlabid` — revenue basis coded land-tax + trade-toll + plunder
+- [ ] `polity/aghlabid` — succession rule coded nomination
+- [ ] `polity/aghlabid` — legitimation coded caliphal-investiture
+- [ ] `polity/aghlabid` — turning point 827 The landing in Sicily
+- [ ] `polity/aghlabid` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/hafsid` — span starts 1229
+- [ ] `polity/hafsid` — span ends 1574
+- [ ] `polity/hafsid` — capital Tunis from 1229
+- [ ] `polity/hafsid` — founder Abu Zakariya Yahya r. 1229-1249
+- [ ] `polity/hafsid` — peak al-Mustansir r. 1249-1277
+- [ ] `polity/hafsid` — military basis coded tribal-levy + mercenary
+- [ ] `polity/hafsid` — revenue basis coded trade-toll + plunder
+- [ ] `polity/hafsid` — legitimation coded descent + titulature
+- [ ] `polity/hafsid` — turning point 1259 The sharif of Mecca acknowledges a caliph in Tunis
+- [ ] `polity/hafsid` — turning point 1535 Charles V takes Tunis
+- [ ] `polity/hafsid` — ended by conquest in 1574
+- [ ] `polity/idrisid` — span starts 788
+- [ ] `polity/idrisid` — span ends 974
+- [ ] `polity/idrisid` — capital Fez from 788
+- [ ] `polity/idrisid` — founder Idris I r. 788-791
+- [ ] `polity/idrisid` — peak Idris II r. 803-828
+- [ ] `polity/idrisid` — last al-Hasan al-Hajjam r. 970-974
+- [ ] `polity/idrisid` — military basis coded tribal-levy
+- [ ] `polity/idrisid` — succession rule coded appanage
+- [ ] `polity/idrisid` — legitimation coded descent
+- [ ] `polity/idrisid` — turning point 818 The Cordoba suburb, expelled
+- [ ] `polity/idrisid` — turning point 828 Idris II divides among his sons
+- [ ] `polity/idrisid` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/idrisid` — ended by gradual absorption in 974
+- [ ] `polity/rustamid` — span starts 776
+- [ ] `polity/rustamid` — span ends 909
+- [ ] `polity/rustamid` — capital Tahert from 776
+- [ ] `polity/rustamid` — founder Abd al-Rahman ibn Rustam r. 776-788
+- [ ] `polity/rustamid` — peak Aflah ibn Abd al-Wahhab r. 823-872
+- [ ] `polity/rustamid` — last Yaqzan ibn Muhammad r. 894-909
+- [ ] `polity/rustamid` — revenue basis coded trade-toll
+- [ ] `polity/rustamid` — succession rule coded election
+- [ ] `polity/rustamid` — legitimation coded election
+- [ ] `polity/umayyad` — turning point 740 The Berber revolt
+
 ## Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia
 *In International Studies Quarterly 41(3), 475-504.*
 
@@ -338,68 +407,6 @@ ordinary state, not an item to clear.
 - [ ] `reference/umayyad` — reach 11,100,000 km2 at 720
 - [ ] `reference/uyghur-khaganate` — reach 3,100,000 km2 at 800
 - [ ] `reference/yuan` — reach 11,000,000 km2 at 1310
-
-## Jamil M. Abun-Nasr, A History of the Maghrib in the Islamic Period
-
-`abun-nasr-1987` — 55 claims
-
-**Sole source** for `hafsid`, `idrisid` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/aghlabid/01-a-province-for-rent.mdx` — prose: "A province, for tribute"
-- [ ] `chapter/aghlabid/02-kairouan.mdx` — prose: "What a hundred years of tribute paid for"
-- [ ] `chapter/aghlabid/03-sicily.mdx` — prose: "Seventy-five years for one island"
-- [ ] `chapter/hafsid/01-the-governor-who-stayed.mdx` — prose: "Keeping the province when the doctrine went"
-- [ ] `chapter/hafsid/02-a-caliph-in-tunis.mdx` — prose: "A caliph in Tunis, for about a year"
-- [ ] `chapter/hafsid/03-a-prize-in-someone-elses-war.mdx` — prose: "A prize in somebody else's war"
-- [ ] `chapter/idrisid/01-fez.mdx` — prose: "A fugitive founds a city"
-- [ ] `chapter/idrisid/02-descent-as-a-claim.mdx` — prose: "Descent, used as a claim"
-- [ ] `chapter/rustamid/01-tahert.mdx` — prose: "An elected imamate"
-- [ ] `chapter/rustamid/02-the-trade.mdx` — prose: "Doctrine along the caravan routes"
-- [ ] `chapter/umayyad/07-the-berber-revolt.mdx` — prose: "Where it broke first"
-- [ ] `edge/abbasid->aghlabid` — vassal of in 800
-- [ ] `edge/almohad->hafsid` — seceded from in 1229
-- [ ] `edge/hafsid->ottoman` — conquered by in 1574
-- [ ] `polity/aghlabid` — span starts 800
-- [ ] `polity/aghlabid` — span ends 909
-- [ ] `polity/aghlabid` — capital Kairouan from 800
-- [ ] `polity/aghlabid` — founder Ibrahim I ibn al-Aghlab r. 800-812
-- [ ] `polity/aghlabid` — peak Ziyadat Allah I r. 817-838
-- [ ] `polity/aghlabid` — last Ziyadat Allah III r. 903-909
-- [ ] `polity/aghlabid` — military basis coded tribal-levy + slave-soldier
-- [ ] `polity/aghlabid` — revenue basis coded land-tax + trade-toll + plunder
-- [ ] `polity/aghlabid` — succession rule coded nomination
-- [ ] `polity/aghlabid` — legitimation coded caliphal-investiture
-- [ ] `polity/aghlabid` — turning point 827 The landing in Sicily
-- [ ] `polity/aghlabid` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/hafsid` — span starts 1229
-- [ ] `polity/hafsid` — span ends 1574
-- [ ] `polity/hafsid` — capital Tunis from 1229
-- [ ] `polity/hafsid` — founder Abu Zakariya Yahya r. 1229-1249
-- [ ] `polity/hafsid` — peak al-Mustansir r. 1249-1277
-- [ ] `polity/hafsid` — military basis coded tribal-levy + mercenary
-- [ ] `polity/hafsid` — revenue basis coded trade-toll + plunder
-- [ ] `polity/hafsid` — legitimation coded descent + titulature
-- [ ] `polity/hafsid` — turning point 1259 The sharif of Mecca acknowledges a caliph in Tunis
-- [ ] `polity/hafsid` — turning point 1535 Charles V takes Tunis
-- [ ] `polity/hafsid` — ended by conquest in 1574
-- [ ] `polity/idrisid` — span starts 788
-- [ ] `polity/idrisid` — span ends 974
-- [ ] `polity/idrisid` — capital Fez from 788
-- [ ] `polity/idrisid` — founder Idris I r. 788-791
-- [ ] `polity/idrisid` — peak Idris II r. 803-828
-- [ ] `polity/idrisid` — last al-Hasan al-Hajjam r. 970-974
-- [ ] `polity/idrisid` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/idrisid` — ended by gradual absorption in 974
-- [ ] `polity/rustamid` — span starts 776
-- [ ] `polity/rustamid` — span ends 909
-- [ ] `polity/rustamid` — capital Tahert from 776
-- [ ] `polity/rustamid` — founder Abd al-Rahman ibn Rustam r. 776-788
-- [ ] `polity/rustamid` — peak Aflah ibn Abd al-Wahhab r. 823-872
-- [ ] `polity/rustamid` — last Yaqzan ibn Muhammad r. 894-909
-- [ ] `polity/rustamid` — revenue basis coded trade-toll
-- [ ] `polity/rustamid` — succession rule coded election
-- [ ] `polity/rustamid` — legitimation coded election
-- [ ] `polity/umayyad` — turning point 740 The Berber revolt
 
 ## Farhad Daftary, The Isma'ilis: Their History and Doctrines
 
