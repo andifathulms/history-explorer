@@ -1,0 +1,118 @@
+id: jalayirid
+region: later-iran
+
+name:
+  latin: Jalayirid Sultanate
+  script: جلایریان
+  script_lang: fa
+
+# 1335 is the Ilkhanate's collapse and Hasan Buzurg's emergence; 1336 is the
+# first puppet Ilkhan he raised. The end is a range for a real reason: Sultan
+# Ahmad was killed and Baghdad and Tabriz lost in 1410, and a remnant of the
+# house held Basra and the lower Euphrates until 1432.
+span:
+  start: { min: 1335, max: 1336, source: chi-6 }
+  end: { min: 1410, max: 1432, source: chi-6 }
+
+identity: >-
+  The principal successor to the Ilkhanate: a Mongol amirid house that held
+  Baghdad and Tabriz for three generations, and whose painters are where Persian
+  painting turns.
+
+capitals:
+  - { name: Baghdad, script: بغداد, from: 1340, source: chi-6 }
+  - { name: Tabriz, script: تبریز, from: 1360, source: chi-6 }
+
+core_region: Iraq and Azerbaijan
+
+rulers:
+  founder: { name: Hasan Buzurg, reign: [1336, 1356], source: chi-6 }
+  peak: { name: Shaykh Uways, reign: [1356, 1374], source: chi-6 }
+  last: { name: Husayn II, source: chi-6 }
+
+scripts_and_languages:
+  administration: [Persian, Arabic]
+  writing_system: Perso-Arabic
+
+ended:
+  type: conquest
+  by: [karakoyunlu]
+  year: 1432
+  source: chi-6
+
+institutions:
+  # The Jalayir and the allied Mongol and Turkmen amirs who had been the
+  # Ilkhanate's army, paid the way the Ilkhanate had paid them — assignments of
+  # revenue against service. The dynasty inherited both halves rather than
+  # building either.
+  military_basis: { values: [tribal-levy, land-grant], source: chi-6 }
+  # The land tax of Iraq and Azerbaijan through the Ilkhanid divan, and the
+  # customs of two cities that were both on the route between the Mediterranean
+  # and Iran. Tabriz in this period was the largest entrepot in western Asia.
+  # Unranked.
+  revenue_basis: { values: [land-tax, trade-toll], source: chi-6 }
+  # The sultanate passed from father to son and was contested by brothers at
+  # nearly every turn. Nothing consulted describes a rule, and the pattern is
+  # not the patrimonial division `appanage` names: nobody partitioned the
+  # territory, they fought over the whole of it.
+  succession_rule: null
+  # `conquest`, and for the first two decades that is exactly what the field
+  # cannot say. Hasan Buzurg ruled in the name of puppet Ilkhans of Chinggisid
+  # descent whom he raised and deposed — the same arrangement Timur used a
+  # generation later and for the same reason, that neither of them could hold
+  # the title himself. This is the third record in the corpus to hit that gap
+  # after the Jafnid and Timurid pages: the vocabulary has
+  # `caliphal-investiture` for a ruler whose ground is a universal sovereign's
+  # grant, and nothing for the case where the sovereign is not a caliph.
+  legitimation: { values: [conquest], source: chi-6 }
+
+turning_points:
+  - year: 1340
+    type: siege
+    name: "The taking of Baghdad"
+    changed: >-
+      Hasan Buzurg took the city and made it his seat, which gave an amirid
+      house with a Mongol army and no country the settled tax base of Iraq. It
+      is the point at which the Jalayirids stop being one faction in the
+      Ilkhanate's succession war and start being a state, and it is why they
+      outlasted every other faction in it.
+    source: chi-6
+    contested: false
+  - year: 1360
+    type: siege
+    name: "Tabriz"
+    changed: >-
+      Shaykh Uways took Azerbaijan from the last Chobanid and held it with Iraq,
+      putting the Ilkhanate's two capitals under one ruler for the first time
+      since 1335. For fourteen years the Jalayirid state was the nearest thing
+      to a restoration of the Ilkhanate that anybody managed.
+    source: chi-6
+    contested: false
+  - year: 1401
+    type: siege
+    name: "Timur at Baghdad"
+    changed: >-
+      Timur took the city a second time and destroyed it, and Sultan Ahmad spent
+      most of the following decade as a guest of the Mamluks and the Ottomans
+      rather than as a ruler. The sultanate survived Timur and never again had
+      the revenue to be more than one claimant among the Turkmen.
+    source: chi-6
+    contested: false
+  - year: 1410
+    type: battle
+    name: "The death of Sultan Ahmad"
+    changed: >-
+      Ahmad retook Tabriz after Timur's death, quarrelled with the Kara Koyunlu
+      who had helped him take it, and was defeated and killed by Qara Yusuf.
+      Baghdad and Azerbaijan passed to the Turkmen, and what remained of the
+      house held the lower Euphrates for another twenty-two years.
+    source: chi-6
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

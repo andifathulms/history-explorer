@@ -1252,6 +1252,27 @@ edges:
 
   # ---- The two sheep ----
 
+  - from: ilkhanate
+    to: jalayirid
+    type: absorbed remnants of
+    year: 1336
+    note: "Hasan Buzurg, leader of the Jalayir, raised the first of the puppet
+           Ilkhans he ruled through and took over the Ilkhanate's Iraqi
+           administration and much of its army; his house kept both running for
+           three generations."
+    source: chi-6
+    contested: false
+
+  - from: jalayirid
+    to: karakoyunlu
+    type: conquered by
+    year: 1432
+    note: "Qara Yusuf killed Sultan Ahmad in 1410 and took Baghdad and Tabriz;
+           the remnant of the house held Basra until Husayn II was killed
+           twenty-two years later."
+    source: chi-6
+    contested: false
+
   - from: karakoyunlu
     to: akkoyunlu
     type: conquered by

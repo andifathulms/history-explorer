@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1890 claims across 107 sources.**
+**1912 claims across 107 sources.**
 
 ## Where to start
 
@@ -1100,6 +1100,42 @@ ordinary state, not an item to clear.
 - [ ] `polity/yuan` — peak Kublai Khan r. 1271-1294
 - [ ] `polity/yuan` — last Toghon Temur r. 1333-1368
 - [ ] `polity/yuan` — descendant_scripts = 1 (Phags-pa script)
+
+## Peter Jackson and Laurence Lockhart (eds), The Cambridge History of Iran, Volume 6: The Timurid and Safavid Periods
+
+`chi-6` — 31 claims
+
+- [ ] `chapter/jalayirid/01-what-1335-left.mdx` — prose: "What 1335 left"
+- [ ] `chapter/jalayirid/02-shaykh-uways.mdx` — prose: "The nearest thing to a restoration"
+- [ ] `chapter/jalayirid/04-ahmad.mdx` — prose: "Sultan Ahmad's twenty years of running"
+- [ ] `chapter/jalayirid/05-basra.mdx` — prose: "Basra"
+- [ ] `chapter/karakoyunlu/01-the-black-sheep.mdx` — prose: "What filled the space"
+- [ ] `chapter/karakoyunlu/02-qara-yusuf.mdx` — prose: "The man who came back"
+- [ ] `chapter/karakoyunlu/03-jahan-shah.mdx` — prose: "Jahan Shah"
+- [ ] `chapter/karakoyunlu/05-two-sheep.mdx` — prose: "Why there were two"
+- [ ] `chapter/karakoyunlu/06-chapakchur.mdx` — prose: "One year"
+- [ ] `edge/ilkhanate->jalayirid` — absorbed remnants of in 1336
+- [ ] `edge/jalayirid->karakoyunlu` — conquered by in 1432
+- [ ] `polity/jalayirid` — span starts 1335
+- [ ] `polity/jalayirid` — span ends 1410
+- [ ] `polity/jalayirid` — capital Baghdad from 1340
+- [ ] `polity/jalayirid` — capital Tabriz from 1360
+- [ ] `polity/jalayirid` — founder Hasan Buzurg r. 1336-1356
+- [ ] `polity/jalayirid` — peak Shaykh Uways r. 1356-1374
+- [ ] `polity/jalayirid` — last Husayn II
+- [ ] `polity/jalayirid` — military basis coded tribal-levy + land-grant
+- [ ] `polity/jalayirid` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/jalayirid` — legitimation coded conquest
+- [ ] `polity/jalayirid` — turning point 1340 The taking of Baghdad
+- [ ] `polity/jalayirid` — turning point 1360 Tabriz
+- [ ] `polity/jalayirid` — turning point 1401 Timur at Baghdad
+- [ ] `polity/jalayirid` — turning point 1410 The death of Sultan Ahmad
+- [ ] `polity/jalayirid` — ended by conquest in 1432
+- [ ] `polity/karakoyunlu` — revenue basis coded land-tax
+- [ ] `polity/karakoyunlu` — turning point 1408 Sardrud
+- [ ] `polity/karakoyunlu` — turning point 1446 The taking of Baghdad
+- [ ] `polity/karakoyunlu` — turning point 1458 Herat
+- [ ] `polity/karakoyunlu` — turning point 1467 Chapakchur
 
 ## C. E. Bosworth, The Political and Dynastic History of the Iranian World (A.D. 1000-1217)
 *In The Cambridge History of Iran, Volume 5.*
@@ -2192,21 +2228,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/han` — descendant_scripts = 1 (Clerical script)
 - [ ] `polity/han` — ended by fragmentation in 220
 
-## Peter Jackson and Laurence Lockhart (eds), The Cambridge History of Iran, Volume 6: The Timurid and Safavid Periods
-
-`chi-6` — 10 claims
-
-- [ ] `chapter/karakoyunlu/01-the-black-sheep.mdx` — prose: "What filled the space"
-- [ ] `chapter/karakoyunlu/02-qara-yusuf.mdx` — prose: "The man who came back"
-- [ ] `chapter/karakoyunlu/03-jahan-shah.mdx` — prose: "Jahan Shah"
-- [ ] `chapter/karakoyunlu/05-two-sheep.mdx` — prose: "Why there were two"
-- [ ] `chapter/karakoyunlu/06-chapakchur.mdx` — prose: "One year"
-- [ ] `polity/karakoyunlu` — revenue basis coded land-tax
-- [ ] `polity/karakoyunlu` — turning point 1408 Sardrud
-- [ ] `polity/karakoyunlu` — turning point 1446 The taking of Baghdad
-- [ ] `polity/karakoyunlu` — turning point 1458 Herat
-- [ ] `polity/karakoyunlu` — turning point 1467 Chapakchur
-
 ## James Wilson, Medieval Syria and the Onset of the Crusades: The Political World of Bilad al-Sham 1050-1128
 
 `wilson-2023` — 10 claims
@@ -2458,6 +2479,13 @@ ordinary state, not an item to clear.
 - [ ] `polity/ghaznavid` — capital Ghazna from 962
 - [ ] `polity/ghaznavid` — descendant_scripts = 0
 
+## Thomas W. Lentz and Glenn D. Lowry, Timur and the Princely Vision: Persian Art and Culture in the Fifteenth Century
+
+`lentz-lowry-1989` — 2 claims
+
+- [ ] `chapter/jalayirid/03-the-book.mdx` — prose: "Where Persian painting turns"
+- [ ] `chapter/timurid/06-the-princely-vision.mdx` — prose: "The princely vision"
+
 ## J. A. Boyle (ed.), The Cambridge History of Iran, Volume 5: The Saljuq and Mongol Periods
 
 `chi-5` — 2 claims
@@ -2573,12 +2601,6 @@ ordinary state, not an item to clear.
 `frye-1965` — 1 claims
 
 - [ ] `chapter/samanid/05-what-bukhara-was.mdx` — prose: "What Bukhara was"
-
-## Thomas W. Lentz and Glenn D. Lowry, Timur and the Princely Vision: Persian Art and Culture in the Fifteenth Century
-
-`lentz-lowry-1989` — 1 claims
-
-- [ ] `chapter/timurid/06-the-princely-vision.mdx` — prose: "The princely vision"
 
 ## Hugh Kennedy, The Great Arab Conquests: How the Spread of Islam Changed the World We Live In
 
