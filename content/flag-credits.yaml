@@ -1,0 +1,62 @@
+# Provenance for every image file under public/flags.
+#
+# This file credits drawings, not scholarship. Nothing here is a source: none of
+# these images is evidence about the past, and none may be cited as one. What a
+# chronicler says about a banner's colour lives in a polity's `banner.attested`
+# and cites sources.yaml; what is drawn in an SVG lives here and cites the person
+# who drew it.
+#
+# The reason it exists at all is that the licences oblige it. CC BY-SA requires
+# attribution in a form the reader can see, so the author and licence are
+# rendered under every image rather than kept in a comment.
+#
+# `drawn_from` records what the uploader says the drawing was based on, and it is
+# the field to read first. Most flag SVGs in circulation for these polities trace
+# back to Pinterest boards, wikis, blogs and in one case a Reddit thread; those
+# were found during this pass and rejected, and the rejections are listed at the
+# foot of this file so the next pass does not have to rediscover them.
+
+credits:
+  - id: abbasid-caliphal-banner
+    file: abbasid.svg
+    author: MWahaiibii
+    licence: CC BY-SA 4.0
+    licence_url: https://creativecommons.org/licenses/by-sa/4.0/
+    url: https://commons.wikimedia.org/wiki/File:Abbasid_Caliphate_Caliphal_Banner.svg
+    retrieved: 2026-09-05
+    drawn_from: >-
+      David Nicolle, Armies of the Muslim Conquest, and Jane Hathaway, A Tale of
+      Two Factions — both real works, which is what separates this file from
+      every other Abbasid banner on Commons. Wikimedia itself tags the result
+      "fictitious"; so does this repository, in the polity data rather than only
+      here, so that the label travels with the picture onto the page.
+
+# ---- Rejected during the caliphates pass, 2026-09-05 ----
+#
+# Kept as a record so these are not re-evaluated from scratch. None of them
+# fails on aesthetics; each fails on where the design came from.
+#
+#   File:Rashidun Flag.svg          — green; uploader's stated source is a Reddit
+#                                     post, and Commons' own accuracy dispute
+#                                     notes tradition gives the Prophet's banner
+#                                     as black. Not shipped.
+#   File:Flag of the Abbasid Dynasty.svg
+#                                   — CC0, and sourced to Pinterest, timetoast
+#                                     and vexilla-mundi. Not shipped.
+#   File:Fatimid Flag.svg           — in Commons' category "Fictional flags of
+#   File:Green swallowtailed flag.svg  historical entities (to be replaced and
+#                                     deleted)". The swallowtail is invented.
+#                                     Not shipped; the cited green renders as a
+#                                     colour band instead.
+#   File:Flag of Abd al-Rahman III of Cordoba.jpg
+#                                   — green with a white eagle, sourced to a
+#                                     WordPress blog. Not shipped.
+#   File:Umayyad Flag.svg           — public domain and correctly sourced to the
+#                                     Iranica sentence, but the file is a plain
+#                                     white rectangle: identical in every pixel
+#                                     to the colour band the page already draws
+#                                     from `attested`, and one more file to keep.
+#                                     Downloaded, compared, deleted.
+#
+# Zubayrid and Abbasid Cairo: nothing exists on Commons for either. The only
+# result was a shop selling a printed "Abbasid Caliphate of Cairo" flag.

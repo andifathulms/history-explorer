@@ -294,6 +294,72 @@ export interface Institutions {
   legitimation: CodedSet<Legitimation> | null
 }
 
+/**
+ * Colours a source actually names for a polity's banner. Closed, and short on
+ * purpose: this vocabulary exists to record a word a chronicler used, not to
+ * describe a design. There is no hex value here and there must never be one —
+ * "green" in Ṭabarī is not #00A651, and picking a shade would be hard rule 2
+ * committed in a colour picker.
+ */
+export const BANNER_COLOURS = ['black', 'white', 'green', 'red', 'gold', 'purple'] as const
+export type BannerColour = (typeof BANNER_COLOURS)[number]
+
+/**
+ * One work naming one colour. A list of these, rather than a single value,
+ * because the sources disagree and the disagreement is the interesting part:
+ * Ṭabarī gives the Umayyad banners as white and Balʿamī as green, and flattening
+ * that to one colour would be the same invention hard rule 2 forbids of numbers.
+ */
+export interface BannerColourAttestation {
+  colour: BannerColour
+  /** The work in sources.yaml that can be opened to check this. */
+  source: SourceId
+  /**
+   * The primary the cited work is itself reporting, named in plain text because
+   * the chain matters and Ṭabarī is not an entry in sources.yaml. Never a
+   * substitute for `source`: it is not a citation, it is what the citation says.
+   */
+  reported_from?: string
+}
+
+/**
+ * A picture file, and what it actually is.
+ *
+ * `status` has no default and cannot be omitted, because the honest answer for
+ * every polity in this corpus so far is `reconstruction` — nobody has a surviving
+ * depiction of an Abbasid standard, and every SVG in circulation was drawn in
+ * the last twenty years. Hard rule 9's principle applies with more force here
+ * than anywhere else on the site: a flag reads as evidence at a glance, and a
+ * reader who screenshots one will not screenshot the caption. So the label is
+ * part of the data, not part of the styling, and the loader refuses a file
+ * without one.
+ */
+export interface BannerImage {
+  /** Basename under /public/flags. */
+  file: string
+  status: 'reconstruction' | 'contemporary'
+  /** Key into content/flag-credits.yaml. Licences here require attribution. */
+  credit: string
+  /** Where the drawing departs from what the cited source describes. */
+  divergence?: string
+}
+
+/**
+ * What is known about how the polity marked itself in the field.
+ *
+ * Independently null like every coded set, and null is the ordinary answer:
+ * most polities here have no cited banner and the page says so in a sentence.
+ * `attested` is never empty — a banner block with no colour in it would be a
+ * claim that someone described a banner and named no colour.
+ */
+export interface Banner {
+  attested: BannerColourAttestation[]
+  /** Prose from the cited work: what was carried, by whom, and when. */
+  description: string
+  source: SourceId
+  image: BannerImage | null
+}
+
 export interface Polity {
   id: PolityId
   /** Which region groups this polity, and whose thread it may stand in. */
@@ -311,6 +377,11 @@ export interface Polity {
   ended: Ending | null
   /** Coded per content/coding-rules.md part three. Fields are independently null. */
   institutions: Institutions
+  /**
+   * Banner colours as cited, and a picture only where one can be credited.
+   * Null is ordinary and common — see the note on Banner.
+   */
+  banner: Banner | null
   /**
    * Dated hinges in this polity's life, in year order. Ordinarily empty, and
    * empty is not a gap: see the note on TurningPoint and hard rule 7, whose
@@ -443,6 +514,28 @@ export interface Chapter {
   body: string
 }
 
+/**
+ * Provenance for one file under public/flags.
+ *
+ * Deliberately not a Source: sources.yaml lists works that support claims about
+ * the past, and none of these files does that. A credit says who drew a picture
+ * and under what terms it may be shown — which for the CC BY-SA files here is a
+ * licence obligation the site has to discharge in visible text.
+ */
+export interface FlagCredit {
+  id: string
+  /** Basename under public/flags, so a credit and its file cannot drift apart. */
+  file: string
+  author: string
+  licence: string
+  licence_url?: string
+  /** The file page it came from, so a reader can check this entry. */
+  url: string
+  retrieved: string
+  /** What the uploader says the drawing was based on. Often the weakest link. */
+  drawn_from?: string
+}
+
 export interface Source {
   id: SourceId
   kind: string
@@ -451,6 +544,9 @@ export interface Source {
   container?: string
   publisher?: string
   edition?: string
+  /** Encyclopaedia entries cite by fascicle and page, not by publisher. */
+  volume?: string
+  pages?: string
   year?: number
   url?: string
   licence?: string
