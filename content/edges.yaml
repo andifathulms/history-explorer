@@ -674,6 +674,26 @@ edges:
     source: manz-1989
     contested: false
 
+  - from: golden-horde
+    to: shaybanid
+    type: partitioned from
+    year: 1500
+    note: "The Uzbek confederation was assembled in the eastern half of the
+           Jochid ulus by descendants of Shiban, Jochi's fifth son, and took
+           Transoxiana on the strength of a claim the Horde's fragmentation had
+           left them still holding."
+    source: di-cosmo-2009
+    contested: false
+
+  - from: timurid
+    to: shaybanid
+    type: conquered by
+    year: 1507
+    note: "Muhammad Shaybani took Samarkand in 1500 and Herat in 1507, ending
+           Timurid rule in Central Asia and driving Babur to Kabul."
+    source: di-cosmo-2009
+    contested: false
+
   - from: safavid
     to: hotaki
     type: overthrew

@@ -1150,6 +1150,19 @@ sources:
       dynastic narrative. Cited for the Qajar record, where the political
       history alone would make the century look like a list of concessions.
 
+  - id: di-cosmo-2009
+    kind: book
+    author: Nicola Di Cosmo, Allen J. Frank and Peter B. Golden (eds)
+    title: "The Cambridge History of Inner Asia: The Chinggisid Age"
+    publisher: Cambridge University Press
+    year: 2009
+    note: >-
+      Covers the Mongol empire, its Chinggisid successor states and the
+      non-Chinggisid dynasties that followed them, from the twelfth century to
+      Russian and Chinese hegemony. Cited for the Uzbek khanate, which this
+      corpus had been naming in prose on two pages while leaving the field that
+      should point at it empty.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors

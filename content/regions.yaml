@@ -49,8 +49,9 @@ regions:
   - id: mongol-world
     name: The Mongol World
     blurb: >-
-      The largest contiguous land empire ever assembled, and the four
-      successor khanates it broke into within two generations of assembling it.
+      The largest contiguous land empire ever assembled, the four successor
+      khanates it broke into within two generations, and the Chinggisid houses
+      still ruling on the strength of that descent three centuries later.
     thread: true
 
   - id: indian-sultanates

@@ -30,9 +30,7 @@ scripts_and_languages:
 
 ended:
   type: conquest
-  # The Uzbek Shaybanids are not on this site and not in the reference set.
-  # Named in the prose rather than given an id that resolves to nothing.
-  by: []
+  by: [shaybanid]
   year: 1507
   source: manz-1989
 

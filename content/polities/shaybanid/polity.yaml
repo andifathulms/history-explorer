@@ -1,0 +1,116 @@
+id: shaybanid
+region: mongol-world
+
+name:
+  latin: Shaybanid Khanate
+  script: شیبانیان
+  script_lang: fa
+
+# The dynasty, not the state it founded. Shaybanid rule at Bukhara ends in 1599
+# and is continued by the Toqay-Timurids, another Jochid line, until 1785 — one
+# Khanate of Bukhara and two houses. This corpus is dynasty-shaped and follows
+# the house.
+span:
+  start: { min: 1500, max: 1500, source: di-cosmo-2009 }
+  end: { min: 1599, max: 1599, source: di-cosmo-2009 }
+
+identity: >-
+  The Uzbek khans who took Samarkand and Herat from Timur's descendants,
+  holding the one qualification Timur had spent his life working around.
+
+capitals:
+  - { name: Samarkand, script: سمرقند, from: 1500, source: di-cosmo-2009 }
+  - { name: Bukhara, script: بخارا, from: 1533, source: di-cosmo-2009 }
+
+core_region: Transoxiana, with Khwarazm and at times Khurasan
+
+rulers:
+  founder: { name: Muhammad Shaybani Khan, reign: [1500, 1510], source: di-cosmo-2009 }
+  peak: { name: Abdullah Khan II, reign: [1583, 1598], source: di-cosmo-2009 }
+  last: { name: Pir Muhammad II, source: di-cosmo-2009 }
+
+scripts_and_languages:
+  administration: [Persian, Chagatai Turkic]
+  writing_system: Perso-Arabic
+
+# The khanate did not end; the house did. It passed to the Toqay-Timurids, a
+# different Jochid line, by marriage and by the exhaustion of the Shaybanid
+# male descent — which is why the type is not conquest and `by` is empty.
+ended:
+  type: dynastic replacement
+  by: []
+  year: 1599
+  source: di-cosmo-2009
+
+institutions:
+  military_basis: { values: [tribal-levy], source: di-cosmo-2009 }
+  # The land tax of Transoxiana's irrigated country and the tolls of the routes
+  # through Bukhara and Samarkand, which carried more traffic in this period
+  # than the older story about the Cape route allows. Unranked.
+  revenue_basis: { values: [land-tax, trade-toll], source: di-cosmo-2009 }
+  # Both, and the pair is the point. Territory was divided among the clan as
+  # appanages, and the khanate itself went to the senior surviving member of
+  # the house rather than to a son — lateral seniority, which is what
+  # `tanistry` names. The Timurids next door carried `appanage` alone and
+  # fought a war at every death; this arrangement produced fewer wars and a
+  # khan who was frequently very old.
+  succession_rule: { values: [tanistry, appanage], source: di-cosmo-2009 }
+  # Descent from Shiban, fifth son of Jochi, son of Chinggis Khan. It is the
+  # exact thing Timur did not have and spent thirty-five years working around
+  # with a puppet khan and a marriage, and it is why his descendants lost their
+  # capital to these people. `conquest` is here too and is the lesser claim.
+  legitimation: { values: [descent, conquest], source: di-cosmo-2009 }
+
+turning_points:
+  - year: 1500
+    type: siege
+    name: "The taking of Samarkand"
+    changed: >-
+      Muhammad Shaybani took Timur's capital from Timur's descendants, and by
+      1507 Herat as well. A hundred and thirty years of Timurid rule in Central
+      Asia ended, one of the losers left for Kabul and founded the Mughal
+      empire, and Transoxiana passed to a house whose claim was the descent the
+      Timurids had always had to borrow.
+    source: di-cosmo-2009
+    contested: false
+  - year: 1510
+    type: battle
+    name: "Merv"
+    changed: >-
+      Shah Isma'il of the Safavids destroyed the Uzbek army and killed
+      Shaybani Khan, then had his skull mounted as a drinking cup and his skin
+      stuffed and sent to the Ottoman sultan. It cost the khanate Khurasan
+      permanently, and it converted a border dispute over Herat into a
+      confessional war between a Sunni khanate and a Shi'i empire.
+    source: di-cosmo-2009
+    contested: false
+  - year: 1512
+    type: battle
+    name: "Ghijduvan"
+    changed: >-
+      The Uzbeks destroyed Babur and the Safavid force sent to restore him,
+      ending the last Timurid attempt on Transoxiana and fixing the Amu Darya
+      as a frontier. It has been one ever since: Central Asia and Iran were
+      Sunni and Shi'i, at war intermittently for two centuries, and stopped
+      being one cultural region.
+    source: di-cosmo-2009
+    contested: false
+  - year: 1588
+    type: siege
+    name: "Abdullah Khan at Herat"
+    changed: >-
+      The khanate's most capable ruler took Herat and much of Khurasan from a
+      Safavid state in the middle of its own succession crisis, reaching the
+      widest extent Uzbek power ever had. It was given back within a decade by
+      Abbas I, and the reach is the measure of what the khanate could do when
+      the neighbour was distracted rather than of what it could hold.
+    source: di-cosmo-2009
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**2038 claims across 112 sources.**
+**2062 claims across 113 sources.**
 
 ## Where to start
 
@@ -1293,6 +1293,37 @@ ordinary state, not an item to clear.
 - [ ] `polity/ottoman` — turning point 1517 Ridaniya, and the Arab lands
 - [ ] `polity/ottoman` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/ottoman` — ended by fragmentation in 1922
+
+## Nicola Di Cosmo, Allen J. Frank and Peter B. Golden (eds), The Cambridge History of Inner Asia: The Chinggisid Age
+
+`di-cosmo-2009` — 24 claims
+
+**Sole source** for `shaybanid` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/shaybanid/01-the-descent.mdx` — prose: "The qualification Timur lacked"
+- [ ] `chapter/shaybanid/02-babur.mdx` — prose: "What it did to Babur"
+- [ ] `chapter/shaybanid/03-the-river.mdx` — prose: "The river becomes a border"
+- [ ] `chapter/shaybanid/04-abdullah-khan.mdx` — prose: "Abdullah Khan"
+- [ ] `chapter/shaybanid/05-bukhara.mdx` — prose: "Bukhara, and the decline that has to be argued for"
+- [ ] `chapter/shaybanid/06-the-line-runs-out.mdx` — prose: "The house ends and the khanate does not"
+- [ ] `edge/golden-horde->shaybanid` — partitioned from in 1500
+- [ ] `edge/timurid->shaybanid` — conquered by in 1507
+- [ ] `polity/shaybanid` — span starts 1500
+- [ ] `polity/shaybanid` — span ends 1599
+- [ ] `polity/shaybanid` — capital Samarkand from 1500
+- [ ] `polity/shaybanid` — capital Bukhara from 1533
+- [ ] `polity/shaybanid` — founder Muhammad Shaybani Khan r. 1500-1510
+- [ ] `polity/shaybanid` — peak Abdullah Khan II r. 1583-1598
+- [ ] `polity/shaybanid` — last Pir Muhammad II
+- [ ] `polity/shaybanid` — military basis coded tribal-levy
+- [ ] `polity/shaybanid` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/shaybanid` — succession rule coded tanistry + appanage
+- [ ] `polity/shaybanid` — legitimation coded descent + conquest
+- [ ] `polity/shaybanid` — turning point 1500 The taking of Samarkand
+- [ ] `polity/shaybanid` — turning point 1510 Merv
+- [ ] `polity/shaybanid` — turning point 1512 Ghijduvan
+- [ ] `polity/shaybanid` — turning point 1588 Abdullah Khan at Herat
+- [ ] `polity/shaybanid` — ended by dynastic replacement in 1599
 
 ## Kenneth R. Hall, A History of Early Southeast Asia: Maritime Trade and Societal Development, 100-1500
 
