@@ -1054,3 +1054,25 @@ edges:
            when there was nobody left to supply it."
     source: finkel-2005
     contested: false
+
+  # ---- What 1204 broke into ----
+
+  - from: byzantine
+    to: trebizond
+    type: partitioned from
+    year: 1204
+    note: "Two grandsons of Andronikos I took the Pontic coast with Georgian
+           troops in the month the Fourth Crusade was sacking Constantinople,
+           and claimed the imperial title along with Nicaea and Epirus."
+    source: treadgold-1997
+    contested: false
+
+  - from: trebizond
+    to: ottoman
+    type: conquered by
+    year: 1461
+    note: "Mehmed II brought an army overland and a fleet along the coast; the
+           city held about a month and David surrendered on 15 August, eight
+           years after Constantinople."
+    source: finkel-2005
+    contested: false

@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1313 claims across 88 sources.**
+**1327 claims across 88 sources.**
 
 ## Where to start
 
@@ -903,6 +903,31 @@ ordinary state, not an item to clear.
 - [ ] `polity/seleucid` — peak Antiochus III r. -222--187
 - [ ] `polity/seleucid` — last Philip II Philoromaeus r. -65--63
 
+## Warren Treadgold, A History of the Byzantine State and Society
+
+`treadgold-1997` — 20 claims
+
+- [ ] `chapter/byzantine/01-the-survivor.mdx` — prose: "The empire that lost half of itself and continued"
+- [ ] `chapter/trebizond/01-two-hundred-miles-of-coast.mdx` — prose: "Two hundred miles of coast"
+- [ ] `edge/byzantine->trebizond` — partitioned from in 1204
+- [ ] `edge/roman->byzantine` — partitioned from in 395
+- [ ] `edge/sasanian->byzantine` — absorbed remnants of in 651
+- [ ] `polity/byzantine` — span starts 395
+- [ ] `polity/byzantine` — span ends 1453
+- [ ] `polity/byzantine` — capital Constantinople from 395
+- [ ] `polity/byzantine` — founder Arcadius r. 395-408
+- [ ] `polity/byzantine` — peak Basil II r. 976-1025
+- [ ] `polity/byzantine` — last Constantine XI r. 1449-1453
+- [ ] `polity/byzantine` — ended by conquest in 1453
+- [ ] `polity/roman` — ended by fragmentation in 395
+- [ ] `polity/trebizond` — span starts 1204
+- [ ] `polity/trebizond` — capital Trebizond from 1204
+- [ ] `polity/trebizond` — founder Alexios I Megas Komnenos r. 1204-1222
+- [ ] `polity/trebizond` — peak Alexios II Megas Komnenos r. 1297-1330
+- [ ] `polity/trebizond` — revenue basis coded trade-toll
+- [ ] `polity/trebizond` — legitimation coded descent + titulature
+- [ ] `polity/trebizond` — turning point 1282 Giving up the imperial title
+
 ## Hugh Kennedy, Muslim Spain and Portugal: A Political History of al-Andalus
 
 `kennedy-1996` — 20 claims
@@ -1048,6 +1073,26 @@ ordinary state, not an item to clear.
 - [ ] `polity/abbasid-cairo` — turning point 1261 Baybars installs a caliph
 - [ ] `polity/abbasid-cairo` — turning point 1412 The caliph who was also sultan
 - [ ] `polity/abbasid-cairo` — ended by conquest in 1517
+
+## Caroline Finkel, Osman's Dream: The Story of the Ottoman Empire 1300-1923
+
+`finkel-2005` — 15 claims
+
+- [ ] `chapter/karamanid/03-two-centuries-of-being-the-rival.mdx` — prose: "Two centuries of being the rival"
+- [ ] `chapter/ottoman/08-1922.mdx` — prose: "The last of the three"
+- [ ] `chapter/trebizond/02-the-last-of-the-romans.mdx` — prose: "The last of them"
+- [ ] `edge/karamanid->ottoman` — conquered by in 1487
+- [ ] `edge/trebizond->ottoman` — conquered by in 1461
+- [ ] `polity/karamanid` — span ends 1487
+- [ ] `polity/karamanid` — turning point 1402 After Ankara
+- [ ] `polity/karamanid` — ended by conquest in 1487
+- [ ] `polity/ottoman` — capital Sogut from 1299
+- [ ] `polity/ottoman` — capital Bursa from 1335
+- [ ] `polity/ottoman` — capital Edirne from 1369
+- [ ] `polity/ottoman` — turning point 1699 Karlowitz
+- [ ] `polity/trebizond` — span ends 1461
+- [ ] `polity/trebizond` — last David Megas Komnenos r. 1459-1461
+- [ ] `polity/trebizond` — ended by conquest in 1461
 
 ## John C. Wilkinson, The Imamate Tradition of Oman
 *In Cambridge Middle East Library.*
@@ -1428,22 +1473,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/aksum` — religions_carried = 1 (Miaphysite Christianity)
 - [ ] `polity/aksum` — ended by gradual absorption in 940
 
-## Warren Treadgold, A History of the Byzantine State and Society
-
-`treadgold-1997` — 11 claims
-
-- [ ] `chapter/byzantine/01-the-survivor.mdx` — prose: "The empire that lost half of itself and continued"
-- [ ] `edge/roman->byzantine` — partitioned from in 395
-- [ ] `edge/sasanian->byzantine` — absorbed remnants of in 651
-- [ ] `polity/byzantine` — span starts 395
-- [ ] `polity/byzantine` — span ends 1453
-- [ ] `polity/byzantine` — capital Constantinople from 395
-- [ ] `polity/byzantine` — founder Arcadius r. 395-408
-- [ ] `polity/byzantine` — peak Basil II r. 976-1025
-- [ ] `polity/byzantine` — last Constantine XI r. 1449-1453
-- [ ] `polity/byzantine` — ended by conquest in 1453
-- [ ] `polity/roman` — ended by fragmentation in 395
-
 ## Rosamond McKitterick, Charlemagne: The Formation of a European Identity
 
 `mckitterick-2008` — 11 claims
@@ -1602,21 +1631,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/han` — last Emperor Xian r. 189-220
 - [ ] `polity/han` — descendant_scripts = 1 (Clerical script)
 - [ ] `polity/han` — ended by fragmentation in 220
-
-## Caroline Finkel, Osman's Dream: The Story of the Ottoman Empire 1300-1923
-
-`finkel-2005` — 10 claims
-
-- [ ] `chapter/karamanid/03-two-centuries-of-being-the-rival.mdx` — prose: "Two centuries of being the rival"
-- [ ] `chapter/ottoman/08-1922.mdx` — prose: "The last of the three"
-- [ ] `edge/karamanid->ottoman` — conquered by in 1487
-- [ ] `polity/karamanid` — span ends 1487
-- [ ] `polity/karamanid` — turning point 1402 After Ankara
-- [ ] `polity/karamanid` — ended by conquest in 1487
-- [ ] `polity/ottoman` — capital Sogut from 1299
-- [ ] `polity/ottoman` — capital Bursa from 1335
-- [ ] `polity/ottoman` — capital Edirne from 1369
-- [ ] `polity/ottoman` — turning point 1699 Karlowitz
 
 ## Fred M. Donner, The Early Islamic Conquests
 

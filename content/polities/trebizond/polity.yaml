@@ -1,0 +1,73 @@
+id: trebizond
+region: anatolia
+
+name:
+  latin: Empire of Trebizond
+  script: Αὐτοκρατορία τῆς Τραπεζοῦντας
+  script_lang: el
+
+span:
+  start: { min: 1204, max: 1204, source: treadgold-1997 }
+  end: { min: 1461, max: 1461, source: finkel-2005 }
+
+identity: >-
+  A Greek empire two hundred miles long on the Black Sea coast, which survived
+  two and a half centuries between mountains and the sea by trade, tribute and
+  marriage, and outlasted Constantinople by eight years.
+
+capitals:
+  - { name: Trebizond, script: Τραπεζοῦς, from: 1204, source: treadgold-1997 }
+
+core_region: The Pontic coast, from Sinop to the Georgian frontier
+
+rulers:
+  founder: { name: Alexios I Megas Komnenos, reign: [1204, 1222], source: treadgold-1997 }
+  peak: { name: Alexios II Megas Komnenos, reign: [1297, 1330], source: treadgold-1997 }
+  last: { name: David Megas Komnenos, reign: [1459, 1461], source: finkel-2005 }
+
+scripts_and_languages:
+  administration: [Greek]
+  writing_system: Greek
+
+ended:
+  type: conquest
+  by: [ottoman]
+  year: 1461
+  source: finkel-2005
+
+institutions:
+  # Null, and it is the point rather than a gap: the state had no field army
+  # worth the name for most of its existence, and the two chapters here are
+  # about what it used instead.
+  military_basis: null
+  # The Black Sea terminus of the overland route from Iran and further east,
+  # which is what the city was for; alum, silver, wine and hazelnuts besides.
+  # After Baghdad fell in 1258 the traffic moved north and Trebizond took it.
+  revenue_basis: { values: [trade-toll], source: treadgold-1997 }
+  succession_rule: null
+  # Descent from the Komnenoi, asserted in the title Megas Komnenos — Grand
+  # Komnenos — which they adopted precisely because the larger claim had been
+  # conceded. The dynasty is the claim.
+  legitimation: { values: [descent, titulature], source: treadgold-1997 }
+
+turning_points:
+  - year: 1282
+    type: treaty
+    name: "Giving up the imperial title"
+    changed: >-
+      After Nicaea retook Constantinople, Trebizond stopped calling itself
+      emperor of the Romans and became emperor of all the East, Iberia and
+      Perateia — a formal renunciation of the claim to be the empire, in
+      exchange for being left alone as something smaller. It is the moment the
+      state stopped competing and started surviving, which it then did for
+      another hundred and seventy-nine years.
+    source: treadgold-1997
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
