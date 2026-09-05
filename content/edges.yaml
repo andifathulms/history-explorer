@@ -1106,3 +1106,36 @@ edges:
            regime is recorded on this site as the same Byzantine polity."
     source: treadgold-1997
     contested: false
+
+  # ---- The two sheep ----
+
+  - from: karakoyunlu
+    to: akkoyunlu
+    type: conquered by
+    year: 1468
+    note: "Uzun Hasan defeated and killed Jahan Shah at Chapakchur in 1467, and
+           the Black Sheep confederation lost Azerbaijan, Iraq and central Iran
+           to the White within a year."
+    source: bosworth-1996
+    contested: false
+
+  - from: akkoyunlu
+    to: safavid
+    type: conquered by
+    year: 1508
+    note: "Isma'il beat the remaining Ak Koyunlu at Nakhchivan in 1501 and took
+           Diyarbakir by 1508, leading Qizilbash drawn from the same Turkmen
+           tribes the confederation had been made of."
+    source: newman-2006
+    contested: false
+
+  - from: trebizond
+    to: akkoyunlu
+    type: vassal of
+    year: 1458
+    note: "John IV married his daughter Theodora to Uzun Hasan in the hope that
+           the Ak Koyunlu would come west if the Ottomans came east; the
+           alliance bound Trebizond to a protector that did not arrive in
+           1461."
+    source: finkel-2005
+    contested: true

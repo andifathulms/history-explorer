@@ -1,0 +1,68 @@
+id: akkoyunlu
+region: later-iran
+name:
+  latin: Ak Koyunlu
+  script: آق‌قویونلو
+  script_lang: fa
+span:
+  start: { min: 1378, max: 1378, source: bosworth-1996 }
+  end: { min: 1501, max: 1508, source: newman-2006, max_source: bosworth-1996 }
+identity: >-
+  The White Sheep: the Turkmen confederation that beat the Black, beat the
+  Timurids, was beaten by the Ottomans, and was dismantled by the Safavids who
+  were made of the same tribes.
+capitals:
+  - { name: Diyarbakir, script: دیاربکر, from: 1378, source: bosworth-1996 }
+  - { name: Tabriz, script: تبریز, from: 1468, source: bosworth-1996 }
+core_region: Eastern Anatolia, Azerbaijan, Iraq and western Iran
+rulers:
+  founder: { name: Qara Yuluk Uthman Beg, source: bosworth-1996 }
+  peak: { name: Uzun Hasan, reign: [1452, 1478], source: bosworth-1996 }
+  last: { name: Sultan Murad, source: bosworth-1996 }
+scripts_and_languages:
+  administration: [Persian, Turkic]
+  writing_system: Perso-Arabic
+ended:
+  type: conquest
+  by: [safavid]
+  year: 1508
+  source: newman-2006
+institutions:
+  military_basis: { values: [tribal-levy], source: bosworth-1996 }
+  revenue_basis: null
+  succession_rule: { values: [appanage], source: bosworth-1996 }
+  # Conquest, and from Uzun Hasan a Persian chancery and a promulgated law code
+  # laid over it — the same movement the Seljuks made four centuries earlier
+  # and the Safavids made thirty years later.
+  legitimation: { values: [conquest], source: bosworth-1996 }
+turning_points:
+  - year: 1469
+    type: battle
+    name: "Qarabagh"
+    changed: >-
+      A year after finishing the Black Sheep, Uzun Hasan defeated and captured
+      the Timurid Abu Sa'id, which ended Timurid power west of Khurasan and
+      left the White Sheep holding Azerbaijan, Iraq and much of Iran. For a
+      decade this was the principal Muslim power between the Ottomans and
+      India.
+    source: bosworth-1996
+    contested: false
+  - year: 1473
+    type: battle
+    name: "Otlukbeli"
+    changed: >-
+      Mehmed II destroyed the Ak Koyunlu army with field artillery and
+      janissary handguns against Turkmen cavalry. The promised Venetian
+      firearms had not arrived. It settled that eastern Anatolia would be
+      Ottoman, and it is the first of the three occasions in forty years —
+      with Chaldiran and Ridaniya on this site's Ottoman page — on which
+      gunpowder decided who ruled the region.
+    source: bosworth-1996
+    contested: false
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1360 claims across 88 sources.**
+**1392 claims across 88 sources.**
 
 ## Where to start
 
@@ -81,11 +81,18 @@ ordinary state, not an item to clear.
 
 ## C. E. Bosworth, The New Islamic Dynasties: A Chronological and Genealogical Manual
 
-`bosworth-1996` — 72 claims
+`bosworth-1996` — 100 claims
 
+**Sole source** for `karakoyunlu` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/akkoyunlu/01-uzun-hasan.mdx` — prose: "Ten years as the strongest power in Iran"
+- [ ] `chapter/akkoyunlu/02-otlukbeli-and-after.mdx` — prose: "What gunpowder settled"
 - [ ] `chapter/kakuyid/03-the-last-one-died-at-qatwan.mdx` — prose: "The last one died at Qatwan"
+- [ ] `chapter/karakoyunlu/01-the-black-sheep.mdx` — prose: "What filled the space"
+- [ ] `chapter/karakoyunlu/02-two-sheep.mdx` — prose: "Why there were two"
 - [ ] `chapter/samanid/01-four-brothers.mdx` — prose: "Four brothers and a governorship"
 - [ ] `edge/kakuyid->great-seljuk` — conquered by in 1051
+- [ ] `edge/karakoyunlu->akkoyunlu` — conquered by in 1468
 - [ ] `edge/tahirid->samanid` — vassal of in 819
 - [ ] `edge/ziyarid->nizari` — conquered by in 1090
 - [ ] `polity/abbasid` — span starts 750
@@ -94,6 +101,18 @@ ordinary state, not an item to clear.
 - [ ] `polity/abbasid` — peak Harun al-Rashid r. 786-809
 - [ ] `polity/abbasid` — last al-Musta'sim r. 1242-1258
 - [ ] `polity/abbasid` — ended by conquest in 1258
+- [ ] `polity/akkoyunlu` — span starts 1378
+- [ ] `polity/akkoyunlu` — span end upper bound 1508
+- [ ] `polity/akkoyunlu` — capital Diyarbakir from 1378
+- [ ] `polity/akkoyunlu` — capital Tabriz from 1468
+- [ ] `polity/akkoyunlu` — founder Qara Yuluk Uthman Beg
+- [ ] `polity/akkoyunlu` — peak Uzun Hasan r. 1452-1478
+- [ ] `polity/akkoyunlu` — last Sultan Murad
+- [ ] `polity/akkoyunlu` — military basis coded tribal-levy
+- [ ] `polity/akkoyunlu` — succession rule coded appanage
+- [ ] `polity/akkoyunlu` — legitimation coded conquest
+- [ ] `polity/akkoyunlu` — turning point 1469 Qarabagh
+- [ ] `polity/akkoyunlu` — turning point 1473 Otlukbeli
 - [ ] `polity/bavandid` — span starts 651
 - [ ] `polity/bavandid` — span ends 1349
 - [ ] `polity/bavandid` — capital Firim
@@ -122,6 +141,17 @@ ordinary state, not an item to clear.
 - [ ] `polity/kakuyid` — last Garshasp II
 - [ ] `polity/kakuyid` — turning point 1051 Isfahan falls to the Seljuks
 - [ ] `polity/kakuyid` — ended by gradual absorption in 1141
+- [ ] `polity/karakoyunlu` — span starts 1374
+- [ ] `polity/karakoyunlu` — span ends 1468
+- [ ] `polity/karakoyunlu` — capital Tabriz
+- [ ] `polity/karakoyunlu` — founder Qara Muhammad
+- [ ] `polity/karakoyunlu` — peak Jahan Shah r. 1438-1467
+- [ ] `polity/karakoyunlu` — last Hasan Ali
+- [ ] `polity/karakoyunlu` — military basis coded tribal-levy
+- [ ] `polity/karakoyunlu` — succession rule coded appanage
+- [ ] `polity/karakoyunlu` — legitimation coded conquest
+- [ ] `polity/karakoyunlu` — turning point 1467 Chapakchur
+- [ ] `polity/karakoyunlu` — ended by conquest in 1468
 - [ ] `polity/khwarazmian` — span start upper bound 1097
 - [ ] `polity/khwarazmian` — span ends 1220
 - [ ] `polity/khwarazmian` — capital Samarkand from 1212
@@ -1083,6 +1113,28 @@ ordinary state, not an item to clear.
 - [ ] `polity/saffarid` — turning point 876 Dayr al-Aqul
 - [ ] `polity/saffarid` — ended by gradual absorption in 1003
 
+## Andrew J. Newman, Safavid Iran: Rebirth of a Persian Empire
+
+`newman-2006` — 17 claims
+
+- [ ] `chapter/safavid/01-a-decreed-confession.mdx` — prose: "A confession imposed by decree"
+- [ ] `chapter/safavid/02-isfahan.mdx` — prose: "Abbas rebuilds"
+- [ ] `edge/akkoyunlu->safavid` — conquered by in 1508
+- [ ] `edge/timurid->safavid` — absorbed remnants of in 1501
+- [ ] `polity/akkoyunlu` — span ends 1501
+- [ ] `polity/akkoyunlu` — ended by conquest in 1508
+- [ ] `polity/safavid` — span starts 1501
+- [ ] `polity/safavid` — span ends 1736
+- [ ] `polity/safavid` — capital Isfahan from 1501
+- [ ] `polity/safavid` — founder Isma'il I r. 1501-1524
+- [ ] `polity/safavid` — peak Abbas I r. 1588-1629
+- [ ] `polity/safavid` — last Abbas III r. 1732-1736
+- [ ] `polity/safavid` — military basis coded tribal-levy + slave-soldier
+- [ ] `polity/safavid` — legitimation coded divine-sanction
+- [ ] `polity/safavid` — turning point 1501 The Shi’i decree at Tabriz
+- [ ] `polity/safavid` — religions_carried = 1 (Twelver Shi'ism)
+- [ ] `polity/safavid` — ended by conquest in 1736
+
 ## Mustafa Banister, The Abbasid Caliphate of Cairo, 1261-1517: Out of the Shadows
 *In Edinburgh Studies in Classical Islamic History and Culture.*
 
@@ -1109,12 +1161,13 @@ ordinary state, not an item to clear.
 
 ## Caroline Finkel, Osman's Dream: The Story of the Ottoman Empire 1300-1923
 
-`finkel-2005` — 15 claims
+`finkel-2005` — 16 claims
 
 - [ ] `chapter/karamanid/03-two-centuries-of-being-the-rival.mdx` — prose: "Two centuries of being the rival"
 - [ ] `chapter/ottoman/08-1922.mdx` — prose: "The last of the three"
 - [ ] `chapter/trebizond/02-the-last-of-the-romans.mdx` — prose: "The last of them"
 - [ ] `edge/karamanid->ottoman` — conquered by in 1487
+- [ ] `edge/trebizond->akkoyunlu` — vassal of in 1458
 - [ ] `edge/trebizond->ottoman` — conquered by in 1461
 - [ ] `polity/karamanid` — span ends 1487
 - [ ] `polity/karamanid` — turning point 1402 After Ankara
@@ -1289,25 +1342,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/mongol` — descendant_scripts = 1 (Mongolian script)
 - [ ] `polity/mongol` — successor_claims = 3 (ilkhanate, chagatai, golden-horde)
 - [ ] `polity/mongol` — ended by fragmentation in 1260
-
-## Andrew J. Newman, Safavid Iran: Rebirth of a Persian Empire
-
-`newman-2006` — 14 claims
-
-- [ ] `chapter/safavid/01-a-decreed-confession.mdx` — prose: "A confession imposed by decree"
-- [ ] `chapter/safavid/02-isfahan.mdx` — prose: "Abbas rebuilds"
-- [ ] `edge/timurid->safavid` — absorbed remnants of in 1501
-- [ ] `polity/safavid` — span starts 1501
-- [ ] `polity/safavid` — span ends 1736
-- [ ] `polity/safavid` — capital Isfahan from 1501
-- [ ] `polity/safavid` — founder Isma'il I r. 1501-1524
-- [ ] `polity/safavid` — peak Abbas I r. 1588-1629
-- [ ] `polity/safavid` — last Abbas III r. 1732-1736
-- [ ] `polity/safavid` — military basis coded tribal-levy + slave-soldier
-- [ ] `polity/safavid` — legitimation coded divine-sanction
-- [ ] `polity/safavid` — turning point 1501 The Shi’i decree at Tabriz
-- [ ] `polity/safavid` — religions_carried = 1 (Twelver Shi'ism)
-- [ ] `polity/safavid` — ended by conquest in 1736
 
 ## Pierre Briant, From Cyrus to Alexander: A History of the Persian Empire
 

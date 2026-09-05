@@ -1,0 +1,51 @@
+id: karakoyunlu
+region: later-iran
+name:
+  latin: Kara Koyunlu
+  script: قره‌قویونلو
+  script_lang: fa
+span:
+  start: { min: 1374, max: 1374, source: bosworth-1996 }
+  end: { min: 1468, max: 1468, source: bosworth-1996 }
+identity: >-
+  The Black Sheep: an Oghuz Turkmen confederation that took Azerbaijan and Iraq
+  out of the wreckage the Ilkhanate and Timur left, and lost them to the other
+  one.
+capitals:
+  - { name: Tabriz, script: تبریز, source: bosworth-1996 }
+core_region: Azerbaijan, eastern Anatolia and Iraq
+rulers:
+  founder: { name: Qara Muhammad, source: bosworth-1996 }
+  peak: { name: Jahan Shah, reign: [1438, 1467], source: bosworth-1996 }
+  last: { name: Hasan Ali, source: bosworth-1996 }
+scripts_and_languages:
+  administration: [Persian, Turkic]
+  writing_system: Perso-Arabic
+ended:
+  type: conquest
+  by: [akkoyunlu]
+  year: 1468
+  source: bosworth-1996
+institutions:
+  military_basis: { values: [tribal-levy], source: bosworth-1996 }
+  revenue_basis: null
+  succession_rule: { values: [appanage], source: bosworth-1996 }
+  legitimation: { values: [conquest], source: bosworth-1996 }
+turning_points:
+  - year: 1467
+    type: battle
+    name: "Chapakchur"
+    changed: >-
+      Jahan Shah, who had held Azerbaijan, Iraq and much of central Iran for
+      thirty years and was the strongest ruler in the region, was defeated and
+      killed by Uzun Hasan. Within a year the confederation had lost everything
+      to its rival, and the two sheep were one.
+    source: bosworth-1996
+    contested: false
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
