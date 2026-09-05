@@ -48,10 +48,43 @@ ended:
   source: busse-1975
 
 institutions:
-  military_basis: { values: [mercenary], source: iranica-al-e-buya }
-  revenue_basis: null
-  succession_rule: null
+  # Two values and the change between them is the polity. The family arrived as
+  # Daylami mercenary captains for hire; the state they built paid its soldiers
+  # by assigning them the revenue of districts, which is the iqta and is what
+  # `land-grant` covers.
+  military_basis: { values: [mercenary, land-grant], source: chi-4 }
+  # The Sawad, the alluvium of lower Iraq — assigned out as iqta rather than
+  # collected centrally, and declining under the arrangement.
+  revenue_basis: { values: [land-tax], source: chi-4 }
+  # Three amirates held by different members of the house under a senior amir,
+  # with lands divided among sons at each death. It is the same patrimonial
+  # logic this site codes on the Seljuks, Ayyubids, Mongols and Ghurids, and
+  # here it produced a hundred years of family war after 983.
+  succession_rule: { values: [appanage], source: chi-4 }
   legitimation: { values: [titulature], source: busse-1975 }
+
+turning_points:
+  - year: 962
+    type: reform
+    name: "Ashura in the streets of Baghdad"
+    changed: >-
+      Mu'izz al-Dawla licensed the public observance of Ashura and Ghadir Khumm
+      in the caliph's own city. Shi'i practice became visible, funded and
+      official in the Sunni imperial centre — and produced Sunni
+      counter-processions and periodic rioting, which is part of how two
+      positions in an argument became two separable traditions.
+    source: busse-1975
+    contested: false
+  - year: 983
+    type: succession-crisis
+    name: "The death of Adud al-Dawla"
+    changed: >-
+      The one Buyid who had held the whole domain as a single thing died, and
+      it was never held that way again. A confederation of cousins with no
+      succession law, no capital and no mechanism for producing another Adud
+      al-Dawla produced a hundred years of family war instead.
+    source: busse-1975
+    contested: false
 
 measures:
   reach_km2: null

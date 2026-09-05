@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1147 claims across 84 sources.**
+**1152 claims across 84 sources.**
 
 ## Where to start
 
@@ -886,6 +886,45 @@ ordinary state, not an item to clear.
 - [ ] `polity/samanid` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/samanid` — ended by conquest in 999
 
+## Heribert Busse, Iran under the Buyids
+*In The Cambridge History of Iran, Volume 4.*
+
+`busse-1975` — 14 claims
+
+- [ ] `chapter/buyid/03-shahanshah.mdx` — prose: "Adud al-Dawla takes an old title"
+- [ ] `chapter/buyid/04-the-shii-century.mdx` — prose: "The Shi'i century, mostly in Arabic"
+- [ ] `chapter/buyid/05-the-arrangement-fails.mdx` — prose: "What the arrangement could not survive"
+- [ ] `edge/abbasid->buyid` — vassal of in 945
+- [ ] `edge/buyid->great-seljuk` — overthrew in 1055
+- [ ] `edge/sasanian->buyid` — claimed legitimacy of in 962
+- [ ] `polity/buyid` — capital Baghdad from 945
+- [ ] `polity/buyid` — legitimation coded titulature
+- [ ] `polity/buyid` — turning point 962 Ashura in the streets of Baghdad
+- [ ] `polity/buyid` — turning point 983 The death of Adud al-Dawla
+- [ ] `polity/buyid` — religions_carried = 1 (Twelver Shi'ism)
+- [ ] `polity/buyid` — successor_claims = 0
+- [ ] `polity/buyid` — ended by conquest in 1055
+- [ ] `polity/sasanian` — successor_claims = 1 (Buyid Confederation)
+
+## R. N. Frye (ed.), The Cambridge History of Iran, Volume 4: From the Arab Invasion to the Saljuqs
+
+`chi-4` — 14 claims
+
+- [ ] `chapter/buyid/01-down-from-daylam.mdx` — prose: "Down from Daylam"
+- [ ] `chapter/buyid/02-paying-an-army-with-land.mdx` — prose: "Paying an army with land"
+- [ ] `chapter/samanid/04-the-trade-in-men.mdx` — prose: "The trade the whole system ran on"
+- [ ] `chapter/samanid/06-943.mdx` — prose: "The year the army chose the amir"
+- [ ] `chapter/tahirid/03-the-other-half.mdx` — prose: "The family that also policed Baghdad"
+- [ ] `polity/buyid` — military basis coded mercenary + land-grant
+- [ ] `polity/buyid` — revenue basis coded land-tax
+- [ ] `polity/buyid` — succession rule coded appanage
+- [ ] `polity/samanid` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/samanid` — succession rule coded nomination
+- [ ] `polity/samanid` — turning point 943 The deposition of Nasr II (contested)
+- [ ] `polity/tahirid` — military basis coded standing-professional
+- [ ] `polity/tahirid` — revenue basis coded land-tax
+- [ ] `polity/tahirid` — turning point 865 Baghdad besieged, and a caliph traded
+
 ## C. E. Bosworth, GHURIDS
 *In Encyclopaedia Iranica.*
 <https://iranicaonline.org/articles/ghurids>
@@ -1234,23 +1273,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/aksum` — religions_carried = 1 (Miaphysite Christianity)
 - [ ] `polity/aksum` — ended by gradual absorption in 940
 
-## Heribert Busse, Iran under the Buyids
-*In The Cambridge History of Iran, Volume 4.*
-
-`busse-1975` — 11 claims
-
-- [ ] `chapter/buyid/03-shahanshah.mdx` — prose: "Adud al-Dawla takes an old title"
-- [ ] `chapter/buyid/04-the-arrangement-fails.mdx` — prose: "What the arrangement could not survive"
-- [ ] `edge/abbasid->buyid` — vassal of in 945
-- [ ] `edge/buyid->great-seljuk` — overthrew in 1055
-- [ ] `edge/sasanian->buyid` — claimed legitimacy of in 962
-- [ ] `polity/buyid` — capital Baghdad from 945
-- [ ] `polity/buyid` — legitimation coded titulature
-- [ ] `polity/buyid` — religions_carried = 1 (Twelver Shi'ism)
-- [ ] `polity/buyid` — successor_claims = 0
-- [ ] `polity/buyid` — ended by conquest in 1055
-- [ ] `polity/sasanian` — successor_claims = 1 (Buyid Confederation)
-
 ## Warren Treadgold, A History of the Byzantine State and Society
 
 `treadgold-1997` — 11 claims
@@ -1396,21 +1418,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/abbasid` — turning point 861 The anarchy at Samarra
 - [ ] `polity/abbasid` — successor_claims = 1 (Abbasid Caliphate of Cairo)
 
-## R. N. Frye (ed.), The Cambridge History of Iran, Volume 4: From the Arab Invasion to the Saljuqs
-
-`chi-4` — 10 claims
-
-- [ ] `chapter/buyid/02-daylam.mdx` — prose: "Down from Daylam"
-- [ ] `chapter/samanid/04-the-trade-in-men.mdx` — prose: "The trade the whole system ran on"
-- [ ] `chapter/samanid/06-943.mdx` — prose: "The year the army chose the amir"
-- [ ] `chapter/tahirid/03-the-other-half.mdx` — prose: "The family that also policed Baghdad"
-- [ ] `polity/samanid` — revenue basis coded land-tax + trade-toll
-- [ ] `polity/samanid` — succession rule coded nomination
-- [ ] `polity/samanid` — turning point 943 The deposition of Nasr II (contested)
-- [ ] `polity/tahirid` — military basis coded standing-professional
-- [ ] `polity/tahirid` — revenue basis coded land-tax
-- [ ] `polity/tahirid` — turning point 865 Baghdad besieged, and a caliph traded
-
 ## Michal Biran, Qaidu and the Rise of the Independent Mongol State in Central Asia
 
 `biran-1997` — 10 claims
@@ -1525,19 +1532,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/tang` — last Emperor Ai r. 904-907
 - [ ] `polity/tang` — religions_carried = 1 (Mahayana Buddhism)
 
-## Tilman Nagel and others, AL-E BUYA
-*In Encyclopaedia Iranica.*
-<https://iranicaonline.org/articles/al-e-buya>
-
-`iranica-al-e-buya` — 6 claims
-
-- [ ] `chapter/buyid/01-down-from-daylam.mdx` — prose: "Down from Daylam"
-- [ ] `polity/buyid` — span end upper bound 1062
-- [ ] `polity/buyid` — capital Shiraz from 934
-- [ ] `polity/buyid` — capital Rayy from 943
-- [ ] `polity/buyid` — military basis coded mercenary
-- [ ] `polity/buyid` — descendant_scripts = 0
-
 ## multiple contributors, SALJUQS
 *In Encyclopaedia Iranica.*
 <https://iranicaonline.org/articles/saljuqs>
@@ -1573,6 +1567,17 @@ ordinary state, not an item to clear.
 - [ ] `chapter/umayyad/05-khalifat-allah.mdx` — prose: "What they called themselves"
 - [ ] `polity/abbasid` — turning point 833 The mihna
 - [ ] `polity/umayyad` — legitimation coded divine-sanction + descent
+
+## Tilman Nagel and others, AL-E BUYA
+*In Encyclopaedia Iranica.*
+<https://iranicaonline.org/articles/al-e-buya>
+
+`iranica-al-e-buya` — 4 claims
+
+- [ ] `polity/buyid` — span end upper bound 1062
+- [ ] `polity/buyid` — capital Shiraz from 934
+- [ ] `polity/buyid` — capital Rayy from 943
+- [ ] `polity/buyid` — descendant_scripts = 0
 
 ## multiple contributors, ABBASID CALIPHATE
 *In Encyclopaedia Iranica.*
