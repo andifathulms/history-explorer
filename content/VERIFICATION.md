@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1157 claims across 85 sources.**
+**1165 claims across 85 sources.**
 
 ## Where to start
 
@@ -596,6 +596,35 @@ ordinary state, not an item to clear.
 - [ ] `polity/neo-assyrian` — last Ashur-uballit II r. -612--609
 - [ ] `polity/neo-assyrian` — ended by conquest in -609
 
+## C. E. Bosworth, The Political and Dynastic History of the Iranian World (A.D. 1000-1217)
+*In The Cambridge History of Iran, Volume 5.*
+
+`bosworth-1968` — 23 claims
+
+- [ ] `chapter/great-seljuk/02-the-followers-they-could-not-hold.mdx` — prose: "The followers they could not hold"
+- [ ] `chapter/great-seljuk/03-tughril-in-baghdad.mdx` — prose: "The same room, a different man"
+- [ ] `chapter/great-seljuk/04-manzikert.mdx` — prose: "Manzikert"
+- [ ] `chapter/great-seljuk/05-nizam-al-mulk.mdx` — prose: "Nizam al-Mulk's twenty years"
+- [ ] `chapter/great-seljuk/06-the-siyasatnama.mdx` — prose: "The book of government"
+- [ ] `chapter/great-seljuk/07-a-family-not-a-state.mdx` — prose: "A family and not a state"
+- [ ] `chapter/khwarazmian/02-taking-the-sultanate.mdx` — prose: "Taking the title as well"
+- [ ] `edge/ghaznavid->great-seljuk` — conquered by in 1040
+- [ ] `edge/great-seljuk->khwarazmian` — overthrew in 1194
+- [ ] `edge/great-seljuk->khwarazmian` — claimed legitimacy of in 1194
+- [ ] `polity/great-seljuk` — span ends 1194
+- [ ] `polity/great-seljuk` — capital Isfahan from 1051
+- [ ] `polity/great-seljuk` — peak Malik-Shah I r. 1072-1092
+- [ ] `polity/great-seljuk` — military basis coded tribal-levy + land-grant
+- [ ] `polity/great-seljuk` — revenue basis coded land-tax
+- [ ] `polity/great-seljuk` — succession rule coded appanage
+- [ ] `polity/great-seljuk` — legitimation coded caliphal-investiture
+- [ ] `polity/great-seljuk` — turning point 1055 Tughril takes the sultanate
+- [ ] `polity/great-seljuk` — turning point 1071 Manzikert
+- [ ] `polity/great-seljuk` — turning point 1092 Nizam al-Mulk and Malik-Shah die a month apart
+- [ ] `polity/great-seljuk` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/great-seljuk` — successor_claims = 2 (Sultanate of Rum, khwarazmian)
+- [ ] `polity/great-seljuk` — ended by conquest in 1194
+
 ## Kenneth R. Hall, A History of Early Southeast Asia: Maritime Trade and Societal Development, 100-1500
 
 `hall-2011` — 23 claims
@@ -840,27 +869,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/ghaznavid` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/samanid` — military basis coded slave-soldier
 - [ ] `polity/samanid` — successor_claims = 1 (ghaznavid)
-
-## C. E. Bosworth, The Political and Dynastic History of the Iranian World (A.D. 1000-1217)
-*In The Cambridge History of Iran, Volume 5.*
-
-`bosworth-1968` — 15 claims
-
-- [ ] `chapter/great-seljuk/02-tughril-in-baghdad.mdx` — prose: "The same room, a different man"
-- [ ] `chapter/great-seljuk/03-nizam-al-mulk.mdx` — prose: "Nizam al-Mulk's twenty years"
-- [ ] `chapter/great-seljuk/04-a-family-not-a-state.mdx` — prose: "A family and not a state"
-- [ ] `chapter/khwarazmian/02-taking-the-sultanate.mdx` — prose: "Taking the title as well"
-- [ ] `edge/ghaznavid->great-seljuk` — conquered by in 1040
-- [ ] `edge/great-seljuk->khwarazmian` — overthrew in 1194
-- [ ] `edge/great-seljuk->khwarazmian` — claimed legitimacy of in 1194
-- [ ] `polity/great-seljuk` — span ends 1194
-- [ ] `polity/great-seljuk` — capital Isfahan from 1051
-- [ ] `polity/great-seljuk` — peak Malik-Shah I r. 1072-1092
-- [ ] `polity/great-seljuk` — military basis coded tribal-levy + land-grant
-- [ ] `polity/great-seljuk` — revenue basis coded land-tax
-- [ ] `polity/great-seljuk` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/great-seljuk` — successor_claims = 2 (Sultanate of Rum, khwarazmian)
-- [ ] `polity/great-seljuk` — ended by conquest in 1194
 
 ## John C. Wilkinson, The Imamate Tradition of Oman
 *In Cambridge Middle East Library.*

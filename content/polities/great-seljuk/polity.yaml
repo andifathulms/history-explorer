@@ -50,8 +50,17 @@ ended:
 institutions:
   military_basis: { values: [tribal-levy, land-grant], source: bosworth-1968 }
   revenue_basis: { values: [land-tax], source: bosworth-1968 }
-  succession_rule: null
-  legitimation: null
+  # Territory appanaged to brothers, sons and nephews, each young prince with
+  # an atabeg as guardian running the province in his name. It worked while a
+  # strong sultan could arbitrate and inverted with total predictability when
+  # one could not: the Zangids, Eldiguzids and Salghurids all begin as
+  # guardians of Seljuk children.
+  succession_rule: { values: [appanage], source: bosworth-1968 }
+  # The caliph's grant, and under the Seljuks it stopped being an honorific
+  # attached to a particular strongman: the sultanate became a standing office
+  # with a chancery and a defined relationship to the caliphate, each party
+  # legitimating the other.
+  legitimation: { values: [caliphal-investiture], source: bosworth-1968 }
 
 turning_points:
   - year: 1040
@@ -64,6 +73,43 @@ turning_points:
       Khurasan. The Ghaznavid state did not fail with it; it went on
       functioning in India for another century and a half.
     source: iranica-saljuqs
+    contested: false
+
+  - year: 1055
+    type: reform
+    name: "Tughril takes the sultanate"
+    changed: >-
+      The caliph granted a title to the man who had just taken his city, which
+      had happened before — but under the Seljuks sultan stopped being an
+      honorific attached to a strongman and became a standing office with a
+      chancery, a succession and a settled division of labour: religious
+      authority to the caliph, temporal power to the sultan, each legitimating
+      the other. That arrangement outlived every polity that used it.
+    source: bosworth-1968
+    contested: false
+  - year: 1071
+    type: battle
+    name: "Manzikert"
+    changed: >-
+      Alp Arslan destroyed a Byzantine army and captured the emperor in a
+      battle he had not sought, while campaigning the other way. What followed
+      was not the loss of an army but the collapse of the Anatolian frontier
+      settlement during a decade of Byzantine civil war, into which the Turkmen
+      already pressing on it moved — producing a Turkish sultanate at Nicaea
+      within twenty years, a Byzantine appeal west that became the First
+      Crusade, and an Anatolia that has been Turkish-speaking since.
+    source: bosworth-1968
+    contested: false
+  - year: 1092
+    type: succession-crisis
+    name: "Nizam al-Mulk and Malik-Shah die a month apart"
+    changed: >-
+      The vizier who had built and run the administration for thirty years was
+      assassinated, and the sultan he had managed died within the month. An
+      empire held as a family possession, with no rule for choosing between
+      claimants and a generation of princes each with an atabeg of his own,
+      never had a single undisputed ruler again.
+    source: bosworth-1968
     contested: false
 
 measures:
