@@ -21,7 +21,10 @@ core_region: Egypt and Syria
 
 rulers:
   founder: { name: Aybak, reign: [1250, 1257], source: petry-1998 }
-  peak: { name: Baybars, reign: [1260, 1277], source: petry-1998 }
+  # Baybars built the machine; al-Nasir Muhammad's third reign is the thirty-one
+  # years it ran at its widest, richest and least interrupted, which is what this
+  # field asks. The chapters carry both.
+  peak: { name: al-Nasir Muhammad, reign: [1310, 1341], source: irwin-1986 }
   last: { name: Tuman Bay II, reign: [1516, 1517], source: petry-1998 }
 
 scripts_and_languages:
@@ -35,10 +38,20 @@ ended:
   source: petry-1998
 
 institutions:
+  # Purchase, and only purchase. The freeborn halqa existed and decayed, and the
+  # awlad al-nas were repeatedly promoted and never allowed to inherit; neither
+  # displaced the buying of boys as the way the army was raised.
   military_basis: { values: [slave-soldier], source: petry-1998 }
-  revenue_basis: null
+  # Iqta' revenue off Egyptian agriculture, the customs of Alexandria and the
+  # Red Sea, and from Barsbay onward a state monopoly on the spice trade that a
+  # source treats as a structural change rather than one sultan's expedient.
+  # Unranked.
+  revenue_basis: { values: [land-tax, trade-toll, monopoly], source: petry-1998 }
   succession_rule: { values: [factional], source: petry-1998 }
-  legitimation: null
+  # Every sultan was invested by the Abbasid caliph the sultanate kept in Cairo.
+  # It was the only public ground available to a purchased soldier who had
+  # usually killed his predecessor, and it is why the caliphate was revived.
+  legitimation: { values: [caliphal-investiture], source: banister-2021 }
 
 turning_points:
   - year: 1260
@@ -49,6 +62,50 @@ turning_points:
       year-old sultanate rather than to the Ilkhanate, and Baybars spent the
       following seventeen years making it a Mamluk province and reducing the
       Crusader states to a coastal strip.
+    source: petry-1998
+    contested: false
+  - year: 1291
+    type: siege
+    name: "The fall of Acre"
+    changed: >-
+      The last Frankish mainland port was taken and the Syrian coast was then
+      deliberately demolished rather than garrisoned, on the reasoning that a
+      land power could not defend harbours against a sea power. It ended the
+      Crusader states, removed the sultanate's founding justification, and left
+      coastal Syria derelict for the rest of the Middle Ages.
+    source: irwin-1986
+    contested: false
+  - year: 1315
+    type: reform
+    name: "The rawk al-nasiri"
+    changed: >-
+      A cadastral survey and general reassignment of iqta' across Egypt moved
+      land out of the great households and enlarged the sultan's own share to
+      roughly a third, cutting the emirs' independent revenue. It is how
+      al-Nasir Muhammad held the throne for thirty-one years in a polity where
+      the average was closer to three.
+    source: irwin-1986
+    contested: false
+  - year: 1347
+    type: catastrophe
+    name: "The Black Death"
+    changed: >-
+      Plague arrived and then returned about every decade, and because the army
+      was paid out of agricultural assignments the loss of labour cut directly
+      into how many mamluks any household could buy and maintain. The military
+      contraction and the factional wars of the following two generations run
+      from this rather than from any defeat.
+    source: petry-1998
+    contested: false
+  - year: 1516
+    type: battle
+    name: "Marj Dabiq"
+    changed: >-
+      Ottoman field artillery broke the Mamluk cavalry north of Aleppo, the
+      governor of Aleppo changed sides and the sultan died on the field; Syria
+      was lost in weeks and Cairo followed within five months. It ended the
+      sultanate, though not the mamluk households, which were still governing
+      Egypt three hundred years later.
     source: petry-1998
     contested: false
 
