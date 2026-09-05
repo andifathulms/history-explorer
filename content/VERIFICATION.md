@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1630 claims across 89 sources.**
+**1632 claims across 89 sources.**
 
 ## Where to start
 
@@ -81,7 +81,7 @@ ordinary state, not an item to clear.
 
 ## Jamil M. Abun-Nasr, A History of the Maghrib in the Islamic Period
 
-`abun-nasr-1987` — 172 claims
+`abun-nasr-1987` — 174 claims
 
 **Sole source** for `hafsid`, `idrisid`, `marinid`, `wattasid`, `zayyanid`, `zirid` — nothing else in the corpus can contradict a misreading here.
 
@@ -112,7 +112,9 @@ ordinary state, not an item to clear.
 - [ ] `chapter/saadi/04-what-came-after-the-gold.mdx` — prose: "What came after"
 - [ ] `chapter/umayyad/07-the-berber-revolt.mdx` — prose: "Where it broke first"
 - [ ] `chapter/wattasid/01-the-regents.mdx` — prose: "The regents who stopped pretending"
-- [ ] `chapter/wattasid/02-out-of-fez.mdx` — prose: "Squeezed out of the middle"
+- [ ] `chapter/wattasid/02-the-city-that-filled-up.mdx` — prose: "The city that filled up"
+- [ ] `chapter/wattasid/03-the-envoy-who-ended-up-in-rome.mdx` — prose: "The envoy who ended up in Rome"
+- [ ] `chapter/wattasid/04-out-of-fez.mdx` — prose: "Squeezed out of the middle"
 - [ ] `chapter/zayyanid/01-the-crossroads.mdx` — prose: "The crossroads"
 - [ ] `chapter/zayyanid/02-a-city-built-to-take-a-city.mdx` — prose: "A city built to take a city"
 - [ ] `chapter/zayyanid/03-the-funduk.mdx` — prose: "Where the gold changed hands"
