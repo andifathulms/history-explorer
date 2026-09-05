@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1165 claims across 85 sources.**
+**1173 claims across 85 sources.**
 
 ## Where to start
 
@@ -464,6 +464,42 @@ ordinary state, not an item to clear.
 - [ ] `polity/zubayrid` — turning point 691 Maskin
 - [ ] `polity/zubayrid` — ended by conquest in 692
 
+## C. E. Bosworth, The Political and Dynastic History of the Iranian World (A.D. 1000-1217)
+*In The Cambridge History of Iran, Volume 5.*
+
+`bosworth-1968` — 30 claims
+
+- [ ] `chapter/great-seljuk/02-the-followers-they-could-not-hold.mdx` — prose: "The followers they could not hold"
+- [ ] `chapter/great-seljuk/03-tughril-in-baghdad.mdx` — prose: "The same room, a different man"
+- [ ] `chapter/great-seljuk/04-manzikert.mdx` — prose: "Manzikert"
+- [ ] `chapter/great-seljuk/05-nizam-al-mulk.mdx` — prose: "Nizam al-Mulk's twenty years"
+- [ ] `chapter/great-seljuk/06-the-siyasatnama.mdx` — prose: "The book of government"
+- [ ] `chapter/great-seljuk/07-a-family-not-a-state.mdx` — prose: "A family and not a state"
+- [ ] `chapter/khwarazmian/02-taking-the-sultanate.mdx` — prose: "Taking the title as well"
+- [ ] `chapter/khwarazmian/03-throwing-off-the-qara-khitai.mdx` — prose: "Throwing off one overlord and finding another"
+- [ ] `edge/ghaznavid->great-seljuk` — conquered by in 1040
+- [ ] `edge/great-seljuk->khwarazmian` — overthrew in 1194
+- [ ] `edge/great-seljuk->khwarazmian` — claimed legitimacy of in 1194
+- [ ] `polity/great-seljuk` — span ends 1194
+- [ ] `polity/great-seljuk` — capital Isfahan from 1051
+- [ ] `polity/great-seljuk` — peak Malik-Shah I r. 1072-1092
+- [ ] `polity/great-seljuk` — military basis coded tribal-levy + land-grant
+- [ ] `polity/great-seljuk` — revenue basis coded land-tax
+- [ ] `polity/great-seljuk` — succession rule coded appanage
+- [ ] `polity/great-seljuk` — legitimation coded caliphal-investiture
+- [ ] `polity/great-seljuk` — turning point 1055 Tughril takes the sultanate
+- [ ] `polity/great-seljuk` — turning point 1071 Manzikert
+- [ ] `polity/great-seljuk` — turning point 1092 Nizam al-Mulk and Malik-Shah die a month apart
+- [ ] `polity/great-seljuk` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/great-seljuk` — successor_claims = 2 (Sultanate of Rum, khwarazmian)
+- [ ] `polity/great-seljuk` — ended by conquest in 1194
+- [ ] `polity/khwarazmian` — military basis coded slave-soldier + tribal-levy
+- [ ] `polity/khwarazmian` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/khwarazmian` — succession rule coded nomination
+- [ ] `polity/khwarazmian` — legitimation coded titulature
+- [ ] `polity/khwarazmian` — turning point 1210 Breaking the Qara Khitai
+- [ ] `polity/khwarazmian` — turning point 1217 A rival caliph, and snow in the Zagros
+
 ## Rein Taagepera, Size and Duration of Empires: Growth-Decline Curves, 600 B.C. to 600 A.D.
 *In Social Science History 3(3/4), 115-138.*
 
@@ -595,35 +631,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/neo-assyrian` — peak Ashurbanipal r. -669--631
 - [ ] `polity/neo-assyrian` — last Ashur-uballit II r. -612--609
 - [ ] `polity/neo-assyrian` — ended by conquest in -609
-
-## C. E. Bosworth, The Political and Dynastic History of the Iranian World (A.D. 1000-1217)
-*In The Cambridge History of Iran, Volume 5.*
-
-`bosworth-1968` — 23 claims
-
-- [ ] `chapter/great-seljuk/02-the-followers-they-could-not-hold.mdx` — prose: "The followers they could not hold"
-- [ ] `chapter/great-seljuk/03-tughril-in-baghdad.mdx` — prose: "The same room, a different man"
-- [ ] `chapter/great-seljuk/04-manzikert.mdx` — prose: "Manzikert"
-- [ ] `chapter/great-seljuk/05-nizam-al-mulk.mdx` — prose: "Nizam al-Mulk's twenty years"
-- [ ] `chapter/great-seljuk/06-the-siyasatnama.mdx` — prose: "The book of government"
-- [ ] `chapter/great-seljuk/07-a-family-not-a-state.mdx` — prose: "A family and not a state"
-- [ ] `chapter/khwarazmian/02-taking-the-sultanate.mdx` — prose: "Taking the title as well"
-- [ ] `edge/ghaznavid->great-seljuk` — conquered by in 1040
-- [ ] `edge/great-seljuk->khwarazmian` — overthrew in 1194
-- [ ] `edge/great-seljuk->khwarazmian` — claimed legitimacy of in 1194
-- [ ] `polity/great-seljuk` — span ends 1194
-- [ ] `polity/great-seljuk` — capital Isfahan from 1051
-- [ ] `polity/great-seljuk` — peak Malik-Shah I r. 1072-1092
-- [ ] `polity/great-seljuk` — military basis coded tribal-levy + land-grant
-- [ ] `polity/great-seljuk` — revenue basis coded land-tax
-- [ ] `polity/great-seljuk` — succession rule coded appanage
-- [ ] `polity/great-seljuk` — legitimation coded caliphal-investiture
-- [ ] `polity/great-seljuk` — turning point 1055 Tughril takes the sultanate
-- [ ] `polity/great-seljuk` — turning point 1071 Manzikert
-- [ ] `polity/great-seljuk` — turning point 1092 Nizam al-Mulk and Malik-Shah die a month apart
-- [ ] `polity/great-seljuk` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/great-seljuk` — successor_claims = 2 (Sultanate of Rum, khwarazmian)
-- [ ] `polity/great-seljuk` — ended by conquest in 1194
 
 ## Kenneth R. Hall, A History of Early Southeast Asia: Maritime Trade and Societal Development, 100-1500
 
@@ -995,6 +1002,25 @@ ordinary state, not an item to clear.
 - [ ] `polity/karakhanid` — turning point 1141 Qatwan
 - [ ] `polity/karakhanid` — ended by conquest in 1212
 
+## David Morgan, The Mongols
+
+`morgan-2007` — 14 claims
+
+- [ ] `chapter/khwarazmian/05-the-man-who-wrote-it-down.mdx` — prose: "The man who wrote it down worked for them"
+- [ ] `chapter/mongol/01-1206.mdx` — prose: "What was assembled in 1206"
+- [ ] `chapter/mongol/02-westward.mdx` — prose: "Westward, and the numbers problem"
+- [ ] `edge/abbasid->mongol` — conquered by in 1258
+- [ ] `edge/jin->mongol` — conquered by in 1234
+- [ ] `polity/mongol` — span starts 1206
+- [ ] `polity/mongol` — span ends 1260
+- [ ] `polity/mongol` — capital Karakorum from 1235
+- [ ] `polity/mongol` — founder Chinggis Khan r. 1206-1227
+- [ ] `polity/mongol` — peak Mongke r. 1251-1259
+- [ ] `polity/mongol` — last Kublai Khan r. 1260-1294
+- [ ] `polity/mongol` — descendant_scripts = 1 (Mongolian script)
+- [ ] `polity/mongol` — successor_claims = 3 (ilkhanate, chagatai, golden-horde)
+- [ ] `polity/mongol` — ended by fragmentation in 1260
+
 ## Andrew J. Newman, Safavid Iran: Rebirth of a Persian Empire
 
 `newman-2006` — 14 claims
@@ -1039,8 +1065,8 @@ ordinary state, not an item to clear.
 `iranica-khwarazmshahs` — 13 claims
 
 - [ ] `chapter/khwarazmian/01-a-post-on-the-oxus.mdx` — prose: "A post on the lower Oxus"
-- [ ] `chapter/khwarazmian/03-otrar.mdx` — prose: "Otrar"
-- [ ] `chapter/khwarazmian/04-the-thread-stops.mdx` — prose: "Where the thread stops"
+- [ ] `chapter/khwarazmian/04-otrar.mdx` — prose: "Otrar"
+- [ ] `chapter/khwarazmian/06-the-thread-stops.mdx` — prose: "Where the thread stops"
 - [ ] `edge/great-seljuk->khwarazmian` — vassal of in 1077
 - [ ] `edge/khwarazmian->mongol` — conquered by in 1220
 - [ ] `polity/khwarazmian` — span starts 1077
@@ -1069,24 +1095,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/sasanian` — founder Ardashir I r. 224-242
 - [ ] `polity/sasanian` — last Yazdegerd III r. 632-651
 - [ ] `polity/sasanian` — religions_carried = 1 (Zoroastrianism)
-
-## David Morgan, The Mongols
-
-`morgan-2007` — 13 claims
-
-- [ ] `chapter/mongol/01-1206.mdx` — prose: "What was assembled in 1206"
-- [ ] `chapter/mongol/02-westward.mdx` — prose: "Westward, and the numbers problem"
-- [ ] `edge/abbasid->mongol` — conquered by in 1258
-- [ ] `edge/jin->mongol` — conquered by in 1234
-- [ ] `polity/mongol` — span starts 1206
-- [ ] `polity/mongol` — span ends 1260
-- [ ] `polity/mongol` — capital Karakorum from 1235
-- [ ] `polity/mongol` — founder Chinggis Khan r. 1206-1227
-- [ ] `polity/mongol` — peak Mongke r. 1251-1259
-- [ ] `polity/mongol` — last Kublai Khan r. 1260-1294
-- [ ] `polity/mongol` — descendant_scripts = 1 (Mongolian script)
-- [ ] `polity/mongol` — successor_claims = 3 (ilkhanate, chagatai, golden-horde)
-- [ ] `polity/mongol` — ended by fragmentation in 1260
 
 ## Greg Woolf, Rome: An Empire's Story
 

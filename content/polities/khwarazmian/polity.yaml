@@ -50,6 +50,48 @@ ended:
   year: 1231
   source: iranica-khwarazmshahs
 
+institutions:
+  # Turkish ghulams of the household from which the dynasty itself came, and
+  # the Qipchaq tribal contingents of Terken Khatun's kin, whose loyalty was to
+  # her rather than to her son — a division the Otrar chapter's distribution of
+  # the army across the cities cannot be understood without.
+  military_basis: { values: [slave-soldier, tribal-levy], source: bosworth-1968 }
+  # Khwarazm proper is an irrigated delta and was wealthy in proportion to its
+  # size; the empire assembled after 1194 added the agriculture of Khurasan and
+  # Transoxiana and the trade crossing both.
+  revenue_basis: { values: [land-tax, trade-toll], source: bosworth-1968 }
+  succession_rule: { values: [nomination], source: bosworth-1968 }
+  # The Seljuk titulature taken in 1194, which this site counts as the one
+  # successor claim on the Seljuk record. Not caliphal-investiture: Muhammad
+  # applied for it, al-Nasir refused, and he proclaimed a rival caliph instead
+  # — the only polity in this corpus to answer a refusal that way.
+  legitimation: { values: [titulature], source: bosworth-1968 }
+
+turning_points:
+  - year: 1210
+    type: battle
+    name: "Breaking the Qara Khitai"
+    changed: >-
+      Khwarazm stopped paying tribute to the Buddhist steppe empire that had
+      held Transoxiana since Qatwan, beat it, took Samarkand and finished the
+      Karakhanids. It made the Khwarazmshah the greatest power in the eastern
+      Islamic world and removed the buffer standing between Transoxiana and the
+      steppe, nine years before something came out of the steppe.
+    source: bosworth-1968
+    contested: false
+  - year: 1217
+    type: revolt
+    name: "A rival caliph, and snow in the Zagros"
+    changed: >-
+      Refused investiture by al-Nasir, Muhammad had an Alid proclaimed caliph in
+      his place and marched on Baghdad to install him — the only ruler in this
+      corpus to answer a caliphal refusal by manufacturing a caliph. The passes
+      closed and the army turned back, and the state that met the Mongols two
+      years later had quarrelled with the one institution every polity in this
+      thread had appealed to.
+    source: bosworth-1968
+    contested: false
+
 measures:
   # No consulted dataset gives a Khwarazmian peak extent, and the empire held
   # its greatest size for only about eight years. The axis is a gap.
