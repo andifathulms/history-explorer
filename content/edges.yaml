@@ -1086,3 +1086,23 @@ edges:
            1375; the last king died in exile in Paris."
     source: petry-1998
     contested: false
+
+  - from: byzantine
+    to: nicaea
+    type: partitioned from
+    year: 1204
+    note: "The Fourth Crusade took Constantinople and the imperial government
+           reconstituted itself in western Anatolia, one of three Greek states
+           claiming to be the empire."
+    source: treadgold-1997
+    contested: false
+
+  - from: nicaea
+    to: byzantine
+    type: claimed legitimacy of
+    year: 1261
+    note: "Nicaea retook Constantinople and did not present itself as a
+           successor state but as the empire resuming its capital; the restored
+           regime is recorded on this site as the same Byzantine polity."
+    source: treadgold-1997
+    contested: false

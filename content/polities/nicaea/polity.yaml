@@ -1,0 +1,69 @@
+id: nicaea
+region: byzantium-and-the-latin-west
+
+name:
+  latin: Empire of Nicaea
+  script: Βασίλειον τῆς Νικαίας
+  script_lang: el
+
+span:
+  start: { min: 1204, max: 1204, source: treadgold-1997 }
+  end: { min: 1261, max: 1261, source: treadgold-1997 }
+
+identity: >-
+  The Byzantine government in exile in western Anatolia after the Fourth
+  Crusade took Constantinople, which spent fifty-seven years rebuilding a state
+  and then took the city back.
+
+capitals:
+  - { name: Nicaea, script: Νίκαια, from: 1204, source: treadgold-1997 }
+  - { name: Nymphaion, from: 1219, source: treadgold-1997 }
+
+core_region: Western Anatolia and, from the 1240s, Thrace and Macedonia
+
+rulers:
+  founder: { name: Theodore I Laskaris, reign: [1205, 1222], source: treadgold-1997 }
+  peak: { name: John III Vatatzes, reign: [1222, 1254], source: treadgold-1997 }
+  last: { name: Michael VIII Palaiologos, reign: [1259, 1261], source: treadgold-1997 }
+
+scripts_and_languages:
+  administration: [Greek]
+  writing_system: Greek
+
+ended:
+  type: dynastic replacement
+  by: [byzantine]
+  year: 1261
+  source: treadgold-1997
+
+institutions:
+  # Pronoia grants — revenue assignments to soldiers in return for service,
+  # which is the same instrument this site codes as land-grant for the Buyids,
+  # Seljuks and Ottomans, arrived at independently in a Greek state.
+  military_basis: { values: [land-grant, mercenary], source: treadgold-1997 }
+  revenue_basis: { values: [land-tax], source: treadgold-1997 }
+  succession_rule: { values: [nomination], source: treadgold-1997 }
+  # Not a new claim: the assertion throughout was that this was the Roman
+  # empire, temporarily housed elsewhere, and the crown was the same crown.
+  legitimation: { values: [titulature, descent], source: treadgold-1997 }
+
+turning_points:
+  - year: 1261
+    type: siege
+    name: "Constantinople retaken"
+    changed: >-
+      A Nicaean force found the city's garrison away on a raid and walked in.
+      Fifty-seven years of exile ended, the Latin emperor fled, and the empire
+      was restored — to a capital it could not fill, without the Anatolian
+      revenue base that had funded the restoration, because the western
+      frontier now had to be defended instead.
+    source: treadgold-1997
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

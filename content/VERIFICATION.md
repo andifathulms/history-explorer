@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1343 claims across 88 sources.**
+**1360 claims across 88 sources.**
 
 ## Where to start
 
@@ -488,6 +488,50 @@ ordinary state, not an item to clear.
 - [ ] `polity/ziyarid` — turning point 935 Mardavij killed in his bath
 - [ ] `polity/ziyarid` — turning point 1012 The army deposes Qabus
 
+## Warren Treadgold, A History of the Byzantine State and Society
+
+`treadgold-1997` — 37 claims
+
+**Sole source** for `nicaea` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/byzantine/01-the-survivor.mdx` — prose: "The empire that lost half of itself and continued"
+- [ ] `chapter/nicaea/01-a-government-in-exile.mdx` — prose: "A government in exile that worked"
+- [ ] `chapter/nicaea/02-what-the-restoration-cost.mdx` — prose: "What the restoration cost"
+- [ ] `chapter/trebizond/01-two-hundred-miles-of-coast.mdx` — prose: "Two hundred miles of coast"
+- [ ] `edge/byzantine->nicaea` — partitioned from in 1204
+- [ ] `edge/byzantine->trebizond` — partitioned from in 1204
+- [ ] `edge/nicaea->byzantine` — claimed legitimacy of in 1261
+- [ ] `edge/roman->byzantine` — partitioned from in 395
+- [ ] `edge/sasanian->byzantine` — absorbed remnants of in 651
+- [ ] `polity/byzantine` — span starts 395
+- [ ] `polity/byzantine` — span ends 1453
+- [ ] `polity/byzantine` — capital Constantinople from 395
+- [ ] `polity/byzantine` — founder Arcadius r. 395-408
+- [ ] `polity/byzantine` — peak Basil II r. 976-1025
+- [ ] `polity/byzantine` — last Constantine XI r. 1449-1453
+- [ ] `polity/byzantine` — ended by conquest in 1453
+- [ ] `polity/nicaea` — span starts 1204
+- [ ] `polity/nicaea` — span ends 1261
+- [ ] `polity/nicaea` — capital Nicaea from 1204
+- [ ] `polity/nicaea` — capital Nymphaion from 1219
+- [ ] `polity/nicaea` — founder Theodore I Laskaris r. 1205-1222
+- [ ] `polity/nicaea` — peak John III Vatatzes r. 1222-1254
+- [ ] `polity/nicaea` — last Michael VIII Palaiologos r. 1259-1261
+- [ ] `polity/nicaea` — military basis coded land-grant + mercenary
+- [ ] `polity/nicaea` — revenue basis coded land-tax
+- [ ] `polity/nicaea` — succession rule coded nomination
+- [ ] `polity/nicaea` — legitimation coded titulature + descent
+- [ ] `polity/nicaea` — turning point 1261 Constantinople retaken
+- [ ] `polity/nicaea` — ended by dynastic replacement in 1261
+- [ ] `polity/roman` — ended by fragmentation in 395
+- [ ] `polity/trebizond` — span starts 1204
+- [ ] `polity/trebizond` — capital Trebizond from 1204
+- [ ] `polity/trebizond` — founder Alexios I Megas Komnenos r. 1204-1222
+- [ ] `polity/trebizond` — peak Alexios II Megas Komnenos r. 1297-1330
+- [ ] `polity/trebizond` — revenue basis coded trade-toll
+- [ ] `polity/trebizond` — legitimation coded descent + titulature
+- [ ] `polity/trebizond` — turning point 1282 Giving up the imperial title
+
 ## Peter B. Golden, An Introduction to the History of the Turkic Peoples
 
 `golden-1992` — 35 claims
@@ -916,31 +960,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/seleucid` — founder Seleucus I Nicator r. -312--281
 - [ ] `polity/seleucid` — peak Antiochus III r. -222--187
 - [ ] `polity/seleucid` — last Philip II Philoromaeus r. -65--63
-
-## Warren Treadgold, A History of the Byzantine State and Society
-
-`treadgold-1997` — 20 claims
-
-- [ ] `chapter/byzantine/01-the-survivor.mdx` — prose: "The empire that lost half of itself and continued"
-- [ ] `chapter/trebizond/01-two-hundred-miles-of-coast.mdx` — prose: "Two hundred miles of coast"
-- [ ] `edge/byzantine->trebizond` — partitioned from in 1204
-- [ ] `edge/roman->byzantine` — partitioned from in 395
-- [ ] `edge/sasanian->byzantine` — absorbed remnants of in 651
-- [ ] `polity/byzantine` — span starts 395
-- [ ] `polity/byzantine` — span ends 1453
-- [ ] `polity/byzantine` — capital Constantinople from 395
-- [ ] `polity/byzantine` — founder Arcadius r. 395-408
-- [ ] `polity/byzantine` — peak Basil II r. 976-1025
-- [ ] `polity/byzantine` — last Constantine XI r. 1449-1453
-- [ ] `polity/byzantine` — ended by conquest in 1453
-- [ ] `polity/roman` — ended by fragmentation in 395
-- [ ] `polity/trebizond` — span starts 1204
-- [ ] `polity/trebizond` — capital Trebizond from 1204
-- [ ] `polity/trebizond` — founder Alexios I Megas Komnenos r. 1204-1222
-- [ ] `polity/trebizond` — peak Alexios II Megas Komnenos r. 1297-1330
-- [ ] `polity/trebizond` — revenue basis coded trade-toll
-- [ ] `polity/trebizond` — legitimation coded descent + titulature
-- [ ] `polity/trebizond` — turning point 1282 Giving up the imperial title
 
 ## Hugh Kennedy, Muslim Spain and Portugal: A Political History of al-Andalus
 
