@@ -1,0 +1,87 @@
+id: bavandid
+region: iranian-intermezzo
+
+name:
+  latin: Bavand Dynasty
+  script: باوندیان
+  script_lang: fa
+
+# 651 to 1349 is what the sources give and it encloses two interruptions — the
+# Kayusiyya line ends in 1006 and the Ispahbadhiyya begins in 1073; that line
+# ends in 1210 and the Kinkhwariyya begins in 1237. The third chapter on this
+# page is about what the resulting figure does and does not mean.
+span:
+  start: { min: 651, max: 651, source: bosworth-1996 }
+  end: { min: 1349, max: 1349, source: bosworth-1996 }
+
+identity: >-
+  A house in the Elburz mountains that claimed Sasanian descent, kept the old
+  Persian title of ispahbadh, and outlasted every empire that came to collect
+  its taxes — three times, with gaps.
+
+capitals:
+  - { name: Firim, source: bosworth-1996 }
+  - { name: Sari, script: ساری, from: 1073, source: bosworth-1996 }
+
+core_region: The Elburz highlands of Tabaristan, south of the Caspian
+
+rulers:
+  founder: { name: Bav, source: bosworth-1996 }
+  peak: { name: Shah Ghazi Rustam, source: chi-4 }
+  # The works consulted here name the last of the mainline as the king killed
+  # by Kiya Afrasiyab in 1349 without agreeing on how to number him. Same
+  # decision as the Ghurid and Hafsid records: the gap is rendered rather than
+  # filled with the most repeated guess.
+  last: null
+
+scripts_and_languages:
+  administration: [Persian, Arabic]
+  writing_system: Perso-Arabic
+
+ended:
+  type: internal usurpation
+  by: []
+  year: 1349
+  source: bosworth-1996
+
+institutions:
+  military_basis: { values: [tribal-levy], source: chi-4 }
+  revenue_basis: null
+  succession_rule: null
+  # Descent from the Sasanian house, asserted continuously for seven centuries,
+  # and the title that went with it: ispahbadh is a Sasanian military office
+  # and they were still using it four hundred years after there were no
+  # Sasanians. Later lines added malik.
+  legitimation: { values: [descent, titulature], source: chi-4 }
+
+turning_points:
+  - year: 842
+    type: conversion
+    name: "Qarin I accepts Islam"
+    changed: >-
+      Two centuries after the Arabs took the plains, the ruling house of the
+      Elburz became Muslim — and the dynasty went on using a Sasanian office
+      title and claiming Sasanian descent for another five hundred years
+      afterwards. The mountains had been outside the caliphate's world; from
+      here they were inside it and still not governed by it.
+    source: chi-4
+    contested: false
+  - year: 1073
+    type: revolt
+    name: "The line reconstituted"
+    changed: >-
+      Sixty-seven years after Qabus the Ziyarid extinguished the first Bavand
+      line, a second one took Sari and held Tabaristan, Gilan, Rayy and Qumis
+      as Seljuk vassals. It established the thing this dynasty is actually
+      remarkable for: not continuity, but the repeated availability of the same
+      claim to the same family in the same mountains.
+    source: chi-4
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
