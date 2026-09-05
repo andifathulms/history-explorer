@@ -81,6 +81,18 @@ turning_points:
     source: daftary-2007
     contested: false
 
+  - year: 1176
+    type: siege
+    name: "Saladin turns back from Masyaf"
+    changed: >-
+      The strongest ruler in the Levant besieged the Syrian headquarters,
+      survived two attempts on his life, withdrew without taking it and left
+      the Nizaris alone thereafter. A polity with no field army had made itself
+      expensive enough that an arrangement was preferable to a conquest, which
+      is the whole strategy stated once in a single episode.
+    source: hillenbrand-1999
+    contested: true
+
 measures:
   # Taagepera does not tabulate this polity, and the omission is structural
   # rather than an oversight: a state of scattered castles and the valleys

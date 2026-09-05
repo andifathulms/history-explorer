@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1173 claims across 85 sources.**
+**1176 claims across 85 sources.**
 
 ## Where to start
 
@@ -201,13 +201,14 @@ ordinary state, not an item to clear.
 
 ## Farhad Daftary, The Isma'ilis: Their History and Doctrines
 
-`daftary-2007` — 48 claims
+`daftary-2007` — 49 claims
 
-**Sole source** for `nizari`, `qarmatian`, `sulayhid` — nothing else in the corpus can contradict a misreading here.
+**Sole source** for `qarmatian`, `sulayhid` — nothing else in the corpus can contradict a misreading here.
 
 - [ ] `chapter/nizari/01-alamut.mdx` — prose: "A state with no middle"
 - [ ] `chapter/nizari/02-the-qiyama.mdx` — prose: "The day the law was abolished"
-- [ ] `chapter/nizari/03-the-legend.mdx` — prose: "The garden that was not there"
+- [ ] `chapter/nizari/04-after-alamut.mdx` — prose: "After the fortresses"
+- [ ] `chapter/nizari/05-the-legend.mdx` — prose: "The garden that was not there"
 - [ ] `chapter/qarmatian/01-the-other-ismailis.mdx` — prose: "The Isma'ilis who said no to the Fatimids"
 - [ ] `chapter/qarmatian/02-the-black-stone.mdx` — prose: "Twenty-two years in al-Hasa"
 - [ ] `chapter/sulayhid/01-the-mission-makes-a-state.mdx` — prose: "What the mission produced"
@@ -922,6 +923,25 @@ ordinary state, not an item to clear.
 - [ ] `polity/samanid` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/samanid` — ended by conquest in 999
 
+## Carole Hillenbrand, The Crusades: Islamic Perspectives
+
+`hillenbrand-1999` — 14 claims
+
+- [ ] `chapter/ayyubid/01-saladin.mdx` — prose: "Saladin"
+- [ ] `chapter/nizari/03-sinan-and-the-castles-in-syria.mdx` — prose: "The old man of the mountain"
+- [ ] `chapter/zangid/01-nur-al-din.mdx` — prose: "Making the counter-crusade a programme"
+- [ ] `chapter/zangid/02-the-minbar.mdx` — prose: "A pulpit made in advance"
+- [ ] `edge/zangid->ayyubid` — absorbed remnants of in 1174
+- [ ] `polity/ayyubid` — founder Salah al-Din (Saladin) r. 1171-1193
+- [ ] `polity/nizari` — turning point 1176 Saladin turns back from Masyaf (contested)
+- [ ] `polity/zangid` — span starts 1127
+- [ ] `polity/zangid` — span ends 1250
+- [ ] `polity/zangid` — capital Aleppo from 1127
+- [ ] `polity/zangid` — founder Imad al-Din Zangi r. 1127-1146
+- [ ] `polity/zangid` — peak Nur al-Din r. 1146-1174
+- [ ] `polity/zangid` — last Mahmud al-Qahir r. 1219-1233
+- [ ] `polity/zangid` — religions_carried = 1 (Sunni Islam)
+
 ## Heribert Busse, Iran under the Buyids
 *In The Cambridge History of Iran, Volume 4.*
 
@@ -1187,23 +1207,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/ayyubid` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/fatimid` — ended by internal usurpation in 1171
 - [ ] `polity/zangid` — ended by gradual absorption in 1250
-
-## Carole Hillenbrand, The Crusades: Islamic Perspectives
-
-`hillenbrand-1999` — 12 claims
-
-- [ ] `chapter/ayyubid/01-saladin.mdx` — prose: "Saladin"
-- [ ] `chapter/zangid/01-nur-al-din.mdx` — prose: "Making the counter-crusade a programme"
-- [ ] `chapter/zangid/02-the-minbar.mdx` — prose: "A pulpit made in advance"
-- [ ] `edge/zangid->ayyubid` — absorbed remnants of in 1174
-- [ ] `polity/ayyubid` — founder Salah al-Din (Saladin) r. 1171-1193
-- [ ] `polity/zangid` — span starts 1127
-- [ ] `polity/zangid` — span ends 1250
-- [ ] `polity/zangid` — capital Aleppo from 1127
-- [ ] `polity/zangid` — founder Imad al-Din Zangi r. 1127-1146
-- [ ] `polity/zangid` — peak Nur al-Din r. 1146-1174
-- [ ] `polity/zangid` — last Mahmud al-Qahir r. 1219-1233
-- [ ] `polity/zangid` — religions_carried = 1 (Sunni Islam)
 
 ## Peter Jackson, The Mongols and the Islamic World: From Conquest to Conversion
 
