@@ -46,6 +46,49 @@ ended:
   year: 873
   source: iranica-taherids
 
+institutions:
+  # The Khurasani regiments the Abbasid revolution had been made with, which
+  # Tahir commanded at Baghdad in 813 and which his family went on drawing on.
+  # Not slave-soldier: the Tahirid army predates the Turkish guard and is the
+  # thing al-Mu'tasim's purchases were meant to replace.
+  military_basis: { values: [standing-professional], source: chi-4 }
+  # Khurasan's land tax, and the Tahirid distinction is that they remitted it.
+  # The sources suggest the province sent more to Baghdad under them than
+  # before, which is why the caliphs kept reappointing the family.
+  revenue_basis: { values: [land-tax], source: chi-4 }
+  # In form the caliph appointed each governor; in practice he appointed the
+  # last one's son, brother or nephew for fifty years. The field records the
+  # form, because that is what the polity itself insisted on, and the first
+  # chapter is about the gap between the two.
+  succession_rule: { values: [nomination], source: iranica-taherids }
+  legitimation: { values: [caliphal-investiture], source: iranica-taherids }
+
+turning_points:
+  - year: 822
+    type: revolt
+    name: "The name left out of the khutba"
+    changed: >-
+      Tahir omitted the caliph's name from the Friday sermon at Merv, which is
+      the formal act by which a polity states whose authority it holds under.
+      He was dead within days and no source connects the two. What followed
+      settled the dynasty's method for fifty years: al-Ma'mun did not reclaim
+      the province but appointed Tahir's son, and a governorship became
+      hereditary without ever ceasing to be a governorship.
+    source: iranica-taherids
+    contested: true
+  - year: 865
+    type: siege
+    name: "Baghdad besieged, and a caliph traded"
+    changed: >-
+      The Tahirid holding the security command of Baghdad sheltered the caliph
+      al-Musta'in and held the city against the Samarra army for most of a
+      year, then negotiated his abdication in exchange for keeping his own
+      position. A provincial family was arbitrating the succession to the
+      caliphate, which is as far as the arrangement could be taken and the last
+      time it worked.
+    source: chi-4
+    contested: false
+
 measures:
   # No consulted dataset gives a Tahirid extent. Taagepera's series does not
   # descend to the governorate scale, and computing one from a map polygon is

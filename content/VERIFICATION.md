@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1117 claims across 83 sources.**
+**1125 claims across 83 sources.**
 
 ## Where to start
 
@@ -1006,6 +1006,26 @@ ordinary state, not an item to clear.
 - [ ] `polity/songhai` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/songhai` — ended by conquest in 1591
 
+## C. E. Bosworth, TAHERIDS
+*In Encyclopaedia Iranica.*
+<https://iranicaonline.org/articles/taherids>
+
+`iranica-taherids` — 13 claims
+
+- [ ] `chapter/tahirid/01-a-reward-for-a-civil-war.mdx` — prose: "A reward for a civil war"
+- [ ] `chapter/tahirid/02-nishapur.mdx` — prose: "What Abdallah did with a province"
+- [ ] `chapter/tahirid/04-the-books.mdx` — prose: "The books Abdallah is said to have burned"
+- [ ] `edge/abbasid->tahirid` — vassal of in 821
+- [ ] `polity/tahirid` — capital Merv from 821
+- [ ] `polity/tahirid` — capital Nishapur from 830
+- [ ] `polity/tahirid` — succession rule coded nomination
+- [ ] `polity/tahirid` — legitimation coded caliphal-investiture
+- [ ] `polity/tahirid` — turning point 822 The name left out of the khutba (contested)
+- [ ] `polity/tahirid` — descendant_scripts = 0
+- [ ] `polity/tahirid` — religions_carried = 0
+- [ ] `polity/tahirid` — successor_claims = 0
+- [ ] `polity/tahirid` — ended by conquest in 873
+
 ## A. B. Bosworth, Conquest and Empire: The Reign of Alexander the Great
 
 `ab-bosworth-1988` — 12 claims
@@ -1283,7 +1303,7 @@ ordinary state, not an item to clear.
 
 - [ ] `chapter/saffarid/01-the-coppersmith.mdx` — prose: "The coppersmith"
 - [ ] `chapter/saffarid/03-back-to-sistan.mdx` — prose: "A hundred years in Sistan"
-- [ ] `chapter/tahirid/03-873.mdx` — prose: "Someone who did not want a governorship"
+- [ ] `chapter/tahirid/05-873.mdx` — prose: "Someone who did not want a governorship"
 - [ ] `edge/saffarid->ghaznavid` — absorbed remnants of in 1003
 - [ ] `edge/tahirid->saffarid` — overthrew in 873
 - [ ] `polity/saffarid` — span starts 861
@@ -1339,6 +1359,21 @@ ordinary state, not an item to clear.
 - [ ] `polity/abbasid` — turning point 836 The move to Samarra
 - [ ] `polity/abbasid` — turning point 861 The anarchy at Samarra
 - [ ] `polity/abbasid` — successor_claims = 1 (Abbasid Caliphate of Cairo)
+
+## R. N. Frye (ed.), The Cambridge History of Iran, Volume 4: From the Arab Invasion to the Saljuqs
+
+`chi-4` — 10 claims
+
+- [ ] `chapter/buyid/02-daylam.mdx` — prose: "Down from Daylam"
+- [ ] `chapter/samanid/04-the-trade-in-men.mdx` — prose: "The trade the whole system ran on"
+- [ ] `chapter/samanid/06-943.mdx` — prose: "The year the army chose the amir"
+- [ ] `chapter/tahirid/03-the-other-half.mdx` — prose: "The family that also policed Baghdad"
+- [ ] `polity/samanid` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/samanid` — succession rule coded nomination
+- [ ] `polity/samanid` — turning point 943 The deposition of Nasr II (contested)
+- [ ] `polity/tahirid` — military basis coded standing-professional
+- [ ] `polity/tahirid` — revenue basis coded land-tax
+- [ ] `polity/tahirid` — turning point 865 Baghdad besieged, and a caliph traded
 
 ## Michal Biran, Qaidu and the Rise of the Independent Mongol State in Central Asia
 
@@ -1443,22 +1478,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/rashidun` — turning point 657 The arbitration at Siffin
 - [ ] `polity/rashidun` — ended by dynastic replacement in 661
 
-## C. E. Bosworth, TAHERIDS
-*In Encyclopaedia Iranica.*
-<https://iranicaonline.org/articles/taherids>
-
-`iranica-taherids` — 9 claims
-
-- [ ] `chapter/tahirid/01-a-reward-for-a-civil-war.mdx` — prose: "A reward for a civil war"
-- [ ] `chapter/tahirid/02-nishapur.mdx` — prose: "What Abdallah did with a province"
-- [ ] `edge/abbasid->tahirid` — vassal of in 821
-- [ ] `polity/tahirid` — capital Merv from 821
-- [ ] `polity/tahirid` — capital Nishapur from 830
-- [ ] `polity/tahirid` — descendant_scripts = 0
-- [ ] `polity/tahirid` — religions_carried = 0
-- [ ] `polity/tahirid` — successor_claims = 0
-- [ ] `polity/tahirid` — ended by conquest in 873
-
 ## C. E. Bosworth, The Later Ghaznavids: Splendour and Decay. The Dynasty in Afghanistan and Northern India, 1040-1186
 
 `bosworth-1977` — 8 claims
@@ -1497,17 +1516,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/buyid` — capital Rayy from 943
 - [ ] `polity/buyid` — military basis coded mercenary
 - [ ] `polity/buyid` — descendant_scripts = 0
-
-## R. N. Frye (ed.), The Cambridge History of Iran, Volume 4: From the Arab Invasion to the Saljuqs
-
-`chi-4` — 6 claims
-
-- [ ] `chapter/buyid/02-daylam.mdx` — prose: "Down from Daylam"
-- [ ] `chapter/samanid/04-the-trade-in-men.mdx` — prose: "The trade the whole system ran on"
-- [ ] `chapter/samanid/06-943.mdx` — prose: "The year the army chose the amir"
-- [ ] `polity/samanid` — revenue basis coded land-tax + trade-toll
-- [ ] `polity/samanid` — succession rule coded nomination
-- [ ] `polity/samanid` — turning point 943 The deposition of Nasr II (contested)
 
 ## multiple contributors, SALJUQS
 *In Encyclopaedia Iranica.*
