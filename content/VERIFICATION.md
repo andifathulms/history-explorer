@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1196 claims across 86 sources.**
+**1213 claims across 86 sources.**
 
 ## Where to start
 
@@ -257,10 +257,11 @@ ordinary state, not an item to clear.
 
 ## C. E. Bosworth, The New Islamic Dynasties: A Chronological and Genealogical Manual
 
-`bosworth-1996` — 39 claims
+`bosworth-1996` — 48 claims
 
 - [ ] `chapter/samanid/01-four-brothers.mdx` — prose: "Four brothers and a governorship"
 - [ ] `edge/tahirid->samanid` — vassal of in 819
+- [ ] `edge/ziyarid->nizari` — conquered by in 1090
 - [ ] `polity/abbasid` — span starts 750
 - [ ] `polity/abbasid` — span ends 1258
 - [ ] `polity/abbasid` — founder al-Saffah r. 750-754
@@ -298,6 +299,14 @@ ordinary state, not an item to clear.
 - [ ] `polity/zaydi-yemen` — span starts 897
 - [ ] `polity/zaydi-yemen` — capital Sa'da from 897
 - [ ] `polity/zaydi-yemen` — founder al-Hadi ila'l-Haqq Yahya r. 897-911
+- [ ] `polity/ziyarid` — span starts 931
+- [ ] `polity/ziyarid` — span ends 1090
+- [ ] `polity/ziyarid` — capital Gurgan
+- [ ] `polity/ziyarid` — capital Amul
+- [ ] `polity/ziyarid` — founder Mardavij ibn Ziyar r. 931-935
+- [ ] `polity/ziyarid` — peak Qabus ibn Vushmgir
+- [ ] `polity/ziyarid` — last Gilanshah
+- [ ] `polity/ziyarid` — ended by conquest in 1090
 
 ## Carl F. Petry (ed.), The Cambridge History of Egypt, Volume 1: Islamic Egypt 640-1517
 
@@ -663,6 +672,33 @@ ordinary state, not an item to clear.
 - [ ] `polity/srivijaya` — religions_carried = 1 (Mahayana Buddhism)
 - [ ] `polity/srivijaya` — ended by gradual absorption in 1275
 
+## R. N. Frye (ed.), The Cambridge History of Iran, Volume 4: From the Arab Invasion to the Saljuqs
+
+`chi-4` — 22 claims
+
+- [ ] `chapter/buyid/01-down-from-daylam.mdx` — prose: "Down from Daylam"
+- [ ] `chapter/buyid/02-paying-an-army-with-land.mdx` — prose: "Paying an army with land"
+- [ ] `chapter/samanid/04-the-trade-in-men.mdx` — prose: "The trade the whole system ran on"
+- [ ] `chapter/samanid/06-943.mdx` — prose: "The year the army chose the amir"
+- [ ] `chapter/tahirid/03-the-other-half.mdx` — prose: "The family that also policed Baghdad"
+- [ ] `chapter/ziyarid/01-the-man-who-wanted-the-crown-back.mdx` — prose: "The man who wanted the crown back"
+- [ ] `chapter/ziyarid/02-a-client-among-clients.mdx` — prose: "A client among clients"
+- [ ] `chapter/ziyarid/03-a-tower-and-a-book.mdx` — prose: "A tower and a book"
+- [ ] `edge/ziyarid->buyid` — seceded from in 934
+- [ ] `polity/buyid` — military basis coded mercenary + land-grant
+- [ ] `polity/buyid` — revenue basis coded land-tax
+- [ ] `polity/buyid` — succession rule coded appanage
+- [ ] `polity/samanid` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/samanid` — succession rule coded nomination
+- [ ] `polity/samanid` — turning point 943 The deposition of Nasr II (contested)
+- [ ] `polity/tahirid` — military basis coded standing-professional
+- [ ] `polity/tahirid` — revenue basis coded land-tax
+- [ ] `polity/tahirid` — turning point 865 Baghdad besieged, and a caliph traded
+- [ ] `polity/ziyarid` — military basis coded tribal-levy + slave-soldier
+- [ ] `polity/ziyarid` — legitimation coded titulature
+- [ ] `polity/ziyarid` — turning point 935 Mardavij killed in his bath
+- [ ] `polity/ziyarid` — turning point 1012 The army deposes Qabus
+
 ## Amira K. Bennison, The Almoravid and Almohad Empires
 
 `bennison-2016` — 21 claims
@@ -989,25 +1025,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/buyid` — successor_claims = 0
 - [ ] `polity/buyid` — ended by conquest in 1055
 - [ ] `polity/sasanian` — successor_claims = 1 (Buyid Confederation)
-
-## R. N. Frye (ed.), The Cambridge History of Iran, Volume 4: From the Arab Invasion to the Saljuqs
-
-`chi-4` — 14 claims
-
-- [ ] `chapter/buyid/01-down-from-daylam.mdx` — prose: "Down from Daylam"
-- [ ] `chapter/buyid/02-paying-an-army-with-land.mdx` — prose: "Paying an army with land"
-- [ ] `chapter/samanid/04-the-trade-in-men.mdx` — prose: "The trade the whole system ran on"
-- [ ] `chapter/samanid/06-943.mdx` — prose: "The year the army chose the amir"
-- [ ] `chapter/tahirid/03-the-other-half.mdx` — prose: "The family that also policed Baghdad"
-- [ ] `polity/buyid` — military basis coded mercenary + land-grant
-- [ ] `polity/buyid` — revenue basis coded land-tax
-- [ ] `polity/buyid` — succession rule coded appanage
-- [ ] `polity/samanid` — revenue basis coded land-tax + trade-toll
-- [ ] `polity/samanid` — succession rule coded nomination
-- [ ] `polity/samanid` — turning point 943 The deposition of Nasr II (contested)
-- [ ] `polity/tahirid` — military basis coded standing-professional
-- [ ] `polity/tahirid` — revenue basis coded land-tax
-- [ ] `polity/tahirid` — turning point 865 Baghdad besieged, and a caliph traded
 
 ## C. E. Bosworth, GHURIDS
 *In Encyclopaedia Iranica.*

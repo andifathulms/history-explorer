@@ -968,3 +968,25 @@ edges:
            deliverance rather than an invasion."
     source: biran-2005
     contested: false
+
+  # ---- The Caspian, and what came out of it ----
+
+  - from: ziyarid
+    to: buyid
+    type: seceded from
+    year: 934
+    note: "The sons of Buya were officers in Mardavij's service; when his own
+           slave soldiers killed him in 935 they kept the provinces they had
+           been given to hold and stopped acknowledging his brother."
+    source: chi-4
+    contested: false
+
+  - from: ziyarid
+    to: nizari
+    type: conquered by
+    year: 1090
+    note: "Isma'ili missionaries took the Ziyarid territory in the Alborz and
+           Tabaristan at about the moment Hasan-i Sabbah took Alamut, in the
+           same Caspian country the dynasty had come out of."
+    source: bosworth-1996
+    contested: false

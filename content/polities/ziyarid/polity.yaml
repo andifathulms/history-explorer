@@ -1,0 +1,88 @@
+id: ziyarid
+region: iranian-intermezzo
+
+name:
+  latin: Ziyarid Dynasty
+  script: زیاریان
+  script_lang: fa
+
+span:
+  start: { min: 931, max: 931, source: bosworth-1996 }
+  end: { min: 1090, max: 1090, source: bosworth-1996 }
+
+identity: >-
+  A Daylamite dynasty on the Caspian that began by proposing to restore the
+  Sasanian monarchy and spent the following century and a half as somebody
+  else's client, leaving a tower and a book.
+
+capitals:
+  - { name: Gurgan, script: گرگان, source: bosworth-1996 }
+  - { name: Amul, script: آمل, source: bosworth-1996 }
+
+core_region: Tabaristan and Gurgan, on the south-east Caspian
+
+rulers:
+  founder: { name: Mardavij ibn Ziyar, reign: [931, 935], source: bosworth-1996 }
+  # Reign omitted deliberately: he ruled from 977, was driven out in 981, spent
+  # seventeen years in exile in Khurasan, returned in 998 and was deposed by his
+  # own officers in 1012. No single pair of years describes that.
+  peak: { name: Qabus ibn Vushmgir, source: bosworth-1996 }
+  last: { name: Gilanshah, source: bosworth-1996 }
+
+scripts_and_languages:
+  administration: [Persian, Arabic]
+  writing_system: Perso-Arabic
+
+ended:
+  type: conquest
+  by: [nizari]
+  year: 1090
+  source: bosworth-1996
+
+institutions:
+  # Daylami highland infantry of the kind this site's Buyid page describes,
+  # and Turkish ghulams — who killed the founder in his bath in 935 and
+  # deposed his grandson in 1012, which is the same instrument failing the same
+  # way seventy-seven years apart.
+  military_basis: { values: [tribal-levy, slave-soldier], source: chi-4 }
+  revenue_basis: null
+  succession_rule: null
+  # Mardavij's claim was the Sasanian kingship, asserted with a golden throne, a
+  # jewelled crown in the old style and the revival of Zoroastrian festival —
+  # titulature in the exact sense the coding rules require, and made against a
+  # caliphate he intended to remove. What his successors held was a client's
+  # investiture from whoever was strongest, which is a different claim and is
+  # why the field carries only the first.
+  legitimation: { values: [titulature], source: chi-4 }
+
+turning_points:
+  - year: 935
+    type: succession-crisis
+    name: "Mardavij killed in his bath"
+    changed: >-
+      His own Turkish slave soldiers murdered him while he was preparing to
+      march on Baghdad and restore a Persian monarchy, and his officers took
+      his provinces. Among them were the sons of Buya, whose own state on this
+      site begins in the vacuum: the most ambitious project in tenth-century
+      Iran ended in a bathhouse and became somebody else's opportunity.
+    source: chi-4
+    contested: false
+  - year: 1012
+    type: succession-crisis
+    name: "The army deposes Qabus"
+    changed: >-
+      The dynasty's most celebrated ruler — stylist, astronomer's patron, and
+      by every account a severe man — was removed by his own commanders and
+      died in confinement. It is the second time in eighty years that the
+      Ziyarid army disposed of a Ziyarid, and after it the dynasty never again
+      held more than the Caspian provinces.
+    source: chi-4
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
