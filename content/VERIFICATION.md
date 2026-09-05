@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1409 claims across 88 sources.**
+**1425 claims across 88 sources.**
 
 ## Where to start
 
@@ -195,6 +195,80 @@ ordinary state, not an item to clear.
 - [ ] `polity/ziyarid` — last Gilanshah
 - [ ] `polity/ziyarid` — ended by conquest in 1090
 
+## A. C. S. Peacock and Sara Nur Yildiz (eds), The Seljuks of Anatolia: Court and Society in the Medieval Middle East
+
+`peacock-yildiz-2013` — 67 claims
+
+**Sole source** for `danishmendid`, `rum` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/aydinid/01-the-beylik-that-took-to-ships.mdx` — prose: "The beylik that took to ships"
+- [ ] `chapter/aydinid/02-smyrna.mdx` — prose: "What happens when the harbour is taken"
+- [ ] `chapter/cilician-armenia/01-armenia-somewhere-else.mdx` — prose: "Armenia, six hundred miles away"
+- [ ] `chapter/danishmendid/01-the-other-turkish-state.mdx` — prose: "The other Turkish state"
+- [ ] `chapter/danishmendid/02-taken-in-pieces.mdx` — prose: "Taken in pieces"
+- [ ] `chapter/karamanid/01-out-of-the-mountains.mdx` — prose: "Out of the mountains"
+- [ ] `chapter/karamanid/02-the-claim-and-the-decree.mdx` — prose: "The claim, and the decree that may not have happened"
+- [ ] `chapter/rum/01-anatolia.mdx` — prose: "A branch that outlasted the trunk"
+- [ ] `chapter/rum/02-kayqubad.mdx` — prose: "The forty years it worked"
+- [ ] `chapter/rum/03-the-caravanserais.mdx` — prose: "A day's march apart"
+- [ ] `chapter/rum/04-kosedag.mdx` — prose: "Kösedağ"
+- [ ] `chapter/rum/05-konya.mdx` — prose: "What was written at Konya"
+- [ ] `edge/danishmendid->rum` — conquered by in 1178
+- [ ] `edge/great-seljuk->rum` — partitioned from in 1077
+- [ ] `edge/rum->aydinid` — absorbed remnants of in 1308
+- [ ] `edge/rum->ilkhanate` — vassal of in 1243
+- [ ] `edge/rum->karamanid` — absorbed remnants of in 1277
+- [ ] `polity/aydinid` — span starts 1308
+- [ ] `polity/aydinid` — capital Birgi
+- [ ] `polity/aydinid` — capital Ayasoluk
+- [ ] `polity/aydinid` — founder Mehmed Bey
+- [ ] `polity/aydinid` — peak Umur Bey r. 1334-1348
+- [ ] `polity/aydinid` — military basis coded tribal-levy + client-levy
+- [ ] `polity/aydinid` — revenue basis coded plunder + trade-toll
+- [ ] `polity/aydinid` — legitimation coded conquest
+- [ ] `polity/aydinid` — turning point 1344 The Latins take the harbour at Smyrna
+- [ ] `polity/cilician-armenia` — span starts 1080
+- [ ] `polity/cilician-armenia` — capital Sis
+- [ ] `polity/cilician-armenia` — founder Ruben I r. 1080-1095
+- [ ] `polity/cilician-armenia` — peak Levon I r. 1198-1219
+- [ ] `polity/cilician-armenia` — military basis coded land-grant
+- [ ] `polity/cilician-armenia` — revenue basis coded trade-toll + land-tax
+- [ ] `polity/cilician-armenia` — legitimation coded descent
+- [ ] `polity/cilician-armenia` — turning point 1198 A crown from two emperors
+- [ ] `polity/danishmendid` — span starts 1071
+- [ ] `polity/danishmendid` — span ends 1178
+- [ ] `polity/danishmendid` — capital Sivas
+- [ ] `polity/danishmendid` — capital Niksar
+- [ ] `polity/danishmendid` — founder Danishmend Gazi
+- [ ] `polity/danishmendid` — peak Emir Gazi
+- [ ] `polity/danishmendid` — last Ayn al-Dawla
+- [ ] `polity/danishmendid` — military basis coded tribal-levy
+- [ ] `polity/danishmendid` — succession rule coded appanage
+- [ ] `polity/danishmendid` — legitimation coded conquest
+- [ ] `polity/danishmendid` — turning point 1100 The capture of Bohemond
+- [ ] `polity/danishmendid` — turning point 1142 The realm divided
+- [ ] `polity/danishmendid` — ended by conquest in 1178
+- [ ] `polity/karamanid` — span starts 1250
+- [ ] `polity/karamanid` — capital Larende
+- [ ] `polity/karamanid` — capital Konya
+- [ ] `polity/karamanid` — founder Karaman Bey
+- [ ] `polity/karamanid` — peak Ibrahim II r. 1424-1464
+- [ ] `polity/karamanid` — military basis coded tribal-levy
+- [ ] `polity/karamanid` — legitimation coded conquest
+- [ ] `polity/karamanid` — turning point 1277 Cimri on the throne at Konya
+- [ ] `polity/rum` — span starts 1077
+- [ ] `polity/rum` — span ends 1308
+- [ ] `polity/rum` — capital Konya from 1097
+- [ ] `polity/rum` — founder Suleyman ibn Qutalmish r. 1077-1086
+- [ ] `polity/rum` — peak Ala al-Din Kayqubad I r. 1220-1237
+- [ ] `polity/rum` — last Mesud II r. 1284-1308
+- [ ] `polity/rum` — military basis coded tribal-levy + slave-soldier
+- [ ] `polity/rum` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/rum` — legitimation coded descent
+- [ ] `polity/rum` — turning point 1243 Kosedag
+- [ ] `polity/rum` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/rum` — ended by gradual absorption in 1308
+
 ## Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia
 *In International Studies Quarterly 41(3), 475-504.*
 
@@ -258,68 +332,6 @@ ordinary state, not an item to clear.
 - [ ] `reference/umayyad` — reach 11,100,000 km2 at 720
 - [ ] `reference/uyghur-khaganate` — reach 3,100,000 km2 at 800
 - [ ] `reference/yuan` — reach 11,000,000 km2 at 1310
-
-## A. C. S. Peacock and Sara Nur Yildiz (eds), The Seljuks of Anatolia: Court and Society in the Medieval Middle East
-
-`peacock-yildiz-2013` — 55 claims
-
-**Sole source** for `danishmendid`, `rum` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/cilician-armenia/01-armenia-somewhere-else.mdx` — prose: "Armenia, six hundred miles away"
-- [ ] `chapter/danishmendid/01-the-other-turkish-state.mdx` — prose: "The other Turkish state"
-- [ ] `chapter/danishmendid/02-taken-in-pieces.mdx` — prose: "Taken in pieces"
-- [ ] `chapter/karamanid/01-out-of-the-mountains.mdx` — prose: "Out of the mountains"
-- [ ] `chapter/karamanid/02-the-claim-and-the-decree.mdx` — prose: "The claim, and the decree that may not have happened"
-- [ ] `chapter/rum/01-anatolia.mdx` — prose: "A branch that outlasted the trunk"
-- [ ] `chapter/rum/02-kayqubad.mdx` — prose: "The forty years it worked"
-- [ ] `chapter/rum/03-the-caravanserais.mdx` — prose: "A day's march apart"
-- [ ] `chapter/rum/04-kosedag.mdx` — prose: "Kösedağ"
-- [ ] `chapter/rum/05-konya.mdx` — prose: "What was written at Konya"
-- [ ] `edge/danishmendid->rum` — conquered by in 1178
-- [ ] `edge/great-seljuk->rum` — partitioned from in 1077
-- [ ] `edge/rum->ilkhanate` — vassal of in 1243
-- [ ] `edge/rum->karamanid` — absorbed remnants of in 1277
-- [ ] `polity/cilician-armenia` — span starts 1080
-- [ ] `polity/cilician-armenia` — capital Sis
-- [ ] `polity/cilician-armenia` — founder Ruben I r. 1080-1095
-- [ ] `polity/cilician-armenia` — peak Levon I r. 1198-1219
-- [ ] `polity/cilician-armenia` — military basis coded land-grant
-- [ ] `polity/cilician-armenia` — revenue basis coded trade-toll + land-tax
-- [ ] `polity/cilician-armenia` — legitimation coded descent
-- [ ] `polity/cilician-armenia` — turning point 1198 A crown from two emperors
-- [ ] `polity/danishmendid` — span starts 1071
-- [ ] `polity/danishmendid` — span ends 1178
-- [ ] `polity/danishmendid` — capital Sivas
-- [ ] `polity/danishmendid` — capital Niksar
-- [ ] `polity/danishmendid` — founder Danishmend Gazi
-- [ ] `polity/danishmendid` — peak Emir Gazi
-- [ ] `polity/danishmendid` — last Ayn al-Dawla
-- [ ] `polity/danishmendid` — military basis coded tribal-levy
-- [ ] `polity/danishmendid` — succession rule coded appanage
-- [ ] `polity/danishmendid` — legitimation coded conquest
-- [ ] `polity/danishmendid` — turning point 1100 The capture of Bohemond
-- [ ] `polity/danishmendid` — turning point 1142 The realm divided
-- [ ] `polity/danishmendid` — ended by conquest in 1178
-- [ ] `polity/karamanid` — span starts 1250
-- [ ] `polity/karamanid` — capital Larende
-- [ ] `polity/karamanid` — capital Konya
-- [ ] `polity/karamanid` — founder Karaman Bey
-- [ ] `polity/karamanid` — peak Ibrahim II r. 1424-1464
-- [ ] `polity/karamanid` — military basis coded tribal-levy
-- [ ] `polity/karamanid` — legitimation coded conquest
-- [ ] `polity/karamanid` — turning point 1277 Cimri on the throne at Konya
-- [ ] `polity/rum` — span starts 1077
-- [ ] `polity/rum` — span ends 1308
-- [ ] `polity/rum` — capital Konya from 1097
-- [ ] `polity/rum` — founder Suleyman ibn Qutalmish r. 1077-1086
-- [ ] `polity/rum` — peak Ala al-Din Kayqubad I r. 1220-1237
-- [ ] `polity/rum` — last Mesud II r. 1284-1308
-- [ ] `polity/rum` — military basis coded tribal-levy + slave-soldier
-- [ ] `polity/rum` — revenue basis coded land-tax + trade-toll
-- [ ] `polity/rum` — legitimation coded descent
-- [ ] `polity/rum` — turning point 1243 Kosedag
-- [ ] `polity/rum` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/rum` — ended by gradual absorption in 1308
 
 ## Jamil M. Abun-Nasr, A History of the Maghrib in the Islamic Period
 
@@ -1027,6 +1039,31 @@ ordinary state, not an item to clear.
 - [ ] `polity/seleucid` — peak Antiochus III r. -222--187
 - [ ] `polity/seleucid` — last Philip II Philoromaeus r. -65--63
 
+## Caroline Finkel, Osman's Dream: The Story of the Ottoman Empire 1300-1923
+
+`finkel-2005` — 20 claims
+
+- [ ] `chapter/karamanid/03-two-centuries-of-being-the-rival.mdx` — prose: "Two centuries of being the rival"
+- [ ] `chapter/ottoman/08-1922.mdx` — prose: "The last of the three"
+- [ ] `chapter/trebizond/02-the-last-of-the-romans.mdx` — prose: "The last of them"
+- [ ] `edge/aydinid->ottoman` — conquered by in 1426
+- [ ] `edge/karamanid->ottoman` — conquered by in 1487
+- [ ] `edge/trebizond->akkoyunlu` — vassal of in 1458
+- [ ] `edge/trebizond->ottoman` — conquered by in 1461
+- [ ] `polity/aydinid` — span ends 1426
+- [ ] `polity/aydinid` — last Cuneyd
+- [ ] `polity/aydinid` — ended by conquest in 1426
+- [ ] `polity/karamanid` — span ends 1487
+- [ ] `polity/karamanid` — turning point 1402 After Ankara
+- [ ] `polity/karamanid` — ended by conquest in 1487
+- [ ] `polity/ottoman` — capital Sogut from 1299
+- [ ] `polity/ottoman` — capital Bursa from 1335
+- [ ] `polity/ottoman` — capital Edirne from 1369
+- [ ] `polity/ottoman` — turning point 1699 Karlowitz
+- [ ] `polity/trebizond` — span ends 1461
+- [ ] `polity/trebizond` — last David Megas Komnenos r. 1459-1461
+- [ ] `polity/trebizond` — ended by conquest in 1461
+
 ## Hugh Kennedy, Muslim Spain and Portugal: A Political History of al-Andalus
 
 `kennedy-1996` — 20 claims
@@ -1194,27 +1231,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/abbasid-cairo` — turning point 1261 Baybars installs a caliph
 - [ ] `polity/abbasid-cairo` — turning point 1412 The caliph who was also sultan
 - [ ] `polity/abbasid-cairo` — ended by conquest in 1517
-
-## Caroline Finkel, Osman's Dream: The Story of the Ottoman Empire 1300-1923
-
-`finkel-2005` — 16 claims
-
-- [ ] `chapter/karamanid/03-two-centuries-of-being-the-rival.mdx` — prose: "Two centuries of being the rival"
-- [ ] `chapter/ottoman/08-1922.mdx` — prose: "The last of the three"
-- [ ] `chapter/trebizond/02-the-last-of-the-romans.mdx` — prose: "The last of them"
-- [ ] `edge/karamanid->ottoman` — conquered by in 1487
-- [ ] `edge/trebizond->akkoyunlu` — vassal of in 1458
-- [ ] `edge/trebizond->ottoman` — conquered by in 1461
-- [ ] `polity/karamanid` — span ends 1487
-- [ ] `polity/karamanid` — turning point 1402 After Ankara
-- [ ] `polity/karamanid` — ended by conquest in 1487
-- [ ] `polity/ottoman` — capital Sogut from 1299
-- [ ] `polity/ottoman` — capital Bursa from 1335
-- [ ] `polity/ottoman` — capital Edirne from 1369
-- [ ] `polity/ottoman` — turning point 1699 Karlowitz
-- [ ] `polity/trebizond` — span ends 1461
-- [ ] `polity/trebizond` — last David Megas Komnenos r. 1459-1461
-- [ ] `polity/trebizond` — ended by conquest in 1461
 
 ## John C. Wilkinson, The Imamate Tradition of Oman
 *In Cambridge Middle East Library.*

@@ -1,0 +1,56 @@
+id: aydinid
+region: anatolia
+name:
+  latin: Aydinid Beylik
+  script: آیدین اوغلی
+  script_lang: ota
+span:
+  start: { min: 1308, max: 1308, source: peacock-yildiz-2013 }
+  end: { min: 1426, max: 1426, source: finkel-2005 }
+identity: >-
+  The maritime beylik: a Turkmen principality on the Aegean that took to ships,
+  raided as far as Greece, and was for twenty years a naval power the Byzantine
+  emperor allied with and the pope preached a crusade against.
+capitals:
+  - { name: Birgi, source: peacock-yildiz-2013 }
+  - { name: Ayasoluk, source: peacock-yildiz-2013 }
+core_region: The Aegean coast of Anatolia, around Smyrna
+rulers:
+  founder: { name: Mehmed Bey, source: peacock-yildiz-2013 }
+  peak: { name: Umur Bey, reign: [1334, 1348], source: peacock-yildiz-2013 }
+  last: { name: Cuneyd, source: finkel-2005 }
+scripts_and_languages:
+  administration: [Turkish, Greek]
+  writing_system: Perso-Arabic
+ended:
+  type: conquest
+  by: [ottoman]
+  year: 1426
+  source: finkel-2005
+institutions:
+  # Turkmen raiders who took over Greek ports and the shipping in them, which
+  # is a client levy of coastal crews rather than a fleet the state built —
+  # the same shape this site codes for Srivijaya, in a different sea.
+  military_basis: { values: [tribal-levy, client-levy], source: peacock-yildiz-2013 }
+  revenue_basis: { values: [plunder, trade-toll], source: peacock-yildiz-2013 }
+  succession_rule: null
+  legitimation: { values: [conquest], source: peacock-yildiz-2013 }
+turning_points:
+  - year: 1344
+    type: siege
+    name: "The Latins take the harbour at Smyrna"
+    changed: >-
+      A papal league of Venice, Cyprus and the Hospitallers took the port
+      castle and held it, which ended the raiding the beylik lived on. Umur
+      died attempting to retake it in 1348, and a maritime power that had been
+      the terror of the Aegean for a decade became a coastal principality
+      waiting to be annexed.
+    source: peacock-yildiz-2013
+    contested: false
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

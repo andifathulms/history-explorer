@@ -1159,3 +1159,23 @@ edges:
            the city."
     source: bosworth-1996
     contested: false
+
+  - from: rum
+    to: aydinid
+    type: absorbed remnants of
+    year: 1308
+    note: "One of the Turkmen principalities that formed in the marches the
+           sultanate could no longer restrain, on the Aegean coast Byzantine
+           authority had abandoned."
+    source: peacock-yildiz-2013
+    contested: false
+
+  - from: aydinid
+    to: ottoman
+    type: conquered by
+    year: 1426
+    note: "Annexed by Bayezid I in 1390, restored by Timur after Ankara, and
+           finished in 1426 when its last ruler had run out of Ottoman civil
+           wars to change sides in."
+    source: finkel-2005
+    contested: false
