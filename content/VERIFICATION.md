@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1152 claims across 84 sources.**
+**1157 claims across 85 sources.**
 
 ## Where to start
 
@@ -820,6 +820,27 @@ ordinary state, not an item to clear.
 - [ ] `polity/abbasid-cairo` — turning point 1412 The caliph who was also sultan
 - [ ] `polity/abbasid-cairo` — ended by conquest in 1517
 
+## C. E. Bosworth, The Ghaznavids: Their Empire in Afghanistan and Eastern Iran, 994-1040
+
+`bosworth-1963` — 16 claims
+
+- [ ] `chapter/ghaznavid/01-alptigin-goes-east.mdx` — prose: "Alptigin goes east"
+- [ ] `chapter/ghaznavid/02-mahmud.mdx` — prose: "Mahmud, and the uses of a caliph"
+- [ ] `chapter/ghaznavid/05-the-book-about-india.mdx` — prose: "The book about India"
+- [ ] `chapter/samanid/07-the-slave-guard.mdx` — prose: "The instrument that walked away"
+- [ ] `edge/samanid->ghaznavid` — slave-general of in 962
+- [ ] `edge/samanid->ghaznavid` — claimed legitimacy of in 999
+- [ ] `polity/ghaznavid` — span starts 962
+- [ ] `polity/ghaznavid` — peak Mahmud of Ghazna r. 998-1030
+- [ ] `polity/ghaznavid` — military basis coded slave-soldier
+- [ ] `polity/ghaznavid` — revenue basis coded plunder + land-tax
+- [ ] `polity/ghaznavid` — succession rule coded nomination
+- [ ] `polity/ghaznavid` — legitimation coded caliphal-investiture
+- [ ] `polity/ghaznavid` — turning point 999 The Oxus agreed as a frontier
+- [ ] `polity/ghaznavid` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/samanid` — military basis coded slave-soldier
+- [ ] `polity/samanid` — successor_claims = 1 (ghaznavid)
+
 ## C. E. Bosworth, The Political and Dynastic History of the Iranian World (A.D. 1000-1217)
 *In The Cambridge History of Iran, Volume 5.*
 
@@ -1002,24 +1023,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/achaemenid` — descendant_scripts = 1 (Old Persian cuneiform)
 - [ ] `polity/achaemenid` — successor_claims = 2 (Parthian Empire, Sasanian Empire)
 - [ ] `polity/median` — ended by conquest in -549
-
-## C. E. Bosworth, The Ghaznavids: Their Empire in Afghanistan and Eastern Iran, 994-1040
-
-`bosworth-1963` — 13 claims
-
-- [ ] `chapter/ghaznavid/01-alptigin-goes-east.mdx` — prose: "Alptigin goes east"
-- [ ] `chapter/ghaznavid/02-mahmud.mdx` — prose: "Mahmud, and the uses of a caliph"
-- [ ] `chapter/samanid/07-the-slave-guard.mdx` — prose: "The instrument that walked away"
-- [ ] `edge/samanid->ghaznavid` — slave-general of in 962
-- [ ] `edge/samanid->ghaznavid` — claimed legitimacy of in 999
-- [ ] `polity/ghaznavid` — span starts 962
-- [ ] `polity/ghaznavid` — peak Mahmud of Ghazna r. 998-1030
-- [ ] `polity/ghaznavid` — military basis coded slave-soldier
-- [ ] `polity/ghaznavid` — revenue basis coded plunder
-- [ ] `polity/ghaznavid` — legitimation coded caliphal-investiture
-- [ ] `polity/ghaznavid` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/samanid` — military basis coded slave-soldier
-- [ ] `polity/samanid` — successor_claims = 1 (ghaznavid)
 
 ## C. E. Bosworth, KWARAZMSHAHS
 *In Encyclopaedia Iranica.*
@@ -1492,6 +1495,20 @@ ordinary state, not an item to clear.
 - [ ] `polity/egypt-new-kingdom` — last Ramesses XI r. -1107--1077
 - [ ] `polity/egypt-new-kingdom` — ended by fragmentation in -1077
 
+## C. E. Bosworth, The Later Ghaznavids: Splendour and Decay. The Dynasty in Afghanistan and Northern India, 1040-1186
+
+`bosworth-1977` — 9 claims
+
+- [ ] `chapter/ghaznavid/04-lahore.mdx` — prose: "Pushed into the Punjab"
+- [ ] `chapter/ghaznavid/06-1186.mdx` — prose: "The vassals finish it"
+- [ ] `edge/ghaznavid->ghurid` — overthrew in 1186
+- [ ] `polity/ghaznavid` — span ends 1186
+- [ ] `polity/ghaznavid` — capital Lahore from 1163
+- [ ] `polity/ghaznavid` — last Khusrau Malik r. 1160-1186
+- [ ] `polity/ghaznavid` — turning point 1040 Dandanaqan
+- [ ] `polity/ghaznavid` — successor_claims = 0
+- [ ] `polity/ghaznavid` — ended by conquest in 1186
+
 ## Wilferd Madelung, The Succession to Muhammad: A Study of the Early Caliphate
 
 `madelung-1997` — 9 claims
@@ -1505,19 +1522,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/rashidun` — turning point 656 The killing of Uthman
 - [ ] `polity/rashidun` — turning point 657 The arbitration at Siffin
 - [ ] `polity/rashidun` — ended by dynastic replacement in 661
-
-## C. E. Bosworth, The Later Ghaznavids: Splendour and Decay. The Dynasty in Afghanistan and Northern India, 1040-1186
-
-`bosworth-1977` — 8 claims
-
-- [ ] `chapter/ghaznavid/03-lahore.mdx` — prose: "Pushed into the Punjab"
-- [ ] `chapter/ghaznavid/04-1186.mdx` — prose: "The vassals finish it"
-- [ ] `edge/ghaznavid->ghurid` — overthrew in 1186
-- [ ] `polity/ghaznavid` — span ends 1186
-- [ ] `polity/ghaznavid` — capital Lahore from 1163
-- [ ] `polity/ghaznavid` — last Khusrau Malik r. 1160-1186
-- [ ] `polity/ghaznavid` — successor_claims = 0
-- [ ] `polity/ghaznavid` — ended by conquest in 1186
 
 ## Mark Edward Lewis, China's Cosmopolitan Empire: The Tang Dynasty
 
@@ -1668,6 +1672,12 @@ ordinary state, not an item to clear.
 `goitein-1967` — 1 claims
 
 - [ ] `chapter/fatimid/08-the-geniza.mdx` — prose: "A storeroom in Fustat"
+
+## Romila Thapar, Somanatha: The Many Voices of a History
+
+`thapar-2004` — 1 claims
+
+- [ ] `chapter/ghaznavid/03-what-mahmud-took.mdx` — prose: "Seventeen campaigns, and what was made of one of them"
 
 ## Finbarr Barry Flood, Objects of Translation: Material Culture and Medieval "Hindu-Muslim" Encounter
 

@@ -52,9 +52,39 @@ ended:
 
 institutions:
   military_basis: { values: [slave-soldier], source: bosworth-1963 }
-  revenue_basis: { values: [plunder], source: bosworth-1963 }
-  succession_rule: null
+  revenue_basis: { values: [plunder, land-tax], source: bosworth-1963 }
+  # Sebuktigin designated Mahmud's brother and Mahmud took the throne anyway;
+  # Mahmud designated Muhammad and Mas'ud took it from him within months. The
+  # rule was designation by the reigning sultan and it was overturned by the
+  # army at the first two successions, which is the pattern rather than the
+  # exception — but it is the rule that was in force, and coding rule 7 asks
+  # for the rule and not the outcome.
+  succession_rule: { values: [nomination], source: bosworth-1963 }
   legitimation: { values: [caliphal-investiture], source: bosworth-1963 }
+
+turning_points:
+  - year: 999
+    type: treaty
+    name: "The Oxus agreed as a frontier"
+    changed: >-
+      With Bukhara falling to the Karakhanids, Mahmud was governing Khurasan in
+      Samanid name and did not march north to save his overlords. He kept
+      Khurasan, settled the Oxus as a boundary with the men who had destroyed
+      them, and turned south — which partitioned the Samanid inheritance
+      between two dynasties that had both come out of it.
+    source: bosworth-1963
+    contested: false
+  - year: 1040
+    type: battle
+    name: "Dandanaqan"
+    changed: >-
+      Mas'ud lost Khurasan to the Seljuks in a single engagement and the
+      western half of the empire was gone within a year. What is unusual is
+      that the dynasty then lasted another century and a half, its centre
+      drifting steadily towards the Indian provinces that had begun as a
+      raiding ground.
+    source: bosworth-1977
+    contested: false
 
 measures:
   reach_km2: { value: 3400000, at: 1029, source: taagepera-1997 }

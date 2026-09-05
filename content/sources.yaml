@@ -437,6 +437,20 @@ sources:
     publisher: Longman
     year: 1996
 
+  - id: thapar-2004
+    kind: book
+    author: Romila Thapar
+    title: "Somanatha: The Many Voices of a History"
+    publisher: Penguin
+    year: 2004
+    note: >-
+      Reconstructs the raid of 1026 and, more to the point, what was
+      subsequently made of it — from Sanskrit inscriptions, merchant and royal
+      biographies, court epics and popular narrative, set against the Persian
+      and Arabic accounts. Cited for the Ghaznavid chapter on the Indian
+      campaigns, because the afterlife of that event is a larger historical
+      object than the event.
+
   - id: flood-2009
     kind: book
     author: Finbarr Barry Flood
