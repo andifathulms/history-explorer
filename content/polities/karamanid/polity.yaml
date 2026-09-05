@@ -1,0 +1,83 @@
+id: karamanid
+region: anatolia
+
+name:
+  latin: Karamanid Beylik
+  script: قره‌مان اوغلی
+  script_lang: ota
+
+span:
+  start: { min: 1250, max: 1250, source: peacock-yildiz-2013 }
+  end: { min: 1487, max: 1487, source: finkel-2005 }
+
+identity: >-
+  The largest and longest-lived of the Turkmen principalities: holders of
+  Konya, claimants to the Seljuk inheritance, and the Ottomans' principal
+  Anatolian rival for two centuries.
+
+capitals:
+  - { name: Larende, script: لارنده, source: peacock-yildiz-2013 }
+  - { name: Konya, script: قونیه, source: peacock-yildiz-2013 }
+
+core_region: The Taurus mountains and the central Anatolian plateau
+
+rulers:
+  founder: { name: Karaman Bey, source: peacock-yildiz-2013 }
+  peak: { name: Ibrahim II, reign: [1424, 1464], source: peacock-yildiz-2013 }
+  # The beylik was annexed, restored, partitioned between rival Karamanids and
+  # annexed again between 1468 and 1487, and the works consulted here do not
+  # agree on which of the contenders should count as the last ruler.
+  last: null
+
+scripts_and_languages:
+  administration: [Persian, Turkish]
+  writing_system: Perso-Arabic
+
+ended:
+  type: conquest
+  by: [ottoman]
+  year: 1487
+  source: finkel-2005
+
+institutions:
+  military_basis: { values: [tribal-levy], source: peacock-yildiz-2013 }
+  revenue_basis: null
+  succession_rule: null
+  # Held by right of taking and keeping, which is what a beylik claim amounts
+  # to. They asserted an interest in the Seljuk inheritance and pursued it by
+  # putting a pretender on the throne at Konya rather than by taking Seljuk
+  # titles themselves, so titulature is not the coding.
+  legitimation: { values: [conquest], source: peacock-yildiz-2013 }
+
+turning_points:
+  - year: 1277
+    type: revolt
+    name: "Cimri on the throne at Konya"
+    changed: >-
+      Mehmed Bey took the Seljuk capital while the sultanate was an Ilkhanid
+      vassal and installed a claimant said to be of the Seljuk house. Seljuk
+      and Mongol forces retook the city and executed him the following year.
+      The attempt failed and the claim did not: for the next two centuries the
+      Karamanids held that the inheritance of Rum was theirs, which is the
+      argument the Ottomans had to answer.
+    source: peacock-yildiz-2013
+    contested: false
+  - year: 1402
+    type: revolt
+    name: "After Ankara"
+    changed: >-
+      Timur destroyed the Ottoman army, restored the beyliks he had come to
+      restore, and handed the Karamanids their territory back. Mehmed Bey took
+      and burned Bursa during the Ottoman civil war that followed. It bought
+      the beylik another eighty-five years and confirmed the Ottoman view that
+      Karaman was the enemy that had to be finished.
+    source: finkel-2005
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

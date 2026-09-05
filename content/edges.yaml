@@ -1033,3 +1033,24 @@ edges:
            surviving Danishmendids entered Seljuk service."
     source: peacock-yildiz-2013
     contested: false
+
+  - from: rum
+    to: karamanid
+    type: absorbed remnants of
+    year: 1277
+    note: "Karaman took Konya while the sultanate was an Ilkhanid tributary and
+           put a claimed Seljuk on its throne; the attempt failed within weeks
+           and the claim to be the heirs of Rum was asserted for two centuries
+           afterwards."
+    source: peacock-yildiz-2013
+    contested: true
+
+  - from: karamanid
+    to: ottoman
+    type: conquered by
+    year: 1487
+    note: "Annexed by Mehmed II in 1468, restored under rival Karamanids backed
+           by the Akkoyunlu and the Mamluks, and finished by Bayezid II in 1487
+           when there was nobody left to supply it."
+    source: finkel-2005
+    contested: false
