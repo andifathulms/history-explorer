@@ -19,13 +19,23 @@ regions:
       swallowing overlords, governors inheriting the empire that appointed them.
     thread: true
 
+  # Membership rule, stated because it is not obvious and was not being
+  # applied: this region holds polities whose whole basis was a claim on the
+  # universal Islamic office. That is why Cordoba and the Fatimids are here and
+  # the Almohads and Ottomans are not — both of those claimed the title too,
+  # and both are filed where the rest of their history sits, with the claim
+  # recorded as a count and an edge instead.
   - id: caliphates
     name: The Caliphates
     blurb: >-
-      The universal Islamic polity and its two dynastic successors — Rashidun,
-      Umayyad, Abbasid. One continuous claim to authority over the whole
-      community, held from Medina, then Damascus, then Baghdad, and contracting
-      the whole time it was being asserted.
+      One office, and the polities that existed to claim it. The line from
+      Medina to Damascus to Baghdad is the one usually meant by the word, and
+      it spent its whole length contracting while the claim stayed universal —
+      but from the tenth century it was not the only claimant, and a rival
+      caliphate in Cairo and a restored Umayyad one in Cordoba are here on the
+      same terms. Succession runs inside the line and stops at its edge:
+      a polity that says the office was usurped is not its heir, and no edge
+      joins them.
     thread: true
 
   - id: pre-islamic-iran
