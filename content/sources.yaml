@@ -418,6 +418,20 @@ sources:
     publisher: Longman
     year: 1996
 
+  - id: frye-1965
+    kind: book
+    author: Richard N. Frye
+    title: "Bukhara: The Medieval Achievement"
+    container: The Centers of Civilization Series
+    publisher: University of Oklahoma Press
+    year: 1965
+    note: >-
+      A short book about one city at its height, by the translator of
+      Narshakhi's History of Bukhara. Cited for the Samanid capital as a place
+      rather than as a seat of government: the agrarian base, the caravan
+      trade, the bureaucracy and the literary culture that made the identity
+      line on that page true.
+
   - id: dresch-1989
     kind: book
     author: Paul Dresch

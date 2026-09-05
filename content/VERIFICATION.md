@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1111 claims across 82 sources.**
+**1117 claims across 83 sources.**
 
 ## Where to start
 
@@ -824,7 +824,7 @@ ordinary state, not an item to clear.
 
 - [ ] `chapter/samanid/02-ismail-and-bukhara.mdx` — prose: "Isma'il moves the capital"
 - [ ] `chapter/samanid/03-nasr-ii-bukhara.mdx` — prose: "Nasr II's Bukhara"
-- [ ] `chapter/samanid/05-999.mdx` — prose: "999, and the six years after"
+- [ ] `chapter/samanid/08-999.mdx` — prose: "999, and the six years after"
 - [ ] `edge/saffarid->samanid` — conquered by in 900
 - [ ] `edge/samanid->karakhanid` — conquered by in 999
 - [ ] `polity/samanid` — span start upper bound 892
@@ -900,7 +900,7 @@ ordinary state, not an item to clear.
 
 - [ ] `chapter/ghaznavid/01-alptigin-goes-east.mdx` — prose: "Alptigin goes east"
 - [ ] `chapter/ghaznavid/02-mahmud.mdx` — prose: "Mahmud, and the uses of a caliph"
-- [ ] `chapter/samanid/04-the-slave-guard.mdx` — prose: "The instrument that walked away"
+- [ ] `chapter/samanid/07-the-slave-guard.mdx` — prose: "The instrument that walked away"
 - [ ] `edge/samanid->ghaznavid` — slave-general of in 962
 - [ ] `edge/samanid->ghaznavid` — claimed legitimacy of in 999
 - [ ] `polity/ghaznavid` — span starts 962
@@ -1498,6 +1498,17 @@ ordinary state, not an item to clear.
 - [ ] `polity/buyid` — military basis coded mercenary
 - [ ] `polity/buyid` — descendant_scripts = 0
 
+## R. N. Frye (ed.), The Cambridge History of Iran, Volume 4: From the Arab Invasion to the Saljuqs
+
+`chi-4` — 6 claims
+
+- [ ] `chapter/buyid/02-daylam.mdx` — prose: "Down from Daylam"
+- [ ] `chapter/samanid/04-the-trade-in-men.mdx` — prose: "The trade the whole system ran on"
+- [ ] `chapter/samanid/06-943.mdx` — prose: "The year the army chose the amir"
+- [ ] `polity/samanid` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/samanid` — succession rule coded nomination
+- [ ] `polity/samanid` — turning point 943 The deposition of Nasr II (contested)
+
 ## multiple contributors, SALJUQS
 *In Encyclopaedia Iranica.*
 <https://iranicaonline.org/articles/saljuqs>
@@ -1606,12 +1617,6 @@ ordinary state, not an item to clear.
 
 - [ ] `chapter/abbasid/03-the-translation-movement.mdx` — prose: "Two centuries of translation, and who paid for it"
 
-## R. N. Frye (ed.), The Cambridge History of Iran, Volume 4: From the Arab Invasion to the Saljuqs
-
-`chi-4` — 1 claims
-
-- [ ] `chapter/buyid/02-daylam.mdx` — prose: "Down from Daylam"
-
 ## Janina M. Safran, Defining Boundaries in al-Andalus: Muslims, Christians, and Jews in Islamic Iberia
 
 `safran-2013` — 1 claims
@@ -1650,6 +1655,13 @@ ordinary state, not an item to clear.
 `hoyland-1997` — 1 claims
 
 - [ ] `chapter/rashidun/08-the-sources.mdx` — prose: "What the neighbours wrote down"
+
+## Richard N. Frye, Bukhara: The Medieval Achievement
+*In The Centers of Civilization Series.*
+
+`frye-1965` — 1 claims
+
+- [ ] `chapter/samanid/05-what-bukhara-was.mdx` — prose: "What Bukhara was"
 
 ## Hugh Kennedy, The Great Arab Conquests: How the Spread of Islam Changed the World We Live In
 

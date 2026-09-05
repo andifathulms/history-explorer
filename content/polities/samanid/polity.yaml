@@ -53,8 +53,17 @@ ended:
 
 institutions:
   military_basis: { values: [slave-soldier], source: bosworth-1963 }
-  revenue_basis: null
-  succession_rule: null
+  # The trade-toll value is doing unusual work here and the chapter on it says
+  # so. Transoxiana's agriculture paid the land tax, but the state's largest
+  # single income was the licensing and taxing of the Turkish slave trade
+  # crossing its frontier — a customs revenue on people, which is what this
+  # value covers and what the whole military system was also buying from.
+  revenue_basis: { values: [land-tax, trade-toll], source: chi-4 }
+  # The reigning amir designated, and from 943 the designation required the
+  # Turkish commanders and the Bukharan ulama not to object — which is the
+  # substance of that year and the reason the dynasty's last fifty years are a
+  # sequence of amirs the army agreed to.
+  succession_rule: { values: [nomination], source: chi-4 }
   legitimation: { values: [caliphal-investiture], source: iranica-samanids }
 
 turning_points:
@@ -78,6 +87,18 @@ turning_points:
       producing it.
     source: iranica-samanids
     contested: false
+
+  - year: 943
+    type: succession-crisis
+    name: "The deposition of Nasr II"
+    changed: >-
+      Turkish commanders and the Sunni establishment of Bukhara found an amir
+      who had listened to Isma'ili missionaries intolerable, and his son took
+      his abdication before they could take his life. Two things were settled:
+      the state was publicly Hanafi thereafter, and the guard had learned that
+      it could remove an amir and install another and be obeyed.
+    source: chi-4
+    contested: true
 
 measures:
   reach_km2: { value: 2600000, at: 928, source: taagepera-1997 }
