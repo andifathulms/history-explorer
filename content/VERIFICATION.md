@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1433 claims across 88 sources.**
+**1444 claims across 88 sources.**
 
 ## Where to start
 
@@ -87,7 +87,7 @@ ordinary state, not an item to clear.
 
 - [ ] `chapter/akkoyunlu/01-uzun-hasan.mdx` — prose: "Ten years as the strongest power in Iran"
 - [ ] `chapter/akkoyunlu/02-otlukbeli-and-after.mdx` — prose: "What gunpowder settled"
-- [ ] `chapter/kakuyid/03-the-last-one-died-at-qatwan.mdx` — prose: "The last one died at Qatwan"
+- [ ] `chapter/kakuyid/04-the-last-one-died-at-qatwan.mdx` — prose: "The last one died at Qatwan"
 - [ ] `chapter/karakoyunlu/01-the-black-sheep.mdx` — prose: "What filled the space"
 - [ ] `chapter/karakoyunlu/02-two-sheep.mdx` — prose: "Why there were two"
 - [ ] `chapter/samanid/01-four-brothers.mdx` — prose: "Four brothers and a governorship"
@@ -451,6 +451,56 @@ ordinary state, not an item to clear.
 - [ ] `polity/sulayhid` — religions_carried = 1 (Tayyibi Isma'ilism)
 - [ ] `polity/sulayhid` — ended by fragmentation in 1138
 
+## R. N. Frye (ed.), The Cambridge History of Iran, Volume 4: From the Arab Invasion to the Saljuqs
+
+`chi-4` — 45 claims
+
+- [ ] `chapter/bavandid/01-the-mountains-nobody-wanted.mdx` — prose: "The mountains nobody wanted enough"
+- [ ] `chapter/bavandid/02-three-lines.mdx` — prose: "Three lines, two gaps"
+- [ ] `chapter/bavandid/03-shah-ghazi.mdx` — prose: "Shah Ghazi and the neighbours in the next valley"
+- [ ] `chapter/bavandid/04-the-local-history.mdx` — prose: "A province writes itself down"
+- [ ] `chapter/bavandid/05-what-six-hundred-and-ninety-eight-years-means.mdx` — prose: "What six hundred and ninety-eight years means"
+- [ ] `chapter/buyid/01-down-from-daylam.mdx` — prose: "Down from Daylam"
+- [ ] `chapter/buyid/02-paying-an-army-with-land.mdx` — prose: "Paying an army with land"
+- [ ] `chapter/kakuyid/01-son-of-the-maternal-uncle.mdx` — prose: "Son of the maternal uncle"
+- [ ] `chapter/kakuyid/02-the-settled-decade.mdx` — prose: "The only settled years Ibn Sina had"
+- [ ] `chapter/kakuyid/03-what-they-built-at-yazd.mdx` — prose: "What they built at Yazd"
+- [ ] `chapter/mamunid/01-the-delta-and-the-line-they-displaced.mdx` — prose: "The delta, and the line they displaced"
+- [ ] `chapter/mamunid/02-the-court-at-gurganj.mdx` — prose: "The best court in the east, for about fifteen years"
+- [ ] `chapter/mamunid/03-the-calendar-he-could-not-reconstruct.mdx` — prose: "The calendar he could not reconstruct"
+- [ ] `chapter/samanid/04-the-trade-in-men.mdx` — prose: "The trade the whole system ran on"
+- [ ] `chapter/samanid/06-943.mdx` — prose: "The year the army chose the amir"
+- [ ] `chapter/tahirid/03-the-other-half.mdx` — prose: "The family that also policed Baghdad"
+- [ ] `chapter/ziyarid/01-the-man-who-wanted-the-crown-back.mdx` — prose: "The man who wanted the crown back"
+- [ ] `chapter/ziyarid/02-a-client-among-clients.mdx` — prose: "A client among clients"
+- [ ] `chapter/ziyarid/02-vushmgir-between-two-powers.mdx` — prose: "Vushmgir, between two powers"
+- [ ] `chapter/ziyarid/04-a-tower-and-a-book.mdx` — prose: "A tower and a book"
+- [ ] `chapter/ziyarid/05-what-the-caspian-kept.mdx` — prose: "What the Caspian kept"
+- [ ] `edge/buyid->kakuyid` — seceded from in 1008
+- [ ] `edge/ziyarid->buyid` — seceded from in 934
+- [ ] `polity/bavandid` — peak Shah Ghazi Rustam
+- [ ] `polity/bavandid` — military basis coded tribal-levy
+- [ ] `polity/bavandid` — legitimation coded descent + titulature
+- [ ] `polity/bavandid` — turning point 842 Qarin I accepts Islam
+- [ ] `polity/bavandid` — turning point 1073 The line reconstituted
+- [ ] `polity/buyid` — military basis coded mercenary + land-grant
+- [ ] `polity/buyid` — revenue basis coded land-tax
+- [ ] `polity/buyid` — succession rule coded appanage
+- [ ] `polity/kakuyid` — military basis coded tribal-levy
+- [ ] `polity/kakuyid` — legitimation coded descent
+- [ ] `polity/kakuyid` — turning point 1024 Ibn Sina comes to Isfahan
+- [ ] `polity/mamunid` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/samanid` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/samanid` — succession rule coded nomination
+- [ ] `polity/samanid` — turning point 943 The deposition of Nasr II (contested)
+- [ ] `polity/tahirid` — military basis coded standing-professional
+- [ ] `polity/tahirid` — revenue basis coded land-tax
+- [ ] `polity/tahirid` — turning point 865 Baghdad besieged, and a caliph traded
+- [ ] `polity/ziyarid` — military basis coded tribal-levy + slave-soldier
+- [ ] `polity/ziyarid` — legitimation coded titulature
+- [ ] `polity/ziyarid` — turning point 935 Mardavij killed in his bath
+- [ ] `polity/ziyarid` — turning point 1012 The army deposes Qabus
+
 ## Carl F. Petry (ed.), The Cambridge History of Egypt, Volume 1: Islamic Egypt 640-1517
 
 `petry-1998` — 44 claims
@@ -548,48 +598,48 @@ ordinary state, not an item to clear.
 - [ ] `polity/trebizond` — legitimation coded descent + titulature
 - [ ] `polity/trebizond` — turning point 1282 Giving up the imperial title
 
-## R. N. Frye (ed.), The Cambridge History of Iran, Volume 4: From the Arab Invasion to the Saljuqs
+## G. R. Hawting, The First Dynasty of Islam: The Umayyad Caliphate AD 661-750
 
-`chi-4` — 38 claims
+`hawting-2000` — 36 claims
 
-- [ ] `chapter/bavandid/01-the-mountains-nobody-wanted.mdx` — prose: "The mountains nobody wanted enough"
-- [ ] `chapter/bavandid/02-three-lines.mdx` — prose: "Three lines, two gaps"
-- [ ] `chapter/bavandid/03-what-six-hundred-and-ninety-eight-years-means.mdx` — prose: "What six hundred and ninety-eight years means"
-- [ ] `chapter/buyid/01-down-from-daylam.mdx` — prose: "Down from Daylam"
-- [ ] `chapter/buyid/02-paying-an-army-with-land.mdx` — prose: "Paying an army with land"
-- [ ] `chapter/kakuyid/01-son-of-the-maternal-uncle.mdx` — prose: "Son of the maternal uncle"
-- [ ] `chapter/kakuyid/02-the-settled-decade.mdx` — prose: "The only settled years Ibn Sina had"
-- [ ] `chapter/mamunid/01-the-court-at-gurganj.mdx` — prose: "The best court in the east, for about fifteen years"
-- [ ] `chapter/samanid/04-the-trade-in-men.mdx` — prose: "The trade the whole system ran on"
-- [ ] `chapter/samanid/06-943.mdx` — prose: "The year the army chose the amir"
-- [ ] `chapter/tahirid/03-the-other-half.mdx` — prose: "The family that also policed Baghdad"
-- [ ] `chapter/ziyarid/01-the-man-who-wanted-the-crown-back.mdx` — prose: "The man who wanted the crown back"
-- [ ] `chapter/ziyarid/02-a-client-among-clients.mdx` — prose: "A client among clients"
-- [ ] `chapter/ziyarid/03-a-tower-and-a-book.mdx` — prose: "A tower and a book"
-- [ ] `edge/buyid->kakuyid` — seceded from in 1008
-- [ ] `edge/ziyarid->buyid` — seceded from in 934
-- [ ] `polity/bavandid` — peak Shah Ghazi Rustam
-- [ ] `polity/bavandid` — military basis coded tribal-levy
-- [ ] `polity/bavandid` — legitimation coded descent + titulature
-- [ ] `polity/bavandid` — turning point 842 Qarin I accepts Islam
-- [ ] `polity/bavandid` — turning point 1073 The line reconstituted
-- [ ] `polity/buyid` — military basis coded mercenary + land-grant
-- [ ] `polity/buyid` — revenue basis coded land-tax
-- [ ] `polity/buyid` — succession rule coded appanage
-- [ ] `polity/kakuyid` — military basis coded tribal-levy
-- [ ] `polity/kakuyid` — legitimation coded descent
-- [ ] `polity/kakuyid` — turning point 1024 Ibn Sina comes to Isfahan
-- [ ] `polity/mamunid` — revenue basis coded land-tax + trade-toll
-- [ ] `polity/samanid` — revenue basis coded land-tax + trade-toll
-- [ ] `polity/samanid` — succession rule coded nomination
-- [ ] `polity/samanid` — turning point 943 The deposition of Nasr II (contested)
-- [ ] `polity/tahirid` — military basis coded standing-professional
-- [ ] `polity/tahirid` — revenue basis coded land-tax
-- [ ] `polity/tahirid` — turning point 865 Baghdad besieged, and a caliph traded
-- [ ] `polity/ziyarid` — military basis coded tribal-levy + slave-soldier
-- [ ] `polity/ziyarid` — legitimation coded titulature
-- [ ] `polity/ziyarid` — turning point 935 Mardavij killed in his bath
-- [ ] `polity/ziyarid` — turning point 1012 The army deposes Qabus
+**Sole source** for `zubayrid` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/umayyad/01-muawiya.mdx` — prose: "Mu'awiya's arrangement"
+- [ ] `chapter/umayyad/02-karbala.mdx` — prose: "Karbala, and the war that remade the dynasty"
+- [ ] `chapter/umayyad/04-abd-al-malik.mdx` — prose: "What Abd al-Malik built"
+- [ ] `chapter/umayyad/08-khurasan.mdx` — prose: "The revolution came from Khurasan"
+- [ ] `chapter/zubayrid/01-the-refusal.mdx` — prose: "The man who would not swear"
+- [ ] `chapter/zubayrid/02-governing-from-a-sanctuary.mdx` — prose: "Governing from a sanctuary"
+- [ ] `chapter/zubayrid/03-the-kaaba-twice.mdx` — prose: "The Ka'ba, twice"
+- [ ] `chapter/zubayrid/04-the-loser.mdx` — prose: "What the winners called it"
+- [ ] `edge/rashidun->umayyad` — claimed legitimacy of in 661
+- [ ] `edge/umayyad->abbasid` — overthrew in 750
+- [ ] `edge/umayyad->zubayrid` — seceded from in 683
+- [ ] `edge/zubayrid->umayyad` — conquered by in 692
+- [ ] `polity/umayyad` — span starts 661
+- [ ] `polity/umayyad` — span ends 750
+- [ ] `polity/umayyad` — capital Damascus from 661
+- [ ] `polity/umayyad` — capital Harran from 744
+- [ ] `polity/umayyad` — founder Mu'awiya ibn Abi Sufyan r. 661-680
+- [ ] `polity/umayyad` — peak Abd al-Malik ibn Marwan r. 685-705
+- [ ] `polity/umayyad` — last Marwan II r. 744-750
+- [ ] `polity/umayyad` — succession rule coded nomination
+- [ ] `polity/umayyad` — turning point 680 Karbala
+- [ ] `polity/umayyad` — turning point 684 Marj Rahit
+- [ ] `polity/umayyad` — turning point 696 The epigraphic dinar and the Arabic registers
+- [ ] `polity/umayyad` — religions_carried = 1 (Islam)
+- [ ] `polity/umayyad` — ended by dynastic replacement in 750
+- [ ] `polity/zubayrid` — span starts 680
+- [ ] `polity/zubayrid` — span ends 692
+- [ ] `polity/zubayrid` — capital Mecca from 683
+- [ ] `polity/zubayrid` — founder Abd Allah ibn al-Zubayr r. 683-692
+- [ ] `polity/zubayrid` — peak Abd Allah ibn al-Zubayr r. 683-692
+- [ ] `polity/zubayrid` — last Abd Allah ibn al-Zubayr r. 683-692
+- [ ] `polity/zubayrid` — military basis coded tribal-levy
+- [ ] `polity/zubayrid` — legitimation coded election + descent
+- [ ] `polity/zubayrid` — turning point 683 The first siege of Mecca
+- [ ] `polity/zubayrid` — turning point 691 Maskin
+- [ ] `polity/zubayrid` — ended by conquest in 692
 
 ## Peter B. Golden, An Introduction to the History of the Turkic Peoples
 
@@ -669,47 +719,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/yuan` — peak Kublai Khan r. 1271-1294
 - [ ] `polity/yuan` — last Toghon Temur r. 1333-1368
 - [ ] `polity/yuan` — descendant_scripts = 1 (Phags-pa script)
-
-## G. R. Hawting, The First Dynasty of Islam: The Umayyad Caliphate AD 661-750
-
-`hawting-2000` — 34 claims
-
-**Sole source** for `zubayrid` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/umayyad/01-muawiya.mdx` — prose: "Mu'awiya's arrangement"
-- [ ] `chapter/umayyad/02-karbala.mdx` — prose: "Karbala, and the war that remade the dynasty"
-- [ ] `chapter/umayyad/04-abd-al-malik.mdx` — prose: "What Abd al-Malik built"
-- [ ] `chapter/umayyad/08-khurasan.mdx` — prose: "The revolution came from Khurasan"
-- [ ] `chapter/zubayrid/01-the-refusal.mdx` — prose: "The man who would not swear"
-- [ ] `chapter/zubayrid/02-the-loser.mdx` — prose: "What the winners called it"
-- [ ] `edge/rashidun->umayyad` — claimed legitimacy of in 661
-- [ ] `edge/umayyad->abbasid` — overthrew in 750
-- [ ] `edge/umayyad->zubayrid` — seceded from in 683
-- [ ] `edge/zubayrid->umayyad` — conquered by in 692
-- [ ] `polity/umayyad` — span starts 661
-- [ ] `polity/umayyad` — span ends 750
-- [ ] `polity/umayyad` — capital Damascus from 661
-- [ ] `polity/umayyad` — capital Harran from 744
-- [ ] `polity/umayyad` — founder Mu'awiya ibn Abi Sufyan r. 661-680
-- [ ] `polity/umayyad` — peak Abd al-Malik ibn Marwan r. 685-705
-- [ ] `polity/umayyad` — last Marwan II r. 744-750
-- [ ] `polity/umayyad` — succession rule coded nomination
-- [ ] `polity/umayyad` — turning point 680 Karbala
-- [ ] `polity/umayyad` — turning point 684 Marj Rahit
-- [ ] `polity/umayyad` — turning point 696 The epigraphic dinar and the Arabic registers
-- [ ] `polity/umayyad` — religions_carried = 1 (Islam)
-- [ ] `polity/umayyad` — ended by dynastic replacement in 750
-- [ ] `polity/zubayrid` — span starts 680
-- [ ] `polity/zubayrid` — span ends 692
-- [ ] `polity/zubayrid` — capital Mecca from 683
-- [ ] `polity/zubayrid` — founder Abd Allah ibn al-Zubayr r. 683-692
-- [ ] `polity/zubayrid` — peak Abd Allah ibn al-Zubayr r. 683-692
-- [ ] `polity/zubayrid` — last Abd Allah ibn al-Zubayr r. 683-692
-- [ ] `polity/zubayrid` — military basis coded tribal-levy
-- [ ] `polity/zubayrid` — legitimation coded election + descent
-- [ ] `polity/zubayrid` — turning point 683 The first siege of Mecca
-- [ ] `polity/zubayrid` — turning point 691 Maskin
-- [ ] `polity/zubayrid` — ended by conquest in 692
 
 ## C. E. Bosworth, The Political and Dynastic History of the Iranian World (A.D. 1000-1217)
 *In The Cambridge History of Iran, Volume 5.*
@@ -1002,7 +1011,7 @@ ordinary state, not an item to clear.
 - [ ] `chapter/ghaznavid/01-alptigin-goes-east.mdx` — prose: "Alptigin goes east"
 - [ ] `chapter/ghaznavid/02-mahmud.mdx` — prose: "Mahmud, and the uses of a caliph"
 - [ ] `chapter/ghaznavid/05-the-book-about-india.mdx` — prose: "The book about India"
-- [ ] `chapter/mamunid/02-one-sentence-in-the-friday-sermon.mdx` — prose: "One sentence in the Friday sermon"
+- [ ] `chapter/mamunid/04-one-sentence-in-the-friday-sermon.mdx` — prose: "One sentence in the Friday sermon"
 - [ ] `chapter/samanid/07-the-slave-guard.mdx` — prose: "The instrument that walked away"
 - [ ] `edge/mamunid->ghaznavid` — conquered by in 1017
 - [ ] `edge/samanid->ghaznavid` — slave-general of in 962
@@ -1125,6 +1134,32 @@ ordinary state, not an item to clear.
 - [ ] `polity/qara-khitai` — religions_carried = 0
 - [ ] `polity/qara-khitai` — ended by conquest in 1218
 
+## Mustafa Banister, The Abbasid Caliphate of Cairo, 1261-1517: Out of the Shadows
+*In Edinburgh Studies in Classical Islamic History and Culture.*
+
+`banister-2021` — 18 claims
+
+**Sole source** for `abbasid-cairo` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/abbasid-cairo/01-a-caliph-for-cairo.mdx` — prose: "A caliph for Cairo"
+- [ ] `chapter/abbasid-cairo/02-what-an-empty-office-was-for.mdx` — prose: "What an empty office was for"
+- [ ] `chapter/abbasid-cairo/03-what-an-investiture-was.mdx` — prose: "What an investiture actually was"
+- [ ] `chapter/abbasid-cairo/04-1517.mdx` — prose: "Taken to Constantinople"
+- [ ] `edge/abbasid->abbasid-cairo` — claimed legitimacy of in 1261
+- [ ] `edge/abbasid-cairo->ottoman` — conquered by in 1517
+- [ ] `edge/mamluk-sultanate->abbasid-cairo` — vassal of in 1261
+- [ ] `polity/abbasid-cairo` — span starts 1261
+- [ ] `polity/abbasid-cairo` — span ends 1517
+- [ ] `polity/abbasid-cairo` — capital Cairo from 1261
+- [ ] `polity/abbasid-cairo` — founder al-Mustansir II r. 1261-1261
+- [ ] `polity/abbasid-cairo` — peak al-Musta'in r. 1406-1414
+- [ ] `polity/abbasid-cairo` — last al-Mutawakkil III r. 1508-1517
+- [ ] `polity/abbasid-cairo` — succession rule coded nomination
+- [ ] `polity/abbasid-cairo` — legitimation coded descent
+- [ ] `polity/abbasid-cairo` — turning point 1261 Baybars installs a caliph
+- [ ] `polity/abbasid-cairo` — turning point 1412 The caliph who was also sultan
+- [ ] `polity/abbasid-cairo` — ended by conquest in 1517
+
 ## Peter Jackson, The Delhi Sultanate: A Political and Military History
 
 `jackson-1999` — 18 claims
@@ -1215,30 +1250,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/safavid` — turning point 1501 The Shi’i decree at Tabriz
 - [ ] `polity/safavid` — religions_carried = 1 (Twelver Shi'ism)
 - [ ] `polity/safavid` — ended by conquest in 1736
-
-## Mustafa Banister, The Abbasid Caliphate of Cairo, 1261-1517: Out of the Shadows
-*In Edinburgh Studies in Classical Islamic History and Culture.*
-
-`banister-2021` — 16 claims
-
-**Sole source** for `abbasid-cairo` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/abbasid-cairo/01-a-caliph-for-cairo.mdx` — prose: "A caliph for Cairo"
-- [ ] `chapter/abbasid-cairo/02-what-an-empty-office-was-for.mdx` — prose: "What an empty office was for"
-- [ ] `edge/abbasid->abbasid-cairo` — claimed legitimacy of in 1261
-- [ ] `edge/abbasid-cairo->ottoman` — conquered by in 1517
-- [ ] `edge/mamluk-sultanate->abbasid-cairo` — vassal of in 1261
-- [ ] `polity/abbasid-cairo` — span starts 1261
-- [ ] `polity/abbasid-cairo` — span ends 1517
-- [ ] `polity/abbasid-cairo` — capital Cairo from 1261
-- [ ] `polity/abbasid-cairo` — founder al-Mustansir II r. 1261-1261
-- [ ] `polity/abbasid-cairo` — peak al-Musta'in r. 1406-1414
-- [ ] `polity/abbasid-cairo` — last al-Mutawakkil III r. 1508-1517
-- [ ] `polity/abbasid-cairo` — succession rule coded nomination
-- [ ] `polity/abbasid-cairo` — legitimation coded descent
-- [ ] `polity/abbasid-cairo` — turning point 1261 Baybars installs a caliph
-- [ ] `polity/abbasid-cairo` — turning point 1412 The caliph who was also sultan
-- [ ] `polity/abbasid-cairo` — ended by conquest in 1517
 
 ## John C. Wilkinson, The Imamate Tradition of Oman
 *In Cambridge Middle East Library.*
