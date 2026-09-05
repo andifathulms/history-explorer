@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1594 claims across 89 sources.**
+**1630 claims across 89 sources.**
 
 ## Where to start
 
@@ -81,9 +81,9 @@ ordinary state, not an item to clear.
 
 ## Jamil M. Abun-Nasr, A History of the Maghrib in the Islamic Period
 
-`abun-nasr-1987` — 139 claims
+`abun-nasr-1987` — 172 claims
 
-**Sole source** for `hafsid`, `idrisid`, `marinid`, `zayyanid`, `zirid` — nothing else in the corpus can contradict a misreading here.
+**Sole source** for `hafsid`, `idrisid`, `marinid`, `wattasid`, `zayyanid`, `zirid` — nothing else in the corpus can contradict a misreading here.
 
 - [ ] `chapter/aghlabid/01-a-province-for-rent.mdx` — prose: "A province, for tribute"
 - [ ] `chapter/aghlabid/02-kairouan.mdx` — prose: "What a hundred years of tribute paid for"
@@ -107,7 +107,12 @@ ordinary state, not an item to clear.
 - [ ] `chapter/rustamid/02-an-argument-that-stayed-open.mdx` — prose: "An argument that stayed open"
 - [ ] `chapter/rustamid/03-the-trade.mdx` — prose: "Doctrine along the caravan routes"
 - [ ] `chapter/rustamid/04-into-the-desert.mdx` — prose: "Into the desert"
+- [ ] `chapter/saadi/01-a-better-claim.mdx` — prose: "A better claim"
+- [ ] `chapter/saadi/02-three-kings.mdx` — prose: "Three kings in an afternoon"
+- [ ] `chapter/saadi/04-what-came-after-the-gold.mdx` — prose: "What came after"
 - [ ] `chapter/umayyad/07-the-berber-revolt.mdx` — prose: "Where it broke first"
+- [ ] `chapter/wattasid/01-the-regents.mdx` — prose: "The regents who stopped pretending"
+- [ ] `chapter/wattasid/02-out-of-fez.mdx` — prose: "Squeezed out of the middle"
 - [ ] `chapter/zayyanid/01-the-crossroads.mdx` — prose: "The crossroads"
 - [ ] `chapter/zayyanid/02-a-city-built-to-take-a-city.mdx` — prose: "A city built to take a city"
 - [ ] `chapter/zayyanid/03-the-funduk.mdx` — prose: "Where the gold changed hands"
@@ -122,6 +127,8 @@ ordinary state, not an item to clear.
 - [ ] `edge/almohad->zayyanid` — seceded from in 1235
 - [ ] `edge/fatimid->zirid` — vassal of in 972
 - [ ] `edge/hafsid->ottoman` — conquered by in 1574
+- [ ] `edge/marinid->wattasid` — overthrew in 1472
+- [ ] `edge/wattasid->saadi` — overthrew in 1554
 - [ ] `edge/zayyanid->ottoman` — conquered by in 1551
 - [ ] `edge/zirid->almohad` — absorbed remnants of in 1160
 - [ ] `polity/aghlabid` — span starts 800
@@ -195,7 +202,33 @@ ordinary state, not an item to clear.
 - [ ] `polity/rustamid` — succession rule coded election
 - [ ] `polity/rustamid` — legitimation coded election
 - [ ] `polity/rustamid` — turning point 784 The Nukkar refuse
+- [ ] `polity/saadi` — span starts 1510
+- [ ] `polity/saadi` — span ends 1659
+- [ ] `polity/saadi` — capital Taroudant from 1510
+- [ ] `polity/saadi` — capital Marrakesh from 1525
+- [ ] `polity/saadi` — founder Muhammad al-Qa'im
+- [ ] `polity/saadi` — peak Ahmad al-Mansur r. 1578-1603
+- [ ] `polity/saadi` — last Ahmad al-Abbas
+- [ ] `polity/saadi` — military basis coded tribal-levy + standing-professional
+- [ ] `polity/saadi` — revenue basis coded monopoly + trade-toll + plunder
+- [ ] `polity/saadi` — succession rule coded nomination
+- [ ] `polity/saadi` — legitimation coded descent
+- [ ] `polity/saadi` — turning point 1541 Agadir taken back
+- [ ] `polity/saadi` — turning point 1578 The Battle of the Three Kings
+- [ ] `polity/saadi` — ended by internal usurpation in 1659
 - [ ] `polity/umayyad` — turning point 740 The Berber revolt
+- [ ] `polity/wattasid` — span starts 1420
+- [ ] `polity/wattasid` — span ends 1554
+- [ ] `polity/wattasid` — capital Fez
+- [ ] `polity/wattasid` — founder Muhammad al-Shaykh al-Wattasi
+- [ ] `polity/wattasid` — peak Muhammad al-Burtuqali
+- [ ] `polity/wattasid` — last Ali Abu Hassun
+- [ ] `polity/wattasid` — military basis coded tribal-levy
+- [ ] `polity/wattasid` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/wattasid` — succession rule coded nomination
+- [ ] `polity/wattasid` — legitimation coded conquest
+- [ ] `polity/wattasid` — turning point 1471 Arzila and Tangier
+- [ ] `polity/wattasid` — ended by dynastic replacement in 1554
 - [ ] `polity/zayyanid` — span starts 1235
 - [ ] `polity/zayyanid` — span ends 1551
 - [ ] `polity/zayyanid` — capital Tlemcen from 1235
@@ -1426,6 +1459,29 @@ ordinary state, not an item to clear.
 - [ ] `polity/safavid` — religions_carried = 1 (Twelver Shi'ism)
 - [ ] `polity/safavid` — ended by conquest in 1736
 
+## John O. Hunwick, Timbuktu and the Songhay Empire
+
+`hunwick-1999` — 16 claims
+
+**Sole source** for `songhai` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/saadi/03-across-the-desert.mdx` — prose: "Across the desert, for the gold"
+- [ ] `chapter/songhai/01-timbuktu.mdx` — prose: "Askia Muhammad's pilgrimage"
+- [ ] `chapter/songhai/02-the-chronicles.mdx` — prose: "Written from Timbuktu"
+- [ ] `edge/abbasid->songhai` — claimed legitimacy of in 1496
+- [ ] `edge/mali->songhai` — absorbed remnants of in 1468
+- [ ] `edge/songhai->saadi` — conquered by in 1591
+- [ ] `polity/saadi` — turning point 1591 Tondibi
+- [ ] `polity/songhai` — span starts 1464
+- [ ] `polity/songhai` — span ends 1591
+- [ ] `polity/songhai` — capital Gao from 1464
+- [ ] `polity/songhai` — founder Sunni Ali r. 1464-1492
+- [ ] `polity/songhai` — peak Askia Muhammad I r. 1493-1528
+- [ ] `polity/songhai` — last Askia Ishaq II r. 1588-1591
+- [ ] `polity/songhai` — legitimation coded caliphal-investiture
+- [ ] `polity/songhai` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/songhai` — ended by conquest in 1591
+
 ## John C. Wilkinson, The Imamate Tradition of Oman
 *In Cambridge Middle East Library.*
 
@@ -1643,26 +1699,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/roman` — religions_carried = 1 (Christianity)
 - [ ] `polity/roman` — successor_claims = 3 (Byzantine Empire, Carolingian Empire, Ottoman Empire)
 - [ ] `polity/seleucid` — ended by conquest in -63
-
-## John O. Hunwick, Timbuktu and the Songhay Empire
-
-`hunwick-1999` — 13 claims
-
-**Sole source** for `songhai` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/songhai/01-timbuktu.mdx` — prose: "Askia Muhammad's pilgrimage"
-- [ ] `chapter/songhai/02-the-chronicles.mdx` — prose: "Written from Timbuktu"
-- [ ] `edge/abbasid->songhai` — claimed legitimacy of in 1496
-- [ ] `edge/mali->songhai` — absorbed remnants of in 1468
-- [ ] `polity/songhai` — span starts 1464
-- [ ] `polity/songhai` — span ends 1591
-- [ ] `polity/songhai` — capital Gao from 1464
-- [ ] `polity/songhai` — founder Sunni Ali r. 1464-1492
-- [ ] `polity/songhai` — peak Askia Muhammad I r. 1493-1528
-- [ ] `polity/songhai` — last Askia Ishaq II r. 1588-1591
-- [ ] `polity/songhai` — legitimation coded caliphal-investiture
-- [ ] `polity/songhai` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/songhai` — ended by conquest in 1591
 
 ## C. E. Bosworth, TAHERIDS
 *In Encyclopaedia Iranica.*

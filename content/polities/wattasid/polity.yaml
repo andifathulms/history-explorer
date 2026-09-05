@@ -1,0 +1,56 @@
+id: wattasid
+region: islamic-west
+name:
+  latin: Wattasid Dynasty
+  script: الوطاسيون
+  script_lang: ar
+# 1420 is the beginning of the Wattasid regency for an infant Marinid sultan;
+# 1472 is when they stopped ruling in somebody else's name. Both are used.
+span:
+  start: { min: 1420, max: 1472, source: abun-nasr-1987 }
+  end: { min: 1554, max: 1554, source: abun-nasr-1987 }
+identity: >-
+  The regents who became the dynasty: Marinid kinsmen who ran Morocco for forty
+  years on behalf of children, took it in their own name, and lost the country
+  to a family with a better claim while the Portuguese took the coast.
+capitals:
+  - { name: Fez, script: فاس, source: abun-nasr-1987 }
+core_region: Northern Morocco
+rulers:
+  founder: { name: Muhammad al-Shaykh al-Wattasi, source: abun-nasr-1987 }
+  peak: { name: Muhammad al-Burtuqali, source: abun-nasr-1987 }
+  last: { name: Ali Abu Hassun, source: abun-nasr-1987 }
+scripts_and_languages:
+  administration: [Arabic]
+  writing_system: Arabic
+ended:
+  type: dynastic replacement
+  by: [saadi]
+  year: 1554
+  source: abun-nasr-1987
+institutions:
+  military_basis: { values: [tribal-levy], source: abun-nasr-1987 }
+  revenue_basis: { values: [land-tax, trade-toll], source: abun-nasr-1987 }
+  succession_rule: { values: [nomination], source: abun-nasr-1987 }
+  # The weakest legitimation on any page in this region and the reason the
+  # dynasty fell: a Zenata family related to the Marinids, holding by having
+  # held. No descent from the Prophet, no doctrine, no caliphal grant.
+  legitimation: { values: [conquest], source: abun-nasr-1987 }
+turning_points:
+  - year: 1471
+    type: siege
+    name: "Arzila and Tangier"
+    changed: >-
+      Portugal took two more Atlantic ports in the year before the Wattasids
+      took the throne, and went on taking them: Safi, Azemmour, Agadir, Mazagan
+      and the rest, until the Moroccan coast was a chain of foreign fortresses.
+      A dynasty that could not answer that had nothing else to offer.
+    source: abun-nasr-1987
+    contested: false
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

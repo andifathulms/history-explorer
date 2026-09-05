@@ -30,8 +30,7 @@ scripts_and_languages:
 
 ended:
   type: conquest
-  # The Saadian sultanate of Morocco is not on this site. Named in the prose.
-  by: []
+  by: [saadi]
   year: 1591
   source: hunwick-1999
 

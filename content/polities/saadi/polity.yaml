@@ -1,0 +1,86 @@
+id: saadi
+region: islamic-west
+name:
+  latin: Saadi Sultanate
+  script: السعديون
+  script_lang: ar
+# 1510 is the recognition of Muhammad al-Qa'im as leader of the southern jihad;
+# 1554 is the taking of Fez and the whole country. Both are used as the start.
+span:
+  start: { min: 1510, max: 1554, source: abun-nasr-1987 }
+  end: { min: 1659, max: 1659, source: abun-nasr-1987 }
+identity: >-
+  A sharifian family from the Draa that organised the war against the
+  Portuguese, took Morocco on the strength of it, killed three kings in one
+  afternoon, and sent an army across the Sahara to take the gold at its source.
+capitals:
+  - { name: Taroudant, from: 1510, to: 1525, source: abun-nasr-1987 }
+  - { name: Marrakesh, script: مراكش, from: 1525, source: abun-nasr-1987 }
+core_region: Morocco, with the Niger bend held from 1591
+rulers:
+  founder: { name: Muhammad al-Qa'im, source: abun-nasr-1987 }
+  peak: { name: Ahmad al-Mansur, reign: [1578, 1603], source: abun-nasr-1987 }
+  last: { name: Ahmad al-Abbas, source: abun-nasr-1987 }
+scripts_and_languages:
+  administration: [Arabic]
+  writing_system: Arabic
+ended:
+  type: internal usurpation
+  by: []
+  year: 1659
+  source: abun-nasr-1987
+institutions:
+  # Tribal contingents at the start; from al-Mansur a standing corps organised
+  # on Ottoman lines with firearms and artillery, including renegades,
+  # Andalusi exiles and Turkish gunners — which is what made 1591 possible.
+  military_basis: { values: [tribal-levy, standing-professional], source: abun-nasr-1987 }
+  # Sugar above all — the Sous plantations and refineries selling into Europe —
+  # with the Saharan gold trade, ransom, and after 1591 the tribute of the
+  # Niger bend.
+  revenue_basis: { values: [monopoly, trade-toll, plunder], source: abun-nasr-1987 }
+  succession_rule: { values: [nomination], source: abun-nasr-1987 }
+  # Descent from the Prophet, publicly asserted as the ground of rule, in a
+  # country where the previous dynasty had nothing of the kind. Every Moroccan
+  # dynasty since has made the same claim.
+  legitimation: { values: [descent], source: abun-nasr-1987 }
+turning_points:
+  - year: 1541
+    type: siege
+    name: "Agadir taken back"
+    changed: >-
+      A sharifian family from the south took a Portuguese fortress the sultan
+      in Fez had not been able to touch, and the Portuguese then evacuated Safi
+      and Azemmour rather than hold them. It proved the claim the movement had
+      been making for thirty years, and the Wattasids were finished eight years
+      later.
+    source: abun-nasr-1987
+    contested: false
+  - year: 1578
+    type: battle
+    name: "The Battle of the Three Kings"
+    changed: >-
+      A Portuguese invasion supporting a deposed Saadi claimant was destroyed
+      at Wadi al-Makhazin, and three kings died in the day — the Portuguese
+      Sebastian, the claimant, and the reigning Saadi sultan. Portugal lost its
+      king, its nobility and its army, and passed to the Spanish crown two
+      years later; the Saadis inherited the ransoms and the prestige.
+    source: abun-nasr-1987
+    contested: false
+  - year: 1591
+    type: battle
+    name: "Tondibi"
+    changed: >-
+      An army with firearms crossed the Sahara and destroyed a far larger
+      Songhai force that had none, and Morocco held the Niger bend as a
+      pashalik. It is the first time a North African power took the southern
+      end of the gold road rather than the northern one, and it ended the last
+      of the great Sudanic empires.
+    source: hunwick-1999
+    contested: false
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

@@ -1285,3 +1285,36 @@ edges:
            northern terminus of the gold road before it had a country."
     source: bennison-2016
     contested: false
+
+  # ---- Morocco's last two dynasties, and the far end of the gold road ----
+
+  - from: marinid
+    to: wattasid
+    type: overthrew
+    year: 1472
+    note: "Marinid kinsmen who had held the regency since 1420 stopped ruling
+           in an infant's name and took the throne, seven years after a rising
+           in Fez killed the last Marinid sultan."
+    source: abun-nasr-1987
+    contested: false
+
+  - from: wattasid
+    to: saadi
+    type: overthrew
+    year: 1554
+    note: "A sharifian family that had organised the war against the Portuguese
+           in the south took Fez, where the reigning dynasty had signed truces
+           with the same enemy and latterly been installed by Ottoman troops."
+    source: abun-nasr-1987
+    contested: false
+
+  - from: songhai
+    to: saadi
+    type: conquered by
+    year: 1591
+    note: "An army with firearms crossed the Sahara and destroyed a far larger
+           Songhai force at Tondibi; Morocco held the Niger bend as a pashalik
+           from Timbuktu, the first time a North African power took the
+           southern end of the gold road rather than the northern."
+    source: hunwick-1999
+    contested: false
