@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1132 claims across 83 sources.**
+**1139 claims across 83 sources.**
 
 ## Where to start
 
@@ -728,6 +728,29 @@ ordinary state, not an item to clear.
 - [ ] `polity/fatimid` — religions_carried = 1 (Isma'ili Shi'ism)
 - [ ] `polity/ikhshidid` — ended by conquest in 969
 
+## C. E. Bosworth, The History of the Saffarids of Sistan and the Maliks of Nimruz (247/861 to 949/1542-3)
+
+`bosworth-1994` — 18 claims
+
+- [ ] `chapter/saffarid/01-the-coppersmith.mdx` — prose: "The coppersmith"
+- [ ] `chapter/saffarid/02-sistan-and-the-ayyars.mdx` — prose: "What Sistan had instead of a government"
+- [ ] `chapter/saffarid/04-amr.mdx` — prose: "The brother who took the paper"
+- [ ] `chapter/saffarid/05-the-first-persian-qasida.mdx` — prose: "Why do you recite what I cannot understand"
+- [ ] `chapter/saffarid/06-back-to-sistan.mdx` — prose: "A hundred years in Sistan"
+- [ ] `chapter/tahirid/05-873.mdx` — prose: "Someone who did not want a governorship"
+- [ ] `edge/saffarid->ghaznavid` — absorbed remnants of in 1003
+- [ ] `edge/tahirid->saffarid` — overthrew in 873
+- [ ] `polity/saffarid` — span starts 861
+- [ ] `polity/saffarid` — span end upper bound 1003
+- [ ] `polity/saffarid` — founder Ya'qub ibn al-Layth al-Saffar r. 861-879
+- [ ] `polity/saffarid` — peak Amr ibn al-Layth r. 879-901
+- [ ] `polity/saffarid` — last Khalaf ibn Ahmad r. 963-1003
+- [ ] `polity/saffarid` — military basis coded standing-professional
+- [ ] `polity/saffarid` — legitimation coded conquest + caliphal-investiture
+- [ ] `polity/saffarid` — turning point 867 The first Persian qasida (contested)
+- [ ] `polity/saffarid` — turning point 876 Dayr al-Aqul
+- [ ] `polity/saffarid` — ended by gradual absorption in 1003
+
 ## Colin Imber, The Ottoman Empire, 1300-1650: The Structure of Power
 
 `imber-2002` — 17 claims
@@ -1319,22 +1342,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/mughal` — last Bahadur Shah II r. 1837-1857
 - [ ] `polity/mughal` — ended by conquest in 1857
 
-## C. E. Bosworth, The History of the Saffarids of Sistan and the Maliks of Nimruz (247/861 to 949/1542-3)
-
-`bosworth-1994` — 11 claims
-
-- [ ] `chapter/saffarid/01-the-coppersmith.mdx` — prose: "The coppersmith"
-- [ ] `chapter/saffarid/03-back-to-sistan.mdx` — prose: "A hundred years in Sistan"
-- [ ] `chapter/tahirid/05-873.mdx` — prose: "Someone who did not want a governorship"
-- [ ] `edge/saffarid->ghaznavid` — absorbed remnants of in 1003
-- [ ] `edge/tahirid->saffarid` — overthrew in 873
-- [ ] `polity/saffarid` — span starts 861
-- [ ] `polity/saffarid` — span end upper bound 1003
-- [ ] `polity/saffarid` — founder Ya'qub ibn al-Layth al-Saffar r. 861-879
-- [ ] `polity/saffarid` — peak Amr ibn al-Layth r. 879-901
-- [ ] `polity/saffarid` — last Khalaf ibn Ahmad r. 963-1003
-- [ ] `polity/saffarid` — ended by gradual absorption in 1003
-
 ## Christopher I. Beckwith, The Tibetan Empire in Central Asia
 
 `beckwith-1987` — 11 claims
@@ -1543,7 +1550,7 @@ ordinary state, not an item to clear.
 
 `iranica-saffarids` — 6 claims
 
-- [ ] `chapter/saffarid/02-taking-khurasan.mdx` — prose: "Taking Khurasan, and asking afterwards"
+- [ ] `chapter/saffarid/03-taking-khurasan.mdx` — prose: "Taking Khurasan, and asking afterwards"
 - [ ] `edge/saffarid->samanid` — absorbed remnants of in 901
 - [ ] `polity/saffarid` — span ends 901
 - [ ] `polity/saffarid` — capital Zarang from 861

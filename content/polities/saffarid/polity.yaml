@@ -50,6 +50,54 @@ ended:
   year: 1003
   source: bosworth-1994
 
+institutions:
+  # Not mercenary, which is the intuitive answer for a leader who came out of
+  # the ayyar bands. Mercenaries can leave. What Ya'qub built was a paid
+  # standing force with no other employer, no tribal home and no land, whose
+  # whole existence was the campaign — including the defeated Kharijites of
+  # Badghis, enrolled as a formed contingent rather than dispersed.
+  military_basis: { values: [standing-professional], source: bosworth-1994 }
+  # Null. The chapters describe a state that paid its own army out of what it
+  # took, and Sistan's agriculture underneath that, but no source read for this
+  # polity is cited on the fisc. Coding plunder because the narrative implies
+  # it is the inference coding rule 9 forbids.
+  revenue_basis: null
+  # Null. Ya'qub was succeeded by his brother, Amr by a grandson, and the
+  # Sistani maliks by various kinsmen; the works consulted here are not cited
+  # on what rule, if any, governed that.
+  succession_rule: null
+  # The only polity in this corpus coded `conquest`, and the two values are the
+  # two brothers. Ya'qub refused investiture and rested the claim on having
+  # taken the ground — the sword and the onions. Amr took the paper and held
+  # the same ground for twenty-two years with it. Both are the same polity's
+  # public ground for ruling, four years apart.
+  legitimation: { values: [conquest, caliphal-investiture], source: bosworth-1994 }
+
+turning_points:
+  - year: 867
+    type: reform
+    name: "The first Persian qasida"
+    changed: >-
+      Ya'qub's poets celebrated the taking of Herat in Arabic and he asked why
+      he was hearing what he could not understand; his secretary produced the
+      verses in Persian instead. The tradition dates its own court poetry from
+      that, which means New Persian literature begins as an accommodation to a
+      patron with no Arabic rather than as a programme — the Samanids make it
+      a programme a century later.
+    source: bosworth-1994
+    contested: true
+  - year: 876
+    type: battle
+    name: "Dayr al-Aqul"
+    changed: >-
+      Ya'qub was stopped fifty miles short of Baghdad by the caliph's brother
+      al-Muwaffaq. He withdrew and died three years later still formally a
+      rebel, and his successor spent the next two decades doing the opposite —
+      which is the experiment this page exists to record, because both halves
+      of it ended with Khurasan going to whoever had last won a battle.
+    source: bosworth-1994
+    contested: false
+
 measures:
   reach_km2: null
   peak_population: null
