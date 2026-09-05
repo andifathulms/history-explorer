@@ -1264,3 +1264,24 @@ edges:
            1167."
     source: abun-nasr-1987
     contested: false
+
+  - from: midrarid
+    to: fatimid
+    type: conquered by
+    year: 909
+    note: "The Kutama army marched west across the Maghreb after finishing the
+           Aghlabids, took Sijilmasa and released the imprisoned Abd Allah, who
+           was proclaimed caliph and mahdi; the town was annexed outright in
+           976."
+    source: halm-1996
+    contested: false
+
+  - from: midrarid
+    to: almoravid
+    type: absorbed remnants of
+    year: 1055
+    note: "The Almoravids took Sijilmasa from the Zanata clients who had held
+           it since the Midrarids were removed, giving a Saharan movement the
+           northern terminus of the gold road before it had a country."
+    source: bennison-2016
+    contested: false

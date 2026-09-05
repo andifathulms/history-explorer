@@ -1,0 +1,72 @@
+id: midrarid
+region: islamic-west
+
+name:
+  latin: Midrarid Emirate of Sijilmasa
+  script: بنو مدرار
+  script_lang: ar
+
+# The town is founded in the late 750s and the dynasty is usually dated from
+# Abu al-Qasim's establishment shortly after; the sources give both.
+span:
+  start: { min: 757, max: 772, source: abun-nasr-1987 }
+  end: { min: 976, max: 976, source: abun-nasr-1987 }
+
+identity: >-
+  A Kharijite oasis town at the northern end of the gold road, which minted the
+  metal that reached the Mediterranean and held the Fatimid mahdi in a cell
+  before he was a caliph.
+
+capitals:
+  - { name: Sijilmasa, script: سجلماسة, source: abun-nasr-1987 }
+
+core_region: The Tafilalt oasis, on the northern edge of the Sahara
+
+rulers:
+  founder: { name: Abu al-Qasim Samgu ibn Wasul, source: abun-nasr-1987 }
+  peak: { name: al-Yasa ibn Midrar, source: abun-nasr-1987 }
+  last: { name: null, source: null }
+
+scripts_and_languages:
+  administration: [Arabic]
+  writing_system: Arabic
+
+ended:
+  type: conquest
+  by: [fatimid]
+  year: 976
+  source: abun-nasr-1987
+
+institutions:
+  military_basis: { values: [tribal-levy], source: abun-nasr-1987 }
+  # One thing, and everything else follows from it: the customs of the caravan
+  # trade between the western Sudan and the Mediterranean, plus a mint working
+  # the gold as it arrived.
+  revenue_basis: { values: [trade-toll, mining], source: abun-nasr-1987 }
+  succession_rule: null
+  # Sufri Kharijism, which like the Ibadism on this site's Rustamid and Omani
+  # pages holds that the leader is the qualified Muslim the community accepts,
+  # not a lineage — though the Midrarids became a dynasty regardless, as the
+  # Rustamids did.
+  legitimation: { values: [election], source: abun-nasr-1987 }
+
+turning_points:
+  - year: 909
+    type: siege
+    name: "The prisoner they let go"
+    changed: >-
+      The Isma'ili mahdi Abd Allah had taken refuge in the town and was
+      imprisoned there; the Kutama army raised in Ifriqiya came west, took
+      Sijilmasa and released him, and he was proclaimed caliph. The polity that
+      became the Fatimid empire on this site's caliphates page collected its
+      founder from a cell in this oasis.
+    source: halm-1996
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

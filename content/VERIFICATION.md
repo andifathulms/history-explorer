@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1576 claims across 89 sources.**
+**1590 claims across 89 sources.**
 
 ## Where to start
 
@@ -81,7 +81,7 @@ ordinary state, not an item to clear.
 
 ## Jamil M. Abun-Nasr, A History of the Maghrib in the Islamic Period
 
-`abun-nasr-1987` — 126 claims
+`abun-nasr-1987` — 136 claims
 
 **Sole source** for `hafsid`, `idrisid`, `marinid`, `zayyanid`, `zirid` — nothing else in the corpus can contradict a misreading here.
 
@@ -100,6 +100,7 @@ ordinary state, not an item to clear.
 - [ ] `chapter/marinid/02-what-they-built-instead.mdx` — prose: "What they built instead"
 - [ ] `chapter/marinid/03-the-book-they-paid-for.mdx` — prose: "The book they paid a secretary for"
 - [ ] `chapter/marinid/04-one-year-of-the-whole-maghreb.mdx` — prose: "One year of the whole Maghreb"
+- [ ] `chapter/midrarid/01-the-northern-end.mdx` — prose: "The northern end of the road"
 - [ ] `chapter/rustamid/01-tahert.mdx` — prose: "An elected imamate"
 - [ ] `chapter/rustamid/02-an-argument-that-stayed-open.mdx` — prose: "An argument that stayed open"
 - [ ] `chapter/rustamid/03-the-trade.mdx` — prose: "Doctrine along the caravan routes"
@@ -171,6 +172,15 @@ ordinary state, not an item to clear.
 - [ ] `polity/marinid` — turning point 1348 Kairouan, and the plague
 - [ ] `polity/marinid` — turning point 1415 Ceuta
 - [ ] `polity/marinid` — ended by internal usurpation in 1465
+- [ ] `polity/midrarid` — span starts 757
+- [ ] `polity/midrarid` — span ends 976
+- [ ] `polity/midrarid` — capital Sijilmasa
+- [ ] `polity/midrarid` — founder Abu al-Qasim Samgu ibn Wasul
+- [ ] `polity/midrarid` — peak al-Yasa ibn Midrar
+- [ ] `polity/midrarid` — military basis coded tribal-levy
+- [ ] `polity/midrarid` — revenue basis coded trade-toll + mining
+- [ ] `polity/midrarid` — legitimation coded election
+- [ ] `polity/midrarid` — ended by conquest in 976
 - [ ] `polity/rustamid` — span starts 776
 - [ ] `polity/rustamid` — span ends 909
 - [ ] `polity/rustamid` — capital Tahert from 776
@@ -722,7 +732,7 @@ ordinary state, not an item to clear.
 
 ## Amira K. Bennison, The Almoravid and Almohad Empires
 
-`bennison-2016` — 36 claims
+`bennison-2016` — 37 claims
 
 **Sole source** for `almoravid` — nothing else in the corpus can contradict a misreading here.
 
@@ -735,6 +745,7 @@ ordinary state, not an item to clear.
 - [ ] `chapter/almoravid/03-gold.mdx` — prose: "The gold road"
 - [ ] `chapter/almoravid/04-the-mountain-and-the-islands.mdx` — prose: "The mountain, and the islands"
 - [ ] `edge/almoravid->almohad` — overthrew in 1147
+- [ ] `edge/midrarid->almoravid` — absorbed remnants of in 1055
 - [ ] `polity/almohad` — span starts 1121
 - [ ] `polity/almohad` — span ends 1269
 - [ ] `polity/almohad` — capital Marrakesh from 1147
@@ -1367,6 +1378,28 @@ ordinary state, not an item to clear.
 - [ ] `polity/saffarid` — turning point 876 Dayr al-Aqul
 - [ ] `polity/saffarid` — ended by gradual absorption in 1003
 
+## Heinz Halm, The Empire of the Mahdi: The Rise of the Fatimids
+
+`halm-1996` — 17 claims
+
+- [ ] `chapter/aghlabid/04-909.mdx` — prose: "Recruited from inside"
+- [ ] `chapter/fatimid/01-mahdi.mdx` — prose: "A counter-caliphate"
+- [ ] `chapter/fatimid/04-the-dawa.mdx` — prose: "The apparatus that outlived the state"
+- [ ] `chapter/midrarid/02-the-prisoner.mdx` — prose: "The prisoner in the oasis"
+- [ ] `edge/aghlabid->fatimid` — overthrew in 909
+- [ ] `edge/midrarid->fatimid` — conquered by in 909
+- [ ] `edge/rustamid->fatimid` — conquered by in 909
+- [ ] `polity/aghlabid` — turning point 893 The da'wa reaches the Kutama
+- [ ] `polity/aghlabid` — ended by conquest in 909
+- [ ] `polity/fatimid` — span starts 909
+- [ ] `polity/fatimid` — capital Mahdiyya from 921
+- [ ] `polity/fatimid` — founder Abd Allah al-Mahdi r. 909-934
+- [ ] `polity/fatimid` — succession rule coded nomination
+- [ ] `polity/fatimid` — legitimation coded descent + divine-sanction
+- [ ] `polity/midrarid` — turning point 909 The prisoner they let go
+- [ ] `polity/rustamid` — turning point 909 Tahert taken
+- [ ] `polity/rustamid` — ended by conquest in 909
+
 ## Andrew J. Newman, Safavid Iran: Rebirth of a Persian Empire
 
 `newman-2006` — 17 claims
@@ -1433,25 +1466,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/samanid` — descendant_scripts = 0
 - [ ] `polity/samanid` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/samanid` — ended by conquest in 999
-
-## Heinz Halm, The Empire of the Mahdi: The Rise of the Fatimids
-
-`halm-1996` — 14 claims
-
-- [ ] `chapter/aghlabid/04-909.mdx` — prose: "Recruited from inside"
-- [ ] `chapter/fatimid/01-mahdi.mdx` — prose: "A counter-caliphate"
-- [ ] `chapter/fatimid/04-the-dawa.mdx` — prose: "The apparatus that outlived the state"
-- [ ] `edge/aghlabid->fatimid` — overthrew in 909
-- [ ] `edge/rustamid->fatimid` — conquered by in 909
-- [ ] `polity/aghlabid` — turning point 893 The da'wa reaches the Kutama
-- [ ] `polity/aghlabid` — ended by conquest in 909
-- [ ] `polity/fatimid` — span starts 909
-- [ ] `polity/fatimid` — capital Mahdiyya from 921
-- [ ] `polity/fatimid` — founder Abd Allah al-Mahdi r. 909-934
-- [ ] `polity/fatimid` — succession rule coded nomination
-- [ ] `polity/fatimid` — legitimation coded descent + divine-sanction
-- [ ] `polity/rustamid` — turning point 909 Tahert taken
-- [ ] `polity/rustamid` — ended by conquest in 909
 
 ## Heribert Busse, Iran under the Buyids
 *In The Cambridge History of Iran, Volume 4.*
