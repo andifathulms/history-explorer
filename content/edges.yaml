@@ -924,3 +924,14 @@ edges:
            the older Qarmati mission already held in trust."
     source: daftary-2007
     contested: true
+
+  - from: fatimid
+    to: sulayhid
+    type: vassal of
+    year: 1047
+    note: "Ali al-Sulayhi rose in the Haraz mountains as a convert of the
+           Fatimid mission and ruled Yemen in the Cairo caliph's name, at one
+           point controlling the appointment of the amirs of Mecca on his
+           behalf."
+    source: daftary-2007
+    contested: false

@@ -1,0 +1,85 @@
+id: sulayhid
+region: arabia
+
+name:
+  latin: Sulayhid Dynasty
+  script: الصليحيون
+  script_lang: ar
+
+span:
+  start: { min: 1047, max: 1047, source: daftary-2007 }
+  end: { min: 1138, max: 1138, source: daftary-2007 }
+
+identity: >-
+  The Isma'ili state the Fatimid mission produced in Yemen, ruled for its last
+  half-century by a queen who held religious rank in the hierarchy as well as
+  political authority, and who chose the branch of Isma'ilism that survives.
+
+capitals:
+  - { name: Sana'a, script: صنعاء, from: 1047, source: daftary-2007 }
+  - { name: Jibla, script: جبلة, from: 1087, source: daftary-2007 }
+
+core_region: Yemen
+
+rulers:
+  founder: { name: Ali al-Sulayhi, source: daftary-2007 }
+  # The first woman in any ruler slot on this site, and not by courtesy: Arwa
+  # governed in her own name for about half a century and held the rank of
+  # hujja in the Isma'ili hierarchy, which no other woman did.
+  peak: { name: Arwa al-Sulayhi, reign: [1086, 1138], source: daftary-2007 }
+  last: { name: Arwa al-Sulayhi, reign: [1086, 1138], source: daftary-2007 }
+
+scripts_and_languages:
+  administration: [Arabic]
+  writing_system: Arabic
+
+ended:
+  type: fragmentation
+  by: []
+  year: 1138
+  source: daftary-2007
+
+institutions:
+  military_basis: { values: [tribal-levy], source: daftary-2007 }
+  revenue_basis: null
+  succession_rule: { values: [nomination], source: daftary-2007 }
+  # Descent is not the claim here: the Sulayhids ruled in the Fatimid caliph's
+  # name and their authority came from the mission that converted them. There
+  # is no value for "authorised by a living caliph elsewhere" — the closest is
+  # caliphal-investiture, and it is used in its exact sense.
+  legitimation: { values: [caliphal-investiture], source: daftary-2007 }
+
+turning_points:
+  - year: 1087
+    type: capital-move
+    name: "Jibla"
+    changed: >-
+      Arwa moved the centre from Sana'a, which was exposed and contested by the
+      Zaydi imams and the Najahids, to a defensible town in the southern
+      highlands, and governed from it for fifty years. The state stopped trying
+      to hold all of Yemen and held what it could, which is why it outlasted
+      the man who had conquered the country.
+    source: daftary-2007
+    contested: false
+  - year: 1094
+    type: succession-crisis
+    name: "Choosing between Cairo's claimants"
+    changed: >-
+      When the Fatimid succession split, Yemen followed the Musta'li line and
+      then, on a second split, the Tayyibi one — and Arwa's court became the
+      seat of a mission that Cairo could no longer direct. The da'wa she sent
+      east put Isma'ilism into Gujarat, where the community that descends from
+      it still is.
+    source: daftary-2007
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried:
+      count: 1
+      items: [Tayyibi Isma'ilism]
+      source: daftary-2007
+    successor_claims: { count: null, items: [], source: null }
