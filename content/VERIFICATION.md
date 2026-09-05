@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**1425 claims across 88 sources.**
+**1433 claims across 88 sources.**
 
 ## Where to start
 
@@ -197,17 +197,23 @@ ordinary state, not an item to clear.
 
 ## A. C. S. Peacock and Sara Nur Yildiz (eds), The Seljuks of Anatolia: Court and Society in the Medieval Middle East
 
-`peacock-yildiz-2013` — 67 claims
+`peacock-yildiz-2013` — 73 claims
 
 **Sole source** for `danishmendid`, `rum` — nothing else in the corpus can contradict a misreading here.
 
 - [ ] `chapter/aydinid/01-the-beylik-that-took-to-ships.mdx` — prose: "The beylik that took to ships"
-- [ ] `chapter/aydinid/02-smyrna.mdx` — prose: "What happens when the harbour is taken"
+- [ ] `chapter/aydinid/02-a-mosque-out-of-ephesus.mdx` — prose: "A mosque out of Ephesus"
+- [ ] `chapter/aydinid/03-smyrna.mdx` — prose: "What happens when the harbour is taken"
 - [ ] `chapter/cilician-armenia/01-armenia-somewhere-else.mdx` — prose: "Armenia, six hundred miles away"
+- [ ] `chapter/cilician-armenia/02-the-crown-and-the-church.mdx` — prose: "The crown and the church"
+- [ ] `chapter/cilician-armenia/03-what-cilicia-made.mdx` — prose: "What was made at Sis and Hromkla"
 - [ ] `chapter/danishmendid/01-the-other-turkish-state.mdx` — prose: "The other Turkish state"
-- [ ] `chapter/danishmendid/02-taken-in-pieces.mdx` — prose: "Taken in pieces"
+- [ ] `chapter/danishmendid/02-emir-gazi.mdx` — prose: "The insignia from Baghdad"
+- [ ] `chapter/danishmendid/03-the-coins.mdx` — prose: "Saint George on a Muslim coin"
+- [ ] `chapter/danishmendid/04-taken-in-pieces.mdx` — prose: "Taken in pieces"
 - [ ] `chapter/karamanid/01-out-of-the-mountains.mdx` — prose: "Out of the mountains"
 - [ ] `chapter/karamanid/02-the-claim-and-the-decree.mdx` — prose: "The claim, and the decree that may not have happened"
+- [ ] `chapter/karamanid/03-holding-konya.mdx` — prose: "What holding Konya was worth"
 - [ ] `chapter/rum/01-anatolia.mdx` — prose: "A branch that outlasted the trunk"
 - [ ] `chapter/rum/02-kayqubad.mdx` — prose: "The forty years it worked"
 - [ ] `chapter/rum/03-the-caravanserais.mdx` — prose: "A day's march apart"
@@ -496,6 +502,52 @@ ordinary state, not an item to clear.
 - [ ] `polity/tulunid` — legitimation coded caliphal-investiture
 - [ ] `polity/tulunid` — ended by conquest in 905
 
+## Warren Treadgold, A History of the Byzantine State and Society
+
+`treadgold-1997` — 39 claims
+
+**Sole source** for `nicaea` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/byzantine/01-the-survivor.mdx` — prose: "The empire that lost half of itself and continued"
+- [ ] `chapter/nicaea/01-a-government-in-exile.mdx` — prose: "A government in exile that worked"
+- [ ] `chapter/nicaea/02-what-the-restoration-cost.mdx` — prose: "What the restoration cost"
+- [ ] `chapter/trebizond/01-two-hundred-miles-of-coast.mdx` — prose: "Two hundred miles of coast"
+- [ ] `chapter/trebizond/02-the-city-and-the-road.mdx` — prose: "The city and the road"
+- [ ] `chapter/trebizond/03-bessarion.mdx` — prose: "What left before the city fell"
+- [ ] `edge/byzantine->nicaea` — partitioned from in 1204
+- [ ] `edge/byzantine->trebizond` — partitioned from in 1204
+- [ ] `edge/nicaea->byzantine` — claimed legitimacy of in 1261
+- [ ] `edge/roman->byzantine` — partitioned from in 395
+- [ ] `edge/sasanian->byzantine` — absorbed remnants of in 651
+- [ ] `polity/byzantine` — span starts 395
+- [ ] `polity/byzantine` — span ends 1453
+- [ ] `polity/byzantine` — capital Constantinople from 395
+- [ ] `polity/byzantine` — founder Arcadius r. 395-408
+- [ ] `polity/byzantine` — peak Basil II r. 976-1025
+- [ ] `polity/byzantine` — last Constantine XI r. 1449-1453
+- [ ] `polity/byzantine` — ended by conquest in 1453
+- [ ] `polity/nicaea` — span starts 1204
+- [ ] `polity/nicaea` — span ends 1261
+- [ ] `polity/nicaea` — capital Nicaea from 1204
+- [ ] `polity/nicaea` — capital Nymphaion from 1219
+- [ ] `polity/nicaea` — founder Theodore I Laskaris r. 1205-1222
+- [ ] `polity/nicaea` — peak John III Vatatzes r. 1222-1254
+- [ ] `polity/nicaea` — last Michael VIII Palaiologos r. 1259-1261
+- [ ] `polity/nicaea` — military basis coded land-grant + mercenary
+- [ ] `polity/nicaea` — revenue basis coded land-tax
+- [ ] `polity/nicaea` — succession rule coded nomination
+- [ ] `polity/nicaea` — legitimation coded titulature + descent
+- [ ] `polity/nicaea` — turning point 1261 Constantinople retaken
+- [ ] `polity/nicaea` — ended by dynastic replacement in 1261
+- [ ] `polity/roman` — ended by fragmentation in 395
+- [ ] `polity/trebizond` — span starts 1204
+- [ ] `polity/trebizond` — capital Trebizond from 1204
+- [ ] `polity/trebizond` — founder Alexios I Megas Komnenos r. 1204-1222
+- [ ] `polity/trebizond` — peak Alexios II Megas Komnenos r. 1297-1330
+- [ ] `polity/trebizond` — revenue basis coded trade-toll
+- [ ] `polity/trebizond` — legitimation coded descent + titulature
+- [ ] `polity/trebizond` — turning point 1282 Giving up the imperial title
+
 ## R. N. Frye (ed.), The Cambridge History of Iran, Volume 4: From the Arab Invasion to the Saljuqs
 
 `chi-4` — 38 claims
@@ -538,50 +590,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/ziyarid` — legitimation coded titulature
 - [ ] `polity/ziyarid` — turning point 935 Mardavij killed in his bath
 - [ ] `polity/ziyarid` — turning point 1012 The army deposes Qabus
-
-## Warren Treadgold, A History of the Byzantine State and Society
-
-`treadgold-1997` — 37 claims
-
-**Sole source** for `nicaea` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/byzantine/01-the-survivor.mdx` — prose: "The empire that lost half of itself and continued"
-- [ ] `chapter/nicaea/01-a-government-in-exile.mdx` — prose: "A government in exile that worked"
-- [ ] `chapter/nicaea/02-what-the-restoration-cost.mdx` — prose: "What the restoration cost"
-- [ ] `chapter/trebizond/01-two-hundred-miles-of-coast.mdx` — prose: "Two hundred miles of coast"
-- [ ] `edge/byzantine->nicaea` — partitioned from in 1204
-- [ ] `edge/byzantine->trebizond` — partitioned from in 1204
-- [ ] `edge/nicaea->byzantine` — claimed legitimacy of in 1261
-- [ ] `edge/roman->byzantine` — partitioned from in 395
-- [ ] `edge/sasanian->byzantine` — absorbed remnants of in 651
-- [ ] `polity/byzantine` — span starts 395
-- [ ] `polity/byzantine` — span ends 1453
-- [ ] `polity/byzantine` — capital Constantinople from 395
-- [ ] `polity/byzantine` — founder Arcadius r. 395-408
-- [ ] `polity/byzantine` — peak Basil II r. 976-1025
-- [ ] `polity/byzantine` — last Constantine XI r. 1449-1453
-- [ ] `polity/byzantine` — ended by conquest in 1453
-- [ ] `polity/nicaea` — span starts 1204
-- [ ] `polity/nicaea` — span ends 1261
-- [ ] `polity/nicaea` — capital Nicaea from 1204
-- [ ] `polity/nicaea` — capital Nymphaion from 1219
-- [ ] `polity/nicaea` — founder Theodore I Laskaris r. 1205-1222
-- [ ] `polity/nicaea` — peak John III Vatatzes r. 1222-1254
-- [ ] `polity/nicaea` — last Michael VIII Palaiologos r. 1259-1261
-- [ ] `polity/nicaea` — military basis coded land-grant + mercenary
-- [ ] `polity/nicaea` — revenue basis coded land-tax
-- [ ] `polity/nicaea` — succession rule coded nomination
-- [ ] `polity/nicaea` — legitimation coded titulature + descent
-- [ ] `polity/nicaea` — turning point 1261 Constantinople retaken
-- [ ] `polity/nicaea` — ended by dynastic replacement in 1261
-- [ ] `polity/roman` — ended by fragmentation in 395
-- [ ] `polity/trebizond` — span starts 1204
-- [ ] `polity/trebizond` — capital Trebizond from 1204
-- [ ] `polity/trebizond` — founder Alexios I Megas Komnenos r. 1204-1222
-- [ ] `polity/trebizond` — peak Alexios II Megas Komnenos r. 1297-1330
-- [ ] `polity/trebizond` — revenue basis coded trade-toll
-- [ ] `polity/trebizond` — legitimation coded descent + titulature
-- [ ] `polity/trebizond` — turning point 1282 Giving up the imperial title
 
 ## Peter B. Golden, An Introduction to the History of the Turkic Peoples
 
@@ -1043,9 +1051,9 @@ ordinary state, not an item to clear.
 
 `finkel-2005` — 20 claims
 
-- [ ] `chapter/karamanid/03-two-centuries-of-being-the-rival.mdx` — prose: "Two centuries of being the rival"
+- [ ] `chapter/karamanid/04-two-centuries-of-being-the-rival.mdx` — prose: "Two centuries of being the rival"
 - [ ] `chapter/ottoman/08-1922.mdx` — prose: "The last of the three"
-- [ ] `chapter/trebizond/02-the-last-of-the-romans.mdx` — prose: "The last of them"
+- [ ] `chapter/trebizond/04-the-last-of-the-romans.mdx` — prose: "The last of them"
 - [ ] `edge/aydinid->ottoman` — conquered by in 1426
 - [ ] `edge/karamanid->ottoman` — conquered by in 1487
 - [ ] `edge/trebizond->akkoyunlu` — vassal of in 1458
@@ -1301,7 +1309,7 @@ ordinary state, not an item to clear.
 
 `jackson-2017` — 14 claims
 
-- [ ] `chapter/cilician-armenia/02-the-bet-on-the-mongols.mdx` — prose: "The bet on the Mongols"
+- [ ] `chapter/cilician-armenia/04-the-bet-on-the-mongols.mdx` — prose: "The bet on the Mongols"
 - [ ] `chapter/ilkhanate/01-conversion.mdx` — prose: "The conquerors convert"
 - [ ] `chapter/ilkhanate/02-rashid-al-din.mdx` — prose: "The first world history"
 - [ ] `edge/mongol->ilkhanate` — partitioned from in 1256
