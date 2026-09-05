@@ -34,6 +34,47 @@ ended:
   year: 1147
   source: bennison-2016
 
+institutions:
+  # Sanhaja tribal contingents from the western Sahara, and from the 1080s a
+  # paid guard of Black African and European slave soldiers and Christian
+  # mercenaries around the amir — the usual sequence, arrived at within one
+  # generation of leaving the desert.
+  military_basis: { values: [tribal-levy, slave-soldier], source: bennison-2016 }
+  # Control of both ends of the western gold road, taken before Morocco was:
+  # Awdaghust in 1054 and Sijilmasa in 1055. The dinar that resulted circulated
+  # in Christian Spain and was imitated there.
+  revenue_basis: { values: [trade-toll, land-tax], source: bennison-2016 }
+  succession_rule: { values: [nomination], source: bennison-2016 }
+  # Not descent and not a caliphal grant: the claim was that the movement
+  # enforced the law where existing rulers had abandoned it, and it was
+  # certified by jurists — the fatwas from Cordoba and Baghdad authorising the
+  # deposition of the taifa kings.
+  legitimation: { values: [divine-sanction], source: bennison-2016 }
+
+turning_points:
+  - year: 1055
+    type: siege
+    name: "Both ends of the gold road"
+    changed: >-
+      Awdaghust in 1054 and Sijilmasa in 1055 were taken before Morocco was,
+      which gave a desert movement a bullion supply before it had a country.
+      Everything the dynasty did afterwards was paid for out of the trans-
+      Saharan trade, and the resulting dinar was reliable enough to circulate
+      in Christian Spain and be imitated there.
+    source: bennison-2016
+    contested: false
+  - year: 1086
+    type: battle
+    name: "Sagrajas"
+    changed: >-
+      Yusuf ibn Tashfin beat Alfonso VI after the taifa kings invited him
+      across the strait, then went home — and came back to depose the kings who
+      had invited him, on a legal opinion that rulers paying tribute to
+      Christians had forfeited authority. Al-Andalus was governed from
+      Marrakesh for the next sixty years.
+    source: bennison-2016
+    contested: false
+
 measures:
   # No cited km2 for this polity in the works consulted; Taagepera does not
   # tabulate it separately. The axis is empty rather than borrowed.
