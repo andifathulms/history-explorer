@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**2609 claims across 139 sources.**
+**2622 claims across 139 sources.**
 
 ## Where to start
 
@@ -1681,6 +1681,35 @@ ordinary state, not an item to clear.
 - [ ] `polity/shirvanshah` — last Farrukh Yasar r. 1465-1500
 - [ ] `polity/shirvanshah` — turning point 1500 The killing of Farrukh Yasar
 
+## Pierre Briant, From Cyrus to Alexander: A History of the Persian Empire
+
+`briant-2002` — 24 claims
+
+- [ ] `chapter/achaemenid/01-cyrus.mdx` — prose: "Cyrus"
+- [ ] `chapter/achaemenid/02-satrapies.mdx` — prose: "Satrapies"
+- [ ] `chapter/achaemenid/03-the-tablets.mdx` — prose: "What the tablets say"
+- [ ] `chapter/achaemenid/04-the-greek-problem.mdx` — prose: "The sources are the enemy's"
+- [ ] `chapter/achaemenid/05-by-the-favour-of-ahuramazda.mdx` — prose: "By the favour of Ahuramazda"
+- [ ] `chapter/achaemenid/06-not-in-decline.mdx` — prose: "Not in decline"
+- [ ] `chapter/median/02-what-cyrus-needed.mdx` — prose: "A predecessor worth having"
+- [ ] `edge/median->achaemenid` — overthrew in -549
+- [ ] `polity/achaemenid` — span starts -550
+- [ ] `polity/achaemenid` — span ends -330
+- [ ] `polity/achaemenid` — capital Persepolis from -550
+- [ ] `polity/achaemenid` — founder Cyrus II r. -559--530
+- [ ] `polity/achaemenid` — peak Darius I r. -522--486
+- [ ] `polity/achaemenid` — last Darius III r. -336--330
+- [ ] `polity/achaemenid` — military basis coded standing-professional + conscript
+- [ ] `polity/achaemenid` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/achaemenid` — succession rule coded nomination
+- [ ] `polity/achaemenid` — legitimation coded divine-sanction + descent
+- [ ] `polity/achaemenid` — turning point -539 Babylon
+- [ ] `polity/achaemenid` — turning point -522 Darius and the year of rebellions (contested)
+- [ ] `polity/achaemenid` — turning point -404 Egypt leaves
+- [ ] `polity/achaemenid` — descendant_scripts = 1 (Old Persian cuneiform)
+- [ ] `polity/achaemenid` — successor_claims = 2 (Parthian Empire, Sasanian Empire)
+- [ ] `polity/median` — ended by conquest in -549
+
 ## Nicola Di Cosmo, Allen J. Frank and Peter B. Golden (eds), The Cambridge History of Inner Asia: The Chinggisid Age
 
 `di-cosmo-2009` — 24 claims
@@ -2595,6 +2624,25 @@ ordinary state, not an item to clear.
 - [ ] `polity/samanid` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/samanid` — ended by conquest in 999
 
+## A. B. Bosworth, Conquest and Empire: The Reign of Alexander the Great
+
+`ab-bosworth-1988` — 14 claims
+
+- [ ] `chapter/achaemenid/07-three-battles.mdx` — prose: "Three battles and a satrap"
+- [ ] `chapter/macedonian/01-macedonian.mdx` — prose: "Thirteen years"
+- [ ] `chapter/macedonian/02-the-succession.mdx` — prose: "What happens when there is no institution"
+- [ ] `edge/achaemenid->macedonian` — conquered by in -330
+- [ ] `polity/achaemenid` — turning point -331 Gaugamela
+- [ ] `polity/achaemenid` — ended by conquest in -330
+- [ ] `polity/macedonian` — span starts -336
+- [ ] `polity/macedonian` — span ends -323
+- [ ] `polity/macedonian` — capital Babylon from -336
+- [ ] `polity/macedonian` — founder Alexander III r. -336--323
+- [ ] `polity/macedonian` — peak Alexander III r. -336--323
+- [ ] `polity/macedonian` — last Alexander III r. -336--323
+- [ ] `polity/macedonian` — turning point -323 The settlement at Babylon
+- [ ] `polity/macedonian` — ended by fragmentation in -323
+
 ## Heribert Busse, Iran under the Buyids
 *In The Cambridge History of Iran, Volume 4.*
 
@@ -2694,24 +2742,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/mongol` — successor_claims = 3 (ilkhanate, chagatai, golden-horde)
 - [ ] `polity/mongol` — ended by fragmentation in 1260
 
-## Pierre Briant, From Cyrus to Alexander: A History of the Persian Empire
-
-`briant-2002` — 13 claims
-
-- [ ] `chapter/achaemenid/01-achaemenid.mdx` — prose: "Satrapies"
-- [ ] `chapter/achaemenid/02-the-greek-problem.mdx` — prose: "The sources are the enemy's"
-- [ ] `chapter/median/02-what-cyrus-needed.mdx` — prose: "A predecessor worth having"
-- [ ] `edge/median->achaemenid` — overthrew in -549
-- [ ] `polity/achaemenid` — span starts -550
-- [ ] `polity/achaemenid` — span ends -330
-- [ ] `polity/achaemenid` — capital Persepolis from -550
-- [ ] `polity/achaemenid` — founder Cyrus II r. -559--530
-- [ ] `polity/achaemenid` — peak Darius I r. -522--486
-- [ ] `polity/achaemenid` — last Darius III r. -336--330
-- [ ] `polity/achaemenid` — descendant_scripts = 1 (Old Persian cuneiform)
-- [ ] `polity/achaemenid` — successor_claims = 2 (Parthian Empire, Sasanian Empire)
-- [ ] `polity/median` — ended by conquest in -549
-
 ## C. E. Bosworth, KWARAZMSHAHS
 *In Encyclopaedia Iranica.*
 <https://iranicaonline.org/articles/kvarazmshahs-index>
@@ -2806,23 +2836,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/tahirid-yemen` — turning point 1504 The Amiriyya at Rada'
 - [ ] `polity/tahirid-yemen` — turning point 1517 The expedition from a dead empire
 - [ ] `polity/tahirid-yemen` — ended by conquest in 1517
-
-## A. B. Bosworth, Conquest and Empire: The Reign of Alexander the Great
-
-`ab-bosworth-1988` — 12 claims
-
-- [ ] `chapter/macedonian/01-macedonian.mdx` — prose: "Thirteen years"
-- [ ] `chapter/macedonian/02-the-succession.mdx` — prose: "What happens when there is no institution"
-- [ ] `edge/achaemenid->macedonian` — conquered by in -330
-- [ ] `polity/achaemenid` — ended by conquest in -330
-- [ ] `polity/macedonian` — span starts -336
-- [ ] `polity/macedonian` — span ends -323
-- [ ] `polity/macedonian` — capital Babylon from -336
-- [ ] `polity/macedonian` — founder Alexander III r. -336--323
-- [ ] `polity/macedonian` — peak Alexander III r. -336--323
-- [ ] `polity/macedonian` — last Alexander III r. -336--323
-- [ ] `polity/macedonian` — turning point -323 The settlement at Babylon
-- [ ] `polity/macedonian` — ended by fragmentation in -323
 
 ## John F. Richards, The Mughal Empire (The New Cambridge History of India, I.5)
 

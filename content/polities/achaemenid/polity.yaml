@@ -34,10 +34,91 @@ ended:
   year: -330
   source: ab-bosworth-1988
 
+institutions:
+  # A permanent core and an imperial levy. The king kept a standing guard and
+  # garrisons in the satrapies, paid and quartered year-round; the field armies
+  # were raised for a campaign from the subject populations by administrative
+  # obligation, which is what `conscript` names. Greek mercenaries were hired in
+  # large numbers and were an instrument rather than the basis — the point
+  # Briant makes against the Greek sources' habit of treating them as the only
+  # part of a Persian army worth describing.
+  military_basis: { values: [standing-professional, conscript], source: briant-2002 }
+  # The satrapal assessments, which Herodotus lists province by province and
+  # which were levied on land and produce, and the tolls of the roads and ports
+  # of an empire that ran from the Aegean to the Indus. Not `tribute`: coding
+  # rule 6 reserves that for revenue received from another polity, and the
+  # satrapies were inside this one. Unranked.
+  revenue_basis: { values: [land-tax, trade-toll], source: briant-2002 }
+  # The king chose among his sons and normally designated in his own lifetime,
+  # which is `nomination` rather than primogeniture — Xerxes was not the eldest
+  # and Darius' inscription is at pains to explain why he was chosen. The rule
+  # was contested at almost every transition and is coded by the rule, as coding
+  # rule 7 requires.
+  succession_rule: { values: [nomination], source: briant-2002 }
+  # The formula is on every royal inscription and does not vary: by the favour
+  # of Ahuramazda I am king. `descent` is the second half of it — Darius' text
+  # at Behistun spends its opening lines establishing a genealogy precisely
+  # because his claim to it was the weakest thing about him.
+  legitimation: { values: [divine-sanction, descent], source: briant-2002 }
+
+turning_points:
+  - year: -539
+    type: siege
+    name: "Babylon"
+    changed: >-
+      Cyrus took the greatest city in the world without a serious fight, kept
+      its administration, its priesthoods and its temples running, and had
+      himself proclaimed in Babylonian terms as the restorer of Marduk's order.
+      It established the method the empire was governed by for two centuries:
+      take the apparatus intact and rule through it in its own language.
+    source: briant-2002
+    contested: false
+  - year: -522
+    type: succession-crisis
+    name: "Darius and the year of rebellions"
+    changed: >-
+      A disputed succession produced a usurper or a legitimate heir depending on
+      whose account is believed, a coup, and revolts in nine provinces inside a
+      year. Darius put them down and then rebuilt the empire around the
+      settlement he imposed — the satrapal system, the assessments, the roads,
+      the coinage and the inscription at Behistun that explains all of it. Most
+      of what this page describes dates from the crisis rather than from the
+      conquest.
+    source: briant-2002
+    contested: true
+  - year: -404
+    type: revolt
+    name: "Egypt leaves"
+    changed: >-
+      The richest province in the empire revolted successfully and stayed
+      independent for sixty years, through repeated Persian attempts to recover
+      it. It is the clearest demonstration that the empire's problem was never
+      the Greeks: Egypt was worth more than the Aegean, took four expeditions to
+      recover, and was reconquered in 343 — seven years before Alexander landed.
+    source: briant-2002
+    contested: false
+  - year: -331
+    type: battle
+    name: "Gaugamela"
+    changed: >-
+      The Persian field army was destroyed in open country of Darius' own
+      choosing, and with it the empire's capacity to resist. Babylon, Susa and
+      Persepolis were surrendered or taken within months; the king fled east and
+      was killed by his own satrap the following summer. Everything this empire
+      had rested on being able to concentrate a decisive force, and after
+      Gaugamela it could not.
+    source: ab-bosworth-1988
+    contested: false
+
 measures:
   reach_km2: { value: 5500000, at: -500, source: taagepera-1979 }
   peak_population: null
   influence:
+    # Old Persian cuneiform: a semi-alphabetic script devised under this
+    # dynasty to write the king's own language, used almost exclusively for
+    # royal inscriptions and abandoned with the empire. Coding rule 2 counts a
+    # script newly adapted out of an existing one for a new language, which this
+    # is; it does not require the script to have survived, and this one did not.
     descendant_scripts:
       count: 1
       items: [Old Persian cuneiform]
