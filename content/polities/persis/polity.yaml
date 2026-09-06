@@ -1,0 +1,91 @@
+id: persis
+region: pre-islamic-iran
+
+name:
+  latin: Kingdom of Persis
+  # The coins are legended in Aramaic, not Greek, which is the argument of the
+  # third chapter.
+  script: 𐡐𐡓𐡎
+  script_lang: arc
+
+# The start is a range because the Frataraka are dated by coin sequence and the
+# chronology has moved by decades in recent scholarship. The end is exact and is
+# the least ordinary ending in this corpus.
+span:
+  start: { min: -280, max: -220, source: wiesehofer-1996 }
+  end: { min: 224, max: 224, source: daryaee-2009 }
+
+identity: >-
+  The Achaemenid homeland after the Achaemenids: five hundred years of local
+  kings at Istakhr, in the shadow of Persepolis, striking coins in Aramaic under
+  somebody else's suzerainty — until one of them took the empire.
+
+capitals:
+  - { name: Istakhr, source: wiesehofer-1996 }
+
+core_region: Fars, the south-western Iranian plateau
+
+rulers:
+  founder: { name: Bagadates I, source: wiesehofer-1996 }
+  # No peak this site will name. The dynasty is known from coins across five
+  # centuries with long gaps, and no consulted source identifies a high point.
+  peak: { name: null, source: null }
+  last: { name: Ardashir, source: daryaee-2009 }
+
+scripts_and_languages:
+  administration: [Aramaic, Middle Persian]
+  writing_system: Aramaic
+
+# The least ordinary ending in the corpus, and none of the six types fits.
+# Persis was not conquered, did not fragment, was not usurped and was not
+# replaced by a different house. Its own king defeated his overlord and became
+# king of kings, and the kingdom stopped being a separate polity because it had
+# become the centre of an empire. `gradual absorption` is the nearest available
+# and the fourth chapter is about the gap.
+ended:
+  type: gradual absorption
+  by: [sasanian]
+  year: 224
+  source: daryaee-2009
+
+institutions:
+  # Null. Nothing consulted describes how a force was raised in this kingdom in
+  # terms this vocabulary could take; what is recorded is that Persis supplied
+  # contingents to whoever its overlord was, which is a fact about the
+  # relationship rather than about the institution.
+  military_basis: null
+  # Fars is agricultural country and the kingdom lived on it, together with the
+  # estates of the fire temples, which were substantial and are the reason the
+  # family on the last chapter of this page mattered before it had an army.
+  revenue_basis: { values: [land-tax], source: wiesehofer-1996 }
+  succession_rule: null
+  # The coins carry the ruler standing before a fire temple or a standard, and
+  # the dynasty that ended this record traced itself to Sasan, described as the
+  # custodian of the temple of Anahita at Istakhr. A priestly office as the
+  # basis of a claim is not exactly what `divine-sanction` was written for — the
+  # rulebook's examples are the mandate of heaven, divine kingship and a claim
+  # to be mahdi or imam — and it is the nearest value, because the right being
+  # asserted comes from the temple rather than from a predecessor or an army.
+  legitimation: { values: [divine-sanction], source: wiesehofer-1996 }
+
+turning_points:
+  - year: 205
+    type: revolt
+    name: "Papak takes Istakhr"
+    changed: >-
+      A local dynast whose family held the fire temple deposed the sitting king
+      of Persis and took the throne, and asked the Parthian king of kings to
+      confirm his son in it. The request was refused. Within twenty years that
+      son had killed the man who refused and taken his empire, and the sequence
+      from a temple custodianship to the throne of Iran runs through this one
+      act.
+    source: daryaee-2009
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

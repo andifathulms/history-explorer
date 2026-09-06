@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**2714 claims across 143 sources.**
+**2742 claims across 144 sources.**
 
 ## Where to start
 
@@ -1635,6 +1635,40 @@ ordinary state, not an item to clear.
 - [ ] `polity/khwarazmian` — turning point 1210 Breaking the Qara Khitai
 - [ ] `polity/khwarazmian` — turning point 1217 A rival caliph, and snow in the Zagros
 
+## Touraj Daryaee, Sasanian Persia: The Rise and Fall of an Empire
+
+`daryaee-2009` — 29 claims
+
+- [ ] `chapter/parthian/07-224.mdx` — prose: "A sub-king in Persis"
+- [ ] `chapter/persis/04-224.mdx` — prose: "A polity that became the centre"
+- [ ] `chapter/sasanian/01-ardashir.mdx` — prose: "A vassal takes the crown"
+- [ ] `chapter/sasanian/02-shapur.mdx` — prose: "The emperor on his knees"
+- [ ] `chapter/sasanian/03-the-fire-and-the-church.mdx` — prose: "A state religion, and the church it made possible"
+- [ ] `chapter/sasanian/06-the-last-war.mdx` — prose: "The last war"
+- [ ] `chapter/sasanian/07-collapse.mdx` — prose: "Twenty-six years, then eight"
+- [ ] `edge/achaemenid->sasanian` — claimed legitimacy of in 224
+- [ ] `edge/kushan->sasanian` — conquered by in 230
+- [ ] `edge/parthian->sasanian` — overthrew in 224
+- [ ] `polity/kushan` — ended by conquest in 375
+- [ ] `polity/parthian` — ended by dynastic replacement in 224
+- [ ] `polity/persis` — span ends 224
+- [ ] `polity/persis` — last Ardashir
+- [ ] `polity/persis` — turning point 205 Papak takes Istakhr
+- [ ] `polity/persis` — ended by gradual absorption in 224
+- [ ] `polity/sasanian` — span starts 224
+- [ ] `polity/sasanian` — span ends 651
+- [ ] `polity/sasanian` — capital Ctesiphon from 224
+- [ ] `polity/sasanian` — founder Ardashir I r. 224-242
+- [ ] `polity/sasanian` — last Yazdegerd III r. 632-651
+- [ ] `polity/sasanian` — military basis coded land-grant + standing-professional
+- [ ] `polity/sasanian` — revenue basis coded land-tax + poll-tax
+- [ ] `polity/sasanian` — succession rule coded primogeniture
+- [ ] `polity/sasanian` — legitimation coded divine-sanction + descent
+- [ ] `polity/sasanian` — turning point 260 Edessa
+- [ ] `polity/sasanian` — turning point 484 Peroz and the Hephthalites
+- [ ] `polity/sasanian` — turning point 626 Constantinople
+- [ ] `polity/sasanian` — religions_carried = 1 (Zoroastrianism)
+
 ## Rein Taagepera, Size and Duration of Empires: Growth-Decline Curves, 600 B.C. to 600 A.D.
 *In Social Science History 3(3/4), 115-138.*
 
@@ -1792,35 +1826,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/achaemenid` — successor_claims = 2 (Parthian Empire, Sasanian Empire)
 - [ ] `polity/median` — ended by conquest in -549
 
-## Touraj Daryaee, Sasanian Persia: The Rise and Fall of an Empire
-
-`daryaee-2009` — 24 claims
-
-- [ ] `chapter/parthian/07-224.mdx` — prose: "A sub-king in Persis"
-- [ ] `chapter/sasanian/01-ardashir.mdx` — prose: "A vassal takes the crown"
-- [ ] `chapter/sasanian/02-shapur.mdx` — prose: "The emperor on his knees"
-- [ ] `chapter/sasanian/03-the-fire-and-the-church.mdx` — prose: "A state religion, and the church it made possible"
-- [ ] `chapter/sasanian/06-the-last-war.mdx` — prose: "The last war"
-- [ ] `chapter/sasanian/07-collapse.mdx` — prose: "Twenty-six years, then eight"
-- [ ] `edge/achaemenid->sasanian` — claimed legitimacy of in 224
-- [ ] `edge/kushan->sasanian` — conquered by in 230
-- [ ] `edge/parthian->sasanian` — overthrew in 224
-- [ ] `polity/kushan` — ended by conquest in 375
-- [ ] `polity/parthian` — ended by dynastic replacement in 224
-- [ ] `polity/sasanian` — span starts 224
-- [ ] `polity/sasanian` — span ends 651
-- [ ] `polity/sasanian` — capital Ctesiphon from 224
-- [ ] `polity/sasanian` — founder Ardashir I r. 224-242
-- [ ] `polity/sasanian` — last Yazdegerd III r. 632-651
-- [ ] `polity/sasanian` — military basis coded land-grant + standing-professional
-- [ ] `polity/sasanian` — revenue basis coded land-tax + poll-tax
-- [ ] `polity/sasanian` — succession rule coded primogeniture
-- [ ] `polity/sasanian` — legitimation coded divine-sanction + descent
-- [ ] `polity/sasanian` — turning point 260 Edessa
-- [ ] `polity/sasanian` — turning point 484 Peroz and the Hephthalites
-- [ ] `polity/sasanian` — turning point 626 Constantinople
-- [ ] `polity/sasanian` — religions_carried = 1 (Zoroastrianism)
-
 ## Nicola Di Cosmo, Allen J. Frank and Peter B. Golden (eds), The Cambridge History of Inner Asia: The Chinggisid Age
 
 `di-cosmo-2009` — 24 claims
@@ -1851,6 +1856,36 @@ ordinary state, not an item to clear.
 - [ ] `polity/shaybanid` — turning point 1512 Ghijduvan
 - [ ] `polity/shaybanid` — turning point 1588 Abdullah Khan at Herat
 - [ ] `polity/shaybanid` — ended by dynastic replacement in 1599
+
+## Josef Wiesehöfer, trans. Azizeh Azodi, Ancient Persia: From 550 BC to 650 AD
+
+`wiesehofer-1996` — 23 claims
+
+**Sole source** for `atropatene` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/atropatene/01-the-satrap-who-stayed.mdx` — prose: "The satrap who did not hand it over"
+- [ ] `chapter/atropatene/02-the-fire-of-the-warriors.mdx` — prose: "The fire of the warriors"
+- [ ] `chapter/atropatene/03-antony.mdx` — prose: "The invasion that ended the Roman project"
+- [ ] `chapter/atropatene/04-the-name.mdx` — prose: "Atropatene, Adurbadagan, Azerbaijan"
+- [ ] `chapter/persis/01-the-homeland.mdx` — prose: "What was left in Fars"
+- [ ] `chapter/persis/02-somebody-elses-vassal.mdx` — prose: "Five centuries as somebody's vassal"
+- [ ] `chapter/persis/03-the-argument-about-the-coins.mdx` — prose: "What a coin can and cannot show"
+- [ ] `edge/atropatene->sasanian` — conquered by in 226
+- [ ] `edge/macedonian->atropatene` — partitioned from in -323
+- [ ] `edge/seleucid->persis` — seceded from in -280
+- [ ] `polity/atropatene` — span starts -323
+- [ ] `polity/atropatene` — span ends 226
+- [ ] `polity/atropatene` — capital Ganzak
+- [ ] `polity/atropatene` — founder Atropates
+- [ ] `polity/atropatene` — revenue basis coded land-tax
+- [ ] `polity/atropatene` — legitimation coded descent
+- [ ] `polity/atropatene` — turning point -36 Antony in Atropatene
+- [ ] `polity/atropatene` — ended by conquest in 226
+- [ ] `polity/persis` — span starts -280
+- [ ] `polity/persis` — capital Istakhr
+- [ ] `polity/persis` — founder Bagadates I
+- [ ] `polity/persis` — revenue basis coded land-tax
+- [ ] `polity/persis` — legitimation coded divine-sanction
 
 ## Cyril Toumanoff, Studies in Christian Caucasian History
 

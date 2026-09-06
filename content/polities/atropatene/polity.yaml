@@ -1,0 +1,72 @@
+id: atropatene
+region: pre-islamic-iran
+
+name:
+  latin: Media Atropatene
+  script: Ἀτροπατηνή
+  script_lang: grc
+
+span:
+  start: { min: -323, max: -320, source: wiesehofer-1996 }
+  end: { min: 226, max: 226, source: wiesehofer-1996 }
+
+identity: >-
+  The northern half of Media, kept by the Achaemenid satrap who was governing it
+  when Alexander died and held by his descendants for five hundred years — and
+  the country that gave Azerbaijan its name.
+
+capitals:
+  - { name: Ganzak, source: wiesehofer-1996 }
+
+core_region: North-western Iran, from the Araxes to the Zagros
+
+rulers:
+  founder: { name: Atropates, source: wiesehofer-1996 }
+  peak: { name: null, source: null }
+  last: { name: null, source: null }
+
+scripts_and_languages:
+  administration: [Greek, Aramaic, Middle Persian]
+  writing_system: Greek and Aramaic
+
+ended:
+  type: conquest
+  by: [sasanian]
+  year: 226
+  source: wiesehofer-1996
+
+institutions:
+  # Null, for the same reason as the Persis record: nothing consulted describes
+  # how the kingdom raised a force in terms this vocabulary could take. What is
+  # recorded is that it supplied cavalry to Parthian armies and, in 36 BC,
+  # fought a Roman one with them.
+  military_basis: null
+  revenue_basis: { values: [land-tax], source: wiesehofer-1996 }
+  succession_rule: null
+  # Descent from Atropates, an Achaemenid satrap of Media who was still in post
+  # when Alexander died — which is a claim to be the surviving fragment of the
+  # empire rather than a successor to it, and the only such claim in this
+  # corpus.
+  legitimation: { values: [descent], source: wiesehofer-1996 }
+
+turning_points:
+  - year: -36
+    type: battle
+    name: "Antony in Atropatene"
+    changed: >-
+      Mark Antony invaded with a very large army, lost his siege train early to
+      a Parthian and Atropatenian force, could not take the capital, and
+      retreated through the mountains in winter with heavy losses. It ended the
+      last serious Roman attempt to conquer Iran from the west for a hundred and
+      fifty years, and it is the reason a small kingdom appears in Latin
+      literature at all.
+    source: wiesehofer-1996
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

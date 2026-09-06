@@ -966,6 +966,38 @@ edges:
     contested: false
 
   - from: seleucid
+    to: persis
+    type: seceded from
+    year: -280
+    note: "Local rulers in Fars began striking their own silver with Aramaic
+           legends and Persian imagery under Seleucid suzerainty, using an
+           Achaemenid administrative title; the kingdom that resulted was a
+           client of the Seleucids and then of the Parthians for five
+           centuries."
+    source: wiesehofer-1996
+    contested: false
+
+  - from: macedonian
+    to: atropatene
+    type: partitioned from
+    year: -323
+    note: "Media was divided at the settlement of Babylon and the northern half
+           stayed with Atropates, the Achaemenid satrap Alexander had confirmed
+           in it, who did not hand it over."
+    source: wiesehofer-1996
+    contested: false
+
+  - from: atropatene
+    to: sasanian
+    type: conquered by
+    year: 226
+    note: "Ardashir annexed the kingdom two years after taking the empire it had
+           been a client of, and it became a Sasanian province containing Adur
+           Gushnasp, the fire the kings of kings were crowned before."
+    source: wiesehofer-1996
+    contested: false
+
+  - from: seleucid
     to: greco-bactria
     type: seceded from
     year: -256

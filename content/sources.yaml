@@ -1571,6 +1571,20 @@ sources:
       site's Sasanian record as the people who killed a king of kings and were
       not otherwise here.
 
+  - id: wiesehofer-1996
+    kind: book
+    author: "Josef Wiesehöfer, trans. Azizeh Azodi"
+    title: "Ancient Persia: From 550 BC to 650 AD"
+    publisher: I.B. Tauris
+    year: 1996
+    note: >-
+      A survey of the whole twelve hundred years built on Persian written,
+      archaeological and numismatic evidence rather than on the Greek and Roman
+      accounts the Western tradition has usually reached it through — which is
+      the argument this site's Achaemenid and Parthian records already make and
+      had been making from other books. Cited here for the small dynasties the
+      imperial narratives leave out.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors
