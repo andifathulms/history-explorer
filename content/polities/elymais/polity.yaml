@@ -1,0 +1,75 @@
+id: elymais
+region: pre-islamic-iran
+
+name:
+  latin: Elymais
+  script: Ἐλυμαΐς
+  script_lang: grc
+
+span:
+  start: { min: -147, max: -147, source: wiesehofer-1996 }
+  end: { min: 224, max: 224, source: wiesehofer-1996 }
+
+identity: >-
+  The last kingdom of Elam: temple country in the Zagros above Susa, rich enough
+  that two Seleucid kings died trying to rob it, and known now almost entirely
+  from coins and rock reliefs.
+
+capitals:
+  - { name: Seleucia on the Hedyphon, source: wiesehofer-1996 }
+
+core_region: Khuzistan and the Zagros foothills above Susa
+
+rulers:
+  founder: { name: Kamnaskires I, source: wiesehofer-1996 }
+  peak: { name: null, source: null }
+  last: { name: null, source: null }
+
+scripts_and_languages:
+  administration: [Greek, Aramaic]
+  writing_system: Greek, and later Aramaic
+
+ended:
+  type: conquest
+  by: [sasanian]
+  year: 224
+  source: wiesehofer-1996
+
+institutions:
+  military_basis: null
+  # The Susiana plain is irrigated and productive and the kingdom lived on it.
+  # What the sources actually talk about is the temple treasuries, which were
+  # famous, were repeatedly robbed, and are not a revenue basis in any sense
+  # this vocabulary has — an accumulated hoard is a stock rather than an income,
+  # and coding `mining` or `tribute` for it would be false. The second chapter
+  # is about the gap.
+  revenue_basis: { values: [land-tax], source: wiesehofer-1996 }
+  succession_rule: null
+  # Null. The coins carry royal portraits, Greek epithets and later Aramaic
+  # legends, and nothing consulted describes a ground on which these kings
+  # asserted a right to rule. The corpus does not read a claim off an epithet
+  # when it has nothing else — which is a line the Greco-Bactrian record crosses
+  # deliberately and explains, and which this record declines to cross because
+  # it has less.
+  legitimation: null
+
+turning_points:
+  - year: -139
+    type: siege
+    name: "Mithridates in the temples"
+    changed: >-
+      The Parthian king took Elymais and plundered its sanctuaries, and the
+      kingdom was a Parthian vassal for the rest of its life. It also removed the
+      accumulated treasure that had made two Seleucid kings attempt the same
+      thing and had killed both of them, which is the only period in which this
+      small kingdom was of consequence to anybody outside it.
+    source: wiesehofer-1996
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

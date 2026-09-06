@@ -966,6 +966,36 @@ edges:
     contested: false
 
   - from: seleucid
+    to: elymais
+    type: seceded from
+    year: -147
+    note: "Kamnaskires took the royal title in the highland country above Susa
+           as Seleucid authority in Iran collapsed, in the same decade the
+           Parthians took Media and Babylonia."
+    source: wiesehofer-1996
+    contested: false
+
+  - from: parthian
+    to: elymais
+    type: vassal of
+    year: -139
+    note: "Mithridates I took the kingdom and plundered its sanctuaries, and it
+           remained a Parthian client for the remaining three and a half
+           centuries of its life."
+    source: wiesehofer-1996
+    contested: false
+
+  - from: elymais
+    to: sasanian
+    type: conquered by
+    year: 224
+    note: "Taken in the sequence that ran Fars, Kerman, Elymais and the Gulf
+           coast before Ctesiphon; Khuzistan became a Sasanian province and the
+           site of Gundeshapur."
+    source: wiesehofer-1996
+    contested: false
+
+  - from: seleucid
     to: characene
     type: seceded from
     year: -141
