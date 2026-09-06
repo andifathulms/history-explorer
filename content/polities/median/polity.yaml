@@ -1,5 +1,5 @@
 id: median
-region: ancient-near-east
+region: pre-islamic-iran
 
 name:
   latin: Median Empire
@@ -34,7 +34,55 @@ ended:
   year: -549
   source: briant-2002
 
+# All four null, and this page is the only one in the corpus where that is
+# because of what the object is rather than what the evidence is missing. The
+# site has two kinds of null already: a field nobody has opened a source for,
+# and a field whose real answer the vocabulary cannot hold. This is a third. It
+# is disputed whether there was a Median state to have institutions — no Median
+# inscription, no administrative document, no royal art, no excavated capital —
+# and coding four values here would settle in a data field a question the
+# scholarship has not settled in print. The third and fourth chapters are about
+# that.
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  legitimation: null
+
+turning_points:
+  - year: -612
+    type: siege
+    name: "Nineveh"
+    changed: >-
+      Median forces and the Babylonians under Nabopolassar took the Assyrian
+      capital and the Neo-Assyrian empire ended. It is the one event on this
+      page attested by a contemporary document rather than by Herodotus: the
+      Babylonian Chronicle records it, dates it, and names the Medes as
+      participants — while calling them Umman-manda and describing no king, no
+      provinces and no empire.
+    source: van-de-mieroop-2015
+    contested: false
+  - year: -585
+    type: battle
+    name: "The eclipse on the Halys"
+    changed: >-
+      A five-year war with Lydia ended when a solar eclipse fell during a
+      battle and both sides stopped fighting; Herodotus says Thales had
+      predicted it, and the astronomy dates the day to 28 May 585 BC. The
+      frontier was fixed at the Halys and stayed there until Cyrus crossed it.
+      It is the only precisely dated event in Median history, and the date comes
+      from the sky rather than from any record the Medes kept.
+    source: van-de-mieroop-2015
+    contested: false
+
 measures:
+  # Taagepera's figure, cited and transcribed correctly, for a polity whose
+  # existence as an empire is disputed. It is computed from maps that descend
+  # from Herodotus, which is the same problem this site's Achaemenid record
+  # names about its own reach figure and is much sharper here: the map shows
+  # provinces the archaeology cannot find. The number stays because hard rule 2
+  # forbids inventing or adjusting figures, and the fourth chapter says what it
+  # is worth.
   reach_km2: { value: 2800000, at: -585, source: taagepera-1979 }
   peak_population: null
   influence:

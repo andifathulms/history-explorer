@@ -201,14 +201,22 @@ regions:
     group: iran
     thread: true
 
+  # Media moved out to Iran before Islam, where the Achaemenid record's own
+  # opening points, and the thread went with it. `neo-assyrian -> median` was
+  # this region's only internal edge; the four polities left succeed none of
+  # each other in this corpus, and the Mitanni record explicitly refuses the one
+  # edge that might have joined two of them, because its conquerors were the
+  # Middle Assyrian kings and this site's Assyrian entry begins three and a half
+  # centuries later. `thread: false` is the ordinary state and this is what it
+  # looks like when it is true.
   - id: ancient-near-east
     name: The Ancient Near East
     blurb: >-
-      The first territorial empires: Akkad, Egypt's New Kingdom, Mitanni,
-      Assyria and Media, and the argument that any of them was an empire at
-      all.
+      The first territorial empires: Akkad, Egypt's New Kingdom, Mitanni and
+      Assyria, and the argument that any of them was an empire at all. None of
+      them inherits from another here, which is why the region draws no thread.
     group: fertile-crescent
-    thread: true
+    thread: false
 
   # Split three ways from a single `arabia` region. That region had fifteen
   # polities and five edges arranged in three clusters with nothing joining

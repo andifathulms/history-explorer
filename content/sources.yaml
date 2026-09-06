@@ -1585,6 +1585,23 @@ sources:
       had been making from other books. Cited here for the small dynasties the
       imperial narratives leave out.
 
+  - id: lanfranchi-2003
+    kind: book
+    author: Giovanni B. Lanfranchi, Michael Roaf and Robert Rollinger (eds)
+    title: "Continuity of Empire (?): Assyria, Media, Persia"
+    container: History of the Ancient Near East Monographs V
+    publisher: S.a.r.g.o.n.
+    year: 2003
+    note: >-
+      The proceedings of the Padua meeting of 2001, and the volume in which the
+      case against the Median empire was assembled: that the Assyrian and
+      Babylonian records describe Median chiefs rather than a Median state, that
+      the archaeology supplies no administration, and that the empire Herodotus
+      describes may be a Greek and Achaemenid construction. The question mark in
+      the title is the argument. Cited on the one page in this corpus where what
+      is disputed is not the polity's dates or its institutions but whether it
+      was a polity.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors

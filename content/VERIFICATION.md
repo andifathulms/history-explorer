@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**2769 claims across 144 sources.**
+**2774 claims across 145 sources.**
 
 ## Where to start
 
@@ -1050,6 +1050,53 @@ ordinary state, not an item to clear.
 - [ ] `polity/ziyarid` — turning point 935 Mardavij killed in his bath
 - [ ] `polity/ziyarid` — turning point 1012 The army deposes Qabus
 
+## Marc Van De Mieroop, A History of the Ancient Near East, ca. 3000-323 BC
+
+`van-de-mieroop-2015` — 42 claims
+
+- [ ] `chapter/akkadian/01-akkadian.mdx` — prose: "The first, conventionally"
+- [ ] `chapter/akkadian/02-a-capital-nobody-can-find.mdx` — prose: "A capital nobody can find"
+- [ ] `chapter/median/02-612.mdx` — prose: "612"
+- [ ] `chapter/mitanni/02-the-empire.mdx` — prose: "From the sea to the mountains"
+- [ ] `chapter/mitanni/03-my-brother.mdx` — prose: "My brother"
+- [ ] `chapter/mitanni/04-an-empire-with-no-archive.mdx` — prose: "An empire with no archive"
+- [ ] `chapter/mitanni/06-suppiluliuma.mdx` — prose: "Taken apart twice"
+- [ ] `chapter/neo-assyrian/01-neo-assyrian.mdx` — prose: "The machinery of empire"
+- [ ] `chapter/neo-assyrian/02-the-library.mdx` — prose: "Ashurbanipal's library"
+- [ ] `edge/neo-assyrian->median` — overthrew in -612
+- [ ] `polity/akkadian` — span starts -2334
+- [ ] `polity/akkadian` — span ends -2154
+- [ ] `polity/akkadian` — capital Akkad from -2334
+- [ ] `polity/akkadian` — founder Sargon of Akkad r. -2334--2279
+- [ ] `polity/akkadian` — peak Naram-Sin r. -2254--2218
+- [ ] `polity/akkadian` — last Shu-turul r. -2168--2154
+- [ ] `polity/akkadian` — ended by fragmentation in -2154
+- [ ] `polity/median` — span starts -678
+- [ ] `polity/median` — span ends -549
+- [ ] `polity/median` — capital Ecbatana from -678
+- [ ] `polity/median` — founder Deioces r. -700--647
+- [ ] `polity/median` — peak Cyaxares r. -625--585
+- [ ] `polity/median` — last Astyages r. -585--549
+- [ ] `polity/median` — turning point -612 Nineveh
+- [ ] `polity/median` — turning point -585 The eclipse on the Halys
+- [ ] `polity/mitanni` — span starts -1550
+- [ ] `polity/mitanni` — span ends -1340
+- [ ] `polity/mitanni` — capital Washukanni
+- [ ] `polity/mitanni` — founder Kirta
+- [ ] `polity/mitanni` — peak Saushtatar
+- [ ] `polity/mitanni` — last Shattiwaza
+- [ ] `polity/mitanni` — turning point -1465 The sack of Assur
+- [ ] `polity/mitanni` — turning point -1380 The Egyptian marriage
+- [ ] `polity/mitanni` — turning point -1340 The Shattiwaza treaty
+- [ ] `polity/mitanni` — ended by conquest in -1260
+- [ ] `polity/neo-assyrian` — span starts -911
+- [ ] `polity/neo-assyrian` — span ends -609
+- [ ] `polity/neo-assyrian` — capital Nineveh from -911
+- [ ] `polity/neo-assyrian` — founder Adad-nirari II r. -911--891
+- [ ] `polity/neo-assyrian` — peak Ashurbanipal r. -669--631
+- [ ] `polity/neo-assyrian` — last Ashur-uballit II r. -612--609
+- [ ] `polity/neo-assyrian` — ended by conquest in -609
+
 ## Carole Hillenbrand, The Crusades: Islamic Perspectives
 
 `hillenbrand-1999` — 42 claims
@@ -1144,51 +1191,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/greater-armenia` — turning point 301 The conversion of Tiridates
 - [ ] `polity/greater-armenia` — turning point 405 The alphabet
 - [ ] `polity/greater-armenia` — ended by conquest in 428
-
-## Marc Van De Mieroop, A History of the Ancient Near East, ca. 3000-323 BC
-
-`van-de-mieroop-2015` — 40 claims
-
-- [ ] `chapter/akkadian/01-akkadian.mdx` — prose: "The first, conventionally"
-- [ ] `chapter/akkadian/02-a-capital-nobody-can-find.mdx` — prose: "A capital nobody can find"
-- [ ] `chapter/median/01-median.mdx` — prose: "An empire, possibly"
-- [ ] `chapter/mitanni/02-the-empire.mdx` — prose: "From the sea to the mountains"
-- [ ] `chapter/mitanni/03-my-brother.mdx` — prose: "My brother"
-- [ ] `chapter/mitanni/04-an-empire-with-no-archive.mdx` — prose: "An empire with no archive"
-- [ ] `chapter/mitanni/06-suppiluliuma.mdx` — prose: "Taken apart twice"
-- [ ] `chapter/neo-assyrian/01-neo-assyrian.mdx` — prose: "The machinery of empire"
-- [ ] `chapter/neo-assyrian/02-the-library.mdx` — prose: "Ashurbanipal's library"
-- [ ] `edge/neo-assyrian->median` — overthrew in -612
-- [ ] `polity/akkadian` — span starts -2334
-- [ ] `polity/akkadian` — span ends -2154
-- [ ] `polity/akkadian` — capital Akkad from -2334
-- [ ] `polity/akkadian` — founder Sargon of Akkad r. -2334--2279
-- [ ] `polity/akkadian` — peak Naram-Sin r. -2254--2218
-- [ ] `polity/akkadian` — last Shu-turul r. -2168--2154
-- [ ] `polity/akkadian` — ended by fragmentation in -2154
-- [ ] `polity/median` — span starts -678
-- [ ] `polity/median` — span ends -549
-- [ ] `polity/median` — capital Ecbatana from -678
-- [ ] `polity/median` — founder Deioces r. -700--647
-- [ ] `polity/median` — peak Cyaxares r. -625--585
-- [ ] `polity/median` — last Astyages r. -585--549
-- [ ] `polity/mitanni` — span starts -1550
-- [ ] `polity/mitanni` — span ends -1340
-- [ ] `polity/mitanni` — capital Washukanni
-- [ ] `polity/mitanni` — founder Kirta
-- [ ] `polity/mitanni` — peak Saushtatar
-- [ ] `polity/mitanni` — last Shattiwaza
-- [ ] `polity/mitanni` — turning point -1465 The sack of Assur
-- [ ] `polity/mitanni` — turning point -1380 The Egyptian marriage
-- [ ] `polity/mitanni` — turning point -1340 The Shattiwaza treaty
-- [ ] `polity/mitanni` — ended by conquest in -1260
-- [ ] `polity/neo-assyrian` — span starts -911
-- [ ] `polity/neo-assyrian` — span ends -609
-- [ ] `polity/neo-assyrian` — capital Nineveh from -911
-- [ ] `polity/neo-assyrian` — founder Adad-nirari II r. -911--891
-- [ ] `polity/neo-assyrian` — peak Ashurbanipal r. -669--631
-- [ ] `polity/neo-assyrian` — last Ashur-uballit II r. -612--609
-- [ ] `polity/neo-assyrian` — ended by conquest in -609
 
 ## Hugh Kennedy, Muslim Spain and Portugal: A Political History of al-Andalus
 
@@ -1824,6 +1826,36 @@ ordinary state, not an item to clear.
 - [ ] `polity/ottoman` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/ottoman` — ended by fragmentation in 1922
 
+## Pierre Briant, From Cyrus to Alexander: A History of the Persian Empire
+
+`briant-2002` — 25 claims
+
+- [ ] `chapter/achaemenid/01-cyrus.mdx` — prose: "Cyrus"
+- [ ] `chapter/achaemenid/02-satrapies.mdx` — prose: "Satrapies"
+- [ ] `chapter/achaemenid/03-the-tablets.mdx` — prose: "What the tablets say"
+- [ ] `chapter/achaemenid/04-the-greek-problem.mdx` — prose: "The sources are the enemy's"
+- [ ] `chapter/achaemenid/05-by-the-favour-of-ahuramazda.mdx` — prose: "By the favour of Ahuramazda"
+- [ ] `chapter/achaemenid/06-not-in-decline.mdx` — prose: "Not in decline"
+- [ ] `chapter/median/04-what-cyrus-needed.mdx` — prose: "A predecessor worth having"
+- [ ] `chapter/median/05-549.mdx` — prose: "An army that changed sides"
+- [ ] `edge/median->achaemenid` — overthrew in -549
+- [ ] `polity/achaemenid` — span starts -550
+- [ ] `polity/achaemenid` — span ends -330
+- [ ] `polity/achaemenid` — capital Persepolis from -550
+- [ ] `polity/achaemenid` — founder Cyrus II r. -559--530
+- [ ] `polity/achaemenid` — peak Darius I r. -522--486
+- [ ] `polity/achaemenid` — last Darius III r. -336--330
+- [ ] `polity/achaemenid` — military basis coded standing-professional + conscript
+- [ ] `polity/achaemenid` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/achaemenid` — succession rule coded nomination
+- [ ] `polity/achaemenid` — legitimation coded divine-sanction + descent
+- [ ] `polity/achaemenid` — turning point -539 Babylon
+- [ ] `polity/achaemenid` — turning point -522 Darius and the year of rebellions (contested)
+- [ ] `polity/achaemenid` — turning point -404 Egypt leaves
+- [ ] `polity/achaemenid` — descendant_scripts = 1 (Old Persian cuneiform)
+- [ ] `polity/achaemenid` — successor_claims = 2 (Parthian Empire, Sasanian Empire)
+- [ ] `polity/median` — ended by conquest in -549
+
 ## Andrew J. Newman, Safavid Iran: Rebirth of a Persian Empire
 
 `newman-2006` — 25 claims
@@ -1853,35 +1885,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/safavid` — religions_carried = 1 (Twelver Shi'ism)
 - [ ] `polity/shirvanshah` — last Farrukh Yasar r. 1465-1500
 - [ ] `polity/shirvanshah` — turning point 1500 The killing of Farrukh Yasar
-
-## Pierre Briant, From Cyrus to Alexander: A History of the Persian Empire
-
-`briant-2002` — 24 claims
-
-- [ ] `chapter/achaemenid/01-cyrus.mdx` — prose: "Cyrus"
-- [ ] `chapter/achaemenid/02-satrapies.mdx` — prose: "Satrapies"
-- [ ] `chapter/achaemenid/03-the-tablets.mdx` — prose: "What the tablets say"
-- [ ] `chapter/achaemenid/04-the-greek-problem.mdx` — prose: "The sources are the enemy's"
-- [ ] `chapter/achaemenid/05-by-the-favour-of-ahuramazda.mdx` — prose: "By the favour of Ahuramazda"
-- [ ] `chapter/achaemenid/06-not-in-decline.mdx` — prose: "Not in decline"
-- [ ] `chapter/median/02-what-cyrus-needed.mdx` — prose: "A predecessor worth having"
-- [ ] `edge/median->achaemenid` — overthrew in -549
-- [ ] `polity/achaemenid` — span starts -550
-- [ ] `polity/achaemenid` — span ends -330
-- [ ] `polity/achaemenid` — capital Persepolis from -550
-- [ ] `polity/achaemenid` — founder Cyrus II r. -559--530
-- [ ] `polity/achaemenid` — peak Darius I r. -522--486
-- [ ] `polity/achaemenid` — last Darius III r. -336--330
-- [ ] `polity/achaemenid` — military basis coded standing-professional + conscript
-- [ ] `polity/achaemenid` — revenue basis coded land-tax + trade-toll
-- [ ] `polity/achaemenid` — succession rule coded nomination
-- [ ] `polity/achaemenid` — legitimation coded divine-sanction + descent
-- [ ] `polity/achaemenid` — turning point -539 Babylon
-- [ ] `polity/achaemenid` — turning point -522 Darius and the year of rebellions (contested)
-- [ ] `polity/achaemenid` — turning point -404 Egypt leaves
-- [ ] `polity/achaemenid` — descendant_scripts = 1 (Old Persian cuneiform)
-- [ ] `polity/achaemenid` — successor_claims = 2 (Parthian Empire, Sasanian Empire)
-- [ ] `polity/median` — ended by conquest in -549
 
 ## Nicola Di Cosmo, Allen J. Frank and Peter B. Golden (eds), The Cambridge History of Inner Asia: The Chinggisid Age
 
@@ -3552,6 +3555,14 @@ ordinary state, not an item to clear.
 
 - [ ] `chapter/jalayirid/03-the-book.mdx` — prose: "Where Persian painting turns"
 - [ ] `chapter/timurid/06-the-princely-vision.mdx` — prose: "The princely vision"
+
+## Giovanni B. Lanfranchi, Michael Roaf and Robert Rollinger (eds), Continuity of Empire (?): Assyria, Media, Persia
+*In History of the Ancient Near East Monographs V.*
+
+`lanfranchi-2003` — 2 claims
+
+- [ ] `chapter/median/01-what-the-assyrians-recorded.mdx` — prose: "What the Assyrians wrote down"
+- [ ] `chapter/median/03-an-empire-possibly.mdx` — prose: "An empire, possibly"
 
 ## J. A. Boyle (ed.), The Cambridge History of Iran, Volume 5: The Saljuq and Mongol Periods
 
