@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**2141 claims across 121 sources.**
+**2156 claims across 121 sources.**
 
 ## Where to start
 
@@ -262,9 +262,10 @@ ordinary state, not an item to clear.
 
 ## C. E. Bosworth, The New Islamic Dynasties: A Chronological and Genealogical Manual
 
-`bosworth-1996` — 107 claims
+`bosworth-1996` — 114 claims
 
 - [ ] `chapter/kakuyid/04-the-last-one-died-at-qatwan.mdx` — prose: "The last one died at Qatwan"
+- [ ] `chapter/najahid/01-the-slaves-of-the-house.mdx` — prose: "The slaves of the house"
 - [ ] `chapter/samanid/01-four-brothers.mdx` — prose: "Four brothers and a governorship"
 - [ ] `chapter/shirvanshah/04-baku.mdx` — prose: "Baku"
 - [ ] `edge/artuqid->karakoyunlu` — conquered by in 1409
@@ -345,6 +346,12 @@ ordinary state, not an item to clear.
 - [ ] `polity/mamunid` — peak Ma'mun II ibn Ma'mun r. 1009-1017
 - [ ] `polity/mamunid` — last Abu'l-Harith Muhammad r. 1017-1017
 - [ ] `polity/mamunid` — legitimation coded titulature
+- [ ] `polity/najahid` — span starts 1022
+- [ ] `polity/najahid` — span ends 1158
+- [ ] `polity/najahid` — capital Zabid from 1022
+- [ ] `polity/najahid` — founder Najah r. 1022-1060
+- [ ] `polity/najahid` — military basis coded slave-soldier
+- [ ] `polity/najahid` — legitimation coded conquest + caliphal-investiture
 - [ ] `polity/samanid` — span starts 819
 - [ ] `polity/samanid` — span ends 999
 - [ ] `polity/samanid` — founder Isma'il I ibn Ahmad r. 892-907
@@ -525,6 +532,76 @@ ordinary state, not an item to clear.
 - [ ] `polity/uqaylid` — turning point 996 The taking of Mosul
 - [ ] `polity/uqaylid` — turning point 1010 Qirwash's khutba for Cairo
 
+## Farhad Daftary, The Isma'ilis: Their History and Doctrines
+
+`daftary-2007` — 63 claims
+
+**Sole source** for `sulayhid` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/najahid/03-the-war-with-the-highlands.mdx` — prose: "Seven years on an island"
+- [ ] `chapter/nizari/01-alamut.mdx` — prose: "A state with no middle"
+- [ ] `chapter/nizari/02-the-qiyama.mdx` — prose: "The day the law was abolished"
+- [ ] `chapter/nizari/04-after-alamut.mdx` — prose: "After the fortresses"
+- [ ] `chapter/nizari/05-the-legend.mdx` — prose: "The garden that was not there"
+- [ ] `chapter/qarmatian/01-the-other-ismailis.mdx` — prose: "The Isma'ilis who said no to the Fatimids"
+- [ ] `chapter/qarmatian/02-the-gulf-power.mdx` — prose: "Taking tribute from both caliphs"
+- [ ] `chapter/qarmatian/03-the-black-stone.mdx` — prose: "Twenty-two years in al-Hasa"
+- [ ] `chapter/qarmatian/05-the-mahdi-who-was-not.mdx` — prose: "Eighty days"
+- [ ] `chapter/sulayhid/01-the-mission-makes-a-state.mdx` — prose: "What the mission produced"
+- [ ] `chapter/sulayhid/02-mecca.mdx` — prose: "A Fatimid client in the holy cities"
+- [ ] `chapter/sulayhid/03-arwa.mdx` — prose: "Fifty years, from Jibla"
+- [ ] `chapter/sulayhid/04-the-hujja.mdx` — prose: "Two women, and what the ruler fields cannot show"
+- [ ] `chapter/sulayhid/05-tayyibi.mdx` — prose: "What she detached from Cairo"
+- [ ] `edge/fatimid->nizari` — partitioned from in 1094
+- [ ] `edge/fatimid->sulayhid` — vassal of in 1047
+- [ ] `edge/great-seljuk->nizari` — seceded from in 1090
+- [ ] `edge/qarmatian->fatimid` — claimed legitimacy of in 909
+- [ ] `polity/najahid` — peak Sa'id al-Ahwal
+- [ ] `polity/najahid` — turning point 1060 The loss of Zabid
+- [ ] `polity/najahid` — turning point 1067 The ambush on the pilgrim road
+- [ ] `polity/nizari` — span starts 1090
+- [ ] `polity/nizari` — span ends 1256
+- [ ] `polity/nizari` — capital Alamut from 1090
+- [ ] `polity/nizari` — founder Hasan-i Sabbah r. 1090-1124
+- [ ] `polity/nizari` — peak Hasan II r. 1162-1166
+- [ ] `polity/nizari` — last Rukn al-Din Khurshah r. 1255-1256
+- [ ] `polity/nizari` — revenue basis coded land-tax
+- [ ] `polity/nizari` — succession rule coded nomination
+- [ ] `polity/nizari` — legitimation coded descent + divine-sanction
+- [ ] `polity/nizari` — turning point 1090 The seizure of Alamut
+- [ ] `polity/nizari` — turning point 1164 The qiyama
+- [ ] `polity/nizari` — religions_carried = 1 (Nizari Isma'ilism)
+- [ ] `polity/nizari` — ended by conquest in 1256
+- [ ] `polity/qarmatian` — span starts 899
+- [ ] `polity/qarmatian` — span ends 1058
+- [ ] `polity/qarmatian` — capital al-Hasa from 899
+- [ ] `polity/qarmatian` — founder Abu Sa'id al-Jannabi r. 899-913
+- [ ] `polity/qarmatian` — peak Abu Tahir al-Jannabi r. 923-944
+- [ ] `polity/qarmatian` — military basis coded tribal-levy
+- [ ] `polity/qarmatian` — revenue basis coded tribute
+- [ ] `polity/qarmatian` — legitimation coded divine-sanction
+- [ ] `polity/qarmatian` — turning point 909 The refusal of the Fatimid mahdi
+- [ ] `polity/qarmatian` — turning point 930 The taking of the Black Stone
+- [ ] `polity/qarmatian` — turning point 931 The eighty days of the false mahdi
+- [ ] `polity/qarmatian` — ended by gradual absorption in 1077
+- [ ] `polity/sulayhid` — span starts 1047
+- [ ] `polity/sulayhid` — span ends 1138
+- [ ] `polity/sulayhid` — capital Sana'a from 1047
+- [ ] `polity/sulayhid` — capital Jibla from 1087
+- [ ] `polity/sulayhid` — founder Ali al-Sulayhi
+- [ ] `polity/sulayhid` — peak Arwa al-Sulayhi r. 1086-1138
+- [ ] `polity/sulayhid` — last Arwa al-Sulayhi r. 1086-1138
+- [ ] `polity/sulayhid` — military basis coded tribal-levy
+- [ ] `polity/sulayhid` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/sulayhid` — succession rule coded nomination
+- [ ] `polity/sulayhid` — legitimation coded caliphal-investiture
+- [ ] `polity/sulayhid` — turning point 1067 The killing of Ali al-Sulayhi
+- [ ] `polity/sulayhid` — turning point 1087 Jibla
+- [ ] `polity/sulayhid` — turning point 1094 Choosing between Cairo's claimants
+- [ ] `polity/sulayhid` — turning point 1130 The Tayyibi decision
+- [ ] `polity/sulayhid` — religions_carried = 1 (Tayyibi Isma'ilism)
+- [ ] `polity/sulayhid` — ended by fragmentation in 1138
+
 ## Carl F. Petry (ed.), The Cambridge History of Egypt, Volume 1: Islamic Egypt 640-1517
 
 `petry-1998` — 60 claims
@@ -591,72 +668,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/tulunid` — turning point 882 The jurists at Damascus
 - [ ] `polity/tulunid` — turning point 905 Al-Qata'i burned
 - [ ] `polity/tulunid` — ended by conquest in 905
-
-## Farhad Daftary, The Isma'ilis: Their History and Doctrines
-
-`daftary-2007` — 59 claims
-
-**Sole source** for `sulayhid` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/nizari/01-alamut.mdx` — prose: "A state with no middle"
-- [ ] `chapter/nizari/02-the-qiyama.mdx` — prose: "The day the law was abolished"
-- [ ] `chapter/nizari/04-after-alamut.mdx` — prose: "After the fortresses"
-- [ ] `chapter/nizari/05-the-legend.mdx` — prose: "The garden that was not there"
-- [ ] `chapter/qarmatian/01-the-other-ismailis.mdx` — prose: "The Isma'ilis who said no to the Fatimids"
-- [ ] `chapter/qarmatian/02-the-gulf-power.mdx` — prose: "Taking tribute from both caliphs"
-- [ ] `chapter/qarmatian/03-the-black-stone.mdx` — prose: "Twenty-two years in al-Hasa"
-- [ ] `chapter/qarmatian/05-the-mahdi-who-was-not.mdx` — prose: "Eighty days"
-- [ ] `chapter/sulayhid/01-the-mission-makes-a-state.mdx` — prose: "What the mission produced"
-- [ ] `chapter/sulayhid/02-mecca.mdx` — prose: "A Fatimid client in the holy cities"
-- [ ] `chapter/sulayhid/03-arwa.mdx` — prose: "Fifty years, from Jibla"
-- [ ] `chapter/sulayhid/04-the-hujja.mdx` — prose: "Two women, and what the ruler fields cannot show"
-- [ ] `chapter/sulayhid/05-tayyibi.mdx` — prose: "What she detached from Cairo"
-- [ ] `edge/fatimid->nizari` — partitioned from in 1094
-- [ ] `edge/fatimid->sulayhid` — vassal of in 1047
-- [ ] `edge/great-seljuk->nizari` — seceded from in 1090
-- [ ] `edge/qarmatian->fatimid` — claimed legitimacy of in 909
-- [ ] `polity/nizari` — span starts 1090
-- [ ] `polity/nizari` — span ends 1256
-- [ ] `polity/nizari` — capital Alamut from 1090
-- [ ] `polity/nizari` — founder Hasan-i Sabbah r. 1090-1124
-- [ ] `polity/nizari` — peak Hasan II r. 1162-1166
-- [ ] `polity/nizari` — last Rukn al-Din Khurshah r. 1255-1256
-- [ ] `polity/nizari` — revenue basis coded land-tax
-- [ ] `polity/nizari` — succession rule coded nomination
-- [ ] `polity/nizari` — legitimation coded descent + divine-sanction
-- [ ] `polity/nizari` — turning point 1090 The seizure of Alamut
-- [ ] `polity/nizari` — turning point 1164 The qiyama
-- [ ] `polity/nizari` — religions_carried = 1 (Nizari Isma'ilism)
-- [ ] `polity/nizari` — ended by conquest in 1256
-- [ ] `polity/qarmatian` — span starts 899
-- [ ] `polity/qarmatian` — span ends 1058
-- [ ] `polity/qarmatian` — capital al-Hasa from 899
-- [ ] `polity/qarmatian` — founder Abu Sa'id al-Jannabi r. 899-913
-- [ ] `polity/qarmatian` — peak Abu Tahir al-Jannabi r. 923-944
-- [ ] `polity/qarmatian` — military basis coded tribal-levy
-- [ ] `polity/qarmatian` — revenue basis coded tribute
-- [ ] `polity/qarmatian` — legitimation coded divine-sanction
-- [ ] `polity/qarmatian` — turning point 909 The refusal of the Fatimid mahdi
-- [ ] `polity/qarmatian` — turning point 930 The taking of the Black Stone
-- [ ] `polity/qarmatian` — turning point 931 The eighty days of the false mahdi
-- [ ] `polity/qarmatian` — ended by gradual absorption in 1077
-- [ ] `polity/sulayhid` — span starts 1047
-- [ ] `polity/sulayhid` — span ends 1138
-- [ ] `polity/sulayhid` — capital Sana'a from 1047
-- [ ] `polity/sulayhid` — capital Jibla from 1087
-- [ ] `polity/sulayhid` — founder Ali al-Sulayhi
-- [ ] `polity/sulayhid` — peak Arwa al-Sulayhi r. 1086-1138
-- [ ] `polity/sulayhid` — last Arwa al-Sulayhi r. 1086-1138
-- [ ] `polity/sulayhid` — military basis coded tribal-levy
-- [ ] `polity/sulayhid` — revenue basis coded land-tax + trade-toll
-- [ ] `polity/sulayhid` — succession rule coded nomination
-- [ ] `polity/sulayhid` — legitimation coded caliphal-investiture
-- [ ] `polity/sulayhid` — turning point 1067 The killing of Ali al-Sulayhi
-- [ ] `polity/sulayhid` — turning point 1087 Jibla
-- [ ] `polity/sulayhid` — turning point 1094 Choosing between Cairo's claimants
-- [ ] `polity/sulayhid` — turning point 1130 The Tayyibi decision
-- [ ] `polity/sulayhid` — religions_carried = 1 (Tayyibi Isma'ilism)
-- [ ] `polity/sulayhid` — ended by fragmentation in 1138
 
 ## Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia
 *In International Studies Quarterly 41(3), 475-504.*
@@ -2055,6 +2066,27 @@ ordinary state, not an item to clear.
 - [ ] `polity/zaydi-yemen` — turning point 1948 The killing of Imam Yahya
 - [ ] `polity/zaydi-yemen` — ended by internal usurpation in 1962
 
+## G. Rex Smith, The Ayyubids and Early Rasulids in the Yemen (567-694/1173-1295)
+*In E. J. W. Gibb Memorial, New Series XXVI.*
+
+`smith-1974` — 15 claims
+
+- [ ] `chapter/najahid/02-zabid.mdx` — prose: "Zabid"
+- [ ] `chapter/najahid/04-1158.mdx` — prose: "The viziers again"
+- [ ] `chapter/rasulid/01-the-deputies-who-stayed.mdx` — prose: "The deputies who stayed"
+- [ ] `chapter/rasulid/04-the-scholar-sultans.mdx` — prose: "Sultans who wrote books"
+- [ ] `edge/ayyubid->rasulid` — seceded from in 1229
+- [ ] `polity/najahid` — revenue basis coded land-tax
+- [ ] `polity/najahid` — ended by dynastic replacement in 1158
+- [ ] `polity/rasulid` — span starts 1229
+- [ ] `polity/rasulid` — capital Ta'izz from 1229
+- [ ] `polity/rasulid` — capital Zabid
+- [ ] `polity/rasulid` — founder al-Malik al-Mansur Umar r. 1229-1249
+- [ ] `polity/rasulid` — peak al-Malik al-Muzaffar Yusuf r. 1249-1295
+- [ ] `polity/rasulid` — military basis coded slave-soldier + tribal-levy
+- [ ] `polity/rasulid` — legitimation coded conquest + descent
+- [ ] `polity/rasulid` — turning point 1249 The murder of al-Mansur Umar
+
 ## C. E. Bosworth, SAMANIDS
 *In Encyclopaedia Iranica.*
 <https://iranicaonline.org/articles/samanids>
@@ -2403,23 +2435,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/ming` — last Chongzhen Emperor r. 1627-1644
 - [ ] `polity/ming` — ended by conquest in 1644
 - [ ] `polity/yuan` — ended by conquest in 1368
-
-## G. Rex Smith, The Ayyubids and Early Rasulids in the Yemen (567-694/1173-1295)
-*In E. J. W. Gibb Memorial, New Series XXVI.*
-
-`smith-1974` — 11 claims
-
-- [ ] `chapter/rasulid/01-the-deputies-who-stayed.mdx` — prose: "The deputies who stayed"
-- [ ] `chapter/rasulid/04-the-scholar-sultans.mdx` — prose: "Sultans who wrote books"
-- [ ] `edge/ayyubid->rasulid` — seceded from in 1229
-- [ ] `polity/rasulid` — span starts 1229
-- [ ] `polity/rasulid` — capital Ta'izz from 1229
-- [ ] `polity/rasulid` — capital Zabid
-- [ ] `polity/rasulid` — founder al-Malik al-Mansur Umar r. 1229-1249
-- [ ] `polity/rasulid` — peak al-Malik al-Muzaffar Yusuf r. 1249-1295
-- [ ] `polity/rasulid` — military basis coded slave-soldier + tribal-levy
-- [ ] `polity/rasulid` — legitimation coded conquest + descent
-- [ ] `polity/rasulid` — turning point 1249 The murder of al-Mansur Umar
 
 ## Christopher I. Beckwith, The Tibetan Empire in Central Asia
 

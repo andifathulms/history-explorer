@@ -1,0 +1,95 @@
+id: najahid
+region: arabia
+
+name:
+  latin: Najahid Dynasty
+  script: بنو نجاح
+  script_lang: ar
+
+span:
+  start: { min: 1022, max: 1022, source: bosworth-1996 }
+  end: { min: 1158, max: 1158, source: bosworth-1996 }
+
+identity: >-
+  Abyssinian slaves of the dynasty they replaced, holding the Yemeni coastal
+  plain from Zabid for a hundred and thirty-six years against the Isma'ili
+  highlands.
+
+capitals:
+  - { name: Zabid, script: زبيد, from: 1022, source: bosworth-1996 }
+
+core_region: The Tihama, the Red Sea coastal plain of Yemen
+
+rulers:
+  founder: { name: Najah, reign: [1022, 1060], source: bosworth-1996 }
+  peak: { name: Sa'id al-Ahwal, source: daftary-2007 }
+  # The last Najahids were figures in their own viziers' hands and the works
+  # consulted do not fix a final holder this site would name.
+  last: { name: null, source: null }
+
+scripts_and_languages:
+  administration: [Arabic]
+  writing_system: Arabic
+
+# Ali ibn Mahdi took Zabid in 1158 and founded the Mahdid dynasty, which this
+# corpus does not carry — and which the Ayyubids removed fifteen years later.
+ended:
+  type: dynastic replacement
+  by: []
+  year: 1158
+  source: smith-1974
+
+institutions:
+  # Purchased Abyssinian troops, which is the same institution the corpus
+  # records from Samarra to Cairo with the frontier moved: not the Turkish
+  # steppe but the Horn of Africa, across the strait. The men who founded this
+  # dynasty were themselves slaves of the dynasty they replaced.
+  military_basis: { values: [slave-soldier], source: bosworth-1996 }
+  # The Tihama is irrigated by the seasonal floods off the highland escarpment
+  # and grew grain, cotton and dates; Zabid lived on it. The Red Sea ports
+  # below the city carried a share of the Egypt traffic and are in the prose
+  # rather than the field, because nothing consulted here quantifies what the
+  # dynasty took from them.
+  revenue_basis: { values: [land-tax], source: smith-1974 }
+  # The sultanate passed among Najah's sons and was for long stretches
+  # exercised by their viziers rather than by them. Nothing consulted describes
+  # a rule.
+  succession_rule: null
+  # Conquest, and the Abbasid khutba — which in this country was a position
+  # rather than a formality. The Najahids were Sunni and named the caliph in
+  # Baghdad; the Sulayhids in the highlands were Isma'ili and named the caliph
+  # in Cairo, and the war between them was conducted in those terms as well as
+  # in the field.
+  legitimation: { values: [conquest, caliphal-investiture], source: bosworth-1996 }
+
+turning_points:
+  - year: 1060
+    type: siege
+    name: "The loss of Zabid"
+    changed: >-
+      Ali al-Sulayhi had Najah poisoned and took Zabid, and the dynasty spent
+      the following seven years on the Dahlak islands off the African coast
+      with no territory at all. That it came back is the unusual part: a
+      polity reduced to a garrison on an island in the Red Sea normally stops,
+      and this one returned and held the Tihama for another ninety years.
+    source: daftary-2007
+    contested: false
+  - year: 1067
+    type: battle
+    name: "The ambush on the pilgrim road"
+    changed: >-
+      Najah's son Sa'id al-Ahwal caught Ali al-Sulayhi on the road to Mecca,
+      killed him, set his head on a spear outside Zabid and took his widow
+      captive. It ended the Sulayhid attempt to hold all of Yemen and fixed the
+      division that lasted until the Ayyubids: an Isma'ili power in the
+      highlands and a Sunni one on the coast, neither able to finish the other.
+    source: daftary-2007
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
