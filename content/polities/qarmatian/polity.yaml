@@ -57,6 +57,18 @@ institutions:
   legitimation: { values: [divine-sanction], source: daftary-2007 }
 
 turning_points:
+  - year: 909
+    type: succession-crisis
+    name: "The refusal of the Fatimid mahdi"
+    changed: >-
+      Abd Allah declared himself mahdi in Ifriqiya, and the eastern Isma'ili
+      communities did not accept him: the doctrine they had been taught was
+      that Muhammad ibn Isma'il was in concealment and would return, and a
+      living claimant was a substitution rather than a fulfilment. It made
+      Bahrayn a separate polity rather than a province of a caliphate, and it
+      is why this record exists apart from the Fatimid one.
+    source: daftary-2007
+    contested: false
   - year: 930
     type: siege
     name: "The taking of the Black Stone"
@@ -67,6 +79,18 @@ turning_points:
       void and the age of the law had ended — and it cost the Isma'ili cause
       more than it gained: the Fatimids, who were building a caliphate on the
       same doctrinal family, spent the next century being blamed for it.
+    source: daftary-2007
+    contested: false
+  - year: 931
+    type: conversion
+    name: "The eighty days of the false mahdi"
+    changed: >-
+      Abu Tahir handed authority to a young Persian he had been persuaded was
+      the awaited one, who abolished the law, cursed the prophets and executed
+      notables before being put to death himself. A polity whose entire
+      authority rested on correctly identifying the mahdi had publicly failed
+      to, in front of everyone, and never recovered the standing it had had in
+      the Isma'ili world.
     source: daftary-2007
     contested: false
 

@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**2085 claims across 114 sources.**
+**2090 claims across 115 sources.**
 
 ## Where to start
 
@@ -717,16 +717,18 @@ ordinary state, not an item to clear.
 
 ## Farhad Daftary, The Isma'ilis: Their History and Doctrines
 
-`daftary-2007` — 49 claims
+`daftary-2007` — 53 claims
 
-**Sole source** for `qarmatian`, `sulayhid` — nothing else in the corpus can contradict a misreading here.
+**Sole source** for `sulayhid` — nothing else in the corpus can contradict a misreading here.
 
 - [ ] `chapter/nizari/01-alamut.mdx` — prose: "A state with no middle"
 - [ ] `chapter/nizari/02-the-qiyama.mdx` — prose: "The day the law was abolished"
 - [ ] `chapter/nizari/04-after-alamut.mdx` — prose: "After the fortresses"
 - [ ] `chapter/nizari/05-the-legend.mdx` — prose: "The garden that was not there"
 - [ ] `chapter/qarmatian/01-the-other-ismailis.mdx` — prose: "The Isma'ilis who said no to the Fatimids"
-- [ ] `chapter/qarmatian/02-the-black-stone.mdx` — prose: "Twenty-two years in al-Hasa"
+- [ ] `chapter/qarmatian/02-the-gulf-power.mdx` — prose: "Taking tribute from both caliphs"
+- [ ] `chapter/qarmatian/03-the-black-stone.mdx` — prose: "Twenty-two years in al-Hasa"
+- [ ] `chapter/qarmatian/05-the-mahdi-who-was-not.mdx` — prose: "Eighty days"
 - [ ] `chapter/sulayhid/01-the-mission-makes-a-state.mdx` — prose: "What the mission produced"
 - [ ] `chapter/sulayhid/02-arwa.mdx` — prose: "Fifty years, from Jibla"
 - [ ] `edge/fatimid->nizari` — partitioned from in 1094
@@ -754,7 +756,9 @@ ordinary state, not an item to clear.
 - [ ] `polity/qarmatian` — military basis coded tribal-levy
 - [ ] `polity/qarmatian` — revenue basis coded tribute
 - [ ] `polity/qarmatian` — legitimation coded divine-sanction
+- [ ] `polity/qarmatian` — turning point 909 The refusal of the Fatimid mahdi
 - [ ] `polity/qarmatian` — turning point 930 The taking of the Black Stone
+- [ ] `polity/qarmatian` — turning point 931 The eighty days of the false mahdi
 - [ ] `polity/qarmatian` — ended by gradual absorption in 1077
 - [ ] `polity/sulayhid` — span starts 1047
 - [ ] `polity/sulayhid` — span ends 1138
@@ -2791,6 +2795,13 @@ ordinary state, not an item to clear.
 `ripper-2000` — 1 claims
 
 - [ ] `chapter/marwanid/03-a-kurdish-state.mdx` — prose: "A Kurdish state"
+
+## Nasir-i Khusraw, trans. W. M. Thackston, Jr., Naser-e Khosraw's Book of Travels (Safarnama)
+*In Persian Heritage Series 36.*
+
+`thackston-1986` — 1 claims
+
+- [ ] `chapter/qarmatian/04-nasir-i-khusraw.mdx` — prose: "A traveller's description"
 
 ## Martin Hinds, The Murder of the Caliph 'Uthman
 *In International Journal of Middle East Studies 3(4), 450-469.*
