@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**2795 claims across 146 sources.**
+**2807 claims across 147 sources.**
 
 ## Where to start
 
@@ -2636,6 +2636,28 @@ ordinary state, not an item to clear.
 - [ ] `polity/yaariba` — turning point 1698 Fort Jesus
 - [ ] `polity/yaariba` — ended by internal usurpation in 1744
 
+## Ian Shaw (ed.), The Oxford History of Ancient Egypt
+
+`shaw-2000` — 17 claims
+
+- [ ] `chapter/egypt-new-kingdom/01-the-expulsion.mdx` — prose: "What being conquered taught them"
+- [ ] `chapter/egypt-new-kingdom/02-thutmose.mdx` — prose: "Seventeen campaigns"
+- [ ] `chapter/egypt-new-kingdom/04-amarna.mdx` — prose: "The letters"
+- [ ] `chapter/egypt-new-kingdom/05-kadesh.mdx` — prose: "Kadesh, and the treaty"
+- [ ] `chapter/egypt-new-kingdom/06-the-collapse.mdx` — prose: "What was left when the system stopped"
+- [ ] `polity/egypt-new-kingdom` — span starts -1550
+- [ ] `polity/egypt-new-kingdom` — span ends -1077
+- [ ] `polity/egypt-new-kingdom` — capital Thebes from -1550
+- [ ] `polity/egypt-new-kingdom` — founder Ahmose I r. -1550--1525
+- [ ] `polity/egypt-new-kingdom` — peak Thutmose III r. -1479--1425
+- [ ] `polity/egypt-new-kingdom` — last Ramesses XI r. -1107--1077
+- [ ] `polity/egypt-new-kingdom` — military basis coded standing-professional + land-grant
+- [ ] `polity/egypt-new-kingdom` — succession rule coded primogeniture
+- [ ] `polity/egypt-new-kingdom` — turning point -1457 Megiddo
+- [ ] `polity/egypt-new-kingdom` — turning point -1259 The Egyptian-Hittite treaty
+- [ ] `polity/egypt-new-kingdom` — turning point -1177 The Sea Peoples
+- [ ] `polity/egypt-new-kingdom` — ended by fragmentation in -1077
+
 ## Suhayl Zakkar, The Emirate of Aleppo, 1004-1094
 
 `zakkar-1971` — 17 claims
@@ -3270,20 +3292,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/xiongnu` — last Unknown r. 91-91
 - [ ] `polity/xiongnu` — ended by fragmentation in 91
 
-## Ian Shaw (ed.), The Oxford History of Ancient Egypt
-
-`shaw-2000` — 9 claims
-
-- [ ] `chapter/egypt-new-kingdom/01-egypt-new-kingdom.mdx` — prose: "A great power among great powers"
-- [ ] `chapter/egypt-new-kingdom/02-amarna.mdx` — prose: "The letters"
-- [ ] `polity/egypt-new-kingdom` — span starts -1550
-- [ ] `polity/egypt-new-kingdom` — span ends -1077
-- [ ] `polity/egypt-new-kingdom` — capital Thebes from -1550
-- [ ] `polity/egypt-new-kingdom` — founder Ahmose I r. -1550--1525
-- [ ] `polity/egypt-new-kingdom` — peak Thutmose III r. -1479--1425
-- [ ] `polity/egypt-new-kingdom` — last Ramesses XI r. -1107--1077
-- [ ] `polity/egypt-new-kingdom` — ended by fragmentation in -1077
-
 ## C. E. Bosworth, The Later Ghaznavids: Splendour and Decay. The Dynasty in Afghanistan and Northern India, 1040-1186
 
 `bosworth-1977` — 9 claims
@@ -3470,6 +3478,15 @@ ordinary state, not an item to clear.
 - [ ] `polity/buyid` — capital Shiraz from 934
 - [ ] `polity/buyid` — capital Rayy from 943
 - [ ] `polity/buyid` — descendant_scripts = 0
+
+## Barry J. Kemp, Ancient Egypt: Anatomy of a Civilization
+
+`kemp-2018` — 4 claims
+
+- [ ] `chapter/egypt-new-kingdom/03-how-egypt-was-run.mdx` — prose: "A machine for moving grain"
+- [ ] `polity/egypt-new-kingdom` — revenue basis coded land-tax + tribute + mining
+- [ ] `polity/egypt-new-kingdom` — legitimation coded divine-sanction + descent
+- [ ] `polity/egypt-new-kingdom` — turning point -1353 Akhetaten
 
 ## Kathryn Babayan, Mystics, Monarchs, and Messiahs: Cultural Landscapes of Early Modern Iran
 *In Harvard Middle Eastern Monographs 35.*

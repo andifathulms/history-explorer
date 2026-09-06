@@ -34,6 +34,84 @@ ended:
   year: -1077
   source: shaw-2000
 
+institutions:
+  # The New Kingdom is where Egypt acquires a permanent army. Divisions named
+  # for gods, career soldiers, a chariot arm, and a command structure that
+  # produced kings — and beside it the settlement of veterans on land in return
+  # for continued obligation, which is `land-grant` and is the same institution
+  # this corpus codes for the kleruchy, the katoikiai and the iqta'.
+  military_basis: { values: [standing-professional, land-grant], source: shaw-2000 }
+  # Three, unranked, and the third is why the Amarna letters are full of other
+  # kings asking for presents. The land tax of the most productive agricultural
+  # country in the ancient world; tribute from the Levantine vassals and Nubia;
+  # and the Nubian gold mines, which made Egypt the only great power of the
+  # period with a bullion surplus and are most of its diplomatic position.
+  revenue_basis: { values: [land-tax, tribute, mining], source: kemp-2018 }
+  # Hereditary in the male line with co-regency used to secure it, and the rule
+  # was violated often enough to produce a woman on the throne as king, a
+  # general, and at least one succession settled by a queen writing to a foreign
+  # court for a husband. Coded by the rule, as coding rule 7 requires.
+  succession_rule: { values: [primogeniture], source: shaw-2000 }
+  # The most literal divine kingship in the corpus and the longest-running. The
+  # king is Horus while living, the son of Ra, and Osiris when dead; the
+  # titulary states it in five names; the temple reliefs show him alone among
+  # the gods, at their scale, making offerings to them. `descent` is the second
+  # value and it is descent from a god rather than from a dynasty.
+  legitimation: { values: [divine-sanction, descent], source: kemp-2018 }
+
+turning_points:
+  - year: -1457
+    type: battle
+    name: "Megiddo"
+    changed: >-
+      Thutmose III took a Canaanite coalition by surprise through a pass his
+      officers had advised against, and then spent seven months besieging the
+      city because his army stopped to loot. It began seventeen campaigns in
+      twenty years that made the Levant an Egyptian sphere held through vassal
+      rulers and hostage princes — and the Annals cut at Karnak afterwards are
+      the first battle in history described in tactical detail from a
+      participant's records.
+    source: shaw-2000
+    contested: false
+  - year: -1353
+    type: conversion
+    name: "Akhetaten"
+    changed: >-
+      Akhenaten moved the court to a new city on virgin ground, elevated the
+      Aten above the other gods and then to the exclusion of them, closed
+      temples and erased the name of Amun from monuments across Egypt. It is the
+      only attempt in three thousand years to change what Egyptian religion was,
+      it lasted about seventeen years, and the reaction to it — the restoration,
+      the demolition of his monuments, the removal of his line from the king
+      lists — shaped the dynasty that followed.
+    source: kemp-2018
+    contested: false
+  - year: -1259
+    type: treaty
+    name: "The Egyptian-Hittite treaty"
+    changed: >-
+      Fifteen years after Kadesh, Ramesses II and Hattusili III signed a mutual
+      peace, non-aggression and extradition agreement, and both versions survive
+      — the Egyptian on temple walls at Karnak, the Hittite on a tablet from
+      Hattusa. It is the oldest international peace treaty whose text is known
+      from both sides, it held for the rest of both kingdoms' lives, and it
+      ended six centuries in which the Levant was the thing great powers fought
+      over.
+    source: shaw-2000
+    contested: false
+  - year: -1177
+    type: battle
+    name: "The Sea Peoples"
+    changed: >-
+      Ramesses III beat a seaborne and land invasion in the Nile delta and
+      recorded it at Medinet Habu, and Egypt was the only great power of the
+      Bronze Age Mediterranean to survive the collapse that ended the others.
+      It survived exhausted: within a generation the state could not pay the
+      workmen at the royal tombs, and the record of that is in the next
+      chapter.
+    source: shaw-2000
+    contested: false
+
 measures:
   reach_km2: { value: 1000000, at: -1450, source: taagepera-1979 }
   peak_population: null
