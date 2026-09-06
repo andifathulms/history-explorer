@@ -18,6 +18,7 @@ import {
   arcIndex,
   CHAPTER_PHASES,
   EDGE_TYPES,
+  REGION_GROUPS,
   END_TYPES,
   PHASES,
   TURNING_POINT_TYPES,
@@ -524,6 +525,20 @@ export function loadCorpus(): Corpus {
     if (!e.note?.trim()) throw new ContentError(where, 'an edge must explain itself')
   })
 
+  // Every region sits on exactly one shelf, and the shelf is from the closed
+  // list. A typo here would silently drop a region out of the browsing nav
+  // without dropping it out of anything else, which is the kind of failure
+  // nobody notices for a month.
+  const groupIds = new Set(REGION_GROUPS.map((g) => g.id))
+  for (const r of regions) {
+    if (!groupIds.has(r.group)) {
+      throw new ContentError(
+        `regions.yaml/${r.id}`,
+        `group "${r.group ?? '(missing)'}" is outside the closed list in lib/types.ts`,
+      )
+    }
+  }
+
   // A region only claims a thread if its polities are actually joined. Without
   // this, `thread: true` on an unconnected region would render an empty spine
   // and quietly imply a continuity nobody sourced.
@@ -633,6 +648,34 @@ export function politiesInRegion(id: string): Polity[] {
 export function edgesInRegion(id: string): Edge[] {
   const ids = new Set(politiesInRegion(id).map((p) => p.id))
   return loadCorpus().edges.filter((e) => ids.has(e.from) && ids.has(e.to))
+}
+
+/**
+ * Regions arranged on their browsing shelves, for the contents nav.
+ *
+ * Groups come back in the fixed order declared in `lib/types.ts`; regions
+ * inside a group come back oldest first, by the earliest polity standing in
+ * them, so each shelf reads forwards. An empty group is dropped rather than
+ * rendered as a heading with nothing under it — a group is furniture and has
+ * no gap to declare, unlike every other absence on this site.
+ *
+ * There is deliberately no `edgesInGroup`. Succession is scoped to a region.
+ */
+export function regionsByGroup(
+  filter: (r: Region) => boolean = () => true,
+): { id: string; name: string; regions: Region[] }[] {
+  const { regions } = loadCorpus()
+  const earliest = (r: Region) => {
+    const ps = politiesInRegion(r.id)
+    return ps.length ? Math.min(...ps.map((p) => p.span.start.min)) : Infinity
+  }
+  return REGION_GROUPS.map((g) => ({
+    id: g.id,
+    name: g.name,
+    regions: regions
+      .filter((r) => r.group === g.id && filter(r))
+      .sort((a, b) => earliest(a) - earliest(b)),
+  })).filter((g) => g.regions.length > 0)
 }
 
 /** Regions that can be walked end to end. May legitimately be empty. */

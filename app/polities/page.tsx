@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { formatSpan } from '@/lib/years'
-import { loadCorpus, politiesInRegion, getChapters } from '@/lib/content'
+import { loadCorpus, politiesInRegion, getChapters, regionsByGroup } from '@/lib/content'
 import { Page, Shell, PageHead } from '@/components/Shell'
 import { CrossCut, type CrossCutPolity } from '@/components/CrossCut'
 import { formatKm2, formatPopulation } from '@/lib/gaps'
@@ -13,7 +13,13 @@ export const metadata: Metadata = {
 
 export default function PolitiesIndex() {
   const { regions, narrative } = loadCorpus()
-  const populated = regions.filter((r) => politiesInRegion(r.id).some((p) => !p.context_only))
+  const isPopulated = (r: (typeof regions)[number]) =>
+    politiesInRegion(r.id).some((p) => !p.context_only)
+  // One ordering for the nav and the sections below it. A contents list that
+  // does not run in the order of the thing it indexes is worse than no
+  // contents list.
+  const groups = regionsByGroup(isPopulated)
+  const regionCount = groups.reduce((n, g) => n + g.regions.length, 0)
 
   // Only what the cross-cut actually reads. Passing whole polities across the
   // server/client boundary would ship every chapter body into the bundle.
@@ -41,40 +47,67 @@ export default function PolitiesIndex() {
             </p>
           </PageHead>
 
-          {/* Sixteen regions is more than a reader should have to scroll past to
-              find one. Set as a wrapped line of capitals it was a grey block
-              rather than a list — sixteen multi-word names at one weight, with
-              nothing to tell them apart and no reason to prefer any. A column
-              per region with its count reads as a contents page, which is what
-              it is, and the count is the one fact that makes a region worth
-              choosing from here. */}
+          {/* Twenty-two regions is past what a contents list can carry, and the
+              number only goes up. The earlier version set one region per cell
+              in a three-column grid, which fixed the grey-block problem but
+              left a new one: the grid flowed row-major, so a line read "The
+              Iranian Intermezzo · The Caliphates · Iran before Islam" — three
+              unrelated things adjacent because of the file order.
+
+              Shelving them fixes both. Each block is a self-contained list, so
+              there is no cross-column reading order to get wrong, and the
+              headings give a reader something to aim at before they have
+              learned twenty-two names. The shelves are geographic and carry no
+              thread; see REGION_GROUPS in lib/types.ts for why that matters. */}
           <nav aria-label="Regions" className="mt-12 border-t border-kashi/15 pt-8">
             <h2 className="kicker text-debu-ink">Jump to a region</h2>
-            <ul className="mt-5 grid gap-x-10 sm:grid-cols-2 lg:grid-cols-3">
-              {populated.map((r) => {
-                const n = politiesInRegion(r.id).filter((p) => !p.context_only).length
-                return (
-                  <li key={r.id} className="border-b border-kashi/10">
-                    <a
-                      href={`#${r.id}`}
-                      className="group flex items-baseline justify-between gap-4 py-2.5"
-                    >
-                      <span className="text-[16px] text-kashi transition-colors group-hover:text-firuze-ink">
-                        {r.name}
-                      </span>
-                      <span className="font-mono text-micro tabular-nums text-debu-ink">
-                        {String(n).padStart(2, '0')}
-                      </span>
-                    </a>
-                  </li>
-                )
-              })}
-            </ul>
+            <div className="mt-6 grid gap-x-10 gap-y-9 sm:grid-cols-2 lg:grid-cols-3">
+              {groups.map((g) => (
+                <section key={g.id} aria-labelledby={`group-${g.id}`}>
+                  <h3
+                    id={`group-${g.id}`}
+                    className="font-mono text-micro uppercase tracking-[0.08em] text-firuze-ink"
+                  >
+                    {g.name}
+                  </h3>
+                  <ul className="mt-2.5">
+                    {g.regions.map((r) => {
+                      const n = politiesInRegion(r.id).filter((p) => !p.context_only).length
+                      return (
+                        <li key={r.id} className="border-b border-kashi/10">
+                          <a
+                            href={`#${r.id}`}
+                            className="group flex items-baseline justify-between gap-4 py-2.5"
+                          >
+                            <span className="text-[16px] text-kashi transition-colors group-hover:text-firuze-ink">
+                              {r.name}
+                            </span>
+                            <span className="font-mono text-micro tabular-nums text-debu-ink">
+                              {String(n).padStart(2, '0')}
+                            </span>
+                          </a>
+                        </li>
+                      )
+                    })}
+                  </ul>
+                </section>
+              ))}
+            </div>
           </nav>
 
           <CrossCut polities={crossCut} />
 
-          {populated.map((r) => {
+          {/* The shelf headings repeat here so a reader who has scrolled past
+              the nav still knows where they are. They are h2 and the regions
+              under them are h3: the group is a heading level, not a label, and
+              a screen reader walking the outline should get the same two tiers
+              the eye does. */}
+          {groups.map((g) => (
+            <div key={g.id}>
+              <h2 className="mt-24 border-t-2 border-kashi/30 pt-5 font-display text-[26px] font-semibold text-kashi-deep">
+                {g.name}
+              </h2>
+              {g.regions.map((r) => {
             const inRegion = politiesInRegion(r.id)
             const ps = inRegion.filter((p) => !p.context_only)
             const ctx = inRegion.filter((p) => p.context_only)
@@ -82,9 +115,9 @@ export default function PolitiesIndex() {
               <section key={r.id} id={r.id} className="scroll-mt-28 pt-20">
                 <div className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-2 border-t border-kashi/25 pt-5">
                   <div className="flex flex-wrap items-baseline gap-x-4 gap-y-1">
-                    <h2 className="font-display text-title font-semibold text-kashi-deep">
+                    <h3 className="font-display text-title font-semibold text-kashi-deep">
                       {r.name}
-                    </h2>
+                    </h3>
                     <span className="font-mono text-micro uppercase text-debu-ink">
                       {ps.length} {ps.length === 1 ? 'polity' : 'polities'}
                     </span>
@@ -195,10 +228,12 @@ export default function PolitiesIndex() {
                 ) : null}
               </section>
             )
-          })}
+              })}
+            </div>
+          ))}
 
           <p className="mt-20 border-t border-kashi/15 pt-6 font-mono text-micro uppercase text-debu-ink">
-            {narrative.length} polities read · {populated.length} regions · coverage claims
+            {narrative.length} polities read · {regionCount} regions · coverage claims
             no completeness
           </p>
         </Shell>

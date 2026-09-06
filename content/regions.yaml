@@ -9,6 +9,13 @@
 # and was inherited by nobody still gets a page, still enters the rankings, and
 # simply has no thread to stand in. `thread: false` is an ordinary, expected
 # state, not an unfinished one — see PRD section 3.
+#
+# `group` is a browsing shelf above the region and nothing else: it has no page,
+# no route and no thread. Succession is scoped to a region and never wider, and
+# the code enforces that by simply not having a group equivalent of
+# `edgesInRegion`. The axis is geography, deliberately — grouping by
+# civilisation would assert one level up exactly what the paragraph above
+# refuses. The closed list and the reasoning are in lib/types.ts.
 regions:
   - id: iranian-intermezzo
     name: The Iranian Intermezzo
@@ -17,6 +24,7 @@ regions:
       Mongol arrival — Khurasan, Transoxiana and the Iranian plateau. Dense with
       succession: slave-generals taking their masters' provinces, vassals
       swallowing overlords, governors inheriting the empire that appointed them.
+    group: iran
     thread: true
 
   # Membership rule, stated because it is not obvious and was not being
@@ -36,6 +44,7 @@ regions:
       same terms. Succession runs inside the line and stops at its edge:
       a polity that says the office was usurped is not its heir, and no edge
       joins them.
+    group: fertile-crescent
     thread: true
 
   - id: pre-islamic-iran
@@ -44,6 +53,7 @@ regions:
       Twelve centuries of Iranian empire before the Arab conquests: Achaemenid,
       Seleucid, Parthian, Sasanian — each of which held roughly the same
       plateau and claimed, in different terms, to be continuing the last.
+    group: iran
     thread: true
 
   - id: mongol-world
@@ -52,6 +62,7 @@ regions:
       The largest contiguous land empire ever assembled, the four successor
       khanates it broke into within two generations, and the Chinggisid houses
       still ruling on the strength of that descent three centuries later.
+    group: steppe-east-asia
     thread: true
 
   - id: indian-sultanates
@@ -59,6 +70,7 @@ regions:
     blurb: >-
       Turkic and Afghan rule in northern India, founded by a Ghurid
       slave-general and outlasting every polity that produced it.
+    group: south-asia
     thread: true
 
   - id: islamic-west
@@ -67,6 +79,7 @@ regions:
       The Maghreb and al-Andalus — the provinces that left the caliphate
       earliest and stayed gone, and the Berber empires that later ruled both
       shores of the strait.
+    group: africa-maghreb
     thread: true
 
   # Split from a single `central-lands` region that had grown to fifteen
@@ -90,6 +103,7 @@ regions:
       an invasion from Europe, and the four Frankish states that held the shore
       for a hundred and ninety-two years and were removed from it in
       twenty-three.
+    group: fertile-crescent
     thread: true
 
   - id: jazira
@@ -102,6 +116,7 @@ regions:
       through Isfahan, and its two unattached polities each have an edge that
       leaves the region because the Seljuk sultanate is what stood between one
       and the next.
+    group: fertile-crescent
     thread: true
 
   # Membership is the peninsula, not a lineage. That needs saying because the
@@ -118,6 +133,7 @@ regions:
       the mountains, one of them outlasting Constantinople itself. The polity
       that eventually took all of it began as the smallest of the
       principalities and is the reason the rest are usually left out.
+    group: mediterranean
     thread: true
 
   - id: byzantium-and-the-latin-west
@@ -125,6 +141,7 @@ regions:
     blurb: >-
       The Roman empire that survived in the east, and the Frankish attempt to
       restore the one that had not survived in the west.
+    group: mediterranean
     thread: true
 
   - id: east-asia
@@ -133,6 +150,7 @@ regions:
       Tang China and the conquest dynasties of the northern frontier — the
       other end of the Silk Road, and the only states of the period comparable
       in scale to the caliphate.
+    group: steppe-east-asia
     thread: true
 
   - id: inner-asia
@@ -140,6 +158,7 @@ regions:
     blurb: >-
       The steppe and plateau powers between the caliphate and China: Tibetan,
       Uyghur and Khazar, each of which shaped the others' frontiers.
+    group: steppe-east-asia
     thread: true
 
   - id: maritime-asia
@@ -147,6 +166,7 @@ regions:
     blurb: >-
       The polities of the sea routes rather than the land ones, whose power
       came from controlling straits instead of territory.
+    group: south-asia
     thread: true
 
   - id: africa
@@ -154,6 +174,7 @@ regions:
     blurb: >-
       Aksum on the Red Sea and Mali on the Niger — the northern end of one
       trade system and the southern end of another.
+    group: africa-maghreb
     thread: true
 
   # Extended past 1736. The blurb previously ended at "the dynasty that made it
@@ -169,6 +190,7 @@ regions:
       made Iran Shi'i, and what followed it — an Afghan occupation, a conqueror
       who took Delhi, a regent who refused the title of shah, and a century
       spent between two European empires.
+    group: iran
     thread: true
 
   - id: ancient-near-east
@@ -177,6 +199,7 @@ regions:
       The first territorial empires: Akkad, Egypt's New Kingdom, Mitanni,
       Assyria and Media, and the argument that any of them was an empire at
       all.
+    group: fertile-crescent
     thread: true
 
   # Split three ways from a single `arabia` region. That region had fifteen
@@ -201,6 +224,7 @@ regions:
       wall each supported a polity, and where the imperial armies that came for
       them — Aksumite, Ayyubid, Ottoman — could take the coast and not the
       highlands.
+    group: arabia
     thread: true
 
   - id: oman
@@ -210,6 +234,7 @@ regions:
       grew out of it and went to sea. Oman is the one part of Arabia where an
       elected imamate was the normal form of the state for a thousand years,
       and the only one whose rulers ended up governing an African coast.
+    group: arabia
     thread: true
 
   - id: central-arabia
@@ -221,6 +246,7 @@ regions:
       Qarmatian state on the Gulf that carried the Black Stone away, sharifs
       holding Mecca for nine hundred years under whoever was paying, and
       finally a movement out of the Najd that took the lot.
+    group: arabia
     thread: true
 
   - id: classical-india
@@ -228,6 +254,7 @@ regions:
     blurb: >-
       Maurya, Kushan and Gupta — the subcontinental empires that carried
       Buddhism out of India and set the terms of its classical culture.
+    group: south-asia
     thread: false
 
   # Added with thread: false, per the workflow rule. Ptolemaic Egypt had
@@ -242,6 +269,7 @@ regions:
       Arab conquests: Greek kingdoms that governed in one language and were
       taxed in another, and the Arab powers that grew in the space between Rome
       and Iran.
+    group: mediterranean
     thread: false
 
   # Added with thread: false, per the workflow rule. The Shirvanshahs span 799
@@ -257,4 +285,5 @@ regions:
       on either side wanted, none could cheaply hold, and all of them marched
       through — where local houses survived by being expensive to take and
       useful to leave alone.
+    group: iran
     thread: false

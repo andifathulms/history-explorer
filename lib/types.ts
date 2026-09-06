@@ -15,11 +15,48 @@ export type RegionId = string
  * complete and ordinary — succession is a property some polities have, not the
  * site's organising principle.
  */
+/**
+ * Browsing groups above the regions. A shelf, not an argument.
+ *
+ * Twenty-two regions is more than a contents list can carry, and the number
+ * only goes up. This tier exists so the reader can find one, and it is
+ * deliberately the weakest object in the model: a group has no page, no route,
+ * no blurb and — the point — no thread. Succession is scoped to a region and
+ * nothing wider. `edgesInRegion` takes a RegionId and there is no group
+ * equivalent, which is the enforcement.
+ *
+ * The axis is geography and only geography. The tempting alternative, with ten
+ * of the present regions in the Islamic era, is to group by civilisation —
+ * Islamic world, Christendom, East Asia. That would assert at this level
+ * exactly what `regions.yaml` refuses at the level below it, and it breaks on
+ * contact with the corpus: Byzantium sits beside Anatolia because they fought
+ * over one peninsula, the Islamic West spans two continents, and Cilician
+ * Armenia is filed with Turkmen beyliks on purpose. Geography makes no claim
+ * about who the people in a place were or what they had in common, which is
+ * the property this tier needs.
+ *
+ * The order is fixed here rather than computed. A reader learns where a group
+ * sits on the page, and sorting by earliest polity would move the furniture
+ * every time an old one is added somewhere.
+ */
+export const REGION_GROUPS = [
+  { id: 'fertile-crescent', name: 'The Fertile Crescent and Egypt' },
+  { id: 'iran', name: 'Iran and the Caucasus' },
+  { id: 'arabia', name: 'The Arabian Peninsula' },
+  { id: 'mediterranean', name: 'The Mediterranean' },
+  { id: 'africa-maghreb', name: 'Africa and the Maghreb' },
+  { id: 'steppe-east-asia', name: 'The Steppe and East Asia' },
+  { id: 'south-asia', name: 'South and Southeast Asia' },
+] as const
+export type RegionGroupId = (typeof REGION_GROUPS)[number]['id']
+
 export interface Region {
   id: RegionId
   name: string
   blurb: string
   thread: boolean
+  /** Which shelf it sits on. Browsing only — see REGION_GROUPS. */
+  group: RegionGroupId
 }
 
 /** A value that exists only when a source says so. Hard rule 2: no estimates. */
