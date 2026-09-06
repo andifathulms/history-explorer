@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**2101 claims across 116 sources.**
+**2121 claims across 119 sources.**
 
 ## Where to start
 
@@ -2382,6 +2382,23 @@ ordinary state, not an item to clear.
 - [ ] `polity/ming` — ended by conquest in 1644
 - [ ] `polity/yuan` — ended by conquest in 1368
 
+## G. Rex Smith, The Ayyubids and Early Rasulids in the Yemen (567-694/1173-1295)
+*In E. J. W. Gibb Memorial, New Series XXVI.*
+
+`smith-1974` — 11 claims
+
+- [ ] `chapter/rasulid/01-the-deputies-who-stayed.mdx` — prose: "The deputies who stayed"
+- [ ] `chapter/rasulid/04-the-scholar-sultans.mdx` — prose: "Sultans who wrote books"
+- [ ] `edge/ayyubid->rasulid` — seceded from in 1229
+- [ ] `polity/rasulid` — span starts 1229
+- [ ] `polity/rasulid` — capital Ta'izz from 1229
+- [ ] `polity/rasulid` — capital Zabid
+- [ ] `polity/rasulid` — founder al-Malik al-Mansur Umar r. 1229-1249
+- [ ] `polity/rasulid` — peak al-Malik al-Muzaffar Yusuf r. 1249-1295
+- [ ] `polity/rasulid` — military basis coded slave-soldier + tribal-levy
+- [ ] `polity/rasulid` — legitimation coded conquest + descent
+- [ ] `polity/rasulid` — turning point 1249 The murder of al-Mansur Umar
+
 ## Christopher I. Beckwith, The Tibetan Empire in Central Asia
 
 `beckwith-1987` — 11 claims
@@ -2529,6 +2546,19 @@ ordinary state, not an item to clear.
 - [ ] `polity/rashidun` — turning point 656 The killing of Uthman
 - [ ] `polity/rashidun` — turning point 657 The arbitration at Siffin
 - [ ] `polity/rashidun` — ended by dynastic replacement in 661
+
+## Éric Vallet, L'Arabie marchande: État et commerce sous les sultans rasulides du Yémen (626-858/1229-1454)
+
+`vallet-2010` — 8 claims
+
+- [ ] `chapter/rasulid/02-aden.mdx` — prose: "Aden"
+- [ ] `chapter/rasulid/03-mecca.mdx` — prose: "The contest for the holy cities"
+- [ ] `chapter/rasulid/06-1454.mdx` — prose: "What happened when the ships stopped"
+- [ ] `polity/rasulid` — span ends 1454
+- [ ] `polity/rasulid` — last al-Mas'ud Abu'l-Qasim
+- [ ] `polity/rasulid` — revenue basis coded trade-toll + land-tax
+- [ ] `polity/rasulid` — turning point 1424 Barsbay takes the Indian traffic
+- [ ] `polity/rasulid` — ended by dynastic replacement in 1454
 
 ## Vladimir Minorsky, A History of Sharvan and Darband in the 10th-11th Centuries
 
@@ -2833,6 +2863,13 @@ ordinary state, not an item to clear.
 `hoyland-1997` — 1 claims
 
 - [ ] `chapter/rashidun/08-the-sources.mdx` — prose: "What the neighbours wrote down"
+
+## Peter B. Golden (ed.), trans. Tibor Halasi-Kun and others, The King's Dictionary: The Rasulid Hexaglot — Fourteenth Century Vocabularies in Arabic, Persian, Turkic, Greek, Armenian and Mongol
+*In Handbook of Oriental Studies, Section 8.*
+
+`golden-2000` — 1 claims
+
+- [ ] `chapter/rasulid/05-the-hexaglot.mdx` — prose: "Six languages"
 
 ## Richard N. Frye, Bukhara: The Medieval Achievement
 *In The Centers of Civilization Series.*

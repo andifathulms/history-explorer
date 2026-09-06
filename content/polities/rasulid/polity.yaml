@@ -1,0 +1,100 @@
+id: rasulid
+region: arabia
+
+name:
+  latin: Rasulid Sultanate
+  script: بنو رسول
+  script_lang: ar
+
+span:
+  start: { min: 1229, max: 1229, source: smith-1974 }
+  end: { min: 1454, max: 1454, source: vallet-2010 }
+
+identity: >-
+  The wealthiest state Yemen ever had: two hundred and twenty-five years built
+  on the customs of Aden, run by a family of Turkmen origin who claimed to be
+  Ghassanid Arabs and produced sultans who wrote books.
+
+capitals:
+  - { name: Ta'izz, script: تعز, from: 1229, source: smith-1974 }
+  # Not a move but a rotation. The court wintered at Zabid on the coastal plain
+  # and summered in the highlands, which is a fact about Yemen's climate before
+  # it is one about politics.
+  - { name: Zabid, script: زبيد, source: smith-1974 }
+
+core_region: Yemen, from the Tihama and Aden to Hadramawt, and at times the Hejaz
+
+rulers:
+  founder: { name: al-Malik al-Mansur Umar, reign: [1229, 1249], source: smith-1974 }
+  peak: { name: al-Malik al-Muzaffar Yusuf, reign: [1249, 1295], source: smith-1974 }
+  last: { name: al-Mas'ud Abu'l-Qasim, source: vallet-2010 }
+
+scripts_and_languages:
+  administration: [Arabic]
+  writing_system: Arabic
+
+# The Tahirids who took over in 1454 are a Yemeni dynasty this corpus does not
+# carry, and the id `tahirid` belongs to the Khurasanis. `by` is empty rather
+# than pointed at the wrong people.
+ended:
+  type: dynastic replacement
+  by: []
+  year: 1454
+  source: vallet-2010
+
+institutions:
+  # Purchased mamluks alongside Yemeni tribal contingents — the arrangement
+  # they inherited from the Ayyubids they had served, and which killed their
+  # founder in 1249 in the corpus's usual way.
+  military_basis: { values: [slave-soldier, tribal-levy], source: smith-1974 }
+  # Aden first. Vallet's book is an argument that this was a commercial state
+  # before it was anything else: the customs of the port carried the treasury,
+  # and the fiscal registers the dynasty left behind — which almost no medieval
+  # Islamic polity did — let the claim be made from documents rather than
+  # inference. The terraced agriculture of the highlands is the other half.
+  # Unranked.
+  revenue_basis: { values: [trade-toll, land-tax], source: vallet-2010 }
+  # Father to son in the main, contested at nearly every turn, and no rule the
+  # consulted works describe. The corpus does not promote a sequence.
+  succession_rule: null
+  # Conquest, and a genealogy. The family was of Turkmen origin and had come to
+  # Yemen in Ayyubid service; its own court histories traced it instead to the
+  # Ghassanids — the Arab federate house this site carries as the Jafnid record,
+  # six centuries earlier and two thousand kilometres north. It is the clearest
+  # case in the corpus of a dynasty choosing its ancestors, and the ancestors
+  # chosen were the most prestigious Arab kings available.
+  legitimation: { values: [conquest, descent], source: smith-1974 }
+
+turning_points:
+  - year: 1249
+    type: succession-crisis
+    name: "The murder of al-Mansur Umar"
+    changed: >-
+      The founder was killed by his own mamluks twenty years after taking the
+      state, and his son al-Muzaffar Yusuf spent the first years of a
+      forty-six-year reign putting the regiment down. It is the corpus's
+      standard failure arriving in Yemen — an army that can make a ruler
+      eventually makes one it prefers — and the unusual part is that this time
+      the dynasty survived it and ran for another two centuries.
+    source: smith-1974
+    contested: false
+  - year: 1424
+    type: reform
+    name: "Barsbay takes the Indian traffic"
+    changed: >-
+      The Mamluk sultan began forcing the Indian Ocean spice traffic away from
+      Aden and up the Red Sea to Jeddah, where Cairo could tax it. The policy
+      was imposed across the following decade rather than in a single order,
+      and it removed the revenue the Rasulid state had been built on. The
+      dynasty had thirty years left and spent them without the customs that had
+      paid for everything on this page.
+    source: vallet-2010
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

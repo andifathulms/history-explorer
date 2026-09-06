@@ -1157,6 +1157,16 @@ edges:
     source: daftary-2007
     contested: true
 
+  - from: ayyubid
+    to: rasulid
+    type: seceded from
+    year: 1229
+    note: "The last Ayyubid prince of Yemen left for Syria and appointed a
+           deputy from a family that had come south in his family's service;
+           the deputy had the khutba read in his own name instead."
+    source: smith-1974
+    contested: false
+
   - from: fatimid
     to: sulayhid
     type: vassal of
