@@ -1251,6 +1251,46 @@ edges:
     source: wilkinson-1987
     contested: false
 
+  # ---- The Franks in the Levant ----
+  #
+  # Both of these states were founded by an expedition from outside this corpus
+  # and inherited by nobody, so each has one edge and it is the one that ended
+  # it. There is deliberately no edge from Jerusalem to the Ayyubids: 1187 took
+  # the kingdom's capital and nine-tenths of its ground and did not end it, and
+  # `conquered by` would assert that it did. That year is a turning point on the
+  # Jerusalem page instead.
+
+  - from: fatimid
+    to: jerusalem
+    type: conquered by
+    year: 1099
+    note: "The Fatimids had retaken Jerusalem from the Seljuks the year before
+           and held it for eleven months; the First Crusade stormed it in July
+           1099 and the garrison surrendered the citadel to Raymond of
+           Toulouse."
+    source: barber-2012
+    contested: false
+
+  - from: edessa
+    to: zangid
+    type: conquered by
+    year: 1144
+    note: "Zengi took Edessa in four weeks over Christmas 1144 while the count
+           was west of the Euphrates, destroying the first Frankish state to be
+           founded and the first to be lost."
+    source: barber-2012
+    contested: false
+
+  - from: jerusalem
+    to: mamluk-sultanate
+    type: conquered by
+    year: 1291
+    note: "Al-Ashraf Khalil took Acre in six weeks with artillery brought from
+           Damascus and Baalbek, after which Tyre, Sidon, Beirut and Tortosa
+           were abandoned without being attacked."
+    source: barber-2012
+    contested: false
+
   # ---- South Arabia: the coastal plain, the port, and the last dynasty ----
 
   - from: ziyadid

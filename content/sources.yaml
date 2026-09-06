@@ -889,6 +889,34 @@ sources:
       furniture two invasions rearranged. Cited for the polities this site
       added to close the gap between 1004 and 1102.
 
+  - id: barber-2012
+    kind: book
+    author: Malcolm Barber
+    title: "The Crusader States"
+    publisher: Yale University Press
+    year: 2012
+    note: >-
+      A political history of the four Frankish states of the Levant as states —
+      how they were governed, paid for and defended — rather than as episodes
+      in the history of the crusading movement. The spine for the Jerusalem and
+      Edessa records here, and the work this site relies on for the distinction
+      between the kingdom that ended in 1187 and the one that ended in 1291.
+
+  - id: macevitt-2008
+    kind: book
+    author: Christopher MacEvitt
+    title: "The Crusades and the Christian World of the East: Rough Tolerance"
+    container: The Middle Ages Series
+    publisher: University of Pennsylvania Press
+    year: 2008
+    note: >-
+      Argues that the Frankish states governed populations that were mostly
+      Eastern Christian rather than Muslim, and that the arrangement they
+      arrived at was neither the persecution of the older accounts nor
+      convivencia but an unarticulated practical accommodation. Edessa is the
+      central case, which is why this site cites it there rather than on the
+      Jerusalem page.
+
   - id: ripper-2000
     kind: book
     author: Thomas Ripper

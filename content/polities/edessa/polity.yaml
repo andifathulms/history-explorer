@@ -1,0 +1,87 @@
+id: edessa
+region: central-lands
+
+name:
+  latin: County of Edessa
+  script: Comitatus Edessanus
+  script_lang: la
+
+# 1098 is Baldwin of Boulogne's accession at Edessa, which makes this the first
+# of the Frankish states in the Levant — founded before Antioch was taken and a
+# year before Jerusalem. The county was destroyed in 1144 when Zengi took the
+# city; a rump west of the Euphrates held out until 1150, and the span ends
+# there because that is when the polity stopped existing. The 1144 hinge is a
+# turning point and is the year the edge carries.
+span:
+  start: { min: 1098, max: 1098, source: barber-2012 }
+  end: { min: 1150, max: 1150, source: barber-2012 }
+
+identity: >-
+  The first Crusader state and the only landlocked one: a few hundred Frankish
+  knights ruling a large Armenian and Syriac Christian country east of the
+  Euphrates, fifty years further from the sea than any help could reach.
+
+capitals:
+  - { name: Edessa, script: ܐܘܪܗܝ, from: 1098, source: barber-2012 }
+
+core_region: The Jazira between the Euphrates and the Tigris headwaters
+
+rulers:
+  founder: { name: Baldwin of Boulogne, reign: [1098, 1100], source: barber-2012 }
+  peak: { name: Joscelin I of Courtenay, reign: [1119, 1131], source: barber-2012 }
+  last: { name: Joscelin II of Courtenay, reign: [1131, 1150], source: barber-2012 }
+
+scripts_and_languages:
+  # The court and the charters were Frankish; the country was not. Armenian and
+  # Syriac were the languages of the population and of most of the men who
+  # actually administered it, and Greek and Arabic were both in use.
+  administration: [Latin, Armenian, Syriac]
+  writing_system: Latin
+
+ended:
+  type: conquest
+  by: [zangid]
+  year: 1150
+  source: barber-2012
+
+institutions:
+  # Fiefs held of the count, in the ordinary Frankish way, on a scale that was
+  # never adequate to the frontier: the county's Latin fighting strength is
+  # counted in hundreds throughout its existence.
+  military_basis: { values: [land-grant], source: barber-2012 }
+  revenue_basis: { values: [land-tax], source: barber-2012 }
+  succession_rule: null
+  legitimation: { values: [conquest], source: barber-2012 }
+
+turning_points:
+  - year: 1098
+    type: revolt
+    name: "The adoption and the riot"
+    changed: >-
+      T'oros, the Armenian ruler of Edessa, adopted Baldwin as his son and heir
+      and was killed by his own townspeople within weeks; Baldwin took the
+      city. Whether he arranged it is disputed and this record does not decide
+      it. What it settled is the terms of every Frankish state that followed:
+      a small Latin elite installed on top of an Eastern Christian population
+      by that population's own act, or with its acquiescence.
+    source: macevitt-2008
+    contested: true
+  - year: 1144
+    type: siege
+    name: "The fall of Edessa"
+    changed: >-
+      Zengi took the city in four weeks over Christmas 1144 while Joscelin II
+      was away at Turbessel. It was the first Crusader state to be destroyed,
+      it proved the Frankish position in the Levant was reversible, and the
+      news of it produced the Second Crusade — which then went to Damascus
+      instead and failed there.
+    source: barber-2012
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

@@ -1,0 +1,116 @@
+id: jerusalem
+region: central-lands
+
+name:
+  latin: Kingdom of Jerusalem
+  script: Regnum Hierosolymitanum
+  script_lang: la
+
+# One span for two states, and the page says so rather than the field. The
+# kingdom founded in 1099 lost its capital and almost all its territory to
+# Saladin in 1187; what continued at Tyre and then Acre until 1291 kept the
+# name, the law and the dynasty and never again held Jerusalem except for the
+# fifteen years after Frederick II's treaty. Historians commonly call them the
+# first and second kingdoms. The span model cannot express that, so the fourth
+# chapter does.
+span:
+  start: { min: 1099, max: 1099, source: barber-2012 }
+  end: { min: 1291, max: 1291, source: barber-2012 }
+
+identity: >-
+  A Frankish kingdom on the Syrian coast that held its own capital for
+  eighty-eight of its hundred and ninety-two years, and spent the rest of them
+  named after a city it did not govern.
+
+capitals:
+  - { name: Jerusalem, script: Hierusalem, from: 1099, to: 1187, source: barber-2012 }
+  # Not a preference. The kingdom was governed from Acre for a century because
+  # Jerusalem was in somebody else's hands, and the recovery of 1229 was a
+  # treaty over an undefended city that the court did not move back into.
+  - { name: Acre, script: Acon, from: 1191, source: barber-2012 }
+
+core_region: The Levantine coast from Beirut to Ascalon, with the Judaean hills and Transjordan
+
+rulers:
+  # Godfrey refused a crown in the city where Christ had worn thorns and took
+  # the title Advocate of the Holy Sepulchre. His brother had no such scruple
+  # and was crowned king at Bethlehem on Christmas Day 1100.
+  founder: { name: Godfrey of Bouillon, reign: [1099, 1100], source: barber-2012 }
+  peak: { name: Amalric I, reign: [1163, 1174], source: barber-2012 }
+  last: { name: Henry II of Lusignan, source: barber-2012 }
+
+scripts_and_languages:
+  administration: [Latin, Old French]
+  writing_system: Latin
+
+ended:
+  type: conquest
+  by: [mamluk-sultanate]
+  year: 1291
+  source: barber-2012
+
+institutions:
+  # Two systems at once, and the second is the unusual one. Fiefs held of the
+  # crown in the ordinary way, alongside the military orders — Templars and
+  # Hospitallers — who were permanently embodied, professionally recruited,
+  # funded from estates across Europe and not answerable to the king. By the
+  # thirteenth century they were the only reliable field force the kingdom had
+  # and the crown could not command them.
+  military_basis: { values: [land-grant, standing-professional], source: barber-2012 }
+  # The kingdom's money was increasingly the coast rather than the country. The
+  # Italian communes at Acre and Tyre paid for the right to trade and the
+  # customs of those ports outweighed the agricultural revenue of a territory
+  # that after 1187 barely existed.
+  revenue_basis: { values: [land-tax, trade-toll], source: barber-2012 }
+  # The vocabulary has no value for what this kingdom actually did. The crown
+  # was hereditary and passed four times through women to their husbands, and
+  # every one of those transfers required the Haute Cour — the assembly of the
+  # kingdom's barons — to accept the man. Neither `primogeniture` nor
+  # `election` describes it, and coding either would be a definition bent to
+  # fit rather than a rule applied.
+  succession_rule: null
+  legitimation: { values: [conquest, divine-sanction], source: barber-2012 }
+
+turning_points:
+  - year: 1187
+    type: battle
+    name: Hattin
+    changed: >-
+      The kingdom put its entire field army, stripped from every castle, into
+      one battle in July and lost it in a day. What followed was not a slow
+      reconquest but a collapse: with no force left to garrison anything,
+      Jerusalem, Acre, Ascalon and almost every fortified place in the kingdom
+      surrendered to Saladin within five months. Everything this record covers
+      after 1187 is a different state with the same name.
+    source: hillenbrand-1999
+    contested: false
+  - year: 1229
+    type: treaty
+    name: "Jaffa"
+    changed: >-
+      Frederick II obtained Jerusalem from al-Kamil by negotiation, without a
+      battle, in exchange for a ten-year truce — and was excommunicated at the
+      time, so the crowning in the Holy Sepulchre was performed by nobody. The
+      city was returned undefended and demilitarised, the court stayed at Acre,
+      and it was lost again in 1244. It is the only recovery the kingdom ever
+      made and it was a diplomatic one.
+    source: barber-2012
+    contested: false
+  - year: 1291
+    type: siege
+    name: Acre
+    changed: >-
+      Al-Ashraf Khalil took the city in six weeks with siege artillery brought
+      from Damascus and Baalbek. Tyre, Sidon, Beirut and Tortosa were abandoned
+      within weeks without being attacked, and the Frankish presence on the
+      Syrian mainland ended after a hundred and ninety-two years.
+    source: barber-2012
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
