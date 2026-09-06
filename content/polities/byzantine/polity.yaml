@@ -34,6 +34,139 @@ ended:
   year: 1453
   source: treadgold-1997
 
+# This record had no institutions block at all for a thousand and fifty-eight
+# years of state, which made it the largest gap in the corpus. The difficulty
+# that produced the gap is real and is worth stating rather than pretending
+# away: the empire of 400 and the empire of 1400 have almost nothing in common
+# institutionally, and any single coding of four fields has to choose a period.
+#
+# The choice made here is the middle Byzantine state — roughly 700 to 1050 —
+# for three reasons. It is the longest-lasting of the empire's configurations.
+# It is the one this record's own chapters are mostly about. And it is the one
+# that is distinctively Byzantine rather than late Roman: the earlier state is
+# coded on this site's Roman record already, and the later one is a fragment
+# living on Italian credit. Every field below says which period it describes.
+institutions:
+  # The theme system. Soldiers held land in their military district and served
+  # from it, because after the seventh century there was no longer the cash to
+  # pay a field army the way the Roman record on this site paid one. Beside it,
+  # from the ninth century, the tagmata — full-time professional regiments
+  # around the capital — and mercenaries throughout, of whom the Varangian
+  # guard of Rus and later Anglo-Saxons is only the famous example.
+  #
+  # Haldon's argument, and the reason this field is coded from him, is that the
+  # themes were not a reform anybody designed. They are what happened when field
+  # armies retreating from the Arab conquests were quartered on the provinces
+  # they fell back into, and the administrative structure grew around the fact
+  # afterwards.
+  military_basis: { values: [land-grant, standing-professional, mercenary], source: haldon-1997 }
+  # A land tax assessed on registered holdings, collected in coin, on a
+  # cadastral register maintained by a central bureau — the one Roman
+  # institution this state kept working continuously when everything else was
+  # rebuilt, and the reason it could still field armies when its territory had
+  # halved. Beside it the kommerkion, a ten per cent duty on trade, and the
+  # customs of the straits, which is what a capital on the Bosphorus is for.
+  revenue_basis: { values: [land-tax, trade-toll], source: haldon-1997 }
+  # Designation, and it needs the qualification the next field carries. An
+  # emperor named a co-emperor — crowned in his lifetime, named in the
+  # acclamations, on the coinage — and that is the rule the sources describe and
+  # the one this field records. What it does not record is that between 395 and
+  # 1453 something close to half of the emperors were deposed, and that a
+  # deposition was not treated as a breach of the constitution but as its
+  # operation.
+  succession_rule: { values: [nomination], source: treadgold-1997 }
+  # Three, and the first two are the same fields the Roman record carries, which
+  # is the point: this state's account of itself did not change. The emperor is
+  # chosen by God and crowned by the patriarch; the ruling house claims by
+  # descent; and `election` records the constitutional part — the emperor is
+  # acclaimed by senate, army and people, and Kaldellis's argument is that this
+  # was not a survival or a formality but a live doctrine, that the res publica
+  # could withdraw its acceptance, and that the frequency of depositions is the
+  # evidence.
+  #
+  # That reading is contested — the older view makes this a sacral autocracy
+  # with a decorative acclamation — and this record's aside on the republic sets
+  # the disagreement out rather than deciding it in a field. `election` is coded because the
+  # acclamation demonstrably happened at every accession and every usurper
+  # sought it, which is the same test this site's Roman record applies to the
+  # same value.
+  legitimation: { values: [divine-sanction, descent, election], source: kaldellis-2015 }
+
+turning_points:
+  - year: 636
+    type: battle
+    name: The Yarmuk
+    changed: >-
+      An Arab army destroyed the eastern field army in the Golan and Syria,
+      Palestine and then Egypt were lost within six years. Two-thirds of the
+      empire's revenue and its entire grain supply went with them. Everything
+      coded in the institutions above is a response to this: the themes, the
+      shrunken coinage, the abandonment of the cities of Anatolia for hilltop
+      fortresses, and a defensive posture on a frontier through the Taurus that
+      held for three hundred years.
+    source: haldon-1997
+    contested: false
+  - year: 718
+    type: siege
+    name: The second Arab siege of Constantinople
+    changed: >-
+      An Umayyad army and fleet blockaded the city for a year and failed, having
+      lost most of the fleet to storms, to a Bulgar attack on the besiegers and
+      to the incendiary this site's sources call Greek fire. It is the point at
+      which the empire stops looking like a state in the process of being
+      conquered. This corpus's Umayyad record dates the caliphate's turn away
+      from Constantinople to the same year.
+    source: haldon-1997
+    contested: false
+  - year: 843
+    type: reform
+    name: The restoration of the images
+    changed: >-
+      A century and a quarter of official iconoclasm ended with a council and a
+      procession, and the settlement held. It fixed the shape of Orthodox
+      practice, ended the last doctrinal question the emperors tried to decide
+      by decree and lost, and produced the church that the missions to the Slavs
+      forty years later carried outward — which is where this record's two
+      influence counts come from.
+    source: whittow-1996
+    contested: false
+  - year: 1071
+    type: battle
+    name: Manzikert
+    changed: >-
+      The emperor was captured by a Seljuk sultan who did not particularly want
+      Anatolia and released him. What lost Anatolia was the civil war that
+      followed in the empire, during which rival claimants hired Turkish troops
+      and gave them land, and within a decade the plateau that had supplied this
+      record's soldiers and taxes for four centuries was gone. This site's Great
+      Seljuk record carries the battle; the loss belongs here.
+    source: treadgold-1997
+    contested: false
+  - year: 1204
+    type: siege
+    name: The Fourth Crusade
+    changed: >-
+      A crusade diverted by debt and a Venetian fleet took and sacked
+      Constantinople, and the empire broke into a Latin empire and three Greek
+      successor states. This corpus carries two of them, Nicaea and Trebizond,
+      as records of their own. The city was recovered in 1261 by the record next
+      to this one and never recovered its population, its treasury or its
+      independence of Italian credit.
+    source: treadgold-1997
+    contested: false
+  - year: 1341
+    type: succession-crisis
+    name: The civil wars
+    changed: >-
+      Two civil wars in fifteen years, fought over a regency, in which both
+      sides hired Turkish troops and one of them ferried them into Europe.
+      Serbia took Macedonia and Thessaly while it went on. The Ottomans crossed
+      permanently in 1354. It is the last point at which this record had a
+      choice about anything, and the choice was made by two men fighting over a
+      child's guardianship.
+    source: treadgold-1997
+    contested: false
+
 measures:
   reach_km2: { value: 1350000, at: 555, source: taagepera-1997 }
   peak_population: null

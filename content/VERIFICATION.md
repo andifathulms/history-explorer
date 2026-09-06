@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**3205 claims across 173 sources.**
+**3225 claims across 175 sources.**
 
 ## Where to start
 
@@ -1021,6 +1021,60 @@ ordinary state, not an item to clear.
 - [ ] `polity/kartli-kakheti` — turning point 1795 Krtsanisi
 - [ ] `polity/kartli-kakheti` — ended by conquest in 1801
 
+## Warren Treadgold, A History of the Byzantine State and Society
+
+`treadgold-1997` — 47 claims
+
+**Sole source** for `nicaea` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/byzantine/01-the-half-that-did-not-fall.mdx` — prose: "The half that did not fall"
+- [ ] `chapter/byzantine/02-justinian.mdx` — prose: "Justinian"
+- [ ] `chapter/byzantine/04-the-survivor.mdx` — prose: "The empire that lost half of itself and continued"
+- [ ] `chapter/byzantine/09-1204.mdx` — prose: "1204"
+- [ ] `chapter/byzantine/10-1453.mdx` — prose: "1453"
+- [ ] `chapter/nicaea/01-a-government-in-exile.mdx` — prose: "A government in exile that worked"
+- [ ] `chapter/nicaea/02-what-the-restoration-cost.mdx` — prose: "What the restoration cost"
+- [ ] `chapter/trebizond/01-two-hundred-miles-of-coast.mdx` — prose: "Two hundred miles of coast"
+- [ ] `chapter/trebizond/02-the-city-and-the-road.mdx` — prose: "The city and the road"
+- [ ] `chapter/trebizond/03-bessarion.mdx` — prose: "What left before the city fell"
+- [ ] `edge/byzantine->nicaea` — partitioned from in 1204
+- [ ] `edge/byzantine->trebizond` — partitioned from in 1204
+- [ ] `edge/nicaea->byzantine` — claimed legitimacy of in 1261
+- [ ] `edge/roman->byzantine` — partitioned from in 395
+- [ ] `edge/sasanian->byzantine` — absorbed remnants of in 651
+- [ ] `polity/byzantine` — span starts 395
+- [ ] `polity/byzantine` — span ends 1453
+- [ ] `polity/byzantine` — capital Constantinople from 395
+- [ ] `polity/byzantine` — founder Arcadius r. 395-408
+- [ ] `polity/byzantine` — peak Basil II r. 976-1025
+- [ ] `polity/byzantine` — last Constantine XI r. 1449-1453
+- [ ] `polity/byzantine` — succession rule coded nomination
+- [ ] `polity/byzantine` — turning point 1071 Manzikert
+- [ ] `polity/byzantine` — turning point 1204 The Fourth Crusade
+- [ ] `polity/byzantine` — turning point 1341 The civil wars
+- [ ] `polity/byzantine` — ended by conquest in 1453
+- [ ] `polity/nicaea` — span starts 1204
+- [ ] `polity/nicaea` — span ends 1261
+- [ ] `polity/nicaea` — capital Nicaea from 1204
+- [ ] `polity/nicaea` — capital Nymphaion from 1219
+- [ ] `polity/nicaea` — founder Theodore I Laskaris r. 1205-1222
+- [ ] `polity/nicaea` — peak John III Vatatzes r. 1222-1254
+- [ ] `polity/nicaea` — last Michael VIII Palaiologos r. 1259-1261
+- [ ] `polity/nicaea` — military basis coded land-grant + mercenary
+- [ ] `polity/nicaea` — revenue basis coded land-tax
+- [ ] `polity/nicaea` — succession rule coded nomination
+- [ ] `polity/nicaea` — legitimation coded titulature + descent
+- [ ] `polity/nicaea` — turning point 1261 Constantinople retaken
+- [ ] `polity/nicaea` — ended by dynastic replacement in 1261
+- [ ] `polity/roman` — ended by fragmentation in 395
+- [ ] `polity/trebizond` — span starts 1204
+- [ ] `polity/trebizond` — capital Trebizond from 1204
+- [ ] `polity/trebizond` — founder Alexios I Megas Komnenos r. 1204-1222
+- [ ] `polity/trebizond` — peak Alexios II Megas Komnenos r. 1297-1330
+- [ ] `polity/trebizond` — revenue basis coded trade-toll
+- [ ] `polity/trebizond` — legitimation coded descent + titulature
+- [ ] `polity/trebizond` — turning point 1282 Giving up the imperial title
+
 ## R. N. Frye (ed.), The Cambridge History of Iran, Volume 4: From the Arab Invasion to the Saljuqs
 
 `chi-4` — 45 claims
@@ -1310,52 +1364,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/cordoba` — turning point 976 Hisham II's minority
 - [ ] `polity/cordoba` — turning point 1009 The fitna of al-Andalus
 - [ ] `polity/cordoba` — ended by fragmentation in 1031
-
-## Warren Treadgold, A History of the Byzantine State and Society
-
-`treadgold-1997` — 39 claims
-
-**Sole source** for `nicaea` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/byzantine/01-the-survivor.mdx` — prose: "The empire that lost half of itself and continued"
-- [ ] `chapter/nicaea/01-a-government-in-exile.mdx` — prose: "A government in exile that worked"
-- [ ] `chapter/nicaea/02-what-the-restoration-cost.mdx` — prose: "What the restoration cost"
-- [ ] `chapter/trebizond/01-two-hundred-miles-of-coast.mdx` — prose: "Two hundred miles of coast"
-- [ ] `chapter/trebizond/02-the-city-and-the-road.mdx` — prose: "The city and the road"
-- [ ] `chapter/trebizond/03-bessarion.mdx` — prose: "What left before the city fell"
-- [ ] `edge/byzantine->nicaea` — partitioned from in 1204
-- [ ] `edge/byzantine->trebizond` — partitioned from in 1204
-- [ ] `edge/nicaea->byzantine` — claimed legitimacy of in 1261
-- [ ] `edge/roman->byzantine` — partitioned from in 395
-- [ ] `edge/sasanian->byzantine` — absorbed remnants of in 651
-- [ ] `polity/byzantine` — span starts 395
-- [ ] `polity/byzantine` — span ends 1453
-- [ ] `polity/byzantine` — capital Constantinople from 395
-- [ ] `polity/byzantine` — founder Arcadius r. 395-408
-- [ ] `polity/byzantine` — peak Basil II r. 976-1025
-- [ ] `polity/byzantine` — last Constantine XI r. 1449-1453
-- [ ] `polity/byzantine` — ended by conquest in 1453
-- [ ] `polity/nicaea` — span starts 1204
-- [ ] `polity/nicaea` — span ends 1261
-- [ ] `polity/nicaea` — capital Nicaea from 1204
-- [ ] `polity/nicaea` — capital Nymphaion from 1219
-- [ ] `polity/nicaea` — founder Theodore I Laskaris r. 1205-1222
-- [ ] `polity/nicaea` — peak John III Vatatzes r. 1222-1254
-- [ ] `polity/nicaea` — last Michael VIII Palaiologos r. 1259-1261
-- [ ] `polity/nicaea` — military basis coded land-grant + mercenary
-- [ ] `polity/nicaea` — revenue basis coded land-tax
-- [ ] `polity/nicaea` — succession rule coded nomination
-- [ ] `polity/nicaea` — legitimation coded titulature + descent
-- [ ] `polity/nicaea` — turning point 1261 Constantinople retaken
-- [ ] `polity/nicaea` — ended by dynastic replacement in 1261
-- [ ] `polity/roman` — ended by fragmentation in 395
-- [ ] `polity/trebizond` — span starts 1204
-- [ ] `polity/trebizond` — capital Trebizond from 1204
-- [ ] `polity/trebizond` — founder Alexios I Megas Komnenos r. 1204-1222
-- [ ] `polity/trebizond` — peak Alexios II Megas Komnenos r. 1297-1330
-- [ ] `polity/trebizond` — revenue basis coded trade-toll
-- [ ] `polity/trebizond` — legitimation coded descent + titulature
-- [ ] `polity/trebizond` — turning point 1282 Giving up the imperial title
 
 ## D. T. Potts, The Archaeology of Elam: Formation and Transformation of an Ancient Iranian State
 *In Cambridge World Archaeology.*
@@ -3838,6 +3846,18 @@ ordinary state, not an item to clear.
 - [ ] `polity/tang` — last Emperor Ai r. 904-907
 - [ ] `polity/tang` — religions_carried = 1 (Mahayana Buddhism)
 
+## Mark Whittow, The Making of Orthodox Byzantium, 600-1025
+
+`whittow-1996` — 7 claims
+
+- [ ] `chapter/byzantine/06-the-images.mdx` — prose: "The images"
+- [ ] `chapter/byzantine/07-the-missions.mdx` — prose: "The missions"
+- [ ] `chapter/byzantine/08-the-second-peak.mdx` — prose: "The second peak"
+- [ ] `chapter/byzantine/12-the-name.mdx` — prose: "Nobody there called it Byzantium"
+- [ ] `polity/byzantine` — turning point 843 The restoration of the images
+- [ ] `polity/byzantine` — descendant_scripts = 1 (Cyrillic)
+- [ ] `polity/byzantine` — religions_carried = 1 (Orthodox Christianity)
+
 ## Trevor Bryce, Life and Society in the Hittite World
 
 `bryce-2002` — 7 claims
@@ -3874,6 +3894,17 @@ ordinary state, not an item to clear.
 - [ ] `polity/old-babylonian` — legitimation coded divine-sanction + descent + titulature
 - [ ] `polity/old-babylonian` — turning point -1763 Larsa
 - [ ] `polity/old-babylonian` — turning point -1761 Mari
+
+## John F. Haldon, Byzantium in the Seventh Century: The Transformation of a Culture
+
+`haldon-1997` — 6 claims
+
+- [ ] `chapter/byzantine/03-the-last-great-war-of-antiquity.mdx` — prose: "The last great war of antiquity"
+- [ ] `chapter/byzantine/05-the-themes.mdx` — prose: "The themes"
+- [ ] `polity/byzantine` — military basis coded land-grant + standing-professional + mercenary
+- [ ] `polity/byzantine` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/byzantine` — turning point 636 The Yarmuk
+- [ ] `polity/byzantine` — turning point 718 The second Arab siege of Constantinople
 
 ## multiple contributors, SALJUQS
 *In Encyclopaedia Iranica.*
@@ -4035,14 +4066,6 @@ ordinary state, not an item to clear.
 - [ ] `edge/byzantine->antioch` — vassal of in 1108
 - [ ] `polity/antioch` — turning point 1108 Devol
 
-## Mark Whittow, The Making of Orthodox Byzantium, 600-1025
-
-`whittow-1996` — 3 claims
-
-- [ ] `chapter/byzantine/02-the-name.mdx` — prose: "Nobody there called it Byzantium"
-- [ ] `polity/byzantine` — descendant_scripts = 1 (Cyrillic)
-- [ ] `polity/byzantine` — religions_carried = 1 (Orthodox Christianity)
-
 ## Jost Gippert, Wolfgang Schulze, Zaza Aleksidze and Jean-Pierre Mahé, The Caucasian Albanian Palimpsests of Mount Sinai
 *In Monumenta Palaeographica Medii Aevi: Series Ibero-Caucasica 2.*
 
@@ -4103,6 +4126,13 @@ ordinary state, not an item to clear.
 - [ ] `denominator/1000` — world population 265,000,000
 - [ ] `denominator/1200` — world population 360,000,000
 - [ ] `denominator/800` — world population 220,000,000
+
+## Anthony Kaldellis, The Byzantine Republic: People and Power in New Rome
+
+`kaldellis-2015` — 2 claims
+
+- [ ] `chapter/byzantine/11-the-republic.mdx` — prose: "The republic"
+- [ ] `polity/byzantine` — legitimation coded divine-sanction + descent + election
 
 ## Christopher MacEvitt, The Crusades and the Christian World of the East: Rough Tolerance
 *In The Middle Ages Series.*
