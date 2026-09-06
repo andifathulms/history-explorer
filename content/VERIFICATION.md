@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**2463 claims across 134 sources.**
+**2484 claims across 135 sources.**
 
 ## Where to start
 
@@ -1745,6 +1745,34 @@ ordinary state, not an item to clear.
 - [ ] `polity/afsharid` — turning point 1747 The murder of Nadir
 - [ ] `polity/hotaki` — turning point 1729 Damghan and Murche-Khort
 - [ ] `polity/hotaki` — ended by conquest in 1738
+
+## Ronald Grigor Suny, The Making of the Georgian Nation
+
+`suny-1994` — 21 claims
+
+**Sole source** for `georgia` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/georgia/01-one-crown.mdx` — prose: "One crown, in 1008"
+- [ ] `chapter/georgia/02-didgori.mdx` — prose: "The army the nobles could not withhold"
+- [ ] `chapter/georgia/03-tamar.mdx` — prose: "Tamar"
+- [ ] `chapter/georgia/04-the-mongols.mdx` — prose: "What the Mongols left in place"
+- [ ] `chapter/georgia/05-a-christian-kingdom.mdx` — prose: "What a Christian kingdom looked like in these fields"
+- [ ] `chapter/georgia/06-1490.mdx` — prose: "Three kingdoms"
+- [ ] `polity/georgia` — span starts 1008
+- [ ] `polity/georgia` — span ends 1490
+- [ ] `polity/georgia` — capital Kutaisi from 1008
+- [ ] `polity/georgia` — capital Tbilisi from 1122
+- [ ] `polity/georgia` — founder Bagrat III r. 1008-1014
+- [ ] `polity/georgia` — peak Tamar r. 1184-1213
+- [ ] `polity/georgia` — last George VIII
+- [ ] `polity/georgia` — military basis coded client-levy + standing-professional
+- [ ] `polity/georgia` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/georgia` — succession rule coded primogeniture
+- [ ] `polity/georgia` — legitimation coded descent
+- [ ] `polity/georgia` — turning point 1121 Didgori
+- [ ] `polity/georgia` — turning point 1122 Tbilisi
+- [ ] `polity/georgia` — turning point 1243 Submission to the Mongols
+- [ ] `polity/georgia` — ended by fragmentation in 1490
 
 ## C. E. Bosworth, The Ghaznavids: Their Empire in Afghanistan and Eastern Iran, 994-1040
 

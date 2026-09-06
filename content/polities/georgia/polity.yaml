@@ -1,0 +1,113 @@
+id: georgia
+region: caucasus
+
+name:
+  latin: Kingdom of Georgia
+  script: საქართველოს სამეფო
+  script_lang: ka
+
+span:
+  start: { min: 1008, max: 1008, source: suny-1994 }
+  end: { min: 1490, max: 1490, source: suny-1994 }
+
+identity: >-
+  The Christian kingdom of the isthmus: unified in 1008, at its height ruling
+  from the Black Sea to the Caspian with Muslim emirates as its tributaries, and
+  divided among three of its own princes in 1490.
+
+capitals:
+  - { name: Kutaisi, script: ქუთაისი, from: 1008, source: suny-1994 }
+  - { name: Tbilisi, script: თბილისი, from: 1122, source: suny-1994 }
+
+core_region: The Caucasian isthmus, from the Black Sea coast to the Caspian watershed
+
+rulers:
+  founder: { name: Bagrat III, reign: [1008, 1014], source: suny-1994 }
+  peak: { name: Tamar, reign: [1184, 1213], source: suny-1994 }
+  last: { name: George VIII, source: suny-1994 }
+
+scripts_and_languages:
+  administration: [Georgian]
+  writing_system: The Georgian alphabet
+
+# Nobody conquered it. The kingdom was formally divided in 1490 among three
+# branches of its own royal house into Kartli, Kakheti and Imereti, after two
+# centuries in which Mongol, Timurid and Turkmen invasions had made a single
+# royal authority progressively unenforceable.
+ended:
+  type: fragmentation
+  by: []
+  year: 1490
+  source: suny-1994
+
+institutions:
+  # Both, and the second is what the twelfth century turns on. The ordinary
+  # Georgian army was the levy of the didebulni, the great noble houses, owed
+  # under obligation the crown did not create — the same arrangement as the
+  # Armenian nakharars on the record before this one. David IV added something
+  # else: a standing royal force, paid and permanently under arms, built partly
+  # out of Kipchak families he brought over the mountains and settled. It is
+  # what made Didgori possible and what the nobles could not veto.
+  military_basis: { values: [client-levy, standing-professional], source: suny-1994 }
+  # The land of a fertile country, and the customs of a route: Tbilisi sat on
+  # the road between the Black Sea and the Caspian and between the steppe and
+  # Iran. Tribute from vassal emirates — Shirvan among them — is in the prose
+  # rather than the field, because nothing consulted quantifies it. Unranked.
+  revenue_basis: { values: [land-tax, trade-toll], source: suny-1994 }
+  # Hereditary and generally to the eldest, with a device for securing it that
+  # this corpus has met once before: the reigning king crowned his heir as
+  # co-ruler in his own lifetime. George III did it for his daughter Tamar in
+  # 1178, which is how a woman came to the throne of a feudal Christian kingdom
+  # without a civil war. Ptolemaic Egypt used the same instrument for the same
+  # reason.
+  succession_rule: { values: [primogeniture], source: suny-1994 }
+  # Descent, and a very specific one. The Bagrationi claimed descent from David,
+  # king of Israel — the sling and the harp on their arms are the claim in
+  # heraldry — which is the same claim the Armenian Bagratuni made and which
+  # both houses traced through the same tradition. It is a construction and it
+  # was asserted publicly for eight hundred years.
+  legitimation: { values: [descent], source: suny-1994 }
+
+turning_points:
+  - year: 1121
+    type: battle
+    name: "Didgori"
+    changed: >-
+      David IV destroyed a Seljuk coalition assembled against him in the hills
+      west of Tbilisi, with an army he had spent thirty years building — a
+      standing royal force his nobles could not withhold. It ended the Seljuk
+      position in the Caucasus, and everything the kingdom did for the following
+      century was done on the strength of it.
+    source: suny-1994
+    contested: false
+  - year: 1122
+    type: capital-move
+    name: "Tbilisi"
+    changed: >-
+      The Muslim emirate that had held Tbilisi since 736 was taken and the city
+      became the Georgian capital, which it has been ever since. David kept the
+      Muslim population, its mosque and its law, and reportedly lowered its
+      taxes below the Christians' — a Christian king governing a Muslim city he
+      had just conquered by conciliating it, which is not the ordinary
+      twelfth-century arrangement in either direction.
+    source: suny-1994
+    contested: false
+  - year: 1243
+    type: treaty
+    name: "Submission to the Mongols"
+    changed: >-
+      Seven years after the invasion, the kingdom accepted Mongol overlordship,
+      tribute and the obligation to supply troops. It kept its dynasty, its
+      church and its law, and lost the ability to act; within twenty years the
+      Mongols were adjudicating a disputed succession by recognising two kings
+      at once, and the kingdom spent seventy years in two halves.
+    source: suny-1994
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
