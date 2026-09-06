@@ -1602,6 +1602,49 @@ sources:
       is disputed is not the polity's dates or its institutions but whether it
       was a polity.
 
+  - id: foster-2016
+    kind: book
+    author: Benjamin R. Foster
+    title: "The Age of Agade: Inventing Empire in Ancient Mesopotamia"
+    publisher: Routledge
+    year: 2016
+    note: >-
+      The first book-length study of the Akkadian period, drawing together forty
+      years of work by a Yale Assyriologist and covering statecraft, army,
+      cities, economy and daily life — which is what this site's fields ask for
+      and what a general history of the ancient Near East cannot give at the
+      necessary depth. Its last chapter is on how the empire has been presented
+      by modern historians since the decipherment, including the Soviet
+      literature summarised in English for the first time.
+
+  - id: frahm-2023
+    kind: book
+    author: Eckart Frahm
+    title: "Assyria: The Rise and Fall of the World's First Empire"
+    publisher: Basic Books
+    year: 2023
+    note: >-
+      A full history from the city on the Tigris to the empire and its
+      afterlife, by an Assyriologist at Yale. Cited here for the institutional
+      material this site's Assyrian record was asserting without a source
+      addressing it — the standing army, the provincial system, the succession
+      oaths — and for the royal women, who are absent from the older narratives.
+
+  - id: kemp-2018
+    kind: book
+    author: Barry J. Kemp
+    title: "Ancient Egypt: Anatomy of a Civilization"
+    publisher: Routledge
+    edition: 3rd
+    year: 2018
+    note: >-
+      Not a narrative history but an account of how the Egyptian state actually
+      worked — the redistributive economy, the temple estates, the mentality
+      that held a uniform style across three thousand years. Kemp directs the
+      excavation at Amarna, and this is the book the institutions on this site's
+      Egyptian record are coded from, because a political narrative cannot
+      supply them.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors

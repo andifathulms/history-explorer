@@ -34,6 +34,44 @@ ended:
   year: -2154
   source: van-de-mieroop-2015
 
+institutions:
+  # `standing-professional`, and this is the earliest instance of that value in
+  # the corpus by fifteen hundred years. Sargon's inscriptions record that five
+  # thousand four hundred men ate before him daily — a force maintained at the
+  # king's expense year-round rather than levied for a season, which is what the
+  # value means and is a substantial part of what made the conquest possible.
+  military_basis: { values: [standing-professional], source: foster-2016 }
+  # The land of a taxed core in Mesopotamia, and tribute from a periphery — Elam,
+  # the Zagros, upper Syria — that was raided and assessed rather than governed.
+  # Unranked.
+  revenue_basis: { values: [land-tax, tribute], source: foster-2016 }
+  # Sargon to two of his sons in turn and then to a grandson, with at least one
+  # king assassinated by his own courtiers. That is a sequence and a family, and
+  # nothing consulted describes a rule.
+  succession_rule: null
+  # Conquest, and then something the ancient Near East had not seen. Sargon
+  # ruled as the beloved of Ishtar; his grandson Naram-Sin wrote his own name
+  # with the sign that marks a god, wore the horned crown in his reliefs, and was
+  # called the god of Akkad by his own subjects. `divine-sanction` in the
+  # rulebook's most literal sense — the right comes from above because the king
+  # is up there.
+  legitimation: { values: [divine-sanction, conquest], source: foster-2016 }
+
+turning_points:
+  - year: -2250
+    type: revolt
+    name: "The Great Revolt"
+    changed: >-
+      Most of the cities of Sumer and Akkad rose against Naram-Sin at once, and
+      he beat them — in nine battles in a single year, by his own account. The
+      date is conventional and the chronology of this period carries an
+      uncertainty of a century in either direction, which is stated here rather
+      than hidden in a number. What followed is what makes it a hinge: the king
+      who had put down a general rising was deified, and Mesopotamian kingship
+      acquired a possibility it kept using for two thousand years.
+    source: foster-2016
+    contested: false
+
 measures:
   reach_km2: { value: 650000, at: -2300, source: taagepera-1978b }
   peak_population: null
