@@ -1,0 +1,120 @@
+id: caucasian-albania
+region: caucasus
+
+name:
+  latin: Caucasian Albania
+  # Aluank in Armenian, Arran in Arabic and Persian. What its own people called
+  # it is written in the third chapter's alphabet and is not securely readable.
+  script: Աղուանք
+  script_lang: hy
+
+# Both ends are ranges and both are the state of the evidence. A kingdom is
+# attested from around the second century BC and the dynastic record before the
+# Christian period is thin. The end is doubled because the polity stopped being
+# two different things at two different times: its church was subordinated to
+# the Armenian catholicosate in 705, and the last Mihranid prince was killed
+# around 822.
+span:
+  start: { min: -200, max: -100, source: toumanoff-1963 }
+  end: { min: 705, max: 822, source: toumanoff-1963 }
+
+identity: >-
+  The third Christian state of the Caucasus, which had its own alphabet, lost
+  it for a thousand years, and had it read back off the scraped pages of two
+  Georgian manuscripts on Sinai.
+
+capitals:
+  - { name: Kabala, script: Կապաղակ, source: toumanoff-1963 }
+  - { name: Partav, script: Պարտավ, source: toumanoff-1963 }
+
+core_region: The eastern Caucasus between the Kura and the mountains, and the Caspian coast to Derbend
+
+rulers:
+  # The early king-lists are reconstructions and this site will not print one.
+  founder: { name: null, source: null }
+  peak: { name: Javanshir, reign: [637, 680], source: toumanoff-1963 }
+  last: { name: null, source: null }
+
+scripts_and_languages:
+  administration: [Caucasian Albanian, Armenian, Middle Persian]
+  writing_system: The Caucasian Albanian alphabet
+
+# Not one conquest. The Arabs took the country in the 650s and the Mihranid
+# princes went on governing it under them for a further century and a half; the
+# church was absorbed into the Armenian one in 705 and the principality was
+# extinguished around 822. No single agent and no single year, so `by` is empty.
+ended:
+  type: gradual absorption
+  by: []
+  year: 822
+  source: toumanoff-1963
+
+institutions:
+  # The same arrangement as the two Christian kingdoms next door on this site:
+  # hereditary noble houses holding their own districts and owing contingents
+  # under an obligation the crown did not create. Toumanoff's book is largely
+  # about those houses across all three countries, which is why the coding is
+  # identical on all three records and why it is coded on almost nothing else in
+  # this corpus.
+  military_basis: { values: [client-levy], source: toumanoff-1963 }
+  # The land of a fertile country between the mountains and the Kura, and the
+  # tolls of the Caspian coast road running north to the pass this site's
+  # Derbend record is about. Unranked.
+  revenue_basis: { values: [land-tax, trade-toll], source: toumanoff-1963 }
+  succession_rule: null
+  # `descent`, and it is a borrowed one: the Albanian royal house was an
+  # Arsacid branch, like the Armenian one, and the Mihranid princes who
+  # succeeded it were of Sasanian noble descent and used the title Arranshah.
+  # In a country between two empires, whose family you belonged to was the
+  # claim.
+  legitimation: { values: [descent], source: toumanoff-1963 }
+
+turning_points:
+  - year: 313
+    type: conversion
+    name: "The conversion of Urnayr"
+    changed: >-
+      Albania became Christian a generation after Armenia and about the same
+      time as Iberia, and the three countries were thereafter a Christian bloc
+      on the Sasanian empire's northern flank rather than three separate
+      frontier provinces. It is also what made the alphabet necessary: a church
+      needs scripture in a language its congregation speaks.
+    source: toumanoff-1963
+    contested: true
+  - year: 510
+    type: reform
+    name: "The monarchy abolished"
+    changed: >-
+      The Sasanians ended the Albanian kingship and governed through a marzban,
+      as they had done in Armenia in 428 and would do in Iberia in 580. All
+      three Caucasian monarchies were extinguished by the same empire within a
+      hundred and fifty years, and in all three the noble houses survived the
+      crown and went on governing — which is why the country reappears as a
+      principality and not as a province.
+    source: toumanoff-1963
+    contested: false
+  - year: 705
+    type: catastrophe
+    name: "The church absorbed"
+    changed: >-
+      The Albanian catholicosate was subordinated to the Armenian one under Arab
+      authority, and the Albanian church ceased to be autocephalous. For a
+      polity whose separate identity rested on its own church and its own
+      scripture in its own alphabet, that is the point at which it stops being
+      distinguishable — and the manuscripts stopped being copied, which is why
+      the language had to be recovered from under other people's writing.
+    source: gippert-2008
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    # The alphabet is this polity's own and produced no descendant: the script
+    # died with the church that used it and was not adapted for anything else.
+    # That is a zero rather than a null — scholarship has looked, and the
+    # answer is none, which the third chapter argues is the more interesting
+    # result.
+    descendant_scripts: { count: 0, items: [], source: gippert-2008 }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

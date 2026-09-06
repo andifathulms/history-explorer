@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**2513 claims across 136 sources.**
+**2530 claims across 138 sources.**
 
 ## Where to start
 
@@ -2510,6 +2510,25 @@ ordinary state, not an item to clear.
 - [ ] `polity/buyid` — ended by conquest in 1055
 - [ ] `polity/sasanian` — successor_claims = 1 (Buyid Confederation)
 
+## Cyril Toumanoff, Studies in Christian Caucasian History
+
+`toumanoff-1963` — 14 claims
+
+- [ ] `chapter/caucasian-albania/01-the-third-country.mdx` — prose: "The third country"
+- [ ] `chapter/caucasian-albania/02-javanshir.mdx` — prose: "Javanshir"
+- [ ] `chapter/caucasian-albania/04-arran.mdx` — prose: "Arran"
+- [ ] `polity/caucasian-albania` — span starts -200
+- [ ] `polity/caucasian-albania` — span ends 705
+- [ ] `polity/caucasian-albania` — capital Kabala
+- [ ] `polity/caucasian-albania` — capital Partav
+- [ ] `polity/caucasian-albania` — peak Javanshir r. 637-680
+- [ ] `polity/caucasian-albania` — military basis coded client-levy
+- [ ] `polity/caucasian-albania` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/caucasian-albania` — legitimation coded descent
+- [ ] `polity/caucasian-albania` — turning point 313 The conversion of Urnayr (contested)
+- [ ] `polity/caucasian-albania` — turning point 510 The monarchy abolished
+- [ ] `polity/caucasian-albania` — ended by gradual absorption in 822
+
 ## Peter Jackson, The Mongols and the Islamic World: From Conquest to Conversion
 
 `jackson-2017` — 14 claims
@@ -3187,6 +3206,15 @@ ordinary state, not an item to clear.
 - [ ] `chapter/byzantine/02-the-name.mdx` — prose: "Nobody there called it Byzantium"
 - [ ] `polity/byzantine` — descendant_scripts = 1 (Cyrillic)
 - [ ] `polity/byzantine` — religions_carried = 1 (Orthodox Christianity)
+
+## Jost Gippert, Wolfgang Schulze, Zaza Aleksidze and Jean-Pierre Mahé, The Caucasian Albanian Palimpsests of Mount Sinai
+*In Monumenta Palaeographica Medii Aevi: Series Ibero-Caucasica 2.*
+
+`gippert-2008` — 3 claims
+
+- [ ] `chapter/caucasian-albania/03-the-lost-alphabet.mdx` — prose: "An alphabet recovered from under other people's writing"
+- [ ] `polity/caucasian-albania` — turning point 705 The church absorbed
+- [ ] `polity/caucasian-albania` — descendant_scripts = 0
 
 ## Gernot Wilhelm, trans. Jennifer Barnes, The Hurrians
 *In Ancient Near East Series.*

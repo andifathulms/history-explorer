@@ -1474,6 +1474,34 @@ sources:
       which is worth noting on a site whose Ayyubid record begins in Egypt: the
       Ayyubids came out of Shaddadid service at Dvin.
 
+  - id: toumanoff-1963
+    kind: book
+    author: Cyril Toumanoff
+    title: Studies in Christian Caucasian History
+    publisher: Georgetown University Press
+    year: 1963
+    note: >-
+      Six hundred pages on the dynastic and social structure of Armenia, Iberia
+      and Albania before the Bagratids, and the foundation of the field in
+      English. Toumanoff's subject is the nakharar and eristavi houses rather
+      than the kings — which is what this site's `client-levy` coding on three
+      Caucasian records rests on.
+
+  - id: gippert-2008
+    kind: book
+    author: Jost Gippert, Wolfgang Schulze, Zaza Aleksidze and Jean-Pierre Mahé
+    title: The Caucasian Albanian Palimpsests of Mount Sinai
+    container: "Monumenta Palaeographica Medii Aevi: Series Ibero-Caucasica 2"
+    publisher: Brepols
+    year: 2008
+    note: >-
+      The first edition of the only substantial texts in Caucasian Albanian,
+      recovered from the erased under-layers of two Georgian manuscripts at St
+      Catherine's on Sinai — identified by Aleksidze in 1996 and read by an
+      international project over the following decade. Cited for the chapter on
+      a script that was lost for a thousand years, because the manner of its
+      recovery is the evidence and not an anecdote about it.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors
