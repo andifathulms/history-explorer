@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**3225 claims across 175 sources.**
+**3242 claims across 176 sources.**
 
 ## Where to start
 
@@ -1023,7 +1023,7 @@ ordinary state, not an item to clear.
 
 ## Warren Treadgold, A History of the Byzantine State and Society
 
-`treadgold-1997` — 47 claims
+`treadgold-1997` — 50 claims
 
 **Sole source** for `nicaea` — nothing else in the corpus can contradict a misreading here.
 
@@ -1032,8 +1032,11 @@ ordinary state, not an item to clear.
 - [ ] `chapter/byzantine/04-the-survivor.mdx` — prose: "The empire that lost half of itself and continued"
 - [ ] `chapter/byzantine/09-1204.mdx` — prose: "1204"
 - [ ] `chapter/byzantine/10-1453.mdx` — prose: "1453"
-- [ ] `chapter/nicaea/01-a-government-in-exile.mdx` — prose: "A government in exile that worked"
-- [ ] `chapter/nicaea/02-what-the-restoration-cost.mdx` — prose: "What the restoration cost"
+- [ ] `chapter/nicaea/01-a-government-in-exile-that-worked.mdx` — prose: "A government in exile that worked"
+- [ ] `chapter/nicaea/02-three-claimants.mdx` — prose: "Three claimants"
+- [ ] `chapter/nicaea/03-a-state-on-a-small-base.mdx` — prose: "A state on a small base"
+- [ ] `chapter/nicaea/04-the-church-in-exile.mdx` — prose: "The church in exile"
+- [ ] `chapter/nicaea/05-what-the-restoration-cost.mdx` — prose: "What the restoration cost"
 - [ ] `chapter/trebizond/01-two-hundred-miles-of-coast.mdx` — prose: "Two hundred miles of coast"
 - [ ] `chapter/trebizond/02-the-city-and-the-road.mdx` — prose: "The city and the road"
 - [ ] `chapter/trebizond/03-bessarion.mdx` — prose: "What left before the city fell"
@@ -2561,6 +2564,31 @@ ordinary state, not an item to clear.
 - [ ] `polity/burid` — turning point 1148 The Second Crusade at Damascus
 - [ ] `polity/burid` — ended by gradual absorption in 1154
 
+## Rosamond McKitterick, Charlemagne: The Formation of a European Identity
+
+`mckitterick-2008` — 20 claims
+
+- [ ] `chapter/carolingian/01-mayors-of-the-palace.mdx` — prose: "Mayors of the palace"
+- [ ] `chapter/carolingian/03-two-emperors.mdx` — prose: "Two emperors, and an embassy"
+- [ ] `chapter/carolingian/04-counts-and-capitularies.mdx` — prose: "Counts and capitularies"
+- [ ] `chapter/carolingian/05-the-arithmetic.mdx` — prose: "The arithmetic"
+- [ ] `chapter/carolingian/06-888.mdx` — prose: "888"
+- [ ] `chapter/carolingian/07-the-inheritance.mdx` — prose: "What it left behind"
+- [ ] `edge/roman->carolingian` — claimed legitimacy of in 800
+- [ ] `polity/carolingian` — span starts 800
+- [ ] `polity/carolingian` — span ends 888
+- [ ] `polity/carolingian` — capital Aachen from 800
+- [ ] `polity/carolingian` — founder Charlemagne r. 800-814
+- [ ] `polity/carolingian` — peak Charlemagne r. 800-814
+- [ ] `polity/carolingian` — last Charles the Fat r. 881-887
+- [ ] `polity/carolingian` — succession rule coded appanage
+- [ ] `polity/carolingian` — legitimation coded descent + divine-sanction + titulature
+- [ ] `polity/carolingian` — turning point 817 The Ordinatio Imperii
+- [ ] `polity/carolingian` — turning point 843 Verdun
+- [ ] `polity/carolingian` — descendant_scripts = 0
+- [ ] `polity/carolingian` — religions_carried = 1 (Latin Christianity)
+- [ ] `polity/carolingian` — ended by fragmentation in 888
+
 ## Vladimir Minorsky, A History of Sharvan and Darband in the 10th-11th Centuries
 
 `minorsky-1958` — 20 claims
@@ -3561,22 +3589,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/al-busaid` — turning point 1845 The Hamerton Treaty
 - [ ] `polity/al-busaid` — ended by fragmentation in 1861
 
-## Rosamond McKitterick, Charlemagne: The Formation of a European Identity
-
-`mckitterick-2008` — 11 claims
-
-- [ ] `chapter/carolingian/01-two-emperors.mdx` — prose: "Two emperors, and an embassy"
-- [ ] `chapter/carolingian/02-the-inheritance.mdx` — prose: "What it left behind"
-- [ ] `edge/roman->carolingian` — claimed legitimacy of in 800
-- [ ] `polity/carolingian` — span starts 800
-- [ ] `polity/carolingian` — span ends 888
-- [ ] `polity/carolingian` — capital Aachen from 800
-- [ ] `polity/carolingian` — founder Charlemagne r. 800-814
-- [ ] `polity/carolingian` — peak Charlemagne r. 800-814
-- [ ] `polity/carolingian` — last Charles the Fat r. 881-887
-- [ ] `polity/carolingian` — religions_carried = 1 (Latin Christianity)
-- [ ] `polity/carolingian` — ended by fragmentation in 888
-
 ## Charles J. Halperin, Russia and the Golden Horde: The Mongol Impact on Medieval Russian History
 
 `halperin-1985` — 11 claims
@@ -3977,6 +3989,17 @@ ordinary state, not an item to clear.
 - [ ] `polity/ayyubid` — revenue basis coded land-tax + trade-toll
 - [ ] `polity/ayyubid` — legitimation coded caliphal-investiture
 - [ ] `polity/ayyubid` — turning point 1171 The Abbasid khutba restored in Cairo
+
+## Chris Wickham, The Inheritance of Rome: A History of Europe from 400 to 1000
+*In The Penguin History of Europe.*
+
+`wickham-2009` — 5 claims
+
+- [ ] `chapter/carolingian/02-the-saxons-and-the-avars.mdx` — prose: "The Saxons and the Avars"
+- [ ] `polity/carolingian` — military basis coded conscript + land-grant
+- [ ] `polity/carolingian` — revenue basis coded plunder + tribute
+- [ ] `polity/carolingian` — turning point 877 Quierzy
+- [ ] `polity/carolingian` — successor_claims = 1 (Holy Roman Empire)
 
 ## Nicholas Postgate, Bronze Age Bureaucracy: Writing and the Practice of Government in Assyria
 

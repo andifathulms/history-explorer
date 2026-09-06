@@ -34,13 +34,120 @@ ended:
   year: 888
   source: mckitterick-2008
 
+institutions:
+  # An obligation on free landholders to appear equipped in proportion to what
+  # they held — the capitularies set out the scale, down to how many men a
+  # holding of a given size owed and what each was to bring — and beside it the
+  # armed followings of the magnates, held together by benefices: land granted
+  # for service, which is the same instrument this corpus codes as `land-grant`
+  # from Baghdad to Constantinople.
+  military_basis: { values: [conscript, land-grant], source: wickham-2009 }
+  # The fiscal fact about this record is a negative one and the vocabulary
+  # cannot state it. The post-Roman west lost the land tax. Wickham's account
+  # makes that the single largest difference between the Roman world and the
+  # early medieval one: a Carolingian king had no assessment, no census, no
+  # cadastre and no revenue service, and lived instead off the produce of his
+  # own enormous estates, off tolls, off gifts, and off what the annual campaign
+  # brought in.
+  #
+  # `plunder` is coded in coding rule 6's strict sense — Charlemagne campaigned
+  # nearly every year and the accounts of the Avar treasure taken in 796 treat
+  # it as funding the reign — and `tribute` for the payments of the subjected
+  # peoples. What is not coded, because there is no value for it, is the largest
+  # single item: the king's own land. `land-tax` would be false, since nothing
+  # was assessed on anybody. One record is not a pattern and this site does not
+  # propose a value for it, on the same discipline the Attalid record applies to
+  # a kingdom left by will.
+  revenue_basis: { values: [plunder, tribute], source: wickham-2009 }
+  # `appanage`, and this record is the corpus's clearest instance of it. Frankish
+  # practice divided a realm among sons, and it was applied to an empire that had
+  # just been declared indivisible: Louis the Pious's Ordinatio Imperii of 817
+  # sets out a division among three sons while insisting the empire remains one,
+  # which is the contradiction the rest of the record works out. The `ended` field
+  # above reads `fragmentation` and the cause is in this field.
+  succession_rule: { values: [appanage], source: mckitterick-2008 }
+  # Three. Descent from Charles Martel and Pepin; anointing, which the
+  # Carolingians introduced to Frankish kingship and which made the king a
+  # sacred person in a way the Merovingians had not been; and `titulature`,
+  # which is the imperial title itself and pairs with the `roman ->
+  # carolingian` edge of type `claimed legitimacy of` in this site's data. The
+  # rulebook says where `titulature` is coded there is usually a successor claim
+  # on the predecessor's record, and here there is.
+  #
+  # `investiture` is deliberately not coded, and it is a close call. The pope
+  # crowned Charlemagne, and later popes claimed on that basis that the empire
+  # was theirs to confer. The Frankish position at the time was not that: Einhard
+  # has Charlemagne annoyed at the manner of it, and Louis the Pious had himself
+  # crowned before going to Rome. Coding rule 8's test is what the ruler publicly
+  # claimed, and what this dynasty claimed was that God had given it the empire
+  # and the pope had performed the ceremony.
+  legitimation: { values: [descent, divine-sanction, titulature], source: mckitterick-2008 }
+
+turning_points:
+  - year: 817
+    type: reform
+    name: The Ordinatio Imperii
+    changed: >-
+      Louis the Pious legislated the succession: the eldest son to be emperor,
+      the younger two to hold kingdoms under him, and the empire to remain one
+      thing. It is an attempt to have Frankish partible inheritance and a Roman
+      indivisible empire at the same time, and the attempt is the record's whole
+      second half. A fourth son was born afterwards, the settlement was reopened
+      to provide for him, and the three elder sons rebelled against their father
+      twice.
+    source: mckitterick-2008
+    contested: false
+  - year: 843
+    type: treaty
+    name: Verdun
+    changed: >-
+      After three years of civil war between Louis's surviving sons the empire
+      was divided in three by negotiated treaty, with surveyors sent out to
+      value the territories so that the shares would be equal in revenue. The
+      east and west Frankish kingdoms that came out of it are the ancestors of
+      Germany and France, and the long strip between them, which had the
+      imperial title and no natural frontier, was fought over for eleven hundred
+      years.
+    source: mckitterick-2008
+    contested: false
+  - year: 877
+    type: reform
+    name: Quierzy
+    changed: >-
+      Charles the Bald, leaving for Italy, issued a capitulary providing that if
+      a count died while he was away his son should hold the office until his
+      return. It was a temporary provision for one absence and it was read
+      afterwards as conceding what was already happening: that royal offices
+      were becoming family property. The state whose administration this
+      record's fourth chapter describes — counts appointed and moved at the
+      king's pleasure, watched by travelling inspectors — stops being possible
+      here.
+    source: wickham-2009
+    contested: false
+
 measures:
   reach_km2: { value: 1100000, at: 800, source: taagepera-1997 }
   peak_population: null
   influence:
-    descendant_scripts: { count: null, items: [], source: null }
+    # Zero rather than null: somebody looked and the rule excludes the obvious
+    # candidate. Carolingian minuscule is a change of hand within the Latin
+    # alphabet — not a new writing system and not an adaptation to a language
+    # the script did not already write — and coding rule 3 counts neither. The
+    # last chapter of this record argues it at length and concludes that the
+    # rules are working correctly and producing a page that understates the
+    # polity.
+    descendant_scripts: { count: 0, items: [], source: mckitterick-2008 }
     religions_carried:
       count: 1
       items: [Latin Christianity]
       source: mckitterick-2008
-    successor_claims: { count: null, items: [], source: null }
+    # One. Otto I was crowned emperor in Rome in 962 in explicit revival of this
+    # record's empire, and the polity that followed used the title for eight
+    # hundred and forty-four years. That polity is not in this corpus, which
+    # does not affect the count: rule 1's unit is the claiming polity and there
+    # is no requirement that it have a page, as the Carchemish entry on the
+    # Hittite record already establishes.
+    successor_claims:
+      count: 1
+      items: [Holy Roman Empire]
+      source: wickham-2009

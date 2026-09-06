@@ -2031,6 +2031,20 @@ sources:
       evidence of a constitution rather than of chaos. Contested, and cited on
       this site where a coded field turns on it, with the disagreement stated.
 
+  - id: wickham-2009
+    kind: book
+    author: Chris Wickham
+    title: "The Inheritance of Rome: A History of Europe from 400 to 1000"
+    container: The Penguin History of Europe
+    publisher: Allen Lane
+    year: 2009
+    note: >-
+      Written against the idea of a dark age, and structural rather than
+      narrative: what changed between the Roman world and the early medieval one
+      was above all the disappearance of the land tax, and Wickham's account of
+      what a state without taxation can and cannot do is why this site's
+      Carolingian revenue field reads as it does.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors
