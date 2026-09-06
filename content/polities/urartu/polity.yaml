@@ -1,0 +1,129 @@
+id: urartu
+region: ancient-near-east
+
+name:
+  latin: Urartu
+  script: 𒁉𒀀𒄿𒉌𒇷
+  script_lang: xur
+
+# Urartu is what the Assyrians called it. The kings called their country
+# Biainili, which is where the modern name of Lake Van comes from, and called
+# themselves kings of Bia. This site uses the Assyrian name because every source
+# does, which is itself a fair summary of the evidence problem on this record.
+span:
+  start: { min: -860, max: -860, source: zimansky-1998 }
+  end: { min: -590, max: -590, source: zimansky-1998 }
+
+identity: >-
+  A mountain kingdom assembled out of royal fortresses to survive the Assyrian
+  army, which it did, by nineteen years.
+
+capitals:
+  - { name: Tushpa, from: -860, source: zimansky-1998 }
+
+core_region: The Armenian highlands around Lake Van
+
+rulers:
+  founder: { name: Sarduri I, reign: [-834, -828], source: zimansky-1998 }
+  peak: { name: Argishti I, reign: [-786, -764], source: zimansky-1998 }
+  last: { name: Rusa IV, source: zimansky-1998 }
+
+scripts_and_languages:
+  administration: [Urartian, Assyrian]
+  writing_system: Cuneiform
+
+# `still contested`, and this is the first use of that value in the corpus, so
+# the choice needs defending against the argument this site made on the Hittite
+# record. There the value was rejected on the ground that it would describe the
+# scholarship rather than the polity: everyone agrees Hattusa burned and was
+# abandoned around 1180 and the dispute is about the cause. Here the dispute is
+# about the event. Whether Urartu was conquered, by whom — Medes, Scythians,
+# Cimmerians, all three, none — or whether it came apart without anybody taking
+# it, and whether the terminal destruction levels at the fortresses are one
+# episode or several spread over decades, is all open. There is no agreed event
+# to assign a cause to. That is what this value is for.
+ended:
+  type: still contested
+  by: []
+  year: -590
+  source: zimansky-1998
+
+institutions:
+  # The Urartian state was its fortresses. Zimansky's argument, and the reason
+  # this record is coded from him, is that the kingdom was a superstructure
+  # imposed on a landscape that could not have generated it: a network of royal
+  # citadels along the valleys, each with granaries and enormous wine and grain
+  # magazines, garrisoned and supplied by the crown, with state-built irrigation
+  # around them. Troops raised by the king and maintained by the fortresses,
+  # alongside levies from the territories.
+  military_basis: { values: [standing-professional, conscript], source: zimansky-1985 }
+  # State agriculture around the fortresses — canals, orchards, vineyards, some
+  # of the canals still carrying water — and, coded on Zimansky's argument,
+  # `plunder` in coding rule 6's strict sense. The royal inscriptions count the
+  # take of each campaign with obsessive precision: cattle, sheep, horses and
+  # people, tallied by the thousand, campaign after campaign into territories
+  # the kingdom did not then annex. The deported population is what stocked and
+  # worked the fortress estates. On this reading the raiding is not incidental
+  # income but the mechanism by which the agricultural base existed at all,
+  # which is what rule 6 asks a source to establish before the value goes in.
+  revenue_basis: { values: [land-tax, plunder], source: zimansky-1985 }
+  # Null, and the fourth in this region. Urartian kingship passed from father to
+  # son through most of the dynasty and no text states a rule. The pattern this
+  # completes is set out on this record's last page and it is not the pattern
+  # this site expected to find.
+  succession_rule: null
+  # Haldi, and the formula is unvarying: the king marches, burns, takes and
+  # builds by the greatness of Haldi, whose weapons go before him. The god's
+  # principal sanctuary was at Musasir, outside the kingdom's core and on ground
+  # Assyria could reach, which turned out to matter in 714.
+  legitimation: { values: [divine-sanction, descent], source: zimansky-1998 }
+
+turning_points:
+  - year: -743
+    type: battle
+    name: Arpad
+    changed: >-
+      Sarduri II had pushed Urartian influence west into northern Syria and had
+      the local kingdoms with him. Tiglath-Pileser III met him near Arpad and
+      broke the coalition, and Urartu never operated west of the Euphrates
+      again. This site's Assyrian record dates its own recovery to
+      Tiglath-Pileser's reorganisation in 745; this is the first thing the
+      reorganised state did with its northern rival, two years later.
+    source: zimansky-1998
+    contested: false
+  - year: -714
+    type: battle
+    name: The eighth campaign
+    changed: >-
+      Sargon II marched into the highlands, avoided the fortresses, beat Rusa I
+      in the mountains and then turned aside to sack Musasir and carry off the
+      statue and treasury of Haldi. Rusa is said to have killed himself. The
+      campaign is recorded in a letter from the king to the god Ashur running to
+      four hundred lines — the most detailed military narrative surviving from
+      the ancient Near East, with the terrain, the marches, the water and the
+      exhaustion of the troops in it. Urartu survived the campaign and did not
+      threaten Assyria again.
+    source: zimansky-1998
+    contested: false
+
+measures:
+  # Taagepera's figure, and it sits oddly next to the record it spent its
+  # existence resisting: 200,000 against Assyria's 1,400,000 at the peak, a
+  # seventh of the size, and the smaller state outlived the larger one.
+  reach_km2: { value: 200000, at: -800, source: taagepera-1978b }
+  peak_population: null
+  influence:
+    # Zero, and the derivation belongs to the neighbour. Urartian cuneiform is
+    # Neo-Assyrian cuneiform adapted to write Urartian, which rule 3 counts on
+    # the record of the polity whose script was adapted — and that polity is in
+    # this corpus, so unlike the Hittite and Elamite versions of this situation
+    # the claim has somewhere to land. The Neo-Assyrian record's
+    # `descendant_scripts` went from null to 1 when this page was written.
+    descendant_scripts: { count: 0, items: [], source: zimansky-1998 }
+    religions_carried: { count: 0, items: [], source: zimansky-1998 }
+    # Zero. Armenia occupies this ground afterwards and this site's Greater
+    # Armenia record begins four centuries later; no source has an Armenian
+    # dynasty claiming Urartian legitimacy, and continuity of territory is not
+    # a claim under rule 1. The two records are in different regions of this
+    # site and are joined by nothing, which is correct.
+    successor_claims: { count: 0, items: [], source: zimansky-1998 }

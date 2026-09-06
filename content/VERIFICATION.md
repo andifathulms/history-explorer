@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**2992 claims across 160 sources.**
+**3032 claims across 162 sources.**
 
 ## Where to start
 
@@ -44,6 +44,7 @@ ordinary state, not an item to clear.
 - [ ] `chagatai` — one figure, at 1310 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
 - [ ] `delhi-sultanate` — one figure, at 1312 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
 - [ ] `egypt-new-kingdom` — one figure, at -1450 (Rein Taagepera, Size and Duration of Empires: Systematics of Size)
+- [ ] `egypt-old-kingdom` — one figure, at -2400 (Rein Taagepera, Size and Duration of Empires: Systematics of Size)
 - [ ] `fatimid` — one figure, at 969 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
 - [ ] `ghaznavid` — one figure, at 1029 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
 - [ ] `gokturk` — one figure, at 557 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
@@ -80,6 +81,7 @@ ordinary state, not an item to clear.
 - [ ] `tibetan-empire` — one figure, at 800 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
 - [ ] `timurid` — one figure, at 1405 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
 - [ ] `umayyad` — one figure, at 720 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
+- [ ] `urartu` — one figure, at -800 (Rein Taagepera, Size and Duration of Empires: Systematics of Size)
 - [ ] `uyghur-khaganate` — one figure, at 800 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
 - [ ] `xiongnu` — one figure, at -176 (Rein Taagepera, Size and Duration of Empires: Growth-Decline Curves, 600 B.C. to 600 A.D.)
 - [ ] `yuan` — one figure, at 1310 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
@@ -1803,6 +1805,42 @@ ordinary state, not an item to clear.
 - [ ] `polity/yaariba` — legitimation coded election
 - [ ] `polity/yaariba` — turning point 1719 The disputed election
 
+## Ian Shaw (ed.), The Oxford History of Ancient Egypt
+
+`shaw-2000` — 31 claims
+
+- [ ] `chapter/egypt-new-kingdom/01-the-expulsion.mdx` — prose: "What being conquered taught them"
+- [ ] `chapter/egypt-new-kingdom/02-thutmose.mdx` — prose: "Seventeen campaigns"
+- [ ] `chapter/egypt-new-kingdom/04-amarna.mdx` — prose: "The letters"
+- [ ] `chapter/egypt-new-kingdom/05-kadesh.mdx` — prose: "Kadesh, and the treaty"
+- [ ] `chapter/egypt-new-kingdom/06-the-collapse.mdx` — prose: "What was left when the system stopped"
+- [ ] `chapter/egypt-old-kingdom/01-the-first-stone.mdx` — prose: "The first stone"
+- [ ] `chapter/egypt-old-kingdom/02-giza.mdx` — prose: "Giza"
+- [ ] `chapter/egypt-old-kingdom/04-the-drought-argument.mdx` — prose: "The drought argument"
+- [ ] `polity/egypt-new-kingdom` — span starts -1550
+- [ ] `polity/egypt-new-kingdom` — span ends -1077
+- [ ] `polity/egypt-new-kingdom` — capital Thebes from -1550
+- [ ] `polity/egypt-new-kingdom` — founder Ahmose I r. -1550--1525
+- [ ] `polity/egypt-new-kingdom` — peak Thutmose III r. -1479--1425
+- [ ] `polity/egypt-new-kingdom` — last Ramesses XI r. -1107--1077
+- [ ] `polity/egypt-new-kingdom` — military basis coded standing-professional + land-grant
+- [ ] `polity/egypt-new-kingdom` — succession rule coded primogeniture
+- [ ] `polity/egypt-new-kingdom` — turning point -1457 Megiddo
+- [ ] `polity/egypt-new-kingdom` — turning point -1259 The Egyptian-Hittite treaty
+- [ ] `polity/egypt-new-kingdom` — turning point -1177 The Sea Peoples
+- [ ] `polity/egypt-new-kingdom` — ended by fragmentation in -1077
+- [ ] `polity/egypt-old-kingdom` — span starts -2686
+- [ ] `polity/egypt-old-kingdom` — span ends -2181
+- [ ] `polity/egypt-old-kingdom` — capital Memphis from -2686
+- [ ] `polity/egypt-old-kingdom` — founder Djoser r. -2667--2648
+- [ ] `polity/egypt-old-kingdom` — peak Khufu r. -2589--2566
+- [ ] `polity/egypt-old-kingdom` — last Pepi II r. -2278--2184
+- [ ] `polity/egypt-old-kingdom` — turning point -2650 The Step Pyramid
+- [ ] `polity/egypt-old-kingdom` — turning point -2200 The drought (contested)
+- [ ] `polity/egypt-old-kingdom` — descendant_scripts = 1 (Hieratic)
+- [ ] `polity/egypt-old-kingdom` — successor_claims = 0
+- [ ] `polity/egypt-old-kingdom` — ended by fragmentation in -2181
+
 ## C. E. Bosworth, The Political and Dynastic History of the Iranian World (A.D. 1000-1217)
 *In The Cambridge History of Iran, Volume 5.*
 
@@ -2819,28 +2857,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/yaariba` — turning point 1698 Fort Jesus
 - [ ] `polity/yaariba` — ended by internal usurpation in 1744
 
-## Ian Shaw (ed.), The Oxford History of Ancient Egypt
-
-`shaw-2000` — 17 claims
-
-- [ ] `chapter/egypt-new-kingdom/01-the-expulsion.mdx` — prose: "What being conquered taught them"
-- [ ] `chapter/egypt-new-kingdom/02-thutmose.mdx` — prose: "Seventeen campaigns"
-- [ ] `chapter/egypt-new-kingdom/04-amarna.mdx` — prose: "The letters"
-- [ ] `chapter/egypt-new-kingdom/05-kadesh.mdx` — prose: "Kadesh, and the treaty"
-- [ ] `chapter/egypt-new-kingdom/06-the-collapse.mdx` — prose: "What was left when the system stopped"
-- [ ] `polity/egypt-new-kingdom` — span starts -1550
-- [ ] `polity/egypt-new-kingdom` — span ends -1077
-- [ ] `polity/egypt-new-kingdom` — capital Thebes from -1550
-- [ ] `polity/egypt-new-kingdom` — founder Ahmose I r. -1550--1525
-- [ ] `polity/egypt-new-kingdom` — peak Thutmose III r. -1479--1425
-- [ ] `polity/egypt-new-kingdom` — last Ramesses XI r. -1107--1077
-- [ ] `polity/egypt-new-kingdom` — military basis coded standing-professional + land-grant
-- [ ] `polity/egypt-new-kingdom` — succession rule coded primogeniture
-- [ ] `polity/egypt-new-kingdom` — turning point -1457 Megiddo
-- [ ] `polity/egypt-new-kingdom` — turning point -1259 The Egyptian-Hittite treaty
-- [ ] `polity/egypt-new-kingdom` — turning point -1177 The Sea Peoples
-- [ ] `polity/egypt-new-kingdom` — ended by fragmentation in -1077
-
 ## Suhayl Zakkar, The Emirate of Aleppo, 1004-1094
 
 `zakkar-1971` — 17 claims
@@ -2975,6 +2991,28 @@ ordinary state, not an item to clear.
 - [ ] `polity/hephthalite` — turning point 484 The death of Peroz
 - [ ] `polity/hephthalite` — turning point 498 Kavad restored
 - [ ] `polity/hephthalite` — ended by conquest in 560
+
+## Paul E. Zimansky, Ancient Ararat: A Handbook of Urartian Studies
+*In Anatolian and Caucasian Studies.*
+
+`zimansky-1998` — 16 claims
+
+- [ ] `chapter/urartu/02-the-eighth-campaign.mdx` — prose: "The eighth campaign"
+- [ ] `chapter/urartu/03-nobody-knows.mdx` — prose: "Nobody knows"
+- [ ] `polity/neo-assyrian` — descendant_scripts = 1 (Urartian cuneiform)
+- [ ] `polity/urartu` — span starts -860
+- [ ] `polity/urartu` — span ends -590
+- [ ] `polity/urartu` — capital Tushpa from -860
+- [ ] `polity/urartu` — founder Sarduri I r. -834--828
+- [ ] `polity/urartu` — peak Argishti I r. -786--764
+- [ ] `polity/urartu` — last Rusa IV
+- [ ] `polity/urartu` — legitimation coded divine-sanction + descent
+- [ ] `polity/urartu` — turning point -743 Arpad
+- [ ] `polity/urartu` — turning point -714 The eighth campaign
+- [ ] `polity/urartu` — descendant_scripts = 0
+- [ ] `polity/urartu` — religions_carried = 0
+- [ ] `polity/urartu` — successor_claims = 0
+- [ ] `polity/urartu` — ended by still contested in -590
 
 ## John O. Hunwick, Timbuktu and the Songhay Empire
 
@@ -3235,6 +3273,23 @@ ordinary state, not an item to clear.
 - [ ] `polity/mughal` — ended by conquest in 1857
 - [ ] `polity/timurid` — successor_claims = 1 (Mughal Empire)
 
+## Rein Taagepera, Size and Duration of Empires: Systematics of Size
+*In Social Science Research 7(2), 108-127.*
+
+`taagepera-1978b` — 11 claims
+
+- [ ] `polity/akkadian` — reach 650,000 km2 at -2300
+- [ ] `polity/egypt-new-kingdom` — reach 1,000,000 km2 at -1450
+- [ ] `polity/egypt-old-kingdom` — reach 400,000 km2 at -2400
+- [ ] `polity/hittite` — reach 450,000 km2 at -1250
+- [ ] `polity/middle-assyrian` — reach 400,000 km2 at -1080
+- [ ] `polity/middle-elamite` — reach 200,000 km2 at -1160
+- [ ] `polity/mitanni` — reach 300,000 km2 at -1450
+- [ ] `polity/neo-assyrian` — reach 1,400,000 km2 at -670
+- [ ] `polity/neo-babylonian` — reach 500,000 km2 at -562
+- [ ] `polity/urartu` — reach 200,000 km2 at -800
+- [ ] `reference/akkadian` — reach 650,000 km2 at -2300
+
 ## John E. Woods, The Aqquyunlu: Clan, Confederation, Empire
 
 `woods-1999` — 11 claims
@@ -3475,20 +3530,19 @@ ordinary state, not an item to clear.
 - [ ] `polity/xiongnu` — last Unknown r. 91-91
 - [ ] `polity/xiongnu` — ended by fragmentation in 91
 
-## Rein Taagepera, Size and Duration of Empires: Systematics of Size
-*In Social Science Research 7(2), 108-127.*
+## Barry J. Kemp, Ancient Egypt: Anatomy of a Civilization
 
-`taagepera-1978b` — 9 claims
+`kemp-2018` — 9 claims
 
-- [ ] `polity/akkadian` — reach 650,000 km2 at -2300
-- [ ] `polity/egypt-new-kingdom` — reach 1,000,000 km2 at -1450
-- [ ] `polity/hittite` — reach 450,000 km2 at -1250
-- [ ] `polity/middle-assyrian` — reach 400,000 km2 at -1080
-- [ ] `polity/middle-elamite` — reach 200,000 km2 at -1160
-- [ ] `polity/mitanni` — reach 300,000 km2 at -1450
-- [ ] `polity/neo-assyrian` — reach 1,400,000 km2 at -670
-- [ ] `polity/neo-babylonian` — reach 500,000 km2 at -562
-- [ ] `reference/akkadian` — reach 650,000 km2 at -2300
+- [ ] `chapter/egypt-new-kingdom/03-how-egypt-was-run.mdx` — prose: "A machine for moving grain"
+- [ ] `chapter/egypt-old-kingdom/03-the-provinces-become-hereditary.mdx` — prose: "The provinces become hereditary"
+- [ ] `polity/egypt-new-kingdom` — revenue basis coded land-tax + tribute + mining
+- [ ] `polity/egypt-new-kingdom` — legitimation coded divine-sanction + descent
+- [ ] `polity/egypt-new-kingdom` — turning point -1353 Akhetaten
+- [ ] `polity/egypt-old-kingdom` — military basis coded conscript
+- [ ] `polity/egypt-old-kingdom` — revenue basis coded land-tax
+- [ ] `polity/egypt-old-kingdom` — legitimation coded divine-sanction + descent
+- [ ] `polity/egypt-old-kingdom` — religions_carried = 0
 
 ## C. E. Bosworth, The Later Ghaznavids: Splendour and Decay. The Dynasty in Afghanistan and Northern India, 1040-1186
 
@@ -3712,15 +3766,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/buyid` — capital Rayy from 943
 - [ ] `polity/buyid` — descendant_scripts = 0
 
-## Barry J. Kemp, Ancient Egypt: Anatomy of a Civilization
-
-`kemp-2018` — 4 claims
-
-- [ ] `chapter/egypt-new-kingdom/03-how-egypt-was-run.mdx` — prose: "A machine for moving grain"
-- [ ] `polity/egypt-new-kingdom` — revenue basis coded land-tax + tribute + mining
-- [ ] `polity/egypt-new-kingdom` — legitimation coded divine-sanction + descent
-- [ ] `polity/egypt-new-kingdom` — turning point -1353 Akhetaten
-
 ## Kathryn Babayan, Mystics, Monarchs, and Messiahs: Cultural Landscapes of Early Modern Iran
 *In Harvard Middle Eastern Monographs 35.*
 
@@ -3800,6 +3845,15 @@ ordinary state, not an item to clear.
 - [ ] `chapter/tang/02-an-lushan.mdx` — prose: "An Lushan"
 - [ ] `polity/tang` — turning point 755 The An Lushan rebellion
 - [ ] `polity/tang` — ended by fragmentation in 907
+
+## Paul E. Zimansky, Ecology and Empire: The Structure of the Urartian State
+*In Studies in Ancient Oriental Civilization 41.*
+
+`zimansky-1985` — 3 claims
+
+- [ ] `chapter/urartu/01-a-state-built-against-assyria.mdx` — prose: "A state built against Assyria"
+- [ ] `polity/urartu` — military basis coded standing-professional + conscript
+- [ ] `polity/urartu` — revenue basis coded land-tax + plunder
 
 ## Colin McEvedy and Richard Jones, Atlas of World Population History
 

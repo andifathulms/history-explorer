@@ -1,0 +1,136 @@
+id: egypt-old-kingdom
+region: ancient-near-east
+
+name:
+  latin: Egypt, Old Kingdom
+  script: 𓆎𓅓𓏏𓊖
+  script_lang: egy
+
+# Dynasties three to six, on the conventional dating. Egyptian chronology in
+# the third millennium is anchored differently from Mesopotamia's — by regnal
+# totals in later king lists, checked against a small number of astronomical
+# observations and against radiocarbon — and the margin at this depth is a
+# century or more. Shaw's figures are used throughout this site's two Egyptian
+# records so that the two are at least commensurable with each other.
+span:
+  start: { min: -2686, max: -2686, source: shaw-2000 }
+  end: { min: -2181, max: -2181, source: shaw-2000 }
+
+identity: >-
+  Five centuries in which a state's entire surplus went into stone, and the
+  period every later Egyptian regime treated as the way things ought to be.
+
+capitals:
+  - { name: Memphis, from: -2686, source: shaw-2000 }
+
+core_region: The Nile valley from the Delta to the First Cataract
+
+rulers:
+  founder: { name: Djoser, reign: [-2667, -2648], source: shaw-2000 }
+  peak: { name: Khufu, reign: [-2589, -2566], source: shaw-2000 }
+  last: { name: Pepi II, reign: [-2278, -2184], source: shaw-2000 }
+
+scripts_and_languages:
+  administration: [Egyptian]
+  writing_system: Egyptian hieroglyphs
+
+# The First Intermediate Period. Central authority dissolved and the provincial
+# governors, whose offices had become hereditary over the preceding century,
+# carried on governing their own nomes and dating by their own years. There is
+# no conquest and no external agent, which is why `by` is empty: nobody took
+# Egypt in 2181, and it took itself apart.
+ended:
+  type: fragmentation
+  by: []
+  year: -2181
+  source: shaw-2000
+
+institutions:
+  # The corvee: a periodic obligation of labour and military service owed by the
+  # rural population and organised through the provincial administration.
+  # Egypt in this period had no standing army and no professional soldiery worth
+  # the name; expeditions to Sinai, to Nubia and into the Levant were raised for
+  # the occasion out of the same apparatus that raised the labour for the
+  # pyramids, and the officials who led them describe themselves in their tomb
+  # inscriptions as men who conducted expeditions rather than as generals.
+  military_basis: { values: [conscript], source: kemp-2018 }
+  # An assessment on agricultural land and herds, collected in kind, redistributed
+  # through state and temple institutions and the mortuary estates. The recurring
+  # event by which the early Old Kingdom counted its years is the cattle count,
+  # held every second year — the state's calendar was literally its tax cycle.
+  revenue_basis: { values: [land-tax], source: kemp-2018 }
+  # Null, and this is now the third record in this region carrying this null for
+  # this reason, which makes it a regional finding rather than a Mesopotamian
+  # one. The throne normally passed to a son and Egyptian kingship had an
+  # elaborate theology of succession — the dead king becomes Osiris, the living
+  # one is Horus, and the transfer is the point of the funerary ritual. What
+  # there is not is a rule stating who is eligible. Coding rule 7 takes the rule
+  # and not the outcome, and the Ur III and Old Babylonian records in this region
+  # are null for exactly the same reason. The Urartian record makes it four.
+  succession_rule: null
+  # The king is not appointed by a god and is not the servant of one. He is
+  # Horus, and after death Osiris, and the state's entire surplus is organised
+  # around getting him there. This corpus codes `divine-sanction` on nearly a
+  # hundred records and this is one of the two or three where the word is doing
+  # something categorically different from what it does elsewhere — the Ur III
+  # record, whose kings were written with the divine determinative, is the other
+  # one in this region.
+  legitimation: { values: [divine-sanction, descent], source: kemp-2018 }
+
+turning_points:
+  - year: -2650
+    type: reform
+    name: The Step Pyramid
+    changed: >-
+      Djoser and his official Imhotep built at Saqqara the first monumental
+      structure in dressed stone anywhere in the world, inside an enclosure of
+      dummy buildings reproducing in stone the reed and timber architecture of
+      the palace. It is coded as a reform rather than as a monument because what
+      it altered was the state: from this point the kingship's surplus is
+      committed to a permanent apparatus of quarrying, transport, provisioning
+      and record-keeping organised around one project per reign, and that
+      apparatus is the Old Kingdom's principal institution.
+    source: shaw-2000
+    contested: false
+  - year: -2200
+    type: catastrophe
+    name: The drought
+    changed: >-
+      A sustained reduction in the Nile flood, part of a climatic downturn
+      visible across the eastern Mediterranean and the Near East around this
+      date, is the most widely argued external cause of the collapse. Provincial
+      tomb inscriptions from the following decades describe famine and the
+      feeding of populations by local governors, and the governors say it in the
+      first person, which is itself a symptom. Marked contested because the
+      weight it should carry against the internal causes — hereditary provincial
+      office, a ninety-year reign, an over-endowed mortuary establishment — is
+      genuinely disputed.
+    source: shaw-2000
+    contested: true
+
+measures:
+  # Taagepera's figure at 2400. It is smaller than the New Kingdom's 1,000,000
+  # and this record is the one everybody has heard of, which is the same
+  # divergence between reach and reputation that this site's Old Babylonian
+  # record has against Ur III, in the same region, in the same millennium.
+  reach_km2: { value: 400000, at: -2400, source: taagepera-1978b }
+  peak_population: null
+  influence:
+    # One. Hieratic is a cursive form of the hieroglyphic script, developed for
+    # writing with a reed pen on papyrus rather than cutting on stone, in use
+    # from the Early Dynastic period and fully established under this record. It
+    # is a derivation from this polity's writing system, transmitted by it, which
+    # is what rule 3 counts. The alphabetic scripts that ultimately descend from
+    # Egyptian writing are a Middle Kingdom development in the Sinai turquoise
+    # mines and no source attributes them to this state.
+    descendant_scripts: { count: 1, items: [Hieratic], source: shaw-2000 }
+    religions_carried: { count: 0, items: [], source: kemp-2018 }
+    # Zero, and the reasoning is the one the Old Babylonian record sets out.
+    # Every later Egyptian regime treated this period as the standard: Middle
+    # Kingdom sculpture deliberately copies Old Kingdom models, the New Kingdom
+    # maintained a cult of Sneferu, and Twenty-fifth Dynasty kings out of Nubia
+    # revived Old Kingdom titulary and art wholesale. But those are phases of a
+    # continuous Egyptian kingship rather than later polities asserting an
+    # earlier polity's legitimacy, and rule 1 counts the second thing. Archaism
+    # is not a claim.
+    successor_claims: { count: 0, items: [], source: shaw-2000 }

@@ -201,22 +201,23 @@ regions:
     group: iran
     thread: true
 
-  # Four internal edges now, from one two commits ago, and they are the oldest
-  # in the corpus: `akkadian -> ur-iii` in 2112 BC, `old-babylonian -> hittite`
-  # in 1595, `mitanni -> middle-assyrian` in 1260, `neo-assyrian ->
-  # neo-babylonian` in 612. Note what the thread still cannot draw. Babylon has
-  # two records here and Assyria has two, and in each pair the later one is the
-  # same city and the same god resuming after an interruption — which is neither
-  # a succession nor a claim, and has no edge type. Egypt's New Kingdom has no
-  # edge at all.
+  # Thirteen records and five internal edges, the oldest in the corpus:
+  # `akkadian -> ur-iii` in 2112 BC, `old-babylonian -> hittite` in 1595,
+  # `mitanni -> middle-assyrian` in 1260, `neo-elamite -> neo-assyrian` in 645,
+  # `neo-assyrian -> neo-babylonian` in 612. What the thread cannot draw is the
+  # region's own organising fact: Babylon is here twice, Assyria twice and Elam
+  # twice, and in each pair the later record is the same ground and the same
+  # gods resuming after a dark age — neither a succession nor a claim, and there
+  # is no edge type for it. Both Egypts, the Middle Elamite kingdom and Urartu
+  # have no edge in either direction at all.
   - id: ancient-near-east
     name: The Ancient Near East
     blurb: >-
-      The first territorial empires — Akkad and Ur, Babylon twice, Assyria
-      twice, Egypt's New Kingdom, Mitanni and Hatti — and the argument that any
-      of them was an empire at all. The thread here is thin on purpose: most of
-      these states were contemporaries who wrote to each other, fought each
-      other and married each other's daughters, and none of that is succession.
+      The first territorial empires, and the argument that any of them was an
+      empire at all — Akkad and Ur, Babylon twice, Assyria twice, Elam twice,
+      Egypt before and after the pyramids, Mitanni, Hatti and Urartu. A few
+      places kept producing states, separated by dark ages rather than by
+      successions, which is why the thread here is thin and should be.
     group: fertile-crescent
     thread: true
 

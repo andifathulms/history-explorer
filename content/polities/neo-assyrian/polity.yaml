@@ -128,6 +128,16 @@ measures:
   reach_km2: { value: 1400000, at: -670, source: taagepera-1978b }
   peak_population: null
   influence:
-    descendant_scripts: { count: null, items: [], source: null }
+    # Filled when the Urartian record was written. Urartian cuneiform is this
+    # record's own script adapted to write a language unrelated to Akkadian —
+    # borrowed in the ninth century, when Urartu's first kings took the writing
+    # system of the state they were being built to resist. Coding rule 3 counts
+    # adaptation to a new language on the record of the polity whose script was
+    # adapted, and this is the one place in the Ancient Near East where that
+    # rule's beneficiary is actually in the corpus.
+    descendant_scripts:
+      count: 1
+      items: [Urartian cuneiform]
+      source: zimansky-1998
     religions_carried: { count: null, items: [], source: null }
     successor_claims: { count: null, items: [], source: null }
