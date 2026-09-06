@@ -1515,6 +1515,33 @@ sources:
       the state Shamil built as the war he fought with it, which is what this
       site needs: the institutions are the reason the resistance lasted.
 
+  - id: kosmin-2014
+    kind: book
+    author: Paul J. Kosmin
+    title: "The Land of the Elephant Kings: Space, Territory, and Ideology in the Seleucid Empire"
+    publisher: Harvard University Press
+    year: 2014
+    note: >-
+      Asks what a dynasty does when it rules an enormous territory to which it
+      has no historic claim, and answers it from the city foundations, the royal
+      progresses, the frontier treaties and the geography the Seleucids
+      commissioned. It is the modern argument this site needed for a polity
+      whose page had been drafted from a volume published in 1983.
+
+  - id: overtoom-2020
+    kind: book
+    author: Nikolaus Leo Overtoom
+    title: "Reign of Arrows: The Rise of the Parthian Empire in the Hellenistic Middle East"
+    container: Oxford Studies in Early Empires
+    publisher: Oxford University Press
+    year: 2020
+    note: >-
+      The first full study of early Parthian history since 1938, and the first
+      to treat it as Hellenistic political history rather than as a prologue to
+      the Roman wars. Cited because the Parthians are the least-served major
+      polity in this corpus and the older literature reaches them almost
+      entirely through Roman defeats.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors

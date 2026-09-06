@@ -34,7 +34,59 @@ ended:
   year: -323
   source: ab-bosworth-1988
 
+institutions:
+  # `standing-professional`, and it is the whole explanation. What Alexander
+  # inherited from his father was not a kingdom worth much but an army that was
+  # paid, permanently under arms, drilled year-round in a formation that
+  # required drilling, and commanded by officers who had trained together. Very
+  # little else in antiquity on this site carries that value, and the empire on
+  # the previous record was conquered by it in three battles.
+  military_basis: { values: [standing-professional], source: ab-bosworth-1988 }
+  # Macedonian mine revenue at the start and then, from 331, the accumulated
+  # reserves of the Achaemenid treasuries at Babylon, Susa and Persepolis —
+  # which is `plunder` in coding rule 6's strict sense, because the campaign
+  # was financed by what it captured and the sums involved dwarf anything the
+  # kingdom itself produced. Unranked.
+  revenue_basis: { values: [plunder, land-tax], source: ab-bosworth-1988 }
+  # Famously none. Alexander died at thirty-two having designated nobody, and
+  # the turning point below is what that cost. The Argead kingship had been
+  # hereditary and the empire had no rule at all, because it was thirteen years
+  # old.
+  succession_rule: null
+  # Conquest, and something stranger beside it. Alexander went to the oracle of
+  # Ammon at Siwah in 331 and was greeted as the god's son, used the claim
+  # afterwards, and by 324 was requiring divine honours from the Greek cities —
+  # which his own Macedonian officers resisted and which the Persian court
+  # protocol he had adopted made easier. `divine-sanction` is the rulebook's
+  # value for a right that comes from above, and this is the corpus's most
+  # literal instance.
+  legitimation: { values: [conquest, divine-sanction], source: ab-bosworth-1988 }
+
 turning_points:
+  - year: -326
+    type: revolt
+    name: "The Hyphasis"
+    changed: >-
+      The army refused to cross another river and go further into India, and
+      after three days Alexander turned back. It is the only occasion on which
+      anything stopped him, the thing that stopped him was his own soldiers, and
+      it fixed the eastern limit of everything on this page and on the four
+      records that came out of it.
+    source: ab-bosworth-1988
+    contested: false
+  - year: -324
+    type: reform
+    name: "Susa and Opis"
+    changed: >-
+      Alexander married eighty of his officers to Iranian noblewomen at Susa,
+      enrolled thirty thousand trained Iranian infantry, and began integrating
+      Persians into the Companion cavalry — and when he announced the discharge
+      of Macedonian veterans at Opis the army mutinied over it. The attempt to
+      fuse a conquering elite with a conquered one is the empire's only
+      structural policy, it was resisted by the people who had done the
+      conquering, and he died within a year of it.
+    source: ab-bosworth-1988
+    contested: false
   - year: -323
     type: succession-crisis
     name: "The settlement at Babylon"

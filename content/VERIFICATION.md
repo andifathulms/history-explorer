@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**2622 claims across 139 sources.**
+**2642 claims across 140 sources.**
 
 ## Where to start
 
@@ -1517,6 +1517,42 @@ ordinary state, not an item to clear.
 - [ ] `polity/yaariba` — legitimation coded election
 - [ ] `polity/yaariba` — turning point 1719 The disputed election
 
+## Ehsan Yarshater (ed.), The Cambridge History of Iran, Volume 3: The Seleucid, Parthian and Sasanian Periods
+
+`chi-3` — 31 claims
+
+- [ ] `chapter/parthian/01-parthian.mdx` — prose: "The empire Rome could not finish"
+- [ ] `chapter/parthian/02-carrhae.mdx` — prose: "Carrhae, and the shape of a stalemate"
+- [ ] `chapter/sasanian/02-khusrau.mdx` — prose: "Khusrau's reforms, and Rome"
+- [ ] `chapter/seleucid/01-the-largest-share.mdx` — prose: "The largest and most difficult share"
+- [ ] `chapter/seleucid/03-the-cities.mdx` — prose: "What a Greek city was for"
+- [ ] `chapter/seleucid/04-losing-the-east.mdx` — prose: "Losing the east without noticing"
+- [ ] `chapter/seleucid/05-ai-khanoum.mdx` — prose: "A Greek city on the Oxus"
+- [ ] `chapter/seleucid/06-64.mdx` — prose: "The last piece of Syria"
+- [ ] `edge/achaemenid->parthian` — claimed legitimacy of in -141
+- [ ] `edge/macedonian->seleucid` — partitioned from in -312
+- [ ] `edge/seleucid->parthian` — seceded from in -247
+- [ ] `polity/parthian` — span starts -247
+- [ ] `polity/parthian` — span ends 224
+- [ ] `polity/parthian` — capital Ctesiphon from -247
+- [ ] `polity/parthian` — founder Arsaces I r. -247--217
+- [ ] `polity/parthian` — peak Mithridates II r. -124--88
+- [ ] `polity/parthian` — last Artabanus IV r. 213-224
+- [ ] `polity/sasanian` — peak Khusrau I Anushirvan r. 531-579
+- [ ] `polity/seleucid` — span starts -312
+- [ ] `polity/seleucid` — span ends -63
+- [ ] `polity/seleucid` — capital Antioch from -312
+- [ ] `polity/seleucid` — founder Seleucus I Nicator r. -312--281
+- [ ] `polity/seleucid` — peak Antiochus III r. -222--187
+- [ ] `polity/seleucid` — last Philip II Philoromaeus r. -65--63
+- [ ] `polity/seleucid` — military basis coded land-grant + mercenary
+- [ ] `polity/seleucid` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/seleucid` — succession rule coded primogeniture
+- [ ] `polity/seleucid` — turning point -312 The era begins
+- [ ] `polity/seleucid` — turning point -303 The elephants
+- [ ] `polity/seleucid` — turning point -190 Magnesia
+- [ ] `polity/seleucid` — turning point -167 The Maccabean revolt
+
 ## C. E. Bosworth, The Political and Dynastic History of the Iranian World (A.D. 1000-1217)
 *In The Cambridge History of Iran, Volume 5.*
 
@@ -1799,6 +1835,33 @@ ordinary state, not an item to clear.
 - [ ] `polity/srivijaya` — religions_carried = 1 (Mahayana Buddhism)
 - [ ] `polity/srivijaya` — ended by gradual absorption in 1275
 
+## A. B. Bosworth, Conquest and Empire: The Reign of Alexander the Great
+
+`ab-bosworth-1988` — 22 claims
+
+- [ ] `chapter/achaemenid/07-three-battles.mdx` — prose: "Three battles and a satrap"
+- [ ] `chapter/macedonian/01-the-army-philip-built.mdx` — prose: "The instrument"
+- [ ] `chapter/macedonian/02-thirteen-years.mdx` — prose: "Thirteen years"
+- [ ] `chapter/macedonian/03-the-sources.mdx` — prose: "Nothing written at the time"
+- [ ] `chapter/macedonian/04-the-apparatus.mdx` — prose: "The empire he kept"
+- [ ] `chapter/macedonian/05-the-succession.mdx` — prose: "What happens when there is no institution"
+- [ ] `edge/achaemenid->macedonian` — conquered by in -330
+- [ ] `polity/achaemenid` — turning point -331 Gaugamela
+- [ ] `polity/achaemenid` — ended by conquest in -330
+- [ ] `polity/macedonian` — span starts -336
+- [ ] `polity/macedonian` — span ends -323
+- [ ] `polity/macedonian` — capital Babylon from -336
+- [ ] `polity/macedonian` — founder Alexander III r. -336--323
+- [ ] `polity/macedonian` — peak Alexander III r. -336--323
+- [ ] `polity/macedonian` — last Alexander III r. -336--323
+- [ ] `polity/macedonian` — military basis coded standing-professional
+- [ ] `polity/macedonian` — revenue basis coded plunder + land-tax
+- [ ] `polity/macedonian` — legitimation coded conquest + divine-sanction
+- [ ] `polity/macedonian` — turning point -326 The Hyphasis
+- [ ] `polity/macedonian` — turning point -324 Susa and Opis
+- [ ] `polity/macedonian` — turning point -323 The settlement at Babylon
+- [ ] `polity/macedonian` — ended by fragmentation in -323
+
 ## James Wilson, Medieval Syria and the Onset of the Crusades: The Political World of Bilad al-Sham 1050-1128
 
 `wilson-2023` — 22 claims
@@ -1935,32 +1998,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/mamunid` — ended by conquest in 1017
 - [ ] `polity/samanid` — military basis coded slave-soldier
 - [ ] `polity/samanid` — successor_claims = 1 (ghaznavid)
-
-## Ehsan Yarshater (ed.), The Cambridge History of Iran, Volume 3: The Seleucid, Parthian and Sasanian Periods
-
-`chi-3` — 21 claims
-
-- [ ] `chapter/parthian/01-parthian.mdx` — prose: "The empire Rome could not finish"
-- [ ] `chapter/parthian/02-carrhae.mdx` — prose: "Carrhae, and the shape of a stalemate"
-- [ ] `chapter/sasanian/02-khusrau.mdx` — prose: "Khusrau's reforms, and Rome"
-- [ ] `chapter/seleucid/01-seleucid.mdx` — prose: "Governing Iran in Greek"
-- [ ] `chapter/seleucid/02-ai-khanoum.mdx` — prose: "A Greek city on the Oxus"
-- [ ] `edge/achaemenid->parthian` — claimed legitimacy of in -141
-- [ ] `edge/macedonian->seleucid` — partitioned from in -312
-- [ ] `edge/seleucid->parthian` — seceded from in -247
-- [ ] `polity/parthian` — span starts -247
-- [ ] `polity/parthian` — span ends 224
-- [ ] `polity/parthian` — capital Ctesiphon from -247
-- [ ] `polity/parthian` — founder Arsaces I r. -247--217
-- [ ] `polity/parthian` — peak Mithridates II r. -124--88
-- [ ] `polity/parthian` — last Artabanus IV r. 213-224
-- [ ] `polity/sasanian` — peak Khusrau I Anushirvan r. 531-579
-- [ ] `polity/seleucid` — span starts -312
-- [ ] `polity/seleucid` — span ends -63
-- [ ] `polity/seleucid` — capital Antioch from -312
-- [ ] `polity/seleucid` — founder Seleucus I Nicator r. -312--281
-- [ ] `polity/seleucid` — peak Antiochus III r. -222--187
-- [ ] `polity/seleucid` — last Philip II Philoromaeus r. -65--63
 
 ## Günther Hölbl, trans. Tina Saavedra, A History of the Ptolemaic Empire
 
@@ -2623,25 +2660,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/samanid` — descendant_scripts = 0
 - [ ] `polity/samanid` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/samanid` — ended by conquest in 999
-
-## A. B. Bosworth, Conquest and Empire: The Reign of Alexander the Great
-
-`ab-bosworth-1988` — 14 claims
-
-- [ ] `chapter/achaemenid/07-three-battles.mdx` — prose: "Three battles and a satrap"
-- [ ] `chapter/macedonian/01-macedonian.mdx` — prose: "Thirteen years"
-- [ ] `chapter/macedonian/02-the-succession.mdx` — prose: "What happens when there is no institution"
-- [ ] `edge/achaemenid->macedonian` — conquered by in -330
-- [ ] `polity/achaemenid` — turning point -331 Gaugamela
-- [ ] `polity/achaemenid` — ended by conquest in -330
-- [ ] `polity/macedonian` — span starts -336
-- [ ] `polity/macedonian` — span ends -323
-- [ ] `polity/macedonian` — capital Babylon from -336
-- [ ] `polity/macedonian` — founder Alexander III r. -336--323
-- [ ] `polity/macedonian` — peak Alexander III r. -336--323
-- [ ] `polity/macedonian` — last Alexander III r. -336--323
-- [ ] `polity/macedonian` — turning point -323 The settlement at Babylon
-- [ ] `polity/macedonian` — ended by fragmentation in -323
 
 ## Heribert Busse, Iran under the Buyids
 *In The Cambridge History of Iran, Volume 4.*
@@ -3402,6 +3420,13 @@ ordinary state, not an item to clear.
 
 - [ ] `chapter/ptolemaic/04-ruling-through.mdx` — prose: "Ruling through"
 - [ ] `polity/ptolemaic` — revenue basis coded land-tax + monopoly + trade-toll
+
+## Paul J. Kosmin, The Land of the Elephant Kings: Space, Territory, and Ideology in the Seleucid Empire
+
+`kosmin-2014` — 2 claims
+
+- [ ] `chapter/seleucid/02-making-the-land-mean-something.mdx` — prose: "Making the land mean something"
+- [ ] `polity/seleucid` — legitimation coded conquest + divine-sanction
 
 ## Khalid Yahya Blankinship, The End of the Jihad State: The Reign of Hisham Ibn 'Abd al-Malik and the Collapse of the Umayyads
 *In SUNY Series in Medieval Middle East History.*

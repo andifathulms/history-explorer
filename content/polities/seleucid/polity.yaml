@@ -34,6 +34,85 @@ ended:
   year: -63
   source: woolf-2012
 
+institutions:
+  # The katoikiai: Greek and Macedonian settlers planted in colonies across the
+  # empire, holding land in return for military obligation. It is the same
+  # institution this site codes on the Ptolemaic record for the kleruchy and on
+  # half the Islamic corpus for the iqta', and the Seleucid and Ptolemaic
+  # versions are the two halves of one Macedonian answer to the same problem.
+  # Mercenaries were hired continuously beside it.
+  military_basis: { values: [land-grant, mercenary], source: chi-3 }
+  # The land tax of Mesopotamia and Syria, which is among the most productive
+  # agricultural country in the world, and the tolls of the routes between the
+  # Mediterranean, the Gulf and Central Asia that the city foundations were
+  # placed on. Unranked.
+  revenue_basis: { values: [land-tax, trade-toll], source: chi-3 }
+  # Hereditary in the male line, with the co-regency used as a securing device:
+  # Seleucus I made his son Antiochus co-king and viceroy of the east in his own
+  # lifetime, and the practice recurs. The corpus has the same arrangement on
+  # the Ptolemaic record and on the Kingdom of Georgia, reached independently
+  # for the same reason.
+  succession_rule: { values: [primogeniture], source: chi-3 }
+  # Conquest, and a dynastic cult with a genealogy attached. The Seleucids
+  # claimed descent from Apollo, put his tripod on the coinage, and established
+  # a state cult of the reigning king and his deified predecessors with priests
+  # appointed in every satrapy. Kosmin's argument is that this was necessary
+  # rather than vain: a dynasty with no historic claim to any of the land it
+  # ruled had to manufacture one, and divinity was the only claim available that
+  # did not belong to somebody else already.
+  legitimation: { values: [conquest, divine-sanction], source: kosmin-2014 }
+
+turning_points:
+  - year: -312
+    type: reform
+    name: "The era begins"
+    changed: >-
+      Seleucus recovered Babylon and dated everything from it. The Seleucid Era
+      is the first continuous count of years in world history — no regnal
+      restarts, no epoch resets, one number running upward for as long as the
+      dynasty and long after it — and it made a bureaucratic and commercial
+      innovation out of a dynasty's inability to point at an ancestral homeland.
+      Syriac Christians still date by it.
+    source: chi-3
+    contested: false
+  - year: -303
+    type: treaty
+    name: "The elephants"
+    changed: >-
+      Seleucus gave the eastern satrapies beyond the Hindu Kush to Chandragupta
+      Maurya and received five hundred war elephants, which he used two years
+      later to destroy Antigonus at Ipsus and secure everything west of Iran. It
+      is the clearest transaction in the corpus between two of its own pages:
+      the Mauryan record gained a north-west frontier and this one gained the
+      instrument that made it the largest successor state.
+    source: chi-3
+    contested: false
+  - year: -190
+    type: battle
+    name: "Magnesia"
+    changed: >-
+      Antiochus III, who had spent a decade recovering the east and had just
+      taken Coele-Syria from the Ptolemies, was destroyed by a Roman army in
+      Anatolia. The settlement at Apamea two years later stripped the empire of
+      Asia Minor, imposed an indemnity that took a generation to pay, and took
+      the king's son to Rome as a hostage. Everything afterwards is a dynasty
+      short of money and fighting over what is left.
+    source: chi-3
+    contested: false
+  - year: -167
+    type: revolt
+    name: "The Maccabean revolt"
+    changed: >-
+      Antiochus IV, needing money and a compliant Jerusalem, intervened in the
+      high priesthood, looted the temple and proscribed Jewish practice. The
+      revolt that followed took eight years to fail to suppress and produced an
+      independent Judaea. It is the only Seleucid province whose secession is
+      documented from the inside, by the people who did it, which is why a
+      minor rebellion in a small province is better recorded than the loss of
+      Bactria and Parthia together.
+    source: chi-3
+    contested: false
+
 measures:
   reach_km2: { value: 3900000, at: -301, source: taagepera-1979 }
   peak_population: null
