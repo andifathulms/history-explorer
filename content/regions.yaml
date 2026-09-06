@@ -152,25 +152,48 @@ regions:
       all.
     thread: true
 
-  # Extended backwards. The blurb previously began with the caliphate, which
-  # scoped a geographic region chronologically and ruled out the incense
-  # kingdoms of the south by definition. The name always permitted them.
-  - id: arabia
-    name: The Arabian Peninsula
+  # Split three ways from a single `arabia` region. That region had fifteen
+  # polities and five edges arranged in three clusters with nothing joining
+  # them: Saba' to Himyar in the south, the Ya'ariba to the Al Bu Sa'id in
+  # Oman, and Diriyah to Nejd to the Rashidis in the interior. A thread is the
+  # scope of a succession claim, and one thread drawn over three disconnected
+  # graphs asserts a peninsula-wide sequence that no source supports and no
+  # edge in this corpus draws. Three regions draw exactly what is there.
+  #
+  # The peninsula is still one place, and the connections between these three
+  # are real — Himyar made the Kindite kings, the Qarmatians took the Black
+  # Stone out of Mecca, Ottoman and Egyptian armies came for all three. Those
+  # are cross-region edges, rendered beside each thread rather than inside it,
+  # which is the honest place for them under hard rule 7.
+  - id: south-arabia
+    name: South Arabia
     blurb: >-
-      Two and a half thousand years of one peninsula: the incense kingdoms of
-      the south and the empires that wanted their route; the country the
-      caliphate came out of and then stopped governing; the Zaydi, Ibadi and
-      Isma'ili polities that held Yemen, Oman and the eastern coast for
-      centuries at a time in ground the imperial armies could reach and could
-      not keep; and the movement out of the Najd that ended all of it.
-    # Flipped from false once real sourced edges joined members of the region,
-    # per the workflow rule. There are three and they make two short fragments —
-    # Saba' to Himyar to the Hujrids in the south and centre, and the Ya'ariba
-    # to the Al Bu Sa'id in Oman. Most of this region's polities have no edge to
-    # any other, which is the ordinary state under hard rule 7 and is the honest
-    # picture: three confessions and two millennia arriving in one peninsula
-    # largely independently of each other.
+      Yemen and the incense country: highland kingdoms that grew rich carrying
+      frankincense north, and the confessional states that later held the same
+      mountains. Ground where a caravan route, a monsoon port and a terrace
+      wall each supported a polity, and where the imperial armies that came for
+      them — Aksumite, Ayyubid, Ottoman — could take the coast and not the
+      highlands.
+    thread: true
+
+  - id: oman
+    name: Oman
+    blurb: >-
+      The Ibadi imamate behind the Hajar mountains, and the two dynasties that
+      grew out of it and went to sea. Oman is the one part of Arabia where an
+      elected imamate was the normal form of the state for a thousand years,
+      and the only one whose rulers ended up governing an African coast.
+    thread: true
+
+  - id: central-arabia
+    name: The Najd, the Hijaz and the Gulf
+    blurb: >-
+      The interior and the two coasts it kept reaching. Central Arabia produced
+      no lasting state of its own until the eighteenth century, but it produced
+      the men who took the others: a Kindite kingship made in Yemen, a
+      Qarmatian state on the Gulf that carried the Black Stone away, sharifs
+      holding Mecca for nine hundred years under whoever was paying, and
+      finally a movement out of the Najd that took the lot.
     thread: true
 
   - id: classical-india
