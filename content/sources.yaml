@@ -1937,6 +1937,46 @@ sources:
       two halves of Herod's position were a single arrangement rather than a
       contradiction he managed.
 
+  - id: allen-1983
+    kind: book
+    author: R. E. Allen
+    title: "The Attalid Kingdom: A Constitutional History"
+    publisher: Clarendon Press
+    year: 1983
+    note: >-
+      Built from the inscriptions rather than from the literary sources, which
+      for a dynasty this poorly served by narrative historians is the only way
+      to get at how the kingdom worked. This site's Attalid institutions are
+      coded from it, and its account of the settlement of 188 is why that
+      record's second turning point is a treaty rather than a battle.
+
+  - id: mcging-1986
+    kind: book
+    author: B. C. McGing
+    title: "The Foreign Policy of Mithridates VI Eupator, King of Pontus"
+    container: Mnemosyne Supplements 89
+    publisher: Brill
+    year: 1986
+    note: >-
+      On diplomacy, strategy, propaganda and support rather than on battles,
+      which suits a record whose most consequential single act was a massacre
+      organised by correspondence. McGing is also careful about the dynasty's
+      double descent claim, which this site counts on the Achaemenid record.
+
+  - id: errington-1990
+    kind: book
+    author: R. Malcolm Errington
+    title: A History of Macedonia
+    container: Hellenistic Culture and Society
+    publisher: University of California Press
+    year: 1990
+    note: >-
+      Translated by Catherine Errington from the German of 1986. Its emphasis is
+      the structure of the Macedonian state and how it worked rather than the
+      campaigns, which is what this site's Antigonid institutions need — and its
+      caution about the constitutional role of the Macedonian army assembly is
+      the reason that record's succession field is null.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors

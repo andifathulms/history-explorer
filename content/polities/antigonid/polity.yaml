@@ -1,0 +1,130 @@
+id: antigonid
+# A scope decision, stated here as well as on the page. This region is called
+# The Eastern Mediterranean after Alexander and its blurb is "the countries
+# Alexander took and did not keep" — and Macedon is the country he started from
+# and the one thing he did keep. The record is filed here anyway, because the
+# alternative is a region of its own for one polity and because the Antigonid
+# kingdom's whole history is its relations with the Aegean, the Greek leagues
+# and the two other Successor kingdoms, one of which is on this shelf. The
+# strain is real and chapter 1 says so.
+region: eastern-mediterranean
+
+name:
+  latin: Antigonid Macedon
+  script: Μακεδονία
+  script_lang: grc
+
+# 277, when Antigonus II Gonatas destroyed a Gallic army at Lysimacheia and made
+# himself king of a Macedon that had been fought over for forty years, rather
+# than 306, when his grandfather took the diadem in Asia over territory this
+# dynasty never afterwards held. 168 is Pydna.
+span:
+  start: { min: -277, max: -277, source: errington-1990 }
+  end: { min: -168, max: -168, source: errington-1990 }
+
+identity: >-
+  The kingdom that governed Alexander's homeland for a century, on a citizen
+  army and its own silver, and claimed nothing whatever from Alexander.
+
+capitals:
+  - { name: Pella, script: Πέλλα, from: -277, source: errington-1990 }
+
+core_region: Macedonia and Thessaly, with garrisons in Greece
+
+rulers:
+  founder: { name: Antigonus II Gonatas, reign: [-277, -239], source: errington-1990 }
+  peak: { name: Philip V, reign: [-221, -179], source: errington-1990 }
+  last: { name: Perseus, reign: [-179, -168], source: errington-1990 }
+
+scripts_and_languages:
+  administration: [Greek]
+  writing_system: Greek
+
+# Aemilius Paullus destroyed the army at Pydna, Perseus was taken and walked in
+# a triumph, and the Roman settlement abolished the monarchy outright and
+# divided Macedonia into four republics forbidden to trade or intermarry with
+# each other. `conquest` is right and understates it: Rome did not replace the
+# king, it abolished the office.
+ended:
+  type: conquest
+  by: [roman]
+  year: -168
+  source: errington-1990
+
+institutions:
+  # A national levy, and it is the thing that distinguishes this kingdom from
+  # every other Hellenistic state. The Seleucids and Ptolemies fought with
+  # military settlers and mercenaries on granted land; Macedon fielded a phalanx
+  # of Macedonian farmers who went home afterwards. The consequence runs through
+  # the whole record: a kingdom that could not afford to lose men, ruling a
+  # population it could not replace, against a Roman republic that could.
+  military_basis: { values: [conscript], source: errington-1990 }
+  # Royal land, and the mines. Macedonian silver and gold from Pangaion and the
+  # Strymon country, and the timber that every navy in the Aegean needed and
+  # only Macedon had in quantity. Livy records what Perseus left in the treasury
+  # at Pydna, and the Roman senate closed the mines for a decade afterwards
+  # rather than work them, which is the clearest possible statement of what they
+  # were worth.
+  revenue_basis: { values: [land-tax, mining], source: errington-1990 }
+  # Null. The throne passed father to son through the dynasty with one regency,
+  # and the question of whether the Macedonian army assembly had a
+  # constitutional role in acclaiming a king — which would make this `election`
+  # or `acclamation` — is precisely what is argued about, and Errington is
+  # careful not to settle it. Coding rule 7 takes the rule, and there is no rule
+  # to take. This corpus has four other records in that condition, all of them
+  # in the Ancient Near East, and the Urartian page draws the conclusion.
+  succession_rule: null
+  # Descent from Antigonus and Demetrius, and nothing else — which is the
+  # startling part and the subject of the last chapter. The dynasty ruling
+  # Alexander's kingdom from Alexander's capital claimed no connection to
+  # Alexander, because it had none, and did not invent one.
+  legitimation: { values: [descent], source: errington-1990 }
+
+turning_points:
+  - year: -277
+    type: battle
+    name: Lysimacheia
+    changed: >-
+      Antigonus Gonatas destroyed a Gallic army that had been ravaging the
+      Balkans and had killed one Macedonian king in battle two years earlier.
+      Forty years of contested succession ended: the man who beat the Gauls took
+      the throne and held it for thirty-eight years. Macedon's kingship in this
+      period is founded on a victory over an invasion rather than on inheritance,
+      and the same is true of the Attalid record in this region eight hundred
+      kilometres away and thirty-nine years later.
+    source: errington-1990
+    contested: false
+  - year: -197
+    type: battle
+    name: Cynoscephalae
+    changed: >-
+      Flamininus beat Philip V in Thessaly, and the phalanx lost to the legion
+      for the first time in a pitched battle. Polybius, who was there for the
+      aftermath of the whole process, made the comparison of the two systems a
+      set piece: the phalanx unbeatable frontally on level ground and helpless
+      when the ground breaks it up. Macedon lost Greece, its fleet and its
+      independence of action in an afternoon and kept its king for another
+      twenty-nine years.
+    source: errington-1990
+    contested: false
+  - year: -168
+    type: battle
+    name: Pydna
+    changed: >-
+      The monarchy was abolished. Perseus walked in Aemilius Paullus's triumph
+      and died in Italian custody, Macedonia was cut into four republics
+      forbidden to trade or intermarry across the new borders, and the mines
+      were closed. Rome had removed kings before and had always replaced them
+      with somebody; this is the first time it simply ended a monarchy, and it
+      is the model for what happened to the Attalid and Pontic kingdoms on the
+      two records beside this one.
+    source: errington-1990
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: errington-1990 }
+    religions_carried: { count: 0, items: [], source: errington-1990 }
+    successor_claims: { count: 0, items: [], source: errington-1990 }

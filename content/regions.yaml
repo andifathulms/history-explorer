@@ -294,11 +294,12 @@ regions:
   # the Jazira" is defined by proximity to Baghdad, which did not exist.
   #
   # Flipped to true on exactly one edge, `hasmonean -> herodian` in 37 BC, once
-  # the two Judaean records were added. It took seven polities to get there, and
-  # the reason is the region's own subject: these are mostly powers that grew in
-  # the space between two empires, and a polity defined by the space between
-  # Rome and Iran succeeds Rome or Iran rather than its neighbour. Five of the
-  # seven records point outward and are drawn by nothing.
+  # the two Judaean records were added. It took seven polities to get there and
+  # it is still the only one at ten, which is the region's own subject rather
+  # than a shortfall: these are mostly powers that grew in the space between two
+  # empires, and a polity defined by that space is succeeded by one of the
+  # empires rather than by its neighbour. Nine of the ten records point outward
+  # — seven of them at Rome — and are drawn by nothing.
   #
   # A geographic strain is worth flagging here as well as on the page that
   # carries it. Al-Hira is eight hundred kilometres from the Mediterranean, in a
@@ -309,10 +310,11 @@ regions:
   - id: eastern-mediterranean
     name: The Eastern Mediterranean after Alexander
     blurb: >-
-      The countries Alexander took and did not keep, between his death and the
-      Arab conquests: Greek kingdoms that governed in one language and were
-      taxed in another, a Jewish state that made itself and was unmade, and the
-      Arab powers that grew in the space between Rome and Iran.
+      Between Alexander's death and the Arab conquests: the Successor kingdoms
+      and the smaller monarchies that grew in their gaps, a Jewish state that
+      made itself and was unmade, and the Arab powers that held the desert
+      between Rome and Iran. Seven of the ten end against Rome, which is most of
+      what the region has to say.
     group: mediterranean
     thread: true
 

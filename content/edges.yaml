@@ -532,6 +532,63 @@ edges:
     source: peacock-yildiz-2013
     contested: false
 
+  # ---- The three kingdoms Rome wound up, and one claim on Persia ----
+
+  # None of these three has an edge to another polity in its own region. Each
+  # ends against Rome and each does so differently, which is the point of
+  # entering all three together: a monarchy abolished outright, a kingdom left
+  # by will, and a king hunted to the Crimea.
+  - from: antigonid
+    to: roman
+    type: conquered by
+    year: -168
+    note: >-
+      Aemilius Paullus destroyed the army at Pydna. Rome abolished the monarchy
+      rather than replacing the king, divided Macedonia into four republics
+      forbidden to trade or intermarry across the new borders, and closed the
+      mines.
+    source: errington-1990
+    contested: false
+
+  # `absorbed remnants of` rather than `conquered by`: the kingdom was
+  # bequeathed, and the four-year war that followed was against a pretender
+  # rather than against this record.
+  - from: attalid
+    to: roman
+    type: absorbed remnants of
+    year: -133
+    note: >-
+      Attalus III died childless and left his kingdom to the Roman people in his
+      will. Aristonicus claimed the throne as Eumenes III and held much of it
+      until 129, after which Rome organised the province of Asia.
+    source: allen-1983
+    contested: false
+
+  - from: pontus
+    to: roman
+    type: conquered by
+    year: -63
+    note: >-
+      Pompey broke the last Pontic army at Nicopolis in 66 and Mithridates VI
+      died in the Crimea three years later. The kingdom was divided between the
+      new province of Bithynia et Pontus and a set of client rulers.
+    source: mcging-1986
+    contested: false
+
+  # Crosses into Iran before Islam and is drawn by no thread. The oldest of the
+  # three claims counted on the Achaemenid record, and the only one made by a
+  # dynasty that was still ruling when it made it.
+  - from: achaemenid
+    to: pontus
+    type: claimed legitimacy of
+    year: -281
+    note: >-
+      The Mithridatic house asserted descent from Darius I continuously and in
+      public, and Mithridates VI used the Achaemenid royal title king of kings
+      alongside a second claimed descent from Alexander and Seleucus.
+    source: mcging-1986
+    contested: false
+
   # ---- Judaea: the region's first internal edge ----
 
   # The Eastern Mediterranean after Alexander had three records and no internal

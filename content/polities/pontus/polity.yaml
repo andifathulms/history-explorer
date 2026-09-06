@@ -1,0 +1,130 @@
+id: pontus
+region: eastern-mediterranean
+
+name:
+  latin: Kingdom of Pontus
+  script: Πόντος
+  script_lang: grc
+
+# 281, when Mithridates Ktistes — the founder — established himself in northern
+# Anatolia after the collapse of Lysimachus's kingdom. 63 is the death of
+# Mithridates VI in the Crimea and Pompey's settlement of the east.
+span:
+  start: { min: -281, max: -281, source: mcging-1986 }
+  end: { min: -63, max: -63, source: mcging-1986 }
+
+identity: >-
+  A Persian dynasty on the Black Sea that outlived the empire it descended from
+  by two and a half centuries and then fought Rome for twenty-five years.
+
+capitals:
+  - { name: Amaseia, script: Ἀμάσεια, from: -281, source: mcging-1986 }
+  - { name: Sinope, script: Σινώπη, from: -183, source: mcging-1986 }
+
+core_region: Northern Anatolia and the Black Sea littoral
+
+# `peak` and `last` are the same man, as `founder` and `peak` are on the
+# Herodian record in this region. The kingdom existed for two hundred and
+# eighteen years and everything anyone remembers about it happens in the last
+# fifty-seven.
+rulers:
+  founder: { name: Mithridates I Ktistes, reign: [-281, -266], source: mcging-1986 }
+  peak: { name: Mithridates VI Eupator, reign: [-120, -63], source: mcging-1986 }
+  last: { name: Mithridates VI Eupator, reign: [-120, -63], source: mcging-1986 }
+
+scripts_and_languages:
+  administration: [Greek]
+  writing_system: Greek
+
+ended:
+  type: conquest
+  by: [roman]
+  year: -63
+  source: mcging-1986
+
+institutions:
+  # Levies from the Anatolian interior on a scale the Greek sources found
+  # implausible and probably exaggerated, and professionals hired from
+  # everywhere — Greeks, Thracians, Scythians, Sarmatians, Armenians, and in the
+  # last war Roman officers from the defeated Sertorian army in Spain, who
+  # retrained his infantry to fight in cohorts.
+  military_basis: { values: [conscript, mercenary], source: mcging-1986 }
+  # Royal land in the interior, and the Black Sea. What Pharnaces I and then
+  # Mithridates VI were assembling was control of a closed sea and its traffic:
+  # the Greek cities of the southern coast, then the Bosporan kingdom and the
+  # Crimean grain in the north, then the western shore. It is a trading system
+  # held as a kingdom, and it is why the second turning point on this record is
+  # a capital move to a port.
+  revenue_basis: { values: [land-tax, trade-toll], source: mcging-1986 }
+  # Null. The throne passed within the family and a good deal of the passing was
+  # done by murder — Mithridates VI came to it as a child under his mother's
+  # regency, is said to have spent seven years hiding in the hills from her, and
+  # then imprisoned her and killed his brother. No source states a rule, and
+  # coding rule 7 will not accept the pattern in place of one.
+  succession_rule: null
+  # Both values are the same claim made twice. The dynasty asserted descent from
+  # Darius I on one side and from Alexander and Seleucus on the other, and
+  # Mithridates VI used the Achaemenid royal title, king of kings. That is
+  # descent invoked publicly as the ground of a right to rule, which is what
+  # rule 1 requires, and titulature taken from a predecessor, which is what
+  # `titulature` means. This site's Achaemenid record counts the claim.
+  legitimation: { values: [descent, titulature], source: mcging-1986 }
+
+turning_points:
+  - year: -183
+    type: capital-move
+    name: Sinope
+    changed: >-
+      Pharnaces I took the greatest Greek city on the southern Black Sea coast
+      and moved the royal seat there from Amaseia in the interior. An inland
+      Anatolian kingdom became a maritime one with a fleet, a port and access to
+      the whole sea, which is the position Mithridates VI inherited and built
+      an empire on. It is also the point at which the dynasty commits to
+      presenting itself in Greek.
+    source: mcging-1986
+    contested: false
+  - year: -88
+    type: catastrophe
+    name: The Asiatic Vespers
+    changed: >-
+      Mithridates VI arranged, by letters sent in advance to the cities of Roman
+      Asia, for the Roman and Italian residents to be killed on one day. The
+      figures the sources give are between eighty and a hundred and fifty
+      thousand and are not checkable; that the cities did it, and that the
+      motive was the resentment of Roman tax farmers, is not disputed. It made
+      the war unendable by negotiation. Everything afterwards on this record is
+      a consequence of an act designed to make retreat impossible for everyone,
+      including himself.
+    source: mcging-1986
+    contested: false
+  - year: -85
+    type: treaty
+    name: Dardanos
+    changed: >-
+      Sulla, needing to get back to Italy for a civil war, made peace on terms
+      that left Mithridates his kingdom, his fleet and his life in exchange for
+      Asia, an indemnity and seventy ships. It is the only occasion on which
+      Rome settled with him, it settled nothing, and two further wars followed
+      over the next twenty years.
+    source: mcging-1986
+    contested: false
+  - year: -66
+    type: battle
+    name: Nicopolis
+    changed: >-
+      Pompey destroyed the last army in a night attack in the upper Euphrates
+      country, and Mithridates fled across the Caucasus to the Crimea — a
+      journey of well over a thousand kilometres through territory held by
+      people who had no reason to help him — and spent three years there raising
+      another. His son revolted, he tried to poison himself, and having spent a
+      lifetime taking prophylactic doses of poison he had to have a guard do it.
+    source: mcging-1986
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: mcging-1986 }
+    religions_carried: { count: 0, items: [], source: mcging-1986 }
+    successor_claims: { count: 0, items: [], source: mcging-1986 }

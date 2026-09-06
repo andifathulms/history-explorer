@@ -1,0 +1,140 @@
+id: attalid
+region: eastern-mediterranean
+
+name:
+  latin: Attalid Kingdom
+  script: Πέργαμον
+  script_lang: grc
+
+# 282, when Philetaerus — the officer holding Lysimachus's treasury at Pergamon
+# — changed sides and kept the money. 133 is the death of Attalus III and the
+# opening of his will.
+span:
+  start: { min: -282, max: -282, source: allen-1983 }
+  end: { min: -133, max: -133, source: allen-1983 }
+
+identity: >-
+  A treasurer who kept the money, the kingdom his heirs built with it, and the
+  will in which the last of them left the whole thing to Rome.
+
+capitals:
+  - { name: Pergamon, script: Πέργαμον, from: -282, source: allen-1983 }
+
+core_region: Western Asia Minor, from the Troad to Pamphylia after 188
+
+rulers:
+  founder: { name: Philetaerus, reign: [-282, -263], source: allen-1983 }
+  peak: { name: Eumenes II, reign: [-197, -159], source: allen-1983 }
+  last: { name: Attalus III, reign: [-138, -133], source: allen-1983 }
+
+scripts_and_languages:
+  administration: [Greek]
+  writing_system: Greek
+
+# `gradual absorption`, and it is the least wrong of six values rather than the
+# right one. Attalus III died childless and left his kingdom to the Roman
+# people in his will; the senate accepted it, Aristonicus revolted claiming the
+# throne as Eumenes III, Rome fought him for four years and then organised the
+# province of Asia in 129. So: a bequest, then a war against a pretender, then a
+# province. `conquest` would describe the war against Aristonicus rather than
+# the end of this kingdom, which happened at a reading of a document.
+#
+# This is not a request for a new value. A testamentary bequest of a kingdom has
+# happened once in this corpus, and one case is not a pattern — the same
+# discipline the Zand record applies to a ruler claiming authority on behalf of
+# the governed. Chapter 4 carries what the field cannot.
+ended:
+  type: gradual absorption
+  by: [roman]
+  year: -133
+  source: allen-1983
+
+institutions:
+  # Mercenaries and military settlers, which is the ordinary Hellenistic
+  # arrangement and the opposite of the Antigonid record beside this one. The
+  # Attalids had no Macedonian population to levy; what they had was money, and
+  # they bought soldiers with it and settled them on land in the interior to
+  # hold what they had bought.
+  military_basis: { values: [mercenary, land-grant], source: allen-1983 }
+  # Royal land worked by tenants, and the contributions of the Greek cities. The
+  # kingdom's founding capital was a treasury it did not earn: Philetaerus was
+  # holding nine thousand talents of Lysimachus's money at Pergamon and simply
+  # did not give it back, which is as close as this corpus comes to a state
+  # founded on an act of embezzlement.
+  revenue_basis: { values: [land-tax, tribute], source: allen-1983 }
+  # Designation, and the dynasty is a genuine outlier for how well it worked.
+  # Philetaerus was a eunuch and adopted his nephew; the throne then passed by
+  # designation within the family for five reigns without a single murder. Attalus
+  # II, who could have taken the throne when his brother Eumenes II was reported
+  # dead, gave it back when the report proved false, and later ruled as regent
+  # for his nephew and handed over. Set against the Hasmonean and Ptolemaic
+  # records in this same region, both of which are largely families killing each
+  # other, it is the strangest fact on this page.
+  succession_rule: { values: [nomination], source: allen-1983 }
+  # Descent from Philetaerus, and the victory. Attalus I took the diadem and the
+  # cult title Soter — saviour — after beating the Galatians around 238, and the
+  # dynasty's public self-presentation from then on is that it is what stands
+  # between Greek Asia and the barbarians. The Dying Gaul and the rest of the
+  # Pergamene sculpture are that argument in marble.
+  legitimation: { values: [descent, conquest], source: allen-1983 }
+
+turning_points:
+  - year: -238
+    type: battle
+    name: The Galatians
+    changed: >-
+      Attalus I refused the tribute the Galatians had been extracting from the
+      cities of Asia Minor, beat them, and took the royal title on the strength
+      of it — the first Attalid to call himself king, in a dynasty that had been
+      running Pergamon for forty-four years without doing so. It set the
+      kingdom's public argument for the rest of its life and produced the
+      sculpture the argument is remembered through.
+    source: allen-1983
+    contested: false
+  - year: -190
+    type: battle
+    name: Magnesia
+    changed: >-
+      Eumenes II brought the Pergamene forces to the Roman side against Antiochus
+      III and commanded the right wing that decided the battle. It removed
+      Seleucid power from Asia Minor permanently — this corpus's Seleucid record
+      dates its own decline from here — and it made a middling kingdom into the
+      Roman republic's indispensable ally in the east.
+    source: allen-1983
+    contested: false
+  - year: -188
+    type: treaty
+    name: Apamea
+    changed: >-
+      The settlement after Magnesia handed the Attalids most of Seleucid Asia
+      Minor: Phrygia, Lydia, Mysia, Lycaonia, Pisidia and the Chersonese, more
+      than tripling the kingdom. Every acre of it was a Roman gift, and the
+      forty-five years that follow are a demonstration of what that means. When
+      Eumenes II was suspected of dealing with Perseus of Macedon in the 160s,
+      Rome simply began cultivating his brother, and the senate refused to
+      receive him.
+    source: allen-1983
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    # Zero, and the near miss is the famous story. Pergamon's library was the
+    # rival of Alexandria's, and Pliny says the Ptolemies embargoed papyrus to
+    # stop it growing, which forced Pergamon to develop treated skin — charta
+    # pergamena, parchment. The story is probably a later invention and
+    # parchment is older than the Attalids. And either way a writing material is
+    # not a writing system, and coding rule 3 counts scripts. Chapter 3 carries
+    # it, which is where things the vocabulary cannot hold are supposed to go.
+    descendant_scripts: { count: 0, items: [], source: allen-1983 }
+    religions_carried: { count: 0, items: [], source: allen-1983 }
+    # Zero, and it needs an argument, because Aristonicus took the dynastic name
+    # Eumenes III, struck coins in it and held much of the kingdom for four
+    # years. That looks like rule 1's paradigm case and is not one. Rule 1
+    # counts a *later polity* asserting an *earlier polity's* legitimacy, and
+    # Aristonicus was claiming to be this dynasty at the moment of its
+    # extinction rather than to succeed it. A pretender is a different shape
+    # from a successor, and the rule as written does not distinguish them
+    # because until now the corpus had not needed it to. Chapter 4 sets it out.
+    successor_claims: { count: 0, items: [], source: allen-1983 }

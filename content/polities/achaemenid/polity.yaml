@@ -124,7 +124,15 @@ measures:
       items: [Old Persian cuneiform]
       source: briant-2002
     religions_carried: { count: null, items: [], source: null }
+    # Three. The Pontic entry was added when that record was written and it is
+    # the earliest of the three by a century and a half: the Mithridatic dynasty
+    # asserted descent from Darius I publicly and continuously, and Mithridates
+    # VI used the Achaemenid royal title, king of kings. Rule 1 excludes descent
+    # on its own and counts it where it is invoked publicly as the ground of a
+    # right to rule, which is what the Pontic coinage and the propaganda McGing
+    # reconstructs are doing. The Pontic record codes `titulature` in its
+    # `legitimation` field, and the rulebook says the two should agree.
     successor_claims:
-      count: 2
-      items: [Parthian Empire, Sasanian Empire]
+      count: 3
+      items: [Kingdom of Pontus, Parthian Empire, Sasanian Empire]
       source: briant-2002

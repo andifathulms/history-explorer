@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**3125 claims across 168 sources.**
+**3190 claims across 171 sources.**
 
 ## Where to start
 
@@ -2043,7 +2043,7 @@ ordinary state, not an item to clear.
 - [ ] `polity/achaemenid` — turning point -522 Darius and the year of rebellions (contested)
 - [ ] `polity/achaemenid` — turning point -404 Egypt leaves
 - [ ] `polity/achaemenid` — descendant_scripts = 1 (Old Persian cuneiform)
-- [ ] `polity/achaemenid` — successor_claims = 2 (Parthian Empire, Sasanian Empire)
+- [ ] `polity/achaemenid` — successor_claims = 3 (Kingdom of Pontus, Parthian Empire, Sasanian Empire)
 - [ ] `polity/median` — ended by conquest in -549
 
 ## Andrew J. Newman, Safavid Iran: Rebirth of a Persian Empire
@@ -2195,6 +2195,37 @@ ordinary state, not an item to clear.
 - [ ] `polity/srivijaya` — religions_carried = 1 (Mahayana Buddhism)
 - [ ] `polity/srivijaya` — ended by gradual absorption in 1275
 
+## B. C. McGing, The Foreign Policy of Mithridates VI Eupator, King of Pontus
+*In Mnemosyne Supplements 89.*
+
+`mcging-1986` — 23 claims
+
+**Sole source** for `pontus` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/pontus/01-two-descents.mdx` — prose: "Two descents"
+- [ ] `chapter/pontus/02-one-day.mdx` — prose: "One day"
+- [ ] `chapter/pontus/03-the-long-retreat.mdx` — prose: "The long retreat"
+- [ ] `edge/achaemenid->pontus` — claimed legitimacy of in -281
+- [ ] `edge/pontus->roman` — conquered by in -63
+- [ ] `polity/pontus` — span starts -281
+- [ ] `polity/pontus` — span ends -63
+- [ ] `polity/pontus` — capital Amaseia from -281
+- [ ] `polity/pontus` — capital Sinope from -183
+- [ ] `polity/pontus` — founder Mithridates I Ktistes r. -281--266
+- [ ] `polity/pontus` — peak Mithridates VI Eupator r. -120--63
+- [ ] `polity/pontus` — last Mithridates VI Eupator r. -120--63
+- [ ] `polity/pontus` — military basis coded conscript + mercenary
+- [ ] `polity/pontus` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/pontus` — legitimation coded descent + titulature
+- [ ] `polity/pontus` — turning point -183 Sinope
+- [ ] `polity/pontus` — turning point -88 The Asiatic Vespers
+- [ ] `polity/pontus` — turning point -85 Dardanos
+- [ ] `polity/pontus` — turning point -66 Nicopolis
+- [ ] `polity/pontus` — descendant_scripts = 0
+- [ ] `polity/pontus` — religions_carried = 0
+- [ ] `polity/pontus` — successor_claims = 0
+- [ ] `polity/pontus` — ended by conquest in -63
+
 ## A. B. Bosworth, Conquest and Empire: The Reign of Alexander the Great
 
 `ab-bosworth-1988` — 22 claims
@@ -2276,6 +2307,35 @@ ordinary state, not an item to clear.
 - [ ] `polity/uqaylid` — peak Sharaf al-Dawla Muslim ibn Quraysh r. 1061-1085
 - [ ] `polity/uqaylid` — turning point 1085 The death of Muslim ibn Quraysh
 - [ ] `polity/uqaylid` — ended by conquest in 1096
+
+## R. E. Allen, The Attalid Kingdom: A Constitutional History
+
+`allen-1983` — 22 claims
+
+**Sole source** for `attalid` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/attalid/01-the-treasurer.mdx` — prose: "The treasurer"
+- [ ] `chapter/attalid/02-a-gift-and-a-leash.mdx` — prose: "A gift and a leash"
+- [ ] `chapter/attalid/03-the-library.mdx` — prose: "The library"
+- [ ] `chapter/attalid/04-the-will.mdx` — prose: "The will"
+- [ ] `edge/attalid->roman` — absorbed remnants of in -133
+- [ ] `polity/attalid` — span starts -282
+- [ ] `polity/attalid` — span ends -133
+- [ ] `polity/attalid` — capital Pergamon from -282
+- [ ] `polity/attalid` — founder Philetaerus r. -282--263
+- [ ] `polity/attalid` — peak Eumenes II r. -197--159
+- [ ] `polity/attalid` — last Attalus III r. -138--133
+- [ ] `polity/attalid` — military basis coded mercenary + land-grant
+- [ ] `polity/attalid` — revenue basis coded land-tax + tribute
+- [ ] `polity/attalid` — succession rule coded nomination
+- [ ] `polity/attalid` — legitimation coded descent + conquest
+- [ ] `polity/attalid` — turning point -238 The Galatians
+- [ ] `polity/attalid` — turning point -190 Magnesia
+- [ ] `polity/attalid` — turning point -188 Apamea
+- [ ] `polity/attalid` — descendant_scripts = 0
+- [ ] `polity/attalid` — religions_carried = 0
+- [ ] `polity/attalid` — successor_claims = 0
+- [ ] `polity/attalid` — ended by gradual absorption in -133
 
 ## Abbas Amanat, Iran: A Modern History
 
@@ -2411,6 +2471,34 @@ ordinary state, not an item to clear.
 - [ ] `polity/abbasid-cairo` — ended by conquest in 1517
 - [ ] `polity/mamluk-sultanate` — legitimation coded caliphal-investiture
 - [ ] `polity/muzaffarid` — legitimation coded caliphal-investiture + conquest
+
+## R. Malcolm Errington, A History of Macedonia
+*In Hellenistic Culture and Society.*
+
+`errington-1990` — 20 claims
+
+**Sole source** for `antigonid` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/antigonid/01-the-country-he-started-from.mdx` — prose: "The country he started from"
+- [ ] `chapter/antigonid/02-the-phalanx-and-the-legion.mdx` — prose: "The phalanx and the legion"
+- [ ] `chapter/antigonid/03-not-claiming-alexander.mdx` — prose: "Not claiming Alexander"
+- [ ] `edge/antigonid->roman` — conquered by in -168
+- [ ] `polity/antigonid` — span starts -277
+- [ ] `polity/antigonid` — span ends -168
+- [ ] `polity/antigonid` — capital Pella from -277
+- [ ] `polity/antigonid` — founder Antigonus II Gonatas r. -277--239
+- [ ] `polity/antigonid` — peak Philip V r. -221--179
+- [ ] `polity/antigonid` — last Perseus r. -179--168
+- [ ] `polity/antigonid` — military basis coded conscript
+- [ ] `polity/antigonid` — revenue basis coded land-tax + mining
+- [ ] `polity/antigonid` — legitimation coded descent
+- [ ] `polity/antigonid` — turning point -277 Lysimacheia
+- [ ] `polity/antigonid` — turning point -197 Cynoscephalae
+- [ ] `polity/antigonid` — turning point -168 Pydna
+- [ ] `polity/antigonid` — descendant_scripts = 0
+- [ ] `polity/antigonid` — religions_carried = 0
+- [ ] `polity/antigonid` — successor_claims = 0
+- [ ] `polity/antigonid` — ended by conquest in -168
 
 ## Caroline Finkel, Osman's Dream: The Story of the Ottoman Empire 1300-1923
 
