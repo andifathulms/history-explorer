@@ -1,0 +1,86 @@
+id: zurayid
+region: south-arabia
+
+name:
+  latin: Zurayid Dynasty
+  script: بنو زريع
+  script_lang: ar
+
+span:
+  start: { min: 1080, max: 1080, source: bosworth-1996 }
+  end: { min: 1173, max: 1173, source: bosworth-1996 }
+
+identity: >-
+  Sulayhid tax-farmers of Aden who kept the port when the state that appointed
+  them fell apart, and who took the losing side of the Isma'ili schism their
+  own queen decided.
+
+capitals:
+  - { name: Aden, script: عدن, from: 1080, source: bosworth-1996 }
+
+core_region: Aden and the southern coast of Yemen
+
+rulers:
+  # The appointment was joint, to two cousins of the Banu Zuray' holding halves
+  # of the port and its revenue between them, and the line Bosworth prints
+  # begins there rather than with a single founder.
+  founder: { name: al-Abbas ibn al-Mukarram, source: bosworth-1996 }
+  peak: { name: Muhammad ibn Saba', source: kay-1892 }
+  # Aden's last years were governed by the dynasty's own viziers, and the works
+  # consulted here do not fix a final Zurayid this site would name.
+  last: { name: null, source: null }
+
+scripts_and_languages:
+  administration: [Arabic]
+  writing_system: Arabic
+
+ended:
+  type: conquest
+  by: [ayyubid]
+  year: 1173
+  source: smith-1974
+
+institutions:
+  military_basis: { values: [tribal-levy], source: kay-1892 }
+  # The only polity in this region coded on trade alone. Aden was the transfer
+  # point between the Egypt run and the India run, and the Zurayid state was
+  # its customs house with a garrison attached: nothing consulted here
+  # describes an agricultural base worth naming beside it.
+  revenue_basis: { values: [trade-toll], source: kay-1892 }
+  succession_rule: null
+  # Isma'ili, and specifically Hafizi — the branch that recognised the Fatimid
+  # caliphs in Cairo after 1132, against the Tayyibi line that Queen Arwa had
+  # chosen for the Sulayhid mission. See the fourth chapter.
+  legitimation: { values: [caliphal-investiture], source: daftary-2007 }
+
+turning_points:
+  - year: 1132
+    type: succession-crisis
+    name: "The Hafizi choice"
+    changed: >-
+      When the Fatimid succession split, the Zurayids in Aden recognised the
+      caliph in Cairo and the Sulayhid mission in the highlands did not. It
+      turned a quarrel over revenue between a port and its former overlord into
+      a confessional division, and it is why one of these two Isma'ili
+      communities still exists and the other does not.
+    source: daftary-2007
+    contested: false
+  - year: 1173
+    type: siege
+    name: "Turanshah at Aden"
+    changed: >-
+      Saladin's brother came down the coast with an Ayyubid army and took the
+      port, ending ninety years in which Aden's customs had belonged to whoever
+      held Aden. From that year the revenue of the richest transit harbour in
+      the Indian Ocean funded a state governed from the Yemeni highlands, and
+      then the Rasulid one after it.
+    source: smith-1974
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

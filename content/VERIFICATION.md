@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**2299 claims across 127 sources.**
+**2352 claims across 129 sources.**
 
 ## Where to start
 
@@ -262,17 +262,24 @@ ordinary state, not an item to clear.
 
 ## C. E. Bosworth, The New Islamic Dynasties: A Chronological and Genealogical Manual
 
-`bosworth-1996` — 114 claims
+`bosworth-1996` — 137 claims
 
 - [ ] `chapter/kakuyid/04-the-last-one-died-at-qatwan.mdx` — prose: "The last one died at Qatwan"
 - [ ] `chapter/najahid/01-the-slaves-of-the-house.mdx` — prose: "The slaves of the house"
 - [ ] `chapter/samanid/01-four-brothers.mdx` — prose: "Four brothers and a governorship"
 - [ ] `chapter/shirvanshah/04-baku.mdx` — prose: "Baku"
+- [ ] `chapter/tahirid-yemen/01-picking-up-the-state.mdx` — prose: "Picking up the state"
+- [ ] `chapter/ziyadid/01-a-governor-who-stayed.mdx` — prose: "A governor who stayed"
+- [ ] `chapter/ziyadid/04-1018.mdx` — prose: "The house ends without falling"
+- [ ] `edge/abbasid->ziyadid` — vassal of in 819
 - [ ] `edge/artuqid->karakoyunlu` — conquered by in 1409
 - [ ] `edge/great-seljuk->artuqid` — seceded from in 1102
 - [ ] `edge/kakuyid->great-seljuk` — conquered by in 1051
 - [ ] `edge/karakoyunlu->akkoyunlu` — conquered by in 1468
+- [ ] `edge/rasulid->tahirid-yemen` — absorbed remnants of in 1454
+- [ ] `edge/sulayhid->zurayid` — partitioned from in 1080
 - [ ] `edge/tahirid->samanid` — vassal of in 819
+- [ ] `edge/ziyadid->najahid` — slave-general of in 1022
 - [ ] `edge/ziyarid->nizari` — conquered by in 1090
 - [ ] `polity/abbasid` — span starts 750
 - [ ] `polity/abbasid` — span ends 1258
@@ -367,9 +374,21 @@ ordinary state, not an item to clear.
 - [ ] `polity/tahirid` — founder Tahir I ibn al-Husayn r. 821-822
 - [ ] `polity/tahirid` — peak Abdallah ibn Tahir r. 828-845
 - [ ] `polity/tahirid` — last Muhammad ibn Tahir r. 862-873
+- [ ] `polity/tahirid-yemen` — span starts 1454
+- [ ] `polity/tahirid-yemen` — founder al-Zafir Amir I ibn Tahir
+- [ ] `polity/tahirid-yemen` — legitimation coded conquest
 - [ ] `polity/zaydi-yemen` — span starts 897
 - [ ] `polity/zaydi-yemen` — capital Sa'da from 897
 - [ ] `polity/zaydi-yemen` — founder al-Hadi ila'l-Haqq Yahya r. 897-911
+- [ ] `polity/ziyadid` — span starts 819
+- [ ] `polity/ziyadid` — span ends 1018
+- [ ] `polity/ziyadid` — capital Zabid from 820
+- [ ] `polity/ziyadid` — founder Muhammad ibn Ziyad r. 819-859
+- [ ] `polity/ziyadid` — peak Abu'l-Jaysh Ishaq ibn Ibrahim r. 904-981
+- [ ] `polity/ziyadid` — military basis coded slave-soldier
+- [ ] `polity/ziyadid` — legitimation coded caliphal-investiture
+- [ ] `polity/ziyadid` — turning point 820 Zabid
+- [ ] `polity/ziyadid` — ended by dynastic replacement in 1018
 - [ ] `polity/ziyarid` — span starts 931
 - [ ] `polity/ziyarid` — span ends 1090
 - [ ] `polity/ziyarid` — capital Gurgan
@@ -378,6 +397,10 @@ ordinary state, not an item to clear.
 - [ ] `polity/ziyarid` — peak Qabus ibn Vushmgir
 - [ ] `polity/ziyarid` — last Gilanshah
 - [ ] `polity/ziyarid` — ended by conquest in 1090
+- [ ] `polity/zurayid` — span starts 1080
+- [ ] `polity/zurayid` — span ends 1173
+- [ ] `polity/zurayid` — capital Aden from 1080
+- [ ] `polity/zurayid` — founder al-Abbas ibn al-Mukarram
 
 ## A. C. S. Peacock and Sara Nur Yildiz (eds), The Seljuks of Anatolia: Court and Society in the Medieval Middle East
 
@@ -534,7 +557,7 @@ ordinary state, not an item to clear.
 
 ## Farhad Daftary, The Isma'ilis: Their History and Doctrines
 
-`daftary-2007` — 63 claims
+`daftary-2007` — 66 claims
 
 **Sole source** for `sulayhid` — nothing else in the corpus can contradict a misreading here.
 
@@ -552,6 +575,7 @@ ordinary state, not an item to clear.
 - [ ] `chapter/sulayhid/03-arwa.mdx` — prose: "Fifty years, from Jibla"
 - [ ] `chapter/sulayhid/04-the-hujja.mdx` — prose: "Two women, and what the ruler fields cannot show"
 - [ ] `chapter/sulayhid/05-tayyibi.mdx` — prose: "What she detached from Cairo"
+- [ ] `chapter/zurayid/03-hafizi.mdx` — prose: "The branch that lost"
 - [ ] `edge/fatimid->nizari` — partitioned from in 1094
 - [ ] `edge/fatimid->sulayhid` — vassal of in 1047
 - [ ] `edge/great-seljuk->nizari` — seceded from in 1090
@@ -601,6 +625,8 @@ ordinary state, not an item to clear.
 - [ ] `polity/sulayhid` — turning point 1130 The Tayyibi decision
 - [ ] `polity/sulayhid` — religions_carried = 1 (Tayyibi Isma'ilism)
 - [ ] `polity/sulayhid` — ended by fragmentation in 1138
+- [ ] `polity/zurayid` — legitimation coded caliphal-investiture
+- [ ] `polity/zurayid` — turning point 1132 The Hafizi choice
 
 ## Carl F. Petry (ed.), The Cambridge History of Egypt, Volume 1: Islamic Egypt 640-1517
 
@@ -1941,6 +1967,31 @@ ordinary state, not an item to clear.
 - [ ] `polity/zangid` — turning point 1169 Shirkuh dies two months into the vizierate
 - [ ] `polity/zangid` — ended by gradual absorption in 1250
 
+## G. Rex Smith, The Ayyubids and Early Rasulids in the Yemen (567-694/1173-1295)
+*In E. J. W. Gibb Memorial, New Series XXVI.*
+
+`smith-1974` — 19 claims
+
+- [ ] `chapter/najahid/02-zabid.mdx` — prose: "Zabid"
+- [ ] `chapter/najahid/04-1158.mdx` — prose: "The viziers again"
+- [ ] `chapter/rasulid/01-the-deputies-who-stayed.mdx` — prose: "The deputies who stayed"
+- [ ] `chapter/rasulid/04-the-scholar-sultans.mdx` — prose: "Sultans who wrote books"
+- [ ] `chapter/zurayid/04-1173.mdx` — prose: "Turanshah takes the gate"
+- [ ] `edge/ayyubid->rasulid` — seceded from in 1229
+- [ ] `edge/zurayid->ayyubid` — conquered by in 1173
+- [ ] `polity/najahid` — revenue basis coded land-tax
+- [ ] `polity/najahid` — ended by dynastic replacement in 1158
+- [ ] `polity/rasulid` — span starts 1229
+- [ ] `polity/rasulid` — capital Ta'izz from 1229
+- [ ] `polity/rasulid` — capital Zabid
+- [ ] `polity/rasulid` — founder al-Malik al-Mansur Umar r. 1229-1249
+- [ ] `polity/rasulid` — peak al-Malik al-Muzaffar Yusuf r. 1249-1295
+- [ ] `polity/rasulid` — military basis coded slave-soldier + tribal-levy
+- [ ] `polity/rasulid` — legitimation coded conquest + descent
+- [ ] `polity/rasulid` — turning point 1249 The murder of al-Mansur Umar
+- [ ] `polity/zurayid` — turning point 1173 Turanshah at Aden
+- [ ] `polity/zurayid` — ended by conquest in 1173
+
 ## L. P. Harvey, Islamic Spain, 1250 to 1500
 
 `harvey-1990` — 19 claims
@@ -2212,27 +2263,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/zaydi-yemen` — turning point 1948 The killing of Imam Yahya
 - [ ] `polity/zaydi-yemen` — ended by internal usurpation in 1962
 
-## G. Rex Smith, The Ayyubids and Early Rasulids in the Yemen (567-694/1173-1295)
-*In E. J. W. Gibb Memorial, New Series XXVI.*
-
-`smith-1974` — 15 claims
-
-- [ ] `chapter/najahid/02-zabid.mdx` — prose: "Zabid"
-- [ ] `chapter/najahid/04-1158.mdx` — prose: "The viziers again"
-- [ ] `chapter/rasulid/01-the-deputies-who-stayed.mdx` — prose: "The deputies who stayed"
-- [ ] `chapter/rasulid/04-the-scholar-sultans.mdx` — prose: "Sultans who wrote books"
-- [ ] `edge/ayyubid->rasulid` — seceded from in 1229
-- [ ] `polity/najahid` — revenue basis coded land-tax
-- [ ] `polity/najahid` — ended by dynastic replacement in 1158
-- [ ] `polity/rasulid` — span starts 1229
-- [ ] `polity/rasulid` — capital Ta'izz from 1229
-- [ ] `polity/rasulid` — capital Zabid
-- [ ] `polity/rasulid` — founder al-Malik al-Mansur Umar r. 1229-1249
-- [ ] `polity/rasulid` — peak al-Malik al-Muzaffar Yusuf r. 1249-1295
-- [ ] `polity/rasulid` — military basis coded slave-soldier + tribal-levy
-- [ ] `polity/rasulid` — legitimation coded conquest + descent
-- [ ] `polity/rasulid` — turning point 1249 The murder of al-Mansur Umar
-
 ## C. E. Bosworth, SAMANIDS
 *In Encyclopaedia Iranica.*
 <https://iranicaonline.org/articles/samanids>
@@ -2447,6 +2477,25 @@ ordinary state, not an item to clear.
 - [ ] `polity/tahirid` — religions_carried = 0
 - [ ] `polity/tahirid` — successor_claims = 0
 - [ ] `polity/tahirid` — ended by conquest in 873
+
+## Venetia Porter, The History and Monuments of the Tahirid Dynasty of the Yemen 858-923/1454-1517
+*In PhD thesis, University of Durham.*
+
+`porter-1992` — 13 claims
+
+- [ ] `chapter/tahirid-yemen/03-the-amiriyya.mdx` — prose: "The Amiriyya"
+- [ ] `chapter/tahirid-yemen/04-1517.mdx` — prose: "An army from a state that no longer existed"
+- [ ] `edge/tahirid-yemen->mamluk-sultanate` — conquered by in 1517
+- [ ] `polity/tahirid-yemen` — span ends 1517
+- [ ] `polity/tahirid-yemen` — capital Juban from 1454
+- [ ] `polity/tahirid-yemen` — capital Rada'
+- [ ] `polity/tahirid-yemen` — peak al-Zafir Amir II ibn Abd al-Wahhab r. 1489-1517
+- [ ] `polity/tahirid-yemen` — last al-Zafir Amir II ibn Abd al-Wahhab
+- [ ] `polity/tahirid-yemen` — military basis coded tribal-levy + mercenary
+- [ ] `polity/tahirid-yemen` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/tahirid-yemen` — turning point 1504 The Amiriyya at Rada'
+- [ ] `polity/tahirid-yemen` — turning point 1517 The expedition from a dead empire
+- [ ] `polity/tahirid-yemen` — ended by conquest in 1517
 
 ## A. B. Bosworth, Conquest and Empire: The Reign of Alexander the Great
 
@@ -2766,16 +2815,31 @@ ordinary state, not an item to clear.
 
 ## Éric Vallet, L'Arabie marchande: État et commerce sous les sultans rasulides du Yémen (626-858/1229-1454)
 
-`vallet-2010` — 8 claims
+`vallet-2010` — 9 claims
 
 - [ ] `chapter/rasulid/02-aden.mdx` — prose: "Aden"
 - [ ] `chapter/rasulid/03-mecca.mdx` — prose: "The contest for the holy cities"
 - [ ] `chapter/rasulid/06-1454.mdx` — prose: "What happened when the ships stopped"
+- [ ] `chapter/tahirid-yemen/02-the-port-that-stopped-paying.mdx` — prose: "The port that stopped paying"
 - [ ] `polity/rasulid` — span ends 1454
 - [ ] `polity/rasulid` — last al-Mas'ud Abu'l-Qasim
 - [ ] `polity/rasulid` — revenue basis coded trade-toll + land-tax
 - [ ] `polity/rasulid` — turning point 1424 Barsbay takes the Indian traffic
 - [ ] `polity/rasulid` — ended by dynastic replacement in 1454
+
+## Henry Cassels Kay (ed. and trans.), Yaman: Its Early Mediaeval History
+
+`kay-1892` — 9 claims
+
+- [ ] `chapter/ziyadid/02-the-tihama.mdx` — prose: "The Tihama"
+- [ ] `chapter/ziyadid/03-husayn-ibn-salama.mdx` — prose: "Husayn ibn Salama"
+- [ ] `chapter/zurayid/01-the-farm-that-kept-itself.mdx` — prose: "The farm that kept itself"
+- [ ] `chapter/zurayid/02-the-customs-house.mdx` — prose: "The customs house"
+- [ ] `polity/ziyadid` — revenue basis coded land-tax
+- [ ] `polity/ziyadid` — turning point 1018 The house ends without falling
+- [ ] `polity/zurayid` — peak Muhammad ibn Saba'
+- [ ] `polity/zurayid` — military basis coded tribal-levy
+- [ ] `polity/zurayid` — revenue basis coded trade-toll
 
 ## Vladimir Minorsky, A History of Sharvan and Darband in the 10th-11th Centuries
 

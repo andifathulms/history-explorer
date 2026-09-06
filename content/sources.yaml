@@ -1243,6 +1243,34 @@ sources:
       itself, which is a better piece of evidence about what fourteenth-century
       Aden was than any figure this site could print.
 
+  - id: kay-1892
+    kind: book
+    author: Henry Cassels Kay (ed. and trans.)
+    title: "Yaman: Its Early Mediaeval History"
+    publisher: Edward Arnold
+    year: 1892
+    note: >-
+      Edition and translation of Umara al-Hakami's history of Yemen, written in
+      the twelfth century by a man who had served the courts he describes,
+      with supplementary extracts from Ibn Khaldun and others. It is the
+      narrative spine for the Ziyadids, Najahids, Sulayhids and Zurayids —
+      the dynasties for which no modern monograph exists — and it is cited here
+      as what it is: a Victorian translation of a partisan contemporary, useful
+      for sequence and detail and to be read against Bosworth for dates.
+
+  - id: porter-1992
+    kind: thesis
+    author: Venetia Porter
+    title: "The History and Monuments of the Tahirid Dynasty of the Yemen 858-923/1454-1517"
+    container: PhD thesis, University of Durham
+    year: 1992
+    note: >-
+      The only sustained study of the last independent Yemeni dynasty before
+      the Ottomans, and it works from the buildings as much as the chronicles —
+      the mosques and madrasas the Tahirids put up across the southern
+      highlands are better evidence of where their authority actually reached
+      than any account of their campaigns.
+
   - id: meloy-2010
     kind: book
     author: John L. Meloy

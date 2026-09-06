@@ -1,0 +1,93 @@
+id: ziyadid
+region: south-arabia
+
+name:
+  latin: Ziyadid Dynasty
+  script: بنو زياد
+  script_lang: ar
+
+# 818/819 is Muhammad ibn Ziyad's despatch from Baghdad and 1018 the
+# extinction of the line. The four years between that and Najah's accession in
+# 1022 are not an error: the last Ziyadids were infants in the hands of their
+# own slaves, and the household went on governing in the name of a house that
+# had effectively stopped existing.
+span:
+  start: { min: 819, max: 819, source: bosworth-1996 }
+  end: { min: 1018, max: 1018, source: bosworth-1996 }
+
+identity: >-
+  An Abbasid governor's family that stayed two hundred years, founded Zabid,
+  and was quietly replaced from inside by the Abyssinian slaves it had bought
+  to run its government.
+
+capitals:
+  - { name: Zabid, script: زبيد, from: 820, source: bosworth-1996 }
+
+core_region: The Tihama, the Red Sea coastal plain of Yemen
+
+rulers:
+  founder: { name: Muhammad ibn Ziyad, reign: [819, 859], source: bosworth-1996 }
+  peak: { name: Abu'l-Jaysh Ishaq ibn Ibrahim, reign: [904, 981], source: bosworth-1996 }
+  # The last Ziyadids were children whose viziers ruled and whose names the
+  # works consulted here do not fix in a form this site would print. The gap is
+  # the point of the page and is left open rather than filled.
+  last: { name: null, source: null }
+
+scripts_and_languages:
+  administration: [Arabic]
+  writing_system: Arabic
+
+ended:
+  type: dynastic replacement
+  by: [najahid]
+  year: 1018
+  source: bosworth-1996
+
+institutions:
+  # The same purchase that ended them. Abyssinian slaves bought across the
+  # strait from the Horn of Africa — the natural slave frontier for a Red Sea
+  # state, as the Kipchak steppe was for Egypt — held the army and then the
+  # government.
+  military_basis: { values: [slave-soldier], source: bosworth-1996 }
+  # The Tihama's flood-irrigated grain and cotton, and the Red Sea ports below
+  # Zabid. Nothing consulted here quantifies the share of either, so the
+  # coding names the land and the prose carries the trade.
+  revenue_basis: { values: [land-tax], source: kay-1892 }
+  succession_rule: null
+  # A governorship that never formally stopped being one. The Ziyadids named
+  # the Abbasid caliph in the khutba for two centuries and were never anything
+  # but his men in their own account of themselves, long after Baghdad could
+  # have removed them.
+  legitimation: { values: [caliphal-investiture], source: bosworth-1996 }
+
+turning_points:
+  - year: 820
+    type: capital-move
+    name: Zabid
+    changed: >-
+      Muhammad ibn Ziyad built a town on the coastal plain to govern from, and
+      it became the thing his dynasty is remembered for. Every polity on this
+      page's part of the Red Sea afterwards — Najahid, Mahdid, Ayyubid,
+      Rasulid, Tahirid — ruled the Tihama from Zabid, and its congregational
+      mosque and its schools outlasted all of them.
+    source: bosworth-1996
+    contested: false
+  - year: 1018
+    type: succession-crisis
+    name: "The house ends without falling"
+    changed: >-
+      The line failed with a child on the seat and the vizier Husayn ibn
+      Salama's successors, themselves slaves, in possession of the treasury and
+      the army. There was no battle and no conquest: the Ziyadids simply
+      stopped being the government of a state they still nominally headed, and
+      four years later one of the slaves took the name as well.
+    source: kay-1892
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

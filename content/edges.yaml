@@ -1251,6 +1251,71 @@ edges:
     source: wilkinson-1987
     contested: false
 
+  # ---- South Arabia: the coastal plain, the port, and the last dynasty ----
+
+  - from: ziyadid
+    to: najahid
+    type: slave-general of
+    year: 1022
+    note: "Najah, an Abyssinian slave of the household that had governed Zabid
+           in its masters' name for a generation, removed the last Ziyadid
+           figurehead and took a diploma from Baghdad in his own name."
+    source: bosworth-1996
+    contested: false
+
+  - from: abbasid
+    to: ziyadid
+    type: vassal of
+    year: 819
+    note: "Al-Ma'mun sent Muhammad ibn Ziyad to put down an Alid rising in the
+           Tihama; he stayed, built Zabid to govern from, and his family read
+           the caliph's name in the khutba for two hundred years without ever
+           declaring itself anything but a governorship."
+    source: bosworth-1996
+    contested: false
+
+  - from: sulayhid
+    to: zurayid
+    type: partitioned from
+    year: 1080
+    note: "Two cousins of the Banu Zuray' held Aden and its customs as Sulayhid
+           tax farmers, and kept the port when the state above them contracted
+           to Jibla and could no longer collect from it."
+    source: bosworth-1996
+    contested: false
+
+  - from: zurayid
+    to: ayyubid
+    type: conquered by
+    year: 1173
+    note: "Turanshah took Aden in the same season as Zabid and the highlands,
+           and the customs of the richest transfer harbour in the Indian Ocean
+           passed from whoever physically held the port to a state governed
+           from the Yemeni interior."
+    source: smith-1974
+    contested: false
+
+  - from: rasulid
+    to: tahirid-yemen
+    type: absorbed remnants of
+    year: 1454
+    note: "Two brothers of the Banu Tahir, highland landowners who had been men
+           of consequence under the Rasulids, took what was left of a sultanate
+           that had spent thirty years coming apart over disputed successions
+           and falling revenue."
+    source: bosworth-1996
+    contested: false
+
+  - from: tahirid-yemen
+    to: mamluk-sultanate
+    type: conquered by
+    year: 1517
+    note: "A Mamluk squadron sent into the Red Sea against the Portuguese
+           turned inland instead, defeated and killed Amir II and took Sanaa and
+           Zabid — months after Selim had abolished the sultanate that sent it."
+    source: porter-1992
+    contested: false
+
   # ---- The Liao, continued two thousand miles west ----
 
   - from: liao

@@ -1,0 +1,84 @@
+id: tahirid-yemen
+region: south-arabia
+
+# Not to be confused with the Tahirids of Khurasan, who are a separate record
+# in the Iranian Intermezzo and share nothing with this family but a name.
+name:
+  latin: Tahirid Sultanate of Yemen
+  script: بنو طاهر
+  script_lang: ar
+
+span:
+  start: { min: 1454, max: 1454, source: bosworth-1996 }
+  end: { min: 1517, max: 1517, source: porter-1992 }
+
+identity: >-
+  The last Yemeni dynasty to rule Yemen: a family of highland landowners who
+  picked up the Rasulid state as it fell, spent sixty-three years building in
+  it, and were killed by an expedition sent from a sultanate that had itself
+  already ceased to exist.
+
+capitals:
+  - { name: Juban, script: جبن, from: 1454, source: porter-1992 }
+  - { name: Rada', script: رداع, source: porter-1992 }
+
+core_region: The southern Yemeni highlands, with Aden, Ta'izz and the Tihama
+
+rulers:
+  # The accession was joint, to two brothers of the Banu Tahir, and the works
+  # consulted print the line beginning with both.
+  founder: { name: al-Zafir Amir I ibn Tahir, source: bosworth-1996 }
+  peak: { name: al-Zafir Amir II ibn Abd al-Wahhab, reign: [1489, 1517], source: porter-1992 }
+  last: { name: al-Zafir Amir II ibn Abd al-Wahhab, source: porter-1992 }
+
+scripts_and_languages:
+  administration: [Arabic]
+  writing_system: Arabic
+
+ended:
+  type: conquest
+  by: [mamluk-sultanate]
+  year: 1517
+  source: porter-1992
+
+institutions:
+  military_basis: { values: [tribal-levy, mercenary], source: porter-1992 }
+  # The Rasulid arrangement inherited: highland agriculture and the customs of
+  # Aden. Both had declined by the time the Tahirids got them — the Indian
+  # Ocean traffic was moving to routes that did not have to stop at Aden — and
+  # the second chapter is about that decline.
+  revenue_basis: { values: [land-tax, trade-toll], source: porter-1992 }
+  succession_rule: null
+  legitimation: { values: [conquest], source: bosworth-1996 }
+
+turning_points:
+  - year: 1504
+    type: reform
+    name: "The Amiriyya at Rada'"
+    changed: >-
+      Amir II finished a madrasa at Rada' whose domes and painted interior have
+      no real precedent in Yemen, and which is the reason this dynasty has a
+      modern historian at all. It marks the point at which a family of provincial
+      landowners was governing as a state that expected to last, thirteen years
+      before it did not.
+    source: porter-1992
+    contested: false
+  - year: 1517
+    type: battle
+    name: "The expedition from a dead empire"
+    changed: >-
+      A Mamluk force sent from Cairo to contest the Portuguese in the Red Sea
+      turned inland instead, defeated Amir II and killed him. By the time it
+      did so, Selim had destroyed the Mamluk Sultanate in Egypt and Syria: the
+      army that ended Yemeni self-rule was acting for a state that no longer
+      existed, and it transferred its allegiance to the Ottomans afterwards.
+    source: porter-1992
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
