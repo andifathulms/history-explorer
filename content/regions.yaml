@@ -272,12 +272,13 @@ regions:
     group: mediterranean
     thread: false
 
-  # Added with thread: false, per the workflow rule. The Shirvanshahs span 799
-  # to 1538 and belong to no region this site had: the Iranian Intermezzo is
-  # bounded by the Mongol arrival, Iran after the Mongols begins in 1335, and
-  # the isthmus was in neither as a matter of geography or of what its dynasties
-  # thought they were. Georgia, Armenia and Derbend are the obvious further
-  # members and none of them is here yet.
+  # Added with thread: false for a single polity, and flipped once real sourced
+  # edges joined members of it, per the workflow rule. There is exactly one
+  # internal edge — shaddadid -> georgia, 1199 — and the thread draws it and
+  # nothing else. That is not a thin result waiting to be filled: five polities
+  # and one succession between any two of them is what this ground produced.
+  # Everything else here goes outward, to Byzantium, to Cilicia, to the Seljuks,
+  # to the Safavids, which is the whole argument of the region's blurb.
   - id: caucasus
     name: The Caucasus
     blurb: >-
@@ -286,4 +287,4 @@ regions:
       through — where local houses survived by being expensive to take and
       useful to leave alone.
     group: iran
-    thread: false
+    thread: true

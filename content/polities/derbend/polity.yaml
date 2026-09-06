@@ -1,0 +1,78 @@
+id: derbend
+region: caucasus
+
+name:
+  latin: Emirate of Derbend
+  script: باب الأبواب
+  script_lang: ar
+
+span:
+  start: { min: 869, max: 869, source: minorsky-1958 }
+  end: { min: 1077, max: 1077, source: minorsky-1958 }
+
+identity: >-
+  The gate of gates: a walled pass three kilometres wide between the mountains
+  and the Caspian, and the emirate that lived on taxing everything that went
+  through it.
+
+capitals:
+  - { name: Derbend, script: دربند, from: 869, source: minorsky-1958 }
+
+core_region: The Caspian Gates and their hinterland, between the eastern Caucasus and the sea
+
+rulers:
+  founder: { name: Hashim ibn Suraqa, source: minorsky-1958 }
+  # The local chronicle names emirs continuously and the works consulted do not
+  # identify one as the height or the last; this site does not appoint them.
+  peak: { name: null, source: null }
+  last: { name: null, source: null }
+
+scripts_and_languages:
+  administration: [Arabic, Persian]
+  writing_system: Perso-Arabic
+
+ended:
+  type: conquest
+  by: [great-seljuk]
+  year: 1077
+  source: minorsky-1958
+
+institutions:
+  # Null, and for the reason this site's Mirdasid record gives about Aleppo's
+  # ahdath. Derbend's fighting strength was the city itself — a frontier ribat
+  # settled with ghazi volunteers endowed to hold the pass, plus the armed
+  # quarters under their own leaders, plus highland allies hired or persuaded
+  # for a season. The emir commanded a retinue and negotiated with the rest.
+  # None of the seven values describes a city that arms itself, and coding
+  # `conscript` would assert an administrative levy that did not exist.
+  military_basis: null
+  # The pass, and only the pass. Derbend controlled the one practicable land
+  # route between the steppe and Iran, three kilometres wide, and took a share
+  # of everything that used it. The only other polity in this corpus coded on
+  # tolls alone is Palmyra, which taxed a road across a desert for the same
+  # reason: the ground produced nothing and the position produced everything.
+  revenue_basis: { values: [trade-toll], source: minorsky-1958 }
+  # The emirate was hereditary in the Hashimid family and its holder was
+  # repeatedly deposed, exiled, recalled and killed by the city's own notables
+  # and its rais. Nothing consulted describes that as a rule rather than as
+  # what kept happening, so the field is null rather than `factional`.
+  succession_rule: null
+  legitimation: { values: [caliphal-investiture], source: minorsky-1958 }
+
+# None, deliberately. Coding rule 4.3 covers this case and names Srivijaya for
+# it: a polity whose power was a standing arrangement over a strait rather than
+# a sequence of decisive days. Derbend is the same shape. Two centuries of the
+# same three things happening — the pass taxed, the city deposing its emir, the
+# Shirvanshahs and the highland principalities manoeuvring — and no dated event
+# in the works consulted that altered what the emirate was subsequently able to
+# do. An empty list is a true statement and a padded one would be false in the
+# direction that makes this site look more complete than it is.
+turning_points: []
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

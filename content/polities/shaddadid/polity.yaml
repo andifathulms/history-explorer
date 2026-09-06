@@ -1,0 +1,78 @@
+id: shaddadid
+region: caucasus
+
+name:
+  latin: Shaddadid Emirate
+  script: الشدادية
+  script_lang: ar
+
+# 951 is Muhammad ibn Shaddad establishing himself at Dvin; 1199 is the Georgian
+# capture of Ani, where the last branch of the house was ruling. The Ganja line
+# had ended in 1075.
+span:
+  start: { min: 951, max: 951, source: minorsky-1953 }
+  end: { min: 1199, max: 1199, source: minorsky-1953 }
+
+identity: >-
+  A Kurdish dynasty at Ganja and then at Ani, which governed the Armenian royal
+  capital for a hundred and twenty-six years — and out of whose service Saladin's
+  family came.
+
+capitals:
+  - { name: Ganja, script: گنجه, from: 971, source: minorsky-1953 }
+  - { name: Ani, script: Անի, from: 1072, source: minorsky-1953 }
+
+core_region: Arran and the Armenian highland, between the Kura and the Araxes
+
+rulers:
+  founder: { name: Muhammad ibn Shaddad, source: minorsky-1953 }
+  peak: { name: Fadl I, reign: [985, 1031], source: minorsky-1953 }
+  last: { name: null, source: null }
+
+scripts_and_languages:
+  administration: [Arabic, Persian]
+  writing_system: Perso-Arabic
+
+ended:
+  type: conquest
+  by: [georgia]
+  year: 1199
+  source: minorsky-1953
+
+institutions:
+  military_basis: { values: [tribal-levy], source: minorsky-1953 }
+  # The land of Arran, which is good country, and the customs of two cities on
+  # the road between Iran, the Caucasus and Anatolia. Unranked.
+  revenue_basis: { values: [land-tax, trade-toll], source: minorsky-1953 }
+  # The house divided: Ganja and then Dvin and then Ani were held by different
+  # members of it, which is the patrimonial division `appanage` names and which
+  # is why the two halves of this record have different end dates.
+  succession_rule: { values: [appanage], source: minorsky-1953 }
+  # `conquest`, and the field cannot say the more interesting part: the Ani
+  # branch held its city as a grant from Alp Arslan after the Seljuks took it in
+  # 1064, which is the seventh occasion in this corpus where a ruler's public
+  # ground was an authority held on somebody else's behalf and the vocabulary
+  # has a value only for the version where that somebody is a caliph.
+  legitimation: { values: [conquest], source: minorsky-1953 }
+
+turning_points:
+  - year: 1072
+    type: treaty
+    name: "Ani granted"
+    changed: >-
+      Alp Arslan had taken and sacked Ani eight years earlier; the Seljuks now
+      handed the ruined Armenian royal capital to a Kurdish emir to hold for
+      them. A Muslim dynasty governed the seat of the Bagratid kingdom for the
+      following hundred and twenty-six years, maintained its churches and its
+      Armenian population, and gave this corpus a page that begins in Arran and
+      ends in Armenia.
+    source: minorsky-1953
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

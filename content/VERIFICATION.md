@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**2484 claims across 135 sources.**
+**2513 claims across 136 sources.**
 
 ## Where to start
 
@@ -1960,6 +1960,33 @@ ordinary state, not an item to clear.
 - [ ] `polity/burid` — turning point 1148 The Second Crusade at Damascus
 - [ ] `polity/burid` — ended by gradual absorption in 1154
 
+## Vladimir Minorsky, A History of Sharvan and Darband in the 10th-11th Centuries
+
+`minorsky-1958` — 20 claims
+
+**Sole source** for `derbend` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/derbend/01-the-gate.mdx` — prose: "The gate of gates"
+- [ ] `chapter/derbend/02-the-city-and-the-emir.mdx` — prose: "The city and the emir"
+- [ ] `chapter/derbend/03-a-standing-arrangement.mdx` — prose: "A polity with no turning points"
+- [ ] `chapter/derbend/04-1077.mdx` — prose: "The Seljuks come through"
+- [ ] `chapter/shirvanshah/01-arabs-who-became-sasanians.mdx` — prose: "Arabs who became Sasanians"
+- [ ] `chapter/shirvanshah/02-what-lasting-costs.mdx` — prose: "What lasting looks like in the fields"
+- [ ] `chapter/shirvanshah/03-khaqani.mdx` — prose: "The twelfth-century court"
+- [ ] `edge/derbend->great-seljuk` — conquered by in 1077
+- [ ] `polity/derbend` — span starts 869
+- [ ] `polity/derbend` — span ends 1077
+- [ ] `polity/derbend` — capital Derbend from 869
+- [ ] `polity/derbend` — founder Hashim ibn Suraqa
+- [ ] `polity/derbend` — revenue basis coded trade-toll
+- [ ] `polity/derbend` — legitimation coded caliphal-investiture
+- [ ] `polity/derbend` — ended by conquest in 1077
+- [ ] `polity/shirvanshah` — span starts 799
+- [ ] `polity/shirvanshah` — capital Shamakhi from 861
+- [ ] `polity/shirvanshah` — founder Yazid ibn Mazyad al-Shaybani
+- [ ] `polity/shirvanshah` — revenue basis coded land-tax + trade-toll + mining
+- [ ] `polity/shirvanshah` — legitimation coded descent
+
 ## Michael Brett, The Fatimid Empire
 
 `brett-2017` — 20 claims
@@ -2306,6 +2333,31 @@ ordinary state, not an item to clear.
 - [ ] `polity/mirdasid` — turning point 1025 The taking of Aleppo
 - [ ] `polity/mirdasid` — turning point 1029 Al-Uqhuwana
 - [ ] `polity/mirdasid` — ended by dynastic replacement in 1080
+
+## Vladimir Minorsky, Studies in Caucasian History: New Light on the Shaddadids of Ganja; The Shaddadids of Ani; Prehistory of Saladin
+*In Cambridge Oriental Series 6.*
+
+`minorsky-1953` — 17 claims
+
+**Sole source** for `shaddadid` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/shaddadid/01-ganja.mdx` — prose: "Ganja"
+- [ ] `chapter/shaddadid/02-ani.mdx` — prose: "A Kurdish emir in the Armenian capital"
+- [ ] `chapter/shaddadid/03-prehistory-of-saladin.mdx` — prose: "Where Saladin's family came from"
+- [ ] `chapter/shaddadid/04-1199.mdx` — prose: "Tamar takes Ani"
+- [ ] `edge/shaddadid->georgia` — conquered by in 1199
+- [ ] `polity/shaddadid` — span starts 951
+- [ ] `polity/shaddadid` — span ends 1199
+- [ ] `polity/shaddadid` — capital Ganja from 971
+- [ ] `polity/shaddadid` — capital Ani from 1072
+- [ ] `polity/shaddadid` — founder Muhammad ibn Shaddad
+- [ ] `polity/shaddadid` — peak Fadl I r. 985-1031
+- [ ] `polity/shaddadid` — military basis coded tribal-levy
+- [ ] `polity/shaddadid` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/shaddadid` — succession rule coded appanage
+- [ ] `polity/shaddadid` — legitimation coded conquest
+- [ ] `polity/shaddadid` — turning point 1072 Ani granted
+- [ ] `polity/shaddadid` — ended by conquest in 1199
 
 ## F. E. Peters, Mecca: A Literary History of the Muslim Holy Land
 
@@ -2993,19 +3045,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/zurayid` — peak Muhammad ibn Saba'
 - [ ] `polity/zurayid` — military basis coded tribal-levy
 - [ ] `polity/zurayid` — revenue basis coded trade-toll
-
-## Vladimir Minorsky, A History of Sharvan and Darband in the 10th-11th Centuries
-
-`minorsky-1958` — 8 claims
-
-- [ ] `chapter/shirvanshah/01-arabs-who-became-sasanians.mdx` — prose: "Arabs who became Sasanians"
-- [ ] `chapter/shirvanshah/02-what-lasting-costs.mdx` — prose: "What lasting looks like in the fields"
-- [ ] `chapter/shirvanshah/03-khaqani.mdx` — prose: "The twelfth-century court"
-- [ ] `polity/shirvanshah` — span starts 799
-- [ ] `polity/shirvanshah` — capital Shamakhi from 861
-- [ ] `polity/shirvanshah` — founder Yazid ibn Mazyad al-Shaybani
-- [ ] `polity/shirvanshah` — revenue basis coded land-tax + trade-toll + mining
-- [ ] `polity/shirvanshah` — legitimation coded descent
 
 ## Mark Edward Lewis, China's Cosmopolitan Empire: The Tang Dynasty
 

@@ -1157,6 +1157,27 @@ edges:
     source: daftary-2007
     contested: true
 
+  - from: shaddadid
+    to: georgia
+    type: conquered by
+    year: 1199
+    note: "Georgian forces under Tamar's Zakarid generals took Ani from the last
+           Shaddadid emir, a hundred and twenty-six years after the Seljuks had
+           granted the Armenian royal capital to his family."
+    source: minorsky-1953
+    contested: false
+
+  - from: derbend
+    to: great-seljuk
+    type: conquered by
+    year: 1077
+    note: "The pass built by a Sasanian emperor to keep Turkic peoples out of
+           the countries south of the Caucasus was taken by Turkic peoples who
+           had come round it, out of Central Asia by way of Iran, and arrived
+           from the south."
+    source: minorsky-1958
+    contested: false
+
   - from: bagratid-armenia
     to: byzantine
     type: conquered by
