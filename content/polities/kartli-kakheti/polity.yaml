@@ -1,0 +1,101 @@
+id: kartli-kakheti
+region: caucasus
+
+name:
+  latin: Kingdom of Kartli-Kakheti
+  script: ქართლ-კახეთის სამეფო
+  script_lang: ka
+
+span:
+  start: { min: 1762, max: 1762, source: suny-1994 }
+  end: { min: 1801, max: 1801, source: suny-1994 }
+
+identity: >-
+  Two of the three kingdoms Georgia broke into in 1490, reunited for thirty-nine
+  years by a king who tried to build a state, signed a protectorate with Russia,
+  and had his capital destroyed while waiting for the protector.
+
+capitals:
+  - { name: Tbilisi, script: თბილისი, from: 1762, source: suny-1994 }
+
+core_region: Eastern Georgia, the Kura and Alazani valleys
+
+rulers:
+  founder: { name: Erekle II, reign: [1762, 1798], source: suny-1994 }
+  peak: { name: Erekle II, reign: [1762, 1798], source: suny-1994 }
+  last: { name: George XII, reign: [1798, 1800], source: suny-1994 }
+
+scripts_and_languages:
+  administration: [Georgian]
+  writing_system: The Georgian alphabet
+
+# Russia annexed the kingdom outright in 1801, abolished the Bagrationi
+# monarchy and deported the royal family. The Russian empire is not in this
+# corpus, so `by` is empty rather than pointed at nothing.
+ended:
+  type: conquest
+  by: []
+  year: 1801
+  source: suny-1994
+
+institutions:
+  # The noble levy this site codes on four other Caucasian records, and
+  # something new beside it. In 1773 Erekle instituted the morigeoba, a
+  # rotational obligation under which households across the kingdom served in
+  # arms for a month a year in turn — an attempt to build a national force that
+  # did not depend on the tavadi houses agreeing to supply one. `conscript` is
+  # the vocabulary's value for a levy raised from a settled population by
+  # administrative obligation, and this is one of very few polities here that
+  # carries it.
+  military_basis: { values: [client-levy, conscript], source: suny-1994 }
+  revenue_basis: { values: [land-tax, trade-toll], source: suny-1994 }
+  succession_rule: { values: [primogeniture], source: suny-1994 }
+  # The same Bagrationi claim the Kingdom of Georgia record carries: descent
+  # from David, king of Israel, asserted in the titulature and the heraldry for
+  # eight hundred years and abolished with the dynasty in 1801.
+  legitimation: { values: [descent], source: suny-1994 }
+
+turning_points:
+  - year: 1773
+    type: reform
+    name: "The morigeoba"
+    changed: >-
+      Erekle imposed a rotational military obligation on households across the
+      kingdom — a month's service a year in turn — in order to have troops the
+      noble houses could not withhold. It is the same problem David IV solved in
+      the twelfth century by importing Kipchaks and settling them, attempted six
+      centuries later with the population he already had, and it lapsed within a
+      decade against noble opposition.
+    source: suny-1994
+    contested: false
+  - year: 1783
+    type: treaty
+    name: "Georgievsk"
+    changed: >-
+      The kingdom accepted Russian protection: Russia guaranteed its territory
+      and the Bagrationi succession, Georgia renounced all dependence on Iran
+      and agreed to conduct no foreign policy without Russian consent. Erekle
+      had bought a guarantor against the Ottomans and the Qajars, and had given
+      up the ability to negotiate with either.
+    source: suny-1994
+    contested: false
+  - year: 1795
+    type: battle
+    name: "Krtsanisi"
+    changed: >-
+      Agha Muhammad Khan demanded that Georgia repudiate the Russian treaty,
+      Erekle refused, and the Qajar army destroyed his force outside Tbilisi and
+      sacked the city, killing or enslaving a large part of its population. No
+      Russian troops came. The treaty of 1783 was demonstrated to be worth
+      nothing in the one circumstance it had been signed for, and the kingdom
+      never recovered.
+    source: suny-1994
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

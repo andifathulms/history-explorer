@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**2571 claims across 138 sources.**
+**2591 claims across 138 sources.**
 
 ## Where to start
 
@@ -884,6 +884,65 @@ ordinary state, not an item to clear.
 - [ ] `polity/muzaffarid` — turning point 1393 Shah Mansur at Shiraz
 - [ ] `polity/muzaffarid` — ended by conquest in 1393
 
+## Ronald Grigor Suny, The Making of the Georgian Nation
+
+`suny-1994` — 52 claims
+
+**Sole source** for `georgia`, `kartli-kakheti` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/caucasian-iberia/03-nino.mdx` — prose: "Nino"
+- [ ] `chapter/caucasian-iberia/04-vakhtang.mdx` — prose: "Vakhtang Gorgasali"
+- [ ] `chapter/caucasian-iberia/05-580.mdx` — prose: "Four centuries without a king"
+- [ ] `chapter/georgia/01-one-crown.mdx` — prose: "One crown, in 1008"
+- [ ] `chapter/georgia/02-didgori.mdx` — prose: "The army the nobles could not withhold"
+- [ ] `chapter/georgia/03-tamar.mdx` — prose: "Tamar"
+- [ ] `chapter/georgia/04-the-mongols.mdx` — prose: "What the Mongols left in place"
+- [ ] `chapter/georgia/05-a-christian-kingdom.mdx` — prose: "What a Christian kingdom looked like in these fields"
+- [ ] `chapter/georgia/06-1490.mdx` — prose: "Three kingdoms"
+- [ ] `chapter/kartli-kakheti/01-two-of-three.mdx` — prose: "Two of the three"
+- [ ] `chapter/kartli-kakheti/02-the-reforms.mdx` — prose: "What Erekle tried to build"
+- [ ] `chapter/kartli-kakheti/03-georgievsk.mdx` — prose: "Georgievsk"
+- [ ] `chapter/kartli-kakheti/04-krtsanisi.mdx` — prose: "Krtsanisi"
+- [ ] `chapter/kartli-kakheti/05-1801.mdx` — prose: "1801"
+- [ ] `edge/caucasian-iberia->sasanian` — conquered by in 580
+- [ ] `edge/georgia->kartli-kakheti` — absorbed remnants of in 1762
+- [ ] `polity/caucasian-iberia` — span ends 580
+- [ ] `polity/caucasian-iberia` — capital Tbilisi from 522
+- [ ] `polity/caucasian-iberia` — peak Vakhtang I Gorgasali r. 447-522
+- [ ] `polity/caucasian-iberia` — last Bakur III
+- [ ] `polity/caucasian-iberia` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/caucasian-iberia` — turning point 337 The conversion of Mirian
+- [ ] `polity/caucasian-iberia` — ended by conquest in 580
+- [ ] `polity/georgia` — span starts 1008
+- [ ] `polity/georgia` — span ends 1490
+- [ ] `polity/georgia` — capital Kutaisi from 1008
+- [ ] `polity/georgia` — capital Tbilisi from 1122
+- [ ] `polity/georgia` — founder Bagrat III r. 1008-1014
+- [ ] `polity/georgia` — peak Tamar r. 1184-1213
+- [ ] `polity/georgia` — last George VIII
+- [ ] `polity/georgia` — military basis coded client-levy + standing-professional
+- [ ] `polity/georgia` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/georgia` — succession rule coded primogeniture
+- [ ] `polity/georgia` — legitimation coded descent
+- [ ] `polity/georgia` — turning point 1121 Didgori
+- [ ] `polity/georgia` — turning point 1122 Tbilisi
+- [ ] `polity/georgia` — turning point 1243 Submission to the Mongols
+- [ ] `polity/georgia` — ended by fragmentation in 1490
+- [ ] `polity/kartli-kakheti` — span starts 1762
+- [ ] `polity/kartli-kakheti` — span ends 1801
+- [ ] `polity/kartli-kakheti` — capital Tbilisi from 1762
+- [ ] `polity/kartli-kakheti` — founder Erekle II r. 1762-1798
+- [ ] `polity/kartli-kakheti` — peak Erekle II r. 1762-1798
+- [ ] `polity/kartli-kakheti` — last George XII r. 1798-1800
+- [ ] `polity/kartli-kakheti` — military basis coded client-levy + conscript
+- [ ] `polity/kartli-kakheti` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/kartli-kakheti` — succession rule coded primogeniture
+- [ ] `polity/kartli-kakheti` — legitimation coded descent
+- [ ] `polity/kartli-kakheti` — turning point 1773 The morigeoba
+- [ ] `polity/kartli-kakheti` — turning point 1783 Georgievsk
+- [ ] `polity/kartli-kakheti` — turning point 1795 Krtsanisi
+- [ ] `polity/kartli-kakheti` — ended by conquest in 1801
+
 ## R. N. Frye (ed.), The Cambridge History of Iran, Volume 4: From the Arab Invasion to the Saljuqs
 
 `chi-4` — 45 claims
@@ -1417,45 +1476,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/yuan` — peak Kublai Khan r. 1271-1294
 - [ ] `polity/yuan` — last Toghon Temur r. 1333-1368
 - [ ] `polity/yuan` — descendant_scripts = 1 (Phags-pa script)
-
-## Ronald Grigor Suny, The Making of the Georgian Nation
-
-`suny-1994` — 32 claims
-
-**Sole source** for `georgia` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/caucasian-iberia/03-nino.mdx` — prose: "Nino"
-- [ ] `chapter/caucasian-iberia/04-vakhtang.mdx` — prose: "Vakhtang Gorgasali"
-- [ ] `chapter/caucasian-iberia/05-580.mdx` — prose: "Four centuries without a king"
-- [ ] `chapter/georgia/01-one-crown.mdx` — prose: "One crown, in 1008"
-- [ ] `chapter/georgia/02-didgori.mdx` — prose: "The army the nobles could not withhold"
-- [ ] `chapter/georgia/03-tamar.mdx` — prose: "Tamar"
-- [ ] `chapter/georgia/04-the-mongols.mdx` — prose: "What the Mongols left in place"
-- [ ] `chapter/georgia/05-a-christian-kingdom.mdx` — prose: "What a Christian kingdom looked like in these fields"
-- [ ] `chapter/georgia/06-1490.mdx` — prose: "Three kingdoms"
-- [ ] `edge/caucasian-iberia->sasanian` — conquered by in 580
-- [ ] `polity/caucasian-iberia` — span ends 580
-- [ ] `polity/caucasian-iberia` — capital Tbilisi from 522
-- [ ] `polity/caucasian-iberia` — peak Vakhtang I Gorgasali r. 447-522
-- [ ] `polity/caucasian-iberia` — last Bakur III
-- [ ] `polity/caucasian-iberia` — revenue basis coded land-tax + trade-toll
-- [ ] `polity/caucasian-iberia` — turning point 337 The conversion of Mirian
-- [ ] `polity/caucasian-iberia` — ended by conquest in 580
-- [ ] `polity/georgia` — span starts 1008
-- [ ] `polity/georgia` — span ends 1490
-- [ ] `polity/georgia` — capital Kutaisi from 1008
-- [ ] `polity/georgia` — capital Tbilisi from 1122
-- [ ] `polity/georgia` — founder Bagrat III r. 1008-1014
-- [ ] `polity/georgia` — peak Tamar r. 1184-1213
-- [ ] `polity/georgia` — last George VIII
-- [ ] `polity/georgia` — military basis coded client-levy + standing-professional
-- [ ] `polity/georgia` — revenue basis coded land-tax + trade-toll
-- [ ] `polity/georgia` — succession rule coded primogeniture
-- [ ] `polity/georgia` — legitimation coded descent
-- [ ] `polity/georgia` — turning point 1121 Didgori
-- [ ] `polity/georgia` — turning point 1122 Tbilisi
-- [ ] `polity/georgia` — turning point 1243 Submission to the Mongols
-- [ ] `polity/georgia` — ended by fragmentation in 1490
 
 ## John C. Wilkinson, The Imamate Tradition of Oman
 *In Cambridge Middle East Library.*

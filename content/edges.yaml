@@ -1157,6 +1157,16 @@ edges:
     source: daftary-2007
     contested: true
 
+  - from: georgia
+    to: kartli-kakheti
+    type: absorbed remnants of
+    year: 1762
+    note: "Erekle II of Kakheti inherited Kartli on his father's death, putting
+           two of the three kingdoms the medieval realm had been divided into
+           back together after two hundred and seventy-two years."
+    source: suny-1994
+    contested: false
+
   - from: greater-armenia
     to: sasanian
     type: conquered by
