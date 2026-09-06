@@ -1,0 +1,204 @@
+id: holy-roman-empire
+region: byzantium-and-the-latin-west
+
+name:
+  latin: Holy Roman Empire
+  script: Sacrum Romanum Imperium
+  script_lang: la
+
+# 962 is Otto I's coronation in Rome, in explicit revival of the empire this
+# site's Carolingian record carries; 1806 is Francis II's abdication of the
+# title. Wilson runs his account from 800 on the argument that the institution
+# is continuous from Charlemagne, and this site does not, because it carries the
+# Carolingian empire as a separate record ending in 888.
+#
+# The pair is not a `resumes` case, and it is worth saying why, because the
+# shape looks right: two records, a seventy-four-year gap, the later one openly
+# invoking the earlier. `resumes` says two records are one object seen twice.
+# This is a Saxon dynasty ruling East Francia and claiming a Frankish empire's
+# legitimacy, which is a claim and not an identity — so the relation is an edge
+# of type `claimed legitimacy of`, and the build would refuse both anyway, since
+# a pair is either a succession or the same object resuming and this site does
+# not assert both.
+span:
+  start: { min: 962, max: 962, source: wilson-2016 }
+  end: { min: 1806, max: 1806, source: wilson-2016 }
+
+identity: >-
+  An elective monarchy with no capital, no standing army, no common language and
+  no revenue, which outlasted every centralised state around it by several
+  centuries.
+
+# There is no `capitals` block, and this is the only record on this site without
+# one. The empire had no capital. Emperors were elected at Frankfurt and crowned
+# at Aachen and later at Rome; the imperial supreme court sat at Speyer and then
+# Wetzlar; the Diet became permanent at Regensburg in 1663; and the emperor
+# himself governed from wherever his dynasty's own lands were, which after 1438
+# meant Vienna and before that meant Prague, Palermo or a horse. The site's
+# schema treats `capitals` as optional and this is the record that needed it to
+# be.
+
+core_region: Germany, the Low Countries, Bohemia, Switzerland and northern Italy
+
+rulers:
+  founder: { name: Otto I, reign: [962, 973], source: wilson-2016 }
+  peak: { name: Frederick II, reign: [1220, 1250], source: wilson-2016 }
+  last: { name: Francis II, reign: [1792, 1806], source: wilson-2016 }
+
+scripts_and_languages:
+  administration: [Latin, German]
+  writing_system: Latin
+
+# The emperor abolished the empire. After Austerlitz and the formation of the
+# Confederation of the Rhine under French protection, Francis II — who had
+# already taken the title Emperor of Austria in 1804 in anticipation —
+# renounced the imperial crown on 6 August 1806 and released the estates from
+# their obligations, specifically so that Napoleon could not take the title
+# himself.
+#
+# The closed vocabulary has no value for a polity dissolved by a unilateral act
+# of its own head. `fragmentation` is coded because it describes what the
+# territory did — the member states became sovereign — and `by` is empty because
+# the power that forced it is not in this corpus. One case is not a pattern and
+# no vocabulary change is proposed.
+ended:
+  type: fragmentation
+  by: []
+  year: 1806
+  source: wilson-2016
+
+institutions:
+  # Contingents supplied by the member territories, and hired men. There was no
+  # imperial army in the sense the Roman or Byzantine records on this site have
+  # one. From the reform of 1681 the Reichsarmee was a quota system: each of the
+  # imperial circles owed a fixed number of horse and foot, raised and paid by
+  # its own princes, assembled when the Diet declared an imperial war. It was
+  # slow, it was mocked, and it was the standing arrangement of a polity whose
+  # head could not raise troops on his own authority.
+  military_basis: { values: [client-levy, mercenary], source: wilson-2016 }
+  # The emperor was chronically poor and the empire as such had almost no
+  # income. What existed were matricular contributions — the Roman Months —
+  # voted by the Diet and assessed on the member territories, plus the dues of
+  # the imperial cities and the Jewish communities, both of which the emperor
+  # held directly.
+  #
+  # `tribute` is the vocabulary's nearest and it is not right: these are
+  # contributions from members of the polity rather than revenue from another
+  # one. What is missing is the same value the Carolingian record's comment
+  # names — the ruler's own domain — because the money that actually paid for
+  # imperial policy came from the emperor's dynastic lands, which is why the
+  # office was worth having to a Habsburg and to nobody else. That is now the
+  # second record to point at the gap, and two is not nine.
+  revenue_basis: { values: [tribute], source: wilson-2016 }
+  # `election`, and after Venice this is the best-documented instance of the
+  # value in the corpus. The Golden Bull of 1356 fixed seven electors by name
+  # and office, the place of election at Frankfurt, the coronation at Aachen,
+  # the procedure, the order of voting and the rule that a majority sufficed —
+  # and it held for four hundred and fifty years. It is a written constitution
+  # for a succession, which this site's Hittite, Assyrian, Hasmonean and
+  # Venetian records are the only other examples of.
+  succession_rule: { values: [election], source: wilson-2016 }
+  # Three. The election, which was the legal title. `titulature`, which is the
+  # Roman name and the doctrine of translatio imperii — that the empire had
+  # passed from the Romans to the Greeks to the Franks to the Germans — and
+  # which is why this site's Roman and Carolingian records both count a
+  # successor claim for this polity. And the coronation and anointing, which
+  # made the emperor a sacred person and which is the subject of a two-hundred
+  # year quarrel with the papacy over who conferred what.
+  legitimation: { values: [election, titulature, divine-sanction], source: wilson-2016 }
+
+# Five turning points and not one of them is a battle, which is a fair
+# description of the polity: its history is constitutional, and the things that
+# changed it were documents.
+turning_points:
+  - year: 1122
+    type: treaty
+    name: The Concordat of Worms
+    changed: >-
+      Fifty years of quarrel between emperors and popes over who appointed
+      bishops ended in a compromise: the church invested them with the ring and
+      staff, the emperor with the temporal regalia, and in Germany he was
+      present at the election. The emperor lost the unquestioned right to
+      appoint the men who held a large share of the empire's land and offices,
+      and the German church began drifting out of imperial control. This site
+      added the value `investiture` to its legitimation vocabulary for rulers
+      whose ground was a grant from an external sovereign, and this is the
+      dispute the word comes from.
+    source: wilson-2016
+    contested: false
+  - year: 1356
+    type: reform
+    name: The Golden Bull
+    changed: >-
+      Charles IV fixed the imperial election: seven electors named by office,
+      voting at Frankfurt, majority sufficient, coronation at Aachen, and no
+      papal role of any kind. It removed the two things that had produced civil
+      war for three centuries — disputed elections and papal claims to confirm
+      or reject — and it is the constitution the empire ran on until 1806.
+    source: wilson-2016
+    contested: false
+  - year: 1495
+    type: reform
+    name: The Reichsreform
+    changed: >-
+      The Diet at Worms declared a perpetual public peace outlawing private war,
+      created an imperial supreme court staffed by the estates rather than by
+      the emperor, and voted a general tax. The tax was not collected and the
+      rest held. An empire that could not raise an army or a revenue acquired
+      instead a functioning system of litigation, and for the following three
+      centuries its members largely sued each other rather than fighting.
+    source: wilson-2016
+    contested: false
+  - year: 1555
+    type: treaty
+    name: The Peace of Augsburg
+    changed: >-
+      Lutheran and Catholic princes agreed that each ruler would determine the
+      confession of his own territory. It is the settlement usually summarised
+      as cuius regio, eius religio, it lasted sixty-three years, and it made
+      religion a territorial attribute rather than an imperial one — which is
+      the moment the empire stops being able to be a single confessional body
+      and starts being a framework for coexistence between states that are not.
+    source: wilson-2016
+    contested: false
+  - year: 1648
+    type: treaty
+    name: Westphalia
+    changed: >-
+      The settlement ending the Thirty Years' War confirmed the territories'
+      right to conduct their own foreign policy, added Calvinism to the
+      recognised confessions, and fixed the constitution in a form that lasted
+      to 1806. It is conventionally read as the empire's death certificate and
+      Wilson's account reads it as a restoration: the framework survived the
+      worst war in European history until then, which is not what a dead
+      institution does.
+    source: wilson-2016
+    contested: true
+
+measures:
+  # Taagepera's figure, dated to 1050 — before the first turning point on this
+  # record and well before anything the polity is remembered for. It is a
+  # measurement of the Salian empire at its territorial widest, and the record's
+  # own account is that extent was never the thing this polity was for.
+  reach_km2: { value: 1000000, at: 1050, source: taagepera-1997 }
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: wilson-2016 }
+    # Otto I founded the archbishopric of Magdeburg as a missionary see for the
+    # Slavs east of the Elbe and the eastward expansion of Latin Christianity
+    # ran under imperial auspices for the following three centuries. Coding rule
+    # 2's clause on conquest followed by durable religious institutions covers
+    # it, and it is the same count and the same instrument as the Carolingian
+    # record's Saxon entry, one generation and one river further east.
+    religions_carried:
+      count: 1
+      items: [Latin Christianity]
+      source: wilson-2016
+    # Zero, and rule 1's exclusion of modern claims is doing the work. The
+    # German empire of 1871 called itself the second Reich and counted this one
+    # as the first; the rulebook puts nation-states invoking a medieval polity
+    # out of scope, because the count is about political succession within the
+    # period rather than about heritage. The Austrian empire of 1804 is a
+    # replacement rather than a claim: Francis II created it for himself and
+    # then abolished this one.
+    successor_claims: { count: 0, items: [], source: wilson-2016 }

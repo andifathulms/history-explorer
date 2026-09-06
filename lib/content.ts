@@ -156,7 +156,13 @@ export function loadCorpus(): Corpus {
     requireSource(p.span?.start?.max_source, where)
     requireSource(p.span?.end?.source, where)
     requireSource(p.span?.end?.max_source, where)
-    for (const c of p.capitals ?? []) requireSource(c.source, where)
+    // Normalised to [] for the same reason turning_points is: an absent key and
+    // an empty list say the same ordinary thing, and no consumer should need a
+    // null check. The Holy Roman Empire is the record that made this necessary —
+    // it had no capital, and the field is genuinely absent rather than unknown.
+    p.capitals ??= []
+    if (!Array.isArray(p.capitals)) throw new ContentError(where, 'capitals must be a list')
+    for (const c of p.capitals) requireSource(c.source, where)
     for (const r of [p.rulers?.founder, p.rulers?.peak, p.rulers?.last]) requireSource(r?.source, where)
     requireSource(p.measures?.reach_km2?.source, where)
     requireSource(p.measures?.peak_population?.source, where)

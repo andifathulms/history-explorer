@@ -179,7 +179,14 @@ measures:
       count: 1
       items: [Orthodox Christianity]
       source: whittow-1996
+    # Two. Mehmed II took the title Kayser-i Rum with the city in 1453. And the
+    # Latin emperors of 1204 to 1261 — the record for whom was added after this
+    # field was first written — used the Byzantine imperial style, continued
+    # Byzantine ceremonial and administration, and described what they had done
+    # as a renovatio rather than a conquest, which is titulature publicly
+    # asserted and is what rule 1 counts. Both claims were made by men who had
+    # just taken the city by force, which the rule does not filter on.
     successor_claims:
-      count: 1
-      items: [Ottoman Empire]
-      source: imber-2002
+      count: 2
+      items: [Latin Empire of Constantinople, Ottoman Empire]
+      source: van-tricht-2011

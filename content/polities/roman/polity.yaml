@@ -177,10 +177,14 @@ measures:
     # polity asserting an earlier polity's legitimacy, and a polity does not
     # claim itself.
     #
-    # What is left is the two claims that are claims, and they agree with the two
+    # What is left is the claims that are claims, and they agree with the
     # `claimed legitimacy of` edges in this site's data — which the rulebook says
-    # they should, and which is why the mismatch was findable.
+    # they should, and which is why the mismatch was findable. The third entry
+    # was added with the Holy Roman Empire's record: the doctrine of translatio
+    # imperii asserts this polity's legitimacy directly and not only through
+    # Charlemagne, so the claim is counted here and on the Carolingian record
+    # both, which rule 1's unit of one-per-claiming-polity-per-record allows.
     successor_claims:
-      count: 2
-      items: [Carolingian Empire, Ottoman Empire]
+      count: 3
+      items: [Carolingian Empire, Holy Roman Empire, Ottoman Empire]
       source: woolf-2012

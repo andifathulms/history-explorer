@@ -1714,6 +1714,58 @@ edges:
     source: wilkinson-1987
     contested: false
 
+  # ---- The title, and the city, change hands again ----
+
+  # Two claims on the same idea two hundred years apart, and this site counts
+  # both on the Roman record. The Ottonian one also runs through Charlemagne —
+  # Otto I was crowned in explicit revival of his empire — so it appears twice.
+  - from: carolingian
+    to: holy-roman-empire
+    type: claimed legitimacy of
+    year: 962
+    note: >-
+      Otto I, a Saxon from the people Charlemagne had conquered and baptised at
+      spearpoint, was crowned emperor at Rome seventy-four years after the last
+      Carolingian emperor was deposed, in explicit revival of the empire.
+    source: wilson-2016
+    contested: false
+
+  - from: roman
+    to: holy-roman-empire
+    type: claimed legitimacy of
+    year: 962
+    note: >-
+      The doctrine of translatio imperii held that the Roman empire had passed
+      to the Greeks, then to the Franks, then to the Germans, and that the
+      German king who was crowned at Rome held it. The name was Sacrum Romanum
+      Imperium from the twelfth century.
+    source: wilson-2016
+    contested: false
+
+  - from: byzantine
+    to: latin-empire
+    type: conquered by
+    year: 1204
+    note: >-
+      A crusade Venice had contracted to carry took Constantinople and installed
+      a Latin emperor. The partition treaty divided the empire between the
+      crusaders and Venice; three Greek governments claiming to be it survived
+      elsewhere, two of which this corpus carries.
+    source: van-tricht-2011
+    contested: false
+
+  - from: latin-empire
+    to: nicaea
+    type: conquered by
+    year: 1261
+    note: >-
+      A Nicaean force of about eight hundred found the garrison away raiding and
+      the Venetian fleet absent, and entered the city. The last Latin emperor
+      took ship for Italy and spent the rest of his life trying to raise a
+      crusade to get it back.
+    source: treadgold-1997
+    contested: false
+
   # ---- The lagoon lets go of Constantinople ----
 
   # Venice began as a Byzantine province. Its dukes were imperial officials with

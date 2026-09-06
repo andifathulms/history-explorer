@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**3290 claims across 178 sources.**
+**3338 claims across 180 sources.**
 
 ## Where to start
 
@@ -53,6 +53,7 @@ ordinary state, not an item to clear.
 - [ ] `gupta` — one figure, at 400 (Rein Taagepera, Size and Duration of Empires: Growth-Decline Curves, 600 B.C. to 600 A.D.)
 - [ ] `han` — one figure, at 100 (Rein Taagepera, Size and Duration of Empires: Growth-Decline Curves, 600 B.C. to 600 A.D.)
 - [ ] `hittite` — one figure, at -1250 (Rein Taagepera, Size and Duration of Empires: Systematics of Size)
+- [ ] `holy-roman-empire` — one figure, at 1050 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
 - [ ] `ilkhanate` — one figure, at 1310 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
 - [ ] `jin` — one figure, at 1150 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
 - [ ] `khazar` — one figure, at 850 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
@@ -773,6 +774,71 @@ ordinary state, not an item to clear.
 - [ ] `polity/tulunid` — turning point 905 Al-Qata'i burned
 - [ ] `polity/tulunid` — ended by conquest in 905
 
+## Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia
+*In International Studies Quarterly 41(3), 475-504.*
+
+`taagepera-1997` — 59 claims
+
+- [ ] `polity/abbasid` — reach 11,100,000 km2 at 750
+- [ ] `polity/almohad` — reach 2,300,000 km2 at 1200
+- [ ] `polity/byzantine` — reach 1,350,000 km2 at 555
+- [ ] `polity/carolingian` — reach 1,100,000 km2 at 800
+- [ ] `polity/chagatai` — reach 3,500,000 km2 at 1310
+- [ ] `polity/delhi-sultanate` — reach 3,200,000 km2 at 1312
+- [ ] `polity/fatimid` — reach 4,100,000 km2 at 969
+- [ ] `polity/ghaznavid` — reach 3,400,000 km2 at 1029
+- [ ] `polity/gokturk` — reach 6,000,000 km2 at 557
+- [ ] `polity/golden-horde` — reach 6,000,000 km2 at 1310
+- [ ] `polity/great-seljuk` — reach 3,900,000 km2 at 1080
+- [ ] `polity/holy-roman-empire` — reach 1,000,000 km2 at 1050
+- [ ] `polity/ilkhanate` — reach 3,750,000 km2 at 1310
+- [ ] `polity/jin` — reach 2,300,000 km2 at 1150
+- [ ] `polity/khazar` — reach 3,000,000 km2 at 850
+- [ ] `polity/liao` — reach 2,600,000 km2 at 947
+- [ ] `polity/ming` — reach 6,500,000 km2 at 1450
+- [ ] `polity/mongol` — reach 24,000,000 km2 at 1270
+- [ ] `polity/mughal` — reach 4,000,000 km2 at 1690
+- [ ] `polity/ottoman` — reach 5,200,000 km2 at 1683
+- [ ] `polity/rashidun` — reach 6,400,000 km2 at 655
+- [ ] `polity/safavid` — reach 2,900,000 km2 at 1512
+- [ ] `polity/samanid` — reach 2,600,000 km2 at 928
+- [ ] `polity/tang` — reach 5,400,000 km2 at 715
+- [ ] `polity/tibetan-empire` — reach 4,600,000 km2 at 800
+- [ ] `polity/timurid` — reach 4,400,000 km2 at 1405
+- [ ] `polity/umayyad` — reach 11,100,000 km2 at 720
+- [ ] `polity/uyghur-khaganate` — reach 3,100,000 km2 at 800
+- [ ] `polity/yuan` — reach 11,000,000 km2 at 1310
+- [ ] `reference/almohad` — reach 2,300,000 km2 at 1200
+- [ ] `reference/british-empire` — reach 35,500,000 km2 at 1920
+- [ ] `reference/byzantine` — reach 1,350,000 km2 at 555
+- [ ] `reference/carolingian` — reach 1,100,000 km2 at 800
+- [ ] `reference/chagatai` — reach 3,500,000 km2 at 1310
+- [ ] `reference/delhi-sultanate` — reach 3,200,000 km2 at 1312
+- [ ] `reference/fatimid` — reach 4,100,000 km2 at 969
+- [ ] `reference/french-colonial` — reach 11,500,000 km2 at 1938
+- [ ] `reference/gokturk` — reach 6,000,000 km2 at 557
+- [ ] `reference/golden-horde` — reach 6,000,000 km2 at 1310
+- [ ] `reference/ilkhanate` — reach 3,750,000 km2 at 1310
+- [ ] `reference/jin` — reach 2,300,000 km2 at 1150
+- [ ] `reference/khazar` — reach 3,000,000 km2 at 850
+- [ ] `reference/liao` — reach 2,600,000 km2 at 947
+- [ ] `reference/ming` — reach 6,500,000 km2 at 1450
+- [ ] `reference/mongol` — reach 24,000,000 km2 at 1270
+- [ ] `reference/mughal` — reach 4,000,000 km2 at 1690
+- [ ] `reference/ottoman` — reach 5,200,000 km2 at 1683
+- [ ] `reference/qing` — reach 14,700,000 km2 at 1790
+- [ ] `reference/rashidun` — reach 6,400,000 km2 at 655
+- [ ] `reference/russian-empire` — reach 22,800,000 km2 at 1895
+- [ ] `reference/safavid` — reach 2,900,000 km2 at 1512
+- [ ] `reference/soviet-union` — reach 22,400,000 km2 at 1945
+- [ ] `reference/spanish-empire` — reach 13,700,000 km2 at 1810
+- [ ] `reference/tang` — reach 5,400,000 km2 at 715
+- [ ] `reference/tibetan-empire` — reach 4,600,000 km2 at 800
+- [ ] `reference/timurid` — reach 4,400,000 km2 at 1405
+- [ ] `reference/umayyad` — reach 11,100,000 km2 at 720
+- [ ] `reference/uyghur-khaganate` — reach 3,100,000 km2 at 800
+- [ ] `reference/yuan` — reach 11,000,000 km2 at 1310
+
 ## Malcolm Barber, The Crusader States
 
 `barber-2012` — 59 claims
@@ -839,69 +905,69 @@ ordinary state, not an item to clear.
 - [ ] `polity/tripoli` — turning point 1289 Qalawun at Tripoli
 - [ ] `polity/tripoli` — ended by conquest in 1289
 
-## Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia
-*In International Studies Quarterly 41(3), 475-504.*
+## Warren Treadgold, A History of the Byzantine State and Society
 
-`taagepera-1997` — 58 claims
+`treadgold-1997` — 57 claims
 
-- [ ] `polity/abbasid` — reach 11,100,000 km2 at 750
-- [ ] `polity/almohad` — reach 2,300,000 km2 at 1200
-- [ ] `polity/byzantine` — reach 1,350,000 km2 at 555
-- [ ] `polity/carolingian` — reach 1,100,000 km2 at 800
-- [ ] `polity/chagatai` — reach 3,500,000 km2 at 1310
-- [ ] `polity/delhi-sultanate` — reach 3,200,000 km2 at 1312
-- [ ] `polity/fatimid` — reach 4,100,000 km2 at 969
-- [ ] `polity/ghaznavid` — reach 3,400,000 km2 at 1029
-- [ ] `polity/gokturk` — reach 6,000,000 km2 at 557
-- [ ] `polity/golden-horde` — reach 6,000,000 km2 at 1310
-- [ ] `polity/great-seljuk` — reach 3,900,000 km2 at 1080
-- [ ] `polity/ilkhanate` — reach 3,750,000 km2 at 1310
-- [ ] `polity/jin` — reach 2,300,000 km2 at 1150
-- [ ] `polity/khazar` — reach 3,000,000 km2 at 850
-- [ ] `polity/liao` — reach 2,600,000 km2 at 947
-- [ ] `polity/ming` — reach 6,500,000 km2 at 1450
-- [ ] `polity/mongol` — reach 24,000,000 km2 at 1270
-- [ ] `polity/mughal` — reach 4,000,000 km2 at 1690
-- [ ] `polity/ottoman` — reach 5,200,000 km2 at 1683
-- [ ] `polity/rashidun` — reach 6,400,000 km2 at 655
-- [ ] `polity/safavid` — reach 2,900,000 km2 at 1512
-- [ ] `polity/samanid` — reach 2,600,000 km2 at 928
-- [ ] `polity/tang` — reach 5,400,000 km2 at 715
-- [ ] `polity/tibetan-empire` — reach 4,600,000 km2 at 800
-- [ ] `polity/timurid` — reach 4,400,000 km2 at 1405
-- [ ] `polity/umayyad` — reach 11,100,000 km2 at 720
-- [ ] `polity/uyghur-khaganate` — reach 3,100,000 km2 at 800
-- [ ] `polity/yuan` — reach 11,000,000 km2 at 1310
-- [ ] `reference/almohad` — reach 2,300,000 km2 at 1200
-- [ ] `reference/british-empire` — reach 35,500,000 km2 at 1920
-- [ ] `reference/byzantine` — reach 1,350,000 km2 at 555
-- [ ] `reference/carolingian` — reach 1,100,000 km2 at 800
-- [ ] `reference/chagatai` — reach 3,500,000 km2 at 1310
-- [ ] `reference/delhi-sultanate` — reach 3,200,000 km2 at 1312
-- [ ] `reference/fatimid` — reach 4,100,000 km2 at 969
-- [ ] `reference/french-colonial` — reach 11,500,000 km2 at 1938
-- [ ] `reference/gokturk` — reach 6,000,000 km2 at 557
-- [ ] `reference/golden-horde` — reach 6,000,000 km2 at 1310
-- [ ] `reference/ilkhanate` — reach 3,750,000 km2 at 1310
-- [ ] `reference/jin` — reach 2,300,000 km2 at 1150
-- [ ] `reference/khazar` — reach 3,000,000 km2 at 850
-- [ ] `reference/liao` — reach 2,600,000 km2 at 947
-- [ ] `reference/ming` — reach 6,500,000 km2 at 1450
-- [ ] `reference/mongol` — reach 24,000,000 km2 at 1270
-- [ ] `reference/mughal` — reach 4,000,000 km2 at 1690
-- [ ] `reference/ottoman` — reach 5,200,000 km2 at 1683
-- [ ] `reference/qing` — reach 14,700,000 km2 at 1790
-- [ ] `reference/rashidun` — reach 6,400,000 km2 at 655
-- [ ] `reference/russian-empire` — reach 22,800,000 km2 at 1895
-- [ ] `reference/safavid` — reach 2,900,000 km2 at 1512
-- [ ] `reference/soviet-union` — reach 22,400,000 km2 at 1945
-- [ ] `reference/spanish-empire` — reach 13,700,000 km2 at 1810
-- [ ] `reference/tang` — reach 5,400,000 km2 at 715
-- [ ] `reference/tibetan-empire` — reach 4,600,000 km2 at 800
-- [ ] `reference/timurid` — reach 4,400,000 km2 at 1405
-- [ ] `reference/umayyad` — reach 11,100,000 km2 at 720
-- [ ] `reference/uyghur-khaganate` — reach 3,100,000 km2 at 800
-- [ ] `reference/yuan` — reach 11,000,000 km2 at 1310
+**Sole source** for `nicaea` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/byzantine/01-the-half-that-did-not-fall.mdx` — prose: "The half that did not fall"
+- [ ] `chapter/byzantine/02-justinian.mdx` — prose: "Justinian"
+- [ ] `chapter/byzantine/04-the-survivor.mdx` — prose: "The empire that lost half of itself and continued"
+- [ ] `chapter/byzantine/09-1204.mdx` — prose: "1204"
+- [ ] `chapter/byzantine/10-1453.mdx` — prose: "1453"
+- [ ] `chapter/latin-empire/03-an-afternoon.mdx` — prose: "An afternoon"
+- [ ] `chapter/nicaea/01-a-government-in-exile-that-worked.mdx` — prose: "A government in exile that worked"
+- [ ] `chapter/nicaea/02-three-claimants.mdx` — prose: "Three claimants"
+- [ ] `chapter/nicaea/03-a-state-on-a-small-base.mdx` — prose: "A state on a small base"
+- [ ] `chapter/nicaea/04-the-church-in-exile.mdx` — prose: "The church in exile"
+- [ ] `chapter/nicaea/05-what-the-restoration-cost.mdx` — prose: "What the restoration cost"
+- [ ] `chapter/trebizond/01-two-hundred-miles-of-coast.mdx` — prose: "Two hundred miles of coast"
+- [ ] `chapter/trebizond/02-the-city-and-the-road.mdx` — prose: "The city and the road"
+- [ ] `chapter/trebizond/03-bessarion.mdx` — prose: "What left before the city fell"
+- [ ] `edge/byzantine->nicaea` — partitioned from in 1204
+- [ ] `edge/byzantine->trebizond` — partitioned from in 1204
+- [ ] `edge/latin-empire->nicaea` — conquered by in 1261
+- [ ] `edge/nicaea->byzantine` — claimed legitimacy of in 1261
+- [ ] `edge/roman->byzantine` — partitioned from in 395
+- [ ] `edge/sasanian->byzantine` — absorbed remnants of in 651
+- [ ] `polity/byzantine` — span starts 395
+- [ ] `polity/byzantine` — span ends 1453
+- [ ] `polity/byzantine` — capital Constantinople from 395
+- [ ] `polity/byzantine` — founder Arcadius r. 395-408
+- [ ] `polity/byzantine` — peak Basil II r. 976-1025
+- [ ] `polity/byzantine` — last Constantine XI r. 1449-1453
+- [ ] `polity/byzantine` — succession rule coded nomination
+- [ ] `polity/byzantine` — turning point 1071 Manzikert
+- [ ] `polity/byzantine` — turning point 1204 The Fourth Crusade
+- [ ] `polity/byzantine` — turning point 1341 The civil wars
+- [ ] `polity/byzantine` — ended by conquest in 1453
+- [ ] `polity/latin-empire` — span ends 1261
+- [ ] `polity/latin-empire` — last Baldwin II r. 1228-1261
+- [ ] `polity/latin-empire` — turning point 1235 The Greek and Bulgarian siege
+- [ ] `polity/latin-empire` — turning point 1261 The city taken back
+- [ ] `polity/latin-empire` — ended by conquest in 1261
+- [ ] `polity/nicaea` — span starts 1204
+- [ ] `polity/nicaea` — span ends 1261
+- [ ] `polity/nicaea` — capital Nicaea from 1204
+- [ ] `polity/nicaea` — capital Nymphaion from 1219
+- [ ] `polity/nicaea` — founder Theodore I Laskaris r. 1205-1222
+- [ ] `polity/nicaea` — peak John III Vatatzes r. 1222-1254
+- [ ] `polity/nicaea` — last Michael VIII Palaiologos r. 1259-1261
+- [ ] `polity/nicaea` — military basis coded land-grant + mercenary
+- [ ] `polity/nicaea` — revenue basis coded land-tax
+- [ ] `polity/nicaea` — succession rule coded nomination
+- [ ] `polity/nicaea` — legitimation coded titulature + descent
+- [ ] `polity/nicaea` — turning point 1261 Constantinople retaken
+- [ ] `polity/nicaea` — ended by dynastic replacement in 1261
+- [ ] `polity/roman` — ended by fragmentation in 395
+- [ ] `polity/trebizond` — span starts 1204
+- [ ] `polity/trebizond` — capital Trebizond from 1204
+- [ ] `polity/trebizond` — founder Alexios I Megas Komnenos r. 1204-1222
+- [ ] `polity/trebizond` — peak Alexios II Megas Komnenos r. 1297-1330
+- [ ] `polity/trebizond` — revenue basis coded trade-toll
+- [ ] `polity/trebizond` — legitimation coded descent + titulature
+- [ ] `polity/trebizond` — turning point 1282 Giving up the imperial title
 
 ## Peter Jackson and Laurence Lockhart (eds), The Cambridge History of Iran, Volume 6: The Timurid and Safavid Periods
 
@@ -1020,63 +1086,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/kartli-kakheti` — turning point 1783 Georgievsk
 - [ ] `polity/kartli-kakheti` — turning point 1795 Krtsanisi
 - [ ] `polity/kartli-kakheti` — ended by conquest in 1801
-
-## Warren Treadgold, A History of the Byzantine State and Society
-
-`treadgold-1997` — 50 claims
-
-**Sole source** for `nicaea` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/byzantine/01-the-half-that-did-not-fall.mdx` — prose: "The half that did not fall"
-- [ ] `chapter/byzantine/02-justinian.mdx` — prose: "Justinian"
-- [ ] `chapter/byzantine/04-the-survivor.mdx` — prose: "The empire that lost half of itself and continued"
-- [ ] `chapter/byzantine/09-1204.mdx` — prose: "1204"
-- [ ] `chapter/byzantine/10-1453.mdx` — prose: "1453"
-- [ ] `chapter/nicaea/01-a-government-in-exile-that-worked.mdx` — prose: "A government in exile that worked"
-- [ ] `chapter/nicaea/02-three-claimants.mdx` — prose: "Three claimants"
-- [ ] `chapter/nicaea/03-a-state-on-a-small-base.mdx` — prose: "A state on a small base"
-- [ ] `chapter/nicaea/04-the-church-in-exile.mdx` — prose: "The church in exile"
-- [ ] `chapter/nicaea/05-what-the-restoration-cost.mdx` — prose: "What the restoration cost"
-- [ ] `chapter/trebizond/01-two-hundred-miles-of-coast.mdx` — prose: "Two hundred miles of coast"
-- [ ] `chapter/trebizond/02-the-city-and-the-road.mdx` — prose: "The city and the road"
-- [ ] `chapter/trebizond/03-bessarion.mdx` — prose: "What left before the city fell"
-- [ ] `edge/byzantine->nicaea` — partitioned from in 1204
-- [ ] `edge/byzantine->trebizond` — partitioned from in 1204
-- [ ] `edge/nicaea->byzantine` — claimed legitimacy of in 1261
-- [ ] `edge/roman->byzantine` — partitioned from in 395
-- [ ] `edge/sasanian->byzantine` — absorbed remnants of in 651
-- [ ] `polity/byzantine` — span starts 395
-- [ ] `polity/byzantine` — span ends 1453
-- [ ] `polity/byzantine` — capital Constantinople from 395
-- [ ] `polity/byzantine` — founder Arcadius r. 395-408
-- [ ] `polity/byzantine` — peak Basil II r. 976-1025
-- [ ] `polity/byzantine` — last Constantine XI r. 1449-1453
-- [ ] `polity/byzantine` — succession rule coded nomination
-- [ ] `polity/byzantine` — turning point 1071 Manzikert
-- [ ] `polity/byzantine` — turning point 1204 The Fourth Crusade
-- [ ] `polity/byzantine` — turning point 1341 The civil wars
-- [ ] `polity/byzantine` — ended by conquest in 1453
-- [ ] `polity/nicaea` — span starts 1204
-- [ ] `polity/nicaea` — span ends 1261
-- [ ] `polity/nicaea` — capital Nicaea from 1204
-- [ ] `polity/nicaea` — capital Nymphaion from 1219
-- [ ] `polity/nicaea` — founder Theodore I Laskaris r. 1205-1222
-- [ ] `polity/nicaea` — peak John III Vatatzes r. 1222-1254
-- [ ] `polity/nicaea` — last Michael VIII Palaiologos r. 1259-1261
-- [ ] `polity/nicaea` — military basis coded land-grant + mercenary
-- [ ] `polity/nicaea` — revenue basis coded land-tax
-- [ ] `polity/nicaea` — succession rule coded nomination
-- [ ] `polity/nicaea` — legitimation coded titulature + descent
-- [ ] `polity/nicaea` — turning point 1261 Constantinople retaken
-- [ ] `polity/nicaea` — ended by dynastic replacement in 1261
-- [ ] `polity/roman` — ended by fragmentation in 395
-- [ ] `polity/trebizond` — span starts 1204
-- [ ] `polity/trebizond` — capital Trebizond from 1204
-- [ ] `polity/trebizond` — founder Alexios I Megas Komnenos r. 1204-1222
-- [ ] `polity/trebizond` — peak Alexios II Megas Komnenos r. 1297-1330
-- [ ] `polity/trebizond` — revenue basis coded trade-toll
-- [ ] `polity/trebizond` — legitimation coded descent + titulature
-- [ ] `polity/trebizond` — turning point 1282 Giving up the imperial title
 
 ## R. N. Frye (ed.), The Cambridge History of Iran, Volume 4: From the Arab Invasion to the Saljuqs
 
@@ -1996,37 +2005,6 @@ ordinary state, not an item to clear.
 - [ ] `reference/seleucid` — reach 3,900,000 km2 at -301
 - [ ] `reference/xiongnu` — reach 9,000,000 km2 at -176
 
-## Colin Imber, The Ottoman Empire, 1300-1650: The Structure of Power
-
-`imber-2002` — 26 claims
-
-- [ ] `chapter/ottoman/01-a-frontier-beylik.mdx` — prose: "The smallest of the beyliks"
-- [ ] `chapter/ottoman/02-the-balkans-first.mdx` — prose: "The Balkans first"
-- [ ] `chapter/ottoman/03-1453.mdx` — prose: "Two inheritances"
-- [ ] `chapter/ottoman/04-selim.mdx` — prose: "Two years that changed what the empire was"
-- [ ] `chapter/ottoman/05-suleyman-and-the-law.mdx` — prose: "The lawgiver, and what he actually did"
-- [ ] `chapter/ottoman/06-the-devshirme.mdx` — prose: "The levy of boys"
-- [ ] `edge/byzantine->ottoman` — claimed legitimacy of in 1453
-- [ ] `edge/mamluk-sultanate->ottoman` — conquered by in 1517
-- [ ] `edge/roman->ottoman` — claimed legitimacy of in 1453
-- [ ] `edge/rum->ottoman` — absorbed remnants of in 1299
-- [ ] `polity/byzantine` — successor_claims = 1 (Ottoman Empire)
-- [ ] `polity/ottoman` — span starts 1299
-- [ ] `polity/ottoman` — span ends 1922
-- [ ] `polity/ottoman` — capital Istanbul from 1453
-- [ ] `polity/ottoman` — founder Osman I r. 1299-1324
-- [ ] `polity/ottoman` — peak Suleyman I r. 1520-1566
-- [ ] `polity/ottoman` — last Mehmed VI r. 1918-1922
-- [ ] `polity/ottoman` — military basis coded land-grant + slave-soldier + tribal-levy
-- [ ] `polity/ottoman` — revenue basis coded land-tax + poll-tax + trade-toll
-- [ ] `polity/ottoman` — succession rule coded factional + tanistry
-- [ ] `polity/ottoman` — legitimation coded titulature
-- [ ] `polity/ottoman` — turning point 1402 Ankara
-- [ ] `polity/ottoman` — turning point 1453 The taking of Constantinople
-- [ ] `polity/ottoman` — turning point 1517 Ridaniya, and the Arab lands
-- [ ] `polity/ottoman` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/ottoman` — ended by fragmentation in 1922
-
 ## Pierre Briant, From Cyrus to Alexander: A History of the Persian Empire
 
 `briant-2002` — 25 claims
@@ -2086,6 +2064,66 @@ ordinary state, not an item to clear.
 - [ ] `polity/safavid` — religions_carried = 1 (Twelver Shi'ism)
 - [ ] `polity/shirvanshah` — last Farrukh Yasar r. 1465-1500
 - [ ] `polity/shirvanshah` — turning point 1500 The killing of Farrukh Yasar
+
+## Peter H. Wilson, Heart of Europe: A History of the Holy Roman Empire
+
+`wilson-2016` — 25 claims
+
+- [ ] `chapter/holy-roman-empire/01-none-of-the-three-words.mdx` — prose: "None of the three words"
+- [ ] `chapter/holy-roman-empire/02-an-empire-with-no-revenue.mdx` — prose: "An empire with no revenue"
+- [ ] `chapter/holy-roman-empire/03-the-golden-bull.mdx` — prose: "The Golden Bull"
+- [ ] `chapter/holy-roman-empire/04-a-framework-for-not-fighting.mdx` — prose: "A framework for not fighting"
+- [ ] `chapter/holy-roman-empire/05-1806.mdx` — prose: "1806"
+- [ ] `edge/carolingian->holy-roman-empire` — claimed legitimacy of in 962
+- [ ] `edge/roman->holy-roman-empire` — claimed legitimacy of in 962
+- [ ] `polity/holy-roman-empire` — span starts 962
+- [ ] `polity/holy-roman-empire` — span ends 1806
+- [ ] `polity/holy-roman-empire` — founder Otto I r. 962-973
+- [ ] `polity/holy-roman-empire` — peak Frederick II r. 1220-1250
+- [ ] `polity/holy-roman-empire` — last Francis II r. 1792-1806
+- [ ] `polity/holy-roman-empire` — military basis coded client-levy + mercenary
+- [ ] `polity/holy-roman-empire` — revenue basis coded tribute
+- [ ] `polity/holy-roman-empire` — succession rule coded election
+- [ ] `polity/holy-roman-empire` — legitimation coded election + titulature + divine-sanction
+- [ ] `polity/holy-roman-empire` — turning point 1122 The Concordat of Worms
+- [ ] `polity/holy-roman-empire` — turning point 1356 The Golden Bull
+- [ ] `polity/holy-roman-empire` — turning point 1495 The Reichsreform
+- [ ] `polity/holy-roman-empire` — turning point 1555 The Peace of Augsburg
+- [ ] `polity/holy-roman-empire` — turning point 1648 Westphalia (contested)
+- [ ] `polity/holy-roman-empire` — descendant_scripts = 0
+- [ ] `polity/holy-roman-empire` — religions_carried = 1 (Latin Christianity)
+- [ ] `polity/holy-roman-empire` — successor_claims = 0
+- [ ] `polity/holy-roman-empire` — ended by fragmentation in 1806
+
+## Colin Imber, The Ottoman Empire, 1300-1650: The Structure of Power
+
+`imber-2002` — 25 claims
+
+- [ ] `chapter/ottoman/01-a-frontier-beylik.mdx` — prose: "The smallest of the beyliks"
+- [ ] `chapter/ottoman/02-the-balkans-first.mdx` — prose: "The Balkans first"
+- [ ] `chapter/ottoman/03-1453.mdx` — prose: "Two inheritances"
+- [ ] `chapter/ottoman/04-selim.mdx` — prose: "Two years that changed what the empire was"
+- [ ] `chapter/ottoman/05-suleyman-and-the-law.mdx` — prose: "The lawgiver, and what he actually did"
+- [ ] `chapter/ottoman/06-the-devshirme.mdx` — prose: "The levy of boys"
+- [ ] `edge/byzantine->ottoman` — claimed legitimacy of in 1453
+- [ ] `edge/mamluk-sultanate->ottoman` — conquered by in 1517
+- [ ] `edge/roman->ottoman` — claimed legitimacy of in 1453
+- [ ] `edge/rum->ottoman` — absorbed remnants of in 1299
+- [ ] `polity/ottoman` — span starts 1299
+- [ ] `polity/ottoman` — span ends 1922
+- [ ] `polity/ottoman` — capital Istanbul from 1453
+- [ ] `polity/ottoman` — founder Osman I r. 1299-1324
+- [ ] `polity/ottoman` — peak Suleyman I r. 1520-1566
+- [ ] `polity/ottoman` — last Mehmed VI r. 1918-1922
+- [ ] `polity/ottoman` — military basis coded land-grant + slave-soldier + tribal-levy
+- [ ] `polity/ottoman` — revenue basis coded land-tax + poll-tax + trade-toll
+- [ ] `polity/ottoman` — succession rule coded factional + tanistry
+- [ ] `polity/ottoman` — legitimation coded titulature
+- [ ] `polity/ottoman` — turning point 1402 Ankara
+- [ ] `polity/ottoman` — turning point 1453 The taking of Constantinople
+- [ ] `polity/ottoman` — turning point 1517 Ridaniya, and the Arab lands
+- [ ] `polity/ottoman` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/ottoman` — ended by fragmentation in 1922
 
 ## Frederic C. Lane, Venice: A Maritime Republic
 
@@ -2960,7 +2998,7 @@ ordinary state, not an item to clear.
 - [ ] `polity/roman` — turning point 378 Adrianople
 - [ ] `polity/roman` — descendant_scripts = 1 (The Latin alphabet outside Latin)
 - [ ] `polity/roman` — religions_carried = 1 (Christianity)
-- [ ] `polity/roman` — successor_claims = 2 (Carolingian Empire, Ottoman Empire)
+- [ ] `polity/roman` — successor_claims = 3 (Carolingian Empire, Holy Roman Empire, Ottoman Empire)
 - [ ] `polity/seleucid` — ended by conquest in -63
 
 ## Moshe Gammer, Muslim Resistance to the Tsar: Shamil and the Conquest of Chechnia and Daghestan
@@ -3235,6 +3273,28 @@ ordinary state, not an item to clear.
 - [ ] `polity/hotaki` — military basis coded tribal-levy
 - [ ] `polity/hotaki` — legitimation coded conquest
 - [ ] `polity/hotaki` — turning point 1709 The killing of Gurgin Khan
+
+## Filip Van Tricht, The Latin Renovatio of Byzantium: The Empire of Constantinople (1204-1228)
+*In The Medieval Mediterranean 90.*
+
+`van-tricht-2011` — 16 claims
+
+- [ ] `chapter/latin-empire/01-a-renovatio.mdx` — prose: "A renovatio"
+- [ ] `chapter/latin-empire/02-fourteen-months.mdx` — prose: "Fourteen months"
+- [ ] `edge/byzantine->latin-empire` — conquered by in 1204
+- [ ] `polity/byzantine` — successor_claims = 2 (Latin Empire of Constantinople, Ottoman Empire)
+- [ ] `polity/latin-empire` — span starts 1204
+- [ ] `polity/latin-empire` — capital Constantinople from 1204
+- [ ] `polity/latin-empire` — founder Baldwin I r. 1204-1205
+- [ ] `polity/latin-empire` — peak Henry of Flanders r. 1206-1216
+- [ ] `polity/latin-empire` — military basis coded land-grant + mercenary
+- [ ] `polity/latin-empire` — revenue basis coded land-tax
+- [ ] `polity/latin-empire` — succession rule coded election
+- [ ] `polity/latin-empire` — legitimation coded election + titulature
+- [ ] `polity/latin-empire` — turning point 1205 Adrianople
+- [ ] `polity/latin-empire` — descendant_scripts = 0
+- [ ] `polity/latin-empire` — religions_carried = 0
+- [ ] `polity/latin-empire` — successor_claims = 0
 
 ## B. A. Litvinsky, Zhang Guang-da and R. Shabani Samghabadi (eds), History of Civilizations of Central Asia, Volume III: The Crossroads of Civilizations, A.D. 250 to 750
 

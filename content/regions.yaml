@@ -160,17 +160,27 @@ regions:
   # republics are the Latin west's other half: not the attempt to restore an
   # empire but the states that made a living off the one still standing.
   #
-  # The name will not survive the next tier. It already holds the Roman empire,
-  # which precedes both halves of it, and if the post-Roman kingdoms and the
-  # Holy Roman Empire are added the honest arrangement is two regions — Byzantium
-  # and its successors, and the Latin west — in this same group.
+  # Eight records and nine internal edges, which is the densest thread on this
+  # site outside the Iranian Intermezzo. Six of the eight carry `election` in
+  # their succession or legitimation fields, which is true of no other region
+  # here and is the closest thing this corpus has to a regional finding about
+  # constitutions rather than about geography.
+  #
+  # The name is now the weakest thing about the region and a decision is
+  # pending. It holds the Roman empire, which precedes both halves of it, and
+  # the Holy Roman Empire, which is neither Byzantium nor especially Latin in
+  # the sense the name intends. If the post-Roman kingdoms are added the honest
+  # arrangement is two regions in this same group — the Roman east and its
+  # successors, and the Latin west — and the cost is that four of the nine
+  # internal edges become cross-region and stop being drawn.
   - id: byzantium-and-the-latin-west
     name: Byzantium and the Latin West
     blurb: >-
-      The Roman empire that survived in the east, the Frankish attempt to
-      restore the one that had not survived in the west, and the two maritime
-      republics that grew rich carrying for both and eventually took the
-      customs of the straits off the emperor.
+      The Roman empire that survived in the east, the two western attempts to
+      restore the one that had not, the crusade that took Constantinople and
+      the exile government that took it back, and the two maritime republics
+      that carried for everybody and ended up holding the customs of the
+      straits.
     group: mediterranean
     thread: true
 

@@ -1,0 +1,122 @@
+id: latin-empire
+region: byzantium-and-the-latin-west
+
+name:
+  latin: Latin Empire of Constantinople
+  script: Imperium Constantinopolitanum
+  script_lang: la
+
+span:
+  start: { min: 1204, max: 1204, source: van-tricht-2011 }
+  end: { min: 1261, max: 1261, source: treadgold-1997 }
+
+identity: >-
+  The crusader state that held Constantinople for fifty-seven years, governed
+  very little else, and sold the roof of its own palace.
+
+capitals:
+  - { name: Constantinople, script: Constantinopolis, from: 1204, source: van-tricht-2011 }
+
+core_region: Constantinople, eastern Thrace and, in the early years, north-western Anatolia
+
+rulers:
+  founder: { name: Baldwin I, reign: [1204, 1205], source: van-tricht-2011 }
+  peak: { name: Henry of Flanders, reign: [1206, 1216], source: van-tricht-2011 }
+  last: { name: Baldwin II, reign: [1228, 1261], source: treadgold-1997 }
+
+scripts_and_languages:
+  administration: [Latin, Greek]
+  writing_system: Latin
+
+ended:
+  type: conquest
+  by: [nicaea]
+  year: 1261
+  source: treadgold-1997
+
+institutions:
+  # Fiefs held by western knights on the terms of the partition treaty, and
+  # hired men and Venetian ships for everything the fiefs could not supply. The
+  # Latin emperors had a smaller military establishment than several of their
+  # own vassals, and after the first decade they were frequently the junior
+  # partner in their own campaigns.
+  military_basis: { values: [land-grant, mercenary], source: van-tricht-2011 }
+  # `land-tax` for what Thrace produced, and it is a thin answer to a thin
+  # question. Van Tricht's case is that the empire's early administration
+  # substantially continued Byzantine practice, which means there was a fiscal
+  # system to inherit; the problem was that within a generation there was
+  # almost no territory left to run it on. The rest of the income came from
+  # selling the contents of the capital, which the third chapter is about and
+  # which no value in a vocabulary of seven can express.
+  revenue_basis: { values: [land-tax], source: van-tricht-2011 }
+  # The first emperor was chosen by a committee of twelve — six Venetians and
+  # six crusaders — under the terms of the partition treaty, which is a
+  # constitutional procedure and the reason this field reads `election`. What
+  # followed was a family: brother, brother-in-law, son, son. Coding rule 7
+  # takes the constituting rule, and this record is a small clean case of the
+  # gap between the two.
+  #
+  # It also makes four records in this region carrying `election` in one field
+  # or another — this one, Venice, Genoa and the Holy Roman Empire — with the
+  # Roman and Byzantine records carrying it in `legitimation` besides. Six of
+  # eight. The region's aside on that is on the Genoese record.
+  succession_rule: { values: [election], source: van-tricht-2011 }
+  # `titulature`, and it is the argument Van Tricht's book is named for. The
+  # Latin emperors did not present themselves as foreign conquerors holding a
+  # Greek city: they used the Byzantine imperial style, took over Byzantine
+  # ceremonial and much of the administration, married into the Greek
+  # aristocracy, and described what they had done as a renovatio. This site's
+  # Byzantine record now counts a successor claim it did not carry before.
+  legitimation: { values: [election, titulature], source: van-tricht-2011 }
+
+turning_points:
+  - year: 1205
+    type: battle
+    name: Adrianople
+    changed: >-
+      Fourteen months after the conquest, Kalojan of Bulgaria destroyed the
+      Latin field army and captured the emperor Baldwin I, who died in a
+      Bulgarian prison. The empire never rebuilt a force capable of offensive
+      war. Everything after this is a state holding a capital it cannot supply,
+      surrounded by enemies it cannot beat, kept alive by Venetian shipping and
+      western subsidy.
+    source: van-tricht-2011
+    contested: false
+  - year: 1235
+    type: siege
+    name: The Greek and Bulgarian siege
+    changed: >-
+      John Vatatzes of Nicaea and Ivan Asen II of Bulgaria besieged
+      Constantinople together by land and sea and were driven off by a Venetian
+      fleet and a small Frankish relief force. It is the last time the empire
+      successfully defended itself, and it demonstrated the thing that kept it
+      alive for another twenty-six years: the city could not be taken by anyone
+      who did not control the sea, and Venice did.
+    source: treadgold-1997
+    contested: false
+  - year: 1261
+    type: siege
+    name: The city taken back
+    changed: >-
+      A Nicaean force of about eight hundred, passing on another errand, found
+      the garrison away raiding and the Venetian fleet absent, and got in. This
+      site's Nicaean record carries the same day and draws a conclusion about
+      what the restoration cost the restorers. From this side the conclusion is
+      simpler: a polity that had survived for fifty-seven years on somebody
+      else's navy ended on an afternoon when the navy was elsewhere.
+    source: treadgold-1997
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: van-tricht-2011 }
+    # Zero, and the near miss is instructive. A Latin patriarch was installed in
+    # Hagia Sophia and a Latin hierarchy over an Orthodox population, which is
+    # the shape coding rule 2 counts when conquest is followed by durable
+    # religious institutions. It was not durable: the hierarchy collapsed with
+    # the empire in 1261 and left nothing behind but a schism that was already
+    # there. The rule asks for durability and means it.
+    religions_carried: { count: 0, items: [], source: van-tricht-2011 }
+    successor_claims: { count: 0, items: [], source: van-tricht-2011 }

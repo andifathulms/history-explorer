@@ -77,7 +77,13 @@ export function Facts({ polity }: { polity: Polity }) {
               ))}
             </ul>
           ) : (
-            <Gap />
+            // Not a <Gap />. `NO_FIGURE` says nobody has opened a source, and an
+            // empty capitals list says the opposite — the same reading this site
+            // gives an empty turning-point list and an edgeless polity. The
+            // Holy Roman Empire is the record that forced the distinction: it
+            // had no capital, and its emperors governed from wherever their own
+            // dynasty's lands were.
+            <span className="text-debu-ink">No fixed seat recorded</span>
           )}
         </Row>
 

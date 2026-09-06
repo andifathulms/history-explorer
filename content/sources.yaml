@@ -2070,6 +2070,37 @@ sources:
       reason the two maritime republics carry the same value with opposite
       results.
 
+  - id: wilson-2016
+    kind: book
+    author: Peter H. Wilson
+    title: "Heart of Europe: A History of the Holy Roman Empire"
+    publisher: Belknap Press of Harvard University Press
+    year: 2016
+    note: >-
+      Published in Britain as The Holy Roman Empire: A Thousand Years of
+      Europe's History. Organised thematically rather than by reign — one
+      section on the imperial ideal, one on territory, one on governance, one on
+      society — which is what a record with eight hundred and forty-four years
+      and no narrative spine requires, and why this site's institutions for it
+      are coded from Wilson rather than from a chronicle.
+
+  - id: van-tricht-2011
+    kind: book
+    author: Filip Van Tricht
+    title: >-
+      The Latin Renovatio of Byzantium: The Empire of Constantinople
+      (1204-1228)
+    container: The Medieval Mediterranean 90
+    publisher: Brill
+    year: 2011
+    note: >-
+      Translated by Peter Longbottom. Argues against reading the Latin empire as
+      a foreign occupation that never governed: Van Tricht's case is that its
+      emperors presented themselves as legitimate Roman emperors and
+      substantially continued Byzantine institutions, which is why this site's
+      record for it codes `titulature` and why the Byzantine record now counts a
+      successor claim it did not.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors
