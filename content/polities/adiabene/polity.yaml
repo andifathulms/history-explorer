@@ -1,0 +1,82 @@
+id: adiabene
+region: pre-islamic-iran
+
+name:
+  latin: Adiabene
+  script: ܚܕܝܐܒ
+  script_lang: syc
+
+# The start is a wide range and it is the state of the evidence: the kingdom
+# appears in the record in the last two centuries BC and its origins are not
+# established. The end is the Sasanian annexation.
+span:
+  start: { min: -160, max: -50, source: wiesehofer-1996 }
+  end: { min: 226, max: 226, source: wiesehofer-1996 }
+
+identity: >-
+  A Parthian vassal kingdom in the old Assyrian heartland whose royal house
+  converted to Judaism in the first century, sent princes to die defending
+  Jerusalem, and whose capital later became one of the earliest bishoprics east
+  of the Roman frontier.
+
+capitals:
+  - { name: Arbela, script: ܐܪܒܝܠ, source: wiesehofer-1996 }
+
+core_region: The country between the Greater and Lesser Zab, around Arbela and Nineveh
+
+rulers:
+  founder: { name: null, source: null }
+  peak: { name: Izates II, source: wiesehofer-1996 }
+  last: { name: null, source: null }
+
+scripts_and_languages:
+  administration: [Aramaic, Greek]
+  writing_system: Aramaic
+
+ended:
+  type: conquest
+  by: [sasanian]
+  year: 226
+  source: wiesehofer-1996
+
+institutions:
+  military_basis: null
+  # The old Assyrian heartland is among the best rain-fed agricultural country
+  # in the Near East and the kingdom lived on it.
+  revenue_basis: { values: [land-tax], source: wiesehofer-1996 }
+  succession_rule: null
+  # Null, and the reason is worth stating because it is not the usual one.
+  # Nothing consulted describes a public ground on which this dynasty asserted a
+  # right to rule. What is recorded about it in detail — at length, by Josephus
+  # — is its religion, and a royal house's confession is a different question
+  # from the basis of its authority. The corpus does not convert one into the
+  # other to fill a field.
+  legitimation: null
+
+turning_points:
+  - year: 36
+    type: conversion
+    name: "The conversion of Izates and Helena"
+    changed: >-
+      The king of a Parthian vassal state and his mother became Jews, taught by
+      travelling merchants, and the dynasty remained Jewish for at least two
+      generations. Josephus does not date it and the 30s or 40s is the range
+      rather than the year. It made a small Mesopotamian kingdom a participant
+      in the politics of Roman Judaea: Helena moved to Jerusalem and relieved a
+      famine there, built a palace and a tomb, and her descendants fought and
+      died in the revolt of 66.
+    source: wiesehofer-1996
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    # Null, not 1, and coding rule 2 is explicit about why. The count measures
+    # propagation beyond the polity's own prior confessional boundary. What
+    # happened here is the opposite: the royal house was converted by teachers
+    # who came to it. A polity's own conversion is a fact about the polity and
+    # belongs in the prose.
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

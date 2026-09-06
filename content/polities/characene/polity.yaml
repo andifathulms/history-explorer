@@ -1,0 +1,73 @@
+id: characene
+region: pre-islamic-iran
+
+name:
+  latin: Characene
+  script: Χαρακηνή
+  script_lang: grc
+
+span:
+  start: { min: -141, max: -127, source: wiesehofer-1996 }
+  end: { min: 222, max: 222, source: wiesehofer-1996 }
+
+identity: >-
+  A kingdom at the head of the Persian Gulf where the ships from India unloaded,
+  which lived on the transfer and appears in this corpus already as the far end
+  of a Palmyrene caravan.
+
+capitals:
+  - { name: Spasinou Charax, script: Σπασίνου Χάραξ, source: wiesehofer-1996 }
+
+core_region: The head of the Persian Gulf, the lower Tigris and Euphrates delta
+
+rulers:
+  founder: { name: Hyspaosines, source: wiesehofer-1996 }
+  peak: { name: null, source: null }
+  last: { name: null, source: null }
+
+scripts_and_languages:
+  administration: [Greek, Aramaic]
+  writing_system: Greek, and later Aramaic
+
+ended:
+  type: conquest
+  by: [sasanian]
+  year: 222
+  source: wiesehofer-1996
+
+institutions:
+  military_basis: null
+  # The tolls alone, and this is the third polity in the corpus coded that way
+  # after Palmyra and the emirate of Derbend. All three taxed a place goods had
+  # to pass through and produced nothing much themselves. The delta grew dates
+  # and the kingdom was not poor in agriculture, and nothing consulted treats it
+  # as the basis; the third chapter is about the pattern.
+  revenue_basis: { values: [trade-toll], source: wiesehofer-1996 }
+  succession_rule: null
+  # Hyspaosines was a Seleucid satrap who took the royal title when the kingdom
+  # that had appointed him stopped being able to remove him — the opening this
+  # corpus records fifteen times, and the only claim the coins support.
+  legitimation: { values: [conquest], source: wiesehofer-1996 }
+
+turning_points:
+  - year: 116
+    type: siege
+    name: "Trajan at Charax"
+    changed: >-
+      A Roman emperor reached the head of the Persian Gulf, received the
+      kingdom's submission, and — according to Cassius Dio — watched a ship
+      leave for India and said he wished he were young enough to follow it. He
+      withdrew the following year and the arrangement resumed unchanged. It is
+      the clearest illustration of what a transit kingdom was: worth conquering
+      to nobody, because the value was the traffic and the traffic did not stop
+      for a change of sovereign.
+    source: wiesehofer-1996
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

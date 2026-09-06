@@ -966,6 +966,47 @@ edges:
     contested: false
 
   - from: seleucid
+    to: characene
+    type: seceded from
+    year: -141
+    note: "Hyspaosines, the Seleucid satrap at the head of the Gulf, refounded
+           Alexander's city on an artificial mound under his own name and began
+           calling himself king when the empire that had appointed him stopped
+           being able to remove him."
+    source: wiesehofer-1996
+    contested: false
+
+  - from: characene
+    to: sasanian
+    type: conquered by
+    year: 222
+    note: "Ardashir took the delta two years before he took the empire, in the
+           sequence of campaigns that ran Fars, Kerman, Elymais, the Gulf coast
+           and then Ctesiphon."
+    source: wiesehofer-1996
+    contested: false
+
+  - from: parthian
+    to: adiabene
+    type: vassal of
+    year: -100
+    note: "One of the vassal kingdoms the Parthian empire was assembled from,
+           holding the old Assyrian heartland with its own dynasty and its own
+           coinage under a king of kings who supplied none of its
+           administration."
+    source: wiesehofer-1996
+    contested: false
+
+  - from: adiabene
+    to: sasanian
+    type: conquered by
+    year: 226
+    note: "Annexed in the same campaigns that took Characene and Elymais, and
+           afterwards one of the largest centres of the Church of the East."
+    source: wiesehofer-1996
+    contested: false
+
+  - from: seleucid
     to: persis
     type: seceded from
     year: -280

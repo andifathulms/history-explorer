@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**2742 claims across 144 sources.**
+**2769 claims across 144 sources.**
 
 ## Where to start
 
@@ -943,6 +943,63 @@ ordinary state, not an item to clear.
 - [ ] `polity/kartli-kakheti` — turning point 1795 Krtsanisi
 - [ ] `polity/kartli-kakheti` — ended by conquest in 1801
 
+## Josef Wiesehöfer, trans. Azizeh Azodi, Ancient Persia: From 550 BC to 650 AD
+
+`wiesehofer-1996` — 50 claims
+
+**Sole source** for `adiabene`, `atropatene`, `characene` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/adiabene/01-arbela.mdx` — prose: "Arbela"
+- [ ] `chapter/adiabene/02-a-jewish-royal-house.mdx` — prose: "A Jewish royal house"
+- [ ] `chapter/adiabene/03-the-second-one.mdx` — prose: "A correction to another page"
+- [ ] `chapter/adiabene/04-arbela-becomes-christian.mdx` — prose: "What Arbela became"
+- [ ] `chapter/atropatene/01-the-satrap-who-stayed.mdx` — prose: "The satrap who did not hand it over"
+- [ ] `chapter/atropatene/02-the-fire-of-the-warriors.mdx` — prose: "The fire of the warriors"
+- [ ] `chapter/atropatene/03-antony.mdx` — prose: "The invasion that ended the Roman project"
+- [ ] `chapter/atropatene/04-the-name.mdx` — prose: "Atropatene, Adurbadagan, Azerbaijan"
+- [ ] `chapter/characene/01-the-head-of-the-gulf.mdx` — prose: "Where the ships stopped"
+- [ ] `chapter/characene/02-the-transfer.mdx` — prose: "The transfer"
+- [ ] `chapter/characene/03-tolls-alone.mdx` — prose: "Three polities on a single value"
+- [ ] `chapter/characene/04-222.mdx` — prose: "Ardashir takes the delta"
+- [ ] `chapter/persis/01-the-homeland.mdx` — prose: "What was left in Fars"
+- [ ] `chapter/persis/02-somebody-elses-vassal.mdx` — prose: "Five centuries as somebody's vassal"
+- [ ] `chapter/persis/03-the-argument-about-the-coins.mdx` — prose: "What a coin can and cannot show"
+- [ ] `edge/adiabene->sasanian` — conquered by in 226
+- [ ] `edge/atropatene->sasanian` — conquered by in 226
+- [ ] `edge/characene->sasanian` — conquered by in 222
+- [ ] `edge/macedonian->atropatene` — partitioned from in -323
+- [ ] `edge/parthian->adiabene` — vassal of in -100
+- [ ] `edge/seleucid->characene` — seceded from in -141
+- [ ] `edge/seleucid->persis` — seceded from in -280
+- [ ] `polity/adiabene` — span starts -160
+- [ ] `polity/adiabene` — span ends 226
+- [ ] `polity/adiabene` — capital Arbela
+- [ ] `polity/adiabene` — peak Izates II
+- [ ] `polity/adiabene` — revenue basis coded land-tax
+- [ ] `polity/adiabene` — turning point 36 The conversion of Izates and Helena
+- [ ] `polity/adiabene` — ended by conquest in 226
+- [ ] `polity/atropatene` — span starts -323
+- [ ] `polity/atropatene` — span ends 226
+- [ ] `polity/atropatene` — capital Ganzak
+- [ ] `polity/atropatene` — founder Atropates
+- [ ] `polity/atropatene` — revenue basis coded land-tax
+- [ ] `polity/atropatene` — legitimation coded descent
+- [ ] `polity/atropatene` — turning point -36 Antony in Atropatene
+- [ ] `polity/atropatene` — ended by conquest in 226
+- [ ] `polity/characene` — span starts -141
+- [ ] `polity/characene` — span ends 222
+- [ ] `polity/characene` — capital Spasinou Charax
+- [ ] `polity/characene` — founder Hyspaosines
+- [ ] `polity/characene` — revenue basis coded trade-toll
+- [ ] `polity/characene` — legitimation coded conquest
+- [ ] `polity/characene` — turning point 116 Trajan at Charax
+- [ ] `polity/characene` — ended by conquest in 222
+- [ ] `polity/persis` — span starts -280
+- [ ] `polity/persis` — capital Istakhr
+- [ ] `polity/persis` — founder Bagadates I
+- [ ] `polity/persis` — revenue basis coded land-tax
+- [ ] `polity/persis` — legitimation coded divine-sanction
+
 ## R. N. Frye (ed.), The Cambridge History of Iran, Volume 4: From the Arab Invasion to the Saljuqs
 
 `chi-4` — 45 claims
@@ -1856,36 +1913,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/shaybanid` — turning point 1512 Ghijduvan
 - [ ] `polity/shaybanid` — turning point 1588 Abdullah Khan at Herat
 - [ ] `polity/shaybanid` — ended by dynastic replacement in 1599
-
-## Josef Wiesehöfer, trans. Azizeh Azodi, Ancient Persia: From 550 BC to 650 AD
-
-`wiesehofer-1996` — 23 claims
-
-**Sole source** for `atropatene` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/atropatene/01-the-satrap-who-stayed.mdx` — prose: "The satrap who did not hand it over"
-- [ ] `chapter/atropatene/02-the-fire-of-the-warriors.mdx` — prose: "The fire of the warriors"
-- [ ] `chapter/atropatene/03-antony.mdx` — prose: "The invasion that ended the Roman project"
-- [ ] `chapter/atropatene/04-the-name.mdx` — prose: "Atropatene, Adurbadagan, Azerbaijan"
-- [ ] `chapter/persis/01-the-homeland.mdx` — prose: "What was left in Fars"
-- [ ] `chapter/persis/02-somebody-elses-vassal.mdx` — prose: "Five centuries as somebody's vassal"
-- [ ] `chapter/persis/03-the-argument-about-the-coins.mdx` — prose: "What a coin can and cannot show"
-- [ ] `edge/atropatene->sasanian` — conquered by in 226
-- [ ] `edge/macedonian->atropatene` — partitioned from in -323
-- [ ] `edge/seleucid->persis` — seceded from in -280
-- [ ] `polity/atropatene` — span starts -323
-- [ ] `polity/atropatene` — span ends 226
-- [ ] `polity/atropatene` — capital Ganzak
-- [ ] `polity/atropatene` — founder Atropates
-- [ ] `polity/atropatene` — revenue basis coded land-tax
-- [ ] `polity/atropatene` — legitimation coded descent
-- [ ] `polity/atropatene` — turning point -36 Antony in Atropatene
-- [ ] `polity/atropatene` — ended by conquest in 226
-- [ ] `polity/persis` — span starts -280
-- [ ] `polity/persis` — capital Istakhr
-- [ ] `polity/persis` — founder Bagadates I
-- [ ] `polity/persis` — revenue basis coded land-tax
-- [ ] `polity/persis` — legitimation coded divine-sanction
 
 ## Cyril Toumanoff, Studies in Christian Caucasian History
 
