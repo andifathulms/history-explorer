@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**2443 claims across 133 sources.**
+**2463 claims across 134 sources.**
 
 ## Where to start
 
@@ -1876,6 +1876,33 @@ ordinary state, not an item to clear.
 - [ ] `polity/trebizond` — span ends 1461
 - [ ] `polity/trebizond` — last David Megas Komnenos r. 1459-1461
 - [ ] `polity/trebizond` — ended by conquest in 1461
+
+## Richard G. Hovannisian (ed.), The Armenian People from Ancient to Modern Times
+
+`hovannisian-1997` — 20 claims
+
+**Sole source** for `bagratid-armenia` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/bagratid-armenia/01-a-crown-from-baghdad.mdx` — prose: "A crown from Baghdad"
+- [ ] `chapter/bagratid-armenia/02-ani.mdx` — prose: "Ani"
+- [ ] `chapter/bagratid-armenia/03-the-nakharars.mdx` — prose: "The houses"
+- [ ] `chapter/bagratid-armenia/04-the-bequest.mdx` — prose: "The kingdom given away"
+- [ ] `chapter/bagratid-armenia/05-what-went-to-cilicia.mdx` — prose: "What went to Cilicia"
+- [ ] `edge/bagratid-armenia->byzantine` — conquered by in 1045
+- [ ] `edge/bagratid-armenia->cilician-armenia` — absorbed remnants of in 1080
+- [ ] `polity/bagratid-armenia` — span starts 884
+- [ ] `polity/bagratid-armenia` — span ends 1045
+- [ ] `polity/bagratid-armenia` — capital Ani from 961
+- [ ] `polity/bagratid-armenia` — founder Ashot I r. 884-890
+- [ ] `polity/bagratid-armenia` — peak Gagik I r. 989-1020
+- [ ] `polity/bagratid-armenia` — last Gagik II r. 1042-1045
+- [ ] `polity/bagratid-armenia` — military basis coded client-levy
+- [ ] `polity/bagratid-armenia` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/bagratid-armenia` — succession rule coded appanage
+- [ ] `polity/bagratid-armenia` — legitimation coded caliphal-investiture + descent
+- [ ] `polity/bagratid-armenia` — turning point 961 Ani
+- [ ] `polity/bagratid-armenia` — turning point 1022 The bequest to Byzantium
+- [ ] `polity/bagratid-armenia` — ended by conquest in 1045
 
 ## Taef Kamal El-Azhari, The Saljuqs of Syria During the Crusades, 463-549 A.H./1070-1154 A.D.
 *In Islamkundliche Untersuchungen 211.*

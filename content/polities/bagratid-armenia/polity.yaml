@@ -1,0 +1,98 @@
+id: bagratid-armenia
+region: caucasus
+
+name:
+  latin: Bagratid Armenia
+  script: Բագրատունյաց Հայաստան
+  script_lang: hy
+
+span:
+  start: { min: 884, max: 885, source: hovannisian-1997 }
+  end: { min: 1045, max: 1045, source: hovannisian-1997 }
+
+identity: >-
+  The Armenian kingdom whose first king was crowned by the Abbasid caliph and
+  whose last one willed the country to Byzantium — and whose capital, Ani, was
+  for a century one of the great cities of the world.
+
+capitals:
+  - { name: Ani, script: Անի, from: 961, source: hovannisian-1997 }
+
+core_region: The Armenian highland, around the Araxes and the upper Euphrates
+
+rulers:
+  founder: { name: Ashot I, reign: [884, 890], source: hovannisian-1997 }
+  peak: { name: Gagik I, reign: [989, 1020], source: hovannisian-1997 }
+  last: { name: Gagik II, reign: [1042, 1045], source: hovannisian-1997 }
+
+scripts_and_languages:
+  administration: [Armenian]
+  writing_system: The Armenian alphabet
+
+ended:
+  type: conquest
+  by: [byzantine]
+  year: 1045
+  source: hovannisian-1997
+
+institutions:
+  # The nakharar system: hereditary noble houses holding their own districts and
+  # owing cavalry to the king. `client-levy` is the vocabulary's value for
+  # contingents owed by subordinate lords under an obligation the ruler did not
+  # create, and the Armenian houses long predate the Bagratid kingship — several
+  # of them are attested under the Sasanians. The third chapter is about what
+  # that arrangement cost.
+  military_basis: { values: [client-levy], source: hovannisian-1997 }
+  # The land of a fertile highland, and the customs of Ani, which sat on the
+  # road between the caliphate, Byzantium and the north. Unranked.
+  revenue_basis: { values: [land-tax, trade-toll], source: hovannisian-1997 }
+  # The kingdom was repeatedly divided among members of the house — Kars, Lori,
+  # and the branch kingdoms of the tenth century — which is the patrimonial
+  # division `appanage` names, and which the Seljuks and Byzantium both found
+  # convenient.
+  succession_rule: { values: [appanage], source: hovannisian-1997 }
+  # `caliphal-investiture` on a Christian polity, which is the only instance in
+  # this corpus. Ashot I was recognised as king by a crown sent from Baghdad by
+  # the caliph al-Mu'tamid in 884, and a second crown followed from
+  # Constantinople; the Bagratuni had been the caliphate's tax-farmers and
+  # princes in Armenia for a century before that, and the kingship was the
+  # formalisation of an arrangement rather than a break from one. `descent` is
+  # the house's own claim, traced in the Armenian tradition to a Jewish prince
+  # and ultimately to David.
+  legitimation: { values: [caliphal-investiture, descent], source: hovannisian-1997 }
+
+turning_points:
+  - year: 961
+    type: capital-move
+    name: "Ani"
+    changed: >-
+      Ashot III moved the seat from Kars to a fortified promontory in a bend of
+      the Akhurian, and his successors walled it and built in it for eighty
+      years. It turned a kingdom of noble houses with no centre into one with a
+      capital that was also its largest market, and the city is most of what the
+      dynasty is remembered for.
+    source: hovannisian-1997
+    contested: false
+  - year: 1022
+    type: treaty
+    name: "The bequest to Byzantium"
+    changed: >-
+      Hovhannes-Smbat, under Byzantine pressure and with a rival brother in the
+      field, undertook to leave Ani and his kingdom to the emperor on his death.
+      A king had converted the succession into a foreign claim, and when he died
+      in 1041 Constantinople came to collect. Whatever the kingdom might have
+      done about the Seljuks was decided by a document signed nineteen years
+      before they arrived.
+    source: hovannisian-1997
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    # The Armenian alphabet is Mesrop Mashtots' and is attributed to the fifth
+    # century, five centuries before this polity; nothing consulted attributes a
+    # derived or newly adapted script to the Bagratids. Null, not zero.
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

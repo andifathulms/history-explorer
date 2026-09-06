@@ -1157,6 +1157,28 @@ edges:
     source: daftary-2007
     contested: true
 
+  - from: bagratid-armenia
+    to: byzantine
+    type: conquered by
+    year: 1045
+    note: "Hovhannes-Smbat had undertaken in 1022 to leave Ani to the emperor;
+           Constantinople produced the document when he died, invaded when the
+           Armenians crowned Gagik II instead, and detained the king until he
+           surrendered the city."
+    source: hovannisian-1997
+    contested: false
+
+  - from: bagratid-armenia
+    to: cilician-armenia
+    type: absorbed remnants of
+    year: 1080
+    note: "The Armenian nobility dispersed west after Ani fell to the Seljuks in
+           1064, and a family connected to the last Bagratid court established
+           itself in the Taurus, where its descendants built a second Armenian
+           kingdom three hundred miles from the first."
+    source: hovannisian-1997
+    contested: false
+
   - from: diriyah
     to: nejd
     type: absorbed remnants of

@@ -1435,6 +1435,45 @@ sources:
       raises: why a camel-herding confederation became susceptible to political
       centralisation at that particular moment, and why the result did not last.
 
+  - id: hovannisian-1997
+    kind: book
+    author: Richard G. Hovannisian (ed.)
+    title: "The Armenian People from Ancient to Modern Times"
+    publisher: St. Martin's Press
+    year: 1997
+    note: >-
+      Two volumes covering antiquity to the twentieth century, and the most
+      comprehensive treatment of the whole span in English. Cited because
+      Armenia is named on eighteen pages of this corpus — from the Sasanians to
+      the Safavids — and had no record of its own.
+
+  - id: suny-1994
+    kind: book
+    author: Ronald Grigor Suny
+    title: The Making of the Georgian Nation
+    publisher: Indiana University Press
+    edition: 2nd
+    year: 1994
+    note: >-
+      The standard account of Georgian history in English, from the first
+      millennium BC to 1991. Cited for the same reason as the Armenian volumes:
+      the corpus had been referring to Georgia on eight pages without carrying
+      it.
+
+  - id: minorsky-1953
+    kind: book
+    author: Vladimir Minorsky
+    title: "Studies in Caucasian History: New Light on the Shaddadids of Ganja; The Shaddadids of Ani; Prehistory of Saladin"
+    container: Cambridge Oriental Series 6
+    publisher: Cambridge University Press
+    year: 1953
+    note: >-
+      Three studies and an appendix on the Musafirids and Rawwadids, which
+      between them are the scholarship on the Muslim dynasties of the eastern
+      Caucasus. The third essay is on Saladin's family before it was famous,
+      which is worth noting on a site whose Ayyubid record begins in Egypt: the
+      Ayyubids came out of Shaddadid service at Dvin.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors
