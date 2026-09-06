@@ -1977,6 +1977,60 @@ sources:
       caution about the constitutional role of the Macedonian army assembly is
       the reason that record's succession field is null.
 
+  - id: garnsey-saller-2014
+    kind: book
+    author: Peter Garnsey and Richard Saller
+    title: "The Roman Empire: Economy, Society and Culture"
+    publisher: University of California Press
+    edition: 2nd
+    year: 2014
+    note: >-
+      Not a narrative of emperors: a structural account of how the empire was
+      paid for, governed, supplied and stratified, with chapters by Elsner,
+      Goodman, Gordon and Woolf added to the second edition. This site's Roman
+      institutions are coded from it, for the same reason kemp-2018 rather than
+      a campaign history supplies the Egyptian ones.
+
+  - id: millar-1977
+    kind: book
+    author: Fergus Millar
+    title: "The Emperor in the Roman World (31 BC - AD 337)"
+    publisher: Duckworth
+    year: 1977
+    note: >-
+      The book that reframed the emperor as a man who mostly answered letters.
+      Millar's method is to ask what emperors demonstrably did rather than what
+      the constitution said they were, and the answer — hearing embassies,
+      judging cases, replying to cities — is why this site's Roman legitimation
+      field carries `election` rather than something grander.
+
+  - id: haldon-1997
+    kind: book
+    author: John F. Haldon
+    title: "Byzantium in the Seventh Century: The Transformation of a Culture"
+    publisher: Cambridge University Press
+    edition: revised
+    year: 1997
+    note: >-
+      On the century in which the eastern Roman empire lost two-thirds of its
+      revenue and rebuilt its army, its taxation and its administration around
+      what was left. This site's Byzantine institutions are coded from it,
+      because the state the fields describe is the one that came out of this
+      century rather than the one that went into it.
+
+  - id: kaldellis-2015
+    kind: book
+    author: Anthony Kaldellis
+    title: "The Byzantine Republic: People and Power in New Rome"
+    publisher: Harvard University Press
+    year: 2015
+    note: >-
+      Argues that the eastern Roman empire was a republican monarchy rather than
+      a theocracy: the emperor held power on behalf of a res publica that could
+      and did withdraw its acceptance, and the frequency of depositions is
+      evidence of a constitution rather than of chaos. Contested, and cited on
+      this site where a coded field turns on it, with the disagreement stated.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors

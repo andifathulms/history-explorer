@@ -35,24 +35,152 @@ ended:
   source: treadgold-1997
 
 institutions:
-  military_basis: null
-  revenue_basis: null
-  succession_rule: { values: [factional], source: woolf-2012 }
-  legitimation: null
+  # A paid, long-service, volunteer professional army — twenty-five to thirty
+  # legions of citizens and roughly as many auxiliaries again recruited from
+  # non-citizens who received citizenship at discharge, stationed on the
+  # frontiers and not in Italy. It is the first standing army in this corpus
+  # that is a career rather than an obligation, and the second value records
+  # what happened when volunteers stopped being enough: from the later third
+  # century service became hereditary for the sons of veterans and levies were
+  # imposed on landowners, which is conscription with a different name.
+  military_basis: { values: [standing-professional, conscript], source: garnsey-saller-2014 }
+  # Three. A tax on land and one on heads across the provinces, assessed from
+  # periodic censuses — Italy was exempt until Diocletian — and customs dues at
+  # the internal and external frontiers of the empire. Garnsey and Saller's
+  # point, and the reason this field is coded from them, is that the rates were
+  # low and the yield enormous because the base was: an empire of fifty to sixty
+  # million people paying a little each, collected by cities rather than by an
+  # imperial bureaucracy that did not exist at that scale.
+  revenue_basis: { values: [land-tax, poll-tax, trade-toll], source: garnsey-saller-2014 }
+  # Recoded from `factional`, which was recording the outcome. Coding rule 7
+  # takes the rule, and the rule was designation followed by acclamation: the
+  # reigning emperor marked a successor by adoption, by the grant of tribunician
+  # power, or by making him Caesar, and the senate and the army then acclaimed
+  # him. That procedure is what every usurper also had to perform, which is the
+  # evidence that it was the rule rather than a habit.
+  #
+  # The outcome was the Praetorians auctioning the office in 193 and more than
+  # twenty emperors in the fifty years after 235, and the fifth chapter is about
+  # it. A field that recorded that would put Rome in the same category as the
+  # Mamluk sultanate, which genuinely had no rule at all, and the difference
+  # between having a rule the army could override and having none is most of
+  # what there is to say about Roman politics.
+  succession_rule: { values: [nomination, acclamation], source: millar-1977 }
+  # Three, and the first is the surprising one. The emperor's powers were
+  # conferred, individually and by name, in a law voted by the senate and people
+  # — the bronze of one such law survives, passed for Vespasian in 69, listing
+  # what he may do and citing the precedents of Augustus, Tiberius and Claudius.
+  # The republic had not been abolished and the constitutional fiction was
+  # maintained for three centuries. Beside it the dynastic claim of each ruling
+  # house, and the imperial cult, which after Constantine becomes a Christian
+  # God's choice without the mechanism changing.
+  legitimation: { values: [election, descent, divine-sanction], source: millar-1977 }
+
+turning_points:
+  - year: 69
+    type: succession-crisis
+    name: The year of four emperors
+    changed: >-
+      Nero died without an heir, the Julio-Claudian house ended, and four men
+      held the office in eighteen months, three of them raised by provincial
+      armies. Tacitus says a secret of empire was revealed: that an emperor
+      could be made somewhere other than Rome. The dynasty that came out of it
+      had its powers voted to it in a law whose bronze survives, which is the
+      constitutional fiction being repaired in public after the army had shown
+      what it was worth.
+    source: millar-1977
+    contested: false
+  - year: 212
+    type: reform
+    name: The Antonine Constitution
+    changed: >-
+      Caracalla granted Roman citizenship to very nearly every free inhabitant
+      of the empire. A status that had been the reward for auxiliary service,
+      the prize a provincial city negotiated for, and the thing that separated
+      the ruled from the rulers became universal in a single edict. The reasons
+      given at the time were fiscal and religious; the effect was to end the
+      distinction the empire had been built on, and to make the later
+      distinction that mattered wealth rather than citizenship.
+    source: garnsey-saller-2014
+    contested: false
+  - year: 260
+    type: battle
+    name: Edessa
+    changed: >-
+      Shapur I captured the emperor Valerian alive and had the fact carved on a
+      cliff at Naqsh-e Rostam with the emperor kneeling before him. This site's
+      Sasanian record carries the same day as its first turning point. Within a
+      decade Gaul had its own emperor and Palmyra had taken Egypt and Anatolia,
+      and the empire spent fifteen years in three pieces — the only period on
+      this record when it was not one polity.
+    source: woolf-2012
+    contested: false
+  - year: 312
+    type: conversion
+    name: The Milvian Bridge
+    changed: >-
+      Constantine beat Maxentius outside Rome and attributed it to the Christian
+      God. What followed was not the conversion of the empire, which took a
+      century and was never complete, but the conversion of imperial patronage:
+      bishops given jurisdiction, churches endowed on an imperial scale,
+      councils summoned and paid for by the emperor. The religion this record
+      counts as carried was made carryable here.
+    source: woolf-2012
+    contested: false
+  - year: 378
+    type: battle
+    name: Adrianople
+    changed: >-
+      A Gothic force admitted across the Danube two years earlier, and then
+      starved and cheated by the officials handling it, destroyed the eastern
+      field army and killed the emperor Valens. The settlement that followed put
+      Goths inside the empire as an army under their own commanders rather than
+      as recruits distributed among the legions, and the western half spent the
+      next century being governed by arrangements of that kind.
+    source: woolf-2012
+    contested: false
 
 measures:
   reach_km2: { value: 5000000, at: 117, source: taagepera-1979 }
   peak_population: null
   influence:
+    # One, and the item has been renamed because the old wording was circular:
+    # the Latin alphabet is this polity's own script and a polity cannot be its
+    # own descendant. Coding rule 3 excludes using a script unchanged and counts
+    # adaptation of a script to write a language it did not previously write,
+    # which is what happened to the Roman alphabet across the western provinces
+    # and, through direct transmission, everywhere afterwards. Counted once
+    # because no source in this bibliography splits it into named scripts.
+    # Carolingian minuscule, on the record two entries down, is a hand rather
+    # than a script and is not a second item.
     descendant_scripts:
       count: 1
-      items: [Latin alphabet]
+      items: [The Latin alphabet outside Latin]
       source: woolf-2012
+    # Counted for the propagation and not the adoption, which coding rule 2
+    # excludes. What is counted is what imperial patronage did after 312:
+    # endowment on a scale nothing else could match, councils summoned and paid
+    # for, bishops given civil jurisdiction, and missions outward — Ulfilas
+    # consecrated at Constantinople and sent to the Goths with an alphabet made
+    # for them. The Gothic case is the clearest, and it is the exception this
+    # site's `descendant_scripts` note does not count, because a source
+    # attributes that alphabet to Ulfilas rather than to the state.
     religions_carried:
       count: 1
       items: [Christianity]
       source: woolf-2012
+    # Two, corrected from three. The Byzantine Empire was in the list and should
+    # not have been: this site's own Byzantine record is Rome continuing rather
+    # than a successor to it, the edge between them is `partitioned from` and not
+    # `claimed legitimacy of`, and the last chapter of this record has said so in
+    # its first paragraph since it was written. Coding rule 1 counts a later
+    # polity asserting an earlier polity's legitimacy, and a polity does not
+    # claim itself.
+    #
+    # What is left is the two claims that are claims, and they agree with the two
+    # `claimed legitimacy of` edges in this site's data — which the rulebook says
+    # they should, and which is why the mismatch was findable.
     successor_claims:
-      count: 3
-      items: [Byzantine Empire, Carolingian Empire, Ottoman Empire]
+      count: 2
+      items: [Carolingian Empire, Ottoman Empire]
       source: woolf-2012

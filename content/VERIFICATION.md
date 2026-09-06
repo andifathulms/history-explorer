@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**3190 claims across 171 sources.**
+**3205 claims across 173 sources.**
 
 ## Where to start
 
@@ -2841,6 +2841,30 @@ ordinary state, not an item to clear.
 - [ ] `polity/nasrid` — turning point 1482 The war and the civil war
 - [ ] `polity/nasrid` — ended by conquest in 1492
 
+## Greg Woolf, Rome: An Empire's Story
+
+`woolf-2012` — 19 claims
+
+- [ ] `chapter/roman/02-the-frontier.mdx` — prose: "The frontier"
+- [ ] `chapter/roman/05-the-army-decides.mdx` — prose: "The army decides"
+- [ ] `chapter/roman/06-the-third-century.mdx` — prose: "The third century"
+- [ ] `chapter/roman/07-diocletian-and-constantine.mdx` — prose: "Diocletian and Constantine"
+- [ ] `chapter/roman/08-395.mdx` — prose: "395"
+- [ ] `chapter/roman/09-the-name-everyone-wanted.mdx` — prose: "The name everyone wanted afterwards"
+- [ ] `polity/roman` — span starts -27
+- [ ] `polity/roman` — span ends 395
+- [ ] `polity/roman` — capital Rome from -27
+- [ ] `polity/roman` — founder Augustus r. -27-14
+- [ ] `polity/roman` — peak Trajan r. 98-117
+- [ ] `polity/roman` — last Theodosius I r. 379-395
+- [ ] `polity/roman` — turning point 260 Edessa
+- [ ] `polity/roman` — turning point 312 The Milvian Bridge
+- [ ] `polity/roman` — turning point 378 Adrianople
+- [ ] `polity/roman` — descendant_scripts = 1 (The Latin alphabet outside Latin)
+- [ ] `polity/roman` — religions_carried = 1 (Christianity)
+- [ ] `polity/roman` — successor_claims = 2 (Carolingian Empire, Ottoman Empire)
+- [ ] `polity/seleucid` — ended by conquest in -63
+
 ## Moshe Gammer, Muslim Resistance to the Tsar: Shamil and the Conquest of Chechnia and Daghestan
 
 `gammer-1994` — 18 claims
@@ -3405,24 +3429,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/khwarazmian` — successor_claims = 0
 - [ ] `polity/khwarazmian` — ended by conquest in 1231
 
-## Greg Woolf, Rome: An Empire's Story
-
-`woolf-2012` — 13 claims
-
-- [ ] `chapter/roman/01-roman.mdx` — prose: "The name everyone wanted afterwards"
-- [ ] `chapter/roman/02-the-army-and-the-throne.mdx` — prose: "The army decides"
-- [ ] `polity/roman` — span starts -27
-- [ ] `polity/roman` — span ends 395
-- [ ] `polity/roman` — capital Rome from -27
-- [ ] `polity/roman` — founder Augustus r. -27-14
-- [ ] `polity/roman` — peak Trajan r. 98-117
-- [ ] `polity/roman` — last Theodosius I r. 379-395
-- [ ] `polity/roman` — succession rule coded factional
-- [ ] `polity/roman` — descendant_scripts = 1 (Latin alphabet)
-- [ ] `polity/roman` — religions_carried = 1 (Christianity)
-- [ ] `polity/roman` — successor_claims = 3 (Byzantine Empire, Carolingian Empire, Ottoman Empire)
-- [ ] `polity/seleucid` — ended by conquest in -63
-
 ## C. E. Bosworth, TAHERIDS
 *In Encyclopaedia Iranica.*
 <https://iranicaonline.org/articles/taherids>
@@ -3951,6 +3957,16 @@ ordinary state, not an item to clear.
 - [ ] `polity/middle-assyrian` — descendant_scripts = 0
 - [ ] `polity/middle-assyrian` — religions_carried = 0
 
+## Peter Garnsey and Richard Saller, The Roman Empire: Economy, Society and Culture
+
+`garnsey-saller-2014` — 5 claims
+
+- [ ] `chapter/roman/03-what-it-taxed.mdx` — prose: "What it taxed"
+- [ ] `chapter/roman/04-everyone-is-a-roman.mdx` — prose: "Everyone is a Roman"
+- [ ] `polity/roman` — military basis coded standing-professional + conscript
+- [ ] `polity/roman` — revenue basis coded land-tax + poll-tax + trade-toll
+- [ ] `polity/roman` — turning point 212 The Antonine Constitution
+
 ## Patricia Crone and Martin Hinds, God's Caliph: Religious Authority in the First Centuries of Islam
 *In University of Cambridge Oriental Publications 37.*
 
@@ -3981,6 +3997,15 @@ ordinary state, not an item to clear.
 - [ ] `polity/nabataean` — legitimation coded descent + divine-sanction
 - [ ] `polity/nabataean` — descendant_scripts = 1 (Arabic script)
 - [ ] `polity/nabataean` — religions_carried = 0
+
+## Fergus Millar, The Emperor in the Roman World (31 BC - AD 337)
+
+`millar-1977` — 4 claims
+
+- [ ] `chapter/roman/01-the-republic-that-did-not-end.mdx` — prose: "The republic that did not end"
+- [ ] `polity/roman` — succession rule coded nomination + acclamation
+- [ ] `polity/roman` — legitimation coded election + descent + divine-sanction
+- [ ] `polity/roman` — turning point 69 The year of four emperors
 
 ## Kathryn Babayan, Mystics, Monarchs, and Messiahs: Cultural Landscapes of Early Modern Iran
 *In Harvard Middle Eastern Monographs 35.*
