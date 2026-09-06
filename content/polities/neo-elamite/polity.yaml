@@ -1,0 +1,128 @@
+id: neo-elamite
+region: ancient-near-east
+
+name:
+  latin: Neo-Elamite Kingdom
+  script: 𒉏𒈠𒆠
+  script_lang: elx
+
+# Starts where a securable king list starts, three centuries after the Middle
+# Elamite kingdom ends. Ends with Ashurbanipal: Susa was sacked in 646 and the
+# last king this corpus can name surrendered a year or two later. Elamite kings
+# are attested afterwards, in a fragmented country whose sequence nobody can
+# establish, and this record does not follow them there.
+span:
+  start: { min: -770, max: -770, source: potts-2016 }
+  end: { min: -645, max: -645, source: potts-2016 }
+
+identity: >-
+  Assyria's longest-lived enemy on its eastern flank, and the state whose royal
+  title Cyrus took before he had any other.
+
+capitals:
+  - { name: Susa, from: -770, source: potts-2016 }
+
+core_region: Khuzestan and the western Zagros
+
+rulers:
+  founder: { name: Humban-tahrah I, source: potts-2016 }
+  peak: { name: Shutruk-Nahhunte II, reign: [-717, -699], source: potts-2016 }
+  last: { name: Humban-haltash III, reign: [-648, -645], source: potts-2016 }
+
+scripts_and_languages:
+  administration: [Elamite, Akkadian]
+  writing_system: Cuneiform
+
+ended:
+  type: conquest
+  by: [neo-assyrian]
+  year: -645
+  source: potts-2016
+
+institutions:
+  # One coded field out of four, exactly as on the Middle Elamite record, and
+  # the reason is worse here rather than better. This kingdom fought Assyria for
+  # a century and is described at length — in Assyrian royal inscriptions, by
+  # the people who eventually destroyed it. Almost everything narrated on this
+  # page is known because an Assyrian king had it carved on a palace wall in
+  # Nineveh. A source like that will say who was defeated and where; it will not
+  # say how the loser raised his troops or collected his taxes, and nothing on
+  # the Elamite side survives that does.
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  legitimation: { values: [divine-sanction, descent], source: potts-2016 }
+
+turning_points:
+  - year: -720
+    type: battle
+    name: Der
+    changed: >-
+      Humban-nikash I, allied with Merodach-baladan of Babylon, met Sargon II at
+      Der and the Assyrians did not win. Sargon's own inscriptions claim a
+      victory and the Babylonian Chronicle gives it to the Elamites; the
+      practical result is that Merodach-baladan held Babylon for eleven years.
+      It is one of very few occasions in this corpus where an Assyrian defeat
+      can be established, and it establishes what this kingdom was for: the
+      power that made Babylonian revolt survivable.
+    source: potts-2016
+    contested: true
+  - year: -691
+    type: battle
+    name: Halule
+    changed: >-
+      An Elamite and Babylonian coalition met Sennacherib on the Tigris. Both
+      sides claimed it. Two years later Sennacherib destroyed Babylon, which
+      this site's Assyrian record carries as the act that poisoned the
+      relationship that eventually destroyed the Assyrian empire — and the
+      reason he was in a position to need to do it is on this page.
+    source: potts-2016
+    contested: true
+  - year: -653
+    type: battle
+    name: Til-Tuba
+    changed: >-
+      Ashurbanipal destroyed the Elamite army on the Ulai river and Te-Umman was
+      killed. The battle is carved in continuous narrative relief on a palace
+      wall at Nineveh, ending with the king's severed head hanging in a garden
+      where Ashurbanipal reclines with his queen. It is among the most
+      reproduced images from the ancient world, and it is a picture of this
+      record's defeat drawn by the victor.
+    source: potts-2016
+    contested: false
+  - year: -646
+    type: siege
+    name: Susa
+    changed: >-
+      Ashurbanipal took Susa and recorded what he did to it: the ziggurat pulled
+      down, the gods carried off, the royal tombs opened and the bones taken
+      away so that no offerings could reach them, the ground sown with salt and
+      thorns. Whether it was executed as described is another matter — Assyrian
+      inscriptions are not neutral about their own thoroughness — but Elam
+      stopped being a state after it, and the political vacuum on the Iranian
+      side of the Zagros is the space the Persians moved into.
+    source: potts-2016
+    contested: false
+
+measures:
+  # No cited figure. Taagepera carries an Elamite entry at 1160, which is on the
+  # Middle Elamite record; this kingdom, which lasted longer and is far better
+  # described, has nothing. The pattern repeats what the Ur III record says
+  # about itself: being written about a great deal and being measured are not
+  # the same thing, and this site can only rank on the second.
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: potts-2016 }
+    religions_carried: { count: 0, items: [], source: potts-2016 }
+    # One, and it is one of the more consequential claims in this corpus. Cyrus
+    # introduces himself on the cylinder deposited in Babylon's wall as king of
+    # Anshan, son of Cambyses king of Anshan, grandson of Cyrus king of Anshan,
+    # descendant of Teispes king of Anshan — four generations styled by an
+    # Elamite royal title, in a city he had just taken, before any Persian title
+    # appears. Titulature publicly asserted, which is rule 1's paradigm case.
+    # The Achaemenid administration then ran in Elamite for two centuries.
+    successor_claims:
+      count: 1
+      items: [Achaemenid Empire]
+      source: potts-2016

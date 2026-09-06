@@ -1,0 +1,126 @@
+id: middle-elamite
+region: ancient-near-east
+
+name:
+  latin: Middle Elamite Kingdom
+  script: 𒉏𒈠𒆠
+  script_lang: elx
+
+# The Middle Elamite period is conventionally dated from about 1500, and the
+# first hundred years of it is not much more than a list of names on bricks.
+# This record begins with the Igehalkid dynasty, which is where inscriptions,
+# a securable sequence of kings and a state to describe all begin together.
+span:
+  start: { min: -1400, max: -1400, source: potts-2016 }
+  end: { min: -1110, max: -1110, source: potts-2016 }
+
+identity: >-
+  The Iranian kingdom that took Babylon's law stele home as plunder, built the
+  largest surviving ziggurat in the world, and wrote in a language related to
+  nothing.
+
+capitals:
+  - { name: Susa, from: -1400, source: potts-2016 }
+
+core_region: Khuzestan and Fars
+
+rulers:
+  founder: { name: Ige-halki, source: potts-2016 }
+  peak: { name: Shutruk-Nahhunte, reign: [-1190, -1155], source: potts-2016 }
+  last: { name: Hutelutush-Inshushinak, source: potts-2016 }
+
+scripts_and_languages:
+  administration: [Elamite, Akkadian]
+  writing_system: Cuneiform
+
+# Nebuchadnezzar I of Babylon — of the Second Dynasty of Isin, five hundred
+# years before the Nebuchadnezzar this corpus carries, and a different man
+# entirely — raided Elam around 1110, recovered the statue of Marduk that
+# Shutruk-Nahhunte's line had taken, and the kingdom does not reappear. `by` is
+# empty because his dynasty has no page here.
+ended:
+  type: conquest
+  by: []
+  year: -1110
+  source: potts-2016
+
+institutions:
+  # Null, and the same is true of the next two fields. This is the second time
+  # in this region that a major power comes in at one coded institution out of
+  # four — the Mitanni record is the other — and the reason is the same in
+  # outline and different in detail. Mitanni's capital has never been found.
+  # Susa has been excavated since 1897 and Chogha Zanbil is one of the most
+  # completely preserved sacred complexes of the ancient world. What Elam did
+  # not leave is administration. The texts are royal building inscriptions,
+  # dedications and curses, and a state's building inscriptions will tell you
+  # what it wanted remembered and nothing about how it was paid for.
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  # Two, and the second is unusual enough to be worth naming. Elamite kings are
+  # the servants and beloved of Inshushinak and Napirisha, and they legitimate
+  # by descent — but the descent claimed is repeatedly through the female line,
+  # with kings styling themselves the son of the sister of a predecessor. The
+  # vocabulary has one value for descent and cannot say which line, which is a
+  # smaller version of the problem this corpus keeps running into: the closed
+  # list records that a claim was made and not what was claimed.
+  legitimation: { values: [divine-sanction, descent], source: potts-2016 }
+
+turning_points:
+  - year: -1250
+    type: capital-move
+    name: Al-Untash-Napirisha
+    changed: >-
+      Untash-Napirisha founded a new sacred city forty kilometres from Susa,
+      with a ziggurat that still stands twenty-five metres high and is the
+      largest surviving anywhere, inside three concentric enclosure walls with
+      temples to gods gathered from the whole kingdom. It was not finished, and
+      after his death it was largely left. Coded as a capital move because the
+      king moved his court and the kingdom's cults into it, and marked contested
+      because whether it ever functioned as a capital rather than as a royal
+      cult centre is exactly what is argued about.
+    source: potts-2016
+    contested: true
+  - year: -1158
+    type: siege
+    name: Babylon
+    changed: >-
+      Shutruk-Nahhunte invaded Babylonia, and his son finished the Kassite
+      dynasty three years later. What came back to Susa was the plunder: the
+      statue of Marduk, the victory stele of Naram-Sin of Akkad, and the diorite
+      stele of Hammurabi's laws. This corpus's Old Babylonian record says that
+      the most famous object of the Mesopotamian world reached the modern world
+      because this polity stole it and a French expedition dug it up at Susa in
+      1901. This is the page of the polity that stole it.
+    source: potts-2016
+    contested: false
+  - year: -1110
+    type: battle
+    name: Nebuchadnezzar I
+    changed: >-
+      A Babylonian king came the other way, beat the Elamites, and took Marduk
+      back. Elam then disappears from the written record for something like
+      three centuries. The Neo-Elamite record in this region begins on the far
+      side of that silence, which makes this the third pair of records on this
+      site — after the two Babylons and the two Assyrias — where one place
+      produces two states with a dark age between them.
+    source: potts-2016
+    contested: false
+
+measures:
+  reach_km2: { value: 200000, at: -1160, source: taagepera-1978b }
+  peak_population: null
+  influence:
+    # Zero, and the derivation runs the way it does on the Hittite record.
+    # Elamite cuneiform is Mesopotamian cuneiform adapted to write a language
+    # unrelated to anything in the region, which is what rule 3 counts — on the
+    # record of the polity whose script was adapted. Linear Elamite, which is a
+    # genuinely independent Elamite invention and was undeciphered until very
+    # recently, belongs to the Old Elamite period a thousand years before this
+    # record starts.
+    descendant_scripts: { count: 0, items: [], source: potts-2016 }
+    religions_carried: { count: 0, items: [], source: potts-2016 }
+    # Zero. The claim on Elamite kingship that this corpus does count — Cyrus
+    # styling himself king of Anshan — is made on the Neo-Elamite record, and
+    # the Anshan title is the reason those are two records and not one.
+    successor_claims: { count: 0, items: [], source: potts-2016 }

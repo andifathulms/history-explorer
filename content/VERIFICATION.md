@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**2953 claims across 159 sources.**
+**2992 claims across 160 sources.**
 
 ## Where to start
 
@@ -61,6 +61,7 @@ ordinary state, not an item to clear.
 - [ ] `maurya` — one figure, at -250 (Rein Taagepera, Size and Duration of Empires: Growth-Decline Curves, 600 B.C. to 600 A.D.)
 - [ ] `median` — one figure, at -585 (Rein Taagepera, Size and Duration of Empires: Growth-Decline Curves, 600 B.C. to 600 A.D.)
 - [ ] `middle-assyrian` — one figure, at -1080 (Rein Taagepera, Size and Duration of Empires: Systematics of Size)
+- [ ] `middle-elamite` — one figure, at -1160 (Rein Taagepera, Size and Duration of Empires: Systematics of Size)
 - [ ] `ming` — one figure, at 1450 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
 - [ ] `mitanni` — one figure, at -1450 (Rein Taagepera, Size and Duration of Empires: Systematics of Size)
 - [ ] `mongol` — one figure, at 1270 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
@@ -1301,6 +1302,52 @@ ordinary state, not an item to clear.
 - [ ] `polity/trebizond` — revenue basis coded trade-toll
 - [ ] `polity/trebizond` — legitimation coded descent + titulature
 - [ ] `polity/trebizond` — turning point 1282 Giving up the imperial title
+
+## D. T. Potts, The Archaeology of Elam: Formation and Transformation of an Ancient Iranian State
+*In Cambridge World Archaeology.*
+
+`potts-2016` — 38 claims
+
+**Sole source** for `neo-elamite` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/middle-elamite/01-a-language-related-to-nothing.mdx` — prose: "A language related to nothing"
+- [ ] `chapter/middle-elamite/02-chogha-zanbil.mdx` — prose: "Chogha Zanbil"
+- [ ] `chapter/middle-elamite/03-the-stele-goes-east.mdx` — prose: "The stele goes east"
+- [ ] `chapter/middle-elamite/04-1110.mdx` — prose: "1110"
+- [ ] `chapter/neo-elamite/01-the-other-side-of-the-relief.mdx` — prose: "The other side of the relief"
+- [ ] `chapter/neo-elamite/02-til-tuba.mdx` — prose: "Til-Tuba"
+- [ ] `chapter/neo-elamite/03-646.mdx` — prose: "646"
+- [ ] `edge/neo-elamite->achaemenid` — claimed legitimacy of in -559
+- [ ] `edge/neo-elamite->neo-assyrian` — conquered by in -645
+- [ ] `polity/middle-elamite` — span starts -1400
+- [ ] `polity/middle-elamite` — span ends -1110
+- [ ] `polity/middle-elamite` — capital Susa from -1400
+- [ ] `polity/middle-elamite` — founder Ige-halki
+- [ ] `polity/middle-elamite` — peak Shutruk-Nahhunte r. -1190--1155
+- [ ] `polity/middle-elamite` — last Hutelutush-Inshushinak
+- [ ] `polity/middle-elamite` — legitimation coded divine-sanction + descent
+- [ ] `polity/middle-elamite` — turning point -1250 Al-Untash-Napirisha (contested)
+- [ ] `polity/middle-elamite` — turning point -1158 Babylon
+- [ ] `polity/middle-elamite` — turning point -1110 Nebuchadnezzar I
+- [ ] `polity/middle-elamite` — descendant_scripts = 0
+- [ ] `polity/middle-elamite` — religions_carried = 0
+- [ ] `polity/middle-elamite` — successor_claims = 0
+- [ ] `polity/middle-elamite` — ended by conquest in -1110
+- [ ] `polity/neo-elamite` — span starts -770
+- [ ] `polity/neo-elamite` — span ends -645
+- [ ] `polity/neo-elamite` — capital Susa from -770
+- [ ] `polity/neo-elamite` — founder Humban-tahrah I
+- [ ] `polity/neo-elamite` — peak Shutruk-Nahhunte II r. -717--699
+- [ ] `polity/neo-elamite` — last Humban-haltash III r. -648--645
+- [ ] `polity/neo-elamite` — legitimation coded divine-sanction + descent
+- [ ] `polity/neo-elamite` — turning point -720 Der (contested)
+- [ ] `polity/neo-elamite` — turning point -691 Halule (contested)
+- [ ] `polity/neo-elamite` — turning point -653 Til-Tuba
+- [ ] `polity/neo-elamite` — turning point -646 Susa
+- [ ] `polity/neo-elamite` — descendant_scripts = 0
+- [ ] `polity/neo-elamite` — religions_carried = 0
+- [ ] `polity/neo-elamite` — successor_claims = 1 (Achaemenid Empire)
+- [ ] `polity/neo-elamite` — ended by conquest in -645
 
 ## Amira K. Bennison, The Almoravid and Almohad Empires
 
@@ -3428,6 +3475,21 @@ ordinary state, not an item to clear.
 - [ ] `polity/xiongnu` — last Unknown r. 91-91
 - [ ] `polity/xiongnu` — ended by fragmentation in 91
 
+## Rein Taagepera, Size and Duration of Empires: Systematics of Size
+*In Social Science Research 7(2), 108-127.*
+
+`taagepera-1978b` — 9 claims
+
+- [ ] `polity/akkadian` — reach 650,000 km2 at -2300
+- [ ] `polity/egypt-new-kingdom` — reach 1,000,000 km2 at -1450
+- [ ] `polity/hittite` — reach 450,000 km2 at -1250
+- [ ] `polity/middle-assyrian` — reach 400,000 km2 at -1080
+- [ ] `polity/middle-elamite` — reach 200,000 km2 at -1160
+- [ ] `polity/mitanni` — reach 300,000 km2 at -1450
+- [ ] `polity/neo-assyrian` — reach 1,400,000 km2 at -670
+- [ ] `polity/neo-babylonian` — reach 500,000 km2 at -562
+- [ ] `reference/akkadian` — reach 650,000 km2 at -2300
+
 ## C. E. Bosworth, The Later Ghaznavids: Splendour and Decay. The Dynasty in Afghanistan and Northern India, 1040-1186
 
 `bosworth-1977` — 9 claims
@@ -3483,20 +3545,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/zurayid` — peak Muhammad ibn Saba'
 - [ ] `polity/zurayid` — military basis coded tribal-levy
 - [ ] `polity/zurayid` — revenue basis coded trade-toll
-
-## Rein Taagepera, Size and Duration of Empires: Systematics of Size
-*In Social Science Research 7(2), 108-127.*
-
-`taagepera-1978b` — 8 claims
-
-- [ ] `polity/akkadian` — reach 650,000 km2 at -2300
-- [ ] `polity/egypt-new-kingdom` — reach 1,000,000 km2 at -1450
-- [ ] `polity/hittite` — reach 450,000 km2 at -1250
-- [ ] `polity/middle-assyrian` — reach 400,000 km2 at -1080
-- [ ] `polity/mitanni` — reach 300,000 km2 at -1450
-- [ ] `polity/neo-assyrian` — reach 1,400,000 km2 at -670
-- [ ] `polity/neo-babylonian` — reach 500,000 km2 at -562
-- [ ] `reference/akkadian` — reach 650,000 km2 at -2300
 
 ## Benjamin R. Foster, The Age of Agade: Inventing Empire in Ancient Mesopotamia
 

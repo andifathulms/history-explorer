@@ -917,6 +917,39 @@ edges:
     source: frahm-2023
     contested: false
 
+  # The direction convention on this site is that `from` is the earlier polity.
+  # It does not hold here and cannot: Assyria is older than the kingdom it
+  # destroyed. `conquered by` says which of the two was conquered, which is the
+  # claim being made, and the ordering of their foundations is not part of it.
+  # The Hittite record has the mirror image of the same problem and solved it by
+  # having no edge at all.
+  - from: neo-elamite
+    to: neo-assyrian
+    type: conquered by
+    year: -645
+    note: >-
+      Ashurbanipal broke the Elamite army at Til-Tuba in 653 and sacked Susa in
+      646; Humban-haltash III surrendered a year or two later and Elam stopped
+      being a state.
+    source: potts-2016
+    contested: false
+
+  # Crosses into Iran before Islam, so no thread draws it, and it is the only
+  # edge in the corpus of this type that runs from a polity to the empire that
+  # conquered it a century after the claim was first made. Teispes and his
+  # successors styled themselves kings of Anshan while Anshan was Elamite
+  # ground.
+  - from: neo-elamite
+    to: achaemenid
+    type: claimed legitimacy of
+    year: -559
+    note: >-
+      Cyrus introduces himself on the Babylon cylinder as king of Anshan, son,
+      grandson and descendant of kings of Anshan — an Elamite title, four
+      generations deep, and the only royal style he claims before Babylon's own.
+    source: potts-2016
+    contested: false
+
   # ---- Iran before Islam ----
 
   - from: neo-assyrian

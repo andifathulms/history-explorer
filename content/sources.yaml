@@ -1803,6 +1803,50 @@ sources:
       frahm-2023, and the two together are the closest this corpus comes to
       watching one state's machinery across a long interruption.
 
+  - id: potts-2016
+    kind: book
+    author: D. T. Potts
+    title: >-
+      The Archaeology of Elam: Formation and Transformation of an Ancient
+      Iranian State
+    container: Cambridge World Archaeology
+    publisher: Cambridge University Press
+    edition: 2nd
+    year: 2016
+    note: >-
+      The standard account, revised from 1999 with more than eight hundred
+      additional sources. Potts is an archaeologist and the book is organised
+      around material evidence, which is why this site's two Elamite records
+      carry one coded institution each: what survives is monuments, royal
+      inscriptions and other people's descriptions, not administration.
+
+  - id: zimansky-1985
+    kind: book
+    author: Paul E. Zimansky
+    title: "Ecology and Empire: The Structure of the Urartian State"
+    container: Studies in Ancient Oriental Civilization 41
+    publisher: Oriental Institute of the University of Chicago
+    year: 1985
+    note: >-
+      An argument that the Urartian state was a superstructure of royal
+      fortresses and state agriculture imposed on a landscape that could not
+      have produced it unaided, built as a response to the Assyrian army. This
+      site's Urartian institutions are coded from it, and its `revenue_basis`
+      turns on Zimansky's account of how the fortress estates were stocked.
+
+  - id: zimansky-1998
+    kind: book
+    author: Paul E. Zimansky
+    title: "Ancient Ararat: A Handbook of Urartian Studies"
+    container: Anatolian and Caucasian Studies
+    publisher: Caravan Books
+    year: 1998
+    note: >-
+      The reference handbook: kings, chronology, sites, inscriptions and the
+      state of the arguments. Cited here for the dynasty, the script and the
+      ending, which is the part of the record where a handbook's willingness to
+      say that nothing is known is worth more than a narrative.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors
