@@ -16,6 +16,15 @@
 # `edgesInRegion`. The axis is geography, deliberately — grouping by
 # civilisation would assert one level up exactly what the paragraph above
 # refuses. The closed list and the reasoning are in lib/types.ts.
+#
+# Two group ids were renamed once the Ancient Near East reached thirteen
+# records. `iran` was the only one of the seven named after a modern country
+# while the rest are physical geography, and it carries a region of Christian
+# kingdoms oriented on Byzantium and Russia; it is now `iranian-plateau`.
+# `fertile-crescent` stopped being true when Hatti, Urartu and both Elams
+# entered, none of which is in the Fertile Crescent; it is now `near-east`.
+# Renaming a group costs nothing because a group has no page and no route,
+# which is the whole point of the paragraph above.
 regions:
   - id: iranian-intermezzo
     name: The Iranian Intermezzo
@@ -24,7 +33,7 @@ regions:
       Mongol arrival — Khurasan, Transoxiana and the Iranian plateau. Dense with
       succession: slave-generals taking their masters' provinces, vassals
       swallowing overlords, governors inheriting the empire that appointed them.
-    group: iran
+    group: iranian-plateau
     thread: true
 
   # Membership rule, stated because it is not obvious and was not being
@@ -44,7 +53,7 @@ regions:
       same terms. Succession runs inside the line and stops at its edge:
       a polity that says the office was usurped is not its heir, and no edge
       joins them.
-    group: fertile-crescent
+    group: near-east
     thread: true
 
   # Blurb widened. The four imperial records are still the spine, but the
@@ -61,7 +70,7 @@ regions:
       powers that took pieces of it and claimed nothing: a Greek kingdom on the
       Oxus, and the steppe confederation that broke the Sasanian frontier from
       the one direction the Roman wars make invisible.
-    group: iran
+    group: iranian-plateau
     thread: true
 
   - id: mongol-world
@@ -111,7 +120,7 @@ regions:
       an invasion from Europe, and the four Frankish states that held the shore
       for a hundred and ninety-two years and were removed from it in
       twenty-three.
-    group: fertile-crescent
+    group: near-east
     thread: true
 
   - id: jazira
@@ -124,7 +133,7 @@ regions:
       through Isfahan, and its two unattached polities each have an edge that
       leaves the region because the Seljuk sultanate is what stood between one
       and the next.
-    group: fertile-crescent
+    group: near-east
     thread: true
 
   # Membership is the peninsula, not a lineage. That needs saying because the
@@ -198,7 +207,7 @@ regions:
       made Iran Shi'i, and what followed it — an Afghan occupation, a conqueror
       who took Delhi, a regent who refused the title of shah, and a century
       spent between two European empires.
-    group: iran
+    group: iranian-plateau
     thread: true
 
   # Thirteen records and five internal edges, the oldest in the corpus:
@@ -218,7 +227,7 @@ regions:
       Egypt before and after the pyramids, Mitanni, Hatti and Urartu. A few
       places kept producing states, separated by dark ages rather than by
       successions, which is why the thread here is thin and should be.
-    group: fertile-crescent
+    group: near-east
     thread: true
 
   # Split three ways from a single `arabia` region. That region had fifteen
@@ -305,5 +314,5 @@ regions:
       on either side wanted, none could cheaply hold, and all of them marched
       through — where local houses survived by being expensive to take and
       useful to leave alone.
-    group: iran
+    group: iranian-plateau
     thread: true

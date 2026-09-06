@@ -40,8 +40,17 @@ export type RegionId = string
  * every time an old one is added somewhere.
  */
 export const REGION_GROUPS = [
-  { id: 'fertile-crescent', name: 'The Fertile Crescent and Egypt' },
-  { id: 'iran', name: 'Iran and the Caucasus' },
+  // Was 'fertile-crescent' / 'The Fertile Crescent and Egypt'. Renamed when the
+  // Ancient Near East grew from four records to thirteen and stopped fitting:
+  // Hatti is central Anatolia, Urartu is the Armenian highlands and both Elams
+  // are the Iranian side of the Zagros, none of which is the Fertile Crescent.
+  // This is now deliberately the broadest of the seven names, because its
+  // oldest region reaches from the Nile to Lake Van.
+  { id: 'near-east', name: 'The Near East' },
+  // Was 'iran'. It was the only group of the seven named after a modern country
+  // while the rest are physical geography, and it holds a region of four
+  // Christian kingdoms whose orientation was Byzantine and then Russian.
+  { id: 'iranian-plateau', name: 'The Iranian Plateau and the Caucasus' },
   { id: 'arabia', name: 'The Arabian Peninsula' },
   { id: 'mediterranean', name: 'The Mediterranean' },
   { id: 'africa-maghreb', name: 'Africa and the Maghreb' },
