@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**3034 claims across 162 sources.**
+**3077 claims across 165 sources.**
 
 ## Where to start
 
@@ -1071,6 +1071,58 @@ ordinary state, not an item to clear.
 - [ ] `polity/ziyarid` — turning point 935 Mardavij killed in his bath
 - [ ] `polity/ziyarid` — turning point 1012 The army deposes Qabus
 
+## Greg Fisher, Between Empires: Arabs, Romans, and Sasanians in Late Antiquity
+*In Oxford Classical Monographs.*
+
+`fisher-2011` — 44 claims
+
+**Sole source** for `jafnid` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/hujrid/01-the-third-family.mdx` — prose: "The third family"
+- [ ] `chapter/hujrid/02-a-power-in-the-middle.mdx` — prose: "A power in the middle"
+- [ ] `chapter/hujrid/03-al-hira.mdx` — prose: "Al-Hira"
+- [ ] `chapter/hujrid/04-imru-al-qays.mdx` — prose: "The prince who went looking for a kingdom"
+- [ ] `chapter/hujrid/05-what-the-clients-were-for.mdx` — prose: "What the clients were for"
+- [ ] `chapter/jafnid/01-the-frontier.mdx` — prose: "Hiring the frontier"
+- [ ] `chapter/jafnid/02-al-harith.mdx` — prose: "Al-Harith"
+- [ ] `chapter/jafnid/03-the-name.mdx` — prose: "Jafnid, not Ghassanid"
+- [ ] `chapter/jafnid/04-a-church.mdx` — prose: "The bishops they got consecrated"
+- [ ] `chapter/jafnid/05-what-rome-gave.mdx` — prose: "What Rome gave"
+- [ ] `chapter/jafnid/06-582.mdx` — prose: "582"
+- [ ] `chapter/nasrid-hira/01-the-other-side.mdx` — prose: "The other side"
+- [ ] `chapter/nasrid-hira/02-the-forty-year-war.mdx` — prose: "The forty-year war"
+- [ ] `edge/byzantine->jafnid` — vassal of in 529
+- [ ] `edge/himyar->hujrid` — vassal of in 480
+- [ ] `edge/jafnid->rashidun` — conquered by in 636
+- [ ] `polity/hujrid` — span starts 425
+- [ ] `polity/hujrid` — span ends 528
+- [ ] `polity/hujrid` — founder Hujr Akil al-Murar
+- [ ] `polity/hujrid` — peak al-Harith ibn Amr
+- [ ] `polity/hujrid` — last Hujr ibn al-Harith
+- [ ] `polity/hujrid` — military basis coded tribal-levy
+- [ ] `polity/hujrid` — revenue basis coded tribute
+- [ ] `polity/hujrid` — turning point 525 Al-Harith takes al-Hira
+- [ ] `polity/hujrid` — turning point 528 The killing of al-Harith
+- [ ] `polity/hujrid` — ended by fragmentation in 550
+- [ ] `polity/jafnid` — span starts 502
+- [ ] `polity/jafnid` — span ends 582
+- [ ] `polity/jafnid` — capital Jabiya
+- [ ] `polity/jafnid` — founder Jabala ibn al-Harith
+- [ ] `polity/jafnid` — peak al-Harith ibn Jabala r. 529-569
+- [ ] `polity/jafnid` — military basis coded tribal-levy
+- [ ] `polity/jafnid` — revenue basis coded tribute
+- [ ] `polity/jafnid` — legitimation coded investiture
+- [ ] `polity/jafnid` — turning point 529 The supreme phylarchate
+- [ ] `polity/jafnid` — turning point 554 The killing of al-Mundhir of al-Hira
+- [ ] `polity/jafnid` — religions_carried = 1 (Miaphysite Christianity)
+- [ ] `polity/jafnid` — ended by fragmentation in 582
+- [ ] `polity/nasrid-hira` — peak al-Mundhir III r. 503-554
+- [ ] `polity/nasrid-hira` — military basis coded tribal-levy + client-levy
+- [ ] `polity/nasrid-hira` — legitimation coded investiture
+- [ ] `polity/nasrid-hira` — turning point 528 The recovery of al-Hira
+- [ ] `polity/nasrid-hira` — turning point 531 Callinicum
+- [ ] `polity/nasrid-hira` — turning point 554 The death of al-Mundhir
+
 ## Marc Van De Mieroop, A History of the Ancient Near East, ca. 3000-323 BC
 
 `van-de-mieroop-2015` — 42 claims
@@ -1522,50 +1574,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/nejd` — turning point 1865 The war of the brothers
 - [ ] `polity/nejd` — ended by conquest in 1891
 - [ ] `polity/rashidi` — turning point 1902 Ibn Saud takes Riyadh
-
-## Greg Fisher, Between Empires: Arabs, Romans, and Sasanians in Late Antiquity
-*In Oxford Classical Monographs.*
-
-`fisher-2011` — 36 claims
-
-**Sole source** for `jafnid` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/hujrid/01-the-third-family.mdx` — prose: "The third family"
-- [ ] `chapter/hujrid/02-a-power-in-the-middle.mdx` — prose: "A power in the middle"
-- [ ] `chapter/hujrid/03-al-hira.mdx` — prose: "Al-Hira"
-- [ ] `chapter/hujrid/04-imru-al-qays.mdx` — prose: "The prince who went looking for a kingdom"
-- [ ] `chapter/hujrid/05-what-the-clients-were-for.mdx` — prose: "What the clients were for"
-- [ ] `chapter/jafnid/01-the-frontier.mdx` — prose: "Hiring the frontier"
-- [ ] `chapter/jafnid/02-al-harith.mdx` — prose: "Al-Harith"
-- [ ] `chapter/jafnid/03-the-name.mdx` — prose: "Jafnid, not Ghassanid"
-- [ ] `chapter/jafnid/04-a-church.mdx` — prose: "The bishops they got consecrated"
-- [ ] `chapter/jafnid/05-what-rome-gave.mdx` — prose: "What Rome gave"
-- [ ] `chapter/jafnid/06-582.mdx` — prose: "582"
-- [ ] `edge/byzantine->jafnid` — vassal of in 529
-- [ ] `edge/himyar->hujrid` — vassal of in 480
-- [ ] `edge/jafnid->rashidun` — conquered by in 636
-- [ ] `polity/hujrid` — span starts 425
-- [ ] `polity/hujrid` — span ends 528
-- [ ] `polity/hujrid` — founder Hujr Akil al-Murar
-- [ ] `polity/hujrid` — peak al-Harith ibn Amr
-- [ ] `polity/hujrid` — last Hujr ibn al-Harith
-- [ ] `polity/hujrid` — military basis coded tribal-levy
-- [ ] `polity/hujrid` — revenue basis coded tribute
-- [ ] `polity/hujrid` — turning point 525 Al-Harith takes al-Hira
-- [ ] `polity/hujrid` — turning point 528 The killing of al-Harith
-- [ ] `polity/hujrid` — ended by fragmentation in 550
-- [ ] `polity/jafnid` — span starts 502
-- [ ] `polity/jafnid` — span ends 582
-- [ ] `polity/jafnid` — capital Jabiya
-- [ ] `polity/jafnid` — founder Jabala ibn al-Harith
-- [ ] `polity/jafnid` — peak al-Harith ibn Jabala r. 529-569
-- [ ] `polity/jafnid` — military basis coded tribal-levy
-- [ ] `polity/jafnid` — revenue basis coded tribute
-- [ ] `polity/jafnid` — legitimation coded investiture
-- [ ] `polity/jafnid` — turning point 529 The supreme phylarchate
-- [ ] `polity/jafnid` — turning point 554 The killing of al-Mundhir of al-Hira
-- [ ] `polity/jafnid` — religions_carried = 1 (Miaphysite Christianity)
-- [ ] `polity/jafnid` — ended by fragmentation in 582
 
 ## G. R. Hawting, The First Dynasty of Islam: The Umayyad Caliphate AD 661-750
 
@@ -2881,6 +2889,28 @@ ordinary state, not an item to clear.
 - [ ] `polity/mirdasid` — turning point 1029 Al-Uqhuwana
 - [ ] `polity/mirdasid` — ended by dynastic replacement in 1080
 
+## G. W. Bowersock, Roman Arabia
+
+`bowersock-1983` — 17 claims
+
+- [ ] `chapter/nabataean/01-people-with-no-houses.mdx` — prose: "People with no houses"
+- [ ] `chapter/nabataean/02-the-road.mdx` — prose: "The road"
+- [ ] `chapter/nabataean/03-a-client-that-lasted.mdx` — prose: "A client that lasted"
+- [ ] `chapter/nabataean/05-106.mdx` — prose: "106"
+- [ ] `edge/nabataean->roman` — absorbed remnants of in 106
+- [ ] `polity/nabataean` — span starts -168
+- [ ] `polity/nabataean` — span ends 106
+- [ ] `polity/nabataean` — capital Petra from -168
+- [ ] `polity/nabataean` — founder Aretas I
+- [ ] `polity/nabataean` — peak Aretas IV r. -9-40
+- [ ] `polity/nabataean` — last Rabbel II r. 70-106
+- [ ] `polity/nabataean` — military basis coded tribal-levy
+- [ ] `polity/nabataean` — revenue basis coded trade-toll
+- [ ] `polity/nabataean` — turning point -63 Pompey in Syria
+- [ ] `polity/nabataean` — turning point 106 Provincia Arabia
+- [ ] `polity/nabataean` — successor_claims = 0
+- [ ] `polity/nabataean` — ended by gradual absorption in 106
+
 ## Vladimir Minorsky, Studies in Caucasian History: New Light on the Shaddadids of Ganja; The Shaddadids of Ani; Prehistory of Saladin
 *In Cambridge Oriental Series 6.*
 
@@ -3180,6 +3210,26 @@ ordinary state, not an item to clear.
 - [ ] `polity/mongol` — descendant_scripts = 1 (Mongolian script)
 - [ ] `polity/mongol` — successor_claims = 3 (ilkhanate, chagatai, golden-horde)
 - [ ] `polity/mongol` — ended by fragmentation in 1260
+
+## Isabel Toral-Niehoff, Al-Hira: Eine arabische Kulturmetropole im spätantiken Kontext
+*In Islamic History and Civilization 104.*
+
+`toral-niehoff-2014` — 14 claims
+
+- [ ] `chapter/nasrid-hira/03-a-city-not-a-camp.mdx` — prose: "A city, not a camp"
+- [ ] `chapter/nasrid-hira/04-602.mdx` — prose: "602"
+- [ ] `edge/nasrid-hira->sasanian` — overthrew in 602
+- [ ] `polity/nasrid-hira` — span starts 300
+- [ ] `polity/nasrid-hira` — span ends 602
+- [ ] `polity/nasrid-hira` — capital al-Hira from 300
+- [ ] `polity/nasrid-hira` — founder Amr ibn Adi
+- [ ] `polity/nasrid-hira` — last al-Nu'man III r. 580-602
+- [ ] `polity/nasrid-hira` — revenue basis coded tribute + trade-toll
+- [ ] `polity/nasrid-hira` — turning point 594 The baptism of al-Nu'man III (contested)
+- [ ] `polity/nasrid-hira` — descendant_scripts = 0
+- [ ] `polity/nasrid-hira` — religions_carried = 1 (Church of the East)
+- [ ] `polity/nasrid-hira` — successor_claims = 0
+- [ ] `polity/nasrid-hira` — ended by dynastic replacement in 602
 
 ## C. E. Bosworth, KWARAZMSHAHS
 *In Encyclopaedia Iranica.*
@@ -3767,6 +3817,16 @@ ordinary state, not an item to clear.
 - [ ] `polity/buyid` — capital Shiraz from 934
 - [ ] `polity/buyid` — capital Rayy from 943
 - [ ] `polity/buyid` — descendant_scripts = 0
+
+## John F. Healey, The Religion of the Nabataeans: A Conspectus
+*In Religions in the Graeco-Roman World 136.*
+
+`healey-2001` — 4 claims
+
+- [ ] `chapter/nabataean/04-the-alphabet.mdx` — prose: "The alphabet"
+- [ ] `polity/nabataean` — legitimation coded descent + divine-sanction
+- [ ] `polity/nabataean` — descendant_scripts = 1 (Arabic script)
+- [ ] `polity/nabataean` — religions_carried = 0
 
 ## Kathryn Babayan, Mystics, Monarchs, and Messiahs: Cultural Landscapes of Early Modern Iran
 *In Harvard Middle Eastern Monographs 35.*

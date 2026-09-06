@@ -1847,6 +1847,49 @@ sources:
       ending, which is the part of the record where a handbook's willingness to
       say that nothing is known is worth more than a narrative.
 
+  - id: toral-niehoff-2014
+    kind: book
+    author: Isabel Toral-Niehoff
+    title: "Al-Hira: Eine arabische Kulturmetropole im spätantiken Kontext"
+    container: Islamic History and Civilization 104
+    publisher: Brill
+    year: 2014
+    note: >-
+      The monograph on the Nasrid capital, and the reason this site can code a
+      religion carried on that record. Toral-Niehoff's subject is al-Hira as a
+      city rather than the dynasty as a client: the churches and monasteries,
+      the Church of the East hierarchy seated there, the poets, and the argument
+      that the Arab urban culture assembled at al-Hira passed more or less
+      directly into Kufa, its Islamic successor a few kilometres away.
+
+  - id: bowersock-1983
+    kind: book
+    author: G. W. Bowersock
+    title: Roman Arabia
+    publisher: Harvard University Press
+    year: 1983
+    note: >-
+      The history of the country between the Negev and the Hawran from the
+      fourth century BC to Constantine, and still the standard account of the
+      Nabataean kingdom and of what Rome did with it in 106. Bowersock's case
+      that the annexation was carried out without a war is the reason this
+      site's Nabataean record does not code `conquest`.
+
+  - id: healey-2001
+    kind: book
+    author: John F. Healey
+    title: "The Religion of the Nabataeans: A Conspectus"
+    container: Religions in the Graeco-Roman World 136
+    publisher: Brill
+    year: 2001
+    note: >-
+      Built from Nabataean Aramaic inscriptions, iconography and archaeology
+      rather than from literary sources, which is what makes it usable for a
+      coded field: it can say what the kings claimed because it is reading what
+      they had carved. Cited here for the divinisation of Nabataean kings and
+      for the script, Healey having also edited the Nabataean tomb inscriptions
+      of Mada'in Salih.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors

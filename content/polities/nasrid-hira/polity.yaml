@@ -1,0 +1,154 @@
+# The id is `nasrid-hira` and not `nasrid` because this corpus already carries
+# the Nasrids of Granada, eight hundred years and four thousand kilometres away
+# and unrelated. Following the precedent set by `abbasid-cairo`.
+id: nasrid-hira
+region: eastern-mediterranean
+
+name:
+  latin: Nasrids of al-Hira
+  script: آل نصر
+  script_lang: ar
+
+# Both ends are softer than the Jafnid record's. Arabic tradition runs the house
+# back to Amr ibn Adi around 300, and the earliest securely dated object anyone
+# connects to it is the Namara inscription of 328 — which names its subject king
+# of all the Arabs and whose attachment to this family is argued about. 602 is
+# firm: Khusrau II had the last Nasrid killed.
+span:
+  start: { min: 300, max: 300, source: toral-niehoff-2014 }
+  end: { min: 602, max: 602, source: toral-niehoff-2014 }
+
+identity: >-
+  The Arab dynasty Sasanian Iran raised to hold its desert frontier, and the
+  city it held it from, which was a bishopric and a literary centre before it
+  was anything else.
+
+capitals:
+  - { name: al-Hira, script: الحيرة, from: 300, source: toral-niehoff-2014 }
+
+core_region: The lower Euphrates and the desert frontier of Sasanian Iraq
+
+rulers:
+  founder: { name: Amr ibn Adi, source: toral-niehoff-2014 }
+  peak: { name: al-Mundhir III, reign: [503, 554], source: fisher-2011 }
+  last: { name: al-Nu'man III, reign: [580, 602], source: toral-niehoff-2014 }
+
+scripts_and_languages:
+  administration: [Arabic, Persian, Syriac]
+  writing_system: Arabic and Syriac
+
+# Khusrau II had al-Nu'man III killed — imprisoned, and the accounts differ on
+# whether by execution or plague — and replaced the client kingship with a
+# Persian governor. `dynastic replacement` is the vocabulary's nearest and it is
+# not right: what replaced the dynasty was not another dynasty but direct
+# administration. The Jafnid record twenty years earlier has the identical
+# shape, an empire dismantling its own Arab client, and codes `fragmentation`
+# because Rome broke the phylarchate into fifteen pieces rather than taking it
+# over. Two empires, the same decision, two different endings in this
+# vocabulary, and chapter 5 argues that the decision was the same mistake.
+ended:
+  type: dynastic replacement
+  by: [sasanian]
+  year: 602
+  source: toral-niehoff-2014
+
+institutions:
+  # Tribal contingents from the confederacy later tradition calls Lakhm and
+  # from the allied tribes of the frontier, and beside them something the Jafnid
+  # record has no equivalent of: standing regiments quartered at al-Hira, the
+  # Dawsar and the Shahba, the second of them a Persian cavalry detachment
+  # assigned to the king. A client with an imperial garrison attached to it is a
+  # different instrument from a client with a following.
+  military_basis: { values: [tribal-levy, client-levy], source: fisher-2011 }
+  # Persian subsidy, and the Jafnid record's comment on the same value applies
+  # here word for word: `tribute` means revenue received from another polity,
+  # which is what this was, while carrying the wrong implication — Ctesiphon was
+  # retaining a client rather than buying off a threat. Beside it the traffic
+  # through al-Hira, which sat where the desert routes met the Euphrates and
+  # was a market before it was a court.
+  revenue_basis: { values: [tribute, trade-toll], source: toral-niehoff-2014 }
+  # Hereditary in the family and confirmed at Ctesiphon, and 602 settles who
+  # actually decided — exactly as 582 settles it on the Jafnid record, which is
+  # null for the same reason. Two client dynasties whose successions were in an
+  # emperor's gift, and the succession vocabulary describes arrangements
+  # internal to a polity. This is the same gap the Greater Armenia record names
+  # in this field and it is not the one the `investiture` value closed.
+  succession_rule: null
+  # The mirror of the Jafnid record, in a value that did not exist when the
+  # Jafnid record was written. The Nasrid king ruled al-Hira because the king of
+  # kings said so, was crowned with a Persian diadem, and was removed by the
+  # same authority. Two Arab dynasties, two empires, one coded ground.
+  legitimation: { values: [investiture], source: fisher-2011 }
+
+turning_points:
+  - year: 528
+    type: battle
+    name: The recovery of al-Hira
+    changed: >-
+      Al-Mundhir III had lost his capital three years earlier to al-Harith ibn
+      Amr, the Hujrid chief from central Arabia, in the episode this corpus's
+      Hujrid record carries as its own turning point. He took it back, defeated
+      al-Harith and killed him with much of his family, and the Persians backed
+      the recovery. Read from Ctesiphon it is a client being restored rather
+      than a war being won, and it ended the only period in which a power out of
+      the Arabian interior held the Euphrates frontier.
+    source: fisher-2011
+    contested: false
+  - year: 531
+    type: battle
+    name: Callinicum
+    changed: >-
+      Al-Mundhir's cavalry broke the Arab allies on the Roman right and the
+      Persian army beat Belisarius on the Euphrates. It is the clearest single
+      demonstration of what the arrangement was for: an empire that could not
+      operate in the steppe fielding a force that could, against another empire
+      doing the same thing forty kilometres away.
+    source: fisher-2011
+    contested: false
+  - year: 554
+    type: battle
+    name: The death of al-Mundhir
+    changed: >-
+      Al-Harith ibn Jabala, the Jafnid supreme phylarch, killed him. This
+      corpus's Jafnid record carries the same day as its second turning point
+      and draws the opposite conclusion from it — that a client which has
+      finished its task becomes a different proposition to its patron. Both
+      dynasties were dismantled by their own empires within fifty years of it.
+    source: fisher-2011
+    contested: false
+  - year: 594
+    type: conversion
+    name: The baptism of al-Nu'man III
+    changed: >-
+      The last Nasrid king became a Christian of the Church of the East. His
+      predecessors had been pagans presiding over a substantially Christian
+      city; the court had a bishop, the desert around it had monasteries, and
+      the conversion made the arrangement public. It is not obviously why
+      Ctesiphon destroyed him eight years later and it is not obviously
+      unconnected either, and this record does not choose between those.
+    source: toral-niehoff-2014
+    contested: true
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    # Zero, and the case for a different answer is worth stating because the
+    # Arabic tradition makes it. Later Muslim writers derive the Arabic script
+    # from al-Hira and al-Anbar, and name the men who brought it to Mecca. The
+    # epigraphic evidence points the other way — the transitional inscriptions
+    # run from Nabataean Aramaic through the Hejaz — and coding rule 3 excludes
+    # an adaptation a source attributes to a different polity. The Nabataean
+    # record entering this corpus alongside this one carries the count.
+    descendant_scripts: { count: 0, items: [], source: toral-niehoff-2014 }
+    # Counted for the propagation and not the adherence, the same test the
+    # Jafnid record's count is made under. Al-Hira was a seat of the Church of
+    # the East with a bishop from the fifth century, ringed by monasteries, and
+    # it is the channel through which that church reached the tribes of eastern
+    # and central Arabia. The kings were pagans for most of the period, which is
+    # exactly why this is a count about effect rather than about faith.
+    religions_carried:
+      count: 1
+      items: [Church of the East]
+      source: toral-niehoff-2014
+    successor_claims: { count: 0, items: [], source: toral-niehoff-2014 }

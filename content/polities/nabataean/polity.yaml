@@ -1,0 +1,132 @@
+id: nabataean
+region: eastern-mediterranean
+
+name:
+  latin: Nabataean Kingdom
+  # The Nabataeans wrote in their own form of the Aramaic script and it is in
+  # Unicode. It is not entered here, for the reason the Himyar, Saba, Mitanni
+  # and Palmyra records leave this field null: a name set in a script nobody on
+  # this project can proofread is a decoration that reads as a citation. The
+  # script itself is this record's single influence count and chapter 4 is about
+  # it.
+  script: null
+  script_lang: null
+
+# Greek writers meet the Nabataeans in 312 BC, when Antigonus sent two
+# expeditions against them and Diodorus describes a people with no houses, no
+# agriculture and no wine. The first king anyone can name is Aretas I, about
+# 168. Annexation is firm: the province of Arabia was created in 106.
+span:
+  start: { min: -168, max: -168, source: bowersock-1983 }
+  end: { min: 106, max: 106, source: bowersock-1983 }
+
+identity: >-
+  The caravan kingdom that taxed the incense road from a city cut into a
+  sandstone gorge, and whose alphabet is the one Arabic is written in.
+
+capitals:
+  - { name: Petra, from: -168, source: bowersock-1983 }
+
+core_region: Southern Transjordan, the Negev, the Hawran and the northern Hejaz
+
+rulers:
+  founder: { name: Aretas I, source: bowersock-1983 }
+  peak: { name: Aretas IV, reign: [-9, 40], source: bowersock-1983 }
+  last: { name: Rabbel II, reign: [70, 106], source: bowersock-1983 }
+
+scripts_and_languages:
+  administration: [Nabataean Aramaic, Greek]
+  writing_system: The Nabataean Aramaic script
+
+# `gradual absorption` rather than `conquest`, on Bowersock's argument. Rome
+# had been the effective overlord since Pompey took Syria in 63 BC: the kings
+# paid, supplied troops for Roman campaigns, and are called allies. In 106,
+# after Rabbel II died, Trajan created the province of Arabia. No source
+# describes a war, no triumph was celebrated for it, and the coinage of the
+# province says Arabia was acquired rather than captured. Something military
+# happened — a legion moved in — and the vocabulary's `conquest` would assert a
+# campaign nobody recorded.
+ended:
+  type: gradual absorption
+  by: [roman]
+  year: 106
+  source: bowersock-1983
+
+institutions:
+  # Tribal, and unusually late in becoming anything else. Diodorus's Nabataeans
+  # of 312 BC beat two Macedonian expeditions by not being anywhere: they had no
+  # fixed settlements to besiege, hid their water in sealed cisterns known only
+  # to themselves, and dispersed into the desert. The kingdom that later built
+  # Petra kept fighting the same way when it had to, and supplied cavalry to
+  # Rome as an ally rather than maintaining a force of its own.
+  military_basis: { values: [tribal-levy], source: bowersock-1983 }
+  # `trade-toll` alone, which is the fourth time this corpus has coded a polity
+  # that way — Palmyra in the same region, Characene at the head of the Gulf,
+  # Derbend at the Caspian gate. Strabo has the Nabataeans taxing goods in
+  # transit, and the whole apparatus of the kingdom is a route: wells, cisterns,
+  # forts and caravanserais from the Hejaz to Gaza. The Negev and Hawran
+  # agriculture the Nabataeans developed later was real and considerable, and no
+  # source presents it as what the kingdom lived on, so it is not coded.
+  revenue_basis: { values: [trade-toll], source: bowersock-1983 }
+  succession_rule: null
+  # Descent within the house, and the divinisation of dead kings — Obodas I was
+  # worshipped as a god at Avdat, and the formula naming a king alongside a
+  # deity is standard in the inscriptions. Healey reads that from what was
+  # carved rather than from what a Greek writer said about it, which is why this
+  # field is coded from him.
+  legitimation: { values: [descent, divine-sanction], source: healey-2001 }
+
+turning_points:
+  # The Macedonian expeditions of 312 BC are the earliest description of these
+  # people by anybody and they are not a turning point on this record, because
+  # they fall a hundred and forty-four years before its span opens. Diodorus's
+  # Nabataeans are a people who beat two armies by not being anywhere; the
+  # kingdom this record covers begins with the first king anyone can name. The
+  # episode is in the first chapter, where it belongs.
+  - year: -63
+    type: treaty
+    name: Pompey in Syria
+    changed: >-
+      Aretas III had taken Damascus and was intervening in Judaean dynastic
+      politics; Pompey's arrival ended that in one season, and Scaurus struck a
+      coin showing the Nabataean king kneeling beside a camel. The kingdom kept
+      its king, its capital and its revenue and stopped being independent. Every
+      later Nabataean king is a Roman ally, and 106 is the completion of what
+      happens here.
+    source: bowersock-1983
+    contested: false
+  - year: 106
+    type: reform
+    name: Provincia Arabia
+    changed: >-
+      Trajan turned the kingdom into a province, ran the Via Nova Traiana from
+      Bostra to the Red Sea, and moved the administrative centre north to
+      Bostra. Petra kept a ceremonial standing and stopped being the point of
+      anything. Coded as a reform rather than as a conquest because that is what
+      the evidence describes — an administrative act on the death of a client
+      king — and because this record's `ended` field carries the transfer.
+    source: bowersock-1983
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    # One, and it is among the largest single claims on this axis anywhere in
+    # the corpus. The Nabataeans wrote Aramaic in a cursive hand of their own,
+    # and that hand is the ancestor of the Arabic alphabet: the transitional
+    # inscriptions run from Nabataean through the Hejaz to the earliest Arabic,
+    # and the letterforms can be followed the whole way. Coding rule 3 counts
+    # derivation from the polity's writing system, and this is derivation in the
+    # strict sense rather than adaptation.
+    #
+    # The Nasrid record entering this corpus alongside this one carries 0 on the
+    # same axis, and its comment sets out the competing claim: later Arabic
+    # tradition derives the script from al-Hira and al-Anbar. This site follows
+    # the epigraphy.
+    descendant_scripts:
+      count: 1
+      items: [Arabic script]
+      source: healey-2001
+    religions_carried: { count: 0, items: [], source: healey-2001 }
+    successor_claims: { count: 0, items: [], source: bowersock-1983 }

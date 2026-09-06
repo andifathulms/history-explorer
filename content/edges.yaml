@@ -532,6 +532,50 @@ edges:
     source: peacock-yildiz-2013
     contested: false
 
+  # ---- The Arab clients of Rome and Iran, and what Rome did with Petra ----
+
+  # Neither of the two Arab client dynasties in this pass takes an edge to the
+  # other. They were exact contemporaries and exact opposites, killed each
+  # other's kings, and neither succeeded the other; the relation between them is
+  # the whole subject of both pages and it is not succession. The Jafnid record
+  # has no edge at all and this one has only the edge to the empire that ended
+  # it.
+  #
+  # `overthrew` and not `conquered by`: Ctesiphon did not take al-Hira from an
+  # enemy, it abolished its own client and put an official in the king's place,
+  # which is what this record's `dynastic replacement` ending says. And the
+  # from-is-earlier convention does not hold here, Sasanian Iran being older
+  # than the dynasty it raised, for the same reason it does not hold on
+  # `neo-elamite -> neo-assyrian`. The type carries the claim; the order of the
+  # two foundations is not part of it.
+  - from: nasrid-hira
+    to: sasanian
+    type: overthrew
+    year: 602
+    note: >-
+      Khusrau II had al-Nu'man III seized and killed and replaced the client
+      kingship with a Persian governor. Two years later an Arab coalition beat a
+      Persian army at Dhu Qar, which the later tradition treats as the first
+      time the Arabs defeated Iran and which the Nasrids were no longer there
+      to have prevented.
+    source: toral-niehoff-2014
+    contested: false
+
+  # `absorbed remnants of` rather than `conquered by`, and the difference is the
+  # argument of the Nabataean record's last chapter: no source describes a war,
+  # no triumph was held, and the province's own coinage says Arabia was acquired
+  # rather than captured.
+  - from: nabataean
+    to: roman
+    type: absorbed remnants of
+    year: 106
+    note: >-
+      Trajan created the province of Arabia after Rabbel II died, took the
+      Nabataean administrative apparatus over more or less intact, and moved the
+      centre of it from Petra north to Bostra.
+    source: bowersock-1983
+    contested: false
+
   # ---- The wider world: contact rather than succession ----
 
   - from: sasanian
