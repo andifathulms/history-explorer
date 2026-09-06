@@ -1,0 +1,99 @@
+id: antioch
+region: central-lands
+
+name:
+  latin: Principality of Antioch
+  script: Principatus Antiochenus
+  script_lang: la
+
+# 1098 is the fall of the city in June, which makes this the second Frankish
+# state founded and the first to hold a great city. 1268 is Baybars' storm,
+# after which the principality had no capital and no territory worth the name;
+# its titular princes were the counts of Tripoli until 1289, which is an edge
+# rather than an extension of this span.
+span:
+  start: { min: 1098, max: 1098, source: asbridge-2000 }
+  end: { min: 1268, max: 1268, source: barber-2012 }
+
+identity: >-
+  A Norman principality on the Orontes, built out of a broken oath to the
+  Byzantine emperor and spending the next sixty years being reminded of it.
+
+capitals:
+  - { name: Antioch, script: Antiochia, from: 1098, source: asbridge-2000 }
+
+core_region: The Orontes valley and the north Syrian coast from Latakia to the Cilician gates
+
+rulers:
+  founder: { name: Bohemond I of Taranto, reign: [1098, 1111], source: asbridge-2000 }
+  peak: { name: Roger of Salerno, reign: [1112, 1119], source: asbridge-2000 }
+  last: { name: Bohemond VI, reign: [1252, 1268], source: barber-2012 }
+
+scripts_and_languages:
+  # Greek and Armenian were the languages of the country and of much of the
+  # administration. Antioch had been Byzantine until 1084 and its Greek
+  # institutions, including a Greek patriarch the Latins spent a century trying
+  # to displace, did not disappear when the Normans arrived.
+  administration: [Latin, Greek, Armenian]
+  writing_system: Latin
+
+ended:
+  type: conquest
+  by: [mamluk-sultanate]
+  year: 1268
+  source: barber-2012
+
+institutions:
+  military_basis: { values: [land-grant], source: asbridge-2000 }
+  # Antioch's country was good and its ports were working ones — St Symeon at
+  # the mouth of the Orontes, and Latakia — but the principality never had the
+  # Italian communes' capital on the scale Acre and Tyre did.
+  revenue_basis: { values: [land-tax, trade-toll], source: asbridge-2000 }
+  succession_rule: null
+  # Conquest, and a disputed vassalage. The princes held Antioch by right of
+  # taking it; the emperors in Constantinople held that they held it of them,
+  # and twice came in person to say so.
+  legitimation: { values: [conquest], source: asbridge-2000 }
+
+turning_points:
+  - year: 1108
+    type: treaty
+    name: Devol
+    changed: >-
+      Bohemond, beaten in his own invasion of the empire, swore to hold Antioch
+      as Alexios' liegeman and to return the Greek patriarch. He never went
+      back to Syria and his nephew in Antioch simply ignored it, so the treaty
+      governed nothing — but it put the imperial claim in writing, and every
+      Byzantine emperor for the next fifty years worked from that document.
+    source: lilie-1993
+    contested: false
+  - year: 1119
+    type: battle
+    name: "The Field of Blood"
+    changed: >-
+      Ilghazi the Artuqid destroyed Roger of Salerno's field army almost to a
+      man in a morning north-east of the city. Antioch was never again able to
+      expand on its own account: from 1119 the principality was governed for
+      long stretches by regents from Jerusalem and its frontier with Aleppo
+      stopped moving east.
+    source: asbridge-2000
+    contested: false
+  - year: 1268
+    type: siege
+    name: "Baybars at Antioch"
+    changed: >-
+      The city was stormed in four days and its population killed or enslaved
+      on a scale that shocked contemporaries on both sides; Baybars wrote to
+      the absent prince to tell him what he had missed. Antioch had been a
+      great city continuously for a millennium and a half and it stopped being
+      one that week.
+    source: hillenbrand-1999
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

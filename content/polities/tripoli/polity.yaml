@@ -1,0 +1,97 @@
+id: tripoli
+region: central-lands
+
+name:
+  latin: County of Tripoli
+  script: Comitatus Tripolitanus
+  script_lang: la
+
+# 1102 is Raymond of Saint-Gilles beginning the siege and establishing himself
+# on the ground; the city itself did not fall until 1109, four years after he
+# died. The county is dated from the establishment rather than the capture
+# because there was a functioning lordship with a castle and a revenue for
+# seven years before there was a capital.
+span:
+  start: { min: 1102, max: 1102, source: barber-2012 }
+  end: { min: 1289, max: 1289, source: barber-2012 }
+
+identity: >-
+  The last Crusader state founded and the only one that admitted a superior:
+  a hundred and eighty kilometres of coast and mountain held of the king of
+  Jerusalem, which outlasted the two states that would not.
+
+capitals:
+  - { name: Tripoli, script: Tripolis, from: 1109, source: barber-2012 }
+
+core_region: The Lebanese coast from Tortosa to Beirut, with the mountains behind it
+
+rulers:
+  # Raymond never held the city his county is named after. He took the ground,
+  # built the castle on the hill above it, and died in 1105 with the siege four
+  # years from succeeding.
+  founder: { name: Raymond IV of Saint-Gilles, reign: [1102, 1105], source: barber-2012 }
+  peak: { name: Raymond III, reign: [1152, 1187], source: barber-2012 }
+  last: { name: Lucia of Tripoli, reign: [1287, 1289], source: barber-2012 }
+
+scripts_and_languages:
+  administration: [Latin, Old French]
+  writing_system: Latin
+
+ended:
+  type: conquest
+  by: [mamluk-sultanate]
+  year: 1289
+  source: barber-2012
+
+institutions:
+  military_basis: { values: [land-grant, standing-professional], source: barber-2012 }
+  revenue_basis: { values: [land-tax, trade-toll], source: barber-2012 }
+  succession_rule: null
+  # The only Frankish state in the Levant whose rulers routinely did homage to
+  # another. Baldwin I arbitrated the succession in 1109 and took the count's
+  # homage for it, and the relation held: Tripoli is the one place where the
+  # kingdom of Jerusalem's claim to primacy among the Frankish states was more
+  # than a courtesy.
+  legitimation: { values: [conquest, descent], source: barber-2012 }
+
+turning_points:
+  - year: 1109
+    type: siege
+    name: "The fall of Tripoli"
+    changed: >-
+      A Genoese fleet and an army under Baldwin I finished a siege Raymond had
+      begun seven years earlier, and Baldwin then settled the quarrel between
+      the two claimants by dividing the conquest and taking homage for it. The
+      county acquired a capital and a superior in the same week.
+    source: barber-2012
+    contested: false
+  - year: 1187
+    type: succession-crisis
+    name: "Raymond III dies without an heir"
+    changed: >-
+      The most powerful count Tripoli had — twice regent of Jerusalem, and the
+      man who had argued against marching to Hattin — died childless months
+      after the battle he had opposed, leaving the county to the younger son of
+      the prince of Antioch. From that point Antioch and Tripoli were held by
+      one family, and the northern states stopped being two independent
+      policies.
+    source: barber-2012
+    contested: false
+  - year: 1289
+    type: siege
+    name: "Qalawun at Tripoli"
+    changed: >-
+      The city was taken in April after a month, and was not occupied but
+      destroyed: the population was killed or enslaved, the site levelled, and
+      a new town built inland at the foot of the castle. The old Tripoli, on
+      its peninsula, ceased to exist as a place.
+    source: barber-2012
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

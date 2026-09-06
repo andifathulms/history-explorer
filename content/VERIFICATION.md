@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**2388 claims across 131 sources.**
+**2426 claims across 133 sources.**
 
 ## Where to start
 
@@ -759,6 +759,67 @@ ordinary state, not an item to clear.
 - [ ] `reference/uyghur-khaganate` — reach 3,100,000 km2 at 800
 - [ ] `reference/yuan` — reach 11,000,000 km2 at 1310
 
+## Malcolm Barber, The Crusader States
+
+`barber-2012` — 54 claims
+
+**Sole source** for `tripoli` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/edessa/01-the-knight-who-went-east.mdx` — prose: "The knight who went east"
+- [ ] `chapter/edessa/03-1144.mdx` — prose: "Four weeks at Christmas"
+- [ ] `chapter/jerusalem/01-the-advocate.mdx` — prose: "The advocate"
+- [ ] `chapter/jerusalem/02-the-orders.mdx` — prose: "An army the king could not command"
+- [ ] `chapter/jerusalem/04-acre.mdx` — prose: "The kingdom at Acre"
+- [ ] `chapter/tripoli/01-a-county-before-a-city.mdx` — prose: "A county before a city"
+- [ ] `chapter/tripoli/02-the-one-that-admitted-a-superior.mdx` — prose: "The one that admitted a superior"
+- [ ] `chapter/tripoli/03-1289.mdx` — prose: "What Qalawun did to the city"
+- [ ] `edge/antioch->tripoli` — absorbed remnants of in 1268
+- [ ] `edge/edessa->zangid` — conquered by in 1144
+- [ ] `edge/fatimid->jerusalem` — conquered by in 1099
+- [ ] `edge/jerusalem->mamluk-sultanate` — conquered by in 1291
+- [ ] `edge/jerusalem->tripoli` — vassal of in 1109
+- [ ] `edge/tripoli->mamluk-sultanate` — conquered by in 1289
+- [ ] `polity/antioch` — span ends 1268
+- [ ] `polity/antioch` — last Bohemond VI r. 1252-1268
+- [ ] `polity/antioch` — ended by conquest in 1268
+- [ ] `polity/edessa` — span starts 1098
+- [ ] `polity/edessa` — span ends 1150
+- [ ] `polity/edessa` — capital Edessa from 1098
+- [ ] `polity/edessa` — founder Baldwin of Boulogne r. 1098-1100
+- [ ] `polity/edessa` — peak Joscelin I of Courtenay r. 1119-1131
+- [ ] `polity/edessa` — last Joscelin II of Courtenay r. 1131-1150
+- [ ] `polity/edessa` — military basis coded land-grant
+- [ ] `polity/edessa` — revenue basis coded land-tax
+- [ ] `polity/edessa` — legitimation coded conquest
+- [ ] `polity/edessa` — turning point 1144 The fall of Edessa
+- [ ] `polity/edessa` — ended by conquest in 1150
+- [ ] `polity/jerusalem` — span starts 1099
+- [ ] `polity/jerusalem` — span ends 1291
+- [ ] `polity/jerusalem` — capital Jerusalem from 1099
+- [ ] `polity/jerusalem` — capital Acre from 1191
+- [ ] `polity/jerusalem` — founder Godfrey of Bouillon r. 1099-1100
+- [ ] `polity/jerusalem` — peak Amalric I r. 1163-1174
+- [ ] `polity/jerusalem` — last Henry II of Lusignan
+- [ ] `polity/jerusalem` — military basis coded land-grant + standing-professional
+- [ ] `polity/jerusalem` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/jerusalem` — legitimation coded conquest + divine-sanction
+- [ ] `polity/jerusalem` — turning point 1229 Jaffa
+- [ ] `polity/jerusalem` — turning point 1291 Acre
+- [ ] `polity/jerusalem` — ended by conquest in 1291
+- [ ] `polity/tripoli` — span starts 1102
+- [ ] `polity/tripoli` — span ends 1289
+- [ ] `polity/tripoli` — capital Tripoli from 1109
+- [ ] `polity/tripoli` — founder Raymond IV of Saint-Gilles r. 1102-1105
+- [ ] `polity/tripoli` — peak Raymond III r. 1152-1187
+- [ ] `polity/tripoli` — last Lucia of Tripoli r. 1287-1289
+- [ ] `polity/tripoli` — military basis coded land-grant + standing-professional
+- [ ] `polity/tripoli` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/tripoli` — legitimation coded conquest + descent
+- [ ] `polity/tripoli` — turning point 1109 The fall of Tripoli
+- [ ] `polity/tripoli` — turning point 1187 Raymond III dies without an heir
+- [ ] `polity/tripoli` — turning point 1289 Qalawun at Tripoli
+- [ ] `polity/tripoli` — ended by conquest in 1289
+
 ## Peter Jackson and Laurence Lockhart (eds), The Cambridge History of Iran, Volume 6: The Timurid and Safavid Periods
 
 `chi-6` — 54 claims
@@ -868,6 +929,53 @@ ordinary state, not an item to clear.
 - [ ] `polity/ziyarid` — turning point 935 Mardavij killed in his bath
 - [ ] `polity/ziyarid` — turning point 1012 The army deposes Qabus
 
+## Carole Hillenbrand, The Crusades: Islamic Perspectives
+
+`hillenbrand-1999` — 42 claims
+
+- [ ] `chapter/antioch/04-1268.mdx` — prose: "Four days in May"
+- [ ] `chapter/artuqid/01-the-jazira-in-three-pieces.mdx` — prose: "The Jazira, in three pieces"
+- [ ] `chapter/artuqid/02-the-bridge.mdx` — prose: "The bridge"
+- [ ] `chapter/artuqid/03-two-hundred-and-seventy-five-years-of-somebody-elses.mdx` — prose: "Two hundred and seventy-five years of somebody else's"
+- [ ] `chapter/artuqid/04-the-book-of-machines.mdx` — prose: "The book of machines"
+- [ ] `chapter/ayyubid/01-saladin.mdx` — prose: "Saladin"
+- [ ] `chapter/ayyubid/03-hattin.mdx` — prose: "Hattin"
+- [ ] `chapter/ayyubid/04-richard.mdx` — prose: "The war after the victory"
+- [ ] `chapter/jerusalem/03-1187.mdx` — prose: "One day in July"
+- [ ] `chapter/nizari/03-sinan-and-the-castles-in-syria.mdx` — prose: "The old man of the mountain"
+- [ ] `chapter/zangid/01-edessa.mdx` — prose: "Edessa"
+- [ ] `chapter/zangid/02-nur-al-din.mdx` — prose: "Making the counter-crusade a programme"
+- [ ] `chapter/zangid/03-justice-and-a-hospital.mdx` — prose: "A hospital, and a room to be complained in"
+- [ ] `chapter/zangid/04-the-minbar.mdx` — prose: "A pulpit made in advance"
+- [ ] `edge/antioch->mamluk-sultanate` — conquered by in 1268
+- [ ] `edge/zangid->ayyubid` — absorbed remnants of in 1174
+- [ ] `polity/antioch` — turning point 1268 Baybars at Antioch
+- [ ] `polity/artuqid` — span starts 1102
+- [ ] `polity/artuqid` — span ends 1232
+- [ ] `polity/artuqid` — peak Ilghazi
+- [ ] `polity/artuqid` — military basis coded tribal-levy + land-grant
+- [ ] `polity/artuqid` — revenue basis coded land-tax
+- [ ] `polity/artuqid` — turning point 1119 The Field of Blood
+- [ ] `polity/artuqid` — turning point 1148 The bridge over the Batman
+- [ ] `polity/artuqid` — turning point 1260 Qara Arslan submits to Hulegu
+- [ ] `polity/ayyubid` — founder Salah al-Din (Saladin) r. 1171-1193
+- [ ] `polity/ayyubid` — turning point 1187 Hattin
+- [ ] `polity/jerusalem` — turning point 1187 Hattin
+- [ ] `polity/nizari` — turning point 1176 Saladin turns back from Masyaf (contested)
+- [ ] `polity/zangid` — span starts 1127
+- [ ] `polity/zangid` — span ends 1250
+- [ ] `polity/zangid` — capital Aleppo from 1127
+- [ ] `polity/zangid` — founder Imad al-Din Zangi r. 1127-1146
+- [ ] `polity/zangid` — peak Nur al-Din r. 1146-1174
+- [ ] `polity/zangid` — last Mahmud al-Qahir r. 1219-1233
+- [ ] `polity/zangid` — military basis coded slave-soldier + land-grant
+- [ ] `polity/zangid` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/zangid` — succession rule coded appanage
+- [ ] `polity/zangid` — legitimation coded caliphal-investiture
+- [ ] `polity/zangid` — turning point 1144 Edessa
+- [ ] `polity/zangid` — turning point 1163 The house of justice
+- [ ] `polity/zangid` — religions_carried = 1 (Sunni Islam)
+
 ## Marc Van De Mieroop, A History of the Ancient Near East, ca. 3000-323 BC
 
 `van-de-mieroop-2015` — 40 claims
@@ -958,50 +1066,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/cordoba` — turning point 976 Hisham II's minority
 - [ ] `polity/cordoba` — turning point 1009 The fitna of al-Andalus
 - [ ] `polity/cordoba` — ended by fragmentation in 1031
-
-## Carole Hillenbrand, The Crusades: Islamic Perspectives
-
-`hillenbrand-1999` — 39 claims
-
-- [ ] `chapter/artuqid/01-the-jazira-in-three-pieces.mdx` — prose: "The Jazira, in three pieces"
-- [ ] `chapter/artuqid/02-the-bridge.mdx` — prose: "The bridge"
-- [ ] `chapter/artuqid/03-two-hundred-and-seventy-five-years-of-somebody-elses.mdx` — prose: "Two hundred and seventy-five years of somebody else's"
-- [ ] `chapter/artuqid/04-the-book-of-machines.mdx` — prose: "The book of machines"
-- [ ] `chapter/ayyubid/01-saladin.mdx` — prose: "Saladin"
-- [ ] `chapter/ayyubid/03-hattin.mdx` — prose: "Hattin"
-- [ ] `chapter/ayyubid/04-richard.mdx` — prose: "The war after the victory"
-- [ ] `chapter/jerusalem/03-1187.mdx` — prose: "One day in July"
-- [ ] `chapter/nizari/03-sinan-and-the-castles-in-syria.mdx` — prose: "The old man of the mountain"
-- [ ] `chapter/zangid/01-edessa.mdx` — prose: "Edessa"
-- [ ] `chapter/zangid/02-nur-al-din.mdx` — prose: "Making the counter-crusade a programme"
-- [ ] `chapter/zangid/03-justice-and-a-hospital.mdx` — prose: "A hospital, and a room to be complained in"
-- [ ] `chapter/zangid/04-the-minbar.mdx` — prose: "A pulpit made in advance"
-- [ ] `edge/zangid->ayyubid` — absorbed remnants of in 1174
-- [ ] `polity/artuqid` — span starts 1102
-- [ ] `polity/artuqid` — span ends 1232
-- [ ] `polity/artuqid` — peak Ilghazi
-- [ ] `polity/artuqid` — military basis coded tribal-levy + land-grant
-- [ ] `polity/artuqid` — revenue basis coded land-tax
-- [ ] `polity/artuqid` — turning point 1119 The Field of Blood
-- [ ] `polity/artuqid` — turning point 1148 The bridge over the Batman
-- [ ] `polity/artuqid` — turning point 1260 Qara Arslan submits to Hulegu
-- [ ] `polity/ayyubid` — founder Salah al-Din (Saladin) r. 1171-1193
-- [ ] `polity/ayyubid` — turning point 1187 Hattin
-- [ ] `polity/jerusalem` — turning point 1187 Hattin
-- [ ] `polity/nizari` — turning point 1176 Saladin turns back from Masyaf (contested)
-- [ ] `polity/zangid` — span starts 1127
-- [ ] `polity/zangid` — span ends 1250
-- [ ] `polity/zangid` — capital Aleppo from 1127
-- [ ] `polity/zangid` — founder Imad al-Din Zangi r. 1127-1146
-- [ ] `polity/zangid` — peak Nur al-Din r. 1146-1174
-- [ ] `polity/zangid` — last Mahmud al-Qahir r. 1219-1233
-- [ ] `polity/zangid` — military basis coded slave-soldier + land-grant
-- [ ] `polity/zangid` — revenue basis coded land-tax + trade-toll
-- [ ] `polity/zangid` — succession rule coded appanage
-- [ ] `polity/zangid` — legitimation coded caliphal-investiture
-- [ ] `polity/zangid` — turning point 1144 Edessa
-- [ ] `polity/zangid` — turning point 1163 The house of justice
-- [ ] `polity/zangid` — religions_carried = 1 (Sunni Islam)
 
 ## Warren Treadgold, A History of the Byzantine State and Society
 
@@ -1300,43 +1364,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/yuan` — peak Kublai Khan r. 1271-1294
 - [ ] `polity/yuan` — last Toghon Temur r. 1333-1368
 - [ ] `polity/yuan` — descendant_scripts = 1 (Phags-pa script)
-
-## Malcolm Barber, The Crusader States
-
-`barber-2012` — 32 claims
-
-- [ ] `chapter/edessa/01-the-knight-who-went-east.mdx` — prose: "The knight who went east"
-- [ ] `chapter/edessa/03-1144.mdx` — prose: "Four weeks at Christmas"
-- [ ] `chapter/jerusalem/01-the-advocate.mdx` — prose: "The advocate"
-- [ ] `chapter/jerusalem/02-the-orders.mdx` — prose: "An army the king could not command"
-- [ ] `chapter/jerusalem/04-acre.mdx` — prose: "The kingdom at Acre"
-- [ ] `edge/edessa->zangid` — conquered by in 1144
-- [ ] `edge/fatimid->jerusalem` — conquered by in 1099
-- [ ] `edge/jerusalem->mamluk-sultanate` — conquered by in 1291
-- [ ] `polity/edessa` — span starts 1098
-- [ ] `polity/edessa` — span ends 1150
-- [ ] `polity/edessa` — capital Edessa from 1098
-- [ ] `polity/edessa` — founder Baldwin of Boulogne r. 1098-1100
-- [ ] `polity/edessa` — peak Joscelin I of Courtenay r. 1119-1131
-- [ ] `polity/edessa` — last Joscelin II of Courtenay r. 1131-1150
-- [ ] `polity/edessa` — military basis coded land-grant
-- [ ] `polity/edessa` — revenue basis coded land-tax
-- [ ] `polity/edessa` — legitimation coded conquest
-- [ ] `polity/edessa` — turning point 1144 The fall of Edessa
-- [ ] `polity/edessa` — ended by conquest in 1150
-- [ ] `polity/jerusalem` — span starts 1099
-- [ ] `polity/jerusalem` — span ends 1291
-- [ ] `polity/jerusalem` — capital Jerusalem from 1099
-- [ ] `polity/jerusalem` — capital Acre from 1191
-- [ ] `polity/jerusalem` — founder Godfrey of Bouillon r. 1099-1100
-- [ ] `polity/jerusalem` — peak Amalric I r. 1163-1174
-- [ ] `polity/jerusalem` — last Henry II of Lusignan
-- [ ] `polity/jerusalem` — military basis coded land-grant + standing-professional
-- [ ] `polity/jerusalem` — revenue basis coded land-tax + trade-toll
-- [ ] `polity/jerusalem` — legitimation coded conquest + divine-sanction
-- [ ] `polity/jerusalem` — turning point 1229 Jaffa
-- [ ] `polity/jerusalem` — turning point 1291 Acre
-- [ ] `polity/jerusalem` — ended by conquest in 1291
 
 ## John C. Wilkinson, The Imamate Tradition of Oman
 *In Cambridge Middle East Library.*
@@ -2735,6 +2762,21 @@ ordinary state, not an item to clear.
 - [ ] `polity/abbasid` — turning point 861 The anarchy at Samarra
 - [ ] `polity/abbasid` — successor_claims = 1 (Abbasid Caliphate of Cairo)
 
+## Thomas S. Asbridge, The Creation of the Principality of Antioch, 1098-1130
+
+`asbridge-2000` — 10 claims
+
+- [ ] `chapter/antioch/01-the-broken-oath.mdx` — prose: "The broken oath"
+- [ ] `chapter/antioch/02-a-greek-city-with-a-norman-prince.mdx` — prose: "A Greek city with a Norman prince"
+- [ ] `polity/antioch` — span starts 1098
+- [ ] `polity/antioch` — capital Antioch from 1098
+- [ ] `polity/antioch` — founder Bohemond I of Taranto r. 1098-1111
+- [ ] `polity/antioch` — peak Roger of Salerno r. 1112-1119
+- [ ] `polity/antioch` — military basis coded land-grant
+- [ ] `polity/antioch` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/antioch` — legitimation coded conquest
+- [ ] `polity/antioch` — turning point 1119 The Field of Blood
+
 ## Michal Biran, Qaidu and the Rise of the Independent Mongol State in Central Asia
 
 `biran-1997` — 10 claims
@@ -3018,6 +3060,14 @@ ordinary state, not an item to clear.
 - [ ] `chapter/abbasid/08-baghdad-1258.mdx` — prose: "1258"
 - [ ] `polity/abbasid` — capital Baghdad from 762
 - [ ] `polity/abbasid` — capital Samarra from 836
+
+## Ralph-Johannes Lilie, trans. J. C. Morris and Jean E. Ridings, Byzantium and the Crusader States 1096-1204
+
+`lilie-1993` — 3 claims
+
+- [ ] `chapter/antioch/03-the-emperor-comes-in-person.mdx` — prose: "The emperor comes in person"
+- [ ] `edge/byzantine->antioch` — vassal of in 1108
+- [ ] `polity/antioch` — turning point 1108 Devol
 
 ## Mark Whittow, The Making of Orthodox Byzantium, 600-1025
 

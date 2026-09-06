@@ -1291,6 +1291,57 @@ edges:
     source: barber-2012
     contested: false
 
+  - from: byzantine
+    to: antioch
+    type: vassal of
+    year: 1108
+    note: "Bohemond, beaten in his own invasion of the empire, swore at Devol to
+           hold Antioch as Alexios' liegeman; his nephew in Syria ignored it,
+           and John II and Manuel I each came in person with an army to collect
+           what the document said was theirs."
+    source: lilie-1993
+    contested: false
+
+  - from: antioch
+    to: mamluk-sultanate
+    type: conquered by
+    year: 1268
+    note: "Baybars stormed Antioch in four days with the gates shut so that
+           nobody could leave, ending a city that had been a great one without
+           interruption for fifteen hundred years."
+    source: hillenbrand-1999
+    contested: false
+
+  - from: jerusalem
+    to: tripoli
+    type: vassal of
+    year: 1109
+    note: "Baldwin I finished Raymond's seven-year siege, divided the conquest
+           between the two claimants to it and took their homage — the only
+           Frankish state in the Levant whose counts were vassals of another."
+    source: barber-2012
+    contested: false
+
+  - from: antioch
+    to: tripoli
+    type: absorbed remnants of
+    year: 1268
+    note: "Bohemond VI lost Antioch to Baybars and went on ruling at Tripoli
+           with the princely title and Latakia, so that what survived of the
+           principality was a style and an outlying port held by a count."
+    source: barber-2012
+    contested: false
+
+  - from: tripoli
+    to: mamluk-sultanate
+    type: conquered by
+    year: 1289
+    note: "Qalawun took the city in a month and then levelled it, abandoning the
+           peninsula and building a new town inland: a harbour the Franks could
+           not use was a harbour no crusade could land in."
+    source: barber-2012
+    contested: false
+
   # ---- South Arabia: the coastal plain, the port, and the last dynasty ----
 
   - from: ziyadid

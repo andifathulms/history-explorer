@@ -917,6 +917,32 @@ sources:
       central case, which is why this site cites it there rather than on the
       Jerusalem page.
 
+  - id: asbridge-2000
+    kind: book
+    author: Thomas S. Asbridge
+    title: "The Creation of the Principality of Antioch, 1098-1130"
+    publisher: Boydell Press
+    year: 2000
+    note: >-
+      How the principality was actually assembled in its first three decades —
+      its frontiers, its lordships, its relations with the Armenian and Greek
+      population it governed — as against the narrative of the First Crusade
+      that usually stands in for it. Cited here for the formation chapters and
+      for the argument that Antioch was a going concern before Jerusalem was.
+
+  - id: lilie-1993
+    kind: book
+    author: Ralph-Johannes Lilie, trans. J. C. Morris and Jean E. Ridings
+    title: "Byzantium and the Crusader States 1096-1204"
+    publisher: Clarendon Press
+    year: 1993
+    note: >-
+      The standard treatment of the imperial claim on Antioch: the oath at
+      Constantinople in 1097, the treaty of Devol in 1108, and the two
+      occasions on which an emperor came in person to collect what those
+      documents said was his. Cited for the one edge in this corpus that makes
+      a Frankish state a Byzantine vassal.
+
   - id: ripper-2000
     kind: book
     author: Thomas Ripper
