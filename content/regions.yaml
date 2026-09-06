@@ -185,19 +185,20 @@ regions:
     thread: true
 
   # The other half of the split, and the half the four post-Roman kingdoms went
-  # into. Eight records and two internal edges — `lombard -> carolingian` in 774
-  # and `carolingian -> holy-roman-empire` in 962 — which is thin and is the
-  # honest picture. This is not a sequence. It is a set of states assembled out
-  # of the same wreckage, and six of the eight are ended by powers outside the
-  # region: the Visigoths by the Umayyads, the Vandals and Ostrogoths by
-  # Byzantium, the Holy Roman Empire and both republics by Revolutionary France.
+  # into. Nine records and three internal edges — `lombard -> carolingian` in
+  # 774, `carolingian -> holy-roman-empire` in 962 and `norman-sicily ->
+  # holy-roman-empire` in 1194 — which is thin and is the honest picture. This
+  # is not a sequence. It is a set of states assembled out of the same wreckage,
+  # and six of the nine are ended by powers outside the region: the Visigoths by
+  # the Umayyads, the Vandals and Ostrogoths by Byzantium, the Holy Roman Empire
+  # and both republics by Revolutionary France.
   #
-  # Five of the eight carry `election` in a succession or legitimation field.
+  # Five of the nine carry `election` in a succession or legitimation field.
   # The observation was first made when this region and Rome and Byzantium were
   # one, at six of eight, and it has now survived a split and the addition of
-  # four kingdoms nobody would have predicted it of.
+  # five records nobody would have predicted it of.
   #
-  # Three of the eight — Carolingian, Holy Roman and Lombard — carry a data
+  # Three of them — Carolingian, Holy Roman and Lombard — carry a data
   # comment saying the `revenue_basis` vocabulary has no value for a state
   # living off the ruler's own property, which is the defining institutional
   # fact about post-Roman western Europe. The Visigothic and Ostrogothic
@@ -213,6 +214,27 @@ regions:
       and were richer than any of them.
     group: mediterranean
     thread: true
+
+  # Added with `thread: false` for the two Bulgarian records, per the workflow
+  # rule in CLAUDE.md: a region enters with the flag off and it is flipped only
+  # once real sourced edges join two of its polities. There are none here and
+  # there may never be: the two records are one state seen twice across a
+  # hundred and sixty-seven years of Byzantine rule, and that relation is the
+  # `resumes` field rather than an edge. Both Bulgarias end against powers
+  # outside the region, Byzantium in 1018 and the Ottomans in 1396.
+  #
+  # Bulgaria was named in the prose of eight records before it had one of its
+  # own, which is what brought it in. Serbia is named on three and the Rus on
+  # two, and both belong here when they come.
+  - id: the-balkans
+    name: The Balkans
+    blurb: >-
+      The states between the Danube and the Aegean that Constantinople converted
+      and then had to live beside: powers in their own right for stretches of
+      two or three generations, and the ground every empire on either side
+      needed to hold and could not.
+    group: mediterranean
+    thread: false
 
   - id: east-asia
     name: East Asia

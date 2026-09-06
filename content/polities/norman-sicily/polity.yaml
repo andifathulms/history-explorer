@@ -1,0 +1,140 @@
+id: norman-sicily
+region: latin-west
+
+name:
+  latin: Kingdom of Sicily
+  script: Regnum Siciliae
+  script_lang: la
+
+# 1130 is the coronation of Roger II, which is when a set of Norman counties and
+# duchies acquired a crown and became one polity. 1194 is Henry VI taking it for
+# the Hohenstaufen. Matthew's book runs to 1266 on the argument that the kingdom
+# is continuous through the Hohenstaufen and Angevins; this record stops in 1194
+# because the family that made it stopped there, which is what `ended.type` says.
+span:
+  start: { min: 1130, max: 1130, source: matthew-1992 }
+  end: { min: 1194, max: 1194, source: matthew-1992 }
+
+identity: >-
+  A Latin king with an Arabic tax bureau, a Greek chancery and a Muslim
+  geographer at court, ruling Sicily and southern Italy for sixty-four years.
+
+capitals:
+  - { name: Palermo, script: Panormus, from: 1130, source: matthew-1992 }
+
+core_region: Sicily and southern Italy, with the Tunisian coast from 1148 to 1160
+
+rulers:
+  founder: { name: Roger II, reign: [1130, 1154], source: matthew-1992 }
+  peak: { name: Roger II, reign: [1130, 1154], source: matthew-1992 }
+  last: { name: Tancred of Lecce, reign: [1189, 1194], source: matthew-1992 }
+
+scripts_and_languages:
+  administration: [Latin, Greek, Arabic]
+  writing_system: Latin, Greek and Arabic
+
+# Henry VI, Holy Roman emperor, claimed the kingdom through his wife Constance —
+# Roger II's posthumous daughter — and took it in 1194 against the man the
+# Sicilian barons had elected instead. The kingdom continued: the same
+# administration, the same trilingual chancery, and Constance's son Frederick II
+# grew up in it. `dynastic replacement` rather than `conquest`, and `by` names a
+# record in this same region.
+ended:
+  type: dynastic replacement
+  by: [holy-roman-empire]
+  year: 1194
+  source: matthew-1992
+
+institutions:
+  # Norman and Lombard knights on fiefs, and hired men — including, unusually,
+  # the Muslim troops of the Sicilian interior, who served the Christian kings
+  # against Christian enemies and were considered reliable precisely because
+  # they had nowhere else to go. The fleet was the kingdom's decisive arm and
+  # its admirals were Greeks: the word admiral reaches English through the
+  # Sicilian chancery's Arabic amir al-bahr.
+  military_basis: { values: [land-grant, mercenary], source: matthew-1992 }
+  # The kings inherited a working fiscal apparatus from the Muslim emirate and
+  # kept it running in Arabic. The diwan maintained land registers, the defetari,
+  # recording holdings and the villeins on them; the customs of Palermo and
+  # Messina taxed a trade the kingdom sat astride; and the royal silk workshop in
+  # the palace, staffed by weavers reportedly brought from Thebes and Corinth as
+  # captives, was a monopoly on a product nobody north of the kingdom could make.
+  revenue_basis: { values: [land-tax, trade-toll, monopoly], source: matthew-1992 }
+  # Descent in the male line of the Hauteville family, and the one succession
+  # that mattered was decided against it. William II died childless in 1189 and
+  # the heir by descent was his aunt Constance, married to the German king; the
+  # barons and the chancellor elected Tancred, an illegitimate cousin, rather
+  # than have a German. Five years later the German took it anyway.
+  succession_rule: { values: [primogeniture], source: matthew-1992 }
+  # The Hauteville descent, and a papal grant. Roger II obtained the royal title
+  # in 1130 from Anacletus II, who was one of two men claiming the papacy and
+  # needed a protector; when the other one won, Roger defeated him in the field
+  # in 1139, took him prisoner, and had the title confirmed. `investiture` is
+  # coded on that, and this record is the second in the Latin West to carry the
+  # value after the Ostrogothic one — a Norman adventurer's grandson holding a
+  # crown from a pope he had captured.
+  legitimation: { values: [descent, investiture], source: matthew-1992 }
+
+turning_points:
+  - year: 1139
+    type: treaty
+    name: Mignano
+    changed: >-
+      Roger II ambushed and captured Pope Innocent II, who had spent nine years
+      refusing to recognise a royal title granted by his rival, and released him
+      in exchange for confirmation of it. A king made by an antipope became a
+      king made by the pope, by force. It is the moment the kingdom stops being
+      a usurpation in the eyes of Latin Europe and becomes a monarchy, and it is
+      this record's `investiture` value in one afternoon.
+    source: matthew-1992
+    contested: false
+  - year: 1148
+    type: siege
+    name: Mahdia
+    changed: >-
+      Roger's fleet took Mahdia and with it the Tunisian coast, which the kingdom
+      held for about a decade as a set of tributary ports. This corpus's Zirid
+      record ends in that year with an empty `ended.by` field and a comment
+      saying the vocabulary could not name the power that did it, because that
+      power had no page. It has one now.
+    source: matthew-1992
+    contested: false
+  - year: 1189
+    type: succession-crisis
+    name: The barons choose
+    changed: >-
+      William II died at thirty-six with no children, having made his barons
+      swear to accept his aunt Constance and her German husband. On his death
+      they elected Tancred instead. It gave the kingdom five years of civil war
+      and gave Henry VI a war to win rather than an inheritance to enter, and it
+      is the single decision that ends this record.
+    source: matthew-1992
+    contested: false
+  - year: 1194
+    type: siege
+    name: Palermo
+    changed: >-
+      Henry VI entered Palermo with a German army financed by the ransom of
+      Richard I of England, was crowned on Christmas Day, and had the surviving
+      Norman claimants blinded or imprisoned. The kingdom itself was not
+      dismantled: its chancery, its registers and its trilingual administration
+      continued, and Constance's son Frederick II — this site's Holy Roman
+      record's peak ruler — was born in Italy the following day and raised in
+      Palermo.
+    source: matthew-1992
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    # Zero, and the near miss is worth naming because a reader will expect
+    # otherwise. The kingdom's chancery issued in Latin, Greek and Arabic, and
+    # its coins carried Arabic legends and Christian crosses on the same face.
+    # But writing three existing scripts is not producing a new one, and coding
+    # rule 3 excludes using a script unchanged in the plainest possible terms.
+    # The second chapter is about the trilingualism, which is the thing the page
+    # exists for and which no field on this site can hold.
+    descendant_scripts: { count: 0, items: [], source: matthew-1992 }
+    religions_carried: { count: 0, items: [], source: matthew-1992 }
+    successor_claims: { count: 0, items: [], source: matthew-1992 }

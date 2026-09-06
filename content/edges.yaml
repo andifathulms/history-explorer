@@ -1714,6 +1714,62 @@ edges:
     source: wilkinson-1987
     contested: false
 
+  # ---- Sicily, and the Balkans ----
+
+  # Fills a field that has been empty since the Zirid record was written: its
+  # `ended.by` was `[]` with a comment saying the vocabulary could not name the
+  # power that took Mahdia in 1148 because that power had no page.
+  - from: zirid
+    to: norman-sicily
+    type: conquered by
+    year: 1148
+    note: >-
+      Roger II's fleet took Mahdia and the Tunisian ports, which the Sicilian
+      kingdom held as tributaries for about a decade before the Almohads took
+      them.
+    source: matthew-1992
+    contested: false
+
+  # Internal to the Latin West, and its third. Henry VI claimed through his
+  # wife, Roger II's posthumous daughter, against the man the Sicilian barons
+  # had elected instead.
+  - from: norman-sicily
+    to: holy-roman-empire
+    type: conquered by
+    year: 1194
+    note: >-
+      Henry VI entered Palermo with an army financed by the ransom of Richard I
+      of England and was crowned on Christmas Day. The kingdom's administration
+      continued and his son Frederick II was raised in it.
+    source: matthew-1992
+    contested: false
+
+  # Both Bulgarian records point outward, at Byzantium and at the Ottomans, and
+  # the relation between them is the `resumes` field rather than an edge. The
+  # Balkans therefore enters this corpus with `thread: false`, which is the
+  # ordinary state and what the workflow rule requires.
+  - from: first-bulgarian
+    to: byzantine
+    type: conquered by
+    year: 1018
+    note: >-
+      Basil II finished a war that had run since 976, four years after Kleidion.
+      Bulgaria was annexed and administered directly for a hundred and
+      sixty-seven years, with its patriarchate reduced to an archbishopric at
+      Ohrid.
+    source: fine-1983
+    contested: false
+
+  - from: second-bulgarian
+    to: ottoman
+    type: conquered by
+    year: 1396
+    note: >-
+      Tarnovo fell in 1393 and Vidin, the last of the divided Bulgarian
+      territories, in 1396 after the crusade at Nicopolis was destroyed.
+    source: fine-1987
+    contested: false
+
   # ---- What the western provinces became ----
 
   # The four post-Roman kingdoms all take an edge from the Roman record and all

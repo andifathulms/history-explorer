@@ -29,9 +29,12 @@ scripts_and_languages:
   administration: [Arabic]
   writing_system: Arabic
 
+# `by` was empty, with the last chapter noting that the vocabulary could not
+# name the power that did it. That power was Norman Sicily, which now has a
+# record here.
 ended:
   type: conquest
-  by: []
+  by: [norman-sicily]
   year: 1148
   source: abun-nasr-1987
 

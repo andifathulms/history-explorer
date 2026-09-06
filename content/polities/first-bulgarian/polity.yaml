@@ -1,0 +1,168 @@
+id: first-bulgarian
+region: the-balkans
+
+name:
+  latin: First Bulgarian Empire
+  # Null, and it is the same refusal the Nabataean record makes for the same
+  # reason. This record's single most consequential product is a script, and
+  # this site does not set a name in letters nobody on the project can
+  # proofread. The tenth-century Slavonic form is also not what a reader would
+  # recognise, and a modern Bulgarian one would be an anachronism dressed as
+  # evidence.
+  script: null
+  script_lang: null
+
+span:
+  start: { min: 681, max: 681, source: fine-1983 }
+  end: { min: 1018, max: 1018, source: fine-1983 }
+
+identity: >-
+  The state that took a province off Constantinople, converted, took its
+  alphabet and improved it, claimed its imperial title, and was destroyed by it
+  after a forty-year war.
+
+capitals:
+  - { name: Pliska, from: 681, source: fine-1983 }
+  - { name: Preslav, from: 893, source: fine-1983 }
+  - { name: Ohrid, from: 997, source: fine-1983 }
+
+core_region: The lower Danube, Thrace, Macedonia and, at its widest, most of the Balkan peninsula
+
+rulers:
+  founder: { name: Asparuh, reign: [681, 700], source: fine-1983 }
+  peak: { name: Simeon I, reign: [893, 927], source: fine-1983 }
+  last: { name: Ivan Vladislav, reign: [1015, 1018], source: fine-1983 }
+
+scripts_and_languages:
+  administration: [Greek, Old Church Slavonic]
+  writing_system: Greek, and from the tenth century Cyrillic
+
+ended:
+  type: conquest
+  by: [byzantine]
+  year: 1018
+  source: fine-1983
+
+institutions:
+  # A Turkic cavalry aristocracy over a Slav agricultural population, and the
+  # army was both — the Bulgar horse and the Slav levy, which is the standing
+  # arrangement of the first two centuries and is why the state could beat
+  # Byzantine field armies and could not besiege Constantinople.
+  military_basis: { values: [tribal-levy, conscript], source: fine-1983 }
+  # A land tax on the Slav population, and tribute from Byzantium — which is the
+  # unusual entry. Constantinople paid Bulgaria an annual subsidy under a series
+  # of treaties from the eighth century onward, and the withholding of it is the
+  # stated cause of at least two wars, including Simeon's. `tribute` on this
+  # site means revenue received from another polity and here it is the empire
+  # paying the barbarians, which the Byzantine record's own first chapter says
+  # was a rich state's ordinary instrument rather than a weakness.
+  revenue_basis: { values: [land-tax, tribute], source: fine-1983 }
+  # Null. The throne was hereditary within a ruling clan — the Dulo, then Krum's
+  # line — and no source states a rule of eligibility or order. The eighth
+  # century is a sequence of violent depositions and the ninth and tenth are
+  # largely father to son, which is a pattern rather than a rule, and coding
+  # rule 7 will not accept the first in place of the second.
+  succession_rule: null
+  # Three. Descent in the ruling house; the church, from Boris's baptism in 864
+  # and increasingly from an autocephalous patriarchate of its own; and
+  # `titulature`, which is Simeon taking the title tsar — the Slavonic form of
+  # caesar — and styling himself emperor of the Bulgarians and the Romans. That
+  # last is a claim on the Byzantine record's legitimacy and this corpus now
+  # counts it there.
+  legitimation: { values: [descent, divine-sanction, titulature], source: fine-1983 }
+
+turning_points:
+  - year: 811
+    type: battle
+    name: The Varbitsa pass
+    changed: >-
+      Krum trapped the Byzantine army in a mountain pass on its way home from
+      sacking Pliska and destroyed it. The emperor Nikephoros I was killed and
+      his skull was made into a drinking cup, which Krum used. It is one of very
+      few occasions in this corpus on which a Byzantine emperor died in battle,
+      and it established that the empire could not settle the Balkan question by
+      a campaign.
+    source: fine-1983
+    contested: false
+  - year: 864
+    type: conversion
+    name: The baptism of Boris
+    changed: >-
+      Boris took Christianity from Constantinople after playing it against Rome
+      for several years, and got in exchange an archbishop and, within a
+      generation, a church using a language his subjects spoke. It removed the
+      confessional line between a Turkic ruling class and a Slav population and
+      merged them, and it is the reason there is a Bulgarian people rather than
+      a Bulgar aristocracy and a Slav peasantry.
+    source: fine-1983
+    contested: false
+  - year: 893
+    type: reform
+    name: Preslav
+    changed: >-
+      A council moved the capital to Preslav, replaced Greek with Slavonic in
+      the church and expelled the Greek clergy. The literary school that
+      followed produced the translations, the original compositions and — the
+      part everything else rests on — the script now called Cyrillic, developed
+      there from Greek uncials by the pupils of the mission this site's
+      Byzantine record's seventh chapter describes.
+    source: fine-1983
+    contested: false
+  - year: 927
+    type: treaty
+    name: The peace after Simeon
+    changed: >-
+      Simeon had spent thirty years trying to take Constantinople and be
+      crowned in it, and died with the war unwon. His son made peace on terms
+      that gave Bulgaria what the war had been about without the throne:
+      recognition of the imperial title of tsar, an autocephalous patriarchate,
+      and a Byzantine princess. It is the high point of the state and it is also
+      the moment it stops expanding.
+    source: fine-1983
+    contested: false
+  - year: 1014
+    type: battle
+    name: Kleidion
+    changed: >-
+      Basil II trapped and destroyed a Bulgarian army in a mountain pass and,
+      according to the Byzantine account, blinded the prisoners — some fourteen
+      thousand of them — leaving one man in a hundred with one eye to lead the
+      rest home. Tsar Samuel is said to have died of the shock two days after
+      seeing them. The number is not checkable and the epithet Basil acquired
+      from it, the Bulgar-slayer, was applied a century and a half later. The
+      state ended four years afterwards.
+    source: fine-1983
+    contested: true
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    # Zero, and it is the most counter-intuitive zero on this site. Cyrillic was
+    # developed at Preslav, in this polity, by this polity's scholars, and is
+    # written today by something over two hundred and fifty million people. It
+    # is counted on the Byzantine record, because coding rule 3 puts an
+    # adaptation on the record of the polity whose script was adapted, and the
+    # parent of Cyrillic is Greek uncial.
+    #
+    # That is the fourth time this corpus has produced that result — the Hittite
+    # claim lands on a Babylonian page, the Middle Elamite one on a Mesopotamian
+    # page, the Urartian one on the Assyrian record it was built to resist — and
+    # this is the starkest, because here the workshop and the parent script are
+    # in different polities and everyone knows which was which.
+    descendant_scripts: { count: 0, items: [], source: fine-1983 }
+    # One, for transmission rather than invention, which coding rule 2 says
+    # explicitly is what the axis measures. Bulgaria did not originate Slavonic
+    # Christianity and it is the reason Serbia and the Rus have it: the clergy,
+    # the books, the liturgy and the script went out of Preslav and Ohrid to
+    # both, and the Rus conversion of about 988 was supplied from here.
+    religions_carried:
+      count: 1
+      items: [Orthodox Christianity in Slavonic]
+      source: fine-1983
+    # Zero, and the obvious candidate is not one. The Second Bulgarian Empire
+    # presented itself as this state restored — but this site records that
+    # relation with the `resumes` field, which says two records are one object
+    # seen twice across an interruption, and a polity does not claim its own
+    # legitimacy. The build refuses a pair that has both.
+    successor_claims: { count: 0, items: [], source: fine-1983 }

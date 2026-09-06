@@ -2156,6 +2156,48 @@ sources:
       is why this site's Visigothic record is drafted from him: its ending is
       the part every other page in the corpus points at.
 
+  - id: matthew-1992
+    kind: book
+    author: Donald Matthew
+    title: The Norman Kingdom of Sicily
+    container: Cambridge Medieval Textbooks
+    publisher: Cambridge University Press
+    year: 1992
+    note: >-
+      Strongest on administration, which is what this record needs: the Sicilian
+      kingdom's interest is that it ran an Arabic fiscal bureau, a Greek
+      chancery and a Latin court at once, and Matthew is the account that
+      explains how rather than simply noting it.
+
+  - id: fine-1983
+    kind: book
+    author: John V. A. Fine
+    title: >-
+      The Early Medieval Balkans: A Critical Survey from the Sixth to the Late
+      Twelfth Century
+    publisher: University of Michigan Press
+    year: 1983
+    note: >-
+      The standard English narrative of the Balkans before 1200 and the source
+      for this site's First Bulgarian record. Fine is careful about the
+      difference between what the Byzantine sources say happened in Bulgaria and
+      what can be established, which matters on a record where almost all the
+      written evidence is the enemy's.
+
+  - id: fine-1987
+    kind: book
+    author: John V. A. Fine
+    title: >-
+      The Late Medieval Balkans: A Critical Survey from the Late Twelfth Century
+      to the Ottoman Conquest
+    publisher: University of Michigan Press
+    year: 1987
+    note: >-
+      The companion volume, covering 1185 to the Ottoman conquest, and the
+      source for this site's Second Bulgarian record. The two books together are
+      why this corpus can carry Bulgaria twice with the same evidentiary
+      footing on both sides of the interruption.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors

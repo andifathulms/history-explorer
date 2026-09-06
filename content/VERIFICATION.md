@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**3431 claims across 184 sources.**
+**3499 claims across 187 sources.**
 
 ## Where to start
 
@@ -2193,6 +2193,37 @@ ordinary state, not an item to clear.
 - [ ] `polity/venice` — successor_claims = 0
 - [ ] `polity/venice` — ended by conquest in 1797
 
+## John V. A. Fine, The Early Medieval Balkans: A Critical Survey from the Sixth to the Late Twelfth Century
+
+`fine-1983` — 24 claims
+
+**Sole source** for `first-bulgarian` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/first-bulgarian/01-a-province-taken.mdx` — prose: "A province taken"
+- [ ] `chapter/first-bulgarian/02-boris-and-simeon.mdx` — prose: "Boris and Simeon"
+- [ ] `chapter/first-bulgarian/03-1018.mdx` — prose: "1018"
+- [ ] `edge/first-bulgarian->byzantine` — conquered by in 1018
+- [ ] `polity/first-bulgarian` — span starts 681
+- [ ] `polity/first-bulgarian` — span ends 1018
+- [ ] `polity/first-bulgarian` — capital Pliska from 681
+- [ ] `polity/first-bulgarian` — capital Preslav from 893
+- [ ] `polity/first-bulgarian` — capital Ohrid from 997
+- [ ] `polity/first-bulgarian` — founder Asparuh r. 681-700
+- [ ] `polity/first-bulgarian` — peak Simeon I r. 893-927
+- [ ] `polity/first-bulgarian` — last Ivan Vladislav r. 1015-1018
+- [ ] `polity/first-bulgarian` — military basis coded tribal-levy + conscript
+- [ ] `polity/first-bulgarian` — revenue basis coded land-tax + tribute
+- [ ] `polity/first-bulgarian` — legitimation coded descent + divine-sanction + titulature
+- [ ] `polity/first-bulgarian` — turning point 811 The Varbitsa pass
+- [ ] `polity/first-bulgarian` — turning point 864 The baptism of Boris
+- [ ] `polity/first-bulgarian` — turning point 893 Preslav
+- [ ] `polity/first-bulgarian` — turning point 927 The peace after Simeon
+- [ ] `polity/first-bulgarian` — turning point 1014 Kleidion (contested)
+- [ ] `polity/first-bulgarian` — descendant_scripts = 0
+- [ ] `polity/first-bulgarian` — religions_carried = 1 (Orthodox Christianity in Slavonic)
+- [ ] `polity/first-bulgarian` — successor_claims = 0
+- [ ] `polity/first-bulgarian` — ended by conquest in 1018
+
 ## Nicola Di Cosmo, Allen J. Frank and Peter B. Golden (eds), The Cambridge History of Inner Asia: The Chinggisid Age
 
 `di-cosmo-2009` — 24 claims
@@ -2341,6 +2372,37 @@ ordinary state, not an item to clear.
 - [ ] `polity/srivijaya` — revenue basis coded trade-toll
 - [ ] `polity/srivijaya` — religions_carried = 1 (Mahayana Buddhism)
 - [ ] `polity/srivijaya` — ended by gradual absorption in 1275
+
+## Donald Matthew, The Norman Kingdom of Sicily
+*In Cambridge Medieval Textbooks.*
+
+`matthew-1992` — 23 claims
+
+**Sole source** for `norman-sicily` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/norman-sicily/01-a-crown-from-an-antipope.mdx` — prose: "A crown from an antipope"
+- [ ] `chapter/norman-sicily/02-three-chanceries.mdx` — prose: "Three chanceries"
+- [ ] `chapter/norman-sicily/03-1194.mdx` — prose: "1194"
+- [ ] `edge/norman-sicily->holy-roman-empire` — conquered by in 1194
+- [ ] `edge/zirid->norman-sicily` — conquered by in 1148
+- [ ] `polity/norman-sicily` — span starts 1130
+- [ ] `polity/norman-sicily` — span ends 1194
+- [ ] `polity/norman-sicily` — capital Palermo from 1130
+- [ ] `polity/norman-sicily` — founder Roger II r. 1130-1154
+- [ ] `polity/norman-sicily` — peak Roger II r. 1130-1154
+- [ ] `polity/norman-sicily` — last Tancred of Lecce r. 1189-1194
+- [ ] `polity/norman-sicily` — military basis coded land-grant + mercenary
+- [ ] `polity/norman-sicily` — revenue basis coded land-tax + trade-toll + monopoly
+- [ ] `polity/norman-sicily` — succession rule coded primogeniture
+- [ ] `polity/norman-sicily` — legitimation coded descent + investiture
+- [ ] `polity/norman-sicily` — turning point 1139 Mignano
+- [ ] `polity/norman-sicily` — turning point 1148 Mahdia
+- [ ] `polity/norman-sicily` — turning point 1189 The barons choose
+- [ ] `polity/norman-sicily` — turning point 1194 Palermo
+- [ ] `polity/norman-sicily` — descendant_scripts = 0
+- [ ] `polity/norman-sicily` — religions_carried = 0
+- [ ] `polity/norman-sicily` — successor_claims = 0
+- [ ] `polity/norman-sicily` — ended by dynastic replacement in 1194
 
 ## B. C. McGing, The Foreign Policy of Mithridates VI Eupator, King of Pontus
 *In Mnemosyne Supplements 89.*
@@ -2651,6 +2713,34 @@ ordinary state, not an item to clear.
 - [ ] `polity/ptolemaic` — turning point -200 Panion
 - [ ] `polity/ptolemaic` — turning point -168 The Day of Eleusis
 - [ ] `polity/ptolemaic` — ended by conquest in -30
+
+## John V. A. Fine, The Late Medieval Balkans: A Critical Survey from the Late Twelfth Century to the Ottoman Conquest
+
+`fine-1987` — 21 claims
+
+**Sole source** for `second-bulgarian` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/second-bulgarian/01-a-tax-and-two-brothers.mdx` — prose: "A tax and two brothers"
+- [ ] `chapter/second-bulgarian/02-1205.mdx` — prose: "1205"
+- [ ] `chapter/second-bulgarian/03-1396.mdx` — prose: "1396"
+- [ ] `edge/second-bulgarian->ottoman` — conquered by in 1396
+- [ ] `polity/second-bulgarian` — span starts 1185
+- [ ] `polity/second-bulgarian` — span ends 1396
+- [ ] `polity/second-bulgarian` — capital Tarnovo from 1185
+- [ ] `polity/second-bulgarian` — founder Ivan Asen I r. 1189-1196
+- [ ] `polity/second-bulgarian` — peak Ivan Asen II r. 1218-1241
+- [ ] `polity/second-bulgarian` — last Ivan Sratsimir r. 1356-1396
+- [ ] `polity/second-bulgarian` — military basis coded land-grant + mercenary
+- [ ] `polity/second-bulgarian` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/second-bulgarian` — legitimation coded descent + titulature + investiture
+- [ ] `polity/second-bulgarian` — turning point 1185 The Asen rising
+- [ ] `polity/second-bulgarian` — turning point 1205 Adrianople
+- [ ] `polity/second-bulgarian` — turning point 1230 Klokotnitsa
+- [ ] `polity/second-bulgarian` — turning point 1330 Velbazhd
+- [ ] `polity/second-bulgarian` — descendant_scripts = 0
+- [ ] `polity/second-bulgarian` — religions_carried = 0
+- [ ] `polity/second-bulgarian` — successor_claims = 0
+- [ ] `polity/second-bulgarian` — ended by conquest in 1396
 
 ## Mustafa Banister, The Abbasid Caliphate of Cairo, 1261-1517: Out of the Shadows
 *In Edinburgh Studies in Classical Islamic History and Culture.*
@@ -3405,7 +3495,7 @@ ordinary state, not an item to clear.
 - [ ] `chapter/latin-empire/01-a-renovatio.mdx` — prose: "A renovatio"
 - [ ] `chapter/latin-empire/02-fourteen-months.mdx` — prose: "Fourteen months"
 - [ ] `edge/byzantine->latin-empire` — conquered by in 1204
-- [ ] `polity/byzantine` — successor_claims = 2 (Latin Empire of Constantinople, Ottoman Empire)
+- [ ] `polity/byzantine` — successor_claims = 3 (First Bulgarian Empire, Latin Empire of Constantinople, Ottoman Empire)
 - [ ] `polity/latin-empire` — span starts 1204
 - [ ] `polity/latin-empire` — capital Constantinople from 1204
 - [ ] `polity/latin-empire` — founder Baldwin I r. 1204-1205

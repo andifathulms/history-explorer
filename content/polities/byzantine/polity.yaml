@@ -187,6 +187,9 @@ measures:
     # asserted and is what rule 1 counts. Both claims were made by men who had
     # just taken the city by force, which the rule does not filter on.
     successor_claims:
-      count: 2
-      items: [Latin Empire of Constantinople, Ottoman Empire]
+      count: 3
+      items:
+        - First Bulgarian Empire
+        - Latin Empire of Constantinople
+        - Ottoman Empire
       source: van-tricht-2011

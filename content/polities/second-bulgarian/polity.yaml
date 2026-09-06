@@ -1,0 +1,131 @@
+id: second-bulgarian
+region: the-balkans
+
+name:
+  latin: Second Bulgarian Empire
+  script: null
+  script_lang: null
+
+span:
+  start: { min: 1185, max: 1185, source: fine-1987 }
+  end: { min: 1396, max: 1396, source: fine-1987 }
+
+identity: >-
+  Bulgaria again, a hundred and sixty-seven years later: the state that captured
+  a Latin emperor in its second decade, dominated the Balkans for one reign, and
+  spent the rest of its life being divided.
+
+capitals:
+  - { name: Tarnovo, from: 1185, source: fine-1987 }
+
+core_region: The lands between the Danube and the Balkan range, extending at times to Macedonia and the Aegean
+
+rulers:
+  founder: { name: Ivan Asen I, reign: [1189, 1196], source: fine-1987 }
+  peak: { name: Ivan Asen II, reign: [1218, 1241], source: fine-1987 }
+  last: { name: Ivan Sratsimir, reign: [1356, 1396], source: fine-1987 }
+
+scripts_and_languages:
+  administration: [Old Church Slavonic]
+  writing_system: Cyrillic
+
+# The First Bulgarian Empire, ended by Basil II in 1018 and followed by a
+# hundred and sixty-seven years of direct Byzantine rule. The Asen brothers'
+# revolt of 1185 was explicitly a restoration: they took the title tsar, were
+# crowned at Tarnovo, and had the relics of the First Empire's saints moved to
+# the new capital to make the point.
+#
+# `resumes` and not an edge, for the reason the field exists: nothing passed
+# between the two, there is no year on which Bulgaria resumed being Bulgaria,
+# and an edge would be drawn by a thread as though one succeeded the other.
+# This is the first use of the field outside the Ancient Near East, where it was
+# built for the two Babylons.
+resumes: first-bulgarian
+
+ended:
+  type: conquest
+  by: [ottoman]
+  year: 1396
+  source: fine-1987
+
+institutions:
+  # Grants of land and revenue in return for service — the pronoia, taken over
+  # from the Byzantine administration the revolt displaced, which this corpus's
+  # Nicaean record describes arriving at independently in the same decades — and
+  # Cuman cavalry from across the Danube, who were the Asens' decisive arm in
+  # the first thirty years and were paid, married into and eventually settled.
+  military_basis: { values: [land-grant, mercenary], source: fine-1987 }
+  revenue_basis: { values: [land-tax, trade-toll], source: fine-1987 }
+  # Null, and the outcome is unusually bad even by the standards of the records
+  # that carry this null. Between 1185 and 1396 the throne changed hands
+  # something over twenty times, four tsars were assassinated in the first
+  # forty years alone, and the state was divided among heirs twice in the
+  # fourteenth century — which is what the Ottomans arrived to. No source states
+  # a rule and coding rule 7 takes the rule.
+  succession_rule: null
+  # Three, and the middle one is the interesting entry. Descent, asserted from
+  # the First Empire's dynasty and probably invented. `titulature`, the title
+  # tsar and Ivan Asen II's style of emperor of the Bulgarians and the Greeks.
+  # And `investiture`: in 1204 Kaloyan obtained a crown and a primate from
+  # Innocent III in exchange for recognising papal authority, which is a public
+  # claim resting on a grant from an external sovereign and is exactly what that
+  # value is for. The union lapsed within a generation and the crown did not.
+  legitimation: { values: [descent, titulature, investiture], source: fine-1987 }
+
+turning_points:
+  - year: 1185
+    type: revolt
+    name: The Asen rising
+    changed: >-
+      Two brothers from the Tarnovo region revolted over a tax levied for an
+      imperial wedding, were beaten, went across the Danube, came back with
+      Cuman cavalry, and within four years had a state. This corpus's Byzantine
+      record spends its last two centuries losing things, and this is the first
+      substantial piece: the Balkans north of the Balkan range, gone permanently
+      twenty years before the Fourth Crusade took the capital.
+    source: fine-1987
+    contested: false
+  - year: 1205
+    type: battle
+    name: Adrianople
+    changed: >-
+      Kalojan destroyed the Latin field army and captured the emperor Baldwin I,
+      who died in a Bulgarian prison. This corpus's Latin Empire record carries
+      the same day as its own first turning point and says the empire never
+      rebuilt a force capable of offensive war. From this side it is the moment a
+      twenty-year-old state established that it was the strongest power in the
+      Balkans, against a crusading army that had taken Constantinople the
+      previous year.
+    source: fine-1987
+    contested: false
+  - year: 1230
+    type: battle
+    name: Klokotnitsa
+    changed: >-
+      Ivan Asen II destroyed the army of Epirus and captured and blinded
+      Theodore Komnenos Doukas, who had crowned himself emperor at Thessalonica
+      and was the likeliest man to retake Constantinople. Bulgaria absorbed
+      Macedonia, Thrace and Albania and became the dominant Balkan power. It
+      also removed Nicaea's principal Greek rival, which is why this corpus's
+      Nicaean record has Epirus disappearing from its account after 1230.
+    source: fine-1987
+    contested: false
+  - year: 1330
+    type: battle
+    name: Velbazhd
+    changed: >-
+      Serbia destroyed a Bulgarian army and the tsar was killed. The balance in
+      the Balkans passed to Serbia for the following thirty years, and Bulgaria
+      spent them as a junior partner and then divided itself between two of Ivan
+      Alexander's sons. It is the last battle that decided anything before the
+      Ottomans arrived, and this corpus's Ottoman record walks into the result.
+    source: fine-1987
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: fine-1987 }
+    religions_carried: { count: 0, items: [], source: fine-1987 }
+    successor_claims: { count: 0, items: [], source: fine-1987 }
