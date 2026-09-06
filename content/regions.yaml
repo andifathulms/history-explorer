@@ -184,22 +184,33 @@ regions:
     group: mediterranean
     thread: true
 
-  # The other half of the split. Two attempts to have a Roman emperor in the
-  # west, and the two republics that made a living off the empire still standing
-  # in the east — which is a stranger pairing than it looks, since Venice and
-  # Genoa are the only records here that never wanted the title.
+  # The other half of the split, and the half the four post-Roman kingdoms went
+  # into. Eight records and two internal edges — `lombard -> carolingian` in 774
+  # and `carolingian -> holy-roman-empire` in 962 — which is thin and is the
+  # honest picture. This is not a sequence. It is a set of states assembled out
+  # of the same wreckage, and six of the eight are ended by powers outside the
+  # region: the Visigoths by the Umayyads, the Vandals and Ostrogoths by
+  # Byzantium, the Holy Roman Empire and both republics by Revolutionary France.
   #
-  # One internal edge, `carolingian -> holy-roman-empire` in 962, which is thin
-  # for four records and is the honest state. Venice and Genoa succeed nothing
-  # here and are succeeded by nothing: one points outward at Byzantium and the
-  # other at nowhere at all, its origin being a commune emancipating itself from
-  # a bishop.
+  # Five of the eight carry `election` in a succession or legitimation field.
+  # The observation was first made when this region and Rome and Byzantium were
+  # one, at six of eight, and it has now survived a split and the addition of
+  # four kingdoms nobody would have predicted it of.
+  #
+  # Three of the eight — Carolingian, Holy Roman and Lombard — carry a data
+  # comment saying the `revenue_basis` vocabulary has no value for a state
+  # living off the ruler's own property, which is the defining institutional
+  # fact about post-Roman western Europe. The Visigothic and Ostrogothic
+  # records, which kept a Roman land tax running, are the control group. Three
+  # is not the nine that produced the `investiture` value and it is no longer a
+  # one-off.
   - id: latin-west
     name: The Latin West
     blurb: >-
-      What the western Roman provinces became: two empires assembled to hold the
-      title Charlemagne took in 800, and the maritime republics that grew up
-      alongside them and were richer than either.
+      What the western Roman provinces became: four kingdoms assembled out of
+      them by armies that had been inside the empire, two later attempts to have
+      a Roman emperor again, and the maritime republics that grew up alongside
+      and were richer than any of them.
     group: mediterranean
     thread: true
 

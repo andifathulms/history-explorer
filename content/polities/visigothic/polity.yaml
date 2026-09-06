@@ -1,0 +1,156 @@
+id: visigothic
+region: latin-west
+
+name:
+  latin: Visigothic Kingdom
+  script: Regnum Gothorum
+  script_lang: la
+
+# 409 is the crossing into Spain of the Vandals, Alans and Sueves that broke
+# Roman government there, and 418 is the settlement of the Goths in Aquitaine
+# by treaty as federates — Collins begins at the first and the kingdom proper
+# at the second. This record takes 418, the earliest date at which there is a
+# Gothic polity holding territory under an agreement rather than an army moving
+# through somebody else's. 711 is the Arab landing.
+span:
+  start: { min: 418, max: 418, source: collins-2004 }
+  end: { min: 711, max: 711, source: collins-2004 }
+
+identity: >-
+  The kingdom that held Spain for two and a half centuries, wrote the most
+  comprehensive law code in post-Roman Europe, and lost the peninsula in
+  eighteen months.
+
+capitals:
+  - { name: Toulouse, from: 418, source: heather-1996 }
+  - { name: Toledo, script: Toletum, from: 573, source: collins-2004 }
+
+core_region: Aquitaine to 507, and thereafter the Iberian peninsula
+
+rulers:
+  founder: { name: Wallia, reign: [415, 418], source: heather-1996 }
+  peak: { name: Leovigild, reign: [568, 586], source: collins-2004 }
+  last: { name: Roderic, reign: [710, 711], source: collins-2004 }
+
+scripts_and_languages:
+  administration: [Latin]
+  writing_system: Latin
+
+# Tariq ibn Ziyad landed in 711, Roderic was killed at a battle whose site is
+# not certainly known, and the peninsula was taken over the following four
+# years — much of it by surrender treaty rather than by fighting. `by` names the
+# Umayyad caliphate, which is in this corpus and which the fourth chapter
+# discusses: whether the conquest was directed from Damascus or improvised from
+# Tangier is exactly what Collins argues about.
+ended:
+  type: conquest
+  by: [umayyad]
+  year: 711
+  source: collins-2004
+
+institutions:
+  # A levy on landholders, and it is the field Collins is most sceptical about.
+  # The seventh-century laws impose military obligations on landowners in
+  # proportion to their holdings and on their dependants, with heavy penalties
+  # for failing to appear — which is either a functioning system described in
+  # legislation or a system that had to keep being legislated because it did not
+  # work. The events of 711 are usually taken as evidence for the second.
+  military_basis: { values: [conscript, land-grant], source: collins-2004 }
+  # A land tax inherited from the Roman provincial administration and kept
+  # running, which is what distinguishes this record from the Carolingian one in
+  # the same region: the Visigoths took over a fiscal apparatus and used it, and
+  # the Franks did not. It decayed, and how far is disputed, and it was still
+  # being assessed in the seventh century.
+  revenue_basis: { values: [land-tax], source: collins-2004 }
+  # Elective in law and dynastic in intention, and the tension between those is
+  # the kingdom's central political problem. From the Fourth Council of Toledo
+  # in 633 the church legislated that a king was to be chosen by the bishops and
+  # nobles and that no one should seize the throne by force, with excommunication
+  # for anyone who did. Kings then spent their reigns trying to have their sons
+  # elected in their lifetimes, and a great many were deposed or murdered.
+  #
+  # Coding rule 7 takes the rule and the rule was election by the magnates in
+  # council. This is now the fourth record in the Latin West carrying that value
+  # in this field.
+  succession_rule: { values: [election], source: collins-2004 }
+  # The election, and the church. After Reccared converted from Arianism to
+  # Catholicism in 589 the councils of Toledo became the kingdom's central
+  # institution — legislative, judicial and electoral at once — and the king was
+  # anointed. A Gothic minority ruling a Hispano-Roman majority solved the
+  # problem by adopting the majority's church and then running the state through
+  # it.
+  legitimation: { values: [election, divine-sanction], source: collins-2004 }
+
+turning_points:
+  - year: 507
+    type: battle
+    name: Vouillé
+    changed: >-
+      Clovis destroyed the Visigothic army near Poitiers and killed the king
+      Alaric II. Aquitaine was lost to the Franks and the kingdom's centre moved
+      permanently across the Pyrenees, which is the event that makes this a
+      Spanish record rather than a Gaulish one. Everything the kingdom is
+      remembered for happens in the two hundred years after it lost the half of
+      itself it had started with.
+    source: heather-1996
+    contested: false
+  - year: 589
+    type: conversion
+    name: The Third Council of Toledo
+    changed: >-
+      Reccared renounced Arianism and brought the Gothic ruling class into the
+      Catholic church of the Hispano-Roman majority. It removed the confessional
+      line between rulers and ruled at a stroke, made the episcopate the
+      kingdom's governing partner, and turned the councils of Toledo into the
+      central institution of the state. It also produced, within a generation,
+      the most sustained legal persecution of Jews anywhere in early medieval
+      Europe.
+    source: collins-2004
+    contested: false
+  - year: 654
+    type: reform
+    name: The Liber Iudiciorum
+    changed: >-
+      Recceswinth promulgated a single code applying to every inhabitant of the
+      kingdom regardless of descent, abolishing the distinction between Gothic
+      and Roman law. It is the most comprehensive body of legislation produced
+      in post-Roman western Europe, it ran to some five hundred laws, and it
+      went on being used in Spain for six hundred years after the kingdom that
+      wrote it had ceased to exist.
+    source: collins-2004
+    contested: false
+  - year: 711
+    type: battle
+    name: The Guadalete
+    changed: >-
+      An army under Tariq ibn Ziyad, landed from Tangier, destroyed the royal
+      army and killed Roderic somewhere in the south — the site is not known.
+      Within four years the peninsula was held, a great deal of it by treaty
+      rather than by fighting. No other kingdom in this corpus ends this
+      quickly, and the fourth chapter is about why the explanations offered are
+      unsatisfactory.
+    source: collins-2004
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: collins-2004 }
+    religions_carried: { count: 0, items: [], source: collins-2004 }
+    # One. The kingdom of Asturias, founded in the northern mountains within a
+    # decade of 711, presented itself from the ninth century as this kingdom
+    # continued — its chronicles run the Gothic king list straight into the
+    # Asturian one, and the reconquest of the peninsula was framed for seven
+    # hundred years as a restoration of the Gothic realm rather than as a
+    # conquest. Titulature publicly asserted, which is rule 1's paradigm case.
+    #
+    # Asturias has no page in this corpus and that does not affect the count.
+    # Rule 1's unit is the claiming polity and it does not require the claimant
+    # to be a record here — the Hittite record counts Carchemish on the same
+    # basis, and the Carolingian record counted the Holy Roman Empire for a
+    # while before that record existed.
+    successor_claims:
+      count: 1
+      items: [Kingdom of Asturias]
+      source: collins-2004

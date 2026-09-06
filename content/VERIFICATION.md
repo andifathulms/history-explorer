@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**3338 claims across 180 sources.**
+**3431 claims across 184 sources.**
 
 ## Where to start
 
@@ -1973,6 +1973,42 @@ ordinary state, not an item to clear.
 - [ ] `polity/maurya` — religions_carried = 1 (Buddhism)
 - [ ] `polity/maurya` — ended by internal usurpation in -185
 
+## Peter Heather, The Goths
+*In The Peoples of Europe.*
+
+`heather-1996` — 28 claims
+
+**Sole source** for `ostrogothic` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/ostrogothic/01-a-king-sent-by-an-emperor.mdx` — prose: "A king sent by an emperor"
+- [ ] `chapter/ostrogothic/02-boethius.mdx` — prose: "Boethius"
+- [ ] `chapter/ostrogothic/03-eighteen-years.mdx` — prose: "Eighteen years"
+- [ ] `chapter/visigothic/01-a-treaty-and-a-province.mdx` — prose: "A treaty and a province"
+- [ ] `edge/ostrogothic->byzantine` — conquered by in 553
+- [ ] `edge/roman->ostrogothic` — absorbed remnants of in 493
+- [ ] `edge/roman->visigothic` — absorbed remnants of in 418
+- [ ] `polity/ostrogothic` — span starts 493
+- [ ] `polity/ostrogothic` — span ends 553
+- [ ] `polity/ostrogothic` — capital Ravenna from 493
+- [ ] `polity/ostrogothic` — founder Theodoric the Great r. 493-526
+- [ ] `polity/ostrogothic` — peak Theodoric the Great r. 493-526
+- [ ] `polity/ostrogothic` — last Teia r. 552-553
+- [ ] `polity/ostrogothic` — military basis coded land-grant
+- [ ] `polity/ostrogothic` — revenue basis coded land-tax
+- [ ] `polity/ostrogothic` — succession rule coded nomination
+- [ ] `polity/ostrogothic` — legitimation coded descent + investiture
+- [ ] `polity/ostrogothic` — turning point 493 Ravenna
+- [ ] `polity/ostrogothic` — turning point 524 The execution of Boethius (contested)
+- [ ] `polity/ostrogothic` — turning point 535 The Gothic war begins
+- [ ] `polity/ostrogothic` — turning point 552 Taginae
+- [ ] `polity/ostrogothic` — descendant_scripts = 0
+- [ ] `polity/ostrogothic` — religions_carried = 0
+- [ ] `polity/ostrogothic` — successor_claims = 0
+- [ ] `polity/ostrogothic` — ended by conquest in 553
+- [ ] `polity/visigothic` — capital Toulouse from 418
+- [ ] `polity/visigothic` — founder Wallia r. 415-418
+- [ ] `polity/visigothic` — turning point 507 Vouillé
+
 ## Rein Taagepera, Size and Duration of Empires: Growth-Decline Curves, 600 B.C. to 600 A.D.
 *In Social Science History 3(3/4), 115-138.*
 
@@ -2337,6 +2373,37 @@ ordinary state, not an item to clear.
 - [ ] `polity/pontus` — successor_claims = 0
 - [ ] `polity/pontus` — ended by conquest in -63
 
+## Andy Merrills and Richard Miles, The Vandals
+*In The Peoples of Europe.*
+
+`merrills-miles-2010` — 23 claims
+
+**Sole source** for `vandal` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/vandal/01-the-grain.mdx` — prose: "The grain"
+- [ ] `chapter/vandal/02-fourteen-days.mdx` — prose: "Fourteen days"
+- [ ] `chapter/vandal/03-534.mdx` — prose: "534"
+- [ ] `edge/roman->vandal` — absorbed remnants of in 439
+- [ ] `edge/vandal->byzantine` — conquered by in 534
+- [ ] `polity/vandal` — span starts 439
+- [ ] `polity/vandal` — span ends 534
+- [ ] `polity/vandal` — capital Carthage from 439
+- [ ] `polity/vandal` — founder Geiseric r. 428-477
+- [ ] `polity/vandal` — peak Geiseric r. 428-477
+- [ ] `polity/vandal` — last Gelimer r. 530-534
+- [ ] `polity/vandal` — military basis coded land-grant
+- [ ] `polity/vandal` — revenue basis coded land-tax + plunder
+- [ ] `polity/vandal` — succession rule coded tanistry
+- [ ] `polity/vandal` — legitimation coded descent + divine-sanction
+- [ ] `polity/vandal` — turning point 439 Carthage
+- [ ] `polity/vandal` — turning point 455 The sack of Rome
+- [ ] `polity/vandal` — turning point 468 Cape Bon
+- [ ] `polity/vandal` — turning point 534 Tricamarum
+- [ ] `polity/vandal` — descendant_scripts = 0
+- [ ] `polity/vandal` — religions_carried = 0
+- [ ] `polity/vandal` — successor_claims = 0
+- [ ] `polity/vandal` — ended by conquest in 534
+
 ## A. B. Bosworth, Conquest and Empire: The Reign of Alexander the Great
 
 `ab-bosworth-1988` — 22 claims
@@ -2447,6 +2514,36 @@ ordinary state, not an item to clear.
 - [ ] `polity/attalid` — religions_carried = 0
 - [ ] `polity/attalid` — successor_claims = 0
 - [ ] `polity/attalid` — ended by gradual absorption in -133
+
+## Neil Christie, The Lombards: The Ancient Longobards
+*In The Peoples of Europe.*
+
+`christie-1995` — 22 claims
+
+**Sole source** for `lombard` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/lombard/01-the-kingless-decade.mdx` — prose: "The kingless decade"
+- [ ] `chapter/lombard/02-rothari.mdx` — prose: "Rothari"
+- [ ] `chapter/lombard/03-774.mdx` — prose: "774"
+- [ ] `edge/lombard->carolingian` — conquered by in 774
+- [ ] `polity/lombard` — span starts 568
+- [ ] `polity/lombard` — span ends 774
+- [ ] `polity/lombard` — capital Pavia from 572
+- [ ] `polity/lombard` — founder Alboin r. 568-572
+- [ ] `polity/lombard` — peak Liutprand r. 712-744
+- [ ] `polity/lombard` — last Desiderius r. 756-774
+- [ ] `polity/lombard` — military basis coded conscript + land-grant
+- [ ] `polity/lombard` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/lombard` — succession rule coded acclamation
+- [ ] `polity/lombard` — legitimation coded election + descent
+- [ ] `polity/lombard` — turning point 574 The rule of the dukes
+- [ ] `polity/lombard` — turning point 643 The Edict of Rothari
+- [ ] `polity/lombard` — turning point 751 Ravenna
+- [ ] `polity/lombard` — turning point 774 Pavia
+- [ ] `polity/lombard` — descendant_scripts = 0
+- [ ] `polity/lombard` — religions_carried = 0
+- [ ] `polity/lombard` — successor_claims = 0
+- [ ] `polity/lombard` — ended by dynastic replacement in 774
 
 ## Abbas Amanat, Iran: A Modern History
 
@@ -2848,6 +2945,32 @@ ordinary state, not an item to clear.
 - [ ] `polity/sarbadar` — turning point 1342 Zawa (contested)
 - [ ] `polity/sarbadar` — turning point 1344 Mas'ud in Mazandaran
 - [ ] `polity/sarbadar` — ended by gradual absorption in 1381
+
+## Roger Collins, Visigothic Spain, 409-711
+*In A History of Spain.*
+
+`collins-2004` — 20 claims
+
+- [ ] `chapter/visigothic/02-one-church.mdx` — prose: "One church"
+- [ ] `chapter/visigothic/03-the-law-and-the-election.mdx` — prose: "The law and the election"
+- [ ] `chapter/visigothic/04-eighteen-months.mdx` — prose: "Eighteen months"
+- [ ] `edge/visigothic->umayyad` — conquered by in 711
+- [ ] `polity/visigothic` — span starts 418
+- [ ] `polity/visigothic` — span ends 711
+- [ ] `polity/visigothic` — capital Toledo from 573
+- [ ] `polity/visigothic` — peak Leovigild r. 568-586
+- [ ] `polity/visigothic` — last Roderic r. 710-711
+- [ ] `polity/visigothic` — military basis coded conscript + land-grant
+- [ ] `polity/visigothic` — revenue basis coded land-tax
+- [ ] `polity/visigothic` — succession rule coded election
+- [ ] `polity/visigothic` — legitimation coded election + divine-sanction
+- [ ] `polity/visigothic` — turning point 589 The Third Council of Toledo
+- [ ] `polity/visigothic` — turning point 654 The Liber Iudiciorum
+- [ ] `polity/visigothic` — turning point 711 The Guadalete
+- [ ] `polity/visigothic` — descendant_scripts = 0
+- [ ] `polity/visigothic` — religions_carried = 0
+- [ ] `polity/visigothic` — successor_claims = 1 (Kingdom of Asturias)
+- [ ] `polity/visigothic` — ended by conquest in 711
 
 ## John R. Perry, Karim Khan Zand: A History of Iran, 1747-1779
 *In Publications of the Center for Middle Eastern Studies 12.*

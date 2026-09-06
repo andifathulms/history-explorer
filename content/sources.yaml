@@ -2101,6 +2101,61 @@ sources:
       record for it codes `titulature` and why the Byzantine record now counts a
       successor claim it did not.
 
+  - id: heather-1996
+    kind: book
+    author: Peter Heather
+    title: The Goths
+    container: The Peoples of Europe
+    publisher: Blackwell
+    year: 1996
+    note: >-
+      Covers both Gothic successor kingdoms in one account, which is why this
+      site's Visigothic and Ostrogothic records share it: Heather's argument is
+      that Gothic identity was assembled in the fourth and fifth centuries out
+      of several groups rather than carried out of Scandinavia, and both records
+      are coded on that reading.
+
+  - id: merrills-miles-2010
+    kind: book
+    author: Andy Merrills and Richard Miles
+    title: The Vandals
+    container: The Peoples of Europe
+    publisher: Wiley-Blackwell
+    year: 2010
+    note: >-
+      The first book in English on the North African kingdom, and explicitly a
+      reinterpretation: against the reading of the Vandals as a raiding band
+      that destroyed a province, Merrills and Miles describe a state with a
+      fiscal apparatus, a court literature and a foreign policy. This site's
+      Vandal institutions are coded from it.
+
+  - id: christie-1995
+    kind: book
+    author: Neil Christie
+    title: "The Lombards: The Ancient Longobards"
+    container: The Peoples of Europe
+    publisher: Blackwell
+    year: 1995
+    note: >-
+      History and archaeology together, from the invasion of 568 to Charlemagne
+      taking the kingdom in 774. Christie is unusually useful for a record whose
+      central difficulty is that the written sources are two centuries later
+      than the events and were written to justify what had happened.
+
+  - id: collins-2004
+    kind: book
+    author: Roger Collins
+    title: "Visigothic Spain, 409-711"
+    container: A History of Spain
+    publisher: Blackwell
+    year: 2004
+    note: >-
+      Combines chronology and theme, and argues against a good deal of the
+      received account — of how the kingdom was governed, of its law, and of the
+      Arab conquest. Collins had already written a book on that conquest, which
+      is why this site's Visigothic record is drafted from him: its ending is
+      the part every other page in the corpus points at.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors

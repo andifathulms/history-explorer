@@ -1714,6 +1714,97 @@ edges:
     source: wilkinson-1987
     contested: false
 
+  # ---- What the western provinces became ----
+
+  # The four post-Roman kingdoms all take an edge from the Roman record and all
+  # of them cross out of the Latin West into Rome and Byzantium, so none is
+  # drawn by either thread. That is the split working as intended: these are
+  # states assembled out of a dead empire's provinces, not states that succeeded
+  # it in the sense a thread draws.
+  - from: roman
+    to: visigothic
+    type: absorbed remnants of
+    year: 418
+    note: >-
+      The Goths were settled in Aquitaine as federates by treaty in 418 and
+      converted the arrangement into a kingdom over the following two
+      generations, taking most of Spain after 476.
+    source: heather-1996
+    contested: false
+
+  - from: roman
+    to: vandal
+    type: absorbed remnants of
+    year: 439
+    note: >-
+      Geiseric took Carthage and with it the African provinces that supplied
+      Rome's grain and a large share of the western empire's revenue.
+    source: merrills-miles-2010
+    contested: false
+
+  - from: roman
+    to: ostrogothic
+    type: absorbed remnants of
+    year: 493
+    note: >-
+      Theodoric was sent from Constantinople to remove Odoacer, killed him at
+      Ravenna, and governed Italy through the surviving Roman administration
+      with the eastern emperor's recognition.
+    source: heather-1996
+    contested: false
+
+  # Both ends in Rome and Byzantium's region? No — the conquered records are in
+  # the Latin West and Byzantium is not, so these cross as well. Justinian's
+  # reconquest joins the two regions three times and is drawn by neither, which
+  # is a fair statement of what it achieved.
+  - from: vandal
+    to: byzantine
+    type: conquered by
+    year: 534
+    note: >-
+      Belisarius landed with about sixteen thousand men and took the kingdom in
+      a single campaigning season.
+    source: merrills-miles-2010
+    contested: false
+
+  - from: ostrogothic
+    to: byzantine
+    type: conquered by
+    year: 553
+    note: >-
+      Eighteen years of war ending at Taginae and Mons Lactarius, after which no
+      Gothic army existed and Italy was a province neither power could pay to
+      defend.
+    source: heather-1996
+    contested: false
+
+  # The one internal edge the four of them produce, and the Latin West's second.
+  - from: lombard
+    to: carolingian
+    type: conquered by
+    year: 774
+    note: >-
+      Charlemagne besieged Pavia for nine months and added king of the Lombards
+      to his own title. The kingdom's laws, duchies and administration continued
+      under a Frankish king, which is why the Lombard record codes its ending
+      `dynastic replacement`.
+    source: christie-1995
+    contested: false
+
+  # Crosses into the caliphates. The Visigothic record's ending is the event
+  # every page in this corpus's Islamic west points at, and until now nothing
+  # was on the other end of it.
+  - from: visigothic
+    to: umayyad
+    type: conquered by
+    year: 711
+    note: >-
+      An army under Tariq ibn Ziyad landed from Tangier, destroyed the royal
+      army and killed Roderic, and the peninsula was held within four years — a
+      great deal of it by surrender treaty rather than by fighting.
+    source: collins-2004
+    contested: false
+
   # ---- The title, and the city, change hands again ----
 
   # Two claims on the same idea two hundred years apart, and this site counts

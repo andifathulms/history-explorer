@@ -1,0 +1,138 @@
+id: lombard
+region: latin-west
+
+name:
+  latin: Lombard Kingdom
+  script: Regnum Langobardorum
+  script_lang: la
+
+span:
+  start: { min: 568, max: 568, source: christie-1995 }
+  end: { min: 774, max: 774, source: christie-1995 }
+
+identity: >-
+  Two centuries of Italy governed from Pavia by a kingdom that never held all of
+  it, ended by a Frankish king who added its crown to his own.
+
+capitals:
+  - { name: Pavia, script: Ticinum, from: 572, source: christie-1995 }
+
+core_region: The Po valley and inland Italy, with duchies at Spoleto and Benevento
+
+rulers:
+  founder: { name: Alboin, reign: [568, 572], source: christie-1995 }
+  peak: { name: Liutprand, reign: [712, 744], source: christie-1995 }
+  last: { name: Desiderius, reign: [756, 774], source: christie-1995 }
+
+scripts_and_languages:
+  administration: [Latin]
+  writing_system: Latin
+
+# Charlemagne besieged Pavia for nine months, took Desiderius, sent him to a
+# monastery, and added rex Langobardorum to his own titles. The kingdom
+# continued as an institution under a Frankish king, which is why this is coded
+# `dynastic replacement` rather than `conquest`: the crown, the laws and the
+# duchies survived and the family holding them did not.
+ended:
+  type: dynastic replacement
+  by: [carolingian]
+  year: 774
+  source: christie-1995
+
+institutions:
+  # A free warrior population owing service — the *arimanni*, or *exercitales*,
+  # men of the army — holding land and required to appear equipped according to
+  # what they held, with the eighth-century laws grading the obligation by
+  # wealth in terms this corpus's Carolingian record repeats almost exactly a
+  # generation later.
+  military_basis: { values: [conscript, land-grant], source: christie-1995 }
+  # This is the record where the disappearance of Roman taxation in the west is
+  # clearest, and Christie is careful about it. The Lombard kings had royal
+  # estates, the *curtes regiae*, and tolls, and judicial fines, and there is
+  # very little evidence for a land tax on the Roman model surviving in Lombard
+  # Italy at all.
+  #
+  # `land-tax` is coded because tolls and the produce of royal land are what
+  # this vocabulary has for it, and the same gap the Carolingian and Holy Roman
+  # records both name applies here: there is no value for a state living off the
+  # ruler's own property. That is now the third record in this region to say so,
+  # and three is still not nine.
+  revenue_basis: { values: [land-tax, trade-toll], source: christie-1995 }
+  # `acclamation`, and this record is one of very few places the value is
+  # coded. Lombard kings were raised by the assembly of the free warriors and
+  # the dukes, and the assembly was capable of not raising one at all: after
+  # Cleph was murdered in 574 the dukes governed without a king for a decade,
+  # and then elected one and endowed him with half their own estates because the
+  # Franks were invading. A kingship that can be suspended by the men who confer
+  # it is not a monarchy in the ordinary sense.
+  succession_rule: { values: [acclamation], source: christie-1995 }
+  # `election` and not `acclamation`, which the build refused: `acclamation` is
+  # in the succession vocabulary and not in the legitimation one, and the two
+  # lists are deliberately different. In this field `election` means a right to
+  # rule conferred by a body, which is what the Lombard assembly did — the same
+  # value this site's Visigothic record carries for election by the magnates in
+  # council and its Holy Roman record for the electoral college.
+  legitimation: { values: [election, descent], source: christie-1995 }
+
+turning_points:
+  - year: 574
+    type: succession-crisis
+    name: The rule of the dukes
+    changed: >-
+      Cleph was murdered and the Lombards did not replace him. For about ten
+      years some thirty-five dukes governed their own territories with no king
+      at all, and the kingship was only restored when a Frankish and Byzantine
+      alliance made a common command necessary — the dukes surrendering half
+      their estates to endow it. It fixed the kingdom's permanent shape: a crown
+      that was strong when there was an external threat and weak when there was
+      not, with Spoleto and Benevento in the south effectively independent for
+      the whole two centuries.
+    source: christie-1995
+    contested: false
+  - year: 643
+    type: reform
+    name: The Edict of Rothari
+    changed: >-
+      Three hundred and eighty-eight chapters of Lombard law, written in Latin,
+      issued with the consent of the army assembly. It is the earliest surviving
+      Lombard legislation and it is a code of a different kind from the
+      Visigothic one on the record beside it: personal rather than territorial,
+      binding Lombards and leaving Romans to Roman law, and built on
+      compensation tariffs rather than on Roman legal categories. Two post-Roman
+      kingdoms, two codes, and opposite answers to whether the law follows the
+      person or the ground.
+    source: christie-1995
+    contested: false
+  - year: 751
+    type: siege
+    name: Ravenna
+    changed: >-
+      Aistulf took the seat of Byzantine government in Italy, ending the
+      exarchate and, with it, any imperial power in the north. It looks like the
+      moment the kingdom finally wins Italy and it is the moment it loses it:
+      the papacy, now with no imperial protector and a Lombard army on its
+      northern border, appealed to the Franks instead — and this corpus's
+      Carolingian record's first chapter is about what Pepin did with that
+      invitation.
+    source: christie-1995
+    contested: false
+  - year: 774
+    type: siege
+    name: Pavia
+    changed: >-
+      Charlemagne besieged the capital for nine months, took Desiderius, and
+      added king of the Lombards to his own title. The kingdom was not
+      dissolved: its laws, its duchies and its administrative structure
+      continued under a Frankish king, and Lombard law was still being cited in
+      southern Italy in the twelfth century. It is a dynasty replaced rather
+      than a state destroyed, which is what this record's `ended` field says.
+    source: christie-1995
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: christie-1995 }
+    religions_carried: { count: 0, items: [], source: christie-1995 }
+    successor_claims: { count: 0, items: [], source: christie-1995 }

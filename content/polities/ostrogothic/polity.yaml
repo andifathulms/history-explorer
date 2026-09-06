@@ -1,0 +1,129 @@
+id: ostrogothic
+region: latin-west
+
+name:
+  latin: Ostrogothic Kingdom
+  script: Regnum Italiae
+  script_lang: la
+
+# 493 is Theodoric killing Odoacer at Ravenna and taking Italy; 553 is the end
+# of the Gothic war, after which no Gothic army existed. A remnant held out in
+# a few places for another year or two and nobody claims a kingdom afterwards.
+span:
+  start: { min: 493, max: 493, source: heather-1996 }
+  end: { min: 553, max: 553, source: heather-1996 }
+
+identity: >-
+  Sixty years in which Italy was governed better than it had been for a century,
+  by a Gothic king who never called himself emperor, and then destroyed by the
+  empire he was formally subordinate to.
+
+capitals:
+  - { name: Ravenna, from: 493, source: heather-1996 }
+
+core_region: Italy, Dalmatia and Provence
+
+rulers:
+  founder: { name: Theodoric the Great, reign: [493, 526], source: heather-1996 }
+  peak: { name: Theodoric the Great, reign: [493, 526], source: heather-1996 }
+  last: { name: Teia, reign: [552, 553], source: heather-1996 }
+
+scripts_and_languages:
+  administration: [Latin, Gothic]
+  writing_system: Latin
+
+ended:
+  type: conquest
+  by: [byzantine]
+  year: 553
+  source: heather-1996
+
+institutions:
+  # The Goths were the army and the Romans were the taxpayers, and the division
+  # was explicit. Gothic families were settled on assignments of land or of tax
+  # revenue and owed service; Romans were barred from bearing arms and
+  # monopolised the civil administration. It is the clearest instance in this
+  # corpus of a state that divided its population by function rather than by
+  # territory, and it is why the arrangement could not survive a war in which
+  # the Roman half had somewhere else to look.
+  military_basis: { values: [land-grant], source: heather-1996 }
+  # The Roman land tax, collected by the Roman civil service, through the same
+  # praetorian prefecture and the same officials as before 476. Cassiodorus's
+  # letters, written as the king's minister, are the largest surviving body of
+  # administrative correspondence from post-Roman Italy and they are Roman
+  # bureaucratic Latin about grain shipments and tax remissions.
+  revenue_basis: { values: [land-tax], source: heather-1996 }
+  # Designation within the Amal family, and it failed at the first attempt.
+  # Theodoric had no son, designated his grandson under his daughter's regency,
+  # and the arrangement produced a murdered regent, a usurper and the pretext
+  # for Justinian's invasion within nine years of his death.
+  succession_rule: { values: [nomination], source: heather-1996 }
+  # Descent from the Amals, and a right conferred by an emperor. Theodoric had
+  # been made a patrician and consul at Constantinople, was sent to Italy by
+  # Zeno with a commission to remove Odoacer, and ruled thereafter as a king
+  # whose position the eastern emperor recognised — striking coin in the
+  # emperor's name, seeking imperial confirmation for his successor, and never
+  # taking the title of emperor himself.
+  #
+  # `investiture` is the value this corpus added for a public claim resting on a
+  # grant from an external sovereign, and this is a clean case of it in a region
+  # where it has not been coded before.
+  legitimation: { values: [descent, investiture], source: heather-1996 }
+
+turning_points:
+  - year: 493
+    type: siege
+    name: Ravenna
+    changed: >-
+      After three years of siege Theodoric and Odoacer agreed to rule Italy
+      jointly, and ten days later Theodoric killed him at the banquet
+      celebrating it — reportedly with his own hands, and reportedly remarking
+      that the man appeared to have no bones. It is the founding act of the
+      kingdom and it is also the reason the Gothic regime's relationship with
+      the Roman senate began badly.
+    source: heather-1996
+    contested: false
+  - year: 524
+    type: revolt
+    name: The execution of Boethius
+    changed: >-
+      The senator Boethius, holding the highest civil office in the kingdom, was
+      accused of treasonable correspondence with Constantinople, imprisoned and
+      executed; his father-in-law Symmachus followed. Whether there was a
+      conspiracy is unknowable. What it demonstrated is that the arrangement
+      between a Gothic Arian army and a Roman Catholic aristocracy depended on
+      the second not having an alternative, and the Consolation of Philosophy
+      was written in the cell.
+    source: heather-1996
+    contested: true
+  - year: 535
+    type: battle
+    name: The Gothic war begins
+    changed: >-
+      Justinian used the murder of Theodoric's daughter Amalasuintha as the
+      pretext for an invasion that Belisarius began briskly and that then ran
+      for eighteen years. This corpus's Byzantine record calls it the campaign
+      that wrecked Italy and left a province unable to pay for its own defence.
+      From this side it is simply the end, spread over two decades.
+    source: heather-1996
+    contested: false
+  - year: 552
+    type: battle
+    name: Taginae
+    changed: >-
+      Narses destroyed the Gothic army and Totila, the king who had very nearly
+      won the war back, was killed. His successor lasted a year. After 553 there
+      was no Gothic army and no Gothic kingdom, and Italy had been fought over
+      for eighteen years by two powers, neither of which was in a position to
+      hold it — which is the situation the Lombard record next to this one
+      walked into fifteen years later.
+    source: heather-1996
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: heather-1996 }
+    religions_carried: { count: 0, items: [], source: heather-1996 }
+    successor_claims: { count: 0, items: [], source: heather-1996 }

@@ -1,0 +1,130 @@
+id: vandal
+region: latin-west
+
+name:
+  latin: Vandal Kingdom
+  script: Regnum Vandalorum
+  script_lang: la
+
+# 439 is the capture of Carthage, which is when a group moving through the
+# provinces becomes a state holding the richest one. 534 is Belisarius taking
+# the kingdom in a campaign of a few months.
+span:
+  start: { min: 439, max: 439, source: merrills-miles-2010 }
+  end: { min: 534, max: 534, source: merrills-miles-2010 }
+
+identity: >-
+  The kingdom that took Rome's grain supply, held the western Mediterranean with
+  a fleet for a century, and is remembered for a word it did not earn.
+
+capitals:
+  - { name: Carthage, from: 439, source: merrills-miles-2010 }
+
+core_region: The North African provinces from Tripolitania to Numidia, with Sardinia, Corsica and the Balearics
+
+rulers:
+  founder: { name: Geiseric, reign: [428, 477], source: merrills-miles-2010 }
+  peak: { name: Geiseric, reign: [428, 477], source: merrills-miles-2010 }
+  last: { name: Gelimer, reign: [530, 534], source: merrills-miles-2010 }
+
+scripts_and_languages:
+  administration: [Latin]
+  writing_system: Latin
+
+ended:
+  type: conquest
+  by: [byzantine]
+  year: 534
+  source: merrills-miles-2010
+
+institutions:
+  # Land assigned to Vandal families — the *sortes Vandalorum*, the Vandal
+  # allotments, carved out of the estates of the African senatorial aristocracy
+  # in Proconsularis — held free of tax and owing service. It is the same
+  # arrangement as the Ostrogothic record's and the difference is who paid for
+  # it: in Italy the Goths took tax revenue and in Africa they took the land
+  # itself, which is why the African aristocracy's hostility was permanent and
+  # the Italian one's was not.
+  military_basis: { values: [land-grant], source: merrills-miles-2010 }
+  # The Roman land tax, on the provinces the Vandals had not distributed, and
+  # `plunder` in coding rule 6's strict sense for the first half of the record.
+  # Geiseric's fleet raided the Mediterranean annually for decades — Rome itself
+  # in 455, for a fortnight — and Merrills and Miles treat the raiding as a
+  # revenue system rather than as banditry: it produced tribute agreements,
+  # ransom payments and a treaty in 474 by which the eastern empire recognised
+  # the kingdom and paid for peace.
+  revenue_basis: { values: [land-tax, plunder], source: merrills-miles-2010 }
+  # Geiseric legislated it: the throne to pass to the eldest surviving male of
+  # the royal house rather than from father to son. It is a written succession
+  # law, which puts this record in a small group on this site, and it is unusual
+  # in what it chose — seniority within a family rather than descent in a line,
+  # which is what this site's vocabulary calls tanistry.
+  succession_rule: { values: [tanistry], source: merrills-miles-2010 }
+  # Descent from Geiseric, and the Arian church. The kingdom's Arianism was not
+  # incidental: it was the ruling group's marker, it was enforced against the
+  # Catholic hierarchy with exiles and confiscations under some kings and not
+  # others, and it is the reason the African provinces did not resist Belisarius
+  # in 534. A minority regime whose distinguishing institution is a confession
+  # the majority rejects has no reserve of loyalty to draw on.
+  legitimation: { values: [descent, divine-sanction], source: merrills-miles-2010 }
+
+turning_points:
+  - year: 439
+    type: siege
+    name: Carthage
+    changed: >-
+      Geiseric took the city, and with it the fleet, the shipyards and the grain
+      of the province that fed Rome. This corpus's Roman record describes an
+      annona of some two hundred thousand tonnes a year from Egypt and Africa;
+      Egypt had gone east with the division of 395 and Africa went here. The
+      western empire lost its tax base and its food supply in one afternoon and
+      never recovered either.
+    source: merrills-miles-2010
+    contested: false
+  - year: 455
+    type: siege
+    name: The sack of Rome
+    changed: >-
+      A Vandal fleet took Rome and spent fourteen days removing everything
+      portable, including the roof tiles of the temple of Jupiter and the
+      treasures Titus had brought from Jerusalem. Prosper says the city was not
+      burned and the population not massacred, on the pope's intercession. The
+      episode is the sole basis of the word vandalism, which was coined by a
+      French bishop in 1794 about revolutionaries destroying art, and the last
+      chapter of this record is about how unfair that is.
+    source: merrills-miles-2010
+    contested: false
+  - year: 468
+    type: battle
+    name: Cape Bon
+    changed: >-
+      A joint eastern and western Roman expedition of over a thousand ships,
+      which is said to have cost the eastern treasury the equivalent of several
+      years' revenue, was destroyed at anchor by Vandal fireships. It was the
+      last serious attempt by the western empire to recover anything, it
+      bankrupted the east for a generation, and the western empire was gone
+      within eight years. It is the most consequential naval battle in this
+      corpus and almost nobody has heard of it.
+    source: merrills-miles-2010
+    contested: false
+  - year: 534
+    type: battle
+    name: Tricamarum
+    changed: >-
+      Belisarius landed with about sixteen thousand men, beat the Vandal army
+      twice in three months and took Carthage, and Gelimer surrendered in the
+      spring. The kingdom that had destroyed a Roman armada sixty-six years
+      earlier collapsed in a single campaigning season. Merrills and Miles are
+      clear that the speed is not explained by Vandal decadence, which is the
+      traditional answer, and is better explained by a regime whose Catholic
+      subjects had no reason to fight for it.
+    source: merrills-miles-2010
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: merrills-miles-2010 }
+    religions_carried: { count: 0, items: [], source: merrills-miles-2010 }
+    successor_claims: { count: 0, items: [], source: merrills-miles-2010 }
