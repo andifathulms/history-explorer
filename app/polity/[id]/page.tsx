@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Link from 'next/link'
 import { formatRange } from '@/lib/years'
 import { notFound } from 'next/navigation'
 import {
@@ -101,7 +102,12 @@ export default function PolityPage({ params }: { params: { id: string } }) {
           ground="paper"
           trail={[
             { href: '/polities/', label: 'Polities' },
-            ...(region ? [{ label: region.name }] : []),
+            // The region crumb links to its own section on /polities/, which
+            // already carries `id={r.id}` and a scroll-margin for exactly this.
+            // A region has no page of its own — browsing is one list — so this
+            // is where the label means, and leaving it dead made the middle of
+            // every breadcrumb on the site the only unclickable one.
+            ...(region ? [{ href: `/polities/#${region.id}`, label: region.name }] : []),
             { label: p.name.latin },
           ]}
         />
@@ -142,7 +148,14 @@ export default function PolityPage({ params }: { params: { id: string } }) {
                 <span>
                   Ended <span className="tabular-nums text-kashi">{endLabel}</span>
                 </span>
-                {region ? <span>{region.name}</span> : null}
+                {region ? (
+                  <Link
+                    href={`/polities/#${region.id}`}
+                    className="transition-colors hover:text-firuze-ink"
+                  >
+                    {region.name}
+                  </Link>
+                ) : null}
               </p>
 
               <p className="mt-6 max-w-measure text-lede text-dawat/85">{p.identity}</p>
