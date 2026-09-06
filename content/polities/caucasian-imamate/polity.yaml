@@ -1,0 +1,106 @@
+id: caucasian-imamate
+region: caucasus
+
+name:
+  latin: Caucasian Imamate
+  script: الإمامة القوقازية
+  script_lang: ar
+
+span:
+  start: { min: 1828, max: 1828, source: gammer-1994 }
+  end: { min: 1859, max: 1859, source: gammer-1994 }
+
+identity: >-
+  An elected imamate in the mountains of Daghestan and Chechnya that replaced
+  customary law with the sharia, built a state to fight with, and held out
+  against the Russian empire for thirty-one years.
+
+# The imamate had no capital in the ordinary sense; it had a succession of
+# fortified auls that were seats until they were besieged. Akhulgo until 1839,
+# Dargo until 1845, Vedeno until 1859, Gunib for a week.
+capitals:
+  - { name: Vedeno, script: ведено, source: gammer-1994 }
+
+core_region: The mountains of Daghestan and Chechnya, and the forests below them
+
+rulers:
+  founder: { name: Ghazi Muhammad, reign: [1828, 1832], source: gammer-1994 }
+  peak: { name: Shamil, reign: [1834, 1859], source: gammer-1994 }
+  last: { name: Shamil, reign: [1834, 1859], source: gammer-1994 }
+
+scripts_and_languages:
+  administration: [Arabic]
+  writing_system: Arabic
+
+# The Russian empire is not in this corpus and `by` is empty rather than pointed
+# at nothing. Shamil surrendered at Gunib in August 1859 after a siege; the war
+# in the western Caucasus, which the imamate did not govern, continued until
+# 1864.
+ended:
+  type: conquest
+  by: []
+  year: 1859
+  source: gammer-1994
+
+institutions:
+  # The murtaziqa: a standing mounted force maintained at community expense,
+  # with each group of households required to equip and support one horseman
+  # permanently under arms, alongside the general levy of the villages when it
+  # was called. `conscript` for the obligation imposed on settled communities by
+  # administrative order, and `standing-professional` for what the obligation
+  # produced — a paid permanent force answering to the imam and not to any
+  # village. Shamil also cast his own cannon.
+  military_basis: { values: [conscript, standing-professional], source: gammer-1994 }
+  # Zakat collected under the sharia the imamate had imposed, and the fifth of
+  # booty taken in raiding across the Russian lines, which the sources treat as
+  # a working part of the treasury rather than as incidental. It is the same
+  # pair this corpus codes for the Emirate of Diriyah, and the same caveat
+  # applies to the first value: what was collected was a religious obligation
+  # and `land-tax` records the base without it.
+  revenue_basis: { values: [land-tax, plunder], source: gammer-1994 }
+  # `election`, and this is the fourth polity in the corpus to carry it in this
+  # field after the Rustamids at Tahert, the Ibadi imamate of Oman and the
+  # Ya'ariba. Three imams in thirty-one years, each proclaimed by the scholars
+  # and the community rather than inheriting — and Shamil's attempt to name his
+  # own son as successor in 1859 was the exception that proves it, made at the
+  # end and never tested.
+  succession_rule: { values: [election], source: gammer-1994 }
+  # The office was religious before it was military: an imam leading the
+  # community in the enforcement of the law and in jihad, and the rulebook's
+  # `divine-sanction` explicitly covers a claim to be imam. `election` is here
+  # too because the claim was constituted by the community's choice and the
+  # imams said so.
+  legitimation: { values: [divine-sanction, election], source: gammer-1994 }
+
+turning_points:
+  - year: 1839
+    type: siege
+    name: "Akhulgo"
+    changed: >-
+      The Russians took Shamil's mountain stronghold after eighty days and
+      believed the war was over; he escaped through the cordon with a handful of
+      men and left his son as a hostage. What followed was the opposite of a
+      defeat — Chechnya rose the next year, and the imamate that had been a
+      Daghestani movement became a two-province state at its widest extent.
+    source: gammer-1994
+    contested: false
+  - year: 1845
+    type: battle
+    name: "Dargo"
+    changed: >-
+      A Russian expedition under the viceroy Vorontsov reached Shamil's capital,
+      found it burned and empty, and was cut to pieces in the forests on the way
+      out. It ended the strategy of marching at the imamate and forced Russia
+      onto the one that eventually worked — clearing the forests, building roads
+      and forts, and strangling the mountains over a decade rather than invading
+      them.
+    source: gammer-1994
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

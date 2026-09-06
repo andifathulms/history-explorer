@@ -1502,6 +1502,19 @@ sources:
       a script that was lost for a thousand years, because the manner of its
       recovery is the evidence and not an anecdote about it.
 
+  - id: gammer-1994
+    kind: book
+    author: Moshe Gammer
+    title: "Muslim Resistance to the Tsar: Shamil and the Conquest of Chechnia and Daghestan"
+    publisher: Frank Cass
+    year: 1994
+    note: >-
+      The standard study, worked from Russian, Arabic and Turkish archives, of a
+      polity that held out against an empire for a quarter of a century in
+      country the empire could reach and could not hold. Its subject is as much
+      the state Shamil built as the war he fought with it, which is what this
+      site needs: the institutions are the reason the resistance lasted.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors

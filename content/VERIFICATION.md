@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**2591 claims across 138 sources.**
+**2609 claims across 139 sources.**
 
 ## Where to start
 
@@ -2277,6 +2277,31 @@ ordinary state, not an item to clear.
 - [ ] `polity/nasrid` — turning point 1340 Rio Salado
 - [ ] `polity/nasrid` — turning point 1482 The war and the civil war
 - [ ] `polity/nasrid` — ended by conquest in 1492
+
+## Moshe Gammer, Muslim Resistance to the Tsar: Shamil and the Conquest of Chechnia and Daghestan
+
+`gammer-1994` — 18 claims
+
+**Sole source** for `caucasian-imamate` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/caucasian-imamate/01-sharia-against-adat.mdx` — prose: "The law before the war"
+- [ ] `chapter/caucasian-imamate/02-the-state-he-built.mdx` — prose: "The state he built"
+- [ ] `chapter/caucasian-imamate/03-an-elected-imamate.mdx` — prose: "The fourth elected imamate"
+- [ ] `chapter/caucasian-imamate/04-dargo.mdx` — prose: "Why it took twenty-five years"
+- [ ] `chapter/caucasian-imamate/05-gunib.mdx` — prose: "Gunib"
+- [ ] `polity/caucasian-imamate` — span starts 1828
+- [ ] `polity/caucasian-imamate` — span ends 1859
+- [ ] `polity/caucasian-imamate` — capital Vedeno
+- [ ] `polity/caucasian-imamate` — founder Ghazi Muhammad r. 1828-1832
+- [ ] `polity/caucasian-imamate` — peak Shamil r. 1834-1859
+- [ ] `polity/caucasian-imamate` — last Shamil r. 1834-1859
+- [ ] `polity/caucasian-imamate` — military basis coded conscript + standing-professional
+- [ ] `polity/caucasian-imamate` — revenue basis coded land-tax + plunder
+- [ ] `polity/caucasian-imamate` — succession rule coded election
+- [ ] `polity/caucasian-imamate` — legitimation coded divine-sanction + election
+- [ ] `polity/caucasian-imamate` — turning point 1839 Akhulgo
+- [ ] `polity/caucasian-imamate` — turning point 1845 Dargo
+- [ ] `polity/caucasian-imamate` — ended by conquest in 1859
 
 ## Peter Jackson, The Delhi Sultanate: A Political and Military History
 
