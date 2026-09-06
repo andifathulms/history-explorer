@@ -1,0 +1,121 @@
+id: al-busaid
+region: arabia
+
+name:
+  latin: Al Bu Sa'id Sultanate
+  script: البوسعيديون
+  script_lang: ar
+
+# The span measures the empire, not the house. Ahmad bin Sa'id was elected imam
+# in 1744; the Omani maritime empire ended with Sa'id bin Sultan's death in 1856
+# and the British arbitration of 1861 that separated Zanzibar from Muscat. The
+# dynasty did not end and has not: the Al Bu Sa'id still reign in Oman. The
+# site's span model cannot record a polity that is still running, and the
+# second chapter is about a different limit of the same kind.
+span:
+  start: { min: 1744, max: 1749, source: risso-1986 }
+  end: { min: 1856, max: 1861, source: sheriff-1987 }
+
+identity: >-
+  An elected Ibadi imamate that became a hereditary sultanate, moved its capital
+  to an island off Africa, and built the Indian Ocean's last Arab empire on
+  cloves, ivory and slaves.
+
+capitals:
+  - { name: Muscat, script: مسقط, from: 1749, source: risso-1986 }
+  # The court moved to Zanzibar under Sa'id bin Sultan, gradually from the 1830s
+  # and permanently from 1840 — a sultan of Oman governing from East Africa.
+  - { name: Zanzibar, script: زنجبار, from: 1840, source: sheriff-1987 }
+
+core_region: Oman and the Gulf coast, with Zanzibar and the East African littoral
+
+rulers:
+  founder: { name: Ahmad bin Sa'id, reign: [1744, 1783], source: risso-1986 }
+  peak: { name: Sa'id bin Sultan, reign: [1806, 1856], source: sheriff-1987 }
+  # `last` in the sense this span uses: the ruler at whose death the empire was
+  # divided. The dynasty continued in both halves and continues in one.
+  last: { name: Sa'id bin Sultan, reign: [1806, 1856], source: sheriff-1987 }
+
+scripts_and_languages:
+  administration: [Arabic]
+  writing_system: Arabic
+
+# Not an ending in the usual sense. The empire was partitioned by an arbitration
+# the two claimant brothers accepted, with Zanzibar to one and Muscat to the
+# other and a subsidy paid from the richer half to the poorer. `by` is empty
+# because nobody conquered anything.
+ended:
+  type: fragmentation
+  by: []
+  year: 1861
+  source: sheriff-1987
+
+institutions:
+  # Omani tribal contingents, and hired Baluchi infantry from Makran across the
+  # Gulf, who garrisoned the forts and the African stations for a century and a
+  # half. `mercenary` is coded in the vocabulary's exact sense — men hired for
+  # pay with no standing obligation either way — and it is what a dynasty
+  # governing at that distance from its own tribes needed.
+  military_basis: { values: [tribal-levy, mercenary], source: risso-1986 }
+  # Customs first: Muscat's, and then Zanzibar's, farmed out to Indian merchant
+  # houses who advanced the sultan money against the receipts and effectively
+  # financed the state. And plantation agriculture — the clove estates of
+  # Zanzibar and Pemba, worked by slaves, which the sultan and his family owned
+  # directly. Unranked.
+  revenue_basis: { values: [trade-toll, land-tax], source: sheriff-1987 }
+  # Null, and the transition is the reason. Ahmad bin Sa'id was elected imam by
+  # the scholars, exactly as on the two Omani records before this one, both of
+  # which carry `election` in this field. Within two generations his successors
+  # had dropped the title, called themselves sayyid and then sultan, and passed
+  # the office to sons. Nothing consulted describes a rule governing that, and
+  # the field cannot show an elective office becoming a hereditary one, which
+  # is the single most important thing that happened to this polity.
+  succession_rule: null
+  # Both, for the same reason: the dynasty was founded on an election by the
+  # scholars and ruled afterwards on descent from the man they elected. Coding
+  # rule 1 allows a second value for a real change, and this is one.
+  legitimation: { values: [election, descent], source: risso-1986 }
+
+turning_points:
+  - year: 1798
+    type: treaty
+    name: "The first English agreement"
+    changed: >-
+      Muscat signed an agreement with the East India Company excluding the
+      French and Dutch from its ports, at a moment when Bonaparte was in Egypt
+      and the Company was anxious about the route to India. It is the beginning
+      of a relationship that supplied the sultanate with a guarantor for a
+      century and then used the leverage to dismantle its economy.
+    source: risso-1986
+    contested: false
+  - year: 1840
+    type: capital-move
+    name: "The court moves to Zanzibar"
+    changed: >-
+      Sa'id bin Sultan settled his court permanently on an island off the East
+      African coast, two thousand miles from Oman. The centre of gravity of an
+      Arabian polity moved to Africa, its revenue became African, and the
+      Omani half of the empire was thereafter the poorer and more neglected
+      one — which is why the partition twenty-one years later divided it the
+      way it did.
+    source: sheriff-1987
+    contested: false
+  - year: 1845
+    type: treaty
+    name: "The Hamerton Treaty"
+    changed: >-
+      Under British pressure the sultan agreed to confine the slave trade to
+      his own African dominions, prohibiting export to Arabia and the Gulf. It
+      began the legal dismantling of the traffic the empire's commercial system
+      rested on, by the power whose protection the empire also rested on, and
+      the two facts were understood in Zanzibar to be the same fact.
+    source: sheriff-1987
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

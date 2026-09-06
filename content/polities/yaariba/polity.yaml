@@ -1,0 +1,105 @@
+id: yaariba
+region: arabia
+
+name:
+  latin: Ya'ariba Imamate
+  script: اليعاربة
+  script_lang: ar
+
+span:
+  start: { min: 1624, max: 1624, source: wilkinson-1987 }
+  end: { min: 1741, max: 1744, source: risso-1986 }
+
+identity: >-
+  The Ibadi imamate reconstituted a third time, which expelled the Portuguese
+  from Oman and then took their East African empire off them.
+
+capitals:
+  - { name: Rustaq, script: الرستاق, from: 1624, source: wilkinson-1987 }
+  - { name: Nizwa, script: نزوى, source: wilkinson-1987 }
+
+core_region: Oman, with the Swahili coast from Mombasa to Kilwa
+
+rulers:
+  founder: { name: Nasir bin Murshid, reign: [1624, 1649], source: wilkinson-1987 }
+  peak: { name: Sultan bin Saif, source: wilkinson-1987 }
+  last: { name: Sultan bin Murshid, source: risso-1986 }
+
+scripts_and_languages:
+  administration: [Arabic]
+  writing_system: Arabic
+
+# Not a conquest. The imamate destroyed itself in a disputed election, invited
+# a Persian army in, and was ended when a governor of Sohar expelled the
+# Persians and was elected imam in its place.
+ended:
+  type: internal usurpation
+  by: [al-busaid]
+  year: 1744
+  source: risso-1986
+
+institutions:
+  # Tribal contingents, exactly as on this site's earlier Omani record nine
+  # centuries before. The vocabulary excludes naval force by design — coding
+  # rule 5 says a fleet is a domain a state operates in and the men on it were
+  # raised one of the listed ways — and this is the page where that exclusion
+  # costs the most. The fourth chapter is about it.
+  military_basis: { values: [tribal-levy], source: wilkinson-1987 }
+  # The tithe on the date gardens of the interior, and the customs of Muscat
+  # and after 1698 of the Swahili ports. Unranked. The Indian Ocean raiding was
+  # substantial and is in the prose rather than the field: nothing consulted
+  # treats the proceeds as structural income, which is what coding rule 6
+  # requires before `plunder` is enterable.
+  revenue_basis: { values: [land-tax, trade-toll], source: risso-1986 }
+  # The same coding as the ninth-century Omani record, from the same source and
+  # for the same reason: the imam was elected by the scholars on merit and
+  # could be deposed by them. Two polities nine hundred years apart with
+  # identical institution fields is not duplication — it is the point the
+  # earlier page's closing chapter makes, that this is one office repeatedly
+  # reconstituted rather than a succession of states.
+  succession_rule: { values: [election], source: wilkinson-1987 }
+  legitimation: { values: [election], source: wilkinson-1987 }
+
+turning_points:
+  - year: 1650
+    type: siege
+    name: "The taking of Muscat"
+    changed: >-
+      The last Portuguese garrison in Oman was expelled from the fortified
+      harbour it had held for a hundred and forty-three years. It gave a
+      mountain imamate a deep-water port, the shipyards and prize hulls to
+      build a fleet out of, and the customs of the Gulf's best anchorage —
+      converting an inland polity into a naval power inside a generation.
+    source: risso-1986
+    contested: false
+  - year: 1698
+    type: siege
+    name: "Fort Jesus"
+    changed: >-
+      Mombasa fell after a siege of thirty-three months, and with it the
+      Portuguese position on the Swahili coast north of Mozambique. An Ibadi
+      imamate elected by scholars in a Nizwa mosque now held ports two thousand
+      miles away, and the Omani presence in East Africa that begins here runs
+      through the whole of the next record on this site.
+    source: risso-1986
+    contested: false
+  - year: 1719
+    type: succession-crisis
+    name: "The disputed election"
+    changed: >-
+      The scholars elected a minor, other scholars said the election was
+      invalid, and the argument split the country into the Hinawi and Ghafiri
+      factions that have organised Omani tribal politics ever since. Within
+      twenty years both sides had invited outside armies in, and the imamate
+      that had beaten two European empires was destroyed by a question about
+      its own procedure.
+    source: wilkinson-1987
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

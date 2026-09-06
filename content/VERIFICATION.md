@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**2156 claims across 121 sources.**
+**2196 claims across 123 sources.**
 
 ## Where to start
 
@@ -1187,6 +1187,46 @@ ordinary state, not an item to clear.
 - [ ] `polity/yuan` — last Toghon Temur r. 1333-1368
 - [ ] `polity/yuan` — descendant_scripts = 1 (Phags-pa script)
 
+## John C. Wilkinson, The Imamate Tradition of Oman
+*In Cambridge Middle East Library.*
+
+`wilkinson-1987` — 32 claims
+
+**Sole source** for `oman-imamate` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/oman-imamate/01-elected-and-removable.mdx` — prose: "Elected, and removable"
+- [ ] `chapter/oman-imamate/02-the-aflaj.mdx` — prose: "Water, and who owns it"
+- [ ] `chapter/oman-imamate/03-the-century.mdx` — prose: "The century it worked"
+- [ ] `chapter/oman-imamate/04-the-deposition.mdx` — prose: "The question an elective office has to answer"
+- [ ] `chapter/oman-imamate/05-an-office-that-comes-back.mdx` — prose: "An office that comes back"
+- [ ] `chapter/yaariba/01-the-office-again.mdx` — prose: "The office, again"
+- [ ] `chapter/yaariba/04-a-fleet-the-field-cannot-record.mdx` — prose: "A fleet the field cannot record"
+- [ ] `chapter/yaariba/05-1719.mdx` — prose: "A question about procedure"
+- [ ] `edge/oman-imamate->abbasid` — conquered by in 893
+- [ ] `polity/oman-imamate` — span starts 750
+- [ ] `polity/oman-imamate` — span ends 893
+- [ ] `polity/oman-imamate` — capital Nizwa from 750
+- [ ] `polity/oman-imamate` — founder al-Julanda ibn Mas'ud r. 749-751
+- [ ] `polity/oman-imamate` — peak al-Salt ibn Malik
+- [ ] `polity/oman-imamate` — last Azzan ibn Tamim
+- [ ] `polity/oman-imamate` — military basis coded tribal-levy
+- [ ] `polity/oman-imamate` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/oman-imamate` — succession rule coded election
+- [ ] `polity/oman-imamate` — legitimation coded election
+- [ ] `polity/oman-imamate` — turning point 751 The killing of al-Julanda
+- [ ] `polity/oman-imamate` — turning point 793 The imamate reconstituted
+- [ ] `polity/oman-imamate` — turning point 886 The deposition of al-Salt
+- [ ] `polity/oman-imamate` — ended by conquest in 893
+- [ ] `polity/yaariba` — span starts 1624
+- [ ] `polity/yaariba` — capital Rustaq from 1624
+- [ ] `polity/yaariba` — capital Nizwa
+- [ ] `polity/yaariba` — founder Nasir bin Murshid r. 1624-1649
+- [ ] `polity/yaariba` — peak Sultan bin Saif
+- [ ] `polity/yaariba` — military basis coded tribal-levy
+- [ ] `polity/yaariba` — succession rule coded election
+- [ ] `polity/yaariba` — legitimation coded election
+- [ ] `polity/yaariba` — turning point 1719 The disputed election
+
 ## C. E. Bosworth, The Political and Dynastic History of the Iranian World (A.D. 1000-1217)
 *In The Cambridge History of Iran, Volume 5.*
 
@@ -1651,34 +1691,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/ikhshidid` — turning point 969 The terms at Fustat
 - [ ] `polity/ikhshidid` — ended by conquest in 969
 
-## John C. Wilkinson, The Imamate Tradition of Oman
-*In Cambridge Middle East Library.*
-
-`wilkinson-1987` — 20 claims
-
-**Sole source** for `oman-imamate` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/oman-imamate/01-elected-and-removable.mdx` — prose: "Elected, and removable"
-- [ ] `chapter/oman-imamate/02-the-aflaj.mdx` — prose: "Water, and who owns it"
-- [ ] `chapter/oman-imamate/03-the-century.mdx` — prose: "The century it worked"
-- [ ] `chapter/oman-imamate/04-the-deposition.mdx` — prose: "The question an elective office has to answer"
-- [ ] `chapter/oman-imamate/05-an-office-that-comes-back.mdx` — prose: "An office that comes back"
-- [ ] `edge/oman-imamate->abbasid` — conquered by in 893
-- [ ] `polity/oman-imamate` — span starts 750
-- [ ] `polity/oman-imamate` — span ends 893
-- [ ] `polity/oman-imamate` — capital Nizwa from 750
-- [ ] `polity/oman-imamate` — founder al-Julanda ibn Mas'ud r. 749-751
-- [ ] `polity/oman-imamate` — peak al-Salt ibn Malik
-- [ ] `polity/oman-imamate` — last Azzan ibn Tamim
-- [ ] `polity/oman-imamate` — military basis coded tribal-levy
-- [ ] `polity/oman-imamate` — revenue basis coded land-tax + trade-toll
-- [ ] `polity/oman-imamate` — succession rule coded election
-- [ ] `polity/oman-imamate` — legitimation coded election
-- [ ] `polity/oman-imamate` — turning point 751 The killing of al-Julanda
-- [ ] `polity/oman-imamate` — turning point 793 The imamate reconstituted
-- [ ] `polity/oman-imamate` — turning point 886 The deposition of al-Salt
-- [ ] `polity/oman-imamate` — ended by conquest in 893
-
 ## Andrew M. Smith II, Roman Palmyra: Identity, Community, and State Formation
 
 `smith-2013` — 20 claims
@@ -1934,6 +1946,28 @@ ordinary state, not an item to clear.
 - [ ] `polity/midrarid` — turning point 909 The prisoner they let go
 - [ ] `polity/rustamid` — turning point 909 Tahert taken
 - [ ] `polity/rustamid` — ended by conquest in 909
+
+## Patricia Risso, Oman and Muscat: An Early Modern History
+
+`risso-1986` — 17 claims
+
+- [ ] `chapter/al-busaid/01-ahmad-bin-said.mdx` — prose: "The man who got the Persians out"
+- [ ] `chapter/al-busaid/02-from-imam-to-sultan.mdx` — prose: "An elective office becoming a family's"
+- [ ] `chapter/yaariba/02-the-portuguese.mdx` — prose: "Taking the coast"
+- [ ] `chapter/yaariba/03-mombasa.mdx` — prose: "Fort Jesus"
+- [ ] `edge/yaariba->al-busaid` — absorbed remnants of in 1744
+- [ ] `polity/al-busaid` — span starts 1744
+- [ ] `polity/al-busaid` — capital Muscat from 1749
+- [ ] `polity/al-busaid` — founder Ahmad bin Sa'id r. 1744-1783
+- [ ] `polity/al-busaid` — military basis coded tribal-levy + mercenary
+- [ ] `polity/al-busaid` — legitimation coded election + descent
+- [ ] `polity/al-busaid` — turning point 1798 The first English agreement
+- [ ] `polity/yaariba` — span ends 1741
+- [ ] `polity/yaariba` — last Sultan bin Murshid
+- [ ] `polity/yaariba` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/yaariba` — turning point 1650 The taking of Muscat
+- [ ] `polity/yaariba` — turning point 1698 Fort Jesus
+- [ ] `polity/yaariba` — ended by internal usurpation in 1744
 
 ## Suhayl Zakkar, The Emirate of Aleppo, 1004-1094
 
@@ -2369,6 +2403,23 @@ ordinary state, not an item to clear.
 - [ ] `polity/aksum` — descendant_scripts = 1 (Ge'ez vocalised syllabary)
 - [ ] `polity/aksum` — religions_carried = 1 (Miaphysite Christianity)
 - [ ] `polity/aksum` — ended by gradual absorption in 940
+
+## Abdul Sheriff, Slaves, Spices and Ivory in Zanzibar: Integration of an East African Commercial Empire into the World Economy, 1770-1873
+*In Eastern African Studies.*
+
+`sheriff-1987` — 11 claims
+
+- [ ] `chapter/al-busaid/03-zanzibar.mdx` — prose: "An Arabian sultan in Africa"
+- [ ] `chapter/al-busaid/04-what-it-ran-on.mdx` — prose: "What it ran on"
+- [ ] `chapter/al-busaid/05-1861.mdx` — prose: "The arbitration, and the office coming back"
+- [ ] `polity/al-busaid` — span ends 1856
+- [ ] `polity/al-busaid` — capital Zanzibar from 1840
+- [ ] `polity/al-busaid` — peak Sa'id bin Sultan r. 1806-1856
+- [ ] `polity/al-busaid` — last Sa'id bin Sultan r. 1806-1856
+- [ ] `polity/al-busaid` — revenue basis coded trade-toll + land-tax
+- [ ] `polity/al-busaid` — turning point 1840 The court moves to Zanzibar
+- [ ] `polity/al-busaid` — turning point 1845 The Hamerton Treaty
+- [ ] `polity/al-busaid` — ended by fragmentation in 1861
 
 ## Rosamond McKitterick, Charlemagne: The Formation of a European Identity
 

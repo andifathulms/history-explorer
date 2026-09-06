@@ -1157,6 +1157,17 @@ edges:
     source: daftary-2007
     contested: true
 
+  - from: yaariba
+    to: al-busaid
+    type: absorbed remnants of
+    year: 1744
+    note: "Ahmad bin Sa'id, the Ya'ariba governor of Sohar, held his town
+           through a siege, negotiated and fought the Persian occupation out of
+           Oman, and was elected imam by the scholars in place of the house that
+           had invited it in."
+    source: risso-1986
+    contested: false
+
   - from: ayyubid
     to: rasulid
     type: seceded from

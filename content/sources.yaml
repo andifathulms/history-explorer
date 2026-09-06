@@ -1270,6 +1270,34 @@ sources:
       needed on a polity that lasted nine and a half centuries and for which no
       single political narrative exists in English.
 
+  - id: risso-1986
+    kind: book
+    author: Patricia Risso
+    title: "Oman and Muscat: An Early Modern History"
+    publisher: Croom Helm
+    year: 1986
+    note: >-
+      On how an Arabian principality came to project political and commercial
+      power into both East Africa and India, and on the tribal politics and the
+      religious office underneath that. Cited for the two Omani records this
+      site added after its own Ibadi imamate page had listed the later
+      imamates by name to explain why it stopped in 893.
+
+  - id: sheriff-1987
+    kind: book
+    author: Abdul Sheriff
+    title: "Slaves, Spices and Ivory in Zanzibar: Integration of an East African Commercial Empire into the World Economy, 1770-1873"
+    container: Eastern African Studies
+    publisher: James Currey and Ohio University Press
+    year: 1987
+    note: >-
+      An economic history of the Zanzibar empire from the East African side
+      rather than the Arabian one, and the standard account of the two
+      transformations it turned on: slaves used to grow cloves for export
+      instead of being the export, and an ivory frontier pushed to the Great
+      Lakes. It is cited here so that the Omani empire's economy is described
+      by somebody writing about the people it was imposed on.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors
