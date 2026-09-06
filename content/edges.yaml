@@ -944,6 +944,27 @@ edges:
     source: holbl-2001
     contested: false
 
+  - from: hephthalite
+    to: gokturk
+    type: conquered by
+    year: 560
+    note: "The Göktürks destroyed the Rouran, moved west along the northern edge
+           of Hephthalite territory, and attacked in concert with a Sasanian
+           army coming from the south-west; Sogdiana and the country north of
+           the Oxus went to the Türks."
+    source: litvinsky-1996
+    contested: false
+
+  - from: hephthalite
+    to: sasanian
+    type: conquered by
+    year: 560
+    note: "Khusrau I allied with the Göktürk khaganate against the confederation
+           his father had been restored by and his grandfather had been killed
+           by; Tokharistan and the country south of the Oxus went to Ctesiphon."
+    source: litvinsky-1996
+    contested: false
+
   - from: seleucid
     to: greco-bactria
     type: seceded from

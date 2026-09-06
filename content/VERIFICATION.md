@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**2698 claims across 142 sources.**
+**2714 claims across 143 sources.**
 
 ## Where to start
 
@@ -2669,6 +2669,29 @@ ordinary state, not an item to clear.
 - [ ] `polity/hotaki` — military basis coded tribal-levy
 - [ ] `polity/hotaki` — legitimation coded conquest
 - [ ] `polity/hotaki` — turning point 1709 The killing of Gurgin Khan
+
+## B. A. Litvinsky, Zhang Guang-da and R. Shabani Samghabadi (eds), History of Civilizations of Central Asia, Volume III: The Crossroads of Civilizations, A.D. 250 to 750
+
+`litvinsky-1996` — 16 claims
+
+**Sole source** for `hephthalite` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/hephthalite/01-who-they-were.mdx` — prose: "A name in six languages"
+- [ ] `chapter/hephthalite/02-the-tribute.mdx` — prose: "What killing a king of kings was worth"
+- [ ] `chapter/hephthalite/03-india.mdx` — prose: "The other frontier"
+- [ ] `chapter/hephthalite/04-song-yun.mdx` — prose: "What a Chinese embassy saw"
+- [ ] `chapter/hephthalite/05-560.mdx` — prose: "Two empires at once"
+- [ ] `edge/hephthalite->gokturk` — conquered by in 560
+- [ ] `edge/hephthalite->sasanian` — conquered by in 560
+- [ ] `polity/hephthalite` — span starts 440
+- [ ] `polity/hephthalite` — span ends 557
+- [ ] `polity/hephthalite` — peak Akhshunwar
+- [ ] `polity/hephthalite` — military basis coded tribal-levy
+- [ ] `polity/hephthalite` — revenue basis coded tribute + trade-toll
+- [ ] `polity/hephthalite` — legitimation coded conquest
+- [ ] `polity/hephthalite` — turning point 484 The death of Peroz
+- [ ] `polity/hephthalite` — turning point 498 Kavad restored
+- [ ] `polity/hephthalite` — ended by conquest in 560
 
 ## John O. Hunwick, Timbuktu and the Songhay Empire
 

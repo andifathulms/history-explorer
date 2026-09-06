@@ -1,0 +1,101 @@
+id: hephthalite
+region: pre-islamic-iran
+
+name:
+  latin: Hephthalite Confederation
+  # Bactrian, written in the Greek alphabet, which is the Greco-Bactrian legacy
+  # this corpus's neighbouring record describes outliving its authors. What they
+  # called themselves is disputed; the coins give a form read as Ebodalo.
+  script: ηβοδαλο
+  script_lang: xbc
+
+# Both ends are ranges. The confederation appears in the sources in the middle
+# of the fifth century and its destruction was a campaign of several years by a
+# Turkic-Sasanian alliance around 557-561, after which its territory was
+# partitioned rather than annexed by one power.
+span:
+  start: { min: 440, max: 460, source: litvinsky-1996 }
+  end: { min: 557, max: 561, source: litvinsky-1996 }
+
+identity: >-
+  The steppe confederation that held Bactria and eastern Iran for a century,
+  killed a Sasanian king of kings, took tribute from his successors, broke the
+  Gupta empire, and left almost no writing of its own.
+
+# No capital in any sense this field means. A Chinese embassy that visited in the
+# 520s reported a king who moved with felt tents and had no walled city, and the
+# works consulted do not identify a seat this site would print.
+capitals: []
+
+core_region: Bactria and Tokharistan, with Sogdiana, eastern Iran and Gandhara
+
+rulers:
+  # The king-list is reconstructed from coins, Chinese notices and Sasanian and
+  # Byzantine mentions, and the names do not reliably line up between them. This
+  # site does not print a sequence it cannot support.
+  founder: { name: null, source: null }
+  peak: { name: Akhshunwar, source: litvinsky-1996 }
+  last: { name: null, source: null }
+
+scripts_and_languages:
+  administration: [Bactrian, Middle Persian]
+  writing_system: The Greek alphabet, used to write Bactrian
+
+# Destroyed by two powers acting together, which is why `by` names both. Khusrau
+# I allied with the Göktürk khaganate; the Türks came from the north and the
+# Sasanians from the south-west, and the survivors' territory was partitioned
+# at the Oxus.
+ended:
+  type: conquest
+  by: [gokturk, sasanian]
+  year: 560
+  source: litvinsky-1996
+
+institutions:
+  military_basis: { values: [tribal-levy], source: litvinsky-1996 }
+  # `tribute` in the vocabulary's exact sense — revenue received from another
+  # polity — and the other polity was the Sasanian empire, which paid for
+  # roughly a generation after 484. Beside it the tolls of the routes through
+  # Sogdiana and Bactria, which carried the traffic between China, India and
+  # Iran and which the confederation sat across. Unranked.
+  revenue_basis: { values: [tribute, trade-toll], source: litvinsky-1996 }
+  succession_rule: null
+  # `conquest`, and the field cannot say the interesting part. Hephthalite
+  # coinage is overstruck Sasanian drachms — the defeated empire's silver, with
+  # its fire altar left in place and a new portrait and a tamgha added. A
+  # conqueror who reissues his victim's money with his own head on it is making
+  # a claim, and no value in this vocabulary is for that.
+  legitimation: { values: [conquest], source: litvinsky-1996 }
+
+turning_points:
+  - year: 484
+    type: battle
+    name: "The death of Peroz"
+    changed: >-
+      A Sasanian king of kings was killed with his army in the field, and his
+      successors paid the confederation tribute for roughly a generation. This
+      site's Sasanian record carries the same event as the worst defeat in its
+      history; here it is the making of a polity — a steppe confederation
+      acquired a fixed income from the richest state in the region and the
+      standing to be the arbiter of its politics.
+    source: litvinsky-1996
+    contested: false
+  - year: 498
+    type: treaty
+    name: "Kavad restored"
+    changed: >-
+      The Sasanian king Kavad, deposed by his own nobles, escaped to the
+      Hephthalites, married into them, and was put back on his throne by their
+      troops. A confederation with no cities and no bureaucracy was now
+      deciding who ruled Ctesiphon, which is as far as its position ever
+      reached and is the measure of what the tribute of 484 had bought.
+    source: litvinsky-1996
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
