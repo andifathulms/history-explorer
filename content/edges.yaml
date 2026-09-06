@@ -842,6 +842,39 @@ edges:
     source: hunwick-1999
     contested: false
 
+  # ---- The Ancient Near East ----
+
+  # The one internal edge this region has ever had that stayed in it. The
+  # `neo-assyrian -> median` edge below is the same coalition and the same
+  # siege, and it left the region when Media moved to Iran before Islam. Both
+  # are drawn, and both are true: two powers took Nineveh together, and this
+  # site now carries a record for each of them.
+  - from: neo-assyrian
+    to: neo-babylonian
+    type: overthrew
+    year: -612
+    note: >-
+      Nabopolassar had been fighting Assyria for Babylonia alone since 626; the
+      alliance with Cyaxares took Ashur in 614 and Nineveh in 612, and Babylon
+      inherited every Assyrian province west of the Euphrates.
+    source: beaulieu-2018
+    contested: false
+
+  # Crosses out of the region, so no thread draws it. The Hittite record that
+  # enters alongside this one has no edge at all: it neither succeeds nor is
+  # succeeded by anything in this corpus, and hard rule 7 is the reason that is
+  # a finished state rather than a missing one.
+  - from: neo-babylonian
+    to: achaemenid
+    type: conquered by
+    year: -539
+    note: >-
+      Cyrus beat the Babylonian army at Opis and entered the city days later.
+      The administration, the scribes and the tablet formulae continued
+      unchanged under a Persian regnal date.
+    source: beaulieu-2018
+    contested: false
+
   # ---- Iran before Islam ----
 
   - from: neo-assyrian

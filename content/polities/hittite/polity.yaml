@@ -1,0 +1,177 @@
+id: hittite
+region: ancient-near-east
+
+name:
+  latin: Hittite Empire
+  script: 𒆳𒄩𒀜𒋾
+  script_lang: hit
+
+# Both dates follow Bryce's middle chronology and neither is secure. Bronze Age
+# Anatolian dates hang off a chain of synchronisms with Assyrian and Egyptian
+# king lists, and the competing high and low chronologies move the whole record
+# by up to a century in either direction. A `{ min, max }` would be the honest
+# shape if the disagreement were between two published figures for this polity;
+# it is instead a disagreement about the frame every figure sits in, which this
+# schema has no field for. The dates are Bryce's and the second chapter says so.
+span:
+  start: { min: -1650, max: -1650, source: bryce-2005 }
+  end: { min: -1180, max: -1180, source: bryce-2005 }
+
+identity: >-
+  The Bronze Age great power of Anatolia, and the only one of them whose
+  foreign-office archive was excavated.
+
+capitals:
+  - { name: Hattusa, script: 𒄩𒀜𒌅𒊭, from: -1650, source: bryce-2005 }
+  - { name: Tarhuntassa, from: -1290, source: bryce-2005 }
+  - { name: Hattusa, script: 𒄩𒀜𒌅𒊭, from: -1272, source: bryce-2005 }
+
+core_region: Central Anatolia and northern Syria
+
+rulers:
+  founder: { name: Hattusili I, reign: [-1650, -1620], source: bryce-2005 }
+  peak: { name: Suppiluliuma I, reign: [-1350, -1322], source: bryce-2005 }
+  last: { name: Suppiluliuma II, reign: [-1207, -1180], source: bryce-2005 }
+
+scripts_and_languages:
+  administration: [Hittite, Akkadian]
+  writing_system: Cuneiform
+
+# `fragmentation`, and it is the hardest ending in the region to code. Hattusa
+# was burned and abandoned around 1180 and the central state never reappeared,
+# but no source names a conqueror: there is no victory inscription, no chronicle
+# entry, and no successor claiming to have done it. What continued were the
+# Syrian branch kingdoms, Carchemish above all, which kept the royal line, the
+# script and the title. `still contested` would describe the scholarship rather
+# than the event, and `by` is empty because the field wants polities and the
+# honest answer is that nobody knows.
+ended:
+  type: fragmentation
+  by: []
+  year: -1180
+  source: bryce-2005
+
+institutions:
+  # Land held in return for military service, and a network of vassal kingdoms
+  # in Syria and western Anatolia obliged by sworn treaty to send troops. The
+  # treaties are the unusual part: this corpus codes client levies from
+  # chroniclers everywhere else, and here the obligation survives in the
+  # chancery's own words, with the number of men and the conditions of the call
+  # written into a document Beckman translates.
+  military_basis: { values: [land-grant, client-levy], source: bryce-2002 }
+  # The sahhan and luzzi obligations on land — dues in produce and labour — and
+  # the tribute of the vassals. `plunder` is not coded, and it is a close call
+  # that coding rule 6 decides: the campaigns brought home deportees in tens of
+  # thousands and Bryce treats their resettlement on royal land as the point of
+  # the campaigning. But that is the campaign feeding the land, which is already
+  # the first value, rather than campaign proceeds standing as income beside it.
+  revenue_basis: { values: [land-tax, tribute], source: bryce-2002 }
+  # Designation by the reigning king from a defined class of sons — and this is
+  # the earliest polity in the corpus where the rule is written down rather than
+  # inferred. Telipinu's Edict, around 1500, sets out the order of eligibility
+  # in so many words: a prince of the first rank, failing that one of the second
+  # rank, failing that the husband of a first-rank daughter. It was written
+  # after a century in which nearly every succession was settled by murder, and
+  # it is the reason this field is coded from a law rather than from a pattern.
+  succession_rule: { values: [nomination], source: bryce-2002 }
+  # The king is the Storm God's priest and steward before he is anything else,
+  # and at death he "becomes a god"; the second value is the Telipinu line,
+  # which the edict makes the boundary of who may be considered at all.
+  legitimation: { values: [divine-sanction, descent], source: bryce-2002 }
+
+turning_points:
+  - year: -1595
+    type: siege
+    name: The raid on Babylon
+    changed: >-
+      Mursili I marched eight hundred kilometres down the Euphrates, took the
+      city, ended the dynasty of Hammurabi and went home. He held nothing, and
+      the Kassites moved into the vacuum he made. It is the largest thing any
+      Hittite king did and it is also nothing: he was murdered on his return by
+      his brother-in-law, which opened the century of dynastic killing that
+      Telipinu's Edict was written to close.
+    source: bryce-2005
+    contested: false
+  - year: -1500
+    type: reform
+    name: Telipinu's Edict
+    changed: >-
+      A king who had himself come to the throne by coup published a document
+      that recited the murders of the preceding century in order and then fixed
+      who could inherit, forbade the killing of princes, and gave the panku —
+      the assembly of the great — the standing to try a king who broke it. The
+      succession stopped being decided by whoever reached the palace first. It
+      is the earliest written succession law on this site by roughly eight
+      hundred years.
+    source: bryce-2005
+    contested: false
+  - year: -1340
+    type: battle
+    name: The Syrian campaigns
+    changed: >-
+      Suppiluliuma I destroyed Mitanni as a great power in two campaigns, put a
+      son on the throne at Carchemish and another at Aleppo, and made northern
+      Syria a Hittite province for a century and a half. This corpus's Mitanni
+      record is largely reconstructed from the treaty that ended it. Hatti
+      stopped being an Anatolian kingdom with Syrian ambitions and became one of
+      the two powers in the Near East.
+    source: bryce-2005
+    contested: false
+  - year: -1274
+    type: battle
+    name: Kadesh
+    changed: >-
+      Muwatalli II held Kadesh against Ramesses II, which is the outcome that
+      matters and is not the outcome the Egyptian temple walls describe. This
+      site's Egyptian record carries the same battle from the other side, and
+      the pair is the only place in the corpus where a single engagement is
+      documented at length by both parties. Nothing moved: the frontier stayed
+      where it had been.
+    source: bryce-2005
+    contested: false
+  - year: -1259
+    type: treaty
+    name: The treaty with Egypt
+    changed: >-
+      Hattusili III, who had taken the throne from his nephew and needed
+      recognising, signed a mutual defence pact with Ramesses II and married a
+      daughter to him thirteen years later. It converted the southern frontier
+      from a war into a correspondence for the rest of both states' lives, and
+      it freed Hatti to face Assyria, which by then was the real threat. Both
+      texts survive, in Egyptian on a temple wall and in Akkadian on a tablet
+      from the palace archive.
+    source: beckman-1999
+    contested: false
+
+measures:
+  # Taagepera's tabulation gives the peak across 1250-1220; this record stores
+  # the earlier bound as the dated point rather than splitting the difference,
+  # which hard rule 2 would not allow. It is worth reading beside the Egyptian
+  # figure of 1,000,000 at 1450: Hatti fought Egypt to a standstill over Syria
+  # at under half its extent. The third Late Bronze Age record in this region,
+  # Mitanni, has no cited figure at all.
+  reach_km2: { value: 450000, at: -1250, source: taagepera-1978b }
+  peak_population: null
+  influence:
+    # Zero, and the interesting derivation runs the other way. Hittite cuneiform
+    # is Old Babylonian cuneiform adapted to write an Indo-European language,
+    # which is exactly what rule 3 counts — but it is a claim on the record of
+    # the polity whose script was adapted, and that polity has no page here. The
+    # Anatolian hieroglyphs used on Hittite seals and monuments are not derived
+    # from cuneiform and no source derives them from this state's writing.
+    descendant_scripts: { count: 0, items: [], source: bryce-2002 }
+    # Zero, and the direction of the traffic is the reason. Hatti absorbed cults
+    # relentlessly — the thousand gods of Hatti were mostly other people's, and
+    # a conquered town's deities were carried back to the capital as a matter of
+    # policy. Rule 2 counts propagation outward, and there is none to count.
+    religions_carried: { count: 0, items: [], source: bryce-2002 }
+    # The kings of Carchemish, descended from Suppiluliuma's son and ruling
+    # after Hattusa was gone, took the title Great King and went on calling
+    # their country Hatti; the Assyrians and the Hebrew Bible were still calling
+    # the whole of northern Syria by that name four centuries later. Titulature
+    # publicly asserted, which is rule 1's paradigm case. Counted once, as one
+    # claiming polity, though several Syro-Hittite courts shared the style.
+    successor_claims:
+      count: 1
+      items: [Carchemish]
+      source: bryce-2005

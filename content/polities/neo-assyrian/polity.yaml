@@ -28,9 +28,13 @@ scripts_and_languages:
   administration: [Akkadian, Aramaic]
   writing_system: Cuneiform
 
+# `by` named one coalition partner for as long as the other had no page. The
+# Neo-Babylonian record now exists and the field names both, in the order the
+# Babylonian Chronicle puts them in: Nabopolassar had been at war with Assyria
+# for fourteen years before the Medes arrived at Ashur in 614.
 ended:
   type: conquest
-  by: [median]
+  by: [neo-babylonian, median]
   year: -609
   source: van-de-mieroop-2015
 
@@ -109,13 +113,19 @@ turning_points:
       A Babylonian and Median coalition took the capital and the empire ended
       within three years, seventeen after its greatest extent. This site's
       Median record carries the same siege as the one event in its own history
-      attested by a contemporary document; here it is the fastest collapse of a
-      great power anywhere in the corpus, and no single cause explains it.
+      attested by a contemporary document, and the Neo-Babylonian record carries
+      it as the first turning point of the empire that replaced this one. Here it
+      is the most complete collapse of a great power anywhere in the corpus — not
+      the quickest, which was Babylon's own in 539, but the only one after which
+      the cities were not reoccupied — and no single cause explains it.
     source: van-de-mieroop-2015
     contested: false
 
 measures:
-  reach_km2: { value: 1400000, at: -670, source: taagepera-1979 }
+  # Citation corrected from taagepera-1979, which by its own title covers
+  # 600 BC to 600 AD and cannot hold a figure dated 670 BC. See the same note on
+  # the Egyptian record. The figure is unchanged.
+  reach_km2: { value: 1400000, at: -670, source: taagepera-1978b }
   peak_population: null
   influence:
     descendant_scripts: { count: null, items: [], source: null }

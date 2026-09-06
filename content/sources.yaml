@@ -1645,6 +1645,89 @@ sources:
       Egyptian record are coded from, because a political narrative cannot
       supply them.
 
+  - id: beaulieu-2018
+    kind: book
+    author: Paul-Alain Beaulieu
+    title: "A History of Babylon, 2200 BC - AD 75"
+    container: Blackwell History of the Ancient World
+    publisher: Wiley-Blackwell
+    year: 2018
+    note: >-
+      The narrative spine of this site's Neo-Babylonian record. Beaulieu is a
+      professor of Assyriology at Toronto and the standard modern authority on
+      the period's last king; the book's virtue for this corpus is that it
+      treats Babylon as one continuous object across seventeen centuries, which
+      is what makes it possible to say precisely which Babylon this page is.
+
+  - id: beaulieu-1989
+    kind: book
+    author: Paul-Alain Beaulieu
+    title: "The Reign of Nabonidus, King of Babylon 556-539 B.C."
+    container: Yale Near Eastern Researches 10
+    publisher: Yale University Press
+    year: 1989
+    note: >-
+      The monograph on the ten years the king spent at Tayma. Cited here for the
+      dates of the departure and return and for the argument that the quarrel
+      was political and economic before it was religious, against the older
+      reading that made Nabonidus a heretic.
+
+  - id: jursa-2010
+    kind: book
+    author: Michael Jursa
+    title: >-
+      Aspects of the Economic History of Babylonia in the First Millennium BC:
+      Economic Geography, Economic Mentalities, Agriculture, the Use of Money
+      and the Problem of Economic Growth
+    container: Alter Orient und Altes Testament 377
+    publisher: Ugarit-Verlag
+    year: 2010
+    note: >-
+      Built on more than 21,500 dated tablets from Babylon, Borsippa, Nippur,
+      Sippar and Uruk. This site's Neo-Babylonian revenue and military bases are
+      coded from it rather than from a political narrative, because it is the
+      only work in this corpus's bibliography that can say what a state's income
+      actually consisted of from primary accounts rather than from a chronicler.
+
+  - id: bryce-2005
+    kind: book
+    author: Trevor Bryce
+    title: The Kingdom of the Hittites
+    publisher: Oxford University Press
+    edition: new
+    year: 2005
+    note: >-
+      The narrative history of Bronze Age Anatolia in English, revised from the
+      1998 first edition. Dates on this site's Hittite record follow Bryce's
+      middle chronology; the absolute dates are not secure and the page says so.
+
+  - id: bryce-2002
+    kind: book
+    author: Trevor Bryce
+    title: Life and Society in the Hittite World
+    publisher: Oxford University Press
+    year: 2002
+    note: >-
+      The companion volume to bryce-2005, on how the state and the household
+      worked rather than on what the kings did. This site's Hittite institutions
+      are coded from it, for the same reason kemp-2018 rather than a campaign
+      narrative supplies the Egyptian ones.
+
+  - id: beckman-1999
+    kind: book
+    author: Gary Beckman
+    title: Hittite Diplomatic Texts
+    container: Writings from the Ancient World 7
+    publisher: Scholars Press
+    edition: 2nd
+    year: 1999
+    note: >-
+      Translations of twenty-one treaties, eighteen diplomatic letters and
+      eighteen edicts from the Hittite chancery, including the Shattiwaza treaty
+      this corpus's Mitanni record is largely reconstructed from and the Hittite
+      text of the 1259 treaty with Egypt. A source of documents rather than of
+      argument, and cited where a page quotes or dates one.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors

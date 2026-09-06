@@ -113,7 +113,12 @@ turning_points:
     contested: false
 
 measures:
-  reach_km2: { value: 1000000, at: -1450, source: taagepera-1979 }
+  # Citation corrected from taagepera-1979 while the Hittite and Babylonian
+  # figures were being entered from the same tables. taagepera-1979 covers
+  # 600 BC to 600 AD by its own title and cannot contain a figure dated 1450 BC;
+  # the tabulation that runs from 3000 BC is taagepera-1978b, which is what the
+  # Akkadian record on this site already cited. The figure is unchanged.
+  reach_km2: { value: 1000000, at: -1450, source: taagepera-1978b }
   peak_population: null
   influence:
     descendant_scripts: { count: null, items: [], source: null }

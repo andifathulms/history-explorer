@@ -1,0 +1,164 @@
+id: neo-babylonian
+region: ancient-near-east
+
+name:
+  latin: Neo-Babylonian Empire
+  script: 𒆍𒀭𒊏𒆠
+  script_lang: akk
+
+# Both ends are fixed by contemporary dated documents rather than reconstructed,
+# which is unusual this early: Nabopolassar's accession year and the fall of the
+# city are both in the Babylonian Chronicle series, and the Babylonian business
+# archives are dated by regnal year continuously across the whole span.
+span:
+  start: { min: -626, max: -626, source: beaulieu-2018 }
+  end: { min: -539, max: -539, source: beaulieu-2018 }
+
+identity: >-
+  The last empire ruled from Mesopotamia by Mesopotamians, and the most
+  thoroughly documented state in the ancient world before Rome.
+
+capitals:
+  - { name: Babylon, script: 𒆍𒀭𒊏𒆠, from: -626, source: beaulieu-2018 }
+
+core_region: Babylonia and the Levant
+
+rulers:
+  founder: { name: Nabopolassar, reign: [-626, -605], source: beaulieu-2018 }
+  peak: { name: Nebuchadnezzar II, reign: [-605, -562], source: beaulieu-2018 }
+  last: { name: Nabonidus, reign: [-556, -539], source: beaulieu-2018 }
+
+scripts_and_languages:
+  administration: [Akkadian, Aramaic]
+  writing_system: Cuneiform
+
+ended:
+  type: conquest
+  by: [achaemenid]
+  year: -539
+  source: beaulieu-2018
+
+institutions:
+  # Land held from the crown or a temple in return for producing an equipped
+  # man — the bow-land, horse-land and chariot-land of the Babylonian estates,
+  # each parcel named for the equipment it owed. Jursa can trace individual
+  # parcels through the archives, which is why this field is coded from him and
+  # not from a narrative. Alongside it, foreign professionals under contract:
+  # the brother of the poet Alcaeus of Mytilene served in Nebuchadnezzar's army
+  # and Alcaeus wrote a poem about it, which is a stray Greek fact that happens
+  # to corroborate the Babylonian tablets.
+  military_basis: { values: [land-grant, mercenary], source: jursa-2010 }
+  # The temple and crown estates of Babylonia, taxed in kind and increasingly in
+  # silver, and the tribute of the Levant. `plunder` is deliberately absent, and
+  # the contrast with the Assyrian record directly above it in this region is
+  # the point: Assyria campaigned every year and booked the proceeds, and this
+  # state campaigned rarely after 585 and lived off a river valley. Coding rule
+  # 6 wants a source that treats campaign proceeds as structural income, and
+  # Jursa's accounts do not.
+  revenue_basis: { values: [land-tax, tribute], source: jursa-2010 }
+  # Coding rule 7 is doing more work here than anywhere else in the corpus.
+  # The rule was designation: the king named a son as mar sarri, the crown
+  # prince, who held an establishment and appeared in the accounts. The outcome
+  # was that of the five transitions in eighty-seven years, three were violent
+  # coups by men who were not the designated heir, and the last of them put a
+  # man on the throne with no connection to the dynasty at all. The rule is
+  # coded, not the outcome, and the two are as far apart here as they get.
+  succession_rule: { values: [nomination], source: beaulieu-2018 }
+  # Marduk chooses the king, and the choosing is annual and public: at the
+  # akitu festival each spring the king took the hands of Bel, and a year in
+  # which he did not was recorded as a year in which the festival did not
+  # happen. Nabopolassar, who called himself the son of a nobody, had nothing
+  # else; there is no descent claim to code beside this one.
+  legitimation: { values: [divine-sanction], source: beaulieu-2018 }
+
+turning_points:
+  - year: -612
+    type: siege
+    name: Nineveh
+    changed: >-
+      The same siege the Assyrian record on this site carries as the end of its
+      empire, entered here as the beginning of one. Nabopolassar had spent
+      fourteen years fighting for Babylonia alone; the alliance with Cyaxares
+      turned a provincial revolt into the succession to the Assyrian empire, and
+      within seven years Babylon held everything Assyria had held west of the
+      Euphrates. Three records on this site carry the fall of Nineveh — this
+      one, the Assyrian, and the Median — and -612 is the earliest year in the
+      corpus that appears on three.
+    source: beaulieu-2018
+    contested: false
+  - year: -605
+    type: battle
+    name: Carchemish
+    changed: >-
+      The crown prince Nebuchadnezzar destroyed the Egyptian army on the
+      Euphrates and took the Levant in a single season, which settled who had
+      inherited Assyria's western provinces. He learned of his father's death on
+      campaign, rode to Babylon across the desert and was king within three
+      weeks. Egypt did not hold territory in Asia again.
+    source: beaulieu-2018
+    contested: false
+  - year: -587
+    type: siege
+    name: Jerusalem
+    changed: >-
+      The city was taken after a second revolt, the temple burned and the ruling
+      class deported to Babylonia. Administratively it is one small kingdom
+      removed among several; the reason it is a turning point is that the
+      deportees wrote, and what they wrote became the frame through which the
+      whole of this empire reached the modern world. This record's political
+      history is Mesopotamian and its reputation is Judaean.
+    source: beaulieu-2018
+    contested: false
+  - year: -553
+    type: capital-move
+    name: Tayma
+    changed: >-
+      Nabonidus left Babylon for an oasis in northern Arabia and governed from
+      there for roughly ten years, leaving his son Belshazzar in Babylonia with
+      the army. The akitu festival lapsed for the duration, which the chronicle
+      records year by year as a thing that did not happen. Coded as a capital
+      move because that is its effect — the court and the king were elsewhere —
+      though no source calls Tayma a capital and the page argues the case.
+    source: beaulieu-1989
+    contested: true
+  - year: -539
+    type: battle
+    name: Opis
+    changed: >-
+      Cyrus beat the Babylonian army on the Tigris, and Babylon was entered
+      without a fight some days later. The empire ended in about three weeks,
+      and nothing else did: the same scribes went on writing the same contracts
+      in the same script, dated now by a Persian regnal year. It is the cleanest
+      example in the corpus of a state ending without a society ending.
+    source: beaulieu-2018
+    contested: false
+
+measures:
+  # Taagepera's tabulation, at Nebuchadnezzar's death. Worth reading beside the
+  # Assyrian figure of 1,400,000 immediately above it in this region: the
+  # successor empire held roughly a third of what it succeeded, and was richer.
+  reach_km2: { value: 500000, at: -562, source: taagepera-1978b }
+  peak_population: null
+  influence:
+    # Zero, and specific. Aramaic was the working language of this empire and
+    # its alphabet spread across the Near East under it, but that script is
+    # descended from Phoenician and no source attributes its adaptation to this
+    # state. What this record wrote in was cuneiform, and cuneiform produced no
+    # descendant here — it was five hundred years from the end of its use.
+    descendant_scripts: { count: 0, items: [], source: beaulieu-2018 }
+    # Zero under coding rule 2, which asks about propagation. The most
+    # consequential religious event connected to this empire is the Judaean
+    # exile, and the exile is something done to a tradition, not by this state
+    # to spread its own. Marduk was not carried anywhere.
+    religions_carried: { count: 0, items: [], source: beaulieu-2018 }
+    # Cyrus took the Babylonian royal titles on the cylinder deposited in the
+    # city's wall — king of Babylon, king of Sumer and Akkad — and Antiochus I
+    # rebuilt Ezida at Borsippa and recorded it in Akkadian in the old royal
+    # form. Both are titulature and public, which is what rule 1 counts. The
+    # Achaemenid claim also has an edge; the Seleucid one has none, because no
+    # conquest joins them, and rule 1 says the count and the edges are not
+    # derived from each other.
+    successor_claims:
+      count: 2
+      items: [Achaemenid Empire, Seleucid Empire]
+      source: beaulieu-2018

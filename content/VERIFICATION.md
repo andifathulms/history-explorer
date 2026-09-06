@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**2819 claims across 148 sources.**
+**2877 claims across 154 sources.**
 
 ## Where to start
 
@@ -43,7 +43,7 @@ ordinary state, not an item to clear.
 - [ ] `carolingian` — one figure, at 800 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
 - [ ] `chagatai` — one figure, at 1310 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
 - [ ] `delhi-sultanate` — one figure, at 1312 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
-- [ ] `egypt-new-kingdom` — one figure, at -1450 (Rein Taagepera, Size and Duration of Empires: Growth-Decline Curves, 600 B.C. to 600 A.D.)
+- [ ] `egypt-new-kingdom` — one figure, at -1450 (Rein Taagepera, Size and Duration of Empires: Systematics of Size)
 - [ ] `fatimid` — one figure, at 969 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
 - [ ] `ghaznavid` — one figure, at 1029 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
 - [ ] `gokturk` — one figure, at 557 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
@@ -51,6 +51,7 @@ ordinary state, not an item to clear.
 - [ ] `great-seljuk` — one figure, at 1080 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
 - [ ] `gupta` — one figure, at 400 (Rein Taagepera, Size and Duration of Empires: Growth-Decline Curves, 600 B.C. to 600 A.D.)
 - [ ] `han` — one figure, at 100 (Rein Taagepera, Size and Duration of Empires: Growth-Decline Curves, 600 B.C. to 600 A.D.)
+- [ ] `hittite` — one figure, at -1250 (Rein Taagepera, Size and Duration of Empires: Systematics of Size)
 - [ ] `ilkhanate` — one figure, at 1310 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
 - [ ] `jin` — one figure, at 1150 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
 - [ ] `khazar` — one figure, at 850 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
@@ -62,7 +63,8 @@ ordinary state, not an item to clear.
 - [ ] `ming` — one figure, at 1450 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
 - [ ] `mongol` — one figure, at 1270 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
 - [ ] `mughal` — one figure, at 1690 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
-- [ ] `neo-assyrian` — one figure, at -670 (Rein Taagepera, Size and Duration of Empires: Growth-Decline Curves, 600 B.C. to 600 A.D.)
+- [ ] `neo-assyrian` — one figure, at -670 (Rein Taagepera, Size and Duration of Empires: Systematics of Size)
+- [ ] `neo-babylonian` — one figure, at -562 (Rein Taagepera, Size and Duration of Empires: Systematics of Size)
 - [ ] `ottoman` — one figure, at 1683 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
 - [ ] `parthian` — one figure, at 1 (Rein Taagepera, Size and Duration of Empires: Growth-Decline Curves, 600 B.C. to 600 A.D.)
 - [ ] `rashidun` — one figure, at 655 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
@@ -1742,40 +1744,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/sasanian` — turning point 626 Constantinople
 - [ ] `polity/sasanian` — religions_carried = 1 (Zoroastrianism)
 
-## Rein Taagepera, Size and Duration of Empires: Growth-Decline Curves, 600 B.C. to 600 A.D.
-*In Social Science History 3(3/4), 115-138.*
-
-`taagepera-1979` — 28 claims
-
-- [ ] `polity/achaemenid` — reach 5,500,000 km2 at -500
-- [ ] `polity/egypt-new-kingdom` — reach 1,000,000 km2 at -1450
-- [ ] `polity/gupta` — reach 3,500,000 km2 at 400
-- [ ] `polity/han` — reach 6,500,000 km2 at 100
-- [ ] `polity/kushan` — reach 2,000,000 km2 at 200
-- [ ] `polity/macedonian` — reach 5,200,000 km2 at -323
-- [ ] `polity/maurya` — reach 3,400,000 km2 at -250
-- [ ] `polity/median` — reach 2,800,000 km2 at -585
-- [ ] `polity/neo-assyrian` — reach 1,400,000 km2 at -670
-- [ ] `polity/parthian` — reach 2,800,000 km2 at 1
-- [ ] `polity/roman` — reach 5,000,000 km2 at 117
-- [ ] `polity/sasanian` — reach 3,500,000 km2 at 550
-- [ ] `polity/seleucid` — reach 3,900,000 km2 at -301
-- [ ] `polity/xiongnu` — reach 9,000,000 km2 at -176
-- [ ] `reference/achaemenid` — reach 5,500,000 km2 at -500
-- [ ] `reference/egypt-new-kingdom` — reach 1,000,000 km2 at -1450
-- [ ] `reference/gupta` — reach 3,500,000 km2 at 400
-- [ ] `reference/han` — reach 6,500,000 km2 at 100
-- [ ] `reference/kushan` — reach 2,000,000 km2 at 200
-- [ ] `reference/macedonian` — reach 5,200,000 km2 at -323
-- [ ] `reference/maurya` — reach 3,400,000 km2 at -250
-- [ ] `reference/median` — reach 2,800,000 km2 at -585
-- [ ] `reference/neo-assyrian` — reach 1,400,000 km2 at -670
-- [ ] `reference/parthian` — reach 2,800,000 km2 at 1
-- [ ] `reference/roman` — reach 5,000,000 km2 at 117
-- [ ] `reference/sasanian` — reach 3,500,000 km2 at 550
-- [ ] `reference/seleucid` — reach 3,900,000 km2 at -301
-- [ ] `reference/xiongnu` — reach 9,000,000 km2 at -176
-
 ## Romila Thapar, Early India: From the Origins to AD 1300
 
 `thapar-2002` — 28 claims
@@ -1808,6 +1776,38 @@ ordinary state, not an item to clear.
 - [ ] `polity/maurya` — last Brihadratha r. -187--185
 - [ ] `polity/maurya` — religions_carried = 1 (Buddhism)
 - [ ] `polity/maurya` — ended by internal usurpation in -185
+
+## Rein Taagepera, Size and Duration of Empires: Growth-Decline Curves, 600 B.C. to 600 A.D.
+*In Social Science History 3(3/4), 115-138.*
+
+`taagepera-1979` — 26 claims
+
+- [ ] `polity/achaemenid` — reach 5,500,000 km2 at -500
+- [ ] `polity/gupta` — reach 3,500,000 km2 at 400
+- [ ] `polity/han` — reach 6,500,000 km2 at 100
+- [ ] `polity/kushan` — reach 2,000,000 km2 at 200
+- [ ] `polity/macedonian` — reach 5,200,000 km2 at -323
+- [ ] `polity/maurya` — reach 3,400,000 km2 at -250
+- [ ] `polity/median` — reach 2,800,000 km2 at -585
+- [ ] `polity/parthian` — reach 2,800,000 km2 at 1
+- [ ] `polity/roman` — reach 5,000,000 km2 at 117
+- [ ] `polity/sasanian` — reach 3,500,000 km2 at 550
+- [ ] `polity/seleucid` — reach 3,900,000 km2 at -301
+- [ ] `polity/xiongnu` — reach 9,000,000 km2 at -176
+- [ ] `reference/achaemenid` — reach 5,500,000 km2 at -500
+- [ ] `reference/egypt-new-kingdom` — reach 1,000,000 km2 at -1450
+- [ ] `reference/gupta` — reach 3,500,000 km2 at 400
+- [ ] `reference/han` — reach 6,500,000 km2 at 100
+- [ ] `reference/kushan` — reach 2,000,000 km2 at 200
+- [ ] `reference/macedonian` — reach 5,200,000 km2 at -323
+- [ ] `reference/maurya` — reach 3,400,000 km2 at -250
+- [ ] `reference/median` — reach 2,800,000 km2 at -585
+- [ ] `reference/neo-assyrian` — reach 1,400,000 km2 at -670
+- [ ] `reference/parthian` — reach 2,800,000 km2 at 1
+- [ ] `reference/roman` — reach 5,000,000 km2 at 117
+- [ ] `reference/sasanian` — reach 3,500,000 km2 at 550
+- [ ] `reference/seleucid` — reach 3,900,000 km2 at -301
+- [ ] `reference/xiongnu` — reach 9,000,000 km2 at -176
 
 ## Colin Imber, The Ottoman Empire, 1300-1650: The Structure of Power
 
@@ -1988,6 +1988,35 @@ ordinary state, not an item to clear.
 - [ ] `polity/srivijaya` — revenue basis coded trade-toll
 - [ ] `polity/srivijaya` — religions_carried = 1 (Mahayana Buddhism)
 - [ ] `polity/srivijaya` — ended by gradual absorption in 1275
+
+## Paul-Alain Beaulieu, A History of Babylon, 2200 BC - AD 75
+*In Blackwell History of the Ancient World.*
+
+`beaulieu-2018` — 23 claims
+
+- [ ] `chapter/neo-babylonian/01-son-of-a-nobody.mdx` — prose: "Son of a nobody"
+- [ ] `chapter/neo-babylonian/02-carchemish.mdx` — prose: "Carchemish"
+- [ ] `chapter/neo-babylonian/03-jerusalem.mdx` — prose: "Jerusalem"
+- [ ] `chapter/neo-babylonian/06-539.mdx` — prose: "539"
+- [ ] `chapter/neo-babylonian/07-the-chronicles.mdx` — prose: "The chronicles"
+- [ ] `edge/neo-assyrian->neo-babylonian` — overthrew in -612
+- [ ] `edge/neo-babylonian->achaemenid` — conquered by in -539
+- [ ] `polity/neo-babylonian` — span starts -626
+- [ ] `polity/neo-babylonian` — span ends -539
+- [ ] `polity/neo-babylonian` — capital Babylon from -626
+- [ ] `polity/neo-babylonian` — founder Nabopolassar r. -626--605
+- [ ] `polity/neo-babylonian` — peak Nebuchadnezzar II r. -605--562
+- [ ] `polity/neo-babylonian` — last Nabonidus r. -556--539
+- [ ] `polity/neo-babylonian` — succession rule coded nomination
+- [ ] `polity/neo-babylonian` — legitimation coded divine-sanction
+- [ ] `polity/neo-babylonian` — turning point -612 Nineveh
+- [ ] `polity/neo-babylonian` — turning point -605 Carchemish
+- [ ] `polity/neo-babylonian` — turning point -587 Jerusalem
+- [ ] `polity/neo-babylonian` — turning point -539 Opis
+- [ ] `polity/neo-babylonian` — descendant_scripts = 0
+- [ ] `polity/neo-babylonian` — religions_carried = 0
+- [ ] `polity/neo-babylonian` — successor_claims = 2 (Achaemenid Empire, Seleucid Empire)
+- [ ] `polity/neo-babylonian` — ended by conquest in -539
 
 ## A. B. Bosworth, Conquest and Empire: The Reign of Alexander the Great
 
@@ -2446,6 +2475,30 @@ ordinary state, not an item to clear.
 - [ ] `polity/fatimid` — ended by internal usurpation in 1171
 - [ ] `polity/zangid` — turning point 1169 Shirkuh dies two months into the vizierate
 - [ ] `polity/zangid` — ended by gradual absorption in 1250
+
+## Trevor Bryce, The Kingdom of the Hittites
+
+`bryce-2005` — 19 claims
+
+- [ ] `chapter/hittite/01-hattusa.mdx` — prose: "Hattusa"
+- [ ] `chapter/hittite/02-the-raid-on-babylon.mdx` — prose: "The raid on Babylon"
+- [ ] `chapter/hittite/03-telipinus-edict.mdx` — prose: "Telipinu's Edict"
+- [ ] `chapter/hittite/04-suppiluliuma.mdx` — prose: "Suppiluliuma"
+- [ ] `chapter/hittite/06-1180.mdx` — prose: "1180"
+- [ ] `polity/hittite` — span starts -1650
+- [ ] `polity/hittite` — span ends -1180
+- [ ] `polity/hittite` — capital Hattusa from -1650
+- [ ] `polity/hittite` — capital Tarhuntassa from -1290
+- [ ] `polity/hittite` — capital Hattusa from -1272
+- [ ] `polity/hittite` — founder Hattusili I r. -1650--1620
+- [ ] `polity/hittite` — peak Suppiluliuma I r. -1350--1322
+- [ ] `polity/hittite` — last Suppiluliuma II r. -1207--1180
+- [ ] `polity/hittite` — turning point -1595 The raid on Babylon
+- [ ] `polity/hittite` — turning point -1500 Telipinu's Edict
+- [ ] `polity/hittite` — turning point -1340 The Syrian campaigns
+- [ ] `polity/hittite` — turning point -1274 Kadesh
+- [ ] `polity/hittite` — successor_claims = 1 (Carchemish)
+- [ ] `polity/hittite` — ended by fragmentation in -1180
 
 ## G. Rex Smith, The Ayyubids and Early Rasulids in the Yemen (567-694/1173-1295)
 *In E. J. W. Gibb Memorial, New Series XXVI.*
@@ -3391,6 +3444,18 @@ ordinary state, not an item to clear.
 - [ ] `polity/tang` — last Emperor Ai r. 904-907
 - [ ] `polity/tang` — religions_carried = 1 (Mahayana Buddhism)
 
+## Trevor Bryce, Life and Society in the Hittite World
+
+`bryce-2002` — 7 claims
+
+- [ ] `chapter/hittite/07-the-thousand-gods.mdx` — prose: "The thousand gods of Hatti"
+- [ ] `polity/hittite` — military basis coded land-grant + client-levy
+- [ ] `polity/hittite` — revenue basis coded land-tax + tribute
+- [ ] `polity/hittite` — succession rule coded nomination
+- [ ] `polity/hittite` — legitimation coded divine-sanction + descent
+- [ ] `polity/hittite` — descendant_scripts = 0
+- [ ] `polity/hittite` — religions_carried = 0
+
 ## Robert Irwin, The Middle East in the Middle Ages: The Early Mamluk Sultanate 1250-1382
 
 `irwin-1986` — 7 claims
@@ -3402,6 +3467,18 @@ ordinary state, not an item to clear.
 - [ ] `polity/mamluk-sultanate` — peak al-Nasir Muhammad r. 1310-1341
 - [ ] `polity/mamluk-sultanate` — turning point 1291 The fall of Acre
 - [ ] `polity/mamluk-sultanate` — turning point 1315 The rawk al-nasiri
+
+## Rein Taagepera, Size and Duration of Empires: Systematics of Size
+*In Social Science Research 7(2), 108-127.*
+
+`taagepera-1978b` — 6 claims
+
+- [ ] `polity/akkadian` — reach 650,000 km2 at -2300
+- [ ] `polity/egypt-new-kingdom` — reach 1,000,000 km2 at -1450
+- [ ] `polity/hittite` — reach 450,000 km2 at -1250
+- [ ] `polity/neo-assyrian` — reach 1,400,000 km2 at -670
+- [ ] `polity/neo-babylonian` — reach 500,000 km2 at -562
+- [ ] `reference/akkadian` — reach 650,000 km2 at -2300
 
 ## multiple contributors, SALJUQS
 *In Encyclopaedia Iranica.*
@@ -3559,6 +3636,15 @@ ordinary state, not an item to clear.
 - [ ] `chapter/mitanni/05-the-gods-in-the-treaty.mdx` — prose: "The gods in the treaty"
 - [ ] `polity/mitanni` — military basis coded land-grant
 
+## Michael Jursa, Aspects of the Economic History of Babylonia in the First Millennium BC: Economic Geography, Economic Mentalities, Agriculture, the Use of Money and the Problem of Economic Growth
+*In Alter Orient und Altes Testament 377.*
+
+`jursa-2010` — 3 claims
+
+- [ ] `chapter/neo-babylonian/04-what-a-tablet-can-tell-you.mdx` — prose: "What a tablet can tell you"
+- [ ] `polity/neo-babylonian` — military basis coded land-grant + mercenary
+- [ ] `polity/neo-babylonian` — revenue basis coded land-tax + tribute
+
 ## John L. Meloy, Imperial Power and Maritime Trade: Mecca and Cairo in the Later Middle Ages
 *In Chicago Studies on the Middle East.*
 
@@ -3584,14 +3670,6 @@ ordinary state, not an item to clear.
 - [ ] `denominator/1200` — world population 360,000,000
 - [ ] `denominator/800` — world population 220,000,000
 
-## Rein Taagepera, Size and Duration of Empires: Systematics of Size
-*In Social Science Research 7(2), 108-127.*
-
-`taagepera-1978b` — 2 claims
-
-- [ ] `polity/akkadian` — reach 650,000 km2 at -2300
-- [ ] `reference/akkadian` — reach 650,000 km2 at -2300
-
 ## Christopher MacEvitt, The Crusades and the Christian World of the East: Rough Tolerance
 *In The Middle Ages Series.*
 
@@ -3608,6 +3686,14 @@ ordinary state, not an item to clear.
 
 - [ ] `polity/ghaznavid` — capital Ghazna from 962
 - [ ] `polity/ghaznavid` — descendant_scripts = 0
+
+## Gary Beckman, Hittite Diplomatic Texts
+*In Writings from the Ancient World 7.*
+
+`beckman-1999` — 2 claims
+
+- [ ] `chapter/hittite/05-the-treaty.mdx` — prose: "The treaty"
+- [ ] `polity/hittite` — turning point -1259 The treaty with Egypt
 
 ## Thomas W. Lentz and Glenn D. Lowry, Timur and the Princely Vision: Persian Art and Culture in the Fifteenth Century
 
@@ -3630,6 +3716,14 @@ ordinary state, not an item to clear.
 
 - [ ] `chapter/mongol/03-division.mdx` — prose: "An empire that divided itself"
 - [ ] `polity/mongol` — span end upper bound 1368
+
+## Paul-Alain Beaulieu, The Reign of Nabonidus, King of Babylon 556-539 B.C.
+*In Yale Near Eastern Researches 10.*
+
+`beaulieu-1989` — 2 claims
+
+- [ ] `chapter/neo-babylonian/05-the-king-who-went-to-arabia.mdx` — prose: "The king who went to Arabia"
+- [ ] `polity/neo-babylonian` — turning point -553 Tayma (contested)
 
 ## Baki Tezcan, The Second Ottoman Empire: Political and Social Transformation in the Early Modern World
 *In Cambridge Studies in Islamic Civilization.*
