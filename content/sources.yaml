@@ -1326,6 +1326,33 @@ sources:
       only because a sixth-century traveller copied them. Cited for the Himyar
       record, and for the Aksumite invasion of 525 that ends it.
 
+  - id: al-rasheed-2010
+    kind: book
+    author: Madawi Al-Rasheed
+    title: A History of Saudi Arabia
+    publisher: Cambridge University Press
+    edition: 2nd
+    year: 2010
+    note: >-
+      The standard single-volume history, by an anthropologist from a family the
+      Saudi state displaced, which is worth knowing and does not make the book
+      partisan — it makes it unusually attentive to the regional powers the
+      national narrative absorbs. Cited for the three Saudi states and for the
+      Rashidi record alongside her own monograph on them.
+
+  - id: al-rasheed-1991
+    kind: book
+    author: Madawi Al-Rasheed
+    title: "Politics in an Arabian Oasis: The Rashidi Tribal Dynasty"
+    container: Society and Culture in the Modern Middle East
+    publisher: I.B. Tauris
+    year: 1991
+    note: >-
+      The monograph on the dynasty that beat the Saudis in the nineteenth
+      century and lost to them in the twentieth, and on the wider question it
+      raises: why a camel-herding confederation became susceptible to political
+      centralisation at that particular moment, and why the result did not last.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors

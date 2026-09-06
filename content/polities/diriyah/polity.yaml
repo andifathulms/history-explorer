@@ -1,0 +1,111 @@
+id: diriyah
+region: arabia
+
+name:
+  latin: Emirate of Diriyah
+  script: إمارة الدرعية
+  script_lang: ar
+
+# 1727 is Muhammad ibn Saud's accession at Diriyah, an oasis settlement of no
+# particular importance; 1744 is the compact that made it one. The end is firm.
+span:
+  start: { min: 1727, max: 1744, source: al-rasheed-2010 }
+  end: { min: 1818, max: 1818, source: al-rasheed-2010 }
+
+identity: >-
+  An oasis in the Najd, a preacher, and a doctrine that within sixty years took
+  the holy cities and sacked Karbala — and was destroyed by an Egyptian army
+  sent to get them back.
+
+capitals:
+  - { name: Diriyah, script: الدرعية, from: 1727, source: al-rasheed-2010 }
+
+core_region: The Najd, with eastern Arabia and, briefly, the Hejaz
+
+rulers:
+  founder: { name: Muhammad ibn Saud, reign: [1727, 1765], source: al-rasheed-2010 }
+  peak: { name: Saud ibn Abd al-Aziz, reign: [1803, 1814], source: al-rasheed-2010 }
+  last: { name: Abdullah ibn Saud, reign: [1814, 1818], source: al-rasheed-2010 }
+
+scripts_and_languages:
+  administration: [Arabic]
+  writing_system: Arabic
+
+# Muhammad Ali of Egypt destroyed it on the Ottoman sultan's commission, with an
+# Egyptian army under his son. Neither Egypt under Muhammad Ali nor the Ottoman
+# state as the commissioning power is a clean single answer, and the corpus does
+# carry the Ottomans; the field names them because the war was fought on their
+# authority and in their name.
+ended:
+  type: conquest
+  by: [ottoman]
+  year: 1818
+  source: al-rasheed-2010
+
+institutions:
+  military_basis: { values: [tribal-levy], source: al-rasheed-2010 }
+  # Zakat taken from the oases and from tribes that had submitted, and the
+  # proceeds of raiding, which Al-Rasheed treats as structural rather than
+  # incidental — the emirate expanded by raiding and the raiding paid for the
+  # expansion, which is what coding rule 6 requires before `plunder` is
+  # enterable. The same caveat as the Omani record applies to the first value:
+  # what was collected was a religious obligation and `land-tax` records the
+  # base without the obligation.
+  revenue_basis: { values: [land-tax, plunder], source: al-rasheed-2010 }
+  # The emirate passed among the Al Saud and the works consulted describe no
+  # rule governing it.
+  succession_rule: null
+  # `divine-sanction` in the rulebook's exact sense — which includes a claim to
+  # be imam — and `conquest`. The Al Saud amirs took the title imam and claimed
+  # to lead the community of true monotheists, which is a religious claim in
+  # its own right and not merely a scholar's authorisation. That distinction
+  # matters: this site's Hotaki record has `conquest` alone with a comment,
+  # because a fatwa obtained at Mecca authorising revolt is somebody else's
+  # ruling and the vocabulary has no value for it. Here the ruler holds the
+  # religious title himself, and the field can say so.
+  legitimation: { values: [divine-sanction, conquest], source: al-rasheed-2010 }
+
+turning_points:
+  - year: 1744
+    type: reform
+    name: "The compact at Diriyah"
+    changed: >-
+      An oasis amir and a preacher expelled from the next settlement agreed
+      terms: the amir would defend and enforce the doctrine, the preacher would
+      supply it, and neither would take the other's function. It converted a
+      local ruler into the leader of a movement with a claim on every Muslim in
+      the peninsula, and the division of authority it established between two
+      families has outlasted three states and is still the constitutional
+      arrangement of the fourth.
+    source: al-rasheed-2010
+    contested: false
+  - year: 1802
+    type: siege
+    name: "Karbala"
+    changed: >-
+      A Najdi force took the shrine city, killed a large number of its
+      inhabitants and destroyed the tomb of Husayn. It made the movement a
+      matter for the Ottoman government, which could not be seen to permit it,
+      and it fixed a hostility between this doctrine and Shi'i Islam that two
+      centuries have not softened.
+    source: al-rasheed-2010
+    contested: false
+  - year: 1803
+    type: siege
+    name: "Mecca"
+    changed: >-
+      Taking the holy cities converted a provincial movement into a direct
+      challenge to the Ottoman sultan's most valuable title, since a sovereign
+      styled servant of the two sanctuaries who does not hold them is making an
+      empty claim in public. It guaranteed the response, and the response
+      destroyed the emirate fifteen years later.
+    source: al-rasheed-2010
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

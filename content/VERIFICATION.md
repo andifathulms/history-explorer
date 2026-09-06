@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**2245 claims across 125 sources.**
+**2263 claims across 126 sources.**
 
 ## Where to start
 
@@ -1946,6 +1946,31 @@ ordinary state, not an item to clear.
 - [ ] `polity/ghurid` — turning point 1206 Mu'izz al-Din assassinated with no son
 - [ ] `polity/ghurid` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/ghurid` — successor_claims = 1 (Delhi Sultanate)
+
+## Madawi Al-Rasheed, A History of Saudi Arabia
+
+`al-rasheed-2010` — 18 claims
+
+**Sole source** for `diriyah` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/diriyah/01-the-compact.mdx` — prose: "The compact"
+- [ ] `chapter/diriyah/02-the-name.mdx` — prose: "What the movement called itself"
+- [ ] `chapter/diriyah/03-karbala-and-mecca.mdx` — prose: "Karbala and Mecca"
+- [ ] `chapter/diriyah/04-ibrahim-pasha.mdx` — prose: "The Egyptian army"
+- [ ] `chapter/diriyah/05-1818.mdx` — prose: "The town was pulled down"
+- [ ] `polity/diriyah` — span starts 1727
+- [ ] `polity/diriyah` — span ends 1818
+- [ ] `polity/diriyah` — capital Diriyah from 1727
+- [ ] `polity/diriyah` — founder Muhammad ibn Saud r. 1727-1765
+- [ ] `polity/diriyah` — peak Saud ibn Abd al-Aziz r. 1803-1814
+- [ ] `polity/diriyah` — last Abdullah ibn Saud r. 1814-1818
+- [ ] `polity/diriyah` — military basis coded tribal-levy
+- [ ] `polity/diriyah` — revenue basis coded land-tax + plunder
+- [ ] `polity/diriyah` — legitimation coded divine-sanction + conquest
+- [ ] `polity/diriyah` — turning point 1744 The compact at Diriyah
+- [ ] `polity/diriyah` — turning point 1802 Karbala
+- [ ] `polity/diriyah` — turning point 1803 Mecca
+- [ ] `polity/diriyah` — ended by conquest in 1818
 
 ## C. E. Bosworth, The History of the Saffarids of Sistan and the Maliks of Nimruz (247/861 to 949/1542-3)
 
