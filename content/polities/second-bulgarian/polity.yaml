@@ -110,6 +110,20 @@ turning_points:
       Nicaean record has Epirus disappearing from its account after 1230.
     source: fine-1987
     contested: false
+  - year: 1277
+    type: revolt
+    name: Ivaylo
+    changed: >-
+      A peasant raised the north-east against Mongol raids the government was
+      not resisting, beat the Mongols, then beat the royal army and killed the
+      tsar in it, and was crowned at Tarnovo — marrying the dowager empress to
+      make it legal. He held the throne about two years. It is the only occasion
+      in this corpus on which a man from outside the political class takes a
+      throne without the military or political class installing him, and it is a
+      verdict on a state that had been paying tribute rather than defending the
+      villages it taxed.
+    source: fine-1987
+    contested: false
   - year: 1330
     type: battle
     name: Velbazhd

@@ -2198,6 +2198,20 @@ sources:
       why this corpus can carry Bulgaria twice with the same evidentiary
       footing on both sides of the interruption.
 
+  - id: obolensky-1971
+    kind: book
+    author: Dimitri Obolensky
+    title: "The Byzantine Commonwealth: Eastern Europe 500-1453"
+    container: History of Civilization
+    publisher: Weidenfeld and Nicolson
+    year: 1971
+    note: >-
+      The book that coined the phrase this site's Balkan and Rus material keeps
+      needing: a cultural and religious sphere held together by liturgy, script
+      and a shared idea of empire rather than by any polity's authority. Cited
+      here for what went out of Bulgaria to Serbia and the Rus, which is the
+      substance of the First Bulgarian record's one influence count.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors
