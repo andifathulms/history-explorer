@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**2121 claims across 119 sources.**
+**2141 claims across 121 sources.**
 
 ## Where to start
 
@@ -1946,6 +1946,28 @@ ordinary state, not an item to clear.
 - [ ] `polity/mirdasid` — turning point 1029 Al-Uqhuwana
 - [ ] `polity/mirdasid` — ended by dynastic replacement in 1080
 
+## F. E. Peters, Mecca: A Literary History of the Muslim Holy Land
+
+`peters-1994` — 17 claims
+
+- [ ] `chapter/sharifate-mecca/01-the-qualification.mdx` — prose: "A qualification nobody could confer"
+- [ ] `chapter/sharifate-mecca/02-qatada.mdx` — prose: "One family for seven hundred years"
+- [ ] `chapter/sharifate-mecca/04-the-ottoman-centuries.mdx` — prose: "Four hundred years of a distant sovereign"
+- [ ] `chapter/sharifate-mecca/05-people-who-did-not-want-the-sermon.mdx` — prose: "People who did not want the sermon"
+- [ ] `chapter/sharifate-mecca/06-1916.mdx` — prose: "The nine years of being a king"
+- [ ] `polity/sharifate-mecca` — span starts 967
+- [ ] `polity/sharifate-mecca` — span ends 1925
+- [ ] `polity/sharifate-mecca` — capital Mecca from 968
+- [ ] `polity/sharifate-mecca` — founder Ja'far ibn Muhammad al-Hasani
+- [ ] `polity/sharifate-mecca` — peak Qatada ibn Idris
+- [ ] `polity/sharifate-mecca` — last Husayn ibn Ali r. 1908-1924
+- [ ] `polity/sharifate-mecca` — legitimation coded descent
+- [ ] `polity/sharifate-mecca` — turning point 1201 Qatada takes the sharifate
+- [ ] `polity/sharifate-mecca` — turning point 1517 The keys sent to Selim
+- [ ] `polity/sharifate-mecca` — turning point 1803 The Wahhabis take Mecca
+- [ ] `polity/sharifate-mecca` — turning point 1916 The Arab Revolt
+- [ ] `polity/sharifate-mecca` — ended by conquest in 1925
+
 ## Beatrice Forbes Manz, The Rise and Rule of Tamerlane
 
 `manz-1989` — 17 claims
@@ -2715,6 +2737,15 @@ ordinary state, not an item to clear.
 - [ ] `chapter/mitanni/01-the-hurrians.mdx` — prose: "Four names for one country"
 - [ ] `chapter/mitanni/05-the-gods-in-the-treaty.mdx` — prose: "The gods in the treaty"
 - [ ] `polity/mitanni` — military basis coded land-grant
+
+## John L. Meloy, Imperial Power and Maritime Trade: Mecca and Cairo in the Later Middle Ages
+*In Chicago Studies on the Middle East.*
+
+`meloy-2010` — 3 claims
+
+- [ ] `chapter/sharifate-mecca/03-selling-recognition.mdx` — prose: "What a state with no economy lived on"
+- [ ] `polity/sharifate-mecca` — military basis coded tribal-levy
+- [ ] `polity/sharifate-mecca` — revenue basis coded trade-toll + tribute
 
 ## Denis Twitchett (ed.), The Cambridge History of China, Volume 3: Sui and T'ang China, 589-906, Part 1
 

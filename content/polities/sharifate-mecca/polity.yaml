@@ -1,0 +1,129 @@
+id: sharifate-mecca
+region: arabia
+
+name:
+  latin: Sharifate of Mecca
+  script: شرافة مكة
+  script_lang: ar
+
+# Nine hundred and fifty-seven years, which is the third-longest span in the
+# corpus. 968 is the establishment of a hereditary sharifate under Fatimid
+# suzerainty; 1925 is Ibn Saud's annexation of the Hejaz.
+span:
+  start: { min: 967, max: 968, source: peters-1994 }
+  end: { min: 1925, max: 1925, source: peters-1994 }
+
+identity: >-
+  The descendants of the Prophet who held Mecca for nine and a half centuries by
+  being indispensable to everyone and dangerous to nobody, and sold their
+  recognition to whichever sovereign paid most.
+
+capitals:
+  - { name: Mecca, script: مكة, from: 968, source: peters-1994 }
+
+core_region: The Hejaz, from Mecca and Jeddah to Medina
+
+rulers:
+  founder: { name: Ja'far ibn Muhammad al-Hasani, source: peters-1994 }
+  # The line that mattered. Qatada ibn Idris took the sharifate in 1201 and his
+  # descendants held it, with every kind of interruption, for the remaining
+  # seven hundred and twenty-four years.
+  peak: { name: Qatada ibn Idris, source: peters-1994 }
+  last: { name: Husayn ibn Ali, reign: [1908, 1924], source: peters-1994 }
+
+scripts_and_languages:
+  administration: [Arabic]
+  writing_system: Arabic
+
+# Ibn Saud took the Hejaz in 1924-25 and Husayn's son abdicated. The Saudi state
+# is not in this corpus, so `by` is empty rather than pointed at nothing.
+ended:
+  type: conquest
+  by: []
+  year: 1925
+  source: peters-1994
+
+institutions:
+  # The sharifs' own kinsmen — the ashraf, an extended family numbering in the
+  # hundreds — with allied Bedouin of the Hejaz. There was never a standing
+  # force and there did not need to be: the thing being defended was not
+  # defensible and was not usually attacked.
+  military_basis: { values: [tribal-levy], source: meloy-2010 }
+  # The purest case in the corpus of a state financed by other states. The
+  # Hejaz grows almost nothing; the revenue was the customs of Jeddah, and
+  # subsidies — the surra sent annually from Cairo and later Istanbul, the
+  # gifts of every sovereign who wanted his name in the Friday sermon, and the
+  # endowments established across the Muslim world for the holy cities'
+  # upkeep. `tribute` is the vocabulary's term for revenue received from
+  # another polity, and here it was received from most of them at once.
+  revenue_basis: { values: [trade-toll, tribute], source: meloy-2010 }
+  # The office stayed inside one family after 1201 and the holder was chosen by
+  # whoever was paying — the Mamluk and then Ottoman sultans appointed and
+  # deposed sharifs routinely, sometimes several in a decade, usually from a
+  # shortlist of quarrelling cousins. There is no value for "designated by a
+  # foreign overlord from within a family", and this is the fifth record in the
+  # corpus to run into the same missing idea from a different field.
+  succession_rule: null
+  # Descent from Hasan ibn Ali, and therefore from the Prophet. It is the whole
+  # of the claim and the whole of the reason the office survived: a sharif was
+  # not a governor who could be replaced with an appointee, because the
+  # qualification was a genealogy no appointment could confer.
+  legitimation: { values: [descent], source: peters-1994 }
+
+turning_points:
+  - year: 1201
+    type: succession-crisis
+    name: "Qatada takes the sharifate"
+    changed: >-
+      A Hasanid chief from Yanbu seized Mecca from the previous line, and his
+      descendants held the office for the following seven hundred and
+      twenty-four years, through Ayyubid, Rasulid, Mamluk, Ottoman, Wahhabi and
+      Egyptian overlordship. Every sharif of Mecca from 1201 to 1925 was a
+      descendant of the same man, including the one who declared the Arab
+      Revolt.
+    source: peters-1994
+    contested: false
+  - year: 1517
+    type: treaty
+    name: "The keys sent to Selim"
+    changed: >-
+      With Cairo taken, the sharif Barakat sent his son to Selim I with the keys
+      of the Ka'ba and his submission, before any Ottoman force reached the
+      Hejaz. It transferred the guardianship of the holy cities to Istanbul
+      without a campaign, and it bought the sharifate four centuries of the
+      arrangement it did best: local autonomy, an imperial subsidy, and a
+      sovereign a long way away.
+    source: peters-1994
+    contested: false
+  - year: 1803
+    type: siege
+    name: "The Wahhabis take Mecca"
+    changed: >-
+      The first Saudi state took the city, demolished the domed tombs, stopped
+      the Egyptian and Syrian pilgrim caravans and ended the sharif's
+      independence of action for a decade. It was the first time in eight
+      centuries that the holy cities had been held by a power that regarded the
+      sharifate's whole arrangement — the endowments, the subsidies, the
+      veneration — as illegitimate, and it is the beginning of the argument
+      that ended the office in 1925.
+    source: peters-1994
+    contested: false
+  - year: 1916
+    type: revolt
+    name: "The Arab Revolt"
+    changed: >-
+      Husayn ibn Ali rose against the Ottoman empire with British money and
+      arms, and made himself king of the Hejaz. It ended nine centuries in
+      which the sharifate's method had been to serve whoever was strongest, and
+      the experiment in being a sovereign rather than a client lasted nine
+      years.
+    source: peters-1994
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

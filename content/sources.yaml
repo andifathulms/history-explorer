@@ -1243,6 +1243,33 @@ sources:
       itself, which is a better piece of evidence about what fourteenth-century
       Aden was than any figure this site could print.
 
+  - id: meloy-2010
+    kind: book
+    author: John L. Meloy
+    title: "Imperial Power and Maritime Trade: Mecca and Cairo in the Later Middle Ages"
+    container: Chicago Studies on the Middle East
+    publisher: Middle East Documentation Center
+    year: 2010
+    note: >-
+      Reads the sharifate as a polity with a political economy rather than as a
+      religious appendage of somebody else's empire: its alliances in the
+      Hejaz, its relations with Cairo, and its dependence on the Indian Ocean
+      traffic through Jeddah. Written partly from sources composed by Meccan
+      scholars rather than only from the Egyptian material, which is why the
+      city has agency in it.
+
+  - id: peters-1994
+    kind: book
+    author: F. E. Peters
+    title: "Mecca: A Literary History of the Muslim Holy Land"
+    publisher: Princeton University Press
+    year: 1994
+    note: >-
+      A collage of primary accounts across the whole span, Muslim and Western,
+      with Peters' commentary between them. Cited for the long view this site
+      needed on a polity that lasted nine and a half centuries and for which no
+      single political narrative exists in English.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors
