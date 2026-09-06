@@ -337,8 +337,8 @@ rule, never where a source is simply silent.
 > **On what public ground the right to rule was asserted**, in the polity's own
 > self-description.
 
-`descent`, `divine-sanction`, `conquest`, `caliphal-investiture`, `titulature`,
-`election`.
+`descent`, `divine-sanction`, `conquest`, `caliphal-investiture`, `investiture`,
+`titulature`, `election`.
 
 - The test is publicity, as in section 1: what was said on coins, in the khutba,
   in titles and in chancery documents — not what a modern account infers.
@@ -352,6 +352,35 @@ rule, never where a source is simply silent.
 - `caliphal-investiture` is separated from `descent` and `titulature` because it
   is the characteristic move of half this corpus, and collapsing it into a
   general category would hide the pattern the site exists to show.
+- **`investiture` is the genus and `caliphal-investiture` the species.** Code
+  `investiture` where the ruler's public claim rests on a grant of authority
+  from an external sovereign who is not a caliph — an emperor, a khan, a shah, a
+  sultan, a jurist, or a treaty between two other powers. Code
+  `caliphal-investiture`, and not the general value as well, where the granting
+  authority is a caliph.
+
+  **Who conferred it is prose, not vocabulary.** This is the point on which the
+  value was argued about for a long time, so it is written down: the objection
+  was that a single `investiture` cannot distinguish a Roman client kingship
+  from a Mongol yarligh from an Ottoman berat. It cannot, and neither can any
+  other value in this list. `descent` does not name the ancestor. `conquest`
+  does not name the conquered. `divine-sanction` does not name the god. The
+  field records the *kind* of ground claimed; the counterparty goes in the
+  chapters and the sources, where it can be argued instead of asserted.
+
+  The test is the same publicity test as everything else in this section. A
+  ruler who happened to hold a patent from somebody is not coded `investiture`;
+  a ruler who put the granting sovereign's name on his coins, in the khutba, in
+  his titles or in his chancery documents is. Where a source describes a grant
+  and nothing shows the recipient invoking it, that is prose.
+
+  **A grant that a later source calls a formality still counts.** The 1517
+  transfer of the caliphate to the Ottomans, the Abbasid diplomas the Buyids
+  collected while holding the caliph prisoner, and the Safavid children the Zand
+  kept on the throne are all cases where the conferring authority was
+  powerless. Rule 1 counts unrecognised claims on the ground that the count
+  measures whose legitimacy was worth claiming; the same reasoning applies here.
+  What is coded is that the ruler thought the grant was worth having.
 
 ## 9. What coding these fields will look like
 

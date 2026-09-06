@@ -56,15 +56,12 @@ institutions:
   # not the patrimonial division `appanage` names: nobody partitioned the
   # territory, they fought over the whole of it.
   succession_rule: null
-  # `conquest`, and for the first two decades that is exactly what the field
-  # cannot say. Hasan Buzurg ruled in the name of puppet Ilkhans of Chinggisid
-  # descent whom he raised and deposed — the same arrangement Timur used a
-  # generation later and for the same reason, that neither of them could hold
-  # the title himself. This is the third record in the corpus to hit that gap
-  # after the Jafnid and Timurid pages: the vocabulary has
-  # `caliphal-investiture` for a ruler whose ground is a universal sovereign's
-  # grant, and nothing for the case where the sovereign is not a caliph.
-  legitimation: { values: [conquest], source: chi-6 }
+  # Hasan Buzurg ruled in the name of puppet Ilkhans of Chinggisid descent whom
+  # he raised and deposed — the same arrangement Timur used a generation later
+  # and for the same reason, that neither of them could hold the title himself.
+  # This record was the third to point at the missing value and it now carries
+  # it.
+  legitimation: { values: [conquest, investiture], source: chi-6 }
 
 turning_points:
   - year: 1340

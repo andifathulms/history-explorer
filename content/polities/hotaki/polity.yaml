@@ -51,12 +51,17 @@ institutions:
   # Brother, then son, then cousin, with two of the four transitions
   # accomplished by murder. That is a sequence and not a rule.
   succession_rule: null
-  # Conquest. Mirwais had been sent to Isfahan as a hostage, went on the hajj
-  # from there, and is reported to have obtained a ruling at Mecca that revolt
-  # against a Shi'i sovereign was lawful — which is a real thing to have done
-  # and is not any of the six values. The vocabulary has `caliphal-investiture`
-  # for authorisation by a sovereign and nothing for authorisation by a
-  # jurist, and this record does not invent one.
+  # Conquest, still, and the reason has changed. Mirwais had been sent to
+  # Isfahan as a hostage, went on the hajj from there, and is reported to have
+  # obtained a ruling at Mecca that revolt against a Shi'i sovereign was lawful.
+  # This field used to say the vocabulary had a value for authorisation by a
+  # caliph and none for authorisation by a jurist. It has one now — coding rule
+  # 8 names a jurist among the conferring authorities `investiture` covers — and
+  # this record still declines it, on evidence rather than on vocabulary.
+  # Whether the ruling existed in the form the accounts give it cannot be
+  # established, and rule 8's test is publicity: a grant a ruler demonstrably
+  # invoked, not one a later chronicler says he obtained. The gap closing did
+  # not fill this field, which is the right outcome and worth having on record.
   legitimation: { values: [conquest], source: chi-7 }
 
 turning_points:

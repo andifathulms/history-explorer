@@ -50,7 +50,12 @@ institutions:
   # sense the Great Seljuk record uses, in a state small enough that one
   # division was fatal.
   succession_rule: { values: [appanage], source: peacock-yildiz-2013 }
-  legitimation: { values: [conquest], source: peacock-yildiz-2013 }
+  # Found in the audit that added `investiture` to the vocabulary, and it wants
+  # the older value rather than the new one. Emir Gazi was sent the insignia of
+  # a sultan from Baghdad — a diploma, a standard and a robe — which is
+  # `caliphal-investiture` in coding rule 8's strict sense, arriving at the far
+  # western end of the Islamic world. The field had only `conquest`.
+  legitimation: { values: [conquest, caliphal-investiture], source: peacock-yildiz-2013 }
 
 turning_points:
   - year: 1100

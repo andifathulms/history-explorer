@@ -295,12 +295,39 @@ export const SUCCESSION_RULES = [
 ] as const
 export type SuccessionRule = (typeof SUCCESSION_RULES)[number]
 
-/** On what public ground the right to rule was asserted. */
+/**
+ * On what public ground the right to rule was asserted.
+ *
+ * `investiture` was added after nine records across four regions had recorded,
+ * on the page, that the vocabulary could not say the thing that mattered most
+ * about them. A Jafnid phylarch appointed by an emperor, a Timurid amir ruling
+ * in a puppet khan's name, a Zand vakil regent for an infant Safavid, a Sharif
+ * of Mecca confirmed by whoever held Egypt, a Shaddadid holding a Seljuk
+ * diploma: every one of them rested its public claim on a grant from an
+ * external sovereign, and the list had `caliphal-investiture` and nothing else.
+ * Those nine were coding `conquest` or `descent` or null — each true, none of
+ * them the point.
+ *
+ * The objection that stalled this for a long time was that a general
+ * `investiture` would not say *by whom*, collapsing a Roman client kingship, a
+ * Mongol yarligh, a Safavid governorship and a treaty into one word. The
+ * vocabulary itself answers it: `descent` does not name the ancestor,
+ * `conquest` does not name the conquered, `divine-sanction` does not name the
+ * god. Not naming the counterparty is how every value in this list works, and
+ * `caliphal-investiture` is the anomaly for being specific rather than the
+ * standard a new value has to meet.
+ *
+ * Both are kept. `caliphal-investiture` is a species of `investiture` and stays
+ * separately because it is the characteristic move of half this corpus, and
+ * folding it into the genus would hide the pattern the site exists to show. The
+ * rule for choosing between them is coding rule 8.
+ */
 export const LEGITIMATIONS = [
   'descent',
   'divine-sanction',
   'conquest',
   'caliphal-investiture',
+  'investiture',
   'titulature',
   'election',
 ] as const

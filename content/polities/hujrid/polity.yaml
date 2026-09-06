@@ -49,13 +49,14 @@ institutions:
   # carries for Roman subsidy. Two client dynasties, two empires, one field.
   revenue_basis: { values: [tribute], source: fisher-2011 }
   succession_rule: null
-  # Null, and deliberately the same null as the Jafnid record's. The Hujrids'
-  # public ground was a grant from Himyar, exactly as the Jafnids' was a grant
-  # from Rome, and the vocabulary has a value for a right conferred by a caliph
-  # and none for a right conferred by any other sovereign. Two pages, two
-  # empires, the same missing idea — which is now the sixth place in this
-  # corpus it has come up.
-  legitimation: null
+  # Was null, and deliberately the same null as the Jafnid record's: the
+  # Hujrids' public ground was a grant from Himyar exactly as the Jafnids' was a
+  # grant from Rome. Both records now carry the value those two nulls were
+  # arguing for, and the pair is the reason it is `investiture` and not
+  # `imperial-investiture` — Himyar was a South Arabian kingdom and Rome was
+  # Rome, and the field records the kind of ground claimed rather than the rank
+  # of who conferred it.
+  legitimation: { values: [investiture], source: fisher-2015 }
 
 turning_points:
   - year: 525

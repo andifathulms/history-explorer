@@ -48,12 +48,12 @@ institutions:
   # members of it, which is the patrimonial division `appanage` names and which
   # is why the two halves of this record have different end dates.
   succession_rule: { values: [appanage], source: minorsky-1953 }
-  # `conquest`, and the field cannot say the more interesting part: the Ani
-  # branch held its city as a grant from Alp Arslan after the Seljuks took it in
-  # 1064, which is the seventh occasion in this corpus where a ruler's public
-  # ground was an authority held on somebody else's behalf and the vocabulary
-  # has a value only for the version where that somebody is a caliph.
-  legitimation: { values: [conquest], source: minorsky-1953 }
+  # `conquest` for the Ganja line, and `investiture` for the Ani branch, which
+  # held its city as a grant from Alp Arslan after the Seljuks took it in 1064.
+  # Both values on one record is the ordinary case for a coded set and it is
+  # doing real work here: two branches of one family, two different public
+  # grounds, forty years apart.
+  legitimation: { values: [conquest, investiture], source: minorsky-1953 }
 
 turning_points:
   - year: 1072

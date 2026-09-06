@@ -62,14 +62,13 @@ institutions:
   # events of 582 settle the question of who actually decided, which is why this
   # is not coded `primogeniture` and not coded at all.
   succession_rule: null
-  # A real gap, and worth stating rather than filling. The Jafnids' public
-  # ground was an imperial grant: al-Harith held Roman rank and the phylarchate
-  # from Justinian, and this is structurally the same move as the
-  # `caliphal-investiture` that half this corpus is coded for. The vocabulary
-  # has a value for investiture by a caliph and none for investiture by an
-  # emperor, and `titulature` is not it — a title conferred is not a
-  # predecessor's title claimed. See chapter 5.
-  legitimation: null
+  # This field was null, and its comment said the vocabulary had a value for
+  # investiture by a caliph and none for investiture by an emperor. It has one
+  # now. Al-Harith held Roman rank and the supreme phylarchate from Justinian,
+  # publicly and by patent, and that is the whole of the Jafnid public ground.
+  # This record is the first of the nine that argued the value into existence
+  # and it is the cleanest case among them: nothing else was ever claimed.
+  legitimation: { values: [investiture], source: fisher-2011 }
 
 turning_points:
   - year: 529

@@ -56,7 +56,15 @@ institutions:
   # ruler would be chosen. The vocabulary has values for who inherits and none
   # for a throne held on two other people's terms.
   succession_rule: null
-  legitimation: { values: [descent], source: hovannisian-1997 }
+  # The Arsacid line, and the Rhandeia settlement of AD 63 under which Parthia
+  # nominated the king of Armenia and Rome crowned him — a public grant from an
+  # external sovereign, and the most formalised one in the corpus, since it was
+  # written into a treaty between two empires neither of which was Armenian.
+  #
+  # As on the Caucasian Iberia record, `succession_rule` stays empty and the new
+  # value does not fix it. Rhandeia's gap is in the succession vocabulary, not
+  # this one; chapter 3 argues it and the argument stands.
+  legitimation: { values: [descent, investiture], source: hovannisian-1997 }
 
 turning_points:
   - year: -69

@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**3032 claims across 162 sources.**
+**3034 claims across 162 sources.**
 
 ## Where to start
 
@@ -464,7 +464,7 @@ ordinary state, not an item to clear.
 - [ ] `polity/danishmendid` — last Ayn al-Dawla
 - [ ] `polity/danishmendid` — military basis coded tribal-levy
 - [ ] `polity/danishmendid` — succession rule coded appanage
-- [ ] `polity/danishmendid` — legitimation coded conquest
+- [ ] `polity/danishmendid` — legitimation coded conquest + caliphal-investiture
 - [ ] `polity/danishmendid` — turning point 1100 The capture of Bohemond
 - [ ] `polity/danishmendid` — turning point 1142 The realm divided
 - [ ] `polity/danishmendid` — ended by conquest in 1178
@@ -935,7 +935,7 @@ ordinary state, not an item to clear.
 - [ ] `polity/jalayirid` — last Husayn II
 - [ ] `polity/jalayirid` — military basis coded tribal-levy + land-grant
 - [ ] `polity/jalayirid` — revenue basis coded land-tax + trade-toll
-- [ ] `polity/jalayirid` — legitimation coded conquest
+- [ ] `polity/jalayirid` — legitimation coded conquest + investiture
 - [ ] `polity/jalayirid` — turning point 1340 The taking of Baghdad
 - [ ] `polity/jalayirid` — turning point 1360 Tabriz
 - [ ] `polity/jalayirid` — turning point 1401 Timur at Baghdad
@@ -1206,7 +1206,7 @@ ordinary state, not an item to clear.
 - [ ] `polity/greater-armenia` — peak Tigranes II r. -95--55
 - [ ] `polity/greater-armenia` — last Artaxias IV r. 422-428
 - [ ] `polity/greater-armenia` — revenue basis coded land-tax + trade-toll
-- [ ] `polity/greater-armenia` — legitimation coded descent
+- [ ] `polity/greater-armenia` — legitimation coded descent + investiture
 - [ ] `polity/greater-armenia` — turning point -69 Tigranocerta
 - [ ] `polity/greater-armenia` — turning point 63 Rhandeia
 - [ ] `polity/greater-armenia` — turning point 301 The conversion of Tiridates
@@ -1523,6 +1523,50 @@ ordinary state, not an item to clear.
 - [ ] `polity/nejd` — ended by conquest in 1891
 - [ ] `polity/rashidi` — turning point 1902 Ibn Saud takes Riyadh
 
+## Greg Fisher, Between Empires: Arabs, Romans, and Sasanians in Late Antiquity
+*In Oxford Classical Monographs.*
+
+`fisher-2011` — 36 claims
+
+**Sole source** for `jafnid` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/hujrid/01-the-third-family.mdx` — prose: "The third family"
+- [ ] `chapter/hujrid/02-a-power-in-the-middle.mdx` — prose: "A power in the middle"
+- [ ] `chapter/hujrid/03-al-hira.mdx` — prose: "Al-Hira"
+- [ ] `chapter/hujrid/04-imru-al-qays.mdx` — prose: "The prince who went looking for a kingdom"
+- [ ] `chapter/hujrid/05-what-the-clients-were-for.mdx` — prose: "What the clients were for"
+- [ ] `chapter/jafnid/01-the-frontier.mdx` — prose: "Hiring the frontier"
+- [ ] `chapter/jafnid/02-al-harith.mdx` — prose: "Al-Harith"
+- [ ] `chapter/jafnid/03-the-name.mdx` — prose: "Jafnid, not Ghassanid"
+- [ ] `chapter/jafnid/04-a-church.mdx` — prose: "The bishops they got consecrated"
+- [ ] `chapter/jafnid/05-what-rome-gave.mdx` — prose: "What Rome gave"
+- [ ] `chapter/jafnid/06-582.mdx` — prose: "582"
+- [ ] `edge/byzantine->jafnid` — vassal of in 529
+- [ ] `edge/himyar->hujrid` — vassal of in 480
+- [ ] `edge/jafnid->rashidun` — conquered by in 636
+- [ ] `polity/hujrid` — span starts 425
+- [ ] `polity/hujrid` — span ends 528
+- [ ] `polity/hujrid` — founder Hujr Akil al-Murar
+- [ ] `polity/hujrid` — peak al-Harith ibn Amr
+- [ ] `polity/hujrid` — last Hujr ibn al-Harith
+- [ ] `polity/hujrid` — military basis coded tribal-levy
+- [ ] `polity/hujrid` — revenue basis coded tribute
+- [ ] `polity/hujrid` — turning point 525 Al-Harith takes al-Hira
+- [ ] `polity/hujrid` — turning point 528 The killing of al-Harith
+- [ ] `polity/hujrid` — ended by fragmentation in 550
+- [ ] `polity/jafnid` — span starts 502
+- [ ] `polity/jafnid` — span ends 582
+- [ ] `polity/jafnid` — capital Jabiya
+- [ ] `polity/jafnid` — founder Jabala ibn al-Harith
+- [ ] `polity/jafnid` — peak al-Harith ibn Jabala r. 529-569
+- [ ] `polity/jafnid` — military basis coded tribal-levy
+- [ ] `polity/jafnid` — revenue basis coded tribute
+- [ ] `polity/jafnid` — legitimation coded investiture
+- [ ] `polity/jafnid` — turning point 529 The supreme phylarchate
+- [ ] `polity/jafnid` — turning point 554 The killing of al-Mundhir of al-Hira
+- [ ] `polity/jafnid` — religions_carried = 1 (Miaphysite Christianity)
+- [ ] `polity/jafnid` — ended by fragmentation in 582
+
 ## G. R. Hawting, The First Dynasty of Islam: The Umayyad Caliphate AD 661-750
 
 `hawting-2000` — 36 claims
@@ -1605,49 +1649,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/uyghur-khaganate` — turning point 762 Bogu Khagan's adoption of Manichaeism
 - [ ] `polity/uyghur-khaganate` — religions_carried = 1 (Manichaeism)
 - [ ] `polity/uyghur-khaganate` — ended by conquest in 840
-
-## Greg Fisher, Between Empires: Arabs, Romans, and Sasanians in Late Antiquity
-*In Oxford Classical Monographs.*
-
-`fisher-2011` — 35 claims
-
-**Sole source** for `hujrid`, `jafnid` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/hujrid/01-the-third-family.mdx` — prose: "The third family"
-- [ ] `chapter/hujrid/02-a-power-in-the-middle.mdx` — prose: "A power in the middle"
-- [ ] `chapter/hujrid/03-al-hira.mdx` — prose: "Al-Hira"
-- [ ] `chapter/hujrid/04-imru-al-qays.mdx` — prose: "The prince who went looking for a kingdom"
-- [ ] `chapter/hujrid/05-what-the-clients-were-for.mdx` — prose: "What the clients were for"
-- [ ] `chapter/jafnid/01-the-frontier.mdx` — prose: "Hiring the frontier"
-- [ ] `chapter/jafnid/02-al-harith.mdx` — prose: "Al-Harith"
-- [ ] `chapter/jafnid/03-the-name.mdx` — prose: "Jafnid, not Ghassanid"
-- [ ] `chapter/jafnid/04-a-church.mdx` — prose: "The bishops they got consecrated"
-- [ ] `chapter/jafnid/05-what-rome-gave.mdx` — prose: "A value the vocabulary does not have"
-- [ ] `chapter/jafnid/06-582.mdx` — prose: "582"
-- [ ] `edge/byzantine->jafnid` — vassal of in 529
-- [ ] `edge/himyar->hujrid` — vassal of in 480
-- [ ] `edge/jafnid->rashidun` — conquered by in 636
-- [ ] `polity/hujrid` — span starts 425
-- [ ] `polity/hujrid` — span ends 528
-- [ ] `polity/hujrid` — founder Hujr Akil al-Murar
-- [ ] `polity/hujrid` — peak al-Harith ibn Amr
-- [ ] `polity/hujrid` — last Hujr ibn al-Harith
-- [ ] `polity/hujrid` — military basis coded tribal-levy
-- [ ] `polity/hujrid` — revenue basis coded tribute
-- [ ] `polity/hujrid` — turning point 525 Al-Harith takes al-Hira
-- [ ] `polity/hujrid` — turning point 528 The killing of al-Harith
-- [ ] `polity/hujrid` — ended by fragmentation in 550
-- [ ] `polity/jafnid` — span starts 502
-- [ ] `polity/jafnid` — span ends 582
-- [ ] `polity/jafnid` — capital Jabiya
-- [ ] `polity/jafnid` — founder Jabala ibn al-Harith
-- [ ] `polity/jafnid` — peak al-Harith ibn Jabala r. 529-569
-- [ ] `polity/jafnid` — military basis coded tribal-levy
-- [ ] `polity/jafnid` — revenue basis coded tribute
-- [ ] `polity/jafnid` — turning point 529 The supreme phylarchate
-- [ ] `polity/jafnid` — turning point 554 The killing of al-Mundhir of al-Hira
-- [ ] `polity/jafnid` — religions_carried = 1 (Miaphysite Christianity)
-- [ ] `polity/jafnid` — ended by fragmentation in 582
 
 ## Herbert Franke and Denis Twitchett (eds), The Cambridge History of China, Volume 6: Alien Regimes and Border States, 907-1368
 
@@ -2122,9 +2123,39 @@ ordinary state, not an item to clear.
 - [ ] `polity/caucasian-iberia` — capital Mtskheta
 - [ ] `polity/caucasian-iberia` — founder Pharnavaz I
 - [ ] `polity/caucasian-iberia` — military basis coded client-levy
-- [ ] `polity/caucasian-iberia` — legitimation coded descent
+- [ ] `polity/caucasian-iberia` — legitimation coded descent + investiture
 - [ ] `polity/caucasian-iberia` — turning point 298 The Peace of Nisibis
 - [ ] `polity/greater-armenia` — military basis coded client-levy
+
+## Greg Fisher (ed.), Arabs and Empires before Islam
+
+`fisher-2015` — 23 claims
+
+**Sole source** for `saba` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/himyar/01-the-highland-kingdom.mdx` — prose: "The kingdom that had rain"
+- [ ] `chapter/himyar/06-the-sasanians.mdx` — prose: "What was left"
+- [ ] `chapter/saba/01-arabia-felix.mdx` — prose: "Arabia Felix"
+- [ ] `chapter/saba/02-the-dam.mdx` — prose: "The dam at Marib"
+- [ ] `chapter/saba/03-aelius-gallus.mdx` — prose: "The Roman expedition"
+- [ ] `chapter/saba/04-the-alphabet.mdx` — prose: "The alphabet that went to Africa"
+- [ ] `chapter/saba/05-the-highland-power.mdx` — prose: "The highland power"
+- [ ] `edge/saba->himyar` — absorbed remnants of in 275
+- [ ] `polity/himyar` — span starts -110
+- [ ] `polity/himyar` — capital Zafar
+- [ ] `polity/himyar` — peak Abukarib As'ad
+- [ ] `polity/himyar` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/hujrid` — legitimation coded investiture
+- [ ] `polity/saba` — span starts -800
+- [ ] `polity/saba` — span ends 275
+- [ ] `polity/saba` — capital Marib
+- [ ] `polity/saba` — peak Karib'il Watar
+- [ ] `polity/saba` — revenue basis coded trade-toll + land-tax
+- [ ] `polity/saba` — legitimation coded divine-sanction
+- [ ] `polity/saba` — turning point -25 Aelius Gallus at Marib
+- [ ] `polity/saba` — descendant_scripts = 1 (Ge'ez)
+- [ ] `polity/saba` — successor_claims = 1 (Himyar)
+- [ ] `polity/saba` — ended by gradual absorption in 275
 
 ## Kenneth R. Hall, A History of Early Southeast Asia: Maritime Trade and Societal Development, 100-1500
 
@@ -2237,35 +2268,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/uqaylid` — peak Sharaf al-Dawla Muslim ibn Quraysh r. 1061-1085
 - [ ] `polity/uqaylid` — turning point 1085 The death of Muslim ibn Quraysh
 - [ ] `polity/uqaylid` — ended by conquest in 1096
-
-## Greg Fisher (ed.), Arabs and Empires before Islam
-
-`fisher-2015` — 22 claims
-
-**Sole source** for `saba` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/himyar/01-the-highland-kingdom.mdx` — prose: "The kingdom that had rain"
-- [ ] `chapter/himyar/06-the-sasanians.mdx` — prose: "What was left"
-- [ ] `chapter/saba/01-arabia-felix.mdx` — prose: "Arabia Felix"
-- [ ] `chapter/saba/02-the-dam.mdx` — prose: "The dam at Marib"
-- [ ] `chapter/saba/03-aelius-gallus.mdx` — prose: "The Roman expedition"
-- [ ] `chapter/saba/04-the-alphabet.mdx` — prose: "The alphabet that went to Africa"
-- [ ] `chapter/saba/05-the-highland-power.mdx` — prose: "The highland power"
-- [ ] `edge/saba->himyar` — absorbed remnants of in 275
-- [ ] `polity/himyar` — span starts -110
-- [ ] `polity/himyar` — capital Zafar
-- [ ] `polity/himyar` — peak Abukarib As'ad
-- [ ] `polity/himyar` — revenue basis coded land-tax + trade-toll
-- [ ] `polity/saba` — span starts -800
-- [ ] `polity/saba` — span ends 275
-- [ ] `polity/saba` — capital Marib
-- [ ] `polity/saba` — peak Karib'il Watar
-- [ ] `polity/saba` — revenue basis coded trade-toll + land-tax
-- [ ] `polity/saba` — legitimation coded divine-sanction
-- [ ] `polity/saba` — turning point -25 Aelius Gallus at Marib
-- [ ] `polity/saba` — descendant_scripts = 1 (Ge'ez)
-- [ ] `polity/saba` — successor_claims = 1 (Himyar)
-- [ ] `polity/saba` — ended by gradual absorption in 275
 
 ## Abbas Amanat, Iran: A Modern History
 
@@ -2637,7 +2639,7 @@ ordinary state, not an item to clear.
 - [ ] `polity/zand` — last Lutf Ali Khan
 - [ ] `polity/zand` — military basis coded tribal-levy
 - [ ] `polity/zand` — revenue basis coded land-tax + trade-toll
-- [ ] `polity/zand` — legitimation coded conquest
+- [ ] `polity/zand` — legitimation coded conquest + investiture
 - [ ] `polity/zand` — turning point 1759 The death of Muhammad Hasan Khan Qajar
 - [ ] `polity/zand` — turning point 1765 Shiraz
 - [ ] `polity/zand` — turning point 1779 The death of Karim Khan
@@ -2900,7 +2902,7 @@ ordinary state, not an item to clear.
 - [ ] `polity/shaddadid` — military basis coded tribal-levy
 - [ ] `polity/shaddadid` — revenue basis coded land-tax + trade-toll
 - [ ] `polity/shaddadid` — succession rule coded appanage
-- [ ] `polity/shaddadid` — legitimation coded conquest
+- [ ] `polity/shaddadid` — legitimation coded conquest + investiture
 - [ ] `polity/shaddadid` — turning point 1072 Ani granted
 - [ ] `polity/shaddadid` — ended by conquest in 1199
 
@@ -2919,7 +2921,7 @@ ordinary state, not an item to clear.
 - [ ] `polity/sharifate-mecca` — founder Ja'far ibn Muhammad al-Hasani
 - [ ] `polity/sharifate-mecca` — peak Qatada ibn Idris
 - [ ] `polity/sharifate-mecca` — last Husayn ibn Ali r. 1908-1924
-- [ ] `polity/sharifate-mecca` — legitimation coded descent
+- [ ] `polity/sharifate-mecca` — legitimation coded descent + investiture
 - [ ] `polity/sharifate-mecca` — turning point 1201 Qatada takes the sharifate
 - [ ] `polity/sharifate-mecca` — turning point 1517 The keys sent to Selim
 - [ ] `polity/sharifate-mecca` — turning point 1803 The Wahhabis take Mecca
@@ -2943,7 +2945,7 @@ ordinary state, not an item to clear.
 - [ ] `polity/timurid` — military basis coded tribal-levy + land-grant
 - [ ] `polity/timurid` — revenue basis coded plunder + land-tax
 - [ ] `polity/timurid` — succession rule coded appanage
-- [ ] `polity/timurid` — legitimation coded conquest
+- [ ] `polity/timurid` — legitimation coded conquest + investiture
 - [ ] `polity/timurid` — turning point 1370 Amir and gurkan
 - [ ] `polity/timurid` — turning point 1402 Ankara
 - [ ] `polity/timurid` — ended by conquest in 1507

@@ -50,16 +50,15 @@ institutions:
   # Karim Khan left brothers, sons and nephews with commands and no rule among
   # them, and they destroyed the dynasty within five years of his death.
   succession_rule: null
-  # `conquest` is what the field can carry and it is the least interesting
-  # thing about the case. Karim Khan refused the title of shah for his whole
-  # reign. He ruled as vakil — deputy, advocate — nominally on behalf of a
-  # Safavid child he had installed and, in his own formulation, on behalf of
-  # the subjects: vakil al-ra'aya. This is the fourth record in the corpus
-  # where a ruler's public ground is an authority he holds for somebody rather
-  # than claims for himself, after the Jafnid, Timurid and Jalayirid pages, and
-  # the vocabulary still has a value only for the version where the somebody is
-  # a caliph.
-  legitimation: { values: [conquest], source: perry-1979 }
+  # Karim Khan refused the title of shah for his whole reign. He ruled as vakil
+  # — deputy, advocate — nominally on behalf of a Safavid child he had
+  # installed and, in his own formulation, on behalf of the subjects: vakil
+  # al-ra'aya. The first of those is an authority held from an external
+  # sovereign and is now coded. The second is not: a claim to hold authority on
+  # behalf of the governed has no value in this list either, and unlike the
+  # first gap it has come up exactly once, which is not enough to change a
+  # vocabulary for. Chapter 3 carries it.
+  legitimation: { values: [conquest, investiture], source: perry-1979 }
 
 turning_points:
   - year: 1759

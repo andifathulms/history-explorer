@@ -64,11 +64,18 @@ institutions:
   # foreign overlord from within a family", and this is the fifth record in the
   # corpus to run into the same missing idea from a different field.
   succession_rule: null
-  # Descent from Hasan ibn Ali, and therefore from the Prophet. It is the whole
-  # of the claim and the whole of the reason the office survived: a sharif was
-  # not a governor who could be replaced with an appointee, because the
-  # qualification was a genealogy no appointment could confer.
-  legitimation: { values: [descent], source: peters-1994 }
+  # Both, and the pair is the office. Descent from Hasan ibn Ali, and therefore
+  # from the Prophet, is the qualification: a sharif could not be replaced with
+  # an appointee, because no appointment could confer the genealogy. And the
+  # appointment is the other half — a sharif was confirmed in office by whoever
+  # held Egypt, had the sermon at Mecca read in that overlord's name, and could
+  # be and repeatedly was deposed by him in favour of a different Hasanid.
+  # Neither value alone describes the arrangement, and the second one existed in
+  # this vocabulary only for caliphs until this record and eight others argued
+  # it open. The Ottoman centuries are the awkward case, since the sultans
+  # claimed the caliphate: the coding takes the whole span, in which the
+  # confirming powers were mostly sultans, and chapter 4 says so.
+  legitimation: { values: [descent, investiture], source: peters-1994 }
 
 turning_points:
   - year: 1201

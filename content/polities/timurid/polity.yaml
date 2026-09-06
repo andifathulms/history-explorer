@@ -49,14 +49,15 @@ institutions:
   # carries the state instead.
   revenue_basis: { values: [plunder, land-tax], source: manz-1989 }
   succession_rule: { values: [appanage], source: manz-1989 }
-  # `conquest`, and the field cannot say the interesting part. Timur was barred
-  # from the title of khan by descent and ruled for thirty-five years in the
-  # name of a puppet Chinggisid he kept at court, styling himself amir and
-  # gurkan — son-in-law of the house. That is structurally the same arrangement
-  # as a Buyid amir ruling in the name of a caliph, and the vocabulary has
-  # `caliphal-investiture` for one and nothing for the other. It is the second
-  # time this corpus has hit that gap; see the Jafnid record for the first.
-  legitimation: { values: [conquest], source: manz-1989 }
+  # Two now. The comment here used to say the field could not carry the
+  # interesting part: Timur was barred from the title of khan by descent and
+  # ruled for thirty-five years in the name of a puppet Chinggisid he kept at
+  # court, styling himself amir and gurkan, son-in-law of the house. That is a
+  # grant of authority from an external sovereign asserted in public, which is
+  # what `investiture` codes. The sovereign was a man with no power whatever,
+  # and coding rule 8 says that does not matter: what is recorded is that the
+  # grant was worth having.
+  legitimation: { values: [conquest, investiture], source: manz-1989 }
 
 turning_points:
   - year: 1370
