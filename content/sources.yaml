@@ -1542,6 +1542,35 @@ sources:
       polity in this corpus and the older literature reaches them almost
       entirely through Roman defeats.
 
+  - id: mairs-2014
+    kind: book
+    author: Rachel Mairs
+    title: "The Hellenistic Far East: Archaeology, Language, and Identity in Greek Central Asia"
+    publisher: University of California Press
+    year: 2014
+    note: >-
+      Works the archaeology, the coins and the documents of Greek Bactria
+      against the question of what the people there thought they were — which
+      is the right question for a polity that survives almost entirely as
+      objects, and the wrong one to answer from the two paragraphs the classical
+      historians give it. Ai-Khanoum is the book's centre and is the only
+      extensively excavated Hellenistic city in Central Asia.
+
+  - id: litvinsky-1996
+    kind: book
+    author: B. A. Litvinsky, Zhang Guang-da and R. Shabani Samghabadi (eds)
+    title: "History of Civilizations of Central Asia, Volume III: The Crossroads of Civilizations, A.D. 250 to 750"
+    publisher: UNESCO Publishing
+    year: 1996
+    note: >-
+      The reference volume for the five centuries between the Kushans and the
+      Arabs in Central Asia, written by scholars from the countries the
+      territory is now in and covering the material — Bactrian documents,
+      coinage, seals, archaeology — that the Greek, Chinese and Persian
+      narratives do not. Cited for the Hephthalites, who are named on this
+      site's Sasanian record as the people who killed a king of kings and were
+      not otherwise here.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors

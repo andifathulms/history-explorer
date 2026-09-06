@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**2665 claims across 141 sources.**
+**2698 claims across 142 sources.**
 
 ## Where to start
 
@@ -1518,6 +1518,46 @@ ordinary state, not an item to clear.
 - [ ] `polity/yuan` — peak Kublai Khan r. 1271-1294
 - [ ] `polity/yuan` — last Toghon Temur r. 1333-1368
 - [ ] `polity/yuan` — descendant_scripts = 1 (Phags-pa script)
+
+## Rachel Mairs, The Hellenistic Far East: Archaeology, Language, and Identity in Greek Central Asia
+
+`mairs-2014` — 33 claims
+
+**Sole source** for `greco-bactria`, `indo-greek` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/greco-bactria/01-a-satrap-stops-answering.mdx` — prose: "A satrap stops answering"
+- [ ] `chapter/greco-bactria/02-ai-khanoum.mdx` — prose: "The city on the Oxus"
+- [ ] `chapter/greco-bactria/03-the-coins.mdx` — prose: "A polity known from its money"
+- [ ] `chapter/greco-bactria/04-the-yuezhi.mdx` — prose: "What came out of the steppe"
+- [ ] `chapter/indo-greek/01-over-the-mountains.mdx` — prose: "Over the mountains"
+- [ ] `chapter/indo-greek/02-menander.mdx` — prose: "Menander"
+- [ ] `chapter/indo-greek/03-two-faces.mdx` — prose: "Two faces of a coin"
+- [ ] `chapter/indo-greek/04-the-sakas.mdx` — prose: "The same movement, later"
+- [ ] `edge/greco-bactria->indo-greek` — partitioned from in -180
+- [ ] `edge/seleucid->greco-bactria` — seceded from in -256
+- [ ] `polity/greco-bactria` — span starts -256
+- [ ] `polity/greco-bactria` — span ends -145
+- [ ] `polity/greco-bactria` — capital Bactra
+- [ ] `polity/greco-bactria` — capital Ai-Khanoum
+- [ ] `polity/greco-bactria` — founder Diodotus I
+- [ ] `polity/greco-bactria` — peak Eucratides I
+- [ ] `polity/greco-bactria` — military basis coded land-grant + mercenary
+- [ ] `polity/greco-bactria` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/greco-bactria` — legitimation coded conquest + divine-sanction
+- [ ] `polity/greco-bactria` — turning point -180 Over the Hindu Kush
+- [ ] `polity/greco-bactria` — ended by conquest in -125
+- [ ] `polity/indo-greek` — span starts -200
+- [ ] `polity/indo-greek` — span ends -10
+- [ ] `polity/indo-greek` — capital Sagala
+- [ ] `polity/indo-greek` — capital Taxila
+- [ ] `polity/indo-greek` — founder Demetrius I
+- [ ] `polity/indo-greek` — peak Menander I
+- [ ] `polity/indo-greek` — last Strato II
+- [ ] `polity/indo-greek` — military basis coded land-grant + mercenary
+- [ ] `polity/indo-greek` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/indo-greek` — legitimation coded conquest + divine-sanction
+- [ ] `polity/indo-greek` — turning point -155 The bilingual coinage
+- [ ] `polity/indo-greek` — ended by conquest in 10
 
 ## John C. Wilkinson, The Imamate Tradition of Oman
 *In Cambridge Middle East Library.*

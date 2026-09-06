@@ -1,0 +1,87 @@
+id: indo-greek
+region: classical-india
+
+name:
+  latin: Indo-Greek Kingdoms
+  script: Βασιλεῖς τῆς Ἰνδικῆς
+  script_lang: grc
+
+# Filed in Classical India rather than in Iran before Islam, and the split is
+# deliberate: this is the same dynasty as the Greco-Bactrian record and it was in
+# a different country, on the other side of the Hindu Kush, for a hundred and
+# ninety years after that record ends. The corpus does the same thing with the
+# two Armenian kingdoms.
+#
+# Both dates are approximate and reconstructed largely from coins. The plural in
+# the name is not a hedge: after about 130 BC there were several kingdoms at
+# once and the record treats them as one polity because the sources cannot
+# separate them.
+span:
+  start: { min: -200, max: -180, source: mairs-2014 }
+  end: { min: -10, max: 10, source: mairs-2014 }
+
+identity: >-
+  The Greek kingdoms of Gandhara and the Punjab, which struck bilingual coins,
+  outlasted their Bactrian parent by nearly two centuries, and left a Greek king
+  arguing with a Buddhist monk in a text Buddhists still read.
+
+capitals:
+  - { name: Sagala, source: mairs-2014 }
+  - { name: Taxila, source: mairs-2014 }
+
+core_region: Gandhara, the Kabul valley and the Punjab
+
+rulers:
+  founder: { name: Demetrius I, source: mairs-2014 }
+  peak: { name: Menander I, source: mairs-2014 }
+  last: { name: Strato II, source: mairs-2014 }
+
+scripts_and_languages:
+  administration: [Greek, Prakrit]
+  writing_system: Greek and Kharoshthi
+
+# The Indo-Scythians — Sakas displaced south by the same chain of steppe
+# movements that ended the Bactrian kingdom — took the last Punjabi territories
+# around the turn of the era. They are not in this corpus.
+ended:
+  type: conquest
+  by: []
+  year: 10
+  source: mairs-2014
+
+institutions:
+  military_basis: { values: [land-grant, mercenary], source: mairs-2014 }
+  revenue_basis: { values: [land-tax, trade-toll], source: mairs-2014 }
+  # As on the Bactrian record, and worse: after about 130 BC several kings were
+  # issuing simultaneously in overlapping territories, and whether they were
+  # branches of one house, rivals, or successive is the argument rather than the
+  # background. There is no sequence to code a rule from.
+  succession_rule: null
+  # The coins again, and here they say something the Bactrian ones do not. The
+  # Greek obverse carries the king's portrait and a Greek epithet; the reverse
+  # carries the same titles in Prakrit in Kharoshthi script, and on some issues
+  # a Buddhist wheel. A ruler who publishes his claim in two languages is making
+  # two claims, and the corpus's Ptolemaic record is the closest parallel.
+  legitimation: { values: [conquest, divine-sanction], source: mairs-2014 }
+
+turning_points:
+  - year: -155
+    type: reform
+    name: "The bilingual coinage"
+    changed: >-
+      Menander and his contemporaries struck square Indian-standard coins with
+      Greek legends on one face and Prakrit in Kharoshthi on the other. A
+      currency is a public document and a bilingual one names who is expected to
+      use it: the kingdom had stopped addressing a settler garrison and started
+      addressing the country it governed. Almost nothing else survives of what
+      these kings thought they were doing, and this is unambiguous.
+    source: mairs-2014
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

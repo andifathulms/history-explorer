@@ -47,12 +47,20 @@ regions:
     group: fertile-crescent
     thread: true
 
+  # Blurb widened. The four imperial records are still the spine, but the
+  # region also holds the polities that took pieces of the plateau and did not
+  # claim to be continuing anything — a Greek kingdom in Bactria and a steppe
+  # confederation that killed a Sasanian king of kings — and a blurb naming only
+  # the succession described the thread rather than the region.
   - id: pre-islamic-iran
     name: Iran before Islam
     blurb: >-
-      Twelve centuries of Iranian empire before the Arab conquests: Achaemenid,
-      Seleucid, Parthian, Sasanian — each of which held roughly the same
-      plateau and claimed, in different terms, to be continuing the last.
+      Twelve centuries before the Arab conquests. Four empires held roughly the
+      same plateau and each claimed, in different terms, to be continuing the
+      last — Achaemenid, Seleucid, Parthian, Sasanian — and around them are the
+      powers that took pieces of it and claimed nothing: a Greek kingdom on the
+      Oxus, and the steppe confederation that broke the Sasanian frontier from
+      the one direction the Roman wars make invisible.
     group: iran
     thread: true
 

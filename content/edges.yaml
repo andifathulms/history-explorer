@@ -945,6 +945,27 @@ edges:
     contested: false
 
   - from: seleucid
+    to: greco-bactria
+    type: seceded from
+    year: -256
+    note: "Diodotus, satrap of Bactria, stopped acknowledging the Seleucid king
+           and struck coins with his own portrait; Antiochus III obtained his
+           successor's submission sixty years later and left him where he was."
+    source: mairs-2014
+    contested: false
+
+  - from: greco-bactria
+    to: indo-greek
+    type: partitioned from
+    year: -180
+    note: "Demetrius took an army south through the Hindu Kush into Gandhara and
+           the Punjab, and within a generation the Greek presence in Asia was
+           two kingdoms — one of which outlasted the other by nearly two
+           centuries."
+    source: mairs-2014
+    contested: false
+
+  - from: seleucid
     to: parthian
     type: seceded from
     year: -247

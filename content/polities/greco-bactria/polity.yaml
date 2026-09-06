@@ -1,0 +1,95 @@
+id: greco-bactria
+region: pre-islamic-iran
+
+name:
+  latin: Greco-Bactrian Kingdom
+  script: Βακτριανή
+  script_lang: grc
+
+# 256 is the conventional date for Diodotus' secession from the Seleucids and is
+# a range in the scholarship rather than a fixed year; 125 is the loss of
+# Bactria to the Yuezhi, which is likewise approximate. Both ends of this span
+# are reconstructions from coins.
+span:
+  start: { min: -256, max: -246, source: mairs-2014 }
+  end: { min: -145, max: -125, source: mairs-2014 }
+
+identity: >-
+  A Greek kingdom on the Oxus, known almost entirely from its own coins and one
+  excavated city, which held Bactria for a century and sent a branch of itself
+  over the Hindu Kush into India.
+
+capitals:
+  - { name: Bactra, script: Βάκτρα, source: mairs-2014 }
+  - { name: Ai-Khanoum, source: mairs-2014 }
+
+core_region: Bactria and Sogdiana, between the Hindu Kush and the Oxus
+
+rulers:
+  founder: { name: Diodotus I, source: mairs-2014 }
+  peak: { name: Eucratides I, source: mairs-2014 }
+  # The last kings are known from coins and the sequence is disputed; this site
+  # does not name one.
+  last: { name: null, source: null }
+
+scripts_and_languages:
+  administration: [Greek, Aramaic]
+  writing_system: Greek
+
+# The Yuezhi, a confederation displaced westward out of the Chinese frontier by
+# the Xiongnu, took Bactria in the 140s and 130s. They are not in this corpus —
+# the Kushan record two regions over is descended from them a century and a half
+# later — so `by` is empty rather than pointed at the wrong people.
+ended:
+  type: conquest
+  by: []
+  year: -125
+  source: mairs-2014
+
+institutions:
+  # The Seleucid katoikiai continued. Greek and Macedonian settlers held land in
+  # and around the city foundations on condition of military service, and this
+  # kingdom is what those foundations became when the chain back to the
+  # Mediterranean broke. `mercenary` beside it for the same reason as on the
+  # Seleucid record: a small settler population in an enormous country hired
+  # continuously.
+  military_basis: { values: [land-grant, mercenary], source: mairs-2014 }
+  # Bactria is irrigated country and among the most agriculturally productive in
+  # Central Asia, and it sat on the routes between India, Iran and the steppe.
+  # Unranked.
+  revenue_basis: { values: [land-tax, trade-toll], source: mairs-2014 }
+  # Null, and the reason is evidential. The dynastic sequence is reconstructed
+  # from coin types, overstrikes and hoards, and it shows several kings issuing
+  # simultaneously in different mints; whether they were co-rulers, rivals or
+  # branch kings is exactly the argument. There is no rule to code because there
+  # is barely a sequence.
+  succession_rule: null
+  # `conquest` and `divine-sanction`. The kings styled themselves Soter, Nikator,
+  # Theos and Aniketos on the coinage, put Zeus and Herakles and Apollo on the
+  # reverse, and one of them — Eucratides — struck the largest gold coin of the
+  # ancient world with his own portrait on it. In the absence of any narrative
+  # source the coins are the self-description, which is a thin basis for this
+  # field and is the only one there is.
+  legitimation: { values: [conquest, divine-sanction], source: mairs-2014 }
+
+turning_points:
+  - year: -180
+    type: revolt
+    name: "Over the Hindu Kush"
+    changed: >-
+      Demetrius and his successors took armies south through the passes into
+      Gandhara and the Punjab, and within a generation the Greek presence in
+      Asia was two kingdoms rather than one — a Bactrian half that was
+      eventually overrun from the steppe and an Indian half that lasted almost
+      two centuries longer. It also split the dynasty's attention at the moment
+      its northern frontier began to matter.
+    source: mairs-2014
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
