@@ -1175,6 +1175,36 @@ sources:
       centuries. It exists because Minorsky reconstructed the text from a later
       compilation; without it the Shirvanshahs would be a king-list with dates.
 
+  - id: haykel-2003
+    kind: book
+    author: Bernard Haykel
+    title: "Revival and Reform in Islam: The Legacy of Muhammad al-Shawkani"
+    container: Cambridge Studies in Islamic Civilization
+    publisher: Cambridge University Press
+    year: 2003
+    note: >-
+      An intellectual biography and an account of how a society dominated by
+      Zaydi Shi'ism was reoriented towards Sunni reformism in the eighteenth
+      and nineteenth centuries, and how that reorientation served the imamate's
+      own political needs. Cited for the tension this site's Zaydi record kept
+      naming without a source for it: an office open to any qualified Alid that
+      had become hereditary in one house.
+
+  - id: thackston-1986
+    kind: book
+    author: "Nasir-i Khusraw, trans. W. M. Thackston, Jr."
+    title: "Naser-e Khosraw's Book of Travels (Safarnama)"
+    container: Persian Heritage Series 36
+    publisher: Bibliotheca Persica
+    year: 1986
+    note: >-
+      The eleventh-century traveller's own account, in translation. Cited so
+      that the description of al-Hasa on this site's Qarmatian page — the
+      untaxed residents, the state granaries, the interest-free loans, the
+      mosque with no Friday prayer — is attributed to the man who wrote it
+      rather than to a modern survey quoting him. He was an Isma'ili himself,
+      which is a reason to cite him directly and to say so.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors

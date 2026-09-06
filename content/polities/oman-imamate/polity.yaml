@@ -42,7 +42,14 @@ ended:
 
 institutions:
   military_basis: { values: [tribal-levy], source: wilkinson-1987 }
-  revenue_basis: null
+  # The tithe on the produce of the date gardens the aflaj watered, and the
+  # customs of Sohar in the periods the imamate held the coast. The comment is
+  # here because the vocabulary flattens something this polity cared about: what
+  # the imam collected was zakat, a religious obligation owed to the community
+  # and disbursed under rules the scholars enforced, and `land-tax` records the
+  # base without the obligation. For a state whose whole claim was that it
+  # governed by the law, that is not a small difference.
+  revenue_basis: { values: [land-tax, trade-toll], source: wilkinson-1987 }
   # The same coding as the Rustamid Imamate on this site, and deliberately: the
   # two are the western and eastern halves of the same Kharijite inheritance,
   # and both held that the community's leader should be the most qualified
@@ -72,6 +79,19 @@ turning_points:
       lasting a century. It established the working arrangement of the Omani
       interior: an elected imamate at Nizwa behind the mountains, and whoever
       held the coast trading with whoever would trade.
+    source: wilkinson-1987
+    contested: false
+  - year: 886
+    type: succession-crisis
+    name: "The deposition of al-Salt"
+    changed: >-
+      The imam al-Salt ibn Malik was deposed by a faction of the scholars on
+      grounds of incapacity, and the Ibadi community divided over whether the
+      deposition had been lawful. The question was doctrinal rather than
+      dynastic — an office that can be taken away has to have rules about when
+      — and the two schools that formed over it, Rustaq and Nizwa, are still
+      the terms of Ibadi legal argument. Seven years later one of them invited
+      an Abbasid army in.
     source: wilkinson-1987
     contested: false
 
