@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import { formatYear } from '@/lib/years'
-import { edgeParties, type Edge } from '@/lib/types'
+import { formatYear, formatRange } from '@/lib/years'
+import { edgeParties, type Edge, type Polity } from '@/lib/types'
 import { displayName, hasPage } from '@/lib/content'
 import { SectionHead } from '@/components/Shell'
 
@@ -66,12 +66,49 @@ function EdgeRow({ edge, other }: { edge: Edge; other: string }) {
   )
 }
 
+/**
+ * The same-object relation, stated inside Succession and explicitly not as one.
+ *
+ * It sits here because this is where a reader asks the question, and the copy
+ * has to do the work the vocabulary cannot: say that the two records are one
+ * thing without implying that one succeeded the other. No year is printed
+ * because there is no year — nothing happened. See the note on `Polity.resumes`.
+ */
+function Resumption({ earlier, later }: { earlier?: Polity; later?: Polity }) {
+  const other = earlier ?? later
+  if (!other) return null
+  const when = formatRange(other.span.start.min, other.span.end.max)
+  return (
+    <p className="mb-8 max-w-measure border-l-2 border-kashi/30 pl-4 text-body text-debu-ink">
+      {earlier ? 'This record continues ' : 'This record is continued by '}
+      {hasPage(other.id) ? (
+        <Link
+          href={`/polity/${other.id}/`}
+          className="link-underline font-semibold text-kashi hover:text-firuze-ink"
+        >
+          {displayName(other.id)}
+        </Link>
+      ) : (
+        <span className="font-semibold text-debu-ink">{displayName(other.id)}</span>
+      )}{' '}
+      <span className="tabular-nums">({when})</span> — the same ground, the same gods
+      and the same royal title, resuming after an interruption. That is not a
+      succession and it is not a claim, so it is not an edge and no thread draws
+      it. There is no date on it because nothing happened.
+    </p>
+  )
+}
+
 export function Position({
   predecessors,
   successors,
+  resumes,
+  resumedBy,
 }: {
   predecessors: Edge[]
   successors: Edge[]
+  resumes?: Polity
+  resumedBy?: Polity
 }) {
   // No edges at all is an ordinary state, not an empty one — it is what most
   // polities outside a dense region will look like. Two columns of "no recorded
@@ -83,6 +120,7 @@ export function Position({
         <SectionHead ground="paper" id="position-heading">
           Succession
         </SectionHead>
+        <Resumption earlier={resumes} later={resumedBy} />
         <p className="max-w-measure text-body">
           No sourced succession edge runs into or out of this polity. That is a statement
           about what this site has read, not about the polity: it stands on its own here,
@@ -97,6 +135,8 @@ export function Position({
       <SectionHead ground="paper" id="position-heading">
         Succession
       </SectionHead>
+
+      <Resumption earlier={resumes} later={resumedBy} />
 
       <div className="grid gap-10 md:grid-cols-2">
         <div>

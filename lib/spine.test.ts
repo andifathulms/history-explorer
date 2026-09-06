@@ -186,3 +186,60 @@ test('a polity with no edges is absent from the tally, not zero-ranked', () => {
   const t = edgeTallies([], (id) => id)
   assert.equal(t.length, 0)
 })
+
+import { checkResumptions, resumptionOf } from './resumption.ts'
+
+/**
+ * `resumes` says two records are one polity seen twice. It is the only relation
+ * on this site with no event and no date behind it, which is why the rules are
+ * strict and why they are worth a test: a soft relation degrades into "related
+ * to" the first time nobody is checking.
+ */
+function pol(id: string, from: number, to: number, resumes?: string): Polity {
+  return {
+    id,
+    region: 'r',
+    span: { start: { min: from, max: from, source: 's' }, end: { min: to, max: to, source: 's' } },
+    resumes,
+  } as unknown as Polity
+}
+
+test('a later record may name the earlier one it is the same object as', () => {
+  const all = [pol('old', -1894, -1595), pol('new', -626, -539, 'old')]
+  assert.deepEqual(checkResumptions(all, []), [])
+  assert.equal(resumptionOf(all, 'new').resumes?.id, 'old')
+  // The reverse view is derived, so the earlier record stores nothing and the
+  // pair can never disagree with itself.
+  assert.equal(resumptionOf(all, 'old').resumedBy?.id, 'new')
+  assert.equal(resumptionOf(all, 'old').resumes, undefined)
+})
+
+test('polities that overlap are contemporaries, not one object seen twice', () => {
+  // The check that keeps this from becoming a general "related to". Two states
+  // that existed at the same time are not the same state with a gap in it.
+  const all = [pol('a', -900, -600), pol('b', -700, -500, 'a')]
+  const [problem] = checkResumptions(all, [])
+  assert.match(problem, /contemporaries, not the same object/)
+})
+
+test('the relation does not chain and is not shared', () => {
+  const chain = [pol('a', -900, -800), pol('b', -700, -600, 'a'), pol('c', -500, -400, 'b')]
+  assert.match(checkResumptions(chain, []).join(' '), /does not chain/)
+
+  const shared = [pol('a', -900, -800), pol('b', -700, -600, 'a'), pol('c', -500, -400, 'a')]
+  assert.match(checkResumptions(shared, []).join(' '), /already resumed by/)
+})
+
+test('a pair is either a succession or the same object resuming, never both', () => {
+  // If an edge already joins them, one of the two claims is wrong, and the
+  // build should say so rather than render a page asserting each.
+  const all = [pol('a', -900, -800), pol('b', -700, -600, 'a')]
+  const edges = [{ from: 'a', to: 'b', type: 'conquered by', year: -800 }] as unknown as Edge[]
+  assert.match(checkResumptions(all, edges).join(' '), /either a succession or the same object/)
+})
+
+test('a record with no resumption is the ordinary case and reports nothing', () => {
+  const all = [pol('a', -900, -800), pol('b', -700, -600)]
+  assert.deepEqual(checkResumptions(all, []), [])
+  assert.deepEqual(resumptionOf(all, 'a'), { resumes: undefined, resumedBy: undefined })
+})

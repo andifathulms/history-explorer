@@ -215,10 +215,12 @@ regions:
   # `mitanni -> middle-assyrian` in 1260, `neo-elamite -> neo-assyrian` in 645,
   # `neo-assyrian -> neo-babylonian` in 612. What the thread cannot draw is the
   # region's own organising fact: Babylon is here twice, Assyria twice and Elam
-  # twice, and in each pair the later record is the same ground and the same
-  # gods resuming after a dark age — neither a succession nor a claim, and there
-  # is no edge type for it. Both Egypts, the Middle Elamite kingdom and Urartu
-  # have no edge in either direction at all.
+  # twice, and in each pair the later record is the same ground and the same gods
+  # resuming after a dark age — neither a succession nor a claim. That relation
+  # is carried by the `resumes` field on the later record of each pair, and
+  # deliberately not by an edge: it has no date, and a thread is a picture of
+  # succession. Both Egypts, the Middle Elamite kingdom and Urartu have no edge
+  # in either direction at all.
   - id: ancient-near-east
     name: The Ancient Near East
     blurb: >-

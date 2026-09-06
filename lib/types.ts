@@ -462,6 +462,35 @@ export interface Polity {
    */
   turning_points: TurningPoint[]
   measures: Measures
+  /**
+   * The earlier record this one is the same object as, after an interruption.
+   *
+   * Deliberately not an edge, and the reason is worth keeping. The Ancient Near
+   * East carries Babylon twice, Assyria twice and Elam twice, and in each pair
+   * the later record is the same ground, the same gods and the same royal title
+   * resuming after a dark age. That is neither a succession nor a claim, and
+   * three separate pages had recorded that the edge vocabulary has no relation
+   * meaning *the same thing, later*.
+   *
+   * Adding one would have been wrong twice over. Every one of the corpus's
+   * edges is an event with a year — a conquest, a secession, a claim made on a
+   * date — and this relation has no year, because nothing happened. And an edge
+   * is drawn by the region's thread, which would put a non-succession into the
+   * one picture on this site that exists to show successions. CLAUDE.md's
+   * single framing rule is that continuity is a section and not the spine;
+   * feeding it a pseudo-succession is a step toward exactly that mistake.
+   *
+   * The relation is also not geographic, which is what a naive implementation
+   * would have made it. Forty-seven pairs in this corpus share a capital with a
+   * gap and no edge between them — Umayyad and Burid at Damascus, Idrisid and
+   * Marinid at Fez, Han and Tang at Chang'an — and almost none of them are this.
+   * Middle and Neo-Assyria, which are, do not even share a capital. The test is
+   * whether the sources treat the two as periods of one continuous object.
+   *
+   * One-directional: the later record names the earlier one. The reverse view
+   * is derived, never stored.
+   */
+  resumes?: PolityId
   /** Context polities appear on the timeline and as edge targets, no chapters. */
   context_only?: boolean
 }

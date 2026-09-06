@@ -6,6 +6,7 @@ import {
   getPolity,
   getChapters,
   getNeighbours,
+  getResumption,
   politiesInRegion,
   inThread,
   getRegion,
@@ -43,6 +44,7 @@ export default function PolityPage({ params }: { params: { id: string } }) {
 
   const chapters = getChapters(p.id)
   const { predecessors, successors } = getNeighbours(p.id)
+  const { resumes, resumedBy } = getResumption(p.id)
   const region = getRegion(p.region)
 
   // The rail is the continuity section's instrument, so it only appears for a
@@ -148,7 +150,12 @@ export default function PolityPage({ params }: { params: { id: string } }) {
               <StatRow ground="paper" stats={headline} />
             </header>
 
-            <Position predecessors={predecessors} successors={successors} />
+            <Position
+              predecessors={predecessors}
+              successors={successors}
+              resumes={resumes}
+              resumedBy={resumedBy}
+            />
 
             <Chapters chapters={chapters} />
 

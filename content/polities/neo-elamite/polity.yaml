@@ -104,6 +104,12 @@ turning_points:
     source: potts-2016
     contested: false
 
+# The Middle Elamite kingdom, three centuries earlier, across a gap in which
+# almost nothing Elamite can be securely dated. The third of the region's three
+# pairs, and the one that made the pattern impossible to keep calling an
+# oddity.
+resumes: middle-elamite
+
 measures:
   # No cited figure. Taagepera carries an Elamite entry at 1160, which is on the
   # Middle Elamite record; this kingdom, which lasted longer and is far better

@@ -13,6 +13,7 @@ import 'server-only'
 import fs from 'node:fs'
 import path from 'node:path'
 import matter from 'gray-matter'
+import { checkResumptions, resumptionOf, type Resumption } from './resumption'
 import { parse as parseYaml } from 'yaml'
 import {
   arcIndex,
@@ -539,6 +540,14 @@ export function loadCorpus(): Corpus {
     }
   }
 
+  // `resumes` — the same-object relation. The rules live in lib/resumption.ts
+  // so they can be unit-tested; here they are simply enforced. Checked after
+  // every polity is loaded because each one points at another record.
+  const resumptionProblems = checkResumptions(all, edges)
+  if (resumptionProblems.length) {
+    throw new ContentError('polities', resumptionProblems.join('; '))
+  }
+
   // A region only claims a thread if its polities are actually joined. Without
   // this, `thread: true` on an unconnected region would render an empty spine
   // and quietly imply a continuity nobody sourced.
@@ -595,6 +604,16 @@ export function getNeighbours(id: string): Neighbours {
     predecessors: edges.filter((e) => e.to === id),
     successors: edges.filter((e) => e.from === id),
   }
+}
+
+/**
+ * The same-object relation, in both directions.
+ *
+ * Kept out of `getNeighbours` on purpose: this is not succession and must not
+ * arrive anywhere that draws a thread. See the note on `Polity.resumes`.
+ */
+export function getResumption(id: string): Resumption {
+  return resumptionOf(loadCorpus().all, id)
 }
 
 /** Display name for any id, including backdrop entries that have no page. */

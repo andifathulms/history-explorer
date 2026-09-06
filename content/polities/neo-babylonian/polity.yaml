@@ -133,6 +133,12 @@ turning_points:
     source: beaulieu-2018
     contested: false
 
+# The First Dynasty of Babylon, this site's other Babylon, a thousand years and
+# four foreign dynasties earlier. Not an edge and deliberately not one: nothing
+# passed between them and no year attaches, and the field says two records are
+# one object rather than that one succeeded the other. See lib/types.ts.
+resumes: old-babylonian
+
 measures:
   # Taagepera's tabulation, at Nebuchadnezzar's death. Worth reading beside the
   # Assyrian figure of 1,400,000 immediately above it in this region: the

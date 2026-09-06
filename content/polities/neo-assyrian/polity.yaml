@@ -121,6 +121,12 @@ turning_points:
     source: van-de-mieroop-2015
     contested: false
 
+# The Middle Assyrian kingdom — the same city, the same god, the same royal
+# title, resuming after the hundred and forty years in which Assyria held little
+# beyond its own core and stopped writing. The two records share no capital,
+# which is why this relation is not and could not be geographic.
+resumes: middle-assyrian
+
 measures:
   # Citation corrected from taagepera-1979, which by its own title covers
   # 600 BC to 600 AD and cannot hold a figure dated 670 BC. See the same note on

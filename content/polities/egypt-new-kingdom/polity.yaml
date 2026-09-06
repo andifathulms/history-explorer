@@ -112,6 +112,14 @@ turning_points:
     source: shaw-2000
     contested: false
 
+# Egypt's Old Kingdom, across the First Intermediate Period and the Middle
+# Kingdom. The only one of the four pairs where a whole further kingdom sits in
+# the gap, which is a reason to be careful with the claim and not a reason to
+# refuse it: Egyptian kingship is one continuous institution in a way Babylonian
+# kingship is not, and the New Kingdom's own archaism says so louder than this
+# site could.
+resumes: egypt-old-kingdom
+
 measures:
   # Citation corrected from taagepera-1979 while the Hittite and Babylonian
   # figures were being entered from the same tables. taagepera-1979 covers

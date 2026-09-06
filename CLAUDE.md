@@ -153,6 +153,22 @@ measures:
 
 Edges are optional. A polity with none is complete.
 
+### `resumes` — the same object, later
+
+An optional field on `polity.yaml`, on the **later** record of a pair:
+
+```yaml
+resumes: old-babylonian
+```
+
+For two records that are one polity seen twice across an interruption — the two
+Babylons, the two Assyrias, the two Elams, the two Egypts. Deliberately not an
+edge: every edge is an event with a year and this has no year, and an edge is
+drawn by the region's thread, which is a picture of succession. The test is
+whether the sources treat the two as periods of one continuous object, never
+whether they share a capital — 47 pairs in this corpus do, and almost none of
+them are this. Rules and tests in `lib/resumption.ts`.
+
 ## Hard rules
 
 These are not style preferences. Breaking them breaks the product.
