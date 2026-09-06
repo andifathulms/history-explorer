@@ -46,13 +46,14 @@ scripts_and_languages:
   administration: [Hurrian, Akkadian]
   writing_system: Cuneiform
 
-# The conquerors were the Middle Assyrian kings Adad-nirari I and Shalmaneser I.
-# This corpus's Assyrian entry is the Neo-Assyrian Empire, which begins in 911 —
-# three and a half centuries later and, for the purposes of this site's edges, a
-# different polity. `by` is empty rather than wrong.
+# `by` was empty for as long as this corpus's only Assyrian entry was the
+# Neo-Assyrian empire, which begins in 911 — three and a half centuries after
+# the conquest and, for the purposes of this site's edges, a different polity.
+# The Middle Assyrian record now exists and the field names it. The conquerors
+# were Adad-nirari I and Shalmaneser I.
 ended:
   type: conquest
-  by: []
+  by: [middle-assyrian]
   year: -1260
   source: van-de-mieroop-2015
 
@@ -111,7 +112,10 @@ turning_points:
     contested: false
 
 measures:
-  reach_km2: null
+  # Entered from Taagepera's tabulation while the neighbouring records in this
+  # region were being checked against it. This record had no figure not because
+  # none is published but because nobody had looked.
+  reach_km2: { value: 300000, at: -1450, source: taagepera-1978b }
   peak_population: null
   influence:
     descendant_scripts: { count: null, items: [], source: null }

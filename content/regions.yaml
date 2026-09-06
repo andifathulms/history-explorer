@@ -201,23 +201,22 @@ regions:
     group: iran
     thread: true
 
-  # `thread: true` again, on one edge and a technicality worth stating. When
-  # Media moved to Iran before Islam it took `neo-assyrian -> median` out of the
-  # region and the thread with it. The Neo-Babylonian record restores a thread
-  # because it was the coalition's other half: `neo-assyrian -> neo-babylonian`
-  # has both ends here. Nothing else in the region has joined up. The Hittite
-  # record arriving in the same pass has no edge in either direction, and the
-  # Mitanni record still refuses the one that might have connected it, because
-  # its conquerors were the Middle Assyrian kings and this site's Assyrian entry
-  # begins three and a half centuries later.
+  # Four internal edges now, from one two commits ago, and they are the oldest
+  # in the corpus: `akkadian -> ur-iii` in 2112 BC, `old-babylonian -> hittite`
+  # in 1595, `mitanni -> middle-assyrian` in 1260, `neo-assyrian ->
+  # neo-babylonian` in 612. Note what the thread still cannot draw. Babylon has
+  # two records here and Assyria has two, and in each pair the later one is the
+  # same city and the same god resuming after an interruption — which is neither
+  # a succession nor a claim, and has no edge type. Egypt's New Kingdom has no
+  # edge at all.
   - id: ancient-near-east
     name: The Ancient Near East
     blurb: >-
-      The first territorial empires — Akkad, Egypt's New Kingdom, Mitanni,
-      Hatti, Assyria and Babylon — and the argument that any of them was an
-      empire at all. Two of the six succeed each other. The rest are
-      contemporaries, correspondents and enemies, which is a different kind of
-      relation and not one this site draws.
+      The first territorial empires — Akkad and Ur, Babylon twice, Assyria
+      twice, Egypt's New Kingdom, Mitanni and Hatti — and the argument that any
+      of them was an empire at all. The thread here is thin on purpose: most of
+      these states were contemporaries who wrote to each other, fought each
+      other and married each other's daughters, and none of that is succession.
     group: fertile-crescent
     thread: true
 

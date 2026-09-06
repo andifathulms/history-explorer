@@ -1,0 +1,145 @@
+id: middle-assyrian
+region: ancient-near-east
+
+name:
+  latin: Middle Assyrian Kingdom
+  script: 𒀸𒋩
+  script_lang: akk
+
+# The start is Ashur-uballit I, under whom Ashur stopped being a Mitannian
+# dependency and began writing to Egypt as a great king. The end is the death of
+# Ashur-bel-kala, after which Assyria loses the Euphrates and the Habur to
+# Aramaean pressure, holds little more than its own core, and leaves almost no
+# documents for a hundred and forty years. This site's Neo-Assyrian record
+# begins in 911, on the far side of that silence.
+span:
+  start: { min: -1363, max: -1363, source: frahm-2023 }
+  end: { min: -1056, max: -1056, source: frahm-2023 }
+
+identity: >-
+  Assyria's first empire, three centuries before the one it is remembered for,
+  and the best-documented bureaucracy of the Late Bronze Age.
+
+capitals:
+  - { name: Ashur, script: 𒀸𒋩, from: -1363, source: frahm-2023 }
+  - { name: Kar-Tukulti-Ninurta, from: -1233, source: frahm-2023 }
+  - { name: Ashur, script: 𒀸𒋩, from: -1207, source: frahm-2023 }
+
+core_region: Northern Mesopotamia
+
+rulers:
+  founder: { name: Ashur-uballit I, reign: [-1363, -1328], source: frahm-2023 }
+  peak: { name: Tiglath-Pileser I, reign: [-1114, -1076], source: frahm-2023 }
+  last: { name: Ashur-bel-kala, reign: [-1073, -1056], source: frahm-2023 }
+
+scripts_and_languages:
+  administration: [Akkadian]
+  writing_system: Cuneiform
+
+# `fragmentation`, and the honest description is that the state did not end so
+# much as shrink back onto its core and stop producing records. No conqueror
+# took Ashur. What happened was Aramaean settlement across the territory
+# between the Assyrian heartland and the Euphrates, province by province, over
+# decades, with no battle anybody names. `gradual absorption` would say Assyria
+# was absorbed, and it was not; it was still there in 911.
+ended:
+  type: fragmentation
+  by: []
+  year: -1056
+  source: frahm-2023
+
+institutions:
+  # Land held from the crown against the ilku obligation, and a levy raised
+  # through the provincial governors. Postgate's point, which is why this field
+  # is coded from him, is that the obligation was administered in writing: the
+  # men owed, the equipment owed and the substitutions permitted are recorded in
+  # archives kept for the purpose, and the writing is not incidental to the
+  # institution but constitutive of it.
+  military_basis: { values: [land-grant, conscript], source: postgate-2013 }
+  # State-run agriculture on crown estates, and the tribute of the conquered
+  # west. The distinctive Middle Assyrian instrument is the ginau: a fixed
+  # recurring delivery owed by each province to the temple of Ashur, recorded
+  # centrally, chased when late, and reconstructible from the receipts across
+  # decades. It is a tax in the strict sense — assessed, scheduled and audited —
+  # three hundred years before this corpus's next example.
+  revenue_basis: { values: [land-tax, tribute], source: postgate-2013 }
+  # Designation of a crown prince, the same rule the Neo-Assyrian record carries
+  # and codes from Esarhaddon's succession oath eight hundred years later. Two
+  # records, one state, one rule, and the field is filled from different
+  # evidence at each end.
+  succession_rule: { values: [nomination], source: frahm-2023 }
+  # The king is issi'ak Assur, the steward or vice-regent of the god, and rules
+  # a country that is the god's. The Neo-Assyrian record carries the identical
+  # value and the identical reasoning; this is where the formula starts.
+  legitimation: { values: [divine-sanction], source: frahm-2023 }
+
+turning_points:
+  - year: -1260
+    type: battle
+    name: Hanigalbat
+    changed: >-
+      Adad-nirari I and then Shalmaneser I took what Suppiluliuma had left of
+      Mitanni and converted it into Assyrian provinces with Assyrian governors.
+      It is the event this corpus's Mitanni record has as its ending and could
+      not attribute, because the conquerors had no page here. They do now. It
+      also put Assyria on the Euphrates facing Hatti, which is the strategic
+      fact the Hittite record's fifth chapter says the treaty with Egypt was
+      concluded in order to face.
+    source: frahm-2023
+    contested: false
+  - year: -1233
+    type: capital-move
+    name: Kar-Tukulti-Ninurta
+    changed: >-
+      Tukulti-Ninurta I built a new capital across the Tigris from Ashur and
+      moved the court into it. A king of Ashur leaving Ashur is not an
+      administrative convenience: the city and the god have the same name and
+      the king's title makes him the god's steward there. This site's later
+      Assyrian record has the same manoeuvre repeated by Sargon II at
+      Khorsabad, and both new capitals were abandoned within a generation of
+      their builder's death.
+    source: frahm-2023
+    contested: false
+  - year: -1225
+    type: siege
+    name: Babylon
+    changed: >-
+      Tukulti-Ninurta took Babylon, deported its king in chains and carried the
+      statue of Marduk to Ashur. It is the first time Assyria held Babylonia and
+      it lasted about seven years. Four and a half centuries later Sennacherib
+      would sack the same city with far worse consequences for his own dynasty;
+      this corpus carries that as a turning point too, and the relationship
+      between the two states that it poisoned begins here.
+    source: frahm-2023
+    contested: false
+  - year: -1207
+    type: succession-crisis
+    name: The murder in the new capital
+    changed: >-
+      Tukulti-Ninurta was killed by his own son in Kar-Tukulti-Ninurta and the
+      empire he had built came apart within a decade — Babylonia lost, the west
+      lost, the new capital abandoned. Assyria did not reach the same extent
+      again for a hundred years. The `succession_rule` on this record reads
+      `nomination`, and this is what the field looks like when the rule holds
+      and the outcome is a patricide.
+    source: frahm-2023
+    contested: false
+
+measures:
+  # Taagepera's figure, at Tiglath-Pileser I, which is why he and not
+  # Tukulti-Ninurta is this record's peak ruler even though Tukulti-Ninurta held
+  # Babylon and Tiglath-Pileser did not. The Neo-Assyrian record's peak is
+  # 1,400,000 at 670, three and a half times this, and the two figures are the
+  # clearest single statement of what the reorganisation of 745 achieved.
+  reach_km2: { value: 400000, at: -1080, source: taagepera-1978b }
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: postgate-2013 }
+    religions_carried: { count: 0, items: [], source: postgate-2013 }
+    # Zero, and the reason is a hole in this site's vocabulary rather than a
+    # fact about Assyria. The Neo-Assyrian empire is the same state with the
+    # same god, the same royal title and the same capital, resuming after an
+    # interruption. That is not a successor claim — nobody was claiming anybody
+    # else's legitimacy — and there is no edge type for it either. The last
+    # chapter of this record sets the problem out.
+    successor_claims: { count: 0, items: [], source: frahm-2023 }

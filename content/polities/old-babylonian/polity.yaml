@@ -1,0 +1,171 @@
+id: old-babylonian
+region: ancient-near-east
+
+name:
+  latin: First Dynasty of Babylon
+  script: 𒆍𒀭𒊏𒆠
+  script_lang: akk
+
+# Middle chronology. This dynasty is the peg the whole argument turns on: the
+# sack of Babylon in the last year of the last king is the event the high,
+# middle and low chronologies are alternative datings of, and moving it moves
+# everything in this region before 1500 with it. The Hittite record carries the
+# same year as its own second turning point and the same note on its `span`.
+span:
+  start: { min: -1894, max: -1894, source: beaulieu-2018 }
+  end: { min: -1595, max: -1595, source: beaulieu-2018 }
+
+identity: >-
+  Hammurabi's Babylon: a fifty-year empire inside a three-hundred-year dynasty,
+  and a law collection that outlived both by four thousand years.
+
+capitals:
+  - { name: Babylon, script: 𒆍𒀭𒊏𒆠, from: -1894, source: beaulieu-2018 }
+
+core_region: Babylonia
+
+rulers:
+  founder: { name: Sumu-abum, reign: [-1894, -1881], source: beaulieu-2018 }
+  peak: { name: Hammurabi, reign: [-1792, -1750], source: van-de-mieroop-2005 }
+  last: { name: Samsu-ditana, reign: [-1625, -1595], source: beaulieu-2018 }
+
+scripts_and_languages:
+  administration: [Akkadian, Sumerian]
+  writing_system: Cuneiform
+
+# Mursili I came down the Euphrates, took the city and went home, and the
+# Kassites moved into the space he left. `by` names the conqueror because the
+# conqueror is on this site; it does not name a successor, because the people
+# who actually took over Babylonia have no page here and did not do the
+# conquering. The distinction is the subject of this record's last chapter.
+ended:
+  type: conquest
+  by: [hittite]
+  year: -1595
+  source: beaulieu-2018
+
+institutions:
+  # The ilkum: a field held from the palace by a soldier — the redum and the
+  # ba'irum — on condition of service, inalienable, forfeit if he failed to go
+  # and restored to him if he was taken prisoner and came back. This is not
+  # inferred. Sixteen consecutive paragraphs of Hammurabi's own law collection
+  # are about the tenure and its conditions, and they are the earliest place in
+  # this corpus where a coded institution can be read off a statute.
+  military_basis: { values: [land-grant], source: van-de-mieroop-2005 }
+  # A palace economy taxing agriculture through its own estates and its rent
+  # collectors, and tribute from the kingdoms Hammurabi beat and left standing.
+  # `plunder` is not coded: the campaigns of the last twelve years were
+  # extraordinary and this state's income was not built on repeating them, which
+  # is exactly what the empire's collapse a generation later demonstrates.
+  revenue_basis: { values: [land-tax, tribute], source: van-de-mieroop-2005 }
+  # Null, and for precisely the reason the Ur III record two entries earlier in
+  # this region is null. Eleven kings across three hundred years, and from the
+  # second of them the throne passes father to son without one recorded break —
+  # and no text stating a rule. Coding rule 7 takes the rule and
+  # not the outcome, and Mesopotamia, which wrote down the price of hiring an ox
+  # and the penalty for a badly built house, did not write down who got the
+  # throne. Two records in one region carrying the same null for the same reason
+  # is not a coincidence about these two dynasties; it is a fact about what
+  # cuneiform law collections were for.
+  succession_rule: null
+  # Three, and all three are on the stele in the Louvre: Shamash handing the
+  # king the rod and ring at the top, the Amorite line recited in the prologue,
+  # and the Akkadian and Sumerian royal titles claimed in the same breath.
+  legitimation: { values: [divine-sanction, descent, titulature], source: van-de-mieroop-2005 }
+
+turning_points:
+  - year: -1763
+    type: siege
+    name: Larsa
+    changed: >-
+      Hammurabi had reigned twenty-nine years as one Amorite king among several
+      and had gained almost nothing. Then he took Larsa from Rim-Sin, who had
+      held the south for sixty years, and in the eight years that followed he
+      took everything else. The empire this record is known for occupies the
+      last twelve years of a forty-three-year reign, and for the first
+      thirty-one there was no reason to think Babylon mattered.
+    source: van-de-mieroop-2005
+    contested: false
+  - year: -1761
+    type: siege
+    name: Mari
+    changed: >-
+      Hammurabi took his ally's city, and two years later had its walls pulled
+      down. The palace of Zimri-Lim burned with something over twenty thousand
+      tablets inside it, and the fire baked them. Almost everything known about
+      the diplomacy of this period — the alliances, the intelligence reports,
+      the letter observing that no king is strong on his own and listing who
+      follows whom — comes out of that one destruction. The archive stops in
+      1761, and the following century and a half of this dynasty is dark by
+      comparison.
+    source: van-de-mieroop-2005
+    contested: false
+  - year: -1755
+    type: reform
+    name: The laws of Hammurabi
+    changed: >-
+      Two hundred and seventy-five or so provisions, on a diorite stele set up
+      late in the reign, framed by a prologue in which the gods give the king
+      the task of making justice appear and an epilogue cursing anyone who
+      erases his name. Whether the courts applied it is genuinely doubted — no
+      Old Babylonian verdict cites it — and its consequence is not judicial
+      anyway. It fixed the form. Scribes copied it for the next fifteen hundred
+      years as a school text, which is why it survives, and it is the reason
+      this dynasty is a household name and the Ur III dynasty is not.
+    source: roth-1997
+    contested: true
+  - year: -1738
+    type: revolt
+    name: The loss of the south
+    changed: >-
+      Within twelve years of Hammurabi's death the southern cities revolted
+      against his son Samsu-iluna and were lost for good. Nippur, Ur, Uruk and
+      Larsa were substantially abandoned, their temple establishments moved
+      north, and the administrative archives that had run continuously for
+      centuries stop. The empire lasted one reign. The dynasty lasted another
+      hundred and forty years as a middling kingdom around Babylon.
+    source: beaulieu-2018
+    contested: false
+  - year: -1595
+    type: siege
+    name: The Hittite raid
+    changed: >-
+      Mursili I took the city and the dynasty ended. He held nothing and went
+      home, where he was murdered. This site carries the same event as the first
+      turning point of the Hittite record, which is the second such pairing in
+      this region — the fall of Nineveh in 612 is on three pages — and in both
+      cases the two entries say different things, because what the raid did to
+      Hatti and what it did to Babylon have almost nothing in common.
+    source: beaulieu-2018
+    contested: false
+
+measures:
+  # No cited figure. Taagepera's tabulations, which carry every other empire in
+  # this region including Mitanni and the Middle Assyrian kingdom, do not carry
+  # this one — plausibly because the empire existed for about fifty years and
+  # his series samples at intervals. The Ur III record has the same gap for a
+  # different reason, and the two of them are the best-documented states in the
+  # region and the only two with nothing in this column.
+  reach_km2: null
+  peak_population: null
+  influence:
+    # One, and it is the claim the Hittite record on this site was written to
+    # hand over. Hittite cuneiform is Old Babylonian cuneiform adapted to write
+    # an Indo-European language — new conventions, a new language, the same
+    # system — which is exactly the adaptation coding rule 3 counts, and rule 3
+    # counts it on the record of the polity whose script was adapted. Hittite is
+    # the earliest attested Indo-European language in the world, and the reason
+    # it is attested at all is a scribal borrowing from this dynasty.
+    descendant_scripts:
+      count: 1
+      items: [Hittite cuneiform]
+      source: bryce-2005
+    religions_carried: { count: 0, items: [], source: beaulieu-2018 }
+    # Zero, and the distinction it rests on is worth being exact about. Every
+    # later ruler of Mesopotamia wanted to be king of Babylon, and the
+    # Neo-Babylonian record in this region counts two such claims of its own.
+    # But those are claims on Babylon, which is a city, and rule 1 counts claims
+    # on polities. Nobody in the fifteen hundred years after 1595 asserted the
+    # legitimacy of the First Dynasty. What they asserted was the legitimacy of
+    # a place, and this site has no field for that.
+    successor_claims: { count: 0, items: [], source: beaulieu-2018 }

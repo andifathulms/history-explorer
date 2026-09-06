@@ -148,8 +148,8 @@ measures:
   # the earlier bound as the dated point rather than splitting the difference,
   # which hard rule 2 would not allow. It is worth reading beside the Egyptian
   # figure of 1,000,000 at 1450: Hatti fought Egypt to a standstill over Syria
-  # at under half its extent. The third Late Bronze Age record in this region,
-  # Mitanni, has no cited figure at all.
+  # at under half its extent. Mitanni, the third Late Bronze Age record in this
+  # region, is 300,000 at the same date.
   reach_km2: { value: 450000, at: -1250, source: taagepera-1978b }
   peak_population: null
   influence:

@@ -1,0 +1,161 @@
+id: ur-iii
+region: ancient-near-east
+
+name:
+  latin: Third Dynasty of Ur
+  script: 𒋀𒀕𒆠
+  script_lang: sux
+
+# The middle chronology, and at this depth the frame is shakier than it is on
+# the Hittite record, which carries a longer note on the same problem. Third
+# millennium dates hang off the second millennium ones and inherit all of their
+# uncertainty plus their own. The dynasty's internal chronology, by contrast, is
+# exact: every year of the hundred and eight has a name, the names are listed in
+# order on tablets kept for the purpose, and the sequence has no gaps.
+span:
+  start: { min: -2112, max: -2112, source: crawford-2013 }
+  end: { min: -2004, max: -2004, source: crawford-2013 }
+
+identity: >-
+  The Sumerian revival after Akkad, and the most exhaustively documented state
+  of the third millennium anywhere in the world.
+
+capitals:
+  - { name: Ur, script: 𒋀𒀕𒆠, from: -2112, source: crawford-2013 }
+
+core_region: Southern Mesopotamia
+
+rulers:
+  founder: { name: Ur-Nammu, reign: [-2112, -2095], source: crawford-2013 }
+  peak: { name: Shulgi, reign: [-2094, -2047], source: crawford-2013 }
+  last: { name: Ibbi-Sin, reign: [-2028, -2004], source: crawford-2013 }
+
+scripts_and_languages:
+  administration: [Sumerian, Akkadian]
+  writing_system: Cuneiform
+
+# Ur was taken by a coalition out of Elam and Shimashki and Ibbi-Sin was carried
+# off to Anshan. `by` is empty because Elam has no page in this corpus, which is
+# now the third record to point at that absence — the Elymais page calls it one
+# of this region's larger absences, the Assyrian page has Ashurbanipal
+# destroying it, and this one ends with it.
+ended:
+  type: conquest
+  by: []
+  year: -2004
+  source: crawford-2013
+
+institutions:
+  # Land held in return for service and a general obligation of labour and
+  # military service on the dependent population. The distinctive part is not
+  # the arrangement, which is ordinary, but that the accounts survive: this
+  # state issued receipts for everything and the receipts were kept, and the
+  # published administrative tablets from the dynasty number well over a
+  # hundred thousand.
+  military_basis: { values: [land-grant, conscript], source: crawford-2013 }
+  # The bala, a rotating obligation under which each province delivered to a
+  # central pool in its assigned months and drew from it in the others, and
+  # separately the gun mada, a levy in livestock from the militarised periphery.
+  # The bala is the earliest redistributive tax system in this corpus by well
+  # over a thousand years and it is reconstructed from the delivery records
+  # themselves rather than from anyone describing it.
+  revenue_basis: { values: [land-tax, tribute], source: crawford-2013 }
+  # Null, and this is a fifth kind of null on this site, distinct from the four
+  # the Median record sets out. The outcome could not be clearer: five kings of
+  # one family across a hundred and eight years, with one throne passing to a
+  # brother rather than a son and not one disputed accession on record. What is
+  # missing is the rule. No Ur III text states who was eligible or by what
+  # principle the throne passed, and coding rule 7 says the field takes the rule
+  # and not the outcome. A state that legislated theft, marriage, injury and the
+  # hire of oxen — Ur-Nammu's collection is the earliest surviving law code in
+  # the world — did not legislate its own succession, or did not write it down.
+  # The Old Babylonian record in this region carries the same null for the same
+  # reason across eleven generations, and the pair is worth reading together.
+  succession_rule: null
+  # Three. Shulgi was deified in his own lifetime and his name is written with
+  # the divine determinative from his twenty-first year, which is the strongest
+  # form the first value takes anywhere in this corpus. Beside it the dynastic
+  # line from Ur-Nammu, and the Akkadian titles — king of Sumer and Akkad, king
+  # of the four quarters — which is the third value and is also the edge to the
+  # Akkadian record.
+  legitimation: { values: [divine-sanction, descent, titulature], source: crawford-2013 }
+
+turning_points:
+  - year: -2074
+    type: reform
+    name: The deification of Shulgi
+    changed: >-
+      From his twenty-first year the king's name is written with the sign that
+      marks a god, hymns are composed to him as one, and offerings are made to
+      him in the temples of the state. Kings before him had been the servants of
+      gods. The change is dateable because it shows up in the year-names and in
+      the writing of the name itself, and it accompanies the reorganisation —
+      standard weights and measures, a single state calendar, a reformed
+      accounting system, the scribal schools — that made the administrative
+      record this page is built on possible.
+    source: crawford-2013
+    contested: false
+  - year: -2022
+    type: catastrophe
+    name: The grain crisis
+    changed: >-
+      In Ibbi-Sin's sixth year the price of grain at Ur rose to something like
+      sixty times its normal level, and the accounts show the provincial
+      deliveries that fed the capital failing province by province in the years
+      either side. Whether the cause was Amorite disruption of the roads,
+      failure of the irrigation, or the bala system itself seizing up under a
+      king who had lost the provinces is argued about. What the tablets show is
+      an administrative machine recording, in its own formulae, its own supply
+      failing.
+    source: crawford-2013
+    contested: false
+  - year: -2020
+    type: revolt
+    name: Ishbi-Erra at Isin
+    changed: >-
+      An officer sent north with silver to buy grain wrote back that he had the
+      grain and could not deliver it, asked to be made governor of Isin and
+      Nippur, and then simply became a king there. Within a few years he held
+      the north and Ibbi-Sin held the city of Ur and little else. The
+      correspondence between the two survives, in school copies, and is the
+      closest thing in this corpus to a state watching itself fall apart in
+      writing.
+    source: michalowski-2011
+    contested: true
+  - year: -2004
+    type: siege
+    name: The fall of Ur
+    changed: >-
+      An Elamite coalition took the city, sacked it and carried Ibbi-Sin away to
+      Anshan. It ended not only the dynasty but the last period in which
+      Sumerian-speaking southern Mesopotamia was the political centre of the
+      Near East; everything after it in this region is ruled from further north,
+      by Akkadian speakers, and Sumerian survives as a learned language.
+    source: crawford-2013
+    contested: false
+
+measures:
+  # No cited figure, and the contrast with the rest of this record is the point
+  # worth making. Taagepera's tabulations, which supply the extent of every
+  # other empire in this region, do not carry this dynasty. So the most
+  # completely documented state in the third millennium — a state whose
+  # provincial deliveries can be counted by the sheep — has no number in the
+  # column this site ranks on. Documentation and measurement are different axes
+  # and this page is where they come apart hardest.
+  reach_km2: null
+  peak_population: null
+  influence:
+    # Cuneiform, used unchanged and passed on unchanged. The adaptations that
+    # rule 3 counts happen later and are counted on the Old Babylonian record.
+    descendant_scripts: { count: 0, items: [], source: crawford-2013 }
+    religions_carried: { count: 0, items: [], source: crawford-2013 }
+    # Ishbi-Erra's dynasty at Isin took the Ur III royal titles, continued the
+    # royal hymn tradition and dated by year-names in the same form, presenting
+    # itself as the kingship of Ur continued elsewhere — titulature publicly
+    # asserted, which is rule 1's paradigm case. Counted once. Hammurabi's own
+    # style, three centuries later, includes king of Sumer and Akkad, and this
+    # record does not count it: by then the title had passed through Isin and
+    # Larsa for ten generations and was a general claim on Mesopotamian kingship
+    # rather than a claim on this dynasty. That distinction is a judgement and
+    # the fourth chapter argues it.
+    successor_claims: { count: 1, items: [Isin], source: crawford-2013 }

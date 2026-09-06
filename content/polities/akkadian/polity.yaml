@@ -78,4 +78,14 @@ measures:
   influence:
     descendant_scripts: { count: null, items: [], source: null }
     religions_carried: { count: null, items: [], source: null }
-    successor_claims: { count: null, items: [], source: null }
+    # The kings of Ur, a century later and across the Gutian interval, took
+    # this record's royal titles and carried them for a hundred and eight
+    # years — king of Sumer and Akkad, king of the four quarters. Titulature
+    # publicly asserted, which is rule 1's paradigm case, and the oldest edge in
+    # this corpus. Sargon and Naram-Sin went on being copied as school texts and
+    # imitated in royal inscriptions for another fifteen hundred years; that is
+    # a literary afterlife and not a claim, and it is not counted.
+    successor_claims:
+      count: 1
+      items: [Third Dynasty of Ur]
+      source: crawford-2013

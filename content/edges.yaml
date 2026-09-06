@@ -860,10 +860,7 @@ edges:
     source: beaulieu-2018
     contested: false
 
-  # Crosses out of the region, so no thread draws it. The Hittite record that
-  # enters alongside this one has no edge at all: it neither succeeds nor is
-  # succeeded by anything in this corpus, and hard rule 7 is the reason that is
-  # a finished state rather than a missing one.
+  # Crosses out of the region, so no thread draws it.
   - from: neo-babylonian
     to: achaemenid
     type: conquered by
@@ -873,6 +870,51 @@ edges:
       The administration, the scribes and the tablet formulae continued
       unchanged under a Persian regnal date.
     source: beaulieu-2018
+    contested: false
+
+  # The oldest edge in the corpus. Ur-Nammu and Shulgi took the Akkadian royal
+  # titles — king of Sumer and Akkad, king of the four quarters — a century
+  # after Akkad fell and with the Gutian interval in between. It is a claim, not
+  # a succession, and `claimed legitimacy of` is the type for exactly that.
+  - from: akkadian
+    to: ur-iii
+    type: claimed legitimacy of
+    year: -2112
+    note: >-
+      The Akkadian titulature was revived by the kings of Ur and carried for the
+      whole dynasty, together with the Akkadian language in administration
+      beside Sumerian.
+    source: crawford-2013
+    contested: false
+
+  # Reads as a succession and is not one, which is why the note says so. Mursili
+  # I ended the dynasty and kept nothing; Babylonia went to the Kassites, who
+  # have no page here. The edge records what happened between these two and
+  # nothing about what followed.
+  - from: old-babylonian
+    to: hittite
+    type: conquered by
+    year: -1595
+    note: >-
+      Mursili I came eight hundred kilometres down the Euphrates, took Babylon,
+      ended the dynasty of Hammurabi and went home. He installed no governor and
+      left no garrison, and was murdered on his return.
+    source: beaulieu-2018
+    contested: false
+
+  # The edge the Mitanni record's `ended.by` was empty for. Its comment said the
+  # conquerors were the Middle Assyrian kings and that this site's Assyrian entry
+  # began three and a half centuries later; there are now two Assyrian entries
+  # and this is the earlier one.
+  - from: mitanni
+    to: middle-assyrian
+    type: conquered by
+    year: -1260
+    note: >-
+      Adad-nirari I and Shalmaneser I took what Suppiluliuma had left of Mitanni
+      and made Hanigalbat a group of Assyrian provinces under Assyrian
+      governors.
+    source: frahm-2023
     contested: false
 
   # ---- Iran before Islam ----

@@ -1728,6 +1728,81 @@ sources:
       text of the 1259 treaty with Egypt. A source of documents rather than of
       argument, and cited where a page quotes or dates one.
 
+  - id: crawford-2013
+    kind: book
+    author: Harriet Crawford (ed.)
+    title: The Sumerian World
+    container: Routledge Worlds
+    publisher: Routledge
+    year: 2013
+    note: >-
+      Thirty-two specialists on southern Mesopotamia from 3000 to 2000 BC,
+      organised by theme rather than by reign. This site's Ur III institutions
+      are coded from it, because the questions the institution fields ask —
+      what an army was paid with, what a state's income consisted of — are
+      answered in this corpus by thematic handbooks and almost never by a
+      narrative of kings.
+
+  - id: michalowski-2011
+    kind: book
+    author: Piotr Michalowski
+    title: >-
+      The Correspondence of the Kings of Ur: An Epistolary History of an Ancient
+      Mesopotamian Kingdom
+    container: Mesopotamian Civilizations 15
+    publisher: Eisenbrauns
+    year: 2011
+    note: >-
+      The letters between the kings of Ur and their officials, collated across
+      more than a hundred manuscripts. Cited here for the last years of the
+      dynasty, which these letters describe from inside as they are happening,
+      and for the standing warning Michalowski attaches to them: they survive as
+      school copies, and a school copy of a royal letter is a literary object
+      before it is a document.
+
+  - id: roth-1997
+    kind: book
+    author: Martha T. Roth
+    title: Law Collections from Mesopotamia and Asia Minor
+    container: Writings from the Ancient World 6
+    publisher: Scholars Press
+    edition: 2nd
+    year: 1997
+    note: >-
+      Translations of the Mesopotamian and Hittite law collections in one volume
+      — the laws of Ur-Nammu, of Lipit-Ishtar, of Eshnunna, of Hammurabi, the
+      Middle Assyrian laws and the Hittite laws. Cited on this site wherever a
+      page quotes or dates one of them, which is on four records in the Ancient
+      Near East and nowhere else in the corpus.
+
+  - id: van-de-mieroop-2005
+    kind: book
+    author: Marc Van De Mieroop
+    title: "King Hammurabi of Babylon: A Biography"
+    container: Blackwell Ancient Lives
+    publisher: Blackwell
+    year: 2005
+    note: >-
+      The institutions on this site's Old Babylonian record are coded from it.
+      Van De Mieroop's argument is that Hammurabi's reputation as a lawgiver has
+      obscured a career that was mostly diplomacy and a state that mostly did
+      not outlive him, which is the shape that record takes.
+
+  - id: postgate-2013
+    kind: book
+    author: Nicholas Postgate
+    title: >-
+      Bronze Age Bureaucracy: Writing and the Practice of Government in Assyria
+    publisher: Cambridge University Press
+    year: 2013
+    note: >-
+      Ten Middle Assyrian government archives from Ashur and the provinces, many
+      previously unedited, read for what the practice of writing did to the
+      practice of governing. This site's Middle Assyrian institutions are coded
+      from it; the Neo-Assyrian record three hundred years later is coded from
+      frahm-2023, and the two together are the closest this corpus comes to
+      watching one state's machinery across a long interruption.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors

@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**2877 claims across 154 sources.**
+**2953 claims across 159 sources.**
 
 ## Where to start
 
@@ -60,7 +60,9 @@ ordinary state, not an item to clear.
 - [ ] `macedonian` — one figure, at -323 (Rein Taagepera, Size and Duration of Empires: Growth-Decline Curves, 600 B.C. to 600 A.D.)
 - [ ] `maurya` — one figure, at -250 (Rein Taagepera, Size and Duration of Empires: Growth-Decline Curves, 600 B.C. to 600 A.D.)
 - [ ] `median` — one figure, at -585 (Rein Taagepera, Size and Duration of Empires: Growth-Decline Curves, 600 B.C. to 600 A.D.)
+- [ ] `middle-assyrian` — one figure, at -1080 (Rein Taagepera, Size and Duration of Empires: Systematics of Size)
 - [ ] `ming` — one figure, at 1450 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
+- [ ] `mitanni` — one figure, at -1450 (Rein Taagepera, Size and Duration of Empires: Systematics of Size)
 - [ ] `mongol` — one figure, at 1270 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
 - [ ] `mughal` — one figure, at 1690 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
 - [ ] `neo-assyrian` — one figure, at -670 (Rein Taagepera, Size and Duration of Empires: Systematics of Size)
@@ -1344,6 +1346,49 @@ ordinary state, not an item to clear.
 - [ ] `polity/almoravid` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/almoravid` — ended by conquest in 1147
 
+## Paul-Alain Beaulieu, A History of Babylon, 2200 BC - AD 75
+*In Blackwell History of the Ancient World.*
+
+`beaulieu-2018` — 37 claims
+
+- [ ] `chapter/neo-babylonian/01-son-of-a-nobody.mdx` — prose: "Son of a nobody"
+- [ ] `chapter/neo-babylonian/02-carchemish.mdx` — prose: "Carchemish"
+- [ ] `chapter/neo-babylonian/03-jerusalem.mdx` — prose: "Jerusalem"
+- [ ] `chapter/neo-babylonian/06-539.mdx` — prose: "539"
+- [ ] `chapter/neo-babylonian/07-the-chronicles.mdx` — prose: "The chronicles"
+- [ ] `chapter/old-babylonian/01-one-amorite-kingdom-among-several.mdx` — prose: "One Amorite kingdom among several"
+- [ ] `chapter/old-babylonian/04-samsu-iluna.mdx` — prose: "Samsu-iluna"
+- [ ] `chapter/old-babylonian/05-1595.mdx` — prose: "1595"
+- [ ] `edge/neo-assyrian->neo-babylonian` — overthrew in -612
+- [ ] `edge/neo-babylonian->achaemenid` — conquered by in -539
+- [ ] `edge/old-babylonian->hittite` — conquered by in -1595
+- [ ] `polity/neo-babylonian` — span starts -626
+- [ ] `polity/neo-babylonian` — span ends -539
+- [ ] `polity/neo-babylonian` — capital Babylon from -626
+- [ ] `polity/neo-babylonian` — founder Nabopolassar r. -626--605
+- [ ] `polity/neo-babylonian` — peak Nebuchadnezzar II r. -605--562
+- [ ] `polity/neo-babylonian` — last Nabonidus r. -556--539
+- [ ] `polity/neo-babylonian` — succession rule coded nomination
+- [ ] `polity/neo-babylonian` — legitimation coded divine-sanction
+- [ ] `polity/neo-babylonian` — turning point -612 Nineveh
+- [ ] `polity/neo-babylonian` — turning point -605 Carchemish
+- [ ] `polity/neo-babylonian` — turning point -587 Jerusalem
+- [ ] `polity/neo-babylonian` — turning point -539 Opis
+- [ ] `polity/neo-babylonian` — descendant_scripts = 0
+- [ ] `polity/neo-babylonian` — religions_carried = 0
+- [ ] `polity/neo-babylonian` — successor_claims = 2 (Achaemenid Empire, Seleucid Empire)
+- [ ] `polity/neo-babylonian` — ended by conquest in -539
+- [ ] `polity/old-babylonian` — span starts -1894
+- [ ] `polity/old-babylonian` — span ends -1595
+- [ ] `polity/old-babylonian` — capital Babylon from -1894
+- [ ] `polity/old-babylonian` — founder Sumu-abum r. -1894--1881
+- [ ] `polity/old-babylonian` — last Samsu-ditana r. -1625--1595
+- [ ] `polity/old-babylonian` — turning point -1738 The loss of the south
+- [ ] `polity/old-babylonian` — turning point -1595 The Hittite raid
+- [ ] `polity/old-babylonian` — religions_carried = 0
+- [ ] `polity/old-babylonian` — successor_claims = 0
+- [ ] `polity/old-babylonian` — ended by conquest in -1595
+
 ## Ehsan Yarshater (ed.), The Cambridge History of Iran, Volume 3: The Seleucid, Parthian and Sasanian Periods
 
 `chi-3` — 37 claims
@@ -1633,6 +1678,43 @@ ordinary state, not an item to clear.
 - [ ] `polity/indo-greek` — legitimation coded conquest + divine-sanction
 - [ ] `polity/indo-greek` — turning point -155 The bilingual coinage
 - [ ] `polity/indo-greek` — ended by conquest in 10
+
+## Eckart Frahm, Assyria: The Rise and Fall of the World's First Empire
+
+`frahm-2023` — 32 claims
+
+- [ ] `chapter/middle-assyrian/01-two-records-one-state.mdx` — prose: "Two records, one state"
+- [ ] `chapter/middle-assyrian/03-hanigalbat.mdx` — prose: "Hanigalbat"
+- [ ] `chapter/middle-assyrian/04-the-murder-in-the-new-capital.mdx` — prose: "The murder in the new capital"
+- [ ] `chapter/middle-assyrian/05-the-silence.mdx` — prose: "The silence"
+- [ ] `chapter/neo-assyrian/01-a-city-and-a-god.mdx` — prose: "A city and a god with the same name"
+- [ ] `chapter/neo-assyrian/02-the-apparatus.mdx` — prose: "The machinery of empire"
+- [ ] `chapter/neo-assyrian/03-the-deportations.mdx` — prose: "The policy, examined"
+- [ ] `chapter/neo-assyrian/05-the-widest.mdx` — prose: "The widest it ever was"
+- [ ] `edge/mitanni->middle-assyrian` — conquered by in -1260
+- [ ] `polity/middle-assyrian` — span starts -1363
+- [ ] `polity/middle-assyrian` — span ends -1056
+- [ ] `polity/middle-assyrian` — capital Ashur from -1363
+- [ ] `polity/middle-assyrian` — capital Kar-Tukulti-Ninurta from -1233
+- [ ] `polity/middle-assyrian` — capital Ashur from -1207
+- [ ] `polity/middle-assyrian` — founder Ashur-uballit I r. -1363--1328
+- [ ] `polity/middle-assyrian` — peak Tiglath-Pileser I r. -1114--1076
+- [ ] `polity/middle-assyrian` — last Ashur-bel-kala r. -1073--1056
+- [ ] `polity/middle-assyrian` — succession rule coded nomination
+- [ ] `polity/middle-assyrian` — legitimation coded divine-sanction
+- [ ] `polity/middle-assyrian` — turning point -1260 Hanigalbat
+- [ ] `polity/middle-assyrian` — turning point -1233 Kar-Tukulti-Ninurta
+- [ ] `polity/middle-assyrian` — turning point -1225 Babylon
+- [ ] `polity/middle-assyrian` — turning point -1207 The murder in the new capital
+- [ ] `polity/middle-assyrian` — successor_claims = 0
+- [ ] `polity/middle-assyrian` — ended by fragmentation in -1056
+- [ ] `polity/neo-assyrian` — military basis coded standing-professional + conscript
+- [ ] `polity/neo-assyrian` — revenue basis coded land-tax + tribute + plunder
+- [ ] `polity/neo-assyrian` — succession rule coded nomination
+- [ ] `polity/neo-assyrian` — legitimation coded divine-sanction
+- [ ] `polity/neo-assyrian` — turning point -745 Tiglath-Pileser III
+- [ ] `polity/neo-assyrian` — turning point -722 Samaria
+- [ ] `polity/neo-assyrian` — turning point -689 The destruction of Babylon
 
 ## John C. Wilkinson, The Imamate Tradition of Oman
 *In Cambridge Middle East Library.*
@@ -1989,35 +2071,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/srivijaya` — religions_carried = 1 (Mahayana Buddhism)
 - [ ] `polity/srivijaya` — ended by gradual absorption in 1275
 
-## Paul-Alain Beaulieu, A History of Babylon, 2200 BC - AD 75
-*In Blackwell History of the Ancient World.*
-
-`beaulieu-2018` — 23 claims
-
-- [ ] `chapter/neo-babylonian/01-son-of-a-nobody.mdx` — prose: "Son of a nobody"
-- [ ] `chapter/neo-babylonian/02-carchemish.mdx` — prose: "Carchemish"
-- [ ] `chapter/neo-babylonian/03-jerusalem.mdx` — prose: "Jerusalem"
-- [ ] `chapter/neo-babylonian/06-539.mdx` — prose: "539"
-- [ ] `chapter/neo-babylonian/07-the-chronicles.mdx` — prose: "The chronicles"
-- [ ] `edge/neo-assyrian->neo-babylonian` — overthrew in -612
-- [ ] `edge/neo-babylonian->achaemenid` — conquered by in -539
-- [ ] `polity/neo-babylonian` — span starts -626
-- [ ] `polity/neo-babylonian` — span ends -539
-- [ ] `polity/neo-babylonian` — capital Babylon from -626
-- [ ] `polity/neo-babylonian` — founder Nabopolassar r. -626--605
-- [ ] `polity/neo-babylonian` — peak Nebuchadnezzar II r. -605--562
-- [ ] `polity/neo-babylonian` — last Nabonidus r. -556--539
-- [ ] `polity/neo-babylonian` — succession rule coded nomination
-- [ ] `polity/neo-babylonian` — legitimation coded divine-sanction
-- [ ] `polity/neo-babylonian` — turning point -612 Nineveh
-- [ ] `polity/neo-babylonian` — turning point -605 Carchemish
-- [ ] `polity/neo-babylonian` — turning point -587 Jerusalem
-- [ ] `polity/neo-babylonian` — turning point -539 Opis
-- [ ] `polity/neo-babylonian` — descendant_scripts = 0
-- [ ] `polity/neo-babylonian` — religions_carried = 0
-- [ ] `polity/neo-babylonian` — successor_claims = 2 (Achaemenid Empire, Seleucid Empire)
-- [ ] `polity/neo-babylonian` — ended by conquest in -539
-
 ## A. B. Bosworth, Conquest and Empire: The Reign of Alexander the Great
 
 `ab-bosworth-1988` — 22 claims
@@ -2044,6 +2097,34 @@ ordinary state, not an item to clear.
 - [ ] `polity/macedonian` — turning point -324 Susa and Opis
 - [ ] `polity/macedonian` — turning point -323 The settlement at Babylon
 - [ ] `polity/macedonian` — ended by fragmentation in -323
+
+## Harriet Crawford (ed.), The Sumerian World
+*In Routledge Worlds.*
+
+`crawford-2013` — 22 claims
+
+- [ ] `chapter/ur-iii/01-after-the-gutians.mdx` — prose: "After the Gutians"
+- [ ] `chapter/ur-iii/02-a-hundred-thousand-receipts.mdx` — prose: "A hundred thousand receipts"
+- [ ] `chapter/ur-iii/03-the-king-becomes-a-god.mdx` — prose: "The king becomes a god"
+- [ ] `chapter/ur-iii/05-2004.mdx` — prose: "2004"
+- [ ] `edge/akkadian->ur-iii` — claimed legitimacy of in -2112
+- [ ] `polity/akkadian` — successor_claims = 1 (Third Dynasty of Ur)
+- [ ] `polity/ur-iii` — span starts -2112
+- [ ] `polity/ur-iii` — span ends -2004
+- [ ] `polity/ur-iii` — capital Ur from -2112
+- [ ] `polity/ur-iii` — founder Ur-Nammu r. -2112--2095
+- [ ] `polity/ur-iii` — peak Shulgi r. -2094--2047
+- [ ] `polity/ur-iii` — last Ibbi-Sin r. -2028--2004
+- [ ] `polity/ur-iii` — military basis coded land-grant + conscript
+- [ ] `polity/ur-iii` — revenue basis coded land-tax + tribute
+- [ ] `polity/ur-iii` — legitimation coded divine-sanction + descent + titulature
+- [ ] `polity/ur-iii` — turning point -2074 The deification of Shulgi
+- [ ] `polity/ur-iii` — turning point -2022 The grain crisis
+- [ ] `polity/ur-iii` — turning point -2004 The fall of Ur
+- [ ] `polity/ur-iii` — descendant_scripts = 0
+- [ ] `polity/ur-iii` — religions_carried = 0
+- [ ] `polity/ur-iii` — successor_claims = 1 (Isin)
+- [ ] `polity/ur-iii` — ended by conquest in -2004
 
 ## James Wilson, Medieval Syria and the Onset of the Crusades: The Political World of Bilad al-Sham 1050-1128
 
@@ -2341,6 +2422,31 @@ ordinary state, not an item to clear.
 - [ ] `polity/ikhshidid` — turning point 969 The terms at Fustat
 - [ ] `polity/ikhshidid` — ended by conquest in 969
 
+## Trevor Bryce, The Kingdom of the Hittites
+
+`bryce-2005` — 20 claims
+
+- [ ] `chapter/hittite/01-hattusa.mdx` — prose: "Hattusa"
+- [ ] `chapter/hittite/02-the-raid-on-babylon.mdx` — prose: "The raid on Babylon"
+- [ ] `chapter/hittite/03-telipinus-edict.mdx` — prose: "Telipinu's Edict"
+- [ ] `chapter/hittite/04-suppiluliuma.mdx` — prose: "Suppiluliuma"
+- [ ] `chapter/hittite/06-1180.mdx` — prose: "1180"
+- [ ] `polity/hittite` — span starts -1650
+- [ ] `polity/hittite` — span ends -1180
+- [ ] `polity/hittite` — capital Hattusa from -1650
+- [ ] `polity/hittite` — capital Tarhuntassa from -1290
+- [ ] `polity/hittite` — capital Hattusa from -1272
+- [ ] `polity/hittite` — founder Hattusili I r. -1650--1620
+- [ ] `polity/hittite` — peak Suppiluliuma I r. -1350--1322
+- [ ] `polity/hittite` — last Suppiluliuma II r. -1207--1180
+- [ ] `polity/hittite` — turning point -1595 The raid on Babylon
+- [ ] `polity/hittite` — turning point -1500 Telipinu's Edict
+- [ ] `polity/hittite` — turning point -1340 The Syrian campaigns
+- [ ] `polity/hittite` — turning point -1274 Kadesh
+- [ ] `polity/hittite` — successor_claims = 1 (Carchemish)
+- [ ] `polity/hittite` — ended by fragmentation in -1180
+- [ ] `polity/old-babylonian` — descendant_scripts = 1 (Hittite cuneiform)
+
 ## Andrew M. Smith II, Roman Palmyra: Identity, Community, and State Formation
 
 `smith-2013` — 20 claims
@@ -2475,30 +2581,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/fatimid` — ended by internal usurpation in 1171
 - [ ] `polity/zangid` — turning point 1169 Shirkuh dies two months into the vizierate
 - [ ] `polity/zangid` — ended by gradual absorption in 1250
-
-## Trevor Bryce, The Kingdom of the Hittites
-
-`bryce-2005` — 19 claims
-
-- [ ] `chapter/hittite/01-hattusa.mdx` — prose: "Hattusa"
-- [ ] `chapter/hittite/02-the-raid-on-babylon.mdx` — prose: "The raid on Babylon"
-- [ ] `chapter/hittite/03-telipinus-edict.mdx` — prose: "Telipinu's Edict"
-- [ ] `chapter/hittite/04-suppiluliuma.mdx` — prose: "Suppiluliuma"
-- [ ] `chapter/hittite/06-1180.mdx` — prose: "1180"
-- [ ] `polity/hittite` — span starts -1650
-- [ ] `polity/hittite` — span ends -1180
-- [ ] `polity/hittite` — capital Hattusa from -1650
-- [ ] `polity/hittite` — capital Tarhuntassa from -1290
-- [ ] `polity/hittite` — capital Hattusa from -1272
-- [ ] `polity/hittite` — founder Hattusili I r. -1650--1620
-- [ ] `polity/hittite` — peak Suppiluliuma I r. -1350--1322
-- [ ] `polity/hittite` — last Suppiluliuma II r. -1207--1180
-- [ ] `polity/hittite` — turning point -1595 The raid on Babylon
-- [ ] `polity/hittite` — turning point -1500 Telipinu's Edict
-- [ ] `polity/hittite` — turning point -1340 The Syrian campaigns
-- [ ] `polity/hittite` — turning point -1274 Kadesh
-- [ ] `polity/hittite` — successor_claims = 1 (Carchemish)
-- [ ] `polity/hittite` — ended by fragmentation in -1180
 
 ## G. Rex Smith, The Ayyubids and Early Rasulids in the Yemen (567-694/1173-1295)
 *In E. J. W. Gibb Memorial, New Series XXVI.*
@@ -3240,22 +3322,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/ming` — ended by conquest in 1644
 - [ ] `polity/yuan` — ended by conquest in 1368
 
-## Eckart Frahm, Assyria: The Rise and Fall of the World's First Empire
-
-`frahm-2023` — 11 claims
-
-- [ ] `chapter/neo-assyrian/01-a-city-and-a-god.mdx` — prose: "A city and a god with the same name"
-- [ ] `chapter/neo-assyrian/02-the-apparatus.mdx` — prose: "The machinery of empire"
-- [ ] `chapter/neo-assyrian/03-the-deportations.mdx` — prose: "The policy, examined"
-- [ ] `chapter/neo-assyrian/05-the-widest.mdx` — prose: "The widest it ever was"
-- [ ] `polity/neo-assyrian` — military basis coded standing-professional + conscript
-- [ ] `polity/neo-assyrian` — revenue basis coded land-tax + tribute + plunder
-- [ ] `polity/neo-assyrian` — succession rule coded nomination
-- [ ] `polity/neo-assyrian` — legitimation coded divine-sanction
-- [ ] `polity/neo-assyrian` — turning point -745 Tiglath-Pileser III
-- [ ] `polity/neo-assyrian` — turning point -722 Samaria
-- [ ] `polity/neo-assyrian` — turning point -689 The destruction of Babylon
-
 ## Christopher I. Beckwith, The Tibetan Empire in Central Asia
 
 `beckwith-1987` — 11 claims
@@ -3418,6 +3484,20 @@ ordinary state, not an item to clear.
 - [ ] `polity/zurayid` — military basis coded tribal-levy
 - [ ] `polity/zurayid` — revenue basis coded trade-toll
 
+## Rein Taagepera, Size and Duration of Empires: Systematics of Size
+*In Social Science Research 7(2), 108-127.*
+
+`taagepera-1978b` — 8 claims
+
+- [ ] `polity/akkadian` — reach 650,000 km2 at -2300
+- [ ] `polity/egypt-new-kingdom` — reach 1,000,000 km2 at -1450
+- [ ] `polity/hittite` — reach 450,000 km2 at -1250
+- [ ] `polity/middle-assyrian` — reach 400,000 km2 at -1080
+- [ ] `polity/mitanni` — reach 300,000 km2 at -1450
+- [ ] `polity/neo-assyrian` — reach 1,400,000 km2 at -670
+- [ ] `polity/neo-babylonian` — reach 500,000 km2 at -562
+- [ ] `reference/akkadian` — reach 650,000 km2 at -2300
+
 ## Benjamin R. Foster, The Age of Agade: Inventing Empire in Ancient Mesopotamia
 
 `foster-2016` — 8 claims
@@ -3468,17 +3548,18 @@ ordinary state, not an item to clear.
 - [ ] `polity/mamluk-sultanate` — turning point 1291 The fall of Acre
 - [ ] `polity/mamluk-sultanate` — turning point 1315 The rawk al-nasiri
 
-## Rein Taagepera, Size and Duration of Empires: Systematics of Size
-*In Social Science Research 7(2), 108-127.*
+## Marc Van De Mieroop, King Hammurabi of Babylon: A Biography
+*In Blackwell Ancient Lives.*
 
-`taagepera-1978b` — 6 claims
+`van-de-mieroop-2005` — 7 claims
 
-- [ ] `polity/akkadian` — reach 650,000 km2 at -2300
-- [ ] `polity/egypt-new-kingdom` — reach 1,000,000 km2 at -1450
-- [ ] `polity/hittite` — reach 450,000 km2 at -1250
-- [ ] `polity/neo-assyrian` — reach 1,400,000 km2 at -670
-- [ ] `polity/neo-babylonian` — reach 500,000 km2 at -562
-- [ ] `reference/akkadian` — reach 650,000 km2 at -2300
+- [ ] `chapter/old-babylonian/02-twelve-years.mdx` — prose: "Twelve years"
+- [ ] `polity/old-babylonian` — peak Hammurabi r. -1792--1750
+- [ ] `polity/old-babylonian` — military basis coded land-grant
+- [ ] `polity/old-babylonian` — revenue basis coded land-tax + tribute
+- [ ] `polity/old-babylonian` — legitimation coded divine-sanction + descent + titulature
+- [ ] `polity/old-babylonian` — turning point -1763 Larsa
+- [ ] `polity/old-babylonian` — turning point -1761 Mari
 
 ## multiple contributors, SALJUQS
 *In Encyclopaedia Iranica.*
@@ -3551,6 +3632,16 @@ ordinary state, not an item to clear.
 - [ ] `polity/ayyubid` — revenue basis coded land-tax + trade-toll
 - [ ] `polity/ayyubid` — legitimation coded caliphal-investiture
 - [ ] `polity/ayyubid` — turning point 1171 The Abbasid khutba restored in Cairo
+
+## Nicholas Postgate, Bronze Age Bureaucracy: Writing and the Practice of Government in Assyria
+
+`postgate-2013` — 5 claims
+
+- [ ] `chapter/middle-assyrian/02-the-ginau.mdx` — prose: "The ginā'u"
+- [ ] `polity/middle-assyrian` — military basis coded land-grant + conscript
+- [ ] `polity/middle-assyrian` — revenue basis coded land-tax + tribute
+- [ ] `polity/middle-assyrian` — descendant_scripts = 0
+- [ ] `polity/middle-assyrian` — religions_carried = 0
 
 ## Patricia Crone and Martin Hinds, God's Caliph: Religious Authority in the First Centuries of Islam
 *In University of Cambridge Oriental Publications 37.*
@@ -3725,6 +3816,14 @@ ordinary state, not an item to clear.
 - [ ] `chapter/neo-babylonian/05-the-king-who-went-to-arabia.mdx` — prose: "The king who went to Arabia"
 - [ ] `polity/neo-babylonian` — turning point -553 Tayma (contested)
 
+## Martha T. Roth, Law Collections from Mesopotamia and Asia Minor
+*In Writings from the Ancient World 6.*
+
+`roth-1997` — 2 claims
+
+- [ ] `chapter/old-babylonian/03-the-stele.mdx` — prose: "The stele"
+- [ ] `polity/old-babylonian` — turning point -1755 The laws of Hammurabi (contested)
+
 ## Baki Tezcan, The Second Ottoman Empire: Political and Social Transformation in the Early Modern World
 *In Cambridge Studies in Islamic Civilization.*
 
@@ -3754,6 +3853,14 @@ ordinary state, not an item to clear.
 
 - [ ] `polity/umayyad` — revenue basis coded land-tax + poll-tax + plunder
 - [ ] `polity/umayyad` — turning point 718 The second siege of Constantinople
+
+## Piotr Michalowski, The Correspondence of the Kings of Ur: An Epistolary History of an Ancient Mesopotamian Kingdom
+*In Mesopotamian Civilizations 15.*
+
+`michalowski-2011` — 2 claims
+
+- [ ] `chapter/ur-iii/04-the-grain.mdx` — prose: "The grain"
+- [ ] `polity/ur-iii` — turning point -2020 Ishbi-Erra at Isin (contested)
 
 ## Dimitri Gutas, Greek Thought, Arabic Culture: The Graeco-Arabic Translation Movement in Baghdad and Early 'Abbasid Society
 
