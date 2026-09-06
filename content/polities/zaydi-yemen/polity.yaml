@@ -46,7 +46,14 @@ ended:
 
 institutions:
   military_basis: { values: [tribal-levy], source: dresch-1989 }
-  revenue_basis: null
+  # The zakat and the tithe on highland agriculture for most of the office's
+  # life, which is a modest revenue from terraced land, and — for one period
+  # only — the customs of Mocha, when the Qasimid imams held the coast and
+  # Yemen had a monopoly on the coffee Europe had just started drinking. That
+  # century is the only time this polity had a large cash income, and the
+  # chapters treat it as the explanation for the century rather than a detail
+  # of it. Unranked.
+  revenue_basis: { values: [land-tax, trade-toll], source: dresch-1989 }
   # Null, and this is the third polity added today where the vocabulary has no
   # honest value. The Zaydi imam is not designated, not inherited and not
   # elected: any qualified Alid who satisfies the conditions may claim the
@@ -70,6 +77,18 @@ turning_points:
       drove an Ottoman provincial administration out of Yemen entirely and
       ruled the whole country, coast and interior, for the first time. The
       Qasimid family that did it held the office from then until the end.
+    source: dresch-1989
+    contested: false
+  - year: 1918
+    type: treaty
+    name: "The Ottomans leave"
+    changed: >-
+      The Ottoman empire ended elsewhere and its Yemeni province went with it,
+      and Imam Yahya became the government of an independent state with
+      recognised borders — which is a different thing from an imam holding
+      highland districts, and is what the office had never been before. The
+      imamate spent the following forty-four years discovering that governing a
+      country is not the same problem as arbitrating between tribes.
     source: dresch-1989
     contested: false
   - year: 1948

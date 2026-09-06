@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**2096 claims across 115 sources.**
+**2101 claims across 116 sources.**
 
 ## Where to start
 
@@ -2012,6 +2012,27 @@ ordinary state, not an item to clear.
 - [ ] `polity/songhai` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/songhai` — ended by conquest in 1591
 
+## Paul Dresch, Tribes, Government, and History in Yemen
+
+`dresch-1989` — 16 claims
+
+- [ ] `chapter/zaydi-yemen/01-invited-to-arbitrate.mdx` — prose: "Invited to arbitrate"
+- [ ] `chapter/zaydi-yemen/02-one-power-among-several.mdx` — prose: "One power among several, for seven hundred years"
+- [ ] `chapter/zaydi-yemen/03-the-qasimid-century.mdx` — prose: "The century it ruled everything"
+- [ ] `chapter/zaydi-yemen/05-what-a-thousand-years-means.mdx` — prose: "What a thousand years means here"
+- [ ] `chapter/zaydi-yemen/06-1962.mdx` — prose: "1962"
+- [ ] `polity/zaydi-yemen` — span ends 1962
+- [ ] `polity/zaydi-yemen` — capital Sana'a
+- [ ] `polity/zaydi-yemen` — peak al-Mu'ayyad Muhammad
+- [ ] `polity/zaydi-yemen` — last Muhammad al-Badr
+- [ ] `polity/zaydi-yemen` — military basis coded tribal-levy
+- [ ] `polity/zaydi-yemen` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/zaydi-yemen` — legitimation coded descent + election
+- [ ] `polity/zaydi-yemen` — turning point 1636 The expulsion of the Ottomans
+- [ ] `polity/zaydi-yemen` — turning point 1918 The Ottomans leave
+- [ ] `polity/zaydi-yemen` — turning point 1948 The killing of Imam Yahya
+- [ ] `polity/zaydi-yemen` — ended by internal usurpation in 1962
+
 ## C. E. Bosworth, SAMANIDS
 *In Encyclopaedia Iranica.*
 <https://iranicaonline.org/articles/samanids>
@@ -2260,23 +2281,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/mughal` — last Bahadur Shah II r. 1837-1857
 - [ ] `polity/mughal` — ended by conquest in 1857
 - [ ] `polity/timurid` — successor_claims = 1 (Mughal Empire)
-
-## Paul Dresch, Tribes, Government, and History in Yemen
-
-`dresch-1989` — 12 claims
-
-- [ ] `chapter/zaydi-yemen/01-invited-to-arbitrate.mdx` — prose: "Invited to arbitrate"
-- [ ] `chapter/zaydi-yemen/02-the-qasimid-century.mdx` — prose: "The century it ruled everything"
-- [ ] `chapter/zaydi-yemen/03-what-a-thousand-years-means.mdx` — prose: "What a thousand years means here"
-- [ ] `polity/zaydi-yemen` — span ends 1962
-- [ ] `polity/zaydi-yemen` — capital Sana'a
-- [ ] `polity/zaydi-yemen` — peak al-Mu'ayyad Muhammad
-- [ ] `polity/zaydi-yemen` — last Muhammad al-Badr
-- [ ] `polity/zaydi-yemen` — military basis coded tribal-levy
-- [ ] `polity/zaydi-yemen` — legitimation coded descent + election
-- [ ] `polity/zaydi-yemen` — turning point 1636 The expulsion of the Ottomans
-- [ ] `polity/zaydi-yemen` — turning point 1948 The killing of Imam Yahya
-- [ ] `polity/zaydi-yemen` — ended by internal usurpation in 1962
 
 ## John E. Woods, The Aqquyunlu: Clan, Confederation, Empire
 
@@ -2842,3 +2846,10 @@ ordinary state, not an item to clear.
 `kennedy-2007` — 1 claims
 
 - [ ] `chapter/umayyad/03-the-second-wave.mdx` — prose: "Three frontiers in one decade"
+
+## Bernard Haykel, Revival and Reform in Islam: The Legacy of Muhammad al-Shawkani
+*In Cambridge Studies in Islamic Civilization.*
+
+`haykel-2003` — 1 claims
+
+- [ ] `chapter/zaydi-yemen/04-the-dynasty-problem.mdx` — prose: "An open office that became a family's"
