@@ -532,6 +532,40 @@ edges:
     source: peacock-yildiz-2013
     contested: false
 
+  # ---- Judaea: the region's first internal edge ----
+
+  # The Eastern Mediterranean after Alexander had three records and no internal
+  # edge, then five and still none: Ptolemaic Egypt is partitioned from a
+  # Macedonian record filed under Iran before Islam, Palmyra and the two Arab
+  # client dynasties all point outward to Rome or to Iran. This is the first
+  # edge with both ends inside the region, and it is why it now draws a thread.
+  - from: hasmonean
+    to: herodian
+    type: overthrew
+    year: -37
+    note: >-
+      Herod took Jerusalem after a five-month siege with a Roman army under
+      Sosius, and Antony had Antigonus II beheaded — the first time Rome
+      executed a foreign king, which Josephus says was done because no Jew would
+      otherwise accept the man replacing him.
+    source: smallwood-1976
+    contested: false
+
+  # Out of the region and drawn by no thread. `absorbed remnants of` rather than
+  # `conquered by` for the same reason as the Nabataean edge below: this was
+  # three administrative acts across eighty-six years, on the deposition or the
+  # death of a client, and no campaign was fought for any of them.
+  - from: herodian
+    to: roman
+    type: absorbed remnants of
+    year: 92
+    note: >-
+      Judaea proper became a province in AD 6 when Archelaus was deposed,
+      Agrippa I held the whole kingdom again from 41 to 44, and the last
+      Herodian territories passed to Rome on Agrippa II's death.
+    source: smallwood-1976
+    contested: false
+
   # ---- The Arab clients of Rome and Iran, and what Rome did with Petra ----
 
   # Neither of the two Arab client dynasties in this pass takes an edge to the

@@ -1,0 +1,162 @@
+id: hasmonean
+region: eastern-mediterranean
+
+name:
+  latin: Hasmonean Kingdom
+  script: חשמונאים
+  script_lang: he
+
+# 140 is the decree of the great assembly that made Simon leader and high priest
+# and made the offices hereditary in his family — the constituting document, and
+# the reason this record starts here rather than at the revolt of 167 or the
+# grant of tax exemption in 142. 37 is Herod taking Jerusalem.
+span:
+  start: { min: -140, max: -140, source: regev-2013 }
+  end: { min: -37, max: -37, source: smallwood-1976 }
+
+identity: >-
+  A priestly family that led a revolt, took the high priesthood, then took the
+  title of king, and ruled an expanding Judaea for a century without being
+  descended from anyone who had a right to any of it.
+
+capitals:
+  - { name: Jerusalem, script: ירושלים, from: -140, source: regev-2013 }
+
+core_region: Judaea, Samaria, Idumaea, Galilee and the Transjordan
+
+rulers:
+  founder: { name: Simon Thassi, reign: [-142, -135], source: regev-2013 }
+  peak: { name: Alexander Jannaeus, reign: [-103, -76], source: regev-2013 }
+  last: { name: Antigonus II Mattathias, reign: [-40, -37], source: smallwood-1976 }
+
+scripts_and_languages:
+  administration: [Hebrew, Aramaic, Greek]
+  writing_system: Hebrew square script, with paleo-Hebrew revived on the coinage
+
+# Herod took Jerusalem after a five-month siege with a Roman army under Sosius,
+# and Antony had Antigonus beheaded — the first time Rome executed a foreign
+# king, which Josephus says was done because no Jew would otherwise accept
+# Herod. `by` names both because both were there and neither did it alone.
+ended:
+  type: conquest
+  by: [herodian, roman]
+  year: -37
+  source: smallwood-1976
+
+institutions:
+  # A citizen levy and, from John Hyrcanus onward, foreign professionals under
+  # contract. Josephus makes the mercenaries the thing the Pharisees held
+  # against Jannaeus, and the objection was not that they were expensive: a
+  # Jewish high priest paying Pisidians and Cilicians to hold Jerusalem against
+  # his own people is a statement about what the office had become.
+  military_basis: { values: [conscript, mercenary], source: regev-2013 }
+  # Agricultural taxation of an expanding territory, and tribute from the
+  # regions taken. The Temple's own revenue — the half-shekel, the tithes, the
+  # offerings of a diaspora reaching from Babylonia to Rome — is not coded here
+  # and belongs to the institution rather than the state, though the same family
+  # held both, which is the whole difficulty of this record.
+  revenue_basis: { values: [land-tax, tribute], source: regev-2013 }
+  # `election`, and this is one of a handful of records in the corpus where the
+  # field is filled from a surviving document rather than from a pattern. In 140
+  # a great assembly of priests, people and elders decreed that Simon should be
+  # leader and high priest for ever, until a trustworthy prophet should arise,
+  # and that the offices should pass to his sons; the decree was engraved on
+  # bronze tablets and set up in the Temple precinct, and 1 Maccabees quotes it.
+  #
+  # What the decree does not do is name an order, and coding rule 7 forbids
+  # supplying one. The succession then ran son, son, brother, widow, and a civil
+  # war between two brothers that ended the state. `election` records the ground
+  # the family held the offices on, which is what the field asks.
+  succession_rule: { values: [election], source: regev-2013 }
+  # The same decree, and conquest. What is missing is the interesting part: the
+  # Hasmoneans were not of the house of David and not of the Zadokite high
+  # priestly line, so neither of the two hereditary claims available in Judaea
+  # was open to them. They ruled on a public grant and on what they had taken,
+  # and Regev's argument is that the coins and the palaces are the work of a
+  # dynasty aware that it needed to keep saying so.
+  legitimation: { values: [election, conquest], source: regev-2013 }
+
+turning_points:
+  - year: -140
+    type: reform
+    name: The decree of the great assembly
+    changed: >-
+      A revolt became a state. The assembly conferred the high priesthood, the
+      civil leadership and the command of the army on one man and on his
+      descendants, in a single document, and forbade anyone to contest it. It is
+      the moment the Maccabean rising stops being a rising, and it is also the
+      moment the high priesthood becomes a dynastic possession — which is the
+      grievance that produces the Pharisees, the Essenes and eventually the
+      party divisions that Rome walked into.
+    source: regev-2013
+    contested: false
+  - year: -112
+    type: conversion
+    name: Idumaea
+    changed: >-
+      John Hyrcanus took Idumaea, south of Judaea, and according to Josephus
+      required its population to be circumcised and to live under Jewish law or
+      leave. Whether it was as coercive as that is argued about; that Idumaea
+      was Jewish afterwards is not. The consequence is the record that follows
+      this one in this corpus. Herod was an Idumaean, and he was a Jew because
+      of this campaign, and the objection his enemies made to him for fifty
+      years was that being a Jew that way did not count.
+    source: regev-2013
+    contested: true
+  - year: -104
+    type: reform
+    name: The diadem
+    changed: >-
+      Aristobulus I put on a crown and used the title of king, which no Jewish
+      ruler had held since the Babylonians took Jerusalem four hundred and
+      eighty years earlier. The high priest of the Temple was now also a
+      Hellenistic monarch with a Greek regnal name, and the two roles pulled
+      against each other for the rest of the dynasty's life.
+    source: regev-2013
+    contested: false
+  - year: -67
+    type: succession-crisis
+    name: The two brothers
+    changed: >-
+      Salome Alexandra died having ruled nine years, with the high priesthood in
+      one son and the succession promised to him and the army loyal to the
+      other. Hyrcanus II and Aristobulus II fought, then both appealed to Rome,
+      which is the specific act that ended Jewish independence. A dynasty whose
+      constituting decree had not said who inherited spent its last decade
+      demonstrating why that mattered.
+    source: smallwood-1976
+    contested: false
+  - year: -63
+    type: siege
+    name: Pompey in Jerusalem
+    changed: >-
+      Pompey took the city for the brother who had asked him to, entered the
+      Holy of Holies and reported finding nothing in it, and left the Temple
+      treasure untouched. Judaea kept a Hasmonean high priest and lost its
+      territory, its title and its independence in one afternoon. Everything
+      after this on both this record and the next is a client arrangement.
+    source: smallwood-1976
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: regev-2013 }
+    # Coding rule 2 counts conquest followed by durable religious institutions
+    # where a source connects the two, and this is the corpus's starkest
+    # instance. Idumaea and, under Aristobulus I, part of Ituraea were annexed
+    # and their populations brought under Jewish law, and they stayed that way.
+    # It is a count for propagation and it is not a count for a mission: the
+    # instrument was an army, and the page says so.
+    religions_carried:
+      count: 1
+      items: [Judaism]
+      source: regev-2013
+    # Zero, and it is a clean application of rule 1's hardest exclusion. Herod
+    # married Mariamme the Hasmonean, made her brother high priest, and then had
+    # them both killed. The marriage is a genealogy and the genealogy was
+    # useful, and neither is a public assertion that his right to rule came from
+    # this dynasty — his own coins and his own account say it came from Rome.
+    # Rule 1 counts claims, not connections.
+    successor_claims: { count: 0, items: [], source: smallwood-1976 }

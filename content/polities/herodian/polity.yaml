@@ -1,0 +1,168 @@
+id: herodian
+region: eastern-mediterranean
+
+name:
+  latin: Herodian Kingdom
+  # Null, and the reason is on the page. This dynasty's public language was
+  # Greek: the coins read basileus Herodou, the building inscriptions are Greek
+  # and Latin, and Josephus wrote the history in Greek for a Roman audience. A
+  # Hebrew name here would assert a self-presentation this record did not have,
+  # and a Greek one would need a form no source gives for the kingdom itself.
+  script: null
+  script_lang: null
+
+# 37 is the taking of Jerusalem; Herod had been voted king in Rome three years
+# earlier and spent them fighting for the kingdom he had been granted. The end
+# is the death of Agrippa II, the last of the line to hold territory, which is
+# usually put at 92 and which Kokkinos and others move to about 100. Between
+# those two dates the Judaean core was a Roman province from AD 6 except for
+# three years under Agrippa I, and this record covers the dynasty rather than
+# the territory. Chapter 4 is about that.
+span:
+  start: { min: -37, max: -37, source: richardson-1996 }
+  end: { min: 92, max: 92, source: smallwood-1976 }
+
+identity: >-
+  A converted Idumaean made king of the Jews by a vote of the Roman senate, and
+  the kingdom he built to be worth keeping.
+
+capitals:
+  - { name: Jerusalem, script: ירושלים, from: -37, source: richardson-1996 }
+
+core_region: Judaea, Samaria, Galilee, Idumaea and the territories north-east of the Sea of Galilee
+
+# `founder` and `peak` are the same man, which happens on very few records here
+# and is the shape of this one: the dynasty's maximum extent, revenue and
+# building are all in its first reign, and the following hundred and thirty
+# years are a division of the estate.
+rulers:
+  founder: { name: Herod I, reign: [-37, -4], source: richardson-1996 }
+  peak: { name: Herod I, reign: [-37, -4], source: richardson-1996 }
+  last: { name: Agrippa II, reign: [50, 92], source: smallwood-1976 }
+
+scripts_and_languages:
+  administration: [Greek, Aramaic]
+  writing_system: Greek
+
+# Not a conquest and not one event. Judaea proper became a Roman province in AD
+# 6 when Archelaus was deposed; Agrippa I held the whole of Herod's kingdom
+# again from 41 to 44 and it reverted on his death; Agrippa II's northern
+# territories passed to Rome when he died. Three absorptions across eighty-six
+# years, each an administrative act on the removal or death of a client, which
+# is what `gradual absorption` is for. The Nabataean record in this region ends
+# the same way for the same reason.
+ended:
+  type: gradual absorption
+  by: [roman]
+  year: 92
+  source: smallwood-1976
+
+institutions:
+  # Foreign professionals and military settlers. Herod's guard included
+  # Thracians, Germans and the Gauls Augustus transferred to him from
+  # Cleopatra's household, and he planted Idumaean and Babylonian Jewish
+  # colonists on grants of land in Batanaea on condition of service, to hold
+  # country that had been bandit territory. There is no citizen levy of the kind
+  # the Hasmonean record codes: a king installed by Rome against the population
+  # does not raise the population.
+  military_basis: { values: [mercenary, land-grant], source: richardson-1996 }
+  # Agricultural taxation, and two things that are unusual enough to be worth
+  # the extra values. The balsam groves of Jericho and Ein Gedi were a royal
+  # monopoly on a product grown nowhere else and worth more than its weight in
+  # silver. And Josephus has Augustus lease Herod half the revenue of the copper
+  # mines of Cyprus — income from extraction in a province the king did not
+  # rule, granted by the overlord who had made him king, which is the
+  # arrangement of this whole record compressed into a single line of accounts.
+  revenue_basis: { values: [land-tax, monopoly, mining], source: richardson-1996 }
+  # `nomination`, twice over. Herod named his heirs in a will he rewrote at
+  # least six times as he killed successive sons, and the operative fact is
+  # what happened to the last version: it was carried to Rome and argued before
+  # Augustus, who ratified part of it and altered the rest, dividing the kingdom
+  # among three sons and giving none of them the royal title. The king
+  # designated and the emperor decided.
+  succession_rule: { values: [nomination], source: richardson-1996 }
+  # The cleanest case of this value in the corpus after the Jafnid record.
+  # Herod was made king by a vote of the Roman senate in 40 BC, in Rome, with
+  # Antony and Octavian escorting him to the Capitol — before he held any of the
+  # territory. He was not Davidic, not Hasmonean, not a priest, and by his
+  # enemies' account not properly a Jew. `descent` is not available to this
+  # record and `conquest` describes how he took Jerusalem rather than why he was
+  # entitled to. What he had was the grant, and he put it on his coins.
+  legitimation: { values: [investiture], source: richardson-1996 }
+
+turning_points:
+  - year: -37
+    type: siege
+    name: Jerusalem
+    changed: >-
+      Herod took the city after five months with a Roman army under Sosius, and
+      Antony had the last Hasmonean beheaded. This corpus's Hasmonean record
+      carries the same siege as its ending, which makes this the second pair of
+      records in the corpus joined at one event from both sides and the first
+      where both are in the same region. It is also the edge that gives this
+      region a thread.
+    source: smallwood-1976
+    contested: false
+  - year: -20
+    type: reform
+    name: The Temple
+    changed: >-
+      Herod began rebuilding the Second Temple on an artificial platform that
+      doubled the enclosure to some fourteen hectares, the largest sacred
+      precinct in the Roman world. It took decades and was finished about six
+      years before it was destroyed. It made Jerusalem a pilgrimage economy on a
+      scale it had not had, which is the city the Gospels and Josephus both
+      describe, and its retaining wall is still the most visited object in this
+      corpus.
+    source: richardson-1996
+    contested: false
+  - year: -4
+    type: succession-crisis
+    name: The will
+    changed: >-
+      Herod died and his will went to Rome, where his sons and a delegation from
+      Judaea asking for no king at all argued it before Augustus. The kingdom
+      was divided three ways with no royal title, revolts broke out across the
+      country in the meantime, and Varus crucified two thousand people
+      suppressing them. Everything the first reign had assembled came apart in
+      one summer, and the dynasty never held it whole again except for the three
+      years of Agrippa I.
+    source: smallwood-1976
+    contested: false
+  - year: 6
+    type: revolt
+    name: The census
+    changed: >-
+      Augustus deposed Archelaus and annexed Judaea, Samaria and Idumaea as a
+      Roman province under a prefect. The assessment that followed produced the
+      revolt of Judas the Galilean and, in Josephus's account, the movement that
+      sixty years later started the war. The client kingdom stopped covering the
+      part of the country that mattered most, and Rome governed Jerusalem
+      directly for the first time.
+    source: smallwood-1976
+    contested: false
+  - year: 70
+    type: siege
+    name: The destruction of the Temple
+    changed: >-
+      Titus took Jerusalem and the building this record's second turning point
+      is about was burned. Agrippa II, the last of this dynasty, spent the war
+      on the Roman side and kept his territories for another twenty years. The
+      polity founded to make Judaea governable for Rome ended by watching Rome
+      destroy the thing it had built, from the besiegers' camp.
+    source: smallwood-1976
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: richardson-1996 }
+    # Zero. Herod built temples to Augustus and Roma at Caesarea, Sebaste and
+    # Panias, endowed games, and paid for public building as far away as Athens,
+    # Rhodes and Antioch — which is patronage inside or adjacent to his own
+    # sphere and not the propagation of a tradition beyond a confessional
+    # boundary that coding rule 2 counts. The Hasmonean record's count of 1 is
+    # what that rule looks like when it is satisfied.
+    religions_carried: { count: 0, items: [], source: richardson-1996 }
+    successor_claims: { count: 0, items: [], source: smallwood-1976 }

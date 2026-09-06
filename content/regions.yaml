@@ -292,15 +292,29 @@ regions:
   # because they held the plateau, and Egypt never did; "The Ancient Near East"
   # is a period that conventionally stops at Alexander; and "Egypt, Syria and
   # the Jazira" is defined by proximity to Baghdad, which did not exist.
+  #
+  # Flipped to true on exactly one edge, `hasmonean -> herodian` in 37 BC, once
+  # the two Judaean records were added. It took seven polities to get there, and
+  # the reason is the region's own subject: these are mostly powers that grew in
+  # the space between two empires, and a polity defined by the space between
+  # Rome and Iran succeeds Rome or Iran rather than its neighbour. Five of the
+  # seven records point outward and are drawn by nothing.
+  #
+  # A geographic strain is worth flagging here as well as on the page that
+  # carries it. Al-Hira is eight hundred kilometres from the Mediterranean, in a
+  # region named for it. The region is a political space rather than a
+  # coastline, and keeping the two mirror-image Arab client dynasties together
+  # was judged worth more to a reader than tidiness; nasrid-hira/01 sets the
+  # decision out so it can be reversed.
   - id: eastern-mediterranean
     name: The Eastern Mediterranean after Alexander
     blurb: >-
       The countries Alexander took and did not keep, between his death and the
       Arab conquests: Greek kingdoms that governed in one language and were
-      taxed in another, and the Arab powers that grew in the space between Rome
-      and Iran.
+      taxed in another, a Jewish state that made itself and was unmade, and the
+      Arab powers that grew in the space between Rome and Iran.
     group: mediterranean
-    thread: false
+    thread: true
 
   # Added with thread: false for a single polity, and flipped once real sourced
   # edges joined members of it, per the workflow rule. There is exactly one

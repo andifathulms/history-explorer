@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**3077 claims across 165 sources.**
+**3125 claims across 168 sources.**
 
 ## Where to start
 
@@ -2677,6 +2677,31 @@ ordinary state, not an item to clear.
 - [ ] `polity/zangid` — turning point 1169 Shirkuh dies two months into the vizierate
 - [ ] `polity/zangid` — ended by gradual absorption in 1250
 
+## E. Mary Smallwood, The Jews under Roman Rule: From Pompey to Diocletian. A Study in Political Relations
+*In Studies in Judaism in Late Antiquity 20.*
+
+`smallwood-1976` — 19 claims
+
+- [ ] `chapter/hasmonean/03-two-brothers-and-a-consul.mdx` — prose: "Two brothers and a consul"
+- [ ] `chapter/hasmonean/04-37.mdx` — prose: "37"
+- [ ] `chapter/herodian/04-from-the-besiegers-camp.mdx` — prose: "From the besiegers' camp"
+- [ ] `edge/hasmonean->herodian` — overthrew in -37
+- [ ] `edge/herodian->roman` — absorbed remnants of in 92
+- [ ] `polity/hasmonean` — span ends -37
+- [ ] `polity/hasmonean` — last Antigonus II Mattathias r. -40--37
+- [ ] `polity/hasmonean` — turning point -67 The two brothers
+- [ ] `polity/hasmonean` — turning point -63 Pompey in Jerusalem
+- [ ] `polity/hasmonean` — successor_claims = 0
+- [ ] `polity/hasmonean` — ended by conquest in -37
+- [ ] `polity/herodian` — span ends 92
+- [ ] `polity/herodian` — last Agrippa II r. 50-92
+- [ ] `polity/herodian` — turning point -37 Jerusalem
+- [ ] `polity/herodian` — turning point -4 The will
+- [ ] `polity/herodian` — turning point 6 The census
+- [ ] `polity/herodian` — turning point 70 The destruction of the Temple
+- [ ] `polity/herodian` — successor_claims = 0
+- [ ] `polity/herodian` — ended by gradual absorption in 92
+
 ## G. Rex Smith, The Ayyubids and Early Rasulids in the Yemen (567-694/1173-1295)
 *In E. J. W. Gibb Memorial, New Series XXVI.*
 
@@ -3090,6 +3115,27 @@ ordinary state, not an item to clear.
 - [ ] `polity/zaydi-yemen` — turning point 1948 The killing of Imam Yahya
 - [ ] `polity/zaydi-yemen` — ended by internal usurpation in 1962
 
+## Eyal Regev, The Hasmoneans: Ideology, Archaeology, Identity
+*In Journal of Ancient Judaism Supplements 10.*
+
+`regev-2013` — 15 claims
+
+- [ ] `chapter/hasmonean/01-a-family-with-no-claim.mdx` — prose: "A family with no claim"
+- [ ] `chapter/hasmonean/02-the-diadem.mdx` — prose: "The diadem"
+- [ ] `polity/hasmonean` — span starts -140
+- [ ] `polity/hasmonean` — capital Jerusalem from -140
+- [ ] `polity/hasmonean` — founder Simon Thassi r. -142--135
+- [ ] `polity/hasmonean` — peak Alexander Jannaeus r. -103--76
+- [ ] `polity/hasmonean` — military basis coded conscript + mercenary
+- [ ] `polity/hasmonean` — revenue basis coded land-tax + tribute
+- [ ] `polity/hasmonean` — succession rule coded election
+- [ ] `polity/hasmonean` — legitimation coded election + conquest
+- [ ] `polity/hasmonean` — turning point -140 The decree of the great assembly
+- [ ] `polity/hasmonean` — turning point -112 Idumaea (contested)
+- [ ] `polity/hasmonean` — turning point -104 The diadem
+- [ ] `polity/hasmonean` — descendant_scripts = 0
+- [ ] `polity/hasmonean` — religions_carried = 1 (Judaism)
+
 ## C. E. Bosworth, SAMANIDS
 *In Encyclopaedia Iranica.*
 <https://iranicaonline.org/articles/samanids>
@@ -3171,6 +3217,26 @@ ordinary state, not an item to clear.
 - [ ] `polity/ghurid` — turning point 1151 The burning of Ghazna
 - [ ] `polity/ghurid` — descendant_scripts = 0
 - [ ] `polity/ghurid` — ended by conquest in 1215
+
+## Peter Richardson, Herod: King of the Jews and Friend of the Romans
+*In Studies on Personalities of the New Testament.*
+
+`richardson-1996` — 14 claims
+
+- [ ] `chapter/herodian/01-king-by-a-vote.mdx` — prose: "King by a vote"
+- [ ] `chapter/herodian/02-the-building.mdx` — prose: "The building"
+- [ ] `chapter/herodian/03-the-will.mdx` — prose: "The will"
+- [ ] `polity/herodian` — span starts -37
+- [ ] `polity/herodian` — capital Jerusalem from -37
+- [ ] `polity/herodian` — founder Herod I r. -37--4
+- [ ] `polity/herodian` — peak Herod I r. -37--4
+- [ ] `polity/herodian` — military basis coded mercenary + land-grant
+- [ ] `polity/herodian` — revenue basis coded land-tax + monopoly + mining
+- [ ] `polity/herodian` — succession rule coded nomination
+- [ ] `polity/herodian` — legitimation coded investiture
+- [ ] `polity/herodian` — turning point -20 The Temple
+- [ ] `polity/herodian` — descendant_scripts = 0
+- [ ] `polity/herodian` — religions_carried = 0
 
 ## C. E. Bosworth and others, Ilek-Khans or Karakhanids
 *In Encyclopaedia of Islam, 2nd edition.*

@@ -1890,6 +1890,53 @@ sources:
       for the script, Healey having also edited the Nabataean tomb inscriptions
       of Mada'in Salih.
 
+  - id: smallwood-1976
+    kind: book
+    author: E. Mary Smallwood
+    title: >-
+      The Jews under Roman Rule: From Pompey to Diocletian. A Study in Political
+      Relations
+    container: Studies in Judaism in Late Antiquity 20
+    publisher: Brill
+    year: 1976
+    note: >-
+      Fifty years old and still the standard political narrative of Judaea from
+      63 BC to the third century. Its subject is the relationship rather than
+      the religion, which is what a corpus of polities needs: it is precise
+      about who held which territory under what arrangement, in a period where
+      that changed constantly and where most accounts are organised around
+      something else.
+
+  - id: regev-2013
+    kind: book
+    author: Eyal Regev
+    title: "The Hasmoneans: Ideology, Archaeology, Identity"
+    container: Journal of Ancient Judaism Supplements 10
+    publisher: Vandenhoeck & Ruprecht
+    year: 2013
+    note: >-
+      Reads the dynasty's self-presentation off its coins, its palaces at
+      Jericho and its use of the Temple rather than off the books of Maccabees
+      alone, and argues that the Hasmonean state was not a conventionally
+      Hellenistic monarchy. This site's Hasmonean legitimation and succession
+      fields are coded from it, because the question those fields ask — on what
+      public ground was the right to rule asserted — is the question the book is
+      about.
+
+  - id: richardson-1996
+    kind: book
+    author: Peter Richardson
+    title: "Herod: King of the Jews and Friend of the Romans"
+    container: Studies on Personalities of the New Testament
+    publisher: University of South Carolina Press
+    year: 1996
+    note: >-
+      The standard biography, built from Josephus read against the archaeology
+      of the building programme and the coinage. Cited here for the institutions
+      of the Herodian kingdom, and for the argument the title makes: that the
+      two halves of Herod's position were a single arrangement rather than a
+      contradiction he managed.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors
