@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**2090 claims across 115 sources.**
+**2096 claims across 115 sources.**
 
 ## Where to start
 
@@ -592,6 +592,72 @@ ordinary state, not an item to clear.
 - [ ] `polity/tulunid` — turning point 905 Al-Qata'i burned
 - [ ] `polity/tulunid` — ended by conquest in 905
 
+## Farhad Daftary, The Isma'ilis: Their History and Doctrines
+
+`daftary-2007` — 59 claims
+
+**Sole source** for `sulayhid` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/nizari/01-alamut.mdx` — prose: "A state with no middle"
+- [ ] `chapter/nizari/02-the-qiyama.mdx` — prose: "The day the law was abolished"
+- [ ] `chapter/nizari/04-after-alamut.mdx` — prose: "After the fortresses"
+- [ ] `chapter/nizari/05-the-legend.mdx` — prose: "The garden that was not there"
+- [ ] `chapter/qarmatian/01-the-other-ismailis.mdx` — prose: "The Isma'ilis who said no to the Fatimids"
+- [ ] `chapter/qarmatian/02-the-gulf-power.mdx` — prose: "Taking tribute from both caliphs"
+- [ ] `chapter/qarmatian/03-the-black-stone.mdx` — prose: "Twenty-two years in al-Hasa"
+- [ ] `chapter/qarmatian/05-the-mahdi-who-was-not.mdx` — prose: "Eighty days"
+- [ ] `chapter/sulayhid/01-the-mission-makes-a-state.mdx` — prose: "What the mission produced"
+- [ ] `chapter/sulayhid/02-mecca.mdx` — prose: "A Fatimid client in the holy cities"
+- [ ] `chapter/sulayhid/03-arwa.mdx` — prose: "Fifty years, from Jibla"
+- [ ] `chapter/sulayhid/04-the-hujja.mdx` — prose: "Two women, and what the ruler fields cannot show"
+- [ ] `chapter/sulayhid/05-tayyibi.mdx` — prose: "What she detached from Cairo"
+- [ ] `edge/fatimid->nizari` — partitioned from in 1094
+- [ ] `edge/fatimid->sulayhid` — vassal of in 1047
+- [ ] `edge/great-seljuk->nizari` — seceded from in 1090
+- [ ] `edge/qarmatian->fatimid` — claimed legitimacy of in 909
+- [ ] `polity/nizari` — span starts 1090
+- [ ] `polity/nizari` — span ends 1256
+- [ ] `polity/nizari` — capital Alamut from 1090
+- [ ] `polity/nizari` — founder Hasan-i Sabbah r. 1090-1124
+- [ ] `polity/nizari` — peak Hasan II r. 1162-1166
+- [ ] `polity/nizari` — last Rukn al-Din Khurshah r. 1255-1256
+- [ ] `polity/nizari` — revenue basis coded land-tax
+- [ ] `polity/nizari` — succession rule coded nomination
+- [ ] `polity/nizari` — legitimation coded descent + divine-sanction
+- [ ] `polity/nizari` — turning point 1090 The seizure of Alamut
+- [ ] `polity/nizari` — turning point 1164 The qiyama
+- [ ] `polity/nizari` — religions_carried = 1 (Nizari Isma'ilism)
+- [ ] `polity/nizari` — ended by conquest in 1256
+- [ ] `polity/qarmatian` — span starts 899
+- [ ] `polity/qarmatian` — span ends 1058
+- [ ] `polity/qarmatian` — capital al-Hasa from 899
+- [ ] `polity/qarmatian` — founder Abu Sa'id al-Jannabi r. 899-913
+- [ ] `polity/qarmatian` — peak Abu Tahir al-Jannabi r. 923-944
+- [ ] `polity/qarmatian` — military basis coded tribal-levy
+- [ ] `polity/qarmatian` — revenue basis coded tribute
+- [ ] `polity/qarmatian` — legitimation coded divine-sanction
+- [ ] `polity/qarmatian` — turning point 909 The refusal of the Fatimid mahdi
+- [ ] `polity/qarmatian` — turning point 930 The taking of the Black Stone
+- [ ] `polity/qarmatian` — turning point 931 The eighty days of the false mahdi
+- [ ] `polity/qarmatian` — ended by gradual absorption in 1077
+- [ ] `polity/sulayhid` — span starts 1047
+- [ ] `polity/sulayhid` — span ends 1138
+- [ ] `polity/sulayhid` — capital Sana'a from 1047
+- [ ] `polity/sulayhid` — capital Jibla from 1087
+- [ ] `polity/sulayhid` — founder Ali al-Sulayhi
+- [ ] `polity/sulayhid` — peak Arwa al-Sulayhi r. 1086-1138
+- [ ] `polity/sulayhid` — last Arwa al-Sulayhi r. 1086-1138
+- [ ] `polity/sulayhid` — military basis coded tribal-levy
+- [ ] `polity/sulayhid` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/sulayhid` — succession rule coded nomination
+- [ ] `polity/sulayhid` — legitimation coded caliphal-investiture
+- [ ] `polity/sulayhid` — turning point 1067 The killing of Ali al-Sulayhi
+- [ ] `polity/sulayhid` — turning point 1087 Jibla
+- [ ] `polity/sulayhid` — turning point 1094 Choosing between Cairo's claimants
+- [ ] `polity/sulayhid` — turning point 1130 The Tayyibi decision
+- [ ] `polity/sulayhid` — religions_carried = 1 (Tayyibi Isma'ilism)
+- [ ] `polity/sulayhid` — ended by fragmentation in 1138
+
 ## Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia
 *In International Studies Quarterly 41(3), 475-504.*
 
@@ -714,66 +780,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/muzaffarid` — turning point 1387 Timur at Isfahan
 - [ ] `polity/muzaffarid` — turning point 1393 Shah Mansur at Shiraz
 - [ ] `polity/muzaffarid` — ended by conquest in 1393
-
-## Farhad Daftary, The Isma'ilis: Their History and Doctrines
-
-`daftary-2007` — 53 claims
-
-**Sole source** for `sulayhid` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/nizari/01-alamut.mdx` — prose: "A state with no middle"
-- [ ] `chapter/nizari/02-the-qiyama.mdx` — prose: "The day the law was abolished"
-- [ ] `chapter/nizari/04-after-alamut.mdx` — prose: "After the fortresses"
-- [ ] `chapter/nizari/05-the-legend.mdx` — prose: "The garden that was not there"
-- [ ] `chapter/qarmatian/01-the-other-ismailis.mdx` — prose: "The Isma'ilis who said no to the Fatimids"
-- [ ] `chapter/qarmatian/02-the-gulf-power.mdx` — prose: "Taking tribute from both caliphs"
-- [ ] `chapter/qarmatian/03-the-black-stone.mdx` — prose: "Twenty-two years in al-Hasa"
-- [ ] `chapter/qarmatian/05-the-mahdi-who-was-not.mdx` — prose: "Eighty days"
-- [ ] `chapter/sulayhid/01-the-mission-makes-a-state.mdx` — prose: "What the mission produced"
-- [ ] `chapter/sulayhid/02-arwa.mdx` — prose: "Fifty years, from Jibla"
-- [ ] `edge/fatimid->nizari` — partitioned from in 1094
-- [ ] `edge/fatimid->sulayhid` — vassal of in 1047
-- [ ] `edge/great-seljuk->nizari` — seceded from in 1090
-- [ ] `edge/qarmatian->fatimid` — claimed legitimacy of in 909
-- [ ] `polity/nizari` — span starts 1090
-- [ ] `polity/nizari` — span ends 1256
-- [ ] `polity/nizari` — capital Alamut from 1090
-- [ ] `polity/nizari` — founder Hasan-i Sabbah r. 1090-1124
-- [ ] `polity/nizari` — peak Hasan II r. 1162-1166
-- [ ] `polity/nizari` — last Rukn al-Din Khurshah r. 1255-1256
-- [ ] `polity/nizari` — revenue basis coded land-tax
-- [ ] `polity/nizari` — succession rule coded nomination
-- [ ] `polity/nizari` — legitimation coded descent + divine-sanction
-- [ ] `polity/nizari` — turning point 1090 The seizure of Alamut
-- [ ] `polity/nizari` — turning point 1164 The qiyama
-- [ ] `polity/nizari` — religions_carried = 1 (Nizari Isma'ilism)
-- [ ] `polity/nizari` — ended by conquest in 1256
-- [ ] `polity/qarmatian` — span starts 899
-- [ ] `polity/qarmatian` — span ends 1058
-- [ ] `polity/qarmatian` — capital al-Hasa from 899
-- [ ] `polity/qarmatian` — founder Abu Sa'id al-Jannabi r. 899-913
-- [ ] `polity/qarmatian` — peak Abu Tahir al-Jannabi r. 923-944
-- [ ] `polity/qarmatian` — military basis coded tribal-levy
-- [ ] `polity/qarmatian` — revenue basis coded tribute
-- [ ] `polity/qarmatian` — legitimation coded divine-sanction
-- [ ] `polity/qarmatian` — turning point 909 The refusal of the Fatimid mahdi
-- [ ] `polity/qarmatian` — turning point 930 The taking of the Black Stone
-- [ ] `polity/qarmatian` — turning point 931 The eighty days of the false mahdi
-- [ ] `polity/qarmatian` — ended by gradual absorption in 1077
-- [ ] `polity/sulayhid` — span starts 1047
-- [ ] `polity/sulayhid` — span ends 1138
-- [ ] `polity/sulayhid` — capital Sana'a from 1047
-- [ ] `polity/sulayhid` — capital Jibla from 1087
-- [ ] `polity/sulayhid` — founder Ali al-Sulayhi
-- [ ] `polity/sulayhid` — peak Arwa al-Sulayhi r. 1086-1138
-- [ ] `polity/sulayhid` — last Arwa al-Sulayhi r. 1086-1138
-- [ ] `polity/sulayhid` — military basis coded tribal-levy
-- [ ] `polity/sulayhid` — succession rule coded nomination
-- [ ] `polity/sulayhid` — legitimation coded caliphal-investiture
-- [ ] `polity/sulayhid` — turning point 1087 Jibla
-- [ ] `polity/sulayhid` — turning point 1094 Choosing between Cairo's claimants
-- [ ] `polity/sulayhid` — religions_carried = 1 (Tayyibi Isma'ilism)
-- [ ] `polity/sulayhid` — ended by fragmentation in 1138
 
 ## R. N. Frye (ed.), The Cambridge History of Iran, Volume 4: From the Arab Invasion to the Saljuqs
 

@@ -41,7 +41,12 @@ ended:
 
 institutions:
   military_basis: { values: [tribal-levy], source: daftary-2007 }
-  revenue_basis: null
+  # Yemen's terraced agriculture, and the customs of the Red Sea. Aden under
+  # Sulayhid overlordship was the transfer point between the Indian Ocean and
+  # the Egyptian route, and the Fatimids had every reason to want it in
+  # friendly hands — the Karimi traffic this site's Mamluk page describes two
+  # centuries later ran through the same port. Unranked.
+  revenue_basis: { values: [land-tax, trade-toll], source: daftary-2007 }
   succession_rule: { values: [nomination], source: daftary-2007 }
   # Descent is not the claim here: the Sulayhids ruled in the Fatimid caliph's
   # name and their authority came from the mission that converted them. There
@@ -50,6 +55,18 @@ institutions:
   legitimation: { values: [caliphal-investiture], source: daftary-2007 }
 
 turning_points:
+  - year: 1067
+    type: battle
+    name: "The killing of Ali al-Sulayhi"
+    changed: >-
+      The founder was ambushed on the pilgrim road by the Najahids of Zabid,
+      killed, and his wife carried off; his head was set up outside Zabid on a
+      spear. His son recovered the position and the queen, but the state never
+      again held all of Yemen or the Mecca amirate, and from that point it was
+      a highland polity defending itself rather than a Fatimid arm reaching
+      towards the holy cities.
+    source: daftary-2007
+    contested: false
   - year: 1087
     type: capital-move
     name: "Jibla"
@@ -70,6 +87,18 @@ turning_points:
       seat of a mission that Cairo could no longer direct. The da'wa she sent
       east put Isma'ilism into Gujarat, where the community that descends from
       it still is.
+    source: daftary-2007
+    contested: false
+  - year: 1130
+    type: succession-crisis
+    name: "The Tayyibi decision"
+    changed: >-
+      On the second Fatimid succession dispute Arwa recognised the infant
+      Tayyib as imam and declared him in concealment, which detached the Yemeni
+      mission from Cairo permanently and put it under a line of her own
+      appointing. The state lasted eight more years; the religious organisation
+      that decision created has lasted nine hundred, and is the reason there
+      are Isma'ilis in Gujarat.
     source: daftary-2007
     contested: false
 
