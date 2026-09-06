@@ -1,0 +1,146 @@
+id: genoa
+region: byzantium-and-the-latin-west
+
+name:
+  latin: Republic of Genoa
+  script: Res Publica Ianuensis
+  script_lang: la
+
+# 1099 is the Compagna Communis, the sworn association of the city's men that
+# is the commune's founding act and the first thing that can be called a
+# Genoese government. 1797 is the French-imposed Ligurian Republic, the same
+# year and the same cause as the Venetian record's ending.
+span:
+  start: { min: 1099, max: 1099, source: epstein-1996 }
+  end: { min: 1797, max: 1797, source: epstein-1996 }
+
+identity: >-
+  The other maritime republic: an overseas empire run by companies and
+  eventually by a bank, a constitution nobody could keep, and the customs house
+  across the water from Constantinople.
+
+capitals:
+  - { name: Genoa, script: Ianua, from: 1099, source: epstein-1996 }
+
+core_region: Liguria, with colonies from Galata and Chios to Caffa in the Crimea
+
+# `founder` is null, which is rare on this site and is the correct answer here.
+# The commune was a sworn association with elected consuls and no founder, and
+# the office of doge was not created for two hundred and forty years. `peak`
+# names a man who held no office at all: Andrea Doria refused the dogeship,
+# wrote the constitution of 1528, and directed the republic for the following
+# thirty years as a private citizen with a fleet under contract to the king of
+# Spain. That is a fair summary of how Genoa was governed.
+rulers:
+  founder: { name: null, source: null }
+  peak: { name: Andrea Doria, source: epstein-1996 }
+  last: { name: Giacomo Maria Brignole, reign: [1795, 1797], source: epstein-1996 }
+
+scripts_and_languages:
+  administration: [Latin, Ligurian]
+  writing_system: Latin
+
+ended:
+  type: conquest
+  by: []
+  year: 1797
+  source: epstein-1996
+
+institutions:
+  # Bought, and often not even by the state. Genoese fleets were frequently
+  # private ventures under licence: the *maona*, a company of investors who
+  # financed a conquest and were repaid with the revenue of the place they took.
+  # Chios was held by the Maona of Chios for two centuries, Caffa in the Crimea
+  # and the alum works at Phocaea on comparable terms. It is a colonial empire
+  # run by shareholders, and the state's own contribution was a flag.
+  military_basis: { values: [mercenary], source: epstein-1996 }
+  # Customs, and two monopolies that were worth more than the customs. The alum
+  # of Phocaea — indispensable to the European cloth industry as a mordant and
+  # available in quantity almost nowhere else — and the mastic of Chios, which
+  # grows on that island and no other. Both were held through companies rather
+  # than by the state, which is this record's pattern.
+  revenue_basis: { values: [trade-toll, monopoly], source: epstein-1996 }
+  # `election`, the same value the Venetian record carries, and the two records
+  # together are the best argument this site has for coding rule 7. Genoa
+  # elected its consuls, then imported foreign podestà to hold the ring between
+  # its factions, then created a doge for life in 1339, then made the dogeship a
+  # two-year term in 1528. Every one of those was an elective constitution.
+  #
+  # What happened under them was that four or five families fought for the city
+  # for four hundred years, that Genoa spent long stretches under the lordship
+  # of Milan or France because a faction had invited them in, and that Epstein
+  # is willing to say plainly that the constitution did not work. The field
+  # takes the rule. The second chapter takes the outcome.
+  succession_rule: { values: [election], source: epstein-1996 }
+  legitimation: { values: [election], source: epstein-1996 }
+
+turning_points:
+  - year: 1261
+    type: treaty
+    name: Nymphaion
+    changed: >-
+      Genoa allied with the Nicaean government in exile against the Latin empire
+      and Venice, and was promised exemption from Byzantine customs, quarters in
+      every major port and the ports of the Black Sea. Constantinople fell to
+      Nicaea weeks later. It is the mirror of the golden bull of 1082 on the
+      Venetian record — a Greek emperor buying a fleet with his own customs
+      revenue — and it is where Genoa acquires the position it holds for the
+      next two hundred years.
+    source: epstein-1996
+    contested: false
+  - year: 1284
+    type: battle
+    name: Meloria
+    changed: >-
+      The Genoese fleet destroyed the Pisan one off the Tuscan coast and took
+      several thousand prisoners, many of whom died in Genoa over the following
+      years. Pisa never recovered as a naval power. It reduced the contest for
+      the western Mediterranean from three parties to two, and everything after
+      it on this record and the Venetian one is those two.
+    source: epstein-1996
+    contested: false
+  - year: 1380
+    type: battle
+    name: Chioggia
+    changed: >-
+      Genoa took the entrance to the Venetian lagoon, came closer to destroying
+      Venice than anybody else ever did, and lost the fleet that had done it to
+      a winter blockade. The Levant trade was conceded. This record's centre of
+      gravity moves after 1380 from shipping to finance, and the next turning
+      point is what that looks like.
+    source: epstein-1996
+    contested: false
+  - year: 1407
+    type: reform
+    name: The Casa di San Giorgio
+    changed: >-
+      The republic's creditors were consolidated into a single chartered body
+      which was assigned the tax revenues that serviced the debt, and which
+      then, as the state failed to pay, took over the administration of the
+      revenues themselves and eventually of Corsica and the Black Sea colonies.
+      A public bank governed a colonial empire on behalf of its shareholders for
+      most of two centuries. Nothing else in this corpus is shaped like it, and
+      the vocabulary this site codes institutions in has no way to say so.
+    source: epstein-1996
+    contested: false
+  - year: 1528
+    type: reform
+    name: Andrea Doria's constitution
+    changed: >-
+      Doria took the Genoese fleet out of French service, put it under contract
+      to Charles V, and rewrote the republic's constitution: a doge elected for
+      two years, the old factions dissolved into twenty-eight artificial clans,
+      and no further foreign lordship. It held until 1797. It also made Genoa
+      the banker of the Spanish empire — Genoese houses financed the American
+      silver and lent against it — which is the republic's wealthiest and least
+      independent period at once.
+    source: epstein-1996
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: epstein-1996 }
+    religions_carried: { count: 0, items: [], source: epstein-1996 }
+    successor_claims: { count: 0, items: [], source: epstein-1996 }

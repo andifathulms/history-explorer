@@ -1714,6 +1714,31 @@ edges:
     source: wilkinson-1987
     contested: false
 
+  # ---- The lagoon lets go of Constantinople ----
+
+  # Venice began as a Byzantine province. Its dukes were imperial officials with
+  # Greek court titles, and the emancipation has no date, no declaration and no
+  # war — the Pax Nicephori of 812, in which Byzantium and the Franks agreed
+  # whose the lagoon was, is the conventional peg and is a treaty between two
+  # other powers about it. `contested` records that nobody seceded from
+  # anything; a province stopped being governed and went on paying compliments.
+  #
+  # The Genoese record entering alongside this one has no edge in either
+  # direction. Its origin is a commune emancipating itself from a bishop and a
+  # kingdom of Italy, neither of which is in this corpus, and hard rule 7 makes
+  # that a finished state.
+  - from: byzantine
+    to: venice
+    type: seceded from
+    year: 812
+    note: >-
+      The duchy of Venetia was Byzantine territory and its doges were imperial
+      officials; by the ninth century they were choosing themselves, minting,
+      and treating with the Franks, while continuing to accept Byzantine court
+      titles for another two hundred years.
+    source: lane-1973
+    contested: true
+
   # ---- The Franks in the Levant ----
   #
   # Both of these states were founded by an expedition from outside this corpus

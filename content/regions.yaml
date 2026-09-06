@@ -153,11 +153,24 @@ regions:
     group: mediterranean
     thread: true
 
+  # Widened when Venice and Genoa were added. Nineteen records across six
+  # regions named one or the other in prose and none could link them, which was
+  # the largest unlinkable gap left in the corpus — more than double the nine
+  # records that argued the `investiture` value into the vocabulary. The two
+  # republics are the Latin west's other half: not the attempt to restore an
+  # empire but the states that made a living off the one still standing.
+  #
+  # The name will not survive the next tier. It already holds the Roman empire,
+  # which precedes both halves of it, and if the post-Roman kingdoms and the
+  # Holy Roman Empire are added the honest arrangement is two regions — Byzantium
+  # and its successors, and the Latin west — in this same group.
   - id: byzantium-and-the-latin-west
     name: Byzantium and the Latin West
     blurb: >-
-      The Roman empire that survived in the east, and the Frankish attempt to
-      restore the one that had not survived in the west.
+      The Roman empire that survived in the east, the Frankish attempt to
+      restore the one that had not survived in the west, and the two maritime
+      republics that grew rich carrying for both and eventually took the
+      customs of the straits off the emperor.
     group: mediterranean
     thread: true
 

@@ -1,0 +1,174 @@
+id: venice
+region: byzantium-and-the-latin-west
+
+name:
+  latin: Republic of Venice
+  script: Serenissima Res Publica Venetiarum
+  script_lang: la
+
+# A genuine range rather than a single date. 697 is the traditional foundation,
+# the year the Venetian chronicles put the first doge in, and it is not
+# supportable from anything contemporary. 726 is the first doge the sources can
+# carry — Orso Ipato, raised in a revolt against Byzantine iconoclast policy,
+# which is a fair account of how the place became independent. Both dates are
+# in Lane and the site stores the disagreement rather than choosing.
+span:
+  start: { min: 697, max: 726, source: lane-1973 }
+  end: { min: 1797, max: 1797, source: lane-1973 }
+
+identity: >-
+  A city with no land that became an empire of ports, governed by a constitution
+  designed to stop anybody from governing it, and voted out of existence in a
+  single afternoon.
+
+capitals:
+  - { name: Venice, script: Venetiae, from: 697, source: lane-1973 }
+
+core_region: The lagoon and the Adriatic, with ports and islands from Istria to Crete and Cyprus
+
+# The three-ruler field assumes a monarchy and this polity was built to prevent
+# one. There were a hundred and twenty doges across eleven centuries, elected
+# for life by a procedure the fourth chapter describes, bound by a written oath
+# of limitations that was revised and read aloud at each accession, forbidden to
+# meet foreign envoys alone or to open their own official post. Naming three of
+# them is the site's schema doing what it can with a republic; the entry for
+# `peak` is a doge who mattered more than any other and is not therefore a
+# typical one.
+rulers:
+  founder: { name: Orso Ipato, reign: [726, 737], source: lane-1973 }
+  peak: { name: Enrico Dandolo, reign: [1192, 1205], source: lane-1973 }
+  last: { name: Ludovico Manin, reign: [1789, 1797], source: lane-1973 }
+
+scripts_and_languages:
+  administration: [Latin, Venetian]
+  writing_system: Latin
+
+# On 12 May 1797, with a French army on the mainland and no allies, the Great
+# Council voted to abolish itself and hand power to a provisional municipality.
+# The vote was five hundred and twelve to twenty and was taken by a body that
+# did not have a quorum. No battle was fought for the city.
+#
+# `conquest` is coded anyway, and `by` is empty because Revolutionary France is
+# not in this corpus. A vote taken with an army outside is not a constitutional
+# act, and `internal usurpation` would credit the outcome to the Venetians and
+# `gradual absorption` would describe eleven centuries rather than a fortnight.
+ended:
+  type: conquest
+  by: []
+  year: 1797
+  source: lane-1973
+
+institutions:
+  # Two, and the division between them is the whole military history. The fleet
+  # was Venetian: oarsmen levied by parish from the city's own population, and
+  # from the fifteenth century increasingly hired and finally conscripted from
+  # the subject territories, with the galleys built and armed in a state
+  # shipyard — the Arsenal — that at its height employed something in the order
+  # of sixteen thousand people and could assemble a hull in a day.
+  #
+  # The land army was bought. Venice fought its mainland wars with condottieri
+  # under contract, on the reasoning that a citizen army on land is a political
+  # danger to a republic and a hired one is an expense. Both halves of that
+  # judgement turned out to be correct.
+  military_basis: { values: [conscript, mercenary], source: lane-1973 }
+  # Customs on everything that moved through the lagoon, and the salt. Venice
+  # began as a salt producer and spent centuries acquiring or destroying rival
+  # production around the Adriatic until it held a monopoly it could price
+  # against a hinterland with no alternative — the least glamorous item in the
+  # accounts and, for the first four centuries, the largest.
+  revenue_basis: { values: [trade-toll, monopoly], source: lane-1973 }
+  # `election`, and this is the most elaborate procedure that value covers
+  # anywhere in this corpus. Ten alternating rounds of lot and ballot, starting
+  # from the Great Council and ending in a committee of forty-one who chose the
+  # doge, with the drawing of lots interposed at each stage specifically to make
+  # a bloc impossible to assemble. It was designed by people who had watched
+  # other Italian cities lose their constitutions to a family, and it worked for
+  # five hundred years.
+  succession_rule: { values: [election], source: lane-1973 }
+  # The election, and Saint Mark. Two merchants stole the evangelist's relics
+  # from Alexandria in 828, allegedly under a layer of pork to deter inspection,
+  # and Venice acquired an apostolic foundation it had no other claim to — which
+  # mattered, because a city with no Roman past and no imperial charter needed a
+  # reason to answer to nobody. The doge was elected and the republic was Saint
+  # Mark's.
+  legitimation: { values: [election, divine-sanction], source: lane-1973 }
+
+turning_points:
+  - year: 1082
+    type: treaty
+    name: The golden bull
+    changed: >-
+      Alexios I, needing a fleet against the Normans, granted Venetian merchants
+      exemption from all customs duties throughout the Byzantine empire and a
+      quarter in Constantinople. It is the founding document of the Venetian
+      commercial empire: a competitor paying nothing where everybody else paid
+      ten per cent does not merely prosper, it displaces. This site's Byzantine
+      record's chapter on 1204 identifies the concessions beginning here as the
+      thing that eventually cost the empire the customs of its own straits.
+    source: lane-1973
+    contested: false
+  - year: 1204
+    type: siege
+    name: Constantinople
+    changed: >-
+      A crusade Venice had contracted to carry, could not be paid for, and
+      redirected, took the city; the partition treaty gave Venice three-eighths
+      of the Byzantine empire and the doge the title of lord of a quarter and
+      half a quarter of it. Venice took the ports and islands and left the land
+      to the French. It is the moment a trading city with privileges becomes a
+      territorial empire, and this site's Byzantine and Nicaean records carry
+      the same year from the other side.
+    source: lane-1973
+    contested: false
+  - year: 1297
+    type: reform
+    name: The Serrata
+    changed: >-
+      Membership of the Great Council was restricted to men whose families had
+      already sat in it, and the patriciate became a closed hereditary caste
+      registered in a book. It removed the question that destroyed every other
+      Italian republic — who is allowed in — by answering it permanently, and it
+      is why this record's `succession_rule` is a procedure rather than a
+      pattern. The price was that political participation stopped growing while
+      the empire did.
+    source: lane-1973
+    contested: false
+  - year: 1380
+    type: battle
+    name: Chioggia
+    changed: >-
+      A Genoese fleet took Chioggia at the mouth of the lagoon and Venice was
+      closer to destruction than at any other point in its history. It armed
+      everything it had, blockaded the blockaders through a winter, and forced
+      the Genoese fleet to surrender. Genoa never again contested the Levant
+      trade as an equal, and this site's Genoese record carries the same war as
+      the point at which it stopped being the other maritime republic and
+      started being a bank.
+    source: lane-1973
+    contested: false
+  - year: 1669
+    type: siege
+    name: Candia
+    changed: >-
+      Crete, held since 1204, fell to the Ottomans after a siege of the capital
+      lasting twenty-one years — one of the longest in recorded history. With it
+      went the last substantial piece of the maritime empire the second turning
+      point on this record created. What remained after 1669 was a wealthy
+      mainland state in northern Italy with an Adriatic coastline, which is a
+      different polity wearing the same constitution.
+    source: lane-1973
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    # Zero on all three, and the fifth chapter is about it rather than about the
+    # numbers being unavailable. This record is named in the prose of more pages
+    # of this corpus than any other polity that has one, and it scores nothing
+    # on every axis the site measures influence with, because the axes count
+    # successor claims, religions carried and descendant scripts and what Venice
+    # exported was commercial technique.
+    descendant_scripts: { count: 0, items: [], source: lane-1973 }
+    religions_carried: { count: 0, items: [], source: lane-1973 }
+    successor_claims: { count: 0, items: [], source: lane-1973 }

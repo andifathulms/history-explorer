@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**3242 claims across 176 sources.**
+**3290 claims across 178 sources.**
 
 ## Where to start
 
@@ -2087,6 +2087,38 @@ ordinary state, not an item to clear.
 - [ ] `polity/shirvanshah` — last Farrukh Yasar r. 1465-1500
 - [ ] `polity/shirvanshah` — turning point 1500 The killing of Farrukh Yasar
 
+## Frederic C. Lane, Venice: A Maritime Republic
+
+`lane-1973` — 25 claims
+
+**Sole source** for `venice` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/venice/01-a-city-with-no-land.mdx` — prose: "A city with no land"
+- [ ] `chapter/venice/02-the-fourth-crusade.mdx` — prose: "The fourth crusade"
+- [ ] `chapter/venice/03-the-constitution.mdx` — prose: "The constitution"
+- [ ] `chapter/venice/04-the-empire-of-ports.mdx` — prose: "The empire of ports"
+- [ ] `chapter/venice/05-the-long-decline.mdx` — prose: "The long decline"
+- [ ] `edge/byzantine->venice` — seceded from in 812
+- [ ] `polity/venice` — span starts 697
+- [ ] `polity/venice` — span ends 1797
+- [ ] `polity/venice` — capital Venice from 697
+- [ ] `polity/venice` — founder Orso Ipato r. 726-737
+- [ ] `polity/venice` — peak Enrico Dandolo r. 1192-1205
+- [ ] `polity/venice` — last Ludovico Manin r. 1789-1797
+- [ ] `polity/venice` — military basis coded conscript + mercenary
+- [ ] `polity/venice` — revenue basis coded trade-toll + monopoly
+- [ ] `polity/venice` — succession rule coded election
+- [ ] `polity/venice` — legitimation coded election + divine-sanction
+- [ ] `polity/venice` — turning point 1082 The golden bull
+- [ ] `polity/venice` — turning point 1204 Constantinople
+- [ ] `polity/venice` — turning point 1297 The Serrata
+- [ ] `polity/venice` — turning point 1380 Chioggia
+- [ ] `polity/venice` — turning point 1669 Candia
+- [ ] `polity/venice` — descendant_scripts = 0
+- [ ] `polity/venice` — religions_carried = 0
+- [ ] `polity/venice` — successor_claims = 0
+- [ ] `polity/venice` — ended by conquest in 1797
+
 ## Nicola Di Cosmo, Allen J. Frank and Peter B. Golden (eds), The Cambridge History of Inner Asia: The Chinggisid Age
 
 `di-cosmo-2009` — 24 claims
@@ -2145,6 +2177,36 @@ ordinary state, not an item to clear.
 - [ ] `polity/caucasian-iberia` — legitimation coded descent + investiture
 - [ ] `polity/caucasian-iberia` — turning point 298 The Peace of Nisibis
 - [ ] `polity/greater-armenia` — military basis coded client-levy
+
+## Steven A. Epstein, Genoa and the Genoese, 958-1528
+
+`epstein-1996` — 23 claims
+
+**Sole source** for `genoa` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/genoa/01-the-other-one.mdx` — prose: "The other one"
+- [ ] `chapter/genoa/02-the-companies.mdx` — prose: "The companies"
+- [ ] `chapter/genoa/03-chioggia.mdx` — prose: "Chioggia"
+- [ ] `chapter/genoa/04-a-bank-with-colonies.mdx` — prose: "A bank with colonies"
+- [ ] `chapter/genoa/05-doria-and-the-silver.mdx` — prose: "Doria and the silver"
+- [ ] `polity/genoa` — span starts 1099
+- [ ] `polity/genoa` — span ends 1797
+- [ ] `polity/genoa` — capital Genoa from 1099
+- [ ] `polity/genoa` — peak Andrea Doria
+- [ ] `polity/genoa` — last Giacomo Maria Brignole r. 1795-1797
+- [ ] `polity/genoa` — military basis coded mercenary
+- [ ] `polity/genoa` — revenue basis coded trade-toll + monopoly
+- [ ] `polity/genoa` — succession rule coded election
+- [ ] `polity/genoa` — legitimation coded election
+- [ ] `polity/genoa` — turning point 1261 Nymphaion
+- [ ] `polity/genoa` — turning point 1284 Meloria
+- [ ] `polity/genoa` — turning point 1380 Chioggia
+- [ ] `polity/genoa` — turning point 1407 The Casa di San Giorgio
+- [ ] `polity/genoa` — turning point 1528 Andrea Doria's constitution
+- [ ] `polity/genoa` — descendant_scripts = 0
+- [ ] `polity/genoa` — religions_carried = 0
+- [ ] `polity/genoa` — successor_claims = 0
+- [ ] `polity/genoa` — ended by conquest in 1797
 
 ## Greg Fisher (ed.), Arabs and Empires before Islam
 

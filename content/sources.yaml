@@ -2045,6 +2045,31 @@ sources:
       what a state without taxation can and cannot do is why this site's
       Carolingian revenue field reads as it does.
 
+  - id: lane-1973
+    kind: book
+    author: Frederic C. Lane
+    title: "Venice: A Maritime Republic"
+    publisher: Johns Hopkins University Press
+    year: 1973
+    note: >-
+      Fifty years old and still the reference account, from the fifth century to
+      the eighteenth. Lane was an economic historian and the book's centre of
+      gravity is the shipping, the money and the constitution rather than the
+      art, which is why this site's Venetian institutions are coded from it.
+
+  - id: epstein-1996
+    kind: book
+    author: Steven A. Epstein
+    title: "Genoa and the Genoese, 958-1528"
+    publisher: University of North Carolina Press
+    year: 1996
+    note: >-
+      The first comprehensive history of the republic in English, and unusually
+      willing to say that the Genoese constitution did not work — which is the
+      finding this site's Genoese succession field is coded around, and the
+      reason the two maritime republics carry the same value with opposite
+      results.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors
