@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**2229 claims across 125 sources.**
+**2245 claims across 125 sources.**
 
 ## Where to start
 
@@ -1148,6 +1148,49 @@ ordinary state, not an item to clear.
 - [ ] `polity/uyghur-khaganate` — religions_carried = 1 (Manichaeism)
 - [ ] `polity/uyghur-khaganate` — ended by conquest in 840
 
+## Greg Fisher, Between Empires: Arabs, Romans, and Sasanians in Late Antiquity
+*In Oxford Classical Monographs.*
+
+`fisher-2011` — 35 claims
+
+**Sole source** for `hujrid`, `jafnid` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/hujrid/01-the-third-family.mdx` — prose: "The third family"
+- [ ] `chapter/hujrid/02-a-power-in-the-middle.mdx` — prose: "A power in the middle"
+- [ ] `chapter/hujrid/03-al-hira.mdx` — prose: "Al-Hira"
+- [ ] `chapter/hujrid/04-imru-al-qays.mdx` — prose: "The prince who went looking for a kingdom"
+- [ ] `chapter/hujrid/05-what-the-clients-were-for.mdx` — prose: "What the clients were for"
+- [ ] `chapter/jafnid/01-the-frontier.mdx` — prose: "Hiring the frontier"
+- [ ] `chapter/jafnid/02-al-harith.mdx` — prose: "Al-Harith"
+- [ ] `chapter/jafnid/03-the-name.mdx` — prose: "Jafnid, not Ghassanid"
+- [ ] `chapter/jafnid/04-a-church.mdx` — prose: "The bishops they got consecrated"
+- [ ] `chapter/jafnid/05-what-rome-gave.mdx` — prose: "A value the vocabulary does not have"
+- [ ] `chapter/jafnid/06-582.mdx` — prose: "582"
+- [ ] `edge/byzantine->jafnid` — vassal of in 529
+- [ ] `edge/himyar->hujrid` — vassal of in 480
+- [ ] `edge/jafnid->rashidun` — conquered by in 636
+- [ ] `polity/hujrid` — span starts 425
+- [ ] `polity/hujrid` — span ends 528
+- [ ] `polity/hujrid` — founder Hujr Akil al-Murar
+- [ ] `polity/hujrid` — peak al-Harith ibn Amr
+- [ ] `polity/hujrid` — last Hujr ibn al-Harith
+- [ ] `polity/hujrid` — military basis coded tribal-levy
+- [ ] `polity/hujrid` — revenue basis coded tribute
+- [ ] `polity/hujrid` — turning point 525 Al-Harith takes al-Hira
+- [ ] `polity/hujrid` — turning point 528 The killing of al-Harith
+- [ ] `polity/hujrid` — ended by fragmentation in 550
+- [ ] `polity/jafnid` — span starts 502
+- [ ] `polity/jafnid` — span ends 582
+- [ ] `polity/jafnid` — capital Jabiya
+- [ ] `polity/jafnid` — founder Jabala ibn al-Harith
+- [ ] `polity/jafnid` — peak al-Harith ibn Jabala r. 529-569
+- [ ] `polity/jafnid` — military basis coded tribal-levy
+- [ ] `polity/jafnid` — revenue basis coded tribute
+- [ ] `polity/jafnid` — turning point 529 The supreme phylarchate
+- [ ] `polity/jafnid` — turning point 554 The killing of al-Mundhir of al-Hira
+- [ ] `polity/jafnid` — religions_carried = 1 (Miaphysite Christianity)
+- [ ] `polity/jafnid` — ended by fragmentation in 582
+
 ## Herbert Franke and Denis Twitchett (eds), The Cambridge History of China, Volume 6: Alien Regimes and Border States, 907-1368
 
 `franke-twitchett-1994` — 34 claims
@@ -1854,33 +1897,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/fatimid` — ended by internal usurpation in 1171
 - [ ] `polity/zangid` — turning point 1169 Shirkuh dies two months into the vizierate
 - [ ] `polity/zangid` — ended by gradual absorption in 1250
-
-## Greg Fisher, Between Empires: Arabs, Romans, and Sasanians in Late Antiquity
-*In Oxford Classical Monographs.*
-
-`fisher-2011` — 19 claims
-
-**Sole source** for `jafnid` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/jafnid/01-the-frontier.mdx` — prose: "Hiring the frontier"
-- [ ] `chapter/jafnid/02-al-harith.mdx` — prose: "Al-Harith"
-- [ ] `chapter/jafnid/03-the-name.mdx` — prose: "Jafnid, not Ghassanid"
-- [ ] `chapter/jafnid/04-a-church.mdx` — prose: "The bishops they got consecrated"
-- [ ] `chapter/jafnid/05-what-rome-gave.mdx` — prose: "A value the vocabulary does not have"
-- [ ] `chapter/jafnid/06-582.mdx` — prose: "582"
-- [ ] `edge/byzantine->jafnid` — vassal of in 529
-- [ ] `edge/jafnid->rashidun` — conquered by in 636
-- [ ] `polity/jafnid` — span starts 502
-- [ ] `polity/jafnid` — span ends 582
-- [ ] `polity/jafnid` — capital Jabiya
-- [ ] `polity/jafnid` — founder Jabala ibn al-Harith
-- [ ] `polity/jafnid` — peak al-Harith ibn Jabala r. 529-569
-- [ ] `polity/jafnid` — military basis coded tribal-levy
-- [ ] `polity/jafnid` — revenue basis coded tribute
-- [ ] `polity/jafnid` — turning point 529 The supreme phylarchate
-- [ ] `polity/jafnid` — turning point 554 The killing of al-Mundhir of al-Hira
-- [ ] `polity/jafnid` — religions_carried = 1 (Miaphysite Christianity)
-- [ ] `polity/jafnid` — ended by fragmentation in 582
 
 ## L. P. Harvey, Islamic Spain, 1250 to 1500
 

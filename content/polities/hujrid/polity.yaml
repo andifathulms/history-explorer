@@ -1,0 +1,91 @@
+id: hujrid
+region: arabia
+
+name:
+  latin: Hujrid Dynasty
+  script: آل حجر
+  script_lang: ar
+
+# Neither end is firmly dated. The Hujrids appear as a power in central Arabia
+# in the later fifth century and the confederation had dissolved by the middle
+# of the sixth; the range is the state of the evidence, which is inscriptions,
+# hostile chronicles and Arabic poetry.
+span:
+  start: { min: 425, max: 480, source: fisher-2011 }
+  end: { min: 528, max: 550, source: fisher-2011 }
+
+identity: >-
+  Himyar's clients in central Arabia, and the third of the three Arab dynasties
+  the empires of late antiquity hired — the one whose kingdom is remembered
+  because its heir was a poet.
+
+# The Hujrids had no city. Qaryat al-Faw on the edge of the Empty Quarter is the
+# site most often associated with Kinda and was a substantial town, and no
+# consulted source calls it a capital of this dynasty. The field is empty rather
+# than filled with a plausible guess.
+capitals: []
+
+core_region: Central Arabia, the Najd and the northern approaches to the Hejaz
+
+rulers:
+  founder: { name: Hujr Akil al-Murar, source: fisher-2011 }
+  peak: { name: al-Harith ibn Amr, source: fisher-2011 }
+  last: { name: Hujr ibn al-Harith, source: fisher-2011 }
+
+scripts_and_languages:
+  administration: [Arabic]
+  writing_system: null
+
+ended:
+  type: fragmentation
+  by: []
+  year: 550
+  source: fisher-2011
+
+institutions:
+  military_basis: { values: [tribal-levy], source: fisher-2011 }
+  # Himyarite subsidy, which is the vocabulary's `tribute` — revenue received
+  # from another polity — and is exactly the coding this site's Jafnid record
+  # carries for Roman subsidy. Two client dynasties, two empires, one field.
+  revenue_basis: { values: [tribute], source: fisher-2011 }
+  succession_rule: null
+  # Null, and deliberately the same null as the Jafnid record's. The Hujrids'
+  # public ground was a grant from Himyar, exactly as the Jafnids' was a grant
+  # from Rome, and the vocabulary has a value for a right conferred by a caliph
+  # and none for a right conferred by any other sovereign. Two pages, two
+  # empires, the same missing idea — which is now the sixth place in this
+  # corpus it has come up.
+  legitimation: null
+
+turning_points:
+  - year: 525
+    type: siege
+    name: "Al-Harith takes al-Hira"
+    changed: >-
+      A chief of the central Arabian confederation took the capital of the
+      Nasrids, Persia's Arab clients on the Euphrates, and held it for a few
+      years. It is the only occasion on which one of the three client dynasties
+      displaced another, and it made the Hujrids briefly a power the Roman and
+      Persian courts both had to deal with rather than one either of them
+      managed.
+    source: fisher-2011
+    contested: false
+  - year: 528
+    type: battle
+    name: "The killing of al-Harith"
+    changed: >-
+      Al-Mundhir of al-Hira recovered his capital and killed al-Harith and, by
+      the accounts, a large number of his family. The Hujrid position in central
+      Arabia did not survive it; the confederation broke into tribal groupings
+      that spent the following decades fighting each other, and the sons of the
+      house became claimants without a claim.
+    source: fisher-2011
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

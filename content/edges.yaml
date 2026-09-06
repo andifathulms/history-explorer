@@ -1157,6 +1157,16 @@ edges:
     source: daftary-2007
     contested: true
 
+  - from: himyar
+    to: hujrid
+    type: vassal of
+    year: 480
+    note: "Himyar installed and paid a family of the Kinda to hold the tribes of
+           central Arabia, in the same way Rome paid the Jafnids to hold the
+           Syrian steppe and Iran paid the Nasrids to hold the Euphrates."
+    source: fisher-2011
+    contested: false
+
   - from: saba
     to: himyar
     type: absorbed remnants of

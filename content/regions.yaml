@@ -164,7 +164,14 @@ regions:
       Isma'ili polities that held Yemen, Oman and the eastern coast for
       centuries at a time in ground the imperial armies could reach and could
       not keep; and the movement out of the Najd that ended all of it.
-    thread: false
+    # Flipped from false once real sourced edges joined members of the region,
+    # per the workflow rule. There are three and they make two short fragments —
+    # Saba' to Himyar to the Hujrids in the south and centre, and the Ya'ariba
+    # to the Al Bu Sa'id in Oman. Most of this region's polities have no edge to
+    # any other, which is the ordinary state under hard rule 7 and is the honest
+    # picture: three confessions and two millennia arriving in one peninsula
+    # largely independently of each other.
+    thread: true
 
   - id: classical-india
     name: Classical India
