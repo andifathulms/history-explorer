@@ -69,12 +69,39 @@ regions:
       shores of the strait.
     thread: true
 
-  - id: central-lands
-    name: Egypt, Syria and the Jazira
+  # Split from a single `central-lands` region that had grown to fifteen
+  # polities and drew one thread over five disconnected clusters.
+  #
+  # The cut follows where each polity's succession actually ran, which is what
+  # a region is the boundary of. That is not the same as where its capital
+  # stood, and two members show it: the Zangids held Mosul as well as Aleppo,
+  # and the county of Edessa sat east of the Euphrates, so a purely
+  # cartographic rule would put both in the Jazira. Both are here, because
+  # Burid to Zangid to Ayyubid and Edessa to Zangid are one chain and cutting
+  # it would hide the counter-crusade in a list of outward edges.
+  #
+  # The name is the one the Ayyubids and the Mamluks used for their own state.
+  - id: egypt-and-syria
+    name: Egypt and Syria
     blurb: >-
-      The provinces closest to Baghdad, and therefore the ones whose autonomy
-      mattered most: Egypt's grain, Syria's frontier with Byzantium, and the
-      Jazira between them.
+      Egypt's grain and the Syrian coast, and the long argument over whether
+      they were one country. The provinces that left the caliphate earliest
+      because they were richest, the Turkish atabegs who reunited them against
+      an invasion from Europe, and the four Frankish states that held the shore
+      for a hundred and ninety-two years and were removed from it in
+      twenty-three.
+    thread: true
+
+  - id: jazira
+    name: The Jazira
+    blurb: >-
+      The country between the Euphrates and the Tigris, and Aleppo at the end
+      of the road west — held in turn by Arab, Kurdish and Turkmen dynasties
+      who mostly did not inherit from each other. Succession here is thin on
+      purpose: the Jazira's transfers of power ran through Baghdad and then
+      through Isfahan, and its two unattached polities each have an edge that
+      leaves the region because the Seljuk sultanate is what stood between one
+      and the next.
     thread: true
 
   # Membership is the peninsula, not a lineage. That needs saying because the

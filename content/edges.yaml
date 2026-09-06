@@ -371,7 +371,7 @@ edges:
     source: bennison-2016
     contested: false
 
-  # ---- Egypt, Syria and the Jazira ----
+  # ---- Egypt, Syria and the Jazira: now two regions, one edge list ----
 
   - from: abbasid
     to: tulunid
