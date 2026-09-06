@@ -1298,6 +1298,34 @@ sources:
       Lakes. It is cited here so that the Omani empire's economy is described
       by somebody writing about the people it was imposed on.
 
+  - id: fisher-2015
+    kind: book
+    author: Greg Fisher (ed.)
+    title: Arabs and Empires before Islam
+    publisher: Oxford University Press
+    year: 2015
+    note: >-
+      Nearly two hundred and fifty translated extracts from Greek, Latin,
+      Syriac, Persian and Arabic sources and from inscriptions in several
+      alphabets, with commentary by more than twenty specialists. It is a
+      sourcebook rather than a narrative, which suits a corpus whose rules are
+      about what a source will actually carry: for pre-Islamic Arabia the
+      evidence is inscriptions and other people's accounts, and this is where
+      both are assembled.
+
+  - id: bowersock-2013
+    kind: book
+    author: G. W. Bowersock
+    title: "The Throne of Adulis: Red Sea Wars on the Eve of Islam"
+    container: Emblems of Antiquity
+    publisher: Oxford University Press
+    year: 2013
+    note: >-
+      Reconstructs the sixth-century war between Jewish Arabia and Christian
+      Ethiopia from two inscriptions on a monument that no longer exists, known
+      only because a sixth-century traveller copied them. Cited for the Himyar
+      record, and for the Aksumite invasion of 525 that ends it.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors

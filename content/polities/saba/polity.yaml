@@ -1,0 +1,106 @@
+id: saba
+region: arabia
+
+name:
+  latin: Saba'
+  # Written in the Ancient South Arabian musnad alphabet, which this site
+  # cannot render and which is the subject of the fourth chapter.
+  script: null
+  script_lang: null
+
+# The chronology of early South Arabia is genuinely contested — a long and a
+# short chronology differ by several centuries for the earliest rulers — and
+# the range at the start is that disagreement rather than a date the sources
+# agree to bracket. The end is firmer: by about 275 the ruler at Zafar was
+# styling himself king of Saba' and of dhu-Raydan, and Saba' was no longer a
+# separate polity.
+span:
+  start: { min: -800, max: -600, source: fisher-2015 }
+  end: { min: 275, max: 275, source: fisher-2015 }
+
+identity: >-
+  The kingdom at Marib that watered a desert with the largest dam in the ancient
+  world and taxed the frankincense the Mediterranean burned.
+
+capitals:
+  - { name: Marib, script: مأرب, source: fisher-2015 }
+
+core_region: The Yemeni highlands and the desert fringe around Marib
+
+rulers:
+  # Karib'il Watar, whose long campaign inscription at Sirwah is the fullest
+  # narrative text from ancient South Arabia, is conventionally the ruler under
+  # whom Saba' reached its widest reach. The corpus does not name a founder or
+  # a last king: the early king-lists are reconstructions and the site will not
+  # print one as a fact.
+  founder: { name: null, source: null }
+  peak: { name: Karib'il Watar, source: fisher-2015 }
+  last: { name: null, source: null }
+
+scripts_and_languages:
+  administration: [Sabaic]
+  writing_system: The Ancient South Arabian musnad alphabet
+
+ended:
+  type: gradual absorption
+  by: [himyar]
+  year: 275
+  source: fisher-2015
+
+institutions:
+  # Null. The inscriptions record campaigns, dedications and building works;
+  # they do not describe how the force was raised in terms the vocabulary could
+  # take, and nothing consulted here supplies it.
+  military_basis: null
+  # The incense route and the dam. Frankincense and myrrh from Hadramawt and
+  # Dhofar moved north by caravan through Sabaean territory to the
+  # Mediterranean, and Saba' taxed the passage; the irrigated land below the
+  # Marib dam fed the population that made the caravans possible. Unranked.
+  revenue_basis: { values: [trade-toll, land-tax], source: fisher-2015 }
+  succession_rule: null
+  # The early rulers are styled mukarrib rather than king, a title whose exact
+  # meaning is argued over and which is generally taken to combine political
+  # leadership with a priestly role in the cult of Almaqah, the national god at
+  # Marib. Later rulers used malik. `divine-sanction` is coded on the earlier
+  # arrangement, and the argument about the title is in the second chapter.
+  legitimation: { values: [divine-sanction], source: fisher-2015 }
+
+turning_points:
+  - year: -25
+    type: siege
+    name: "Aelius Gallus at Marib"
+    changed: >-
+      A Roman army marched down the peninsula on Augustus' orders to take the
+      country the incense came from, reached Marib, could not take it, and went
+      back having lost most of its men to disease and thirst. Rome never tried
+      again by land. It settled that the Red Sea and the monsoon, not the
+      caravan road, would be how the empire reached Arabian and Indian goods —
+      which in the following century removed the reason Saba' was rich.
+    source: fisher-2015
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    # The alphabet. Ancient South Arabian, conventionally called Sabaean after
+    # this polity, is the ancestor of the Ge'ez script — which this site's Aksum
+    # page has twice said derives from South Arabian letterforms while pointing
+    # at nothing. Ge'ez is still written today in Ethiopia and Eritrea, which
+    # makes this one of the longest-running consequences recorded anywhere in
+    # the corpus.
+    descendant_scripts:
+      count: 1
+      items: [Ge'ez]
+      source: fisher-2015
+    religions_carried: { count: null, items: [], source: null }
+    # Himyar. The Himyarite kings took the Sabaean royal title and kept it at
+    # the head of their own — king of Saba' and dhu-Raydan, later with
+    # Hadramawt and Yamanat added — for two and a half centuries after Saba'
+    # had ceased to exist as a polity. The Himyar record carries `titulature`
+    # in its legitimation field and this is the claim it points at; the
+    # rulebook asks that the two agree, and they do.
+    successor_claims:
+      count: 1
+      items: [Himyar]
+      source: fisher-2015

@@ -152,15 +152,18 @@ regions:
       all.
     thread: true
 
+  # Extended backwards. The blurb previously began with the caliphate, which
+  # scoped a geographic region chronologically and ruled out the incense
+  # kingdoms of the south by definition. The name always permitted them.
   - id: arabia
     name: The Arabian Peninsula
     blurb: >-
-      The peninsula the caliphate came out of and then largely stopped
-      governing. Once the centre moved to Damascus and Baghdad, Yemen, Oman and
-      the eastern coast were held for centuries at a time by Zaydi, Ibadi and
-      Isma'ili polities that the imperial armies could reach and could not
-      keep — mountain and desert country where an imamate elected on merit
-      outlasted every dynasty that came to collect its taxes.
+      Two and a half thousand years of one peninsula: the incense kingdoms of
+      the south and the empires that wanted their route; the country the
+      caliphate came out of and then stopped governing; the Zaydi, Ibadi and
+      Isma'ili polities that held Yemen, Oman and the eastern coast for
+      centuries at a time in ground the imperial armies could reach and could
+      not keep; and the movement out of the Najd that ended all of it.
     thread: false
 
   - id: classical-india

@@ -1157,6 +1157,27 @@ edges:
     source: daftary-2007
     contested: true
 
+  - from: saba
+    to: himyar
+    type: absorbed remnants of
+    year: 275
+    note: "The highland kingdom at Zafar came out of three centuries of
+           competition for the same crown holding it: by the late third century
+           its ruler styled himself king of Saba' and of dhu-Raydan, and Saba'
+           was not a separate polity again."
+    source: fisher-2015
+    contested: false
+
+  - from: himyar
+    to: aksum
+    type: conquered by
+    year: 525
+    note: "Kaleb of Aksum crossed the Red Sea with Byzantine encouragement after
+           the killings at Najran, defeated and killed the Jewish king Yusuf,
+           and installed a Christian client at Zafar."
+    source: bowersock-2013
+    contested: false
+
   - from: yaariba
     to: al-busaid
     type: absorbed remnants of

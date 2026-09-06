@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**2196 claims across 123 sources.**
+**2229 claims across 125 sources.**
 
 ## Where to start
 
@@ -1452,6 +1452,35 @@ ordinary state, not an item to clear.
 - [ ] `polity/srivijaya` — religions_carried = 1 (Mahayana Buddhism)
 - [ ] `polity/srivijaya` — ended by gradual absorption in 1275
 
+## Greg Fisher (ed.), Arabs and Empires before Islam
+
+`fisher-2015` — 22 claims
+
+**Sole source** for `saba` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/himyar/01-the-highland-kingdom.mdx` — prose: "The kingdom that had rain"
+- [ ] `chapter/himyar/06-the-sasanians.mdx` — prose: "What was left"
+- [ ] `chapter/saba/01-arabia-felix.mdx` — prose: "Arabia Felix"
+- [ ] `chapter/saba/02-the-dam.mdx` — prose: "The dam at Marib"
+- [ ] `chapter/saba/03-aelius-gallus.mdx` — prose: "The Roman expedition"
+- [ ] `chapter/saba/04-the-alphabet.mdx` — prose: "The alphabet that went to Africa"
+- [ ] `chapter/saba/05-the-highland-power.mdx` — prose: "The highland power"
+- [ ] `edge/saba->himyar` — absorbed remnants of in 275
+- [ ] `polity/himyar` — span starts -110
+- [ ] `polity/himyar` — capital Zafar
+- [ ] `polity/himyar` — peak Abukarib As'ad
+- [ ] `polity/himyar` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/saba` — span starts -800
+- [ ] `polity/saba` — span ends 275
+- [ ] `polity/saba` — capital Marib
+- [ ] `polity/saba` — peak Karib'il Watar
+- [ ] `polity/saba` — revenue basis coded trade-toll + land-tax
+- [ ] `polity/saba` — legitimation coded divine-sanction
+- [ ] `polity/saba` — turning point -25 Aelius Gallus at Marib
+- [ ] `polity/saba` — descendant_scripts = 1 (Ge'ez)
+- [ ] `polity/saba` — successor_claims = 1 (Himyar)
+- [ ] `polity/saba` — ended by gradual absorption in 275
+
 ## Abbas Amanat, Iran: A Modern History
 
 `amanat-2017` — 22 claims
@@ -2452,6 +2481,23 @@ ordinary state, not an item to clear.
 - [ ] `polity/golden-horde` — last Shaykh Ahmad r. 1481-1502
 - [ ] `polity/golden-horde` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/golden-horde` — ended by fragmentation in 1502
+
+## G. W. Bowersock, The Throne of Adulis: Red Sea Wars on the Eve of Islam
+*In Emblems of Antiquity.*
+
+`bowersock-2013` — 11 claims
+
+- [ ] `chapter/himyar/02-rahmanan.mdx` — prose: "The gods stop being named"
+- [ ] `chapter/himyar/03-a-jewish-kingdom.mdx` — prose: "A Jewish kingdom in Arabia"
+- [ ] `chapter/himyar/04-najran.mdx` — prose: "Najran"
+- [ ] `chapter/himyar/05-the-elephant.mdx` — prose: "Kaleb, Abraha, and the elephant"
+- [ ] `edge/himyar->aksum` — conquered by in 525
+- [ ] `polity/himyar` — span ends 525
+- [ ] `polity/himyar` — last Yusuf As'ar Yath'ar
+- [ ] `polity/himyar` — legitimation coded titulature + divine-sanction
+- [ ] `polity/himyar` — turning point 380 The gods stop being named
+- [ ] `polity/himyar` — turning point 523 Najran
+- [ ] `polity/himyar` — ended by conquest in 525
 
 ## Nehemia Levtzion, Ancient Ghana and Mali
 

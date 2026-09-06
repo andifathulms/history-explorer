@@ -1,0 +1,92 @@
+id: himyar
+region: arabia
+
+name:
+  latin: Himyar
+  script: null
+  script_lang: null
+
+# 110 BC is the conventional date for the appearance of a Himyarite era in the
+# inscriptions. The end is a real range: an Aksumite invasion in 525 killed the
+# last native king and installed a Christian client, and the Sasanians took the
+# country from that client's successor around 570.
+span:
+  start: { min: -110, max: -110, source: fisher-2015 }
+  end: { min: 525, max: 570, source: bowersock-2013 }
+
+identity: >-
+  The kingdom that unified South Arabia, abandoned its gods for a single
+  unnamed one, ended as an explicitly Jewish state, and was destroyed by a
+  Christian invasion from Africa a century before Islam.
+
+capitals:
+  - { name: Zafar, script: ظفار, source: fisher-2015 }
+
+core_region: The Yemeni highlands, with the Tihama coast and, from about 275, all of South Arabia
+
+rulers:
+  founder: { name: null, source: null }
+  peak: { name: Abukarib As'ad, source: fisher-2015 }
+  last: { name: Yusuf As'ar Yath'ar, source: bowersock-2013 }
+
+scripts_and_languages:
+  administration: [Sabaic]
+  writing_system: The Ancient South Arabian musnad alphabet
+
+ended:
+  type: conquest
+  by: [aksum]
+  year: 525
+  source: bowersock-2013
+
+institutions:
+  # Null for the same reason as the Saba' record: the inscriptions record
+  # campaigns and dedications and building works and do not describe how a
+  # force was raised in terms this vocabulary could take.
+  military_basis: null
+  # Terraced highland agriculture with reliable rainfall — the thing Saba' did
+  # not have and the reason Himyar outlasted it — and the ports of the Tihama
+  # coast facing the Red Sea route. Unranked.
+  revenue_basis: { values: [land-tax, trade-toll], source: fisher-2015 }
+  succession_rule: null
+  # Both, and both public. `titulature`, because the Himyarite kings took and
+  # kept the Sabaean royal title — king of Saba' and dhu-Raydan, later with
+  # Hadramawt and Yamanat added — and the titles are the evidence that the
+  # unification happened. And `divine-sanction` for what the inscriptions do
+  # from about 380: they stop naming Almaqah and the old gods and invoke
+  # Rahmanan, the Merciful, lord of heaven and earth, in a state formula
+  # maintained for a century and a half. See the second and third chapters.
+  legitimation: { values: [titulature, divine-sanction], source: bowersock-2013 }
+
+turning_points:
+  - year: 380
+    type: conversion
+    name: "The gods stop being named"
+    changed: >-
+      Within a few decades the royal inscriptions cease dedicating to Almaqah
+      and the South Arabian pantheon and begin invoking a single god, Rahmanan,
+      with no image and no temple. A polytheism attested continuously for more
+      than a thousand years disappears from the public record of a state that
+      goes on using the same script, the same language and the same formulas
+      for everything else, and it does not come back.
+    source: bowersock-2013
+    contested: false
+  - year: 523
+    type: siege
+    name: "Najran"
+    changed: >-
+      The Jewish king Yusuf took the Christian city of Najran and killed a large
+      part of its population, and the Syriac letters describing it reached
+      Constantinople within months. It converted a local confessional quarrel
+      into a matter for two empires, gave Byzantium the argument it needed to
+      push Aksum into invading, and destroyed the kingdom inside two years.
+    source: bowersock-2013
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
