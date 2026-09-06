@@ -34,6 +34,86 @@ ended:
   year: -609
   source: van-de-mieroop-2015
 
+institutions:
+  # A standing professional core — paid, permanently under arms, with a
+  # specialist siege train and a cavalry arm — alongside a levy from the
+  # provinces and from deported populations resettled as military colonists.
+  # Tiglath-Pileser III's reorganisation after 745 is where the first value
+  # becomes decisive, and this corpus's later empires are all working with
+  # variants of what he assembled.
+  military_basis: { values: [standing-professional, conscript], source: frahm-2023 }
+  # Three, unranked, and the third is coded in coding rule 6's strict sense.
+  # Assyria campaigned annually and the campaign was a fiscal institution: the
+  # army went out, came back with movable wealth and populations, and the
+  # accounts of what it brought are a standard section of the royal
+  # inscriptions. Beside it the land tax of the provinces and the tribute of the
+  # client kingdoms beyond them.
+  revenue_basis: { values: [land-tax, tribute, plunder], source: frahm-2023 }
+  # `nomination`, and the documentation is exceptional. The king designated a
+  # crown prince who was installed in the House of Succession, and Esarhaddon in
+  # 672 had the entire empire swear an adê — a loyalty oath, drafted at length,
+  # copies of which survive from Nimrud and from a temple at Tell Tayinat in
+  # Turkey — binding every subject and vassal to his chosen heir. It is the most
+  # elaborate succession instrument in this corpus by a thousand years, and it
+  # did not prevent the civil war between the two sons it was designed to
+  # protect.
+  succession_rule: { values: [nomination], source: frahm-2023 }
+  # The king is the appointee and vice-regent of Ashur, and the entire military
+  # ideology follows from it: the campaign is undertaken on the god's command to
+  # extend his order over territory that is currently outside it, and the royal
+  # inscriptions are addressed to him as reports.
+  legitimation: { values: [divine-sanction], source: frahm-2023 }
+
+turning_points:
+  - year: -745
+    type: reform
+    name: "Tiglath-Pileser III"
+    changed: >-
+      A period of stagnation ended with a reorganisation that is the substance
+      of everything this record is remembered for: conquered kingdoms converted
+      into provinces under appointed governors instead of left as tributaries,
+      the great provincial commands broken up so that no official held too much,
+      a standing army enlarged and professionalised, and deportation applied
+      systematically rather than occasionally. The empire doubled within forty
+      years and every later Near Eastern empire inherited the machinery.
+    source: frahm-2023
+    contested: false
+  - year: -722
+    type: siege
+    name: "Samaria"
+    changed: >-
+      The kingdom of Israel was taken and its population deported and replaced
+      with deportees from elsewhere, which is the standard Assyrian procedure
+      applied to one small kingdom among dozens. It is on this record because of
+      what the survivors wrote: the Hebrew Bible is substantially a literature
+      produced by people processing Assyrian and then Babylonian conquest, and
+      it is the reason this empire's reputation reached the modern world at all.
+    source: frahm-2023
+    contested: false
+  - year: -689
+    type: siege
+    name: "The destruction of Babylon"
+    changed: >-
+      Sennacherib, after years of failing to hold Babylon through client kings,
+      sacked the city, demolished its temples, and diverted a canal over the
+      site — an act against the most prestigious city in Mesopotamia and the
+      home of the gods Assyria itself worshipped. His own son reversed it and
+      rebuilt, and his grandsons fought a civil war partly over Babylon. It
+      poisoned the relationship that eventually destroyed the empire.
+    source: frahm-2023
+    contested: false
+  - year: -612
+    type: siege
+    name: "Nineveh"
+    changed: >-
+      A Babylonian and Median coalition took the capital and the empire ended
+      within three years, seventeen after its greatest extent. This site's
+      Median record carries the same siege as the one event in its own history
+      attested by a contemporary document; here it is the fastest collapse of a
+      great power anywhere in the corpus, and no single cause explains it.
+    source: van-de-mieroop-2015
+    contested: false
+
 measures:
   reach_km2: { value: 1400000, at: -670, source: taagepera-1979 }
   peak_population: null

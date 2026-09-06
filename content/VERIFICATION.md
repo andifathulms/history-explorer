@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**2807 claims across 147 sources.**
+**2819 claims across 148 sources.**
 
 ## Where to start
 
@@ -1064,6 +1064,53 @@ ordinary state, not an item to clear.
 - [ ] `polity/ziyarid` — turning point 935 Mardavij killed in his bath
 - [ ] `polity/ziyarid` — turning point 1012 The army deposes Qabus
 
+## Marc Van De Mieroop, A History of the Ancient Near East, ca. 3000-323 BC
+
+`van-de-mieroop-2015` — 42 claims
+
+- [ ] `chapter/akkadian/04-a-capital-nobody-can-find.mdx` — prose: "A capital nobody can find"
+- [ ] `chapter/median/02-612.mdx` — prose: "612"
+- [ ] `chapter/mitanni/02-the-empire.mdx` — prose: "From the sea to the mountains"
+- [ ] `chapter/mitanni/03-my-brother.mdx` — prose: "My brother"
+- [ ] `chapter/mitanni/04-an-empire-with-no-archive.mdx` — prose: "An empire with no archive"
+- [ ] `chapter/mitanni/06-suppiluliuma.mdx` — prose: "Taken apart twice"
+- [ ] `chapter/neo-assyrian/04-the-library.mdx` — prose: "Ashurbanipal's library"
+- [ ] `chapter/neo-assyrian/06-609.mdx` — prose: "Seventeen years"
+- [ ] `edge/neo-assyrian->median` — overthrew in -612
+- [ ] `polity/akkadian` — span starts -2334
+- [ ] `polity/akkadian` — span ends -2154
+- [ ] `polity/akkadian` — capital Akkad from -2334
+- [ ] `polity/akkadian` — founder Sargon of Akkad r. -2334--2279
+- [ ] `polity/akkadian` — peak Naram-Sin r. -2254--2218
+- [ ] `polity/akkadian` — last Shu-turul r. -2168--2154
+- [ ] `polity/akkadian` — ended by fragmentation in -2154
+- [ ] `polity/median` — span starts -678
+- [ ] `polity/median` — span ends -549
+- [ ] `polity/median` — capital Ecbatana from -678
+- [ ] `polity/median` — founder Deioces r. -700--647
+- [ ] `polity/median` — peak Cyaxares r. -625--585
+- [ ] `polity/median` — last Astyages r. -585--549
+- [ ] `polity/median` — turning point -612 Nineveh
+- [ ] `polity/median` — turning point -585 The eclipse on the Halys
+- [ ] `polity/mitanni` — span starts -1550
+- [ ] `polity/mitanni` — span ends -1340
+- [ ] `polity/mitanni` — capital Washukanni
+- [ ] `polity/mitanni` — founder Kirta
+- [ ] `polity/mitanni` — peak Saushtatar
+- [ ] `polity/mitanni` — last Shattiwaza
+- [ ] `polity/mitanni` — turning point -1465 The sack of Assur
+- [ ] `polity/mitanni` — turning point -1380 The Egyptian marriage
+- [ ] `polity/mitanni` — turning point -1340 The Shattiwaza treaty
+- [ ] `polity/mitanni` — ended by conquest in -1260
+- [ ] `polity/neo-assyrian` — span starts -911
+- [ ] `polity/neo-assyrian` — span ends -609
+- [ ] `polity/neo-assyrian` — capital Nineveh from -911
+- [ ] `polity/neo-assyrian` — founder Adad-nirari II r. -911--891
+- [ ] `polity/neo-assyrian` — peak Ashurbanipal r. -669--631
+- [ ] `polity/neo-assyrian` — last Ashur-uballit II r. -612--609
+- [ ] `polity/neo-assyrian` — turning point -612 Nineveh
+- [ ] `polity/neo-assyrian` — ended by conquest in -609
+
 ## Carole Hillenbrand, The Crusades: Islamic Perspectives
 
 `hillenbrand-1999` — 42 claims
@@ -1110,52 +1157,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/zangid` — turning point 1144 Edessa
 - [ ] `polity/zangid` — turning point 1163 The house of justice
 - [ ] `polity/zangid` — religions_carried = 1 (Sunni Islam)
-
-## Marc Van De Mieroop, A History of the Ancient Near East, ca. 3000-323 BC
-
-`van-de-mieroop-2015` — 41 claims
-
-- [ ] `chapter/akkadian/04-a-capital-nobody-can-find.mdx` — prose: "A capital nobody can find"
-- [ ] `chapter/median/02-612.mdx` — prose: "612"
-- [ ] `chapter/mitanni/02-the-empire.mdx` — prose: "From the sea to the mountains"
-- [ ] `chapter/mitanni/03-my-brother.mdx` — prose: "My brother"
-- [ ] `chapter/mitanni/04-an-empire-with-no-archive.mdx` — prose: "An empire with no archive"
-- [ ] `chapter/mitanni/06-suppiluliuma.mdx` — prose: "Taken apart twice"
-- [ ] `chapter/neo-assyrian/01-neo-assyrian.mdx` — prose: "The machinery of empire"
-- [ ] `chapter/neo-assyrian/02-the-library.mdx` — prose: "Ashurbanipal's library"
-- [ ] `edge/neo-assyrian->median` — overthrew in -612
-- [ ] `polity/akkadian` — span starts -2334
-- [ ] `polity/akkadian` — span ends -2154
-- [ ] `polity/akkadian` — capital Akkad from -2334
-- [ ] `polity/akkadian` — founder Sargon of Akkad r. -2334--2279
-- [ ] `polity/akkadian` — peak Naram-Sin r. -2254--2218
-- [ ] `polity/akkadian` — last Shu-turul r. -2168--2154
-- [ ] `polity/akkadian` — ended by fragmentation in -2154
-- [ ] `polity/median` — span starts -678
-- [ ] `polity/median` — span ends -549
-- [ ] `polity/median` — capital Ecbatana from -678
-- [ ] `polity/median` — founder Deioces r. -700--647
-- [ ] `polity/median` — peak Cyaxares r. -625--585
-- [ ] `polity/median` — last Astyages r. -585--549
-- [ ] `polity/median` — turning point -612 Nineveh
-- [ ] `polity/median` — turning point -585 The eclipse on the Halys
-- [ ] `polity/mitanni` — span starts -1550
-- [ ] `polity/mitanni` — span ends -1340
-- [ ] `polity/mitanni` — capital Washukanni
-- [ ] `polity/mitanni` — founder Kirta
-- [ ] `polity/mitanni` — peak Saushtatar
-- [ ] `polity/mitanni` — last Shattiwaza
-- [ ] `polity/mitanni` — turning point -1465 The sack of Assur
-- [ ] `polity/mitanni` — turning point -1380 The Egyptian marriage
-- [ ] `polity/mitanni` — turning point -1340 The Shattiwaza treaty
-- [ ] `polity/mitanni` — ended by conquest in -1260
-- [ ] `polity/neo-assyrian` — span starts -911
-- [ ] `polity/neo-assyrian` — span ends -609
-- [ ] `polity/neo-assyrian` — capital Nineveh from -911
-- [ ] `polity/neo-assyrian` — founder Adad-nirari II r. -911--891
-- [ ] `polity/neo-assyrian` — peak Ashurbanipal r. -669--631
-- [ ] `polity/neo-assyrian` — last Ashur-uballit II r. -612--609
-- [ ] `polity/neo-assyrian` — ended by conquest in -609
 
 ## Richard G. Hovannisian (ed.), The Armenian People from Ancient to Modern Times
 
@@ -3185,6 +3186,22 @@ ordinary state, not an item to clear.
 - [ ] `polity/ming` — last Chongzhen Emperor r. 1627-1644
 - [ ] `polity/ming` — ended by conquest in 1644
 - [ ] `polity/yuan` — ended by conquest in 1368
+
+## Eckart Frahm, Assyria: The Rise and Fall of the World's First Empire
+
+`frahm-2023` — 11 claims
+
+- [ ] `chapter/neo-assyrian/01-a-city-and-a-god.mdx` — prose: "A city and a god with the same name"
+- [ ] `chapter/neo-assyrian/02-the-apparatus.mdx` — prose: "The machinery of empire"
+- [ ] `chapter/neo-assyrian/03-the-deportations.mdx` — prose: "The policy, examined"
+- [ ] `chapter/neo-assyrian/05-the-widest.mdx` — prose: "The widest it ever was"
+- [ ] `polity/neo-assyrian` — military basis coded standing-professional + conscript
+- [ ] `polity/neo-assyrian` — revenue basis coded land-tax + tribute + plunder
+- [ ] `polity/neo-assyrian` — succession rule coded nomination
+- [ ] `polity/neo-assyrian` — legitimation coded divine-sanction
+- [ ] `polity/neo-assyrian` — turning point -745 Tiglath-Pileser III
+- [ ] `polity/neo-assyrian` — turning point -722 Samaria
+- [ ] `polity/neo-assyrian` — turning point -689 The destruction of Babylon
 
 ## Christopher I. Beckwith, The Tibetan Empire in Central Asia
 
