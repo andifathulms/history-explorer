@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**2666 claims across 141 sources.**
+**2665 claims across 141 sources.**
 
 ## Where to start
 
@@ -1225,49 +1225,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/trebizond` — legitimation coded descent + titulature
 - [ ] `polity/trebizond` — turning point 1282 Giving up the imperial title
 
-## Ehsan Yarshater (ed.), The Cambridge History of Iran, Volume 3: The Seleucid, Parthian and Sasanian Periods
-
-`chi-3` — 38 claims
-
-- [ ] `chapter/parthian/03-the-empire-rome-could-not-finish.mdx` — prose: "The empire Rome could not finish"
-- [ ] `chapter/parthian/04-carrhae.mdx` — prose: "Carrhae, and the shape of a stalemate"
-- [ ] `chapter/parthian/06-the-parthian-gap.mdx` — prose: "Erased by their successors"
-- [ ] `chapter/sasanian/04-what-khusrau-changed.mdx` — prose: "The survey"
-- [ ] `chapter/sasanian/05-khusrau.mdx` — prose: "Khusrau's reforms, and Rome"
-- [ ] `chapter/sasanian/05-two-eyes-of-the-world.mdx` — prose: "The two eyes of the world"
-- [ ] `chapter/seleucid/01-the-largest-share.mdx` — prose: "The largest and most difficult share"
-- [ ] `chapter/seleucid/03-the-cities.mdx` — prose: "What a Greek city was for"
-- [ ] `chapter/seleucid/04-losing-the-east.mdx` — prose: "Losing the east without noticing"
-- [ ] `chapter/seleucid/05-ai-khanoum.mdx` — prose: "A Greek city on the Oxus"
-- [ ] `chapter/seleucid/06-64.mdx` — prose: "The last piece of Syria"
-- [ ] `edge/achaemenid->parthian` — claimed legitimacy of in -141
-- [ ] `edge/macedonian->seleucid` — partitioned from in -312
-- [ ] `edge/seleucid->parthian` — seceded from in -247
-- [ ] `polity/parthian` — span starts -247
-- [ ] `polity/parthian` — span ends 224
-- [ ] `polity/parthian` — capital Ctesiphon from -247
-- [ ] `polity/parthian` — founder Arsaces I r. -247--217
-- [ ] `polity/parthian` — peak Mithridates II r. -124--88
-- [ ] `polity/parthian` — last Artabanus IV r. 213-224
-- [ ] `polity/parthian` — legitimation coded titulature + descent
-- [ ] `polity/parthian` — turning point -53 Carrhae
-- [ ] `polity/parthian` — turning point 116 Trajan at Ctesiphon
-- [ ] `polity/sasanian` — peak Khusrau I Anushirvan r. 531-579
-- [ ] `polity/sasanian` — turning point 540 The survey and the four spahbeds
-- [ ] `polity/seleucid` — span starts -312
-- [ ] `polity/seleucid` — span ends -63
-- [ ] `polity/seleucid` — capital Antioch from -312
-- [ ] `polity/seleucid` — founder Seleucus I Nicator r. -312--281
-- [ ] `polity/seleucid` — peak Antiochus III r. -222--187
-- [ ] `polity/seleucid` — last Philip II Philoromaeus r. -65--63
-- [ ] `polity/seleucid` — military basis coded land-grant + mercenary
-- [ ] `polity/seleucid` — revenue basis coded land-tax + trade-toll
-- [ ] `polity/seleucid` — succession rule coded primogeniture
-- [ ] `polity/seleucid` — turning point -312 The era begins
-- [ ] `polity/seleucid` — turning point -303 The elephants
-- [ ] `polity/seleucid` — turning point -190 Magnesia
-- [ ] `polity/seleucid` — turning point -167 The Maccabean revolt
-
 ## Amira K. Bennison, The Almoravid and Almohad Empires
 
 `bennison-2016` — 37 claims
@@ -1311,6 +1268,48 @@ ordinary state, not an item to clear.
 - [ ] `polity/almoravid` — turning point 1086 Sagrajas
 - [ ] `polity/almoravid` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/almoravid` — ended by conquest in 1147
+
+## Ehsan Yarshater (ed.), The Cambridge History of Iran, Volume 3: The Seleucid, Parthian and Sasanian Periods
+
+`chi-3` — 37 claims
+
+- [ ] `chapter/parthian/03-the-empire-rome-could-not-finish.mdx` — prose: "The empire Rome could not finish"
+- [ ] `chapter/parthian/04-carrhae.mdx` — prose: "Carrhae, and the shape of a stalemate"
+- [ ] `chapter/parthian/06-the-parthian-gap.mdx` — prose: "Erased by their successors"
+- [ ] `chapter/sasanian/04-what-khusrau-changed.mdx` — prose: "The survey"
+- [ ] `chapter/sasanian/05-two-eyes-of-the-world.mdx` — prose: "The two eyes of the world"
+- [ ] `chapter/seleucid/01-the-largest-share.mdx` — prose: "The largest and most difficult share"
+- [ ] `chapter/seleucid/03-the-cities.mdx` — prose: "What a Greek city was for"
+- [ ] `chapter/seleucid/04-losing-the-east.mdx` — prose: "Losing the east without noticing"
+- [ ] `chapter/seleucid/05-ai-khanoum.mdx` — prose: "A Greek city on the Oxus"
+- [ ] `chapter/seleucid/06-64.mdx` — prose: "The last piece of Syria"
+- [ ] `edge/achaemenid->parthian` — claimed legitimacy of in -141
+- [ ] `edge/macedonian->seleucid` — partitioned from in -312
+- [ ] `edge/seleucid->parthian` — seceded from in -247
+- [ ] `polity/parthian` — span starts -247
+- [ ] `polity/parthian` — span ends 224
+- [ ] `polity/parthian` — capital Ctesiphon from -247
+- [ ] `polity/parthian` — founder Arsaces I r. -247--217
+- [ ] `polity/parthian` — peak Mithridates II r. -124--88
+- [ ] `polity/parthian` — last Artabanus IV r. 213-224
+- [ ] `polity/parthian` — legitimation coded titulature + descent
+- [ ] `polity/parthian` — turning point -53 Carrhae
+- [ ] `polity/parthian` — turning point 116 Trajan at Ctesiphon
+- [ ] `polity/sasanian` — peak Khusrau I Anushirvan r. 531-579
+- [ ] `polity/sasanian` — turning point 540 The survey and the four spahbeds
+- [ ] `polity/seleucid` — span starts -312
+- [ ] `polity/seleucid` — span ends -63
+- [ ] `polity/seleucid` — capital Antioch from -312
+- [ ] `polity/seleucid` — founder Seleucus I Nicator r. -312--281
+- [ ] `polity/seleucid` — peak Antiochus III r. -222--187
+- [ ] `polity/seleucid` — last Philip II Philoromaeus r. -65--63
+- [ ] `polity/seleucid` — military basis coded land-grant + mercenary
+- [ ] `polity/seleucid` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/seleucid` — succession rule coded primogeniture
+- [ ] `polity/seleucid` — turning point -312 The era begins
+- [ ] `polity/seleucid` — turning point -303 The elephants
+- [ ] `polity/seleucid` — turning point -190 Magnesia
+- [ ] `polity/seleucid` — turning point -167 The Maccabean revolt
 
 ## Madawi Al-Rasheed, A History of Saudi Arabia
 
