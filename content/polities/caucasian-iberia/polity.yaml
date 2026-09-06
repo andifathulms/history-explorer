@@ -1,0 +1,91 @@
+id: caucasian-iberia
+region: caucasus
+
+name:
+  latin: Kingdom of Iberia
+  script: ქართლის სამეფო
+  script_lang: ka
+
+# Not the peninsula. The Greek and Roman name for eastern Georgia is Iberia and
+# the Georgian one is Kartli; this corpus has al-Andalus pages that use the
+# other Iberia, which is why the id disambiguates and the identity line says so.
+#
+# The Pharnavazid foundation around 302 BC is traditional, recorded in the
+# Georgian chronicles many centuries later, and the dynastic record before the
+# Christian period is thin. The range at the start is that.
+span:
+  start: { min: -302, max: -200, source: toumanoff-1963 }
+  end: { min: 580, max: 588, source: suny-1994 }
+
+identity: >-
+  Eastern Georgia before Georgia: the kingdom the Greeks called Iberia and the
+  Georgians call Kartli, which converted about a generation after Armenia and
+  was governed by its own nobles for four centuries after its crown was
+  abolished.
+
+capitals:
+  - { name: Mtskheta, script: მცხეთა, source: toumanoff-1963 }
+  - { name: Tbilisi, script: თბილისი, from: 522, source: suny-1994 }
+
+core_region: Eastern Georgia, the Kura valley and the country around Mtskheta
+
+rulers:
+  founder: { name: Pharnavaz I, source: toumanoff-1963 }
+  peak: { name: Vakhtang I Gorgasali, reign: [447, 522], source: suny-1994 }
+  last: { name: Bakur III, source: suny-1994 }
+
+scripts_and_languages:
+  administration: [Georgian, Greek, Middle Persian]
+  writing_system: The Georgian alphabet, from about the fifth century
+
+ended:
+  type: conquest
+  by: [sasanian]
+  year: 580
+  source: suny-1994
+
+institutions:
+  # The eristavi and the aznauri: the same hereditary noble structure as the
+  # Armenian and Albanian records, coded from the same source and for the same
+  # reason. Toumanoff's argument is that the three Caucasian countries had one
+  # social system and three crowns, and that this is why all three survived the
+  # loss of the crowns.
+  military_basis: { values: [client-levy], source: toumanoff-1963 }
+  revenue_basis: { values: [land-tax, trade-toll], source: suny-1994 }
+  succession_rule: null
+  legitimation: { values: [descent], source: toumanoff-1963 }
+
+turning_points:
+  - year: 298
+    type: treaty
+    name: "The Peace of Nisibis"
+    changed: >-
+      Rome and Sasanian Iran settled their war with a treaty that assigned
+      Iberia to the Roman sphere and gave Rome the right to invest its kings.
+      It is the same arrangement the Armenian record carries from Rhandeia two
+      and a half centuries earlier, in the other direction, and it is why both
+      of these records leave the succession field empty: a throne disposed of
+      by treaty between two other powers is not any of the seven values.
+    source: toumanoff-1963
+    contested: false
+  - year: 337
+    type: conversion
+    name: "The conversion of Mirian"
+    changed: >-
+      Iberia became Christian about a generation after Armenia, converted
+      according to its own tradition by a woman, Nino, whose shrine is at
+      Mtskheta. It aligned the kingdom with Rome against Iran at the moment the
+      Sasanians were consolidating Zoroastrianism as a state religion, and it
+      is the origin of a church that has been the most continuous Georgian
+      institution ever since — older than the Bagrationi, older than the
+      kingdom on this site's Georgia record, and still there.
+    source: suny-1994
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

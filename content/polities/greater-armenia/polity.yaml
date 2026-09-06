@@ -1,0 +1,125 @@
+id: greater-armenia
+region: caucasus
+
+name:
+  latin: Kingdom of Greater Armenia
+  script: Մեծ Հայք
+  script_lang: hy
+
+# 189 BC is Artaxias declaring himself king after the Seleucid defeat at
+# Magnesia; 428 is the Sasanian abolition of the monarchy. The dynasty changes
+# in between — Artaxiad to Arsacid — and this record treats the kingdom rather
+# than the house, which is how the Armenian sources treat it.
+span:
+  start: { min: -190, max: -189, source: hovannisian-1997 }
+  end: { min: 428, max: 428, source: hovannisian-1997 }
+
+identity: >-
+  Six centuries of a kingdom between Rome and Iran, which briefly ruled from the
+  Caspian to the Mediterranean, was the first state to adopt Christianity, and
+  acquired an alphabet twenty-three years before it lost its throne.
+
+capitals:
+  - { name: Artaxata, script: Արտաշատ, from: -176, source: hovannisian-1997 }
+  - { name: Tigranocerta, script: Տիգրանակերտ, from: -83, source: hovannisian-1997 }
+
+core_region: The Armenian highland, from the Euphrates to the Caspian watershed
+
+rulers:
+  founder: { name: Artaxias I, reign: [-189, -160], source: hovannisian-1997 }
+  peak: { name: Tigranes II, reign: [-95, -55], source: hovannisian-1997 }
+  last: { name: Artaxias IV, reign: [422, 428], source: hovannisian-1997 }
+
+scripts_and_languages:
+  administration: [Armenian, Greek, Aramaic]
+  writing_system: Greek and Aramaic, and from about 405 the Armenian alphabet
+
+ended:
+  type: conquest
+  by: [sasanian]
+  year: 428
+  source: hovannisian-1997
+
+institutions:
+  # The nakharar houses, which this site now codes identically on four Caucasian
+  # records from Toumanoff: hereditary lords holding their own districts with
+  # their own fortresses and cavalry, owing service under an obligation the
+  # crown did not create and could not withdraw. The Bagratuni who take the
+  # Armenian crown in 884, six records and four and a half centuries later, are
+  # one of these houses.
+  military_basis: { values: [client-levy], source: toumanoff-1963 }
+  revenue_basis: { values: [land-tax, trade-toll], source: hovannisian-1997 }
+  # Null, and this is the most formalised instance in the corpus of the gap
+  # several records have now named. Under the settlement of Rhandeia in AD 63,
+  # the king of Armenia was to be an Arsacid nominated by Parthia and crowned by
+  # Rome — a written agreement between two empires about how a third polity's
+  # ruler would be chosen. The vocabulary has values for who inherits and none
+  # for a throne held on two other people's terms.
+  succession_rule: null
+  legitimation: { values: [descent], source: hovannisian-1997 }
+
+turning_points:
+  - year: -69
+    type: battle
+    name: "Tigranocerta"
+    changed: >-
+      Lucullus destroyed Tigranes' field army outside the capital Tigranes had
+      built and populated by deporting the inhabitants of Greek cities into it.
+      The empire from the Caspian to the Mediterranean, which had lasted about
+      fifteen years, ended; the kingdom survived, and spent the following five
+      centuries as the ground between two empires rather than as one.
+    source: hovannisian-1997
+    contested: false
+  - year: 63
+    type: treaty
+    name: "Rhandeia"
+    changed: >-
+      Rome and Parthia settled a war over Armenia by agreeing that its king
+      would be an Arsacid prince nominated at Ctesiphon and crowned at Rome —
+      and Tiridates travelled to Italy to be crowned by Nero in person. It ended
+      the fighting for fifty years and fixed the kingdom's constitutional
+      position for three centuries: sovereign in form, and in substance the
+      subject of a treaty between other people.
+    source: hovannisian-1997
+    contested: false
+  - year: 301
+    type: conversion
+    name: "The conversion of Tiridates"
+    changed: >-
+      Armenia adopted Christianity as the religion of the state, conventionally
+      before anyone else — the traditional date is 301 and much modern
+      scholarship prefers a decade or so later, which does not disturb the
+      priority. It made the kingdom permanently unreliable to Sasanian Iran and
+      permanently distinct from it, and everything about Armenian politics for
+      the following twelve hundred years runs through the church that was
+      established here.
+    source: hovannisian-1997
+    contested: false
+  - year: 405
+    type: reform
+    name: "The alphabet"
+    changed: >-
+      Mesrop Mashtots devised a script for Armenian under royal and catholicosal
+      patronage, and within a generation the Bible, the Greek and Syriac
+      fathers, and a national historiography had been translated or written in
+      it. A kingdom that had administered itself in Greek and Aramaic acquired a
+      literature in its own language twenty-three years before it stopped having
+      a king, and the literature outlasted every polity on this page by
+      sixteen centuries.
+    source: hovannisian-1997
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    # The Armenian alphabet is Mashtots' own invention rather than an adaptation
+    # of an existing script for a new language, which is the harder case for
+    # this axis: the coding rules count a script derived from or newly adapted
+    # out of the polity's own, and Armenian is derived from nothing here that a
+    # source will name. The Georgian and Caucasian Albanian alphabets are
+    # attributed to the same man by the Armenian tradition and to other origins
+    # by the Georgian one, which is a live dispute and not a count.
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

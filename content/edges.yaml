@@ -1157,6 +1157,28 @@ edges:
     source: daftary-2007
     contested: true
 
+  - from: greater-armenia
+    to: sasanian
+    type: conquered by
+    year: 428
+    note: "The Sasanians abolished the Armenian monarchy on the Persian side of
+           the partition of 387, at the request of some of the Armenian nobles
+           themselves, who preferred a Persian governor to a king of their own
+           who might tax them."
+    source: hovannisian-1997
+    contested: false
+
+  - from: caucasian-iberia
+    to: sasanian
+    type: conquered by
+    year: 580
+    note: "The last of the three Caucasian crowns to be removed by the same
+           empire, and replaced eight years later by a presiding prince chosen
+           from among the noble houses — which made explicit what had always
+           been the case."
+    source: suny-1994
+    contested: false
+
   - from: shaddadid
     to: georgia
     type: conquered by

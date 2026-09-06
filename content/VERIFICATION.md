@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**2530 claims across 138 sources.**
+**2571 claims across 138 sources.**
 
 ## Where to start
 
@@ -981,6 +981,54 @@ ordinary state, not an item to clear.
 - [ ] `polity/zangid` — turning point 1163 The house of justice
 - [ ] `polity/zangid` — religions_carried = 1 (Sunni Islam)
 
+## Richard G. Hovannisian (ed.), The Armenian People from Ancient to Modern Times
+
+`hovannisian-1997` — 41 claims
+
+**Sole source** for `bagratid-armenia` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/bagratid-armenia/01-a-crown-from-baghdad.mdx` — prose: "A crown from Baghdad"
+- [ ] `chapter/bagratid-armenia/02-ani.mdx` — prose: "Ani"
+- [ ] `chapter/bagratid-armenia/03-the-nakharars.mdx` — prose: "The houses"
+- [ ] `chapter/bagratid-armenia/04-the-bequest.mdx` — prose: "The kingdom given away"
+- [ ] `chapter/bagratid-armenia/05-what-went-to-cilicia.mdx` — prose: "What went to Cilicia"
+- [ ] `chapter/greater-armenia/01-artaxias.mdx` — prose: "A governor who kept the province"
+- [ ] `chapter/greater-armenia/02-tigranes.mdx` — prose: "Fifteen years of an empire"
+- [ ] `chapter/greater-armenia/03-rhandeia.mdx` — prose: "A throne disposed of by treaty"
+- [ ] `chapter/greater-armenia/04-301.mdx` — prose: "First"
+- [ ] `chapter/greater-armenia/05-the-alphabet.mdx` — prose: "Twenty-three years before the end"
+- [ ] `chapter/greater-armenia/06-428.mdx` — prose: "The crown removed and the houses left"
+- [ ] `edge/bagratid-armenia->byzantine` — conquered by in 1045
+- [ ] `edge/bagratid-armenia->cilician-armenia` — absorbed remnants of in 1080
+- [ ] `edge/greater-armenia->sasanian` — conquered by in 428
+- [ ] `polity/bagratid-armenia` — span starts 884
+- [ ] `polity/bagratid-armenia` — span ends 1045
+- [ ] `polity/bagratid-armenia` — capital Ani from 961
+- [ ] `polity/bagratid-armenia` — founder Ashot I r. 884-890
+- [ ] `polity/bagratid-armenia` — peak Gagik I r. 989-1020
+- [ ] `polity/bagratid-armenia` — last Gagik II r. 1042-1045
+- [ ] `polity/bagratid-armenia` — military basis coded client-levy
+- [ ] `polity/bagratid-armenia` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/bagratid-armenia` — succession rule coded appanage
+- [ ] `polity/bagratid-armenia` — legitimation coded caliphal-investiture + descent
+- [ ] `polity/bagratid-armenia` — turning point 961 Ani
+- [ ] `polity/bagratid-armenia` — turning point 1022 The bequest to Byzantium
+- [ ] `polity/bagratid-armenia` — ended by conquest in 1045
+- [ ] `polity/greater-armenia` — span starts -190
+- [ ] `polity/greater-armenia` — span ends 428
+- [ ] `polity/greater-armenia` — capital Artaxata from -176
+- [ ] `polity/greater-armenia` — capital Tigranocerta from -83
+- [ ] `polity/greater-armenia` — founder Artaxias I r. -189--160
+- [ ] `polity/greater-armenia` — peak Tigranes II r. -95--55
+- [ ] `polity/greater-armenia` — last Artaxias IV r. 422-428
+- [ ] `polity/greater-armenia` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/greater-armenia` — legitimation coded descent
+- [ ] `polity/greater-armenia` — turning point -69 Tigranocerta
+- [ ] `polity/greater-armenia` — turning point 63 Rhandeia
+- [ ] `polity/greater-armenia` — turning point 301 The conversion of Tiridates
+- [ ] `polity/greater-armenia` — turning point 405 The alphabet
+- [ ] `polity/greater-armenia` — ended by conquest in 428
+
 ## Marc Van De Mieroop, A History of the Ancient Near East, ca. 3000-323 BC
 
 `van-de-mieroop-2015` — 40 claims
@@ -1370,6 +1418,45 @@ ordinary state, not an item to clear.
 - [ ] `polity/yuan` — last Toghon Temur r. 1333-1368
 - [ ] `polity/yuan` — descendant_scripts = 1 (Phags-pa script)
 
+## Ronald Grigor Suny, The Making of the Georgian Nation
+
+`suny-1994` — 32 claims
+
+**Sole source** for `georgia` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/caucasian-iberia/03-nino.mdx` — prose: "Nino"
+- [ ] `chapter/caucasian-iberia/04-vakhtang.mdx` — prose: "Vakhtang Gorgasali"
+- [ ] `chapter/caucasian-iberia/05-580.mdx` — prose: "Four centuries without a king"
+- [ ] `chapter/georgia/01-one-crown.mdx` — prose: "One crown, in 1008"
+- [ ] `chapter/georgia/02-didgori.mdx` — prose: "The army the nobles could not withhold"
+- [ ] `chapter/georgia/03-tamar.mdx` — prose: "Tamar"
+- [ ] `chapter/georgia/04-the-mongols.mdx` — prose: "What the Mongols left in place"
+- [ ] `chapter/georgia/05-a-christian-kingdom.mdx` — prose: "What a Christian kingdom looked like in these fields"
+- [ ] `chapter/georgia/06-1490.mdx` — prose: "Three kingdoms"
+- [ ] `edge/caucasian-iberia->sasanian` — conquered by in 580
+- [ ] `polity/caucasian-iberia` — span ends 580
+- [ ] `polity/caucasian-iberia` — capital Tbilisi from 522
+- [ ] `polity/caucasian-iberia` — peak Vakhtang I Gorgasali r. 447-522
+- [ ] `polity/caucasian-iberia` — last Bakur III
+- [ ] `polity/caucasian-iberia` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/caucasian-iberia` — turning point 337 The conversion of Mirian
+- [ ] `polity/caucasian-iberia` — ended by conquest in 580
+- [ ] `polity/georgia` — span starts 1008
+- [ ] `polity/georgia` — span ends 1490
+- [ ] `polity/georgia` — capital Kutaisi from 1008
+- [ ] `polity/georgia` — capital Tbilisi from 1122
+- [ ] `polity/georgia` — founder Bagrat III r. 1008-1014
+- [ ] `polity/georgia` — peak Tamar r. 1184-1213
+- [ ] `polity/georgia` — last George VIII
+- [ ] `polity/georgia` — military basis coded client-levy + standing-professional
+- [ ] `polity/georgia` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/georgia` — succession rule coded primogeniture
+- [ ] `polity/georgia` — legitimation coded descent
+- [ ] `polity/georgia` — turning point 1121 Didgori
+- [ ] `polity/georgia` — turning point 1122 Tbilisi
+- [ ] `polity/georgia` — turning point 1243 Submission to the Mongols
+- [ ] `polity/georgia` — ended by fragmentation in 1490
+
 ## John C. Wilkinson, The Imamate Tradition of Oman
 *In Cambridge Middle East Library.*
 
@@ -1605,6 +1692,34 @@ ordinary state, not an item to clear.
 - [ ] `polity/shaybanid` — turning point 1588 Abdullah Khan at Herat
 - [ ] `polity/shaybanid` — ended by dynastic replacement in 1599
 
+## Cyril Toumanoff, Studies in Christian Caucasian History
+
+`toumanoff-1963` — 23 claims
+
+- [ ] `chapter/caucasian-albania/01-the-third-country.mdx` — prose: "The third country"
+- [ ] `chapter/caucasian-albania/02-javanshir.mdx` — prose: "Javanshir"
+- [ ] `chapter/caucasian-albania/04-arran.mdx` — prose: "Arran"
+- [ ] `chapter/caucasian-iberia/01-pharnavaz.mdx` — prose: "Not that Iberia"
+- [ ] `chapter/caucasian-iberia/02-between-two-empires.mdx` — prose: "A throne two empires agreed about"
+- [ ] `polity/caucasian-albania` — span starts -200
+- [ ] `polity/caucasian-albania` — span ends 705
+- [ ] `polity/caucasian-albania` — capital Kabala
+- [ ] `polity/caucasian-albania` — capital Partav
+- [ ] `polity/caucasian-albania` — peak Javanshir r. 637-680
+- [ ] `polity/caucasian-albania` — military basis coded client-levy
+- [ ] `polity/caucasian-albania` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/caucasian-albania` — legitimation coded descent
+- [ ] `polity/caucasian-albania` — turning point 313 The conversion of Urnayr (contested)
+- [ ] `polity/caucasian-albania` — turning point 510 The monarchy abolished
+- [ ] `polity/caucasian-albania` — ended by gradual absorption in 822
+- [ ] `polity/caucasian-iberia` — span starts -302
+- [ ] `polity/caucasian-iberia` — capital Mtskheta
+- [ ] `polity/caucasian-iberia` — founder Pharnavaz I
+- [ ] `polity/caucasian-iberia` — military basis coded client-levy
+- [ ] `polity/caucasian-iberia` — legitimation coded descent
+- [ ] `polity/caucasian-iberia` — turning point 298 The Peace of Nisibis
+- [ ] `polity/greater-armenia` — military basis coded client-levy
+
 ## Kenneth R. Hall, A History of Early Southeast Asia: Maritime Trade and Societal Development, 100-1500
 
 `hall-2011` — 23 claims
@@ -1746,34 +1861,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/hotaki` — turning point 1729 Damghan and Murche-Khort
 - [ ] `polity/hotaki` — ended by conquest in 1738
 
-## Ronald Grigor Suny, The Making of the Georgian Nation
-
-`suny-1994` — 21 claims
-
-**Sole source** for `georgia` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/georgia/01-one-crown.mdx` — prose: "One crown, in 1008"
-- [ ] `chapter/georgia/02-didgori.mdx` — prose: "The army the nobles could not withhold"
-- [ ] `chapter/georgia/03-tamar.mdx` — prose: "Tamar"
-- [ ] `chapter/georgia/04-the-mongols.mdx` — prose: "What the Mongols left in place"
-- [ ] `chapter/georgia/05-a-christian-kingdom.mdx` — prose: "What a Christian kingdom looked like in these fields"
-- [ ] `chapter/georgia/06-1490.mdx` — prose: "Three kingdoms"
-- [ ] `polity/georgia` — span starts 1008
-- [ ] `polity/georgia` — span ends 1490
-- [ ] `polity/georgia` — capital Kutaisi from 1008
-- [ ] `polity/georgia` — capital Tbilisi from 1122
-- [ ] `polity/georgia` — founder Bagrat III r. 1008-1014
-- [ ] `polity/georgia` — peak Tamar r. 1184-1213
-- [ ] `polity/georgia` — last George VIII
-- [ ] `polity/georgia` — military basis coded client-levy + standing-professional
-- [ ] `polity/georgia` — revenue basis coded land-tax + trade-toll
-- [ ] `polity/georgia` — succession rule coded primogeniture
-- [ ] `polity/georgia` — legitimation coded descent
-- [ ] `polity/georgia` — turning point 1121 Didgori
-- [ ] `polity/georgia` — turning point 1122 Tbilisi
-- [ ] `polity/georgia` — turning point 1243 Submission to the Mongols
-- [ ] `polity/georgia` — ended by fragmentation in 1490
-
 ## C. E. Bosworth, The Ghaznavids: Their Empire in Afghanistan and Eastern Iran, 994-1040
 
 `bosworth-1963` — 21 claims
@@ -1904,33 +1991,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/trebizond` — span ends 1461
 - [ ] `polity/trebizond` — last David Megas Komnenos r. 1459-1461
 - [ ] `polity/trebizond` — ended by conquest in 1461
-
-## Richard G. Hovannisian (ed.), The Armenian People from Ancient to Modern Times
-
-`hovannisian-1997` — 20 claims
-
-**Sole source** for `bagratid-armenia` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/bagratid-armenia/01-a-crown-from-baghdad.mdx` — prose: "A crown from Baghdad"
-- [ ] `chapter/bagratid-armenia/02-ani.mdx` — prose: "Ani"
-- [ ] `chapter/bagratid-armenia/03-the-nakharars.mdx` — prose: "The houses"
-- [ ] `chapter/bagratid-armenia/04-the-bequest.mdx` — prose: "The kingdom given away"
-- [ ] `chapter/bagratid-armenia/05-what-went-to-cilicia.mdx` — prose: "What went to Cilicia"
-- [ ] `edge/bagratid-armenia->byzantine` — conquered by in 1045
-- [ ] `edge/bagratid-armenia->cilician-armenia` — absorbed remnants of in 1080
-- [ ] `polity/bagratid-armenia` — span starts 884
-- [ ] `polity/bagratid-armenia` — span ends 1045
-- [ ] `polity/bagratid-armenia` — capital Ani from 961
-- [ ] `polity/bagratid-armenia` — founder Ashot I r. 884-890
-- [ ] `polity/bagratid-armenia` — peak Gagik I r. 989-1020
-- [ ] `polity/bagratid-armenia` — last Gagik II r. 1042-1045
-- [ ] `polity/bagratid-armenia` — military basis coded client-levy
-- [ ] `polity/bagratid-armenia` — revenue basis coded land-tax + trade-toll
-- [ ] `polity/bagratid-armenia` — succession rule coded appanage
-- [ ] `polity/bagratid-armenia` — legitimation coded caliphal-investiture + descent
-- [ ] `polity/bagratid-armenia` — turning point 961 Ani
-- [ ] `polity/bagratid-armenia` — turning point 1022 The bequest to Byzantium
-- [ ] `polity/bagratid-armenia` — ended by conquest in 1045
 
 ## Taef Kamal El-Azhari, The Saljuqs of Syria During the Crusades, 463-549 A.H./1070-1154 A.D.
 *In Islamkundliche Untersuchungen 211.*
@@ -2509,25 +2569,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/buyid` — successor_claims = 0
 - [ ] `polity/buyid` — ended by conquest in 1055
 - [ ] `polity/sasanian` — successor_claims = 1 (Buyid Confederation)
-
-## Cyril Toumanoff, Studies in Christian Caucasian History
-
-`toumanoff-1963` — 14 claims
-
-- [ ] `chapter/caucasian-albania/01-the-third-country.mdx` — prose: "The third country"
-- [ ] `chapter/caucasian-albania/02-javanshir.mdx` — prose: "Javanshir"
-- [ ] `chapter/caucasian-albania/04-arran.mdx` — prose: "Arran"
-- [ ] `polity/caucasian-albania` — span starts -200
-- [ ] `polity/caucasian-albania` — span ends 705
-- [ ] `polity/caucasian-albania` — capital Kabala
-- [ ] `polity/caucasian-albania` — capital Partav
-- [ ] `polity/caucasian-albania` — peak Javanshir r. 637-680
-- [ ] `polity/caucasian-albania` — military basis coded client-levy
-- [ ] `polity/caucasian-albania` — revenue basis coded land-tax + trade-toll
-- [ ] `polity/caucasian-albania` — legitimation coded descent
-- [ ] `polity/caucasian-albania` — turning point 313 The conversion of Urnayr (contested)
-- [ ] `polity/caucasian-albania` — turning point 510 The monarchy abolished
-- [ ] `polity/caucasian-albania` — ended by gradual absorption in 822
 
 ## Peter Jackson, The Mongols and the Islamic World: From Conquest to Conversion
 
