@@ -153,34 +153,53 @@ regions:
     group: mediterranean
     thread: true
 
-  # Widened when Venice and Genoa were added. Nineteen records across six
-  # regions named one or the other in prose and none could link them, which was
-  # the largest unlinkable gap left in the corpus — more than double the nine
-  # records that argued the `investiture` value into the vocabulary. The two
-  # republics are the Latin west's other half: not the attempt to restore an
-  # empire but the states that made a living off the one still standing.
+  # Split out of `byzantium-and-the-latin-west`, which held both of these and
+  # was named after four of its eight records. The name had been wrong for a
+  # while — it carried the Roman empire, which precedes both halves of it, and
+  # the Holy Roman Empire, which is neither Byzantium nor Latin in the sense the
+  # name intended — and it was about to get worse, because the post-Roman
+  # kingdoms are none of those things either.
   #
-  # Eight records and nine internal edges, which is the densest thread on this
-  # site outside the Iranian Intermezzo. Six of the eight carry `election` in
-  # their succession or legitimation fields, which is true of no other region
-  # here and is the closest thing this corpus has to a regional finding about
-  # constitutions rather than about geography.
+  # The cost was measured before the split rather than after: of the nine
+  # internal edges the old region had, six survive here and in the Latin West,
+  # and the three that do not are precisely the three that crossed between the
+  # two halves — `roman -> carolingian`, `roman -> holy-roman-empire` and
+  # `byzantine -> venice`. Those are claims and secessions across a boundary
+  # rather than sequences within one, which is what a thread is a picture of.
+  # They are still in edges.yaml and still on both pages; they are simply not
+  # drawn.
   #
-  # The name is now the weakest thing about the region and a decision is
-  # pending. It holds the Roman empire, which precedes both halves of it, and
-  # the Holy Roman Empire, which is neither Byzantium nor especially Latin in
-  # the sense the name intends. If the post-Roman kingdoms are added the honest
-  # arrangement is two regions in this same group — the Roman east and its
-  # successors, and the Latin west — and the cost is that four of the nine
-  # internal edges become cross-region and stop being drawn.
-  - id: byzantium-and-the-latin-west
-    name: Byzantium and the Latin West
+  # Five internal edges here. Three of the four records carry `election` in
+  # their succession or legitimation fields, and the same is true of the Latin
+  # West — the old region's six of eight, which survives the split evenly, and
+  # the two records that do not carry it are the two hereditary ones.
+  - id: rome-and-byzantium
+    name: Rome and Byzantium
     blurb: >-
-      The Roman empire that survived in the east, the two western attempts to
-      restore the one that had not, the crusade that took Constantinople and
-      the exile government that took it back, and the two maritime republics
-      that carried for everybody and ended up holding the customs of the
-      straits.
+      The Roman empire, the eastern half that outlived it by a thousand years,
+      and the two governments that held or claimed Constantinople in the
+      fifty-seven years the Fourth Crusade took it away. One continuous object
+      that this site is obliged to cut into four records, and every page here
+      says so.
+    group: mediterranean
+    thread: true
+
+  # The other half of the split. Two attempts to have a Roman emperor in the
+  # west, and the two republics that made a living off the empire still standing
+  # in the east — which is a stranger pairing than it looks, since Venice and
+  # Genoa are the only records here that never wanted the title.
+  #
+  # One internal edge, `carolingian -> holy-roman-empire` in 962, which is thin
+  # for four records and is the honest state. Venice and Genoa succeed nothing
+  # here and are succeeded by nothing: one points outward at Byzantium and the
+  # other at nowhere at all, its origin being a commune emancipating itself from
+  # a bishop.
+  - id: latin-west
+    name: The Latin West
+    blurb: >-
+      What the western Roman provinces became: two empires assembled to hold the
+      title Charlemagne took in 800, and the maritime republics that grew up
+      alongside them and were richer than either.
     group: mediterranean
     thread: true
 
