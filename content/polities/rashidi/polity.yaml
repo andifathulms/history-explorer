@@ -1,0 +1,96 @@
+id: rashidi
+region: arabia
+
+name:
+  latin: Emirate of Jabal Shammar
+  script: إمارة جبل شمر
+  script_lang: ar
+
+span:
+  start: { min: 1836, max: 1836, source: al-rasheed-1991 }
+  end: { min: 1921, max: 1921, source: al-rasheed-1991 }
+
+identity: >-
+  The Rashidis of Ha'il: camel herders who made an oasis on the pilgrim road
+  into the paramount power in central Arabia, beat the Saudis, and lost to them.
+
+capitals:
+  - { name: Ha'il, script: حائل, from: 1836, source: al-rasheed-1991 }
+
+core_region: Jabal Shammar and northern Najd, with Riyadh and the Qasim from 1891
+
+rulers:
+  founder: { name: Abdullah ibn Rashid, reign: [1836, 1847], source: al-rasheed-1991 }
+  peak: { name: Muhammad ibn Rashid, reign: [1869, 1897], source: al-rasheed-1991 }
+  last: { name: Muhammad ibn Talal, source: al-rasheed-1991 }
+
+scripts_and_languages:
+  administration: [Arabic]
+  writing_system: Arabic
+
+# Ibn Saud took Ha'il in 1921. The third Saudi state and the kingdom it became
+# are outside this corpus, which records polities that ended.
+ended:
+  type: conquest
+  by: []
+  year: 1921
+  source: al-rasheed-1991
+
+institutions:
+  military_basis: { values: [tribal-levy], source: al-rasheed-1991 }
+  # The same pair the Sharifate of Mecca record carries, for the same kind of
+  # reason. Ha'il sat on the caravan and pilgrimage roads from Iraq and Persia
+  # to the holy cities and took a share of what crossed; and the Ottomans paid
+  # the amirs subsidies and gave them rank, wanting a client in the interior
+  # they did not have to garrison. `tribute` is the vocabulary's term for
+  # revenue received from another polity.
+  revenue_basis: { values: [trade-toll, tribute], source: al-rasheed-1991 }
+  # Null, and the fourth chapter is about how violently null. The emirate went
+  # through a series of successions in which amirs were killed by cousins,
+  # nephews and brothers at a rate remarkable even by this corpus's standards,
+  # and no rule the sources describe was ever in force.
+  succession_rule: null
+  legitimation: { values: [conquest], source: al-rasheed-1991 }
+
+turning_points:
+  - year: 1891
+    type: battle
+    name: "Mulayda"
+    changed: >-
+      Muhammad ibn Rashid beat the Saudi forces and their Qasim allies, took
+      Riyadh, and drove the Al Saud into exile in Kuwait. For a decade Ha'il
+      was the paramount power in central Arabia and the family that had begun
+      as Saudi clients held the Saudi capital, which is as complete a reversal
+      as this corpus records anywhere.
+    source: al-rasheed-1991
+    contested: false
+  - year: 1902
+    type: revolt
+    name: "Ibn Saud takes Riyadh"
+    changed: >-
+      A raiding party of about forty men out of Kuwait took the Rashidi
+      governor's fort at Riyadh by night and killed him. It restored the Al
+      Saud to the town they had lost eleven years earlier and began the twenty-
+      year contest that ended this emirate — and the party's leader is the man
+      the modern kingdom is named after.
+    source: al-rasheed-2010
+    contested: false
+  - year: 1906
+    type: battle
+    name: "Rawdat Muhanna"
+    changed: >-
+      The amir Abd al-Aziz ibn Mut'ib was killed in the field against Ibn Saud,
+      and the emirate never produced another ruler who held it steadily. What
+      followed was fifteen years of succession killings inside the family while
+      the rival state consolidated, which is the sequence in which most of this
+      corpus's tribal polities end.
+    source: al-rasheed-1991
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

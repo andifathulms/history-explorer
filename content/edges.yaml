@@ -1157,6 +1157,27 @@ edges:
     source: daftary-2007
     contested: true
 
+  - from: diriyah
+    to: nejd
+    type: absorbed remnants of
+    year: 1824
+    note: "Six years after Ibrahim Pasha demolished Diriyah and beheaded the
+           imam at Istanbul, a cousin who had escaped the deportation took
+           Riyadh and reconstituted the state with the same doctrine and the
+           same compact."
+    source: al-rasheed-2010
+    contested: false
+
+  - from: nejd
+    to: rashidi
+    type: conquered by
+    year: 1891
+    note: "The Rashidis of Ha'il, installed as Saudi clients in 1836, arbitrated
+           the war between Faysal's sons in their own favour, took Riyadh in
+           1887, and beat the last Saudi attempt to recover it at Mulayda."
+    source: al-rasheed-1991
+    contested: false
+
   - from: himyar
     to: hujrid
     type: vassal of

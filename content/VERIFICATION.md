@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**2263 claims across 126 sources.**
+**2299 claims across 127 sources.**
 
 ## Where to start
 
@@ -1065,6 +1065,49 @@ ordinary state, not an item to clear.
 - [ ] `polity/zangid` — turning point 1163 The house of justice
 - [ ] `polity/zangid` — religions_carried = 1 (Sunni Islam)
 
+## Madawi Al-Rasheed, A History of Saudi Arabia
+
+`al-rasheed-2010` — 36 claims
+
+**Sole source** for `diriyah`, `nejd` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/diriyah/01-the-compact.mdx` — prose: "The compact"
+- [ ] `chapter/diriyah/02-the-name.mdx` — prose: "What the movement called itself"
+- [ ] `chapter/diriyah/03-karbala-and-mecca.mdx` — prose: "Karbala and Mecca"
+- [ ] `chapter/diriyah/04-ibrahim-pasha.mdx` — prose: "The Egyptian army"
+- [ ] `chapter/diriyah/05-1818.mdx` — prose: "The town was pulled down"
+- [ ] `chapter/nejd/01-riyadh.mdx` — prose: "Six years later"
+- [ ] `chapter/nejd/02-faysal.mdx` — prose: "The imam who stayed home"
+- [ ] `chapter/nejd/03-the-war-of-the-brothers.mdx` — prose: "The war of the brothers"
+- [ ] `chapter/nejd/04-kuwait.mdx` — prose: "Kuwait"
+- [ ] `edge/diriyah->nejd` — absorbed remnants of in 1824
+- [ ] `polity/diriyah` — span starts 1727
+- [ ] `polity/diriyah` — span ends 1818
+- [ ] `polity/diriyah` — capital Diriyah from 1727
+- [ ] `polity/diriyah` — founder Muhammad ibn Saud r. 1727-1765
+- [ ] `polity/diriyah` — peak Saud ibn Abd al-Aziz r. 1803-1814
+- [ ] `polity/diriyah` — last Abdullah ibn Saud r. 1814-1818
+- [ ] `polity/diriyah` — military basis coded tribal-levy
+- [ ] `polity/diriyah` — revenue basis coded land-tax + plunder
+- [ ] `polity/diriyah` — legitimation coded divine-sanction + conquest
+- [ ] `polity/diriyah` — turning point 1744 The compact at Diriyah
+- [ ] `polity/diriyah` — turning point 1802 Karbala
+- [ ] `polity/diriyah` — turning point 1803 Mecca
+- [ ] `polity/diriyah` — ended by conquest in 1818
+- [ ] `polity/nejd` — span starts 1824
+- [ ] `polity/nejd` — span ends 1891
+- [ ] `polity/nejd` — capital Riyadh from 1824
+- [ ] `polity/nejd` — founder Turki ibn Abdullah r. 1824-1834
+- [ ] `polity/nejd` — peak Faysal ibn Turki r. 1834-1865
+- [ ] `polity/nejd` — last Abd al-Rahman ibn Faysal
+- [ ] `polity/nejd` — military basis coded tribal-levy
+- [ ] `polity/nejd` — revenue basis coded land-tax
+- [ ] `polity/nejd` — legitimation coded divine-sanction + conquest
+- [ ] `polity/nejd` — turning point 1838 The capture of Faysal
+- [ ] `polity/nejd` — turning point 1865 The war of the brothers
+- [ ] `polity/nejd` — ended by conquest in 1891
+- [ ] `polity/rashidi` — turning point 1902 Ibn Saud takes Riyadh
+
 ## G. R. Hawting, The First Dynasty of Islam: The Umayyad Caliphate AD 661-750
 
 `hawting-2000` — 36 claims
@@ -1947,30 +1990,29 @@ ordinary state, not an item to clear.
 - [ ] `polity/ghurid` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/ghurid` — successor_claims = 1 (Delhi Sultanate)
 
-## Madawi Al-Rasheed, A History of Saudi Arabia
+## Madawi Al-Rasheed, Politics in an Arabian Oasis: The Rashidi Tribal Dynasty
+*In Society and Culture in the Modern Middle East.*
 
-`al-rasheed-2010` — 18 claims
+`al-rasheed-1991` — 18 claims
 
-**Sole source** for `diriyah` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/diriyah/01-the-compact.mdx` — prose: "The compact"
-- [ ] `chapter/diriyah/02-the-name.mdx` — prose: "What the movement called itself"
-- [ ] `chapter/diriyah/03-karbala-and-mecca.mdx` — prose: "Karbala and Mecca"
-- [ ] `chapter/diriyah/04-ibrahim-pasha.mdx` — prose: "The Egyptian army"
-- [ ] `chapter/diriyah/05-1818.mdx` — prose: "The town was pulled down"
-- [ ] `polity/diriyah` — span starts 1727
-- [ ] `polity/diriyah` — span ends 1818
-- [ ] `polity/diriyah` — capital Diriyah from 1727
-- [ ] `polity/diriyah` — founder Muhammad ibn Saud r. 1727-1765
-- [ ] `polity/diriyah` — peak Saud ibn Abd al-Aziz r. 1803-1814
-- [ ] `polity/diriyah` — last Abdullah ibn Saud r. 1814-1818
-- [ ] `polity/diriyah` — military basis coded tribal-levy
-- [ ] `polity/diriyah` — revenue basis coded land-tax + plunder
-- [ ] `polity/diriyah` — legitimation coded divine-sanction + conquest
-- [ ] `polity/diriyah` — turning point 1744 The compact at Diriyah
-- [ ] `polity/diriyah` — turning point 1802 Karbala
-- [ ] `polity/diriyah` — turning point 1803 Mecca
-- [ ] `polity/diriyah` — ended by conquest in 1818
+- [ ] `chapter/rashidi/01-the-governors-who-took-over.mdx` — prose: "The governors who took over"
+- [ ] `chapter/rashidi/02-hail.mdx` — prose: "Ha'il"
+- [ ] `chapter/rashidi/03-mulayda.mdx` — prose: "Mulayda"
+- [ ] `chapter/rashidi/04-the-murders.mdx` — prose: "How violently null"
+- [ ] `chapter/rashidi/05-1921.mdx` — prose: "1921"
+- [ ] `edge/nejd->rashidi` — conquered by in 1891
+- [ ] `polity/rashidi` — span starts 1836
+- [ ] `polity/rashidi` — span ends 1921
+- [ ] `polity/rashidi` — capital Ha'il from 1836
+- [ ] `polity/rashidi` — founder Abdullah ibn Rashid r. 1836-1847
+- [ ] `polity/rashidi` — peak Muhammad ibn Rashid r. 1869-1897
+- [ ] `polity/rashidi` — last Muhammad ibn Talal
+- [ ] `polity/rashidi` — military basis coded tribal-levy
+- [ ] `polity/rashidi` — revenue basis coded trade-toll + tribute
+- [ ] `polity/rashidi` — legitimation coded conquest
+- [ ] `polity/rashidi` — turning point 1891 Mulayda
+- [ ] `polity/rashidi` — turning point 1906 Rawdat Muhanna
+- [ ] `polity/rashidi` — ended by conquest in 1921
 
 ## C. E. Bosworth, The History of the Saffarids of Sistan and the Maliks of Nimruz (247/861 to 949/1542-3)
 

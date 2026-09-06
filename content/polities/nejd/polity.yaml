@@ -1,0 +1,81 @@
+id: nejd
+region: arabia
+
+name:
+  latin: Emirate of Nejd
+  script: إمارة نجد
+  script_lang: ar
+
+span:
+  start: { min: 1824, max: 1824, source: al-rasheed-2010 }
+  end: { min: 1891, max: 1891, source: al-rasheed-2010 }
+
+identity: >-
+  The second Saudi state: the same family and the same doctrine reassembled six
+  years after the first was demolished, which stayed in the Najd and destroyed
+  itself in a war between two brothers.
+
+capitals:
+  - { name: Riyadh, script: الرياض, from: 1824, source: al-rasheed-2010 }
+
+core_region: The Najd, with eastern Arabia intermittently
+
+rulers:
+  founder: { name: Turki ibn Abdullah, reign: [1824, 1834], source: al-rasheed-2010 }
+  peak: { name: Faysal ibn Turki, reign: [1834, 1865], source: al-rasheed-2010 }
+  last: { name: Abd al-Rahman ibn Faysal, source: al-rasheed-2010 }
+
+scripts_and_languages:
+  administration: [Arabic]
+  writing_system: Arabic
+
+ended:
+  type: conquest
+  by: [rashidi]
+  year: 1891
+  source: al-rasheed-2010
+
+institutions:
+  military_basis: { values: [tribal-levy], source: al-rasheed-2010 }
+  # `land-tax` alone, and the difference from the Diriyah record is the point.
+  # The first Saudi state carried `plunder` beside it because it expanded by
+  # raiding and the raiding paid for the expansion. This one did not expand: it
+  # held the Najd, avoided the Hejaz, and lived on the zakat of the oases it
+  # governed. A field showing one value fewer is recording a change of strategy.
+  revenue_basis: { values: [land-tax], source: al-rasheed-2010 }
+  # Nothing consulted describes a rule, and the third chapter is about what
+  # happened when there was none.
+  succession_rule: null
+  legitimation: { values: [divine-sanction, conquest], source: al-rasheed-2010 }
+
+turning_points:
+  - year: 1838
+    type: battle
+    name: "The capture of Faysal"
+    changed: >-
+      A second Egyptian expedition took Riyadh and carried the imam to Cairo as
+      a prisoner, five years before he escaped and came back. It demonstrated
+      that Muhammad Ali could reach the Najd whenever he chose to pay for it,
+      and it is the reason the second Saudi state never attempted the Hejaz:
+      the lesson of 1818 had been learned by the people it was taught to.
+    source: al-rasheed-2010
+    contested: false
+  - year: 1865
+    type: succession-crisis
+    name: "The war of the brothers"
+    changed: >-
+      Faysal died after thirty years and his sons Abdullah and Saud fought each
+      other for the imamate for a decade, calling in the Ottomans, the tribes
+      and eventually the Rashidis of Ha'il, who had been Saudi clients. The
+      state never recovered, and the family that arbitrated the quarrel ended up
+      holding the capital.
+    source: al-rasheed-2010
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
