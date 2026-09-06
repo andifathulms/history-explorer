@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**2426 claims across 133 sources.**
+**2443 claims across 133 sources.**
 
 ## Where to start
 
@@ -695,6 +695,72 @@ ordinary state, not an item to clear.
 - [ ] `polity/tulunid` — turning point 905 Al-Qata'i burned
 - [ ] `polity/tulunid` — ended by conquest in 905
 
+## Malcolm Barber, The Crusader States
+
+`barber-2012` — 59 claims
+
+**Sole source** for `tripoli` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/ammarid/03-1109.mdx` — prose: "Seven years and a journey"
+- [ ] `chapter/edessa/01-the-knight-who-went-east.mdx` — prose: "The knight who went east"
+- [ ] `chapter/edessa/03-1144.mdx` — prose: "Four weeks at Christmas"
+- [ ] `chapter/jerusalem/01-the-advocate.mdx` — prose: "The advocate"
+- [ ] `chapter/jerusalem/02-the-orders.mdx` — prose: "An army the king could not command"
+- [ ] `chapter/jerusalem/04-acre.mdx` — prose: "The kingdom at Acre"
+- [ ] `chapter/tripoli/01-a-county-before-a-city.mdx` — prose: "A county before a city"
+- [ ] `chapter/tripoli/02-the-one-that-admitted-a-superior.mdx` — prose: "The one that admitted a superior"
+- [ ] `chapter/tripoli/03-1289.mdx` — prose: "What Qalawun did to the city"
+- [ ] `edge/ammarid->tripoli` — conquered by in 1109
+- [ ] `edge/antioch->tripoli` — absorbed remnants of in 1268
+- [ ] `edge/edessa->zangid` — conquered by in 1144
+- [ ] `edge/fatimid->jerusalem` — conquered by in 1099
+- [ ] `edge/jerusalem->mamluk-sultanate` — conquered by in 1291
+- [ ] `edge/jerusalem->tripoli` — vassal of in 1109
+- [ ] `edge/tripoli->mamluk-sultanate` — conquered by in 1289
+- [ ] `polity/ammarid` — span ends 1109
+- [ ] `polity/ammarid` — turning point 1102 Mount Pilgrim
+- [ ] `polity/ammarid` — ended by conquest in 1109
+- [ ] `polity/antioch` — span ends 1268
+- [ ] `polity/antioch` — last Bohemond VI r. 1252-1268
+- [ ] `polity/antioch` — ended by conquest in 1268
+- [ ] `polity/edessa` — span starts 1098
+- [ ] `polity/edessa` — span ends 1150
+- [ ] `polity/edessa` — capital Edessa from 1098
+- [ ] `polity/edessa` — founder Baldwin of Boulogne r. 1098-1100
+- [ ] `polity/edessa` — peak Joscelin I of Courtenay r. 1119-1131
+- [ ] `polity/edessa` — last Joscelin II of Courtenay r. 1131-1150
+- [ ] `polity/edessa` — military basis coded land-grant
+- [ ] `polity/edessa` — revenue basis coded land-tax
+- [ ] `polity/edessa` — legitimation coded conquest
+- [ ] `polity/edessa` — turning point 1144 The fall of Edessa
+- [ ] `polity/edessa` — ended by conquest in 1150
+- [ ] `polity/jerusalem` — span starts 1099
+- [ ] `polity/jerusalem` — span ends 1291
+- [ ] `polity/jerusalem` — capital Jerusalem from 1099
+- [ ] `polity/jerusalem` — capital Acre from 1191
+- [ ] `polity/jerusalem` — founder Godfrey of Bouillon r. 1099-1100
+- [ ] `polity/jerusalem` — peak Amalric I r. 1163-1174
+- [ ] `polity/jerusalem` — last Henry II of Lusignan
+- [ ] `polity/jerusalem` — military basis coded land-grant + standing-professional
+- [ ] `polity/jerusalem` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/jerusalem` — legitimation coded conquest + divine-sanction
+- [ ] `polity/jerusalem` — turning point 1229 Jaffa
+- [ ] `polity/jerusalem` — turning point 1291 Acre
+- [ ] `polity/jerusalem` — ended by conquest in 1291
+- [ ] `polity/tripoli` — span starts 1102
+- [ ] `polity/tripoli` — span ends 1289
+- [ ] `polity/tripoli` — capital Tripoli from 1109
+- [ ] `polity/tripoli` — founder Raymond IV of Saint-Gilles r. 1102-1105
+- [ ] `polity/tripoli` — peak Raymond III r. 1152-1187
+- [ ] `polity/tripoli` — last Lucia of Tripoli r. 1287-1289
+- [ ] `polity/tripoli` — military basis coded land-grant + standing-professional
+- [ ] `polity/tripoli` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/tripoli` — legitimation coded conquest + descent
+- [ ] `polity/tripoli` — turning point 1109 The fall of Tripoli
+- [ ] `polity/tripoli` — turning point 1187 Raymond III dies without an heir
+- [ ] `polity/tripoli` — turning point 1289 Qalawun at Tripoli
+- [ ] `polity/tripoli` — ended by conquest in 1289
+
 ## Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia
 *In International Studies Quarterly 41(3), 475-504.*
 
@@ -758,67 +824,6 @@ ordinary state, not an item to clear.
 - [ ] `reference/umayyad` — reach 11,100,000 km2 at 720
 - [ ] `reference/uyghur-khaganate` — reach 3,100,000 km2 at 800
 - [ ] `reference/yuan` — reach 11,000,000 km2 at 1310
-
-## Malcolm Barber, The Crusader States
-
-`barber-2012` — 54 claims
-
-**Sole source** for `tripoli` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/edessa/01-the-knight-who-went-east.mdx` — prose: "The knight who went east"
-- [ ] `chapter/edessa/03-1144.mdx` — prose: "Four weeks at Christmas"
-- [ ] `chapter/jerusalem/01-the-advocate.mdx` — prose: "The advocate"
-- [ ] `chapter/jerusalem/02-the-orders.mdx` — prose: "An army the king could not command"
-- [ ] `chapter/jerusalem/04-acre.mdx` — prose: "The kingdom at Acre"
-- [ ] `chapter/tripoli/01-a-county-before-a-city.mdx` — prose: "A county before a city"
-- [ ] `chapter/tripoli/02-the-one-that-admitted-a-superior.mdx` — prose: "The one that admitted a superior"
-- [ ] `chapter/tripoli/03-1289.mdx` — prose: "What Qalawun did to the city"
-- [ ] `edge/antioch->tripoli` — absorbed remnants of in 1268
-- [ ] `edge/edessa->zangid` — conquered by in 1144
-- [ ] `edge/fatimid->jerusalem` — conquered by in 1099
-- [ ] `edge/jerusalem->mamluk-sultanate` — conquered by in 1291
-- [ ] `edge/jerusalem->tripoli` — vassal of in 1109
-- [ ] `edge/tripoli->mamluk-sultanate` — conquered by in 1289
-- [ ] `polity/antioch` — span ends 1268
-- [ ] `polity/antioch` — last Bohemond VI r. 1252-1268
-- [ ] `polity/antioch` — ended by conquest in 1268
-- [ ] `polity/edessa` — span starts 1098
-- [ ] `polity/edessa` — span ends 1150
-- [ ] `polity/edessa` — capital Edessa from 1098
-- [ ] `polity/edessa` — founder Baldwin of Boulogne r. 1098-1100
-- [ ] `polity/edessa` — peak Joscelin I of Courtenay r. 1119-1131
-- [ ] `polity/edessa` — last Joscelin II of Courtenay r. 1131-1150
-- [ ] `polity/edessa` — military basis coded land-grant
-- [ ] `polity/edessa` — revenue basis coded land-tax
-- [ ] `polity/edessa` — legitimation coded conquest
-- [ ] `polity/edessa` — turning point 1144 The fall of Edessa
-- [ ] `polity/edessa` — ended by conquest in 1150
-- [ ] `polity/jerusalem` — span starts 1099
-- [ ] `polity/jerusalem` — span ends 1291
-- [ ] `polity/jerusalem` — capital Jerusalem from 1099
-- [ ] `polity/jerusalem` — capital Acre from 1191
-- [ ] `polity/jerusalem` — founder Godfrey of Bouillon r. 1099-1100
-- [ ] `polity/jerusalem` — peak Amalric I r. 1163-1174
-- [ ] `polity/jerusalem` — last Henry II of Lusignan
-- [ ] `polity/jerusalem` — military basis coded land-grant + standing-professional
-- [ ] `polity/jerusalem` — revenue basis coded land-tax + trade-toll
-- [ ] `polity/jerusalem` — legitimation coded conquest + divine-sanction
-- [ ] `polity/jerusalem` — turning point 1229 Jaffa
-- [ ] `polity/jerusalem` — turning point 1291 Acre
-- [ ] `polity/jerusalem` — ended by conquest in 1291
-- [ ] `polity/tripoli` — span starts 1102
-- [ ] `polity/tripoli` — span ends 1289
-- [ ] `polity/tripoli` — capital Tripoli from 1109
-- [ ] `polity/tripoli` — founder Raymond IV of Saint-Gilles r. 1102-1105
-- [ ] `polity/tripoli` — peak Raymond III r. 1152-1187
-- [ ] `polity/tripoli` — last Lucia of Tripoli r. 1287-1289
-- [ ] `polity/tripoli` — military basis coded land-grant + standing-professional
-- [ ] `polity/tripoli` — revenue basis coded land-tax + trade-toll
-- [ ] `polity/tripoli` — legitimation coded conquest + descent
-- [ ] `polity/tripoli` — turning point 1109 The fall of Tripoli
-- [ ] `polity/tripoli` — turning point 1187 Raymond III dies without an heir
-- [ ] `polity/tripoli` — turning point 1289 Qalawun at Tripoli
-- [ ] `polity/tripoli` — ended by conquest in 1289
 
 ## Peter Jackson and Laurence Lockhart (eds), The Cambridge History of Iran, Volume 6: The Timurid and Safavid Periods
 
@@ -1629,6 +1634,33 @@ ordinary state, not an item to clear.
 - [ ] `polity/srivijaya` — revenue basis coded trade-toll
 - [ ] `polity/srivijaya` — religions_carried = 1 (Mahayana Buddhism)
 - [ ] `polity/srivijaya` — ended by gradual absorption in 1275
+
+## James Wilson, Medieval Syria and the Onset of the Crusades: The Political World of Bilad al-Sham 1050-1128
+
+`wilson-2023` — 22 claims
+
+- [ ] `chapter/ammarid/01-the-judges-take-the-city.mdx` — prose: "The judges take the city"
+- [ ] `chapter/ammarid/02-dar-al-ilm.mdx` — prose: "The House of Knowledge"
+- [ ] `chapter/mirdasid/05-the-turkmen.mdx` — prose: "The Turkmen"
+- [ ] `chapter/mirdasid/06-handed-over.mdx` — prose: "Handed over"
+- [ ] `chapter/uqaylid/03-sharaf-al-dawla.mdx` — prose: "Sharaf al-Dawla"
+- [ ] `chapter/uqaylid/05-kerbogha.mdx` — prose: "Kerbogha"
+- [ ] `edge/fatimid->ammarid` — seceded from in 1070
+- [ ] `edge/great-seljuk->mirdasid` — vassal of in 1071
+- [ ] `edge/uqaylid->great-seljuk` — conquered by in 1096
+- [ ] `polity/ammarid` — span starts 1070
+- [ ] `polity/ammarid` — capital Tripoli from 1070
+- [ ] `polity/ammarid` — founder Amin al-Dawla al-Hasan ibn Ammar
+- [ ] `polity/ammarid` — peak Jalal al-Mulk Ali ibn Muhammad
+- [ ] `polity/ammarid` — last Fakhr al-Mulk ibn Ammar
+- [ ] `polity/ammarid` — military basis coded mercenary
+- [ ] `polity/ammarid` — revenue basis coded trade-toll + land-tax
+- [ ] `polity/ammarid` — legitimation coded caliphal-investiture
+- [ ] `polity/ammarid` — turning point 1108 Fakhr al-Mulk goes to Baghdad
+- [ ] `polity/mirdasid` — turning point 1071 Alp Arslan at Aleppo
+- [ ] `polity/uqaylid` — peak Sharaf al-Dawla Muslim ibn Quraysh r. 1061-1085
+- [ ] `polity/uqaylid` — turning point 1085 The death of Muslim ibn Quraysh
+- [ ] `polity/uqaylid` — ended by conquest in 1096
 
 ## Greg Fisher (ed.), Arabs and Empires before Islam
 
@@ -2806,21 +2838,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/han` — last Emperor Xian r. 189-220
 - [ ] `polity/han` — descendant_scripts = 1 (Clerical script)
 - [ ] `polity/han` — ended by fragmentation in 220
-
-## James Wilson, Medieval Syria and the Onset of the Crusades: The Political World of Bilad al-Sham 1050-1128
-
-`wilson-2023` — 10 claims
-
-- [ ] `chapter/mirdasid/05-the-turkmen.mdx` — prose: "The Turkmen"
-- [ ] `chapter/mirdasid/06-handed-over.mdx` — prose: "Handed over"
-- [ ] `chapter/uqaylid/03-sharaf-al-dawla.mdx` — prose: "Sharaf al-Dawla"
-- [ ] `chapter/uqaylid/05-kerbogha.mdx` — prose: "Kerbogha"
-- [ ] `edge/great-seljuk->mirdasid` — vassal of in 1071
-- [ ] `edge/uqaylid->great-seljuk` — conquered by in 1096
-- [ ] `polity/mirdasid` — turning point 1071 Alp Arslan at Aleppo
-- [ ] `polity/uqaylid` — peak Sharaf al-Dawla Muslim ibn Quraysh r. 1061-1085
-- [ ] `polity/uqaylid` — turning point 1085 The death of Muslim ibn Quraysh
-- [ ] `polity/uqaylid` — ended by conquest in 1096
 
 ## Fred M. Donner, The Early Islamic Conquests
 

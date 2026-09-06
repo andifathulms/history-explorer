@@ -1291,6 +1291,28 @@ edges:
     source: barber-2012
     contested: false
 
+  - from: fatimid
+    to: ammarid
+    type: seceded from
+    year: 1070
+    note: "The qadis of Tripoli, Fatimid-appointed judges of a Shi'i city,
+           stopped remitting revenue to a Cairo in famine and mutiny and
+           governed on their own account while continuing to name the caliph in
+           the khutba."
+    source: wilson-2023
+    contested: false
+
+  - from: ammarid
+    to: tripoli
+    type: conquered by
+    year: 1109
+    note: "Seven years after Raymond built his castle on the hill above the
+           city, a Genoese fleet and Baldwin I finished the blockade — the last
+           Ammarid having left for Baghdad to ask for an army and been unable to
+           return."
+    source: barber-2012
+    contested: false
+
   - from: byzantine
     to: antioch
     type: vassal of

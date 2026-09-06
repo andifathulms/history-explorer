@@ -1,0 +1,87 @@
+id: ammarid
+region: central-lands
+
+name:
+  latin: Ammarid Emirate of Tripoli
+  script: بنو عمار
+  script_lang: ar
+
+# 1070 is the point at which the qadis of Tripoli stopped remitting to Cairo
+# and governed on their own account, during the collapse of Fatimid authority
+# in Syria. There was no declaration and the date is the settled one rather
+# than a documented act.
+span:
+  start: { min: 1070, max: 1070, source: wilson-2023 }
+  end: { min: 1109, max: 1109, source: barber-2012 }
+
+identity: >-
+  A dynasty of Shi'i judges who governed the richest port in Syria for forty
+  years, and whose library was the most famous thing about them and the thing
+  that did not survive them.
+
+capitals:
+  - { name: Tripoli, script: طرابلس, from: 1070, source: wilson-2023 }
+
+core_region: Tripoli and the Lebanese coast, with Jabala and Tortosa at times
+
+rulers:
+  founder: { name: Amin al-Dawla al-Hasan ibn Ammar, source: wilson-2023 }
+  peak: { name: Jalal al-Mulk Ali ibn Muhammad, source: wilson-2023 }
+  last: { name: Fakhr al-Mulk ibn Ammar, source: wilson-2023 }
+
+scripts_and_languages:
+  administration: [Arabic]
+  writing_system: Arabic
+
+ended:
+  type: conquest
+  by: [tripoli]
+  year: 1109
+  source: barber-2012
+
+institutions:
+  # A city with money and no tribe behind it. The Banu Ammar bought their
+  # soldiers, which is why the emirate could not survive the loss of its
+  # revenue to a blockade.
+  military_basis: { values: [mercenary], source: wilson-2023 }
+  # The customs of a first-rank Mediterranean port, and the sugar, silk and
+  # fruit of the coastal plain behind it. Tripoli was the wealthiest thing on
+  # that coast and the Franks besieged it for seven years to get it.
+  revenue_basis: { values: [trade-toll, land-tax], source: wilson-2023 }
+  succession_rule: null
+  # The unusual one. The Banu Ammar were qadis — Fatimid-appointed judges of a
+  # Shi'i city — and their authority began as a judicial office rather than a
+  # military or dynastic one. They kept naming the Fatimid caliph long after
+  # they had stopped obeying him.
+  legitimation: { values: [caliphal-investiture], source: wilson-2023 }
+
+turning_points:
+  - year: 1102
+    type: siege
+    name: "Mount Pilgrim"
+    changed: >-
+      Raymond of Saint-Gilles built a castle on the hill above the city and sat
+      in it. The emirate was not stormed but strangled: it kept its walls and
+      its fleet and lost its countryside, its revenue and its ability to feed
+      itself, over seven years.
+    source: barber-2012
+    contested: false
+  - year: 1108
+    type: revolt
+    name: "Fakhr al-Mulk goes to Baghdad"
+    changed: >-
+      The last Ammarid left his own besieged city to ask the Seljuk sultan and
+      the Abbasid caliph for an army. He was received with honour, given
+      nothing, and could not get back: a Fatimid governor took over the city in
+      his absence and surrendered it the following year. The emirate ended with
+      its ruler alive and elsewhere.
+    source: wilson-2023
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
