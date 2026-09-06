@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**2642 claims across 140 sources.**
+**2666 claims across 141 sources.**
 
 ## Where to start
 
@@ -1225,6 +1225,49 @@ ordinary state, not an item to clear.
 - [ ] `polity/trebizond` — legitimation coded descent + titulature
 - [ ] `polity/trebizond` — turning point 1282 Giving up the imperial title
 
+## Ehsan Yarshater (ed.), The Cambridge History of Iran, Volume 3: The Seleucid, Parthian and Sasanian Periods
+
+`chi-3` — 38 claims
+
+- [ ] `chapter/parthian/03-the-empire-rome-could-not-finish.mdx` — prose: "The empire Rome could not finish"
+- [ ] `chapter/parthian/04-carrhae.mdx` — prose: "Carrhae, and the shape of a stalemate"
+- [ ] `chapter/parthian/06-the-parthian-gap.mdx` — prose: "Erased by their successors"
+- [ ] `chapter/sasanian/04-what-khusrau-changed.mdx` — prose: "The survey"
+- [ ] `chapter/sasanian/05-khusrau.mdx` — prose: "Khusrau's reforms, and Rome"
+- [ ] `chapter/sasanian/05-two-eyes-of-the-world.mdx` — prose: "The two eyes of the world"
+- [ ] `chapter/seleucid/01-the-largest-share.mdx` — prose: "The largest and most difficult share"
+- [ ] `chapter/seleucid/03-the-cities.mdx` — prose: "What a Greek city was for"
+- [ ] `chapter/seleucid/04-losing-the-east.mdx` — prose: "Losing the east without noticing"
+- [ ] `chapter/seleucid/05-ai-khanoum.mdx` — prose: "A Greek city on the Oxus"
+- [ ] `chapter/seleucid/06-64.mdx` — prose: "The last piece of Syria"
+- [ ] `edge/achaemenid->parthian` — claimed legitimacy of in -141
+- [ ] `edge/macedonian->seleucid` — partitioned from in -312
+- [ ] `edge/seleucid->parthian` — seceded from in -247
+- [ ] `polity/parthian` — span starts -247
+- [ ] `polity/parthian` — span ends 224
+- [ ] `polity/parthian` — capital Ctesiphon from -247
+- [ ] `polity/parthian` — founder Arsaces I r. -247--217
+- [ ] `polity/parthian` — peak Mithridates II r. -124--88
+- [ ] `polity/parthian` — last Artabanus IV r. 213-224
+- [ ] `polity/parthian` — legitimation coded titulature + descent
+- [ ] `polity/parthian` — turning point -53 Carrhae
+- [ ] `polity/parthian` — turning point 116 Trajan at Ctesiphon
+- [ ] `polity/sasanian` — peak Khusrau I Anushirvan r. 531-579
+- [ ] `polity/sasanian` — turning point 540 The survey and the four spahbeds
+- [ ] `polity/seleucid` — span starts -312
+- [ ] `polity/seleucid` — span ends -63
+- [ ] `polity/seleucid` — capital Antioch from -312
+- [ ] `polity/seleucid` — founder Seleucus I Nicator r. -312--281
+- [ ] `polity/seleucid` — peak Antiochus III r. -222--187
+- [ ] `polity/seleucid` — last Philip II Philoromaeus r. -65--63
+- [ ] `polity/seleucid` — military basis coded land-grant + mercenary
+- [ ] `polity/seleucid` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/seleucid` — succession rule coded primogeniture
+- [ ] `polity/seleucid` — turning point -312 The era begins
+- [ ] `polity/seleucid` — turning point -303 The elephants
+- [ ] `polity/seleucid` — turning point -190 Magnesia
+- [ ] `polity/seleucid` — turning point -167 The Maccabean revolt
+
 ## Amira K. Bennison, The Almoravid and Almohad Empires
 
 `bennison-2016` — 37 claims
@@ -1517,42 +1560,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/yaariba` — legitimation coded election
 - [ ] `polity/yaariba` — turning point 1719 The disputed election
 
-## Ehsan Yarshater (ed.), The Cambridge History of Iran, Volume 3: The Seleucid, Parthian and Sasanian Periods
-
-`chi-3` — 31 claims
-
-- [ ] `chapter/parthian/01-parthian.mdx` — prose: "The empire Rome could not finish"
-- [ ] `chapter/parthian/02-carrhae.mdx` — prose: "Carrhae, and the shape of a stalemate"
-- [ ] `chapter/sasanian/02-khusrau.mdx` — prose: "Khusrau's reforms, and Rome"
-- [ ] `chapter/seleucid/01-the-largest-share.mdx` — prose: "The largest and most difficult share"
-- [ ] `chapter/seleucid/03-the-cities.mdx` — prose: "What a Greek city was for"
-- [ ] `chapter/seleucid/04-losing-the-east.mdx` — prose: "Losing the east without noticing"
-- [ ] `chapter/seleucid/05-ai-khanoum.mdx` — prose: "A Greek city on the Oxus"
-- [ ] `chapter/seleucid/06-64.mdx` — prose: "The last piece of Syria"
-- [ ] `edge/achaemenid->parthian` — claimed legitimacy of in -141
-- [ ] `edge/macedonian->seleucid` — partitioned from in -312
-- [ ] `edge/seleucid->parthian` — seceded from in -247
-- [ ] `polity/parthian` — span starts -247
-- [ ] `polity/parthian` — span ends 224
-- [ ] `polity/parthian` — capital Ctesiphon from -247
-- [ ] `polity/parthian` — founder Arsaces I r. -247--217
-- [ ] `polity/parthian` — peak Mithridates II r. -124--88
-- [ ] `polity/parthian` — last Artabanus IV r. 213-224
-- [ ] `polity/sasanian` — peak Khusrau I Anushirvan r. 531-579
-- [ ] `polity/seleucid` — span starts -312
-- [ ] `polity/seleucid` — span ends -63
-- [ ] `polity/seleucid` — capital Antioch from -312
-- [ ] `polity/seleucid` — founder Seleucus I Nicator r. -312--281
-- [ ] `polity/seleucid` — peak Antiochus III r. -222--187
-- [ ] `polity/seleucid` — last Philip II Philoromaeus r. -65--63
-- [ ] `polity/seleucid` — military basis coded land-grant + mercenary
-- [ ] `polity/seleucid` — revenue basis coded land-tax + trade-toll
-- [ ] `polity/seleucid` — succession rule coded primogeniture
-- [ ] `polity/seleucid` — turning point -312 The era begins
-- [ ] `polity/seleucid` — turning point -303 The elephants
-- [ ] `polity/seleucid` — turning point -190 Magnesia
-- [ ] `polity/seleucid` — turning point -167 The Maccabean revolt
-
 ## C. E. Bosworth, The Political and Dynastic History of the Iranian World (A.D. 1000-1217)
 *In The Cambridge History of Iran, Volume 5.*
 
@@ -1745,6 +1752,35 @@ ordinary state, not an item to clear.
 - [ ] `polity/achaemenid` — descendant_scripts = 1 (Old Persian cuneiform)
 - [ ] `polity/achaemenid` — successor_claims = 2 (Parthian Empire, Sasanian Empire)
 - [ ] `polity/median` — ended by conquest in -549
+
+## Touraj Daryaee, Sasanian Persia: The Rise and Fall of an Empire
+
+`daryaee-2009` — 24 claims
+
+- [ ] `chapter/parthian/07-224.mdx` — prose: "A sub-king in Persis"
+- [ ] `chapter/sasanian/01-ardashir.mdx` — prose: "A vassal takes the crown"
+- [ ] `chapter/sasanian/02-shapur.mdx` — prose: "The emperor on his knees"
+- [ ] `chapter/sasanian/03-the-fire-and-the-church.mdx` — prose: "A state religion, and the church it made possible"
+- [ ] `chapter/sasanian/06-the-last-war.mdx` — prose: "The last war"
+- [ ] `chapter/sasanian/07-collapse.mdx` — prose: "Twenty-six years, then eight"
+- [ ] `edge/achaemenid->sasanian` — claimed legitimacy of in 224
+- [ ] `edge/kushan->sasanian` — conquered by in 230
+- [ ] `edge/parthian->sasanian` — overthrew in 224
+- [ ] `polity/kushan` — ended by conquest in 375
+- [ ] `polity/parthian` — ended by dynastic replacement in 224
+- [ ] `polity/sasanian` — span starts 224
+- [ ] `polity/sasanian` — span ends 651
+- [ ] `polity/sasanian` — capital Ctesiphon from 224
+- [ ] `polity/sasanian` — founder Ardashir I r. 224-242
+- [ ] `polity/sasanian` — last Yazdegerd III r. 632-651
+- [ ] `polity/sasanian` — military basis coded land-grant + standing-professional
+- [ ] `polity/sasanian` — revenue basis coded land-tax + poll-tax
+- [ ] `polity/sasanian` — succession rule coded primogeniture
+- [ ] `polity/sasanian` — legitimation coded divine-sanction + descent
+- [ ] `polity/sasanian` — turning point 260 Edessa
+- [ ] `polity/sasanian` — turning point 484 Peroz and the Hephthalites
+- [ ] `polity/sasanian` — turning point 626 Constantinople
+- [ ] `polity/sasanian` — religions_carried = 1 (Zoroastrianism)
 
 ## Nicola Di Cosmo, Allen J. Frank and Peter B. Golden (eds), The Cambridge History of Inner Asia: The Chinggisid Age
 
@@ -2780,24 +2816,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/khwarazmian` — successor_claims = 0
 - [ ] `polity/khwarazmian` — ended by conquest in 1231
 
-## Touraj Daryaee, Sasanian Persia: The Rise and Fall of an Empire
-
-`daryaee-2009` — 13 claims
-
-- [ ] `chapter/sasanian/01-ardashir.mdx` — prose: "A vassal takes the crown"
-- [ ] `chapter/sasanian/03-collapse.mdx` — prose: "Twenty-six years, then eight"
-- [ ] `edge/achaemenid->sasanian` — claimed legitimacy of in 224
-- [ ] `edge/kushan->sasanian` — conquered by in 230
-- [ ] `edge/parthian->sasanian` — overthrew in 224
-- [ ] `polity/kushan` — ended by conquest in 375
-- [ ] `polity/parthian` — ended by dynastic replacement in 224
-- [ ] `polity/sasanian` — span starts 224
-- [ ] `polity/sasanian` — span ends 651
-- [ ] `polity/sasanian` — capital Ctesiphon from 224
-- [ ] `polity/sasanian` — founder Ardashir I r. 224-242
-- [ ] `polity/sasanian` — last Yazdegerd III r. 632-651
-- [ ] `polity/sasanian` — religions_carried = 1 (Zoroastrianism)
-
 ## Greg Woolf, Rome: An Empire's Story
 
 `woolf-2012` — 13 claims
@@ -3231,6 +3249,18 @@ ordinary state, not an item to clear.
 - [ ] `polity/hotaki` — turning point 1722 Gulnabad
 - [ ] `polity/safavid` — turning point 1722 The siege of Isfahan
 - [ ] `polity/safavid` — ended by conquest in 1722
+
+## Nikolaus Leo Overtoom, Reign of Arrows: The Rise of the Parthian Empire in the Hellenistic Middle East
+*In Oxford Studies in Early Empires.*
+
+`overtoom-2020` — 6 claims
+
+- [ ] `chapter/parthian/01-the-parni.mdx` — prose: "The Parni"
+- [ ] `chapter/parthian/02-taking-iran.mdx` — prose: "Taking Iran, and meeting two empires"
+- [ ] `chapter/parthian/05-how-it-held-together.mdx` — prose: "An empire of magnates"
+- [ ] `polity/parthian` — military basis coded client-levy
+- [ ] `polity/parthian` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/parthian` — turning point -141 Seleucia
 
 ## C. E. Bosworth, SAFFARIDS
 *In Encyclopaedia Iranica.*

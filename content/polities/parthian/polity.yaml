@@ -34,6 +34,68 @@ ended:
   year: 224
   source: daryaee-2009
 
+institutions:
+  # `client-levy`, and it is the single most explanatory field on the page. The
+  # Parthian army was cataphracts and horse archers supplied by the great noble
+  # houses — Suren, Karen, Mihran — and by the sub-kings of Persis, Elymais,
+  # Characene, Adiabene and Armenia, under obligations the Arsacids inherited
+  # rather than created. The force that destroyed Crassus at Carrhae was raised
+  # and commanded by one nobleman, and the king had him executed for it.
+  military_basis: { values: [client-levy], source: overtoom-2020 }
+  # The land of Mesopotamia, and the transit. Parthia sat across every land
+  # route between Rome and China for three centuries and taxed what crossed;
+  # the Chinese sources record Parthian obstruction of direct contact, which is
+  # a tariff policy described from the far end. Unranked.
+  revenue_basis: { values: [land-tax, trade-toll], source: overtoom-2020 }
+  # The throne was Arsacid and the choice among Arsacids lay substantially with
+  # the great houses, who deposed and installed kings repeatedly and were the
+  # decisive party in most of the civil wars. Nothing consulted describes that
+  # as a rule rather than as what happened, so the field is null.
+  succession_rule: null
+  # Descent from Arsaces, and the Achaemenid title taken deliberately. The
+  # Arsacids styled themselves king of kings from Mithridates II and asserted
+  # descent from Artaxerxes II, which is the claim this site counts on the
+  # Achaemenid record's `successor_claims`. Coding rule 1 asks that a
+  # `titulature` coding and the predecessor's count agree; here they do.
+  legitimation: { values: [titulature, descent], source: chi-3 }
+
+turning_points:
+  - year: -141
+    type: siege
+    name: "Seleucia"
+    changed: >-
+      Mithridates I took Seleucia on the Tigris and with it Babylonia, and the
+      Parthians stopped being a steppe dynasty holding a plateau and became the
+      government of the richest agricultural country between the Nile and the
+      Indus. Everything on this page afterwards — the wealth, the Roman wars,
+      the capital at Ctesiphon — dates from it.
+    source: overtoom-2020
+    contested: false
+  - year: -53
+    type: battle
+    name: "Carrhae"
+    changed: >-
+      A Parthian force under one nobleman destroyed a Roman army of seven
+      legions and killed Crassus, using horse archers supplied from a baggage
+      train of arrows against infantry that could not close. It fixed the
+      Euphrates as the boundary between the two empires for the following three
+      centuries and established, in Rome, a permanent political obligation to
+      avenge it that produced four invasions and no change in the frontier.
+    source: chi-3
+    contested: false
+  - year: 116
+    type: siege
+    name: "Trajan at Ctesiphon"
+    changed: >-
+      A Roman emperor took the Parthian capital, declared a province of
+      Mesopotamia, reached the Persian Gulf — and then faced revolts across the
+      conquered territory, withdrew, and died on the way home; his successor
+      abandoned the province immediately. It is the first of three occasions on
+      which Rome took Ctesiphon and kept nothing, and it is why this record's
+      first chapter is titled the way it is.
+    source: chi-3
+    contested: false
+
 measures:
   reach_km2: { value: 2800000, at: 1, source: taagepera-1979 }
   peak_population: null

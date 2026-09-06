@@ -34,6 +34,90 @@ ended:
   year: 651
   source: donner-1981
 
+institutions:
+  # The savaran: heavy cavalry drawn from the aristocracy and from the dehqans,
+  # the landed gentry who held estates and turned out armoured. Khusrau I's
+  # reform added the second value — the state began paying and equipping
+  # cavalry directly rather than relying on magnates to supply it, which is the
+  # military half of a programme designed to make the crown independent of the
+  # great houses that had made and unmade Parthian kings for four centuries.
+  military_basis: { values: [land-grant, standing-professional], source: daryaee-2009 }
+  # The kharag on land and the gizyat on non-Zoroastrian subjects, both fixed by
+  # the survey Kavad began and Khusrau I completed. The Arabs took the system
+  # intact along with the officials who ran it, and the kharaj and jizya of
+  # every Islamic polity on this site descend from these two words. Unranked.
+  revenue_basis: { values: [land-tax, poll-tax], source: daryaee-2009 }
+  # Coded by the rule and not the outcome, as coding rule 7 requires. The throne
+  # descended in the male line and the king normally designated; the great
+  # houses and the chief priests ratified, and in the sixth and seventh
+  # centuries they did the choosing, deposing and installing at will — twelve
+  # rulers in the four years after 628.
+  succession_rule: { values: [primogeniture], source: daryaee-2009 }
+  # The royal titulature is the field: king of kings of Eran and Aneran, whose
+  # lineage is from the gods. `divine-sanction` for the khwarrah, the divine
+  # glory that legitimates a king and departs from one who has forfeited it, and
+  # `descent` for the house of Sasan.
+  #
+  # `titulature` is deliberately not here, and the omission is a disagreement
+  # this site has gone looking for. The Achaemenid record counts two successor
+  # claims, this polity among them. But what the Sasanians actually asserted in
+  # their own inscriptions is descent from the Kayanids of the Avestan
+  # tradition, not from Darius; whether they knew the Achaemenids as history at
+  # all is disputed. The count on that page follows briant-2002 and this field
+  # follows daryaee-2009, and the two do not agree. Coding rule 1 says a
+  # disagreement is worth finding, and the third chapter is where it is set out.
+  legitimation: { values: [divine-sanction, descent], source: daryaee-2009 }
+
+turning_points:
+  - year: 260
+    type: battle
+    name: "Edessa"
+    changed: >-
+      Shapur I defeated a Roman army and took the emperor Valerian alive — the
+      only Roman emperor ever captured by a foreign power. He recorded it in a
+      trilingual inscription at Naqsh-e Rustam and cut it in rock reliefs
+      showing the emperor kneeling. It established the Sasanian claim to be
+      Rome's equal rather than its frontier problem, and the claim was not
+      seriously contested again for four hundred years.
+    source: daryaee-2009
+    contested: false
+  - year: 484
+    type: battle
+    name: "Peroz and the Hephthalites"
+    changed: >-
+      The king of kings was killed with his army by a steppe confederation on
+      the north-eastern frontier, and the empire paid tribute to the
+      Hephthalites for roughly a generation afterwards. It is the single worst
+      defeat in Sasanian history, it was inflicted from a direction the Roman
+      wars have made invisible, and the fiscal crisis it produced is a large
+      part of why the reforms of the following century were necessary.
+    source: daryaee-2009
+    contested: false
+  - year: 540
+    type: reform
+    name: "The survey and the four spahbeds"
+    changed: >-
+      A cadastral survey begun under Kavad and completed under Khusrau I
+      replaced a proportional harvest levy with a fixed assessment on measured
+      land, which made revenue predictable and made a paid army possible; the
+      single army command was broken into four regional ones. Together they
+      moved the empire's military and fiscal weight from the great houses to the
+      crown, and the whole apparatus was inherited by the Arabs a century later.
+    source: chi-3
+    contested: false
+  - year: 626
+    type: siege
+    name: "Constantinople"
+    changed: >-
+      A Sasanian army stood on the Asian shore while the Avars assaulted the
+      walls from Europe, and the city held because the Persians had no fleet to
+      cross with. It is the high-water mark of the last Roman-Persian war and
+      the point at which it turned: Heraclius was already in the Caucasus behind
+      them, and within two years Khusrau II had been deposed and murdered by his
+      own nobles and the war was lost.
+    source: daryaee-2009
+    contested: false
+
 measures:
   reach_km2: { value: 3500000, at: 550, source: taagepera-1979 }
   peak_population: null
