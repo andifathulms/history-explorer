@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**3758 claims across 201 sources.**
+**3762 claims across 201 sources.**
 
 ## Where to start
 
@@ -1841,6 +1841,44 @@ ordinary state, not an item to clear.
 - [ ] `polity/yaariba` — legitimation coded election
 - [ ] `polity/yaariba` — turning point 1719 The disputed election
 
+## Derek A. Welsby, The Medieval Kingdoms of Nubia: Pagans, Christians and Muslims along the Middle Nile
+
+`welsby-2002` — 31 claims
+
+**Sole source** for `alodia` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/alodia/01-four-hundred-churches.mdx` — prose: "Four hundred churches"
+- [ ] `chapter/alodia/02-a-race-up-the-nile.mdx` — prose: "A race up the Nile"
+- [ ] `chapter/alodia/03-what-one-visitor-saw.mdx` — prose: "What one visitor saw"
+- [ ] `chapter/alodia/04-1504.mdx` — prose: "1504"
+- [ ] `chapter/makuria/01-the-pupil-smiters.mdx` — prose: "The pupil-smiters"
+- [ ] `chapter/makuria/03-the-fourth-case.mdx` — prose: "The fourth case"
+- [ ] `chapter/makuria/05-1365.mdx` — prose: "1365"
+- [ ] `polity/alodia` — span starts 580
+- [ ] `polity/alodia` — span ends 1504
+- [ ] `polity/alodia` — capital Soba from 580
+- [ ] `polity/alodia` — turning point 580 Longinus (contested)
+- [ ] `polity/alodia` — turning point 1504 Soba falls
+- [ ] `polity/alodia` — descendant_scripts = 0
+- [ ] `polity/alodia` — religions_carried = 0
+- [ ] `polity/alodia` — successor_claims = 0
+- [ ] `polity/alodia` — ended by conquest in 1504
+- [ ] `polity/makuria` — span starts 651
+- [ ] `polity/makuria` — span ends 1365
+- [ ] `polity/makuria` — capital Old Dongola from 651
+- [ ] `polity/makuria` — founder Qalidurut
+- [ ] `polity/makuria` — peak Merkurios r. 697-722
+- [ ] `polity/makuria` — last Kudanbes
+- [ ] `polity/makuria` — military basis coded conscript
+- [ ] `polity/makuria` — succession rule coded matrilineal
+- [ ] `polity/makuria` — legitimation coded divine-sanction + descent
+- [ ] `polity/makuria` — turning point 652 The baqt
+- [ ] `polity/makuria` — turning point 1276 Baybars breaks it
+- [ ] `polity/makuria` — turning point 1317 The throne hall
+- [ ] `polity/makuria` — religions_carried = 0
+- [ ] `polity/makuria` — successor_claims = 0
+- [ ] `polity/makuria` — ended by gradual absorption in 1365
+
 ## Ian Shaw (ed.), The Oxford History of Ancient Egypt
 
 `shaw-2000` — 31 claims
@@ -1912,42 +1950,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/khwarazmian` — legitimation coded titulature
 - [ ] `polity/khwarazmian` — turning point 1210 Breaking the Qara Khitai
 - [ ] `polity/khwarazmian` — turning point 1217 A rival caliph, and snow in the Zagros
-
-## Derek A. Welsby, The Medieval Kingdoms of Nubia: Pagans, Christians and Muslims along the Middle Nile
-
-`welsby-2002` — 29 claims
-
-**Sole source** for `alodia` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/alodia/01-four-hundred-churches.mdx` — prose: "Four hundred churches"
-- [ ] `chapter/alodia/02-1504.mdx` — prose: "1504"
-- [ ] `chapter/makuria/01-the-pupil-smiters.mdx` — prose: "The pupil-smiters"
-- [ ] `chapter/makuria/03-the-fourth-case.mdx` — prose: "The fourth case"
-- [ ] `chapter/makuria/05-1365.mdx` — prose: "1365"
-- [ ] `polity/alodia` — span starts 580
-- [ ] `polity/alodia` — span ends 1504
-- [ ] `polity/alodia` — capital Soba from 580
-- [ ] `polity/alodia` — turning point 580 Longinus (contested)
-- [ ] `polity/alodia` — turning point 1504 Soba falls
-- [ ] `polity/alodia` — descendant_scripts = 0
-- [ ] `polity/alodia` — religions_carried = 0
-- [ ] `polity/alodia` — successor_claims = 0
-- [ ] `polity/alodia` — ended by conquest in 1504
-- [ ] `polity/makuria` — span starts 651
-- [ ] `polity/makuria` — span ends 1365
-- [ ] `polity/makuria` — capital Old Dongola from 651
-- [ ] `polity/makuria` — founder Qalidurut
-- [ ] `polity/makuria` — peak Merkurios r. 697-722
-- [ ] `polity/makuria` — last Kudanbes
-- [ ] `polity/makuria` — military basis coded conscript
-- [ ] `polity/makuria` — succession rule coded matrilineal
-- [ ] `polity/makuria` — legitimation coded divine-sanction + descent
-- [ ] `polity/makuria` — turning point 652 The baqt
-- [ ] `polity/makuria` — turning point 1276 Baybars breaks it
-- [ ] `polity/makuria` — turning point 1317 The throne hall
-- [ ] `polity/makuria` — religions_carried = 0
-- [ ] `polity/makuria` — successor_claims = 0
-- [ ] `polity/makuria` — ended by gradual absorption in 1365
 
 ## Nehemia Levtzion, Ancient Ghana and Mali
 
@@ -4161,6 +4163,26 @@ ordinary state, not an item to clear.
 - [ ] `polity/tahirid-yemen` — turning point 1517 The expedition from a dead empire
 - [ ] `polity/tahirid-yemen` — ended by conquest in 1517
 
+## Innocent Pikirayi, The Zimbabwe Culture: Origins and Decline of Southern Zambezian States
+*In African Archaeology Series.*
+
+`pikirayi-2001` — 12 claims
+
+**Sole source** for `great-zimbabwe` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/great-zimbabwe/01-houses-of-stone.mdx` — prose: "Houses of stone"
+- [ ] `chapter/great-zimbabwe/02-the-stone.mdx` — prose: "The stone"
+- [ ] `chapter/great-zimbabwe/03-mapungubwe.mdx` — prose: "What came before, and after"
+- [ ] `chapter/great-zimbabwe/04-who-built-it.mdx` — prose: "Who built it"
+- [ ] `polity/great-zimbabwe` — span starts 1100
+- [ ] `polity/great-zimbabwe` — span ends 1450
+- [ ] `polity/great-zimbabwe` — capital Great Zimbabwe from 1100
+- [ ] `polity/great-zimbabwe` — revenue basis coded mining + trade-toll
+- [ ] `polity/great-zimbabwe` — descendant_scripts = 0
+- [ ] `polity/great-zimbabwe` — religions_carried = 0
+- [ ] `polity/great-zimbabwe` — successor_claims = 0
+- [ ] `polity/great-zimbabwe` — ended by gradual absorption in 1450
+
 ## John F. Richards, The Mughal Empire (The New Cambridge History of India, I.5)
 
 `richards-1993` — 12 claims
@@ -4320,24 +4342,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/chagatai` — peak Kebek r. 1309-1325
 - [ ] `polity/chagatai` — last Qazan r. 1343-1347
 - [ ] `polity/chagatai` — ended by fragmentation in 1347
-
-## Innocent Pikirayi, The Zimbabwe Culture: Origins and Decline of Southern Zambezian States
-*In African Archaeology Series.*
-
-`pikirayi-2001` — 10 claims
-
-**Sole source** for `great-zimbabwe` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/great-zimbabwe/01-houses-of-stone.mdx` — prose: "Houses of stone"
-- [ ] `chapter/great-zimbabwe/02-who-built-it.mdx` — prose: "Who built it"
-- [ ] `polity/great-zimbabwe` — span starts 1100
-- [ ] `polity/great-zimbabwe` — span ends 1450
-- [ ] `polity/great-zimbabwe` — capital Great Zimbabwe from 1100
-- [ ] `polity/great-zimbabwe` — revenue basis coded mining + trade-toll
-- [ ] `polity/great-zimbabwe` — descendant_scripts = 0
-- [ ] `polity/great-zimbabwe` — religions_carried = 0
-- [ ] `polity/great-zimbabwe` — successor_claims = 0
-- [ ] `polity/great-zimbabwe` — ended by gradual absorption in 1450
 
 ## Denis Twitchett and Michael Loewe (eds), The Cambridge History of China, Volume 1: The Ch'in and Han Empires, 221 BC-AD 220
 
