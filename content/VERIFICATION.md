@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**3749 claims across 201 sources.**
+**3758 claims across 201 sources.**
 
 ## Where to start
 
@@ -2246,6 +2246,36 @@ ordinary state, not an item to clear.
 - [ ] `polity/shirvanshah` — last Farrukh Yasar r. 1465-1500
 - [ ] `polity/shirvanshah` — turning point 1500 The killing of Farrukh Yasar
 
+## Nehemia Levtzion and Randall L. Pouwels (eds), The History of Islam in Africa
+
+`levtzion-pouwels-2000` — 25 claims
+
+- [ ] `chapter/kanem-bornu/01-eight-hundred-years.mdx` — prose: "Eight hundred years"
+- [ ] `chapter/kanem-bornu/02-the-girgam.mdx` — prose: "The girgam"
+- [ ] `chapter/kanem-bornu/03-horses-and-people.mdx` — prose: "Horses and people"
+- [ ] `chapter/kanem-bornu/04-idris-alooma.mdx` — prose: "Idris Alooma"
+- [ ] `chapter/kanem-bornu/05-the-letters.mdx` — prose: "The letters"
+- [ ] `chapter/kanem-bornu/06-1893.mdx` — prose: "1893"
+- [ ] `polity/himyar` — successor_claims = 1 (Kanem-Bornu)
+- [ ] `polity/kanem-bornu` — span ends 1893
+- [ ] `polity/kanem-bornu` — capital Ngazargamu from 1470
+- [ ] `polity/kanem-bornu` — capital Kukawa from 1814
+- [ ] `polity/kanem-bornu` — founder Humai
+- [ ] `polity/kanem-bornu` — peak Idris Alooma r. 1564-1596
+- [ ] `polity/kanem-bornu` — last Hashim
+- [ ] `polity/kanem-bornu` — military basis coded slave-soldier + conscript
+- [ ] `polity/kanem-bornu` — revenue basis coded trade-toll + tribute
+- [ ] `polity/kanem-bornu` — legitimation coded descent + divine-sanction
+- [ ] `polity/kanem-bornu` — turning point 1075 Humai
+- [ ] `polity/kanem-bornu` — turning point 1380 Across the lake
+- [ ] `polity/kanem-bornu` — turning point 1571 Idris Alooma
+- [ ] `polity/kanem-bornu` — turning point 1808 Ngazargamu
+- [ ] `polity/kanem-bornu` — turning point 1846 The end of the Sayfawa
+- [ ] `polity/kanem-bornu` — descendant_scripts = 0
+- [ ] `polity/kanem-bornu` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/kanem-bornu` — successor_claims = 0
+- [ ] `polity/kanem-bornu` — ended by conquest in 1893
+
 ## Peter H. Wilson, Heart of Europe: A History of the Holy Roman Empire
 
 `wilson-2016` — 25 claims
@@ -2369,6 +2399,38 @@ ordinary state, not an item to clear.
 - [ ] `polity/venice` — religions_carried = 0
 - [ ] `polity/venice` — successor_claims = 0
 - [ ] `polity/venice` — ended by conquest in 1797
+
+## Ivor Wilks, Asante in the Nineteenth Century: The Structure and Evolution of a Political Order
+*In African Studies Series 13.*
+
+`wilks-1975` — 24 claims
+
+**Sole source** for `asante` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/asante/01-a-stool-from-the-sky.mdx` — prose: "A stool from the sky"
+- [ ] `chapter/asante/02-kumasi.mdx` — prose: "Kumasi"
+- [ ] `chapter/asante/03-the-great-roads.mdx` — prose: "The great roads"
+- [ ] `chapter/asante/04-the-fifth-case.mdx` — prose: "The fifth case"
+- [ ] `chapter/asante/05-two-parties.mdx` — prose: "Two parties"
+- [ ] `chapter/asante/06-1901.mdx` — prose: "1901"
+- [ ] `polity/asante` — span starts 1701
+- [ ] `polity/asante` — span ends 1901
+- [ ] `polity/asante` — capital Kumasi from 1701
+- [ ] `polity/asante` — founder Osei Tutu r. 1701-1717
+- [ ] `polity/asante` — peak Osei Bonsu r. 1804-1824
+- [ ] `polity/asante` — last Prempeh I r. 1888-1896
+- [ ] `polity/asante` — military basis coded conscript
+- [ ] `polity/asante` — revenue basis coded mining + trade-toll + tribute
+- [ ] `polity/asante` — succession rule coded matrilineal + election
+- [ ] `polity/asante` — legitimation coded divine-sanction + descent
+- [ ] `polity/asante` — turning point 1701 Feyiase
+- [ ] `polity/asante` — turning point 1824 Nsamankow
+- [ ] `polity/asante` — turning point 1874 Kumasi burned
+- [ ] `polity/asante` — turning point 1900 The War of the Golden Stool
+- [ ] `polity/asante` — descendant_scripts = 0
+- [ ] `polity/asante` — religions_carried = 0
+- [ ] `polity/asante` — successor_claims = 0
+- [ ] `polity/asante` — ended by conquest in 1901
 
 ## Cyril Toumanoff, Studies in Christian Caucasian History
 
@@ -2780,33 +2842,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/saba` — descendant_scripts = 1 (Ge'ez)
 - [ ] `polity/saba` — ended by gradual absorption in 275
 
-## Nehemia Levtzion and Randall L. Pouwels (eds), The History of Islam in Africa
-
-`levtzion-pouwels-2000` — 22 claims
-
-- [ ] `chapter/kanem-bornu/01-eight-hundred-years.mdx` — prose: "Eight hundred years"
-- [ ] `chapter/kanem-bornu/02-horses-and-people.mdx` — prose: "Horses and people"
-- [ ] `chapter/kanem-bornu/03-1893.mdx` — prose: "1893"
-- [ ] `polity/himyar` — successor_claims = 1 (Kanem-Bornu)
-- [ ] `polity/kanem-bornu` — span ends 1893
-- [ ] `polity/kanem-bornu` — capital Ngazargamu from 1470
-- [ ] `polity/kanem-bornu` — capital Kukawa from 1814
-- [ ] `polity/kanem-bornu` — founder Humai
-- [ ] `polity/kanem-bornu` — peak Idris Alooma r. 1564-1596
-- [ ] `polity/kanem-bornu` — last Hashim
-- [ ] `polity/kanem-bornu` — military basis coded slave-soldier + conscript
-- [ ] `polity/kanem-bornu` — revenue basis coded trade-toll + tribute
-- [ ] `polity/kanem-bornu` — legitimation coded descent + divine-sanction
-- [ ] `polity/kanem-bornu` — turning point 1075 Humai
-- [ ] `polity/kanem-bornu` — turning point 1380 Across the lake
-- [ ] `polity/kanem-bornu` — turning point 1571 Idris Alooma
-- [ ] `polity/kanem-bornu` — turning point 1808 Ngazargamu
-- [ ] `polity/kanem-bornu` — turning point 1846 The end of the Sayfawa
-- [ ] `polity/kanem-bornu` — descendant_scripts = 0
-- [ ] `polity/kanem-bornu` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/kanem-bornu` — successor_claims = 0
-- [ ] `polity/kanem-bornu` — ended by conquest in 1893
-
 ## Neil Christie, The Lombards: The Ancient Longobards
 *In The Peoples of Europe.*
 
@@ -2891,35 +2926,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/afsharid` — turning point 1747 The murder of Nadir
 - [ ] `polity/hotaki` — turning point 1729 Damghan and Murche-Khort
 - [ ] `polity/hotaki` — ended by conquest in 1738
-
-## Ivor Wilks, Asante in the Nineteenth Century: The Structure and Evolution of a Political Order
-*In African Studies Series 13.*
-
-`wilks-1975` — 21 claims
-
-**Sole source** for `asante` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/asante/01-a-stool-from-the-sky.mdx` — prose: "A stool from the sky"
-- [ ] `chapter/asante/02-the-fifth-case.mdx` — prose: "The fifth case"
-- [ ] `chapter/asante/03-1901.mdx` — prose: "1901"
-- [ ] `polity/asante` — span starts 1701
-- [ ] `polity/asante` — span ends 1901
-- [ ] `polity/asante` — capital Kumasi from 1701
-- [ ] `polity/asante` — founder Osei Tutu r. 1701-1717
-- [ ] `polity/asante` — peak Osei Bonsu r. 1804-1824
-- [ ] `polity/asante` — last Prempeh I r. 1888-1896
-- [ ] `polity/asante` — military basis coded conscript
-- [ ] `polity/asante` — revenue basis coded mining + trade-toll + tribute
-- [ ] `polity/asante` — succession rule coded matrilineal + election
-- [ ] `polity/asante` — legitimation coded divine-sanction + descent
-- [ ] `polity/asante` — turning point 1701 Feyiase
-- [ ] `polity/asante` — turning point 1824 Nsamankow
-- [ ] `polity/asante` — turning point 1874 Kumasi burned
-- [ ] `polity/asante` — turning point 1900 The War of the Golden Stool
-- [ ] `polity/asante` — descendant_scripts = 0
-- [ ] `polity/asante` — religions_carried = 0
-- [ ] `polity/asante` — successor_claims = 0
-- [ ] `polity/asante` — ended by conquest in 1901
 
 ## C. E. Bosworth, The Ghaznavids: Their Empire in Afghanistan and Eastern Iran, 994-1040
 
@@ -3183,6 +3189,34 @@ ordinary state, not an item to clear.
 - [ ] `polity/hittite` — successor_claims = 1 (Carchemish)
 - [ ] `polity/hittite` — ended by fragmentation in -1180
 - [ ] `polity/old-babylonian` — descendant_scripts = 1 (Hittite cuneiform)
+
+## Mark Horton and John Middleton, The Swahili: The Social Landscape of a Mercantile Society
+*In The Peoples of Africa.*
+
+`horton-middleton-2000` — 20 claims
+
+**Sole source** for `kilwa` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/kilwa/01-where-the-wind-stops.mdx` — prose: "Where the wind stops"
+- [ ] `chapter/kilwa/02-sofala.mdx` — prose: "Sofala"
+- [ ] `chapter/kilwa/03-the-prince-from-shiraz.mdx` — prose: "The prince from Shiraz"
+- [ ] `chapter/kilwa/04-husuni-kubwa.mdx` — prose: "Husuni Kubwa"
+- [ ] `chapter/kilwa/05-the-ocean.mdx` — prose: "The ocean"
+- [ ] `chapter/kilwa/06-1505.mdx` — prose: "1505"
+- [ ] `polity/kilwa` — span starts 957
+- [ ] `polity/kilwa` — span ends 1505
+- [ ] `polity/kilwa` — capital Kilwa Kisiwani from 1000
+- [ ] `polity/kilwa` — founder Ali ibn al-Hasan
+- [ ] `polity/kilwa` — peak al-Hasan ibn Sulaiman r. 1310-1333
+- [ ] `polity/kilwa` — last Ibrahim ibn Sulaiman
+- [ ] `polity/kilwa` — revenue basis coded trade-toll + monopoly
+- [ ] `polity/kilwa` — legitimation coded descent
+- [ ] `polity/kilwa` — turning point 1277 The Mahdali
+- [ ] `polity/kilwa` — turning point 1505 The Portuguese
+- [ ] `polity/kilwa` — descendant_scripts = 0
+- [ ] `polity/kilwa` — religions_carried = 0
+- [ ] `polity/kilwa` — successor_claims = 0
+- [ ] `polity/kilwa` — ended by conquest in 1505
 
 ## Andrew M. Smith II, Roman Palmyra: Identity, Community, and State Formation
 
@@ -3630,31 +3664,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/yaariba` — turning point 1650 The taking of Muscat
 - [ ] `polity/yaariba` — turning point 1698 Fort Jesus
 - [ ] `polity/yaariba` — ended by internal usurpation in 1744
-
-## Mark Horton and John Middleton, The Swahili: The Social Landscape of a Mercantile Society
-*In The Peoples of Africa.*
-
-`horton-middleton-2000` — 17 claims
-
-**Sole source** for `kilwa` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/kilwa/01-where-the-wind-stops.mdx` — prose: "Where the wind stops"
-- [ ] `chapter/kilwa/02-the-prince-from-shiraz.mdx` — prose: "The prince from Shiraz"
-- [ ] `chapter/kilwa/03-1505.mdx` — prose: "1505"
-- [ ] `polity/kilwa` — span starts 957
-- [ ] `polity/kilwa` — span ends 1505
-- [ ] `polity/kilwa` — capital Kilwa Kisiwani from 1000
-- [ ] `polity/kilwa` — founder Ali ibn al-Hasan
-- [ ] `polity/kilwa` — peak al-Hasan ibn Sulaiman r. 1310-1333
-- [ ] `polity/kilwa` — last Ibrahim ibn Sulaiman
-- [ ] `polity/kilwa` — revenue basis coded trade-toll + monopoly
-- [ ] `polity/kilwa` — legitimation coded descent
-- [ ] `polity/kilwa` — turning point 1277 The Mahdali
-- [ ] `polity/kilwa` — turning point 1505 The Portuguese
-- [ ] `polity/kilwa` — descendant_scripts = 0
-- [ ] `polity/kilwa` — religions_carried = 0
-- [ ] `polity/kilwa` — successor_claims = 0
-- [ ] `polity/kilwa` — ended by conquest in 1505
 
 ## Suhayl Zakkar, The Emirate of Aleppo, 1004-1094
 
