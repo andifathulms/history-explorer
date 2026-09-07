@@ -34,6 +34,68 @@ ended:
   year: 1368
   source: mote-twitchett-1988
 
+institutions:
+  # Two systems held side by side and never merged: Mongol and allied tribal
+  # units under their own commanders, and Chinese hereditary military households
+  # inherited from the Jin. The Yuan did not conscript from the general
+  # population and did not want to.
+  military_basis: { values: [tribal-levy, conscript], source: franke-twitchett-1994 }
+  # The land tax of a Chinese dynasty and the salt monopoly, which supplied the
+  # largest single share of revenue. What is missing from the field, and belongs
+  # in a chapter rather than a value, is the ortogh — merchant partnerships,
+  # largely Central Asian and Muslim, financed by Mongol princes at interest and
+  # used to farm taxes and run the state's long-distance trade.
+  revenue_basis: { values: [land-tax, monopoly], source: franke-twitchett-1994 }
+  # `tanistry`, and it is the argument of this record's second chapter stated in
+  # a field.
+  #
+  # The Mongol rule was that a successor was raised by an assembly of the
+  # eligible, from among all the eligible, which in a steppe confederation
+  # produces a competent leader and in a settled empire produces a war. The Yuan
+  # never replaced it with the Chinese rule of a designated heir. Between 1307
+  # and 1333 it had eight emperors.
+  succession_rule: { values: [tanistry], source: franke-twitchett-1994 }
+  # Three, and they do not sit comfortably together, which is the record.
+  # Chinggisid descent, which is what made a man eligible at the assembly; the
+  # Mandate of Heaven, which is what made him emperor of China; and conquest,
+  # which is what the Chinese population it was claimed over never stopped
+  # calling it.
+  legitimation: { values: [descent, divine-sanction, conquest], source: franke-twitchett-1994 }
+
+turning_points:
+  - year: 1279
+    type: battle
+    name: Yaishan
+    changed: >-
+      The last Song court, afloat off the Guangdong coast, was destroyed and a
+      minister jumped into the sea with the child emperor on his back. It is the
+      first time the whole of China was ruled from the steppe, and the reason
+      this record exists as something other than a Mongol khanate: the Yuan is
+      the only one of the four successor khanates in this corpus that took a
+      settled empire entire rather than a share of one.
+    source: franke-twitchett-1994
+    contested: false
+  - year: 1323
+    type: succession-crisis
+    name: Nanpo
+    changed: >-
+      An emperor was murdered by his own guard commanders at the summer camp, one
+      of a run of contested accessions that put eight rulers on the throne in
+      twenty-six years. This record's second chapter is about what that cost, and
+      the field it is coded in is `succession_rule`.
+    source: franke-twitchett-1994
+    contested: false
+  - year: 1351
+    type: revolt
+    name: The Red Turbans
+    changed: >-
+      A rising that began among labourers conscripted to redirect the Yellow
+      River after it flooded, and that spread through a millenarian Buddhist
+      network across the whole of central China. One of the commanders who came
+      out of it founded the dynasty this corpus carries as the Ming.
+    source: franke-twitchett-1994
+    contested: false
+
 measures:
   reach_km2: { value: 11000000, at: 1310, source: taagepera-1997 }
   peak_population: null
@@ -42,5 +104,17 @@ measures:
       count: 1
       items: [Phags-pa script]
       source: franke-twitchett-1994
-    religions_carried: { count: null, items: [], source: null }
-    successor_claims: { count: null, items: [], source: null }
+    # Zero. The Yuan court patronised Tibetan Buddhism, employed Muslim
+    # administrators and financiers, tolerated Nestorian Christians and received
+    # a papal archbishop at Beijing, and propagated none of it. Coding rule 2
+    # counts a crossing, and what this record did was assemble rather than carry.
+    religions_carried: { count: 0, items: [], source: franke-twitchett-1994 }
+    # One. The court withdrew north in 1368 rather than being extinguished, and
+    # what is called the Northern Yuan went on issuing the dynasty's reign titles
+    # on the steppe for another two centuries. The Ming spent much of its
+    # military effort on that claim, which is why this corpus's Ming record has a
+    # turning point at Tumu and a chapter about a wall.
+    successor_claims:
+      count: 1
+      items: [The Northern Yuan]
+      source: franke-twitchett-1994

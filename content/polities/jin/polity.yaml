@@ -34,6 +34,61 @@ ended:
   year: 1234
   source: franke-twitchett-1994
 
+institutions:
+  # The meng'an-mouke: Jurchen households organised in units of a hundred and a
+  # thousand, moved south in the hundreds of thousands after the conquest and
+  # settled on confiscated land in north China, holding it in exchange for
+  # military service.
+  #
+  # It is the institution this record's second chapter is about, and it did what
+  # such arrangements do: within three generations the settlers were landlords
+  # who did not soldier, and the Jin fought the Mongols with hired troops.
+  military_basis: { values: [tribal-levy, land-grant], source: franke-twitchett-1994 }
+  revenue_basis: { values: [land-tax, poll-tax], source: franke-twitchett-1994 }
+  succession_rule: null
+  # Descent, and the Mandate — claimed explicitly and argued for in the Chinese
+  # idiom, with the dynasty assigning itself an element in the cycle of dynastic
+  # virtues and a formal succession from the Northern Song.
+  legitimation: { values: [descent, divine-sanction], source: franke-twitchett-1994 }
+
+turning_points:
+  - year: 1127
+    type: siege
+    name: Jingkang
+    changed: >-
+      The Jin took Kaifeng and carried off two Song emperors, the imperial
+      family, the court and the palace collections into captivity in the north.
+      A surviving prince re-established the dynasty south of the Yangtze, and the
+      hundred and fifty years of Chinese history that follow are conditioned by a
+      court that wanted its north back and a faction that did not.
+    source: franke-twitchett-1994
+    contested: false
+  - year: 1141
+    type: treaty
+    name: Shaoxing
+    changed: >-
+      The Southern Song accepted the Huai river as the border, acknowledged the
+      Jin emperor as its superior, and agreed to annual payments in silver and
+      silk.
+      It is the same arrangement this corpus's Liao record's second chapter
+      describes, with the parties changed and the terms worse — and the Jin, who
+      had received those payments from the Song's other side a generation
+      earlier, were now on the collecting end of an institution they had
+      inherited from the empire they destroyed.
+    source: franke-twitchett-1994
+    contested: false
+  - year: 1214
+    type: capital-move
+    name: South to Kaifeng
+    changed: >-
+      With Mongol armies in the north the court abandoned Zhongdu — the city that
+      is now Beijing — and moved to Kaifeng, which it had taken from the Song
+      eighty-seven years earlier. The move conceded the Jurchen homeland and the
+      settled Jurchen population of the north in order to hold the Yellow River
+      plain, and it did neither.
+    source: franke-twitchett-1994
+    contested: false
+
 measures:
   reach_km2: { value: 2300000, at: 1150, source: taagepera-1997 }
   peak_population: null
@@ -42,5 +97,17 @@ measures:
       count: 1
       items: [Jurchen script]
       source: franke-twitchett-1994
-    religions_carried: { count: null, items: [], source: null }
-    successor_claims: { count: null, items: [], source: null }
+    religions_carried: { count: 0, items: [], source: franke-twitchett-1994 }
+    # One, and the gap is three hundred and eighty-two years.
+    #
+    # In 1616 Nurhaci declared a state in the same forests this dynasty came out
+    # of and called it the Later Jin, claiming descent from it. His son renamed
+    # the dynasty Qing in 1636 and it took China in 1644.
+    #
+    # This corpus's Ming record names the Qing in its `ended.by`. That id is a
+    # backdrop entry in the reference set rather than a full record here, which
+    # is why this is a count and not an edge.
+    successor_claims:
+      count: 1
+      items: [qing]
+      source: franke-twitchett-1994

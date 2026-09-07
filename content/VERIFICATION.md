@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**4272 claims across 220 sources.**
+**4341 claims across 220 sources.**
 
 ## Where to start
 
@@ -527,7 +527,7 @@ ordinary state, not an item to clear.
 
 ## Kenneth R. Hall, A History of Early Southeast Asia: Maritime Trade and Societal Development, 100-1500
 
-`hall-2011` — 82 claims
+`hall-2011` — 83 claims
 
 **Sole source** for `second-kediri` — nothing else in the corpus can contradict a misreading here.
 
@@ -539,6 +539,7 @@ ordinary state, not an item to clear.
 - [ ] `chapter/melaka/02-nanjing.mdx` — prose: "Nanjing"
 - [ ] `chapter/second-kediri/01-twelve-months.mdx` — prose: "Twelve months"
 - [ ] `chapter/second-kediri/02-the-fleet-he-did-not-send-for.mdx` — prose: "The fleet he did not send for"
+- [ ] `chapter/second-kediri/03-why-this-is-a-page.mdx` — prose: "Why this is a page and not a paragraph"
 - [ ] `chapter/singhasari/02-ganter.mdx` — prose: "Ganter"
 - [ ] `chapter/singhasari/03-the-pamalayu.mdx` — prose: "The Pamalayu"
 - [ ] `chapter/singhasari/04-the-mongol-envoy.mdx` — prose: "The Mongol envoy"
@@ -992,6 +993,75 @@ ordinary state, not an item to clear.
 - [ ] `polity/persis` — founder Bagadates I
 - [ ] `polity/persis` — revenue basis coded land-tax
 - [ ] `polity/persis` — legitimation coded divine-sanction
+
+## Herbert Franke and Denis Twitchett (eds), The Cambridge History of China, Volume 6: Alien Regimes and Border States, 907-1368
+
+`franke-twitchett-1994` — 64 claims
+
+- [ ] `chapter/jin/01-jurchen.mdx` — prose: "The Jurchen century"
+- [ ] `chapter/jin/02-the-double-bind.mdx` — prose: "Preserving what conquest dissolves"
+- [ ] `chapter/jin/03-two-defeats.mdx` — prose: "Jingkang, and the treaty after it"
+- [ ] `chapter/jin/04-the-settlers.mdx` — prose: "The settlers"
+- [ ] `chapter/jin/05-the-name-taken-again.mdx` — prose: "The name, taken again"
+- [ ] `chapter/liao/01-two-administrations.mdx` — prose: "Governing two things at once"
+- [ ] `chapter/liao/02-the-song-tribute.mdx` — prose: "Calling tribute a gift"
+- [ ] `chapter/liao/03-the-ordo.mdx` — prose: "The ordo"
+- [ ] `chapter/liao/04-1114.mdx` — prose: "1114"
+- [ ] `chapter/liao/05-qara-khitai.mdx` — prose: "The half that went west"
+- [ ] `chapter/yuan/01-kublai.mdx` — prose: "A steppe dynasty that took all of China"
+- [ ] `chapter/yuan/02-the-hundred-years.mdx` — prose: "Why it lasted less than a century"
+- [ ] `chapter/yuan/03-the-assembly-and-the-throne.mdx` — prose: "The assembly and the throne"
+- [ ] `chapter/yuan/04-the-ortogh.mdx` — prose: "The ortogh"
+- [ ] `chapter/yuan/05-not-a-khanate.mdx` — prose: "The one that took a whole empire"
+- [ ] `edge/jin->yuan` — absorbed remnants of in 1279
+- [ ] `edge/liao->jin` — overthrew in 1125
+- [ ] `edge/mongol->yuan` — partitioned from in 1271
+- [ ] `polity/jin` — span starts 1115
+- [ ] `polity/jin` — span ends 1234
+- [ ] `polity/jin` — capital Zhongdu from 1115
+- [ ] `polity/jin` — founder Aguda r. 1115-1123
+- [ ] `polity/jin` — peak Emperor Shizong r. 1161-1189
+- [ ] `polity/jin` — last Emperor Modi r. 1234-1234
+- [ ] `polity/jin` — military basis coded tribal-levy + land-grant
+- [ ] `polity/jin` — revenue basis coded land-tax + poll-tax
+- [ ] `polity/jin` — legitimation coded descent + divine-sanction
+- [ ] `polity/jin` — turning point 1127 Jingkang
+- [ ] `polity/jin` — turning point 1141 Shaoxing
+- [ ] `polity/jin` — turning point 1214 South to Kaifeng
+- [ ] `polity/jin` — descendant_scripts = 1 (Jurchen script)
+- [ ] `polity/jin` — religions_carried = 0
+- [ ] `polity/jin` — successor_claims = 1 (qing)
+- [ ] `polity/jin` — ended by conquest in 1234
+- [ ] `polity/liao` — span starts 916
+- [ ] `polity/liao` — span ends 1125
+- [ ] `polity/liao` — capital Shangjing from 916
+- [ ] `polity/liao` — founder Abaoji r. 916-926
+- [ ] `polity/liao` — peak Emperor Shengzong r. 982-1031
+- [ ] `polity/liao` — last Emperor Tianzuo r. 1101-1125
+- [ ] `polity/liao` — military basis coded tribal-levy
+- [ ] `polity/liao` — revenue basis coded tribute + land-tax
+- [ ] `polity/liao` — legitimation coded descent + divine-sanction
+- [ ] `polity/liao` — turning point 947 The name Liao (contested)
+- [ ] `polity/liao` — turning point 1005 The Treaty of Chanyuan
+- [ ] `polity/liao` — turning point 1114 The Jurchen
+- [ ] `polity/liao` — descendant_scripts = 2 (Khitan large script, Khitan small script)
+- [ ] `polity/liao` — ended by conquest in 1125
+- [ ] `polity/yuan` — span starts 1271
+- [ ] `polity/yuan` — span ends 1368
+- [ ] `polity/yuan` — capital Dadu from 1271
+- [ ] `polity/yuan` — founder Kublai Khan r. 1271-1294
+- [ ] `polity/yuan` — peak Kublai Khan r. 1271-1294
+- [ ] `polity/yuan` — last Toghon Temur r. 1333-1368
+- [ ] `polity/yuan` — military basis coded tribal-levy + conscript
+- [ ] `polity/yuan` — revenue basis coded land-tax + monopoly
+- [ ] `polity/yuan` — succession rule coded tanistry
+- [ ] `polity/yuan` — legitimation coded descent + divine-sanction + conquest
+- [ ] `polity/yuan` — turning point 1279 Yaishan
+- [ ] `polity/yuan` — turning point 1323 Nanpo
+- [ ] `polity/yuan` — turning point 1351 The Red Turbans
+- [ ] `polity/yuan` — descendant_scripts = 1 (Phags-pa script)
+- [ ] `polity/yuan` — religions_carried = 0
+- [ ] `polity/yuan` — successor_claims = 1 (The Northern Yuan)
 
 ## Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia
 *In International Studies Quarterly 41(3), 475-504.*
@@ -2015,45 +2085,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/uyghur-khaganate` — religions_carried = 1 (Manichaeism)
 - [ ] `polity/uyghur-khaganate` — ended by conquest in 840
 
-## Herbert Franke and Denis Twitchett (eds), The Cambridge History of China, Volume 6: Alien Regimes and Border States, 907-1368
-
-`franke-twitchett-1994` — 34 claims
-
-- [ ] `chapter/jin/01-jurchen.mdx` — prose: "The Jurchen century"
-- [ ] `chapter/jin/02-the-double-bind.mdx` — prose: "Preserving what conquest dissolves"
-- [ ] `chapter/liao/01-two-administrations.mdx` — prose: "Governing two things at once"
-- [ ] `chapter/liao/02-the-song-tribute.mdx` — prose: "Calling tribute a gift"
-- [ ] `chapter/yuan/01-kublai.mdx` — prose: "A steppe dynasty that took all of China"
-- [ ] `chapter/yuan/02-the-hundred-years.mdx` — prose: "Why it lasted less than a century"
-- [ ] `edge/jin->yuan` — absorbed remnants of in 1279
-- [ ] `edge/liao->jin` — overthrew in 1125
-- [ ] `edge/mongol->yuan` — partitioned from in 1271
-- [ ] `polity/jin` — span starts 1115
-- [ ] `polity/jin` — span ends 1234
-- [ ] `polity/jin` — capital Zhongdu from 1115
-- [ ] `polity/jin` — founder Aguda r. 1115-1123
-- [ ] `polity/jin` — peak Emperor Shizong r. 1161-1189
-- [ ] `polity/jin` — last Emperor Modi r. 1234-1234
-- [ ] `polity/jin` — descendant_scripts = 1 (Jurchen script)
-- [ ] `polity/jin` — ended by conquest in 1234
-- [ ] `polity/liao` — span starts 916
-- [ ] `polity/liao` — span ends 1125
-- [ ] `polity/liao` — capital Shangjing from 916
-- [ ] `polity/liao` — founder Abaoji r. 916-926
-- [ ] `polity/liao` — peak Emperor Shengzong r. 982-1031
-- [ ] `polity/liao` — last Emperor Tianzuo r. 1101-1125
-- [ ] `polity/liao` — revenue basis coded tribute
-- [ ] `polity/liao` — turning point 1005 The Treaty of Chanyuan
-- [ ] `polity/liao` — descendant_scripts = 2 (Khitan large script, Khitan small script)
-- [ ] `polity/liao` — ended by conquest in 1125
-- [ ] `polity/yuan` — span starts 1271
-- [ ] `polity/yuan` — span ends 1368
-- [ ] `polity/yuan` — capital Dadu from 1271
-- [ ] `polity/yuan` — founder Kublai Khan r. 1271-1294
-- [ ] `polity/yuan` — peak Kublai Khan r. 1271-1294
-- [ ] `polity/yuan` — last Toghon Temur r. 1333-1368
-- [ ] `polity/yuan` — descendant_scripts = 1 (Phags-pa script)
-
 ## Rachel Mairs, The Hellenistic Far East: Archaeology, Language, and Identity in Greek Central Asia
 
 `mairs-2014` — 33 claims
@@ -2673,6 +2704,36 @@ ordinary state, not an item to clear.
 - [ ] `polity/holy-roman-empire` — successor_claims = 0
 - [ ] `polity/holy-roman-empire` — ended by fragmentation in 1806
 
+## Frederick W. Mote and Denis Twitchett (eds), The Cambridge History of China, Volume 7: The Ming Dynasty, 1368-1644, Part 1
+
+`mote-twitchett-1988` — 25 claims
+
+- [ ] `chapter/ming/01-the-fleets.mdx` — prose: "Seven fleets, and then none"
+- [ ] `chapter/ming/02-the-wall-and-the-silver.mdx` — prose: "A wall, and other people's silver"
+- [ ] `chapter/ming/03-a-million-soldiers.mdx` — prose: "A million soldiers, free"
+- [ ] `chapter/ming/04-tumu.mdx` — prose: "Tumu"
+- [ ] `chapter/ming/05-the-silver-and-the-hill.mdx` — prose: "The silver, and the hill"
+- [ ] `edge/yuan->ming` — overthrew in 1368
+- [ ] `polity/ming` — span starts 1368
+- [ ] `polity/ming` — span ends 1644
+- [ ] `polity/ming` — capital Beijing from 1368
+- [ ] `polity/ming` — founder Hongwu Emperor r. 1368-1398
+- [ ] `polity/ming` — peak Yongle Emperor r. 1402-1424
+- [ ] `polity/ming` — last Chongzhen Emperor r. 1627-1644
+- [ ] `polity/ming` — military basis coded land-grant
+- [ ] `polity/ming` — revenue basis coded land-tax + monopoly
+- [ ] `polity/ming` — succession rule coded primogeniture
+- [ ] `polity/ming` — legitimation coded divine-sanction + descent
+- [ ] `polity/ming` — turning point 1421 Beijing
+- [ ] `polity/ming` — turning point 1449 Tumu
+- [ ] `polity/ming` — turning point 1581 The single whip
+- [ ] `polity/ming` — turning point 1644 Li Zicheng
+- [ ] `polity/ming` — descendant_scripts = 0
+- [ ] `polity/ming` — religions_carried = 0
+- [ ] `polity/ming` — successor_claims = 1 (The Southern Ming)
+- [ ] `polity/ming` — ended by conquest in 1644
+- [ ] `polity/yuan` — ended by conquest in 1368
+
 ## Colin Imber, The Ottoman Empire, 1300-1650: The Structure of Power
 
 `imber-2002` — 25 claims
@@ -3238,6 +3299,33 @@ ordinary state, not an item to clear.
 - [ ] `polity/attalid` — religions_carried = 0
 - [ ] `polity/attalid` — successor_claims = 0
 - [ ] `polity/attalid` — ended by gradual absorption in -133
+
+## Denis Twitchett and Michael Loewe (eds), The Cambridge History of China, Volume 1: The Ch'in and Han Empires, 221 BC-AD 220
+
+`loewe-twitchett-1986` — 22 claims
+
+- [ ] `chapter/han/01-han.mdx` — prose: "Four centuries, and a road west"
+- [ ] `chapter/han/02-the-examinations.mdx` — prose: "Recruiting a bureaucracy"
+- [ ] `chapter/han/03-salt-and-iron.mdx` — prose: "Salt and iron"
+- [ ] `chapter/han/04-the-conscript-empire.mdx` — prose: "The conscript empire"
+- [ ] `chapter/han/05-two-claims.mdx` — prose: "Two claims"
+- [ ] `polity/han` — span starts -202
+- [ ] `polity/han` — span ends 220
+- [ ] `polity/han` — capital Chang'an from -202
+- [ ] `polity/han` — founder Emperor Gaozu r. -202--195
+- [ ] `polity/han` — peak Emperor Wu r. -141--87
+- [ ] `polity/han` — last Emperor Xian r. 189-220
+- [ ] `polity/han` — military basis coded conscript
+- [ ] `polity/han` — revenue basis coded land-tax + poll-tax + monopoly
+- [ ] `polity/han` — succession rule coded primogeniture
+- [ ] `polity/han` — legitimation coded divine-sanction + descent
+- [ ] `polity/han` — turning point -117 Salt and iron
+- [ ] `polity/han` — turning point 9 Wang Mang (contested)
+- [ ] `polity/han` — turning point 184 The Yellow Turbans
+- [ ] `polity/han` — descendant_scripts = 1 (Clerical script)
+- [ ] `polity/han` — religions_carried = 0
+- [ ] `polity/han` — successor_claims = 2 (Shu Han, The Han-Zhao of Liu Yuan)
+- [ ] `polity/han` — ended by fragmentation in 220
 
 ## Greg Fisher (ed.), Arabs and Empires before Islam
 
@@ -4740,6 +4828,23 @@ ordinary state, not an item to clear.
 - [ ] `polity/mughal` — ended by conquest in 1857
 - [ ] `polity/timurid` — successor_claims = 1 (Mughal Empire)
 
+## Mark Edward Lewis, China's Cosmopolitan Empire: The Tang Dynasty
+
+`lewis-2009` — 12 claims
+
+- [ ] `chapter/tang/01-talas.mdx` — prose: "Talas"
+- [ ] `chapter/tang/05-what-was-copied.mdx` — prose: "What was copied, and what is not counted"
+- [ ] `polity/tang` — span starts 618
+- [ ] `polity/tang` — span ends 907
+- [ ] `polity/tang` — capital Chang'an from 618
+- [ ] `polity/tang` — founder Emperor Gaozu r. 618-626
+- [ ] `polity/tang` — peak Emperor Xuanzong r. 712-756
+- [ ] `polity/tang` — last Emperor Ai r. 904-907
+- [ ] `polity/tang` — legitimation coded divine-sanction + descent
+- [ ] `polity/tang` — turning point 845 The suppression
+- [ ] `polity/tang` — descendant_scripts = 0
+- [ ] `polity/tang` — religions_carried = 1 (Mahayana Buddhism)
+
 ## Rein Taagepera, Size and Duration of Empires: Systematics of Size
 *In Social Science Research 7(2), 108-127.*
 
@@ -4806,21 +4911,21 @@ ordinary state, not an item to clear.
 - [ ] `polity/golden-horde` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/golden-horde` — ended by fragmentation in 1502
 
-## Frederick W. Mote and Denis Twitchett (eds), The Cambridge History of China, Volume 7: The Ming Dynasty, 1368-1644, Part 1
+## Denis Twitchett (ed.), The Cambridge History of China, Volume 3: Sui and T'ang China, 589-906, Part 1
 
-`mote-twitchett-1988` — 11 claims
+`twitchett-1979` — 11 claims
 
-- [ ] `chapter/ming/01-the-fleets.mdx` — prose: "Seven fleets, and then none"
-- [ ] `chapter/ming/02-the-wall-and-the-silver.mdx` — prose: "A wall, and other people's silver"
-- [ ] `edge/yuan->ming` — overthrew in 1368
-- [ ] `polity/ming` — span starts 1368
-- [ ] `polity/ming` — span ends 1644
-- [ ] `polity/ming` — capital Beijing from 1368
-- [ ] `polity/ming` — founder Hongwu Emperor r. 1368-1398
-- [ ] `polity/ming` — peak Yongle Emperor r. 1402-1424
-- [ ] `polity/ming` — last Chongzhen Emperor r. 1627-1644
-- [ ] `polity/ming` — ended by conquest in 1644
-- [ ] `polity/yuan` — ended by conquest in 1368
+- [ ] `chapter/tang/02-an-lushan.mdx` — prose: "An Lushan"
+- [ ] `chapter/tang/03-the-armies-that-changed.mdx` — prose: "The armies that changed"
+- [ ] `chapter/tang/04-salt.mdx` — prose: "Salt"
+- [ ] `polity/tang` — military basis coded conscript + standing-professional
+- [ ] `polity/tang` — revenue basis coded land-tax + poll-tax + monopoly
+- [ ] `polity/tang` — turning point 751 Talas
+- [ ] `polity/tang` — turning point 755 The An Lushan rebellion
+- [ ] `polity/tang` — turning point 780 The two-tax system
+- [ ] `polity/tang` — turning point 878 Huang Chao
+- [ ] `polity/tang` — successor_claims = 0
+- [ ] `polity/tang` — ended by fragmentation in 907
 
 ## Christopher I. Beckwith, The Tibetan Empire in Central Asia
 
@@ -4882,21 +4987,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/chagatai` — peak Kebek r. 1309-1325
 - [ ] `polity/chagatai` — last Qazan r. 1343-1347
 - [ ] `polity/chagatai` — ended by fragmentation in 1347
-
-## Denis Twitchett and Michael Loewe (eds), The Cambridge History of China, Volume 1: The Ch'in and Han Empires, 221 BC-AD 220
-
-`loewe-twitchett-1986` — 10 claims
-
-- [ ] `chapter/han/01-han.mdx` — prose: "Four centuries, and a road west"
-- [ ] `chapter/han/02-the-examinations.mdx` — prose: "Recruiting a bureaucracy"
-- [ ] `polity/han` — span starts -202
-- [ ] `polity/han` — span ends 220
-- [ ] `polity/han` — capital Chang'an from -202
-- [ ] `polity/han` — founder Emperor Gaozu r. -202--195
-- [ ] `polity/han` — peak Emperor Wu r. -141--87
-- [ ] `polity/han` — last Emperor Xian r. 189-220
-- [ ] `polity/han` — descendant_scripts = 1 (Clerical script)
-- [ ] `polity/han` — ended by fragmentation in 220
 
 ## Leonard Y. Andaya, The Heritage of Arung Palakka: A History of South Sulawesi (Celebes) in the Seventeenth Century
 *In Verhandelingen van het Koninklijk Instituut voor Taal-, Land- en Volkenkunde, 91.*
@@ -5069,19 +5159,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/johor` — legitimation coded descent
 - [ ] `polity/melaka` — peak Mansur Shah r. 1459-1477
 - [ ] `polity/melaka` — successor_claims = 1 (johor)
-
-## Mark Edward Lewis, China's Cosmopolitan Empire: The Tang Dynasty
-
-`lewis-2009` — 8 claims
-
-- [ ] `chapter/tang/01-talas.mdx` — prose: "Talas"
-- [ ] `polity/tang` — span starts 618
-- [ ] `polity/tang` — span ends 907
-- [ ] `polity/tang` — capital Chang'an from 618
-- [ ] `polity/tang` — founder Emperor Gaozu r. 618-626
-- [ ] `polity/tang` — peak Emperor Xuanzong r. 712-756
-- [ ] `polity/tang` — last Emperor Ai r. 904-907
-- [ ] `polity/tang` — religions_carried = 1 (Mahayana Buddhism)
 
 ## Charles Higham, The Civilization of Angkor
 
@@ -5413,14 +5490,6 @@ ordinary state, not an item to clear.
 - [ ] `chapter/sharifate-mecca/03-selling-recognition.mdx` — prose: "What a state with no economy lived on"
 - [ ] `polity/sharifate-mecca` — military basis coded tribal-levy
 - [ ] `polity/sharifate-mecca` — revenue basis coded trade-toll + tribute
-
-## Denis Twitchett (ed.), The Cambridge History of China, Volume 3: Sui and T'ang China, 589-906, Part 1
-
-`twitchett-1979` — 3 claims
-
-- [ ] `chapter/tang/02-an-lushan.mdx` — prose: "An Lushan"
-- [ ] `polity/tang` — turning point 755 The An Lushan rebellion
-- [ ] `polity/tang` — ended by fragmentation in 907
 
 ## Paul E. Zimansky, Ecology and Empire: The Structure of the Urartian State
 *In Studies in Ancient Oriental Civilization 41.*

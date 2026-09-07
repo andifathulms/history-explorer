@@ -34,6 +34,83 @@ ended:
   year: 220
   source: loewe-twitchett-1986
 
+# This record had no institutions block and no turning points at all until this
+# pass. On a site that codes four fields for two hundred polities, four
+# centuries of the Han carrying none of them was a gap in the project rather
+# than in the evidence — the same finding this corpus's Majapahit record's
+# institutions comment records, and the Han is a much larger instance of it.
+institutions:
+  # Universal male conscription: two years of service, one in the home commandery
+  # and one on the frontier or in the capital guard, from a registered
+  # population. It is the largest peacetime military obligation any polity on
+  # this site imposed, and Emperor Wu's campaigns against the Xiongnu are what it
+  # was spent on.
+  military_basis: { values: [conscript], source: loewe-twitchett-1986 }
+  # Three values, and the third is the one this record was missing most.
+  #
+  # A land tax assessed at a thirtieth of the harvest for most of the dynasty,
+  # low enough that it was not the main burden; a poll tax in cash on every adult
+  # and a smaller one on children, which was; and from 117 BC state monopolies on
+  # salt and iron.
+  #
+  # Fourteen records on this site carried `monopoly` before this pass and the Han
+  # carried none of them, which was an oddity: the salt and iron monopolies are
+  # the most thoroughly argued fiscal institution in the ancient world. The
+  # Discourses on Salt and Iron, a court debate of 81 BC recorded at length, is a
+  # transcript of officials and Confucian critics arguing about whether a state
+  # should be in business, and it survives.
+  revenue_basis: { values: [land-tax, poll-tax, monopoly], source: loewe-twitchett-1986 }
+  # The rule was designation of an heir apparent, normally the eldest son of the
+  # empress, and it is coded here as the rule rather than as the outcome — which
+  # coding rule 7 asks for and which matters, because the outcome was frequently
+  # a child on the throne with an empress dowager's family running the palace.
+  # Ten of the Han emperors after Wu came to the throne under fifteen.
+  succession_rule: { values: [primogeniture], source: loewe-twitchett-1986 }
+  # The Mandate of Heaven, which this dynasty did not invent but did make into
+  # the working theory of Chinese legitimacy for the next two thousand years —
+  # including, awkwardly, the theory under which it could be replaced.
+  legitimation: { values: [divine-sanction, descent], source: loewe-twitchett-1986 }
+
+turning_points:
+  - year: -117
+    type: reform
+    name: Salt and iron
+    changed: >-
+      The state took over the production and sale of salt and iron, and later
+      liquor, to pay for Emperor Wu's frontier wars. It is the earliest state
+      monopoly on this site and the best documented one anywhere before the early
+      modern period, because the argument about it was written down: the
+      Discourses on Salt and Iron records a court debate of 81 BC in which
+      officials defended the monopolies as fiscal necessity and Confucian critics
+      attacked them as the state competing with its own people.
+    source: loewe-twitchett-1986
+    contested: false
+  - year: 9
+    type: succession-crisis
+    name: Wang Mang
+    changed: >-
+      The regent Wang Mang, uncle of an empress dowager, took the throne outright
+      and declared a new dynasty. It lasted fourteen years and ended in famine,
+      a change in the Yellow River's course and a peasant rising, after which a
+      distant member of the Han house restored the dynasty at a new capital.
+      This site treats the Han as one span across that interruption rather than
+      as a `resumes` pair, because the restoration was contemporaneous with the
+      interruption's collapse and the dynasty's own historians treat the whole as
+      continuous. It is the closest call of its kind in this corpus.
+    source: loewe-twitchett-1986
+    contested: true
+  - year: 184
+    type: revolt
+    name: The Yellow Turbans
+    changed: >-
+      A millenarian Daoist rising across eight provinces, put down by provincial
+      commanders who then would not disband. The generals who suppressed it are
+      the men who divided the empire between them over the following thirty-five
+      years, and the last Han emperor reigned for thirty of those as somebody
+      else's ward.
+    source: loewe-twitchett-1986
+    contested: false
+
 measures:
   reach_km2: { value: 6500000, at: 100, source: taagepera-1979 }
   peak_population: null
@@ -42,5 +119,23 @@ measures:
       count: 1
       items: [Clerical script]
       source: loewe-twitchett-1986
-    religions_carried: { count: null, items: [], source: null }
-    successor_claims: { count: null, items: [], source: null }
+    # Zero. Buddhism arrived in China during this dynasty and the Han were on
+    # the receiving end of it; Daoism organised itself into a church here and
+    # went nowhere outside. Coding rule 2 counts propagation past a boundary, and
+    # an empire this size can carry nothing.
+    religions_carried: { count: 0, items: [], source: loewe-twitchett-1986 }
+    # Two, and the second is the interesting one.
+    #
+    # Shu Han, one of the three kingdoms into which this empire broke, was
+    # founded by a member of the Han house and took the name to argue it was the
+    # continuation rather than a successor.
+    #
+    # And in 304 a Xiongnu leader named Liu Yuan declared a dynasty and called it
+    # Han, on the grounds that his line descended from a Han princess sent north
+    # in a marriage alliance four centuries earlier — a claim to the Chinese
+    # imperial mandate by the ruler of the people this corpus's Xiongnu record
+    # carries, argued from a treaty the Han had made to keep them out.
+    successor_claims:
+      count: 2
+      items: [Shu Han, The Han-Zhao of Liu Yuan]
+      source: loewe-twitchett-1986

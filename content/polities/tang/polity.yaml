@@ -35,6 +35,16 @@ ended:
   source: twitchett-1979
 
 turning_points:
+  - year: 751
+    type: battle
+    name: Talas
+    changed: >-
+      A Tang army was beaten by an Abbasid one on the Talas river in what is now
+      Kyrgyzstan, and the Tang did not come back west of the Pamirs. This
+      record's first chapter is about the battle and about how little either
+      empire seems to have thought of it at the time.
+    source: twitchett-1979
+    contested: false
   - year: 755
     type: revolt
     name: "The An Lushan rebellion"
@@ -46,14 +56,113 @@ turning_points:
       the Tarim basin passed to the Tibetans.
     source: twitchett-1979
     contested: false
+  - year: 780
+    type: reform
+    name: The two-tax system
+    changed: >-
+      The registers the old tax system depended on were gone, and Yang Yan
+      replaced head-and-land assessment with a twice-yearly levy on households
+      according to what they actually held, collected in cash. It is one of the
+      few fiscal reforms anywhere on this site that outlived the dynasty that
+      made it — in outline it is how China was taxed until the sixteenth century.
+    source: twitchett-1979
+    contested: false
+  - year: 845
+    type: conversion
+    name: The suppression
+    changed: >-
+      Emperor Wuzong closed some four thousand monasteries and returned a
+      quarter of a million monks and nuns to lay life and to the tax rolls.
+      This record's `religions_carried` count is one and the item is Mahayana
+      Buddhism, and the suppression does not contradict it: what the Tang carried
+      outward, chiefly to Japan and Korea, had already gone by 845. Typed
+      `conversion` because the vocabulary has no value for the opposite of one,
+      and because that is what it was aimed at.
+    source: lewis-2009
+    contested: false
+  - year: 878
+    type: revolt
+    name: Huang Chao
+    changed: >-
+      A failed examination candidate turned salt smuggler led a rising that
+      crossed the empire twice, sacked Guangzhou, and took both capitals. The
+      dynasty survived it by twenty-three years and was then destroyed by the
+      general who had put it down.
+      The two things he was are the two institutions on this record's own page:
+      the examinations that this corpus's Han record's second chapter describes
+      the origin of, and the salt monopoly that was by then paying for the state.
+    source: twitchett-1979
+    contested: false
+
+# No institutions block until this pass, on a record that already had two
+# chapters about what the institutions did.
+institutions:
+  # Two values in sequence, and the change between them is this record's whole
+  # political history.
+  #
+  # The Tang began with the fubing: militia units of farmer-soldiers holding
+  # allotted land, serving in rotation, unpaid and self-equipping. By about 740
+  # it had stopped working — the land allotment system it rested on had eroded —
+  # and the frontier was held instead by large professional armies under
+  # regional commanders, the jiedushi, recruited long-service and paid.
+  #
+  # One of those commanders was An Lushan. This corpus's second chapter on this
+  # record is about what he did with three of those commands in 755.
+  military_basis: { values: [conscript, standing-professional], source: twitchett-1979 }
+  # Three, and the third is the one that kept the dynasty alive for a hundred and
+  # fifty years after it should have ended.
+  #
+  # The early Tang taxed land and heads through the equal-field system. After the
+  # An Lushan rebellion destroyed the registers, the state monopolised salt —
+  # buying at the pans, selling to licensed merchants, and taking the difference
+  # — and by the 780s that single indirect tax was providing more than half of
+  # central government revenue from a country the central government no longer
+  # controlled.
+  revenue_basis: { values: [land-tax, poll-tax, monopoly], source: twitchett-1979 }
+  # Null. The Tang has one of the worst succession records of any long dynasty on
+  # this site: the second emperor killed two brothers at the Xuanwu Gate and
+  # forced his father's abdication; an emperor's consort deposed two of her own
+  # sons and reigned as emperor in her own name; three later emperors were put on
+  # the throne, and several killed, by the palace eunuch establishment.
+  #
+  # There is a stated rule — an heir apparent, normally the empress's eldest son
+  # — and coding rule 7 asks for the rule rather than the outcome, which would
+  # argue for `primogeniture` here as on this corpus's Han record. It is left
+  # null because from 820 the designation itself was made by the eunuch armies
+  # rather than by the emperor, which is not a variation on the rule but its
+  # replacement, and the field would have to say which of the two centuries it
+  # meant.
+  succession_rule: null
+  # The Mandate, and descent — including a genealogy connecting the Li house to
+  # Laozi, which made Daoism the dynasty's ancestral cult and is one reason the
+  # Buddhist establishment was vulnerable in 845.
+  legitimation: { values: [divine-sanction, descent], source: lewis-2009 }
 
 measures:
   reach_km2: { value: 5400000, at: 715, source: taagepera-1997 }
   peak_population: null
   influence:
-    descendant_scripts: { count: null, items: [], source: null }
+    # Zero. Chinese characters reached Japan, Korea and Vietnam and were adapted
+    # for all three, which is exactly what coding rule 3 counts — on the record
+    # of the script that was adapted. That is this corpus's Han record, which
+    # carries the clerical script, and the count for chu Nom on this site's Dai
+    # Viet record is sent to the same place.
+    descendant_scripts: { count: 0, items: [], source: lewis-2009 }
     religions_carried:
       count: 1
       items: [Mahayana Buddhism]
       source: lewis-2009
-    successor_claims: { count: null, items: [], source: null }
+    # Zero, and it is a deliberate zero on a record where the temptation is
+    # enormous. The Tang state model was copied wholesale — the law codes, the
+    # ministries, the capital plan, the examination idea — by Japan, Korea and
+    # later Vietnam, and this corpus's Dai Viet record is written in the
+    # vocabulary that came out of it.
+    #
+    # Coding rule 1 counts a later polity asserting an earlier one's authority,
+    # not a later polity adopting its institutions. Adopting somebody's civil
+    # service is not claiming to be them. The five short dynasties that followed
+    # in China include a Later Tang that did make the claim, and it is left out
+    # here for the reason the Ayutthaya record gives about a claimant with no
+    # page: it can be counted, but a count of one for a fifteen-year dynasty
+    # would say less than this comment does.
+    successor_claims: { count: 0, items: [], source: twitchett-1979 }

@@ -34,10 +34,96 @@ ended:
   year: 1644
   source: mote-twitchett-1988
 
+institutions:
+  # The weisuo: hereditary military households settled on state land in
+  # self-supporting garrisons, meant to make the army cost nothing. Hongwu is
+  # supposed to have said he could keep a million soldiers without spending a
+  # grain of the people's rice. It worked for perhaps a century, and the
+  # sixteenth-century Ming fought its wars with hired troops and paid for them
+  # with the silver this record's second chapter is about.
+  military_basis: { values: [land-grant], source: mote-twitchett-1988 }
+  # A land tax assessed in grain, and the salt monopoly — which under the
+  # kaizhong system was used as a currency in its own right: merchants who
+  # delivered grain to the northern frontier were paid in salt certificates, so
+  # the monopoly provisioned the wall as well as the treasury.
+  revenue_basis: { values: [land-tax, monopoly], source: mote-twitchett-1988 }
+  # `primogeniture`, and this is one of the few records on this site where the
+  # rule was written down as law and then tested to destruction.
+  #
+  # Hongwu's Ancestral Injunctions fixed succession on the eldest son of the
+  # empress. The Wanli emperor spent fifteen years trying not to apply it in
+  # favour of a younger son he preferred, the bureaucracy refused, and the
+  # emperor's response was to stop attending court — for decades. A codified
+  # succession rule produced a constitutional crisis by being obeyed.
+  succession_rule: { values: [primogeniture], source: mote-twitchett-1988 }
+  legitimation: { values: [divine-sanction, descent], source: mote-twitchett-1988 }
+
+turning_points:
+  - year: 1421
+    type: capital-move
+    name: Beijing
+    changed: >-
+      The Yongle emperor moved the capital from Nanjing on the Yangtze to
+      Beijing, forty miles from the steppe frontier and a thousand miles from the
+      rice that fed it. The Grand Canal was rebuilt to carry the grain north.
+      Every subsequent Ming decision about the frontier was taken by a court that
+      was on it.
+    source: mote-twitchett-1988
+    contested: false
+  - year: 1449
+    type: battle
+    name: Tumu
+    changed: >-
+      A Mongol force destroyed a Ming field army at Tumu and captured the emperor
+      alive. The court enthroned his brother, declined to pay, and got him back
+      eight years later, after which he deposed his brother and reigned again.
+      It ended the Ming's offensive posture on the steppe for good, and the wall
+      this record's second chapter describes is what replaced it.
+    source: mote-twitchett-1988
+    contested: false
+  - year: 1581
+    type: reform
+    name: The single whip
+    changed: >-
+      Zhang Juzheng consolidated the tangle of land taxes, labour services and
+      levies into a single payment assessed on land and collected in silver.
+      It is the reform that made this record's second chapter possible and
+      dangerous at once: a Chinese empire's fiscal system now ran on a metal
+      China did not mine, arriving by sea from Japan and from Spanish America.
+    source: mote-twitchett-1988
+    contested: false
+  - year: 1644
+    type: revolt
+    name: Li Zicheng
+    changed: >-
+      A rebel army out of the famine-stricken north-west took Beijing and the
+      last Ming emperor hanged himself on the hill behind the palace. The general
+      holding the wall against the Manchus opened the pass and invited them in to
+      destroy the rebels, and they stayed for two hundred and sixty-eight years.
+      `ended.by` names the Qing, which is not a full record on this site but a
+      backdrop entry in the reference set — one of two `ended.by` values on this
+      site that point there.
+    source: mote-twitchett-1988
+    contested: false
+
 measures:
   reach_km2: { value: 6500000, at: 1450, source: taagepera-1997 }
   peak_population: null
   influence:
-    descendant_scripts: { count: null, items: [], source: null }
-    religions_carried: { count: null, items: [], source: null }
-    successor_claims: { count: null, items: [], source: null }
+    descendant_scripts: { count: 0, items: [], source: mote-twitchett-1988 }
+    # Zero, and the fleets are the reason a reader might expect otherwise. Zheng
+    # He's seven voyages reached Africa and carried Muslim officers, including
+    # the admiral, and converted nobody: the expeditions were about recognition
+    # and tribute, and this corpus's Melaka record shows what the receiving end
+    # looked like — a seal, a stone tablet and a guarantee, not a mission.
+    religions_carried: { count: 0, items: [], source: mote-twitchett-1988 }
+    # One. The Southern Ming courts kept the dynasty's reign titles and a
+    # succession of claimants going in the south until 1662, and the last of them
+    # was captured in Burma and executed. Korea's Joseon court went on dating
+    # documents by Ming reign titles in private for well over a century after
+    # 1644, which is a claim about legitimacy rather than about succession and is
+    # not counted here.
+    successor_claims:
+      count: 1
+      items: [The Southern Ming]
+      source: mote-twitchett-1988

@@ -35,12 +35,44 @@ ended:
   source: franke-twitchett-1994
 
 institutions:
-  military_basis: null
-  revenue_basis: { values: [tribute], source: franke-twitchett-1994 }
+  # The ordo — a standing household guard raised for each emperor from tribal
+  # levies and inherited by his tomb establishment rather than his successor —
+  # on top of the ordinary tribal cavalry. It is a military institution designed
+  # so that no emperor inherits his predecessor's army.
+  military_basis: { values: [tribal-levy], source: franke-twitchett-1994 }
+  # Two values where this record used to carry one. `tribute` was here for the
+  # Song payments, which the second chapter is about, and it left out the other
+  # half of the arrangement the first chapter describes: the Southern
+  # Administration taxed a settled Chinese and Bohai population on agricultural
+  # land, in the ordinary way, and that population was the majority of the
+  # empire's people.
+  #
+  # A record whose whole subject is governing two things at once should not have
+  # been coded for only one of them.
+  revenue_basis: { values: [tribute, land-tax], source: franke-twitchett-1994 }
+  # Null. Khitan succession was contested at almost every transition, with the
+  # empress dowagers of the Xiao consort clan — which supplied every Liao empress
+  # and much of the officer corps — deciding several of them by force. There is a
+  # Chinese-style heir apparent in the record and there is a steppe assembly
+  # behind it, and the sources do not let this site say which was the rule.
   succession_rule: null
-  legitimation: null
+  legitimation: { values: [descent, divine-sanction], source: franke-twitchett-1994 }
 
 turning_points:
+  - year: 947
+    type: capital-move
+    name: The name Liao
+    changed: >-
+      A Khitan army took Kaifeng, the capital of the Chinese dynasty then holding
+      the north, could not hold the city, and withdrew — but on the way the
+      emperor adopted a Chinese dynastic name, Liao, and the apparatus that went
+      with it.
+      It is the point at which a steppe confederation started claiming to be a
+      Chinese dynasty as well, which is the double bookkeeping this record's
+      first chapter describes and which this corpus's Jin and Yuan records both
+      inherit.
+    source: franke-twitchett-1994
+    contested: true
   - year: 1005
     type: treaty
     name: "The Treaty of Chanyuan"
@@ -50,6 +82,17 @@ turning_points:
       other as formal equals with negotiated borders, which no Chinese
       diplomatic template provided for, and the border markets it opened
       profited both economies.
+    source: franke-twitchett-1994
+    contested: false
+  - year: 1114
+    type: revolt
+    name: The Jurchen
+    changed: >-
+      A vassal people of the north-eastern forests revolted, and eleven years
+      later the Liao empire did not exist. The dynasty that took it is this
+      corpus's Jin record, and the pattern repeats exactly a century later when
+      the Jin are taken by the Mongols — each time by a subject population of the
+      forest or steppe margin that the empire had been extracting from.
     source: franke-twitchett-1994
     contested: false
 
