@@ -1,0 +1,88 @@
+id: pajang
+region: maritime-asia
+
+name:
+  latin: The Kingdom of Pajang
+  script: null
+  script_lang: null
+
+# Eighteen years. This record exists because the Demak record's last chapter
+# named it as the smallest identifiable hole in this region — one page that would
+# close an `ended.by` — and because without it the Javanese sequence on this site
+# breaks between 1554 and 1587.
+span:
+  start: { min: 1568, max: 1568, source: ricklefs-2008 }
+  end: { min: 1586, max: 1586, source: ricklefs-2008 }
+
+identity: >-
+  The eighteen years in which the centre of Javanese power sat inland for the
+  first time since Majapahit, between the sultanate of the north coast and the
+  one that would hold the island for two hundred years.
+
+capitals:
+  - { name: Pajang, from: 1568, source: ricklefs-2008 }
+
+core_region: The interior of central Java, around the middle Solo valley
+
+rulers:
+  founder: { name: Hadiwijaya, reign: [1568, 1582], source: ricklefs-2008 }
+  peak: { name: Hadiwijaya, reign: [1568, 1582], source: ricklefs-2008 }
+  last: { name: Arya Pangiri, reign: [1583, 1586], source: ricklefs-2008 }
+
+scripts_and_languages:
+  administration: [Javanese, Arabic]
+  writing_system: Javanese script, with Pegon for Arabic-script Javanese
+
+# Senapati of Mataram, Hadiwijaya's own vassal and foster-son, took the kingdom
+# in 1586. `by` names Mataram and the edge is drawn, which makes this the
+# region's shortest-lived record with a fully specified ending.
+ended:
+  type: conquest
+  by: [mataram]
+  year: 1586
+  source: ricklefs-2008
+
+institutions:
+  military_basis: { values: [conscript], source: ricklefs-2008 }
+  # The inland move is the whole content of this record and it is in this field.
+  # Demak was a north-coast port coded `land-tax` and `trade-toll`; Pajang is up
+  # the Solo valley with no coast at all, and Mataram after it is coded the same
+  # way. The centre of Javanese power went inland in 1568 and stayed there until
+  # the twentieth century.
+  revenue_basis: { values: [land-tax], source: ricklefs-2008 }
+  succession_rule: null
+  # Descent, twice over and from opposite directions. Hadiwijaya claimed descent
+  # from Trenggana of Demak, whose dynasty he had just finished off in a civil
+  # war, and from the last king of Majapahit, whose kingdom Demak had absorbed.
+  #
+  # The Demak record's own `legitimation` is the identical pair of claims. Two
+  # consecutive Javanese polities argued their standing by descent from the two
+  # things the previous one had destroyed.
+  legitimation: { values: [descent, divine-sanction], source: ricklefs-2008 }
+
+turning_points:
+  - year: 1586
+    type: battle
+    name: Senapati
+    changed: >-
+      Senapati, ruler of Mataram, a vassal territory Hadiwijaya had granted to
+      his own foster-father, took Pajang. It is the third Javanese succession in
+      sixty years to run this way — a subordinate displacing an overlord who had
+      himself displaced one — and the last for a long time: what Senapati founded
+      held Java until 1755.
+    source: ricklefs-2008
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: ricklefs-2008 }
+    religions_carried: { count: 0, items: [], source: ricklefs-2008 }
+    # One. Senapati's Mataram claimed Pajang's authority as well as taking it,
+    # and the Javanese dynastic chronicles composed under Mataram put Hadiwijaya
+    # in the line of transmission that reaches the Mataram sultans.
+    successor_claims:
+      count: 1
+      items: [mataram]
+      source: ricklefs-2008

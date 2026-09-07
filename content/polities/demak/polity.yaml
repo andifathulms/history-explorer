@@ -43,7 +43,7 @@ scripts_and_languages:
 # only one this site could close with a single page.
 ended:
   type: dynastic replacement
-  by: []
+  by: [pajang]
   year: 1554
   source: ricklefs-2008
 

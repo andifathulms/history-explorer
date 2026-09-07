@@ -2584,6 +2584,19 @@ sources:
       afterwards from memory and from other people's books, and the record that
       uses him says which of his claims it is relying on.
 
+  - id: andaya-1981
+    kind: book
+    author: Leonard Y. Andaya
+    title: "The Heritage of Arung Palakka: A History of South Sulawesi (Celebes) in the Seventeenth Century"
+    container: Verhandelingen van het Koninklijk Instituut voor Taal-, Land- en Volkenkunde, 91
+    publisher: Martinus Nijhoff
+    year: 1981
+    note: >-
+      Written around the Bugis prince who fought for the Dutch company against
+      Makassar and won South Sulawesi for himself, and therefore an account of
+      the fall of Makassar from the side of the Sulawesi allies rather than from
+      the company's. This site's Makassar record is coded from it and from Reid.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors

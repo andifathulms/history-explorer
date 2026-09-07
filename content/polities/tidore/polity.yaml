@@ -1,0 +1,130 @@
+id: tidore
+region: maritime-asia
+
+name:
+  latin: The Sultanate of Tidore
+  script: null
+  script_lang: null
+
+# 1521 is the arrival of the Victoria, the last surviving ship of Magellan's
+# expedition, which loaded cloves here and began the Spanish connection that
+# defined this polity against its neighbour for a century and a half. The
+# sultanate is older; its king list, like Ternate's, is not securely datable, and
+# this record starts where the documentation does rather than where the
+# tradition does.
+#
+# 1805 is the death of Nuku, after which the Dutch held Tidore without further
+# interruption.
+span:
+  start: { min: 1521, max: 1521, source: andaya-1993 }
+  end: { min: 1805, max: 1805, source: andaya-1993 }
+
+identity: >-
+  The other clove island, two kilometres from Ternate, which took the Spanish
+  because Ternate had taken the Portuguese, and outlasted its counterpart by a
+  hundred and twenty years.
+
+capitals:
+  - { name: Tidore, from: 1521, source: andaya-1993 }
+
+core_region: Tidore and the islands around it, with claims east over the Raja Ampat and the coasts of western New Guinea
+
+rulers:
+  # Null. Tidore's early sultans are named in the traditions and the first of
+  # them cannot be dated closely enough to enter a reign, which is the position
+  # this site takes on thirty-six records.
+  founder: { name: null, source: null }
+  peak: { name: Saifuddin, reign: [1657, 1687], source: andaya-1993 }
+  last: { name: Nuku, reign: [1797, 1805], source: andaya-1993 }
+
+scripts_and_languages:
+  administration: [Tidore, Malay, Arabic]
+  writing_system: Jawi — the Arabic script adapted for Malay
+
+# Not a conquest and not a single event. Tidore's autonomy was worn down over a
+# century and a half of Dutch treaties, restored in arms by Nuku for eight years,
+# and gone for good after his death. `by` is empty because the Dutch company and
+# the Dutch state that followed it have no pages here — the fifth record in this
+# region to end that way.
+ended:
+  type: gradual absorption
+  by: []
+  year: 1805
+  source: andaya-1993
+
+institutions:
+  # Kora-kora raised from dependent communities, the same instrument in the same
+  # water as the Ternate record carries. It is the only field on which the two
+  # halves of the Maluku dualism are identical, which is what a dualism means.
+  military_basis: { values: [client-levy], source: andaya-1993 }
+  revenue_basis: { values: [monopoly, tribute], source: andaya-1993 }
+  succession_rule: null
+  legitimation: { values: [descent, divine-sanction], source: andaya-1993 }
+
+turning_points:
+  - year: 1521
+    type: treaty
+    name: The Spanish
+    changed: >-
+      The Victoria and the Trinidad reached Maluku eight months after Magellan
+      was killed in the Philippines, and went to Tidore rather than Ternate
+      because Ternate had the Portuguese.
+      The next hundred and twenty years are two European empires operating in the
+      north Moluccas as the hired halves of a local quarrel that predated both of
+      them. This corpus's Ternate record's second chapter says the same thing
+      from the other island, and the two records are the evidence for it: neither
+      of them chose their European by preference, and each chose the one the
+      other had not.
+    source: andaya-1993
+    contested: false
+  - year: 1663
+    type: treaty
+    name: The Spanish leave
+    changed: >-
+      Spain withdrew its garrisons from Maluku to concentrate on defending Manila,
+      and Tidore was left facing the Dutch company alone. Ternate had been a
+      company vassal in all but name for a generation by then; Tidore now
+      negotiated its own terms, and — because the company wanted a counterweight
+      on the islands rather than a single dependent — got better ones.
+      The dualism kept working after both its European halves were gone, which is
+      the strongest evidence in this corpus that it was never about Europeans.
+    source: andaya-1993
+    contested: false
+  - year: 1797
+    type: revolt
+    name: Nuku
+    changed: >-
+      Nuku had been fighting the Dutch from the sea and the eastern islands since
+      1780, with a fleet drawn from the Papuan coasts and the Raja Ampat and with
+      British support when it suited both. In 1797 he took Tidore, and he held
+      the sultanate as an independent power until he died in 1805.
+      Three records on this site expelled a European power and kept their capital
+      — the Ya'ariba at Muscat, Ethiopia at Adwa, and Ternate in 1575. This is a
+      fourth of a different kind: not an expulsion but a recovery, seventeen years
+      in the making, by a polity that had already been absorbed.
+    source: andaya-1993
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: andaya-1993 }
+    # One, and the question of whether it double-counts Ternate's is worth
+    # answering rather than avoiding.
+    #
+    # It does not. Ternate's count is for Halmahera, the Sula islands, the
+    # eastern arm of Sulawesi and the coast beyond. Tidore's dependencies were
+    # its own — the Raja Ampat islands and the coasts of western New Guinea,
+    # which became Muslim through Tidore and not through Ternate, and which are
+    # the eastern limit of Islam's spread in the archipelago before the modern
+    # period.
+    #
+    # Two adjacent islands counting separately for adjacent territories is
+    # exactly what the dualism means. They were not one polity, and the rulebook
+    # asks for propagation past a boundary rather than for credit for a movement.
+    religions_carried:
+      count: 1
+      items: [Sunni Islam]
+      source: andaya-1993
+    successor_claims: { count: 0, items: [], source: andaya-1993 }

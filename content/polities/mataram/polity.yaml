@@ -1,0 +1,155 @@
+id: mataram
+region: maritime-asia
+
+name:
+  latin: The Sultanate of Mataram
+  script: null
+  script_lang: null
+
+# 1587 is Senapati holding Pajang's territory after taking it the year before.
+# 1755 is the treaty of Giyanti, which divided the kingdom into two courts that
+# both still exist.
+#
+# The name is the same as the eighth-century kingdom's, four hundred kilometres
+# and six hundred years away, and this site carries that one as `medang` for
+# exactly this reason.
+span:
+  start: { min: 1587, max: 1587, source: ricklefs-2008 }
+  end: { min: 1755, max: 1755, source: ricklefs-2008 }
+
+identity: >-
+  The last Javanese kingdom to hold the island, an inland agrarian state that
+  besieged Batavia twice, obtained the title of sultan from Mecca, and was
+  divided in two by a treaty a trading company brokered.
+
+capitals:
+  - { name: Kota Gede, from: 1587, source: ricklefs-2008 }
+  - { name: Plered, from: 1647, source: ricklefs-2008 }
+  - { name: Kartasura, from: 1680, source: ricklefs-2008 }
+
+core_region: The interior of central and eastern Java, with the north coast held as a dependency
+
+rulers:
+  founder: { name: Senapati, reign: [1587, 1601], source: ricklefs-2008 }
+  peak: { name: Sultan Agung, reign: [1613, 1646], source: ricklefs-2008 }
+  # The last ruler of an undivided Mataram died six years before the division was
+  # signed. What happened in between is the war that produced it — and the
+  # instrument that started that war is on this record's third turning point.
+  last: { name: Pakubuwana II, reign: [1726, 1749], source: ricklefs-2008 }
+
+scripts_and_languages:
+  administration: [Javanese, Malay, Arabic]
+  writing_system: Javanese script, with Pegon for Arabic-script Javanese
+
+# The treaty of Giyanti divided the kingdom between Pakubuwana III at Surakarta
+# and Mangkubumi, who became Hamengkubuwana I at Yogyakarta. `ended.type` is
+# `fragmentation` and `by` is empty because the Dutch company that brokered it is
+# not a polity this site carries — the seventh by date of nine such empty fields
+# in this region, with only Tidore's, fifty years later, coming after it.
+#
+# Both halves are still there. The two courts, their two dynasties and their two
+# versions of Javanese court culture have been running in parallel for two hundred
+# and seventy years, which makes this the only record on this site whose
+# fragmentation is still visible on a map.
+ended:
+  type: fragmentation
+  by: []
+  year: 1755
+  source: ricklefs-2008
+
+institutions:
+  military_basis: { values: [conscript], source: ricklefs-2008 }
+  # `land-tax` alone, and it is the point of the record. Mataram is the polity
+  # this region's blurb is least true of: it did not live on controlling a strait
+  # and it had no interest in one. It lived on Javanese rice, taken through
+  # appanage-holding lords from cultivators, and its relationship with the sea
+  # was that it kept trying to control the ports on it and eventually sold them.
+  #
+  # Set beside the Melaka record — `trade-toll` alone, no farmland, importing its
+  # rice largely from Java — these two are the extreme ends of this region's
+  # revenue coding, three hundred miles apart.
+  revenue_basis: { values: [land-tax], source: ricklefs-2008 }
+  # Null. Three Javanese wars of succession, in 1704, 1719 and 1746, each of
+  # which drew in the Dutch company on one side and each of which cost the winner
+  # more territory than it gained. A pattern, and a catastrophic one, but coding
+  # rule 7 asks for the rule.
+  succession_rule: null
+  # Three values, and the third is the one worth the comment.
+  #
+  # In 1641 Sultan Agung's embassy returned from Mecca with the title of sultan,
+  # granted by the Sharif. This corpus carries the Sharifate of Mecca as a
+  # record, and this is a grant of authority from an external sovereign,
+  # publicly asserted by a ruler who then used the title for the rest of his
+  # reign — which is exactly what coding rule 8 asks of `investiture`.
+  #
+  # It is the fourth grantor this site has recorded for that value: a caliph, a
+  # Ming emperor at Melaka, the northern court for Dai Viet, and now the guardian
+  # of the Hijaz. The value was generalised out of `caliphal-investiture` because
+  # naming a specific grantor was the anomaly, and each record added since has
+  # made that look more right.
+  legitimation: { values: [descent, divine-sanction, investiture], source: ricklefs-2008 }
+
+turning_points:
+  - year: 1629
+    type: siege
+    name: Batavia
+    changed: >-
+      Sultan Agung besieged the Dutch company's capital in 1628 and again in
+      1629, with armies that had taken every other city in Java, and failed both
+      times — not to Dutch arms but to supply. The rice depots he had positioned
+      along the coast were found and burned by company ships, and the army
+      outside Batavia starved in front of the walls.
+      It is the clearest demonstration in this corpus of what a sea power was for.
+      Mataram could put more men in front of Batavia than the company could put
+      behind its walls, and could not feed them, because everything on that coast
+      moved by water and the water was not his.
+    source: ricklefs-2008
+    contested: false
+  - year: 1677
+    type: revolt
+    name: Trunajaya
+    changed: >-
+      A Madurese prince, allied with the Makasar exiles who had left South
+      Sulawesi after 1669, took the Mataram capital and drove the ruler out. The
+      court appealed to the Dutch company for help and got it.
+      That is the hinge of the record and of Javanese history for the following
+      century. From 1677 the company is a participant in Javanese succession
+      rather than a coastal nuisance, it is paid for its participation in
+      territory, and every subsequent dispute over the throne is settled with its
+      army in the field.
+    source: ricklefs-2008
+    contested: false
+  - year: 1755
+    type: treaty
+    name: Giyanti
+    changed: >-
+      After nine years of war the kingdom was divided between two courts:
+      Surakarta under Pakubuwana III, and Yogyakarta under Mangkubumi, who took
+      the title Hamengkubuwana I. The Dutch company brokered it and guaranteed
+      both.
+      This corpus has a hundred and ninety-odd endings and almost all of them
+      ended something. This one produced two functioning courts that are still
+      there, with two dynasties, two palaces and two divergent traditions of
+      Javanese music, dance and dress, two hundred and seventy years later.
+    source: ricklefs-2008
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: ricklefs-2008 }
+    # Zero. Java was already Muslim when this record begins — the Demak record
+    # carries the count for making it so. What Mataram did was produce the
+    # particular Javanese synthesis of Islam with the older court culture that is
+    # still the island's, and coding rule 2 counts propagation past a boundary
+    # rather than the making of a tradition.
+    religions_carried: { count: 0, items: [], source: ricklefs-2008 }
+    # Two, and they are the only successor claims on this site that can be
+    # visited. Surakarta and Yogyakarta each present themselves as the
+    # continuation of this kingdom, in competition, and have done so continuously
+    # since the division.
+    successor_claims:
+      count: 2
+      items: [The Surakarta court, The Yogyakarta court]
+      source: ricklefs-2008

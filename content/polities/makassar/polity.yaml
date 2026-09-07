@@ -1,0 +1,133 @@
+id: makassar
+region: maritime-asia
+
+name:
+  latin: The Sultanate of Gowa
+  script: null
+  script_lang: null
+
+# The Gowa chronicle's king list runs back further; 1511 is the accession of
+# Tumapa'risi' Kallonna, the first ruler it describes in any detail, and the
+# point from which this polity is documented rather than listed. It is the same
+# judgement the Ternate record makes about its own kolano.
+#
+# 1669 is the fall of Sombaopu, the fortress at Makassar, twenty months after the
+# treaty that was supposed to have ended the war.
+span:
+  start: { min: 1511, max: 1511, source: reid-1988 }
+  end: { min: 1669, max: 1669, source: andaya-1981 }
+
+identity: >-
+  The twin kingdoms of Gowa and Tallo on the south-west arm of Sulawesi, which
+  ran the archipelago's only open port, argued that the sea belonged to nobody,
+  and were destroyed for it.
+
+capitals:
+  - { name: Makassar, from: 1511, source: reid-1988 }
+
+core_region: The south-western arm of Sulawesi, with tributaries across the island and claims east to the Lesser Sundas
+
+rulers:
+  founder: { name: Tumapa'risi' Kallonna, reign: [1511, 1546], source: reid-1988 }
+  # Both slots are the same man, which is unusual and accurate. Makassar was at
+  # its greatest extent and its greatest wealth when Hasanuddin's war with the
+  # Dutch company began, and it was finished when the war ended sixteen years
+  # later. The peak and the ending are one reign.
+  peak: { name: Hasanuddin, reign: [1653, 1669], source: andaya-1981 }
+  last: { name: Hasanuddin, reign: [1653, 1669], source: andaya-1981 }
+
+scripts_and_languages:
+  administration: [Makasar, Malay, Arabic]
+  writing_system: Lontara, a Brahmic script written on palm leaf
+
+# Sombaopu fell on 12 June 1669 to a Dutch company force fighting alongside
+# Arung Palakka's Bugis of Bone, twenty months after the treaty of Bongaya was
+# signed. `by` is empty because neither the company nor Bone has a page here.
+#
+# Andaya's book is written around Arung Palakka, and its argument is that the
+# fall of Makassar was a South Sulawesi war that the company joined rather than a
+# colonial conquest that Sulawesi was subjected to. The empty field is unable to
+# say either version.
+ended:
+  type: conquest
+  by: []
+  year: 1669
+  source: andaya-1981
+
+institutions:
+  military_basis: { values: [conscript], source: andaya-1981 }
+  # Two, and the first is the argument of this record. Makassar's port took a
+  # toll and asked no questions: it was the one place in the eastern archipelago
+  # where anybody could buy anything, which is why the Portuguese expelled from
+  # Melaka went there, and the English, and the Danes, and every trader in cloves
+  # the Dutch company was trying to monopolise.
+  #
+  # The rice is the other half. The south-west arm of Sulawesi grew a surplus,
+  # and it is the reason a free port could exist there and not on a coral island.
+  revenue_basis: { values: [trade-toll, land-tax], source: reid-1988 }
+  succession_rule: null
+  legitimation: { values: [descent, divine-sanction], source: andaya-1981 }
+
+turning_points:
+  - year: 1605
+    type: conversion
+    name: Islam
+    changed: >-
+      The ruler of Tallo converted and took the name Sultan Alauddin, and Gowa
+      followed. In the six years after, Makassar fought the neighbouring Bugis
+      kingdoms — Bone, Soppeng, Wajo — into accepting Islam as well, in a
+      sequence the local chronicles call the Islamic wars.
+      It is the last major conversion in this region and the only one in it
+      carried out primarily by campaign. Pasai's spread by marriage, Melaka's by
+      trade, Demak's by a mixture. This one was an army.
+    source: reid-1988
+    contested: false
+  - year: 1667
+    type: treaty
+    name: Bongaya
+    changed: >-
+      Hasanuddin signed. The terms removed every foreign trader but the Dutch
+      company, surrendered Makassar's dependencies, demolished its forts except
+      one, and installed Arung Palakka's Bone as the paramount power in South
+      Sulawesi.
+      It did not end the war. Fighting resumed and the fortress held for another
+      twenty months.
+    source: andaya-1981
+    contested: false
+  - year: 1669
+    type: siege
+    name: Sombaopu
+    changed: >-
+      The fortress fell in June 1669 after a siege in which the walls were mined
+      rather than breached. What ended with it was the last port in the
+      archipelago where a trader could buy cloves and nutmeg without the Dutch
+      company's permission.
+      The Makasar and Bugis who would not accept the settlement left, in numbers,
+      and spent the following century as mercenaries, traders and freebooters
+      from Siam to the Java Sea. This corpus's Johor record's ending is downstream
+      of that: the Bugis who took power at Riau after 1699 came out of this
+      diaspora.
+    source: andaya-1981
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  # Zero. The Lontara script of the Makasar and Bugis descends from a Brahmic
+  # parent with no page here, which is the ninth time on this site an adaptation
+  # has gone to a record that does not exist — after Jawi at Melaka and Pasai,
+  # Swahili's letters at Kilwa, the Burmese script at Pagan, the Cham script,
+  # Pegon at Demak, and Kawi at Kediri and Medang.
+  influence:
+    descendant_scripts: { count: 0, items: [], source: reid-1988 }
+    # One. Makassar carried Islam through South Sulawesi by campaign between 1608
+    # and 1611 and then east into the Lesser Sundas along its trade routes.
+    # Coding rule 2 counts propagation past a prior boundary and this is the
+    # least ambiguous instance of it anywhere in this region, because in this
+    # case somebody was keeping a record of which kingdoms had accepted and which
+    # had not.
+    religions_carried:
+      count: 1
+      items: [Sunni Islam]
+      source: reid-1988
+    successor_claims: { count: 0, items: [], source: andaya-1981 }

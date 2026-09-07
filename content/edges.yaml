@@ -1041,6 +1041,32 @@ edges:
     source: brown-1970
     contested: false
 
+  # The Demak record's last chapter called Pajang the smallest identifiable hole
+  # in this region — one page that would close one `ended.by`. These are the two
+  # edges that page brought with it, and between them Java's sequence on this
+  # site now runs unbroken from 1042 to 1755.
+  - from: demak
+    to: pajang
+    type: overthrew
+    year: 1554
+    note: >-
+      Jaka Tingkir won the succession war that followed Trenggana's death, killed
+      Arya Penangsang, and moved the centre of Javanese power inland to Pajang,
+      claiming descent from Trenggana and from Majapahit's last king at once.
+    source: ricklefs-2008
+    contested: false
+
+  - from: pajang
+    to: mataram
+    type: conquered by
+    year: 1586
+    note: >-
+      Senapati, ruler of the vassal territory of Mataram and Hadiwijaya's own
+      foster-brother, took Pajang and founded the kingdom that held Java until
+      1755.
+    source: ricklefs-2008
+    contested: false
+
   # ---- Mainland Southeast Asia ----
   #
   # The region's only internal edge so far, and its `thread` flag is still
