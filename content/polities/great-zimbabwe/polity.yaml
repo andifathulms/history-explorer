@@ -1,0 +1,82 @@
+id: great-zimbabwe
+region: africa
+
+name:
+  latin: Great Zimbabwe
+  # The polity left no writing. Not an undeciphered script, as on this corpus's
+  # Kush record — no script at all, and no name for itself that anybody knows.
+  # Zimbabwe is from the Shona dzimba dza mabwe, houses of stone, which is what
+  # the people living nearby called the ruins afterwards.
+  script: null
+  script_lang: null
+
+# Radiocarbon and imported ceramics. Occupation of the site begins earlier and
+# the monumental building belongs to roughly the twelfth to fifteenth centuries;
+# the abandonment is somewhere in the fifteenth. There are no dated events in
+# this record's life because there is nothing that could date one.
+span:
+  start: { min: 1100, max: 1100, source: pikirayi-2001 }
+  end: { min: 1450, max: 1450, source: pikirayi-2001 }
+
+identity: >-
+  The largest stone structures in Africa south of the pyramids, built without
+  mortar by a state that left no writing and no name for itself.
+
+capitals:
+  - { name: Great Zimbabwe, from: 1100, source: pikirayi-2001 }
+
+core_region: The Zimbabwe plateau between the Limpopo and the Zambezi
+
+# All three null. No king of this polity is known — not a name, not a title, not
+# a regnal length. This corpus has three other records with a null founder and
+# this is the only one where all three fields are empty, and the reason is not
+# that the sources are silent about the rulers. There are no sources.
+rulers:
+  founder: { name: null, source: null }
+  peak: { name: null, source: null }
+  last: { name: null, source: null }
+
+scripts_and_languages:
+  administration: []
+  writing_system: None
+
+ended:
+  type: gradual absorption
+  by: []
+  year: 1450
+  source: pikirayi-2001
+
+institutions:
+  military_basis: null
+  # The one field this record can fill, and it is filled from other people's
+  # rubbish and other people's coins. Gold from the plateau's reefs and alluvial
+  # workings went east to Sofala and from there north to the coast, and this
+  # corpus's Kilwa record — added two passes ago — says its whole position rested
+  # on being where that gold had to stop. Kilwan coins have been found here.
+  #
+  # Excavation at the site has produced Chinese celadon, Persian and Syrian
+  # glazed wares, glass beads by the tens of thousands, and a coin of a
+  # thirteenth-century Kilwan sultan. That is what the two values are coded on:
+  # not a document, but the direction the imports came from and the metal that
+  # paid for them.
+  revenue_basis: { values: [mining, trade-toll], source: pikirayi-2001 }
+  succession_rule: null
+  legitimation: null
+
+# Empty, and this is the record where coding rule 4.3's provision matters most.
+# A turning point is dated to a year and this polity has no years. There are
+# radiocarbon ranges, ceramic sequences and a construction phasing, and not one
+# event that a source names on a date — because there are no sources.
+#
+# The rule says a polity with no turning points is complete and warns against
+# padding to avoid an empty section. Nineteen records on this site have none.
+# This is the only one that could not have any.
+turning_points: []
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: pikirayi-2001 }
+    religions_carried: { count: 0, items: [], source: pikirayi-2001 }
+    successor_claims: { count: 0, items: [], source: pikirayi-2001 }

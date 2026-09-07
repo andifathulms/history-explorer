@@ -261,12 +261,20 @@ regions:
     group: south-asia
     thread: true
 
-  # Nine records, three internal edges, and four clusters that have nothing to do
+  # Twelve records, three internal edges, and clusters that have nothing to do
   # with each other: the Horn (`aksum -> ethiopia`), the Niger (`ghana -> mali ->
-  # songhai`), the middle Nile (Kush and Makuria, three centuries apart and not
-  # joined) and the Indian Ocean coast (Kilwa), with Kanem-Bornu at Lake Chad
-  # belonging to none of them. No edge crosses between the clusters and none can
-  # — Aksum and Mali have nothing to do with each other and never will.
+  # songhai`, with Asante on the same goldfields two centuries later), the middle
+  # Nile (Kush, Makuria and Alodia), the Indian Ocean coast (Kilwa), the
+  # Zimbabwe plateau at the other end of Kilwa's gold, and Kanem-Bornu at Lake
+  # Chad belonging to none of them. No edge crosses between the clusters and none
+  # can — Aksum and Mali have nothing to do with each other and never will.
+  #
+  # Nine of the twelve have an empty `ended.by`. Three end against a power this
+  # site can name and only one of those, `ghana -> mali`, is inside the region.
+  # The Asante record's last chapter argues that this is where the project's
+  # boundary currently runs: not at the Sahara or the Red Sea, but at the point
+  # where the polity on the other side of an African ending has not been
+  # written — Portugal, Britain, the Funj, three colonial empires.
   #
   # That is an argument for splitting, and the split now costs nothing: both
   # sequences keep their edges and both would carry a thread. It is also no
@@ -281,11 +289,11 @@ regions:
   - id: africa
     name: Africa
     blurb: >-
-      The Horn, the middle Nile, the Niger, Lake Chad and the Indian Ocean
-      coast: states that lived on controlling where other people's goods
-      crossed, on stretches of ground with nothing to do with each other — and
-      nine records for a continent, which is a fact about this project rather
-      than about Africa.
+      The Horn, the middle Nile, the Niger, Lake Chad, the Zimbabwe plateau and
+      the Indian Ocean coast: states that lived on controlling where other
+      people's goods crossed, on stretches of ground with nothing to do with each
+      other — and twelve records for a continent, which is a fact about this
+      project rather than about Africa.
     group: africa-maghreb
     thread: true
 

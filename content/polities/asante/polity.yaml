@@ -1,0 +1,154 @@
+id: asante
+region: africa
+
+name:
+  latin: Asante Empire
+  script: null
+  script_lang: null
+
+# 1701 is Feyiase, where the Asante confederacy destroyed Denkyira and stopped
+# paying tribute to anybody. 1901 is the British annexation, after the last of
+# five wars.
+span:
+  start: { min: 1701, max: 1701, source: wilks-1975 }
+  end: { min: 1901, max: 1901, source: wilks-1975 }
+
+identity: >-
+  The forest empire that ran on gold and a bureaucracy, and whose throne passed
+  through the female line — which is the fifth time this corpus has met that and
+  the first time it can say so without hedging.
+
+capitals:
+  - { name: Kumasi, from: 1701, source: wilks-1975 }
+
+core_region: The forest between the Volta and the Comoé, with tributaries to the coast and the northern savanna
+
+rulers:
+  founder: { name: Osei Tutu, reign: [1701, 1717], source: wilks-1975 }
+  peak: { name: Osei Bonsu, reign: [1804, 1824], source: wilks-1975 }
+  last: { name: Prempeh I, reign: [1888, 1896], source: wilks-1975 }
+
+scripts_and_languages:
+  administration: [Twi, Arabic, English]
+  writing_system: Arabic and Latin, both used by employed foreigners
+
+# Britain annexed the country in 1901 after the last of five wars, having exiled
+# Prempeh I to the Seychelles in 1896 and put down the rising of 1900. `by` is
+# empty because the British empire is not in this corpus — the seventh African
+# record here to end that way.
+ended:
+  type: conquest
+  by: []
+  year: 1901
+  source: wilks-1975
+
+institutions:
+  # A national levy organised by wings — left, right, van, rear and the
+  # Asantehene's own — with each division raised by a designated chief and the
+  # whole assembled for a campaign and dispersed after it. Wilks's estimate for
+  # the army of the 1820s runs to tens of thousands, and it beat a British force
+  # in the field in 1824 and killed the governor, whose skull was kept at Kumasi.
+  military_basis: { values: [conscript], source: wilks-1975 }
+  # Gold, tolls and tribute, and the first is why the country was called what
+  # Europeans called it. Asante sat on the Akan goldfields, which had supplied
+  # the trans-Saharan trade this corpus's Ghana, Mali and Songhai records live
+  # on, and then supplied the Atlantic one. Gold dust was the currency, weighed
+  # with brass weights whose geometric and figurative forms are among the most
+  # collected African objects in the world.
+  #
+  # Beside it the tolls on the roads to the coast and to the north, and the
+  # tribute of the conquered states — assessed, recorded and chased, which is the
+  # part Wilks's book is about.
+  revenue_basis: { values: [mining, trade-toll, tribute], source: wilks-1975 }
+  # Null. The Asantehene succeeded through the abusua — the matriclan — and the
+  # candidates were the sons of the royal women, not of the reigning king. The
+  # Asantehemaa, the queen mother, nominated from the eligible matrilineage; the
+  # council of chiefs confirmed or refused; and a king could be destooled.
+  #
+  # None of the seven values on this site's list says that. Not `primogeniture`,
+  # which is a rule about birth order in a male line. Not `tanistry`, which is
+  # selection from a pool of kin and comes closest and still describes the
+  # confirming step rather than the descent rule. Not `election`, `nomination`,
+  # `acclamation` or `factional`.
+  #
+  # This is the fifth record in the corpus to be null here for that reason, and
+  # the first where the arrangement is documented in institutional detail by a
+  # modern scholarly account rather than reported by a foreign visitor or
+  # inferred from a titulature. The third chapter makes the argument the rulebook
+  # requires for a vocabulary change; this record does not make the change.
+  succession_rule: null
+  # The Golden Stool, which in the tradition was brought down from the sky by
+  # the priest Okomfo Anokye at the founding and holds the soul of the nation.
+  # Nobody sits on it. It is not a throne; the Asantehene is enstooled beside it
+  # and lowered towards it three times. When a British governor demanded to sit
+  # on it in 1900 the country went to war, which is this record's last turning
+  # point.
+  #
+  # Beside it descent, which on this record means matrilineal descent and is the
+  # subject of the field above.
+  legitimation: { values: [divine-sanction, descent], source: wilks-1975 }
+
+turning_points:
+  - year: 1701
+    type: battle
+    name: Feyiase
+    changed: >-
+      The Asante confederacy destroyed Denkyira, to whom its constituent states
+      had been tributary, and stopped paying anybody. The union that fought the
+      battle had been assembled by Osei Tutu and Okomfo Anokye around the Golden
+      Stool, and the empire dates from it. This site's Mali record calls Kirina
+      the only founding in the corpus dated from a song; this one is dated from a
+      battle whose account is also oral and was written down later.
+    source: wilks-1975
+    contested: false
+  - year: 1824
+    type: battle
+    name: Nsamankow
+    changed: >-
+      An Asante army destroyed a British force and killed the governor of the
+      Gold Coast, Sir Charles MacCarthy, whose skull was taken to Kumasi and kept
+      as a royal object. It is one of very few occasions in the nineteenth
+      century on which an African state beat a European force in a pitched
+      engagement and the only one in this corpus outside Ethiopia's Adwa, seventy
+      years later.
+    source: wilks-1975
+    contested: false
+  - year: 1874
+    type: siege
+    name: Kumasi burned
+    changed: >-
+      A British expedition under Wolseley reached Kumasi, found it evacuated,
+      looted the palace and burned the city. The indemnity imposed was larger
+      than the state could pay. What followed was two decades of secession by the
+      tributary states, factional politics at Kumasi over whether to accommodate
+      Britain or resist, and the reduction of the empire to its core — which
+      Wilks's book reconstructs from the surviving correspondence in detail.
+    source: wilks-1975
+    contested: false
+  - year: 1900
+    type: revolt
+    name: The War of the Golden Stool
+    changed: >-
+      The governor, Frederick Hodgson, came to Kumasi, demanded the Golden Stool
+      and said he intended to sit on it. The country rose, led by Yaa Asantewaa,
+      the queen mother of Ejisu — which is not incidental to this record's
+      succession field, since the office she held was one of the two that
+      controlled the throne. The rising was put down and the country annexed the
+      following year.
+      The stool was never found by the British. It had been hidden in the forest,
+      was discovered by accident by Africans in 1920 and stripped of its gold,
+      and the men who did it were tried by the Asante and exiled. It exists.
+    source: wilks-1975
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    # Zero. Adinkra are symbols with fixed meanings, stamped on cloth and carved
+    # on objects, and a reader who wants them to be a writing system will find
+    # people who say so. They are not one: they do not encode a language, and
+    # coding rule 3 counts writing systems.
+    descendant_scripts: { count: 0, items: [], source: wilks-1975 }
+    religions_carried: { count: 0, items: [], source: wilks-1975 }
+    successor_claims: { count: 0, items: [], source: wilks-1975 }

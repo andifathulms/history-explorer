@@ -2366,6 +2366,38 @@ sources:
       site's Kanem-Bornu institutions are coded from it, alongside the early
       Arabic notices in levtzion-hopkins-1981.
 
+  - id: pikirayi-2001
+    kind: book
+    author: Innocent Pikirayi
+    title: >-
+      The Zimbabwe Culture: Origins and Decline of Southern Zambezian States
+    container: African Archaeology Series
+    publisher: AltaMira Press
+    year: 2001
+    note: >-
+      A synthesis of the whole Zimbabwe culture — Mapungubwe, Great Zimbabwe,
+      Khami, Mutapa — by a Zimbabwean archaeologist, and the reason this site can
+      carry a record for a polity that left no writing of any kind. Every field
+      on that page comes from stonework, imported ceramics, radiocarbon and
+      faunal remains, which is why so many of them are empty.
+
+  - id: wilks-1975
+    kind: book
+    author: Ivor Wilks
+    title: >-
+      Asante in the Nineteenth Century: The Structure and Evolution of a
+      Political Order
+    container: African Studies Series 13
+    publisher: Cambridge University Press
+    year: 1975
+    note: >-
+      Eight hundred pages on how one African state actually worked — the
+      bureaucracy, the roads, the treasury, the succession, the factions in
+      council — and still the fullest institutional account of any sub-Saharan
+      polity in this bibliography. It is why the Asante record can code three
+      fields with confidence and why the fourth is empty for a reason the
+      vocabulary cannot fix.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors

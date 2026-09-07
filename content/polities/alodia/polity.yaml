@@ -1,0 +1,94 @@
+id: alodia
+region: africa
+
+name:
+  latin: Kingdom of Alodia
+  script: null
+  script_lang: null
+
+# 580 is the mission of Longinus, which converted the kingdom; 1504 is the
+# traditional date for its fall to the Funj and their Abdallab allies. Both ends
+# are softer than they look and the middle is softer still.
+span:
+  start: { min: 580, max: 580, source: welsby-2002 }
+  end: { min: 1504, max: 1504, source: welsby-2002 }
+
+identity: >-
+  The southernmost and reportedly the richest of the three Christian Nubian
+  kingdoms, and the least known state in this corpus.
+
+# Soba, on the Blue Nile above the confluence, is under the eastern suburbs of
+# modern Khartoum. Parts have been excavated and most of it has been built on.
+capitals:
+  - { name: Soba, from: 580, source: welsby-2002 }
+
+core_region: The Gezira between the Blue and White Niles, above the confluence
+
+rulers:
+  founder: { name: null, source: null }
+  peak: { name: null, source: null }
+  last: { name: null, source: null }
+
+scripts_and_languages:
+  administration: [Greek, Old Nubian]
+  writing_system: The Coptic alphabet
+
+ended:
+  type: conquest
+  by: []
+  year: 1504
+  source: welsby-2002
+
+institutions:
+  # All four null, and this record is the emptiest on the site in that block
+  # alongside the Median one — which is null because it is disputed whether there
+  # was a state, and this one is null because there plainly was and almost
+  # nothing about how it worked survives.
+  #
+  # What exists: a description by one visitor, Ibn Selim al-Aswani, who came as a
+  # Fatimid envoy in the 970s and reported a kingdom larger and richer than
+  # Makuria with four hundred churches; a scatter of Greek and Old Nubian
+  # inscriptions; excavated churches and a palace at Soba; and imported ceramics.
+  #
+  # None of that answers what the army rested on, where the revenue came from,
+  # who inherited, or on what public ground. The fields stay empty rather than
+  # borrowing the answers from the Makurian record downstream, which is what a
+  # reader would expect and what coding rule 7's standing requirement forbids.
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  legitimation: null
+
+turning_points:
+  - year: 580
+    type: conversion
+    name: Longinus
+    changed: >-
+      A Miaphysite missionary sent from Constantinople by the empress Theodora —
+      against her husband Justinian, who was backing a Chalcedonian mission to
+      the same kingdoms — reached Alodia and converted it. This corpus's
+      Byzantine record's Justinian chapter has that quarrel from the imperial
+      end. Its result on this river was that all three Nubian kingdoms ended up
+      in the Miaphysite communion, aligned with Alexandria, which is the same
+      alignment the Aksum record says kept Ethiopian Christianity alive.
+    source: welsby-2002
+    contested: true
+  - year: 1504
+    type: siege
+    name: Soba falls
+    changed: >-
+      A coalition of the Funj — a people whose own origins are argued about —
+      and the Abdallab Arabs took Soba, and the Funj sultanate of Sennar replaced
+      it. It is the end of Christian Nubia after nine hundred years, a hundred
+      and thirty-nine years after this corpus's Makurian record ends upstream,
+      and the last Christian state on the Nile above Egypt disappears with it.
+    source: welsby-2002
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: welsby-2002 }
+    religions_carried: { count: 0, items: [], source: welsby-2002 }
+    successor_claims: { count: 0, items: [], source: welsby-2002 }
