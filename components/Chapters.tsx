@@ -21,6 +21,37 @@ const components = {
   p: (p: React.HTMLAttributes<HTMLParagraphElement>) => (
     <p className="mt-5 max-w-measure text-body text-dawat/88" {...p} />
   ),
+  /**
+   * A `##` inside a chapter body, rendered as an h3 because the chapter's own
+   * title is already the h2 above it. Until this existed the corpus's 784
+   * subheadings had no styling at all: they inherited body type and the browser
+   * default margin collapsed against the paragraph above, so "The double claim"
+   * read as the last line of the preceding sentence rather than the opening of
+   * the next section. The generous top margin is the fix — a subheading has to
+   * belong visibly to what follows it, not to what it interrupts.
+   */
+  h2: (p: React.HTMLAttributes<HTMLHeadingElement>) => (
+    <h3
+      className="mt-12 max-w-measure font-display text-[19px] font-semibold leading-snug text-kashi-deep"
+      {...p}
+    />
+  ),
+  h3: (p: React.HTMLAttributes<HTMLHeadingElement>) => (
+    <h4
+      className="mt-10 max-w-measure font-display text-[17px] font-semibold leading-snug text-kashi-deep"
+      {...p}
+    />
+  ),
+  /**
+   * Inline code keeps the reading face. A monospace switch mid-sentence makes a
+   * word look like something the machine said, and in a corpus where these spans
+   * mostly wrap ordinary nouns the effect was to make history read like a
+   * console log. The distinction is carried by colour and a touch of weight
+   * instead, which marks the term without leaving the typeface.
+   */
+  code: (p: React.HTMLAttributes<HTMLElement>) => (
+    <code className="font-latin font-medium text-kashi" {...p} />
+  ),
   em: (p: React.HTMLAttributes<HTMLElement>) => <em className="italic" {...p} />,
   strong: (p: React.HTMLAttributes<HTMLElement>) => (
     <strong className="font-semibold text-kashi" {...p} />
