@@ -2569,6 +2569,21 @@ sources:
       including the killing of 1699, and the record's span dates outside that
       window come from elsewhere.
 
+  - id: gibb-battuta
+    kind: primary
+    author: Ibn Battuta, translated by H. A. R. Gibb and C. F. Beckingham
+    title: "The Travels of Ibn Battuta, A.D. 1325-1354"
+    container: Works issued by the Hakluyt Society, Second Series
+    publisher: The Hakluyt Society
+    year: 1994
+    note: >-
+      The complete four-volume Hakluyt translation, finished in 1994 by
+      Beckingham decades after Gibb began it. Ibn Battuta reached a striking
+      number of the polities on this site — Delhi, Mali, Kilwa, Pasai — and this
+      is the first record here to cite him. He is an eyewitness who wrote
+      afterwards from memory and from other people's books, and the record that
+      uses him says which of his claims it is relying on.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors

@@ -1,0 +1,150 @@
+id: pasai
+region: maritime-asia
+
+name:
+  latin: Samudera Pasai
+  script: null
+  script_lang: null
+
+# 1267 is the conventional founding under Merah Silu, who took the name Malik
+# al-Salih; his gravestone is dated 1297 and is the earliest dated Muslim royal
+# gravestone in Southeast Asia. 1524 is Aceh taking the town from the
+# Portuguese, who had taken it three years earlier.
+span:
+  start: { min: 1267, max: 1267, source: ricklefs-2008 }
+  end: { min: 1524, max: 1524, source: reid-2005 }
+
+identity: >-
+  The first Muslim state in Southeast Asia, on the north Sumatran coast, which
+  converted Melaka by marriage and was absorbed by the sultanate that grew up
+  forty miles along the same shore.
+
+capitals:
+  - { name: Pasai, from: 1267, source: ricklefs-2008 }
+
+core_region: The north coast of Sumatra at the entrance to the strait
+
+rulers:
+  founder: { name: Malik al-Salih, reign: [1267, 1297], source: ricklefs-2008 }
+  peak: { name: Al-Malik al-Zahir, reign: [1326, 1345], source: gibb-battuta }
+  # Null. Pasai's later sultans are known and its succession in the fifteenth
+  # century was violent, and this site has not opened a source that puts a name
+  # and a reign to the ruler in place when the Portuguese arrived. Thirty-six
+  # records here carry a null in at least one of the three ruler slots, and the
+  # position is always the same: a name with an invented reign reads on the page
+  # exactly like a sourced one.
+  last: { name: null, source: null }
+
+scripts_and_languages:
+  administration: [Malay, Arabic]
+  writing_system: Jawi — the Arabic script adapted for Malay
+
+# Portugal took Pasai in 1521; Ali Mughayat Syah of Aceh took it from the
+# Portuguese in 1524 and absorbed its territory. `by` names Aceh, and the edge
+# `pasai -> aceh` is drawn.
+#
+# It is the third `ended.by` in this region to be filled in two passes, and the
+# only one of the three filled by a polity that already had a page. The other
+# two — Singhasari's and Majapahit's — waited for the records that ended them to
+# be written.
+ended:
+  type: conquest
+  by: [aceh]
+  year: 1524
+  source: reid-2005
+
+institutions:
+  military_basis: null
+  # `trade-toll` and nothing else, which makes this the tenth record on this site
+  # coded that way and the third in this region.
+  #
+  # Pasai's hinterland grew pepper, and the sultanate that took it in 1524 built
+  # a royal monopoly on that pepper which is half of its own revenue coding. This
+  # record does not carry the monopoly, because nothing consulted describes Pasai
+  # operating one — what the sources describe is a port taking a share of what
+  # called there.
+  revenue_basis: { values: [trade-toll], source: ricklefs-2008 }
+  succession_rule: null
+  legitimation: { values: [descent, divine-sanction], source: ricklefs-2008 }
+
+turning_points:
+  - year: 1345
+    type: reform
+    name: What Ibn Battuta found
+    changed: >-
+      Ibn Battuta stopped at Pasai on his way to China and spent a fortnight
+      there. What he describes is a Shafi'i sultan who held disputations with
+      jurists, kept scholars from Persia and India at his court, campaigned
+      against unbelievers in the interior, and observed the forms of a Muslim
+      ruler in a way the traveller — who was hard to impress and complained about
+      most places — found unremarkable.
+      That is the point of the passage for this record. Seventy-eight years after
+      its founding, a sultanate on the far edge of the Muslim world was a normal
+      part of it, well enough connected that a Moroccan jurist could arrive and
+      find people to argue law with.
+    source: gibb-battuta
+    contested: false
+  - year: 1414
+    type: treaty
+    name: The marriage
+    changed: >-
+      The ruler of Melaka married a princess of Pasai, converted, and took the
+      name Iskandar Shah. This corpus's Melaka record carries the same event as
+      its own turning point and as the origin of its single religion carried —
+      the count that makes Melaka the vector by which Islam reached the ports of
+      the eastern archipelago.
+      This is where that came from. Melaka's conversion is Pasai's, one marriage
+      upstream, and this record's own count is the reason the chain has a
+      beginning on this site rather than starting in the middle.
+    source: ricklefs-2008
+    contested: true
+  - year: 1524
+    type: siege
+    name: Aceh
+    changed: >-
+      The Portuguese had taken the town in 1521. Ali Mughayat Syah took it from
+      them three years later and absorbed its territory into the sultanate he was
+      building forty miles up the same coast.
+      Aceh's own record calls the northern tip of Sumatra a cluster of small
+      ports before 1511 and says Pasai was the important one. This is the point
+      at which it stopped being a port and became part of the polity that
+      replaced it.
+    source: reid-2005
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    # Zero. Jawi's parent is Arabic, which has no page here — the fourth time
+    # this site has sent an Arabic-script adaptation to a record that does not
+    # exist, after Jawi at Melaka, Swahili's letters at Kilwa and Pegon at Demak.
+    #
+    # What the field cannot register is that some of the earliest Islamic
+    # literature in Malay was produced here, and that Malay became the language
+    # Islam was carried in across the archipelago partly because this court used
+    # it that way first.
+    descendant_scripts: { count: 0, items: [], source: ricklefs-2008 }
+    # One, and it is the head of a chain this site already had the middle and end
+    # of.
+    #
+    # Islam reached these ports through traders over the preceding century.
+    # Pasai is where it first held a throne in Southeast Asia, and what it then
+    # did was convert Melaka by marriage in 1414 — after which the Melaka record
+    # carries the same count for the ports of the eastern archipelago, Ternate's
+    # for the far eastern end of that reach, Aceh's for the Sumatran highlands
+    # and the pilgrimage, and Demak's for taking Islam inland across Java by
+    # force.
+    #
+    # Five records in this region, five counts of one, one religion, and this
+    # page is upstream of the other four. Coding rule 2 counts propagation past a
+    # prior boundary and each of the five crossed a different one.
+    religions_carried:
+      count: 1
+      items: [Sunni Islam]
+      source: ricklefs-2008
+    # Zero. Aceh took Pasai's territory and its position and did not claim to be
+    # it — Aceh's rulers traced their own line, which is the same distinction
+    # this site drew when it typed the edge `melaka -> aceh` as `absorbed
+    # remnants of` rather than `claimed legitimacy of`.
+    successor_claims: { count: 0, items: [], source: reid-2005 }

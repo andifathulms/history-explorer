@@ -1075,6 +1075,20 @@ edges:
     source: reid-1988
     contested: false
 
+  # Aceh took Pasai from the Portuguese in 1524, three years after they had taken
+  # it, and absorbed its territory. The Aceh record has two incoming edges now
+  # and they are the two halves of what it was built out of: Melaka's trade and
+  # Pasai's coast.
+  - from: pasai
+    to: aceh
+    type: conquered by
+    year: 1524
+    note: >-
+      Ali Mughayat Syah drove the Portuguese out of Pasai and absorbed the
+      sultanate into the one he was assembling forty miles up the same coast.
+    source: reid-2005
+    contested: false
+
   # Melaka's founder was a prince out of Palembang and the Malay Annals trace
   # his line through Srivijaya's kings. It is a claim made a century and a
   # quarter after the last Srivijayan ruler anybody can name, by a court whose

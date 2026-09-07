@@ -1,0 +1,135 @@
+id: medang
+region: maritime-asia
+
+name:
+  latin: Medang
+  script: null
+  script_lang: null
+
+# 732 is the Canggal inscription, in which Sanjaya sets up a linga on a hill in
+# central Java and gives himself a genealogy. 1016 is the pralaya — the
+# destruction of Dharmawangsa's court by a vassal at a royal wedding.
+#
+# The kingdom is called Mataram in its own inscriptions and Medang in others,
+# and modern writing uses both, usually with "Old Mataram" to distinguish it
+# from the sixteenth-century sultanate of the same name. This site uses Medang
+# because the other name is going to be needed for the sultanate.
+span:
+  start: { min: 732, max: 732, source: coedes-1968 }
+  end: { min: 1016, max: 1016, source: coedes-1968 }
+
+identity: >-
+  The central Javanese kingdom that built Borobudur and Prambanan within a
+  century of each other, abandoned the plain they stand on, and was destroyed at
+  a wedding.
+
+capitals:
+  - { name: The Kedu and Kewu plains, from: 732, source: coedes-1968 }
+  - { name: Watugaluh, from: 929, source: coedes-1968 }
+
+core_region: The volcanic plains of central Java, and after 929 the Brantas valley in the east
+
+rulers:
+  founder: { name: Sanjaya, reign: [732, 760], source: coedes-1968 }
+  peak: { name: Rakai Pikatan, reign: [838, 850], source: coedes-1968 }
+  last: { name: Dharmawangsa Teguh, reign: [990, 1016], source: coedes-1968 }
+
+scripts_and_languages:
+  administration: [Old Javanese, Sanskrit]
+  writing_system: Kawi
+
+# Wurawari, a vassal, attacked the court during a royal wedding and killed the
+# king. `by` is empty because Wurawari is a place and a title in one inscription
+# and nothing this site can make a record of; some scholarship reads Srivijayan
+# involvement behind it, which this record does not enter as a fact.
+ended:
+  type: conquest
+  by: []
+  year: 1016
+  source: coedes-1968
+
+institutions:
+  military_basis: { values: [conscript], source: ricklefs-2008 }
+  # Rice, taken through the sima system: land whose revenue was permanently
+  # assigned to a religious foundation, recorded on a stone at the site with the
+  # boundaries, the yield and the officials who witnessed it. Those stones are
+  # the archive this record is written from.
+  #
+  # It is the same instrument, working the same way, as the one this corpus's
+  # Pagan record is coded around — an endowment that moves land out of the
+  # crown's income permanently in exchange for merit. Aung-Thwin's argument is
+  # that it eventually bankrupted Pagan. Nothing in the Javanese material has
+  # been read that way here, and this record does not import the argument.
+  revenue_basis: { values: [land-tax], source: ricklefs-2008 }
+  succession_rule: null
+  legitimation: { values: [descent, divine-sanction], source: coedes-1968 }
+
+turning_points:
+  - year: 856
+    type: battle
+    name: Prambanan and Balaputra
+    changed: >-
+      Rakai Pikatan consecrated the Shiva temple complex at Prambanan and, on the
+      reading of the Shivagrha inscription this site follows, defeated
+      Balaputradeva, the last Sailendra claimant in Java, who left.
+      Balaputra turns up a few years later on a copper plate from Nalanda in
+      Bengal, endowing a monastery there as king of Suvarnadvipa — which is
+      Srivijaya. This corpus carries that record, and this is the one moment when
+      the two Javanese and Sumatran halves of this region touch in a person
+      rather than in a trade route.
+    source: coedes-1968
+    contested: true
+  - year: 929
+    type: capital-move
+    name: East
+    changed: >-
+      Mpu Sindok moved the court from central Java to the Brantas valley in the
+      east, and central Java was not the seat of a Javanese kingdom again.
+      Nothing explains it. There is no defeat in the record, no invasion, no
+      succession crisis; the inscriptions simply stop being issued in one place
+      and start being issued in another, four hundred kilometres away. Merapi's
+      eruptions, an epidemic and a Srivijayan raid have all been proposed and
+      none is attested.
+      What it left behind is the largest concentration of eighth- and
+      ninth-century monumental architecture in Southeast Asia, standing on a
+      plain that the state walked away from.
+    source: ricklefs-2008
+    contested: true
+  - year: 1016
+    type: catastrophe
+    name: The pralaya
+    changed: >-
+      A vassal named in the inscriptions as Wurawari attacked the court during
+      the wedding of the king's daughter, and Dharmawangsa was killed. The
+      Javanese term for it is pralaya, the dissolution at the end of a world age.
+      Airlangga, a young relative who escaped into the forest, spent the next
+      twenty years rebuilding the kingdom under a different name.
+    source: coedes-1968
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    # Zero. Kawi's parent is a South Indian Brahmi with no page here, which is
+    # the same outcome as the Kediri record that follows this one in Java, and
+    # the seventh time on this site a script adaptation has gone to a parent that
+    # does not exist.
+    descendant_scripts: { count: 0, items: [], source: coedes-1968 }
+    # Zero, on the record of Borobudur, and the reasoning is the one this
+    # corpus's Pagan record gives at length: coding rule 2 counts propagation
+    # past a prior boundary, not adoption and not the scale of the building.
+    # Java received Shaivism and Mahayana Buddhism, and built.
+    religions_carried: { count: 0, items: [], source: coedes-1968 }
+    # One, and the claimant has no page. Airlangga presented himself as
+    # Dharmawangsa's heir and rebuilt the kingdom as Kahuripan, and the
+    # inscriptions of his reign argue that continuity explicitly.
+    #
+    # Rule 1 does not require a claimant to have a record here. The reason this
+    # site is not drawing an edge from this record to the Kediri one — which
+    # would be easy, since Kahuripan was divided into Kediri in 1042 — is on this
+    # record's last chapter.
+    successor_claims:
+      count: 1
+      items: [The kingdom of Kahuripan under Airlangga]
+      source: coedes-1968
