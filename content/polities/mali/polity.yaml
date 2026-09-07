@@ -3,8 +3,14 @@ region: africa
 
 name:
   latin: Mali Empire
-  script: Manden Kurufaba
-  script_lang: man
+  # Was "Manden Kurufaba" with a language code, which is a Latin transliteration
+  # of a Malinke phrase rather than a script — the field asks what the polity's
+  # name looks like written in its own writing system, and Mali's writing system
+  # was Arabic, used for a language that was not the one anybody spoke at court.
+  # Null is the honest answer and the Songhai record has been corrected the same
+  # way.
+  script: null
+  script_lang: null
 
 span:
   start: { min: 1235, max: 1235, source: levtzion-1973 }
@@ -35,18 +41,95 @@ ended:
   source: levtzion-1973
 
 institutions:
-  military_basis: null
+  # A levy raised through the provinces and the clans, and beside it men the
+  # mansa owned. Slave soldiers are attested from the fourteenth century in the
+  # Arabic descriptions and are central to Gomez's account of how the empire was
+  # actually held together: a ruler whose free troops came through intermediaries
+  # who could withhold them needed a force that could not, and bought one.
+  # Ibn Battuta, who was at the court in 1352, describes the mansa's guard.
+  military_basis: { values: [conscript, slave-soldier], source: gomez-2018 }
+  # Gold and tolls, and the first of those needs the qualification the second
+  # chapter supplies. Mali did not work the goldfields. The Bambuk and Bure
+  # producers were outside the empire's direct administration and stayed that
+  # way, and the standard story — told by al-Umari and repeated since — is that a
+  # mansa who tried to bring them under control found that production stopped.
+  #
+  # What the state took was a royalty: all gold nuggets belonged to the mansa and
+  # only the dust circulated, which is a claim on production rather than on the
+  # mine. `mining` is coded on that basis and the chapter argues it, because a
+  # reader who assumes Mali owned the mines has the shape of the empire wrong.
   revenue_basis: { values: [mining, trade-toll], source: levtzion-1973 }
+  # Null. The throne passed within the Keita line and the sources show it going
+  # to brothers, to sons and to sisters' sons in no order anybody states, with
+  # long stretches of dispute and at least two usurpations by men outside the
+  # family. Coding rule 7 takes the rule and no source on this record supplies
+  # one; the pattern is not a substitute.
   succession_rule: null
-  legitimation: null
+  # Descent, and it is a double claim made in two registers at once. In the oral
+  # tradition the mansa descends from Sundiata and behind him from a lineage the
+  # epic traces back into legend; in the Arabic self-presentation the Keita
+  # descend from Bilal ibn Rabah, the Prophet's Abyssinian muezzin, which makes
+  # the dynasty's Islam ancestral rather than adopted. Both were asserted in
+  # public and coding rule 1 requires exactly that.
+  legitimation: { values: [descent, divine-sanction], source: gomez-2018 }
+
+turning_points:
+  - year: 1235
+    type: battle
+    name: Kirina
+    changed: >-
+      Sundiata Keita defeated Sumanguru of Sosso and the confederation that
+      followed is the empire. The battle is known almost entirely from oral
+      tradition — the Sundiata epic, performed by griots and written down in the
+      twentieth century — rather than from any contemporary text, which makes it
+      the only founding event in this corpus dated from a song. The date is
+      conventional and the event is not seriously doubted.
+    source: gomez-2018
+    contested: true
+  - year: 1433
+    type: siege
+    name: Timbuktu lost
+    changed: >-
+      Tuareg from the desert edge took Timbuktu, which Mali had held for a
+      century and a half. It is the first substantial piece of the empire to go
+      and it went to a power with no state behind it. Everything downstream —
+      Songhai's rise at Gao, the loss of the Niger bend, the reduction of Mali to
+      its upper-river core — follows from the discovery that the desert edge
+      could no longer be held.
+    source: levtzion-1973
+    contested: false
+  - year: 1545
+    type: siege
+    name: Niani
+    changed: >-
+      A Songhai army took the Malian capital, held it briefly, and left. This
+      corpus carries Songhai as the record two entries along, and the sack is the
+      moment the relationship between the two reverses completely: Songhai had
+      been a Malian province in the fourteenth century. Mali continued for
+      another century as a kingdom on the upper Niger, sent an embassy to
+      Portugal, and stopped being an empire here.
+    source: levtzion-1973
+    contested: false
 
 measures:
-  reach_km2: null
+  reach_km2: { value: 1100000, at: 1380, source: taagepera-1997 }
   peak_population: null
   influence:
-    descendant_scripts: { count: null, items: [], source: null }
+    # Zero. Mali wrote in Arabic, in the Arabic script, unchanged. What West
+    # Africa did later produce is Ajami — Arabic script adapted with extra
+    # letters for Hausa, Fulfulde, Wolof, Songhai and others, which is precisely
+    # the adaptation coding rule 3 counts — and no source on this record
+    # attributes that development to this polity. Rule 3 excludes an adaptation a
+    # source attributes elsewhere, and this is a case of one it attributes to
+    # nobody in particular.
+    descendant_scripts: { count: 0, items: [], source: levtzion-1973 }
     religions_carried:
       count: 1
       items: [Sunni Islam]
       source: levtzion-1973
-    successor_claims: { count: null, items: [], source: null }
+    # Zero. Songhai displaced this empire and did not claim it; the Askia
+    # dynasty's legitimation, on that record, is a caliphal investiture obtained
+    # in Cairo, which is a claim on an office in Baghdad rather than on anything
+    # in the Niger valley. Nobody in the period asserted Mali's legitimacy as the
+    # ground of their own.
+    successor_claims: { count: 0, items: [], source: levtzion-1973 }

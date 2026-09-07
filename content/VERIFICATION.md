@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**3544 claims across 190 sources.**
+**3567 claims across 191 sources.**
 
 ## Where to start
 
@@ -60,6 +60,7 @@ ordinary state, not an item to clear.
 - [ ] `kushan` — one figure, at 200 (Rein Taagepera, Size and Duration of Empires: Growth-Decline Curves, 600 B.C. to 600 A.D.)
 - [ ] `liao` — one figure, at 947 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
 - [ ] `macedonian` — one figure, at -323 (Rein Taagepera, Size and Duration of Empires: Growth-Decline Curves, 600 B.C. to 600 A.D.)
+- [ ] `mali` — one figure, at 1380 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
 - [ ] `maurya` — one figure, at -250 (Rein Taagepera, Size and Duration of Empires: Growth-Decline Curves, 600 B.C. to 600 A.D.)
 - [ ] `median` — one figure, at -585 (Rein Taagepera, Size and Duration of Empires: Growth-Decline Curves, 600 B.C. to 600 A.D.)
 - [ ] `middle-assyrian` — one figure, at -1080 (Rein Taagepera, Size and Duration of Empires: Systematics of Size)
@@ -78,6 +79,7 @@ ordinary state, not an item to clear.
 - [ ] `samanid` — one figure, at 928 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
 - [ ] `sasanian` — one figure, at 550 (Rein Taagepera, Size and Duration of Empires: Growth-Decline Curves, 600 B.C. to 600 A.D.)
 - [ ] `seleucid` — one figure, at -301 (Rein Taagepera, Size and Duration of Empires: Growth-Decline Curves, 600 B.C. to 600 A.D.)
+- [ ] `songhai` — one figure, at 1550 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
 - [ ] `tang` — one figure, at 715 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
 - [ ] `tibetan-empire` — one figure, at 800 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
 - [ ] `timurid` — one figure, at 1405 (Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia)
@@ -707,6 +709,73 @@ ordinary state, not an item to clear.
 - [ ] `polity/persis` — revenue basis coded land-tax
 - [ ] `polity/persis` — legitimation coded divine-sanction
 
+## Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia
+*In International Studies Quarterly 41(3), 475-504.*
+
+`taagepera-1997` — 61 claims
+
+- [ ] `polity/abbasid` — reach 11,100,000 km2 at 750
+- [ ] `polity/almohad` — reach 2,300,000 km2 at 1200
+- [ ] `polity/byzantine` — reach 1,350,000 km2 at 555
+- [ ] `polity/carolingian` — reach 1,100,000 km2 at 800
+- [ ] `polity/chagatai` — reach 3,500,000 km2 at 1310
+- [ ] `polity/delhi-sultanate` — reach 3,200,000 km2 at 1312
+- [ ] `polity/fatimid` — reach 4,100,000 km2 at 969
+- [ ] `polity/ghaznavid` — reach 3,400,000 km2 at 1029
+- [ ] `polity/gokturk` — reach 6,000,000 km2 at 557
+- [ ] `polity/golden-horde` — reach 6,000,000 km2 at 1310
+- [ ] `polity/great-seljuk` — reach 3,900,000 km2 at 1080
+- [ ] `polity/holy-roman-empire` — reach 1,000,000 km2 at 1050
+- [ ] `polity/ilkhanate` — reach 3,750,000 km2 at 1310
+- [ ] `polity/jin` — reach 2,300,000 km2 at 1150
+- [ ] `polity/khazar` — reach 3,000,000 km2 at 850
+- [ ] `polity/liao` — reach 2,600,000 km2 at 947
+- [ ] `polity/mali` — reach 1,100,000 km2 at 1380
+- [ ] `polity/ming` — reach 6,500,000 km2 at 1450
+- [ ] `polity/mongol` — reach 24,000,000 km2 at 1270
+- [ ] `polity/mughal` — reach 4,000,000 km2 at 1690
+- [ ] `polity/ottoman` — reach 5,200,000 km2 at 1683
+- [ ] `polity/rashidun` — reach 6,400,000 km2 at 655
+- [ ] `polity/safavid` — reach 2,900,000 km2 at 1512
+- [ ] `polity/samanid` — reach 2,600,000 km2 at 928
+- [ ] `polity/songhai` — reach 800,000 km2 at 1550
+- [ ] `polity/tang` — reach 5,400,000 km2 at 715
+- [ ] `polity/tibetan-empire` — reach 4,600,000 km2 at 800
+- [ ] `polity/timurid` — reach 4,400,000 km2 at 1405
+- [ ] `polity/umayyad` — reach 11,100,000 km2 at 720
+- [ ] `polity/uyghur-khaganate` — reach 3,100,000 km2 at 800
+- [ ] `polity/yuan` — reach 11,000,000 km2 at 1310
+- [ ] `reference/almohad` — reach 2,300,000 km2 at 1200
+- [ ] `reference/british-empire` — reach 35,500,000 km2 at 1920
+- [ ] `reference/byzantine` — reach 1,350,000 km2 at 555
+- [ ] `reference/carolingian` — reach 1,100,000 km2 at 800
+- [ ] `reference/chagatai` — reach 3,500,000 km2 at 1310
+- [ ] `reference/delhi-sultanate` — reach 3,200,000 km2 at 1312
+- [ ] `reference/fatimid` — reach 4,100,000 km2 at 969
+- [ ] `reference/french-colonial` — reach 11,500,000 km2 at 1938
+- [ ] `reference/gokturk` — reach 6,000,000 km2 at 557
+- [ ] `reference/golden-horde` — reach 6,000,000 km2 at 1310
+- [ ] `reference/ilkhanate` — reach 3,750,000 km2 at 1310
+- [ ] `reference/jin` — reach 2,300,000 km2 at 1150
+- [ ] `reference/khazar` — reach 3,000,000 km2 at 850
+- [ ] `reference/liao` — reach 2,600,000 km2 at 947
+- [ ] `reference/ming` — reach 6,500,000 km2 at 1450
+- [ ] `reference/mongol` — reach 24,000,000 km2 at 1270
+- [ ] `reference/mughal` — reach 4,000,000 km2 at 1690
+- [ ] `reference/ottoman` — reach 5,200,000 km2 at 1683
+- [ ] `reference/qing` — reach 14,700,000 km2 at 1790
+- [ ] `reference/rashidun` — reach 6,400,000 km2 at 655
+- [ ] `reference/russian-empire` — reach 22,800,000 km2 at 1895
+- [ ] `reference/safavid` — reach 2,900,000 km2 at 1512
+- [ ] `reference/soviet-union` — reach 22,400,000 km2 at 1945
+- [ ] `reference/spanish-empire` — reach 13,700,000 km2 at 1810
+- [ ] `reference/tang` — reach 5,400,000 km2 at 715
+- [ ] `reference/tibetan-empire` — reach 4,600,000 km2 at 800
+- [ ] `reference/timurid` — reach 4,400,000 km2 at 1405
+- [ ] `reference/umayyad` — reach 11,100,000 km2 at 720
+- [ ] `reference/uyghur-khaganate` — reach 3,100,000 km2 at 800
+- [ ] `reference/yuan` — reach 11,000,000 km2 at 1310
+
 ## Carl F. Petry (ed.), The Cambridge History of Egypt, Volume 1: Islamic Egypt 640-1517
 
 `petry-1998` — 60 claims
@@ -773,71 +842,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/tulunid` — turning point 882 The jurists at Damascus
 - [ ] `polity/tulunid` — turning point 905 Al-Qata'i burned
 - [ ] `polity/tulunid` — ended by conquest in 905
-
-## Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia
-*In International Studies Quarterly 41(3), 475-504.*
-
-`taagepera-1997` — 59 claims
-
-- [ ] `polity/abbasid` — reach 11,100,000 km2 at 750
-- [ ] `polity/almohad` — reach 2,300,000 km2 at 1200
-- [ ] `polity/byzantine` — reach 1,350,000 km2 at 555
-- [ ] `polity/carolingian` — reach 1,100,000 km2 at 800
-- [ ] `polity/chagatai` — reach 3,500,000 km2 at 1310
-- [ ] `polity/delhi-sultanate` — reach 3,200,000 km2 at 1312
-- [ ] `polity/fatimid` — reach 4,100,000 km2 at 969
-- [ ] `polity/ghaznavid` — reach 3,400,000 km2 at 1029
-- [ ] `polity/gokturk` — reach 6,000,000 km2 at 557
-- [ ] `polity/golden-horde` — reach 6,000,000 km2 at 1310
-- [ ] `polity/great-seljuk` — reach 3,900,000 km2 at 1080
-- [ ] `polity/holy-roman-empire` — reach 1,000,000 km2 at 1050
-- [ ] `polity/ilkhanate` — reach 3,750,000 km2 at 1310
-- [ ] `polity/jin` — reach 2,300,000 km2 at 1150
-- [ ] `polity/khazar` — reach 3,000,000 km2 at 850
-- [ ] `polity/liao` — reach 2,600,000 km2 at 947
-- [ ] `polity/ming` — reach 6,500,000 km2 at 1450
-- [ ] `polity/mongol` — reach 24,000,000 km2 at 1270
-- [ ] `polity/mughal` — reach 4,000,000 km2 at 1690
-- [ ] `polity/ottoman` — reach 5,200,000 km2 at 1683
-- [ ] `polity/rashidun` — reach 6,400,000 km2 at 655
-- [ ] `polity/safavid` — reach 2,900,000 km2 at 1512
-- [ ] `polity/samanid` — reach 2,600,000 km2 at 928
-- [ ] `polity/tang` — reach 5,400,000 km2 at 715
-- [ ] `polity/tibetan-empire` — reach 4,600,000 km2 at 800
-- [ ] `polity/timurid` — reach 4,400,000 km2 at 1405
-- [ ] `polity/umayyad` — reach 11,100,000 km2 at 720
-- [ ] `polity/uyghur-khaganate` — reach 3,100,000 km2 at 800
-- [ ] `polity/yuan` — reach 11,000,000 km2 at 1310
-- [ ] `reference/almohad` — reach 2,300,000 km2 at 1200
-- [ ] `reference/british-empire` — reach 35,500,000 km2 at 1920
-- [ ] `reference/byzantine` — reach 1,350,000 km2 at 555
-- [ ] `reference/carolingian` — reach 1,100,000 km2 at 800
-- [ ] `reference/chagatai` — reach 3,500,000 km2 at 1310
-- [ ] `reference/delhi-sultanate` — reach 3,200,000 km2 at 1312
-- [ ] `reference/fatimid` — reach 4,100,000 km2 at 969
-- [ ] `reference/french-colonial` — reach 11,500,000 km2 at 1938
-- [ ] `reference/gokturk` — reach 6,000,000 km2 at 557
-- [ ] `reference/golden-horde` — reach 6,000,000 km2 at 1310
-- [ ] `reference/ilkhanate` — reach 3,750,000 km2 at 1310
-- [ ] `reference/jin` — reach 2,300,000 km2 at 1150
-- [ ] `reference/khazar` — reach 3,000,000 km2 at 850
-- [ ] `reference/liao` — reach 2,600,000 km2 at 947
-- [ ] `reference/ming` — reach 6,500,000 km2 at 1450
-- [ ] `reference/mongol` — reach 24,000,000 km2 at 1270
-- [ ] `reference/mughal` — reach 4,000,000 km2 at 1690
-- [ ] `reference/ottoman` — reach 5,200,000 km2 at 1683
-- [ ] `reference/qing` — reach 14,700,000 km2 at 1790
-- [ ] `reference/rashidun` — reach 6,400,000 km2 at 655
-- [ ] `reference/russian-empire` — reach 22,800,000 km2 at 1895
-- [ ] `reference/safavid` — reach 2,900,000 km2 at 1512
-- [ ] `reference/soviet-union` — reach 22,400,000 km2 at 1945
-- [ ] `reference/spanish-empire` — reach 13,700,000 km2 at 1810
-- [ ] `reference/tang` — reach 5,400,000 km2 at 715
-- [ ] `reference/tibetan-empire` — reach 4,600,000 km2 at 800
-- [ ] `reference/timurid` — reach 4,400,000 km2 at 1405
-- [ ] `reference/umayyad` — reach 11,100,000 km2 at 720
-- [ ] `reference/uyghur-khaganate` — reach 3,100,000 km2 at 800
-- [ ] `reference/yuan` — reach 11,000,000 km2 at 1310
 
 ## Malcolm Barber, The Crusader States
 
@@ -2293,6 +2297,35 @@ ordinary state, not an item to clear.
 - [ ] `polity/venice` — successor_claims = 0
 - [ ] `polity/venice` — ended by conquest in 1797
 
+## John O. Hunwick, Timbuktu and the Songhay Empire
+
+`hunwick-1999` — 24 claims
+
+- [ ] `chapter/saadi/03-across-the-desert.mdx` — prose: "Across the desert, for the gold"
+- [ ] `chapter/songhai/02-sunni-ali.mdx` — prose: "Sunni Ali"
+- [ ] `chapter/songhai/03-a-caliph-of-takrur.mdx` — prose: "A caliph of Takrur"
+- [ ] `chapter/songhai/04-the-estates.mdx` — prose: "The estates"
+- [ ] `chapter/songhai/05-the-chronicles.mdx` — prose: "Written from Timbuktu"
+- [ ] `chapter/songhai/06-tondibi.mdx` — prose: "Tondibi"
+- [ ] `edge/mali->songhai` — absorbed remnants of in 1468
+- [ ] `edge/songhai->saadi` — conquered by in 1591
+- [ ] `polity/saadi` — turning point 1591 Tondibi
+- [ ] `polity/songhai` — span starts 1464
+- [ ] `polity/songhai` — span ends 1591
+- [ ] `polity/songhai` — capital Gao from 1464
+- [ ] `polity/songhai` — founder Sunni Ali r. 1464-1492
+- [ ] `polity/songhai` — peak Askia Muhammad I r. 1493-1528
+- [ ] `polity/songhai` — last Askia Ishaq II r. 1588-1591
+- [ ] `polity/songhai` — revenue basis coded trade-toll + tribute
+- [ ] `polity/songhai` — legitimation coded caliphal-investiture + conquest
+- [ ] `polity/songhai` — turning point 1468 Timbuktu
+- [ ] `polity/songhai` — turning point 1493 Askia Muhammad
+- [ ] `polity/songhai` — turning point 1591 Tondibi
+- [ ] `polity/songhai` — descendant_scripts = 0
+- [ ] `polity/songhai` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/songhai` — successor_claims = 0
+- [ ] `polity/songhai` — ended by conquest in 1591
+
 ## Nicola Di Cosmo, Allen J. Frank and Peter B. Golden (eds), The Cambridge History of Inner Asia: The Chinggisid Age
 
 `di-cosmo-2009` — 24 claims
@@ -3394,6 +3427,28 @@ ordinary state, not an item to clear.
 - [ ] `polity/yaariba` — turning point 1698 Fort Jesus
 - [ ] `polity/yaariba` — ended by internal usurpation in 1744
 
+## Nehemia Levtzion, Ancient Ghana and Mali
+
+`levtzion-1973` — 17 claims
+
+- [ ] `chapter/mali/02-the-gold-they-did-not-own.mdx` — prose: "The gold they did not own"
+- [ ] `chapter/mali/03-the-other-end.mdx` — prose: "The other end of the gold"
+- [ ] `chapter/mali/04-mansa-musa.mdx` — prose: "The pilgrimage, and what it cost"
+- [ ] `chapter/mali/06-the-long-recession.mdx` — prose: "The long recession"
+- [ ] `polity/mali` — span starts 1235
+- [ ] `polity/mali` — span ends 1670
+- [ ] `polity/mali` — capital Niani from 1235
+- [ ] `polity/mali` — founder Sundiata Keita r. 1235-1255
+- [ ] `polity/mali` — peak Mansa Musa r. 1312-1337
+- [ ] `polity/mali` — last Mahmud IV r. 1590-1610
+- [ ] `polity/mali` — revenue basis coded mining + trade-toll
+- [ ] `polity/mali` — turning point 1433 Timbuktu lost
+- [ ] `polity/mali` — turning point 1545 Niani
+- [ ] `polity/mali` — descendant_scripts = 0
+- [ ] `polity/mali` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/mali` — successor_claims = 0
+- [ ] `polity/mali` — ended by fragmentation in 1670
+
 ## Suhayl Zakkar, The Emirate of Aleppo, 1004-1094
 
 `zakkar-1971` — 17 claims
@@ -3594,29 +3649,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/urartu` — religions_carried = 0
 - [ ] `polity/urartu` — successor_claims = 0
 - [ ] `polity/urartu` — ended by still contested in -590
-
-## John O. Hunwick, Timbuktu and the Songhay Empire
-
-`hunwick-1999` — 16 claims
-
-**Sole source** for `songhai` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/saadi/03-across-the-desert.mdx` — prose: "Across the desert, for the gold"
-- [ ] `chapter/songhai/01-timbuktu.mdx` — prose: "Askia Muhammad's pilgrimage"
-- [ ] `chapter/songhai/02-the-chronicles.mdx` — prose: "Written from Timbuktu"
-- [ ] `edge/abbasid->songhai` — claimed legitimacy of in 1496
-- [ ] `edge/mali->songhai` — absorbed remnants of in 1468
-- [ ] `edge/songhai->saadi` — conquered by in 1591
-- [ ] `polity/saadi` — turning point 1591 Tondibi
-- [ ] `polity/songhai` — span starts 1464
-- [ ] `polity/songhai` — span ends 1591
-- [ ] `polity/songhai` — capital Gao from 1464
-- [ ] `polity/songhai` — founder Sunni Ali r. 1464-1492
-- [ ] `polity/songhai` — peak Askia Muhammad I r. 1493-1528
-- [ ] `polity/songhai` — last Askia Ishaq II r. 1588-1591
-- [ ] `polity/songhai` — legitimation coded caliphal-investiture
-- [ ] `polity/songhai` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/songhai` — ended by conquest in 1591
 
 ## Paul Dresch, Tribes, Government, and History in Yemen
 
@@ -4000,24 +4032,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/golden-horde` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/golden-horde` — ended by fragmentation in 1502
 
-## Nehemia Levtzion, Ancient Ghana and Mali
-
-`levtzion-1973` — 11 claims
-
-**Sole source** for `mali` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/mali/01-the-other-end.mdx` — prose: "The other end of the gold"
-- [ ] `chapter/mali/02-mansa-musa.mdx` — prose: "The pilgrimage, and what it cost"
-- [ ] `polity/mali` — span starts 1235
-- [ ] `polity/mali` — span ends 1670
-- [ ] `polity/mali` — capital Niani from 1235
-- [ ] `polity/mali` — founder Sundiata Keita r. 1235-1255
-- [ ] `polity/mali` — peak Mansa Musa r. 1312-1337
-- [ ] `polity/mali` — last Mahmud IV r. 1590-1610
-- [ ] `polity/mali` — revenue basis coded mining + trade-toll
-- [ ] `polity/mali` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/mali` — ended by fragmentation in 1670
-
 ## Frederick W. Mote and Denis Twitchett (eds), The Cambridge History of China, Volume 7: The Ming Dynasty, 1368-1644, Part 1
 
 `mote-twitchett-1988` — 11 claims
@@ -4259,6 +4273,18 @@ ordinary state, not an item to clear.
 - [ ] `polity/hittite` — legitimation coded divine-sanction + descent
 - [ ] `polity/hittite` — descendant_scripts = 0
 - [ ] `polity/hittite` — religions_carried = 0
+
+## Michael A. Gomez, African Dominion: A New History of Empire in Early and Medieval West Africa
+
+`gomez-2018` — 7 claims
+
+- [ ] `chapter/mali/01-a-song-for-a-founding.mdx` — prose: "A song for a founding"
+- [ ] `chapter/mali/05-what-the-visitors-saw.mdx` — prose: "What the visitors saw"
+- [ ] `chapter/songhai/01-a-ribbon-along-a-river.mdx` — prose: "A ribbon along a river"
+- [ ] `polity/mali` — military basis coded conscript + slave-soldier
+- [ ] `polity/mali` — legitimation coded descent + divine-sanction
+- [ ] `polity/mali` — turning point 1235 Kirina (contested)
+- [ ] `polity/songhai` — military basis coded conscript + slave-soldier
 
 ## Robert Irwin, The Middle East in the Middle Ages: The Early Mamluk Sultanate 1250-1382
 

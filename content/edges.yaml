@@ -967,16 +967,6 @@ edges:
     source: hunwick-1999
     contested: false
 
-  - from: abbasid
-    to: songhai
-    type: claimed legitimacy of
-    year: 1496
-    note: "Askia Muhammad obtained recognition as caliph of the Sudan from the
-           shadow Abbasid caliph at Cairo, an office with no territory that was
-           still worth crossing the Sahara for."
-    source: hunwick-1999
-    contested: false
-
   # ---- The Ancient Near East ----
 
   # The one internal edge this region has ever had that stayed in it. The

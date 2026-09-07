@@ -3,8 +3,11 @@ region: africa
 
 name:
   latin: Songhai Empire
-  script: Songhay
-  script_lang: ses
+  # Was "Songhay" with a language code, which is the name of the language rather
+  # than a script. Songhai wrote in Arabic, in the Arabic script; the Mali record
+  # in this region has been corrected the same way and for the same reason.
+  script: null
+  script_lang: null
 
 span:
   start: { min: 1464, max: 1464, source: hunwick-1999 }
@@ -35,18 +38,82 @@ ended:
   source: hunwick-1999
 
 institutions:
-  military_basis: null
-  revenue_basis: null
+  # Provincial levies, men the askia owned, and a river. The distinctive
+  # component is the third: Songhai ran a fleet on the Niger under an officer the
+  # chronicles call the hi-koi, and the empire's shape — a long ribbon along a
+  # navigable river rather than a block of territory — follows from having one.
+  # Nothing else in this corpus is held together by an inland navy.
+  military_basis: { values: [conscript, slave-soldier], source: gomez-2018 }
+  # The trans-Saharan trade through Gao, Timbuktu and Jenne, tribute from the
+  # provinces, and — the part the chronicles are most specific about — royal
+  # estates worked by settled slaves, producing grain in quantity for the court,
+  # the army and the towns. The Ta'rikh al-Fattash describes estates with
+  # hundreds of workers and named obligations in sacks of rice.
+  revenue_basis: { values: [trade-toll, tribute], source: hunwick-1999 }
+  # Null, and the outcome is among the worst in this corpus. Askia Muhammad was
+  # deposed and blinded by his own son in 1528 after thirty-five years; that son
+  # was deposed by a brother in 1531; and the century contains something close to
+  # a coup a decade, including one that put the last askia on the throne months
+  # before Morocco arrived. No source states a rule, and coding rule 7 does not
+  # take a pattern for one.
   succession_rule: null
-  legitimation: { values: [caliphal-investiture], source: hunwick-1999 }
+  # Two. `caliphal-investiture` for what Askia Muhammad obtained at Cairo in 1497
+  # — the Abbasid caliph in Mamluk keeping, whose office this corpus carries as
+  # its own record, appointed him khalifa of the land of Takrur. And `conquest`,
+  # because he took the throne from Sunni Ali's son in a battle and the
+  # investiture is what he went and got afterwards.
+  legitimation: { values: [caliphal-investiture, conquest], source: hunwick-1999 }
+
+turning_points:
+  - year: 1468
+    type: siege
+    name: Timbuktu
+    changed: >-
+      Sunni Ali took the city from the Tuareg who had held it since 1433 and
+      treated its scholars as a hostile faction — killing some, driving others to
+      Walata, and earning the hatred of the chronicle tradition that supplies
+      almost everything this record knows. It made Songhai the power of the
+      middle Niger and it is the reason the two Timbuktu chronicles describe the
+      founder of the empire as a tyrant and an unbeliever.
+    source: hunwick-1999
+    contested: false
+  - year: 1493
+    type: revolt
+    name: Askia Muhammad
+    changed: >-
+      A general of Sunni Ali's overthrew his son, took the title askia, and
+      turned the state's public posture round completely: the scholars were
+      recalled and endowed, the law was applied, and the new dynasty presented
+      itself as the Islamic order Sunni Ali had refused to be. The chronicles
+      that damn the founder celebrate the usurper, and this record's `ended` and
+      `legitimation` fields both descend from the coup.
+    source: hunwick-1999
+    contested: false
+  - year: 1591
+    type: battle
+    name: Tondibi
+    changed: >-
+      A Moroccan force of a few thousand crossed the Sahara with firearms and
+      destroyed an army many times its size. This corpus's Saadi record carries
+      the same day from the winning side, and between them the two pages are the
+      clearest case on this site of gunpowder deciding an engagement outright.
+      The Songhai state ended; Morocco could not govern what it had taken, and
+      the middle Niger spent the following century under a garrison regime that
+      controlled the towns and nothing else.
+    source: hunwick-1999
+    contested: false
 
 measures:
-  reach_km2: null
+  reach_km2: { value: 800000, at: 1550, source: taagepera-1997 }
   peak_population: null
   influence:
-    descendant_scripts: { count: null, items: [], source: null }
+    descendant_scripts: { count: 0, items: [], source: hunwick-1999 }
     religions_carried:
       count: 1
       items: [Sunni Islam]
       source: hunwick-1999
-    successor_claims: { count: null, items: [], source: null }
+    # Zero. The Arma — the descendants of the Moroccan expeditionary force who
+    # governed the towns after 1591 — held authority as a garrison and made no
+    # claim on this polity's legitimacy, and the successor states on the middle
+    # Niger were built against it rather than out of it.
+    successor_claims: { count: 0, items: [], source: hunwick-1999 }
