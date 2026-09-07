@@ -256,7 +256,6 @@ content/polities/hittite/05-the-treaty.mdx
 content/polities/hittite/06-1180.mdx
 content/polities/hittite/07-the-thousand-gods.mdx
 content/polities/holy-roman-empire/01-none-of-the-three-words.mdx
-content/polities/holy-roman-empire/02-an-empire-with-no-revenue.mdx
 content/polities/holy-roman-empire/03-the-golden-bull.mdx
 content/polities/holy-roman-empire/04-a-framework-for-not-fighting.mdx
 content/polities/holy-roman-empire/05-1806.mdx
@@ -275,7 +274,6 @@ content/polities/indo-greek/03-two-faces.mdx
 content/polities/indo-greek/04-the-sakas.mdx
 content/polities/jafnid/03-the-name.mdx
 content/polities/jafnid/04-a-church.mdx
-content/polities/jafnid/05-what-rome-gave.mdx
 content/polities/jalayirid/02-shaykh-uways.mdx
 content/polities/jalayirid/03-the-book.mdx
 content/polities/jalayirid/04-ahmad.mdx
@@ -324,7 +322,6 @@ content/polities/kilwa/05-the-ocean.mdx
 content/polities/kilwa/06-1505.mdx
 content/polities/kush/01-the-land-of-the-bow.mdx
 content/polities/kush/02-meroe.mdx
-content/polities/kush/03-the-kandakes.mdx
 content/polities/kush/04-a-script-nobody-can-read.mdx
 content/polities/kush/05-350.mdx
 content/polities/kushan/01-kushan.mdx
@@ -339,7 +336,6 @@ content/polities/liao/05-qara-khitai.mdx
 content/polities/lombard/01-the-kingless-decade.mdx
 content/polities/lombard/02-rothari.mdx
 content/polities/lombard/03-774.mdx
-content/polities/macedonian/01-the-army-philip-built.mdx
 content/polities/macedonian/03-the-sources.mdx
 content/polities/macedonian/04-the-apparatus.mdx
 content/polities/macedonian/05-the-succession.mdx
@@ -347,16 +343,13 @@ content/polities/majapahit/01-the-mongols.mdx
 content/polities/majapahit/02-rice-and-sea.mdx
 content/polities/majapahit/03-the-archipelago.mdx
 content/polities/majapahit/05-the-paregreg.mdx
-content/polities/majapahit/06-1527.mdx
 content/polities/makassar/01-the-open-port.mdx
 content/polities/makassar/02-a-telescope.mdx
-content/polities/makassar/03-two-kingdoms-and-two-peoples.mdx
 content/polities/makassar/04-the-fortresses.mdx
 content/polities/makassar/05-1669.mdx
 content/polities/makuria/01-the-pupil-smiters.mdx
 content/polities/makuria/02-a-monetised-economy.mdx
 content/polities/makuria/03-the-fourth-case.mdx
-content/polities/makuria/04-old-nubian.mdx
 content/polities/makuria/05-1365.mdx
 content/polities/mali/01-a-song-for-a-founding.mdx
 content/polities/mali/02-the-gold-they-did-not-own.mdx
@@ -405,7 +398,6 @@ content/polities/ming/03-a-million-soldiers.mdx
 content/polities/ming/04-tumu.mdx
 content/polities/ming/05-the-silver-and-the-hill.mdx
 content/polities/mirdasid/04-the-ahdath.mdx
-content/polities/mitanni/04-an-empire-with-no-archive.mdx
 content/polities/mitanni/05-the-gods-in-the-treaty.mdx
 content/polities/mongol/02-westward.mdx
 content/polities/mughal/02-the-settlement-breaks.mdx
