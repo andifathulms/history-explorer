@@ -261,6 +261,34 @@ regions:
     group: south-asia
     thread: true
 
+  # New in this pass, and `thread: false` deliberately.
+  #
+  # There is already a sourced internal edge here — `angkor -> ayutthaya`,
+  # `conquered by`, 1431 — which means the flag could be flipped today and the
+  # build would accept it. The project's own instructions say not to: add a
+  # region with `thread: false`, add its polities one at a time, and flip the
+  # flag in a later pass once the edges are real. The rule exists because a
+  # thread added in the same breath as its region is a picture drawn before
+  # anybody has checked whether there is anything to draw. It is being followed
+  # here even though the edge is already sitting in edges.yaml.
+  #
+  # The region exists because Maritime Asia could not hold these. That region's
+  # blurb says its polities lived on controlling straits instead of territory,
+  # which is exactly what Angkor, Pagan and Dai Viet did not do — they were rice
+  # states on four river systems, and the largest of them never touched the sea
+  # route at all. Champa is the exception that shows the boundary is real: it
+  # sat on the coast between them, lived on the passing trade like a maritime
+  # polity, and was eaten by a land one.
+  - id: mainland-southeast-asia
+    name: Mainland Southeast Asia
+    blurb: >-
+      The rice states of the peninsula — the Irrawaddy, the Chao Phraya, the
+      Mekong and the Red River — which built on a scale nothing in the islands
+      matched and mostly ignored the sea route that made the islands rich, plus
+      the coast between them that did not.
+    group: south-asia
+    thread: false
+
   # `africa` was one region with twelve records and three internal edges, and
   # the argument for splitting it was written on this file for several passes
   # before it was acted on: the clusters had nothing to do with each other, no

@@ -1,0 +1,116 @@
+id: pagan
+region: mainland-southeast-asia
+
+name:
+  latin: The Kingdom of Pagan
+  script: null
+  script_lang: null
+
+# 1044 is Anawrahta's accession, from which the Burmese chronicles date the
+# kingdom. 1287 is the Mongol campaign and the killing of Narathihapate — but
+# see the `ended` block, which does not treat that as the cause.
+span:
+  start: { min: 1044, max: 1044, source: aung-thwin-1985 }
+  end: { min: 1287, max: 1287, source: aung-thwin-1985 }
+
+identity: >-
+  The first state to hold the Irrawaddy from the delta to the dry zone, and the
+  builder of some ten thousand brick temples on one plain, about two thousand of
+  which are still standing.
+
+capitals:
+  - { name: Pagan, from: 1044, source: aung-thwin-1985 }
+
+core_region: The Irrawaddy from the dry zone around Pagan down to the delta, with the Shan hills and Arakan at the margins
+
+rulers:
+  founder: { name: Anawrahta, reign: [1044, 1077], source: aung-thwin-1985 }
+  peak: { name: Narapatisithu, reign: [1174, 1211], source: aung-thwin-1985 }
+  last: { name: Narathihapate, reign: [1256, 1287], source: aung-thwin-1985 }
+
+scripts_and_languages:
+  administration: [Old Burmese, Mon, Pali]
+  writing_system: The Burmese script, adapted at Pagan from the Mon script
+
+# `fragmentation`, not `conquest`, and this is the record's central coding
+# decision. The Mongols invaded, Narathihapate fled and was killed by his own
+# son, and the kingdom broke into pieces held by Shan chiefs.
+#
+# The Yuan record exists on this site and is not in `by`. Aung-Thwin's argument
+# — which this record is coded from — is that Pagan was already insolvent when
+# the Mongols arrived, having given away its taxable land to the monasteries
+# over two centuries, and that the invasion finished a state that could no
+# longer field an army rather than defeating one that could. The Mongols did not
+# annex Burma and did not stay.
+#
+# It is a contested reading. The first chapter says so, and says what the other
+# one is.
+ended:
+  type: fragmentation
+  by: []
+  year: 1287
+  source: aung-thwin-1985
+
+institutions:
+  military_basis: { values: [conscript], source: aung-thwin-1985 }
+  # Land tax, and the whole record turns on what happened to it. The crown's
+  # revenue came from rice land worked by bonded cultivators in the irrigated dry
+  # zone, and merit-making transferred that land — permanently, and free of tax —
+  # to the monasteries.
+  revenue_basis: { values: [land-tax], source: aung-thwin-1985 }
+  succession_rule: null
+  # Descent, and Buddhist merit. A Pagan king's standing rested on what he had
+  # built and endowed, which is the mechanism that supplies this record's second
+  # chapter and its ending at once.
+  legitimation: { values: [descent, divine-sanction], source: aung-thwin-1985 }
+
+turning_points:
+  - year: 1057
+    type: siege
+    name: Thaton
+    changed: >-
+      The chronicles say Anawrahta took the Mon city of Thaton and carried its
+      king, its monks, its craftsmen and its Pali scriptures back to Pagan, and
+      that Theravada Buddhism and the Mon script came north with them.
+      Aung-Thwin has spent a career arguing that this did not happen as told and
+      that the Mon contribution was constructed by later chroniclers. The event
+      is marked contested for that reason, and it stays on the record because
+      whatever happened in 1057, Pagan writes in an adapted Mon script
+      afterwards and did not before.
+    source: aung-thwin-1985
+    contested: true
+  - year: 1287
+    type: battle
+    name: The Mongols
+    changed: >-
+      A Yuan army came down from Yunnan, Narathihapate abandoned the capital and
+      was killed by his son, and no single authority held the Irrawaddy again for
+      two and a half centuries.
+      The chronicles name him Tarokpyemin — the king who fled from the Chinese —
+      which is a judgement, and the judgement is the reading this record's
+      `ended` block declines to code.
+    source: aung-thwin-1985
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    # Zero, and the Burmese script is the near miss. It was adapted at Pagan from
+    # the Mon script, for a language of an entirely different family, and coding
+    # rule 3 counts that — on the record of the script that was adapted. The Mon
+    # have no page here.
+    #
+    # It is the fourth time on this site that a script claim has landed on a
+    # parent with no record: Jawi on Arabic at Melaka, Swahili's letters on
+    # Arabic at Kilwa, the Cham script's parent in southern India, and this.
+    descendant_scripts: { count: 0, items: [], source: aung-thwin-1985 }
+    # Zero, which will look wrong on a page about ten thousand Buddhist temples.
+    #
+    # Coding rule 2 counts propagation past a prior boundary, not adoption and
+    # not devotion. Pagan received Theravada Buddhism — from the Mon, from Sri
+    # Lanka, and by whichever route the argument about 1057 eventually settles —
+    # and made itself the largest single monument to it in the world. What it
+    # did not do is carry it anywhere it had not been.
+    religions_carried: { count: 0, items: [], source: aung-thwin-1985 }
+    successor_claims: { count: 0, items: [], source: aung-thwin-1985 }

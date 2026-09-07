@@ -1,0 +1,141 @@
+id: dai-viet
+region: mainland-southeast-asia
+
+name:
+  latin: Dai Viet under the Ly and the Tran
+  script: null
+  script_lang: null
+
+# 1054 is the year Ly Thanh Tong proclaimed the name Dai Viet. 1400 is Ho Quy
+# Ly's usurpation, which ended the Tran and brought on the Ming occupation.
+#
+# The name outlasted both dynasties and was in use until 1804, and this record
+# does not run that far. What it carries is the Ly and the Tran: one continuous
+# political order of three and a half centuries, with a beginning, an end, and
+# an archive. Extending the record to 1804 would put four dynasties, a
+# twenty-year Chinese occupation and a two-century partition inside one span,
+# which is a country rather than a polity.
+span:
+  start: { min: 1054, max: 1054, source: taylor-2013 }
+  end: { min: 1400, max: 1400, source: taylor-2013 }
+
+identity: >-
+  The Red River delta under two dynasties, which took a Chinese imperial
+  vocabulary for a state that had just stopped being a Chinese province, and
+  then beat the Mongols three times.
+
+capitals:
+  - { name: Thang Long, from: 1054, source: taylor-2013 }
+
+core_region: The Red River delta and the coast south of it, expanding toward Cham territory
+
+rulers:
+  founder: { name: Ly Thanh Tong, reign: [1054, 1072], source: taylor-2013 }
+  peak: { name: Tran Nhan Tong, reign: [1278, 1293], source: taylor-2013 }
+  last: { name: Tran Thieu De, reign: [1398, 1400], source: taylor-2013 }
+
+scripts_and_languages:
+  administration: [Literary Chinese, Vietnamese]
+  writing_system: Chinese characters, with chu Nom for Vietnamese
+
+# Ho Quy Ly had been the power behind the last Tran emperors, deposed the child
+# on the throne in 1400 and took it himself. `by` is empty because the Ho held
+# it for seven years and have no page here; the Ming then invaded on the stated
+# grounds of restoring the Tran, and stayed twenty years.
+ended:
+  type: internal usurpation
+  by: []
+  year: 1400
+  source: taylor-2013
+
+institutions:
+  # Conscription, and it is the reason for the Mongol chapter. Both dynasties
+  # kept registers of adult men and called them up by household; the Tran also
+  # kept princely armies raised on their own estates, which is what allowed the
+  # state to keep fighting after the capital had been abandoned twice.
+  military_basis: { values: [conscript], source: taylor-2013 }
+  revenue_basis: { values: [land-tax], source: taylor-2013 }
+  # `nomination`, and this is the most confident succession coding on any of
+  # this region's five records.
+  #
+  # The Tran instituted a practice their predecessors did not have: the reigning
+  # emperor abdicated in favour of his designated heir while still alive and
+  # healthy, took the title of senior emperor, and governed alongside the man he
+  # had installed. The heir was on the throne, publicly and with the previous
+  # holder standing next to him, before there was anything to fight over.
+  #
+  # Coding rule 7 asks for the rule rather than the outcome, and this is a rule:
+  # deliberately adopted, applied across most of the dynasty, and abandoned at
+  # the end — after which the throne was usurped inside two reigns.
+  succession_rule: { values: [nomination], source: taylor-2013 }
+  # Descent, and investiture — from the court in the north, repeatedly, as King
+  # of Annam.
+  #
+  # It is the transaction this corpus's Melaka record carries for the Ming
+  # reception of Parameswara in 1411, and the fit here is closer and much more
+  # uncomfortable. Melaka wanted the recognition. Dai Viet's rulers styled
+  # themselves emperor at home in exactly the vocabulary the northern court used
+  # for itself, and accepted the lesser title of king from it abroad, and did
+  # both continuously for three centuries including in the years they were at
+  # war with the grantor.
+  #
+  # Coding rule 8's test is a public assertion of authority derived from an
+  # external sovereign. This is that, asserted publicly in one direction and
+  # contradicted publicly in the other, and the record carries the value with
+  # this comment attached.
+  legitimation: { values: [descent, investiture], source: taylor-2013 }
+
+turning_points:
+  - year: 1075
+    type: battle
+    name: The pre-emptive war
+    changed: >-
+      Ly Thuong Kiet crossed the border and attacked Song garrison towns before
+      the invasion being prepared against him could start, then fell back and
+      held the line of the Nhu Nguyet river against the counter-attack.
+      A state that had been a province of the northern empire seventy years
+      earlier had just invaded it first.
+    source: taylor-2013
+    contested: false
+  - year: 1288
+    type: battle
+    name: Bach Dang
+    changed: >-
+      The third Mongol invasion in thirty years ended when Tran Hung Dao's forces
+      destroyed the Yuan fleet in the Bach Dang estuary, using iron-tipped stakes
+      planted in the riverbed and the tide.
+      This corpus's Yuan and Mongol records between them describe the largest
+      contiguous land empire in history. Three times it came south into the Red
+      River delta, three times it took the abandoned capital, and three times it
+      left. Japan and Java are the other places the Mongols failed and neither of
+      them shares a land border.
+    source: taylor-2013
+    contested: false
+  - year: 1400
+    type: succession-crisis
+    name: Ho Quy Ly
+    changed: >-
+      The regent deposed his grandson and took the throne, ending the Tran. The
+      Ming invaded seven years later announcing that they had come to restore the
+      dynasty he had displaced, and then annexed the country for twenty years
+      instead.
+    source: taylor-2013
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    # Zero, and chu Nom is the near miss — a script for Vietnamese built out of
+    # Chinese characters, some borrowed for sound, some for sense, and many
+    # invented by combining two.
+    #
+    # Coding rule 3 puts an adaptation on the record of the script that was
+    # adapted, and here the parent's owner is present: this corpus's Han and Tang
+    # records. It is the same reasoning that sent the Hittite claim to Old
+    # Babylonian and the Urartian to Neo-Assyrian, and it is the second time in
+    # this pass that the parent has turned out to be on the site — the other is
+    # the Thai script, which lands on Angkor.
+    descendant_scripts: { count: 0, items: [], source: taylor-2013 }
+    religions_carried: { count: 0, items: [], source: taylor-2013 }
+    successor_claims: { count: 0, items: [], source: taylor-2013 }

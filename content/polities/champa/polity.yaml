@@ -1,0 +1,118 @@
+id: champa
+region: mainland-southeast-asia
+
+name:
+  latin: Champa
+  script: null
+  script_lang: null
+
+# 192 is the conventional date for the founding of Lin-yi, the polity Chinese
+# records place on this coast and which later Cham history is continuous with.
+# 1471 is the Vietnamese capture of Vijaya, after which Cham polities survived
+# in the far south until 1832 without anything the sources treat as a state on
+# the earlier scale.
+#
+# Both ends are soft and the record says so on the page. Champa was not one
+# kingdom for thirteen centuries; it was a series of river-mouth principalities
+# along six hundred miles of coast that were sometimes under one authority and
+# more often were not.
+span:
+  start: { min: 192, max: 192, source: coedes-1968 }
+  end: { min: 1471, max: 1471, source: coedes-1968 }
+
+identity: >-
+  A string of Cham ports along the coast of what is now central Vietnam, the
+  oldest Indic polity in Southeast Asia and the only maritime power on this
+  site's mainland pages, absorbed over four centuries by the state to its north.
+
+capitals:
+  - { name: Indrapura, from: 875, source: coedes-1968 }
+  - { name: Vijaya, from: 1000, source: coedes-1968 }
+
+core_region: The coast and river mouths of central Vietnam, from the Hai Van pass south toward the Mekong delta
+
+rulers:
+  # Null. The founders of Lin-yi are known from Chinese notices that give a name
+  # and nothing to attach it to, and this site does not enter a name it cannot
+  # source to a reign. It is the same position the Aksum and Srivijaya records
+  # take, and for the same reason: a placeholder wearing the shape of a fact is
+  # worse than a gap.
+  founder: { name: null, source: null }
+  peak: { name: Che Bong Nga, reign: [1360, 1390], source: taylor-2013 }
+  last: { name: Tra Toan, reign: [1460, 1471], source: coedes-1968 }
+
+scripts_and_languages:
+  administration: [Cham, Sanskrit]
+  writing_system: The Cham script, derived from a South Indian Brahmi
+
+# Le Thanh Tong took Vijaya in 1471 and the Cham lands north of Cape Varella
+# were annexed. `by` is empty and the reason is a boundary of this site rather
+# than a gap in the sources: the polity that did it is the Le dynasty, and this
+# corpus's Vietnamese record stops in 1400, seventy-one years earlier.
+#
+# Writing the Le would close this field and would also give the region a second
+# internal edge. It is on the list.
+ended:
+  type: conquest
+  by: []
+  year: 1471
+  source: coedes-1968
+
+institutions:
+  # Null. The Cham fought constantly — against the Khmer, against the
+  # Vietnamese, and at sea — and what the sources describe is the campaigns
+  # rather than how the men were raised. Chinese and Vietnamese accounts are
+  # written by the other side, and the Cham inscriptions record temple
+  # foundations and victories, not levies.
+  military_basis: null
+  # Trade and raiding, which on this coast were the same skill applied in two
+  # directions. Cham ports supplied the China route with the aromatic woods and
+  # spices of their own hinterland, and Cham fleets took what passed when the
+  # supplying was not enough — including, in 1177, the capital of the largest
+  # kingdom in Southeast Asia.
+  #
+  # It is the only record in this region coded either way. The other four are
+  # `land-tax` or, at Ayutthaya, `trade-toll` and `monopoly` — and Ayutthaya
+  # collected its tolls at a river port sixty miles inland.
+  revenue_basis: { values: [trade-toll, plunder], source: coedes-1968 }
+  succession_rule: null
+  legitimation: { values: [descent, divine-sanction], source: coedes-1968 }
+
+turning_points:
+  - year: 1177
+    type: siege
+    name: Angkor
+    changed: >-
+      A Cham fleet went up the Mekong, crossed the Tonle Sap and sacked Angkor.
+      It is the event that most disturbs the ordinary picture of this region, in
+      which the great inland rice kingdoms are the powers and the coast is a
+      margin. Angkor's answer — Jayavarman VII's counter-offensive and a period
+      of Khmer occupation of Cham territory — is on that record.
+    source: coedes-1968
+    contested: false
+  - year: 1471
+    type: siege
+    name: Vijaya
+    changed: >-
+      Le Thanh Tong took the capital, and the Cham territory north of Cape
+      Varella became Vietnamese. What followed over the next three and a half
+      centuries is the process Vietnamese historiography calls the march to the
+      south, of which this is the decisive act.
+    source: coedes-1968
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    # Zero, on the same rule that gives the Pagan and Melaka records zero: an
+    # adaptation counts on the record of the script that was adapted, and the
+    # Cham script's parent is a South Indian Brahmi whose owner has no page.
+    #
+    # What the field cannot register is that the Cham inscriptions include the
+    # oldest text known in any Austronesian language — the Dong Yen Chau stone,
+    # from around the fourth century, a thousand years older than anything in
+    # Malay. This site has no measure for being first.
+    descendant_scripts: { count: 0, items: [], source: coedes-1968 }
+    religions_carried: { count: 0, items: [], source: coedes-1968 }
+    successor_claims: { count: 0, items: [], source: coedes-1968 }

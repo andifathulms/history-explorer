@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**3871 claims across 208 sources.**
+**3973 claims across 213 sources.**
 
 ## Where to start
 
@@ -1943,6 +1943,42 @@ ordinary state, not an item to clear.
 - [ ] `polity/makuria` — successor_claims = 0
 - [ ] `polity/makuria` — ended by gradual absorption in 1365
 
+## George Coedes, edited by Walter F. Vella, translated by Susan Brown Cowing, The Indianized States of Southeast Asia
+
+`coedes-1968` — 31 claims
+
+- [ ] `chapter/angkor/03-the-chams-in-the-city.mdx` — prose: "The Chams in the city"
+- [ ] `chapter/angkor/04-the-thai-script.mdx` — prose: "The Thai script"
+- [ ] `chapter/angkor/05-1431.mdx` — prose: "1431"
+- [ ] `chapter/champa/01-the-oldest-and-the-least-like-a-kingdom.mdx` — prose: "The oldest, and the least like a kingdom"
+- [ ] `chapter/champa/02-1177.mdx` — prose: "1177"
+- [ ] `chapter/champa/03-1471.mdx` — prose: "1471"
+- [ ] `edge/angkor->ayutthaya` — conquered by in 1431
+- [ ] `polity/angkor` — span starts 802
+- [ ] `polity/angkor` — span ends 1431
+- [ ] `polity/angkor` — capital Hariharalaya from 802
+- [ ] `polity/angkor` — founder Jayavarman II r. 802-835
+- [ ] `polity/angkor` — last Ponhea Yat r. 1432-1463
+- [ ] `polity/angkor` — legitimation coded divine-sanction + descent
+- [ ] `polity/angkor` — turning point 1177 The Chams in the city
+- [ ] `polity/angkor` — turning point 1431 Ayutthaya
+- [ ] `polity/angkor` — descendant_scripts = 1 (The Thai script)
+- [ ] `polity/angkor` — religions_carried = 0
+- [ ] `polity/angkor` — ended by conquest in 1431
+- [ ] `polity/champa` — span starts 192
+- [ ] `polity/champa` — span ends 1471
+- [ ] `polity/champa` — capital Indrapura from 875
+- [ ] `polity/champa` — capital Vijaya from 1000
+- [ ] `polity/champa` — last Tra Toan r. 1460-1471
+- [ ] `polity/champa` — revenue basis coded trade-toll + plunder
+- [ ] `polity/champa` — legitimation coded descent + divine-sanction
+- [ ] `polity/champa` — turning point 1177 Angkor
+- [ ] `polity/champa` — turning point 1471 Vijaya
+- [ ] `polity/champa` — descendant_scripts = 0
+- [ ] `polity/champa` — religions_carried = 0
+- [ ] `polity/champa` — successor_claims = 0
+- [ ] `polity/champa` — ended by conquest in 1471
+
 ## Ian Shaw (ed.), The Oxford History of Ancient Egypt
 
 `shaw-2000` — 31 claims
@@ -2587,6 +2623,36 @@ ordinary state, not an item to clear.
 - [ ] `polity/shaybanid` — turning point 1588 Abdullah Khan at Herat
 - [ ] `polity/shaybanid` — ended by dynastic replacement in 1599
 
+## K. W. Taylor, A History of the Vietnamese
+
+`taylor-2013` — 23 claims
+
+**Sole source** for `dai-viet` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/dai-viet/01-where-this-record-stops.mdx` — prose: "Where this record stops"
+- [ ] `chapter/dai-viet/02-the-vocabulary-of-the-north.mdx` — prose: "The vocabulary of the north"
+- [ ] `chapter/dai-viet/03-three-times.mdx` — prose: "Three times"
+- [ ] `chapter/dai-viet/04-abdication.mdx` — prose: "Abdication as a rule"
+- [ ] `chapter/dai-viet/05-1400.mdx` — prose: "1400"
+- [ ] `polity/champa` — peak Che Bong Nga r. 1360-1390
+- [ ] `polity/dai-viet` — span starts 1054
+- [ ] `polity/dai-viet` — span ends 1400
+- [ ] `polity/dai-viet` — capital Thang Long from 1054
+- [ ] `polity/dai-viet` — founder Ly Thanh Tong r. 1054-1072
+- [ ] `polity/dai-viet` — peak Tran Nhan Tong r. 1278-1293
+- [ ] `polity/dai-viet` — last Tran Thieu De r. 1398-1400
+- [ ] `polity/dai-viet` — military basis coded conscript
+- [ ] `polity/dai-viet` — revenue basis coded land-tax
+- [ ] `polity/dai-viet` — succession rule coded nomination
+- [ ] `polity/dai-viet` — legitimation coded descent + investiture
+- [ ] `polity/dai-viet` — turning point 1075 The pre-emptive war
+- [ ] `polity/dai-viet` — turning point 1288 Bach Dang
+- [ ] `polity/dai-viet` — turning point 1400 Ho Quy Ly
+- [ ] `polity/dai-viet` — descendant_scripts = 0
+- [ ] `polity/dai-viet` — religions_carried = 0
+- [ ] `polity/dai-viet` — successor_claims = 0
+- [ ] `polity/dai-viet` — ended by internal usurpation in 1400
+
 ## Derek A. Welsby, The Kingdom of Kush: The Napatan and Meroitic Empires
 
 `welsby-1996` — 23 claims
@@ -2821,6 +2887,35 @@ ordinary state, not an item to clear.
 - [ ] `polity/uqaylid` — peak Sharaf al-Dawla Muslim ibn Quraysh r. 1061-1085
 - [ ] `polity/uqaylid` — turning point 1085 The death of Muslim ibn Quraysh
 - [ ] `polity/uqaylid` — ended by conquest in 1096
+
+## Chris Baker and Pasuk Phongpaichit, A History of Ayutthaya: Siam in the Early Modern World
+
+`baker-pasuk-2017` — 22 claims
+
+**Sole source** for `ayutthaya` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/ayutthaya/01-what-was-carried-north.mdx` — prose: "What was carried north"
+- [ ] `chapter/ayutthaya/02-not-a-rice-kingdom.mdx` — prose: "Not a rice kingdom"
+- [ ] `chapter/ayutthaya/03-1688.mdx` — prose: "1688"
+- [ ] `chapter/ayutthaya/04-1767.mdx` — prose: "1767"
+- [ ] `polity/angkor` — successor_claims = 1 (Ayutthaya)
+- [ ] `polity/ayutthaya` — span starts 1351
+- [ ] `polity/ayutthaya` — span ends 1767
+- [ ] `polity/ayutthaya` — capital Ayutthaya from 1351
+- [ ] `polity/ayutthaya` — founder Ramathibodi I r. 1351-1369
+- [ ] `polity/ayutthaya` — peak Narai r. 1656-1688
+- [ ] `polity/ayutthaya` — last Ekkathat r. 1758-1767
+- [ ] `polity/ayutthaya` — military basis coded conscript
+- [ ] `polity/ayutthaya` — revenue basis coded trade-toll + monopoly
+- [ ] `polity/ayutthaya` — legitimation coded descent + divine-sanction
+- [ ] `polity/ayutthaya` — turning point 1431 Angkor
+- [ ] `polity/ayutthaya` — turning point 1569 The first fall
+- [ ] `polity/ayutthaya` — turning point 1688 The palace revolution
+- [ ] `polity/ayutthaya` — turning point 1767 The second fall
+- [ ] `polity/ayutthaya` — descendant_scripts = 0
+- [ ] `polity/ayutthaya` — religions_carried = 0
+- [ ] `polity/ayutthaya` — successor_claims = 1 (The Chakri dynasty at Bangkok)
+- [ ] `polity/ayutthaya` — ended by conquest in 1767
 
 ## R. E. Allen, The Attalid Kingdom: A Constitutional History
 
@@ -3544,6 +3639,32 @@ ordinary state, not an item to clear.
 - [ ] `polity/nasrid` — turning point 1340 Rio Salado
 - [ ] `polity/nasrid` — turning point 1482 The war and the civil war
 - [ ] `polity/nasrid` — ended by conquest in 1492
+
+## Michael Aung-Thwin, Pagan: The Origins of Modern Burma
+
+`aung-thwin-1985` — 19 claims
+
+**Sole source** for `pagan` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/pagan/01-ten-thousand-temples.mdx` — prose: "Ten thousand temples"
+- [ ] `chapter/pagan/02-merit.mdx` — prose: "Merit"
+- [ ] `chapter/pagan/03-1287.mdx` — prose: "1287"
+- [ ] `chapter/pagan/04-zero-religions.mdx` — prose: "Zero religions carried"
+- [ ] `polity/pagan` — span starts 1044
+- [ ] `polity/pagan` — span ends 1287
+- [ ] `polity/pagan` — capital Pagan from 1044
+- [ ] `polity/pagan` — founder Anawrahta r. 1044-1077
+- [ ] `polity/pagan` — peak Narapatisithu r. 1174-1211
+- [ ] `polity/pagan` — last Narathihapate r. 1256-1287
+- [ ] `polity/pagan` — military basis coded conscript
+- [ ] `polity/pagan` — revenue basis coded land-tax
+- [ ] `polity/pagan` — legitimation coded descent + divine-sanction
+- [ ] `polity/pagan` — turning point 1057 Thaton (contested)
+- [ ] `polity/pagan` — turning point 1287 The Mongols
+- [ ] `polity/pagan` — descendant_scripts = 0
+- [ ] `polity/pagan` — religions_carried = 0
+- [ ] `polity/pagan` — successor_claims = 0
+- [ ] `polity/pagan` — ended by fragmentation in 1287
 
 ## Greg Woolf, Rome: An Empire's Story
 
@@ -4605,6 +4726,18 @@ ordinary state, not an item to clear.
 - [ ] `polity/tang` — peak Emperor Xuanzong r. 712-756
 - [ ] `polity/tang` — last Emperor Ai r. 904-907
 - [ ] `polity/tang` — religions_carried = 1 (Mahayana Buddhism)
+
+## Charles Higham, The Civilization of Angkor
+
+`higham-2001` — 7 claims
+
+- [ ] `chapter/angkor/01-a-region-that-had-to-exist.mdx` — prose: "A region that had to exist"
+- [ ] `chapter/angkor/02-the-water.mdx` — prose: "The water"
+- [ ] `polity/angkor` — capital Yasodharapura from 889
+- [ ] `polity/angkor` — peak Jayavarman VII r. 1181-1218
+- [ ] `polity/angkor` — military basis coded conscript
+- [ ] `polity/angkor` — revenue basis coded land-tax
+- [ ] `polity/angkor` — turning point 1181 Jayavarman VII
 
 ## Mark Whittow, The Making of Orthodox Byzantium, 600-1025
 

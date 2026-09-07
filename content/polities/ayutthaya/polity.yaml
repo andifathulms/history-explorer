@@ -1,0 +1,139 @@
+id: ayutthaya
+region: mainland-southeast-asia
+
+name:
+  latin: The Kingdom of Ayutthaya
+  script: null
+  script_lang: null
+
+span:
+  start: { min: 1351, max: 1351, source: baker-pasuk-2017 }
+  end: { min: 1767, max: 1767, source: baker-pasuk-2017 }
+
+identity: >-
+  Four hundred years on an island in the Chao Phraya, which took Angkor's court
+  ritual and the Gulf's trade and was one of the largest cities in the world
+  when a Burmese army destroyed it in a single campaign.
+
+capitals:
+  - { name: Ayutthaya, from: 1351, source: baker-pasuk-2017 }
+
+core_region: The Chao Phraya basin, with tributaries north to Lan Na, east into Cambodia and south down the Malay peninsula
+
+rulers:
+  founder: { name: Ramathibodi I, reign: [1351, 1369], source: baker-pasuk-2017 }
+  peak: { name: Narai, reign: [1656, 1688], source: baker-pasuk-2017 }
+  last: { name: Ekkathat, reign: [1758, 1767], source: baker-pasuk-2017 }
+
+scripts_and_languages:
+  administration: [Thai, Pali, Khmer]
+  writing_system: The Thai script, adapted from Khmer
+
+# Konbaung Burma took the city in April 1767 after a fourteen-month siege,
+# burned it, and carried off the population. `by` is empty because the Konbaung
+# dynasty has no page here. The Siamese state re-formed within a year under
+# Taksin at Thonburi and then at Bangkok, which is why this is a `conquest` with
+# a surviving successor that this site also does not carry.
+ended:
+  type: conquest
+  by: []
+  year: 1767
+  source: baker-pasuk-2017
+
+institutions:
+  # Corvée. Every commoner man was registered to a master under the sakdina
+  # system, owed months of labour or service a year, and could be called up.
+  military_basis: { values: [conscript], source: baker-pasuk-2017 }
+  # This is the coding that most distinguishes this record, and it is Baker and
+  # Pasuk's central argument.
+  #
+  # Ayutthaya is conventionally described as a rice kingdom. Their account is
+  # that it was not: the Chao Phraya delta was not intensively farmed for export
+  # until the nineteenth century, and what the crown lived on was the trade —
+  # customs on the Gulf traffic, and royal monopolies on the forest and sea
+  # products the hinterland supplied to China, which the court bought cheap and
+  # sold through its own warehouses.
+  #
+  # So a land power on this site's mainland region carries the revenue coding of
+  # a port. Its neighbour Angkor, a hundred and fifty miles away and the polity
+  # whose court ritual it adopted wholesale, is coded `land-tax` and nothing
+  # else.
+  revenue_basis: { values: [trade-toll, monopoly], source: baker-pasuk-2017 }
+  # Null. Ayutthaya changed dynasty five times in four hundred years and most of
+  # the transitions were violent; Baker and Pasuk count the reigns that ended in
+  # a killing and the count is high. There is no stated rule to code, and the
+  # pattern is not one.
+  succession_rule: null
+  # Descent, and divine sanction in the Angkorian idiom — the brahmans, the
+  # consecration, the palace language, the king as a form of Indra and as a
+  # bodhisatta at once. It arrived from a city this kingdom sacked.
+  legitimation: { values: [descent, divine-sanction], source: baker-pasuk-2017 }
+
+turning_points:
+  - year: 1431
+    type: siege
+    name: Angkor
+    changed: >-
+      Ayutthaya took Angkor and brought back the brahmans, the ritual specialists
+      and the vocabulary of Khmer kingship. This record's founding period is the
+      only case on this site of a polity acquiring an entire court culture by
+      capturing the city that had it, and using it without apparent
+      embarrassment for the next four centuries.
+    source: baker-pasuk-2017
+    contested: false
+  - year: 1569
+    type: siege
+    name: The first fall
+    changed: >-
+      Bayinnaung's Burmese army took the city and Ayutthaya spent fifteen years
+      as a vassal before Naresuan restored its independence. It is the first of
+      the two Burmese captures, and the difference between them is that the city
+      survived this one intact.
+    source: baker-pasuk-2017
+    contested: false
+  - year: 1688
+    type: revolt
+    name: The palace revolution
+    changed: >-
+      Narai's court had gone further toward Europe than any other in the region —
+      a Greek adventurer as chief minister, French troops in two forts, embassies
+      to Versailles, and a French mission that believed the king was about to
+      convert. As Narai lay dying the commander of the elephant corps seized the
+      throne, executed the minister, expelled the French garrisons and took the
+      crown as Phetracha.
+      Siam then dealt with Europeans on its own terms for a hundred and fifty
+      years. It is worth setting beside this site's Melaka record, which was
+      taken by fifteen Portuguese ships, and its Aceh record, which spent thirty
+      years being ground down by the Dutch.
+    source: baker-pasuk-2017
+    contested: false
+  - year: 1767
+    type: siege
+    name: The second fall
+    changed: >-
+      Fourteen months of siege, then the city was burned and emptied. The
+      chronicles, the law codes, the literature and the archive largely went with
+      it, which is why the history of a state that lasted four centuries has to
+      be written from foreign accounts and from what survived elsewhere.
+    source: baker-pasuk-2017
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: baker-pasuk-2017 }
+    religions_carried: { count: 0, items: [], source: baker-pasuk-2017 }
+    # One. The Chakri dynasty founded at Bangkok in 1782 presented itself as this
+    # kingdom's direct continuation: it rebuilt the city plan on a new river
+    # bend, re-promulgated the law code, recovered what could be recovered of the
+    # literature, and named its capital in a formula that begins with
+    # Ayutthaya's own name.
+    #
+    # Rule 1 does not require the claiming polity to have a page here, and this
+    # one does not — the same position this site takes on the Melakan record,
+    # whose single claim is the sultanate of Johor.
+    successor_claims:
+      count: 1
+      items: [The Chakri dynasty at Bangkok]
+      source: baker-pasuk-2017

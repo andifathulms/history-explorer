@@ -1,0 +1,155 @@
+id: angkor
+region: mainland-southeast-asia
+
+name:
+  latin: The Khmer Empire
+  script: null
+  script_lang: null
+
+# 802 is the consecration of Jayavarman II on Mahendraparvata as universal
+# monarch, which is the event the later inscriptions treat as the founding and
+# which is known only from an inscription carved two hundred and fifty years
+# afterwards. 1431 is the Ayutthayan capture of the capital, after which the
+# court moved south and did not come back.
+span:
+  start: { min: 802, max: 802, source: coedes-1968 }
+  end: { min: 1431, max: 1431, source: coedes-1968 }
+
+identity: >-
+  Six centuries of Khmer kings on the Cambodian plain, who built the largest
+  religious structure on earth and a hydraulic capital that supported a
+  population no other pre-industrial city in the region came near.
+
+capitals:
+  - { name: Hariharalaya, from: 802, source: coedes-1968 }
+  - { name: Yasodharapura, from: 889, source: higham-2001 }
+
+core_region: The Cambodian plain around the Tonle Sap, with dependencies across the lower Mekong, the Khorat plateau and much of the Chao Phraya basin
+
+rulers:
+  founder: { name: Jayavarman II, reign: [802, 835], source: coedes-1968 }
+  peak: { name: Jayavarman VII, reign: [1181, 1218], source: higham-2001 }
+  last: { name: Ponhea Yat, reign: [1432, 1463], source: coedes-1968 }
+
+scripts_and_languages:
+  administration: [Old Khmer, Sanskrit]
+  writing_system: Khmer script, derived from a South Indian Brahmi
+
+# Ayutthaya took the city in 1431 and the Khmer court relocated south toward
+# Phnom Penh. This is a `conquest` and the conqueror has a page, which makes it
+# the rarer kind of ending on this site — and the ending is still not quite what
+# the type says, because what stopped was the capital rather than the dynasty.
+# Ponhea Yat reigned for thirty years after 1431, somewhere else.
+ended:
+  type: conquest
+  by: [ayutthaya]
+  year: 1431
+  source: coedes-1968
+
+institutions:
+  # Corvée. The inscriptions record populations assigned to temples and to the
+  # state in units of people, and the armies were raised the same way — through
+  # the officials who held the assignment rather than through payment or land
+  # grants held in return for service.
+  military_basis: { values: [conscript], source: higham-2001 }
+  # Rice, and the labour that grew it. The foundation inscriptions of the great
+  # temples list the villages, the fields and the numbers of people made over to
+  # support them, which is a tax system recorded from the receiving end.
+  #
+  # Not `tribute`, though the outer provinces sent it, and not `trade-toll`,
+  # which is the striking thing about this record. Angkor is the largest polity
+  # in either of this site's Southeast Asian regions and it is the one furthest
+  # from the sea route the other region is named for.
+  revenue_basis: { values: [land-tax], source: higham-2001 }
+  # Null, and this one needs the caution stated rather than left in the field.
+  #
+  # Angkorian succession was contested to a degree that is unusual even among
+  # the records here that are null for chaos: the throne was taken by force
+  # repeatedly, and several kings whose reigns the inscriptions record at length
+  # were not sons of their predecessors and said so.
+  #
+  # What they said instead is the reason for the caution. Khmer royal
+  # inscriptions establish a claimant's right through elaborate genealogies that
+  # frequently run through women, and some scholarship reads that as evidence of
+  # a matrilineal element in Khmer kingship. This site added `matrilineal` to
+  # its vocabulary for Ghana, Makuria and Asante, where a rule is stated, and
+  # the rulebook carries a caution against extending it to cases where descent
+  # through women is visible in the record and no rule is. This is that case,
+  # and the field stays null.
+  succession_rule: null
+  # The devaraja, and descent. What the term meant is argued over — a god-king,
+  # a royal god, a cult of the royal linga — and the argument does not change
+  # the coding, because every reading of it is a claim to sanction from a god.
+  legitimation: { values: [divine-sanction, descent], source: coedes-1968 }
+
+turning_points:
+  - year: 1177
+    type: siege
+    name: The Chams in the city
+    changed: >-
+      A Cham fleet came up the Mekong and across the Tonle Sap and sacked
+      Angkor, which is the single most surprising military event on this site's
+      mainland pages: the largest land power in Southeast Asia was taken from the
+      water by a coastal state a fraction of its size.
+      The reliefs Jayavarman VII later put on the Bayon show the naval battles
+      that followed, in detail, from the winning side.
+    source: coedes-1968
+    contested: false
+  - year: 1181
+    type: conversion
+    name: Jayavarman VII
+    changed: >-
+      Jayavarman VII took the throne after driving the Chams out and made
+      Mahayana Buddhism the state religion of a kingdom that had been Shaivite
+      for three hundred and eighty years. The building programme that followed —
+      the Bayon, Ta Prohm, Preah Khan, a hundred and two hospitals and a road
+      system with rest houses — is the largest in Khmer history and was carried
+      out in about thirty-five years.
+      It is also the last of it. No comparable stone construction was undertaken
+      at Angkor after his death.
+    source: higham-2001
+    contested: false
+  - year: 1431
+    type: siege
+    name: Ayutthaya
+    changed: >-
+      Ayutthaya took Angkor and the court moved south. What went with the
+      Ayutthayan army is on this record's `successor_claims`: the brahmans, the
+      court ritual, the royal titulature and the legal vocabulary of Angkorian
+      kingship, which the Siamese court used for the next four centuries and
+      which the Bangkok dynasty after it still used.
+    source: coedes-1968
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    # One. The Thai script devised at Sukhothai in the late thirteenth century
+    # is an adaptation of the Khmer script to a language of a different family
+    # with tones the Khmer script had no signs for, and the signs were invented.
+    # Coding rule 3 counts exactly that, on the record of the script that was
+    # adapted, which is this one.
+    #
+    # This is the first time on this site that the rule has landed the count on
+    # the parent's page and the parent has been present to receive it. The
+    # Hittite, Elamite and Urartian claims all landed on records of polities
+    # whose own scripts came from somewhere else on this site; the Cham, Burmese
+    # and Jawi claims all land on parents with no page at all.
+    descendant_scripts:
+      count: 1
+      items: [The Thai script]
+      source: coedes-1968
+    # Zero. Angkor was Shaivite, then Mahayana Buddhist, then Theravada, and it
+    # was on the receiving end each time. Coding rule 2 counts propagation past a
+    # boundary, and this record has none to show.
+    religions_carried: { count: 0, items: [], source: coedes-1968 }
+    # One, and it is the polity that destroyed it. Ayutthaya took Angkor's
+    # brahmans and its court ritual in 1431 and governed with Angkorian
+    # titulature and an Angkorian legal vocabulary for four centuries. Coding
+    # rule 1 counts a later polity asserting an earlier one's authority and does
+    # not require the two to have been friendly.
+    successor_claims:
+      count: 1
+      items: [Ayutthaya]
+      source: baker-pasuk-2017

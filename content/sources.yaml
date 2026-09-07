@@ -2494,6 +2494,68 @@ sources:
       Ternate and Tidore rather than by a single centre — is why this site's
       Ternate record is written the way it is.
 
+  - id: coedes-1968
+    kind: book
+    author: George Coedes, edited by Walter F. Vella, translated by Susan Brown Cowing
+    title: "The Indianized States of Southeast Asia"
+    publisher: University of Hawaii Press
+    year: 1968
+    note: >-
+      The translation of the third French edition of 1964. It is the work that
+      assembled the epigraphy of mainland and island Southeast Asia into one
+      narrative, and it is old enough that its organising idea — a set of states
+      formed by the reception of Indian models — has been argued with ever since.
+      This site uses it for chronology and for inscriptions, and takes the
+      framework as a position rather than as a background.
+
+  - id: higham-2001
+    kind: book
+    author: Charles Higham
+    title: "The Civilization of Angkor"
+    publisher: University of California Press
+    year: 2001
+    note: >-
+      Angkor from the archaeology rather than from the temple inscriptions
+      alone, by the excavator whose work on the pre-Angkorian Mekong is the
+      reason the Khmer state is no longer explained as an import.
+
+  - id: aung-thwin-1985
+    kind: book
+    author: Michael Aung-Thwin
+    title: "Pagan: The Origins of Modern Burma"
+    publisher: University of Hawaii Press
+    year: 1985
+    note: >-
+      Built on the Old Burmese donative inscriptions, and the source of the
+      argument this site's Pagan record is coded around: that the kingdom was
+      undone by the accumulation of tax-exempt monastic land rather than by the
+      Mongols. It is a contested reading and the record says so.
+
+  - id: baker-pasuk-2017
+    kind: book
+    author: Chris Baker and Pasuk Phongpaichit
+    title: "A History of Ayutthaya: Siam in the Early Modern World"
+    publisher: Cambridge University Press
+    year: 2017
+    note: >-
+      The first full-length history of Ayutthaya in English, and the reason this
+      site's Ayutthaya record carries the revenue coding of a port rather than of
+      a rice kingdom: its central argument is that Ayutthaya lived on trade and
+      on the products of forest and water, not on an agrarian surplus.
+
+  - id: taylor-2013
+    kind: book
+    author: K. W. Taylor
+    title: "A History of the Vietnamese"
+    publisher: Cambridge University Press
+    year: 2013
+    note: >-
+      Weighted toward the premodern centuries that most surveys of Vietnam
+      hurry through, and written against the national narrative of a single
+      continuous people resisting the north. This site's Dai Viet record follows
+      it in treating the Ly and the Tran as a specific thing with a beginning and
+      an end rather than as an early chapter of a country.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors
