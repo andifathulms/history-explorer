@@ -1067,6 +1067,45 @@ edges:
     source: ricklefs-2008
     contested: false
 
+  # Banten was launched by a Demak expedition in 1527 and was a kingdom of its
+  # own within a generation. `seceded from` is the only use of that type in this
+  # region.
+  - from: demak
+    to: banten
+    type: seceded from
+    year: 1552
+    note: >-
+      Hasanuddin, whose father had led the Demak expedition that took Banten and
+      Sunda Kelapa in 1527, ruled Banten as an independent sultanate from 1552
+      while Demak itself was collapsing into civil war.
+    source: ricklefs-2008
+    contested: false
+
+  - from: sunda
+    to: banten
+    type: conquered by
+    year: 1579
+    note: >-
+      Banten destroyed Pakuan Pajajaran and the last Indic kingdom on Java ended,
+      fifty-two years after Majapahit and at the other end of the island.
+    source: ricklefs-2008
+    contested: false
+
+  # The Majapahit record's last chapter has always said that the Hindu-Buddhist
+  # tradition of that court moved east to Bali and that the connection is claimed
+  # in Balinese genealogies. That was prose with no page to point at. It has one
+  # now, and the count on that record goes from one to two.
+  - from: majapahit
+    to: gelgel
+    type: claimed legitimacy of
+    year: 1527
+    note: >-
+      Priests, court literature and families of the Javanese aristocracy crossed
+      to Bali as Majapahit ended, and the Balinese dynasties trace their descent
+      and their ritual authority to that court.
+    source: coedes-1968
+    contested: true
+
   # ---- Mainland Southeast Asia ----
   #
   # The region's only internal edge so far, and its `thread` flag is still

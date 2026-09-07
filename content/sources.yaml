@@ -2597,6 +2597,55 @@ sources:
       the fall of Makassar from the side of the Sulawesi allies rather than from
       the company's. This site's Makassar record is coded from it and from Reid.
 
+  - id: saunders-1994
+    kind: book
+    author: Graham Saunders
+    title: "A History of Brunei"
+    publisher: Oxford University Press
+    year: 1994
+    note: >-
+      The only full-length history of the sultanate from its beginnings, and
+      careful about the difference between what the European sources record and
+      what the Brunei genealogies claim. This site's Brunei record follows it in
+      both.
+
+  - id: majul-1973
+    kind: book
+    author: Cesar Adib Majul
+    title: "Muslims in the Philippines"
+    publisher: University of the Philippines Press
+    year: 1973
+    note: >-
+      Published for the Asian Center at Quezon City, and the standard account of
+      the Sulu and Maguindanao sultanates written from Philippine Muslim sources
+      alongside the Spanish ones. This site's Sulu record is coded from it.
+
+  - id: hagerdal-2001
+    kind: book
+    author: Hans Hagerdal
+    title: "Hindu Rulers, Muslim Subjects: Lombok and Bali in the Seventeenth and Eighteenth Centuries"
+    publisher: White Lotus
+    year: 2001
+    note: >-
+      Balinese and Sasak material read against the Dutch company's records, on
+      the period when Bali's kingdoms projected power across the strait to
+      Lombok. This site's Gelgel record uses it for the seventeenth century and
+      Coedes and Ricklefs for what comes before.
+
+  - id: teeuw-wyatt-1970
+    kind: primary
+    author: Edited and translated by A. Teeuw and D. K. Wyatt
+    title: "Hikayat Patani: The Story of Patani"
+    container: Bibliotheca Indonesica 5, Koninklijk Instituut voor Taal-, Land- en Volkenkunde
+    publisher: Martinus Nijhoff
+    year: 1970
+    note: >-
+      The Patani court chronicle in Malay with an English translation and a
+      commentary that is longer than the text. It is the internal source for a
+      sultanate whose archive was destroyed twice, and like the Sejarah Melayu on
+      this site's Melaka record it was written by people arguing about a
+      succession while it was still open.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors

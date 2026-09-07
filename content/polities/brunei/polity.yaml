@@ -1,0 +1,125 @@
+id: brunei
+region: maritime-asia
+
+name:
+  latin: The Sultanate of Brunei
+  script: null
+  script_lang: null
+
+# 1368 is the accession of Muhammad Shah in the Brunei genealogies, the first
+# ruler the sultanate counts as its own. Saunders is careful that the early
+# king list is a claim rather than a chronology and this record follows him.
+#
+# 1888 is the protectorate treaty with Britain. Brunei exists today, and what
+# ended in 1888 is its disposal of its own external relations — the same test
+# this site applies to the two courts that came out of Mataram and declines to
+# give them records for.
+span:
+  start: { min: 1368, max: 1368, source: saunders-1994 }
+  end: { min: 1888, max: 1888, source: saunders-1994 }
+
+identity: >-
+  The sultanate on the north coast of Borneo that at its height claimed the whole
+  island's coastline and installed a Muslim ruler at Manila, and that spent its
+  last three centuries being given away in pieces.
+
+capitals:
+  - { name: Brunei, from: 1368, source: saunders-1994 }
+
+core_region: The north-west coast of Borneo, with claims at their widest around most of the island and north to the Sulu archipelago and Manila bay
+
+rulers:
+  founder: { name: Muhammad Shah, reign: [1368, 1402], source: saunders-1994 }
+  peak: { name: Bolkiah, reign: [1485, 1524], source: saunders-1994 }
+  last: { name: Hashim Jalilul Alam Aqamaddin, reign: [1885, 1906], source: saunders-1994 }
+
+scripts_and_languages:
+  administration: [Malay, Arabic]
+  writing_system: Jawi — the Arabic script adapted for Malay
+
+# Not a conquest. Brunei's territory was ceded piece by piece over fifty years —
+# Sarawak to James Brooke and his successors from 1841, North Borneo to a
+# chartered company from 1881 — and the 1888 treaty made what was left a British
+# protectorate. `by` is empty because none of those three has a page here, and
+# one of them was a private individual.
+ended:
+  type: gradual absorption
+  by: []
+  year: 1888
+  source: saunders-1994
+
+institutions:
+  # Fleets raised from the coastal peoples of Borneo and the islands. Nine of
+  # this region's twenty-two records are coded that way — Srivijaya, Melaka and
+  # Johor on the strait, Ternate and Tidore in Maluku, Majapahit and Demak on
+  # Java, Sulu in the north, and this one. The instrument is the commonest
+  # military coding in this region by a distance, and it has almost nothing to do
+  # with the polities that used it: it is what the sea peoples of the archipelago
+  # were, and states attached themselves to it rather than the reverse.
+  military_basis: { values: [client-levy], source: saunders-1994 }
+  revenue_basis: { values: [trade-toll, tribute], source: saunders-1994 }
+  succession_rule: null
+  legitimation: { values: [descent, divine-sanction], source: saunders-1994 }
+
+turning_points:
+  - year: 1521
+    # `reform` again, and again it is the wrong value used deliberately. Nothing
+    # was reformed in 1521. This site's Pasai record makes the same choice for
+    # Ibn Battuta's visit in 1345 and says why: the nine turning-point types can
+    # hold battles, treaties and conversions, and there is no value for "a
+    # description of what was already there" — which for a polity with a thin
+    # internal archive is often the most valuable dated evidence it has.
+    #
+    # Two records now carry that mismatch. It is worth recording as a pattern
+    # rather than as two accidents.
+    type: reform
+    name: What Pigafetta found
+    changed: >-
+      The survivors of Magellan's expedition reached Brunei from Tidore and
+      Pigafetta described a city of some twenty-five thousand households built
+      over the water, elephants in the ruler's train, brass artillery on the
+      walls, and porcelain and silk in quantity.
+      It is an outsider's account by a man who counted things, and it is the
+      earliest detailed description of the sultanate at anything like its height.
+    source: saunders-1994
+    contested: false
+  - year: 1578
+    type: siege
+    name: The Castilians
+    changed: >-
+      A Spanish force out of Manila took Brunei and held it for a matter of weeks
+      before disease drove it out. The quarrel was about Manila: Brunei had
+      installed a Muslim ruler there and married into the local house, and Spain
+      had taken the bay in 1571.
+      What Brunei lost in that decade was the northern half of its reach. What it
+      kept, it kept for another three hundred years.
+    source: saunders-1994
+    contested: false
+  - year: 1841
+    type: treaty
+    name: Sarawak
+    changed: >-
+      The sultan granted Sarawak to James Brooke, an English adventurer who had
+      helped suppress a rebellion there, and Brooke's family ruled it as a
+      private kingdom for a century. North Borneo followed to a chartered company
+      in 1881, and the protectorate treaty of 1888 covered what was left.
+      This site has a hundred and ninety-odd endings and this is the only one
+      delivered piecemeal, by treaty, to two companies and a private person.
+    source: saunders-1994
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: saunders-1994 }
+    # One. Brunei carried Islam along the coasts of Borneo and north to Manila
+    # bay, where its dynasty had installed a related Muslim ruler before the
+    # Spanish arrived in 1571 — which is the northern limit of the movement this
+    # region's other records trace, and the point at which it met a Christian one
+    # coming the other way across the Pacific.
+    religions_carried:
+      count: 1
+      items: [Sunni Islam]
+      source: saunders-1994
+    successor_claims: { count: 0, items: [], source: saunders-1994 }

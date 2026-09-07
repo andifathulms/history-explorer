@@ -1,0 +1,127 @@
+id: banten
+region: maritime-asia
+
+name:
+  latin: The Sultanate of Banten
+  script: null
+  script_lang: null
+
+# 1527 is the Demak expedition that took Banten and Sunda Kelapa; the sultanate
+# became a power in its own right under Hasanuddin from 1552. 1684 is the treaty
+# after the civil war, under which Banten became a Dutch company dependency —
+# the same kind of ending, and the same year's distance from a father-son war, as
+# this corpus's Ternate record.
+#
+# The sultanate continued as an office until Raffles abolished it in 1813. What
+# ended in 1684 is its disposal of its own external relations, which is the test
+# this site applies elsewhere.
+span:
+  start: { min: 1527, max: 1527, source: ricklefs-2008 }
+  end: { min: 1684, max: 1684, source: ricklefs-2008 }
+
+identity: >-
+  The pepper sultanate of western Java, which took the port that became Jakarta,
+  obtained the title of sultan from Mecca three years before Mataram did, and
+  was ended by its own crown prince.
+
+capitals:
+  - { name: Banten, from: 1527, source: ricklefs-2008 }
+
+core_region: Western Java and the Sunda strait, with the pepper districts of Lampung across the water in southern Sumatra
+
+rulers:
+  founder: { name: Hasanuddin, reign: [1552, 1570], source: ricklefs-2008 }
+  peak: { name: Sultan Ageng Tirtayasa, reign: [1651, 1683], source: ricklefs-2008 }
+  last: { name: Sultan Haji, reign: [1683, 1687], source: ricklefs-2008 }
+
+scripts_and_languages:
+  administration: [Javanese, Malay, Arabic]
+  writing_system: Jawi and Pegon — the Arabic script adapted for Malay and for Javanese
+
+# Ageng Tirtayasa's son took the throne with Dutch company help against his own
+# father and signed away the trade. `by` is empty because the company has no page
+# and because the person who ended this polity is on its own ruler list.
+ended:
+  type: gradual absorption
+  by: []
+  year: 1684
+  source: ricklefs-2008
+
+institutions:
+  military_basis: { values: [conscript], source: ricklefs-2008 }
+  # Pepper, taxed at the port and held as a crown monopoly over the Lampung
+  # districts across the strait. It is the same pair of values as this corpus's
+  # Aceh record on the other side of Sumatra, for the same commodity, and both
+  # were undone the same way — by a European company able to buy upcountry from
+  # the growers without calling at the capital.
+  revenue_basis: { values: [trade-toll, monopoly], source: ricklefs-2008 }
+  succession_rule: null
+  # Three values, and the third has a date that matters.
+  #
+  # In 1638 an embassy returned from Mecca with the title of sultan for Abu'l
+  # Mafakhir, granted by the Sharif. This corpus's Mataram record carries
+  # `investiture` for the identical grant, obtained in 1641 — three years later.
+  # Banten got there first, and neither record is diminished by it: what the two
+  # together show is that a Javanese ruler in the 1630s who wanted a title that
+  # was not Javanese knew exactly where to send for one.
+  legitimation: { values: [descent, divine-sanction, investiture], source: ricklefs-2008 }
+
+turning_points:
+  - year: 1527
+    type: siege
+    name: Sunda Kelapa
+    changed: >-
+      A Demak expedition took Banten and then took Sunda Kelapa, the port this
+      corpus's Sunda record had promised the Portuguese five years earlier, and
+      renamed it Jayakarta.
+      The Dutch company took that port in 1619, renamed it Batavia, and made it
+      the capital of everything it did in Asia. The name it has now is the one
+      given here in 1527.
+    source: ricklefs-2008
+    contested: false
+  - year: 1638
+    type: treaty
+    name: The title from Mecca
+    changed: >-
+      Abu'l Mafakhir's embassy returned from the Hijaz with the title of sultan,
+      granted by the Sharif of Mecca — the first Javanese ruler to hold it that
+      way, three years before Sultan Agung of Mataram obtained the same thing.
+      Both records on this site carry `investiture` for it, and this corpus
+      carries the Sharifate of Mecca, so both ends of both transactions are here.
+    source: ricklefs-2008
+    contested: false
+  - year: 1682
+    type: revolt
+    name: Father and son
+    changed: >-
+      Sultan Ageng Tirtayasa had spent thirty years keeping Banten open to every
+      trader who came and out of the Dutch company's system. His son and
+      designated heir, Sultan Haji, took the capital with company troops,
+      besieged his father in the interior, captured him, and signed a treaty in
+      1684 giving the company the pepper monopoly and the exclusion of every
+      other European.
+      Two records in this region were ended by a ruler's own family taking the
+      other side. This one, and this corpus's Johor record, where the nobles
+      killed the sultan. What is unusual here is that the man who did it is this
+      record's `last` ruler.
+    source: ricklefs-2008
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: ricklefs-2008 }
+    # One. Banten carried Islam into the Sundanese highlands of western Java
+    # after 1579 and across the strait into the Lampung pepper districts of
+    # southern Sumatra, both of which were outside it beforehand — the Sunda
+    # record on this site is the Hindu kingdom Banten destroyed.
+    #
+    # It is a distinct boundary from Demak's, which is the Javanese interior
+    # east of here, and coding rule 2 counts the crossing rather than the
+    # movement.
+    religions_carried:
+      count: 1
+      items: [Sunni Islam]
+      source: ricklefs-2008
+    successor_claims: { count: 0, items: [], source: ricklefs-2008 }

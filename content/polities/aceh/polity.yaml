@@ -64,8 +64,9 @@ institutions:
   # successors could not maintain once the Dutch began buying upcountry.
   revenue_basis: { values: [trade-toll, monopoly], source: reid-1988 }
   # Null. Between 1641 and 1699 Aceh was ruled by four women in succession, which
-  # is the longest run of reigning queens anywhere in this corpus, and it was not
-  # a rule of any kind. The orangkaya — the merchant aristocracy Iskandar Muda
+  # is the second-longest run of reigning queens in this corpus — the Patani
+  # record, written later, has four queens across a hundred and four years from
+  # 1584 — and it was not a rule of any kind. The orangkaya — the merchant aristocracy Iskandar Muda
   # had spent thirty years suppressing — elevated the first of them precisely
   # because a queen could be managed, and kept doing it for three more reigns
   # until the ulama produced a fatwa against female rule and it stopped.

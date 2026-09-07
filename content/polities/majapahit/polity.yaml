@@ -150,6 +150,6 @@ measures:
     # period. That remains excluded. What changed is that there turned out to be
     # a claim inside the period all along.
     successor_claims:
-      count: 1
-      items: [demak]
+      count: 2
+      items: [demak, gelgel]
       source: ricklefs-2008

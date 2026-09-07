@@ -44,8 +44,8 @@ scripts_and_languages:
 # The treaty of Giyanti divided the kingdom between Pakubuwana III at Surakarta
 # and Mangkubumi, who became Hamengkubuwana I at Yogyakarta. `ended.type` is
 # `fragmentation` and `by` is empty because the Dutch company that brokered it is
-# not a polity this site carries — the seventh by date of nine such empty fields
-# in this region, with only Tidore's, fifty years later, coming after it.
+# not a polity this site carries — the ninth by date of fourteen empty `by` fields
+# in this region, with Patani, Tidore, Brunei, Aceh and Sulu still to come.
 #
 # Both halves are still there. The two courts, their two dynasties and their two
 # versions of Javanese court culture have been running in parallel for two hundred

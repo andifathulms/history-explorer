@@ -1,0 +1,108 @@
+id: sunda
+region: maritime-asia
+
+name:
+  latin: The Sunda Kingdom
+  script: null
+  script_lang: null
+
+# 669 is the date the Sundanese chronicle tradition gives for the kingdom's
+# beginning, after Tarumanagara. It is a traditional date and this record says so
+# on the page: inscriptional attestation of the Sunda kings begins in the
+# eleventh century, and the capital this record names is fifteenth-century.
+#
+# 1579 is the destruction of Pakuan Pajajaran by Banten.
+span:
+  start: { min: 669, max: 669, source: coedes-1968 }
+  end: { min: 1579, max: 1579, source: ricklefs-2008 }
+
+identity: >-
+  The Hindu kingdom of western Java, which outlasted every other Indic polity on
+  the island by half a century and lost its port to the sultanate that grew out
+  of the one which took it.
+
+capitals:
+  - { name: Pakuan Pajajaran, from: 1482, source: coedes-1968 }
+
+core_region: Western Java, from the Citarum west, with ports on both the north coast and the Sunda strait
+
+rulers:
+  # Null, on the same principle as five other records here. The Sundanese
+  # chronicles name the founder; nothing attaches a datable reign to the name.
+  founder: { name: null, source: null }
+  peak: { name: Sri Baduga Maharaja, reign: [1482, 1521], source: coedes-1968 }
+  last: { name: null, source: null }
+
+scripts_and_languages:
+  administration: [Old Sundanese, Sanskrit]
+  writing_system: The Old Sundanese script, a Kawi derivative
+
+# Banten destroyed the inland capital in 1579 and the kingdom ended. `by` names
+# Banten and the edge is drawn, which makes this the eighth `ended.by` in this
+# region filled by another record on this site.
+ended:
+  type: conquest
+  by: [banten]
+  year: 1579
+  source: ricklefs-2008
+
+institutions:
+  military_basis: { values: [conscript], source: coedes-1968 }
+  # Rice inland and a port on the coast. Sunda Kelapa, at the mouth of the
+  # Ciliwung, was western Java's outlet for pepper and the reason two Muslim
+  # powers wanted this kingdom's coastline; the site of it is now central
+  # Jakarta.
+  revenue_basis: { values: [land-tax, trade-toll], source: ricklefs-2008 }
+  succession_rule: null
+  legitimation: { values: [descent, divine-sanction], source: coedes-1968 }
+
+turning_points:
+  - year: 1357
+    type: battle
+    name: Bubat
+    changed: >-
+      A Sundanese king brought his daughter to Java for a marriage to Hayam
+      Wuruk of Majapahit; Gajah Mada received the party as tribute-bearers rather
+      than as guests; the Sundanese refused the terms and were killed on the
+      field at Bubat with the princess.
+      This corpus's Majapahit record carries the same event as its own turning
+      point, from the other side, and observes that the memory of it kept Sunda
+      and Java apart. This is the record that memory belonged to.
+    source: coedes-1968
+    contested: false
+  - year: 1522
+    type: treaty
+    name: The padrao
+    changed: >-
+      Sunda signed a treaty with the Portuguese at Melaka permitting them a fort
+      at Sunda Kelapa, in exchange for help against the Muslim powers on the
+      north coast, and a stone pillar was set up to mark it.
+      It is the only case in this region of a polity inviting the Portuguese in
+      as protection against its neighbours — and the calculation was not
+      unreasonable, since this corpus's Demak record had taken most of the
+      Javanese coast by then. What it produced was the opposite: Demak sent a
+      force to take the port before the Portuguese could occupy it, and Sunda
+      lost its outlet five years after signing for a guarantee of it.
+    source: ricklefs-2008
+    contested: false
+  - year: 1579
+    type: siege
+    name: Pakuan
+    changed: >-
+      Banten destroyed the inland capital. The last Indic kingdom on Java ended
+      fifty-two years after Majapahit, on the other end of the island, and the
+      Sundanese highlands were Muslim within a generation.
+    source: ricklefs-2008
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    # Zero. The Old Sundanese script is a Kawi derivative and Kawi's own parent
+    # is a South Indian Brahmi with no page here, so the count goes two steps up
+    # a chain and falls off the end of it. It is the tenth time on this site an
+    # adaptation has done that.
+    descendant_scripts: { count: 0, items: [], source: coedes-1968 }
+    religions_carried: { count: 0, items: [], source: coedes-1968 }
+    successor_claims: { count: 0, items: [], source: ricklefs-2008 }

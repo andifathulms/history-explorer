@@ -1,0 +1,107 @@
+id: patani
+region: maritime-asia
+
+name:
+  latin: The Sultanate of Patani
+  script: null
+  script_lang: null
+
+# Around 1500 for the conversion of the ruler and the founding of the sultanate,
+# from the Hikayat Patani. 1786 is the Siamese capture of the town, after which
+# Patani was administered from Bangkok and finally partitioned in 1902.
+span:
+  start: { min: 1500, max: 1500, source: teeuw-wyatt-1970 }
+  end: { min: 1786, max: 1786, source: teeuw-wyatt-1970 }
+
+identity: >-
+  The Malay sultanate on the Gulf side of the peninsula, ruled by four queens in
+  succession for a hundred and four years, which held off Siam for two centuries
+  and was taken by it in the end.
+
+capitals:
+  - { name: Patani, from: 1500, source: teeuw-wyatt-1970 }
+
+core_region: The east coast of the Malay peninsula on the Gulf of Siam, with the inland districts behind it
+
+rulers:
+  founder: { name: Sultan Ismail Shah, reign: [1500, 1530], source: teeuw-wyatt-1970 }
+  peak: { name: Raja Hijau, reign: [1584, 1616], source: teeuw-wyatt-1970 }
+  # Null. The last rulers before 1786 are named in the chronicle tradition and
+  # this site has not opened a source that fixes a reign to the one in place when
+  # the Siamese army arrived.
+  last: { name: null, source: null }
+
+scripts_and_languages:
+  administration: [Malay, Arabic]
+  writing_system: Jawi — the Arabic script adapted for Malay
+
+# Siam took Patani in 1786 and deported much of the population north. `by` is
+# empty, and the polity that did it is one this site has an unusual relationship
+# with: it is the Chakri dynasty at Bangkok, which is the single item in the
+# `successor_claims` of this corpus's Ayutthaya record.
+#
+# So the conqueror here is named on this site — as a claim on another page,
+# nineteen years after the kingdom that made the claim possible was itself
+# destroyed — and cannot be named in this field, which takes ids.
+ended:
+  type: conquest
+  by: []
+  year: 1786
+  source: teeuw-wyatt-1970
+
+institutions:
+  military_basis: null
+  revenue_basis: { values: [trade-toll], source: reid-1988 }
+  # Null, and this record is the reason another one on this site had to be
+  # corrected. See the second chapter.
+  succession_rule: null
+  legitimation: { values: [descent, divine-sanction], source: teeuw-wyatt-1970 }
+
+turning_points:
+  - year: 1584
+    type: succession-crisis
+    name: Raja Hijau
+    changed: >-
+      The male line failed and the dead sultan's sister took the throne. She
+      reigned thirty-two years and was followed by her sister, then by a second
+      sister, then by a niece: Raja Hijau, Raja Biru, Raja Ungu and Raja Kuning,
+      from 1584 to 1688.
+      A hundred and four years. This corpus's Aceh record carried the claim that
+      its own four queens, from 1641 to 1699, were the longest run of reigning
+      women anywhere on this site, and that claim was written before this record
+      existed. It is corrected on that page.
+    source: teeuw-wyatt-1970
+    contested: false
+  - year: 1634
+    type: siege
+    name: The Siamese repulsed
+    changed: >-
+      Raja Ungu refused the Siamese overlordship her predecessors had accepted,
+      and a large Siamese army and fleet were beaten off. Patani had by then
+      spent a century as a nominal tributary of Ayutthaya that behaved as an
+      independent state, which is the ordinary condition of the peninsula's
+      sultanates and not a contradiction: tribute bought the appearance of
+      submission and the substance was negotiable until somebody tested it.
+    source: teeuw-wyatt-1970
+    contested: false
+  - year: 1786
+    type: siege
+    name: The end of the negotiation
+    changed: >-
+      Nineteen years after Ayutthaya was destroyed by Burma, the dynasty that
+      replaced it at Bangkok took Patani, deported a large part of the population
+      north, and carried off the town's great cannon.
+      What had been negotiable for two hundred and eighty years stopped being
+      negotiable, and the reason is on this corpus's Ayutthaya record: the state
+      that rebuilt itself after 1767 was a different and more centralising thing
+      than the one that fell.
+    source: teeuw-wyatt-1970
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: teeuw-wyatt-1970 }
+    religions_carried: { count: 0, items: [], source: teeuw-wyatt-1970 }
+    successor_claims: { count: 0, items: [], source: teeuw-wyatt-1970 }

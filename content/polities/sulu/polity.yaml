@@ -1,0 +1,116 @@
+id: sulu
+region: maritime-asia
+
+name:
+  latin: The Sultanate of Sulu
+  script: null
+  script_lang: null
+
+# 1405 is the traditional founding under Sayyid Abu Bakr. 1915 is the Carpenter
+# Agreement, under which the sultan renounced temporal sovereignty to the United
+# States and kept his religious authority.
+span:
+  start: { min: 1405, max: 1405, source: majul-1973 }
+  end: { min: 1915, max: 1915, source: majul-1973 }
+
+identity: >-
+  The sultanate of the archipelago between Borneo and Mindanao, which supplied
+  the China trade with sea produce taken by other people's fleets and outlasted
+  three empires before signing away its sovereignty to a fourth.
+
+capitals:
+  - { name: Jolo, from: 1405, source: majul-1973 }
+
+core_region: The Sulu archipelago, with dependencies in north-east Borneo, Palawan and the Zamboanga coast of Mindanao
+
+rulers:
+  founder: { name: Sayyid Abu Bakr, reign: [1405, 1450], source: majul-1973 }
+  peak: { name: Azim ud-Din I, reign: [1735, 1773], source: majul-1973 }
+  last: { name: Jamalul Kiram II, reign: [1894, 1936], source: majul-1973 }
+
+scripts_and_languages:
+  administration: [Tausug, Malay, Arabic]
+  writing_system: Jawi — the Arabic script adapted for Tausug and Malay
+
+# The 1915 agreement is a document rather than a defeat: the sultan gave up
+# temporal sovereignty and kept his position as head of the Muslim community.
+# `by` is empty because the United States is not in this corpus — the only record
+# on this site to end that way, and the last by date of fourteen empty `by` fields
+# in this region.
+ended:
+  type: gradual absorption
+  by: []
+  year: 1915
+  source: majul-1973
+
+institutions:
+  # The raiding fleets of the Iranun and the Balangingi, who were clients and
+  # allies of the sultanate rather than its subjects and who kept most of what
+  # they took. It is the same relation this corpus's Srivijaya, Melaka and Johor
+  # records carry with the orang laut, in a different sea and to a different
+  # purpose: those fleets made a strait safe, and these ones made a region
+  # dangerous on the sultanate's behalf.
+  military_basis: { values: [client-levy], source: majul-1973 }
+  # `trade-toll` and `plunder`, which is the coding this corpus's Champa record
+  # carries and which no other record on this site does. Two polities six
+  # thousand kilometres and a thousand years apart, on two coasts of the same
+  # trade route, both selling what their hinterland produced and taking what
+  # passed when selling was not enough.
+  #
+  # What Sulu sold was tripang, pearl shell, birds' nests and wax, all of it
+  # wanted in Canton. What it took was people, in numbers, from the coasts of
+  # the Philippines and eastern Indonesia — and the labour that gathered the sea
+  # produce was largely the same people.
+  revenue_basis: { values: [trade-toll, plunder], source: majul-1973 }
+  succession_rule: null
+  legitimation: { values: [descent, divine-sanction], source: majul-1973 }
+
+turning_points:
+  - year: 1578
+    type: siege
+    name: Jolo
+    changed: >-
+      A Spanish force out of Manila attacked Jolo in the same season it took
+      Brunei, and Sulu did not fall. The three centuries after are the longest
+      continuous resistance to Spanish rule anywhere in the Philippines: the
+      Spanish called it the Moro wars and never finished it.
+    source: majul-1973
+    contested: false
+  - year: 1848
+    type: battle
+    name: Balangingi
+    changed: >-
+      Spanish steamers destroyed the Balangingi settlements and deported the
+      survivors to Luzon. Steam is what ended the raiding economy — a fleet that
+      did not depend on the monsoon could reach the raiders' bases in the season
+      they were at home, which nothing before it could.
+      Sulu's revenue and its labour supply went at the same time and for the same
+      reason.
+    source: majul-1973
+    contested: false
+  - year: 1915
+    type: treaty
+    name: Carpenter
+    changed: >-
+      The sultan renounced temporal sovereignty to the United States and retained
+      his authority as head of the Muslim community of Sulu, which his successors
+      hold to this day.
+      It is the latest ending in this region by a decade and the only one on this
+      site delivered by the United States.
+    source: majul-1973
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: majul-1973 }
+    # One. Sulu carried Islam through the archipelago that bears its name and on
+    # to the Zamboanga coast and the interior of Mindanao, and the boundary it
+    # crossed is the one that still marks the southern Philippines. Brunei's
+    # count is for Borneo and Manila bay; this one is for the islands between.
+    religions_carried:
+      count: 1
+      items: [Sunni Islam]
+      source: majul-1973
+    successor_claims: { count: 0, items: [], source: majul-1973 }

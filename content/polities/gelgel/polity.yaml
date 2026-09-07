@@ -1,0 +1,112 @@
+id: gelgel
+region: maritime-asia
+
+name:
+  latin: The Kingdom of Gelgel
+  script: null
+  script_lang: null
+
+# 1343 is the Majapahit conquest of Bali and the installation of a governing
+# line under Sri Kresna Kepakisan, which the Balinese dynasties count as their
+# beginning. 1686 is the collapse of Gelgel's paramountcy and the move of the
+# court to Klungkung, after which Bali is nine kingdoms.
+span:
+  start: { min: 1343, max: 1343, source: coedes-1968 }
+  end: { min: 1686, max: 1686, source: hagerdal-2001 }
+
+identity: >-
+  Majapahit's afterlife: the Balinese kingdom that took in the Javanese priests,
+  literature and aristocracy when Java became Muslim, and kept a Hindu court
+  culture going for three and a half centuries.
+
+capitals:
+  - { name: Gelgel, from: 1343, source: coedes-1968 }
+
+core_region: Bali, with periods of control over Lombok, Sumbawa and the eastern tip of Java
+
+rulers:
+  founder: { name: Sri Kresna Kepakisan, reign: [1352, 1380], source: coedes-1968 }
+  peak: { name: Dalem Waturenggong, reign: [1460, 1550], source: coedes-1968 }
+  last: { name: Dalem Di Made, reign: [1642, 1665], source: hagerdal-2001 }
+
+scripts_and_languages:
+  administration: [Balinese, Old Javanese, Sanskrit]
+  writing_system: The Balinese script, a Kawi derivative
+
+# `fragmentation`, and it is the second in this region — the other being the
+# division of Mataram in 1755, which produced two courts. This one produced nine
+# kingdoms, none of which has a page here, and all of which claimed the Gelgel
+# line.
+ended:
+  type: fragmentation
+  by: []
+  year: 1686
+  source: hagerdal-2001
+
+institutions:
+  military_basis: { values: [conscript], source: hagerdal-2001 }
+  # Rice, and on Bali that is a more specific statement than it is anywhere else
+  # in this region. The subak — the irrigation associations that allocate water
+  # between terraces and are organised around water temples — are the unit the
+  # revenue was assessed on, and they are older than this kingdom and still there.
+  revenue_basis: { values: [land-tax], source: hagerdal-2001 }
+  succession_rule: null
+  legitimation: { values: [descent, divine-sanction], source: coedes-1968 }
+
+turning_points:
+  - year: 1527
+    type: catastrophe
+    name: What arrived from Java
+    changed: >-
+      As Majapahit ended, priests, court literature, dance, and families of the
+      Javanese aristocracy crossed to Bali. This corpus's Majapahit record's last
+      chapter describes it from the other side and calls it the part that did not
+      end — Old Javanese metres still being copied in the nineteenth century, the
+      gamelan and wayang continuing, and the Majapahit connection claimed in
+      Balinese genealogies.
+      Typed `catastrophe` because the vocabulary has no value for an inheritance,
+      and because from the point of view of the thing being inherited that is
+      what it was.
+    source: coedes-1968
+    contested: true
+  - year: 1686
+    type: succession-crisis
+    name: Nine kingdoms
+    changed: >-
+      Gelgel's paramountcy collapsed and the court moved to Klungkung, whose
+      ruler kept the title of Dewa Agung and the precedence and lost the power.
+      Bali spent the next two hundred years as nine kingdoms — Klungkung,
+      Badung, Mengwi, Gianyar, Bangli, Karangasem, Buleleng, Tabanan and
+      Jembrana — quarrelling with each other and, from Karangasem, holding Lombok
+      across the strait.
+    source: hagerdal-2001
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    # Zero. The Balinese script is a Kawi derivative, and Kawi's parent is a
+    # South Indian Brahmi with no page here — the same two-step chain off the end
+    # that the Sunda record describes.
+    descendant_scripts: { count: 0, items: [], source: coedes-1968 }
+    # One, and it is the only non-Muslim religion carried anywhere in this region
+    # apart from this record's own parent.
+    #
+    # Balinese kingdoms projected across the strait to Lombok from the
+    # seventeenth century and installed Balinese Hindu rule over a Sasak
+    # population that was Muslim — which is the subject of the book this record
+    # is coded from, and which is propagation past a boundary in the sense coding
+    # rule 2 asks for, whatever one thinks of how it was done.
+    religions_carried:
+      count: 1
+      items: [Balinese Hinduism]
+      source: hagerdal-2001
+    # One. Klungkung kept the Dewa Agung title and the ritual precedence of the
+    # Gelgel line, and the other eight kingdoms argued their own standing by
+    # descent from it. None of the nine has a page here, which rule 1 does not
+    # require.
+    successor_claims:
+      count: 1
+      items: [The house of Klungkung]
+      source: hagerdal-2001
