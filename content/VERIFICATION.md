@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**3508 claims across 188 sources.**
+**3535 claims across 189 sources.**
 
 ## Where to start
 
@@ -2042,6 +2042,41 @@ ordinary state, not an item to clear.
 - [ ] `polity/visigothic` — founder Wallia r. 415-418
 - [ ] `polity/visigothic` — turning point 507 Vouillé
 
+## Sima M. Ćirković, The Serbs
+*In The Peoples of Europe.*
+
+`cirkovic-2004` — 27 claims
+
+**Sole source** for `serbia` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/serbia/01-a-family-of-saints.mdx` — prose: "A family of saints"
+- [ ] `chapter/serbia/02-the-silver.mdx` — prose: "The silver"
+- [ ] `chapter/serbia/03-dusan.mdx` — prose: "Dušan"
+- [ ] `chapter/serbia/04-the-code.mdx` — prose: "The Code"
+- [ ] `chapter/serbia/05-the-maritsa.mdx` — prose: "The Maritsa"
+- [ ] `chapter/serbia/06-kosovo.mdx` — prose: "Kosovo"
+- [ ] `edge/serbia->ottoman` — conquered by in 1459
+- [ ] `polity/serbia` — span starts 1166
+- [ ] `polity/serbia` — span ends 1459
+- [ ] `polity/serbia` — capital Ras from 1166
+- [ ] `polity/serbia` — capital Skopje from 1346
+- [ ] `polity/serbia` — capital Smederevo from 1430
+- [ ] `polity/serbia` — founder Stefan Nemanja r. 1166-1196
+- [ ] `polity/serbia` — peak Stefan Dušan r. 1331-1355
+- [ ] `polity/serbia` — last Stefan Tomašević
+- [ ] `polity/serbia` — military basis coded land-grant + mercenary
+- [ ] `polity/serbia` — revenue basis coded mining + trade-toll + land-tax
+- [ ] `polity/serbia` — legitimation coded descent + divine-sanction + titulature
+- [ ] `polity/serbia` — turning point 1219 An autocephalous church
+- [ ] `polity/serbia` — turning point 1330 Velbazhd
+- [ ] `polity/serbia` — turning point 1346 Emperor of the Serbs and Greeks
+- [ ] `polity/serbia` — turning point 1371 The Maritsa
+- [ ] `polity/serbia` — turning point 1389 Kosovo (contested)
+- [ ] `polity/serbia` — descendant_scripts = 0
+- [ ] `polity/serbia` — religions_carried = 0
+- [ ] `polity/serbia` — successor_claims = 0
+- [ ] `polity/serbia` — ended by conquest in 1459
+
 ## Rein Taagepera, Size and Duration of Empires: Growth-Decline Curves, 600 B.C. to 600 A.D.
 *In Social Science History 3(3/4), 115-138.*
 
@@ -3501,7 +3536,7 @@ ordinary state, not an item to clear.
 - [ ] `chapter/latin-empire/01-a-renovatio.mdx` — prose: "A renovatio"
 - [ ] `chapter/latin-empire/02-fourteen-months.mdx` — prose: "Fourteen months"
 - [ ] `edge/byzantine->latin-empire` — conquered by in 1204
-- [ ] `polity/byzantine` — successor_claims = 3 (First Bulgarian Empire, Latin Empire of Constantinople, Ottoman Empire)
+- [ ] `polity/byzantine` — successor_claims = 4 (First Bulgarian Empire, Latin Empire of Constantinople, Serbia, Ottoman Empire)
 - [ ] `polity/latin-empire` — span starts 1204
 - [ ] `polity/latin-empire` — capital Constantinople from 1204
 - [ ] `polity/latin-empire` — founder Baldwin I r. 1204-1205

@@ -1,0 +1,183 @@
+id: serbia
+region: the-balkans
+
+name:
+  latin: Serbia
+  # Null, as on both Bulgarian records in this region and for the same reason:
+  # the site does not set a name in letters nobody on the project can proofread,
+  # and a modern Serbian Cyrillic form would be an anachronism dressed as
+  # evidence. Three records in this region with the field empty is a fact about
+  # the project rather than about the polities.
+  script: null
+  script_lang: null
+
+# One record and not two, which is the opposite of what this region does with
+# Bulgaria, so the reasoning is worth setting out. 1166 is Stefan Nemanja taking
+# the grand principality; 1371 is the death of Uroš V and the end of the
+# Nemanjić line; 1459 is the fall of Smederevo.
+#
+# Between 1371 and 1459 the state is Lazar's principality and then the
+# Despotate, under different families — but there is no interruption. Serbia was
+# governed continuously by Serbian rulers throughout, which is what the
+# `resumes` field requires the absence of, and the corpus's two-record pattern
+# would assert a dark age that did not happen. A change of dynasty inside a
+# continuous state is not the same object seen twice.
+span:
+  start: { min: 1166, max: 1166, source: cirkovic-2004 }
+  end: { min: 1459, max: 1459, source: cirkovic-2004 }
+
+identity: >-
+  The Balkan power that ran on German-worked silver, crowned an emperor of the
+  Serbs and Greeks in 1346, and is remembered for a battle whose outcome is not
+  agreed.
+
+capitals:
+  - { name: Ras, from: 1166, source: cirkovic-2004 }
+  - { name: Skopje, from: 1346, source: cirkovic-2004 }
+  - { name: Smederevo, from: 1430, source: cirkovic-2004 }
+
+core_region: The Morava and Ibar valleys, Kosovo and Metohija, and at its widest Macedonia, Albania, Epirus and Thessaly
+
+rulers:
+  founder: { name: Stefan Nemanja, reign: [1166, 1196], source: cirkovic-2004 }
+  peak: { name: Stefan Dušan, reign: [1331, 1355], source: cirkovic-2004 }
+  # Despot for a few months in 1459 before Smederevo fell, and afterwards king of
+  # Bosnia, where the Ottomans executed him in 1463. No reign array, because
+  # entering one would give a four-month tenure the same shape as Dušan's
+  # twenty-four years.
+  last: { name: Stefan Tomašević, source: cirkovic-2004 }
+
+scripts_and_languages:
+  administration: [Old Church Slavonic, Greek]
+  writing_system: Cyrillic
+
+ended:
+  type: conquest
+  by: [ottoman]
+  year: 1459
+  source: cirkovic-2004
+
+institutions:
+  # Grants of land and revenue against service — the baština held outright and
+  # the pronija held conditionally, the second taken over from the Byzantine
+  # administration Serbia was expanding into, and the same instrument this
+  # corpus's Nicaean and Second Bulgarian records carry under the same name.
+  # Beside it hired men: Dušan's decisive troops included a German heavy cavalry
+  # company under a captain named Palman, retained for two decades.
+  military_basis: { values: [land-grant, mercenary], source: cirkovic-2004 }
+  # `mining` first, which very few records on this site can say with this much
+  # confidence. From the 1240s Saxon miners — the Sasi, invited in from Hungary
+  # after the Mongol invasion, with their own law and their own courts — worked
+  # silver at Brskovo, Rudnik, Trepča, Srebrenica and above all Novo Brdo, and
+  # Serbian silver was a substantial share of European production in the
+  # fourteenth and fifteenth centuries. Beside it the customs of the routes to
+  # Ragusa and the Adriatic, and the ordinary land tax.
+  #
+  # Ćirković's account puts the mines at the centre of everything else on this
+  # page, which is why the institutions are coded from him: the expansion in the
+  # third chapter, the coinage, the Ragusan colonies and the ability to retain
+  # foreign cavalry for twenty years are all the same silver.
+  revenue_basis: { values: [mining, trade-toll, land-tax], source: cirkovic-2004 }
+  # Null, and this record is the seventh in the corpus where a written law code
+  # survives — and the third where it does not answer this question. Dušan's
+  # Code of 1349, enlarged in 1354, runs to something over two hundred articles
+  # on courts, church property, the status of the dependent peasantry, robbery,
+  # and the obligations of lords, and says nothing about who inherits the throne.
+  #
+  # The Hasmonean decree of 140 BC vested the offices in Simon and his sons and
+  # named no order. The Ur III and Old Babylonian records legislated a great deal
+  # and never this. Coding rule 7 takes the rule and there is not one, in a state
+  # whose most famous document is a law. The fourth chapter argues it.
+  succession_rule: null
+  # Three. Descent from Nemanja; `titulature` for the imperial style Dušan took
+  # in 1346, which this site counts as a claim on the Byzantine record; and
+  # `divine-sanction`, which here means something narrower than usual and is the
+  # first chapter's subject. The Nemanjići did not merely rule by God's favour.
+  # They produced canonised rulers — Nemanja himself as Saint Simeon, his son as
+  # Saint Sava, and most of the line after them — and the dynasty's holiness was
+  # the argument, maintained in the frescoes of the monasteries they endowed.
+  legitimation: { values: [descent, divine-sanction, titulature], source: cirkovic-2004 }
+
+turning_points:
+  - year: 1219
+    type: reform
+    name: An autocephalous church
+    changed: >-
+      Sava, Nemanja's youngest son and a monk on Athos, went to Nicaea and
+      obtained from the exiled patriarch an autocephalous Serbian archbishopric,
+      with himself as its first head. It gave the state a church answerable to
+      nobody in the region, forty years before there was a king with an imperial
+      title to go with it. The grant came from this corpus's Nicaean record —
+      a government in exile in Anatolia, disposing of the Balkans by charter
+      because it still had the authority to and very little else.
+    source: cirkovic-2004
+    contested: false
+  - year: 1330
+    type: battle
+    name: Velbazhd
+    changed: >-
+      A Serbian army destroyed a Bulgarian one and the tsar Michael Shishman was
+      killed in the field. This corpus's Second Bulgarian record carries the same
+      day as its own fourth turning point and describes the balance in the
+      Balkans passing to Serbia for the following thirty years. This is the page
+      of the power it passed to, and the reign that followed is what it was used
+      for.
+    source: cirkovic-2004
+    contested: false
+  - year: 1346
+    type: reform
+    name: Emperor of the Serbs and Greeks
+    changed: >-
+      Dušan raised the Serbian archbishopric to a patriarchate and had that
+      patriarch crown him emperor at Skopje on Easter Sunday. The title was
+      basileus and autokrator of the Serbs and the Greeks, and it is a claim on
+      the office in Constantinople rather than a translation of a Slavic one —
+      the same move Simeon of Bulgaria made in 913 and the Latin emperors made in
+      1204, and this site counts all three on the Byzantine record.
+      Constantinople excommunicated the Serbian church for it.
+    source: cirkovic-2004
+    contested: false
+  - year: 1371
+    type: battle
+    name: The Maritsa
+    changed: >-
+      An Ottoman force surprised and destroyed the army of the Serbian lords of
+      Macedonia in a night attack on the river. Two of the most powerful men in
+      the former empire were killed, southern Macedonia passed under Ottoman
+      suzerainty, and Uroš V — the last Nemanjić, who had held very little for
+      years — died two months later. The empire of 1346 dissolved into a set of
+      principalities, and everything on this record afterwards is one of them
+      trying to hold the rest together.
+    source: cirkovic-2004
+    contested: false
+  - year: 1389
+    type: battle
+    name: Kosovo
+    changed: >-
+      Prince Lazar met Murad I on the field of Kosovo on 15 June. Both rulers
+      died — Murad killed in his own camp, which is the only occasion on which a
+      reigning Ottoman sultan was killed by an enemy — and both armies were
+      wrecked. Contemporary reports in the west treated it as a Christian
+      victory for some months. What is not disputed is the result: Serbia had no
+      army left and Lazar's son became an Ottoman vassal within a year, while the
+      Ottomans replaced their sultan and their losses inside a season.
+    source: cirkovic-2004
+    contested: true
+
+measures:
+  # No cited figure. Taagepera's tabulations, which supply the extent of most
+  # empires on this site, do not carry the Serbian empire — a state that held
+  # from the Danube to the Gulf of Corinth for a decade and lasted long enough
+  # to be measured, and is not in the series.
+  reach_km2: null
+  peak_population: null
+  influence:
+    # Zero on all three, and the fifth chapter is about it. Serbian Cyrillic is
+    # Cyrillic; the church Serbia received it with is the one Bulgaria brought,
+    # and carrying an already-Orthodox neighbour a copy of it is maintenance,
+    # which rule 2 excludes; and nobody claimed this polity's legitimacy
+    # afterwards, because rule 1 puts modern claims out of scope and there were
+    # no medieval ones.
+    descendant_scripts: { count: 0, items: [], source: cirkovic-2004 }
+    religions_carried: { count: 0, items: [], source: cirkovic-2004 }
+    successor_claims: { count: 0, items: [], source: cirkovic-2004 }

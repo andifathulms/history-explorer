@@ -1760,6 +1760,18 @@ edges:
     source: fine-1983
     contested: false
 
+  - from: serbia
+    to: ottoman
+    type: conquered by
+    year: 1459
+    note: >-
+      Smederevo surrendered in June 1459, seventy years after Kosovo and six
+      years after Constantinople. Serbia had been an Ottoman vassal for most of
+      the interval and had supplied troops to Mehmed II's army at the siege of
+      the city.
+    source: cirkovic-2004
+    contested: false
+
   - from: second-bulgarian
     to: ottoman
     type: conquered by

@@ -2212,6 +2212,20 @@ sources:
       here for what went out of Bulgaria to Serbia and the Rus, which is the
       substance of the First Bulgarian record's one influence count.
 
+  - id: cirkovic-2004
+    kind: book
+    author: Sima M. Ćirković
+    title: The Serbs
+    container: The Peoples of Europe
+    publisher: Blackwell
+    year: 2004
+    note: >-
+      A one-volume history from the Slav settlement to the end of Yugoslavia,
+      deliberately weighted towards socio-economic development rather than
+      dynastic politics — which is why this site's Serbian institutions are
+      coded from it. Ćirković is the authority on the medieval Serbian mining
+      economy, and that is the field this record turns on.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors
