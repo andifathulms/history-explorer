@@ -1,0 +1,183 @@
+id: kush
+region: africa
+
+name:
+  latin: Kingdom of Kush
+  # Meroitic is in Unicode and this field is still null, which on most records
+  # of this site means the project cannot proofread the letters. Here it means
+  # something stronger: the script is deciphered and the language is not.
+  # Anybody can sound out a Meroitic inscription and nobody knows what it says.
+  # The fifth chapter is about that.
+  script: null
+  script_lang: null
+
+# Kushite kings are attested at Napata from the ninth century and the state that
+# took Egypt is in place by the eighth. 350 is a convention: Meroë stops
+# producing royal burials and inscriptions somewhere in the fourth century and
+# nobody can date the end more closely than that.
+span:
+  start: { min: -850, max: -750, source: welsby-1996 }
+  end: { min: 350, max: 350, source: welsby-1996 }
+
+identity: >-
+  The Nubian kingdom that ruled Egypt as its twenty-fifth dynasty, then went home
+  and lasted another thousand years writing in a script that can be read and not
+  understood.
+
+capitals:
+  - { name: Napata, from: -750, source: welsby-1996 }
+  - { name: Meroë, from: -300, source: welsby-1996 }
+
+core_region: The middle Nile from the first cataract to the Butana
+
+rulers:
+  founder: { name: Kashta, source: welsby-1996 }
+  peak: { name: Taharqa, reign: [-690, -664], source: welsby-1996 }
+  last: { name: null, source: null }
+
+scripts_and_languages:
+  administration: [Egyptian, Meroitic]
+  writing_system: Egyptian hieroglyphs, and from about 200 BC the Meroitic script
+
+# No conqueror, and the traditional one has been dismissed. The standard account
+# for a long time was that Ezana of Aksum destroyed Meroë around 350 — this
+# corpus carries Ezana on its Aksum record — and his campaign inscription against
+# the Noba was read as the proof. It is now generally thought that Meroë had
+# already collapsed and that Ezana fought the people who had moved into what was
+# left. There is no edge between the two records for that reason.
+ended:
+  type: fragmentation
+  by: []
+  year: 350
+  source: welsby-1996
+
+institutions:
+  # Archers, as on this corpus's Makurian record eight hundred years downstream
+  # and on the same river. Egypt's name for this country was Ta-Seti, the land
+  # of the bow, from the third millennium onward, and Kushite archers appear in
+  # Egyptian armies as auxiliaries for two thousand years before they arrived as
+  # a dynasty.
+  military_basis: { values: [conscript], source: welsby-1996 }
+  # Three, and the first is what Egypt wanted from this country for three
+  # thousand years. Nub is the Egyptian word for gold and Nubia is named from it;
+  # the desert east of the Nile here held the richest goldfields in the ancient
+  # Mediterranean world. Beside it the traffic north — ivory, ebony, incense,
+  # animals and people — and the tribute of the peoples the royal inscriptions
+  # record submitting.
+  #
+  # And iron, at Meroë, on a scale that left slag heaps still visible: the site
+  # was called the Birmingham of Africa by an early excavator, which overstates
+  # the industrial reading and understates how unusual the quantity is.
+  revenue_basis: { values: [mining, trade-toll, tribute], source: welsby-1996 }
+  # Null, and the reasons are two and either would be enough.
+  #
+  # The selection: Kushite kings appear to have been chosen from among the royal
+  # kin by the oracle of Amun at Napata, which the royal stelae describe as the
+  # god picking the successor out of a line of candidates. There is no value on
+  # this site's list for an oracle choosing a king. `election` means a body
+  # conferring the office and `nomination` means a predecessor designating, and a
+  # god's verdict delivered through priests is not obviously either.
+  #
+  # The eligibility: the throne passed frequently between brothers rather than
+  # from father to son, and descent appears to have been traced through the royal
+  # women — the king's mother held a formal position of the first importance, and
+  # from the second century BC there are ruling queens, the kandakes, whom the
+  # classical sources turned into a personal name, Candace.
+  #
+  # If that second reading is right, this is a fifth instance of the arrangement
+  # the Makurian record's third chapter calls a category the corpus can describe
+  # and cannot code — after Ghana, Mali, Elam and Makuria. Whether Kushite
+  # succession should be called matrilineal is argued about, so this record
+  # counts as a possible fifth rather than a certain one, and the sixth chapter
+  # sets out what is at stake in that.
+  succession_rule: null
+  # Amun of Napata, who chose the king, and the full five-name pharaonic
+  # titulature the Kushite kings took when they held Egypt and went on using for
+  # centuries after they had lost it. The second value is a claim on the Egyptian
+  # kingship and this corpus's Egypt New Kingdom record now counts it.
+  legitimation: { values: [divine-sanction, titulature], source: welsby-1996 }
+
+turning_points:
+  - year: -727
+    type: battle
+    name: Piye goes north
+    changed: >-
+      Piye came down the Nile from Napata, took Memphis and received the
+      submission of the delta princes, and had the whole campaign carved on a
+      granite stele at Gebel Barkal — one of the longest and most detailed
+      royal narratives from anywhere in the ancient Nile valley, and unusually
+      concerned with the king's treatment of horses, which he inspects and is
+      angry to find starved.
+      A Nubian dynasty ruled Egypt for the next sixty years. It is the only
+      occasion in three thousand years on which the direction of conquest on
+      this river ran north.
+    source: welsby-1996
+    contested: false
+  - year: -671
+    type: battle
+    name: The Assyrians
+    changed: >-
+      Esarhaddon took Memphis and Ashurbanipal sacked Thebes in 663, and the
+      twenty-fifth dynasty withdrew to Nubia and never came back. This corpus's
+      Neo-Assyrian record carries Esarhaddon taking Egypt in 671 as the first
+      time any Mesopotamian power had done it, and does not say who was holding
+      it. This is that record's other half.
+    source: welsby-1996
+    contested: false
+  - year: -300
+    type: capital-move
+    name: Meroë
+    changed: >-
+      The royal burials move from the Napata region to Meroë, three hundred
+      kilometres upstream in the Butana — better rainfall, iron ore, and further
+      from Egypt. What follows is the period in which the kingdom stops writing
+      in Egyptian, develops its own script, and becomes something that is not a
+      provincial version of anywhere.
+    source: welsby-1996
+    contested: true
+  - year: -23
+    type: battle
+    name: Rome on the Nile
+    changed: >-
+      A Kushite force raided the Roman frontier at Aswan; Petronius came south,
+      sacked Napata, and withdrew; a negotiated peace followed on terms
+      favourable enough to Kush that Strabo is embarrassed by them, and the
+      frontier stayed quiet for three centuries.
+      The Kushites had taken a bronze head of Augustus from a frontier statue,
+      and they buried it under the steps of a temple at Meroë so that everyone
+      entering would walk on the emperor's face. It was dug up in 1910 and is in
+      the British Museum.
+    source: welsby-1996
+    contested: false
+
+measures:
+  # Null. Taagepera's tabulations do not carry this kingdom, and a state that
+  # held Egypt and Nubia together for sixty years would plainly have qualified.
+  # As on the Aksum record in this region, the absence is the tabulation's rather
+  # than the polity's.
+  reach_km2: null
+  peak_population: null
+  influence:
+    # One, and the chain it belongs to runs the length of this river. Meroitic
+    # was devised around 200 BC out of Egyptian signs — hieroglyphic forms for
+    # monuments and a cursive derived from demotic for everything else — reduced
+    # to twenty-three characters and applied to a language that is not Egyptian
+    # and has no established relatives.
+    #
+    # Coding rule 3 puts an adaptation on the record of the polity whose system
+    # was adapted, and this corpus has sent four such claims to somebody else's
+    # page for exactly that reason. This is not one of them, on the same
+    # principle as the Aksumite and Makurian counts in this region: the parent
+    # is pharaonic Egyptian, no polity in this corpus held it at the relevant
+    # date, and what was done here was not a borrowing but a reduction of a
+    # thousand-sign system to an alphabet for a different language.
+    #
+    # Three of the letters were later taken into Old Nubian, which this corpus's
+    # Makuria record counts. Egyptian to Meroitic to Old Nubian, on one river,
+    # over two and a half thousand years, and this site now carries all three.
+    descendant_scripts:
+      count: 1
+      items: [Meroitic]
+      source: welsby-1996
+    religions_carried: { count: 0, items: [], source: welsby-1996 }
+    successor_claims: { count: 0, items: [], source: welsby-1996 }

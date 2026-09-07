@@ -261,11 +261,12 @@ regions:
     group: south-asia
     thread: true
 
-  # Seven records, three internal edges, and four clusters that have nothing to
-  # do with each other: the Horn (`aksum -> ethiopia`), the Niger (`ghana ->
-  # mali -> songhai`), the middle Nile (Makuria) and the Indian Ocean coast
-  # (Kilwa). No edge crosses between them and none can — Aksum and Mali have
-  # nothing to do with each other and never will.
+  # Nine records, three internal edges, and four clusters that have nothing to do
+  # with each other: the Horn (`aksum -> ethiopia`), the Niger (`ghana -> mali ->
+  # songhai`), the middle Nile (Kush and Makuria, three centuries apart and not
+  # joined) and the Indian Ocean coast (Kilwa), with Kanem-Bornu at Lake Chad
+  # belonging to none of them. No edge crosses between the clusters and none can
+  # — Aksum and Mali have nothing to do with each other and never will.
   #
   # That is an argument for splitting, and the split now costs nothing: both
   # sequences keep their edges and both would carry a thread. It is also no
@@ -280,11 +281,11 @@ regions:
   - id: africa
     name: Africa
     blurb: >-
-      The Horn, the middle Nile, the Niger and the Indian Ocean coast: states
-      that lived on controlling where other people's goods crossed, on four
-      stretches of ground with nothing to do with each other — and seven records
-      for a continent, which is a fact about this project rather than about
-      Africa.
+      The Horn, the middle Nile, the Niger, Lake Chad and the Indian Ocean
+      coast: states that lived on controlling where other people's goods
+      crossed, on stretches of ground with nothing to do with each other — and
+      nine records for a continent, which is a fact about this project rather
+      than about Africa.
     group: africa-maghreb
     thread: true
 

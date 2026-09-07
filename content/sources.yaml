@@ -2342,6 +2342,30 @@ sources:
       monetised economy with exchange rates connected to the wider world, in a
       kingdom whose external reputation rests entirely on archery and a treaty.
 
+  - id: welsby-1996
+    kind: book
+    author: Derek A. Welsby
+    title: "The Kingdom of Kush: The Napatan and Meroitic Empires"
+    publisher: British Museum Press
+    year: 1996
+    note: >-
+      The companion to welsby-2002 and by the same excavator, covering the
+      thousand years upstream of it. Built from the archaeology as much as from
+      the Egyptian and classical notices, which matters for a kingdom whose own
+      language nobody can read.
+
+  - id: levtzion-pouwels-2000
+    kind: book
+    author: Nehemia Levtzion and Randall L. Pouwels (eds)
+    title: The History of Islam in Africa
+    publisher: Ohio University Press
+    year: 2000
+    note: >-
+      Two dozen specialists on Islam in Africa region by region, and the only
+      general work in this bibliography that treats Kanem-Bornu at length. This
+      site's Kanem-Bornu institutions are coded from it, alongside the early
+      Arabic notices in levtzion-hopkins-1981.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors

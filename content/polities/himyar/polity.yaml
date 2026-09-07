@@ -89,4 +89,15 @@ measures:
   influence:
     descendant_scripts: { count: null, items: [], source: null }
     religions_carried: { count: null, items: [], source: null }
-    successor_claims: { count: null, items: [], source: null }
+    # One, and it is the longest-range claim in this corpus. The Sayfawa dynasty
+    # of Kanem-Bornu, at Lake Chad, took its name and its pedigree from Sayf ibn
+    # Dhi Yazan — the Himyarite noble whose Persian expedition this record's
+    # sixth chapter describes — and held the throne on it for something close to
+    # eight hundred years, five thousand kilometres away.
+    #
+    # Rule 1 counts descent invoked publicly as the ground of a right to rule and
+    # does not filter on whether the genealogy is true. This one is not.
+    successor_claims:
+      count: 1
+      items: [Kanem-Bornu]
+      source: levtzion-pouwels-2000

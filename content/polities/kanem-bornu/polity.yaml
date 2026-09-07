@@ -1,0 +1,167 @@
+id: kanem-bornu
+region: africa
+
+name:
+  latin: Kanem-Bornu
+  script: null
+  script_lang: null
+
+# One record for two names and one state. Kanem is the country east and north of
+# Lake Chad, Bornu the country west and south of it, and the move between them
+# around 1380 was a retreat under pressure rather than an interruption — the same
+# dynasty, the same court, the same chronicle, carried across a lake. The
+# Serbian record's span comment sets out the same reasoning for a change of
+# dynasty inside a continuous state; this is the mirror case, a continuous
+# dynasty inside a change of country.
+#
+# The start is a range because the Sayfawa king list runs back further than
+# anything datable supports; al-Muhallabi describes a kingdom here in the tenth
+# century, which is the first outside notice.
+span:
+  start: { min: 700, max: 950, source: levtzion-hopkins-1981 }
+  end: { min: 1893, max: 1893, source: levtzion-pouwels-2000 }
+
+identity: >-
+  A thousand years at Lake Chad under one dynasty, which claimed descent from a
+  Yemeni prince and held the southern end of the shortest road across the
+  Sahara.
+
+capitals:
+  - { name: Njimi, from: 1100, source: levtzion-hopkins-1981 }
+  - { name: Ngazargamu, from: 1470, source: levtzion-pouwels-2000 }
+  - { name: Kukawa, from: 1814, source: levtzion-pouwels-2000 }
+
+core_region: The Lake Chad basin, with the Fezzan road north to the Mediterranean
+
+rulers:
+  founder: { name: Humai, source: levtzion-pouwels-2000 }
+  peak: { name: Idris Alooma, reign: [1564, 1596], source: levtzion-pouwels-2000 }
+  last: { name: Hashim, source: levtzion-pouwels-2000 }
+
+scripts_and_languages:
+  administration: [Arabic, Kanuri]
+  writing_system: Arabic
+
+# Rabih az-Zubayr, a Sudanese warlord with a firearms-equipped army, took
+# Ngazargamu's successor state in 1893 and killed the ruler; the French killed
+# Rabih in 1900 and partitioned the country between three colonial empires.
+# `by` is empty because neither Rabih nor those empires are in this corpus, which
+# is the fifth African record here to end that way.
+ended:
+  type: conquest
+  by: []
+  year: 1893
+  source: levtzion-pouwels-2000
+
+institutions:
+  # Cavalry and slaves, and the first of those is the reason the second existed.
+  # Bornu's army was heavy horse — the horses imported across the Sahara, the
+  # riders in quilted cotton armour and mail, the animals armoured too — and a
+  # horse cost slaves. The raiding south into the non-Muslim country paid for the
+  # cavalry that did the raiding, and Idris Alooma added Turkish musketeers hired
+  # through Tripoli and a corps of slave gunmen trained by them.
+  military_basis: { values: [slave-soldier, conscript], source: levtzion-pouwels-2000 }
+  # The Fezzan road, which is the shortest crossing of the Sahara and ran from
+  # Lake Chad to Tripoli, and the tribute of the tributary country around the
+  # lake. Salt came south from Bilma, natron from the lake shore went north, and
+  # slaves went north in numbers that make this one of the two largest suppliers
+  # of the trans-Saharan traffic for most of a millennium.
+  revenue_basis: { values: [trade-toll, tribute], source: levtzion-pouwels-2000 }
+  succession_rule: null
+  # Descent, and the claim reaches further than any other in this corpus. The
+  # Sayfawa took their name and their pedigree from Sayf ibn Dhi Yazan, the
+  # Himyarite noble who — in the Arabic accounts this site's Himyar record
+  # summarises — went to Constantinople for help against the Ethiopians, was
+  # refused, went to Ctesiphon instead, and came back with a Persian force.
+  #
+  # A dynasty at Lake Chad claiming a sixth-century Yemeni prince five thousand
+  # kilometres away is the same manoeuvre as the Kilwa sultans claiming Shiraz
+  # and the Malian mansas claiming Bilal: an African ruling house acquiring a
+  # genealogy that made it legible to the Islamic world it traded with. This
+  # corpus's Himyar record now counts it.
+  legitimation: { values: [descent, divine-sanction], source: levtzion-pouwels-2000 }
+
+turning_points:
+  - year: 1075
+    type: conversion
+    name: Humai
+    changed: >-
+      The mai adopted Islam and the Sayfawa dynasty begins with him in the king
+      list. What followed was a state that sent students and pilgrims to Cairo,
+      maintained a hostel there for Kanemi travellers from the thirteenth
+      century, and corresponded with the Almohads and later with the Ottomans —
+      a Lake Chad kingdom operating inside the Islamic world's institutions
+      rather than at the edge of them.
+    source: levtzion-pouwels-2000
+    contested: false
+  - year: 1380
+    type: capital-move
+    name: Across the lake
+    changed: >-
+      Sustained pressure from the Bulala drove the court out of Kanem
+      altogether, and the dynasty crossed to the west of Lake Chad and rebuilt
+      in Bornu. The kingdom lost its original country and kept everything else —
+      the dynasty, the chronicle, the trade road, the claim. It is why this
+      record's name has a hyphen in it.
+    source: levtzion-pouwels-2000
+    contested: false
+  - year: 1571
+    type: reform
+    name: Idris Alooma
+    changed: >-
+      Firearms, and the administration to go with them. Idris Alooma brought
+      Turkish musketeers and a corps of slave gunmen through Tripoli, built
+      brick fortifications, established a standing camp, applied Islamic law
+      through appointed qadis in place of customary courts, and had his
+      campaigns written up by his imam Ahmad ibn Furtu — which makes Bornu one of
+      very few sub-Saharan states of the period with a contemporary narrative
+      history of its own.
+    source: levtzion-pouwels-2000
+    contested: false
+  - year: 1808
+    type: siege
+    name: Ngazargamu
+    changed: >-
+      The Fulani jihad took the capital and the mai fled. The state was saved by
+      a scholar from the north, Muhammad al-Amin al-Kanemi, who raised a force,
+      recovered the country, and then governed it while the mai reigned — an
+      arrangement that lasted thirty-eight years and is the clearest case in this
+      corpus of the Zemene Mesafint shape outside Ethiopia.
+    source: levtzion-pouwels-2000
+    contested: false
+  # `dynastic replacement` is an ending type on this site and not a turning-point
+  # type, which the build pointed out. `succession-crisis` is the nearest of the
+  # nine available and it understates a killing, but the vocabulary is a
+  # vocabulary.
+  - year: 1846
+    type: succession-crisis
+    name: The end of the Sayfawa
+    changed: >-
+      Al-Kanemi's son killed the last mai and took the throne. The dynasty that
+      ended had held it, on the king list, for something close to eight hundred
+      years, which is longer than any other ruling house in this corpus — longer
+      than the Capetians, the Solomonic line or the house of Osman.
+      The state continued under the Kanemi shehus for another forty-seven years.
+    source: levtzion-pouwels-2000
+    contested: false
+
+measures:
+  # Null. A figure of 130,000 square kilometres at 1892 circulates for Bornu,
+  # attributed to a source this project has not opened, and hard rule 1 does not
+  # allow a citation nobody here has read — the same refusal the Aksum record
+  # makes for the same reason.
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: levtzion-pouwels-2000 }
+    # Counted for propagation rather than adherence, on coding rule 2's clause
+    # about conquest followed by durable institutions. Kanem-Bornu was the
+    # instrument through which Islam reached the central Sudan: the raiding
+    # south, the qadis Idris Alooma appointed, the scholarly establishment, and
+    # the tributary chieftaincies that converted under pressure and stayed
+    # converted.
+    religions_carried:
+      count: 1
+      items: [Sunni Islam]
+      source: levtzion-pouwels-2000
+    successor_claims: { count: 0, items: [], source: levtzion-pouwels-2000 }

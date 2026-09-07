@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**3653 claims across 197 sources.**
+**3700 claims across 199 sources.**
 
 ## Where to start
 
@@ -2419,6 +2419,36 @@ ordinary state, not an item to clear.
 - [ ] `polity/caucasian-iberia` — turning point 298 The Peace of Nisibis
 - [ ] `polity/greater-armenia` — military basis coded client-levy
 
+## Derek A. Welsby, The Kingdom of Kush: The Napatan and Meroitic Empires
+
+`welsby-1996` — 23 claims
+
+**Sole source** for `kush` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/kush/01-the-land-of-the-bow.mdx` — prose: "The land of the bow"
+- [ ] `chapter/kush/02-meroe.mdx` — prose: "Meroë"
+- [ ] `chapter/kush/03-the-kandakes.mdx` — prose: "The kandakes"
+- [ ] `chapter/kush/04-a-script-nobody-can-read.mdx` — prose: "A script nobody can read"
+- [ ] `chapter/kush/05-350.mdx` — prose: "350"
+- [ ] `polity/egypt-new-kingdom` — successor_claims = 1 (Kingdom of Kush)
+- [ ] `polity/kush` — span starts -850
+- [ ] `polity/kush` — span ends 350
+- [ ] `polity/kush` — capital Napata from -750
+- [ ] `polity/kush` — capital Meroë from -300
+- [ ] `polity/kush` — founder Kashta
+- [ ] `polity/kush` — peak Taharqa r. -690--664
+- [ ] `polity/kush` — military basis coded conscript
+- [ ] `polity/kush` — revenue basis coded mining + trade-toll + tribute
+- [ ] `polity/kush` — legitimation coded divine-sanction + titulature
+- [ ] `polity/kush` — turning point -727 Piye goes north
+- [ ] `polity/kush` — turning point -671 The Assyrians
+- [ ] `polity/kush` — turning point -300 Meroë (contested)
+- [ ] `polity/kush` — turning point -23 Rome on the Nile
+- [ ] `polity/kush` — descendant_scripts = 1 (Meroitic)
+- [ ] `polity/kush` — religions_carried = 0
+- [ ] `polity/kush` — successor_claims = 0
+- [ ] `polity/kush` — ended by fragmentation in 350
+
 ## Steven A. Epstein, Genoa and the Genoese, 958-1528
 
 `epstein-1996` — 23 claims
@@ -2709,6 +2739,33 @@ ordinary state, not an item to clear.
 - [ ] `polity/saba` — turning point -25 Aelius Gallus at Marib
 - [ ] `polity/saba` — descendant_scripts = 1 (Ge'ez)
 - [ ] `polity/saba` — ended by gradual absorption in 275
+
+## Nehemia Levtzion and Randall L. Pouwels (eds), The History of Islam in Africa
+
+`levtzion-pouwels-2000` — 22 claims
+
+- [ ] `chapter/kanem-bornu/01-eight-hundred-years.mdx` — prose: "Eight hundred years"
+- [ ] `chapter/kanem-bornu/02-horses-and-people.mdx` — prose: "Horses and people"
+- [ ] `chapter/kanem-bornu/03-1893.mdx` — prose: "1893"
+- [ ] `polity/himyar` — successor_claims = 1 (Kanem-Bornu)
+- [ ] `polity/kanem-bornu` — span ends 1893
+- [ ] `polity/kanem-bornu` — capital Ngazargamu from 1470
+- [ ] `polity/kanem-bornu` — capital Kukawa from 1814
+- [ ] `polity/kanem-bornu` — founder Humai
+- [ ] `polity/kanem-bornu` — peak Idris Alooma r. 1564-1596
+- [ ] `polity/kanem-bornu` — last Hashim
+- [ ] `polity/kanem-bornu` — military basis coded slave-soldier + conscript
+- [ ] `polity/kanem-bornu` — revenue basis coded trade-toll + tribute
+- [ ] `polity/kanem-bornu` — legitimation coded descent + divine-sanction
+- [ ] `polity/kanem-bornu` — turning point 1075 Humai
+- [ ] `polity/kanem-bornu` — turning point 1380 Across the lake
+- [ ] `polity/kanem-bornu` — turning point 1571 Idris Alooma
+- [ ] `polity/kanem-bornu` — turning point 1808 Ngazargamu
+- [ ] `polity/kanem-bornu` — turning point 1846 The end of the Sayfawa
+- [ ] `polity/kanem-bornu` — descendant_scripts = 0
+- [ ] `polity/kanem-bornu` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/kanem-bornu` — successor_claims = 0
+- [ ] `polity/kanem-bornu` — ended by conquest in 1893
 
 ## Neil Christie, The Lombards: The Ancient Longobards
 *In The Peoples of Europe.*
@@ -4335,6 +4392,20 @@ ordinary state, not an item to clear.
 - [ ] `polity/akkadian` — legitimation coded divine-sanction + conquest
 - [ ] `polity/akkadian` — turning point -2250 The Great Revolt
 
+## N. Levtzion and J. F. P. Hopkins (eds), Corpus of Early Arabic Sources for West African History
+*In Fontes Historiae Africanae, Series Arabica IV.*
+
+`levtzion-hopkins-1981` — 8 claims
+
+- [ ] `chapter/ghana/01-the-name-is-a-title.mdx` — prose: "The name is a title"
+- [ ] `chapter/ghana/02-a-dinar-on-a-donkey.mdx` — prose: "A dinar on a donkey"
+- [ ] `chapter/ghana/03-the-sisters-son.mdx` — prose: "The sister's son"
+- [ ] `polity/ghana` — peak Tunka Manin
+- [ ] `polity/ghana` — revenue basis coded trade-toll + mining
+- [ ] `polity/ghana` — legitimation coded descent + divine-sanction
+- [ ] `polity/kanem-bornu` — span starts 700
+- [ ] `polity/kanem-bornu` — capital Njimi from 1100
+
 ## Mark Edward Lewis, China's Cosmopolitan Empire: The Tang Dynasty
 
 `lewis-2009` — 8 claims
@@ -4419,18 +4490,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/byzantine` — revenue basis coded land-tax + trade-toll
 - [ ] `polity/byzantine` — turning point 636 The Yarmuk
 - [ ] `polity/byzantine` — turning point 718 The second Arab siege of Constantinople
-
-## N. Levtzion and J. F. P. Hopkins (eds), Corpus of Early Arabic Sources for West African History
-*In Fontes Historiae Africanae, Series Arabica IV.*
-
-`levtzion-hopkins-1981` — 6 claims
-
-- [ ] `chapter/ghana/01-the-name-is-a-title.mdx` — prose: "The name is a title"
-- [ ] `chapter/ghana/02-a-dinar-on-a-donkey.mdx` — prose: "A dinar on a donkey"
-- [ ] `chapter/ghana/03-the-sisters-son.mdx` — prose: "The sister's son"
-- [ ] `polity/ghana` — peak Tunka Manin
-- [ ] `polity/ghana` — revenue basis coded trade-toll + mining
-- [ ] `polity/ghana` — legitimation coded descent + divine-sanction
 
 ## multiple contributors, SALJUQS
 *In Encyclopaedia Iranica.*

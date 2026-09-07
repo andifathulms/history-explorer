@@ -131,4 +131,18 @@ measures:
   influence:
     descendant_scripts: { count: null, items: [], source: null }
     religions_carried: { count: null, items: [], source: null }
-    successor_claims: { count: null, items: [], source: null }
+    # One. The Kushite kings of the twenty-fifth dynasty took the full five-name
+    # pharaonic titulature, restored temples this record's own chapters describe,
+    # revived Middle Kingdom artistic and textual forms deliberately, and
+    # presented themselves as restorers of an Egyptian order the delta princes
+    # had let go. That is titulature publicly asserted, which is rule 1's
+    # paradigm case, and it is asserted by a dynasty from upstream of the country
+    # this record is about.
+    #
+    # It is counted here rather than on a later Egyptian record because there is
+    # no later Egyptian record: this corpus carries the Old and New Kingdoms and
+    # nothing between the twentieth dynasty and the Ptolemies.
+    successor_claims:
+      count: 1
+      items: [Kingdom of Kush]
+      source: welsby-1996
