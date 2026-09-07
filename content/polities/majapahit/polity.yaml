@@ -1,5 +1,5 @@
 id: majapahit
-region: maritime-asia
+region: java-and-bali
 
 name:
   latin: Majapahit
@@ -48,11 +48,13 @@ institutions:
   # Javanese levies raised through the appanage-holding princes and the regional
   # lords, and the fleets of the coastal chiefs who had accepted Majapahit's
   # overlordship. The second value is the same instrument the Srivijaya record
-  # carries and is the reason both records are in this region: a power over sea
-  # lanes fights with other people's ships.
+  # carries — a power over sea lanes fights with other people's ships — and nine
+  # records across the archipelago are coded that way, in all three of the regions
+  # it was split into.
   military_basis: { values: [conscript, client-levy], source: hall-2011 }
-  # Three, and the first is what separates this record from the one before it in
-  # this region. Srivijaya had a strait and nothing behind it. Java has volcanic
+  # Three, and the first is what separates this record from Srivijaya, which used
+  # to sit in the same region as it and now does not. Srivijaya had a strait and
+  # nothing behind it. Java has volcanic
   # soil, monsoon rain and wet-rice terracing that supported one of the densest
   # agrarian populations in the pre-modern world, and Majapahit taxed it.
   #

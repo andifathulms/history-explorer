@@ -1,5 +1,5 @@
 id: pajang
-region: maritime-asia
+region: java-and-bali
 
 name:
   latin: The Kingdom of Pajang
@@ -7,8 +7,8 @@ name:
   script_lang: null
 
 # Eighteen years. This record exists because the Demak record's last chapter
-# named it as the smallest identifiable hole in this region — one page that would
-# close an `ended.by` — and because without it the Javanese sequence on this site
+# named it as the smallest identifiable hole in the archipelago — one page that
+# would close an `ended.by` — and because without it the Javanese sequence on this site
 # breaks between 1554 and 1587.
 span:
   start: { min: 1568, max: 1568, source: ricklefs-2008 }
@@ -35,7 +35,7 @@ scripts_and_languages:
 
 # Senapati of Mataram, Hadiwijaya's own vassal and foster-son, took the kingdom
 # in 1586. `by` names Mataram and the edge is drawn, which makes this the
-# region's shortest-lived record with a fully specified ending.
+# archipelago's shortest-lived record with a fully specified ending.
 ended:
   type: conquest
   by: [mataram]

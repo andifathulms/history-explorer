@@ -1,5 +1,5 @@
 id: gelgel
-region: maritime-asia
+region: java-and-bali
 
 name:
   latin: The Kingdom of Gelgel
@@ -33,7 +33,7 @@ scripts_and_languages:
   administration: [Balinese, Old Javanese, Sanskrit]
   writing_system: The Balinese script, a Kawi derivative
 
-# `fragmentation`, and it is the second in this region — the other being the
+# `fragmentation`, and it is the second in the archipelago — the other being the
 # division of Mataram in 1755, which produced two courts. This one produced nine
 # kingdoms, none of which has a page here, and all of which claimed the Gelgel
 # line.
@@ -46,7 +46,7 @@ ended:
 institutions:
   military_basis: { values: [conscript], source: hagerdal-2001 }
   # Rice, and on Bali that is a more specific statement than it is anywhere else
-  # in this region. The subak — the irrigation associations that allocate water
+  # anywhere in the archipelago. The subak — the irrigation associations that allocate water
   # between terraces and are organised around water temples — are the unit the
   # revenue was assessed on, and they are older than this kingdom and still there.
   revenue_basis: { values: [land-tax], source: hagerdal-2001 }
@@ -90,7 +90,7 @@ measures:
     # South Indian Brahmi with no page here — the same two-step chain off the end
     # that the Sunda record describes.
     descendant_scripts: { count: 0, items: [], source: coedes-1968 }
-    # One, and it is the only non-Muslim religion carried anywhere in this region
+    # One, and it is the only non-Muslim religion carried anywhere in the archipelago
     # apart from this record's own parent.
     #
     # Balinese kingdoms projected across the strait to Lombok from the

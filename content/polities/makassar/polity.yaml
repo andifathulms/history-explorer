@@ -1,5 +1,5 @@
 id: makassar
-region: maritime-asia
+region: the-eastern-archipelago
 
 name:
   latin: The Sultanate of Gowa
@@ -77,8 +77,8 @@ turning_points:
       followed. In the six years after, Makassar fought the neighbouring Bugis
       kingdoms — Bone, Soppeng, Wajo — into accepting Islam as well, in a
       sequence the local chronicles call the Islamic wars.
-      It is the last major conversion in this region and the only one in it
-      carried out primarily by campaign. Pasai's spread by marriage, Melaka's by
+      It is the last major conversion in the archipelago and the only one carried
+      out primarily by campaign. Pasai's spread by marriage, Melaka's by
       trade, Demak's by a mixture. This one was an army.
     source: reid-1988
     contested: false
@@ -123,7 +123,7 @@ measures:
     # One. Makassar carried Islam through South Sulawesi by campaign between 1608
     # and 1611 and then east into the Lesser Sundas along its trade routes.
     # Coding rule 2 counts propagation past a prior boundary and this is the
-    # least ambiguous instance of it anywhere in this region, because in this
+    # least ambiguous instance of it anywhere in the archipelago, because in this
     # case somebody was keeping a record of which kingdoms had accepted and which
     # had not.
     religions_carried:

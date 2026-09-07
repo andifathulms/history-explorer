@@ -1,5 +1,5 @@
 id: mataram
-region: maritime-asia
+region: java-and-bali
 
 name:
   latin: The Sultanate of Mataram
@@ -45,7 +45,7 @@ scripts_and_languages:
 # and Mangkubumi, who became Hamengkubuwana I at Yogyakarta. `ended.type` is
 # `fragmentation` and `by` is empty because the Dutch company that brokered it is
 # not a polity this site carries — the ninth by date of fourteen empty `by` fields
-# in this region, with Patani, Tidore, Brunei, Aceh and Sulu still to come.
+# in the archipelago, with Patani, Tidore, Brunei, Aceh and Sulu still to come.
 #
 # Both halves are still there. The two courts, their two dynasties and their two
 # versions of Javanese court culture have been running in parallel for two hundred
@@ -60,14 +60,15 @@ ended:
 institutions:
   military_basis: { values: [conscript], source: ricklefs-2008 }
   # `land-tax` alone, and it is the point of the record. Mataram is the polity
-  # this region's blurb is least true of: it did not live on controlling a strait
+  # the old Maritime Asia blurb was least true of: it did not live on controlling a strait
   # and it had no interest in one. It lived on Javanese rice, taken through
   # appanage-holding lords from cultivators, and its relationship with the sea
   # was that it kept trying to control the ports on it and eventually sold them.
   #
   # Set beside the Melaka record — `trade-toll` alone, no farmland, importing its
-  # rice largely from Java — these two are the extreme ends of this region's
-  # revenue coding, three hundred miles apart.
+  # rice largely from Java — these two are the extreme ends of the archipelago's
+  # revenue coding, three hundred miles apart, and they are in different regions
+  # now.
   revenue_basis: { values: [land-tax], source: ricklefs-2008 }
   # Null. Three Javanese wars of succession, in 1704, 1719 and 1746, each of
   # which drew in the Dutch company on one side and each of which cost the winner

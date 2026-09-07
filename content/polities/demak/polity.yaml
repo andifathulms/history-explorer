@@ -1,5 +1,5 @@
 id: demak
-region: maritime-asia
+region: java-and-bali
 
 name:
   latin: The Sultanate of Demak
@@ -39,8 +39,8 @@ scripts_and_languages:
 # descent from both this dynasty and Majapahit's.
 #
 # `by` is empty because Pajang has no page here. It is the second empty `by` in
-# this region caused by a Javanese successor rather than a European one, and the
-# only one this site could close with a single page.
+# in the archipelago caused by a Javanese successor rather than a European one,
+# and the only one this site could close with a single page.
 ended:
   type: dynastic replacement
   by: [pajang]
@@ -53,7 +53,7 @@ institutions:
   # fleet, which is what let it attack Portuguese Melaka in 1512 and 1513 and
   # take the ports of the north coast one after another.
   military_basis: { values: [conscript, client-levy], source: ricklefs-2008 }
-  # Rice and the trade in it, which is the inversion this region keeps
+  # Rice and the trade in it, which is the inversion the archipelago keeps
   # producing. Demak sat on the north coast with the Javanese granary behind it,
   # and it was the export of that rice to the archipelago's ports — including,
   # until 1511, Melaka — that made a port town into a power.

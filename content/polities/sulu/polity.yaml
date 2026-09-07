@@ -1,5 +1,5 @@
 id: sulu
-region: maritime-asia
+region: the-eastern-archipelago
 
 name:
   latin: The Sultanate of Sulu
@@ -36,7 +36,7 @@ scripts_and_languages:
 # temporal sovereignty and kept his position as head of the Muslim community.
 # `by` is empty because the United States is not in this corpus — the only record
 # on this site to end that way, and the last by date of fourteen empty `by` fields
-# in this region.
+# across the archipelago.
 ended:
   type: gradual absorption
   by: []
@@ -95,7 +95,7 @@ turning_points:
       The sultan renounced temporal sovereignty to the United States and retained
       his authority as head of the Muslim community of Sulu, which his successors
       hold to this day.
-      It is the latest ending in this region by a decade and the only one on this
+      It is the latest ending anywhere in the archipelago and the only one on this
       site delivered by the United States.
     source: majul-1973
     contested: false

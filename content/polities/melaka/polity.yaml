@@ -1,5 +1,5 @@
 id: melaka
-region: maritime-asia
+region: sumatra-and-the-peninsula
 
 name:
   latin: Sultanate of Melaka
@@ -60,8 +60,8 @@ institutions:
   # Two records in this region, five centuries apart, on the same water, with the
   # same value in this field for the same reason.
   military_basis: { values: [client-levy], source: hall-2011 }
-  # `trade-toll` and nothing else, which makes this the ninth record in the
-  # corpus coded that way and the second in this region — the Characene record's
+  # `trade-toll` and nothing else, which makes this one of twelve records in the
+  # corpus coded that way and the second of five in this region — the Characene record's
   # chapter on the type now has nine instances to argue from.
   #
   # Melaka had no agriculture. It imported its rice, largely from Java, which is
@@ -151,7 +151,7 @@ measures:
     # One, and it is the largest claim on this page. Coding rule 2 counts
     # propagation beyond a prior confessional boundary, and Melaka is the vector
     # by which Islam reached most of the ports of maritime Southeast Asia — by
-    # trade, marriage and the prestige of the region's dominant court rather than
+    # trade, marriage and the prestige of the archipelago's dominant court rather than
     # by conquest.
     religions_carried:
       count: 1

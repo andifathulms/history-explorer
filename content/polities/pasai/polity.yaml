@@ -1,5 +1,5 @@
 id: pasai
-region: maritime-asia
+region: sumatra-and-the-peninsula
 
 name:
   latin: Samudera Pasai
@@ -43,10 +43,10 @@ scripts_and_languages:
 # Portuguese in 1524 and absorbed its territory. `by` names Aceh, and the edge
 # `pasai -> aceh` is drawn.
 #
-# It is the third `ended.by` in this region to be filled in two passes, and the
-# only one of the three filled by a polity that already had a page. The other
-# two — Singhasari's and Majapahit's — waited for the records that ended them to
-# be written.
+# It is the third `ended.by` on this site's archipelago pages to be filled in two
+# passes, and the only one of the three filled by a polity that already had a
+# page. The other two — Singhasari's and Majapahit's — waited for the records that
+# ended them to be written, and are in the Java and Bali region now.
 ended:
   type: conquest
   by: [aceh]
@@ -55,8 +55,10 @@ ended:
 
 institutions:
   military_basis: null
-  # `trade-toll` and nothing else, which makes this the tenth record on this site
-  # coded that way and the third in this region.
+  # `trade-toll` and nothing else. Twelve records on this site are coded that way
+  # and five of them are in this region, which is the densest concentration of it
+  # anywhere: Srivijaya, Melaka, this record, Johor and Patani, on one strait,
+  # across a thousand years.
   #
   # Pasai's hinterland grew pepper, and the sultanate that took it in 1524 built
   # a royal monopoly on that pepper which is half of its own revenue coding. This
@@ -136,8 +138,8 @@ measures:
     # and the pilgrimage, and Demak's for taking Islam inland across Java by
     # force.
     #
-    # Five records in this region, five counts of one, one religion, and this
-    # page is upstream of the other four. Coding rule 2 counts propagation past a
+    # Ten records across this site's three archipelago regions, ten counts of one,
+    # one religion, and this page is upstream of the other nine. Coding rule 2 counts propagation past a
     # prior boundary and each of the five crossed a different one.
     religions_carried:
       count: 1

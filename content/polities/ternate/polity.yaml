@@ -1,5 +1,5 @@
 id: ternate
-region: maritime-asia
+region: the-eastern-archipelago
 
 name:
   latin: Sultanate of Ternate
@@ -45,8 +45,8 @@ scripts_and_languages:
 # dependencies became something exercised on the company's behalf.
 #
 # `by` is empty. The Dutch East India Company is not in this corpus, which makes
-# this the fourth record in this region to end against a European power with no
-# page here.
+# this one of several records in the archipelago to end against a European power
+# with no page here — fourteen have an empty `by` and most of them are this kind.
 ended:
   type: gradual absorption
   by: []
@@ -57,9 +57,9 @@ institutions:
   # Kora-kora — the long oared war craft of the north Moluccas — raised from
   # dependent communities and led by their own chiefs. Ternate's reach across
   # eastern Indonesia was a fleet obligation owed by islands that kept their own
-  # rulers, which is the same arrangement this region's Srivijaya and Melaka
-  # records carry with the orang laut, in different water and with different
-  # boats.
+  # rulers, which is the same arrangement the Srivijaya and Melaka records carry
+  # with the orang laut, in different water, with different boats, and — since the
+  # split — in a different region.
   military_basis: { values: [client-levy], source: andaya-1993 }
   # Cloves, and tribute from the islands that had to hand them over.
   #

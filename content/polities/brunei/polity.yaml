@@ -1,5 +1,5 @@
 id: brunei
-region: maritime-asia
+region: the-eastern-archipelago
 
 name:
   latin: The Sultanate of Brunei
@@ -50,10 +50,11 @@ ended:
 
 institutions:
   # Fleets raised from the coastal peoples of Borneo and the islands. Nine of
-  # this region's twenty-two records are coded that way — Srivijaya, Melaka and
+  # the archipelago's twenty-two records are coded that way — Srivijaya, Melaka and
   # Johor on the strait, Ternate and Tidore in Maluku, Majapahit and Demak on
-  # Java, Sulu in the north, and this one. The instrument is the commonest
-  # military coding in this region by a distance, and it has almost nothing to do
+  # Java, Sulu in the north, and this one. It is the one thing that runs through
+  # all three of the regions the archipelago was split into, and the commonest
+  # military coding in any of them by a distance, and it has almost nothing to do
   # with the polities that used it: it is what the sea peoples of the archipelago
   # were, and states attached themselves to it rather than the reverse.
   military_basis: { values: [client-levy], source: saunders-1994 }
@@ -116,7 +117,7 @@ measures:
     # One. Brunei carried Islam along the coasts of Borneo and north to Manila
     # bay, where its dynasty had installed a related Muslim ruler before the
     # Spanish arrived in 1571 — which is the northern limit of the movement this
-    # region's other records trace, and the point at which it met a Christian one
+    # archipelago's other records trace, and the point at which it met a Christian one
     # coming the other way across the Pacific.
     religions_carried:
       count: 1

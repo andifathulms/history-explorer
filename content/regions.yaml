@@ -253,13 +253,56 @@ regions:
     group: steppe-east-asia
     thread: true
 
-  - id: maritime-asia
-    name: Maritime Asia
+  # `maritime-asia` was one region and reached twenty-two records, which made it
+  # the largest on this site by eight — the next is fourteen. It is now three.
+  #
+  # The split cost one edge of fifteen: `srivijaya -> singhasari`, the Pamalayu
+  # of 1275, which is the only edge that ever crossed between Sumatra and Java
+  # and which the Medang record's second chapter already described as the one
+  # connection between two halves that barely touch, three centuries late. It
+  # stays in edges.yaml and is now drawn by no thread, like every other edge on
+  # this site whose ends fall in different regions.
+  #
+  # Java keeps ten edges and the peninsula four. The eastern archipelago has
+  # none and never had any — Ternate and Tidore are contemporaries whose
+  # relationship runs sideways, Makassar was ended by a polity with no page,
+  # Brunei and Sulu succeeded nothing here. `thread: false` on it is the
+  # ordinary state hard rule 7 describes and not a defect.
+  #
+  # What the split does not change is the count of things that are true about
+  # the archipelago rather than about a region: ten records carrying Sunni Islam
+  # in one movement from Pasai outward, fourteen with an empty `ended.by`, nine
+  # coded `client-levy` for sea peoples nobody commanded, and not one carrying a
+  # reach figure. Those were always facts about a corpus and a sea, and the
+  # chapters that count them now say so.
+  - id: sumatra-and-the-peninsula
+    name: Sumatra and the Peninsula
     blurb: >-
-      The polities of the sea routes rather than the land ones, whose power
-      came from controlling straits instead of territory.
+      The strait, and the states that lived on it: a thousand years of one
+      passage between the Indian Ocean and the South China Sea changing hands,
+      from Srivijaya to the sultanates that inherited its position and its sea
+      peoples.
     group: south-asia
     thread: true
+
+  - id: java-and-bali
+    name: Java and Bali
+    blurb: >-
+      One island's rice, and the seven hundred years of kingdoms that lived on
+      it — an unbroken sequence from the Brantas valley to the division of
+      Mataram, plus the western kingdom that was never part of it and the
+      Balinese court that inherited what Java gave up.
+    group: south-asia
+    thread: true
+
+  - id: the-eastern-archipelago
+    name: The Eastern Archipelago
+    blurb: >-
+      Sulawesi, Maluku, Borneo and Sulu: the far side of the sea route, where
+      the cloves grew on five islands, the last open port was destroyed for
+      being open, and Islam reached its eastern and northern limits.
+    group: south-asia
+    thread: false
 
   # New in this pass, and `thread: false` deliberately.
   #
@@ -272,8 +315,9 @@ regions:
   # anybody has checked whether there is anything to draw. It is being followed
   # here even though the edge is already sitting in edges.yaml.
   #
-  # The region exists because Maritime Asia could not hold these. That region's
-  # blurb says its polities lived on controlling straits instead of territory,
+  # The region exists because the old single Maritime Asia region — since split
+  # into three — could not hold these. Its blurb said its polities lived on
+  # controlling straits instead of territory,
   # which is exactly what Angkor, Pagan and Dai Viet did not do — they were rice
   # states on four river systems, and the largest of them never touched the sea
   # route at all. Champa is the exception that shows the boundary is real: it
