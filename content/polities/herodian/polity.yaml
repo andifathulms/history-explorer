@@ -80,7 +80,12 @@ institutions:
   # Augustus, who ratified part of it and altered the rest, dividing the kingdom
   # among three sons and giving none of them the royal title. The king
   # designated and the emperor decided.
-  succession_rule: { values: [nomination], source: richardson-1996 }
+  #
+  # The field now says both. `nomination` was carrying the whole thing while the
+  # comment said it was only half, and `external-nomination` was added after
+  # five records with a null had made the case; this one and the Tahirid record
+  # were the two that had coded around the gap instead of leaving it empty.
+  succession_rule: { values: [nomination, external-nomination], source: richardson-1996 }
   # The cleanest case of this value in the corpus after the Jafnid record.
   # Herod was made king by a vote of the Roman senate in 40 BC, in Rome, with
   # Antony and Octavian escorting him to the Capitol — before he held any of the

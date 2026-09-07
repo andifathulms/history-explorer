@@ -306,12 +306,32 @@ export type RevenueBasis = (typeof REVENUE_BASES)[number]
  * `[matrilineal, election]`, because the matriclan defined who could be chosen
  * and a council of chiefs did the choosing. Multi-value succession sets were
  * already the practice here — the Rashidun record carries three.
+ *
+ * `external-nomination` was added in the audit that followed, and the audit is
+ * why: sweeping every null in this field turned up a cluster that had been
+ * counting itself. Five records carried a null because the throne was filled or
+ * confirmed by a sovereign outside the polity — Greater Armenia, nominated by
+ * Parthia and crowned by Rome under a treaty between the two; Caucasian Iberia,
+ * whose kings Rome acquired the right to invest at Nisibis; the Jafnids,
+ * confirmed by the emperor; the Nasrids of al-Hira, confirmed at Ctesiphon; and
+ * the sharifs of Mecca, appointed and deposed by whoever held Egypt. The
+ * Sharifate's comment called itself the fifth.
+ *
+ * Two more had coded `nomination` and said in the comment that it was only half
+ * the story: the Herodian record, where Herod designated and Augustus decided,
+ * and the Tahirids, where the caliph appointed the last governor's son.
+ *
+ * It is the succession field's counterpart to `investiture` in the legitimation
+ * list, and it was missing for the same reason — a vocabulary of internal
+ * arrangements, in a corpus half full of clients. `nomination` means the
+ * predecessor designated. This means somebody else did.
  */
 export const SUCCESSION_RULES = [
   'primogeniture',
   'tanistry',
   'appanage',
   'nomination',
+  'external-nomination',
   'election',
   'acclamation',
   'matrilineal',

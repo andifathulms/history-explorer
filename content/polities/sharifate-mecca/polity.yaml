@@ -60,10 +60,14 @@ institutions:
   # The office stayed inside one family after 1201 and the holder was chosen by
   # whoever was paying — the Mamluk and then Ottoman sultans appointed and
   # deposed sharifs routinely, sometimes several in a decade, usually from a
-  # shortlist of quarrelling cousins. There is no value for "designated by a
-  # foreign overlord from within a family", and this is the fifth record in the
-  # corpus to run into the same missing idea from a different field.
-  succession_rule: null
+  # shortlist of quarrelling cousins. This comment used to end: there is no value
+  # for "designated by a foreign overlord from within a family", and this is the
+  # fifth record in the corpus to run into the same missing idea from a different
+  # field.
+  #
+  # Counting itself as the fifth is what made the audit find the cluster. There
+  # is a value now.
+  succession_rule: { values: [external-nomination], source: peters-1994 }
   # Both, and the pair is the office. Descent from Hasan ibn Ali, and therefore
   # from the Prophet, is the qualification: a sharif could not be replaced with
   # an appointee, because no appointment could confer the genealogy. And the

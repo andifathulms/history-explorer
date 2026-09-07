@@ -57,10 +57,15 @@ institutions:
   # before, which is why the caliphs kept reappointing the family.
   revenue_basis: { values: [land-tax], source: chi-4 }
   # In form the caliph appointed each governor; in practice he appointed the
-  # last one's son, brother or nephew for fifty years. The field records the
-  # form, because that is what the polity itself insisted on, and the first
-  # chapter is about the gap between the two.
-  succession_rule: { values: [nomination], source: iranica-taherids }
+  # last one's son, brother or nephew for fifty years. The first chapter is
+  # about the gap between the two.
+  #
+  # The field now carries both, which it could not before. `external-nomination`
+  # is the form the polity itself insisted on — the caliph appointing — and
+  # `nomination` is what the appointment actually followed. Coding rule 7's note
+  # on this value says to code both where both are attested, and this record is
+  # the case that note was written from.
+  succession_rule: { values: [nomination, external-nomination], source: iranica-taherids }
   legitimation: { values: [caliphal-investiture], source: iranica-taherids }
 
 turning_points:

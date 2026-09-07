@@ -324,8 +324,9 @@ exactly what the Buyid page turns on.
 
 `primogeniture`, `tanistry` (lateral seniority within the house), `appanage`
 (patrimonial division among heirs), `nomination` (a designated heir),
-`election`, `acclamation` (by army or assembly), `matrilineal` (eligibility
-traced through the female line), `factional`.
+`external-nomination` (the heir designated or confirmed by a sovereign outside
+the polity), `election`, `acclamation` (by army or assembly), `matrilineal`
+(eligibility traced through the female line), `factional`.
 
 `factional` is a real coding and not a disguised null. The Mamluk sultanate had
 no succession rule and a throne that went to whichever military faction could
@@ -354,6 +355,27 @@ Do not code it from the prominence of royal women alone. Queen mothers with
 formal office, ruling queens and matrilineal *inheritance of property* are all
 compatible with a patrilineal throne, and the Kush record declines the value on
 exactly that ground.
+
+**`external-nomination` is `nomination` with a different actor.** Code it where
+the successor was designated, confirmed or vetoed by a sovereign outside the
+polity — an emperor, a caliph, a king of kings, a sultan paying for the office —
+and where a source shows that this was the operative step rather than a formality
+observed after the fact.
+
+It is the succession field's counterpart to `investiture` in section 8, and it
+was missing from this list for the same reason that value was missing from
+that one: a vocabulary of arrangements internal to a polity, applied to a corpus
+half full of clients.
+
+Where both the internal designation and the external decision are attested, code
+both. The Herodian record reads `[nomination, external-nomination]`, because
+Herod named his heirs in a will and Augustus altered it.
+
+The test is the usual one. A ruler who happened to receive a confirmation is not
+coded this way; a throne that could not be taken up without one is. Where the
+external confirmation is a form the overlord never withheld, code `nomination`
+and put the form in the prose — except where the polity itself insisted on the
+form, in which case the Tahirid record's treatment applies and both are coded.
 
 ## 8. Legitimation
 

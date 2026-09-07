@@ -52,7 +52,11 @@ institutions:
   # loss of the crowns.
   military_basis: { values: [client-levy], source: toumanoff-1963 }
   revenue_basis: { values: [land-tax, trade-toll], source: suny-1994 }
-  succession_rule: null
+  # `external-nomination`. The Peace of Nisibis in 298 gave Rome the right to
+  # invest the kings of Iberia, and the Armenian record in this region carries
+  # the mirror arrangement from Rhandeia in AD 63. Both fields were null until
+  # the value existed, and both chapters argued for it.
+  succession_rule: { values: [external-nomination], source: toumanoff-1963 }
   # The Chosroid and then Bagratid line, and the right of an outside empire to
   # invest the king — which the Peace of Nisibis in 298 gave to Rome in so many
   # words. This record and the Greater Armenia one flagged that arrangement from
@@ -76,8 +80,10 @@ turning_points:
       Iberia to the Roman sphere and gave Rome the right to invest its kings.
       It is the same arrangement the Armenian record carries from Rhandeia two
       and a half centuries earlier, in the other direction, and it is why both
-      of these records leave the succession field empty: a throne disposed of
-      by treaty between two other powers is not any of the seven values.
+      of these records left the succession field empty for as long as they did.
+      A throne disposed of by treaty between two other powers was none of the
+      values available, and both records now carry `external-nomination`, which
+      an audit of the field added for them and three others.
     source: toumanoff-1963
     contested: false
   - year: 337

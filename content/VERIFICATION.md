@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**3744 claims across 201 sources.**
+**3749 claims across 201 sources.**
 
 ## Where to start
 
@@ -1091,6 +1091,60 @@ ordinary state, not an item to clear.
 - [ ] `polity/kartli-kakheti` — turning point 1795 Krtsanisi
 - [ ] `polity/kartli-kakheti` — ended by conquest in 1801
 
+## Greg Fisher, Between Empires: Arabs, Romans, and Sasanians in Late Antiquity
+*In Oxford Classical Monographs.*
+
+`fisher-2011` — 46 claims
+
+**Sole source** for `jafnid` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/hujrid/01-the-third-family.mdx` — prose: "The third family"
+- [ ] `chapter/hujrid/02-a-power-in-the-middle.mdx` — prose: "A power in the middle"
+- [ ] `chapter/hujrid/03-al-hira.mdx` — prose: "Al-Hira"
+- [ ] `chapter/hujrid/04-imru-al-qays.mdx` — prose: "The prince who went looking for a kingdom"
+- [ ] `chapter/hujrid/05-what-the-clients-were-for.mdx` — prose: "What the clients were for"
+- [ ] `chapter/jafnid/01-the-frontier.mdx` — prose: "Hiring the frontier"
+- [ ] `chapter/jafnid/02-al-harith.mdx` — prose: "Al-Harith"
+- [ ] `chapter/jafnid/03-the-name.mdx` — prose: "Jafnid, not Ghassanid"
+- [ ] `chapter/jafnid/04-a-church.mdx` — prose: "The bishops they got consecrated"
+- [ ] `chapter/jafnid/05-what-rome-gave.mdx` — prose: "What Rome gave"
+- [ ] `chapter/jafnid/06-582.mdx` — prose: "582"
+- [ ] `chapter/nasrid-hira/01-the-other-side.mdx` — prose: "The other side"
+- [ ] `chapter/nasrid-hira/02-the-forty-year-war.mdx` — prose: "The forty-year war"
+- [ ] `edge/byzantine->jafnid` — vassal of in 529
+- [ ] `edge/himyar->hujrid` — vassal of in 480
+- [ ] `edge/jafnid->rashidun` — conquered by in 636
+- [ ] `polity/hujrid` — span starts 425
+- [ ] `polity/hujrid` — span ends 528
+- [ ] `polity/hujrid` — founder Hujr Akil al-Murar
+- [ ] `polity/hujrid` — peak al-Harith ibn Amr
+- [ ] `polity/hujrid` — last Hujr ibn al-Harith
+- [ ] `polity/hujrid` — military basis coded tribal-levy
+- [ ] `polity/hujrid` — revenue basis coded tribute
+- [ ] `polity/hujrid` — turning point 525 Al-Harith takes al-Hira
+- [ ] `polity/hujrid` — turning point 528 The killing of al-Harith
+- [ ] `polity/hujrid` — ended by fragmentation in 550
+- [ ] `polity/jafnid` — span starts 502
+- [ ] `polity/jafnid` — span ends 582
+- [ ] `polity/jafnid` — capital Jabiya
+- [ ] `polity/jafnid` — founder Jabala ibn al-Harith
+- [ ] `polity/jafnid` — peak al-Harith ibn Jabala r. 529-569
+- [ ] `polity/jafnid` — military basis coded tribal-levy
+- [ ] `polity/jafnid` — revenue basis coded tribute
+- [ ] `polity/jafnid` — succession rule coded external-nomination
+- [ ] `polity/jafnid` — legitimation coded investiture
+- [ ] `polity/jafnid` — turning point 529 The supreme phylarchate
+- [ ] `polity/jafnid` — turning point 554 The killing of al-Mundhir of al-Hira
+- [ ] `polity/jafnid` — religions_carried = 1 (Miaphysite Christianity)
+- [ ] `polity/jafnid` — ended by fragmentation in 582
+- [ ] `polity/nasrid-hira` — peak al-Mundhir III r. 503-554
+- [ ] `polity/nasrid-hira` — military basis coded tribal-levy + client-levy
+- [ ] `polity/nasrid-hira` — succession rule coded external-nomination
+- [ ] `polity/nasrid-hira` — legitimation coded investiture
+- [ ] `polity/nasrid-hira` — turning point 528 The recovery of al-Hira
+- [ ] `polity/nasrid-hira` — turning point 531 Callinicum
+- [ ] `polity/nasrid-hira` — turning point 554 The death of al-Mundhir
+
 ## R. N. Frye (ed.), The Cambridge History of Iran, Volume 4: From the Arab Invasion to the Saljuqs
 
 `chi-4` — 45 claims
@@ -1140,58 +1194,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/ziyarid` — legitimation coded titulature
 - [ ] `polity/ziyarid` — turning point 935 Mardavij killed in his bath
 - [ ] `polity/ziyarid` — turning point 1012 The army deposes Qabus
-
-## Greg Fisher, Between Empires: Arabs, Romans, and Sasanians in Late Antiquity
-*In Oxford Classical Monographs.*
-
-`fisher-2011` — 44 claims
-
-**Sole source** for `jafnid` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/hujrid/01-the-third-family.mdx` — prose: "The third family"
-- [ ] `chapter/hujrid/02-a-power-in-the-middle.mdx` — prose: "A power in the middle"
-- [ ] `chapter/hujrid/03-al-hira.mdx` — prose: "Al-Hira"
-- [ ] `chapter/hujrid/04-imru-al-qays.mdx` — prose: "The prince who went looking for a kingdom"
-- [ ] `chapter/hujrid/05-what-the-clients-were-for.mdx` — prose: "What the clients were for"
-- [ ] `chapter/jafnid/01-the-frontier.mdx` — prose: "Hiring the frontier"
-- [ ] `chapter/jafnid/02-al-harith.mdx` — prose: "Al-Harith"
-- [ ] `chapter/jafnid/03-the-name.mdx` — prose: "Jafnid, not Ghassanid"
-- [ ] `chapter/jafnid/04-a-church.mdx` — prose: "The bishops they got consecrated"
-- [ ] `chapter/jafnid/05-what-rome-gave.mdx` — prose: "What Rome gave"
-- [ ] `chapter/jafnid/06-582.mdx` — prose: "582"
-- [ ] `chapter/nasrid-hira/01-the-other-side.mdx` — prose: "The other side"
-- [ ] `chapter/nasrid-hira/02-the-forty-year-war.mdx` — prose: "The forty-year war"
-- [ ] `edge/byzantine->jafnid` — vassal of in 529
-- [ ] `edge/himyar->hujrid` — vassal of in 480
-- [ ] `edge/jafnid->rashidun` — conquered by in 636
-- [ ] `polity/hujrid` — span starts 425
-- [ ] `polity/hujrid` — span ends 528
-- [ ] `polity/hujrid` — founder Hujr Akil al-Murar
-- [ ] `polity/hujrid` — peak al-Harith ibn Amr
-- [ ] `polity/hujrid` — last Hujr ibn al-Harith
-- [ ] `polity/hujrid` — military basis coded tribal-levy
-- [ ] `polity/hujrid` — revenue basis coded tribute
-- [ ] `polity/hujrid` — turning point 525 Al-Harith takes al-Hira
-- [ ] `polity/hujrid` — turning point 528 The killing of al-Harith
-- [ ] `polity/hujrid` — ended by fragmentation in 550
-- [ ] `polity/jafnid` — span starts 502
-- [ ] `polity/jafnid` — span ends 582
-- [ ] `polity/jafnid` — capital Jabiya
-- [ ] `polity/jafnid` — founder Jabala ibn al-Harith
-- [ ] `polity/jafnid` — peak al-Harith ibn Jabala r. 529-569
-- [ ] `polity/jafnid` — military basis coded tribal-levy
-- [ ] `polity/jafnid` — revenue basis coded tribute
-- [ ] `polity/jafnid` — legitimation coded investiture
-- [ ] `polity/jafnid` — turning point 529 The supreme phylarchate
-- [ ] `polity/jafnid` — turning point 554 The killing of al-Mundhir of al-Hira
-- [ ] `polity/jafnid` — religions_carried = 1 (Miaphysite Christianity)
-- [ ] `polity/jafnid` — ended by fragmentation in 582
-- [ ] `polity/nasrid-hira` — peak al-Mundhir III r. 503-554
-- [ ] `polity/nasrid-hira` — military basis coded tribal-levy + client-levy
-- [ ] `polity/nasrid-hira` — legitimation coded investiture
-- [ ] `polity/nasrid-hira` — turning point 528 The recovery of al-Hira
-- [ ] `polity/nasrid-hira` — turning point 531 Callinicum
-- [ ] `polity/nasrid-hira` — turning point 554 The death of al-Mundhir
 
 ## Marc Van De Mieroop, A History of the Ancient Near East, ca. 3000-323 BC
 
@@ -1289,7 +1291,7 @@ ordinary state, not an item to clear.
 
 ## Richard G. Hovannisian (ed.), The Armenian People from Ancient to Modern Times
 
-`hovannisian-1997` — 41 claims
+`hovannisian-1997` — 42 claims
 
 **Sole source** for `bagratid-armenia` — nothing else in the corpus can contradict a misreading here.
 
@@ -1328,6 +1330,7 @@ ordinary state, not an item to clear.
 - [ ] `polity/greater-armenia` — peak Tigranes II r. -95--55
 - [ ] `polity/greater-armenia` — last Artaxias IV r. 422-428
 - [ ] `polity/greater-armenia` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/greater-armenia` — succession rule coded external-nomination
 - [ ] `polity/greater-armenia` — legitimation coded descent + investiture
 - [ ] `polity/greater-armenia` — turning point -69 Tigranocerta
 - [ ] `polity/greater-armenia` — turning point 63 Rhandeia
@@ -2367,6 +2370,35 @@ ordinary state, not an item to clear.
 - [ ] `polity/venice` — successor_claims = 0
 - [ ] `polity/venice` — ended by conquest in 1797
 
+## Cyril Toumanoff, Studies in Christian Caucasian History
+
+`toumanoff-1963` — 24 claims
+
+- [ ] `chapter/caucasian-albania/01-the-third-country.mdx` — prose: "The third country"
+- [ ] `chapter/caucasian-albania/02-javanshir.mdx` — prose: "Javanshir"
+- [ ] `chapter/caucasian-albania/04-arran.mdx` — prose: "Arran"
+- [ ] `chapter/caucasian-iberia/01-pharnavaz.mdx` — prose: "Not that Iberia"
+- [ ] `chapter/caucasian-iberia/02-between-two-empires.mdx` — prose: "A throne two empires agreed about"
+- [ ] `polity/caucasian-albania` — span starts -200
+- [ ] `polity/caucasian-albania` — span ends 705
+- [ ] `polity/caucasian-albania` — capital Kabala
+- [ ] `polity/caucasian-albania` — capital Partav
+- [ ] `polity/caucasian-albania` — peak Javanshir r. 637-680
+- [ ] `polity/caucasian-albania` — military basis coded client-levy
+- [ ] `polity/caucasian-albania` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/caucasian-albania` — legitimation coded descent
+- [ ] `polity/caucasian-albania` — turning point 313 The conversion of Urnayr (contested)
+- [ ] `polity/caucasian-albania` — turning point 510 The monarchy abolished
+- [ ] `polity/caucasian-albania` — ended by gradual absorption in 822
+- [ ] `polity/caucasian-iberia` — span starts -302
+- [ ] `polity/caucasian-iberia` — capital Mtskheta
+- [ ] `polity/caucasian-iberia` — founder Pharnavaz I
+- [ ] `polity/caucasian-iberia` — military basis coded client-levy
+- [ ] `polity/caucasian-iberia` — succession rule coded external-nomination
+- [ ] `polity/caucasian-iberia` — legitimation coded descent + investiture
+- [ ] `polity/caucasian-iberia` — turning point 298 The Peace of Nisibis
+- [ ] `polity/greater-armenia` — military basis coded client-levy
+
 ## John O. Hunwick, Timbuktu and the Songhay Empire
 
 `hunwick-1999` — 24 claims
@@ -2426,34 +2458,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/shaybanid` — turning point 1512 Ghijduvan
 - [ ] `polity/shaybanid` — turning point 1588 Abdullah Khan at Herat
 - [ ] `polity/shaybanid` — ended by dynastic replacement in 1599
-
-## Cyril Toumanoff, Studies in Christian Caucasian History
-
-`toumanoff-1963` — 23 claims
-
-- [ ] `chapter/caucasian-albania/01-the-third-country.mdx` — prose: "The third country"
-- [ ] `chapter/caucasian-albania/02-javanshir.mdx` — prose: "Javanshir"
-- [ ] `chapter/caucasian-albania/04-arran.mdx` — prose: "Arran"
-- [ ] `chapter/caucasian-iberia/01-pharnavaz.mdx` — prose: "Not that Iberia"
-- [ ] `chapter/caucasian-iberia/02-between-two-empires.mdx` — prose: "A throne two empires agreed about"
-- [ ] `polity/caucasian-albania` — span starts -200
-- [ ] `polity/caucasian-albania` — span ends 705
-- [ ] `polity/caucasian-albania` — capital Kabala
-- [ ] `polity/caucasian-albania` — capital Partav
-- [ ] `polity/caucasian-albania` — peak Javanshir r. 637-680
-- [ ] `polity/caucasian-albania` — military basis coded client-levy
-- [ ] `polity/caucasian-albania` — revenue basis coded land-tax + trade-toll
-- [ ] `polity/caucasian-albania` — legitimation coded descent
-- [ ] `polity/caucasian-albania` — turning point 313 The conversion of Urnayr (contested)
-- [ ] `polity/caucasian-albania` — turning point 510 The monarchy abolished
-- [ ] `polity/caucasian-albania` — ended by gradual absorption in 822
-- [ ] `polity/caucasian-iberia` — span starts -302
-- [ ] `polity/caucasian-iberia` — capital Mtskheta
-- [ ] `polity/caucasian-iberia` — founder Pharnavaz I
-- [ ] `polity/caucasian-iberia` — military basis coded client-levy
-- [ ] `polity/caucasian-iberia` — legitimation coded descent + investiture
-- [ ] `polity/caucasian-iberia` — turning point 298 The Peace of Nisibis
-- [ ] `polity/greater-armenia` — military basis coded client-levy
 
 ## Derek A. Welsby, The Kingdom of Kush: The Napatan and Meroitic Empires
 
@@ -3560,6 +3564,29 @@ ordinary state, not an item to clear.
 - [ ] `polity/saffarid` — turning point 876 Dayr al-Aqul
 - [ ] `polity/saffarid` — ended by gradual absorption in 1003
 
+## F. E. Peters, Mecca: A Literary History of the Muslim Holy Land
+
+`peters-1994` — 18 claims
+
+- [ ] `chapter/sharifate-mecca/01-the-qualification.mdx` — prose: "A qualification nobody could confer"
+- [ ] `chapter/sharifate-mecca/02-qatada.mdx` — prose: "One family for seven hundred years"
+- [ ] `chapter/sharifate-mecca/04-the-ottoman-centuries.mdx` — prose: "Four hundred years of a distant sovereign"
+- [ ] `chapter/sharifate-mecca/05-people-who-did-not-want-the-sermon.mdx` — prose: "People who did not want the sermon"
+- [ ] `chapter/sharifate-mecca/06-1916.mdx` — prose: "The nine years of being a king"
+- [ ] `polity/sharifate-mecca` — span starts 967
+- [ ] `polity/sharifate-mecca` — span ends 1925
+- [ ] `polity/sharifate-mecca` — capital Mecca from 968
+- [ ] `polity/sharifate-mecca` — founder Ja'far ibn Muhammad al-Hasani
+- [ ] `polity/sharifate-mecca` — peak Qatada ibn Idris
+- [ ] `polity/sharifate-mecca` — last Husayn ibn Ali r. 1908-1924
+- [ ] `polity/sharifate-mecca` — succession rule coded external-nomination
+- [ ] `polity/sharifate-mecca` — legitimation coded descent + investiture
+- [ ] `polity/sharifate-mecca` — turning point 1201 Qatada takes the sharifate
+- [ ] `polity/sharifate-mecca` — turning point 1517 The keys sent to Selim
+- [ ] `polity/sharifate-mecca` — turning point 1803 The Wahhabis take Mecca
+- [ ] `polity/sharifate-mecca` — turning point 1916 The Arab Revolt
+- [ ] `polity/sharifate-mecca` — ended by conquest in 1925
+
 ## Heinz Halm, The Empire of the Mahdi: The Rise of the Fatimids
 
 `halm-1996` — 17 claims
@@ -3697,28 +3724,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/shaddadid` — legitimation coded conquest + investiture
 - [ ] `polity/shaddadid` — turning point 1072 Ani granted
 - [ ] `polity/shaddadid` — ended by conquest in 1199
-
-## F. E. Peters, Mecca: A Literary History of the Muslim Holy Land
-
-`peters-1994` — 17 claims
-
-- [ ] `chapter/sharifate-mecca/01-the-qualification.mdx` — prose: "A qualification nobody could confer"
-- [ ] `chapter/sharifate-mecca/02-qatada.mdx` — prose: "One family for seven hundred years"
-- [ ] `chapter/sharifate-mecca/04-the-ottoman-centuries.mdx` — prose: "Four hundred years of a distant sovereign"
-- [ ] `chapter/sharifate-mecca/05-people-who-did-not-want-the-sermon.mdx` — prose: "People who did not want the sermon"
-- [ ] `chapter/sharifate-mecca/06-1916.mdx` — prose: "The nine years of being a king"
-- [ ] `polity/sharifate-mecca` — span starts 967
-- [ ] `polity/sharifate-mecca` — span ends 1925
-- [ ] `polity/sharifate-mecca` — capital Mecca from 968
-- [ ] `polity/sharifate-mecca` — founder Ja'far ibn Muhammad al-Hasani
-- [ ] `polity/sharifate-mecca` — peak Qatada ibn Idris
-- [ ] `polity/sharifate-mecca` — last Husayn ibn Ali r. 1908-1924
-- [ ] `polity/sharifate-mecca` — legitimation coded descent + investiture
-- [ ] `polity/sharifate-mecca` — turning point 1201 Qatada takes the sharifate
-- [ ] `polity/sharifate-mecca` — turning point 1517 The keys sent to Selim
-- [ ] `polity/sharifate-mecca` — turning point 1803 The Wahhabis take Mecca
-- [ ] `polity/sharifate-mecca` — turning point 1916 The Arab Revolt
-- [ ] `polity/sharifate-mecca` — ended by conquest in 1925
 
 ## Beatrice Forbes Manz, The Rise and Rule of Tamerlane
 
@@ -3968,7 +3973,7 @@ ordinary state, not an item to clear.
 - [ ] `polity/herodian` — peak Herod I r. -37--4
 - [ ] `polity/herodian` — military basis coded mercenary + land-grant
 - [ ] `polity/herodian` — revenue basis coded land-tax + monopoly + mining
-- [ ] `polity/herodian` — succession rule coded nomination
+- [ ] `polity/herodian` — succession rule coded nomination + external-nomination
 - [ ] `polity/herodian` — legitimation coded investiture
 - [ ] `polity/herodian` — turning point -20 The Temple
 - [ ] `polity/herodian` — descendant_scripts = 0
@@ -4120,7 +4125,7 @@ ordinary state, not an item to clear.
 - [ ] `edge/abbasid->tahirid` — vassal of in 821
 - [ ] `polity/tahirid` — capital Merv from 821
 - [ ] `polity/tahirid` — capital Nishapur from 830
-- [ ] `polity/tahirid` — succession rule coded nomination
+- [ ] `polity/tahirid` — succession rule coded nomination + external-nomination
 - [ ] `polity/tahirid` — legitimation coded caliphal-investiture
 - [ ] `polity/tahirid` — turning point 822 The name left out of the khutba (contested)
 - [ ] `polity/tahirid` — descendant_scripts = 0

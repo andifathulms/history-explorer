@@ -58,10 +58,17 @@ institutions:
   # implication: Rome was retaining a client, not buying off a threat. The field
   # asks where the money came from, and the answer is Constantinople.
   revenue_basis: { values: [tribute], source: fisher-2011 }
-  # Hereditary within the family in practice, and confirmed by the emperor. The
-  # events of 582 settle the question of who actually decided, which is why this
-  # is not coded `primogeniture` and not coded at all.
-  succession_rule: null
+  # `external-nomination`. Hereditary within the family in practice, and
+  # confirmed by the emperor; the events of 582 settle the question of who
+  # actually decided, which is why this is not `primogeniture`.
+  #
+  # It was null for a long time and the sentence above used to end "and not coded
+  # at all". The value it needed was added after five records — this one, the
+  # Nasrids of al-Hira, Greater Armenia, Caucasian Iberia and the Sharifate of
+  # Mecca — had each recorded the same missing idea on the page. This record's
+  # fifth chapter describes the identical thing happening to its `legitimation`
+  # field, one vocabulary earlier.
+  succession_rule: { values: [external-nomination], source: fisher-2011 }
   # This field was null, and its comment said the vocabulary had a value for
   # investiture by a caliph and none for investiture by an emperor. It has one
   # now. Al-Harith held Roman rank and the supreme phylarchate from Justinian,

@@ -67,13 +67,18 @@ institutions:
   # through al-Hira, which sat where the desert routes met the Euphrates and
   # was a market before it was a court.
   revenue_basis: { values: [tribute, trade-toll], source: toral-niehoff-2014 }
-  # Hereditary in the family and confirmed at Ctesiphon, and 602 settles who
-  # actually decided — exactly as 582 settles it on the Jafnid record, which is
-  # null for the same reason. Two client dynasties whose successions were in an
-  # emperor's gift, and the succession vocabulary describes arrangements
-  # internal to a polity. This is the same gap the Greater Armenia record names
-  # in this field and it is not the one the `investiture` value closed.
-  succession_rule: null
+  # `external-nomination`. Hereditary in the family and confirmed at Ctesiphon,
+  # and 602 settles who actually decided — exactly as 582 settles it on the
+  # Jafnid record, which was null for the same reason and now carries the same
+  # value. Two client dynasties whose successions were in an emperor's gift, in
+  # a succession vocabulary that until recently described only arrangements
+  # internal to a polity. This was the same gap the Greater Armenia record named
+  # in this field, and it was not the one the `investiture` value closed.
+  #
+  # It was closed afterwards, by an audit of every null in this field that found
+  # five records saying this — and the Sharifate of Mecca's comment counting
+  # itself as the fifth is what made the cluster visible.
+  succession_rule: { values: [external-nomination], source: fisher-2011 }
   # The mirror of the Jafnid record, in a value that did not exist when the
   # Jafnid record was written. The Nasrid king ruled al-Hira because the king of
   # kings said so, was crowned with a Persian diadem, and was removed by the

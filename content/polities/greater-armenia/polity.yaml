@@ -49,13 +49,21 @@ institutions:
   # one of these houses.
   military_basis: { values: [client-levy], source: toumanoff-1963 }
   revenue_basis: { values: [land-tax, trade-toll], source: hovannisian-1997 }
-  # Null, and this is the most formalised instance in the corpus of the gap
-  # several records have now named. Under the settlement of Rhandeia in AD 63,
+  # `external-nomination`, and this record is the most formalised instance of it
+  # in the corpus. The comment below was written while the field was null and
+  # argued the gap that eventually closed it; it is kept because the argument is
+  # the useful half.
+  #
+  # The gap several records had named: Under the settlement of Rhandeia in AD 63,
   # the king of Armenia was to be an Arsacid nominated by Parthia and crowned by
   # Rome — a written agreement between two empires about how a third polity's
-  # ruler would be chosen. The vocabulary has values for who inherits and none
+  # ruler would be chosen. The vocabulary had values for who inherits and none
   # for a throne held on two other people's terms.
-  succession_rule: null
+  #
+  # It has one now, and this record is the most formalised case of it: not one
+  # overlord confirming a dynasty's own choice, but two empires agreeing in
+  # writing that one of them would name the king and the other would crown him.
+  succession_rule: { values: [external-nomination], source: hovannisian-1997 }
   # The Arsacid line, and the Rhandeia settlement of AD 63 under which Parthia
   # nominated the king of Armenia and Rome crowned him — a public grant from an
   # external sovereign, and the most formalised one in the corpus, since it was
