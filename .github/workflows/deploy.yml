@@ -33,6 +33,11 @@ jobs:
       - run: npm run typecheck
       - run: npm test
 
+      # Hard rule 11. A ratchet against content/voice-baseline.txt: a chapter
+      # already known to address the schema may not get worse, and a clean one
+      # may not start. See scripts/check-voice.mjs.
+      - run: npm run check:voice
+
       - uses: actions/configure-pages@v6
         id: pages
 

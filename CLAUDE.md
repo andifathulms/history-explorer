@@ -223,6 +223,18 @@ These are not style preferences. Breaking them breaks the product.
     chapter is never rendered as a gap — the arc is a way of reading, not a
     shape every polity had.
 
+11. **A chapter is addressed to a reader, never to the schema.** The corpus
+    drifted badly here: chapters opened with "This record exists because another
+    one asked for it", named `revenue_basis` and `ended.by` in prose, and cited
+    coding rules at the reader as though the rulebook were the subject. It is
+    not. Field names, closed vocabularies and the rules in `coding-rules.md` are
+    how this repository stores a claim; a chapter is where the claim is made to
+    somebody reading about the past. Name the polity rather than calling it
+    "this record", say what happened, and let the coded fields carry the coding
+    silently. Writing about sources, manuscripts and what is not known is not
+    this mistake — the evidence is a legitimate subject and `aside` exists for
+    it. Enforced by `npm run check:voice` against a shrinking baseline.
+
 ## Ratings maths (`lib/ratings.ts`)
 
 - Percentile is computed over narrative corpus ∪ reference set, across all
