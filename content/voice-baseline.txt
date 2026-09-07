@@ -46,8 +46,6 @@ content/polities/aksum/02-the-stelae.mdx
 content/polities/aksum/03-ezana.mdx
 content/polities/aksum/04-the-coinage.mdx
 content/polities/aksum/05-across-the-sea.mdx
-content/polities/aksum/06-the-script.mdx
-content/polities/aksum/07-the-long-ending.mdx
 content/polities/al-busaid/02-from-imam-to-sultan.mdx
 content/polities/al-busaid/03-zanzibar.mdx
 content/polities/al-busaid/04-what-it-ran-on.mdx
@@ -64,7 +62,6 @@ content/polities/ammarid/03-1109.mdx
 content/polities/angkor/01-a-region-that-had-to-exist.mdx
 content/polities/angkor/02-the-water.mdx
 content/polities/angkor/03-the-chams-in-the-city.mdx
-content/polities/angkor/04-the-thai-script.mdx
 content/polities/angkor/05-1431.mdx
 content/polities/antigonid/01-the-country-he-started-from.mdx
 content/polities/antigonid/02-the-phalanx-and-the-legion.mdx
@@ -91,16 +88,13 @@ content/polities/attalid/04-the-will.mdx
 content/polities/aydinid/01-the-beylik-that-took-to-ships.mdx
 content/polities/aydinid/02-a-mosque-out-of-ephesus.mdx
 content/polities/ayutthaya/01-what-was-carried-north.mdx
-content/polities/ayutthaya/02-not-a-rice-kingdom.mdx
 content/polities/ayutthaya/04-1767.mdx
 content/polities/bagratid-armenia/01-a-crown-from-baghdad.mdx
-content/polities/bagratid-armenia/03-the-nakharars.mdx
 content/polities/bagratid-armenia/05-what-went-to-cilicia.mdx
 content/polities/banten/01-the-port-that-is-jakarta.mdx
 content/polities/banten/04-the-chinese-of-banten.mdx
 content/polities/banten/05-father-and-son.mdx
 content/polities/bavandid/04-the-local-history.mdx
-content/polities/bavandid/05-what-six-hundred-and-ninety-eight-years-means.mdx
 content/polities/brunei/01-boni.mdx
 content/polities/brunei/02-what-pigafetta-counted.mdx
 content/polities/brunei/03-what-a-claim-over-borneo-was.mdx
@@ -137,13 +131,11 @@ content/polities/caucasian-iberia/04-vakhtang.mdx
 content/polities/caucasian-iberia/05-580.mdx
 content/polities/caucasian-imamate/01-sharia-against-adat.mdx
 content/polities/caucasian-imamate/02-the-state-he-built.mdx
-content/polities/caucasian-imamate/03-an-elected-imamate.mdx
 content/polities/caucasian-imamate/05-gunib.mdx
 content/polities/champa/01-the-oldest-and-the-least-like-a-kingdom.mdx
 content/polities/champa/02-1177.mdx
 content/polities/champa/03-1471.mdx
 content/polities/characene/02-the-transfer.mdx
-content/polities/characene/03-tolls-alone.mdx
 content/polities/cilician-armenia/03-what-cilicia-made.mdx
 content/polities/cordoba/01-survivor.mdx
 content/polities/cordoba/05-the-boundaries.mdx
