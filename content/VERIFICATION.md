@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**3535 claims across 189 sources.**
+**3544 claims across 190 sources.**
 
 ## Where to start
 
@@ -3821,6 +3821,43 @@ ordinary state, not an item to clear.
 - [ ] `polity/nasrid-hira` — successor_claims = 0
 - [ ] `polity/nasrid-hira` — ended by dynastic replacement in 602
 
+## Stuart Munro-Hay, Aksum: An African Civilisation of Late Antiquity
+
+`munro-hay-1991` — 13 claims
+
+- [ ] `chapter/aksum/01-a-third-power.mdx` — prose: "A third power"
+- [ ] `chapter/aksum/03-ezana.mdx` — prose: "Ezana"
+- [ ] `chapter/aksum/04-the-coinage.mdx` — prose: "Gold, and a change of symbol"
+- [ ] `polity/aksum` — span starts 100
+- [ ] `polity/aksum` — span ends 940
+- [ ] `polity/aksum` — capital Aksum from 100
+- [ ] `polity/aksum` — peak Ezana r. 320-360
+- [ ] `polity/aksum` — military basis coded standing-professional
+- [ ] `polity/aksum` — legitimation coded divine-sanction
+- [ ] `polity/aksum` — turning point 330 Ezana
+- [ ] `polity/aksum` — descendant_scripts = 1 (Ge'ez vocalised syllabary)
+- [ ] `polity/aksum` — religions_carried = 1 (Miaphysite Christianity)
+- [ ] `polity/aksum` — ended by gradual absorption in 940
+
+## G. W. Bowersock, The Throne of Adulis: Red Sea Wars on the Eve of Islam
+*In Emblems of Antiquity.*
+
+`bowersock-2013` — 13 claims
+
+- [ ] `chapter/aksum/05-across-the-sea.mdx` — prose: "Across the sea"
+- [ ] `chapter/himyar/02-rahmanan.mdx` — prose: "The gods stop being named"
+- [ ] `chapter/himyar/03-a-jewish-kingdom.mdx` — prose: "A Jewish kingdom in Arabia"
+- [ ] `chapter/himyar/04-najran.mdx` — prose: "Najran"
+- [ ] `chapter/himyar/05-the-elephant.mdx` — prose: "Kaleb, Abraha, and the elephant"
+- [ ] `edge/himyar->aksum` — conquered by in 525
+- [ ] `polity/aksum` — turning point 525 Across the Red Sea
+- [ ] `polity/himyar` — span ends 525
+- [ ] `polity/himyar` — last Yusuf As'ar Yath'ar
+- [ ] `polity/himyar` — legitimation coded titulature + divine-sanction
+- [ ] `polity/himyar` — turning point 380 The gods stop being named
+- [ ] `polity/himyar` — turning point 523 Najran
+- [ ] `polity/himyar` — ended by conquest in 525
+
 ## C. E. Bosworth, KWARAZMSHAHS
 *In Encyclopaedia Iranica.*
 <https://iranicaonline.org/articles/kvarazmshahs-index>
@@ -3930,24 +3967,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/akkoyunlu` — turning point 1473 Otlukbeli
 - [ ] `polity/akkoyunlu` — turning point 1490 The death of Ya'qub
 
-## Stuart Munro-Hay, Aksum: An African Civilisation of Late Antiquity
-
-`munro-hay-1991` — 11 claims
-
-**Sole source** for `aksum` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/aksum/01-gold-and-scripture.mdx` — prose: "A coinage and an alphabet"
-- [ ] `chapter/aksum/02-the-coinage.mdx` — prose: "Gold, and a change of symbol"
-- [ ] `polity/aksum` — span starts 100
-- [ ] `polity/aksum` — span ends 940
-- [ ] `polity/aksum` — capital Aksum from 100
-- [ ] `polity/aksum` — founder Unknown r. 100-100
-- [ ] `polity/aksum` — peak Ezana r. 320-360
-- [ ] `polity/aksum` — last Unknown r. 940-940
-- [ ] `polity/aksum` — descendant_scripts = 1 (Ge'ez vocalised syllabary)
-- [ ] `polity/aksum` — religions_carried = 1 (Miaphysite Christianity)
-- [ ] `polity/aksum` — ended by gradual absorption in 940
-
 ## Abdul Sheriff, Slaves, Spices and Ivory in Zanzibar: Integration of an East African Commercial Empire into the World Economy, 1770-1873
 *In Eastern African Studies.*
 
@@ -3980,23 +3999,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/golden-horde` — last Shaykh Ahmad r. 1481-1502
 - [ ] `polity/golden-horde` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/golden-horde` — ended by fragmentation in 1502
-
-## G. W. Bowersock, The Throne of Adulis: Red Sea Wars on the Eve of Islam
-*In Emblems of Antiquity.*
-
-`bowersock-2013` — 11 claims
-
-- [ ] `chapter/himyar/02-rahmanan.mdx` — prose: "The gods stop being named"
-- [ ] `chapter/himyar/03-a-jewish-kingdom.mdx` — prose: "A Jewish kingdom in Arabia"
-- [ ] `chapter/himyar/04-najran.mdx` — prose: "Najran"
-- [ ] `chapter/himyar/05-the-elephant.mdx` — prose: "Kaleb, Abraha, and the elephant"
-- [ ] `edge/himyar->aksum` — conquered by in 525
-- [ ] `polity/himyar` — span ends 525
-- [ ] `polity/himyar` — last Yusuf As'ar Yath'ar
-- [ ] `polity/himyar` — legitimation coded titulature + divine-sanction
-- [ ] `polity/himyar` — turning point 380 The gods stop being named
-- [ ] `polity/himyar` — turning point 523 Najran
-- [ ] `polity/himyar` — ended by conquest in 525
 
 ## Nehemia Levtzion, Ancient Ghana and Mali
 
@@ -4355,6 +4357,16 @@ ordinary state, not an item to clear.
 - [ ] `chapter/timurid/07-the-uzbeks.mdx` — prose: "Taken by cousins"
 - [ ] `polity/timurid` — turning point 1409 Shahrukh at Herat
 - [ ] `polity/timurid` — turning point 1449 The murder of Ulugh Beg
+
+## David W. Phillipson, Foundations of an African Civilisation: Aksum and the Northern Horn, 1000 BC - AD 1300
+
+`phillipson-2012` — 5 claims
+
+- [ ] `chapter/aksum/02-the-stelae.mdx` — prose: "The stelae"
+- [ ] `chapter/aksum/06-the-script.mdx` — prose: "The script"
+- [ ] `chapter/aksum/07-the-long-ending.mdx` — prose: "The long ending"
+- [ ] `polity/aksum` — revenue basis coded trade-toll + tribute
+- [ ] `polity/aksum` — turning point 640 The sea closes (contested)
 
 ## Anne-Marie Eddé, trans. Jane Marie Todd, Saladin
 

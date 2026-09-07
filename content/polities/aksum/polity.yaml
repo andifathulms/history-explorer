@@ -19,10 +19,16 @@ capitals:
 
 core_region: The northern Ethiopian highlands
 
+# `founder` and `last` were entered as a ruler named Unknown with a one-year
+# reign, which is a placeholder wearing the shape of a fact. Both are null now,
+# which is what the schema provides for and what the evidence supports: the
+# kingdom's beginning is a process the Periplus catches in progress under a king
+# called Zoskales, who may or may not have ruled at Aksum, and its last ruler is
+# not named in anything.
 rulers:
-  founder: { name: Unknown, reign: [100, 100], source: munro-hay-1991 }
+  founder: { name: null, source: null }
   peak: { name: Ezana, reign: [320, 360], source: munro-hay-1991 }
-  last: { name: Unknown, reign: [940, 940], source: munro-hay-1991 }
+  last: { name: null, source: null }
 
 scripts_and_languages:
   administration: [Ge'ez, Greek]
@@ -34,7 +40,76 @@ ended:
   year: 940
   source: munro-hay-1991
 
+institutions:
+  # Regiments, and this is the weakest of the three coded fields on this record.
+  # Ezana's inscriptions dispatch named units — Mahaza, Hara, Damawa, Sabarat and
+  # others — on campaigns to particular places, which is evidence of standing
+  # formations under royal command rather than a levy raised for an occasion.
+  # What the inscriptions do not say is how the men were recruited, paid or
+  # released, so `standing-professional` is an inference from the naming and is
+  # flagged as one here rather than presented as established.
+  military_basis: { values: [standing-professional], source: munro-hay-1991 }
+  # The Red Sea, and the peoples the inscriptions record submitting. Adulis was
+  # the port through which African ivory, incense, tortoiseshell, obsidian and
+  # gold reached the Roman and Indian trades, and the Periplus describes the
+  # customs arrangements there in the first century. Beside it the tribute Ezana
+  # lists in his campaign inscriptions, itemised in cattle, sheep and captives.
+  revenue_basis: { values: [trade-toll, tribute], source: phillipson-2012 }
+  succession_rule: null
+  # `divine-sanction`, and this record can date the moment its content changed
+  # without changing its form. Before Ezana the king is the son of Mahrem, the
+  # unconquered — a war god equated with Ares in the Greek inscriptions. After
+  # him the same formulae invoke the Lord of Heaven. The claim is identical in
+  # structure and the addressee is different, which is the fourth chapter's
+  # subject and is legible on the coinage as well as in the stone.
+  legitimation: { values: [divine-sanction], source: munro-hay-1991 }
+
+turning_points:
+  - year: 330
+    type: conversion
+    name: Ezana
+    changed: >-
+      The king became a Christian and the state followed, which is roughly
+      contemporary with Constantine and earlier than most of the Roman west. The
+      church took its bishop from Alexandria — Frumentius, consecrated by
+      Athanasius — and stayed Miaphysite and aligned with Egypt rather than with
+      Constantinople, which is why it survived the Islamic conquest of Egypt as
+      an isolated Christian establishment and survives now.
+    source: munro-hay-1991
+    contested: false
+  - year: 525
+    type: battle
+    name: Across the Red Sea
+    changed: >-
+      Kaleb crossed into Arabia with a fleet and destroyed the Jewish kingdom of
+      Himyar, whose record this corpus carries and whose ending names this one.
+      It is the furthest this state ever reached and the point at which an
+      African kingdom held both sides of the southern Red Sea. The occupation
+      lasted about half a century, was undone by a Persian expedition, and is the
+      last thing Aksum did that the wider world recorded.
+    source: bowersock-2013
+    contested: false
+  - year: 640
+    type: catastrophe
+    name: The sea closes
+    changed: >-
+      The Arab conquest of Egypt and the Levant reoriented the Red Sea. Aksum was
+      not invaded — the early Islamic tradition remembers the kingdom as the
+      refuge that sheltered the Prophet's followers and treats it as exempt — but
+      the trade it lived on now moved between Muslim ports under Muslim
+      arrangements, and Adulis stops being an international harbour. The coinage
+      ends in the same century, which for a state whose best evidence is its
+      money means the record goes dark as the state does.
+    source: phillipson-2012
+    contested: true
+
 measures:
+  # Null, and this one is a deliberate refusal rather than an absence. A figure
+  # of 1,250,000 square kilometres at 350 circulates for this kingdom, attributed
+  # to Turchin, Adams and Hall's 2006 tabulation. This project could not open
+  # that table and confirm the row, and hard rule 1 does not allow a citation
+  # nobody here has read. The figure may well be right; it is not entered until
+  # somebody has looked.
   reach_km2: null
   peak_population: null
   influence:
@@ -46,4 +121,10 @@ measures:
       count: 1
       items: [Miaphysite Christianity]
       source: munro-hay-1991
+    # Null rather than zero. The Zagwe dynasty and then the Solomonic one ruled
+    # the same highlands afterwards and made elaborate claims about their own
+    # descent, and neither is in this corpus; whether either asserted *this*
+    # kingdom's legitimacy in the sense rule 1 requires is not something the two
+    # sources on this record address. Nobody has looked, which is what null
+    # means.
     successor_claims: { count: null, items: [], source: null }

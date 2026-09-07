@@ -2226,6 +2226,37 @@ sources:
       coded from it. Ćirković is the authority on the medieval Serbian mining
       economy, and that is the field this record turns on.
 
+  - id: phillipson-2012
+    kind: book
+    author: David W. Phillipson
+    title: >-
+      Foundations of an African Civilisation: Aksum and the Northern Horn,
+      1000 BC - AD 1300
+    publisher: James Currey
+    year: 2012
+    note: >-
+      An archaeologist's account, running four centuries past the kingdom's end
+      in order to argue for continuity into Christian Ethiopia rather than for a
+      collapse. Cited here alongside munro-hay-1991 for the material evidence —
+      the stelae, the settlement pattern, the Adulis trade — which is most of
+      what this record has, since Aksum left inscriptions and coins and almost
+      no administration.
+
+  - id: gomez-2018
+    kind: book
+    author: Michael A. Gomez
+    title: >-
+      African Dominion: A New History of Empire in Early and Medieval West
+      Africa
+    publisher: Princeton University Press
+    year: 2018
+    note: >-
+      The major recent revision, built from Arabic manuscripts, oral tradition
+      and archaeology together, and unusually direct about slavery, caste and
+      gender in the Niger empires. Cited on this site's Mali and Songhai records
+      where Gomez departs from the older narratives, and the departures are
+      stated rather than smoothed over.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors
