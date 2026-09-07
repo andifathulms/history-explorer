@@ -650,10 +650,8 @@ content/polities/wattasid/04-out-of-fez.mdx
 content/polities/xiongnu/01-xiongnu.mdx
 content/polities/yaariba/01-the-office-again.mdx
 content/polities/yaariba/02-the-portuguese.mdx
-content/polities/yaariba/04-a-fleet-the-field-cannot-record.mdx
 content/polities/yaariba/05-1719.mdx
 content/polities/yuan/01-kublai.mdx
-content/polities/yuan/03-the-assembly-and-the-throne.mdx
 content/polities/yuan/04-the-ortogh.mdx
 content/polities/yuan/05-not-a-khanate.mdx
 content/polities/zand/02-the-vakil.mdx
@@ -664,7 +662,6 @@ content/polities/zangid/01-edessa.mdx
 content/polities/zangid/05-the-officer-they-sent-to-egypt.mdx
 content/polities/zaydi-yemen/02-one-power-among-several.mdx
 content/polities/zaydi-yemen/04-the-dynasty-problem.mdx
-content/polities/zaydi-yemen/05-what-a-thousand-years-means.mdx
 content/polities/zaydi-yemen/06-1962.mdx
 content/polities/zayyanid/02-a-city-built-to-take-a-city.mdx
 content/polities/zayyanid/03-the-funduk.mdx
