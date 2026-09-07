@@ -1,5 +1,5 @@
 id: kanem-bornu
-region: africa
+region: west-africa
 
 name:
   latin: Kanem-Bornu
@@ -46,7 +46,7 @@ scripts_and_languages:
 # Ngazargamu's successor state in 1893 and killed the ruler; the French killed
 # Rabih in 1900 and partitioned the country between three colonial empires.
 # `by` is empty because neither Rabih nor those empires are in this corpus, which
-# is the fifth African record here to end that way.
+# is the fifth record in Africa here to end that way.
 ended:
   type: conquest
   by: []

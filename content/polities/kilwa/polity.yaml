@@ -1,5 +1,5 @@
 id: kilwa
-region: africa
+region: zimbabwe-and-the-coast
 
 name:
   latin: Kilwa Sultanate
@@ -41,7 +41,7 @@ scripts_and_languages:
 # hundred men, sacked it, built a fort, and installed a puppet. The Portuguese
 # abandoned the fort within eight years and Kilwa never recovered the Sofala
 # trade, which they had taken directly. `by` is empty because Portugal is not in
-# this corpus, which is now the fourth African record on this site to end
+# this corpus, which is now the fourth record in Africa on this site to end
 # against a power it cannot name.
 ended:
   type: conquest

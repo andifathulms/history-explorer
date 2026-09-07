@@ -261,41 +261,61 @@ regions:
     group: south-asia
     thread: true
 
-  # Twelve records, three internal edges, and clusters that have nothing to do
-  # with each other: the Horn (`aksum -> ethiopia`), the Niger (`ghana -> mali ->
-  # songhai`, with Asante on the same goldfields two centuries later), the middle
-  # Nile (Kush, Makuria and Alodia), the Indian Ocean coast (Kilwa), the
-  # Zimbabwe plateau at the other end of Kilwa's gold, and Kanem-Bornu at Lake
-  # Chad belonging to none of them. No edge crosses between the clusters and none
-  # can — Aksum and Mali have nothing to do with each other and never will.
+  # `africa` was one region with twelve records and three internal edges, and
+  # the argument for splitting it was written on this file for several passes
+  # before it was acted on: the clusters had nothing to do with each other, no
+  # edge crossed between them, and none ever could, because Aksum and Mali have
+  # nothing to do with each other.
   #
-  # Nine of the twelve have an empty `ended.by`. Three end against a power this
-  # site can name and only one of those, `ghana -> mali`, is inside the region.
-  # The Asante record's last chapter argues that this is where the project's
-  # boundary currently runs: not at the Sahara or the Red Sea, but at the point
-  # where the polity on the other side of an African ending has not been
-  # written — Portugal, Britain, the Funj, three colonial empires.
+  # It is now three regions. The split cost zero edges — all three internal
+  # edges are inside one of the new regions, and the three edges that leave
+  # Africa (`saba -> ethiopia`, `himyar -> aksum`, `songhai -> saadi`) already
+  # crossed a region boundary and were already not drawn by any thread.
   #
-  # That is an argument for splitting, and the split now costs nothing: both
-  # sequences keep their edges and both would carry a thread. It is also no
-  # longer a two-way split, since Makuria and Kilwa belong to neither sequence.
-  # A decision is pending rather than made.
+  # What the split does not fix is the thinness, and it makes it easier to see
+  # rather than harder: West Africa has five records for a region that should
+  # have Benin, Oyo, the Hausa city-states, the Sokoto caliphate and Kongo, and
+  # the Zimbabwe plateau and its coast have two. Hard rule 8 exists so that
+  # entries like these are not second-class once they arrive; what the rule
+  # cannot do is get them written.
   #
-  # The thinness is stated on the Mali record's last chapter rather than left to
-  # be inferred. Ghana, Kanem-Bornu, Benin, Oyo, the Hausa city-states, Great
-  # Zimbabwe, Kongo, the Swahili coast and Ethiopia after Aksum are all absent.
-  # Hard rule 8 was written so that entries like these could not be treated as
-  # second-class once they arrived; what the rule cannot do is get them written.
-  - id: africa
-    name: Africa
+  # Nine of the twelve records still have an empty `ended.by`, and that fact
+  # belongs to the continent rather than to any of the three regions, which is
+  # why the Asante and Kanem-Bornu chapters that count it now count it across
+  # all three.
+  - id: west-africa
+    name: West Africa
     blurb: >-
-      The Horn, the middle Nile, the Niger, Lake Chad, the Zimbabwe plateau and
-      the Indian Ocean coast: states that lived on controlling where other
-      people's goods crossed, on stretches of ground with nothing to do with each
-      other — and twelve records for a continent, which is a fact about this
-      project rather than about Africa.
+      The Sahel and the forest below it: states that lived on the crossing
+      charge for gold going north and salt coming south, from Ghana on the
+      upper Senegal to Asante on the Volta, over a thousand years of the same
+      trade changing hands.
     group: africa-maghreb
     thread: true
+
+  - id: the-nile-and-the-horn
+    name: The Nile and the Horn
+    blurb: >-
+      Two Christian worlds either side of the Red Sea's southern end — Kush,
+      Makuria and Alodia on the middle Nile, Aksum and its successor in the
+      Ethiopian highlands — which outlasted the empires that converted them and
+      were reached by Islam last.
+    group: africa-maghreb
+    thread: true
+
+  # `thread: false` and ordinary. Two records with no edge between them, and
+  # there is no edge to draw: Kilwa sold the gold that Great Zimbabwe's plateau
+  # produced, which is a trading relationship and not a succession. Hard rule 7
+  # says a region without a thread is a normal region, and this is what one
+  # looks like.
+  - id: zimbabwe-and-the-coast
+    name: The Zimbabwe Plateau and the Swahili Coast
+    blurb: >-
+      One inland stone capital and one island port, four hundred miles and a
+      river apart, joined by a single commodity: the gold of the plateau, which
+      left Africa through Sofala and Kilwa and paid for both of them.
+    group: africa-maghreb
+    thread: false
 
   # Extended past 1736. The blurb previously ended at "the dynasty that made it
   # Shi'i", which described the corpus rather than the country: the Safavid
