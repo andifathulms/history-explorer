@@ -976,6 +976,23 @@ edges:
     source: robson-1995
     contested: false
 
+  # What went to Aceh after 1511 was Melaka's business: the Muslim merchant
+  # communities, the Malay court culture, and the trade that would not deal with
+  # a Portuguese customs house. Not its authority — Aceh's sultans claimed
+  # descent from their own line, which is why this is `absorbed remnants of` and
+  # not `claimed legitimacy of`.
+  - from: melaka
+    to: aceh
+    type: absorbed remnants of
+    year: 1511
+    note: >-
+      Melakan merchants, scholars and shipping relocated to the northern
+      Sumatran ports after the Portuguese took the city, and Aceh consolidated
+      them into the sultanate that inherited Melaka's commercial position on the
+      strait.
+    source: reid-1988
+    contested: false
+
   # Melaka's founder was a prince out of Palembang and the Malay Annals trace
   # his line through Srivijaya's kings. It is a claim made a century and a
   # quarter after the last Srivijayan ruler anybody can name, by a court whose

@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**3826 claims across 206 sources.**
+**3871 claims across 208 sources.**
 
 ## Where to start
 
@@ -2937,6 +2937,35 @@ ordinary state, not an item to clear.
 - [ ] `polity/qajar` — turning point 1908 Oil at Masjed Soleyman
 - [ ] `polity/qajar` — ended by internal usurpation in 1925
 
+## Leonard Y. Andaya, The World of Maluku: Eastern Indonesia in the Early Modern Period
+
+`andaya-1993` — 22 claims
+
+**Sole source** for `ternate` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/ternate/01-five-islands.mdx` — prose: "Five islands"
+- [ ] `chapter/ternate/02-the-dualism.mdx` — prose: "Ternate and Tidore"
+- [ ] `chapter/ternate/03-hairun.mdx` — prose: "The fort"
+- [ ] `chapter/ternate/04-no-edges.mdx` — prose: "A record with no thread"
+- [ ] `chapter/ternate/05-the-trees.mdx` — prose: "The trees"
+- [ ] `polity/ternate` — span starts 1486
+- [ ] `polity/ternate` — span ends 1683
+- [ ] `polity/ternate` — capital Ternate from 1486
+- [ ] `polity/ternate` — founder Zainal Abidin r. 1486-1500
+- [ ] `polity/ternate` — peak Baabullah r. 1570-1583
+- [ ] `polity/ternate` — last Sibori Amsterdam r. 1675-1691
+- [ ] `polity/ternate` — military basis coded client-levy
+- [ ] `polity/ternate` — revenue basis coded monopoly + tribute
+- [ ] `polity/ternate` — legitimation coded descent + divine-sanction
+- [ ] `polity/ternate` — turning point 1512 The invitation
+- [ ] `polity/ternate` — turning point 1570 The murder of Hairun
+- [ ] `polity/ternate` — turning point 1575 The fort
+- [ ] `polity/ternate` — turning point 1683 The company's vassal
+- [ ] `polity/ternate` — descendant_scripts = 0
+- [ ] `polity/ternate` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/ternate` — successor_claims = 0
+- [ ] `polity/ternate` — ended by gradual absorption in 1683
+
 ## Michael Axworthy, The Sword of Persia: Nader Shah, from Tribal Warrior to Conquering Tyrant
 
 `axworthy-2006` — 21 claims
@@ -3042,6 +3071,31 @@ ordinary state, not an item to clear.
 - [ ] `polity/abbasid-cairo` — ended by conquest in 1517
 - [ ] `polity/mamluk-sultanate` — legitimation coded caliphal-investiture
 - [ ] `polity/muzaffarid` — legitimation coded caliphal-investiture + conquest
+
+## Anthony Reid, Southeast Asia in the Age of Commerce, 1450-1680. Volume One: The Lands below the Winds
+
+`reid-1988` — 20 claims
+
+- [ ] `chapter/aceh/01-what-1511-sent-north.mdx` — prose: "What 1511 sent north"
+- [ ] `chapter/aceh/02-pepper.mdx` — prose: "Pepper"
+- [ ] `chapter/aceh/04-iskandar-muda.mdx` — prose: "Iskandar Muda"
+- [ ] `chapter/aceh/05-four-queens.mdx` — prose: "Four queens"
+- [ ] `chapter/melaka/03-no-rice.mdx` — prose: "No rice"
+- [ ] `chapter/melaka/04-iskandar-shah.mdx` — prose: "Iskandar Shah"
+- [ ] `chapter/melaka/06-1511.mdx` — prose: "1511"
+- [ ] `edge/melaka->aceh` — absorbed remnants of in 1511
+- [ ] `polity/aceh` — peak Iskandar Muda r. 1607-1636
+- [ ] `polity/aceh` — revenue basis coded trade-toll + monopoly
+- [ ] `polity/aceh` — turning point 1629 Melaka
+- [ ] `polity/aceh` — turning point 1641 Safiatuddin
+- [ ] `polity/melaka` — span ends 1511
+- [ ] `polity/melaka` — last Mahmud Shah r. 1488-1511
+- [ ] `polity/melaka` — revenue basis coded trade-toll
+- [ ] `polity/melaka` — turning point 1414 Islam (contested)
+- [ ] `polity/melaka` — turning point 1511 Albuquerque
+- [ ] `polity/melaka` — descendant_scripts = 0
+- [ ] `polity/melaka` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/melaka` — ended by conquest in 1511
 
 ## R. Malcolm Errington, A History of Macedonia
 *In Hellenistic Culture and Society.*
@@ -3944,6 +3998,25 @@ ordinary state, not an item to clear.
 - [ ] `polity/samanid` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/samanid` — ended by conquest in 999
 
+## Anthony Reid, An Indonesian Frontier: Acehnese and Other Histories of Sumatra
+
+`reid-2005` — 14 claims
+
+- [ ] `chapter/aceh/03-istanbul.mdx` — prose: "Istanbul"
+- [ ] `chapter/aceh/06-thirty-years.mdx` — prose: "Thirty years"
+- [ ] `polity/aceh` — span starts 1496
+- [ ] `polity/aceh` — span ends 1903
+- [ ] `polity/aceh` — capital Banda Aceh from 1496
+- [ ] `polity/aceh` — founder Ali Mughayat Syah r. 1496-1530
+- [ ] `polity/aceh` — last Muhammad Daud Syah r. 1874-1903
+- [ ] `polity/aceh` — legitimation coded descent + divine-sanction
+- [ ] `polity/aceh` — turning point 1568 Istanbul (contested)
+- [ ] `polity/aceh` — turning point 1873 The first expedition
+- [ ] `polity/aceh` — descendant_scripts = 0
+- [ ] `polity/aceh` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/aceh` — successor_claims = 0
+- [ ] `polity/aceh` — ended by conquest in 1903
+
 ## Heribert Busse, Iran under the Buyids
 *In The Cambridge History of Iran, Volume 4.*
 
@@ -4299,22 +4372,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/golden-horde` — last Shaykh Ahmad r. 1481-1502
 - [ ] `polity/golden-horde` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/golden-horde` — ended by fragmentation in 1502
-
-## Anthony Reid, Southeast Asia in the Age of Commerce, 1450-1680. Volume One: The Lands below the Winds
-
-`reid-1988` — 11 claims
-
-- [ ] `chapter/melaka/03-no-rice.mdx` — prose: "No rice"
-- [ ] `chapter/melaka/04-iskandar-shah.mdx` — prose: "Iskandar Shah"
-- [ ] `chapter/melaka/06-1511.mdx` — prose: "1511"
-- [ ] `polity/melaka` — span ends 1511
-- [ ] `polity/melaka` — last Mahmud Shah r. 1488-1511
-- [ ] `polity/melaka` — revenue basis coded trade-toll
-- [ ] `polity/melaka` — turning point 1414 Islam (contested)
-- [ ] `polity/melaka` — turning point 1511 Albuquerque
-- [ ] `polity/melaka` — descendant_scripts = 0
-- [ ] `polity/melaka` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/melaka` — ended by conquest in 1511
 
 ## Frederick W. Mote and Denis Twitchett (eds), The Cambridge History of China, Volume 7: The Ming Dynasty, 1368-1644, Part 1
 

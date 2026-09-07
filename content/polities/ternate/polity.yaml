@@ -1,0 +1,151 @@
+id: ternate
+region: maritime-asia
+
+name:
+  latin: Sultanate of Ternate
+  script: null
+  script_lang: null
+
+# The kolano — the kings of Ternate — are listed in traditions running back into
+# the thirteenth century. This record does not start there. It starts in 1486
+# with Zainal Abidin, the first ruler to take the title sultan and to govern by
+# Islamic law, because that is the point from which the polity is documented
+# rather than remembered.
+#
+# 1683 is the treaty under which the sultan became a vassal of the Dutch
+# company. The sultanate continued as an office for another two hundred and
+# thirty years; the polity did not.
+span:
+  start: { min: 1486, max: 1486, source: andaya-1993 }
+  end: { min: 1683, max: 1683, source: andaya-1993 }
+
+identity: >-
+  One of the two courts of the north Moluccas, on an island of forty-odd square
+  kilometres that grew most of the world's cloves, and the only polity in this
+  corpus to expel a European power by siege and keep its capital.
+
+capitals:
+  - { name: Ternate, from: 1486, source: andaya-1993 }
+
+core_region: The clove islands off western Halmahera, with dependencies across the north Moluccas, eastern Sulawesi and the Papuan coast
+
+rulers:
+  founder: { name: Zainal Abidin, reign: [1486, 1500], source: andaya-1993 }
+  peak: { name: Baabullah, reign: [1570, 1583], source: andaya-1993 }
+  last: { name: Sibori Amsterdam, reign: [1675, 1691], source: andaya-1993 }
+
+scripts_and_languages:
+  administration: [Ternate, Malay, Arabic]
+  writing_system: Jawi — the Arabic script adapted for Malay
+
+# Not a conquest. Ternate was reduced by a company that wanted the clove trade
+# and got it by treaty, by destroying the trees on islands it did not control,
+# and by making the sultan its instrument for enforcing that destruction. The
+# 1683 settlement is the point at which the sultan's authority over his own
+# dependencies became something exercised on the company's behalf.
+#
+# `by` is empty. The Dutch East India Company is not in this corpus, which makes
+# this the fourth record in this region to end against a European power with no
+# page here.
+ended:
+  type: gradual absorption
+  by: []
+  year: 1683
+  source: andaya-1993
+
+institutions:
+  # Kora-kora — the long oared war craft of the north Moluccas — raised from
+  # dependent communities and led by their own chiefs. Ternate's reach across
+  # eastern Indonesia was a fleet obligation owed by islands that kept their own
+  # rulers, which is the same arrangement this region's Srivijaya and Melaka
+  # records carry with the orang laut, in different water and with different
+  # boats.
+  military_basis: { values: [client-levy], source: andaya-1993 }
+  # Cloves, and tribute from the islands that had to hand them over.
+  #
+  # Nine records in this corpus carry `monopoly`, and in every one of them it
+  # sits beside a land tax or a trade toll, because a monopoly is normally
+  # something a state adds to a revenue base it already has. Ternate has no land
+  # tax to add it to. The base is a tree that grew, until Europeans transplanted
+  # it, on five small islands and nowhere else on earth.
+  revenue_basis: { values: [monopoly, tribute], source: andaya-1993 }
+  # Null. The sultan was chosen from the ruling line by the bobato, the council
+  # of district heads, and the sources describe an office whose holder could be
+  # deposed by the same body. Whether that is election, nomination or the
+  # ordinary working of a dynasty under a strong council is not something this
+  # site can settle from what it has read, and coding rule 7 asks for the rule.
+  succession_rule: null
+  # Descent from the kolano line, which the traditions make sacred and not
+  # merely royal, and Islamic kingship on top of it. The two did not replace one
+  # another: the sultan who expelled the Portuguese in the name of Islam held his
+  # position by a genealogy that predates it by centuries.
+  legitimation: { values: [descent, divine-sanction], source: andaya-1993 }
+
+turning_points:
+  - year: 1512
+    type: treaty
+    name: The invitation
+    changed: >-
+      The first Portuguese to reach the Moluccas were taken in by Ternate as
+      allies against Tidore, and a fort followed. It is worth being exact about
+      the direction: the Portuguese did not force their way into Maluku. They
+      were recruited into a quarrel that was already there, by one side, as
+      leverage against the other.
+    source: andaya-1993
+    contested: false
+  - year: 1570
+    type: catastrophe
+    name: The murder of Hairun
+    changed: >-
+      The Portuguese captain invited Sultan Hairun into the fort and had him
+      stabbed. Whatever the alliance of 1512 had been, it ended in that room,
+      and it ended in a way that made every subsequent Portuguese argument in
+      the north Moluccas unusable.
+    source: andaya-1993
+    contested: false
+  - year: 1575
+    type: siege
+    name: The fort
+    changed: >-
+      Hairun's son Baabullah besieged the Portuguese fort for five years and
+      took its surrender. The garrison left the island.
+      Three records on this site threw a European power out and kept their own
+      capital: the Ya'ariba took Muscat from the Portuguese in 1650, the
+      Ethiopian record destroyed an Italian army at Adwa in 1896, and this one is
+      the earliest of the three by seventy-five years. Set against them, the
+      Kilwa record was sacked in 1505, the Melakan taken in 1511 and the Acehnese
+      ground down over thirty years from 1873.
+      Ternate won, and lost anyway, to a different company a century later — which
+      is a statement about what the Dutch company was rather than about what
+      Ternate was not.
+    source: andaya-1993
+    contested: false
+  - year: 1683
+    type: treaty
+    name: The company's vassal
+    changed: >-
+      The sultan acknowledged himself a vassal of the Dutch East India Company.
+      The instrument that mattered was not the treaty but what it enforced: the
+      extirpation of clove trees everywhere except the islands the company chose,
+      carried out by Ternatan expeditions, against Ternate's own dependencies, on
+      the company's orders.
+      A polity whose entire revenue was one crop was made to destroy that crop
+      wherever it could not be watched.
+    source: andaya-1993
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: andaya-1993 }
+    # One. Ternate carried Islam east and north through the archipelago's
+    # furthest reach — Halmahera, the Sula islands, the eastern arm of Sulawesi,
+    # the Papuan coast and, by way of its trade, toward the southern Philippines.
+    # Coding rule 2 counts propagation past a prior boundary, and this is the
+    # eastern edge of it.
+    religions_carried:
+      count: 1
+      items: [Sunni Islam]
+      source: andaya-1993
+    successor_claims: { count: 0, items: [], source: andaya-1993 }

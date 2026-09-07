@@ -1,0 +1,160 @@
+id: aceh
+region: maritime-asia
+
+name:
+  latin: Aceh Darussalam
+  # Written in Jawi, like Melaka's Malay, and null here for the reason that
+  # record gives: a name in letters nobody on this project can proofread is a
+  # decoration that reads as a citation.
+  script: null
+  script_lang: null
+
+# Ali Mughayat Syah consolidated the northern Sumatran ports into one sultanate
+# in the years around 1496. 1903 is the surrender of Sultan Muhammad Daud Syah
+# to the Dutch, thirty years into a war that had already outlasted every other
+# resistance to Dutch expansion in the archipelago.
+span:
+  start: { min: 1496, max: 1496, source: reid-2005 }
+  end: { min: 1903, max: 1903, source: reid-2005 }
+
+identity: >-
+  The pepper sultanate at the northern tip of Sumatra, which took the trade
+  Melaka lost, was called the veranda of Mecca, and spent its last thirty years
+  fighting the longest war in Dutch colonial history.
+
+capitals:
+  - { name: Banda Aceh, from: 1496, source: reid-2005 }
+
+core_region: The northern tip of Sumatra, with pepper ports down both coasts
+
+rulers:
+  founder: { name: Ali Mughayat Syah, reign: [1496, 1530], source: reid-2005 }
+  peak: { name: Iskandar Muda, reign: [1607, 1636], source: reid-1988 }
+  last: { name: Muhammad Daud Syah, reign: [1874, 1903], source: reid-2005 }
+
+scripts_and_languages:
+  administration: [Malay, Acehnese, Arabic]
+  writing_system: Jawi — the Arabic script adapted for Malay
+
+# The Dutch declared war in 1873, lost their first commander in the first month,
+# and took thirty years to obtain a surrender. `by` is empty because the
+# Netherlands is not in this corpus, which makes this the third record in this
+# region to end against a European power that has no page here.
+ended:
+  type: conquest
+  by: []
+  year: 1903
+  source: reid-2005
+
+institutions:
+  # Null, and it is a real finding rather than an absence. The sources describe
+  # two incompatible arrangements two generations apart. Iskandar Muda held a
+  # force centred on the capital — war captives settled around it, an elephant
+  # corps, and cannon, some of it Ottoman — precisely in order to be independent
+  # of the territorial chiefs. After 1641 the uleebalang, those same chiefs,
+  # recovered their levies and the capital's force decayed.
+  #
+  # Coding rule 7 asks for the rule rather than the outcome, and this record has
+  # two rules in sequence with the machinery of the second built specifically to
+  # undo the first. One value would be a claim about which century counts.
+  military_basis: null
+  # Pepper, and the state's cut of it. Aceh taxed the trade passing its ports
+  # and held a royal monopoly over the pepper of the coasts it controlled, which
+  # is the arrangement that made Iskandar Muda's reign possible and the one his
+  # successors could not maintain once the Dutch began buying upcountry.
+  revenue_basis: { values: [trade-toll, monopoly], source: reid-1988 }
+  # Null. Between 1641 and 1699 Aceh was ruled by four women in succession, which
+  # is the longest run of reigning queens anywhere in this corpus, and it was not
+  # a rule of any kind. The orangkaya — the merchant aristocracy Iskandar Muda
+  # had spent thirty years suppressing — elevated the first of them precisely
+  # because a queen could be managed, and kept doing it for three more reigns
+  # until the ulama produced a fatwa against female rule and it stopped.
+  #
+  # This site added `matrilineal` to the vocabulary for Ghana, Makuria and
+  # Asante. Aceh is the case that shows why the value had to be defined by
+  # descent rather than by the sex of the ruler: four queens in a row, and
+  # nothing matrilineal anywhere near them.
+  succession_rule: null
+  # Descent, and God. Aceh was called the veranda of Mecca because it was where
+  # the archipelago's pilgrims embarked, and its court kept scholars — Hamzah
+  # Fansuri, Shams al-Din, Nur al-Din al-Raniri — whose work is the foundation of
+  # Malay-language Islamic literature. The Bustan al-Salatin, written at this
+  # court, is a book about what makes a ruler legitimate, produced by the ruler.
+  legitimation: { values: [descent, divine-sanction], source: reid-2005 }
+
+turning_points:
+  - year: 1568
+    type: treaty
+    name: Istanbul
+    changed: >-
+      Aceh sent an embassy to the Ottoman court asking for help against the
+      Portuguese at Melaka, and part of what was promised arrived: cannon,
+      founders who could cast more, and gunners. This corpus's Ottoman record
+      is nine thousand kilometres away and the two polities never shared a
+      frontier.
+      What did not arrive is the part this site had to decide about. The
+      Melakan record carries `investiture` because a Ming emperor granted its
+      founder recognition and he sailed to collect it. Aceh asked for the same
+      kind of relation and got ordnance, and ordnance is not a grant of
+      authority. The value is not on this record.
+    source: reid-2005
+    contested: true
+  - year: 1629
+    type: siege
+    name: Melaka
+    changed: >-
+      Iskandar Muda threw the largest fleet Aceh ever assembled at Portuguese
+      Melaka and lost it — ships, men and the initiative, in one campaign.
+      Aceh had besieged that city at least half a dozen times in a century
+      without taking it. After 1629 it stopped trying, and the sultanate's
+      hundred and thirty remaining years are a long shrinking back toward its own
+      coast.
+    source: reid-1988
+    contested: false
+  - year: 1641
+    type: succession-crisis
+    name: Safiatuddin
+    changed: >-
+      Iskandar Thani died without a son and the orangkaya raised his widow to the
+      throne. She reigned thirty-four years and was followed by three more
+      queens. The autocracy Iskandar Muda had built was dismantled inside a
+      generation by the simple device of choosing rulers who could not rebuild
+      it, and Aceh became, in practice, a federation of pepper chiefs with a
+      court at its centre.
+    source: reid-1988
+    contested: false
+  - year: 1873
+    type: battle
+    name: The first expedition
+    changed: >-
+      The Netherlands declared war and landed. The Acehnese killed the Dutch
+      commander within weeks and the expedition withdrew, which is a thing that
+      had not happened to a Dutch force in the archipelago in living memory.
+      The second expedition took the palace and did not take the country. What
+      followed was thirty years of war, the longest and costliest the Dutch
+      fought in Indonesia, and the reason Aceh's end has a date thirty years
+      after its capital fell.
+    source: reid-2005
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: reid-2005 }
+    # One. Aceh carried Islam inland into Sumatra — the Gayo and Alas highlands,
+    # and by way of its pepper ports down both coasts — and it was the point of
+    # embarkation and return for the archipelago's pilgrimage, which is how
+    # scholarship from the Hijaz reached the region. Coding rule 2 counts
+    # propagation past a prior boundary, and the boundary here is the coastline
+    # that Islam in Sumatra had not previously crossed.
+    religions_carried:
+      count: 1
+      items: [Sunni Islam]
+      source: reid-2005
+    # Zero. Aceh took Melaka's trade, its merchants and much of its position, and
+    # this site records that as an edge rather than a claim, because taking a
+    # city's business is not asserting its authority. Rule 1 wants a claim, and
+    # Aceh's rulers claimed descent from their own line rather than from
+    # Melaka's.
+    successor_claims: { count: 0, items: [], source: reid-2005 }

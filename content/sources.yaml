@@ -2469,6 +2469,31 @@ sources:
       chronicles on this site's Songhai page, it is elegy written by the
       survivors of the thing it describes.
 
+  - id: reid-2005
+    kind: book
+    author: Anthony Reid
+    title: "An Indonesian Frontier: Acehnese and Other Histories of Sumatra"
+    publisher: Singapore University Press
+    year: 2005
+    note: >-
+      Forty years of work on Sumatra, weighted toward Aceh, and the source this
+      site's Aceh record is coded from. It is a collection of studies rather
+      than a continuous narrative, which is why the span dates on that record
+      come from it only where it states them.
+
+  - id: andaya-1993
+    kind: book
+    author: Leonard Y. Andaya
+    title: "The World of Maluku: Eastern Indonesia in the Early Modern Period"
+    publisher: University of Hawaii Press
+    year: 1993
+    note: >-
+      The standard account of the north Moluccas, built on Iberian and Dutch
+      records read against Malukan categories rather than through them. Its
+      organising argument — that Maluku was structured by a dualism between
+      Ternate and Tidore rather than by a single centre — is why this site's
+      Ternate record is written the way it is.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors
