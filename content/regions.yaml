@@ -261,11 +261,22 @@ regions:
     group: south-asia
     thread: true
 
+  # One internal edge, `mali -> songhai` in 1468. Aksum points outward at Himyar
+  # and at nothing else, and Songhai's ending points at the Saadi record in the
+  # Islamic West.
+  #
+  # The thinness is stated on the Mali record's last chapter rather than left to
+  # be inferred. Ghana, Kanem-Bornu, Benin, Oyo, the Hausa city-states, Great
+  # Zimbabwe, Kongo, the Swahili coast and Ethiopia after Aksum are all absent.
+  # Hard rule 8 was written so that entries like these could not be treated as
+  # second-class once they arrived; what the rule cannot do is get them written.
   - id: africa
     name: Africa
     blurb: >-
-      Aksum on the Red Sea and Mali on the Niger — the northern end of one
-      trade system and the southern end of another.
+      Aksum on the Red Sea and the Niger empires at the southern edge of the
+      Sahara: three states that lived on controlling where other people's goods
+      crossed — and three records for a continent, which is a fact about this
+      project rather than about Africa.
     group: africa-maghreb
     thread: true
 
