@@ -1,0 +1,167 @@
+id: melaka
+region: maritime-asia
+
+name:
+  latin: Sultanate of Melaka
+  # Malay was written here in Jawi — the Arabic script with added letters for
+  # sounds Arabic has no signs for — and this record's `descendant_scripts`
+  # comment is about why that counts on somebody else's page. The field is null
+  # for the reason the Kilwa and Ghana records give: a name in letters nobody on
+  # this project can proofread is a decoration that reads as a citation.
+  script: null
+  script_lang: null
+
+# The traditional founding is around 1400 by a prince out of Palembang. 1511 is
+# Afonso de Albuquerque taking the city.
+span:
+  start: { min: 1400, max: 1400, source: hall-2011 }
+  end: { min: 1511, max: 1511, source: reid-1988 }
+
+identity: >-
+  A hundred and eleven years on the strait Srivijaya had held, which carried
+  Islam through the archipelago and was taken by fifteen Portuguese ships.
+
+capitals:
+  - { name: Melaka, from: 1400, source: hall-2011 }
+
+core_region: The Melaka strait, with dependencies on both the Malay peninsula and eastern Sumatra
+
+rulers:
+  founder: { name: Parameswara, reign: [1400, 1414], source: hall-2011 }
+  peak: { name: Mansur Shah, reign: [1459, 1477], source: brown-1970 }
+  last: { name: Mahmud Shah, reign: [1488, 1511], source: reid-1988 }
+
+scripts_and_languages:
+  administration: [Malay, Arabic]
+  writing_system: Jawi — the Arabic script adapted for Malay
+
+# Albuquerque took the city in August 1511 with something like fifteen ships and
+# twelve hundred men. `by` is empty because Portugal is not in this corpus,
+# which is now the sixth record on this site to end against it or against a
+# power in its wake — the Kilwa record's last chapter calls it a
+# Portuguese-shaped absence and lists the others.
+#
+# The dynasty was not extinguished. Mahmud Shah withdrew and his line
+# re-established itself as the sultanate of Johor, which is what this record's
+# single successor claim is about.
+ended:
+  type: conquest
+  by: []
+  year: 1511
+  source: reid-1988
+
+institutions:
+  # The orang laut, again. The sea peoples of the straits and river mouths who
+  # had been Srivijaya's navy five hundred years earlier attached themselves to
+  # Parameswara, and the arrangement was the same: they raided for Melaka rather
+  # than against it, and the strait was safe because the people who could have
+  # made it unsafe were on the payroll.
+  #
+  # Two records in this region, five centuries apart, on the same water, with the
+  # same value in this field for the same reason.
+  military_basis: { values: [client-levy], source: hall-2011 }
+  # `trade-toll` and nothing else, which makes this the ninth record in the
+  # corpus coded that way and the second in this region — the Characene record's
+  # chapter on the type now has nine instances to argue from.
+  #
+  # Melaka had no agriculture. It imported its rice, largely from Java, which is
+  # the exact inverse of the arrangement this corpus's Majapahit record's second
+  # chapter describes: a thalassocracy with a granary on one side of the sea and
+  # one without on the other, and the one without buying from the one with while
+  # taking the trade off it.
+  revenue_basis: { values: [trade-toll], source: reid-1988 }
+  # Null. The sultanate was hereditary and the decisive figure in three
+  # successions was the bendahara — the chief minister, an office held for most
+  # of the century by one family, and the man the Malay Annals present as making
+  # and unmaking rulers. Nothing consulted describes that as a rule, and coding
+  # it `nomination` would credit a system the sources record as an influence.
+  succession_rule: null
+  # Descent, and a Chinese investiture.
+  #
+  # The Malay Annals trace the founder's line back through Palembang to
+  # Srivijaya's kings and then, by way of a genealogy this site does not
+  # adjudicate, to Alexander the Great. The Srivijayan half of that is what the
+  # edge from that record carries.
+  #
+  # And in 1411 Parameswara went to Nanjing in person, was received by the Yongle
+  # emperor, and came back with recognition, a seal and a stone tablet. This
+  # corpus's Ming record carries Zheng He's voyages; this is what one of them was
+  # for at the receiving end. Coding rule 8 counts a grant of authority from an
+  # external sovereign publicly asserted, and a ruler who sails to China to
+  # collect one is asserting it.
+  legitimation: { values: [descent, investiture], source: hall-2011 }
+
+turning_points:
+  - year: 1411
+    type: treaty
+    name: Nanjing
+    changed: >-
+      Parameswara sailed to China with his family and a large party, was received
+      at the Ming court, and returned with recognition as king, a seal, and
+      protection against Ayutthaya, which had been claiming his coast. It made a
+      new settlement on a strait into a polity other powers had to deal with,
+      and it is the clearest single case in this corpus of the Ming tributary
+      system doing what it was designed to do.
+    source: hall-2011
+    contested: false
+  - year: 1414
+    type: conversion
+    name: Islam
+    changed: >-
+      The ruler married a princess of Pasai in northern Sumatra and took the
+      name Iskandar Shah, and Melaka became a Muslim sultanate. What followed is
+      this record's single influence count: the ports of the archipelago
+      converted over the next century in Melaka's wake, through the same trade
+      network and often through Melakan marriages, and Islam reached the
+      Moluccas and the southern Philippines that way.
+      It is a conversion by commerce rather than by conquest, which coding rule 2
+      counts and which this corpus's Kilwa record's coast did not manage on the
+      same scale.
+    source: reid-1988
+    contested: true
+  - year: 1511
+    type: siege
+    name: Albuquerque
+    changed: >-
+      Fifteen ships and about twelve hundred men took the richest port in
+      Southeast Asia in some weeks of fighting. Albuquerque had come because
+      Melaka was the point at which the spice route could be cut, and cutting it
+      was the whole Portuguese strategy in Asia.
+      What he took was a customs house. The trade did not stop and did not stay:
+      it dispersed to Aceh, to Johor, to Banten and to Brunei, none of which is a
+      record on this site, and the Portuguese spent the following century holding
+      a fortress in a strait whose commerce had gone round them.
+    source: reid-1988
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    # Zero, and Jawi is the near miss. Malay written in the Arabic script with
+    # five added letters is an adaptation of a script to a language it did not
+    # previously write, which is what coding rule 3 counts — on the record of the
+    # polity whose script was adapted. The parent is Arabic. The same reasoning
+    # gives this corpus's Kilwa record a zero for Swahili in Arabic letters.
+    #
+    # What Melaka did was make Jawi the standard written form of Malay across
+    # the archipelago, which is transmission rather than derivation and has no
+    # field.
+    descendant_scripts: { count: 0, items: [], source: reid-1988 }
+    # One, and it is the largest claim on this page. Coding rule 2 counts
+    # propagation beyond a prior confessional boundary, and Melaka is the vector
+    # by which Islam reached most of the ports of maritime Southeast Asia — by
+    # trade, marriage and the prestige of the region's dominant court rather than
+    # by conquest.
+    religions_carried:
+      count: 1
+      items: [Sunni Islam]
+      source: reid-1988
+    # One. The sultanate of Johor was founded by this dynasty in exile after
+    # 1511, asserted direct continuity, and the Malay Annals — composed at Johor
+    # — are that assertion. Rule 1 does not require the claiming polity to have a
+    # record here, and Johor does not.
+    successor_claims:
+      count: 1
+      items: [Sultanate of Johor]
+      source: brown-1970

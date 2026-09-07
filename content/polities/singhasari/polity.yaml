@@ -1,0 +1,127 @@
+id: singhasari
+region: maritime-asia
+
+name:
+  latin: Singhasari
+  script: ꦱꦶꦁ​ꦲꦱꦫꦶ
+  script_lang: jv
+
+# Seventy years, four rulers and a great deal of murder. 1222 is Ganter, where
+# Ken Arok beat Kediri; 1292 is Jayakatwang killing Kertanegara.
+span:
+  start: { min: 1222, max: 1222, source: hall-2011 }
+  end: { min: 1292, max: 1292, source: hall-2011 }
+
+identity: >-
+  Seventy years on Java that ended Srivijaya's position and produced Majapahit,
+  and whose own dynastic history is a chain of revenge killings attributed to a
+  cursed blade.
+
+capitals:
+  - { name: Singhasari, from: 1222, source: hall-2011 }
+
+core_region: Eastern Java
+
+# `peak` and `last` are the same man, as on this corpus's Pontic record and for
+# the same reason: everything anybody remembers about this polity happens in the
+# last twenty-four years of it.
+rulers:
+  founder: { name: Ken Arok, reign: [1222, 1227], source: hall-2011 }
+  peak: { name: Kertanegara, reign: [1268, 1292], source: hall-2011 }
+  last: { name: Kertanegara, reign: [1268, 1292], source: hall-2011 }
+
+scripts_and_languages:
+  administration: [Old Javanese, Sanskrit]
+  writing_system: Kawi
+
+# Jayakatwang, a vassal ruling Kediri — the kingdom Ken Arok had beaten seventy
+# years earlier — revolted and killed Kertanegara at his palace. `by` is empty
+# because the restored Kediri lasted a year and is not a record here; the
+# Majapahit page is what replaced it, and the edge to it is a claim rather than
+# a conquest.
+ended:
+  type: internal usurpation
+  by: []
+  year: 1292
+  source: hall-2011
+
+institutions:
+  military_basis: { values: [conscript], source: hall-2011 }
+  # Java's rice, which is what this corpus's Majapahit record's second chapter
+  # is about, and the north-coast ports. Singhasari is where the combination
+  # first becomes a policy: Kertanegara's expeditions are paid for out of an
+  # agrarian base no Sumatran power ever had.
+  revenue_basis: { values: [land-tax, trade-toll], source: hall-2011 }
+  # Null, and the outcome is spectacular even by the standards of the records
+  # that carry this null. The Pararaton — a Javanese chronicle, later and more
+  # legendary than the Nagarakertagama — tells the dynasty's history as a chain
+  # of revenge killings running four generations, set off by a kris commissioned
+  # from a smith who was killed with it and cursed it as he died. Ken Arok
+  # murders his patron and takes his wife; Ken Arok is murdered by that wife's
+  # son by the first husband; and so on.
+  #
+  # How much of that is history is not settled. What is not in doubt is that
+  # four of the polity's rulers in seventy years died violently and that no
+  # source states a rule. Coding rule 7 takes the rule and there is none.
+  succession_rule: null
+  # Descent, and deification. Kertanegara was consecrated after death as
+  # Shiva-Buddha — the two traditions fused, which is a Javanese development
+  # rather than an Indian one — and his funerary statue survives. This corpus's
+  # Majapahit record carries the same pairing and got it from here.
+  legitimation: { values: [descent, divine-sanction], source: robson-1995 }
+
+turning_points:
+  - year: 1222
+    type: battle
+    name: Ganter
+    changed: >-
+      Ken Arok, by the Pararaton's account a bandit and a murderer who had made
+      himself lord of Tumapel, defeated Kediri and became the ruler of eastern
+      Java. It is the founding, and the manner of it is the reason this record's
+      succession field is null: a state begun by a man who killed his way into
+      it did not produce a rule about who came next.
+    source: hall-2011
+    contested: true
+  - year: 1275
+    type: battle
+    name: The Pamalayu
+    changed: >-
+      Kertanegara sent an expedition across the Java Sea against Melayu in
+      Sumatra — the polity that had been carrying Srivijaya's position on the
+      strait since the eleventh century. This corpus's Srivijaya record ends
+      here, and this is the page of the power that ended it.
+      It is also the moment the archipelago's centre of gravity moves from
+      Sumatra to Java, where it stayed. Everything on this site's Majapahit
+      record follows from a Javanese state being able to reach across the sea and
+      a Sumatran one no longer being able to answer.
+    source: hall-2011
+    contested: false
+  - year: 1292
+    type: revolt
+    name: Jayakatwang
+    changed: >-
+      Kertanegara had spent his reign expanding — Sumatra, Bali, Madura, embassies
+      into the eastern islands — and had mutilated a Mongol envoy who came
+      demanding submission. While he was waiting for the reprisal, a vassal at
+      Kediri revolted and killed him in his own palace.
+      The Mongol fleet arrived the following year to punish a man who was already
+      dead, and this corpus's Majapahit record's first chapter is what his
+      son-in-law did with it.
+    source: hall-2011
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: hall-2011 }
+    religions_carried: { count: 0, items: [], source: hall-2011 }
+    # One. Raden Wijaya founded Majapahit on a claim of descent — by marriage —
+    # from Kertanegara, presented himself to the Mongols as this polity's
+    # rightful heir, and had Kertanegara commemorated as the dynasty's founding
+    # ancestor. The Nagarakertagama, seventy years later, is still routing the
+    # Majapahit line through this record.
+    successor_claims:
+      count: 1
+      items: [Majapahit]
+      source: robson-1995

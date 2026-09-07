@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**3781 claims across 204 sources.**
+**3826 claims across 206 sources.**
 
 ## Where to start
 
@@ -909,6 +909,70 @@ ordinary state, not an item to clear.
 - [ ] `polity/tripoli` — turning point 1289 Qalawun at Tripoli
 - [ ] `polity/tripoli` — ended by conquest in 1289
 
+## Kenneth R. Hall, A History of Early Southeast Asia: Maritime Trade and Societal Development, 100-1500
+
+`hall-2011` — 59 claims
+
+- [ ] `chapter/majapahit/01-the-mongols.mdx` — prose: "The Mongols come and go"
+- [ ] `chapter/majapahit/02-rice-and-sea.mdx` — prose: "Rice and sea"
+- [ ] `chapter/majapahit/03-the-archipelago.mdx` — prose: "The other thalassocracy"
+- [ ] `chapter/majapahit/04-the-poem.mdx` — prose: "A list of dependencies"
+- [ ] `chapter/melaka/02-nanjing.mdx` — prose: "Nanjing"
+- [ ] `chapter/singhasari/02-ganter.mdx` — prose: "Ganter"
+- [ ] `chapter/singhasari/03-the-pamalayu.mdx` — prose: "The Pamalayu"
+- [ ] `chapter/singhasari/04-the-mongol-envoy.mdx` — prose: "The Mongol envoy"
+- [ ] `chapter/singhasari/05-jayakatwang.mdx` — prose: "Jayakatwang"
+- [ ] `chapter/srivijaya/01-power-over-a-passage.mdx` — prose: "Power over a passage"
+- [ ] `chapter/srivijaya/02-siddhayatra.mdx` — prose: "Siddhayatra"
+- [ ] `chapter/srivijaya/03-a-thousand-monks.mdx` — prose: "A thousand monks"
+- [ ] `chapter/srivijaya/04-the-inscriptions.mdx` — prose: "Curses in stone"
+- [ ] `chapter/srivijaya/06-a-kingdom-nobody-remembered.mdx` — prose: "A kingdom nobody remembered"
+- [ ] `edge/srivijaya->singhasari` — conquered by in 1275
+- [ ] `polity/majapahit` — span starts 1293
+- [ ] `polity/majapahit` — span ends 1527
+- [ ] `polity/majapahit` — capital Trowulan from 1293
+- [ ] `polity/majapahit` — founder Raden Wijaya r. 1293-1309
+- [ ] `polity/majapahit` — peak Hayam Wuruk r. 1350-1389
+- [ ] `polity/majapahit` — last Girindrawardhana r. 1478-1527
+- [ ] `polity/majapahit` — military basis coded conscript + client-levy
+- [ ] `polity/majapahit` — revenue basis coded land-tax + trade-toll + tribute
+- [ ] `polity/majapahit` — turning point 1293 The Mongols come and go
+- [ ] `polity/majapahit` — descendant_scripts = 0
+- [ ] `polity/majapahit` — religions_carried = 1 (Hindu-Buddhist Javanese tradition)
+- [ ] `polity/majapahit` — ended by gradual absorption in 1527
+- [ ] `polity/melaka` — span starts 1400
+- [ ] `polity/melaka` — capital Melaka from 1400
+- [ ] `polity/melaka` — founder Parameswara r. 1400-1414
+- [ ] `polity/melaka` — military basis coded client-levy
+- [ ] `polity/melaka` — legitimation coded descent + investiture
+- [ ] `polity/melaka` — turning point 1411 Nanjing
+- [ ] `polity/singhasari` — span starts 1222
+- [ ] `polity/singhasari` — span ends 1292
+- [ ] `polity/singhasari` — capital Singhasari from 1222
+- [ ] `polity/singhasari` — founder Ken Arok r. 1222-1227
+- [ ] `polity/singhasari` — peak Kertanegara r. 1268-1292
+- [ ] `polity/singhasari` — last Kertanegara r. 1268-1292
+- [ ] `polity/singhasari` — military basis coded conscript
+- [ ] `polity/singhasari` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/singhasari` — turning point 1222 Ganter (contested)
+- [ ] `polity/singhasari` — turning point 1275 The Pamalayu
+- [ ] `polity/singhasari` — turning point 1292 Jayakatwang
+- [ ] `polity/singhasari` — descendant_scripts = 0
+- [ ] `polity/singhasari` — religions_carried = 0
+- [ ] `polity/singhasari` — ended by internal usurpation in 1292
+- [ ] `polity/srivijaya` — span starts 671
+- [ ] `polity/srivijaya` — span ends 1275
+- [ ] `polity/srivijaya` — capital Palembang from 671
+- [ ] `polity/srivijaya` — founder Dapunta Hyang Sri Jayanasa r. 671-702
+- [ ] `polity/srivijaya` — peak Balaputradewa r. 835-860
+- [ ] `polity/srivijaya` — military basis coded client-levy
+- [ ] `polity/srivijaya` — revenue basis coded trade-toll
+- [ ] `polity/srivijaya` — legitimation coded divine-sanction
+- [ ] `polity/srivijaya` — turning point 1079 Jambi (contested)
+- [ ] `polity/srivijaya` — turning point 1275 Pamalayu
+- [ ] `polity/srivijaya` — religions_carried = 1 (Mahayana Buddhism)
+- [ ] `polity/srivijaya` — ended by gradual absorption in 1275
+
 ## Warren Treadgold, A History of the Byzantine State and Society
 
 `treadgold-1997` — 57 claims
@@ -1723,45 +1787,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/yuan` — peak Kublai Khan r. 1271-1294
 - [ ] `polity/yuan` — last Toghon Temur r. 1333-1368
 - [ ] `polity/yuan` — descendant_scripts = 1 (Phags-pa script)
-
-## Kenneth R. Hall, A History of Early Southeast Asia: Maritime Trade and Societal Development, 100-1500
-
-`hall-2011` — 34 claims
-
-- [ ] `chapter/majapahit/01-the-mongols.mdx` — prose: "The Mongols come and go"
-- [ ] `chapter/majapahit/02-rice-and-sea.mdx` — prose: "Rice and sea"
-- [ ] `chapter/majapahit/03-the-archipelago.mdx` — prose: "The other thalassocracy"
-- [ ] `chapter/majapahit/04-the-poem.mdx` — prose: "A list of dependencies"
-- [ ] `chapter/srivijaya/01-power-over-a-passage.mdx` — prose: "Power over a passage"
-- [ ] `chapter/srivijaya/02-siddhayatra.mdx` — prose: "Siddhayatra"
-- [ ] `chapter/srivijaya/03-a-thousand-monks.mdx` — prose: "A thousand monks"
-- [ ] `chapter/srivijaya/04-the-inscriptions.mdx` — prose: "Curses in stone"
-- [ ] `chapter/srivijaya/06-a-kingdom-nobody-remembered.mdx` — prose: "A kingdom nobody remembered"
-- [ ] `edge/srivijaya->majapahit` — absorbed remnants of in 1293
-- [ ] `polity/majapahit` — span starts 1293
-- [ ] `polity/majapahit` — span ends 1527
-- [ ] `polity/majapahit` — capital Trowulan from 1293
-- [ ] `polity/majapahit` — founder Raden Wijaya r. 1293-1309
-- [ ] `polity/majapahit` — peak Hayam Wuruk r. 1350-1389
-- [ ] `polity/majapahit` — last Girindrawardhana r. 1478-1527
-- [ ] `polity/majapahit` — military basis coded conscript + client-levy
-- [ ] `polity/majapahit` — revenue basis coded land-tax + trade-toll + tribute
-- [ ] `polity/majapahit` — turning point 1293 The Mongols come and go
-- [ ] `polity/majapahit` — descendant_scripts = 0
-- [ ] `polity/majapahit` — religions_carried = 1 (Hindu-Buddhist Javanese tradition)
-- [ ] `polity/majapahit` — ended by gradual absorption in 1527
-- [ ] `polity/srivijaya` — span starts 671
-- [ ] `polity/srivijaya` — span ends 1275
-- [ ] `polity/srivijaya` — capital Palembang from 671
-- [ ] `polity/srivijaya` — founder Dapunta Hyang Sri Jayanasa r. 671-702
-- [ ] `polity/srivijaya` — peak Balaputradewa r. 835-860
-- [ ] `polity/srivijaya` — military basis coded client-levy
-- [ ] `polity/srivijaya` — revenue basis coded trade-toll
-- [ ] `polity/srivijaya` — legitimation coded divine-sanction
-- [ ] `polity/srivijaya` — turning point 1079 Jambi (contested)
-- [ ] `polity/srivijaya` — turning point 1275 Pamalayu
-- [ ] `polity/srivijaya` — religions_carried = 1 (Mahayana Buddhism)
-- [ ] `polity/srivijaya` — ended by gradual absorption in 1275
 
 ## Rachel Mairs, The Hellenistic Far East: Archaeology, Language, and Identity in Greek Central Asia
 
@@ -4275,6 +4300,22 @@ ordinary state, not an item to clear.
 - [ ] `polity/golden-horde` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/golden-horde` — ended by fragmentation in 1502
 
+## Anthony Reid, Southeast Asia in the Age of Commerce, 1450-1680. Volume One: The Lands below the Winds
+
+`reid-1988` — 11 claims
+
+- [ ] `chapter/melaka/03-no-rice.mdx` — prose: "No rice"
+- [ ] `chapter/melaka/04-iskandar-shah.mdx` — prose: "Iskandar Shah"
+- [ ] `chapter/melaka/06-1511.mdx` — prose: "1511"
+- [ ] `polity/melaka` — span ends 1511
+- [ ] `polity/melaka` — last Mahmud Shah r. 1488-1511
+- [ ] `polity/melaka` — revenue basis coded trade-toll
+- [ ] `polity/melaka` — turning point 1414 Islam (contested)
+- [ ] `polity/melaka` — turning point 1511 Albuquerque
+- [ ] `polity/melaka` — descendant_scripts = 0
+- [ ] `polity/melaka` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/melaka` — ended by conquest in 1511
+
 ## Frederick W. Mote and Denis Twitchett (eds), The Cambridge History of China, Volume 7: The Ming Dynasty, 1368-1644, Part 1
 
 `mote-twitchett-1988` — 11 claims
@@ -4605,6 +4646,18 @@ ordinary state, not an item to clear.
 - [ ] `polity/safavid` — turning point 1722 The siege of Isfahan
 - [ ] `polity/safavid` — ended by conquest in 1722
 
+## Mpu Prapanca, translated by Stuart Robson, Desawarnana (Nagarakrtagama)
+*In KITLV Verhandelingen 169.*
+
+`robson-1995` — 6 claims
+
+- [ ] `chapter/singhasari/01-a-kris-and-a-curse.mdx` — prose: "A kris and a curse"
+- [ ] `edge/singhasari->majapahit` — claimed legitimacy of in 1293
+- [ ] `polity/majapahit` — legitimation coded divine-sanction + descent
+- [ ] `polity/majapahit` — turning point 1357 Bubat (contested)
+- [ ] `polity/singhasari` — legitimation coded descent + divine-sanction
+- [ ] `polity/singhasari` — successor_claims = 1 (Majapahit)
+
 ## Nikolaus Leo Overtoom, Reign of Arrows: The Rise of the Parthian Empire in the Hellenistic Middle East
 *In Oxford Studies in Early Empires.*
 
@@ -4672,6 +4725,17 @@ ordinary state, not an item to clear.
 - [ ] `polity/carolingian` — revenue basis coded plunder + tribute
 - [ ] `polity/carolingian` — turning point 877 Quierzy
 - [ ] `polity/carolingian` — successor_claims = 1 (Holy Roman Empire)
+
+## Translated by C. C. Brown, Sejarah Melayu, or Malay Annals
+*In Oxford in Asia Historical Reprints.*
+
+`brown-1970` — 5 claims
+
+- [ ] `chapter/melaka/01-a-prince-out-of-palembang.mdx` — prose: "A prince out of Palembang"
+- [ ] `chapter/melaka/05-mansur-shah.mdx` — prose: "The bendahara"
+- [ ] `edge/srivijaya->melaka` — claimed legitimacy of in 1400
+- [ ] `polity/melaka` — peak Mansur Shah r. 1459-1477
+- [ ] `polity/melaka` — successor_claims = 1 (Sultanate of Johor)
 
 ## Nicholas Postgate, Bronze Age Bureaucracy: Writing and the Practice of Government in Assyria
 
@@ -4878,14 +4942,6 @@ ordinary state, not an item to clear.
 
 - [ ] `chapter/jalayirid/03-the-book.mdx` — prose: "Where Persian painting turns"
 - [ ] `chapter/timurid/06-the-princely-vision.mdx` — prose: "The princely vision"
-
-## Mpu Prapanca, translated by Stuart Robson, Desawarnana (Nagarakrtagama)
-*In KITLV Verhandelingen 169.*
-
-`robson-1995` — 2 claims
-
-- [ ] `polity/majapahit` — legitimation coded divine-sanction + descent
-- [ ] `polity/majapahit` — turning point 1357 Bubat (contested)
 
 ## Giovanni B. Lanfranchi, Michael Roaf and Robert Rollinger (eds), Continuity of Empire (?): Assyria, Media, Persia
 *In History of the Ancient Near East Monographs V.*

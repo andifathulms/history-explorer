@@ -948,14 +948,47 @@ edges:
     source: mote-twitchett-1988
     contested: false
 
+  # Was `srivijaya -> majapahit`, `absorbed remnants of`, 1293, which asserted
+  # the wrong thing: Majapahit did not absorb Srivijaya's remnants and 1293 is
+  # the year it was founded, not the year anything passed between the two. What
+  # actually happened is here in two steps, and the middle term is a record this
+  # corpus did not carry until now.
   - from: srivijaya
-    to: majapahit
-    type: absorbed remnants of
-    year: 1293
-    note: "Javanese power replaced Sumatran as the organiser of the archipelago's
-           sea lanes, using the same oath-bound arrangements with coastal chiefs
-           that Srivijaya had used."
+    to: singhasari
+    type: conquered by
+    year: 1275
+    note: >-
+      Kertanegara's Pamalayu expedition crossed to Sumatra against Melayu, which
+      had been carrying Srivijaya's position on the strait since the eleventh
+      century, and after it no Sumatran polity appears in the records as an
+      independent power.
     source: hall-2011
+    contested: false
+
+  - from: singhasari
+    to: majapahit
+    type: claimed legitimacy of
+    year: 1293
+    note: >-
+      Raden Wijaya was Kertanegara's son-in-law, presented himself to the Mongol
+      expedition as Singhasari's rightful heir, and had Kertanegara commemorated
+      as the founding ancestor of the dynasty he then established.
+    source: robson-1995
+    contested: false
+
+  # Melaka's founder was a prince out of Palembang and the Malay Annals trace
+  # his line through Srivijaya's kings. It is a claim made a century and a
+  # quarter after the last Srivijayan ruler anybody can name, by a court whose
+  # chronicle was written in exile after its own city had fallen.
+  - from: srivijaya
+    to: melaka
+    type: claimed legitimacy of
+    year: 1400
+    note: >-
+      The Sejarah Melayu routes the Melakan dynasty back through Palembang to
+      the kings of Srivijaya and beyond them to Alexander the Great. The
+      Srivijayan half of the genealogy is the part this site counts.
+    source: brown-1970
     contested: true
 
   # The Solomonic dynasty's claim, and the reason the Aksumite record's

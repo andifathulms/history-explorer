@@ -2440,6 +2440,35 @@ sources:
       war, the Islamisation of the north Java ports and the shift of trade to
       Melaka — which hall-2011 covers as trade history and Ricklefs as politics.
 
+  - id: reid-1988
+    kind: book
+    author: Anthony Reid
+    title: >-
+      Southeast Asia in the Age of Commerce, 1450-1680. Volume One: The Lands
+      below the Winds
+    publisher: Yale University Press
+    year: 1988
+    note: >-
+      The first volume of the standard account of the region's commercial
+      centuries, on environment, material life, social organisation and law
+      rather than on dynasties. This site's Melakan institutions are coded from
+      it, because the questions the fields ask are the ones Reid organised the
+      book around.
+
+  - id: brown-1970
+    kind: book
+    author: Translated by C. C. Brown
+    title: "Sejarah Melayu, or Malay Annals"
+    container: Oxford in Asia Historical Reprints
+    publisher: Oxford University Press
+    year: 1970
+    note: >-
+      The Malay Annals in translation — the court chronicle of Melaka, composed
+      after the sultanate had fallen and the dynasty was in exile at Johor. It
+      is the principal internal source for that record and, like the Timbuktu
+      chronicles on this site's Songhai page, it is elegy written by the
+      survivors of the thing it describes.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors
