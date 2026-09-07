@@ -2257,6 +2257,50 @@ sources:
       where Gomez departs from the older narratives, and the departures are
       stated rather than smoothed over.
 
+  - id: levtzion-hopkins-1981
+    kind: book
+    author: N. Levtzion and J. F. P. Hopkins (eds)
+    title: Corpus of Early Arabic Sources for West African History
+    container: Fontes Historiae Africanae, Series Arabica IV
+    publisher: Cambridge University Press
+    year: 1981
+    note: >-
+      Translations of what Arabic writers from the ninth to the fifteenth
+      century said about West Africa, with the apparatus for judging it. It is
+      the reason this site's Ghana record can be written at all: every field on
+      that page comes from men who mostly had not been there, and a sourcebook
+      that prints them side by side is the only way to see how much of the
+      account is one author copying another.
+
+  - id: tamrat-1972
+    kind: book
+    author: Taddesse Tamrat
+    title: "Church and State in Ethiopia, 1270-1527"
+    container: Oxford Studies in African Affairs
+    publisher: Clarendon Press
+    year: 1972
+    note: >-
+      The book that established the field, on the two and a half centuries in
+      which the Solomonic dynasty, the monasteries and the expansion into the
+      south were all one process. This site's Ethiopian institutions are coded
+      from it for the medieval period, and its account of the gult and the
+      itinerant court is why that record's `capitals` field carries a comment.
+
+  - id: marcus-2002
+    kind: book
+    author: Harold G. Marcus
+    title: A History of Ethiopia
+    publisher: University of California Press
+    edition: updated
+    year: 2002
+    note: >-
+      A one-volume survey to the present, used here for the four centuries
+      tamrat-1972 does not reach — Gondar, the Zemene Mesafint, Tewodros,
+      Menelik and Adwa, and the ending. Marcus is brisk about the nineteenth
+      century's imperial expansion in a way older Ethiopian historiography was
+      not, which matters for a record whose peak reign doubled the state at the
+      expense of its neighbours.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors

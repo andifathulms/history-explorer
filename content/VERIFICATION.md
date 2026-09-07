@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**3567 claims across 191 sources.**
+**3615 claims across 194 sources.**
 
 ## Where to start
 
@@ -1910,6 +1910,40 @@ ordinary state, not an item to clear.
 - [ ] `polity/khwarazmian` — turning point 1210 Breaking the Qara Khitai
 - [ ] `polity/khwarazmian` — turning point 1217 A rival caliph, and snow in the Zagros
 
+## Nehemia Levtzion, Ancient Ghana and Mali
+
+`levtzion-1973` — 29 claims
+
+- [ ] `chapter/ghana/04-1076.mdx` — prose: "1076"
+- [ ] `chapter/mali/02-the-gold-they-did-not-own.mdx` — prose: "The gold they did not own"
+- [ ] `chapter/mali/03-the-other-end.mdx` — prose: "The other end of the gold"
+- [ ] `chapter/mali/04-mansa-musa.mdx` — prose: "The pilgrimage, and what it cost"
+- [ ] `chapter/mali/06-the-long-recession.mdx` — prose: "The long recession"
+- [ ] `edge/ghana->mali` — absorbed remnants of in 1240
+- [ ] `polity/ghana` — span starts 700
+- [ ] `polity/ghana` — span ends 1240
+- [ ] `polity/ghana` — capital Kumbi Saleh from 830
+- [ ] `polity/ghana` — military basis coded conscript
+- [ ] `polity/ghana` — turning point 1076 The Almoravid conquest that may not have happened (contested)
+- [ ] `polity/ghana` — turning point 1203 Sosso
+- [ ] `polity/ghana` — descendant_scripts = 0
+- [ ] `polity/ghana` — religions_carried = 0
+- [ ] `polity/ghana` — successor_claims = 0
+- [ ] `polity/ghana` — ended by gradual absorption in 1240
+- [ ] `polity/mali` — span starts 1235
+- [ ] `polity/mali` — span ends 1670
+- [ ] `polity/mali` — capital Niani from 1235
+- [ ] `polity/mali` — founder Sundiata Keita r. 1235-1255
+- [ ] `polity/mali` — peak Mansa Musa r. 1312-1337
+- [ ] `polity/mali` — last Mahmud IV r. 1590-1610
+- [ ] `polity/mali` — revenue basis coded mining + trade-toll
+- [ ] `polity/mali` — turning point 1433 Timbuktu lost
+- [ ] `polity/mali` — turning point 1545 Niani
+- [ ] `polity/mali` — descendant_scripts = 0
+- [ ] `polity/mali` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/mali` — successor_claims = 0
+- [ ] `polity/mali` — ended by fragmentation in 1670
+
 ## Touraj Daryaee, Sasanian Persia: The Rise and Fall of an Empire
 
 `daryaee-2009` — 29 claims
@@ -2415,36 +2449,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/genoa` — successor_claims = 0
 - [ ] `polity/genoa` — ended by conquest in 1797
 
-## Greg Fisher (ed.), Arabs and Empires before Islam
-
-`fisher-2015` — 23 claims
-
-**Sole source** for `saba` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/himyar/01-the-highland-kingdom.mdx` — prose: "The kingdom that had rain"
-- [ ] `chapter/himyar/06-the-sasanians.mdx` — prose: "What was left"
-- [ ] `chapter/saba/01-arabia-felix.mdx` — prose: "Arabia Felix"
-- [ ] `chapter/saba/02-the-dam.mdx` — prose: "The dam at Marib"
-- [ ] `chapter/saba/03-aelius-gallus.mdx` — prose: "The Roman expedition"
-- [ ] `chapter/saba/04-the-alphabet.mdx` — prose: "The alphabet that went to Africa"
-- [ ] `chapter/saba/05-the-highland-power.mdx` — prose: "The highland power"
-- [ ] `edge/saba->himyar` — absorbed remnants of in 275
-- [ ] `polity/himyar` — span starts -110
-- [ ] `polity/himyar` — capital Zafar
-- [ ] `polity/himyar` — peak Abukarib As'ad
-- [ ] `polity/himyar` — revenue basis coded land-tax + trade-toll
-- [ ] `polity/hujrid` — legitimation coded investiture
-- [ ] `polity/saba` — span starts -800
-- [ ] `polity/saba` — span ends 275
-- [ ] `polity/saba` — capital Marib
-- [ ] `polity/saba` — peak Karib'il Watar
-- [ ] `polity/saba` — revenue basis coded trade-toll + land-tax
-- [ ] `polity/saba` — legitimation coded divine-sanction
-- [ ] `polity/saba` — turning point -25 Aelius Gallus at Marib
-- [ ] `polity/saba` — descendant_scripts = 1 (Ge'ez)
-- [ ] `polity/saba` — successor_claims = 1 (Himyar)
-- [ ] `polity/saba` — ended by gradual absorption in 275
-
 ## Kenneth R. Hall, A History of Early Southeast Asia: Maritime Trade and Societal Development, 100-1500
 
 `hall-2011` — 23 claims
@@ -2678,6 +2682,33 @@ ordinary state, not an item to clear.
 - [ ] `polity/attalid` — religions_carried = 0
 - [ ] `polity/attalid` — successor_claims = 0
 - [ ] `polity/attalid` — ended by gradual absorption in -133
+
+## Greg Fisher (ed.), Arabs and Empires before Islam
+
+`fisher-2015` — 22 claims
+
+- [ ] `chapter/himyar/01-the-highland-kingdom.mdx` — prose: "The kingdom that had rain"
+- [ ] `chapter/himyar/06-the-sasanians.mdx` — prose: "What was left"
+- [ ] `chapter/saba/01-arabia-felix.mdx` — prose: "Arabia Felix"
+- [ ] `chapter/saba/02-the-dam.mdx` — prose: "The dam at Marib"
+- [ ] `chapter/saba/03-aelius-gallus.mdx` — prose: "The Roman expedition"
+- [ ] `chapter/saba/04-the-alphabet.mdx` — prose: "The alphabet that went to Africa"
+- [ ] `chapter/saba/05-the-highland-power.mdx` — prose: "The highland power"
+- [ ] `edge/saba->himyar` — absorbed remnants of in 275
+- [ ] `polity/himyar` — span starts -110
+- [ ] `polity/himyar` — capital Zafar
+- [ ] `polity/himyar` — peak Abukarib As'ad
+- [ ] `polity/himyar` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/hujrid` — legitimation coded investiture
+- [ ] `polity/saba` — span starts -800
+- [ ] `polity/saba` — span ends 275
+- [ ] `polity/saba` — capital Marib
+- [ ] `polity/saba` — peak Karib'il Watar
+- [ ] `polity/saba` — revenue basis coded trade-toll + land-tax
+- [ ] `polity/saba` — legitimation coded divine-sanction
+- [ ] `polity/saba` — turning point -25 Aelius Gallus at Marib
+- [ ] `polity/saba` — descendant_scripts = 1 (Ge'ez)
+- [ ] `polity/saba` — ended by gradual absorption in 275
 
 ## Neil Christie, The Lombards: The Ancient Longobards
 *In The Peoples of Europe.*
@@ -3288,6 +3319,30 @@ ordinary state, not an item to clear.
 - [ ] `polity/roman` — successor_claims = 3 (Carolingian Empire, Holy Roman Empire, Ottoman Empire)
 - [ ] `polity/seleucid` — ended by conquest in -63
 
+## Taddesse Tamrat, Church and State in Ethiopia, 1270-1527
+*In Oxford Studies in African Affairs.*
+
+`tamrat-1972` — 18 claims
+
+- [ ] `chapter/ethiopia/01-a-church-cut-downwards.mdx` — prose: "A church cut downwards"
+- [ ] `chapter/ethiopia/02-the-kebra-nagast.mdx` — prose: "The Kebra Nagast"
+- [ ] `chapter/ethiopia/03-a-city-of-tents.mdx` — prose: "A city of tents"
+- [ ] `edge/aksum->ethiopia` — claimed legitimacy of in 1270
+- [ ] `edge/saba->ethiopia` — claimed legitimacy of in 1270
+- [ ] `polity/aksum` — successor_claims = 1 (Ethiopian Empire)
+- [ ] `polity/ethiopia` — span starts 1137
+- [ ] `polity/ethiopia` — capital Lalibela from 1137
+- [ ] `polity/ethiopia` — founder Mara Takla Haymanot
+- [ ] `polity/ethiopia` — peak Zara Yaqob r. 1434-1468
+- [ ] `polity/ethiopia` — military basis coded land-grant + conscript
+- [ ] `polity/ethiopia` — revenue basis coded land-tax + tribute
+- [ ] `polity/ethiopia` — succession rule coded nomination
+- [ ] `polity/ethiopia` — legitimation coded descent + divine-sanction
+- [ ] `polity/ethiopia` — turning point 1270 The Solomonic restoration
+- [ ] `polity/ethiopia` — descendant_scripts = 0
+- [ ] `polity/ethiopia` — religions_carried = 0
+- [ ] `polity/saba` — successor_claims = 2 (Himyar, Ethiopian Empire)
+
 ## Moshe Gammer, Muslim Resistance to the Tsar: Shamil and the Conquest of Chechnia and Daghestan
 
 `gammer-1994` — 18 claims
@@ -3426,28 +3481,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/yaariba` — turning point 1650 The taking of Muscat
 - [ ] `polity/yaariba` — turning point 1698 Fort Jesus
 - [ ] `polity/yaariba` — ended by internal usurpation in 1744
-
-## Nehemia Levtzion, Ancient Ghana and Mali
-
-`levtzion-1973` — 17 claims
-
-- [ ] `chapter/mali/02-the-gold-they-did-not-own.mdx` — prose: "The gold they did not own"
-- [ ] `chapter/mali/03-the-other-end.mdx` — prose: "The other end of the gold"
-- [ ] `chapter/mali/04-mansa-musa.mdx` — prose: "The pilgrimage, and what it cost"
-- [ ] `chapter/mali/06-the-long-recession.mdx` — prose: "The long recession"
-- [ ] `polity/mali` — span starts 1235
-- [ ] `polity/mali` — span ends 1670
-- [ ] `polity/mali` — capital Niani from 1235
-- [ ] `polity/mali` — founder Sundiata Keita r. 1235-1255
-- [ ] `polity/mali` — peak Mansa Musa r. 1312-1337
-- [ ] `polity/mali` — last Mahmud IV r. 1590-1610
-- [ ] `polity/mali` — revenue basis coded mining + trade-toll
-- [ ] `polity/mali` — turning point 1433 Timbuktu lost
-- [ ] `polity/mali` — turning point 1545 Niani
-- [ ] `polity/mali` — descendant_scripts = 0
-- [ ] `polity/mali` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/mali` — successor_claims = 0
-- [ ] `polity/mali` — ended by fragmentation in 1670
 
 ## Suhayl Zakkar, The Emirate of Aleppo, 1004-1094
 
@@ -3890,6 +3923,24 @@ ordinary state, not an item to clear.
 - [ ] `polity/himyar` — turning point 523 Najran
 - [ ] `polity/himyar` — ended by conquest in 525
 
+## Harold G. Marcus, A History of Ethiopia
+
+`marcus-2002` — 13 claims
+
+- [ ] `chapter/ethiopia/04-fourteen-years.mdx` — prose: "Fourteen years"
+- [ ] `chapter/ethiopia/05-adwa.mdx` — prose: "Adwa"
+- [ ] `chapter/ethiopia/06-1974.mdx` — prose: "1974"
+- [ ] `polity/ethiopia` — span ends 1974
+- [ ] `polity/ethiopia` — capital Gondar from 1636
+- [ ] `polity/ethiopia` — capital Addis Ababa from 1889
+- [ ] `polity/ethiopia` — last Haile Selassie r. 1930-1974
+- [ ] `polity/ethiopia` — turning point 1543 Wayna Daga
+- [ ] `polity/ethiopia` — turning point 1636 Gondar
+- [ ] `polity/ethiopia` — turning point 1769 The era of the princes
+- [ ] `polity/ethiopia` — turning point 1896 Adwa
+- [ ] `polity/ethiopia` — successor_claims = 0
+- [ ] `polity/ethiopia` — ended by internal usurpation in 1974
+
 ## C. E. Bosworth, KWARAZMSHAHS
 *In Encyclopaedia Iranica.*
 <https://iranicaonline.org/articles/kvarazmshahs-index>
@@ -4321,6 +4372,18 @@ ordinary state, not an item to clear.
 - [ ] `polity/byzantine` — revenue basis coded land-tax + trade-toll
 - [ ] `polity/byzantine` — turning point 636 The Yarmuk
 - [ ] `polity/byzantine` — turning point 718 The second Arab siege of Constantinople
+
+## N. Levtzion and J. F. P. Hopkins (eds), Corpus of Early Arabic Sources for West African History
+*In Fontes Historiae Africanae, Series Arabica IV.*
+
+`levtzion-hopkins-1981` — 6 claims
+
+- [ ] `chapter/ghana/01-the-name-is-a-title.mdx` — prose: "The name is a title"
+- [ ] `chapter/ghana/02-a-dinar-on-a-donkey.mdx` — prose: "A dinar on a donkey"
+- [ ] `chapter/ghana/03-the-sisters-son.mdx` — prose: "The sister's son"
+- [ ] `polity/ghana` — peak Tunka Manin
+- [ ] `polity/ghana` — revenue basis coded trade-toll + mining
+- [ ] `polity/ghana` — legitimation coded descent + divine-sanction
 
 ## multiple contributors, SALJUQS
 *In Encyclopaedia Iranica.*

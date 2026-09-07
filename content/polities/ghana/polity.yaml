@@ -1,0 +1,148 @@
+id: ghana
+region: africa
+
+name:
+  # Ghana is what the Arabic sources call the ruler, not the country. Al-Bakri
+  # is explicit that it is a title. The Soninke tradition calls the polity
+  # Wagadu, and the modern state that took the name in 1957 is eight hundred
+  # kilometres away from any of this and chose it deliberately. `latin` carries
+  # the name everything is written under and the first chapter carries the
+  # problem.
+  latin: Ghana
+  script: null
+  script_lang: null
+
+# A real range, and the widest on any span in this corpus. Al-Fazari in the
+# eighth century already knows of Ghana as the land of gold, so the polity is
+# older than the first description of it; the Soninke tradition runs it back
+# further still and cannot be dated. 700 is a conventional floor and 830 is
+# roughly when the Arabic notices become continuous.
+span:
+  start: { min: 700, max: 830, source: levtzion-1973 }
+  end: { min: 1240, max: 1240, source: levtzion-1973 }
+
+identity: >-
+  The first of the three Niger empires, known almost entirely from men who had
+  never been there, and named after its king rather than itself.
+
+# Kumbi Saleh, in southern Mauritania, is the usual identification and it is
+# probable rather than certain. Al-Bakri describes a double town — a Muslim
+# merchants' settlement with twelve mosques and a royal town six miles away with
+# a sacred grove — and excavation at Kumbi Saleh found a stone-built town of
+# roughly the right period and no royal half.
+capitals:
+  - { name: Kumbi Saleh, from: 830, source: levtzion-1973 }
+
+core_region: The Sahel between the upper Senegal and the upper Niger
+
+rulers:
+  founder: { name: null, source: null }
+  # The king al-Bakri describes in 1068, and the only ruler of this polity whose
+  # name and reign this corpus can attach to a description of the state.
+  peak: { name: Tunka Manin, source: levtzion-hopkins-1981 }
+  last: { name: null, source: null }
+
+scripts_and_languages:
+  administration: [Arabic, Soninke]
+  writing_system: Arabic, in the merchant town
+
+# Sosso took Kumbi in the first years of the thirteenth century and Mali
+# absorbed what was left after Kirina. The older account — an Almoravid conquest
+# in 1076 that destroyed the kingdom — is the first turning point on this record
+# and is largely rejected now.
+ended:
+  type: gradual absorption
+  by: [mali]
+  year: 1240
+  source: levtzion-1973
+
+institutions:
+  # Al-Bakri gives the king two hundred thousand men including forty thousand
+  # archers, which is a figure of the kind Arabic geography produces about
+  # distant places and should be read as *many*. What the number implies is a
+  # levy rather than a paid force, and that is what the field records.
+  military_basis: { values: [conscript], source: levtzion-1973 }
+  # Al-Bakri is unusually specific and this is the most quotable passage in the
+  # early Arabic material on West Africa: a dinar of gold on every donkey-load
+  # of salt entering the country and two on every load leaving it, and all
+  # nuggets of gold found in the mines belonging to the king, with only the dust
+  # left to the people.
+  #
+  # The second half of that is the arrangement this corpus's Mali record
+  # describes two hundred years later in almost the same words, and the
+  # continuity is the point: the royalty on nuggets is a Sahelian institution
+  # that outlasted the state that al-Bakri found it in.
+  revenue_basis: { values: [trade-toll, mining], source: levtzion-hopkins-1981 }
+  # Null, and this is a different null from the one on the Mali record, which is
+  # worth setting out because the two are in the same region and about the same
+  # practice.
+  #
+  # Mali's field is empty because no source states a rule. This one is empty
+  # because a source states it clearly and the vocabulary cannot hold it.
+  # Al-Bakri: the kingdom passes not to the king's son but to his sister's son,
+  # and he gives the reason ascribed to the Soninke themselves — that a man can
+  # be certain of his sister's child and not of his wife's. The seven values
+  # available are primogeniture, tanistry, appanage, nomination, election,
+  # acclamation and factional, and matrilineal succession is none of them.
+  #
+  # This corpus has now met that arrangement three times: here as a stated rule,
+  # on the Mali record as a pattern a visitor found scandalous, and on the Ur III
+  # record's last chapter, which notes that Elam passed the throne from brother
+  # to brother and then to a sister's son. Three is not the nine that produced
+  # the `investiture` value and no change is proposed. It is on the page so that
+  # a fourth case knows where to look.
+  succession_rule: null
+  # The royal ceremonial al-Bakri describes — the king in audience with his sons
+  # in gold-plaited hair, the governors around him, dogs in collars of gold and
+  # silver, and the crowd shaving their heads in dust before him — is a
+  # description of a sacral kingship by a Muslim jurist who found it
+  # objectionable and recorded it in detail for that reason. Beside it a royal
+  # lineage, and a burial rite in a domed tomb with the dead king's retainers,
+  # which is what the field's second value rests on.
+  legitimation: { values: [descent, divine-sanction], source: levtzion-hopkins-1981 }
+
+turning_points:
+  - year: 1076
+    type: siege
+    name: The Almoravid conquest that may not have happened
+    changed: >-
+      The standard account for a century was that the Almoravids — this corpus
+      carries them as a record in the Islamic West — took Kumbi in 1076, forced
+      the kingdom to Islam and broke it, and that everything afterwards is
+      decline. It rests on a single late source and it has been substantially
+      dismantled since the 1970s: the contemporary evidence has Ghana and the
+      Almoravids in a relationship of pressure, alliance and eventual
+      conversion rather than conquest, and the archaeology shows no destruction
+      layer.
+      This record carries the entry because the non-event shaped the field for
+      a hundred years, and marks it contested because what is disputed is
+      whether it happened at all.
+    source: levtzion-1973
+    contested: true
+  - year: 1203
+    type: siege
+    name: Sosso
+    changed: >-
+      Sumanguru's Sosso kingdom took Kumbi. It is the real end of the polity as
+      a power and it is barely documented — the Arabic sources have lost
+      interest and the account comes largely from the same oral tradition that
+      supplies this corpus's Mali record with its founding. Thirty-two years
+      later Sundiata destroyed Sosso at Kirina and Mali took what remained,
+      which is this record's ending and the next record's beginning.
+    source: levtzion-1973
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: levtzion-1973 }
+    # Zero, and it is the one that distinguishes this record from the two that
+    # follow it in this region. Mali and Songhai both count Sunni Islam carried,
+    # and both had Muslim dynasties. Ghana's kings were not Muslim. Al-Bakri
+    # describes a religiously divided capital — a Muslim merchant town with
+    # twelve mosques, and a royal town six miles away with the sacred grove and
+    # the idols — and the arrangement worked for centuries precisely because the
+    # state did not propagate anything.
+    religions_carried: { count: 0, items: [], source: levtzion-1973 }
+    successor_claims: { count: 0, items: [], source: levtzion-1973 }

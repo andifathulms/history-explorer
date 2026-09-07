@@ -1,0 +1,199 @@
+id: ethiopia
+region: africa
+
+name:
+  latin: Ethiopian Empire
+  script: ኢትዮጵያ
+  script_lang: gez
+
+# One record and not two, on the reasoning this corpus's Serbian record uses.
+# 1137 is the Zagwe; 1270 is Yekuno Amlak overthrowing them and founding the
+# Solomonic line; 1974 is a military committee deposing Haile Selassie and
+# abolishing the monarchy. A change of dynasty inside a continuously governed
+# state is not the same object seen twice, so `resumes` does not apply, and the
+# Zemene Mesafint of 1769 to 1855 — when the emperors were figureheads and the
+# regional lords governed — is a period of weakness rather than an interruption,
+# which is how the Holy Roman record treats its own last century and a half.
+#
+# 1974 makes this the latest-ending record on the site, twelve years past the
+# Zaydi imamate of Yemen.
+span:
+  start: { min: 1137, max: 1137, source: tamrat-1972 }
+  end: { min: 1974, max: 1974, source: marcus-2002 }
+
+identity: >-
+  The Christian highland state that outlived Aksum by a thousand years, claimed
+  descent from Solomon and the queen of Sheba in writing for six hundred of
+  them, and destroyed an Italian army in 1896.
+
+# The court moved. For most of this record's length there was no capital in the
+# ordinary sense: the emperor travelled with an enormous mobile camp, described
+# by sixteenth-century Portuguese visitors as a city of tents that consumed the
+# country it stopped in and moved when the firewood ran out. Lalibela was the
+# Zagwe seat; Gondar in 1636 is the first permanent capital in five centuries
+# and this record's fourth turning point; Addis Ababa is Menelik's.
+capitals:
+  - { name: Lalibela, from: 1137, source: tamrat-1972 }
+  - { name: Gondar, from: 1636, source: marcus-2002 }
+  - { name: Addis Ababa, from: 1889, source: marcus-2002 }
+
+core_region: The Ethiopian highlands, extending in the nineteenth century to the Ogaden, the south-west and Eritrea
+
+# `peak` is Zara Yaqob and the choice was argued about, so the reasoning is
+# here. The obvious alternative is Menelik II, whose reign roughly doubled the
+# empire and produced Adwa, which is the single most consequential thing this
+# polity ever did.
+#
+# The Aksum record in this region set the precedent this follows: where there is
+# no `reach_km2` figure there is no extent to organise a peak around, so the
+# field names the reign the evidence converges on. For Ethiopia that is the
+# fifteenth century — the councils, the monastic settlement, the doctrinal
+# enforcement, the administration the third chapter describes — and not the
+# nineteenth.
+#
+# The consequence is visible in the chapter phases and is worth naming. Adwa is
+# tagged `contraction`, because hard rule 10's arc runs one way and this
+# polity's most successful moment falls three centuries after its worst
+# collapse. The fifth chapter says so directly rather than mis-tagging itself to
+# fit.
+rulers:
+  founder: { name: Mara Takla Haymanot, source: tamrat-1972 }
+  peak: { name: Zara Yaqob, reign: [1434, 1468], source: tamrat-1972 }
+  last: { name: Haile Selassie, reign: [1930, 1974], source: marcus-2002 }
+
+scripts_and_languages:
+  administration: [Ge'ez, Amharic]
+  writing_system: The Ge'ez syllabary
+
+# The Derg — a committee of junior officers — deposed the emperor in September
+# 1974 and abolished the monarchy. `internal usurpation` is the closest value:
+# the state continued, the dynasty did not, and nobody conquered anything. `by`
+# is empty because a military committee is not a polity this corpus can name.
+ended:
+  type: internal usurpation
+  by: []
+  year: 1974
+  source: marcus-2002
+
+institutions:
+  # The chewa — regiments settled on grants of land, hereditary, garrisoning the
+  # provinces and supplying the emperor with a force that did not come through
+  # the regional nobility — beside the levies those nobles raised. It is the same
+  # instrument this corpus codes `land-grant` for from Ur III to the Ottomans,
+  # arrived at independently, and the tension between the two values is most of
+  # Ethiopian political history: an emperor strong enough to hold the chewa
+  # governed, and one who was not was governed by his lords.
+  military_basis: { values: [land-grant, conscript], source: tamrat-1972 }
+  # The gult: a grant of the right to collect the tribute of a district, made to
+  # a church, a monastery or an official, revocable in principle and hereditary
+  # in practice. Beside it the tribute of the tributary peripheries, which after
+  # Menelik's conquests in the 1880s and 1890s becomes the larger share and is
+  # collected in ways the Ethiopian historiography has only recently been direct
+  # about.
+  revenue_basis: { values: [land-tax, tribute], source: tamrat-1972 }
+  # Designation by the reigning emperor, and the instrument for making it stick
+  # is the strangest in this corpus. Male relatives of the emperor were confined
+  # on a mountain — Amba Geshen in the medieval period, later Wehni — accessible
+  # by a single guarded path, where they lived in reasonable comfort and could
+  # not conspire. A designated heir was brought down; the others stayed.
+  #
+  # It worked for centuries and it is the reason the field is `nomination` rather
+  # than null. What it could not survive was the seventeenth century's decline in
+  # imperial authority, after which the lords took to bringing princes down
+  # themselves.
+  succession_rule: { values: [nomination], source: tamrat-1972 }
+  # Descent, at a volume nothing else in this corpus matches. The Kebra Nagast,
+  # compiled in the fourteenth century, holds that the queen of Sheba visited
+  # Solomon, bore his son Menelik, and that Menelik brought the Ark of the
+  # Covenant to Ethiopia — making the dynasty Solomon's line, the country the
+  # new Israel, and the Ark's resting place a church at Aksum. The claim was
+  # asserted continuously for six hundred years and was written into the
+  # constitution of 1955, which reserved the throne to the line of Haile
+  # Selassie, descendant of Menelik I, son of Solomon and the queen of Sheba.
+  #
+  # This corpus's Saba record now counts it, and the Aksum record counts the
+  # coronation claim separately.
+  legitimation: { values: [descent, divine-sanction], source: tamrat-1972 }
+
+turning_points:
+  - year: 1270
+    type: revolt
+    name: The Solomonic restoration
+    changed: >-
+      Yekuno Amlak overthrew the last Zagwe king and founded a dynasty that
+      ruled for seven hundred and four years, on the claim that the Zagwe had
+      been usurpers and that his own line descended from Solomon through the
+      kings of Aksum. The Kebra Nagast is the document that claim was eventually
+      written into, and this record's `legitimation` field, this corpus's
+      Aksumite successor claim and its Sabaean one all descend from what was
+      asserted here.
+    source: tamrat-1972
+    contested: false
+  - year: 1543
+    type: battle
+    name: Wayna Daga
+    changed: >-
+      Ahmad ibn Ibrahim of Adal had spent fourteen years destroying the Christian
+      kingdom with Ottoman firearms and matchlockmen, had taken most of the
+      highlands, and had burned churches and monasteries across the country
+      including the treasuries where the state's written record was kept. A
+      Portuguese expedition of four hundred musketeers landed at Massawa; Ahmad
+      was shot at Wayna Daga and his army dispersed within days.
+      It is the closest this record comes to ending four centuries early, and
+      the two European and Ottoman interventions on opposite sides make it the
+      one occasion on which the Ethiopian highlands were a theatre of somebody
+      else's war.
+    source: marcus-2002
+    contested: false
+  - year: 1636
+    type: capital-move
+    name: Gondar
+    changed: >-
+      Fasilides built a permanent capital, and after five centuries of a mobile
+      court that ate the country it stopped in, the emperors stayed in one place
+      for a hundred and thirty years. It produced a castle complex, a school of
+      painting and a body of literature — and it also fixed the monarchy in one
+      spot while the regional lords governed everywhere else, which is the
+      condition the next turning point describes.
+    source: marcus-2002
+    contested: false
+  - year: 1769
+    type: succession-crisis
+    name: The era of the princes
+    changed: >-
+      Mikael Sehul deposed one emperor and installed another, and for the
+      following eighty-six years the emperors at Gondar reigned without ruling
+      while regional lords fought over who would control them. Ethiopian
+      historiography calls it the Zemene Mesafint, after the biblical era when
+      there was no king in Israel. This record treats it as a period of weakness
+      rather than an interruption, for the same reason the Holy Roman record
+      treats its own last century that way: the institution went on being
+      occupied, and the men fighting over it were fighting to control it rather
+      than to replace it.
+    source: marcus-2002
+    contested: false
+  - year: 1896
+    type: battle
+    name: Adwa
+    changed: >-
+      Menelik II destroyed an Italian army of about seventeen thousand at Adwa
+      with a force several times its size, armed with rifles he had spent a
+      decade buying from France and Russia — and from Italy. Italy recognised
+      Ethiopian independence in the treaty that followed.
+      It is the only occasion in the partition of Africa on which an African
+      state defeated a European invasion in the field and kept its sovereignty,
+      and it is why this record runs to 1974 while every other African polity in
+      this corpus ends before 1600.
+    source: marcus-2002
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    # Zero. The Ge'ez syllabary is counted on this corpus's Aksumite record,
+    # where the vocalisation was done; this state inherited it and used it
+    # unchanged, and coding rule 3 excludes using a script unchanged in terms.
+    descendant_scripts: { count: 0, items: [], source: tamrat-1972 }
+    religions_carried: { count: 0, items: [], source: tamrat-1972 }
+    successor_claims: { count: 0, items: [], source: marcus-2002 }

@@ -958,6 +958,48 @@ edges:
     source: hall-2011
     contested: true
 
+  # The Solomonic dynasty's claim, and the reason the Aksumite record's
+  # `successor_claims` field is no longer null. Yekuno Amlak overthrew the Zagwe
+  # in 1270 asserting descent from the kings of Aksum through Solomon, and his
+  # successors were crowned at Aksum Zion for centuries afterwards.
+  - from: aksum
+    to: ethiopia
+    type: claimed legitimacy of
+    year: 1270
+    note: >-
+      The Kebra Nagast makes the dynasty Solomon's line by way of Aksum, and the
+      coronation at the church of Mary of Zion at Aksum is the ceremony that
+      asserted it. The claim was maintained until 1974 and written into the 1955
+      constitution.
+    source: tamrat-1972
+    contested: false
+
+  # Crosses into South Arabia and is drawn by no thread. The queen of Sheba is
+  # Saba, and the Sabaean record's own chapter on the alphabet already described
+  # this claim before there was a record to attach it to.
+  - from: saba
+    to: ethiopia
+    type: claimed legitimacy of
+    year: 1270
+    note: >-
+      The Kebra Nagast holds that the queen of Sheba bore Solomon a son who
+      became the first Ethiopian king, making the dynasty descendants of a South
+      Arabian ruler this corpus carries and of an Israelite one it does not.
+    source: tamrat-1972
+    contested: true
+
+  - from: ghana
+    to: mali
+    type: absorbed remnants of
+    year: 1240
+    note: >-
+      Sosso had taken Kumbi around 1203; Sundiata destroyed Sosso at Kirina and
+      Mali took what was left of Ghana's territory, its trade position and its
+      royalty on gold nuggets, which the Malian mansas were still levying two
+      centuries later.
+    source: levtzion-1973
+    contested: false
+
   - from: mali
     to: songhai
     type: absorbed remnants of

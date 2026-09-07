@@ -100,7 +100,19 @@ measures:
     # had ceased to exist as a polity. The Himyar record carries `titulature`
     # in its legitimation field and this is the claim it points at; the
     # rulebook asks that the two agree, and they do.
+    # Two. Himyar, which took the Sabaean royal titulature and the ground with
+    # it. And the Ethiopian empire, whose record was added later: the Kebra
+    # Nagast makes the queen of Sheba the ancestress of the Solomonic dynasty,
+    # the claim was asserted publicly for six hundred years and was written into
+    # the constitution of 1955, and rule 1 counts descent invoked as the ground
+    # of a right to rule. This record's chapter on the alphabet described that
+    # claim before there was a record to attach it to.
+    #
+    # Whether the queen of Sheba was Sabaean, or existed at all, is a separate
+    # question this record does not answer. Rule 1 counts unrecognised claims the
+    # same as recognised ones and does not require the object of a claim to have
+    # been real.
     successor_claims:
-      count: 1
-      items: [Himyar]
-      source: fisher-2015
+      count: 2
+      items: [Himyar, Ethiopian Empire]
+      source: tamrat-1972

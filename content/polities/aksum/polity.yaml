@@ -121,10 +121,15 @@ measures:
       count: 1
       items: [Miaphysite Christianity]
       source: munro-hay-1991
-    # Null rather than zero. The Zagwe dynasty and then the Solomonic one ruled
-    # the same highlands afterwards and made elaborate claims about their own
-    # descent, and neither is in this corpus; whether either asserted *this*
-    # kingdom's legitimacy in the sense rule 1 requires is not something the two
-    # sources on this record address. Nobody has looked, which is what null
-    # means.
-    successor_claims: { count: null, items: [], source: null }
+    # This was null, with a comment saying that the Zagwe and Solomonic dynasties
+    # were not in this corpus and that nobody had looked at whether either
+    # asserted this kingdom's legitimacy. Somebody has now: the Ethiopian record
+    # was written and the answer is yes. Yekuno Amlak overthrew the Zagwe in 1270
+    # claiming descent from the kings of Aksum, the Kebra Nagast routes the
+    # Solomonic line through this kingdom, and Ethiopian emperors were crowned at
+    # the church of Mary of Zion at Aksum for centuries after the state on this
+    # page had ceased to exist.
+    successor_claims:
+      count: 1
+      items: [Ethiopian Empire]
+      source: tamrat-1972
