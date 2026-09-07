@@ -25,7 +25,6 @@ import { PolityMap } from '@/components/PolityMap'
 import { ExtentTrajectory } from '@/components/ExtentTrajectory'
 import { TurningPoints } from '@/components/TurningPoints'
 import { Institutions } from '@/components/Institutions'
-import { Banner } from '@/components/Banner'
 import { Contemporaries } from '@/components/Contemporaries'
 
 export function generateStaticParams() {
@@ -175,8 +174,6 @@ export default function PolityPage({ params }: { params: { id: string } }) {
             <Facts polity={p} />
 
             <Institutions polity={p} />
-
-            <Banner polity={p} />
 
             <TurningPoints polity={p} />
 

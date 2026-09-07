@@ -73,7 +73,6 @@ const bare = (id: string, sMin: number, sMax: number, eMin: number, eMax: number
       end: { min: eMin, max: eMax, source: 's' },
     },
     identity: '',
-    banner: null,
     capitals: [],
     core_region: '',
     rulers: { founder: null, peak: null, last: null },
