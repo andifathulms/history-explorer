@@ -283,6 +283,29 @@ export type RevenueBasis = (typeof REVENUE_BASES)[number]
  * succession rule and a throne that went to whichever military faction could
  * impose its man, and recording that as "unaddressed" would lose the single
  * most distinctive thing about the polity.
+ *
+ * `matrilineal` was added after five records had each recorded, on the page,
+ * that this list could not hold a succession they could describe precisely.
+ * Ghana, where al-Bakri states the rule and the reason given for it. Makuria,
+ * attested in the Arabic accounts and the royal titulature. Asante, documented
+ * in institutional detail by Wilks. And, on records whose own periods this
+ * corpus does not carry, the Elam of Awan and Shimashki and the throne of Mali.
+ *
+ * The argument for adding it, set out on the Asante record's second chapter, is
+ * that the gap was systematic rather than accidental. The seven original values
+ * come from European, Islamic and steppe practice — primogeniture and appanage
+ * from Latin Europe, tanistry from the Celtic and Turkic worlds, nomination and
+ * acclamation from Rome and the caliphates, election from the Italian republics
+ * and the Empire. Descent through women is not a marginal arrangement globally.
+ * It was absent from this list because of where the list came from, and five
+ * records were carrying a null that read as "nobody has looked" over an answer
+ * everybody had.
+ *
+ * It names the rule of *eligibility* and not the method of selection, which is
+ * why it frequently appears beside a second value: Asante reads
+ * `[matrilineal, election]`, because the matriclan defined who could be chosen
+ * and a council of chiefs did the choosing. Multi-value succession sets were
+ * already the practice here — the Rashidun record carries three.
  */
 export const SUCCESSION_RULES = [
   'primogeniture',
@@ -291,6 +314,7 @@ export const SUCCESSION_RULES = [
   'nomination',
   'election',
   'acclamation',
+  'matrilineal',
   'factional',
 ] as const
 export type SuccessionRule = (typeof SUCCESSION_RULES)[number]

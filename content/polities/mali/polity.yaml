@@ -59,11 +59,21 @@ institutions:
   # mine. `mining` is coded on that basis and the chapter argues it, because a
   # reader who assumes Mali owned the mines has the shape of the empire wrong.
   revenue_basis: { values: [mining, trade-toll], source: levtzion-1973 }
-  # Null. The throne passed within the Keita line and the sources show it going
-  # to brothers, to sons and to sisters' sons in no order anybody states, with
-  # long stretches of dispute and at least two usurpations by men outside the
-  # family. Coding rule 7 takes the rule and no source on this record supplies
-  # one; the pattern is not a substitute.
+  # Null, and it stayed null through the change that filled the same field on
+  # three other records.
+  #
+  # The throne passed within the Keita line and the sources show it going to
+  # brothers, to sons and to sisters' sons in no order anybody states, with long
+  # stretches of dispute and at least two usurpations by men outside the family.
+  # Ibn Battuta reports the sister's son as a rule of inheritance among these
+  # people generally; no source states it as the rule for this throne, and the
+  # throne visibly did not follow it consistently.
+  #
+  # When `matrilineal` was added to the vocabulary, the Ghana record two entries
+  # back was filled because al-Bakri states the rule outright. This one was not,
+  # because coding rule 7 takes the rule and a pattern is not a substitute. Those
+  # two fields looked identical before the change and do not now, which is the
+  # clearest thing the change achieved.
   succession_rule: null
   # Descent, and it is a double claim made in two registers at once. In the oral
   # tradition the mansa descends from Sundiata and behind him from a lineage the

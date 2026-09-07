@@ -324,13 +324,36 @@ exactly what the Buyid page turns on.
 
 `primogeniture`, `tanistry` (lateral seniority within the house), `appanage`
 (patrimonial division among heirs), `nomination` (a designated heir),
-`election`, `acclamation` (by army or assembly), `factional`.
+`election`, `acclamation` (by army or assembly), `matrilineal` (eligibility
+traced through the female line), `factional`.
 
 `factional` is a real coding and not a disguised null. The Mamluk sultanate had
 no succession rule and a throne that went to whichever military faction could
 impose its man; recording that as unaddressed would lose the most distinctive
 thing about the polity. Use it only where a source describes the *absence* of a
 rule, never where a source is simply silent.
+
+**`matrilineal` names eligibility, not selection.** It is coded where a source
+states that the right to the throne descends through the female line — to a
+sister's son, or within a matriclan — and it says nothing about how one
+candidate among the eligible was picked. Where the selection method is also
+known, code both: the Asante record reads `[matrilineal, election]`, because the
+*abusua* defined who could be chosen and a council of chiefs chose. Multi-value
+sets are the ordinary case for these fields and the Rashidun record carries
+three.
+
+**A pattern is not a rule, here as everywhere.** This is the distinction the
+value makes it possible to draw, and the distinction is the reason it was worth
+adding. The Ghana record codes `matrilineal` because al-Bakri states the rule and
+gives the reason for it. The Mali record stays null, because its throne went to
+brothers, to sons and to sisters' sons in no order any source states — a mixed
+practice, not a rule about descent. Before this value existed both fields were
+empty and looked identical. They were never the same claim.
+
+Do not code it from the prominence of royal women alone. Queen mothers with
+formal office, ruling queens and matrilineal *inheritance of property* are all
+compatible with a patrilineal throne, and the Kush record declines the value on
+exactly that ground.
 
 ## 8. Legitimation
 

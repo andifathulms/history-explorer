@@ -73,25 +73,18 @@ institutions:
   # continuity is the point: the royalty on nuggets is a Sahelian institution
   # that outlasted the state that al-Bakri found it in.
   revenue_basis: { values: [trade-toll, mining], source: levtzion-hopkins-1981 }
-  # Null, and this is a different null from the one on the Mali record, which is
-  # worth setting out because the two are in the same region and about the same
-  # practice.
+  # `matrilineal`, and this field was null until the value existed.
   #
-  # Mali's field is empty because no source states a rule. This one is empty
-  # because a source states it clearly and the vocabulary cannot hold it.
   # Al-Bakri: the kingdom passes not to the king's son but to his sister's son,
   # and he gives the reason ascribed to the Soninke themselves — that a man can
-  # be certain of his sister's child and not of his wife's. The seven values
-  # available are primogeniture, tanistry, appanage, nomination, election,
-  # acclamation and factional, and matrilineal succession is none of them.
+  # be certain of his sister's child and not of his wife's. That is a rule of
+  # eligibility stated by a source, which is what the value codes.
   #
-  # This corpus has now met that arrangement three times: here as a stated rule,
-  # on the Mali record as a pattern a visitor found scandalous, and on the Ur III
-  # record's last chapter, which notes that Elam passed the throne from brother
-  # to brother and then to a sister's son. Three is not the nine that produced
-  # the `investiture` value and no change is proposed. It is on the page so that
-  # a fourth case knows where to look.
-  succession_rule: null
+  # The Mali record two entries along stays null, and the difference is the whole
+  # point of the change. Its throne went to brothers, to sons and to sisters'
+  # sons in no order anybody states. Before `matrilineal` existed the two fields
+  # were both empty and looked identical, and they were never the same claim.
+  succession_rule: { values: [matrilineal], source: levtzion-hopkins-1981 }
   # The royal ceremonial al-Bakri describes — the king in audience with his sons
   # in gold-plaited hair, the governors around him, dogs in collars of gold and
   # silver, and the crowd shaving their heads in dust before him — is a

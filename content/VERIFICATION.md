@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**3741 claims across 201 sources.**
+**3744 claims across 201 sources.**
 
 ## Where to start
 
@@ -1910,6 +1910,42 @@ ordinary state, not an item to clear.
 - [ ] `polity/khwarazmian` — turning point 1210 Breaking the Qara Khitai
 - [ ] `polity/khwarazmian` — turning point 1217 A rival caliph, and snow in the Zagros
 
+## Derek A. Welsby, The Medieval Kingdoms of Nubia: Pagans, Christians and Muslims along the Middle Nile
+
+`welsby-2002` — 29 claims
+
+**Sole source** for `alodia` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/alodia/01-four-hundred-churches.mdx` — prose: "Four hundred churches"
+- [ ] `chapter/alodia/02-1504.mdx` — prose: "1504"
+- [ ] `chapter/makuria/01-the-pupil-smiters.mdx` — prose: "The pupil-smiters"
+- [ ] `chapter/makuria/03-the-fourth-case.mdx` — prose: "The fourth case"
+- [ ] `chapter/makuria/05-1365.mdx` — prose: "1365"
+- [ ] `polity/alodia` — span starts 580
+- [ ] `polity/alodia` — span ends 1504
+- [ ] `polity/alodia` — capital Soba from 580
+- [ ] `polity/alodia` — turning point 580 Longinus (contested)
+- [ ] `polity/alodia` — turning point 1504 Soba falls
+- [ ] `polity/alodia` — descendant_scripts = 0
+- [ ] `polity/alodia` — religions_carried = 0
+- [ ] `polity/alodia` — successor_claims = 0
+- [ ] `polity/alodia` — ended by conquest in 1504
+- [ ] `polity/makuria` — span starts 651
+- [ ] `polity/makuria` — span ends 1365
+- [ ] `polity/makuria` — capital Old Dongola from 651
+- [ ] `polity/makuria` — founder Qalidurut
+- [ ] `polity/makuria` — peak Merkurios r. 697-722
+- [ ] `polity/makuria` — last Kudanbes
+- [ ] `polity/makuria` — military basis coded conscript
+- [ ] `polity/makuria` — succession rule coded matrilineal
+- [ ] `polity/makuria` — legitimation coded divine-sanction + descent
+- [ ] `polity/makuria` — turning point 652 The baqt
+- [ ] `polity/makuria` — turning point 1276 Baybars breaks it
+- [ ] `polity/makuria` — turning point 1317 The throne hall
+- [ ] `polity/makuria` — religions_carried = 0
+- [ ] `polity/makuria` — successor_claims = 0
+- [ ] `polity/makuria` — ended by gradual absorption in 1365
+
 ## Nehemia Levtzion, Ancient Ghana and Mali
 
 `levtzion-1973` — 29 claims
@@ -1977,41 +2013,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/sasanian` — turning point 484 Peroz and the Hephthalites
 - [ ] `polity/sasanian` — turning point 626 Constantinople
 - [ ] `polity/sasanian` — religions_carried = 1 (Zoroastrianism)
-
-## Derek A. Welsby, The Medieval Kingdoms of Nubia: Pagans, Christians and Muslims along the Middle Nile
-
-`welsby-2002` — 28 claims
-
-**Sole source** for `alodia` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/alodia/01-four-hundred-churches.mdx` — prose: "Four hundred churches"
-- [ ] `chapter/alodia/02-1504.mdx` — prose: "1504"
-- [ ] `chapter/makuria/01-the-pupil-smiters.mdx` — prose: "The pupil-smiters"
-- [ ] `chapter/makuria/03-the-fourth-case.mdx` — prose: "The fourth case"
-- [ ] `chapter/makuria/05-1365.mdx` — prose: "1365"
-- [ ] `polity/alodia` — span starts 580
-- [ ] `polity/alodia` — span ends 1504
-- [ ] `polity/alodia` — capital Soba from 580
-- [ ] `polity/alodia` — turning point 580 Longinus (contested)
-- [ ] `polity/alodia` — turning point 1504 Soba falls
-- [ ] `polity/alodia` — descendant_scripts = 0
-- [ ] `polity/alodia` — religions_carried = 0
-- [ ] `polity/alodia` — successor_claims = 0
-- [ ] `polity/alodia` — ended by conquest in 1504
-- [ ] `polity/makuria` — span starts 651
-- [ ] `polity/makuria` — span ends 1365
-- [ ] `polity/makuria` — capital Old Dongola from 651
-- [ ] `polity/makuria` — founder Qalidurut
-- [ ] `polity/makuria` — peak Merkurios r. 697-722
-- [ ] `polity/makuria` — last Kudanbes
-- [ ] `polity/makuria` — military basis coded conscript
-- [ ] `polity/makuria` — legitimation coded divine-sanction + descent
-- [ ] `polity/makuria` — turning point 652 The baqt
-- [ ] `polity/makuria` — turning point 1276 Baybars breaks it
-- [ ] `polity/makuria` — turning point 1317 The throne hall
-- [ ] `polity/makuria` — religions_carried = 0
-- [ ] `polity/makuria` — successor_claims = 0
-- [ ] `polity/makuria` — ended by gradual absorption in 1365
 
 ## John V. A. Fine, The Early Medieval Balkans: A Critical Survey from the Sixth to the Late Twelfth Century
 
@@ -2887,6 +2888,35 @@ ordinary state, not an item to clear.
 - [ ] `polity/hotaki` — turning point 1729 Damghan and Murche-Khort
 - [ ] `polity/hotaki` — ended by conquest in 1738
 
+## Ivor Wilks, Asante in the Nineteenth Century: The Structure and Evolution of a Political Order
+*In African Studies Series 13.*
+
+`wilks-1975` — 21 claims
+
+**Sole source** for `asante` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/asante/01-a-stool-from-the-sky.mdx` — prose: "A stool from the sky"
+- [ ] `chapter/asante/02-the-fifth-case.mdx` — prose: "The fifth case"
+- [ ] `chapter/asante/03-1901.mdx` — prose: "1901"
+- [ ] `polity/asante` — span starts 1701
+- [ ] `polity/asante` — span ends 1901
+- [ ] `polity/asante` — capital Kumasi from 1701
+- [ ] `polity/asante` — founder Osei Tutu r. 1701-1717
+- [ ] `polity/asante` — peak Osei Bonsu r. 1804-1824
+- [ ] `polity/asante` — last Prempeh I r. 1888-1896
+- [ ] `polity/asante` — military basis coded conscript
+- [ ] `polity/asante` — revenue basis coded mining + trade-toll + tribute
+- [ ] `polity/asante` — succession rule coded matrilineal + election
+- [ ] `polity/asante` — legitimation coded divine-sanction + descent
+- [ ] `polity/asante` — turning point 1701 Feyiase
+- [ ] `polity/asante` — turning point 1824 Nsamankow
+- [ ] `polity/asante` — turning point 1874 Kumasi burned
+- [ ] `polity/asante` — turning point 1900 The War of the Golden Stool
+- [ ] `polity/asante` — descendant_scripts = 0
+- [ ] `polity/asante` — religions_carried = 0
+- [ ] `polity/asante` — successor_claims = 0
+- [ ] `polity/asante` — ended by conquest in 1901
+
 ## C. E. Bosworth, The Ghaznavids: Their Empire in Afghanistan and Eastern Iran, 994-1040
 
 `bosworth-1963` — 21 claims
@@ -2994,34 +3024,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/antigonid` — religions_carried = 0
 - [ ] `polity/antigonid` — successor_claims = 0
 - [ ] `polity/antigonid` — ended by conquest in -168
-
-## Ivor Wilks, Asante in the Nineteenth Century: The Structure and Evolution of a Political Order
-*In African Studies Series 13.*
-
-`wilks-1975` — 20 claims
-
-**Sole source** for `asante` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/asante/01-a-stool-from-the-sky.mdx` — prose: "A stool from the sky"
-- [ ] `chapter/asante/02-the-fifth-case.mdx` — prose: "The fifth case"
-- [ ] `chapter/asante/03-1901.mdx` — prose: "1901"
-- [ ] `polity/asante` — span starts 1701
-- [ ] `polity/asante` — span ends 1901
-- [ ] `polity/asante` — capital Kumasi from 1701
-- [ ] `polity/asante` — founder Osei Tutu r. 1701-1717
-- [ ] `polity/asante` — peak Osei Bonsu r. 1804-1824
-- [ ] `polity/asante` — last Prempeh I r. 1888-1896
-- [ ] `polity/asante` — military basis coded conscript
-- [ ] `polity/asante` — revenue basis coded mining + trade-toll + tribute
-- [ ] `polity/asante` — legitimation coded divine-sanction + descent
-- [ ] `polity/asante` — turning point 1701 Feyiase
-- [ ] `polity/asante` — turning point 1824 Nsamankow
-- [ ] `polity/asante` — turning point 1874 Kumasi burned
-- [ ] `polity/asante` — turning point 1900 The War of the Golden Stool
-- [ ] `polity/asante` — descendant_scripts = 0
-- [ ] `polity/asante` — religions_carried = 0
-- [ ] `polity/asante` — successor_claims = 0
-- [ ] `polity/asante` — ended by conquest in 1901
 
 ## Caroline Finkel, Osman's Dream: The Story of the Ottoman Empire 1300-1923
 
@@ -4382,6 +4384,21 @@ ordinary state, not an item to clear.
 - [ ] `polity/egypt-old-kingdom` — legitimation coded divine-sanction + descent
 - [ ] `polity/egypt-old-kingdom` — religions_carried = 0
 
+## N. Levtzion and J. F. P. Hopkins (eds), Corpus of Early Arabic Sources for West African History
+*In Fontes Historiae Africanae, Series Arabica IV.*
+
+`levtzion-hopkins-1981` — 9 claims
+
+- [ ] `chapter/ghana/01-the-name-is-a-title.mdx` — prose: "The name is a title"
+- [ ] `chapter/ghana/02-a-dinar-on-a-donkey.mdx` — prose: "A dinar on a donkey"
+- [ ] `chapter/ghana/03-the-sisters-son.mdx` — prose: "The sister's son"
+- [ ] `polity/ghana` — peak Tunka Manin
+- [ ] `polity/ghana` — revenue basis coded trade-toll + mining
+- [ ] `polity/ghana` — succession rule coded matrilineal
+- [ ] `polity/ghana` — legitimation coded descent + divine-sanction
+- [ ] `polity/kanem-bornu` — span starts 700
+- [ ] `polity/kanem-bornu` — capital Njimi from 1100
+
 ## C. E. Bosworth, The Later Ghaznavids: Splendour and Decay. The Dynasty in Afghanistan and Northern India, 1040-1186
 
 `bosworth-1977` — 9 claims
@@ -4450,20 +4467,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/akkadian` — revenue basis coded land-tax + tribute
 - [ ] `polity/akkadian` — legitimation coded divine-sanction + conquest
 - [ ] `polity/akkadian` — turning point -2250 The Great Revolt
-
-## N. Levtzion and J. F. P. Hopkins (eds), Corpus of Early Arabic Sources for West African History
-*In Fontes Historiae Africanae, Series Arabica IV.*
-
-`levtzion-hopkins-1981` — 8 claims
-
-- [ ] `chapter/ghana/01-the-name-is-a-title.mdx` — prose: "The name is a title"
-- [ ] `chapter/ghana/02-a-dinar-on-a-donkey.mdx` — prose: "A dinar on a donkey"
-- [ ] `chapter/ghana/03-the-sisters-son.mdx` — prose: "The sister's son"
-- [ ] `polity/ghana` — peak Tunka Manin
-- [ ] `polity/ghana` — revenue basis coded trade-toll + mining
-- [ ] `polity/ghana` — legitimation coded descent + divine-sanction
-- [ ] `polity/kanem-bornu` — span starts 700
-- [ ] `polity/kanem-bornu` — capital Njimi from 1100
 
 ## Mark Edward Lewis, China's Cosmopolitan Empire: The Tang Dynasty
 

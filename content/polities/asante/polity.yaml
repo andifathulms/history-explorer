@@ -60,23 +60,21 @@ institutions:
   # tribute of the conquered states — assessed, recorded and chased, which is the
   # part Wilks's book is about.
   revenue_basis: { values: [mining, trade-toll, tribute], source: wilks-1975 }
-  # Null. The Asantehene succeeded through the abusua — the matriclan — and the
-  # candidates were the sons of the royal women, not of the reigning king. The
-  # Asantehemaa, the queen mother, nominated from the eligible matrilineage; the
-  # council of chiefs confirmed or refused; and a king could be destooled.
+  # Two values, and this record is the reason the site can now carry both.
   #
-  # None of the seven values on this site's list says that. Not `primogeniture`,
-  # which is a rule about birth order in a male line. Not `tanistry`, which is
-  # selection from a pool of kin and comes closest and still describes the
-  # confirming step rather than the descent rule. Not `election`, `nomination`,
-  # `acclamation` or `factional`.
+  # `matrilineal` for the eligibility: the Asantehene succeeded through the
+  # abusua, the matriclan, and the candidates were the sons of the royal women
+  # rather than of the reigning king — a king's own son belonged to his mother's
+  # clan and could not inherit his father's stool.
   #
-  # This is the fifth record in the corpus to be null here for that reason, and
-  # the first where the arrangement is documented in institutional detail by a
-  # modern scholarly account rather than reported by a foreign visitor or
-  # inferred from a titulature. The third chapter makes the argument the rulebook
-  # requires for a vocabulary change; this record does not make the change.
-  succession_rule: null
+  # `election` for the selection: the Asantehemaa nominated from the eligible
+  # matrilineage, and a council of chiefs confirmed, refused, or later destooled.
+  #
+  # The second chapter argued this record into being the fifth case that changed
+  # the vocabulary. The pairing is the argument's own conclusion made concrete —
+  # `matrilineal` names who could be chosen and says nothing about who chose, so
+  # it sits beside a selection value wherever one is known.
+  succession_rule: { values: [matrilineal, election], source: wilks-1975 }
   # The Golden Stool, which in the tradition was brought down from the sky by
   # the priest Okomfo Anokye at the founding and holds the soul of the nation.
   # Nobody sits on it. It is not a throne; the Asantehene is enstooled beside it

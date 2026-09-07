@@ -63,25 +63,17 @@ institutions:
   # wider world, which is not what a kingdom known abroad for archery and a
   # treaty is expected to leave behind.
   revenue_basis: { values: [land-tax, trade-toll], source: ruffini-2012 }
-  # Null, and this is the fourth record in the corpus to be null here for the
-  # same reason. The Makurian throne passed to the king's sister's son. It is
-  # attested in the Arabic accounts, in the Nubian material, and in the royal
-  # titulature, and it is not one of the seven values available — primogeniture,
-  # tanistry, appanage, nomination, election, acclamation, factional. None of
-  # them describes descent traced through women.
+  # `matrilineal`. The Makurian throne passed to the king's sister's son, and it
+  # is attested in the Arabic accounts, in the Nubian material and in the royal
+  # titulature — the king's mother and the king's sister hold formal position and
+  # appear in the wall paintings at Faras alongside the kings.
   #
-  # The Ghana record, written one pass before this one, sets the count at three:
-  # itself with a rule stated by al-Bakri, Mali with a practice Ibn Battuta found
-  # scandalous, and the Elam of Awan and Shimashki on the Ur III record's last
-  # chapter. Its closing paragraph says the note is there so that a fourth case
-  # has somewhere to arrive.
-  #
-  # This is the fourth. Four records, three regions, and something over two and a
-  # half thousand years between the earliest and the latest, with no contact
-  # between any of them. The value that closed the `investiture` gap took nine
-  # records to argue; four is not nine and no change is made here. What has
-  # changed is that this is no longer a curiosity about one page.
-  succession_rule: null
+  # This field was null through four records' worth of argument. The third
+  # chapter records what that argument was and what it cost, and it is left
+  # standing rather than rewritten, because the reasoning is the more useful half
+  # and deleting it would leave the site looking as though the value had always
+  # been there.
+  succession_rule: { values: [matrilineal], source: welsby-2002 }
   # The king is a priest and a Christian monarch at once — Ibn Selim al-Aswani,
   # who went to Dongola as a Fatimid envoy in the 970s, reports that the king
   # could ordain, and the Nubian royal iconography puts Christ's hand on the

@@ -61,7 +61,8 @@ institutions:
   #
   # `succession_rule` on this record stays empty, and the new value does not
   # touch it. A throne disposed of by treaty between two other powers is not
-  # primogeniture, tanistry, appanage, nomination, election, acclamation or
+  # primogeniture, tanistry, appanage, nomination, election, acclamation,
+  # matrilineal or
   # factional, and adding a legitimation value does not give the succession list
   # one. Chapter 2 sets that out and it is still true.
   legitimation: { values: [descent, investiture], source: toumanoff-1963 }
