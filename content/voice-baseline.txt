@@ -557,7 +557,6 @@ content/polities/shaddadid/02-ani.mdx
 content/polities/shaddadid/03-prehistory-of-saladin.mdx
 content/polities/shaddadid/04-1199.mdx
 content/polities/sharifate-mecca/01-the-qualification.mdx
-content/polities/sharifate-mecca/03-selling-recognition.mdx
 content/polities/sharifate-mecca/04-the-ottoman-centuries.mdx
 content/polities/sharifate-mecca/05-people-who-did-not-want-the-sermon.mdx
 content/polities/sharifate-mecca/06-1916.mdx
@@ -566,7 +565,6 @@ content/polities/shaybanid/04-abdullah-khan.mdx
 content/polities/shaybanid/05-bukhara.mdx
 content/polities/shaybanid/06-the-line-runs-out.mdx
 content/polities/shirvanshah/01-arabs-who-became-sasanians.mdx
-content/polities/shirvanshah/02-what-lasting-costs.mdx
 content/polities/shirvanshah/03-khaqani.mdx
 content/polities/shirvanshah/04-baku.mdx
 content/polities/shirvanshah/05-farrukh-yasar.mdx
@@ -576,7 +574,6 @@ content/polities/singhasari/05-jayakatwang.mdx
 content/polities/songhai/01-a-ribbon-along-a-river.mdx
 content/polities/songhai/02-sunni-ali.mdx
 content/polities/songhai/03-a-caliph-of-takrur.mdx
-content/polities/songhai/04-the-estates.mdx
 content/polities/songhai/05-the-chronicles.mdx
 content/polities/songhai/06-tondibi.mdx
 content/polities/srivijaya/01-power-over-a-passage.mdx
@@ -593,14 +590,12 @@ content/polities/sulu/04-a-word-in-a-contract.mdx
 content/polities/sulu/05-1915.mdx
 content/polities/sunda/01-the-kingdom-that-lasted-longest.mdx
 content/polities/sunda/02-the-oldest-writing-on-java.mdx
-content/polities/sunda/03-sri-baduga.mdx
 content/polities/sunda/04-two-bad-bargains.mdx
 content/polities/sunda/05-what-is-remembered.mdx
 content/polities/tahirid-yemen/01-picking-up-the-state.mdx
 content/polities/tahirid-yemen/02-the-port-that-stopped-paying.mdx
 content/polities/tahirid-yemen/03-the-amiriyya.mdx
 content/polities/tahirid-yemen/04-1517.mdx
-content/polities/tang/03-the-armies-that-changed.mdx
 content/polities/tang/04-salt.mdx
 content/polities/tang/05-what-was-copied.mdx
 content/polities/ternate/01-five-islands.mdx
@@ -625,10 +620,8 @@ content/polities/tripoli/02-the-one-that-admitted-a-superior.mdx
 content/polities/tripoli/03-1289.mdx
 content/polities/tulunid/05-905.mdx
 content/polities/umayyad/02-karbala.mdx
-content/polities/umayyad/03-the-second-wave.mdx
 content/polities/umayyad/05-khalifat-allah.mdx
 content/polities/uqaylid/02-the-khutba-of-1010.mdx
-content/polities/uqaylid/04-the-arab-century.mdx
 content/polities/ur-iii/01-after-the-gutians.mdx
 content/polities/ur-iii/02-a-hundred-thousand-receipts.mdx
 content/polities/ur-iii/03-the-king-becomes-a-god.mdx
@@ -636,7 +629,6 @@ content/polities/ur-iii/04-the-grain.mdx
 content/polities/ur-iii/05-2004.mdx
 content/polities/urartu/01-a-state-built-against-assyria.mdx
 content/polities/urartu/02-the-eighth-campaign.mdx
-content/polities/urartu/03-nobody-knows.mdx
 content/polities/uyghur-khaganate/01-manichaeans.mdx
 content/polities/uyghur-khaganate/02-what-they-left.mdx
 content/polities/vandal/01-the-grain.mdx
