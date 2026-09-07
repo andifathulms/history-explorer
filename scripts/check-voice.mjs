@@ -74,7 +74,7 @@ const RULES = [
   },
   {
     id: 'corpus-talk',
-    re: /\b(the corpus|this site's data|the dataset|a pass ago|this pass)\b/gi,
+    re: /\b(the|this) corpus\b|\bthis site('s)?\b|\bthe dataset\b|\b(a pass ago|this pass)\b/gi,
     say: 'talks about the corpus rather than the past',
   },
 ]
