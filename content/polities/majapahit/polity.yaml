@@ -28,9 +28,15 @@ scripts_and_languages:
   administration: [Old Javanese, Sanskrit]
   writing_system: Kawi
 
+# `by` names Demak, which this record's last chapter has always named in prose
+# and could not name in the field until that record existed. The type stays
+# `gradual absorption`: the chapter's argument is that there was no siege, no
+# treaty and no last king killed, and naming an absorber does not contradict
+# that — the Ghana record is `gradual absorption` with `by: [mali]` for the same
+# kind of ending.
 ended:
   type: gradual absorption
-  by: []
+  by: [demak]
   year: 1527
   source: hall-2011
 
@@ -131,4 +137,19 @@ measures:
       count: 1
       items: [Hindu-Buddhist Javanese tradition]
       source: hall-2011
-    successor_claims: { count: null, items: [], source: null }
+    # One, and it was null until Demak had a page. Raden Patah's line is traced
+    # in the Javanese chronicles to Majapahit's own royal house, and Demak's
+    # standing as ruler of Java rather than of a port rested on that descent
+    # being accepted. Rule 1 counts a later polity asserting an earlier one's
+    # authority, and this is the clearest case in the region.
+    #
+    # It does not count the other claim this record attracts. The last chapter
+    # explains that the Nagarakertagama's list of dependencies was read by
+    # twentieth-century nationalism as a precedent for the modern republic's
+    # boundaries, and that rule 1 is about political succession within the
+    # period. That remains excluded. What changed is that there turned out to be
+    # a claim inside the period all along.
+    successor_claims:
+      count: 1
+      items: [demak]
+      source: ricklefs-2008

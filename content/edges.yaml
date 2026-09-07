@@ -976,6 +976,71 @@ edges:
     source: robson-1995
     contested: false
 
+  # Ganter, 1222. The Kediri record's only turning point, from the other side.
+  - from: kediri
+    to: singhasari
+    type: conquered by
+    year: 1222
+    note: >-
+      Ken Arok of Tumapel defeated and killed Kertajaya at Ganter, and the centre
+      of Javanese power moved from Daha to the polity he renamed Singhasari.
+    source: hall-2011
+    contested: false
+
+  # And back the other way, seventy years later — but forward in time, which is
+  # the only direction an edge on this site runs. `second-kediri` is a separate
+  # record joined to `kediri` by `resumes` rather than by an edge, so this does
+  # not close a loop.
+  - from: singhasari
+    to: second-kediri
+    type: overthrew
+    year: 1292
+    note: >-
+      Jayakatwang, lord of Kediri and Singhasari's own vassal, revolted while
+      Kertanegara's army was in Sumatra and killed him, restoring the kingdom his
+      predecessors had lost at Ganter.
+    source: hall-2011
+    contested: false
+
+  - from: second-kediri
+    to: majapahit
+    type: conquered by
+    year: 1293
+    note: >-
+      Raden Wijaya guided the Yuan expedition — sent to punish a king who was
+      already dead — against Jayakatwang, and founded Majapahit out of the same
+      campaign in the same year.
+    source: hall-2011
+    contested: false
+
+  # The Majapahit record's last chapter has named Demak in prose since it was
+  # written and could not name it in a field. `absorbed remnants of` rather than
+  # `conquered by`, because that chapter's argument is that there was no siege,
+  # no treaty and no last king killed.
+  - from: majapahit
+    to: demak
+    type: absorbed remnants of
+    year: 1527
+    note: >-
+      Demak took over what was left of the inland Javanese court, completing a
+      process that had been running through the north-coast ports for a century
+      and a half.
+    source: ricklefs-2008
+    contested: true
+
+  # The Melakan record has carried this as a counted successor claim with no page
+  # to point at. It has one now.
+  - from: melaka
+    to: johor
+    type: claimed legitimacy of
+    year: 1528
+    note: >-
+      Alauddin Riayat Shah II, second son of Melaka's last sultan, established
+      the dynasty on the Johor river with the Melakan regalia, the Melakan court
+      offices and a chronicle written to argue the continuity.
+    source: brown-1970
+    contested: false
+
   # ---- Mainland Southeast Asia ----
   #
   # The region's only internal edge so far, and its `thread` flag is still

@@ -1,0 +1,87 @@
+id: second-kediri
+region: maritime-asia
+resumes: kediri
+
+name:
+  latin: Kediri under Jayakatwang
+  script: null
+  script_lang: null
+
+# Twelve months. It is the shortest span on this site by a wide margin, and the
+# shortest of the corpus's six `resumes` pairs by centuries.
+span:
+  start: { min: 1292, max: 1292, source: hall-2011 }
+  end: { min: 1293, max: 1293, source: hall-2011 }
+
+identity: >-
+  The restoration of Kediri by a vassal who killed his overlord, which lasted a
+  year and was ended by a Javanese prince using a Mongol invasion fleet.
+
+capitals:
+  - { name: Daha, from: 1292, source: hall-2011 }
+
+core_region: The Brantas valley of eastern Java
+
+rulers:
+  # All three the same man, which is what a twelve-month polity looks like in
+  # this schema.
+  founder: { name: Jayakatwang, reign: [1292, 1293], source: hall-2011 }
+  peak: { name: Jayakatwang, reign: [1292, 1293], source: hall-2011 }
+  last: { name: Jayakatwang, reign: [1292, 1293], source: hall-2011 }
+
+scripts_and_languages:
+  administration: [Old Javanese, Sanskrit]
+  writing_system: Kawi
+
+# Raden Wijaya, Kertanegara's son-in-law, met the Yuan expedition when it
+# arrived, turned it against Jayakatwang, and then turned on it. `by` names
+# Majapahit because that is the polity Raden Wijaya founded out of the same
+# campaign, in the same year.
+ended:
+  type: conquest
+  by: [majapahit]
+  year: 1293
+  source: hall-2011
+
+# All four null, and on a record covering twelve months that is a description of
+# the polity rather than a gap in the reading. Nothing in this corpus's sources
+# describes how Jayakatwang raised revenue or an army, because he did not have
+# time to do either differently from the way Singhasari had.
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  legitimation: { values: [descent], source: hall-2011 }
+
+turning_points:
+  - year: 1292
+    type: revolt
+    name: The vassal
+    changed: >-
+      Jayakatwang, lord of Kediri and a subordinate of Singhasari, revolted while
+      Kertanegara's forces were overseas on the Sumatran expedition, and killed
+      him. Seventy years after Ganter, the kingdom that had lost eastern Java in
+      one battle took it back in another.
+    source: hall-2011
+    contested: false
+  - year: 1293
+    type: battle
+    name: The fleet he did not send for
+    changed: >-
+      The Yuan expedition Kublai Khan had dispatched to punish Kertanegara for
+      branding his envoy arrived a year after Kertanegara was dead, and found
+      Jayakatwang on the throne instead. Raden Wijaya presented himself to the
+      Mongols as the rightful heir, guided them against Kediri, and then attacked
+      them once Jayakatwang was finished.
+      It is the only case on this site of a polity being destroyed by an
+      expedition sent against somebody else.
+    source: hall-2011
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: hall-2011 }
+    religions_carried: { count: 0, items: [], source: hall-2011 }
+    successor_claims: { count: 0, items: [], source: hall-2011 }

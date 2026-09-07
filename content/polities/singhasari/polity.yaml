@@ -39,9 +39,13 @@ scripts_and_languages:
 # because the restored Kediri lasted a year and is not a record here; the
 # Majapahit page is what replaced it, and the edge to it is a claim rather than
 # a conquest.
+# `by` names `second-kediri` — Jayakatwang's twelve-month restoration of the
+# kingdom Singhasari had destroyed at Ganter seventy years earlier. The field was
+# empty until that record was written, and the fifth chapter's paragraph about
+# why has been rewritten accordingly.
 ended:
   type: internal usurpation
-  by: []
+  by: [second-kediri]
   year: 1292
   source: hall-2011
 

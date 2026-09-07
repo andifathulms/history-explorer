@@ -1,0 +1,86 @@
+id: kediri
+region: maritime-asia
+
+name:
+  latin: The Kingdom of Kediri
+  script: null
+  script_lang: null
+
+# 1042 is the division of Airlangga's kingdom of Kahuripan into Janggala and
+# Panjalu, the latter being this record. 1222 is Ganter.
+#
+# Kediri appears again seventy years later, for one year, under Jayakatwang, and
+# that is a separate record here — `second-kediri` — joined to this one by
+# `resumes` rather than by an edge. The reasoning is on that record's first
+# chapter.
+span:
+  start: { min: 1042, max: 1042, source: coedes-1968 }
+  end: { min: 1222, max: 1222, source: coedes-1968 }
+
+identity: >-
+  The dominant kingdom of eastern Java for most of two centuries, which produced
+  the Old Javanese literature everything after it was measured against and lost
+  everything else in a single battle.
+
+capitals:
+  - { name: Daha, from: 1042, source: coedes-1968 }
+
+core_region: The Brantas valley of eastern Java
+
+rulers:
+  # Null. Airlangga divided the kingdom and retired; the first ruler of the
+  # Panjalu half is named in the inscriptions but there is nothing attached to
+  # the name that this site can put in a reign. The Aksum, Srivijaya and Champa
+  # records take the same position, for the same reason.
+  founder: { name: null, source: null }
+  peak: { name: Jayabhaya, reign: [1135, 1157], source: coedes-1968 }
+  last: { name: Kertajaya, reign: [1194, 1222], source: coedes-1968 }
+
+scripts_and_languages:
+  administration: [Old Javanese, Sanskrit]
+  writing_system: Kawi
+
+# Ken Arok defeated Kertajaya at Ganter and the kingdom passed to Tumapel, which
+# renamed itself Singhasari. `by` names that record and the edge
+# `kediri -> singhasari` is drawn.
+ended:
+  type: conquest
+  by: [singhasari]
+  year: 1222
+  source: hall-2011
+
+institutions:
+  military_basis: { values: [conscript], source: hall-2011 }
+  # Rice. The Brantas valley is among the most productive wet-rice landscapes in
+  # the world, and this record and the two that follow it in Java all sit on it.
+  # It is the granary the Melaka record five centuries later had to buy from.
+  revenue_basis: { values: [land-tax], source: hall-2011 }
+  succession_rule: null
+  legitimation: { values: [descent, divine-sanction], source: coedes-1968 }
+
+turning_points:
+  - year: 1222
+    type: battle
+    name: Ganter
+    changed: >-
+      Kertajaya was defeated and killed by Ken Arok of Tumapel, and the centre of
+      Javanese power moved out of the Brantas valley's old seat for the first time
+      in a hundred and eighty years.
+      It is the beginning of this corpus's Singhasari record, whose second
+      chapter is about the same battle from the winning side, and it is not the
+      end of the relationship between the two: seventy years later a lord of
+      Kediri killed Singhasari's last king.
+    source: hall-2011
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    # Zero. Kawi — the Old Javanese script this kingdom's literature is written
+    # in — descends from a South Indian Brahmi, and coding rule 3 puts the count
+    # on the record of the script that was adapted. That parent has no page here,
+    # which is the same outcome as the Cham, Burmese and Jawi claims.
+    descendant_scripts: { count: 0, items: [], source: coedes-1968 }
+    religions_carried: { count: 0, items: [], source: coedes-1968 }
+    successor_claims: { count: 0, items: [], source: coedes-1968 }

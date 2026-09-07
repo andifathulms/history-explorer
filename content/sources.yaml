@@ -2556,6 +2556,19 @@ sources:
       it in treating the Ly and the Tran as a specific thing with a beginning and
       an end rather than as an early chapter of a country.
 
+  - id: andaya-1975
+    kind: book
+    author: Leonard Y. Andaya
+    title: "The Kingdom of Johor, 1641-1728: Economic and Political Developments"
+    publisher: Oxford University Press
+    year: 1975
+    note: >-
+      Built on the Dutch company records at The Hague, which are the fullest
+      external archive anybody kept on a Malay court in this period. It covers
+      eighty-seven of this site's Johor record's hundred and seventy-one years,
+      including the killing of 1699, and the record's span dates outside that
+      window come from elsewhere.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors

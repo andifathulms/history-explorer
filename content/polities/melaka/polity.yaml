@@ -159,9 +159,14 @@ measures:
       source: reid-1988
     # One. The sultanate of Johor was founded by this dynasty in exile after
     # 1511, asserted direct continuity, and the Malay Annals — composed at Johor
-    # — are that assertion. Rule 1 does not require the claiming polity to have a
-    # record here, and Johor does not.
+    # — are that assertion.
+    #
+    # The comment here used to end by saying that rule 1 does not require the
+    # claiming polity to have a record on this site, and that Johor did not.
+    # Johor does now, so the item is an id rather than a name and the edge
+    # `melaka -> johor` is drawn. The rule is unchanged and still holds for the
+    # other claims on this site that point at nothing.
     successor_claims:
       count: 1
-      items: [Sultanate of Johor]
+      items: [johor]
       source: brown-1970

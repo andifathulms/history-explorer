@@ -1,0 +1,148 @@
+id: demak
+region: maritime-asia
+
+name:
+  latin: The Sultanate of Demak
+  script: null
+  script_lang: null
+
+# Raden Patah is placed on the throne around 1475, as a vassal of Majapahit, and
+# is described as having declared Demak independent by about 1478. 1554 is the
+# end of the succession war that followed Trenggana's death, after which the
+# centre of Javanese power moved inland to Pajang.
+span:
+  start: { min: 1475, max: 1478, source: ricklefs-2008 }
+  end: { min: 1554, max: 1554, source: ricklefs-2008 }
+
+identity: >-
+  The first Muslim state on Java, a north-coast port that took over the island
+  the Hindu-Buddhist courts had held for seven hundred years and then destroyed
+  itself in three years of succession killing.
+
+capitals:
+  - { name: Demak, from: 1475, source: ricklefs-2008 }
+
+core_region: The north coast of central Java, with campaigns inland and along the coast in both directions
+
+rulers:
+  founder: { name: Raden Patah, reign: [1475, 1518], source: ricklefs-2008 }
+  peak: { name: Trenggana, reign: [1521, 1546], source: ricklefs-2008 }
+  last: { name: Arya Penangsang, reign: [1549, 1554], source: ricklefs-2008 }
+
+scripts_and_languages:
+  administration: [Javanese, Arabic]
+  writing_system: Javanese script, with Pegon — the Arabic script adapted for Javanese
+
+# Trenggana was killed on campaign in 1546. His son was murdered in 1549; the
+# murderer's kinsman held the throne until 1554 and was killed in turn, and the
+# man who won was Jaka Tingkir, who moved the court inland to Pajang and claimed
+# descent from both this dynasty and Majapahit's.
+#
+# `by` is empty because Pajang has no page here. It is the second empty `by` in
+# this region caused by a Javanese successor rather than a European one, and the
+# only one this site could close with a single page.
+ended:
+  type: dynastic replacement
+  by: []
+  year: 1554
+  source: ricklefs-2008
+
+institutions:
+  # Two, and the combination is the record. Demak raised Javanese levies through
+  # the coastal lords who had accepted it, in the ordinary way — and it had a
+  # fleet, which is what let it attack Portuguese Melaka in 1512 and 1513 and
+  # take the ports of the north coast one after another.
+  military_basis: { values: [conscript, client-levy], source: ricklefs-2008 }
+  # Rice and the trade in it, which is the inversion this region keeps
+  # producing. Demak sat on the north coast with the Javanese granary behind it,
+  # and it was the export of that rice to the archipelago's ports — including,
+  # until 1511, Melaka — that made a port town into a power.
+  revenue_basis: { values: [land-tax, trade-toll], source: ricklefs-2008 }
+  # Null. Three rulers in eight years, two of them murdered and the third killed
+  # in the field, is an outcome rather than a rule. The last chapter is about
+  # what that outcome cost.
+  succession_rule: null
+  # Descent, and God. Raden Patah's line is traced in the Javanese chronicles to
+  # Majapahit's own royal house — which is this record's whole claim to rule Java
+  # rather than merely a port — and the sultanate's standing rested on being the
+  # Islamic authority on the island, with the wali songo tradition attached to
+  # it afterwards.
+  legitimation: { values: [descent, divine-sanction], source: ricklefs-2008 }
+
+turning_points:
+  - year: 1513
+    type: siege
+    name: Melaka
+    changed: >-
+      Demak sent a fleet against the Portuguese at Melaka, under Pati Unus, and
+      it failed. It is one of the few occasions in this corpus of an archipelago
+      polity attacking a European position rather than being attacked from one,
+      and it is worth setting beside this corpus's Ternate record, where the same
+      thing was attempted eventually with a five-year siege and succeeded.
+      The difference is that Ternate was besieging a fort on its own island and
+      Demak was crossing eight hundred miles of sea.
+    source: ricklefs-2008
+    contested: false
+  - year: 1527
+    # Not `siege` and not `battle`, because the Majapahit record's own last
+    # chapter argues there was neither. `conversion` is the only value in the
+    # vocabulary that describes what this completed, and the turning-point list
+    # and the end-type list overlap in subject rather than in membership — a
+    # thing this corpus has run into before, in the opposite direction.
+    type: conversion
+    name: The end of Majapahit
+    changed: >-
+      Demak absorbed what remained of the Majapahit court. The Majapahit record's
+      last chapter argues at length that there was no siege, no treaty and no
+      last king killed, and that the traditional date of 1478 is wrong twice over
+      — so what this turning point marks is the completion of a process rather
+      than an event.
+      What it completed is the largest religious transition in this region's
+      history: after 1527 no Hindu-Buddhist court held power anywhere in Java.
+    source: ricklefs-2008
+    contested: true
+  - year: 1546
+    type: succession-crisis
+    name: Trenggana
+    changed: >-
+      Trenggana was killed on campaign against Panarukan in east Java. In eight
+      years the sultanate that had taken the island went through three rulers,
+      two murders and a civil war, and ended.
+      It is the shortest interval on this site between a polity's peak ruler and
+      its last one.
+    source: ricklefs-2008
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    # Zero, and Pegon is the near miss: the Arabic script adapted for Javanese,
+    # with letters added for sounds Arabic has no signs for. Coding rule 3 counts
+    # that on the record of the script that was adapted, and the parent is
+    # Arabic. It is the same outcome as Jawi on the Melaka record and Swahili's
+    # letters on the Kilwa record — the third time this site has had to send an
+    # Arabic-script adaptation to a page that does not exist.
+    descendant_scripts: { count: 0, items: [], source: ricklefs-2008 }
+    # One, and it is the largest thing on this page. Islam had been in the north
+    # Java ports for a century and a half before Demak, arriving the ordinary way
+    # through traders and teachers. What Demak did was carry it inland, to the
+    # rice country and the courts, by force — and then east and west along the
+    # coast, taking Banten and the Sunda ports in the 1520s and campaigning into
+    # east Java until the ruler died doing it.
+    #
+    # Coding rule 2 counts propagation past a prior boundary. The boundary here
+    # is the one this corpus's Majapahit record's last chapter describes: a coast
+    # with one religion and an interior with another. Demak removed it.
+    religions_carried:
+      count: 1
+      items: [Sunni Islam]
+      source: ricklefs-2008
+    # One. Jaka Tingkir, who won the succession war and founded Pajang, claimed
+    # descent from Trenggana and from Majapahit's last king at once — which is
+    # exactly the double claim this record itself makes, made against this
+    # record. Rule 1 does not require the claimant to have a page here.
+    successor_claims:
+      count: 1
+      items: [The Kingdom of Pajang]
+      source: ricklefs-2008

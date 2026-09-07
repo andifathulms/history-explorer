@@ -1,0 +1,129 @@
+id: johor
+region: maritime-asia
+
+name:
+  latin: The Sultanate of Johor
+  script: null
+  script_lang: null
+
+# 1528 is Alauddin Riayat Shah II, second son of Melaka's last sultan,
+# establishing himself on the Johor river. 1699 is the killing of Mahmud Shah II
+# and the end of the Melaka line.
+#
+# The name Johor continues past 1699 under the bendahara family and then under
+# Bugis power until the Anglo-Dutch treaty of 1824 divides it. This record does
+# not run there, for the reason this corpus's Dai Viet record gives on its own
+# first page: a span that covers three dynasties and a partition is a country
+# rather than a polity.
+span:
+  start: { min: 1528, max: 1528, source: reid-2005 }
+  end: { min: 1699, max: 1699, source: andaya-1975 }
+
+identity: >-
+  The Melakan dynasty in exile, which held the strait for a hundred and
+  seventy-one years after losing the city, wrote the chronicle this site's
+  Melaka record is drafted from, and was ended by its own nobles.
+
+capitals:
+  - { name: Johor Lama, from: 1540, source: reid-2005 }
+  - { name: Riau, from: 1673, source: andaya-1975 }
+
+core_region: The southern tip of the Malay peninsula, the Riau-Lingga archipelago and the Sumatran coast opposite
+
+rulers:
+  founder: { name: Alauddin Riayat Shah II, reign: [1528, 1564], source: reid-2005 }
+  peak: { name: Abdul Jalil Shah III, reign: [1623, 1677], source: andaya-1975 }
+  last: { name: Mahmud Shah II, reign: [1685, 1699], source: andaya-1975 }
+
+scripts_and_languages:
+  administration: [Malay, Arabic]
+  writing_system: Jawi — the Arabic script adapted for Malay
+
+# Mahmud Shah II was killed on his way to the mosque by his own nobles, and the
+# bendahara took the throne. `ended.type` is `internal usurpation` and `by` is
+# empty because what replaced the dynasty was its own chief minister's family,
+# under the same name, which this site does not carry as a separate record.
+#
+# What ended in 1699 is bigger than the polity: it is the Melaka royal line,
+# unbroken since about 1400, and the sultanates of the peninsula spent the next
+# century arguing about who could claim it.
+ended:
+  type: internal usurpation
+  by: []
+  year: 1699
+  source: andaya-1975
+
+institutions:
+  # The orang laut, for the third time in this region. The sea peoples of the
+  # straits and estuaries served Srivijaya, then Melaka, then this record — the
+  # same arrangement on the same water across a thousand years, and the reason
+  # Johor could enforce anything at sea with no fleet of its own.
+  #
+  # Their withdrawal after 1699 is the reason the killing mattered. Andaya's
+  # account is that the orang laut were attached to the Melaka line personally
+  # rather than to the office, and that when the nobles killed the last of it
+  # they lost the instrument the sultanate had been running on.
+  military_basis: { values: [client-levy], source: andaya-1975 }
+  revenue_basis: { values: [trade-toll], source: andaya-1975 }
+  succession_rule: null
+  # Descent, and on this record that is not one value among several. Johor's
+  # entire claim was that it was Melaka — the same dynasty, the same regalia, the
+  # same court offices, in a different place. The Sejarah Melayu was composed
+  # here to say so.
+  legitimation: { values: [descent], source: brown-1970 }
+
+turning_points:
+  - year: 1641
+    type: siege
+    name: Melaka, from the other side
+    changed: >-
+      Johor supplied the ships and the men for the Dutch company's siege of
+      Portuguese Melaka, and the city fell after a hundred and thirty years.
+      The dynasty that had been driven out of it in 1511 helped take it back and
+      did not get it: the company kept the city, and Johor took the trade that
+      the company's own tariffs then drove away from it.
+      It is the closest this corpus comes to a polity recovering what a European
+      power took from it, and the recovery is a share of the traffic rather than
+      the place.
+    source: andaya-1975
+    contested: false
+  - year: 1673
+    type: siege
+    name: Jambi
+    changed: >-
+      Jambi, on the Sumatran side, sacked Johor Lama and the court moved to the
+      Riau islands. A Malay polity was nearly destroyed by another Malay polity
+      in the middle of the period usually described as its recovery, which is a
+      corrective to reading the seventeenth-century strait as a contest between
+      Asians and Europeans.
+    source: andaya-1975
+    contested: false
+  - year: 1699
+    type: succession-crisis
+    name: The killing of Mahmud Shah
+    changed: >-
+      The sultan was killed by his own nobles and the bendahara took the throne.
+      Three hundred years of the Melaka royal line ended in a road outside the
+      capital, and the orang laut, who had served that line rather than that
+      office, went away.
+      Every Malay dynasty of the following century — Johor's own bendahara
+      sultans, the Bugis at Riau, Selangor, Perak, Pahang, Terengganu, and Raja
+      Kecil of Siak, who claimed to be Mahmud's posthumous son — argued its
+      standing in terms of a line that stopped here.
+    source: andaya-1975
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: andaya-1975 }
+    religions_carried: { count: 0, items: [], source: andaya-1975 }
+    # One. The bendahara family that killed Mahmud Shah II took the throne under
+    # the same name, kept the regalia, kept the offices, and governed as Johor
+    # for another century and a quarter. It is a successor claim made by the
+    # people who created the vacancy, which rule 1 counts without comment.
+    successor_claims:
+      count: 1
+      items: [The bendahara sultans of Johor]
+      source: andaya-1975

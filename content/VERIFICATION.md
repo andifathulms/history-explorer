@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**3973 claims across 213 sources.**
+**4050 claims across 214 sources.**
 
 ## Where to start
 
@@ -411,6 +411,95 @@ ordinary state, not an item to clear.
 - [ ] `polity/zurayid` — span ends 1173
 - [ ] `polity/zurayid` — capital Aden from 1080
 - [ ] `polity/zurayid` — founder al-Abbas ibn al-Mukarram
+
+## Kenneth R. Hall, A History of Early Southeast Asia: Maritime Trade and Societal Development, 100-1500
+
+`hall-2011` — 82 claims
+
+**Sole source** for `second-kediri` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/kediri/03-ganter.mdx` — prose: "Ganter"
+- [ ] `chapter/majapahit/01-the-mongols.mdx` — prose: "The Mongols come and go"
+- [ ] `chapter/majapahit/02-rice-and-sea.mdx` — prose: "Rice and sea"
+- [ ] `chapter/majapahit/03-the-archipelago.mdx` — prose: "The other thalassocracy"
+- [ ] `chapter/majapahit/04-the-poem.mdx` — prose: "A list of dependencies"
+- [ ] `chapter/melaka/02-nanjing.mdx` — prose: "Nanjing"
+- [ ] `chapter/second-kediri/01-twelve-months.mdx` — prose: "Twelve months"
+- [ ] `chapter/second-kediri/02-the-fleet-he-did-not-send-for.mdx` — prose: "The fleet he did not send for"
+- [ ] `chapter/singhasari/02-ganter.mdx` — prose: "Ganter"
+- [ ] `chapter/singhasari/03-the-pamalayu.mdx` — prose: "The Pamalayu"
+- [ ] `chapter/singhasari/04-the-mongol-envoy.mdx` — prose: "The Mongol envoy"
+- [ ] `chapter/singhasari/05-jayakatwang.mdx` — prose: "Jayakatwang"
+- [ ] `chapter/srivijaya/01-power-over-a-passage.mdx` — prose: "Power over a passage"
+- [ ] `chapter/srivijaya/02-siddhayatra.mdx` — prose: "Siddhayatra"
+- [ ] `chapter/srivijaya/03-a-thousand-monks.mdx` — prose: "A thousand monks"
+- [ ] `chapter/srivijaya/04-the-inscriptions.mdx` — prose: "Curses in stone"
+- [ ] `chapter/srivijaya/06-a-kingdom-nobody-remembered.mdx` — prose: "A kingdom nobody remembered"
+- [ ] `edge/kediri->singhasari` — conquered by in 1222
+- [ ] `edge/second-kediri->majapahit` — conquered by in 1293
+- [ ] `edge/singhasari->second-kediri` — overthrew in 1292
+- [ ] `edge/srivijaya->singhasari` — conquered by in 1275
+- [ ] `polity/kediri` — military basis coded conscript
+- [ ] `polity/kediri` — revenue basis coded land-tax
+- [ ] `polity/kediri` — turning point 1222 Ganter
+- [ ] `polity/kediri` — ended by conquest in 1222
+- [ ] `polity/majapahit` — span starts 1293
+- [ ] `polity/majapahit` — span ends 1527
+- [ ] `polity/majapahit` — capital Trowulan from 1293
+- [ ] `polity/majapahit` — founder Raden Wijaya r. 1293-1309
+- [ ] `polity/majapahit` — peak Hayam Wuruk r. 1350-1389
+- [ ] `polity/majapahit` — last Girindrawardhana r. 1478-1527
+- [ ] `polity/majapahit` — military basis coded conscript + client-levy
+- [ ] `polity/majapahit` — revenue basis coded land-tax + trade-toll + tribute
+- [ ] `polity/majapahit` — turning point 1293 The Mongols come and go
+- [ ] `polity/majapahit` — descendant_scripts = 0
+- [ ] `polity/majapahit` — religions_carried = 1 (Hindu-Buddhist Javanese tradition)
+- [ ] `polity/majapahit` — ended by gradual absorption in 1527
+- [ ] `polity/melaka` — span starts 1400
+- [ ] `polity/melaka` — capital Melaka from 1400
+- [ ] `polity/melaka` — founder Parameswara r. 1400-1414
+- [ ] `polity/melaka` — military basis coded client-levy
+- [ ] `polity/melaka` — legitimation coded descent + investiture
+- [ ] `polity/melaka` — turning point 1411 Nanjing
+- [ ] `polity/second-kediri` — span starts 1292
+- [ ] `polity/second-kediri` — span ends 1293
+- [ ] `polity/second-kediri` — capital Daha from 1292
+- [ ] `polity/second-kediri` — founder Jayakatwang r. 1292-1293
+- [ ] `polity/second-kediri` — peak Jayakatwang r. 1292-1293
+- [ ] `polity/second-kediri` — last Jayakatwang r. 1292-1293
+- [ ] `polity/second-kediri` — legitimation coded descent
+- [ ] `polity/second-kediri` — turning point 1292 The vassal
+- [ ] `polity/second-kediri` — turning point 1293 The fleet he did not send for
+- [ ] `polity/second-kediri` — descendant_scripts = 0
+- [ ] `polity/second-kediri` — religions_carried = 0
+- [ ] `polity/second-kediri` — successor_claims = 0
+- [ ] `polity/second-kediri` — ended by conquest in 1293
+- [ ] `polity/singhasari` — span starts 1222
+- [ ] `polity/singhasari` — span ends 1292
+- [ ] `polity/singhasari` — capital Singhasari from 1222
+- [ ] `polity/singhasari` — founder Ken Arok r. 1222-1227
+- [ ] `polity/singhasari` — peak Kertanegara r. 1268-1292
+- [ ] `polity/singhasari` — last Kertanegara r. 1268-1292
+- [ ] `polity/singhasari` — military basis coded conscript
+- [ ] `polity/singhasari` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/singhasari` — turning point 1222 Ganter (contested)
+- [ ] `polity/singhasari` — turning point 1275 The Pamalayu
+- [ ] `polity/singhasari` — turning point 1292 Jayakatwang
+- [ ] `polity/singhasari` — descendant_scripts = 0
+- [ ] `polity/singhasari` — religions_carried = 0
+- [ ] `polity/singhasari` — ended by internal usurpation in 1292
+- [ ] `polity/srivijaya` — span starts 671
+- [ ] `polity/srivijaya` — span ends 1275
+- [ ] `polity/srivijaya` — capital Palembang from 671
+- [ ] `polity/srivijaya` — founder Dapunta Hyang Sri Jayanasa r. 671-702
+- [ ] `polity/srivijaya` — peak Balaputradewa r. 835-860
+- [ ] `polity/srivijaya` — military basis coded client-levy
+- [ ] `polity/srivijaya` — revenue basis coded trade-toll
+- [ ] `polity/srivijaya` — legitimation coded divine-sanction
+- [ ] `polity/srivijaya` — turning point 1079 Jambi (contested)
+- [ ] `polity/srivijaya` — turning point 1275 Pamalayu
+- [ ] `polity/srivijaya` — religions_carried = 1 (Mahayana Buddhism)
+- [ ] `polity/srivijaya` — ended by gradual absorption in 1275
 
 ## A. C. S. Peacock and Sara Nur Yildiz (eds), The Seljuks of Anatolia: Court and Society in the Medieval Middle East
 
@@ -909,70 +998,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/tripoli` — turning point 1289 Qalawun at Tripoli
 - [ ] `polity/tripoli` — ended by conquest in 1289
 
-## Kenneth R. Hall, A History of Early Southeast Asia: Maritime Trade and Societal Development, 100-1500
-
-`hall-2011` — 59 claims
-
-- [ ] `chapter/majapahit/01-the-mongols.mdx` — prose: "The Mongols come and go"
-- [ ] `chapter/majapahit/02-rice-and-sea.mdx` — prose: "Rice and sea"
-- [ ] `chapter/majapahit/03-the-archipelago.mdx` — prose: "The other thalassocracy"
-- [ ] `chapter/majapahit/04-the-poem.mdx` — prose: "A list of dependencies"
-- [ ] `chapter/melaka/02-nanjing.mdx` — prose: "Nanjing"
-- [ ] `chapter/singhasari/02-ganter.mdx` — prose: "Ganter"
-- [ ] `chapter/singhasari/03-the-pamalayu.mdx` — prose: "The Pamalayu"
-- [ ] `chapter/singhasari/04-the-mongol-envoy.mdx` — prose: "The Mongol envoy"
-- [ ] `chapter/singhasari/05-jayakatwang.mdx` — prose: "Jayakatwang"
-- [ ] `chapter/srivijaya/01-power-over-a-passage.mdx` — prose: "Power over a passage"
-- [ ] `chapter/srivijaya/02-siddhayatra.mdx` — prose: "Siddhayatra"
-- [ ] `chapter/srivijaya/03-a-thousand-monks.mdx` — prose: "A thousand monks"
-- [ ] `chapter/srivijaya/04-the-inscriptions.mdx` — prose: "Curses in stone"
-- [ ] `chapter/srivijaya/06-a-kingdom-nobody-remembered.mdx` — prose: "A kingdom nobody remembered"
-- [ ] `edge/srivijaya->singhasari` — conquered by in 1275
-- [ ] `polity/majapahit` — span starts 1293
-- [ ] `polity/majapahit` — span ends 1527
-- [ ] `polity/majapahit` — capital Trowulan from 1293
-- [ ] `polity/majapahit` — founder Raden Wijaya r. 1293-1309
-- [ ] `polity/majapahit` — peak Hayam Wuruk r. 1350-1389
-- [ ] `polity/majapahit` — last Girindrawardhana r. 1478-1527
-- [ ] `polity/majapahit` — military basis coded conscript + client-levy
-- [ ] `polity/majapahit` — revenue basis coded land-tax + trade-toll + tribute
-- [ ] `polity/majapahit` — turning point 1293 The Mongols come and go
-- [ ] `polity/majapahit` — descendant_scripts = 0
-- [ ] `polity/majapahit` — religions_carried = 1 (Hindu-Buddhist Javanese tradition)
-- [ ] `polity/majapahit` — ended by gradual absorption in 1527
-- [ ] `polity/melaka` — span starts 1400
-- [ ] `polity/melaka` — capital Melaka from 1400
-- [ ] `polity/melaka` — founder Parameswara r. 1400-1414
-- [ ] `polity/melaka` — military basis coded client-levy
-- [ ] `polity/melaka` — legitimation coded descent + investiture
-- [ ] `polity/melaka` — turning point 1411 Nanjing
-- [ ] `polity/singhasari` — span starts 1222
-- [ ] `polity/singhasari` — span ends 1292
-- [ ] `polity/singhasari` — capital Singhasari from 1222
-- [ ] `polity/singhasari` — founder Ken Arok r. 1222-1227
-- [ ] `polity/singhasari` — peak Kertanegara r. 1268-1292
-- [ ] `polity/singhasari` — last Kertanegara r. 1268-1292
-- [ ] `polity/singhasari` — military basis coded conscript
-- [ ] `polity/singhasari` — revenue basis coded land-tax + trade-toll
-- [ ] `polity/singhasari` — turning point 1222 Ganter (contested)
-- [ ] `polity/singhasari` — turning point 1275 The Pamalayu
-- [ ] `polity/singhasari` — turning point 1292 Jayakatwang
-- [ ] `polity/singhasari` — descendant_scripts = 0
-- [ ] `polity/singhasari` — religions_carried = 0
-- [ ] `polity/singhasari` — ended by internal usurpation in 1292
-- [ ] `polity/srivijaya` — span starts 671
-- [ ] `polity/srivijaya` — span ends 1275
-- [ ] `polity/srivijaya` — capital Palembang from 671
-- [ ] `polity/srivijaya` — founder Dapunta Hyang Sri Jayanasa r. 671-702
-- [ ] `polity/srivijaya` — peak Balaputradewa r. 835-860
-- [ ] `polity/srivijaya` — military basis coded client-levy
-- [ ] `polity/srivijaya` — revenue basis coded trade-toll
-- [ ] `polity/srivijaya` — legitimation coded divine-sanction
-- [ ] `polity/srivijaya` — turning point 1079 Jambi (contested)
-- [ ] `polity/srivijaya` — turning point 1275 Pamalayu
-- [ ] `polity/srivijaya` — religions_carried = 1 (Mahayana Buddhism)
-- [ ] `polity/srivijaya` — ended by gradual absorption in 1275
-
 ## Warren Treadgold, A History of the Byzantine State and Society
 
 `treadgold-1997` — 57 claims
@@ -1305,6 +1330,53 @@ ordinary state, not an item to clear.
 - [ ] `polity/neo-assyrian` — last Ashur-uballit II r. -612--609
 - [ ] `polity/neo-assyrian` — turning point -612 Nineveh
 - [ ] `polity/neo-assyrian` — ended by conquest in -609
+
+## George Coedes, edited by Walter F. Vella, translated by Susan Brown Cowing, The Indianized States of Southeast Asia
+
+`coedes-1968` — 42 claims
+
+- [ ] `chapter/angkor/03-the-chams-in-the-city.mdx` — prose: "The Chams in the city"
+- [ ] `chapter/angkor/04-the-thai-script.mdx` — prose: "The Thai script"
+- [ ] `chapter/angkor/05-1431.mdx` — prose: "1431"
+- [ ] `chapter/champa/01-the-oldest-and-the-least-like-a-kingdom.mdx` — prose: "The oldest, and the least like a kingdom"
+- [ ] `chapter/champa/02-1177.mdx` — prose: "1177"
+- [ ] `chapter/champa/03-1471.mdx` — prose: "1471"
+- [ ] `chapter/kediri/01-the-division.mdx` — prose: "The division"
+- [ ] `chapter/kediri/02-the-field-that-is-missing.mdx` — prose: "The field that is missing"
+- [ ] `edge/angkor->ayutthaya` — conquered by in 1431
+- [ ] `polity/angkor` — span starts 802
+- [ ] `polity/angkor` — span ends 1431
+- [ ] `polity/angkor` — capital Hariharalaya from 802
+- [ ] `polity/angkor` — founder Jayavarman II r. 802-835
+- [ ] `polity/angkor` — last Ponhea Yat r. 1432-1463
+- [ ] `polity/angkor` — legitimation coded divine-sanction + descent
+- [ ] `polity/angkor` — turning point 1177 The Chams in the city
+- [ ] `polity/angkor` — turning point 1431 Ayutthaya
+- [ ] `polity/angkor` — descendant_scripts = 1 (The Thai script)
+- [ ] `polity/angkor` — religions_carried = 0
+- [ ] `polity/angkor` — ended by conquest in 1431
+- [ ] `polity/champa` — span starts 192
+- [ ] `polity/champa` — span ends 1471
+- [ ] `polity/champa` — capital Indrapura from 875
+- [ ] `polity/champa` — capital Vijaya from 1000
+- [ ] `polity/champa` — last Tra Toan r. 1460-1471
+- [ ] `polity/champa` — revenue basis coded trade-toll + plunder
+- [ ] `polity/champa` — legitimation coded descent + divine-sanction
+- [ ] `polity/champa` — turning point 1177 Angkor
+- [ ] `polity/champa` — turning point 1471 Vijaya
+- [ ] `polity/champa` — descendant_scripts = 0
+- [ ] `polity/champa` — religions_carried = 0
+- [ ] `polity/champa` — successor_claims = 0
+- [ ] `polity/champa` — ended by conquest in 1471
+- [ ] `polity/kediri` — span starts 1042
+- [ ] `polity/kediri` — span ends 1222
+- [ ] `polity/kediri` — capital Daha from 1042
+- [ ] `polity/kediri` — peak Jayabhaya r. 1135-1157
+- [ ] `polity/kediri` — last Kertajaya r. 1194-1222
+- [ ] `polity/kediri` — legitimation coded descent + divine-sanction
+- [ ] `polity/kediri` — descendant_scripts = 0
+- [ ] `polity/kediri` — religions_carried = 0
+- [ ] `polity/kediri` — successor_claims = 0
 
 ## Carole Hillenbrand, The Crusades: Islamic Perspectives
 
@@ -1943,42 +2015,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/makuria` — successor_claims = 0
 - [ ] `polity/makuria` — ended by gradual absorption in 1365
 
-## George Coedes, edited by Walter F. Vella, translated by Susan Brown Cowing, The Indianized States of Southeast Asia
-
-`coedes-1968` — 31 claims
-
-- [ ] `chapter/angkor/03-the-chams-in-the-city.mdx` — prose: "The Chams in the city"
-- [ ] `chapter/angkor/04-the-thai-script.mdx` — prose: "The Thai script"
-- [ ] `chapter/angkor/05-1431.mdx` — prose: "1431"
-- [ ] `chapter/champa/01-the-oldest-and-the-least-like-a-kingdom.mdx` — prose: "The oldest, and the least like a kingdom"
-- [ ] `chapter/champa/02-1177.mdx` — prose: "1177"
-- [ ] `chapter/champa/03-1471.mdx` — prose: "1471"
-- [ ] `edge/angkor->ayutthaya` — conquered by in 1431
-- [ ] `polity/angkor` — span starts 802
-- [ ] `polity/angkor` — span ends 1431
-- [ ] `polity/angkor` — capital Hariharalaya from 802
-- [ ] `polity/angkor` — founder Jayavarman II r. 802-835
-- [ ] `polity/angkor` — last Ponhea Yat r. 1432-1463
-- [ ] `polity/angkor` — legitimation coded divine-sanction + descent
-- [ ] `polity/angkor` — turning point 1177 The Chams in the city
-- [ ] `polity/angkor` — turning point 1431 Ayutthaya
-- [ ] `polity/angkor` — descendant_scripts = 1 (The Thai script)
-- [ ] `polity/angkor` — religions_carried = 0
-- [ ] `polity/angkor` — ended by conquest in 1431
-- [ ] `polity/champa` — span starts 192
-- [ ] `polity/champa` — span ends 1471
-- [ ] `polity/champa` — capital Indrapura from 875
-- [ ] `polity/champa` — capital Vijaya from 1000
-- [ ] `polity/champa` — last Tra Toan r. 1460-1471
-- [ ] `polity/champa` — revenue basis coded trade-toll + plunder
-- [ ] `polity/champa` — legitimation coded descent + divine-sanction
-- [ ] `polity/champa` — turning point 1177 Angkor
-- [ ] `polity/champa` — turning point 1471 Vijaya
-- [ ] `polity/champa` — descendant_scripts = 0
-- [ ] `polity/champa` — religions_carried = 0
-- [ ] `polity/champa` — successor_claims = 0
-- [ ] `polity/champa` — ended by conquest in 1471
-
 ## Ian Shaw (ed.), The Oxford History of Ancient Egypt
 
 `shaw-2000` — 31 claims
@@ -2347,6 +2383,38 @@ ordinary state, not an item to clear.
 - [ ] `polity/safavid` — religions_carried = 1 (Twelver Shi'ism)
 - [ ] `polity/shirvanshah` — last Farrukh Yasar r. 1465-1500
 - [ ] `polity/shirvanshah` — turning point 1500 The killing of Farrukh Yasar
+
+## M. C. Ricklefs, A History of Modern Indonesia since c.1200
+
+`ricklefs-2008` — 25 claims
+
+**Sole source** for `demak` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/demak/01-the-coast-takes-the-interior.mdx` — prose: "The coast takes the interior"
+- [ ] `chapter/demak/02-1513.mdx` — prose: "1513"
+- [ ] `chapter/demak/03-1546.mdx` — prose: "1546"
+- [ ] `chapter/majapahit/05-the-paregreg.mdx` — prose: "The Paregreg"
+- [ ] `chapter/majapahit/06-1527.mdx` — prose: "1527"
+- [ ] `edge/majapahit->demak` — absorbed remnants of in 1527
+- [ ] `polity/demak` — span starts 1475
+- [ ] `polity/demak` — span ends 1554
+- [ ] `polity/demak` — capital Demak from 1475
+- [ ] `polity/demak` — founder Raden Patah r. 1475-1518
+- [ ] `polity/demak` — peak Trenggana r. 1521-1546
+- [ ] `polity/demak` — last Arya Penangsang r. 1549-1554
+- [ ] `polity/demak` — military basis coded conscript + client-levy
+- [ ] `polity/demak` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/demak` — legitimation coded descent + divine-sanction
+- [ ] `polity/demak` — turning point 1513 Melaka
+- [ ] `polity/demak` — turning point 1527 The end of Majapahit (contested)
+- [ ] `polity/demak` — turning point 1546 Trenggana
+- [ ] `polity/demak` — descendant_scripts = 0
+- [ ] `polity/demak` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/demak` — successor_claims = 1 (The Kingdom of Pajang)
+- [ ] `polity/demak` — ended by dynastic replacement in 1554
+- [ ] `polity/majapahit` — turning point 1404 The Paregreg
+- [ ] `polity/majapahit` — turning point 1478 Trowulan (contested)
+- [ ] `polity/majapahit` — successor_claims = 1 (demak)
 
 ## Nehemia Levtzion and Randall L. Pouwels (eds), The History of Islam in Africa
 
@@ -3832,6 +3900,28 @@ ordinary state, not an item to clear.
 - [ ] `polity/sharifate-mecca` — turning point 1916 The Arab Revolt
 - [ ] `polity/sharifate-mecca` — ended by conquest in 1925
 
+## Anthony Reid, An Indonesian Frontier: Acehnese and Other Histories of Sumatra
+
+`reid-2005` — 17 claims
+
+- [ ] `chapter/aceh/03-istanbul.mdx` — prose: "Istanbul"
+- [ ] `chapter/aceh/06-thirty-years.mdx` — prose: "Thirty years"
+- [ ] `polity/aceh` — span starts 1496
+- [ ] `polity/aceh` — span ends 1903
+- [ ] `polity/aceh` — capital Banda Aceh from 1496
+- [ ] `polity/aceh` — founder Ali Mughayat Syah r. 1496-1530
+- [ ] `polity/aceh` — last Muhammad Daud Syah r. 1874-1903
+- [ ] `polity/aceh` — legitimation coded descent + divine-sanction
+- [ ] `polity/aceh` — turning point 1568 Istanbul (contested)
+- [ ] `polity/aceh` — turning point 1873 The first expedition
+- [ ] `polity/aceh` — descendant_scripts = 0
+- [ ] `polity/aceh` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/aceh` — successor_claims = 0
+- [ ] `polity/aceh` — ended by conquest in 1903
+- [ ] `polity/johor` — span starts 1528
+- [ ] `polity/johor` — capital Johor Lama from 1540
+- [ ] `polity/johor` — founder Alauddin Riayat Shah II r. 1528-1564
+
 ## Heinz Halm, The Empire of the Mahdi: The Rise of the Fatimids
 
 `halm-1996` — 17 claims
@@ -4033,6 +4123,27 @@ ordinary state, not an item to clear.
 - [ ] `polity/hephthalite` — turning point 498 Kavad restored
 - [ ] `polity/hephthalite` — ended by conquest in 560
 
+## Leonard Y. Andaya, The Kingdom of Johor, 1641-1728: Economic and Political Developments
+
+`andaya-1975` — 16 claims
+
+- [ ] `chapter/johor/02-1641.mdx` — prose: "1641"
+- [ ] `chapter/johor/03-1673.mdx` — prose: "Jambi"
+- [ ] `chapter/johor/04-1699.mdx` — prose: "1699"
+- [ ] `polity/johor` — span ends 1699
+- [ ] `polity/johor` — capital Riau from 1673
+- [ ] `polity/johor` — peak Abdul Jalil Shah III r. 1623-1677
+- [ ] `polity/johor` — last Mahmud Shah II r. 1685-1699
+- [ ] `polity/johor` — military basis coded client-levy
+- [ ] `polity/johor` — revenue basis coded trade-toll
+- [ ] `polity/johor` — turning point 1641 Melaka, from the other side
+- [ ] `polity/johor` — turning point 1673 Jambi
+- [ ] `polity/johor` — turning point 1699 The killing of Mahmud Shah
+- [ ] `polity/johor` — descendant_scripts = 0
+- [ ] `polity/johor` — religions_carried = 0
+- [ ] `polity/johor` — successor_claims = 1 (The bendahara sultans of Johor)
+- [ ] `polity/johor` — ended by internal usurpation in 1699
+
 ## Paul E. Zimansky, Ancient Ararat: A Handbook of Urartian Studies
 *In Anatolian and Caucasian Studies.*
 
@@ -4118,25 +4229,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/samanid` — descendant_scripts = 0
 - [ ] `polity/samanid` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/samanid` — ended by conquest in 999
-
-## Anthony Reid, An Indonesian Frontier: Acehnese and Other Histories of Sumatra
-
-`reid-2005` — 14 claims
-
-- [ ] `chapter/aceh/03-istanbul.mdx` — prose: "Istanbul"
-- [ ] `chapter/aceh/06-thirty-years.mdx` — prose: "Thirty years"
-- [ ] `polity/aceh` — span starts 1496
-- [ ] `polity/aceh` — span ends 1903
-- [ ] `polity/aceh` — capital Banda Aceh from 1496
-- [ ] `polity/aceh` — founder Ali Mughayat Syah r. 1496-1530
-- [ ] `polity/aceh` — last Muhammad Daud Syah r. 1874-1903
-- [ ] `polity/aceh` — legitimation coded descent + divine-sanction
-- [ ] `polity/aceh` — turning point 1568 Istanbul (contested)
-- [ ] `polity/aceh` — turning point 1873 The first expedition
-- [ ] `polity/aceh` — descendant_scripts = 0
-- [ ] `polity/aceh` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/aceh` — successor_claims = 0
-- [ ] `polity/aceh` — ended by conquest in 1903
 
 ## Heribert Busse, Iran under the Buyids
 *In The Cambridge History of Iran, Volume 4.*
@@ -4714,6 +4806,20 @@ ordinary state, not an item to clear.
 - [ ] `polity/akkadian` — legitimation coded divine-sanction + conquest
 - [ ] `polity/akkadian` — turning point -2250 The Great Revolt
 
+## Translated by C. C. Brown, Sejarah Melayu, or Malay Annals
+*In Oxford in Asia Historical Reprints.*
+
+`brown-1970` — 8 claims
+
+- [ ] `chapter/johor/01-the-dynasty-without-the-city.mdx` — prose: "The dynasty without the city"
+- [ ] `chapter/melaka/01-a-prince-out-of-palembang.mdx` — prose: "A prince out of Palembang"
+- [ ] `chapter/melaka/05-mansur-shah.mdx` — prose: "The bendahara"
+- [ ] `edge/melaka->johor` — claimed legitimacy of in 1528
+- [ ] `edge/srivijaya->melaka` — claimed legitimacy of in 1400
+- [ ] `polity/johor` — legitimation coded descent
+- [ ] `polity/melaka` — peak Mansur Shah r. 1459-1477
+- [ ] `polity/melaka` — successor_claims = 1 (johor)
+
 ## Mark Edward Lewis, China's Cosmopolitan Empire: The Tang Dynasty
 
 `lewis-2009` — 8 claims
@@ -4916,17 +5022,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/carolingian` — turning point 877 Quierzy
 - [ ] `polity/carolingian` — successor_claims = 1 (Holy Roman Empire)
 
-## Translated by C. C. Brown, Sejarah Melayu, or Malay Annals
-*In Oxford in Asia Historical Reprints.*
-
-`brown-1970` — 5 claims
-
-- [ ] `chapter/melaka/01-a-prince-out-of-palembang.mdx` — prose: "A prince out of Palembang"
-- [ ] `chapter/melaka/05-mansur-shah.mdx` — prose: "The bendahara"
-- [ ] `edge/srivijaya->melaka` — claimed legitimacy of in 1400
-- [ ] `polity/melaka` — peak Mansur Shah r. 1459-1477
-- [ ] `polity/melaka` — successor_claims = 1 (Sultanate of Johor)
-
 ## Nicholas Postgate, Bronze Age Bureaucracy: Writing and the Practice of Government in Assyria
 
 `postgate-2013` — 5 claims
@@ -4967,15 +5062,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/buyid` — capital Shiraz from 934
 - [ ] `polity/buyid` — capital Rayy from 943
 - [ ] `polity/buyid` — descendant_scripts = 0
-
-## M. C. Ricklefs, A History of Modern Indonesia since c.1200
-
-`ricklefs-2008` — 4 claims
-
-- [ ] `chapter/majapahit/05-the-paregreg.mdx` — prose: "The Paregreg"
-- [ ] `chapter/majapahit/06-1527.mdx` — prose: "1527"
-- [ ] `polity/majapahit` — turning point 1404 The Paregreg
-- [ ] `polity/majapahit` — turning point 1478 Trowulan (contested)
 
 ## Giovanni R. Ruffini, Medieval Nubia: A Social and Economic History
 
