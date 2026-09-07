@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**4341 claims across 220 sources.**
+**4370 claims across 220 sources.**
 
 ## Where to start
 
@@ -414,16 +414,20 @@ ordinary state, not an item to clear.
 
 ## M. C. Ricklefs, A History of Modern Indonesia since c.1200
 
-`ricklefs-2008` — 106 claims
+`ricklefs-2008` — 114 claims
 
 **Sole source** for `banten`, `demak`, `mataram`, `pajang` — nothing else in the corpus can contradict a misreading here.
 
 - [ ] `chapter/banten/01-the-port-that-is-jakarta.mdx` — prose: "The port that is Jakarta"
 - [ ] `chapter/banten/02-1638.mdx` — prose: "1638"
-- [ ] `chapter/banten/03-father-and-son.mdx` — prose: "Father and son"
+- [ ] `chapter/banten/03-ageng.mdx` — prose: "Ageng"
+- [ ] `chapter/banten/04-the-chinese-of-banten.mdx` — prose: "The Chinese of Banten"
+- [ ] `chapter/banten/05-father-and-son.mdx` — prose: "Father and son"
 - [ ] `chapter/demak/01-the-coast-takes-the-interior.mdx` — prose: "The coast takes the interior"
 - [ ] `chapter/demak/02-1513.mdx` — prose: "1513"
-- [ ] `chapter/demak/03-1546.mdx` — prose: "1546"
+- [ ] `chapter/demak/03-the-mosque.mdx` — prose: "The mosque"
+- [ ] `chapter/demak/04-pati-unus.mdx` — prose: "Pati Unus"
+- [ ] `chapter/demak/05-1546.mdx` — prose: "1546"
 - [ ] `chapter/majapahit/05-the-paregreg.mdx` — prose: "The Paregreg"
 - [ ] `chapter/majapahit/06-1527.mdx` — prose: "1527"
 - [ ] `chapter/mataram/01-the-name-again.mdx` — prose: "The name again"
@@ -433,8 +437,12 @@ ordinary state, not an item to clear.
 - [ ] `chapter/medang/03-the-plain-they-left.mdx` — prose: "The plain they left"
 - [ ] `chapter/pajang/01-eighteen-years.mdx` — prose: "Eighteen years"
 - [ ] `chapter/pajang/02-the-chain.mdx` — prose: "The chain"
+- [ ] `chapter/pajang/03-jaka-tingkir.mdx` — prose: "Jaka Tingkir"
 - [ ] `chapter/pasai/01-where-the-chain-starts.mdx` — prose: "Where the chain starts"
-- [ ] `chapter/sunda/02-two-bad-bargains.mdx` — prose: "Two bad bargains"
+- [ ] `chapter/pasai/03-the-gravestones.mdx` — prose: "The gravestones"
+- [ ] `chapter/pasai/04-the-succession-that-was-not-recorded.mdx` — prose: "The succession that was not recorded"
+- [ ] `chapter/sunda/04-two-bad-bargains.mdx` — prose: "Two bad bargains"
+- [ ] `chapter/sunda/05-what-is-remembered.mdx` — prose: "What is remembered"
 - [ ] `edge/demak->banten` — seceded from in 1552
 - [ ] `edge/demak->pajang` — overthrew in 1554
 - [ ] `edge/majapahit->demak` — absorbed remnants of in 1527
@@ -527,11 +535,12 @@ ordinary state, not an item to clear.
 
 ## Kenneth R. Hall, A History of Early Southeast Asia: Maritime Trade and Societal Development, 100-1500
 
-`hall-2011` — 83 claims
+`hall-2011` — 84 claims
 
 **Sole source** for `second-kediri` — nothing else in the corpus can contradict a misreading here.
 
-- [ ] `chapter/kediri/03-ganter.mdx` — prose: "Ganter"
+- [ ] `chapter/kediri/04-what-the-inscriptions-are.mdx` — prose: "What the inscriptions are"
+- [ ] `chapter/kediri/05-ganter.mdx` — prose: "Ganter"
 - [ ] `chapter/majapahit/01-the-mongols.mdx` — prose: "The Mongols come and go"
 - [ ] `chapter/majapahit/02-rice-and-sea.mdx` — prose: "Rice and sea"
 - [ ] `chapter/majapahit/03-the-archipelago.mdx` — prose: "The other thalassocracy"
@@ -617,7 +626,7 @@ ordinary state, not an item to clear.
 
 ## George Coedes, edited by Walter F. Vella, translated by Susan Brown Cowing, The Indianized States of Southeast Asia
 
-`coedes-1968` — 77 claims
+`coedes-1968` — 81 claims
 
 - [ ] `chapter/angkor/03-the-chams-in-the-city.mdx` — prose: "The Chams in the city"
 - [ ] `chapter/angkor/04-the-thai-script.mdx` — prose: "The Thai script"
@@ -626,12 +635,16 @@ ordinary state, not an item to clear.
 - [ ] `chapter/champa/02-1177.mdx` — prose: "1177"
 - [ ] `chapter/champa/03-1471.mdx` — prose: "1471"
 - [ ] `chapter/gelgel/01-what-crossed-the-strait.mdx` — prose: "What crossed the strait"
+- [ ] `chapter/gelgel/02-waturenggong.mdx` — prose: "Waturenggong"
 - [ ] `chapter/kediri/01-the-division.mdx` — prose: "The division"
 - [ ] `chapter/kediri/02-the-field-that-is-missing.mdx` — prose: "The field that is missing"
+- [ ] `chapter/kediri/03-jayabhayas-prophecy.mdx` — prose: "Jayabhaya's prophecy"
 - [ ] `chapter/medang/01-two-monuments.mdx` — prose: "Two monuments"
 - [ ] `chapter/medang/02-balaputra.mdx` — prose: "Balaputra"
 - [ ] `chapter/medang/04-the-edge-not-drawn.mdx` — prose: "The edge not drawn"
 - [ ] `chapter/sunda/01-the-kingdom-that-lasted-longest.mdx` — prose: "The kingdom that lasted longest"
+- [ ] `chapter/sunda/02-the-oldest-writing-on-java.mdx` — prose: "The oldest writing on Java"
+- [ ] `chapter/sunda/03-sri-baduga.mdx` — prose: "Sri Baduga"
 - [ ] `edge/angkor->ayutthaya` — conquered by in 1431
 - [ ] `edge/majapahit->gelgel` — claimed legitimacy of in 1527
 - [ ] `polity/angkor` — span starts 802
@@ -1692,6 +1705,55 @@ ordinary state, not an item to clear.
 - [ ] `polity/greater-armenia` — turning point 405 The alphabet
 - [ ] `polity/greater-armenia` — ended by conquest in 428
 
+## Leonard Y. Andaya, The World of Maluku: Eastern Indonesia in the Early Modern Period
+
+`andaya-1993` — 42 claims
+
+**Sole source** for `ternate`, `tidore` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/ternate/01-five-islands.mdx` — prose: "Five islands"
+- [ ] `chapter/ternate/02-the-dualism.mdx` — prose: "Ternate and Tidore"
+- [ ] `chapter/ternate/03-hairun.mdx` — prose: "The fort"
+- [ ] `chapter/ternate/04-no-edges.mdx` — prose: "A record with no thread"
+- [ ] `chapter/ternate/05-the-trees.mdx` — prose: "The trees"
+- [ ] `chapter/tidore/01-the-other-island.mdx` — prose: "The other island"
+- [ ] `chapter/tidore/02-the-papuan-coast.mdx` — prose: "The Papuan coast"
+- [ ] `chapter/tidore/03-1663.mdx` — prose: "1663"
+- [ ] `chapter/tidore/04-the-trees-again.mdx` — prose: "The trees, from this side"
+- [ ] `chapter/tidore/05-nuku.mdx` — prose: "Nuku"
+- [ ] `polity/ternate` — span starts 1486
+- [ ] `polity/ternate` — span ends 1683
+- [ ] `polity/ternate` — capital Ternate from 1486
+- [ ] `polity/ternate` — founder Zainal Abidin r. 1486-1500
+- [ ] `polity/ternate` — peak Baabullah r. 1570-1583
+- [ ] `polity/ternate` — last Sibori Amsterdam r. 1675-1691
+- [ ] `polity/ternate` — military basis coded client-levy
+- [ ] `polity/ternate` — revenue basis coded monopoly + tribute
+- [ ] `polity/ternate` — legitimation coded descent + divine-sanction
+- [ ] `polity/ternate` — turning point 1512 The invitation
+- [ ] `polity/ternate` — turning point 1570 The murder of Hairun
+- [ ] `polity/ternate` — turning point 1575 The fort
+- [ ] `polity/ternate` — turning point 1683 The company's vassal
+- [ ] `polity/ternate` — descendant_scripts = 0
+- [ ] `polity/ternate` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/ternate` — successor_claims = 0
+- [ ] `polity/ternate` — ended by gradual absorption in 1683
+- [ ] `polity/tidore` — span starts 1521
+- [ ] `polity/tidore` — span ends 1805
+- [ ] `polity/tidore` — capital Tidore from 1521
+- [ ] `polity/tidore` — peak Saifuddin r. 1657-1687
+- [ ] `polity/tidore` — last Nuku r. 1797-1805
+- [ ] `polity/tidore` — military basis coded client-levy
+- [ ] `polity/tidore` — revenue basis coded monopoly + tribute
+- [ ] `polity/tidore` — legitimation coded descent + divine-sanction
+- [ ] `polity/tidore` — turning point 1521 The Spanish
+- [ ] `polity/tidore` — turning point 1663 The Spanish leave
+- [ ] `polity/tidore` — turning point 1797 Nuku
+- [ ] `polity/tidore` — descendant_scripts = 0
+- [ ] `polity/tidore` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/tidore` — successor_claims = 0
+- [ ] `polity/tidore` — ended by gradual absorption in 1805
+
 ## Hugh Kennedy, Muslim Spain and Portugal: A Political History of al-Andalus
 
 `kennedy-1996` — 39 claims
@@ -1737,52 +1799,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/cordoba` — turning point 976 Hisham II's minority
 - [ ] `polity/cordoba` — turning point 1009 The fitna of al-Andalus
 - [ ] `polity/cordoba` — ended by fragmentation in 1031
-
-## Leonard Y. Andaya, The World of Maluku: Eastern Indonesia in the Early Modern Period
-
-`andaya-1993` — 39 claims
-
-**Sole source** for `ternate`, `tidore` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/ternate/01-five-islands.mdx` — prose: "Five islands"
-- [ ] `chapter/ternate/02-the-dualism.mdx` — prose: "Ternate and Tidore"
-- [ ] `chapter/ternate/03-hairun.mdx` — prose: "The fort"
-- [ ] `chapter/ternate/04-no-edges.mdx` — prose: "A record with no thread"
-- [ ] `chapter/ternate/05-the-trees.mdx` — prose: "The trees"
-- [ ] `chapter/tidore/01-the-other-island.mdx` — prose: "The other island"
-- [ ] `chapter/tidore/02-nuku.mdx` — prose: "Nuku"
-- [ ] `polity/ternate` — span starts 1486
-- [ ] `polity/ternate` — span ends 1683
-- [ ] `polity/ternate` — capital Ternate from 1486
-- [ ] `polity/ternate` — founder Zainal Abidin r. 1486-1500
-- [ ] `polity/ternate` — peak Baabullah r. 1570-1583
-- [ ] `polity/ternate` — last Sibori Amsterdam r. 1675-1691
-- [ ] `polity/ternate` — military basis coded client-levy
-- [ ] `polity/ternate` — revenue basis coded monopoly + tribute
-- [ ] `polity/ternate` — legitimation coded descent + divine-sanction
-- [ ] `polity/ternate` — turning point 1512 The invitation
-- [ ] `polity/ternate` — turning point 1570 The murder of Hairun
-- [ ] `polity/ternate` — turning point 1575 The fort
-- [ ] `polity/ternate` — turning point 1683 The company's vassal
-- [ ] `polity/ternate` — descendant_scripts = 0
-- [ ] `polity/ternate` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/ternate` — successor_claims = 0
-- [ ] `polity/ternate` — ended by gradual absorption in 1683
-- [ ] `polity/tidore` — span starts 1521
-- [ ] `polity/tidore` — span ends 1805
-- [ ] `polity/tidore` — capital Tidore from 1521
-- [ ] `polity/tidore` — peak Saifuddin r. 1657-1687
-- [ ] `polity/tidore` — last Nuku r. 1797-1805
-- [ ] `polity/tidore` — military basis coded client-levy
-- [ ] `polity/tidore` — revenue basis coded monopoly + tribute
-- [ ] `polity/tidore` — legitimation coded descent + divine-sanction
-- [ ] `polity/tidore` — turning point 1521 The Spanish
-- [ ] `polity/tidore` — turning point 1663 The Spanish leave
-- [ ] `polity/tidore` — turning point 1797 Nuku
-- [ ] `polity/tidore` — descendant_scripts = 0
-- [ ] `polity/tidore` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/tidore` — successor_claims = 0
-- [ ] `polity/tidore` — ended by gradual absorption in 1805
 
 ## D. T. Potts, The Archaeology of Elam: Formation and Transformation of an Ancient Iranian State
 *In Cambridge World Archaeology.*
@@ -2955,7 +2971,7 @@ ordinary state, not an item to clear.
 
 - [ ] `chapter/aceh/03-istanbul.mdx` — prose: "Istanbul"
 - [ ] `chapter/aceh/06-thirty-years.mdx` — prose: "Thirty years"
-- [ ] `chapter/pasai/03-1524.mdx` — prose: "1524"
+- [ ] `chapter/pasai/05-1524.mdx` — prose: "1524"
 - [ ] `edge/pasai->aceh` — conquered by in 1524
 - [ ] `polity/aceh` — span starts 1496
 - [ ] `polity/aceh` — span ends 1903
@@ -3439,6 +3455,34 @@ ordinary state, not an item to clear.
 - [ ] `polity/hotaki` — turning point 1729 Damghan and Murche-Khort
 - [ ] `polity/hotaki` — ended by conquest in 1738
 
+## Graham Saunders, A History of Brunei
+
+`saunders-1994` — 21 claims
+
+**Sole source** for `brunei` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/brunei/01-boni.mdx` — prose: "Boni"
+- [ ] `chapter/brunei/02-what-pigafetta-counted.mdx` — prose: "What Pigafetta counted"
+- [ ] `chapter/brunei/03-what-a-claim-over-borneo-was.mdx` — prose: "What a claim over Borneo was"
+- [ ] `chapter/brunei/04-the-wazirs.mdx` — prose: "The wazirs"
+- [ ] `chapter/brunei/05-given-away.mdx` — prose: "Given away"
+- [ ] `polity/brunei` — span starts 1368
+- [ ] `polity/brunei` — span ends 1888
+- [ ] `polity/brunei` — capital Brunei from 1368
+- [ ] `polity/brunei` — founder Muhammad Shah r. 1368-1402
+- [ ] `polity/brunei` — peak Bolkiah r. 1485-1524
+- [ ] `polity/brunei` — last Hashim Jalilul Alam Aqamaddin r. 1885-1906
+- [ ] `polity/brunei` — military basis coded client-levy
+- [ ] `polity/brunei` — revenue basis coded trade-toll + tribute
+- [ ] `polity/brunei` — legitimation coded descent + divine-sanction
+- [ ] `polity/brunei` — turning point 1521 What Pigafetta found
+- [ ] `polity/brunei` — turning point 1578 The Castilians
+- [ ] `polity/brunei` — turning point 1841 Sarawak
+- [ ] `polity/brunei` — descendant_scripts = 0
+- [ ] `polity/brunei` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/brunei` — successor_claims = 0
+- [ ] `polity/brunei` — ended by gradual absorption in 1888
+
 ## C. E. Bosworth, The Ghaznavids: Their Empire in Afghanistan and Eastern Iran, 994-1040
 
 `bosworth-1963` — 21 claims
@@ -3490,6 +3534,34 @@ ordinary state, not an item to clear.
 - [ ] `polity/ptolemaic` — turning point -200 Panion
 - [ ] `polity/ptolemaic` — turning point -168 The Day of Eleusis
 - [ ] `polity/ptolemaic` — ended by conquest in -30
+
+## Cesar Adib Majul, Muslims in the Philippines
+
+`majul-1973` — 21 claims
+
+**Sole source** for `sulu` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/sulu/01-a-sarip-and-the-datus.mdx` — prose: "A sarip, and the datus"
+- [ ] `chapter/sulu/02-the-sulu-zone.mdx` — prose: "Tripang and captives"
+- [ ] `chapter/sulu/03-baptised-at-manila.mdx` — prose: "Baptised at Manila"
+- [ ] `chapter/sulu/04-a-word-in-a-contract.mdx` — prose: "A word in a contract"
+- [ ] `chapter/sulu/05-1915.mdx` — prose: "1915"
+- [ ] `polity/sulu` — span starts 1405
+- [ ] `polity/sulu` — span ends 1915
+- [ ] `polity/sulu` — capital Jolo from 1405
+- [ ] `polity/sulu` — founder Sayyid Abu Bakr r. 1405-1450
+- [ ] `polity/sulu` — peak Azim ud-Din I r. 1735-1773
+- [ ] `polity/sulu` — last Jamalul Kiram II r. 1894-1936
+- [ ] `polity/sulu` — military basis coded client-levy
+- [ ] `polity/sulu` — revenue basis coded trade-toll + plunder
+- [ ] `polity/sulu` — legitimation coded descent + divine-sanction
+- [ ] `polity/sulu` — turning point 1578 Jolo
+- [ ] `polity/sulu` — turning point 1848 Balangingi
+- [ ] `polity/sulu` — turning point 1915 Carpenter
+- [ ] `polity/sulu` — descendant_scripts = 0
+- [ ] `polity/sulu` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/sulu` — successor_claims = 0
+- [ ] `polity/sulu` — ended by gradual absorption in 1915
 
 ## Mustafa Banister, The Abbasid Caliphate of Cairo, 1261-1517: Out of the Shadows
 *In Edinburgh Studies in Classical Islamic History and Culture.*
@@ -4041,31 +4113,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/ethiopia` — religions_carried = 0
 - [ ] `polity/saba` — successor_claims = 2 (Himyar, Ethiopian Empire)
 
-## Graham Saunders, A History of Brunei
-
-`saunders-1994` — 18 claims
-
-**Sole source** for `brunei` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/brunei/01-what-pigafetta-counted.mdx` — prose: "What Pigafetta counted"
-- [ ] `chapter/brunei/02-given-away.mdx` — prose: "Given away"
-- [ ] `polity/brunei` — span starts 1368
-- [ ] `polity/brunei` — span ends 1888
-- [ ] `polity/brunei` — capital Brunei from 1368
-- [ ] `polity/brunei` — founder Muhammad Shah r. 1368-1402
-- [ ] `polity/brunei` — peak Bolkiah r. 1485-1524
-- [ ] `polity/brunei` — last Hashim Jalilul Alam Aqamaddin r. 1885-1906
-- [ ] `polity/brunei` — military basis coded client-levy
-- [ ] `polity/brunei` — revenue basis coded trade-toll + tribute
-- [ ] `polity/brunei` — legitimation coded descent + divine-sanction
-- [ ] `polity/brunei` — turning point 1521 What Pigafetta found
-- [ ] `polity/brunei` — turning point 1578 The Castilians
-- [ ] `polity/brunei` — turning point 1841 Sarawak
-- [ ] `polity/brunei` — descendant_scripts = 0
-- [ ] `polity/brunei` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/brunei` — successor_claims = 0
-- [ ] `polity/brunei` — ended by gradual absorption in 1888
-
 ## Moshe Gammer, Muslim Resistance to the Tsar: Shamil and the Conquest of Chechnia and Daghestan
 
 `gammer-1994` — 18 claims
@@ -4113,6 +4160,30 @@ ordinary state, not an item to clear.
 - [ ] `polity/ghurid` — turning point 1206 Mu'izz al-Din assassinated with no son
 - [ ] `polity/ghurid` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/ghurid` — successor_claims = 1 (Delhi Sultanate)
+
+## Edited and translated by A. Teeuw and D. K. Wyatt, Hikayat Patani: The Story of Patani
+*In Bibliotheca Indonesica 5, Koninklijk Instituut voor Taal-, Land- en Volkenkunde.*
+
+`teeuw-wyatt-1970` — 18 claims
+
+- [ ] `chapter/patani/01-what-a-chronicle-argues.mdx` — prose: "What a chronicle argues"
+- [ ] `chapter/patani/02-the-cannon.mdx` — prose: "The cannon"
+- [ ] `chapter/patani/03-four-queens-and-a-correction.mdx` — prose: "Four queens, and a correction"
+- [ ] `chapter/patani/04-1786.mdx` — prose: "1786"
+- [ ] `chapter/patani/05-a-border-through-it.mdx` — prose: "A border through it"
+- [ ] `polity/patani` — span starts 1500
+- [ ] `polity/patani` — span ends 1786
+- [ ] `polity/patani` — capital Patani from 1500
+- [ ] `polity/patani` — founder Sultan Ismail Shah r. 1500-1530
+- [ ] `polity/patani` — peak Raja Hijau r. 1584-1616
+- [ ] `polity/patani` — legitimation coded descent + divine-sanction
+- [ ] `polity/patani` — turning point 1584 Raja Hijau
+- [ ] `polity/patani` — turning point 1634 The Siamese repulsed
+- [ ] `polity/patani` — turning point 1786 The end of the negotiation
+- [ ] `polity/patani` — descendant_scripts = 0
+- [ ] `polity/patani` — religions_carried = 0
+- [ ] `polity/patani` — successor_claims = 0
+- [ ] `polity/patani` — ended by conquest in 1786
 
 ## Madawi Al-Rasheed, Politics in an Arabian Oasis: The Rashidi Tribal Dynasty
 *In Society and Culture in the Modern Middle East.*
@@ -4183,31 +4254,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/sharifate-mecca` — turning point 1803 The Wahhabis take Mecca
 - [ ] `polity/sharifate-mecca` — turning point 1916 The Arab Revolt
 - [ ] `polity/sharifate-mecca` — ended by conquest in 1925
-
-## Cesar Adib Majul, Muslims in the Philippines
-
-`majul-1973` — 18 claims
-
-**Sole source** for `sulu` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/sulu/01-the-sulu-zone.mdx` — prose: "Tripang and captives"
-- [ ] `chapter/sulu/02-1915.mdx` — prose: "1915"
-- [ ] `polity/sulu` — span starts 1405
-- [ ] `polity/sulu` — span ends 1915
-- [ ] `polity/sulu` — capital Jolo from 1405
-- [ ] `polity/sulu` — founder Sayyid Abu Bakr r. 1405-1450
-- [ ] `polity/sulu` — peak Azim ud-Din I r. 1735-1773
-- [ ] `polity/sulu` — last Jamalul Kiram II r. 1894-1936
-- [ ] `polity/sulu` — military basis coded client-levy
-- [ ] `polity/sulu` — revenue basis coded trade-toll + plunder
-- [ ] `polity/sulu` — legitimation coded descent + divine-sanction
-- [ ] `polity/sulu` — turning point 1578 Jolo
-- [ ] `polity/sulu` — turning point 1848 Balangingi
-- [ ] `polity/sulu` — turning point 1915 Carpenter
-- [ ] `polity/sulu` — descendant_scripts = 0
-- [ ] `polity/sulu` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/sulu` — successor_claims = 0
-- [ ] `polity/sulu` — ended by gradual absorption in 1915
 
 ## Heinz Halm, The Empire of the Mahdi: The Rise of the Fatimids
 
@@ -4494,27 +4540,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/hasmonean` — turning point -104 The diadem
 - [ ] `polity/hasmonean` — descendant_scripts = 0
 - [ ] `polity/hasmonean` — religions_carried = 1 (Judaism)
-
-## Edited and translated by A. Teeuw and D. K. Wyatt, Hikayat Patani: The Story of Patani
-*In Bibliotheca Indonesica 5, Koninklijk Instituut voor Taal-, Land- en Volkenkunde.*
-
-`teeuw-wyatt-1970` — 15 claims
-
-- [ ] `chapter/patani/01-four-queens-and-a-correction.mdx` — prose: "Four queens, and a correction"
-- [ ] `chapter/patani/02-1786.mdx` — prose: "1786"
-- [ ] `polity/patani` — span starts 1500
-- [ ] `polity/patani` — span ends 1786
-- [ ] `polity/patani` — capital Patani from 1500
-- [ ] `polity/patani` — founder Sultan Ismail Shah r. 1500-1530
-- [ ] `polity/patani` — peak Raja Hijau r. 1584-1616
-- [ ] `polity/patani` — legitimation coded descent + divine-sanction
-- [ ] `polity/patani` — turning point 1584 Raja Hijau
-- [ ] `polity/patani` — turning point 1634 The Siamese repulsed
-- [ ] `polity/patani` — turning point 1786 The end of the negotiation
-- [ ] `polity/patani` — descendant_scripts = 0
-- [ ] `polity/patani` — religions_carried = 0
-- [ ] `polity/patani` — successor_claims = 0
-- [ ] `polity/patani` — ended by conquest in 1786
 
 ## C. E. Bosworth, SAMANIDS
 *In Encyclopaedia Iranica.*
@@ -4811,6 +4836,24 @@ ordinary state, not an item to clear.
 - [ ] `polity/great-zimbabwe` — successor_claims = 0
 - [ ] `polity/great-zimbabwe` — ended by gradual absorption in 1450
 
+## Leonard Y. Andaya, The Heritage of Arung Palakka: A History of South Sulawesi (Celebes) in the Seventeenth Century
+*In Verhandelingen van het Koninklijk Instituut voor Taal-, Land- en Volkenkunde, 91.*
+
+`andaya-1981` — 12 claims
+
+- [ ] `chapter/makassar/03-two-kingdoms-and-two-peoples.mdx` — prose: "Two kingdoms, and two peoples"
+- [ ] `chapter/makassar/04-the-fortresses.mdx` — prose: "Sombaopu"
+- [ ] `chapter/makassar/05-1669.mdx` — prose: "1669"
+- [ ] `polity/makassar` — span ends 1669
+- [ ] `polity/makassar` — peak Hasanuddin r. 1653-1669
+- [ ] `polity/makassar` — last Hasanuddin r. 1653-1669
+- [ ] `polity/makassar` — military basis coded conscript
+- [ ] `polity/makassar` — legitimation coded descent + divine-sanction
+- [ ] `polity/makassar` — turning point 1667 Bongaya
+- [ ] `polity/makassar` — turning point 1669 Sombaopu
+- [ ] `polity/makassar` — successor_claims = 0
+- [ ] `polity/makassar` — ended by conquest in 1669
+
 ## John F. Richards, The Mughal Empire (The New Cambridge History of India, I.5)
 
 `richards-1993` — 12 claims
@@ -4894,6 +4937,22 @@ ordinary state, not an item to clear.
 - [ ] `polity/al-busaid` — turning point 1840 The court moves to Zanzibar
 - [ ] `polity/al-busaid` — turning point 1845 The Hamerton Treaty
 - [ ] `polity/al-busaid` — ended by fragmentation in 1861
+
+## Hans Hagerdal, Hindu Rulers, Muslim Subjects: Lombok and Bali in the Seventeenth and Eighteenth Centuries
+
+`hagerdal-2001` — 11 claims
+
+- [ ] `chapter/gelgel/03-the-subak.mdx` — prose: "The subak"
+- [ ] `chapter/gelgel/04-nine-kingdoms.mdx` — prose: "Nine kingdoms"
+- [ ] `chapter/gelgel/05-1908.mdx` — prose: "1908"
+- [ ] `polity/gelgel` — span ends 1686
+- [ ] `polity/gelgel` — last Dalem Di Made r. 1642-1665
+- [ ] `polity/gelgel` — military basis coded conscript
+- [ ] `polity/gelgel` — revenue basis coded land-tax
+- [ ] `polity/gelgel` — turning point 1686 Nine kingdoms
+- [ ] `polity/gelgel` — religions_carried = 1 (Balinese Hinduism)
+- [ ] `polity/gelgel` — successor_claims = 1 (The house of Klungkung)
+- [ ] `polity/gelgel` — ended by fragmentation in 1686
 
 ## Charles J. Halperin, Russia and the Golden Horde: The Mongol Impact on Medieval Russian History
 
@@ -4988,22 +5047,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/chagatai` — last Qazan r. 1343-1347
 - [ ] `polity/chagatai` — ended by fragmentation in 1347
 
-## Leonard Y. Andaya, The Heritage of Arung Palakka: A History of South Sulawesi (Celebes) in the Seventeenth Century
-*In Verhandelingen van het Koninklijk Instituut voor Taal-, Land- en Volkenkunde, 91.*
-
-`andaya-1981` — 10 claims
-
-- [ ] `chapter/makassar/03-1669.mdx` — prose: "1669"
-- [ ] `polity/makassar` — span ends 1669
-- [ ] `polity/makassar` — peak Hasanuddin r. 1653-1669
-- [ ] `polity/makassar` — last Hasanuddin r. 1653-1669
-- [ ] `polity/makassar` — military basis coded conscript
-- [ ] `polity/makassar` — legitimation coded descent + divine-sanction
-- [ ] `polity/makassar` — turning point 1667 Bongaya
-- [ ] `polity/makassar` — turning point 1669 Sombaopu
-- [ ] `polity/makassar` — successor_claims = 0
-- [ ] `polity/makassar` — ended by conquest in 1669
-
 ## Fred M. Donner, The Early Islamic Conquests
 
 `donner-1981` — 10 claims
@@ -5047,20 +5090,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/egypt-old-kingdom` — revenue basis coded land-tax
 - [ ] `polity/egypt-old-kingdom` — legitimation coded divine-sanction + descent
 - [ ] `polity/egypt-old-kingdom` — religions_carried = 0
-
-## Hans Hagerdal, Hindu Rulers, Muslim Subjects: Lombok and Bali in the Seventeenth and Eighteenth Centuries
-
-`hagerdal-2001` — 9 claims
-
-- [ ] `chapter/gelgel/02-nine-kingdoms.mdx` — prose: "Nine kingdoms"
-- [ ] `polity/gelgel` — span ends 1686
-- [ ] `polity/gelgel` — last Dalem Di Made r. 1642-1665
-- [ ] `polity/gelgel` — military basis coded conscript
-- [ ] `polity/gelgel` — revenue basis coded land-tax
-- [ ] `polity/gelgel` — turning point 1686 Nine kingdoms
-- [ ] `polity/gelgel` — religions_carried = 1 (Balinese Hinduism)
-- [ ] `polity/gelgel` — successor_claims = 1 (The house of Klungkung)
-- [ ] `polity/gelgel` — ended by fragmentation in 1686
 
 ## N. Levtzion and J. F. P. Hopkins (eds), Corpus of Early Arabic Sources for West African History
 *In Fontes Historiae Africanae, Series Arabica IV.*
