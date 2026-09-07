@@ -2301,6 +2301,47 @@ sources:
       not, which matters for a record whose peak reign doubled the state at the
       expense of its neighbours.
 
+  - id: horton-middleton-2000
+    kind: book
+    author: Mark Horton and John Middleton
+    title: "The Swahili: The Social Landscape of a Mercantile Society"
+    container: The Peoples of Africa
+    publisher: Blackwell
+    year: 2000
+    note: >-
+      An archaeologist and an anthropologist writing together, which is what the
+      Swahili coast requires: the documentary record is thin and late and the
+      excavated one is enormous. Their central argument — that Swahili society
+      is African and coastal rather than a colony of anybody — is the one this
+      site's Kilwa record's `legitimation` field is coded against.
+
+  - id: welsby-2002
+    kind: book
+    author: Derek A. Welsby
+    title: >-
+      The Medieval Kingdoms of Nubia: Pagans, Christians and Muslims along the
+      Middle Nile
+    publisher: British Museum Press
+    year: 2002
+    note: >-
+      The standard account of the three Christian Nubian kingdoms, by an
+      excavator who has spent twenty years on them. Cited here for the
+      narrative, the conversion, the baqt and the ending; Ruffini supplies the
+      inside of the state.
+
+  - id: ruffini-2012
+    kind: book
+    author: Giovanni R. Ruffini
+    title: "Medieval Nubia: A Social and Economic History"
+    publisher: Oxford University Press
+    year: 2012
+    note: >-
+      Built from the Old Nubian documents excavated at Qasr Ibrim — land sales,
+      accounts, letters, much of it still unpublished — and the reason this
+      site's Makurian institutions can be coded at all. Ruffini's finding is a
+      monetised economy with exchange rates connected to the wider world, in a
+      kingdom whose external reputation rests entirely on archery and a treaty.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors

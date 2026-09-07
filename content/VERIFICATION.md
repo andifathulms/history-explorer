@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**3615 claims across 194 sources.**
+**3653 claims across 197 sources.**
 
 ## Where to start
 
@@ -3482,6 +3482,53 @@ ordinary state, not an item to clear.
 - [ ] `polity/yaariba` — turning point 1698 Fort Jesus
 - [ ] `polity/yaariba` — ended by internal usurpation in 1744
 
+## Mark Horton and John Middleton, The Swahili: The Social Landscape of a Mercantile Society
+*In The Peoples of Africa.*
+
+`horton-middleton-2000` — 17 claims
+
+**Sole source** for `kilwa` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/kilwa/01-where-the-wind-stops.mdx` — prose: "Where the wind stops"
+- [ ] `chapter/kilwa/02-the-prince-from-shiraz.mdx` — prose: "The prince from Shiraz"
+- [ ] `chapter/kilwa/03-1505.mdx` — prose: "1505"
+- [ ] `polity/kilwa` — span starts 957
+- [ ] `polity/kilwa` — span ends 1505
+- [ ] `polity/kilwa` — capital Kilwa Kisiwani from 1000
+- [ ] `polity/kilwa` — founder Ali ibn al-Hasan
+- [ ] `polity/kilwa` — peak al-Hasan ibn Sulaiman r. 1310-1333
+- [ ] `polity/kilwa` — last Ibrahim ibn Sulaiman
+- [ ] `polity/kilwa` — revenue basis coded trade-toll + monopoly
+- [ ] `polity/kilwa` — legitimation coded descent
+- [ ] `polity/kilwa` — turning point 1277 The Mahdali
+- [ ] `polity/kilwa` — turning point 1505 The Portuguese
+- [ ] `polity/kilwa` — descendant_scripts = 0
+- [ ] `polity/kilwa` — religions_carried = 0
+- [ ] `polity/kilwa` — successor_claims = 0
+- [ ] `polity/kilwa` — ended by conquest in 1505
+
+## Derek A. Welsby, The Medieval Kingdoms of Nubia: Pagans, Christians and Muslims along the Middle Nile
+
+`welsby-2002` — 17 claims
+
+- [ ] `chapter/makuria/01-the-pupil-smiters.mdx` — prose: "The pupil-smiters"
+- [ ] `chapter/makuria/03-the-fourth-case.mdx` — prose: "The fourth case"
+- [ ] `chapter/makuria/05-1365.mdx` — prose: "1365"
+- [ ] `polity/makuria` — span starts 651
+- [ ] `polity/makuria` — span ends 1365
+- [ ] `polity/makuria` — capital Old Dongola from 651
+- [ ] `polity/makuria` — founder Qalidurut
+- [ ] `polity/makuria` — peak Merkurios r. 697-722
+- [ ] `polity/makuria` — last Kudanbes
+- [ ] `polity/makuria` — military basis coded conscript
+- [ ] `polity/makuria` — legitimation coded divine-sanction + descent
+- [ ] `polity/makuria` — turning point 652 The baqt
+- [ ] `polity/makuria` — turning point 1276 Baybars breaks it
+- [ ] `polity/makuria` — turning point 1317 The throne hall
+- [ ] `polity/makuria` — religions_carried = 0
+- [ ] `polity/makuria` — successor_claims = 0
+- [ ] `polity/makuria` — ended by gradual absorption in 1365
+
 ## Suhayl Zakkar, The Emirate of Aleppo, 1004-1094
 
 `zakkar-1971` — 17 claims
@@ -4518,6 +4565,15 @@ ordinary state, not an item to clear.
 - [ ] `polity/buyid` — capital Shiraz from 934
 - [ ] `polity/buyid` — capital Rayy from 943
 - [ ] `polity/buyid` — descendant_scripts = 0
+
+## Giovanni R. Ruffini, Medieval Nubia: A Social and Economic History
+
+`ruffini-2012` — 4 claims
+
+- [ ] `chapter/makuria/02-a-monetised-economy.mdx` — prose: "A monetised economy"
+- [ ] `chapter/makuria/04-old-nubian.mdx` — prose: "Old Nubian"
+- [ ] `polity/makuria` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/makuria` — descendant_scripts = 1 (Old Nubian)
 
 ## John F. Healey, The Religion of the Nabataeans: A Conspectus
 *In Religions in the Graeco-Roman World 136.*

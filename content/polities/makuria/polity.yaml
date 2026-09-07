@@ -1,0 +1,156 @@
+id: makuria
+region: africa
+
+name:
+  latin: Kingdom of Makuria
+  # Old Nubian was written in the Coptic alphabet with three letters borrowed
+  # from Meroitic. This record's single influence count is that script and the
+  # fourth chapter is about it; the name is not set in it here for the reason
+  # the Nabataean and Bulgarian records give — a name in letters nobody on this
+  # project can proofread is a decoration that reads as a citation.
+  script: null
+  script_lang: null
+
+# 651 is the second Arab defeat at Dongola and the treaty that followed. 1365 is
+# the year the court abandoned Dongola for Gebel Adda, after which there is a
+# Makurian king in the sources and not much of a Makuria.
+span:
+  start: { min: 651, max: 651, source: welsby-2002 }
+  end: { min: 1365, max: 1365, source: welsby-2002 }
+
+identity: >-
+  The Christian kingdom on the Nile that stopped the Arab conquest twice and
+  then held the frontier with Egypt by treaty for six hundred years.
+
+capitals:
+  - { name: Old Dongola, from: 651, source: welsby-2002 }
+
+core_region: The middle Nile between the third and fifth cataracts
+
+rulers:
+  founder: { name: Qalidurut, source: welsby-2002 }
+  peak: { name: Merkurios, reign: [697, 722], source: welsby-2002 }
+  last: { name: Kudanbes, source: welsby-2002 }
+
+scripts_and_languages:
+  administration: [Old Nubian, Greek, Coptic]
+  writing_system: The Coptic alphabet, extended for Old Nubian
+
+# Not a conquest, and not one event. Mamluk expeditions from 1276 installed and
+# deposed kings, the throne hall at Dongola was converted into a mosque in 1317,
+# Arab migration into the Nile valley changed the population, and the court left
+# Dongola in 1365. `by` names the Mamluk record because it did the intervening,
+# and `gradual absorption` is the type because nobody annexed anything: the
+# kingdom was pulled apart over ninety years by a neighbour that mostly wanted it
+# quiet.
+ended:
+  type: gradual absorption
+  by: [mamluk-sultanate]
+  year: 1365
+  source: welsby-2002
+
+institutions:
+  # Archers, and the reputation is specific. The Arab accounts of the two
+  # invasions call the Nubians *rumat al-hadaq* — the pupil-smiters — and
+  # describe an army that shot the attackers in the eye and did not close. It is
+  # a levy rather than a paid force and it beat two Arab armies in twenty years,
+  # which almost nothing else did.
+  military_basis: { values: [conscript], source: welsby-2002 }
+  # Nile agriculture on the saqia — the ox-driven waterwheel, which arrives in
+  # Nubia in this period and is what makes a narrow floodplain support a kingdom
+  # — and the traffic through it. Ruffini's Qasr Ibrim documents are land sales,
+  # loans and accounts in a monetised economy with exchange rates tied to the
+  # wider world, which is not what a kingdom known abroad for archery and a
+  # treaty is expected to leave behind.
+  revenue_basis: { values: [land-tax, trade-toll], source: ruffini-2012 }
+  # Null, and this is the fourth record in the corpus to be null here for the
+  # same reason. The Makurian throne passed to the king's sister's son. It is
+  # attested in the Arabic accounts, in the Nubian material, and in the royal
+  # titulature, and it is not one of the seven values available — primogeniture,
+  # tanistry, appanage, nomination, election, acclamation, factional. None of
+  # them describes descent traced through women.
+  #
+  # The Ghana record, written one pass before this one, sets the count at three:
+  # itself with a rule stated by al-Bakri, Mali with a practice Ibn Battuta found
+  # scandalous, and the Elam of Awan and Shimashki on the Ur III record's last
+  # chapter. Its closing paragraph says the note is there so that a fourth case
+  # has somewhere to arrive.
+  #
+  # This is the fourth. Four records, three regions, and something over two and a
+  # half thousand years between the earliest and the latest, with no contact
+  # between any of them. The value that closed the `investiture` gap took nine
+  # records to argue; four is not nine and no change is made here. What has
+  # changed is that this is no longer a curiosity about one page.
+  succession_rule: null
+  # The king is a priest and a Christian monarch at once — Ibn Selim al-Aswani,
+  # who went to Dongola as a Fatimid envoy in the 970s, reports that the king
+  # could ordain, and the Nubian royal iconography puts Christ's hand on the
+  # king's shoulder in the wall paintings at Faras. Beside it the dynastic
+  # descent the succession field cannot express.
+  legitimation: { values: [divine-sanction, descent], source: welsby-2002 }
+
+turning_points:
+  - year: 652
+    type: treaty
+    name: The baqt
+    changed: >-
+      An Arab army under Abdallah ibn Sa'd besieged Dongola, was badly handled by
+      the Nubian archers, and made terms instead of taking the city. The
+      agreement — the baqt — was not tribute in either direction but an exchange:
+      Nubia sent a fixed number of slaves each year and Egypt sent grain, cloth,
+      wine and horses, with free passage for merchants and a guarantee of the
+      mosque at Dongola.
+      It held, with interruptions, for about six hundred years. Nothing else in
+      this corpus is a single arrangement that lasted that long, and it is the
+      reason the Arab conquest that took everything from Spain to the Indus
+      stopped at the third cataract.
+    source: welsby-2002
+    contested: false
+  - year: 1276
+    type: battle
+    name: Baybars breaks it
+    changed: >-
+      A Mamluk expedition beat the Nubian army, took Dongola, and installed a
+      king who agreed to pay tribute — which is a different arrangement from the
+      baqt and is the end of it. This corpus's Mamluk record says in one clause
+      that Baybars made the Nubian kingdoms tributary, as one item in a list of
+      how that state engineered its inputs. This is the page of what it was done
+      to.
+    source: welsby-2002
+    contested: false
+  - year: 1317
+    type: conversion
+    name: The throne hall
+    changed: >-
+      The audience hall of the royal palace at Dongola was converted into a
+      mosque and an inscription was set up recording it. The building survives
+      and so does the inscription. A Muslim king was on the Makurian throne by
+      then and the church hierarchy was collapsing for lack of bishops from an
+      Alexandria under pressure of its own — which is the same supply line this
+      corpus's Aksum record says kept Ethiopian Christianity alive, seen at the
+      point where it failed.
+    source: welsby-2002
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    # One, and the structure is the same as the Aksumite claim in this region.
+    # Old Nubian is the Coptic alphabet — itself Greek, by way of Egypt — with
+    # three letters taken from Meroitic and added to write sounds Coptic had no
+    # signs for, applied to a Nilo-Saharan language neither parent had ever
+    # written.
+    #
+    # Coding rule 3 counts an existing script extended with new letters to write
+    # a language it did not previously write, on the record of the polity whose
+    # system was adapted. The parent here is Coptic and no Coptic-era Egyptian
+    # polity is in this corpus, and the adaptation — the Meroitic borrowings —
+    # was the Nubian act. So the count stays where the work was done, which is
+    # the same reasoning that gives Aksum the vocalised Ge'ez syllabary.
+    descendant_scripts:
+      count: 1
+      items: [Old Nubian]
+      source: ruffini-2012
+    religions_carried: { count: 0, items: [], source: welsby-2002 }
+    successor_claims: { count: 0, items: [], source: welsby-2002 }

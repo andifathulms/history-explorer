@@ -261,9 +261,16 @@ regions:
     group: south-asia
     thread: true
 
-  # One internal edge, `mali -> songhai` in 1468. Aksum points outward at Himyar
-  # and at nothing else, and Songhai's ending points at the Saadi record in the
-  # Islamic West.
+  # Seven records, three internal edges, and four clusters that have nothing to
+  # do with each other: the Horn (`aksum -> ethiopia`), the Niger (`ghana ->
+  # mali -> songhai`), the middle Nile (Makuria) and the Indian Ocean coast
+  # (Kilwa). No edge crosses between them and none can — Aksum and Mali have
+  # nothing to do with each other and never will.
+  #
+  # That is an argument for splitting, and the split now costs nothing: both
+  # sequences keep their edges and both would carry a thread. It is also no
+  # longer a two-way split, since Makuria and Kilwa belong to neither sequence.
+  # A decision is pending rather than made.
   #
   # The thinness is stated on the Mali record's last chapter rather than left to
   # be inferred. Ghana, Kanem-Bornu, Benin, Oyo, the Hausa city-states, Great
@@ -273,10 +280,11 @@ regions:
   - id: africa
     name: Africa
     blurb: >-
-      Aksum on the Red Sea and the Niger empires at the southern edge of the
-      Sahara: three states that lived on controlling where other people's goods
-      crossed — and three records for a continent, which is a fact about this
-      project rather than about Africa.
+      The Horn, the middle Nile, the Niger and the Indian Ocean coast: states
+      that lived on controlling where other people's goods crossed, on four
+      stretches of ground with nothing to do with each other — and seven records
+      for a continent, which is a fact about this project rather than about
+      Africa.
     group: africa-maghreb
     thread: true
 

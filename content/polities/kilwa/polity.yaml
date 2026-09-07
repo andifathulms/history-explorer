@@ -1,0 +1,120 @@
+id: kilwa
+region: africa
+
+name:
+  latin: Kilwa Sultanate
+  # Swahili was written in the Arabic script with added letters, which is an
+  # adaptation coding rule 3 would count on the record of whoever owns the
+  # parent script. It is not this one, and the field would in any case need a
+  # form of the name in that script that this project cannot proofread.
+  script: null
+  script_lang: null
+
+# The Kilwa Chronicle puts the founding dynasty's arrival in the late tenth
+# century and the archaeology has occupation on the island earlier than that, so
+# the range is the gap between a tradition and a stratigraphy. 1505 is the
+# Portuguese sack.
+span:
+  start: { min: 957, max: 1000, source: horton-middleton-2000 }
+  end: { min: 1505, max: 1505, source: horton-middleton-2000 }
+
+identity: >-
+  The city-state that held the gold of Sofala by making every ship going south
+  stop at its harbour, and minted its own coin for five hundred years.
+
+capitals:
+  - { name: Kilwa Kisiwani, from: 1000, source: horton-middleton-2000 }
+
+core_region: An island off the Tanzanian coast, with dependencies from Sofala to the Comoros
+
+rulers:
+  founder: { name: Ali ibn al-Hasan, source: horton-middleton-2000 }
+  # The sultan Ibn Battuta met in 1331, and the builder of Husuni Kubwa.
+  peak: { name: al-Hasan ibn Sulaiman, reign: [1310, 1333], source: horton-middleton-2000 }
+  last: { name: Ibrahim ibn Sulaiman, source: horton-middleton-2000 }
+
+scripts_and_languages:
+  administration: [Arabic, Swahili]
+  writing_system: Arabic
+
+# Francisco de Almeida took the town in July 1505 with a fleet and about five
+# hundred men, sacked it, built a fort, and installed a puppet. The Portuguese
+# abandoned the fort within eight years and Kilwa never recovered the Sofala
+# trade, which they had taken directly. `by` is empty because Portugal is not in
+# this corpus, which is now the fourth African record on this site to end
+# against a power it cannot name.
+ended:
+  type: conquest
+  by: []
+  year: 1505
+  source: horton-middleton-2000
+
+institutions:
+  # Null, and it is a finding rather than a gap. There is no Kilwan army in the
+  # sources or in the ground: no fortifications facing the sea until the
+  # Portuguese built one, no standing force, no military titles in the
+  # chronicle, and no recorded campaign against another coastal town. A city
+  # whose position rested on being where ships had to stop did not need one, and
+  # in 1505 it did not have one.
+  military_basis: null
+  # Customs, and a chokehold. Kilwa's power was not that it produced anything:
+  # the gold came from the Zimbabwe plateau to Sofala, sixteen hundred kilometres
+  # south, and the reason it went through Kilwa is the monsoon. A ship out of
+  # Arabia or India could reach Kilwa and return within one year's winds and
+  # could not reach Sofala and return, so the last leg was Kilwa's and Kilwa
+  # priced it.
+  #
+  # The second value is the transshipment monopoly rather than a commodity: what
+  # Kilwa sold was the right to pass, and it enforced that by owning the vessels
+  # that made the run to Sofala. This record therefore sits just outside the
+  # eight-record type the Characene record's chapter tracks — polities whose
+  # revenue field reads `trade-toll` and nothing else — for the same reason the
+  # Ghana record does, and the near miss is more informative than membership
+  # would be.
+  revenue_basis: { values: [trade-toll, monopoly], source: horton-middleton-2000 }
+  succession_rule: null
+  # Descent from a prince of Shiraz, asserted in the Kilwa Chronicle and on the
+  # coast generally — the Shirazi tradition, which several dynasties from
+  # Mogadishu to the Comoros claimed and which almost certainly did not happen.
+  #
+  # Horton and Middleton read it as an African mercantile elite acquiring a
+  # pedigree its trading partners would recognise, in a world where Islamic
+  # descent was commercial standing. Coding rule 1 counts a claim as a claim and
+  # does not filter on whether it was true, so the field carries `descent` and
+  # the second chapter carries the argument.
+  legitimation: { values: [descent], source: horton-middleton-2000 }
+
+turning_points:
+  - year: 1277
+    type: succession-crisis
+    name: The Mahdali
+    changed: >-
+      The Shirazi line was displaced by a family from southern Arabia claiming
+      descent from the Prophet, and the new dynasty rebuilt the town on a
+      different scale — the Great Mosque enlarged with domes and vaulting, and
+      Husuni Kubwa on the cliff above the harbour, a palace and warehouse
+      complex with something over a hundred rooms and an octagonal bathing pool.
+      The change of dynasty is when Kilwa's hold on the Sofala gold becomes
+      total, and the buildings are the evidence for what it was worth.
+    source: horton-middleton-2000
+    contested: false
+  - year: 1505
+    type: siege
+    name: The Portuguese
+    changed: >-
+      Almeida took the town with about five hundred men and no serious fighting,
+      installed a puppet, and built a fort the Portuguese abandoned within eight
+      years. What did not come back was the trade: Portugal took Sofala directly
+      the following year and the monsoon chokehold this record's revenue field
+      is coded on stopped existing. The town survived and the sultanate did not
+      matter again.
+    source: horton-middleton-2000
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: horton-middleton-2000 }
+    religions_carried: { count: 0, items: [], source: horton-middleton-2000 }
+    successor_claims: { count: 0, items: [], source: horton-middleton-2000 }
