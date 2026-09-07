@@ -109,10 +109,8 @@ content/polities/byzantine/03-the-last-great-war-of-antiquity.mdx
 content/polities/byzantine/05-the-themes.mdx
 content/polities/byzantine/06-the-images.mdx
 content/polities/byzantine/07-the-missions.mdx
-content/polities/byzantine/08-the-second-peak.mdx
 content/polities/byzantine/09-1204.mdx
 content/polities/byzantine/10-1453.mdx
-content/polities/byzantine/11-the-republic.mdx
 content/polities/byzantine/12-the-name.mdx
 content/polities/carolingian/01-mayors-of-the-palace.mdx
 content/polities/carolingian/02-the-saxons-and-the-avars.mdx
@@ -142,7 +140,6 @@ content/polities/cordoba/05-the-boundaries.mdx
 content/polities/dai-viet/01-where-this-record-stops.mdx
 content/polities/dai-viet/02-the-vocabulary-of-the-north.mdx
 content/polities/dai-viet/03-three-times.mdx
-content/polities/dai-viet/04-abdication.mdx
 content/polities/dai-viet/05-1400.mdx
 content/polities/danishmendid/04-taken-in-pieces.mdx
 content/polities/demak/01-the-coast-takes-the-interior.mdx
@@ -152,7 +149,6 @@ content/polities/demak/04-pati-unus.mdx
 content/polities/demak/05-1546.mdx
 content/polities/derbend/01-the-gate.mdx
 content/polities/derbend/02-the-city-and-the-emir.mdx
-content/polities/derbend/03-a-standing-arrangement.mdx
 content/polities/diriyah/02-the-name.mdx
 content/polities/diriyah/05-1818.mdx
 content/polities/edessa/01-the-knight-who-went-east.mdx
@@ -190,7 +186,6 @@ content/polities/gelgel/01-what-crossed-the-strait.mdx
 content/polities/gelgel/02-waturenggong.mdx
 content/polities/gelgel/03-the-subak.mdx
 content/polities/gelgel/04-nine-kingdoms.mdx
-content/polities/gelgel/05-1908.mdx
 content/polities/genoa/01-the-other-one.mdx
 content/polities/genoa/02-the-companies.mdx
 content/polities/genoa/03-chioggia.mdx
@@ -219,8 +214,6 @@ content/polities/great-seljuk/02-the-followers-they-could-not-hold.mdx
 content/polities/great-seljuk/06-the-siyasatnama.mdx
 content/polities/great-zimbabwe/01-houses-of-stone.mdx
 content/polities/great-zimbabwe/02-the-stone.mdx
-content/polities/great-zimbabwe/03-mapungubwe.mdx
-content/polities/great-zimbabwe/04-who-built-it.mdx
 content/polities/greater-armenia/01-artaxias.mdx
 content/polities/greater-armenia/02-tigranes.mdx
 content/polities/greater-armenia/03-rhandeia.mdx
@@ -236,7 +229,6 @@ content/polities/hafsid/02-a-caliph-in-tunis.mdx
 content/polities/hafsid/03-ibn-khaldun.mdx
 content/polities/hamdanid/03-mutanabbi.mdx
 content/polities/hamdanid/04-al-farabi.mdx
-content/polities/han/03-salt-and-iron.mdx
 content/polities/han/04-the-conscript-empire.mdx
 content/polities/han/05-two-claims.mdx
 content/polities/hasmonean/01-a-family-with-no-claim.mdx
