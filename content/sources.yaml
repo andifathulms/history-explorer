@@ -2398,6 +2398,48 @@ sources:
       fields with confidence and why the fourth is empty for a reason the
       vocabulary cannot fix.
 
+  - id: kulke-2009
+    kind: book
+    author: Hermann Kulke, K. Kesavapany and Vijay Sakhuja (eds)
+    title: >-
+      Nagapattinam to Suvarnadwipa: Reflections on the Chola Naval Expeditions
+      to Southeast Asia
+    publisher: Institute of Southeast Asian Studies
+    year: 2009
+    note: >-
+      Twenty specialists on one event — Rajendra Chola's raid of 1025 on the
+      ports of the Melaka strait — from the Indian side, the Southeast Asian
+      side and the archaeology. Cited here because it is the only sustained
+      treatment of the single most consequential thing that happened to
+      Srivijaya, and because the Chola state that launched it has no record on
+      this site.
+
+  - id: robson-1995
+    kind: book
+    author: Mpu Prapanca, translated by Stuart Robson
+    title: "Desawarnana (Nagarakrtagama)"
+    container: KITLV Verhandelingen 169
+    publisher: KITLV Press
+    year: 1995
+    note: >-
+      The Majapahit court poem of 1365 in translation with commentary, by the
+      superintendent of Buddhist affairs at the court he is describing. It is
+      the principal internal source for that record and the reason its fourth
+      chapter is about how to read a list.
+
+  - id: ricklefs-2008
+    kind: book
+    author: M. C. Ricklefs
+    title: "A History of Modern Indonesia since c.1200"
+    publisher: Palgrave Macmillan
+    edition: 4th
+    year: 2008
+    note: >-
+      The standard general history, beginning at exactly the point this corpus's
+      Majapahit record does. Cited here for the fifteenth century — the Paregreg
+      war, the Islamisation of the north Java ports and the shift of trade to
+      Melaka — which hall-2011 covers as trade history and Ricklefs as politics.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors

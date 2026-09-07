@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**3762 claims across 201 sources.**
+**3781 claims across 204 sources.**
 
 ## Where to start
 
@@ -1724,6 +1724,45 @@ ordinary state, not an item to clear.
 - [ ] `polity/yuan` — last Toghon Temur r. 1333-1368
 - [ ] `polity/yuan` — descendant_scripts = 1 (Phags-pa script)
 
+## Kenneth R. Hall, A History of Early Southeast Asia: Maritime Trade and Societal Development, 100-1500
+
+`hall-2011` — 34 claims
+
+- [ ] `chapter/majapahit/01-the-mongols.mdx` — prose: "The Mongols come and go"
+- [ ] `chapter/majapahit/02-rice-and-sea.mdx` — prose: "Rice and sea"
+- [ ] `chapter/majapahit/03-the-archipelago.mdx` — prose: "The other thalassocracy"
+- [ ] `chapter/majapahit/04-the-poem.mdx` — prose: "A list of dependencies"
+- [ ] `chapter/srivijaya/01-power-over-a-passage.mdx` — prose: "Power over a passage"
+- [ ] `chapter/srivijaya/02-siddhayatra.mdx` — prose: "Siddhayatra"
+- [ ] `chapter/srivijaya/03-a-thousand-monks.mdx` — prose: "A thousand monks"
+- [ ] `chapter/srivijaya/04-the-inscriptions.mdx` — prose: "Curses in stone"
+- [ ] `chapter/srivijaya/06-a-kingdom-nobody-remembered.mdx` — prose: "A kingdom nobody remembered"
+- [ ] `edge/srivijaya->majapahit` — absorbed remnants of in 1293
+- [ ] `polity/majapahit` — span starts 1293
+- [ ] `polity/majapahit` — span ends 1527
+- [ ] `polity/majapahit` — capital Trowulan from 1293
+- [ ] `polity/majapahit` — founder Raden Wijaya r. 1293-1309
+- [ ] `polity/majapahit` — peak Hayam Wuruk r. 1350-1389
+- [ ] `polity/majapahit` — last Girindrawardhana r. 1478-1527
+- [ ] `polity/majapahit` — military basis coded conscript + client-levy
+- [ ] `polity/majapahit` — revenue basis coded land-tax + trade-toll + tribute
+- [ ] `polity/majapahit` — turning point 1293 The Mongols come and go
+- [ ] `polity/majapahit` — descendant_scripts = 0
+- [ ] `polity/majapahit` — religions_carried = 1 (Hindu-Buddhist Javanese tradition)
+- [ ] `polity/majapahit` — ended by gradual absorption in 1527
+- [ ] `polity/srivijaya` — span starts 671
+- [ ] `polity/srivijaya` — span ends 1275
+- [ ] `polity/srivijaya` — capital Palembang from 671
+- [ ] `polity/srivijaya` — founder Dapunta Hyang Sri Jayanasa r. 671-702
+- [ ] `polity/srivijaya` — peak Balaputradewa r. 835-860
+- [ ] `polity/srivijaya` — military basis coded client-levy
+- [ ] `polity/srivijaya` — revenue basis coded trade-toll
+- [ ] `polity/srivijaya` — legitimation coded divine-sanction
+- [ ] `polity/srivijaya` — turning point 1079 Jambi (contested)
+- [ ] `polity/srivijaya` — turning point 1275 Pamalayu
+- [ ] `polity/srivijaya` — religions_carried = 1 (Mahayana Buddhism)
+- [ ] `polity/srivijaya` — ended by gradual absorption in 1275
+
 ## Rachel Mairs, The Hellenistic Far East: Archaeology, Language, and Identity in Greek Central Asia
 
 `mairs-2014` — 33 claims
@@ -2582,36 +2621,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/genoa` — religions_carried = 0
 - [ ] `polity/genoa` — successor_claims = 0
 - [ ] `polity/genoa` — ended by conquest in 1797
-
-## Kenneth R. Hall, A History of Early Southeast Asia: Maritime Trade and Societal Development, 100-1500
-
-`hall-2011` — 23 claims
-
-**Sole source** for `majapahit`, `srivijaya` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/majapahit/01-the-archipelago.mdx` — prose: "The other thalassocracy"
-- [ ] `chapter/majapahit/02-the-poem.mdx` — prose: "A list of dependencies"
-- [ ] `chapter/srivijaya/01-the-straits.mdx` — prose: "Power over a passage"
-- [ ] `chapter/srivijaya/02-the-inscriptions.mdx` — prose: "Curses in stone"
-- [ ] `edge/srivijaya->majapahit` — absorbed remnants of in 1293
-- [ ] `polity/majapahit` — span starts 1293
-- [ ] `polity/majapahit` — span ends 1527
-- [ ] `polity/majapahit` — capital Trowulan from 1293
-- [ ] `polity/majapahit` — founder Raden Wijaya r. 1293-1309
-- [ ] `polity/majapahit` — peak Hayam Wuruk r. 1350-1389
-- [ ] `polity/majapahit` — last Girindrawardhana r. 1478-1527
-- [ ] `polity/majapahit` — religions_carried = 1 (Hindu-Buddhist Javanese tradition)
-- [ ] `polity/majapahit` — ended by gradual absorption in 1527
-- [ ] `polity/srivijaya` — span starts 671
-- [ ] `polity/srivijaya` — span ends 1275
-- [ ] `polity/srivijaya` — capital Palembang from 671
-- [ ] `polity/srivijaya` — founder Dapunta Hyang Sri Jayanasa r. 671-702
-- [ ] `polity/srivijaya` — peak Balaputradewa r. 835-860
-- [ ] `polity/srivijaya` — last Unknown r. 1275-1275
-- [ ] `polity/srivijaya` — military basis coded client-levy
-- [ ] `polity/srivijaya` — revenue basis coded trade-toll
-- [ ] `polity/srivijaya` — religions_carried = 1 (Mahayana Buddhism)
-- [ ] `polity/srivijaya` — ended by gradual absorption in 1275
 
 ## Donald Matthew, The Norman Kingdom of Sicily
 *In Cambridge Medieval Textbooks.*
@@ -4705,6 +4714,15 @@ ordinary state, not an item to clear.
 - [ ] `polity/buyid` — capital Rayy from 943
 - [ ] `polity/buyid` — descendant_scripts = 0
 
+## M. C. Ricklefs, A History of Modern Indonesia since c.1200
+
+`ricklefs-2008` — 4 claims
+
+- [ ] `chapter/majapahit/05-the-paregreg.mdx` — prose: "The Paregreg"
+- [ ] `chapter/majapahit/06-1527.mdx` — prose: "1527"
+- [ ] `polity/majapahit` — turning point 1404 The Paregreg
+- [ ] `polity/majapahit` — turning point 1478 Trowulan (contested)
+
 ## Giovanni R. Ruffini, Medieval Nubia: A Social and Economic History
 
 `ruffini-2012` — 4 claims
@@ -4861,6 +4879,14 @@ ordinary state, not an item to clear.
 - [ ] `chapter/jalayirid/03-the-book.mdx` — prose: "Where Persian painting turns"
 - [ ] `chapter/timurid/06-the-princely-vision.mdx` — prose: "The princely vision"
 
+## Mpu Prapanca, translated by Stuart Robson, Desawarnana (Nagarakrtagama)
+*In KITLV Verhandelingen 169.*
+
+`robson-1995` — 2 claims
+
+- [ ] `polity/majapahit` — legitimation coded divine-sanction + descent
+- [ ] `polity/majapahit` — turning point 1357 Bubat (contested)
+
 ## Giovanni B. Lanfranchi, Michael Roaf and Robert Rollinger (eds), Continuity of Empire (?): Assyria, Media, Persia
 *In History of the Ancient Near East Monographs V.*
 
@@ -4913,6 +4939,13 @@ ordinary state, not an item to clear.
 
 - [ ] `chapter/seleucid/02-making-the-land-mean-something.mdx` — prose: "Making the land mean something"
 - [ ] `polity/seleucid` — legitimation coded conquest + divine-sanction
+
+## Hermann Kulke, K. Kesavapany and Vijay Sakhuja (eds), Nagapattinam to Suvarnadwipa: Reflections on the Chola Naval Expeditions to Southeast Asia
+
+`kulke-2009` — 2 claims
+
+- [ ] `chapter/srivijaya/05-1025.mdx` — prose: "1025"
+- [ ] `polity/srivijaya` — turning point 1025 The Chola raid
 
 ## Khalid Yahya Blankinship, The End of the Jihad State: The Reign of Hisham Ibn 'Abd al-Malik and the Collapse of the Umayyads
 *In SUNY Series in Medieval Middle East History.*

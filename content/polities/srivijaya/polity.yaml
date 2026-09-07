@@ -19,10 +19,15 @@ capitals:
 
 core_region: Sumatra and the straits
 
+# `last` was entered as a ruler named Unknown with a one-year reign, which is a
+# placeholder wearing the shape of a fact — the same defect the Aksum record
+# carried and for the same reason. Null is what the schema provides and what the
+# evidence supports: no ruler of this polity is named in anything after the
+# eleventh century.
 rulers:
   founder: { name: Dapunta Hyang Sri Jayanasa, reign: [671, 702], source: hall-2011 }
   peak: { name: Balaputradewa, reign: [835, 860], source: hall-2011 }
-  last: { name: Unknown, reign: [1275, 1275], source: hall-2011 }
+  last: { name: null, source: null }
 
 scripts_and_languages:
   administration: [Old Malay, Sanskrit]
@@ -35,10 +40,68 @@ ended:
   source: hall-2011
 
 institutions:
+  # Crews, not soldiers. The orang laut — the sea peoples of the straits and the
+  # river mouths — were the polity's navy, and the arrangement was that they
+  # raided for Srivijaya rather than against it. A power on a strait cannot
+  # garrison a coastline; it binds the people who would otherwise be the
+  # pirates, which is what the oath inscriptions in the fourth chapter are for.
   military_basis: { values: [client-levy], source: hall-2011 }
+  # Tolls and nothing else, and this record is one of eight in the corpus coded
+  # that way — with Palmyra, Characene, Derbend, the Nabataeans, the Zurayids of
+  # Aden, the Rustamids and Trebizond. The Characene record's chapter on the
+  # type argues that eight instances arrived one page at a time, by a rule that
+  # never asked the question, is a type rather than a coincidence. This is the
+  # largest of them by the volume of trade passing and it is the only one whose
+  # chokepoint was a strait rather than a road.
   revenue_basis: { values: [trade-toll], source: hall-2011 }
   succession_rule: null
-  legitimation: null
+  # `divine-sanction`, and the evidence is the curse. The Telaga Batu oath binds
+  # the ruler's subordinates under a supernatural penalty administered through
+  # water poured over an inscribed stone and drunk — the king's authority is
+  # stated as a power that can reach a man who breaks his word anywhere. Beside
+  # it Mahayana patronage on a scale that made Palembang a place Chinese and
+  # Indian monks came to study, which the third chapter is about.
+  legitimation: { values: [divine-sanction], source: hall-2011 }
+
+turning_points:
+  - year: 1025
+    type: siege
+    name: The Chola raid
+    changed: >-
+      Rajendra I sent a fleet across the Bay of Bengal and attacked the ports of
+      the Melaka strait — the Chola inscription names something like fourteen of
+      them, Srivijaya's capital among them, and claims the king was taken. The
+      raid was not followed by occupation and the Cholas went home.
+      What it ended was the monopoly. Srivijaya's whole position rested on being
+      the only safe way through, and a power that could be raided across an ocean
+      was not that. The ports it had held together began dealing directly with
+      China and with India, and the record's next two centuries are a decline
+      with no single further event in them.
+    source: kulke-2009
+    contested: false
+  - year: 1079
+    type: capital-move
+    name: Jambi
+    changed: >-
+      The centre shifts from Palembang up the coast to Jambi-Melayu, which had
+      been a rival and a dependency. Chinese records begin naming the Melayu
+      port where they had named the Palembang one. It is the clearest sign that
+      what survived the Chola raid was the position rather than the polity: the
+      strait still had to be passed and somebody still had to be paid, and the
+      somebody had changed.
+    source: hall-2011
+    contested: true
+  - year: 1275
+    type: battle
+    name: Pamalayu
+    changed: >-
+      Kertanegara of Singhasari on Java sent an expedition against Melayu — the
+      Pamalayu — and the Sumatran polity stops appearing in the records as an
+      independent power. This corpus's Majapahit record is the Javanese state
+      that followed Singhasari eighteen years later, and the shift of the
+      archipelago's centre of gravity from Sumatra to Java begins here.
+    source: hall-2011
+    contested: false
 
 measures:
   # Taagepera does not tabulate a maritime polity whose power was over sea

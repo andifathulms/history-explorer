@@ -34,13 +34,99 @@ ended:
   year: 1527
   source: hall-2011
 
+institutions:
+  # This record had no institutions block at all until this pass, which on a
+  # site that codes four fields for a hundred and eighty polities is a gap in
+  # the project rather than in the evidence. Three of the four are fillable.
+  #
+  # Javanese levies raised through the appanage-holding princes and the regional
+  # lords, and the fleets of the coastal chiefs who had accepted Majapahit's
+  # overlordship. The second value is the same instrument the Srivijaya record
+  # carries and is the reason both records are in this region: a power over sea
+  # lanes fights with other people's ships.
+  military_basis: { values: [conscript, client-levy], source: hall-2011 }
+  # Three, and the first is what separates this record from the one before it in
+  # this region. Srivijaya had a strait and nothing behind it. Java has volcanic
+  # soil, monsoon rain and wet-rice terracing that supported one of the densest
+  # agrarian populations in the pre-modern world, and Majapahit taxed it.
+  #
+  # So this is a thalassocracy with a granary — the tolls of the archipelago's
+  # ports and the tribute of its dependencies on top of a land revenue that
+  # Srivijaya never had. The second chapter argues that the difference explains
+  # most of what the two records did differently.
+  revenue_basis: { values: [land-tax, trade-toll, tribute], source: hall-2011 }
+  succession_rule: null
+  # The king as a manifestation of Shiva and the Buddha at once — the
+  # Nagarakertagama, composed by the superintendent of Buddhist affairs at
+  # Hayam Wuruk's court, describes the living ruler in those terms and the dead
+  # ones as deified at their funerary temples. Beside it descent from Kertanegara
+  # of Singhasari, which the founder claimed by marriage and which is why this
+  # record starts eighteen years after the Pamalayu expedition on the Srivijaya
+  # page.
+  legitimation: { values: [divine-sanction, descent], source: robson-1995 }
+
+turning_points:
+  - year: 1293
+    type: battle
+    name: The Mongols come and go
+    changed: >-
+      Kublai Khan sent an expedition against Java to punish Kertanegara for
+      mutilating his envoy. Kertanegara was already dead, killed by a rival;
+      his son-in-law Raden Wijaya joined the Mongols, used them to destroy the
+      rival, and then attacked them and drove them back to their ships.
+      This corpus's Yuan record carries the expedition as one of the overseas
+      failures of that reign. From this end it is a founding: the state that
+      exists at the end of the year is Majapahit, and it exists because somebody
+      used the largest army in the world as a temporary ally and then did not
+      pay.
+    source: hall-2011
+    contested: false
+  - year: 1357
+    type: battle
+    name: Bubat
+    changed: >-
+      A Sundanese king brought his daughter to Java for a marriage that was to
+      have joined the two kingdoms. Gajah Mada treated the party as tribute
+      rather than as guests, the Sundanese refused the terms, and the court and
+      the princess were killed on the field at Bubat.
+      It ended any prospect of Sunda joining the arrangement the poem in the
+      fourth chapter describes, and the memory of it kept Sunda and Java apart
+      for centuries — a marriage prohibition attributed to the episode was still
+      being observed in the twentieth century.
+    source: robson-1995
+    contested: true
+  - year: 1404
+    type: succession-crisis
+    name: The Paregreg
+    changed: >-
+      A war between the western and eastern courts over the succession — the
+      Paregreg, meaning something like the slow-burning one — ran for about
+      two years and settled nothing that stayed settled. The dependencies stopped
+      sending. The Chinese records begin dealing with the north-coast ports
+      directly rather than through the Javanese court, and Melaka, founded on
+      the strait at about this moment, took the traffic that Majapahit's
+      overlordship had been routing.
+    source: ricklefs-2008
+    contested: false
+  - year: 1478
+    type: siege
+    name: Trowulan
+    changed: >-
+      The capital fell to a rival Javanese claimant and the court's centre moved
+      east. Javanese tradition later attached the date to the fall of Majapahit
+      and to the triumph of Islam, and neither is what happened in 1478 — the
+      dynasty continued for another fifty years and the man who took the city
+      was a Hindu prince. The last chapter is about why the date stuck anyway.
+    source: ricklefs-2008
+    contested: true
+
 measures:
   # As with Srivijaya: no cited km2, and area is the wrong measure for a
   # polity whose power was over sea lanes. See hard rule 5.
   reach_km2: null
   peak_population: null
   influence:
-    descendant_scripts: { count: null, items: [], source: null }
+    descendant_scripts: { count: 0, items: [], source: hall-2011 }
     religions_carried:
       count: 1
       items: [Hindu-Buddhist Javanese tradition]
