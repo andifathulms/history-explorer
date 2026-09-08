@@ -2751,3 +2751,35 @@ sources:
       the Banten of 1808 to 1813, which Raffles describes at first hand and
       with figures, including the pension for which the last sultan gave up the
       administration of the country.
+
+  - id: baladhuri-futuh
+    kind: book
+    author: Ahmad ibn Yahya al-Baladhuri
+    title: "The Origins of the Islamic State (Kitab Futuh al-Buldan)"
+    translator: Philip K. Hitti
+    publisher: Columbia University
+    year: 1916
+    note: >-
+      Compiled in the ninth century from earlier authorities, and organised as a
+      province-by-province account of how each place came under Muslim rule and
+      on what terms. Its interest is that it is not written as a story: it is
+      written as a dossier, because the tax status of a district in the ninth
+      century depended on what had been agreed in the seventh, and Baladhuri
+      records the competing versions, the documents, and the objections to them.
+      Hitti's translation of the first part is out of copyright and complete.
+
+  - id: wellhausen-1927
+    kind: book
+    author: Julius Wellhausen
+    title: The Arab Kingdom and its Fall
+    translator: Margaret Graham Weir
+    publisher: University of Calcutta
+    year: 1927
+    note: >-
+      The 1902 Das arabische Reich und sein Sturz in English. It is the study
+      that established the Umayyad period as a subject in its own right rather
+      than as the prelude to the Abbasids, and it is unusually explicit about
+      which Arabic authority each statement rests on and how far that authority
+      can be pressed. A century of scholarship has revised it; its judgements
+      about the sources are still worth reading, and it is cited here for the
+      dynasty's fall and for what happened to its survivors.

@@ -589,10 +589,6 @@ content/polities/rashidi/01-the-governors-who-took-over.mdx
 content/polities/rashidi/02-hail.mdx
 content/polities/rashidi/03-mulayda.mdx
 content/polities/rashidi/05-1921.mdx
-content/polities/rashidun/04-amsar.mdx
-content/polities/rashidun/05-uthman.mdx
-content/polities/rashidun/06-the-codex.mdx
-content/polities/rashidun/08-the-sources.mdx
 content/polities/rasulid/01-the-deputies-who-stayed.mdx
 content/polities/rasulid/02-aden.mdx
 content/polities/rasulid/03-mecca.mdx
@@ -720,9 +716,6 @@ content/polities/tripoli/03-1289.mdx
 content/polities/tulunid/02-the-army-and-the-quarrel.mdx
 content/polities/tulunid/03-the-most-expensive-wedding.mdx
 content/polities/tulunid/05-905.mdx
-content/polities/umayyad/02-karbala.mdx
-content/polities/umayyad/05-khalifat-allah.mdx
-content/polities/umayyad/07-the-berber-revolt.mdx
 content/polities/uqaylid/01-mosul.mdx
 content/polities/uqaylid/02-the-khutba-of-1010.mdx
 content/polities/uqaylid/03-sharaf-al-dawla.mdx
