@@ -93,6 +93,21 @@ turning_points:
       given here in 1527.
     source: ricklefs-2008
     contested: false
+  - year: 1580
+    type: succession-crisis
+    name: The kadi's choice
+    changed: >-
+      Molana Yusup died a year after taking Pakuan, leaving a child. His brother,
+      who ruled Jepara, came by sea with an armed following to claim Banten and
+      was fought off; then the chief Islamic judge and four other officers
+      installed the boy and governed for him.
+      West Java read the double refusal — of the Central Javanese claimant, and
+      of any regent from outside the town — as the point at which it stopped
+      being an appendage of the courts across the island. The judge's office kept
+      a weight at the Banten court, into the nineteenth century, that the head
+      penghulu of Yogyakarta or Surakarta never had.
+    source: graaf-pigeaud-1974
+    contested: false
   - year: 1638
     type: treaty
     name: The title from Mecca

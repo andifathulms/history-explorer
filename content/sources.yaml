@@ -2720,3 +2720,34 @@ sources:
     note: >-
       Map polygons only. Never a source for a measure. See hard rule 5: areas
       computed from these polygons are not published as figures.
+
+  - id: graaf-pigeaud-1974
+    kind: book
+    author: H. J. de Graaf and Th. G. Th. Pigeaud
+    title: "De eerste Moslimse vorstendommen op Java: studiën over de staatkundige geschiedenis van de 15de en 16de eeuw"
+    container: Verhandelingen van het Koninklijk Instituut voor Taal-, Land- en Volkenkunde 69
+    publisher: Martinus Nijhoff
+    year: 1974
+    note: >-
+      The standard study of the first Muslim states on Java, and the first to
+      work systematically from the Javanese babad and the Sadjarah Banten rather
+      than from Portuguese and Dutch reports alone. Read here in the Indonesian
+      translation, Kerajaan-Kerajaan Islam di Jawa, published in the Seri
+      Terjemahan Javanologi. The authors are consistently explicit about which
+      of their statements rest on chronicle, which on European report, and which
+      on inference, which is what makes it usable for a sixteenth century whose
+      documentation is this thin.
+
+  - id: raffles-1817
+    kind: book
+    author: Thomas Stamford Raffles
+    title: The History of Java
+    publisher: Black, Parbury and Allen
+    year: 1817
+    note: >-
+      Written by the Lieutenant-Governor who had just administered Java for the
+      British, and to be read as such: the account of a province's disorder is
+      also the case for the government that came in to settle it. Cited here for
+      the Banten of 1808 to 1813, which Raffles describes at first hand and
+      with figures, including the pension for which the last sultan gave up the
+      administration of the country.
