@@ -2958,3 +2958,29 @@ sources:
       the object and its condition. Its chronology is five centuries out and its
       framing is frankly biblical — both of which make it a good record of what
       the discovery meant at the moment it was made. Out of copyright.
+
+  - id: sayce-1888
+    kind: book
+    author: Archibald Henry Sayce
+    title: "The Hittites: The Story of a Forgotten Empire"
+    publisher: Religious Tract Society
+    year: 1888
+    note: >-
+      Written eighteen years before Hattusa was excavated and twenty-seven
+      before Hittite was deciphered, by the Assyriologist who had argued the
+      empire's existence into scholarly acceptance from Egyptian and biblical
+      evidence alone. Almost every particular in it has since been corrected;
+      what it records exactly is the moment when a great power had been
+      recovered as a name and not yet as a language, a capital or a history.
+      Out of copyright.
+
+  - id: breasted-1912
+    kind: book
+    author: James Henry Breasted
+    title: A History of Egypt from the Earliest Times to the Persian Conquest
+    publisher: Charles Scribner's Sons
+    year: 1912
+    note: >-
+      The narrative companion to Breasted's Ancient Records, quoting the
+      documents at length in his own translations. Cited here for the Report of
+      Wenamun, which he prints nearly in full. Out of copyright.
