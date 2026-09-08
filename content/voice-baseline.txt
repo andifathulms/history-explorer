@@ -237,10 +237,6 @@ content/polities/hafsid/01-the-governor-who-stayed.mdx
 content/polities/hafsid/02-a-caliph-in-tunis.mdx
 content/polities/hafsid/03-ibn-khaldun.mdx
 content/polities/hafsid/04-a-prize-in-someone-elses-war.mdx
-content/polities/hamdanid/01-two-branches.mdx
-content/polities/hamdanid/03-mutanabbi.mdx
-content/polities/hamdanid/04-al-farabi.mdx
-content/polities/hamdanid/05-tributary.mdx
 content/polities/han/01-han.mdx
 content/polities/han/02-the-examinations.mdx
 content/polities/han/04-the-conscript-empire.mdx
@@ -381,11 +377,6 @@ content/polities/marinid/01-a-dynasty-without-a-doctrine.mdx
 content/polities/marinid/02-what-they-built-instead.mdx
 content/polities/marinid/03-the-book-they-paid-for.mdx
 content/polities/marinid/04-one-year-of-the-whole-maghreb.mdx
-content/polities/marwanid/01-badh.mdx
-content/polities/marwanid/02-nasr-al-dawla.mdx
-content/polities/marwanid/03-a-kurdish-state.mdx
-content/polities/marwanid/04-the-seljuks.mdx
-content/polities/marwanid/05-ibn-jahir.mdx
 content/polities/maurya/01-maurya.mdx
 content/polities/maurya/02-the-inscriptions.mdx
 content/polities/median/01-what-the-assyrians-recorded.mdx
@@ -659,10 +650,6 @@ content/polities/trebizond/01-two-hundred-miles-of-coast.mdx
 content/polities/trebizond/02-the-city-and-the-road.mdx
 content/polities/trebizond/03-bessarion.mdx
 content/polities/trebizond/04-the-last-of-the-romans.mdx
-content/polities/uqaylid/01-mosul.mdx
-content/polities/uqaylid/02-the-khutba-of-1010.mdx
-content/polities/uqaylid/03-sharaf-al-dawla.mdx
-content/polities/uqaylid/05-kerbogha.mdx
 content/polities/ur-iii/01-after-the-gutians.mdx
 content/polities/ur-iii/02-a-hundred-thousand-receipts.mdx
 content/polities/ur-iii/03-the-king-becomes-a-god.mdx
