@@ -49,6 +49,20 @@ ended:
   year: 1222
   source: hall-2011
 
+# What came before. Kediri is one half of a kingdom that was deliberately split,
+# and the kingdom has no record here.
+preceded_by_external:
+  - name: Kahuripan
+    type: partitioned from
+    year: 1042
+    note: >-
+      Airlangga rebuilt a Javanese kingdom out of the collapse of 1016 and then,
+      in 1042, divided it between his two sons. The Javanese account gives the
+      reason as a father's even-handedness. What it produced was two kingdoms,
+      Janggala and Panjalu, which fought each other; Panjalu won and took the name
+      of its capital's district, which is Kediri.
+    source: coedes-1968
+
 institutions:
   military_basis: { values: [conscript], source: hall-2011 }
   # Rice. The Brantas valley is among the most productive wet-rice landscapes in
@@ -66,10 +80,9 @@ turning_points:
       Kertajaya was defeated and killed by Ken Arok of Tumapel, and the centre of
       Javanese power moved out of the Brantas valley's old seat for the first time
       in a hundred and eighty years.
-      It is the beginning of this corpus's Singhasari record, whose second
-      chapter is about the same battle from the winning side, and it is not the
-      end of the relationship between the two: seventy years later a lord of
-      Kediri killed Singhasari's last king.
+      It is the beginning of Singhasari, and not the end of the relationship
+      between the two: seventy years later a lord of Kediri killed Singhasari's
+      last king and briefly restored the kingdom that ended here.
     source: hall-2011
     contested: false
 

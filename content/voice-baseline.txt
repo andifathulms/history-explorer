@@ -395,10 +395,6 @@ content/polities/kartli-kakheti/02-the-reforms.mdx
 content/polities/kartli-kakheti/03-georgievsk.mdx
 content/polities/kartli-kakheti/04-krtsanisi.mdx
 content/polities/kartli-kakheti/05-1801.mdx
-content/polities/kediri/02-the-field-that-is-missing.mdx
-content/polities/kediri/03-jayabhayas-prophecy.mdx
-content/polities/kediri/04-what-the-inscriptions-are.mdx
-content/polities/kediri/05-ganter.mdx
 content/polities/khazar/01-the-wall.mdx
 content/polities/khazar/02-the-correspondence.mdx
 content/polities/khwarazmian/02-taking-the-sultanate.mdx
@@ -466,10 +462,6 @@ content/polities/mataram/03-1677.mdx
 content/polities/mataram/04-giyanti.mdx
 content/polities/maurya/01-maurya.mdx
 content/polities/maurya/02-the-inscriptions.mdx
-content/polities/medang/01-two-monuments.mdx
-content/polities/medang/02-balaputra.mdx
-content/polities/medang/03-the-plain-they-left.mdx
-content/polities/medang/04-the-edge-not-drawn.mdx
 content/polities/median/01-what-the-assyrians-recorded.mdx
 content/polities/median/02-612.mdx
 content/polities/median/03-an-empire-possibly.mdx
@@ -734,10 +726,6 @@ content/polities/sulayhid/02-mecca.mdx
 content/polities/sulayhid/03-arwa.mdx
 content/polities/sulayhid/04-the-hujja.mdx
 content/polities/sulayhid/05-tayyibi.mdx
-content/polities/sunda/01-the-kingdom-that-lasted-longest.mdx
-content/polities/sunda/02-the-oldest-writing-on-java.mdx
-content/polities/sunda/04-two-bad-bargains.mdx
-content/polities/sunda/05-what-is-remembered.mdx
 content/polities/tahirid-yemen/01-picking-up-the-state.mdx
 content/polities/tahirid-yemen/02-the-port-that-stopped-paying.mdx
 content/polities/tahirid-yemen/03-the-amiriyya.mdx

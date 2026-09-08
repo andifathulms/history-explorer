@@ -46,6 +46,20 @@ ended:
   year: 1579
   source: ricklefs-2008
 
+# What was on this ground before. Tarumanagara has no record here and a reader
+# asking what preceded Sunda is asking about western Java.
+preceded_by_external:
+  - name: Tarumanagara
+    year: null
+    note: >-
+      The polity that produced the oldest inscriptions on Java — Sanskrit stone
+      slabs by rivers in the west, from about the fifth century, recording a king
+      named Purnawarman, one of them carved with a pair of footprints declared to
+      be the ruler's and likened to Vishnu's. The Sundanese chronicle tradition
+      puts the transition to Sunda at about 669; nothing independent confirms the
+      date.
+    source: coedes-1968
+
 institutions:
   military_basis: { values: [conscript], source: coedes-1968 }
   # Rice inland and a port on the coast. Sunda Kelapa, at the mouth of the
@@ -77,12 +91,12 @@ turning_points:
       Sunda signed a treaty with the Portuguese at Melaka permitting them a fort
       at Sunda Kelapa, in exchange for help against the Muslim powers on the
       north coast, and a stone pillar was set up to mark it.
-      It is the only case in the archipelago of a polity inviting the Portuguese in
-      as protection against its neighbours — and the calculation was not
-      unreasonable, since this corpus's Demak record had taken most of the
-      Javanese coast by then. What it produced was the opposite: Demak sent a
-      force to take the port before the Portuguese could occupy it, and Sunda
-      lost its outlet five years after signing for a guarantee of it.
+      It is the only case in the archipelago of a polity inviting the Portuguese
+      in as protection against its neighbours, and the calculation was not
+      unreasonable: Demak had taken most of the Javanese coast by then. What it
+      produced was the opposite. Demak sent a force to take the port before the
+      Portuguese could occupy it, and Sunda lost its outlet five years after
+      signing for a guarantee of it.
     source: ricklefs-2008
     contested: false
   - year: 1579

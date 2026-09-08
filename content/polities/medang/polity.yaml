@@ -48,6 +48,37 @@ ended:
   year: 1016
   source: coedes-1968
 
+# What followed. Kahuripan has no record here, and saying "nothing continues from
+# here" would be false: Airlangga spent twenty years rebuilding the kingdom out of
+# the wreckage of 1016, and then split it deliberately.
+# Who was there before. Sanna has no record here and is known from one sentence
+# in his nephew's inscription, which is the whole of what survives of Java's
+# politics between the fifth century and the eighth.
+preceded_by_external:
+  - name: Sanna
+    year: null
+    note: >-
+      Java produces almost no inscriptions between Purnawarman's in the west in
+      the fifth century and the Sanskrit stone Sanjaya set up in 732 at Canggal,
+      on the hill of Wukir south-east of where Borobudur would later stand. That
+      inscription records the erection of a linga on the island of Yava, "rich in
+      grain and gold mines" — and it identifies its author as Sanjaya, son of the
+      sister of a king named Sanna. Sanna is the whole of what is known about who
+      held central Java before the kingdom that built the temples.
+    source: coedes-1968
+
+succeeded_by_external:
+  - name: Kahuripan under Airlangga
+    year: 1019
+    note: >-
+      Airlangga was the king's son-in-law and sixteen years old when the court was
+      destroyed in 1016. He took refuge among hermits on Mount Vanagiri for four
+      years, was crowned in 1019 over a strip of the north coast, and spent from
+      1028 to 1035 reconquering the rest kingdom by kingdom. In 1042 he divided
+      what he had assembled between his two sons; the half that won the war
+      between them became Kediri.
+    source: coedes-1968
+
 institutions:
   military_basis: { values: [conscript], source: ricklefs-2008 }
   # Rice, taken through the sima system: land whose revenue was permanently
@@ -69,15 +100,13 @@ turning_points:
     type: battle
     name: Prambanan and Balaputra
     changed: >-
-      Rakai Pikatan consecrated the Shiva temple complex at Prambanan and, on the
-      reading of the Shivagrha inscription this site follows, defeated
-      Balaputradeva, the last Sailendra claimant in Java, who left.
+      Rakai Pikatan consecrated the Shiva temple complex at Prambanan and, on one
+      reading of the Shivagrha inscription, defeated Balaputradeva, the last
+      Sailendra claimant in Java, who left.
       Balaputra turns up a few years later on a copper plate from Nalanda in
       Bengal, endowing a monastery there as king of Suvarnadvipa — which is
-      Srivijaya. This corpus carries that record, and this is the one moment when
-      the Javanese and Sumatran halves of the archipelago touch in a person rather
-      than in a trade route — which is now a crossing between two regions on this
-      site rather than one inside a region.
+      Srivijaya. It is the one moment when the Javanese and Sumatran halves of the
+      archipelago touch in a person rather than in a trade route.
     source: coedes-1968
     contested: true
   - year: 929
