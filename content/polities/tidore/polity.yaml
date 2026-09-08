@@ -52,6 +52,21 @@ ended:
   year: 1805
   source: andaya-1993
 
+# What came after. Nuku recovered the sultanate in 1797 and held it until 1805;
+# what followed was Dutch colonial authority, and no polity in this collection.
+succeeded_by_external:
+  - name: the Netherlands
+    type: conquered by
+    year: 1805
+    note: >-
+      Tidore returned to Dutch authority after Nuku's death and was absorbed into
+      the Netherlands East Indies with the rest of Maluku. The sultanate
+      continued as a title. The eastern network that had kept it solvent — the
+      Raja Ampat and the Papuan coasts, held by titles and tribute voyages — was
+      inherited by the colonial state, and is the basis on which Indonesia
+      afterwards claimed western New Guinea.
+    source: andaya-1993
+
 institutions:
   # Kora-kora raised from dependent communities, the same instrument in the same
   # water as the Ternate record carries. It is the only field on which the two
@@ -87,7 +102,7 @@ turning_points:
       negotiated its own terms, and — because the company wanted a counterweight
       on the islands rather than a single dependent — got better ones.
       The dualism kept working after both its European halves were gone, which is
-      the strongest evidence in this corpus that it was never about Europeans.
+      the strongest evidence there is that it was never about Europeans.
     source: andaya-1993
     contested: false
   - year: 1797
@@ -98,10 +113,10 @@ turning_points:
       1780, with a fleet drawn from the Papuan coasts and the Raja Ampat and with
       British support when it suited both. In 1797 he took Tidore, and he held
       the sultanate as an independent power until he died in 1805.
-      Three records on this site expelled a European power and kept their capital
-      — the Ya'ariba at Muscat, Ethiopia at Adwa, and Ternate in 1575. This is a
-      fourth of a different kind: not an expulsion but a recovery, seventeen years
-      in the making, by a polity that had already been absorbed.
+      Expulsions of a European power that left the capital in local hands were
+      rare — Muscat in 1650, Adwa in 1896, Ternate in 1575. This is a different
+      shape again: not an expulsion but a recovery, seventeen years in the making,
+      by a sultanate that had already been absorbed.
     source: andaya-1993
     contested: false
 

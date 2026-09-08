@@ -747,17 +747,8 @@ content/polities/tahirid/04-the-books.mdx
 content/polities/tang/02-an-lushan.mdx
 content/polities/tang/04-salt.mdx
 content/polities/tang/05-what-was-copied.mdx
-content/polities/ternate/01-five-islands.mdx
-content/polities/ternate/02-the-dualism.mdx
-content/polities/ternate/03-hairun.mdx
-content/polities/ternate/04-no-edges.mdx
 content/polities/tibetan-empire/01-plateau.mdx
 content/polities/tibetan-empire/02-the-council.mdx
-content/polities/tidore/01-the-other-island.mdx
-content/polities/tidore/02-the-papuan-coast.mdx
-content/polities/tidore/03-1663.mdx
-content/polities/tidore/04-the-trees-again.mdx
-content/polities/tidore/05-nuku.mdx
 content/polities/timurid/01-amir-not-khan.mdx
 content/polities/timurid/02-the-campaigns.mdx
 content/polities/timurid/03-how-it-was-held.mdx

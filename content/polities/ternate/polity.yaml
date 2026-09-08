@@ -21,8 +21,8 @@ span:
 
 identity: >-
   One of the two courts of the north Moluccas, on an island of forty-odd square
-  kilometres that grew most of the world's cloves, and the only polity in this
-  corpus to expel a European power by siege and keep its capital.
+  kilometres that grew most of the world's cloves, which besieged a Portuguese
+  garrison for five years and put it off the island.
 
 capitals:
   - { name: Ternate, from: 1486, source: andaya-1993 }
@@ -52,6 +52,21 @@ ended:
   by: []
   year: 1683
   source: andaya-1993
+
+# What came after. The Dutch East India Company is not a polity in this
+# collection and never will be; a reader asking what became of Ternate is asking
+# about Maluku.
+succeeded_by_external:
+  - name: the Dutch East India Company
+    type: conquered by
+    year: 1683
+    note: >-
+      The treaty of 1683 left the sultan his title, his palace and his throne,
+      and took the polity. He kept them for another two hundred and thirty years
+      as an official of somebody else's empire, running the annual expeditions
+      that destroyed the clove crop on islands that owed him tribute, to the
+      company's schedule.
+    source: andaya-1993
 
 institutions:
   # Kora-kora — the long oared war craft of the north Moluccas — raised from
@@ -109,15 +124,14 @@ turning_points:
     changed: >-
       Hairun's son Baabullah besieged the Portuguese fort for five years and
       took its surrender. The garrison left the island.
-      Three records on this site threw a European power out and kept their own
-      capital: the Ya'ariba took Muscat from the Portuguese in 1650, the
-      Ethiopian record destroyed an Italian army at Adwa in 1896, and this one is
-      the earliest of the three by seventy-five years. Set against them, the
-      Kilwa record was sacked in 1505, the Melakan taken in 1511 and the Acehnese
+      Expelling a European power and keeping your own capital happened rarely:
+      the Ya'ariba took Muscat from the Portuguese in 1650 and Ethiopia destroyed
+      an Italian army at Adwa in 1896, and Ternate's siege is seventy-five years
+      earlier than either. Kilwa was sacked in 1505, Melaka taken in 1511, Aceh
       ground down over thirty years from 1873.
-      Ternate won, and lost anyway, to a different company a century later — which
-      is a statement about what the Dutch company was rather than about what
-      Ternate was not.
+      Ternate won, and lost anyway, to a different company a century later —
+      which says more about what the Dutch company was than about what Ternate
+      was not.
     source: andaya-1993
     contested: false
   - year: 1683
