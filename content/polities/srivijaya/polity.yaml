@@ -39,6 +39,25 @@ ended:
   year: 1275
   source: hall-2011
 
+# What Srivijaya was built on top of. Malayu has no record here, and a reader
+# asking what came before Srivijaya is asking about Sumatra rather than about
+# which pages exist. Year is null deliberately: Coedes gives the absorption as
+# "between 689 and 692", and picking one of those would be inventing a precision
+# the source does not offer.
+preceded_by_external:
+  - name: Malayu
+    type: absorbed remnants of
+    year: null
+    note: >-
+      Malayu, on the east coast of Sumatra and centred on Jambi, sent its first
+      embassy to the Chinese court in 644-45 and was the established power of the
+      region when Yijing stopped there in 671. Between 689 and 692 it was
+      absorbed by Srivijaya. The arrangement did not hold forever: after the
+      Chola raid the centre of the straits trade shifted back up the coast to
+      Jambi-Melayu, and it was Melayu, not Srivijaya, that the Javanese
+      expedition of 1275 was finally sent against.
+    source: coedes-1968
+
 institutions:
   # Crews, not soldiers. The orang laut — the sea peoples of the straits and the
   # river mouths — were the polity's navy, and the arrangement was that they

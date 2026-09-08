@@ -354,8 +354,23 @@ Run this over a polity that was drafted before these rules existed.
    between records rather than this polity's history. A comparison earns its
    place only when it explains the polity in front of the reader.
 
-5. **Succession.** If something real ended it or preceded it and has no record
-   here, name it with `succeeded_by_external` / `preceded_by_external`.
+5. **Succession, both directions.** "No earlier polity is recorded as leading
+   here" and "No later polity is recorded as continuing from here" are almost
+   always the wrong answer. Something preceded it and something followed it;
+   what is usually missing is a *record*, not a predecessor. Name them with
+   `preceded_by_external` and `succeeded_by_external` — a name, a type from the
+   edge vocabulary, a year where the source gives one, and a sourced sentence.
+
+   Leave the sentence standing only when the sources genuinely do not say what
+   came before or after. That is rare. As of this writing 75 polities show the
+   empty predecessor line, 61 the empty successor line, and 34 show both — for
+   which the entire Succession section is one apologetic sentence about the
+   collection.
+
+   Where the source gives a range rather than a date, `year` is null and the
+   range goes in the note. Srivijaya's predecessor is the worked example: Coedes
+   dates the absorption of Malayu to "between 689 and 692", so the year is null
+   and the note carries both figures.
 
 6. **Coverage — the one that needs sources, not editing.** Look for the century
    the chapters skip. Aceh ran 1496-1699 and jumped to 1873, losing the
