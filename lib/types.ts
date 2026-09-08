@@ -536,8 +536,16 @@ export const EDGE_VOICE: Record<EdgeType, 'active' | 'passive'> = {
 export interface ExternalNeighbour {
   /** Written as a reader would meet it: "the Dutch state", "Portugal". */
   name: string
-  /** The same closed vocabulary the edges use, so the sentence reads alike. */
-  type: EdgeType
+  /**
+   * The same closed vocabulary the edges use, so the sentence reads alike —
+   * and optional, because not every real relation is a succession. Perlak was
+   * the Muslim port on the north Sumatran coast before Samudera-Pasai was; it
+   * did not hand anything over, was not conquered, and was simply there first.
+   * Forcing one of eight succession types onto that would assert a relation
+   * nobody recorded, so where none fits the field is omitted and the note
+   * carries the relation in prose.
+   */
+  type?: EdgeType
   year: number | null
   /** What happened, in one or two sentences. */
   note: string

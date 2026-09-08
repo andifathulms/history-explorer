@@ -727,6 +727,23 @@ sources:
       Acehnese nationalism, and by Edward Aspinall on violence and identity
       under Indonesian rule. The source for what happened to Aceh after 1903.
 
+  - id: hill-1960
+    kind: article
+    author: A. H. Hill
+    title: "Hikayat Raja-Raja Pasai"
+    container: "Journal of the Malayan Branch of the Royal Asiatic Society"
+    volume: "33/2"
+    pages: "1-215"
+    year: 1960
+    url: https://archive.org/details/hikayat-raja-raja-pasai
+    note: >-
+      The Pasai chronicle in romanised Malay with an English translation and a
+      long introduction, scanned in full and readable at the URL. Hill sets out
+      the north Sumatran background from the Chinese records and Marco Polo,
+      argues against Snouck Hurgronje's dismissal of the text as a children's
+      tale, and traces the single surviving manuscript from a Javanese regent's
+      library in Demak to the Royal Asiatic Society in London.
+
   - id: imber-2002
     kind: book
     author: Colin Imber

@@ -50,8 +50,12 @@ function ExternalRow({ item, polity }: { item: ExternalNeighbour; polity: string
         <span className="font-mono text-[14px] tabular-nums text-debu-ink">
           {item.year == null ? '\u2014' : formatYear(item.year)}
         </span>
-        <span className="text-dawat/70">{polity}</span>
-        <span className="italic text-kashi">{item.type}</span>
+        {item.type ? (
+          <>
+            <span className="text-dawat/70">{polity}</span>
+            <span className="italic text-kashi">{item.type}</span>
+          </>
+        ) : null}
         <span className="font-semibold text-dawat/85">{item.name}</span>
         {item.contested ? (
           <span className="rounded-full border border-debu/50 px-2 py-0.5 font-mono text-micro uppercase text-debu-ink">

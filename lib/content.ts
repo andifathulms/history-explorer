@@ -304,7 +304,7 @@ export function loadCorpus(): Corpus {
         if (!x.note?.trim()) {
           throw new ContentError(xWhere, 'an outside party says in prose what happened')
         }
-        if (!EDGE_TYPES.includes(x.type)) {
+        if (x.type != null && !EDGE_TYPES.includes(x.type)) {
           throw new ContentError(
             xWhere,
             `type "${x.type}" is outside the closed vocabulary (${EDGE_TYPES.join(', ')})`,

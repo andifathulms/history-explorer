@@ -609,10 +609,6 @@ content/polities/parthian/02-taking-iran.mdx
 content/polities/parthian/04-carrhae.mdx
 content/polities/parthian/06-the-parthian-gap.mdx
 content/polities/parthian/07-224.mdx
-content/polities/pasai/01-where-the-chain-starts.mdx
-content/polities/pasai/02-a-fortnight-in-1345.mdx
-content/polities/pasai/03-the-gravestones.mdx
-content/polities/pasai/05-1524.mdx
 content/polities/patani/01-what-a-chronicle-argues.mdx
 content/polities/patani/02-the-cannon.mdx
 content/polities/patani/03-four-queens-and-a-correction.mdx
