@@ -106,19 +106,23 @@ turning_points:
   - year: 1568
     type: treaty
     name: Istanbul
-    # The rendered text says what happened. The coding argument that used to sit
-    # here — why an Ottoman gift of ordnance is not investiture, unlike the Ming
-    # reception of Melaka's founder — belongs in a comment, which is where it now
-    # is: Aceh asked for a relationship of authority and received guns, and guns
-    # are not a grant of authority, so `legitimation` carries no investiture value.
+    # `legitimation` carries no investiture value, and the reason is that the
+    # question is disputed rather than settled against it. Reid 1969b sets the
+    # Turkish, Acehnese and Portuguese accounts side by side: the Turkish one has
+    # Aceh submitting as a vassal and raising the Ottoman flag, but it is a late
+    # retelling, and Reid notes the reading of the mission as tribute rather than
+    # alliance may owe something to 1873, when Aceh had every reason to present
+    # itself as under Turkish protection. What is attested on all sides is the
+    # ordnance. A coded value would have to choose, and the chapter can say that
+    # the sources do not.
     changed: >-
       An Acehnese embassy sent to the Ottoman court some years earlier, asking
       for help against the Portuguese at Melaka, produced its result in this
       year: cannon arrived, with founders who could cast more and gunners who
       could work them. Acehnese artillery is attested in Portuguese accounts for
-      the rest of the century. It is the longest-range military alliance either
-      party ever attempted, between two states nine thousand kilometres apart
-      that never shared a frontier and never met again.
+      the rest of the century, and one of the guns still stood at the royal
+      enclosure three hundred years later. Whether Aceh also became an Ottoman
+      vassal in the process is disputed by the sources on all three sides.
     source: reid-2005
     contested: true
   - year: 1629

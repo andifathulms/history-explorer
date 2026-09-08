@@ -678,6 +678,41 @@ sources:
       long failure. Cited for the chapter on that period, which this site would
       otherwise have had to write in the vocabulary of decline by default.
 
+  - id: reid-1969
+    kind: monograph
+    author: Anthony Reid
+    title: "The Contest for North Sumatra: Atjeh, the Netherlands and Britain, 1858-1898"
+    publisher: Oxford University Press / University of Malaya Press
+    year: 1969
+    url: https://archive.org/details/anthony-john-stanhope-reid-1969-the-contest-for-north-sumatra-atjeh-the-netherla
+    note: >-
+      Scanned in full and readable at the URL. Its introduction carries the
+      eighteenth and early nineteenth centuries in Aceh — the decline of the
+      sultanate into a symbol, the rise of the uleebalang as hereditary
+      territorial chiefs, the pepper coast, Penang, and the Anglo-Dutch treaties
+      — which is the period the Acehnese chapters here previously jumped over.
+      Reid's own preface is candid about the evidence: no Atjehnese state records
+      have ever been found, so the Acehnese view survives directly only in a few
+      popular epics, and the account rests on British and Dutch documents.
+
+  - id: reid-1969b
+    kind: article
+    author: Anthony Reid
+    title: "Sixteenth Century Turkish Influence in Western Indonesia"
+    container: "Journal of Southeast Asian History"
+    volume: "10/3"
+    pages: "395-414"
+    year: 1969
+    url: https://archive.org/details/sixteenth-century-turkish-influence-in-western-indonesia
+    note: >-
+      Reid sets the Turkish, Acehnese and Portuguese accounts of the embassy
+      side by side and shows how far they disagree. His most useful observation
+      for this site is that the strongest version of the story — Aceh submitting
+      as a vassal — is a late Turkish retelling, and that the reading of the
+      mission as tribute rather than alliance "may owe something to the events
+      of 1873, when the Atjehnese attempted to portray their country as under
+      Turkish suzerainty."
+
   - id: imber-2002
     kind: book
     author: Colin Imber
