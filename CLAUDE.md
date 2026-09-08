@@ -331,9 +331,15 @@ Run this over a polity that was drafted before these rules existed.
 
 1. **Voice.** Five habits: schema field names in prose, "coding rule N", "this
    record", "this corpus"/"this site", and availability framing (hard rule 12).
-   `npm run check:voice` catches the first four in chapters only — read
-   `polity.yaml` yourself, because `identity` and `changed` render on the page
-   and the checker does not scan them.
+   `npm run check:voice` scans chapters only. Three other surfaces render on the
+   page and are not checked: `identity` and `changed` in `polity.yaml`, the
+   `note` on every edge in `edges.yaml`, and the strings in `components/`. Read
+   all three by hand.
+
+   Also check that the counts agree with the edges. A `claimed legitimacy of`
+   edge with a `successor_claims` count of `null` is the mismatch the coding
+   rules call a bug worth finding: null means nobody looked, and a sourced edge
+   proves somebody did. Items in those counts are display names, not ids.
 
 2. **Staleness and arithmetic.** Recompute every "N remaining years" and "N
    centuries later" against the span; Aceh had one out by 144 years. Re-check

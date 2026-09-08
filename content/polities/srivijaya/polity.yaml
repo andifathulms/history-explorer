@@ -46,13 +46,10 @@ institutions:
   # garrison a coastline; it binds the people who would otherwise be the
   # pirates, which is what the oath inscriptions in the fourth chapter are for.
   military_basis: { values: [client-levy], source: hall-2011 }
-  # Tolls and nothing else, and this record is one of eight in the corpus coded
-  # that way — with Palmyra, Characene, Derbend, the Nabataeans, the Zurayids of
-  # Aden, the Rustamids and Trebizond. The Characene record's chapter on the
-  # type argues that eight instances arrived one page at a time, by a rule that
-  # never asked the question, is a type rather than a coincidence. This is the
-  # largest of them by the volume of trade passing and it is the only one whose
-  # chokepoint was a strait rather than a road.
+  # Tolls and nothing else. Srivijaya belongs to the small class of polities that
+  # lived entirely on a chokepoint — Palmyra, Characene, Derbend, the Nabataeans
+  # and a few others — and it is the largest of them by the volume of trade
+  # passing, and the only one whose chokepoint was a strait rather than a road.
   revenue_basis: { values: [trade-toll], source: hall-2011 }
   succession_rule: null
   # `divine-sanction`, and the evidence is the curse. The Telaga Batu oath binds
@@ -68,15 +65,11 @@ turning_points:
     type: siege
     name: The Chola raid
     changed: >-
-      Rajendra I sent a fleet across the Bay of Bengal and attacked the ports of
-      the Melaka strait — the Chola inscription names something like fourteen of
-      them, Srivijaya's capital among them, and claims the king was taken. The
-      raid was not followed by occupation and the Cholas went home.
-      What it ended was the monopoly. Srivijaya's whole position rested on being
-      the only safe way through, and a power that could be raided across an ocean
-      was not that. The ports it had held together began dealing directly with
-      China and with India, and the record's next two centuries are a decline
-      with no single further event in them.
+      A Chola fleet crossed the Bay of Bengal, took the ports of the strait
+      including the capital, and went home without occupying anything. What it
+      destroyed was not the polity but the premise the polity sold: that this was
+      the one safe way through. Two centuries of decline follow, with no single
+      further event in them.
     source: kulke-2009
     contested: false
   - year: 1079
@@ -95,11 +88,10 @@ turning_points:
     type: battle
     name: Pamalayu
     changed: >-
-      Kertanegara of Singhasari on Java sent an expedition against Melayu — the
-      Pamalayu — and the Sumatran polity stops appearing in the records as an
-      independent power. This corpus's Majapahit record is the Javanese state
-      that followed Singhasari eighteen years later, and the shift of the
-      archipelago's centre of gravity from Sumatra to Java begins here.
+      Kertanegara of Singhasari sent the Pamalayu expedition across to Sumatra
+      against Melayu, and afterwards no Sumatran polity appears in the records as
+      an independent power. The centre of gravity of the archipelago moves to
+      Java and stays there for the next three hundred years.
     source: hall-2011
     contested: false
 
@@ -115,4 +107,11 @@ measures:
       count: 1
       items: [Mahayana Buddhism]
       source: hall-2011
-    successor_claims: { count: null, items: [], source: null }
+    # One, and it is Melaka. The Sejarah Melayu routes the Melakan dynasty back
+    # through Palembang to the kings of Srivijaya, and the edge in edges.yaml has
+    # carried that claim since it was written — while this count stayed null,
+    # which is the mismatch part one of the coding rules says is a bug worth
+    # finding. Null means nobody looked; a sourced edge proves somebody did.
+    # Contested, because the genealogy was composed a century and a quarter after
+    # the last Srivijayan ruler anyone can name, by a court writing in exile.
+    successor_claims: { count: 1, items: [Sultanate of Melaka], source: brown-1970 }
