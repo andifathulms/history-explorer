@@ -451,11 +451,6 @@ content/polities/nizari/05-the-legend.mdx
 content/polities/norman-sicily/01-a-crown-from-an-antipope.mdx
 content/polities/norman-sicily/02-three-chanceries.mdx
 content/polities/norman-sicily/03-1194.mdx
-content/polities/old-babylonian/01-one-amorite-kingdom-among-several.mdx
-content/polities/old-babylonian/02-twelve-years.mdx
-content/polities/old-babylonian/03-the-stele.mdx
-content/polities/old-babylonian/04-samsu-iluna.mdx
-content/polities/old-babylonian/05-1595.mdx
 content/polities/oman-imamate/01-elected-and-removable.mdx
 content/polities/oman-imamate/02-the-aflaj.mdx
 content/polities/oman-imamate/03-the-century.mdx
@@ -635,11 +630,6 @@ content/polities/trebizond/01-two-hundred-miles-of-coast.mdx
 content/polities/trebizond/02-the-city-and-the-road.mdx
 content/polities/trebizond/03-bessarion.mdx
 content/polities/trebizond/04-the-last-of-the-romans.mdx
-content/polities/ur-iii/01-after-the-gutians.mdx
-content/polities/ur-iii/02-a-hundred-thousand-receipts.mdx
-content/polities/ur-iii/03-the-king-becomes-a-god.mdx
-content/polities/ur-iii/04-the-grain.mdx
-content/polities/ur-iii/05-2004.mdx
 content/polities/urartu/01-a-state-built-against-assyria.mdx
 content/polities/urartu/02-the-eighth-campaign.mdx
 content/polities/uyghur-khaganate/01-manichaeans.mdx
