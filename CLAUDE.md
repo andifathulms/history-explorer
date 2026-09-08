@@ -324,6 +324,53 @@ join two of them. Do not add a region and its thread in the same pass.
 A backdrop entry in `reference-set.yaml` is not a stub. Promoting one to a full
 polity means opening a source and writing chapters like any other.
 
+## Auditing an existing polity
+
+Aceh is the worked example; `git log content/polities/aceh` is the record of it.
+Run this over a polity that was drafted before these rules existed.
+
+1. **Voice.** Five habits: schema field names in prose, "coding rule N", "this
+   record", "this corpus"/"this site", and availability framing (hard rule 12).
+   `npm run check:voice` catches the first four in chapters only — read
+   `polity.yaml` yourself, because `identity` and `changed` render on the page
+   and the checker does not scan them.
+
+2. **Staleness and arithmetic.** Recompute every "N remaining years" and "N
+   centuries later" against the span; Aceh had one out by 144 years. Re-check
+   any count of other records — region splits and new pages silently falsify
+   them. Reconcile dates given in prose against the turning points; Aceh had one
+   event carrying two different years on the same page.
+
+3. **Duplication.** A turning point's `changed` text should add something its
+   chapter does not say, not restate it.
+
+4. **Comparative filler.** Cut any passage whose subject is the relationship
+   between records rather than this polity's history. A comparison earns its
+   place only when it explains the polity in front of the reader.
+
+5. **Succession.** If something real ended it or preceded it and has no record
+   here, name it with `succeeded_by_external` / `preceded_by_external`.
+
+6. **Coverage — the one that needs sources, not editing.** Look for the century
+   the chapters skip. Aceh ran 1496-1699 and jumped to 1873, losing the
+   eighteenth century entirely, and the answer was in a Reid monograph scanned
+   in full on the Internet Archive.
+
+   Try the sources before concluding they are shut. Archive.org holds a great
+   many of the standard monographs in full; Iranica and other reference works
+   are open; journal articles are often deposited. Wikipedia is for *finding*
+   which work covers which decade, never for `drafted_from` — a chapter cites
+   something that was actually read.
+
+   **`afterlife` is the most commonly missing phase, and often the most
+   interesting.** What happened to the thing after it stopped being a state:
+   who claimed it, who invoked it, what survived. Aceh's runs from the abolition
+   of the sultanate through the destruction of the chiefs, the bargain with the
+   Indonesian republic and its collapse, a separatist movement led by the
+   great-grandson of the ulama who fought the Dutch, and a 2005 settlement whose
+   autonomy law gave the province the sultanate's own name back. None of that is
+   the polity, and all of it is what the polity became.
+
 ## Quality floor
 
 Responsive to mobile. Visible keyboard focus. `prefers-reduced-motion`
