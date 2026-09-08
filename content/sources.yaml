@@ -744,6 +744,24 @@ sources:
       tale, and traces the single surviving manuscript from a Javanese regent's
       library in Demak to the Royal Asiatic Society in London.
 
+  - id: st-john-1863
+    kind: primary
+    author: Spenser St John
+    title: "Life in the Forests of the Far East, or Travels in Northern Borneo"
+    edition: 2nd, revised
+    publisher: Smith, Elder and Co.
+    year: 1863
+    url: https://archive.org/details/in.ernet.dli.2015.31668
+    note: >-
+      St John was Britain's consul-general in Borneo and an ally of James Brooke,
+      and his twelfth chapter, "The Kingdom of Borneo Proper", is the fullest
+      contemporary description of the Brunei government there is. It is also a
+      brief. His account of Brunei's misrule was written while Britain and the
+      Brookes were acquiring the sultanate's territory, and it argues for exactly
+      the conclusion that acquisition needed. Read it for the detail — the offices
+      and their holders, the parishes and their trades, the numbers — and read
+      the judgements as an interested party's.
+
   - id: imber-2002
     kind: book
     author: Colin Imber
