@@ -311,10 +311,6 @@ content/polities/jalayirid/02-shaykh-uways.mdx
 content/polities/jalayirid/03-the-book.mdx
 content/polities/jalayirid/04-ahmad.mdx
 content/polities/jalayirid/05-basra.mdx
-content/polities/jerusalem/01-the-advocate.mdx
-content/polities/jerusalem/02-the-orders.mdx
-content/polities/jerusalem/03-1187.mdx
-content/polities/jerusalem/04-acre.mdx
 content/polities/jin/02-the-double-bind.mdx
 content/polities/jin/03-two-defeats.mdx
 content/polities/jin/04-the-settlers.mdx
@@ -674,9 +670,6 @@ content/polities/trebizond/01-two-hundred-miles-of-coast.mdx
 content/polities/trebizond/02-the-city-and-the-road.mdx
 content/polities/trebizond/03-bessarion.mdx
 content/polities/trebizond/04-the-last-of-the-romans.mdx
-content/polities/tripoli/01-a-county-before-a-city.mdx
-content/polities/tripoli/02-the-one-that-admitted-a-superior.mdx
-content/polities/tripoli/03-1289.mdx
 content/polities/uqaylid/01-mosul.mdx
 content/polities/uqaylid/02-the-khutba-of-1010.mdx
 content/polities/uqaylid/03-sharaf-al-dawla.mdx
