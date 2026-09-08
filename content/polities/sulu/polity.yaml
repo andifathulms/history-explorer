@@ -43,6 +43,33 @@ ended:
   year: 1915
   source: majul-1973
 
+# Both ends. The datu polity the sultanate was grafted onto, and the power that
+# took its sovereignty by document in 1915. Neither has a record here.
+preceded_by_external:
+  - name: the datus of the islands
+    year: null
+    note: >-
+      The sultanate's own tradition is candid that it was built on something.
+      Sayyid Abu Bakr arrived by way of Palembang and married the daughter of
+      the ruling datu, and it is the marriage that the polity dates itself from —
+      which concedes that the local house was there, was worth marrying into, and
+      had a court to marry into. Maimbung, where several of the last sultans
+      later held court, is supposed to have been the seat of the earliest
+      non-Islamic rulers of the islands.
+    source: majul-1973
+succeeded_by_external:
+  - name: the United States
+    type: conquered by
+    year: 1915
+    note: >-
+      Sovereignty passed by the Carpenter Agreement rather than by a campaign:
+      the sultan renounced temporal power and kept the religious headship of the
+      Muslims of Sulu, which his successors hold. The sultanate had already
+      instructed its people not to fight the Americans in 1899, and its scholars
+      afterwards reasoned their way to the position that the categories of the
+      old wars no longer applied.
+    source: majul-1973
+
 institutions:
   # The raiding fleets of the Iranun and the Balangingi, who were clients and
   # allies of the sultanate rather than its subjects and who kept most of what

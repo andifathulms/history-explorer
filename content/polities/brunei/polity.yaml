@@ -48,6 +48,35 @@ ended:
   year: 1888
   source: saunders-1994
 
+# Both ends, named because they existed. Boni is Brunei's own earlier self as the
+# Chinese records knew it; the three grants are what became of the sultanate's
+# territory. Neither has a record here and neither needs one for a reader to be
+# told about it.
+preceded_by_external:
+  - name: Boni
+    year: null
+    note: >-
+      The polity Chinese records name on this coast from the tenth century,
+      sending missions long before the sultanate's own genealogies begin. A ruler
+      of Boni went to Nanjing in 1408 with his family, was received by the Yongle
+      emperor, fell ill and died there, and was buried outside the city with
+      imperial honours. Whether Boni's line and the sultanate's are the same
+      sequence of people cannot be established: the genealogies compress,
+      rearrange and Islamise the early rulers, and the two bodies of evidence do
+      not line up name by name.
+    source: saunders-1994
+succeeded_by_external:
+  - name: the Brooke Raj, the North Borneo Company and the British protectorate
+    year: 1888
+    note: >-
+      Sarawak was granted to James Brooke in 1841 and ruled by his family as a
+      private kingdom until 1946; North Borneo went to a chartered company in
+      1881; the protectorate treaty of 1888 covered the strip of coast left
+      between them. Every one of those transfers was a legal act performed by
+      the sultan. Nobody conquered Brunei — it was signed away in pieces, under
+      pressure, by the people who held it.
+    source: saunders-1994
+
 institutions:
   # Fleets raised from the coastal peoples of Borneo and the islands. Nine of
   # the archipelago's twenty-two records are coded that way — Srivijaya, Melaka and

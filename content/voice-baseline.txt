@@ -123,11 +123,6 @@ content/polities/bavandid/01-the-mountains-nobody-wanted.mdx
 content/polities/bavandid/02-three-lines.mdx
 content/polities/bavandid/03-shah-ghazi.mdx
 content/polities/bavandid/04-the-local-history.mdx
-content/polities/brunei/01-boni.mdx
-content/polities/brunei/02-what-pigafetta-counted.mdx
-content/polities/brunei/03-what-a-claim-over-borneo-was.mdx
-content/polities/brunei/04-the-wazirs.mdx
-content/polities/brunei/05-given-away.mdx
 content/polities/burid/01-the-atabeg.mdx
 content/polities/burid/02-tribute.mdx
 content/polities/burid/03-1129.mdx
@@ -739,11 +734,6 @@ content/polities/sulayhid/02-mecca.mdx
 content/polities/sulayhid/03-arwa.mdx
 content/polities/sulayhid/04-the-hujja.mdx
 content/polities/sulayhid/05-tayyibi.mdx
-content/polities/sulu/01-a-sarip-and-the-datus.mdx
-content/polities/sulu/02-the-sulu-zone.mdx
-content/polities/sulu/03-baptised-at-manila.mdx
-content/polities/sulu/04-a-word-in-a-contract.mdx
-content/polities/sulu/05-1915.mdx
 content/polities/sunda/01-the-kingdom-that-lasted-longest.mdx
 content/polities/sunda/02-the-oldest-writing-on-java.mdx
 content/polities/sunda/04-two-bad-bargains.mdx
