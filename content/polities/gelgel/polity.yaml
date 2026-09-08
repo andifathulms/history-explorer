@@ -43,6 +43,31 @@ ended:
   year: 1686
   source: hagerdal-2001
 
+# What came next on Bali. Nine kingdoms, of which Klungkung held the paramount
+# title in descent from this line; and behind them, two centuries later, the
+# Dutch. Neither is an edge — the nine were not one successor and the Dutch
+# conquest is not this kingdom's event — but a reader asking what followed
+# Gelgel is asking about Bali, and this is the answer.
+succeeded_by_external:
+  - name: the nine Balinese kingdoms
+    year: 1686
+    note: >-
+      Klungkung, Karangasem, Buleleng, Badung, Tabanan, Mengwi, Gianyar,
+      Bangli and Jembrana. Klungkung's Dewa Agung kept the paramount title and
+      the descent from Gelgel; the other eight acknowledged the precedence when
+      it suited them and fought each other for the rest of the period.
+    source: hagerdal-2001
+  - name: the Netherlands
+    type: conquered by
+    year: 1908
+    note: >-
+      The Dutch took northern Bali in the 1840s and the south between 1906 and
+      1908. At Badung, at Tabanan and finally at Klungkung the courts answered
+      with puputan — walking out of the palace armed and in white, into rifle
+      fire, until nobody was left. The Dewa Agung died that way in 1908, and the
+      island was governed from Batavia afterwards.
+    source: hagerdal-2001
+
 institutions:
   military_basis: { values: [conscript], source: hagerdal-2001 }
   # Rice, and on Bali that is a more specific statement than it is anywhere else
@@ -59,11 +84,10 @@ turning_points:
     name: What arrived from Java
     changed: >-
       As Majapahit ended, priests, court literature, dance, and families of the
-      Javanese aristocracy crossed to Bali. This corpus's Majapahit record's last
-      chapter describes it from the other side and calls it the part that did not
-      end — Old Javanese metres still being copied in the nineteenth century, the
-      gamelan and wayang continuing, and the Majapahit connection claimed in
-      Balinese genealogies.
+      Javanese aristocracy crossed to Bali. Seen from Java it is the part of
+      Majapahit that did not end: Old Javanese metres were still being copied on
+      Bali in the nineteenth century, the gamelan and wayang continued, and
+      Balinese genealogies went on claiming the Majapahit connection.
       Typed `catastrophe` because the vocabulary has no value for an inheritance,
       and because from the point of view of the thing being inherited that is
       what it was.

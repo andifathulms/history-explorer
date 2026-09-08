@@ -38,9 +38,7 @@ scripts_and_languages:
 # man who won was Jaka Tingkir, who moved the court inland to Pajang and claimed
 # descent from both this dynasty and Majapahit's.
 #
-# `by` is empty because Pajang has no page here. It is the second empty `by` in
-# in the archipelago caused by a Javanese successor rather than a European one,
-# and the only one this site could close with a single page.
+# Pajang is named in `by`, and the edge demak -> pajang carries the same event.
 ended:
   type: dynastic replacement
   by: [pajang]
@@ -75,12 +73,10 @@ turning_points:
     name: Melaka
     changed: >-
       Demak sent a fleet against the Portuguese at Melaka, under Pati Unus, and
-      it failed. It is one of the few occasions in this corpus of an archipelago
-      polity attacking a European position rather than being attacked from one,
-      and it is worth setting beside this corpus's Ternate record, where the same
-      thing was attempted eventually with a five-year siege and succeeded.
-      The difference is that Ternate was besieging a fort on its own island and
-      Demak was crossing eight hundred miles of sea.
+      it failed. Archipelago rulers rarely attacked a European position rather
+      than being attacked from one; Ternate managed it eventually, with a
+      five-year siege of a fort on its own island. Demak was crossing eight
+      hundred miles of sea to do the same thing.
     source: ricklefs-2008
     contested: false
   - year: 1527
@@ -108,8 +104,8 @@ turning_points:
       Trenggana was killed on campaign against Panarukan in east Java. In eight
       years the sultanate that had taken the island went through three rulers,
       two murders and a civil war, and ended.
-      It is the shortest interval on this site between a polity's peak ruler and
-      its last one.
+      Eight years is a short distance between a state's greatest ruler and its
+      last one.
     source: ricklefs-2008
     contested: false
 

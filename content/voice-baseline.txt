@@ -114,11 +114,6 @@ content/polities/bagratid-armenia/01-a-crown-from-baghdad.mdx
 content/polities/bagratid-armenia/02-ani.mdx
 content/polities/bagratid-armenia/04-the-bequest.mdx
 content/polities/bagratid-armenia/05-what-went-to-cilicia.mdx
-content/polities/banten/01-the-port-that-is-jakarta.mdx
-content/polities/banten/02-1638.mdx
-content/polities/banten/03-ageng.mdx
-content/polities/banten/04-the-chinese-of-banten.mdx
-content/polities/banten/05-father-and-son.mdx
 content/polities/bavandid/01-the-mountains-nobody-wanted.mdx
 content/polities/bavandid/02-three-lines.mdx
 content/polities/bavandid/03-shah-ghazi.mdx
@@ -188,11 +183,6 @@ content/polities/danishmendid/03-the-coins.mdx
 content/polities/danishmendid/04-taken-in-pieces.mdx
 content/polities/delhi-sultanate/01-slave-kings.mdx
 content/polities/delhi-sultanate/02-mongol-frontier.mdx
-content/polities/demak/01-the-coast-takes-the-interior.mdx
-content/polities/demak/02-1513.mdx
-content/polities/demak/03-the-mosque.mdx
-content/polities/demak/04-pati-unus.mdx
-content/polities/demak/05-1546.mdx
 content/polities/derbend/01-the-gate.mdx
 content/polities/derbend/02-the-city-and-the-emir.mdx
 content/polities/derbend/04-1077.mdx
@@ -237,10 +227,6 @@ content/polities/first-bulgarian/05-simeon.mdx
 content/polities/first-bulgarian/06-the-bogomils.mdx
 content/polities/first-bulgarian/07-samuel.mdx
 content/polities/first-bulgarian/08-1018.mdx
-content/polities/gelgel/01-what-crossed-the-strait.mdx
-content/polities/gelgel/02-waturenggong.mdx
-content/polities/gelgel/03-the-subak.mdx
-content/polities/gelgel/04-nine-kingdoms.mdx
 content/polities/genoa/01-the-other-one.mdx
 content/polities/genoa/02-the-companies.mdx
 content/polities/genoa/03-chioggia.mdx

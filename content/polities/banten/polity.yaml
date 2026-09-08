@@ -47,6 +47,20 @@ ended:
   year: 1684
   source: ricklefs-2008
 
+# What came next in western Java. The company is not a polity of the kind this
+# collection carries, but it is the honest answer to what followed Banten, and
+# the sultanate's survival as a title until 1813 belongs with it.
+succeeded_by_external:
+  - name: the Dutch East India Company
+    year: 1684
+    note: >-
+      The 1684 treaty gave the company the pepper monopoly and excluded every
+      other European from the port. Sultan Haji and his successors reigned at
+      Banten for another century and a quarter under it, until Daendels and then
+      Raffles dismantled the office; the sultanate was abolished in 1813 and
+      western Java administered from Batavia.
+    source: ricklefs-2008
+
 institutions:
   military_basis: { values: [conscript], source: ricklefs-2008 }
   # Pepper, taxed at the port and held as a crown monopoly over the Lampung
@@ -71,9 +85,9 @@ turning_points:
     type: siege
     name: Sunda Kelapa
     changed: >-
-      A Demak expedition took Banten and then took Sunda Kelapa, the port this
-      corpus's Sunda record had promised the Portuguese five years earlier, and
-      renamed it Jayakarta.
+      A Demak expedition took Banten and then took Sunda Kelapa, the port the
+      Sundanese king had promised the Portuguese five years earlier, and renamed
+      it Jayakarta.
       The Dutch company took that port in 1619, renamed it Batavia, and made it
       the capital of everything it did in Asia. The name it has now is the one
       given here in 1527.
@@ -86,8 +100,8 @@ turning_points:
       Abu'l Mafakhir's embassy returned from the Hijaz with the title of sultan,
       granted by the Sharif of Mecca — the first Javanese ruler to hold it that
       way, three years before Sultan Agung of Mataram obtained the same thing.
-      Both records on this site carry `investiture` for it, and this corpus
-      carries the Sharifate of Mecca, so both ends of both transactions are here.
+      The Sharifs of Mecca had little revenue and a great deal of prestige, and
+      they lived partly off granting exactly this.
     source: ricklefs-2008
     contested: false
   - year: 1682
@@ -100,10 +114,8 @@ turning_points:
       besieged his father in the interior, captured him, and signed a treaty in
       1684 giving the company the pepper monopoly and the exclusion of every
       other European.
-      Two records in the archipelago were ended by a ruler's own family taking the
-      other side. This one, and this corpus's Johor record, where the nobles
-      killed the sultan. What is unusual here is that the man who did it is this
-      record's `last` ruler.
+      Banten was not conquered. It was ended by its own heir, and the man who
+      did it went on to reign over what was left.
     source: ricklefs-2008
     contested: false
 
