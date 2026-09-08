@@ -67,10 +67,6 @@ content/polities/angkor/05-1431.mdx
 content/polities/antigonid/01-the-country-he-started-from.mdx
 content/polities/antigonid/02-the-phalanx-and-the-legion.mdx
 content/polities/antigonid/03-not-claiming-alexander.mdx
-content/polities/artuqid/01-the-jazira-in-three-pieces.mdx
-content/polities/artuqid/02-the-bridge.mdx
-content/polities/artuqid/03-two-hundred-and-seventy-five-years-of-somebody-elses.mdx
-content/polities/artuqid/04-the-book-of-machines.mdx
 content/polities/asante/01-a-stool-from-the-sky.mdx
 content/polities/asante/02-kumasi.mdx
 content/polities/asante/03-the-great-roads.mdx
@@ -401,8 +397,6 @@ content/polities/ming/02-the-wall-and-the-silver.mdx
 content/polities/ming/03-a-million-soldiers.mdx
 content/polities/ming/04-tumu.mdx
 content/polities/ming/05-the-silver-and-the-hill.mdx
-content/polities/mirdasid/04-the-ahdath.mdx
-content/polities/mirdasid/06-handed-over.mdx
 content/polities/mitanni/01-the-hurrians.mdx
 content/polities/mitanni/02-the-empire.mdx
 content/polities/mitanni/03-my-brother.mdx
