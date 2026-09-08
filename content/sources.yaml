@@ -2840,3 +2840,32 @@ sources:
       household of one of the caliphs he describes and whose father drafted their
       documents. It is the only history of the caliphate written from inside the
       Cairo Abbasid establishment, and it quotes the paperwork. Out of copyright.
+
+  - id: alexiad-dawes
+    kind: book
+    author: Anna Komnene
+    title: The Alexiad
+    translator: Elizabeth A. S. Dawes
+    publisher: Routledge, Kegan Paul
+    year: 1928
+    note: >-
+      The emperor Alexios I's daughter writing about her father's reign, hostile
+      to the Normans throughout and open about it. Its unique value for the
+      crusader states is documentary: Anna transcribes the treaty of Devol of
+      1108 at length, apparently from the chancery text, so Bohemond's
+      submission survives in the words he agreed to. Dawes' translation is out
+      of copyright.
+
+  - id: ibn-al-qalanisi
+    kind: book
+    author: Ibn al-Qalanisi
+    title: "The Damascus Chronicle of the Crusades"
+    translator: H. A. R. Gibb
+    publisher: Luzac
+    year: 1932
+    note: >-
+      A Damascene administrator's year-by-year chronicle, contemporary with
+      everything it describes down to 1160, and the closest thing to a
+      newspaper record of the crusading century from the Syrian side. Gibb
+      translates the portion covering the crusades and annotates the
+      identifications. Out of copyright.
