@@ -397,16 +397,6 @@ content/polities/nejd/01-riyadh.mdx
 content/polities/nejd/02-faysal.mdx
 content/polities/nejd/03-the-war-of-the-brothers.mdx
 content/polities/nejd/04-kuwait.mdx
-content/polities/neo-babylonian/01-son-of-a-nobody.mdx
-content/polities/neo-babylonian/02-carchemish.mdx
-content/polities/neo-babylonian/03-jerusalem.mdx
-content/polities/neo-babylonian/04-what-a-tablet-can-tell-you.mdx
-content/polities/neo-babylonian/05-the-king-who-went-to-arabia.mdx
-content/polities/neo-babylonian/06-539.mdx
-content/polities/neo-babylonian/07-the-chronicles.mdx
-content/polities/neo-elamite/01-the-other-side-of-the-relief.mdx
-content/polities/neo-elamite/02-til-tuba.mdx
-content/polities/neo-elamite/03-646.mdx
 content/polities/nicaea/01-a-government-in-exile-that-worked.mdx
 content/polities/nicaea/02-three-claimants.mdx
 content/polities/nicaea/04-the-church-in-exile.mdx
@@ -597,8 +587,6 @@ content/polities/trebizond/01-two-hundred-miles-of-coast.mdx
 content/polities/trebizond/02-the-city-and-the-road.mdx
 content/polities/trebizond/03-bessarion.mdx
 content/polities/trebizond/04-the-last-of-the-romans.mdx
-content/polities/urartu/01-a-state-built-against-assyria.mdx
-content/polities/urartu/02-the-eighth-campaign.mdx
 content/polities/uyghur-khaganate/01-manichaeans.mdx
 content/polities/uyghur-khaganate/02-what-they-left.mdx
 content/polities/vandal/01-the-grain.mdx

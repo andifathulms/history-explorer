@@ -3010,3 +3010,17 @@ sources:
       for Ashurbanipal's account of the sack of Susa, which is one of the most
       detailed descriptions of a deliberate obliteration written by the person
       who ordered it. Out of copyright.
+
+  - id: herodotus-macaulay
+    kind: book
+    author: Herodotus
+    title: The History of Herodotus
+    translator: G. C. Macaulay
+    publisher: Macmillan
+    year: 1890
+    note: >-
+      Written about a century after Babylon became a Persian province, by a
+      Greek who reports what he was told there. It is not a source for what the
+      Neo-Babylonian empire was; it is the best surviving source for what people
+      in the fifth century believed about it, which is a different and equally
+      useful thing. Out of copyright.

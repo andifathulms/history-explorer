@@ -76,14 +76,12 @@ turning_points:
     type: siege
     name: Nineveh
     changed: >-
-      The same siege the Assyrian record on this site carries as the end of its
-      empire, entered here as the beginning of one. Nabopolassar had spent
+      The same siege that ended the Assyrian empire began this one.
+      Nabopolassar had spent
       fourteen years fighting for Babylonia alone; the alliance with Cyaxares
       turned a provincial revolt into the succession to the Assyrian empire, and
       within seven years Babylon held everything Assyria had held west of the
-      Euphrates. Three records on this site carry the fall of Nineveh — this
-      one, the Assyrian, and the Median — and -612 is the earliest year in the
-      corpus that appears on three.
+      Euphrates.
     source: beaulieu-2018
     contested: false
   - year: -605
