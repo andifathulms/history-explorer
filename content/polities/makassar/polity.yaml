@@ -45,14 +45,41 @@ scripts_and_languages:
 # signed. `by` is empty because neither the company nor Bone has a page here.
 #
 # Andaya's book is written around Arung Palakka, and its argument is that the
-# fall of Makassar was a South Sulawesi war that the company joined rather than a
-# colonial conquest that Sulawesi was subjected to. The empty field is unable to
-# say either version.
+# fall of Makassar was a South Sulawesi war the company joined rather than a
+# colonial conquest Sulawesi suffered. `succeeded_by_external` names both.
 ended:
   type: conquest
   by: []
   year: 1669
   source: andaya-1981
+
+# Both ends. Neither the power Gowa displaced nor the two that destroyed it has a
+# record here, and a reader asking what came before and after is asking about
+# Sulawesi rather than about which pages exist.
+preceded_by_external:
+  - name: Siang
+    year: null
+    note: >-
+      The dominant kingdom of the west coast between roughly the fourteenth and
+      sixteenth centuries, which Gowa and Tallo both once acknowledged as their
+      superior. A Portuguese visitor in 1544 found Gowa "a large city which had
+      once been a vassal of Siang, but not any longer", and an alliance of the
+      two Makassar kingdoms broke Siang late in the same century. It left a
+      mention on a Portuguese map, a few travellers' remarks, some archaeology,
+      and a local tradition that still remembers having been the senior party.
+    source: andaya-1981
+succeeded_by_external:
+  - name: Bone under Arung Palakka, with the Dutch East India Company
+    type: conquered by
+    year: 1669
+    note: >-
+      Arung Palakka, a Bugis prince of Bone whose people Gowa had conquered and
+      set to forced labour, took the internal overlordship of South Sulawesi; the
+      Company took the external affairs and the fort. He ruled the peninsula
+      unchallenged until his death in 1696, and his successor La Patau after him.
+      Gowa kept its sultans and its court, and stopped being able to raise an
+      army.
+    source: andaya-1981
 
 institutions:
   military_basis: { values: [conscript], source: andaya-1981 }
@@ -77,9 +104,9 @@ turning_points:
       followed. In the six years after, Makassar fought the neighbouring Bugis
       kingdoms — Bone, Soppeng, Wajo — into accepting Islam as well, in a
       sequence the local chronicles call the Islamic wars.
-      It is the last major conversion in the archipelago and the only one carried
-      out primarily by campaign. Pasai's spread by marriage, Melaka's by
-      trade, Demak's by a mixture. This one was an army.
+      It is the last major conversion in the archipelago and the only one
+      carried out primarily by campaign. Islam had reached Pasai by trade and
+      Melaka by marriage; here it arrived with an army.
     source: reid-1988
     contested: false
   - year: 1667
@@ -102,30 +129,25 @@ turning_points:
       rather than breached. What ended with it was the last port in the
       archipelago where a trader could buy cloves and nutmeg without the Dutch
       company's permission.
-      The Makasar and Bugis who would not accept the settlement left, in numbers,
-      and spent the following century as mercenaries, traders and freebooters
-      from Siam to the Java Sea. This corpus's Johor record's ending is downstream
-      of that: the Bugis who took power at Riau after 1699 came out of this
-      diaspora.
+      The Makasar and Bugis who would not accept the settlement left, in
+      numbers, and spent the following century as mercenaries, traders and
+      freebooters from Siam to the Java Sea. The Bugis who took power at Riau
+      after 1699, behind Johor's throne, came out of that diaspora.
     source: andaya-1981
     contested: false
 
 measures:
   reach_km2: null
   peak_population: null
-  # Zero. The Lontara script of the Makasar and Bugis descends from a Brahmic
-  # parent with no page here, which is the ninth time on this site an adaptation
-  # has gone to a record that does not exist — after Jawi at Melaka and Pasai,
-  # Swahili's letters at Kilwa, the Burmese script at Pagan, the Cham script,
-  # Pegon at Demak, and Kawi at Kediri and Medang.
+  # Zero. Lontara, the script of the Makasar and Bugis, descends from a Brahmic
+  # parent; the count belongs to that parent rather than here.
   influence:
     descendant_scripts: { count: 0, items: [], source: reid-1988 }
     # One. Makassar carried Islam through South Sulawesi by campaign between 1608
-    # and 1611 and then east into the Lesser Sundas along its trade routes.
-    # Coding rule 2 counts propagation past a prior boundary and this is the
-    # least ambiguous instance of it anywhere in the archipelago, because in this
-    # case somebody was keeping a record of which kingdoms had accepted and which
-    # had not.
+    # and 1611 and then east into the Lesser Sundas along its trade routes. Rule
+    # 2 counts propagation past a prior boundary, and this is the least ambiguous
+    # instance of it in the archipelago, because somebody was keeping a list of
+    # which kingdoms had accepted and which had not.
     religions_carried:
       count: 1
       items: [Sunni Islam]

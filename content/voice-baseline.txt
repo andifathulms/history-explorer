@@ -441,10 +441,6 @@ content/polities/majapahit/02-rice-and-sea.mdx
 content/polities/majapahit/03-the-archipelago.mdx
 content/polities/majapahit/04-the-poem.mdx
 content/polities/majapahit/05-the-paregreg.mdx
-content/polities/makassar/01-the-open-port.mdx
-content/polities/makassar/02-a-telescope.mdx
-content/polities/makassar/04-the-fortresses.mdx
-content/polities/makassar/05-1669.mdx
 content/polities/makuria/01-the-pupil-smiters.mdx
 content/polities/makuria/02-a-monetised-economy.mdx
 content/polities/makuria/03-the-fourth-case.mdx
