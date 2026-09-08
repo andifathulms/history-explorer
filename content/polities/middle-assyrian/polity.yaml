@@ -80,10 +80,9 @@ turning_points:
     changed: >-
       Adad-nirari I and then Shalmaneser I took what Suppiluliuma had left of
       Mitanni and converted it into Assyrian provinces with Assyrian governors.
-      It is the event this corpus's Mitanni record has as its ending and could
-      not attribute, because the conquerors had no page here. They do now. It
-      also put Assyria on the Euphrates facing Hatti, which is the strategic
-      fact the Hittite record's fifth chapter says the treaty with Egypt was
+      It is the end of Mitanni as a state of any kind. It also put Assyria on
+      the Euphrates facing Hatti, which is the strategic fact the treaty with
+      Egypt was
       concluded in order to face.
     source: frahm-2023
     contested: false
@@ -107,9 +106,9 @@ turning_points:
       Tukulti-Ninurta took Babylon, deported its king in chains and carried the
       statue of Marduk to Ashur. It is the first time Assyria held Babylonia and
       it lasted about seven years. Four and a half centuries later Sennacherib
-      would sack the same city with far worse consequences for his own dynasty;
-      this corpus carries that as a turning point too, and the relationship
-      between the two states that it poisoned begins here.
+      would sack the same city with far worse consequences for his own
+      dynasty. The relationship between the two states that he poisoned begins
+      here.
     source: frahm-2023
     contested: false
   - year: -1207
@@ -119,9 +118,8 @@ turning_points:
       Tukulti-Ninurta was killed by his own son in Kar-Tukulti-Ninurta and the
       empire he had built came apart within a decade — Babylonia lost, the west
       lost, the new capital abandoned. Assyria did not reach the same extent
-      again for a hundred years. The `succession_rule` on this record reads
-      `nomination`, and this is what the field looks like when the rule holds
-      and the outcome is a patricide.
+      again for a hundred years. Assyria had a clear rule for the succession,
+      and it did not prevent a king from being killed by his son.
     source: frahm-2023
     contested: false
 

@@ -2984,3 +2984,29 @@ sources:
       The narrative companion to Breasted's Ancient Records, quoting the
       documents at length in his own translations. Cited here for the Report of
       Wenamun, which he prints nearly in full. Out of copyright.
+
+  - id: layard-1849
+    kind: book
+    author: Austen Henry Layard
+    title: "Nineveh and its Remains"
+    publisher: John Murray
+    year: 1849
+    note: >-
+      The account of the excavations at Nimrud and Nineveh by the man who dug
+      them, written for a general audience and enormously popular in its day. It
+      is a period piece about the Ottoman provinces as much as an archaeological
+      report, and its value here is that it records what the Assyrian capitals
+      looked like before anybody knew what they were. Out of copyright.
+
+  - id: luckenbill-1927
+    kind: book
+    author: Daniel David Luckenbill
+    title: "Ancient Records of Assyria and Babylonia, Volume II"
+    publisher: University of Chicago Press
+    year: 1927
+    note: >-
+      The Assyrian royal inscriptions in translation, arranged by reign, with
+      the formulaic passages given in full rather than summarised. Cited here
+      for Ashurbanipal's account of the sack of Susa, which is one of the most
+      detailed descriptions of a deliberate obliteration written by the person
+      who ordered it. Out of copyright.
