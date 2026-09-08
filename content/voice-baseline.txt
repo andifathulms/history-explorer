@@ -14,12 +14,6 @@ content/polities/abbasid-cairo/01-a-caliph-for-cairo.mdx
 content/polities/abbasid-cairo/02-what-an-empty-office-was-for.mdx
 content/polities/abbasid-cairo/03-what-an-investiture-was.mdx
 content/polities/abbasid-cairo/04-1517.mdx
-content/polities/abbasid/01-revolution.mdx
-content/polities/abbasid/03-the-translation-movement.mdx
-content/polities/abbasid/04-the-mihna.mdx
-content/polities/abbasid/06-the-caliph-they-kept.mdx
-content/polities/abbasid/07-al-nasir.mdx
-content/polities/abbasid/08-baghdad-1258.mdx
 content/polities/achaemenid/01-cyrus.mdx
 content/polities/achaemenid/02-satrapies.mdx
 content/polities/achaemenid/03-the-tablets.mdx
@@ -784,9 +778,6 @@ content/polities/ziyarid/02-a-client-among-clients.mdx
 content/polities/ziyarid/02-vushmgir-between-two-powers.mdx
 content/polities/ziyarid/04-a-tower-and-a-book.mdx
 content/polities/ziyarid/05-what-the-caspian-kept.mdx
-content/polities/zubayrid/02-governing-from-a-sanctuary.mdx
-content/polities/zubayrid/03-the-kaaba-twice.mdx
-content/polities/zubayrid/04-the-loser.mdx
 content/polities/zurayid/01-the-farm-that-kept-itself.mdx
 content/polities/zurayid/02-the-customs-house.mdx
 content/polities/zurayid/03-hafizi.mdx
