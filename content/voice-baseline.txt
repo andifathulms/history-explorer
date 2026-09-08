@@ -31,11 +31,6 @@ content/polities/aghlabid/01-a-province-for-rent.mdx
 content/polities/aghlabid/02-kairouan.mdx
 content/polities/aghlabid/03-sicily.mdx
 content/polities/aghlabid/04-909.mdx
-content/polities/akkadian/01-sargon.mdx
-content/polities/akkadian/02-the-first-conventionally.mdx
-content/polities/akkadian/03-naram-sin.mdx
-content/polities/akkadian/04-a-capital-nobody-can-find.mdx
-content/polities/akkadian/05-the-curse.mdx
 content/polities/akkoyunlu/01-bayandur.mdx
 content/polities/akkoyunlu/03-the-chancery.mdx
 content/polities/akkoyunlu/04-the-western-embassy.mdx
@@ -161,10 +156,6 @@ content/polities/egypt-new-kingdom/03-how-egypt-was-run.mdx
 content/polities/egypt-new-kingdom/04-amarna.mdx
 content/polities/egypt-new-kingdom/05-kadesh.mdx
 content/polities/egypt-new-kingdom/06-the-collapse.mdx
-content/polities/egypt-old-kingdom/01-the-first-stone.mdx
-content/polities/egypt-old-kingdom/02-giza.mdx
-content/polities/egypt-old-kingdom/03-the-provinces-become-hereditary.mdx
-content/polities/egypt-old-kingdom/04-the-drought-argument.mdx
 content/polities/elymais/01-elam-again.mdx
 content/polities/elymais/02-the-temples.mdx
 content/polities/elymais/03-what-survives.mdx
