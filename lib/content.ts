@@ -28,6 +28,7 @@ import {
   SUCCESSION_RULES,
   LEGITIMATIONS,
   type Chapter,
+  type ExternalNeighbour,
   type Edge,
   type Polity,
   type ReferencePolity,
@@ -283,6 +284,46 @@ export function loadCorpus(): Corpus {
       }
       if (new Set(coded.values).size !== coded.values.length) {
         throw new ContentError(iWhere, 'the same value is coded twice')
+      }
+    }
+
+    // Predecessors and successors with no record here. Named in prose so the
+    // succession section can say what actually happened rather than what the
+    // collection happens to contain. Not edges: they join nothing, are drawn by
+    // no thread, and are counted nowhere.
+    for (const key of ['preceded_by_external', 'succeeded_by_external'] as const) {
+      const list = p[key]
+      if (list === undefined || list === null) {
+        p[key] = []
+        continue
+      }
+      if (!Array.isArray(list)) throw new ContentError(where, `${key} must be a list`)
+      for (const x of list as ExternalNeighbour[]) {
+        const xWhere = `${where}/${key} "${x?.name ?? '?'}"`
+        if (!x?.name?.trim()) throw new ContentError(xWhere, 'an outside party is named')
+        if (!x.note?.trim()) {
+          throw new ContentError(xWhere, 'an outside party says in prose what happened')
+        }
+        if (!EDGE_TYPES.includes(x.type)) {
+          throw new ContentError(
+            xWhere,
+            `type "${x.type}" is outside the closed vocabulary (${EDGE_TYPES.join(', ')})`,
+          )
+        }
+        if (x.year != null && !Number.isInteger(x.year)) {
+          throw new ContentError(xWhere, 'a year is an integer or null')
+        }
+        requireSource(x.source, xWhere)
+        if (!x.source) throw new ContentError(xWhere, 'an outside party names its source')
+        // The point of the field is that the party has no record. If it has
+        // one, this is an edge and belongs in edges.yaml where it can be drawn.
+        const slug = x.name.trim().toLowerCase().replace(/\s+/g, '-')
+        if (ids.includes(slug)) {
+          throw new ContentError(
+            xWhere,
+            `"${x.name}" has a record here — make it an edge in edges.yaml instead`,
+          )
+        }
       }
     }
 

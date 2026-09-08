@@ -163,6 +163,7 @@ export default function PolityPage({ params }: { params: { id: string } }) {
             </header>
 
             <Position
+              polity={p}
               predecessors={predecessors}
               successors={successors}
               resumes={resumes}

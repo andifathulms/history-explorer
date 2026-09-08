@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { formatYear, formatRange } from '@/lib/years'
-import { edgeParties, type Edge, type Polity } from '@/lib/types'
+import { edgeParties, type Edge, type ExternalNeighbour, type Polity } from '@/lib/types'
 import { displayName, hasPage } from '@/lib/content'
 import { SectionHead } from '@/components/Shell'
 
@@ -31,6 +31,36 @@ function Party({ id, emphasise }: { id: string; emphasise: boolean }) {
     >
       {name}
     </span>
+  )
+}
+
+/**
+ * A predecessor or successor with no record here.
+ *
+ * Rendered in the same list as the edges and deliberately without a link or an
+ * apology. What a reader wants from this section is what came before and what
+ * came after; whether the answer happens to have its own page is not their
+ * question. The row is quieter than an edge row because the claim is smaller —
+ * a sourced sentence rather than a typed, drawable relation.
+ */
+function ExternalRow({ item, polity }: { item: ExternalNeighbour; polity: string }) {
+  return (
+    <li className="border-t border-kashi/15 py-3 first:border-t-0">
+      <p className="flex flex-wrap items-baseline gap-x-2">
+        <span className="font-mono text-[14px] tabular-nums text-debu-ink">
+          {item.year == null ? '\u2014' : formatYear(item.year)}
+        </span>
+        <span className="text-dawat/70">{polity}</span>
+        <span className="italic text-kashi">{item.type}</span>
+        <span className="font-semibold text-dawat/85">{item.name}</span>
+        {item.contested ? (
+          <span className="rounded-full border border-debu/50 px-2 py-0.5 font-mono text-micro uppercase text-debu-ink">
+            contested
+          </span>
+        ) : null}
+      </p>
+      <p className="mt-1.5 max-w-measure text-[15px] leading-relaxed text-dawat/80">{item.note}</p>
+    </li>
   )
 }
 
@@ -100,21 +130,26 @@ function Resumption({ earlier, later }: { earlier?: Polity; later?: Polity }) {
 }
 
 export function Position({
+  polity,
   predecessors,
   successors,
   resumes,
   resumedBy,
 }: {
+  polity: Polity
   predecessors: Edge[]
   successors: Edge[]
   resumes?: Polity
   resumedBy?: Polity
 }) {
+  const before = polity.preceded_by_external ?? []
+  const after = polity.succeeded_by_external ?? []
+  const name = polity.name.latin
   // No edges at all is an ordinary state, not an empty one — it is what most
   // polities outside a dense region will look like. Two columns of "no recorded
   // predecessor" would dress that up as a pair of absences; one sentence is the
   // truer shape, and it keeps the page from opening on a hole.
-  if (!predecessors.length && !successors.length) {
+  if (!predecessors.length && !successors.length && !before.length && !after.length) {
     return (
       <section aria-labelledby="position-heading" className="mt-16">
         <SectionHead ground="paper" id="position-heading">
@@ -143,10 +178,13 @@ export function Position({
           <h3 className="font-display text-[19px] font-semibold text-kashi-deep">
             What led here
           </h3>
-          {predecessors.length ? (
+          {predecessors.length || before.length ? (
             <ul className="mt-2">
               {predecessors.map((e, i) => (
                 <EdgeRow key={i} edge={e} other={e.from} />
+              ))}
+              {before.map((x, i) => (
+                <ExternalRow key={`x${i}`} item={x} polity={name} />
               ))}
             </ul>
           ) : (
@@ -160,10 +198,13 @@ export function Position({
           <h3 className="font-display text-[19px] font-semibold text-kashi-deep">
             What led away
           </h3>
-          {successors.length ? (
+          {successors.length || after.length ? (
             <ul className="mt-2">
               {successors.map((e, i) => (
                 <EdgeRow key={i} edge={e} other={e.to} />
+              ))}
+              {after.map((x, i) => (
+                <ExternalRow key={`x${i}`} item={x} polity={name} />
               ))}
             </ul>
           ) : (

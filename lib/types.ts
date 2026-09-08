@@ -429,6 +429,13 @@ export interface Polity {
   /** Coded per content/coding-rules.md part three. Fields are independently null. */
   institutions: Institutions
   /**
+   * Predecessors and successors that have no record here. Named because the
+   * history is the point; see ExternalNeighbour. Both lists are ordinarily
+   * empty and an empty list is not a gap.
+   */
+  preceded_by_external?: ExternalNeighbour[]
+  succeeded_by_external?: ExternalNeighbour[]
+  /**
    * Dated hinges in this polity's life, in year order. Ordinarily empty, and
    * empty is not a gap: see the note on TurningPoint and hard rule 7, whose
    * logic this follows exactly.
@@ -509,6 +516,33 @@ export const EDGE_VOICE: Record<EdgeType, 'active' | 'passive'> = {
   'claimed legitimacy of': 'active',
   'partitioned from': 'active',
   'conquered by': 'passive',
+}
+
+/**
+ * A predecessor or successor that this collection does not carry as a record.
+ *
+ * The reader came to read about a polity, not about which pages exist. Aceh was
+ * ended by the Dutch state; Melaka by Portugal; Ternate by a chartered company.
+ * None of those is a polity here, and for a long time the succession section
+ * answered "nothing continues from here", which is false about the world and
+ * true only about a database.
+ *
+ * So an outside party can be named in plain text. It is deliberately NOT an
+ * edge: an edge joins two records, is drawn by a region's thread, and is
+ * counted. This is a sentence with a date and a source and nothing else, it
+ * enters no thread and no tally, and hard rule 7 is untouched — a polity still
+ * never requires one, and a page with neither edges nor these is complete.
+ */
+export interface ExternalNeighbour {
+  /** Written as a reader would meet it: "the Dutch state", "Portugal". */
+  name: string
+  /** The same closed vocabulary the edges use, so the sentence reads alike. */
+  type: EdgeType
+  year: number | null
+  /** What happened, in one or two sentences. */
+  note: string
+  source: SourceId
+  contested?: boolean
 }
 
 export interface Edge {

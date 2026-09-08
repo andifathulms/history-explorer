@@ -46,6 +46,25 @@ ended:
   year: 1903
   source: reid-2005
 
+# What actually came next. The Netherlands has no record here and never will —
+# it is not the kind of thing this collection carries — but a reader asking what
+# followed Aceh is asking a question about Sumatra, not about which pages exist,
+# and the answer is the Dutch colonial state. Named here rather than left to an
+# empty column. Not an edge: it joins nothing, is drawn by no thread, counts in
+# no tally.
+succeeded_by_external:
+  - name: the Netherlands
+    type: conquered by
+    year: 1903
+    note: >-
+      The sultanate's territory was absorbed into the Netherlands East Indies
+      after Sultan Muhammad Daud Syah's surrender, and the sultanate was not
+      restored. Armed resistance in the countryside outlasted the surrender by
+      years, and the uleebalang who had carried the war were confirmed in place
+      as the colony's local administration — the same men, governing the same
+      districts, for somebody else.
+    source: reid-2005
+
 institutions:
   # Null, and it is a real finding rather than an absence. The sources describe
   # two incompatible arrangements two generations apart. Iskandar Muda held a

@@ -138,6 +138,27 @@ measures:
     successor_claims:    { count: 2, items: [ghaznavid, karakhanid], source: ... }
 ```
 
+### `preceded_by_external` / `succeeded_by_external`
+
+Optional lists on `polity.yaml`, for a real predecessor or successor that this
+collection does not carry as a record:
+
+```yaml
+succeeded_by_external:
+  - name: the Netherlands
+    type: conquered by        # the same closed vocabulary the edges use
+    year: 1903
+    note: >-
+      The sultanate's territory was absorbed into the Netherlands East Indies
+      after the surrender, and the sultanate was not restored.
+    source: reid-2005
+```
+
+Deliberately not an edge. An edge joins two records, is drawn by a region's
+thread and is counted; this is a sourced sentence that enters no thread and no
+tally, so hard rule 7 is untouched. The build refuses a name that *does* have a
+record — that is an edge and belongs in `edges.yaml`.
+
 ### edges.yaml
 
 ```yaml
@@ -200,7 +221,10 @@ These are not style preferences. Breaking them breaks the product.
 
 7. **A polity never requires an edge, and threads never cross regions.** No
    succession is an ordinary state, rendered as one plain sentence, never as a
-   gap or a pending item. A thread draws only edges with both ends inside its own
+   gap or a pending item. But where a real predecessor or successor exists and
+   simply has no record here — the Dutch state after Aceh, Portugal after
+   Melaka — name it with `preceded_by_external` / `succeeded_by_external`
+   rather than telling the reader that nothing continues. See hard rule 12. A thread draws only edges with both ends inside its own
    region — a global thread would assert a sequence nobody cited. `thread: true`
    on a region with no internal edge fails the build.
 
@@ -234,6 +258,28 @@ These are not style preferences. Breaking them breaks the product.
     silently. Writing about sources, manuscripts and what is not known is not
     this mistake — the evidence is a legitimate subject and `aside` exists for
     it. Enforced by `npm run check:voice` against a shrinking baseline.
+
+12. **Never tell the reader what this collection does or does not contain.**
+    Whether a polity has a record here is a fact about the project, never about
+    the past, and the reader did not come for it. Banned outright: "has a page
+    here", "is not in this corpus", "the only one of the five with a page",
+    "nothing continues from here", "the value is not on this record". This
+    applies to chapters, to `identity` and `changed` in `polity.yaml`, and to
+    the strings in `components/` — those repeat on every page and were the worst
+    offenders.
+
+    The positive form of the rule: **fill it in anyway.** An outside successor
+    goes in `succeeded_by_external` with a name, a type, a year, a sourced
+    sentence and no apology; an outside predecessor in `preceded_by_external`.
+    A missing century in the chapters gets a chapter, drafted from a source that
+    was actually opened. The absence of a neighbouring record is never a reason
+    to leave a polity's own history unwritten — write what happened and let the
+    named party be a plain noun.
+
+    Coding rationale belongs in a YAML comment, which is read by whoever
+    maintains the data. History belongs in the rendered prose, which is read by
+    everyone else. When a chapter starts defending a field, the argument goes in
+    the comment and the history stays on the page.
 
 ## Ratings maths (`lib/ratings.ts`)
 
