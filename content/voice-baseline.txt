@@ -90,9 +90,6 @@ content/polities/aydinid/03-smyrna.mdx
 content/polities/ayutthaya/01-what-was-carried-north.mdx
 content/polities/ayutthaya/03-1688.mdx
 content/polities/ayutthaya/04-1767.mdx
-content/polities/ayyubid/06-al-adil.mdx
-content/polities/ayyubid/07-jerusalem-by-treaty.mdx
-content/polities/ayyubid/08-mansura.mdx
 content/polities/bagratid-armenia/01-a-crown-from-baghdad.mdx
 content/polities/bagratid-armenia/02-ani.mdx
 content/polities/bagratid-armenia/04-the-bequest.mdx
@@ -376,9 +373,6 @@ content/polities/mali/01-a-song-for-a-founding.mdx
 content/polities/mali/03-the-other-end.mdx
 content/polities/mali/04-mansa-musa.mdx
 content/polities/mali/05-what-the-visitors-saw.mdx
-content/polities/mamluk-sultanate/01-ayn-jalut.mdx
-content/polities/mamluk-sultanate/06-a-state-of-slaves.mdx
-content/polities/mamluk-sultanate/07-the-plague.mdx
 content/polities/mamunid/01-the-delta-and-the-line-they-displaced.mdx
 content/polities/mamunid/02-the-court-at-gurganj.mdx
 content/polities/mamunid/03-the-calendar-he-could-not-reconstruct.mdx
