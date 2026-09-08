@@ -10,10 +10,6 @@
 content/polities/abbadid/01-a-caliph-made-of-a-mat-maker.mdx
 content/polities/abbadid/03-what-the-small-courts-made.mdx
 content/polities/abbadid/04-camels-and-swine.mdx
-content/polities/abbasid-cairo/01-a-caliph-for-cairo.mdx
-content/polities/abbasid-cairo/02-what-an-empty-office-was-for.mdx
-content/polities/abbasid-cairo/03-what-an-investiture-was.mdx
-content/polities/abbasid-cairo/04-1517.mdx
 content/polities/achaemenid/01-cyrus.mdx
 content/polities/achaemenid/02-satrapies.mdx
 content/polities/achaemenid/03-the-tablets.mdx
@@ -161,12 +157,6 @@ content/polities/cilician-armenia/01-armenia-somewhere-else.mdx
 content/polities/cilician-armenia/02-the-crown-and-the-church.mdx
 content/polities/cilician-armenia/03-what-cilicia-made.mdx
 content/polities/cilician-armenia/04-the-bet-on-the-mongols.mdx
-content/polities/cordoba/01-survivor.mdx
-content/polities/cordoba/02-the-state-behind-the-title.mdx
-content/polities/cordoba/03-what-al-hakam-left.mdx
-content/polities/cordoba/04-al-mansur.mdx
-content/polities/cordoba/05-the-boundaries.mdx
-content/polities/cordoba/06-the-collapse.mdx
 content/polities/dai-viet/01-where-this-record-stops.mdx
 content/polities/dai-viet/02-the-vocabulary-of-the-north.mdx
 content/polities/dai-viet/03-three-times.mdx
@@ -206,13 +196,6 @@ content/polities/ethiopia/02-the-kebra-nagast.mdx
 content/polities/ethiopia/03-a-city-of-tents.mdx
 content/polities/ethiopia/04-fourteen-years.mdx
 content/polities/ethiopia/05-adwa.mdx
-content/polities/fatimid/01-mahdi.mdx
-content/polities/fatimid/02-cairo.mdx
-content/polities/fatimid/03-al-hakim.mdx
-content/polities/fatimid/04-the-dawa.mdx
-content/polities/fatimid/05-the-shidda.mdx
-content/polities/fatimid/07-decline.mdx
-content/polities/fatimid/08-the-geniza.mdx
 content/polities/first-bulgarian/01-a-province-taken.mdx
 content/polities/first-bulgarian/02-krum.mdx
 content/polities/first-bulgarian/03-the-baptism.mdx

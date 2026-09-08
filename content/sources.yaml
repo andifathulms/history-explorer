@@ -2798,3 +2798,45 @@ sources:
       of al-Mansur's Round City, for the measurements the Arabic authorities give
       and disagree about, and for the siege of 1258 and what became of the city
       afterwards. Out of copyright.
+
+  - id: maqqari-gayangos
+    kind: book
+    author: Ahmed ibn Mohammed al-Makkari
+    title: "The History of the Mohammedan Dynasties in Spain"
+    translator: Pascual de Gayangos
+    publisher: Oriental Translation Fund
+    year: 1843
+    note: >-
+      A seventeenth-century Maghribi compilation that preserves long verbatim
+      extracts from Andalusi historians whose own works are lost, which is what
+      makes it usable: Gayangos translates the quotations and names the authority
+      for each. Cited here for the destruction of Cordoba and Madinat al-Zahra in
+      the civil war after 1009, where the eyewitness testimony comes through Ibn
+      al-Raqiq. Out of copyright.
+
+  - id: lane-poole-1901
+    kind: book
+    author: Stanley Lane-Poole
+    title: A History of Egypt in the Middle Ages
+    publisher: Methuen
+    year: 1901
+    note: >-
+      A narrative history built largely on al-Maqrizi, with the numismatic and
+      documentary detail of a curator who had catalogued the coins himself. The
+      judgements are of their period and are sometimes contemptuous of their
+      subjects; the detail is checkable and carefully attributed. Cited here for
+      the Fatimid library and for the abolition of the caliphate in 1171. Out of
+      copyright.
+
+  - id: suyuti-jarrett
+    kind: book
+    author: Jalal al-Din al-Suyuti
+    title: "History of the Caliphs (Tarikh al-Khulafa')"
+    translator: H. S. Jarrett
+    publisher: Asiatic Society of Bengal
+    year: 1881
+    note: >-
+      Written in Cairo in the 1490s by a scholar who had grown up in the
+      household of one of the caliphs he describes and whose father drafted their
+      documents. It is the only history of the caliphate written from inside the
+      Cairo Abbasid establishment, and it quotes the paperwork. Out of copyright.
