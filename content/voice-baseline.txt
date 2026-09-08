@@ -20,9 +20,6 @@ content/polities/abbasid/04-the-mihna.mdx
 content/polities/abbasid/06-the-caliph-they-kept.mdx
 content/polities/abbasid/07-al-nasir.mdx
 content/polities/abbasid/08-baghdad-1258.mdx
-content/polities/aceh/01-what-1511-sent-north.mdx
-content/polities/aceh/02-pepper.mdx
-content/polities/aceh/03-istanbul.mdx
 content/polities/achaemenid/01-cyrus.mdx
 content/polities/achaemenid/02-satrapies.mdx
 content/polities/achaemenid/03-the-tablets.mdx

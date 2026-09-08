@@ -183,7 +183,12 @@ export default function PolityPage({ params }: { params: { id: string } }) {
 
             <PolityMap polity={p} />
 
-            <RatingPanel rating={rating} scale="absolute" />
+            <RatingPanel
+              rating={rating}
+              scale="absolute"
+              fieldSize={corpus.all.length}
+              backdropSize={corpus.backdrop.length}
+            />
           </main>
         </div>
       </Shell>

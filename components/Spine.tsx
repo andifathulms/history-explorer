@@ -98,9 +98,8 @@ export function Spine({ chapters }: { chapters: Chapter[] }) {
         {filled === PHASES.length
           ? 'These chapters cover the whole arc.'
           : `These chapters cover ${filled} of the ${PHASES.length} phases of the arc.`}{' '}
-        A phase with no chapter is not a gap in the record: the arc is a way of
-        reading, not a shape every polity had, and this site does not write a
-        chapter to fill one.
+        A phase with no chapter is not a gap: the arc is a way of reading, not a
+        shape every polity had.
         {asides.length ? (
           <>
             {' '}

@@ -73,7 +73,18 @@ function AxisRow({
   )
 }
 
-export function RatingPanel({ rating, scale }: { rating: Rating; scale: Scale }) {
+export function RatingPanel({
+  rating,
+  scale,
+  fieldSize,
+  backdropSize,
+}: {
+  rating: Rating
+  scale: Scale
+  /** How many polities the percentile was actually computed against. */
+  fieldSize: number
+  backdropSize: number
+}) {
   const [open, setOpen] = useState(false)
   const r = rating
 
@@ -108,9 +119,9 @@ export function RatingPanel({ rating, scale }: { rating: Rating; scale: Scale })
       <div id="rating-body" hidden={!open}>
         <p className="max-w-measure text-[15px] leading-relaxed text-debu-ink">
           Four axes, all computed from cited numbers and never from editorial judgement.
-          Percentiles are against the eight polities here plus a reference backdrop of
-          fifty-one from world history. {scaleNote} A missing axis is excluded from the
-          total rather than counted as zero.
+          Percentiles are against every polity written up here — {fieldSize} of them —
+          plus {backdropSize} more included for scale. {scaleNote} A missing axis is
+          excluded from the total rather than counted as zero.
         </p>
 
         <AxisRow

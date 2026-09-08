@@ -40,11 +40,9 @@ export function TurningPoints({ polity }: { polity: Polity }) {
           Turning points
         </SectionHead>
         <p className="max-w-measure text-body">
-          No dated event is recorded here as having changed this polity&rsquo;s
-          trajectory. That is a statement about what this site has read and what
-          the rules admit, not a gap: a hinge is a property some polities have,
-          and an entry is only made where a source names a consequence rather
-          than an event.
+          No dated event is recorded as having changed this polity&rsquo;s course.
+          Not every history has one: a hinge is something some polities turn on and
+          others simply do not.
         </p>
       </section>
     )

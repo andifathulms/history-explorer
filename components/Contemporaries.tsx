@@ -37,7 +37,7 @@ function Row({ c }: { c: Contemporary }) {
           {label}
         </Link>
       ) : (
-        <span className="text-debu-ink" title="Reference backdrop: numbers only, no page">
+        <span className="text-debu-ink" title="Listed for scale; not written up">
           {label}
         </span>
       )}
@@ -59,9 +59,7 @@ export function Contemporaries({
           Contemporaries
         </SectionHead>
         <p className="max-w-measure text-body">
-          Nothing else in this corpus or its reference backdrop overlaps this
-          polity&rsquo;s span. That is a statement about what has been entered
-          here, not about the period.
+          Nothing else on these pages overlaps this polity&rsquo;s span.
         </p>
       </section>
     )
@@ -108,8 +106,8 @@ export function Contemporaries({
       <p className="mt-5 max-w-measure text-[14px] leading-relaxed text-debu-ink">
         Derived from cited spans, not from a separate source. Where both spans
         are ranges and they meet only on the widest reading of each, the pair is
-        listed as possible rather than resolved to one answer. Entries without a
-        link are reference backdrop: numbers in the rankings, no page.
+        listed as possible rather than resolved to one answer. Unlinked entries
+        are here for scale and are not written up.
       </p>
     </section>
   )

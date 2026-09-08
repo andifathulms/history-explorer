@@ -136,10 +136,9 @@ export function Institutions({ polity }: { polity: Polity }) {
       </dl>
 
       <p className="mt-4 max-w-measure text-[14px] leading-relaxed text-debu-ink">
-        Coded against the closed vocabularies in the site&rsquo;s coding rules,
-        from a source that addresses the question. A field reads{' '}
-        <span className="italic">{NO_FIGURE}</span> where no consulted source
-        does — never because the answer seemed obvious.
+        Each line is drawn from a source that addresses the question directly. A
+        line reads <span className="italic">{NO_FIGURE}</span> where no source
+        consulted does — never because the answer seemed obvious.
       </p>
     </section>
   )

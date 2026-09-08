@@ -122,9 +122,9 @@ export function Position({
         </SectionHead>
         <Resumption earlier={resumes} later={resumedBy} />
         <p className="max-w-measure text-body">
-          No sourced succession edge runs into or out of this polity. That is a statement
-          about what this site has read, not about the polity: it stands on its own here,
-          and is measured on the same axes as everything else.
+          No succession is recorded either into or out of this polity. That is an
+          ordinary condition rather than a gap &mdash; inheriting a predecessor&rsquo;s claim,
+          and leaving one behind, is something some polities did and many did not.
         </p>
       </section>
     )
@@ -151,7 +151,7 @@ export function Position({
             </ul>
           ) : (
             <p className="mt-2 text-debu-ink">
-              No recorded predecessor. This polity enters from outside the corpus.
+              No earlier polity is recorded as leading here.
             </p>
           )}
         </div>
@@ -168,7 +168,7 @@ export function Position({
             </ul>
           ) : (
             <p className="mt-2 text-debu-ink">
-              No recorded successor. Nothing in this corpus continues from here.
+              No later polity is recorded as continuing from here.
             </p>
           )}
         </div>

@@ -38,8 +38,8 @@ scripts_and_languages:
 
 # The Dutch declared war in 1873, lost their first commander in the first month,
 # and took thirty years to obtain a surrender. `by` is empty because the
-# Netherlands is not in this corpus, which makes this the third record in this
-# region to end against a European power that has no page here.
+# Netherlands is not a polity in this corpus; the prose on the page names the
+# Dutch directly and does not mention the empty field.
 ended:
   type: conquest
   by: []
@@ -87,17 +87,19 @@ turning_points:
   - year: 1568
     type: treaty
     name: Istanbul
+    # The rendered text says what happened. The coding argument that used to sit
+    # here — why an Ottoman gift of ordnance is not investiture, unlike the Ming
+    # reception of Melaka's founder — belongs in a comment, which is where it now
+    # is: Aceh asked for a relationship of authority and received guns, and guns
+    # are not a grant of authority, so `legitimation` carries no investiture value.
     changed: >-
-      Aceh sent an embassy to the Ottoman court asking for help against the
-      Portuguese at Melaka, and part of what was promised arrived: cannon,
-      founders who could cast more, and gunners. This corpus's Ottoman record
-      is nine thousand kilometres away and the two polities never shared a
-      frontier.
-      What did not arrive is the part this site had to decide about. The
-      Melakan record carries `investiture` because a Ming emperor granted its
-      founder recognition and he sailed to collect it. Aceh asked for the same
-      kind of relation and got ordnance, and ordnance is not a grant of
-      authority. The value is not on this record.
+      An Acehnese embassy sent to the Ottoman court some years earlier, asking
+      for help against the Portuguese at Melaka, produced its result in this
+      year: cannon arrived, with founders who could cast more and gunners who
+      could work them. Acehnese artillery is attested in Portuguese accounts for
+      the rest of the century. It is the longest-range military alliance either
+      party ever attempted, between two states nine thousand kilometres apart
+      that never shared a frontier and never met again.
     source: reid-2005
     contested: true
   - year: 1629
@@ -107,34 +109,28 @@ turning_points:
       Iskandar Muda threw the largest fleet Aceh ever assembled at Portuguese
       Melaka and lost it — ships, men and the initiative, in one campaign.
       Aceh had besieged that city at least half a dozen times in a century
-      without taking it. After 1629 it stopped trying, and the sultanate's
-      hundred and thirty remaining years are a long shrinking back toward its own
-      coast.
+      without taking it. After 1629 it stopped trying, and never again mounted an
+      offensive beyond its own coasts.
     source: reid-1988
     contested: false
   - year: 1641
     type: succession-crisis
     name: Safiatuddin
     changed: >-
-      Iskandar Thani died without a son and the orangkaya raised his widow to the
-      throne. She reigned thirty-four years and was followed by three more
-      queens. The autocracy Iskandar Muda had built was dismantled inside a
-      generation by the simple device of choosing rulers who could not rebuild
-      it, and Aceh became, in practice, a federation of pepper chiefs with a
-      court at its centre.
+      The throne passed to a queen, and then to three more. What changed was not
+      the succession but the balance underneath it: the autocracy Iskandar Muda
+      had built was dismantled inside a generation, and Aceh became in practice a
+      federation of pepper chiefs with a court at its centre.
     source: reid-1988
     contested: false
   - year: 1873
     type: battle
     name: The first expedition
     changed: >-
-      The Netherlands declared war and landed. The Acehnese killed the Dutch
-      commander within weeks and the expedition withdrew, which is a thing that
-      had not happened to a Dutch force in the archipelago in living memory.
-      The second expedition took the palace and did not take the country. What
-      followed was thirty years of war, the longest and costliest the Dutch
-      fought in Indonesia, and the reason Aceh's end has a date thirty years
-      after its capital fell.
+      The Netherlands declared war, and the first Dutch expedition was driven off
+      with its commander killed. The second took the capital. Neither took the
+      country, and the thirty years that followed are the reason Aceh's end is
+      dated three decades after its palace fell.
     source: reid-2005
     contested: false
 
@@ -146,9 +142,9 @@ measures:
     # One. Aceh carried Islam inland into Sumatra — the Gayo and Alas highlands,
     # and by way of its pepper ports down both coasts — and it was the point of
     # embarkation and return for the archipelago's pilgrimage, which is how
-    # scholarship from the Hijaz reached the region. Coding rule 2 counts
-    # propagation past a prior boundary, and the boundary here is the coastline
-    # that Islam in Sumatra had not previously crossed.
+    # scholarship from the Hijaz reached the region. Rule 2 counts propagation
+    # past a prior boundary; the boundary here is the coastline that Islam in
+    # Sumatra had not previously crossed.
     religions_carried:
       count: 1
       items: [Sunni Islam]
