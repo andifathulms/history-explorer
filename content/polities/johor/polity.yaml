@@ -21,8 +21,8 @@ span:
 
 identity: >-
   The Melakan dynasty in exile, which held the strait for a hundred and
-  seventy-one years after losing the city, wrote the chronicle this site's
-  Melaka record is drafted from, and was ended by its own nobles.
+  seventy-one years after losing the city, wrote the Malay Annals, and was ended
+  by its own nobles.
 
 capitals:
   - { name: Johor Lama, from: 1540, source: reid-2005 }
@@ -53,6 +53,23 @@ ended:
   year: 1699
   source: andaya-1975
 
+# What came next, named because the name Johor continues without the thing this
+# record is about continuing. The bendahara sultans are the successor claim; this
+# is what became of the state itself.
+succeeded_by_external:
+  - name: the bendahara sultans, and after them the Bugis at Riau
+    year: 1699
+    note: >-
+      The chief minister's family took the throne under the same name, in the
+      same place, with the same regalia. Within twenty years its standing was
+      being contested by Raja Kecil of Siak, who claimed to be Mahmud Shah's
+      posthumous son and took Johor on the strength of it in 1718, and by Bugis
+      newcomers who made themselves the real power at Riau. Everyone involved
+      argued their case in terms of a line that had stopped in 1699. The
+      Anglo-Dutch treaty of 1824 then divided what was left between two European
+      spheres, and the halves are now Johor in Malaysia and Riau in Indonesia.
+    source: andaya-1975
+
 institutions:
   # The orang laut, for the third time in this region. The sea peoples of the
   # straits and estuaries served Srivijaya, then Melaka, then this record — the
@@ -82,9 +99,9 @@ turning_points:
       The dynasty that had been driven out of it in 1511 helped take it back and
       did not get it: the company kept the city, and Johor took the trade that
       the company's own tariffs then drove away from it.
-      It is the closest this corpus comes to a polity recovering what a European
-      power took from it, and the recovery is a share of the traffic rather than
-      the place.
+      It is about as close as any polity on this strait came to recovering what a
+      European power had taken from it, and what it recovered was a share of the
+      traffic rather than the place.
     source: andaya-1975
     contested: false
   - year: 1673

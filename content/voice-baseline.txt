@@ -374,10 +374,6 @@ content/polities/jin/02-the-double-bind.mdx
 content/polities/jin/03-two-defeats.mdx
 content/polities/jin/04-the-settlers.mdx
 content/polities/jin/05-the-name-taken-again.mdx
-content/polities/johor/01-the-dynasty-without-the-city.mdx
-content/polities/johor/02-1641.mdx
-content/polities/johor/03-1673.mdx
-content/polities/johor/04-1699.mdx
 content/polities/kakuyid/01-son-of-the-maternal-uncle.mdx
 content/polities/kakuyid/02-the-settled-decade.mdx
 content/polities/kakuyid/03-what-they-built-at-yazd.mdx
@@ -488,12 +484,6 @@ content/polities/median/02-612.mdx
 content/polities/median/03-an-empire-possibly.mdx
 content/polities/median/04-what-cyrus-needed.mdx
 content/polities/median/05-549.mdx
-content/polities/melaka/01-a-prince-out-of-palembang.mdx
-content/polities/melaka/02-nanjing.mdx
-content/polities/melaka/03-no-rice.mdx
-content/polities/melaka/04-iskandar-shah.mdx
-content/polities/melaka/05-mansur-shah.mdx
-content/polities/melaka/06-1511.mdx
 content/polities/middle-assyrian/01-two-records-one-state.mdx
 content/polities/middle-assyrian/02-the-ginau.mdx
 content/polities/middle-assyrian/03-hanigalbat.mdx
@@ -609,10 +599,6 @@ content/polities/parthian/02-taking-iran.mdx
 content/polities/parthian/04-carrhae.mdx
 content/polities/parthian/06-the-parthian-gap.mdx
 content/polities/parthian/07-224.mdx
-content/polities/patani/01-what-a-chronicle-argues.mdx
-content/polities/patani/02-the-cannon.mdx
-content/polities/patani/03-four-queens-and-a-correction.mdx
-content/polities/patani/04-1786.mdx
 content/polities/persis/01-the-homeland.mdx
 content/polities/persis/02-somebody-elses-vassal.mdx
 content/polities/persis/03-the-argument-about-the-coins.mdx

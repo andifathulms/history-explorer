@@ -49,6 +49,35 @@ ended:
   year: 1786
   source: teeuw-wyatt-1970
 
+# Both ends of the succession, named because they existed. Neither the inland
+# seat Patani came down from nor the dynasty that took it has a record here, and
+# a reader asking what came before and after is asking about the peninsula.
+preceded_by_external:
+  - name: Kota Mahligai
+    year: null
+    note: >-
+      The interior seat the founder came from. Phaya Tu Antara was the son of
+      Phaya Tu Kerub Mahajana of Kota Mahligai, and what founded Patani was his
+      decision to move the court down to a landing place on the Gulf coast. The
+      tradition is confused about the dynasty's immediate origins and about
+      whether its peninsular connections were Thai or Malay, which probably
+      reflects a period when Patani's predecessors had been eclipsed by their
+      neighbours and the pedigree was worth disputing.
+    source: teeuw-wyatt-1970
+succeeded_by_external:
+  - name: the Chakri dynasty of Siam
+    type: conquered by
+    year: 1786
+    note: >-
+      The dynasty that had rebuilt the Siamese state at Bangkok after Ayutthaya
+      was destroyed in 1767 took Patani, deported part of the population north
+      and carried off the great cannon. Its rule was not the negotiable
+      overlordship Ayutthaya had exercised for two centuries: the territory was
+      broken into seven provinces in 1808, the ruling line was removed in 1902,
+      and in 1909 an Anglo-Siamese treaty fixed the boundary that still divides
+      the old sultanate between Thailand and Malaysia.
+    source: teeuw-wyatt-1970
+
 institutions:
   military_basis: null
   revenue_basis: { values: [trade-toll], source: reid-1988 }
@@ -66,10 +95,8 @@ turning_points:
       reigned thirty-two years and was followed by her sister, then by a second
       sister, then by a niece: Raja Hijau, Raja Biru, Raja Ungu and Raja Kuning,
       from 1584 to 1688.
-      A hundred and four years. This corpus's Aceh record carried the claim that
-      its own four queens, from 1641 to 1699, were the longest run of reigning
-      women anywhere on this site, and that claim was written before this record
-      existed. It is corrected on that page.
+      A hundred and four years — almost twice the better-known run of four queens
+      at Aceh, and beginning fifty-seven years before it.
     source: teeuw-wyatt-1970
     contested: false
   - year: 1634
@@ -92,9 +119,8 @@ turning_points:
       replaced it at Bangkok took Patani, deported a large part of the population
       north, and carried off the town's great cannon.
       What had been negotiable for two hundred and eighty years stopped being
-      negotiable, and the reason is on this corpus's Ayutthaya record: the state
-      that rebuilt itself after 1767 was a different and more centralising thing
-      than the one that fell.
+      negotiable, because the Siamese state that rebuilt itself after 1767 was a
+      different and more centralising thing than the one that fell.
     source: teeuw-wyatt-1970
     contested: false
 

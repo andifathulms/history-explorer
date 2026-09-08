@@ -36,10 +36,8 @@ scripts_and_languages:
   writing_system: Jawi — the Arabic script adapted for Malay
 
 # Albuquerque took the city in August 1511 with something like fifteen ships and
-# twelve hundred men. `by` is empty because Portugal is not in this corpus,
-# which is now the sixth record on this site to end against it or against a
-# power in its wake — the Kilwa record's last chapter calls it a
-# Portuguese-shaped absence and lists the others.
+# twelve hundred men. `by` is empty because Portugal is not a polity in this
+# collection; the prose on the page names the Portuguese directly.
 #
 # The dynasty was not extinguished. Mahmud Shah withdrew and his line
 # re-established itself as the sultanate of Johor, which is what this record's
@@ -49,6 +47,22 @@ ended:
   by: []
   year: 1511
   source: reid-1988
+
+# Portugal took the city and is not a polity in this collection. A reader asking
+# what became of Melaka is asking about the strait, not about which pages exist,
+# so the conqueror is named here. The dynasty's own continuation is the edge to
+# Johor; this is the other half of the answer.
+succeeded_by_external:
+  - name: Portugal
+    type: conquered by
+    year: 1511
+    note: >-
+      Albuquerque held the city for Portugal, which kept it for a hundred and
+      thirty years and never recovered the trade that had made it worth taking.
+      A Dutch company siege took it in 1641, with Johor supplying ships and the
+      blockade; the Dutch then set tariffs that drove the traffic away again.
+      Britain held it from 1824. Melaka never again ran the strait it sits on.
+    source: reid-1988
 
 institutions:
   # The orang laut, again. The sea peoples of the straits and river mouths who
@@ -99,9 +113,9 @@ turning_points:
       Parameswara sailed to China with his family and a large party, was received
       at the Ming court, and returned with recognition as king, a seal, and
       protection against Ayutthaya, which had been claiming his coast. It made a
-      new settlement on a strait into a polity other powers had to deal with,
-      and it is the clearest single case in this corpus of the Ming tributary
-      system doing what it was designed to do.
+      new settlement on a strait into a polity other powers had to deal with —
+      the Ming tributary system doing exactly what it was designed to do, at the
+      one place where it mattered most to both parties.
     source: hall-2011
     contested: false
   - year: 1414
@@ -109,14 +123,12 @@ turning_points:
     name: Islam
     changed: >-
       The ruler married a princess of Pasai in northern Sumatra and took the
-      name Iskandar Shah, and Melaka became a Muslim sultanate. What followed is
-      this record's single influence count: the ports of the archipelago
-      converted over the next century in Melaka's wake, through the same trade
-      network and often through Melakan marriages, and Islam reached the
-      Moluccas and the southern Philippines that way.
-      It is a conversion by commerce rather than by conquest, which coding rule 2
-      counts and which this corpus's Kilwa record's coast did not manage on the
-      same scale.
+      name Iskandar Shah, and Melaka became a Muslim sultanate. The ports of the
+      archipelago then converted in its wake over the next century, through the
+      same trade network and often through Melakan marriages, and Islam reached
+      the Moluccas and the southern Philippines that way — a conversion by
+      commerce rather than by conquest, on a scale nothing else in these waters
+      matched.
     source: reid-1988
     contested: true
   - year: 1511
@@ -128,9 +140,9 @@ turning_points:
       Melaka was the point at which the spice route could be cut, and cutting it
       was the whole Portuguese strategy in Asia.
       What he took was a customs house. The trade did not stop and did not stay:
-      it dispersed to Aceh, to Johor, to Banten and to Brunei, none of which is a
-      record on this site, and the Portuguese spent the following century holding
-      a fortress in a strait whose commerce had gone round them.
+      it dispersed to Aceh, to Johor, to Banten, to Brunei and to Patani, and the
+      Portuguese spent the following century holding a fortress in a strait whose
+      commerce had gone round them.
     source: reid-1988
     contested: false
 
