@@ -101,11 +101,6 @@ content/polities/bavandid/01-the-mountains-nobody-wanted.mdx
 content/polities/bavandid/02-three-lines.mdx
 content/polities/bavandid/03-shah-ghazi.mdx
 content/polities/bavandid/04-the-local-history.mdx
-content/polities/burid/01-the-atabeg.mdx
-content/polities/burid/02-tribute.mdx
-content/polities/burid/03-1129.mdx
-content/polities/burid/04-unur.mdx
-content/polities/burid/05-the-gates.mdx
 content/polities/buyid/02-paying-an-army-with-land.mdx
 content/polities/buyid/03-shahanshah.mdx
 content/polities/buyid/04-the-shii-century.mdx
@@ -713,10 +708,6 @@ content/polities/zand/02-the-vakil.mdx
 content/polities/zand/03-shiraz.mdx
 content/polities/zand/04-the-hostage.mdx
 content/polities/zand/05-lutf-ali.mdx
-content/polities/zangid/01-edessa.mdx
-content/polities/zangid/03-justice-and-a-hospital.mdx
-content/polities/zangid/04-the-minbar.mdx
-content/polities/zangid/05-the-officer-they-sent-to-egypt.mdx
 content/polities/zaydi-yemen/01-invited-to-arbitrate.mdx
 content/polities/zaydi-yemen/02-one-power-among-several.mdx
 content/polities/zaydi-yemen/04-the-dynasty-problem.mdx
