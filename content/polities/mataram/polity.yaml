@@ -14,7 +14,10 @@ name:
 # and six hundred years away, and this site carries that one as `medang` for
 # exactly this reason.
 span:
-  start: { min: 1587, max: 1587, source: ricklefs-2008 }
+  # Ricklefs dates Senapati's independence to 1587; de Graaf and Pigeaud, from
+  # the Javanese chronicles, to 1588, when Pangeran Benawa formally made Pajang
+  # over to him. Both are kept.
+  start: { min: 1587, max: 1588, source: ricklefs-2008, max_source: graaf-pigeaud-1974 }
   end: { min: 1755, max: 1755, source: ricklefs-2008 }
 
 identity: >-
@@ -56,6 +59,30 @@ ended:
   by: []
   year: 1755
   source: ricklefs-2008
+
+# What came next in the interior of Java. Neither court is a polity of the kind
+# this collection carries — after 1755 both sat inside somebody else's empire —
+# but they are the honest answer to what followed, and both are still standing.
+succeeded_by_external:
+  - name: the court of Surakarta
+    type: partitioned from
+    year: 1755
+    note: >-
+      Pakubuwana III kept the older capital and the senior title of Susuhunan,
+      and about half the lands, counted in households rather than territory. The
+      line has continued unbroken to the present, and its version of Javanese
+      court music, dance, dress and speech is one of the two that survive.
+    source: ricklefs-2008
+  - name: the court of Yogyakarta
+    type: partitioned from
+    year: 1755
+    note: >-
+      Mangkubumi took the new capital at Yogyakarta and the title Hamengkubuwana
+      I. His successors were deposed and installed by European governments twice
+      within sixty years, and the line has continued regardless; the sultan of
+      Yogyakarta governs an Indonesian province by hereditary right, which no
+      other person in the republic does.
+    source: ricklefs-2008
 
 institutions:
   military_basis: { values: [conscript], source: ricklefs-2008 }
@@ -100,8 +127,8 @@ turning_points:
       times — not to Dutch arms but to supply. The rice depots he had positioned
       along the coast were found and burned by company ships, and the army
       outside Batavia starved in front of the walls.
-      It is the clearest demonstration in this corpus of what a sea power was for.
-      Mataram could put more men in front of Batavia than the company could put
+      It is about as clean a demonstration as the century offers of what sea
+      power was for. Mataram could put more men in front of Batavia than the company could put
       behind its walls, and could not feed them, because everything on that coast
       moved by water and the water was not his.
     source: ricklefs-2008
@@ -113,8 +140,7 @@ turning_points:
       A Madurese prince, allied with the Makasar exiles who had left South
       Sulawesi after 1669, took the Mataram capital and drove the ruler out. The
       court appealed to the Dutch company for help and got it.
-      That is the hinge of the record and of Javanese history for the following
-      century. From 1677 the company is a participant in Javanese succession
+      That is the hinge of Javanese history for the following century. From 1677 the company is a participant in Javanese succession
       rather than a coastal nuisance, it is paid for its participation in
       territory, and every subsequent dispute over the throne is settled with its
       army in the field.
@@ -128,10 +154,10 @@ turning_points:
       Surakarta under Pakubuwana III, and Yogyakarta under Mangkubumi, who took
       the title Hamengkubuwana I. The Dutch company brokered it and guaranteed
       both.
-      This corpus has a hundred and ninety-odd endings and almost all of them
-      ended something. This one produced two functioning courts that are still
-      there, with two dynasties, two palaces and two divergent traditions of
-      Javanese music, dance and dress, two hundred and seventy years later.
+      Most endings end something. This one produced two functioning courts that
+      are still there, with two dynasties, two palaces and two divergent
+      traditions of Javanese music, dance and dress, two hundred and seventy
+      years later.
     source: ricklefs-2008
     contested: false
 

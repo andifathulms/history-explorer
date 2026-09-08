@@ -437,10 +437,6 @@ content/polities/marwanid/02-nasr-al-dawla.mdx
 content/polities/marwanid/03-a-kurdish-state.mdx
 content/polities/marwanid/04-the-seljuks.mdx
 content/polities/marwanid/05-ibn-jahir.mdx
-content/polities/mataram/01-the-name-again.mdx
-content/polities/mataram/02-batavia.mdx
-content/polities/mataram/03-1677.mdx
-content/polities/mataram/04-giyanti.mdx
 content/polities/maurya/01-maurya.mdx
 content/polities/maurya/02-the-inscriptions.mdx
 content/polities/median/01-what-the-assyrians-recorded.mdx
@@ -554,8 +550,6 @@ content/polities/ottoman/08-1922.mdx
 content/polities/pagan/01-ten-thousand-temples.mdx
 content/polities/pagan/02-merit.mdx
 content/polities/pagan/03-1287.mdx
-content/polities/pajang/02-the-chain.mdx
-content/polities/pajang/03-jaka-tingkir.mdx
 content/polities/palmyrene/03-zenobia.mdx
 content/polities/palmyrene/04-what-the-coins-say.mdx
 content/polities/palmyrene/05-aurelian.mdx

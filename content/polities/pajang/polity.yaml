@@ -6,13 +6,13 @@ name:
   script: null
   script_lang: null
 
-# Eighteen years. This record exists because the Demak record's last chapter
-# named it as the smallest identifiable hole in the archipelago — one page that
-# would close an `ended.by` — and because without it the Javanese sequence on this site
-# breaks between 1554 and 1587.
+# The end date is genuinely disputed and both figures are kept. Ricklefs dates
+# Senapati's taking of Pajang to 1586. de Graaf and Pigeaud, working from the
+# Javanese chronicles, put Adiwijaya's death in 1587 and the expulsion of his
+# successor Arya Pangiri in 1588. Nothing is averaged; the range is the range.
 span:
   start: { min: 1568, max: 1568, source: ricklefs-2008 }
-  end: { min: 1586, max: 1586, source: ricklefs-2008 }
+  end: { min: 1586, max: 1588, source: ricklefs-2008, max_source: graaf-pigeaud-1974 }
 
 identity: >-
   The eighteen years in which the centre of Javanese power sat inland for the
@@ -33,9 +33,8 @@ scripts_and_languages:
   administration: [Javanese, Arabic]
   writing_system: Javanese script, with Pegon for Arabic-script Javanese
 
-# Senapati of Mataram, Hadiwijaya's own vassal and foster-son, took the kingdom
-# in 1586. `by` names Mataram and the edge is drawn, which makes this the
-# archipelago's shortest-lived record with a fully specified ending.
+# Senapati of Mataram, Hadiwijaya's own vassal and foster-son, took the kingdom.
+# See the span comment above for the two dates.
 ended:
   type: conquest
   by: [mataram]
@@ -44,32 +43,42 @@ ended:
 
 institutions:
   military_basis: { values: [conscript], source: ricklefs-2008 }
-  # The inland move is the whole content of this record and it is in this field.
-  # Demak was a north-coast port coded `land-tax` and `trade-toll`; Pajang is up
-  # the Solo valley with no coast at all, and Mataram after it is coded the same
-  # way. The centre of Javanese power went inland in 1568 and stayed there until
-  # the twentieth century.
+  # Land tax alone. Demak had been a north-coast port living on its harbour as
+  # well as its fields; Pajang sits up the Solo valley with no coast at all, and
+  # Mataram after it is the same. The centre of Javanese power went inland in
+  # 1568 and stayed there until the twentieth century.
   revenue_basis: { values: [land-tax], source: ricklefs-2008 }
   succession_rule: null
   # Descent, twice over and from opposite directions. Hadiwijaya claimed descent
   # from Trenggana of Demak, whose dynasty he had just finished off in a civil
   # war, and from the last king of Majapahit, whose kingdom Demak had absorbed.
   #
-  # The Demak record's own `legitimation` is the identical pair of claims. Two
-  # consecutive Javanese polities argued their standing by descent from the two
-  # things the previous one had destroyed.
+  # Demak had argued its own standing the same way. Two consecutive Javanese
+  # kingdoms claimed descent from the thing their predecessor destroyed.
   legitimation: { values: [descent, divine-sanction], source: ricklefs-2008 }
 
 turning_points:
+  - year: 1581
+    type: treaty
+    name: The assembly at Giri
+    changed: >-
+      At the court of the aged Sunan Prapen of Giri, the rulers of Japan,
+      Wirasaba, Kediri, Surabaya, Pasuruan, Madiun, Sidayu, Lasem, Tuban and Pati
+      acknowledged Adiwijaya as Muslim king and sultan.
+      It is the moment an inland kingdom was accepted as paramount by the coast
+      and the east — by agreement, in a holy man's palace, without a campaign.
+      It also shows what that paramountcy rested on, since none of the ten was
+      conquered and none of them was bound to his successor.
+    source: graaf-pigeaud-1974
+    contested: false
   - year: 1586
     type: battle
     name: Senapati
     changed: >-
       Senapati, ruler of Mataram, a vassal territory Hadiwijaya had granted to
-      his own foster-father, took Pajang. It is the third Javanese succession in
-      sixty years to run this way — a subordinate displacing an overlord who had
-      himself displaced one — and the last for a long time: what Senapati founded
-      held Java until 1755.
+      his own foster-father, took Pajang. It is the third Javanese paramountcy in
+      sixty years to pass from an overlord to his own subordinate, and the last
+      for a long time: what Senapati founded held Java until 1755.
     source: ricklefs-2008
     contested: false
 
@@ -84,5 +93,5 @@ measures:
     # in the line of transmission that reaches the Mataram sultans.
     successor_claims:
       count: 1
-      items: [mataram]
+      items: [The Sultanate of Mataram]
       source: ricklefs-2008
