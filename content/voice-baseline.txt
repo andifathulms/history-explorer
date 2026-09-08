@@ -427,11 +427,6 @@ content/polities/macedonian/02-thirteen-years.mdx
 content/polities/macedonian/03-the-sources.mdx
 content/polities/macedonian/04-the-apparatus.mdx
 content/polities/macedonian/05-the-succession.mdx
-content/polities/majapahit/01-the-mongols.mdx
-content/polities/majapahit/02-rice-and-sea.mdx
-content/polities/majapahit/03-the-archipelago.mdx
-content/polities/majapahit/04-the-poem.mdx
-content/polities/majapahit/05-the-paregreg.mdx
 content/polities/makuria/01-the-pupil-smiters.mdx
 content/polities/makuria/02-a-monetised-economy.mdx
 content/polities/makuria/03-the-fourth-case.mdx
@@ -678,9 +673,6 @@ content/polities/second-bulgarian/03-klokotnitsa.mdx
 content/polities/second-bulgarian/04-the-swineherd.mdx
 content/polities/second-bulgarian/05-tarnovo.mdx
 content/polities/second-bulgarian/06-1396.mdx
-content/polities/second-kediri/01-twelve-months.mdx
-content/polities/second-kediri/02-the-fleet-he-did-not-send-for.mdx
-content/polities/second-kediri/03-why-this-is-a-page.mdx
 content/polities/seleucid/01-the-largest-share.mdx
 content/polities/seleucid/02-making-the-land-mean-something.mdx
 content/polities/seleucid/03-the-cities.mdx
@@ -711,11 +703,6 @@ content/polities/shirvanshah/01-arabs-who-became-sasanians.mdx
 content/polities/shirvanshah/03-khaqani.mdx
 content/polities/shirvanshah/04-baku.mdx
 content/polities/shirvanshah/05-farrukh-yasar.mdx
-content/polities/singhasari/01-a-kris-and-a-curse.mdx
-content/polities/singhasari/02-ganter.mdx
-content/polities/singhasari/03-the-pamalayu.mdx
-content/polities/singhasari/04-the-mongol-envoy.mdx
-content/polities/singhasari/05-jayakatwang.mdx
 content/polities/songhai/01-a-ribbon-along-a-river.mdx
 content/polities/songhai/02-sunni-ali.mdx
 content/polities/songhai/03-a-caliph-of-takrur.mdx

@@ -153,5 +153,5 @@ measures:
     # a claim inside the period all along.
     successor_claims:
       count: 2
-      items: [demak, gelgel]
+      items: [The Sultanate of Demak, The Kingdom of Gelgel]
       source: ricklefs-2008

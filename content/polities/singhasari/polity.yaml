@@ -81,9 +81,9 @@ turning_points:
     changed: >-
       Ken Arok, by the Pararaton's account a bandit and a murderer who had made
       himself lord of Tumapel, defeated Kediri and became the ruler of eastern
-      Java. It is the founding, and the manner of it is the reason this record's
-      succession field is null: a state begun by a man who killed his way into
-      it did not produce a rule about who came next.
+      Java. It is the founding, and the manner of it set the pattern: a state
+      begun by a man who killed his way into it never did produce a rule about
+      who came next.
     source: hall-2011
     contested: true
   - year: 1275
@@ -92,12 +92,12 @@ turning_points:
     changed: >-
       Kertanegara sent an expedition across the Java Sea against Melayu in
       Sumatra — the polity that had been carrying Srivijaya's position on the
-      strait since the eleventh century. This corpus's Srivijaya record ends
-      here, and this is the page of the power that ended it.
-      It is also the moment the archipelago's centre of gravity moves from
-      Sumatra to Java, where it stayed. Everything on this site's Majapahit
-      record follows from a Javanese state being able to reach across the sea and
-      a Sumatran one no longer being able to answer.
+      strait since the eleventh century. It is where six centuries of Sumatran
+      authority over the straits end.
+      It is also the moment the archipelago's centre of gravity moves to Java,
+      where it stayed for three hundred years. Everything Majapahit later did
+      follows from a Javanese state being able to reach across the sea and a
+      Sumatran one no longer being able to answer.
     source: hall-2011
     contested: false
   - year: 1292
@@ -109,8 +109,7 @@ turning_points:
       demanding submission. While he was waiting for the reprisal, a vassal at
       Kediri revolted and killed him in his own palace.
       The Mongol fleet arrived the following year to punish a man who was already
-      dead, and this corpus's Majapahit record's first chapter is what his
-      son-in-law did with it.
+      dead, and what his son-in-law did with it founded Majapahit.
     source: hall-2011
     contested: false
 
