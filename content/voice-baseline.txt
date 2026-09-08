@@ -305,9 +305,6 @@ content/polities/hujrid/05-what-the-clients-were-for.mdx
 content/polities/idrisid/02-fez.mdx
 content/polities/idrisid/03-what-happened-to-the-pieces.mdx
 content/polities/idrisid/04-descent-as-a-claim.mdx
-content/polities/ikhshidid/02-three-attempts.mdx
-content/polities/ikhshidid/03-kafur.mdx
-content/polities/ikhshidid/04-969.mdx
 content/polities/ilkhanate/01-conversion.mdx
 content/polities/ilkhanate/02-rashid-al-din.mdx
 content/polities/indo-greek/01-over-the-mountains.mdx
@@ -690,9 +687,6 @@ content/polities/trebizond/04-the-last-of-the-romans.mdx
 content/polities/tripoli/01-a-county-before-a-city.mdx
 content/polities/tripoli/02-the-one-that-admitted-a-superior.mdx
 content/polities/tripoli/03-1289.mdx
-content/polities/tulunid/02-the-army-and-the-quarrel.mdx
-content/polities/tulunid/03-the-most-expensive-wedding.mdx
-content/polities/tulunid/05-905.mdx
 content/polities/uqaylid/01-mosul.mdx
 content/polities/uqaylid/02-the-khutba-of-1010.mdx
 content/polities/uqaylid/03-sharaf-al-dawla.mdx
