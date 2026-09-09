@@ -66,10 +66,6 @@ content/polities/aydinid/03-smyrna.mdx
 content/polities/ayutthaya/01-what-was-carried-north.mdx
 content/polities/ayutthaya/03-1688.mdx
 content/polities/ayutthaya/04-1767.mdx
-content/polities/buyid/02-paying-an-army-with-land.mdx
-content/polities/buyid/03-shahanshah.mdx
-content/polities/buyid/04-the-shii-century.mdx
-content/polities/buyid/05-the-arrangement-fails.mdx
 content/polities/byzantine/01-the-half-that-did-not-fall.mdx
 content/polities/byzantine/02-justinian.mdx
 content/polities/byzantine/03-the-last-great-war-of-antiquity.mdx
@@ -130,9 +126,6 @@ content/polities/ghana/01-the-name-is-a-title.mdx
 content/polities/ghana/02-a-dinar-on-a-donkey.mdx
 content/polities/ghana/03-the-sisters-son.mdx
 content/polities/ghana/04-1076.mdx
-content/polities/ghaznavid/03-what-mahmud-took.mdx
-content/polities/ghaznavid/05-the-book-about-india.mdx
-content/polities/ghaznavid/06-1186.mdx
 content/polities/gokturk/01-gokturk.mdx
 content/polities/gokturk/02-the-inscriptions.mdx
 content/polities/golden-horde/02-the-yarlyk.mdx
@@ -503,11 +496,6 @@ content/polities/ziyadid/01-a-governor-who-stayed.mdx
 content/polities/ziyadid/02-the-tihama.mdx
 content/polities/ziyadid/03-husayn-ibn-salama.mdx
 content/polities/ziyadid/04-1018.mdx
-content/polities/ziyarid/01-the-man-who-wanted-the-crown-back.mdx
-content/polities/ziyarid/02-a-client-among-clients.mdx
-content/polities/ziyarid/02-vushmgir-between-two-powers.mdx
-content/polities/ziyarid/04-a-tower-and-a-book.mdx
-content/polities/ziyarid/05-what-the-caspian-kept.mdx
 content/polities/zurayid/01-the-farm-that-kept-itself.mdx
 content/polities/zurayid/02-the-customs-house.mdx
 content/polities/zurayid/03-hafizi.mdx

@@ -33,6 +33,23 @@ scripts_and_languages:
   administration: [Persian, Arabic]
   writing_system: Perso-Arabic
 
+# The Zaydi da'is of Tabaristan have no record here, so the predecessor is named
+# rather than edged. The year is the killing Ibn Isfandiyar describes, which is
+# the act that put the province in the hands of the men Mardavij then displaced.
+preceded_by_external:
+  - name: the Zaydi da'is of Tabaristan
+    type: overthrew
+    year: 928
+    note: >-
+      Tabaristan had been held for half a century by Alid da'is preaching a
+      Zaydi imamate — the reason the Caspian became and stayed Shi'i. Ibn
+      Isfandiyar records Mardavij b. Ziyar, then serving a Samanid commander,
+      asking leave to join Asfar b. Shiruya's invasion of the province, and
+      killing the Da'i himself with a blow of his mace at Ali-abad as the man
+      tried to recross the river into Amul. Tabaristan passed to Asfar, and
+      Mardavij disposed of Asfar afterwards.
+    source: ibn-isfandiyar-browne
+
 ended:
   type: conquest
   by: [nizari]
