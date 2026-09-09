@@ -57,6 +57,21 @@ ended:
   year: -1260
   source: van-de-mieroop-2015
 
+# What the kingdom was assembled out of. There is no foundation account and no
+# single predecessor state, and the honest answer is still a great deal more
+# useful to a reader than an empty line.
+preceded_by_external:
+  - name: the Hurrian principalities of northern Syria and the Jazira
+    year: null
+    note: >-
+      Hurrian populations are attested across the Khabur and the upper Tigris for
+      centuries before there was a Hurrian state, and around the middle of the
+      sixteenth century — in the vacuum left by the Hittite raid that finished
+      Babylon — those principalities were assembled into a single power. How is
+      not known: there is no foundation account, no conquest narrative and no
+      royal inscription of the kind Egypt and Assyria produced in quantity.
+    source: wilhelm-1989
+
 institutions:
   # The maryannu: a hereditary chariot aristocracy holding estates in return for
   # service. The coding rests on the land documents from Nuzi and Alalakh —

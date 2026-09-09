@@ -191,6 +191,10 @@ export function Position({
                 <ExternalRow key={`x${i}`} item={x} polity={name} />
               ))}
             </ul>
+          ) : resumes ? (
+            <p className="mt-2 text-debu-ink">
+              What led here is the earlier record of this same polity, named above.
+            </p>
           ) : (
             <p className="mt-2 text-debu-ink">
               No earlier polity is recorded as leading here.
@@ -211,6 +215,10 @@ export function Position({
                 <ExternalRow key={`x${i}`} item={x} polity={name} />
               ))}
             </ul>
+          ) : resumedBy ? (
+            <p className="mt-2 text-debu-ink">
+              What led away is the later record of this same polity, named above.
+            </p>
           ) : (
             <p className="mt-2 text-debu-ink">
               No later polity is recorded as continuing from here.
