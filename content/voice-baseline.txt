@@ -142,11 +142,6 @@ content/polities/holy-roman-empire/01-none-of-the-three-words.mdx
 content/polities/holy-roman-empire/03-the-golden-bull.mdx
 content/polities/holy-roman-empire/04-a-framework-for-not-fighting.mdx
 content/polities/holy-roman-empire/05-1806.mdx
-content/polities/hujrid/01-the-third-family.mdx
-content/polities/hujrid/02-a-power-in-the-middle.mdx
-content/polities/hujrid/03-al-hira.mdx
-content/polities/hujrid/04-imru-al-qays.mdx
-content/polities/hujrid/05-what-the-clients-were-for.mdx
 content/polities/idrisid/02-fez.mdx
 content/polities/idrisid/03-what-happened-to-the-pieces.mdx
 content/polities/idrisid/04-descent-as-a-claim.mdx
@@ -278,11 +273,6 @@ content/polities/ptolemaic/06-the-circle-in-the-sand.mdx
 content/polities/qara-khitai/01-a-dynasty-in-exile.mdx
 content/polities/qara-khitai/02-qatwan.mdx
 content/polities/qara-khitai/03-how-to-rule-what-you-cannot-outnumber.mdx
-content/polities/qarmatian/01-the-other-ismailis.mdx
-content/polities/qarmatian/02-the-gulf-power.mdx
-content/polities/qarmatian/03-the-black-stone.mdx
-content/polities/qarmatian/04-nasir-i-khusraw.mdx
-content/polities/qarmatian/05-the-mahdi-who-was-not.mdx
 content/polities/rashidi/01-the-governors-who-took-over.mdx
 content/polities/rashidi/02-hail.mdx
 content/polities/rashidi/03-mulayda.mdx
@@ -317,11 +307,6 @@ content/polities/serbia/02-the-silver.mdx
 content/polities/serbia/03-dusan.mdx
 content/polities/serbia/04-the-code.mdx
 content/polities/serbia/05-the-maritsa.mdx
-content/polities/sharifate-mecca/01-the-qualification.mdx
-content/polities/sharifate-mecca/02-qatada.mdx
-content/polities/sharifate-mecca/04-the-ottoman-centuries.mdx
-content/polities/sharifate-mecca/05-people-who-did-not-want-the-sermon.mdx
-content/polities/sharifate-mecca/06-1916.mdx
 content/polities/shaybanid/01-the-descent.mdx
 content/polities/shaybanid/02-babur.mdx
 content/polities/shaybanid/03-the-river.mdx

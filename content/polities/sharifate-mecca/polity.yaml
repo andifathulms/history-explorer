@@ -35,8 +35,23 @@ scripts_and_languages:
   administration: [Arabic]
   writing_system: Arabic
 
-# Ibn Saud took the Hejaz in 1924-25 and Husayn's son abdicated. The Saudi state
-# is not in this corpus, so `by` is empty rather than pointed at nothing.
+# `by` is empty because the Saudi state has no record here. The successor is
+# named below instead of left to a blank line. No `type`: the row renders
+# "<this polity> <type> <name>", so an active verb would read as the sharifate
+# doing something to the kingdom that destroyed it.
+succeeded_by_external:
+  - name: the Kingdom of the Hejaz under Ibn Sa'ud
+    year: 1926
+    note: >-
+      Abd al-Aziz ibn Sa'ud took Ta'if, Mecca and then Jeddah in 1924 and 1925;
+      Husayn abdicated in favour of his son Ali, who abdicated in turn and left.
+      On the eighth of January 1926 Ibn Sa'ud was proclaimed king of the Hejaz
+      in the Great Mosque at Mecca, and the sharifate was not filled again. In
+      1918 he had told a British officer in his own majlis that he coveted no
+      title or territory outside the Najd and had no desire whatever to be
+      master of Mecca.
+    source: philby-1928
+
 ended:
   type: conquest
   by: []
