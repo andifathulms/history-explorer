@@ -55,7 +55,8 @@ institutions:
   # unification happened. And `divine-sanction` for what the inscriptions do
   # from about 380: they stop naming Almaqah and the old gods and invoke
   # Rahmanan, the Merciful, lord of heaven and earth, in a state formula
-  # maintained for a century and a half. See the second and third chapters.
+  # maintained for a century and a half. See the chapters on Rahmanan and on the
+  # Jewish kingdom.
   legitimation: { values: [titulature, divine-sanction], source: bowersock-2013 }
 
 turning_points:
@@ -91,8 +92,8 @@ measures:
     religions_carried: { count: null, items: [], source: null }
     # One, and it is the longest-range claim in this corpus. The Sayfawa dynasty
     # of Kanem-Bornu, at Lake Chad, took its name and its pedigree from Sayf ibn
-    # Dhi Yazan — the Himyarite noble whose Persian expedition this record's
-    # sixth chapter describes — and held the throne on it for something close to
+    # Dhi Yazan — the Himyarite noble whose Persian expedition the last
+    # narrative chapter describes — and held the throne on it for something close to
     # eight hundred years, five thousand kilometres away.
     #
     # Rule 1 counts descent invoked publicly as the ground of a right to rule and

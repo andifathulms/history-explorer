@@ -7,17 +7,18 @@ name:
   script_lang: ar
 
 # 818/819 is Muhammad ibn Ziyad's despatch from Baghdad and 1018 the
-# extinction of the line. The four years between that and Najah's accession in
-# 1022 are not an error: the last Ziyadids were infants in the hands of their
-# own slaves, and the household went on governing in the name of a house that
-# had effectively stopped existing.
+# extinction of the line, when the vizier Nafis had the last Ziyadid and his
+# aunt walled up alive. The four years between that and Najah's accession in
+# 1022 are not an error: they are the civil war between Nafis and Najah, two
+# Abyssinian slaves of the same master, for possession of the state their
+# owners had been murdered out of.
 span:
   start: { min: 819, max: 819, source: bosworth-1996 }
   end: { min: 1018, max: 1018, source: bosworth-1996 }
 
 identity: >-
   An Abbasid governor's family that stayed two hundred years, founded Zabid,
-  and was quietly replaced from inside by the Abyssinian slaves it had bought
+  and was finally walled up alive in its own palace by the slaves it had bought
   to run its government.
 
 capitals:
@@ -44,10 +45,10 @@ ended:
   source: bosworth-1996
 
 institutions:
-  # The same purchase that ended them. Abyssinian slaves bought across the
-  # strait from the Horn of Africa — the natural slave frontier for a Red Sea
-  # state, as the Kipchak steppe was for Egypt — held the army and then the
-  # government.
+  # The same purchase that ended them. Abyssinian and Nubian slaves bought
+  # across the strait from the Horn of Africa — the natural slave frontier for a
+  # Red Sea state, as the Kipchak steppe was for Egypt — held the army and then
+  # the government.
   military_basis: { values: [slave-soldier], source: bosworth-1996 }
   # The Tihama's flood-irrigated grain and cotton, and the Red Sea ports below
   # Zabid. Nothing consulted here quantifies the share of either, so the
@@ -76,11 +77,11 @@ turning_points:
     type: succession-crisis
     name: "The house ends without falling"
     changed: >-
-      The line failed with a child on the seat and the vizier Husayn ibn
-      Salama's successors, themselves slaves, in possession of the treasury and
-      the army. There was no battle and no conquest: the Ziyadids simply
-      stopped being the government of a state they still nominally headed, and
-      four years later one of the slaves took the name as well.
+      Told that the last Ziyadid's aunt was corresponding with a rival, the
+      vizier Marjan handed her and the boy to Nafis, who had them bricked into
+      a chamber alive. It ended a house that had held Zabid for two hundred and
+      six years, and it began the war between Nafis and Najah — four battles
+      and five thousand dead — that put an Abyssinian slave on the seat in 1022.
     source: kay-1892
     contested: false
 

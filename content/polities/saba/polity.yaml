@@ -4,7 +4,7 @@ region: south-arabia
 name:
   latin: Saba'
   # Written in the Ancient South Arabian musnad alphabet, which this site
-  # cannot render and which is the subject of the fourth chapter.
+  # cannot render and which is the subject of the chapter on the script.
   script: null
   script_lang: null
 
@@ -41,6 +41,10 @@ scripts_and_languages:
   administration: [Sabaic]
   writing_system: The Ancient South Arabian musnad alphabet
 
+# No `preceded_by_external`. Saba' is the earliest state attested in South
+# Arabia and nothing consulted names a polity it succeeded: the Arabic tradition
+# puts legendary peoples before it, which is not a predecessor this page will
+# print as one. The empty predecessor line is the honest answer here.
 ended:
   type: gradual absorption
   by: [himyar]

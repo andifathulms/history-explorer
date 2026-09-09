@@ -138,12 +138,6 @@ content/polities/herodian/01-king-by-a-vote.mdx
 content/polities/herodian/02-the-building.mdx
 content/polities/herodian/03-the-will.mdx
 content/polities/herodian/04-from-the-besiegers-camp.mdx
-content/polities/himyar/01-the-highland-kingdom.mdx
-content/polities/himyar/02-rahmanan.mdx
-content/polities/himyar/03-a-jewish-kingdom.mdx
-content/polities/himyar/04-najran.mdx
-content/polities/himyar/05-the-elephant.mdx
-content/polities/himyar/06-the-sasanians.mdx
 content/polities/holy-roman-empire/01-none-of-the-three-words.mdx
 content/polities/holy-roman-empire/03-the-golden-bull.mdx
 content/polities/holy-roman-empire/04-a-framework-for-not-fighting.mdx
@@ -322,9 +316,6 @@ content/polities/saadi/01-a-better-claim.mdx
 content/polities/saadi/02-three-kings.mdx
 content/polities/saadi/03-across-the-desert.mdx
 content/polities/saadi/04-what-came-after-the-gold.mdx
-content/polities/saba/02-the-dam.mdx
-content/polities/saba/04-the-alphabet.mdx
-content/polities/saba/05-the-highland-power.mdx
 content/polities/second-bulgarian/01-a-tax-and-two-brothers.mdx
 content/polities/second-bulgarian/02-a-crown-from-rome.mdx
 content/polities/second-bulgarian/03-klokotnitsa.mdx
@@ -410,10 +401,6 @@ content/polities/zirid/01-left-behind.mdx
 content/polities/zirid/02-the-answer-was-a-migration.mdx
 content/polities/zirid/03-the-mountain-capital.mdx
 content/polities/zirid/04-a-port-instead-of-a-province.mdx
-content/polities/ziyadid/01-a-governor-who-stayed.mdx
-content/polities/ziyadid/02-the-tihama.mdx
-content/polities/ziyadid/03-husayn-ibn-salama.mdx
-content/polities/ziyadid/04-1018.mdx
 content/polities/zurayid/01-the-farm-that-kept-itself.mdx
 content/polities/zurayid/02-the-customs-house.mdx
 content/polities/zurayid/03-hafizi.mdx

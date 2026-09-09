@@ -3376,3 +3376,21 @@ sources:
       constitutional documents in full as appendices so that a reader can check
       him. Cited here as a partisan source that declares itself. Out of
       copyright.
+
+  - id: periplus-schoff
+    kind: book
+    author: Anonymous
+    title: "The Periplus of the Erythraean Sea: Travel and Trade in the Indian Ocean by a Merchant of the First Century"
+    translator: Wilfred H. Schoff
+    publisher: Longmans, Green
+    year: 1912
+    note: >-
+      A working sailing handbook written in Greek in the middle of the first
+      century AD by somebody who had made the voyages, listing the ports of the
+      Red Sea, the East African coast, South Arabia and India with what could be
+      bought and sold at each and who governed them. It is not a history and has
+      no interest in being one, which is what makes it useful: it names the
+      rulers of South Arabia in passing, as facts a merchant needed, at a moment
+      no other outside source describes. Schoff's translation and notes are of
+      their period and the notes are freer with speculation than the text.
+      Out of copyright.
