@@ -10,10 +10,6 @@
 content/polities/abbadid/01-a-caliph-made-of-a-mat-maker.mdx
 content/polities/abbadid/03-what-the-small-courts-made.mdx
 content/polities/abbadid/04-camels-and-swine.mdx
-content/polities/adiabene/01-arbela.mdx
-content/polities/adiabene/02-a-jewish-royal-house.mdx
-content/polities/adiabene/03-the-second-one.mdx
-content/polities/adiabene/04-arbela-becomes-christian.mdx
 content/polities/afsharid/01-the-man-from-khurasan.mdx
 content/polities/afsharid/02-mughan.mdx
 content/polities/afsharid/03-the-army.mdx
@@ -197,10 +193,6 @@ content/polities/greater-armenia/03-rhandeia.mdx
 content/polities/greater-armenia/04-301.mdx
 content/polities/greater-armenia/05-the-alphabet.mdx
 content/polities/greater-armenia/06-428.mdx
-content/polities/greco-bactria/01-a-satrap-stops-answering.mdx
-content/polities/greco-bactria/02-ai-khanoum.mdx
-content/polities/greco-bactria/03-the-coins.mdx
-content/polities/greco-bactria/04-the-yuezhi.mdx
 content/polities/gupta/01-gupta.mdx
 content/polities/gupta/02-what-the-axes-miss.mdx
 content/polities/hafsid/01-the-governor-who-stayed.mdx
@@ -410,10 +402,6 @@ content/polities/pagan/03-1287.mdx
 content/polities/palmyrene/03-zenobia.mdx
 content/polities/palmyrene/04-what-the-coins-say.mdx
 content/polities/palmyrene/05-aurelian.mdx
-content/polities/parthian/02-taking-iran.mdx
-content/polities/parthian/04-carrhae.mdx
-content/polities/parthian/06-the-parthian-gap.mdx
-content/polities/parthian/07-224.mdx
 content/polities/pontus/01-two-descents.mdx
 content/polities/pontus/02-one-day.mdx
 content/polities/pontus/03-the-long-retreat.mdx
