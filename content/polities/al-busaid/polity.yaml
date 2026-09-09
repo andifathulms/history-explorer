@@ -44,6 +44,32 @@ scripts_and_languages:
 # the two claimant brothers accepted, with Zanzibar to one and Muscat to the
 # other and a subsidy paid from the richer half to the poorer. `by` is empty
 # because nobody conquered anything.
+# The empire did not end; it was divided in two, and both halves went on under
+# sultans of this same family. Neither has a record here, so both are named.
+# No `type` on either: the row renders "<this polity> <type> <name>", and what
+# happened was a partition by a foreign arbitrator rather than an act by the
+# polity being partitioned.
+succeeded_by_external:
+  - name: the Sultanate of Zanzibar
+    year: 1861
+    note: >-
+      Sa'id bin Sultan died in 1856 and his sons went to the edge of war over
+      the inheritance: Thuwayni had Oman, Majid claimed Zanzibar, the
+      neighbouring islands and the mainland settlements. Bombay prevented the
+      fighting, the brothers submitted to the arbitration of the Viceroy of
+      India, and the award gave Majid the African half — bound to pay Muscat
+      forty thousand crowns a year, in terms left ambiguous as between a tribute
+      implying subjection and a subsidy implying none.
+    source: badger-1871
+  - name: the Sultanate of Muscat and Oman
+    year: 1861
+    note: >-
+      The Arabian half, and the poorer one: an Arabian port with a mountainous
+      interior behind it that the sultan did not control, drawing an annual
+      payment from the richer half of what had been one state. The dynasty
+      continued here and continues.
+    source: badger-1871
+
 ended:
   type: fragmentation
   by: []

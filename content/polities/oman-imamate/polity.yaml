@@ -34,6 +34,25 @@ scripts_and_languages:
   administration: [Arabic]
   writing_system: Arabic
 
+# The Julanda kings held Oman before the imamate and the first imam was of that
+# house, which is why the relationship is a succession rather than a conquest:
+# the family that had ruled by inheritance produced the man the scholars elected,
+# and afterwards rose against the office that had replaced it. `overthrew` is the
+# active reading the row needs.
+preceded_by_external:
+  - name: the Julanda kings of Oman
+    type: overthrew
+    year: 750
+    note: >-
+      The Julanda were the ruling house of Oman before and into the early
+      Islamic period, and al-Julanda ibn Mas'ud — the first imam, elected about
+      750 — was one of them. What the election did was convert a hereditary
+      kingship into an office held on merit and revocable by the scholars who
+      conferred it. The house did not accept the exchange for long: a rising of
+      the Banu Julanda, described in the chronicle as the tribe of the old
+      rulers, had to be put down by the imam al-Muhanna in the ninth century.
+    source: badger-1871
+
 ended:
   type: conquest
   by: [abbasid]

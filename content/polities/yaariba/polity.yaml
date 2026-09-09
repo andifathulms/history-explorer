@@ -29,6 +29,24 @@ scripts_and_languages:
   administration: [Arabic]
   writing_system: Arabic
 
+# The Banu Nabhan were the dominant power in the Omani interior before the
+# imamate was reconstituted, and the chronicle is precise about the end of them:
+# from 1624 the name ceases to occur in the annals of Oman altogether. No `type`:
+# the row renders "<this polity> <type> <name>", and the relationship was a
+# displacement by election rather than anything the vocabulary has a verb for.
+preceded_by_external:
+  - name: the Banu Nabhan
+    year: 1624
+    note: >-
+      The Nabhani held the interior from the twelfth century, with Bahla among
+      their capitals. Their tyranny is what led the Omanis to restore the
+      imamate in about 1435, and even after that two Nabhanis were themselves
+      elected imam, so the family was not so much defeated as absorbed and then
+      outlasted. Their influence ended with the election of Nasir bin Murshid at
+      Rustaq in 1624, after which, as the chronicle's editor notes, the name
+      disappears from the record entirely.
+    source: badger-1871
+
 # Not a conquest. The imamate destroyed itself in a disputed election, invited
 # a Persian army in, and was ended when a governor of Sohar expelled the
 # Persians and was elected imam in its place.

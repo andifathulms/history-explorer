@@ -19,11 +19,6 @@ content/polities/aksum/02-the-stelae.mdx
 content/polities/aksum/03-ezana.mdx
 content/polities/aksum/04-the-coinage.mdx
 content/polities/aksum/05-across-the-sea.mdx
-content/polities/al-busaid/01-ahmad-bin-said.mdx
-content/polities/al-busaid/02-from-imam-to-sultan.mdx
-content/polities/al-busaid/03-zanzibar.mdx
-content/polities/al-busaid/04-what-it-ran-on.mdx
-content/polities/al-busaid/05-1861.mdx
 content/polities/almohad/02-the-hierarchy.mdx
 content/polities/almohad/03-two-things-at-once.mdx
 content/polities/almohad/04-las-navas.mdx
@@ -231,11 +226,6 @@ content/polities/nicaea/05-what-the-restoration-cost.mdx
 content/polities/norman-sicily/01-a-crown-from-an-antipope.mdx
 content/polities/norman-sicily/02-three-chanceries.mdx
 content/polities/norman-sicily/03-1194.mdx
-content/polities/oman-imamate/01-elected-and-removable.mdx
-content/polities/oman-imamate/02-the-aflaj.mdx
-content/polities/oman-imamate/03-the-century.mdx
-content/polities/oman-imamate/04-the-deposition.mdx
-content/polities/oman-imamate/05-an-office-that-comes-back.mdx
 content/polities/ostrogothic/01-a-king-sent-by-an-emperor.mdx
 content/polities/ostrogothic/02-boethius.mdx
 content/polities/ostrogothic/03-eighteen-years.mdx
@@ -335,10 +325,6 @@ content/polities/wattasid/03-the-envoy-who-ended-up-in-rome.mdx
 content/polities/wattasid/04-out-of-fez.mdx
 content/polities/xiongnu/01-xiongnu.mdx
 content/polities/xiongnu/02-the-sources.mdx
-content/polities/yaariba/01-the-office-again.mdx
-content/polities/yaariba/02-the-portuguese.mdx
-content/polities/yaariba/03-mombasa.mdx
-content/polities/yaariba/05-1719.mdx
 content/polities/yuan/01-kublai.mdx
 content/polities/yuan/02-the-hundred-years.mdx
 content/polities/yuan/04-the-ortogh.mdx
