@@ -89,10 +89,6 @@ content/polities/danishmendid/03-the-coins.mdx
 content/polities/danishmendid/04-taken-in-pieces.mdx
 content/polities/delhi-sultanate/01-slave-kings.mdx
 content/polities/delhi-sultanate/02-mongol-frontier.mdx
-content/polities/diriyah/01-the-compact.mdx
-content/polities/diriyah/02-the-name.mdx
-content/polities/diriyah/03-karbala-and-mecca.mdx
-content/polities/diriyah/05-1818.mdx
 content/polities/ethiopia/01-a-church-cut-downwards.mdx
 content/polities/ethiopia/02-the-kebra-nagast.mdx
 content/polities/ethiopia/03-a-city-of-tents.mdx
@@ -228,10 +224,6 @@ content/polities/nasrid/01-what-was-left.mdx
 content/polities/nasrid/03-the-alhambra.mdx
 content/polities/nasrid/04-the-help-that-stopped-coming.mdx
 content/polities/nasrid/05-1492.mdx
-content/polities/nejd/01-riyadh.mdx
-content/polities/nejd/02-faysal.mdx
-content/polities/nejd/03-the-war-of-the-brothers.mdx
-content/polities/nejd/04-kuwait.mdx
 content/polities/nicaea/01-a-government-in-exile-that-worked.mdx
 content/polities/nicaea/02-three-claimants.mdx
 content/polities/nicaea/04-the-church-in-exile.mdx
@@ -273,10 +265,6 @@ content/polities/ptolemaic/06-the-circle-in-the-sand.mdx
 content/polities/qara-khitai/01-a-dynasty-in-exile.mdx
 content/polities/qara-khitai/02-qatwan.mdx
 content/polities/qara-khitai/03-how-to-rule-what-you-cannot-outnumber.mdx
-content/polities/rashidi/01-the-governors-who-took-over.mdx
-content/polities/rashidi/02-hail.mdx
-content/polities/rashidi/03-mulayda.mdx
-content/polities/rashidi/05-1921.mdx
 content/polities/roman/01-the-republic-that-did-not-end.mdx
 content/polities/roman/02-the-frontier.mdx
 content/polities/roman/03-what-it-taxed.mdx

@@ -28,8 +28,23 @@ scripts_and_languages:
   administration: [Arabic]
   writing_system: Arabic
 
-# Ibn Saud took Ha'il in 1921. The third Saudi state and the kingdom it became
-# are outside this corpus, which records polities that ended.
+# `by` is empty because the third Saudi state has no record here. The successor
+# is named below rather than left as a blank line. No `type`: the row renders
+# "<this polity> <type> <name>", so an active verb would read as the emirate
+# conquering the power that conquered it.
+succeeded_by_external:
+  - name: the Sultanate of Nejd under Ibn Sa'ud
+    year: 1921
+    note: >-
+      Ibn Sa'ud took Ha'il in 1921 and the emirate was not restored. The
+      campaign began with a failed attack in September 1918 which, in the
+      judgement of the British officer who had pressed for it, was a fiasco that
+      nonetheless committed Ibn Sa'ud to a policy of imperial expansion — and
+      led, more directly than anything else he did, to his coronation at Mecca
+      in 1926. A prince of the Rashidi house was already living at his court in
+      1918.
+    source: philby-1928
+
 ended:
   type: conquest
   by: []
