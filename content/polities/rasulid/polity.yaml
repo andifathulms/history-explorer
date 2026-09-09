@@ -33,12 +33,12 @@ scripts_and_languages:
   administration: [Arabic]
   writing_system: Arabic
 
-# The Tahirids who took over in 1454 are a Yemeni dynasty this corpus does not
-# carry, and the id `tahirid` belongs to the Khurasanis. `by` is empty rather
-# than pointed at the wrong people.
+# `tahirid-yemen`, not `tahirid` — the latter id belongs to the Khurasanis, who
+# share nothing with this family but a name. The field was empty while the
+# Yemeni Tahirids had no record; they have one, and it is pointed at.
 ended:
   type: dynastic replacement
-  by: []
+  by: [tahirid-yemen]
   year: 1454
   source: vallet-2010
 

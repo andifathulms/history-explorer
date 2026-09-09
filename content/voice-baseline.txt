@@ -287,12 +287,6 @@ content/polities/rashidi/01-the-governors-who-took-over.mdx
 content/polities/rashidi/02-hail.mdx
 content/polities/rashidi/03-mulayda.mdx
 content/polities/rashidi/05-1921.mdx
-content/polities/rasulid/01-the-deputies-who-stayed.mdx
-content/polities/rasulid/02-aden.mdx
-content/polities/rasulid/03-mecca.mdx
-content/polities/rasulid/04-the-scholar-sultans.mdx
-content/polities/rasulid/05-the-hexaglot.mdx
-content/polities/rasulid/06-1454.mdx
 content/polities/roman/01-the-republic-that-did-not-end.mdx
 content/polities/roman/02-the-frontier.mdx
 content/polities/roman/03-what-it-taxed.mdx
@@ -339,10 +333,6 @@ content/polities/songhai/02-sunni-ali.mdx
 content/polities/songhai/03-a-caliph-of-takrur.mdx
 content/polities/songhai/05-the-chronicles.mdx
 content/polities/songhai/06-tondibi.mdx
-content/polities/tahirid-yemen/01-picking-up-the-state.mdx
-content/polities/tahirid-yemen/02-the-port-that-stopped-paying.mdx
-content/polities/tahirid-yemen/03-the-amiriyya.mdx
-content/polities/tahirid-yemen/04-1517.mdx
 content/polities/tang/02-an-lushan.mdx
 content/polities/tang/04-salt.mdx
 content/polities/tang/05-what-was-copied.mdx
@@ -388,7 +378,3 @@ content/polities/zirid/01-left-behind.mdx
 content/polities/zirid/02-the-answer-was-a-migration.mdx
 content/polities/zirid/03-the-mountain-capital.mdx
 content/polities/zirid/04-a-port-instead-of-a-province.mdx
-content/polities/zurayid/01-the-farm-that-kept-itself.mdx
-content/polities/zurayid/02-the-customs-house.mdx
-content/polities/zurayid/03-hafizi.mdx
-content/polities/zurayid/04-1173.mdx
