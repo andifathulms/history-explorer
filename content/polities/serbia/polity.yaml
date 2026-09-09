@@ -51,6 +51,26 @@ scripts_and_languages:
   administration: [Old Church Slavonic, Greek]
   writing_system: Cyrillic
 
+# Not an edge: the grand principality of Raška before Nemanja has no record here
+# and is not a different polity so much as the same one before a family took hold
+# of it. What the row names is the moment the state acquired a dynasty that would
+# keep it, which is why the type is `overthrew` — Nemanja took the throne off his
+# own eldest brother.
+preceded_by_external:
+  - name: the grand princes of Raška
+    type: overthrew
+    year: 1166
+    note: >-
+      Serbia before Nemanja was one of several small principalities in the
+      Byzantine orbit, ruled by grand princes whose position depended on which
+      way Constantinople was looking. Nemanja was one of four brothers who
+      divided the inheritance; he took the grand principality from the eldest,
+      Tihomir, who drowned in the Sitnica fleeing the battle that settled it.
+      Everything the record carries afterwards — the church, the silver, the
+      imperial title — belongs to the family that came out of that quarrel.
+    source: cirkovic-2004
+    contested: false
+
 ended:
   type: conquest
   by: [ottoman]
@@ -107,9 +127,9 @@ turning_points:
       obtained from the exiled patriarch an autocephalous Serbian archbishopric,
       with himself as its first head. It gave the state a church answerable to
       nobody in the region, forty years before there was a king with an imperial
-      title to go with it. The grant came from this corpus's Nicaean record —
-      a government in exile in Anatolia, disposing of the Balkans by charter
-      because it still had the authority to and very little else.
+      title to go with it. The grant came from a government in exile
+      in Anatolia, disposing of the Balkans by charter because ecclesiastical
+      authority was the one thing it still had to dispose of.
     source: cirkovic-2004
     contested: false
   - year: 1330
@@ -117,11 +137,9 @@ turning_points:
     name: Velbazhd
     changed: >-
       A Serbian army destroyed a Bulgarian one and the tsar Michael Shishman was
-      killed in the field. This corpus's Second Bulgarian record carries the same
-      day as its own fourth turning point and describes the balance in the
-      Balkans passing to Serbia for the following thirty years. This is the page
-      of the power it passed to, and the reign that followed is what it was used
-      for.
+      killed in the field. The balance in the Balkans passed to Serbia for the
+      following thirty years, and Dušan — who commanded a wing of it, and took
+      the throne the year after — is what it was used for.
     source: cirkovic-2004
     contested: false
   - year: 1346
@@ -130,11 +148,12 @@ turning_points:
     changed: >-
       Dušan raised the Serbian archbishopric to a patriarchate and had that
       patriarch crown him emperor at Skopje on Easter Sunday. The title was
-      basileus and autokrator of the Serbs and the Greeks, and it is a claim on
-      the office in Constantinople rather than a translation of a Slavic one —
-      the same move Simeon of Bulgaria made in 913 and the Latin emperors made in
-      1204, and this site counts all three on the Byzantine record.
-      Constantinople excommunicated the Serbian church for it.
+      basileus and autokrator of the Serbs and the Greeks: a claim on the office
+      in Constantinople rather than a translation of a Slavic dignity into
+      Greek, and the same move Simeon of Bulgaria had made in 913. The
+      patriarchate was manufactured three weeks beforehand for the sole purpose
+      of performing the coronation. Constantinople excommunicated the Serbian
+      church for it and did not lift the sentence for twenty-nine years.
     source: cirkovic-2004
     contested: false
   - year: 1371
@@ -146,7 +165,7 @@ turning_points:
       the former empire were killed, southern Macedonia passed under Ottoman
       suzerainty, and Uroš V — the last Nemanjić, who had held very little for
       years — died two months later. The empire of 1346 dissolved into a set of
-      principalities, and everything on this record afterwards is one of them
+      principalities, and the eighty-eight years that followed are one of them
       trying to hold the rest together.
     source: cirkovic-2004
     contested: false

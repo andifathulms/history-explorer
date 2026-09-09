@@ -79,23 +79,22 @@ turning_points:
     changed: >-
       Two brothers from the Tarnovo region revolted over a tax levied for an
       imperial wedding, were beaten, went across the Danube, came back with
-      Cuman cavalry, and within four years had a state. This corpus's Byzantine
-      record spends its last two centuries losing things, and this is the first
-      substantial piece: the Balkans north of the Balkan range, gone permanently
-      twenty years before the Fourth Crusade took the capital.
+      Cuman cavalry, and within four years had a state. It is the first substantial piece
+      Byzantium lost in its long collapse: the Balkans north of the Balkan
+      range, gone permanently twenty years before the Fourth Crusade took the
+      capital, for the price of a wedding tax and a slap.
     source: fine-1987
     contested: false
   - year: 1205
     type: battle
     name: Adrianople
     changed: >-
-      Kalojan destroyed the Latin field army and captured the emperor Baldwin I,
-      who died in a Bulgarian prison. This corpus's Latin Empire record carries
-      the same day as its own first turning point and says the empire never
-      rebuilt a force capable of offensive war. From this side it is the moment a
-      twenty-year-old state established that it was the strongest power in the
-      Balkans, against a crusading army that had taken Constantinople the
-      previous year.
+      Kalojan destroyed the Latin field army with Cuman horse archers and
+      captured the emperor Baldwin I, who died in a Bulgarian prison. The Latin
+      empire of Constantinople never rebuilt a force capable of offensive war,
+      and it was sixteen months old. A state twenty years old had established
+      that it was the strongest power in the Balkans, against the army that had
+      taken Constantinople the year before.
     source: fine-1987
     contested: false
   - year: 1230
@@ -105,9 +104,10 @@ turning_points:
       Ivan Asen II destroyed the army of Epirus and captured and blinded
       Theodore Komnenos Doukas, who had crowned himself emperor at Thessalonica
       and was the likeliest man to retake Constantinople. Bulgaria absorbed
-      Macedonia, Thrace and Albania and became the dominant Balkan power. It
-      also removed Nicaea's principal Greek rival, which is why this corpus's
-      Nicaean record has Epirus disappearing from its account after 1230.
+      Macedonia, Thrace and Albania and became the dominant Balkan power for
+      about a decade. It also removed Nicaea's principal Greek rival, which is
+      why the weaker of the two claimants was the one that retook Constantinople
+      thirty-one years later.
     source: fine-1987
     contested: false
   - year: 1277
@@ -117,11 +117,10 @@ turning_points:
       A peasant raised the north-east against Mongol raids the government was
       not resisting, beat the Mongols, then beat the royal army and killed the
       tsar in it, and was crowned at Tarnovo — marrying the dowager empress to
-      make it legal. He held the throne about two years. It is the only occasion
-      in this corpus on which a man from outside the political class takes a
-      throne without the military or political class installing him, and it is a
-      verdict on a state that had been paying tribute rather than defending the
-      villages it taxed.
+      make it legal. He held the throne about two years. He assembled his own following out of the
+      countryside rather than being installed by any faction, which is very
+      rare, and the rising is a verdict on a state that had been paying tribute
+      to the Golden Horde rather than defending the villages it taxed.
     source: fine-1987
     contested: false
   - year: 1330
@@ -129,12 +128,11 @@ turning_points:
     name: Velbazhd
     changed: >-
       Serbia destroyed a Bulgarian army and the tsar Michael Shishman was killed
-      in the field; this corpus's Serbian record carries the same day as its own
-      second turning point. The balance in
-      the Balkans passed to Serbia for the following thirty years, and Bulgaria
-      spent them as a junior partner and then divided itself between two of Ivan
-      Alexander's sons. It is the last battle that decided anything before the
-      Ottomans arrived, and this corpus's Ottoman record walks into the result.
+      in the field. The balance in the Balkans passed to Serbia for the
+      following thirty years, and Bulgaria spent them as a junior partner and
+      then divided itself between two of Ivan Alexander's sons, who did not
+      cooperate. It is the last battle in the peninsula that decided anything
+      before the Ottomans crossed, and what they crossed into was its result.
     source: fine-1987
     contested: false
 

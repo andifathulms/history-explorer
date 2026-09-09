@@ -37,6 +37,24 @@ scripts_and_languages:
   administration: [Greek, Old Church Slavonic]
   writing_system: Greek, and from the tenth century Cyrillic
 
+# Not an edge: Kubrat's khanate on the Pontic steppe — Old Great Bulgaria to the
+# Byzantine writers — has no record here, and what the relation names is the
+# breakup that sent Asparuh west rather than a succession on the same ground.
+preceded_by_external:
+  - name: Old Great Bulgaria
+    type: partitioned from
+    year: null
+    note: >-
+      The Bulgars had held the steppe north of the Black Sea under Kubrat.
+      After his death the confederation broke up under Khazar pressure and his
+      sons went in different directions with what followed each of them; Asparuh
+      took his people west to the Danube delta and from there across the river
+      into imperial territory. The Byzantine writers who name the parent
+      khanate are describing something that had already dissolved, and give no
+      year for the division.
+    source: fine-1983
+    contested: true
+
 ended:
   type: conquest
   by: [byzantine]
@@ -78,10 +96,11 @@ turning_points:
     changed: >-
       Krum trapped the Byzantine army in a mountain pass on its way home from
       sacking Pliska and destroyed it. The emperor Nikephoros I was killed and
-      his skull was made into a drinking cup, which Krum used. It is one of very
-      few occasions in this corpus on which a Byzantine emperor died in battle,
-      and it established that the empire could not settle the Balkan question by
-      a campaign.
+      his skull was made into a drinking cup, which Krum used. Three Roman or Byzantine emperors
+      across fifteen hundred years died at enemy hands in the field and this is
+      one of them. It established that the empire could not settle the Balkan
+      question with a campaign, and it did not try again for two hundred
+      years.
     source: fine-1983
     contested: false
   - year: 864
@@ -103,9 +122,9 @@ turning_points:
       A council moved the capital to Preslav, replaced Greek with Slavonic in
       the church and expelled the Greek clergy. The literary school that
       followed produced the translations, the original compositions and — the
-      part everything else rests on — the script now called Cyrillic, developed
-      there from Greek uncials by the pupils of the mission this site's
-      Byzantine record's seventh chapter describes.
+      part everything else rests on — the script now called Cyrillic, built
+      there out of Greek uncial letters by the pupils of the Moravian mission,
+      whom Boris had taken in after Frankish clergy broke it up.
     source: fine-1983
     contested: false
   - year: 927

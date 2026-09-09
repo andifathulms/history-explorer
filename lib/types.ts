@@ -447,8 +447,10 @@ export interface Polity {
    *
    * Deliberately not an edge, and the reason is worth keeping. The Ancient Near
    * East carries Babylon twice, Assyria twice and Elam twice, and in each pair
-   * the later record is the same ground, the same gods and the same royal title
-   * resuming after a dark age. That is neither a succession nor a claim, and
+   * the later record is the same ground and the same royal title taken up again
+   * after a dark age. The rendered sentence says only that, and deliberately:
+   * the Bulgarian pair using this field was Christian on both sides of its
+   * interruption, so a line about the same gods would have been false there. That is neither a succession nor a claim, and
    * three separate pages had recorded that the edge vocabulary has no relation
    * meaning *the same thing, later*.
    *

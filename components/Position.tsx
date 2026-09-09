@@ -161,7 +161,12 @@ function EndedBy({ ending }: { ending: Ending }) {
  * It sits here because this is where a reader asks the question, and the copy
  * has to do the work the vocabulary cannot: say that the two records are one
  * thing without implying that one succeeded the other. No year is printed
- * because there is no year — nothing happened. See the note on `Polity.resumes`.
+ * because there is no year — nothing happened.
+ *
+ * The copy is addressed to a reader and names neither the field nor the edge
+ * vocabulary, under hard rule 12: this string renders on every page of every
+ * pair, and telling the reader how the data is stored was the habit the rule
+ * was written against. See the note on `Polity.resumes` for the reasoning.
  */
 function Resumption({ earlier, later }: { earlier?: Polity; later?: Polity }) {
   const other = earlier ?? later
@@ -169,7 +174,7 @@ function Resumption({ earlier, later }: { earlier?: Polity; later?: Polity }) {
   const when = formatRange(other.span.start.min, other.span.end.max)
   return (
     <p className="mb-8 max-w-measure border-l-2 border-kashi/30 pl-4 text-body text-debu-ink">
-      {earlier ? 'This record continues ' : 'This record is continued by '}
+      {earlier ? 'The same polity, earlier: ' : 'The same polity, later: '}
       {hasPage(other.id) ? (
         <Link
           href={`/polity/${other.id}/`}
@@ -180,10 +185,11 @@ function Resumption({ earlier, later }: { earlier?: Polity; later?: Polity }) {
       ) : (
         <span className="font-semibold text-debu-ink">{displayName(other.id)}</span>
       )}{' '}
-      <span className="tabular-nums">({when})</span> — the same ground, the same gods
-      and the same royal title, resuming after an interruption. That is not a
-      succession and it is not a claim, so it is not an edge and no thread draws
-      it. There is no date on it because nothing happened.
+      <span className="tabular-nums">({when})</span> &mdash; the same ground and the same
+      royal title, interrupted and then taken up again. Nothing was inherited and
+      nothing was claimed, which is why no year is given: the country stopped
+      being governed as itself, and later it was again, and there is no day on
+      which that turned over.
     </p>
   )
 }
