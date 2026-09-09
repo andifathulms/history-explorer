@@ -3687,3 +3687,63 @@ sources:
       Sphrantzes, which is what he is used for here. His interpretative
       chapters are Victorian in the worst sense — sweeping judgements about
       races and churches — and are not borrowed from. Out of copyright.
+
+  - id: procopius-vandalic
+    kind: primary
+    author: Procopius of Caesarea
+    title: "History of the Wars, Books III-IV: The Vandalic War"
+    translator: H. B. Dewing
+    publisher: Loeb Classical Library
+    year: 1916
+    note: >-
+      Belisarius's secretary was on the expedition that destroyed the Vandal
+      kingdom, and this is the account of somebody who was standing there. He
+      opens with a hundred years of Vandal history from Roman sources and then
+      shifts into eyewitness reporting, and the change of register is visible.
+      Out of copyright.
+
+  - id: cassiodorus-hodgkin
+    kind: primary
+    author: Cassiodorus
+    title: "The Letters of Cassiodorus, Being a Condensed Translation of the Variae Epistolae"
+    translator: Thomas Hodgkin
+    publisher: Henry Frowde
+    year: 1886
+    note: >-
+      The official correspondence of the Ostrogothic kingdom, written by the man
+      who ran it and published by him afterwards to demonstrate that his
+      influence had always been exerted on the side of good government. It is
+      therefore both the best source for how that state actually worked and a
+      defence brief. Hodgkin condenses and paraphrases some letters and
+      translates others in full, and his long biographical introduction is
+      itself the standard account of Cassiodorus's career. Out of copyright.
+
+  - id: gregory-brehaut
+    kind: primary
+    author: Gregory of Tours
+    title: History of the Franks
+    translator: Ernest Brehaut
+    publisher: Columbia University Press
+    year: 1916
+    note: >-
+      A Gallo-Roman bishop writing in the 580s about events partly within
+      living memory. He is a Catholic writing about Arians and a partisan of the
+      Frankish house, and the bias is not concealed: Goths flee "as was their
+      custom" and city walls fall down when Clovis looks at them. What he
+      preserves of what people said and did is worth having anyway, and the
+      partisanship is itself evidence about the period. Out of copyright.
+
+  - id: scott-1910
+    kind: primary
+    author: "The Visigothic Code (Forum Judicum)"
+    title: "The Visigothic Code (Forum Judicum)"
+    translator: S. P. Scott
+    publisher: Boston Book Company
+    year: 1910
+    note: >-
+      The Visigothic law in English, with a preface by its translator. Scott is
+      an enthusiast whose admiration for his subject runs well past the
+      evidence, and his rhapsodies about the Code's influence on all modern
+      systems of government should be discounted heavily. His concrete
+      statements about where and when the laws were still being applied are
+      another matter, and are what is used here. Out of copyright.
