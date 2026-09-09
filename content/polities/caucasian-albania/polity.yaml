@@ -49,6 +49,26 @@ ended:
   year: 822
   source: toumanoff-1963
 
+# The Mihranid line ended in murder, and the Albanian History names who took the
+# principality afterwards: another Albanian house, granted the sovereignty from
+# Baghdad. Neither has a record here, so the successor is named rather than
+# edged. The year is the capture of Babak, which is what the grant was payment
+# for.
+succeeded_by_external:
+  - name: the Eranshahik princes and the lordship of Khachen
+    year: 837
+    note: >-
+      Movses Dasxuranci records that Varaz-Trdat, eighth prince of the Mihranid
+      line, was killed by one Nerseh son of Philippe, who also killed his infant
+      son and took everything he had. The country did not pass to an outsider.
+      Sahl i Smbatean, of the Eranshahik house, captured the rebel Babak and
+      delivered him to the caliph, and was rewarded with sovereignty over
+      Armenia, Georgia and Albania, to rule regally over all three. His
+      descendants held Khachen, in the highland east of Lake Sevan, and the
+      Albanian catholicosate continued in that country long after the Albanian
+      church had been placed under Armenian authority.
+    source: dasxuranci-dowsett
+
 institutions:
   # The same arrangement as the two Christian kingdoms next door on this site:
   # hereditary noble houses holding their own districts and owing contingents

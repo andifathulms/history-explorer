@@ -38,6 +38,29 @@ scripts_and_languages:
   administration: [Georgian, Greek, Middle Persian]
   writing_system: The Georgian alphabet, from about the fifth century
 
+# The Georgian tradition names the regime Parnavaz overthrew, so the predecessor
+# is named rather than left blank — but marked contested, because the Macedonian
+# frame around it is a construction: Alexander never campaigned in the Caucasus.
+# What the Kartlis Tskhovreba preserves is a memory of a garrison government at
+# Mtskheta that a native dynasty replaced. No year: the chronology is built
+# backwards from Alexander's death and cannot be relied on.
+preceded_by_external:
+  - name: the governorship of Azon
+    type: overthrew
+    year: null
+    contested: true
+    note: >-
+      The Kartlis Tskhovreba has Alexander conquering Kartli, razing the walls of
+      Mtskheta and leaving a patrik named Azon to govern it with a hundred
+      thousand men, holding the four fortresses around the capital and taking
+      tribute from the Ossetians, the Leks and the Khazars. Parnavaz raised the
+      country against him, was joined by a thousand of Azon's own soldiers,
+      defeated and killed him at Artaani, and took the kingdom. Alexander did not
+      campaign in the Caucasus and the Macedonian framing is a later
+      construction; what the chronicle preserves is a garrison government at
+      Mtskheta that a native dynasty replaced.
+    source: kartlis-tskhovreba
+
 ended:
   type: conquest
   by: [sasanian]

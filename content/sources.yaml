@@ -3139,3 +3139,37 @@ sources:
       716 does not reconcile with the Hindu and Parsi dates given, and concludes
       that the first and later emigrations have been confused. Cited here with
       that provenance stated. Out of copyright.
+
+  - id: kartlis-tskhovreba
+    kind: book
+    title: "Kartlis Tskhovreba: A History of Georgia"
+    editor: Roin Metreveli and Stephen Jones
+    publisher: Artanuji
+    year: 2014
+    note: >-
+      The Georgian national chronicle in English. It is a compilation assembled
+      over centuries out of older material, and for the pre-Christian period it
+      is not a historical source in the ordinary sense: it has Alexander
+      conquering Kartli, which he never entered, and builds its chronology
+      backwards from his death. Cited here for what it is — the account the
+      Georgians themselves kept — and specifically for the regime Parnavaz is
+      remembered as overthrowing, the eight eristavis and the spaspet he is said
+      to have appointed, and the chronicle's own remark that the arrangement was
+      modelled on Persian practice.
+
+  - id: dasxuranci-dowsett
+    kind: book
+    author: Movses Dasxuranci
+    title: "The History of the Caucasian Albanians"
+    translator: C. J. F. Dowsett
+    series: London Oriental Series, vol. 8
+    publisher: Oxford University Press
+    year: 1961
+    note: >-
+      The only surviving history of Caucasian Albania, written in Armenian and
+      compiled in stages between the seventh and the tenth centuries. It is the
+      source for almost everything known about the Mihranid princes, and its
+      third book carries the events the country's own literature stops at: the
+      murder of the last Mihranid, the transfer of the principality to the
+      Eranshahik house, the raid on Partaw. Dowsett's edition prints the variant
+      readings and the chronological disputes rather than smoothing them.
