@@ -123,11 +123,6 @@ content/polities/idrisid/03-what-happened-to-the-pieces.mdx
 content/polities/idrisid/04-descent-as-a-claim.mdx
 content/polities/ilkhanate/01-conversion.mdx
 content/polities/ilkhanate/02-rashid-al-din.mdx
-content/polities/jafnid/01-the-frontier.mdx
-content/polities/jafnid/02-al-harith.mdx
-content/polities/jafnid/03-the-name.mdx
-content/polities/jafnid/04-a-church.mdx
-content/polities/jafnid/06-582.mdx
 content/polities/jin/02-the-double-bind.mdx
 content/polities/jin/03-two-defeats.mdx
 content/polities/jin/04-the-settlers.mdx
@@ -191,10 +186,6 @@ content/polities/mongol/02-westward.mdx
 content/polities/mongol/03-division.mdx
 content/polities/mughal/01-babur.mdx
 content/polities/mughal/02-the-settlement-breaks.mdx
-content/polities/nasrid-hira/01-the-other-side.mdx
-content/polities/nasrid-hira/02-the-forty-year-war.mdx
-content/polities/nasrid-hira/03-a-city-not-a-camp.mdx
-content/polities/nasrid-hira/04-602.mdx
 content/polities/nasrid/01-what-was-left.mdx
 content/polities/nasrid/03-the-alhambra.mdx
 content/polities/nasrid/04-the-help-that-stopped-coming.mdx
@@ -220,9 +211,6 @@ content/polities/ottoman/08-1922.mdx
 content/polities/pagan/01-ten-thousand-temples.mdx
 content/polities/pagan/02-merit.mdx
 content/polities/pagan/03-1287.mdx
-content/polities/palmyrene/03-zenobia.mdx
-content/polities/palmyrene/04-what-the-coins-say.mdx
-content/polities/palmyrene/05-aurelian.mdx
 content/polities/qara-khitai/01-a-dynasty-in-exile.mdx
 content/polities/qara-khitai/02-qatwan.mdx
 content/polities/qara-khitai/03-how-to-rule-what-you-cannot-outnumber.mdx

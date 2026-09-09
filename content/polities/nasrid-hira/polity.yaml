@@ -46,6 +46,13 @@ scripts_and_languages:
 # because Rome broke the phylarchate into fifteen pieces rather than taking it
 # over. Two empires, the same decision, two different endings in this
 # vocabulary, and chapter 5 argues that the decision was the same mistake.
+# No `preceded_by_external`. The Namara epitaph of 328 names an earlier king of
+# the Arabs at the same place and the connection to this house is argued about,
+# which is why the span opens at a round 300 rather than with him. Before that
+# there is no polity here to succeed: the Nasrids emerge as the leading family of
+# a confederacy on the Persian side of a frontier that Iran was in the process of
+# organising, not as the heirs of anybody.
+
 ended:
   type: dynastic replacement
   by: [sasanian]
