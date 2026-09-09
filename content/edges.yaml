@@ -596,6 +596,24 @@ edges:
   # Macedonian record filed under Iran before Islam, Palmyra and the two Arab
   # client dynasties all point outward to Rome or to Iran. This is the first
   # edge with both ends inside the region, and it is why it now draws a thread.
+  # Judaea was a Seleucid province whose population revolted over the
+  # interference with the Temple and never went back. `seceded from` is the
+  # right word for once: the Maccabees were the king's subjects, they fought his
+  # armies for two decades, and the independence was conceded rather than
+  # declared in a single act.
+  - from: seleucid
+    to: hasmonean
+    type: seceded from
+    year: -142
+    note: "Simon obtained the remission of tribute from a Seleucid claimant who
+           needed Judaean support against a rival, which is the point at which
+           the province stopped paying and started being a state. The revolt had
+           begun twenty-five years earlier over a king's interference with the
+           Temple, and neither side ever fought a decisive battle over the
+           outcome."
+    source: regev-2013
+    contested: false
+
   - from: hasmonean
     to: herodian
     type: overthrew

@@ -3611,3 +3611,33 @@ sources:
       source for the Mithridatic wars: he follows Pontus for forty-two years
       without cutting away. He is working from earlier accounts, mostly hostile
       ones, and preserves their figures without much scrutiny. Out of copyright.
+
+  - id: josephus-whiston
+    kind: primary
+    author: Flavius Josephus
+    title: "The Complete Works of Flavius Josephus"
+    translator: William Whiston
+    year: 1895
+    note: >-
+      A Jerusalem priest of Hasmonean descent who commanded in Galilee against
+      Rome, surrendered, predicted Vespasian's accession, and spent the rest of
+      his life in Rome writing the history of his own people for a Roman
+      audience under Flavian patronage. Every one of those facts shows. He is
+      the only continuous narrative source for the Hasmoneans and the Herods,
+      and he is settling scores throughout. Whiston's eighteenth-century
+      translation is the one that circulated. Out of copyright.
+
+  - id: ammianus-yonge
+    kind: primary
+    author: Ammianus Marcellinus
+    title: The Roman History of Ammianus Marcellinus
+    translator: C. D. Yonge
+    publisher: Bohn
+    year: 1902
+    note: >-
+      A Greek-speaking staff officer of the Roman army writing in Latin in the
+      380s, the last major historian of the empire before its western half went.
+      His geographical digressions describe the provinces as an officer saw them
+      — which cities were fortified, what the country produced, how it had been
+      acquired — and are cited here for what the Nabataean kingdom had become
+      two and a half centuries after it stopped existing. Out of copyright.

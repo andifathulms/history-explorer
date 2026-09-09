@@ -114,14 +114,6 @@ content/polities/han/01-han.mdx
 content/polities/han/02-the-examinations.mdx
 content/polities/han/04-the-conscript-empire.mdx
 content/polities/han/05-two-claims.mdx
-content/polities/hasmonean/01-a-family-with-no-claim.mdx
-content/polities/hasmonean/02-the-diadem.mdx
-content/polities/hasmonean/03-two-brothers-and-a-consul.mdx
-content/polities/hasmonean/04-37.mdx
-content/polities/herodian/01-king-by-a-vote.mdx
-content/polities/herodian/02-the-building.mdx
-content/polities/herodian/03-the-will.mdx
-content/polities/herodian/04-from-the-besiegers-camp.mdx
 content/polities/holy-roman-empire/01-none-of-the-three-words.mdx
 content/polities/holy-roman-empire/03-the-golden-bull.mdx
 content/polities/holy-roman-empire/04-a-framework-for-not-fighting.mdx
@@ -199,11 +191,6 @@ content/polities/mongol/02-westward.mdx
 content/polities/mongol/03-division.mdx
 content/polities/mughal/01-babur.mdx
 content/polities/mughal/02-the-settlement-breaks.mdx
-content/polities/nabataean/01-people-with-no-houses.mdx
-content/polities/nabataean/02-the-road.mdx
-content/polities/nabataean/03-a-client-that-lasted.mdx
-content/polities/nabataean/04-the-alphabet.mdx
-content/polities/nabataean/05-106.mdx
 content/polities/nasrid-hira/01-the-other-side.mdx
 content/polities/nasrid-hira/02-the-forty-year-war.mdx
 content/polities/nasrid-hira/03-a-city-not-a-camp.mdx

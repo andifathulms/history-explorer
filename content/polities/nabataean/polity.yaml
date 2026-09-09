@@ -46,6 +46,13 @@ scripts_and_languages:
 # province says Arabia was acquired rather than captured. Something military
 # happened — a legion moved in — and the vocabulary's `conquest` would assert a
 # campaign nobody recorded.
+# No `preceded_by_external`, and the blank is the first chapter's argument. The
+# Nabataeans enter the record in 312 BC as nomads with no houses, no agriculture
+# and no fixed property, whom a Successor army could not catch. They did not take
+# a state from anybody; they became one, in place, over about two centuries. The
+# Edomites had held some of the same ground much earlier and had moved west long
+# before, and nothing consulted describes a transfer between them.
+
 ended:
   type: gradual absorption
   by: [roman]
