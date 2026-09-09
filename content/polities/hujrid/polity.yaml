@@ -36,6 +36,23 @@ scripts_and_languages:
   administration: [Arabic]
   writing_system: null
 
+# What took the Hujrids' own ground is a tribe rather than a state, which is why
+# it is named here instead of as an edge: the Banu Asad, who killed the last
+# Kindite king set over them and did not replace him with anybody. No `type`:
+# the row renders "<this polity> <type> <name>", and any active verb would have
+# the Hujrids doing something to the Asad rather than the reverse.
+succeeded_by_external:
+  - name: the Banu Asad
+    year: null
+    note: >-
+      Hujr ibn al-Harith was the last of the family to hold a position in
+      central Arabia, over the Banu Asad, and they killed him. Nothing replaced
+      the arrangement. The confederation broke into its component tribes, which
+      spent the following decades fighting each other, and the leadership of the
+      central Arabian tribes reverted to being a thing that the king of Himyar
+      could offer to a candidate rather than a thing anybody held.
+    source: fisher-2011
+
 ended:
   type: fragmentation
   by: []

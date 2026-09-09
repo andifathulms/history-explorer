@@ -36,6 +36,25 @@ scripts_and_languages:
 # state as the commissioning power is a clean single answer, and the corpus does
 # carry the Ottomans; the field names them because the war was fought on their
 # authority and in their name.
+# Diriyah was not an independent place before 1727. Palgrave, collecting the
+# local account in 1862, has the Al Saud holding the village in vassalage from
+# the Al Mu'ammar of al-'Uyayna — who are also the family that expelled the
+# preacher, which is how he came to be at Diriyah at all. `vassal of` is the
+# active reading the row needs: "Emirate of Diriyah vassal of the Al Mu'ammar".
+preceded_by_external:
+  - name: the Al Mu'ammar of al-'Uyayna
+    type: vassal of
+    year: null
+    note: >-
+      Before it ruled Arabia, Diriyah was a village held in vassalage from the
+      Al Mu'ammar, the dominant family of the Wadi Hanifa, whose own seat was
+      al-'Uyayna a few hours up the valley. Two things came out of that
+      relationship. The Al Saud were the Al Mu'ammar's subordinates for about
+      fifty years before the compact of 1744; and it was the ruler of al-'Uyayna
+      who, under pressure from outside, expelled Muhammad ibn Abd al-Wahhab and
+      sent him down the wadi to the settlement that took him in.
+    source: palgrave-1865
+
 ended:
   type: conquest
   by: [ottoman]

@@ -35,6 +35,14 @@ scripts_and_languages:
   administration: [Arabic]
   writing_system: Arabic
 
+# No `preceded_by_external`, and the blank is deliberate. The sharifate was
+# constituted rather than inherited: from about 968 an office that had existed
+# as an appointment became hereditary in a Hasanid family under Fatimid
+# suzerainty. What came before it at Mecca was the same city under the same kind
+# of Alid amirs, answering to Egypt — an earlier phase of the arrangement rather
+# than a different polity. The end chapter says the sharifate succeeded nobody
+# and nobody succeeded it, and the first half of that is not a gap.
+#
 # `by` is empty because the Saudi state has no record here. The successor is
 # named below instead of left to a blank line. No `type`: the row renders
 # "<this polity> <type> <name>", so an active verb would read as the sharifate

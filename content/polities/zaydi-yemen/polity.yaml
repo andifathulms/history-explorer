@@ -38,6 +38,27 @@ scripts_and_languages:
   administration: [Arabic]
   writing_system: Arabic
 
+# No `preceded_by_external`, and the blank is the record's own argument rather
+# than an unfilled field: the office was not taken from anybody. Tribes near
+# Sa'da sent to Medina for an arbitrator in 897 and the imamate begins with his
+# arrival, on ground no polity was holding.
+#
+# `by` is empty because the officers who took the state in 1962 were not a
+# polity; the republic they founded is named below.
+succeeded_by_external:
+  - name: the Yemen Arab Republic
+    year: 1962
+    note: >-
+      Army officers shelled the palace at Sana'a in September 1962 and declared
+      a republic; the imam escaped north and raised the tribes, and the war ran
+      for eight years with an Egyptian expeditionary force on the republican
+      side. An American assessment a year in found the republicans and Egyptians
+      holding the towns and the coastal lowlands, unable to cope with the
+      royalist tribes of the northern hinterland, and the republican president
+      already in trouble with his southern Shafi'i supporters for appointing
+      northern Zaydis to important posts. No imam was proclaimed again.
+    source: cia-1963-yemen
+
 ended:
   type: internal usurpation
   by: []

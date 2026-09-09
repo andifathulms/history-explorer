@@ -2374,6 +2374,23 @@ edges:
     source: barber-2012
     contested: false
 
+  # A missionary took the caliphate's provincial capital in eastern Arabia and
+  # the province stopped being administered from Baghdad. `seceded from` is the
+  # nearest the vocabulary comes: the Qarmatians were not Abbasid officials and
+  # did not claim to be, but the ground and the people were the caliphate's
+  # before 899 and were not afterwards, and no other type fits a province leaving
+  # without the caliphate itself being conquered or overthrown.
+  - from: abbasid
+    to: qarmatian
+    type: seceded from
+    year: 899
+    note: "Abu Sa'id al-Jannabi, an Isma'ili missionary, took Hajar — the Abbasid
+           seat in Bahrayn — and then al-Hasa, and founded a state that
+           afterwards took tribute from the caliphate it had detached itself
+           from and recognised neither it nor its Fatimid rival."
+    source: daftary-2007
+    contested: false
+
   # ---- South Arabia: the coastal plain, the port, and the last dynasty ----
 
   - from: ziyadid
