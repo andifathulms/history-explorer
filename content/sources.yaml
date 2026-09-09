@@ -3868,3 +3868,46 @@ sources:
       1389; the pamphlet itself is evidence about 1916, which is why it is used
       here. Seton-Watson says frankly that they are untranslatable and that he
       has aimed at something recitable. Out of copyright.
+
+  - id: ibn-battuta-lee
+    kind: primary
+    author: Ibn Battuta
+    title: The Travels of Ibn Batuta
+    translator: Samuel Lee
+    publisher: Oriental Translation Committee
+    year: 1829
+    note: >-
+      The earliest full English version, made from an abridgement rather than
+      the complete Arabic text, so it is shorter and looser than the modern
+      translations and its transliterations are eccentric. It is used here for
+      the Anatolian chapters, where Ibn Battuta is describing what he walked
+      through in about 1332 — a different sultan in every town, and the akhi
+      brotherhoods that fed him in all of them. Out of copyright.
+
+  - id: polo-yule
+    kind: primary
+    author: Marco Polo
+    title: The Book of Ser Marco Polo
+    translator: Henry Yule
+    publisher: John Murray
+    year: 1903
+    note: >-
+      Yule's third edition, revised by Henri Cordier. Polo's own text on Lesser
+      Armenia and Turcomania is a page each and reads like a merchant's briefing
+      note, which is what makes it useful: he says what was traded and who was
+      paying tribute to whom. Yule's annotation is several times the length of
+      the text and carries the nineteenth-century scholarship on the Cilician
+      kingdom, including where its last king ended up. Out of copyright.
+
+  - id: rumi-nicholson-1898
+    kind: primary
+    author: Jalal al-Din Rumi
+    title: Selected Poems from the Divani Shamsi Tabriz
+    translator: Reynold A. Nicholson
+    publisher: Cambridge University Press
+    year: 1898
+    note: >-
+      Nicholson's first book, with the Persian and the English facing and a
+      commentary he later thought too free. The poems are the ghazals Rumi wrote
+      under the name of Shams of Tabriz, at Konya, in the decades on either side
+      of the Mongol conquest of the sultanate. Out of copyright.

@@ -52,6 +52,18 @@ institutions:
   legitimation: { values: [descent], source: peacock-yildiz-2013 }
 
 turning_points:
+  - year: 1221
+    type: siege
+    name: "Alanya"
+    changed: >-
+      Kayqubad I took the Mediterranean port, seven years after Sinop had given
+      him the Black Sea, and rebuilt it with a dockyard. A plateau state that
+      holds both coasts is not landlocked but a bridge, and can charge for the
+      crossing; the caravanserais, the customs revenue and the treaties with
+      the Italian communes all follow from having bought both ends of one line.
+    source: peacock-yildiz-2013
+    contested: false
+
   - year: 1243
     type: battle
     name: "Kosedag"
@@ -60,10 +72,24 @@ turning_points:
       occupy Anatolia: it took tribute and left the dynasty at Konya as a
       vassal for two more generations while Ilkhanid governors decided who sat
       there. The marches filled with independent Turkmen beyliks the sultanate
-      could no longer restrain, one of which is where this site's Ottoman page
-      begins.
+      could no longer restrain and the Ilkhanate had no interest in policing,
+      and one of them was a small principality on the Byzantine frontier at
+      Sogut.
     source: peacock-yildiz-2013
     contested: false
+
+  - year: 1277
+    type: revolt
+    name: "Karaman takes Konya"
+    changed: >-
+      The Karamanids seized the capital while the sultanate was an Ilkhanid
+      tributary and installed a man they said was a Seljuk. It collapsed within
+      weeks and the claim to be the heirs of Rum was asserted for the next two
+      centuries anyway — against the Ottomans, who had no such claim and never
+      needed one. It is the clearest measure of what the Seljuk name was still
+      worth after the state behind it had stopped working.
+    source: peacock-yildiz-2013
+    contested: true
 
 measures:
   reach_km2: null

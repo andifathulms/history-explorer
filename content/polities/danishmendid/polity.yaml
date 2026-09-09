@@ -36,6 +36,23 @@ scripts_and_languages:
   administration: [Persian, Greek, Arabic]
   writing_system: Perso-Arabic
 
+# Not an edge: the Byzantine theme system in central Anatolia was not a polity
+# and what replaced it here was a warband, so there is no predecessor to name in
+# the ordinary sense. What the row records is the removal that made the space.
+preceded_by_external:
+  - name: the Byzantine frontier in Anatolia
+    year: 1071
+    note: >-
+      Manzikert did not hand Anatolia to anyone. It broke the frontier command
+      that had held the eastern plateau, and what moved in behind it was not an
+      army under a single authority but a number of Turkmen groups under their
+      own leaders, each taking what it could hold. Two of them became states.
+      The Danishmendids took the centre and north-east and inherited the towns,
+      the taxpayers and the roads of the province they had displaced, which is
+      why they were minting in Greek within sixty years.
+    source: alexiad-dawes
+    contested: true
+
 ended:
   type: conquest
   by: [rum]
@@ -62,9 +79,10 @@ turning_points:
     type: battle
     name: "The capture of Bohemond"
     changed: >-
-      Emir Gazi took the prince of Antioch prisoner and held him for three
-      years, and the following year a Danishmendid and Seljuk alliance
-      destroyed the crusade sent partly to retrieve him. It established that
+      The Danishmendids took the prince of Antioch prisoner and held him three
+      years — the sources differ over whether the captor was the founder or the
+      son who succeeded him — and the following year a Danishmendid and Seljuk
+      alliance destroyed the crusade sent partly to retrieve him. It established that
       the new Turkish states in Anatolia could beat western armies in the
       field, and it made the Danishmendids, briefly, the most formidable power
       in the peninsula.
