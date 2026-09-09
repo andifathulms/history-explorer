@@ -38,6 +38,21 @@ scripts_and_languages:
   administration: [Persian, Arabic]
   writing_system: Perso-Arabic
 
+# The house that killed the last Bavand has no record here, so the successor is
+# named rather than edged.
+succeeded_by_external:
+  - name: the Afrasiyabid kiyas of Chalav
+    year: 1349
+    note: >-
+      The continuation of Ibn Isfandiyar's chronicle names the killing exactly:
+      Malik Fakhr al-Dawla Hasan was murdered in the bath at Amul on 17 April
+      1349 by Ali Kiya son of Afrasiyab and his brother Muhammad Kiya, of the
+      rival kiyas of Chalav, whose spiritual director Sayyid Qiwam al-Din
+      disliked the king for his supposed heresy. The Afrasiyabids held
+      Mazandaran afterwards, and were displaced within a generation by the
+      Marashi sayyids of Qiwam al-Din's own line.
+    source: ibn-isfandiyar-browne
+
 ended:
   type: internal usurpation
   by: []

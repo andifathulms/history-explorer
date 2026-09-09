@@ -66,10 +66,6 @@ content/polities/aydinid/03-smyrna.mdx
 content/polities/ayutthaya/01-what-was-carried-north.mdx
 content/polities/ayutthaya/03-1688.mdx
 content/polities/ayutthaya/04-1767.mdx
-content/polities/bavandid/01-the-mountains-nobody-wanted.mdx
-content/polities/bavandid/02-three-lines.mdx
-content/polities/bavandid/03-shah-ghazi.mdx
-content/polities/bavandid/04-the-local-history.mdx
 content/polities/buyid/02-paying-an-army-with-land.mdx
 content/polities/buyid/03-shahanshah.mdx
 content/polities/buyid/04-the-shii-century.mdx
@@ -415,11 +411,6 @@ content/polities/saffarid/02-sistan-and-the-ayyars.mdx
 content/polities/saffarid/04-amr.mdx
 content/polities/saffarid/05-the-first-persian-qasida.mdx
 content/polities/saffarid/06-back-to-sistan.mdx
-content/polities/samanid/03-nasr-ii-bukhara.mdx
-content/polities/samanid/04-the-trade-in-men.mdx
-content/polities/samanid/05-what-bukhara-was.mdx
-content/polities/samanid/06-943.mdx
-content/polities/samanid/08-999.mdx
 content/polities/sarbadar/01-heads-on-the-gallows.mdx
 content/polities/sarbadar/02-two-parties.mdx
 content/polities/sarbadar/03-not-a-dynasty.mdx
@@ -461,8 +452,6 @@ content/polities/tahirid-yemen/01-picking-up-the-state.mdx
 content/polities/tahirid-yemen/02-the-port-that-stopped-paying.mdx
 content/polities/tahirid-yemen/03-the-amiriyya.mdx
 content/polities/tahirid-yemen/04-1517.mdx
-content/polities/tahirid/03-the-other-half.mdx
-content/polities/tahirid/04-the-books.mdx
 content/polities/tang/02-an-lushan.mdx
 content/polities/tang/04-salt.mdx
 content/polities/tang/05-what-was-copied.mdx

@@ -1453,6 +1453,17 @@ edges:
     source: litvinsky-1996
     contested: false
 
+  - from: sasanian
+    to: bavandid
+    type: absorbed remnants of
+    year: 651
+    note: "Bav established himself in the Elburz as the Sasanian empire came
+           apart, and what his house preserved for the next seven centuries was
+           Sasanian: the title ispahbadh, a claimed descent from a son of
+           Kavadh, and Zoroastrianism, in mountains the Arab armies never took."
+    source: bosworth-1996
+    contested: false
+
   - from: abbasid
     to: shirvanshah
     type: seceded from
