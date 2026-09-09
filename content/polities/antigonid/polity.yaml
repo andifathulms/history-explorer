@@ -45,6 +45,24 @@ scripts_and_languages:
 # divided Macedonia into four republics forbidden to trade or intermarry with
 # each other. `conquest` is right and understates it: Rome did not replace the
 # king, it abolished the office.
+# Macedon between 323 and 277 was fought over by a succession of claimants and
+# invaded by the Gauls; what Gonatas took over was not a polity but a wreck.
+# `overthrew` is wrong and `conquered by` is passive, so no `type`: the row
+# prints the year, the name and the note.
+preceded_by_external:
+  - name: the Argead kingdom and the forty years after it
+    year: -277
+    note: >-
+      Alexander's own house held Macedon until his family was killed off in the
+      wars of his successors, and the country then spent four decades being
+      claimed, invaded and briefly held by one Successor or another, with a
+      Gallic invasion in the middle of it that killed one claimant in battle.
+      What Antigonus Gonatas took in 277, by destroying a Gallic army at
+      Lysimacheia, was the kingdom Alexander had started from, with no
+      functioning dynasty in it and no continuity to inherit — which is part of
+      why his family never claimed any.
+    source: errington-1990
+
 ended:
   type: conquest
   by: [roman]

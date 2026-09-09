@@ -43,6 +43,22 @@ scripts_and_languages:
 # happened once in this corpus, and one case is not a pattern — the same
 # discipline the Zand record applies to a ruler claiming authority on behalf of
 # the governed. Chapter 4 carries what the field cannot.
+# Philetaerus held Pergamum and its treasury for Lysimachus and kept both when he
+# changed sides, which is a secession from a kingdom that has no record here.
+# `seceded from` is the active reading the row needs.
+preceded_by_external:
+  - name: the kingdom of Lysimachus
+    type: seceded from
+    year: -282
+    note: >-
+      Lysimachus, one of Alexander's officers, held Thrace and western Asia
+      Minor and kept a war chest of nine thousand talents in the fortress of
+      Pergamum under an officer named Philetaerus. In 282 Philetaerus went over
+      to Seleucus, taking the fortress and the money with him, and Lysimachus
+      was dead within a year. The kingdom did not survive its founder; the
+      treasurer's family did, and built a state on what had been in the vault.
+    source: allen-1983
+
 ended:
   type: gradual absorption
   by: [roman]

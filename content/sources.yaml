@@ -3581,3 +3581,33 @@ sources:
       Victorian churchman who thinks the sect fanatical. Read past both and it
       is the fullest continuous narrative any Arabian polity of this period
       left. Out of copyright.
+
+  - id: polybius-shuckburgh
+    kind: primary
+    author: Polybius
+    title: The Histories of Polybius
+    translator: Evelyn S. Shuckburgh
+    publisher: Macmillan
+    year: 1889
+    note: >-
+      An Achaean statesman deported to Italy after Pydna as one of the thousand
+      hostages, who spent seventeen years in Rome, became a friend of the
+      Scipios, and wrote to explain to Greeks how the Romans had conquered the
+      world in fifty-three years. He is a participant, a detainee and an admirer
+      at once, which is why his account of Roman diplomacy is so much colder
+      than his account of Roman virtue. Out of copyright.
+
+  - id: appian-white
+    kind: primary
+    author: Appian of Alexandria
+    title: "The Roman History of Appian of Alexandria, Volume II: The Foreign Wars"
+    translator: Horace White
+    publisher: Macmillan
+    year: 1899
+    note: >-
+      A second-century Alexandrian who wrote Rome's history arranged by enemy
+      rather than by year, so that each conquered people gets a continuous
+      narrative from beginning to end. That structure makes him the best single
+      source for the Mithridatic wars: he follows Pontus for forty-two years
+      without cutting away. He is working from earlier accounts, mostly hostile
+      ones, and preserves their figures without much scrutiny. Out of copyright.
