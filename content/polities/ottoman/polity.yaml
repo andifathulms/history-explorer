@@ -31,6 +31,26 @@ scripts_and_languages:
   administration: [Ottoman Turkish]
   writing_system: Perso-Arabic
 
+# Not an edge: the Republic of Turkey has no record here, and the relation is a
+# state's own assembly abolishing the monarchy over it rather than one polity
+# succeeding another. `year` is 1922, when the sultanate went; the caliphate
+# followed in March 1924 and the dynasty was expelled with it.
+succeeded_by_external:
+  - name: the Republic of Turkey
+    year: 1922
+    note: >-
+      The Grand National Assembly at Ankara abolished the sultanate on 1
+      November 1922, having already governed the Anatolian core through three
+      years of war against the partition the victors of 1918 had imposed. Mehmed
+      VI left Constantinople a fortnight later on a British warship, having
+      appealed for protection in his capacity as caliph. The caliphate was
+      separated off, held for sixteen months by a cousin, and abolished on 3
+      March 1924 in the same bill that transferred the religious schools to the
+      ministry of education; the dynasty was forbidden to reside in the country.
+      Mustafa Kemal was twice offered the caliphate and refused it.
+    source: nutuk-1929
+    contested: false
+
 ended:
   type: fragmentation
   by: []

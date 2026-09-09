@@ -37,9 +37,6 @@ content/polities/asante/02-kumasi.mdx
 content/polities/asante/03-the-great-roads.mdx
 content/polities/asante/04-the-fifth-case.mdx
 content/polities/asante/05-two-parties.mdx
-content/polities/aydinid/01-the-beylik-that-took-to-ships.mdx
-content/polities/aydinid/02-a-mosque-out-of-ephesus.mdx
-content/polities/aydinid/03-smyrna.mdx
 content/polities/ayutthaya/01-what-was-carried-north.mdx
 content/polities/ayutthaya/03-1688.mdx
 content/polities/ayutthaya/04-1767.mdx
@@ -93,10 +90,6 @@ content/polities/kanem-bornu/03-horses-and-people.mdx
 content/polities/kanem-bornu/04-idris-alooma.mdx
 content/polities/kanem-bornu/05-the-letters.mdx
 content/polities/kanem-bornu/06-1893.mdx
-content/polities/karamanid/01-out-of-the-mountains.mdx
-content/polities/karamanid/02-the-claim-and-the-decree.mdx
-content/polities/karamanid/03-holding-konya.mdx
-content/polities/karamanid/04-two-centuries-of-being-the-rival.mdx
 content/polities/khazar/01-the-wall.mdx
 content/polities/khazar/02-the-correspondence.mdx
 content/polities/kilwa/01-where-the-wind-stops.mdx
@@ -145,14 +138,6 @@ content/polities/nasrid/01-what-was-left.mdx
 content/polities/nasrid/03-the-alhambra.mdx
 content/polities/nasrid/04-the-help-that-stopped-coming.mdx
 content/polities/nasrid/05-1492.mdx
-content/polities/ottoman/01-a-frontier-beylik.mdx
-content/polities/ottoman/02-the-balkans-first.mdx
-content/polities/ottoman/03-1453.mdx
-content/polities/ottoman/04-selim.mdx
-content/polities/ottoman/05-suleyman-and-the-law.mdx
-content/polities/ottoman/06-the-devshirme.mdx
-content/polities/ottoman/07-the-second-empire.mdx
-content/polities/ottoman/08-1922.mdx
 content/polities/pagan/01-ten-thousand-temples.mdx
 content/polities/pagan/02-merit.mdx
 content/polities/pagan/03-1287.mdx
@@ -182,10 +167,6 @@ content/polities/tang/04-salt.mdx
 content/polities/tang/05-what-was-copied.mdx
 content/polities/tibetan-empire/01-plateau.mdx
 content/polities/tibetan-empire/02-the-council.mdx
-content/polities/trebizond/01-two-hundred-miles-of-coast.mdx
-content/polities/trebizond/02-the-city-and-the-road.mdx
-content/polities/trebizond/03-bessarion.mdx
-content/polities/trebizond/04-the-last-of-the-romans.mdx
 content/polities/uyghur-khaganate/01-manichaeans.mdx
 content/polities/uyghur-khaganate/02-what-they-left.mdx
 content/polities/wattasid/01-the-regents.mdx
