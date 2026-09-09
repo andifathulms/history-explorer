@@ -46,12 +46,27 @@ scripts_and_languages:
 # because Rome broke the phylarchate into fifteen pieces rather than taking it
 # over. Two empires, the same decision, two different endings in this
 # vocabulary, and chapter 5 argues that the decision was the same mistake.
-# No `preceded_by_external`. The Namara epitaph of 328 names an earlier king of
-# the Arabs at the same place and the connection to this house is argued about,
-# which is why the span opens at a round 300 rather than with him. Before that
-# there is no polity here to succeed: the Nasrids emerge as the leading family of
-# a confederacy on the Persian side of a frontier that Iran was in the process of
-# organising, not as the heirs of anybody.
+# The Namara epitaph is the one thing standing before this dynasty, and whether
+# its king belongs to it is exactly what is argued about — hence `contested` and
+# a null year on the field while the span still opens at a round 300. No `type`:
+# the relationship claimed on the stone is not one the succession vocabulary has
+# a verb for, and an active verb would assert the connection the entry is
+# explicitly not asserting.
+preceded_by_external:
+  - name: the kingship of Imru' al-Qays of the Namara epitaph
+    year: null
+    contested: true
+    note: >-
+      A funerary inscription of 328, cut at Namara in the basalt country
+      south-east of Damascus, commemorates Imru' al-Qays son of Amr, "king of
+      all the Arabs", and claims that he ruled the two Asads and Nizar and their
+      kings and campaigned as far as Najran. It is the earliest substantial text
+      in the Arabic language and the earliest attestation of an Arab kingship on
+      this frontier — and it is written in Nabataean letters. Whether the man
+      was a Nasrid, and whether he served Persia or Rome or both in turn, is
+      argued about and cannot be settled, which is why the dynasty is dated from
+      a round 300 instead of from him.
+    source: fisher-2011
 
 ended:
   type: dynastic replacement

@@ -46,12 +46,27 @@ scripts_and_languages:
 # province says Arabia was acquired rather than captured. Something military
 # happened — a legion moved in — and the vocabulary's `conquest` would assert a
 # campaign nobody recorded.
-# No `preceded_by_external`, and the blank is the first chapter's argument. The
-# Nabataeans enter the record in 312 BC as nomads with no houses, no agriculture
-# and no fixed property, whom a Successor army could not catch. They did not take
-# a state from anybody; they became one, in place, over about two centuries. The
-# Edomites had held some of the same ground much earlier and had moved west long
-# before, and nothing consulted describes a transfer between them.
+# The predecessor is a people rather than a state, and the transfer is a movement
+# rather than an event, which is why it is an external and carries no `type`: the
+# row would otherwise read as the Nabataeans doing something to Edom, and nobody
+# recorded them doing anything to Edom at all. `contested` because the dating and
+# the mechanism are both argued over.
+preceded_by_external:
+  - name: the kingdom of Edom
+    year: null
+    contested: true
+    note: >-
+      Edom held the mountains east of the Arabah, and Josephus places its
+      original territory in Gebalene — the highland country the Nabataeans
+      afterwards ruled from Petra. At some point in the centuries after the
+      Babylonian conquest the Edomites shifted west, into the country that
+      became Idumaea and gave the Herods their origin, and the ground behind
+      them was occupied by Arab nomads whom a Macedonian army found there in 312
+      BC. No source describes a war, a treaty or a date. What can be said is
+      that one people held that country and then another did, and that the
+      second did not take it from the first so much as move into what the first
+      had left.
+    source: josephus-whiston
 
 ended:
   type: gradual absorption
