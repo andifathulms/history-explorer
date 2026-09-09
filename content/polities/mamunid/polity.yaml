@@ -29,6 +29,24 @@ scripts_and_languages:
   administration: [Persian, Arabic]
   writing_system: Perso-Arabic
 
+# The Afrighids have no record here, so the predecessor is named rather than
+# edged. The note carries al-Biruni's charge because he is the only witness and
+# because he was writing about the founding of the house that then employed him.
+preceded_by_external:
+  - name: the Afrighid Khwarazmshahs
+    type: overthrew
+    year: 995
+    note: >-
+      The Afrighids had held the title Khwarazmshah at Kath, on the eastern side
+      of the delta, since about the fourth century, through the Achaemenids, the
+      Sasanians and three centuries of Islam. The Ma'munids of Gurganj took the
+      eastern capital in 995 and the title with it. Al-Biruni, born in Kath and
+      about twenty at the time, wrote afterwards that the conqueror had the
+      Khwarazmian written records destroyed and the men who could read the old
+      script killed or dispersed — a charge he makes in the course of explaining
+      why he cannot reconstruct the Khwarazmian calendar.
+    source: chi-4
+
 ended:
   type: conquest
   by: [ghaznavid]

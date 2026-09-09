@@ -129,12 +129,6 @@ content/polities/ghana/04-1076.mdx
 content/polities/gokturk/01-gokturk.mdx
 content/polities/gokturk/02-the-inscriptions.mdx
 content/polities/golden-horde/02-the-yarlyk.mdx
-content/polities/great-seljuk/01-dandanaqan.mdx
-content/polities/great-seljuk/02-the-followers-they-could-not-hold.mdx
-content/polities/great-seljuk/03-tughril-in-baghdad.mdx
-content/polities/great-seljuk/04-manzikert.mdx
-content/polities/great-seljuk/06-the-siyasatnama.mdx
-content/polities/great-seljuk/07-a-family-not-a-state.mdx
 content/polities/great-zimbabwe/01-houses-of-stone.mdx
 content/polities/great-zimbabwe/02-the-stone.mdx
 content/polities/gupta/01-gupta.mdx
@@ -193,10 +187,6 @@ content/polities/jin/02-the-double-bind.mdx
 content/polities/jin/03-two-defeats.mdx
 content/polities/jin/04-the-settlers.mdx
 content/polities/jin/05-the-name-taken-again.mdx
-content/polities/kakuyid/01-son-of-the-maternal-uncle.mdx
-content/polities/kakuyid/02-the-settled-decade.mdx
-content/polities/kakuyid/03-what-they-built-at-yazd.mdx
-content/polities/kakuyid/04-the-last-one-died-at-qatwan.mdx
 content/polities/kanem-bornu/01-eight-hundred-years.mdx
 content/polities/kanem-bornu/02-the-girgam.mdx
 content/polities/kanem-bornu/03-horses-and-people.mdx
@@ -248,10 +238,6 @@ content/polities/mali/01-a-song-for-a-founding.mdx
 content/polities/mali/03-the-other-end.mdx
 content/polities/mali/04-mansa-musa.mdx
 content/polities/mali/05-what-the-visitors-saw.mdx
-content/polities/mamunid/01-the-delta-and-the-line-they-displaced.mdx
-content/polities/mamunid/02-the-court-at-gurganj.mdx
-content/polities/mamunid/03-the-calendar-he-could-not-reconstruct.mdx
-content/polities/mamunid/04-one-sentence-in-the-friday-sermon.mdx
 content/polities/marinid/01-a-dynasty-without-a-doctrine.mdx
 content/polities/marinid/02-what-they-built-instead.mdx
 content/polities/marinid/03-the-book-they-paid-for.mdx
