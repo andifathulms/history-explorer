@@ -40,6 +40,40 @@ scripts_and_languages:
   administration: [Latin, Ligurian]
   writing_system: Latin
 
+# Neither of these is an edge. The kingdom of Italy under which Genoa was a
+# bishop's city has no record here and the relation is an emancipation with no
+# date anybody can cite; the house of Savoy has none either, and 1815 was a
+# transfer arranged between Britain, Austria and Piedmont over the Genoese
+# delegates' objections.
+preceded_by_external:
+  - name: the bishops of Genoa
+    year: null
+    note: >-
+      Before the commune there was an episcopal city inside a kingdom of Italy
+      that had long since stopped governing it. The Compagna Communis of 1099 is
+      a sworn association of the city's own men with elected consuls, renewed
+      for a term of years — an arrangement made for a trading voyage, applied to
+      a town. Nothing was overthrown, and no date can be given for the moment
+      the bishop stopped ruling, because it was never a moment.
+    source: bent-1881
+    contested: true
+
+succeeded_by_external:
+  - name: the Kingdom of Sardinia
+    year: 1815
+    note: >-
+      After the fall of Napoleon the British commander in Genoa restored a
+      provisional republican government while awaiting instructions; the
+      instructions were that Genoa had already been assigned to the house of
+      Savoy, a policy conceived in London by Pitt, carried by Castlereagh and
+      agreed by Metternich. Genoese envoys argued against it at Paris and at
+      Vienna. The emperor Francis told one of them that the republic was no
+      longer of their days. The transfer was notified publicly on 27 December
+      1814 and confirmed at Vienna, and the city entered the Sardinian dominions
+      as a duchy.
+    source: bent-1881
+    contested: false
+
 ended:
   type: conquest
   by: []
@@ -82,9 +116,10 @@ turning_points:
       Genoa allied with the Nicaean government in exile against the Latin empire
       and Venice, and was promised exemption from Byzantine customs, quarters in
       every major port and the ports of the Black Sea. Constantinople fell to
-      Nicaea weeks later. It is the mirror of the golden bull of 1082 on the
-      Venetian record — a Greek emperor buying a fleet with his own customs
-      revenue — and it is where Genoa acquires the position it holds for the
+      Nicaea weeks later. It is the mirror of the customs exemption a
+      Byzantine emperor had sold Venice in 1082 — the same office buying a fleet
+      twice with its own revenue, from two different republics, neither time
+      reversibly — and it is where Genoa acquires the position it holds for the
       next two hundred years.
     source: epstein-1996
     contested: false
@@ -95,8 +130,8 @@ turning_points:
       The Genoese fleet destroyed the Pisan one off the Tuscan coast and took
       several thousand prisoners, many of whom died in Genoa over the following
       years. Pisa never recovered as a naval power. It reduced the contest for
-      the western Mediterranean from three parties to two, and everything after
-      it on this record and the Venetian one is those two.
+      the western Mediterranean from three parties to two, and everything that
+      happened in it afterwards was Genoa and Venice.
     source: epstein-1996
     contested: false
   - year: 1380
@@ -105,9 +140,9 @@ turning_points:
     changed: >-
       Genoa took the entrance to the Venetian lagoon, came closer to destroying
       Venice than anybody else ever did, and lost the fleet that had done it to
-      a winter blockade. The Levant trade was conceded. This record's centre of
-      gravity moves after 1380 from shipping to finance, and the next turning
-      point is what that looks like.
+      a winter blockade. The Levant trade was conceded. Genoa's centre of
+      gravity moved after 1380 from shipping to finance, and the city got richer
+      doing it.
     source: epstein-1996
     contested: false
   - year: 1407
@@ -119,8 +154,9 @@ turning_points:
       then, as the state failed to pay, took over the administration of the
       revenues themselves and eventually of Corsica and the Black Sea colonies.
       A public bank governed a colonial empire on behalf of its shareholders for
-      most of two centuries. Nothing else in this corpus is shaped like it, and
-      the vocabulary this site codes institutions in has no way to say so.
+      most of two centuries. It did not lend to the republic; it was the
+      republic's debt, reorganised into tradable shares, and it acquired an
+      empire by foreclosing on one.
     source: epstein-1996
     contested: false
   - year: 1528

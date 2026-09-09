@@ -67,6 +67,26 @@ ended:
   year: 1806
   source: wilson-2016
 
+# Francis II abolished the empire and retired to his hereditary lands under a
+# title he had manufactured two years earlier for exactly this eventuality. Not
+# an edge: the Austrian Empire has no record here, and the relation is one man
+# exchanging one crown for another rather than a polity succeeding a polity.
+succeeded_by_external:
+  - name: the Austrian Empire
+    year: 1806
+    note: >-
+      Watching Napoleon crown himself in 1804, Francis II proclaimed himself
+      hereditary emperor of Austria out of his own dynastic lands, so that when
+      the elective crown went he would not be outranked. On 6 August 1806, five
+      days after the French envoy told the Diet that his master no longer
+      recognised the empire's existence, Francis laid the older title down and
+      released the estates from their obligations — specifically to keep Napoleon
+      from taking it. Bryce thought the wording of the instrument read like a
+      tradesman's notice that an old partnership had been dissolved and the
+      business would continue under a new name.
+    source: bryce-1889
+    contested: false
+
 institutions:
   # Contingents supplied by the member territories, and hired men. There was no
   # imperial army in the sense the Roman or Byzantine records on this site have
@@ -120,17 +140,18 @@ turning_points:
       staff, the emperor with the temporal regalia, and in Germany he was
       present at the election. The emperor lost the unquestioned right to
       appoint the men who held a large share of the empire's land and offices,
-      and the German church began drifting out of imperial control. This site
-      added the value `investiture` to its legitimation vocabulary for rulers
-      whose ground was a grant from an external sovereign, and this is the
-      dispute the word comes from.
+      and the German church began drifting out of imperial control. It is the compromise
+      that ends the investiture contest, and it is the moment the emperor stops
+      being able to staff the empire's largest institution with his own men.
     source: wilson-2016
     contested: false
   - year: 1356
     type: reform
     name: The Golden Bull
     changed: >-
-      Charles IV fixed the imperial election: seven electors named by office,
+      Charles IV fixed the imperial election after three centuries in which the
+      absence of a written rule had produced rival emperors and civil wars:
+      seven electors named by office,
       voting at Frankfurt, majority sufficient, coronation at Aachen, and no
       papal role of any kind. It removed the two things that had produced civil
       war for three centuries — disputed elections and papal claims to confirm

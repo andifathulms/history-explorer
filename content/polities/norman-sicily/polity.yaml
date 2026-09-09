@@ -39,6 +39,25 @@ scripts_and_languages:
 # administration, the same trilingual chancery, and Constance's son Frederick II
 # grew up in it. `dynastic replacement` rather than `conquest`, and `by` names a
 # record in this same region.
+# Not an edge: the Kalbid emirate of Sicily has no record here. The relation is
+# a thirty-year conquest by the previous generation of the same family rather
+# than an event, so the year is the fall of Palermo and the note says the rest.
+preceded_by_external:
+  # `overthrew` and not `conquered by`: the row renders as "{polity} {type}
+  # {name}", so a predecessor needs the active verb.
+  - name: the emirate of Sicily
+    type: overthrew
+    year: 1072
+    note: >-
+      Sicily had been under Islamic rule since an Aghlabid army landed in 827.
+      Roger I took Palermo in 1072 and spent thirty more years reducing the rest
+      of the island. What the Hautevilles inherited was not a ruin: the Arabic
+      fiscal bureau, the land registers and the tax system went on working under
+      the new kings, in Arabic, and the emirs' country villas outside Palermo
+      were the model for the palaces the Norman kings then built for themselves.
+    source: curtis-1912
+    contested: false
+
 ended:
   type: dynastic replacement
   by: [holy-roman-empire]
@@ -84,8 +103,8 @@ turning_points:
       refusing to recognise a royal title granted by his rival, and released him
       in exchange for confirmation of it. A king made by an antipope became a
       king made by the pope, by force. It is the moment the kingdom stops being
-      a usurpation in the eyes of Latin Europe and becomes a monarchy, and it is
-      this record's `investiture` value in one afternoon.
+      a usurpation in the eyes of Latin Europe and becomes a monarchy, and it was
+      settled by an ambush.
     source: matthew-1992
     contested: false
   - year: 1148
@@ -93,10 +112,10 @@ turning_points:
     name: Mahdia
     changed: >-
       Roger's fleet took Mahdia and with it the Tunisian coast, which the kingdom
-      held for about a decade as a set of tributary ports. This corpus's Zirid
-      record ends in that year with an empty `ended.by` field and a comment
-      saying the vocabulary could not name the power that did it, because that
-      power had no page. It has one now.
+      held for about a decade as a set of tributary ports before the Almohads
+      took them back. The admiral who planned the campaign, George of Antioch,
+      had begun his career administering the finances of the Zirid prince whose
+      capital Mahdia was.
     source: matthew-1992
     contested: false
   - year: 1189
@@ -106,8 +125,9 @@ turning_points:
       William II died at thirty-six with no children, having made his barons
       swear to accept his aunt Constance and her German husband. On his death
       they elected Tancred instead. It gave the kingdom five years of civil war
-      and gave Henry VI a war to win rather than an inheritance to enter, and it
-      is the single decision that ends this record.
+      and gave Henry VI a war to win rather than an inheritance to enter. The
+      barons chose the outcome they preferred over the one the rule produced, and
+      lost everything they had chosen it to protect.
     source: matthew-1992
     contested: false
   - year: 1194
@@ -118,9 +138,8 @@ turning_points:
       Richard I of England, was crowned on Christmas Day, and had the surviving
       Norman claimants blinded or imprisoned. The kingdom itself was not
       dismantled: its chancery, its registers and its trilingual administration
-      continued, and Constance's son Frederick II — this site's Holy Roman
-      record's peak ruler — was born in Italy the following day and raised in
-      Palermo.
+      continued, and Constance's son Frederick II — later Holy Roman emperor —
+      was born in Italy the following day and raised in Palermo.
     source: matthew-1992
     contested: false
 
@@ -133,8 +152,8 @@ measures:
     # its coins carried Arabic legends and Christian crosses on the same face.
     # But writing three existing scripts is not producing a new one, and coding
     # rule 3 excludes using a script unchanged in the plainest possible terms.
-    # The second chapter is about the trilingualism, which is the thing the page
-    # exists for and which no field on this site can hold.
+    # The third chapter carries the trilingualism, which is what the page is for
+    # and what no field here can hold.
     descendant_scripts: { count: 0, items: [], source: matthew-1992 }
     religions_carried: { count: 0, items: [], source: matthew-1992 }
     successor_claims: { count: 0, items: [], source: matthew-1992 }

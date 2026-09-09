@@ -75,11 +75,6 @@ content/polities/first-bulgarian/05-simeon.mdx
 content/polities/first-bulgarian/06-the-bogomils.mdx
 content/polities/first-bulgarian/07-samuel.mdx
 content/polities/first-bulgarian/08-1018.mdx
-content/polities/genoa/01-the-other-one.mdx
-content/polities/genoa/02-the-companies.mdx
-content/polities/genoa/03-chioggia.mdx
-content/polities/genoa/04-a-bank-with-colonies.mdx
-content/polities/genoa/05-doria-and-the-silver.mdx
 content/polities/ghana/01-the-name-is-a-title.mdx
 content/polities/ghana/02-a-dinar-on-a-donkey.mdx
 content/polities/ghana/03-the-sisters-son.mdx
@@ -99,10 +94,6 @@ content/polities/han/01-han.mdx
 content/polities/han/02-the-examinations.mdx
 content/polities/han/04-the-conscript-empire.mdx
 content/polities/han/05-two-claims.mdx
-content/polities/holy-roman-empire/01-none-of-the-three-words.mdx
-content/polities/holy-roman-empire/03-the-golden-bull.mdx
-content/polities/holy-roman-empire/04-a-framework-for-not-fighting.mdx
-content/polities/holy-roman-empire/05-1806.mdx
 content/polities/idrisid/02-fez.mdx
 content/polities/idrisid/03-what-happened-to-the-pieces.mdx
 content/polities/idrisid/04-descent-as-a-claim.mdx
@@ -170,9 +161,6 @@ content/polities/nasrid/01-what-was-left.mdx
 content/polities/nasrid/03-the-alhambra.mdx
 content/polities/nasrid/04-the-help-that-stopped-coming.mdx
 content/polities/nasrid/05-1492.mdx
-content/polities/norman-sicily/01-a-crown-from-an-antipope.mdx
-content/polities/norman-sicily/02-three-chanceries.mdx
-content/polities/norman-sicily/03-1194.mdx
 content/polities/ottoman/01-a-frontier-beylik.mdx
 content/polities/ottoman/02-the-balkans-first.mdx
 content/polities/ottoman/03-1453.mdx
