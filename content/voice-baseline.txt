@@ -178,11 +178,6 @@ content/polities/jafnid/02-al-harith.mdx
 content/polities/jafnid/03-the-name.mdx
 content/polities/jafnid/04-a-church.mdx
 content/polities/jafnid/06-582.mdx
-content/polities/jalayirid/01-what-1335-left.mdx
-content/polities/jalayirid/02-shaykh-uways.mdx
-content/polities/jalayirid/03-the-book.mdx
-content/polities/jalayirid/04-ahmad.mdx
-content/polities/jalayirid/05-basra.mdx
 content/polities/jin/02-the-double-bind.mdx
 content/polities/jin/03-two-defeats.mdx
 content/polities/jin/04-the-settlers.mdx
@@ -251,12 +246,6 @@ content/polities/mongol/02-westward.mdx
 content/polities/mongol/03-division.mdx
 content/polities/mughal/01-babur.mdx
 content/polities/mughal/02-the-settlement-breaks.mdx
-content/polities/muzaffarid/01-yazd-to-shiraz.mdx
-content/polities/muzaffarid/02-the-muhtasib.mdx
-content/polities/muzaffarid/03-shah-shuja.mdx
-content/polities/muzaffarid/04-hafez.mdx
-content/polities/muzaffarid/05-the-brothers.mdx
-content/polities/muzaffarid/06-1393.mdx
 content/polities/nabataean/01-people-with-no-houses.mdx
 content/polities/nabataean/02-the-road.mdx
 content/polities/nabataean/03-a-client-that-lasted.mdx
@@ -369,11 +358,6 @@ content/polities/safavid/03-chaldiran.mdx
 content/polities/safavid/04-abbas.mdx
 content/polities/safavid/06-the-clergy.mdx
 content/polities/safavid/07-1722.mdx
-content/polities/sarbadar/01-heads-on-the-gallows.mdx
-content/polities/sarbadar/02-two-parties.mdx
-content/polities/sarbadar/03-not-a-dynasty.mdx
-content/polities/sarbadar/04-the-horse.mdx
-content/polities/sarbadar/05-ali-muayyad.mdx
 content/polities/second-bulgarian/01-a-tax-and-two-brothers.mdx
 content/polities/second-bulgarian/02-a-crown-from-rome.mdx
 content/polities/second-bulgarian/03-klokotnitsa.mdx
