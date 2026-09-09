@@ -111,9 +111,6 @@ content/polities/chagatai/02-moghulistan.mdx
 content/polities/champa/01-the-oldest-and-the-least-like-a-kingdom.mdx
 content/polities/champa/02-1177.mdx
 content/polities/champa/03-1471.mdx
-content/polities/characene/01-the-head-of-the-gulf.mdx
-content/polities/characene/02-the-transfer.mdx
-content/polities/characene/04-222.mdx
 content/polities/cilician-armenia/01-armenia-somewhere-else.mdx
 content/polities/cilician-armenia/02-the-crown-and-the-church.mdx
 content/polities/cilician-armenia/03-what-cilicia-made.mdx
@@ -135,10 +132,6 @@ content/polities/diriyah/01-the-compact.mdx
 content/polities/diriyah/02-the-name.mdx
 content/polities/diriyah/03-karbala-and-mecca.mdx
 content/polities/diriyah/05-1818.mdx
-content/polities/elymais/01-elam-again.mdx
-content/polities/elymais/02-the-temples.mdx
-content/polities/elymais/03-what-survives.mdx
-content/polities/elymais/04-224.mdx
 content/polities/ethiopia/01-a-church-cut-downwards.mdx
 content/polities/ethiopia/02-the-kebra-nagast.mdx
 content/polities/ethiopia/03-a-city-of-tents.mdx
@@ -240,10 +233,6 @@ content/polities/idrisid/03-what-happened-to-the-pieces.mdx
 content/polities/idrisid/04-descent-as-a-claim.mdx
 content/polities/ilkhanate/01-conversion.mdx
 content/polities/ilkhanate/02-rashid-al-din.mdx
-content/polities/indo-greek/01-over-the-mountains.mdx
-content/polities/indo-greek/02-menander.mdx
-content/polities/indo-greek/03-two-faces.mdx
-content/polities/indo-greek/04-the-sakas.mdx
 content/polities/jafnid/01-the-frontier.mdx
 content/polities/jafnid/02-al-harith.mdx
 content/polities/jafnid/03-the-name.mdx
@@ -478,12 +467,6 @@ content/polities/sarbadar/02-two-parties.mdx
 content/polities/sarbadar/03-not-a-dynasty.mdx
 content/polities/sarbadar/04-the-horse.mdx
 content/polities/sarbadar/05-ali-muayyad.mdx
-content/polities/sasanian/02-shapur.mdx
-content/polities/sasanian/03-the-fire-and-the-church.mdx
-content/polities/sasanian/04-what-khusrau-changed.mdx
-content/polities/sasanian/05-two-eyes-of-the-world.mdx
-content/polities/sasanian/06-the-last-war.mdx
-content/polities/sasanian/07-collapse.mdx
 content/polities/second-bulgarian/01-a-tax-and-two-brothers.mdx
 content/polities/second-bulgarian/02-a-crown-from-rome.mdx
 content/polities/second-bulgarian/03-klokotnitsa.mdx

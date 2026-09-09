@@ -40,14 +40,34 @@ scripts_and_languages:
   administration: [Greek, Prakrit]
   writing_system: Greek and Kharoshthi
 
-# The Indo-Scythians — Sakas displaced south by the same chain of steppe
-# movements that ended the Bactrian kingdom — took the last Punjabi territories
-# around the turn of the era. They are not in this corpus.
+# `by` is empty because the Indo-Scythians have no record of their own here, so
+# the successor is named in `succeeded_by_external` below instead. The year is
+# the outer bound of the last Greek issues rather than a battle: there is no
+# recorded engagement that ends these kingdoms.
 ended:
   type: conquest
   by: []
   year: 10
   source: mairs-2014
+
+# The Sakas took the kingdoms piece by piece over roughly a century rather than
+# in one campaign, so there is no year to give: Maues was ruling at Taxila by the
+# 80s BC and the last Greek issues are around the turn of the era. The range goes
+# in the note, as on the Srivijaya record.
+succeeded_by_external:
+  - name: the Indo-Scythian kingdoms
+    type: conquered by
+    year: null
+    note: >-
+      The Sakas — Scythians pushed south by the same chain of steppe movements
+      that had ended the Bactrian kingdom — took Gandhara and the Punjab from
+      the Greek kings piece by piece. Maues was ruling at Taxila by the 80s BC
+      and Azes and his successors held most of the Punjab by the 50s; the last
+      Greek issues, of a king called Strato, are around the turn of the era in a
+      small territory in the eastern Punjab. The Saka kings went on striking
+      coins in the Indo-Greek idiom, bilingual and with Greek legends, for
+      generations afterwards.
+    source: mairs-2014
 
 institutions:
   military_basis: { values: [land-grant, mercenary], source: mairs-2014 }
