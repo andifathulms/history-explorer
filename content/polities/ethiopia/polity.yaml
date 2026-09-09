@@ -69,6 +69,25 @@ scripts_and_languages:
 # 1974 and abolished the monarchy. `internal usurpation` is the closest value:
 # the state continued, the dynasty did not, and nobody conquered anything. `by`
 # is empty because a military committee is not a polity this corpus can name.
+# Not an edge: the Derg and the republics that followed it have no record here,
+# and the relation is a committee inside the state taking the state rather than
+# one polity succeeding another. `ended.by` is empty for the same reason.
+succeeded_by_external:
+  - name: the Derg
+    year: 1974
+    note: >-
+      A committee of junior officers deposed Haile Selassie in September 1974,
+      drove him out of the palace in the back of a Volkswagen, and abolished the
+      monarchy; he died the following year in circumstances the regime did not
+      explain, and his body was buried under a palace lavatory floor and not
+      recovered until 1992. The state itself continued and became considerably
+      more centralised. What the officers inherited was the modern apparatus —
+      army, air force, bureaucracy, constitution, national bank — that the
+      monarchy had spent fifty years building, and they used it to end the
+      monarchy.
+    source: marcus-2002
+    contested: false
+
 ended:
   type: internal usurpation
   by: []
@@ -123,10 +142,9 @@ turning_points:
       Yekuno Amlak overthrew the last Zagwe king and founded a dynasty that
       ruled for seven hundred and four years, on the claim that the Zagwe had
       been usurpers and that his own line descended from Solomon through the
-      kings of Aksum. The Kebra Nagast is the document that claim was eventually
-      written into, and this record's `legitimation` field, this corpus's
-      Aksumite successor claim and its Sabaean one all descend from what was
-      asserted here.
+      kings of Aksum. The Kebra Nagast is the document the claim was eventually written into,
+      and it routed the dynasty's right to rule through the kings of Aksum and
+      back to Solomon and the queen of Sheba.
     source: tamrat-1972
     contested: false
   - year: 1543
@@ -139,10 +157,9 @@ turning_points:
       including the treasuries where the state's written record was kept. A
       Portuguese expedition of four hundred musketeers landed at Massawa; Ahmad
       was shot at Wayna Daga and his army dispersed within days.
-      It is the closest this record comes to ending four centuries early, and
-      the two European and Ottoman interventions on opposite sides make it the
-      one occasion on which the Ethiopian highlands were a theatre of somebody
-      else's war.
+      The kingdom came within a few years of ending four centuries early, and
+      the Ottoman and Portuguese interventions on opposite sides made the
+      Ethiopian highlands, briefly, a theatre of somebody else's war.
     source: marcus-2002
     contested: false
   - year: 1636
@@ -165,11 +182,9 @@ turning_points:
       following eighty-six years the emperors at Gondar reigned without ruling
       while regional lords fought over who would control them. Ethiopian
       historiography calls it the Zemene Mesafint, after the biblical era when
-      there was no king in Israel. This record treats it as a period of weakness
-      rather than an interruption, for the same reason the Holy Roman record
-      treats its own last century that way: the institution went on being
-      occupied, and the men fighting over it were fighting to control it rather
-      than to replace it.
+      there was no king in Israel. It was a hollowing rather than an interruption: the throne went on being
+      occupied throughout, and the men fighting over it were fighting to
+      control the emperor rather than to abolish him.
     source: marcus-2002
     contested: false
   - year: 1896
@@ -182,8 +197,8 @@ turning_points:
       Ethiopian independence in the treaty that followed.
       It is the only occasion in the partition of Africa on which an African
       state defeated a European invasion in the field and kept its sovereignty,
-      and it is why this record runs to 1974 while every other African polity in
-      this corpus ends before 1600.
+      and it is why Ethiopia entered the twentieth century as a sovereign
+      state rather than as somebody's colony.
     source: marcus-2002
     contested: false
 

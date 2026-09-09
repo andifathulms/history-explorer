@@ -45,6 +45,40 @@ scripts_and_languages:
 # the Noba was read as the proof. It is now generally thought that Meroë had
 # already collapsed and that Ezana fought the people who had moved into what was
 # left. There is no edge between the two records for that reason.
+# Neither is an edge. Egypt's New Kingdom viceroyalty is a province rather than a
+# polity, and what came after Meroë has no name anybody can use. `ended.by` is
+# empty because nobody ended it — the standard account, that Aksum destroyed it,
+# does not survive the archaeology.
+preceded_by_external:
+  - name: the Egyptian viceroyalty of Kush
+    type: seceded from
+    year: null
+    note: >-
+      Egypt governed Nubia as far as the fourth cataract under a viceroy through
+      the New Kingdom, for the gold. When that grip failed in the eleventh
+      century BC the country slipped away, and what grew in the space over the
+      following three centuries was a Nubian kingdom at Napata under Gebel
+      Barkal — which took over the Egyptian god of that mountain, the Egyptian
+      script and the Egyptian royal titles, and then went north and used them to
+      argue that it was the rightful Egypt.
+    source: welsby-1996
+    contested: true
+
+succeeded_by_external:
+  - name: the Noba
+    year: null
+    note: >-
+      Ezana of Aksum's inscription describes a campaign down the Nile against a
+      people called the Noba, in which he took towns and set up a throne, and it
+      mentions Kasu, which is Kush. It was read for most of the twentieth century
+      as the Aksumite destruction of Meroë. It is now generally thought that
+      Meroë had already collapsed and that Ezana came down a river where somebody
+      else had moved into the ruins — so the Noba are the people who displaced
+      the Kushites rather than the Kushites themselves, and nothing is known
+      about how they were organised.
+    source: welsby-1996
+    contested: true
+
 ended:
   type: fragmentation
   by: []
@@ -118,10 +152,10 @@ turning_points:
     name: The Assyrians
     changed: >-
       Esarhaddon took Memphis and Ashurbanipal sacked Thebes in 663, and the
-      twenty-fifth dynasty withdrew to Nubia and never came back. This corpus's
-      Neo-Assyrian record carries Esarhaddon taking Egypt in 671 as the first
-      time any Mesopotamian power had done it, and does not say who was holding
-      it. This is that record's other half.
+      twenty-fifth dynasty withdrew to Nubia and never came back. It was the
+      first time a Mesopotamian power had taken Egypt, and the accounts of the
+      campaign do not trouble to say whose Egypt it was: Assyria fought two
+      Kushite pharaohs for a decade over it.
     source: welsby-1996
     contested: false
   - year: -300

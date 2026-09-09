@@ -15,7 +15,8 @@ span:
 
 identity: >-
   The southernmost and reportedly the richest of the three Christian Nubian
-  kingdoms, and the least known state in this corpus.
+  kingdoms, known almost entirely from one envoy's paragraph and a suburb of
+      Khartoum.
 
 # Soba, on the Blue Nile above the confluence, is under the eastern suburbs of
 # modern Khartoum. Parts have been excavated and most of it has been built on.
@@ -32,6 +33,35 @@ rulers:
 scripts_and_languages:
   administration: [Greek, Old Nubian]
   writing_system: The Coptic alphabet
+
+# Neither is an edge. The post-Meroitic polities of the Gezira left no records
+# and no names anybody can use; the Funj sultanate of Sennar has no record here.
+# `ended.by` stays empty for the same reason the successor row exists.
+preceded_by_external:
+  - name: the post-Meroitic kingdoms of the Gezira
+    year: null
+    note: >-
+      Between the end of Meroë in the fourth century and the first mention of
+      Alodia in the sixth there is a gap nobody can fill. What is there
+      archaeologically is a set of wealthy post-Meroitic burials with imported
+      goods, which is evidence of somebody ruling something, and no name, no
+      king-list and no date. The kingdom converted around 580 is the first thing
+      on this ground anyone can call by a name.
+    source: welsby-2002
+    contested: true
+
+succeeded_by_external:
+  - name: the Funj Sultanate of Sennar
+    type: conquered by
+    year: 1504
+    note: >-
+      A Muslim sultanate that held the middle Nile from the fall of Soba until an
+      Egyptian army took it in 1821. Three centuries after it replaced the last
+      Christian kingdom, Burckhardt found its authority still running the length
+      of the river: at Shendy he records that the local king is tributary to the
+      king of Sennar, as are all the petty rulers downstream as far as Dongola.
+    source: burckhardt-nubia
+    contested: false
 
 ended:
   type: conquest
@@ -66,11 +96,10 @@ turning_points:
     changed: >-
       A Miaphysite missionary sent from Constantinople by the empress Theodora —
       against her husband Justinian, who was backing a Chalcedonian mission to
-      the same kingdoms — reached Alodia and converted it. This corpus's
-      Byzantine record's Justinian chapter has that quarrel from the imperial
-      end. Its result on this river was that all three Nubian kingdoms ended up
-      in the Miaphysite communion, aligned with Alexandria, which is the same
-      alignment the Aksum record says kept Ethiopian Christianity alive.
+      the same kingdoms — reached Alodia and converted it. All three Nubian
+      kingdoms ended up in the Miaphysite communion and took their bishops from
+      Alexandria, which is what kept them supplied with clergy for nine hundred
+      years after Egypt itself became Muslim, and what eventually failed.
     source: welsby-2002
     contested: true
   - year: 1504
@@ -79,9 +108,10 @@ turning_points:
     changed: >-
       A coalition of the Funj — a people whose own origins are argued about —
       and the Abdallab Arabs took Soba, and the Funj sultanate of Sennar replaced
-      it. It is the end of Christian Nubia after nine hundred years, a hundred
-      and thirty-nine years after this corpus's Makurian record ends upstream,
-      and the last Christian state on the Nile above Egypt disappears with it.
+      it. It is the end of Christian Nubia after nine hundred
+      years, a hundred and thirty-nine years after the fall of the middle
+      kingdom downstream, and the date comes from later Sudanese chronicle
+      tradition rather than from anything written at the time.
     source: welsby-2002
     contested: false
 

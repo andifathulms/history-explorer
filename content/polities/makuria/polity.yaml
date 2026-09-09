@@ -43,6 +43,37 @@ scripts_and_languages:
 # and `gradual absorption` is the type because nobody annexed anything: the
 # kingdom was pulled apart over ninety years by a neighbour that mostly wanted it
 # quiet.
+# Not an edge. Nobatia was absorbed rather than succeeded and has no record here;
+# the Funj sultanate that eventually took the whole river has none either, and it
+# arrived long after this kingdom was gone. `ended.by` names the Mamluks because
+# their interventions are the proximate cause, not because they annexed anything.
+preceded_by_external:
+  - name: the kingdom of Nobatia
+    type: absorbed remnants of
+    year: null
+    note: >-
+      Christian Nubia was three kingdoms and became two. Nobatia held the river
+      below the second cataract, was converted first — by the missionary Theodora
+      sent ahead of her husband's — and was absorbed by Makuria some time in the
+      seventh century, by means nobody recorded. Its cathedral at Faras went on
+      being built and painted under Makurian kings for six hundred years
+      afterwards, which is where most of what is known about Nubian art came
+      from.
+    source: welsby-2002
+    contested: true
+
+succeeded_by_external:
+  - name: the kingdom of Dotawo
+    year: null
+    note: >-
+      After the court left Dongola in 1365 there was still a Nubian Christian
+      kingdom at Gebel Adda in the far north, called Dotawo, attested in Old
+      Nubian documents from Qasr Ibrim into the fifteenth century. It is the
+      tail of this state rather than a new one, and it is known from perhaps a
+      dozen texts: a king, a bishop, some land sales, and then nothing.
+    source: ruffini-2012
+    contested: true
+
 ended:
   type: gradual absorption
   by: [mamluk-sultanate]
@@ -92,8 +123,8 @@ turning_points:
       Nubia sent a fixed number of slaves each year and Egypt sent grain, cloth,
       wine and horses, with free passage for merchants and a guarantee of the
       mosque at Dongola.
-      It held, with interruptions, for about six hundred years. Nothing else in
-      this corpus is a single arrangement that lasted that long, and it is the
+      It held, with interruptions, for about six hundred years, which is longer
+      than any other negotiated arrangement of the medieval world, and it is the
       reason the Arab conquest that took everything from Spain to the Indus
       stopped at the third cataract.
     source: welsby-2002
@@ -104,10 +135,11 @@ turning_points:
     changed: >-
       A Mamluk expedition beat the Nubian army, took Dongola, and installed a
       king who agreed to pay tribute — which is a different arrangement from the
-      baqt and is the end of it. This corpus's Mamluk record says in one clause
-      that Baybars made the Nubian kingdoms tributary, as one item in a list of
-      how that state engineered its inputs. This is the page of what it was done
-      to.
+      baqt and is the end of it. From Cairo it was one item of business among
+      several, transacted in the same years as the alliance with the Golden
+      Horde and the negotiations with Byzantium over the straits; from Dongola it
+      was the end of a six-hundred-year settlement, and ninety years of
+      installed and deposed kings followed it.
     source: welsby-2002
     contested: false
   - year: 1317
@@ -118,9 +150,8 @@ turning_points:
       mosque and an inscription was set up recording it. The building survives
       and so does the inscription. A Muslim king was on the Makurian throne by
       then and the church hierarchy was collapsing for lack of bishops from an
-      Alexandria under pressure of its own — which is the same supply line this
-      corpus's Aksum record says kept Ethiopian Christianity alive, seen at the
-      point where it failed.
+      Alexandria under pressure of its own — the same supply line that kept Ethiopian Christianity alive for sixteen
+      centuries, seen at the point where it broke.
     source: welsby-2002
     contested: false
 

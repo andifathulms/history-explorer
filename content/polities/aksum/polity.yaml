@@ -34,6 +34,23 @@ scripts_and_languages:
   administration: [Ge'ez, Greek]
   writing_system: Ge'ez
 
+# Not an edge: the South Arabian kingdoms Aksum's founders came out of, or came
+# across from, are a different matter from what preceded it on the Tigray
+# plateau. What the row records is the D'MT polity, about which almost nothing
+# can be said and which nobody can join to Aksum by descent.
+preceded_by_external:
+  - name: D'mt
+    year: null
+    note: >-
+      Several centuries before Aksum there was a polity on the same plateau,
+      known from inscriptions in a South Arabian script and from monumental
+      building at Yeha, whose rulers styled themselves kings of D'mt and Saba.
+      It ends around the fifth century BC and nothing connects it to Aksum by
+      any evidence except the ground and the alphabet, which Aksum eventually
+      rebuilt into something South Arabia would not have recognised.
+    source: phillipson-2012
+    contested: true
+
 ended:
   type: gradual absorption
   by: []
@@ -81,9 +98,8 @@ turning_points:
     type: battle
     name: Across the Red Sea
     changed: >-
-      Kaleb crossed into Arabia with a fleet and destroyed the Jewish kingdom of
-      Himyar, whose record this corpus carries and whose ending names this one.
-      It is the furthest this state ever reached and the point at which an
+      Kaleb crossed into Arabia with a fleet and destroyed the Jewish kingdom of Himyar, which had been persecuting the
+      Christians of Najran and which never recovered. It is the furthest this state ever reached and the point at which an
       African kingdom held both sides of the southern Red Sea. The occupation
       lasted about half a century, was undone by a Persian expedition, and is the
       last thing Aksum did that the wider world recorded.
