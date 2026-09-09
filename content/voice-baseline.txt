@@ -66,10 +66,6 @@ content/polities/aydinid/03-smyrna.mdx
 content/polities/ayutthaya/01-what-was-carried-north.mdx
 content/polities/ayutthaya/03-1688.mdx
 content/polities/ayutthaya/04-1767.mdx
-content/polities/bagratid-armenia/01-a-crown-from-baghdad.mdx
-content/polities/bagratid-armenia/02-ani.mdx
-content/polities/bagratid-armenia/04-the-bequest.mdx
-content/polities/bagratid-armenia/05-what-went-to-cilicia.mdx
 content/polities/bavandid/01-the-mountains-nobody-wanted.mdx
 content/polities/bavandid/02-three-lines.mdx
 content/polities/bavandid/03-shah-ghazi.mdx
@@ -116,9 +112,6 @@ content/polities/danishmendid/03-the-coins.mdx
 content/polities/danishmendid/04-taken-in-pieces.mdx
 content/polities/delhi-sultanate/01-slave-kings.mdx
 content/polities/delhi-sultanate/02-mongol-frontier.mdx
-content/polities/derbend/01-the-gate.mdx
-content/polities/derbend/02-the-city-and-the-emir.mdx
-content/polities/derbend/04-1077.mdx
 content/polities/diriyah/01-the-compact.mdx
 content/polities/diriyah/02-the-name.mdx
 content/polities/diriyah/03-karbala-and-mecca.mdx
@@ -473,10 +466,6 @@ content/polities/shaybanid/03-the-river.mdx
 content/polities/shaybanid/04-abdullah-khan.mdx
 content/polities/shaybanid/05-bukhara.mdx
 content/polities/shaybanid/06-the-line-runs-out.mdx
-content/polities/shirvanshah/01-arabs-who-became-sasanians.mdx
-content/polities/shirvanshah/03-khaqani.mdx
-content/polities/shirvanshah/04-baku.mdx
-content/polities/shirvanshah/05-farrukh-yasar.mdx
 content/polities/songhai/01-a-ribbon-along-a-river.mdx
 content/polities/songhai/02-sunni-ali.mdx
 content/polities/songhai/03-a-caliph-of-takrur.mdx

@@ -1453,6 +1453,39 @@ edges:
     source: litvinsky-1996
     contested: false
 
+  - from: abbasid
+    to: shirvanshah
+    type: seceded from
+    year: 861
+    note: "Yazid ibn Mazyad al-Shaybani was sent about 799 to govern the Caucasus
+           frontier and hold Derbend against the Khazars; while the caliphate was
+           destroying itself at Samarra his descendants stopped behaving like
+           governors and took the old local title of Shirvanshah."
+    source: minorsky-1958
+    contested: false
+
+  - from: abbasid
+    to: derbend
+    type: seceded from
+    year: 869
+    note: "Hashim ibn Suraqa of the Sulaym made the command of the caliphate's
+           northern frontier post hereditary as Abbasid authority in the
+           provinces failed; the emirate went on naming the caliph in the khutba
+           and keeping the tolls."
+    source: minorsky-1958
+    contested: false
+
+  - from: abbasid
+    to: bagratid-armenia
+    type: vassal of
+    year: 884
+    note: "The caliph al-Mu'tamid sent Ashot Bagratuni a crown, preferring a
+           reliable Christian tributary on the Byzantine frontier to a province
+           he could no longer garrison; Constantinople, not wanting to be
+           outbid, sent a second crown."
+    source: hovannisian-1997
+    contested: false
+
   - from: seleucid
     to: greater-armenia
     type: seceded from
