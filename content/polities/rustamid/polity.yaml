@@ -28,6 +28,36 @@ scripts_and_languages:
   administration: [Arabic]
   writing_system: Arabic
 
+# Not an edge: what preceded the imamate was a set of scattered Kharijite
+# communities left over from risings that had already been put down, and the Mzab
+# towns the survivors founded are a religious community rather than a polity.
+preceded_by_external:
+  - name: the Kharijite risings of the 740s
+    year: null
+    note: >-
+      The Kharijite revolts of the 740s took most of the Maghreb out of Umayyad
+      and then Abbasid control and were then put down piece by piece. What
+      survived was scattered — Ibadi communities in Tripolitania and the Nafusa
+      mountains, Sufris further west — and Abd al-Rahman ibn Rustam, who had been
+      the Ibadi governor of Kairouan and had lost it, withdrew onto the plateau
+      with what was left and was elected imam there.
+    source: abun-nasr-1987
+    contested: false
+
+succeeded_by_external:
+  - name: the Ibadi communities of the Mzab
+    year: null
+    note: >-
+      After Tahert fell the surviving leadership went south rather than submit,
+      founded Sedrata near modern Ouargla, and when that failed moved again into
+      the Mzab — a rock valley in the northern Sahara with almost no water and no
+      reason for anybody to want it. There, from the eleventh century, they built
+      five walled towns and have been there since. It is not a successor state:
+      it is a community that decided a state was optional and organised itself
+      without one, which is what the doctrine had said all along.
+    source: abun-nasr-1987
+    contested: false
+
 ended:
   type: conquest
   by: [fatimid]
@@ -51,9 +81,8 @@ turning_points:
       A faction rejected the succession of the founder's son on the grounds
       that the choice had been made by too narrow a circle and that hereditary
       succession was what the doctrine existed to prevent. The split is
-      permanent and Ibadism has been divided along it since — a schism about
-      whether an election was properly conducted, which is a rarer kind of
-      division than this corpus otherwise records.
+      permanent and Ibadism has been divided along it since — a schism about whether an election was properly conducted, which is the
+      kind of thing that divides a parliament rather than a religion.
     source: abun-nasr-1987
     contested: false
   - year: 909

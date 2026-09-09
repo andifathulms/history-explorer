@@ -31,6 +31,23 @@ scripts_and_languages:
   administration: [Arabic]
   writing_system: Arabic
 
+# Not an edge: nothing preceded the Midrarids at Sijilmasa, because there was no
+# Sijilmasa. The town was founded by the dynasty in the 750s on a caravan route
+# that already existed, which is the unusual case of a state creating its own
+# capital out of nothing and then living off it.
+preceded_by_external:
+  - name: the caravan route
+    year: null
+    note: >-
+      There was no town in the Tafilalt before the 750s. What there was, was a
+      crossing point: the place where the Saharan traverse ends and the roads to
+      Fez, Tlemcen and the Mediterranean begin, used by caravans long before
+      anybody walled it. A group of Sufri Kharijites of the Miknasa put a town
+      on it, and the town made them rich immediately, because the traffic was
+      already passing.
+    source: abun-nasr-1987
+    contested: true
+
 ended:
   type: conquest
   by: [fatimid]
@@ -57,9 +74,8 @@ turning_points:
     changed: >-
       The Isma'ili mahdi Abd Allah had taken refuge in the town and was
       imprisoned there; the Kutama army raised in Ifriqiya came west, took
-      Sijilmasa and released him, and he was proclaimed caliph. The polity that
-      became the Fatimid empire on this site's caliphates page collected its
-      founder from a cell in this oasis.
+      Sijilmasa and released him, and he was proclaimed caliph. The dynasty that would rule Egypt for two centuries and found Cairo
+      collected its founder from a cell in this oasis.
     source: halm-1996
     contested: false
 

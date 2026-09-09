@@ -52,9 +52,6 @@ content/polities/han/01-han.mdx
 content/polities/han/02-the-examinations.mdx
 content/polities/han/04-the-conscript-empire.mdx
 content/polities/han/05-two-claims.mdx
-content/polities/idrisid/02-fez.mdx
-content/polities/idrisid/03-what-happened-to-the-pieces.mdx
-content/polities/idrisid/04-descent-as-a-claim.mdx
 content/polities/ilkhanate/01-conversion.mdx
 content/polities/ilkhanate/02-rashid-al-din.mdx
 content/polities/jin/02-the-double-bind.mdx
@@ -81,10 +78,6 @@ content/polities/marinid/03-the-book-they-paid-for.mdx
 content/polities/marinid/04-one-year-of-the-whole-maghreb.mdx
 content/polities/maurya/01-maurya.mdx
 content/polities/maurya/02-the-inscriptions.mdx
-content/polities/midrarid/01-the-northern-end.mdx
-content/polities/midrarid/02-salt-for-gold.mdx
-content/polities/midrarid/03-the-prisoner.mdx
-content/polities/midrarid/04-what-is-left-of-it.mdx
 content/polities/ming/02-the-wall-and-the-silver.mdx
 content/polities/ming/03-a-million-soldiers.mdx
 content/polities/ming/04-tumu.mdx
@@ -103,9 +96,6 @@ content/polities/pagan/03-1287.mdx
 content/polities/qara-khitai/01-a-dynasty-in-exile.mdx
 content/polities/qara-khitai/02-qatwan.mdx
 content/polities/qara-khitai/03-how-to-rule-what-you-cannot-outnumber.mdx
-content/polities/rustamid/02-an-argument-that-stayed-open.mdx
-content/polities/rustamid/03-the-trade.mdx
-content/polities/rustamid/04-into-the-desert.mdx
 content/polities/saadi/01-a-better-claim.mdx
 content/polities/saadi/02-three-kings.mdx
 content/polities/saadi/03-across-the-desert.mdx

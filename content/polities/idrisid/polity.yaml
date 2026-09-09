@@ -28,6 +28,38 @@ scripts_and_languages:
   administration: [Arabic]
   writing_system: Arabic
 
+# Not an edge: Idris arrived from Arabia as a fugitive from a failed rising and
+# founded a state where there had been none, and what came after was a principle
+# rather than a polity. Both rows record relations to things with no record here.
+preceded_by_external:
+  - name: the Alid rising at Fakhkh
+    type: absorbed remnants of
+    year: 786
+    note: >-
+      An Alid revolt near Mecca in 786 was crushed by the Abbasids. Idris ibn
+      Abd Allah, a great-great-grandson of Ali, escaped and travelled the length
+      of North Africa to a country where nobody had any prior reason to care
+      about the family of the Prophet — arriving with no army, no money and
+      nothing but a name, and being accepted by Berber tribes on the strength of
+      it. He was poisoned about four years later, on the usual account by an
+      Abbasid agent.
+    source: abun-nasr-1987
+    contested: false
+
+succeeded_by_external:
+  - name: the sharifian principle
+    year: null
+    note: >-
+      What the dynasty left was not a successor state but a rule about who could
+      claim one. Descent from the Prophet through Ali and Fatima became the most
+      valuable political credential in Morocco and remained so for a thousand
+      years: the Saadis who took the country in the sixteenth century were
+      sharifs, the Alaouites who took it in the seventeenth were sharifs, and
+      neither traced to Idris. The tomb of Idris II was found in Fez in 1437 and
+      built into a sanctuary at the centre of the city, which is still there.
+    source: abun-nasr-1987
+    contested: false
+
 ended:
   type: gradual absorption
   by: [fatimid, cordoba]
@@ -68,8 +100,8 @@ turning_points:
     type: succession-crisis
     name: "Idris II divides among his sons"
     changed: >-
-      The state ended at its first succession, a century and a half before the
-      date on this record. What followed was not decline but a family scattered
+      The state effectively ended at its first succession, a century and a
+      half before the conventional date. What followed was not decline but a family scattered
       across a country, subdividing further for a hundred years, with no
       mechanism to reassemble — which is why the tenth-century Fatimid and
       Umayyad proxy war found the far Maghreb already in pieces.
