@@ -225,10 +225,6 @@ content/polities/nabataean/02-the-road.mdx
 content/polities/nabataean/03-a-client-that-lasted.mdx
 content/polities/nabataean/04-the-alphabet.mdx
 content/polities/nabataean/05-106.mdx
-content/polities/najahid/01-the-slaves-of-the-house.mdx
-content/polities/najahid/02-zabid.mdx
-content/polities/najahid/03-the-war-with-the-highlands.mdx
-content/polities/najahid/04-1158.mdx
 content/polities/nasrid-hira/01-the-other-side.mdx
 content/polities/nasrid-hira/02-the-forty-year-war.mdx
 content/polities/nasrid-hira/03-a-city-not-a-camp.mdx
@@ -343,11 +339,6 @@ content/polities/songhai/02-sunni-ali.mdx
 content/polities/songhai/03-a-caliph-of-takrur.mdx
 content/polities/songhai/05-the-chronicles.mdx
 content/polities/songhai/06-tondibi.mdx
-content/polities/sulayhid/01-the-mission-makes-a-state.mdx
-content/polities/sulayhid/02-mecca.mdx
-content/polities/sulayhid/03-arwa.mdx
-content/polities/sulayhid/04-the-hujja.mdx
-content/polities/sulayhid/05-tayyibi.mdx
 content/polities/tahirid-yemen/01-picking-up-the-state.mdx
 content/polities/tahirid-yemen/02-the-port-that-stopped-paying.mdx
 content/polities/tahirid-yemen/03-the-amiriyya.mdx
@@ -389,10 +380,6 @@ content/polities/yuan/01-kublai.mdx
 content/polities/yuan/02-the-hundred-years.mdx
 content/polities/yuan/04-the-ortogh.mdx
 content/polities/yuan/05-not-a-khanate.mdx
-content/polities/zaydi-yemen/01-invited-to-arbitrate.mdx
-content/polities/zaydi-yemen/02-one-power-among-several.mdx
-content/polities/zaydi-yemen/04-the-dynasty-problem.mdx
-content/polities/zaydi-yemen/06-1962.mdx
 content/polities/zayyanid/01-the-crossroads.mdx
 content/polities/zayyanid/02-a-city-built-to-take-a-city.mdx
 content/polities/zayyanid/03-the-funduk.mdx

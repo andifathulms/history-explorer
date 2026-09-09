@@ -55,6 +55,13 @@ institutions:
   legitimation: { values: [caliphal-investiture], source: daftary-2007 }
 
 turning_points:
+  # `contested`, and the disagreement is real rather than a hedge. Umara's
+  # history — which quotes Jayyash ibn Najah, who says he struck the head off
+  # himself — dates the ambush to Dhu'l-Qa'da 473, April 1081, and so do Ibn
+  # Khallikan and al-Janadi. Khazraji and Ibn al-Athir give 459, 1067, and one
+  # line of Umara's own text says 459 is correct; his translator argues that
+  # line is a later interpolation. The conventional date is kept here and the
+  # chapter sets out both.
   - year: 1067
     type: battle
     name: "The killing of Ali al-Sulayhi"
@@ -66,7 +73,7 @@ turning_points:
       a highland polity defending itself rather than a Fatimid arm reaching
       towards the holy cities.
     source: daftary-2007
-    contested: false
+    contested: true
   - year: 1087
     type: capital-move
     name: "Jibla"

@@ -74,6 +74,13 @@ turning_points:
       and this one returned and held the Tihama for another ninety years.
     source: daftary-2007
     contested: false
+  # `contested`, and the disagreement is real rather than a hedge. Umara's
+  # history — which quotes Jayyash ibn Najah, who says he struck the head off
+  # himself — dates the ambush to Dhu'l-Qa'da 473, April 1081, and so do Ibn
+  # Khallikan and al-Janadi. Khazraji and Ibn al-Athir give 459, 1067, and one
+  # line of Umara's own text says 459 is correct; his translator argues that
+  # line is a later interpolation. The conventional date is kept here and the
+  # chapter sets out both.
   - year: 1067
     type: battle
     name: "The ambush on the pilgrim road"
@@ -84,7 +91,7 @@ turning_points:
       division that lasted until the Ayyubids: an Isma'ili power in the
       highlands and a Sunni one on the coast, neither able to finish the other.
     source: daftary-2007
-    contested: false
+    contested: true
 
 measures:
   reach_km2: null
