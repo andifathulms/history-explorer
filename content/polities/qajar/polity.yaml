@@ -40,6 +40,21 @@ ended:
   year: 1925
   source: amanat-2017
 
+# `ended.by` is empty because the Pahlavi state has no record here, so the
+# successor is named instead of pointing the field at an id that does not exist.
+succeeded_by_external:
+  - name: the Pahlavi state
+    type: overthrew
+    year: 1925
+    note: >-
+      Reza Khan, commander of the Cossack Brigade, took Tehran in February 1921
+      and governed as war minister and then prime minister for four years. In
+      October 1925 the Majlis — the parliament the Qajars had granted in 1906 and
+      shelled in 1908 — voted to depose the dynasty, and in December it named
+      Reza Khan shah. The instrument that removed the Qajars was the one
+      constitutional institution they had reluctantly created.
+    source: amanat-2017
+
 institutions:
   # Qajar and allied tribal cavalry for most of the century, alongside the
   # successive attempts at a European-modelled regular army that never had the

@@ -285,13 +285,6 @@ content/polities/ptolemaic/03-the-empire-outside-egypt.mdx
 content/polities/ptolemaic/04-ruling-through.mdx
 content/polities/ptolemaic/05-raphia.mdx
 content/polities/ptolemaic/06-the-circle-in-the-sand.mdx
-content/polities/qajar/01-the-eunuch.mdx
-content/polities/qajar/02-turkmanchay.mdx
-content/polities/qajar/03-nasir-al-din.mdx
-content/polities/qajar/04-the-concessions.mdx
-content/polities/qajar/05-the-tobacco-protest.mdx
-content/polities/qajar/06-the-constitution.mdx
-content/polities/qajar/07-the-colonel.mdx
 content/polities/qara-khitai/01-a-dynasty-in-exile.mdx
 content/polities/qara-khitai/02-qatwan.mdx
 content/polities/qara-khitai/03-how-to-rule-what-you-cannot-outnumber.mdx
@@ -405,10 +398,6 @@ content/polities/yuan/01-kublai.mdx
 content/polities/yuan/02-the-hundred-years.mdx
 content/polities/yuan/04-the-ortogh.mdx
 content/polities/yuan/05-not-a-khanate.mdx
-content/polities/zand/02-the-vakil.mdx
-content/polities/zand/03-shiraz.mdx
-content/polities/zand/04-the-hostage.mdx
-content/polities/zand/05-lutf-ali.mdx
 content/polities/zaydi-yemen/01-invited-to-arbitrate.mdx
 content/polities/zaydi-yemen/02-one-power-among-several.mdx
 content/polities/zaydi-yemen/04-the-dynasty-problem.mdx
