@@ -10,12 +10,6 @@
 content/polities/abbadid/01-a-caliph-made-of-a-mat-maker.mdx
 content/polities/abbadid/03-what-the-small-courts-made.mdx
 content/polities/abbadid/04-camels-and-swine.mdx
-content/polities/afsharid/01-the-man-from-khurasan.mdx
-content/polities/afsharid/02-mughan.mdx
-content/polities/afsharid/03-the-army.mdx
-content/polities/afsharid/04-delhi.mdx
-content/polities/afsharid/05-what-it-cost.mdx
-content/polities/afsharid/06-nothing-to-hand-over.mdx
 content/polities/aghlabid/01-a-province-for-rent.mdx
 content/polities/aghlabid/02-kairouan.mdx
 content/polities/aghlabid/03-sicily.mdx
@@ -154,10 +148,6 @@ content/polities/holy-roman-empire/01-none-of-the-three-words.mdx
 content/polities/holy-roman-empire/03-the-golden-bull.mdx
 content/polities/holy-roman-empire/04-a-framework-for-not-fighting.mdx
 content/polities/holy-roman-empire/05-1806.mdx
-content/polities/hotaki/01-kandahar.mdx
-content/polities/hotaki/02-gulnabad.mdx
-content/polities/hotaki/03-the-occupation.mdx
-content/polities/hotaki/04-nadir.mdx
 content/polities/hujrid/01-the-third-family.mdx
 content/polities/hujrid/02-a-power-in-the-middle.mdx
 content/polities/hujrid/03-al-hira.mdx
@@ -342,12 +332,6 @@ content/polities/saadi/04-what-came-after-the-gold.mdx
 content/polities/saba/02-the-dam.mdx
 content/polities/saba/04-the-alphabet.mdx
 content/polities/saba/05-the-highland-power.mdx
-content/polities/safavid/01-the-order.mdx
-content/polities/safavid/02-1501.mdx
-content/polities/safavid/03-chaldiran.mdx
-content/polities/safavid/04-abbas.mdx
-content/polities/safavid/06-the-clergy.mdx
-content/polities/safavid/07-1722.mdx
 content/polities/second-bulgarian/01-a-tax-and-two-brothers.mdx
 content/polities/second-bulgarian/02-a-crown-from-rome.mdx
 content/polities/second-bulgarian/03-klokotnitsa.mdx

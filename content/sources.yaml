@@ -3311,3 +3311,36 @@ sources:
       notes are exhaustive about where the manuscript has gaps, which matters,
       because several years of Babur's life are missing entirely. Out of
       copyright.
+
+  - id: krusinski-1728
+    kind: book
+    author: Judasz Tadeusz Krusiński
+    title: "The History of the Revolution of Persia, taken from the memoirs of Father Krusinski, Procurator of the Jesuits at Ispahan"
+    translator: Jean-Antoine du Cerceau
+    publisher: Printed for J. Pemberton
+    year: 1728
+    note: >-
+      An eyewitness account of the fall of Isfahan by a Jesuit who had lived in
+      the city for years, spoke the language, knew the court, and was inside the
+      walls for the whole of the six-month siege. He despised the Safavid
+      government and says so, so his explanations of the decline — the princes
+      raised in the harem, the eunuchs, the ministers — should be read as the
+      judgement of a hostile and extremely well-placed observer rather than as
+      analysis. On what happened during the siege itself he is the fullest
+      testimony that exists, and it is not pleasant. Out of copyright.
+
+  - id: hanway-1753
+    kind: book
+    author: Jonas Hanway
+    title: "An Historical Account of the British Trade over the Caspian Sea, with a Journal of Travels, to which are added the Revolutions of Persia"
+    publisher: Printed for Mr. Dodsley
+    year: 1753
+    note: >-
+      Written by an English merchant of the Russia Company who went to Persia in
+      the 1740s to open a Caspian trade, lost his goods in a rebellion, and came
+      home and explained why the venture had failed. It is not scholarship and
+      does not claim to be; its value is that it is contemporary, that Hanway
+      talked to people who had been in the room, and that his interest was
+      commercial rather than dynastic — so he records the condition of the
+      country and the collection of revenue in a way the court chronicles do
+      not. Out of copyright.
