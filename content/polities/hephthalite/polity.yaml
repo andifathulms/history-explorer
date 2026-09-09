@@ -29,6 +29,24 @@ capitals: []
 
 core_region: Bactria and Tokharistan, with Sogdiana, eastern Iran and Gandhara
 
+# The Kidarites have no record here, so the predecessor is named rather than
+# edged. No year: the sources do not date the takeover of Bactria, and the
+# relationship between the two groups is itself argued about — the note says so
+# rather than resolving it.
+preceded_by_external:
+  - name: the Kidarite kingdom
+    type: absorbed remnants of
+    year: null
+    note: >-
+      The Kidarites were the earlier Huna group out of the same movement from
+      the Altai and the Central Asian steppe, holding Bactria and Gandhara from
+      the later fourth century. The Hephthalites displaced them there in the
+      middle of the fifth, and the Kidarites survived for a time further south
+      in Gandhara. Whether the two are successive phases of one movement or
+      distinct peoples is the same question the first chapter here leaves open,
+      and the sources do not date the transfer.
+    source: litvinsky-1996
+
 rulers:
   # The king-list is reconstructed from coins, Chinese notices and Sasanian and
   # Byzantine mentions, and the names do not reliably line up between them. This

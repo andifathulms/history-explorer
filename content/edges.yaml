@@ -1454,6 +1454,28 @@ edges:
     contested: false
 
   - from: seleucid
+    to: greater-armenia
+    type: seceded from
+    year: -190
+    note: "Artaxias, the strategos Antiochus III had appointed over Armenia,
+           declared himself king in the year the Seleucid defeat at Magnesia
+           ended the empire's authority in its northern provinces; his dynasty
+           held the Armenian highland for about a hundred and eighty years."
+    source: hovannisian-1997
+    contested: false
+
+  - from: parthian
+    to: caucasian-albania
+    type: vassal of
+    year: -60
+    note: "The Albanian royal house was a branch of the Arsacids, installed as
+           the Parthians installed relatives on the thrones around them, and the
+           kingdom was a Parthian client for the whole of the period between
+           Pompey's arrival in the Caucasus and the fall of the Arsacids."
+    source: toumanoff-1963
+    contested: false
+
+  - from: seleucid
     to: elymais
     type: seceded from
     year: -147
