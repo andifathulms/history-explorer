@@ -50,6 +50,21 @@ scripts_and_languages:
 # absorbed what was left after Kirina. The older account — an Almoravid conquest
 # in 1076 that destroyed the kingdom — is the first turning point on this record
 # and is largely rejected now.
+# Not an edge: what preceded Ghana on that ground has no name in any source. The
+# Soninke tradition calls the country Wagadu and the Arabic writers took the
+# ruler's title for the country's name; neither gives a predecessor state.
+preceded_by_external:
+  - name: the Soninke of Wagadu
+    year: null
+    note: >-
+      Ghana is a title, not a name. The Soninke tradition calls the country
+      Wagadu and remembers a foundation story involving a serpent and an annual
+      sacrifice, and there is no way to date any of it. What the Arabic writers
+      met in the eighth century was already a going concern taxing the gold
+      route, and nothing survives about how it got there.
+    source: levtzion-hopkins-1981
+    contested: true
+
 ended:
   type: gradual absorption
   by: [mali]
@@ -99,17 +114,17 @@ turning_points:
     type: siege
     name: The Almoravid conquest that may not have happened
     changed: >-
-      The standard account for a century was that the Almoravids — this corpus
-      carries them as a record in the Islamic West — took Kumbi in 1076, forced
+      The standard account for a century was that the Almoravids took Kumbi in
+      1076, forced
       the kingdom to Islam and broke it, and that everything afterwards is
       decline. It rests on a single late source and it has been substantially
       dismantled since the 1970s: the contemporary evidence has Ghana and the
       Almoravids in a relationship of pressure, alliance and eventual
       conversion rather than conquest, and the archaeology shows no destruction
       layer.
-      This record carries the entry because the non-event shaped the field for
-      a hundred years, and marks it contested because what is disputed is
-      whether it happened at all.
+      The entry stands, marked contested, because the non-event shaped the
+      field for a hundred years and a reader who never meets it will keep the
+      version they arrived with.
     source: levtzion-1973
     contested: true
   - year: 1203
@@ -118,10 +133,10 @@ turning_points:
     changed: >-
       Sumanguru's Sosso kingdom took Kumbi. It is the real end of the polity as
       a power and it is barely documented — the Arabic sources have lost
-      interest and the account comes largely from the same oral tradition that
-      supplies this corpus's Mali record with its founding. Thirty-two years
-      later Sundiata destroyed Sosso at Kirina and Mali took what remained,
-      which is this record's ending and the next record's beginning.
+      interest and the account comes largely from the oral tradition of the state that beat
+      Sosso thirty-two years later. Thirty-two years later Sundiata destroyed Sosso at Kirina and Mali took
+      what remained — the territory, and more importantly the customs posts
+      and the royalty on gold.
     source: levtzion-1973
     contested: false
 

@@ -47,6 +47,41 @@ scripts_and_languages:
 # Rabih in 1900 and partitioned the country between three colonial empires.
 # `by` is empty because neither Rabih nor those empires are in this corpus, which
 # is the fifth record in Africa here to end that way.
+# Not an edge: neither Rabih's conquest state nor the three colonial empires
+# that partitioned the territory has a record here, which is why `ended.by` is
+# empty against a conquest that is otherwise perfectly well dated.
+succeeded_by_external:
+  - name: Rabih az-Zubayr's conquest state
+    type: conquered by
+    year: 1893
+    note: >-
+      A former officer of the private slaving empire in the Bahr al-Ghazal, who
+      went west with a core of trained riflemen when it collapsed and spent
+      twenty years building a state out of raiding. He burned Kukawa and killed
+      its ruler. A French column killed him in 1900 and the territory was divided
+      between France, Britain and Germany, which is why Kanem is in Chad, Bornu
+      is in Nigeria, and the lake the kingdom was named for has four countries on
+      it. The British restored the Kanemi shehus and governed through them; the
+      office still exists.
+    source: levtzion-pouwels-2000
+    contested: false
+
+# Not an edge: nothing certain precedes the Sayfawa at Lake Chad. Al-Muhallabi
+# describes a tenth-century kingdom in Kanem whose ruler his people treated as a
+# god, but the dynasty's own list starts later and joins nothing to it.
+preceded_by_external:
+  - name: the Zaghawa kingdom of Kanem
+    year: null
+    note: >-
+      Al-Muhallabi in the tenth century describes a kingdom east and north of
+      Lake Chad whose people treated their ruler as divine and who ate out of
+      sight of his subjects. The Sayfawa king list begins about a century later
+      and does not connect itself to him; the dynasty's own account of its
+      origins goes instead to a Himyarite prince in Yemen, which is a claim
+      rather than a genealogy.
+    source: levtzion-pouwels-2000
+    contested: true
+
 ended:
   type: conquest
   by: []
@@ -101,8 +136,7 @@ turning_points:
       Sustained pressure from the Bulala drove the court out of Kanem
       altogether, and the dynasty crossed to the west of Lake Chad and rebuilt
       in Bornu. The kingdom lost its original country and kept everything else —
-      the dynasty, the chronicle, the trade road, the claim. It is why this
-      record's name has a hyphen in it.
+      the dynasty, the chronicle, the trade road, the claim. It is why the kingdom carries two names.
     source: levtzion-pouwels-2000
     contested: false
   - year: 1571
@@ -124,9 +158,8 @@ turning_points:
     changed: >-
       The Fulani jihad took the capital and the mai fled. The state was saved by
       a scholar from the north, Muhammad al-Amin al-Kanemi, who raised a force,
-      recovered the country, and then governed it while the mai reigned — an
-      arrangement that lasted thirty-eight years and is the clearest case in this
-      corpus of the Zemene Mesafint shape outside Ethiopia.
+      recovered the country, and then governed it while the mai reigned — an arrangement that lasted thirty-eight years, of the kind Ethiopia was
+      living through in the same decades and had a name for.
     source: levtzion-pouwels-2000
     contested: false
   # `dynastic replacement` is an ending type on this site and not a turning-point
@@ -139,8 +172,8 @@ turning_points:
     changed: >-
       Al-Kanemi's son killed the last mai and took the throne. The dynasty that
       ended had held it, on the king list, for something close to eight hundred
-      years, which is longer than any other ruling house in this corpus — longer
-      than the Capetians, the Solomonic line or the house of Osman.
+      years, which is longer than any other ruling house anywhere — longer than the
+      Capetians, the Solomonic line or the house of Osman.
       The state continued under the Kanemi shehus for another forty-seven years.
     source: levtzion-pouwels-2000
     contested: false

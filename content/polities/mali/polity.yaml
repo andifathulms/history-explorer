@@ -34,6 +34,23 @@ scripts_and_languages:
   administration: [Arabic, Malinke]
   writing_system: Arabic
 
+# Not an edge: the Bamana kingdom of Segu has no record here, and what it took
+# in the seventeenth century was a rump on the upper Niger rather than an empire.
+succeeded_by_external:
+  - name: the Bamana of Segu
+    type: conquered by
+    year: null
+    note: >-
+      By the seventeenth century Mali was a kingdom on the upper Niger with none
+      of its provinces, none of its trade and none of its salt road, and the
+      Bamana — a people who had been inside it — took what was left. No source
+      gives a year, because by then there was nothing worth dating. The
+      Portuguese had reached the Senegal in the 1440s and the Gold Coast in the
+      1470s, and the gold that had gone north across the Sahara for six
+      centuries was going west to ships.
+    source: levtzion-1973
+    contested: true
+
 ended:
   type: fragmentation
   by: []
@@ -91,8 +108,8 @@ turning_points:
       Sundiata Keita defeated Sumanguru of Sosso and the confederation that
       followed is the empire. The battle is known almost entirely from oral
       tradition — the Sundiata epic, performed by griots and written down in the
-      twentieth century — rather than from any contemporary text, which makes it
-      the only founding event in this corpus dated from a song. The date is
+      twentieth century — rather than from any contemporary text, which makes it one of very few founding events anywhere dated from a
+      song. The date is
       conventional and the event is not seriously doubted.
     source: gomez-2018
     contested: true
@@ -112,10 +129,8 @@ turning_points:
     type: siege
     name: Niani
     changed: >-
-      A Songhai army took the Malian capital, held it briefly, and left. This
-      corpus carries Songhai as the record two entries along, and the sack is the
-      moment the relationship between the two reverses completely: Songhai had
-      been a Malian province in the fourteenth century. Mali continued for
+      A Songhai army took the Malian capital, held it briefly, and left. It is the moment the relationship between the two reverses completely:
+      Songhai had been a Malian province in the fourteenth century. Mali continued for
       another century as a kingdom on the upper Niger, sent an embassy to
       Portugal, and stopped being an empire here.
     source: levtzion-1973

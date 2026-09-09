@@ -14,9 +14,8 @@ span:
   end: { min: 1901, max: 1901, source: wilks-1975 }
 
 identity: >-
-  The forest empire that ran on gold and a bureaucracy, and whose throne passed
-  through the female line — which is the fifth time this corpus has met that and
-  the first time it can say so without hedging.
+  The forest empire that ran on gold and a bureaucracy, and whose throne passed through the female line, nominated by a queen mother
+  and confirmed by a council of chiefs.
 
 capitals:
   - { name: Kumasi, from: 1701, source: wilks-1975 }
@@ -36,6 +35,38 @@ scripts_and_languages:
 # Prempeh I to the Seychelles in 1896 and put down the rising of 1900. `by` is
 # empty because the British empire is not in this corpus — the seventh African
 # record here to end that way.
+# Neither is an edge. Denkyira, whom Asante was tributary to before 1701, has no
+# record here; nor does the Gold Coast colony. `ended.by` is empty against a
+# conquest with a date because the conquering power is not carried.
+preceded_by_external:
+  - name: Denkyira
+    type: overthrew
+    year: 1701
+    note: >-
+      The Akan states that became Asante had been tributaries of Denkyira, which
+      controlled the goldfields and the trade to the coast. Osei Tutu assembled
+      them into a union around the Golden Stool and destroyed Denkyira at
+      Feyiase; the confederacy stopped paying anybody and took the trade
+      position for itself. The account of the founding is oral and was written
+      down long afterwards.
+    source: wilks-1975
+    contested: false
+
+succeeded_by_external:
+  - name: the Gold Coast colony
+    type: conquered by
+    year: 1901
+    note: >-
+      Prempeh I was arrested in his own capital in 1896 and exiled to the
+      Seychelles; the governor's demand in 1900 to sit on the Golden Stool
+      produced a general rising, led by Yaa Asantewaa, which was put down and
+      followed by formal annexation. Prempeh returned in 1924 and the Asante
+      Confederacy was restored in 1935. The Gold Coast took the name Ghana at
+      independence in 1957 — after an empire eight hundred kilometres away that
+      had never held any of this ground.
+    source: wilks-1975
+    contested: false
+
 ended:
   type: conquest
   by: []
@@ -94,9 +125,8 @@ turning_points:
       The Asante confederacy destroyed Denkyira, to whom its constituent states
       had been tributary, and stopped paying anybody. The union that fought the
       battle had been assembled by Osei Tutu and Okomfo Anokye around the Golden
-      Stool, and the empire dates from it. This site's Mali record calls Kirina
-      the only founding in the corpus dated from a song; this one is dated from a
-      battle whose account is also oral and was written down later.
+      Stool, and the empire dates from it. Like Mali's founding at Kirina, it is known from an account that was
+      performed for generations before anybody wrote it down.
     source: wilks-1975
     contested: false
   - year: 1824
@@ -107,8 +137,7 @@ turning_points:
       Gold Coast, Sir Charles MacCarthy, whose skull was taken to Kumasi and kept
       as a royal object. It is one of very few occasions in the nineteenth
       century on which an African state beat a European force in a pitched
-      engagement and the only one in this corpus outside Ethiopia's Adwa, seventy
-      years later.
+      engagement and the most complete before Adwa, seventy-two years later.
     source: wilks-1975
     contested: false
   - year: 1874
@@ -129,9 +158,8 @@ turning_points:
     changed: >-
       The governor, Frederick Hodgson, came to Kumasi, demanded the Golden Stool
       and said he intended to sit on it. The country rose, led by Yaa Asantewaa,
-      the queen mother of Ejisu — which is not incidental to this record's
-      succession field, since the office she held was one of the two that
-      controlled the throne. The rising was put down and the country annexed the
+      the queen mother of Ejisu — which is not incidental: the office she held was one of the two that
+      controlled the Asante succession. The rising was put down and the country annexed the
       following year.
       The stool was never found by the British. It had been hidden in the forest,
       was discovered by accident by Africans in 1920 and stripped of its gold,

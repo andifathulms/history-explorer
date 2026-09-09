@@ -31,6 +31,23 @@ scripts_and_languages:
   administration: [Arabic, Songhai]
   writing_system: Arabic
 
+# Not an edge: the Arma pashalik has no record here, and it is not a successor
+# state in any sense its own members would have recognised — they held three
+# towns as an occupying garrison and made no claim on Songhai whatever.
+succeeded_by_external:
+  - name: the Arma of Timbuktu
+    year: 1591
+    note: >-
+      The Moroccan expeditionary force could not be supplied across sixteen
+      hundred kilometres of Sahara, and within a generation its soldiers and
+      their descendants — the Arma, from the Arabic for musketeers — had married
+      locally, stopped remitting anything to Marrakesh, and become an autonomous
+      military caste governing Timbuktu, Gao and Djenné. They ruled for two
+      centuries as a pashalik in name and a self-perpetuating garrison in fact,
+      and made no claim on Songhai's legitimacy of any kind.
+    source: hunwick-1999
+    contested: false
+
 ended:
   type: conquest
   by: [saadi]
@@ -71,8 +88,8 @@ turning_points:
     changed: >-
       Sunni Ali took the city from the Tuareg who had held it since 1433 and
       treated its scholars as a hostile faction — killing some, driving others to
-      Walata, and earning the hatred of the chronicle tradition that supplies
-      almost everything this record knows. It made Songhai the power of the
+      Walata, and earning the lasting hatred of the chronicle tradition that supplies
+      almost everything anybody knows about him. It made Songhai the power of the
       middle Niger and it is the reason the two Timbuktu chronicles describe the
       founder of the empire as a tyrant and an unbeliever.
     source: hunwick-1999
@@ -84,9 +101,8 @@ turning_points:
       A general of Sunni Ali's overthrew his son, took the title askia, and
       turned the state's public posture round completely: the scholars were
       recalled and endowed, the law was applied, and the new dynasty presented
-      itself as the Islamic order Sunni Ali had refused to be. The chronicles
-      that damn the founder celebrate the usurper, and this record's `ended` and
-      `legitimation` fields both descend from the coup.
+      itself as the Islamic order Sunni Ali had refused to be. The chronicles that damn the founder celebrate the usurper, which is
+      worth remembering when reading either.
     source: hunwick-1999
     contested: false
   - year: 1591
@@ -94,9 +110,9 @@ turning_points:
     name: Tondibi
     changed: >-
       A Moroccan force of a few thousand crossed the Sahara with firearms and
-      destroyed an army many times its size. This corpus's Saadi record carries
-      the same day from the winning side, and between them the two pages are the
-      clearest case on this site of gunpowder deciding an engagement outright.
+      destroyed an army many times its size. It is about as clean an instance of gunpowder deciding an engagement
+      outright as the century produced: the Songhai cavalry had never met
+      massed firearms and the horses would not stand it.
       The Songhai state ended; Morocco could not govern what it had taken, and
       the middle Niger spent the following century under a garrison regime that
       controlled the towns and nothing else.
