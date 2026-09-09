@@ -63,6 +63,23 @@ preceded_by_external:
       option.
     source: luckenbill-1927
 
+# What the ground became. Nobody claimed to continue the kingdom, and the honest
+# answer to what followed it is a province of somebody else's empire that the
+# Babylonians went on calling Urartu for another century.
+succeeded_by_external:
+  - name: the Persian province of Armina
+    year: null
+    note: >-
+      No dynasty claimed the kingdom's titles and its god Khaldi disappears from
+      the record entirely, which is unusual: gods normally outlast the states
+      that endow them. What continued was the country. When Darius had his
+      account of his own accession carved at Behistun in three languages, the
+      province the Old Persian text calls Armina is called Urashtu — Urartu — in
+      the Babylonian version. The Persians had a new name for it, the Armenians
+      were becoming its people, and the Babylonian scribes went on writing the
+      old one for a century after there was any kingdom to attach it to.
+    source: king-thompson-1907
+
 institutions:
   # The Urartian state was its fortresses. Zimansky's argument, and the reason
   # this record is coded from him, is that the kingdom was a superstructure

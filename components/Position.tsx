@@ -47,9 +47,11 @@ function ExternalRow({ item, polity }: { item: ExternalNeighbour; polity: string
   return (
     <li className="border-t border-kashi/15 py-3 first:border-t-0">
       <p className="flex flex-wrap items-baseline gap-x-2">
-        <span className="font-mono text-[14px] tabular-nums text-debu-ink">
-          {item.year == null ? '\u2014' : formatYear(item.year)}
-        </span>
+        {item.year == null ? null : (
+          <span className="font-mono text-[14px] tabular-nums text-debu-ink">
+            {formatYear(item.year)}
+          </span>
+        )}
         {item.type ? (
           <>
             <span className="text-dawat/70">{polity}</span>
