@@ -133,12 +133,6 @@ content/polities/ghana/04-1076.mdx
 content/polities/ghaznavid/03-what-mahmud-took.mdx
 content/polities/ghaznavid/05-the-book-about-india.mdx
 content/polities/ghaznavid/06-1186.mdx
-content/polities/ghurid/01-the-mountains.mdx
-content/polities/ghurid/02-jahansuz.mdx
-content/polities/ghurid/03-india.mdx
-content/polities/ghurid/04-the-slave-generals.mdx
-content/polities/ghurid/05-what-they-built.mdx
-content/polities/ghurid/06-1215.mdx
 content/polities/gokturk/01-gokturk.mdx
 content/polities/gokturk/02-the-inscriptions.mdx
 content/polities/golden-horde/02-the-yarlyk.mdx
@@ -216,8 +210,6 @@ content/polities/kanem-bornu/03-horses-and-people.mdx
 content/polities/kanem-bornu/04-idris-alooma.mdx
 content/polities/kanem-bornu/05-the-letters.mdx
 content/polities/kanem-bornu/06-1893.mdx
-content/polities/karakhanid/03-the-first-turkish-books.mdx
-content/polities/karakhanid/04-two-khanates-and-a-protector.mdx
 content/polities/karakoyunlu/01-the-black-sheep.mdx
 content/polities/karakoyunlu/03-jahan-shah.mdx
 content/polities/karakoyunlu/04-haqiqi.mdx
@@ -407,10 +399,6 @@ content/polities/safavid/03-chaldiran.mdx
 content/polities/safavid/04-abbas.mdx
 content/polities/safavid/06-the-clergy.mdx
 content/polities/safavid/07-1722.mdx
-content/polities/saffarid/02-sistan-and-the-ayyars.mdx
-content/polities/saffarid/04-amr.mdx
-content/polities/saffarid/05-the-first-persian-qasida.mdx
-content/polities/saffarid/06-back-to-sistan.mdx
 content/polities/sarbadar/01-heads-on-the-gallows.mdx
 content/polities/sarbadar/02-two-parties.mdx
 content/polities/sarbadar/03-not-a-dynasty.mdx
