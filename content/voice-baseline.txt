@@ -43,12 +43,6 @@ content/polities/aydinid/03-smyrna.mdx
 content/polities/ayutthaya/01-what-was-carried-north.mdx
 content/polities/ayutthaya/03-1688.mdx
 content/polities/ayutthaya/04-1767.mdx
-content/polities/carolingian/01-mayors-of-the-palace.mdx
-content/polities/carolingian/02-the-saxons-and-the-avars.mdx
-content/polities/carolingian/03-two-emperors.mdx
-content/polities/carolingian/04-counts-and-capitularies.mdx
-content/polities/carolingian/05-the-arithmetic.mdx
-content/polities/carolingian/07-the-inheritance.mdx
 content/polities/chagatai/01-the-poorest-khanate.mdx
 content/polities/chagatai/02-moghulistan.mdx
 content/polities/champa/01-the-oldest-and-the-least-like-a-kingdom.mdx
@@ -146,8 +140,6 @@ content/polities/liao/02-the-song-tribute.mdx
 content/polities/liao/03-the-ordo.mdx
 content/polities/liao/04-1114.mdx
 content/polities/liao/05-qara-khitai.mdx
-content/polities/lombard/01-the-kingless-decade.mdx
-content/polities/lombard/02-rothari.mdx
 content/polities/makuria/01-the-pupil-smiters.mdx
 content/polities/makuria/02-a-monetised-economy.mdx
 content/polities/makuria/03-the-fourth-case.mdx
@@ -238,11 +230,6 @@ content/polities/trebizond/03-bessarion.mdx
 content/polities/trebizond/04-the-last-of-the-romans.mdx
 content/polities/uyghur-khaganate/01-manichaeans.mdx
 content/polities/uyghur-khaganate/02-what-they-left.mdx
-content/polities/venice/01-a-city-with-no-land.mdx
-content/polities/venice/02-the-fourth-crusade.mdx
-content/polities/venice/03-the-constitution.mdx
-content/polities/venice/04-the-empire-of-ports.mdx
-content/polities/venice/05-the-long-decline.mdx
 content/polities/wattasid/01-the-regents.mdx
 content/polities/wattasid/02-the-city-that-filled-up.mdx
 content/polities/wattasid/03-the-envoy-who-ended-up-in-rome.mdx

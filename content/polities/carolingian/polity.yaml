@@ -28,6 +28,26 @@ scripts_and_languages:
   administration: [Latin]
   writing_system: Latin
 
+# Not an edge: the Merovingian kingdom has no record here. The relation is a
+# deposition rather than a conquest — Pepin took the crown from a living king of
+# an established line, with a papal opinion procured in advance to cover it.
+preceded_by_external:
+  - name: the Merovingian kingdom
+    type: overthrew
+    year: 751
+    note: >-
+      Pepin, mayor of the palace and the fourth of his family to run the
+      Frankish kingdoms without holding a throne, sent to Rome to ask who ought
+      to be called king — the man who had the power or the man who had the title
+      — and on the answer he had commissioned deposed Childeric III, had his
+      hair cut off, and put him in a monastery. Einhard, defending the family
+      eighty years later, insists the line had long been powerless and
+      conspicuous only for an empty title; the shaving is his own evidence
+      against himself, since cutting the hair was what made the deposition
+      effective.
+    source: einhard-turner
+    contested: false
+
 ended:
   type: fragmentation
   by: []
@@ -118,10 +138,9 @@ turning_points:
       a count died while he was away his son should hold the office until his
       return. It was a temporary provision for one absence and it was read
       afterwards as conceding what was already happening: that royal offices
-      were becoming family property. The state whose administration this
-      record's fourth chapter describes — counts appointed and moved at the
-      king's pleasure, watched by travelling inspectors — stops being possible
-      here.
+      were becoming family property. A state administered by counts who could be
+      appointed and moved at the king's pleasure and watched by travelling
+      inspectors stops being possible here.
     source: wickham-2009
     contested: false
 
@@ -142,11 +161,11 @@ measures:
       items: [Latin Christianity]
       source: mckitterick-2008
     # One. Otto I was crowned emperor in Rome in 962 in explicit revival of this
-    # record's empire, and the polity that followed used the title for eight
-    # hundred and forty-four years. That polity is not in this corpus, which
-    # does not affect the count: rule 1's unit is the claiming polity and there
-    # is no requirement that it have a page, as the Carchemish entry on the
-    # Hittite record already establishes.
+    # empire, and the polity that followed used the title for eight hundred and
+    # forty-four years. That polity now has a record and a `claimed legitimacy
+    # of` edge running here, which is the ordinary case; the count would stand
+    # either way, since rule 1's unit is the claiming polity and there is no
+    # requirement that it have a page.
     successor_claims:
       count: 1
       items: [Holy Roman Empire]

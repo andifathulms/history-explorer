@@ -28,6 +28,25 @@ scripts_and_languages:
   administration: [Latin]
   writing_system: Latin
 
+# Not an edge: the Gepid kingdom on the middle Danube has no record here, and
+# what the relation names is the event that put the Lombards on the road into
+# Italy rather than a succession in the same place. Paul's editors date the
+# destruction to 566 or 567 and cannot narrow it, so the year is null.
+preceded_by_external:
+  - name: the Gepid kingdom
+    type: overthrew
+    year: null
+    note: >-
+      Alboin destroyed the Gepids in a single battle, killed their king Cunimund
+      and had a drinking cup made from his skull, and carried off Cunimund's
+      daughter Rosemund and married her — to his own injury, as Paul the Deacon
+      says afterwards appeared, since she had him killed four years later. The
+      booty from that campaign is what the Lombards crossed into Italy with. The
+      commentators put the destruction in 566 or 567 and cannot choose between
+      them.
+    source: paul-deacon-foulke
+    contested: false
+
 # Charlemagne besieged Pavia for nine months, took Desiderius, sent him to a
 # monastery, and added rex Langobardorum to his own titles. The kingdom
 # continued as an institution under a Frankish king, which is why this is coded
@@ -84,9 +103,10 @@ turning_points:
       at all, and the kingship was only restored when a Frankish and Byzantine
       alliance made a common command necessary — the dukes surrendering half
       their estates to endow it. It fixed the kingdom's permanent shape: a crown
-      that was strong when there was an external threat and weak when there was
-      not, with Spoleto and Benevento in the south effectively independent for
-      the whole two centuries.
+      that existed because the dukes had judged it cheaper than the alternative,
+      strong when there was an external threat and weak when there was not, with
+      Spoleto and Benevento in the south effectively independent for the whole
+      two centuries.
     source: christie-1995
     contested: false
   - year: 643
@@ -94,13 +114,12 @@ turning_points:
     name: The Edict of Rothari
     changed: >-
       Three hundred and eighty-eight chapters of Lombard law, written in Latin,
-      issued with the consent of the army assembly. It is the earliest surviving
-      Lombard legislation and it is a code of a different kind from the
-      Visigothic one on the record beside it: personal rather than territorial,
-      binding Lombards and leaving Romans to Roman law, and built on
-      compensation tariffs rather than on Roman legal categories. Two post-Roman
-      kingdoms, two codes, and opposite answers to whether the law follows the
-      person or the ground.
+      issued with the consent of the army assembly, replacing what the prologue
+      says had been held in memory and custom only. It binds Lombards and leaves
+      Romans to Roman law, so that two men in the same street were under
+      different law and a child's law followed his father's. Rothari dated it
+      not by the emperor's regnal year but by counting from the Lombard arrival
+      in Italy, and made it the seventy-seventh.
     source: christie-1995
     contested: false
   - year: 751
@@ -111,21 +130,21 @@ turning_points:
       exarchate and, with it, any imperial power in the north. It looks like the
       moment the kingdom finally wins Italy and it is the moment it loses it:
       the papacy, now with no imperial protector and a Lombard army on its
-      northern border, appealed to the Franks instead — and this corpus's
-      Carolingian record's first chapter is about what Pepin did with that
-      invitation.
+      northern border, sent across the Alps for one instead, and got a
+      Frankish army that came twice and left the disputed cities in the pope's
+      hands.
     source: christie-1995
     contested: false
   - year: 774
     type: siege
     name: Pavia
     changed: >-
-      Charlemagne besieged the capital for nine months, took Desiderius, and
-      added king of the Lombards to his own title. The kingdom was not
-      dissolved: its laws, its duchies and its administrative structure
-      continued under a Frankish king, and Lombard law was still being cited in
-      southern Italy in the twelfth century. It is a dynasty replaced rather
-      than a state destroyed, which is what this record's `ended` field says.
+      Charlemagne besieged the capital, took Desiderius and banished him for
+      life, drove his son Adalgis out of Italy, and added king of the Lombards
+      to his own title. The kingdom was not dissolved: its laws, its duchies and
+      its administrative structure continued, and the conqueror installed his
+      own son as its king rather than abolishing the crown. A dynasty was
+      replaced; a state was not destroyed.
     source: christie-1995
     contested: false
 

@@ -2181,10 +2181,11 @@ edges:
     type: conquered by
     year: 774
     note: >-
-      Charlemagne besieged Pavia for nine months and added king of the Lombards
-      to his own title. The kingdom's laws, duchies and administration continued
-      under a Frankish king, which is why the Lombard record codes its ending
-      `dynastic replacement`.
+      Charlemagne besieged Pavia, banished Desiderius for life and drove his son
+      Adalgis out of Italy, and added king of the Lombards to his own title. The
+      kingdom's laws, duchies and administration continued, and the conqueror
+      installed his own son as its king — a dynasty replaced rather than a state
+      destroyed.
     source: christie-1995
     contested: false
 
@@ -2237,8 +2238,8 @@ edges:
     note: >-
       A crusade Venice had contracted to carry took Constantinople and installed
       a Latin emperor. The partition treaty divided the empire between the
-      crusaders and Venice; three Greek governments claiming to be it survived
-      elsewhere, two of which this corpus carries.
+      crusaders and Venice; three Greek governments claiming to be the empire
+      survived elsewhere, at Nicaea, at Trebizond and in Epirus.
     source: van-tricht-2011
     contested: false
 

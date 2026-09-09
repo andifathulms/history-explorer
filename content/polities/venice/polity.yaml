@@ -58,6 +58,25 @@ ended:
   year: 1797
   source: lane-1973
 
+# The republic was handed to Austria at Campo Formio in October 1797, five months
+# after the Great Council dissolved itself. Not an edge: the Habsburg monarchy
+# has no record here, and what happened was a transfer between two outside powers
+# over the head of a state that had already voted itself out of existence.
+succeeded_by_external:
+  - name: the Austrian Empire
+    type: conquered by
+    year: 1797
+    note: >-
+      French troops entered in May and Napoleon traded the city to Austria in
+      October in exchange for territory elsewhere. Austrian troops arrived in
+      January 1798 and were welcomed: the provisional democratic government
+      installed under the French had spent the interim arresting people and
+      seizing property, and the French had carried off what they wanted from the
+      city, including the bronze horses of St Mark. Apart from Austerlitz and
+      the French years that followed it, Venice was Austrian until 1866.
+    source: trevelyan-1923
+    contested: false
+
 institutions:
   # Two, and the division between them is the whole military history. The fleet
   # was Venetian: oarsmen levied by parish from the city's own population, and
@@ -102,9 +121,9 @@ turning_points:
       exemption from all customs duties throughout the Byzantine empire and a
       quarter in Constantinople. It is the founding document of the Venetian
       commercial empire: a competitor paying nothing where everybody else paid
-      ten per cent does not merely prosper, it displaces. This site's Byzantine
-      record's chapter on 1204 identifies the concessions beginning here as the
-      thing that eventually cost the empire the customs of its own straits.
+      ten per cent does not merely prosper, it displaces. The concessions that
+      begin here are what eventually cost the empire the customs of its own
+      straits.
     source: lane-1973
     contested: false
   - year: 1204
@@ -116,8 +135,8 @@ turning_points:
       of the Byzantine empire and the doge the title of lord of a quarter and
       half a quarter of it. Venice took the ports and islands and left the land
       to the French. It is the moment a trading city with privileges becomes a
-      territorial empire, and this site's Byzantine and Nicaean records carry
-      the same year from the other side.
+      territorial empire, and the moment the empire it had been deferring to for
+      four centuries stopped existing in the form it had deferred to.
     source: lane-1973
     contested: false
   - year: 1297
@@ -127,10 +146,10 @@ turning_points:
       Membership of the Great Council was restricted to men whose families had
       already sat in it, and the patriciate became a closed hereditary caste
       registered in a book. It removed the question that destroyed every other
-      Italian republic — who is allowed in — by answering it permanently, and it
-      is why this record's `succession_rule` is a procedure rather than a
-      pattern. The price was that political participation stopped growing while
-      the empire did.
+      Italian republic — who is allowed in — by answering it permanently. The
+      price was that a few thousand registered families governed a city of a
+      hundred thousand and an empire of considerably more, and that political
+      participation stopped growing while everything else did.
     source: lane-1973
     contested: false
   - year: 1380
@@ -141,9 +160,8 @@ turning_points:
       closer to destruction than at any other point in its history. It armed
       everything it had, blockaded the blockaders through a winter, and forced
       the Genoese fleet to surrender. Genoa never again contested the Levant
-      trade as an equal, and this site's Genoese record carries the same war as
-      the point at which it stopped being the other maritime republic and
-      started being a bank.
+      trade as an equal; it turned instead towards finance, and the two
+      republics were never again rivals of the same kind.
     source: lane-1973
     contested: false
   - year: 1669
@@ -152,10 +170,10 @@ turning_points:
     changed: >-
       Crete, held since 1204, fell to the Ottomans after a siege of the capital
       lasting twenty-one years — one of the longest in recorded history. With it
-      went the last substantial piece of the maritime empire the second turning
-      point on this record created. What remained after 1669 was a wealthy
-      mainland state in northern Italy with an Adriatic coastline, which is a
-      different polity wearing the same constitution.
+      went the last substantial piece of the maritime empire taken in 1204. What
+      remained after 1669 was a wealthy mainland state in northern Italy with an
+      Adriatic coastline, which is a different polity wearing the same
+      constitution.
     source: lane-1973
     contested: false
 
