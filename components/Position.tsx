@@ -1,6 +1,12 @@
 import Link from 'next/link'
 import { formatYear, formatRange } from '@/lib/years'
-import { edgeParties, type Edge, type ExternalNeighbour, type Polity } from '@/lib/types'
+import {
+  edgeParties,
+  type Edge,
+  type Ending,
+  type ExternalNeighbour,
+  type Polity,
+} from '@/lib/types'
 import { displayName, hasPage } from '@/lib/content'
 import { SectionHead } from '@/components/Shell'
 
@@ -103,6 +109,53 @@ function EdgeRow({ edge, other }: { edge: Edge; other: string }) {
 }
 
 /**
+ * What the ending names, when no edge carries it.
+ *
+ * Some polities stop because of somebody this collection does carry, and yet no
+ * succession edge joins them: the vocabulary has eight types and none of them
+ * describes what happened. Persis is the case that forced this. Its own king
+ * beat his overlord and became king of kings, so Persis was not conquered, did
+ * not fragment and was not replaced by another house — it stopped being a
+ * separate kingdom by becoming the centre of an empire. Typing that as conquest
+ * would put a false sentence into a drawn thread.
+ *
+ * The old fallback then told the reader that nothing continued from Persis,
+ * three screens under a chapter naming exactly what did. So where `ended.by`
+ * names somebody, this says so: a plain sentence about the past, no year of
+ * transfer asserted beyond the one the ending already carries, and no edge, no
+ * thread and no tally touched.
+ */
+function EndedBy({ ending }: { ending: Ending }) {
+  return (
+    <p className="mt-2 max-w-measure text-debu-ink">
+      {ending.year == null ? null : (
+        <>
+          <span className="font-mono text-[14px] tabular-nums">{formatYear(ending.year)}</span>{' '}
+          &mdash;{' '}
+        </>
+      )}
+      ended by{' '}
+      {ending.by.map((id, i) => (
+        <span key={id}>
+          {i > 0 ? (i === ending.by.length - 1 ? ' and ' : ', ') : null}
+          {hasPage(id) ? (
+            <Link
+              href={`/polity/${id}/`}
+              className="link-underline font-semibold text-kashi hover:text-firuze-ink"
+            >
+              {displayName(id)}
+            </Link>
+          ) : (
+            <span className="font-semibold text-debu-ink">{displayName(id)}</span>
+          )}
+        </span>
+      ))}
+      .
+    </p>
+  )
+}
+
+/**
  * The same-object relation, stated inside Succession and explicitly not as one.
  *
  * It sits here because this is where a reader asks the question, and the copy
@@ -155,7 +208,14 @@ export function Position({
   // polities outside a dense region will look like. Two columns of "no recorded
   // predecessor" would dress that up as a pair of absences; one sentence is the
   // truer shape, and it keeps the page from opening on a hole.
-  if (!predecessors.length && !successors.length && !before.length && !after.length) {
+  const endedBy = polity.ended && polity.ended.by.length ? polity.ended : null
+  if (
+    !predecessors.length &&
+    !successors.length &&
+    !before.length &&
+    !after.length &&
+    !endedBy
+  ) {
     return (
       <section aria-labelledby="position-heading" className="mt-16">
         <SectionHead ground="paper" id="position-heading">
@@ -221,6 +281,8 @@ export function Position({
             <p className="mt-2 text-debu-ink">
               What led away is the later record of this same polity, named above.
             </p>
+          ) : endedBy ? (
+            <EndedBy ending={endedBy} />
           ) : (
             <p className="mt-2 text-debu-ink">
               No later polity is recorded as continuing from here.

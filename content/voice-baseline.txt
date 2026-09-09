@@ -60,10 +60,6 @@ content/polities/asante/02-kumasi.mdx
 content/polities/asante/03-the-great-roads.mdx
 content/polities/asante/04-the-fifth-case.mdx
 content/polities/asante/05-two-parties.mdx
-content/polities/atropatene/01-the-satrap-who-stayed.mdx
-content/polities/atropatene/02-the-fire-of-the-warriors.mdx
-content/polities/atropatene/03-antony.mdx
-content/polities/atropatene/04-the-name.mdx
 content/polities/attalid/01-the-treasurer.mdx
 content/polities/attalid/02-a-gift-and-a-leash.mdx
 content/polities/attalid/03-the-library.mdx
@@ -418,10 +414,6 @@ content/polities/parthian/02-taking-iran.mdx
 content/polities/parthian/04-carrhae.mdx
 content/polities/parthian/06-the-parthian-gap.mdx
 content/polities/parthian/07-224.mdx
-content/polities/persis/01-the-homeland.mdx
-content/polities/persis/02-somebody-elses-vassal.mdx
-content/polities/persis/03-the-argument-about-the-coins.mdx
-content/polities/persis/04-224.mdx
 content/polities/pontus/01-two-descents.mdx
 content/polities/pontus/02-one-day.mdx
 content/polities/pontus/03-the-long-retreat.mdx
@@ -510,12 +502,6 @@ content/polities/second-bulgarian/03-klokotnitsa.mdx
 content/polities/second-bulgarian/04-the-swineherd.mdx
 content/polities/second-bulgarian/05-tarnovo.mdx
 content/polities/second-bulgarian/06-1396.mdx
-content/polities/seleucid/01-the-largest-share.mdx
-content/polities/seleucid/02-making-the-land-mean-something.mdx
-content/polities/seleucid/03-the-cities.mdx
-content/polities/seleucid/04-losing-the-east.mdx
-content/polities/seleucid/05-ai-khanoum.mdx
-content/polities/seleucid/06-64.mdx
 content/polities/serbia/01-a-family-of-saints.mdx
 content/polities/serbia/02-the-silver.mdx
 content/polities/serbia/03-dusan.mdx

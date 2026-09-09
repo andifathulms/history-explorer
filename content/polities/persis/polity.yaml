@@ -40,8 +40,11 @@ scripts_and_languages:
 # Persis was not conquered, did not fragment, was not usurped and was not
 # replaced by a different house. Its own king defeated his overlord and became
 # king of kings, and the kingdom stopped being a separate polity because it had
-# become the centre of an empire. `gradual absorption` is the nearest available
-# and the fourth chapter is about the gap.
+# become the centre of an empire. `gradual absorption` is the nearest available.
+# No edge runs from here to `sasanian`: coding rule 1 excludes dynastic descent
+# on its own, and the transfer of authority in 224 is already carried by the
+# Parthian-to-Sasanian edge. Succession therefore names this ending instead of
+# telling the reader that nothing continued.
 ended:
   type: gradual absorption
   by: [sasanian]
