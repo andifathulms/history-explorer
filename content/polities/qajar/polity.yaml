@@ -42,9 +42,11 @@ ended:
 
 # `ended.by` is empty because the Pahlavi state has no record here, so the
 # successor is named instead of pointing the field at an id that does not exist.
+# No `type`: the row renders "<this polity> <type> <name>", so an active verb
+# here would read as the Qajars overthrowing the Pahlavis. Omitting it prints the
+# year and the name and lets the note say who did what to whom.
 succeeded_by_external:
   - name: the Pahlavi state
-    type: overthrew
     year: 1925
     note: >-
       Reza Khan, commander of the Cossack Brigade, took Tehran in February 1921
