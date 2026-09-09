@@ -3037,3 +3037,34 @@ sources:
       printed together and a full index of proper names in all three. Its use
       here is that index, which is where the Babylonian name for the province
       the Persians called Armina can be read off directly. Out of copyright.
+
+  - id: arrian-chinnock
+    kind: book
+    author: Arrian
+    title: The Anabasis of Alexander
+    translator: E. J. Chinnock
+    publisher: Hodder and Stoughton
+    year: 1884
+    note: >-
+      Written some four hundred and fifty years after the events, by a Roman
+      senator and provincial governor working principally from Ptolemy and
+      Aristobulus, both of whom were on the campaign and neither of whose books
+      survives. It is the soberest of the five surviving narratives and the only
+      one that consistently says which of its lost sources a statement comes
+      from. Chinnock's translation carries notes identifying where Diodorus,
+      Curtius and Plutarch differ. Out of copyright.
+
+  - id: plutarch-clough
+    kind: book
+    author: Plutarch
+    title: Lives of the Noble Grecians and Romans
+    translator: John Dryden
+    editor: Arthur Hugh Clough
+    year: 1859
+    note: >-
+      Biography rather than history, and Plutarch says so; his interest is
+      character, and he selects for it. Two things make it useful here anyway.
+      The last chapters of the Life of Alexander quote the court diary of the
+      final illness almost day by day, and the Roman lives record what later
+      generals did with Alexander's memory — which is a fact about the Romans
+      and reliably reported. Out of copyright.

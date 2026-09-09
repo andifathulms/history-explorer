@@ -10,13 +10,6 @@
 content/polities/abbadid/01-a-caliph-made-of-a-mat-maker.mdx
 content/polities/abbadid/03-what-the-small-courts-made.mdx
 content/polities/abbadid/04-camels-and-swine.mdx
-content/polities/achaemenid/01-cyrus.mdx
-content/polities/achaemenid/02-satrapies.mdx
-content/polities/achaemenid/03-the-tablets.mdx
-content/polities/achaemenid/04-the-greek-problem.mdx
-content/polities/achaemenid/05-by-the-favour-of-ahuramazda.mdx
-content/polities/achaemenid/06-not-in-decline.mdx
-content/polities/achaemenid/07-three-battles.mdx
 content/polities/adiabene/01-arbela.mdx
 content/polities/adiabene/02-a-jewish-royal-house.mdx
 content/polities/adiabene/03-the-second-one.mdx
@@ -331,10 +324,6 @@ content/polities/liao/04-1114.mdx
 content/polities/liao/05-qara-khitai.mdx
 content/polities/lombard/01-the-kingless-decade.mdx
 content/polities/lombard/02-rothari.mdx
-content/polities/macedonian/02-thirteen-years.mdx
-content/polities/macedonian/03-the-sources.mdx
-content/polities/macedonian/04-the-apparatus.mdx
-content/polities/macedonian/05-the-succession.mdx
 content/polities/makuria/01-the-pupil-smiters.mdx
 content/polities/makuria/02-a-monetised-economy.mdx
 content/polities/makuria/03-the-fourth-case.mdx
@@ -353,11 +342,6 @@ content/polities/marinid/03-the-book-they-paid-for.mdx
 content/polities/marinid/04-one-year-of-the-whole-maghreb.mdx
 content/polities/maurya/01-maurya.mdx
 content/polities/maurya/02-the-inscriptions.mdx
-content/polities/median/01-what-the-assyrians-recorded.mdx
-content/polities/median/02-612.mdx
-content/polities/median/03-an-empire-possibly.mdx
-content/polities/median/04-what-cyrus-needed.mdx
-content/polities/median/05-549.mdx
 content/polities/midrarid/01-the-northern-end.mdx
 content/polities/midrarid/02-salt-for-gold.mdx
 content/polities/midrarid/03-the-prisoner.mdx
