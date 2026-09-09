@@ -41,10 +41,34 @@ scripts_and_languages:
   administration: [Sabaic]
   writing_system: The Ancient South Arabian musnad alphabet
 
-# No `preceded_by_external`. Saba' is the earliest state attested in South
-# Arabia and nothing consulted names a polity it succeeded: the Arabic tradition
-# puts legendary peoples before it, which is not a predecessor this page will
-# print as one. The empty predecessor line is the honest answer here.
+# Saba' is the earliest state attested in South Arabia by its own inscriptions
+# or by anybody else's, so the predecessor here is not a documented polity and
+# is not offered as one: it is what the Arabic genealogical tradition puts in
+# the ground before the Qahtanite kingdoms. It is entered rather than left blank
+# because the tradition is the answer the sources actually give to the question,
+# and `contested: true` plus a note that says so is a better rendering of that
+# than an empty line. No `type`: the row would otherwise read as Saba' having
+# done something to 'Ad, which is exactly the claim being declined.
+preceded_by_external:
+  - name: the people of 'Ad
+    year: null
+    contested: true
+    note: >-
+      Arabic tradition holds that South Arabia and the coast east of it belonged
+      to 'Ad, a people to whom the Qur'an sends the prophet Hud and who were
+      destroyed for refusing him, and that Hadramawt, Shihr and Oman were taken
+      from them by the Banu Ya'rub son of Qahtan — the line from which Saba' is
+      the fourth generation in the standard pedigree. The genealogists are
+      explicit that this belongs to a different order of knowledge from the rest
+      of what they report: an older race is agreed to have held the peninsula
+      before the Qahtanites, nothing of its posterity can now be distinguished,
+      and the traditions about it rest on no authority except the Qur'an itself.
+      There is no inscription, no king and no date. What the tradition preserves
+      is the shape of the claim the Sabaeans' descendants made: that the country
+      was inhabited before them, that they took it, and that whoever held it
+      first had been swept away for cause.
+    source: kay-1892
+
 ended:
   type: gradual absorption
   by: [himyar]
