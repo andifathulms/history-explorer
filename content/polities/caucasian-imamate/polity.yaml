@@ -42,6 +42,39 @@ ended:
   year: 1859
   source: gammer-1994
 
+# Neither end has a record here. What the imamate replaced was not a state but
+# the khanates and the customary law of the valleys, which is why the type is
+# `overthrew` and the year is the proclamation rather than a conquest.
+preceded_by_external:
+  - name: the khans of Daghestan and the rule of adat
+    type: overthrew
+    year: 1828
+    note: >-
+      The mountains had no sovereign. They had customary law administered by
+      village assemblies and elders, and above it a set of Avar and Daghestani
+      khans and beks whose authority rested on lineage. The imamate was declared
+      against both: replacing adat with the sharia meant abolishing the blood
+      feud and the elders' jurisdiction, and it meant attacking the khans, which
+      the movement did before it fought a Russian. Hamzat Bek massacred the Avar
+      khans' family at Khunzakh in 1834.
+    source: gammer-1994
+
+# `ended.by` is empty for the same reason as on the Kartli-Kakheti record: the
+# Russian empire is a backdrop entry and not a record here.
+succeeded_by_external:
+  - name: the Russian Empire
+    type: conquered by
+    year: 1859
+    note: >-
+      Russia stopped invading in the late 1840s and started building instead —
+      clearing the beech forests of Chechnya, cutting roads through the cleared
+      ground, planting forts at the ends of the roads and moving the line forward
+      a few kilometres a year. Vedeno fell in April 1859; Shamil withdrew to the
+      mountain of Gunib with a few hundred men and surrendered on 25 August. He
+      was taken to St Petersburg, embraced by Alexander II, pensioned, and
+      allowed in 1869 to make the pilgrimage.
+    source: gammer-1994
+
 institutions:
   # The murtaziqa: a standing mounted force maintained at community expense,
   # with each group of households required to equip and support one horseman

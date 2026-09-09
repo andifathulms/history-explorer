@@ -33,6 +33,23 @@ scripts_and_languages:
   administration: [Arabic, Persian]
   writing_system: Perso-Arabic
 
+# The Sallarids have no record here, so the predecessor is named rather than
+# edged. No year: the Shaddadids did not take Arran in one act. Muhammad ibn
+# Shaddad established himself at Dvin around 951 and his sons took Ganja in 971,
+# and Sallarid authority was failing across the whole interval.
+preceded_by_external:
+  - name: the Sallarid emirate
+    type: absorbed remnants of
+    year: null
+    note: >-
+      The Sallarids — the Daylami dynasty also called the Musafirids — had held
+      Arran and Adharbayjan since the 940s and were losing their grip on both by
+      the middle of the century. Muhammad ibn Shaddad established himself at
+      Dvin around 951 while they still nominally held it; his sons took Ganja
+      from them in 971, and the Shaddadids inherited the position rather than
+      conquering it in a campaign.
+    source: minorsky-1953
+
 ended:
   type: conquest
   by: [georgia]

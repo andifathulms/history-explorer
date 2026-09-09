@@ -38,6 +38,23 @@ ended:
   year: 1801
   source: suny-1994
 
+# `ended.by` is empty because the Russian empire is a backdrop entry rather than
+# a record, so the successor is named here instead of pointing a field at an id
+# that does not exist.
+succeeded_by_external:
+  - name: the Russian Empire
+    type: conquered by
+    year: 1801
+    note: >-
+      George XII asked for an incorporation that kept a Bagrationi on the throne
+      under Russian sovereignty. Paul I issued a manifesto annexing the kingdom
+      and Alexander I confirmed it in September 1801 in terms that abolished the
+      monarchy outright. The dynasty was deported to Russia, the kingdom's
+      institutions were replaced with Russian provincial administration, and in
+      1811 the autocephaly the Georgian church had held since the fifth century
+      was abolished and the church put under the Russian Synod.
+    source: suny-1994
+
 institutions:
   # The noble levy this site codes on four other Caucasian records, and
   # something new beside it. In 1773 Erekle instituted the morigeoba, a

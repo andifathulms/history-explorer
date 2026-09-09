@@ -89,10 +89,6 @@ content/polities/carolingian/03-two-emperors.mdx
 content/polities/carolingian/04-counts-and-capitularies.mdx
 content/polities/carolingian/05-the-arithmetic.mdx
 content/polities/carolingian/07-the-inheritance.mdx
-content/polities/caucasian-imamate/01-sharia-against-adat.mdx
-content/polities/caucasian-imamate/02-the-state-he-built.mdx
-content/polities/caucasian-imamate/04-dargo.mdx
-content/polities/caucasian-imamate/05-gunib.mdx
 content/polities/chagatai/01-the-poorest-khanate.mdx
 content/polities/chagatai/02-moghulistan.mdx
 content/polities/champa/01-the-oldest-and-the-least-like-a-kingdom.mdx
@@ -134,12 +130,6 @@ content/polities/genoa/02-the-companies.mdx
 content/polities/genoa/03-chioggia.mdx
 content/polities/genoa/04-a-bank-with-colonies.mdx
 content/polities/genoa/05-doria-and-the-silver.mdx
-content/polities/georgia/01-one-crown.mdx
-content/polities/georgia/02-didgori.mdx
-content/polities/georgia/03-tamar.mdx
-content/polities/georgia/04-the-mongols.mdx
-content/polities/georgia/05-a-christian-kingdom.mdx
-content/polities/georgia/06-1490.mdx
 content/polities/ghana/01-the-name-is-a-title.mdx
 content/polities/ghana/02-a-dinar-on-a-donkey.mdx
 content/polities/ghana/03-the-sisters-son.mdx
@@ -241,11 +231,6 @@ content/polities/karamanid/01-out-of-the-mountains.mdx
 content/polities/karamanid/02-the-claim-and-the-decree.mdx
 content/polities/karamanid/03-holding-konya.mdx
 content/polities/karamanid/04-two-centuries-of-being-the-rival.mdx
-content/polities/kartli-kakheti/01-two-of-three.mdx
-content/polities/kartli-kakheti/02-the-reforms.mdx
-content/polities/kartli-kakheti/03-georgievsk.mdx
-content/polities/kartli-kakheti/04-krtsanisi.mdx
-content/polities/kartli-kakheti/05-1801.mdx
 content/polities/khazar/01-the-wall.mdx
 content/polities/khazar/02-the-correspondence.mdx
 content/polities/khwarazmian/02-taking-the-sultanate.mdx
@@ -451,10 +436,6 @@ content/polities/serbia/02-the-silver.mdx
 content/polities/serbia/03-dusan.mdx
 content/polities/serbia/04-the-code.mdx
 content/polities/serbia/05-the-maritsa.mdx
-content/polities/shaddadid/01-ganja.mdx
-content/polities/shaddadid/02-ani.mdx
-content/polities/shaddadid/03-prehistory-of-saladin.mdx
-content/polities/shaddadid/04-1199.mdx
 content/polities/sharifate-mecca/01-the-qualification.mdx
 content/polities/sharifate-mecca/02-qatada.mdx
 content/polities/sharifate-mecca/04-the-ottoman-centuries.mdx
