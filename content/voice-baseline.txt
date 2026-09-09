@@ -20,11 +20,6 @@ content/polities/aghlabid/01-a-province-for-rent.mdx
 content/polities/aghlabid/02-kairouan.mdx
 content/polities/aghlabid/03-sicily.mdx
 content/polities/aghlabid/04-909.mdx
-content/polities/akkoyunlu/01-bayandur.mdx
-content/polities/akkoyunlu/03-the-chancery.mdx
-content/polities/akkoyunlu/04-the-western-embassy.mdx
-content/polities/akkoyunlu/05-otlukbeli.mdx
-content/polities/akkoyunlu/06-the-grandson.mdx
 content/polities/aksum/01-a-third-power.mdx
 content/polities/aksum/02-the-stelae.mdx
 content/polities/aksum/03-ezana.mdx
@@ -188,11 +183,6 @@ content/polities/kanem-bornu/03-horses-and-people.mdx
 content/polities/kanem-bornu/04-idris-alooma.mdx
 content/polities/kanem-bornu/05-the-letters.mdx
 content/polities/kanem-bornu/06-1893.mdx
-content/polities/karakoyunlu/01-the-black-sheep.mdx
-content/polities/karakoyunlu/03-jahan-shah.mdx
-content/polities/karakoyunlu/04-haqiqi.mdx
-content/polities/karakoyunlu/05-two-sheep.mdx
-content/polities/karakoyunlu/06-chapakchur.mdx
 content/polities/karamanid/01-out-of-the-mountains.mdx
 content/polities/karamanid/02-the-claim-and-the-decree.mdx
 content/polities/karamanid/03-holding-konya.mdx
@@ -399,12 +389,6 @@ content/polities/tang/04-salt.mdx
 content/polities/tang/05-what-was-copied.mdx
 content/polities/tibetan-empire/01-plateau.mdx
 content/polities/tibetan-empire/02-the-council.mdx
-content/polities/timurid/01-amir-not-khan.mdx
-content/polities/timurid/02-the-campaigns.mdx
-content/polities/timurid/03-how-it-was-held.mdx
-content/polities/timurid/04-shahrukh.mdx
-content/polities/timurid/06-the-princely-vision.mdx
-content/polities/timurid/07-the-uzbeks.mdx
 content/polities/trebizond/01-two-hundred-miles-of-coast.mdx
 content/polities/trebizond/02-the-city-and-the-road.mdx
 content/polities/trebizond/03-bessarion.mdx
