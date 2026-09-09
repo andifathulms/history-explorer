@@ -7,13 +7,6 @@
 #
 # When this file is empty, delete it and the baseline logic in
 # scripts/check-voice.mjs with it.
-content/polities/abbadid/01-a-caliph-made-of-a-mat-maker.mdx
-content/polities/abbadid/03-what-the-small-courts-made.mdx
-content/polities/abbadid/04-camels-and-swine.mdx
-content/polities/aghlabid/01-a-province-for-rent.mdx
-content/polities/aghlabid/02-kairouan.mdx
-content/polities/aghlabid/03-sicily.mdx
-content/polities/aghlabid/04-909.mdx
 content/polities/almohad/02-the-hierarchy.mdx
 content/polities/almohad/03-two-things-at-once.mdx
 content/polities/almohad/04-las-navas.mdx
@@ -127,7 +120,3 @@ content/polities/zayyanid/01-the-crossroads.mdx
 content/polities/zayyanid/02-a-city-built-to-take-a-city.mdx
 content/polities/zayyanid/03-the-funduk.mdx
 content/polities/zayyanid/04-between-two-empires.mdx
-content/polities/zirid/01-left-behind.mdx
-content/polities/zirid/02-the-answer-was-a-migration.mdx
-content/polities/zirid/03-the-mountain-capital.mdx
-content/polities/zirid/04-a-port-instead-of-a-province.mdx
