@@ -34,6 +34,30 @@ ended:
   year: -1077
   source: shaw-2000
 
+# Both directions named. The Hyksos and the Tanite kings have no records here and
+# a reader asking what the New Kingdom replaced, and what replaced it, is asking
+# about Egypt rather than about the collection.
+preceded_by_external:
+  - name: the Hyksos kingdom of Avaris
+    type: overthrew
+    year: 1550
+    note: >-
+      A Levantine dynasty had ruled the Delta from Avaris for about a century,
+      with the Theban kings as tributaries and Nubia allied against them. Ahmose
+      took Avaris and drove them into Palestine, and the New Kingdom is what the
+      Theban house became after winning that war.
+    source: breasted-1912
+succeeded_by_external:
+  - name: the Tanite kings and the High Priests of Amun
+    year: 1077
+    note: >-
+      The kingdom did not fall to anybody. It divided: a Ramesside line at Tanis
+      in the Delta holding the title, and the High Priest of Amun at Thebes
+      holding the south with an army and the temple estates. Wenamun sailed for
+      Byblos under that arrangement, with letters from the High Priest and no
+      authority behind them.
+    source: breasted-1912
+
 institutions:
   # The New Kingdom is where Egypt acquires a permanent army. Divisions named
   # for gods, career soldiers, a chariot arm, and a command structure that

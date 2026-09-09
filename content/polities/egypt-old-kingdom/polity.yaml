@@ -45,6 +45,30 @@ ended:
   year: -2181
   source: shaw-2000
 
+# Both directions named. Neither the Early Dynastic kings nor the Herakleopolitans
+# are records here, and a reader asking what came before and after the pyramid age
+# is asking about Egypt.
+preceded_by_external:
+  - name: the kings of the First and Second Dynasties
+    year: null
+    note: >-
+      Egypt was already a unified kingdom for roughly four centuries before
+      Djoser, ruled from Memphis by kings buried at Abydos and Saqqara who left
+      inscribed stelae, annals on stone and the beginnings of the administrative
+      apparatus the Old Kingdom ran on. What the Third Dynasty added was building
+      in cut stone.
+    source: breasted-1906
+succeeded_by_external:
+  - name: the kings of Herakleopolis
+    year: null
+    note: >-
+      After 2181 the Memphite kingship dissolved and the country was governed in
+      pieces. The line that eventually claimed Egypt from the north ruled at
+      Herakleopolis and was served by the lords of Asyut, whose tombs are the only
+      contemporary source for the period; the line that beat them ruled at Thebes
+      and became the Eleventh Dynasty.
+    source: breasted-1906
+
 institutions:
   # The corvee: a periodic obligation of labour and military service owed by the
   # rural population and organised through the provincial administration.

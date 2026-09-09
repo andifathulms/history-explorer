@@ -44,6 +44,32 @@ ended:
   year: -1110
   source: potts-2016
 
+# The Elam before this one. It is a real predecessor and not a record here; see
+# the last chapter, which is about exactly that gap.
+preceded_by_external:
+  - name: the Elam of Awan, Shimashki and the sukkalmahs
+    year: null
+    note: >-
+      Six centuries of Elamite states preceded this one, with their own federal
+      structure and a succession passing from brother to brother and then to a
+      sister's son. It was a coalition from that Elam that took Ur in 2004 BC and
+      carried its last king off to Anshan. The Middle Elamite kingdom is a
+      resumption of that tradition after a long thin period, not a new thing.
+    source: potts-2016
+
+# Who ended it. The Second Dynasty of Isin has no record here and is the answer to
+# what came next, so it is named rather than left to an empty line.
+succeeded_by_external:
+  - name: the Second Dynasty of Isin
+    type: conquered by
+    year: 1110
+    note: >-
+      Nebuchadnezzar I of Babylon invaded Elam, recovered the statue of Marduk
+      that the Elamites had taken half a century earlier, and broke the kingdom.
+      Nothing recognisable as an Elamite state appears in anybody's records for
+      about three hundred years afterwards.
+    source: potts-2016
+
 institutions:
   # Null, and the same is true of the next two fields. This is the second time
   # in this region that a major power comes in at one coded institution out of

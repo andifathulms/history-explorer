@@ -34,6 +34,21 @@ ended:
   year: -2154
   source: van-de-mieroop-2015
 
+# What Sargon took the country from. Lugalzagesi is not a record here and does not
+# need to be one; a reader asking what preceded the first empire is asking about
+# Sumer, not about which pages exist.
+preceded_by_external:
+  - name: the kingdom of Lugalzagesi
+    type: overthrew
+    year: null
+    note: >-
+      Lugalzagesi of Umma had united the Sumerian city-states and ruled them from
+      Uruk, styling himself king of the land. Sargon defeated him, and the
+      Sumerian tradition remembered the victor leading him in a neck-stock to the
+      gate of Enlil at Nippur. Everything Akkad governed in Sumer it took from
+      this man.
+    source: king-1910
+
 institutions:
   # `standing-professional`, and this is the earliest instance of that value in
   # the corpus by fifteen hundred years. Sargon's inscriptions record that five

@@ -51,6 +51,20 @@ ended:
   year: -1180
   source: bryce-2005
 
+# What continued after Hattusa burned. The Syrian successor kingdoms are not
+# records here and the reader asking what became of the Hittites is asking about
+# Syria.
+succeeded_by_external:
+  - name: the Neo-Hittite kingdoms of Carchemish and Malatya
+    year: null
+    note: >-
+      The Syrian viceroyalties survived the destruction of the centre. Their
+      kings went on styling themselves Great King, writing Luwian in Anatolian
+      hieroglyphs and calling their country Hatti, and the Assyrians used that
+      name for the whole of northern Syria for another four centuries; so does
+      the Hebrew Bible.
+    source: sayce-1888
+
 institutions:
   # Land held in return for military service, and a network of vassal kingdoms
   # in Syria and western Anatolia obliged by sworn treaty to send troops. The

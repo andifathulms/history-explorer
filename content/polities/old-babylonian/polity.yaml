@@ -44,6 +44,34 @@ ended:
   year: -1595
   source: beaulieu-2018
 
+# What actually followed in Babylonia. The Hittite raid is recorded as an edge and
+# led nowhere; the Kassites governed the country for four centuries and have no
+# record here, which is a fact about the evidence rather than about Babylonia.
+succeeded_by_external:
+  - name: the Kassite dynasty
+    year: null
+    note: >-
+      The Hittites sacked Babylon in 1595 and went home. What replaced the First
+      Dynasty was a Kassite line that ruled Babylonia for something over four
+      centuries — longer than any other dynasty in Mesopotamian history — and
+      whose arrival nobody recorded. It kept the city, the gods, the language and
+      the scribal tradition, and left one of the least documented successions in
+      the ancient world.
+    source: king-1910
+
+# What Babylon rose among. Isin and Larsa are real predecessors with no records
+# here, and the first chapter is about being one Amorite kingdom among several.
+preceded_by_external:
+  - name: the kingdoms of Isin and Larsa
+    year: null
+    note: >-
+      Southern Mesopotamia after the fall of Ur was divided between rival Amorite
+      dynasties, of which Isin and then Larsa were the largest; Babylon was a
+      minor city among them for a century before Hammurabi. Rim-Sin of Larsa had
+      held the south for sixty years when Hammurabi took it from him in his
+      thirtieth year as king.
+    source: king-1910
+
 institutions:
   # The ilkum: a field held from the palace by a soldier — the redum and the
   # ba'irum — on condition of service, inalienable, forfeit if he failed to go

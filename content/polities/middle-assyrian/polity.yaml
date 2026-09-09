@@ -48,6 +48,20 @@ ended:
   year: -1056
   source: frahm-2023
 
+# What actually moved into the space. No single polity followed, and naming the
+# Aramaeans is more useful to a reader than saying nothing did.
+succeeded_by_external:
+  - name: the Aramaean tribal confederations
+    year: null
+    note: >-
+      No successor took Assyria; groups of Aramaean speakers moved across the
+      country between the Assyrian core and the Euphrates over several decades
+      and stayed, and the provinces stopped appearing in the record. They are
+      named repeatedly in later Assyrian inscriptions as the enemy the reconquest
+      of the ninth century had to clear, which is the best evidence of what had
+      been there in the interval.
+    source: luckenbill-1927
+
 institutions:
   # Land held from the crown against the ilku obligation, and a levy raised
   # through the provincial governors. Postgate's point, which is why this field

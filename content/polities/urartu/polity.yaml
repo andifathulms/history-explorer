@@ -48,6 +48,21 @@ ended:
   year: -590
   source: zimansky-1998
 
+# What the kingdom was assembled out of. Nairi is a region and a set of small
+# rulers rather than a polity with a record, and naming it is more use to a reader
+# than an empty line.
+preceded_by_external:
+  - name: the lands of Nairi
+    year: null
+    note: >-
+      Before there was a kingdom around Lake Van there was Nairi, the Assyrian
+      name for a country of many small rulers in the eastern mountains, whose
+      kings appear in ninth-century Assyrian inscriptions individually paying
+      tribute. Urartu is what those principalities became once the Assyrian army
+      started coming north often enough that not organising was no longer an
+      option.
+    source: luckenbill-1927
+
 institutions:
   # The Urartian state was its fortresses. Zimansky's argument, and the reason
   # this record is coded from him, is that the kingdom was a superstructure
