@@ -204,11 +204,6 @@ content/polities/karamanid/03-holding-konya.mdx
 content/polities/karamanid/04-two-centuries-of-being-the-rival.mdx
 content/polities/khazar/01-the-wall.mdx
 content/polities/khazar/02-the-correspondence.mdx
-content/polities/khwarazmian/02-taking-the-sultanate.mdx
-content/polities/khwarazmian/03-throwing-off-the-qara-khitai.mdx
-content/polities/khwarazmian/04-otrar.mdx
-content/polities/khwarazmian/05-the-man-who-wrote-it-down.mdx
-content/polities/khwarazmian/06-the-thread-stops.mdx
 content/polities/kilwa/01-where-the-wind-stops.mdx
 content/polities/kilwa/02-sofala.mdx
 content/polities/kilwa/03-the-prince-from-shiraz.mdx
@@ -287,10 +282,6 @@ content/polities/nicaea/01-a-government-in-exile-that-worked.mdx
 content/polities/nicaea/02-three-claimants.mdx
 content/polities/nicaea/04-the-church-in-exile.mdx
 content/polities/nicaea/05-what-the-restoration-cost.mdx
-content/polities/nizari/02-the-qiyama.mdx
-content/polities/nizari/03-sinan-and-the-castles-in-syria.mdx
-content/polities/nizari/04-after-alamut.mdx
-content/polities/nizari/05-the-legend.mdx
 content/polities/norman-sicily/01-a-crown-from-an-antipope.mdx
 content/polities/norman-sicily/02-three-chanceries.mdx
 content/polities/norman-sicily/03-1194.mdx
