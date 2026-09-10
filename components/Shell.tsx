@@ -104,6 +104,15 @@ export function PageHead({
  * `gap: true` renders the value as an absence rather than a figure — italic,
  * in dust, at reading size. A missing measure set in 22px mono next to a real
  * one reads as data, which is the one thing it must not do.
+ *
+ * The figure size steps down below `sm`, and the break rule is `break-word`
+ * rather than `anywhere`. At 375px each of two columns held about 127px of
+ * content while "11,100,000 km²" at 22px mono wanted about 185px — and the
+ * number *alone* wanted about 132px, so the browser broke inside the digits.
+ * A table of measurements wrapping mid-number is the one thing it must never
+ * do; it is the same failure that moved the rankings table into the wide
+ * shell. At 17px the corpus's longest figure, 24,000,000 km², sets at about
+ * 102px and clears the cell even at 320px.
  */
 export function StatRow({
   stats,
@@ -120,13 +129,18 @@ export function StatRow({
       }`}
     >
       {stats.map((s) => (
-        <div key={s.label} className={`px-5 py-5 ${dark ? 'bg-dawat' : 'bg-kaghaz-raise'}`}>
+        <div
+          key={s.label}
+          className={`px-4 py-4 sm:px-5 sm:py-5 ${dark ? 'bg-dawat' : 'bg-kaghaz-raise'}`}
+        >
           <dt className={`kicker ${dark ? 'text-debu-paper' : 'text-debu-ink'}`}>{s.label}</dt>
           <dd
-            className={`mt-2 leading-tight [overflow-wrap:anywhere] ${
+            className={`mt-2 leading-tight [overflow-wrap:break-word] ${
               s.gap
-                ? 'text-[16px] italic text-debu-ink'
-                : `font-mono text-[22px] tabular-nums ${dark ? 'text-kaghaz' : 'text-kashi-deep'}`
+                ? 'text-[15px] italic text-debu-ink sm:text-[16px]'
+                : `font-mono text-[17px] tabular-nums sm:text-[22px] ${
+                    dark ? 'text-kaghaz' : 'text-kashi-deep'
+                  }`
             }`}
           >
             {s.value}
