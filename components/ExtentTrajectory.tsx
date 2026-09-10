@@ -41,6 +41,39 @@ export function ExtentTrajectory({ polity }: { polity: Polity }) {
   const first = points[0]
   const last = points[points.length - 1]
 
+  /**
+   * Where each year label goes, and whether it goes anywhere at all.
+   *
+   * PolityRail solves this problem carefully for its own captions and this
+   * chart did not: labels were absolutely positioned at the year's own
+   * percentage and centred on it, so two cited figures twenty years apart in a
+   * four-hundred-year span printed on top of each other. On a phone that is a
+   * chart whose axis cannot be read.
+   *
+   * There is no layout engine at build time, so the budget is estimated the
+   * way the rail estimates its name widths — conservatively, from character
+   * count. A four-digit year in 11px mono is about 30px, which on the
+   * narrowest realistic track is roughly 11% of the width.
+   *
+   * Labels alternate between two rows, which halves the density each row has
+   * to carry. Where even the second row is full, the label is dropped: the
+   * column still stands at its year, and the authoritative list below carries
+   * every year with its citation. Dropping a caption loses nothing a source
+   * published; printing two on top of each other loses the axis.
+   */
+  const MIN_GAP = 11
+  const lastAt = [-Infinity, -Infinity]
+  const rows = points.map((p) => {
+    const x = at(p.at)
+    for (const row of [0, 1]) {
+      if (x - lastAt[row] >= MIN_GAP) {
+        lastAt[row] = x
+        return row
+      }
+    }
+    return -1
+  })
+
   return (
     <section aria-labelledby="extent-heading" className="mt-16">
       <SectionHead
@@ -56,42 +89,56 @@ export function ExtentTrajectory({ polity }: { polity: Polity }) {
       </SectionHead>
 
       <figure className="mt-6 max-w-[52rem]">
-        <div
-          role="img"
-          aria-label={`Cited extents for ${polity.name.latin}: ${points
-            .map((p) => `${formatKm2(p.km2)} in ${formatYear(p.at)}`)
-            .join('; ')}. Nothing is claimed for the years between them.`}
-          className="relative h-[168px] border-b border-kashi/30"
-        >
-          {points.map((p) => {
-            const isPeak = p.at === peak.at
-            return (
-              <div
-                key={p.at}
-                className="absolute bottom-0 -translate-x-1/2"
-                style={{ left: `${at(p.at)}%`, height: `${(p.km2 / ceiling) * 100}%` }}
-              >
+        {/* The gutters are half a column plus a label's overhang. A column at
+            year zero of the span sits on the container's own edge, so a
+            centred bar and its centred caption were both half outside the
+            box. */}
+        {/* pt-9 reserves the two label rows above the tallest column, which
+            stands the full height of the box. */}
+        <div className="px-[22px] pt-9">
+          <div
+            role="img"
+            aria-label={`Cited extents for ${polity.name.latin}: ${points
+              .map((p) => `${formatKm2(p.km2)} in ${formatYear(p.at)}`)
+              .join('; ')}. Nothing is claimed for the years between them.`}
+            className="relative h-[168px] border-b border-kashi/30"
+          >
+            {points.map((p, i) => {
+              const isPeak = p.at === peak.at
+              const row = rows[i]
+              return (
                 <div
-                  className={`h-full w-[7px] rounded-t-[2px] ${
-                    isPeak ? 'bg-kashi' : 'bg-kashi/45'
-                  }`}
-                  title={`${formatKm2(p.km2)} at ${formatYear(p.at)}`}
-                />
-                <span className="absolute -top-5 left-1/2 -translate-x-1/2 font-mono text-micro tabular-nums text-debu-ink">
-                  {formatYear(p.at)}
-                </span>
-              </div>
-            )
-          })}
-        </div>
+                  key={p.at}
+                  className="absolute bottom-0 -translate-x-1/2"
+                  style={{ left: `${at(p.at)}%`, height: `${(p.km2 / ceiling) * 100}%` }}
+                >
+                  <div
+                    className={`h-full w-[7px] rounded-t-[2px] ${
+                      isPeak ? 'bg-kashi' : 'bg-kashi/45'
+                    }`}
+                    title={`${formatKm2(p.km2)} at ${formatYear(p.at)}`}
+                  />
+                  {row >= 0 ? (
+                    <span
+                      className="absolute left-1/2 -translate-x-1/2 whitespace-nowrap font-mono text-micro tabular-nums text-debu-ink"
+                      style={{ top: row === 0 ? -20 : -36 }}
+                    >
+                      {formatYear(p.at)}
+                    </span>
+                  ) : null}
+                </div>
+              )
+            })}
+          </div>
 
-        {/* The axis is the polity's own life, so the ends are labelled. A
-            column standing well short of the right edge is the page saying
-            the last measurement predates the ending, which is usually true
-            and always worth seeing. */}
-        <div className="mt-1.5 flex justify-between font-mono text-micro uppercase tabular-nums text-debu-ink">
-          <span>{formatYear(from)}</span>
-          <span>{formatYear(to)}</span>
+          {/* The axis is the polity's own life, so the ends are labelled. A
+              column standing well short of the right edge is the page saying
+              the last measurement predates the ending, which is usually true
+              and always worth seeing. */}
+          <div className="mt-1.5 flex justify-between font-mono text-micro uppercase tabular-nums text-debu-ink">
+            <span>{formatYear(from)}</span>
+            <span>{formatYear(to)}</span>
+          </div>
         </div>
 
         <figcaption className="mt-5 max-w-measure text-[14px] leading-relaxed text-debu-ink">
