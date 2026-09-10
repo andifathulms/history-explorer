@@ -3,10 +3,10 @@ region: zimbabwe-and-the-coast
 
 name:
   latin: Kilwa Sultanate
-  # Swahili was written in the Arabic script with added letters, which is an
-  # adaptation coding rule 3 would count on the record of whoever owns the
-  # parent script. It is not this one, and the field would in any case need a
-  # form of the name in that script that this project cannot proofread.
+  # Swahili was written in the Arabic script with added letters — an adaptation
+  # of somebody else's writing system rather than a script of Kilwa's own, and
+  # the field would in any case need a form of the name in that script that
+  # nobody here can proofread.
   script: null
   script_lang: null
 
@@ -38,16 +38,46 @@ scripts_and_languages:
   writing_system: Arabic
 
 # Francisco de Almeida took the town in July 1505 with a fleet and about five
-# hundred men, sacked it, built a fort, and installed a puppet. The Portuguese
-# abandoned the fort within eight years and Kilwa never recovered the Sofala
-# trade, which they had taken directly. `by` is empty because Portugal is not in
-# this corpus, which is now the fourth record in Africa on this site to end
-# against a power it cannot name.
+# hundred men, sacked it, built a fort, and installed a puppet. Barbosa says the
+# fort was pulled down "as its maintenance was of no value nor profit to him".
+# What did not come back was the trade.
 ended:
   type: conquest
   by: []
   year: 1505
   source: horton-middleton-2000
+
+# The power that took the town has no record here, so it is named rather than
+# left as an absence. Not an edge: an edge joins two records.
+succeeded_by_external:
+  - name: the Portuguese crown
+    type: conquered by
+    year: 1505
+    note: >-
+      Almeida sacked the town, installed a sultan of his own choosing and built
+      a fort dismantled within a few years; the following year Portugal
+      took Sofala directly and began buying the gold at its source, which
+      removed the reason ships had ever stopped at Kilwa. Barbosa, writing about
+      1518, says the formerly great trade was ruined by the attempt to regulate
+      it.
+    source: barbosa-dames
+
+# The island was inhabited and governed before the sultanate: the excavation
+# shows continuous local Iron Age settlement, and the dynasty's own foundation
+# story concedes the point by having the founder buy the island rather than take
+# it. No name survives for whoever sold it.
+preceded_by_external:
+  - name: the island's own rulers before the dynasty
+    year: null
+    note: >-
+      The Kilwa Chronicle, as de Barros printed it in 1552, says the founder
+      chose the isle of Kilwa and purchased it from its inhabitants — which is a
+      claim of legitimate acquisition rather than of conquest, and concedes that
+      somebody was already there to sell it. The archaeology agrees: the town
+      grows out of local Iron Age settlement in continuous occupation, with
+      material culture that develops in place. No ruler of it is named in any
+      source.
+    source: barbosa-dames
 
 institutions:
   # Null, and it is a finding rather than a gap. There is no Kilwan army in the
@@ -57,7 +87,7 @@ institutions:
   # whose position rested on being where ships had to stop did not need one, and
   # in 1505 it did not have one.
   military_basis: null
-  # Customs, and a chokehold. Kilwa's power was not that it produced anything:
+  # Customs, and a chokehold. Kilwa produced nothing:
   # the gold came from the Zimbabwe plateau to Sofala, sixteen hundred kilometres
   # south, and the reason it went through Kilwa is the monsoon. A ship out of
   # Arabia or India could reach Kilwa and return within one year's winds and
@@ -66,11 +96,10 @@ institutions:
   #
   # The second value is the transshipment monopoly rather than a commodity: what
   # Kilwa sold was the right to pass, and it enforced that by owning the vessels
-  # that made the run to Sofala. This record therefore sits just outside the
-  # eight-record type the Characene record's chapter tracks — polities whose
-  # revenue field reads `trade-toll` and nothing else — for the same reason the
-  # Ghana record does, and the near miss is more informative than membership
-  # would be.
+  # that made the run to Sofala. Barbosa confirms the mechanism from the other
+  # side in about 1518: "no ships passed towards Sofala without first coming to
+  # this island", and before the Portuguese came, Sofala, Cuama, Angoya and
+  # Mozambique were all subject to the king of Kilwa.
   revenue_basis: { values: [trade-toll, monopoly], source: horton-middleton-2000 }
   succession_rule: null
   # Descent from a prince of Shiraz, asserted in the Kilwa Chronicle and on the
@@ -79,9 +108,9 @@ institutions:
   #
   # Horton and Middleton read it as an African mercantile elite acquiring a
   # pedigree its trading partners would recognise, in a world where Islamic
-  # descent was commercial standing. Coding rule 1 counts a claim as a claim and
-  # does not filter on whether it was true, so the field carries `descent` and
-  # the second chapter carries the argument.
+  # descent was commercial standing. A claim is coded as the claim that was
+  # made, not as the claim that was true; whether the family came from Shiraz
+  # has no bearing on what the sultans said they were.
   legitimation: { values: [descent], source: horton-middleton-2000 }
 
 turning_points:
@@ -97,6 +126,21 @@ turning_points:
       The change of dynasty is when Kilwa's hold on the Sofala gold becomes
       total, and the buildings are the evidence for what it was worth.
     source: horton-middleton-2000
+    contested: false
+  # Da Gama's tribute is three years before Almeida, and Barbosa's editor calls
+  # the ruler who paid it a usurper.
+  - year: 1502
+    type: treaty
+    name: The tribute
+    changed: >-
+      Vasco da Gama, on his second voyage, extracted two thousand mithqals of
+      gold from a sultan who had taken the throne by force and whose own people
+      would not fight for him, and Kilwa was thereafter held in Lisbon to be
+      tributary to the crown of Portugal. The sultanate had agreed to pay an
+      annual sum to a power that had called twice and could not be reached, and
+      the argument about whether it would go on paying is what brought the
+      fleet of 1505.
+    source: barbosa-dames
     contested: false
   - year: 1505
     type: siege

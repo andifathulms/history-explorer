@@ -27,8 +27,6 @@ content/polities/delhi-sultanate/02-mongol-frontier.mdx
 content/polities/gokturk/01-gokturk.mdx
 content/polities/gokturk/02-the-inscriptions.mdx
 content/polities/golden-horde/02-the-yarlyk.mdx
-content/polities/great-zimbabwe/01-houses-of-stone.mdx
-content/polities/great-zimbabwe/02-the-stone.mdx
 content/polities/gupta/01-gupta.mdx
 content/polities/gupta/02-what-the-axes-miss.mdx
 content/polities/han/01-han.mdx
@@ -43,11 +41,6 @@ content/polities/jin/04-the-settlers.mdx
 content/polities/jin/05-the-name-taken-again.mdx
 content/polities/khazar/01-the-wall.mdx
 content/polities/khazar/02-the-correspondence.mdx
-content/polities/kilwa/01-where-the-wind-stops.mdx
-content/polities/kilwa/02-sofala.mdx
-content/polities/kilwa/03-the-prince-from-shiraz.mdx
-content/polities/kilwa/04-husuni-kubwa.mdx
-content/polities/kilwa/05-the-ocean.mdx
 content/polities/kushan/01-kushan.mdx
 content/polities/kushan/02-the-coins.mdx
 content/polities/liao/01-two-administrations.mdx
