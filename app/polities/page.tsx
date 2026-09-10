@@ -65,9 +65,16 @@ export default function PolitiesIndex() {
       <main id="main" className="flex-1">
         <Shell className="pb-24">
           <PageHead kicker="The reading core" title="Polities" ground="paper">
+            {/* Not "a peak-extent map". The map is the nearest snapshot to
+                the cited peak and the polity page says so in as many words —
+                "It is not the peak" — because hard rule 5's whole argument
+                rests on never letting a drawn shape read as a measurement.
+                Promising a peak-extent map in the second sentence of the index
+                undid that before the reader ever reached one. */}
             <p>
-              Everything the site has actually read a source for. Each has chapters, facts,
-              a peak-extent map and a rating panel.
+              Everything the site has actually read a source for. Each has chapters, the
+              cited facts and figures, a snapshot map and a rating computed from the
+              figures.
             </p>
             <p className="mt-4 text-[17px] leading-relaxed text-debu-ink">
               Regions are a browsing convenience, not a claim that the polities inside one
@@ -201,9 +208,15 @@ export default function PolitiesIndex() {
                           className="group flex h-full flex-col p-6 transition-colors hover:bg-kaghaz-lift"
                         >
                           <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
-                            <h3 className="font-display text-[21px] font-semibold text-kashi-deep transition-colors group-hover:text-firuze-ink">
+                            {/* h4. The region above is the h3 and these sit
+                                inside it, but both were h3 — so the build had
+                                260 headings at one level and none at the next,
+                                and a screen reader walking the document got
+                                Mesopotamia and the Akkadian Empire as peers
+                                with no signal that one contains the other. */}
+                            <h4 className="font-display text-[21px] font-semibold text-kashi-deep transition-colors group-hover:text-firuze-ink">
                               {p.name.latin}
-                            </h3>
+                            </h4>
                             {p.name.script ? (
                               <span
                                 lang={p.name.script_lang ?? scriptLang(p.name.script ?? '')}
