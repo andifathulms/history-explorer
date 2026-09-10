@@ -55,6 +55,10 @@ export function RegionNav({ groups }: { groups: NavGroup[] }) {
       for (const r of flat) {
         const el = document.getElementById(r.id)
         if (!el) continue
+        // A filtered-out section has no boxes, and a rect of all zeroes reads
+        // as "above the line" — which would mark whichever region the filter
+        // hid last. Skip anything that is not on the page right now.
+        if (!el.getClientRects().length) continue
         if (el.getBoundingClientRect().top <= line) current = r.id
       }
       const atFoot =
@@ -126,6 +130,7 @@ export function RegionNav({ groups }: { groups: NavGroup[] }) {
                     <a
                       href={`#${r.id}`}
                       data-region={r.id}
+                      data-nav-region={r.id}
                       aria-current={here ? 'true' : undefined}
                       className={`flex items-baseline gap-2 border-s-2 py-[5px] ps-2.5 text-[13px] leading-snug transition-colors ${
                         here

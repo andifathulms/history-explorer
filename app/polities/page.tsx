@@ -12,6 +12,7 @@ import { scriptLang } from '@/lib/scripts'
 import { Page, Shell, PageHead } from '@/components/Shell'
 import { CrossCut, type CrossCutPolity } from '@/components/CrossCut'
 import { RegionNav, type NavGroup } from '@/components/RegionNav'
+import { PolityFilter } from '@/components/PolityFilter'
 import { formatKm2 } from '@/lib/gaps'
 
 export const metadata: Metadata = {
@@ -122,6 +123,8 @@ export default function PolitiesIndex() {
               headings give a reader something to aim at before they have
               learned twenty-two names. The shelves are geographic and carry no
               thread; see REGION_GROUPS in lib/types.ts for why that matters. */}
+          <PolityFilter total={narrative.length} />
+
           {/* Mobile only. On a wide screen the gutter carries the same
               thirty-five links permanently, and two lists of them is one list
               too many; below `lg` there is no gutter, so this is the only way
@@ -144,6 +147,7 @@ export default function PolitiesIndex() {
                         <li key={r.id} className="border-b border-kashi/10">
                           <a
                             href={`#${r.id}`}
+                            data-nav-region={r.id}
                             className="group flex items-baseline justify-between gap-4 py-2.5"
                           >
                             <span className="text-[16px] text-kashi transition-colors group-hover:text-firuze-ink">
@@ -168,7 +172,7 @@ export default function PolitiesIndex() {
               a screen reader walking the outline should get the same two tiers
               the eye does. */}
           {groups.map((g) => (
-            <div key={g.id}>
+            <div key={g.id} data-group={g.id}>
               <h2 className="mt-24 border-t-2 border-kashi/30 pt-5 font-display text-[26px] font-semibold text-kashi-deep">
                 {g.name}
               </h2>
@@ -177,7 +181,12 @@ export default function PolitiesIndex() {
             const ps = inRegion.filter((p) => !p.context_only)
             const ctx = inRegion.filter((p) => p.context_only)
             return (
-              <section key={r.id} id={r.id} className="scroll-mt-28 pt-20">
+              <section
+                key={r.id}
+                id={r.id}
+                data-region-section={r.id}
+                className="scroll-mt-28 pt-20"
+              >
                 <div className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-2 border-t border-kashi/25 pt-5">
                   <div className="flex flex-wrap items-baseline gap-x-4 gap-y-1">
                     <h3 className="font-display text-title font-semibold text-kashi-deep">
@@ -221,6 +230,13 @@ export default function PolitiesIndex() {
                     return (
                       <li
                         key={p.id}
+                        data-polity=""
+                        data-region={r.id}
+                        // Everything the filter matches on, folded at read
+                        // time rather than here: the Latin name, the name in
+                        // its own script, and the region, so "Anatolia" finds
+                        // the seven polities filed under it.
+                        data-name={`${p.name.latin} ${p.name.script ?? ''} ${r.name}`}
                         className="border-l border-t border-kashi/12 bg-kaghaz-raise"
                       >
                         <Link
