@@ -3017,6 +3017,22 @@ sources:
       because it shows on the page how much of any Old Kingdom text is actually
       standing. Out of copyright.
 
+  - id: kramer-1940
+    kind: book
+    author: Samuel Noah Kramer
+    title: Lamentation over the Destruction of Ur
+    publisher: University of Chicago Press
+    year: 1940
+    note: >-
+      The first full edition and translation of the Sumerian lament for the fall
+      of Ur, assembled from twenty-two tablets and fragments, with a prose
+      summary of each of the poem's eleven "songs" preceding the line-by-line
+      translation. The summary is what is used here: the translation itself is
+      printed with the philological apparatus interleaved and with gaps marked
+      in every second line, which is honest about the state of the text and
+      makes it hard to quote. Published as Assyriological Studies 12 and made
+      freely available by the Oriental Institute.
+
   - id: king-1910
     kind: book
     author: Leonard William King
