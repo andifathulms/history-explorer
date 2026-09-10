@@ -22,12 +22,6 @@ content/polities/dai-viet/03-three-times.mdx
 content/polities/dai-viet/05-1400.mdx
 content/polities/delhi-sultanate/01-slave-kings.mdx
 content/polities/delhi-sultanate/02-mongol-frontier.mdx
-content/polities/gupta/01-gupta.mdx
-content/polities/gupta/02-what-the-axes-miss.mdx
-content/polities/kushan/01-kushan.mdx
-content/polities/kushan/02-the-coins.mdx
-content/polities/maurya/01-maurya.mdx
-content/polities/maurya/02-the-inscriptions.mdx
 content/polities/mughal/01-babur.mdx
 content/polities/mughal/02-the-settlement-breaks.mdx
 content/polities/pagan/01-ten-thousand-temples.mdx

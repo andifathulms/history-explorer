@@ -34,6 +34,33 @@ ended:
   year: 550
   source: thapar-2002
 
+# Both real, both without records here. The Guptas dissolved rather than being
+# conquered, so the successor row omits `type`.
+preceded_by_external:
+  - name: the Kushan and Saka rulers of the north, and the tribal republics
+    year: null
+    note: >-
+      Northern India between the Kushan decline and the Gupta rise was held by
+      no paramount power: Kushano-Sasanian and Saka rulers in the north-west,
+      Naga dynasties in the middle Ganges, and the old tribal republics — the
+      Malavas, Yaudheyas, Arjunayanas — still minting their own coin. The
+      Allahabad pillar lists them by name as the powers Samudragupta
+      exterminated, subordinated or received homage from, which is the fullest
+      surviving account of what was there before.
+    source: fleet-cii-iii
+
+succeeded_by_external:
+  - name: the Maukharis, the Maitrakas and the later regional kingdoms
+    year: null
+    note: >-
+      No single power replaced the Guptas. The Hunas took the north-west, a
+      reduced Gupta line continued in Magadha into the sixth century, and the
+      territory that had been imperial or client resolved into regional
+      dynasties — the Maukharis of Kanauj, the Maitrakas of Valabhi, and the
+      successors of the Vakatakas in the Deccan. Harsha assembled a paramount
+      authority in northern India again in the 600s and it did not outlive him.
+    source: thapar-2002
+
 measures:
   reach_km2: { value: 3500000, at: 400, source: taagepera-1979 }
   peak_population: null

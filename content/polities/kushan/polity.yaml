@@ -34,6 +34,21 @@ ended:
   year: 375
   source: daryaee-2009
 
+# A real predecessor with no record here: the Greek kingdom the Yuezhi took
+# Bactria from, whose alphabet and coinage the Kushans then used.
+preceded_by_external:
+  - name: the Greco-Bactrian kingdom
+    type: overthrew
+    year: null
+    note: >-
+      The Greek kingdom north of the Hindu Kush, descended from Alexander's
+      colonists and independent of the Seleucids for about a century, which the
+      Yuezhi took in the 130s BC. The Kushans kept its alphabet — adapted, with
+      an added letter, to write their own Iranian language — and their earliest
+      coins imitate its types, because a dynasty establishing itself on somebody
+      else's currency begins by being recognisable.
+    source: thapar-2002
+
 measures:
   reach_km2: { value: 2000000, at: 200, source: taagepera-1979 }
   peak_population: null

@@ -34,6 +34,34 @@ ended:
   year: -185
   source: thapar-2002
 
+# Both real, both without records here. Nothing conquered the Mauryas — the last
+# emperor was killed by his own commander-in-chief — so the successor row omits
+# `type`.
+preceded_by_external:
+  - name: the Nanda dynasty of Magadha
+    type: overthrew
+    year: null
+    note: >-
+      The kingdom Chandragupta took, and the state that had already made Magadha
+      the dominant power of the Ganges plain. The Greek sources describe a
+      Nanda army so large that Alexander's men refused to face it, and the
+      dynasty's wealth was proverbial; what Chandragupta acquired in about 322
+      BC was therefore an apparatus rather than a country to be built from
+      nothing.
+    source: thapar-2002
+
+succeeded_by_external:
+  - name: the Shunga dynasty
+    year: 185
+    note: >-
+      Pushyamitra, the Mauryan commander-in-chief, killed the last emperor at a
+      review of the troops and took the throne. Nobody invaded and nothing was
+      conquered: the man who commanded the army used it, in the one setting
+      where the emperor was surrounded by soldiers who answered to somebody
+      else. The Shungas held Magadha and the middle Ganges for about a century
+      and never approached the Mauryan extent.
+    source: thapar-2002
+
 measures:
   reach_km2: { value: 3400000, at: -250, source: taagepera-1979 }
   peak_population: null
