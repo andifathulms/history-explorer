@@ -158,21 +158,24 @@ export async function Chapters({ chapters }: { chapters: Chapter[] }) {
         <nav aria-label="Chapters" className="mt-10 mb-14">
           <ol className="grid gap-x-8 gap-y-1 sm:grid-cols-2">
             {chapters.map((c, i) => (
-              <li key={c.slug} className="flex gap-3 border-b border-kashi/10 py-2">
-                <span className="font-mono text-micro tabular-nums text-debu-ink">
-                  {String(i + 1).padStart(2, '0')}
-                </span>
+              // The whole row is the link, not the title inside it. It was a
+              // 36px target with a hit area that stopped at the last letter of
+              // the title, on the page's primary index.
+              <li key={c.slug} className="border-b border-kashi/10">
                 <a
                   href={`#${c.slug}`}
-                  className="link-underline text-[16px] text-kashi hover:text-firuze-ink"
+                  className="group flex items-baseline gap-3 py-3 text-[16px] text-kashi hover:text-firuze-ink"
                 >
-                  {c.title}
-                </a>
-                {c.phase ? (
-                  <span className="ms-auto font-mono text-micro uppercase text-debu-ink">
-                    {c.phase}
+                  <span className="font-mono text-micro tabular-nums text-debu-ink">
+                    {String(i + 1).padStart(2, '0')}
                   </span>
-                ) : null}
+                  <span className="link-underline">{c.title}</span>
+                  {c.phase ? (
+                    <span className="ms-auto ps-3 font-mono text-micro uppercase text-debu-ink">
+                      {c.phase}
+                    </span>
+                  ) : null}
+                </a>
               </li>
             ))}
           </ol>

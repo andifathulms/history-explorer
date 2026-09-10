@@ -50,18 +50,20 @@ function Row({ c }: { c: Contemporary }) {
     </>
   )
   return (
-    <li className="py-1">
+    // A 26px row was the tap target on a list of links. The link is a block so
+    // the whole row is hittable, and the row clears 40px.
+    <li className="break-inside-avoid">
       {c.hasPage ? (
         <Link
           href={`/polity/${c.id}/`}
-          className="link-underline text-kashi hover:text-firuze-ink"
+          className="link-underline block py-2 text-kashi hover:text-firuze-ink"
         >
           {label}
         </Link>
       ) : (
         // No `title`: the caption under the list already says that unlinked
         // entries are here for scale, and a hover note is unreachable on touch.
-        <span className="text-debu-ink">{label}</span>
+        <span className="block py-2 text-debu-ink">{label}</span>
       )}
     </li>
   )
