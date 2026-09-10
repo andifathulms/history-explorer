@@ -42,6 +42,21 @@ ended:
   year: 1599
   source: di-cosmo-2009
 
+# The throne passed by marriage rather than by conquest, to another Jochid line
+# with no record here. Named rather than left as an absence; the relation is
+# none of the eight edge types, so `type` is omitted.
+succeeded_by_external:
+  - name: the Toqay-Timurids of Bukhara
+    year: 1599
+    note: >-
+      Descendants of Toqay Timur, a different son of Jochi, who had come to
+      Bukhara as refugees when Russia took Astrakhan in 1556. When the Shaybanid
+      male line ran out they took the throne by marriage into it, without a war,
+      and ruled the same state from the same capital with the same institutions
+      until 1785. What made a man eligible to be khan in Transoxiana was Jochid
+      descent, and they had it.
+    source: di-cosmo-2009
+
 institutions:
   military_basis: { values: [tribal-levy], source: di-cosmo-2009 }
   # The land tax of Transoxiana's irrigated country and the tolls of the routes
