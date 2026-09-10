@@ -35,6 +35,16 @@ edges:
 
   # ---- Inside the caliphates: one office, three houses ----
 
+  - from: medina-umma
+    to: rashidun
+    type: claimed legitimacy of
+    year: 632
+    note: "Abu Bakr was acclaimed khalifat rasul Allah, successor of the
+           Messenger of God, taking his authority explicitly as the continuation
+           of an office whose holder had died without naming anyone to it."
+    source: madelung-1997
+    contested: false
+
   - from: rashidun
     to: umayyad
     type: overthrew

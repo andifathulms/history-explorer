@@ -2768,6 +2768,37 @@ sources:
       records the competing versions, the documents, and the objections to them.
       Hitti's translation of the first part is out of copyright and complete.
 
+  - id: watt-1956
+    kind: book
+    author: W. Montgomery Watt
+    title: Muhammad at Medina
+    publisher: Clarendon Press
+    year: 1956
+    note: >-
+      The standard study of the ten years at Medina treated as political
+      history: how the community was governed, what its finances were, who
+      actually held power, and how far Muhammad's authority extended at each
+      stage. Its most useful feature for a record of the polity is that Watt
+      separates the question of religious authority from the question of
+      constitutional power and shows they moved at different speeds. Prints the
+      so-called Constitution of Medina in full translation with the clause
+      numbering established by Wensinck, and argues from its contents that
+      Muhammad's formal powers in 622 were very slight.
+
+  - id: waqidi-maghazi
+    kind: book
+    author: Muhammad ibn Umar al-Waqidi
+    title: "The Life of Muhammad: al-Waqidi's Kitab al-Maghazi"
+    translator: Rizwi Faizer, Amal Ismail and AbdulKader Tayob
+    publisher: Routledge
+    year: 2011
+    note: >-
+      The earliest surviving dedicated account of the Medinan campaigns,
+      compiled in the late eighth century and much fuller on the expeditions
+      than the biographical tradition it sits beside. Used here for the
+      negotiation at al-Hudaybiyya, which it reports at length and with the
+      arguments over wording intact.
+
   - id: baladhuri-murgotten
     kind: book
     author: Ahmad ibn Yahya al-Baladhuri

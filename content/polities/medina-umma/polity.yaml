@@ -1,0 +1,145 @@
+id: medina-umma
+region: caliphates
+
+name:
+  latin: The Community at Medina
+  script: الأمة
+  script_lang: ar
+
+span:
+  start: { min: 622, max: 622, source: watt-1956 }
+  end: { min: 632, max: 632, source: watt-1956 }
+
+identity: >-
+  The polity Muhammad governed from Medina between the hijra and his death,
+  founded on a written agreement between the emigrants from Mecca, the Medinan
+  clans and the Jewish clans of the oasis, and holding most of Arabia by the end.
+
+capitals:
+  - { name: Medina, script: المدينة, from: 622, source: watt-1956 }
+
+core_region: The Hijaz and western Arabia
+
+rulers:
+  founder: { name: Muhammad, reign: [622, 632], source: watt-1956 }
+  peak: { name: Muhammad, reign: [622, 632], source: watt-1956 }
+  last: { name: Muhammad, reign: [622, 632], source: watt-1956 }
+
+scripts_and_languages:
+  administration: [Arabic]
+  writing_system: Arabic
+
+ended:
+  # None of the six end types is a good fit and this is the closest of them. No
+  # dynasty was involved and nothing was conquered, fragmented or usurped: the
+  # community continued without interruption and its headship passed to a man of
+  # another family under a rule nobody had written down. What ended was the
+  # office, not the polity — the head of it had been a prophet and his successor
+  # could not be. The Rashidun record carries what happened next.
+  type: dynastic replacement
+  by: [rashidun]
+  year: 632
+  source: watt-1956
+
+institutions:
+  # Clan contingents under their own chiefs, emigrants and Ansar alike, summoned
+  # for an expedition and dispersing after it. The Constitution assumes exactly
+  # this: each group bears its own campaign costs, and nobody goes out to fight
+  # without Muhammad's permission. There was no paid force of any kind.
+  military_basis: { values: [tribal-levy], source: watt-1956 }
+  # Three things in Watt's order. The fifth of spoils, instituted after Badr,
+  # is the first public money the community held and had its own collecting
+  # agent. Tribute is the dues Muhammad required of tribes that submitted.
+  # Land-tax is the arrangement made at Khaybar, where the owners stayed on the
+  # land and handed over a share of the crop — Watt notes it became the model
+  # followed in the conquests after his death. Voluntary contributions came
+  # first and mattered most in the early years, but they were gifts rather than
+  # a revenue base and are not coded.
+  revenue_basis: { values: [plunder, tribute, land-tax], source: watt-1956 }
+  # Null because the question does not arise rather than because nobody looked.
+  # There was one head in ten years and no procedure existed for replacing him;
+  # that no rule was in force is precisely why the succession was settled by an
+  # argument in a shed the afternoon he died, and the rules the Rashidun then
+  # improvised are coded on that record.
+  succession_rule: null
+  # Prophecy. The Constitution's operative clause refers disputes to God and to
+  # Muhammad, and Watt's argument is that the referral of disputes and the
+  # recognition of him as prophet are the same fact: judging between people was
+  # understood to be what a messenger did.
+  legitimation: { values: [divine-sanction], source: watt-1956 }
+
+# No type from the edge vocabulary fits and none is given. Yathrib was not
+# conquered, seceded from or absorbed: it had no single government to do any of
+# those things, which is the whole reason an outside arbitrator was sent for.
+preceded_by_external:
+  - name: the Aws and the Khazraj, the two Arab confederations of Yathrib
+    year: null
+    note: >-
+      The oasis was held by two confederations of Arab clans with several
+      Jewish clans among them, and no authority above either of them. Years of
+      feuding they could not stop is what led the Medinan chiefs to send for a
+      man from outside with no blood in the quarrel, and the agreement he
+      brought left both confederations standing inside it.
+    source: watt-1956
+
+turning_points:
+  - year: 622
+    type: capital-move
+    name: The hijra
+    changed: >-
+      Muhammad and the Meccan emigrants moved to an oasis two hundred miles
+      north that had asked for an outside arbitrator to end its feuding, which
+      converted a persecuted preaching into a party with territory, allies and
+      an income to organise.
+    source: watt-1956
+    contested: false
+  - year: 624
+    type: battle
+    name: Badr
+    changed: >-
+      A raiding force beat a Meccan relief column, and in the quarrel over
+      dividing the spoils afterwards a fifth was set aside for Muhammad to
+      spend on public purposes. It is the first revenue the community held as a
+      community rather than as a collection of households.
+    source: watt-1956
+    contested: false
+  - year: 628
+    type: treaty
+    name: Al-Hudaybiyya
+    changed: >-
+      Quraysh signed a ten-year truce with Muhammad, which required them to
+      treat him as a power they negotiated with; he paid for it by striking
+      both "the Merciful" and "the Messenger of God" out of the document at
+      their insistence and signing as Muhammad son of Abdullah.
+    source: waqidi-maghazi
+    contested: false
+  - year: 630
+    type: treaty
+    name: The submission of Mecca
+    changed: >-
+      The city that had expelled him admitted him without a battle, which
+      removed the one Arabian power capable of organising resistance and made
+      submission to Medina the obvious course for tribes that had been waiting
+      to see which way it went.
+    source: watt-1956
+    contested: false
+
+measures:
+  # No source consulted publishes a figure for the area under Medinan authority
+  # in 632, and the question is harder than usual: what the tribes of the
+  # interior had agreed to was a payment and an alliance, not administration.
+  reach_km2: null
+  peak_population: null
+  influence:
+    # The Arabic script was the community's writing system, not a derivation
+    # from it; nothing consulted here reports a script created or newly adapted
+    # in these ten years. Null because nobody looked, not zero.
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried:
+      count: 1
+      items: [Islam]
+      source: watt-1956
+    successor_claims:
+      count: 1
+      items: [rashidun]
+      source: watt-1956
