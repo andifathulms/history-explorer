@@ -59,6 +59,18 @@ turning_points:
       is the claim whose failure at Las Navas the last chapter is about.
     source: bennison-2016
     contested: false
+  - year: 1160
+    type: siege
+    name: "Mahdia"
+    changed: >-
+      Abd al-Mu'min turned an army round at Sale that had been raised for Spain,
+      marched it the length of North Africa, took Mahdia back from the Sicilians
+      and then collected Ifriqiya's towns one at a time from the families that
+      had helped themselves to them. It is the point at which the whole Islamic
+      west was under one ruler, which had not happened before and did not happen
+      again.
+    source: ibn-khaldun-de-slane
+    contested: false
   - year: 1212
     type: battle
     name: "Las Navas de Tolosa"
@@ -69,6 +81,21 @@ turning_points:
       abandoned the doctrine rather than defend it against a visible
       judgement, which removed the argument for their own authority.
     source: bennison-2016
+    contested: false
+  # The bargain with Castile and the terms of it are in de Slane's footnote to
+  # this passage, from the sources he names there.
+  - year: 1229
+    type: reform
+    name: "The Mahdi struck off the coinage"
+    changed: >-
+      Al-Ma'mun crossed from Spain with twelve thousand Castilian cavalry lent
+      on written conditions, executed about a hundred of the leading Almohad
+      shaykhs at Marrakesh, and then ordered every city of the empire to remove
+      Ibn Tumart's name from the coins, from the Friday prayer and from the
+      Berber portion of the call to prayer. The empire kept its territory a
+      while longer and lost, in one year, the reason anyone was obliged to obey
+      it.
+    source: ibn-khaldun-de-slane
     contested: false
 
 measures:

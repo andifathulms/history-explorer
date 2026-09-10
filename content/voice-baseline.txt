@@ -7,12 +7,6 @@
 #
 # When this file is empty, delete it and the baseline logic in
 # scripts/check-voice.mjs with it.
-content/polities/almohad/02-the-hierarchy.mdx
-content/polities/almohad/03-two-things-at-once.mdx
-content/polities/almohad/04-las-navas.mdx
-content/polities/almoravid/02-the-veil-and-the-city.mdx
-content/polities/almoravid/03-gold.mdx
-content/polities/almoravid/04-the-mountain-and-the-islands.mdx
 content/polities/angkor/01-a-region-that-had-to-exist.mdx
 content/polities/angkor/03-the-chams-in-the-city.mdx
 content/polities/angkor/05-1431.mdx
@@ -37,10 +31,6 @@ content/polities/great-zimbabwe/01-houses-of-stone.mdx
 content/polities/great-zimbabwe/02-the-stone.mdx
 content/polities/gupta/01-gupta.mdx
 content/polities/gupta/02-what-the-axes-miss.mdx
-content/polities/hafsid/01-the-governor-who-stayed.mdx
-content/polities/hafsid/02-a-caliph-in-tunis.mdx
-content/polities/hafsid/03-ibn-khaldun.mdx
-content/polities/hafsid/04-a-prize-in-someone-elses-war.mdx
 content/polities/han/01-han.mdx
 content/polities/han/02-the-examinations.mdx
 content/polities/han/04-the-conscript-empire.mdx

@@ -74,6 +74,19 @@ turning_points:
       Marrakesh for the next sixty years.
     source: bennison-2016
     contested: false
+  # Ibn Khaldun's account of the last two rulers is in de Slane's translation;
+  # the three versions of Tashfin's death at Oran are there too.
+  - year: 1147
+    type: siege
+    name: "Marrakesh"
+    changed: >-
+      Abd al-Mu'min took the city the dynasty had built for itself, and the
+      boy who had been raised to the throne a few months earlier was killed in
+      front of him with his household. What survived was a branch of the family
+      on the Balearic islands, which went on making war in Ifriqiya until the
+      1230s under the name of the woman its founder had married.
+    source: ibn-khaldun-de-slane
+    contested: false
 
 measures:
   # No cited km2 for this polity in the works consulted; Taagepera does not

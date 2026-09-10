@@ -23,9 +23,10 @@ core_region: Ifriqiya
 rulers:
   founder: { name: Abu Zakariya Yahya, reign: [1229, 1249], source: abun-nasr-1987 }
   peak: { name: al-Mustansir, reign: [1249, 1277], source: abun-nasr-1987 }
-  # The sources consulted for this polity differ on the numbering of the last
-  # Hafsid, and this site does not print the most-cited guess. Same rule as the
-  # Ghurid last sultan: the gap is rendered rather than filled.
+  # The sources differ on the numbering of the last Hafsid: several men carried
+  # between Tunis and La Goulette in those forty years shared regnal names with
+  # their fathers and uncles. Same rule as the Ghurid last sultan — the gap is
+  # rendered rather than filled with the most-repeated guess.
   last: null
 
 scripts_and_languages:
@@ -64,6 +65,20 @@ turning_points:
       at all.
     source: abun-nasr-1987
     contested: false
+  # Ibn Khaldun was fifteen and in Tunis for the Marinid occupation; his account
+  # in de Slane's translation is a witness rather than a compilation.
+  - year: 1347
+    type: siege
+    name: "Abu'l-Hasan enters Tunis"
+    changed: >-
+      A Marinid sultan took Ifriqiya without a battle, because the lords of the
+      south and the Arab emirs of the interior came to swear to him one after
+      another, and deported the Hafsid princes to Morocco on maintenance
+      allowances. The dynasty was out of its own country for twelve years and
+      came back on an invitation from Bougie; what it recovered was governed
+      after that by chamberlains rather than by sultans.
+    source: ibn-khaldun-de-slane
+    contested: false
   - year: 1377
     type: reform
     name: "The Muqaddima"
@@ -72,9 +87,10 @@ turning_points:
       theory of why dynasties rise and fall: that the cohesion of groups living
       hard lives on the margins lets them take settled states, and dissolves in
       three or four generations of holding one. It changed nothing about the
-      Hafsid state and it is the most consequential thing produced under it —
-      and it is a description of the pattern every region of this site
-      documents.
+      Hafsid state and it is the most consequential thing produced under it: a
+      description of state formation that fits most of the Islamic world for
+      most of a millennium, written from inside one of the dynasties it
+      applies to.
     source: abun-nasr-1987
     contested: false
   - year: 1535
