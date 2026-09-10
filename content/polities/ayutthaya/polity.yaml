@@ -40,6 +40,38 @@ ended:
   year: 1767
   source: baker-pasuk-2017
 
+# Two successors, and they are different kinds of thing. The Konbaung army
+# destroyed the city; the Chakri dynasty rebuilt the state fifteen years later
+# and claimed it explicitly. Neither has a record here, and the second relation
+# is none of the eight edge types — nothing was conquered or inherited, a
+# deliberate reconstruction was made — so that row omits `type`.
+succeeded_by_external:
+  - name: the Konbaung dynasty of Burma
+    type: conquered by
+    year: 1767
+    note: >-
+      A fourteen-month siege ended with the city stormed and burned in April
+      1767: the population deported or scattered, the royal family killed or
+      carried off, and the archives, libraries and law texts destroyed, which
+      is why the history of a four-hundred-year state has to be reconstructed
+      from foreign accounts and later recensions. The Burmese then withdrew,
+      because a Chinese invasion of Burma required the army elsewhere, and made
+      no attempt to hold the country.
+    source: baker-pasuk-2017
+  - name: Thonburi under Taksin, and the Chakri dynasty at Bangkok
+    year: 1782
+    note: >-
+      Taksin, a provincial governor who had broken out of the siege with a few
+      hundred men, held most of the country from Thonburi within three years.
+      After his deposition in 1782 the Chakri dynasty founded Bangkok on the
+      opposite bank and reassembled the state on purpose: the royal precinct
+      laid out to reproduce Ayutthaya's, the ministries re-established with
+      their old names, the law recompiled in 1805 from surviving texts and the
+      memory of officials who had served the old kingdom, and the lost
+      literature composed again by commission. Ayutthaya's own name still
+      stands at the head of Bangkok's formal title.
+    source: baker-pasuk-2017
+
 institutions:
   # Corvée. Every commoner man was registered to a master under the sakdina
   # system, owed months of labour or service a year, and could be called up.

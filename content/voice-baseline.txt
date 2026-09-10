@@ -20,10 +20,6 @@ content/polities/dai-viet/01-where-this-record-stops.mdx
 content/polities/dai-viet/02-the-vocabulary-of-the-north.mdx
 content/polities/dai-viet/03-three-times.mdx
 content/polities/dai-viet/05-1400.mdx
-content/polities/delhi-sultanate/01-slave-kings.mdx
-content/polities/delhi-sultanate/02-mongol-frontier.mdx
-content/polities/mughal/01-babur.mdx
-content/polities/mughal/02-the-settlement-breaks.mdx
 content/polities/pagan/01-ten-thousand-temples.mdx
 content/polities/pagan/02-merit.mdx
 content/polities/pagan/03-1287.mdx
