@@ -3115,6 +3115,23 @@ sources:
       report, and its value here is that it records what the Assyrian capitals
       looked like before anybody knew what they were. Out of copyright.
 
+  - id: petrie-1898
+    kind: book
+    author: W. M. Flinders Petrie
+    title: "Syria and Egypt from the Tell el Amarna Letters"
+    publisher: Methuen
+    year: 1898
+    note: >-
+      A letter-by-letter walk through the Amarna correspondence, with each
+      tablet summarised in order and the references to the editions given, by
+      the excavator who had dug at Amarna a few years earlier. What it is used
+      for here is the content of the letters, which has not changed: who wrote
+      to whom, what they asked for and what they complained of. Petrie's
+      surrounding history has not aged as well — his chronology is his own, and
+      his identification of Tadukhipa with Nefertiti is not now accepted — so
+      his inferences are attributed to him where they are used and are not
+      passed off as settled. Out of copyright.
+
   - id: noldeke-1892
     kind: book
     author: Theodor Noldeke
