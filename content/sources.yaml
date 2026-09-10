@@ -2768,6 +2768,41 @@ sources:
       records the competing versions, the documents, and the objections to them.
       Hitti's translation of the first part is out of copyright and complete.
 
+  - id: baladhuri-murgotten
+    kind: book
+    author: Ahmad ibn Yahya al-Baladhuri
+    title: "The Origins of the Islamic State (Kitab Futuh al-Buldan), Part II"
+    translator: Francis Clark Murgotten
+    publisher: Columbia University
+    year: 1924
+    note: >-
+      The continuation Hitti did not translate, covering the eastern provinces:
+      the Jibal, Adharbaijan, Basra, Khuzistan, Fars and Kirman, Sijistan and
+      Kabul, Khurasan and Sind. Where Hitti's volume carries the Syrian
+      campaign, this one carries the decade after Nihawand, and it is the
+      better source for what the reduction of the Iranian plateau actually
+      consisted of: raids launched from a garrison and returning to it,
+      districts taken by force or by capitulation on stated terms, and
+      covenants broken and re-imposed under a later governor. Out of copyright.
+
+  - id: john-of-nikiu
+    kind: book
+    author: John, Bishop of Nikiu
+    title: The Chronicle of John, Bishop of Nikiu
+    translator: R. H. Charles
+    publisher: Text and Translation Society
+    year: 1916
+    note: >-
+      A Coptic bishop of the Egyptian Delta writing within living memory of the
+      Arab conquest of Egypt, and the only substantial narrative of it from the
+      side that lost. Surviving in an Ethiopic version made from an Arabic
+      version of the Coptic or Greek original, which is a long chain and is why
+      its dates are unreliable and some place-names are corrupt. Its value is
+      not chronological: it is that a contemporary Egyptian reports the
+      conquest as sack, flight and taxation rather than as a transfer of
+      administration, and reports his own community's view that Heraclius had
+      brought it on the Romans by persecuting them. Out of copyright.
+
   - id: wellhausen-1927
     kind: book
     author: Julius Wellhausen
