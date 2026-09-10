@@ -7,7 +7,7 @@ import { NO_FIGURE, formatKm2, formatPopulation, type Gapped } from '@/lib/gaps'
 import type { Scale } from '@/lib/ratings'
 
 /**
- * Collapsed by default, at the foot of the page, on paper ground.
+ * Open by default, at the foot of the page, on paper ground.
  *
  * The visual rule that matters: a missing axis is the axis name and "No cited
  * figure", with the bar area left visibly empty. Not grey-hatched, not an error
@@ -85,7 +85,12 @@ export function RatingPanel({
   fieldSize: number
   backdropSize: number
 }) {
-  const [open, setOpen] = useState(false)
+  // Open. It was collapsed and last on the page, which hid it twice over —
+  // and because the body is `hidden`, find-in-page could not see it either, so
+  // a reader searching the page for "percentile" was told there was nothing
+  // there. This is the one thing on the page the site computes rather than
+  // quotes; it does not need defending behind a disclosure.
+  const [open, setOpen] = useState(true)
   const r = rating
 
   const scaleNote =
@@ -94,7 +99,11 @@ export function RatingPanel({
       : 'Absolute figures.'
 
   return (
-    <section aria-labelledby="rating-heading" className="mt-20">
+    // The anchor sits on the section, not on the heading: this heading is
+    // sr-only, and an absolutely-positioned clip rect is not a place to scroll
+    // to. Every other section on the page anchors on a heading that is really
+    // there.
+    <section id="rating" aria-labelledby="rating-heading" className="mt-20">
       <h2 id="rating-heading" className="sr-only">
         Rating
       </h2>

@@ -13,11 +13,12 @@ import {
   inThread,
   getRegion,
 } from '@/lib/content'
-import { buildField, rate, DEFAULT_WEIGHTS } from '@/lib/ratings'
+import { buildField, rate, DEFAULT_WEIGHTS, ordinal } from '@/lib/ratings'
 import { contemporariesOf } from '@/lib/contemporaries'
 import { formatKm2, formatPopulation, NO_FIGURE } from '@/lib/gaps'
 import { Page, Shell, Crumbs, StatRow } from '@/components/Shell'
 import { PolityRail } from '@/components/PolityRail'
+import { PolityFoot } from '@/components/PolityFoot'
 import { PageNav, type NavSection } from '@/components/PageNav'
 import { Position, Transfers } from '@/components/Position'
 import { Chapters } from '@/components/Chapters'
@@ -69,6 +70,14 @@ export default function PolityPage({ params }: { params: { id: string } }) {
   // decided not to draw itself — the two sections that come and go are the
   // extent series, which needs two cited figures before it is a trajectory,
   // and territory, which most polities never lost or took.
+  // Either side of this polity on its own region's shelf, by start date, which
+  // is the order /polities/ already browses in. Context-only records are
+  // skipped because they have no page to send anybody to.
+  const shelf = politiesInRegion(p.region).filter((x) => !x.context_only)
+  const here = shelf.findIndex((x) => x.id === p.id)
+  const previous = here > 0 ? shelf[here - 1] : undefined
+  const next = here >= 0 && here < shelf.length - 1 ? shelf[here + 1] : undefined
+
   const sections: NavSection[] = [
     { id: 'facts-heading', label: 'Facts' },
     { id: 'institutions-heading', label: 'Governed' },
@@ -83,7 +92,7 @@ export default function PolityPage({ params }: { params: { id: string } }) {
       : []),
     { id: 'contemporaries-heading', label: 'Contemporaries' },
     { id: 'map-heading', label: 'Map' },
-    { id: 'rating-heading', label: 'Rating' },
+    { id: 'rating', label: 'Rating' },
   ]
 
   const span = p.span
@@ -110,7 +119,18 @@ export default function PolityPage({ params }: { params: { id: string } }) {
       value: formatPopulation(p.measures.peak_population?.value ?? null),
       gap: p.measures.peak_population?.value == null,
     },
-    { label: 'Ended by', value: p.ended ? p.ended.type : NO_FIGURE, gap: !p.ended },
+    // Was "Ended by", which printed a closed-vocabulary word in tabular mono
+    // as though it were a figure, and now sits sixty pixels lower in Facts
+    // with its year and its citation. The rating is the figure that was
+    // missing: it is what this site computes and nowhere else publishes, and
+    // it used to be collapsed at the very foot of the page.
+    {
+      label: 'Rating',
+      value: rating.total.present
+        ? `${ordinal(Math.round(rating.total.value * 100))} pct`
+        : NO_FIGURE,
+      gap: !rating.total.present,
+    },
   ]
 
   return (
@@ -246,6 +266,8 @@ export default function PolityPage({ params }: { params: { id: string } }) {
               fieldSize={corpus.all.length}
               backdropSize={corpus.backdrop.length}
             />
+
+            <PolityFoot previous={previous} next={next} region={region} />
           </main>
         </div>
       </Shell>
