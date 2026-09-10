@@ -106,13 +106,24 @@ function Row({
                 </span>
               ))}
             </span>
-            {/* What the words mean, on the page rather than under a hover. One
-                line per value, in the order the values are printed. */}
+            {/* What the words mean, on the page rather than under a hover.
+                One line per value, in the order the values are printed.
+
+                The term is repeated only where there is more than one, since
+                a definition has to say which value it defines. On a single
+                value it was printing the word twice in consecutive lines —
+                "land grant" and then "land grant — Service in return for
+                assigned revenue" — which reads as a stutter. */}
             <ul className="mt-1.5 max-w-measure space-y-0.5">
               {coded.values.map((v) =>
                 VALUE_HINT[v] ? (
                   <li key={v} className="text-[14px] leading-snug text-debu-ink">
-                    <span className="text-kashi/80">{v.replace(/-/g, ' ')}</span> &mdash;{' '}
+                    {coded.values.length > 1 ? (
+                      <>
+                        <span className="text-kashi/80">{v.replace(/-/g, ' ')}</span>{' '}
+                        &mdash;{' '}
+                      </>
+                    ) : null}
                     {VALUE_HINT[v]}
                   </li>
                 ) : null,
