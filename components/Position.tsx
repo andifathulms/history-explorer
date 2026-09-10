@@ -6,6 +6,7 @@ import {
   type Ending,
   type ExternalNeighbour,
   type Polity,
+  type Transfer,
 } from '@/lib/types'
 import { displayName, hasPage } from '@/lib/content'
 import { SectionHead } from '@/components/Shell'
@@ -295,6 +296,81 @@ export function Position({
             </p>
           )}
         </div>
+      </div>
+    </section>
+  )
+}
+
+/**
+ * Territory that changed hands, where the polity that lost it went on existing.
+ *
+ * Its own section, below succession and visibly not part of it. Byzantium lost
+ * Syria, Egypt, Anatolia and Sicily and none of that is succession; putting
+ * these rows in the "what led here" columns would read as descent, which is
+ * exactly the misreading `Transfer` exists to avoid. The heading says what the
+ * relation is so the reader never has to infer it.
+ *
+ * A polity with no transfers renders nothing at all. There is no empty state
+ * here on purpose: never having lost a province is not a gap in the record,
+ * and most polities in this corpus will carry none.
+ */
+function TransferRow({ item, subject }: { item: Transfer; subject: 'lost' | 'gained' }) {
+  const other = subject === 'lost' ? item.to : item.from
+  return (
+    <li className="border-t border-kashi/15 py-3 first:border-t-0">
+      <p className="flex flex-wrap items-baseline gap-x-2">
+        <span className="font-mono text-[14px] tabular-nums text-debu-ink">
+          {item.year == null ? '\u2014' : formatYear(item.year)}
+        </span>
+        <span className="font-semibold text-dawat/85">{item.what}</span>
+        <span className="italic text-kashi">{subject === 'lost' ? 'to' : 'from'}</span>
+        <Party id={other} emphasise />
+        {item.contested ? (
+          <span className="rounded-full border border-debu/50 px-2 py-0.5 font-mono text-micro uppercase text-debu-ink">
+            contested
+          </span>
+        ) : null}
+      </p>
+      <p className="mt-1 max-w-measure text-[16px] leading-relaxed text-debu-ink">{item.note}</p>
+    </li>
+  )
+}
+
+export function Transfers({ lost, gained }: { lost: Transfer[]; gained: Transfer[] }) {
+  if (!lost.length && !gained.length) return null
+  return (
+    <section aria-labelledby="transfers-heading" className="mt-16">
+      <SectionHead ground="paper" id="transfers-heading">
+        Territory that changed hands
+      </SectionHead>
+      <p className="max-w-measure text-body">
+        {lost.length
+          ? 'Provinces lost while this polity went on existing. '
+          : 'Provinces taken from polities that went on existing. '}
+        This is not succession and draws no thread &mdash; territory changing hands
+        says nothing about what became what.
+      </p>
+      <div className="mt-6 grid gap-10 md:grid-cols-2">
+        {lost.length ? (
+          <div>
+            <h3 className="font-display text-[19px] font-semibold text-kashi-deep">Lost</h3>
+            <ul className="mt-2">
+              {lost.map((t, i) => (
+                <TransferRow key={i} item={t} subject="lost" />
+              ))}
+            </ul>
+          </div>
+        ) : null}
+        {gained.length ? (
+          <div>
+            <h3 className="font-display text-[19px] font-semibold text-kashi-deep">Taken</h3>
+            <ul className="mt-2">
+              {gained.map((t, i) => (
+                <TransferRow key={i} item={t} subject="gained" />
+              ))}
+            </ul>
+          </div>
+        ) : null}
       </div>
     </section>
   )

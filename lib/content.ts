@@ -14,6 +14,7 @@ import fs from 'node:fs'
 import path from 'node:path'
 import matter from 'gray-matter'
 import { checkResumptions, resumptionOf, type Resumption } from './resumption'
+import { checkTransfers, transfersOf, type Transfers } from './transfers'
 import { parse as parseYaml } from 'yaml'
 import {
   arcIndex,
@@ -30,6 +31,7 @@ import {
   type Chapter,
   type ExternalNeighbour,
   type Edge,
+  type Transfer,
   type Polity,
   type ReferencePolity,
   type Region,
@@ -67,6 +69,8 @@ export interface Corpus {
   backdrop: ReferencePolity[]
   denominators: WorldDenominator[]
   edges: Edge[]
+  /** Territory that changed hands between survivors. Never drawn as a thread. */
+  transfers: Transfer[]
   sources: Map<string, Source>
   chapters: Map<string, Chapter[]>
 }
@@ -504,6 +508,29 @@ export function loadCorpus(): Corpus {
     if (!e.note?.trim()) throw new ContentError(where, 'an edge must explain itself')
   })
 
+  // Territorial transfers. Loaded and validated exactly like edges and then
+  // kept away from everything that draws or counts one. See the note on
+  // `Transfer` in lib/types.ts for why this is a separate file rather than a
+  // ninth edge type.
+  const transfers = readYaml<{ transfers: Transfer[] }>('transfers.yaml').transfers ?? []
+  transfers.forEach((t, i) => {
+    const where = `transfers.yaml[${i}] ${t.from} -> ${t.to}`
+    requireSource(t.source, where)
+    if (!knownIds.has(t.from)) throw new ContentError(where, `unknown polity "${t.from}"`)
+    if (!knownIds.has(t.to)) throw new ContentError(where, `unknown polity "${t.to}"`)
+    if (!t.what?.trim()) throw new ContentError(where, 'a transfer must say what changed hands')
+    if (!t.note?.trim()) throw new ContentError(where, 'a transfer must explain itself')
+    if (typeof t.contested !== 'boolean') {
+      throw new ContentError(where, 'contested is true or false, never absent')
+    }
+  })
+  // What a transfer *means* is checked in lib/transfers.ts so it can be
+  // unit-tested; here it is simply enforced. Coding rule 10.
+  const transferProblems = checkTransfers(all, edges, transfers)
+  if (transferProblems.length) {
+    throw new ContentError('transfers.yaml', transferProblems.join('; '))
+  }
+
   // Every region sits on exactly one shelf, and the shelf is from the closed
   // list. A typo here would silently drop a region out of the browsing nav
   // without dropping it out of anything else, which is the kind of failure
@@ -551,6 +578,7 @@ export function loadCorpus(): Corpus {
     backdrop: refFile.polities,
     denominators: refFile.world_denominators,
     edges,
+    transfers,
     sources,
     chapters,
   }
@@ -581,6 +609,16 @@ export function getNeighbours(id: string): Neighbours {
     predecessors: edges.filter((e) => e.to === id),
     successors: edges.filter((e) => e.from === id),
   }
+}
+
+/**
+ * Territorial transfers in both directions.
+ *
+ * Kept out of `getNeighbours` deliberately, the same way `getResumption` is:
+ * neither is succession, and nothing that draws a thread may reach either.
+ */
+export function getTransfers(id: string): Transfers {
+  return transfersOf(loadCorpus().transfers, id)
 }
 
 /**

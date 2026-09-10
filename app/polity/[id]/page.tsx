@@ -7,6 +7,7 @@ import {
   getPolity,
   getChapters,
   getNeighbours,
+  getTransfers,
   getResumption,
   politiesInRegion,
   inThread,
@@ -17,7 +18,7 @@ import { contemporariesOf } from '@/lib/contemporaries'
 import { formatKm2, formatPopulation, NO_FIGURE } from '@/lib/gaps'
 import { Page, Shell, Crumbs, StatRow } from '@/components/Shell'
 import { PolityRail } from '@/components/PolityRail'
-import { Position } from '@/components/Position'
+import { Position, Transfers } from '@/components/Position'
 import { Chapters } from '@/components/Chapters'
 import { Facts } from '@/components/Facts'
 import { RatingPanel } from '@/components/RatingPanel'
@@ -45,6 +46,7 @@ export default function PolityPage({ params }: { params: { id: string } }) {
   const chapters = getChapters(p.id)
   const { predecessors, successors } = getNeighbours(p.id)
   const { resumes, resumedBy } = getResumption(p.id)
+  const { lost, gained } = getTransfers(p.id)
   const region = getRegion(p.region)
 
   // The rail is the continuity section's instrument, so it only appears for a
@@ -169,6 +171,8 @@ export default function PolityPage({ params }: { params: { id: string } }) {
               resumes={resumes}
               resumedBy={resumedBy}
             />
+
+            <Transfers lost={lost} gained={gained} />
 
             <Chapters chapters={chapters} />
 

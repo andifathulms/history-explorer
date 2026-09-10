@@ -572,6 +572,50 @@ export interface ExternalNeighbour {
   contested?: boolean
 }
 
+/**
+ * Territory that changed hands between two records, where the loser survived.
+ *
+ * The gap this fills is visible on the Byzantine page. That record carries more
+ * edges than almost any other and not one of them says the empire lost Syria,
+ * Egypt, Anatolia or Sicily — because every one of those was a transfer of
+ * provinces and not a succession, and the eight edge types have no word for it.
+ * `conquered by` would render "Byzantine Empire conquered by Rashidun
+ * Caliphate", which is false: Byzantium outlived that conquest by eight
+ * centuries and our own record ends it in 1453 at Ottoman hands.
+ *
+ * So this is deliberately NOT an edge, for the same reason `ExternalNeighbour`
+ * is not one, and the reason is worth stating because it is the whole design.
+ * A region's thread draws edges, and a thread is a picture of *what became
+ * what*. Territorial transfers do not compose that way: a reader tracing
+ * Byzantine to Rashidun to Umayyad along a drawn line would read descent, when
+ * the first hop is not descent at all. Putting these in `edges.yaml` would make
+ * the thread assert sequences nobody cited — hard rule 7, committed in pixels,
+ * which is where hard rule 9 says it is hardest to notice.
+ *
+ * A transfer therefore enters no thread, no edge tally and no displacement
+ * count. It is rendered on both pages and nowhere else.
+ *
+ * Which transfers qualify is a rule and not a judgement, because an unbounded
+ * version of this would swallow every frontier war Byzantium fought for eight
+ * centuries. See `content/coding-rules.md` part four: the loss must be
+ * permanent and it must be a region the sources name as a province or a core.
+ * Enforced in part by the build, which refuses a transfer dated at or after the
+ * losing polity's own end — that is a conquest, and conquest is an edge.
+ */
+export interface Transfer {
+  /** The polity that lost the territory, and went on existing. */
+  from: PolityId
+  /** The polity that took it. */
+  to: PolityId
+  /** What changed hands, as a reader would meet it: "Syria, Palestine and Egypt". */
+  what: string
+  year: number | null
+  /** What happened, in one or two sentences. Held to the standard `Edge.note` is. */
+  note: string
+  source: SourceId
+  contested: boolean
+}
+
 export interface Edge {
   from: PolityId
   to: PolityId

@@ -439,3 +439,62 @@ enough that every polity *can* be given four plausible values from general
 knowledge in about a minute, and the result would be uniform, complete, and
 entirely unsourced. Coding rule 3 in part one applies here with full force: a
 value without a source that addresses the question is not enterable.
+
+# Part four: territorial transfers
+
+`transfers.yaml` records territory that changed hands between two records where
+the polity that lost it went on existing. Byzantium losing Syria and Egypt to
+the Rashidun is the case the file was built for.
+
+It is not an edge and must never become one. An edge is a claim about
+succession, and a region's thread draws edges to show what became what;
+territory changing hands is a different relation that does not compose the same
+way. The reasoning is set out on `Transfer` in `lib/types.ts` and it is binding.
+
+## 10. When a transfer is enterable
+
+Three conditions, all required.
+
+**10.1 The losing polity survived it.** This is the line between the two files.
+If the polity ceased to exist, it was conquered, and conquest is an edge. The
+build enforces this: a transfer dated at or after the losing polity's own end is
+refused.
+
+**10.2 The loss was permanent.** The territory was never recovered by the polity
+that lost it. Anatolia after Manzikert qualifies even though Byzantium clawed
+back parts of it, because the Anatolian interior was never Byzantine again;
+a fortress taken in one campaign and retaken in the next does not qualify at
+all, and neither does a province that changed hands four times in a century
+unless the last change was the permanent one and is the one recorded.
+
+**10.3 What moved was a region the sources name.** A province, a named
+territory, or a polity's core — Syria, Sicily, the Sixteen Prefectures,
+Kandahar. Not a town, not a fort, not a district. The test is whether the source
+treats the thing as a unit with a name, not whether the fighting over it was
+important.
+
+## 11. Why the threshold has to be a rule
+
+Without one this file has no natural size. Conquest is terminal and happens
+once per polity, so `edges.yaml` is bounded; territory changes hands
+continuously, and an unbounded version of this file would swallow every frontier
+war Byzantium fought for eight centuries and tell a reader nothing.
+
+The temptation will be to admit a case because the campaign was famous. That is
+the same failure part one warns about in the influence counts: a threshold
+applied by feel produces an opinion wearing a number. Apply 10.2 and 10.3
+uniformly, including where the answer excludes a battle everyone has heard of.
+
+## 12. What a transfer is not
+
+Not a war. `what` names the territory, not the campaign, and `note` says what
+changed hands and on what terms — the same standard `Edge.note` is held to.
+
+Not a substitute for a missing edge. If the relation between two records really
+is succession, it belongs in `edges.yaml` even where none of the eight types
+fits comfortably; the answer there is the least wrong type plus a YAML comment,
+not a transfer.
+
+Not counted. Transfers enter no thread, no edge tally and no rating axis, and
+nothing that draws succession may read them. A polity with a hundred transfers
+and no edges still has no succession, and its page must say so.

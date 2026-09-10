@@ -1,0 +1,60 @@
+# Territory that changed hands between two records where the polity that lost
+# it went on existing.
+#
+# Deliberately not edges. An edge is a succession claim and a region's thread
+# draws edges to show what became what; a province changing hands is a different
+# relation, and drawing it as succession would tell a reader that Byzantium
+# became the Rashidun caliphate. The full argument is on `Transfer` in
+# lib/types.ts. What qualifies is coding rule 10, and the threshold is a rule
+# rather than a judgement because an unbounded version of this file would
+# swallow every frontier war Byzantium fought for eight centuries.
+#
+# Nothing here enters a thread, an edge tally or a rating axis.
+#
+# Direction: `from` lost it, `to` took it.
+
+transfers:
+  # ---- Byzantium: the losses its edge list never recorded ----
+  #
+  # The worked example, and the reason the file exists. The Byzantine record
+  # carries fourteen edges — who partitioned it in 1204, who finally killed it
+  # in 1453 — and not one of them says the empire lost its richest provinces in
+  # the 630s or its Anatolian heartland in the 1070s. Both were survived, so
+  # neither is an edge, so both were invisible.
+
+  - from: byzantine
+    to: rashidun
+    what: Syria and Palestine
+    year: 636
+    note: "The field army in Syria was destroyed at the Yarmuk and Heraclius
+           withdrew behind the Taurus rather than raise a second one; Baladhuri
+           has him turn at the pass and say goodbye to the province. The cities
+           had already been treating separately, Damascus and Busra on written
+           terms that survived to be argued over centuries later."
+    source: baladhuri-futuh
+    contested: false
+
+  - from: byzantine
+    to: rashidun
+    what: Egypt
+    year: 642
+    note: "John of Nikiu, a Delta bishop writing within living memory, describes
+           not a defeat but a command structure coming apart: a general drowned,
+           another boarding a ship and leaving his army to be killed in the
+           water, and Lower Egypt dividing between those who held with the
+           Roman commander and those who wished to join the Arabs."
+    source: john-of-nikiu
+    contested: false
+
+  - from: byzantine
+    to: rum
+    what: The Anatolian interior
+    year: null
+    note: "Anna Komnene describes her father's accession in 1081 finding
+           Sulayman, whom she calls ruler of the whole of the East, encamped at
+           Nicaea with his palace there and raiding to the Bosphorus. Alexios
+           cleared Bithynia and the seaboard by night landings and fixed the
+           river Dracon as the boundary; the plateau behind it stayed Turkish
+           and the empire never held it again."
+    source: alexiad-dawes
+    contested: false
