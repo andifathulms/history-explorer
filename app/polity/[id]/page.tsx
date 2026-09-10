@@ -80,7 +80,7 @@ export default function PolityPage({ params }: { params: { id: string } }) {
 
   const sections: NavSection[] = [
     { id: 'facts-heading', label: 'Facts' },
-    { id: 'institutions-heading', label: 'Governed' },
+    { id: 'institutions-heading', label: 'Institutions' },
     { id: 'turning-heading', label: 'Turning points' },
     ...(p.measures.extent.length >= 2
       ? [{ id: 'extent-heading', label: 'Extent over time' }]

@@ -41,11 +41,19 @@ export function PageNav({ sections }: { sections: NavSection[] }) {
 
     const resolve = () => {
       frame = 0
-      // The sticky nav is 5.5rem tall by `scroll-padding-top`, and a heading
-      // that has just cleared it is the one the reader is standing in. The
-      // extra allowance stops the mark flickering back a section while a
-      // heading sits exactly on the line.
-      const line = 120
+      // Where a heading counts as passed.
+      //
+      // A fixed 120px was too tight against the sticky nav. A section head
+      // sitting 137px down the viewport is plainly the section you are
+      // reading — its rule is at the top of the screen and its rows fill the
+      // rest — but the mark still read the one above it, so the gutter named
+      // Facts while the screen showed Institutions.
+      //
+      // A share of the viewport puts the line where the eye is instead. The
+      // floor keeps it clear of the nav on a short window, and a clicked link
+      // still lands its own section: `scroll-padding-top` puts the heading at
+      // 88px, which is above the line at any height.
+      const line = Math.max(140, window.innerHeight * 0.32)
       let current = sections[0].id
       for (const s of sections) {
         const el = document.getElementById(s.id)

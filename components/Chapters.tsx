@@ -171,7 +171,12 @@ export async function Chapters({ chapters }: { chapters: Chapter[] }) {
 
       {chapters.length > 2 ? (
         <nav aria-label="Chapters" className="mt-10 mb-14">
-          <details>
+          {/* Open. It was folded to buy a phone reader the screen and a half
+              of furniture that the spine plus thirteen rows cost them, but a
+              contents list nobody can see is a contents list nobody uses, and
+              on the page this is the index. The spine above it is a picture of
+              the arc; this is the list of what to read. */}
+          <details open>
             <summary className="inline-block cursor-pointer py-2 font-mono text-micro uppercase tracking-[0.08em] text-firuze-ink hover:text-kashi">
               Contents &mdash; {chapters.length} chapters
             </summary>
