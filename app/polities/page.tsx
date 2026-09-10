@@ -243,7 +243,14 @@ export default function PolitiesIndex() {
                           href={`/polity/${p.id}/`}
                           className="group flex h-full flex-col p-6 transition-colors hover:bg-kaghaz-lift"
                         >
-                          <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+                          {/* The script gets its own line on every card
+                              rather than sitting inline and wrapping when the
+                              pair is long. Inline, "Umayyad Caliphate of
+                              Cordoba" pushed its own span down a line while
+                              its neighbours in the same row kept theirs up,
+                              so a row of three cards had three different
+                              baselines for the same field. */}
+                          <div>
                             {/* h4. The region above is the h3 and these sit
                                 inside it, but both were h3 — so the build had
                                 260 headings at one level and none at the next,
@@ -254,12 +261,12 @@ export default function PolitiesIndex() {
                               {p.name.latin}
                             </h4>
                             {p.name.script ? (
-                              <span
+                              <p
                                 lang={p.name.script_lang ?? scriptLang(p.name.script ?? '')}
-                                className="text-[19px] text-kashi/70"
+                                className="mt-0.5 text-[19px] leading-snug text-kashi/70"
                               >
                                 {p.name.script}
-                              </span>
+                              </p>
                             ) : null}
                           </div>
                           <p className="mt-1.5 font-mono text-micro uppercase tabular-nums text-firuze-ink">
@@ -322,10 +329,26 @@ export default function PolitiesIndex() {
                 </ul>
 
                 {ctx.length ? (
-                  <p className="mt-6 max-w-measure text-[15px] leading-relaxed text-debu-ink">
-                    Also in this region as context, with figures and a place on the timeline
-                    but no chapters yet: {ctx.map((p) => p.name.latin).join(', ')}.
-                  </p>
+                  /* A row of names with their spans, on the footing the
+                     timeline already gives them. It had been a run-on sentence
+                     of up to a dozen names, unspanned and unpunctuated apart
+                     from commas, which read as an apology rather than as a
+                     list of polities that were there. */
+                  <div className="mt-8 border-t border-kashi/15 pt-4">
+                    <p className="kicker text-debu-ink">
+                      Also in this region, with figures and a place on the timeline
+                    </p>
+                    <ul className="mt-2 flex flex-wrap gap-x-8 gap-y-1">
+                      {ctx.map((p) => (
+                        <li key={p.id} className="py-1 text-[15px] text-debu-ink">
+                          {p.name.latin}{' '}
+                          <span className="font-mono text-micro tabular-nums">
+                            {formatSpan(p.span.start.min, p.span.end.max)}
+                          </span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                 ) : null}
               </section>
             )
