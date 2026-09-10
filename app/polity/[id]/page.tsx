@@ -164,6 +164,35 @@ export default function PolityPage({ params }: { params: { id: string } }) {
               <StatRow ground="paper" stats={headline} />
             </header>
 
+            {/* Order, and the reasoning for it.
+
+                The reference sections come first because most arrivals are
+                looking something up, not settling in: who founded it, where it
+                was, what ended it. Those are a fifteen-row list and a handful
+                of dated hinges, so they cost a reader who came to read one
+                screen — while the old order cost a reader who came to look up
+                the whole essay. On the Abbasid page every one of these sat past
+                a five-thousand-nine-hundred-word scroll.
+
+                Turning points and the extent series sit above the chapters
+                rather than below them because both are chronological: they
+                frame the read instead of interrupting it.
+
+                Succession moved below the chapters. It is a claim about this
+                polity's relations, and it means more once you know the polity
+                than before you do — and on an edgeless polity it opened the
+                page on a paragraph about what is not recorded, which is the
+                weakest possible first line under an identity sentence. */}
+            <Facts polity={p} />
+
+            <Institutions polity={p} />
+
+            <TurningPoints polity={p} />
+
+            <ExtentTrajectory polity={p} />
+
+            <Chapters chapters={chapters} />
+
             <Position
               polity={p}
               predecessors={predecessors}
@@ -173,16 +202,6 @@ export default function PolityPage({ params }: { params: { id: string } }) {
             />
 
             <Transfers lost={lost} gained={gained} />
-
-            <Chapters chapters={chapters} />
-
-            <Facts polity={p} />
-
-            <Institutions polity={p} />
-
-            <TurningPoints polity={p} />
-
-            <ExtentTrajectory polity={p} />
 
             <Contemporaries certain={certain} possible={possible} />
 
