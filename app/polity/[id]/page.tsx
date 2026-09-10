@@ -13,6 +13,7 @@ import {
   inThread,
   getRegion,
 } from '@/lib/content'
+import { scriptLang } from '@/lib/scripts'
 import { buildField, rate, DEFAULT_WEIGHTS, ordinal } from '@/lib/ratings'
 import { contemporariesOf } from '@/lib/contemporaries'
 import { formatKm2, formatPopulation, NO_FIGURE } from '@/lib/gaps'
@@ -182,7 +183,7 @@ export default function PolityPage({ params }: { params: { id: string } }) {
                 </h1>
                 {p.name.script ? (
                   <p
-                    lang={p.name.script_lang ?? 'fa'}
+                    lang={p.name.script_lang ?? scriptLang(p.name.script ?? '')}
                     className="text-[30px] leading-tight text-kashi"
                   >
                     {p.name.script}

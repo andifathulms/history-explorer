@@ -2,6 +2,7 @@ import type { Polity, Ruler } from '@/lib/types'
 import { formatYear, formatSpan } from '@/lib/years'
 import { NO_FIGURE } from '@/lib/gaps'
 import { citeShort } from '@/lib/content'
+import { scriptLang } from '@/lib/scripts'
 import { SectionHead } from '@/components/Shell'
 
 /**
@@ -11,6 +12,10 @@ import { SectionHead } from '@/components/Shell'
  * A null ruler renders as "No cited figure" like any other gap. The Ghurid last
  * sultan is genuinely unresolved between sources, and printing the most-cited
  * guess would be exactly the invention the hard rules forbid.
+ *
+ * Script runs get their language from the characters — see lib/scripts.ts.
+ * Both of these fields used to be hardcoded `lang="fa"`, which set Πέλλα,
+ * 長安, 𒀀𒂵𒉈𒆠 and Principatus Antiochenus right-to-left in the Arabic face.
  */
 function Row({ label, children }: { label: string; children: React.ReactNode }) {
   return (
@@ -27,13 +32,13 @@ function Gap() {
   return <span className="italic text-debu-ink">{NO_FIGURE}</span>
 }
 
-function RulerLine({ r }: { r: Ruler | null }) {
+function RulerLine({ r, declared }: { r: Ruler | null; declared?: string | null }) {
   if (!r) return <Gap />
   return (
     <span>
       {r.name}
       {r.script ? (
-        <span lang="fa" className="ml-2 text-[17px] text-kashi">
+        <span lang={scriptLang(r.script, declared)} className="ml-2 text-[17px] text-kashi">
           {r.script}
         </span>
       ) : null}
@@ -63,7 +68,10 @@ export function Facts({ polity }: { polity: Polity }) {
                 <li key={i}>
                   {c.name}
                   {c.script ? (
-                    <span lang="fa" className="ml-2 text-[17px] text-kashi">
+                    <span
+                      lang={scriptLang(c.script, p.name.script_lang)}
+                      className="ml-2 text-[17px] text-kashi"
+                    >
                       {c.script}
                     </span>
                   ) : null}
@@ -88,13 +96,13 @@ export function Facts({ polity }: { polity: Polity }) {
         </Row>
 
         <Row label="Founder">
-          <RulerLine r={p.rulers.founder} />
+          <RulerLine r={p.rulers.founder} declared={p.name.script_lang} />
         </Row>
         <Row label="Peak-era ruler">
-          <RulerLine r={p.rulers.peak} />
+          <RulerLine r={p.rulers.peak} declared={p.name.script_lang} />
         </Row>
         <Row label="Last ruler">
-          <RulerLine r={p.rulers.last} />
+          <RulerLine r={p.rulers.last} declared={p.name.script_lang} />
         </Row>
 
         <Row label="Administration">

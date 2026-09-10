@@ -8,6 +8,7 @@ import {
   regionsByGroup,
   isPopulatedRegion,
 } from '@/lib/content'
+import { scriptLang } from '@/lib/scripts'
 import { Page, Shell, PageHead } from '@/components/Shell'
 import { CrossCut, type CrossCutPolity } from '@/components/CrossCut'
 import { formatKm2, formatPopulation } from '@/lib/gaps'
@@ -162,7 +163,7 @@ export default function PolitiesIndex() {
                             </h3>
                             {p.name.script ? (
                               <span
-                                lang={p.name.script_lang ?? 'fa'}
+                                lang={p.name.script_lang ?? scriptLang(p.name.script ?? '')}
                                 className="text-[19px] text-kashi/70"
                               >
                                 {p.name.script}
