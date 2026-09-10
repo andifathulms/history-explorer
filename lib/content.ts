@@ -402,6 +402,28 @@ export function loadCorpus(): Corpus {
       .filter((f) => f.endsWith('.mdx'))
       .sort()
 
+    // Chapter order is the filename's numeric prefix, so two chapters sharing
+    // one prefix have no defined order between them — the sort falls through to
+    // the slug, which is alphabetical and means nothing. It builds, because
+    // alphabetical order is sometimes accidentally the right one, and that is
+    // exactly why it needs catching: the failure is silent and survives review.
+    // Five records picked this up in one afternoon of inserting chapters, each
+    // time from a renumbering pass that missed the last file.
+    const byPrefix = new Map<string, string>()
+    for (const file of files) {
+      const prefix = file.split('-')[0]
+      if (!/^\d+$/.test(prefix)) continue
+      const first = byPrefix.get(prefix)
+      if (first) {
+        throw new ContentError(
+          `polities/${id}`,
+          `chapters "${first}" and "${file}" share the number ${prefix}, so their ` +
+            'order is decided by spelling rather than by intent — renumber one of them',
+        )
+      }
+      byPrefix.set(prefix, file)
+    }
+
     const list: Chapter[] = files.map((file, i) => {
       const chWhere = `polities/${id}/${file}`
       const raw = fs.readFileSync(path.join(polityDir, id, file), 'utf8')
