@@ -90,7 +90,9 @@ export default function PolityPage({ params }: { params: { id: string } }) {
     ...(lost.length || gained.length
       ? [{ id: 'transfers-heading', label: 'Territory' }]
       : []),
-    { id: 'contemporaries-heading', label: 'Contemporaries' },
+    ...(certain.length || possible.length
+      ? [{ id: 'contemporaries-heading', label: 'Contemporaries' }]
+      : []),
     { id: 'map-heading', label: 'Map' },
     { id: 'rating', label: 'Rating' },
   ]

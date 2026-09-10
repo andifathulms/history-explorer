@@ -232,10 +232,16 @@ export function Position({
           Succession
         </SectionHead>
         <Resumption earlier={resumes} later={resumedBy} />
+        {/* Hard rule 7 asks for one plain sentence here, and hard rule 12
+            forbids that sentence being about what this collection holds. So
+            the subject is the evidence, which rule 11 allows and which is
+            what is actually true: the sources consulted carry no line of
+            descent at either end. The phrasing follows Institutions, where a
+            gap reads as no source consulted addressing the question. */}
         <p className="max-w-measure text-body">
-          No succession is recorded either into or out of this polity. That is an
-          ordinary condition rather than a gap &mdash; inheriting a predecessor&rsquo;s claim,
-          and leaving one behind, is something some polities did and many did not.
+          No source consulted for this polity carries a line of descent into it or
+          out of it. Inheriting a predecessor&rsquo;s claim, and leaving one behind, is
+          something some polities did and many did not.
         </p>
       </section>
     )

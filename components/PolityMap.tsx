@@ -24,11 +24,13 @@ export function PolityMap({ polity }: { polity: Polity }) {
         <SectionHead ground="paper" id="map-heading">
           Extent
         </SectionHead>
+        {/* The subject is the dataset, not the collection: hard rule 11 makes
+            the evidence a legitimate thing to write about, and what is true
+            here is a fact about how historical-basemaps was drawn. */}
         <p className="max-w-measure text-body">
-          No snapshot in this series draws {polity.name.latin}.{' '}
           {polity.id === 'tahirid'
             ? 'The 800 and 900 snapshots show Khurasan inside the Abbasid Caliphate, which is what the Tahirids formally were — so the dataset is right and there is correctly nothing to draw.'
-            : 'The maps in this series are world snapshots at fixed years, and not every polity is named on the ones that fall inside its lifetime.'}
+            : `The historical-basemaps snapshots are world maps at fixed years, and none of the ones falling inside this polity's lifetime names it among the polities it draws.`}
         </p>
       </section>
     )

@@ -129,18 +129,14 @@ export function Contemporaries({
   certain: Contemporary[]
   possible: Contemporary[]
 }) {
-  if (!certain.length && !possible.length) {
-    return (
-      <section aria-labelledby="contemporaries-heading" className="mt-16">
-        <SectionHead ground="paper" id="contemporaries-heading">
-          Contemporaries
-        </SectionHead>
-        <p className="max-w-measure text-body">
-          Nothing else on these pages overlaps this polity&rsquo;s span.
-        </p>
-      </section>
-    )
-  }
+  // Nothing renders rather than a sentence about what these pages hold. Every
+  // other empty state on a polity page says something true about the past —
+  // that a polity had no fixed seat, that no source names a hinge — and this
+  // one could only ever have said something about the collection, which is the
+  // habit hard rule 12 exists to stop. A reader who is told nothing here loses
+  // nothing; a reader told what is absent from the corpus learns about the
+  // corpus, which is not what they came for.
+  if (!certain.length && !possible.length) return null
 
   return (
     <section aria-labelledby="contemporaries-heading" className="mt-16">
