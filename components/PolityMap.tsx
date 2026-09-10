@@ -67,7 +67,11 @@ export function PolityMap({ polity }: { polity: Polity }) {
             </defs>
 
             {map.context.map((c, i) => (
-              <path key={i} d={c.d} className="fill-kaghaz/5 stroke-kaghaz/10" strokeWidth={0.5} />
+              // Context, at the faintest weight that is still visibly there.
+              // At 5% fill over 10% stroke the neighbours were effectively
+              // invisible, which made the subject look like it sat on an empty
+              // world rather than among the polities it had borders with.
+              <path key={i} d={c.d} className="fill-kaghaz/10 stroke-kaghaz/20" strokeWidth={0.5} />
             ))}
 
             {map.subject.map((s, i) => (
@@ -120,7 +124,27 @@ export function PolityMap({ polity }: { polity: Polity }) {
               : 'No source in this set gives an extent for this polity. The shape on the left is still only an illustration.'}
           </p>
 
-          <p className="mt-5 text-debu-ink">
+          {/* What the two fills are. The shapes were drawn in two treatments
+              with nothing anywhere saying which was which, so a reader had to
+              infer that the bright one was the subject — on a map whose whole
+              point is that it is an illustration and not a measurement. */}
+          <dl className="mt-6 border-t border-kashi/15 pt-4">
+            <div className="flex items-baseline gap-3 py-1.5">
+              <dt aria-hidden="true" className="mt-1 h-3 w-5 shrink-0 border border-firuze-ink bg-kashi/45" />
+              <dd className="text-[14px] leading-snug text-debu-ink">
+                <span className="text-kashi-deep">{polity.name.latin}</span>, as the
+                snapshot draws it
+              </dd>
+            </div>
+            <div className="flex items-baseline gap-3 py-1.5">
+              <dt aria-hidden="true" className="mt-1 h-3 w-5 shrink-0 border border-dawat-edge bg-dawat-lift" />
+              <dd className="text-[14px] leading-snug text-debu-ink">
+                Everything else on the same snapshot
+              </dd>
+            </div>
+          </dl>
+
+          <p className="mt-4 text-debu-ink">
             Edges are blurred from the dataset&rsquo;s own border-precision field. Every
             feature in this period is marked <span className="tabular-nums">1</span>,
             approximate, so every border here dissolves.
