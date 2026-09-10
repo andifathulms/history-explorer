@@ -51,6 +51,34 @@ ended:
   year: 1287
   source: aung-thwin-1985
 
+# Both real, both without records here. Nothing governed Burma after 1287, so
+# the successor row omits `type`.
+preceded_by_external:
+  - name: the Pyu city-states
+    type: absorbed remnants of
+    year: null
+    note: >-
+      Walled cities of the dry zone — Beikthano, Halin, Sri Ksetra — with
+      Buddhist reliquaries, irrigation works and their own script, running from
+      about the second century to the ninth, when Nanzhao raids broke them. The
+      Burmans who founded Pagan moved into a country that already had
+      Theravada, brick building and irrigated rice, and the Myazedi inscription
+      of 1113 still carries Pyu as one of its four languages.
+    source: aung-thwin-1985
+
+succeeded_by_external:
+  - name: Myinsaing, Pinya, Sagaing and Ava, and the Mon kingdom at Pegu
+    year: null
+    note: >-
+      No power took Burma in 1287. Three brothers of Shan origin who had been
+      Pagan commanders held the dry zone, and the Irrawaddy passed through a
+      succession of upper Burmese kingdoms while the delta went to a Mon
+      kingdom at Pegu. The country was not reunified for two hundred and fifty
+      years, and no later dynasty claimed to be the Pagan dynasty continuing —
+      what they claimed instead was the guardianship of the religion Anawrahta
+      was said to have brought from Thaton.
+    source: aung-thwin-1985
+
 institutions:
   military_basis: { values: [conscript], source: aung-thwin-1985 }
   # Land tax, and the whole record turns on what happened to it. The crown's

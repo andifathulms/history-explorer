@@ -46,6 +46,22 @@ ended:
   year: 1431
   source: coedes-1968
 
+# A real predecessor with no record here. Jayavarman II's consecration in 802 is
+# conventionally the founding, and what he unified had been there for centuries.
+preceded_by_external:
+  - name: Chenla, and Funan before it
+    type: absorbed remnants of
+    year: null
+    note: >-
+      The Chinese sources describe a state they call Funan in the Mekong delta
+      from the first century, trading with India and with China, and a successor
+      or overlord they call Chenla inland from it which had divided into
+      "land Chenla" and "water Chenla" by the eighth century. What Jayavarman II
+      consecrated himself over in 802 was the reunification of those pieces, and
+      the Khmer language, the Sanskrit court culture and the temple-building
+      were all in the country before him.
+    source: coedes-1968
+
 institutions:
   # Corvée. The inscriptions record populations assigned to temples and to the
   # state in units of people, and the armies were raised the same way — through

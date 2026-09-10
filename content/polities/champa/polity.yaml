@@ -58,6 +58,32 @@ ended:
   year: 1471
   source: coedes-1968
 
+# Both real, both without records here. The successor is half-present: the Le
+# dynasty ruled the state carried here as Dai Viet, whose record stops in 1400.
+preceded_by_external:
+  - name: the Han commandery of Rinan
+    type: seceded from
+    year: 192
+    note: >-
+      The southernmost commandery of the Chinese empire, on the coast below the
+      Red River delta. In 192 the son of a local official killed the magistrate
+      and made himself king of what the Chinese called Lin-yi, which is the
+      first polity the sources treat as Cham. The break was from a Chinese
+      province rather than from an Indic kingdom, and the Indianisation of the
+      Cham courts came afterwards, by sea.
+    source: coedes-1968
+
+succeeded_by_external:
+  - name: the Le dynasty of Dai Viet
+    type: conquered by
+    year: 1471
+    note: >-
+      Le Thanh Tong took Vijaya, annexed the northern Cham territories outright
+      and organised them as Vietnamese provinces with soldiers settled on them.
+      A Cham principality at Panduranga in the far south continued as a
+      tributary until 1832, when Minh Mang abolished it.
+    source: coedes-1968
+
 institutions:
   # Null. The Cham fought constantly — against the Khmer, against the
   # Vietnamese, and at sea — and what the sources describe is the campaigns

@@ -48,6 +48,34 @@ ended:
   year: 1400
   source: taylor-2013
 
+# Both real, both without records here, and both fall outside the deliberate
+# 1054-1400 scope of this record. Nothing conquered the Ly-Tran order in 1400 —
+# a court official took the throne — so the successor row omits `type`.
+preceded_by_external:
+  - name: the Ngo, Dinh and Early Le
+    type: absorbed remnants of
+    year: null
+    note: >-
+      Between the defeat of the Chinese at Bach Dang in 938 and Ly Thanh Tong's
+      proclamation of the name Dai Viet in 1054 there were three short-lived
+      dynasties in the Red River delta, each of which had to establish that an
+      independent Vietnamese state was possible at all. The Ly inherited that
+      settlement, and used the same river against the same enemy in 981 and
+      again in 1288.
+    source: taylor-2013
+
+succeeded_by_external:
+  - name: the Ho, the Ming occupation, and the Le
+    year: 1400
+    note: >-
+      Ho Quy Ly deposed his own grandson and reigned seven years; the Ming
+      invaded in 1407 on the pretext of restoring the Tran, annexed the country
+      and held it for twenty years; Le Loi drove them out by 1427 and founded a
+      dynasty that lasted three hundred and sixty. Under Le Thanh Tong the
+      Vietnamese state took the shape it kept until the French, and finished
+      Champa in 1471.
+    source: taylor-2013
+
 institutions:
   # Conscription, and it is the reason for the Mongol chapter. Both dynasties
   # kept registers of adult men and called them up by household; the Tran also
