@@ -98,7 +98,10 @@ measures:
   # No consulted dataset gives a Tahirid extent. Taagepera's series does not
   # descend to the governorate scale, and computing one from a map polygon is
   # forbidden by hard rule 5. The axis is a gap.
-  reach_km2: null
+  # Taagepera 1997, appendix: "800? 1.0? KH". He queries both the date and
+  # the figure, and the query is his; it is recorded here rather than silently
+  # firmed up.
+  reach_km2: { value: 1000000, at: 800, source: taagepera-1997 }
   peak_population: null
   influence:
     descendant_scripts: { count: 0, items: [], source: iranica-taherids }

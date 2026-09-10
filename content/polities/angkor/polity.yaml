@@ -138,7 +138,9 @@ turning_points:
     contested: false
 
 measures:
-  reach_km2: null
+  # Taagepera 1997, appendix, series "Khmer": 800 -> .65 (foundation),
+  # 1140 -> .8, 1290 -> 1.0, 1415 -> .4, 1760 -> .25, 1880 -> .0.
+  reach_km2: { value: 1000000, at: 1290, source: taagepera-1997 }
   peak_population: null
   influence:
     # One. The Thai script devised at Sukhothai in the late thirteenth century

@@ -100,7 +100,9 @@ turning_points:
     contested: false
 
 measures:
-  reach_km2: null
+  # Taagepera 1997, appendix: Cordoba 1000 -> .6 Mm2, "Entire Iberia
+  # held". His 756 row is .5 at the secession from the Caliphate.
+  reach_km2: { value: 600000, at: 1000, source: taagepera-1997 }
   peak_population: null
   influence:
     # Arabic in al-Andalus was the inherited script writing an inherited

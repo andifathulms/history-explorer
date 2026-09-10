@@ -109,7 +109,10 @@ turning_points:
 measures:
   # No figure for this polity's peak extent in the works consulted. Taagepera
   # does not tabulate it separately and no other cited source gives a km2.
-  reach_km2: null
+  # Taagepera 1997, appendix, the "Fatimid-Ayyubid-Mameluk" continuum:
+  # 1171 -> .65 at Saladin's takeover, 1174 -> 1.45, 1193 -> 1.5 (+/-.1) at his
+  # death, 1200 -> 1.7.
+  reach_km2: { value: 1700000, at: 1200, source: taagepera-1997 }
   peak_population: null
   influence:
     descendant_scripts: { count: null, items: [], source: null }

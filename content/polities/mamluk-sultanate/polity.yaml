@@ -110,7 +110,10 @@ turning_points:
     contested: false
 
 measures:
-  reach_km2: null
+  # Taagepera 1997, appendix, same continuum: 1252 -> 1.8 at the Mamluk
+  # takeover, 1300 -> 2.1 ("Mongols repulsed in 1260"), 1400 -> 1.6,
+  # 1500 -> 1.2.
+  reach_km2: { value: 2100000, at: 1300, source: taagepera-1997 }
   peak_population: null
   influence:
     descendant_scripts: { count: null, items: [], source: null }

@@ -87,7 +87,9 @@ turning_points:
     contested: false
 
 measures:
-  reach_km2: null
+  # Taagepera 1997, appendix: 932 -> .0, 945 -> 1.3?, 980 -> 1.6,
+  # 1030 -> .65, 1055 -> .0.
+  reach_km2: { value: 1600000, at: 980, source: taagepera-1997 }
   peak_population: null
   influence:
     descendant_scripts: { count: 0, items: [], source: iranica-al-e-buya }

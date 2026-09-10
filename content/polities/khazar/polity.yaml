@@ -52,7 +52,10 @@ succeeded_by_external:
     source: golden-1992
 
 measures:
-  reach_km2: { value: 3000000, at: 850, source: taagepera-1997 }
+  # Was 3,000,000 at 850 citing this source. The Khazar series in the T97
+  # appendix is 679 -> .0, 900 -> 1.0 (+/-.25, "Peak period?"), 965 -> .8,
+  # 969 -> .0. There is no 850 row and no 3.0 figure anywhere in it.
+  reach_km2: { value: 1000000, at: 900, source: taagepera-1997 }
   peak_population: null
   influence:
     descendant_scripts: { count: null, items: [], source: null }

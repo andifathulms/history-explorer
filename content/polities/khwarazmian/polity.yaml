@@ -95,7 +95,10 @@ turning_points:
 measures:
   # No consulted dataset gives a Khwarazmian peak extent, and the empire held
   # its greatest size for only about eight years. The axis is a gap.
-  reach_km2: null
+  # Taagepera 1997, appendix: 1218 -> 3.6, against which he notes a rival
+  # figure, "R: 4.0" (Roolvink). His own is used; the variant is recorded here
+  # rather than averaged, which would produce a number nobody published.
+  reach_km2: { value: 3600000, at: 1218, source: taagepera-1997 }
   peak_population: null
   influence:
     descendant_scripts: { count: 0, items: [], source: iranica-khwarazmshahs }

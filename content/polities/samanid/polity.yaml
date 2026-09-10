@@ -101,7 +101,8 @@ turning_points:
     contested: true
 
 measures:
-  reach_km2: { value: 2600000, at: 928, source: taagepera-1997 }
+  # Was 2,600,000. The appendix row for 928 reads 2.85.
+  reach_km2: { value: 2850000, at: 928, source: taagepera-1997 }
 
   # McEvedy & Jones is a regional series. No consulted source gives a Samanid
   # total, and deriving one from the regional figures would be the estimate
