@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { loadCorpus, getChapters } from '@/lib/content'
+import { loadCorpus, getChapters, isPopulatedRegion } from '@/lib/content'
 import { Page, Shell, StatRow } from '@/components/Shell'
 import { CorpusSpans } from '@/components/CorpusSpans'
 import { formatYear } from '@/lib/years'
@@ -19,8 +19,11 @@ import { formatYear } from '@/lib/years'
  */
 export default function Home() {
   const { regions, narrative, context, all, backdrop, edges, sources } = loadCorpus()
+  // Populated only: an empty region is scaffolding and is not a thing the site
+  // has. See isPopulatedRegion.
+  const shownRegions = regions.filter((r) => isPopulatedRegion(r.id))
   const chapters = narrative.reduce((n, p) => n + getChapters(p.id).length, 0)
-  const threaded = regions.filter((r) => r.thread)
+  const threaded = shownRegions.filter((r) => r.thread)
   const first = Math.min(...all.map((p) => p.span.start.min))
   const last = Math.max(...all.map((p) => p.span.end.max))
 
@@ -139,7 +142,7 @@ export default function Home() {
               <p className="mt-5 text-[17px] leading-relaxed text-kaghaz/80">
                 {narrative.length} polities across {chapters} chapters
                 {context.length ? `, plus ${context.length} more carried for context` : ''}, in{' '}
-                {regions.length === 1 ? 'one region' : `${regions.length} regions`}
+                {shownRegions.length === 1 ? 'one region' : `${shownRegions.length} regions`}
                 {threaded.length ? (
                   <>
                     {' '}

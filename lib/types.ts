@@ -54,8 +54,25 @@ export const REGION_GROUPS = [
   { id: 'arabia', name: 'The Arabian Peninsula' },
   { id: 'mediterranean', name: 'The Mediterranean' },
   { id: 'africa-maghreb', name: 'Africa and the Maghreb' },
+  // Split from 'mediterranean'. The Balkans, the Rus' and the Polish-Lithuanian
+  // and Hungarian kingdoms were homeless: Orthodox and Latin Christian states
+  // whose frontier was the steppe rather than the sea, filed on a shelf named
+  // after a sea most of them never touched.
+  { id: 'northern-and-eastern-europe', name: 'Northern and Eastern Europe' },
   { id: 'steppe-east-asia', name: 'The Steppe and East Asia' },
-  { id: 'south-asia', name: 'South and Southeast Asia' },
+  // Was one shelf, 'south-asia' / 'South and Southeast Asia', and it held two
+  // worlds. Ordering it exposed the problem: the subcontinent and the
+  // archipelago alternated all the way down, because Angkor is older than the
+  // Delhi Sultanate and Java is older than both. Separating them also stops a
+  // healthy-looking total from hiding what is underneath it — thirty-three
+  // polities on one shelf was six for the subcontinent and twenty-seven for
+  // the islands and the mainland.
+  { id: 'south-asia', name: 'South Asia' },
+  { id: 'southeast-asia', name: 'Southeast Asia' },
+  // Empty at the time of writing, and declared anyway. A shelf with nothing on
+  // it renders nowhere — see isPopulatedRegion — so this costs a reader
+  // nothing and gives the next polity somewhere to go.
+  { id: 'the-americas', name: 'The Americas' },
 ] as const
 export type RegionGroupId = (typeof REGION_GROUPS)[number]['id']
 

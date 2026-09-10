@@ -1,7 +1,14 @@
 import type { Metadata } from 'next'
 import { formatSpan } from '@/lib/years'
 import Link from 'next/link'
-import { loadCorpus, politiesInRegion, edgesInRegion, displayName, hasPage } from '@/lib/content'
+import {
+  loadCorpus,
+  politiesInRegion,
+  edgesInRegion,
+  displayName,
+  hasPage,
+  isPopulatedRegion,
+} from '@/lib/content'
 import { edgeTallies } from '@/lib/thread'
 import { Page, Shell, PageHead } from '@/components/Shell'
 import { EDGE_TYPES } from '@/lib/types'
@@ -14,8 +21,13 @@ export const metadata: Metadata = {
 
 export default function ContinuityIndex() {
   const { regions, edges } = loadCorpus()
-  const threaded = regions.filter((r) => r.thread)
-  const unthreaded = regions.filter((r) => !r.thread)
+  // A region is written down before its polities are. Until it has one it is
+  // scaffolding, and listing it here would put a count of nothing in front of
+  // a reader — a fact about the state of the collection, which hard rule 12
+  // keeps off the page.
+  const shown = regions.filter((r) => isPopulatedRegion(r.id))
+  const threaded = shown.filter((r) => r.thread)
+  const unthreaded = shown.filter((r) => !r.thread)
 
   // Every edge, not only the ones inside a thread: this is a tally of the
   // corpus, and a cross-region edge is as much a part of it as any other.

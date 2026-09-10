@@ -1,7 +1,13 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { formatSpan } from '@/lib/years'
-import { loadCorpus, politiesInRegion, getChapters, regionsByGroup } from '@/lib/content'
+import {
+  loadCorpus,
+  politiesInRegion,
+  getChapters,
+  regionsByGroup,
+  isPopulatedRegion,
+} from '@/lib/content'
 import { Page, Shell, PageHead } from '@/components/Shell'
 import { CrossCut, type CrossCutPolity } from '@/components/CrossCut'
 import { formatKm2, formatPopulation } from '@/lib/gaps'
@@ -13,12 +19,10 @@ export const metadata: Metadata = {
 
 export default function PolitiesIndex() {
   const { regions, narrative } = loadCorpus()
-  const isPopulated = (r: (typeof regions)[number]) =>
-    politiesInRegion(r.id).some((p) => !p.context_only)
   // One ordering for the nav and the sections below it. A contents list that
   // does not run in the order of the thing it indexes is worse than no
   // contents list.
-  const groups = regionsByGroup(isPopulated)
+  const groups = regionsByGroup((r) => isPopulatedRegion(r.id))
   const regionCount = groups.reduce((n, g) => n + g.regions.length, 0)
 
   // Only what the cross-cut actually reads. Passing whole polities across the

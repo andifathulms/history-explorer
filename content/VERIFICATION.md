@@ -12,7 +12,7 @@ Only the author, with the book open, can establish that.
 This file is that worklist, grouped by source so one sitting with one book
 clears one section. Everything below is **unverified until ticked.**
 
-**4370 claims across 220 sources.**
+**4821 claims across 328 sources.**
 
 ## Where to start
 
@@ -91,48 +91,60 @@ ordinary state, not an item to clear.
 
 ## Jamil M. Abun-Nasr, A History of the Maghrib in the Islamic Period
 
-`abun-nasr-1987` — 174 claims
+`abun-nasr-1987` — 186 claims
 
-**Sole source** for `hafsid`, `idrisid`, `marinid`, `wattasid`, `zayyanid`, `zirid` — nothing else in the corpus can contradict a misreading here.
+**Sole source** for `idrisid`, `zirid` — nothing else in the corpus can contradict a misreading here.
 
 - [ ] `chapter/aghlabid/01-a-province-for-rent.mdx` — prose: "A province, for tribute"
-- [ ] `chapter/aghlabid/02-kairouan.mdx` — prose: "What a hundred years of tribute paid for"
-- [ ] `chapter/aghlabid/03-sicily.mdx` — prose: "Seventy-five years for one island"
+- [ ] `chapter/aghlabid/02-sicily.mdx` — prose: "Seventy-five years for one island"
+- [ ] `chapter/aghlabid/03-kairouan.mdx` — prose: "What a hundred years of tribute paid for"
+- [ ] `chapter/aghlabid/04-the-tenth-decade.mdx` — prose: "The last emir"
 - [ ] `chapter/hafsid/01-the-governor-who-stayed.mdx` — prose: "Keeping the province when the doctrine went"
-- [ ] `chapter/hafsid/02-a-caliph-in-tunis.mdx` — prose: "A caliph in Tunis, for about a year"
-- [ ] `chapter/hafsid/03-ibn-khaldun.mdx` — prose: "The man who wrote the theory of this website"
-- [ ] `chapter/hafsid/04-a-prize-in-someone-elses-war.mdx` — prose: "A prize in somebody else's war"
-- [ ] `chapter/idrisid/01-fez.mdx` — prose: "A fugitive founds a city"
+- [ ] `chapter/hafsid/03-a-caliph-in-tunis.mdx` — prose: "A caliph in Tunis, for about a year"
+- [ ] `chapter/hafsid/04-ibn-khaldun.mdx` — prose: "Five months in a castle"
+- [ ] `chapter/hafsid/06-a-prize-in-someone-elses-war.mdx` — prose: "A prize in somebody else's war"
+- [ ] `chapter/idrisid/01-a-fugitive.mdx` — prose: "A fugitive founds a city"
 - [ ] `chapter/idrisid/02-fez.mdx` — prose: "Two banks of a river"
-- [ ] `chapter/idrisid/03-what-happened-to-the-pieces.mdx` — prose: "What happened to the pieces"
-- [ ] `chapter/idrisid/04-descent-as-a-claim.mdx` — prose: "Descent, used as a claim"
+- [ ] `chapter/idrisid/03-descent-as-a-claim.mdx` — prose: "Descent, used as a claim"
+- [ ] `chapter/idrisid/04-a-mosque-and-a-market.mdx` — prose: "A mosque and a market"
+- [ ] `chapter/idrisid/05-what-happened-to-the-pieces.mdx` — prose: "What happened to the pieces"
+- [ ] `chapter/idrisid/06-974.mdx` — prose: "974"
+- [ ] `chapter/idrisid/07-the-tomb.mdx` — prose: "The tomb"
 - [ ] `chapter/marinid/01-a-dynasty-without-a-doctrine.mdx` — prose: "A dynasty without a doctrine"
-- [ ] `chapter/marinid/02-what-they-built-instead.mdx` — prose: "What they built instead"
-- [ ] `chapter/marinid/03-the-book-they-paid-for.mdx` — prose: "The book they paid a secretary for"
-- [ ] `chapter/marinid/04-one-year-of-the-whole-maghreb.mdx` — prose: "One year of the whole Maghreb"
+- [ ] `chapter/marinid/03-what-they-built-instead.mdx` — prose: "What they built instead"
+- [ ] `chapter/marinid/04-the-book-they-paid-for.mdx` — prose: "The book they paid a secretary for"
+- [ ] `chapter/marinid/05-one-year-of-the-whole-maghreb.mdx` — prose: "One year of the whole Maghreb"
 - [ ] `chapter/midrarid/01-the-northern-end.mdx` — prose: "The northern end of the road"
 - [ ] `chapter/midrarid/02-salt-for-gold.mdx` — prose: "Salt for gold"
-- [ ] `chapter/midrarid/04-what-is-left-of-it.mdx` — prose: "What is left of it"
+- [ ] `chapter/midrarid/03-the-dinar.mdx` — prose: "The dinar"
+- [ ] `chapter/midrarid/05-the-hundred-year-fight.mdx` — prose: "A hundred years of being fought over"
+- [ ] `chapter/midrarid/06-976.mdx` — prose: "976"
+- [ ] `chapter/midrarid/07-what-is-left-of-it.mdx` — prose: "What is left of it"
 - [ ] `chapter/rustamid/01-tahert.mdx` — prose: "An elected imamate"
-- [ ] `chapter/rustamid/02-an-argument-that-stayed-open.mdx` — prose: "An argument that stayed open"
-- [ ] `chapter/rustamid/03-the-trade.mdx` — prose: "Doctrine along the caravan routes"
-- [ ] `chapter/rustamid/04-into-the-desert.mdx` — prose: "Into the desert"
+- [ ] `chapter/rustamid/02-a-town-for-people-who-had-lost.mdx` — prose: "A town for people who had lost"
+- [ ] `chapter/rustamid/03-an-argument-that-stayed-open.mdx` — prose: "An argument that stayed open"
+- [ ] `chapter/rustamid/04-the-trade.mdx` — prose: "Doctrine along the caravan routes"
+- [ ] `chapter/rustamid/05-909.mdx` — prose: "909"
+- [ ] `chapter/rustamid/06-into-the-desert.mdx` — prose: "Into the desert"
 - [ ] `chapter/saadi/01-a-better-claim.mdx` — prose: "A better claim"
-- [ ] `chapter/saadi/02-three-kings.mdx` — prose: "Three kings in an afternoon"
-- [ ] `chapter/saadi/04-what-came-after-the-gold.mdx` — prose: "What came after"
+- [ ] `chapter/saadi/03-three-kings.mdx` — prose: "Three kings in an afternoon"
+- [ ] `chapter/saadi/06-what-came-after-the-gold.mdx` — prose: "What came after"
 - [ ] `chapter/umayyad/07-the-berber-revolt.mdx` — prose: "Where it broke first"
 - [ ] `chapter/wattasid/01-the-regents.mdx` — prose: "The regents who stopped pretending"
-- [ ] `chapter/wattasid/02-the-city-that-filled-up.mdx` — prose: "The city that filled up"
-- [ ] `chapter/wattasid/03-the-envoy-who-ended-up-in-rome.mdx` — prose: "The envoy who ended up in Rome"
-- [ ] `chapter/wattasid/04-out-of-fez.mdx` — prose: "Squeezed out of the middle"
+- [ ] `chapter/wattasid/03-the-city-that-filled-up.mdx` — prose: "The city that filled up"
+- [ ] `chapter/wattasid/04-the-envoy-who-ended-up-in-rome.mdx` — prose: "The envoy who ended up in Rome"
+- [ ] `chapter/wattasid/06-out-of-fez.mdx` — prose: "Squeezed out of the middle"
 - [ ] `chapter/zayyanid/01-the-crossroads.mdx` — prose: "The crossroads"
-- [ ] `chapter/zayyanid/02-a-city-built-to-take-a-city.mdx` — prose: "A city built to take a city"
-- [ ] `chapter/zayyanid/03-the-funduk.mdx` — prose: "Where the gold changed hands"
-- [ ] `chapter/zayyanid/04-between-two-empires.mdx` — prose: "Between two empires, again"
+- [ ] `chapter/zayyanid/03-a-city-built-to-take-a-city.mdx` — prose: "A city built to take a city"
+- [ ] `chapter/zayyanid/04-the-funduk.mdx` — prose: "Where the gold changed hands"
+- [ ] `chapter/zayyanid/06-between-two-empires.mdx` — prose: "Between two empires, again"
 - [ ] `chapter/zirid/01-left-behind.mdx` — prose: "Left behind"
-- [ ] `chapter/zirid/02-the-answer-was-a-migration.mdx` — prose: "The answer was a migration"
-- [ ] `chapter/zirid/03-the-mountain-capital.mdx` — prose: "The other half, in the mountains"
-- [ ] `chapter/zirid/04-a-port-instead-of-a-province.mdx` — prose: "A port instead of a province"
+- [ ] `chapter/zirid/02-viceroys-of-the-west.mdx` — prose: "Viceroys of the west"
+- [ ] `chapter/zirid/03-the-name-in-the-sermon.mdx` — prose: "The name in the sermon"
+- [ ] `chapter/zirid/04-the-answer-was-a-migration.mdx` — prose: "The answer was a migration"
+- [ ] `chapter/zirid/05-the-mountain-capital.mdx` — prose: "The other half, in the mountains"
+- [ ] `chapter/zirid/06-a-port-instead-of-a-province.mdx` — prose: "A port instead of a province"
+- [ ] `chapter/zirid/07-arabic-in-the-countryside.mdx` — prose: "Arabic in the countryside"
 - [ ] `edge/abbasid->aghlabid` — vassal of in 800
 - [ ] `edge/almohad->hafsid` — seceded from in 1229
 - [ ] `edge/almohad->marinid` — overthrew in 1269
@@ -280,13 +292,13 @@ ordinary state, not an item to clear.
 - [ ] `chapter/shirvanshah/04-baku.mdx` — prose: "Baku"
 - [ ] `chapter/tahirid-yemen/01-picking-up-the-state.mdx` — prose: "Picking up the state"
 - [ ] `chapter/ziyadid/01-a-governor-who-stayed.mdx` — prose: "A governor who stayed"
-- [ ] `chapter/ziyadid/04-1018.mdx` — prose: "The house ends without falling"
 - [ ] `edge/abbasid->ziyadid` — vassal of in 819
 - [ ] `edge/artuqid->karakoyunlu` — conquered by in 1409
 - [ ] `edge/great-seljuk->artuqid` — seceded from in 1102
 - [ ] `edge/kakuyid->great-seljuk` — conquered by in 1051
 - [ ] `edge/karakoyunlu->akkoyunlu` — conquered by in 1468
 - [ ] `edge/rasulid->tahirid-yemen` — absorbed remnants of in 1454
+- [ ] `edge/sasanian->bavandid` — absorbed remnants of in 651
 - [ ] `edge/sulayhid->zurayid` — partitioned from in 1080
 - [ ] `edge/tahirid->samanid` — vassal of in 819
 - [ ] `edge/ziyadid->najahid` — slave-general of in 1022
@@ -414,33 +426,29 @@ ordinary state, not an item to clear.
 
 ## M. C. Ricklefs, A History of Modern Indonesia since c.1200
 
-`ricklefs-2008` — 114 claims
-
-**Sole source** for `banten`, `demak`, `mataram`, `pajang` — nothing else in the corpus can contradict a misreading here.
+`ricklefs-2008` — 112 claims
 
 - [ ] `chapter/banten/01-the-port-that-is-jakarta.mdx` — prose: "The port that is Jakarta"
-- [ ] `chapter/banten/02-1638.mdx` — prose: "1638"
-- [ ] `chapter/banten/03-ageng.mdx` — prose: "Ageng"
-- [ ] `chapter/banten/04-the-chinese-of-banten.mdx` — prose: "The Chinese of Banten"
-- [ ] `chapter/banten/05-father-and-son.mdx` — prose: "Father and son"
-- [ ] `chapter/demak/01-the-coast-takes-the-interior.mdx` — prose: "The coast takes the interior"
-- [ ] `chapter/demak/02-1513.mdx` — prose: "1513"
-- [ ] `chapter/demak/03-the-mosque.mdx` — prose: "The mosque"
-- [ ] `chapter/demak/04-pati-unus.mdx` — prose: "Pati Unus"
-- [ ] `chapter/demak/05-1546.mdx` — prose: "1546"
+- [ ] `chapter/banten/04-1638.mdx` — prose: "1638"
+- [ ] `chapter/banten/05-ageng.mdx` — prose: "Ageng"
+- [ ] `chapter/banten/06-the-chinese-of-banten.mdx` — prose: "The Chinese of Banten"
+- [ ] `chapter/banten/07-father-and-son.mdx` — prose: "Father and son"
+- [ ] `chapter/demak/02-the-coast-takes-the-interior.mdx` — prose: "The coast takes the interior"
+- [ ] `chapter/demak/03-1513.mdx` — prose: "1513"
+- [ ] `chapter/demak/04-the-mosque.mdx` — prose: "The mosque"
+- [ ] `chapter/demak/05-pati-unus.mdx` — prose: "Pati Unus"
+- [ ] `chapter/demak/07-1546.mdx` — prose: "1546"
 - [ ] `chapter/majapahit/05-the-paregreg.mdx` — prose: "The Paregreg"
 - [ ] `chapter/majapahit/06-1527.mdx` — prose: "1527"
-- [ ] `chapter/mataram/01-the-name-again.mdx` — prose: "The name again"
-- [ ] `chapter/mataram/02-batavia.mdx` — prose: "Batavia"
-- [ ] `chapter/mataram/03-1677.mdx` — prose: "1677"
-- [ ] `chapter/mataram/04-giyanti.mdx` — prose: "Giyanti"
+- [ ] `chapter/mataram/03-batavia.mdx` — prose: "Batavia"
+- [ ] `chapter/mataram/04-1677.mdx` — prose: "1677"
+- [ ] `chapter/mataram/05-giyanti.mdx` — prose: "Giyanti"
 - [ ] `chapter/medang/03-the-plain-they-left.mdx` — prose: "The plain they left"
 - [ ] `chapter/pajang/01-eighteen-years.mdx` — prose: "Eighteen years"
-- [ ] `chapter/pajang/02-the-chain.mdx` — prose: "The chain"
-- [ ] `chapter/pajang/03-jaka-tingkir.mdx` — prose: "Jaka Tingkir"
+- [ ] `chapter/pajang/02-jaka-tingkir.mdx` — prose: "Jaka Tingkir"
 - [ ] `chapter/pasai/01-where-the-chain-starts.mdx` — prose: "Where the chain starts"
-- [ ] `chapter/pasai/03-the-gravestones.mdx` — prose: "The gravestones"
-- [ ] `chapter/pasai/04-the-succession-that-was-not-recorded.mdx` — prose: "The succession that was not recorded"
+- [ ] `chapter/pasai/04-the-gravestones.mdx` — prose: "The gravestones"
+- [ ] `chapter/pasai/05-the-succession-that-was-not-recorded.mdx` — prose: "The succession that was not recorded"
 - [ ] `chapter/sunda/04-two-bad-bargains.mdx` — prose: "Two bad bargains"
 - [ ] `chapter/sunda/05-what-is-remembered.mdx` — prose: "What is remembered"
 - [ ] `edge/demak->banten` — seceded from in 1552
@@ -482,7 +490,7 @@ ordinary state, not an item to clear.
 - [ ] `polity/demak` — ended by dynastic replacement in 1554
 - [ ] `polity/majapahit` — turning point 1404 The Paregreg
 - [ ] `polity/majapahit` — turning point 1478 Trowulan (contested)
-- [ ] `polity/majapahit` — successor_claims = 2 (demak, gelgel)
+- [ ] `polity/majapahit` — successor_claims = 2 (The Sultanate of Demak, The Kingdom of Gelgel)
 - [ ] `polity/mataram` — span starts 1587
 - [ ] `polity/mataram` — span ends 1755
 - [ ] `polity/mataram` — capital Kota Gede from 1587
@@ -516,7 +524,7 @@ ordinary state, not an item to clear.
 - [ ] `polity/pajang` — turning point 1586 Senapati
 - [ ] `polity/pajang` — descendant_scripts = 0
 - [ ] `polity/pajang` — religions_carried = 0
-- [ ] `polity/pajang` — successor_claims = 1 (mataram)
+- [ ] `polity/pajang` — successor_claims = 1 (The Sultanate of Mataram)
 - [ ] `polity/pajang` — ended by conquest in 1586
 - [ ] `polity/pasai` — span starts 1267
 - [ ] `polity/pasai` — capital Pasai from 1267
@@ -533,115 +541,32 @@ ordinary state, not an item to clear.
 - [ ] `polity/sunda` — successor_claims = 0
 - [ ] `polity/sunda` — ended by conquest in 1579
 
-## Kenneth R. Hall, A History of Early Southeast Asia: Maritime Trade and Societal Development, 100-1500
-
-`hall-2011` — 84 claims
-
-**Sole source** for `second-kediri` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/kediri/04-what-the-inscriptions-are.mdx` — prose: "What the inscriptions are"
-- [ ] `chapter/kediri/05-ganter.mdx` — prose: "Ganter"
-- [ ] `chapter/majapahit/01-the-mongols.mdx` — prose: "The Mongols come and go"
-- [ ] `chapter/majapahit/02-rice-and-sea.mdx` — prose: "Rice and sea"
-- [ ] `chapter/majapahit/03-the-archipelago.mdx` — prose: "The other thalassocracy"
-- [ ] `chapter/majapahit/04-the-poem.mdx` — prose: "A list of dependencies"
-- [ ] `chapter/melaka/02-nanjing.mdx` — prose: "Nanjing"
-- [ ] `chapter/second-kediri/01-twelve-months.mdx` — prose: "Twelve months"
-- [ ] `chapter/second-kediri/02-the-fleet-he-did-not-send-for.mdx` — prose: "The fleet he did not send for"
-- [ ] `chapter/second-kediri/03-why-this-is-a-page.mdx` — prose: "Why this is a page and not a paragraph"
-- [ ] `chapter/singhasari/02-ganter.mdx` — prose: "Ganter"
-- [ ] `chapter/singhasari/03-the-pamalayu.mdx` — prose: "The Pamalayu"
-- [ ] `chapter/singhasari/04-the-mongol-envoy.mdx` — prose: "The Mongol envoy"
-- [ ] `chapter/singhasari/05-jayakatwang.mdx` — prose: "Jayakatwang"
-- [ ] `chapter/srivijaya/01-power-over-a-passage.mdx` — prose: "Power over a passage"
-- [ ] `chapter/srivijaya/02-siddhayatra.mdx` — prose: "Siddhayatra"
-- [ ] `chapter/srivijaya/03-a-thousand-monks.mdx` — prose: "A thousand monks"
-- [ ] `chapter/srivijaya/04-the-inscriptions.mdx` — prose: "Curses in stone"
-- [ ] `chapter/srivijaya/06-a-kingdom-nobody-remembered.mdx` — prose: "A kingdom nobody remembered"
-- [ ] `edge/kediri->singhasari` — conquered by in 1222
-- [ ] `edge/second-kediri->majapahit` — conquered by in 1293
-- [ ] `edge/singhasari->second-kediri` — overthrew in 1292
-- [ ] `edge/srivijaya->singhasari` — conquered by in 1275
-- [ ] `polity/kediri` — military basis coded conscript
-- [ ] `polity/kediri` — revenue basis coded land-tax
-- [ ] `polity/kediri` — turning point 1222 Ganter
-- [ ] `polity/kediri` — ended by conquest in 1222
-- [ ] `polity/majapahit` — span starts 1293
-- [ ] `polity/majapahit` — span ends 1527
-- [ ] `polity/majapahit` — capital Trowulan from 1293
-- [ ] `polity/majapahit` — founder Raden Wijaya r. 1293-1309
-- [ ] `polity/majapahit` — peak Hayam Wuruk r. 1350-1389
-- [ ] `polity/majapahit` — last Girindrawardhana r. 1478-1527
-- [ ] `polity/majapahit` — military basis coded conscript + client-levy
-- [ ] `polity/majapahit` — revenue basis coded land-tax + trade-toll + tribute
-- [ ] `polity/majapahit` — turning point 1293 The Mongols come and go
-- [ ] `polity/majapahit` — descendant_scripts = 0
-- [ ] `polity/majapahit` — religions_carried = 1 (Hindu-Buddhist Javanese tradition)
-- [ ] `polity/majapahit` — ended by gradual absorption in 1527
-- [ ] `polity/melaka` — span starts 1400
-- [ ] `polity/melaka` — capital Melaka from 1400
-- [ ] `polity/melaka` — founder Parameswara r. 1400-1414
-- [ ] `polity/melaka` — military basis coded client-levy
-- [ ] `polity/melaka` — legitimation coded descent + investiture
-- [ ] `polity/melaka` — turning point 1411 Nanjing
-- [ ] `polity/second-kediri` — span starts 1292
-- [ ] `polity/second-kediri` — span ends 1293
-- [ ] `polity/second-kediri` — capital Daha from 1292
-- [ ] `polity/second-kediri` — founder Jayakatwang r. 1292-1293
-- [ ] `polity/second-kediri` — peak Jayakatwang r. 1292-1293
-- [ ] `polity/second-kediri` — last Jayakatwang r. 1292-1293
-- [ ] `polity/second-kediri` — legitimation coded descent
-- [ ] `polity/second-kediri` — turning point 1292 The vassal
-- [ ] `polity/second-kediri` — turning point 1293 The fleet he did not send for
-- [ ] `polity/second-kediri` — descendant_scripts = 0
-- [ ] `polity/second-kediri` — religions_carried = 0
-- [ ] `polity/second-kediri` — successor_claims = 0
-- [ ] `polity/second-kediri` — ended by conquest in 1293
-- [ ] `polity/singhasari` — span starts 1222
-- [ ] `polity/singhasari` — span ends 1292
-- [ ] `polity/singhasari` — capital Singhasari from 1222
-- [ ] `polity/singhasari` — founder Ken Arok r. 1222-1227
-- [ ] `polity/singhasari` — peak Kertanegara r. 1268-1292
-- [ ] `polity/singhasari` — last Kertanegara r. 1268-1292
-- [ ] `polity/singhasari` — military basis coded conscript
-- [ ] `polity/singhasari` — revenue basis coded land-tax + trade-toll
-- [ ] `polity/singhasari` — turning point 1222 Ganter (contested)
-- [ ] `polity/singhasari` — turning point 1275 The Pamalayu
-- [ ] `polity/singhasari` — turning point 1292 Jayakatwang
-- [ ] `polity/singhasari` — descendant_scripts = 0
-- [ ] `polity/singhasari` — religions_carried = 0
-- [ ] `polity/singhasari` — ended by internal usurpation in 1292
-- [ ] `polity/srivijaya` — span starts 671
-- [ ] `polity/srivijaya` — span ends 1275
-- [ ] `polity/srivijaya` — capital Palembang from 671
-- [ ] `polity/srivijaya` — founder Dapunta Hyang Sri Jayanasa r. 671-702
-- [ ] `polity/srivijaya` — peak Balaputradewa r. 835-860
-- [ ] `polity/srivijaya` — military basis coded client-levy
-- [ ] `polity/srivijaya` — revenue basis coded trade-toll
-- [ ] `polity/srivijaya` — legitimation coded divine-sanction
-- [ ] `polity/srivijaya` — turning point 1079 Jambi (contested)
-- [ ] `polity/srivijaya` — turning point 1275 Pamalayu
-- [ ] `polity/srivijaya` — religions_carried = 1 (Mahayana Buddhism)
-- [ ] `polity/srivijaya` — ended by gradual absorption in 1275
-
 ## George Coedes, edited by Walter F. Vella, translated by Susan Brown Cowing, The Indianized States of Southeast Asia
 
-`coedes-1968` — 81 claims
+`coedes-1968` — 89 claims
 
 - [ ] `chapter/angkor/03-the-chams-in-the-city.mdx` — prose: "The Chams in the city"
 - [ ] `chapter/angkor/04-the-thai-script.mdx` — prose: "The Thai script"
-- [ ] `chapter/angkor/05-1431.mdx` — prose: "1431"
+- [ ] `chapter/angkor/05-the-water-that-stopped.mdx` — prose: "The water that stopped"
+- [ ] `chapter/angkor/06-1431.mdx` — prose: "1431"
+- [ ] `chapter/angkor/07-the-temples-and-the-flag.mdx` — prose: "The temples, and the flag"
 - [ ] `chapter/champa/01-the-oldest-and-the-least-like-a-kingdom.mdx` — prose: "The oldest, and the least like a kingdom"
-- [ ] `chapter/champa/02-1177.mdx` — prose: "1177"
-- [ ] `chapter/champa/03-1471.mdx` — prose: "1471"
+- [ ] `chapter/champa/02-a-string-of-river-mouths.mdx` — prose: "A string of river mouths"
+- [ ] `chapter/champa/03-1177.mdx` — prose: "1177"
+- [ ] `chapter/champa/04-the-long-retreat.mdx` — prose: "The long retreat"
+- [ ] `chapter/champa/05-1471.mdx` — prose: "1471"
+- [ ] `chapter/champa/06-panduranga.mdx` — prose: "Panduranga"
 - [ ] `chapter/gelgel/01-what-crossed-the-strait.mdx` — prose: "What crossed the strait"
 - [ ] `chapter/gelgel/02-waturenggong.mdx` — prose: "Waturenggong"
 - [ ] `chapter/kediri/01-the-division.mdx` — prose: "The division"
-- [ ] `chapter/kediri/02-the-field-that-is-missing.mdx` — prose: "The field that is missing"
-- [ ] `chapter/kediri/03-jayabhayas-prophecy.mdx` — prose: "Jayabhaya's prophecy"
+- [ ] `chapter/kediri/02-the-bharatayuddha.mdx` — prose: "The Bharatayuddha"
+- [ ] `chapter/kediri/05-jayabhayas-prophecy.mdx` — prose: "Jayabhaya's prophecy"
+- [ ] `chapter/majapahit/07-what-bali-kept.mdx` — prose: "What Bali kept"
 - [ ] `chapter/medang/01-two-monuments.mdx` — prose: "Two monuments"
 - [ ] `chapter/medang/02-balaputra.mdx` — prose: "Balaputra"
-- [ ] `chapter/medang/04-the-edge-not-drawn.mdx` — prose: "The edge not drawn"
+- [ ] `chapter/medang/04-pralaya.mdx` — prose: "Pralaya"
+- [ ] `chapter/singhasari/06-sivabuddha.mdx` — prose: "Sivabuddha"
+- [ ] `chapter/srivijaya/07-a-kingdom-nobody-remembered.mdx` — prose: "A kingdom nobody remembered"
 - [ ] `chapter/sunda/01-the-kingdom-that-lasted-longest.mdx` — prose: "The kingdom that lasted longest"
 - [ ] `chapter/sunda/02-the-oldest-writing-on-java.mdx` — prose: "The oldest writing on Java"
 - [ ] `chapter/sunda/03-sri-baduga.mdx` — prose: "Sri Baduga"
@@ -710,30 +635,123 @@ ordinary state, not an item to clear.
 - [ ] `polity/sunda` — descendant_scripts = 0
 - [ ] `polity/sunda` — religions_carried = 0
 
+## Kenneth R. Hall, A History of Early Southeast Asia: Maritime Trade and Societal Development, 100-1500
+
+`hall-2011` — 83 claims
+
+**Sole source** for `second-kediri` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/kediri/03-what-the-inscriptions-are.mdx` — prose: "What the inscriptions are"
+- [ ] `chapter/kediri/04-ganter.mdx` — prose: "Ganter"
+- [ ] `chapter/majapahit/01-the-mongols.mdx` — prose: "The Mongols come and go"
+- [ ] `chapter/majapahit/02-rice-and-sea.mdx` — prose: "Rice and sea"
+- [ ] `chapter/majapahit/03-the-archipelago.mdx` — prose: "The other thalassocracy"
+- [ ] `chapter/majapahit/04-the-poem.mdx` — prose: "A list of dependencies"
+- [ ] `chapter/melaka/02-nanjing.mdx` — prose: "Nanjing"
+- [ ] `chapter/second-kediri/01-twelve-months.mdx` — prose: "Twelve months"
+- [ ] `chapter/second-kediri/02-the-fleet-he-did-not-send-for.mdx` — prose: "The fleet he did not send for"
+- [ ] `chapter/singhasari/02-ganter.mdx` — prose: "Ganter"
+- [ ] `chapter/singhasari/03-the-pamalayu.mdx` — prose: "The Pamalayu"
+- [ ] `chapter/singhasari/04-the-mongol-envoy.mdx` — prose: "The Mongol envoy"
+- [ ] `chapter/singhasari/05-jayakatwang.mdx` — prose: "Jayakatwang"
+- [ ] `chapter/srivijaya/01-power-over-a-passage.mdx` — prose: "Power over a passage"
+- [ ] `chapter/srivijaya/02-siddhayatra.mdx` — prose: "Siddhayatra"
+- [ ] `chapter/srivijaya/03-a-thousand-monks.mdx` — prose: "A thousand monks"
+- [ ] `chapter/srivijaya/04-the-inscriptions.mdx` — prose: "Curses in stone"
+- [ ] `chapter/srivijaya/06-the-position-outlives-the-polity.mdx` — prose: "The position outlives the polity"
+- [ ] `edge/kediri->singhasari` — conquered by in 1222
+- [ ] `edge/second-kediri->majapahit` — conquered by in 1293
+- [ ] `edge/singhasari->second-kediri` — overthrew in 1292
+- [ ] `edge/srivijaya->singhasari` — conquered by in 1275
+- [ ] `polity/kediri` — military basis coded conscript
+- [ ] `polity/kediri` — revenue basis coded land-tax
+- [ ] `polity/kediri` — turning point 1222 Ganter
+- [ ] `polity/kediri` — ended by conquest in 1222
+- [ ] `polity/majapahit` — span starts 1293
+- [ ] `polity/majapahit` — span ends 1527
+- [ ] `polity/majapahit` — capital Trowulan from 1293
+- [ ] `polity/majapahit` — founder Raden Wijaya r. 1293-1309
+- [ ] `polity/majapahit` — peak Hayam Wuruk r. 1350-1389
+- [ ] `polity/majapahit` — last Girindrawardhana r. 1478-1527
+- [ ] `polity/majapahit` — military basis coded conscript + client-levy
+- [ ] `polity/majapahit` — revenue basis coded land-tax + trade-toll + tribute
+- [ ] `polity/majapahit` — turning point 1293 The Mongols come and go
+- [ ] `polity/majapahit` — descendant_scripts = 0
+- [ ] `polity/majapahit` — religions_carried = 1 (Hindu-Buddhist Javanese tradition)
+- [ ] `polity/majapahit` — ended by gradual absorption in 1527
+- [ ] `polity/melaka` — span starts 1400
+- [ ] `polity/melaka` — capital Melaka from 1400
+- [ ] `polity/melaka` — founder Parameswara r. 1400-1414
+- [ ] `polity/melaka` — military basis coded client-levy
+- [ ] `polity/melaka` — legitimation coded descent + investiture
+- [ ] `polity/melaka` — turning point 1411 Nanjing
+- [ ] `polity/second-kediri` — span starts 1292
+- [ ] `polity/second-kediri` — span ends 1293
+- [ ] `polity/second-kediri` — capital Daha from 1292
+- [ ] `polity/second-kediri` — founder Jayakatwang r. 1292-1293
+- [ ] `polity/second-kediri` — peak Jayakatwang r. 1292-1293
+- [ ] `polity/second-kediri` — last Jayakatwang r. 1292-1293
+- [ ] `polity/second-kediri` — legitimation coded descent
+- [ ] `polity/second-kediri` — turning point 1292 The vassal
+- [ ] `polity/second-kediri` — turning point 1293 The fleet he did not send for
+- [ ] `polity/second-kediri` — descendant_scripts = 0
+- [ ] `polity/second-kediri` — religions_carried = 0
+- [ ] `polity/second-kediri` — successor_claims = 0
+- [ ] `polity/second-kediri` — ended by conquest in 1293
+- [ ] `polity/singhasari` — span starts 1222
+- [ ] `polity/singhasari` — span ends 1292
+- [ ] `polity/singhasari` — capital Singhasari from 1222
+- [ ] `polity/singhasari` — founder Ken Arok r. 1222-1227
+- [ ] `polity/singhasari` — peak Kertanegara r. 1268-1292
+- [ ] `polity/singhasari` — last Kertanegara r. 1268-1292
+- [ ] `polity/singhasari` — military basis coded conscript
+- [ ] `polity/singhasari` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/singhasari` — turning point 1222 Ganter (contested)
+- [ ] `polity/singhasari` — turning point 1275 The Pamalayu
+- [ ] `polity/singhasari` — turning point 1292 Jayakatwang
+- [ ] `polity/singhasari` — descendant_scripts = 0
+- [ ] `polity/singhasari` — religions_carried = 0
+- [ ] `polity/singhasari` — ended by internal usurpation in 1292
+- [ ] `polity/srivijaya` — span starts 671
+- [ ] `polity/srivijaya` — span ends 1275
+- [ ] `polity/srivijaya` — capital Palembang from 671
+- [ ] `polity/srivijaya` — founder Dapunta Hyang Sri Jayanasa r. 671-702
+- [ ] `polity/srivijaya` — peak Balaputradewa r. 835-860
+- [ ] `polity/srivijaya` — military basis coded client-levy
+- [ ] `polity/srivijaya` — revenue basis coded trade-toll
+- [ ] `polity/srivijaya` — legitimation coded divine-sanction
+- [ ] `polity/srivijaya` — turning point 1079 Jambi (contested)
+- [ ] `polity/srivijaya` — turning point 1275 Pamalayu
+- [ ] `polity/srivijaya` — religions_carried = 1 (Mahayana Buddhism)
+- [ ] `polity/srivijaya` — ended by gradual absorption in 1275
+
 ## A. C. S. Peacock and Sara Nur Yildiz (eds), The Seljuks of Anatolia: Court and Society in the Medieval Middle East
 
-`peacock-yildiz-2013` — 73 claims
-
-**Sole source** for `danishmendid`, `rum` — nothing else in the corpus can contradict a misreading here.
+`peacock-yildiz-2013` — 80 claims
 
 - [ ] `chapter/aydinid/01-the-beylik-that-took-to-ships.mdx` — prose: "The beylik that took to ships"
-- [ ] `chapter/aydinid/02-a-mosque-out-of-ephesus.mdx` — prose: "A mosque out of Ephesus"
-- [ ] `chapter/aydinid/03-smyrna.mdx` — prose: "What happens when the harbour is taken"
+- [ ] `chapter/aydinid/03-umur.mdx` — prose: "A most excellent prince"
+- [ ] `chapter/aydinid/04-a-mosque-out-of-ephesus.mdx` — prose: "A mosque out of Ephesus"
+- [ ] `chapter/aydinid/05-smyrna.mdx` — prose: "What happens when the harbour is taken"
+- [ ] `chapter/aydinid/06-cuneyd.mdx` — prose: "Cüneyd"
+- [ ] `chapter/aydinid/07-the-silt.mdx` — prose: "The silt"
 - [ ] `chapter/cilician-armenia/01-armenia-somewhere-else.mdx` — prose: "Armenia, six hundred miles away"
 - [ ] `chapter/cilician-armenia/02-the-crown-and-the-church.mdx` — prose: "The crown and the church"
-- [ ] `chapter/cilician-armenia/03-what-cilicia-made.mdx` — prose: "What was made at Sis and Hromkla"
+- [ ] `chapter/cilician-armenia/04-what-cilicia-made.mdx` — prose: "What was made at Sis and Hromkla"
 - [ ] `chapter/danishmendid/01-the-other-turkish-state.mdx` — prose: "The other Turkish state"
-- [ ] `chapter/danishmendid/02-emir-gazi.mdx` — prose: "The insignia from Baghdad"
-- [ ] `chapter/danishmendid/03-the-coins.mdx` — prose: "Saint George on a Muslim coin"
-- [ ] `chapter/danishmendid/04-taken-in-pieces.mdx` — prose: "Taken in pieces"
+- [ ] `chapter/danishmendid/03-emir-gazi.mdx` — prose: "The insignia from Baghdad"
+- [ ] `chapter/danishmendid/04-the-coins.mdx` — prose: "Saint George on a Muslim coin"
+- [ ] `chapter/danishmendid/05-two-branches.mdx` — prose: "Two branches"
+- [ ] `chapter/danishmendid/06-1178.mdx` — prose: "1178"
 - [ ] `chapter/karamanid/01-out-of-the-mountains.mdx` — prose: "Out of the mountains"
 - [ ] `chapter/karamanid/02-the-claim-and-the-decree.mdx` — prose: "The claim, and the decree that may not have happened"
-- [ ] `chapter/karamanid/03-holding-konya.mdx` — prose: "What holding Konya was worth"
+- [ ] `chapter/karamanid/04-holding-konya.mdx` — prose: "What holding Konya was worth"
 - [ ] `chapter/rum/01-anatolia.mdx` — prose: "A branch that outlasted the trunk"
-- [ ] `chapter/rum/02-kayqubad.mdx` — prose: "The forty years it worked"
-- [ ] `chapter/rum/03-the-caravanserais.mdx` — prose: "A day's march apart"
-- [ ] `chapter/rum/04-kosedag.mdx` — prose: "Kösedağ"
-- [ ] `chapter/rum/05-konya.mdx` — prose: "What was written at Konya"
+- [ ] `chapter/rum/02-two-seas.mdx` — prose: "Two seas"
+- [ ] `chapter/rum/03-kayqubad.mdx` — prose: "The forty years it worked"
+- [ ] `chapter/rum/04-the-caravanserais.mdx` — prose: "A day's march apart"
+- [ ] `chapter/rum/05-kosedag.mdx` — prose: "Kösedağ"
+- [ ] `chapter/rum/06-1308.mdx` — prose: "1308"
 - [ ] `edge/danishmendid->rum` — conquered by in 1178
 - [ ] `edge/great-seljuk->rum` — partitioned from in 1077
 - [ ] `edge/rum->aydinid` — absorbed remnants of in 1308
@@ -786,22 +804,94 @@ ordinary state, not an item to clear.
 - [ ] `polity/rum` — military basis coded tribal-levy + slave-soldier
 - [ ] `polity/rum` — revenue basis coded land-tax + trade-toll
 - [ ] `polity/rum` — legitimation coded descent
+- [ ] `polity/rum` — turning point 1221 Alanya
 - [ ] `polity/rum` — turning point 1243 Kosedag
+- [ ] `polity/rum` — turning point 1277 Karaman takes Konya (contested)
 - [ ] `polity/rum` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/rum` — ended by gradual absorption in 1308
+
+## Farhad Daftary, The Isma'ilis: Their History and Doctrines
+
+`daftary-2007` — 67 claims
+
+- [ ] `chapter/najahid/03-the-war-with-the-highlands.mdx` — prose: "Seven years on an island"
+- [ ] `chapter/nizari/01-alamut.mdx` — prose: "A state with no middle"
+- [ ] `chapter/nizari/02-the-qiyama.mdx` — prose: "The day the law was abolished"
+- [ ] `chapter/nizari/05-after-alamut.mdx` — prose: "After the fortresses"
+- [ ] `chapter/nizari/06-the-legend.mdx` — prose: "The garden that was not there"
+- [ ] `chapter/qarmatian/01-the-other-ismailis.mdx` — prose: "The Isma'ilis who said no to the Fatimids"
+- [ ] `chapter/qarmatian/02-the-gulf-power.mdx` — prose: "Taking tribute from both caliphs"
+- [ ] `chapter/qarmatian/03-the-black-stone.mdx` — prose: "Twenty-two years in al-Hasa"
+- [ ] `chapter/qarmatian/04-the-mahdi-who-was-not.mdx` — prose: "Eighty days"
+- [ ] `chapter/sulayhid/01-the-mission-makes-a-state.mdx` — prose: "What the mission produced"
+- [ ] `chapter/sulayhid/02-mecca.mdx` — prose: "A Fatimid client in the holy cities"
+- [ ] `chapter/sulayhid/05-arwa.mdx` — prose: "Fifty years, from Jibla"
+- [ ] `chapter/sulayhid/07-the-hujja.mdx` — prose: "Two women, and what the ruler fields cannot show"
+- [ ] `chapter/sulayhid/08-tayyibi.mdx` — prose: "What she detached from Cairo"
+- [ ] `chapter/zurayid/05-hafizi.mdx` — prose: "The branch that lost"
+- [ ] `edge/abbasid->qarmatian` — seceded from in 899
+- [ ] `edge/fatimid->nizari` — partitioned from in 1094
+- [ ] `edge/fatimid->sulayhid` — vassal of in 1047
+- [ ] `edge/great-seljuk->nizari` — seceded from in 1090
+- [ ] `edge/qarmatian->fatimid` — claimed legitimacy of in 909
+- [ ] `polity/najahid` — peak Sa'id al-Ahwal
+- [ ] `polity/najahid` — turning point 1060 The loss of Zabid
+- [ ] `polity/najahid` — turning point 1067 The ambush on the pilgrim road (contested)
+- [ ] `polity/nizari` — span starts 1090
+- [ ] `polity/nizari` — span ends 1256
+- [ ] `polity/nizari` — capital Alamut from 1090
+- [ ] `polity/nizari` — founder Hasan-i Sabbah r. 1090-1124
+- [ ] `polity/nizari` — peak Hasan II r. 1162-1166
+- [ ] `polity/nizari` — last Rukn al-Din Khurshah r. 1255-1256
+- [ ] `polity/nizari` — revenue basis coded land-tax
+- [ ] `polity/nizari` — succession rule coded nomination
+- [ ] `polity/nizari` — legitimation coded descent + divine-sanction
+- [ ] `polity/nizari` — turning point 1090 The seizure of Alamut
+- [ ] `polity/nizari` — turning point 1164 The qiyama
+- [ ] `polity/nizari` — religions_carried = 1 (Nizari Isma'ilism)
+- [ ] `polity/nizari` — ended by conquest in 1256
+- [ ] `polity/qarmatian` — span starts 899
+- [ ] `polity/qarmatian` — span ends 1058
+- [ ] `polity/qarmatian` — capital al-Hasa from 899
+- [ ] `polity/qarmatian` — founder Abu Sa'id al-Jannabi r. 899-913
+- [ ] `polity/qarmatian` — peak Abu Tahir al-Jannabi r. 923-944
+- [ ] `polity/qarmatian` — military basis coded tribal-levy
+- [ ] `polity/qarmatian` — revenue basis coded tribute
+- [ ] `polity/qarmatian` — legitimation coded divine-sanction
+- [ ] `polity/qarmatian` — turning point 909 The refusal of the Fatimid mahdi
+- [ ] `polity/qarmatian` — turning point 930 The taking of the Black Stone
+- [ ] `polity/qarmatian` — turning point 931 The eighty days of the false mahdi
+- [ ] `polity/qarmatian` — ended by gradual absorption in 1077
+- [ ] `polity/sulayhid` — span starts 1047
+- [ ] `polity/sulayhid` — span ends 1138
+- [ ] `polity/sulayhid` — capital Sana'a from 1047
+- [ ] `polity/sulayhid` — capital Jibla from 1087
+- [ ] `polity/sulayhid` — founder Ali al-Sulayhi
+- [ ] `polity/sulayhid` — peak Arwa al-Sulayhi r. 1086-1138
+- [ ] `polity/sulayhid` — last Arwa al-Sulayhi r. 1086-1138
+- [ ] `polity/sulayhid` — military basis coded tribal-levy
+- [ ] `polity/sulayhid` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/sulayhid` — succession rule coded nomination
+- [ ] `polity/sulayhid` — legitimation coded caliphal-investiture
+- [ ] `polity/sulayhid` — turning point 1067 The killing of Ali al-Sulayhi (contested)
+- [ ] `polity/sulayhid` — turning point 1087 Jibla
+- [ ] `polity/sulayhid` — turning point 1094 Choosing between Cairo's claimants
+- [ ] `polity/sulayhid` — turning point 1130 The Tayyibi decision
+- [ ] `polity/sulayhid` — religions_carried = 1 (Tayyibi Isma'ilism)
+- [ ] `polity/sulayhid` — ended by fragmentation in 1138
+- [ ] `polity/zurayid` — legitimation coded caliphal-investiture
+- [ ] `polity/zurayid` — turning point 1132 The Hafizi choice
 
 ## Hugh Kennedy, The Prophet and the Age of the Caliphates: The Islamic Near East from the Sixth to the Eleventh Century
 
 `kennedy-2004` — 66 claims
 
-**Sole source** for `hamdanid` — nothing else in the corpus can contradict a misreading here.
-
 - [ ] `chapter/abbasid/01-revolution.mdx` — prose: "What the revolution actually changed"
 - [ ] `chapter/hamdanid/01-two-branches.mdx` — prose: "Two branches, one family"
 - [ ] `chapter/hamdanid/02-sayf-al-dawla.mdx` — prose: "Sayf al-Dawla's frontier"
-- [ ] `chapter/hamdanid/03-mutanabbi.mdx` — prose: "The poet and the frontier"
-- [ ] `chapter/hamdanid/04-al-farabi.mdx` — prose: "The second teacher"
-- [ ] `chapter/hamdanid/05-tributary.mdx` — prose: "Paying both sides"
+- [ ] `chapter/hamdanid/04-mutanabbi.mdx` — prose: "The poet and the frontier"
+- [ ] `chapter/hamdanid/05-al-farabi.mdx` — prose: "The second teacher"
+- [ ] `chapter/hamdanid/06-tributary.mdx` — prose: "Paying both sides"
 - [ ] `chapter/marwanid/01-badh.mdx` — prose: "The shepherd"
 - [ ] `chapter/marwanid/02-nasr-al-dawla.mdx` — prose: "Fifty years"
 - [ ] `chapter/marwanid/04-the-seljuks.mdx` — prose: "The counterweight goes"
@@ -810,7 +900,7 @@ ordinary state, not an item to clear.
 - [ ] `chapter/umayyad/06-mawali.mdx` — prose: "The converts problem"
 - [ ] `chapter/uqaylid/01-mosul.mdx` — prose: "The buffer that took the city"
 - [ ] `chapter/uqaylid/02-the-khutba-of-1010.mdx` — prose: "The Friday the caliph changed"
-- [ ] `chapter/uqaylid/04-the-arab-century.mdx` — prose: "What the eleventh century was"
+- [ ] `chapter/uqaylid/05-the-arab-century.mdx` — prose: "What the eleventh century was"
 - [ ] `edge/hamdanid->uqaylid` — absorbed remnants of in 996
 - [ ] `edge/marwanid->great-seljuk` — conquered by in 1085
 - [ ] `edge/rashidun->abbasid` — claimed legitimacy of in 750
@@ -863,88 +953,84 @@ ordinary state, not an item to clear.
 - [ ] `polity/uqaylid` — turning point 996 The taking of Mosul
 - [ ] `polity/uqaylid` — turning point 1010 Qirwash's khutba for Cairo
 
-## Farhad Daftary, The Isma'ilis: Their History and Doctrines
+## Herbert Franke and Denis Twitchett (eds), The Cambridge History of China, Volume 6: Alien Regimes and Border States, 907-1368
 
-`daftary-2007` — 66 claims
+`franke-twitchett-1994` — 66 claims
 
-**Sole source** for `sulayhid` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/najahid/03-the-war-with-the-highlands.mdx` — prose: "Seven years on an island"
-- [ ] `chapter/nizari/01-alamut.mdx` — prose: "A state with no middle"
-- [ ] `chapter/nizari/02-the-qiyama.mdx` — prose: "The day the law was abolished"
-- [ ] `chapter/nizari/04-after-alamut.mdx` — prose: "After the fortresses"
-- [ ] `chapter/nizari/05-the-legend.mdx` — prose: "The garden that was not there"
-- [ ] `chapter/qarmatian/01-the-other-ismailis.mdx` — prose: "The Isma'ilis who said no to the Fatimids"
-- [ ] `chapter/qarmatian/02-the-gulf-power.mdx` — prose: "Taking tribute from both caliphs"
-- [ ] `chapter/qarmatian/03-the-black-stone.mdx` — prose: "Twenty-two years in al-Hasa"
-- [ ] `chapter/qarmatian/05-the-mahdi-who-was-not.mdx` — prose: "Eighty days"
-- [ ] `chapter/sulayhid/01-the-mission-makes-a-state.mdx` — prose: "What the mission produced"
-- [ ] `chapter/sulayhid/02-mecca.mdx` — prose: "A Fatimid client in the holy cities"
-- [ ] `chapter/sulayhid/03-arwa.mdx` — prose: "Fifty years, from Jibla"
-- [ ] `chapter/sulayhid/04-the-hujja.mdx` — prose: "Two women, and what the ruler fields cannot show"
-- [ ] `chapter/sulayhid/05-tayyibi.mdx` — prose: "What she detached from Cairo"
-- [ ] `chapter/zurayid/03-hafizi.mdx` — prose: "The branch that lost"
-- [ ] `edge/fatimid->nizari` — partitioned from in 1094
-- [ ] `edge/fatimid->sulayhid` — vassal of in 1047
-- [ ] `edge/great-seljuk->nizari` — seceded from in 1090
-- [ ] `edge/qarmatian->fatimid` — claimed legitimacy of in 909
-- [ ] `polity/najahid` — peak Sa'id al-Ahwal
-- [ ] `polity/najahid` — turning point 1060 The loss of Zabid
-- [ ] `polity/najahid` — turning point 1067 The ambush on the pilgrim road
-- [ ] `polity/nizari` — span starts 1090
-- [ ] `polity/nizari` — span ends 1256
-- [ ] `polity/nizari` — capital Alamut from 1090
-- [ ] `polity/nizari` — founder Hasan-i Sabbah r. 1090-1124
-- [ ] `polity/nizari` — peak Hasan II r. 1162-1166
-- [ ] `polity/nizari` — last Rukn al-Din Khurshah r. 1255-1256
-- [ ] `polity/nizari` — revenue basis coded land-tax
-- [ ] `polity/nizari` — succession rule coded nomination
-- [ ] `polity/nizari` — legitimation coded descent + divine-sanction
-- [ ] `polity/nizari` — turning point 1090 The seizure of Alamut
-- [ ] `polity/nizari` — turning point 1164 The qiyama
-- [ ] `polity/nizari` — religions_carried = 1 (Nizari Isma'ilism)
-- [ ] `polity/nizari` — ended by conquest in 1256
-- [ ] `polity/qarmatian` — span starts 899
-- [ ] `polity/qarmatian` — span ends 1058
-- [ ] `polity/qarmatian` — capital al-Hasa from 899
-- [ ] `polity/qarmatian` — founder Abu Sa'id al-Jannabi r. 899-913
-- [ ] `polity/qarmatian` — peak Abu Tahir al-Jannabi r. 923-944
-- [ ] `polity/qarmatian` — military basis coded tribal-levy
-- [ ] `polity/qarmatian` — revenue basis coded tribute
-- [ ] `polity/qarmatian` — legitimation coded divine-sanction
-- [ ] `polity/qarmatian` — turning point 909 The refusal of the Fatimid mahdi
-- [ ] `polity/qarmatian` — turning point 930 The taking of the Black Stone
-- [ ] `polity/qarmatian` — turning point 931 The eighty days of the false mahdi
-- [ ] `polity/qarmatian` — ended by gradual absorption in 1077
-- [ ] `polity/sulayhid` — span starts 1047
-- [ ] `polity/sulayhid` — span ends 1138
-- [ ] `polity/sulayhid` — capital Sana'a from 1047
-- [ ] `polity/sulayhid` — capital Jibla from 1087
-- [ ] `polity/sulayhid` — founder Ali al-Sulayhi
-- [ ] `polity/sulayhid` — peak Arwa al-Sulayhi r. 1086-1138
-- [ ] `polity/sulayhid` — last Arwa al-Sulayhi r. 1086-1138
-- [ ] `polity/sulayhid` — military basis coded tribal-levy
-- [ ] `polity/sulayhid` — revenue basis coded land-tax + trade-toll
-- [ ] `polity/sulayhid` — succession rule coded nomination
-- [ ] `polity/sulayhid` — legitimation coded caliphal-investiture
-- [ ] `polity/sulayhid` — turning point 1067 The killing of Ali al-Sulayhi
-- [ ] `polity/sulayhid` — turning point 1087 Jibla
-- [ ] `polity/sulayhid` — turning point 1094 Choosing between Cairo's claimants
-- [ ] `polity/sulayhid` — turning point 1130 The Tayyibi decision
-- [ ] `polity/sulayhid` — religions_carried = 1 (Tayyibi Isma'ilism)
-- [ ] `polity/sulayhid` — ended by fragmentation in 1138
-- [ ] `polity/zurayid` — legitimation coded caliphal-investiture
-- [ ] `polity/zurayid` — turning point 1132 The Hafizi choice
+- [ ] `chapter/jin/01-jurchen.mdx` — prose: "The Jurchen century"
+- [ ] `chapter/jin/03-two-defeats.mdx` — prose: "Jingkang, and the treaty after it"
+- [ ] `chapter/jin/04-the-double-bind.mdx` — prose: "Preserving what conquest dissolves"
+- [ ] `chapter/jin/05-the-settlers.mdx` — prose: "The settlers"
+- [ ] `chapter/jin/07-the-name-taken-again.mdx` — prose: "The name, taken again"
+- [ ] `chapter/liao/04-two-administrations.mdx` — prose: "Governing two things at once"
+- [ ] `chapter/liao/05-the-ordo.mdx` — prose: "The ordo"
+- [ ] `chapter/liao/06-the-song-tribute.mdx` — prose: "Calling tribute a gift"
+- [ ] `chapter/liao/08-1114.mdx` — prose: "1114"
+- [ ] `chapter/liao/09-qara-khitai.mdx` — prose: "The half that went west"
+- [ ] `chapter/yuan/01-the-second-capital.mdx` — prose: "The second capital"
+- [ ] `chapter/yuan/02-xiangyang.mdx` — prose: "Xiangyang"
+- [ ] `chapter/yuan/03-kublai.mdx` — prose: "A steppe dynasty that took all of China"
+- [ ] `chapter/yuan/04-the-ortogh.mdx` — prose: "The ortogh"
+- [ ] `chapter/yuan/06-the-hundred-years.mdx` — prose: "Why it lasted less than a century"
+- [ ] `chapter/yuan/07-the-assembly-and-the-throne.mdx` — prose: "The assembly and the throne"
+- [ ] `chapter/yuan/08-not-a-khanate.mdx` — prose: "The one that took a whole empire"
+- [ ] `edge/jin->yuan` — absorbed remnants of in 1279
+- [ ] `edge/liao->jin` — overthrew in 1125
+- [ ] `edge/mongol->yuan` — partitioned from in 1271
+- [ ] `polity/jin` — span starts 1115
+- [ ] `polity/jin` — span ends 1234
+- [ ] `polity/jin` — capital Zhongdu from 1115
+- [ ] `polity/jin` — founder Aguda r. 1115-1123
+- [ ] `polity/jin` — peak Emperor Shizong r. 1161-1189
+- [ ] `polity/jin` — last Emperor Modi r. 1234-1234
+- [ ] `polity/jin` — military basis coded tribal-levy + land-grant
+- [ ] `polity/jin` — revenue basis coded land-tax + poll-tax
+- [ ] `polity/jin` — legitimation coded descent + divine-sanction
+- [ ] `polity/jin` — turning point 1127 Jingkang
+- [ ] `polity/jin` — turning point 1141 Shaoxing
+- [ ] `polity/jin` — turning point 1214 South to Kaifeng
+- [ ] `polity/jin` — descendant_scripts = 1 (Jurchen script)
+- [ ] `polity/jin` — religions_carried = 0
+- [ ] `polity/jin` — successor_claims = 1 (qing)
+- [ ] `polity/jin` — ended by conquest in 1234
+- [ ] `polity/liao` — span starts 916
+- [ ] `polity/liao` — span ends 1125
+- [ ] `polity/liao` — capital Shangjing from 916
+- [ ] `polity/liao` — founder Abaoji r. 916-926
+- [ ] `polity/liao` — peak Emperor Shengzong r. 982-1031
+- [ ] `polity/liao` — last Emperor Tianzuo r. 1101-1125
+- [ ] `polity/liao` — military basis coded tribal-levy
+- [ ] `polity/liao` — revenue basis coded tribute + land-tax
+- [ ] `polity/liao` — legitimation coded descent + divine-sanction
+- [ ] `polity/liao` — turning point 947 The name Liao (contested)
+- [ ] `polity/liao` — turning point 1005 The Treaty of Chanyuan
+- [ ] `polity/liao` — turning point 1114 The Jurchen
+- [ ] `polity/liao` — descendant_scripts = 2 (Khitan large script, Khitan small script)
+- [ ] `polity/liao` — ended by conquest in 1125
+- [ ] `polity/yuan` — span starts 1271
+- [ ] `polity/yuan` — span ends 1368
+- [ ] `polity/yuan` — capital Dadu from 1271
+- [ ] `polity/yuan` — founder Kublai Khan r. 1271-1294
+- [ ] `polity/yuan` — peak Kublai Khan r. 1271-1294
+- [ ] `polity/yuan` — last Toghon Temur r. 1333-1368
+- [ ] `polity/yuan` — military basis coded tribal-levy + conscript
+- [ ] `polity/yuan` — revenue basis coded land-tax + monopoly
+- [ ] `polity/yuan` — succession rule coded tanistry
+- [ ] `polity/yuan` — legitimation coded descent + divine-sanction + conquest
+- [ ] `polity/yuan` — turning point 1279 Yaishan
+- [ ] `polity/yuan` — turning point 1323 Nanpo
+- [ ] `polity/yuan` — turning point 1351 The Red Turbans
+- [ ] `polity/yuan` — descendant_scripts = 1 (Phags-pa script)
+- [ ] `polity/yuan` — religions_carried = 0
+- [ ] `polity/yuan` — successor_claims = 1 (The Northern Yuan)
 
 ## Josef Wiesehöfer, trans. Azizeh Azodi, Ancient Persia: From 550 BC to 650 AD
 
 `wiesehofer-1996` — 64 claims
 
-**Sole source** for `adiabene`, `atropatene`, `characene`, `elymais` — nothing else in the corpus can contradict a misreading here.
-
 - [ ] `chapter/adiabene/01-arbela.mdx` — prose: "Arbela"
 - [ ] `chapter/adiabene/02-a-jewish-royal-house.mdx` — prose: "A Jewish royal house"
-- [ ] `chapter/adiabene/03-the-second-one.mdx` — prose: "A correction to another page"
+- [ ] `chapter/adiabene/03-what-makes-a-kingdom-jewish.mdx` — prose: "What makes a kingdom Jewish"
 - [ ] `chapter/adiabene/04-arbela-becomes-christian.mdx` — prose: "What Arbela became"
 - [ ] `chapter/atropatene/01-the-satrap-who-stayed.mdx` — prose: "The satrap who did not hand it over"
 - [ ] `chapter/atropatene/02-the-fire-of-the-warriors.mdx` — prose: "The fire of the warriors"
@@ -952,7 +1038,7 @@ ordinary state, not an item to clear.
 - [ ] `chapter/atropatene/04-the-name.mdx` — prose: "Atropatene, Adurbadagan, Azerbaijan"
 - [ ] `chapter/characene/01-the-head-of-the-gulf.mdx` — prose: "Where the ships stopped"
 - [ ] `chapter/characene/02-the-transfer.mdx` — prose: "The transfer"
-- [ ] `chapter/characene/03-tolls-alone.mdx` — prose: "Three polities on a single value"
+- [ ] `chapter/characene/03-tolls-alone.mdx` — prose: "Three polities on one toll"
 - [ ] `chapter/characene/04-222.mdx` — prose: "Ardashir takes the delta"
 - [ ] `chapter/elymais/01-elam-again.mdx` — prose: "Elam, one more time"
 - [ ] `chapter/elymais/02-the-temples.mdx` — prose: "Worth robbing"
@@ -1006,75 +1092,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/persis` — founder Bagadates I
 - [ ] `polity/persis` — revenue basis coded land-tax
 - [ ] `polity/persis` — legitimation coded divine-sanction
-
-## Herbert Franke and Denis Twitchett (eds), The Cambridge History of China, Volume 6: Alien Regimes and Border States, 907-1368
-
-`franke-twitchett-1994` — 64 claims
-
-- [ ] `chapter/jin/01-jurchen.mdx` — prose: "The Jurchen century"
-- [ ] `chapter/jin/02-the-double-bind.mdx` — prose: "Preserving what conquest dissolves"
-- [ ] `chapter/jin/03-two-defeats.mdx` — prose: "Jingkang, and the treaty after it"
-- [ ] `chapter/jin/04-the-settlers.mdx` — prose: "The settlers"
-- [ ] `chapter/jin/05-the-name-taken-again.mdx` — prose: "The name, taken again"
-- [ ] `chapter/liao/01-two-administrations.mdx` — prose: "Governing two things at once"
-- [ ] `chapter/liao/02-the-song-tribute.mdx` — prose: "Calling tribute a gift"
-- [ ] `chapter/liao/03-the-ordo.mdx` — prose: "The ordo"
-- [ ] `chapter/liao/04-1114.mdx` — prose: "1114"
-- [ ] `chapter/liao/05-qara-khitai.mdx` — prose: "The half that went west"
-- [ ] `chapter/yuan/01-kublai.mdx` — prose: "A steppe dynasty that took all of China"
-- [ ] `chapter/yuan/02-the-hundred-years.mdx` — prose: "Why it lasted less than a century"
-- [ ] `chapter/yuan/03-the-assembly-and-the-throne.mdx` — prose: "The assembly and the throne"
-- [ ] `chapter/yuan/04-the-ortogh.mdx` — prose: "The ortogh"
-- [ ] `chapter/yuan/05-not-a-khanate.mdx` — prose: "The one that took a whole empire"
-- [ ] `edge/jin->yuan` — absorbed remnants of in 1279
-- [ ] `edge/liao->jin` — overthrew in 1125
-- [ ] `edge/mongol->yuan` — partitioned from in 1271
-- [ ] `polity/jin` — span starts 1115
-- [ ] `polity/jin` — span ends 1234
-- [ ] `polity/jin` — capital Zhongdu from 1115
-- [ ] `polity/jin` — founder Aguda r. 1115-1123
-- [ ] `polity/jin` — peak Emperor Shizong r. 1161-1189
-- [ ] `polity/jin` — last Emperor Modi r. 1234-1234
-- [ ] `polity/jin` — military basis coded tribal-levy + land-grant
-- [ ] `polity/jin` — revenue basis coded land-tax + poll-tax
-- [ ] `polity/jin` — legitimation coded descent + divine-sanction
-- [ ] `polity/jin` — turning point 1127 Jingkang
-- [ ] `polity/jin` — turning point 1141 Shaoxing
-- [ ] `polity/jin` — turning point 1214 South to Kaifeng
-- [ ] `polity/jin` — descendant_scripts = 1 (Jurchen script)
-- [ ] `polity/jin` — religions_carried = 0
-- [ ] `polity/jin` — successor_claims = 1 (qing)
-- [ ] `polity/jin` — ended by conquest in 1234
-- [ ] `polity/liao` — span starts 916
-- [ ] `polity/liao` — span ends 1125
-- [ ] `polity/liao` — capital Shangjing from 916
-- [ ] `polity/liao` — founder Abaoji r. 916-926
-- [ ] `polity/liao` — peak Emperor Shengzong r. 982-1031
-- [ ] `polity/liao` — last Emperor Tianzuo r. 1101-1125
-- [ ] `polity/liao` — military basis coded tribal-levy
-- [ ] `polity/liao` — revenue basis coded tribute + land-tax
-- [ ] `polity/liao` — legitimation coded descent + divine-sanction
-- [ ] `polity/liao` — turning point 947 The name Liao (contested)
-- [ ] `polity/liao` — turning point 1005 The Treaty of Chanyuan
-- [ ] `polity/liao` — turning point 1114 The Jurchen
-- [ ] `polity/liao` — descendant_scripts = 2 (Khitan large script, Khitan small script)
-- [ ] `polity/liao` — ended by conquest in 1125
-- [ ] `polity/yuan` — span starts 1271
-- [ ] `polity/yuan` — span ends 1368
-- [ ] `polity/yuan` — capital Dadu from 1271
-- [ ] `polity/yuan` — founder Kublai Khan r. 1271-1294
-- [ ] `polity/yuan` — peak Kublai Khan r. 1271-1294
-- [ ] `polity/yuan` — last Toghon Temur r. 1333-1368
-- [ ] `polity/yuan` — military basis coded tribal-levy + conscript
-- [ ] `polity/yuan` — revenue basis coded land-tax + monopoly
-- [ ] `polity/yuan` — succession rule coded tanistry
-- [ ] `polity/yuan` — legitimation coded descent + divine-sanction + conquest
-- [ ] `polity/yuan` — turning point 1279 Yaishan
-- [ ] `polity/yuan` — turning point 1323 Nanpo
-- [ ] `polity/yuan` — turning point 1351 The Red Turbans
-- [ ] `polity/yuan` — descendant_scripts = 1 (Phags-pa script)
-- [ ] `polity/yuan` — religions_carried = 0
-- [ ] `polity/yuan` — successor_claims = 1 (The Northern Yuan)
 
 ## Rein Taagepera, Expansion and Contraction Patterns of Large Polities: Context for Russia
 *In International Studies Quarterly 41(3), 475-504.*
@@ -1147,8 +1164,6 @@ ordinary state, not an item to clear.
 
 `petry-1998` — 60 claims
 
-**Sole source** for `tulunid` — nothing else in the corpus can contradict a misreading here.
-
 - [ ] `chapter/ikhshidid/01-holding-on.mdx` — prose: "Holding the Hijaz"
 - [ ] `chapter/ikhshidid/02-three-attempts.mdx` — prose: "Three attempts, and the sermon at Mecca"
 - [ ] `chapter/ikhshidid/03-kafur.mdx` — prose: "Kafur"
@@ -1160,9 +1175,9 @@ ordinary state, not an item to clear.
 - [ ] `chapter/mamluk-sultanate/10-marj-dabiq.mdx` — prose: "Marj Dabiq"
 - [ ] `chapter/tulunid/01-ibn-tulun.mdx` — prose: "The governor who stopped remitting"
 - [ ] `chapter/tulunid/02-the-army-and-the-quarrel.mdx` — prose: "The army, and the quarrel"
-- [ ] `chapter/tulunid/03-the-most-expensive-wedding.mdx` — prose: "The most expensive wedding of the ninth century"
-- [ ] `chapter/tulunid/04-the-mosque.mdx` — prose: "Building where the money stayed"
-- [ ] `chapter/tulunid/05-905.mdx` — prose: "What was left of the quarter"
+- [ ] `chapter/tulunid/04-the-most-expensive-wedding.mdx` — prose: "The most expensive wedding of the ninth century"
+- [ ] `chapter/tulunid/06-the-mosque.mdx` — prose: "Building where the money stayed"
+- [ ] `chapter/tulunid/07-905.mdx` — prose: "What was left of the quarter"
 - [ ] `edge/abbasid->tulunid` — seceded from in 868
 - [ ] `edge/ayyubid->mamluk-sultanate` — overthrew in 1250
 - [ ] `edge/cilician-armenia->mamluk-sultanate` — conquered by in 1375
@@ -1210,21 +1225,86 @@ ordinary state, not an item to clear.
 - [ ] `polity/tulunid` — turning point 905 Al-Qata'i burned
 - [ ] `polity/tulunid` — ended by conquest in 905
 
+## Warren Treadgold, A History of the Byzantine State and Society
+
+`treadgold-1997` — 60 claims
+
+**Sole source** for `nicaea` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/byzantine/01-the-half-that-did-not-fall.mdx` — prose: "The half that did not fall"
+- [ ] `chapter/byzantine/02-justinian.mdx` — prose: "Justinian"
+- [ ] `chapter/byzantine/04-the-survivor.mdx` — prose: "The empire that lost half of itself and continued"
+- [ ] `chapter/byzantine/09-1204.mdx` — prose: "1204"
+- [ ] `chapter/byzantine/10-1453.mdx` — prose: "1453"
+- [ ] `chapter/latin-empire/05-an-afternoon.mdx` — prose: "An afternoon"
+- [ ] `chapter/latin-empire/06-what-outlasted-it.mdx` — prose: "What outlasted it"
+- [ ] `chapter/nicaea/01-a-government-in-exile-that-worked.mdx` — prose: "A government in exile that worked"
+- [ ] `chapter/nicaea/02-three-claimants.mdx` — prose: "Three claimants"
+- [ ] `chapter/nicaea/03-a-state-on-a-small-base.mdx` — prose: "A state on a small base"
+- [ ] `chapter/nicaea/04-the-church-in-exile.mdx` — prose: "The church in exile"
+- [ ] `chapter/nicaea/05-what-the-restoration-cost.mdx` — prose: "What the restoration cost"
+- [ ] `chapter/nicaea/06-a-frontier-nobody-was-watching.mdx` — prose: "A frontier nobody was watching"
+- [ ] `chapter/trebizond/01-two-hundred-miles-of-coast.mdx` — prose: "Two hundred miles of coast"
+- [ ] `chapter/trebizond/02-what-the-road-brought.mdx` — prose: "What the road brought"
+- [ ] `chapter/trebizond/03-the-city-and-the-road.mdx` — prose: "The city and the road"
+- [ ] `chapter/trebizond/07-bessarion.mdx` — prose: "What left before the city fell"
+- [ ] `edge/byzantine->nicaea` — partitioned from in 1204
+- [ ] `edge/byzantine->trebizond` — partitioned from in 1204
+- [ ] `edge/latin-empire->nicaea` — conquered by in 1261
+- [ ] `edge/nicaea->byzantine` — claimed legitimacy of in 1261
+- [ ] `edge/roman->byzantine` — partitioned from in 395
+- [ ] `edge/sasanian->byzantine` — absorbed remnants of in 651
+- [ ] `polity/byzantine` — span starts 395
+- [ ] `polity/byzantine` — span ends 1453
+- [ ] `polity/byzantine` — capital Constantinople from 395
+- [ ] `polity/byzantine` — founder Arcadius r. 395-408
+- [ ] `polity/byzantine` — peak Basil II r. 976-1025
+- [ ] `polity/byzantine` — last Constantine XI r. 1449-1453
+- [ ] `polity/byzantine` — succession rule coded nomination
+- [ ] `polity/byzantine` — turning point 1071 Manzikert
+- [ ] `polity/byzantine` — turning point 1204 The Fourth Crusade
+- [ ] `polity/byzantine` — turning point 1341 The civil wars
+- [ ] `polity/byzantine` — ended by conquest in 1453
+- [ ] `polity/latin-empire` — span ends 1261
+- [ ] `polity/latin-empire` — last Baldwin II r. 1228-1261
+- [ ] `polity/latin-empire` — turning point 1235 The Greek and Bulgarian siege
+- [ ] `polity/latin-empire` — turning point 1261 The city taken back
+- [ ] `polity/latin-empire` — ended by conquest in 1261
+- [ ] `polity/nicaea` — span starts 1204
+- [ ] `polity/nicaea` — span ends 1261
+- [ ] `polity/nicaea` — capital Nicaea from 1204
+- [ ] `polity/nicaea` — capital Nymphaion from 1219
+- [ ] `polity/nicaea` — founder Theodore I Laskaris r. 1205-1222
+- [ ] `polity/nicaea` — peak John III Vatatzes r. 1222-1254
+- [ ] `polity/nicaea` — last Michael VIII Palaiologos r. 1259-1261
+- [ ] `polity/nicaea` — military basis coded land-grant + mercenary
+- [ ] `polity/nicaea` — revenue basis coded land-tax
+- [ ] `polity/nicaea` — succession rule coded nomination
+- [ ] `polity/nicaea` — legitimation coded titulature + descent
+- [ ] `polity/nicaea` — turning point 1261 Constantinople retaken
+- [ ] `polity/nicaea` — ended by dynastic replacement in 1261
+- [ ] `polity/roman` — ended by fragmentation in 395
+- [ ] `polity/trebizond` — span starts 1204
+- [ ] `polity/trebizond` — capital Trebizond from 1204
+- [ ] `polity/trebizond` — founder Alexios I Megas Komnenos r. 1204-1222
+- [ ] `polity/trebizond` — peak Alexios II Megas Komnenos r. 1297-1330
+- [ ] `polity/trebizond` — revenue basis coded trade-toll
+- [ ] `polity/trebizond` — legitimation coded descent + titulature
+- [ ] `polity/trebizond` — turning point 1282 Giving up the imperial title
+
 ## Malcolm Barber, The Crusader States
 
 `barber-2012` — 59 claims
 
-**Sole source** for `tripoli` — nothing else in the corpus can contradict a misreading here.
-
 - [ ] `chapter/ammarid/03-1109.mdx` — prose: "Seven years and a journey"
 - [ ] `chapter/edessa/01-the-knight-who-went-east.mdx` — prose: "The knight who went east"
-- [ ] `chapter/edessa/03-1144.mdx` — prose: "Four weeks at Christmas"
+- [ ] `chapter/edessa/04-1144.mdx` — prose: "Four weeks at Christmas"
 - [ ] `chapter/jerusalem/01-the-advocate.mdx` — prose: "The advocate"
 - [ ] `chapter/jerusalem/02-the-orders.mdx` — prose: "An army the king could not command"
-- [ ] `chapter/jerusalem/04-acre.mdx` — prose: "The kingdom at Acre"
+- [ ] `chapter/jerusalem/06-acre.mdx` — prose: "The kingdom at Acre"
 - [ ] `chapter/tripoli/01-a-county-before-a-city.mdx` — prose: "A county before a city"
 - [ ] `chapter/tripoli/02-the-one-that-admitted-a-superior.mdx` — prose: "The one that admitted a superior"
-- [ ] `chapter/tripoli/03-1289.mdx` — prose: "What Qalawun did to the city"
+- [ ] `chapter/tripoli/04-1289.mdx` — prose: "What Qalawun did to the city"
 - [ ] `edge/ammarid->tripoli` — conquered by in 1109
 - [ ] `edge/antioch->tripoli` — absorbed remnants of in 1268
 - [ ] `edge/edessa->zangid` — conquered by in 1144
@@ -1276,83 +1356,20 @@ ordinary state, not an item to clear.
 - [ ] `polity/tripoli` — turning point 1289 Qalawun at Tripoli
 - [ ] `polity/tripoli` — ended by conquest in 1289
 
-## Warren Treadgold, A History of the Byzantine State and Society
-
-`treadgold-1997` — 57 claims
-
-**Sole source** for `nicaea` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/byzantine/01-the-half-that-did-not-fall.mdx` — prose: "The half that did not fall"
-- [ ] `chapter/byzantine/02-justinian.mdx` — prose: "Justinian"
-- [ ] `chapter/byzantine/04-the-survivor.mdx` — prose: "The empire that lost half of itself and continued"
-- [ ] `chapter/byzantine/09-1204.mdx` — prose: "1204"
-- [ ] `chapter/byzantine/10-1453.mdx` — prose: "1453"
-- [ ] `chapter/latin-empire/03-an-afternoon.mdx` — prose: "An afternoon"
-- [ ] `chapter/nicaea/01-a-government-in-exile-that-worked.mdx` — prose: "A government in exile that worked"
-- [ ] `chapter/nicaea/02-three-claimants.mdx` — prose: "Three claimants"
-- [ ] `chapter/nicaea/03-a-state-on-a-small-base.mdx` — prose: "A state on a small base"
-- [ ] `chapter/nicaea/04-the-church-in-exile.mdx` — prose: "The church in exile"
-- [ ] `chapter/nicaea/05-what-the-restoration-cost.mdx` — prose: "What the restoration cost"
-- [ ] `chapter/trebizond/01-two-hundred-miles-of-coast.mdx` — prose: "Two hundred miles of coast"
-- [ ] `chapter/trebizond/02-the-city-and-the-road.mdx` — prose: "The city and the road"
-- [ ] `chapter/trebizond/03-bessarion.mdx` — prose: "What left before the city fell"
-- [ ] `edge/byzantine->nicaea` — partitioned from in 1204
-- [ ] `edge/byzantine->trebizond` — partitioned from in 1204
-- [ ] `edge/latin-empire->nicaea` — conquered by in 1261
-- [ ] `edge/nicaea->byzantine` — claimed legitimacy of in 1261
-- [ ] `edge/roman->byzantine` — partitioned from in 395
-- [ ] `edge/sasanian->byzantine` — absorbed remnants of in 651
-- [ ] `polity/byzantine` — span starts 395
-- [ ] `polity/byzantine` — span ends 1453
-- [ ] `polity/byzantine` — capital Constantinople from 395
-- [ ] `polity/byzantine` — founder Arcadius r. 395-408
-- [ ] `polity/byzantine` — peak Basil II r. 976-1025
-- [ ] `polity/byzantine` — last Constantine XI r. 1449-1453
-- [ ] `polity/byzantine` — succession rule coded nomination
-- [ ] `polity/byzantine` — turning point 1071 Manzikert
-- [ ] `polity/byzantine` — turning point 1204 The Fourth Crusade
-- [ ] `polity/byzantine` — turning point 1341 The civil wars
-- [ ] `polity/byzantine` — ended by conquest in 1453
-- [ ] `polity/latin-empire` — span ends 1261
-- [ ] `polity/latin-empire` — last Baldwin II r. 1228-1261
-- [ ] `polity/latin-empire` — turning point 1235 The Greek and Bulgarian siege
-- [ ] `polity/latin-empire` — turning point 1261 The city taken back
-- [ ] `polity/latin-empire` — ended by conquest in 1261
-- [ ] `polity/nicaea` — span starts 1204
-- [ ] `polity/nicaea` — span ends 1261
-- [ ] `polity/nicaea` — capital Nicaea from 1204
-- [ ] `polity/nicaea` — capital Nymphaion from 1219
-- [ ] `polity/nicaea` — founder Theodore I Laskaris r. 1205-1222
-- [ ] `polity/nicaea` — peak John III Vatatzes r. 1222-1254
-- [ ] `polity/nicaea` — last Michael VIII Palaiologos r. 1259-1261
-- [ ] `polity/nicaea` — military basis coded land-grant + mercenary
-- [ ] `polity/nicaea` — revenue basis coded land-tax
-- [ ] `polity/nicaea` — succession rule coded nomination
-- [ ] `polity/nicaea` — legitimation coded titulature + descent
-- [ ] `polity/nicaea` — turning point 1261 Constantinople retaken
-- [ ] `polity/nicaea` — ended by dynastic replacement in 1261
-- [ ] `polity/roman` — ended by fragmentation in 395
-- [ ] `polity/trebizond` — span starts 1204
-- [ ] `polity/trebizond` — capital Trebizond from 1204
-- [ ] `polity/trebizond` — founder Alexios I Megas Komnenos r. 1204-1222
-- [ ] `polity/trebizond` — peak Alexios II Megas Komnenos r. 1297-1330
-- [ ] `polity/trebizond` — revenue basis coded trade-toll
-- [ ] `polity/trebizond` — legitimation coded descent + titulature
-- [ ] `polity/trebizond` — turning point 1282 Giving up the imperial title
-
 ## Peter Jackson and Laurence Lockhart (eds), The Cambridge History of Iran, Volume 6: The Timurid and Safavid Periods
 
-`chi-6` — 54 claims
+`chi-6` — 55 claims
 
 - [ ] `chapter/jalayirid/01-what-1335-left.mdx` — prose: "What 1335 left"
-- [ ] `chapter/jalayirid/02-shaykh-uways.mdx` — prose: "The nearest thing to a restoration"
-- [ ] `chapter/jalayirid/04-ahmad.mdx` — prose: "Sultan Ahmad's twenty years of running"
-- [ ] `chapter/jalayirid/05-basra.mdx` — prose: "Basra"
+- [ ] `chapter/jalayirid/02-baghdad-and-tabriz.mdx` — prose: "Baghdad and Tabriz"
+- [ ] `chapter/jalayirid/03-shaykh-uways.mdx` — prose: "The nearest thing to a restoration"
+- [ ] `chapter/jalayirid/05-ahmad.mdx` — prose: "Sultan Ahmad's twenty years of running"
+- [ ] `chapter/jalayirid/06-basra.mdx` — prose: "Basra"
 - [ ] `chapter/karakoyunlu/01-the-black-sheep.mdx` — prose: "What filled the space"
 - [ ] `chapter/karakoyunlu/02-qara-yusuf.mdx` — prose: "The man who came back"
 - [ ] `chapter/karakoyunlu/03-jahan-shah.mdx` — prose: "Jahan Shah"
 - [ ] `chapter/karakoyunlu/05-two-sheep.mdx` — prose: "Why there were two"
-- [ ] `chapter/karakoyunlu/06-chapakchur.mdx` — prose: "One year"
+- [ ] `chapter/karakoyunlu/07-chapakchur.mdx` — prose: "One year"
 - [ ] `chapter/muzaffarid/01-yazd-to-shiraz.mdx` — prose: "An official who kept going"
 - [ ] `chapter/muzaffarid/02-the-muhtasib.mdx` — prose: "The censor"
 - [ ] `chapter/muzaffarid/03-shah-shuja.mdx` — prose: "Shah Shuja"
@@ -1403,8 +1420,6 @@ ordinary state, not an item to clear.
 
 `suny-1994` — 52 claims
 
-**Sole source** for `georgia`, `kartli-kakheti` — nothing else in the corpus can contradict a misreading here.
-
 - [ ] `chapter/caucasian-iberia/03-nino.mdx` — prose: "Nino"
 - [ ] `chapter/caucasian-iberia/04-vakhtang.mdx` — prose: "Vakhtang Gorgasali"
 - [ ] `chapter/caucasian-iberia/05-580.mdx` — prose: "Four centuries without a king"
@@ -1412,7 +1427,7 @@ ordinary state, not an item to clear.
 - [ ] `chapter/georgia/02-didgori.mdx` — prose: "The army the nobles could not withhold"
 - [ ] `chapter/georgia/03-tamar.mdx` — prose: "Tamar"
 - [ ] `chapter/georgia/04-the-mongols.mdx` — prose: "What the Mongols left in place"
-- [ ] `chapter/georgia/05-a-christian-kingdom.mdx` — prose: "What a Christian kingdom looked like in these fields"
+- [ ] `chapter/georgia/05-a-christian-kingdom.mdx` — prose: "A European state in the wrong place"
 - [ ] `chapter/georgia/06-1490.mdx` — prose: "Three kingdoms"
 - [ ] `chapter/kartli-kakheti/01-two-of-three.mdx` — prose: "Two of the three"
 - [ ] `chapter/kartli-kakheti/02-the-reforms.mdx` — prose: "What Erekle tried to build"
@@ -1463,21 +1478,19 @@ ordinary state, not an item to clear.
 
 `fisher-2011` — 46 claims
 
-**Sole source** for `jafnid` — nothing else in the corpus can contradict a misreading here.
-
 - [ ] `chapter/hujrid/01-the-third-family.mdx` — prose: "The third family"
 - [ ] `chapter/hujrid/02-a-power-in-the-middle.mdx` — prose: "A power in the middle"
 - [ ] `chapter/hujrid/03-al-hira.mdx` — prose: "Al-Hira"
-- [ ] `chapter/hujrid/04-imru-al-qays.mdx` — prose: "The prince who went looking for a kingdom"
 - [ ] `chapter/hujrid/05-what-the-clients-were-for.mdx` — prose: "What the clients were for"
+- [ ] `chapter/hujrid/06-imru-al-qays.mdx` — prose: "The prince who went looking for a kingdom"
 - [ ] `chapter/jafnid/01-the-frontier.mdx` — prose: "Hiring the frontier"
-- [ ] `chapter/jafnid/02-al-harith.mdx` — prose: "Al-Harith"
-- [ ] `chapter/jafnid/03-the-name.mdx` — prose: "Jafnid, not Ghassanid"
-- [ ] `chapter/jafnid/04-a-church.mdx` — prose: "The bishops they got consecrated"
-- [ ] `chapter/jafnid/05-what-rome-gave.mdx` — prose: "What Rome gave"
-- [ ] `chapter/jafnid/06-582.mdx` — prose: "582"
+- [ ] `chapter/jafnid/03-al-harith.mdx` — prose: "Al-Harith"
+- [ ] `chapter/jafnid/04-the-name.mdx` — prose: "Jafnid, not Ghassanid"
+- [ ] `chapter/jafnid/05-a-church.mdx` — prose: "The bishops they got consecrated"
+- [ ] `chapter/jafnid/06-what-rome-gave.mdx` — prose: "What Rome gave"
+- [ ] `chapter/jafnid/08-582.mdx` — prose: "582"
 - [ ] `chapter/nasrid-hira/01-the-other-side.mdx` — prose: "The other side"
-- [ ] `chapter/nasrid-hira/02-the-forty-year-war.mdx` — prose: "The forty-year war"
+- [ ] `chapter/nasrid-hira/03-the-forty-year-war.mdx` — prose: "The forty-year war"
 - [ ] `edge/byzantine->jafnid` — vassal of in 529
 - [ ] `edge/himyar->hujrid` — vassal of in 480
 - [ ] `edge/jafnid->rashidun` — conquered by in 636
@@ -1533,8 +1546,8 @@ ordinary state, not an item to clear.
 - [ ] `chapter/samanid/06-943.mdx` — prose: "The year the army chose the amir"
 - [ ] `chapter/tahirid/03-the-other-half.mdx` — prose: "The family that also policed Baghdad"
 - [ ] `chapter/ziyarid/01-the-man-who-wanted-the-crown-back.mdx` — prose: "The man who wanted the crown back"
-- [ ] `chapter/ziyarid/02-a-client-among-clients.mdx` — prose: "A client among clients"
 - [ ] `chapter/ziyarid/02-vushmgir-between-two-powers.mdx` — prose: "Vushmgir, between two powers"
+- [ ] `chapter/ziyarid/03-a-client-among-clients.mdx` — prose: "A client among clients"
 - [ ] `chapter/ziyarid/04-a-tower-and-a-book.mdx` — prose: "A tower and a book"
 - [ ] `chapter/ziyarid/05-what-the-caspian-kept.mdx` — prose: "What the Caspian kept"
 - [ ] `edge/buyid->kakuyid` — seceded from in 1008
@@ -1562,12 +1575,61 @@ ordinary state, not an item to clear.
 - [ ] `polity/ziyarid` — turning point 935 Mardavij killed in his bath
 - [ ] `polity/ziyarid` — turning point 1012 The army deposes Qabus
 
+## Richard G. Hovannisian (ed.), The Armenian People from Ancient to Modern Times
+
+`hovannisian-1997` — 44 claims
+
+- [ ] `chapter/bagratid-armenia/01-a-crown-from-baghdad.mdx` — prose: "A crown from Baghdad"
+- [ ] `chapter/bagratid-armenia/02-ani.mdx` — prose: "Ani"
+- [ ] `chapter/bagratid-armenia/03-the-nakharars.mdx` — prose: "The houses"
+- [ ] `chapter/bagratid-armenia/04-the-bequest.mdx` — prose: "The kingdom given away"
+- [ ] `chapter/bagratid-armenia/05-what-went-to-cilicia.mdx` — prose: "What went to Cilicia"
+- [ ] `chapter/greater-armenia/01-artaxias.mdx` — prose: "A governor who kept the province"
+- [ ] `chapter/greater-armenia/02-tigranes.mdx` — prose: "Fifteen years of an empire"
+- [ ] `chapter/greater-armenia/03-rhandeia.mdx` — prose: "A throne disposed of by treaty"
+- [ ] `chapter/greater-armenia/04-301.mdx` — prose: "First"
+- [ ] `chapter/greater-armenia/05-the-alphabet.mdx` — prose: "Twenty-three years before the end"
+- [ ] `chapter/greater-armenia/06-428.mdx` — prose: "The crown removed and the houses left"
+- [ ] `edge/abbasid->bagratid-armenia` — vassal of in 884
+- [ ] `edge/bagratid-armenia->byzantine` — conquered by in 1045
+- [ ] `edge/bagratid-armenia->cilician-armenia` — absorbed remnants of in 1080
+- [ ] `edge/greater-armenia->sasanian` — conquered by in 428
+- [ ] `edge/seleucid->greater-armenia` — seceded from in -190
+- [ ] `polity/bagratid-armenia` — span starts 884
+- [ ] `polity/bagratid-armenia` — span ends 1045
+- [ ] `polity/bagratid-armenia` — capital Ani from 961
+- [ ] `polity/bagratid-armenia` — founder Ashot I r. 884-890
+- [ ] `polity/bagratid-armenia` — peak Gagik I r. 989-1020
+- [ ] `polity/bagratid-armenia` — last Gagik II r. 1042-1045
+- [ ] `polity/bagratid-armenia` — military basis coded client-levy
+- [ ] `polity/bagratid-armenia` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/bagratid-armenia` — succession rule coded appanage
+- [ ] `polity/bagratid-armenia` — legitimation coded caliphal-investiture + descent
+- [ ] `polity/bagratid-armenia` — turning point 961 Ani
+- [ ] `polity/bagratid-armenia` — turning point 1022 The bequest to Byzantium
+- [ ] `polity/bagratid-armenia` — ended by conquest in 1045
+- [ ] `polity/greater-armenia` — span starts -190
+- [ ] `polity/greater-armenia` — span ends 428
+- [ ] `polity/greater-armenia` — capital Artaxata from -176
+- [ ] `polity/greater-armenia` — capital Tigranocerta from -83
+- [ ] `polity/greater-armenia` — founder Artaxias I r. -189--160
+- [ ] `polity/greater-armenia` — peak Tigranes II r. -95--55
+- [ ] `polity/greater-armenia` — last Artaxias IV r. 422-428
+- [ ] `polity/greater-armenia` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/greater-armenia` — succession rule coded external-nomination
+- [ ] `polity/greater-armenia` — legitimation coded descent + investiture
+- [ ] `polity/greater-armenia` — turning point -69 Tigranocerta
+- [ ] `polity/greater-armenia` — turning point 63 Rhandeia
+- [ ] `polity/greater-armenia` — turning point 301 The conversion of Tiridates
+- [ ] `polity/greater-armenia` — turning point 405 The alphabet
+- [ ] `polity/greater-armenia` — ended by conquest in 428
+
 ## Marc Van De Mieroop, A History of the Ancient Near East, ca. 3000-323 BC
 
 `van-de-mieroop-2015` — 42 claims
 
 - [ ] `chapter/akkadian/04-a-capital-nobody-can-find.mdx` — prose: "A capital nobody can find"
-- [ ] `chapter/median/02-612.mdx` — prose: "612"
+- [ ] `chapter/median/03-612.mdx` — prose: "612"
 - [ ] `chapter/mitanni/02-the-empire.mdx` — prose: "From the sea to the mountains"
 - [ ] `chapter/mitanni/03-my-brother.mdx` — prose: "My brother"
 - [ ] `chapter/mitanni/04-an-empire-with-no-archive.mdx` — prose: "An empire with no archive"
@@ -1613,20 +1675,20 @@ ordinary state, not an item to clear.
 
 `hillenbrand-1999` — 42 claims
 
-- [ ] `chapter/antioch/04-1268.mdx` — prose: "Four days in May"
+- [ ] `chapter/antioch/06-1268.mdx` — prose: "Four days in May"
 - [ ] `chapter/artuqid/01-the-jazira-in-three-pieces.mdx` — prose: "The Jazira, in three pieces"
-- [ ] `chapter/artuqid/02-the-bridge.mdx` — prose: "The bridge"
-- [ ] `chapter/artuqid/03-two-hundred-and-seventy-five-years-of-somebody-elses.mdx` — prose: "Two hundred and seventy-five years of somebody else's"
+- [ ] `chapter/artuqid/03-the-bridge.mdx` — prose: "The bridge"
 - [ ] `chapter/artuqid/04-the-book-of-machines.mdx` — prose: "The book of machines"
+- [ ] `chapter/artuqid/05-two-hundred-and-seventy-five-years-of-somebody-elses.mdx` — prose: "Two hundred and seventy-five years of somebody else's"
 - [ ] `chapter/ayyubid/01-saladin.mdx` — prose: "Saladin"
 - [ ] `chapter/ayyubid/03-hattin.mdx` — prose: "Hattin"
 - [ ] `chapter/ayyubid/04-richard.mdx` — prose: "The war after the victory"
-- [ ] `chapter/jerusalem/03-1187.mdx` — prose: "One day in July"
+- [ ] `chapter/jerusalem/04-1187.mdx` — prose: "One day in July"
 - [ ] `chapter/nizari/03-sinan-and-the-castles-in-syria.mdx` — prose: "The old man of the mountain"
 - [ ] `chapter/zangid/01-edessa.mdx` — prose: "Edessa"
-- [ ] `chapter/zangid/02-nur-al-din.mdx` — prose: "Making the counter-crusade a programme"
-- [ ] `chapter/zangid/03-justice-and-a-hospital.mdx` — prose: "A hospital, and a room to be complained in"
-- [ ] `chapter/zangid/04-the-minbar.mdx` — prose: "A pulpit made in advance"
+- [ ] `chapter/zangid/03-nur-al-din.mdx` — prose: "Making the counter-crusade a programme"
+- [ ] `chapter/zangid/04-justice-and-a-hospital.mdx` — prose: "A hospital, and a room to be complained in"
+- [ ] `chapter/zangid/05-the-minbar.mdx` — prose: "A pulpit made in advance"
 - [ ] `edge/antioch->mamluk-sultanate` — conquered by in 1268
 - [ ] `edge/zangid->ayyubid` — absorbed remnants of in 1174
 - [ ] `polity/antioch` — turning point 1268 Baybars at Antioch
@@ -1656,66 +1718,63 @@ ordinary state, not an item to clear.
 - [ ] `polity/zangid` — turning point 1163 The house of justice
 - [ ] `polity/zangid` — religions_carried = 1 (Sunni Islam)
 
-## Richard G. Hovannisian (ed.), The Armenian People from Ancient to Modern Times
+## Peter B. Golden, An Introduction to the History of the Turkic Peoples
 
-`hovannisian-1997` — 42 claims
+`golden-1992` — 42 claims
 
-**Sole source** for `bagratid-armenia` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/bagratid-armenia/01-a-crown-from-baghdad.mdx` — prose: "A crown from Baghdad"
-- [ ] `chapter/bagratid-armenia/02-ani.mdx` — prose: "Ani"
-- [ ] `chapter/bagratid-armenia/03-the-nakharars.mdx` — prose: "The houses"
-- [ ] `chapter/bagratid-armenia/04-the-bequest.mdx` — prose: "The kingdom given away"
-- [ ] `chapter/bagratid-armenia/05-what-went-to-cilicia.mdx` — prose: "What went to Cilicia"
-- [ ] `chapter/greater-armenia/01-artaxias.mdx` — prose: "A governor who kept the province"
-- [ ] `chapter/greater-armenia/02-tigranes.mdx` — prose: "Fifteen years of an empire"
-- [ ] `chapter/greater-armenia/03-rhandeia.mdx` — prose: "A throne disposed of by treaty"
-- [ ] `chapter/greater-armenia/04-301.mdx` — prose: "First"
-- [ ] `chapter/greater-armenia/05-the-alphabet.mdx` — prose: "Twenty-three years before the end"
-- [ ] `chapter/greater-armenia/06-428.mdx` — prose: "The crown removed and the houses left"
-- [ ] `edge/bagratid-armenia->byzantine` — conquered by in 1045
-- [ ] `edge/bagratid-armenia->cilician-armenia` — absorbed remnants of in 1080
-- [ ] `edge/greater-armenia->sasanian` — conquered by in 428
-- [ ] `polity/bagratid-armenia` — span starts 884
-- [ ] `polity/bagratid-armenia` — span ends 1045
-- [ ] `polity/bagratid-armenia` — capital Ani from 961
-- [ ] `polity/bagratid-armenia` — founder Ashot I r. 884-890
-- [ ] `polity/bagratid-armenia` — peak Gagik I r. 989-1020
-- [ ] `polity/bagratid-armenia` — last Gagik II r. 1042-1045
-- [ ] `polity/bagratid-armenia` — military basis coded client-levy
-- [ ] `polity/bagratid-armenia` — revenue basis coded land-tax + trade-toll
-- [ ] `polity/bagratid-armenia` — succession rule coded appanage
-- [ ] `polity/bagratid-armenia` — legitimation coded caliphal-investiture + descent
-- [ ] `polity/bagratid-armenia` — turning point 961 Ani
-- [ ] `polity/bagratid-armenia` — turning point 1022 The bequest to Byzantium
-- [ ] `polity/bagratid-armenia` — ended by conquest in 1045
-- [ ] `polity/greater-armenia` — span starts -190
-- [ ] `polity/greater-armenia` — span ends 428
-- [ ] `polity/greater-armenia` — capital Artaxata from -176
-- [ ] `polity/greater-armenia` — capital Tigranocerta from -83
-- [ ] `polity/greater-armenia` — founder Artaxias I r. -189--160
-- [ ] `polity/greater-armenia` — peak Tigranes II r. -95--55
-- [ ] `polity/greater-armenia` — last Artaxias IV r. 422-428
-- [ ] `polity/greater-armenia` — revenue basis coded land-tax + trade-toll
-- [ ] `polity/greater-armenia` — succession rule coded external-nomination
-- [ ] `polity/greater-armenia` — legitimation coded descent + investiture
-- [ ] `polity/greater-armenia` — turning point -69 Tigranocerta
-- [ ] `polity/greater-armenia` — turning point 63 Rhandeia
-- [ ] `polity/greater-armenia` — turning point 301 The conversion of Tiridates
-- [ ] `polity/greater-armenia` — turning point 405 The alphabet
-- [ ] `polity/greater-armenia` — ended by conquest in 428
+- [ ] `chapter/gokturk/01-gokturk.mdx` — prose: "The first people to be called Turks"
+- [ ] `chapter/gokturk/06-the-inscriptions.mdx` — prose: "A steppe empire in its own words"
+- [ ] `chapter/gokturk/07-the-word.mdx` — prose: "The word, and the alphabet"
+- [ ] `chapter/karakhanid/01-conversion.mdx` — prose: "The first Muslim Turks"
+- [ ] `chapter/karakhanid/03-the-first-turkish-books.mdx` — prose: "Two books, and what they were claiming"
+- [ ] `chapter/khazar/01-the-third-option.mdx` — prose: "The third option"
+- [ ] `chapter/khazar/03-the-wall.mdx` — prose: "The wall in the Caucasus"
+- [ ] `chapter/khazar/04-the-correspondence.mdx` — prose: "A letter to Cordoba"
+- [ ] `chapter/khazar/06-the-vacuum.mdx` — prose: "The vacuum"
+- [ ] `chapter/uyghur-khaganate/01-the-ones-who-were-owed.mdx` — prose: "The ones who were owed"
+- [ ] `chapter/uyghur-khaganate/02-the-price-of-horses.mdx` — prose: "The price of horses"
+- [ ] `chapter/uyghur-khaganate/03-manichaeans.mdx` — prose: "An empire that chose Manichaeism"
+- [ ] `chapter/uyghur-khaganate/04-840.mdx` — prose: "840"
+- [ ] `chapter/uyghur-khaganate/05-what-they-left.mdx` — prose: "The alphabet the Mongols borrowed"
+- [ ] `edge/gokturk->khazar` — seceded from in 650
+- [ ] `edge/gokturk->uyghur-khaganate` — absorbed remnants of in 744
+- [ ] `polity/gokturk` — span starts 552
+- [ ] `polity/gokturk` — span ends 603
+- [ ] `polity/gokturk` — capital Otukan from 552
+- [ ] `polity/gokturk` — founder Bumin Qaghan r. 552-552
+- [ ] `polity/gokturk` — peak Istami r. 552-576
+- [ ] `polity/gokturk` — last Tardu r. 599-603
+- [ ] `polity/gokturk` — descendant_scripts = 1 (Old Turkic runiform script)
+- [ ] `polity/gokturk` — ended by fragmentation in 603
+- [ ] `polity/karakhanid` — turning point 1069 The Kutadgu Bilig
+- [ ] `polity/karakhanid` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/khazar` — span starts 650
+- [ ] `polity/khazar` — span ends 969
+- [ ] `polity/khazar` — capital Atil from 650
+- [ ] `polity/khazar` — founder Bulan r. 740-750
+- [ ] `polity/khazar` — peak Joseph r. 930-960
+- [ ] `polity/khazar` — last Joseph r. 930-960
+- [ ] `polity/khazar` — ended by conquest in 969
+- [ ] `polity/uyghur-khaganate` — span starts 744
+- [ ] `polity/uyghur-khaganate` — span ends 840
+- [ ] `polity/uyghur-khaganate` — capital Ordu-Baliq from 744
+- [ ] `polity/uyghur-khaganate` — founder Qutlugh Bilge Kol r. 744-747
+- [ ] `polity/uyghur-khaganate` — peak Bogu Khagan r. 759-779
+- [ ] `polity/uyghur-khaganate` — last Kchik Khagan r. 839-840
+- [ ] `polity/uyghur-khaganate` — turning point 762 Bogu Khagan's adoption of Manichaeism
+- [ ] `polity/uyghur-khaganate` — religions_carried = 1 (Manichaeism)
+- [ ] `polity/uyghur-khaganate` — ended by conquest in 840
 
 ## Leonard Y. Andaya, The World of Maluku: Eastern Indonesia in the Early Modern Period
 
-`andaya-1993` — 42 claims
+`andaya-1993` — 41 claims
 
 **Sole source** for `ternate`, `tidore` — nothing else in the corpus can contradict a misreading here.
 
 - [ ] `chapter/ternate/01-five-islands.mdx` — prose: "Five islands"
 - [ ] `chapter/ternate/02-the-dualism.mdx` — prose: "Ternate and Tidore"
 - [ ] `chapter/ternate/03-hairun.mdx` — prose: "The fort"
-- [ ] `chapter/ternate/04-no-edges.mdx` — prose: "A record with no thread"
-- [ ] `chapter/ternate/05-the-trees.mdx` — prose: "The trees"
+- [ ] `chapter/ternate/04-the-trees.mdx` — prose: "The trees"
 - [ ] `chapter/tidore/01-the-other-island.mdx` — prose: "The other island"
 - [ ] `chapter/tidore/02-the-papuan-coast.mdx` — prose: "The Papuan coast"
 - [ ] `chapter/tidore/03-1663.mdx` — prose: "1663"
@@ -1756,14 +1815,13 @@ ordinary state, not an item to clear.
 
 ## Hugh Kennedy, Muslim Spain and Portugal: A Political History of al-Andalus
 
-`kennedy-1996` — 39 claims
-
-**Sole source** for `abbadid` — nothing else in the corpus can contradict a misreading here.
+`kennedy-1996` — 40 claims
 
 - [ ] `chapter/abbadid/01-a-caliph-made-of-a-mat-maker.mdx` — prose: "A caliph made of a mat-maker"
-- [ ] `chapter/abbadid/02-the-poet-king.mdx` — prose: "The poet, and the men he bought off"
-- [ ] `chapter/abbadid/03-what-the-small-courts-made.mdx` — prose: "What the small courts made"
-- [ ] `chapter/abbadid/04-camels-and-swine.mdx` — prose: "Camels and swine"
+- [ ] `chapter/abbadid/02-swallowing-the-neighbours.mdx` — prose: "Swallowing the neighbours"
+- [ ] `chapter/abbadid/03-the-poet-king.mdx` — prose: "The poet, and the men he bought off"
+- [ ] `chapter/abbadid/04-what-the-small-courts-made.mdx` — prose: "What the small courts made"
+- [ ] `chapter/abbadid/05-instalments.mdx` — prose: "Instalments"
 - [ ] `chapter/cordoba/01-survivor.mdx` — prose: "The one who got away"
 - [ ] `chapter/cordoba/02-the-state-behind-the-title.mdx` — prose: "The state behind the title"
 - [ ] `chapter/cordoba/03-what-al-hakam-left.mdx` — prose: "What al-Hakam left"
@@ -1805,8 +1863,6 @@ ordinary state, not an item to clear.
 
 `potts-2016` — 38 claims
 
-**Sole source** for `neo-elamite` — nothing else in the corpus can contradict a misreading here.
-
 - [ ] `chapter/middle-elamite/01-a-language-related-to-nothing.mdx` — prose: "A language related to nothing"
 - [ ] `chapter/middle-elamite/02-chogha-zanbil.mdx` — prose: "Chogha Zanbil"
 - [ ] `chapter/middle-elamite/03-the-stele-goes-east.mdx` — prose: "The stele goes east"
@@ -1846,50 +1902,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/neo-elamite` — successor_claims = 1 (Achaemenid Empire)
 - [ ] `polity/neo-elamite` — ended by conquest in -645
 
-## Amira K. Bennison, The Almoravid and Almohad Empires
-
-`bennison-2016` — 37 claims
-
-**Sole source** for `almoravid` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/almohad/01-ibn-tumart.mdx` — prose: "The mahdi of the Atlas"
-- [ ] `chapter/almohad/02-the-hierarchy.mdx` — prose: "A movement with ranks"
-- [ ] `chapter/almohad/03-two-things-at-once.mdx` — prose: "Two things at once"
-- [ ] `chapter/almohad/04-las-navas.mdx` — prose: "Las Navas de Tolosa"
-- [ ] `chapter/almoravid/01-ribat.mdx` — prose: "From the Sahara"
-- [ ] `chapter/almoravid/02-the-veil-and-the-city.mdx` — prose: "The veil, and the city they had to build"
-- [ ] `chapter/almoravid/03-gold.mdx` — prose: "The gold road"
-- [ ] `chapter/almoravid/04-the-mountain-and-the-islands.mdx` — prose: "The mountain, and the islands"
-- [ ] `edge/almoravid->almohad` — overthrew in 1147
-- [ ] `edge/midrarid->almoravid` — absorbed remnants of in 1055
-- [ ] `polity/almohad` — span starts 1121
-- [ ] `polity/almohad` — span ends 1269
-- [ ] `polity/almohad` — capital Marrakesh from 1147
-- [ ] `polity/almohad` — founder Ibn Tumart r. 1121-1130
-- [ ] `polity/almohad` — peak Abu Yusuf Ya'qub al-Mansur r. 1184-1199
-- [ ] `polity/almohad` — last Idris II al-Wathiq r. 1266-1269
-- [ ] `polity/almohad` — military basis coded tribal-levy + mercenary
-- [ ] `polity/almohad` — revenue basis coded land-tax + trade-toll
-- [ ] `polity/almohad` — succession rule coded nomination
-- [ ] `polity/almohad` — legitimation coded divine-sanction
-- [ ] `polity/almohad` — turning point 1121 The mahdi proclaimed at Tinmal
-- [ ] `polity/almohad` — turning point 1212 Las Navas de Tolosa
-- [ ] `polity/almohad` — ended by fragmentation in 1269
-- [ ] `polity/almoravid` — span starts 1040
-- [ ] `polity/almoravid` — span ends 1147
-- [ ] `polity/almoravid` — capital Marrakesh from 1040
-- [ ] `polity/almoravid` — founder Abd Allah ibn Yasin r. 1040-1059
-- [ ] `polity/almoravid` — peak Yusuf ibn Tashfin r. 1061-1106
-- [ ] `polity/almoravid` — last Ishaq ibn Ali r. 1146-1147
-- [ ] `polity/almoravid` — military basis coded tribal-levy + slave-soldier
-- [ ] `polity/almoravid` — revenue basis coded trade-toll + land-tax
-- [ ] `polity/almoravid` — succession rule coded nomination
-- [ ] `polity/almoravid` — legitimation coded divine-sanction
-- [ ] `polity/almoravid` — turning point 1055 Both ends of the gold road
-- [ ] `polity/almoravid` — turning point 1086 Sagrajas
-- [ ] `polity/almoravid` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/almoravid` — ended by conquest in 1147
-
 ## Paul-Alain Beaulieu, A History of Babylon, 2200 BC - AD 75
 *In Blackwell History of the Ancient World.*
 
@@ -1901,8 +1913,8 @@ ordinary state, not an item to clear.
 - [ ] `chapter/neo-babylonian/06-539.mdx` — prose: "539"
 - [ ] `chapter/neo-babylonian/07-the-chronicles.mdx` — prose: "The chronicles"
 - [ ] `chapter/old-babylonian/01-one-amorite-kingdom-among-several.mdx` — prose: "One Amorite kingdom among several"
-- [ ] `chapter/old-babylonian/04-samsu-iluna.mdx` — prose: "Samsu-iluna"
-- [ ] `chapter/old-babylonian/05-1595.mdx` — prose: "1595"
+- [ ] `chapter/old-babylonian/05-samsu-iluna.mdx` — prose: "Samsu-iluna"
+- [ ] `chapter/old-babylonian/06-1595.mdx` — prose: "1595"
 - [ ] `edge/neo-assyrian->neo-babylonian` — overthrew in -612
 - [ ] `edge/neo-babylonian->achaemenid` — conquered by in -539
 - [ ] `edge/old-babylonian->hittite` — conquered by in -1595
@@ -1975,21 +1987,60 @@ ordinary state, not an item to clear.
 - [ ] `polity/seleucid` — turning point -190 Magnesia
 - [ ] `polity/seleucid` — turning point -167 The Maccabean revolt
 
+## Amira K. Bennison, The Almoravid and Almohad Empires
+
+`bennison-2016` — 36 claims
+
+- [ ] `chapter/almohad/01-ibn-tumart.mdx` — prose: "The mahdi of the Atlas"
+- [ ] `chapter/almohad/03-the-hierarchy.mdx` — prose: "A movement with ranks"
+- [ ] `chapter/almohad/04-two-things-at-once.mdx` — prose: "Two things at once"
+- [ ] `chapter/almohad/06-las-navas.mdx` — prose: "Las Navas de Tolosa"
+- [ ] `chapter/almoravid/01-ribat.mdx` — prose: "From the Sahara"
+- [ ] `chapter/almoravid/03-the-veil-and-the-city.mdx` — prose: "The veil, and the city they had to build"
+- [ ] `chapter/almoravid/04-gold.mdx` — prose: "The gold road"
+- [ ] `edge/almoravid->almohad` — overthrew in 1147
+- [ ] `edge/midrarid->almoravid` — absorbed remnants of in 1055
+- [ ] `polity/almohad` — span starts 1121
+- [ ] `polity/almohad` — span ends 1269
+- [ ] `polity/almohad` — capital Marrakesh from 1147
+- [ ] `polity/almohad` — founder Ibn Tumart r. 1121-1130
+- [ ] `polity/almohad` — peak Abu Yusuf Ya'qub al-Mansur r. 1184-1199
+- [ ] `polity/almohad` — last Idris II al-Wathiq r. 1266-1269
+- [ ] `polity/almohad` — military basis coded tribal-levy + mercenary
+- [ ] `polity/almohad` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/almohad` — succession rule coded nomination
+- [ ] `polity/almohad` — legitimation coded divine-sanction
+- [ ] `polity/almohad` — turning point 1121 The mahdi proclaimed at Tinmal
+- [ ] `polity/almohad` — turning point 1212 Las Navas de Tolosa
+- [ ] `polity/almohad` — ended by fragmentation in 1269
+- [ ] `polity/almoravid` — span starts 1040
+- [ ] `polity/almoravid` — span ends 1147
+- [ ] `polity/almoravid` — capital Marrakesh from 1040
+- [ ] `polity/almoravid` — founder Abd Allah ibn Yasin r. 1040-1059
+- [ ] `polity/almoravid` — peak Yusuf ibn Tashfin r. 1061-1106
+- [ ] `polity/almoravid` — last Ishaq ibn Ali r. 1146-1147
+- [ ] `polity/almoravid` — military basis coded tribal-levy + slave-soldier
+- [ ] `polity/almoravid` — revenue basis coded trade-toll + land-tax
+- [ ] `polity/almoravid` — succession rule coded nomination
+- [ ] `polity/almoravid` — legitimation coded divine-sanction
+- [ ] `polity/almoravid` — turning point 1055 Both ends of the gold road
+- [ ] `polity/almoravid` — turning point 1086 Sagrajas
+- [ ] `polity/almoravid` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/almoravid` — ended by conquest in 1147
+
 ## Madawi Al-Rasheed, A History of Saudi Arabia
 
 `al-rasheed-2010` — 36 claims
 
-**Sole source** for `diriyah`, `nejd` — nothing else in the corpus can contradict a misreading here.
-
 - [ ] `chapter/diriyah/01-the-compact.mdx` — prose: "The compact"
 - [ ] `chapter/diriyah/02-the-name.mdx` — prose: "What the movement called itself"
 - [ ] `chapter/diriyah/03-karbala-and-mecca.mdx` — prose: "Karbala and Mecca"
-- [ ] `chapter/diriyah/04-ibrahim-pasha.mdx` — prose: "The Egyptian army"
-- [ ] `chapter/diriyah/05-1818.mdx` — prose: "The town was pulled down"
+- [ ] `chapter/diriyah/05-ibrahim-pasha.mdx` — prose: "The Egyptian army"
+- [ ] `chapter/diriyah/06-1818.mdx` — prose: "The town was pulled down"
 - [ ] `chapter/nejd/01-riyadh.mdx` — prose: "Six years later"
-- [ ] `chapter/nejd/02-faysal.mdx` — prose: "The imam who stayed home"
-- [ ] `chapter/nejd/03-the-war-of-the-brothers.mdx` — prose: "The war of the brothers"
-- [ ] `chapter/nejd/04-kuwait.mdx` — prose: "Kuwait"
+- [ ] `chapter/nejd/03-faysal.mdx` — prose: "The imam who stayed home"
+- [ ] `chapter/nejd/04-the-war-of-the-brothers.mdx` — prose: "The war of the brothers"
+- [ ] `chapter/nejd/05-kuwait.mdx` — prose: "Kuwait"
 - [ ] `edge/diriyah->nejd` — absorbed remnants of in 1824
 - [ ] `polity/diriyah` — span starts 1727
 - [ ] `polity/diriyah` — span ends 1818
@@ -2022,16 +2073,14 @@ ordinary state, not an item to clear.
 
 `hawting-2000` — 36 claims
 
-**Sole source** for `zubayrid` — nothing else in the corpus can contradict a misreading here.
-
 - [ ] `chapter/umayyad/01-muawiya.mdx` — prose: "Mu'awiya's arrangement"
 - [ ] `chapter/umayyad/02-karbala.mdx` — prose: "Karbala, and the war that remade the dynasty"
 - [ ] `chapter/umayyad/04-abd-al-malik.mdx` — prose: "What Abd al-Malik built"
 - [ ] `chapter/umayyad/08-khurasan.mdx` — prose: "The revolution came from Khurasan"
 - [ ] `chapter/zubayrid/01-the-refusal.mdx` — prose: "The man who would not swear"
 - [ ] `chapter/zubayrid/02-governing-from-a-sanctuary.mdx` — prose: "Governing from a sanctuary"
-- [ ] `chapter/zubayrid/03-the-kaaba-twice.mdx` — prose: "The Ka'ba, twice"
-- [ ] `chapter/zubayrid/04-the-loser.mdx` — prose: "What the winners called it"
+- [ ] `chapter/zubayrid/04-the-kaaba-twice.mdx` — prose: "The Ka'ba, twice"
+- [ ] `chapter/zubayrid/05-the-loser.mdx` — prose: "What the winners called it"
 - [ ] `edge/rashidun->umayyad` — claimed legitimacy of in 661
 - [ ] `edge/umayyad->abbasid` — overthrew in 750
 - [ ] `edge/umayyad->zubayrid` — seceded from in 683
@@ -2061,60 +2110,20 @@ ordinary state, not an item to clear.
 - [ ] `polity/zubayrid` — turning point 691 Maskin
 - [ ] `polity/zubayrid` — ended by conquest in 692
 
-## Peter B. Golden, An Introduction to the History of the Turkic Peoples
-
-`golden-1992` — 35 claims
-
-- [ ] `chapter/gokturk/01-gokturk.mdx` — prose: "The first people to be called Turks"
-- [ ] `chapter/gokturk/02-the-inscriptions.mdx` — prose: "A steppe empire in its own words"
-- [ ] `chapter/karakhanid/01-conversion.mdx` — prose: "The first Muslim Turks"
-- [ ] `chapter/karakhanid/03-the-first-turkish-books.mdx` — prose: "Two books, and what they were claiming"
-- [ ] `chapter/khazar/01-the-wall.mdx` — prose: "The wall in the Caucasus"
-- [ ] `chapter/khazar/02-the-correspondence.mdx` — prose: "A letter to Cordoba"
-- [ ] `chapter/uyghur-khaganate/01-manichaeans.mdx` — prose: "An empire that chose Manichaeism"
-- [ ] `chapter/uyghur-khaganate/02-what-they-left.mdx` — prose: "The alphabet the Mongols borrowed"
-- [ ] `edge/gokturk->uyghur-khaganate` — absorbed remnants of in 744
-- [ ] `polity/gokturk` — span starts 552
-- [ ] `polity/gokturk` — span ends 603
-- [ ] `polity/gokturk` — capital Otukan from 552
-- [ ] `polity/gokturk` — founder Bumin Qaghan r. 552-552
-- [ ] `polity/gokturk` — peak Istami r. 552-576
-- [ ] `polity/gokturk` — last Tardu r. 599-603
-- [ ] `polity/gokturk` — descendant_scripts = 1 (Old Turkic runiform script)
-- [ ] `polity/gokturk` — ended by fragmentation in 603
-- [ ] `polity/karakhanid` — turning point 1069 The Kutadgu Bilig
-- [ ] `polity/karakhanid` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/khazar` — span starts 650
-- [ ] `polity/khazar` — span ends 969
-- [ ] `polity/khazar` — capital Atil from 650
-- [ ] `polity/khazar` — founder Bulan r. 740-750
-- [ ] `polity/khazar` — peak Joseph r. 930-960
-- [ ] `polity/khazar` — last Joseph r. 930-960
-- [ ] `polity/khazar` — ended by conquest in 969
-- [ ] `polity/uyghur-khaganate` — span starts 744
-- [ ] `polity/uyghur-khaganate` — span ends 840
-- [ ] `polity/uyghur-khaganate` — capital Ordu-Baliq from 744
-- [ ] `polity/uyghur-khaganate` — founder Qutlugh Bilge Kol r. 744-747
-- [ ] `polity/uyghur-khaganate` — peak Bogu Khagan r. 759-779
-- [ ] `polity/uyghur-khaganate` — last Kchik Khagan r. 839-840
-- [ ] `polity/uyghur-khaganate` — turning point 762 Bogu Khagan's adoption of Manichaeism
-- [ ] `polity/uyghur-khaganate` — religions_carried = 1 (Manichaeism)
-- [ ] `polity/uyghur-khaganate` — ended by conquest in 840
-
 ## Rachel Mairs, The Hellenistic Far East: Archaeology, Language, and Identity in Greek Central Asia
 
-`mairs-2014` — 33 claims
-
-**Sole source** for `greco-bactria`, `indo-greek` — nothing else in the corpus can contradict a misreading here.
+`mairs-2014` — 35 claims
 
 - [ ] `chapter/greco-bactria/01-a-satrap-stops-answering.mdx` — prose: "A satrap stops answering"
 - [ ] `chapter/greco-bactria/02-ai-khanoum.mdx` — prose: "The city on the Oxus"
 - [ ] `chapter/greco-bactria/03-the-coins.mdx` — prose: "A polity known from its money"
 - [ ] `chapter/greco-bactria/04-the-yuezhi.mdx` — prose: "What came out of the steppe"
 - [ ] `chapter/indo-greek/01-over-the-mountains.mdx` — prose: "Over the mountains"
-- [ ] `chapter/indo-greek/02-menander.mdx` — prose: "Menander"
-- [ ] `chapter/indo-greek/03-two-faces.mdx` — prose: "Two faces of a coin"
-- [ ] `chapter/indo-greek/04-the-sakas.mdx` — prose: "The same movement, later"
+- [ ] `chapter/indo-greek/02-forty-kings.mdx` — prose: "Forty kings and no chronicle"
+- [ ] `chapter/indo-greek/03-menander.mdx` — prose: "Menander"
+- [ ] `chapter/indo-greek/04-two-faces.mdx` — prose: "Two faces of a coin"
+- [ ] `chapter/indo-greek/05-the-silver-thins.mdx` — prose: "The silver thins"
+- [ ] `chapter/indo-greek/06-the-sakas.mdx` — prose: "The same movement, later"
 - [ ] `edge/greco-bactria->indo-greek` — partitioned from in -180
 - [ ] `edge/seleucid->greco-bactria` — seceded from in -256
 - [ ] `polity/greco-bactria` — span starts -256
@@ -2140,6 +2149,83 @@ ordinary state, not an item to clear.
 - [ ] `polity/indo-greek` — legitimation coded conquest + divine-sanction
 - [ ] `polity/indo-greek` — turning point -155 The bilingual coinage
 - [ ] `polity/indo-greek` — ended by conquest in 10
+
+## Romila Thapar, Early India: From the Origins to AD 1300
+
+`thapar-2002` — 34 claims
+
+- [ ] `chapter/gupta/04-gupta.mdx` — prose: "A classical reference point"
+- [ ] `chapter/gupta/05-the-hunas.mdx` — prose: "The Hunas, and the plates"
+- [ ] `chapter/gupta/06-what-the-axes-miss.mdx` — prose: "Zero"
+- [ ] `chapter/gupta/07-the-classical.mdx` — prose: "The word "classical""
+- [ ] `chapter/kushan/01-driven-west.mdx` — prose: "Driven west"
+- [ ] `chapter/kushan/03-kushan.mdx` — prose: "The junction"
+- [ ] `chapter/kushan/04-the-coins.mdx` — prose: "What the coins say"
+- [ ] `chapter/kushan/05-the-sasanians.mdx` — prose: "Taken from the west"
+- [ ] `chapter/kushan/06-the-face.mdx` — prose: "The face"
+- [ ] `chapter/maurya/04-maurya.mdx` — prose: "What the edicts were for"
+- [ ] `chapter/maurya/05-the-inscriptions.mdx` — prose: "Reading a king who explains himself"
+- [ ] `chapter/maurya/06-pushyamitra.mdx` — prose: "The commander-in-chief"
+- [ ] `polity/gupta` — span starts 320
+- [ ] `polity/gupta` — span ends 550
+- [ ] `polity/gupta` — capital Pataliputra from 320
+- [ ] `polity/gupta` — founder Chandragupta I r. 320-335
+- [ ] `polity/gupta` — peak Chandragupta II r. 375-415
+- [ ] `polity/gupta` — last Vishnugupta r. 540-550
+- [ ] `polity/gupta` — ended by fragmentation in 550
+- [ ] `polity/kushan` — span starts 30
+- [ ] `polity/kushan` — span ends 375
+- [ ] `polity/kushan` — capital Purushapura from 30
+- [ ] `polity/kushan` — founder Kujula Kadphises r. 30-80
+- [ ] `polity/kushan` — peak Kanishka I r. 127-150
+- [ ] `polity/kushan` — last Vasudeva II r. 290-375
+- [ ] `polity/kushan` — religions_carried = 1 (Mahayana Buddhism)
+- [ ] `polity/maurya` — span starts -322
+- [ ] `polity/maurya` — span ends -185
+- [ ] `polity/maurya` — capital Pataliputra from -322
+- [ ] `polity/maurya` — founder Chandragupta Maurya r. -322--298
+- [ ] `polity/maurya` — peak Ashoka r. -268--232
+- [ ] `polity/maurya` — last Brihadratha r. -187--185
+- [ ] `polity/maurya` — religions_carried = 1 (Buddhism)
+- [ ] `polity/maurya` — ended by internal usurpation in -185
+
+## Derek A. Welsby, The Medieval Kingdoms of Nubia: Pagans, Christians and Muslims along the Middle Nile
+
+`welsby-2002` — 33 claims
+
+- [ ] `chapter/alodia/01-four-hundred-churches.mdx` — prose: "Four hundred churches"
+- [ ] `chapter/alodia/02-a-race-up-the-nile.mdx` — prose: "A race up the Nile"
+- [ ] `chapter/alodia/03-what-one-visitor-saw.mdx` — prose: "What one visitor saw"
+- [ ] `chapter/alodia/04-the-bishops-stop-coming.mdx` — prose: "The bishops stop coming"
+- [ ] `chapter/alodia/05-1504.mdx` — prose: "1504"
+- [ ] `chapter/makuria/01-the-pupil-smiters.mdx` — prose: "The pupil-smiters"
+- [ ] `chapter/makuria/04-the-fourth-case.mdx` — prose: "The sister's son"
+- [ ] `chapter/makuria/06-ninety-years.mdx` — prose: "Ninety years"
+- [ ] `chapter/makuria/07-1365.mdx` — prose: "1365"
+- [ ] `polity/alodia` — span starts 580
+- [ ] `polity/alodia` — span ends 1504
+- [ ] `polity/alodia` — capital Soba from 580
+- [ ] `polity/alodia` — turning point 580 Longinus (contested)
+- [ ] `polity/alodia` — turning point 1504 Soba falls
+- [ ] `polity/alodia` — descendant_scripts = 0
+- [ ] `polity/alodia` — religions_carried = 0
+- [ ] `polity/alodia` — successor_claims = 0
+- [ ] `polity/alodia` — ended by conquest in 1504
+- [ ] `polity/makuria` — span starts 651
+- [ ] `polity/makuria` — span ends 1365
+- [ ] `polity/makuria` — capital Old Dongola from 651
+- [ ] `polity/makuria` — founder Qalidurut
+- [ ] `polity/makuria` — peak Merkurios r. 697-722
+- [ ] `polity/makuria` — last Kudanbes
+- [ ] `polity/makuria` — military basis coded conscript
+- [ ] `polity/makuria` — succession rule coded matrilineal
+- [ ] `polity/makuria` — legitimation coded divine-sanction + descent
+- [ ] `polity/makuria` — turning point 652 The baqt
+- [ ] `polity/makuria` — turning point 1276 Baybars breaks it
+- [ ] `polity/makuria` — turning point 1317 The throne hall
+- [ ] `polity/makuria` — religions_carried = 0
+- [ ] `polity/makuria` — successor_claims = 0
+- [ ] `polity/makuria` — ended by gradual absorption in 1365
 
 ## Eckart Frahm, Assyria: The Rise and Fall of the World's First Empire
 
@@ -2183,16 +2269,14 @@ ordinary state, not an item to clear.
 
 `wilkinson-1987` — 32 claims
 
-**Sole source** for `oman-imamate` — nothing else in the corpus can contradict a misreading here.
-
 - [ ] `chapter/oman-imamate/01-elected-and-removable.mdx` — prose: "Elected, and removable"
 - [ ] `chapter/oman-imamate/02-the-aflaj.mdx` — prose: "Water, and who owns it"
 - [ ] `chapter/oman-imamate/03-the-century.mdx` — prose: "The century it worked"
-- [ ] `chapter/oman-imamate/04-the-deposition.mdx` — prose: "The question an elective office has to answer"
-- [ ] `chapter/oman-imamate/05-an-office-that-comes-back.mdx` — prose: "An office that comes back"
+- [ ] `chapter/oman-imamate/05-the-deposition.mdx` — prose: "The question an elective office has to answer"
+- [ ] `chapter/oman-imamate/06-an-office-that-comes-back.mdx` — prose: "An office that comes back"
 - [ ] `chapter/yaariba/01-the-office-again.mdx` — prose: "The office, again"
-- [ ] `chapter/yaariba/04-a-fleet-the-field-cannot-record.mdx` — prose: "A fleet the field cannot record"
-- [ ] `chapter/yaariba/05-1719.mdx` — prose: "A question about procedure"
+- [ ] `chapter/yaariba/04-a-fleet-the-field-cannot-record.mdx` — prose: "The imamate that went to sea"
+- [ ] `chapter/yaariba/06-1719.mdx` — prose: "A question about procedure"
 - [ ] `edge/oman-imamate->abbasid` — conquered by in 893
 - [ ] `polity/oman-imamate` — span starts 750
 - [ ] `polity/oman-imamate` — span ends 893
@@ -2218,44 +2302,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/yaariba` — legitimation coded election
 - [ ] `polity/yaariba` — turning point 1719 The disputed election
 
-## Derek A. Welsby, The Medieval Kingdoms of Nubia: Pagans, Christians and Muslims along the Middle Nile
-
-`welsby-2002` — 31 claims
-
-**Sole source** for `alodia` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/alodia/01-four-hundred-churches.mdx` — prose: "Four hundred churches"
-- [ ] `chapter/alodia/02-a-race-up-the-nile.mdx` — prose: "A race up the Nile"
-- [ ] `chapter/alodia/03-what-one-visitor-saw.mdx` — prose: "What one visitor saw"
-- [ ] `chapter/alodia/04-1504.mdx` — prose: "1504"
-- [ ] `chapter/makuria/01-the-pupil-smiters.mdx` — prose: "The pupil-smiters"
-- [ ] `chapter/makuria/03-the-fourth-case.mdx` — prose: "The fourth case"
-- [ ] `chapter/makuria/05-1365.mdx` — prose: "1365"
-- [ ] `polity/alodia` — span starts 580
-- [ ] `polity/alodia` — span ends 1504
-- [ ] `polity/alodia` — capital Soba from 580
-- [ ] `polity/alodia` — turning point 580 Longinus (contested)
-- [ ] `polity/alodia` — turning point 1504 Soba falls
-- [ ] `polity/alodia` — descendant_scripts = 0
-- [ ] `polity/alodia` — religions_carried = 0
-- [ ] `polity/alodia` — successor_claims = 0
-- [ ] `polity/alodia` — ended by conquest in 1504
-- [ ] `polity/makuria` — span starts 651
-- [ ] `polity/makuria` — span ends 1365
-- [ ] `polity/makuria` — capital Old Dongola from 651
-- [ ] `polity/makuria` — founder Qalidurut
-- [ ] `polity/makuria` — peak Merkurios r. 697-722
-- [ ] `polity/makuria` — last Kudanbes
-- [ ] `polity/makuria` — military basis coded conscript
-- [ ] `polity/makuria` — succession rule coded matrilineal
-- [ ] `polity/makuria` — legitimation coded divine-sanction + descent
-- [ ] `polity/makuria` — turning point 652 The baqt
-- [ ] `polity/makuria` — turning point 1276 Baybars breaks it
-- [ ] `polity/makuria` — turning point 1317 The throne hall
-- [ ] `polity/makuria` — religions_carried = 0
-- [ ] `polity/makuria` — successor_claims = 0
-- [ ] `polity/makuria` — ended by gradual absorption in 1365
-
 ## Ian Shaw (ed.), The Oxford History of Ancient Egypt
 
 `shaw-2000` — 31 claims
@@ -2266,8 +2312,8 @@ ordinary state, not an item to clear.
 - [ ] `chapter/egypt-new-kingdom/05-kadesh.mdx` — prose: "Kadesh, and the treaty"
 - [ ] `chapter/egypt-new-kingdom/06-the-collapse.mdx` — prose: "What was left when the system stopped"
 - [ ] `chapter/egypt-old-kingdom/01-the-first-stone.mdx` — prose: "The first stone"
-- [ ] `chapter/egypt-old-kingdom/02-giza.mdx` — prose: "Giza"
-- [ ] `chapter/egypt-old-kingdom/04-the-drought-argument.mdx` — prose: "The drought argument"
+- [ ] `chapter/egypt-old-kingdom/03-giza.mdx` — prose: "Giza"
+- [ ] `chapter/egypt-old-kingdom/05-the-drought-argument.mdx` — prose: "The drought argument"
 - [ ] `polity/egypt-new-kingdom` — span starts -1550
 - [ ] `polity/egypt-new-kingdom` — span ends -1077
 - [ ] `polity/egypt-new-kingdom` — capital Thebes from -1550
@@ -2292,86 +2338,17 @@ ordinary state, not an item to clear.
 - [ ] `polity/egypt-old-kingdom` — successor_claims = 0
 - [ ] `polity/egypt-old-kingdom` — ended by fragmentation in -2181
 
-## Anthony Reid, Southeast Asia in the Age of Commerce, 1450-1680. Volume One: The Lands below the Winds
-
-`reid-1988` — 30 claims
-
-- [ ] `chapter/aceh/01-what-1511-sent-north.mdx` — prose: "What 1511 sent north"
-- [ ] `chapter/aceh/02-pepper.mdx` — prose: "Pepper"
-- [ ] `chapter/aceh/04-iskandar-muda.mdx` — prose: "Iskandar Muda"
-- [ ] `chapter/aceh/05-four-queens.mdx` — prose: "Four queens"
-- [ ] `chapter/makassar/01-the-open-port.mdx` — prose: "The open port"
-- [ ] `chapter/makassar/02-a-telescope.mdx` — prose: "A telescope"
-- [ ] `chapter/melaka/03-no-rice.mdx` — prose: "No rice"
-- [ ] `chapter/melaka/04-iskandar-shah.mdx` — prose: "Iskandar Shah"
-- [ ] `chapter/melaka/06-1511.mdx` — prose: "1511"
-- [ ] `edge/melaka->aceh` — absorbed remnants of in 1511
-- [ ] `polity/aceh` — peak Iskandar Muda r. 1607-1636
-- [ ] `polity/aceh` — revenue basis coded trade-toll + monopoly
-- [ ] `polity/aceh` — turning point 1629 Melaka
-- [ ] `polity/aceh` — turning point 1641 Safiatuddin
-- [ ] `polity/makassar` — span starts 1511
-- [ ] `polity/makassar` — capital Makassar from 1511
-- [ ] `polity/makassar` — founder Tumapa'risi' Kallonna r. 1511-1546
-- [ ] `polity/makassar` — revenue basis coded trade-toll + land-tax
-- [ ] `polity/makassar` — turning point 1605 Islam
-- [ ] `polity/makassar` — descendant_scripts = 0
-- [ ] `polity/makassar` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/melaka` — span ends 1511
-- [ ] `polity/melaka` — last Mahmud Shah r. 1488-1511
-- [ ] `polity/melaka` — revenue basis coded trade-toll
-- [ ] `polity/melaka` — turning point 1414 Islam (contested)
-- [ ] `polity/melaka` — turning point 1511 Albuquerque
-- [ ] `polity/melaka` — descendant_scripts = 0
-- [ ] `polity/melaka` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/melaka` — ended by conquest in 1511
-- [ ] `polity/patani` — revenue basis coded trade-toll
-
-## C. E. Bosworth, The Political and Dynastic History of the Iranian World (A.D. 1000-1217)
-*In The Cambridge History of Iran, Volume 5.*
-
-`bosworth-1968` — 30 claims
-
-- [ ] `chapter/great-seljuk/02-the-followers-they-could-not-hold.mdx` — prose: "The followers they could not hold"
-- [ ] `chapter/great-seljuk/03-tughril-in-baghdad.mdx` — prose: "The same room, a different man"
-- [ ] `chapter/great-seljuk/04-manzikert.mdx` — prose: "Manzikert"
-- [ ] `chapter/great-seljuk/05-nizam-al-mulk.mdx` — prose: "Nizam al-Mulk's twenty years"
-- [ ] `chapter/great-seljuk/06-the-siyasatnama.mdx` — prose: "The book of government"
-- [ ] `chapter/great-seljuk/07-a-family-not-a-state.mdx` — prose: "A family and not a state"
-- [ ] `chapter/khwarazmian/02-taking-the-sultanate.mdx` — prose: "Taking the title as well"
-- [ ] `chapter/khwarazmian/03-throwing-off-the-qara-khitai.mdx` — prose: "Throwing off one overlord and finding another"
-- [ ] `edge/ghaznavid->great-seljuk` — conquered by in 1040
-- [ ] `edge/great-seljuk->khwarazmian` — overthrew in 1194
-- [ ] `edge/great-seljuk->khwarazmian` — claimed legitimacy of in 1194
-- [ ] `polity/great-seljuk` — span ends 1194
-- [ ] `polity/great-seljuk` — capital Isfahan from 1051
-- [ ] `polity/great-seljuk` — peak Malik-Shah I r. 1072-1092
-- [ ] `polity/great-seljuk` — military basis coded tribal-levy + land-grant
-- [ ] `polity/great-seljuk` — revenue basis coded land-tax
-- [ ] `polity/great-seljuk` — succession rule coded appanage
-- [ ] `polity/great-seljuk` — legitimation coded caliphal-investiture
-- [ ] `polity/great-seljuk` — turning point 1055 Tughril takes the sultanate
-- [ ] `polity/great-seljuk` — turning point 1071 Manzikert
-- [ ] `polity/great-seljuk` — turning point 1092 Nizam al-Mulk and Malik-Shah die a month apart
-- [ ] `polity/great-seljuk` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/great-seljuk` — successor_claims = 2 (Sultanate of Rum, khwarazmian)
-- [ ] `polity/great-seljuk` — ended by conquest in 1194
-- [ ] `polity/khwarazmian` — military basis coded slave-soldier + tribal-levy
-- [ ] `polity/khwarazmian` — revenue basis coded land-tax + trade-toll
-- [ ] `polity/khwarazmian` — succession rule coded nomination
-- [ ] `polity/khwarazmian` — legitimation coded titulature
-- [ ] `polity/khwarazmian` — turning point 1210 Breaking the Qara Khitai
-- [ ] `polity/khwarazmian` — turning point 1217 A rival caliph, and snow in the Zagros
-
 ## Nehemia Levtzion, Ancient Ghana and Mali
 
-`levtzion-1973` — 29 claims
+`levtzion-1973` — 31 claims
 
-- [ ] `chapter/ghana/04-1076.mdx` — prose: "1076"
+- [ ] `chapter/ghana/05-the-conquest-that-did-not-happen.mdx` — prose: "The conquest that did not happen"
+- [ ] `chapter/ghana/06-sosso.mdx` — prose: "Sosso"
 - [ ] `chapter/mali/02-the-gold-they-did-not-own.mdx` — prose: "The gold they did not own"
 - [ ] `chapter/mali/03-the-other-end.mdx` — prose: "The other end of the gold"
 - [ ] `chapter/mali/04-mansa-musa.mdx` — prose: "The pilgrimage, and what it cost"
 - [ ] `chapter/mali/06-the-long-recession.mdx` — prose: "The long recession"
+- [ ] `chapter/mali/07-niani.mdx` — prose: "Niani"
 - [ ] `edge/ghana->mali` — absorbed remnants of in 1240
 - [ ] `polity/ghana` — span starts 700
 - [ ] `polity/ghana` — span ends 1240
@@ -2397,12 +2374,84 @@ ordinary state, not an item to clear.
 - [ ] `polity/mali` — successor_claims = 0
 - [ ] `polity/mali` — ended by fragmentation in 1670
 
+## C. E. Bosworth, The Political and Dynastic History of the Iranian World (A.D. 1000-1217)
+*In The Cambridge History of Iran, Volume 5.*
+
+`bosworth-1968` — 31 claims
+
+- [ ] `chapter/great-seljuk/02-the-followers-they-could-not-hold.mdx` — prose: "The followers they could not hold"
+- [ ] `chapter/great-seljuk/03-tughril-in-baghdad.mdx` — prose: "The same room, a different man"
+- [ ] `chapter/great-seljuk/04-manzikert.mdx` — prose: "Manzikert"
+- [ ] `chapter/great-seljuk/05-nizam-al-mulk.mdx` — prose: "Nizam al-Mulk's twenty years"
+- [ ] `chapter/great-seljuk/06-the-siyasatnama.mdx` — prose: "The book of government"
+- [ ] `chapter/great-seljuk/08-a-family-not-a-state.mdx` — prose: "A family and not a state"
+- [ ] `chapter/khwarazmian/02-taking-the-sultanate.mdx` — prose: "Taking the title as well"
+- [ ] `chapter/khwarazmian/03-throwing-off-the-qara-khitai.mdx` — prose: "Throwing off one overlord and finding another"
+- [ ] `chapter/khwarazmian/04-the-largest-state-in-the-east.mdx` — prose: "The largest state in the east"
+- [ ] `edge/ghaznavid->great-seljuk` — conquered by in 1040
+- [ ] `edge/great-seljuk->khwarazmian` — overthrew in 1194
+- [ ] `edge/great-seljuk->khwarazmian` — claimed legitimacy of in 1194
+- [ ] `polity/great-seljuk` — span ends 1194
+- [ ] `polity/great-seljuk` — capital Isfahan from 1051
+- [ ] `polity/great-seljuk` — peak Malik-Shah I r. 1072-1092
+- [ ] `polity/great-seljuk` — military basis coded tribal-levy + land-grant
+- [ ] `polity/great-seljuk` — revenue basis coded land-tax
+- [ ] `polity/great-seljuk` — succession rule coded appanage
+- [ ] `polity/great-seljuk` — legitimation coded caliphal-investiture
+- [ ] `polity/great-seljuk` — turning point 1055 Tughril takes the sultanate
+- [ ] `polity/great-seljuk` — turning point 1071 Manzikert
+- [ ] `polity/great-seljuk` — turning point 1092 Nizam al-Mulk and Malik-Shah die a month apart
+- [ ] `polity/great-seljuk` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/great-seljuk` — successor_claims = 2 (Sultanate of Rum, khwarazmian)
+- [ ] `polity/great-seljuk` — ended by conquest in 1194
+- [ ] `polity/khwarazmian` — military basis coded slave-soldier + tribal-levy
+- [ ] `polity/khwarazmian` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/khwarazmian` — succession rule coded nomination
+- [ ] `polity/khwarazmian` — legitimation coded titulature
+- [ ] `polity/khwarazmian` — turning point 1210 Breaking the Qara Khitai
+- [ ] `polity/khwarazmian` — turning point 1217 A rival caliph, and snow in the Zagros
+
+## Anthony Reid, Southeast Asia in the Age of Commerce, 1450-1680. Volume One: The Lands below the Winds
+
+`reid-1988` — 30 claims
+
+- [ ] `chapter/aceh/01-what-1511-sent-north.mdx` — prose: "What 1511 sent north"
+- [ ] `chapter/aceh/02-pepper.mdx` — prose: "Pepper"
+- [ ] `chapter/aceh/04-iskandar-muda.mdx` — prose: "Iskandar Muda"
+- [ ] `chapter/aceh/05-four-queens.mdx` — prose: "Four queens"
+- [ ] `chapter/makassar/02-the-open-port.mdx` — prose: "The open port"
+- [ ] `chapter/makassar/03-a-telescope.mdx` — prose: "A telescope"
+- [ ] `chapter/melaka/03-no-rice.mdx` — prose: "No rice"
+- [ ] `chapter/melaka/04-iskandar-shah.mdx` — prose: "Iskandar Shah"
+- [ ] `chapter/melaka/07-1511.mdx` — prose: "1511"
+- [ ] `edge/melaka->aceh` — absorbed remnants of in 1511
+- [ ] `polity/aceh` — peak Iskandar Muda r. 1607-1636
+- [ ] `polity/aceh` — revenue basis coded trade-toll + monopoly
+- [ ] `polity/aceh` — turning point 1629 Melaka
+- [ ] `polity/aceh` — turning point 1641 Safiatuddin
+- [ ] `polity/makassar` — span starts 1511
+- [ ] `polity/makassar` — capital Makassar from 1511
+- [ ] `polity/makassar` — founder Tumapa'risi' Kallonna r. 1511-1546
+- [ ] `polity/makassar` — revenue basis coded trade-toll + land-tax
+- [ ] `polity/makassar` — turning point 1605 Islam
+- [ ] `polity/makassar` — descendant_scripts = 0
+- [ ] `polity/makassar` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/melaka` — span ends 1511
+- [ ] `polity/melaka` — last Mahmud Shah r. 1488-1511
+- [ ] `polity/melaka` — revenue basis coded trade-toll
+- [ ] `polity/melaka` — turning point 1414 Islam (contested)
+- [ ] `polity/melaka` — turning point 1511 Albuquerque
+- [ ] `polity/melaka` — descendant_scripts = 0
+- [ ] `polity/melaka` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/melaka` — ended by conquest in 1511
+- [ ] `polity/patani` — revenue basis coded trade-toll
+
 ## Touraj Daryaee, Sasanian Persia: The Rise and Fall of an Empire
 
 `daryaee-2009` — 29 claims
 
 - [ ] `chapter/parthian/07-224.mdx` — prose: "A sub-king in Persis"
-- [ ] `chapter/persis/04-224.mdx` — prose: "A polity that became the centre"
+- [ ] `chapter/persis/04-224.mdx` — prose: "A kingdom that became the centre"
 - [ ] `chapter/sasanian/01-ardashir.mdx` — prose: "A vassal takes the crown"
 - [ ] `chapter/sasanian/02-shapur.mdx` — prose: "The emperor on his knees"
 - [ ] `chapter/sasanian/03-the-fire-and-the-church.mdx` — prose: "A state religion, and the church it made possible"
@@ -2464,49 +2513,14 @@ ordinary state, not an item to clear.
 - [ ] `polity/first-bulgarian` — successor_claims = 0
 - [ ] `polity/first-bulgarian` — ended by conquest in 1018
 
-## Romila Thapar, Early India: From the Origins to AD 1300
-
-`thapar-2002` — 28 claims
-
-- [ ] `chapter/gupta/01-gupta.mdx` — prose: "A classical reference point"
-- [ ] `chapter/gupta/02-what-the-axes-miss.mdx` — prose: "Zero"
-- [ ] `chapter/kushan/01-kushan.mdx` — prose: "The junction"
-- [ ] `chapter/kushan/02-the-coins.mdx` — prose: "What the coins say"
-- [ ] `chapter/maurya/01-maurya.mdx` — prose: "Ashoka's renunciation"
-- [ ] `chapter/maurya/02-the-inscriptions.mdx` — prose: "Reading a king who explains himself"
-- [ ] `polity/gupta` — span starts 320
-- [ ] `polity/gupta` — span ends 550
-- [ ] `polity/gupta` — capital Pataliputra from 320
-- [ ] `polity/gupta` — founder Chandragupta I r. 320-335
-- [ ] `polity/gupta` — peak Chandragupta II r. 375-415
-- [ ] `polity/gupta` — last Vishnugupta r. 540-550
-- [ ] `polity/gupta` — ended by fragmentation in 550
-- [ ] `polity/kushan` — span starts 30
-- [ ] `polity/kushan` — span ends 375
-- [ ] `polity/kushan` — capital Purushapura from 30
-- [ ] `polity/kushan` — founder Kujula Kadphises r. 30-80
-- [ ] `polity/kushan` — peak Kanishka I r. 127-150
-- [ ] `polity/kushan` — last Vasudeva II r. 290-375
-- [ ] `polity/kushan` — religions_carried = 1 (Mahayana Buddhism)
-- [ ] `polity/maurya` — span starts -322
-- [ ] `polity/maurya` — span ends -185
-- [ ] `polity/maurya` — capital Pataliputra from -322
-- [ ] `polity/maurya` — founder Chandragupta Maurya r. -322--298
-- [ ] `polity/maurya` — peak Ashoka r. -268--232
-- [ ] `polity/maurya` — last Brihadratha r. -187--185
-- [ ] `polity/maurya` — religions_carried = 1 (Buddhism)
-- [ ] `polity/maurya` — ended by internal usurpation in -185
-
 ## Peter Heather, The Goths
 *In The Peoples of Europe.*
 
 `heather-1996` — 28 claims
 
-**Sole source** for `ostrogothic` — nothing else in the corpus can contradict a misreading here.
-
 - [ ] `chapter/ostrogothic/01-a-king-sent-by-an-emperor.mdx` — prose: "A king sent by an emperor"
-- [ ] `chapter/ostrogothic/02-boethius.mdx` — prose: "Boethius"
-- [ ] `chapter/ostrogothic/03-eighteen-years.mdx` — prose: "Eighteen years"
+- [ ] `chapter/ostrogothic/03-boethius.mdx` — prose: "Boethius"
+- [ ] `chapter/ostrogothic/05-eighteen-years.mdx` — prose: "Eighteen years"
 - [ ] `chapter/visigothic/01-a-treaty-and-a-province.mdx` — prose: "A treaty and a province"
 - [ ] `edge/ostrogothic->byzantine` — conquered by in 553
 - [ ] `edge/roman->ostrogothic` — absorbed remnants of in 493
@@ -2533,12 +2547,74 @@ ordinary state, not an item to clear.
 - [ ] `polity/visigothic` — founder Wallia r. 415-418
 - [ ] `polity/visigothic` — turning point 507 Vouillé
 
+## Henry Cassels Kay (ed. and trans.), Yaman: Its Early Mediaeval History
+
+`kay-1892` — 27 claims
+
+- [ ] `chapter/himyar/08-the-tubbas.mdx` — prose: "The Tubbas"
+- [ ] `chapter/najahid/04-i-am-jayyash.mdx` — prose: "I am Jayyash"
+- [ ] `chapter/najahid/05-winter-belongs-to-the-mountains.mdx` — prose: "Winter belongs to the mountains"
+- [ ] `chapter/najahid/07-seventy-two-engagements.mdx` — prose: "Seventy-two engagements"
+- [ ] `chapter/najahid/08-the-book-that-was-quoted.mdx` — prose: "The book that was quoted"
+- [ ] `chapter/qarmatian/07-the-word.mdx` — prose: "The word"
+- [ ] `chapter/saba/07-where-everybody-came-from.mdx` — prose: "Where everybody came from"
+- [ ] `chapter/sulayhid/03-the-well-of-umm-mabad.mdx` — prose: "The well of Umm Ma'bad"
+- [ ] `chapter/sulayhid/04-the-heads-at-the-window.mdx` — prose: "The heads at the window"
+- [ ] `chapter/sulayhid/06-a-gracious-letter.mdx` — prose: "A gracious letter"
+- [ ] `chapter/sulayhid/09-the-kingdom-was-sold.mdx` — prose: "The kingdom was sold"
+- [ ] `chapter/ziyadid/02-the-tihama.mdx` — prose: "The Tihama"
+- [ ] `chapter/ziyadid/03-a-million-dinars.mdx` — prose: "A million dinars"
+- [ ] `chapter/ziyadid/04-husayn-ibn-salama.mdx` — prose: "Husayn ibn Salama"
+- [ ] `chapter/ziyadid/05-the-name-nobody-knew.mdx` — prose: "The name nobody knew"
+- [ ] `chapter/ziyadid/06-1018.mdx` — prose: "The wall"
+- [ ] `chapter/ziyadid/07-the-road-and-the-book.mdx` — prose: "The road and the book"
+- [ ] `chapter/zurayid/01-the-farm-that-kept-itself.mdx` — prose: "The farm that kept itself"
+- [ ] `chapter/zurayid/02-the-queens-dowry.mdx` — prose: "The queen's dowry"
+- [ ] `chapter/zurayid/03-the-customs-house.mdx` — prose: "The customs house"
+- [ ] `chapter/zurayid/04-a-hundred-thousand-dinars.mdx` — prose: "A hundred thousand dinars"
+- [ ] `chapter/zurayid/07-a-site-chosen-by-doctors.mdx` — prose: "A site chosen by doctors"
+- [ ] `polity/ziyadid` — revenue basis coded land-tax
+- [ ] `polity/ziyadid` — turning point 1018 The house ends without falling
+- [ ] `polity/zurayid` — peak Muhammad ibn Saba'
+- [ ] `polity/zurayid` — military basis coded tribal-levy
+- [ ] `polity/zurayid` — revenue basis coded trade-toll
+
+## Frederick W. Mote and Denis Twitchett (eds), The Cambridge History of China, Volume 7: The Ming Dynasty, 1368-1644, Part 1
+
+`mote-twitchett-1988` — 27 claims
+
+- [ ] `chapter/ming/01-the-mendicant.mdx` — prose: "The mendicant"
+- [ ] `chapter/ming/02-the-third-son.mdx` — prose: "The third son"
+- [ ] `chapter/ming/03-the-fleets.mdx` — prose: "Seven fleets, and then none"
+- [ ] `chapter/ming/04-tumu.mdx` — prose: "Tumu"
+- [ ] `chapter/ming/05-a-million-soldiers.mdx` — prose: "A million soldiers, free"
+- [ ] `chapter/ming/06-the-wall-and-the-silver.mdx` — prose: "A wall, and other people's silver"
+- [ ] `chapter/ming/07-the-silver-and-the-hill.mdx` — prose: "The silver, and the hill"
+- [ ] `edge/yuan->ming` — overthrew in 1368
+- [ ] `polity/ming` — span starts 1368
+- [ ] `polity/ming` — span ends 1644
+- [ ] `polity/ming` — capital Beijing from 1368
+- [ ] `polity/ming` — founder Hongwu Emperor r. 1368-1398
+- [ ] `polity/ming` — peak Yongle Emperor r. 1402-1424
+- [ ] `polity/ming` — last Chongzhen Emperor r. 1627-1644
+- [ ] `polity/ming` — military basis coded land-grant
+- [ ] `polity/ming` — revenue basis coded land-tax + monopoly
+- [ ] `polity/ming` — succession rule coded primogeniture
+- [ ] `polity/ming` — legitimation coded divine-sanction + descent
+- [ ] `polity/ming` — turning point 1421 Beijing
+- [ ] `polity/ming` — turning point 1449 Tumu
+- [ ] `polity/ming` — turning point 1581 The single whip
+- [ ] `polity/ming` — turning point 1644 Li Zicheng
+- [ ] `polity/ming` — descendant_scripts = 0
+- [ ] `polity/ming` — religions_carried = 0
+- [ ] `polity/ming` — successor_claims = 1 (The Southern Ming)
+- [ ] `polity/ming` — ended by conquest in 1644
+- [ ] `polity/yuan` — ended by conquest in 1368
+
 ## Sima M. Ćirković, The Serbs
 *In The Peoples of Europe.*
 
 `cirkovic-2004` — 27 claims
-
-**Sole source** for `serbia` — nothing else in the corpus can contradict a misreading here.
 
 - [ ] `chapter/serbia/01-a-family-of-saints.mdx` — prose: "A family of saints"
 - [ ] `chapter/serbia/02-the-silver.mdx` — prose: "The silver"
@@ -2600,6 +2676,101 @@ ordinary state, not an item to clear.
 - [ ] `reference/seleucid` — reach 3,900,000 km2 at -301
 - [ ] `reference/xiongnu` — reach 9,000,000 km2 at -176
 
+## Nehemia Levtzion and Randall L. Pouwels (eds), The History of Islam in Africa
+
+`levtzion-pouwels-2000` — 26 claims
+
+- [ ] `chapter/kanem-bornu/01-eight-hundred-years.mdx` — prose: "Eight hundred years"
+- [ ] `chapter/kanem-bornu/03-the-girgam.mdx` — prose: "The girgam"
+- [ ] `chapter/kanem-bornu/04-horses-and-people.mdx` — prose: "Horses and people"
+- [ ] `chapter/kanem-bornu/05-idris-alooma.mdx` — prose: "Idris Alooma"
+- [ ] `chapter/kanem-bornu/06-the-letters.mdx` — prose: "The letters"
+- [ ] `chapter/kanem-bornu/07-1893.mdx` — prose: "1893"
+- [ ] `chapter/kanem-bornu/08-four-countries.mdx` — prose: "Four countries on one lake"
+- [ ] `polity/himyar` — successor_claims = 1 (Kanem-Bornu)
+- [ ] `polity/kanem-bornu` — span ends 1893
+- [ ] `polity/kanem-bornu` — capital Ngazargamu from 1470
+- [ ] `polity/kanem-bornu` — capital Kukawa from 1814
+- [ ] `polity/kanem-bornu` — founder Humai
+- [ ] `polity/kanem-bornu` — peak Idris Alooma r. 1564-1596
+- [ ] `polity/kanem-bornu` — last Hashim
+- [ ] `polity/kanem-bornu` — military basis coded slave-soldier + conscript
+- [ ] `polity/kanem-bornu` — revenue basis coded trade-toll + tribute
+- [ ] `polity/kanem-bornu` — legitimation coded descent + divine-sanction
+- [ ] `polity/kanem-bornu` — turning point 1075 Humai
+- [ ] `polity/kanem-bornu` — turning point 1380 Across the lake
+- [ ] `polity/kanem-bornu` — turning point 1571 Idris Alooma
+- [ ] `polity/kanem-bornu` — turning point 1808 Ngazargamu
+- [ ] `polity/kanem-bornu` — turning point 1846 The end of the Sayfawa
+- [ ] `polity/kanem-bornu` — descendant_scripts = 0
+- [ ] `polity/kanem-bornu` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/kanem-bornu` — successor_claims = 0
+- [ ] `polity/kanem-bornu` — ended by conquest in 1893
+
+## Nicola Di Cosmo, Allen J. Frank and Peter B. Golden (eds), The Cambridge History of Inner Asia: The Chinggisid Age
+
+`di-cosmo-2009` — 26 claims
+
+**Sole source** for `shaybanid` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/shaybanid/01-the-descent.mdx` — prose: "The qualification Timur lacked"
+- [ ] `chapter/shaybanid/02-babur.mdx` — prose: "What it did to Babur"
+- [ ] `chapter/shaybanid/03-the-river.mdx` — prose: "The river becomes a border"
+- [ ] `chapter/shaybanid/04-abdullah-khan.mdx` — prose: "Abdullah Khan"
+- [ ] `chapter/shaybanid/05-bukhara.mdx` — prose: "Bukhara, and the decline that has to be argued for"
+- [ ] `chapter/shaybanid/06-the-caravan-that-stopped.mdx` — prose: "The caravan that stopped"
+- [ ] `chapter/shaybanid/07-the-line-runs-out.mdx` — prose: "The house ends and the khanate does not"
+- [ ] `chapter/shaybanid/08-the-uzbek-name.mdx` — prose: "The Uzbek name"
+- [ ] `edge/golden-horde->shaybanid` — partitioned from in 1500
+- [ ] `edge/timurid->shaybanid` — conquered by in 1507
+- [ ] `polity/shaybanid` — span starts 1500
+- [ ] `polity/shaybanid` — span ends 1599
+- [ ] `polity/shaybanid` — capital Samarkand from 1500
+- [ ] `polity/shaybanid` — capital Bukhara from 1533
+- [ ] `polity/shaybanid` — founder Muhammad Shaybani Khan r. 1500-1510
+- [ ] `polity/shaybanid` — peak Abdullah Khan II r. 1583-1598
+- [ ] `polity/shaybanid` — last Pir Muhammad II
+- [ ] `polity/shaybanid` — military basis coded tribal-levy
+- [ ] `polity/shaybanid` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/shaybanid` — succession rule coded tanistry + appanage
+- [ ] `polity/shaybanid` — legitimation coded descent + conquest
+- [ ] `polity/shaybanid` — turning point 1500 The taking of Samarkand
+- [ ] `polity/shaybanid` — turning point 1510 Merv
+- [ ] `polity/shaybanid` — turning point 1512 Ghijduvan
+- [ ] `polity/shaybanid` — turning point 1588 Abdullah Khan at Herat
+- [ ] `polity/shaybanid` — ended by dynastic replacement in 1599
+
+## Frederic C. Lane, Venice: A Maritime Republic
+
+`lane-1973` — 26 claims
+
+- [ ] `chapter/venice/01-a-city-with-no-land.mdx` — prose: "A city with no land"
+- [ ] `chapter/venice/02-the-fourth-crusade.mdx` — prose: "The fourth crusade"
+- [ ] `chapter/venice/03-the-constitution.mdx` — prose: "The constitution"
+- [ ] `chapter/venice/04-the-empire-of-ports.mdx` — prose: "The empire of ports"
+- [ ] `chapter/venice/05-the-long-decline.mdx` — prose: "The long decline"
+- [ ] `chapter/venice/06-twelve-may.mdx` — prose: "The twelfth of May"
+- [ ] `edge/byzantine->venice` — seceded from in 812
+- [ ] `polity/venice` — span starts 697
+- [ ] `polity/venice` — span ends 1797
+- [ ] `polity/venice` — capital Venice from 697
+- [ ] `polity/venice` — founder Orso Ipato r. 726-737
+- [ ] `polity/venice` — peak Enrico Dandolo r. 1192-1205
+- [ ] `polity/venice` — last Ludovico Manin r. 1789-1797
+- [ ] `polity/venice` — military basis coded conscript + mercenary
+- [ ] `polity/venice` — revenue basis coded trade-toll + monopoly
+- [ ] `polity/venice` — succession rule coded election
+- [ ] `polity/venice` — legitimation coded election + divine-sanction
+- [ ] `polity/venice` — turning point 1082 The golden bull
+- [ ] `polity/venice` — turning point 1204 Constantinople
+- [ ] `polity/venice` — turning point 1297 The Serrata
+- [ ] `polity/venice` — turning point 1380 Chioggia
+- [ ] `polity/venice` — turning point 1669 Candia
+- [ ] `polity/venice` — descendant_scripts = 0
+- [ ] `polity/venice` — religions_carried = 0
+- [ ] `polity/venice` — successor_claims = 0
+- [ ] `polity/venice` — ended by conquest in 1797
+
 ## Pierre Briant, From Cyrus to Alexander: A History of the Persian Empire
 
 `briant-2002` — 25 claims
@@ -2610,8 +2781,8 @@ ordinary state, not an item to clear.
 - [ ] `chapter/achaemenid/04-the-greek-problem.mdx` — prose: "The sources are the enemy's"
 - [ ] `chapter/achaemenid/05-by-the-favour-of-ahuramazda.mdx` — prose: "By the favour of Ahuramazda"
 - [ ] `chapter/achaemenid/06-not-in-decline.mdx` — prose: "Not in decline"
-- [ ] `chapter/median/04-what-cyrus-needed.mdx` — prose: "A predecessor worth having"
-- [ ] `chapter/median/05-549.mdx` — prose: "An army that changed sides"
+- [ ] `chapter/median/05-what-cyrus-needed.mdx` — prose: "A predecessor worth having"
+- [ ] `chapter/median/06-549.mdx` — prose: "An army that changed sides"
 - [ ] `edge/median->achaemenid` — overthrew in -549
 - [ ] `polity/achaemenid` — span starts -550
 - [ ] `polity/achaemenid` — span ends -330
@@ -2660,35 +2831,158 @@ ordinary state, not an item to clear.
 - [ ] `polity/shirvanshah` — last Farrukh Yasar r. 1465-1500
 - [ ] `polity/shirvanshah` — turning point 1500 The killing of Farrukh Yasar
 
-## Nehemia Levtzion and Randall L. Pouwels (eds), The History of Islam in Africa
+## Ivor Wilks, Asante in the Nineteenth Century: The Structure and Evolution of a Political Order
+*In African Studies Series 13.*
 
-`levtzion-pouwels-2000` — 25 claims
+`wilks-1975` — 25 claims
 
-- [ ] `chapter/kanem-bornu/01-eight-hundred-years.mdx` — prose: "Eight hundred years"
-- [ ] `chapter/kanem-bornu/02-the-girgam.mdx` — prose: "The girgam"
-- [ ] `chapter/kanem-bornu/03-horses-and-people.mdx` — prose: "Horses and people"
-- [ ] `chapter/kanem-bornu/04-idris-alooma.mdx` — prose: "Idris Alooma"
-- [ ] `chapter/kanem-bornu/05-the-letters.mdx` — prose: "The letters"
-- [ ] `chapter/kanem-bornu/06-1893.mdx` — prose: "1893"
-- [ ] `polity/himyar` — successor_claims = 1 (Kanem-Bornu)
-- [ ] `polity/kanem-bornu` — span ends 1893
-- [ ] `polity/kanem-bornu` — capital Ngazargamu from 1470
-- [ ] `polity/kanem-bornu` — capital Kukawa from 1814
-- [ ] `polity/kanem-bornu` — founder Humai
-- [ ] `polity/kanem-bornu` — peak Idris Alooma r. 1564-1596
-- [ ] `polity/kanem-bornu` — last Hashim
-- [ ] `polity/kanem-bornu` — military basis coded slave-soldier + conscript
-- [ ] `polity/kanem-bornu` — revenue basis coded trade-toll + tribute
-- [ ] `polity/kanem-bornu` — legitimation coded descent + divine-sanction
-- [ ] `polity/kanem-bornu` — turning point 1075 Humai
-- [ ] `polity/kanem-bornu` — turning point 1380 Across the lake
-- [ ] `polity/kanem-bornu` — turning point 1571 Idris Alooma
-- [ ] `polity/kanem-bornu` — turning point 1808 Ngazargamu
-- [ ] `polity/kanem-bornu` — turning point 1846 The end of the Sayfawa
-- [ ] `polity/kanem-bornu` — descendant_scripts = 0
-- [ ] `polity/kanem-bornu` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/kanem-bornu` — successor_claims = 0
-- [ ] `polity/kanem-bornu` — ended by conquest in 1893
+- [ ] `chapter/asante/01-a-stool-from-the-sky.mdx` — prose: "A stool from the sky"
+- [ ] `chapter/asante/02-kumasi.mdx` — prose: "Kumasi"
+- [ ] `chapter/asante/03-the-great-roads.mdx` — prose: "The great roads"
+- [ ] `chapter/asante/05-the-queen-mother-nominates.mdx` — prose: "The queen mother nominates"
+- [ ] `chapter/asante/06-two-parties.mdx` — prose: "Two parties"
+- [ ] `chapter/asante/07-1901.mdx` — prose: "1901"
+- [ ] `chapter/asante/08-the-golden-stool.mdx` — prose: "The Golden Stool"
+- [ ] `polity/asante` — span starts 1701
+- [ ] `polity/asante` — span ends 1901
+- [ ] `polity/asante` — capital Kumasi from 1701
+- [ ] `polity/asante` — founder Osei Tutu r. 1701-1717
+- [ ] `polity/asante` — peak Osei Bonsu r. 1804-1824
+- [ ] `polity/asante` — last Prempeh I r. 1888-1896
+- [ ] `polity/asante` — military basis coded conscript
+- [ ] `polity/asante` — revenue basis coded mining + trade-toll + tribute
+- [ ] `polity/asante` — succession rule coded matrilineal + election
+- [ ] `polity/asante` — legitimation coded divine-sanction + descent
+- [ ] `polity/asante` — turning point 1701 Feyiase
+- [ ] `polity/asante` — turning point 1824 Nsamankow
+- [ ] `polity/asante` — turning point 1874 Kumasi burned
+- [ ] `polity/asante` — turning point 1900 The War of the Golden Stool
+- [ ] `polity/asante` — descendant_scripts = 0
+- [ ] `polity/asante` — religions_carried = 0
+- [ ] `polity/asante` — successor_claims = 0
+- [ ] `polity/asante` — ended by conquest in 1901
+
+## Cyril Toumanoff, Studies in Christian Caucasian History
+
+`toumanoff-1963` — 25 claims
+
+- [ ] `chapter/caucasian-albania/01-the-third-country.mdx` — prose: "The third country"
+- [ ] `chapter/caucasian-albania/02-javanshir.mdx` — prose: "Javanshir"
+- [ ] `chapter/caucasian-albania/04-arran.mdx` — prose: "Arran"
+- [ ] `chapter/caucasian-iberia/01-pharnavaz.mdx` — prose: "Not that Iberia"
+- [ ] `chapter/caucasian-iberia/02-between-two-empires.mdx` — prose: "A throne two empires agreed about"
+- [ ] `edge/parthian->caucasian-albania` — vassal of in -60
+- [ ] `polity/caucasian-albania` — span starts -200
+- [ ] `polity/caucasian-albania` — span ends 705
+- [ ] `polity/caucasian-albania` — capital Kabala
+- [ ] `polity/caucasian-albania` — capital Partav
+- [ ] `polity/caucasian-albania` — peak Javanshir r. 637-680
+- [ ] `polity/caucasian-albania` — military basis coded client-levy
+- [ ] `polity/caucasian-albania` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/caucasian-albania` — legitimation coded descent
+- [ ] `polity/caucasian-albania` — turning point 313 The conversion of Urnayr (contested)
+- [ ] `polity/caucasian-albania` — turning point 510 The monarchy abolished
+- [ ] `polity/caucasian-albania` — ended by gradual absorption in 822
+- [ ] `polity/caucasian-iberia` — span starts -302
+- [ ] `polity/caucasian-iberia` — capital Mtskheta
+- [ ] `polity/caucasian-iberia` — founder Pharnavaz I
+- [ ] `polity/caucasian-iberia` — military basis coded client-levy
+- [ ] `polity/caucasian-iberia` — succession rule coded external-nomination
+- [ ] `polity/caucasian-iberia` — legitimation coded descent + investiture
+- [ ] `polity/caucasian-iberia` — turning point 298 The Peace of Nisibis
+- [ ] `polity/greater-armenia` — military basis coded client-levy
+
+## K. W. Taylor, A History of the Vietnamese
+
+`taylor-2013` — 25 claims
+
+**Sole source** for `dai-viet` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/dai-viet/01-one-order.mdx` — prose: "One order, three and a half centuries"
+- [ ] `chapter/dai-viet/02-the-vocabulary-of-the-north.mdx` — prose: "The vocabulary of the north"
+- [ ] `chapter/dai-viet/03-three-times.mdx` — prose: "Three times"
+- [ ] `chapter/dai-viet/04-abdication.mdx` — prose: "Abdication as a rule"
+- [ ] `chapter/dai-viet/05-the-tran-run-down.mdx` — prose: "The Tran run down"
+- [ ] `chapter/dai-viet/06-1400.mdx` — prose: "1400"
+- [ ] `chapter/dai-viet/07-what-the-north-left.mdx` — prose: "What the north left"
+- [ ] `polity/champa` — peak Che Bong Nga r. 1360-1390
+- [ ] `polity/dai-viet` — span starts 1054
+- [ ] `polity/dai-viet` — span ends 1400
+- [ ] `polity/dai-viet` — capital Thang Long from 1054
+- [ ] `polity/dai-viet` — founder Ly Thanh Tong r. 1054-1072
+- [ ] `polity/dai-viet` — peak Tran Nhan Tong r. 1278-1293
+- [ ] `polity/dai-viet` — last Tran Thieu De r. 1398-1400
+- [ ] `polity/dai-viet` — military basis coded conscript
+- [ ] `polity/dai-viet` — revenue basis coded land-tax
+- [ ] `polity/dai-viet` — succession rule coded nomination
+- [ ] `polity/dai-viet` — legitimation coded descent + investiture
+- [ ] `polity/dai-viet` — turning point 1075 The pre-emptive war
+- [ ] `polity/dai-viet` — turning point 1288 Bach Dang
+- [ ] `polity/dai-viet` — turning point 1400 Ho Quy Ly
+- [ ] `polity/dai-viet` — descendant_scripts = 0
+- [ ] `polity/dai-viet` — religions_carried = 0
+- [ ] `polity/dai-viet` — successor_claims = 0
+- [ ] `polity/dai-viet` — ended by internal usurpation in 1400
+
+## Derek A. Welsby, The Kingdom of Kush: The Napatan and Meroitic Empires
+
+`welsby-1996` — 25 claims
+
+- [ ] `chapter/kush/01-the-land-of-the-bow.mdx` — prose: "The land of the bow"
+- [ ] `chapter/kush/02-piye.mdx` — prose: "Piye"
+- [ ] `chapter/kush/03-meroe.mdx` — prose: "Meroë"
+- [ ] `chapter/kush/04-the-kandakes.mdx` — prose: "The kandakes"
+- [ ] `chapter/kush/05-a-script-nobody-can-read.mdx` — prose: "A script nobody can read"
+- [ ] `chapter/kush/06-the-last-inscriptions.mdx` — prose: "The last inscriptions"
+- [ ] `chapter/kush/07-350.mdx` — prose: "350"
+- [ ] `polity/egypt-new-kingdom` — successor_claims = 1 (Kingdom of Kush)
+- [ ] `polity/kush` — span starts -850
+- [ ] `polity/kush` — span ends 350
+- [ ] `polity/kush` — capital Napata from -750
+- [ ] `polity/kush` — capital Meroë from -300
+- [ ] `polity/kush` — founder Kashta
+- [ ] `polity/kush` — peak Taharqa r. -690--664
+- [ ] `polity/kush` — military basis coded conscript
+- [ ] `polity/kush` — revenue basis coded mining + trade-toll + tribute
+- [ ] `polity/kush` — legitimation coded divine-sanction + titulature
+- [ ] `polity/kush` — turning point -727 Piye goes north
+- [ ] `polity/kush` — turning point -671 The Assyrians
+- [ ] `polity/kush` — turning point -300 Meroë (contested)
+- [ ] `polity/kush` — turning point -23 Rome on the Nile
+- [ ] `polity/kush` — descendant_scripts = 1 (Meroitic)
+- [ ] `polity/kush` — religions_carried = 0
+- [ ] `polity/kush` — successor_claims = 0
+- [ ] `polity/kush` — ended by fragmentation in 350
+
+## Denis Twitchett and Michael Loewe (eds), The Cambridge History of China, Volume 1: The Ch'in and Han Empires, 221 BC-AD 220
+
+`loewe-twitchett-1986` — 25 claims
+
+- [ ] `chapter/han/01-the-inheritance.mdx` — prose: "The inheritance"
+- [ ] `chapter/han/02-the-road-west.mdx` — prose: "The road west"
+- [ ] `chapter/han/03-han.mdx` — prose: "Four centuries, and a road west"
+- [ ] `chapter/han/04-salt-and-iron.mdx` — prose: "Salt and iron"
+- [ ] `chapter/han/05-the-examinations.mdx` — prose: "Recruiting a bureaucracy"
+- [ ] `chapter/han/06-the-conscript-empire.mdx` — prose: "The conscript empire"
+- [ ] `chapter/han/07-yellow-turbans.mdx` — prose: "The Yellow Turbans, and the abdication"
+- [ ] `chapter/han/08-two-claims.mdx` — prose: "Two claims"
+- [ ] `polity/han` — span starts -202
+- [ ] `polity/han` — span ends 220
+- [ ] `polity/han` — capital Chang'an from -202
+- [ ] `polity/han` — founder Emperor Gaozu r. -202--195
+- [ ] `polity/han` — peak Emperor Wu r. -141--87
+- [ ] `polity/han` — last Emperor Xian r. 189-220
+- [ ] `polity/han` — military basis coded conscript
+- [ ] `polity/han` — revenue basis coded land-tax + poll-tax + monopoly
+- [ ] `polity/han` — succession rule coded primogeniture
+- [ ] `polity/han` — legitimation coded divine-sanction + descent
+- [ ] `polity/han` — turning point -117 Salt and iron
+- [ ] `polity/han` — turning point 9 Wang Mang (contested)
+- [ ] `polity/han` — turning point 184 The Yellow Turbans
+- [ ] `polity/han` — descendant_scripts = 1 (Clerical script)
+- [ ] `polity/han` — religions_carried = 0
+- [ ] `polity/han` — successor_claims = 2 (Shu Han, The Han-Zhao of Liu Yuan)
+- [ ] `polity/han` — ended by fragmentation in 220
 
 ## Peter H. Wilson, Heart of Europe: A History of the Holy Roman Empire
 
@@ -2720,36 +3014,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/holy-roman-empire` — successor_claims = 0
 - [ ] `polity/holy-roman-empire` — ended by fragmentation in 1806
 
-## Frederick W. Mote and Denis Twitchett (eds), The Cambridge History of China, Volume 7: The Ming Dynasty, 1368-1644, Part 1
-
-`mote-twitchett-1988` — 25 claims
-
-- [ ] `chapter/ming/01-the-fleets.mdx` — prose: "Seven fleets, and then none"
-- [ ] `chapter/ming/02-the-wall-and-the-silver.mdx` — prose: "A wall, and other people's silver"
-- [ ] `chapter/ming/03-a-million-soldiers.mdx` — prose: "A million soldiers, free"
-- [ ] `chapter/ming/04-tumu.mdx` — prose: "Tumu"
-- [ ] `chapter/ming/05-the-silver-and-the-hill.mdx` — prose: "The silver, and the hill"
-- [ ] `edge/yuan->ming` — overthrew in 1368
-- [ ] `polity/ming` — span starts 1368
-- [ ] `polity/ming` — span ends 1644
-- [ ] `polity/ming` — capital Beijing from 1368
-- [ ] `polity/ming` — founder Hongwu Emperor r. 1368-1398
-- [ ] `polity/ming` — peak Yongle Emperor r. 1402-1424
-- [ ] `polity/ming` — last Chongzhen Emperor r. 1627-1644
-- [ ] `polity/ming` — military basis coded land-grant
-- [ ] `polity/ming` — revenue basis coded land-tax + monopoly
-- [ ] `polity/ming` — succession rule coded primogeniture
-- [ ] `polity/ming` — legitimation coded divine-sanction + descent
-- [ ] `polity/ming` — turning point 1421 Beijing
-- [ ] `polity/ming` — turning point 1449 Tumu
-- [ ] `polity/ming` — turning point 1581 The single whip
-- [ ] `polity/ming` — turning point 1644 Li Zicheng
-- [ ] `polity/ming` — descendant_scripts = 0
-- [ ] `polity/ming` — religions_carried = 0
-- [ ] `polity/ming` — successor_claims = 1 (The Southern Ming)
-- [ ] `polity/ming` — ended by conquest in 1644
-- [ ] `polity/yuan` — ended by conquest in 1368
-
 ## Colin Imber, The Ottoman Empire, 1300-1650: The Structure of Power
 
 `imber-2002` — 25 claims
@@ -2780,11 +3044,39 @@ ordinary state, not an item to clear.
 - [ ] `polity/ottoman` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/ottoman` — ended by fragmentation in 1922
 
+## John O. Hunwick, Timbuktu and the Songhay Empire
+
+`hunwick-1999` — 25 claims
+
+- [ ] `chapter/songhai/02-sunni-ali.mdx` — prose: "Sunni Ali"
+- [ ] `chapter/songhai/03-a-caliph-of-takrur.mdx` — prose: "A caliph of Takrur"
+- [ ] `chapter/songhai/05-the-estates.mdx` — prose: "The estates"
+- [ ] `chapter/songhai/06-the-civil-war.mdx` — prose: "The succession nobody wrote down"
+- [ ] `chapter/songhai/07-the-chronicles.mdx` — prose: "Written from Timbuktu"
+- [ ] `chapter/songhai/08-tondibi.mdx` — prose: "Tondibi"
+- [ ] `chapter/songhai/09-the-arma.mdx` — prose: "The Arma"
+- [ ] `edge/mali->songhai` — absorbed remnants of in 1468
+- [ ] `edge/songhai->saadi` — conquered by in 1591
+- [ ] `polity/saadi` — turning point 1591 Tondibi
+- [ ] `polity/songhai` — span starts 1464
+- [ ] `polity/songhai` — span ends 1591
+- [ ] `polity/songhai` — capital Gao from 1464
+- [ ] `polity/songhai` — founder Sunni Ali r. 1464-1492
+- [ ] `polity/songhai` — peak Askia Muhammad I r. 1493-1528
+- [ ] `polity/songhai` — last Askia Ishaq II r. 1588-1591
+- [ ] `polity/songhai` — revenue basis coded trade-toll + tribute
+- [ ] `polity/songhai` — legitimation coded caliphal-investiture + conquest
+- [ ] `polity/songhai` — turning point 1468 Timbuktu
+- [ ] `polity/songhai` — turning point 1493 Askia Muhammad
+- [ ] `polity/songhai` — turning point 1591 Tondibi
+- [ ] `polity/songhai` — descendant_scripts = 0
+- [ ] `polity/songhai` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/songhai` — successor_claims = 0
+- [ ] `polity/songhai` — ended by conquest in 1591
+
 ## John V. A. Fine, The Late Medieval Balkans: A Critical Survey from the Late Twelfth Century to the Ottoman Conquest
 
 `fine-1987` — 25 claims
-
-**Sole source** for `second-bulgarian` — nothing else in the corpus can contradict a misreading here.
 
 - [ ] `chapter/second-bulgarian/01-a-tax-and-two-brothers.mdx` — prose: "A tax and two brothers"
 - [ ] `chapter/second-bulgarian/02-a-crown-from-rome.mdx` — prose: "A crown from Rome"
@@ -2812,252 +3104,37 @@ ordinary state, not an item to clear.
 - [ ] `polity/second-bulgarian` — successor_claims = 0
 - [ ] `polity/second-bulgarian` — ended by conquest in 1396
 
-## Frederic C. Lane, Venice: A Maritime Republic
+## Chris Baker and Pasuk Phongpaichit, A History of Ayutthaya: Siam in the Early Modern World
 
-`lane-1973` — 25 claims
+`baker-pasuk-2017` — 23 claims
 
-**Sole source** for `venice` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/venice/01-a-city-with-no-land.mdx` — prose: "A city with no land"
-- [ ] `chapter/venice/02-the-fourth-crusade.mdx` — prose: "The fourth crusade"
-- [ ] `chapter/venice/03-the-constitution.mdx` — prose: "The constitution"
-- [ ] `chapter/venice/04-the-empire-of-ports.mdx` — prose: "The empire of ports"
-- [ ] `chapter/venice/05-the-long-decline.mdx` — prose: "The long decline"
-- [ ] `edge/byzantine->venice` — seceded from in 812
-- [ ] `polity/venice` — span starts 697
-- [ ] `polity/venice` — span ends 1797
-- [ ] `polity/venice` — capital Venice from 697
-- [ ] `polity/venice` — founder Orso Ipato r. 726-737
-- [ ] `polity/venice` — peak Enrico Dandolo r. 1192-1205
-- [ ] `polity/venice` — last Ludovico Manin r. 1789-1797
-- [ ] `polity/venice` — military basis coded conscript + mercenary
-- [ ] `polity/venice` — revenue basis coded trade-toll + monopoly
-- [ ] `polity/venice` — succession rule coded election
-- [ ] `polity/venice` — legitimation coded election + divine-sanction
-- [ ] `polity/venice` — turning point 1082 The golden bull
-- [ ] `polity/venice` — turning point 1204 Constantinople
-- [ ] `polity/venice` — turning point 1297 The Serrata
-- [ ] `polity/venice` — turning point 1380 Chioggia
-- [ ] `polity/venice` — turning point 1669 Candia
-- [ ] `polity/venice` — descendant_scripts = 0
-- [ ] `polity/venice` — religions_carried = 0
-- [ ] `polity/venice` — successor_claims = 0
-- [ ] `polity/venice` — ended by conquest in 1797
-
-## Ivor Wilks, Asante in the Nineteenth Century: The Structure and Evolution of a Political Order
-*In African Studies Series 13.*
-
-`wilks-1975` — 24 claims
-
-**Sole source** for `asante` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/asante/01-a-stool-from-the-sky.mdx` — prose: "A stool from the sky"
-- [ ] `chapter/asante/02-kumasi.mdx` — prose: "Kumasi"
-- [ ] `chapter/asante/03-the-great-roads.mdx` — prose: "The great roads"
-- [ ] `chapter/asante/04-the-fifth-case.mdx` — prose: "The fifth case"
-- [ ] `chapter/asante/05-two-parties.mdx` — prose: "Two parties"
-- [ ] `chapter/asante/06-1901.mdx` — prose: "1901"
-- [ ] `polity/asante` — span starts 1701
-- [ ] `polity/asante` — span ends 1901
-- [ ] `polity/asante` — capital Kumasi from 1701
-- [ ] `polity/asante` — founder Osei Tutu r. 1701-1717
-- [ ] `polity/asante` — peak Osei Bonsu r. 1804-1824
-- [ ] `polity/asante` — last Prempeh I r. 1888-1896
-- [ ] `polity/asante` — military basis coded conscript
-- [ ] `polity/asante` — revenue basis coded mining + trade-toll + tribute
-- [ ] `polity/asante` — succession rule coded matrilineal + election
-- [ ] `polity/asante` — legitimation coded divine-sanction + descent
-- [ ] `polity/asante` — turning point 1701 Feyiase
-- [ ] `polity/asante` — turning point 1824 Nsamankow
-- [ ] `polity/asante` — turning point 1874 Kumasi burned
-- [ ] `polity/asante` — turning point 1900 The War of the Golden Stool
-- [ ] `polity/asante` — descendant_scripts = 0
-- [ ] `polity/asante` — religions_carried = 0
-- [ ] `polity/asante` — successor_claims = 0
-- [ ] `polity/asante` — ended by conquest in 1901
-
-## Cyril Toumanoff, Studies in Christian Caucasian History
-
-`toumanoff-1963` — 24 claims
-
-- [ ] `chapter/caucasian-albania/01-the-third-country.mdx` — prose: "The third country"
-- [ ] `chapter/caucasian-albania/02-javanshir.mdx` — prose: "Javanshir"
-- [ ] `chapter/caucasian-albania/04-arran.mdx` — prose: "Arran"
-- [ ] `chapter/caucasian-iberia/01-pharnavaz.mdx` — prose: "Not that Iberia"
-- [ ] `chapter/caucasian-iberia/02-between-two-empires.mdx` — prose: "A throne two empires agreed about"
-- [ ] `polity/caucasian-albania` — span starts -200
-- [ ] `polity/caucasian-albania` — span ends 705
-- [ ] `polity/caucasian-albania` — capital Kabala
-- [ ] `polity/caucasian-albania` — capital Partav
-- [ ] `polity/caucasian-albania` — peak Javanshir r. 637-680
-- [ ] `polity/caucasian-albania` — military basis coded client-levy
-- [ ] `polity/caucasian-albania` — revenue basis coded land-tax + trade-toll
-- [ ] `polity/caucasian-albania` — legitimation coded descent
-- [ ] `polity/caucasian-albania` — turning point 313 The conversion of Urnayr (contested)
-- [ ] `polity/caucasian-albania` — turning point 510 The monarchy abolished
-- [ ] `polity/caucasian-albania` — ended by gradual absorption in 822
-- [ ] `polity/caucasian-iberia` — span starts -302
-- [ ] `polity/caucasian-iberia` — capital Mtskheta
-- [ ] `polity/caucasian-iberia` — founder Pharnavaz I
-- [ ] `polity/caucasian-iberia` — military basis coded client-levy
-- [ ] `polity/caucasian-iberia` — succession rule coded external-nomination
-- [ ] `polity/caucasian-iberia` — legitimation coded descent + investiture
-- [ ] `polity/caucasian-iberia` — turning point 298 The Peace of Nisibis
-- [ ] `polity/greater-armenia` — military basis coded client-levy
-
-## John O. Hunwick, Timbuktu and the Songhay Empire
-
-`hunwick-1999` — 24 claims
-
-- [ ] `chapter/saadi/03-across-the-desert.mdx` — prose: "Across the desert, for the gold"
-- [ ] `chapter/songhai/02-sunni-ali.mdx` — prose: "Sunni Ali"
-- [ ] `chapter/songhai/03-a-caliph-of-takrur.mdx` — prose: "A caliph of Takrur"
-- [ ] `chapter/songhai/04-the-estates.mdx` — prose: "The estates"
-- [ ] `chapter/songhai/05-the-chronicles.mdx` — prose: "Written from Timbuktu"
-- [ ] `chapter/songhai/06-tondibi.mdx` — prose: "Tondibi"
-- [ ] `edge/mali->songhai` — absorbed remnants of in 1468
-- [ ] `edge/songhai->saadi` — conquered by in 1591
-- [ ] `polity/saadi` — turning point 1591 Tondibi
-- [ ] `polity/songhai` — span starts 1464
-- [ ] `polity/songhai` — span ends 1591
-- [ ] `polity/songhai` — capital Gao from 1464
-- [ ] `polity/songhai` — founder Sunni Ali r. 1464-1492
-- [ ] `polity/songhai` — peak Askia Muhammad I r. 1493-1528
-- [ ] `polity/songhai` — last Askia Ishaq II r. 1588-1591
-- [ ] `polity/songhai` — revenue basis coded trade-toll + tribute
-- [ ] `polity/songhai` — legitimation coded caliphal-investiture + conquest
-- [ ] `polity/songhai` — turning point 1468 Timbuktu
-- [ ] `polity/songhai` — turning point 1493 Askia Muhammad
-- [ ] `polity/songhai` — turning point 1591 Tondibi
-- [ ] `polity/songhai` — descendant_scripts = 0
-- [ ] `polity/songhai` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/songhai` — successor_claims = 0
-- [ ] `polity/songhai` — ended by conquest in 1591
-
-## Nicola Di Cosmo, Allen J. Frank and Peter B. Golden (eds), The Cambridge History of Inner Asia: The Chinggisid Age
-
-`di-cosmo-2009` — 24 claims
-
-**Sole source** for `shaybanid` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/shaybanid/01-the-descent.mdx` — prose: "The qualification Timur lacked"
-- [ ] `chapter/shaybanid/02-babur.mdx` — prose: "What it did to Babur"
-- [ ] `chapter/shaybanid/03-the-river.mdx` — prose: "The river becomes a border"
-- [ ] `chapter/shaybanid/04-abdullah-khan.mdx` — prose: "Abdullah Khan"
-- [ ] `chapter/shaybanid/05-bukhara.mdx` — prose: "Bukhara, and the decline that has to be argued for"
-- [ ] `chapter/shaybanid/06-the-line-runs-out.mdx` — prose: "The house ends and the khanate does not"
-- [ ] `edge/golden-horde->shaybanid` — partitioned from in 1500
-- [ ] `edge/timurid->shaybanid` — conquered by in 1507
-- [ ] `polity/shaybanid` — span starts 1500
-- [ ] `polity/shaybanid` — span ends 1599
-- [ ] `polity/shaybanid` — capital Samarkand from 1500
-- [ ] `polity/shaybanid` — capital Bukhara from 1533
-- [ ] `polity/shaybanid` — founder Muhammad Shaybani Khan r. 1500-1510
-- [ ] `polity/shaybanid` — peak Abdullah Khan II r. 1583-1598
-- [ ] `polity/shaybanid` — last Pir Muhammad II
-- [ ] `polity/shaybanid` — military basis coded tribal-levy
-- [ ] `polity/shaybanid` — revenue basis coded land-tax + trade-toll
-- [ ] `polity/shaybanid` — succession rule coded tanistry + appanage
-- [ ] `polity/shaybanid` — legitimation coded descent + conquest
-- [ ] `polity/shaybanid` — turning point 1500 The taking of Samarkand
-- [ ] `polity/shaybanid` — turning point 1510 Merv
-- [ ] `polity/shaybanid` — turning point 1512 Ghijduvan
-- [ ] `polity/shaybanid` — turning point 1588 Abdullah Khan at Herat
-- [ ] `polity/shaybanid` — ended by dynastic replacement in 1599
-
-## Anthony Reid, An Indonesian Frontier: Acehnese and Other Histories of Sumatra
-
-`reid-2005` — 23 claims
-
-- [ ] `chapter/aceh/03-istanbul.mdx` — prose: "Istanbul"
-- [ ] `chapter/aceh/06-thirty-years.mdx` — prose: "Thirty years"
-- [ ] `chapter/pasai/05-1524.mdx` — prose: "1524"
-- [ ] `edge/pasai->aceh` — conquered by in 1524
-- [ ] `polity/aceh` — span starts 1496
-- [ ] `polity/aceh` — span ends 1903
-- [ ] `polity/aceh` — capital Banda Aceh from 1496
-- [ ] `polity/aceh` — founder Ali Mughayat Syah r. 1496-1530
-- [ ] `polity/aceh` — last Muhammad Daud Syah r. 1874-1903
-- [ ] `polity/aceh` — legitimation coded descent + divine-sanction
-- [ ] `polity/aceh` — turning point 1568 Istanbul (contested)
-- [ ] `polity/aceh` — turning point 1873 The first expedition
-- [ ] `polity/aceh` — descendant_scripts = 0
-- [ ] `polity/aceh` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/aceh` — successor_claims = 0
-- [ ] `polity/aceh` — ended by conquest in 1903
-- [ ] `polity/johor` — span starts 1528
-- [ ] `polity/johor` — capital Johor Lama from 1540
-- [ ] `polity/johor` — founder Alauddin Riayat Shah II r. 1528-1564
-- [ ] `polity/pasai` — span ends 1524
-- [ ] `polity/pasai` — turning point 1524 Aceh
-- [ ] `polity/pasai` — successor_claims = 0
-- [ ] `polity/pasai` — ended by conquest in 1524
-
-## K. W. Taylor, A History of the Vietnamese
-
-`taylor-2013` — 23 claims
-
-**Sole source** for `dai-viet` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/dai-viet/01-where-this-record-stops.mdx` — prose: "Where this record stops"
-- [ ] `chapter/dai-viet/02-the-vocabulary-of-the-north.mdx` — prose: "The vocabulary of the north"
-- [ ] `chapter/dai-viet/03-three-times.mdx` — prose: "Three times"
-- [ ] `chapter/dai-viet/04-abdication.mdx` — prose: "Abdication as a rule"
-- [ ] `chapter/dai-viet/05-1400.mdx` — prose: "1400"
-- [ ] `polity/champa` — peak Che Bong Nga r. 1360-1390
-- [ ] `polity/dai-viet` — span starts 1054
-- [ ] `polity/dai-viet` — span ends 1400
-- [ ] `polity/dai-viet` — capital Thang Long from 1054
-- [ ] `polity/dai-viet` — founder Ly Thanh Tong r. 1054-1072
-- [ ] `polity/dai-viet` — peak Tran Nhan Tong r. 1278-1293
-- [ ] `polity/dai-viet` — last Tran Thieu De r. 1398-1400
-- [ ] `polity/dai-viet` — military basis coded conscript
-- [ ] `polity/dai-viet` — revenue basis coded land-tax
-- [ ] `polity/dai-viet` — succession rule coded nomination
-- [ ] `polity/dai-viet` — legitimation coded descent + investiture
-- [ ] `polity/dai-viet` — turning point 1075 The pre-emptive war
-- [ ] `polity/dai-viet` — turning point 1288 Bach Dang
-- [ ] `polity/dai-viet` — turning point 1400 Ho Quy Ly
-- [ ] `polity/dai-viet` — descendant_scripts = 0
-- [ ] `polity/dai-viet` — religions_carried = 0
-- [ ] `polity/dai-viet` — successor_claims = 0
-- [ ] `polity/dai-viet` — ended by internal usurpation in 1400
-
-## Derek A. Welsby, The Kingdom of Kush: The Napatan and Meroitic Empires
-
-`welsby-1996` — 23 claims
-
-**Sole source** for `kush` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/kush/01-the-land-of-the-bow.mdx` — prose: "The land of the bow"
-- [ ] `chapter/kush/02-meroe.mdx` — prose: "Meroë"
-- [ ] `chapter/kush/03-the-kandakes.mdx` — prose: "The kandakes"
-- [ ] `chapter/kush/04-a-script-nobody-can-read.mdx` — prose: "A script nobody can read"
-- [ ] `chapter/kush/05-350.mdx` — prose: "350"
-- [ ] `polity/egypt-new-kingdom` — successor_claims = 1 (Kingdom of Kush)
-- [ ] `polity/kush` — span starts -850
-- [ ] `polity/kush` — span ends 350
-- [ ] `polity/kush` — capital Napata from -750
-- [ ] `polity/kush` — capital Meroë from -300
-- [ ] `polity/kush` — founder Kashta
-- [ ] `polity/kush` — peak Taharqa r. -690--664
-- [ ] `polity/kush` — military basis coded conscript
-- [ ] `polity/kush` — revenue basis coded mining + trade-toll + tribute
-- [ ] `polity/kush` — legitimation coded divine-sanction + titulature
-- [ ] `polity/kush` — turning point -727 Piye goes north
-- [ ] `polity/kush` — turning point -671 The Assyrians
-- [ ] `polity/kush` — turning point -300 Meroë (contested)
-- [ ] `polity/kush` — turning point -23 Rome on the Nile
-- [ ] `polity/kush` — descendant_scripts = 1 (Meroitic)
-- [ ] `polity/kush` — religions_carried = 0
-- [ ] `polity/kush` — successor_claims = 0
-- [ ] `polity/kush` — ended by fragmentation in 350
+- [ ] `chapter/ayutthaya/01-what-was-carried-north.mdx` — prose: "What was carried north"
+- [ ] `chapter/ayutthaya/02-not-a-rice-kingdom.mdx` — prose: "Not a rice kingdom"
+- [ ] `chapter/ayutthaya/03-1688.mdx` — prose: "1688"
+- [ ] `chapter/ayutthaya/05-1767.mdx` — prose: "1767"
+- [ ] `chapter/ayutthaya/06-what-bangkok-rebuilt.mdx` — prose: "What Bangkok rebuilt"
+- [ ] `polity/angkor` — successor_claims = 1 (Ayutthaya)
+- [ ] `polity/ayutthaya` — span starts 1351
+- [ ] `polity/ayutthaya` — span ends 1767
+- [ ] `polity/ayutthaya` — capital Ayutthaya from 1351
+- [ ] `polity/ayutthaya` — founder Ramathibodi I r. 1351-1369
+- [ ] `polity/ayutthaya` — peak Narai r. 1656-1688
+- [ ] `polity/ayutthaya` — last Ekkathat r. 1758-1767
+- [ ] `polity/ayutthaya` — military basis coded conscript
+- [ ] `polity/ayutthaya` — revenue basis coded trade-toll + monopoly
+- [ ] `polity/ayutthaya` — legitimation coded descent + divine-sanction
+- [ ] `polity/ayutthaya` — turning point 1431 Angkor
+- [ ] `polity/ayutthaya` — turning point 1569 The first fall
+- [ ] `polity/ayutthaya` — turning point 1688 The palace revolution
+- [ ] `polity/ayutthaya` — turning point 1767 The second fall
+- [ ] `polity/ayutthaya` — descendant_scripts = 0
+- [ ] `polity/ayutthaya` — religions_carried = 0
+- [ ] `polity/ayutthaya` — successor_claims = 1 (The Chakri dynasty at Bangkok)
+- [ ] `polity/ayutthaya` — ended by conquest in 1767
 
 ## Steven A. Epstein, Genoa and the Genoese, 958-1528
 
 `epstein-1996` — 23 claims
-
-**Sole source** for `genoa` — nothing else in the corpus can contradict a misreading here.
 
 - [ ] `chapter/genoa/01-the-other-one.mdx` — prose: "The other one"
 - [ ] `chapter/genoa/02-the-companies.mdx` — prose: "The companies"
@@ -3088,11 +3165,9 @@ ordinary state, not an item to clear.
 
 `matthew-1992` — 23 claims
 
-**Sole source** for `norman-sicily` — nothing else in the corpus can contradict a misreading here.
-
 - [ ] `chapter/norman-sicily/01-a-crown-from-an-antipope.mdx` — prose: "A crown from an antipope"
-- [ ] `chapter/norman-sicily/02-three-chanceries.mdx` — prose: "Three chanceries"
-- [ ] `chapter/norman-sicily/03-1194.mdx` — prose: "1194"
+- [ ] `chapter/norman-sicily/03-three-chanceries.mdx` — prose: "Three chanceries"
+- [ ] `chapter/norman-sicily/05-1194.mdx` — prose: "1194"
 - [ ] `edge/norman-sicily->holy-roman-empire` — conquered by in 1194
 - [ ] `edge/zirid->norman-sicily` — conquered by in 1148
 - [ ] `polity/norman-sicily` — span starts 1130
@@ -3119,11 +3194,9 @@ ordinary state, not an item to clear.
 
 `mcging-1986` — 23 claims
 
-**Sole source** for `pontus` — nothing else in the corpus can contradict a misreading here.
-
 - [ ] `chapter/pontus/01-two-descents.mdx` — prose: "Two descents"
-- [ ] `chapter/pontus/02-one-day.mdx` — prose: "One day"
-- [ ] `chapter/pontus/03-the-long-retreat.mdx` — prose: "The long retreat"
+- [ ] `chapter/pontus/03-one-day.mdx` — prose: "One day"
+- [ ] `chapter/pontus/05-the-long-retreat.mdx` — prose: "The long retreat"
 - [ ] `edge/achaemenid->pontus` — claimed legitimacy of in -281
 - [ ] `edge/pontus->roman` — conquered by in -63
 - [ ] `polity/pontus` — span starts -281
@@ -3150,11 +3223,9 @@ ordinary state, not an item to clear.
 
 `merrills-miles-2010` — 23 claims
 
-**Sole source** for `vandal` — nothing else in the corpus can contradict a misreading here.
-
 - [ ] `chapter/vandal/01-the-grain.mdx` — prose: "The grain"
-- [ ] `chapter/vandal/02-fourteen-days.mdx` — prose: "Fourteen days"
-- [ ] `chapter/vandal/03-534.mdx` — prose: "534"
+- [ ] `chapter/vandal/03-fourteen-days.mdx` — prose: "Fourteen days"
+- [ ] `chapter/vandal/05-534.mdx` — prose: "534"
 - [ ] `edge/roman->vandal` — absorbed remnants of in 439
 - [ ] `edge/vandal->byzantine` — conquered by in 534
 - [ ] `polity/vandal` — span starts 439
@@ -3176,16 +3247,43 @@ ordinary state, not an item to clear.
 - [ ] `polity/vandal` — successor_claims = 0
 - [ ] `polity/vandal` — ended by conquest in 534
 
+## Anthony Reid, An Indonesian Frontier: Acehnese and Other Histories of Sumatra
+
+`reid-2005` — 22 claims
+
+- [ ] `chapter/aceh/07-thirty-years.mdx` — prose: "Thirty years"
+- [ ] `chapter/pasai/06-1524.mdx` — prose: "1524"
+- [ ] `edge/pasai->aceh` — conquered by in 1524
+- [ ] `polity/aceh` — span starts 1496
+- [ ] `polity/aceh` — span ends 1903
+- [ ] `polity/aceh` — capital Banda Aceh from 1496
+- [ ] `polity/aceh` — founder Ali Mughayat Syah r. 1496-1530
+- [ ] `polity/aceh` — last Muhammad Daud Syah r. 1874-1903
+- [ ] `polity/aceh` — legitimation coded descent + divine-sanction
+- [ ] `polity/aceh` — turning point 1568 Istanbul (contested)
+- [ ] `polity/aceh` — turning point 1873 The first expedition
+- [ ] `polity/aceh` — descendant_scripts = 0
+- [ ] `polity/aceh` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/aceh` — successor_claims = 0
+- [ ] `polity/aceh` — ended by conquest in 1903
+- [ ] `polity/johor` — span starts 1528
+- [ ] `polity/johor` — capital Johor Lama from 1540
+- [ ] `polity/johor` — founder Alauddin Riayat Shah II r. 1528-1564
+- [ ] `polity/pasai` — span ends 1524
+- [ ] `polity/pasai` — turning point 1524 Aceh
+- [ ] `polity/pasai` — successor_claims = 0
+- [ ] `polity/pasai` — ended by conquest in 1524
+
 ## A. B. Bosworth, Conquest and Empire: The Reign of Alexander the Great
 
 `ab-bosworth-1988` — 22 claims
 
 - [ ] `chapter/achaemenid/07-three-battles.mdx` — prose: "Three battles and a satrap"
 - [ ] `chapter/macedonian/01-the-army-philip-built.mdx` — prose: "The instrument"
-- [ ] `chapter/macedonian/02-thirteen-years.mdx` — prose: "Thirteen years"
-- [ ] `chapter/macedonian/03-the-sources.mdx` — prose: "Nothing written at the time"
-- [ ] `chapter/macedonian/04-the-apparatus.mdx` — prose: "The empire he kept"
-- [ ] `chapter/macedonian/05-the-succession.mdx` — prose: "What happens when there is no institution"
+- [ ] `chapter/macedonian/03-thirteen-years.mdx` — prose: "Thirteen years"
+- [ ] `chapter/macedonian/04-the-sources.mdx` — prose: "Nothing written at the time"
+- [ ] `chapter/macedonian/05-the-apparatus.mdx` — prose: "The empire he kept"
+- [ ] `chapter/macedonian/06-the-succession.mdx` — prose: "What happens when there is no institution"
 - [ ] `edge/achaemenid->macedonian` — conquered by in -330
 - [ ] `polity/achaemenid` — turning point -331 Gaugamela
 - [ ] `polity/achaemenid` — ended by conquest in -330
@@ -3240,7 +3338,7 @@ ordinary state, not an item to clear.
 - [ ] `chapter/mirdasid/05-the-turkmen.mdx` — prose: "The Turkmen"
 - [ ] `chapter/mirdasid/06-handed-over.mdx` — prose: "Handed over"
 - [ ] `chapter/uqaylid/03-sharaf-al-dawla.mdx` — prose: "Sharaf al-Dawla"
-- [ ] `chapter/uqaylid/05-kerbogha.mdx` — prose: "Kerbogha"
+- [ ] `chapter/uqaylid/07-kerbogha.mdx` — prose: "Kerbogha"
 - [ ] `edge/fatimid->ammarid` — seceded from in 1070
 - [ ] `edge/great-seljuk->mirdasid` — vassal of in 1071
 - [ ] `edge/uqaylid->great-seljuk` — conquered by in 1096
@@ -3258,45 +3356,14 @@ ordinary state, not an item to clear.
 - [ ] `polity/uqaylid` — turning point 1085 The death of Muslim ibn Quraysh
 - [ ] `polity/uqaylid` — ended by conquest in 1096
 
-## Chris Baker and Pasuk Phongpaichit, A History of Ayutthaya: Siam in the Early Modern World
-
-`baker-pasuk-2017` — 22 claims
-
-**Sole source** for `ayutthaya` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/ayutthaya/01-what-was-carried-north.mdx` — prose: "What was carried north"
-- [ ] `chapter/ayutthaya/02-not-a-rice-kingdom.mdx` — prose: "Not a rice kingdom"
-- [ ] `chapter/ayutthaya/03-1688.mdx` — prose: "1688"
-- [ ] `chapter/ayutthaya/04-1767.mdx` — prose: "1767"
-- [ ] `polity/angkor` — successor_claims = 1 (Ayutthaya)
-- [ ] `polity/ayutthaya` — span starts 1351
-- [ ] `polity/ayutthaya` — span ends 1767
-- [ ] `polity/ayutthaya` — capital Ayutthaya from 1351
-- [ ] `polity/ayutthaya` — founder Ramathibodi I r. 1351-1369
-- [ ] `polity/ayutthaya` — peak Narai r. 1656-1688
-- [ ] `polity/ayutthaya` — last Ekkathat r. 1758-1767
-- [ ] `polity/ayutthaya` — military basis coded conscript
-- [ ] `polity/ayutthaya` — revenue basis coded trade-toll + monopoly
-- [ ] `polity/ayutthaya` — legitimation coded descent + divine-sanction
-- [ ] `polity/ayutthaya` — turning point 1431 Angkor
-- [ ] `polity/ayutthaya` — turning point 1569 The first fall
-- [ ] `polity/ayutthaya` — turning point 1688 The palace revolution
-- [ ] `polity/ayutthaya` — turning point 1767 The second fall
-- [ ] `polity/ayutthaya` — descendant_scripts = 0
-- [ ] `polity/ayutthaya` — religions_carried = 0
-- [ ] `polity/ayutthaya` — successor_claims = 1 (The Chakri dynasty at Bangkok)
-- [ ] `polity/ayutthaya` — ended by conquest in 1767
-
 ## R. E. Allen, The Attalid Kingdom: A Constitutional History
 
 `allen-1983` — 22 claims
 
-**Sole source** for `attalid` — nothing else in the corpus can contradict a misreading here.
-
 - [ ] `chapter/attalid/01-the-treasurer.mdx` — prose: "The treasurer"
-- [ ] `chapter/attalid/02-a-gift-and-a-leash.mdx` — prose: "A gift and a leash"
-- [ ] `chapter/attalid/03-the-library.mdx` — prose: "The library"
-- [ ] `chapter/attalid/04-the-will.mdx` — prose: "The will"
+- [ ] `chapter/attalid/03-a-gift-and-a-leash.mdx` — prose: "A gift and a leash"
+- [ ] `chapter/attalid/04-the-library.mdx` — prose: "The library"
+- [ ] `chapter/attalid/06-the-will.mdx` — prose: "The will"
 - [ ] `edge/attalid->roman` — absorbed remnants of in -133
 - [ ] `polity/attalid` — span starts -282
 - [ ] `polity/attalid` — span ends -133
@@ -3316,44 +3383,44 @@ ordinary state, not an item to clear.
 - [ ] `polity/attalid` — successor_claims = 0
 - [ ] `polity/attalid` — ended by gradual absorption in -133
 
-## Denis Twitchett and Michael Loewe (eds), The Cambridge History of China, Volume 1: The Ch'in and Han Empires, 221 BC-AD 220
+## Vladimir Minorsky, A History of Sharvan and Darband in the 10th-11th Centuries
 
-`loewe-twitchett-1986` — 22 claims
+`minorsky-1958` — 22 claims
 
-- [ ] `chapter/han/01-han.mdx` — prose: "Four centuries, and a road west"
-- [ ] `chapter/han/02-the-examinations.mdx` — prose: "Recruiting a bureaucracy"
-- [ ] `chapter/han/03-salt-and-iron.mdx` — prose: "Salt and iron"
-- [ ] `chapter/han/04-the-conscript-empire.mdx` — prose: "The conscript empire"
-- [ ] `chapter/han/05-two-claims.mdx` — prose: "Two claims"
-- [ ] `polity/han` — span starts -202
-- [ ] `polity/han` — span ends 220
-- [ ] `polity/han` — capital Chang'an from -202
-- [ ] `polity/han` — founder Emperor Gaozu r. -202--195
-- [ ] `polity/han` — peak Emperor Wu r. -141--87
-- [ ] `polity/han` — last Emperor Xian r. 189-220
-- [ ] `polity/han` — military basis coded conscript
-- [ ] `polity/han` — revenue basis coded land-tax + poll-tax + monopoly
-- [ ] `polity/han` — succession rule coded primogeniture
-- [ ] `polity/han` — legitimation coded divine-sanction + descent
-- [ ] `polity/han` — turning point -117 Salt and iron
-- [ ] `polity/han` — turning point 9 Wang Mang (contested)
-- [ ] `polity/han` — turning point 184 The Yellow Turbans
-- [ ] `polity/han` — descendant_scripts = 1 (Clerical script)
-- [ ] `polity/han` — religions_carried = 0
-- [ ] `polity/han` — successor_claims = 2 (Shu Han, The Han-Zhao of Liu Yuan)
-- [ ] `polity/han` — ended by fragmentation in 220
+- [ ] `chapter/derbend/01-the-gate.mdx` — prose: "The gate of gates"
+- [ ] `chapter/derbend/02-the-city-and-the-emir.mdx` — prose: "The city and the emir"
+- [ ] `chapter/derbend/03-a-standing-arrangement.mdx` — prose: "Two centuries of the same thing"
+- [ ] `chapter/derbend/04-1077.mdx` — prose: "The Seljuks come through"
+- [ ] `chapter/shirvanshah/01-arabs-who-became-sasanians.mdx` — prose: "Arabs who became Sasanians"
+- [ ] `chapter/shirvanshah/02-what-lasting-costs.mdx` — prose: "How to last seven hundred years"
+- [ ] `chapter/shirvanshah/03-khaqani.mdx` — prose: "The twelfth-century court"
+- [ ] `edge/abbasid->derbend` — seceded from in 869
+- [ ] `edge/abbasid->shirvanshah` — seceded from in 861
+- [ ] `edge/derbend->great-seljuk` — conquered by in 1077
+- [ ] `polity/derbend` — span starts 869
+- [ ] `polity/derbend` — span ends 1077
+- [ ] `polity/derbend` — capital Derbend from 869
+- [ ] `polity/derbend` — founder Hashim ibn Suraqa
+- [ ] `polity/derbend` — revenue basis coded trade-toll
+- [ ] `polity/derbend` — legitimation coded caliphal-investiture
+- [ ] `polity/derbend` — ended by conquest in 1077
+- [ ] `polity/shirvanshah` — span starts 799
+- [ ] `polity/shirvanshah` — capital Shamakhi from 861
+- [ ] `polity/shirvanshah` — founder Yazid ibn Mazyad al-Shaybani
+- [ ] `polity/shirvanshah` — revenue basis coded land-tax + trade-toll + mining
+- [ ] `polity/shirvanshah` — legitimation coded descent
 
 ## Greg Fisher (ed.), Arabs and Empires before Islam
 
 `fisher-2015` — 22 claims
 
 - [ ] `chapter/himyar/01-the-highland-kingdom.mdx` — prose: "The kingdom that had rain"
-- [ ] `chapter/himyar/06-the-sasanians.mdx` — prose: "What was left"
+- [ ] `chapter/himyar/07-the-sasanians.mdx` — prose: "What was left"
 - [ ] `chapter/saba/01-arabia-felix.mdx` — prose: "Arabia Felix"
-- [ ] `chapter/saba/02-the-dam.mdx` — prose: "The dam at Marib"
-- [ ] `chapter/saba/03-aelius-gallus.mdx` — prose: "The Roman expedition"
-- [ ] `chapter/saba/04-the-alphabet.mdx` — prose: "The alphabet that went to Africa"
+- [ ] `chapter/saba/03-the-dam.mdx` — prose: "The dam at Marib"
+- [ ] `chapter/saba/04-aelius-gallus.mdx` — prose: "The Roman expedition"
 - [ ] `chapter/saba/05-the-highland-power.mdx` — prose: "The highland power"
+- [ ] `chapter/saba/06-the-alphabet.mdx` — prose: "The alphabet that went to Africa"
 - [ ] `edge/saba->himyar` — absorbed remnants of in 275
 - [ ] `polity/himyar` — span starts -110
 - [ ] `polity/himyar` — capital Zafar
@@ -3370,41 +3437,36 @@ ordinary state, not an item to clear.
 - [ ] `polity/saba` — descendant_scripts = 1 (Ge'ez)
 - [ ] `polity/saba` — ended by gradual absorption in 275
 
-## Neil Christie, The Lombards: The Ancient Longobards
-*In The Peoples of Europe.*
+## Günther Hölbl, trans. Tina Saavedra, A History of the Ptolemaic Empire
 
-`christie-1995` — 22 claims
+`holbl-2001` — 22 claims
 
-**Sole source** for `lombard` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/lombard/01-the-kingless-decade.mdx` — prose: "The kingless decade"
-- [ ] `chapter/lombard/02-rothari.mdx` — prose: "Rothari"
-- [ ] `chapter/lombard/03-774.mdx` — prose: "774"
-- [ ] `edge/lombard->carolingian` — conquered by in 774
-- [ ] `polity/lombard` — span starts 568
-- [ ] `polity/lombard` — span ends 774
-- [ ] `polity/lombard` — capital Pavia from 572
-- [ ] `polity/lombard` — founder Alboin r. 568-572
-- [ ] `polity/lombard` — peak Liutprand r. 712-744
-- [ ] `polity/lombard` — last Desiderius r. 756-774
-- [ ] `polity/lombard` — military basis coded conscript + land-grant
-- [ ] `polity/lombard` — revenue basis coded land-tax + trade-toll
-- [ ] `polity/lombard` — succession rule coded acclamation
-- [ ] `polity/lombard` — legitimation coded election + descent
-- [ ] `polity/lombard` — turning point 574 The rule of the dukes
-- [ ] `polity/lombard` — turning point 643 The Edict of Rothari
-- [ ] `polity/lombard` — turning point 751 Ravenna
-- [ ] `polity/lombard` — turning point 774 Pavia
-- [ ] `polity/lombard` — descendant_scripts = 0
-- [ ] `polity/lombard` — religions_carried = 0
-- [ ] `polity/lombard` — successor_claims = 0
-- [ ] `polity/lombard` — ended by dynastic replacement in 774
+- [ ] `chapter/ptolemaic/01-the-body.mdx` — prose: "The body of Alexander"
+- [ ] `chapter/ptolemaic/02-alexandria.mdx` — prose: "The city by Egypt"
+- [ ] `chapter/ptolemaic/03-the-empire-outside-egypt.mdx` — prose: "The empire outside Egypt"
+- [ ] `chapter/ptolemaic/05-raphia.mdx` — prose: "Raphia, and what it cost to win"
+- [ ] `chapter/ptolemaic/06-the-circle-in-the-sand.mdx` — prose: "The circle in the sand"
+- [ ] `chapter/ptolemaic/07-cleopatra.mdx` — prose: "The last of them"
+- [ ] `chapter/ptolemaic/08-a-name-inside-the-cartouche.mdx` — prose: "A name inside the cartouche"
+- [ ] `edge/macedonian->ptolemaic` — partitioned from in -305
+- [ ] `edge/ptolemaic->roman` — conquered by in -30
+- [ ] `polity/ptolemaic` — span starts -323
+- [ ] `polity/ptolemaic` — span ends -30
+- [ ] `polity/ptolemaic` — capital Alexandria from -305
+- [ ] `polity/ptolemaic` — founder Ptolemy I Soter r. -305--282
+- [ ] `polity/ptolemaic` — peak Ptolemy III Euergetes r. -246--222
+- [ ] `polity/ptolemaic` — last Cleopatra VII r. -51--30
+- [ ] `polity/ptolemaic` — military basis coded land-grant + mercenary
+- [ ] `polity/ptolemaic` — succession rule coded primogeniture
+- [ ] `polity/ptolemaic` — legitimation coded divine-sanction + descent
+- [ ] `polity/ptolemaic` — turning point -217 Raphia
+- [ ] `polity/ptolemaic` — turning point -200 Panion
+- [ ] `polity/ptolemaic` — turning point -168 The Day of Eleusis
+- [ ] `polity/ptolemaic` — ended by conquest in -30
 
 ## Abbas Amanat, Iran: A Modern History
 
 `amanat-2017` — 22 claims
-
-**Sole source** for `qajar` — nothing else in the corpus can contradict a misreading here.
 
 - [ ] `chapter/qajar/01-the-eunuch.mdx` — prose: "The hostage takes the country"
 - [ ] `chapter/qajar/02-turkmanchay.mdx` — prose: "The century's terms are set"
@@ -3429,6 +3491,35 @@ ordinary state, not an item to clear.
 - [ ] `polity/qajar` — turning point 1908 Oil at Masjed Soleyman
 - [ ] `polity/qajar` — ended by internal usurpation in 1925
 
+## Cesar Adib Majul, Muslims in the Philippines
+
+`majul-1973` — 22 claims
+
+**Sole source** for `sulu` — nothing else in the corpus can contradict a misreading here.
+
+- [ ] `chapter/sulu/01-a-sarip-and-the-datus.mdx` — prose: "A sarip, and the datus"
+- [ ] `chapter/sulu/02-the-sulu-zone.mdx` — prose: "Tripang and captives"
+- [ ] `chapter/sulu/03-baptised-at-manila.mdx` — prose: "Baptised at Manila"
+- [ ] `chapter/sulu/04-a-word-in-a-contract.mdx` — prose: "A word in a contract"
+- [ ] `chapter/sulu/05-1915.mdx` — prose: "1915"
+- [ ] `chapter/sulu/06-a-matchbox.mdx` — prose: "A matchbox"
+- [ ] `polity/sulu` — span starts 1405
+- [ ] `polity/sulu` — span ends 1915
+- [ ] `polity/sulu` — capital Jolo from 1405
+- [ ] `polity/sulu` — founder Sayyid Abu Bakr r. 1405-1450
+- [ ] `polity/sulu` — peak Azim ud-Din I r. 1735-1773
+- [ ] `polity/sulu` — last Jamalul Kiram II r. 1894-1936
+- [ ] `polity/sulu` — military basis coded client-levy
+- [ ] `polity/sulu` — revenue basis coded trade-toll + plunder
+- [ ] `polity/sulu` — legitimation coded descent + divine-sanction
+- [ ] `polity/sulu` — turning point 1578 Jolo
+- [ ] `polity/sulu` — turning point 1848 Balangingi
+- [ ] `polity/sulu` — turning point 1915 Carpenter
+- [ ] `polity/sulu` — descendant_scripts = 0
+- [ ] `polity/sulu` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/sulu` — successor_claims = 0
+- [ ] `polity/sulu` — ended by gradual absorption in 1915
+
 ## Michael Axworthy, The Sword of Persia: Nader Shah, from Tribal Warrior to Conquering Tyrant
 
 `axworthy-2006` — 21 claims
@@ -3438,7 +3529,7 @@ ordinary state, not an item to clear.
 - [ ] `chapter/afsharid/03-the-army.mdx` — prose: "The thing nobody could afford"
 - [ ] `chapter/afsharid/04-delhi.mdx` — prose: "Delhi"
 - [ ] `chapter/afsharid/05-what-it-cost.mdx` — prose: "What it cost"
-- [ ] `chapter/hotaki/04-nadir.mdx` — prose: "The career they created"
+- [ ] `chapter/hotaki/05-nadir.mdx` — prose: "The career they created"
 - [ ] `edge/hotaki->afsharid` — conquered by in 1738
 - [ ] `edge/safavid->afsharid` — absorbed remnants of in 1736
 - [ ] `polity/afsharid` — span starts 1736
@@ -3455,17 +3546,41 @@ ordinary state, not an item to clear.
 - [ ] `polity/hotaki` — turning point 1729 Damghan and Murche-Khort
 - [ ] `polity/hotaki` — ended by conquest in 1738
 
+## Caroline Finkel, Osman's Dream: The Story of the Ottoman Empire 1300-1923
+
+`finkel-2005` — 21 claims
+
+- [ ] `chapter/karamanid/05-two-centuries-of-being-the-rival.mdx` — prose: "Two centuries of being the rival"
+- [ ] `chapter/karamanid/06-1487.mdx` — prose: "1487"
+- [ ] `chapter/trebizond/05-tribute-and-marriage.mdx` — prose: "Tribute and marriage"
+- [ ] `chapter/trebizond/06-1461.mdx` — prose: "1461"
+- [ ] `edge/aydinid->ottoman` — conquered by in 1426
+- [ ] `edge/karamanid->ottoman` — conquered by in 1487
+- [ ] `edge/trebizond->akkoyunlu` — vassal of in 1458
+- [ ] `edge/trebizond->ottoman` — conquered by in 1461
+- [ ] `polity/aydinid` — span ends 1426
+- [ ] `polity/aydinid` — last Cuneyd
+- [ ] `polity/aydinid` — ended by conquest in 1426
+- [ ] `polity/karamanid` — span ends 1487
+- [ ] `polity/karamanid` — turning point 1402 After Ankara
+- [ ] `polity/karamanid` — ended by conquest in 1487
+- [ ] `polity/ottoman` — capital Sogut from 1299
+- [ ] `polity/ottoman` — capital Bursa from 1335
+- [ ] `polity/ottoman` — capital Edirne from 1369
+- [ ] `polity/ottoman` — turning point 1699 Karlowitz
+- [ ] `polity/trebizond` — span ends 1461
+- [ ] `polity/trebizond` — last David Megas Komnenos r. 1459-1461
+- [ ] `polity/trebizond` — ended by conquest in 1461
+
 ## Graham Saunders, A History of Brunei
 
 `saunders-1994` — 21 claims
-
-**Sole source** for `brunei` — nothing else in the corpus can contradict a misreading here.
 
 - [ ] `chapter/brunei/01-boni.mdx` — prose: "Boni"
 - [ ] `chapter/brunei/02-what-pigafetta-counted.mdx` — prose: "What Pigafetta counted"
 - [ ] `chapter/brunei/03-what-a-claim-over-borneo-was.mdx` — prose: "What a claim over Borneo was"
 - [ ] `chapter/brunei/04-the-wazirs.mdx` — prose: "The wazirs"
-- [ ] `chapter/brunei/05-given-away.mdx` — prose: "Given away"
+- [ ] `chapter/brunei/06-given-away.mdx` — prose: "Given away"
 - [ ] `polity/brunei` — span starts 1368
 - [ ] `polity/brunei` — span ends 1888
 - [ ] `polity/brunei` — capital Brunei from 1368
@@ -3509,66 +3624,89 @@ ordinary state, not an item to clear.
 - [ ] `polity/samanid` — military basis coded slave-soldier
 - [ ] `polity/samanid` — successor_claims = 1 (ghaznavid)
 
-## Günther Hölbl, trans. Tina Saavedra, A History of the Ptolemaic Empire
+## Michael Aung-Thwin, Pagan: The Origins of Modern Burma
 
-`holbl-2001` — 21 claims
+`aung-thwin-1985` — 21 claims
 
-- [ ] `chapter/ptolemaic/01-the-body.mdx` — prose: "The body of Alexander"
-- [ ] `chapter/ptolemaic/02-alexandria.mdx` — prose: "The city by Egypt"
-- [ ] `chapter/ptolemaic/03-the-empire-outside-egypt.mdx` — prose: "The empire outside Egypt"
-- [ ] `chapter/ptolemaic/05-raphia.mdx` — prose: "Raphia, and what it cost to win"
-- [ ] `chapter/ptolemaic/06-the-circle-in-the-sand.mdx` — prose: "The circle in the sand"
-- [ ] `chapter/ptolemaic/07-cleopatra.mdx` — prose: "The last of them"
-- [ ] `edge/macedonian->ptolemaic` — partitioned from in -305
-- [ ] `edge/ptolemaic->roman` — conquered by in -30
-- [ ] `polity/ptolemaic` — span starts -323
-- [ ] `polity/ptolemaic` — span ends -30
-- [ ] `polity/ptolemaic` — capital Alexandria from -305
-- [ ] `polity/ptolemaic` — founder Ptolemy I Soter r. -305--282
-- [ ] `polity/ptolemaic` — peak Ptolemy III Euergetes r. -246--222
-- [ ] `polity/ptolemaic` — last Cleopatra VII r. -51--30
-- [ ] `polity/ptolemaic` — military basis coded land-grant + mercenary
-- [ ] `polity/ptolemaic` — succession rule coded primogeniture
-- [ ] `polity/ptolemaic` — legitimation coded divine-sanction + descent
-- [ ] `polity/ptolemaic` — turning point -217 Raphia
-- [ ] `polity/ptolemaic` — turning point -200 Panion
-- [ ] `polity/ptolemaic` — turning point -168 The Day of Eleusis
-- [ ] `polity/ptolemaic` — ended by conquest in -30
+- [ ] `chapter/pagan/01-ten-thousand-temples.mdx` — prose: "Ten thousand temples"
+- [ ] `chapter/pagan/02-merit.mdx` — prose: "Merit"
+- [ ] `chapter/pagan/04-the-merit-that-would-not-come-back.mdx` — prose: "The merit that would not come back"
+- [ ] `chapter/pagan/05-1287.mdx` — prose: "1287"
+- [ ] `chapter/pagan/06-zero-religions.mdx` — prose: "What Pagan did not export"
+- [ ] `chapter/pagan/07-two-thousand-temples.mdx` — prose: "Two thousand temples"
+- [ ] `polity/pagan` — span starts 1044
+- [ ] `polity/pagan` — span ends 1287
+- [ ] `polity/pagan` — capital Pagan from 1044
+- [ ] `polity/pagan` — founder Anawrahta r. 1044-1077
+- [ ] `polity/pagan` — peak Narapatisithu r. 1174-1211
+- [ ] `polity/pagan` — last Narathihapate r. 1256-1287
+- [ ] `polity/pagan` — military basis coded conscript
+- [ ] `polity/pagan` — revenue basis coded land-tax
+- [ ] `polity/pagan` — legitimation coded descent + divine-sanction
+- [ ] `polity/pagan` — turning point 1057 Thaton (contested)
+- [ ] `polity/pagan` — turning point 1287 The Mongols
+- [ ] `polity/pagan` — descendant_scripts = 0
+- [ ] `polity/pagan` — religions_carried = 0
+- [ ] `polity/pagan` — successor_claims = 0
+- [ ] `polity/pagan` — ended by fragmentation in 1287
 
-## Cesar Adib Majul, Muslims in the Philippines
+## Andrew M. Smith II, Roman Palmyra: Identity, Community, and State Formation
 
-`majul-1973` — 21 claims
+`smith-2013` — 21 claims
 
-**Sole source** for `sulu` — nothing else in the corpus can contradict a misreading here.
+- [ ] `chapter/palmyrene/01-tadmor.mdx` — prose: "Tadmor"
+- [ ] `chapter/palmyrene/02-odaenathus.mdx` — prose: "The man who was given the east"
+- [ ] `chapter/palmyrene/03-zenobia.mdx` — prose: "Zenobia"
+- [ ] `chapter/palmyrene/05-aurelian.mdx` — prose: "Aurelian"
+- [ ] `chapter/palmyrene/06-what-the-coins-say.mdx` — prose: "Two borrowed vocabularies"
+- [ ] `chapter/palmyrene/07-a-village-in-the-temple.mdx` — prose: "A village in the temple"
+- [ ] `edge/palmyrene->roman` — conquered by in 273
+- [ ] `edge/roman->palmyrene` — seceded from in 270
+- [ ] `polity/palmyrene` — span starts 260
+- [ ] `polity/palmyrene` — span ends 272
+- [ ] `polity/palmyrene` — capital Palmyra from 260
+- [ ] `polity/palmyrene` — founder Odaenathus r. 260-267
+- [ ] `polity/palmyrene` — peak Zenobia r. 267-272
+- [ ] `polity/palmyrene` — last Vaballathus
+- [ ] `polity/palmyrene` — military basis coded tribal-levy
+- [ ] `polity/palmyrene` — revenue basis coded trade-toll
+- [ ] `polity/palmyrene` — legitimation coded titulature + conquest
+- [ ] `polity/palmyrene` — turning point 260 Odaenathus on the Euphrates
+- [ ] `polity/palmyrene` — turning point 267 The murder of Odaenathus
+- [ ] `polity/palmyrene` — turning point 270 The taking of Egypt
+- [ ] `polity/palmyrene` — ended by conquest in 273
 
-- [ ] `chapter/sulu/01-a-sarip-and-the-datus.mdx` — prose: "A sarip, and the datus"
-- [ ] `chapter/sulu/02-the-sulu-zone.mdx` — prose: "Tripang and captives"
-- [ ] `chapter/sulu/03-baptised-at-manila.mdx` — prose: "Baptised at Manila"
-- [ ] `chapter/sulu/04-a-word-in-a-contract.mdx` — prose: "A word in a contract"
-- [ ] `chapter/sulu/05-1915.mdx` — prose: "1915"
-- [ ] `polity/sulu` — span starts 1405
-- [ ] `polity/sulu` — span ends 1915
-- [ ] `polity/sulu` — capital Jolo from 1405
-- [ ] `polity/sulu` — founder Sayyid Abu Bakr r. 1405-1450
-- [ ] `polity/sulu` — peak Azim ud-Din I r. 1735-1773
-- [ ] `polity/sulu` — last Jamalul Kiram II r. 1894-1936
-- [ ] `polity/sulu` — military basis coded client-levy
-- [ ] `polity/sulu` — revenue basis coded trade-toll + plunder
-- [ ] `polity/sulu` — legitimation coded descent + divine-sanction
-- [ ] `polity/sulu` — turning point 1578 Jolo
-- [ ] `polity/sulu` — turning point 1848 Balangingi
-- [ ] `polity/sulu` — turning point 1915 Carpenter
-- [ ] `polity/sulu` — descendant_scripts = 0
-- [ ] `polity/sulu` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/sulu` — successor_claims = 0
-- [ ] `polity/sulu` — ended by gradual absorption in 1915
+## John R. Perry, Karim Khan Zand: A History of Iran, 1747-1779
+*In Publications of the Center for Middle Eastern Studies 12.*
+
+`perry-1979` — 21 claims
+
+- [ ] `chapter/zand/01-after-nadir.mdx` — prose: "Twelve years of everybody"
+- [ ] `chapter/zand/02-the-vakil.mdx` — prose: "Vakil"
+- [ ] `chapter/zand/03-shiraz.mdx` — prose: "Shiraz"
+- [ ] `chapter/zand/04-the-hostage.mdx` — prose: "The hostage"
+- [ ] `chapter/zand/06-lutf-ali.mdx` — prose: "The last Zand"
+- [ ] `chapter/zand/07-the-bones.mdx` — prose: "The bones"
+- [ ] `edge/afsharid->zand` — absorbed remnants of in 1751
+- [ ] `edge/zand->qajar` — conquered by in 1794
+- [ ] `polity/zand` — span starts 1751
+- [ ] `polity/zand` — span ends 1794
+- [ ] `polity/zand` — capital Shiraz from 1765
+- [ ] `polity/zand` — founder Karim Khan Zand r. 1751-1779
+- [ ] `polity/zand` — peak Karim Khan Zand r. 1751-1779
+- [ ] `polity/zand` — last Lutf Ali Khan
+- [ ] `polity/zand` — military basis coded tribal-levy
+- [ ] `polity/zand` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/zand` — legitimation coded conquest + investiture
+- [ ] `polity/zand` — turning point 1759 The death of Muhammad Hasan Khan Qajar
+- [ ] `polity/zand` — turning point 1765 Shiraz
+- [ ] `polity/zand` — turning point 1779 The death of Karim Khan
+- [ ] `polity/zand` — ended by conquest in 1794
 
 ## Mustafa Banister, The Abbasid Caliphate of Cairo, 1261-1517: Out of the Shadows
 *In Edinburgh Studies in Classical Islamic History and Culture.*
 
 `banister-2021` — 20 claims
-
-**Sole source** for `abbasid-cairo` — nothing else in the corpus can contradict a misreading here.
 
 - [ ] `chapter/abbasid-cairo/01-a-caliph-for-cairo.mdx` — prose: "A caliph for Cairo"
 - [ ] `chapter/abbasid-cairo/02-what-an-empty-office-was-for.mdx` — prose: "What an empty office was for"
@@ -3596,11 +3734,9 @@ ordinary state, not an item to clear.
 
 `errington-1990` — 20 claims
 
-**Sole source** for `antigonid` — nothing else in the corpus can contradict a misreading here.
-
 - [ ] `chapter/antigonid/01-the-country-he-started-from.mdx` — prose: "The country he started from"
-- [ ] `chapter/antigonid/02-the-phalanx-and-the-legion.mdx` — prose: "The phalanx and the legion"
-- [ ] `chapter/antigonid/03-not-claiming-alexander.mdx` — prose: "Not claiming Alexander"
+- [ ] `chapter/antigonid/03-the-phalanx-and-the-legion.mdx` — prose: "The phalanx and the legion"
+- [ ] `chapter/antigonid/05-not-claiming-alexander.mdx` — prose: "Not claiming Alexander"
 - [ ] `edge/antigonid->roman` — conquered by in -168
 - [ ] `polity/antigonid` — span starts -277
 - [ ] `polity/antigonid` — span ends -168
@@ -3619,43 +3755,16 @@ ordinary state, not an item to clear.
 - [ ] `polity/antigonid` — successor_claims = 0
 - [ ] `polity/antigonid` — ended by conquest in -168
 
-## Caroline Finkel, Osman's Dream: The Story of the Ottoman Empire 1300-1923
-
-`finkel-2005` — 20 claims
-
-- [ ] `chapter/karamanid/04-two-centuries-of-being-the-rival.mdx` — prose: "Two centuries of being the rival"
-- [ ] `chapter/ottoman/08-1922.mdx` — prose: "The last of the three"
-- [ ] `chapter/trebizond/04-the-last-of-the-romans.mdx` — prose: "The last of them"
-- [ ] `edge/aydinid->ottoman` — conquered by in 1426
-- [ ] `edge/karamanid->ottoman` — conquered by in 1487
-- [ ] `edge/trebizond->akkoyunlu` — vassal of in 1458
-- [ ] `edge/trebizond->ottoman` — conquered by in 1461
-- [ ] `polity/aydinid` — span ends 1426
-- [ ] `polity/aydinid` — last Cuneyd
-- [ ] `polity/aydinid` — ended by conquest in 1426
-- [ ] `polity/karamanid` — span ends 1487
-- [ ] `polity/karamanid` — turning point 1402 After Ankara
-- [ ] `polity/karamanid` — ended by conquest in 1487
-- [ ] `polity/ottoman` — capital Sogut from 1299
-- [ ] `polity/ottoman` — capital Bursa from 1335
-- [ ] `polity/ottoman` — capital Edirne from 1369
-- [ ] `polity/ottoman` — turning point 1699 Karlowitz
-- [ ] `polity/trebizond` — span ends 1461
-- [ ] `polity/trebizond` — last David Megas Komnenos r. 1459-1461
-- [ ] `polity/trebizond` — ended by conquest in 1461
-
 ## Taef Kamal El-Azhari, The Saljuqs of Syria During the Crusades, 463-549 A.H./1070-1154 A.D.
 *In Islamkundliche Untersuchungen 211.*
 
 `el-azhari-1997` — 20 claims
 
-**Sole source** for `burid` — nothing else in the corpus can contradict a misreading here.
-
 - [ ] `chapter/burid/01-the-atabeg.mdx` — prose: "What an atabeg was"
 - [ ] `chapter/burid/02-tribute.mdx` — prose: "Paying the Franks"
 - [ ] `chapter/burid/03-1129.mdx` — prose: "The year the city decided"
 - [ ] `chapter/burid/04-unur.mdx` — prose: "Unur, and four days in July"
-- [ ] `chapter/burid/05-the-gates.mdx` — prose: "The gates opened from inside"
+- [ ] `chapter/burid/06-the-gates.mdx` — prose: "The gates opened from inside"
 - [ ] `edge/burid->zangid` — absorbed remnants of in 1154
 - [ ] `edge/great-seljuk->burid` — seceded from in 1104
 - [ ] `polity/burid` — span starts 1104
@@ -3697,32 +3806,30 @@ ordinary state, not an item to clear.
 - [ ] `polity/carolingian` — religions_carried = 1 (Latin Christianity)
 - [ ] `polity/carolingian` — ended by fragmentation in 888
 
-## Vladimir Minorsky, A History of Sharvan and Darband in the 10th-11th Centuries
+## Peter Jackson, The Delhi Sultanate: A Political and Military History
 
-`minorsky-1958` — 20 claims
+`jackson-1999` — 20 claims
 
-**Sole source** for `derbend` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/derbend/01-the-gate.mdx` — prose: "The gate of gates"
-- [ ] `chapter/derbend/02-the-city-and-the-emir.mdx` — prose: "The city and the emir"
-- [ ] `chapter/derbend/03-a-standing-arrangement.mdx` — prose: "A polity with no turning points"
-- [ ] `chapter/derbend/04-1077.mdx` — prose: "The Seljuks come through"
-- [ ] `chapter/shirvanshah/01-arabs-who-became-sasanians.mdx` — prose: "Arabs who became Sasanians"
-- [ ] `chapter/shirvanshah/02-what-lasting-costs.mdx` — prose: "What lasting looks like in the fields"
-- [ ] `chapter/shirvanshah/03-khaqani.mdx` — prose: "The twelfth-century court"
-- [ ] `edge/derbend->great-seljuk` — conquered by in 1077
-- [ ] `polity/derbend` — span starts 869
-- [ ] `polity/derbend` — span ends 1077
-- [ ] `polity/derbend` — capital Derbend from 869
-- [ ] `polity/derbend` — founder Hashim ibn Suraqa
-- [ ] `polity/derbend` — revenue basis coded trade-toll
-- [ ] `polity/derbend` — legitimation coded caliphal-investiture
-- [ ] `polity/derbend` — ended by conquest in 1077
-- [ ] `polity/shirvanshah` — span starts 799
-- [ ] `polity/shirvanshah` — capital Shamakhi from 861
-- [ ] `polity/shirvanshah` — founder Yazid ibn Mazyad al-Shaybani
-- [ ] `polity/shirvanshah` — revenue basis coded land-tax + trade-toll + mining
-- [ ] `polity/shirvanshah` — legitimation coded descent
+- [ ] `chapter/delhi-sultanate/01-slave-kings.mdx` — prose: "The slave kings"
+- [ ] `chapter/delhi-sultanate/03-mongol-frontier.mdx` — prose: "The frontier that held"
+- [ ] `chapter/delhi-sultanate/05-timur.mdx` — prose: "Timur, and what was left"
+- [ ] `chapter/delhi-sultanate/06-what-the-sultanate-left.mdx` — prose: "The language nobody decreed"
+- [ ] `chapter/ghurid/03-india.mdx` — prose: "Mu'izz al-Din's India"
+- [ ] `chapter/ghurid/04-the-slave-generals.mdx` — prose: "The instrument that did not walk away"
+- [ ] `edge/ghurid->delhi-sultanate` — slave-general of in 1206
+- [ ] `polity/delhi-sultanate` — span starts 1206
+- [ ] `polity/delhi-sultanate` — span ends 1526
+- [ ] `polity/delhi-sultanate` — capital Delhi from 1206
+- [ ] `polity/delhi-sultanate` — founder Qutb al-Din Aibak r. 1206-1210
+- [ ] `polity/delhi-sultanate` — peak Ala al-Din Khalji r. 1296-1316
+- [ ] `polity/delhi-sultanate` — last Ibrahim Lodi r. 1517-1526
+- [ ] `polity/delhi-sultanate` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/delhi-sultanate` — ended by conquest in 1526
+- [ ] `polity/ghurid` — military basis coded tribal-levy + slave-soldier
+- [ ] `polity/ghurid` — turning point 1192 The second battle of Tarain
+- [ ] `polity/ghurid` — turning point 1206 Mu'izz al-Din assassinated with no son
+- [ ] `polity/ghurid` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/ghurid` — successor_claims = 1 (Delhi Sultanate)
 
 ## Michael Brett, The Fatimid Empire
 
@@ -3732,7 +3839,7 @@ ordinary state, not an item to clear.
 - [ ] `chapter/fatimid/05-the-shidda.mdx` — prose: "The years the Nile did not come"
 - [ ] `chapter/fatimid/06-jerusalem-1099.mdx` — prose: "Losing the coast"
 - [ ] `chapter/fatimid/07-decline.mdx` — prose: "The viziers, and Saladin"
-- [ ] `chapter/ikhshidid/04-969.mdx` — prose: "A negotiated surrender"
+- [ ] `chapter/ikhshidid/05-969.mdx` — prose: "A negotiated surrender"
 - [ ] `edge/ikhshidid->fatimid` — conquered by in 969
 - [ ] `polity/fatimid` — span ends 1171
 - [ ] `polity/fatimid` — capital Cairo from 973
@@ -3779,14 +3886,12 @@ ordinary state, not an item to clear.
 
 `horton-middleton-2000` — 20 claims
 
-**Sole source** for `kilwa` — nothing else in the corpus can contradict a misreading here.
-
 - [ ] `chapter/kilwa/01-where-the-wind-stops.mdx` — prose: "Where the wind stops"
 - [ ] `chapter/kilwa/02-sofala.mdx` — prose: "Sofala"
 - [ ] `chapter/kilwa/03-the-prince-from-shiraz.mdx` — prose: "The prince from Shiraz"
 - [ ] `chapter/kilwa/04-husuni-kubwa.mdx` — prose: "Husuni Kubwa"
 - [ ] `chapter/kilwa/05-the-ocean.mdx` — prose: "The ocean"
-- [ ] `chapter/kilwa/06-1505.mdx` — prose: "1505"
+- [ ] `chapter/kilwa/07-1505.mdx` — prose: "1505"
 - [ ] `polity/kilwa` — span starts 957
 - [ ] `polity/kilwa` — span ends 1505
 - [ ] `polity/kilwa` — capital Kilwa Kisiwani from 1000
@@ -3802,44 +3907,15 @@ ordinary state, not an item to clear.
 - [ ] `polity/kilwa` — successor_claims = 0
 - [ ] `polity/kilwa` — ended by conquest in 1505
 
-## Andrew M. Smith II, Roman Palmyra: Identity, Community, and State Formation
-
-`smith-2013` — 20 claims
-
-**Sole source** for `palmyrene` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/palmyrene/01-tadmor.mdx` — prose: "Tadmor"
-- [ ] `chapter/palmyrene/02-odaenathus.mdx` — prose: "The man who was given the east"
-- [ ] `chapter/palmyrene/03-zenobia.mdx` — prose: "Zenobia"
-- [ ] `chapter/palmyrene/04-what-the-coins-say.mdx` — prose: "Two borrowed vocabularies"
-- [ ] `chapter/palmyrene/05-aurelian.mdx` — prose: "Aurelian"
-- [ ] `edge/palmyrene->roman` — conquered by in 273
-- [ ] `edge/roman->palmyrene` — seceded from in 270
-- [ ] `polity/palmyrene` — span starts 260
-- [ ] `polity/palmyrene` — span ends 272
-- [ ] `polity/palmyrene` — capital Palmyra from 260
-- [ ] `polity/palmyrene` — founder Odaenathus r. 260-267
-- [ ] `polity/palmyrene` — peak Zenobia r. 267-272
-- [ ] `polity/palmyrene` — last Vaballathus
-- [ ] `polity/palmyrene` — military basis coded tribal-levy
-- [ ] `polity/palmyrene` — revenue basis coded trade-toll
-- [ ] `polity/palmyrene` — legitimation coded titulature + conquest
-- [ ] `polity/palmyrene` — turning point 260 Odaenathus on the Euphrates
-- [ ] `polity/palmyrene` — turning point 267 The murder of Odaenathus
-- [ ] `polity/palmyrene` — turning point 270 The taking of Egypt
-- [ ] `polity/palmyrene` — ended by conquest in 273
-
 ## Michal Biran, The Empire of the Qara Khitai in Eurasian History: Between China and the Islamic World
 *In Cambridge Studies in Islamic Civilization.*
 
 `biran-2005` — 20 claims
 
-**Sole source** for `qara-khitai` — nothing else in the corpus can contradict a misreading here.
-
 - [ ] `chapter/qara-khitai/01-a-dynasty-in-exile.mdx` — prose: "A dynasty that walked west"
-- [ ] `chapter/qara-khitai/02-qatwan.mdx` — prose: "The day Transoxiana stopped being Muslim-ruled"
-- [ ] `chapter/qara-khitai/03-how-to-rule-what-you-cannot-outnumber.mdx` — prose: "How to rule what you cannot outnumber"
-- [ ] `chapter/qara-khitai/04-kuchlug.mdx` — prose: "The refugee who wrecked it"
+- [ ] `chapter/qara-khitai/03-qatwan.mdx` — prose: "The day Transoxiana stopped being Muslim-ruled"
+- [ ] `chapter/qara-khitai/04-how-to-rule-what-you-cannot-outnumber.mdx` — prose: "How to rule what you cannot outnumber"
+- [ ] `chapter/qara-khitai/05-kuchlug.mdx` — prose: "The refugee who wrecked it"
 - [ ] `edge/liao->qara-khitai` — claimed legitimacy of in 1124
 - [ ] `edge/qara-khitai->mongol` — conquered by in 1218
 - [ ] `polity/qara-khitai` — span starts 1124
@@ -3862,13 +3938,11 @@ ordinary state, not an item to clear.
 
 `smith-1970` — 20 claims
 
-**Sole source** for `sarbadar` — nothing else in the corpus can contradict a misreading here.
-
 - [ ] `chapter/sarbadar/01-heads-on-the-gallows.mdx` — prose: "Heads on the gallows"
 - [ ] `chapter/sarbadar/02-two-parties.mdx` — prose: "Two parties in one town"
-- [ ] `chapter/sarbadar/03-not-a-dynasty.mdx` — prose: "Not a dynasty"
-- [ ] `chapter/sarbadar/04-the-horse.mdx` — prose: "The saddled horse"
-- [ ] `chapter/sarbadar/05-ali-muayyad.mdx` — prose: "The last one invited Timur in"
+- [ ] `chapter/sarbadar/04-not-a-dynasty.mdx` — prose: "Not a dynasty"
+- [ ] `chapter/sarbadar/05-the-horse.mdx` — prose: "The saddled horse"
+- [ ] `chapter/sarbadar/06-ali-muayyad.mdx` — prose: "The last one invited Timur in"
 - [ ] `edge/ilkhanate->sarbadar` — seceded from in 1337
 - [ ] `edge/sarbadar->timurid` — absorbed remnants of in 1381
 - [ ] `polity/sarbadar` — span starts 1337
@@ -3890,9 +3964,9 @@ ordinary state, not an item to clear.
 
 `collins-2004` — 20 claims
 
-- [ ] `chapter/visigothic/02-one-church.mdx` — prose: "One church"
-- [ ] `chapter/visigothic/03-the-law-and-the-election.mdx` — prose: "The law and the election"
-- [ ] `chapter/visigothic/04-eighteen-months.mdx` — prose: "Eighteen months"
+- [ ] `chapter/visigothic/03-one-church.mdx` — prose: "One church"
+- [ ] `chapter/visigothic/04-the-law-and-the-election.mdx` — prose: "The law and the election"
+- [ ] `chapter/visigothic/06-eighteen-months.mdx` — prose: "Eighteen months"
 - [ ] `edge/visigothic->umayyad` — conquered by in 711
 - [ ] `polity/visigothic` — span starts 418
 - [ ] `polity/visigothic` — span ends 711
@@ -3911,34 +3985,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/visigothic` — successor_claims = 1 (Kingdom of Asturias)
 - [ ] `polity/visigothic` — ended by conquest in 711
 
-## John R. Perry, Karim Khan Zand: A History of Iran, 1747-1779
-*In Publications of the Center for Middle Eastern Studies 12.*
-
-`perry-1979` — 20 claims
-
-**Sole source** for `zand` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/zand/01-after-nadir.mdx` — prose: "Twelve years of everybody"
-- [ ] `chapter/zand/02-the-vakil.mdx` — prose: "Vakil"
-- [ ] `chapter/zand/03-shiraz.mdx` — prose: "Shiraz"
-- [ ] `chapter/zand/04-the-hostage.mdx` — prose: "The hostage"
-- [ ] `chapter/zand/05-lutf-ali.mdx` — prose: "The last Zand"
-- [ ] `edge/afsharid->zand` — absorbed remnants of in 1751
-- [ ] `edge/zand->qajar` — conquered by in 1794
-- [ ] `polity/zand` — span starts 1751
-- [ ] `polity/zand` — span ends 1794
-- [ ] `polity/zand` — capital Shiraz from 1765
-- [ ] `polity/zand` — founder Karim Khan Zand r. 1751-1779
-- [ ] `polity/zand` — peak Karim Khan Zand r. 1751-1779
-- [ ] `polity/zand` — last Lutf Ali Khan
-- [ ] `polity/zand` — military basis coded tribal-levy
-- [ ] `polity/zand` — revenue basis coded land-tax + trade-toll
-- [ ] `polity/zand` — legitimation coded conquest + investiture
-- [ ] `polity/zand` — turning point 1759 The death of Muhammad Hasan Khan Qajar
-- [ ] `polity/zand` — turning point 1765 Shiraz
-- [ ] `polity/zand` — turning point 1779 The death of Karim Khan
-- [ ] `polity/zand` — ended by conquest in 1794
-
 ## R. Stephen Humphreys, From Saladin to the Mongols: The Ayyubids of Damascus 1193-1260
 
 `humphreys-1977` — 19 claims
@@ -3946,8 +3992,8 @@ ordinary state, not an item to clear.
 - [ ] `chapter/ayyubid/05-a-family-not-a-state.mdx` — prose: "A family, not a state"
 - [ ] `chapter/ayyubid/06-al-adil.mdx` — prose: "The brother who put it back together"
 - [ ] `chapter/ayyubid/07-jerusalem-by-treaty.mdx` — prose: "Jerusalem, given back"
-- [ ] `chapter/ayyubid/08-mansura.mdx` — prose: "Mansura, and the regiment that stayed"
-- [ ] `chapter/zangid/05-the-officer-they-sent-to-egypt.mdx` — prose: "The officer they sent to Egypt"
+- [ ] `chapter/ayyubid/09-mansura.mdx` — prose: "Mansura, and the regiment that stayed"
+- [ ] `chapter/zangid/06-the-officer-they-sent-to-egypt.mdx` — prose: "The officer they sent to Egypt"
 - [ ] `edge/fatimid->ayyubid` — overthrew in 1171
 - [ ] `polity/ayyubid` — span starts 1171
 - [ ] `polity/ayyubid` — span ends 1250
@@ -3963,14 +4009,38 @@ ordinary state, not an item to clear.
 - [ ] `polity/zangid` — turning point 1169 Shirkuh dies two months into the vizierate
 - [ ] `polity/zangid` — ended by gradual absorption in 1250
 
+## Peter Jackson, The Mongols and the Islamic World: From Conquest to Conversion
+
+`jackson-2017` — 19 claims
+
+- [ ] `chapter/cilician-armenia/05-the-bet-on-the-mongols.mdx` — prose: "The bet on the Mongols"
+- [ ] `chapter/cilician-armenia/06-1375.mdx` — prose: "1375"
+- [ ] `chapter/ilkhanate/01-a-standing-army-sent-west.mdx` — prose: "A standing army sent west"
+- [ ] `chapter/ilkhanate/02-baghdad-and-ain-jalut.mdx` — prose: "Baghdad, and then Ain Jalut"
+- [ ] `chapter/ilkhanate/04-conversion.mdx` — prose: "The conquerors convert"
+- [ ] `chapter/ilkhanate/05-rashid-al-din.mdx` — prose: "The first world history"
+- [ ] `chapter/ilkhanate/06-no-heir.mdx` — prose: "No heir"
+- [ ] `chapter/ilkhanate/07-what-tabriz-kept.mdx` — prose: "What Tabriz kept"
+- [ ] `edge/mongol->ilkhanate` — partitioned from in 1256
+- [ ] `polity/cilician-armenia` — turning point 1253 Hetum goes to Karakorum
+- [ ] `polity/ilkhanate` — span starts 1256
+- [ ] `polity/ilkhanate` — span ends 1335
+- [ ] `polity/ilkhanate` — capital Tabriz from 1256
+- [ ] `polity/ilkhanate` — founder Hulegu r. 1256-1265
+- [ ] `polity/ilkhanate` — peak Ghazan r. 1295-1304
+- [ ] `polity/ilkhanate` — last Abu Sa'id r. 1316-1335
+- [ ] `polity/ilkhanate` — turning point 1295 Ghazan's conversion to Islam
+- [ ] `polity/ilkhanate` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/ilkhanate` — ended by fragmentation in 1335
+
 ## E. Mary Smallwood, The Jews under Roman Rule: From Pompey to Diocletian. A Study in Political Relations
 *In Studies in Judaism in Late Antiquity 20.*
 
 `smallwood-1976` — 19 claims
 
-- [ ] `chapter/hasmonean/03-two-brothers-and-a-consul.mdx` — prose: "Two brothers and a consul"
-- [ ] `chapter/hasmonean/04-37.mdx` — prose: "37"
-- [ ] `chapter/herodian/04-from-the-besiegers-camp.mdx` — prose: "From the besiegers' camp"
+- [ ] `chapter/hasmonean/04-two-brothers-and-a-consul.mdx` — prose: "Two brothers and a consul"
+- [ ] `chapter/hasmonean/05-37.mdx` — prose: "37"
+- [ ] `chapter/herodian/05-from-the-besiegers-camp.mdx` — prose: "From the besiegers' camp"
 - [ ] `edge/hasmonean->herodian` — overthrew in -37
 - [ ] `edge/herodian->roman` — absorbed remnants of in 92
 - [ ] `polity/hasmonean` — span ends -37
@@ -3988,16 +4058,41 @@ ordinary state, not an item to clear.
 - [ ] `polity/herodian` — successor_claims = 0
 - [ ] `polity/herodian` — ended by gradual absorption in 92
 
+## Neil Christie, The Lombards: The Ancient Longobards
+*In The Peoples of Europe.*
+
+`christie-1995` — 19 claims
+
+- [ ] `edge/lombard->carolingian` — conquered by in 774
+- [ ] `polity/lombard` — span starts 568
+- [ ] `polity/lombard` — span ends 774
+- [ ] `polity/lombard` — capital Pavia from 572
+- [ ] `polity/lombard` — founder Alboin r. 568-572
+- [ ] `polity/lombard` — peak Liutprand r. 712-744
+- [ ] `polity/lombard` — last Desiderius r. 756-774
+- [ ] `polity/lombard` — military basis coded conscript + land-grant
+- [ ] `polity/lombard` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/lombard` — succession rule coded acclamation
+- [ ] `polity/lombard` — legitimation coded election + descent
+- [ ] `polity/lombard` — turning point 574 The rule of the dukes
+- [ ] `polity/lombard` — turning point 643 The Edict of Rothari
+- [ ] `polity/lombard` — turning point 751 Ravenna
+- [ ] `polity/lombard` — turning point 774 Pavia
+- [ ] `polity/lombard` — descendant_scripts = 0
+- [ ] `polity/lombard` — religions_carried = 0
+- [ ] `polity/lombard` — successor_claims = 0
+- [ ] `polity/lombard` — ended by dynastic replacement in 774
+
 ## G. Rex Smith, The Ayyubids and Early Rasulids in the Yemen (567-694/1173-1295)
 *In E. J. W. Gibb Memorial, New Series XXVI.*
 
 `smith-1974` — 19 claims
 
 - [ ] `chapter/najahid/02-zabid.mdx` — prose: "Zabid"
-- [ ] `chapter/najahid/04-1158.mdx` — prose: "The viziers again"
+- [ ] `chapter/najahid/06-the-viziers-again.mdx` — prose: "The viziers again"
 - [ ] `chapter/rasulid/01-the-deputies-who-stayed.mdx` — prose: "The deputies who stayed"
-- [ ] `chapter/rasulid/04-the-scholar-sultans.mdx` — prose: "Sultans who wrote books"
-- [ ] `chapter/zurayid/04-1173.mdx` — prose: "Turanshah takes the gate"
+- [ ] `chapter/rasulid/05-the-scholar-sultans.mdx` — prose: "Sultans who wrote books"
+- [ ] `chapter/zurayid/06-1173.mdx` — prose: "Turanshah takes the gate"
 - [ ] `edge/ayyubid->rasulid` — seceded from in 1229
 - [ ] `edge/zurayid->ayyubid` — conquered by in 1173
 - [ ] `polity/najahid` — revenue basis coded land-tax
@@ -4017,13 +4112,11 @@ ordinary state, not an item to clear.
 
 `harvey-1990` — 19 claims
 
-**Sole source** for `nasrid` — nothing else in the corpus can contradict a misreading here.
-
 - [ ] `chapter/nasrid/01-what-was-left.mdx` — prose: "What was left"
-- [ ] `chapter/nasrid/02-a-tributary-that-worked.mdx` — prose: "A tributary that worked"
-- [ ] `chapter/nasrid/03-the-alhambra.mdx` — prose: "The palace with the writing on it"
-- [ ] `chapter/nasrid/04-the-help-that-stopped-coming.mdx` — prose: "The help that stopped coming"
-- [ ] `chapter/nasrid/05-1492.mdx` — prose: "1492"
+- [ ] `chapter/nasrid/03-a-tributary-that-worked.mdx` — prose: "A tributary that worked"
+- [ ] `chapter/nasrid/04-the-alhambra.mdx` — prose: "The palace with the writing on it"
+- [ ] `chapter/nasrid/05-the-help-that-stopped-coming.mdx` — prose: "The help that stopped coming"
+- [ ] `chapter/nasrid/07-1492.mdx` — prose: "1492"
 - [ ] `edge/almohad->nasrid` — seceded from in 1232
 - [ ] `polity/nasrid` — span starts 1232
 - [ ] `polity/nasrid` — span ends 1492
@@ -4039,31 +4132,30 @@ ordinary state, not an item to clear.
 - [ ] `polity/nasrid` — turning point 1482 The war and the civil war
 - [ ] `polity/nasrid` — ended by conquest in 1492
 
-## Michael Aung-Thwin, Pagan: The Origins of Modern Burma
+## Edited and translated by A. Teeuw and D. K. Wyatt, Hikayat Patani: The Story of Patani
+*In Bibliotheca Indonesica 5, Koninklijk Instituut voor Taal-, Land- en Volkenkunde.*
 
-`aung-thwin-1985` — 19 claims
+`teeuw-wyatt-1970` — 19 claims
 
-**Sole source** for `pagan` — nothing else in the corpus can contradict a misreading here.
-
-- [ ] `chapter/pagan/01-ten-thousand-temples.mdx` — prose: "Ten thousand temples"
-- [ ] `chapter/pagan/02-merit.mdx` — prose: "Merit"
-- [ ] `chapter/pagan/03-1287.mdx` — prose: "1287"
-- [ ] `chapter/pagan/04-zero-religions.mdx` — prose: "Zero religions carried"
-- [ ] `polity/pagan` — span starts 1044
-- [ ] `polity/pagan` — span ends 1287
-- [ ] `polity/pagan` — capital Pagan from 1044
-- [ ] `polity/pagan` — founder Anawrahta r. 1044-1077
-- [ ] `polity/pagan` — peak Narapatisithu r. 1174-1211
-- [ ] `polity/pagan` — last Narathihapate r. 1256-1287
-- [ ] `polity/pagan` — military basis coded conscript
-- [ ] `polity/pagan` — revenue basis coded land-tax
-- [ ] `polity/pagan` — legitimation coded descent + divine-sanction
-- [ ] `polity/pagan` — turning point 1057 Thaton (contested)
-- [ ] `polity/pagan` — turning point 1287 The Mongols
-- [ ] `polity/pagan` — descendant_scripts = 0
-- [ ] `polity/pagan` — religions_carried = 0
-- [ ] `polity/pagan` — successor_claims = 0
-- [ ] `polity/pagan` — ended by fragmentation in 1287
+- [ ] `chapter/patani/01-down-from-mahligai.mdx` — prose: "Down from Mahligai"
+- [ ] `chapter/patani/02-what-a-chronicle-argues.mdx` — prose: "What a chronicle argues"
+- [ ] `chapter/patani/03-the-cannon.mdx` — prose: "The cannon"
+- [ ] `chapter/patani/04-four-queens.mdx` — prose: "Four queens"
+- [ ] `chapter/patani/05-1786.mdx` — prose: "1786"
+- [ ] `chapter/patani/06-a-border-through-it.mdx` — prose: "A border through it"
+- [ ] `polity/patani` — span starts 1500
+- [ ] `polity/patani` — span ends 1786
+- [ ] `polity/patani` — capital Patani from 1500
+- [ ] `polity/patani` — founder Sultan Ismail Shah r. 1500-1530
+- [ ] `polity/patani` — peak Raja Hijau r. 1584-1616
+- [ ] `polity/patani` — legitimation coded descent + divine-sanction
+- [ ] `polity/patani` — turning point 1584 Raja Hijau
+- [ ] `polity/patani` — turning point 1634 The Siamese repulsed
+- [ ] `polity/patani` — turning point 1786 The end of the negotiation
+- [ ] `polity/patani` — descendant_scripts = 0
+- [ ] `polity/patani` — religions_carried = 0
+- [ ] `polity/patani` — successor_claims = 0
+- [ ] `polity/patani` — ended by conquest in 1786
 
 ## Greg Woolf, Rome: An Empire's Story
 
@@ -4117,8 +4209,6 @@ ordinary state, not an item to clear.
 
 `gammer-1994` — 18 claims
 
-**Sole source** for `caucasian-imamate` — nothing else in the corpus can contradict a misreading here.
-
 - [ ] `chapter/caucasian-imamate/01-sharia-against-adat.mdx` — prose: "The law before the war"
 - [ ] `chapter/caucasian-imamate/02-the-state-he-built.mdx` — prose: "The state he built"
 - [ ] `chapter/caucasian-imamate/03-an-elected-imamate.mdx` — prose: "The fourth elected imamate"
@@ -4138,63 +4228,16 @@ ordinary state, not an item to clear.
 - [ ] `polity/caucasian-imamate` — turning point 1845 Dargo
 - [ ] `polity/caucasian-imamate` — ended by conquest in 1859
 
-## Peter Jackson, The Delhi Sultanate: A Political and Military History
-
-`jackson-1999` — 18 claims
-
-- [ ] `chapter/delhi-sultanate/01-slave-kings.mdx` — prose: "The slave kings"
-- [ ] `chapter/delhi-sultanate/02-mongol-frontier.mdx` — prose: "The frontier that held"
-- [ ] `chapter/ghurid/03-india.mdx` — prose: "Mu'izz al-Din's India"
-- [ ] `chapter/ghurid/04-the-slave-generals.mdx` — prose: "The instrument that did not walk away"
-- [ ] `edge/ghurid->delhi-sultanate` — slave-general of in 1206
-- [ ] `polity/delhi-sultanate` — span starts 1206
-- [ ] `polity/delhi-sultanate` — span ends 1526
-- [ ] `polity/delhi-sultanate` — capital Delhi from 1206
-- [ ] `polity/delhi-sultanate` — founder Qutb al-Din Aibak r. 1206-1210
-- [ ] `polity/delhi-sultanate` — peak Ala al-Din Khalji r. 1296-1316
-- [ ] `polity/delhi-sultanate` — last Ibrahim Lodi r. 1517-1526
-- [ ] `polity/delhi-sultanate` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/delhi-sultanate` — ended by conquest in 1526
-- [ ] `polity/ghurid` — military basis coded tribal-levy + slave-soldier
-- [ ] `polity/ghurid` — turning point 1192 The second battle of Tarain
-- [ ] `polity/ghurid` — turning point 1206 Mu'izz al-Din assassinated with no son
-- [ ] `polity/ghurid` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/ghurid` — successor_claims = 1 (Delhi Sultanate)
-
-## Edited and translated by A. Teeuw and D. K. Wyatt, Hikayat Patani: The Story of Patani
-*In Bibliotheca Indonesica 5, Koninklijk Instituut voor Taal-, Land- en Volkenkunde.*
-
-`teeuw-wyatt-1970` — 18 claims
-
-- [ ] `chapter/patani/01-what-a-chronicle-argues.mdx` — prose: "What a chronicle argues"
-- [ ] `chapter/patani/02-the-cannon.mdx` — prose: "The cannon"
-- [ ] `chapter/patani/03-four-queens-and-a-correction.mdx` — prose: "Four queens, and a correction"
-- [ ] `chapter/patani/04-1786.mdx` — prose: "1786"
-- [ ] `chapter/patani/05-a-border-through-it.mdx` — prose: "A border through it"
-- [ ] `polity/patani` — span starts 1500
-- [ ] `polity/patani` — span ends 1786
-- [ ] `polity/patani` — capital Patani from 1500
-- [ ] `polity/patani` — founder Sultan Ismail Shah r. 1500-1530
-- [ ] `polity/patani` — peak Raja Hijau r. 1584-1616
-- [ ] `polity/patani` — legitimation coded descent + divine-sanction
-- [ ] `polity/patani` — turning point 1584 Raja Hijau
-- [ ] `polity/patani` — turning point 1634 The Siamese repulsed
-- [ ] `polity/patani` — turning point 1786 The end of the negotiation
-- [ ] `polity/patani` — descendant_scripts = 0
-- [ ] `polity/patani` — religions_carried = 0
-- [ ] `polity/patani` — successor_claims = 0
-- [ ] `polity/patani` — ended by conquest in 1786
-
 ## Madawi Al-Rasheed, Politics in an Arabian Oasis: The Rashidi Tribal Dynasty
 *In Society and Culture in the Modern Middle East.*
 
 `al-rasheed-1991` — 18 claims
 
 - [ ] `chapter/rashidi/01-the-governors-who-took-over.mdx` — prose: "The governors who took over"
-- [ ] `chapter/rashidi/02-hail.mdx` — prose: "Ha'il"
-- [ ] `chapter/rashidi/03-mulayda.mdx` — prose: "Mulayda"
-- [ ] `chapter/rashidi/04-the-murders.mdx` — prose: "How violently null"
-- [ ] `chapter/rashidi/05-1921.mdx` — prose: "1921"
+- [ ] `chapter/rashidi/03-hail.mdx` — prose: "Ha'il"
+- [ ] `chapter/rashidi/04-mulayda.mdx` — prose: "Mulayda"
+- [ ] `chapter/rashidi/06-1921.mdx` — prose: "1921"
+- [ ] `chapter/rashidi/08-the-murders.mdx` — prose: "The murders"
 - [ ] `edge/nejd->rashidi` — conquered by in 1891
 - [ ] `polity/rashidi` — span starts 1836
 - [ ] `polity/rashidi` — span ends 1921
@@ -4259,10 +4302,10 @@ ordinary state, not an item to clear.
 
 `halm-1996` — 17 claims
 
-- [ ] `chapter/aghlabid/04-909.mdx` — prose: "Recruited from inside"
+- [ ] `chapter/aghlabid/05-909.mdx` — prose: "Recruited from inside"
 - [ ] `chapter/fatimid/01-mahdi.mdx` — prose: "A counter-caliphate"
 - [ ] `chapter/fatimid/04-the-dawa.mdx` — prose: "The apparatus that outlived the state"
-- [ ] `chapter/midrarid/03-the-prisoner.mdx` — prose: "The prisoner in the oasis"
+- [ ] `chapter/midrarid/04-the-prisoner.mdx` — prose: "The prisoner in the oasis"
 - [ ] `edge/aghlabid->fatimid` — overthrew in 909
 - [ ] `edge/midrarid->fatimid` — conquered by in 909
 - [ ] `edge/rustamid->fatimid` — conquered by in 909
@@ -4299,6 +4342,51 @@ ordinary state, not an item to clear.
 - [ ] `polity/yaariba` — turning point 1698 Fort Jesus
 - [ ] `polity/yaariba` — ended by internal usurpation in 1744
 
+## H. J. de Graaf and Th. G. Th. Pigeaud, De eerste Moslimse vorstendommen op Java: studiën over de staatkundige geschiedenis van de 15de en 16de eeuw
+*In Verhandelingen van het Koninklijk Instituut voor Taal-, Land- en Volkenkunde 69.*
+
+`graaf-pigeaud-1974` — 17 claims
+
+- [ ] `chapter/banten/02-hasanuddin.mdx` — prose: "Hasanuddin"
+- [ ] `chapter/banten/03-1579.mdx` — prose: "1579"
+- [ ] `chapter/demak/01-the-strait.mdx` — prose: "The strait"
+- [ ] `chapter/demak/06-the-salokantara.mdx` — prose: "The Salokantara"
+- [ ] `chapter/demak/08-a-second-turk.mdx` — prose: "A second Turk"
+- [ ] `chapter/demak/09-pangeran-mas.mdx` — prose: "Pangeran Mas"
+- [ ] `chapter/demak/10-holy-ground.mdx` — prose: "Holy ground"
+- [ ] `chapter/mataram/01-the-forest.mdx` — prose: "The forest"
+- [ ] `chapter/mataram/02-senapati.mdx` — prose: "Senapati"
+- [ ] `chapter/pajang/03-adiwijaya.mdx` — prose: "Adiwijaya"
+- [ ] `chapter/pajang/04-tembayat.mdx` — prose: "Tembayat"
+- [ ] `chapter/pajang/05-the-gardener.mdx` — prose: "The gardener"
+- [ ] `chapter/pajang/06-kartasura.mdx` — prose: "Kartasura"
+- [ ] `polity/banten` — turning point 1580 The kadi's choice
+- [ ] `polity/mataram` — span start upper bound 1588
+- [ ] `polity/pajang` — span end upper bound 1588
+- [ ] `polity/pajang` — turning point 1581 The assembly at Giri
+
+## David Morgan, The Mongols
+
+`morgan-2007` — 17 claims
+
+- [ ] `chapter/golden-horde/01-jochis-share.mdx` — prose: "Jochi's share"
+- [ ] `chapter/khwarazmian/07-the-man-who-wrote-it-down.mdx` — prose: "The man who wrote it down worked for them"
+- [ ] `chapter/mongol/01-1206.mdx` — prose: "What was assembled in 1206"
+- [ ] `chapter/mongol/02-westward.mdx` — prose: "Westward, and the numbers problem"
+- [ ] `chapter/mongol/04-the-toluid-civil-war.mdx` — prose: "The war between the brothers"
+- [ ] `chapter/mongol/06-the-descent.mdx` — prose: "The descent"
+- [ ] `edge/abbasid->mongol` — conquered by in 1258
+- [ ] `edge/jin->mongol` — conquered by in 1234
+- [ ] `polity/mongol` — span starts 1206
+- [ ] `polity/mongol` — span ends 1260
+- [ ] `polity/mongol` — capital Karakorum from 1235
+- [ ] `polity/mongol` — founder Chinggis Khan r. 1206-1227
+- [ ] `polity/mongol` — peak Mongke r. 1251-1259
+- [ ] `polity/mongol` — last Kublai Khan r. 1260-1294
+- [ ] `polity/mongol` — descendant_scripts = 1 (Mongolian script)
+- [ ] `polity/mongol` — successor_claims = 3 (ilkhanate, chagatai, golden-horde)
+- [ ] `polity/mongol` — ended by fragmentation in 1260
+
 ## Suhayl Zakkar, The Emirate of Aleppo, 1004-1094
 
 `zakkar-1971` — 17 claims
@@ -4328,7 +4416,7 @@ ordinary state, not an item to clear.
 - [ ] `chapter/nabataean/01-people-with-no-houses.mdx` — prose: "People with no houses"
 - [ ] `chapter/nabataean/02-the-road.mdx` — prose: "The road"
 - [ ] `chapter/nabataean/03-a-client-that-lasted.mdx` — prose: "A client that lasted"
-- [ ] `chapter/nabataean/05-106.mdx` — prose: "106"
+- [ ] `chapter/nabataean/06-106.mdx` — prose: "106"
 - [ ] `edge/nabataean->roman` — absorbed remnants of in 106
 - [ ] `polity/nabataean` — span starts -168
 - [ ] `polity/nabataean` — span ends 106
@@ -4396,7 +4484,7 @@ ordinary state, not an item to clear.
 
 - [ ] `chapter/afsharid/06-nothing-to-hand-over.mdx` — prose: "Nothing to hand over"
 - [ ] `chapter/hotaki/01-kandahar.mdx` — prose: "Kandahar"
-- [ ] `chapter/hotaki/03-the-occupation.mdx` — prose: "Seven years"
+- [ ] `chapter/hotaki/04-the-occupation.mdx` — prose: "Seven years"
 - [ ] `edge/afsharid->qajar` — conquered by in 1796
 - [ ] `polity/afsharid` — last Shahrukh Shah
 - [ ] `polity/afsharid` — ended by conquest in 1796
@@ -4411,13 +4499,34 @@ ordinary state, not an item to clear.
 - [ ] `polity/hotaki` — legitimation coded conquest
 - [ ] `polity/hotaki` — turning point 1709 The killing of Gurgin Khan
 
+## Ibn Khaldun, Histoire des Berbères et des dynasties musulmanes de l'Afrique septentrionale
+
+`ibn-khaldun-de-slane` — 16 claims
+
+- [ ] `chapter/almohad/02-abd-al-mumin.mdx` — prose: "The whole west, once"
+- [ ] `chapter/almohad/05-the-edict.mdx` — prose: "The edict"
+- [ ] `chapter/almohad/07-the-word.mdx` — prose: "What the word was worth afterwards"
+- [ ] `chapter/almoravid/05-the-doctors-and-the-mountain.mdx` — prose: "The doctors, and the mountain"
+- [ ] `chapter/almoravid/06-marrakesh.mdx` — prose: "Marrakesh, 1147"
+- [ ] `chapter/almoravid/07-the-islands.mdx` — prose: "The empire founded at Gabès"
+- [ ] `chapter/hafsid/02-seville-writes-to-tunis.mdx` — prose: "Seville writes to Tunis"
+- [ ] `chapter/hafsid/05-a-jerboa-hole.mdx` — prose: "A jerboa hole"
+- [ ] `chapter/marinid/02-bought-and-ridden-for.mdx` — prose: "Bought, and ridden for"
+- [ ] `chapter/zayyanid/02-if-it-is-true.mdx` — prose: "If it is true, it will profit us with God"
+- [ ] `polity/almohad` — turning point 1160 Mahdia
+- [ ] `polity/almohad` — turning point 1229 The Mahdi struck off the coinage
+- [ ] `polity/almoravid` — turning point 1147 Marrakesh
+- [ ] `polity/hafsid` — turning point 1347 Abu'l-Hasan enters Tunis
+- [ ] `polity/marinid` — turning point 1253 Sijilmasa
+- [ ] `polity/zayyanid` — turning point 1236 A diploma from Marrakesh
+
 ## Filip Van Tricht, The Latin Renovatio of Byzantium: The Empire of Constantinople (1204-1228)
 *In The Medieval Mediterranean 90.*
 
 `van-tricht-2011` — 16 claims
 
 - [ ] `chapter/latin-empire/01-a-renovatio.mdx` — prose: "A renovatio"
-- [ ] `chapter/latin-empire/02-fourteen-months.mdx` — prose: "Fourteen months"
+- [ ] `chapter/latin-empire/04-fourteen-months.mdx` — prose: "Fourteen months"
 - [ ] `edge/byzantine->latin-empire` — conquered by in 1204
 - [ ] `polity/byzantine` — successor_claims = 4 (First Bulgarian Empire, Latin Empire of Constantinople, Serbia, Ottoman Empire)
 - [ ] `polity/latin-empire` — span starts 1204
@@ -4433,11 +4542,31 @@ ordinary state, not an item to clear.
 - [ ] `polity/latin-empire` — religions_carried = 0
 - [ ] `polity/latin-empire` — successor_claims = 0
 
+## Eyal Regev, The Hasmoneans: Ideology, Archaeology, Identity
+*In Journal of Ancient Judaism Supplements 10.*
+
+`regev-2013` — 16 claims
+
+- [ ] `chapter/hasmonean/01-a-family-with-no-claim.mdx` — prose: "A family with no claim"
+- [ ] `chapter/hasmonean/02-the-diadem.mdx` — prose: "The diadem"
+- [ ] `edge/seleucid->hasmonean` — seceded from in -142
+- [ ] `polity/hasmonean` — span starts -140
+- [ ] `polity/hasmonean` — capital Jerusalem from -140
+- [ ] `polity/hasmonean` — founder Simon Thassi r. -142--135
+- [ ] `polity/hasmonean` — peak Alexander Jannaeus r. -103--76
+- [ ] `polity/hasmonean` — military basis coded conscript + mercenary
+- [ ] `polity/hasmonean` — revenue basis coded land-tax + tribute
+- [ ] `polity/hasmonean` — succession rule coded election
+- [ ] `polity/hasmonean` — legitimation coded election + conquest
+- [ ] `polity/hasmonean` — turning point -140 The decree of the great assembly
+- [ ] `polity/hasmonean` — turning point -112 Idumaea (contested)
+- [ ] `polity/hasmonean` — turning point -104 The diadem
+- [ ] `polity/hasmonean` — descendant_scripts = 0
+- [ ] `polity/hasmonean` — religions_carried = 1 (Judaism)
+
 ## B. A. Litvinsky, Zhang Guang-da and R. Shabani Samghabadi (eds), History of Civilizations of Central Asia, Volume III: The Crossroads of Civilizations, A.D. 250 to 750
 
 `litvinsky-1996` — 16 claims
-
-**Sole source** for `hephthalite` — nothing else in the corpus can contradict a misreading here.
 
 - [ ] `chapter/hephthalite/01-who-they-were.mdx` — prose: "A name in six languages"
 - [ ] `chapter/hephthalite/02-the-tribute.mdx` — prose: "What killing a king of kings was worth"
@@ -4482,8 +4611,8 @@ ordinary state, not an item to clear.
 
 `zimansky-1998` — 16 claims
 
-- [ ] `chapter/urartu/02-the-eighth-campaign.mdx` — prose: "The eighth campaign"
-- [ ] `chapter/urartu/03-nobody-knows.mdx` — prose: "Nobody knows"
+- [ ] `chapter/urartu/03-the-eighth-campaign.mdx` — prose: "The eighth campaign"
+- [ ] `chapter/urartu/04-nobody-knows.mdx` — prose: "Nobody knows"
 - [ ] `polity/neo-assyrian` — descendant_scripts = 1 (Urartian cuneiform)
 - [ ] `polity/urartu` — span starts -860
 - [ ] `polity/urartu` — span ends -590
@@ -4506,8 +4635,8 @@ ordinary state, not an item to clear.
 - [ ] `chapter/zaydi-yemen/01-invited-to-arbitrate.mdx` — prose: "Invited to arbitrate"
 - [ ] `chapter/zaydi-yemen/02-one-power-among-several.mdx` — prose: "One power among several, for seven hundred years"
 - [ ] `chapter/zaydi-yemen/03-the-qasimid-century.mdx` — prose: "The century it ruled everything"
-- [ ] `chapter/zaydi-yemen/05-what-a-thousand-years-means.mdx` — prose: "What a thousand years means here"
-- [ ] `chapter/zaydi-yemen/06-1962.mdx` — prose: "1962"
+- [ ] `chapter/zaydi-yemen/06-what-a-thousand-years-means.mdx` — prose: "What a thousand years means here"
+- [ ] `chapter/zaydi-yemen/07-1962.mdx` — prose: "1962"
 - [ ] `polity/zaydi-yemen` — span ends 1962
 - [ ] `polity/zaydi-yemen` — capital Sana'a
 - [ ] `polity/zaydi-yemen` — peak al-Mu'ayyad Muhammad
@@ -4519,27 +4648,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/zaydi-yemen` — turning point 1918 The Ottomans leave
 - [ ] `polity/zaydi-yemen` — turning point 1948 The killing of Imam Yahya
 - [ ] `polity/zaydi-yemen` — ended by internal usurpation in 1962
-
-## Eyal Regev, The Hasmoneans: Ideology, Archaeology, Identity
-*In Journal of Ancient Judaism Supplements 10.*
-
-`regev-2013` — 15 claims
-
-- [ ] `chapter/hasmonean/01-a-family-with-no-claim.mdx` — prose: "A family with no claim"
-- [ ] `chapter/hasmonean/02-the-diadem.mdx` — prose: "The diadem"
-- [ ] `polity/hasmonean` — span starts -140
-- [ ] `polity/hasmonean` — capital Jerusalem from -140
-- [ ] `polity/hasmonean` — founder Simon Thassi r. -142--135
-- [ ] `polity/hasmonean` — peak Alexander Jannaeus r. -103--76
-- [ ] `polity/hasmonean` — military basis coded conscript + mercenary
-- [ ] `polity/hasmonean` — revenue basis coded land-tax + tribute
-- [ ] `polity/hasmonean` — succession rule coded election
-- [ ] `polity/hasmonean` — legitimation coded election + conquest
-- [ ] `polity/hasmonean` — turning point -140 The decree of the great assembly
-- [ ] `polity/hasmonean` — turning point -112 Idumaea (contested)
-- [ ] `polity/hasmonean` — turning point -104 The diadem
-- [ ] `polity/hasmonean` — descendant_scripts = 0
-- [ ] `polity/hasmonean` — religions_carried = 1 (Judaism)
 
 ## C. E. Bosworth, SAMANIDS
 *In Encyclopaedia Iranica.*
@@ -4563,6 +4671,25 @@ ordinary state, not an item to clear.
 - [ ] `polity/samanid` — religions_carried = 1 (Sunni Islam)
 - [ ] `polity/samanid` — ended by conquest in 999
 
+## Stanley Lane-Poole, A History of Egypt in the Middle Ages
+
+`lane-poole-1901` — 14 claims
+
+- [ ] `chapter/abbasid-cairo/06-the-bequest.mdx` — prose: "The bequest"
+- [ ] `chapter/antioch/07-the-letter-to-the-count.mdx` — prose: "The letter to the count"
+- [ ] `chapter/ayyubid/08-the-khwarazmians.mdx` — prose: "The Khwarazmians"
+- [ ] `chapter/ayyubid/10-the-prince-of-hama.mdx` — prose: "The prince of Hama"
+- [ ] `chapter/fatimid/09-the-congregation-looked-surprised.mdx` — prose: "The congregation looked surprised"
+- [ ] `chapter/ikhshidid/04-the-master.mdx` — prose: "The master"
+- [ ] `chapter/ikhshidid/06-a-wall-in-jerusalem.mdx` — prose: "A wall in Jerusalem"
+- [ ] `chapter/jerusalem/07-the-debate-of-the-world.mdx` — prose: "The debate of the world"
+- [ ] `chapter/mamluk-sultanate/11-the-shaykh-al-balad.mdx` — prose: "The mayor"
+- [ ] `chapter/tripoli/05-the-death-of-a-signatory.mdx` — prose: "The death of a signatory"
+- [ ] `chapter/tulunid/03-al-qatai.mdx` — prose: "The Wards"
+- [ ] `chapter/tulunid/05-the-quicksilver-lake.mdx` — prose: "The quicksilver lake"
+- [ ] `chapter/tulunid/08-what-is-left.mdx` — prose: "What is left of the Wards"
+- [ ] `chapter/zangid/07-the-franks-fight-for-the-zangids.mdx` — prose: "The Franks fight for the Zangids"
+
 ## Heribert Busse, Iran under the Buyids
 *In The Cambridge History of Iran, Volume 4.*
 
@@ -4582,25 +4709,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/buyid` — successor_claims = 0
 - [ ] `polity/buyid` — ended by conquest in 1055
 - [ ] `polity/sasanian` — successor_claims = 1 (Buyid Confederation)
-
-## Peter Jackson, The Mongols and the Islamic World: From Conquest to Conversion
-
-`jackson-2017` — 14 claims
-
-- [ ] `chapter/cilician-armenia/04-the-bet-on-the-mongols.mdx` — prose: "The bet on the Mongols"
-- [ ] `chapter/ilkhanate/01-conversion.mdx` — prose: "The conquerors convert"
-- [ ] `chapter/ilkhanate/02-rashid-al-din.mdx` — prose: "The first world history"
-- [ ] `edge/mongol->ilkhanate` — partitioned from in 1256
-- [ ] `polity/cilician-armenia` — turning point 1253 Hetum goes to Karakorum
-- [ ] `polity/ilkhanate` — span starts 1256
-- [ ] `polity/ilkhanate` — span ends 1335
-- [ ] `polity/ilkhanate` — capital Tabriz from 1256
-- [ ] `polity/ilkhanate` — founder Hulegu r. 1256-1265
-- [ ] `polity/ilkhanate` — peak Ghazan r. 1295-1304
-- [ ] `polity/ilkhanate` — last Abu Sa'id r. 1316-1335
-- [ ] `polity/ilkhanate` — turning point 1295 Ghazan's conversion to Islam
-- [ ] `polity/ilkhanate` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/ilkhanate` — ended by fragmentation in 1335
 
 ## C. E. Bosworth, GHURIDS
 *In Encyclopaedia Iranica.*
@@ -4629,8 +4737,8 @@ ordinary state, not an item to clear.
 `richardson-1996` — 14 claims
 
 - [ ] `chapter/herodian/01-king-by-a-vote.mdx` — prose: "King by a vote"
-- [ ] `chapter/herodian/02-the-building.mdx` — prose: "The building"
-- [ ] `chapter/herodian/03-the-will.mdx` — prose: "The will"
+- [ ] `chapter/herodian/03-the-building.mdx` — prose: "The building"
+- [ ] `chapter/herodian/04-the-will.mdx` — prose: "The will"
 - [ ] `polity/herodian` — span starts -37
 - [ ] `polity/herodian` — capital Jerusalem from -37
 - [ ] `polity/herodian` — founder Herod I r. -37--4
@@ -4663,32 +4771,52 @@ ordinary state, not an item to clear.
 - [ ] `polity/karakhanid` — turning point 1141 Qatwan
 - [ ] `polity/karakhanid` — ended by conquest in 1212
 
-## David Morgan, The Mongols
+## Leonard Y. Andaya, The Heritage of Arung Palakka: A History of South Sulawesi (Celebes) in the Seventeenth Century
+*In Verhandelingen van het Koninklijk Instituut voor Taal-, Land- en Volkenkunde, 91.*
 
-`morgan-2007` — 14 claims
+`andaya-1981` — 14 claims
 
-- [ ] `chapter/khwarazmian/05-the-man-who-wrote-it-down.mdx` — prose: "The man who wrote it down worked for them"
-- [ ] `chapter/mongol/01-1206.mdx` — prose: "What was assembled in 1206"
-- [ ] `chapter/mongol/02-westward.mdx` — prose: "Westward, and the numbers problem"
-- [ ] `edge/abbasid->mongol` — conquered by in 1258
-- [ ] `edge/jin->mongol` — conquered by in 1234
-- [ ] `polity/mongol` — span starts 1206
-- [ ] `polity/mongol` — span ends 1260
-- [ ] `polity/mongol` — capital Karakorum from 1235
-- [ ] `polity/mongol` — founder Chinggis Khan r. 1206-1227
-- [ ] `polity/mongol` — peak Mongke r. 1251-1259
-- [ ] `polity/mongol` — last Kublai Khan r. 1260-1294
-- [ ] `polity/mongol` — descendant_scripts = 1 (Mongolian script)
-- [ ] `polity/mongol` — successor_claims = 3 (ilkhanate, chagatai, golden-horde)
-- [ ] `polity/mongol` — ended by fragmentation in 1260
+- [ ] `chapter/makassar/01-a-vassal-of-siang.mdx` — prose: "A vassal of Siang"
+- [ ] `chapter/makassar/04-two-kingdoms-and-two-peoples.mdx` — prose: "Two kingdoms, and two peoples"
+- [ ] `chapter/makassar/05-the-fortresses.mdx` — prose: "Sombaopu"
+- [ ] `chapter/makassar/06-1669.mdx` — prose: "1669"
+- [ ] `chapter/makassar/07-sixteen-men.mdx` — prose: "Sixteen men"
+- [ ] `polity/makassar` — span ends 1669
+- [ ] `polity/makassar` — peak Hasanuddin r. 1653-1669
+- [ ] `polity/makassar` — last Hasanuddin r. 1653-1669
+- [ ] `polity/makassar` — military basis coded conscript
+- [ ] `polity/makassar` — legitimation coded descent + divine-sanction
+- [ ] `polity/makassar` — turning point 1667 Bongaya
+- [ ] `polity/makassar` — turning point 1669 Sombaopu
+- [ ] `polity/makassar` — successor_claims = 0
+- [ ] `polity/makassar` — ended by conquest in 1669
+
+## John F. Richards, The Mughal Empire (The New Cambridge History of India, I.5)
+
+`richards-1993` — 14 claims
+
+- [ ] `chapter/mughal/01-babur.mdx` — prose: "A Timurid with nowhere to go"
+- [ ] `chapter/mughal/03-the-rank-and-the-register.mdx` — prose: "The rank and the register"
+- [ ] `chapter/mughal/05-the-settlement-breaks.mdx` — prose: "When the settlement broke"
+- [ ] `chapter/mughal/06-the-emperor-of-delhi.mdx` — prose: "The emperor of Delhi"
+- [ ] `edge/delhi-sultanate->mughal` — conquered by in 1526
+- [ ] `edge/timurid->mughal` — claimed legitimacy of in 1526
+- [ ] `polity/mughal` — span starts 1526
+- [ ] `polity/mughal` — span ends 1857
+- [ ] `polity/mughal` — capital Agra from 1526
+- [ ] `polity/mughal` — founder Babur r. 1526-1530
+- [ ] `polity/mughal` — peak Akbar r. 1556-1605
+- [ ] `polity/mughal` — last Bahadur Shah II r. 1837-1857
+- [ ] `polity/mughal` — ended by conquest in 1857
+- [ ] `polity/timurid` — successor_claims = 1 (Mughal Empire)
 
 ## Isabel Toral-Niehoff, Al-Hira: Eine arabische Kulturmetropole im spätantiken Kontext
 *In Islamic History and Civilization 104.*
 
 `toral-niehoff-2014` — 14 claims
 
-- [ ] `chapter/nasrid-hira/03-a-city-not-a-camp.mdx` — prose: "A city, not a camp"
-- [ ] `chapter/nasrid-hira/04-602.mdx` — prose: "602"
+- [ ] `chapter/nasrid-hira/04-a-city-not-a-camp.mdx` — prose: "A city, not a camp"
+- [ ] `chapter/nasrid-hira/06-602.mdx` — prose: "602"
 - [ ] `edge/nasrid-hira->sasanian` — overthrew in 602
 - [ ] `polity/nasrid-hira` — span starts 300
 - [ ] `polity/nasrid-hira` — span ends 602
@@ -4701,6 +4829,44 @@ ordinary state, not an item to clear.
 - [ ] `polity/nasrid-hira` — religions_carried = 1 (Church of the East)
 - [ ] `polity/nasrid-hira` — successor_claims = 0
 - [ ] `polity/nasrid-hira` — ended by dynastic replacement in 602
+
+## Mark Edward Lewis, China's Cosmopolitan Empire: The Tang Dynasty
+
+`lewis-2009` — 14 claims
+
+- [ ] `chapter/tang/01-the-second-attempt.mdx` — prose: "The second attempt"
+- [ ] `chapter/tang/03-talas.mdx` — prose: "Talas"
+- [ ] `chapter/tang/07-what-was-copied.mdx` — prose: "What was copied, and what is not counted"
+- [ ] `chapter/tang/09-the-model.mdx` — prose: "The model"
+- [ ] `polity/tang` — span starts 618
+- [ ] `polity/tang` — span ends 907
+- [ ] `polity/tang` — capital Chang'an from 618
+- [ ] `polity/tang` — founder Emperor Gaozu r. 618-626
+- [ ] `polity/tang` — peak Emperor Xuanzong r. 712-756
+- [ ] `polity/tang` — last Emperor Ai r. 904-907
+- [ ] `polity/tang` — legitimation coded divine-sanction + descent
+- [ ] `polity/tang` — turning point 845 The suppression
+- [ ] `polity/tang` — descendant_scripts = 0
+- [ ] `polity/tang` — religions_carried = 1 (Mahayana Buddhism)
+
+## Nicola Di Cosmo, Ancient China and Its Enemies: The Rise of Nomadic Power in East Asian History
+
+`di-cosmo-2002` — 14 claims
+
+- [ ] `chapter/xiongnu/01-xiongnu.mdx` — prose: "The first confederation"
+- [ ] `chapter/xiongnu/02-the-whistling-arrow.mdx` — prose: "The whistling arrow"
+- [ ] `chapter/xiongnu/03-the-treaty-of-equals.mdx` — prose: "The treaty of equals"
+- [ ] `chapter/xiongnu/04-the-split.mdx` — prose: "The split"
+- [ ] `chapter/xiongnu/05-the-sources.mdx` — prose: "Everything is Sima Qian's"
+- [ ] `chapter/xiongnu/06-the-pattern.mdx` — prose: "The pattern"
+- [ ] `edge/xiongnu->gokturk` — absorbed remnants of in 552
+- [ ] `polity/xiongnu` — span starts -209
+- [ ] `polity/xiongnu` — span ends 91
+- [ ] `polity/xiongnu` — capital Longcheng from -209
+- [ ] `polity/xiongnu` — founder Modu Chanyu r. -209--174
+- [ ] `polity/xiongnu` — peak Modu Chanyu r. -209--174
+- [ ] `polity/xiongnu` — last Unknown r. 91-91
+- [ ] `polity/xiongnu` — ended by fragmentation in 91
 
 ## Stuart Munro-Hay, Aksum: An African Civilisation of Late Antiquity
 
@@ -4726,10 +4892,10 @@ ordinary state, not an item to clear.
 `bowersock-2013` — 13 claims
 
 - [ ] `chapter/aksum/05-across-the-sea.mdx` — prose: "Across the sea"
-- [ ] `chapter/himyar/02-rahmanan.mdx` — prose: "The gods stop being named"
-- [ ] `chapter/himyar/03-a-jewish-kingdom.mdx` — prose: "A Jewish kingdom in Arabia"
-- [ ] `chapter/himyar/04-najran.mdx` — prose: "Najran"
-- [ ] `chapter/himyar/05-the-elephant.mdx` — prose: "Kaleb, Abraha, and the elephant"
+- [ ] `chapter/himyar/03-rahmanan.mdx` — prose: "The gods stop being named"
+- [ ] `chapter/himyar/04-a-jewish-kingdom.mdx` — prose: "A Jewish kingdom in Arabia"
+- [ ] `chapter/himyar/05-najran.mdx` — prose: "Najran"
+- [ ] `chapter/himyar/06-the-elephant.mdx` — prose: "Kaleb, Abraha, and the elephant"
 - [ ] `edge/himyar->aksum` — conquered by in 525
 - [ ] `polity/aksum` — turning point 525 Across the Red Sea
 - [ ] `polity/himyar` — span ends 525
@@ -4738,6 +4904,24 @@ ordinary state, not an item to clear.
 - [ ] `polity/himyar` — turning point 380 The gods stop being named
 - [ ] `polity/himyar` — turning point 523 Najran
 - [ ] `polity/himyar` — ended by conquest in 525
+
+## Guy Le Strange, The Lands of the Eastern Caliphate: Mesopotamia, Persia, and Central Asia, from the Moslem Conquest to the Time of Timur
+
+`lestrange-1905` — 13 claims
+
+- [ ] `chapter/atropatene/05-solomons-throne.mdx` — prose: "Solomon's throne"
+- [ ] `chapter/bagratid-armenia/06-a-town-where-fruit-was-grown.mdx` — prose: "A town where fruit was grown"
+- [ ] `chapter/caucasian-albania/05-the-lords-day-market.mdx` — prose: "The Lord's day market"
+- [ ] `chapter/caucasian-iberia/06-the-city-with-the-hot-springs.mdx` — prose: "The city with the hot springs"
+- [ ] `chapter/characene/05-apologos.mdx` — prose: "Apologos"
+- [ ] `chapter/derbend/05-the-gate-of-gates.mdx` — prose: "What the geographers found there"
+- [ ] `chapter/elymais/05-what-khuzistan-became.mdx` — prose: "What the province became"
+- [ ] `chapter/greco-bactria/05-the-mother-of-cities.mdx` — prose: "The Mother of Cities"
+- [ ] `chapter/hephthalite/06-haytal.mdx` — prose: "Haytal"
+- [ ] `chapter/persis/05-a-hundred-men.mdx` — prose: "A village of a hundred men"
+- [ ] `chapter/saffarid/07-the-moving-sands.mdx` — prose: "The moving sands"
+- [ ] `chapter/seleucid/07-al-madain.mdx` — prose: "The Cities"
+- [ ] `chapter/shirvanshah/06-the-ground-on-fire.mdx` — prose: "The ground on fire"
 
 ## Harold G. Marcus, A History of Ethiopia
 
@@ -4757,6 +4941,43 @@ ordinary state, not an item to clear.
 - [ ] `polity/ethiopia` — successor_claims = 0
 - [ ] `polity/ethiopia` — ended by internal usurpation in 1974
 
+## Charles J. Halperin, Russia and the Golden Horde: The Mongol Impact on Medieval Russian History
+
+`halperin-1985` — 13 claims
+
+- [ ] `chapter/golden-horde/04-at-a-distance.mdx` — prose: "Ruling without occupying"
+- [ ] `chapter/golden-horde/05-the-yarlyk.mdx` — prose: "What Moscow learned"
+- [ ] `chapter/golden-horde/06-the-great-troubles.mdx` — prose: "The great troubles"
+- [ ] `chapter/golden-horde/07-what-moscow-inherited.mdx` — prose: "What Moscow inherited"
+- [ ] `edge/mongol->golden-horde` — partitioned from in 1242
+- [ ] `polity/golden-horde` — span starts 1242
+- [ ] `polity/golden-horde` — span ends 1502
+- [ ] `polity/golden-horde` — capital Sarai from 1242
+- [ ] `polity/golden-horde` — founder Batu Khan r. 1242-1255
+- [ ] `polity/golden-horde` — peak Ozbeg Khan r. 1313-1341
+- [ ] `polity/golden-horde` — last Shaykh Ahmad r. 1481-1502
+- [ ] `polity/golden-horde` — religions_carried = 1 (Sunni Islam)
+- [ ] `polity/golden-horde` — ended by fragmentation in 1502
+
+## Innocent Pikirayi, The Zimbabwe Culture: Origins and Decline of Southern Zambezian States
+*In African Archaeology Series.*
+
+`pikirayi-2001` — 13 claims
+
+- [ ] `chapter/great-zimbabwe/01-houses-of-stone.mdx` — prose: "Houses of stone"
+- [ ] `chapter/great-zimbabwe/03-the-stone.mdx` — prose: "The stone"
+- [ ] `chapter/great-zimbabwe/04-mapungubwe.mdx` — prose: "The rhinoceros on the hill"
+- [ ] `chapter/great-zimbabwe/05-who-built-it.mdx` — prose: "Who built it"
+- [ ] `chapter/great-zimbabwe/06-left.mdx` — prose: "Left"
+- [ ] `polity/great-zimbabwe` — span starts 1100
+- [ ] `polity/great-zimbabwe` — span ends 1450
+- [ ] `polity/great-zimbabwe` — capital Great Zimbabwe from 1100
+- [ ] `polity/great-zimbabwe` — revenue basis coded mining + trade-toll
+- [ ] `polity/great-zimbabwe` — descendant_scripts = 0
+- [ ] `polity/great-zimbabwe` — religions_carried = 0
+- [ ] `polity/great-zimbabwe` — successor_claims = 0
+- [ ] `polity/great-zimbabwe` — ended by gradual absorption in 1450
+
 ## C. E. Bosworth, KWARAZMSHAHS
 *In Encyclopaedia Iranica.*
 <https://iranicaonline.org/articles/kvarazmshahs-index>
@@ -4764,8 +4985,8 @@ ordinary state, not an item to clear.
 `iranica-khwarazmshahs` — 13 claims
 
 - [ ] `chapter/khwarazmian/01-a-post-on-the-oxus.mdx` — prose: "A post on the lower Oxus"
-- [ ] `chapter/khwarazmian/04-otrar.mdx` — prose: "Otrar"
-- [ ] `chapter/khwarazmian/06-the-thread-stops.mdx` — prose: "Where the thread stops"
+- [ ] `chapter/khwarazmian/05-otrar.mdx` — prose: "Otrar"
+- [ ] `chapter/khwarazmian/08-the-thread-stops.mdx` — prose: "Nothing continued"
 - [ ] `edge/great-seljuk->khwarazmian` — vassal of in 1077
 - [ ] `edge/khwarazmian->mongol` — conquered by in 1220
 - [ ] `polity/khwarazmian` — span starts 1077
@@ -4803,7 +5024,7 @@ ordinary state, not an item to clear.
 `porter-1992` — 13 claims
 
 - [ ] `chapter/tahirid-yemen/03-the-amiriyya.mdx` — prose: "The Amiriyya"
-- [ ] `chapter/tahirid-yemen/04-1517.mdx` — prose: "An army from a state that no longer existed"
+- [ ] `chapter/tahirid-yemen/05-1517.mdx` — prose: "An army from a state that no longer existed"
 - [ ] `edge/tahirid-yemen->mamluk-sultanate` — conquered by in 1517
 - [ ] `polity/tahirid-yemen` — span ends 1517
 - [ ] `polity/tahirid-yemen` — capital Juban from 1454
@@ -4816,77 +5037,56 @@ ordinary state, not an item to clear.
 - [ ] `polity/tahirid-yemen` — turning point 1517 The expedition from a dead empire
 - [ ] `polity/tahirid-yemen` — ended by conquest in 1517
 
-## Innocent Pikirayi, The Zimbabwe Culture: Origins and Decline of Southern Zambezian States
-*In African Archaeology Series.*
+## Michal Biran, Qaidu and the Rise of the Independent Mongol State in Central Asia
 
-`pikirayi-2001` — 12 claims
+`biran-1997` — 12 claims
 
-**Sole source** for `great-zimbabwe` — nothing else in the corpus can contradict a misreading here.
+- [ ] `chapter/chagatai/01-the-poorest-khanate.mdx` — prose: "The khanate that stayed on the steppe"
+- [ ] `chapter/chagatai/02-kebeks-coinage.mdx` — prose: "Kebek's coinage"
+- [ ] `chapter/chagatai/05-moghulistan.mdx` — prose: "Two halves, two answers"
+- [ ] `chapter/chagatai/06-the-language.mdx` — prose: "The language, and the name"
+- [ ] `edge/mongol->chagatai` — partitioned from in 1226
+- [ ] `polity/chagatai` — span starts 1226
+- [ ] `polity/chagatai` — span ends 1347
+- [ ] `polity/chagatai` — capital Almaliq from 1226
+- [ ] `polity/chagatai` — founder Chagatai Khan r. 1226-1242
+- [ ] `polity/chagatai` — peak Kebek r. 1309-1325
+- [ ] `polity/chagatai` — last Qazan r. 1343-1347
+- [ ] `polity/chagatai` — ended by fragmentation in 1347
 
-- [ ] `chapter/great-zimbabwe/01-houses-of-stone.mdx` — prose: "Houses of stone"
-- [ ] `chapter/great-zimbabwe/02-the-stone.mdx` — prose: "The stone"
-- [ ] `chapter/great-zimbabwe/03-mapungubwe.mdx` — prose: "What came before, and after"
-- [ ] `chapter/great-zimbabwe/04-who-built-it.mdx` — prose: "Who built it"
-- [ ] `polity/great-zimbabwe` — span starts 1100
-- [ ] `polity/great-zimbabwe` — span ends 1450
-- [ ] `polity/great-zimbabwe` — capital Great Zimbabwe from 1100
-- [ ] `polity/great-zimbabwe` — revenue basis coded mining + trade-toll
-- [ ] `polity/great-zimbabwe` — descendant_scripts = 0
-- [ ] `polity/great-zimbabwe` — religions_carried = 0
-- [ ] `polity/great-zimbabwe` — successor_claims = 0
-- [ ] `polity/great-zimbabwe` — ended by gradual absorption in 1450
+## Denis Twitchett (ed.), The Cambridge History of China, Volume 3: Sui and T'ang China, 589-906, Part 1
 
-## Leonard Y. Andaya, The Heritage of Arung Palakka: A History of South Sulawesi (Celebes) in the Seventeenth Century
-*In Verhandelingen van het Koninklijk Instituut voor Taal-, Land- en Volkenkunde, 91.*
+`twitchett-1979` — 12 claims
 
-`andaya-1981` — 12 claims
+- [ ] `chapter/tang/04-an-lushan.mdx` — prose: "An Lushan"
+- [ ] `chapter/tang/05-the-armies-that-changed.mdx` — prose: "The armies that changed"
+- [ ] `chapter/tang/06-salt.mdx` — prose: "Salt"
+- [ ] `chapter/tang/08-huang-chao.mdx` — prose: "Huang Chao"
+- [ ] `polity/tang` — military basis coded conscript + standing-professional
+- [ ] `polity/tang` — revenue basis coded land-tax + poll-tax + monopoly
+- [ ] `polity/tang` — turning point 751 Talas
+- [ ] `polity/tang` — turning point 755 The An Lushan rebellion
+- [ ] `polity/tang` — turning point 780 The two-tax system
+- [ ] `polity/tang` — turning point 878 Huang Chao
+- [ ] `polity/tang` — successor_claims = 0
+- [ ] `polity/tang` — ended by fragmentation in 907
 
-- [ ] `chapter/makassar/03-two-kingdoms-and-two-peoples.mdx` — prose: "Two kingdoms, and two peoples"
-- [ ] `chapter/makassar/04-the-fortresses.mdx` — prose: "Sombaopu"
-- [ ] `chapter/makassar/05-1669.mdx` — prose: "1669"
-- [ ] `polity/makassar` — span ends 1669
-- [ ] `polity/makassar` — peak Hasanuddin r. 1653-1669
-- [ ] `polity/makassar` — last Hasanuddin r. 1653-1669
-- [ ] `polity/makassar` — military basis coded conscript
-- [ ] `polity/makassar` — legitimation coded descent + divine-sanction
-- [ ] `polity/makassar` — turning point 1667 Bongaya
-- [ ] `polity/makassar` — turning point 1669 Sombaopu
-- [ ] `polity/makassar` — successor_claims = 0
-- [ ] `polity/makassar` — ended by conquest in 1669
+## Christopher I. Beckwith, The Tibetan Empire in Central Asia
 
-## John F. Richards, The Mughal Empire (The New Cambridge History of India, I.5)
+`beckwith-1987` — 12 claims
 
-`richards-1993` — 12 claims
-
-- [ ] `chapter/mughal/01-babur.mdx` — prose: "A Timurid with nowhere to go"
-- [ ] `chapter/mughal/02-the-settlement-breaks.mdx` — prose: "When the settlement broke"
-- [ ] `edge/delhi-sultanate->mughal` — conquered by in 1526
-- [ ] `edge/timurid->mughal` — claimed legitimacy of in 1526
-- [ ] `polity/mughal` — span starts 1526
-- [ ] `polity/mughal` — span ends 1857
-- [ ] `polity/mughal` — capital Agra from 1526
-- [ ] `polity/mughal` — founder Babur r. 1526-1530
-- [ ] `polity/mughal` — peak Akbar r. 1556-1605
-- [ ] `polity/mughal` — last Bahadur Shah II r. 1837-1857
-- [ ] `polity/mughal` — ended by conquest in 1857
-- [ ] `polity/timurid` — successor_claims = 1 (Mughal Empire)
-
-## Mark Edward Lewis, China's Cosmopolitan Empire: The Tang Dynasty
-
-`lewis-2009` — 12 claims
-
-- [ ] `chapter/tang/01-talas.mdx` — prose: "Talas"
-- [ ] `chapter/tang/05-what-was-copied.mdx` — prose: "What was copied, and what is not counted"
-- [ ] `polity/tang` — span starts 618
-- [ ] `polity/tang` — span ends 907
-- [ ] `polity/tang` — capital Chang'an from 618
-- [ ] `polity/tang` — founder Emperor Gaozu r. 618-626
-- [ ] `polity/tang` — peak Emperor Xuanzong r. 712-756
-- [ ] `polity/tang` — last Emperor Ai r. 904-907
-- [ ] `polity/tang` — legitimation coded divine-sanction + descent
-- [ ] `polity/tang` — turning point 845 The suppression
-- [ ] `polity/tang` — descendant_scripts = 0
-- [ ] `polity/tang` — religions_carried = 1 (Mahayana Buddhism)
+- [ ] `chapter/tibetan-empire/03-plateau.mdx` — prose: "The third power"
+- [ ] `chapter/tibetan-empire/04-the-council.mdx` — prose: "Which Buddhism"
+- [ ] `chapter/tibetan-empire/06-what-the-library-did.mdx` — prose: "What the library did"
+- [ ] `polity/tibetan-empire` — span starts 618
+- [ ] `polity/tibetan-empire` — span ends 842
+- [ ] `polity/tibetan-empire` — capital Lhasa from 618
+- [ ] `polity/tibetan-empire` — founder Songtsen Gampo r. 618-649
+- [ ] `polity/tibetan-empire` — peak Trisong Detsen r. 755-797
+- [ ] `polity/tibetan-empire` — last Langdarma r. 838-842
+- [ ] `polity/tibetan-empire` — descendant_scripts = 1 (Tibetan script)
+- [ ] `polity/tibetan-empire` — religions_carried = 1 (Tibetan Buddhism)
+- [ ] `polity/tibetan-empire` — ended by fragmentation in 842
 
 ## Rein Taagepera, Size and Duration of Empires: Systematics of Size
 *In Social Science Research 7(2), 108-127.*
@@ -4926,9 +5126,9 @@ ordinary state, not an item to clear.
 
 `sheriff-1987` — 11 claims
 
-- [ ] `chapter/al-busaid/03-zanzibar.mdx` — prose: "An Arabian sultan in Africa"
-- [ ] `chapter/al-busaid/04-what-it-ran-on.mdx` — prose: "What it ran on"
-- [ ] `chapter/al-busaid/05-1861.mdx` — prose: "The arbitration, and the office coming back"
+- [ ] `chapter/al-busaid/04-zanzibar.mdx` — prose: "An Arabian sultan in Africa"
+- [ ] `chapter/al-busaid/05-what-it-ran-on.mdx` — prose: "What it ran on"
+- [ ] `chapter/al-busaid/06-1861.mdx` — prose: "The arbitration, and the office coming back"
 - [ ] `polity/al-busaid` — span ends 1856
 - [ ] `polity/al-busaid` — capital Zanzibar from 1840
 - [ ] `polity/al-busaid` — peak Sa'id bin Sultan r. 1806-1856
@@ -4937,6 +5137,22 @@ ordinary state, not an item to clear.
 - [ ] `polity/al-busaid` — turning point 1840 The court moves to Zanzibar
 - [ ] `polity/al-busaid` — turning point 1845 The Hamerton Treaty
 - [ ] `polity/al-busaid` — ended by fragmentation in 1861
+
+## Ibn al-Qalanisi, The Damascus Chronicle of the Crusades
+
+`ibn-al-qalanisi` — 11 claims
+
+- [ ] `chapter/ammarid/04-eight-days.mdx` — prose: "Eight days"
+- [ ] `chapter/antioch/03-sarmada.mdx` — prose: "Not one man escaped to tell the tale"
+- [ ] `chapter/artuqid/02-the-two-who-won.mdx` — prose: "The two who won"
+- [ ] `chapter/burid/05-four-days.mdx` — prose: "Four days"
+- [ ] `chapter/burid/07-a-rope-and-an-axe.mdx` — prose: "A rope and an axe"
+- [ ] `chapter/edessa/03-kharput.mdx` — prose: "Kharput"
+- [ ] `chapter/edessa/05-the-sap.mdx` — prose: "The sap"
+- [ ] `chapter/mirdasid/07-what-the-translator-could-not-name.mdx` — prose: "What the translator could not name"
+- [ ] `chapter/tripoli/03-a-third-of-the-biqa.mdx` — prose: "A third of the Biqa'"
+- [ ] `chapter/uqaylid/08-the-man-who-asked-for-alms.mdx` — prose: "The man who asked for alms"
+- [ ] `chapter/zangid/02-yaranqash.mdx` — prose: "Yaranqash"
 
 ## Hans Hagerdal, Hindu Rulers, Muslim Subjects: Lombok and Bali in the Seventeenth and Eighteenth Centuries
 
@@ -4954,68 +5170,69 @@ ordinary state, not an item to clear.
 - [ ] `polity/gelgel` — successor_claims = 1 (The house of Klungkung)
 - [ ] `polity/gelgel` — ended by fragmentation in 1686
 
-## Charles J. Halperin, Russia and the Golden Horde: The Mongol Impact on Medieval Russian History
+## N. Levtzion and J. F. P. Hopkins (eds), Corpus of Early Arabic Sources for West African History
+*In Fontes Historiae Africanae, Series Arabica IV.*
 
-`halperin-1985` — 11 claims
+`levtzion-hopkins-1981` — 11 claims
 
-- [ ] `chapter/golden-horde/01-at-a-distance.mdx` — prose: "Ruling without occupying"
-- [ ] `chapter/golden-horde/02-the-yarlyk.mdx` — prose: "What Moscow learned"
-- [ ] `edge/mongol->golden-horde` — partitioned from in 1242
-- [ ] `polity/golden-horde` — span starts 1242
-- [ ] `polity/golden-horde` — span ends 1502
-- [ ] `polity/golden-horde` — capital Sarai from 1242
-- [ ] `polity/golden-horde` — founder Batu Khan r. 1242-1255
-- [ ] `polity/golden-horde` — peak Ozbeg Khan r. 1313-1341
-- [ ] `polity/golden-horde` — last Shaykh Ahmad r. 1481-1502
-- [ ] `polity/golden-horde` — religions_carried = 1 (Sunni Islam)
-- [ ] `polity/golden-horde` — ended by fragmentation in 1502
+- [ ] `chapter/ghana/01-the-name-is-a-title.mdx` — prose: "The name is a title"
+- [ ] `chapter/ghana/02-a-dinar-on-a-donkey.mdx` — prose: "A dinar on a donkey"
+- [ ] `chapter/ghana/03-dogs-in-collars-of-gold.mdx` — prose: "Dogs in collars of gold"
+- [ ] `chapter/ghana/04-the-sisters-son.mdx` — prose: "The sister's son"
+- [ ] `chapter/ghana/07-the-name.mdx` — prose: "The name"
+- [ ] `polity/ghana` — peak Tunka Manin
+- [ ] `polity/ghana` — revenue basis coded trade-toll + mining
+- [ ] `polity/ghana` — succession rule coded matrilineal
+- [ ] `polity/ghana` — legitimation coded descent + divine-sanction
+- [ ] `polity/kanem-bornu` — span starts 700
+- [ ] `polity/kanem-bornu` — capital Njimi from 1100
 
-## Denis Twitchett (ed.), The Cambridge History of China, Volume 3: Sui and T'ang China, 589-906, Part 1
+## Translated by C. C. Brown, Sejarah Melayu, or Malay Annals
+*In Oxford in Asia Historical Reprints.*
 
-`twitchett-1979` — 11 claims
+`brown-1970` — 11 claims
 
-- [ ] `chapter/tang/02-an-lushan.mdx` — prose: "An Lushan"
-- [ ] `chapter/tang/03-the-armies-that-changed.mdx` — prose: "The armies that changed"
-- [ ] `chapter/tang/04-salt.mdx` — prose: "Salt"
-- [ ] `polity/tang` — military basis coded conscript + standing-professional
-- [ ] `polity/tang` — revenue basis coded land-tax + poll-tax + monopoly
-- [ ] `polity/tang` — turning point 751 Talas
-- [ ] `polity/tang` — turning point 755 The An Lushan rebellion
-- [ ] `polity/tang` — turning point 780 The two-tax system
-- [ ] `polity/tang` — turning point 878 Huang Chao
-- [ ] `polity/tang` — successor_claims = 0
-- [ ] `polity/tang` — ended by fragmentation in 907
-
-## Christopher I. Beckwith, The Tibetan Empire in Central Asia
-
-`beckwith-1987` — 11 claims
-
-- [ ] `chapter/tibetan-empire/01-plateau.mdx` — prose: "The third power"
-- [ ] `chapter/tibetan-empire/02-the-council.mdx` — prose: "Which Buddhism"
-- [ ] `polity/tibetan-empire` — span starts 618
-- [ ] `polity/tibetan-empire` — span ends 842
-- [ ] `polity/tibetan-empire` — capital Lhasa from 618
-- [ ] `polity/tibetan-empire` — founder Songtsen Gampo r. 618-649
-- [ ] `polity/tibetan-empire` — peak Trisong Detsen r. 755-797
-- [ ] `polity/tibetan-empire` — last Langdarma r. 838-842
-- [ ] `polity/tibetan-empire` — descendant_scripts = 1 (Tibetan script)
-- [ ] `polity/tibetan-empire` — religions_carried = 1 (Tibetan Buddhism)
-- [ ] `polity/tibetan-empire` — ended by fragmentation in 842
+- [ ] `chapter/johor/01-the-dynasty-without-the-city.mdx` — prose: "The dynasty without the city"
+- [ ] `chapter/melaka/01-a-prince-out-of-palembang.mdx` — prose: "A prince out of Palembang"
+- [ ] `chapter/melaka/05-mansur-shah.mdx` — prose: "The bendahara"
+- [ ] `chapter/melaka/06-the-lawsuit.mdx` — prose: "The lawsuit"
+- [ ] `chapter/melaka/08-the-court-at-bentan.mdx` — prose: "The court at Bentan"
+- [ ] `edge/melaka->johor` — claimed legitimacy of in 1528
+- [ ] `edge/srivijaya->melaka` — claimed legitimacy of in 1400
+- [ ] `polity/johor` — legitimation coded descent
+- [ ] `polity/melaka` — peak Mansur Shah r. 1459-1477
+- [ ] `polity/melaka` — successor_claims = 1 (johor)
+- [ ] `polity/srivijaya` — successor_claims = 1 (Sultanate of Melaka)
 
 ## Tayeb El-Hibri, The Abbasid Caliphate: A History
 
 `el-hibri-2021` — 10 claims
 
-- [ ] `chapter/abbasid/02-harun.mdx` — prose: "Harun al-Rashid, and what came after him"
-- [ ] `chapter/abbasid/05-samarra.mdx` — prose: "The soldiers at Samarra"
-- [ ] `chapter/abbasid/06-the-caliph-they-kept.mdx` — prose: "945, and the caliph they kept"
-- [ ] `chapter/abbasid/07-al-nasir.mdx` — prose: "The forty-five years when it nearly worked"
+- [ ] `chapter/abbasid/03-harun.mdx` — prose: "Harun al-Rashid, and what came after him"
+- [ ] `chapter/abbasid/06-samarra.mdx` — prose: "The soldiers at Samarra"
+- [ ] `chapter/abbasid/07-the-caliph-they-kept.mdx` — prose: "945, and the caliph they kept"
+- [ ] `chapter/abbasid/08-al-nasir.mdx` — prose: "The forty-five years when it nearly worked"
 - [ ] `edge/abbasid->mamluk-sultanate` — claimed legitimacy of in 1261
 - [ ] `polity/abbasid` — succession rule coded nomination
 - [ ] `polity/abbasid` — turning point 813 The siege of Baghdad
 - [ ] `polity/abbasid` — turning point 836 The move to Samarra
 - [ ] `polity/abbasid` — turning point 861 The anarchy at Samarra
 - [ ] `polity/abbasid` — successor_claims = 1 (Abbasid Caliphate of Cairo)
+
+## Leo Africanus, The History and Description of Africa
+
+`leo-africanus-pory` — 10 claims
+
+- [ ] `chapter/aghlabid/06-leather-dressers.mdx` — prose: "Leather-dressers"
+- [ ] `chapter/kanem-bornu/02-fifteen-slaves-for-one-horse.mdx` — prose: "Fifteen slaves for one horse"
+- [ ] `chapter/marinid/06-a-great-citizen-of-fez.mdx` — prose: "A great citizen of Fez"
+- [ ] `chapter/marinid/07-the-account-book.mdx` — prose: "The account book, and what happened to the endowment"
+- [ ] `chapter/midrarid/09-three-hundred-and-fifty-castles.mdx` — prose: "Three hundred and fifty castles"
+- [ ] `chapter/songhai/04-books-were-worth-more.mdx` — prose: "Books were worth more"
+- [ ] `chapter/wattasid/02-a-year-outside-new-fez.mdx` — prose: "A year outside New Fez"
+- [ ] `chapter/wattasid/05-guns-among-the-oil-jars.mdx` — prose: "Guns among the oil jars"
+- [ ] `chapter/zayyanid/05-three-hundred-and-eighty-miles-long.mdx` — prose: "Three hundred and eighty miles long, twenty-five wide"
+- [ ] `polity/wattasid` — turning point 1472 New Fez
 
 ## Thomas S. Asbridge, The Creation of the Principality of Antioch, 1098-1130
 
@@ -5032,20 +5249,20 @@ ordinary state, not an item to clear.
 - [ ] `polity/antioch` — legitimation coded conquest
 - [ ] `polity/antioch` — turning point 1119 The Field of Blood
 
-## Michal Biran, Qaidu and the Rise of the Independent Mongol State in Central Asia
+## Ibn Battuta, The Travels of Ibn Batuta
 
-`biran-1997` — 10 claims
+`ibn-battuta-lee` — 10 claims
 
-- [ ] `chapter/chagatai/01-the-poorest-khanate.mdx` — prose: "The khanate that stayed on the steppe"
-- [ ] `chapter/chagatai/02-moghulistan.mdx` — prose: "Two halves, two answers"
-- [ ] `edge/mongol->chagatai` — partitioned from in 1226
-- [ ] `polity/chagatai` — span starts 1226
-- [ ] `polity/chagatai` — span ends 1347
-- [ ] `polity/chagatai` — capital Almaliq from 1226
-- [ ] `polity/chagatai` — founder Chagatai Khan r. 1226-1242
-- [ ] `polity/chagatai` — peak Kebek r. 1309-1325
-- [ ] `polity/chagatai` — last Qazan r. 1343-1347
-- [ ] `polity/chagatai` — ended by fragmentation in 1347
+- [ ] `chapter/aydinid/02-the-stone-that-fell.mdx` — prose: "The stone that fell from heaven"
+- [ ] `chapter/chagatai/03-tarmashirin.mdx` — prose: "The feast he cancelled"
+- [ ] `chapter/danishmendid/07-the-road-in-1332.mdx` — prose: "The road in 1332"
+- [ ] `chapter/delhi-sultanate/02-the-whip-with-bells.mdx` — prose: "The whip with the bells"
+- [ ] `chapter/delhi-sultanate/04-the-judge-who-resigned.mdx` — prose: "The judge who resigned"
+- [ ] `chapter/golden-horde/02-the-moving-city.mdx` — prose: "The moving city"
+- [ ] `chapter/karamanid/03-larande.mdx` — prose: "Larande"
+- [ ] `chapter/mali/05-three-crusts-of-bread.mdx` — prose: "Three crusts of bread"
+- [ ] `chapter/midrarid/08-a-fortnight-of-desert.mdx` — prose: "A fortnight of desert"
+- [ ] `chapter/rum/08-a-different-sultan-in-every-town.mdx` — prose: "A different sultan in every town"
 
 ## Fred M. Donner, The Early Islamic Conquests
 
@@ -5053,7 +5270,7 @@ ordinary state, not an item to clear.
 
 - [ ] `chapter/rashidun/02-ridda.mdx` — prose: "The war that made the polity"
 - [ ] `chapter/rashidun/03-conquests.mdx` — prose: "A generation, four directions"
-- [ ] `chapter/rashidun/04-amsar.mdx` — prose: "The garrison towns"
+- [ ] `chapter/rashidun/05-amsar.mdx` — prose: "The garrison towns"
 - [ ] `edge/sasanian->rashidun` — conquered by in 651
 - [ ] `polity/rashidun` — military basis coded tribal-levy
 - [ ] `polity/rashidun` — turning point 632 The ridda
@@ -5062,27 +5279,12 @@ ordinary state, not an item to clear.
 - [ ] `polity/rashidun` — religions_carried = 1 (Islam)
 - [ ] `polity/sasanian` — ended by conquest in 651
 
-## Nicola Di Cosmo, Ancient China and Its Enemies: The Rise of Nomadic Power in East Asian History
-
-`di-cosmo-2002` — 10 claims
-
-- [ ] `chapter/xiongnu/01-xiongnu.mdx` — prose: "The first confederation"
-- [ ] `chapter/xiongnu/02-the-sources.mdx` — prose: "Everything is Sima Qian's"
-- [ ] `edge/xiongnu->gokturk` — absorbed remnants of in 552
-- [ ] `polity/xiongnu` — span starts -209
-- [ ] `polity/xiongnu` — span ends 91
-- [ ] `polity/xiongnu` — capital Longcheng from -209
-- [ ] `polity/xiongnu` — founder Modu Chanyu r. -209--174
-- [ ] `polity/xiongnu` — peak Modu Chanyu r. -209--174
-- [ ] `polity/xiongnu` — last Unknown r. 91-91
-- [ ] `polity/xiongnu` — ended by fragmentation in 91
-
 ## Barry J. Kemp, Ancient Egypt: Anatomy of a Civilization
 
 `kemp-2018` — 9 claims
 
 - [ ] `chapter/egypt-new-kingdom/03-how-egypt-was-run.mdx` — prose: "A machine for moving grain"
-- [ ] `chapter/egypt-old-kingdom/03-the-provinces-become-hereditary.mdx` — prose: "The provinces become hereditary"
+- [ ] `chapter/egypt-old-kingdom/04-the-provinces-become-hereditary.mdx` — prose: "The provinces become hereditary"
 - [ ] `polity/egypt-new-kingdom` — revenue basis coded land-tax + tribute + mining
 - [ ] `polity/egypt-new-kingdom` — legitimation coded divine-sanction + descent
 - [ ] `polity/egypt-new-kingdom` — turning point -1353 Akhetaten
@@ -5090,21 +5292,6 @@ ordinary state, not an item to clear.
 - [ ] `polity/egypt-old-kingdom` — revenue basis coded land-tax
 - [ ] `polity/egypt-old-kingdom` — legitimation coded divine-sanction + descent
 - [ ] `polity/egypt-old-kingdom` — religions_carried = 0
-
-## N. Levtzion and J. F. P. Hopkins (eds), Corpus of Early Arabic Sources for West African History
-*In Fontes Historiae Africanae, Series Arabica IV.*
-
-`levtzion-hopkins-1981` — 9 claims
-
-- [ ] `chapter/ghana/01-the-name-is-a-title.mdx` — prose: "The name is a title"
-- [ ] `chapter/ghana/02-a-dinar-on-a-donkey.mdx` — prose: "A dinar on a donkey"
-- [ ] `chapter/ghana/03-the-sisters-son.mdx` — prose: "The sister's son"
-- [ ] `polity/ghana` — peak Tunka Manin
-- [ ] `polity/ghana` — revenue basis coded trade-toll + mining
-- [ ] `polity/ghana` — succession rule coded matrilineal
-- [ ] `polity/ghana` — legitimation coded descent + divine-sanction
-- [ ] `polity/kanem-bornu` — span starts 700
-- [ ] `polity/kanem-bornu` — capital Njimi from 1100
 
 ## C. E. Bosworth, The Later Ghaznavids: Splendour and Decay. The Dynasty in Afghanistan and Northern India, 1040-1186
 
@@ -5125,7 +5312,7 @@ ordinary state, not an item to clear.
 `madelung-1997` — 9 claims
 
 - [ ] `chapter/rashidun/01-saqifa.mdx` — prose: "The succession nobody had planned"
-- [ ] `chapter/rashidun/07-fitna.mdx` — prose: "The first fitna"
+- [ ] `chapter/rashidun/08-fitna.mdx` — prose: "The first fitna"
 - [ ] `edge/rashidun->umayyad` — overthrew in 661
 - [ ] `polity/rashidun` — last Ali ibn Abi Talib r. 656-661
 - [ ] `polity/rashidun` — succession rule coded acclamation + nomination + election
@@ -5138,9 +5325,9 @@ ordinary state, not an item to clear.
 
 `vallet-2010` — 9 claims
 
-- [ ] `chapter/rasulid/02-aden.mdx` — prose: "Aden"
-- [ ] `chapter/rasulid/03-mecca.mdx` — prose: "The contest for the holy cities"
-- [ ] `chapter/rasulid/06-1454.mdx` — prose: "What happened when the ships stopped"
+- [ ] `chapter/rasulid/03-aden.mdx` — prose: "Aden"
+- [ ] `chapter/rasulid/04-mecca.mdx` — prose: "The contest for the holy cities"
+- [ ] `chapter/rasulid/08-1454.mdx` — prose: "What happened when the ships stopped"
 - [ ] `chapter/tahirid-yemen/02-the-port-that-stopped-paying.mdx` — prose: "The port that stopped paying"
 - [ ] `polity/rasulid` — span ends 1454
 - [ ] `polity/rasulid` — last al-Mas'ud Abu'l-Qasim
@@ -5148,19 +5335,18 @@ ordinary state, not an item to clear.
 - [ ] `polity/rasulid` — turning point 1424 Barsbay takes the Indian traffic
 - [ ] `polity/rasulid` — ended by dynastic replacement in 1454
 
-## Henry Cassels Kay (ed. and trans.), Yaman: Its Early Mediaeval History
+## Ahmed ibn Mohammed al-Makkari, The History of the Mohammedan Dynasties in Spain
 
-`kay-1892` — 9 claims
+`maqqari-gayangos` — 8 claims
 
-- [ ] `chapter/ziyadid/02-the-tihama.mdx` — prose: "The Tihama"
-- [ ] `chapter/ziyadid/03-husayn-ibn-salama.mdx` — prose: "Husayn ibn Salama"
-- [ ] `chapter/zurayid/01-the-farm-that-kept-itself.mdx` — prose: "The farm that kept itself"
-- [ ] `chapter/zurayid/02-the-customs-house.mdx` — prose: "The customs house"
-- [ ] `polity/ziyadid` — revenue basis coded land-tax
-- [ ] `polity/ziyadid` — turning point 1018 The house ends without falling
-- [ ] `polity/zurayid` — peak Muhammad ibn Saba'
-- [ ] `polity/zurayid` — military basis coded tribal-levy
-- [ ] `polity/zurayid` — revenue basis coded trade-toll
+- [ ] `chapter/abbadid/06-camels-and-swine.mdx` — prose: "Camels and swine"
+- [ ] `chapter/abbadid/07-the-old-man-at-aghmat.mdx` — prose: "The old man at Aghmat"
+- [ ] `chapter/almoravid/02-he-who-shall-live-will-see.mdx` — prose: "He who shall live will see"
+- [ ] `chapter/cordoba/07-what-ten-men-did.mdx` — prose: "What ten men did"
+- [ ] `chapter/nasrid/02-how-granada-was-assembled.mdx` — prose: "How Granada was assembled"
+- [ ] `chapter/nasrid/06-the-weathercock.mdx` — prose: "The weathercock"
+- [ ] `chapter/nasrid/08-mere-beggars.mdx` — prose: "Palaces in imitation of Granada"
+- [ ] `chapter/zayyanid/07-the-road-outlived-it.mdx` — prose: "The road outlived it"
 
 ## Benjamin R. Foster, The Age of Agade: Inventing Empire in Ancient Mesopotamia
 
@@ -5175,19 +5361,30 @@ ordinary state, not an item to clear.
 - [ ] `polity/akkadian` — legitimation coded divine-sanction + conquest
 - [ ] `polity/akkadian` — turning point -2250 The Great Revolt
 
-## Translated by C. C. Brown, Sejarah Melayu, or Malay Annals
-*In Oxford in Asia Historical Reprints.*
+## Edward G. Browne, A Literary History of Persia, Volume II: From Firdawsi to Sa'di
 
-`brown-1970` — 8 claims
+`browne-1906` — 8 claims
 
-- [ ] `chapter/johor/01-the-dynasty-without-the-city.mdx` — prose: "The dynasty without the city"
-- [ ] `chapter/melaka/01-a-prince-out-of-palembang.mdx` — prose: "A prince out of Palembang"
-- [ ] `chapter/melaka/05-mansur-shah.mdx` — prose: "The bendahara"
-- [ ] `edge/melaka->johor` — claimed legitimacy of in 1528
-- [ ] `edge/srivijaya->melaka` — claimed legitimacy of in 1400
-- [ ] `polity/johor` — legitimation coded descent
-- [ ] `polity/melaka` — peak Mansur Shah r. 1459-1477
-- [ ] `polity/melaka` — successor_claims = 1 (johor)
+- [ ] `chapter/ghaznavid/07-he-knew-not-the-worth.mdx` — prose: "He knew not the worth of Firdawsi"
+- [ ] `chapter/great-seljuk/07-the-period-of-sanjar.mdx` — prose: "The period of Sanjar"
+- [ ] `chapter/great-seljuk/09-three-schoolfellows.mdx` — prose: "Three schoolfellows"
+- [ ] `chapter/kakuyid/05-the-books-went-to-ghazna.mdx` — prose: "The books went to Ghazna"
+- [ ] `chapter/khwarazmian/06-jalal-al-din.mdx` — prose: "His hand was against every man"
+- [ ] `chapter/mamunid/05-the-portrait.mdx` — prose: "The portrait"
+- [ ] `chapter/nizari/04-the-surrender.mdx` — prose: "The surrender"
+- [ ] `chapter/ziyarid/06-the-book-that-was-quarried.mdx` — prose: "The book that was quarried"
+
+## Edward G. Browne, A Literary History of Persia, Volume III: The Tartar Dominion (1265-1502)
+
+`browne-1920` — 7 claims
+
+- [ ] `chapter/akkoyunlu/07-a-pleasant-gentleman.mdx` — prose: "A pleasant gentleman"
+- [ ] `chapter/jalayirid/07-the-sultan-who-drew.mdx` — prose: "The sultan who drew"
+- [ ] `chapter/karakoyunlu/06-herat-given-back.mdx` — prose: "Herat, given back"
+- [ ] `chapter/karakoyunlu/08-his-fathers-grave.mdx` — prose: "His father's grave"
+- [ ] `chapter/muzaffarid/07-the-poet-who-would-not-travel.mdx` — prose: "The poet who would not travel"
+- [ ] `chapter/sarbadar/07-the-lost-divan.mdx` — prose: "The lost divan"
+- [ ] `chapter/timurid/07-after-ulugh-beg.mdx` — prose: "After Ulugh Beg"
 
 ## Charles Higham, The Civilization of Angkor
 
@@ -5225,12 +5422,24 @@ ordinary state, not an item to clear.
 - [ ] `polity/hittite` — descendant_scripts = 0
 - [ ] `polity/hittite` — religions_carried = 0
 
+## Emil Bretschneider, Mediaeval Researches from Eastern Asiatic Sources, volume I
+
+`bretschneider-1888` — 7 claims
+
+- [ ] `chapter/jin/02-eleven-years.mdx` — prose: "Eleven years"
+- [ ] `chapter/jin/06-caizhou.mdx` — prose: "Caizhou"
+- [ ] `chapter/liao/01-abaoji.mdx` — prose: "The chief who would not stand for re-election"
+- [ ] `chapter/liao/02-the-sixteen-prefectures.mdx` — prose: "The sixteen prefectures"
+- [ ] `chapter/liao/07-the-forest-people.mdx` — prose: "The forest people who supplied the falcons"
+- [ ] `chapter/qara-khitai/02-two-hundred-horsemen.mdx` — prose: "Two hundred horsemen"
+- [ ] `chapter/qara-khitai/06-the-name-that-stuck.mdx` — prose: "The name that stuck"
+
 ## Michael A. Gomez, African Dominion: A New History of Empire in Early and Medieval West Africa
 
 `gomez-2018` — 7 claims
 
 - [ ] `chapter/mali/01-a-song-for-a-founding.mdx` — prose: "A song for a founding"
-- [ ] `chapter/mali/05-what-the-visitors-saw.mdx` — prose: "What the visitors saw"
+- [ ] `chapter/mali/08-the-jeliw.mdx` — prose: "The jeliw"
 - [ ] `chapter/songhai/01-a-ribbon-along-a-river.mdx` — prose: "A ribbon along a river"
 - [ ] `polity/mali` — military basis coded conscript + slave-soldier
 - [ ] `polity/mali` — legitimation coded descent + divine-sanction
@@ -5262,6 +5471,51 @@ ordinary state, not an item to clear.
 - [ ] `polity/old-babylonian` — turning point -1763 Larsa
 - [ ] `polity/old-babylonian` — turning point -1761 Mari
 
+## Muhammad al-Saghir al-Ifrani, Nozhet-elhâdi: histoire de la dynastie saadienne au Maroc, 1511-1670
+
+`ifrani-houdas` — 7 claims
+
+- [ ] `chapter/saadi/02-the-world-belongs-to-whoever-can-take-it.mdx` — prose: "The world belongs to whoever can take it"
+- [ ] `chapter/saadi/05-two-things-they-cannot-take.mdx` — prose: "Two things they cannot take from us"
+- [ ] `chapter/saadi/07-the-corpse-and-the-marble.mdx` — prose: "The corpse, and the marble"
+- [ ] `chapter/wattasid/07-the-axe.mdx` — prose: "The axe"
+- [ ] `polity/saadi` — turning point 1510 The oath at Tedsi
+- [ ] `polity/saadi` — turning point 1551 The persecution of the lodges
+- [ ] `polity/wattasid` — turning point 1554 The Turks who stayed
+
+## David W. Phillipson, Foundations of an African Civilisation: Aksum and the Northern Horn, 1000 BC - AD 1300
+
+`phillipson-2012` — 6 claims
+
+- [ ] `chapter/aksum/02-the-stelae.mdx` — prose: "The stelae"
+- [ ] `chapter/aksum/06-the-script.mdx` — prose: "The script"
+- [ ] `chapter/aksum/07-the-sea-closed.mdx` — prose: "The sea closed"
+- [ ] `chapter/aksum/08-940.mdx` — prose: "940"
+- [ ] `polity/aksum` — revenue basis coded trade-toll + tribute
+- [ ] `polity/aksum` — turning point 640 The sea closes (contested)
+
+## Salil ibn Razik, History of the Imâms and Seyyids of 'Omân, from A.D. 661-1856
+
+`badger-1871` — 6 claims
+
+- [ ] `chapter/al-busaid/03-the-coast-recovered.mdx` — prose: "The coast recovered"
+- [ ] `chapter/al-busaid/07-the-manuscript.mdx` — prose: "The manuscript"
+- [ ] `chapter/oman-imamate/04-the-camels-round-the-pillar.mdx` — prose: "The camels round the pillar"
+- [ ] `chapter/oman-imamate/07-the-books-were-burnt.mdx` — prose: "The books were burnt"
+- [ ] `chapter/yaariba/05-the-horse-in-the-valley.mdx` — prose: "The horse in the valley"
+- [ ] `chapter/yaariba/07-twelve-years-and-lacs-of-gold.mdx` — prose: "Twelve years and lacs of gold"
+
+## Ibn Khallikan, Ibn Khallikan's Biographical Dictionary (Wafayat al-A'yan)
+
+`ibn-khallikan` — 6 claims
+
+- [ ] `chapter/artuqid/06-nine-generations.mdx` — prose: "Nine generations"
+- [ ] `chapter/hamdanid/03-the-brick-of-dust.mdx` — prose: "The brick of dust"
+- [ ] `chapter/hamdanid/07-the-poets-scattered.mdx` — prose: "The poets scattered"
+- [ ] `chapter/marwanid/06-the-astrologer.mdx` — prose: "The astrologer"
+- [ ] `chapter/uqaylid/04-writing-on-the-wall.mdx` — prose: "Writing on the wall"
+- [ ] `chapter/uqaylid/06-god-makes-no-account-of-them.mdx` — prose: "God makes no account of them"
+
 ## John F. Haldon, Byzantium in the Seventh Century: The Transformation of a Culture
 
 `haldon-1997` — 6 claims
@@ -5292,7 +5546,7 @@ ordinary state, not an item to clear.
 `matthee-2012` — 6 claims
 
 - [ ] `chapter/hotaki/02-gulnabad.mdx` — prose: "Gulnabad"
-- [ ] `chapter/safavid/07-1722.mdx` — prose: "What actually fell"
+- [ ] `chapter/safavid/08-1722.mdx` — prose: "What actually fell"
 - [ ] `edge/safavid->hotaki` — overthrew in 1722
 - [ ] `polity/hotaki` — turning point 1722 Gulnabad
 - [ ] `polity/safavid` — turning point 1722 The siege of Isfahan
@@ -5343,19 +5597,19 @@ ordinary state, not an item to clear.
 - [ ] `chapter/timurid/03-how-it-was-held.mdx` — prose: "A government without a monopoly of force"
 - [ ] `chapter/timurid/04-shahrukh.mdx` — prose: "Shahrukh"
 - [ ] `chapter/timurid/05-ulugh-beg.mdx` — prose: "Ulugh Beg"
-- [ ] `chapter/timurid/07-the-uzbeks.mdx` — prose: "Taken by cousins"
+- [ ] `chapter/timurid/08-the-uzbeks.mdx` — prose: "Taken by cousins"
 - [ ] `polity/timurid` — turning point 1409 Shahrukh at Herat
 - [ ] `polity/timurid` — turning point 1449 The murder of Ulugh Beg
 
-## David W. Phillipson, Foundations of an African Civilisation: Aksum and the Northern Horn, 1000 BC - AD 1300
+## Plutarch, Lives of the Noble Grecians and Romans
 
-`phillipson-2012` — 5 claims
+`plutarch-clough` — 5 claims
 
-- [ ] `chapter/aksum/02-the-stelae.mdx` — prose: "The stelae"
-- [ ] `chapter/aksum/06-the-script.mdx` — prose: "The script"
-- [ ] `chapter/aksum/07-the-long-ending.mdx` — prose: "The long ending"
-- [ ] `polity/aksum` — revenue basis coded trade-toll + tribute
-- [ ] `polity/aksum` — turning point 640 The sea closes (contested)
+- [ ] `chapter/antigonid/04-pydna.mdx` — prose: "Pydna"
+- [ ] `chapter/antigonid/06-a-clerk-to-the-magistrates.mdx` — prose: "A clerk to the magistrates"
+- [ ] `chapter/attalid/07-two-hundred-thousand-volumes.mdx` — prose: "Two hundred thousand volumes"
+- [ ] `chapter/macedonian/07-the-use-of-him.mdx` — prose: "The use of him"
+- [ ] `chapter/parthian/08-the-head-at-the-banquet.mdx` — prose: "The head at the banquet"
 
 ## Anne-Marie Eddé, trans. Jane Marie Todd, Saladin
 
@@ -5377,6 +5631,36 @@ ordinary state, not an item to clear.
 - [ ] `polity/carolingian` — revenue basis coded plunder + tribute
 - [ ] `polity/carolingian` — turning point 877 Quierzy
 - [ ] `polity/carolingian` — successor_claims = 1 (Holy Roman Empire)
+
+## Procopius of Caesarea, History of the Wars, Books I-II: The Persian War
+
+`procopius-dewing` — 5 claims
+
+- [ ] `chapter/hujrid/04-caisus-the-fugitive.mdx` — prose: "Caisus the fugitive"
+- [ ] `chapter/jafnid/02-a-thing-never-before-done.mdx` — prose: "A thing never before done"
+- [ ] `chapter/jafnid/07-a-strip-of-pasture.mdx` — prose: "A strip of pasture"
+- [ ] `chapter/nasrid-hira/02-no-one-to-stand-against-him.mdx` — prose: "No one to stand against him"
+- [ ] `chapter/nasrid-hira/05-the-strata.mdx` — prose: "The Strata"
+
+## Paul the Deacon, History of the Langobards
+
+`paul-deacon-foulke` — 5 claims
+
+- [ ] `chapter/lombard/01-the-kingless-decade.mdx` — prose: "The kingless decade"
+- [ ] `chapter/lombard/02-the-queen-chooses.mdx` — prose: "The queen chooses"
+- [ ] `chapter/lombard/03-the-edict.mdx` — prose: "The Edict"
+- [ ] `chapter/lombard/04-an-increaser-of-the-law.mdx` — prose: "An increaser of the law"
+- [ ] `chapter/lombard/07-the-deacon.mdx` — prose: "The deacon"
+
+## Giovanni R. Ruffini, Medieval Nubia: A Social and Economic History
+
+`ruffini-2012` — 5 claims
+
+- [ ] `chapter/makuria/02-the-waterwheel.mdx` — prose: "The waterwheel"
+- [ ] `chapter/makuria/03-a-monetised-economy.mdx` — prose: "A monetised economy"
+- [ ] `chapter/makuria/05-old-nubian.mdx` — prose: "Old Nubian"
+- [ ] `polity/makuria` — revenue basis coded land-tax + trade-toll
+- [ ] `polity/makuria` — descendant_scripts = 1 (Old Nubian)
 
 ## Nicholas Postgate, Bronze Age Bureaucracy: Writing and the Practice of Government in Assyria
 
@@ -5403,7 +5687,7 @@ ordinary state, not an item to clear.
 
 `crone-hinds-1986` — 4 claims
 
-- [ ] `chapter/abbasid/04-the-mihna.mdx` — prose: "The last caliph who tried to say what Islam was"
+- [ ] `chapter/abbasid/05-the-mihna.mdx` — prose: "The last caliph who tried to say what Islam was"
 - [ ] `chapter/umayyad/05-khalifat-allah.mdx` — prose: "What they called themselves"
 - [ ] `polity/abbasid` — turning point 833 The mihna
 - [ ] `polity/umayyad` — legitimation coded divine-sanction + descent
@@ -5419,14 +5703,41 @@ ordinary state, not an item to clear.
 - [ ] `polity/buyid` — capital Rayy from 943
 - [ ] `polity/buyid` — descendant_scripts = 0
 
-## Giovanni R. Ruffini, Medieval Nubia: A Social and Economic History
+## Bilge Qaghan and Yolig Tegin, The Orkhon Inscriptions
 
-`ruffini-2012` — 4 claims
+`orkhon-ross` — 4 claims
 
-- [ ] `chapter/makuria/02-a-monetised-economy.mdx` — prose: "A monetised economy"
-- [ ] `chapter/makuria/04-old-nubian.mdx` — prose: "Old Nubian"
-- [ ] `polity/makuria` — revenue basis coded land-tax + trade-toll
-- [ ] `polity/makuria` — descendant_scripts = 1 (Old Nubian)
+- [ ] `chapter/gokturk/02-the-iron-gate.mdx` — prose: "To the Iron Gate"
+- [ ] `chapter/gokturk/03-the-horses-had-names.mdx` — prose: "The horses had names"
+- [ ] `chapter/gokturk/04-fifty-years.mdx` — prose: "Fifty years"
+- [ ] `chapter/gokturk/05-the-forest.mdx` — prose: "Stay in the forest"
+
+## Flavius Josephus, The Complete Works of Flavius Josephus
+
+`josephus-whiston` — 4 claims
+
+- [ ] `chapter/hasmonean/03-the-thracian.mdx` — prose: "The Thracian"
+- [ ] `chapter/hasmonean/06-married-and-extinguished.mdx` — prose: "Married, and extinguished"
+- [ ] `chapter/herodian/02-forced-to-plough.mdx` — prose: "Forced to plough"
+- [ ] `chapter/herodian/06-a-daughter-named-berenice.mdx` — prose: "A daughter named Berenice"
+
+## Archibald Henry Sayce, The Hittites: The Story of a Forgotten Empire
+
+`sayce-1888` — 4 claims
+
+- [ ] `chapter/hittite/08-a-forgotten-empire.mdx` — prose: "A forgotten empire"
+- [ ] `chapter/mitanni/07-hanigalbat.mdx` — prose: "Hanigalbat"
+- [ ] `chapter/urartu/02-biainas.mdx` — prose: "Biainas"
+- [ ] `chapter/urartu/05-the-mountain-moved.mdx` — prose: "The mountain moved"
+
+## Ali ibn al-Hasan al-Khazraji, The Pearl-Strings: A History of the Resuliyy Dynasty of Yemen
+
+`khazraji-redhouse` — 4 claims
+
+- [ ] `chapter/jafnid/09-thirty-princes.mdx` — prose: "Thirty princes"
+- [ ] `chapter/rasulid/02-yemen-as-alms.mdx` — prose: "Yemen as alms"
+- [ ] `chapter/rasulid/07-a-whistler-whistled.mdx` — prose: "A whistler whistled"
+- [ ] `chapter/rasulid/09-one-manuscript.mdx` — prose: "One manuscript"
 
 ## John F. Healey, The Religion of the Nabataeans: A Conspectus
 *In Religions in the Graeco-Roman World 136.*
@@ -5437,6 +5748,15 @@ ordinary state, not an item to clear.
 - [ ] `polity/nabataean` — legitimation coded descent + divine-sanction
 - [ ] `polity/nabataean` — descendant_scripts = 1 (Arabic script)
 - [ ] `polity/nabataean` — religions_carried = 0
+
+## H. St. John Philby, Arabia of the Wahhabis
+
+`philby-1928` — 4 claims
+
+- [ ] `chapter/nejd/06-the-imam-in-the-garden.mdx` — prose: "The imam in the garden"
+- [ ] `chapter/rashidi/05-a-gilbertian-situation.mdx` — prose: "A Gilbertian situation"
+- [ ] `chapter/rashidi/07-the-gauntlet.mdx` — prose: "The gauntlet"
+- [ ] `chapter/sharifate-mecca/07-a-thing-nobody-wanted-to-want.mdx` — prose: "A thing nobody wanted to want"
 
 ## Fergus Millar, The Emperor in the Roman World (31 BC - AD 337)
 
@@ -5457,23 +5777,64 @@ ordinary state, not an item to clear.
 - [ ] `polity/safavid` — legitimation coded divine-sanction + descent
 - [ ] `polity/safavid` — turning point 1514 Chaldiran
 
+## Julius Wellhausen, The Arab Kingdom and its Fall
+
+`wellhausen-1927` — 4 claims
+
+- [ ] `chapter/umayyad/10-abu-futrus.mdx` — prose: "Abu Futrus"
+- [ ] `chapter/umayyad/11-the-sufyani.mdx` — prose: "The Sufyani"
+- [ ] `chapter/zubayrid/03-the-letters-to-kufa.mdx` — prose: "The letters to Kufa"
+- [ ] `chapter/zubayrid/06-the-community-restored.mdx` — prose: "The community restored"
+
 ## multiple contributors, ABBASID CALIPHATE
 *In Encyclopaedia Iranica.*
 <https://iranicaonline.org/articles/abbasid-caliphate>
 
 `iranica-abbasid-caliphate` — 3 claims
 
-- [ ] `chapter/abbasid/08-baghdad-1258.mdx` — prose: "1258"
+- [ ] `chapter/abbasid/09-baghdad-1258.mdx` — prose: "1258"
 - [ ] `polity/abbasid` — capital Baghdad from 762
 - [ ] `polity/abbasid` — capital Samarra from 836
+
+## Guy Le Strange, Baghdad during the Abbasid Caliphate, from contemporary Arabic and Persian sources
+
+`lestrange-1900` — 3 claims
+
+- [ ] `chapter/abbasid/02-the-round-city.mdx` — prose: "The round city"
+- [ ] `chapter/abbasid/10-the-chief-town-of-a-province.mdx` — prose: "The chief town of a province"
+- [ ] `chapter/buyid/06-the-dyke-and-the-hospital.mdx` — prose: "The dyke and the hospital"
+
+## John Lewis Burckhardt, Travels in Nubia
+
+`burckhardt-nubia` — 3 claims
+
+- [ ] `chapter/alodia/06-the-ruins-on-the-hills.mdx` — prose: "What was there instead"
+- [ ] `chapter/kush/08-a-singular-coincidence.mdx` — prose: "A singular coincidence in sound"
+- [ ] `chapter/makuria/08-greek-churches.mdx` — prose: "The Greek churches"
+
+## Polybius, The Histories of Polybius
+
+`polybius-shuckburgh` — 3 claims
+
+- [ ] `chapter/antigonid/02-the-kingdom-he-had.mdx` — prose: "The kingdom he had"
+- [ ] `chapter/attalid/02-enough-and-to-spare.mdx` — prose: "Enough and to spare"
+- [ ] `chapter/attalid/05-no-king-was-to-visit-rome.mdx` — prose: "No king was to visit Rome"
 
 ## Ralph-Johannes Lilie, trans. J. C. Morris and Jean E. Ridings, Byzantium and the Crusader States 1096-1204
 
 `lilie-1993` — 3 claims
 
-- [ ] `chapter/antioch/03-the-emperor-comes-in-person.mdx` — prose: "The emperor comes in person"
+- [ ] `chapter/antioch/04-the-emperor-comes-in-person.mdx` — prose: "The emperor comes in person"
 - [ ] `edge/byzantine->antioch` — vassal of in 1108
 - [ ] `polity/antioch` — turning point 1108 Devol
+
+## Einhard, Life of Charlemagne
+
+`einhard-turner` — 3 claims
+
+- [ ] `chapter/carolingian/08-the-man-in-the-ox-cart.mdx` — prose: "The man in the ox-cart"
+- [ ] `chapter/lombard/05-the-invitation.mdx` — prose: "The invitation"
+- [ ] `chapter/lombard/06-774.mdx` — prose: "774"
 
 ## Jost Gippert, Wolfgang Schulze, Zaza Aleksidze and Jean-Pierre Mahé, The Caucasian Albanian Palimpsests of Mount Sinai
 *In Monumenta Palaeographica Medii Aevi: Series Ibero-Caucasica 2.*
@@ -5483,6 +5844,46 @@ ordinary state, not an item to clear.
 - [ ] `chapter/caucasian-albania/03-the-lost-alphabet.mdx` — prose: "An alphabet recovered from under other people's writing"
 - [ ] `polity/caucasian-albania` — turning point 705 The church absorbed
 - [ ] `polity/caucasian-albania` — descendant_scripts = 0
+
+## Marco Polo, The Book of Ser Marco Polo
+
+`polo-yule` — 3 claims
+
+- [ ] `chapter/cilician-armenia/03-layas.mdx` — prose: "Layas"
+- [ ] `chapter/cilician-armenia/07-the-pension.mdx` — prose: "The pension"
+- [ ] `chapter/yuan/05-the-river-and-the-paper.mdx` — prose: "The river, and the paper"
+
+## Minhaj al-Din Abu Umar-i Uthman al-Juzjani, Tabakat-i-Nasiri: A General History of the Muhammadan Dynasties of Asia
+
+`juzjani-raverty` — 3 claims
+
+- [ ] `chapter/ghurid/07-bought-at-delhi.mdx` — prose: "Bought at Delhi"
+- [ ] `chapter/karakhanid/05-the-refused-marriage.mdx` — prose: "The refused marriage"
+- [ ] `chapter/karakhanid/06-the-house-of-afrasiyab.mdx` — prose: "The house of Afrasiyab"
+
+## Judasz Tadeusz Krusiński, The History of the Revolution of Persia, taken from the memoirs of Father Krusinski, Procurator of the Jesuits at Ispahan
+
+`krusinski-1728` — 3 claims
+
+- [ ] `chapter/hotaki/03-the-six-months.mdx` — prose: "The six months"
+- [ ] `chapter/hotaki/06-what-was-not-rebuilt.mdx` — prose: "What was not rebuilt"
+- [ ] `chapter/safavid/07-the-cage.mdx` — prose: "The cage"
+
+## Duarte Barbosa, The Book of Duarte Barbosa
+
+`barbosa-dames` — 3 claims
+
+- [ ] `chapter/kilwa/06-two-thousand-mithqals.mdx` — prose: "Two thousand mithqals"
+- [ ] `chapter/kilwa/08-a-new-thing.mdx` — prose: "A new thing"
+- [ ] `polity/kilwa` — turning point 1502 The tribute
+
+## Daniel David Luckenbill, Ancient Records of Assyria and Babylonia, Volume II
+
+`luckenbill-1927` — 3 claims
+
+- [ ] `chapter/middle-elamite/05-no-foe-other-than-myself.mdx` — prose: "No foe other than myself"
+- [ ] `chapter/neo-elamite/04-nana-goes-home.mdx` — prose: "Nana goes home"
+- [ ] `chapter/saba/02-the-assyrian-annals.mdx` — prose: "The name in the Assyrian annals"
 
 ## Gernot Wilhelm, trans. Jennifer Barnes, The Hurrians
 *In Ancient Near East Series.*
@@ -5502,14 +5903,46 @@ ordinary state, not an item to clear.
 - [ ] `polity/neo-babylonian` — military basis coded land-grant + mercenary
 - [ ] `polity/neo-babylonian` — revenue basis coded land-tax + tribute
 
+## Edmund Curtis, Roger of Sicily and the Normans in Lower Italy, 1016-1154
+
+`curtis-1912` — 3 claims
+
+- [ ] `chapter/norman-sicily/02-amiratus-amiratorum.mdx` — prose: "Amiratus amiratorum"
+- [ ] `chapter/norman-sicily/04-the-ashes-in-the-harbour.mdx` — prose: "The ashes in the harbour"
+- [ ] `chapter/norman-sicily/06-so-long-as-the-sea.mdx` — prose: "So long as the sea"
+
+## Cassiodorus, The Letters of Cassiodorus, Being a Condensed Translation of the Variae Epistolae
+
+`cassiodorus-hodgkin` — 3 claims
+
+- [ ] `chapter/ostrogothic/02-to-all-the-goths-and-romans.mdx` — prose: "To all the Goths and Romans"
+- [ ] `chapter/ostrogothic/04-universis-gothis.mdx` — prose: "Universis Gothis"
+- [ ] `chapter/ostrogothic/06-squillace.mdx` — prose: "Squillace"
+
 ## Ibn Battuta, translated by H. A. R. Gibb and C. F. Beckingham, The Travels of Ibn Battuta, A.D. 1325-1354
 *In Works issued by the Hakluyt Society, Second Series.*
 
 `gibb-battuta` — 3 claims
 
-- [ ] `chapter/pasai/02-a-fortnight-in-1345.mdx` — prose: "A fortnight in 1345"
+- [ ] `chapter/pasai/03-a-fortnight-in-1345.mdx` — prose: "A fortnight in 1345"
 - [ ] `polity/pasai` — peak Al-Malik al-Zahir r. 1326-1345
 - [ ] `polity/pasai` — turning point 1345 What Ibn Battuta found
+
+## Appian of Alexandria, The Roman History of Appian of Alexandria, Volume II: The Foreign Wars
+
+`appian-white` — 3 claims
+
+- [ ] `chapter/pontus/02-forty-two-years.mdx` — prose: "Forty-two years"
+- [ ] `chapter/pontus/04-the-terms-he-was-given.mdx` — prose: "The terms he was given"
+- [ ] `chapter/pontus/06-the-tombs-of-the-kings.mdx` — prose: "The tombs of the kings"
+
+## Ahmad ibn Yahya al-Baladhuri, The Origins of the Islamic State (Kitab Futuh al-Buldan)
+
+`baladhuri-futuh` — 3 claims
+
+- [ ] `chapter/rashidun/04-by-force-or-by-treaty.mdx` — prose: "By force or by treaty"
+- [ ] `chapter/rashidun/09-the-robes-of-najran.mdx` — prose: "The robes of Najran"
+- [ ] `chapter/umayyad/09-the-registers.mdx` — prose: "Seek another profession"
 
 ## John L. Meloy, Imperial Power and Maritime Trade: Mecca and Cairo in the Later Middle Ages
 *In Chicago Studies on the Middle East.*
@@ -5520,6 +5953,14 @@ ordinary state, not an item to clear.
 - [ ] `polity/sharifate-mecca` — military basis coded tribal-levy
 - [ ] `polity/sharifate-mecca` — revenue basis coded trade-toll + tribute
 
+## S. W. Bushell, The Early History of Tibet, from Chinese Sources
+
+`bushell-1880` — 3 claims
+
+- [ ] `chapter/tibetan-empire/01-the-golden-goose.mdx` — prose: "The golden goose"
+- [ ] `chapter/tibetan-empire/02-fifteen-days.mdx` — prose: "Fifteen days in Chang'an"
+- [ ] `chapter/tibetan-empire/05-the-stone-outside-the-temple.mdx` — prose: "The stone outside the temple"
+
 ## Paul E. Zimansky, Ecology and Empire: The Structure of the Urartian State
 *In Studies in Ancient Oriental Civilization 41.*
 
@@ -5529,6 +5970,14 @@ ordinary state, not an item to clear.
 - [ ] `polity/urartu` — military basis coded standing-professional + conscript
 - [ ] `polity/urartu` — revenue basis coded land-tax + plunder
 
+## Procopius of Caesarea, History of the Wars, Books III-IV: The Vandalic War
+
+`procopius-vandalic` — 3 claims
+
+- [ ] `chapter/vandal/02-the-fleet.mdx` — prose: "The fleet"
+- [ ] `chapter/vandal/04-the-pretext.mdx` — prose: "The pretext"
+- [ ] `chapter/vandal/06-vanity-of-vanities.mdx` — prose: "Vanity of vanities"
+
 ## Colin McEvedy and Richard Jones, Atlas of World Population History
 
 `mcevedy-jones-1978` — 3 claims
@@ -5537,12 +5986,68 @@ ordinary state, not an item to clear.
 - [ ] `denominator/1200` — world population 360,000,000
 - [ ] `denominator/800` — world population 220,000,000
 
+## L. W. King and R. C. Thompson, The Sculptures and Inscription of Darius the Great on the Rock of Behistun in Persia
+
+`king-thompson-1907` — 2 claims
+
+- [ ] `chapter/achaemenid/08-the-rock.mdx` — prose: "The rock"
+- [ ] `chapter/median/07-the-family-of-cyaxares.mdx` — prose: "The family of Cyaxares"
+
+## Jonas Hanway, An Historical Account of the British Trade over the Caspian Sea, with a Journal of Travels, to which are added the Revolutions of Persia
+
+`hanway-1753` — 2 claims
+
+- [ ] `chapter/afsharid/07-the-treasure.mdx` — prose: "The treasure"
+- [ ] `chapter/safavid/09-the-name-nobody-could-do-without.mdx` — prose: "The name nobody could do without"
+
+## Leonard William King, A History of Sumer and Akkad
+
+`king-1910` — 2 claims
+
+- [ ] `chapter/akkadian/06-who-then-was-sargon.mdx` — prose: "Who, then, was Sargon?"
+- [ ] `chapter/ur-iii/06-the-kingdom-continues.mdx` — prose: "The kingdom continues"
+
+## The Kebra Nagast, The Queen of Sheba and Her Only Son Menyelek
+
+`kebra-nagast-budge` — 2 claims
+
+- [ ] `chapter/aksum/09-the-place-of-abode.mdx` — prose: "The place of abode"
+- [ ] `chapter/ethiopia/07-the-line-of-solomon.mdx` — prose: "The line of Solomon"
+
+## Anna Komnene, The Alexiad
+
+`alexiad-dawes` — 2 claims
+
+- [ ] `chapter/antioch/05-more-discreet-by-thy-spear.mdx` — prose: "Rendered more discreet by thy spear"
+- [ ] `chapter/danishmendid/02-tanismanes.mdx` — prose: "Tanismanes"
+
+## Thomas Stamford Raffles, The History of Java
+
+`raffles-1817` — 2 claims
+
+- [ ] `chapter/banten/08-the-pension.mdx` — prose: "The pension"
+- [ ] `chapter/mataram/06-a-false-translation.mdx` — prose: "A false translation"
+
+## Ibn Isfandiyar, An Abridged Translation of the History of Tabaristan
+
+`ibn-isfandiyar-browne` — 2 claims
+
+- [ ] `chapter/bavandid/06-the-bath-at-amul.mdx` — prose: "The bath at Amul"
+- [ ] `chapter/sarbadar/03-the-head-on-the-pole.mdx` — prose: "The head on the pole"
+
 ## Anthony Kaldellis, The Byzantine Republic: People and Power in New Rome
 
 `kaldellis-2015` — 2 claims
 
 - [ ] `chapter/byzantine/11-the-republic.mdx` — prose: "The republic"
 - [ ] `polity/byzantine` — legitimation coded divine-sanction + descent + election
+
+## William Gifford Palgrave, Narrative of a Year's Journey Through Central and Eastern Arabia, 1862-63
+
+`palgrave-1865` — 2 claims
+
+- [ ] `chapter/diriyah/07-the-old-capital.mdx` — prose: "The old capital"
+- [ ] `chapter/nejd/02-the-court-at-riyadh.mdx` — prose: "The court at Riyadh"
 
 ## Christopher MacEvitt, The Crusades and the Christian World of the East: Rough Tolerance
 *In The Middle Ages Series.*
@@ -5551,6 +6056,35 @@ ordinary state, not an item to clear.
 
 - [ ] `chapter/edessa/02-rough-tolerance.mdx` — prose: "Ruling a country that was already Christian"
 - [ ] `polity/edessa` — turning point 1098 The adoption and the riot (contested)
+
+## James Henry Breasted, Ancient Records of Egypt, Volume I: The First to the Seventeenth Dynasties
+
+`breasted-1906` — 2 claims
+
+- [ ] `chapter/egypt-old-kingdom/02-more-than-the-gifts-of-punt.mdx` — prose: "More than the gifts of Punt"
+- [ ] `chapter/egypt-old-kingdom/06-three-tombs-at-siut.mdx` — prose: "Three tombs at Siut"
+
+## Nevill Forbes, Bulgaria
+*In The Balkans: A History of Bulgaria, Serbia, Greece, Rumania, Turkey.*
+
+`forbes-1915` — 2 claims
+
+- [ ] `chapter/first-bulgarian/09-a-refuge-for-patriotism.mdx` — prose: "A refuge for patriotism"
+- [ ] `chapter/second-bulgarian/07-the-bulgars-had-to-be-taught.mdx` — prose: "They had to be taught who they were"
+
+## J. Theodore Bent, Genoa: How the Republic Rose and Fell
+
+`bent-1881` — 2 claims
+
+- [ ] `chapter/genoa/06-the-book-of-gold.mdx` — prose: "The book of gold"
+- [ ] `chapter/genoa/07-no-longer-of-our-days.mdx` — prose: "No longer of our days"
+
+## Oliver Wardrop, The Kingdom of Georgia: notes of travel in a land of woman, wine and song
+
+`wardrop-1888` — 2 claims
+
+- [ ] `chapter/georgia/07-the-poem.mdx` — prose: "The poem"
+- [ ] `chapter/kartli-kakheti/06-a-gendarme-in-the-market-town.mdx` — prose: "A gendarme in the market town"
 
 ## C. E. Bosworth, GHAZNAVIDS
 *In Encyclopaedia Iranica.*
@@ -5561,6 +6095,34 @@ ordinary state, not an item to clear.
 - [ ] `polity/ghaznavid` — capital Ghazna from 962
 - [ ] `polity/ghaznavid` — descendant_scripts = 0
 
+## George McCall Theal, Records of South-Eastern Africa, volume VI
+
+`theal-records-vi` — 2 claims
+
+- [ ] `chapter/great-zimbabwe/02-how-the-gold-was-got.mdx` — prose: "How the gold was got"
+- [ ] `chapter/great-zimbabwe/07-symbaoe.mdx` — prose: "Symbaoe"
+
+## John Faithfull Fleet, Inscriptions of the Early Gupta Kings and Their Successors
+
+`fleet-cii-iii` — 2 claims
+
+- [ ] `chapter/gupta/01-the-daughters-son.mdx` — prose: "The daughter's son"
+- [ ] `chapter/gupta/02-the-pillar.mdx` — prose: "The pillar"
+
+## Faxian, A Record of Buddhistic Kingdoms
+
+`faxian-legge` — 2 claims
+
+- [ ] `chapter/gupta/03-what-faxian-saw.mdx` — prose: "What Faxian saw"
+- [ ] `chapter/kushan/02-the-tower-over-the-boys-tower.mdx` — prose: "The tower over the boy's tower"
+
+## Anonymous, The Periplus of the Erythraean Sea: Travel and Trade in the Indian Ocean by a Merchant of the First Century
+
+`periplus-schoff` — 2 claims
+
+- [ ] `chapter/himyar/02-charibael.mdx` — prose: "Charibael"
+- [ ] `chapter/nabataean/05-a-centurion-at-the-white-village.mdx` — prose: "A centurion at the White Village"
+
 ## Gary Beckman, Hittite Diplomatic Texts
 *In Writings from the Ancient World 7.*
 
@@ -5569,12 +6131,54 @@ ordinary state, not an item to clear.
 - [ ] `chapter/hittite/05-the-treaty.mdx` — prose: "The treaty"
 - [ ] `polity/hittite` — turning point -1259 The treaty with Egypt
 
+## Charles James Lyall, Translations of Ancient Arabian Poetry, Chiefly Pre-Islamic
+
+`lyall-1885` — 2 claims
+
+- [ ] `chapter/hujrid/07-the-men-who-wrote-it-down.mdx` — prose: "The men who wrote it down"
+- [ ] `chapter/nasrid-hira/07-the-poets-lived-on-it.mdx` — prose: "The poets lived on it"
+
 ## Thomas W. Lentz and Glenn D. Lowry, Timur and the Princely Vision: Persian Art and Culture in the Fifteenth Century
 
 `lentz-lowry-1989` — 2 claims
 
-- [ ] `chapter/jalayirid/03-the-book.mdx` — prose: "Where Persian painting turns"
+- [ ] `chapter/jalayirid/04-the-book.mdx` — prose: "Where Persian painting turns"
 - [ ] `chapter/timurid/06-the-princely-vision.mdx` — prose: "The princely vision"
+
+## W. M. Ramsay, The Historical Geography of Asia Minor
+
+`ramsay-1890` — 2 claims
+
+- [ ] `chapter/karamanid/07-still-called-laranda.mdx` — prose: "Still called Laranda"
+- [ ] `chapter/trebizond/08-what-stayed-in-the-mountains.mdx` — prose: "What stayed in the mountains"
+
+## al-Masudi, Les Prairies d'or, volume II
+
+`masudi-meynard` — 2 claims
+
+- [ ] `chapter/khazar/02-seven-judges.mdx` — prose: "Seven judges"
+- [ ] `chapter/khazar/05-five-hundred-ships.mdx` — prose: "Five hundred ships"
+
+## Geoffrey de Villehardouin, The Chronicle of Geoffry de Villehardouin, Marshal of Champagne and Romania, Concerning the Conquest of Constantinople
+
+`villehardouin-smith` — 2 claims
+
+- [ ] `chapter/latin-empire/02-the-partition.mdx` — prose: "The partition"
+- [ ] `chapter/latin-empire/03-the-brother.mdx` — prose: "The brother"
+
+## Megasthenes, Ancient India as Described by Megasthenes and Arrian
+
+`megasthenes-mccrindle` — 2 claims
+
+- [ ] `chapter/maurya/01-five-hundred-elephants.mdx` — prose: "Five hundred elephants"
+- [ ] `chapter/maurya/02-the-machine.mdx` — prose: "The machine"
+
+## Ashoka, Inscriptions of Asoka
+
+`asoka-hultzsch` — 2 claims
+
+- [ ] `chapter/maurya/03-the-thirteenth.mdx` — prose: "The thirteenth"
+- [ ] `chapter/maurya/07-prinsep.mdx` — prose: "The king who had to be found again"
 
 ## Giovanni B. Lanfranchi, Michael Roaf and Robert Rollinger (eds), Continuity of Empire (?): Assyria, Media, Persia
 *In History of the Ancient Near East Monographs V.*
@@ -5582,13 +6186,27 @@ ordinary state, not an item to clear.
 `lanfranchi-2003` — 2 claims
 
 - [ ] `chapter/median/01-what-the-assyrians-recorded.mdx` — prose: "What the Assyrians wrote down"
-- [ ] `chapter/median/03-an-empire-possibly.mdx` — prose: "An empire, possibly"
+- [ ] `chapter/median/04-an-empire-possibly.mdx` — prose: "An empire, possibly"
+
+## Herodotus, The History of Herodotus
+
+`herodotus-macaulay` — 2 claims
+
+- [ ] `chapter/median/02-the-four-kings.mdx` — prose: "The four kings"
+- [ ] `chapter/neo-babylonian/08-what-herodotus-was-told.mdx` — prose: "What Herodotus was told"
+
+## Austen Henry Layard, Nineveh and its Remains
+
+`layard-1849` — 2 claims
+
+- [ ] `chapter/middle-assyrian/06-the-shapeless-mass.mdx` — prose: "The shapeless mass"
+- [ ] `chapter/neo-assyrian/07-a-median-city.mdx` — prose: "A Median city"
 
 ## J. A. Boyle (ed.), The Cambridge History of Iran, Volume 5: The Saljuq and Mongol Periods
 
 `chi-5` — 2 claims
 
-- [ ] `chapter/mongol/03-division.mdx` — prose: "An empire that divided itself"
+- [ ] `chapter/mongol/05-division.mdx` — prose: "An empire that divided itself"
 - [ ] `polity/mongol` — span end upper bound 1368
 
 ## Paul-Alain Beaulieu, The Reign of Nabonidus, King of Babylon 556-539 B.C.
@@ -5604,7 +6222,7 @@ ordinary state, not an item to clear.
 
 `roth-1997` — 2 claims
 
-- [ ] `chapter/old-babylonian/03-the-stele.mdx` — prose: "The stele"
+- [ ] `chapter/old-babylonian/04-the-stele.mdx` — prose: "The stele"
 - [ ] `polity/old-babylonian` — turning point -1755 The laws of Hammurabi (contested)
 
 ## Baki Tezcan, The Second Ottoman Empire: Political and Social Transformation in the Early Modern World
@@ -5615,12 +6233,35 @@ ordinary state, not an item to clear.
 - [ ] `chapter/ottoman/07-the-second-empire.mdx` — prose: "The empire that was not declining"
 - [ ] `polity/ottoman` — turning point 1622 Osman II killed by the janissaries (contested)
 
+## Mustafa Kemal, A Speech Delivered by Ghazi Mustapha Kemal, President of the Turkish Republic, October 1927
+
+`nutuk-1929` — 2 claims
+
+- [ ] `chapter/ottoman/08-1922.mdx` — prose: "Sovereignty is not given"
+- [ ] `chapter/ottoman/09-and-the-office.mdx` — prose: "And the office"
+
+## A. H. Hill, Hikayat Raja-Raja Pasai
+*In Journal of the Malayan Branch of the Royal Asiatic Society.*
+<https://archive.org/details/hikayat-raja-raja-pasai>
+
+`hill-1960` — 2 claims
+
+- [ ] `chapter/pasai/02-the-name-of-the-island.mdx` — prose: "The name of the island"
+- [ ] `chapter/pasai/07-one-manuscript.mdx` — prose: "One manuscript"
+
 ## J. G. Manning, The Last Pharaohs: Egypt Under the Ptolemies, 305-30 BC
 
 `manning-2010` — 2 claims
 
 - [ ] `chapter/ptolemaic/04-ruling-through.mdx` — prose: "Ruling through"
 - [ ] `polity/ptolemaic` — revenue basis coded land-tax + monopoly + trade-toll
+
+## Edward G. Browne, A Literary History of Persia, Volume I: From the Earliest Times until Firdawsi
+
+`browne-1902` — 2 claims
+
+- [ ] `chapter/samanid/09-nothing-is-left.mdx` — prose: "Nothing is left save Rudaki's lays"
+- [ ] `chapter/tahirid/06-two-couplets.mdx` — prose: "Two couplets"
 
 ## Paul J. Kosmin, The Land of the Elephant Kings: Space, Territory, and Ideology in the Seleucid Empire
 
@@ -5635,6 +6276,13 @@ ordinary state, not an item to clear.
 
 - [ ] `chapter/srivijaya/05-1025.mdx` — prose: "1025"
 - [ ] `polity/srivijaya` — turning point 1025 The Chola raid
+
+## G. Wyman Bury, Arabia Infelix, or the Turks in Yamen
+
+`bury-1915` — 2 claims
+
+- [ ] `chapter/tahirid-yemen/06-a-hundred-and-thirteen-years.mdx` — prose: "A hundred and thirteen years"
+- [ ] `chapter/zaydi-yemen/04-the-sole-vestige.mdx` — prose: "The sole vestige"
 
 ## Khalid Yahya Blankinship, The End of the Jihad State: The Reign of Hisham Ibn 'Abd al-Malik and the Collapse of the Umayyads
 *In SUNY Series in Medieval Middle East History.*
@@ -5652,17 +6300,101 @@ ordinary state, not an item to clear.
 - [ ] `chapter/ur-iii/04-the-grain.mdx` — prose: "The grain"
 - [ ] `polity/ur-iii` — turning point -2020 Ishbi-Erra at Isin (contested)
 
+## The Visigothic Code (Forum Judicum), The Visigothic Code (Forum Judicum)
+
+`scott-1910` — 2 claims
+
+- [ ] `chapter/visigothic/05-book-twelve.mdx` — prose: "Book twelve"
+- [ ] `chapter/visigothic/07-the-code.mdx` — prose: "The code"
+
 ## Dimitri Gutas, Greek Thought, Arabic Culture: The Graeco-Arabic Translation Movement in Baghdad and Early 'Abbasid Society
 
 `gutas-1998` — 1 claims
 
-- [ ] `chapter/abbasid/03-the-translation-movement.mdx` — prose: "Two centuries of translation, and who paid for it"
+- [ ] `chapter/abbasid/04-the-translation-movement.mdx` — prose: "Two centuries of translation, and who paid for it"
+
+## Jalal al-Din al-Suyuti, History of the Caliphs (Tarikh al-Khulafa')
+
+`suyuti-jarrett` — 1 claims
+
+- [ ] `chapter/abbasid-cairo/05-the-deed-my-father-drafted.mdx` — prose: "The deed my father drafted"
+
+## Anthony Reid, Sixteenth Century Turkish Influence in Western Indonesia
+*In Journal of Southeast Asian History.*
+<https://archive.org/details/sixteenth-century-turkish-influence-in-western-indonesia>
+
+`reid-1969b` — 1 claims
+
+- [ ] `chapter/aceh/03-istanbul.mdx` — prose: "Istanbul"
+
+## Anthony Reid, The Contest for North Sumatra: Atjeh, the Netherlands and Britain, 1858-1898
+<https://archive.org/details/anthony-john-stanhope-reid-1969-the-contest-for-north-sumatra-atjeh-the-netherla>
+
+`reid-1969` — 1 claims
+
+- [ ] `chapter/aceh/06-the-century-of-the-chiefs.mdx` — prose: "The century of the chiefs"
+
+## Anthony Reid (ed.), Verandah of Violence: The Background to the Aceh Problem
+<https://archive.org/details/anthony-john-stanhope-reid-et-al.-2006-verandah-of-violence-the-background-to-the-aceh-problem>
+
+`reid-2006` — 1 claims
+
+- [ ] `chapter/aceh/08-what-came-after.mdx` — prose: "What came after"
+
+## W. A. Wigram, An Introduction to the History of the Assyrian Church, or The Church of the Sassanid Persian Empire, 100-640 A.D.
+
+`wigram-1910` — 1 claims
+
+- [ ] `chapter/adiabene/05-a-dark-pit.mdx` — prose: "A dark pit"
+
+## T. Edward Bowdich, Mission from Cape Coast Castle to Ashantee
+
+`bowdich-1819` — 1 claims
+
+- [ ] `chapter/asante/04-the-entry.mdx` — prose: "The entry into Kumasi"
+
+## Simon de la Loubère, A New Historical Relation of the Kingdom of Siam
+
+`loubere-1693` — 1 claims
+
+- [ ] `chapter/ayutthaya/04-after-the-french.mdx` — prose: "After the French"
+
+## Spenser St John, Life in the Forests of the Far East, or Travels in Northern Borneo
+<https://archive.org/details/in.ernet.dli.2015.31668>
+
+`st-john-1863` — 1 claims
+
+- [ ] `chapter/brunei/05-the-names-are-there.mdx` — prose: "The names are there"
+
+## Edwin Pears, The Destruction of the Greek Empire and the Story of the Capture of Constantinople by the Turks
+
+`pears-1903` — 1 claims
+
+- [ ] `chapter/byzantine/13-be-patriarch-and-be-at-peace.mdx` — prose: "Be patriarch, and be at peace"
+
+## John F. Baddeley, The Russian Conquest of the Caucasus
+
+`baddeley-1908` — 1 claims
+
+- [ ] `chapter/caucasian-imamate/06-the-instrument.mdx` — prose: "The instrument"
 
 ## Janina M. Safran, Defining Boundaries in al-Andalus: Muslims, Christians, and Jews in Islamic Iberia
 
 `safran-2013` — 1 claims
 
 - [ ] `chapter/cordoba/05-the-boundaries.mdx` — prose: "What the jurists were asked"
+
+## John Lewis Burckhardt, Notes on the Bedouins and Wahábys, Collected During His Travels in the East
+
+`burckhardt-1830` — 1 claims
+
+- [ ] `chapter/diriyah/04-loads-of-gold-and-silver.mdx` — prose: "Loads of gold and silver"
+
+## James Henry Breasted, A History of Egypt from the Earliest Times to the Persian Conquest
+
+`breasted-1912` — 1 claims
+
+- [ ] `chapter/egypt-new-kingdom/07-the-prince-in-the-window.mdx` — prose: "The prince in the window"
 
 ## Paul E. Walker, Caliph of Cairo: Al-Hakim bi-Amr Allah, 996-1021
 
@@ -5695,12 +6427,42 @@ ordinary state, not an item to clear.
 
 - [ ] `chapter/ghurid/05-what-they-built.mdx` — prose: "A tower nobody could find"
 
+## Alphonse Rousseau, Annales tunisiennes, ou aperçu historique sur la régence de Tunis
+
+`rousseau-1864` — 1 claims
+
+- [ ] `chapter/hafsid/07-forty-sections.mdx` — prose: "Forty sections, and a chief for each"
+
+## James Bryce, The Holy Roman Empire
+
+`bryce-1889` — 1 claims
+
+- [ ] `chapter/holy-roman-empire/06-the-tradesmans-circular.mdx` — prose: "The tradesman's circular"
+
+## T. W. Rhys Davids, The Questions of King Milinda
+
+`rhys-davids-1890` — 1 claims
+
+- [ ] `chapter/indo-greek/07-milinda.mdx` — prose: "The king in the Pali book"
+
+## Usama ibn Munqidh, An Arab-Syrian Gentleman and Warrior in the Period of the Crusades (Kitab al-I'tibar)
+
+`usama-hitti` — 1 claims
+
+- [ ] `chapter/jerusalem/03-the-templars-apologise.mdx` — prose: "The Templars apologise"
+
 ## Vladimir Minorsky, Jihan-shah Qara-qoyunlu and his Poetry (Turkmenica 9)
 *In Bulletin of the School of Oriental and African Studies.*
 
 `minorsky-1954` — 1 claims
 
 - [ ] `chapter/karakoyunlu/04-haqiqi.mdx` — prose: "Haqiqi"
+
+## Arrian, The Anabasis of Alexander
+
+`arrian-chinnock` — 1 claims
+
+- [ ] `chapter/macedonian/02-the-march.mdx` — prose: "The march"
 
 ## Thomas Ripper, Die Marwaniden von Diyar Bakr: eine kurdische Dynastie im islamischen Mittelalter
 *In Mitteilungen zur Sozial- und Kulturgeschichte der islamischen Welt.*
@@ -5709,40 +6471,124 @@ ordinary state, not an item to clear.
 
 - [ ] `chapter/marwanid/03-a-kurdish-state.mdx` — prose: "A Kurdish state"
 
+## Juan de Palafox y Mendoza, The History of the Conquest of China by the Tartars
+
+`palafox-tartar` — 1 claims
+
+- [ ] `chapter/ming/08-the-man-who-opened-the-pass.mdx` — prose: "The man who opened the pass"
+
+## William of Rubruck, The Journey of William of Rubruck to the Eastern Parts of the World, 1253-55
+
+`rubruck-rockhill` — 1 claims
+
+- [ ] `chapter/mongol/03-the-silver-tree.mdx` — prose: "The silver tree"
+
+## Babur, The Babur-nama in English (Memoirs of Babur)
+
+`baburnama-beveridge` — 1 claims
+
+- [ ] `chapter/mughal/02-a-country-of-few-charms.mdx` — prose: "A country of few charms"
+
+## François Bernier, Travels in the Mogul Empire, A.D. 1656-1668
+
+`bernier-constable` — 1 claims
+
+- [ ] `chapter/mughal/04-berniers-argument.mdx` — prose: "Bernier's argument"
+
+## Ammianus Marcellinus, The Roman History of Ammianus Marcellinus
+
+`ammianus-yonge` — 1 claims
+
+- [ ] `chapter/nabataean/07-repeated-victories.mdx` — prose: "Repeated victories"
+
+## Leonard William King, The Letters and Inscriptions of Hammurabi, King of Babylon, Volume III
+
+`king-hammurabi` — 1 claims
+
+- [ ] `chapter/old-babylonian/03-judgment-according-to-the-yoke.mdx` — prose: "Judgment according to the yoke"
+
+## Robert Francis Harper, The Code of Hammurabi, King of Babylon, about 2250 B.C.
+
+`harper-1904` — 1 claims
+
+- [ ] `chapter/old-babylonian/07-eight-feet-of-diorite.mdx` — prose: "Eight feet of diorite"
+
+## The Glass Palace Chronicle of the Kings of Burma
+
+`glass-palace-chronicle` — 1 claims
+
+- [ ] `chapter/pagan/03-the-chronicle-and-the-stones.mdx` — prose: "The chronicle, and the stones"
+
+## Zosimus, The History of Count Zosimus
+
+`zosimus-1814` — 1 claims
+
+- [ ] `chapter/palmyrene/04-a-simple-woman.mdx` — prose: "A simple woman"
+
+## Edward G. Browne, The Persian Revolution of 1905-1909
+
+`browne-1910` — 1 claims
+
+- [ ] `chapter/qajar/08-a-poor-attempt-to-trace.mdx` — prose: "A poor attempt to trace"
+
+## Miskawayh and Abu Shuja al-Rudhrawari, The Eclipse of the 'Abbasid Caliphate: Original Chronicles of the Fourth Islamic Century
+
+`miskawayh-margoliouth` — 1 claims
+
+- [ ] `chapter/qarmatian/05-the-terror-was-at-an-end.mdx` — prose: "The terror was at an end"
+
 ## Nasir-i Khusraw, trans. W. M. Thackston, Jr., Naser-e Khosraw's Book of Travels (Safarnama)
 *In Persian Heritage Series 36.*
 
 `thackston-1986` — 1 claims
 
-- [ ] `chapter/qarmatian/04-nasir-i-khusraw.mdx` — prose: "A traveller's description"
+- [ ] `chapter/qarmatian/06-nasir-i-khusraw.mdx` — prose: "A traveller's description"
+
+## Lady Anne Blunt, A Pilgrimage to Nejd, the Cradle of the Arab Race
+
+`blunt-1881` — 1 claims
+
+- [ ] `chapter/rashidi/02-we-soldiers-want-no-water.mdx` — prose: "We soldiers want no water"
 
 ## Martin Hinds, The Murder of the Caliph 'Uthman
 *In International Journal of Middle East Studies 3(4), 450-469.*
 
 `hinds-1972` — 1 claims
 
-- [ ] `chapter/rashidun/05-uthman.mdx` — prose: "Twelve years, and who got the surplus"
+- [ ] `chapter/rashidun/06-uthman.mdx` — prose: "Twelve years, and who got the surplus"
 
 ## Nicolai Sinai, The Qur'an: A Historical-Critical Introduction
 *In The New Edinburgh Islamic Surveys.*
 
 `sinai-2017` — 1 claims
 
-- [ ] `chapter/rashidun/06-the-codex.mdx` — prose: "One reading, and the others burned"
+- [ ] `chapter/rashidun/07-the-codex.mdx` — prose: "One reading, and the others burned"
 
 ## Robert G. Hoyland, Seeing Islam as Others Saw It: A Survey and Evaluation of Christian, Jewish and Zoroastrian Writings on Early Islam
 *In Studies in Late Antiquity and Early Islam 13.*
 
 `hoyland-1997` — 1 claims
 
-- [ ] `chapter/rashidun/08-the-sources.mdx` — prose: "What the neighbours wrote down"
+- [ ] `chapter/rashidun/10-the-sources.mdx` — prose: "What the neighbours wrote down"
 
 ## Peter B. Golden (ed.), trans. Tibor Halasi-Kun and others, The King's Dictionary: The Rasulid Hexaglot — Fourteenth Century Vocabularies in Arabic, Persian, Turkic, Greek, Armenian and Mongol
 *In Handbook of Oriental Studies, Section 8.*
 
 `golden-2000` — 1 claims
 
-- [ ] `chapter/rasulid/05-the-hexaglot.mdx` — prose: "Six languages"
+- [ ] `chapter/rasulid/06-the-hexaglot.mdx` — prose: "Six languages"
+
+## Jalal al-Din Rumi, Selected Poems from the Divani Shamsi Tabriz
+
+`rumi-nicholson-1898` — 1 claims
+
+- [ ] `chapter/rum/07-konya.mdx` — prose: "What was written at Konya"
+
+## Abd al-Rahman al-Sadi, Tarikh es-Soudan
+
+`tarikh-es-soudan-houdas` — 1 claims
+
+- [ ] `chapter/saadi/04-the-salt-mine.mdx` — prose: "The salt mine"
 
 ## Richard N. Frye, Bukhara: The Medieval Achievement
 *In The Centers of Civilization Series.*
@@ -5751,15 +6597,75 @@ ordinary state, not an item to clear.
 
 - [ ] `chapter/samanid/05-what-bukhara-was.mdx` — prose: "What Bukhara was"
 
+## Dosabhai Framji Karaka, History of the Parsis, including their manners, customs, religion and present position
+
+`karaka-1884` — 1 claims
+
+- [ ] `chapter/sasanian/08-the-fire-that-left.mdx` — prose: "The fire that left"
+
+## Serbian oral tradition, Serbian Ballads
+
+`seton-watson-ballads` — 1 claims
+
+- [ ] `chapter/serbia/07-the-field-of-blackbirds.mdx` — prose: "The field of blackbirds"
+
+## Afonso de Albuquerque the younger, The Commentaries of the Great Afonso Dalboquerque, Second Viceroy of India, Part IV
+
+`albuquerque-birch` — 1 claims
+
+- [ ] `chapter/tahirid-yemen/04-this-orchard.mdx` — prose: "This orchard"
+
+## Xuanzang, Si-yu-ki: Buddhist Records of the Western World
+
+`siyuki-beal` — 1 claims
+
+- [ ] `chapter/tang/02-the-monk-who-left-illegally.mdx` — prose: "The monk who left illegally"
+
+## Zahir al-Din Muhammad Babur, The Babur-nama in English (Memoirs of Babur)
+
+`babur-beveridge` — 1 claims
+
+- [ ] `chapter/timurid/09-a-cow-and-a-road.mdx` — prose: "A cow and a road"
+
+## Ruy Gonzalez de Clavijo, Narrative of the Embassy to the Court of Timour at Samarcand
+
+`clavijo-markham` — 1 claims
+
+- [ ] `chapter/trebizond/04-the-bakers-son.mdx` — prose: "The baker's son"
+
 ## Hugh Kennedy, The Great Arab Conquests: How the Spread of Islam Changed the World We Live In
 
 `kennedy-2007` — 1 claims
 
 - [ ] `chapter/umayyad/03-the-second-wave.mdx` — prose: "Three frontiers in one decade"
 
+## G. M. Trevelyan, Manin and the Venetian Revolution of 1848
+
+`trevelyan-1923` — 1 claims
+
+- [ ] `chapter/venice/07-the-wooden-lion.mdx` — prose: "The wooden lion"
+
+## Gregory of Tours, History of the Franks
+
+`gregory-brehaut` — 1 claims
+
+- [ ] `chapter/visigothic/02-as-was-their-custom.mdx` — prose: "As was their custom"
+
+## William Francklin, Observations Made on a Tour from Bengal to Persia in the Years 1786-7
+
+`francklin-1790` — 1 claims
+
+- [ ] `chapter/zand/05-the-present-possessor.mdx` — prose: "The present possessor of Shiraz"
+
 ## Bernard Haykel, Revival and Reform in Islam: The Legacy of Muhammad al-Shawkani
 *In Cambridge Studies in Islamic Civilization.*
 
 `haykel-2003` — 1 claims
 
-- [ ] `chapter/zaydi-yemen/04-the-dynasty-problem.mdx` — prose: "An open office that became a family's"
+- [ ] `chapter/zaydi-yemen/05-the-dynasty-problem.mdx` — prose: "An open office that became a family's"
+
+## Central Intelligence Agency, Office of Current Intelligence, Current Intelligence Memorandum: The Situation in Yemen
+
+`cia-1963-yemen` — 1 claims
+
+- [ ] `chapter/zaydi-yemen/08-the-northern-hinterland.mdx` — prose: "The northern hinterland"

@@ -645,11 +645,22 @@ export function edgesInRegion(id: string): Edge[] {
 /**
  * Regions arranged on their browsing shelves, for the contents nav.
  *
- * Groups come back in the fixed order declared in `lib/types.ts`; regions
- * inside a group come back oldest first, by the earliest polity standing in
- * them, so each shelf reads forwards. An empty group is dropped rather than
- * rendered as a heading with nothing under it — a group is furniture and has
- * no gap to declare, unlike every other absence on this site.
+ * Groups come back in the fixed order declared in `lib/types.ts`; regions come
+ * back in `regions.yaml` order, which is curated.
+ *
+ * They used to be sorted by the earliest polity standing in them, and that was
+ * wrong twice over. It interleaved geographies a reader holds apart — the
+ * subcontinent and the archipelago alternated down one shelf because Angkor is
+ * older than the Delhi Sultanate — and it read a region by its start year
+ * alone, so the Caucasus, which runs from 302 BC to 1859, sorted as an ancient
+ * region. The argument against computing this is already written above
+ * REGION_GROUPS and applies with equal force one level down: a reader learns
+ * where a thing sits, and an ordering that moves whenever an old polity is
+ * added somewhere is furniture that will not stay still.
+ *
+ * An empty group is dropped rather than rendered as a heading with nothing
+ * under it — a group is furniture and has no gap to declare, unlike every
+ * other absence on this site.
  *
  * There is deliberately no `edgesInGroup`. Succession is scoped to a region.
  */
@@ -657,17 +668,30 @@ export function regionsByGroup(
   filter: (r: Region) => boolean = () => true,
 ): { id: string; name: string; regions: Region[] }[] {
   const { regions } = loadCorpus()
-  const earliest = (r: Region) => {
-    const ps = politiesInRegion(r.id)
-    return ps.length ? Math.min(...ps.map((p) => p.span.start.min)) : Infinity
-  }
   return REGION_GROUPS.map((g) => ({
     id: g.id,
     name: g.name,
-    regions: regions
-      .filter((r) => r.group === g.id && filter(r))
-      .sort((a, b) => earliest(a) - earliest(b)),
+    regions: regions.filter((r) => r.group === g.id && filter(r)),
   })).filter((g) => g.regions.length > 0)
+}
+
+/**
+ * Whether a region has anything to show a reader yet.
+ *
+ * A region is written into `regions.yaml` before its polities are, which is
+ * the workflow this repository requires: the shelf goes up, then the records
+ * go on it one at a time. Between those two moments the region exists in the
+ * data and must not exist on the page. Rendering it would put "0 polities" in
+ * front of a reader, which is hard rule 12 exactly — a fact about the state of
+ * the collection, dressed as a fact about the past.
+ */
+export function isPopulatedRegion(id: string): boolean {
+  return politiesInRegion(id).some((p) => !p.context_only)
+}
+
+/** Regions with at least one polity. The only list a reader should ever see. */
+export function populatedRegions(): Region[] {
+  return loadCorpus().regions.filter((r) => isPopulatedRegion(r.id))
 }
 
 /** Regions that can be walked end to end. May legitimately be empty. */

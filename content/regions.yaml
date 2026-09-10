@@ -26,15 +26,46 @@
 # Renaming a group costs nothing because a group has no page and no route,
 # which is the whole point of the paragraph above.
 regions:
-  - id: iranian-intermezzo
-    name: The Iranian Intermezzo
+
+  # Split from `ancient-near-east`, which had reached thirteen records and eight
+  # disconnected clusters. Egypt is the cleanest piece to lift out: it is a
+  # river valley with its own chronology, its own script and its own list of
+  # dynasties, and it was joined to Assyria and Elam on one shelf only because
+  # all three are old.
+  - id: ancient-egypt
+    name: Ancient Egypt
     blurb: >-
-      The Persianate dynasties between the fading of direct Abbasid rule and the
-      Mongol arrival — Khurasan, Transoxiana and the Iranian plateau. Dense with
-      succession: slave-generals taking their masters' provinces, vassals
-      swallowing overlords, governors inheriting the empire that appointed them.
-    group: iranian-plateau
+      Three thousand years of one country, kept together by a river that floods
+      on schedule. Egypt is the state that other ancient states are measured
+      against — the earliest with a bureaucracy, a surveyed tax base and a
+      settled idea of what a king was for — and it broke apart and reassembled
+      on roughly the same ground more than once.
+    group: near-east
+    thread: false
+
+  - id: mesopotamia
+    name: Mesopotamia
+    blurb: >-
+      The land between the rivers, where the territorial empire was invented and
+      then rebuilt about once a millennium on the same two hundred miles of
+      alluvium. Akkad, Ur, Babylon and Assyria each claimed the last one's
+      titles; the argument over which of them was an empire at all is older than
+      most of the states in this collection.
+    group: near-east
     thread: true
+
+  # The third piece of the old `ancient-near-east`. Hatti sat on the Anatolian
+  # plateau and Urartu around Lake Van — mountain powers that fought the
+  # lowland empires and were not of them.
+  - id: hatti-and-the-highlands
+    name: Hatti and the Highlands
+    blurb: >-
+      The powers of the high country north and east of the plain: a chariot
+      empire on the Anatolian plateau that treated with Egypt as an equal, and a
+      kingdom around Lake Van that outlasted the Assyrian army sent to end it.
+      Both were written out of history until their own archives were dug up.
+    group: near-east
+    thread: false
 
   # Membership rule, stated because it is not obvious and was not being
   # applied: this region holds polities whose whole basis was a claim on the
@@ -54,49 +85,6 @@ regions:
       a polity that says the office was usurped is not its heir, and no edge
       joins them.
     group: near-east
-    thread: true
-
-  # Blurb widened. The four imperial records are still the spine, but the
-  # region also holds the polities that took pieces of the plateau and did not
-  # claim to be continuing anything — a Greek kingdom in Bactria and a steppe
-  # confederation that killed a Sasanian king of kings — and a blurb naming only
-  # the succession described the thread rather than the region.
-  - id: pre-islamic-iran
-    name: Iran before Islam
-    blurb: >-
-      Twelve centuries before the Arab conquests. Four empires held roughly the
-      same plateau and each claimed, in different terms, to be continuing the
-      last — Achaemenid, Seleucid, Parthian, Sasanian — and around them are the
-      powers that took pieces of it and claimed nothing: a Greek kingdom on the
-      Oxus, and the steppe confederation that broke the Sasanian frontier from
-      the one direction the Roman wars make invisible.
-    group: iranian-plateau
-    thread: true
-
-  - id: mongol-world
-    name: The Mongol World
-    blurb: >-
-      The largest contiguous land empire ever assembled, the four successor
-      khanates it broke into within two generations, and the Chinggisid houses
-      still ruling on the strength of that descent three centuries later.
-    group: steppe-east-asia
-    thread: true
-
-  - id: indian-sultanates
-    name: The Indian Sultanates
-    blurb: >-
-      Turkic and Afghan rule in northern India, founded by a Ghurid
-      slave-general and outlasting every polity that produced it.
-    group: south-asia
-    thread: true
-
-  - id: islamic-west
-    name: The Islamic West
-    blurb: >-
-      The Maghreb and al-Andalus — the provinces that left the caliphate
-      earliest and stayed gone, and the Berber empires that later ruled both
-      shores of the strait.
-    group: africa-maghreb
     thread: true
 
   # Split from a single `central-lands` region that had grown to fifteen
@@ -136,258 +124,46 @@ regions:
     group: near-east
     thread: true
 
-  # Membership is the peninsula, not a lineage. That needs saying because the
-  # blurb previously described the Sultanate of Rum and nothing else, in a
-  # region where the Ottomans account for six hundred and twenty-three of the
-  # eight hundred and forty-five years.
-  - id: anatolia
-    name: Anatolia
+  # Also split out of `ancient-near-east`, and filed on the Iranian plateau
+  # rather than in the Near East, because that is where it is. Elam is
+  # Khuzestan and the Zagros valleys above it — the same country, and in places
+  # the same cities, that the Achaemenids later governed from.
+  - id: elam
+    name: Elam
     blurb: >-
-      The peninsula after Manzikert, which took four hundred years to stop
-      being contested. A Seljuk branch organised the plateau and was broken by
-      the Mongols; the marches it could no longer hold filled with Turkmen
-      principalities; Greek and Armenian states survived on the coasts and in
-      the mountains, one of them outlasting Constantinople itself. The polity
-      that eventually took all of it began as the smallest of the
-      principalities and is the reason the rest are usually left out.
-    group: mediterranean
-    thread: true
-
-  # Split out of `byzantium-and-the-latin-west`, which held both of these and
-  # was named after four of its eight records. The name had been wrong for a
-  # while — it carried the Roman empire, which precedes both halves of it, and
-  # the Holy Roman Empire, which is neither Byzantium nor Latin in the sense the
-  # name intended — and it was about to get worse, because the post-Roman
-  # kingdoms are none of those things either.
-  #
-  # The cost was measured before the split rather than after: of the nine
-  # internal edges the old region had, six survive here and in the Latin West,
-  # and the three that do not are precisely the three that crossed between the
-  # two halves — `roman -> carolingian`, `roman -> holy-roman-empire` and
-  # `byzantine -> venice`. Those are claims and secessions across a boundary
-  # rather than sequences within one, which is what a thread is a picture of.
-  # They are still in edges.yaml and still on both pages; they are simply not
-  # drawn.
-  #
-  # Five internal edges here. Three of the four records carry `election` in
-  # their succession or legitimation fields, and the same is true of the Latin
-  # West — the old region's six of eight, which survives the split evenly, and
-  # the two records that do not carry it are the two hereditary ones.
-  - id: rome-and-byzantium
-    name: Rome and Byzantium
-    blurb: >-
-      The Roman empire, the eastern half that outlived it by a thousand years,
-      and the two governments that held or claimed Constantinople in the
-      fifty-seven years the Fourth Crusade took it away. One continuous object
-      that this site is obliged to cut into four records, and every page here
-      says so.
-    group: mediterranean
-    thread: true
-
-  # The other half of the split, and the half the four post-Roman kingdoms went
-  # into. Nine records and three internal edges — `lombard -> carolingian` in
-  # 774, `carolingian -> holy-roman-empire` in 962 and `norman-sicily ->
-  # holy-roman-empire` in 1194 — which is thin and is the honest picture. This
-  # is not a sequence. It is a set of states assembled out of the same wreckage,
-  # and six of the nine are ended by powers outside the region: the Visigoths by
-  # the Umayyads, the Vandals and Ostrogoths by Byzantium, the Holy Roman Empire
-  # and both republics by Revolutionary France.
-  #
-  # Five of the nine carry `election` in a succession or legitimation field.
-  # The observation was first made when this region and Rome and Byzantium were
-  # one, at six of eight, and it has now survived a split and the addition of
-  # five records nobody would have predicted it of.
-  #
-  # Three of them — Carolingian, Holy Roman and Lombard — carry a data
-  # comment saying the `revenue_basis` vocabulary has no value for a state
-  # living off the ruler's own property, which is the defining institutional
-  # fact about post-Roman western Europe. The Visigothic and Ostrogothic
-  # records, which kept a Roman land tax running, are the control group. Three
-  # is not the nine that produced the `investiture` value and it is no longer a
-  # one-off.
-  - id: latin-west
-    name: The Latin West
-    blurb: >-
-      What the western Roman provinces became: four kingdoms assembled out of
-      them by armies that had been inside the empire, two later attempts to have
-      a Roman emperor again, and the maritime republics that grew up alongside
-      and were richer than any of them.
-    group: mediterranean
-    thread: true
-
-  # Added with `thread: false` for the two Bulgarian records, per the workflow
-  # rule in CLAUDE.md: a region enters with the flag off and it is flipped only
-  # once real sourced edges join two of its polities. There are none here and
-  # there may never be: the two records are one state seen twice across a
-  # hundred and sixty-seven years of Byzantine rule, and that relation is the
-  # `resumes` field rather than an edge. Both Bulgarias end against powers
-  # outside the region, Byzantium in 1018 and the Ottomans in 1396.
-  #
-  # Bulgaria was named in the prose of eight records before it had one of its
-  # own, which is what brought it in. Serbia is named on three and the Rus on
-  # two, and both belong here when they come.
-  - id: the-balkans
-    name: The Balkans
-    blurb: >-
-      The states between the Danube and the Aegean that Constantinople converted
-      and then had to live beside: powers in their own right for stretches of
-      two or three generations, and the ground every empire on either side
-      needed to hold and could not.
-    group: mediterranean
+      The oldest state on the Iranian side of the Zagros, and the one the rest
+      of Iran was built on top of: Susa was an administrative capital for two
+      thousand years before Cyrus, and the Achaemenids kept its language, its
+      scribes and its clay.
+    group: iranian-plateau
     thread: false
 
-  - id: east-asia
-    name: East Asia
+  # Blurb widened. The four imperial records are still the spine, but the
+  # region also holds the polities that took pieces of the plateau and did not
+  # claim to be continuing anything — a Greek kingdom in Bactria and a steppe
+  # confederation that killed a Sasanian king of kings — and a blurb naming only
+  # the succession described the thread rather than the region.
+  - id: pre-islamic-iran
+    name: Iran before Islam
     blurb: >-
-      Tang China and the conquest dynasties of the northern frontier — the
-      other end of the Silk Road, and the only states of the period comparable
-      in scale to the caliphate.
-    group: steppe-east-asia
+      Twelve centuries before the Arab conquests. Four empires held roughly the
+      same plateau and each claimed, in different terms, to be continuing the
+      last — Achaemenid, Seleucid, Parthian, Sasanian — and around them are the
+      powers that took pieces of it and claimed nothing: a Greek kingdom on the
+      Oxus, and the steppe confederation that broke the Sasanian frontier from
+      the one direction the Roman wars make invisible.
+    group: iranian-plateau
     thread: true
 
-  - id: inner-asia
-    name: Inner Asia
+  - id: iranian-intermezzo
+    name: The Iranian Intermezzo
     blurb: >-
-      The steppe and plateau powers between the caliphate and China: Tibetan,
-      Uyghur and Khazar, each of which shaped the others' frontiers.
-    group: steppe-east-asia
+      The Persianate dynasties between the fading of direct Abbasid rule and the
+      Mongol arrival — Khurasan, Transoxiana and the Iranian plateau. Dense with
+      succession: slave-generals taking their masters' provinces, vassals
+      swallowing overlords, governors inheriting the empire that appointed them.
+    group: iranian-plateau
     thread: true
-
-  # `maritime-asia` was one region and reached twenty-two records, which made it
-  # the largest on this site by eight — the next is fourteen. It is now three.
-  #
-  # The split cost one edge of fifteen: `srivijaya -> singhasari`, the Pamalayu
-  # of 1275, which is the only edge that ever crossed between Sumatra and Java
-  # and which the Medang record's second chapter already described as the one
-  # connection between two halves that barely touch, three centuries late. It
-  # stays in edges.yaml and is now drawn by no thread, like every other edge on
-  # this site whose ends fall in different regions.
-  #
-  # Java keeps ten edges and the peninsula four. The eastern archipelago has
-  # none and never had any — Ternate and Tidore are contemporaries whose
-  # relationship runs sideways, Makassar was ended by a polity with no page,
-  # Brunei and Sulu succeeded nothing here. `thread: false` on it is the
-  # ordinary state hard rule 7 describes and not a defect.
-  #
-  # What the split does not change is the count of things that are true about
-  # the archipelago rather than about a region: ten records carrying Sunni Islam
-  # in one movement from Pasai outward, fourteen with an empty `ended.by`, nine
-  # coded `client-levy` for sea peoples nobody commanded, and not one carrying a
-  # reach figure. Those were always facts about a corpus and a sea, and the
-  # chapters that count them now say so.
-  - id: sumatra-and-the-peninsula
-    name: Sumatra and the Peninsula
-    blurb: >-
-      The strait, and the states that lived on it: a thousand years of one
-      passage between the Indian Ocean and the South China Sea changing hands,
-      from Srivijaya to the sultanates that inherited its position and its sea
-      peoples.
-    group: south-asia
-    thread: true
-
-  - id: java-and-bali
-    name: Java and Bali
-    blurb: >-
-      One island's rice, and the seven hundred years of kingdoms that lived on
-      it — an unbroken sequence from the Brantas valley to the division of
-      Mataram, plus the western kingdom that was never part of it and the
-      Balinese court that inherited what Java gave up.
-    group: south-asia
-    thread: true
-
-  - id: the-eastern-archipelago
-    name: The Eastern Archipelago
-    blurb: >-
-      Sulawesi, Maluku, Borneo and Sulu: the far side of the sea route, where
-      the cloves grew on five islands, the last open port was destroyed for
-      being open, and Islam reached its eastern and northern limits.
-    group: south-asia
-    thread: false
-
-  # New in this pass, and `thread: false` deliberately.
-  #
-  # There is already a sourced internal edge here — `angkor -> ayutthaya`,
-  # `conquered by`, 1431 — which means the flag could be flipped today and the
-  # build would accept it. The project's own instructions say not to: add a
-  # region with `thread: false`, add its polities one at a time, and flip the
-  # flag in a later pass once the edges are real. The rule exists because a
-  # thread added in the same breath as its region is a picture drawn before
-  # anybody has checked whether there is anything to draw. It is being followed
-  # here even though the edge is already sitting in edges.yaml.
-  #
-  # The region exists because the old single Maritime Asia region — since split
-  # into three — could not hold these. Its blurb said its polities lived on
-  # controlling straits instead of territory,
-  # which is exactly what Angkor, Pagan and Dai Viet did not do — they were rice
-  # states on four river systems, and the largest of them never touched the sea
-  # route at all. Champa is the exception that shows the boundary is real: it
-  # sat on the coast between them, lived on the passing trade like a maritime
-  # polity, and was eaten by a land one.
-  - id: mainland-southeast-asia
-    name: Mainland Southeast Asia
-    blurb: >-
-      The rice states of the peninsula — the Irrawaddy, the Chao Phraya, the
-      Mekong and the Red River — which built on a scale nothing in the islands
-      matched and mostly ignored the sea route that made the islands rich, plus
-      the coast between them that did not.
-    group: south-asia
-    thread: false
-
-  # `africa` was one region with twelve records and three internal edges, and
-  # the argument for splitting it was written on this file for several passes
-  # before it was acted on: the clusters had nothing to do with each other, no
-  # edge crossed between them, and none ever could, because Aksum and Mali have
-  # nothing to do with each other.
-  #
-  # It is now three regions. The split cost zero edges — all three internal
-  # edges are inside one of the new regions, and the three edges that leave
-  # Africa (`saba -> ethiopia`, `himyar -> aksum`, `songhai -> saadi`) already
-  # crossed a region boundary and were already not drawn by any thread.
-  #
-  # What the split does not fix is the thinness, and it makes it easier to see
-  # rather than harder: West Africa has five records for a region that should
-  # have Benin, Oyo, the Hausa city-states, the Sokoto caliphate and Kongo, and
-  # the Zimbabwe plateau and its coast have two. Hard rule 8 exists so that
-  # entries like these are not second-class once they arrive; what the rule
-  # cannot do is get them written.
-  #
-  # Nine of the twelve records still have an empty `ended.by`, and that fact
-  # belongs to the continent rather than to any of the three regions, which is
-  # why the Asante and Kanem-Bornu chapters that count it now count it across
-  # all three.
-  - id: west-africa
-    name: West Africa
-    blurb: >-
-      The Sahel and the forest below it: states that lived on the crossing
-      charge for gold going north and salt coming south, from Ghana on the
-      upper Senegal to Asante on the Volta, over a thousand years of the same
-      trade changing hands.
-    group: africa-maghreb
-    thread: true
-
-  - id: the-nile-and-the-horn
-    name: The Nile and the Horn
-    blurb: >-
-      Two Christian worlds either side of the Red Sea's southern end — Kush,
-      Makuria and Alodia on the middle Nile, Aksum and its successor in the
-      Ethiopian highlands — which outlasted the empires that converted them and
-      were reached by Islam last.
-    group: africa-maghreb
-    thread: true
-
-  # `thread: false` and ordinary. Two records with no edge between them, and
-  # there is no edge to draw: Kilwa sold the gold that Great Zimbabwe's plateau
-  # produced, which is a trading relationship and not a succession. Hard rule 7
-  # says a region without a thread is a normal region, and this is what one
-  # looks like.
-  - id: zimbabwe-and-the-coast
-    name: The Zimbabwe Plateau and the Swahili Coast
-    blurb: >-
-      One inland stone capital and one island port, four hundred miles and a
-      river apart, joined by a single commodity: the gold of the plateau, which
-      left Africa through Sofala and Kilwa and paid for both of them.
-    group: africa-maghreb
-    thread: false
 
   # Extended past 1736. The blurb previously ended at "the dynasty that made it
   # Shi'i", which described the corpus rather than the country: the Safavid
@@ -405,26 +181,21 @@ regions:
     group: iranian-plateau
     thread: true
 
-  # Thirteen records and five internal edges, the oldest in the corpus:
-  # `akkadian -> ur-iii` in 2112 BC, `old-babylonian -> hittite` in 1595,
-  # `mitanni -> middle-assyrian` in 1260, `neo-elamite -> neo-assyrian` in 645,
-  # `neo-assyrian -> neo-babylonian` in 612. What the thread cannot draw is the
-  # region's own organising fact: Babylon is here twice, Assyria twice and Elam
-  # twice, and in each pair the later record is the same ground and the same gods
-  # resuming after a dark age — neither a succession nor a claim. That relation
-  # is carried by the `resumes` field on the later record of each pair, and
-  # deliberately not by an edge: it has no date, and a thread is a picture of
-  # succession. Both Egypts, the Middle Elamite kingdom and Urartu have no edge
-  # in either direction at all.
-  - id: ancient-near-east
-    name: The Ancient Near East
+  # Added with thread: false for a single polity, and flipped once real sourced
+  # edges joined members of it, per the workflow rule. There is exactly one
+  # internal edge — shaddadid -> georgia, 1199 — and the thread draws it and
+  # nothing else. That is not a thin result waiting to be filled: five polities
+  # and one succession between any two of them is what this ground produced.
+  # Everything else here goes outward, to Byzantium, to Cilicia, to the Seljuks,
+  # to the Safavids, which is the whole argument of the region's blurb.
+  - id: caucasus
+    name: The Caucasus
     blurb: >-
-      The first territorial empires, and the argument that any of them was an
-      empire at all — Akkad and Ur, Babylon twice, Assyria twice, Elam twice,
-      Egypt before and after the pyramids, Mitanni, Hatti and Urartu. A few
-      places kept producing states, separated by dark ages rather than by
-      successions, which is why the thread here is thin and should be.
-    group: near-east
+      The isthmus between the Black Sea and the Caspian: a corridor every empire
+      on either side wanted, none could cheaply hold, and all of them marched
+      through — where local houses survived by being expensive to take and
+      useful to leave alone.
+    group: iranian-plateau
     thread: true
 
   # Split three ways from a single `arabia` region. That region had fifteen
@@ -474,14 +245,6 @@ regions:
     group: arabia
     thread: true
 
-  - id: classical-india
-    name: Classical India
-    blurb: >-
-      Maurya, Kushan and Gupta — the subcontinental empires that carried
-      Buddhism out of India and set the terms of its classical culture.
-    group: south-asia
-    thread: false
-
   # Added with thread: false, per the workflow rule. Ptolemaic Egypt had
   # nowhere to go: "Iran before Islam" holds the Macedonians and the Seleucids
   # because they held the plateau, and Egypt never did; "The Ancient Near East"
@@ -513,19 +276,393 @@ regions:
     group: mediterranean
     thread: true
 
-  # Added with thread: false for a single polity, and flipped once real sourced
-  # edges joined members of it, per the workflow rule. There is exactly one
-  # internal edge — shaddadid -> georgia, 1199 — and the thread draws it and
-  # nothing else. That is not a thin result waiting to be filled: five polities
-  # and one succession between any two of them is what this ground produced.
-  # Everything else here goes outward, to Byzantium, to Cilicia, to the Seljuks,
-  # to the Safavids, which is the whole argument of the region's blurb.
-  - id: caucasus
-    name: The Caucasus
+  # Split out of `byzantium-and-the-latin-west`, which held both of these and
+  # was named after four of its eight records. The name had been wrong for a
+  # while — it carried the Roman empire, which precedes both halves of it, and
+  # the Holy Roman Empire, which is neither Byzantium nor Latin in the sense the
+  # name intended — and it was about to get worse, because the post-Roman
+  # kingdoms are none of those things either.
+  #
+  # The cost was measured before the split rather than after: of the nine
+  # internal edges the old region had, six survive here and in the Latin West,
+  # and the three that do not are precisely the three that crossed between the
+  # two halves — `roman -> carolingian`, `roman -> holy-roman-empire` and
+  # `byzantine -> venice`. Those are claims and secessions across a boundary
+  # rather than sequences within one, which is what a thread is a picture of.
+  # They are still in edges.yaml and still on both pages; they are simply not
+  # drawn.
+  #
+  # Five internal edges here. Three of the four records carry `election` in
+  # their succession or legitimation fields, and the same is true of the Latin
+  # West — the old region's six of eight, which survives the split evenly, and
+  # the two records that do not carry it are the two hereditary ones.
+  - id: rome-and-byzantium
+    name: Rome and Byzantium
     blurb: >-
-      The isthmus between the Black Sea and the Caspian: a corridor every empire
-      on either side wanted, none could cheaply hold, and all of them marched
-      through — where local houses survived by being expensive to take and
-      useful to leave alone.
-    group: iranian-plateau
+      The Roman empire, the eastern half that outlived it by a thousand years,
+      and the two governments that held or claimed Constantinople in the
+      fifty-seven years the Fourth Crusade took it away. One continuous object
+      that this site is obliged to cut into four records, and every page here
+      says so.
+    group: mediterranean
     thread: true
+
+  # Membership is the peninsula, not a lineage. That needs saying because the
+  # blurb previously described the Sultanate of Rum and nothing else, in a
+  # region where the Ottomans account for six hundred and twenty-three of the
+  # eight hundred and forty-five years.
+  - id: anatolia
+    name: Anatolia
+    blurb: >-
+      The peninsula after Manzikert, which took four hundred years to stop
+      being contested. A Seljuk branch organised the plateau and was broken by
+      the Mongols; the marches it could no longer hold filled with Turkmen
+      principalities; Greek and Armenian states survived on the coasts and in
+      the mountains, one of them outlasting Constantinople itself. The polity
+      that eventually took all of it began as the smallest of the
+      principalities and is the reason the rest are usually left out.
+    group: mediterranean
+    thread: true
+
+  # Split from `latin-west`, which held nine records in six disconnected pieces
+  # and was doing three jobs. This is the first: the kingdoms the western
+  # provinces turned into. They have no edges between them because they had no
+  # succession between them — every one of them takes its predecessor edge from
+  # Rome, and Rome is a region away.
+  - id: post-roman-west
+    name: The Post-Roman West
+    blurb: >-
+      What the western provinces became when there was no longer anyone in
+      Ravenna to send taxes to: Gothic, Vandal and Lombard kingdoms governing
+      Roman populations with Roman law and their own armies, none of them
+      claiming to have replaced the empire and all of them behaving as though
+      they had.
+    group: mediterranean
+    thread: false
+
+  - id: frankish-world
+    name: The Frankish World
+    blurb: >-
+      The one western kingdom that did claim to have replaced the empire, and
+      the thing it turned into. A Frankish king was crowned emperor in Rome in
+      800 and the title outlived his dynasty, his kingdom and the division of
+      his inheritance by a thousand years.
+    group: mediterranean
+    thread: true
+
+  # The third piece of `latin-west`. Two merchant republics and a Norman
+  # kingdom is a thin start, but it is the right shape: these are states whose
+  # power came from ports and fleets rather than from land, which is the thing
+  # that separates them from everything else on the shelf.
+  - id: italy
+    name: Italy and the Sea Republics
+    blurb: >-
+      The peninsula that the empire was named after and never governed again,
+      and the cities on it that grew rich carrying other people's wars. Venice
+      and Genoa held quarters in every port that mattered from the Black Sea to
+      Alexandria, fought each other for two centuries over the right to do it,
+      and outlasted most of the kingdoms they supplied.
+    group: mediterranean
+    thread: false
+
+  # Added with `thread: false` for the two Bulgarian records, per the workflow
+  # rule in CLAUDE.md: a region enters with the flag off and it is flipped only
+  # once real sourced edges join two of its polities. There are none here and
+  # there may never be: the two records are one state seen twice across a
+  # hundred and sixty-seven years of Byzantine rule, and that relation is the
+  # `resumes` field rather than an edge. Both Bulgarias end against powers
+  # outside the region, Byzantium in 1018 and the Ottomans in 1396.
+  #
+  # Bulgaria was named in the prose of eight records before it had one of its
+  # own, which is what brought it in. Serbia is named on three and the Rus on
+  # two, and both belong here when they come.
+  - id: the-balkans
+    name: The Balkans
+    blurb: >-
+      The states between the Danube and the Aegean that Constantinople converted
+      and then had to live beside: powers in their own right for stretches of
+      two or three generations, and the ground every empire on either side
+      needed to hold and could not.
+    group: northern-and-eastern-europe
+    thread: false
+
+  - id: eastern-europe
+    name: Eastern Europe and the Rus'
+    blurb: >-
+      The country between the Latin west and the steppe, where the frontier ran
+      the wrong way: these were states with open grassland on one side and
+      forest on the other, taking their letters and their liturgy from
+      Constantinople and their politics from whoever was riding out of the east
+      that century.
+    group: northern-and-eastern-europe
+    thread: false
+
+  - id: islamic-west
+    name: The Islamic West
+    blurb: >-
+      The Maghreb and al-Andalus — the provinces that left the caliphate
+      earliest and stayed gone, and the Berber empires that later ruled both
+      shores of the strait.
+    group: africa-maghreb
+    thread: true
+
+  - id: the-nile-and-the-horn
+    name: The Nile and the Horn
+    blurb: >-
+      Two Christian worlds either side of the Red Sea's southern end — Kush,
+      Makuria and Alodia on the middle Nile, Aksum and its successor in the
+      Ethiopian highlands — which outlasted the empires that converted them and
+      were reached by Islam last.
+    group: africa-maghreb
+    thread: true
+
+  # `africa` was one region with twelve records and three internal edges, and
+  # the argument for splitting it was written on this file for several passes
+  # before it was acted on: the clusters had nothing to do with each other, no
+  # edge crossed between them, and none ever could, because Aksum and Mali have
+  # nothing to do with each other.
+  #
+  # It is now three regions. The split cost zero edges — all three internal
+  # edges are inside one of the new regions, and the three edges that leave
+  # Africa (`saba -> ethiopia`, `himyar -> aksum`, `songhai -> saadi`) already
+  # crossed a region boundary and were already not drawn by any thread.
+  #
+  # What the split does not fix is the thinness, and it makes it easier to see
+  # rather than harder: West Africa has five records for a region that should
+  # have Benin, Oyo, the Hausa city-states, the Sokoto caliphate and Kongo, and
+  # the Zimbabwe plateau and its coast have two. Hard rule 8 exists so that
+  # entries like these are not second-class once they arrive; what the rule
+  # cannot do is get them written.
+  #
+  # Nine of the twelve records still have an empty `ended.by`, and that fact
+  # belongs to the continent rather than to any of the three regions, which is
+  # why the Asante and Kanem-Bornu chapters that count it now count it across
+  # all three.
+  - id: west-africa
+    name: West Africa
+    blurb: >-
+      The Sahel and the forest below it: states that lived on the crossing
+      charge for gold going north and salt coming south, from Ghana on the
+      upper Senegal to Asante on the Volta, over a thousand years of the same
+      trade changing hands.
+    group: africa-maghreb
+    thread: true
+
+  - id: central-africa
+    name: Central Africa
+    blurb: >-
+      The kingdoms of the equatorial forest and the savanna south of it, along
+      the Congo and its tributaries — states with capitals of tens of thousands
+      of people, and almost no written record of their own until outsiders
+      arrived with one.
+    group: africa-maghreb
+    thread: false
+
+  # `thread: false` and ordinary. Two records with no edge between them, and
+  # there is no edge to draw: Kilwa sold the gold that Great Zimbabwe's plateau
+  # produced, which is a trading relationship and not a succession. Hard rule 7
+  # says a region without a thread is a normal region, and this is what one
+  # looks like.
+  - id: zimbabwe-and-the-coast
+    name: The Zimbabwe Plateau and the Swahili Coast
+    blurb: >-
+      One inland stone capital and one island port, four hundred miles and a
+      river apart, joined by a single commodity: the gold of the plateau, which
+      left Africa through Sofala and Kilwa and paid for both of them.
+    group: africa-maghreb
+    thread: false
+
+  # Was `inner-asia`. Renamed and narrowed when Tibet was lifted out: a plateau
+  # empire with its own script, religion and agriculture is not a steppe power
+  # and shared no succession with one. What is left is a single connected
+  # tradition — the Ashina khaganates and what claimed descent from them — which
+  # is what the edges in this collection actually draw, from Mongolia to the
+  # Volga.
+  - id: turkic-steppe
+    name: The Turkic Steppe
+    blurb: >-
+      The grassland from Manchuria to the Danube, and the confederations that
+      governed it by being able to leave. A khaganate on the Orkhon could put
+      more cavalry in the field than any settled state and could not hold a
+      city; the ones that lasted longest were the ones that learned to tax a
+      trade route instead.
+    group: steppe-east-asia
+    thread: true
+
+  - id: tibet
+    name: Tibet and the Himalaya
+    blurb: >-
+      The plateau, which is high enough that the empires around it could not
+      campaign on it and cold enough that it fed itself. For a century and a
+      half Tibet took territory from Tang China and the caliphate at the same
+      time, and then turned into something no other polity here became: a
+      country governed by its monasteries.
+    group: steppe-east-asia
+    thread: false
+
+  - id: mongol-world
+    name: The Mongol World
+    blurb: >-
+      The largest contiguous land empire ever assembled, the four successor
+      khanates it broke into within two generations, and the Chinggisid houses
+      still ruling on the strength of that descent three centuries later.
+    group: steppe-east-asia
+    thread: true
+
+  # Was `east-asia`, which was a continental name over six Chinese dynasties.
+  # Korea and Japan have their own shelf now and are empty on it, which is
+  # honest; the old name implied they were covered.
+  - id: china
+    name: China
+    blurb: >-
+      The longest continuous imperial tradition anywhere, and the argument about
+      whether it is one state seen many times or many states using one name.
+      Every dynasty here inherited a bureaucracy, a script and a claim to a
+      mandate that could be lost — including the ones that arrived from the
+      steppe and governed two populations under two administrations.
+    group: steppe-east-asia
+    thread: true
+
+  - id: korea-and-japan
+    name: Korea and Japan
+    blurb: >-
+      The two states that took Chinese writing, Chinese law and Chinese
+      Buddhism and stayed separate anyway. Both produced dynastic lines longer
+      than anything on the mainland — one court on the Korean peninsula ruled
+      for five hundred years, and the Japanese imperial house has never been
+      replaced, only sidelined.
+    group: steppe-east-asia
+    thread: false
+
+  - id: classical-india
+    name: Classical India
+    blurb: >-
+      Maurya, Kushan and Gupta — the subcontinental empires that carried
+      Buddhism out of India and set the terms of its classical culture.
+    group: south-asia
+    thread: false
+
+  - id: northern-india
+    name: Northern India
+    blurb: >-
+      The Gangetic plain between the classical empires and the sultanates, and
+      the powers that fought over it: three great kingdoms contending for one
+      city for two centuries, and the regional states that outlived all three.
+    group: south-asia
+    thread: false
+
+  - id: the-deccan
+    name: The Deccan and the South
+    blurb: >-
+      Peninsular India, which was never governed from the north for long and
+      spent most of its history under dynasties the north barely recorded — a
+      Tamil empire that sent fleets to Sumatra, a city on the Tungabhadra that
+      Persian visitors compared to Rome, and a sultanate that broke into five.
+    group: south-asia
+    thread: false
+
+  - id: indian-sultanates
+    name: The Indian Sultanates
+    blurb: >-
+      Turkic and Afghan rule in northern India, founded by a Ghurid
+      slave-general and outlasting every polity that produced it.
+    group: south-asia
+    thread: true
+
+  # New in this pass, and `thread: false` deliberately.
+  #
+  # There is already a sourced internal edge here — `angkor -> ayutthaya`,
+  # `conquered by`, 1431 — which means the flag could be flipped today and the
+  # build would accept it. The project's own instructions say not to: add a
+  # region with `thread: false`, add its polities one at a time, and flip the
+  # flag in a later pass once the edges are real. The rule exists because a
+  # thread added in the same breath as its region is a picture drawn before
+  # anybody has checked whether there is anything to draw. It is being followed
+  # here even though the edge is already sitting in edges.yaml.
+  #
+  # The region exists because the old single Maritime Asia region — since split
+  # into three — could not hold these. Its blurb said its polities lived on
+  # controlling straits instead of territory,
+  # which is exactly what Angkor, Pagan and Dai Viet did not do — they were rice
+  # states on four river systems, and the largest of them never touched the sea
+  # route at all. Champa is the exception that shows the boundary is real: it
+  # sat on the coast between them, lived on the passing trade like a maritime
+  # polity, and was eaten by a land one.
+  - id: mainland-southeast-asia
+    name: Mainland Southeast Asia
+    blurb: >-
+      The rice states of the peninsula — the Irrawaddy, the Chao Phraya, the
+      Mekong and the Red River — which built on a scale nothing in the islands
+      matched and mostly ignored the sea route that made the islands rich, plus
+      the coast between them that did not.
+    group: southeast-asia
+    thread: false
+
+  # `maritime-asia` was one region and reached twenty-two records, which made it
+  # the largest on this site by eight — the next is fourteen. It is now three.
+  #
+  # The split cost one edge of fifteen: `srivijaya -> singhasari`, the Pamalayu
+  # of 1275, which is the only edge that ever crossed between Sumatra and Java
+  # and which the Medang record's second chapter already described as the one
+  # connection between two halves that barely touch, three centuries late. It
+  # stays in edges.yaml and is now drawn by no thread, like every other edge on
+  # this site whose ends fall in different regions.
+  #
+  # Java keeps ten edges and the peninsula four. The eastern archipelago has
+  # none and never had any — Ternate and Tidore are contemporaries whose
+  # relationship runs sideways, Makassar was ended by a polity with no page,
+  # Brunei and Sulu succeeded nothing here. `thread: false` on it is the
+  # ordinary state hard rule 7 describes and not a defect.
+  #
+  # What the split does not change is the count of things that are true about
+  # the archipelago rather than about a region: ten records carrying Sunni Islam
+  # in one movement from Pasai outward, fourteen with an empty `ended.by`, nine
+  # coded `client-levy` for sea peoples nobody commanded, and not one carrying a
+  # reach figure. Those were always facts about a corpus and a sea, and the
+  # chapters that count them now say so.
+  - id: sumatra-and-the-peninsula
+    name: Sumatra and the Peninsula
+    blurb: >-
+      The strait, and the states that lived on it: a thousand years of one
+      passage between the Indian Ocean and the South China Sea changing hands,
+      from Srivijaya to the sultanates that inherited its position and its sea
+      peoples.
+    group: southeast-asia
+    thread: true
+
+  - id: java-and-bali
+    name: Java and Bali
+    blurb: >-
+      One island's rice, and the seven hundred years of kingdoms that lived on
+      it — an unbroken sequence from the Brantas valley to the division of
+      Mataram, plus the western kingdom that was never part of it and the
+      Balinese court that inherited what Java gave up.
+    group: southeast-asia
+    thread: true
+
+  - id: the-eastern-archipelago
+    name: The Eastern Archipelago
+    blurb: >-
+      Sulawesi, Maluku, Borneo and Sulu: the far side of the sea route, where
+      the cloves grew on five islands, the last open port was destroyed for
+      being open, and Islam reached its eastern and northern limits.
+    group: southeast-asia
+    thread: false
+
+  - id: mesoamerica
+    name: Mesoamerica
+    blurb: >-
+      The states of the Mexican highlands and the Maya lowlands: cities of a
+      hundred thousand people, a writing system, a calendar accurate over
+      millennia, and no draught animals, no wheeled transport and no iron.
+    group: the-americas
+    thread: false
+
+  - id: the-andes
+    name: The Andes
+    blurb: >-
+      Empire built vertically, on a mountain range where a day's walk changes
+      the crop — and administered without writing, by a state that ran a road
+      network of thousands of miles and kept its accounts on knotted cord.
+    group: the-americas
+    thread: false
