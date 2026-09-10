@@ -32,12 +32,9 @@ function Party({ id, emphasise }: { id: string; emphasise: boolean }) {
       {name}
     </Link>
   ) : (
-    <span
-      className="font-semibold text-debu-ink"
-      title="No page: context polity or reference backdrop"
-    >
-      {name}
-    </span>
+    // Unlinked. The reason is stated once under the section rather than in a
+    // `title` on every occurrence, which no touch reader could ever open.
+    <span className="font-semibold text-debu-ink">{name}</span>
   )
 }
 
@@ -216,6 +213,12 @@ export function Position({
   // predecessor" would dress that up as a pair of absences; one sentence is the
   // truer shape, and it keeps the page from opening on a hole.
   const endedBy = polity.ended && polity.ended.by.length ? polity.ended : null
+  // Whether any party named in this section is a record without a page, which
+  // decides whether the note under the columns is worth printing.
+  const unlinked = [...predecessors, ...successors]
+    .flatMap((e) => [e.from, e.to])
+    .concat(endedBy ? endedBy.by : [])
+    .some((id) => id !== polity.id && !hasPage(id))
   if (
     !predecessors.length &&
     !successors.length &&
@@ -297,6 +300,13 @@ export function Position({
           )}
         </div>
       </div>
+
+      {unlinked ? (
+        <p className="mt-6 max-w-measure text-[14px] leading-relaxed text-debu-ink">
+          A name set in dust rather than as a link is one this thread carries for
+          the shape of the era and has no chapters for.
+        </p>
+      ) : null}
     </section>
   )
 }

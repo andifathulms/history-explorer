@@ -2,6 +2,7 @@ import type { Polity, TurningPoint } from '@/lib/types'
 import { formatYear } from '@/lib/years'
 import { citeShort } from '@/lib/content'
 import { SectionHead } from '@/components/Shell'
+import { Hint } from '@/components/Hint'
 
 /**
  * Dated hinges in the polity's life.
@@ -72,18 +73,20 @@ export function TurningPoints({ polity }: { polity: Polity }) {
               <span className="font-display text-[19px] font-semibold text-kashi-deep">
                 {t.name}
               </span>
-              <span
-                className="rounded-full border border-kashi/20 px-2 py-0.5 font-mono text-micro uppercase text-debu-ink"
-                title={TYPE_HINT[t.type]}
-              >
+              {/* The badge's meaning is reachable rather than hovered. A
+                  `title` is a hover delay, no keyboard focus and nothing at
+                  all on touch, which put a closed vocabulary out of reach of
+                  every reader on a phone. */}
+              <span className="rounded-full border border-kashi/20 px-2 py-0.5 font-mono text-micro uppercase text-debu-ink">
                 {t.type.replace(/-/g, ' ')}
+                <Hint label={t.type.replace(/-/g, ' ')}>{TYPE_HINT[t.type]}</Hint>
               </span>
               {t.contested ? (
-                <span
-                  className="rounded-full border border-debu/50 px-2 py-0.5 font-mono text-micro uppercase text-debu-ink"
-                  title="Scholarship disputes that this was a hinge, not that it happened."
-                >
+                <span className="rounded-full border border-debu/50 px-2 py-0.5 font-mono text-micro uppercase text-debu-ink">
                   contested
+                  <Hint label="contested">
+                    Scholarship disputes that this was a hinge, not that it happened.
+                  </Hint>
                 </span>
               ) : null}
             </p>

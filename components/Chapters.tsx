@@ -3,6 +3,7 @@ import { ASIDE, type Chapter } from '@/lib/types'
 import { citeShort, getSource } from '@/lib/content'
 import { SectionHead } from '@/components/Shell'
 import { Spine } from '@/components/Spine'
+import { Hint } from '@/components/Hint'
 
 /**
  * Chapters are free-form, 2 to 8 per polity, with titles the author wrote.
@@ -109,13 +110,14 @@ async function One({ chapter }: { chapter: Chapter }) {
                 ? 'border border-dashed border-kashi/25 text-debu-ink'
                 : 'border border-kashi/20'
             }`}
-            title={
-              chapter.phase === ASIDE
-                ? 'Outside the arc: this chapter is about one object, document or institution rather than a stretch of the polity\u2019s existence.'
-                : undefined
-            }
           >
             {chapter.phase}
+            {chapter.phase === ASIDE ? (
+              <Hint label="aside">
+                Outside the arc: this chapter is about one object, document or
+                institution rather than a stretch of the polity&rsquo;s existence.
+              </Hint>
+            ) : null}
           </span>
         ) : null}
       </p>

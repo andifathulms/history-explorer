@@ -59,9 +59,9 @@ function Row({ c }: { c: Contemporary }) {
           {label}
         </Link>
       ) : (
-        <span className="text-debu-ink" title="Listed for scale; not written up">
-          {label}
-        </span>
+        // No `title`: the caption under the list already says that unlinked
+        // entries are here for scale, and a hover note is unreachable on touch.
+        <span className="text-debu-ink">{label}</span>
       )}
     </li>
   )

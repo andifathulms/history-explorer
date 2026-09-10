@@ -73,7 +73,6 @@ export function Spine({ chapters }: { chapters: Chapter[] }) {
               {chapter ? (
                 <a
                   href={`#${chapter.slug}`}
-                  title={`${PHASE_BLURB[phase]} — ${chapter.title}`}
                   className="group block rounded-sm outline-offset-4 focus-visible:outline focus-visible:outline-2 focus-visible:outline-firuze-ink"
                 >
                   {label}
@@ -120,6 +119,39 @@ export function Spine({ chapters }: { chapters: Chapter[] }) {
           </>
         ) : null}
       </p>
+
+      {/* What the six words mean. It was a `title` on each filled phase, which
+          meant the vocabulary was unreachable by keyboard, unreachable on
+          touch, and — since an unfilled phase carried no title at all — absent
+          exactly where a reader is most likely to wonder what the word is
+          doing there. One disclosure, all six, no JavaScript. */}
+      <details className="mt-3">
+        <summary className="inline-block cursor-pointer font-mono text-micro uppercase tracking-[0.08em] text-firuze-ink hover:text-kashi">
+          What the phases mean
+        </summary>
+        <dl className="mt-3 max-w-measure">
+          {PHASES.map((phase) => (
+            <div
+              key={phase}
+              className="flex flex-wrap gap-x-3 border-t border-kashi/12 py-1.5 text-[14px] leading-snug"
+            >
+              <dt className="font-mono text-micro uppercase tracking-[0.08em] text-kashi sm:w-[9rem]">
+                {phase}
+              </dt>
+              <dd className="text-debu-ink">{PHASE_BLURB[phase]}</dd>
+            </div>
+          ))}
+          <div className="flex flex-wrap gap-x-3 border-t border-kashi/12 py-1.5 text-[14px] leading-snug">
+            <dt className="font-mono text-micro uppercase tracking-[0.08em] text-debu-ink sm:w-[9rem]">
+              aside
+            </dt>
+            <dd className="text-debu-ink">
+              Outside the arc altogether: one object, document or institution
+              rather than a stretch of the polity&rsquo;s existence
+            </dd>
+          </div>
+        </dl>
+      </details>
     </nav>
   )
 }

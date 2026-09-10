@@ -13,8 +13,15 @@ import { SectionHead } from '@/components/Shell'
  * entirely unsourced. A visible gap is what stops that being tempting.
  *
  * The values are printed as words rather than as tags a reader has to decode,
- * with the vocabulary's own definition on hover, because "land-grant" means
- * iqta' here and nothing about feudalism.
+ * and the vocabulary's own definition is printed under them, because
+ * "land-grant" means iqta' here and nothing about feudalism.
+ *
+ * The definitions used to be `title` attributes. A `title` has a hover delay,
+ * never appears on keyboard focus and does not exist on touch, so the entire
+ * vocabulary was invisible to every reader on a phone — and the vocabulary is
+ * the section. These are one short line each and there are at most three of
+ * them in a row, so they are simply printed. Hidden provenance is provenance
+ * nobody reads, and the same is true of a definition.
  */
 
 const FIELDS = [
@@ -80,18 +87,18 @@ function Row({
 }) {
   return (
     <div className="border-t border-kashi/15 py-3.5 sm:grid sm:grid-cols-[12rem_1fr] sm:gap-6">
-      <dt
-        className="font-mono text-[12.5px] uppercase tracking-[0.06em] text-debu-ink"
-        title={hint}
-      >
+      <dt className="font-mono text-[12.5px] uppercase tracking-[0.06em] text-debu-ink">
         {label}
+        <span className="mt-1 block font-latin text-[13px] normal-case leading-snug tracking-normal text-debu-ink/85">
+          {hint}
+        </span>
       </dt>
-      <dd className="mt-1 sm:mt-0">
+      <dd className="mt-2 sm:mt-0">
         {coded ? (
           <>
             <span className="flex flex-wrap items-baseline gap-x-2 gap-y-1">
               {coded.values.map((v, i) => (
-                <span key={v} className="text-kashi" title={VALUE_HINT[v]}>
+                <span key={v} className="text-kashi">
                   {v.replace(/-/g, ' ')}
                   {i < coded.values.length - 1 ? (
                     <span className="text-debu-ink"> and</span>
@@ -99,7 +106,19 @@ function Row({
                 </span>
               ))}
             </span>
-            <span className="mt-1 block text-[14px] text-debu-ink">
+            {/* What the words mean, on the page rather than under a hover. One
+                line per value, in the order the values are printed. */}
+            <ul className="mt-1.5 max-w-measure space-y-0.5">
+              {coded.values.map((v) =>
+                VALUE_HINT[v] ? (
+                  <li key={v} className="text-[14px] leading-snug text-debu-ink">
+                    <span className="text-kashi/80">{v.replace(/-/g, ' ')}</span> &mdash;{' '}
+                    {VALUE_HINT[v]}
+                  </li>
+                ) : null,
+              )}
+            </ul>
+            <span className="mt-2 block text-[14px] text-debu-ink">
               <cite className="not-italic">{citeShort(coded.source)}</cite>
             </span>
           </>
