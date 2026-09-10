@@ -140,8 +140,6 @@ export default function PolitiesIndex() {
             </div>
           </nav>
 
-          <CrossCut polities={crossCut} />
-
           {/* The shelf headings repeat here so a reader who has scrolled past
               the nav still knows where they are. They are h2 and the regions
               under them are h3: the group is a heading level, not a label, and
@@ -296,6 +294,8 @@ export default function PolitiesIndex() {
               })}
             </div>
           ))}
+
+          <CrossCut polities={crossCut} />
 
           <p className="mt-20 border-t border-kashi/15 pt-6 font-mono text-micro uppercase text-debu-ink">
             {narrative.length} polities read · {regionCount} regions

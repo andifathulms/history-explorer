@@ -75,16 +75,27 @@ export function CrossCut({ polities }: { polities: CrossCutPolity[] }) {
   const codedForField = selected ? (stats.coded.get(selected.field) ?? 0) : 0
 
   return (
-    <section aria-labelledby="crosscut-heading" className="mt-16 border-t border-kashi/15 pt-8">
-      <h2 id="crosscut-heading" className="kicker text-debu-ink">
+    // Folded. It is a good tool and it was standing in the doorway: four facet
+    // rows of about thirty buttons and a results area, above all thirty-five
+    // regions, with a selection expanding inline and pushing the whole page
+    // down. It is a lens over the corpus rather than the corpus, and a reader
+    // who came to browse regions should not have to scroll past it to reach
+    // one. A `details` rather than state, so it costs no JavaScript and opens
+    // for find-in-page.
+    <section aria-labelledby="crosscut-heading" className="mt-20 border-t border-kashi/15 pt-8">
+      <h2 id="crosscut-heading" className="sr-only">
         Cut across the regions
       </h2>
-      <p className="mt-3 max-w-measure text-[16px] leading-relaxed text-debu-ink">
-        How a polity raised an army, paid for itself, chose a ruler and justified
-        him — coded against closed vocabularies, from a source that addressed the
-        question. Picking a value gathers every polity carrying it, from any
-        region.
-      </p>
+      <details>
+        <summary className="inline-block cursor-pointer font-mono text-meta uppercase tracking-[0.1em] text-firuze-ink hover:text-kashi">
+          Cut across the regions
+        </summary>
+        <p className="mt-4 max-w-measure text-[16px] leading-relaxed text-debu-ink">
+          How a polity raised an army, paid for itself, chose a ruler and justified
+          him — coded against closed vocabularies, from a source that addressed the
+          question. Picking a value gathers every polity carrying it, from any
+          region.
+        </p>
 
       <div className="mt-8 space-y-7">
         {FACETS.map((f) => {
@@ -105,27 +116,40 @@ export function CrossCut({ polities }: { polities: CrossCutPolity[] }) {
                   const n = stats.counts.get(`${f.key}|${v}`) ?? 0
                   const on = selected?.field === f.key && selected.value === v
                   return (
+                    // A zero-carrier value stays focusable. It used to be
+                    // `disabled` with its explanation in a `title`, and a
+                    // disabled button takes no focus and fires no hover on
+                    // touch — so the one thing that needed explaining was
+                    // unreachable by every route a reader has. It is inert
+                    // rather than disabled: the count of 0 is the whole
+                    // message, and the sentence under the facets says what a
+                    // zero means.
                     <button
                       key={v}
                       type="button"
-                      disabled={n === 0}
-                      aria-pressed={on}
-                      onClick={() => setSelected(on ? null : { field: f.key, value: v })}
+                      aria-pressed={n === 0 ? undefined : on}
+                      aria-disabled={n === 0 || undefined}
+                      onClick={
+                        n === 0
+                          ? undefined
+                          : () => setSelected(on ? null : { field: f.key, value: v })
+                      }
                       className={`rounded-full border px-3 py-1 font-mono text-micro uppercase transition-colors ${
                         on
                           ? 'border-kashi bg-kashi text-kaghaz'
                           : n === 0
-                            ? 'cursor-not-allowed border-kashi/12 text-debu-ink/45'
+                            ? 'cursor-default border-dashed border-kashi/25 text-debu-ink/70'
                             : 'border-kashi/30 text-kashi hover:border-firuze-ink hover:text-firuze-ink'
                       }`}
-                      title={
-                        n === 0
-                          ? 'In the vocabulary, carried by nothing coded so far'
-                          : undefined
-                      }
                     >
                       {v.replace(/-/g, ' ')}
                       <span className="ms-1.5 tabular-nums opacity-70">{n}</span>
+                      {n === 0 ? (
+                        <span className="sr-only">
+                          {' '}
+                          — in the vocabulary, carried by nothing coded so far
+                        </span>
+                      ) : null}
                     </button>
                   )
                 })}
@@ -138,9 +162,9 @@ export function CrossCut({ polities }: { polities: CrossCutPolity[] }) {
       <div className="mt-9 border-t border-kashi/15 pt-6" aria-live="polite">
         {selected === null ? (
           <p className="max-w-measure text-[15px] leading-relaxed text-debu-ink">
-            Nothing selected. Values greyed out are in the vocabulary and carried
-            by nothing coded so far — which is a fact about the coding, not about
-            history.
+            Nothing selected. A value standing at 0 in a dashed outline is in the
+            vocabulary and carried by nothing coded so far — which is a fact about
+            the coding, not about history.
           </p>
         ) : (
           <>
@@ -175,6 +199,7 @@ export function CrossCut({ polities }: { polities: CrossCutPolity[] }) {
           </>
         )}
       </div>
+      </details>
     </section>
   )
 }
