@@ -2799,6 +2799,24 @@ sources:
       negotiation at al-Hudaybiyya, which it reports at length and with the
       arguments over wording intact.
 
+  - id: ibn-abd-al-hakam-jones
+    kind: book
+    author: Ibn Abd al-Hakam
+    title: History of the Conquest of Spain
+    translator: John Harris Jones
+    publisher: Williams and Norgate
+    year: 1858
+    note: >-
+      The earliest Arabic narrative of the conquest of Spain, by an Egyptian
+      writing in the ninth century, and therefore the closest thing to a
+      near-contemporary account that survives on the Muslim side. It is a
+      transmission of traditions rather than a chronicle and it carries folklore
+      alongside campaign detail — the padlocked house at Toledo sits in the same
+      sequence as the crossing — so it is used here with the seams left visible.
+      Jones's apparatus is part of its value: his note on Ilyan sets out the
+      argument, still live, over whether the man existed at all. Out of
+      copyright.
+
   - id: baladhuri-murgotten
     kind: book
     author: Ahmad ibn Yahya al-Baladhuri
