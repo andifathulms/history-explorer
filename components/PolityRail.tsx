@@ -109,7 +109,10 @@ export function PolityRail({
   }
 
   return (
-        <div className="sticky top-24">
+        // No sticky of its own: the gutter's own container is the sticky one
+        // now, and the rail is a module inside it. Two nested stickies pin
+        // against each other and the inner one simply stops moving.
+        <div>
           <svg
             width={W}
             height={CANVAS}

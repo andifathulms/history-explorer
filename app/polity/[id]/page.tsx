@@ -18,6 +18,7 @@ import { contemporariesOf } from '@/lib/contemporaries'
 import { formatKm2, formatPopulation, NO_FIGURE } from '@/lib/gaps'
 import { Page, Shell, Crumbs, StatRow } from '@/components/Shell'
 import { PolityRail } from '@/components/PolityRail'
+import { PageNav, type NavSection } from '@/components/PageNav'
 import { Position, Transfers } from '@/components/Position'
 import { Chapters } from '@/components/Chapters'
 import { Facts } from '@/components/Facts'
@@ -62,6 +63,28 @@ export default function PolityPage({ params }: { params: { id: string } }) {
   const rating = rate(p, field, DEFAULT_WEIGHTS, 'absolute', corpus.denominators)
 
   const { certain, possible } = contemporariesOf(p, corpus.all, corpus.backdrop)
+
+  // What the gutter nav lists. Built from the same conditions the sections
+  // themselves render under, so a nav entry can never point at a section that
+  // decided not to draw itself — the two sections that come and go are the
+  // extent series, which needs two cited figures before it is a trajectory,
+  // and territory, which most polities never lost or took.
+  const sections: NavSection[] = [
+    { id: 'facts-heading', label: 'Facts' },
+    { id: 'institutions-heading', label: 'Governed' },
+    { id: 'turning-heading', label: 'Turning points' },
+    ...(p.measures.extent.length >= 2
+      ? [{ id: 'extent-heading', label: 'Extent over time' }]
+      : []),
+    { id: 'chapters-heading', label: 'Chapters' },
+    { id: 'position-heading', label: 'Succession' },
+    ...(lost.length || gained.length
+      ? [{ id: 'transfers-heading', label: 'Territory' }]
+      : []),
+    { id: 'contemporaries-heading', label: 'Contemporaries' },
+    { id: 'map-heading', label: 'Map' },
+    { id: 'rating-heading', label: 'Rating' },
+  ]
 
   const span = p.span
   const startLabel = formatRange(span.start.min, span.start.max)
@@ -114,14 +137,24 @@ export default function PolityPage({ params }: { params: { id: string } }) {
         />
 
         <div className="flex gap-12">
-          {railPolities.length ? (
-            <aside
-              className="hidden shrink-0 pt-10 lg:block lg:w-[224px]"
-              aria-label="Thread position"
-            >
-              <PolityRail polities={railPolities} active={p} variant="rail" />
-            </aside>
-          ) : null}
+          {/* The gutter, on every polity rather than only the threaded ones.
+              A layout that appears and disappears on a data property the
+              reader cannot see is not a layout, and the column stood empty on
+              most pages while the page it flanked had no way to move around
+              except the scrollbar. */}
+          <aside className="hidden shrink-0 pt-10 lg:block lg:w-[224px]">
+            {/* The rail can run past the viewport on a crowded region, so the
+                whole gutter scrolls inside itself rather than clipping. */}
+            <div className="sticky top-24 max-h-[calc(100vh-7.5rem)] overflow-y-auto pb-6">
+              <PageNav sections={sections} />
+              {railPolities.length ? (
+                <div className="mt-10 border-t border-kashi/15 pt-6">
+                  <p className="kicker pb-3 text-debu-ink">In this thread</p>
+                  <PolityRail polities={railPolities} active={p} variant="rail" />
+                </div>
+              ) : null}
+            </div>
+          </aside>
 
           <main id="main" className="min-w-0 flex-1">
             <header className="pt-6">
