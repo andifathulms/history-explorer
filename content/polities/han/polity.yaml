@@ -39,6 +39,34 @@ ended:
 # centuries of the Han carrying none of them was a gap in the project rather
 # than in the evidence — the same finding this corpus's Majapahit record's
 # institutions comment records, and the Han is a much larger instance of it.
+# Both real, both without records here. The Qin built the machine the Han ran on;
+# Cao Wei took the throne by an abdication ceremony rather than a conquest, so
+# the successor row omits `type` and lets the note carry the relation.
+preceded_by_external:
+  - name: the Qin
+    type: absorbed remnants of
+    year: null
+    note: >-
+      The state that unified China by force in 221 BC and fell apart within four
+      years of its founder's death. The Han kept its commanderies and counties,
+      its standardised script, its registers, its uniform law and its roads, and
+      spent four centuries explaining that it was not the Qin — the verdict
+      being that an empire taken by force cannot be held by the same means,
+      which became the political theory every later dynasty ruled on.
+    source: loewe-twitchett-1986
+
+succeeded_by_external:
+  - name: Cao Wei, and the Three Kingdoms
+    year: 220
+    note: >-
+      Emperor Xian abdicated to Cao Pi in a staged ceremony with three ritual
+      refusals, and was given a fief and allowed to live; he outlived the man
+      who took his throne. The empire had already been divided among the
+      commanders for thirty years. Two of the three kingdoms that resulted
+      claimed the Han inheritance, and one of them, Shu Han, claimed to be the
+      dynasty itself continuing.
+    source: loewe-twitchett-1986
+
 institutions:
   # Universal male conscription: two years of service, one in the home commandery
   # and one on the frontier or in the capital guard, from a registered

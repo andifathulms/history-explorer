@@ -34,6 +34,34 @@ ended:
   year: 907
   source: twitchett-1979
 
+# Both real, both without records here. The Sui built what the Tang inherited;
+# the Later Liang took the throne by abdication after the last emperor's
+# predecessor had been murdered, so the successor row omits `type`.
+preceded_by_external:
+  - name: the Sui
+    type: absorbed remnants of
+    year: null
+    note: >-
+      The dynasty that reunified China in 589 after three and a half centuries
+      of division and destroyed itself in thirty years on three invasions of
+      Korea. The Tang inherited the Grand Canal, the granaries, the equal-field
+      land system, the law code and the capital at Chang'an intact, because the
+      Sui had been ruined by its own exertions rather than by an invasion, and
+      the founder was a Sui general related to the imperial house.
+    source: lewis-2009
+
+succeeded_by_external:
+  - name: the Later Liang, and the Five Dynasties
+    year: 907
+    note: >-
+      Zhu Wen, a general who had defected from Huang Chao's rebellion, spent
+      the 890s eliminating his rivals, massacred the eunuchs in 903, moved the
+      emperor to Luoyang and had him murdered in 904, and deposed the boy who
+      replaced him in 907. What followed was fifty-three years of five dynasties
+      in the north and ten kingdoms in the south, and then a reunification under
+      the Song that put military governors permanently under civil officials.
+    source: twitchett-1979
+
 turning_points:
   - year: 751
     type: battle

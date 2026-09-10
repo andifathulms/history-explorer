@@ -34,6 +34,24 @@ ended:
   year: 1125
   source: franke-twitchett-1994
 
+# A real predecessor with no record here: the settled kingdom the Liao annexed
+# in its founding decade, whose administration it then used.
+preceded_by_external:
+  - name: Bohai
+    type: absorbed remnants of
+    year: 926
+    note: >-
+      A settled kingdom in eastern Manchuria and northern Korea, three centuries
+      old, literate, organised on Tang lines with five capitals and a full
+      bureaucracy. Abaoji destroyed it in about three months, renamed it Dongdan
+      and installed his eldest son as its king, and died on the way home from
+      the campaign. What his successors inherited was therefore a steppe
+      confederation, a settled Chinese farming population in walled towns, and
+      an entire conquered kingdom with a working Chinese-style administration
+      already in it — which is the problem the two-administration system was
+      built to solve.
+    source: franke-twitchett-1994
+
 institutions:
   # The ordo — a standing household guard raised for each emperor from tribal
   # levies and inherited by his tomb establishment rather than his successor —
