@@ -8,8 +8,14 @@ import { hasPage } from '@/lib/content'
  * sticky column, scrolled to nothing — the whole sequence is visible at once and
  * the current polity is marked, so you always know where in it you are standing.
  *
- * On mobile this collapses to a horizontal strip, which is the same information
- * rotated: 819 at one end, 1231 at the other, a marker where you are.
+ * On mobile it becomes a scrolling row of the region's polities. It used to be
+ * a three-pixel bar with a year at each end and a gold segment on it, which
+ * named nothing, linked to nothing and rendered above the breadcrumb — so the
+ * first thing a phone reader met was an unlabelled stripe, and mobile had no
+ * way to reach a sibling polity anywhere on the page. The desktop rail was the
+ * instrument and the mobile version was a decoration of it. Now both say the
+ * same thing: here is the sequence, here is where you are standing, and here
+ * is how to leave.
  */
 /**
  * SVG text does not wrap, so a long name runs past the viewBox and is clipped:
@@ -51,7 +57,6 @@ export function PolityRail({
   const NAME_X = 76
   const W = 224
   const y = (year: number) => PAD + ((year - first) / (last - first)) * (H - PAD * 2)
-  const pct = (year: number) => (((year - first) / (last - first)) * 100).toFixed(2)
 
   const ordered = [...polities].sort((a, b) => a.span.start.min - b.span.start.min)
 
@@ -87,24 +92,65 @@ export function PolityRail({
   const CANVAS = Math.max(H, (label[label.length - 1] ?? 0) + LINE * 3)
 
   if (variant === 'strip') {
-    // Mobile: the strip. Same axis, rotated, still tells you where you are.
     return (
-      <div className="flex items-center gap-3 border-b border-kashi/20 px-5 py-3 text-[12px] tabular-nums text-debu-ink lg:hidden">
-        <span>{formatYear(first)}</span>
-        <span className="relative h-[3px] flex-1 rounded-full bg-kashi/25">
-          <span
-            className="absolute top-0 h-[3px] rounded-full bg-zarrin"
-            style={{
-              left: `${pct(active.span.start.max)}%`,
-              width: `${Math.max(
-                1.5,
-                Number(pct(active.span.end.min)) - Number(pct(active.span.start.max)),
-              )}%`,
-            }}
-          />
-        </span>
-        <span>{formatYear(last)}</span>
-      </div>
+      <nav aria-label="This thread" className="lg:hidden">
+        <p className="kicker text-debu-ink">
+          In this thread <span className="tabular-nums">{formatYear(first)}</span>&ndash;
+          <span className="tabular-nums">{formatYear(last)}</span>
+        </p>
+
+        {/* Bleeds to both edges so the row reads as scrollable rather than as
+            a list that happens to be cut off. */}
+        <ul className="-mx-5 mt-3 flex snap-x gap-px overflow-x-auto border-y border-kashi/15 bg-kashi/15 px-5 sm:-mx-8 sm:px-8">
+          {ordered.map((p) => {
+            const isActive = p.id === active.id
+            const years = formatRange(p.span.start.min, p.span.start.max)
+            const body = (
+              <>
+                <span className="block font-mono text-micro uppercase tabular-nums text-debu-ink">
+                  {years}
+                </span>
+                <span
+                  className={`mt-1 block text-[14px] leading-snug ${
+                    isActive ? 'font-semibold text-zarrin-ink' : 'text-kashi'
+                  }`}
+                >
+                  {p.name.latin}
+                </span>
+                {isActive ? (
+                  <span className="mt-1 block text-[12px] italic text-debu-ink">
+                    you are here
+                  </span>
+                ) : null}
+              </>
+            )
+            return (
+              <li
+                key={p.id}
+                className={`w-[152px] shrink-0 snap-start bg-kaghaz-raise ${
+                  isActive ? 'border-t-2 border-zarrin' : ''
+                }`}
+              >
+                {isActive || !hasPage(p.id) ? (
+                  <span
+                    className={`block px-3 py-3 ${isActive ? '' : 'opacity-70'}`}
+                    aria-current={isActive ? 'true' : undefined}
+                  >
+                    {body}
+                  </span>
+                ) : (
+                  <Link
+                    href={`/polity/${p.id}/`}
+                    className="block px-3 py-3 transition-colors hover:bg-kaghaz-lift"
+                  >
+                    {body}
+                  </Link>
+                )}
+              </li>
+            )
+          })}
+        </ul>
+      </nav>
     )
   }
 

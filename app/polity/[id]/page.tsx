@@ -137,10 +137,6 @@ export default function PolityPage({ params }: { params: { id: string } }) {
     // Paper ground: this is a reading view, and the change of ground says so
     // without a label.
     <Page ground="paper" current="Polities">
-      {railPolities.length ? (
-        <PolityRail polities={railPolities} active={p} variant="strip" />
-      ) : null}
-
       <Shell className="flex-1 pb-28">
         <Crumbs
           ground="paper"
@@ -216,6 +212,36 @@ export default function PolityPage({ params }: { params: { id: string } }) {
 
               <StatRow ground="paper" stats={headline} />
             </header>
+
+            {/* Mobile has no gutter to put furniture in, so both instruments
+                sit here instead — below the name and the figures rather than
+                above the breadcrumb, where an unlabelled bar used to be the
+                first thing a phone reader met. */}
+            <div className="mt-10 lg:hidden">
+              <details className="border-y border-kashi/15 py-3">
+                <summary className="cursor-pointer font-mono text-micro uppercase tracking-[0.08em] text-firuze-ink">
+                  On this page &mdash; {sections.length} sections
+                </summary>
+                <ul className="mt-3 grid grid-cols-2 gap-x-6">
+                  {sections.map((sec) => (
+                    <li key={sec.id}>
+                      <a
+                        href={`#${sec.id}`}
+                        className="block border-b border-kashi/10 py-2.5 font-mono text-[12px] uppercase tracking-[0.05em] text-kashi"
+                      >
+                        {sec.label}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </details>
+
+              {railPolities.length ? (
+                <div className="mt-8">
+                  <PolityRail polities={railPolities} active={p} variant="strip" />
+                </div>
+              ) : null}
+            </div>
 
             {/* Order, and the reasoning for it.
 
