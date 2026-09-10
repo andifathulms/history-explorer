@@ -1751,6 +1751,17 @@ edges:
     source: golden-1992
     contested: false
 
+  - from: gokturk
+    to: khazar
+    type: seceded from
+    year: 650
+    note: "The Khazar ruling house came out of the western wing of the Turk
+           khaganate and kept the Ashina claim and the title qaghan when that
+           state came apart under Tang pressure, turning a wing command on the
+           lower Volga into a sovereign state."
+    source: golden-1992
+    contested: true
+
   - from: xiongnu
     to: gokturk
     type: absorbed remnants of

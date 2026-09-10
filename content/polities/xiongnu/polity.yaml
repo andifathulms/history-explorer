@@ -34,6 +34,22 @@ ended:
   year: 91
   source: di-cosmo-2002
 
+# The power Modu displaced. A real predecessor with no record here, so it is
+# named rather than left as an absence; not an edge, because an edge joins two
+# records.
+preceded_by_external:
+  - name: the Yuezhi
+    type: overthrew
+    year: null
+    note: >-
+      The dominant power of the eastern steppe corridor before the
+      confederation, and the people Touman sent his heir to as a hostage before
+      attacking them in the hope of getting him killed. Modu broke them within a
+      few years of taking the title and drove them west, in a migration that
+      eventually put them in Bactria, where their descendants founded the Kushan
+      empire.
+    source: di-cosmo-2002
+
 measures:
   reach_km2: { value: 9000000, at: -176, source: taagepera-1979 }
   peak_population: null

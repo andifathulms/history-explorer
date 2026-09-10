@@ -36,6 +36,32 @@ ended:
   year: 840
   source: golden-1992
 
+# Two real successors, neither with a record here: the people who took the
+# capital, and the kingdom the survivors built. Named rather than left as an
+# absence. The second relation is none of the eight edge types, so `type` is
+# omitted and the note carries it.
+succeeded_by_external:
+  - name: the Yenisei Kirghiz
+    type: conquered by
+    year: 840
+    note: >-
+      A forest people north-west of the Otukan, subjects first of the Turks and
+      then of the Uyghurs, came down the valley after an Uyghur general defected
+      to them, took Karabalgasun, killed the qaghan and burned the city. They
+      did not stay: they went back north with what they had taken, and the
+      Mongolian steppe was left without a central power until the Mongols.
+    source: golden-1992
+  - name: the kingdom of Qocho, in the Tarim
+    year: null
+    note: >-
+      The largest group of survivors went south-west into the oasis towns around
+      Turfan and stopped being nomads: irrigated farming, walled towns, a
+      manuscript culture that turned from Manichaean to largely Buddhist, and
+      the Sogdian-derived alphabet in place of the runiform script. They became
+      the literate class every later steppe empire hired, and the Mongols took
+      their letters to write Mongolian in.
+    source: golden-1992
+
 turning_points:
   - year: 762
     type: conversion

@@ -36,6 +36,21 @@ ended:
   year: 969
   source: golden-1992
 
+# The power that took Atil, with no record here. Named rather than left as an
+# absence; not an edge, because an edge joins two records.
+succeeded_by_external:
+  - name: the Rus of Kiev
+    type: conquered by
+    year: 969
+    note: >-
+      Sviatoslav took Sarkel on the Don and then Atil itself between about 965
+      and 969, and the khaganate stops appearing in the sources as a power. What
+      was taken was the toll on a junction, by people who had spent a
+      generation using it and had no reason to keep paying for it. The Pontic
+      steppe went to the Pechenegs, the Volga route to the Rus, and the title
+      qaghan itself was used of Kievan princes for about a century afterwards.
+    source: golden-1992
+
 measures:
   reach_km2: { value: 3000000, at: 850, source: taagepera-1997 }
   peak_population: null

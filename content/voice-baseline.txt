@@ -24,8 +24,6 @@ content/polities/dai-viet/03-three-times.mdx
 content/polities/dai-viet/05-1400.mdx
 content/polities/delhi-sultanate/01-slave-kings.mdx
 content/polities/delhi-sultanate/02-mongol-frontier.mdx
-content/polities/gokturk/01-gokturk.mdx
-content/polities/gokturk/02-the-inscriptions.mdx
 content/polities/golden-horde/02-the-yarlyk.mdx
 content/polities/gupta/01-gupta.mdx
 content/polities/gupta/02-what-the-axes-miss.mdx
@@ -39,8 +37,6 @@ content/polities/jin/02-the-double-bind.mdx
 content/polities/jin/03-two-defeats.mdx
 content/polities/jin/04-the-settlers.mdx
 content/polities/jin/05-the-name-taken-again.mdx
-content/polities/khazar/01-the-wall.mdx
-content/polities/khazar/02-the-correspondence.mdx
 content/polities/kushan/01-kushan.mdx
 content/polities/kushan/02-the-coins.mdx
 content/polities/liao/01-two-administrations.mdx
@@ -61,9 +57,6 @@ content/polities/mughal/02-the-settlement-breaks.mdx
 content/polities/pagan/01-ten-thousand-temples.mdx
 content/polities/pagan/02-merit.mdx
 content/polities/pagan/03-1287.mdx
-content/polities/qara-khitai/01-a-dynasty-in-exile.mdx
-content/polities/qara-khitai/02-qatwan.mdx
-content/polities/qara-khitai/03-how-to-rule-what-you-cannot-outnumber.mdx
 content/polities/shaybanid/01-the-descent.mdx
 content/polities/shaybanid/02-babur.mdx
 content/polities/shaybanid/03-the-river.mdx
@@ -73,12 +66,6 @@ content/polities/shaybanid/06-the-line-runs-out.mdx
 content/polities/tang/02-an-lushan.mdx
 content/polities/tang/04-salt.mdx
 content/polities/tang/05-what-was-copied.mdx
-content/polities/tibetan-empire/01-plateau.mdx
-content/polities/tibetan-empire/02-the-council.mdx
-content/polities/uyghur-khaganate/01-manichaeans.mdx
-content/polities/uyghur-khaganate/02-what-they-left.mdx
-content/polities/xiongnu/01-xiongnu.mdx
-content/polities/xiongnu/02-the-sources.mdx
 content/polities/yuan/01-kublai.mdx
 content/polities/yuan/02-the-hundred-years.mdx
 content/polities/yuan/04-the-ortogh.mdx

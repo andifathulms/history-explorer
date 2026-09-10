@@ -4124,3 +4124,68 @@ sources:
       commentary carries the assumptions of that office, which is a reason to
       use the documents he printed rather than the frame he printed them in.
       Out of copyright.
+
+  - id: orkhon-ross
+    kind: primary
+    author: Bilge Qaghan and Yolig Tegin
+    title: "The Orkhon Inscriptions"
+    translator: E. Denison Ross
+    publisher: "Bulletin of the School of Oriental Studies, vol. V"
+    year: 1930
+    note: >-
+      The memorial stones raised in the Orkhon valley in 732 and 735 for Kul
+      Tegin and Bilge Qaghan, in Ross's English of Thomsen's final Danish
+      rendering. They are the oldest substantial texts in any Turkic language
+      and the only place a steppe empire of this period speaks at length in its
+      own voice — which is exactly what has to be watched: the text is a
+      qaghan's address to his own people, justifying his house, blaming its
+      subjects for its collapse and warning them off the Chinese, and every
+      campaign in it is a victory. Thomsen's readings carry a good many
+      bracketed queries and they are kept here. Out of copyright.
+
+  - id: bretschneider-1888
+    kind: primary
+    author: Emil Bretschneider
+    title: "Mediaeval Researches from Eastern Asiatic Sources, volume I"
+    publisher: Trubner
+    year: 1888
+    note: >-
+      A Russian legation physician in Peking who translated the Chinese sources
+      on Inner Asia in full and annotated them against the Persian and Arabic
+      ones. Cited here for his complete rendering of the Liao shi's account of
+      Yelu Dashi, which is the Qara Khitai founding as the dynasty's own
+      successor state told it. Bretschneider is a translator rather than an
+      interpreter and says so; his identifications of tribal names are
+      nineteenth-century guesses and are flagged as such in his notes. Out of
+      copyright.
+
+  - id: bushell-1880
+    kind: primary
+    author: S. W. Bushell
+    title: "The Early History of Tibet, from Chinese Sources"
+    publisher: "Journal of the Royal Asiatic Society, new series vol. XII"
+    year: 1880
+    note: >-
+      A translation of the Tibetan chapters of the Tang histories, with the
+      embassies, campaigns and treaty texts in full. It is the fullest
+      continuous narrative of the empire in any language other than Tibetan and
+      it is entirely a Chinese court's account of a rival: Tibetan victories
+      appear as frontier disturbances, Tibetan envoys arrive to submit, and the
+      chronology follows the reign years of the dynasty being attacked. Out of
+      copyright.
+
+  - id: masudi-meynard
+    kind: primary
+    author: al-Masudi
+    title: "Les Prairies d'or, volume II"
+    translator: Barbier de Meynard and Pavet de Courteille
+    publisher: Imprimerie Impériale, Paris
+    year: 1863
+    note: >-
+      A Baghdadi geographer and traveller writing in 943, in the French
+      translation printed with the Arabic. His chapter on the Caucasus and the
+      Caspian is the fullest contemporary description of the Khazar state there
+      is: the capital, the confessional courts, the Muslim guard and the terms
+      of its service. He did not go to Atil himself and says where he is
+      reporting rather than observing; he is also a compiler who prints what he
+      was told and leaves inconsistencies standing. Out of copyright.
