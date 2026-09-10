@@ -29,6 +29,23 @@ ended:
   by: []
   year: 1659
   source: abun-nasr-1987
+
+# The dynasty that ended the fragmentation and reigns in Morocco still. Named
+# rather than left as an absence; not an edge, because it has no record here.
+succeeded_by_external:
+  # The rendered line reads "{this polity} {type} {name}", so a successor row
+  # needs the passive: "conquered by" is the only one the vocabulary has.
+  - name: the Alawi sharifs of the Tafilalt
+    type: conquered by
+    year: null
+    note: >-
+      Another sharifian family, from Sijilmasa, took the country over the 1660s
+      from the tribal chiefs and saints' sons who had divided it: Mawlay
+      al-Rashid destroyed the Shabana at Marrakesh, had the body of their chief
+      taken from its grave and burnt, and crushed the house that held the Sous.
+      They stripped al-Mansur's palace, kept his argument, and reign in Morocco
+      still.
+    source: ifrani-houdas
 institutions:
   # Tribal contingents at the start; from al-Mansur a standing corps organised
   # on Ottoman lines with firearms and artillery, including renegades,
@@ -44,6 +61,20 @@ institutions:
   # dynasty since has made the same claim.
   legitimation: { values: [descent], source: abun-nasr-1987 }
 turning_points:
+  # Al-Ifrani, writing under the Alawis, is the Moroccan account; the Timbuktu
+  # chronicle of al-Sadi is the account from the other end, and it is the one
+  # that carries the documents.
+  - year: 1510
+    type: treaty
+    name: "The oath at Tedsi"
+    changed: >-
+      The jurists of the Masmuda and the chiefs of the tribes sent to a
+      sharifian family in the Draa asking it to lead them, and it accepted on
+      condition of a war against the Portuguese and won the war. A dynasty was
+      invited into existence by the people it would rule, on the argument that
+      the government in Fez would not fight.
+    source: ifrani-houdas
+    contested: false
   - year: 1541
     type: siege
     name: "Agadir taken back"
@@ -54,6 +85,18 @@ turning_points:
       been making for thirty years, and the Wattasids were finished eight years
       later.
     source: abun-nasr-1987
+    contested: false
+  - year: 1551
+    type: revolt
+    name: "The persecution of the lodges"
+    changed: >-
+      Muhammad al-Shaykh turned on the Sufi lodges of the south that had raised
+      his family to power, on the grounds that men claiming the standing of
+      shaykhs were a danger to the monarchy, and demanded back the deposits he
+      suspected them of holding. A shaykh asked whether the sultan did not
+      frighten him answered that God alone is to be feared, and that there were
+      two things nobody could take from them, water and the qibla.
+    source: ifrani-houdas
     contested: false
   - year: 1578
     type: battle
@@ -72,9 +115,10 @@ turning_points:
     changed: >-
       An army with firearms crossed the Sahara and destroyed a far larger
       Songhai force that had none, and Morocco held the Niger bend as a
-      pashalik. It is the first time a North African power took the southern
-      end of the gold road rather than the northern one, and it ended the last
-      of the great Sudanic empires.
+      pashalik. The war was declared over the salt works at Taghaza rather than
+      over gold: al-Mansur demanded them on the ground that he defended Islam
+      against the Christians and so had the better right, and the Timbuktu
+      chronicler says he saw the letter.
     source: hunwick-1999
     contested: false
 measures:

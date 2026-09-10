@@ -49,6 +49,22 @@ institutions:
   legitimation: { values: [conquest], source: abun-nasr-1987 }
 
 turning_points:
+  # Ibn Khaldun gives the founding as a confirmation rather than a revolt: the
+  # Almohad caliph al-Rashid sent Yaghmurasan a diploma appointing him at
+  # Tlemcen, and he outlived the authority that issued it.
+  - year: 1236
+    type: treaty
+    name: "A diploma from Marrakesh"
+    changed: >-
+      Yaghmurasan took over the command at Tlemcen when his brother died and
+      was confirmed in it by the Almohad caliph, then spent forty years turning
+      the appointment into a kingdom — buying Tenes outright from a losing
+      faction of the family that held it, and taking the Maghrawa by making
+      their chief his subordinate. Asked about a genealogy tracing him to
+      Idris, he said that if it were true it would profit them with God, but
+      that in this world they would owe their success only to their swords.
+    source: ibn-khaldun-de-slane
+    contested: false
   - year: 1299
     type: siege
     name: "The eight-year siege"
@@ -57,8 +73,9 @@ turning_points:
       it, built a walled city outside the walls — al-Mansura, with its own
       mosque, baths and palaces — to take over the trade the siege was
       strangling. They withdrew in 1307 when their sultan was murdered, and the
-      Zayyanids came out and demolished it. It is the clearest statement in
-      this corpus of what a medieval siege was actually competing for.
+      Zayyanids came out and demolished it. Almost every siege is a contest for
+      a place; this one was a contest for a route, and the method was to offer
+      the merchants a better address.
     source: abun-nasr-1987
     contested: false
   - year: 1337

@@ -47,11 +47,22 @@ institutions:
   # it. The Almoravids had a legal programme and the Almohads a mahdi; the
   # Marinids had neither, and what they asserted instead was that they were the
   # correct kind of Muslim government — Maliki, orthodox, endowing scholarship.
-  # `divine-sanction` would be false and `descent` would be false; conquest is
-  # what they actually had and what the coding records.
+  # Divine sanction would be false here and descent would be false; conquest is
+  # what they actually had, and it is what the coding records.
   legitimation: { values: [conquest], source: abun-nasr-1987 }
 
 turning_points:
+  - year: 1253
+    type: siege
+    name: "Sijilmasa"
+    changed: >-
+      Abu Yahya took the northern terminus of the western gold road by bribing
+      a man inside to hand over the Almohad commander, then held it against a
+      Zayyanid attempt four years later by entering the town on the morning of
+      the day his rival appeared before it. The dynasty was funded from that
+      point on.
+    source: ibn-khaldun-de-slane
+    contested: false
   - year: 1340
     type: battle
     name: "Rio Salado"
@@ -59,8 +70,8 @@ turning_points:
       A Castilian and Portuguese army destroyed the combined Marinid and
       Granadan force near Tarifa, and the last serious North African attempt to
       hold ground in Iberia ended. Algeciras went four years later. From here
-      the Islamic west is two separate theatres, and this site's Nasrid page
-      spends its remaining hundred and fifty years alone.
+      the Islamic west is two separate theatres, and Granada spent its
+      remaining hundred and fifty years without an ally who could reach it.
     source: abun-nasr-1987
     contested: false
   - year: 1348
@@ -74,6 +85,9 @@ turning_points:
       dynasty attempted it again.
     source: abun-nasr-1987
     contested: false
+  # Ibn Khaldun's account of the two decisive early acquisitions is in de
+  # Slane's fourth volume; Leo Africanus, who grew up in Fez, is the source for
+  # 1465 and for what the madrasas were like once the endowments had gone.
   - year: 1415
     type: siege
     name: "Ceuta"

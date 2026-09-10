@@ -32,9 +32,9 @@ institutions:
   military_basis: { values: [tribal-levy], source: abun-nasr-1987 }
   revenue_basis: { values: [land-tax, trade-toll], source: abun-nasr-1987 }
   succession_rule: { values: [nomination], source: abun-nasr-1987 }
-  # The weakest legitimation on any page in this region and the reason the
-  # dynasty fell: a Zenata family related to the Marinids, holding by having
-  # held. No descent from the Prophet, no doctrine, no caliphal grant.
+  # The thinnest claim any Moroccan dynasty ruled on, and the reason this one
+  # fell: a Zenata family related to the Marinids, holding by having held. No
+  # descent from the Prophet, no doctrine, no caliphal grant.
   legitimation: { values: [conquest], source: abun-nasr-1987 }
 turning_points:
   - year: 1471
@@ -46,6 +46,34 @@ turning_points:
       and the rest, until the Moroccan coast was a chain of foreign fortresses.
       A dynasty that could not answer that had nothing else to offer.
     source: abun-nasr-1987
+    contested: false
+  # Leo Africanus served this dynasty and campaigned with its army; al-Ifrani,
+  # writing under the Alawis, is the source for the last Wattasid's Turkish
+  # army and what became of it.
+  - year: 1472
+    type: siege
+    name: "New Fez"
+    changed: >-
+      Beaten once and driven off in disgrace, the Wattasid came back while the
+      sharif's best counsellor was away pacifying a province, besieged the
+      walled administrative city for a year with eight thousand men, and took it
+      by the treachery of the townsmen. The regents had become the dynasty, by
+      the same method the Marinids had used two centuries earlier, and with
+      nothing more to say for themselves than the Marinids had had.
+    source: leo-africanus-pory
+    contested: false
+  - year: 1554
+    type: revolt
+    name: "The Turks who stayed"
+    changed: >-
+      Abu Hassun retook Fez in January with an army borrowed from the Ottoman
+      pasha of Algiers, wept in the street as the city welcomed him back, paid
+      the Turks off within months because they were seizing women, and was
+      beaten in the field before the year was out. The few Turks who had not
+      gone home were taken into the victorious Saadi army as a special
+      division, and three years later they took its sultan's head off with an
+      axe and sent it to Constantinople.
+    source: ifrani-houdas
     contested: false
 measures:
   reach_km2: null

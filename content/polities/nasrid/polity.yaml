@@ -37,6 +37,25 @@ ended:
   year: 1492
   source: harvey-1990
 
+# The Crown that took Granada is a real successor with no record here, so it is
+# named rather than left as an absence. Not an edge: an edge joins two records.
+succeeded_by_external:
+  - name: the Crown of Castile and Aragon
+    type: conquered by
+    year: 1492
+    note: >-
+      Ferdinand and Isabella took the emirate town by town over ten years and
+      annexed it to Castile; the Capitulations that guaranteed the population
+      its religion and its law were declared void within seven years, and the
+      Muslim population of Spain was ordered to convert, then forbidden Arabic,
+      and finally expelled between 1609 and 1614.
+    source: harvey-1990
+
+# Al-Maqqari's Nafh al-Tib, compiled at Cairo in the 1630s, is the other main
+# authority for this record: he quotes Ibn Khaldun and Ibn al-Khatib at length
+# for the founding, and for the aftermath he is a witness — he visited Fez and
+# knew Boabdil's descendants there.
+
 institutions:
   # Andalusi levies and a professional guard, and for much of the fourteenth
   # century North African Zanata volunteers — the ghuzat, recruited from the
@@ -90,9 +109,9 @@ turning_points:
     contested: false
 
 measures:
-  # Taagepera does not tabulate the emirate. Its area was roughly that of three
-  # modern Spanish provinces, which is a figure this site cannot cite and will
-  # not compute from a map: hard rule 5.
+  # Taagepera does not tabulate the emirate, and no work consulted publishes a
+  # km2 figure for it. Its area was roughly that of three modern Spanish
+  # provinces; that is not a citation and no figure is computed from a map.
   reach_km2: null
   peak_population: null
   influence:
