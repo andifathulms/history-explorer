@@ -70,14 +70,24 @@ export function Hint({
         <span className="sr-only">What {label} means</span>
       </button>
 
-      <span
-        id={id}
-        hidden={!open}
-        role="note"
-        className="absolute start-0 top-[calc(100%+6px)] z-20 block w-[248px] border border-kashi/25 bg-kaghaz-lift p-3 text-[14px] font-normal not-italic normal-case leading-relaxed tracking-normal text-dawat/85 shadow-paper"
-      >
-        {children}
-      </span>
+      {/* Rendered only when open, never `hidden` plus a display class.
+          Tailwind's `block` is an author rule and the `[hidden] { display:
+          none }` it is fighting comes from the user agent, so the class wins
+          and every panel on the page stood open at once — three definitions
+          lying across the prose of three turning points.
+
+          The face is reset explicitly. This sits inside a mono uppercase
+          badge and inherits all of it, so a definition came out as tracked-out
+          monospace: readable, but not a sentence. */}
+      {open ? (
+        <span
+          id={id}
+          role="note"
+          className="absolute start-0 top-[calc(100%+6px)] z-20 block w-[248px] max-w-[76vw] border border-kashi/25 bg-kaghaz-lift p-3 font-latin text-[14px] font-normal normal-case not-italic leading-relaxed tracking-normal text-dawat/85 shadow-paper"
+        >
+          {children}
+        </span>
+      ) : null}
     </span>
   )
 }

@@ -193,6 +193,20 @@
     color: theme('colors.dawat.DEFAULT');
   }
 
+  /* `hidden` beats any display utility that happens to sit beside it.
+
+     The browser's own [hidden] rule lives in the user-agent stylesheet, and
+     an author class beats a user-agent rule whatever the specificity — so a
+     `hidden={!open}` panel carrying Tailwind's `block` stood open regardless
+     of its state. Three definition popovers lay across the prose of three
+     turning points on every page that had them. Restating the rule here puts
+     it in the author cascade, where `!important` settles it for good.
+
+     Toggle visibility with the attribute and let this decide the rest. */
+  [hidden] {
+    display: none !important;
+  }
+
   /* Long-form text must not force horizontal scroll at 100% zoom. */
   p, li, blockquote, h1, h2, h3 {
     overflow-wrap: break-word;
