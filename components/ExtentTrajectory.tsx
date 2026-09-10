@@ -88,7 +88,7 @@ export function ExtentTrajectory({ polity }: { polity: Polity }) {
         Extent over time
       </SectionHead>
 
-      <figure className="mt-6 max-w-[52rem]">
+      <figure className="mt-6 max-w-data">
         {/* The gutters are half a column plus a label's overhang. A column at
             year zero of the span sits on the container's own edge, so a
             centred bar and its centred caption were both half outside the
@@ -153,7 +153,7 @@ export function ExtentTrajectory({ polity }: { polity: Polity }) {
 
       {/* The authoritative rendering. The columns show the shape; this is the
           data, with the citation on every row. */}
-      <ol className="mt-6 max-w-[52rem]">
+      <ol className="mt-6 max-w-data">
         {points.map((p) => (
           <li
             key={p.at}

@@ -53,7 +53,7 @@ export function Facts({ polity }: { polity: Polity }) {
       <SectionHead ground="paper" id="facts-heading">
         Facts
       </SectionHead>
-      <dl className="max-w-[62rem]">
+      <dl className="max-w-data">
         <Row label="Core region">{p.core_region || <Gap />}</Row>
 
         <Row label="Capitals">

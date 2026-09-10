@@ -90,6 +90,16 @@ const config: Config = {
       },
       maxWidth: {
         measure: '68ch',
+        /**
+         * The one width for tabular and figure blocks, as against `measure`
+         * for prose. The polity page had four — prose at 68ch, the fact lists
+         * at 62rem, the turning points and the extent chart at 52rem, and the
+         * contemporaries columns at the full shell — stacked down one page
+         * with a common left edge and a right edge that stepped in and out for
+         * no reason a reader could learn. Two widths is a rhythm; four is a
+         * wobble.
+         */
+        data: '56rem',
         shell: '1240px',
       },
       transitionTimingFunction: {

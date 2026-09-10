@@ -125,7 +125,7 @@ export function RatingPanel({
         </span>
       </button>
 
-      <div id="rating-body" hidden={!open}>
+      <div id="rating-body" hidden={!open} className="max-w-data">
         <p className="max-w-measure text-[15px] leading-relaxed text-debu-ink">
           Four axes, all computed from cited numbers and never from editorial judgement.
           Percentiles are against every polity written up here — {fieldSize} of them —

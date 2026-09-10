@@ -81,7 +81,7 @@ function Folded({ list, noun }: { list: Contemporary[]; noun: string }) {
 
   if (list.length <= FOLD_ABOVE) {
     return (
-      <ul className="columns-1 gap-x-10 sm:columns-2 lg:columns-3">
+      <ul className="max-w-data columns-1 gap-x-10 sm:columns-2 lg:columns-3">
         {list.map((c) => (
           <Row key={c.id} c={c} />
         ))}
@@ -98,7 +98,7 @@ function Folded({ list, noun }: { list: Contemporary[]; noun: string }) {
 
   return (
     <>
-      <ul className="columns-1 gap-x-10 sm:columns-2 lg:columns-3">
+      <ul className="max-w-data columns-1 gap-x-10 sm:columns-2 lg:columns-3">
         {shown.map((c) => (
           <Row key={c.id} c={c} />
         ))}
@@ -112,7 +112,7 @@ function Folded({ list, noun }: { list: Contemporary[]; noun: string }) {
         <summary className="inline-block cursor-pointer font-mono text-micro uppercase tracking-[0.08em] text-firuze-ink hover:text-kashi">
           Show the remaining {rest.length}
         </summary>
-        <ul className="mt-3 columns-1 gap-x-10 sm:columns-2 lg:columns-3">
+        <ul className="mt-3 max-w-data columns-1 gap-x-10 sm:columns-2 lg:columns-3">
           {rest.map((c) => (
             <Row key={c.id} c={c} />
           ))}

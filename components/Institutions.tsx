@@ -148,7 +148,7 @@ export function Institutions({ polity }: { polity: Polity }) {
         How it was governed
       </SectionHead>
 
-      <dl className="max-w-[62rem]">
+      <dl className="max-w-data">
         {FIELDS.map((f) => (
           <Row key={f.key} label={f.label} hint={f.hint} coded={inst[f.key]} />
         ))}

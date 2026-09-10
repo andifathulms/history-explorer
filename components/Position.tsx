@@ -249,7 +249,7 @@ export function Position({
 
       <Resumption earlier={resumes} later={resumedBy} />
 
-      <div className="grid gap-10 md:grid-cols-2">
+      <div className="grid max-w-data gap-10 md:grid-cols-2">
         <div>
           <h3 className="font-display text-[19px] font-semibold text-kashi-deep">
             What led here
@@ -360,7 +360,7 @@ export function Transfers({ lost, gained }: { lost: Transfer[]; gained: Transfer
         This is not succession and draws no thread &mdash; territory changing hands
         says nothing about what became what.
       </p>
-      <div className="mt-6 grid gap-10 md:grid-cols-2">
+      <div className="mt-6 grid max-w-data gap-10 md:grid-cols-2">
         {lost.length ? (
           <div>
             <h3 className="font-display text-[19px] font-semibold text-kashi-deep">Lost</h3>

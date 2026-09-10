@@ -63,7 +63,7 @@ export function TurningPoints({ polity }: { polity: Polity }) {
         Turning points
       </SectionHead>
 
-      <ol className="max-w-[52rem]">
+      <ol className="max-w-data">
         {points.map((t) => (
           <li key={`${t.year}-${t.name}`} className="border-t border-kashi/15 py-4 first:border-t-0">
             <p className="flex flex-wrap items-baseline gap-x-3 gap-y-1">

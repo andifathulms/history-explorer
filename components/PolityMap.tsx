@@ -50,7 +50,7 @@ export function PolityMap({ polity }: { polity: Polity }) {
         Extent
       </SectionHead>
 
-      <div className="grid gap-8 md:grid-cols-[minmax(0,1fr)_16rem] md:items-start">
+      <div className="grid max-w-data gap-8 md:grid-cols-[minmax(0,1fr)_16rem] md:items-start">
         <div className="overflow-hidden rounded border border-dawat-edge bg-dawat">
           <svg
             viewBox={`0 0 ${map.width} ${map.height}`}
