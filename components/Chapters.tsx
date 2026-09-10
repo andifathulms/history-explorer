@@ -23,8 +23,9 @@ const components = {
     <p className="mt-5 max-w-measure text-body text-dawat/88" {...p} />
   ),
   /**
-   * A `##` inside a chapter body, rendered as an h3 because the chapter's own
-   * title is already the h2 above it. Until this existed the corpus's 784
+   * A `##` inside a chapter body, rendered as an h4 because the chapter's own
+   * title is the h3 above it and the section's heading the h2 above that.
+   * Until this existed the corpus's 784
    * subheadings had no styling at all: they inherited body type and the browser
    * default margin collapsed against the paragraph above, so "The double claim"
    * read as the last line of the preceding sentence rather than the opening of
@@ -32,13 +33,13 @@ const components = {
    * belong visibly to what follows it, not to what it interrupts.
    */
   h2: (p: React.HTMLAttributes<HTMLHeadingElement>) => (
-    <h3
+    <h4
       className="mt-12 max-w-measure font-display text-[19px] font-semibold leading-snug text-kashi-deep"
       {...p}
     />
   ),
   h3: (p: React.HTMLAttributes<HTMLHeadingElement>) => (
-    <h4
+    <h5
       className="mt-10 max-w-measure font-display text-[17px] font-semibold leading-snug text-kashi-deep"
       {...p}
     />
@@ -84,7 +85,12 @@ async function One({ chapter }: { chapter: Chapter }) {
 
   return (
     <article className="mt-16 scroll-mt-28 first:mt-0" id={chapter.slug}>
-      <h2 className="font-display text-chapter text-kashi-deep">{chapter.title}</h2>
+      {/* h3, not h2. The section's own heading is the h2, and a chapter is
+          inside it — but both used to be h2, so a screen reader read
+          "Chapters" and "The rise of the Samanids" as peers while the page set
+          one at 12px mono uppercase and the other at 30px display. The outline
+          and the type scale now agree about which contains which. */}
+      <h3 className="font-display text-chapter text-kashi-deep">{chapter.title}</h3>
 
       {/* Hard rule 4: every chapter names its source, on the page, in the
           reading flow. Provenance in a footnote is provenance nobody reads. */}
