@@ -176,16 +176,26 @@ export default function PolitiesIndex() {
                   </p>
                 ) : null}
 
-                {/* The grid draws its rules as 1px gaps over a tinted parent,
-                    which means a part-filled last row leaves the tint showing
-                    where a card should be. The fillers close the rectangle at
-                    each column count; they are decoration, so they are hidden
-                    from the accessibility tree. */}
-                <ul className="mt-8 grid gap-px border border-kashi/12 bg-kashi/12 md:grid-cols-2 xl:grid-cols-3">
+                {/* Rules on the cells, not gaps over a tinted parent.
+
+                    The tinted-parent trick needs filler cells to close the
+                    rectangle whenever the last row is part-filled, and the
+                    fillers were painted the same raised paper as a real card —
+                    so a two-polity region in a three-column grid drew a blank
+                    panel sitting exactly where a third polity would be. There
+                    were 55 of them across the page.
+
+                    Each cell draws its own top and left rule and the list
+                    closes the rectangle with a right and a bottom. Same
+                    lattice, nothing to fill: a short last row simply ends. */}
+                <ul className="mt-8 grid border-b border-r border-kashi/12 md:grid-cols-2 xl:grid-cols-3">
                   {ps.map((p) => {
                     const n = getChapters(p.id).length
                     return (
-                      <li key={p.id} className="bg-kaghaz-raise">
+                      <li
+                        key={p.id}
+                        className="border-l border-t border-kashi/12 bg-kaghaz-raise"
+                      >
                         <Link
                           href={`/polity/${p.id}/`}
                           className="group flex h-full flex-col p-6 transition-colors hover:bg-kaghaz-lift"
@@ -260,16 +270,6 @@ export default function PolitiesIndex() {
                       </li>
                     )
                   })}
-                  {Array.from({ length: (3 - (ps.length % 3)) % 3 }).map((_, i) => (
-                    <li key={`f3-${i}`} aria-hidden className="hidden bg-kaghaz-raise xl:block" />
-                  ))}
-                  {Array.from({ length: (2 - (ps.length % 2)) % 2 }).map((_, i) => (
-                    <li
-                      key={`f2-${i}`}
-                      aria-hidden
-                      className="hidden bg-kaghaz-raise md:block xl:hidden"
-                    />
-                  ))}
                 </ul>
 
                 {ctx.length ? (
