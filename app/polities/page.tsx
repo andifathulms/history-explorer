@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { formatSpan } from '@/lib/years'
+import { formatSpan, formatYear } from '@/lib/years'
 import {
   loadCorpus,
   politiesInRegion,
@@ -11,7 +11,7 @@ import {
 import { scriptLang } from '@/lib/scripts'
 import { Page, Shell, PageHead } from '@/components/Shell'
 import { CrossCut, type CrossCutPolity } from '@/components/CrossCut'
-import { formatKm2, formatPopulation } from '@/lib/gaps'
+import { formatKm2 } from '@/lib/gaps'
 
 export const metadata: Metadata = {
   title: 'Polities',
@@ -25,6 +25,30 @@ export default function PolitiesIndex() {
   // contents list.
   const groups = regionsByGroup((r) => isPopulatedRegion(r.id))
   const regionCount = groups.reduce((n, g) => n + g.regions.length, 0)
+
+  /**
+   * What the cards can actually show, counted rather than assumed.
+   *
+   * Every card used to carry three measures and only one of them was ever
+   * populated: `peak_population` is null for all 212 records, so 212 cards
+   * printed "Population — No cited figure", and reach is cited for 60, so 152
+   * more printed it for reach. Of 636 stat rows, 364 were that sentence.
+   *
+   * Hard rule 3 stands: a null is "No cited figure" and never a zero, wherever
+   * the figure is the subject. It is the subject on a polity page, where the
+   * gap says this polity's population is not known. On a browsing index a
+   * field with no values anywhere says nothing about any polity in particular
+   * — it is a column, not a gap, and repeating it 212 times buries the reach
+   * gap, which is real and does draw a distinction.
+   *
+   * So the coverage is stated once, here, and counted at build the way the
+   * rankings sliders count theirs — which means the page starts carrying a
+   * population line again on its own, the day a figure is entered.
+   */
+  const withReach = narrative.filter((p) => p.measures.reach_km2?.value != null).length
+  const withPopulation = narrative.filter(
+    (p) => p.measures.peak_population?.value != null,
+  ).length
 
   // Only what the cross-cut actually reads. Passing whole polities across the
   // server/client boundary would ship every chapter body into the bundle.
@@ -49,6 +73,15 @@ export default function PolitiesIndex() {
               Regions are a browsing convenience, not a claim that the polities inside one
               were a single civilisation — and not a ranking. A region carries a thread
               only where sourced edges actually join two of its polities.
+            </p>
+            {/* Said once, at the top, instead of once per card. Both figures
+                are counted at build, so the sentence corrects itself. */}
+            <p className="mt-4 text-[17px] leading-relaxed text-debu-ink">
+              A cited extent exists for {withReach} of {narrative.length}.{' '}
+              {withPopulation === 0
+                ? 'No source consulted so far gives a peak population for any of them, so the cards carry no population line at all.'
+                : `A peak population exists for ${withPopulation}.`}{' '}
+              Coverage claims no completeness.
             </p>
           </PageHead>
 
@@ -184,6 +217,27 @@ export default function PolitiesIndex() {
                               Chapters
                             </dt>
                             <dd className="font-mono tabular-nums text-dawat/75">{n}</dd>
+                            {/* How it ended, in place of the population line.
+                                Coded for every record, one word, and the most
+                                differentiating thing a card can carry — two
+                                polities of the same size and century are told
+                                apart by whether one was conquered and the
+                                other fragmented. */}
+                            <dt className="font-mono text-micro uppercase text-debu-ink">
+                              Ended
+                            </dt>
+                            <dd className="font-mono tabular-nums text-dawat/75">
+                              {p.ended ? (
+                                <>
+                                  {p.ended.type}
+                                  {p.ended.year != null ? `, ${formatYear(p.ended.year)}` : ''}
+                                </>
+                              ) : (
+                                <span className="font-latin italic text-debu-ink">
+                                  No cited figure
+                                </span>
+                              )}
+                            </dd>
                             <dt className="font-mono text-micro uppercase text-debu-ink">
                               Reach
                             </dt>
@@ -196,18 +250,11 @@ export default function PolitiesIndex() {
                             >
                               {formatKm2(p.measures.reach_km2?.value ?? null)}
                             </dd>
-                            <dt className="font-mono text-micro uppercase text-debu-ink">
-                              Population
-                            </dt>
-                            <dd
-                              className={
-                                p.measures.peak_population?.value == null
-                                  ? 'italic text-debu-ink'
-                                  : 'font-mono tabular-nums text-dawat/75'
-                              }
-                            >
-                              {formatPopulation(p.measures.peak_population?.value ?? null)}
-                            </dd>
+                            {/* No population row. It has never carried a value
+                                on any record, and the sentence under the page
+                                head says so once — see the note by
+                                `withPopulation`. When one is entered, put the
+                                row back. */}
                           </dl>
                         </Link>
                       </li>
@@ -238,8 +285,7 @@ export default function PolitiesIndex() {
           ))}
 
           <p className="mt-20 border-t border-kashi/15 pt-6 font-mono text-micro uppercase text-debu-ink">
-            {narrative.length} polities read · {regionCount} regions · coverage claims
-            no completeness
+            {narrative.length} polities read · {regionCount} regions
           </p>
         </Shell>
       </main>
