@@ -11,6 +11,7 @@ import {
 import { scriptLang } from '@/lib/scripts'
 import { Page, Shell, PageHead } from '@/components/Shell'
 import { CrossCut, type CrossCutPolity } from '@/components/CrossCut'
+import { RegionNav, type NavGroup } from '@/components/RegionNav'
 import { formatKm2 } from '@/lib/gaps'
 
 export const metadata: Metadata = {
@@ -45,6 +46,18 @@ export default function PolitiesIndex() {
    * rankings sliders count theirs — which means the page starts carrying a
    * population line again on its own, the day a figure is entered.
    */
+  // The gutter's list, built from the same grouping the sections render under.
+  const navGroups: NavGroup[] = groups.map((g) => ({
+    id: g.id,
+    name: g.name,
+    regions: g.regions.map((r) => ({
+      id: r.id,
+      name: r.name,
+      count: politiesInRegion(r.id).filter((p) => !p.context_only).length,
+      thread: Boolean(r.thread),
+    })),
+  }))
+
   const withReach = narrative.filter((p) => p.measures.reach_km2?.value != null).length
   const withPopulation = narrative.filter(
     (p) => p.measures.peak_population?.value != null,
@@ -62,8 +75,13 @@ export default function PolitiesIndex() {
 
   return (
     <Page ground="paper" current="Polities">
-      <main id="main" className="flex-1">
-        <Shell className="pb-24">
+      <Shell className="flex-1 pb-24">
+        <div className="flex gap-12">
+          <aside className="hidden shrink-0 pt-16 lg:block lg:w-[224px]">
+            <RegionNav groups={navGroups} />
+          </aside>
+
+          <main id="main" className="min-w-0 flex-1">
           <PageHead kicker="The reading core" title="Polities" ground="paper">
             {/* Not "a peak-extent map". The map is the nearest snapshot to
                 the cited peak and the polity page says so in as many words —
@@ -104,7 +122,11 @@ export default function PolitiesIndex() {
               headings give a reader something to aim at before they have
               learned twenty-two names. The shelves are geographic and carry no
               thread; see REGION_GROUPS in lib/types.ts for why that matters. */}
-          <nav aria-label="Regions" className="mt-12 border-t border-kashi/15 pt-8">
+          {/* Mobile only. On a wide screen the gutter carries the same
+              thirty-five links permanently, and two lists of them is one list
+              too many; below `lg` there is no gutter, so this is the only way
+              in and it stays. */}
+          <nav aria-label="Regions" className="mt-12 border-t border-kashi/15 pt-8 lg:hidden">
             <h2 className="kicker text-debu-ink">Jump to a region</h2>
             <div className="mt-6 grid gap-x-10 gap-y-9 sm:grid-cols-2 lg:grid-cols-3">
               {groups.map((g) => (
@@ -297,11 +319,18 @@ export default function PolitiesIndex() {
 
           <CrossCut polities={crossCut} />
 
-          <p className="mt-20 border-t border-kashi/15 pt-6 font-mono text-micro uppercase text-debu-ink">
-            {narrative.length} polities read · {regionCount} regions
-          </p>
-        </Shell>
-      </main>
+          <div className="mt-20 flex flex-wrap items-baseline justify-between gap-x-6 gap-y-3 border-t border-kashi/15 pt-6 font-mono text-micro uppercase text-debu-ink">
+            <p>
+              {narrative.length} polities read · {regionCount} regions
+            </p>
+            {/* 871,000 characters is a long way back. */}
+            <a href="#main" className="transition-colors hover:text-firuze-ink">
+              Back to top
+            </a>
+          </div>
+          </main>
+        </div>
+      </Shell>
     </Page>
   )
 }
