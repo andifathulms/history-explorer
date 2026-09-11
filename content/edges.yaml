@@ -730,6 +730,28 @@ edges:
     source: twitchett-1979
     contested: false
 
+  - from: tang
+    to: five-dynasties
+    type: overthrew
+    year: 907
+    note: "Zhu Wen, a general who had defected from Huang Chao's rebellion,
+           spent the 890s eliminating his rivals, massacred the eunuchs in
+           903, moved the emperor to Luoyang and had him murdered in 904,
+           and deposed the boy who replaced him in 907."
+    source: twitchett-1979
+    contested: false
+
+  - from: five-dynasties
+    to: song
+    type: overthrew
+    year: 960
+    note: "Zhao Kuangyin, a general who had served the Later Zhou's own
+           reunification campaigns, was proclaimed emperor by his troops on
+           campaign and returned to the capital to take the throne without a
+           fight."
+    source: boulger-1898
+    contested: false
+
   - from: qin
     to: han
     type: overthrew

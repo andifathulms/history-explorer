@@ -38,17 +38,9 @@ ended:
   year: 1279
   source: boulger-1898
 
-preceded_by_external:
-  - name: the Later Zhou and the four other Five Dynasties
-    type: overthrew
-    year: 960
-    note: >-
-      The Tang collapse in 907 left north China to five short-lived military
-      regimes in fifty-three years, the last of them the Later Zhou. Zhao
-      Kuangyin, a general who had served the Later Zhou's own reunification
-      campaigns, was proclaimed emperor by his troops on campaign and returned
-      to the capital to take the throne without a fight.
-    source: boulger-1898
+# The Five Dynasties, once named here in prose, now has a full record of its
+# own and the relationship is drawn as an edge instead.
+preceded_by_external: []
 
 institutions:
   # Boulger describes Taizu founding an examined, promoted professional force

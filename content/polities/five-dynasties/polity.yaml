@@ -1,0 +1,127 @@
+id: five-dynasties
+region: china
+
+name:
+  latin: The Five Dynasties
+  script: 五代
+  script_lang: zh
+
+span:
+  start: { min: 907, max: 907, source: twitchett-1979 }
+  end: { min: 960, max: 960, source: boulger-1898 }
+
+identity: >-
+  Five military regimes in fifty-three years, each one founded by a general
+  deposing or destroying the last, occupying the old Tang capitals of
+  Kaifeng and Luoyang in succession while ten separate kingdoms ran their
+  own courts in the south - the interregnum between two of the most durable
+  dynasties China ever had, remembered less for anything any one of the
+  five accomplished than for how little time each of them was given to
+  accomplish it.
+
+capitals:
+  - { name: Kaifeng (Bianliang), script: 開封, source: boulger-1898 }
+  - { name: Luoyang, script: 洛陽, source: boulger-1898 }
+
+core_region: North China; the Tang heartland between the Yellow River and the Yangtze
+
+rulers:
+  founder: { name: Zhu Wen (Emperor Taizu of Later Liang), source: boulger-1898 }
+  peak: { name: Emperor Mingzong of Later Tang, reign: [926, 933], source: boulger-1898 }
+  last: { name: Emperor Gong of Later Zhou, source: boulger-1898 }
+
+scripts_and_languages:
+  administration: [Chinese]
+  writing_system: Chinese
+
+ended:
+  type: dynastic replacement
+  by: [song]
+  year: 960
+  source: boulger-1898
+
+institutions:
+  # Three of the five houses - Later Tang, Later Jin, Later Han - were
+  # founded by generals of Shatuo Turkic descent commanding armies raised on
+  # the northern frontier; two of them, Later Jin above all, held their
+  # throne only by client status to the Khitan Liao. A standing army was the
+  # whole of the state's institutional basis in every one of the five.
+  military_basis: { values: [standing-professional, client-levy], source: boulger-1898 }
+  revenue_basis: null
+  # None of the five houses passed its throne by an agreed rule. Each ended
+  # when a general with an army decided the moment had come, and the throne
+  # went to whoever's faction could make that decision stick.
+  succession_rule: { values: [factional], source: boulger-1898 }
+  legitimation: { values: [conquest], source: boulger-1898 }
+
+turning_points:
+  - year: 907
+    type: reform
+    name: Zhu Wen founds the Later Liang
+    changed: >-
+      A general who had risen through Huang Chao's rebellion before
+      defecting from it deposed the last Tang emperor and founded his own
+      dynasty, ending three centuries of Tang rule and opening the interval
+      the Tang's own decline had been heading toward for a generation.
+    source: twitchett-1979
+    contested: false
+  - year: 923
+    type: battle
+    name: The Later Liang destroyed
+    changed: >-
+      Li Cunxu, a rival who had proclaimed his own Tang-restoring dynasty
+      months earlier, took the Later Liang capital and drove its last ruler
+      to suicide - the first of what would be four more such replacements in
+      as many decades, each one following almost exactly the same pattern as
+      the one before it.
+    source: boulger-1898
+    contested: false
+  - year: 937
+    type: treaty
+    name: The Later Jin becomes the Khitan's vassal
+    changed: >-
+      For the first time in the interregnum, a dynasty's survival depended
+      openly on a foreign patron's army rather than on its own - a
+      dependency none of the four houses that followed ever fully escaped,
+      whatever they individually thought of the arrangement's dignity.
+    source: boulger-1898
+    contested: false
+  - year: 946
+    type: succession-crisis
+    name: The Later Han replaces the Later Jin
+    changed: >-
+      For once the throne changed hands without a Chinese general turning on
+      his own Chinese master - a foreign ruler's unfinished ambitions, cut
+      short by his own death, opened the gap that popular acclaim then
+      filled rather than any domestic act of betrayal.
+    source: boulger-1898
+    contested: false
+  - year: 950
+    type: succession-crisis
+    name: The Later Zhou replaces the Later Han
+    changed: >-
+      The fourth time in forty-three years that an army's own preference,
+      rather than any formal rule, had settled who would sit on the throne -
+      and, this time, the last dynasty of the five to reach the throne by
+      exactly that method.
+    source: boulger-1898
+    contested: false
+  - year: 960
+    type: succession-crisis
+    name: Zhao Kuangyin founds the Song
+    changed: >-
+      A general serving the Later Zhou's own child emperor was acclaimed by
+      his troops on campaign in the same pattern that had ended each of the
+      four dynasties before it - except this time the new ruler spent his
+      reign building institutions designed specifically to make sure no
+      general would ever be able to repeat what he himself had just done.
+    source: boulger-1898
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: boulger-1898 }
+    religions_carried: { count: 0, items: [], source: boulger-1898 }
+    successor_claims: { count: 0, items: [], source: boulger-1898 }

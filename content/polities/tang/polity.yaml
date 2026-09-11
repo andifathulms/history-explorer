@@ -30,25 +30,15 @@ scripts_and_languages:
 
 ended:
   type: fragmentation
-  by: []
+  by: [five-dynasties]
   year: 907
   source: twitchett-1979
 
 # The Later Liang took the throne by abdication after the last emperor's
-# predecessor had been murdered, so the successor row omits `type`. The Sui,
-# once named here in prose, now has a full record of its own and the
-# relationship is drawn as an edge instead.
-succeeded_by_external:
-  - name: the Later Liang, and the Five Dynasties
-    year: 907
-    note: >-
-      Zhu Wen, a general who had defected from Huang Chao's rebellion, spent
-      the 890s eliminating his rivals, massacred the eunuchs in 903, moved the
-      emperor to Luoyang and had him murdered in 904, and deposed the boy who
-      replaced him in 907. What followed was fifty-three years of five dynasties
-      in the north and ten kingdoms in the south, and then a reunification under
-      the Song that put military governors permanently under civil officials.
-    source: twitchett-1979
+# predecessor had been murdered, so the successor row omits `type`. The Sui
+# and the Five Dynasties, once named here in prose, now have full records of
+# their own and the relationships are drawn as edges instead.
+succeeded_by_external: []
 
 turning_points:
   - year: 751
