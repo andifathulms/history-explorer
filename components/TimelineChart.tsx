@@ -128,7 +128,11 @@ export function TimelineChart({
       <div className="border-t border-kashi/15 pt-6">
         <div className="grid gap-6 md:grid-cols-2">
           <div>
-            <label htmlFor="timeline-filter" className="kicker text-debu-ink">
+            {/* `block`. A <label> is inline and an <input> is inline-block, so
+                with nothing between them the two sat on one line and the
+                label ran straight into the box. The year control below only
+                escaped it because a <div> happens to stand between. */}
+            <label htmlFor="timeline-filter" className="kicker block text-debu-ink">
               Filter the rows
             </label>
             <input
@@ -159,7 +163,7 @@ export function TimelineChart({
           </div>
 
           <div>
-            <label htmlFor="timeline-year" className="kicker text-debu-ink">
+            <label htmlFor="timeline-year" className="kicker block text-debu-ink">
               Stand at a year
             </label>
             <div className="mt-3 flex items-center gap-4">

@@ -78,7 +78,9 @@ export function PolityFilter({ total }: { total: number }) {
 
   return (
     <div className="mt-10 border-t border-kashi/15 pt-6">
-      <label htmlFor="polity-filter" className="kicker text-debu-ink">
+      {/* `block`, stated rather than inherited from the fact that a <div>
+          happens to follow it. See the note in TimelineChart. */}
+      <label htmlFor="polity-filter" className="kicker block text-debu-ink">
         Find a polity
       </label>
       <div className="mt-3 flex flex-wrap items-center gap-x-5 gap-y-2">
