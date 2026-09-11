@@ -1,0 +1,129 @@
+id: jin-sima
+region: china
+
+name:
+  latin: Jin Empire
+  script: 晉
+  script_lang: zh
+
+span:
+  start: { min: 265, max: 265, source: boulger-1898 }
+  end: { min: 420, max: 420, source: boulger-1898 }
+
+identity: >-
+  The dynasty a general's grandson built by inheriting the loyal service
+  three generations of his family had rendered to the state they eventually
+  took over, the one house to reunite the whole of the old Han territory
+  between the Three Kingdoms and the Sui - for barely a generation - before
+  its own princes tore the north apart from inside and its court spent the
+  next century ruling a reduced, southern half of what it had briefly held
+  whole.
+
+capitals:
+  - { name: Luoyang, script: 洛陽, from: 265, source: boulger-1898 }
+  - { name: Jiankang, script: 建康, from: 317, source: boulger-1898 }
+
+core_region: North China until 311, then the Yangtze valley and the south
+
+rulers:
+  founder: { name: Sima Yan (Emperor Wu), reign: [265, 290], source: boulger-1898 }
+  peak: { name: Sima Yan (Emperor Wu), reign: [265, 290], source: boulger-1898 }
+  last: { name: Sima Dewen (Emperor Gong), source: boulger-1898 }
+
+scripts_and_languages:
+  administration: [Chinese]
+  writing_system: Chinese
+
+ended:
+  type: dynastic replacement
+  by: []
+  year: 420
+  source: boulger-1898
+
+succeeded_by_external:
+  - name: the Liu Song
+    type: overthrew
+    year: 420
+    note: >-
+      Liu Yu, the general who had spent a decade winning back and then
+      losing again the territory that gave him his claim to power, forced
+      the last Jin emperor's abdication in a staged ceremony at Jiankang and
+      founded his own dynasty in its place - a transfer of the throne he had
+      already rehearsed two years earlier by having Gongdi's predecessor
+      strangled outright.
+    source: boulger-1898
+
+institutions:
+  # The founding conquest of Wu in 280 was won with river fleets built in
+  # Sichuan over twenty years and armies raised across the reunified north;
+  # sustaining that scale of standing force, rather than an occasional levy,
+  # is what let Sima Yan's generals close out the Three Kingdoms wars for
+  # good.
+  military_basis: { values: [standing-professional], source: boulger-1898 }
+  revenue_basis: { values: [land-tax], source: boulger-1898 }
+  succession_rule: null
+  legitimation: { values: [investiture, conquest], source: boulger-1898 }
+
+turning_points:
+  - year: 265
+    type: reform
+    name: Sima Yan deposes the last Wei emperor
+    changed: >-
+      A conquest three generations in the making - begun by Sima Yi's
+      service to the Cao family, continued by his sons' regencies over two
+      child emperors - was completed without a battle when Sima Yan deposed
+      Wei's last emperor and proclaimed himself the founder of a new house.
+    source: boulger-1898
+    contested: false
+  - year: 280
+    type: siege
+    name: The conquest of Wu
+    changed: >-
+      The last of the three claimants to the Han inheritance stopped
+      existing, and with it the very category of a Chinese state legitimately
+      rivalling another Chinese state - a condition of plurality that had
+      held, in one form or another, for the whole sixty years since the Han's
+      own collapse.
+    source: boulger-1898
+    contested: false
+  - year: 304
+    type: revolt
+    name: Liu Yuan declares himself King of Han
+    changed: >-
+      A Xiongnu chief settled for generations inside the empire's own
+      frontier, given a Chinese education and left in nominal charge of
+      forces the disintegrating Jin court could no longer directly command,
+      withdrew to Liaodong and proclaimed an independent kingdom, claiming
+      descent from the Han through the female line to give a Tartar conquest
+      a Chinese face.
+    source: boulger-1898
+    contested: false
+  - year: 311
+    type: catastrophe
+    name: The fall of Luoyang
+    changed: >-
+      A capital that had survived two earlier repulses fell on the third
+      attempt, ending the run of near-misses that had let the court believe,
+      for a few more years than the underlying arithmetic justified, that
+      the north might still be held.
+    source: boulger-1898
+    contested: false
+  - year: 317
+    type: capital-move
+    name: The court re-founded at Jiankang
+    changed: >-
+      With the north lost and a second emperor executed in captivity after
+      Chang'an's own fall, the dynasty continued south of the Yangtze under
+      a surviving prince - ruling, from that point on, only the portion of
+      China its armies had never actually had to win back from a Chinese
+      rival.
+    source: boulger-1898
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: boulger-1898 }
+    religions_carried: { count: 0, items: [], source: boulger-1898 }
+    successor_claims: { count: 0, items: [], source: boulger-1898 }

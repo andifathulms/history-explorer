@@ -729,6 +729,29 @@ edges:
            roads, the standardised weights and measures - while rejecting the
            harshness that had run it."
     source: loewe-twitchett-1986
+
+  - from: han
+    to: cao-wei
+    type: partitioned from
+    year: 220
+    note: "Emperor Xian abdicated to Cao Pi in a staged ceremony with three
+           ritual refusals, and was given a fief and allowed to live; he
+           outlived the man who took his throne. The empire had already been
+           divided among the commanders for thirty years, and Wei held the
+           recognised capital and most of its population when the ceremony
+           made the division formal."
+    source: loewe-twitchett-1986
+    contested: false
+
+  - from: cao-wei
+    to: jin-sima
+    type: overthrew
+    year: 265
+    note: "Three generations of the Sima family's loyal military service to
+           the Cao house ended with Sima Yan deposing its last emperor
+           without a battle, the same slow accumulation of indispensability
+           Cao Pi's own father had once used against the Han."
+    source: boulger-1898
     contested: false
 
   - from: liao

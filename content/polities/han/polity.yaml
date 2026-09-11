@@ -30,25 +30,16 @@ scripts_and_languages:
 
 ended:
   type: fragmentation
-  by: []
+  by: [cao-wei]
   year: 220
   source: loewe-twitchett-1986
 
-# Cao Wei took the throne by an abdication ceremony rather than a conquest, so
-# the successor row omits `type` and lets the note carry the relation. The
-# Qin, once named here in prose, now has a full record of its own and the
-# relationship is drawn as an edge instead.
-succeeded_by_external:
-  - name: Cao Wei, and the Three Kingdoms
-    year: 220
-    note: >-
-      Emperor Xian abdicated to Cao Pi in a staged ceremony with three ritual
-      refusals, and was given a fief and allowed to live; he outlived the man
-      who took his throne. The empire had already been divided among the
-      commanders for thirty years. Two of the three kingdoms that resulted
-      claimed the Han inheritance, and one of them, Shu Han, claimed to be the
-      dynasty itself continuing.
-    source: loewe-twitchett-1986
+# Cao Wei, once named here in prose, now has a full record of its own and the
+# relationship is drawn as an edge instead. The other two of the three
+# kingdoms the empire fragmented into, Wu and Shu Han, have no record here and
+# stay unnamed in `ended.by` for the same reason hard rule 7 gives an edge
+# only where a record exists to draw it to.
+succeeded_by_external: []
 
 institutions:
   # Universal male conscription: two years of service, one in the home commandery

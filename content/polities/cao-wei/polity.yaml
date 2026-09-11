@@ -1,0 +1,111 @@
+id: cao-wei
+region: china
+
+name:
+  latin: Cao Wei
+  script: 曹魏
+  script_lang: zh
+
+span:
+  start: { min: 220, max: 220, source: boulger-1898 }
+  end: { min: 265, max: 265, source: boulger-1898 }
+
+identity: >-
+  The largest and best-placed of the three successor states the Han broke
+  into, holding the recognized capital and most of the old empire's
+  population while its rivals held the court historians' sympathy instead,
+  and the state whose own regent's family took it over from the inside by
+  the same slow accumulation of loyal service that Cao Cao himself had once
+  used against the Han.
+
+capitals:
+  - { name: Luoyang, script: 洛陽, source: boulger-1898 }
+
+core_region: The central and northern Chinese provinces, from the Wei valley to the Liaodong peninsula
+
+rulers:
+  founder: { name: Cao Pi (Emperor Wen), source: boulger-1898 }
+  peak: { name: Cao Rui (Emperor Ming), source: boulger-1898 }
+  last: { name: Cao Huan (Emperor Yuan), source: boulger-1898 }
+
+scripts_and_languages:
+  administration: [Chinese]
+  writing_system: Chinese
+
+ended:
+  type: dynastic replacement
+  by: [jin-sima]
+  year: 265
+  source: boulger-1898
+
+institutions:
+  military_basis: { values: [standing-professional], source: boulger-1898 }
+  revenue_basis: null
+  # Cao Rui, dying without a son who could rule, left the throne to a nephew
+  # of eight and named the general Sima Yi as guardian - the throne passed by
+  # the dying emperor's own designation of an heir among his relatives, not
+  # by a fixed line of succession.
+  succession_rule: { values: [nomination], source: boulger-1898 }
+  legitimation: { values: [investiture], source: boulger-1898 }
+
+turning_points:
+  - year: 220
+    type: reform
+    name: The abdication of Emperor Xian
+    changed: >-
+      Cao Pi took the throne by ceremony rather than by battle, converting
+      three decades of his father's accumulated military and administrative
+      control into a formal dynasty - and setting the precedent his own
+      dynasty's regents would use against his own descendants two
+      generations later.
+    source: boulger-1898
+    contested: false
+  - year: 222
+    type: treaty
+    name: Sun Quan's submission
+    changed: >-
+      A second rival's formal deference, however insincere, let Wei's new
+      court present itself as the empire's recognised centre to every
+      foreign embassy still deciding which of the three successor states was
+      worth treating as the real one.
+    source: boulger-1898
+    contested: false
+  - year: 239
+    type: succession-crisis
+    name: A child emperor and a trusted general
+    changed: >-
+      Cao Rui died without an adult heir and left the throne to an
+      eight-year-old nephew, naming the general Sima Yi guardian of the boy
+      with his last breath - handing the family that would end the dynasty
+      the formal authority it needed to begin accumulating power inside it.
+    source: boulger-1898
+    contested: false
+  - year: 249
+    type: succession-crisis
+    name: Sima Yi curbs a rival minister
+    changed: >-
+      The one serious internal challenge to Sima Yi's position inside Wei's
+      own court failed quickly and left almost no trace in the record beyond
+      its own failure - itself a measure of how little room any rival now
+      had to operate in.
+    source: boulger-1898
+    contested: false
+  - year: 260
+    type: revolt
+    name: Cao Mao's doomed attack
+    changed: >-
+      An emperor in his teens, reduced to a cipher in his own palace, led a
+      handful of attendants against the residence of the regent Sima Zhao
+      rather than continue reigning as a formality - and was killed for it,
+      the clearest possible demonstration of how little the throne itself
+      now controlled.
+    source: boulger-1898
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: boulger-1898 }
+    religions_carried: { count: 0, items: [], source: boulger-1898 }
+    successor_claims: { count: 0, items: [], source: boulger-1898 }
