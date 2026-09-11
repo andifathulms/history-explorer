@@ -1185,6 +1185,17 @@ edges:
     source: mote-twitchett-1988
     contested: false
 
+  - from: ming
+    to: qing
+    type: overthrew
+    year: 1644
+    note: "A Ming general facing a rebel army on one side and Manchu forces on
+           the other invited the Manchus through Shanhaiguan to help him retake
+           Beijing from the rebel who had just destroyed the dynasty he served.
+           The Manchus took the capital as his allies and never left it."
+    source: boulger-1898
+    contested: false
+
   # Was `srivijaya -> majapahit`, `absorbed remnants of`, 1293, which asserted
   # the wrong thing: Majapahit did not absorb Srivijaya's remnants and 1293 is
   # the year it was founded, not the year anything passed between the two. What

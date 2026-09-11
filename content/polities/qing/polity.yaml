@@ -1,0 +1,163 @@
+id: qing
+region: china
+
+name:
+  latin: Qing Empire
+  script: 大清
+  script_lang: zh
+
+span:
+  start: { min: 1616, max: 1616, source: boulger-1898 }
+  end: { min: 1912, max: 1912, source: kent-1912 }
+
+identity: >-
+  A Jurchen clan's confederacy from beyond the Great Wall that a Ming
+  general's own invitation let into Beijing, that went on to rule more
+  territory and more people than any Chinese dynasty before it, and that
+  closed itself out in the same city with an edict its own last regent
+  countersigned, vesting sovereignty in the people it had spent two hundred
+  and seventy-six years ruling as subjects.
+
+capitals:
+  - { name: Mukden (Shenyang), script: 盛京, source: boulger-1898 }
+  - { name: Beijing, script: 北京, from: 1644, source: boulger-1898 }
+
+core_region: Manchuria, then China proper, Mongolia, Xinjiang and Tibet
+
+rulers:
+  founder: { name: Nurhaci, reign: [1616, 1626], source: boulger-1898 }
+  peak: { name: Qianlong Emperor, reign: [1735, 1796], source: boulger-1898 }
+  last: { name: Xuantong Emperor (Puyi), reign: [1908, 1912], source: kent-1912 }
+
+scripts_and_languages:
+  administration: [Manchu, Chinese, Mongolian]
+  writing_system: Manchu script and Chinese
+
+ended:
+  type: dynastic replacement
+  by: []
+  year: 1912
+  source: kent-1912
+
+institutions:
+  # The Eight Banners: Hong Taiji (Taitsong) organised the Manchu population
+  # into eight hereditary military corps, each with its own leader, flag and
+  # trumpeter, around 1635 - a standing force distinct from and eventually
+  # supplementing the disbanded Ming garrison system it replaced.
+  military_basis: { values: [standing-professional], source: boulger-1898 }
+  revenue_basis: { values: [land-tax], source: boulger-1898 }
+  # Kangxi personally designated his fourth son Yongzheng as heir over an
+  # elder, more popular half-brother who commanded the army in Central Asia -
+  # the throne passed by the reigning emperor's own choice, not by birth
+  # order.
+  succession_rule: { values: [nomination], source: boulger-1898 }
+  legitimation: { values: [conquest, divine-sanction], source: boulger-1898 }
+
+turning_points:
+  - year: 1616
+    type: reform
+    name: Nurhaci declares his dynasty
+    changed: >-
+      A Jurchen chief who had spent three decades avenging a family murder
+      and uniting rival clans by force converted that personal following into
+      a dynastic claim, backdating a ruling house to a year in which it
+      controlled nothing south of the frontier it had spent those decades
+      fighting along.
+    source: boulger-1898
+    contested: false
+  - year: 1635
+    type: reform
+    name: Hong Taiji claims the imperial title
+    changed: >-
+      A recovered seal and a cascade of Mongol and Korean submissions gave
+      Nurhaci's son a claim to imperial rank that no battlefield victory over
+      the Ming had yet earned him - the House's first assertion of equality
+      with the throne it was still nine years from actually reaching.
+    source: boulger-1898
+    contested: false
+  - year: 1644
+    type: siege
+    name: The fall of Beijing and the Manchu entry
+    changed: >-
+      A Ming general facing a peasant rebel's army on one side and Manchu
+      forces on the other chose the Manchus, opened the Shanhaiguan pass to
+      them, and watched them take Beijing as his allies rather than his
+      conquerors. What had been a border raid for three decades became, in a
+      single invited crossing, an occupation of the capital that never
+      reversed itself.
+    source: boulger-1898
+    contested: false
+  - year: 1673
+    type: revolt
+    name: The revolt of Wu Sangui
+    changed: >-
+      The Chinese general whose invitation had opened the gate to Beijing
+      thirty years earlier renounced the dynasty he had installed, cut off
+      his queue, and raised the south-west in rebellion - proving that
+      Manchu rule still rested, eight years into Kangxi's reign, on the
+      loyalty of Chinese generals who could still choose to withdraw it.
+    source: boulger-1898
+    contested: false
+  - year: 1839
+    type: catastrophe
+    name: Commissioner Lin and the First Opium War
+    changed: >-
+      An imperial commissioner's seizure and destruction of foreign opium
+      stocks at Canton, intended to close a trade the court had banned for
+      decades, produced instead a war the dynasty had no capacity to win and
+      a peace that opened Chinese ports to foreign power on foreign terms for
+      the first time.
+    source: boulger-1898
+    contested: false
+  - year: 1864
+    type: catastrophe
+    name: The fall of Nanjing and the end of the Taiping
+    changed: >-
+      Thirteen years after a failed examination candidate raised the standard
+      of revolt in Guangxi, Hong Xiuquan took poison rather than face the
+      Imperialist breach of his own capital, and the movement that had held
+      the Yangtze valley was broken within weeks of his death - by
+      provincial Chinese armies and a foreign-led mercenary corps the Qing
+      court had needed but never fully trusted.
+    source: boulger-1898
+    contested: false
+  - year: 1895
+    type: treaty
+    name: The Treaty of Shimonoseki
+    changed: >-
+      A humiliating peace, and the scramble among other powers to extract
+      their own price for softening it, showed every foreign government
+      watching that a defeated China's territory could now be had for the
+      taking - a lesson the next decade of concessions, leases and spheres of
+      influence drove home far past anything the treaty's own text required.
+    source: boulger-1898
+    contested: false
+  - year: 1911
+    type: revolt
+    name: The Wuchang uprising
+    changed: >-
+      An accidental bomb explosion in a revolutionary safe house forced a
+      premature rising among the New Army's own soldiers in Wuchang, and
+      within weeks province after province declared against a dynasty whose
+      New Policies reforms had, in the event, trained and armed the men who
+      overthrew it.
+    source: kent-1912
+    contested: false
+  - year: 1912
+    type: succession-crisis
+    name: The abdication
+    changed: >-
+      A monarchy that had entered China in 1644 on a Ming general's own
+      invitation left it in 1912 on paper rather than in flight or in chains -
+      a dynasty closed by signature, in the same imperial city where it had
+      begun by conquest, rather than by siege or battlefield defeat.
+    source: kent-1912
+    contested: false
+
+measures:
+  reach_km2: { value: 14700000, at: 1790, source: taagepera-1997 }
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: boulger-1898 }
+    religions_carried: { count: 0, items: [], source: boulger-1898 }
+    successor_claims: { count: 0, items: [], source: kent-1912 }
