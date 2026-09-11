@@ -38,6 +38,7 @@ export interface NavGroup {
 
 export function RegionNav({ groups }: { groups: NavGroup[] }) {
   const flat = groups.flatMap((g) => g.regions)
+  const threaded = flat.filter((r) => r.thread).length
   const [active, setActive] = useState<string | null>(flat[0]?.id ?? null)
   const box = useRef<HTMLDivElement>(null)
 
@@ -140,13 +141,12 @@ export function RegionNav({ groups }: { groups: NavGroup[] }) {
                     >
                       <span className="min-w-0">{r.name}</span>
                       {r.thread ? (
-                        <span
-                          aria-hidden="true"
-                          title="Carries a thread"
-                          className="ms-auto shrink-0 text-firuze-ink"
-                        >
-                          &#8942;
-                        </span>
+                        <>
+                          <span aria-hidden="true" className="ms-auto shrink-0 text-firuze-ink">
+                            &#8942;
+                          </span>
+                          <span className="sr-only"> — carries a thread</span>
+                        </>
                       ) : null}
                       <span
                         className={`font-mono text-micro tabular-nums ${
@@ -162,6 +162,21 @@ export function RegionNav({ groups }: { groups: NavGroup[] }) {
             </ul>
           </div>
         ))}
+
+        {/* What the mark means, in text.
+
+            It went up as a `title`, which is the one thing this codebase has
+            spent the week taking out of other components: a hover delay, no
+            keyboard focus, and nothing at all on touch. A glyph a reader
+            cannot ask about is decoration, and a vertical ellipsis on its own
+            reads as an overflow menu rather than as a thread. */}
+        <p className="mt-6 border-t border-kashi/15 pt-3 text-[12.5px] leading-snug text-debu-ink">
+          <span aria-hidden="true" className="text-firuze-ink">
+            &#8942;
+          </span>{' '}
+          marks the {threaded} regions where sourced edges join two polities, and a
+          thread can be walked.
+        </p>
       </nav>
     </div>
   )

@@ -171,9 +171,17 @@ export default function PolitiesIndex() {
               under them are h3: the group is a heading level, not a label, and
               a screen reader walking the outline should get the same two tiers
               the eye does. */}
-          {groups.map((g) => (
+          {groups.map((g, gi) => (
             <div key={g.id} data-group={g.id}>
-              <h2 className="mt-24 border-t-2 border-kashi/30 pt-5 font-display text-[26px] font-semibold text-kashi-deep">
+              {/* The shelf grid used to stand between the head and the first
+                  shelf on every screen. It is mobile-only now, so on a wide
+                  screen this margin was opening onto nothing — a hundred and
+                  seventy pixels of blank paper under the search field. */}
+              <h2
+                className={`border-t-2 border-kashi/30 pt-5 font-display text-[26px] font-semibold text-kashi-deep ${
+                  gi === 0 ? 'mt-14 lg:mt-10' : 'mt-24'
+                }`}
+              >
                 {g.name}
               </h2>
               {g.regions.map((r) => {
@@ -185,7 +193,7 @@ export default function PolitiesIndex() {
                 key={r.id}
                 id={r.id}
                 data-region-section={r.id}
-                className="scroll-mt-28 pt-20"
+                className="scroll-mt-28 pt-14"
               >
                 <div className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-2 border-t border-kashi/25 pt-5">
                   <div className="flex flex-wrap items-baseline gap-x-4 gap-y-1">
@@ -260,14 +268,25 @@ export default function PolitiesIndex() {
                             <h4 className="font-display text-[21px] font-semibold text-kashi-deep transition-colors group-hover:text-firuze-ink">
                               {p.name.latin}
                             </h4>
-                            {p.name.script ? (
-                              <p
-                                lang={p.name.script_lang ?? scriptLang(p.name.script ?? '')}
-                                className="mt-0.5 text-[19px] leading-snug text-kashi/70"
-                              >
-                                {p.name.script}
-                              </p>
-                            ) : null}
+                            {/* Always rendered, empty where there is none.
+                                Moving the script onto its own line fixed the
+                                wrapping, and left the other half: 169 of 212
+                                records carry a script name and 43 do not, so a
+                                row of three cards could put Saba' and Himyar's
+                                spans one line above the Ziyadids'. Reserving
+                                the line costs 43 cards a blank and buys every
+                                row one baseline. */}
+                            <p
+                              lang={
+                                p.name.script
+                                  ? (p.name.script_lang ?? scriptLang(p.name.script))
+                                  : undefined
+                              }
+                              aria-hidden={p.name.script ? undefined : true}
+                              className="mt-0.5 text-[19px] leading-snug text-kashi/70"
+                            >
+                              {p.name.script ?? '\u00A0'}
+                            </p>
                           </div>
                           <p className="mt-1.5 font-mono text-micro uppercase tabular-nums text-firuze-ink">
                             {formatSpan(p.span.start.min, p.span.end.max)}
