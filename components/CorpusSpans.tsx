@@ -98,9 +98,12 @@ export function CorpusSpans({ polities }: { polities: Polity[] }) {
                 rx={1.5}
                 className={p.context_only ? 'fill-kashi-soft/60' : 'fill-firuze/85'}
               >
+                {/* One string: React keeps a single text child on <title>
+                    and drops the rest, so this was rendering empty. */}
                 <title>
-                  {p.name.latin} — {formatYear(p.span.start.min)} to{' '}
-                  {formatYear(p.span.end.max)}
+                  {`${p.name.latin} — ${formatYear(p.span.start.min)} to ${formatYear(
+                    p.span.end.max,
+                  )}`}
                 </title>
               </rect>
             </g>

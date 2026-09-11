@@ -84,13 +84,18 @@ export function PolityMap({ polity }: { polity: Polity }) {
                 strokeWidth={1.5}
                 filter={`url(#soft-${polity.id}-${blurFor(s.precision)})`}
               >
+                {/* A single string. React takes one text child on <title>
+                    and drops the rest, so this had been shipping empty on
+                    every map since it was written: the shapes had no
+                    accessible name at all. */}
                 <title>
-                  {s.name} — border precision{' '}
-                  {s.precision === 3
-                    ? '3, determined by international law'
-                    : s.precision === 2
-                      ? '2, moderately precise'
-                      : '1, approximate'}
+                  {`${s.name} — border precision ${
+                    s.precision === 3
+                      ? '3, determined by international law'
+                      : s.precision === 2
+                        ? '2, moderately precise'
+                        : '1, approximate'
+                  }`}
                 </title>
               </path>
             ))}
