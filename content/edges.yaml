@@ -3320,3 +3320,14 @@ edges:
            Mughals almost without a battle."
     source: haig-1928
     contested: false
+
+  - from: khandesh
+    to: mughal
+    type: conquered by
+    year: 1601
+    note: "Bahadur Faruqi surrendered himself in person after a nine-month
+           siege of Asirgarh, but had ordered his African commander Yaqut
+           to hold the fortress regardless; it fell only after Yaqut's
+           suicide."
+    source: haig-1937
+    contested: false

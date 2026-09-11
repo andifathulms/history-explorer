@@ -1,0 +1,101 @@
+id: khandesh
+region: indian-sultanates
+
+name:
+  latin: Sultanate of Khandesh
+  script: سلطنت خاندیش
+  script_lang: fa
+
+span:
+  start: { min: 1382, max: 1382, source: haig-1928 }
+  end: { min: 1601, max: 1601, source: haig-1937 }
+
+identity: >-
+  A rebel against the Bahmani dynasty of the Deccan, not against Delhi,
+  who carved out the smallest and most exposed of the post-Timur
+  sultanates and named it for his own family's title - and whose last
+  king's African commander, ordered to hold an unassailable fortress
+  regardless of any order to surrender it, freed nearly fifty imprisoned
+  princes, begged one of them to take the crown and fight, and took
+  poison when none of them would.
+
+capitals:
+  - { name: Thalner, from: 1382, source: haig-1928 }
+  - { name: Burhanpur, from: 1400, source: haig-1928 }
+
+core_region: The Tapti valley, between Gujarat, Malwa and the Deccan
+
+rulers:
+  founder: { name: "Malik Ahmad (Malik Raja Faruqi)", reign: [1382, 1399], source: haig-1928 }
+  peak: { name: "Adil Khan II (Jharkhandi Sultan)", reign: [1457, 1501], source: haig-1928 }
+  last: { name: Bahadur Faruqi, source: haig-1937 }
+
+scripts_and_languages:
+  administration: [Persian]
+  writing_system: Perso-Arabic
+
+ended:
+  type: conquest
+  by: [mughal]
+  year: 1601
+  source: haig-1937
+
+institutions:
+  military_basis: null
+  revenue_basis: { values: [tribute], source: haig-1928 }
+  # A war of succession in 1501-08 was settled only by Gujarat's armed
+  # intervention on one candidate's behalf - the one point in the
+  # dynasty's history where the actual mechanism is recorded rather than
+  # merely its instability.
+  succession_rule: { values: [factional], source: haig-1928 }
+  legitimation: { values: [descent, conquest], source: haig-1928 }
+
+turning_points:
+  - year: 1382
+    type: revolt
+    name: A rebel against Bidar, not Delhi
+    changed: >-
+      Malik Ahmad, driven from the Deccan after backing a failed
+      rebellion against the Bahmani dynasty rather than against Delhi,
+      carved a small independent territory out of the Tapti valley and
+      ruled it under the plain title of Khan, giving the land its name.
+    source: haig-1928
+    contested: false
+  - year: 1508
+    type: succession-crisis
+    name: A grandson installed by force of arms
+    changed: >-
+      Seven years of a divided succession, fought between rival branches
+      of the Faruqi house backed respectively by Gujarat and by
+      Ahmadnagar, ended only when Mahmud Begada of Gujarat marched in
+      person to seat his own grandson on Khandesh's throne.
+    source: haig-1928
+    contested: false
+  - year: 1577
+    type: treaty
+    name: Submission to Akbar
+    changed: >-
+      A kingdom two larger neighbours had spent a century fighting over
+      by proxy finally submitted to one of them outright, formalising a
+      dependence its rulers had in practice already been living under
+      for decades.
+    source: haig-1928
+    contested: false
+  - year: 1601
+    type: siege
+    name: The surrender of Asirgarh
+    changed: >-
+      A nine-month siege ended not in an assault but in a personal
+      surrender at Akbar's camp, followed by the fortress's African
+      commander freeing the dynasty's imprisoned princes and taking his
+      own life rather than yield the citadel he had sworn to hold.
+    source: haig-1937
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
