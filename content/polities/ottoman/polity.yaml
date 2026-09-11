@@ -82,12 +82,10 @@ turning_points:
     type: battle
     name: "Ankara"
     changed: >-
-      Timur destroyed Bayezid's army, took him prisoner and restored the
-      Anatolian beyliks, and the Ottoman state broke into an eleven-year civil
-      war between his sons. That it reassembled — a dynasty losing its sultan,
-      its army and its Anatolian provinces and governing all of them again
-      within twenty years — is the first evidence that this was a state and not
-      a successful warband.
+      Timur destroyed Bayezid's army outside the city, took him prisoner, and
+      restored the Anatolian beyliks the Ottomans had spent the 1390s
+      absorbing. The state broke into an eleven-year civil war between
+      Bayezid's sons before it was governing the same provinces again.
     source: imber-2002
     contested: false
   - year: 1453
