@@ -1,0 +1,142 @@
+id: egypt-early-dynastic
+region: ancient-egypt
+
+name:
+  latin: "Egypt, Early Dynastic Period"
+  script: 𓆎𓅓𓏏𓊖
+  script_lang: egy
+
+# As with this site's Old Kingdom record, Shaw's figures are used for
+# consistency between the two, and the margin at this depth is a century or
+# more. The lower bound is the conventional date for the unification under
+# Narmer; the upper bound is where this site's Old Kingdom record begins, at
+# Djoser's accession.
+span:
+  start: { min: -3000, max: -3000, source: shaw-2000 }
+  end: { min: -2686, max: -2686, source: shaw-2000 }
+
+identity: >-
+  The two centuries between the unification of Upper and Lower Egypt and the
+  first building in cut stone: one kingship, working out for the first time
+  what governing the whole Nile valley from a single palace actually required.
+
+capitals:
+  - { name: Thinis, from: -3000, to: -2900, source: shaw-2000 }
+  - { name: Memphis, from: -2900, source: shaw-2000 }
+
+core_region: The Nile valley from the Delta to the First Cataract
+
+rulers:
+  founder: { name: Narmer, reign: [-3000, -2970], source: shaw-2000 }
+  peak: { name: Den, reign: [-2914, -2867], source: shaw-2000 }
+  last: { name: Khasekhemwy, reign: [-2707, -2686], source: shaw-2000 }
+
+scripts_and_languages:
+  administration: [Egyptian]
+  writing_system: Egyptian hieroglyphs
+
+# Djoser's Third Dynasty is conventionally treated as a new line, and the
+# ancient king-lists divide it there, but no source read here reports a
+# conquest or a rupture: the change the record can actually show is
+# institutional — stone building and the apparatus it required — not a
+# change of army or capital. Coded dynastic replacement on the strength of
+# the king-list convention, not on any recorded act of force.
+ended:
+  type: dynastic replacement
+  by: [egypt-old-kingdom]
+  year: -2686
+  source: shaw-2000
+
+institutions:
+  # Levies raised by province for a single campaign or building project and
+  # dismissed afterward; the same apparatus for both, which is the argument
+  # of the chapter on Den's reign. Egypt in this period had no standing
+  # military establishment distinct from its labour-and-tax administration.
+  military_basis: { values: [conscript], source: kemp-2018 }
+  # The biennial count of cattle, land and gold that the Palermo Stone names
+  # the years after is the earliest attested form of this state's revenue
+  # assessment, collected in kind. It is also, on the stone's own evidence,
+  # the origin of the dating system the rest of Egyptian history runs on.
+  revenue_basis: { values: [land-tax], source: breasted-1906 }
+  # Null. The throne passed within one family for most of this period, but
+  # no rule survives stating who was eligible, and the Second Dynasty's own
+  # crisis — a kingdom that split rather than settling on an heir — is
+  # itself evidence that no such rule was in force. Coding rule 7 takes the
+  # rule and not the outcome, and this is the same null this site's Old
+  # Kingdom record carries for the same reason, one dynasty later.
+  succession_rule: null
+  # The king is Horus in life; the developed theology in which he becomes
+  # Osiris at death belongs to the period after this one, but the identification
+  # with Horus is attested from the first serekh names and is not in dispute.
+  legitimation: { values: [divine-sanction, descent], source: shaw-2000 }
+
+turning_points:
+  - year: -3000
+    type: reform
+    name: "The unification"
+    changed: >-
+      Whatever the Narmer Palette actually records — a battle, a ceremony, or
+      the memory of a longer process compressed into one image — a single
+      kingship over the whole Nile valley from the Delta to the First
+      Cataract existed after this point that had not existed as a single
+      thing before it. Every institution this record describes was built to
+      administer that fact, not to bring it about.
+    source: shaw-2000
+    contested: true
+  - year: -2890
+    type: catastrophe
+    name: "The abandonment of retainer burial"
+    changed: >-
+      Hundreds of subsidiary burials accompany the tombs of the earliest
+      First Dynasty kings and then the practice stops within a few reigns,
+      without explanation surviving anywhere. Whatever else changed about
+      how the court demonstrated the king's reach, the willingness to
+      demonstrate it this way did not survive the dynasty that started it.
+    source: kemp-2018
+    contested: false
+  - year: -2700
+    type: succession-crisis
+    name: "Nynetjer divides the kingdom"
+    changed: >-
+      A king who had reigned for decades split the administration of Egypt
+      in two rather than pass it on whole, for reasons no surviving source
+      states. The kings who follow him are barely attested and some may have
+      ruled only part of the country at once — the first evidence since the
+      unification that the single kingship was not self-sustaining once the
+      man who held it stopped holding it.
+    source: shaw-2000
+    contested: true
+  - year: -2686
+    type: revolt
+    name: "Khasekhemwy's reunification"
+    changed: >-
+      A civil war fought under the rival banners of Horus and Seth ended
+      with one king claiming both: not a victory that erased the loser's
+      faction but a settlement that put both gods on the same serekh. The
+      kingship that emerged from it built the tomb whose dressed stone
+      chamber is the direct precedent for the building that begins this
+      site's next Egyptian record.
+    source: shaw-2000
+    contested: false
+
+measures:
+  # No source consulted publishes a figure specifically for this period
+  # rather than for dynastic Egypt as a whole, and the difference matters:
+  # this is the decades in which the borders of what "Egypt" meant were
+  # still being fixed. Null rather than reused from the Old Kingdom figure.
+  reach_km2: null
+  peak_population: null
+  influence:
+    # Hieroglyphic writing itself is attested from before this period
+    # (the Naqada III inscriptions) and hieratic, its administrative
+    # cursive form, develops within it — but no source read here credits a
+    # script's origin to this kingship specifically rather than to the
+    # broader late Predynastic-to-Early Dynastic transition, so: null.
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: 0, items: [], source: shaw-2000 }
+    # Zero. Every later Egyptian kingship is a continuation of the same
+    # institution of divine kingship rather than a later polity asserting
+    # this one's legitimacy by name, which is the same distinction this
+    # site's Old Kingdom record draws about its own influence on what
+    # followed it. Archaism is not a claim.
+    successor_claims: { count: 0, items: [], source: shaw-2000 }
