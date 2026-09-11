@@ -2869,6 +2869,38 @@ sources:
       about the sources are still worth reading, and it is cited here for the
       dynasty's fall and for what happened to its survivors.
 
+  - id: tabari-21-fishbein
+    kind: primary
+    author: Muhammad ibn Jarir al-Tabari
+    title: "The History of al-Tabari, Volume XXI: The Victory of the Marwanids"
+    translator: Michael Fishbein
+    publisher: State University of New York Press
+    year: 1990
+    note: >-
+      Annotated translation of the year-by-year chronicle for 66-73/685-693,
+      built from named ninth-century transmitters — chiefly al-Waqidi's
+      informants — quoting participants and witnesses rather than summarising
+      them. Used here for the siege of Mecca and the last day of Ibn
+      al-Zubayr: the farewell to his mother Asma, his death on the field, and
+      the display of his head, all given as direct reported speech from
+      people who said they were there. Tabari preserves competing versions
+      without choosing between them, which the notes make explicit.
+
+  - id: tabari-22-rowson
+    kind: primary
+    author: Muhammad ibn Jarir al-Tabari
+    title: "The History of al-Tabari, Volume XXII: The Marwanid Restoration"
+    translator: Everett K. Rowson
+    publisher: State University of New York Press
+    year: 1989
+    note: >-
+      Continues the chronicle into 74-81/693-701, covering al-Hajjaj's
+      governorship of Iraq after Mecca fell: the Kharijite Shabib b. Yazid,
+      who held out with a few hundred men and twice entered al-Kufah itself,
+      and the beginning of the unrest that grew into Ibn al-Ash'ath's revolt.
+      Used here for what holding the province actually required once the
+      war over the caliphate was already won elsewhere.
+
   - id: lestrange-1900
     kind: book
     author: Guy Le Strange
