@@ -62,6 +62,20 @@ succeeded_by_external:
       and never approached the Mauryan extent.
     source: thapar-2002
 
+institutions:
+  # Megasthenes' six-committee army administration - separate boards for
+  # infantry, cavalry, chariots, elephants, the navy and the commissariat -
+  # describes a maintained, salaried force rather than an occasional levy.
+  military_basis: { values: [standing-professional], source: megasthenes-mccrindle }
+  # A quarter of the produce, on land the crown itself owned, with officers
+  # who measured the fields and inspected the irrigation sluices.
+  revenue_basis: { values: [land-tax], source: megasthenes-mccrindle }
+  succession_rule: null
+  # Devanampriya, "Beloved of the Gods," is Ashoka's own style throughout the
+  # edicts - a claim of divine favour layered on top of a throne his
+  # grandfather had already taken by force from the Nandas.
+  legitimation: { values: [conquest, divine-sanction], source: asoka-hultzsch }
+
 measures:
   reach_km2: { value: 3400000, at: -250, source: taagepera-1979 }
   peak_population: null
@@ -71,4 +85,9 @@ measures:
       count: 1
       items: [Buddhism]
       source: thapar-2002
-    successor_claims: { count: null, items: [], source: null }
+    # Zero. The Mauryan wheel on the modern Indian flag is a twentieth-century
+    # republic adopting a third-century-BC king as its constitutional ancestor,
+    # which is a different thing from a successor dynasty claiming his
+    # authority - and no dynasty did. The Guptas attempted an Indian empire
+    # again five centuries later, but on their own titulature, not his.
+    successor_claims: { count: 0, items: [], source: thapar-2002 }

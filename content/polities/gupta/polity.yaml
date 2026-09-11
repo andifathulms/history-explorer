@@ -61,10 +61,30 @@ succeeded_by_external:
       authority in northern India again in the 600s and it did not outlive him.
     source: thapar-2002
 
+institutions:
+  # Faxian: "the king's body-guards and attendants all have salaries" - a
+  # paid establishment at the centre, in an account otherwise notable for how
+  # little the state visibly did.
+  military_basis: { values: [standing-professional], source: faxian-legge }
+  # Faxian describes revenue drawn from crown land rather than a general
+  # assessment; the Allahabad pillar describes an outer ring of subordinate
+  # kings rendering tribute rather than being taxed directly. Both were true
+  # at once, at different distances from Pataliputra.
+  revenue_basis: { values: [land-tax, tribute], source: fleet-cii-iii }
+  succession_rule: null
+  # Chandragupta I married into the Licchavi lineage and struck coins naming
+  # his queen, a descent-claim the dynasty repeated in its own titulature for
+  # generations; his grandson's Allahabad pillar sets that beside an explicit
+  # conquest record.
+  legitimation: { values: [descent, conquest], source: fleet-cii-iii }
+
 measures:
   reach_km2: { value: 3500000, at: 400, source: taagepera-1979 }
   peak_population: null
   influence:
     descendant_scripts: { count: null, items: [], source: null }
     religions_carried: { count: null, items: [], source: null }
-    successor_claims: { count: null, items: [], source: null }
+    # Zero. Harsha assembled a comparable paramount authority in northern India
+    # in the 600s, but on his own titulature; nobody claimed to be continuing
+    # the Guptas specifically.
+    successor_claims: { count: 0, items: [], source: thapar-2002 }

@@ -49,6 +49,20 @@ preceded_by_external:
       else's currency begins by being recognisable.
     source: thapar-2002
 
+institutions:
+  military_basis: null
+  # Kushan gold was struck to a weight matching the Roman aureus closely
+  # enough to circulate against it - the signature of a state living on the
+  # trade crossing at the junction of the Chinese, Iranian and Indian routes.
+  revenue_basis: { values: [trade-toll], source: thapar-2002 }
+  succession_rule: null
+  # Kanishka's own coin legends carry three imperial vocabularies at once:
+  # shaonanoshao, "king of kings," Iranian; maharaja, Indian; and devaputra,
+  # "son of god," a translation of the Chinese tianzi - divine sanction
+  # asserted in three traditions simultaneously to three different subject
+  # populations.
+  legitimation: { values: [divine-sanction, titulature], source: thapar-2002 }
+
 measures:
   reach_km2: { value: 2000000, at: 200, source: taagepera-1979 }
   peak_population: null
