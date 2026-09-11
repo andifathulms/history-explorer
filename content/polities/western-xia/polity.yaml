@@ -1,0 +1,129 @@
+id: western-xia
+region: china
+
+name:
+  latin: Western Xia
+  script: 大夏
+  script_lang: zh
+
+span:
+  start: { min: 890, max: 890, source: parker-1895 }
+  end: { min: 1227, max: 1227, source: boulger-1898 }
+
+identity: >-
+  A Tangut state in the Ordos that a Song emperor's own patent called Prince
+  of Hia until its ruler decided the title was beneath him, fought Song and
+  Liao to a standstill within a decade of declaring himself an emperor
+  instead, and outlasted both of them only to be the polity whose conquest
+  occupied the last two years of Genghis Khan's life and, by most accounts of
+  his death, the day of it.
+
+capitals: []
+
+core_region: The Ordos and the Gansu corridor
+
+rulers:
+  founder: { name: null, source: null }
+  peak: { name: Li Yuanhao (Chao Yuen), source: boulger-1898 }
+  last: { name: null, source: null }
+
+scripts_and_languages:
+  administration: [Tangut, Chinese]
+  writing_system: Tangut script
+
+ended:
+  type: conquest
+  by: [mongol]
+  year: 1227
+  source: boulger-1898
+
+institutions:
+  # Boulger describes Li Yuanhao drilling his soldiers daily "after the
+  # fashion of the Chinese manual" and fielding an army his own king later
+  # boasted could reach half a million - a maintained, trained force rather
+  # than an occasional tribal levy.
+  military_basis: { values: [standing-professional], source: boulger-1898 }
+  revenue_basis: null
+  succession_rule: null
+  # Li Yuanhao took the title of Emperor, Boulger reports, "because he came of
+  # a family several of whose members had in times past borne the Imperial
+  # dignity" - a claim of descent, made good immediately afterward by force
+  # of arms against both his Song and Liao neighbours.
+  legitimation: { values: [descent], source: boulger-1898 }
+
+turning_points:
+  - year: 890
+    type: reform
+    name: Independent rule in the Ordos
+    changed: >-
+      A family of Tuoba origin, holding the Chinese surname Li granted for
+      service to a fading Tang court, began ruling the Ordos region in its own
+      right rather than as an appointed governor answering to a distant
+      capital - the point at which a frontier command became a dynasty.
+    source: parker-1895
+    contested: false
+  - year: 1034
+    type: battle
+    name: War with Song, and the title of Emperor
+    changed: >-
+      Li Yuanhao turned his drilled army against Song border territory and,
+      encouraged by early victories, discarded the Song-granted style of
+      Prince of Hia for the title of Emperor in his own right - converting a
+      tributary principality into a state claiming equal standing with the
+      court that had named it.
+    source: boulger-1898
+    contested: false
+  - year: 1042
+    type: treaty
+    name: Peace with Song
+    changed: >-
+      Song formally recognised what four years of fighting had already
+      established, closing the war on terms that cost it revenue every year
+      afterward rather than territory once. Xia's own status was left exactly
+      as ambiguous as before - independent in substance, notionally subordinate
+      on paper - which was the arrangement its rulers had spent a century
+      building and had no reason to trade for a cleaner one.
+    source: boulger-1898
+    contested: false
+  - year: 1044
+    type: battle
+    name: War with Liao
+    changed: >-
+      Liao declared war over Xia's harbouring of Liao deserters and defeated
+      it in successive campaigns, confirming that Xia's new standing rested on
+      Song's weakness specifically and not on any general military superiority
+      over its steppe neighbours.
+    source: parker-1895
+    contested: false
+  - year: 1126
+    type: treaty
+    name: Vassalage transferred to the Jin
+    changed: >-
+      Xia refused asylum to the last Liao emperor as Liao collapsed and
+      declared itself a vassal of the conquering Jin instead - reading the
+      new balance of power on the steppe correctly and switching patrons
+      before the old one could ask anything of it.
+    source: parker-1895
+    contested: false
+  - year: 1227
+    type: catastrophe
+    name: The Mongol conquest
+    changed: >-
+      A state that had spent a century and a half surviving by reading which
+      of two or three rivals to favour ran out of rivals to play against each
+      other: this was a single power with nothing to balance it, and the
+      calculation that had worked against Song, Liao and Jin in turn had no
+      second party left to apply it to.
+    source: boulger-1898
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    # Zero. The Tangut script Li Yuanhao commissioned had no descendants of
+    # its own once the state that used it was destroyed - Parker notes
+    # surviving inscriptions that, as of his writing, nobody had deciphered.
+    descendant_scripts: { count: 0, items: [], source: parker-1895 }
+    religions_carried: { count: 0, items: [], source: boulger-1898 }
+    successor_claims: { count: 0, items: [], source: boulger-1898 }

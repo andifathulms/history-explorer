@@ -741,6 +741,17 @@ edges:
     source: franke-twitchett-1994
     contested: false
 
+  - from: western-xia
+    to: mongol
+    type: conquered by
+    year: 1227
+    note: "A two-year campaign broke the Xia army on the frozen Yellow River
+           and took its cities one by one. Its king submitted the same year
+           Genghis Khan died on the Xia frontier - the conquest of Xia was the
+           last military undertaking of his life."
+    source: boulger-1898
+    contested: false
+
   - from: jin
     to: mongol
     type: conquered by
