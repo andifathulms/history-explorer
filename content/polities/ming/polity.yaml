@@ -77,8 +77,9 @@ turning_points:
       A Mongol force destroyed a Ming field army at Tumu and captured the emperor
       alive. The court enthroned his brother, declined to pay, and got him back
       eight years later, after which he deposed his brother and reigned again.
-      It ended the Ming's offensive posture on the steppe for good, and the wall
-      this record's second chapter describes is what replaced it.
+      It ended the Ming's offensive posture on the steppe for good, and a wall
+      replaced it — the brick-and-stone Great Wall most people picture, built
+      mainly in the following century.
     source: mote-twitchett-1988
     contested: false
   - year: 1581
@@ -87,22 +88,19 @@ turning_points:
     changed: >-
       Zhang Juzheng consolidated the tangle of land taxes, labour services and
       levies into a single payment assessed on land and collected in silver.
-      It is the reform that made this record's second chapter possible and
-      dangerous at once: a Chinese empire's fiscal system now ran on a metal
-      China did not mine, arriving by sea from Japan and from Spanish America.
+      It made the Ming fiscal system dependent on a metal China did not mine,
+      arriving by sea from Japan and from Spanish America — productive and
+      dangerous in the same stroke.
     source: mote-twitchett-1988
     contested: false
   - year: 1644
     type: revolt
     name: Li Zicheng
     changed: >-
-      A rebel army out of the famine-stricken north-west took Beijing and the
-      last Ming emperor hanged himself on the hill behind the palace. The general
-      holding the wall against the Manchus opened the pass and invited them in to
-      destroy the rebels, and they stayed for two hundred and sixty-eight years.
-      `ended.by` names the Qing, which is not a full record on this site but a
-      backdrop entry in the reference set — one of two `ended.by` values on this
-      site that point there.
+      The dynasty ended without being defeated by the power that replaced it. A
+      famine rising took the capital and a Ming general then invited the Qing
+      through the frontier he had spent his career defending, so that the state
+      built to keep the Manchus out became the reason they got in.
     source: mote-twitchett-1988
     contested: false
 
@@ -114,8 +112,7 @@ measures:
     # Zero, and the fleets are the reason a reader might expect otherwise. Zheng
     # He's seven voyages reached Africa and carried Muslim officers, including
     # the admiral, and converted nobody: the expeditions were about recognition
-    # and tribute, and this corpus's Melaka record shows what the receiving end
-    # looked like — a seal, a stone tablet and a guarantee, not a mission.
+    # and tribute — a seal, a stone tablet and a guarantee, not a mission.
     religions_carried: { count: 0, items: [], source: mote-twitchett-1988 }
     # One. The Southern Ming courts kept the dynasty's reign titles and a
     # succession of claimants going in the south until 1662, and the last of them

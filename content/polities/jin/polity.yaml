@@ -56,11 +56,12 @@ turning_points:
     type: siege
     name: Jingkang
     changed: >-
-      The Jin took Kaifeng and carried off two Song emperors, the imperial
-      family, the court and the palace collections into captivity in the north.
-      A surviving prince re-established the dynasty south of the Yangtze, and the
-      hundred and fifty years of Chinese history that follow are conditioned by a
-      court that wanted its north back and a faction that did not.
+      A dynasty that had existed for twelve years destroyed the ruling house of
+      the oldest state in East Asia and took its capital. The Song did not end -
+      a surviving prince carried it south of the Yangtze - but the Jin had shown
+      every court on its frontier, Song included, exactly what the destruction of
+      the Liao had already shown the Jin: that nothing in north China could stop
+      it.
     source: franke-twitchett-1994
     contested: false
   - year: 1141
@@ -69,23 +70,22 @@ turning_points:
     changed: >-
       The Southern Song accepted the Huai river as the border, acknowledged the
       Jin emperor as its superior, and agreed to annual payments in silver and
-      silk.
-      It is the same arrangement this corpus's Liao record's second chapter
-      describes, with the parties changed and the terms worse — and the Jin, who
-      had received those payments from the Song's other side a generation
-      earlier, were now on the collecting end of an institution they had
-      inherited from the empire they destroyed.
+      silk. It was the same arrangement the Liao had extracted from the Song a
+      century earlier, with the parties changed and the terms worse — and the
+      Jin, who had received those Liao payments from the Song's other side a
+      generation before, were now on the collecting end of an institution they
+      had inherited from the empire they destroyed.
     source: franke-twitchett-1994
     contested: false
   - year: 1214
     type: capital-move
     name: South to Kaifeng
     changed: >-
-      With Mongol armies in the north the court abandoned Zhongdu — the city that
-      is now Beijing — and moved to Kaifeng, which it had taken from the Song
-      eighty-seven years earlier. The move conceded the Jurchen homeland and the
-      settled Jurchen population of the north in order to hold the Yellow River
-      plain, and it did neither.
+      The court gave up the one thing a conquest dynasty cannot give up and still
+      remain one: the ground its own conquerors came from. Abandoning Zhongdu for
+      Kaifeng meant abandoning the settled Jurchen population of the north as
+      well as the homeland behind it, in exchange for a defensible line on the
+      Yellow River that held for less than a generation.
     source: franke-twitchett-1994
     contested: false
 

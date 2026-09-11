@@ -68,11 +68,10 @@ turning_points:
     name: Yaishan
     changed: >-
       The last Song court, afloat off the Guangdong coast, was destroyed and a
-      minister jumped into the sea with the child emperor on his back. It is the
-      first time the whole of China was ruled from the steppe, and the reason
-      this record exists as something other than a Mongol khanate: the Yuan is
-      the only one of the four successor khanates in this corpus that took a
-      settled empire entire rather than a share of one.
+      minister jumped into the sea with the child emperor on his back. It was
+      the first time the whole of China was ruled from the steppe, and it made
+      the Yuan the one Mongol successor state that had taken a settled empire
+      entire rather than a share of one.
     source: franke-twitchett-1994
     contested: false
   - year: 1323
@@ -81,8 +80,9 @@ turning_points:
     changed: >-
       An emperor was murdered by his own guard commanders at the summer camp, one
       of a run of contested accessions that put eight rulers on the throne in
-      twenty-six years. This record's second chapter is about what that cost, and
-      the field it is coded in is `succession_rule`.
+      twenty-six years — the price of never replacing a steppe assembly with a
+      fixed rule of succession once the throne it was electing sat over all of
+      China.
     source: franke-twitchett-1994
     contested: false
   - year: 1351
@@ -92,7 +92,7 @@ turning_points:
       A rising that began among labourers conscripted to redirect the Yellow
       River after it flooded, and that spread through a millenarian Buddhist
       network across the whole of central China. One of the commanders who came
-      out of it founded the dynasty this corpus carries as the Ming.
+      out of it, a former mendicant monk named Zhu Yuanzhang, founded the Ming.
     source: franke-twitchett-1994
     contested: false
 
