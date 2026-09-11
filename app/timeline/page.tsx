@@ -1,10 +1,10 @@
 import type { Metadata } from 'next'
-import { formatSpan, formatYear } from '@/lib/years'
+import { formatYear } from '@/lib/years'
 import { tickInterval } from '@/lib/thread'
-import Link from 'next/link'
 import { loadCorpus } from '@/lib/content'
 import { Page, Shell, PageHead } from '@/components/Shell'
 import { ConcurrencyProfile } from '@/components/ConcurrencyProfile'
+import { TimelineChart, type TimelineRow } from '@/components/TimelineChart'
 import { PHASES } from '@/lib/types'
 
 // The description is what a search result quotes, so it is the one sentence
@@ -28,9 +28,11 @@ export function generateMetadata(): Metadata {
  * is "who was running at the same time as whom", and rows sharing a time axis
  * answer it at a glance. The thread stays vertical everywhere else.
  *
- * Chapters without a phase tag are drawn as unlabelled marks on the row rather
- * than omitted. A polity whose chapters mostly do not fit the template should
- * look like one — that is a fact about the polity, not a hole in the data.
+ * The phase spine sits beside the name and not on the axis. A polity whose
+ * chapters mostly do not fit the template should look like one — that is a
+ * fact about the polity, not a hole in the data — but saying so on a year axis
+ * would have put a date on it, and chapters carry no dates. See the note at the
+ * top of TimelineChart.
  */
 export default function TimelineView() {
   const { narrative, context } = loadCorpus()
@@ -54,17 +56,26 @@ export default function TimelineView() {
     ),
   ).length
 
-  const W = 900
-  const LABEL = 150
-  // Two lines of label per row and no more. At 62 this chart ran to 4,150
-  // units — five screens of mostly gap, with the year axis only at the top.
-  const ROW = 46
-  const H = rows.length * ROW + 56
-  // A four-thousand-unit chart needs its axis more than once. The scale repeats
-  // every band so a reader who has scrolled past the header still knows what
-  // year a bar sits at.
-  const BAND = 14
-  const x = (year: number) => LABEL + ((year - first) / (last - first)) * (W - LABEL - 24)
+  // Only what the chart reads. Whole polities would put every chapter body
+  // into the client bundle for a view that draws none of them.
+  const regionName = new Map(corpus.regions.map((r) => [r.id, r.name]))
+  const chartRows: TimelineRow[] = rows.map((p) => ({
+    id: p.id,
+    name: p.name.latin,
+    regionName: regionName.get(p.region) ?? p.region,
+    startMin: p.span.start.min,
+    startMax: p.span.start.max,
+    endMin: p.span.end.min,
+    endMax: p.span.end.max,
+    hasPage: !p.context_only,
+    phases: Array.from(
+      new Set((corpus.chapters.get(p.id) ?? []).map((c) => c.phase).filter(Boolean)),
+    ) as string[],
+    // The `at` on a cited reach: a year a source put its own figure at. Sixty
+    // records carry one, and they are the only dated marks the corpus has —
+    // there is not a single turning point in it yet.
+    peakYear: p.measures.reach_km2?.at ?? null,
+  }))
 
   // Labels like "2300 BC" need width, and the corpus now spans four millennia.
   const step = tickInterval(last - first, 12)
@@ -78,11 +89,12 @@ export default function TimelineView() {
         <Shell className="pb-24">
           <PageHead kicker="Concurrency, not sequence" title="Timeline" ground="paper">
             <p>
-              Overlap is the point: {concurrent} of these {rows.length} ran concurrently
+                Overlap is the point: {concurrent} of these {rows.length} ran concurrently
               with at least one other, which is the thing a list of dynasties by region
               cannot show you. Rows are sorted by cited start date, so a neighbour on this
-              axis is a contemporary. A soft bar end means the sources disagree about when
-              it started or stopped.
+              axis is a contemporary &mdash; and standing at a year says who else was
+              there. A soft bar end means the sources disagree about when it started or
+              stopped.
             </p>
           </PageHead>
 
@@ -92,158 +104,7 @@ export default function TimelineView() {
           spans={rows.map((p) => ({ start: p.span.start.min, end: p.span.end.max }))}
         />
 
-        {/* Above the chart, not below it. A key at the foot of four thousand
-            pixels is a key you cannot see while you are reading the marks. */}
-        <div className="mt-12 flex flex-wrap gap-x-6 gap-y-2 border-t border-kashi/15 pt-5 font-mono text-micro uppercase text-debu-ink">
-          <span className="flex items-center gap-2">
-            <span className="inline-block h-2.5 w-2.5 rounded-full bg-zarrin-ink" /> peak chapter
-          </span>
-          <span className="flex items-center gap-2">
-            <span className="inline-block h-2.5 w-2.5 rounded-full bg-firuze-ink" /> other tagged phase
-          </span>
-          <span className="flex items-center gap-2">
-            <span className="inline-block h-2.5 w-2.5 rounded-full bg-debu-ink" /> untagged chapter
-          </span>
-          <span className="flex items-center gap-2">
-            <span className="inline-block h-2.5 w-6 rounded-full bg-kashi/15" /> contested span
-          </span>
-        </div>
-
-        <div className="-mx-5 mt-8 overflow-x-auto px-5 sm:-mx-8 sm:px-8">
-          <svg
-            width="100%"
-            viewBox={`0 0 ${W} ${H}`}
-            height={H}
-            className="min-w-[880px]"
-            role="img"
-            aria-label={`Timeline of ${rows.length} polities from ${first} to ${last}`}
-          >
-            {centuries.map((year) => (
-              <line
-                key={`grid-${year}`}
-                x1={x(year)}
-                x2={x(year)}
-                y1={28}
-                y2={H - 12}
-                className="stroke-kashi/15"
-                strokeWidth={1}
-              />
-            ))}
-
-            {/* The scale, repeated every band. A chart this tall labelled only
-                at its head asks the reader to hold the axis in their memory for
-                three thousand pixels. */}
-            {Array.from({ length: Math.ceil(rows.length / BAND) }).map((_, band) => {
-              const y = band === 0 ? 18 : 44 + band * BAND * ROW - 20
-              return (
-                <g key={`axis-${band}`}>
-                  {band > 0 ? (
-                    <line
-                      /* Starts at the plot edge: run to x=0 and it underlines
-                         the polity name in the row above. */
-                      x1={LABEL - 12}
-                      x2={W}
-                      y1={y + 7}
-                      y2={y + 7}
-                      className="stroke-kashi/20"
-                      strokeWidth={1}
-                    />
-                  ) : null}
-                  {centuries.map((year) => (
-                    <text
-                      key={year}
-                      x={x(year)}
-                      y={y}
-                      className="fill-debu-ink font-mono text-[11px] tabular-nums"
-                      textAnchor="middle"
-                    >
-                      {formatYear(year)}
-                    </text>
-                  ))}
-                </g>
-              )
-            })}
-
-            {rows.map((p, i) => {
-              const y = 44 + i * ROW
-              const chapters = corpus.chapters.get(p.id) ?? []
-              // Chapters have no dates of their own, so they are distributed
-              // evenly across the certain span. This is a reading aid for where
-              // a phase sits in the arc, not a claim about when it happened.
-              const cx = (idx: number) => {
-                const a = x(p.span.start.max)
-                const b = x(p.span.end.min)
-                return a + ((idx + 0.5) / Math.max(1, chapters.length)) * (b - a)
-              }
-
-              return (
-                <g key={p.id}>
-                  {p.context_only ? (
-                    /* Backdrop for the era, but no chapters and so no page. */
-                    <text x={0} y={y + 5} className="fill-kashi/55 text-[14px]">
-                      {p.name.latin}
-                    </text>
-                  ) : (
-                    <Link href={`/polity/${p.id}/`}>
-                      <text
-                        x={0}
-                        y={y + 5}
-                        className="fill-kashi-deep text-[14px] font-semibold hover:fill-firuze-ink"
-                      >
-                        {p.name.latin}
-                      </text>
-                    </Link>
-                  )}
-                  <text x={0} y={y + 18} className="fill-debu-ink font-mono text-[10px] tabular-nums">
-                    {formatSpan(p.span.start.min, p.span.end.max)}
-                  </text>
-
-                  {/* Uncertain extent. */}
-                  <rect
-                    x={x(p.span.start.min)}
-                    y={y - 5}
-                    width={Math.max(2, x(p.span.end.max) - x(p.span.start.min))}
-                    height={10}
-                    rx={5}
-                    className="fill-kashi/15"
-                  />
-                  {/* Certain extent. */}
-                  <rect
-                    x={x(p.span.start.max)}
-                    y={y - 5}
-                    width={Math.max(2, x(p.span.end.min) - x(p.span.start.max))}
-                    height={10}
-                    rx={5}
-                    className={p.context_only ? 'fill-debu-ink/50' : 'fill-kashi/70'}
-                  />
-
-                  {chapters.map((c, idx) => (
-                    <g key={c.slug}>
-                      <circle
-                        cx={cx(idx)}
-                        cy={y}
-                        r={c.phase === 'peak' ? 5 : 3.5}
-                        className={
-                          c.phase === 'peak'
-                            ? 'fill-zarrin-ink'
-                            : c.phase
-                              ? 'fill-firuze-ink'
-                              : 'fill-debu-ink'
-                        }
-                      >
-                        <title>
-                          {c.title}
-                          {c.phase ? ` — ${c.phase}` : ' — no phase tag'}
-                        </title>
-                      </circle>
-                    </g>
-                  ))}
-                </g>
-              )
-            })}
-          </svg>
-        </div>
-
+        <TimelineChart rows={chartRows} first={first} last={last} ticks={centuries} />
 
         <section className="mt-16 max-w-measure border-t border-kashi/15 pt-8">
           <h2 className="font-display text-title font-semibold text-kashi-deep">
@@ -258,10 +119,15 @@ export default function TimelineView() {
             tag is left off and the row shows the absence.
           </p>
           <p className="mt-4 text-body">
-            Chapter marks are spaced evenly along a polity&rsquo;s certain span. Chapters
-            do not carry dates of their own, and inventing one to position a dot would be
-            the same class of error as inventing a figure. The marks say where a phase
-            sits in the arc, not when it happened.
+            The spine sits beside the name rather than on the chart. Chapters carry no
+            dates of their own, and a mark placed at a horizontal position on an axis
+            labelled in years is a date whether or not it was meant as one &mdash; the
+            same class of error as inventing a figure, committed in pixels. The spine
+            says which phases are written. It says nothing about when they were.
+          </p>
+          <p className="mt-4 text-body">
+            One mark is on the axis, and it is cited: where a source dates its own extent
+            figure to a year, that year is drawn. Sixty of these records carry one.
           </p>
         </section>
         </Shell>
