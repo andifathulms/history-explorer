@@ -60,13 +60,13 @@ preceded_by_external:
   - name: Siang
     year: null
     note: >-
-      The dominant kingdom of the west coast between roughly the fourteenth and
-      sixteenth centuries, which Gowa and Tallo both once acknowledged as their
-      superior. A Portuguese visitor in 1544 found Gowa "a large city which had
-      once been a vassal of Siang, but not any longer", and an alliance of the
-      two Makassar kingdoms broke Siang late in the same century. It left a
-      mention on a Portuguese map, a few travellers' remarks, some archaeology,
-      and a local tradition that still remembers having been the senior party.
+      The dominant kingdom of the west coast between roughly the fourteenth
+      and sixteenth centuries, which Gowa and Tallo both once acknowledged
+      as their superior, before an alliance of the two Makassar kingdoms
+      broke it late in the same century Portuguese visitors first recorded
+      it. Andaya calls what followed oblivion outright: two hundred years
+      of regional primacy reduced to a map notation, a scatter of
+      traveller's remarks and an archaeological trace.
     source: andaya-1981
 succeeded_by_external:
   - name: Bone under Arung Palakka, with the Dutch East India Company
@@ -113,26 +113,22 @@ turning_points:
     type: treaty
     name: Bongaya
     changed: >-
-      Hasanuddin signed. The terms removed every foreign trader but the Dutch
-      company, surrendered Makassar's dependencies, demolished its forts except
-      one, and installed Arung Palakka's Bone as the paramount power in South
-      Sulawesi.
-      It did not end the war. Fighting resumed and the fortress held for another
-      twenty months.
+      A treaty that read like an unconditional surrender turned out to
+      settle nothing: Hasanuddin signed it and kept fighting for another
+      twenty months, and what the terms actually decided in the end was
+      an internal rivalry among Sulawesi's own Bugis and Makasar powers,
+      not simply which foreign company would control the trade.
     source: andaya-1981
     contested: false
   - year: 1669
     type: siege
     name: Sombaopu
     changed: >-
-      The fortress fell in June 1669 after a siege in which the walls were mined
-      rather than breached. What ended with it was the last port in the
-      archipelago where a trader could buy cloves and nutmeg without the Dutch
-      company's permission.
-      The Makasar and Bugis who would not accept the settlement left, in
-      numbers, and spent the following century as mercenaries, traders and
-      freebooters from Siam to the Java Sea. The Bugis who took power at Riau
-      after 1699, behind Johor's throne, came out of that diaspora.
+      The last open port in the archipelago closed on defences too solid
+      for direct assault to work - and the men who would not accept the
+      terms became Makassar's most far-reaching export, scattering across
+      the region as sailors and mercenaries for a century after their own
+      kingdom had stopped existing.
     source: andaya-1981
     contested: false
 

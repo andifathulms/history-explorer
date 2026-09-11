@@ -57,13 +57,12 @@ preceded_by_external:
     year: null
     note: >-
       The polity Chinese records name on this coast from the tenth century,
-      sending missions long before the sultanate's own genealogies begin. A ruler
-      of Boni went to Nanjing in 1408 with his family, was received by the Yongle
-      emperor, fell ill and died there, and was buried outside the city with
-      imperial honours. Whether Boni's line and the sultanate's are the same
-      sequence of people cannot be established: the genealogies compress,
-      rearrange and Islamise the early rulers, and the two bodies of evidence do
-      not line up name by name.
+      sending missions long before the sultanate's own genealogies begin -
+      and, unlike Melaka's near-identical tribute mission a few years
+      later, one that came home with nothing but a ruler's grave in a
+      foreign capital rather than a seal his heirs could use. Whether
+      Boni's own line and the sultanate's are the same sequence of people
+      cannot be established from the evidence either side left behind.
     source: saunders-1994
 succeeded_by_external:
   - name: the Brooke Raj, the North Borneo Company and the British protectorate
@@ -105,36 +104,35 @@ turning_points:
     type: reform
     name: What Pigafetta found
     changed: >-
-      The survivors of Magellan's expedition reached Brunei from Tidore and
-      Pigafetta described a city of some twenty-five thousand households built
-      over the water, elephants in the ruler's train, brass artillery on the
-      walls, and porcelain and silk in quantity.
-      It is an outsider's account by a man who counted things, and it is the
-      earliest detailed description of the sultanate at anything like its height.
+      A survivor of an expedition that had already lost its own commander
+      and most of its ships gave Europe its first close look at a sultanate
+      wealthy enough, and militarily equipped enough, that nobody who read
+      the account back home could mistake it for an undeveloped coast
+      waiting to be found.
     source: saunders-1994
     contested: false
   - year: 1578
     type: siege
     name: The Castilians
     changed: >-
-      A Spanish force out of Manila took Brunei and held it for a matter of weeks
-      before disease drove it out. The quarrel was about Manila: Brunei had
-      installed a Muslim ruler there and married into the local house, and Spain
-      had taken the bay in 1571.
-      What Brunei lost in that decade was the northern half of its reach. What it
-      kept, it kept for another three hundred years.
+      A war fought over a dynastic marriage rather than territory cost
+      Brunei the whole of its Manila connection within a single decade,
+      even though the occupying force itself held the capital for barely
+      a matter of weeks before disease broke it - proof that a raid too
+      short to count as a real conquest could still permanently sever a
+      sphere of influence a fleet alone could never have held.
     source: saunders-1994
     contested: false
   - year: 1841
     type: treaty
     name: Sarawak
     changed: >-
-      The sultan granted Sarawak to James Brooke, an English adventurer who had
-      helped suppress a rebellion there, and Brooke's family ruled it as a
-      private kingdom for a century. North Borneo followed to a chartered company
-      in 1881, and the protectorate treaty of 1888 covered what was left.
-      This site has a hundred and ninety-odd endings and this is the only one
-      delivered piecemeal, by treaty, to two companies and a private person.
+      An English adventurer rewarded for putting down someone else's
+      rebellion became the founder of a private hereditary kingdom carved
+      out of Brunei's own territory - the first of three separate legal
+      transfers, each signed by the sultan himself under pressure rather
+      than forced by conquest, that between them handed away most of what
+      Brunei still ruled.
     source: saunders-1994
     contested: false
 

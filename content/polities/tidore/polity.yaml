@@ -22,7 +22,7 @@ span:
 identity: >-
   The other clove island, two kilometres from Ternate, which took the Spanish
   because Ternate had taken the Portuguese, and outlasted its counterpart by a
-  hundred and twenty years.
+  hundred and twenty-two years.
 
 capitals:
   - { name: Tidore, from: 1521, source: andaya-1993 }
@@ -81,42 +81,35 @@ turning_points:
     type: treaty
     name: The Spanish
     changed: >-
-      The Victoria and the Trinidad reached Maluku eight months after Magellan
-      was killed in the Philippines, and went to Tidore rather than Ternate
-      because Ternate had the Portuguese.
-      The next hundred and twenty years are two European empires operating in the
-      north Moluccas as the hired halves of a local quarrel that predated both of
-      them. This corpus's Ternate record's second chapter says the same thing
-      from the other island, and the two records are the evidence for it: neither
-      of them chose their European by preference, and each chose the one the
-      other had not.
+      The last surviving ship of a circumnavigating expedition, arriving
+      with no real choice of harbour left to it, settled Tidore's
+      allegiance by simple elimination - opening a hundred and
+      forty-two-year arrangement in which the Spanish crown served as
+      Tidore's counterweight against its neighbour's own European patron
+      rather than as anyone's overlord.
     source: andaya-1993
     contested: false
   - year: 1663
     type: treaty
     name: The Spanish leave
     changed: >-
-      Spain withdrew its garrisons from Maluku to concentrate on defending Manila,
-      and Tidore was left facing the Dutch company alone. Ternate had been a
-      company vassal in all but name for a generation by then; Tidore now
-      negotiated its own terms, and — because the company wanted a counterweight
-      on the islands rather than a single dependent — got better ones.
-      The dualism kept working after both its European halves were gone, which is
-      the strongest evidence there is that it was never about Europeans.
+      A Spanish garrison withdrawn to defend a threatened capital elsewhere
+      left Tidore to face the Dutch alone - and the sultanate, rather than
+      collapsing into the dependency its neighbour had already become,
+      talked its way into better terms precisely because the company
+      still wanted a rival power on the islands to balance against.
     source: andaya-1993
     contested: false
   - year: 1797
     type: revolt
     name: Nuku
     changed: >-
-      Nuku had been fighting the Dutch from the sea and the eastern islands since
-      1780, with a fleet drawn from the Papuan coasts and the Raja Ampat and with
-      British support when it suited both. In 1797 he took Tidore, and he held
-      the sultanate as an independent power until he died in 1805.
-      Expulsions of a European power that left the capital in local hands were
-      rare — Muscat in 1650, Adwa in 1896, Ternate in 1575. This is a different
-      shape again: not an expulsion but a recovery, seventeen years in the making,
-      by a sultanate that had already been absorbed.
+      A prince who spent seventeen years waging an irregular war from
+      exile, backed by fleets his own family's eastern dependencies still
+      supplied and by a British alliance neither side entirely trusted,
+      achieved something rarer than driving out an occupier: he took back
+      a capital that had already been formally absorbed, and ruled it as
+      an independent sultan rather than as anyone's restored vassal.
     source: andaya-1993
     contested: false
 

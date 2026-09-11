@@ -6,11 +6,11 @@ name:
   script: null
   script_lang: null
 
-# 1405 is the traditional founding under Sayyid Abu Bakr. 1915 is the Carpenter
+# 1450 is the traditional founding under Sayyid Abu Bakr. 1915 is the Carpenter
 # Agreement, under which the sultan renounced temporal sovereignty to the United
 # States and kept his religious authority.
 span:
-  start: { min: 1405, max: 1405, source: majul-1973 }
+  start: { min: 1450, max: 1450, source: majul-1973 }
   end: { min: 1915, max: 1915, source: majul-1973 }
 
 identity: >-
@@ -19,12 +19,12 @@ identity: >-
   three empires before signing away its sovereignty to a fourth.
 
 capitals:
-  - { name: Jolo, from: 1405, source: majul-1973 }
+  - { name: Jolo, from: 1450, source: majul-1973 }
 
 core_region: The Sulu archipelago, with dependencies in north-east Borneo, Palawan and the Zamboanga coast of Mindanao
 
 rulers:
-  founder: { name: Sayyid Abu Bakr, reign: [1405, 1450], source: majul-1973 }
+  founder: { name: Sayyid Abu Bakr, source: majul-1973 }
   peak: { name: Azim ud-Din I, reign: [1735, 1773], source: majul-1973 }
   last: { name: Jamalul Kiram II, reign: [1894, 1936], source: majul-1973 }
 
@@ -97,33 +97,35 @@ turning_points:
     type: siege
     name: Jolo
     changed: >-
-      A Spanish force out of Manila attacked Jolo in the same season it took
-      Brunei, and Sulu did not fall. The three centuries after are the longest
-      continuous resistance to Spanish rule anywhere in the Philippines: the
-      Spanish called it the Moro wars and never finished it.
+      Spain took Brunei's capital in the same campaign season and held it
+      only weeks; Sulu it never took at all, opening a struggle that
+      outlasted the Spanish empire's own presence in the Philippines by
+      more than three centuries without either side ever declaring it
+      settled.
     source: majul-1973
     contested: false
   - year: 1848
     type: battle
     name: Balangingi
     changed: >-
-      Spanish steamers destroyed the Balangingi settlements and deported the
-      survivors to Luzon. Steam is what ended the raiding economy — a fleet that
-      did not depend on the monsoon could reach the raiders' bases in the season
-      they were at home, which nothing before it could.
-      Sulu's revenue and its labour supply went at the same time and for the same
-      reason.
+      A technology, not a treaty, is what finally broke three centuries of
+      raiding the sultanate had depended on for both its wealth and its
+      workforce: a navy no longer bound to the monsoon could reach a base
+      in the one season it had always been safe, and the economy Sulu had
+      run on never recovered from the loss of both revenue and labour at
+      once.
     source: majul-1973
     contested: false
   - year: 1915
     type: treaty
     name: Carpenter
     changed: >-
-      The sultan renounced temporal sovereignty to the United States and retained
-      his authority as head of the Muslim community of Sulu, which his successors
-      hold to this day.
-      It is the latest ending anywhere in the archipelago and the only one on this
-      site delivered by the United States.
+      Sixteen years after instructing its own people not to fight the
+      Americans, and after its own scholars had reasoned their way to the
+      position that the old categories of holy war no longer applied, the
+      sultanate gave up temporal rule by signature rather than by defeat -
+      keeping a religious headship its successors hold to this day, over
+      a state that no longer exists to be head of.
     source: majul-1973
     contested: false
 

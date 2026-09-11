@@ -101,37 +101,35 @@ turning_points:
     type: treaty
     name: The invitation
     changed: >-
-      The first Portuguese to reach the Moluccas were taken in by Ternate as
-      allies against Tidore, and a fort followed. It is worth being exact about
-      the direction: the Portuguese did not force their way into Maluku. They
-      were recruited into a quarrel that was already there, by one side, as
-      leverage against the other.
+      Ternate itself brought a European power into the north Moluccas,
+      choosing the newly arrived Portuguese as muscle in a rivalry with
+      Tidore that long predated their arrival - an alliance made from a
+      position of local advantage, not a foreign incursion the sultanate
+      simply had to absorb.
     source: andaya-1993
     contested: false
   - year: 1570
     type: catastrophe
     name: The murder of Hairun
     changed: >-
-      The Portuguese captain invited Sultan Hairun into the fort and had him
-      stabbed. Whatever the alliance of 1512 had been, it ended in that room,
-      and it ended in a way that made every subsequent Portuguese argument in
-      the north Moluccas unusable.
+      A treacherous killing under the guise of hospitality ended more than
+      a man: it ended the entire premise the 1512 alliance had rested on,
+      and every Portuguese appeal to that partnership afterward rang
+      hollow to the one court in the north Moluccas that had actually
+      watched it break.
     source: andaya-1993
     contested: false
   - year: 1575
     type: siege
     name: The fort
     changed: >-
-      Hairun's son Baabullah besieged the Portuguese fort for five years and
-      took its surrender. The garrison left the island.
-      Expelling a European power and keeping your own capital happened rarely:
-      the Ya'ariba took Muscat from the Portuguese in 1650 and Ethiopia destroyed
-      an Italian army at Adwa in 1896, and Ternate's siege is seventy-five years
-      earlier than either. Kilwa was sacked in 1505, Melaka taken in 1511, Aceh
-      ground down over thirty years from 1873.
-      Ternate won, and lost anyway, to a different company a century later —
-      which says more about what the Dutch company was than about what Ternate
-      was not.
+      Hairun's son avenged his father's murder in the fort where it
+      happened, besieging the Portuguese garrison for five years until it
+      surrendered and left the island for good - a clean expulsion,
+      decades before comparable reversals anywhere else Europeans had
+      established themselves by force, and one Ternate's own sultanate
+      would not manage to repeat against the Dutch company that replaced
+      the Portuguese a century later.
     source: andaya-1993
     contested: false
   - year: 1683
