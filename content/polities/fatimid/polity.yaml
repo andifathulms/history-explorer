@@ -59,11 +59,12 @@ turning_points:
     type: capital-move
     name: "The founding of Cairo"
     changed: >-
-      A palace city north of Fustat replaced Ifriqiya as the centre, and
-      Egypt's Nile agriculture and cultivated Red Sea trade gave the caliphate
-      a revenue base that funded a gold dinar of famous reliability and a navy
-      — and the Hijaz, which meant the Friday sermon at Mecca and Medina was
-      preached in the Fatimid caliph's name.
+      Moving the centre from Ifriqiya to Egypt reoriented the whole
+      enterprise: a state that had spent sixty years fighting westward, into
+      the Maghreb and against Kharijite revolt, became one whose interests ran
+      east and north instead, toward Syria, the Hijaz and the Indian Ocean
+      trade. Ifriqiya, the dynasty's own birthplace, was left to a hereditary
+      governor and drifted out of the caliph's name within a century.
     source: brett-2017
     contested: false
 
@@ -71,46 +72,48 @@ turning_points:
     type: catastrophe
     name: "The shidda"
     changed: >-
-      The Nile came in short for several years running in a country whose
-      agriculture is a function of that flood, the separately recruited
-      regiments fought each other through Cairo for what revenue was left, and
-      the treasury and the palace libraries were emptied to pay soldiers. Egypt
-      recovered; the caliphate never again governed without a soldier standing
-      over it.
+      For the first time since 909 the caliphate could not govern itself out
+      of its own resources or its own household: what broke was not a
+      province or an army defeated in the field but the state's own capacity
+      to pay and control the men who worked for it. Every later Fatimid
+      crisis, down to 1171, is a version of the same failure recurring in the
+      same city.
     source: brett-2017
     contested: false
   - year: 1074
     type: reform
     name: "Badr al-Jamali's vizierate"
     changed: >-
-      An Armenian commander brought his own troops from Acre, ended the
-      factional war, and took the vizierate together with the armies, the
-      judiciary and the mission — every civil and religious office the state
-      had. The caliph reigned and the vizier ruled thereafter, and the office
-      that saved the dynasty in 1074 is the office that ended it in 1171.
+      What Badr took was not just the government but the mission itself — the
+      da'wa answered to his household from this point on, which meant the one
+      thing that had always separated this caliphate from a captive Abbasid
+      one, an independent religious authority propagating its own claim, now
+      ran through the same office that ran the army and the courts. The
+      caliph kept his life and his title. He did not keep the thing that made
+      the title worth having.
     source: brett-2017
     contested: false
   - year: 1094
     type: succession-crisis
     name: "The Nizari schism"
     changed: >-
-      A vizier put his own candidate on the throne over the claim of
-      al-Mustansir's elder son, and the da'wa split along the same line.
-      Hasan-i Sabbah, holding Alamut as a Fatimid agent, backed the losing
-      claimant and ran the eastern network independently of the caliphate that
-      had built it — which outlasted Cairo by eighty-five years.
+      This was not a succession dispute in the ordinary sense, settled once
+      one side held the throne. The claim was doctrinal — which line of
+      descent actually carried the imamate — which is why the losing side did
+      not simply lose and go home: it kept the belief and organised around
+      it. The Nizari Ismailis who trace themselves to the losing claimant
+      still exist today, led by an unbroken line of hereditary imams.
     source: brett-2017
     contested: false
   - year: 1099
     type: siege
     name: "The loss of Jerusalem"
     changed: >-
-      The city had been retaken from the Seljuks eleven months earlier, so the
-      power the First Crusade dispossessed there was the Isma'ili caliphate and
-      not the Sunni sultanate the Crusade had been preached against. The
-      Levantine ports followed over the next fifty years, and a caliphate that
-      had held Sicily, the Hijaz and the Friday sermon at Mecca became a power
-      whose reach ended at its own delta.
+      This is also the last time a Fatimid army fought to hold ground rather
+      than to slow its loss. Every later campaign in this dynasty's history is
+      a defensive one, aimed at the ports and the delta rather than at
+      recovering anything, and the vizier who commanded that defence is the
+      office the dynasty's last crisis runs through.
     source: brett-2017
     contested: false
 
