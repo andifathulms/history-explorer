@@ -111,6 +111,13 @@ export function TimelineChart({
 
   const alive = (r: TimelineRow) => year == null || (r.startMin <= year && r.endMax >= year)
 
+  // The scale ran "500 BC" and then "500", stating the era on one side of zero
+  // and assuming it on the other. The first positive tick says which era it
+  // has crossed into; after that the bare number is unambiguous, which is the
+  // same economy formatSpan uses in prose.
+  const firstAD = ticks.find((t) => t > 0)
+  const tickLabel = (t: number) => (t === firstAD ? `AD ${t}` : formatYear(t))
+
   return (
     <section aria-labelledby="chart-heading" className="mt-16">
       <h2 id="chart-heading" className="sr-only">
@@ -330,7 +337,7 @@ export function TimelineChart({
                         className="fill-debu-ink font-mono text-[11px] tabular-nums"
                         textAnchor="middle"
                       >
-                        {formatYear(t)}
+                        {tickLabel(t)}
                       </text>
                     ))}
                   </g>

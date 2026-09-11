@@ -46,6 +46,18 @@ export function ConcurrencyProfile({ spans }: { spans: Span[] }) {
   const ceiling = Math.max(...bins.map((b) => b.n))
   const peak = bins.find((b) => b.n === ceiling)!
 
+  /**
+   * Ticks at round millennia, and a rule where the era turns over.
+   *
+   * Labelled only at its two ends, the profile showed a shape without a
+   * position: the rise is plainly somewhere on the right, and nothing said
+   * whether that is Rome or the Abbasids. The one division worth drawing is
+   * BC to AD, because the asymmetry is the point — almost everything this
+   * collection has read so far sits to the right of it.
+   */
+  const LABELLED = new Set([-2000, -1000, 0, 1000])
+  const zeroIndex = bins.findIndex((b) => b.at === 0)
+
   return (
     <section aria-labelledby="profile-heading" className="mt-12 border-t border-kashi/15 pt-8">
       <div className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1">
@@ -67,8 +79,15 @@ export function ConcurrencyProfile({ spans }: { spans: Span[] }) {
             .filter((b) => b.n)
             .map((b) => `${formatYear(b.at)}s: ${b.n}`)
             .join('; ')}.`}
-          className="flex h-[150px] items-end gap-px border-b border-kashi/30"
+          className="relative flex h-[150px] items-end gap-px border-b border-kashi/30"
         >
+          {zeroIndex > 0 ? (
+            <span
+              aria-hidden="true"
+              style={{ left: `${(zeroIndex / bins.length) * 100}%` }}
+              className="absolute inset-y-0 w-px bg-kashi/30"
+            />
+          ) : null}
           {bins.map((b) => (
             <span
               key={b.at}
@@ -83,10 +102,26 @@ export function ConcurrencyProfile({ spans }: { spans: Span[] }) {
           ))}
         </div>
 
-        <div className="mt-1.5 flex justify-between font-mono text-micro uppercase tabular-nums text-debu-ink">
-          <span>{formatYear(first)}</span>
-          <span>{formatYear(last)}</span>
+        {/* One slot per column, so a tick sits under the century it names
+            rather than at a percentage that has to be kept in step by hand. */}
+        <div className="mt-1.5 flex gap-px font-mono text-micro uppercase tabular-nums text-debu-ink">
+          {bins.map((b, i) => (
+            <span key={b.at} className="relative min-w-0 flex-1">
+              {i === 0 || i === bins.length - 1 || LABELLED.has(b.at) ? (
+                <span
+                  className={`absolute top-0 whitespace-nowrap ${
+                    i === 0 ? 'start-0' : i === bins.length - 1 ? 'end-0' : '-translate-x-1/2'
+                  }`}
+                >
+                  {b.at === 0 ? 'AD 1' : formatYear(b.at)}
+                </span>
+              ) : null}
+            </span>
+          ))}
         </div>
+        {/* The labels are absolutely positioned, so the row has no height of
+            its own to give the caption below it. */}
+        <div className="h-4" aria-hidden="true" />
 
         <figcaption className="mt-4 max-w-measure text-[14px] leading-relaxed text-debu-ink">
           One column per century, counting every polity whose widest cited span
