@@ -78,6 +78,27 @@ institutions:
   # conquest record.
   legitimation: { values: [descent, conquest], source: fleet-cii-iii }
 
+turning_points:
+  - year: 320
+    type: reform
+    name: Chandragupta I takes the title Maharajadhiraja
+    changed: >-
+      A provincial lord who had held only the modest title maharaja married
+      into the old Licchavi lineage and, on the strength of that alliance,
+      styled himself supreme king of great kings - the point the dynasty's
+      own era counts from, on the reasoning that a title backed by a
+      prestigious marriage was worth dating a calendar to.
+    source: fleet-cii-iii
+    contested: false
+  - year: 530
+    type: battle
+    name: Mihirakula defeated
+    changed: >-
+      Beating a common invader as one member of a coalition, rather than as
+      the power the coalition assembled around, is how a dynasty finds out
+      in public that it is no longer the paramount one.
+    source: thapar-2002
+    contested: false
 measures:
   reach_km2: { value: 3500000, at: 400, source: taagepera-1979 }
   peak_population: null

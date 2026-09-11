@@ -76,6 +76,41 @@ institutions:
   # grandfather had already taken by force from the Nandas.
   legitimation: { values: [conquest, divine-sanction], source: asoka-hultzsch }
 
+turning_points:
+  - year: -298
+    type: reform
+    name: Bindusara succeeds Chandragupta
+    changed: >-
+      The throne passed, for the only time in the dynasty's history, without
+      war, murder or coup - a quiet transition between a reign crowded with
+      conquest and one that left no inscription of its own, in a dynasty
+      whose other two transfers of power were a usurpation and an
+      assassination.
+    source: smith-1904
+    contested: false
+  - year: -260
+    type: battle
+    name: The conquest of Kalinga
+    changed: >-
+      Ashoka's own edicts count the campaign's dead and deported in numbers
+      no other ancient ruler published about himself, and record his
+      declared remorse in the same breath as a warning to the frontier
+      forest peoples that he retained the power to do it again. Kalinga was
+      the empire's last conquest; every edict issued afterward is about
+      governing what already existed rather than adding to it.
+    source: asoka-hultzsch
+    contested: false
+  - year: -185
+    type: succession-crisis
+    name: Pushyamitra's coup
+    changed: >-
+      The commander-in-chief killed the last emperor at a troop review and
+      took the throne himself - no siege, no rival claimant, no invasion,
+      only the ordinary vulnerability of a ruler standing in front of an
+      army that answered to somebody else.
+    source: thapar-2002
+    contested: false
+
 measures:
   reach_km2: { value: 3400000, at: -250, source: taagepera-1979 }
   peak_population: null

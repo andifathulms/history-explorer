@@ -4511,6 +4511,20 @@ sources:
       absence of any independent check on it is the thing to hold on to. Out of
       copyright.
 
+  - id: smith-1904
+    kind: book
+    author: Vincent A. Smith
+    title: "The Early History of India, from 600 B.C. to the Muhammadan Conquest"
+    publisher: Clarendon Press
+    year: 1904
+    note: >-
+      A narrative political history running from the sixth century BC through
+      the Kushans and up to the Muslim conquests, by an official of the Indian
+      Civil Service writing at the point where inscriptional and numismatic
+      evidence for the Mauryas and Kushans was still being assembled. Cited
+      here for Bindusara's reign, unattested in any surviving inscription of
+      his own, and for Vima Kadphises' war with Han China. Out of copyright.
+
   - id: faxian-legge
     kind: primary
     author: Faxian

@@ -63,6 +63,38 @@ institutions:
   # populations.
   legitimation: { values: [divine-sanction, titulature], source: thapar-2002 }
 
+turning_points:
+  - year: 90
+    type: battle
+    name: Defeat on the Pamirs, conquest in India
+    changed: >-
+      An ambition to be treated as China's equal was answered instead with
+      proof of exactly the opposite, and the redirected energy that followed
+      did more to fix the empire's lasting shape than the original quarrel
+      with the Han court was ever going to.
+    source: smith-1904
+    contested: false
+  - year: 127
+    type: reform
+    name: Kanishka's accession
+    changed: >-
+      A dating problem serious enough that it functions as the working
+      definition of how thin Kushan political chronology actually is:
+      almost everything else in the dynasty's internal history is pinned,
+      directly or indirectly, to wherever this one year is eventually
+      settled.
+    source: thapar-2002
+    contested: true
+  - year: 375
+    type: catastrophe
+    name: The last rump falls
+    changed: >-
+      The junction that four separate trading and political systems had met
+      inside for three and a half centuries stopped being anyone's junction
+      to hold, and no successor inherited the whole of it at once.
+    source: thapar-2002
+    contested: false
+
 measures:
   reach_km2: { value: 2000000, at: 200, source: taagepera-1979 }
   peak_population: null
