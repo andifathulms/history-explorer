@@ -660,9 +660,10 @@ sources:
     publisher: John Murray
     year: 2005
     note: >-
-      The standard single-volume narrative across the whole span. Cited here
-      because imber-2002 stops at 1650 and this site's Ottoman record runs to
-      1922 — the later chapters had no source until this was added.
+      The standard single-volume narrative across the whole span, from the
+      frontier beylik to the abolition of the sultanate. Imber's account stops
+      at 1650, and Finkel is what carries the story from there: the wars with
+      Russia, the nineteenth-century reforms, and the end.
 
   - id: tezcan-2010
     kind: book
@@ -5049,3 +5050,103 @@ sources:
       is that the man writing it was in the room for a good deal of what he
       records and had no reason to explain the kingdom to anybody, so he does
       not.
+
+  - id: busbecq-forster
+    kind: primary
+    author: Ogier Ghiselin de Busbecq
+    title: "The Life and Letters of Ogier Ghiselin de Busbecq"
+    translator: Charles Thornton Forster and F. H. Blackburne Daniell
+    publisher: C. Kegan Paul
+    year: 1881
+    note: >-
+      The Habsburg ambassador at Suleyman's court from 1555 to 1562, writing four
+      long letters home to a friend. He was there to negotiate over Hungary, he
+      was often effectively under house arrest, and he used the time to describe
+      the Ottoman army, the court and the succession with an attention nobody in
+      Europe had matched. He is an enemy diplomat and he says so; the peculiar
+      value of the letters is that everything admiring in them is admiration
+      extracted from a man who expected to be beaten by what he was watching.
+      Forster and Daniell's translation is Victorian and readable. Out of
+      copyright.
+
+  - id: cantemir-1756
+    kind: primary
+    author: Demetrius Cantemir
+    title: "The History of the Growth and Decay of the Othman Empire"
+    translator: Nicolas Tindal
+    publisher: James, John and Paul Knapton
+    year: 1756
+    note: >-
+      A Moldavian prince who spent some twenty years in Istanbul as a hostage and
+      a client, knew Turkish, Persian and Arabic, sat in on the politics he
+      describes and then defected to Peter the Great, writing the book in exile.
+      It is where the two-part periodization of Ottoman history — growth, then
+      decay from the later seventeenth century — enters European writing, and
+      that framing is itself a claim to be weighed rather than a fact. He names
+      informants, including his own father, and reports court explanations he
+      cannot have witnessed. The scan used here is the English edition; its
+      spelling is eighteenth-century and its typography uses the long s.
+
+  - id: montagu-letters
+    kind: primary
+    author: Lady Mary Wortley Montagu
+    title: "Letters of the Right Honourable Lady M—y W—y M—e, Written During Her Travels in Europe, Asia and Africa"
+    publisher: Thomas Martin, London
+    year: 1790
+    note: >-
+      Letters written in 1716-18, when the author accompanied her husband on his
+      embassy to Ahmed III, and published after her death. She learned some
+      Turkish, got into houses and conversations no male traveller could reach,
+      and was contemptuous of the travel writing of her contemporaries, which
+      makes her both unusually well informed and unusually keen to correct
+      somebody. Used here for her account of the balance of power between sultan,
+      soldiery and religious establishment, and for the smallpox inoculation she
+      watched and carried home. She was a guest of the state she is describing
+      and saw its capital, not its provinces.
+
+  - id: slade-1854
+    kind: primary
+    author: Adolphus Slade
+    title: "Records of Travels in Turkey, Greece, &c., and of a Cruise in the Black Sea with the Capitan Pacha"
+    publisher: Saunders and Otley, London
+    year: 1854
+    note: >-
+      A British naval officer who arrived in 1829, during the Russian war, went
+      to sea with the Ottoman fleet and later served in it for seventeen years.
+      He is the closest thing to an embedded observer of Mahmud II's new army in
+      its first years, three years after the destruction of the janissaries. He
+      is opinionated, hostile to Russia, condescending about almost everyone, and
+      convinced the reforms were being done the wrong way — which is why he
+      records the detail that supports the case, and why the detail has to be
+      read as evidence for a thesis he already held. Out of copyright.
+
+  - id: tafur-letts
+    kind: primary
+    author: Pero Tafur
+    title: "Travels and Adventures, 1435-1439"
+    translator: Malcolm Letts
+    publisher: George Routledge
+    year: 1926
+    note: >-
+      A Castilian gentleman who travelled the eastern Mediterranean and the Black
+      Sea for his own curiosity, met most of the rulers in it, and wrote the
+      journey up years later for a readership at home. He is boastful and his
+      chronology slips, but he was received at courts a merchant would not have
+      entered and he repeats conversations. Used here for Trebizond in 1438,
+      where his testimony fixes a date historians had wrong. Out of copyright.
+
+  - id: broquiere-johnes
+    kind: primary
+    author: Bertrandon de la Broquière
+    title: "The Travels of Bertrandon de la Broquière to Palestine, and His Return from Jerusalem Overland to France, During the Years 1432 and 1433"
+    translator: Thomas Johnes
+    publisher: Hafod Press
+    year: 1807
+    note: >-
+      The first esquire-carver to Philip the Good of Burgundy, sent east in the
+      guise of a pilgrim and returning overland through Anatolia and the Balkans
+      to report on whether a crusade could be got through. He is therefore a spy
+      writing a route survey: distances, garrisons, which lord hates which, and
+      how many men each could raise. That purpose makes him credulous about
+      anything that argues for the expedition and precise about everything a
+      quartermaster would need. Out of copyright.
