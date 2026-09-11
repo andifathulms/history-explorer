@@ -77,12 +77,10 @@ turning_points:
     type: battle
     name: "The killing of Mehmed Giray"
     changed: >-
-      Sheikh Mamai had helped the Crimean khan take Astrakhan and then decided,
-      on his cousin's advice, that they were idiots to be assisting a
-      neighbouring and ambitious power whose aim was to subdue them one after
-      another. They coaxed his army out of the city, killed him at dinner,
-      destroyed his force and rode into the Crimea after the survivors. It was
-      the high point of Nogai power in the west.
+      It established the horde's permanent method and its permanent limit. The
+      Manghit could destroy any neighbour that grew too strong and could not
+      annex anything, because their own princes would not accept one of their
+      number becoming what they had just killed a man for being.
     source: howorth-1880
     contested: false
   - year: 1555
@@ -112,12 +110,11 @@ turning_points:
     type: treaty
     name: "The oath at Astrakhan"
     changed: >-
-      The boyar Simeon Godunov assembled the Nogai chiefs at Astrakhan, had
-      Ishterek recognised as senior prince, and made him swear for himself and
-      every descendant of Ismail to fight Russia's enemies to the death, to
-      grant nobody the title of prince or regent without the tsar's confirmation,
-      and to have no dealings with the shah, the sultan, the khan of the Crimea,
-      Bukhara, Khiva, the Kazakhs, the Kumyks or the Circassians.
+      The horde stopped being a power with a foreign policy and became a body
+      of subjects whose internal disputes an outside commissary came to settle.
+      Everything the murzas had done for a century - making khans, choosing
+      between sultans and tsars, selling their cavalry to the highest bidder -
+      was signed away in a single oath at somebody else's town.
     source: howorth-1880
     contested: false
 

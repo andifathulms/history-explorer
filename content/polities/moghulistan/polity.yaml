@@ -79,10 +79,11 @@ turning_points:
     type: battle
     name: "Into Transoxiana"
     changed: >-
-      Tughluq Timur crossed the Khojand river in March and took the western
-      half of the Chagatai inheritance, the first khan to hold both halves in a
-      generation. He installed his son over it, and a young Barlas officer named
-      Timur first appears in the record as a man deciding which side to take.
+      For eighteen months one khan held both halves of the Chagatai inheritance
+      for the last time, and the western amirs learned what it felt like to be
+      governed from the eastern pasture. The reaction to that occupation made
+      the career of the Barlas officer who eventually took the western half for
+      himself.
     source: rashidi-elias-ross
     contested: false
   - year: 1363
@@ -111,11 +112,10 @@ turning_points:
     type: catastrophe
     name: "Two hundred thousand"
     changed: >-
-      Driven out of the Kipchak steppe by the Manghit, the Kazakhs came over
-      into Moghulistan two hundred thousand strong. It was impossible to resist
-      them, so the khan's son withdrew to Kashgar — and within a decade the
-      whole Moghul population had followed him south, leaving their horse-herds
-      behind.
+      The khanate lost the pasture that had made its amirs powerful and kept the
+      oases that made its khan rich, and the balance between them tipped for
+      good. Within a decade the Moghuls were a dynasty of the Tarim with a
+      name that referred to a country they no longer held.
     source: rashidi-elias-ross
     contested: false
 
