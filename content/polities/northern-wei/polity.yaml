@@ -1,0 +1,128 @@
+id: northern-wei
+region: china
+
+name:
+  latin: Northern Wei
+  script: 北魏
+  script_lang: zh
+
+span:
+  start: { min: 386, max: 386, source: parker-1895 }
+  end: { min: 535, max: 535, source: parker-1895 }
+
+identity: >-
+  A Tuoba frontier command that a fading Jin court once patented as Prince
+  of Tai, and that grew across three generations into the strongest of the
+  Sixteen Kingdoms and then the government of the whole of northern China -
+  a state whose own rulers eventually banned their own language, dress and
+  clan names in favour of Chinese ones, and that still split in two rather
+  than survive its own founding family's quarrels intact.
+
+capitals:
+  - { name: Pingcheng (Datong), script: 平城, from: 386, source: parker-1895 }
+  - { name: Luoyang, script: 洛陽, source: parker-1895 }
+
+core_region: The Yellow River basin and, after 439, the whole of northern China
+
+rulers:
+  founder: { name: Tuoba Gui (Emperor Daowu), source: parker-1895 }
+  peak: { name: Emperor Taiwu (Tuoba Tao), reign: [423, 451], source: parker-1895 }
+  last: { name: null, source: null }
+
+scripts_and_languages:
+  administration: [Chinese, Xianbei]
+  writing_system: Chinese
+
+ended:
+  type: fragmentation
+  by: []
+  year: 535
+  source: parker-1895
+
+succeeded_by_external:
+  - name: the Eastern and Western Wei
+    type: partitioned from
+    year: 535
+    note: >-
+      The dynasty split into two courts within a single year: an Eastern Wei
+      under a general's puppet emperor at Luoyang and Yecheng, and a Western
+      Wei under another general's own puppet at Chang'an. Neither branch has
+      a record here, though the Yuwen family that took the Western branch's
+      throne outright in 557 does, under the name it gave itself once it
+      stopped pretending the Wei house still ruled through it.
+    source: parker-1895
+
+institutions:
+  military_basis: { values: [tribal-levy, standing-professional], source: parker-1895 }
+  revenue_basis: null
+  # A singular and, so far as the sources report, invariable custom: the
+  # mother of an heir-apparent was put to death as soon as her son was
+  # formally named, apparently a survival of the older Xianbei practice of
+  # tracing descent through the mother's line rather than the father's -
+  # removed, once a son's line was fixed to his father's house, as a source
+  # of independent power a dowager empress might otherwise have held.
+  succession_rule: { values: [nomination], source: parker-1895 }
+  legitimation: { values: [investiture, conquest], source: parker-1895 }
+
+turning_points:
+  - year: 386
+    type: reform
+    name: Tuoba Gui proclaimed emperor
+    changed: >-
+      A Jin-granted frontier patent became, without any single conquest
+      marking the change, an independent imperial claim - one strong enough
+      that no rival power in the fractured north would seriously contest the
+      Toba's right to hold it for the century and a half that followed.
+    source: parker-1895
+    contested: false
+  - year: 439
+    type: battle
+    name: The Liang principality absorbed
+    changed: >-
+      For the first time since the Jin's own collapse a century earlier, one
+      government held the whole of the Chinese and steppe north together -
+      leaving exactly two courts in existence where there had recently been
+      a dozen, Wei's own and the separate Chinese one south of the Yangtze.
+    source: parker-1895
+    contested: false
+  - year: 476
+    type: reform
+    name: The dynastic name changed to Yuan
+    changed: >-
+      A ruling house renamed itself out of its own founding identity by
+      statute rather than by conquest or intermarriage - the clearest
+      possible signal, in a society where a clan name carried real legal and
+      genealogical weight, of which culture the dynasty now considered
+      itself to belong to.
+    source: parker-1895
+    contested: false
+  - year: 495
+    type: reform
+    name: Tartar dress, language and script prohibited
+    changed: >-
+      Wei's own court banned the clothing, speech and units of measure its
+      ruling family had brought from the steppe a century earlier, completing
+      in law what the 476 name change had only begun - a dynasty legislating
+      its own founding culture out of existence within living memory of its
+      last emperor to have spoken it as his first language.
+    source: parker-1895
+    contested: false
+  - year: 535
+    type: revolt
+    name: The split into Eastern and Western Wei
+    changed: >-
+      Rival generals backing rival Wei princes divided the dynasty's
+      territory between two puppet courts within the same year - the family
+      quarrel a sinicised, century-and-a-half-old empire could not survive
+      intact, even after outlasting every steppe rival that had once
+      threatened it from outside.
+    source: parker-1895
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: parker-1895 }
+    religions_carried: { count: 0, items: [], source: parker-1895 }
+    successor_claims: { count: 0, items: [], source: parker-1895 }
