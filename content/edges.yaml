@@ -3331,3 +3331,34 @@ edges:
            suicide."
     source: haig-1937
     contested: false
+
+  - from: delhi-sultanate
+    to: malwa
+    type: seceded from
+    year: 1392
+    note: "Dilawar Khan Ghuri governed Malwa for a Delhi that Timur's 1398
+           sack left with nothing left to enforce its authority, and ruled
+           the province as an independent prince in all but title for the
+           rest of his life."
+    source: haig-1928
+    contested: false
+
+  - from: malwa
+    to: gujarat-sultanate
+    type: conquered by
+    year: 1531
+    note: "Bahadur Shah of Gujarat captured Mandu and extinguished the
+           Khalji dynasty of Malwa, a kingdom whose own king had exhausted
+           his neighbours' patience through repeated acts of bad faith."
+    source: haig-1928
+    contested: false
+
+  - from: malwa
+    to: mughal
+    type: conquered by
+    year: 1561
+    note: "Baz Bahadur, already discredited by a defeat at the hands of
+           Rani Durgavati, was driven from Mandu by Akbar's officers with
+           little serious resistance."
+    source: haig-1928
+    contested: false

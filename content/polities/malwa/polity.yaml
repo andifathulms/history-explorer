@@ -1,0 +1,111 @@
+id: malwa
+region: indian-sultanates
+
+name:
+  latin: Sultanate of Malwa
+  script: سلطنت مالوا
+  script_lang: fa
+
+span:
+  start: { min: 1392, max: 1392, source: haig-1928 }
+  end: { min: 1561, max: 1561, source: haig-1928 }
+
+identity: >-
+  A Delhi-appointed governor's principality that became a kingdom when
+  his own son poisoned him for it, ruled at its widest reach by a usurper
+  of the same throne and, in its last independent generation, by a king
+  remembered less for governing it than for a mistress commemorated in
+  her own pavilion at Mandu - lost first to a rival sultan, then to an
+  emperor, without an independent dynasty surviving either.
+
+capitals:
+  - { name: Dhar, from: 1392, source: haig-1928 }
+  - { name: Mandu, from: 1406, source: haig-1928 }
+
+core_region: The Malwa plateau
+
+rulers:
+  founder: { name: "Dilawar Khan Ghuri", reign: [1392, 1406], source: haig-1928 }
+  peak: { name: "Mahmud Khalji I", reign: [1436, 1469], source: haig-1928 }
+  last: { name: "Baz Bahadur (Miyan Bayazid)", reign: [1555, 1561], source: haig-1928 }
+
+scripts_and_languages:
+  administration: [Persian]
+  writing_system: Perso-Arabic
+
+ended:
+  type: conquest
+  by: [mughal]
+  year: 1561
+  source: haig-1928
+
+institutions:
+  military_basis: null
+  revenue_basis: null
+  # No fixed rule held across the record's own dynastic breaks. A son
+  # poisoned his father for the throne in 1406; a minister's kinsman
+  # poisoned a fifteen-day king and usurped it in 1436; a viceroy
+  # installed by Sher Shah simply declared himself sovereign in the
+  # 1540s. Force, not any rule of inheritance, decided each transition.
+  succession_rule: { values: [factional], source: haig-1928 }
+  legitimation: { values: [conquest], source: haig-1928 }
+
+turning_points:
+  - year: 1406
+    type: succession-crisis
+    name: A son's poison, a new capital
+    changed: >-
+      Alp Khan removed his own father by poison, took the throne as
+      Hushang Shah, and moved the seat of government to the hill
+      fortress of Mandu, whose defences he had spent years perfecting
+      while his father still lived.
+    source: haig-1928
+    contested: false
+  - year: 1436
+    type: succession-crisis
+    name: Mahmud Khalji's usurpation
+    changed: >-
+      A fifteen-day king was poisoned by his own cousin, whose usurpation
+      founded the dynasty under which Malwa's kingdom would go on to
+      reach its widest extent.
+    source: haig-1928
+    contested: false
+  - year: 1519
+    type: battle
+    name: A defeat Rana Sanga did not exploit
+    changed: >-
+      Mahmud II was captured in battle near Gagraun by Rana Sangrama of
+      Mewar, who could have annexed the wounded kingdom outright but
+      chose instead to restore its own king to his throne - a mercy that
+      became, in Muslim and Hindu accounts alike, the measure of the
+      victor's character.
+    source: haig-1928
+    contested: false
+  - year: 1531
+    type: siege
+    name: The Khalji line ends at Mandu
+    changed: >-
+      Bahadur Shah of Gujarat captured Mandu on 17 March, extinguishing
+      the dynasty a chivalrous defeat twelve years earlier had spared,
+      and Malwa passed under the direct rule of viceroys answering to a
+      neighbouring throne rather than to any king of its own.
+    source: haig-1928
+    contested: false
+  - year: 1561
+    type: battle
+    name: A voluptuary's kingdom absorbed
+    changed: >-
+      Baz Bahadur, already humbled by a queen who had driven his army
+      from her own territory, was expelled by the officers of a second
+      emperor before he had governed long enough to be remembered for
+      anything but the mistress who shared his exile.
+    source: haig-1928
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
