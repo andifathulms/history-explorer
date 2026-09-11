@@ -111,6 +111,53 @@ turning_points:
       provincial politics became the only politics there was.
     source: el-hibri-2021
     contested: false
+  - year: 945
+    type: succession-crisis
+    name: "The Buyid entry into Baghdad"
+    changed: >-
+      A Daylami soldier took the capital and kept the caliph rather than
+      replacing him with an Alid of his own, which settled a question nobody
+      had tested before: whether the office was worth more empty than
+      destroyed. Every governor from Bukhara to the Hijaz who wanted a
+      seizure to read as an appointment now had an answer.
+    source: el-hibri-2021
+    contested: false
+  - year: 1055
+    type: reform
+    name: "The Seljuk restoration"
+    changed: >-
+      Sunni religious framing replaced Shi'i military convenience as the
+      reason a foreign army kept a Baghdad caliph in place, but the
+      arrangement underneath — investiture traded for protection — carried
+      over unchanged from the amirs it replaced. The theology of who was
+      allowed to hold the caliph changed; the arithmetic of what holding him
+      was worth did not.
+    source: el-hibri-2021
+    contested: false
+  - year: 1058
+    type: revolt
+    name: "The Basasiri revolt"
+    changed: >-
+      Baghdad's own garrison commander read a rival caliph's name from the
+      city's pulpits for most of a year, proving the Seljuk protection agreed
+      three years earlier could evaporate as fast as it had arrived. What
+      restored the Abbasid name was Tughril Beg's own campaign rather than
+      any Abbasid strength — the dependency the 1055 restoration had created,
+      confirmed rather than merely assumed.
+    source: el-hibri-2021
+    contested: false
+  - year: 1258
+    type: siege
+    name: "The fall of Baghdad"
+    changed: >-
+      The city that had held the office for five centuries fell, and the
+      office did not fall with it: a cousin was installed at Cairo under
+      Mamluk protection three years later, and the line continued for two
+      and a half centuries with no territory, army or revenue of its own.
+      Baghdad and the caliphate, treated as inseparable since 762, turned out
+      not to be.
+    source: iranica-abbasid-caliphate
+    contested: false
 
 measures:
   reach_km2: { value: 11100000, at: 750, source: taagepera-1997 }
