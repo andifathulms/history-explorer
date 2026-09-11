@@ -1,0 +1,196 @@
+id: egypt-middle-kingdom
+region: ancient-egypt
+
+name:
+  latin: "Egypt, Middle Kingdom"
+  script: 𓆎𓅓𓏏𓊖
+  script_lang: egy
+
+# As with this site's other two Egyptian records, Shaw's figures are used for
+# consistency between them, and the margin at this depth is a century or
+# more. The lower bound is Mentuhotep II's reunification of the country; the
+# upper bound is the point at which a single Delta dynasty — the Fifteenth,
+# the Hyksos — is first attested ruling in its own right rather than as one
+# claimant among several, which this site's Thirteenth Dynasty chapter treats
+# as the line between a weakening kingdom and a divided one.
+span:
+  start: { min: -2055, max: -2055, source: shaw-2000 }
+  end: { min: -1650, max: -1650, source: shaw-2000 }
+
+identity: >-
+  Egypt reunified from Thebes after a century split in two, and rebuilt around
+  a new capital, a new literary language, and a succession practice designed
+  by a king who did not trust the one that had just gotten his predecessor
+  killed.
+
+capitals:
+  - { name: Thebes, from: -2055, to: -1985, source: shaw-2000 }
+  - { name: Itjtawy, from: -1985, source: shaw-2000 }
+
+core_region: The Nile valley from the Delta to the Second Cataract
+
+rulers:
+  founder: { name: Mentuhotep II, reign: [-2055, -2004], source: shaw-2000 }
+  peak: { name: Senusret III, reign: [-1870, -1831], source: shaw-2000 }
+  # The last king attested by monuments in both the north and the south
+  # before the country's rapid fragmentation into an unbroken stretch of
+  # short, obscure reigns. The Turin Canon's own figure for his reign was
+  # disputed for decades — thirteen years against twenty-three — before
+  # closer examination of the damaged papyrus confirmed the higher number.
+  last: { name: Merneferre Ay, reign: [-1700, -1677], source: shaw-2000 }
+
+scripts_and_languages:
+  administration: [Egyptian]
+  writing_system: Egyptian hieroglyphs and hieratic
+
+# Fragmentation, on the same reasoning as this site's Old Kingdom record.
+# There is no conquest to date: the Thirteenth Dynasty's later kings simply
+# reigned over less and less of the country as they reigned for shorter and
+# shorter, a Delta line broke off and would become the Hyksos Fifteenth
+# Dynasty, and a rump kingship carried on at Thebes into what this period's
+# own successor calls the Second Intermediate Period.
+ended:
+  type: fragmentation
+  by: []
+  year: -1650
+  source: shaw-2000
+
+# The Delta kingship the Thirteenth Dynasty could no longer hold has no
+# record here yet.
+succeeded_by_external:
+  - name: the Hyksos kingdom at Avaris
+    type: seceded from
+    year: null
+    note: >-
+      A Levantine population long settled in the eastern Delta stopped
+      deferring to the weakening Thirteenth Dynasty kingship well before any
+      source describes a conquest, and by around 1650 was ruled from Avaris
+      in its own right. The breakaway is dated only by convention: no single
+      year marks it, because no single event does.
+    source: shaw-2000
+
+# The Herakleopolitan kings, on the north side of the First Intermediate
+# Period, are Old Kingdom's own external note; a reader arriving here is
+# asking what stood before Thebes actually won, which is the same war
+# described from the losing side.
+preceded_by_external:
+  - name: the kings of Herakleopolis
+    year: null
+    note: >-
+      For over a century before Mentuhotep's victory, Egypt had two
+      kingships at once: a northern line ruling from Herakleopolis, served
+      by the nomarchs of Asyut, and a southern one at Thebes that eventually
+      overran it. Herakleopolis has no record of its own here — the sources
+      for it are almost entirely the tomb inscriptions of its Asyut
+      governors, describing a war it lost.
+    source: breasted-1906
+
+institutions:
+  # Levies raised by province, as in the Old Kingdom, with one addition: the
+  # chain of fortresses Senusret III built through the Second Cataract were
+  # held by rotating garrisons rather than a single field campaign's worth of
+  # conscripts, which is the closest this period comes to a standing force.
+  # It never became one institution-wide, so the coding stays conscript.
+  military_basis: { values: [conscript], source: kemp-2018 }
+  # Land and its produce, as before, with mining added: the turquoise and
+  # copper of the Sinai and the gold of the Eastern Desert and Nubia were
+  # worked by expeditions the crown organised and recorded, in numbers large
+  # enough that some of the expedition inscriptions are monuments in their
+  # own right.
+  revenue_basis: { values: [land-tax, mining], source: kemp-2018 }
+  # Not primogeniture by default but nomination made explicit and early: from
+  # Amenemhat I on, almost every king of the Twelfth Dynasty crowned his
+  # chosen heir as co-regent years before his own death, so that the
+  # transfer of power happened while both kings were alive to enforce it
+  # rather than at the one moment a kingdom is most exposed. The practice is
+  # attested by double-dated inscriptions naming two kings' regnal years at
+  # once, and the literary text put in the murdered Amenemhat I's own mouth
+  # reads like the institution's founding argument.
+  succession_rule: { values: [nomination], source: kemp-2018 }
+  legitimation: { values: [divine-sanction, descent], source: shaw-2000 }
+
+turning_points:
+  - year: -2029
+    type: battle
+    name: "The fall of Herakleopolis"
+    changed: >-
+      The war Mentuhotep spent most of his reign fighting to a finish is not
+      what the state's own institutions treat as decisive. Every dated
+      administrative document this period produces counts years from a
+      Theban king continuously from his accession, never from the year the
+      war was actually won — which is the clearest sign that the Theban
+      kingship regarded itself as already legitimate over the whole country
+      well before it controlled the whole country, and simply waited for
+      the facts to agree.
+    source: shaw-2000
+    contested: false
+  - year: -1985
+    type: capital-move
+    name: Itjtawy
+    changed: >-
+      Every king of the dynasty founded here, without exception, was buried
+      in the pyramid field the new capital's location fixed nearby, at
+      Lisht — a dynastic cemetery invented from nothing at the same moment
+      as the capital it served, replacing Thebes' own royal necropolis as
+      decisively as Itjtawy replaced Thebes as a seat of government.
+    source: shaw-2000
+    contested: false
+  - year: -1956
+    type: succession-crisis
+    name: "The murder of Amenemhat I"
+    changed: >-
+      Judged by its result rather than its drama, the assassination changed
+      almost nothing: the co-regent already on the throne simply continued
+      reigning, with no interregnum, no rival claimant, and no visible
+      disruption to the dating of official documents across the transition.
+      That non-event is the argument every later Twelfth Dynasty king
+      apparently drew from it, since each of them went on to install his own
+      heir the same way — a policy vindicated by how little a king's murder
+      was able to change once it was in place.
+    source: breasted-1906
+    contested: false
+  - year: -1866
+    type: reform
+    name: "The Nubian fortress line"
+    changed: >-
+      No inscription anywhere announces the nomarchs' disappearance, no
+      decree survives abolishing their office, and no source names a
+      minister who carried it out — the whole reform is visible only as an
+      absence, a genre of tomb that a wealthy provincial family had commissioned
+      for two centuries and then simply stopped commissioning. Reconstructing
+      an institutional change from what stops being built, rather than from
+      any text describing the change itself, is a different kind of evidence
+      than a war fought at a fortress line, and it is the only kind this
+      particular reform left behind.
+    source: kemp-2018
+    contested: false
+  - year: -1831
+    type: reform
+    name: "The Faiyum reclamation"
+    changed: >-
+      Every other expansion of Egyptian wealth on record, before this reign
+      and after it — Nubian conquest, Levantine tribute, gold extracted from
+      territory somebody else had to lose first — took a resource from
+      another people. This one did not: the state's revenue base grew by
+      adding farmland that had not belonged to anybody, an option no later
+      Egyptian kingdom facing the same problem ever had available to it
+      again at comparable scale.
+    source: kemp-2018
+    contested: false
+
+measures:
+  # No figure specific to this period, distinct from the Old and New Kingdom
+  # totals, was found in any source consulted for this site.
+  reach_km2: null
+  peak_population: null
+  influence:
+    # Zero, not counted for Middle Egyptian becoming the classical written
+    # standard of later Egyptian monumental inscription: that is a language
+    # fixed in its stage of use, written throughout in the same hieroglyphic
+    # and hieratic scripts the Early Dynastic and Old Kingdom records already
+    # carry the derivation for. Coding rule 3 is explicit that a change of
+    # language without a change of script is a language fact and not a
+    # script fact.
+    descendant_scripts: { count: 0, items: [], source: shaw-2000 }
+    religions_carried: { count: 0, items: [], source: kemp-2018 }
+    successor_claims: { count: 0, items: [], source: shaw-2000 }
