@@ -112,37 +112,33 @@ turning_points:
     changed: >-
       Parameswara sailed to China with his family and a large party, was received
       at the Ming court, and returned with recognition as king, a seal, and
-      protection against Ayutthaya, which had been claiming his coast. It made a
-      new settlement on a strait into a polity other powers had to deal with —
-      the Ming tributary system doing exactly what it was designed to do, at the
-      one place where it mattered most to both parties.
+      protection against Ayutthaya, which had been claiming his coast. It
+      turned a fledgling port with no dynasty and no army into a
+      recognised kingdom overnight, backed by the one power in the region
+      Ayutthaya could not afford to provoke.
     source: hall-2011
     contested: false
   - year: 1414
     type: conversion
     name: Islam
     changed: >-
-      The ruler married a princess of Pasai in northern Sumatra and took the
-      name Iskandar Shah, and Melaka became a Muslim sultanate. The ports of the
-      archipelago then converted in its wake over the next century, through the
-      same trade network and often through Melakan marriages, and Islam reached
-      the Moluccas and the southern Philippines that way — a conversion by
-      commerce rather than by conquest, on a scale nothing else in these waters
-      matched.
+      A marriage into an older Muslim throne gave Melaka a religion, and
+      its own dominance of the strait's trade did the rest of the work no
+      army ever had to: within a century, ports many weeks' sail to the
+      east had converted along exactly the shipping routes Melaka's own
+      merchants and princesses already travelled.
     source: reid-1988
     contested: true
   - year: 1511
     type: siege
     name: Albuquerque
     changed: >-
-      Fifteen ships and about twelve hundred men took the richest port in
-      Southeast Asia in some weeks of fighting. Albuquerque had come because
-      Melaka was the point at which the spice route could be cut, and cutting it
-      was the whole Portuguese strategy in Asia.
-      What he took was a customs house. The trade did not stop and did not stay:
-      it dispersed to Aceh, to Johor, to Banten, to Brunei and to Patani, and the
-      Portuguese spent the following century holding a fortress in a strait whose
-      commerce had gone round them.
+      A single campaign, small enough to fit in fifteen ships, ended what
+      three centuries of trade had built at a stroke and taught every
+      other port sultanate in the strait the same lesson at once: the
+      thing being defended was a customs house, not a state, and a
+      customs house without the state behind it could be conquered by
+      anyone strong enough to hold a harbour for a season.
     source: reid-1988
     contested: false
 

@@ -95,22 +95,21 @@ turning_points:
     type: capital-move
     name: Jambi
     changed: >-
-      The centre shifts from Palembang up the coast to Jambi-Melayu, which had
-      been a rival and a dependency. Chinese records begin naming the Melayu
-      port where they had named the Palembang one. It is the clearest sign that
-      what survived the Chola raid was the position rather than the polity: the
-      strait still had to be passed and somebody still had to be paid, and the
-      somebody had changed.
+      A capital that had given the whole polity its name for four centuries
+      stopped being where the polity actually was, and nobody recorded why
+      - only that the tribute missions and the trade now answered to a
+      different port, run by people the sources never bother to name.
     source: hall-2011
     contested: true
   - year: 1275
     type: battle
     name: Pamalayu
     changed: >-
-      Kertanegara of Singhasari sent the Pamalayu expedition across to Sumatra
-      against Melayu, and afterwards no Sumatran polity appears in the records as
-      an independent power. The centre of gravity of the archipelago moves to
-      Java and stays there for the next three hundred years.
+      A Javanese expedition sent against the successor that had been
+      running Srivijaya's old position found nothing left to annex when it
+      arrived - no garrison installed, no tribute list drawn up - because
+      the thing it had come to conquer had already stopped functioning as
+      an independent power on its own.
     source: hall-2011
     contested: false
 
@@ -131,6 +130,6 @@ measures:
     # carried that claim since it was written — while this count stayed null,
     # which is the mismatch part one of the coding rules says is a bug worth
     # finding. Null means nobody looked; a sourced edge proves somebody did.
-    # Contested, because the genealogy was composed a century and a quarter after
+    # Contested, because the genealogy was composed nearly six centuries after
     # the last Srivijayan ruler anyone can name, by a court writing in exile.
     successor_claims: { count: 1, items: [Sultanate of Melaka], source: brown-1970 }

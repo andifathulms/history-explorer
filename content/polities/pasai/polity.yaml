@@ -97,21 +97,23 @@ turning_points:
     type: treaty
     name: The marriage
     changed: >-
-      The ruler of Melaka married a princess of Pasai, converted, and took the
-      name Iskandar Shah. Melaka went on to carry Islam to the ports of the
-      eastern archipelago; this marriage is where Melaka got it. Contested,
-      because the account comes from a chronicle written a century later at a
-      court in exile.
+      A dynastic marriage gave the ruler of an upstart port on the strait
+      both a Muslim wife and, with her, the religion his own descendants
+      would go on to carry through the eastern archipelago far beyond
+      anywhere Pasai's own ships ever traded. Contested, because the only
+      surviving account of it was written generations later, by a court
+      with every reason to dress up its own founding.
     source: ricklefs-2008
     contested: true
   - year: 1524
     type: siege
     name: Aceh
     changed: >-
-      The Portuguese had held the town for three years. Ali Mughayat Syah took it
-      from them and absorbed the territory, and the oldest Muslim throne in
-      Southeast Asia became a district of a sultanate forty miles up the coast
-      that was two decades old.
+      A kingdom that had converted before almost anywhere else in the
+      archipelago ended not at Portuguese hands but at a Sumatran
+      neighbour's: Ali Mughayat Syah took back what the Portuguese had
+      briefly held and folded its throne into a single district of the
+      sultanate he was still assembling.
     source: reid-2005
     contested: false
 

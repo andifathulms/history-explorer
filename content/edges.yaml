@@ -1459,9 +1459,9 @@ edges:
     contested: false
 
   # Melaka's founder was a prince out of Palembang and the Malay Annals trace
-  # his line through Srivijaya's kings. It is a claim made a century and a
-  # quarter after the last Srivijayan ruler anybody can name, by a court whose
-  # chronicle was written in exile after its own city had fallen.
+  # his line through Srivijaya's kings. It is a claim made nearly six
+  # centuries after the last Srivijayan ruler anybody can name, by a court
+  # whose chronicle was written in exile after its own city had fallen.
   - from: srivijaya
     to: melaka
     type: claimed legitimacy of
