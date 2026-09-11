@@ -60,22 +60,24 @@ turning_points:
     type: battle
     name: "Karbala"
     changed: >-
-      A skirmish that took an afternoon gave a political tendency a founding
-      injustice, a martyr, a place and a date — and it was inflicted by the
-      caliph's own troops on the Prophet's own grandson, which is not a charge
-      any later settlement could answer. The Umayyads were illegitimate to the
-      Shi'a from this point regardless of anything they did afterwards.
+      Coming so soon after Mu'awiya's unprecedented designation of his own
+      heir, the killing demonstrated exactly how dynastic succession would be
+      enforced against anyone who declined to accept it. Ibn al-Zubayr, the
+      Kharijites and Mukhtar all took the field within the following decade on
+      the understanding that terms, and not just power, were now open to
+      argument by force — which is the second civil war this event starts.
     source: hawting-2000
     contested: false
   - year: 684
     type: succession-crisis
     name: "Marj Rahit"
     changed: >-
-      The Sufyanid line ended and the Marwanid branch took the caliphate, on a
-      victory won by mobilising the Yaman confederation against the Qays. That
-      saved the dynasty and converted a tribal rivalry into the organising
-      principle of its provincial politics: every governorship for the next
-      sixty years was a Qaysi or a Yamani appointment.
+      The dynasty survived by changing which of its own branches held it
+      rather than by abandoning the principle of dynastic succession itself —
+      but the price of that survival was structural, not just political. A
+      state that had run on conquest and religious claim now also ran on
+      which tribal confederation held which governorship, a variable no later
+      caliph could simply legislate away.
     source: hawting-2000
     contested: false
   - year: 696
@@ -94,21 +96,24 @@ turning_points:
     type: siege
     name: "The second siege of Constantinople"
     changed: >-
-      A large Syrian army and its fleet were destroyed outside the walls over a
-      winter, and the Arab armies never seriously tried again. The Taurus
-      became a frontier rather than a stage, and the expansion on whose
-      continuation the stipend system was premised met a limit it did not pass.
+      The northern frontier was the first of four to stop moving outward, and
+      it stopped for good rather than for a season. Transoxiana, the
+      Caucasus and the Maghreb each said the same thing more slowly over the
+      following two decades, but this was where a state whose stipends
+      assumed continuing conquest first learned, unambiguously, that
+      conquest could simply end.
     source: blankinship-1994
     contested: false
   - year: 740
     type: revolt
     name: "The Berber revolt"
     changed: >-
-      Umayyad authority was never restored west of Ifriqiya. The caliphate lost
-      its western third a decade before it lost the rest, and the Abbasids
-      inherited that loss rather than causing it. The Rustamids, the Idrisids and the
-      Aghlabid governors all established themselves in the space the revolt
-      cleared.
+      This was the empire's first successful secession rather than a change
+      of ruler, and putting it down cost the centre more than losing Ifriqiya
+      did: the Syrian relief force destroyed on the Sebou was drawn from the
+      one province the whole system had been built on trusting, and the
+      dynasty had thirty thousand fewer of those men to spend when Khurasan
+      rose ten years later.
     source: abun-nasr-1987
     contested: false
 
