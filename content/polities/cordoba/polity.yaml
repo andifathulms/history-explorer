@@ -70,32 +70,38 @@ turning_points:
     type: battle
     name: "Simancas"
     changed: >-
-      Ramiro II of Leon broke an Umayyad army, and Abd al-Rahman III never took
-      the field in person again. The strongest state in the western
-      Mediterranean was not the strongest army on the peninsula, and its
-      northern policy became raiding and tribute rather than conquest.
+      The defeat did not cost what defeats usually cost: Christian kings kept
+      sending embassies seeking Cordoba's friendship in the years after, proof
+      that a caliphate's standing in this period ran on treasury and court as
+      much as on its last battle. What changed was policy rather than power —
+      the caliph withdrew his own person from the risk of the field for good,
+      a separation between the man and the army no earlier amir of Cordoba
+      had made.
     source: kennedy-1996
     contested: false
   - year: 976
     type: succession-crisis
     name: "Hisham II's minority"
     changed: >-
-      An eleven-year-old inherited a state at full strength whose
-      administration, army and revenue all answered to one point of control in
-      the palace. Within a few years the chamberlain held every part of it and
-      the caliph was a formality — a machine with a single point of control
-      changes hands completely when the point of control does.
+      Every earlier Umayyad succession at Cordoba had passed to an adult. This
+      one did not, and the difference exposed what thirty years of a
+      personally run administration had never had to test: whether the state
+      could survive a caliph too young to use the power his father had
+      concentrated. It could, and it did — just not in his own name.
     source: kennedy-1996
     contested: false
   - year: 1009
     type: revolt
     name: "The fitna of al-Andalus"
     changed: >-
-      The Berber regiments recruited to hold the arrangement together, the
-      Cordoban population and rival Umayyad claimants fought each other for
-      twenty-two years. Madinat al-Zahra was sacked in 1010 and Cordoba by its
-      own troops in 1013, and no faction could rebuild a state the others would
-      accept — which is why this polity's ending has no agent.
+      What ended thirty years of stability was not weakness discovered under
+      strain but a single word said aloud: when the chamberlain's brother
+      asked Hisham to name him successor to the caliphate itself, every party
+      that had tolerated a chamberlain ruling through a caliph lost its reason
+      to keep tolerating it. The regiments that fought over the wreckage were
+      the ones the arrangement itself had recruited and armed, which is why no
+      faction that won a battle in the years afterward could also rebuild a
+      state the others would accept.
     source: kennedy-1996
     contested: false
 
