@@ -1,0 +1,109 @@
+id: gujarat-sultanate
+region: indian-sultanates
+
+name:
+  latin: Sultanate of Gujarat
+  script: سلطنت گجرات
+  script_lang: fa
+
+span:
+  start: { min: 1396, max: 1396, source: haig-1928 }
+  end: { min: 1572, max: 1572, source: haig-1928 }
+
+identity: >-
+  A Rajput convert's son who turned a governorship Delhi could no longer
+  enforce into an independent throne, ruled at its height by a sultan so
+  famous for his reputed immunity to poison that an English poet was still
+  writing about his diet a century and a half later, and reduced by three
+  decades of regents, a fabricated royal child and warring nobles into an
+  annexation its own last king survived by twenty-one hopeless years.
+
+capitals:
+  - { name: Ahmadabad, script: احمدآباد, from: 1411, source: haig-1928 }
+
+core_region: Gujarat and Kathiawar
+
+rulers:
+  founder: { name: "Zafar Khan (Sultan Muzaffar I)", reign: [1391, 1411], source: haig-1928 }
+  peak: { name: "Mahmud Begada (Abu'l-Fath Mahmud, Mahmud I)", reign: [1458, 1511], source: haig-1928 }
+  last: { name: Muzaffar Shah III, reign: [1561, 1572], source: haig-1928 }
+
+scripts_and_languages:
+  administration: [Persian]
+  writing_system: Perso-Arabic
+
+ended:
+  type: conquest
+  by: [mughal]
+  year: 1572
+  source: haig-1928
+
+institutions:
+  military_basis: { values: [standing-professional], source: haig-1928 }
+  revenue_basis: null
+  # No fixed rule held for long. A regent fabricated a child's royal
+  # parentage to seat him on the throne, nobles carved the kingdom into
+  # fiefs among themselves, and the crown itself changed hands by
+  # assassination and forced deposition as often as by inheritance.
+  succession_rule: { values: [factional], source: haig-1928 }
+  legitimation: { values: [descent, conquest], source: haig-1928 }
+
+turning_points:
+  - year: 1396
+    type: revolt
+    name: Zafar Khan's independence
+    changed: >-
+      A governor Delhi had sent to restore order after Timur's sack found
+      no sultan left strong enough to recall him, and used a succession
+      dispute at Delhi as pretext to stop pretending to answer to it.
+    source: haig-1928
+    contested: false
+  - year: 1484
+    type: siege
+    name: The capture of Champaner
+    changed: >-
+      The fall of the last great Rajput stronghold left Gujarat's kingdom
+      stretching unbroken from the frontier of Malwa to the coast, and gave
+      its sultan the epithet - two forts taken - that outlived every other
+      title he held.
+    source: haig-1928
+    contested: false
+  - year: 1537
+    type: catastrophe
+    name: Bahadur Shah drowned
+    changed: >-
+      The last sultan of Gujarat to rule in fact rather than in name was
+      drowned fleeing a Portuguese boarding party he had gone aboard their
+      own ship to negotiate with, leaving no son and a throne that passed,
+      for the rest of the kingdom's life, to whichever candidate its
+      quarrelling nobles found least objectionable.
+    source: haig-1928
+    contested: false
+  - year: 1562
+    type: succession-crisis
+    name: A regent's invented heir
+    changed: >-
+      A minister who had already imprisoned one king and orchestrated
+      another's murder produced a child of improbable parentage, swore to
+      his royal blood, and put him on the throne rather than let the
+      kingdom pass to any rival noble of its own rank.
+    source: haig-1928
+    contested: false
+  - year: 1572
+    type: treaty
+    name: Akbar's annexation
+    changed: >-
+      A kingdom whose great nobles had spent a decade dividing it into
+      private fiefs surrendered to an emperor almost without a fight,
+      ending independent rule in Gujarat less than two centuries after it
+      began.
+    source: haig-1928
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

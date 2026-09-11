@@ -3300,3 +3300,23 @@ edges:
            annexed the valley rather than ratify the treaty."
     source: haig-1928
     contested: false
+
+  - from: delhi-sultanate
+    to: gujarat-sultanate
+    type: seceded from
+    year: 1396
+    note: "Zafar Khan, a governor Delhi's own succession crisis left with no
+           sultan worth deferring to, simply stopped rendering allegiance to
+           the capital and kept the province he already effectively ruled."
+    source: haig-1928
+    contested: false
+
+  - from: gujarat-sultanate
+    to: mughal
+    type: conquered by
+    year: 1572
+    note: "A decade of noble factionalism left Gujarat's own regent inviting
+           Akbar to invade against his rivals; the kingdom fell to the
+           Mughals almost without a battle."
+    source: haig-1928
+    contested: false
