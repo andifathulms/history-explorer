@@ -1,0 +1,103 @@
+id: jaunpur
+region: indian-sultanates
+
+name:
+  latin: Sharqi Sultanate of Jaunpur
+  script: سلطنت شرقی
+  script_lang: fa
+
+span:
+  start: { min: 1394, max: 1394, source: haig-1928 }
+  end: { min: 1479, max: 1489, source: haig-1928 }
+
+identity: >-
+  A eunuch minister's breakaway province that became, under an adopted
+  dynasty remembered by its own contemporaries as of African descent, the
+  court contemporaries called the Shiraz of India - a title earned by one
+  king's patronage of learning and outlived by three generations of wars
+  its successors could not stop losing.
+
+capitals:
+  - { name: Jaunpur, script: جونپور, from: 1394, source: haig-1928 }
+
+core_region: The eastern Gangetic plain, from Kanauj to Bihar and Tirhut
+
+rulers:
+  founder: { name: Malik Sarvar (Khvaja Jahan), reign: [1394, 1399], source: haig-1928 }
+  peak: { name: Ibrahim Shah, reign: [1402, 1436], source: haig-1928 }
+  last: { name: Husain Shah, source: haig-1928 }
+
+scripts_and_languages:
+  administration: [Persian]
+  writing_system: Perso-Arabic
+
+ended:
+  type: conquest
+  by: [delhi-sultanate]
+  year: 1489
+  source: haig-1928
+
+institutions:
+  # Husain Shah's Orissa expedition alone is credited, plausibly or not,
+  # with 300,000 men and 1,400 elephants; even discounted heavily, the
+  # figures describe a maintained royal army rather than an occasional levy.
+  military_basis: { values: [standing-professional], source: haig-1928 }
+  revenue_basis: null
+  succession_rule: null
+  # Malik Sarvar's own style was Malik-ush-Sharq, "King of the East" - the
+  # title that gave the dynasty its name - asserted with no claim to
+  # dynastic descent or divine favour behind it, only the fact of holding
+  # the territory east of Delhi.
+  legitimation: { values: [titulature, conquest], source: haig-1928 }
+
+turning_points:
+  - year: 1394
+    type: revolt
+    name: Malik Sarvar's independence
+    changed: >-
+      A eunuch minister who had just placed his own choice of puppet on the
+      Delhi throne and suppressed rebellions across Oudh and the Doab on
+      that throne's behalf stopped answering to it, taking the whole of the
+      territory he had just pacified for himself.
+    source: haig-1928
+    contested: false
+  - year: 1414
+    type: siege
+    name: The invasion of Bengal to punish Raja Ganesh
+    changed: >-
+      Ibrahim Shah marched into Bengal at a Muslim saint's urging to punish
+      a Hindu chieftain's persecution of the kingdom's Muslims - the
+      furthest Jaunpur's arms reached under its most cultured king, and a
+      campaign that ended in a negotiated withdrawal rather than conquest.
+    source: haig-1928
+    contested: false
+  - year: 1458
+    type: succession-crisis
+    name: Muhammad Shah's fratricide
+    changed: >-
+      A new king who had ordered his own younger brother's murder, and
+      insulted his own mother's grief over it, drove his surviving brothers
+      into open defection with the army he had handed them to repel a
+      rumoured attack - and was killed by the force that had, days before,
+      still been his own.
+    source: haig-1928
+    contested: false
+  - year: 1489
+    type: battle
+    name: Husain Shah's final defeat
+    changed: >-
+      A king whose armies had twice threatened Delhi outright, and who
+      could put more men in the field than his rival ever commanded, lost
+      his capital anyway - betrayed as often by his own hesitation as by
+      any battlefield reverse, until nothing remained to retreat to but
+      exile in another kingdom's territory.
+    source: haig-1928
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

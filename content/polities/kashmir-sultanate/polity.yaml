@@ -1,0 +1,104 @@
+id: kashmir-sultanate
+region: indian-sultanates
+
+name:
+  latin: Sultanate of Kashmir
+  script: سلطنت کشمیر
+  script_lang: fa
+
+span:
+  start: { min: 1339, max: 1339, source: haig-1928 }
+  end: { min: 1586, max: 1586, source: haig-1928 }
+
+identity: >-
+  A minister who imprisoned the queen he had just forcibly married and took
+  her throne, and the valley kingdom he founded - ruled at its height by a
+  king remembered as Kashmir's own Akbar for a tolerance genuine enough to
+  recall the exiles his own father had driven out, and lost by its last
+  independent ruler to an annexation treaty the Mughal emperor broke as
+  soon as it was signed.
+
+capitals:
+  - { name: Srinagar, script: سرینگر, from: 1339, source: haig-1928 }
+
+core_region: The Kashmir valley
+
+rulers:
+  founder: { name: Shah Mir (Shams-ud-din Shah), reign: [1339, 1342], source: haig-1928 }
+  peak: { name: Zain-ul-Abidin, reign: [1420, 1470], source: haig-1928 }
+  last: { name: Yusuf Shah Chak, source: haig-1928 }
+
+scripts_and_languages:
+  administration: [Persian]
+  writing_system: Perso-Arabic
+
+ended:
+  type: conquest
+  by: [mughal]
+  year: 1586
+  source: haig-1928
+
+institutions:
+  military_basis: null
+  # Shah Mir fixed the crown's share of the land's produce at one-sixth,
+  # replacing what the account calls the arbitrary taxes and cruel
+  # extortion of the Hindu kings before him.
+  revenue_basis: { values: [land-tax], source: haig-1928 }
+  # No fixed rule held for long. Brothers succeeded brothers over sons,
+  # a queen mother once placed her own preferred son on the throne over an
+  # elder claimant, and by the dynasty's last century the Chakk tribal
+  # chiefs were making and unmaking kings by force as a matter of routine.
+  succession_rule: { values: [factional], source: haig-1928 }
+  legitimation: { values: [conquest], source: haig-1928 }
+
+turning_points:
+  - year: 1339
+    type: succession-crisis
+    name: Shah Mir's coup
+    changed: >-
+      A former minister who had spent decades building his own faction
+      inside the court forcibly married the widowed queen he had served,
+      imprisoned her within a day of the wedding, and took the throne for
+      himself - converting three decades of accumulated influence into
+      outright kingship in a single stroke.
+    source: haig-1928
+    contested: false
+  - year: 1420
+    type: reform
+    name: Zain-ul-Abidin's accession
+    changed: >-
+      A king remembered by his own subjects as Kashmir's Akbar recalled the
+      Muslim families his predecessor had exiled, patronised scholarship in
+      Persian, Hindi and Tibetan alike, and governed under laws milder than
+      any the valley had seen under Hindu or Muslim rule before him.
+    source: haig-1928
+    contested: false
+  - year: 1561
+    type: succession-crisis
+    name: The Chakk tribe seizes the throne outright
+    changed: >-
+      A tribal clan that had spent two generations making and deposing kings
+      of the old Shah Miri line without formally claiming the crown for
+      itself finally took the throne in its own name - ending any remaining
+      fiction that Kashmir was still ruled by Shah Mir's own descendants.
+    source: haig-1928
+    contested: false
+  - year: 1586
+    type: treaty
+    name: Annexation and a broken promise
+    changed: >-
+      A kingdom that had kept its own crown through a century of factional
+      chaos, a decade of Mughal occupation and a Chakk usurpation ended
+      when Akbar simply declined to ratify the peace his own commander had
+      sworn to - a broken word so dishonourable that the man who had given
+      it took his own life rather than live with it.
+    source: haig-1928
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

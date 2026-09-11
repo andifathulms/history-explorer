@@ -85,6 +85,28 @@ sources:
     publisher: Cambridge University Press
     year: 1999
 
+  - id: haig-1928
+    kind: book
+    author: "Sir Wolseley Haig (ed.)"
+    title: "The Cambridge History of India, Volume III: Turks and Afghans"
+    publisher: Cambridge University Press
+    year: 1928
+    note: >-
+      Dedicated chapters on each of the regional sultanates that broke from
+      Delhi after Timur's 1398 sack - Jaunpur, Bengal, Kashmir, Gujarat,
+      Khandesh and Malwa - drawing on the Persian chronicles of each court.
+      Out of copyright.
+
+  - id: haig-1937
+    kind: book
+    author: "Sir Richard Burn (ed.)"
+    title: "The Cambridge History of India, Volume IV: The Mughul Period"
+    publisher: Cambridge University Press
+    year: 1937
+    note: >-
+      Cited for the 1601 siege of Asirgarh and the annexation of Khandesh,
+      which falls after the scope of volume III. Out of copyright.
+
   # ---- Encyclopaedia Iranica ----
   - id: iranica-taherids
     kind: encyclopaedia

@@ -1,0 +1,124 @@
+id: bengal-sultanate
+region: indian-sultanates
+
+name:
+  latin: Sultanate of Bengal
+  script: سلطنت بنگاله
+  script_lang: fa
+
+span:
+  start: { min: 1338, max: 1338, source: haig-1928 }
+  end: { min: 1538, max: 1538, source: haig-1928 }
+
+identity: >-
+  A province too far from Delhi to govern reliably that became its own
+  kingdom by simple distance and bad roads, ruled at different points by a
+  Hindu chieftain who forced his own son's conversion, by three African
+  kings whose combined reigns spanned barely seventeen years of court
+  intrigue, and by the Sayyid line that expelled the Africans and built the
+  kingdom's real golden age before an Afghan adventurer from Bihar took it
+  by siege.
+
+capitals:
+  - { name: Lakhnawati (Gaur), script: لکھنوتی, from: 1338, source: haig-1928 }
+  - { name: Pandua, script: پانڈوا, source: haig-1928 }
+
+core_region: The Gangetic delta, from Bihar to Sonargaon
+
+rulers:
+  founder: { name: Shams-ud-din Ilyas Shah, reign: [1345, 1358], source: haig-1928 }
+  peak: { name: Ala-ud-din Husain Shah, reign: [1493, 1519], source: haig-1928 }
+  last: { name: Ghiyas-ud-din Mahmud Shah, reign: [1533, 1538], source: haig-1928 }
+
+scripts_and_languages:
+  administration: [Persian, Bengali]
+  writing_system: Perso-Arabic
+
+ended:
+  type: conquest
+  by: []
+  year: 1538
+  source: haig-1928
+
+# Sher Khan Sur, who besieged and took Gaur, founded no dynasty that has a
+# record here: the Sur empire he raised on the strength of this conquest and
+# his later victories over Humayun was itself extinguished within Akbar's
+# own lifetime and is not carried in this region.
+succeeded_by_external:
+  - name: Sher Khan Sur and the Sur Empire
+    type: conquered by
+    year: 1538
+    note: >-
+      Sher Khan, an Afghan adventurer who had built his power in neighbouring
+      Bihar, besieged Gaur after Mahmud's famine-weakened garrison could not
+      hold the passage known as the Gate of Bengal. Mahmud fled and died at
+      Kahalgaon; Sher Khan assumed the royal title and went on, within two
+      years, to drive Humayun from the whole of Hindustan.
+    source: haig-1928
+
+institutions:
+  # Husain Shah's disbandment of the paik, the Hindu palace guard corps that
+  # had grown into something resembling a Praetorian Guard over several
+  # preceding reigns, and his replacement of it with Muslim troops, describes
+  # a maintained standing establishment rather than a seasonal levy.
+  military_basis: { values: [standing-professional], source: haig-1928 }
+  revenue_basis: null
+  # Assassination decided more successions in Bengal than any stated rule:
+  # Barbak's murderer took his throne, Muzaffar's own minister deposed him,
+  # and the kingdom passed through three African kings in the seventeen
+  # years before Husain Shah's accession alone.
+  succession_rule: { values: [factional], source: haig-1928 }
+  legitimation: { values: [conquest], source: haig-1928 }
+
+turning_points:
+  - year: 1352
+    type: reform
+    name: Ilyas Shah unites Bengal
+    changed: >-
+      A generation of rival claimants in the delta's separate regions ended
+      when Ilyas Shah took Sonargaon from his last competitor, ruling every
+      Bengali Muslim territory as one kingdom for the first time since Delhi
+      had lost its grip on the province.
+    source: haig-1928
+    contested: false
+  - year: 1414
+    type: conversion
+    name: Raja Ganesh's son crowned as a Muslim king
+    changed: >-
+      A Hindu chieftain who had ruled Bengal in all but name for a decade
+      surrendered his own son to a Muslim saint for conversion rather than
+      face a foreign army - and the convert, once crowned, turned against
+      the religion he had been coerced out of with a convert's own
+      particular zeal.
+    source: haig-1928
+    contested: false
+  - year: 1493
+    type: revolt
+    name: The expulsion of the Africans
+    changed: >-
+      Husain Shah, raised to the throne after a revolt against the third
+      African king to rule Bengal in seventeen years, disbanded the corps
+      that had let African courtiers seize the throne three times over and
+      expelled every African from the kingdom outright - closing off a route
+      to power that had dominated Bengal's court for a generation.
+    source: haig-1928
+    contested: false
+  - year: 1538
+    type: siege
+    name: The fall of Gaur to Sher Khan Sur
+    changed: >-
+      An Afghan adventurer who had built his own power base in neighbouring
+      Bihar took the Bengali capital by siege after a month-long defence at
+      the delta's own natural gateway finally broke - ending the independent
+      sultanate and giving its conqueror the resources to contest the whole
+      of Hindustan against the Mughals within two years.
+    source: haig-1928
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

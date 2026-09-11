@@ -3254,3 +3254,49 @@ edges:
            building and the apparatus it required — rather than a change of
            army or capital. The edge is coded on the ancient king-list
            convention that divides the dynasties here, not on any recorded
+           act of force."
+    source: shaw-2000
+    contested: true
+
+  # ---- Indian sultanates: the regional courts Timur's 1398 sack let loose ----
+
+  - from: delhi-sultanate
+    to: jaunpur
+    type: seceded from
+    year: 1394
+    note: "Malik Sarvar, a eunuch governor Delhi had sent east to restore
+           order after Timur's sack, was left in Jaunpur with an army and no
+           sultan strong enough to recall it, and took the title Malik
+           al-Sharq for himself."
+    source: haig-1928
+    contested: false
+
+  - from: jaunpur
+    to: delhi-sultanate
+    type: conquered by
+    year: 1489
+    note: "Husain Shah's second attempt to retake Delhi failed as badly as
+           his first; Bahlul Lodi's forces broke the Sharqi kingdom for good
+           some time before Bahlul's own death that year."
+    source: haig-1928
+    contested: false
+
+  - from: delhi-sultanate
+    to: bengal-sultanate
+    type: seceded from
+    year: 1338
+    note: "Bengal was already too distant a province for Delhi to hold once
+           Muhammad bin Tughluq's own authority began to fray, and it broke
+           away decades before Timur's invasion made the pattern general."
+    source: haig-1928
+    contested: false
+
+  - from: kashmir-sultanate
+    to: mughal
+    type: conquered by
+    year: 1586
+    note: "Yusuf Shah Chak travelled to Akbar's camp to honour a peace his
+           own general had negotiated and was detained on arrival; Akbar
+           annexed the valley rather than ratify the treaty."
+    source: haig-1928
+    contested: false
