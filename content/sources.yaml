@@ -3780,6 +3780,20 @@ sources:
       at once, which is why his account of Roman diplomacy is so much colder
       than his account of Roman virtue. Out of copyright.
 
+  - id: dio-herbert
+    kind: book
+    author: Cassius Dio
+    translator: Herbert Baldwin Foster
+    title: "Dio's Roman History"
+    publisher: Pafraets
+    year: 1906
+    note: >-
+      A Roman senator of Greek descent who served under the Severans and wrote
+      eighty books of Roman history, of which the third-century portion is
+      contemporary testimony rather than compilation. Cited here for the Roman
+      campaigns against Parthia, where he is unusually willing to say that a
+      celebrated victory achieved nothing. Out of copyright.
+
   - id: appian-white
     kind: primary
     author: Appian of Alexandria
