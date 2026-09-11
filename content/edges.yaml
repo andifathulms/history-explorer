@@ -1986,6 +1986,40 @@ edges:
     source: daryaee-2009
     contested: true
 
+  # ---- Magadha, and the throne four usurpations passed through ----
+
+  - from: nanda
+    to: maurya
+    type: overthrew
+    year: -322
+    note: "Chandragupta, an illegitimate scion of the Nanda family by
+           tradition, killed the last Nanda king and exterminated the rest
+           of the ruling house - inheriting an already-assembled army and
+           treasury rather than building either from nothing."
+    source: smith-1904
+    contested: false
+
+  - from: maurya
+    to: shunga
+    type: overthrew
+    year: -185
+    note: "Pushyamitra, the Mauryan commander-in-chief, killed the last
+           emperor at a review of the troops he commanded and took the
+           throne himself. Nobody invaded and nothing was conquered."
+    source: smith-1904
+    contested: false
+
+  - from: shunga
+    to: kanva
+    type: overthrew
+    year: -72
+    note: "Vasudeva Kanva, the Brahmin minister already running the state
+           behind its last dissolute king, had him murdered and took the
+           throne himself - the fourth ruling house of Magadha in a row to
+           begin with a trusted subordinate turning on the man he served."
+    source: smith-1904
+    contested: false
+
   - from: kushan
     to: sasanian
     type: conquered by

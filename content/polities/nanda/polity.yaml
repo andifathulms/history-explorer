@@ -1,0 +1,107 @@
+id: nanda
+region: classical-india
+
+name:
+  latin: Nanda Empire
+  script: नन्द वंश
+  script_lang: sa
+
+span:
+  start: { min: -361, max: -361, source: smith-1904 }
+  end: { min: -322, max: -322, source: smith-1904 }
+
+identity: >-
+  The dynasty a barber's son built on Magadha's existing wealth and army,
+  proverbial enough for its riches that a Greek army on the Beas turned back
+  rather than face it, and short-lived enough that its own founding is
+  agreed on by no two ancient traditions.
+
+capitals:
+  - { name: Pataliputra, script: पाटलिपुत्र, source: smith-1904 }
+
+core_region: Magadha and the middle Gangetic plain
+
+rulers:
+  founder: { name: Mahapadma Nanda, source: smith-1904 }
+  peak: { name: Mahapadma Nanda, source: smith-1904 }
+  last: { name: Dhana Nanda, source: smith-1904 }
+
+scripts_and_languages:
+  administration: [Prakrit, Sanskrit]
+  writing_system: Brahmi
+
+ended:
+  type: internal usurpation
+  by: [maurya]
+  year: -322
+  source: smith-1904
+
+# The Shishunaga line Mahapadma displaced has no record here. Smith gives no
+# firm date for the succession from the last Shishunaga, Mahanandin, and the
+# Puranic king-lists this rests on are explicitly unreliable on duration.
+preceded_by_external:
+  - name: the Shishunaga dynasty of Magadha
+    type: overthrew
+    year: null
+    note: >-
+      Mahanandin, last of the Shishunaga line, is said to have fathered
+      Mahapadma on a low-born woman; the son later killed his way to the
+      throne his birth would not otherwise have given him. The Puranas treat
+      this as the point at which Kshatriya rule in Magadha ended and rule by
+      men "of low degree" began.
+    source: smith-1904
+
+institutions:
+  # Curtius and Diodorus, reporting what Alexander was told on the Hyphasis:
+  # 20,000 horse, 200,000 foot, 2,000 chariots, 3,000 to 4,000 elephants.
+  # Numbers of that order describe a maintained royal army, not a levy raised
+  # for one campaign.
+  military_basis: { values: [standing-professional], source: smith-1904 }
+  revenue_basis: null
+  succession_rule: null
+  # Every surviving account agrees Mahapadma took the throne by killing the
+  # king he served, then exterminating the rest of the ruling family - a
+  # claim resting on force with no genealogical cover offered for it.
+  legitimation: { values: [conquest], source: smith-1904 }
+
+turning_points:
+  - year: -361
+    type: succession-crisis
+    name: Mahapadma's usurpation
+    changed: >-
+      Magadha's throne changed hands by force in a way that would recur
+      three more times over the following three centuries - Maurya, Shunga
+      and Kanva in turn, each one ended by the same method it began with.
+    source: smith-1904
+    contested: false
+  - year: -326
+    type: siege
+    name: Alexander turns back at the Hyphasis
+    changed: >-
+      Reports of the Nanda army's size - well beyond anything Alexander's
+      own forces had faced in Persia or the Punjab - reached his camp on the
+      Beas at the same moment his own troops, years from home, refused to
+      advance any further. Magadha was never tested against a Macedonian
+      army, and the reputation the reports left behind outlived any battle
+      that might have settled it.
+    source: smith-1904
+    contested: false
+  - year: -322
+    type: succession-crisis
+    name: Chandragupta's overthrow
+    changed: >-
+      An illegitimate scion of the family the dynasty itself had displaced
+      by force took it the same way its founder had taken the throne two
+      generations earlier - killing the last Nanda and exterminating those
+      related to him, ending a dynasty that had begun in exactly that
+      manner.
+    source: smith-1904
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

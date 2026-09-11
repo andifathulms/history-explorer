@@ -1,0 +1,93 @@
+id: kanva
+region: classical-india
+
+name:
+  latin: Kanva Empire
+  script: कण्व राजवंश
+  script_lang: sa
+
+span:
+  start: { min: -72, max: -72, source: smith-1904 }
+  end: { min: -27, max: -27, source: smith-1904 }
+
+identity: >-
+  Forty-five years and four reigns about which almost nothing is known
+  beyond how the dynasty began - a Brahmin minister murdering the king he
+  had already been ruling through - and how it ended, killed by a southern
+  power that has left no monument at Pataliputra to prove it was ever
+  there.
+
+capitals:
+  - { name: Pataliputra, script: पाटलिपुत्र, source: smith-1904 }
+
+core_region: Magadha and the middle Gangetic plain
+
+rulers:
+  founder: { name: Vasudeva Kanva, source: smith-1904 }
+  peak: { name: Vasudeva Kanva, source: smith-1904 }
+  last: { name: Susarman, source: smith-1904 }
+
+scripts_and_languages:
+  administration: [Sanskrit, Prakrit]
+  writing_system: Brahmi
+
+ended:
+  type: internal usurpation
+  by: []
+  year: -27
+  source: smith-1904
+
+# The Andhra, or Satavahana, dynasty that killed Susarman has no record here.
+# No coin or monument directly ties the Andhra kings to Pataliputra itself,
+# and Smith treats their control of Magadha as probable rather than certain -
+# the note says so rather than resolving it.
+succeeded_by_external:
+  - name: the Andhra (Satavahana) dynasty
+    type: conquered by
+    year: -27
+    note: >-
+      A king of the Andhra dynasty, already ruling wide territory across the
+      Deccan, killed Susarman and — on the evidence of coins of northern
+      type bearing the Andhra name Sata found alongside Kanva-era material,
+      rather than on any inscription found at Pataliputra itself — probably
+      held Magadha as a dependency for some period afterward.
+    source: smith-1904
+
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  # Vasudeva took the throne by having his own king murdered while still
+  # formally serving him as minister - conquest asserted from inside the
+  # government rather than announced by any claim of descent or election.
+  legitimation: { values: [conquest], source: smith-1904 }
+
+turning_points:
+  - year: -72
+    type: succession-crisis
+    name: Vasudeva Kanva's coup
+    changed: >-
+      The Brahmin minister who had been running the Shunga state behind its
+      last dissolute king had him murdered and took the throne for himself -
+      the fourth ruling house of Magadha in a row to begin with a trusted
+      subordinate turning on the man he served.
+    source: smith-1904
+    contested: false
+  - year: -27
+    type: succession-crisis
+    name: Susarman killed by the Andhra king
+    changed: >-
+      A power from outside the sequence of Magadhan usurpations entirely -
+      already ruling wide territory across the Deccan before it ever
+      touched Pataliputra - closed out a line no internal rival had managed
+      to unseat on its own.
+    source: smith-1904
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

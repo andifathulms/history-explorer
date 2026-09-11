@@ -1,0 +1,136 @@
+id: harsha
+region: classical-india
+
+name:
+  latin: Harsha Empire
+  script: पुष्यभूति राजवंश
+  script_lang: sa
+
+span:
+  start: { min: 606, max: 606, source: smith-1904 }
+  end: { min: 647, max: 648, source: smith-1904 }
+
+identity: >-
+  A north Indian paramountcy a fifteen-year-old assembled after his brother
+  was murdered by treachery, held together for four decades by a king who
+  gave away everything he owned every five years and still fielded a hundred
+  thousand cavalry, and lost within months of his death to a usurping
+  minister an escaped Chinese ambassador overthrew with a borrowed Tibetan
+  and Nepalese army.
+
+capitals:
+  - { name: Thanesar (Sthanvishvara), script: स्थाण्वीश्वर, from: 606, source: smith-1904 }
+  - { name: Kanauj (Kanyakubja), script: कान्यकुब्ज, source: smith-1904 }
+
+core_region: The Gangetic plain from the Punjab to Bengal
+
+rulers:
+  founder: { name: Prabhakaravardhana, source: smith-1904 }
+  peak: { name: Harsha (Harshavardhana), reign: [606, 647], source: smith-1904 }
+  last: { name: Harsha (Harshavardhana), reign: [606, 647], source: smith-1904 }
+
+scripts_and_languages:
+  administration: [Sanskrit]
+  writing_system: Brahmi
+
+ended:
+  type: internal usurpation
+  by: []
+  year: 648
+  source: smith-1904
+
+# Pushyabhuti, the family's remote, semi-legendary ancestor, has no record
+# here and is a founding figure rather than a predecessor state; Prabhakara-
+# vardhana is coded as founder instead as the first ruler the sources treat
+# as historically substantial. The Guptas, whose blood entered the family
+# through Prabhakaravardhana's mother, are a real predecessor dynasty but
+# not a political one this line succeeded directly - there is no single
+# named power that held the Thanesar-Kanauj region in the half-century
+# between the Gupta collapse and Prabhakaravardhana's rise for the note to
+# name.
+succeeded_by_external:
+  - name: Arjuna's usurpation, and the fragmentation that followed
+    type: overthrew
+    year: 648
+    note: >-
+      Harsha left no son. His minister Arjuna seized the throne, massacred
+      the escort of an arriving Chinese mission, and was captured within
+      the year by the mission's own surviving envoy at the head of a
+      borrowed Tibetan and Nepalese army. No paramount power replaced
+      Harsha's in northern India afterward; the region broke into regional
+      kingdoms for the following centuries.
+    source: smith-1904
+
+institutions:
+  # Harsha's own army grew across his reign from 5,000 elephants, 20,000
+  # cavalry and 50,000 infantry to 60,000 elephants and 100,000 cavalry - a
+  # maintained, expanding royal force rather than a levy raised campaign by
+  # campaign.
+  military_basis: { values: [standing-professional], source: smith-1904 }
+  revenue_basis: null
+  # Harsha's own accession went to the nobles' choice rather than automatic
+  # inheritance: his elder brother's murder left no clear heir, the nobles
+  # hesitated over the succession, and Harsha was invited to take the throne
+  # on a minister's advice rather than assuming it as an established right.
+  succession_rule: { values: [election], source: smith-1904 }
+  # Harsha styled himself, at his hesitant accession, merely "Prince
+  # Siladitya" rather than claiming the kingly title outright, and did not
+  # take the full royal style until his position was secure five and a half
+  # years later - legitimacy built up through demonstrated success rather
+  # than asserted from the start.
+  legitimation: { values: [election, conquest], source: smith-1904 }
+
+turning_points:
+  - year: 606
+    type: succession-crisis
+    name: A murdered king and a reluctant heir
+    changed: >-
+      Rajyavardhana, Harsha's elder brother, was assassinated by an ally of
+      the king he had just defeated, days after avenging their father's
+      death; the nobles of Thanesar, uncertain of the fifteen-year-old
+      Harsha's claim, took five and a half years to let him assume the
+      royal title outright rather than the modest style of prince he first
+      adopted.
+    source: smith-1904
+    contested: false
+  - year: 620
+    type: battle
+    name: Checked at the Narmada by Pulakeshin II
+    changed: >-
+      The one clear defeat in an otherwise unbroken run of conquest fixed
+      the Narmada river as the permanent boundary between Harsha's northern
+      paramountcy and the Chalukya power of the Deccan - the limit past
+      which thirty years of continuous campaigning never moved again.
+    source: smith-1904
+    contested: false
+  - year: 643
+    type: catastrophe
+    name: Fire and an assassin at the Kanauj assembly
+    changed: >-
+      A ceremony staged to publicise Buddhist teaching to eighteen tributary
+      kings and thousands of monks ended in a fire that nearly destroyed its
+      own central monument and an assassination attempt on the king himself
+      - answered with a forced confession, under torture, implicating five
+      hundred named Brahmans, most of whom were executed or exiled on
+      evidence nobody now credits as reliable.
+    source: smith-1904
+    contested: true
+  - year: 648
+    type: revolt
+    name: Arjuna's usurpation and capture
+    changed: >-
+      A minister's seizure of a throne left vacant by Harsha's own
+      childlessness ended, within the year, in the usurper's defeat and
+      capture by a foreign army raised specifically to avenge an attack on
+      a diplomatic mission - closing the dynasty out with an episode
+      stranger than anything in its own forty-year history.
+    source: smith-1904
+    contested: false
+
+measures:
+  reach_km2: { value: 1000000, at: 625, source: taagepera-1997 }
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

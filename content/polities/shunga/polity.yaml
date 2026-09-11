@@ -1,0 +1,103 @@
+id: shunga
+region: classical-india
+
+name:
+  latin: Shunga Empire
+  script: शुङ्ग राजवंश
+  script_lang: sa
+
+span:
+  start: { min: -185, max: -185, source: smith-1904 }
+  end: { min: -72, max: -72, source: smith-1904 }
+
+identity: >-
+  The contracted Mauryan rump a general took by killing his own emperor,
+  that fought off a Greek army at the gates of its own capital, revived the
+  old paramount's horse-sacrifice to prove the point, and spent its last
+  decades as short reigns and palace murders before its own chief minister
+  did to it exactly what its founder had done to the Mauryas.
+
+capitals:
+  - { name: Pataliputra, script: पाटलिपुत्र, source: smith-1904 }
+
+core_region: Magadha and the Gangetic plain, south to the Narmada river
+
+rulers:
+  founder: { name: Pushyamitra Shunga, source: smith-1904 }
+  peak: { name: Pushyamitra Shunga, source: smith-1904 }
+  last: { name: Devabhuti, source: smith-1904 }
+
+scripts_and_languages:
+  administration: [Sanskrit, Prakrit]
+  writing_system: Brahmi
+
+ended:
+  type: internal usurpation
+  by: [kanva]
+  year: -72
+  source: smith-1904
+
+institutions:
+  military_basis: { values: [standing-professional], source: smith-1904 }
+  revenue_basis: null
+  succession_rule: null
+  # Bana, writing two and a half centuries later with access to documents now
+  # lost, quotes Pushyamitra's own claim in his account of the coup:
+  # "reviewing the whole army, under the pretext of showing him his forces,"
+  # he struck down the emperor he served. The horse-sacrifice that followed,
+  # a rite reserved for a paramount sovereign and requiring a successful
+  # armed challenge to every rival claimant, is the clearest possible
+  # assertion of legitimacy by conquest available to a usurping general.
+  legitimation: { values: [conquest], source: smith-1904 }
+
+turning_points:
+  - year: -185
+    type: succession-crisis
+    name: Pushyamitra's coup
+    changed: >-
+      The Mauryan commander-in-chief killed his own emperor at a troop
+      review and took the throne over a contracted rump of the empire he
+      had served - Magadha and the Gangetic heartland, extending south only
+      as far as the Narmada, with none of the Mauryan north-west or Deccan
+      attached to it.
+    source: smith-1904
+    contested: false
+  - year: -153
+    type: siege
+    name: Menander repulsed from the approaches to Pataliputra
+    changed: >-
+      The dynasty's gravest external test in a hundred and twelve years of
+      existence was fought off at the very approaches to its own capital,
+      by an army that had spent most of the preceding decades on the
+      defensive against exactly this kind of threat and had never before
+      had to fight one this close to home.
+    source: smith-1904
+    contested: false
+  - year: -150
+    type: reform
+    name: The horse-sacrifice
+    changed: >-
+      Pushyamitra revived the ashvamedha, the rite by which a king proved
+      paramount status by letting a consecrated horse wander at will and
+      then compelling the submission of every territory it entered - staking
+      a formal claim to supremacy over northern India at exactly the moment
+      his throne had just survived its gravest external test.
+    source: smith-1904
+    contested: false
+  - year: -72
+    type: succession-crisis
+    name: Vasudeva Kanva's coup
+    changed: >-
+      A hundred and twelve years after its own founding by exactly the same
+      method, the dynasty ended: a trusted subordinate close enough to the
+      throne to arrange the reigning king's death took it for himself.
+    source: smith-1904
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
