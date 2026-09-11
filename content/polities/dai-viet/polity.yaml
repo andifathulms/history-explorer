@@ -126,6 +126,16 @@ turning_points:
       governed it, rather than wait to be invaded.
     source: taylor-2013
     contested: false
+  - year: 1225
+    type: succession-crisis
+    name: A dynasty married into
+    changed: >-
+      A coastal trading family that had spent a decade fighting its way up
+      the delta finished the job without a final battle, marrying its own
+      sons and daughters into a Ly royal line it had already out-manoeuvred
+      until nothing remained to inherit but a child bride's crown.
+    source: taylor-2013
+    contested: false
   - year: 1288
     type: battle
     name: Bach Dang

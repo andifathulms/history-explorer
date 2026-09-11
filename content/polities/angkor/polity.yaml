@@ -99,6 +99,17 @@ institutions:
   legitimation: { values: [divine-sanction, descent], source: coedes-1968 }
 
 turning_points:
+  - year: 1113
+    type: succession-crisis
+    name: Suryavarman II
+    changed: >-
+      A king who killed his own rival in single combat on the field of
+      battle spent his reign losing most of the wars he started against
+      Vietnam and Champa alike - and still left behind, built during his
+      own lifetime as his funerary temple, the largest religious structure
+      the kingdom or the world would ever see it build.
+    source: coedes-1968
+    contested: false
   - year: 1177
     type: siege
     name: The Chams in the city
