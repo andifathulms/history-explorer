@@ -26,6 +26,7 @@ identity: >-
 
 capitals:
   - { name: Johor Lama, from: 1540, source: reid-2005 }
+  - { name: Batu Sawar, from: 1587, source: borschberg-2021 }
   - { name: Riau, from: 1673, source: andaya-1975 }
 
 core_region: The southern tip of the Malay peninsula, the Riau-Lingga archipelago and the Sumatran coast opposite
@@ -90,6 +91,19 @@ institutions:
   legitimation: { values: [descent], source: brown-1970 }
 
 turning_points:
+  - year: 1613
+    type: siege
+    name: Batu Sawar burned
+    changed: >-
+      A court split for a decade between a Portuguese faction and a Dutch
+      one settled its quarrel just in time for a third power to punish
+      both sides for it: Iskandar Muda's Aceh burned the capital, carried
+      off the old ruler, and installed the pro-Dutch brother as a married-in
+      Acehnese client - a vassalage the new king spent his reign trying and
+      failing to outgrow before Aceh burned his rebuilt capital a second
+      time in 1615.
+    source: borschberg-2021
+    contested: false
   - year: 1641
     type: siege
     name: Melaka, from the other side
