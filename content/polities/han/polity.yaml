@@ -34,27 +34,10 @@ ended:
   year: 220
   source: loewe-twitchett-1986
 
-# This record had no institutions block and no turning points at all until this
-# pass. On a site that codes four fields for two hundred polities, four
-# centuries of the Han carrying none of them was a gap in the project rather
-# than in the evidence — the same finding this corpus's Majapahit record's
-# institutions comment records, and the Han is a much larger instance of it.
-# Both real, both without records here. The Qin built the machine the Han ran on;
 # Cao Wei took the throne by an abdication ceremony rather than a conquest, so
-# the successor row omits `type` and lets the note carry the relation.
-preceded_by_external:
-  - name: the Qin
-    type: absorbed remnants of
-    year: null
-    note: >-
-      The state that unified China by force in 221 BC and fell apart within four
-      years of its founder's death. The Han kept its commanderies and counties,
-      its standardised script, its registers, its uniform law and its roads, and
-      spent four centuries explaining that it was not the Qin — the verdict
-      being that an empire taken by force cannot be held by the same means,
-      which became the political theory every later dynasty ruled on.
-    source: loewe-twitchett-1986
-
+# the successor row omits `type` and lets the note carry the relation. The
+# Qin, once named here in prose, now has a full record of its own and the
+# relationship is drawn as an edge instead.
 succeeded_by_external:
   - name: Cao Wei, and the Three Kingdoms
     year: 220
@@ -161,8 +144,8 @@ measures:
     # And in 304 a Xiongnu leader named Liu Yuan declared a dynasty and called it
     # Han, on the grounds that his line descended from a Han princess sent north
     # in a marriage alliance four centuries earlier — a claim to the Chinese
-    # imperial mandate by the ruler of the people this corpus's Xiongnu record
-    # carries, argued from a treaty the Han had made to keep them out.
+    # imperial mandate by a Xiongnu ruler, argued from a treaty the Han had made
+    # to keep his own people out.
     successor_claims:
       count: 2
       items: [Shu Han, The Han-Zhao of Liu Yuan]

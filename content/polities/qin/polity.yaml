@@ -1,0 +1,146 @@
+id: qin
+region: china
+
+name:
+  latin: Qin Empire
+  script: 秦
+  script_lang: zh
+
+span:
+  start: { min: -221, max: -221, source: loewe-twitchett-1986 }
+  end: { min: -206, max: -206, source: loewe-twitchett-1986 }
+
+identity: >-
+  The state that ended the Warring States by destroying them one at a time,
+  unified China by force in fifteen years, and held it for fifteen more.
+
+capitals:
+  - { name: Xianyang, script: 咸陽, from: -221, source: loewe-twitchett-1986 }
+
+core_region: The Wei river valley and, after unification, the whole of China proper
+
+rulers:
+  founder: { name: Qin Shi Huang, reign: [-221, -210], source: loewe-twitchett-1986 }
+  peak: { name: Qin Shi Huang, reign: [-221, -210], source: loewe-twitchett-1986 }
+  last: { name: Qin Er Shi, reign: [-210, -207], source: loewe-twitchett-1986 }
+
+scripts_and_languages:
+  administration: [Chinese]
+  writing_system: Chinese
+
+ended:
+  type: fragmentation
+  by: [han]
+  year: -206
+  source: loewe-twitchett-1986
+
+# Qin had been one state among seven for three centuries before it became the
+# empire; the polity coded here begins at unification in 221 BC, which is where
+# every other record in this region begins its own account of it, rather than at
+# Qin's founding as a Zhou vassal state centuries earlier. The seven Warring
+# States are not full records here and the Zhou royal house it formally
+# succeeded is a name in prose, not a match to code.
+preceded_by_external:
+  - name: the Zhou royal house and the six rival Warring States
+    type: absorbed remnants of
+    year: -256
+    note: >-
+      The Qin ended the nominal Zhou kingship in 256 BC and then spent the next
+      thirty-five years destroying Han, Zhao, Wei, Chu, Yan and Qi one at a time,
+      the last of them in 221 BC. Qin had itself been one of the seven for three
+      centuries, on the western frontier facing the steppe, and its rulers had
+      already been experimenting with the centralised bureaucratic methods that
+      unification then applied to everyone else.
+    source: loewe-twitchett-1986
+
+succeeded_by_external:
+  - name: the Han
+    type: overthrew
+    year: -206
+    note: >-
+      A peasant rebel leader took the Qin capital in 206 BC, four years after the
+      First Emperor's death, and after a further four years of civil war against
+      his rival Xiang Yu founded the Han. The Han kept almost the entire Qin
+      administrative apparatus — the commanderies, the law code, the roads, the
+      standardised script and measures — and spent the next four centuries
+      arguing in print that it was nothing like the state it had inherited all of
+      that from.
+    source: loewe-twitchett-1986
+
+institutions:
+  # Universal conscription organised through the household registration system
+  # Qin had pioneered as one of the seven states, extended to the whole empire
+  # after unification: a man owed labour service and military service to the
+  # state directly, not to a lord. It built the walls, the roads, the canals and
+  # the tomb, and it is why the empire could put armies of a size no other power
+  # of the period could match.
+  military_basis: { values: [conscript], source: loewe-twitchett-1986 }
+  # A land tax and a head tax, collected through the same registers that
+  # supplied the conscription, and corvée labour on top of both — men owed a
+  # fixed number of days a year on state works, and the Great Wall, the roads and
+  # the tomb were all built substantially with this labour rather than with paid
+  # or purchased hands.
+  revenue_basis: { values: [land-tax, poll-tax], source: loewe-twitchett-1986 }
+  succession_rule: null
+  # Conquest, argued through a Legalist theory of the state rather than through
+  # any claim of Heaven's favour: the First Emperor's title asserted that his
+  # house had ended the disorder of the feudal age by force and virtue at once,
+  # and later Confucian writers are the ones who supplied the Mandate-of-Heaven
+  # framework in which his fall then had to be explained.
+  legitimation: { values: [conquest], source: loewe-twitchett-1986 }
+
+turning_points:
+  - year: -221
+    type: reform
+    name: One law, one script, one axle
+    changed: >-
+      The conquest of the last of the six rival states was followed immediately
+      by standardisation: one system of weights and measures, one width of cart
+      axle, one form of the written script, and the abolition of the old feudal
+      titles in favour of a uniform administrative hierarchy of commanderies and
+      counties answering directly to the throne. The unification was made
+      permanent by making the country legible to one government rather than
+      seven.
+    source: loewe-twitchett-1986
+    contested: false
+  - year: -213
+    type: reform
+    name: The burning of the books
+    changed: >-
+      On the minister Li Si's advice, the court ordered the surrender and
+      destruction of privately held historical and philosophical texts outside
+      three exempted categories, with penal servitude on the Great Wall for
+      concealment. Whatever the literal scale of the burning, it fixed the Qin's
+      later reputation and gave every subsequent dynasty a founding atrocity to
+      define itself against.
+    source: giles-1901
+    contested: true
+  - year: -210
+    type: succession-crisis
+    name: The forged will
+    changed: >-
+      The First Emperor died on a provincial tour. The eunuch Zhao Gao and the
+      minister Li Si concealed the death, forged an order for the heir
+      apparent's suicide, and placed a younger and more pliable son on the
+      throne as Qin Er Shi. The empire's entire chain of command was captured by
+      two men within weeks of the founder's death, and the dynasty did not
+      survive them by three years.
+    source: loewe-twitchett-1986
+    contested: false
+
+measures:
+  reach_km2: { value: 2500000, at: -210, source: taagepera-1979 }
+  peak_population: null
+  influence:
+    descendant_scripts:
+      count: 1
+      items: [Qin small seal script]
+      source: loewe-twitchett-1986
+    religions_carried: { count: 0, items: [], source: loewe-twitchett-1986 }
+    # Zero. The Qin house did not survive its own collapse in any successor
+    # state, and unlike the Han name — claimed centuries later by a Xiongnu
+    # dynasty and by one of the Three Kingdoms — nobody afterwards founded a
+    # state and called it Qin to assert continuity with it. Its afterlife is
+    # institutional rather than dynastic: everyone who ran China after it used
+    # the machine it built.
+    successor_claims: { count: 0, items: [], source: loewe-twitchett-1986 }

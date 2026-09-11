@@ -1,0 +1,125 @@
+id: sui
+region: china
+
+name:
+  latin: Sui Empire
+  script: 隋
+  script_lang: zh
+
+span:
+  start: { min: 581, max: 581, source: twitchett-1979 }
+  end: { min: 618, max: 618, source: twitchett-1979 }
+
+identity: >-
+  The dynasty that reunited China after three and a half centuries of division,
+  dug the canal the country still used a thousand years later, and destroyed
+  itself in three campaigns against a Korean kingdom that never submitted.
+
+capitals:
+  - { name: Daxing, script: 大興, from: 581, source: twitchett-1979 }
+  - { name: Luoyang, script: 洛陽, from: 605, source: twitchett-1979 }
+
+core_region: The Wei and Yellow River plains, and after 589 the whole of China proper
+
+rulers:
+  founder: { name: Emperor Wen (Yang Jian), reign: [581, 604], source: twitchett-1979 }
+  peak: { name: Emperor Wen (Yang Jian), reign: [581, 604], source: twitchett-1979 }
+  last: { name: Emperor Yang (Yang Guang), reign: [604, 618], source: twitchett-1979 }
+
+scripts_and_languages:
+  administration: [Chinese]
+  writing_system: Chinese
+
+ended:
+  type: fragmentation
+  by: [tang]
+  year: 618
+  source: twitchett-1979
+
+preceded_by_external:
+  - name: the Northern Zhou, the Northern Qi and the southern Chen
+    type: absorbed remnants of
+    year: 557
+    note: >-
+      Three and a half centuries of division following the Han collapse had left
+      China split between a sequence of conquest dynasties in the north,
+      descended from the Xianbei successors of the Sien-pi confederation, and a
+      sequence of short-lived native courts in the south. Yang Jian, regent and
+      then usurper of the Northern Zhou, exterminated its ruling family, took its
+      throne in 581, and conquered the southern Chen in 589 — the first
+      reunification of the whole country since 316.
+    source: parker-1895
+
+institutions:
+  # Universal conscription and corvée obligation on a registered peasantry under
+  # the equal-field land allocation system inherited from the northern
+  # dynasties, extended across the reunified empire. It built the canal and the
+  # granaries in two decades and then, asked to do the same again for three
+  # consecutive campaigns in Korea, broke.
+  military_basis: { values: [conscript], source: twitchett-1979 }
+  # Land tax on the equal-field allotments, assessed through the same household
+  # registers that supplied the conscription and the corvée labour.
+  revenue_basis: { values: [land-tax], source: twitchett-1979 }
+  succession_rule: null
+  legitimation: { values: [conquest, divine-sanction], source: twitchett-1979 }
+
+turning_points:
+  - year: 589
+    type: battle
+    name: The Chen conquered
+    changed: >-
+      Sui armies took the southern Chen capital and ended three hundred and
+      sixty years in which no government had held both halves of China at once.
+      The reunification joined two administrative traditions, two legal systems
+      and two economies that had developed in near-total separation since the
+      fall of the Han, and every institution built afterward had to work for
+      both at once.
+    source: twitchett-1979
+    contested: false
+  - year: 605
+    type: reform
+    name: The Grand Canal begun
+    changed: >-
+      A reunited empire whose richest farmland and whose capital sat on opposite
+      sides of a divide three centuries old acquired, for the first time, a
+      single transport corridor between them - and a single point of failure,
+      since every later demand on the same conscripted labour force competed
+      directly with the shipments that fed the north.
+    source: twitchett-1979
+    contested: false
+  - year: 612
+    type: catastrophe
+    name: The first Korea campaign
+    changed: >-
+      A force the sources put at over a million combat troops, with a logistics
+      train several times that size, crossed the Yalu against Koguryo and was
+      destroyed retreating from a siege it could not sustain. It was, on
+      contemporary figures, the largest single military mobilisation in
+      pre-modern history, and it accomplished nothing the dynasty could survive
+      having spent that much to fail at.
+    source: twitchett-1979
+    contested: false
+  - year: 616
+    type: revolt
+    name: Sibir's attack at the summer palace
+    changed: >-
+      The Turkic khan Sibir, whose family Sui had spent thirty years buying
+      loyalty from with princesses and titles, nearly captured the emperor at
+      his own summer residence. It announced that the frontier policy which had
+      kept a united steppe power off China's back for a generation had produced,
+      by the end, a steppe power strong enough to threaten the dynasty directly
+      the moment its own authority weakened.
+    source: parker-1895
+    contested: false
+
+measures:
+  reach_km2: { value: 4600000, at: 610, source: taagepera-1997 }
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: twitchett-1979 }
+    religions_carried: { count: 0, items: [], source: twitchett-1979 }
+    # Zero. No state afterward took the Sui name to claim its inheritance the
+    # way later regimes invoked Han or Tang; its legacy was administrative and
+    # infrastructural rather than dynastic, absorbed whole into the Tang that
+    # replaced it rather than argued over by a claimant.
+    successor_claims: { count: 0, items: [], source: twitchett-1979 }

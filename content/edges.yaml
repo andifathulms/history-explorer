@@ -707,6 +707,30 @@ edges:
     source: treadgold-1997
     contested: true
 
+  - from: sui
+    to: tang
+    type: overthrew
+    year: 618
+    note: "Li Yuan, a Sui general related to the imperial house, took the
+           throne with Turkic help after three ruinous invasions of Korea
+           broke the dynasty he had served. He kept the canal, the granaries,
+           the equal-field land system and the law code, and corrected almost
+           everything else."
+    source: twitchett-1979
+    contested: false
+
+  - from: qin
+    to: han
+    type: overthrew
+    year: -206
+    note: "A minor local official named Liu Bang took the Qin capital, beat his
+           rival Xiang Yu in four years of civil war, and kept almost the entire
+           Qin administrative apparatus - the commanderies, the script, the
+           roads, the standardised weights and measures - while rejecting the
+           harshness that had run it."
+    source: loewe-twitchett-1986
+    contested: false
+
   - from: liao
     to: jin
     type: overthrew
@@ -725,6 +749,17 @@ edges:
            longer than Khwarazm, and occupied Chinggis Khan and his successor for
            most of that time."
     source: morgan-2007
+    contested: false
+
+  - from: song
+    to: yuan
+    type: conquered by
+    year: 1279
+    note: "A Mongol fleet destroyed the last Song squadron at Yamen and a
+           minister carried the child emperor into the sea rather than
+           surrender him. It was the first time the whole of China had been
+           ruled from the steppe."
+    source: franke-twitchett-1994
     contested: false
 
   - from: abbasid

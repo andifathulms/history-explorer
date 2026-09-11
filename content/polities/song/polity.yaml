@@ -1,0 +1,147 @@
+id: song
+region: china
+
+name:
+  latin: Song Empire
+  script: 宋
+  script_lang: zh
+
+span:
+  start: { min: 960, max: 960, source: boulger-1898 }
+  end: { min: 1279, max: 1279, source: boulger-1898 }
+
+identity: >-
+  The dynasty that reunified China after the Five Dynasties, ruled a state
+  that paid other powers to leave it alone rather than fight them, lost its
+  own capital and the whole of the north to a border war fifty years old, and
+  spent its last century and a half as a wealthy, urbanised remnant south of
+  the Yangtze before a Mongol fleet drowned its last emperor at sea.
+
+capitals:
+  - { name: Bianjing (Kaifeng), script: 汴京, from: 960, source: boulger-1898 }
+  - { name: Lin'an (Hangzhou), script: 臨安, source: boulger-1898 }
+
+core_region: The Yellow River and Yangtze plains, and after 1127 the lands south of the Huai
+
+rulers:
+  founder: { name: Emperor Taizu (Zhao Kuangyin), source: boulger-1898 }
+  peak: { name: Emperor Shenzong (Zhao Xu), reign: [1067, 1085], source: boulger-1898 }
+  last: { name: Emperor Bing (Zhao Bing), reign: [1278, 1279], source: boulger-1898 }
+
+scripts_and_languages:
+  administration: [Chinese]
+  writing_system: Chinese
+
+ended:
+  type: conquest
+  by: [yuan]
+  year: 1279
+  source: boulger-1898
+
+preceded_by_external:
+  - name: the Later Zhou and the four other Five Dynasties
+    type: overthrew
+    year: 960
+    note: >-
+      The Tang collapse in 907 left north China to five short-lived military
+      regimes in fifty-three years, the last of them the Later Zhou. Zhao
+      Kuangyin, a general who had served the Later Zhou's own reunification
+      campaigns, was proclaimed emperor by his troops on campaign and returned
+      to the capital to take the throne without a fight.
+    source: boulger-1898
+
+institutions:
+  # Boulger describes Taizu founding an examined, promoted professional force
+  # in place of the personal armies that had made and unmade the Five
+  # Dynasties; Wang An-shih's militia levy under Shenzong (below) was a
+  # deliberate departure from this default, not the default itself.
+  military_basis: { values: [standing-professional], source: boulger-1898 }
+  # Land tax on registered households, per the 1013 agricultural census Boulger
+  # cites as evidence of Song administrative reach.
+  revenue_basis: { values: [land-tax], source: boulger-1898 }
+  succession_rule: null
+  # Taizu's accession is explicitly framed by Boulger as divinely signalled —
+  # "signs were seen in the heavens" — on top of the soldiers' acclamation
+  # that actually made him emperor; the coded vocabulary has no term for a
+  # troops' acclamation, so only the sourced half of the claim is coded here.
+  legitimation: { values: [divine-sanction], source: boulger-1898 }
+
+turning_points:
+  - year: 960
+    type: reform
+    name: Zhao Kuangyin proclaimed emperor
+    changed: >-
+      A general serving the last of the Five Dynasties was acclaimed by his
+      own soldiers on campaign and took the throne without a battle. He spent
+      his reign centralising an army that had spent half a century making and
+      breaking emperors, and handed the office an institutional stability
+      it had not had since the Tang.
+    source: boulger-1898
+    contested: false
+  - year: 1067
+    type: reform
+    name: Wang Anshi's New Policies begin
+    changed: >-
+      Shenzong gave an untried official the chief ministry and backed his
+      programme against most of the senior civil service. State credit, a
+      state trading monopoly and a militia levy replaced tax farming, private
+      moneylending and the standing professional army as the default
+      mechanisms of Song government for the length of the reign.
+    source: boulger-1898
+    contested: true
+  - year: 1085
+    type: reform
+    name: Sima Guang reverses the New Policies
+    changed: >-
+      On Shenzong's death the reformers lost their patron, and Sima Guang -
+      recalled to the chancellorship he had resigned in protest fifteen years
+      earlier - dismantled the New Policies within months of returning to
+      power. The reversal, as much as the reforms themselves, set the pattern
+      of court politics running to the end of the Northern Song: each new
+      reign undoing the settled policy of the last.
+    source: giles-1901
+    contested: false
+  - year: 1127
+    type: catastrophe
+    name: The fall of Kaifeng
+    changed: >-
+      A Jin army took the capital, captured two emperors and the greater part
+      of the imperial clan, and carried them into captivity in the north. A
+      surviving prince re-founded the dynasty at Nanjing and then Hangzhou,
+      ruling a state confined to the lands south of the Huai for the rest of
+      its existence.
+    source: boulger-1898
+    contested: false
+  - year: 1141
+    type: treaty
+    name: An ignominious peace with the Jin
+    changed: >-
+      Gaozong surrendered his claim to the lost northern territory, agreed to
+      an annual tribute in silk and money, and had imprisoned - an
+      imprisonment that ended in murder - the general whose recent victories
+      had done most to make the Jin willing to negotiate at all.
+    source: boulger-1898
+    contested: false
+  - year: 1279
+    type: battle
+    name: Yamen
+    changed: >-
+      A Mongol fleet destroyed the last Song squadron in the Pearl River
+      estuary. A minister carried the child emperor into the sea rather than
+      surrender him, and with that drowning the dynasty that had
+      begun with a general acclaimed by his own troops ended without an heir
+      left to acclaim.
+    source: boulger-1898
+    contested: false
+
+measures:
+  reach_km2: { value: 3100000, at: 980, source: taagepera-1997 }
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: giles-1911 }
+    religions_carried: { count: 0, items: [], source: giles-1911 }
+    # Zero claimants to the Song throne or title in the way later regimes
+    # invoked Han or Tang legitimacy; the Song's afterlife ran through the
+    # Neo-Confucian curriculum Zhu Xi built from its scholarship, not through
+    # dynastic claim, and this coded field has no vocabulary for a curriculum.
+    successor_claims: { count: 0, items: [], source: giles-1911 }
