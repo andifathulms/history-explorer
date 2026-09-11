@@ -1,0 +1,132 @@
+id: dzungar-khanate
+region: mongol-world
+
+name:
+  latin: Dzungar Khanate
+  script: ᠵᠡᠭᠦᠨ ᠭᠠᠷ
+  script_lang: mn
+
+# Howorth, following Pallas, has Kharakhula surviving until 1635, when Erdeni
+# Baatur Khungtaiji succeeded him. The end is a range because the destruction
+# took three years: the Ili was occupied and Dawachi taken in 1755, and the
+# extermination of the four divisions and their twenty-one hordes was finished
+# after Amursana's death in 1757-58.
+span:
+  start: { min: 1635, max: 1635, source: howorth-1876 }
+  end: { min: 1755, max: 1758, source: howorth-1876 }
+
+identity: >-
+  The last nomad empire: a confederation of western Mongols on the Ili and the
+  Irtysh who took Tibet, the Tarim and the Khalkha country without a drop of
+  Chinggisid blood, and were exterminated by an emperor who wrote down that he
+  had done it.
+
+capitals:
+  - { name: Ili, from: 1678, source: howorth-1876 }
+
+core_region: Dzungaria — the Ili valley, the Black Irtysh and the Tarbagatai
+
+rulers:
+  founder: { name: Erdeni Baatur Khungtaiji, reign: [1635, 1653], source: howorth-1876 }
+  peak: { name: Galdan Boshugtu, reign: [1671, 1697], source: howorth-1876 }
+  last: { name: Dawachi, reign: [1752, 1755], source: howorth-1876 }
+
+scripts_and_languages:
+  administration: [Oirat Mongolian]
+  writing_system: Uyghur-Mongolian
+
+ended:
+  type: conquest
+  by: []
+  year: 1758
+  source: howorth-1876
+
+succeeded_by_external:
+  - name: the Qing dynasty
+    type: conquered by
+    year: 1758
+    note: >-
+      The Qianlong emperor took the Ili in 1755, installed four khans over the
+      four Oirat divisions, found them all intractable, and destroyed them. The
+      memoir he wrote about it says of one: I uprooted his race, I changed into
+      a desert the unhappy country where the perfidious Choros formerly dwelt.
+      The valley became a Chinese penal settlement, repopulated from Gansu with
+      criminals and garrison colonists.
+    source: howorth-1876
+
+institutions:
+  # The Oirat tümens under their taishis - Choros, Dörbet, Khoit and Khoshut -
+  # under one over-khan. Breaking that supreme authority and putting the four
+  # divisions back under four separate khans was the Qing settlement of 1755,
+  # and the prelude to destroying all four.
+  military_basis: { values: [tribal-levy], source: howorth-1876 }
+  # Herds, the Irtysh salt, the caravan trade of the Ili, and after 1678 a
+  # standing tribute of four hundred thousand tangas a month from the oasis
+  # towns of the Tarim, whose internal government was left alone.
+  revenue_basis: { values: [tribute, trade-toll, plunder], source: howorth-1876 }
+  # Violent and unregulated. Galdan was a monk who took dispensation, killed his
+  # brothers and declared himself taiji; his nephew fled with seven followers and
+  # came back to destroy him; the last two rulers were a usurper and the man who
+  # betrayed him.
+  succession_rule: { values: [factional], source: howorth-1876 }
+  # Not descent — the Choros were Oirats and no Chinggisids. What they had
+  # instead was Lhasa. Galdan had been a lama in the Dalai Lama's own service,
+  # and Howorth's explanation of his hold over the Kalmuks is that this made him
+  # a considerable person entirely apart from being khan.
+  legitimation: { values: [divine-sanction, investiture], source: howorth-1876 }
+
+turning_points:
+  - year: 1676
+    type: battle
+    name: "Lake Zaisan"
+    changed: >-
+      Galdan forestalled his own father-in-law in the mountain passes, beat him,
+      chased him to the Zaisan lake and had him beheaded, taking fifteen thousand
+      prisoners. The Kalmuks kept a legend that the lake was tinged with blood
+      for six days' journey and its water unwholesome ever after — though the
+      Russian envoy who passed that way told Müller he had drunk it and cooked
+      with it.
+    source: howorth-1876
+    contested: false
+  - year: 1678
+    type: battle
+    name: "Little Bukharia"
+    changed: >-
+      A Kashgar holy man expelled by his rivals reached Lhasa, and the Dalai Lama
+      sent him on to Galdan with a letter asking that he be restored. Galdan took
+      the whole Tarim basin instead and installed him as viceroy at Yarkand,
+      carrying the khan's family off to Kuldja. An empire of pasture acquired a
+      row of cities and a monthly revenue.
+    source: howorth-1876
+    contested: false
+  - year: 1688
+    type: battle
+    name: "The Khalkha driven over the Gobi"
+    changed: >-
+      Galdan crossed into eastern Mongolia and dispersed the seven banners of the
+      Khalkha — a hundred thousand men — in a single year. They fled south of the
+      desert and submitted to the Manchus to survive, which brought the whole of
+      northern Mongolia into the Qing empire and made the emperor and the Dzungars
+      neighbours.
+    source: howorth-1876
+    contested: false
+  - year: 1696
+    type: battle
+    name: "Jao Modo"
+    changed: >-
+      Feiyanggu dismounted his troops on a hill and waited. Artillery and
+      musketry broke the Dzungar charge; two thousand were left on the field and
+      the army dispersed. Galdan's wife was killed by a musket ball in the
+      confusion and he fled west with his son and daughter and a few retainers.
+      Six thousand oxen, seventy thousand sheep, five thousand horses and five
+      thousand camels went to the victors.
+    source: howorth-1876
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

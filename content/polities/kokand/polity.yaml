@@ -1,0 +1,126 @@
+id: kokand
+region: mongol-world
+
+name:
+  latin: Khanate of Kokand
+  script: خانات خوقند
+  script_lang: fa
+
+# Schuyler is explicit that no native history of the khanate had been written and
+# that what is known comes from tradition, coins and Chinese records. He puts the
+# founding of the line by Shahrukh Bek only "some time in the last century" and
+# gives no year for it or for the two rulers after him; the first datable facts
+# are 1750, when Erdeni Bek entertained the officers of a Qing general at Kokand
+# and all the beks of Fergana obeyed him, and 1760, when they sent embassies and
+# tribute to Beijing. The range is those two figures, not a guess between them.
+span:
+  start: { min: 1750, max: 1760, source: schuyler-1876 }
+  end: { min: 1876, max: 1876, source: schuyler-1876 }
+
+identity: >-
+  The youngest of the three Uzbek khanates and the largest: the Fergana valley
+  under a dynasty of the Ming tribe, which sent tribute to Beijing, pushed a
+  frontier of forts up the Syr Darya, and was the only one of the three to be
+  abolished outright.
+
+capitals:
+  - { name: Kokand, script: خوقند, source: schuyler-1876 }
+
+core_region: Fergana, the middle Syr Darya, and Tashkent
+
+rulers:
+  founder: { name: Erdeni Bek, source: schuyler-1876 }
+  peak: { name: Muhammad Ali, reign: [1822, 1842], source: vambery-1864 }
+  last: { name: Nasreddin, reign: [1875, 1876], source: schuyler-1876 }
+
+scripts_and_languages:
+  administration: [Chagatai Turkic, Persian]
+  writing_system: Arabic
+
+ended:
+  type: conquest
+  by: []
+  year: 1876
+  source: schuyler-1876
+
+succeeded_by_external:
+  - name: the Russian Empire
+    type: conquered by
+    year: 1876
+    note: >-
+      Alone of the three khanates Kokand was not left standing. Khudayar Khan
+      fled his own army in 1875 and was received by the Russians at Tashkent and
+      sent to live at Orenburg; his son Nasreddin was proclaimed, was drawn into
+      a war with Russia, and lost the throne. The khanate was annexed and
+      renamed, in Schuyler's phrase, under the historic name of Ferghana.
+    source: schuyler-1876
+
+institutions:
+  # Uzbek and Tajik townsmen with Kirghiz and Kipchak nomad cavalry, and the
+  # second element decided everything. Vambery thought the settled Kokandi
+  # notably unwarlike, and judged that without the protection of the nomads the
+  # cities would long since have fallen to China, Russia or Bukhara.
+  military_basis: { values: [tribal-levy, client-levy], source: vambery-1864 }
+  # The most productive irrigated valley in Central Asia, plus the caravan trade
+  # to Kashgar over the passes and to Russia down the Syr Darya, plus the tolls
+  # of Tashkent.
+  revenue_basis: { values: [land-tax, trade-toll], source: vambery-1864 }
+  # Neither Chinggisid descent nor a stable rule. The throne changed hands by
+  # murder, coup, Kipchak intervention and Bukharan installation so regularly
+  # that Schuyler's narrative of the last thirty years is almost entirely a list
+  # of pretenders.
+  succession_rule: { values: [factional], source: schuyler-1876 }
+  legitimation: { values: [conquest, divine-sanction], source: schuyler-1876 }
+
+turning_points:
+  - year: 1760
+    type: treaty
+    name: "Tribute to Beijing"
+    changed: >-
+      After the Qing destroyed the Dzungars and took the Tarim, Erdeni Bek and
+      the other Fergana chiefs tendered their submission to the Qianlong emperor
+      and sent embassies and tribute — horses that sweat blood, hunting eagles
+      and falcons. A valley of quarrelling towns discovered it now had a great
+      power on its eastern side, and got a trading relationship out of it.
+    source: schuyler-1876
+    contested: false
+  - year: 1842
+    type: siege
+    name: "The emir in the capital"
+    changed: >-
+      Nasrullah of Bukhara took Kokand and executed Muhammad Ali with his brother
+      and his two sons. Three months later the Kipchaks retook the city, put the
+      dead khan's son on the throne, and walled the palace quarter with the
+      forced labour of the Bukharan garrison. The dynasty survived; its authority
+      over its own tribes did not.
+    source: vambery-1864
+    contested: false
+  - year: 1865
+    type: siege
+    name: "Tashkent"
+    changed: >-
+      The largest city of the khanate and the commercial capital of the whole
+      region was stormed by a Russian force and never returned. It became the
+      seat of Russian Turkistan, from which the remaining khanates were governed
+      in all but name.
+    source: schuyler-1876
+    contested: false
+  - year: 1875
+    type: revolt
+    name: "The army goes over"
+    changed: >-
+      With a Russian embassy still in the city the rebellion broke out again and
+      the Aftobachi led it. The army deserted in a mass and the khan's own
+      brother and sons went over to the rebels; Khudayar fled for the third time,
+      with his treasure, to the Russians. It was the last thing the khanate did,
+      and it decided that it would be abolished rather than kept.
+    source: schuyler-1876
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: { value: 3000000, at: 1863, source: vambery-1864 }
+  influence:
+    descendant_scripts: { count: 0, items: [], source: vambery-1864 }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

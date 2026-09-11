@@ -1,0 +1,122 @@
+id: khiva
+region: mongol-world
+
+name:
+  latin: Khanate of Khiva
+  script: خانات خیوه
+  script_lang: fa
+
+# 1511 is Ilbars, the first Shaybanid khan of Khwarazm in Abu'l-Ghazi's account,
+# whose own dating of the event Howorth corrects. The end is the Russian
+# campaign of 1873 and the treaty that followed it; the khan kept his throne
+# under Russian suzerainty until 1920.
+span:
+  start: { min: 1511, max: 1511, source: howorth-1880 }
+  end: { min: 1873, max: 1873, source: schuyler-1876 }
+
+identity: >-
+  A khanate of one irrigated delta, surrounded on every side by desert, which
+  survived three centuries because nobody could reach it — and financed itself
+  by selling the people it caught on the roads.
+
+capitals:
+  - { name: Urgench, from: 1511, to: 1621, source: howorth-1880 }
+  - { name: Khiva, script: خیوه, from: 1621, source: howorth-1880 }
+
+core_region: Khwarazm — the delta of the Oxus below the Turkmen desert
+
+rulers:
+  founder: { name: Ilbars, reign: [1511, 1525], source: howorth-1880 }
+  peak: { name: Abu'l-Ghazi Bahadur Khan, source: howorth-1880 }
+  last: { name: Sayyid Muhammad Rahim, source: schuyler-1876 }
+
+scripts_and_languages:
+  administration: [Chagatai Turkic, Persian]
+  writing_system: Arabic
+
+ended:
+  type: gradual absorption
+  by: []
+  year: 1873
+  source: schuyler-1876
+
+succeeded_by_external:
+  - name: the Russian Empire
+    type: vassal of
+    year: 1873
+    note: >-
+      Three Russian columns converged on the delta in the summer of 1873 and took
+      the city; the khan kept his throne and his internal government, ceded
+      everything on the right bank of the Oxus, paid an indemnity, opened his
+      territory to Russian trade, and abolished slavery. Schuyler, who was in
+      Turkistan that year, is not admiring about how the campaign was conducted.
+    source: schuyler-1876
+
+institutions:
+  # Uzbek horsemen - noker or atli - who held their land tax-free in return for
+  # service, with Turkmen tribes hired or bribed alongside them.
+  military_basis: { values: [tribal-levy, land-grant], source: vambery-1864 }
+  # Two taxes, both named by Vambery: salgit, eighteen tenghe on every ten
+  # tanab of cultivable ground, from which the warriors, the ulema and the
+  # descendants of the Prophet were exempt; and zekiat, two and a half per cent
+  # on imported goods and a head rate on herds. The third leg was the slave
+  # trade, which was the delta's largest export industry.
+  revenue_basis: { values: [land-tax, trade-toll, plunder], source: vambery-1864 }
+  # Vambery records the Khivan constitution as being of Mongol origin: a khan
+  # chosen from the midst of a victorious race, with named officers beside him.
+  # In practice the Qungrat inaq family took the throne outright in 1804.
+  succession_rule: { values: [tanistry], source: vambery-1864 }
+  legitimation: { values: [descent], source: howorth-1880 }
+
+turning_points:
+  - year: 1621
+    type: capital-move
+    name: "The river deserts Urgench"
+    changed: >-
+      Abu'l-Ghazi rode to the old capital and found it almost empty: the Amu had
+      taken another course and abandoned its old bed, and the land around the
+      city could no longer be watered. The seat of the khanate moved to Khiva,
+      which had a canal that still ran. Nowhere else did a state's capital
+      depend so nakedly on which way the water happened to be going.
+    source: howorth-1880
+    contested: false
+  - year: 1643
+    type: reform
+    name: "A khan who wrote the history"
+    changed: >-
+      Abu'l-Ghazi Bahadur Khan took the throne after a youth spent fleeing his
+      own brothers and years of exile in Persia, and then did something no other
+      ruler on this steppe did: he wrote the history of his own house and its
+      neighbours, from the Mongols down to his father's murder. Almost everything
+      known about Khwarazm before him rests on it.
+    source: howorth-1880
+    contested: false
+  - year: 1804
+    type: succession-crisis
+    name: "The Qungrats take the title"
+    changed: >-
+      The inaq family of the Qungrat tribe, who had governed for the puppet khans
+      for two generations, set the last of them aside and took the throne
+      themselves. Like the Manghits at Bukhara they were Uzbeks and not
+      Chinggisids; unlike them they called themselves khan anyway.
+    source: howorth-1880
+    contested: false
+  - year: 1873
+    type: siege
+    name: "The columns converge"
+    changed: >-
+      The desert that had destroyed a Russian expedition in 1717 and turned back
+      another in 1839 was crossed by three columns at once, and the khanate that
+      had been unreachable for three centuries was taken in a summer. The khan
+      kept his throne and signed away the right bank, the indemnity, the tariff
+      and the slaves.
+    source: schuyler-1876
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: vambery-1864 }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

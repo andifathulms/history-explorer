@@ -1,0 +1,124 @@
+id: bukhara
+region: mongol-world
+
+name:
+  latin: Khanate of Bukhara
+  script: خانات بخارا
+  script_lang: fa
+
+# 1599 is the accession of Baqi Muhammad, whom Howorth calls in reality the
+# first khan of Bukhara of the new dynasty. The end is the loss of
+# independence, which took five years: Samarkand fell in 1868 and the treaty
+# that made the emir a Russian client followed; when Schuyler was there in 1873
+# the emirate was intact, governed by its own ruler, and no longer its own
+# master.
+span:
+  start: { min: 1599, max: 1599, source: howorth-1880 }
+  end: { min: 1868, max: 1873, source: schuyler-1876 }
+
+identity: >-
+  The oldest and most orthodox of the three Uzbek khanates: a city of colleges
+  and a state of two and a half million people on the Zarafshan, ruled from the
+  citadel by khans who came to it as refugees from a khanate the Russians had
+  already taken.
+
+capitals:
+  - { name: Bukhara, script: بخارا, from: 1599, source: howorth-1880 }
+
+core_region: Transoxiana — the Zarafshan valley, Samarkand, Qarshi and Balkh
+
+rulers:
+  founder: { name: Baqi Muhammad, reign: [1599, 1605], source: howorth-1880 }
+  peak: { name: Nasrullah, reign: [1827, 1860], source: vambery-1864 }
+  last: { name: Muzaffar al-Din, reign: [1860, 1885], source: vambery-1864 }
+
+scripts_and_languages:
+  administration: [Persian, Chagatai Turkic]
+  writing_system: Arabic
+
+ended:
+  type: gradual absorption
+  by: []
+  year: 1873
+  source: schuyler-1876
+
+succeeded_by_external:
+  - name: the Russian Empire
+    type: vassal of
+    year: 1868
+    note: >-
+      Russia took Samarkand and the upper Zarafshan in 1868 and left the emir on
+      his throne. He kept his army, his courts, his taxes and his title and lost
+      his foreign policy, his trade tariff and the water. The arrangement lasted
+      until 1920, and Schuyler, who was received at the court in 1873, records
+      an emirate that was to all appearances as it had always been and was no
+      longer deciding anything that mattered.
+    source: schuyler-1876
+
+institutions:
+  # Uzbek tribal cavalry, forty thousand horsemen by repute and nearer thirty in
+  # the field. Vambery notes that the emir hired Tekke and Sarik Turkmen at four
+  # thousand tilla a year rather than call out the fifty thousand Ersari who
+  # were already tributary to him, and draws the obvious conclusion about how
+  # much he trusted his own subjects.
+  military_basis: { values: [tribal-levy, mercenary], source: vambery-1864 }
+  # The irrigated Zarafshan, the richest agricultural land between Persia and
+  # China, plus the caravan customs of a city every route passed through.
+  revenue_basis: { values: [land-tax, trade-toll], source: vambery-1864 }
+  succession_rule: { values: [tanistry], source: howorth-1880 }
+  # The Janids took the throne on a claim of descent - through the Astrakhan
+  # line and by marriage into Abu'l-Khayr's family - and held it with the
+  # ulema. Bukhara was the religious authority of Central Asia, and its emirs
+  # ruled as the defenders of that.
+  legitimation: { values: [descent, divine-sanction], source: howorth-1880 }
+
+turning_points:
+  - year: 1740
+    type: catastrophe
+    name: "Nader Shah at the Oxus"
+    changed: >-
+      The Persian conqueror crossed the river and reduced the khanate to
+      submission, and the Janid dynasty never governed again. Real power passed
+      to the Manghit ataliqs who had managed the state for it, and the khans
+      became ornaments in their own palace.
+    source: howorth-1880
+    contested: false
+  - year: 1785
+    type: succession-crisis
+    name: "The Manghits take the title"
+    changed: >-
+      Shah Murad ended the pretence, put aside the last Janid and founded the
+      dynasty that ruled until 1920. The Manghits were Uzbeks and not
+      Chinggisids, so they called themselves amir rather than khan and rested
+      their authority on piety instead of descent — Shah Murad is remembered as
+      an ascetic who lived on what he earned copying manuscripts.
+    source: howorth-1880
+    contested: false
+  - year: 1842
+    type: battle
+    name: "Kokand taken"
+    changed: >-
+      Nasrullah caught the khan of Kokand outside his capital, took the city and
+      executed him with his brother and two sons, then most of their supporters.
+      It was the high point of Bukharan power and it lasted three months; the
+      Kipchaks retook the city, made a boy khan and walled the palace quarter
+      with the labour of Bukharan prisoners.
+    source: vambery-1864
+    contested: false
+  - year: 1868
+    type: battle
+    name: "Samarkand"
+    changed: >-
+      A Russian force took Samarkand and the upper Zarafshan and with it the
+      head of the irrigation that fed the khanate. The emir kept his throne and
+      signed away everything attached to it.
+    source: schuyler-1876
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: { value: 2500000, at: 1863, source: vambery-1864 }
+  influence:
+    descendant_scripts: { count: 0, items: [], source: vambery-1864 }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

@@ -901,6 +901,60 @@ edges:
     source: di-cosmo-2009
     contested: false
 
+  - from: shaybanid
+    to: bukhara
+    type: absorbed remnants of
+    year: 1599
+    note: "When Abu'l-Khayr's line failed, the Uzbeks took a khan from a family
+           that had married into it: Baqi Muhammad, whose mother was the sister
+           of Abdullah Khan II, and who was in reality the first khan of Bukhara
+           of the new dynasty."
+    source: howorth-1880
+    contested: false
+
+  - from: astrakhan-khanate
+    to: bukhara
+    type: absorbed remnants of
+    year: 1599
+    note: "The Janid dynasty was the Astrakhan royal house in exile. A few years
+           after the Russians took the delta, Yar Muhammad left the Volga for
+           Bukhara and married his son to the Uzbek khan's daughter; his
+           grandson took the throne and his descendants held it until 1785."
+    source: howorth-1880
+    contested: false
+
+  - from: shaybanid
+    to: khiva
+    type: partitioned from
+    year: 1511
+    note: "Khwarazm fell to a different branch of the Shaybanids from the one
+           that took Transoxiana, and the two lines stayed distinct and hostile
+           for three centuries, with two weeks of desert between them."
+    source: howorth-1880
+    contested: false
+
+  - from: bukhara
+    to: kokand
+    type: seceded from
+    year: 1760
+    note: "Fergana had been an appanage of Samarkand since Babur's day and
+           emerged as its own state only when the beks of the valley accepted one
+           of their number as head and sent tribute to Beijing over the heads of
+           the emirs who claimed them."
+    source: schuyler-1876
+    contested: false
+
+  - from: dzungar-khanate
+    to: kokand
+    type: absorbed remnants of
+    year: 1760
+    note: "The Qing destruction of the Dzungars opened the Tarim passes and
+           removed the power that had governed Kashgar and Yarkand for eighty
+           years. Kokandi merchants took the road and the trade, and the khanate
+           grew on it."
+    source: schuyler-1876
+    contested: false
+
   - from: chagatai
     to: moghulistan
     type: partitioned from
