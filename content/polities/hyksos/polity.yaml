@@ -1,0 +1,131 @@
+id: hyksos
+region: ancient-egypt
+
+name:
+  latin: The Hyksos
+  # No writing in a script of their own survives from this dynasty. Every
+  # inscription any Hyksos king left is in Egyptian hieroglyphs, following
+  # Egyptian royal convention to the letter; whatever language they actually
+  # spoke among themselves — probably a West Semitic one, on the evidence of
+  # personal names — was never committed to writing that has been found.
+  script: null
+  script_lang: null
+
+# Shaw's figures, for consistency with this site's other Egyptian records.
+# The lower bound is conventional: no single year marks the moment a Delta
+# population stopped deferring to the Thirteenth Dynasty, only a period in
+# which it plainly had. The upper bound is Ahmose's capture of Avaris.
+span:
+  start: { min: -1650, max: -1650, source: shaw-2000 }
+  end: { min: -1550, max: -1550, source: shaw-2000 }
+
+identity: >-
+  A dynasty of Levantine origin ruling the Nile Delta from Avaris, adopting
+  the full pharaonic titulary while it lasted and remembered afterward, by
+  the country it once ruled a third of, as an occupation to be avenged.
+
+capitals:
+  - { name: Avaris, from: -1650, source: shaw-2000 }
+
+core_region: The eastern Nile Delta, with authority claimed but not always held over Middle Egypt as far south as Thebes' own frontier
+
+rulers:
+  # Manetho's list, preserved only through later excerpts, names him first;
+  # no absolute or confidently relative date is agreed for his reign, and no
+  # reign is given here for that reason.
+  founder: { name: Salitis, source: shaw-2000 }
+  # The best-attested and, at up to forty years by the Turin Canon's own
+  # figure, by far the longest-reigning of the six kings the Canon credits
+  # this dynasty with.
+  peak: { name: Apepi, reign: [-1575, -1540], source: shaw-2000 }
+  # The Turin Canon's own name for the last king of the line; almost nothing
+  # else about him is attested, which is itself evidence of how fast the
+  # dynasty's authority was collapsing by the time it reached him. No reign
+  # is given: Franke's and Ryholt's reconstructions differ by several years
+  # and neither is a source consulted here.
+  last: { name: Khamudi, source: shaw-2000 }
+
+scripts_and_languages:
+  administration: [Egyptian]
+  writing_system: Egyptian hieroglyphs and hieratic
+
+# Conquest, on the strength of the Ahmose son of Ebana inscription this
+# site's New Kingdom record already cites for the same event, described
+# there from the winning side.
+ended:
+  type: conquest
+  by: [egypt-new-kingdom]
+  year: -1550
+  source: breasted-1912
+
+institutions:
+  # No source consulted here describes a Hyksos military establishment in
+  # institutional terms — no levy roll, no garrison list, nothing comparable
+  # to what the Egyptian administrative record supplies for the kingdoms on
+  # either side of this one. What is attested is hardware, not organisation:
+  # composite bows and horse-drawn chariots, new to Egypt in this period and
+  # associated throughout with this dynasty, without a source describing how
+  # the men who used them were raised, paid or organised.
+  military_basis: null
+  # Delta land under cultivation, taxed by an administration that kept using
+  # Egyptian scribal practice; and the harbour at Avaris itself, excavated
+  # finds from Crete, the Levant, Nubia and Mesopotamia showing a trading
+  # capital that stayed open on every side while the country holding it was
+  # supposedly cut off from the rest of Egypt.
+  revenue_basis: { values: [land-tax, trade-toll], source: kemp-2018 }
+  # No source consulted describes the rule by which the throne passed among
+  # the Fifteenth Dynasty's six kings; Manetho's own king list is disordered
+  # enough that even their sequence is reconstructed rather than given.
+  succession_rule: null
+  # Every Hyksos king attested by his own monuments took the full five-name
+  # Egyptian royal titulary — Horus name, Golden Horus, Son of Ra, the whole
+  # apparatus — rather than ruling under a foreign title translated into
+  # Egyptian or left in their own tongue. The claim to rule was staked
+  # entirely on Egyptian kingship's own terms.
+  legitimation: { values: [titulature], source: shaw-2000 }
+
+turning_points:
+  - year: -1650
+    type: reform
+    name: "The full titulary"
+    changed: >-
+      A Delta population that had been growing in place for generations
+      gained nothing new in numbers or territory the year it started using
+      the royal titulary — what changed was purely a claim, made on paper
+      and in stone rather than on the ground. It is the same move the
+      Kushite kings of the twenty-fifth dynasty would make from Nubia eight
+      centuries later, ruling as pharaohs rather
+      than as foreign overlords of pharaohs, and it draws the same charge
+      from the Egyptian sources both times: not that the ruler was foreign,
+      but that the throne itself had been counterfeited.
+    source: shaw-2000
+    contested: false
+  - year: -1554
+    type: battle
+    name: "The death of Seqenenre Tao"
+    changed: >-
+      A tributary arrangement that had held, on the evidence of the reigns
+      before this one, for the better part of a century ended in a single
+      generation flatly rather than by degrees: the son who inherited
+      Seqenenre's throne inherited an open war already declared in his
+      father's name, not a grievance he had the option of continuing to
+      manage as tribute. Every king who held Avaris after this point held
+      it as a combatant, never again as an overlord being paid.
+    source: shaw-2000
+    contested: true
+
+measures:
+  # No figure specific to a Delta kingdom whose own effective southern
+  # border shifted over its own century is reported by any source consulted.
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: shaw-2000 }
+    religions_carried: { count: 0, items: [], source: shaw-2000 }
+    # Zero. No later Egyptian or foreign polity is recorded publicly invoking
+    # Hyksos legitimacy — quite the opposite; every later Egyptian reference
+    # to this dynasty through the New Kingdom is hostile, and the one later
+    # ruling house that took a Delta-based, Levantine-facing throne of its
+    # own — the Twenty-First Dynasty at Tanis — did so without a source
+    # anywhere connecting the claim to this one.
+    successor_claims: { count: 0, items: [], source: shaw-2000 }
