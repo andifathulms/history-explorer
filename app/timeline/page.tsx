@@ -4,6 +4,7 @@ import { tickInterval } from '@/lib/thread'
 import Link from 'next/link'
 import { loadCorpus } from '@/lib/content'
 import { Page, Shell, PageHead } from '@/components/Shell'
+import { ConcurrencyProfile } from '@/components/ConcurrencyProfile'
 import { PHASES } from '@/lib/types'
 
 // The description is what a search result quotes, so it is the one sentence
@@ -84,6 +85,12 @@ export default function TimelineView() {
               it started or stopped.
             </p>
           </PageHead>
+
+        {/* The shape of the corpus before the chart of it. Twelve screens of
+            Gantt say the same thing and say it twelve screens at a time. */}
+        <ConcurrencyProfile
+          spans={rows.map((p) => ({ start: p.span.start.min, end: p.span.end.max }))}
+        />
 
         {/* Above the chart, not below it. A key at the foot of four thousand
             pixels is a key you cannot see while you are reading the marks. */}
