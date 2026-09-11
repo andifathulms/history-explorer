@@ -3258,6 +3258,32 @@ edges:
     source: shaw-2000
     contested: true
 
+  - from: egypt-middle-kingdom
+    to: hyksos
+    type: seceded from
+    year: -1650
+    note: >-
+      A Levantine population long settled in the eastern Delta stopped
+      deferring to the weakening Thirteenth Dynasty kingship well before any
+      source describes a conquest, and by around 1650 was ruled from Avaris
+      in its own right. The breakaway is dated only by convention: no single
+      year marks it, because no single event does.
+    source: shaw-2000
+    contested: false
+
+  - from: hyksos
+    to: egypt-new-kingdom
+    type: overthrew
+    year: -1550
+    note: >-
+      A Levantine dynasty had ruled the Delta from Avaris for about a
+      century, with the Theban kings as tributaries and Nubia allied
+      against them. Ahmose took Avaris and drove them into Palestine, and
+      the New Kingdom is what the Theban house became after winning that
+      war.
+    source: breasted-1912
+    contested: false
+
   # ---- Indian sultanates: the regional courts Timur's 1398 sack let loose ----
 
   - from: delhi-sultanate

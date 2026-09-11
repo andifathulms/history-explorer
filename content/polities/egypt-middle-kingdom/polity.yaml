@@ -46,28 +46,13 @@ scripts_and_languages:
 # Fragmentation, on the same reasoning as this site's Old Kingdom record.
 # There is no conquest to date: the Thirteenth Dynasty's later kings simply
 # reigned over less and less of the country as they reigned for shorter and
-# shorter, a Delta line broke off and would become the Hyksos Fifteenth
-# Dynasty, and a rump kingship carried on at Thebes into what this period's
-# own successor calls the Second Intermediate Period.
+# shorter, and a Delta line broke off to become the Hyksos Fifteenth Dynasty
+# while a rump kingship carried on further south.
 ended:
   type: fragmentation
-  by: []
+  by: [hyksos]
   year: -1650
   source: shaw-2000
-
-# The Delta kingship the Thirteenth Dynasty could no longer hold has no
-# record here yet.
-succeeded_by_external:
-  - name: the Hyksos kingdom at Avaris
-    type: seceded from
-    year: null
-    note: >-
-      A Levantine population long settled in the eastern Delta stopped
-      deferring to the weakening Thirteenth Dynasty kingship well before any
-      source describes a conquest, and by around 1650 was ruled from Avaris
-      in its own right. The breakaway is dated only by convention: no single
-      year marks it, because no single event does.
-    source: shaw-2000
 
 # The Herakleopolitan kings, on the north side of the First Intermediate
 # Period, are Old Kingdom's own external note; a reader arriving here is
