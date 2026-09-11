@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { formatSpan, formatYear } from '@/lib/years'
+import { formatSpan } from '@/lib/years'
 import {
   loadCorpus,
   politiesInRegion,
@@ -258,14 +258,29 @@ export default function PolitiesIndex() {
                               its neighbours in the same row kept theirs up,
                               so a row of three cards had three different
                               baselines for the same field. */}
-                          <div>
+                          {/* The name block is one height across the grid:
+                              two lines of title at 21px/1.375 plus one script
+                              line, which is 5.4rem. 27 of 212 titles wrap to a
+                              second line and none reaches a third, so this is
+                              the height that makes every header the same — and
+                              it puts the span and the first line of every
+                              identity on one baseline across a row.
+
+                              The reserve sits on the block rather than on the
+                              title so that a one-line name keeps its script
+                              directly beneath it and the slack falls above the
+                              span, where it reads as spacing rather than as a
+                              gap inside a name. Below `md` there is one card
+                              per row and nothing to align, so nothing is
+                              reserved. */}
+                          <div className="md:min-h-[5.4rem]">
                             {/* h4. The region above is the h3 and these sit
                                 inside it, but both were h3 — so the build had
                                 260 headings at one level and none at the next,
                                 and a screen reader walking the document got
                                 Mesopotamia and the Akkadian Empire as peers
                                 with no signal that one contains the other. */}
-                            <h4 className="font-display text-[21px] font-semibold text-kashi-deep transition-colors group-hover:text-firuze-ink">
+                            <h4 className="font-display text-[21px] font-semibold leading-snug text-kashi-deep transition-colors group-hover:text-firuze-ink">
                               {p.name.latin}
                             </h4>
                             {/* Always rendered, empty where there is none.
@@ -283,7 +298,9 @@ export default function PolitiesIndex() {
                                   : undefined
                               }
                               aria-hidden={p.name.script ? undefined : true}
-                              className="mt-0.5 text-[19px] leading-snug text-kashi/70"
+                              className={`mt-0.5 text-[19px] leading-snug text-kashi/70 ${
+                                p.name.script ? '' : 'hidden md:block'
+                              }`}
                             >
                               {p.name.script ?? '\u00A0'}
                             </p>
@@ -297,7 +314,12 @@ export default function PolitiesIndex() {
                           {/* A dl rather than a run-on line: uppercase prose
                               turns "No cited figure" into shouting, and a gap
                               on this site is meant to be read calmly. */}
-                          <dl className="mt-auto grid grid-cols-[6.5rem_1fr] gap-x-3 gap-y-1 border-t border-kashi/12 pt-3.5 text-[13.5px]">
+                          {/* A narrower label column and a tighter gap, so the
+                              value column clears the longest value at the
+                              three-across breakpoint. The labels are five to
+                              eight characters of 11px mono and never needed
+                              6.5rem. */}
+                          <dl className="mt-auto grid grid-cols-[4.5rem_1fr] gap-x-2.5 gap-y-1 border-t border-kashi/12 pt-3.5 text-[13.5px]">
                             <dt className="font-mono text-micro uppercase text-debu-ink">
                               Chapters
                             </dt>
@@ -312,11 +334,20 @@ export default function PolitiesIndex() {
                               Ended
                             </dt>
                             <dd className="font-mono tabular-nums text-dawat/75">
+                              {/* The type alone, no year. It repeated the end
+                                  of the span two lines above on 200 of the 212
+                                  records — and "fragmentation, 2181 BC" is the
+                                  one value long enough to wrap, which pushed
+                                  that card's three stat rows out of line with
+                                  its neighbours'. The longest value left is
+                                  "dynastic replacement", which fits the column
+                                  at every width the grid uses. Where a source
+                                  dates the ending away from the span, the
+                                  polity page carries the year with its
+                                  citation; a browsing card is not where a date
+                                  is published. */}
                               {p.ended ? (
-                                <>
-                                  {p.ended.type}
-                                  {p.ended.year != null ? `, ${formatYear(p.ended.year)}` : ''}
-                                </>
+                                p.ended.type
                               ) : (
                                 <span className="font-latin italic text-debu-ink">
                                   No cited figure
