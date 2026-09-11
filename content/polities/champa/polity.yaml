@@ -22,8 +22,9 @@ span:
 
 identity: >-
   A string of Cham ports along the coast of what is now central Vietnam, the
-  oldest Indic polity in Southeast Asia and the only maritime power on this
-  site's mainland pages, absorbed over four centuries by the state to its north.
+  oldest Indic polity in Southeast Asia and a seafaring power among a
+  peninsula of inland rice kingdoms, absorbed over four centuries by the
+  state to its north.
 
 capitals:
   - { name: Indrapura, from: 875, source: coedes-1968 }
@@ -109,21 +110,24 @@ turning_points:
     type: siege
     name: Angkor
     changed: >-
-      A Cham fleet went up the Mekong, crossed the Tonle Sap and sacked Angkor.
-      It is the event that most disturbs the ordinary picture of this region, in
-      which the great inland rice kingdoms are the powers and the coast is a
-      margin. Angkor's answer — Jayavarman VII's counter-offensive and a period
-      of Khmer occupation of Cham territory — is on that record.
+      A kingdom with no rice plain of its own and a fraction of Angkor's
+      population took the largest capital in the region by the one route its
+      neighbours had never thought to guard - and paid for it in the
+      Khmer counter-offensive that followed, which cost Champa two decades
+      under Jayavarman VII's occupation and left the war commemorated, on
+      the winning side, in the most famous stone reliefs in Cambodia.
     source: coedes-1968
     contested: false
   - year: 1471
     type: siege
     name: Vijaya
     changed: >-
-      Le Thanh Tong took the capital, and the Cham territory north of Cape
-      Varella became Vietnamese. What followed over the next three and a half
-      centuries is the process Vietnamese historiography calls the march to the
-      south, of which this is the decisive act.
+      A king in the middle of rebuilding his own state's administration,
+      law code and land register turned the campaign against Vijaya into
+      that programme's largest single application - not one more province
+      prised loose by ransom or marriage settlement, as in 1069 and 1306,
+      but conquered territory organised outright as Vietnamese provinces
+      and settled with soldiers.
     source: coedes-1968
     contested: false
 

@@ -103,37 +103,34 @@ turning_points:
     type: siege
     name: The Chams in the city
     changed: >-
-      A Cham fleet came up the Mekong and across the Tonle Sap and sacked
-      Angkor, which is the single most surprising military event on this site's
-      mainland pages: the largest land power in Southeast Asia was taken from the
-      water by a coastal state a fraction of its size.
-      The reliefs Jayavarman VII later put on the Bayon show the naval battles
-      that followed, in detail, from the winning side.
+      A capital whose population no other settlement in the region
+      approached fell to seaborne raiders from ports a fraction its size -
+      a defeat humiliating enough that the dynasty which avenged it spent
+      the next generation building monuments that would not let anyone
+      forget who had finally won.
     source: coedes-1968
     contested: false
   - year: 1181
     type: conversion
     name: Jayavarman VII
     changed: >-
-      Jayavarman VII took the throne after driving the Chams out and made
-      Mahayana Buddhism the state religion of a kingdom that had been Shaivite
-      for three hundred and eighty years. The building programme that followed —
-      the Bayon, Ta Prohm, Preah Khan, a hundred and two hospitals and a road
-      system with rest houses — is the largest in Khmer history and was carried
-      out in about thirty-five years.
-      It is also the last of it. No comparable stone construction was undertaken
-      at Angkor after his death.
+      A ruler who took the throne well past the age most kings of his era
+      even reached spent his remaining years converting a three-century
+      Shaivite kingdom to Mahayana Buddhism and building on a scale no
+      predecessor or successor matched - a whole dynasty's worth of temple
+      construction folded into one exceptionally long reign, with nothing
+      of comparable ambition attempted again.
     source: higham-2001
     contested: false
   - year: 1431
     type: siege
     name: Ayutthaya
     changed: >-
-      Ayutthaya took Angkor and the court moved south. What went with the
-      Ayutthayan army is on this record's `successor_claims`: the brahmans, the
-      court ritual, the royal titulature and the legal vocabulary of Angkorian
-      kingship, which the Siamese court used for the next four centuries and
-      which the Bangkok dynasty after it still used.
+      Ayutthaya took Angkor and the court moved south, but the working
+      apparatus of Angkorian kingship did not disappear with it - it went
+      north with the victors, and a Siamese court that had just destroyed
+      Angkor's political power spent the next four centuries ruling under
+      its ritual vocabulary.
     source: coedes-1968
     contested: false
 

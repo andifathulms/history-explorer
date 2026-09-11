@@ -121,8 +121,9 @@ turning_points:
       Ly Thuong Kiet crossed the border and attacked Song garrison towns before
       the invasion being prepared against him could start, then fell back and
       held the line of the Nhu Nguyet river against the counter-attack.
-      A state that had been a province of the northern empire seventy years
-      earlier had just invaded it first.
+      A state whose independence from northern rule was itself less than a
+      century and a half old had just invaded the empire that had once
+      governed it, rather than wait to be invaded.
     source: taylor-2013
     contested: false
   - year: 1288
@@ -131,22 +132,22 @@ turning_points:
     changed: >-
       The third Mongol invasion in thirty years ended when Tran Hung Dao's forces
       destroyed the Yuan fleet in the Bach Dang estuary, using iron-tipped stakes
-      planted in the riverbed and the tide.
-      This corpus's Yuan and Mongol records between them describe the largest
-      contiguous land empire in history. Three times it came south into the Red
-      River delta, three times it took the abandoned capital, and three times it
-      left. Japan and Java are the other places the Mongols failed and neither of
-      them shares a land border.
+      planted in the riverbed and the tide - the same river, and largely the
+      same tactic, a Vietnamese fleet had already used to break a Chinese
+      invasion three centuries earlier. Three times the Mongols came south into
+      the Red River delta, three times they took the abandoned capital, and
+      three times they left without holding it.
     source: taylor-2013
     contested: false
   - year: 1400
     type: succession-crisis
     name: Ho Quy Ly
     changed: >-
-      The regent deposed his grandson and took the throne, ending the Tran. The
-      Ming invaded seven years later announcing that they had come to restore the
-      dynasty he had displaced, and then annexed the country for twenty years
-      instead.
+      A regent removed the last child of the line he had married into and
+      took the throne without a battle, ending three and a half centuries of
+      one continuous political order in an act nobody had to fight to
+      accomplish - and handing the northern court a pretext its own
+      long-standing arrangement with the Tran had never had to cover before.
     source: taylor-2013
     contested: false
 

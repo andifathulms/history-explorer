@@ -97,26 +97,23 @@ turning_points:
     type: siege
     name: Thaton
     changed: >-
-      The chronicles say Anawrahta took the Mon city of Thaton and carried its
-      king, its monks, its craftsmen and its Pali scriptures back to Pagan, and
-      that Theravada Buddhism and the Mon script came north with them.
-      Aung-Thwin has spent a career arguing that this did not happen as told and
-      that the Mon contribution was constructed by later chroniclers. The event
-      is marked contested for that reason, and it stays on the record because
-      whatever happened in 1057, Pagan writes in an adapted Mon script
-      afterwards and did not before.
+      A capital that had been literate only in fragments acquired, by the
+      chronicles' account, a king's library, a king's craftsmen and a
+      script in a single campaign - the founding legend every later Burmese
+      dynasty inherited even after specialists began doubting how much of
+      it actually happened in 1057 itself.
     source: aung-thwin-1985
     contested: true
   - year: 1287
     type: battle
     name: The Mongols
     changed: >-
-      A Yuan army came down from Yunnan, Narathihapate abandoned the capital and
-      was killed by his son, and no single authority held the Irrawaddy again for
-      two and a half centuries.
-      The chronicles name him Tarokpyemin — the king who fled from the Chinese —
-      which is a judgement, and the judgement is the reading this record's
-      `ended` block declines to code.
+      A crown that had spent two centuries giving its own taxable land to the
+      monasteries met a Yuan army from Yunnan with no force left to field
+      against it. Narathihapate's flight and killing by his own son supplied
+      the chronicles with a villain; the empty treasury supplied the actual
+      reason the dry zone could not put itself back together under one ruler
+      for another two hundred and fifty years.
     source: aung-thwin-1985
     contested: false
 

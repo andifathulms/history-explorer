@@ -10,13 +10,6 @@
  * no value for a trade vernacular. Every sentence of that is true. None of it is
  * addressed to anybody reading about Java or Sumatra.
  *
- * The check is a ratchet, not a wall. There are 900-odd chapters still carrying
- * this and failing the build on all of them would only mean turning the check
- * off, so BASELINE lists the files known to be dirty on the day the rule was
- * written. A file in the baseline may not get worse; a file outside it may not
- * start. Cleaning a file removes it from the baseline, and the count only ever
- * goes down — when it reaches zero the baseline and this paragraph go with it.
- *
  * What is deliberately NOT flagged: prose about sources, manuscripts, evidence
  * and what is not known. A chapter arguing that Srivijaya is visible only in
  * other people's sources is history — the record as evidence is a legitimate
@@ -30,7 +23,6 @@ import path from 'node:path'
 
 const ROOT = process.cwd()
 const CHAPTERS = 'content/polities'
-const BASELINE_FILE = path.join(ROOT, 'content', 'voice-baseline.txt')
 
 /** Schema fields and closed vocabularies. Naming one in prose is the tell. */
 const SCHEMA_TERMS = [
@@ -106,47 +98,12 @@ function violations(text) {
   return found
 }
 
-const baseline = new Set(
-  fs.existsSync(BASELINE_FILE)
-    ? fs
-        .readFileSync(BASELINE_FILE, 'utf8')
-        .split('\n')
-        .map((l) => l.replace(/#.*$/, '').trim())
-        .filter(Boolean)
-    : [],
-)
-
 const files = chapterFiles()
-
-if (process.argv.includes('--write-baseline')) {
-  const dirty = files.filter((f) => violations(fs.readFileSync(path.join(ROOT, f), 'utf8')).length)
-  const header = [
-    '# Chapters that still address the schema rather than the reader.',
-    '#',
-    '# Generated once by `npm run check:voice -- --write-baseline`, then only',
-    '# ever shortened by hand as chapters are rewritten. A file listed here is',
-    '# allowed to be dirty; a file not listed here must be clean, which is what',
-    '# stops the corpus drifting back while the cleanup is in progress.',
-    '#',
-    '# When this file is empty, delete it and the baseline logic in',
-    '# scripts/check-voice.mjs with it.',
-    '',
-  ].join('\n')
-  fs.writeFileSync(BASELINE_FILE, `${header}${dirty.join('\n')}\n`)
-  console.log(`voice: baseline written with ${dirty.length} chapters still to clean`)
-  process.exit(0)
-}
-
 const failures = []
-let stillDirty = 0
-let cleaned = 0
 
 for (const f of files) {
   const found = violations(fs.readFileSync(path.join(ROOT, f), 'utf8'))
-  const listed = baseline.has(f)
-  if (found.length && !listed) failures.push({ f, found })
-  if (found.length && listed) stillDirty += 1
-  if (!found.length && listed) cleaned += 1
+  if (found.length) failures.push({ f, found })
 }
 
 if (failures.length) {
@@ -164,12 +121,4 @@ if (failures.length) {
   process.exit(1)
 }
 
-if (cleaned) {
-  console.error(
-    `\nvoice: ${cleaned} baselined chapter(s) are now clean. Remove them from` +
-      '\ncontent/voice-baseline.txt so they cannot regress.\n',
-  )
-  process.exit(1)
-}
-
-console.log(`voice: ok — ${files.length - stillDirty}/${files.length} chapters reader-facing`)
+console.log(`voice: ok — ${files.length}/${files.length} chapters reader-facing`)

@@ -106,47 +106,43 @@ turning_points:
     type: siege
     name: Angkor
     changed: >-
-      Ayutthaya took Angkor and brought back the brahmans, the ritual specialists
-      and the vocabulary of Khmer kingship. This record's founding period is the
-      only case on this site of a polity acquiring an entire court culture by
-      capturing the city that had it, and using it without apparent
-      embarrassment for the next four centuries.
+      Ayutthaya's army brought home a working royal culture rather than
+      plunder - consecration rites, palace language and legal formulae
+      wholesale - and kept using a defeated rival's own court apparatus
+      for longer than most dynasties last outright.
     source: baker-pasuk-2017
     contested: false
   - year: 1569
     type: siege
     name: The first fall
     changed: >-
-      Bayinnaung's Burmese army took the city and Ayutthaya spent fifteen years
-      as a vassal before Naresuan restored its independence. It is the first of
-      the two Burmese captures, and the difference between them is that the city
-      survived this one intact.
+      A vassalage imposed by force lasted only as long as the generation
+      that had lost the battle. Fifteen years after his own father's
+      defeat, Naresuan broke a subjection the previous reign had had no
+      choice but to accept, and Ayutthaya did not lose its independence to
+      an outside army again for nearly two centuries.
     source: baker-pasuk-2017
     contested: false
   - year: 1688
     type: revolt
     name: The palace revolution
     changed: >-
-      Narai's court had gone further toward Europe than any other in the region —
-      a Greek adventurer as chief minister, French troops in two forts, embassies
-      to Versailles, and a French mission that believed the king was about to
-      convert. As Narai lay dying the commander of the elephant corps seized the
-      throne, executed the minister, expelled the French garrisons and took the
-      crown as Phetracha.
-      Siam then dealt with Europeans on its own terms for a hundred and fifty
-      years. It is worth setting beside this site's Melaka record, which was
-      taken by fifteen Portuguese ships, and its Aceh record, which spent thirty
-      years being ground down by the Dutch.
+      A palace coup expelled a foreign garrison from inside the capital's own
+      defences at the height of the closest relationship any court in the
+      region had built with Europe, and the expulsion held for a century and
+      a half - a reversal few port polities faced with a European garrison
+      ever managed, and the clearest evidence that an inland agrarian
+      capital was a fundamentally harder target than a coastal one.
     source: baker-pasuk-2017
     contested: false
   - year: 1767
     type: siege
     name: The second fall
     changed: >-
-      Fourteen months of siege, then the city was burned and emptied. The
-      chronicles, the law codes, the literature and the archive largely went with
-      it, which is why the history of a state that lasted four centuries has to
-      be written from foreign accounts and from what survived elsewhere.
+      A capital one of the largest cities in the world only decades earlier
+      was left with no working government, no surviving legal code and no
+      population large enough to defend it, and the war left almost nothing
+      of its own to be reconstructed from.
     source: baker-pasuk-2017
     contested: false
 
