@@ -97,10 +97,11 @@ turning_points:
     type: revolt
     name: "The killing of Uthman"
     changed: >-
-      Mutineers from the Egyptian and Iraqi garrisons besieged the caliph in
-      his own house at Medina and killed him over the distribution of stipends
-      and governorships, and every subsequent claimant inherited the
-      accusation of having benefited from a murder he had not prevented.
+      Garrison mutineers killed a sitting caliph for the first time, over
+      the distribution of conquest revenue rather than over doctrine, and no
+      faction that came after had a settled answer for who had standing to
+      have done it or to judge it. The office had no agreed procedure for
+      removing a caliph before this, and none afterward either.
     source: madelung-1997
     contested: false
   - year: 657
