@@ -4981,3 +4981,38 @@ sources:
       of the crowns. It is a description of a display, written to impress, copied
       by a man collecting curiosities — and it is the only account of the
       occasion there is. Out of copyright.
+
+  - id: strabo-hamilton
+    kind: primary
+    author: Strabo
+    title: "The Geography of Strabo, Volume III"
+    translator: "H. C. Hamilton and W. Falconer"
+    publisher: Henry G. Bohn
+    year: 1857
+    note: >-
+      Written in the reign of Augustus by a Greek who had travelled some of what
+      he describes and read everything else. Book XVI carries the fullest
+      surviving account of the Nabataeans, much of it second-hand from
+      Athenodorus, a philosopher friend of Strabo's who had lived at Petra, and
+      the fullest account of the Roman expedition into Arabia under Aelius
+      Gallus, which Strabo had from Gallus himself. He is therefore reporting a
+      failed campaign in the words of the man who failed, and the explanation
+      offered — that a Nabataean minister sabotaged it — should be read with
+      that in mind. Out of copyright.
+
+  - id: first-maccabees-wace
+    kind: primary
+    author: Anonymous
+    title: "The First Book of the Maccabees, in The Holy Bible according to the Authorized Version, with an Explanatory and Critical Commentary, Volume II (Apocrypha)"
+    translator: "Authorized Version, edited by Henry Wace"
+    publisher: John Murray
+    year: 1888
+    note: >-
+      A Jewish history of the years 175 to 134 BC, written in Hebrew in the
+      generation after the events and surviving in Greek, by an author committed
+      to the Hasmonean family and hostile to everyone who opposed them. Its
+      unusual value is that it quotes documents — letters, treaties, and the
+      decree of 140 BC that made Simon high priest and ethnarch — at what looks
+      like full length. Wace's edition prints the Authorized Version text with a
+      commentary that argues with it, including over whether the writer has
+      reported the Roman correspondence accurately. Out of copyright.
