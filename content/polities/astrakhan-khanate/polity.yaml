@@ -1,0 +1,104 @@
+id: astrakhan-khanate
+region: mongol-world
+
+name:
+  latin: Khanate of Astrakhan
+  script: خاجى ترخان خانلغى
+  script_lang: tt
+
+# The khanate separates from the Great Horde under Mahmud b. Kuchuk in the
+# 1460s; 1556 is the Russian annexation, two years after the installation of a
+# Muscovite client.
+span:
+  start: { min: 1466, max: 1466, source: di-cosmo-2009 }
+  end: { min: 1556, max: 1556, source: di-cosmo-2009 }
+
+identity: >-
+  The smallest and poorest of the Jochid successors and the one everybody
+  needed: a khanate of one city on the Volga delta, which could not defend
+  itself against any of its neighbours and held the door between the Caspian
+  and the whole Russian river system.
+
+capitals:
+  - { name: Hajji Tarkhan, script: خاجى ترخان, from: 1466, source: di-cosmo-2009 }
+
+core_region: The lower Volga and the delta
+
+rulers:
+  founder: { name: Mahmud bin Kuchuk, reign: [1466, 1470], source: di-cosmo-2009 }
+  peak: { name: Abd al-Rahman, reign: [1533, 1537], source: di-cosmo-2009 }
+  last: { name: Dervish Ali, reign: [1554, 1556], source: di-cosmo-2009 }
+
+scripts_and_languages:
+  administration: [Tatar]
+  writing_system: Arabic
+
+ended:
+  type: conquest
+  by: []
+  year: 1556
+  source: di-cosmo-2009
+
+succeeded_by_external:
+  - name: the Tsardom of Russia
+    type: conquered by
+    year: 1556
+    note: >-
+      Moscow installed Dervish Ali as khan in 1554; when he turned to the
+      Crimea and the Ottomans, a second expedition took the city in 1556 and
+      annexed it outright. Ivan IV had already been styling himself Tsar of
+      Astrakhan in official documents from 1552, four years before he held it.
+    source: di-cosmo-2009
+
+institutions:
+  military_basis: { values: [tribal-levy, client-levy], source: di-cosmo-2009 }
+  # A transit state: the Caspian and Volga trade, the fisheries of the delta and
+  # the salt lakes. Herberstein calls it the great emporium of the Tatars;
+  # Jenkinson, thirty years later, found a town living on sturgeon.
+  revenue_basis: { values: [trade-toll, tribute], source: herberstein-major }
+  # No khan of Astrakhan held the throne without the support of an outside
+  # power - the Nogai mirzas, the Crimea, or Moscow - and most were installed
+  # and removed by one of them.
+  succession_rule: { values: [external-nomination], source: di-cosmo-2009 }
+  legitimation: { values: [descent], source: di-cosmo-2009 }
+
+turning_points:
+  - year: 1502
+    type: battle
+    name: "The end of the Great Horde"
+    changed: >-
+      The Crimeans destroyed what was left of the horde Astrakhan had seceded
+      from, and the senior Jochid line ended in a Lithuanian castle. It removed
+      the khanate's nearest rival and its only relative, and left it the last
+      Chinggisid state on the lower Volga with nobody between it and the Crimea.
+    source: herberstein-major
+    contested: false
+  - year: 1523
+    type: siege
+    name: "Mehmed Giray in the city"
+    changed: >-
+      The Crimean khan took Astrakhan and quartered his army in it, and was then
+      killed by the Nogai princes who had helped him take it. The khanate was
+      restored to its own ruler by the same people who had just destroyed its
+      conqueror, which fixed the pattern of its remaining thirty years: it
+      survived because its neighbours preferred it weak to each other strong.
+    source: herberstein-major
+    contested: false
+  - year: 1554
+    type: siege
+    name: "A khan from Moscow"
+    changed: >-
+      A Russian expedition down the newly opened Volga put Dervish Ali on the
+      throne as a client paying tribute. It was the first time a Russian army
+      had operated fifteen hundred kilometres beyond its own frontier and
+      supplied itself at the end of it, which was the real demonstration.
+    source: di-cosmo-2009
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: di-cosmo-2009 }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

@@ -1,0 +1,119 @@
+id: kazan-khanate
+region: mongol-world
+
+name:
+  latin: Khanate of Kazan
+  script: قازان خانلغى
+  script_lang: tt
+
+# Ulugh Muhammad, a deposed khan of the Golden Horde, took Kazan in 1438; the
+# khanate is usually dated from then or from his son's establishment in 1445.
+span:
+  start: { min: 1438, max: 1445, source: di-cosmo-2009 }
+  end: { min: 1552, max: 1552, source: di-cosmo-2009 }
+
+identity: >-
+  The one Tatar successor state that was not nomadic: a Jochid dynasty ruling
+  farmers, foresters and river merchants on the middle Volga, rich enough to be
+  worth taking and close enough to Moscow to be managed for sixty years before
+  it was.
+
+capitals:
+  - { name: Kazan, script: قازان, from: 1438, source: di-cosmo-2009 }
+
+core_region: The middle Volga and lower Kama
+
+rulers:
+  founder: { name: Ulugh Muhammad, reign: [1438, 1445], source: di-cosmo-2009 }
+  peak: { name: Safa Giray, reign: [1546, 1549], source: di-cosmo-2009 }
+  last: { name: Yadigar Muhammad, reign: [1552, 1552], source: di-cosmo-2009 }
+
+scripts_and_languages:
+  administration: [Kazan Tatar]
+  writing_system: Arabic
+
+ended:
+  type: conquest
+  by: []
+  year: 1552
+  source: di-cosmo-2009
+
+succeeded_by_external:
+  - name: the Tsardom of Russia
+    type: conquered by
+    year: 1552
+    note: >-
+      Ivan IV took the city by assault on 2 October 1552 after mining the walls,
+      and added "Tsar of Kazan" to his title. The khanate was not restored and
+      no client was installed; the territory was annexed outright, which is what
+      distinguishes 1552 from the half-dozen earlier occasions on which Moscow
+      had taken Kazan.
+    source: di-cosmo-2009
+
+institutions:
+  # The khan's own following was small. The bulk of the army was the levy of the
+  # subject peoples of the forest - Mari, Chuvash, Udmurt, Mordvin - who owed
+  # service and whom Herberstein singles out as the best archers in it.
+  military_basis: { values: [tribal-levy, client-levy], source: herberstein-major }
+  # Unlike every other Jochid successor: a settled tax base. Grain and fur from
+  # the subject peoples, and the tolls of the great Volga fair.
+  revenue_basis: { values: [land-tax, tribute, trade-toll], source: herberstein-major }
+  # Descent restricted the throne to Chinggisids, but which Chinggisid was
+  # settled by the Kazan begs in concert with whichever outside power - Moscow,
+  # the Crimea, the Nogai - was paying that decade.
+  succession_rule: { values: [external-nomination], source: herberstein-major }
+  legitimation: { values: [descent], source: di-cosmo-2009 }
+
+turning_points:
+  - year: 1445
+    type: battle
+    name: "Suzdal"
+    changed: >-
+      Ulugh Muhammad's sons captured the grand prince of Moscow in the field and
+      released him against a ransom so large that it had to be raised as a tax
+      and contributed to his overthrow at home. The new khanate announced itself
+      by demonstrating that it, and not the Horde, was now the power that could
+      make Moscow pay.
+    source: di-cosmo-2009
+    contested: false
+  - year: 1487
+    type: siege
+    name: "The first taking of Kazan"
+    changed: >-
+      Ivan III took the city and installed a khan of his own choosing. For most
+      of the next thirty-four years Kazan was governed by Chinggisids whom
+      Moscow appointed, imprisoned and released; the khanate kept its dynasty,
+      its law and its language and lost the ability to choose its own ruler.
+    source: herberstein-major
+    contested: false
+  - year: 1521
+    type: revolt
+    name: "The Crimean party"
+    changed: >-
+      Kazan expelled the Muscovite appointee and took a Giray from the Crimea
+      instead, putting the khanate inside the Ottoman-Crimean system and turning
+      a managed client into a hostile neighbour with a powerful patron. Every
+      Russian campaign afterwards was aimed at a state that could call for help
+      from the Black Sea.
+    source: herberstein-major
+    contested: false
+  - year: 1551
+    type: siege
+    name: "Sviyazhsk"
+    changed: >-
+      A Russian fortress was assembled twenty-five kilometres upstream from
+      Kazan out of timber cut and fitted far to the north and floated down the
+      Volga, and was standing in about four weeks. It gave the besieging army a
+      supplied base at the walls for the first time and detached the right-bank
+      peoples from the khanate; the assault the following year was possible
+      because of it.
+    source: di-cosmo-2009
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: di-cosmo-2009 }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

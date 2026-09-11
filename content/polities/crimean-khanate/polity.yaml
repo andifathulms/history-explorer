@@ -1,0 +1,127 @@
+id: crimean-khanate
+region: mongol-world
+
+name:
+  latin: Crimean Khanate
+  script: قرم خانلغى
+  script_lang: crh
+
+# The khanate becomes a separate polity under Hacı Giray in the 1440s; the
+# usual date is 1441, when he was brought in from Lithuania and recognised.
+# 1783 is the Russian annexation, nine years after the Ottoman protectorate was
+# renounced by treaty.
+span:
+  start: { min: 1441, max: 1449, source: di-cosmo-2009 }
+  end: { min: 1783, max: 1783, source: di-cosmo-2009 }
+
+identity: >-
+  The longest-lived Chinggisid state anywhere: a Jochid dynasty on a peninsula,
+  under Ottoman protection for three centuries, whose horsemen were the largest
+  single supplier of slaves to the Mediterranean and whose khan was the only
+  ruler in Europe the tsar and the king of Poland both paid not to attack them.
+
+capitals:
+  - { name: Qırq Yer, from: 1441, source: di-cosmo-2009 }
+  - { name: Bahçesaray, from: 1532, source: di-cosmo-2009 }
+
+core_region: The Crimean peninsula and the steppe north of it to the Dnieper
+
+rulers:
+  founder: { name: Hacı Giray, reign: [1441, 1466], source: di-cosmo-2009 }
+  peak: { name: Mehmed Giray I, reign: [1515, 1523], source: herberstein-major }
+  last: { name: Şahin Giray, reign: [1777, 1783], source: di-cosmo-2009 }
+
+scripts_and_languages:
+  administration: [Crimean Tatar, Ottoman Turkish]
+  writing_system: Arabic
+
+# The Russian empire is a real successor with no record here. It is named in
+# `succeeded_by_external` rather than left as an empty line.
+ended:
+  type: conquest
+  by: []
+  year: 1783
+  source: di-cosmo-2009
+
+succeeded_by_external:
+  - name: the Russian Empire
+    type: conquered by
+    year: 1783
+    note: >-
+      Catherine II annexed the peninsula by manifesto in April 1783, nine years
+      after the treaty of Küçük Kaynarca had declared the khanate independent of
+      the Ottomans — an independence that removed the only power able to protect
+      it. The last khan abdicated and died in Ottoman exile.
+    source: di-cosmo-2009
+
+institutions:
+  # Every adult male of the horde owed service and provided his own remounts;
+  # the great clans - Şirin, Barın, Arğın, Sicivut - brought their own
+  # followings, and the Nogai hordes on the mainland steppe were summoned as
+  # clients rather than subjects.
+  military_basis: { values: [tribal-levy, client-levy], source: di-cosmo-2009 }
+  # Coded `plunder` in coding rule 6's strict sense: the raid was not a windfall
+  # but the budget. The khan's share of captives, the Ottoman subsidy and the
+  # gifts from Moscow and Warsaw are all receipts from the same activity.
+  revenue_basis: { values: [plunder, tribute, trade-toll], source: di-cosmo-2009 }
+  # Chinggisid descent restricted the pool to the Giray house; within it the
+  # Ottoman sultan appointed and removed at will, and did so forty-odd times.
+  succession_rule: { values: [external-nomination], source: di-cosmo-2009 }
+  legitimation: { values: [descent, investiture], source: di-cosmo-2009 }
+
+turning_points:
+  - year: 1475
+    type: treaty
+    name: "The Ottoman protectorate"
+    changed: >-
+      An Ottoman fleet took Caffa and the Genoese colonies, and the khan came
+      out of the arrangement as the sultan's vassal rather than his subject: the
+      dynasty kept the throne, the coast went to the Porte, and the khan
+      thereafter held office at Istanbul's pleasure. It converted a Jochid
+      successor state into the senior client of a Mediterranean empire, and it
+      is why the house outlasted every other Chinggisid line.
+    source: di-cosmo-2009
+    contested: false
+  - year: 1502
+    type: battle
+    name: "The end of the Great Horde"
+    changed: >-
+      Mengli Giray destroyed the rump of the Golden Horde on the Volga and took
+      its people into his own. The khanate stopped being one fragment among
+      several and became the residuary legatee of the Jochid claim, which is the
+      ground on which its khans demanded tribute from Moscow for the next two
+      centuries.
+    source: di-cosmo-2009
+    contested: false
+  - year: 1523
+    type: catastrophe
+    name: "Mehmed Giray killed at Astrakhan"
+    changed: >-
+      Having taken Astrakhan and quartered his army in the city, the khan was
+      persuaded by his Nogai allies to bring the troops out and camp in the open
+      as Tatars should; they then attacked him at dinner and killed him. The
+      Crimean bid to reassemble the Jochid ulus under one khan died with him,
+      and the Nogai learned that they could dispose of a Giray.
+    source: herberstein-major
+    contested: false
+  - year: 1774
+    type: treaty
+    name: "Küçük Kaynarca"
+    changed: >-
+      The treaty ending the Russo-Turkish war declared the khanate independent
+      of the Ottoman empire. Independence was the instrument of annexation: it
+      removed the protector, left the Girays to face Russia alone, and was
+      followed within nine years by the manifesto that abolished the state.
+    source: di-cosmo-2009
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: di-cosmo-2009 }
+    religions_carried: { count: null, items: [], source: null }
+    # The Girays were the acknowledged senior Chinggisid line in the west and
+    # were repeatedly invoked as such, but no polity in this corpus claimed to
+    # be continuing them.
+    successor_claims: { count: null, items: [], source: null }

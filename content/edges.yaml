@@ -859,6 +859,48 @@ edges:
     source: di-cosmo-2009
     contested: false
 
+  - from: golden-horde
+    to: crimean-khanate
+    type: partitioned from
+    year: 1449
+    note: "Haci Giray took the Crimean peninsula and its steppe approaches as a
+           separate khanate, and his descendants outlasted every other Jochid
+           line by two and a half centuries."
+    source: di-cosmo-2009
+    contested: false
+
+  - from: golden-horde
+    to: kazan-khanate
+    type: partitioned from
+    year: 1438
+    note: "Ulugh Muhammad, beaten out of the Horde by his rivals, arrived on the
+           middle Volga with a following and made a khanate out of the old Volga
+           Bulgar country — the one Jochid successor with farmers, a fair and a
+           fixed capital."
+    source: di-cosmo-2009
+    contested: false
+
+  - from: golden-horde
+    to: astrakhan-khanate
+    type: partitioned from
+    year: 1466
+    note: "Mahmud b. Kuchuk lost the contest for the Horde's remnant to his
+           brother and withdrew downriver to Hajji Tarkhan, founding a khanate
+           that held one town and the mouth of the Volga."
+    source: di-cosmo-2009
+    contested: false
+
+  - from: ottoman
+    to: crimean-khanate
+    type: vassal of
+    year: 1475
+    note: "An Ottoman fleet took Kefe and the Genoese coast and released Mengli
+           Giray as khan on terms; thereafter the sultan confirmed and deposed
+           the khans, and the Girays kept their own dynasty, their own coinage
+           and their own wars."
+    source: di-cosmo-2009
+    contested: false
+
   - from: timurid
     to: shaybanid
     type: conquered by
