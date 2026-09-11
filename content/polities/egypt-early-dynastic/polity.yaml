@@ -47,6 +47,24 @@ ended:
   year: -2686
   source: shaw-2000
 
+# No type from the edge vocabulary fits, and none is given: what preceded the
+# unification was not a state Narmer took but a process of consolidation
+# among several, none of which is a record here.
+preceded_by_external:
+  - name: the proto-kingdoms of Naqada III Upper Egypt
+    year: null
+    note: >-
+      Unification did not arrive from nowhere. By the last predynastic
+      phase, conventionally called Naqada III, Upper Egypt had already
+      consolidated from many small chiefdoms into a handful of larger
+      polities centred on Thinis, Naqada and Hierakonpolis, each with its
+      own royal tombs and its own patron cult — and at Hierakonpolis, the
+      Horus falcon and the smiting pose that Narmer's own palette would
+      later use. Hierakonpolis and the Horus cult it backed appear to have
+      prevailed over the rival centres in the generations immediately
+      before Narmer completed the process.
+    source: shaw-2000
+
 institutions:
   # Levies raised by province for a single campaign or building project and
   # dismissed afterward; the same apparatus for both, which is the argument
