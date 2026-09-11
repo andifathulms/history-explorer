@@ -1,0 +1,119 @@
+id: kazakh-khanate
+region: mongol-world
+
+name:
+  latin: Kazakh Khanate
+  script: Қазақ хандығы
+  script_lang: kk
+
+# Mirza Haydar dates the beginning precisely - "the Kazak Sultans began to reign
+# in the year 870 [1465-66], but God knows best" - and also describes the swell
+# in numbers as following Abu'l-Khayr's death, which Howorth puts at 1469. Both
+# figures are in the sources and the range keeps them.
+# The end is the fragmentation into three hordes. Howorth dates it from the
+# weakening of Tauke's authority in his last years; Tauke died about 1718, and
+# by the Dzungar capture of Turkestan in 1723 the three were moving and
+# submitting separately.
+span:
+  start: { min: 1465, max: 1469, source: rashidi-elias-ross, max_source: howorth-1880 }
+  end: { min: 1718, max: 1723, source: howorth-1880 }
+
+identity: >-
+  A khanate founded by two princes who walked away from another one, on pasture
+  lent them by a third — and which grew until a Central Asian historian could
+  write that no khan since Jochi had ruled the Kipchak steppe so completely.
+
+capitals:
+  - { name: Turkestan, source: howorth-1880 }
+
+core_region: The Dasht-i Kipchak, from the Syr Darya to the Irtysh
+
+rulers:
+  founder: { name: Janibek, source: rashidi-elias-ross }
+  peak: { name: Qasim, reign: [1511, 1518], source: rashidi-elias-ross }
+  last: { name: Tauke, reign: [1680, 1718], source: howorth-1880 }
+
+scripts_and_languages:
+  administration: [Kazakh, Chagatai]
+  writing_system: Arabic
+
+ended:
+  type: fragmentation
+  by: []
+  year: 1718
+  source: howorth-1880
+
+succeeded_by_external:
+  - name: the Russian Empire
+    type: conquered by
+    year: null
+    note: >-
+      The three hordes submitted separately over a decade — Abu'l-Khayr of the
+      Little Horde first, Shemyaka of the Middle Horde swearing to the Empress
+      Anne in 1732 — and were then unwound over a century. Baron Igelstrom
+      abolished the office of khan of the Little Horde in 1785 and the assembly
+      that met to hear him was chaired by a leader who demanded that the
+      founder's family be barred from the dignity for ever. Fortified lines,
+      sultans-regent answerable to Orenburg and finally, in 1869, districts under
+      Russian military commanders replaced it.
+    source: howorth-1880
+
+institutions:
+  # The whole adult male population of the uluses, summoned by the sultans.
+  # Mirza Haydar puts Qasim's army above a million, which is a way of saying
+  # that nobody had counted and that it was the largest force on the steppe.
+  military_basis: { values: [tribal-levy], source: rashidi-elias-ross }
+  # Herds above all, with the tolls and tribute of the Syr Darya caravan towns -
+  # Sighnaq, Sauran, Yasi - which is what the long war with the Uzbeks was
+  # fought over.
+  revenue_basis: { values: [tribute, trade-toll, plunder], source: howorth-1880 }
+  # The senior prince of the Jochid line held the khanship and the other sultans
+  # were expected to be submissive to him; Qasim deferred to Burunduk for years
+  # while holding all the real power, and then banished him.
+  succession_rule: { values: [tanistry], source: rashidi-elias-ross }
+  legitimation: { values: [descent], source: rashidi-elias-ross }
+
+turning_points:
+  - year: 1513
+    type: treaty
+    name: "Peace with the Kazakhs"
+    changed: >-
+      Qasim, then nearer seventy than sixty, received the young khan of
+      Moghulistan at Jud, gave him the better of the two horses he trusted his
+      life to, and talked him out of a winter campaign against the Uzbeks. Twenty
+      days of drinking kumis ended the intermittent war between the Kazakhs and
+      the Moghuls; a scholar commemorated it with the chronogram Ashti-i-Kazak.
+    source: rashidi-elias-ross
+    contested: false
+  - year: 1580
+    type: battle
+    name: "The tulips of Shirab-khani"
+    changed: >-
+      Haqnazar's sons and Jalim Sultan rode to a meeting with Baba Sultan of
+      Tashkent intending to seize him; he had been warned, and had his men draw
+      their swords, so that the valley blossomed forth in tulips with their
+      blood. He then sent his brother to ride ahead and surprise Haqnazar, who
+      seems to have been killed. The longest reign the khanate had ended in an
+      ambush that failed.
+    source: howorth-1880
+    contested: false
+  - year: 1723
+    type: catastrophe
+    name: "Turkestan taken"
+    changed: >-
+      The Dzungar khan took the old capital, where most of the Kazakh khans were
+      buried, along with Tashkent and Sayram. The Middle Horde fled towards
+      Samarkand, part of the Great Horde towards Khujand and the Little Horde to
+      Bukhara and Khiva, with famine behind them. They combined once, sacrificed
+      a white horse on it, beat the Dzungars in several fights — and then left
+      the country anyway rather than face the revenge.
+    source: howorth-1880
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: howorth-1880 }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

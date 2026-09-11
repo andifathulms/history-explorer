@@ -1,0 +1,113 @@
+id: khanate-of-sibir
+region: mongol-world
+
+name:
+  latin: Khanate of Sibir
+  script: null
+  script_lang: null
+
+# Howorth declines to date the foundation: Ibak is not heard of after 1493, and
+# Mamuq's killing of him and the move to the new capital at Kashlik were
+# "probably soon after that year"; by May 1496 Mamuq was acting abroad as tsar
+# of Shiban. Both figures are the source's; the range is the source's
+# uncertainty, not a split of the difference.
+# The end is dated the same way. Sibir was abandoned in 1588 and never
+# reoccupied; Kuchum fought on from the steppe until his camp was destroyed in
+# September 1598 and the voivode reported Siberia conquered.
+span:
+  start: { min: 1493, max: 1496, source: howorth-1880 }
+  end: { min: 1588, max: 1598, source: howorth-1880 }
+
+identity: >-
+  A Muslim Turkic khanate on the Irtysh and the Tobol, ruling the Ugrian forest
+  peoples for their furs, whose small wooden capital gave its name to the
+  largest land empire on earth.
+
+capitals:
+  - { name: Chimgi-Tura, from: 1493, to: 1496, source: howorth-1880 }
+  - { name: Kashlik, from: 1496, source: howorth-1880 }
+
+core_region: The lower Irtysh, the Tobol and the Tura
+
+rulers:
+  founder: { name: Mamuq, source: howorth-1880 }
+  peak: { name: Kuchum, reign: [1563, 1598], source: howorth-1880 }
+  last: { name: Seydyak, reign: [1584, 1588], source: howorth-1880 }
+
+scripts_and_languages:
+  administration: [Siberian Tatar]
+  writing_system: Arabic
+
+ended:
+  type: conquest
+  by: []
+  year: 1598
+  source: howorth-1880
+
+succeeded_by_external:
+  - name: the Tsardom of Russia
+    type: conquered by
+    year: 1598
+    note: >-
+      The conquest was begun by a band of Cossacks in the private employ of the
+      Stroganov merchant house and finished by the state that followed them in.
+      Tyumen was founded in 1586 and Tobolsk in 1587, both within sight of the
+      khanate's own towns; Kuchum's camp was destroyed on the Ob in September
+      1598 and the voivode wrote to Boris Godunov that the Russians were now
+      undisputed masters of Siberia.
+    source: howorth-1880
+
+institutions:
+  # Tatar cavalry under the khan's murzas, with Ostyak and Vogul foot archers
+  # from the tributary forest princes. It was a formidable army against other
+  # Tatars and useless against firearms; Howorth's judgement on the decisive
+  # battle is that bows and arrows were no match for them.
+  military_basis: { values: [tribal-levy, client-levy], source: howorth-1880 }
+  # Yasak - a tribute of furs, chiefly sable, taken from the Ugrian peoples of
+  # the forest. The Russians took the khanate and then took the tax, unchanged,
+  # under the same name, for three centuries.
+  revenue_basis: { values: [tribute], source: howorth-1880 }
+  succession_rule: { values: [factional], source: howorth-1880 }
+  legitimation: { values: [descent, conquest], source: howorth-1880 }
+
+turning_points:
+  - year: 1563
+    type: succession-crisis
+    name: "Kuchum takes the khanate"
+    changed: >-
+      A Shibanid prince from the south killed the ruling brothers Yadigar and
+      Bekbulat and seized the country, ending the old Siberian line and
+      replacing a khan who paid tribute to Moscow in sable with one who did not.
+      He also brought Islam, which the previous dynasty had never held.
+    source: howorth-1880
+    contested: false
+  - year: 1582
+    type: battle
+    name: "Chuvash Cape"
+    changed: >-
+      Kuchum's entrenched position on the Irtysh was stormed by a Cossack band
+      after a fight that cost the attackers a hundred and seven men. He threw
+      two cannon into the river and fled, and the capital was occupied five days
+      later. The khanate did not fall with it, but it was never again a state
+      with a centre.
+    source: howorth-1880
+    contested: false
+  - year: 1588
+    type: catastrophe
+    name: "The feast at Tobolsk"
+    changed: >-
+      The khan Seydyak, a Kazakh prince and the murza Karacha were invited to a
+      treaty feast in the new Russian town, made drunk, and arrested; their
+      hundred attendants were killed. The Tatars outside fled, the inhabitants of
+      Sibir abandoned it, and the capital of the khanate was never inhabited
+      again.
+    source: howorth-1880
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: howorth-1880 }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

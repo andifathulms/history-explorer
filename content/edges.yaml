@@ -901,6 +901,39 @@ edges:
     source: di-cosmo-2009
     contested: false
 
+  - from: golden-horde
+    to: nogai-horde
+    type: seceded from
+    year: 1481
+    note: "The Manghit begs who had made and unmade khans at Sarai for eighty
+           years finished the job: Musa and Yamgurchi rode into the camp of the
+           Horde's last khan with Ibak of Tyumen and killed him, and thereafter
+           ruled their own people as murzas because, not being Chinggisids, they
+           could never rule them as khans."
+    source: howorth-1880
+    contested: false
+
+  - from: golden-horde
+    to: khanate-of-sibir
+    type: partitioned from
+    year: 1493
+    note: "Shibanid princes out of the eastern half of the Jochid inheritance
+           took the Taybugid country on the Tobol and the Irtysh, and the small
+           wooden capital they settled on gave its name to a third of Asia."
+    source: howorth-1880
+    contested: false
+
+  - from: golden-horde
+    to: kazakh-khanate
+    type: partitioned from
+    year: 1465
+    note: "Kerei and Janibek, Jochid princes of the eastern steppe, broke away
+           from Abu'l-Khayr's Uzbek ulus and took shelter in Moghulistan; when he
+           died most of his people walked over to them, and the word for a man
+           who leaves his prince became the name of a nation."
+    source: rashidi-elias-ross
+    contested: false
+
   - from: timurid
     to: shaybanid
     type: conquered by

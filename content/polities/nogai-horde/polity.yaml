@@ -1,0 +1,130 @@
+id: nogai-horde
+region: mongol-world
+
+name:
+  latin: Nogai Horde
+  script: null
+  script_lang: null
+
+# 1481 is the first act of the Manghit as an independent power: Musa and
+# Yamgurchi, grandsons of Edigu, rode into the camp of the Great Horde with
+# Ibak of Tyumen and killed its khan. The end is a range because the source
+# gives one: Kho-Urluk's Torghuts were fighting on the Volga when he was killed
+# near Astrakhan in 1643, his sons crossed the Yaik and subdued the Nogai
+# tribes "not long after", and by the accession of Ayuka in 1672 the Great
+# Horde Nogai were his subjects.
+span:
+  start: { min: 1481, max: 1481, source: howorth-1880 }
+  end: { min: 1643, max: 1672, source: howorth-1880 }
+
+identity: >-
+  The horde of the Manghit, ruled from Saraychiq on the Yaik by the descendants
+  of Edigu — the one great power of the post-Mongol steppe whose chiefs could
+  make khans of their neighbours and never take the title themselves.
+
+capitals:
+  - { name: Saraychiq, from: 1481, to: 1580, source: howorth-1880 }
+
+core_region: The steppe between the Volga, the Yaik and the Emba
+
+rulers:
+  founder: { name: Musa, source: howorth-1880 }
+  peak: { name: Ismail, reign: [1555, 1563], source: howorth-1880 }
+  last: { name: Ishterek, reign: [1604, 1613], source: howorth-1880 }
+
+scripts_and_languages:
+  administration: [Nogai]
+  writing_system: Arabic
+
+ended:
+  type: conquest
+  by: []
+  year: 1643
+  source: howorth-1880
+
+succeeded_by_external:
+  - name: the Kalmyk Khanate
+    type: conquered by
+    year: null
+    note: >-
+      The Torghut Kalmyks came west over the Yaik in the 1620s and 1630s and
+      broke the horde to pieces. Kho-Urluk was killed near Astrakhan in 1643
+      trying to detach the Nogai princes from Russian allegiance; his sons
+      Yeldeng and Loosang then crossed the river and subdued the Nogai tribes of
+      Kitai-Kipchak, Mailebash and Yedisan outright. The greater part of the
+      Volga Nogai became the Kalmyks' subjects and followed their fortunes.
+    source: howorth-1880
+
+institutions:
+  # Clan levies under the murzas, the whole horde in the field when the senior
+  # prince could hold it together and almost never otherwise.
+  military_basis: { values: [tribal-levy], source: howorth-1880 }
+  # Herds, the tolls of Saraychiq on the Khwarazm caravan road, and the raid.
+  # Jenkinson found them without any use of money at all, bartering cattle for
+  # clothing and necessaries.
+  revenue_basis:
+    values: [tribute, plunder, trade-toll]
+    source: jenkinson-hakluyt-society
+  # The defining constraint. The Manghit were not Chinggisids and could not be
+  # khans; their chiefs ruled as murzas and beys, and made their weight felt by
+  # installing and killing other people's khans instead - at Kazan, at
+  # Astrakhan, in the Crimea and in Siberia.
+  succession_rule: { values: [factional], source: howorth-1880 }
+  legitimation: { values: [descent], source: howorth-1880 }
+
+turning_points:
+  - year: 1523
+    type: battle
+    name: "The killing of Mehmed Giray"
+    changed: >-
+      Sheikh Mamai had helped the Crimean khan take Astrakhan and then decided,
+      on his cousin's advice, that they were idiots to be assisting a
+      neighbouring and ambitious power whose aim was to subdue them one after
+      another. They coaxed his army out of the city, killed him at dinner,
+      destroyed his force and rode into the Crimea after the survivors. It was
+      the high point of Nogai power in the west.
+    source: howorth-1880
+    contested: false
+  - year: 1555
+    type: succession-crisis
+    name: "Ismail kills Yusuf"
+    changed: >-
+      The horde had split between a brother who wanted the Ottoman and Crimean
+      connection and a brother who wanted the Russian one, and the Russian
+      brother won by murder. Ismail wrote to Ivan IV from Saraychiq that his
+      enemy no longer lived and that the clans had put the reins of power in his
+      hands. He then asked Moscow to build forts on the Volga delta and the
+      Irgiz against his own nephews.
+    source: howorth-1880
+    contested: false
+  - year: 1580
+    type: catastrophe
+    name: "Saraychiq burned"
+    changed: >-
+      Cossacks driven off the Volga by the tsar's troops came round the Caspian
+      to the mouth of the Yaik, heard from prisoners what lay upriver, and took
+      and burned the Nogai capital, dragging the corpses out of the tombs. They
+      then built themselves a town of their own, Uralsk, in the middle of the
+      horde's pastures. The Nogai never had a fixed centre again.
+    source: howorth-1880
+    contested: false
+  - year: 1604
+    type: treaty
+    name: "The oath at Astrakhan"
+    changed: >-
+      The boyar Simeon Godunov assembled the Nogai chiefs at Astrakhan, had
+      Ishterek recognised as senior prince, and made him swear for himself and
+      every descendant of Ismail to fight Russia's enemies to the death, to
+      grant nobody the title of prince or regent without the tsar's confirmation,
+      and to have no dealings with the shah, the sultan, the khan of the Crimea,
+      Bukhara, Khiva, the Kazakhs, the Kumyks or the Circassians.
+    source: howorth-1880
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: howorth-1880 }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
