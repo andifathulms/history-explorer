@@ -3479,7 +3479,7 @@ sources:
       on late authorities and which do not. Out of copyright.
 
   - id: babur-beveridge
-    kind: book
+    kind: primary
     author: Zahir al-Din Muhammad Babur
     title: "The Babur-nama in English (Memoirs of Babur)"
     translator: Annette S. Beveridge
@@ -4543,23 +4543,6 @@ sources:
       throughout, and never went outside the capital's orbit. The 1693 English
       is used here. Out of copyright.
 
-  - id: baburnama-beveridge
-    kind: primary
-    author: Babur
-    title: "The Babur-nama in English (Memoirs of Babur)"
-    translator: Annette Susannah Beveridge
-    publisher: Luzac
-    year: 1922
-    note: >-
-      The memoirs of the founder of the Mughal empire, written in Chaghatai
-      Turkish, and the earliest true autobiography in Islamic literature. Babur
-      records his defeats, his hangovers, his homesickness and his opinions of
-      the country he had just conquered with a directness no other ruler of his
-      period approaches. He is also settling scores and justifying himself
-      throughout, the text has substantial gaps where the manuscript is lost,
-      and his account of India is the verdict of a man who badly wanted to be
-      somewhere else. Out of copyright.
-
   - id: bernier-constable
     kind: primary
     author: François Bernier
@@ -5462,3 +5445,56 @@ sources:
       he got there — which is why the book is read now: it is the clearest
       surviving statement of how the foreign-origin theory was assembled, written
       by the man assembling it. Out of copyright.
+
+  - id: carpini-rockhill
+    kind: primary
+    author: John of Plano Carpini
+    title: "The Journey of Friar John of Pian de Carpine to the Court of Kuyuk Khan, 1245-47"
+    translator: William Woodville Rockhill
+    publisher: Hakluyt Society
+    year: 1900
+    note: >-
+      A Franciscan in his sixties sent to the Mongols by Innocent IV, who reached
+      the imperial camp in time to watch Güyük enthroned in August 1246 and came
+      back with the khan's reply. He was writing an intelligence report as much
+      as a travel account — how the Mongols fight, how they besiege, what they do
+      to a city that resists, and what a European army would need to do about it
+      — and the practical register is what makes him useful. He is also a hostile
+      witness who was cold, hungry and frightened for most of the journey, and
+      says so. Printed by Rockhill in the same volume as Rubruck. Out of
+      copyright.
+
+  - id: novgorod-michell
+    kind: primary
+    editor: Robert Michell and Nevill Forbes
+    title: "The Chronicle of Novgorod, 1016-1471"
+    publisher: Camden Society
+    year: 1914
+    note: >-
+      The town chronicle of the one major Russian city the Mongols never sacked,
+      kept year by year and translated complete. It is annalistic and uneven —
+      some years hold a single line about a fire or a frost — and its writers are
+      clergy whose framework is that disaster is punishment for sin, which
+      produces the repeated epithets: the godless, the lawless Ishmaelites, the
+      accursed raw-eating Tartars. What it also does is record dates, names of
+      the dead, prices in famine years and the terms of demands, because a town
+      chronicle is partly a municipal record. Out of copyright.
+
+  - id: rashidi-elias-ross
+    kind: primary
+    author: Mirza Muhammad Haidar Dughlat
+    title: "The Tarikh-i-Rashidi: A History of the Moghuls of Central Asia"
+    translator: E. Denison Ross
+    editor: Ney Elias
+    publisher: Sampson Low, Marston
+    year: 1895
+    note: >-
+      A Chaghatayid noble of the Dughlat house, cousin to Babur, who ended his
+      life ruling Kashmir and wrote the history of his own people because nobody
+      else had. It is the principal source for Moghulistan, for the eastern
+      Chaghatai khans, and for the origins of the Kazakhs, and for long stretches
+      it is the only one. He is writing about his own family's rivals and
+      patrons, he is a partisan of the Chaghatayid line against the Uzbeks, and
+      the early sections rest on oral tradition he says so himself. Ney Elias's
+      introduction and notes run to nearly two hundred pages and are a separate
+      work of geography. Out of copyright.
