@@ -87,20 +87,37 @@ turning_points:
     type: capital-move
     name: The hijra
     changed: >-
-      Muhammad and the Meccan emigrants moved to an oasis two hundred miles
-      north that had asked for an outside arbitrator to end its feuding, which
-      converted a persecuted preaching into a party with territory, allies and
-      an income to organise.
+      What each side actually got is easy to lose in the drama of the move.
+      Yathrib's feuding clans got an arbitrator with no stake in their
+      quarrels; Muhammad got a base outside Meccan reach and a following
+      that was, for its first year, one clan among ten rather than a ruling
+      one. Everything that followed had to be built inside that trade, not
+      granted by it.
     source: watt-1956
     contested: false
   - year: 624
     type: battle
     name: Badr
     changed: >-
-      A raiding force beat a Meccan relief column, and in the quarrel over
-      dividing the spoils afterwards a fifth was set aside for Muhammad to
-      spend on public purposes. It is the first revenue the community held as a
-      community rather than as a collection of households.
+      The dispute Badr actually settled was not with Mecca but inside the
+      raiding party itself: an argument among believers over money, resolved
+      by handing the whole question to one man's discretion rather than
+      dividing it by clan custom. That precedent for referring an internal
+      dispute rather than settling it by blood or custom is what the
+      caliphate's own stipend rolls were still running on a century later.
+    source: watt-1956
+    contested: false
+  - year: 625
+    type: battle
+    name: Uhud
+    changed: >-
+      A battlefield order was ignored to its face, the army was routed as a
+      direct result, and a false report of Muhammad's death circulated while
+      the outcome was still undecided — and nobody was exiled or executed for
+      any of it. What changed afterward was enforcement: a revelation named
+      the archers' choice of plunder over the order as the cause of the
+      defeat, and that religious framing, not any power the state had to
+      punish disobedience, is what later campaigns were disciplined by.
     source: watt-1956
     contested: false
   - year: 628
