@@ -154,9 +154,8 @@ measures:
     # candidate. Carolingian minuscule is a change of hand within the Latin
     # alphabet — not a new writing system and not an adaptation to a language
     # the script did not already write — and coding rule 3 counts neither. The
-    # last chapter of this record argues it at length and concludes that the
-    # rules are working correctly and producing a page that understates the
-    # polity.
+    # afterlife chapter argues the point at length and concludes that the rules
+    # are working correctly and producing a page that understates the polity.
     descendant_scripts: { count: 0, items: [], source: mckitterick-2008 }
     religions_carried:
       count: 1
