@@ -45,19 +45,9 @@ ended:
   year: -2181
   source: shaw-2000
 
-# Both directions named. Neither the Early Dynastic kings nor the Herakleopolitans
-# are records here, and a reader asking what came before and after the pyramid age
-# is asking about Egypt.
-preceded_by_external:
-  - name: the kings of the First and Second Dynasties
-    year: null
-    note: >-
-      Egypt was already a unified kingdom for roughly four centuries before
-      Djoser, ruled from Memphis by kings buried at Abydos and Saqqara who left
-      inscribed stelae, annals on stone and the beginnings of the administrative
-      apparatus the Old Kingdom ran on. What the Third Dynasty added was building
-      in cut stone.
-    source: breasted-1906
+# The predecessor now has its own record and the relationship is an edge
+# there rather than an external note here; the Herakleopolitans still have
+# none, so that direction stays external.
 succeeded_by_external:
   - name: the kings of Herakleopolis
     year: null

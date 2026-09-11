@@ -3241,3 +3241,16 @@ edges:
            southern end of the gold road rather than the northern."
     source: hunwick-1999
     contested: false
+
+  # ---- Ancient Egypt: no conquest recorded, a king-list convention ----
+
+  - from: egypt-early-dynastic
+    to: egypt-old-kingdom
+    type: claimed legitimacy of
+    year: -2686
+    note: "No source records a rupture between Khasekhemwy's reign and
+           Djoser's: the balance of evidence favours Djoser as his son, and
+           the change the record can actually show is institutional — stone
+           building and the apparatus it required — rather than a change of
+           army or capital. The edge is coded on the ancient king-list
+           convention that divides the dynasties here, not on any recorded
