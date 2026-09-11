@@ -1,0 +1,128 @@
+id: moghulistan
+region: mongol-world
+
+name:
+  latin: Moghulistan
+  script: مغولستان
+  script_lang: fa
+
+# Mirza Haydar gives his ancestor's ages rather than years: Tughluq Timur was
+# born in 730, brought from the Kalmak country at sixteen, raised to the
+# khanate at eighteen, converted at twenty-four and dead at thirty-four in 764.
+# 730 plus eighteen falls across 1347 and 1348, and the range is the conversion
+# of his own figures rather than a choice between two authorities.
+# The end is dated the same way. The Kazakhs came over into Moghulistan two
+# hundred thousand strong in 928 (1522); Sultan Said Khan brought Rashid Sultan
+# and all the Moghuls of Moghulistan down to Kashgar before his death at the
+# close of 939 (1533), and they did not go back.
+span:
+  start: { min: 1347, max: 1348, source: rashidi-elias-ross }
+  end: { min: 1522, max: 1533, source: rashidi-elias-ross }
+
+identity: >-
+  The eastern half of the Chagatai inheritance: a khanate of the Tian Shan
+  pastures and the Tarim oases whose people kept the Mongol name long after
+  everyone else had dropped it, and were called by their neighbours simply the
+  brigands.
+
+capitals:
+  - { name: Aksu, from: 1347, source: rashidi-elias-ross }
+  - { name: Yarkand, from: 1514, source: rashidi-elias-ross }
+
+core_region: The Tian Shan, the Ili and Chu valleys, and the western Tarim
+
+rulers:
+  founder: { name: Tughluq Timur, reign: [1347, 1363], source: rashidi-elias-ross }
+  peak: { name: Yunus Khan, source: rashidi-elias-ross }
+  last: { name: Sultan Said Khan, reign: [1514, 1533], source: rashidi-elias-ross }
+
+scripts_and_languages:
+  administration: [Chagatai Turkic, Persian]
+  writing_system: Arabic
+
+ended:
+  type: conquest
+  by: [kazakh-khanate]
+  year: 1533
+  source: rashidi-elias-ross
+
+succeeded_by_external:
+  - name: the Yarkand Khanate
+    type: seceded from
+    year: 1533
+    note: >-
+      The dynasty did not end when the pastures did. Sultan Said's son Abd
+      al-Rashid was on the throne at Yarkand when Mirza Haydar finished writing
+      in 953 — the same Chinggisid line, the same name, ruling the oases of the
+      southern Tarim and nothing north of the mountains. The khanate of Yarkand
+      lasted another century and a half before the Dzungars took it.
+    source: rashidi-elias-ross
+
+institutions:
+  # The Moghul amirs, each with his own tribe, and the ulusbegi over them - an
+  # office the Dughlat family held as of right, and which mattered more than the
+  # khanship. Amir Khudaidad, Mirza Haydar records, raised six khans to the
+  # throne himself.
+  military_basis: { values: [tribal-levy], source: rashidi-elias-ross }
+  # Herds on the Tian Shan pastures, the caravan tolls and land tax of the
+  # Tarim towns after the conquest of Kashgar, and plunder from Transoxiana -
+  # the raids that got the Moghuls their neighbours' nickname for them.
+  revenue_basis: { values: [tribute, trade-toll, plunder], source: rashidi-elias-ross }
+  # A Chinggisid khan, chosen and often concealed as an infant by the amirs who
+  # needed one. Khizr Khwaja survived Qamar al-Din's massacre of his brothers
+  # only because the ulusbegi hid him.
+  succession_rule: { values: [tanistry, nomination], source: rashidi-elias-ross }
+  legitimation: { values: [descent, divine-sanction], source: rashidi-elias-ross }
+
+turning_points:
+  - year: 1360
+    type: battle
+    name: "Into Transoxiana"
+    changed: >-
+      Tughluq Timur crossed the Khojand river in March and took the western
+      half of the Chagatai inheritance, the first khan to hold both halves in a
+      generation. He installed his son over it, and a young Barlas officer named
+      Timur first appears in the record as a man deciding which side to take.
+    source: rashidi-elias-ross
+    contested: false
+  - year: 1363
+    type: succession-crisis
+    name: "Qamar al-Din"
+    changed: >-
+      On the khan's death the amir who had been passed over for the office of
+      ulusbegi in favour of a seven-year-old put eighteen of his sons to death
+      in a single day and took the title himself. One infant was hidden and
+      survived; the country fell into disorder for a generation and drew five
+      invasions from Timur.
+    source: rashidi-elias-ross
+    contested: false
+  - year: 1514
+    type: siege
+    name: "Kashgar taken"
+    changed: >-
+      Sultan Said Khan came over the mountains, besieged Yangi Hisar for three
+      months and took the whole of the Kashgar country from Mirza Aba Bakr, who
+      fled towards Tibet. The khanate acquired walled towns, a land revenue and
+      a southern capital — and in acquiring them stopped needing the steppe it
+      was named after.
+    source: rashidi-elias-ross
+    contested: false
+  - year: 1522
+    type: catastrophe
+    name: "Two hundred thousand"
+    changed: >-
+      Driven out of the Kipchak steppe by the Manghit, the Kazakhs came over
+      into Moghulistan two hundred thousand strong. It was impossible to resist
+      them, so the khan's son withdrew to Kashgar — and within a decade the
+      whole Moghul population had followed him south, leaving their horse-herds
+      behind.
+    source: rashidi-elias-ross
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: rashidi-elias-ross }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

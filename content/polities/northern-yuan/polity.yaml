@@ -1,0 +1,123 @@
+id: northern-yuan
+region: mongol-world
+
+name:
+  latin: Northern Yuan
+  script: ᠬᠣᠶᠢᠳᠤ ᠶᠤᠸᠠᠨ
+  script_lang: mn
+
+# 1368 is the abandonment of Dadu; 1635 is the submission of Ligdan's son and
+# the passing of the seal to the Manchus. Howorth dates Ligdan's own death, from
+# Sanang Setsen, to 1634.
+span:
+  start: { min: 1368, max: 1368, source: howorth-1876 }
+  end: { min: 1634, max: 1635, source: howorth-1876 }
+
+identity: >-
+  The house of Chinggis after it lost China: two and a half centuries on the
+  steppe under khans who never stopped calling themselves emperors of the Yuan,
+  and who spent most of that time unable to make their own princes obey them.
+
+capitals:
+  - { name: Karakorum, from: 1368, source: howorth-1876 }
+
+core_region: Mongolia, from the Orkhon and the Kerulen to the Gobi
+
+rulers:
+  founder: { name: Toghon Temür, reign: [1368, 1370], source: howorth-1876 }
+  peak: { name: Dayan Khan, source: howorth-1876 }
+  last: { name: Ligdan Khan, reign: [1604, 1634], source: howorth-1876 }
+
+scripts_and_languages:
+  administration: [Mongolian]
+  writing_system: Uyghur-Mongolian
+
+ended:
+  type: conquest
+  by: []
+  year: 1635
+  source: howorth-1876
+
+succeeded_by_external:
+  - name: the Qing dynasty
+    type: conquered by
+    year: 1635
+    note: >-
+      Ligdan's attempt to rule the Mongols as his ancestors had drove his own
+      tribes to the Manchus one after another — the Naiman and Aokhan in 1626,
+      the Barin and Jarud after them, the Üzemchin and Abaga over the desert to
+      the Khalkha. He died fleeing towards Tangut and his widow took his son into
+      the Ordos country. The Manchu emperor married his own daughter to the young
+      khan, took Ligdan's second wife into his harem, and treated the boys as
+      sons; it was with Mongol banners at his back that he then marched from one
+      end of China to the other.
+    source: howorth-1876
+
+institutions:
+  # The tümens of the six eastern and four western Mongols, summoned by their own
+  # princes. After Dayan Khan the whole apparatus was divided among his sons as
+  # appanages, and never reassembled.
+  military_basis: { values: [tribal-levy], source: howorth-1876 }
+  # Herds, the frontier horse-and-tea fairs when the Ming would grant them, and
+  # the raid when they would not. Altan Khan fought China for nineteen years to
+  # get a market and a seal.
+  revenue_basis: { values: [tribute, plunder, trade-toll], source: howorth-1876 }
+  # Descent from Chinggis through Khubilai, which decided who could be khan and
+  # almost never decided who held power. Between 1400 and 1470 the khans were
+  # raised and killed by Oirat taishis who could not take the title themselves.
+  succession_rule: { values: [tanistry], source: howorth-1876 }
+  legitimation: { values: [descent, divine-sanction], source: howorth-1876 }
+
+turning_points:
+  - year: 1388
+    type: battle
+    name: "Buyur Nor"
+    changed: >-
+      A Ming army of more than a hundred thousand crossed the desert marching at
+      night without fires and surprised the khan's camp by the lake where Chinggis
+      had made his name. Seventy-seven thousand soldiers, three thousand officers,
+      a hundred and fifty thousand cattle and the imperial seal were taken. The
+      khan fled with sixteen horsemen into a snowstorm and was killed by a
+      kinsman on the Tula.
+    source: howorth-1876
+    contested: false
+  - year: 1470
+    type: succession-crisis
+    name: "Mandukhai's vow"
+    changed: >-
+      A twenty-three-year-old widow refused the prince who courted her, took the
+      last five-year-old of the imperial line before the goddess of the royal
+      house, swore to protect him, married him, named him Dayan Khan and put him
+      in a wagon at the head of an army against the Four Oirats. His descendants
+      ruled every Mongol tribe that mattered for the next two centuries.
+    source: howorth-1876
+    contested: false
+  - year: 1571
+    type: treaty
+    name: "The seal and the fairs"
+    changed: >-
+      After nineteen years of war Altan Khan of the Tümed forced the Ming to
+      grant him a title, a golden seal and the frontier markets, and then
+      forbade the other Mongol princes to raid China. The steppe got a legal
+      economy for the first time since 1368 — and it was got by a prince of the
+      junior line, not by the khan.
+    source: howorth-1876
+    contested: false
+  - year: 1634
+    type: catastrophe
+    name: "Ligdan dies on the road"
+    changed: >-
+      The last khan tried to be supreme khan of the Mongols in earnest and drove
+      every tribe he claimed into the arms of the Manchus. He was chased out of
+      his own country and died on the way to Tangut, in the steppe of Shira
+      Talas, and the Chinggisid line passed into a Qing marriage alliance.
+    source: howorth-1876
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: howorth-1876 }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

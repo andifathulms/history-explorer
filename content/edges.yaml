@@ -901,6 +901,40 @@ edges:
     source: di-cosmo-2009
     contested: false
 
+  - from: chagatai
+    to: moghulistan
+    type: partitioned from
+    year: 1347
+    note: "The Dughlat amirs raised an eighteen-year-old great-great-grandson of
+           Chagatai over the eastern half of the ulus at Aksu; he converted to
+           Islam at twenty-four and took the western half back thirteen years
+           later, the last khan to hold both."
+    source: rashidi-elias-ross
+    contested: false
+
+  - from: moghulistan
+    to: kazakh-khanate
+    type: conquered by
+    year: 1522
+    note: "Driven out of the Kipchak steppe, two hundred thousand Kazakhs came
+           over into Moghulistan. Nobody could resist them, and within a decade
+           the khan had brought every Moghul in the country down to Kashgar and
+           left the horse-herds behind."
+    source: rashidi-elias-ross
+    contested: false
+
+  - from: yuan
+    to: northern-yuan
+    type: absorbed remnants of
+    year: 1368
+    note: "Toghon Timur left Dadu and went north, and the dynasty went on issuing
+           reign names from Karakorum. The Hongwu emperor told his court he had
+           taken up arms against rebels rather than against the Yuan, and refused
+           to sacrifice the captured Yuan prince because his own ancestors had
+           been that house's subjects."
+    source: howorth-1876
+    contested: false
+
   - from: golden-horde
     to: nogai-horde
     type: seceded from
