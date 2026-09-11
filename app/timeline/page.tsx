@@ -6,14 +6,22 @@ import { loadCorpus } from '@/lib/content'
 import { Page, Shell, PageHead } from '@/components/Shell'
 import { PHASES } from '@/lib/types'
 
-export const metadata: Metadata = {
-  title: 'Timeline',
-  description: 'The eight polities as overlapping spans, with chapters aligned by phase.',
+// The description is what a search result quotes, so it is the one sentence
+// about this page most people will ever read. It said "the eight polities"
+// long after there were two hundred and twelve, because unlike the lede below
+// it was never taught to count. It counts now.
+export function generateMetadata(): Metadata {
+  const { narrative, context } = loadCorpus()
+  const n = narrative.length + context.length
+  return {
+    title: 'Timeline',
+    description: `${n} polities as overlapping spans on one axis, with what is cited for each.`,
+  }
 }
 
 /**
- * PRD section 8: the eight polities as overlapping spans, chapters aligned by
- * phase tag where present.
+ * PRD section 8: the corpus as overlapping spans, chapters aligned by phase tag
+ * where present.
  *
  * Horizontal here rather than vertical, because the question this view answers
  * is "who was running at the same time as whom", and rows sharing a time axis
@@ -238,9 +246,9 @@ export default function TimelineView() {
             The phase vocabulary — {PHASES.join(', ')} — is optional, and the rows that do
             not use all of it are the reason. The Ghurids barely had a golden age before
             Khwarazm ended them, and the Tahirids never expanded: they were granted a
-            province and kept it. Forcing every polity through the same five acts would
-            mean writing something untrue about at least two of them, so the tag is left
-            off and the row shows the absence.
+            province and kept it. Forcing every polity through the same {PHASES.length}{' '}
+            acts would mean writing something untrue about at least two of them, so the
+            tag is left off and the row shows the absence.
           </p>
           <p className="mt-4 text-body">
             Chapter marks are spaced evenly along a polity&rsquo;s certain span. Chapters
