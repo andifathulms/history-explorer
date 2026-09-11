@@ -707,6 +707,17 @@ edges:
     source: treadgold-1997
     contested: true
 
+  - from: northern-zhou
+    to: sui
+    type: overthrew
+    year: 581
+    note: "Yang Jian, regent for a child emperor and father-in-law to the one
+           before him, took the Zhou throne for himself and exterminated its
+           ruling family - the same family whose own throne it had taken
+           from a Western Wei puppet a generation earlier."
+    source: parker-1895
+    contested: false
+
   - from: sui
     to: tang
     type: overthrew

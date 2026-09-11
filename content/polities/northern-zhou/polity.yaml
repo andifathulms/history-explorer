@@ -1,0 +1,97 @@
+id: northern-zhou
+region: china
+
+name:
+  latin: Northern Zhou
+  script: 北周
+  script_lang: zh
+
+span:
+  start: { min: 557, max: 557, source: parker-1895 }
+  end: { min: 581, max: 581, source: parker-1895 }
+
+identity: >-
+  The western half of a Wei dynasty split by its own generals' rivalry, run
+  for a generation by the Yuwen family as regents for a puppet Wei prince
+  before one of them finally took the title outright - a state that spent
+  twenty-four years destroying the eastern half of the same broken empire,
+  reunited the whole of northern China under one throne for the first time
+  since the split, and was taken over in turn by its own regent within four
+  years of finishing the job.
+
+capitals:
+  - { name: Chang'an, script: 長安, source: parker-1895 }
+
+core_region: The Wei valley and, after 577, the whole of northern China
+
+rulers:
+  founder: { name: Yuwen Jue, source: parker-1895 }
+  peak: { name: null, source: null }
+  last: { name: null, source: null }
+
+scripts_and_languages:
+  administration: [Chinese, Xianbei]
+  writing_system: Chinese
+
+ended:
+  type: dynastic replacement
+  by: [sui]
+  year: 581
+  source: parker-1895
+
+preceded_by_external:
+  - name: Western Wei
+    type: absorbed remnants of
+    year: 557
+    note: >-
+      When the Wei dynasty split in 534-5, the western half survived as a
+      court at Chang'an ruled in name by a Wei prince and in fact by the
+      general Yuwen Tai. Yuwen Tai never took the throne himself; his son
+      Yuwen Jue did, deposing the last Western Wei puppet and founding the
+      Zhou in his own family's name.
+    source: parker-1895
+
+institutions:
+  military_basis: { values: [standing-professional], source: parker-1895 }
+  revenue_basis: null
+  succession_rule: null
+  legitimation: { values: [investiture, conquest], source: parker-1895 }
+
+turning_points:
+  - year: 557
+    type: reform
+    name: Yuwen Jue deposes the Western Wei
+    changed: >-
+      The general's son converted a generation of his father's accumulated
+      regency into an imperial title in his own family's name, closing out
+      the fiction Western Wei's puppet court had maintained since 535.
+    source: parker-1895
+    contested: false
+  - year: 577
+    type: battle
+    name: The conquest of Northern Qi
+    changed: >-
+      The two halves of a dynasty that had split itself apart in 534-5 were
+      one government again, this time under Zhou's own name rather than the
+      Wei name both sides had originally claimed to be restoring.
+    source: parker-1895
+    contested: false
+  - year: 581
+    type: succession-crisis
+    name: Yang Jian's coup
+    changed: >-
+      A regent for a child emperor, and father-in-law to the emperor before
+      him, took the Zhou throne for himself and exterminated its ruling
+      family in turn - the same family that had exterminated Northern Qi's
+      royal house four years earlier, ended by exactly the kind of regency
+      it had itself once used to replace Western Wei.
+    source: parker-1895
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: parker-1895 }
+    religions_carried: { count: 0, items: [], source: parker-1895 }
+    successor_claims: { count: 0, items: [], source: parker-1895 }
