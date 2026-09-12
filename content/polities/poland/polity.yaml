@@ -1,0 +1,163 @@
+id: poland
+region: eastern-europe
+
+name:
+  latin: The Kingdom of Poland
+  script: Królestwo Polskie
+  script_lang: pl
+
+# 964 is fletcher-1836's own date for Mieszko I's accession, the first
+# Piast ruler the source treats as more than a name filling a gap in the
+# record. The source itself dates a legendary first Piast, an artisan
+# elevated to rule, to 830 - a tradition it explicitly declines to build
+# its narrative on, dating "authentic history" instead from the
+# introduction of Christianity the following year. The span follows the
+# source's own choice rather than the legend it discounted.
+#
+# 1569 is the Union of Lublin, the same event that ends the Grand Duchy
+# of Lithuania's own record in this region. Poland was not conquered or
+# replaced by it: the same king, Sigismund II Augustus, continued to
+# reign over the merged state afterward. What follows belongs to the
+# Polish-Lithuanian Commonwealth, a different record in this region.
+span:
+  start: { min: 964, max: 964, source: fletcher-1836 }
+  end: { min: 1569, max: 1569, source: fletcher-1836 }
+
+identity: >-
+  The Piast duchy on the Vistula and Warta that took Christianity from
+  Rome as the price of a Bohemian marriage, was crowned a kingdom by an
+  emperor's own visit to a martyr's tomb, survived the extinction of its
+  founding dynasty by inviting a foreign queen and marrying her to a
+  pagan Lithuanian duke, and grew under the Jagiellonian house it
+  created into the larger partner of a union it would spend two more
+  centuries defending as an equal one.
+
+capitals:
+  - { name: Gniezno, from: 964, source: fletcher-1836 }
+  - { name: Kraków, from: 1038, source: fletcher-1836 }
+
+core_region: The upper Vistula and Warta river basins, between the Oder and the Bug
+
+rulers:
+  founder: { name: "Mieszko I (Mieczylas)", reign: [964, 999], source: fletcher-1836 }
+  peak: { name: "Casimir III (Casimir the Great)", reign: [1333, 1370], source: fletcher-1836 }
+  last: { name: "Sigismund II Augustus", reign: [1548, 1569], source: katzel-2021 }
+
+scripts_and_languages:
+  administration: [Latin, Polish]
+  writing_system: Latin script
+
+# Neither conquest nor a clean dynastic replacement: the Union of Lublin
+# merged Poland with the Grand Duchy of Lithuania into a single elective
+# monarchy under the same reigning king, rather than ending Poland by
+# force or handing its throne to a new house. `gradual absorption` is
+# the least wrong of the six values in the closed vocabulary for a
+# polity whose separate legal existence ended through negotiated union
+# rather than defeat - the reasoning lithuania's own record uses for the
+# same event. `by` is empty since no record for the Commonwealth exists
+# yet; see the succeeded_by_external note below.
+ended:
+  type: gradual absorption
+  by: []
+  year: 1569
+  source: fletcher-1836
+
+preceded_by_external: []
+
+succeeded_by_external:
+  - name: The Polish-Lithuanian Commonwealth
+    type: absorbed remnants of
+    year: 1569
+    note: >-
+      The Union of Lublin merged Poland and the Grand Duchy of Lithuania
+      into a single elective monarchy with a common Sejm meeting at
+      Warsaw, chosen as a central town belonging to neither partner's own
+      historic territory. Poland was not absorbed by Lithuania nor
+      Lithuania by Poland in the way the vocabulary's other values would
+      suggest; both entered a nominally equal union as its larger and
+      smaller partners respectively.
+    source: fletcher-1836
+
+institutions:
+  military_basis: { values: [tribal-levy, client-levy], source: fletcher-1836 }
+  revenue_basis: { values: [land-tax, tribute], source: fletcher-1836 }
+  # `election` from 1370 onward, when Casimir the Great's death without a
+  # male heir forced the Polish nobility to actively choose his successor
+  # rather than simply receive one - a pattern that repeated at Louis of
+  # Hungary's own death in 1382 and became the kingdom's permanent
+  # practice under the Jagiellonians. `primogeniture` describes the
+  # earlier Piast centuries, when succession passed by inheritance within
+  # one family, however often contested in practice.
+  succession_rule: { values: [primogeniture, election], source: fletcher-1836 }
+  legitimation: { values: [descent, investiture, divine-sanction], source: fletcher-1836 }
+
+turning_points:
+  - year: 965
+    type: conversion
+    name: Mieszko's baptism
+    changed: >-
+      A duke who wanted a Bohemian princess for a wife accepted her own
+      condition first: baptism into a faith he adopted, by the source's
+      own account, for love before he ever adopted it for belief.
+      Churches rose on the site of the temples he tore down himself, and
+      no later Piast would rule a pagan Poland again.
+    source: fletcher-1836
+    contested: false
+  - year: 1025
+    type: reform
+    name: Bolesław crowned king
+    changed: >-
+      A Holy Roman Emperor's own pilgrimage to a martyred bishop's tomb,
+      and the hospitality its host provided him, ended in a grant of
+      royal rank the pope then confirmed - the duchy's Piast rulers
+      became, from this reign on, kings rather than dukes, a rank the
+      family would hold and lose and hold again over the following three
+      centuries of fragmentation.
+    source: fletcher-1836
+    contested: false
+  - year: 1370
+    type: succession-crisis
+    name: The Piast line runs out
+    changed: >-
+      Casimir the Great died with no son to inherit a kingdom he had
+      spent thirty-seven years rebuilding, and the throne passed, for
+      lack of any closer claimant, to his sister's son - a foreign king
+      already reigning in Hungary, whose own accession the Polish nobles
+      bound with formal conditions for the first time rather than
+      accepting on inherited right alone.
+    source: fletcher-1836
+    contested: false
+  - year: 1386
+    type: conversion
+    name: Jogaila crowned king
+    changed: >-
+      A queen not yet fifteen, pressured out of her own choice of
+      husband by the same nobility that had called her to the throne,
+      married a pagan Lithuanian duke on terms that bound his conversion
+      and his whole nation's to Poland's own church. The crown Louis of
+      Hungary's death had left without an obvious heir passed, through
+      that marriage, to a dynasty that would hold it for the rest of
+      this record's span.
+    source: fletcher-1836
+    contested: false
+  - year: 1569
+    type: treaty
+    name: The Union of Lublin
+    changed: >-
+      A war against Moscow gave the Polish nobility exactly the leverage
+      two centuries of shared kings had never produced: withheld
+      reinforcements until the crown agreed to make the union real rather
+      than merely dynastic. A joint diet at Lublin merged the two crowns
+      under shared law and a shared assembly meeting at neutral Warsaw,
+      ending Poland's own separate existence in the same act that ended
+      Lithuania's.
+    source: fletcher-1836
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: fletcher-1836 }
+    religions_carried: { count: 0, items: [], source: fletcher-1836 }
+    successor_claims: { count: 0, items: [], source: fletcher-1836 }
