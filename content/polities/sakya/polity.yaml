@@ -1,0 +1,131 @@
+id: sakya
+region: tibet
+
+name:
+  latin: Sakya Regime (Sakya-Mongol Government of Tibet)
+  script: null
+  script_lang: null
+
+# bell-1924 does not date the first Mongol summons of the Sakya hierarch,
+# describing only that "the grandson of Jenghiz" (Godan Khan) invited him;
+# the wider historical record dates that meeting to 1247, and this record's
+# own span starts there rather than at the later 1270 grant of formal
+# "sovereignty" bell-1924 does date, since the relationship that defines
+# this record began with the summons, not with its fullest expression.
+# kmaps-sakya-polity separately dates the formal administrative system to a
+# 1268 reorganization and the end of "Sakya hegemony" to 1354.
+span:
+  start: { min: 1247, max: 1247, source: bell-1924 }
+  end: { min: 1354, max: 1354, source: kmaps-sakya-polity }
+
+identity: >-
+  A Tibetan monastery's own abbots, made rulers of the whole plateau by
+  Mongol decree rather than conquest, who governed through a decimal
+  household census imported wholesale from the steppe before a rival lord
+  broke their hold on power.
+
+capitals:
+  - { name: "Sakya monastery, Tsang", source: bell-1924 }
+
+core_region: Central Tibet - the circuits of U, Tsang and Ngari, administered by Kublai Khan's decree as a single province
+
+rulers:
+  # Bell's own account names neither figure directly, describing only "the
+  # grandson of Jenghiz" (Godan Khan) and "the High Priest of the large
+  # Tibetan monastery at Sakya" (Sakya Pandita) whom he summoned; the wider
+  # historical record identifies both, and this record follows that
+  # identification while keeping Bell as the narrative source for the
+  # relationship itself.
+  founder: { name: "Sakya Pandita", source: bell-1924 }
+  # Drogon Chogyal Phagpa, Sakya Pandita's nephew and successor, received
+  # the "sovereignty of Tibet" from Khubilai Khan in bell-1924's own account
+  # of the reign that made the Sakya hierarchy a ruling house rather than
+  # simply a favored monastery.
+  peak: { name: "Drogon Chogyal Phagpa", source: bell-1924 }
+  # Null. Neither source consulted for this record names the individual
+  # Sakya hierarch or regent holding power at the moment Changchub Gyaltsen
+  # broke the regime's authority.
+  last: { name: null, source: null }
+
+scripts_and_languages:
+  administration: [Tibetan, Mongolian]
+  writing_system: "Tibetan script, and the 'Phags-pa script commissioned under Mongol patronage for the wider Yuan empire"
+
+institutions:
+  # kmaps-sakya-polity: a decimal household census imposed from 1268,
+  # fifty households to a "horse-head" unit, ten of those to a "century,"
+  # ten centuries to a chiliarchy, ten chiliarchies to a myriarchy - a
+  # steppe administrative model applied wholesale to a settled, monastic
+  # country.
+  military_basis: null
+  revenue_basis: { values: [tribute], source: kmaps-sakya-polity }
+  succession_rule: null
+  legitimation: { values: [divine-sanction, investiture], source: bell-1924 }
+
+# bell-1924 names the Sakya regime's ending ruler as "King Chang-chub
+# Gyal-tsen," who "brought nearly all Tibet under his sway" and ended
+# Sakya's political power, though bell-1924 does not give the event a
+# precise year; kmaps-sakya-polity independently dates the formal end of
+# the administrative system to 1354, which this record follows.
+ended:
+  type: dynastic replacement
+  by: []
+  year: 1354
+  source: kmaps-sakya-polity
+
+preceded_by_external: []
+succeeded_by_external: []
+
+turning_points:
+  - year: 1247
+    type: treaty
+    name: "The Sakya submission"
+    changed: >-
+      A Mongol prince summoned the head of a Tibetan monastery to his own
+      court - not as a conqueror dictating terms to a defeated enemy, but
+      as a patron seeking a religious teacher, in a meeting that would
+      determine how the whole plateau was governed for the next century.
+    source: bell-1924
+    contested: false
+  - year: 1268
+    type: reform
+    name: "The household census"
+    changed: >-
+      Central Tibet's own farming households were sorted, for the first
+      time, into a fixed bureaucratic hierarchy culminating in thirteen
+      myriarchies - a steppe administrative habit transplanted wholesale
+      onto a settled, monastic society that had never before been counted
+      this way.
+    source: kmaps-sakya-polity
+    contested: false
+  - year: 1270
+    type: reform
+    name: "The grant of sovereignty"
+    changed: >-
+      Khubilai Khan, having become a convert to the Tibetan form of
+      Buddhism through his own religious teacher, gave that teacher's
+      monastery temporal rule over the entirety of Tibet - a country his
+      own armies had never needed to conquer outright, handed instead to a
+      cleric as an act of religious patronage.
+    source: bell-1924
+    contested: false
+  - year: 1354
+    type: succession-crisis
+    name: "Changchub Gyaltsen's overthrow"
+    changed: >-
+      A rival Tibetan lord broke the Sakya hierarchy's grip on secular
+      power outright, bringing nearly the whole country under his own
+      authority and inaugurating what a later chronicler calls a Second
+      Monarchy - one that kept promoting the same religion the Sakya
+      priest-kings had championed, while deliberately discarding the
+      Mongol administrative habits that had come with their rule.
+    source: bell-1924
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 1, items: ["'Phags-pa script"], source: bell-1924 }
+    religions_carried: { count: 1, items: ["Tibetan Buddhism (carried to the Mongol Yuan court)"], source: bell-1924 }
+    successor_claims: { count: 0, items: [], source: bell-1924 }
