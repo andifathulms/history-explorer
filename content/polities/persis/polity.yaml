@@ -72,6 +72,23 @@ institutions:
   legitimation: { values: [divine-sanction], source: wiesehofer-1996 }
 
 turning_points:
+  # No single date to attach this to: the coin sequence itself is what dates
+  # the dynasty's start, and -280 is the span's own earliest bound. The
+  # turning point is the choice legible on the coins, not an event on a
+  # particular day.
+  - year: -280
+    type: reform
+    name: "The Frataraka coinage"
+    changed: >-
+      The earliest known rulers of Persis struck silver legended in Aramaic
+      rather than Greek, showing themselves in Persian dress before a fire
+      temple or a standard. Whether that was a deliberate revival of
+      Achaemenid kingship in a Seleucid province or ordinary local religious
+      continuity that later got read as a revival because of what the
+      province eventually produced is a question neither the coins nor
+      anything written about them can settle.
+    source: wiesehofer-1996
+    contested: true
   - year: 205
     type: revolt
     name: "Papak takes Istakhr"
@@ -82,6 +99,19 @@ turning_points:
       son had killed the man who refused and taken his empire, and the sequence
       from a temple custodianship to the throne of Iran runs through this one
       act.
+    source: daryaee-2009
+    contested: false
+  - year: 224
+    type: battle
+    name: "Hormozdgan"
+    changed: >-
+      Ardashir, whom the Parthian king of kings had refused to confirm as his
+      father's successor twenty years earlier, took Persis, Kerman, Elymais
+      and the Gulf coast, refused tribute, and met Artabanus IV in battle at
+      Hormozdgan and killed him. No foreign army took Persis and the ruling
+      family did not change; the kingdom stopped being a distinct polity by
+      becoming the centre of a much larger one, which is not usurpation,
+      conquest or absorption in the ordinary sense of any of the three.
     source: daryaee-2009
     contested: false
 
