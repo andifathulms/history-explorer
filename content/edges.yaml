@@ -3338,6 +3338,31 @@ edges:
     source: shaw-2000
     contested: false
 
+  - from: achaemenid
+    to: egypt-native-restoration
+    type: seceded from
+    year: -404
+    note: >-
+      Darius II's death set off a Persian succession dispute that gave a
+      Delta rebel leader, Amyrtaeus, the opening to expel the Persian
+      garrison from Memphis and proclaim himself pharaoh. No Persian
+      expedition attempted to retake Egypt for the better part of a decade.
+    source: shaw-2000
+    contested: false
+
+  - from: egypt-native-restoration
+    to: achaemenid
+    type: conquered by
+    year: -343
+    note: >-
+      Artaxerxes III's invasion took the Delta fortresses in sequence
+      rather than bypassing them and broke Nectanebo II's mixed
+      Egyptian-and-mercenary army in the field. Nectanebo withdrew to
+      Nubia rather than negotiate terms, and no native Egyptian-born king
+      ever again held the office he had just lost.
+    source: shaw-2000
+    contested: false
+
   # ---- Indian sultanates: the regional courts Timur's 1398 sack let loose ----
 
   - from: delhi-sultanate
