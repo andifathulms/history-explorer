@@ -125,10 +125,10 @@ turning_points:
     changed: >-
       Suppiluliuma I destroyed Mitanni as a great power in two campaigns, put a
       son on the throne at Carchemish and another at Aleppo, and made northern
-      Syria a Hittite province for a century and a half. This corpus's Mitanni
-      record is largely reconstructed from the treaty that ended it. Hatti
-      stopped being an Anatolian kingdom with Syrian ambitions and became one of
-      the two powers in the Near East.
+      Syria a Hittite province for a century and a half. Most of what survives
+      about Mitanni's own final years comes from the treaty that ended it.
+      Hatti stopped being an Anatolian kingdom with Syrian ambitions and became
+      one of the two powers in the Near East.
     source: bryce-2005
     contested: false
   - year: -1274
@@ -136,11 +136,11 @@ turning_points:
     name: Kadesh
     changed: >-
       Muwatalli II held Kadesh against Ramesses II, which is the outcome that
-      matters and is not the outcome the Egyptian temple walls describe. This
-      site's Egyptian record carries the same battle from the other side, and
-      the pair is the only place in the corpus where a single engagement is
-      documented at length by both parties. Nothing moved: the frontier stayed
-      where it had been.
+      matters and is not the outcome the Egyptian temple walls describe.
+      Egypt's own account of the same battle survives at equal length from
+      the other side, which for a single Late Bronze Age engagement is
+      documented nowhere else this fully by both parties at once. Nothing
+      moved: the frontier stayed where it had been.
     source: bryce-2005
     contested: false
   - year: -1259
@@ -156,6 +156,21 @@ turning_points:
       from the palace archive.
     source: beckman-1999
     contested: false
+  - year: -1180
+    type: catastrophe
+    name: "Hattusa burns"
+    changed: >-
+      No source names who did it, and the ones best placed to boast — Assyria,
+      which had beaten Hittite armies before — say nothing. The central state
+      did not fall to a rival great power the way Mitanni fell to Assyria or
+      Babylon fell to the Hittites themselves in 1595. It came apart, and the
+      Syrian vassal kingdoms it left behind kept its royal titles, its
+      language and its name for the Assyrians to still be fighting under four
+      centuries later, which is a state ending in one place and continuing,
+      diminished, in several others at once rather than a single line being
+      cut.
+    source: bryce-2005
+    contested: true
 
 measures:
   # Taagepera's tabulation gives the peak across 1250-1220; this record stores
