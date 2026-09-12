@@ -1572,9 +1572,8 @@ edges:
     contested: false
 
   # Reads as a succession and is not one, which is why the note says so. Mursili
-  # I ended the dynasty and kept nothing; Babylonia went to the Kassites, who
-  # have no page here. The edge records what happened between these two and
-  # nothing about what followed.
+  # I ended the dynasty and kept nothing; what actually followed in Babylonia is
+  # the separate edge to the Kassite record just below.
   - from: old-babylonian
     to: hittite
     type: conquered by
@@ -1584,6 +1583,22 @@ edges:
       ended the dynasty of Hammurabi and went home. He installed no governor and
       left no garrison, and was murdered on his return.
     source: beaulieu-2018
+    contested: false
+
+  # A raid, not a succession - the edge above - is what actually happened
+  # between these two. This is the edge for what followed it: a kingship the
+  # Kassites moved into a few decades later, unopposed, with no recorded
+  # conquest of their own.
+  - from: old-babylonian
+    to: kassite
+    type: absorbed remnants of
+    year: -1595
+    note: >-
+      The Kassites, already present in Babylonia as a minority for generations,
+      took over the vacated kingship within a few decades of the Hittite raid
+      and held it for four hundred years - the longest single dynasty in
+      Mesopotamian history, and one of the least documented successions in it.
+    source: king-1915
     contested: false
 
   # The edge the Mitanni record's `ended.by` was empty for. Its comment said the

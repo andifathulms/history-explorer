@@ -34,30 +34,21 @@ scripts_and_languages:
   writing_system: Cuneiform
 
 # Mursili I came down the Euphrates, took the city and went home, and the
-# Kassites moved into the space he left. `by` names the conqueror because the
-# conqueror is on this site; it does not name a successor, because the people
-# who actually took over Babylonia have no page here and did not do the
-# conquering. The distinction is the subject of this record's last chapter.
+# Kassites moved into the space he left. `by` names the conqueror rather than
+# a successor, because the Hittites did the conquering and the Kassites did
+# not - they absorbed a vacated kingship, recorded separately as an edge to
+# the Kassite record. The distinction is the subject of this record's last
+# chapter.
 ended:
   type: conquest
   by: [hittite]
   year: -1595
   source: beaulieu-2018
 
-# What actually followed in Babylonia. The Hittite raid is recorded as an edge and
-# led nowhere; the Kassites governed the country for four centuries and have no
-# record here, which is a fact about the evidence rather than about Babylonia.
-succeeded_by_external:
-  - name: the Kassite dynasty
-    year: null
-    note: >-
-      The Hittites sacked Babylon in 1595 and went home. What replaced the First
-      Dynasty was a Kassite line that ruled Babylonia for something over four
-      centuries — longer than any other dynasty in Mesopotamian history — and
-      whose arrival nobody recorded. It kept the city, the gods, the language and
-      the scribal tradition, and left one of the least documented successions in
-      the ancient world.
-    source: king-1910
+# The Hittite raid is recorded as an edge and led nowhere; what actually
+# followed in Babylonia is now recorded as a second edge, to the Kassite
+# dynasty's own record.
+succeeded_by_external: []
 
 # What Babylon rose among. Isin and Larsa are real predecessors with no records
 # here, and the first chapter is about being one Amorite kingdom among several.
