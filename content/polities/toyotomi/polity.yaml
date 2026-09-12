@@ -1,0 +1,147 @@
+id: toyotomi
+region: korea-and-japan
+
+name:
+  latin: The Toyotomi Regime
+  script: 豊臣政権
+  script_lang: ja
+
+# 1582 is Nobunaga's assassination by his own captain Akechi and
+# Hideyoshi's immediate march on Kyoto to avenge him, defeating and
+# killing Akechi within days - "Akechi ruled three days," in the native
+# proverb - and beginning the campaign that made Hideyoshi Nobunaga's
+# actual successor rather than merely one of several rival commanders.
+#
+# 1600 is the battle of Sekigahara, where Ieyasu's disciplined single
+# army broke the larger but disunited coalition fighting to preserve
+# the young Hideyori's own inheritance. Hideyori himself survived the
+# battle and held Osaka Castle for another fifteen years, but the
+# regime his father had built did not survive the defeat of its own
+# following in the field.
+span:
+  start: { min: 1582, max: 1582, source: griffis-1883 }
+  end: { min: 1600, max: 1600, source: griffis-1883 }
+
+identity: >-
+  A peasant soldier's rise, on raw ability alone, to an office the law
+  had reserved for one noble family for centuries, completing in less
+  than two decades the unification his own murdered lord had begun by
+  the sword, spending it on a war of conquest against Korea that
+  achieved nothing, and dying with his empire entrusted to guardians
+  who fought each other for it before his own son was old enough to
+  rule.
+
+capitals:
+  - { name: Kyoto, source: griffis-1883 }
+  - { name: Osaka, source: griffis-1883 }
+
+core_region: The Kinai provinces, projected outward over most of Japan through a rapidly assembled coalition of vassal daimyo
+
+rulers:
+  founder: { name: "Toyotomi Hideyoshi", reign: [1582, 1598], source: griffis-1883 }
+  peak: { name: "Toyotomi Hideyoshi", reign: [1582, 1598], source: griffis-1883 }
+  last: { name: "Toyotomi Hideyori", reign: [1598, 1600], source: griffis-1883 }
+
+scripts_and_languages:
+  administration: [Classical Chinese, Old Japanese]
+  writing_system: Chinese characters (kanji), adapted for Japanese
+
+# Not a conquest by an outside power: Ieyasu, one of the five guardians
+# Hideyoshi himself had appointed to protect his infant heir, turned on
+# the coalition defending that same heir's inheritance. `internal
+# usurpation` matches the same pattern this corpus already codes for
+# the Hojo's rise under Kamakura and Nobunaga's own deposal of the last
+# Ashikaga shogun - a guardian's authority turned against the ward he
+# was sworn to protect. `by` is empty since no record for what followed
+# exists yet; see the succeeded_by_external note below.
+ended:
+  type: internal usurpation
+  by: []
+  year: 1600
+  source: griffis-1883
+
+preceded_by_external: []
+
+succeeded_by_external:
+  - name: The Tokugawa Shogunate
+    type: overthrew
+    year: 1600
+    note: >-
+      Ieyasu's victory at Sekigahara did not immediately destroy the
+      Toyotomi house - Hideyori held Osaka Castle for another fifteen
+      years - but it broke the coalition that had fought to preserve
+      his father's own settlement, and left Ieyasu the country's actual
+      master in everything but the shogunal title he would formally
+      claim three years later.
+    source: griffis-1883
+
+institutions:
+  military_basis: { values: [client-levy], source: griffis-1883 }
+  revenue_basis: { values: [land-tax, tribute], source: griffis-1883 }
+  # `nomination`, not primogeniture: Hideyoshi himself, holding no
+  # inherited claim of his own to any office, obtained the regency by
+  # imperial patent despite it being reserved by centuries of custom to
+  # Fujiwara nobility alone, and arranged his own succession by
+  # appointing five guardians for his six-year-old son rather than
+  # trusting inheritance to settle itself.
+  succession_rule: { values: [nomination], source: griffis-1883 }
+  # `investiture`: Hideyoshi's own authority rested throughout on
+  # grants from the emperor - the regency in 1586, the Toyotomi family
+  # name itself by imperial patent - rather than on any inherited
+  # descent of his own.
+  legitimation: { values: [investiture], source: griffis-1883 }
+
+turning_points:
+  - year: 1586
+    type: reform
+    name: Hideyoshi made regent
+    changed: >-
+      An office the law had reserved exclusively for Fujiwara nobility
+      for centuries went instead to a man his own rivals mocked as a
+      crowned monkey - proof that raw military success had, for the
+      first time, overridden thirteen centuries of hereditary
+      qualification for the empire's highest civil rank.
+    source: griffis-1883
+    contested: false
+  - year: 1592
+    type: catastrophe
+    name: The invasion of Korea begins
+    changed: >-
+      Hideyoshi committed the country's resources to an unprovoked war
+      of conquest against a peaceable neighbour, intending it as a
+      stepping-stone to China itself. The campaign brought no lasting
+      territorial gain to Japan and cost an unrecorded but enormous
+      toll of life on both sides before his own death forced its
+      abandonment.
+    source: griffis-1883
+    contested: false
+  - year: 1598
+    type: succession-crisis
+    name: The taiko's death
+    changed: >-
+      A ruler who had reached the summit of Japanese power entirely
+      through his own ability left it, at the end, to a child who had
+      inherited none of the qualities that had put it there - and to a
+      set of guardians whose loyalty to that child depended entirely on
+      a family tie one of them had every reason to abandon.
+    source: griffis-1883
+    contested: false
+  - year: 1600
+    type: battle
+    name: Sekigahara
+    changed: >-
+      A disciplined army under a single commander broke a larger but
+      divided coalition fighting in the young heir's name, in a
+      campaign Ieyasu opened by publicly rejecting his own diviners'
+      warning that the road west was closed. Japan's actual mastery
+      passed to the victor before any formal office confirmed it.
+    source: griffis-1883
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: griffis-1883 }
+    religions_carried: { count: 0, items: [], source: griffis-1883 }
+    successor_claims: { count: 0, items: [], source: griffis-1883 }
