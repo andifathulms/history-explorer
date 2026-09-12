@@ -95,6 +95,22 @@ turning_points:
       removed both the customers its position depended on.
     source: wilson-2023
     contested: false
+  # Not a battle: the Aleppans opened negotiations and Sabiq ibn Mahmud gave
+  # the city up. 1080 is coded because that is when it changed hands, not
+  # because a siege or a treaty document marks the point.
+  - year: 1080
+    type: succession-crisis
+    name: "Aleppo handed over"
+    changed: >-
+      The Aleppans invited Muslim ibn Quraysh, the Uqaylid lord of Mosul, to
+      take the city because he could keep the Turkmen out and the last
+      Mirdasid could not; Sabiq ibn Mahmud gave it up without a siege or a
+      massacre. Fifty-five years of Kilabi rule ended in a negotiation
+      between a city and a stranger about who would defend it, which is the
+      honest verdict on a dynasty that never made itself necessary to the
+      place it governed.
+    source: zakkar-1971
+    contested: false
 
 measures:
   reach_km2: null
