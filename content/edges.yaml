@@ -3942,3 +3942,32 @@ edges:
            years in which he took everything else."
     source: van-de-mieroop-2005
     contested: false
+
+  # ---- Hatti and the Highlands: the region's own internal edge, plus the
+  # cross-region link Hittite foreign relations were actually built on ----
+
+  - from: hittite
+    to: kizzuwatna
+    type: vassal of
+    year: -1400
+    note: "Kizzuwatna's own last king, Sunassura, concluded a detailed
+           treaty with the Hittite king Tudhaliya I that fixed the
+           kingdom's borders paragraph by paragraph - the kind of
+           specificity a stronger power uses to formalize exactly how
+           much autonomy a weaker one keeps. No conquest is recorded;
+           Kizzuwatna's own independent political history simply stops
+           being visible in the record after this treaty."
+    source: trameri-2020
+    contested: false
+
+  - from: hittite
+    to: mitanni
+    type: vassal of
+    year: -1350
+    note: "Suppiluliuma I broke Mitanni's own military power in a series
+           of Syrian campaigns and installed a client king, Shattiwaza,
+           on its throne under Hittite protection - the vassal kingdom
+           Mitanni remained until the Middle Assyrian kings finished it
+           off a century later."
+    source: bryce-2005
+    contested: false

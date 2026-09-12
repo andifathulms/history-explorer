@@ -1,0 +1,113 @@
+id: kizzuwatna
+region: hatti-and-the-highlands
+
+name:
+  latin: Kizzuwatna
+  script: null
+  script_lang: null
+
+# trameri-2020 (a 2020 NYU dissertation, the most detailed modern treatment
+# available) dates Kizzuwatna's emergence as an independent, diplomatically
+# recognized kingdom to the late sixteenth century, contemporary with its
+# earliest attested king Ispudahsu and his treaty with the Hittite king
+# Telipinu (ca. 1525-1500). Its absorption into the Hittite orbit is dated to
+# the reign of the Hittite king Tudhaliya I (ca. 1430s-1390s), whose own
+# treaty with King Sunassura of Kizzuwatna is the last document to treat the
+# kingdom as a separate treaty partner rather than a Hittite province.
+span:
+  start: { min: -1550, max: -1500, source: trameri-2020 }
+  end: { min: -1430, max: -1390, source: trameri-2020 }
+
+identity: >-
+  A Cilician highland kingdom known almost entirely through the archives of
+  its neighbors - a seal, a handful of treaties, one private contract with a
+  Syrian city-state - that spent its whole independent existence as a
+  smaller power triangulating between Hatti and Mittani, and ended not in
+  conquest but in a treaty that simply stopped calling it independent.
+
+capitals:
+  - { name: Kummanni, source: trameri-2020 }
+
+core_region: The Cilician plain of southeastern Anatolia, between the Taurus and Amanus mountains
+
+rulers:
+  # Known only from a seal found at Tarsus reading "Ispudahsu, Great King,
+  # son of Pariyawatri," and from a treaty with the Hittite king Telipinu -
+  # the earliest Kizzuwatnean ruler attested by name in either source.
+  founder: { name: "Ispudahsu", source: trameri-2020 }
+  # Pilliya's own reign is documented from two directions at once: a treaty
+  # with the Hittite king Zidanta II, and a separate, private contract with
+  # Idrimi, king of Alalah in Syria - the fullest documentary record of any
+  # Kizzuwatnean king's own reign.
+  peak: { name: "Pilliya", source: trameri-2020 }
+  # A legal document from Alalah shows Sunassura's own territorial dispute
+  # with a Syrian neighbor decided by the Mittanian king Saustatar - proof
+  # Kizzuwatna was by this point a Mittanian dependency before it ever
+  # became a Hittite one.
+  last: { name: "Sunassura", source: trameri-2020 }
+
+scripts_and_languages:
+  administration: [Hurrian, Akkadian, Luwian]
+  writing_system: Cuneiform
+
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  legitimation: { values: [descent, titulature], source: trameri-2020 }
+
+# The Sunassura treaty with the Hittite king Tudhaliya I is not a record of
+# conquest - Kizzuwatna had already passed from Mittanian into Hittite
+# influence through diplomacy, not battle - but the last document to address
+# a King of Kizzuwatna as an independent treaty partner rather than a
+# subordinate ruler of a Hittite frontier province.
+ended:
+  type: gradual absorption
+  by: [hittite]
+  year: -1400
+  source: trameri-2020
+
+preceded_by_external: []
+succeeded_by_external: []
+
+turning_points:
+  - year: -1500
+    type: treaty
+    name: "The treaty of Telipinu and Ispudahsu"
+    changed: >-
+      A local ruler styling himself Great King on his own seal struck the
+      earliest formal agreement on record between Cilicia and its northern
+      neighbor - proof that a power existed there substantial enough for
+      Hatti to negotiate with, rather than simply campaign through.
+    source: trameri-2020
+    contested: false
+  - year: -1450
+    type: treaty
+    name: "Pilliya's contract with Idrimi"
+    changed: >-
+      Pilliya struck a private agreement with Idrimi, the exiled prince who
+      had just carved out a kingdom for himself at Alalah - two rulers
+      settling their own border directly, with the Mittanian overlord Idrimi
+      answered to nowhere named in the text at all.
+    source: trameri-2020
+    contested: false
+  - year: -1400
+    type: treaty
+    name: "The Sunassura treaty"
+    changed: >-
+      A once-independent kingdom that had spent the previous generation
+      answering to Mittani in a formal territorial dispute concluded its
+      last treaty as a nominal equal, this time with a Hittite king rather
+      than a Mittanian one - the document historians point to as the moment
+      Kizzuwatna's own royal line stopped ruling anything Hatti did not
+      already consider its own.
+    source: trameri-2020
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: trameri-2020 }
+    religions_carried: { count: 1, items: [Hurrian religious tradition transmitted to the Hittite court], source: trameri-2020 }
+    successor_claims: { count: 0, items: [], source: trameri-2020 }

@@ -66,11 +66,17 @@ regions:
     name: Hatti and the Highlands
     blurb: >-
       The powers of the high country north and east of the plain: a chariot
-      empire on the Anatolian plateau that treated with Egypt as an equal, and a
-      kingdom around Lake Van that outlasted the Assyrian army sent to end it.
-      Both were written out of history until their own archives were dug up.
+      empire on the Anatolian plateau that treated with Egypt as an equal, a
+      Cilician highland kingdom it absorbed by treaty rather than conquest, and
+      a kingdom around Lake Van that outlasted the Assyrian army sent to end
+      it. All three were written out of history until their own archives were
+      dug up.
     group: near-east
-    thread: false
+    # `thread: true` since a real sourced edge - Hittite to Kizzuwatna, "vassal
+    # of," the Sunassura treaty - now joins two of the region's own polities.
+    # Urartu has no edge to either: it rose three centuries after Hatti's own
+    # collapse and no source connects the two directly.
+    thread: true
 
   # Membership rule, stated because it is not obvious and was not being
   # applied: this region holds polities whose whole basis was a claim on the
