@@ -1,0 +1,124 @@
+id: pagaruyung
+region: sumatra-and-the-peninsula
+
+name:
+  latin: Pagaruyung Kingdom
+  # Written in Jawi in its own later documents, which this site does not
+  # attempt to render for the reason the Aceh record gives.
+  script: null
+  script_lang: null
+
+# Adityawarman's own inscriptions date his rule in the Minangkabau highlands
+# from 1347, and the last of them is dated 1375; nothing datable survives
+# between 1375 and Tome Pires' account of about 1515. The kingdom is dated
+# from the inscriptions rather than from the gap. The end is Sultan Alam
+# Bagagarsyah's arrest and exile, after which no Pagaruyung ruler governed
+# anything.
+span:
+  start: { min: 1347, max: 1347, source: josselin-de-jong-1951 }
+  end: { min: 1833, max: 1833, source: dobbin-1983 }
+
+identity: >-
+  A highland kingdom in the gold-bearing interior of Sumatra whose kings
+  crowned no army worth the name and whose real authority was ceremonial —
+  the source of legitimacy a matrilineal society used to settle disputes
+  adat custom itself could not close.
+
+capitals:
+  - { name: Pagaruyung, source: josselin-de-jong-1951 }
+
+core_region: The Minangkabau highlands of central Sumatra, around Tanah Datar
+
+rulers:
+  founder: { name: Adityawarman, reign: [1347, 1375], source: josselin-de-jong-1951 }
+  # No consulted source names a king of this kingdom as its most powerful or
+  # most consequential; the office's authority was ceremonial and legal
+  # throughout, which is a different axis from the one this field measures.
+  peak: { name: null, source: null }
+  last: { name: "Sultan Alam Bagagarsyah", reign: [1811, 1833], source: dobbin-1983 }
+
+scripts_and_languages:
+  administration: [Minangkabau, Malay]
+  writing_system: Jawi, from the arrival of Islam
+
+# Not a conquest in the ordinary sense and not a fragmentation. The kingdom
+# had already ceded its own seat to the Dutch in 1821 in exchange for troops
+# against the Padris; the 1833 arrest removed the office itself rather than
+# transferring it, and Dutch administration simply continued over ground it
+# already held.
+ended:
+  type: gradual absorption
+  by: []
+  year: 1833
+  source: dobbin-1983
+
+institutions:
+  # Nothing consulted describes an army the kingship itself raised. What
+  # fought, on both sides of the Padri war, was armed adat lineages and later
+  # Padri irregulars, neither of which the crown commanded.
+  military_basis: null
+  # Gold from the highland rivers, which the inscriptions and the later trade
+  # accounts agree on, and from the eighteenth century coffee grown for a
+  # market the Padri economy was built on. Unranked.
+  revenue_basis: { values: [mining, land-tax], source: dobbin-1983 }
+  # Not coded `matrilineal`, though the society the kingship sat over was:
+  # Minangkabau descent, property and clan membership passed through women,
+  # but nothing consulted describes the kingship itself as passing by that
+  # rule rather than within a royal line by a rule nobody wrote down. Coding
+  # the throne by the society's own kinship rule would be crediting an
+  # inference the sources do not make.
+  succession_rule: null
+  # The Kings of the Three Seats: a king of the realm, a king of adat custom
+  # and a king of religion, ruling in principle together and descended from
+  # Adityawarman's line. `descent` for the lineage; nothing else in the
+  # vocabulary reaches a kingship whose actual work was arbitration rather
+  # than command.
+  legitimation: { values: [descent], source: josselin-de-jong-1951 }
+
+turning_points:
+  - year: 1347
+    type: capital-move
+    name: "Adityawarman at Pagaruyung"
+    changed: >-
+      A Sumatran prince connected by marriage to both the old Malayu court and
+      the Javanese court of Majapahit, and a follower of Tantric Buddhism,
+      established himself in the Minangkabau highlands and had his rule
+      recorded in stone. It planted a royal line in a gold-bearing interior
+      that had never had one, and the line outlasted every larger state that
+      had produced it by five hundred years.
+    source: josselin-de-jong-1951
+    contested: true
+  - year: 1821
+    type: treaty
+    name: "The king allies with the Dutch"
+    changed: >-
+      Facing a Padri movement that had already burned the old palace and
+      driven the royal house from the highlands, the reigning king and
+      surrounding adat chiefs ceded Pagaruyung and neighbouring districts to
+      the Dutch in exchange for troops to fight the Padris. It brought a
+      colonial army into the highlands to settle a dispute the kingship's own
+      ceremonial authority could no longer close, and it did not save the
+      kingship.
+    source: dobbin-1983
+    contested: false
+  - year: 1833
+    type: succession-crisis
+    name: "The king arrested"
+    changed: >-
+      Twelve years after allying with the Dutch against the Padris, Sultan
+      Alam Bagagarsyah was arrested by the same Dutch forces on suspicion of
+      conspiracy and exiled to Batavia, where he died sixteen years later.
+      Nobody was installed after him. A kingship that had survived five
+      centuries by settling other people's disputes ended because the power
+      it had called in to settle its own dispute decided it no longer needed
+      the office at all.
+    source: dobbin-1983
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
