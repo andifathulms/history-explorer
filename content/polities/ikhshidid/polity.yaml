@@ -55,6 +55,21 @@ turning_points:
       kept the road open and fed the holy cities.
     source: petry-1998
     contested: false
+  # Petry gives 966; Lane-Poole gives 965 for the same event. Neither source
+  # is disputing what happened, only the year, so the point is recorded from
+  # Petry with the discrepancy stated rather than marked contested.
+  - year: 966
+    type: succession-crisis
+    name: "Kafur rules openly"
+    changed: >-
+      Kafur, who had governed as regent for two of Ibn Tughj's sons, took the
+      position openly in his own name, with the caliph's approval and the
+      khutba pronounced for him — Lane-Poole dates the same event to 965. No
+      resistance to it is recorded. He never struck a coin in his own name;
+      his currency ran in the caliph's alone, even after he held Egypt, Syria
+      and the Hijaz outright.
+    source: petry-1998
+    contested: false
   - year: 969
     type: treaty
     name: "The terms at Fustat"
