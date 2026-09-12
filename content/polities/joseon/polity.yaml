@@ -1,0 +1,149 @@
+id: joseon
+region: korea
+
+name:
+  latin: Joseon
+  script: 조선
+  script_lang: ko
+
+# hulbert-1905 dates the founding to 16 July 1392 (seventh moon), the
+# day Yi Seong-gye - already the power behind the throne after his own
+# 1388 turn-back at Wi-ha Island, carried in this region's Goryeo record
+# - formally took the seals of state from Goryeo's abdicating last king.
+# The Chinese Emperor chose the new kingdom's name from two the new king
+# proposed, preferring Cho-sŭn ("Morning Freshness") to Wha-ryŭng
+# ("Peaceful Harmony").
+#
+# hulbert-1905-v2's own narrative runs out in December 1904, partway
+# through the Russo-Japanese War, with Korea still a nominally
+# independent empire under Emperor Kwang-mu (Ko-jong). It was written
+# and published in 1905, before Korea's loss of its own foreign affairs
+# under that year's protectorate treaty and before Japan's 1910
+# annexation, so it cannot date this record's actual end. `ended` is
+# left null rather than filled with a date this source does not give.
+span:
+  start: { min: 1392, max: 1392, source: hulbert-1905-v2 }
+  end: { min: 1904, max: 1904, source: hulbert-1905-v2 }
+
+identity: >-
+  The five-century dynasty that gave Korea its own phonetic alphabet,
+  survived a Japanese invasion that killed its greatest admiral in its
+  own final battle, and declared itself an empire the moment it judged
+  itself free of every foreign suzerain.
+
+capitals:
+  - { name: "Song-do (briefly, 1392-1394)", from: 1392, to: 1394, source: hulbert-1905-v2 }
+  - { name: "Han-yang (Seoul)", from: 1394, source: hulbert-1905-v2 }
+
+core_region: The Korean peninsula in its entirety
+
+rulers:
+  # No abdication year is given for Yi Seong-gye; the source dates only
+  # his own accession and the succession dispute among his sons that
+  # eventually drove him to retire.
+  founder: { name: "Yi Seong-gye (Yi T'ă-jo)", source: hulbert-1905-v2 }
+  peak: { name: "Sejong", reign: [1419, 1450], source: hulbert-1905-v2 }
+  # Ko-jong's reign is dated here only from its own stated start; the
+  # source's own narrative, reaching no further than December 1904,
+  # never gives an end year for it, and none is invented here. He is
+  # named as the dynasty's most recent ruler this source attests, not
+  # as its last.
+  last: { name: "Ko-jong (Emperor Kwang-mu)", source: hulbert-1905-v2 }
+
+scripts_and_languages:
+  administration: [Korean, Classical Chinese]
+  writing_system: Hangul, invented under King Sejong; Chinese script remained the language of official documents through most of the dynasty
+
+# Descent carried the throne within the Yi line for five centuries, and
+# investiture from China - new seals issued to replace Goryeo's own at
+# the founding, and reconfirmed at the accession of later kings - is
+# stated directly and repeatedly across the source.
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  legitimation: { values: [descent, investiture], source: hulbert-1905-v2 }
+
+ended: null
+
+preceded_by_external: []
+succeeded_by_external: []
+
+turning_points:
+  - year: 1392
+    type: succession-crisis
+    name: Yi Seong-gye takes the seals
+    changed: >-
+      A general already in command of Goryeo's own army in all but name
+      accepted the abdicating king's seals of office and, at the Chinese
+      Emperor's own choice between two proposed names, gave his new
+      dynasty a title - Cho-sŭn - that would outlast every one of his
+      own descendants' reigns for the next five hundred years.
+    source: hulbert-1905-v2
+    contested: false
+  - year: 1592
+    type: catastrophe
+    name: The Japanese invasion
+    changed: >-
+      Hideyoshi's armies swept north through a kingdom unprepared for
+      any serious land war, seizing the capital and driving the court to
+      the Chinese border before a Ming counter-invasion and a string of
+      naval victories under Admiral Yi Sun-sin's ironclad "turtle boats"
+      began to turn a rout into a six-year war of attrition.
+    source: hulbert-1905-v2
+    contested: false
+  - year: 1598
+    type: battle
+    name: Noryang
+    changed: >-
+      Admiral Yi Sun-sin, warned by his own premonition that he would
+      not survive the day, destroyed the last major Japanese fleet
+      attempting to withdraw from the peninsula and was killed by a
+      stray bullet in the final hour of the fight, dying, by his own
+      last order, without his men learning of it until the battle was
+      won - the engagement that closed out active hostilities of the
+      war for good.
+    source: hulbert-1905-v2
+    contested: false
+  - year: 1876
+    type: treaty
+    name: The Treaty of Kang-wha
+    changed: >-
+      Under Japanese naval pressure following an attack on one of her
+      own gunboats at Kang-wha, Korea signed her first formal agreement
+      with a power from outside the traditional Chinese order, closing
+      out three centuries of deliberate isolation from the wider world.
+    source: hulbert-1905-v2
+    contested: false
+  - year: 1895
+    type: catastrophe
+    name: The assassination of the Queen
+    changed: >-
+      Japan's own minister to Seoul, Miura Goro, organized an armed
+      party that broke into the palace at first light, searched out and
+      killed Queen Min, and burned her body - an act a Japanese court
+      later examined in exhaustive detail without convicting anyone, and
+      one that hardened Korean and international opinion against
+      Japan's own growing influence at court for years afterward.
+    source: hulbert-1905-v2
+    contested: false
+  - year: 1897
+    type: reform
+    name: The Korean Empire proclaimed
+    changed: >-
+      Judging the kingdom finally free of any foreign suzerain to
+      answer to, Ko-jong assumed an imperial title in a formal
+      coronation - a status other governments recognized within
+      months, changing Korea's own formal standing among her neighbors
+      even as the rival foreign interests jostling for real influence
+      at her court remained entirely unresolved by the title alone.
+    source: hulbert-1905-v2
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: hulbert-1905-v2 }
+    religions_carried: { count: 0, items: [], source: hulbert-1905-v2 }
+    successor_claims: { count: 0, items: [], source: hulbert-1905-v2 }
