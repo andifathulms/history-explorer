@@ -41,6 +41,21 @@ institutions:
   legitimation: { values: [caliphal-investiture], source: petry-1998 }
 
 turning_points:
+  - year: 878
+    type: battle
+    name: "The Syrian campaign"
+    changed: >-
+      Ibn Tulun marched into Syria without the caliph's leave, took it in a
+      year, and came home a governor whose army, revenue and territory no
+      longer depended on Baghdad's continued goodwill. The campaign paid for
+      itself out of Syria's own treasury rather than Egypt's, which is what
+      let autonomy become a standing fact rather than a debt owed to one
+      good year's tax collection. It also gave his own household the same
+      demonstration: within months his son had used the identical
+      combination of an army, a treasury and distance from the centre to
+      try the same thing against his father.
+    source: lane-poole-1901
+    contested: false
   - year: 882
     type: revolt
     name: "The jurists at Damascus"
