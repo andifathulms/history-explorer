@@ -1,0 +1,124 @@
+id: bahmani
+region: the-deccan
+
+name:
+  latin: Bahmani Sultanate
+  script: بہمنی سلطنت
+  script_lang: ur
+
+# firishta-briggs-1829 dates the founding to "Friday, the 24th of
+# Rubbee-ool-Akhir, 748" (3 August 1347), when the Deccan officers who
+# had rebelled against Delhi crowned their own general, Zafar Khan, as
+# Ala-ud-Din Hasan Bahman Shah.
+#
+# The dynasty's own last king, Kalimullah Shah, is last dated in this
+# source petitioning the Mughal emperor Babur for rescue in "the year
+# 933" (1526 CE), shortly after which his gaoler-minister Amir Barid
+# tightened his confinement; Kalimullah then fled first to Bijapur and
+# then to Ahmadnagar, "where he remained till his death," ending the
+# dynasty. No further year is given for that death or for the formal
+# end of the line, so the span below closes on the last date the
+# source actually states rather than an estimated later one.
+span:
+  start: { min: 1347, max: 1347, source: firishta-briggs-1829 }
+  end: { min: 1526, max: 1526, source: firishta-briggs-1829 }
+
+identity: >-
+  A rebel general's kingdom, founded on a fabricated claim of Persian
+  royal descent, whose golden-age minister was executed on a forged
+  letter - after which its governors quietly stopped answering to a
+  throne that had already stopped ruling them.
+
+capitals:
+  # No year is given for the move to Bidar beyond that it fell within
+  # Ahmad Shah Wali's own reign; the source dates the founding of
+  # Gulbarga precisely but only narrates the later move in passing,
+  # while he was returning from a campaign and chose the site during a
+  # hunting excursion.
+  - { name: "Ahsanabad (Gulbarga)", from: 1347, source: firishta-briggs-1829 }
+  - { name: "Ahmadabad Bidar", source: firishta-briggs-1829 }
+
+core_region: The Deccan plateau between the Krishna and Godavari rivers
+
+rulers:
+  founder: { name: "Ala-ud-Din Hasan Bahman Shah", reign: [1347, 1358], source: firishta-briggs-1829 }
+  peak: { name: "Muhammad Shah III", reign: [1463, 1482], source: firishta-briggs-1829 }
+  # No death year is given for Kalimullah Shah; the source dates only
+  # his accession and his final flight to Ahmadnagar, "where he
+  # remained till his death."
+  last: { name: "Kalimullah Shah", source: firishta-briggs-1829 }
+
+scripts_and_languages:
+  administration: [Persian, Deccani Urdu]
+  writing_system: Perso-Arabic script
+
+# Ala-ud-Din Hasan himself claimed descent from Bahman, an ancient king
+# of Persia - a pedigree the source's own author judges to have been
+# invented after the fact by court flatterers, since "his origin was
+# too obscure to admit of being traced." Genuine hereditary descent
+# held the throne after him. Succession is coded as factional rather
+# than by any stated rule: the source narrates repeated depositions,
+# poisonings and puppet kings managed by whichever minister controlled
+# the court, most starkly in the dynasty's last four reigns.
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: { values: [factional], source: firishta-briggs-1829 }
+  legitimation: { values: [descent, titulature], source: firishta-briggs-1829 }
+
+ended:
+  type: fragmentation
+  by: []
+  year: 1526
+  source: firishta-briggs-1829
+
+preceded_by_external: []
+succeeded_by_external: []
+
+turning_points:
+  - year: 1347
+    type: succession-crisis
+    name: Zafar Khan crowned at Gulbarga
+    changed: >-
+      Officers of the Deccan who had rebelled against Delhi rule after
+      years of arbitrary punishment and confiscation crowned their own
+      general as sultan, ending direct Delhi Sultanate authority over
+      the plateau for good and giving the new state a founding myth -
+      descent from an ancient Persian king - that its own later
+      chronicler doubted outright.
+    source: firishta-briggs-1829
+    contested: false
+  - year: 1481
+    type: revolt
+    name: The execution of Mahmud Gawan
+    changed: >-
+      Convinced by a forged letter that his own minister of thirty
+      years had betrayed him, an intoxicated Muhammad Shah III ordered
+      Mahmud Gawan put to death on the spot; several of the empire's own
+      commanders broke openly with the court in the days that followed,
+      and the king's own belated discovery of the forgery
+      could not undo what the source calls the beginning of the
+      dynasty's ruin.
+    source: firishta-briggs-1829
+    contested: false
+  - year: 1526
+    type: revolt
+    name: Kalimullah's secret appeal
+    changed: >-
+      Kept a virtual prisoner in his own palace by the minister Amir
+      Barid, Kalimullah Shah secretly petitioned the newly triumphant
+      Mughal emperor Babur for rescue, offering to cede territory in
+      exchange for it; the appeal went nowhere, Barid tightened the
+      king's confinement on discovering it, and Kalimullah's own flight
+      first to Bijapur and then to Ahmadnagar closed out the dynasty in
+      exile rather than on its own throne.
+    source: firishta-briggs-1829
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: firishta-briggs-1829 }
+    religions_carried: { count: 0, items: [], source: firishta-briggs-1829 }
+    successor_claims: { count: 0, items: [], source: firishta-briggs-1829 }

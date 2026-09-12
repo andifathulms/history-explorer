@@ -675,6 +675,27 @@ sources:
     publisher: Methuen
     year: 1973
 
+  - id: firishta-briggs-1829
+    kind: book
+    author: Muhammad Qasim Firishta
+    title: "History of the Rise of the Mahomedan Power in India, till the Year A.D. 1612"
+    translator: John Briggs
+    publisher: Longman, Rees, Orme, Brown, and Green
+    year: 1829
+    note: >-
+      A seventeenth-century Persian court history translated into English in
+      four volumes; volume two carries the dedicated section on "the kings of
+      Koolburga, denominated Bahmuny" from Ala-ud-Din Hasan's 1347 coronation
+      through Kalimullah Shah's 1526 flight into exile, alongside the
+      dynasties that succeeded it once the sultanate broke into five. Written
+      nearly three centuries after the events it opens with and drawing on
+      earlier chronicles Firishta names but that do not themselves survive
+      complete, so its dates for early reigns rest on his own reported
+      reconciliation of conflicting sources rather than on inscriptions.
+      Firishta is openly skeptical of some of his own material, including the
+      Bahmani dynasty's own claimed descent from an ancient Persian king. Out
+      of copyright.
+
   - id: finkel-2005
     kind: book
     author: Caroline Finkel
