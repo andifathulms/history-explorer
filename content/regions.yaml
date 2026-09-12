@@ -571,19 +571,42 @@ regions:
     group: steppe-east-asia
     thread: true
 
-  # `thread: true` since a real sourced edge now joins two of the
-  # region's own polities: Yamato's own record ends exactly where the
-  # Kamakura Shogunate's begins, in 1192.
-  - id: korea-and-japan
-    name: Korea and Japan
+  # Split from the former `korea-and-japan` shelf once the Japanese side
+  # alone reached seven polities and thirteen centuries (540-1868) — the
+  # same "overloads a region blurbed around smaller neighbouring states"
+  # problem that justified splitting the Rus' out of `eastern-europe`.
+  # Korea's own history forms an entirely separate thread that never
+  # touches this one; see `korea` below.
+  #
+  # `thread: true` since a real sourced edge joins two of the region's
+  # own polities: Yamato's own record ends exactly where the Kamakura
+  # Shogunate's begins, in 1192.
+  - id: japan
+    name: Japan
     blurb: >-
-      The two states that took Chinese writing, Chinese law and Chinese
-      Buddhism and stayed separate anyway. Both produced dynastic lines longer
-      than anything on the mainland — one court on the Korean peninsula ruled
-      for five hundred years, and the Japanese imperial house has never been
-      replaced, only sidelined.
+      The one imperial house never replaced, only sidelined: a single
+      continuous throne standing behind six changes of who actually
+      governed in its name, from the shoguns of Kamakura to the shoguns
+      of Edo.
     group: steppe-east-asia
     thread: true
+
+  # Added with `thread: false`, per the standing rule: a region enters
+  # with the flag off and it is flipped only once real sourced edges
+  # join two of its own polities. Empty at the time of writing — see
+  # `japan` above for why the two were split apart rather than sharing a
+  # shelf.
+  - id: korea
+    name: Korea
+    blurb: >-
+      The peninsula's own long argument over how many kingdoms it took
+      to become one: a founding state old enough to be legendary, three
+      rival kingdoms and the confederacy that never quite joined them,
+      a northern successor state historians nearly forgot, and,
+      eventually, the one dynasty that outlasted every rival before it
+      by five hundred years.
+    group: steppe-east-asia
+    thread: false
 
   - id: classical-india
     name: Classical India

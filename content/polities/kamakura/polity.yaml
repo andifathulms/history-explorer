@@ -1,5 +1,5 @@
 id: kamakura
-region: korea-and-japan
+region: japan
 
 name:
   latin: The Kamakura Shogunate
@@ -101,7 +101,6 @@ turning_points:
       succession, ending his own rule by force. Yoritomo's personal
       authority, it turned out, was not a thing his office could simply
       pass down whole.
-      ruler himself.
     source: griffis-1883
     contested: false
   - year: 1219
