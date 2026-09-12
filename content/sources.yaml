@@ -6248,3 +6248,62 @@ sources:
       therefore speak to. Used here for Joseon's span from Yi Sŏng-gye's
       1392 accession (carried over from Goryeo's own end) through the
       1897 proclamation of the Korean Empire. Out of copyright.
+
+  - id: yazdani-1960
+    kind: book
+    author: G. Yazdani (ed.)
+    title: "The Early History of the Deccan"
+    publisher: Oxford University Press / Government of Andhra Pradesh
+    year: 1960
+    note: >-
+      A multi-author edited scholarly volume, each dynasty covered by its
+      own specialist: the Satavahana chapter by C. V. Rao (Andhra
+      University), the Chalukyas of Badami and the Rashtrakutas by
+      K. A. Nilakanta Sastri and A. S. Altekar respectively, and the
+      Kakatiyas of Warangal by N. Venkataramanayya and C. Somasekhara
+      Sarma. Used here for the Satavahana, Chalukya (Badami), Rashtrakuta
+      and Kakatiya records. The Satavahana chapter is explicit about how
+      thin and contested the dynasty's own chronology is - competing
+      scholarly equations for the same king's accession differ by
+      decades - and about which parts of the Puranic tradition its own
+      author judges unreliable, including the popular claim that the
+      dynasty's founder personally destroyed the Kanva line at Magadha.
+
+  - id: gopalan-1928
+    kind: book
+    author: R. Gopalan
+    title: "History of the Pallavas of Kanchi"
+    publisher: University of Madras
+    year: 1928
+    note: >-
+      A dedicated dynastic history of the Pallavas from their obscure
+      origins through Narasimhavarman I's reign and the dynasty's end at
+      Chola hands under Aditya I and Aparajita. Used here for the Pallava
+      record's founding, Narasimhavarman I's reign, and its 9th-century
+      fall.
+
+  - id: sastri-1929-pandyan
+    kind: book
+    author: K. A. Nilakanta Sastri
+    title: "The Pandyan Kingdom: From the Earliest Times to the Sixteenth Century"
+    publisher: Luzac & Co.
+    year: 1929
+    note: >-
+      A dedicated dynastic history of the Pandya kingdom running from its
+      ancient beginnings through its medieval revival and the Delhi
+      Sultanate's destruction of it under Malik Kafur in 1311, into the
+      short-lived Madurai Sultanate and the kingdom's final absorption
+      into Vijayanagara. Used here for the Pandya record's span and end.
+
+  - id: coelho-1950
+    kind: book
+    author: William Coelho
+    title: "The Hoysala Vamsa"
+    publisher: Indian Historical Research Institute, St. Xavier's College
+    year: 1950
+    note: >-
+      A dedicated dynastic history of the Hoysalas from their obscure
+      hill-chieftain origins through Vishnuvardhana's and Vira Ballala
+      II's reigns to the dynasty's destruction under Vira Ballala III and
+      IV during the Delhi Sultanate's Deccan campaigns of the 1310s-40s.
+      Used here for the Hoysala record's founding, peak and end.

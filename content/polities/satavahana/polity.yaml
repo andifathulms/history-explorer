@@ -1,0 +1,114 @@
+id: satavahana
+region: classical-india
+
+name:
+  latin: Satavahana Empire
+  script: सातवाहन
+  script_lang: sa
+
+# yazdani-1960 (Rao's chapter) dates Simuka's own rise to prominence to
+# "about 271 B.C., a year after the accession of the great Asoka
+# Maurya," reading Asoka's own thirteenth rock edict - which names the
+# Andhras among frontier peoples still outside direct Mauryan rule at
+# that date - as confirming the timing. Rao explicitly rejects the more
+# popular Puranic tradition crediting Simuka himself with destroying
+# the Kanva dynasty at Magadha in 73 BCE, calling that specific claim
+# "unacceptable" on the evidence, though this corpus's own Kanva record
+# (sourced separately, to smith-1904) still treats an unnamed later
+# Andhra king as Susarman's killer in 27 BCE - a discrepancy in when,
+# and under which king, that conquest actually happened, left open by
+# both sources rather than resolved here.
+#
+# The dynasty's own last securely dated king, Pulumavi III, is placed
+# in Rao's own chronology as ruling "from 166 to at least A.D. 174" -
+# the source's own final word on Satavahana chronology, after which the
+# empire dissolved into successor territories rather than falling to
+# any single conqueror.
+span:
+  start: { min: -271, max: -271, source: yazdani-1960 }
+  end: { min: 174, max: 174, source: yazdani-1960 }
+
+identity: >-
+  An Andhra chieftain's confederation, welded together under a Mauryan
+  frontier lord's own shadow, that broke a Shaka satrapy at its height
+  and dissolved four centuries later into the same patchwork of local
+  successor states it had once absorbed.
+
+capitals:
+  - { name: Pratishthana (Paithan), source: yazdani-1960 }
+
+core_region: The upper Godavari basin, at its height extending across the Deccan from coast to coast
+
+rulers:
+  # Simuka's own reign length, twenty-three years, is stated directly;
+  # his end year is computed from that figure and his own attested
+  # start.
+  founder: { name: Simuka, reign: [-271, -248], source: yazdani-1960 }
+  # No secure absolute accession year is given for Gautamiputra
+  # Satakarni - competing scholarly equations cited in the source
+  # itself place it anywhere between A.D. 77 and A.D. 106 - though his
+  # inscriptions confirm a twenty-four-year reign. No reign range is
+  # given here rather than picking one contested equation over another.
+  peak: { name: "Gautamiputra Satakarni", source: yazdani-1960 }
+  last: { name: "Pulumavi III", reign: [166, 174], source: yazdani-1960 }
+
+scripts_and_languages:
+  administration: [Prakrit, Sanskrit]
+  writing_system: Brahmi
+
+# Gautamiputra Satakarni's own mother, Gautami Balashri, styled him in
+# her Nasik eulogy ekabamhanasa - "the unique protector of Brahmans," on
+# one reading, or "the sole Brahman," on another the source treats as
+# equally defensible - alongside a claim that he ended the mixing of
+# the four varnas his own conquests had disordered. Whichever reading
+# is right, the inscription grounds his own legitimacy explicitly in
+# upholding a religious and social order rather than in conquest alone.
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  legitimation: { values: [divine-sanction], source: yazdani-1960 }
+
+ended:
+  type: fragmentation
+  by: []
+  year: 174
+  source: yazdani-1960
+
+preceded_by_external: []
+succeeded_by_external: []
+
+turning_points:
+  - year: -271
+    type: succession-crisis
+    name: Simuka unites the Andhra chiefs
+    changed: >-
+      Where the Andhra country had been a loose confederation of
+      independent chiefs strong enough to stand outside direct Mauryan
+      rule, Simuka became the first to unite several of them behind a
+      single shared leadership - the beginning of a dynasty whose own
+      founder could not have known his family's rule would outlast the
+      empire that still nominally stood over him.
+    source: yazdani-1960
+    contested: false
+  - year: -27
+    type: battle
+    name: An unnamed Andhra king ends the Kanvas
+    changed: >-
+      A Satavahana king already ruling wide territory across the Deccan
+      killed Susarman, the last king of the Kanva dynasty at Pataliputra
+      - a conquest neither this source nor the record it closes out can
+      confidently attribute to any specific named Satavahana ruler,
+      though the popular tradition crediting the dynasty's own founder
+      Simuka with the deed is one this source explicitly judges
+      unreliable.
+    source: yazdani-1960
+    contested: true
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: yazdani-1960 }
+    religions_carried: { count: 0, items: [], source: yazdani-1960 }
+    successor_claims: { count: 0, items: [], source: yazdani-1960 }

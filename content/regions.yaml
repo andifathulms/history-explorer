@@ -615,7 +615,11 @@ regions:
       Maurya, Kushan and Gupta — the subcontinental empires that carried
       Buddhism out of India and set the terms of its classical culture.
     group: south-asia
-    thread: false
+    # `thread: true` since real sourced edges already joined several of
+    # the region's own polities - Nanda to Maurya, Maurya to Shunga,
+    # Shunga to Kanva - before the Satavahana record's own addition
+    # joined Kanva to Satavahana as a fourth link in the same chain.
+    thread: true
 
   - id: northern-india
     name: Northern India

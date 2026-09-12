@@ -3832,3 +3832,21 @@ edges:
            Shah prisoner to Gwalior."
     source: firishta-briggs-1829-v3
     contested: false
+
+  # Kanva's own record (smith-1904) names the killer only as "a king
+  # of the Andhra dynasty," while the Satavahana record's own source
+  # (yazdani-1960) explicitly rejects the popular tradition crediting
+  # the dynasty's founder Simuka with this specific act as unreliable.
+  # Neither source names the actual king involved; both are cited and
+  # the edge is marked contested rather than resolved.
+  - from: kanva
+    to: satavahana
+    type: conquered by
+    year: -27
+    note: "An unnamed Satavahana king, already ruling wide territory
+           across the Deccan, killed Susarman, the last Kanva king,
+           and probably held Magadha as a dependency for some period
+           afterward - on the evidence of coins rather than any
+           inscription found at Pataliputra itself."
+    source: smith-1904
+    contested: true

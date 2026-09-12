@@ -32,26 +32,12 @@ scripts_and_languages:
   writing_system: Brahmi
 
 ended:
-  type: internal usurpation
-  by: []
+  type: conquest
+  by: [satavahana]
   year: -27
   source: smith-1904
 
-# The Andhra, or Satavahana, dynasty that killed Susarman has no record here.
-# No coin or monument directly ties the Andhra kings to Pataliputra itself,
-# and Smith treats their control of Magadha as probable rather than certain -
-# the note says so rather than resolving it.
-succeeded_by_external:
-  - name: the Andhra (Satavahana) dynasty
-    type: conquered by
-    year: -27
-    note: >-
-      A king of the Andhra dynasty, already ruling wide territory across the
-      Deccan, killed Susarman and — on the evidence of coins of northern
-      type bearing the Andhra name Sata found alongside Kanva-era material,
-      rather than on any inscription found at Pataliputra itself — probably
-      held Magadha as a dependency for some period afterward.
-    source: smith-1904
+succeeded_by_external: []
 
 institutions:
   military_basis: null
