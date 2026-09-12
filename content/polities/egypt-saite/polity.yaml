@@ -1,0 +1,110 @@
+id: egypt-saite
+region: ancient-egypt
+
+name:
+  latin: "Egypt, Saite Period"
+  script: 𓆎𓅓𓏏𓊖
+  script_lang: egy
+
+# Shaw's figures, for consistency with this site's other Egyptian records.
+span:
+  start: { min: -664, max: -664, source: shaw-2000 }
+  end: { min: -525, max: -525, source: shaw-2000 }
+
+identity: >-
+  A Delta dynasty that talked its way out of Assyrian vassalage, reunified
+  Egypt more by adoption and marriage than by battle, and spent much of the
+  next century trying to look exactly like the Old Kingdom it could no
+  longer remember firsthand.
+
+capitals:
+  - { name: Sais, from: -664, source: shaw-2000 }
+
+core_region: The Nile valley from the Delta to the First Cataract, briefly extended into Nubia and the Levant
+
+rulers:
+  founder: { name: Psamtik I, reign: [-664, -610], source: shaw-2000 }
+  peak: { name: Amasis II, reign: [-570, -526], source: shaw-2000 }
+  last: { name: Psamtik III, reign: [-526, -525], source: shaw-2000 }
+
+scripts_and_languages:
+  administration: [Egyptian]
+  writing_system: Egyptian hieroglyphs, hieratic and the newly current demotic script
+
+# Conquest, on the same evidence this site's Achaemenid record already
+# cites for the same event from the winning side.
+ended:
+  type: conquest
+  by: [achaemenid]
+  year: -525
+  source: shaw-2000
+
+institutions:
+  # Ionian, Carian and later other Greek mercenaries, settled on land grants
+  # in the Delta from Psamtik I's own reign onward, alongside Egyptian
+  # troops raised in the older manner. The two never fully merged into one
+  # establishment, and the tension between them is what the dynasty's own
+  # civil war was fought over.
+  military_basis: { values: [mercenary, land-grant, conscript], source: kemp-2018 }
+  # Land tax as always, with trade added: Naucratis, a Greek trading
+  # settlement in the Delta chartered under this dynasty, gave the state a
+  # customs revenue no earlier Egyptian record consulted here reports by name.
+  revenue_basis: { values: [land-tax, trade-toll], source: kemp-2018 }
+  succession_rule: { values: [primogeniture], source: shaw-2000 }
+  legitimation: { values: [divine-sanction, descent], source: shaw-2000 }
+
+turning_points:
+  - year: -656
+    type: succession-crisis
+    name: "The adoption of Nitocris"
+    changed: >-
+      The maneuver was not new: a Kushite king's own daughter had been
+      adopted into the same office by the same Theban establishment a
+      century earlier, when Kush displaced the Libyan house that held it
+      before. What the repetition shows is that the God's Wife's office had
+      become a fixed mechanism for transferring Upper Egypt's loyalty
+      peacefully between whichever northern power currently held the
+      Delta — a procedure the temple itself supplied, used by both sides of
+      a rivalry the temple otherwise took no part in.
+    source: shaw-2000
+    contested: false
+  - year: -600
+    type: reform
+    name: "The archaising turn"
+    changed: >-
+      Unlike the Kushite kings just displaced from Thebes, who had staked
+      their own legitimacy on taking the pharaonic titulary publicly and by
+      name, nobody at Sais claimed descent from, or continuity with, any
+      specific earlier Egyptian dynasty. The reach was toward an antiquity
+      general enough that it belonged to no living claimant and could not
+      be disputed by one — legitimacy built out of an inheritance nobody
+      else was in a position to contest, rather than out of a title
+      somebody else might still be using.
+    source: shaw-2000
+    contested: false
+  - year: -570
+    type: succession-crisis
+    name: "Amasis overthrows Apries"
+    changed: >-
+      Every king of this dynasty before him had inherited the throne as a
+      son; Amasis took it as a general acclaimed by mutinous troops, with
+      no blood claim on the office he then held for forty-four years
+      without apparent challenge on that ground. A succession rule that had
+      held for three generations turned out to describe the normal case
+      and not a requirement, discarded the one time an army had the power
+      to discard it and a good enough reason to use that power.
+    source: shaw-2000
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    # One. Demotic, a cursive administrative script developed from hieratic
+    # and current from this dynasty onward, remained Egypt's everyday
+    # written language for the next thousand years, into the Roman period
+    # and the trilingual inscriptions demotic appears on alongside Greek and
+    # hieroglyphic.
+    descendant_scripts: { count: 1, items: [Demotic], source: shaw-2000 }
+    religions_carried: { count: 0, items: [], source: shaw-2000 }
+    successor_claims: { count: 0, items: [], source: shaw-2000 }
