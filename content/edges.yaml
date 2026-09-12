@@ -3520,3 +3520,14 @@ edges:
            territory and population."
     source: fletcher-1836
     contested: false
+
+  - from: hungary
+    to: transylvania
+    type: seceded from
+    year: 1541
+    note: "John Zapolya's own line held the eastern third of the old
+           kingdom as an Ottoman vassal principality after Buda's fall,
+           ruling Transylvania in practice as a separate state under
+           Ottoman protection rather than as a rump of Hungary proper."
+    source: godkin-1853
+    contested: false

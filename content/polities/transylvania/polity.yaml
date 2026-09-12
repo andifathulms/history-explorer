@@ -1,0 +1,149 @@
+id: transylvania
+region: eastern-europe
+
+name:
+  latin: The Principality of Transylvania
+  script: Erdélyi Fejedelemség
+  script_lang: hu
+
+# 1541 is Suleiman's investiture of the infant John Sigismund Zapolya
+# with Transylvania as an Ottoman tributary, after Ottoman forces seized
+# Buda by a ruse and required Queen Isabella and her son's guardians to
+# renounce all claim to the wider Hungarian throne in exchange - the
+# point at which a Habsburg-Ottoman-Transylvanian tripartite division of
+# the old kingdom of Hungary, a different record in this region,
+# actually took its lasting shape.
+#
+# 1691 is the treaty concluded that November, which godkin-1853 itself
+# calls the most important in the house of Austria's history: Hungary,
+# Slavonia and Transylvania were all made hereditary Habsburg
+# possessions, ending the century and a half in which Transylvania's own
+# princes had ruled - under Ottoman protection more often than not - as
+# something closer to an independent state than a mere Austrian
+# province.
+span:
+  start: { min: 1541, max: 1541, source: godkin-1853 }
+  end: { min: 1691, max: 1691, source: godkin-1853 }
+
+identity: >-
+  The easternmost third of the old Hungarian kingdom, carved out for an
+  infant king's cradle by the same Ottoman army that had just seized
+  his capital by trickery, ruled for a century and a half by elected
+  princes who balanced Ottoman protection against Habsburg pressure
+  from the other direction, and folded at last into the House of
+  Austria's own hereditary possessions in the same treaty that broke
+  Ottoman power in Europe for good.
+
+capitals:
+  - { name: Gyulafehérvár, source: godkin-1853 }
+
+core_region: The Carpathian arc and the Transylvanian plateau, east of the Tisza and south of Maramureș
+
+rulers:
+  # No death year for John Sigismund is given by the source.
+  founder: { name: "John Sigismund Zápolya", source: godkin-1853 }
+  peak: { name: Gabriel Bethlen, reign: [1613, 1629], source: godkin-1853 }
+  # No accession year for Apafi is given by the source.
+  last: { name: "Michael Apafi I", source: godkin-1853 }
+
+scripts_and_languages:
+  administration: [Latin, Hungarian]
+  writing_system: Latin script
+
+# Not a conquest in the ordinary sense: no siege or battle ended
+# Transylvania's own princely line in 1691. A treaty between Austria and
+# the Ottomans, made without any Transylvanian delegate a full party to
+# it, converted a state that had spent a century and a half balancing
+# two suzerains into a hereditary Habsburg possession outright.
+# `gradual absorption` is the least wrong of the six values in the
+# closed vocabulary for an ending negotiated over the principality's own
+# head. `by` is empty since Austria - the Habsburg Monarchy - has no
+# record of its own here yet.
+ended:
+  type: gradual absorption
+  by: []
+  year: 1691
+  source: godkin-1853
+
+preceded_by_external: []
+
+succeeded_by_external:
+  - name: The Habsburg Monarchy
+    type: absorbed remnants of
+    year: 1691
+    note: >-
+      The treaty concluded in November 1691 made Transylvania, along
+      with Hungary and Slavonia, hereditary in the House of Austria - a
+      settlement reached between Vienna and the Ottoman Porte with no
+      Transylvanian estate a full party to the terms that ended their
+      own principality's separate existence.
+    source: godkin-1853
+
+institutions:
+  military_basis: { values: [client-levy, mercenary], source: godkin-1853 }
+  revenue_basis: { values: [land-tax, tribute], source: godkin-1853 }
+  # `election` describes how a prince was chosen by the Transylvanian
+  # estates in the ordinary case; `external-nomination` describes how
+  # often that choice was made, confirmed, overridden or simply imposed
+  # by the Ottoman Porte instead - Bocskai's own royal diadem, sent by
+  # the sultan and pointedly declined, is the clearest single instance of
+  # the difference between the two.
+  succession_rule: { values: [election, external-nomination], source: godkin-1853 }
+  legitimation: { values: [descent, investiture], source: godkin-1853 }
+
+turning_points:
+  - year: 1541
+    type: treaty
+    name: Investiture as an Ottoman tributary
+    changed: >-
+      An infant already crowned king of a wider Hungary was made, by
+      the same army that had just seized his own capital under cover of
+      a friendly banquet, into the tributary prince of its eastern third
+      instead - his mother required to surrender the crown regalia and
+      remove herself and her son to a much smaller domain in exchange
+      for peace.
+    source: godkin-1853
+    contested: false
+  - year: 1570
+    type: reform
+    name: John Sigismund renounces the royal title
+    changed: >-
+      Rather than continue an unwinnable contest for the wider Hungarian
+      crown, the same John Sigismund agreed by treaty to take the style
+      of prince rather than king and to hold Transylvania itself as his
+      own patrimony - the formal moment an eastern rump of the old
+      kingdom became a principality with no further claim to the whole.
+    source: godkin-1853
+    contested: false
+  - year: 1605
+    type: reform
+    name: Bocskai declines a sultan's crown
+    changed: >-
+      Offered a royal diadem, a club and a standard by the Ottoman
+      sultan himself after driving the Austrians from the principality,
+      Bocskai accepted the honour as a token of goodwill but refused the
+      title of king outright, judging that authority received directly
+      from the Porte would leave him openly dependent on it rather than
+      answerable to his own country's nobility.
+    source: godkin-1853
+    contested: false
+  - year: 1691
+    type: treaty
+    name: Made hereditary in the House of Austria
+    changed: >-
+      A peace settlement between Vienna and the Porte, concluded without
+      any Transylvanian delegate a full party to its terms, converted an
+      elected principality that had balanced two suzerains against each
+      other into permanent, outright Austrian possession - the single
+      treaty godkin-1853 credits with breaking Ottoman power in Europe
+      for good.
+    source: godkin-1853
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: godkin-1853 }
+    religions_carried: { count: 0, items: [], source: godkin-1853 }
+    successor_claims: { count: 0, items: [], source: godkin-1853 }

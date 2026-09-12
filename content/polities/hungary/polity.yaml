@@ -55,7 +55,7 @@ scripts_and_languages:
 # none of the three successors has a record here yet.
 ended:
   type: fragmentation
-  by: []
+  by: [transylvania]
   year: 1526
   source: godkin-1853
 
@@ -80,15 +80,6 @@ succeeded_by_external:
       kingdom's central plain directly as a frontier province for the
       following century and a half, ending the medieval capital's
       standing as any Hungarian ruler's own seat.
-    source: godkin-1853
-  - name: The Principality of Transylvania
-    type: seceded from
-    year: 1541
-    note: >-
-      John Zapolya's own line held the eastern third of the old kingdom
-      as an Ottoman vassal principality after Buda's fall, ruling
-      Transylvania in practice as a separate state under Ottoman
-      protection rather than as a rump of Hungary proper.
     source: godkin-1853
 
 institutions:
