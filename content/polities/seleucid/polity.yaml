@@ -110,6 +110,21 @@ turning_points:
       documented from the inside, by the people who did it, which is why a
       minor rebellion in a small province is better recorded than the loss of
       Bactria and Parthia together.
+    source: first-maccabees-wace
+    contested: false
+  # No battle: Pompey simply declined to recognise the surviving claimant.
+  - year: -63
+    type: succession-crisis
+    name: "Pompey annexes Syria"
+    changed: >-
+      Pompey ended a century and a half of dynastic war by declining to
+      recognise the last claimant and annexing Syria as a Roman province.
+      There was no battle and no single catastrophe to name: Magnesia had
+      cost the money, the loss of the east had happened while nobody was
+      looking, and generations of claimants had exhausted what remained. A
+      state can be beaten to death slowly enough that no historian can name
+      the blow, and this is the point at which the arithmetic finally ran
+      out.
     source: chi-3
     contested: false
 
