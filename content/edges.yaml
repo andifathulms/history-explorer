@@ -4030,3 +4030,56 @@ edges:
            supported claim."
     source: suny-1994
     contested: true
+
+  # ---- Rus' and Muscovy: the Mongol relationship, drawn rather than implied ----
+
+  - from: kievan-rus
+    to: mongol
+    type: conquered by
+    year: 1240
+    note: "Batu's army destroyed Kyiv in December 1240, ending a Rus' that
+           had already spent seven decades fragmented among competing
+           princely lines. The khanate that would administer the
+           conquered Rus' lands through tribute, the Golden Horde, does
+           not formally organize as its own entity for another two years -
+           in 1240 the army at Kyiv was still a unified Chinggisid force."
+    source: morgan-2007
+    contested: false
+
+  - from: golden-horde
+    to: muscovy
+    type: vassal of
+    year: 1263
+    note: "Alexander Nevsky's son Daniil received Moscow as an appanage
+           the same year the Horde's own tribute and census system was
+           already running across the Rus' lands; Muscovy spent its first
+           two centuries as a tribute-collecting client of Sarai before
+           Ivan III's 1480 stand on the Ugra ended the arrangement without
+           a battle."
+    source: kliuchevsky-1912
+    contested: false
+
+  - from: muscovy
+    to: golden-horde
+    type: seceded from
+    year: 1480
+    note: "Ivan III and the khan Akhmat faced each other across the Ugra
+           river for weeks in the autumn of 1480, and Akhmat withdrew
+           without forcing a battle - the year Russian historiography has
+           long treated as the end of tribute, even though the Horde's own
+           practical hold over Muscovy had already been loosening for a
+           generation."
+    source: kliuchevsky-1912
+    contested: false
+
+  - from: novgorod
+    to: muscovy
+    type: conquered by
+    year: 1471
+    note: "Ivan III's armies defeated Novgorod's forces at the Shelon and,
+           through the rest of the 1470s, brought the republic and its
+           vast northern hinterland under direct Muscovite rule, deporting
+           thousands of Novgorodian boyars and merchants and resettling
+           their land with Muscovite servitors."
+    source: kliuchevsky-1912
+    contested: false

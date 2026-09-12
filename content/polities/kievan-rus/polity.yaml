@@ -48,7 +48,7 @@ scripts_and_languages:
 
 ended:
   type: conquest
-  by: []
+  by: [mongol]
   year: 1240
   source: vernadsky-1948
 
@@ -71,20 +71,13 @@ preceded_by_external:
       is that Kyiv's own polity begins with Oleg's seizure of it.
     source: vernadsky-1948
 
-succeeded_by_external:
-  - name: The Mongol-ruled Rus' principalities
-    type: conquered by
-    year: 1240
-    note: >-
-      Batu's army destroyed Kyiv in December 1240 after a fragmented Rus'
-      had already spent seven decades under competing princely lines
-      centred variously on Kyiv, Suzdal-Vladimir, Galicia-Volhynia and
-      Novgorod. None of those lines claimed to be founding something new;
-      each claimed descent from the same house Riurik's tradition begins.
-      What followed was two and a half centuries of tribute to the Golden
-      Horde, administered through princes the khans confirmed rather than
-      appointed.
-    source: vernadsky-1948
+# The conquest itself is now a real edge, to the Mongol Empire's own record
+# (not yet the Golden Horde specifically - that khanate's own span starts in
+# 1242, two years after Kyiv fell, and Batu's western campaign was still a
+# unified imperial army under Chinggisid command in 1240). What followed -
+# the fragmented Rus' principalities under Golden Horde tribute - still has
+# no single record of its own here.
+succeeded_by_external: []
 
 institutions:
   # Levies raised by a prince's own druzhina — his sworn retinue — reinforced

@@ -56,10 +56,11 @@ scripts_and_languages:
 # republic's own chronicle records its citizens receiving "their liberty"
 # back from him afterward on his terms - a settlement more than a sack.
 # Formal annexation is not covered by the source this record is drafted
-# from, so `by` is empty rather than guessed.
+# from, but Muscovy's own record (kliuchevsky-1912) names the conqueror
+# directly - see the edge to it.
 ended:
   type: conquest
-  by: []
+  by: [muscovy]
   year: 1471
   source: forbes-1914
 
