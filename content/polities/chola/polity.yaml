@@ -1,0 +1,155 @@
+id: chola
+region: the-deccan
+
+name:
+  latin: Chola Empire
+  script: சோழர்
+  script_lang: ta
+
+# nilakanta-sastri-1955 dates Vijayalaya's capture of Tanjore, seized
+# while nominally acting for his Pallava overlord, to "sometime before
+# A.D. 850" - calculated backward from the securely dated accession of
+# his grandson Parantaka I (907). The source calls this the moment a
+# minor vassal chieftain's "vicarious victory" became, unknown to
+# either Vijayalaya or the Pallava he served, "the beginning of one of
+# the most splendid empires known to Indian History."
+#
+# 1279 is the last regnal year attested in Rajendra III's own
+# inscriptions, matching the source's account of his defeat, alongside
+# his ally Vira Ramanatha, by the Pandya king Maravarman Kulasekhara -
+# after which no further Chola inscription is known.
+span:
+  start: { min: 850, max: 850, source: nilakanta-sastri-1955 }
+  end: { min: 1279, max: 1279, source: nilakanta-sastri-1955 }
+
+identity: >-
+  A Pallava vassal's stolen city that grew into a Tamil empire, seized
+  Ceylon's own royal regalia, marched an army to the Ganges for its
+  water alone, and sent a fleet to Sumatra before fading into a
+  revived Pandya kingdom's shadow.
+
+capitals:
+  - { name: Tanjore (Thanjavur), from: 850, source: nilakanta-sastri-1955 }
+  - { name: Gangaikonda Cholapuram, from: 1025, source: nilakanta-sastri-1955 }
+
+core_region: The Kaveri river delta and the Coromandel coast, at its height most of peninsular India and northern Ceylon
+
+rulers:
+  # No precise accession year is given for Vijayalaya himself; the
+  # source dates his rule only by working backward from Parantaka I's
+  # own securely dated 907 accession.
+  founder: { name: Vijayalaya, source: nilakanta-sastri-1955 }
+  peak: { name: "Rajendra I", reign: [1014, 1044], source: nilakanta-sastri-1955 }
+  last: { name: "Rajendra III", reign: [1246, 1279], source: nilakanta-sastri-1955 }
+
+scripts_and_languages:
+  administration: [Tamil, Sanskrit]
+  writing_system: Tamil script
+
+# Descent held the throne within the Vijayalaya line for over four
+# centuries, formalised by a recurring practice the source documents
+# in detail: an heir apparent was named and associated in government -
+# assuming a regnal title of his own - well before his father's death,
+# rather than succeeding only at the moment of it. Rajaraja I's own
+# building of the Rajarajesvara temple at Tanjore, and a contemporary
+# verse declaring that Visnu himself would be "born as Rajaraja," tie
+# Chola kingship directly to divine sanction as well.
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: { values: [nomination], source: nilakanta-sastri-1955 }
+  legitimation: { values: [descent, divine-sanction], source: nilakanta-sastri-1955 }
+
+ended:
+  type: conquest
+  by: []
+  year: 1279
+  source: nilakanta-sastri-1955
+
+preceded_by_external: []
+
+succeeded_by_external:
+  - name: the revived Pandya kingdom
+    type: conquered by
+    year: 1279
+    note: >-
+      Under Jatavarman Sundara Pandya I and his successor Maravarman
+      Kulasekhara, a Pandya dynasty the Cholas had dominated for
+      generations reversed the relationship entirely, defeating
+      Rajendra III and his ally Vira Ramanatha in battle and ending the
+      last trace of Chola inscriptional authority.
+    source: nilakanta-sastri-1955
+
+turning_points:
+  - year: 850
+    type: battle
+    name: The capture of Tanjore
+    changed: >-
+      Fighting on behalf of his Pallava overlord against a Pandya
+      invasion, the minor chieftain Vijayalaya took Tanjore from the
+      Muttaraiyar rulers who had held it and kept it for himself rather
+      than returning it - a subordinate's opportunism that the source
+      calls the true beginning of Chola power, whatever service it was
+      dressed up as at the time.
+    source: nilakanta-sastri-1955
+    contested: false
+  - year: 1017
+    type: battle
+    name: The conquest of Ceylon
+    changed: >-
+      Completing an invasion his father Rajaraja I had begun, Rajendra
+      I's forces cornered the Sinhalese king and seized the Pandya
+      regalia the Ceylonese court had been holding for safekeeping,
+      reducing the greater part of the island to a Chola province and
+      ending, for a generation, any Sinhalese claim to full
+      independence.
+    source: nilakanta-sastri-1955
+    contested: false
+  - year: 1023
+    type: battle
+    name: The Ganges expedition
+    changed: >-
+      A Chola army under one of Rajendra's generals cut a path north
+      through Kalinga, Orissa and Bengal, defeating a string of local
+      rulers and carrying Ganges water back to a
+      new capital built to receive it - a raid less than two years long
+      that gave Rajendra a title commemorating the feat and demonstrated
+      Chola reach far beyond any territory the empire actually intended
+      to hold.
+    source: nilakanta-sastri-1955
+    contested: false
+  - year: 1025
+    type: siege
+    name: The Srivijaya raid
+    changed: >-
+      A Chola naval expedition struck the ports of the Melaka strait,
+      including Srivijaya's own capital, ending decades of friendly
+      relations attested by a Sailendra king's own Buddhist monastery
+      built at Negapatam under Rajaraja I's permission less than twenty
+      years before.
+    source: kulke-2009
+    contested: false
+  - year: 1279
+    type: battle
+    name: The defeat by Maravarman Kulasekhara
+    changed: >-
+      A Chola power that had spent two centuries treating Pandya
+      territory as tributary was itself defeated by a revived Pandya
+      kingdom under Maravarman Kulasekhara, closing out the dynasty's
+      own inscriptional record entirely - an empire that had once sent
+      a fleet to Sumatra ending without a recorded battle for its own
+      capital.
+    source: nilakanta-sastri-1955
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: nilakanta-sastri-1955 }
+    # Following the conquest of Ceylon, Siva and Vishnu devales built in
+    # Tamil Cola architectural style are attested around Polonnaruwa - a
+    # conquest followed by durable religious institution-building, per
+    # coding-rules.md part two.
+    religions_carried: { count: 2, items: [Shaivism, Vaishnavism], source: nilakanta-sastri-1955 }
+    successor_claims: { count: 0, items: [], source: nilakanta-sastri-1955 }
