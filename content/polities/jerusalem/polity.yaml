@@ -72,6 +72,24 @@ institutions:
   legitimation: { values: [conquest, divine-sanction], source: barber-2012 }
 
 turning_points:
+  # 1139 is Innocent II's bull for the Temple, the first and best-dated step
+  # of a shift that took the Hospital most of the following generation to
+  # complete; the point is the mechanism rather than the single year, so it
+  # is marked contested.
+  - year: 1139
+    type: reform
+    name: "The orders exempted"
+    changed: >-
+      Innocent II's bull for the Temple placed it outside episcopal and royal
+      authority and answerable to the pope alone; the Hospital reached a
+      comparable position within the following generation. What began as a
+      guard for pilgrims and a hospital became a permanently embodied
+      professional force neither the crown nor any bishop could command, and
+      by the thirteenth century it was the force the kingdom could least do
+      without. The orders would go on to back opposite sides in the
+      kingdom's own succession disputes.
+    source: barber-2012
+    contested: true
   - year: 1187
     type: battle
     name: Hattin
