@@ -1,0 +1,183 @@
+id: kievan-rus
+region: rus-and-muscovy
+
+name:
+  latin: Kievan Rus'
+  script: Кыѥвьска Русь
+  script_lang: orv
+
+# 878 is Oleg's capture of Kyiv from two of his own countrymen, Askold and Dir,
+# and the point Vernadsky's own periodization takes as the founding of a state
+# based there rather than at Novgorod. The looser Rus' polity around Novgorod
+# under Rurik is a few years older still and is not securely datable as a
+# state in its own right.
+#
+# 1240 is the Mongol destruction of Kyiv under Batu. By then the "Kievan"
+# period was already long over in practice: Andrei of Suzdal had sacked the
+# city himself in 1169, and for most of the twelfth century Rus' was a
+# federation of competing princely lines rather than a single realm with one
+# capital. 1240 is kept as the end because it is the point nobody after it
+# tried to reassemble what had existed, rather than because unity survived
+# that long.
+span:
+  start: { min: 878, max: 878, source: vernadsky-1948 }
+  end: { min: 1240, max: 1240, source: vernadsky-1948 }
+
+identity: >-
+  The river-trade federation of Slavic and Varangian princes centred on Kyiv,
+  which took its religion from Constantinople, wrote its own law before most
+  of the states that outlasted it, and was destroyed by the Mongols after a
+  century of quarrelling among its own princes had already broken it apart.
+
+capitals:
+  - { name: Kyiv, script: Кыѥвъ, from: 878, source: vernadsky-1948 }
+
+core_region: The Dnieper river route from Novgorod to the Black Sea, and the forest-steppe frontier on either side of it
+
+rulers:
+  founder: { name: Oleg, reign: [878, 913], source: vernadsky-1948 }
+  peak: { name: "Iaroslav the Wise (Yaroslav Vladimirovich)", reign: [1019, 1054], source: vernadsky-1948 }
+  # Null. By 1240 no single prince held what had once been the Kievan realm;
+  # the city itself was governed for its absent overlord Michael of Chernigov
+  # by a boyar voivode when Batu's army arrived, and the Rus' principalities
+  # were already a federation of rival lines rather than a single throne.
+  last: { name: null, source: null }
+
+scripts_and_languages:
+  administration: [Old East Slavic, Church Slavonic]
+  writing_system: Cyrillic, adopted with Christianity from Bulgaria and Byzantium
+
+ended:
+  type: conquest
+  by: []
+  year: 1240
+  source: vernadsky-1948
+
+# Both real. Novgorod under Riurik has no record here yet — it is a shorter
+# and looser polity around a different city that this same region will carry
+# in its own right — and the principalities that outlived Kyiv's fall have no
+# records here yet either, though at least one of them will.
+preceded_by_external:
+  - name: "Riurik's Novgorod"
+    year: null
+    note: >-
+      The tradition the Book of Annals gives is that in 862 the Slavic and
+      Finnic tribes of the north, unable to keep peace among themselves,
+      invited a Varangian chieftain named Riurik and his brothers to rule
+      them, and that Riurik settled at Novgorod. Oleg, ruling in Riurik's
+      name after his death, took Kyiv from two Varangians who held it
+      independently and moved the centre of gravity south. Whether Riurik
+      himself is a historical figure or a founding legend built around a
+      real Varangian presence in the north is disputed; what is not disputed
+      is that Kyiv's own polity begins with Oleg's seizure of it.
+    source: vernadsky-1948
+
+succeeded_by_external:
+  - name: The Mongol-ruled Rus' principalities
+    type: conquered by
+    year: 1240
+    note: >-
+      Batu's army destroyed Kyiv in December 1240 after a fragmented Rus'
+      had already spent seven decades under competing princely lines
+      centred variously on Kyiv, Suzdal-Vladimir, Galicia-Volhynia and
+      Novgorod. None of those lines claimed to be founding something new;
+      each claimed descent from the same house Riurik's tradition begins.
+      What followed was two and a half centuries of tribute to the Golden
+      Horde, administered through princes the khans confirmed rather than
+      appointed.
+    source: vernadsky-1948
+
+institutions:
+  # Levies raised by a prince's own druzhina — his sworn retinue — reinforced
+  # by hired Varangian bands and, when needed, by treaties with steppe
+  # peoples such as the Patzinaks. There was no standing force separate from
+  # a given prince's own household troops.
+  military_basis: { values: [client-levy, mercenary], source: vernadsky-1948 }
+  # Tribute collected on an annual circuit — the poliud'e — through the
+  # territories owing allegiance to Kyiv, supplemented by tolls on the river
+  # trade the whole federation existed to run.
+  revenue_basis: { values: [tribute, trade-toll], source: vernadsky-1948 }
+  # `factional` rather than null. There was a real rule in force for most of
+  # the eleventh and twelfth centuries — seniority within the whole princely
+  # house, with Kyiv going to its senior member and lesser cities rotating
+  # among the rest — but the rule was contested in practice as often as it
+  # was followed, and its own unworkability is a large part of why the
+  # federation fragmented.
+  succession_rule: { values: [factional], source: vernadsky-1948 }
+  legitimation: { values: [descent, divine-sanction], source: vernadsky-1948 }
+
+turning_points:
+  - year: 878
+    type: siege
+    name: Oleg takes Kyiv
+    changed: >-
+      A regent governing in an infant heir's name pushed south and seized a
+      river town two of his own countrymen had already claimed for
+      themselves - a decision that traded the north's Baltic connections
+      for a capital sitting on the one route that actually paid, and
+      permanently shifted the whole enterprise's centre of gravity there.
+    source: vernadsky-1948
+    contested: false
+  - year: 988
+    type: conversion
+    name: Vladimir's baptism
+    changed: >-
+      Vladimir agreed to be baptised and to marry a reigning Byzantine
+      emperor's own sister - a marriage no Byzantine princess "born in the
+      purple" had ever before been given to a foreign ruler - in exchange
+      for sending six thousand of his own Varangian troops to save that
+      emperor's throne. Christianity arrived at Kyiv as the price of a
+      military rescue, not as a missionary's success.
+    source: vernadsky-1948
+    contested: false
+  - year: 1054
+    type: succession-crisis
+    name: Iaroslav divides the realm
+    changed: >-
+      A dying ruler chose collective inheritance over a single heir,
+      betting that a family willing to share seniority in turn would keep
+      the peace better than a single winner and several disinherited
+      brothers would. The bet assumed patience the family did not
+      actually have.
+    source: vernadsky-1948
+    contested: false
+  - year: 1169
+    type: siege
+    name: Andrei of Suzdal sacks Kyiv
+    changed: >-
+      A prince who had just won the whole federation's most senior seat by
+      force chose not to sit in it, going home to rule from a capital of
+      his own instead - proof, more than any defeat could have been, that
+      the seniority Kyiv still nominally held was already worth less than
+      the northeastern power actually capable of taking it whenever it
+      wanted to.
+    source: vernadsky-1948
+    contested: false
+  - year: 1240
+    type: siege
+    name: Batu takes Kyiv
+    changed: >-
+      A capital that had already lost every real contest for the whole
+      federation's political weight lost the one contest that ended it as
+      a city at all - and the princely house it had once headed spent the
+      following two and a half centuries needing a foreign court's
+      approval for a title its own genealogy had always been enough to
+      grant by itself.
+    source: vernadsky-1948
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    # One. Cyrillic script arrived with Christianity from Bulgaria and
+    # Byzantium and was not itself a Kyivan invention, so the count belongs
+    # on the record of the alphabet's own origin rather than here - the same
+    # reasoning applied everywhere else in this corpus an adaptation is
+    # involved.
+    descendant_scripts: { count: 0, items: [], source: vernadsky-1948 }
+    # One. Orthodox Christianity, received from Constantinople in 988,
+    # was carried onward as every Rus' successor principality's own
+    # religion for the rest of their history.
+    religions_carried: { count: 1, items: [Orthodox Christianity], source: vernadsky-1948 }
+    successor_claims: { count: 0, items: [], source: vernadsky-1948 }
