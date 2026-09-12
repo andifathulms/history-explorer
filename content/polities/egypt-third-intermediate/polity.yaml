@@ -1,0 +1,121 @@
+id: egypt-third-intermediate
+region: ancient-egypt
+
+name:
+  latin: "Egypt, Third Intermediate Period"
+  script: 𓆎𓅓𓏏𓊖
+  script_lang: egy
+
+# Shaw's figures, for consistency with this site's other Egyptian records.
+# The lower bound is the division of the New Kingdom into a Tanite throne
+# and a Theban priesthood; the upper bound is Piye's capture of Memphis,
+# which this site's Kushite record treats as the point at which the country
+# most of this period describes stops being divided at all.
+span:
+  start: { min: -1077, max: -1077, source: shaw-2000 }
+  end: { min: -728, max: -728, source: shaw-2000 }
+
+identity: >-
+  Three and a half centuries in which Egypt was ruled from more than one
+  throne at once, by kings some of whose own great-grandfathers had arrived
+  as Libyan mercenaries rather than been born to the office at all.
+
+capitals:
+  - { name: Tanis, from: -1077, source: shaw-2000 }
+
+core_region: >-
+  The Nile Delta and Middle Egypt from Tanis, contested for most of the
+  period with an independent or semi-independent Thebes
+
+rulers:
+  founder: { name: Smendes, reign: [-1077, -1051], source: shaw-2000 }
+  peak: { name: Shoshenq I, reign: [-945, -924], source: shaw-2000 }
+  # The last king to hold the old Tanite throne in name, ruling by this point
+  # over little more than the eastern Delta; he is one of at least four kings
+  # reigning in different parts of Egypt at once when Piye arrived, and the
+  # first of them named in Piye's own account as coming to submit.
+  last: { name: Osorkon IV, reign: [-730, -716], source: shaw-2000 }
+
+scripts_and_languages:
+  administration: [Egyptian]
+  writing_system: Egyptian hieroglyphs and hieratic
+
+# Conquest. Piye's own stela, the fullest surviving account of the period's
+# end, names each of the rival Delta kings individually and describes their
+# submission one by one; there is no reading of that document in which
+# Egypt was not, by its end, ruled from outside for the first time since
+# the Hyksos.
+ended:
+  type: conquest
+  by: [kush]
+  year: -728
+  source: shaw-2000
+
+institutions:
+  # No standing Egyptian army answering to one throne: the Delta's real
+  # military manpower by this period was organised through Libyan chieftains
+  # settled on land grants since the late New Kingdom, each commanding his
+  # own following and owing personal loyalty to whichever king he backed
+  # rather than to the office of kingship itself.
+  military_basis: { values: [land-grant, client-levy], source: kemp-2018 }
+  revenue_basis: { values: [land-tax], source: kemp-2018 }
+  # Not fixed. The Twenty-first Dynasty passed by marriage between the
+  # Tanite and Theban houses as much as by descent; the Twenty-second was
+  # founded by a coup rather than an inherited claim, and the multiplication
+  # of rival kings by Piye's day looks far more like several strongmen each
+  # asserting the same crown than like a single family's succession breaking
+  # down. No rule holds across the period, not even in the tanistry or
+  # factional sense of a fixed process contested by rivals.
+  succession_rule: null
+  legitimation: { values: [divine-sanction, descent], source: shaw-2000 }
+
+turning_points:
+  - year: -1075
+    type: succession-crisis
+    name: "Herihor's kingship"
+    changed: >-
+      Egyptian kingship's own theology held that Amun was the source every
+      pharaoh's authority ultimately ran back to; an office created to
+      administer that god's estate on the king's behalf claiming the
+      kingship for itself is not a rival power emerging from outside the
+      system but the system's own logic turned back on the throne that had
+      built it. No later Theban high priest ever fully surrendered the
+      precedent this one set, which is why the split it opened outlived
+      every attempt made to close it.
+    source: shaw-2000
+    contested: true
+  - year: -945
+    type: succession-crisis
+    name: "Shoshenq I's accession"
+    changed: >-
+      What Shoshenq achieved was a reunification held together entirely by
+      family appointment rather than by any office or law that would
+      survive him — a son placed at Thebes, cousins holding chieftaincies
+      across the Delta on personal loyalty to him specifically. It is
+      exactly the same mechanism, run in reverse, that lets his own line's
+      rivals multiply into separate kings so easily two centuries later: a
+      kingship assembled by kinship networks can be disassembled by the
+      same ones.
+    source: shaw-2000
+    contested: false
+  - year: -925
+    type: battle
+    name: "The Levantine campaign"
+    changed: >-
+      Whatever the campaign the Bubastite Portal at Karnak records actually
+      achieved on the ground, its lasting effect was on Egypt's own royal
+      self-image rather than on the Levant: it let a dynasty founded two
+      generations earlier by a Libyan military family present itself, on
+      its own temple wall, in exactly the conquering pose New Kingdom
+      pharaohs had used for the same god three centuries before. Legitimacy
+      recently acquired was being asserted in the oldest available idiom.
+    source: shaw-2000
+    contested: true
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: shaw-2000 }
+    religions_carried: { count: 0, items: [], source: shaw-2000 }
+    successor_claims: { count: 0, items: [], source: shaw-2000 }
