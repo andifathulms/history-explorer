@@ -1,0 +1,139 @@
+id: vijayanagara
+region: the-deccan
+
+name:
+  latin: Vijayanagara
+  script: విజయనగరం
+  script_lang: te
+
+# sewell-1900 dates the founding to 1336, cross-checking an inscription
+# of Harihara I dated 1340 against Ibn Battuta's account of a 1334
+# Delhi Sultanate campaign that the Hindu chronicles describe from the
+# other side. Two brothers who had served as minister and treasurer at
+# Anegundi, Harihara and Bukka, were raised to rule the restored
+# territory after the Sultan's own governor failed to hold it, and
+# built a new capital across the river.
+#
+# sewell-1900 states outright that "the empire fell in 1565" at the
+# battle of Talikota, where a coalition of Deccan sultanates killed the
+# regent Rama Raya and destroyed the capital over five months. A
+# titular line of "Rayas" continued at Chandragiri and Vellore for
+# generations afterward - the source's own list of dated inscriptions
+# runs to 1793 - but Sewell gives no comparable single date or event
+# marking the extinction of that line, only a kingdom reduced, within a
+# generation of Talikota, to a name a provincial governor did not even
+# bother using for the town built on land it had granted. The span
+# below ends where the source's own narrative of the empire ends, not
+# where the titular line finally petered out.
+span:
+  start: { min: 1336, max: 1336, source: sewell-1900 }
+  end: { min: 1565, max: 1565, source: sewell-1900 }
+
+identity: >-
+  Two brothers raised to rule after their chiefdom fell to Delhi, who
+  built a city a Persian envoy called unlike anything he had seen,
+  broken in an afternoon two centuries later by the Deccan sultanates
+  it had held at bay.
+
+capitals:
+  - { name: "Vijayanagara (Hampi)", from: 1336, source: sewell-1900 }
+
+core_region: The Tungabhadra river basin, at its height most of peninsular India south of the Krishna river
+
+rulers:
+  # No precise death date is given for Harihara I; the source estimates
+  # it "in or about the year A.D. 1343" from the chronicled reign
+  # length of his successor and brother, Bukka I.
+  founder: { name: "Harihara I", reign: [1336, 1343], source: sewell-1900 }
+  peak: { name: "Krishna Deva Raya", reign: [1509, 1530], source: sewell-1900 }
+  # Sadasiva held the title of Raya throughout the empire's final
+  # collapse, though the source is explicit that Rama Raya, styled his
+  # minister, held all real power and led the army destroyed at
+  # Talikota.
+  last: { name: Sadasiva, reign: [1542, 1565], source: sewell-1900 }
+
+scripts_and_languages:
+  administration: [Kannada, Telugu, Sanskrit]
+  writing_system: Kannada and Telugu scripts
+
+# Descent held the throne within whichever house controlled it, though
+# the source narrates at least one outright usurpation - Narasimha's
+# seizure of the crown around 1490, ending the first dynasty - and
+# describes the empire's last king, Sadasiva, as a virtual prisoner of
+# the regent who actually commanded its armies. Succession here is
+# coded as factional rather than by a stated rule: the throne changed
+# hands repeatedly according to whoever held military power at court,
+# not according to any succession principle the source states.
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: { values: [factional], source: sewell-1900 }
+  legitimation: { values: [descent], source: sewell-1900 }
+
+ended:
+  type: conquest
+  by: []
+  year: 1565
+  source: sewell-1900
+
+preceded_by_external: []
+
+succeeded_by_external:
+  - name: the Deccan sultanates' coalition
+    type: conquered by
+    year: 1565
+    note: >-
+      Bijapur, Ahmadnagar, Golconda and Bidar combined against
+      Vijayanagara at Talikota, killed the regent Rama Raya, and spent
+      five months destroying the capital; the surviving royal house
+      retreated to Penukonda and later Chandragiri and Vellore, ruling
+      a fraction of its former territory as a titular remnant for
+      generations, gradually eclipsed by its own former provincial
+      governors, the Nayaks of Madurai, Tanjore and Gingee.
+    source: sewell-1900
+
+turning_points:
+  - year: 1336
+    type: capital-move
+    name: The founding of Vijayanagara
+    changed: >-
+      Harihara and Bukka, former officials of the Hindu chiefdom of
+      Anegundi shattered by a Delhi Sultanate campaign two years
+      before, were raised to rule the restored territory and built a
+      new capital across the Tungabhadra - a stronghold amid the
+      region's own natural fortifications of granite hills, chosen, by
+      every tradition of the city's origin, on a holy man's advice.
+    source: sewell-1900
+    contested: false
+  - year: 1520
+    type: battle
+    name: The battle of Raichur
+    changed: >-
+      Krishna Deva Raya's own campaign secured the contested Raichur
+      doab from Bijapur outright, a victory severe enough that even a
+      hostile Muslim chronicler conceded it, and marked, in a
+      Portuguese eyewitness's own account, the empire at the height of
+      the wealth and power a generation of visitors would go on to
+      describe as unmatched anywhere they had traveled.
+    source: sewell-1900
+    contested: false
+  - year: 1565
+    type: battle
+    name: Talikota
+    changed: >-
+      A coalition of four Deccan sultanates, until then divided among
+      themselves, united against Vijayanagara and destroyed its army in
+      a single pitched battle, killing the regent Rama Raya and sending
+      the royal house fleeing south with what treasure could be
+      carried, opening five months of destruction that left the capital
+      an empty shell of its former self.
+    source: sewell-1900
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: sewell-1900 }
+    religions_carried: { count: 0, items: [], source: sewell-1900 }
+    successor_claims: { count: 0, items: [], source: sewell-1900 }

@@ -4141,6 +4141,26 @@ sources:
       here. Seton-Watson says frankly that they are untranslatable and that he
       has aimed at something recitable. Out of copyright.
 
+  - id: sewell-1900
+    kind: book
+    author: Robert Sewell
+    title: "A Forgotten Empire (Vijayanagar): A Contribution to the History of India"
+    publisher: Swan Sonnenschein & Co.
+    year: 1900
+    note: >-
+      A narrative history built around full translations of two eyewitness
+      chronicles - Domingo Paes, who described the capital at its height
+      around 1520 under Krishna Deva Raya, and Fernao Nuniz, who wrote a
+      generation later including the traditional founding legend and the
+      empire's near-collapse under Achyuta - framed by Sewell's own critical
+      account drawn from inscriptions and Muslim chroniclers. States
+      outright that "the empire fell in 1565" at the battle of Talikota, and
+      shows a titular line of kings persisting at Chandragiri and Vellore
+      for decades after with no single further date marking its own
+      extinction. Used here for Vijayanagara's founding, Krishna Deva Raya's
+      reign and the visits of Abdur Razzaq and Paes, and the fall of 1565.
+      Out of copyright.
+
   - id: ibn-battuta-lee
     kind: primary
     author: Ibn Battuta
