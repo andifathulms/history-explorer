@@ -3311,6 +3311,33 @@ edges:
     source: shaw-2000
     contested: false
 
+  - from: neo-assyrian
+    to: egypt-saite
+    type: seceded from
+    year: -656
+    note: >-
+      Esarhaddon took Egypt in 671 and Ashurbanipal sacked Thebes in 663,
+      leaving local Delta princes, the strongest of them at Sais, to govern
+      as nominal vassals. Psamtik I used hired Greek and Carian mercenaries
+      to beat the rival princes and, while Assyria's own attention was
+      consumed by a civil war against its governor in Babylon, simply
+      stopped behaving as anyone's tributary. No source records a battle
+      against Assyria itself.
+    source: shaw-2000
+    contested: false
+
+  - from: egypt-saite
+    to: achaemenid
+    type: conquered by
+    year: -525
+    note: >-
+      Cambyses crossed the Sinai with Arabian help securing the water his
+      army needed, broke the Egyptian line at Pelusium, and took Memphis
+      after a siege. Psamtik III, six months on the throne, was captured
+      and later executed after an apparent plot to raise a revolt.
+    source: shaw-2000
+    contested: false
+
   # ---- Indian sultanates: the regional courts Timur's 1398 sack let loose ----
 
   - from: delhi-sultanate
