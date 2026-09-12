@@ -1,0 +1,153 @@
+id: kenmu-restoration
+region: korea-and-japan
+
+name:
+  latin: The Kenmu Restoration
+  script: 建武の新政
+  script_lang: ja
+
+# 1333 is Emperor Go-Daigo's recall from exile after Nitta Yoshisada's
+# destruction of Kamakura and Ashikaga Takauji's simultaneous seizure
+# of Kyoto - the point griffis-1883 calls "the temporary mikadoate,"
+# with the sovereign restored to what patriots hoped would be permanent,
+# direct rule after a century and a half of military government.
+#
+# 1336 is Ashikaga's installation of a rival emperor, Kogen, after
+# defeating the loyalist armies Go-Daigo had sent against him - the
+# point the restoration's own single imperial authority split into two,
+# and Go-Daigo fled Kyoto carrying the sacred regalia rather than
+# accept the new order Ashikaga had just built around a different
+# sovereign.
+span:
+  start: { min: 1333, max: 1333, source: griffis-1883 }
+  end: { min: 1336, max: 1336, source: griffis-1883 }
+
+identity: >-
+  Two years and a few months in which a mikado exiled by his own
+  vassals returned to rule Japan directly for the first time in a
+  century and a half, undone not by the shogunate he had just
+  destroyed but by his own unequal reward of the men who had destroyed
+  it for him.
+
+capitals:
+  - { name: Kyoto, source: griffis-1883 }
+
+core_region: The Kinai provinces around Kyoto, with contested authority over the whole country
+
+rulers:
+  founder: { name: "Emperor Go-Daigo", reign: [1333, 1336], source: griffis-1883 }
+  # No distinct peak separate from the founder: the whole span is one
+  # continuous reign that declined steadily from its own opening act of
+  # patronage, rather than rising to any later high point.
+  peak: null
+  last: { name: "Emperor Go-Daigo", reign: [1333, 1336], source: griffis-1883 }
+
+scripts_and_languages:
+  administration: [Classical Chinese, Old Japanese]
+  writing_system: Chinese characters (kanji), adapted for Japanese
+
+# A fragmentation rather than a conquest: Ashikaga did not destroy
+# Go-Daigo's own authority outright but built a rival one beside it,
+# installing a different member of the imperial house as emperor while
+# Go-Daigo fled Kyoto still claiming to be the legitimate sovereign,
+# regalia in hand. `by` is empty since no record for either successor
+# exists yet; see the succeeded_by_external notes below.
+ended:
+  type: fragmentation
+  by: []
+  year: 1336
+  source: griffis-1883
+
+preceded_by_external: []
+
+succeeded_by_external:
+  - name: The Nanboku-chō schism
+    type: partitioned from
+    year: 1336
+    note: >-
+      Go-Daigo's flight from Kyoto with the sacred regalia, refusing to
+      recognise the rival emperor Ashikaga had just installed, opened
+      the fifty-six-year contest between northern and southern
+      imperial courts that this record's own single restored mikadoate
+      split into.
+    source: griffis-1883
+  - name: The Ashikaga Shogunate
+    type: overthrew
+    year: 1336
+    note: >-
+      Ashikaga Takauji, having defeated the loyalist armies Go-Daigo
+      sent against him, rebuilt Kamakura, installed Kogen as a
+      compliant emperor, and received from him the same title of Sei-i
+      Tai Shogun the restoration itself had been fought to make
+      unnecessary.
+    source: griffis-1883
+
+institutions:
+  # `client-levy`, not the direct central administration the
+  # restoration was meant to establish: Go-Daigo, following the same
+  # feudal precedent set by the Minamoto and Hojo he had just
+  # overthrown, rewarded his own victorious vassals with fiefs rather
+  # than building a genuinely new form of government.
+  military_basis: { values: [client-levy], source: griffis-1883 }
+  revenue_basis: { values: [land-tax], source: griffis-1883 }
+  succession_rule: { values: [primogeniture], source: griffis-1883 }
+  legitimation: { values: [descent, divine-sanction], source: griffis-1883 }
+
+turning_points:
+  - year: 1333
+    type: reform
+    name: Go-Daigo recalled from exile
+    changed: >-
+      An emperor the Hojo had deposed and banished returned to a
+      capital his own loyal commanders had just destroyed the
+      shogunate to win back for him, and patriots across the country
+      allowed themselves to hope that direct rule by the throne alone
+      had finally been made permanent again.
+    source: griffis-1883
+    contested: false
+  - year: 1334
+    type: reform
+    name: An unequal division of the spoils
+    changed: >-
+      Go-Daigo rewarded Ashikaga Takauji with the richest provinces at
+      his disposal while the war's two most committed loyalists,
+      Kusunoki Masashige and Nitta Yoshisada, received far less - a
+      miscalculation that left common soldiers grumbling they had
+      fought against one dynasty of overlords only to be handed a new
+      one, and left the one man most capable of rebuilding a shogunate
+      the best-rewarded person in the realm.
+    source: griffis-1883
+    contested: false
+  - year: 1335
+    type: succession-crisis
+    name: The murder of Moriyoshi
+    changed: >-
+      A concubine Ashikaga had bribed persuaded Go-Daigo that his own
+      son and named shogun was plotting against the throne, and the
+      emperor issued the decree that branded his son a rebel rather
+      than the man actually manoeuvring against them both - a father's
+      fatal misjudgment of exactly who around him could still be
+      trusted, with a prince's own life as the price of the mistake.
+    source: griffis-1883
+    contested: false
+  - year: 1336
+    type: revolt
+    name: Ashikaga sets up a rival emperor
+    changed: >-
+      Having crushed the loyalist forces sent to punish him and driven
+      Go-Daigo from the capital entirely, Ashikaga installed a
+      different prince of the imperial house on the throne and had the
+      new sovereign grant him the exact military office his own
+      victorious rebellion had needed all along - ending, in one
+      stroke, both the experiment in direct imperial rule and the
+      single-emperor system it had briefly revived.
+    source: griffis-1883
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: griffis-1883 }
+    religions_carried: { count: 0, items: [], source: griffis-1883 }
+    successor_claims: { count: 0, items: [], source: griffis-1883 }

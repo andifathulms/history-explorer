@@ -3545,3 +3545,16 @@ edges:
            own legitimacy back to."
     source: griffis-1883
     contested: false
+
+  - from: kamakura
+    to: kenmu-restoration
+    type: overthrew
+    year: 1333
+    note: "Nitta Yoshisada destroyed Kamakura from the east while
+           Ashikaga Takauji, together with Kusunoki Masashige,
+           re-established imperial rule in Kyoto from the west - two
+           commanders converging on the same end from opposite
+           directions, in the name of an emperor the Hojo had exiled
+           three years before."
+    source: griffis-1883
+    contested: false
