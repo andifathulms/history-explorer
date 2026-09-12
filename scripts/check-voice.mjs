@@ -94,10 +94,12 @@ const RULES = [
     // corpus's own archaeology-heavy chapters "the site" overwhelmingly means
     // an actual excavation (Great Zimbabwe, Hattusa, Nineveh), not the
     // collection. "this site" carries no such ambiguity — nothing in the
-    // corpus uses it to mean "this settlement" — so only that form, and
-    // "for/left for the site" (found on audit, distinct from "dug the site"
-    // in kind: nothing is dug "for" a place), are flagged.
-    re: /\b(this|the) corpus('s)?\b|\bthis site('s)?\b|\b(for|left for) the site\b|\bthe site (records|codes|carries|reads|types|cannot|does not|is coded|ranks)\b|\bthe dataset\b|\b(a pass ago|this pass)\b/gi,
+    // corpus uses it to mean "this settlement" — so only that form is
+    // flagged unqualified. "leaves/left for the site" (found on audit) needs
+    // the verb immediately before it: a bare "for the site" also matches
+    // innocent phrases like "no name for the site" (the dig), which a first
+    // pass over this rule flagged as a false positive and removed.
+    re: /\b(this|the) corpus('s)?\b|\bthis site('s)?\b|\b(leaves|left) for the site\b|\bthe site (records|codes|carries|reads|types|cannot|does not|is coded|ranks)\b|\bthe dataset\b|\b(a pass ago|this pass)\b/gi,
     say: 'talks about the corpus rather than the past',
   },
 ]
