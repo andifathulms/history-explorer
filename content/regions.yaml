@@ -41,7 +41,12 @@ regions:
       settled idea of what a king was for — and it broke apart and reassembled
       on roughly the same ground more than once.
     group: near-east
-    thread: false
+    # `thread: true` since real sourced edges already join four of the
+    # region's own polities - Early Dynastic to Old Kingdom, Middle
+    # Kingdom to Hyksos, Hyksos to New Kingdom, New Kingdom to Third
+    # Intermediate - a chain the region carried before this flag was
+    # ever flipped to match it.
+    thread: true
 
   - id: mesopotamia
     name: Mesopotamia
