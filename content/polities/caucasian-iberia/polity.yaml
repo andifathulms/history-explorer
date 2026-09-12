@@ -101,12 +101,10 @@ turning_points:
     changed: >-
       Rome and Sasanian Iran settled their war with a treaty that assigned
       Iberia to the Roman sphere and gave Rome the right to invest its kings.
-      It is the same arrangement the Armenian record carries from Rhandeia two
-      and a half centuries earlier, in the other direction, and it is why both
-      of these records left the succession field empty for as long as they did.
-      A throne disposed of by treaty between two other powers was none of the
-      values available, and both records now carry `external-nomination`, which
-      an audit of the field added for them and three others.
+      It is the same arrangement Armenia had been given at Rhandeia two
+      and a half centuries earlier, in the other direction: a throne disposed
+      of by treaty between two greater powers, its own king's succession
+      decided from outside rather than by any rule of its own.
     source: toumanoff-1963
     contested: false
   - year: 337
@@ -118,8 +116,8 @@ turning_points:
       Mtskheta. It aligned the kingdom with Rome against Iran at the moment the
       Sasanians were consolidating Zoroastrianism as a state religion, and it
       is the origin of a church that has been the most continuous Georgian
-      institution ever since — older than the Bagrationi, older than the
-      kingdom on this site's Georgia record, and still there.
+      institution ever since — older than the Bagrationi dynasty, older than
+      the later medieval kingdom of Georgia, and still there.
     source: suny-1994
     contested: false
 
