@@ -54,15 +54,37 @@ institutions:
   legitimation: null
 
 turning_points:
+  # Antiochus III died attempting the same temples in 187 and Antiochus IV in
+  # 164, both before the Kamnaskirid kingdom itself existed (it dates from
+  # about 147); their deaths are named here rather than given their own
+  # entries because a turning point has to fall inside a polity's own span,
+  # and both predate this one.
   - year: -139
     type: siege
     name: "Mithridates in the temples"
     changed: >-
-      The Parthian king took Elymais and plundered its sanctuaries, and the
-      kingdom was a Parthian vassal for the rest of its life. It also removed the
-      accumulated treasure that had made two Seleucid kings attempt the same
-      thing and had killed both of them, which is the only period in which this
-      small kingdom was of consequence to anybody outside it.
+      The Parthian king took Elymais and plundered its sanctuaries himself,
+      succeeding where two Seleucid kings had died trying: Antiochus III at
+      the same temples in 187, and Antiochus IV, driven off from an attempt
+      at one remove, at Gabae in 164 — a death the Jewish tradition read as
+      judgment for his persecution of Judaea. Mithridates was not driven off,
+      and the kingdom was a Parthian vassal for the rest of its life. It also
+      removed the accumulated treasure that had made all three attempts worth
+      making, which is the only period in which this small kingdom was of
+      consequence to anybody outside it.
+    source: wiesehofer-1996
+    contested: false
+  - year: 224
+    type: battle
+    name: "The set completed"
+    changed: >-
+      Ardashir took Elymais on his way to everything else — Fars first, then
+      Kerman, then Elymais and the Gulf coast, then Ctesiphon and the empire
+      itself. It was one of six Parthian vassal kingdoms that fell to him in
+      the same sequence, identical in structure to the other five and at the
+      bottom of their range of consequence: Armenia still exists, Persis
+      produced the dynasty that replaced the whole arrangement, and Elymais
+      had temples somebody robbed.
     source: wiesehofer-1996
     contested: false
 
