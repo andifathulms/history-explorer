@@ -60,13 +60,14 @@ institutions:
   legitimation: { values: [conquest, descent], source: king-1915 }
 
 # Shutruk-Nakhkhunte of Elam killed Zamama-shum-iddin in battle and, with his
-# son Kutir-Nakhkhunte, sacked Sippar and carried off spoil to Elam; a
-# further Elamite blow fell a few years later on whichever king followed him.
-# The dynasty that eventually avenged this and recovered the statue of
-# Marduk from Elam has no record here.
+# son Kutir-Nakhkhunte, sacked Sippar and carried off spoil to Elam; the
+# Middle Elamite record's own account (potts-2016) says Kutir-Nakhkhunte
+# "finished the job three years later," ending the dynasty outright - the
+# edge to that record. The dynasty that eventually avenged this and
+# recovered the statue of Marduk from Elam has no record here.
 ended:
   type: conquest
-  by: []
+  by: [middle-elamite]
   year: -1150
   source: king-1915
 

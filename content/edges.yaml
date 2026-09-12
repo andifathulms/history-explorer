@@ -3971,3 +3971,17 @@ edges:
            off a century later."
     source: bryce-2005
     contested: false
+
+  # ---- Elam's own first edge into Mesopotamia ----
+
+  - from: kassite
+    to: middle-elamite
+    type: conquered by
+    year: -1155
+    note: "Shutruk-Nahhunte invaded Babylonia around 1158 and his son
+           Kutir-Nahhunte 'finished the job three years later,' in the
+           Middle Elamite record's own words, ending a dynasty that had
+           ruled Babylon for something over four centuries and carrying
+           the Hammurabi stele and the statue of Marduk home to Susa."
+    source: potts-2016
+    contested: false
