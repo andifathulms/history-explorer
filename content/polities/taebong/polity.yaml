@@ -60,22 +60,12 @@ institutions:
 
 ended:
   type: internal usurpation
-  by: []
+  by: [goryeo]
   year: 918
   source: hulbert-1905
 
 preceded_by_external: []
-
-succeeded_by_external:
-  - name: Goryeo
-    type: overthrew
-    year: 918
-    note: >-
-      Kung-ye's own officials, fearing for their lives after his
-      escalating cruelty toward his own family, carried Wang-gön to the
-      palace by force and proclaimed him king in Kung-ye's place; Kung-ye
-      fled the capital naked and was caught and beheaded at Pu-yang.
-    source: hulbert-1905
+succeeded_by_external: []
 
 turning_points:
   - year: 905

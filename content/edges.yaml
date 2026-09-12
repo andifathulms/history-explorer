@@ -3714,3 +3714,39 @@ edges:
            treachery decades afterward."
     source: hulbert-1905
     contested: false
+
+  - from: taebong
+    to: goryeo
+    type: overthrew
+    year: 918
+    note: "Kung-ye's own officials, fearing for their lives after his
+           escalating cruelty toward his own family, carried Wang-gön
+           to the palace by force and proclaimed him king in Kung-ye's
+           place; Kung-ye fled the capital naked and was caught and
+           beheaded at Pu-yang."
+    source: hulbert-1905
+    contested: false
+
+  - from: later-baekje
+    to: goryeo
+    type: conquered by
+    year: 936
+    note: "Wang-gön marched south at the head of 87,000 men, with Kyŏn
+           Hwŏn himself riding in his own army against the son who had
+           deposed him, and crushed the small force Sin-geum could
+           still muster - ending the kingdom Kyŏn Hwŏn had founded
+           within a year of his own death."
+    source: hulbert-1905
+    contested: false
+
+  - from: silla
+    to: goryeo
+    type: absorbed remnants of
+    year: 935
+    note: "Wang-gön received Kyŭng-sun's abdication in person at
+           Song-do, married him to a royal princess, made him prime
+           minister and set aside the revenues of an entire district
+           for his use - the same kingdom Silla had spent its final
+           decade losing ground to on the battlefield."
+    source: hulbert-1905
+    contested: false

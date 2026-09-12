@@ -63,23 +63,12 @@ institutions:
 # Wang-gön's own state does not yet carry a record here.
 ended:
   type: dynastic replacement
-  by: []
+  by: [goryeo]
   year: 935
   source: hulbert-1905
 
 preceded_by_external: []
-
-succeeded_by_external:
-  - name: Goryeo
-    type: absorbed remnants of
-    year: 935
-    note: >-
-      Wang-gön received Kyŭng-sun's abdication in person at Song-do,
-      married him to a royal princess, made him prime minister and set
-      aside the revenues of an entire district for his use - the same
-      kingdom Silla had spent its final decade losing ground to on the
-      battlefield.
-    source: hulbert-1905
+succeeded_by_external: []
 
 turning_points:
   - year: -57

@@ -1,0 +1,139 @@
+id: goryeo
+region: korea
+
+name:
+  latin: Goryeo
+  script: 고려
+  script_lang: ko
+
+# hulbert-1905 dates the founding to 918, when Kung-ye's own officials
+# forced Wang-gön to the throne in his place - the same event this
+# region's Taebong record carries as its own end. Song-do became the
+# permanent capital the following year.
+#
+# 1392 CE is given directly: "It was on the sixteenth day of the seventh
+# moon of the year 1392 that Gen. Yi ascended the throne of Koryŭ, now
+# no longer Koryŭ." The source's own stated dynastic length, "four
+# hundred and seventy-five years," is one year off the span these two
+# dates give (474); the discrepancy is the source's own arithmetic and
+# is left standing rather than resolved by picking a different date.
+span:
+  start: { min: 918, max: 918, source: hulbert-1905 }
+  end: { min: 1392, max: 1392, source: hulbert-1905 }
+
+identity: >-
+  A general's kingdom raised by his own officers, that broke a Kitan
+  invasion at Kwiju, endured decades of Mongol war from an island
+  refuge, and ended when its own court made a general too powerful to
+  refuse.
+
+capitals:
+  - { name: "Song-do (Kaesŏng)", from: 919, source: hulbert-1905 }
+  - { name: "Kang-wha (Ganghwa Island)", from: 1232, source: hulbert-1905 }
+
+core_region: The Korean peninsula in its entirety, from the Yalu River south to the Korea Strait
+
+rulers:
+  founder: { name: "Wang-gön (Wang T'ă-jo)", reign: [918, 942], source: hulbert-1905 }
+  # Gen. Kang Kam-ch'an, not a king, commanded the campaign that broke
+  # the Kitan invasion at Kwiju in 1019 - the single most celebrated
+  # military feat this source narrates for the dynasty, and the reason
+  # he stands as this record's peak figure in place of the reigning
+  # king, whom the source does not name in the same passage.
+  peak: { name: "Kang Kam-ch'an", source: hulbert-1905 }
+  last: { name: "Kongyang (Yo)", reign: [1389, 1392], source: hulbert-1905 }
+
+scripts_and_languages:
+  administration: [Old Korean, Classical Chinese]
+  writing_system: Hangul introduced under King Sejong, after this dynasty's own end; Chinese script used through most of its span
+
+# Wang-gön's own throne came from his officials carrying him to the
+# palace by force after Kung-ye's fall, not from descent or conquest.
+# His own third injunction to his heir - "If the first son is bad let
+# the second or some other become king" - is the only explicit
+# succession principle the source states for the dynasty, and much of
+# its own internal history (three of the first four kings, and the
+# final king Kongyang himself) bears out succession settled by
+# officials and generals rather than by strict birth order.
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: { values: [nomination], source: hulbert-1905 }
+  legitimation: { values: [election], source: hulbert-1905 }
+
+ended:
+  type: internal usurpation
+  by: []
+  year: 1392
+  source: hulbert-1905
+
+preceded_by_external: []
+succeeded_by_external: []
+
+turning_points:
+  - year: 918
+    type: succession-crisis
+    name: Wang-gön raised to the throne
+    changed: >-
+      A reluctant general who had spent years deflecting his own ruler's
+      jealousy by requesting posts far from court found himself made
+      king by the very officials who had once served under him,
+      inheriting an army, a capital and a territory built by the man
+      his own accession replaced rather than founding a state from
+      nothing.
+    source: hulbert-1905
+    contested: false
+  - year: 1019
+    type: battle
+    name: Kwiju
+    changed: >-
+      A retreating Kitan force made a final stand at Kwiju, where a
+      fortunate south wind carried arrows and blinding dust into the
+      invaders' own ranks and turned the engagement into a rout that
+      only a remnant survived to carry back across the Yalu - closing
+      out a century of Kitan pressure on the peninsula with a defeat
+      severe enough to end it for a generation.
+    source: hulbert-1905
+    contested: false
+  - year: 1232
+    type: capital-move
+    name: The removal to Kang-wha
+    changed: >-
+      Rather than face a renewed Mongol invasion from an undefended
+      capital, Koryŏ's own military strongman forced the court's
+      removal to an island refuge, a crossing so ill-managed in the
+      rains that noblewomen waded barefoot through the mud - beginning
+      nearly four decades in which the dynasty ruled the mainland from
+      behind a strait the Mongols, no seamen, could never force.
+    source: hulbert-1905
+    contested: false
+  - year: 1388
+    type: revolt
+    name: The turn at Wi-ha Island
+    changed: >-
+      Ordered to invade Ming territory in Liao-tung over his own
+      declared objections, Gen. Yi T'ă-jo halted his army at Wi-ha
+      Island in the Yalu's mouth, put the question of turning back to
+      his own troops rather than the king, and marched south instead to
+      depose the general who had forced the war - the moment real power
+      passed from the Wang throne to the man who would end it.
+    source: hulbert-1905
+    contested: false
+  - year: 1392
+    type: succession-crisis
+    name: The abdication to Yi T'ă-jo
+    changed: >-
+      With his sons banished, his most loyal minister murdered, and the
+      court openly clamoring for a new ruler, Kongyang gave up his own
+      claim rather than contest a throne he no longer had the power to
+      hold, closing a dynasty that had lasted since 918.
+    source: hulbert-1905
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: hulbert-1905 }
+    religions_carried: { count: 0, items: [], source: hulbert-1905 }
+    successor_claims: { count: 0, items: [], source: hulbert-1905 }

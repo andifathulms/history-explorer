@@ -56,23 +56,12 @@ institutions:
 
 ended:
   type: conquest
-  by: []
+  by: [goryeo]
   year: 936
   source: hulbert-1905
 
 preceded_by_external: []
-
-succeeded_by_external:
-  - name: Goryeo
-    type: conquered by
-    year: 936
-    note: >-
-      Wang-gön marched south at the head of 87,000 men, with Kyŏn Hwŏn
-      himself riding in his own army against the son who had deposed
-      him, and crushed the small force Sin-geum could still muster -
-      ending the kingdom Kyŏn Hwŏn had founded within a year of his own
-      death.
-    source: hulbert-1905
+succeeded_by_external: []
 
 turning_points:
   - year: 897
