@@ -73,6 +73,21 @@ institutions:
   legitimation: { values: [conquest, divine-sanction], source: mairs-2014 }
 
 turning_points:
+  - year: -206
+    type: treaty
+    name: "Euthydemus and Antiochus"
+    changed: >-
+      Besieged in Bactra by the Seleucid king come to take the province back,
+      Euthydemus argued that he owed the throne to killing an earlier
+      usurper's line rather than to seceding himself, and warned that a war
+      between the two Greek kingdoms would open the frontier to the nomads
+      behind him. Antiochus accepted, recognised him as king, and married his
+      son to a Seleucid princess. It is the best-attested event in the
+      kingdom's history and the clearest statement of what it understood
+      itself to be threatened by — a warning that came true roughly sixty
+      years later, on a longer delay than either man expected.
+    source: polybius-shuckburgh
+    contested: false
   - year: -180
     type: revolt
     name: "Over the Hindu Kush"
@@ -85,6 +100,24 @@ turning_points:
       its northern frontier began to matter.
     source: mairs-2014
     contested: false
+  # No battle in any source and no year that can be securely given: the coins
+  # simply stop through the 130s. -125 is coded to match ended.year, the
+  # latest bound of the range the scholarship gives, not because that
+  # specific year is attested as the year of an event.
+  - year: -125
+    type: catastrophe
+    name: "What came out of the steppe"
+    changed: >-
+      The Xiongnu drove the Yuezhi off the Gansu frontier in the 170s BC; the
+      Yuezhi displaced the Sakas into Bactria and beyond; and the Yuezhi
+      followed them, arriving in a country the Greek kingdom could no longer
+      hold. Ai-Khanoum was abandoned around 145, the northern mints stopped,
+      and the last Bactrian Greek coin issues are of the 130s. Nobody appears
+      to have taken the country from anybody in a single dateable act — a
+      chain of displacements begun two thousand kilometres away simply
+      arrived and the coinage stopped.
+    source: mairs-2014
+    contested: true
 
 measures:
   reach_km2: null
