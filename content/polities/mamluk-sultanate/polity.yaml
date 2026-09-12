@@ -97,6 +97,20 @@ turning_points:
       from this rather than from any defeat.
     source: petry-1998
     contested: false
+  - year: 1400
+    type: catastrophe
+    name: "The boy who left his army"
+    changed: >-
+      A thirteen-year-old sultan led the field army against Timur, lost his
+      nerve when the emirs turned on him after a reverse, and rode for Cairo
+      ahead of his own troops; Damascus surrendered on terms and was sacked
+      and burnt anyway, and northern Syria was devastated for a generation.
+      The material damage was survivable. What did not recover was a
+      sultanate whose emirs could not be relied on not to unmake a ruler in
+      the middle of a lost campaign, which every crisis for the following
+      century was conducted in the shadow of.
+    source: lane-poole-1901
+    contested: false
   - year: 1516
     type: battle
     name: "Marj Dabiq"
