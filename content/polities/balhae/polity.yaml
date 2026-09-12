@@ -1,0 +1,117 @@
+id: balhae
+region: korea
+
+name:
+  latin: Balhae
+  script: 발해
+  script_lang: ko
+
+# hulbert-1905 dates the founding to "the twelfth year" of Silla's King
+# Sŭngdŭk, who "came to the throne in 702" - putting the founding at 713
+# by Korean inclusive reckoning. Kŭl-gŭl Chung-sŭng, leader of the
+# Song-mal family of the Mal-gal tribes, gathered Goguryeo remnants and
+# founded a kingdom first called Chin; Chinese investiture, secured the
+# same reign, brought the name Pal-hă with it, and "from that time the
+# word Mal-gal disappears from Korean history and Pal-hă takes its
+# place."
+#
+# 926 CE is given only implicitly, by the source's own placement of the
+# event within its year-by-year narration: the passage dated to 926
+# records that "the Kŭ-ran... tribe, having overcome the Păl-ha tribe,
+# made overtures to Wang-gön relative to annexation," treating the
+# conquest as already accomplished fact by that year.
+span:
+  start: { min: 713, max: 713, source: hulbert-1905 }
+  end: { min: 926, max: 926, source: hulbert-1905 }
+
+identity: >-
+  A kingdom of Goguryeo remnants and Mal-gal tribesmen that traded a
+  tribal name for a Chinese title, raided the Shandong coast at its
+  height, and fell to a Kitan conquest so treacherous it shaped
+  Goryeo's own policy decades later.
+
+capitals:
+  - { name: "Near Tă-băk Mountain (Myo-hyang San)", from: 713, source: hulbert-1905 }
+
+core_region: The region north of the Korean peninsula between the former Goguryeo homeland and the Mal-gal tribal lands
+
+rulers:
+  # No reign end is given for Kŭl-gŭl Chung-sŭng; the source dates only
+  # his own founding of the kingdom and his securing of Chinese
+  # investiture in the same reign.
+  founder: { name: "Kŭl-gŭl Chung-sŭng", source: hulbert-1905 }
+  # The Shandong raid and Silla-Tang counter-expedition of 734 are
+  # narrated without naming Balhae's own king at the time.
+  peak: null
+  # The Kitan conquest of 926 is recorded only as an accomplished fact
+  # noted in passing; no king is named as reigning at Balhae's own fall.
+  last: null
+
+scripts_and_languages:
+  administration: [Old Korean]
+  writing_system: none recorded
+
+# Investiture is the only ground for legitimacy the source states
+# directly: Kŭl-gŭl Chung-sŭng sent his own son to China as a hostage and
+# received in return imperial recognition and the title King of Pal-hă -
+# the act that gave the kingdom the name it is known by.
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  legitimation: { values: [investiture], source: hulbert-1905 }
+
+ended:
+  type: conquest
+  by: [liao]
+  year: 926
+  source: hulbert-1905
+
+preceded_by_external: []
+succeeded_by_external: []
+
+turning_points:
+  - year: 713
+    type: capital-move
+    name: The founding of Chin
+    changed: >-
+      Kŭl-gŭl Chung-sŭng led the Song-mal family of the Mal-gal tribes
+      into new territory in the north, gathered surviving Goguryeo
+      people under his own banner, and founded a kingdom first named
+      Chin - one that, once China granted its leader a royal title in
+      exchange for a hostage son, would be known to history as Balhae
+      rather than by any tribal name.
+    source: hulbert-1905
+    contested: false
+  - year: 734
+    type: battle
+    name: The Shandong raid
+    changed: >-
+      Having absorbed territory steadily in the north, Balhae landed a
+      force on the Chinese mainland itself, on the Shandong coast,
+      provoking a joint Silla-Tang expedition against her that the
+      approach of winter left unable to press the campaign through - a
+      rare instance of a Korean kingdom striking Chinese soil rather
+      than the other way around.
+    source: hulbert-1905
+    contested: false
+  - year: 926
+    type: battle
+    name: The Kitan conquest
+    changed: >-
+      The Kŭ-ran, having first approached Balhae under a show of
+      friendship, turned on her and overcame the kingdom outright -
+      remembered decades later, in Goryeo's own court, as an act of
+      treachery serious enough that Wang-gön refused even a gift of
+      camels from the Kitan and had them starved to death rather than
+      accept peace with a power that had destroyed Balhae this way.
+    source: hulbert-1905
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: hulbert-1905 }
+    religions_carried: { count: 0, items: [], source: hulbert-1905 }
+    successor_claims: { count: 0, items: [], source: hulbert-1905 }

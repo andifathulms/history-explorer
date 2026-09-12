@@ -3691,3 +3691,26 @@ edges:
            appointment."
     source: hulbert-1905
     contested: false
+
+  - from: goguryeo
+    to: balhae
+    type: absorbed remnants of
+    year: 713
+    note: "Kŭl-gŭl Chung-sŭng, leader of the Song-mal Mal-gal, gathered
+           many of the surviving Goguryeo people - left without a
+           kingdom of their own since P'yongyang fell forty-five years
+           before - into the new state he founded near Tă-băk
+           Mountain."
+    source: hulbert-1905
+    contested: false
+
+  - from: balhae
+    to: liao
+    type: conquered by
+    year: 926
+    note: "The Kitan first approached Balhae under a show of
+           friendship, then turned on her and overcame the kingdom
+           outright - an act Goryeo's own court remembered as
+           treachery decades afterward."
+    source: hulbert-1905
+    contested: false
