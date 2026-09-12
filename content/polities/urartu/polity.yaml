@@ -118,9 +118,9 @@ turning_points:
       Sarduri II had pushed Urartian influence west into northern Syria and had
       the local kingdoms with him. Tiglath-Pileser III met him near Arpad and
       broke the coalition, and Urartu never operated west of the Euphrates
-      again. This site's Assyrian record dates its own recovery to
-      Tiglath-Pileser's reorganisation in 745; this is the first thing the
-      reorganised state did with its northern rival, two years later.
+      again. Tiglath-Pileser's own reorganisation of Assyria is dated to 745;
+      this is the first thing the reorganised state did with its northern
+      rival, two years later.
     source: zimansky-1998
     contested: false
   - year: -714
@@ -137,6 +137,22 @@ turning_points:
       threaten Assyria again.
     source: zimansky-1998
     contested: false
+  - year: -590
+    type: catastrophe
+    name: "The kingdom stops being written about"
+    changed: >-
+      Entered here not because a dated happening can be named but because
+      one cannot, and the absence is itself the fact that ends the
+      kingdom's own written record: no siege, no named conqueror, no
+      single destruction layer agreed on across the fortress excavations,
+      and even the year a convention standing for a process somewhere in
+      the early sixth century. Comparable collapses elsewhere in this
+      period, Hatti's included, at least name an agent or an event even
+      where the cause stays argued; this one offers neither, which is why
+      it is entered here rather than left for a reader to conclude the
+      omission was accidental.
+    source: zimansky-1998
+    contested: true
 
 measures:
   # Taagepera's figure, and it sits oddly next to the record it spent its
