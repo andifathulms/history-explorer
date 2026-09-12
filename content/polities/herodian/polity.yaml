@@ -101,11 +101,8 @@ turning_points:
     name: Jerusalem
     changed: >-
       Herod took the city after five months with a Roman army under Sosius, and
-      Antony had the last Hasmonean beheaded. This corpus's Hasmonean record
-      carries the same siege as its ending, which makes this the second pair of
-      records in the corpus joined at one event from both sides and the first
-      where both are in the same region. It is also the edge that gives this
-      region a thread.
+      Antony had the last Hasmonean beheaded. It is the moment the Hasmonean
+      dynasty ended and Herod's own began in its place.
     source: smallwood-1976
     contested: false
   - year: -20
@@ -117,8 +114,8 @@ turning_points:
       precinct in the Roman world. It took decades and was finished about six
       years before it was destroyed. It made Jerusalem a pilgrimage economy on a
       scale it had not had, which is the city the Gospels and Josephus both
-      describe, and its retaining wall is still the most visited object in this
-      corpus.
+      describe, and its retaining wall — the Western Wall — is still standing
+      in Jerusalem today.
     source: richardson-1996
     contested: false
   - year: -4
@@ -150,8 +147,8 @@ turning_points:
     type: siege
     name: The destruction of the Temple
     changed: >-
-      Titus took Jerusalem and the building this record's second turning point
-      is about was burned. Agrippa II, the last of this dynasty, spent the war
+      Titus took Jerusalem and the Temple Herod had rebuilt was burned.
+      Agrippa II, the last of this dynasty, spent the war
       on the Roman side and kept his territories for another twenty years. The
       polity founded to make Judaea governable for Rome ended by watching Rome
       destroy the thing it had built, from the besiegers' camp.
