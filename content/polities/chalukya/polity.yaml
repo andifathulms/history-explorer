@@ -1,0 +1,139 @@
+id: chalukya
+region: classical-india
+
+name:
+  latin: Chalukya Empire (Badami)
+  script: ಚಾಲುಕ್ಯ
+  script_lang: kn
+
+# yazdani-1960 (Nilakanta Sastri's chapter) dates the dynasty's own
+# founding directly: a rock inscription discovered at Badami in 1941
+# records that by Saka 465 (A.D. 543-4) the hill fort at Vatapi had
+# been fortified by "the Chalukya Vallabhesvara," identified as
+# Pulakeshin I, who also performed the Ashvamedha there - "the real
+# founder of the Chalukyan kingdom," in the source's own words,
+# establishing independence from prior Kadamba overlordship.
+#
+# Dantidurga's own Samangad copper-plate grant, dated A.D. 753, already
+# treats "the overthrow of Chalukyan sovereignty as an accomplished
+# fact," though the last Chalukya king, Kirttivarman II, is attested
+# ruling for a few years more afterward from a "victorious camp" in his
+# own eleventh regnal year - a lingering, diminished authority the
+# source calls "a belated and futile struggle" rather than a genuine
+# continuation of the empire. The span below closes on the date the
+# source's own primary evidence, Dantidurga's inscription, gives for
+# the fall.
+span:
+  start: { min: 543, max: 543, source: yazdani-1960 }
+  end: { min: 753, max: 753, source: yazdani-1960 }
+
+identity: >-
+  A Karnataka clan that fortified a hill fort into an empire, broke
+  Harsha's own conquests at the Narmada, lost its capital once to a
+  Pallava army in revenge, and ended when its own feudatory isolated
+  and overthrew it in turn.
+
+capitals:
+  - { name: "Vatapi (Badami)", from: 543, source: yazdani-1960 }
+
+core_region: The Malaprabha river valley in the northwestern Deccan, at its height most of peninsular India north of the Kaveri
+
+rulers:
+  founder: { name: "Pulakeshin I", source: yazdani-1960 }
+  peak: { name: "Pulakeshin II", reign: [610, 642], source: yazdani-1960 }
+  # Kirttivarman II's own accession is dated only loosely to "sometime
+  # in A.D. 744-5"; his reign's actual end is not marked by any single
+  # date, only by the last dated record of his own that survives, in
+  # his eleventh regnal year.
+  last: { name: "Kirttivarman II", reign: [745, 753], source: yazdani-1960 }
+
+scripts_and_languages:
+  administration: [Sanskrit, Kannada]
+  writing_system: Kannada script
+
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  # Pulakeshin I's own performance of the Ashvamedha, the horse
+  # sacrifice long recognized as the symbol of paramount sovereignty,
+  # is recalled in Chalukya inscriptions as late as the twelfth
+  # century - the dynasty's own founding claim to legitimacy outliving
+  # the dynasty itself by centuries.
+  legitimation: { values: [divine-sanction, descent], source: yazdani-1960 }
+
+ended:
+  type: conquest
+  by: []
+  year: 753
+  source: yazdani-1960
+
+preceded_by_external: []
+
+succeeded_by_external:
+  - name: the Rashtrakuta dynasty
+    type: overthrew
+    year: 753
+    note: >-
+      Dantidurga, a Chalukya feudatory who had married a Chalukya
+      princess taken by force on the battlefield, isolated Kirttivarman
+      II diplomatically - forging an alliance with the Pallava king
+      Nandivarman by giving him his own daughter in marriage - before
+      delivering a final assault and declaring himself sovereign of the
+      Deccan in Kirttivarman's place.
+    source: yazdani-1960
+
+turning_points:
+  - year: 543
+    type: capital-move
+    name: Pulakeshin I fortifies Vatapi
+    changed: >-
+      Pulakeshin I fortified the hill fort at Vatapi and performed the
+      Ashvamedha there, establishing his own independence from Kadamba
+      overlordship and giving the Chalukyas a defensible seat of power
+      that would anchor two centuries of the dynasty's own rule over
+      the Deccan.
+    source: yazdani-1960
+    contested: false
+  - year: 610
+    type: battle
+    name: The Narmada holds against Harsha
+    changed: >-
+      Pulakeshin II, who inherited an empire in ruins from a civil war
+      at his own accession, rebuilt Chalukya power quickly enough to
+      meet Harshavardhana's own expanding empire in battle and inflict
+      heavy losses on it, fixing the Narmada as the one frontier
+      Harsha's otherwise victorious career could never cross.
+    source: yazdani-1960
+    contested: false
+  - year: 642
+    type: siege
+    name: The Pallava sack of Vatapi
+    changed: >-
+      Pallava forces broke through to the Chalukya capital itself in a
+      swift campaign, and no further trace of Pulakeshin II survives in
+      any later record - a silence the source reads as evidence that
+      the king who had stopped Harsha did not survive his own capital's
+      fall.
+    source: yazdani-1960
+    contested: false
+  - year: 753
+    type: revolt
+    name: Dantidurga's overthrow
+    changed: >-
+      A Chalukya feudatory whose own inscriptions already declared
+      Chalukya sovereignty ended as an accomplished fact defeated an
+      empire the source describes as suffering "a rapidly progressing
+      attenuation" rather than one sudden military disaster, closing
+      out two centuries of Chalukya rule from Vatapi in favor of a new
+      imperial line at Manyakheta.
+    source: yazdani-1960
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: yazdani-1960 }
+    religions_carried: { count: 0, items: [], source: yazdani-1960 }
+    successor_claims: { count: 0, items: [], source: yazdani-1960 }
