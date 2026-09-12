@@ -50,6 +50,25 @@ institutions:
   legitimation: { values: [descent], source: wiesehofer-1996 }
 
 turning_points:
+  # Not a battle or a proclamation: an Achaemenid satrap simply continued
+  # governing the province after the empire that appointed him stopped
+  # existing. -323 is coded because that is the year the settlement at
+  # Babylon divided the satrapies and confirmed Atropates in the northern
+  # half rather than replacing him; the turning point is the absence of a
+  # replacement.
+  - year: -323
+    type: succession-crisis
+    name: "The satrap who did not hand it over"
+    changed: >-
+      Alexander died and the settlement at Babylon divided Media between a
+      Macedonian and Atropates, the Achaemenid satrap who had commanded the
+      Median contingent against Alexander at Gaugamela and then submitted.
+      He kept the northern half and never handed it over; his descendants
+      ruled it for five hundred and fifty years, not as claimants to a dead
+      empire but as a piece of its administration that had simply never
+      been reassigned.
+    source: wiesehofer-1996
+    contested: false
   - year: -36
     type: battle
     name: "Antony in Atropatene"
@@ -60,6 +79,22 @@ turning_points:
       last serious Roman attempt to conquer Iran from the west for a hundred and
       fifty years, and it is the reason a small kingdom appears in Latin
       literature at all.
+    source: wiesehofer-1996
+    contested: false
+  # Not a conquest in the ordinary sense: the fire and its custodians stayed
+  # in place under the new dynasty. 226 is coded because that is when the
+  # kingdom's own line ended, not because anything visible changed at the
+  # sanctuary.
+  - year: 226
+    type: succession-crisis
+    name: "Ardashir annexes the kingdom"
+    changed: >-
+      Ardashir took Atropatene two years after taking the Parthian empire it
+      had been a client of, and it became a Sasanian province under an
+      appointed marzban. The fire stayed where it was and the new kings of
+      kings came to it exactly as the old ones had. A five-hundred-and-
+      fifty-year dynasty ends in that one detail: nothing about the
+      kingdom's actual purpose changed hands at all.
     source: wiesehofer-1996
     contested: false
 
