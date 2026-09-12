@@ -45,18 +45,9 @@ ended:
   year: -2004
   source: crawford-2013
 
-# What continued the kingdom of Sumer and Akkad. Isin is not a record here and the
-# reader asking what followed Ur is asking about southern Mesopotamia.
-succeeded_by_external:
-  - name: the dynasty of Isin
-    year: 2004
-    note: >-
-      Ishbi-Erra, the officer Ibbi-Sin had sent north for grain, made himself king
-      at Isin, drove the Elamite garrison out of the ruins of Ur, and took the
-      title king of Sumer and Akkad. His successors kept Ur's titulature and its
-      divine determinative, rebuilt the temple of the moon god and installed their
-      daughters as its priestesses. The dynasty ended; the kingdom carried on.
-    source: king-1910
+# What continued the kingdom of Sumer and Akkad is now a real edge, to Isin's
+# own record.
+succeeded_by_external: []
 
 institutions:
   # Land held in return for service and a general obligation of labour and

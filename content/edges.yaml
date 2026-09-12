@@ -3917,3 +3917,28 @@ edges:
            outright."
     source: coelho-1950
     contested: false
+
+  # ---- Mesopotamia: the Isin-Larsa write-ins ----
+
+  - from: ur-iii
+    to: isin
+    type: claimed legitimacy of
+    year: -2004
+    note: "Ur III's own end was an Elamite sack with no recorded
+           successor state; Ishbi-Erra, an officer stranded outside the
+           fallen capital, took up the old title King of Sumer and Akkad
+           at a new city of his own founding rather than conquering
+           anyone's throne. The edge records a claim, not a conquest."
+    source: king-1910
+    contested: false
+
+  - from: larsa
+    to: old-babylonian
+    type: conquered by
+    year: -1763
+    note: "Hammurabi took Larsa from Rim-Sin I, who had held the south
+           for sixty years, after twenty-nine years in which Babylon had
+           gained almost nothing - the campaign that opened the eight
+           years in which he took everything else."
+    source: van-de-mieroop-2005
+    contested: false

@@ -1,0 +1,99 @@
+id: isin
+region: mesopotamia
+
+name:
+  latin: Dynasty of Isin
+  script: 𒉌𒋛𒅔𒆠
+  script_lang: akk
+
+# king-1910 dates Ishbi-Erra's accession to 2004, the same year Ur III's own
+# record already gives for his taking of Ur's kingship (see that record's
+# `succeeded_by_external`, now converted to this record's own founding edge).
+# The Nippur dynastic list gives the dynasty's total length as 225 years and
+# six months across sixteen kings, which is the only figure this record's own
+# `end` date is built from - see the note there.
+span:
+  start: { min: -2004, max: -2004, source: king-1910 }
+  end: { min: -1780, max: -1778, source: king-1910 }
+
+identity: >-
+  The kingdom of Sumer and Akkad, reconstituted under a new capital by the
+  officer Ur's own last king had sent north for grain, which held the old
+  title for two and a quarter centuries before a rival city it had itself
+  once out-fought grew strong enough to end it - by whose hand, and exactly
+  when, no source consulted here can say with confidence.
+
+capitals:
+  - { name: Isin, from: -2004, source: king-1910 }
+
+core_region: Sumer and Akkad, southern Mesopotamia
+
+rulers:
+  founder: { name: "Ishbi-Erra", reign: [-2004, -1972], source: king-1910 }
+  # Ishme-Dagan's own titles - King of Isin, King of Sumer and Akkad, Lord of
+  # Erech, patron of Nippur, Ur and Eridu - are the fullest claimed by any
+  # king of this dynasty, and his twenty-year reign closes the ninety-four
+  # years the Nippur list gives Ishbi-Erra's direct line as a whole.
+  peak: { name: "Ishme-Dagan", source: king-1910 }
+  # Sin-magir and his son Damik-ilishu together held the throne for the
+  # dynasty's final thirty-four years; king-1910 does not give the individual
+  # split between them, so no reign is recorded for Damik-ilishu specifically.
+  last: { name: "Damik-ilishu", source: king-1910 }
+
+scripts_and_languages:
+  administration: [Akkadian, Sumerian]
+  writing_system: Cuneiform
+
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: { values: [primogeniture], source: king-1910 }
+  legitimation: { values: [descent, divine-sanction], source: king-1910 }
+
+# king-1910 discusses at length, and does not resolve, which of two rival
+# powers - Rim-Sin of Larsa, or Sin-muballit and then Hammurabi of Babylon -
+# actually ended the Dynasty of Isin, or when. Its own conclusion is that the
+# specific captures of the city of Isin recorded in later date-formulas
+# belong to a struggle between Larsa and Babylon that took place a generation
+# or more after Damik-ilishu's own reign, not to the dynasty's own fall. The
+# `end` date above is derived only from the dynasty's stated total length,
+# not from any of these disputed episodes.
+ended:
+  type: still contested
+  by: []
+  year: null
+  source: king-1910
+
+preceded_by_external: []
+succeeded_by_external: []
+
+turning_points:
+  - year: -2004
+    type: revolt
+    name: "Ishbi-Erra's refoundation"
+    changed: >-
+      A trusted subordinate, stranded away from his own capital by a
+      catastrophe he had not caused and could no longer reverse, chose to
+      build rather than return, expelling the invaders who now held his
+      former master's city and claiming the old royal style for a
+      settlement of his own founding instead.
+    source: king-1910
+    contested: false
+  - year: -1910
+    type: succession-crisis
+    name: "Gungunum's secession at Larsa"
+    changed: >-
+      A city this dynasty had long controlled through appointments at
+      neighboring Ur stopped waiting for permission and began issuing its
+      own royal inscriptions, asserting the same claim to Sumer and Akkad
+      the ruling family had held unchallenged for ninety-four years.
+    source: king-1910
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: king-1910 }
+    religions_carried: { count: 0, items: [], source: king-1910 }
+    successor_claims: { count: 0, items: [], source: king-1910 }

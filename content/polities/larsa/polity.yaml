@@ -1,0 +1,90 @@
+id: larsa
+region: mesopotamia
+
+name:
+  latin: Kingdom of Larsa
+  script: 𒌓𒀕𒆠
+  script_lang: akk
+
+# Gungunum's own start date is derived, not directly stated: king-1910 places
+# his secession toward the close of, or immediately after, the eleven-year
+# reign of Isin's king Libit-Ishtar, whose own accession is fixed by adding
+# the ninety-four years the Nippur list gives Ishbi-Erra's direct line to
+# that dynasty's own 2004 start (see the Isin record). The end date is not
+# derived - it is the same 1763 this site's Old Babylonian record already
+# gives, on different, better-anchored, modern chronology.
+span:
+  start: { min: -1910, max: -1910, source: king-1910 }
+  end: { min: -1763, max: -1763, source: van-de-mieroop-2005 }
+
+identity: >-
+  A governorship that broke from Isin, spent a century as one power among
+  several in southern Mesopotamia, and finally unified the whole of it under
+  a king who held the throne for sixty years - only to lose everything in a
+  single campaign to an Amorite rival who had spent twenty-nine years being
+  ignored.
+
+capitals:
+  - { name: Larsa, from: -1910, source: king-1910 }
+
+core_region: Southern Mesopotamia, the old heartland of Sumer
+
+rulers:
+  # Gungunum's own death is recorded only in a date-formula reading "the year
+  # in which Gungunum died" - a phrasing king-1910 notes was never used for a
+  # natural death, and infers he was killed in battle, probably by Isin's own
+  # King Ur-Ninib.
+  founder: { name: Gungunum, source: king-1910 }
+  peak: { name: "Rim-Sin I", reign: [-1823, -1763], source: van-de-mieroop-2005 }
+  last: { name: "Rim-Sin I", reign: [-1823, -1763], source: van-de-mieroop-2005 }
+
+scripts_and_languages:
+  administration: [Akkadian, Sumerian]
+  writing_system: Cuneiform
+
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  legitimation: { values: [conquest, divine-sanction], source: king-1910 }
+
+ended:
+  type: conquest
+  by: [old-babylonian]
+  year: -1763
+  source: van-de-mieroop-2005
+
+preceded_by_external: []
+succeeded_by_external: []
+
+turning_points:
+  - year: -1910
+    type: revolt
+    name: "Gungunum's secession"
+    changed: >-
+      A city that had answered to Isin through priestly appointments at
+      neighboring Ur stopped deferring and began issuing its own royal
+      inscriptions, opening a rivalry between the two cities for the old
+      title King of Sumer and Akkad that would outlast both of their
+      original ruling families.
+    source: king-1910
+    contested: false
+  - year: -1763
+    type: siege
+    name: "Hammurabi's conquest"
+    changed: >-
+      A king who had governed the south for sixty years and outlasted every
+      rival that mattered lost his own throne in a single campaign to a
+      neighbor he had spent three decades not bothering to fight, ending
+      independent rule over southern Mesopotamia for the rest of recorded
+      antiquity.
+    source: van-de-mieroop-2005
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: king-1910 }
+    religions_carried: { count: 0, items: [], source: king-1910 }
+    successor_claims: { count: 0, items: [], source: king-1910 }
