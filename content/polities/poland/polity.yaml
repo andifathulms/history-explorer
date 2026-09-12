@@ -58,25 +58,12 @@ scripts_and_languages:
 # yet; see the succeeded_by_external note below.
 ended:
   type: gradual absorption
-  by: []
+  by: [polish-lithuanian-commonwealth]
   year: 1569
   source: fletcher-1836
 
 preceded_by_external: []
-
-succeeded_by_external:
-  - name: The Polish-Lithuanian Commonwealth
-    type: absorbed remnants of
-    year: 1569
-    note: >-
-      The Union of Lublin merged Poland and the Grand Duchy of Lithuania
-      into a single elective monarchy with a common Sejm meeting at
-      Warsaw, chosen as a central town belonging to neither partner's own
-      historic territory. Poland was not absorbed by Lithuania nor
-      Lithuania by Poland in the way the vocabulary's other values would
-      suggest; both entered a nominally equal union as its larger and
-      smaller partners respectively.
-    source: fletcher-1836
+succeeded_by_external: []
 
 institutions:
   military_basis: { values: [tribal-levy, client-levy], source: fletcher-1836 }

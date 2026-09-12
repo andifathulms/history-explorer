@@ -1,0 +1,170 @@
+id: polish-lithuanian-commonwealth
+region: eastern-europe
+
+name:
+  latin: The Polish-Lithuanian Commonwealth
+  script: Rzeczpospolita Obojga Narodów
+  script_lang: pl
+
+# 1569 is the Union of Lublin, which merged the Kingdom of Poland and
+# the Grand Duchy of Lithuania - two separate records in this region -
+# into a single elective state under one crown and one Sejm.
+#
+# 1795 is the Third Partition, which erased the Commonwealth from the
+# map entirely rather than merely reducing it, as the First and Second
+# Partitions of 1772 and 1793 had. King Stanislaw August Poniatowski's
+# formal abdication that November, forced by the Russian ambassador at
+# Grodno, closed a state that had already lost its independent existence
+# in substance well before that signature.
+span:
+  start: { min: 1569, max: 1569, source: fletcher-1836 }
+  end: { min: 1795, max: 1795, source: fletcher-1836 }
+
+identity: >-
+  The union of two crowns under one elected king and one common Sejm,
+  a nobility so protective of its own liberty that a single deputy's
+  dissent could dissolve an entire session, briefly the sword that
+  broke an Ottoman army at the gates of Vienna, and finally a state
+  three neighbours agreed to erase from the map in three successive
+  bites rather than one.
+
+capitals:
+  - { name: Warsaw, from: 1596, source: fletcher-1836 }
+
+core_region: The combined lands of Poland and Lithuania, from the Baltic to the Black Sea steppe and from Silesia to beyond the Dnieper
+
+rulers:
+  founder: { name: "Sigismund II Augustus", reign: [1569, 1572], source: fletcher-1836 }
+  peak: { name: "John III Sobieski", reign: [1674, 1696], source: fletcher-1836 }
+  last: { name: "Stanislaw II Augustus (Poniatowski)", reign: [1764, 1795], source: fletcher-1836 }
+
+scripts_and_languages:
+  administration: [Polish, Latin, Ruthenian]
+  writing_system: Latin script
+
+# A three-power partition rather than a conquest by any single one of
+# them. `fragmentation` is a direct fit rather than a stretch: Russia,
+# Prussia and Austria divided the Commonwealth's territory among
+# themselves over three successive partitions (1772, 1793, 1795) instead
+# of any one power absorbing it whole. `by` names only tsardom-of-russia,
+# since it is the only one of the three partitioning powers with a
+# record here; Prussia and Austria are named in succeeded_by_external.
+ended:
+  type: fragmentation
+  by: [tsardom-of-russia]
+  year: 1795
+  source: fletcher-1836
+
+preceded_by_external: []
+
+succeeded_by_external:
+  - name: The Kingdom of Prussia
+    type: partitioned from
+    year: 1795
+    note: >-
+      Prussia's share across the three partitions included Royal Prussia,
+      Danzig, Warsaw itself, and territory along the Bug and Niemen -
+      the acquisitions that let Prussia present the Commonwealth's
+      dismemberment as a matter of restoring old Piast and Teutonic
+      borders rather than naked conquest.
+    source: fletcher-1836
+  - name: The Habsburg Monarchy
+    type: partitioned from
+    year: 1795
+    note: >-
+      Austria's share, concentrated in the south, included Kraków,
+      Sandomierz and Lublin along with part of Chełm - territory it
+      administered thereafter as the crown land of Galicia, a name
+      Austria itself constructed to claim a medieval precedent for the
+      annexation.
+    source: fletcher-1836
+
+institutions:
+  # A private army was a magnate's own prerogative rather than a state
+  # monopoly for much of the Commonwealth's existence; the pospolite
+  # ruszenie, the noble levy tied to landholding, was the closest thing
+  # to a national force outside the crown's own limited standing troops.
+  military_basis: { values: [land-grant, client-levy], source: fletcher-1836 }
+  revenue_basis: { values: [land-tax, trade-toll], source: fletcher-1836 }
+  # `election`, without qualification. Every king from Henry of Valois in
+  # 1573 onward was chosen by the full assembled nobility rather than
+  # inheriting the crown, a practice enshrined the same year in the
+  # Henrician Articles and the accompanying Warsaw Confederation's
+  # guarantee of religious toleration among the electors themselves.
+  succession_rule: { values: [election], source: fletcher-1836 }
+  legitimation: { values: [election, divine-sanction], source: fletcher-1836 }
+
+turning_points:
+  - year: 1573
+    type: reform
+    name: The first free election
+    changed: >-
+      Sigismund II Augustus died without an heir, and rather than
+      dissolving into a succession crisis the assembled nobility chose a
+      foreign prince by vote, binding him beforehand to articles that
+      stripped the crown of most of its independent power and guaranteed
+      the electors' own religious toleration among themselves. Every
+      later monarch would take the same throne on the same terms: chosen,
+      not inherited.
+    source: fletcher-1836
+    contested: false
+  - year: 1652
+    type: reform
+    name: The precedent of Sicinski
+    changed: >-
+      A single deputy's walkout during a session under King John Casimir
+      was accepted, for the first time, as sufficient grounds to nullify
+      an entire diet's proceedings - a reading of the unanimity principle
+      that had gone unused in practice for generations. The precedent,
+      once set, proved impossible to walk back and gradually paralysed
+      the Commonwealth's own capacity to legislate at all.
+    source: fletcher-1836
+    contested: false
+  - year: 1683
+    type: battle
+    name: The relief of Vienna
+    changed: >-
+      A Polish king known to his own troops as a shrewd and unshakeable
+      commander led a scratch relief force over an unscouted mountain
+      ridge to break an Ottoman siege the Holy Roman Emperor's own army
+      had been unable to lift, at the moment Vienna's garrison had
+      calculated it could hold out no more than three additional days.
+      The victory bought Christendom's central front a generation of
+      relief and bought Poland-Lithuania almost nothing lasting in
+      return.
+    source: fletcher-1836
+    contested: false
+  - year: 1772
+    type: treaty
+    name: The First Partition
+    changed: >-
+      Russia, Prussia and Austria each annexed a portion of Commonwealth
+      territory in a single coordinated agreement, on lines a Polish king
+      had named from the floor of his own diet more than a century
+      earlier while hoping to be proven wrong. A packed and coerced Sejm
+      approved the cession rather than contesting it, the same
+      legislature whose own paralysis had helped make the outcome
+      possible.
+    source: fletcher-1836
+    contested: false
+  - year: 1795
+    type: treaty
+    name: The Third Partition
+    changed: >-
+      A national uprising under Kosciuszko, fought under an oath never
+      to turn its own soldiers' power against a fellow citizen, bought a
+      final year of resistance and nothing more. The same three powers
+      divided what remained between them entirely, and the king they had
+      already reduced to a pensioner signed his own abdication at Grodno
+      within the year - the last acknowledged sovereign of a state that
+      no longer existed to be sovereign over.
+    source: fletcher-1836
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: fletcher-1836 }
+    religions_carried: { count: 0, items: [], source: fletcher-1836 }
+    successor_claims: { count: 0, items: [], source: fletcher-1836 }

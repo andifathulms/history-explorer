@@ -3481,3 +3481,42 @@ edges:
            genealogical case for."
     source: kliuchevsky-1912
     contested: false
+
+  - from: lithuania
+    to: polish-lithuanian-commonwealth
+    type: absorbed remnants of
+    year: 1569
+    note: "The Union of Lublin, ratified by the Sejm on 1 July 1569,
+           merged the Grand Duchy with the Kingdom of Poland into a
+           single elective monarchy under one crown and one common Sejm,
+           while each partner kept its own army, treasury and law code.
+           Lithuania did not disappear into Poland; it entered a
+           nominally equal union that, in practice, its own nobility
+           spent the following two centuries trying to keep equal."
+    source: katzel-2021
+    contested: false
+
+  - from: poland
+    to: polish-lithuanian-commonwealth
+    type: absorbed remnants of
+    year: 1569
+    note: "The Union of Lublin merged Poland and the Grand Duchy of
+           Lithuania into a single elective monarchy with a common Sejm
+           meeting at Warsaw, chosen as a central town belonging to
+           neither partner's own historic territory. Poland was not
+           absorbed by Lithuania nor Lithuania by Poland; both entered a
+           nominally equal union as its larger and smaller partners
+           respectively."
+    source: fletcher-1836
+    contested: false
+
+  - from: polish-lithuanian-commonwealth
+    to: tsardom-of-russia
+    type: partitioned from
+    year: 1795
+    note: "Russia's share of the three partitions of 1772, 1793 and 1795
+           included most of Lithuania, Belarus and Ukraine east of the
+           Bug, the largest single portion of the Commonwealth's
+           territory and population."
+    source: fletcher-1836
+    contested: false

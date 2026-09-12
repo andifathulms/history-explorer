@@ -58,25 +58,12 @@ scripts_and_languages:
 # Commonwealth exists yet; see the succeeded_by_external note below.
 ended:
   type: gradual absorption
-  by: []
+  by: [polish-lithuanian-commonwealth]
   year: 1569
   source: katzel-2021
 
 preceded_by_external: []
-
-succeeded_by_external:
-  - name: The Polish-Lithuanian Commonwealth
-    type: absorbed remnants of
-    year: 1569
-    note: >-
-      The Union of Lublin, ratified by the Sejm on 1 July 1569, merged
-      the Grand Duchy with the Kingdom of Poland into a single elective
-      monarchy under one crown and one common Sejm, while each partner
-      kept its own army, treasury and law code. Lithuania did not
-      disappear into Poland; it entered a nominally equal union that,
-      in practice, its own nobility spent the following two centuries
-      trying to keep equal.
-    source: katzel-2021
+succeeded_by_external: []
 
 institutions:
   military_basis: { values: [client-levy, tribal-levy], source: katzel-2021 }

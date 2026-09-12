@@ -397,6 +397,15 @@ regions:
   # Hungary took their script and their liturgy from Rome, not Byzantium, and
   # Transylvania's own Latin Christian identity is the reason it stayed a
   # distinct principality rather than folding into an Orthodox neighbour.
+  #
+  # `thread: true` since real sourced edges now join two of the region's
+  # own polities: the Grand Duchy of Lithuania and the Kingdom of Poland
+  # both merged into the Polish-Lithuanian Commonwealth at the 1569 Union
+  # of Lublin. The Commonwealth's own end in the 1795 partitions is
+  # recorded as a separate edge to tsardom-of-russia, in the
+  # rus-and-muscovy region — a real edge, but not one this region's own
+  # thread draws, since hard rule 7 keeps a thread to edges with both
+  # ends inside its own region.
   - id: eastern-europe
     name: Eastern Europe
     blurb: >-
@@ -406,7 +415,7 @@ regions:
       Tatars, Ottomans — on ground the rest of Latin Christendom was content
       to let them hold alone.
     group: northern-and-eastern-europe
-    thread: false
+    thread: true
 
   # Kievan Rus', Novgorod, Muscovy and the Tsardom/Empire of Russia are one
   # continuous political throughline rather than a scatter of unrelated
