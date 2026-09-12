@@ -46,9 +46,9 @@ turning_points:
     name: Talas
     changed: >-
       A Tang army was beaten by an Abbasid one on the Talas river in what is now
-      Kyrgyzstan, and the Tang did not come back west of the Pamirs. This
-      record's first chapter is about the battle and about how little either
-      empire seems to have thought of it at the time.
+      Kyrgyzstan, and the Tang did not come back west of the Pamirs. What
+      stands out in retrospect is how little either empire seems to have
+      thought of it at the time.
     source: twitchett-1979
     contested: false
   - year: 755
@@ -79,11 +79,10 @@ turning_points:
     changed: >-
       Emperor Wuzong closed some four thousand monasteries and returned a
       quarter of a million monks and nuns to lay life and to the tax rolls.
-      This record's `religions_carried` count is one and the item is Mahayana
-      Buddhism, and the suppression does not contradict it: what the Tang carried
-      outward, chiefly to Japan and Korea, had already gone by 845. Typed
-      `conversion` because the vocabulary has no value for the opposite of one,
-      and because that is what it was aimed at.
+      Buddhism had already spread outward to Japan and Korea by then, chiefly
+      through Mahayana teaching, so the suppression at home did not undo what
+      had already propagated abroad — it was a reversal of religious policy
+      inside China, aimed squarely at the monasteries' wealth and independence.
     source: lewis-2009
     contested: false
   - year: 878

@@ -12,8 +12,8 @@ span:
 
 identity: >-
   A state in Khurasan run for forty-four years by a coalition of dervishes and
-  landowners who killed most of their own rulers, and the one polity in this
-  corpus that was not a dynasty.
+  landowners who killed most of their own rulers rather than founding a
+  dynasty.
 
 capitals:
   - { name: Sabzavar, script: سبزوار, from: 1337, source: smith-1970 }
@@ -74,10 +74,10 @@ turning_points:
     name: "Bashtin"
     changed: >-
       A landowner killed a tax official in a village near Sabzavar and the
-      district rose behind him, took the town and did not give it back. It is
-      the only polity in this corpus that begins with a tax collector, and the
-      thing it built lasted forty-four years in country the Ilkhanate had held
-      six months earlier.
+      district rose behind him, took the town and did not give it back. An
+      unusual founding for a state — a tax revolt rather than a warlord or a
+      claimant — and the thing it built lasted forty-four years in country the
+      Ilkhanate had held six months earlier.
     source: smith-1970
     contested: false
   - year: 1342
