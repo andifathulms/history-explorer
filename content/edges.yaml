@@ -4097,3 +4097,41 @@ edges:
            full command of the peninsula."
     source: collins-2004
     contested: false
+
+  # ---- Tibet: filling out both of the empire's own stubs ----
+
+  - from: zhangzhung
+    to: tibetan-empire
+    type: absorbed remnants of
+    year: 634
+    note: "Songtsen Gampo married a Zhangzhung princess, and during or
+           shortly after his own reign the kingdom's territory and
+           political structures were folded into the empire he was
+           building - the last independent power inside what became
+           ethnically Tibetan territory."
+    source: beckwith-1987
+    contested: false
+
+  - from: tibetan-empire
+    to: guge
+    type: claimed legitimacy of
+    year: null
+    note: "After Langdarma's assassination ended the old royal line's rule
+           at Lhasa around 842, a branch of that same family moved west
+           and built a new kingdom in Ngari - continuity of blood claimed
+           across a collapse rather than a conquest or an inheritance
+           anyone contested."
+    source: bell-1924
+    contested: false
+
+  - from: mongol
+    to: sakya
+    type: vassal of
+    year: 1270
+    note: "Khubilai Khan gave the Sakya hierarch temporal rule over all of
+           Tibet as an act of religious patronage after his own conversion
+           to Tibetan Buddhism, and Sakya's own secular authority
+           depended on Mongol backing for as long as the arrangement
+           lasted."
+    source: bell-1924
+    contested: false

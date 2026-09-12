@@ -34,33 +34,11 @@ ended:
   year: 842
   source: beckwith-1987
 
-# Both real, both without a record here. Nothing conquered or inherited the
-# empire in 842, so the successor row omits `type` and lets the note carry the
-# relation.
-preceded_by_external:
-  - name: Zhangzhung
-    type: absorbed remnants of
-    year: null
-    note: >-
-      The kingdom of the upper Sutlej and Ngari in western Tibet, with its own
-      language, its own script and the Bon tradition attached to it. Songtsen
-      Gampo married its ruler's sister, and the kingdom was absorbed into the
-      empire during or shortly after his reign; its language survives in a
-      handful of Dunhuang documents and in Bon texts.
-    source: beckwith-1987
+# Zhangzhung, Guge and Sakya all have records of their own now - see the
+# edges to and from them in edges.yaml.
+preceded_by_external: []
 
-succeeded_by_external:
-  - name: the kingdom of Guge, and the second transmission
-    year: null
-    note: >-
-      No power took Tibet in 842 and none replaced the empire for four hundred
-      years. A branch of the imperial line went west and founded Guge in Ngari,
-      which paid for the second wave of Buddhist translation and invited Atisha
-      from Bengal in the eleventh century; the monastic orders that dominate
-      Tibetan history afterwards all form in that period, out of the books the
-      empire had commissioned. When Tibet is next governed as a unit, in the
-      thirteenth century, it is by the abbots of Sakya on behalf of the Mongols.
-    source: beckwith-1987
+succeeded_by_external: []
 
 measures:
   reach_km2: { value: 4600000, at: 800, source: taagepera-1997 }

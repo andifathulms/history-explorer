@@ -6378,3 +6378,59 @@ sources:
       Hermeric, Rechila, Rechiarius and Remismund. Coverage ends around
       468-9, close to the chronicler's own death; nothing here addresses the
       kingdom's sixth-century history or its 585 conquest.
+
+  - id: nishi-nagano-2009
+    kind: article
+    author: Yoshio Nishi and Yasuhiko Nagano
+    title: "A General Review of the Zhangzhung Studies"
+    container: "Senri Ethnological Reports, National Museum of Ethnology, Osaka"
+    year: 2009
+    note: >-
+      A survey of a century of Zhangzhung linguistic scholarship - the
+      Dunhuang manuscripts, the Bon-tradition Tibetan-Zhangzhung dictionary,
+      the language's classification and its connection to the dMu tribe and
+      the Bon religion. Political history is not this paper's subject and
+      is thin in it accordingly; what survives of Zhangzhung is mostly
+      linguistic evidence, and this record follows that imbalance rather
+      than inventing a political narrative the source does not supply.
+      Open access.
+
+  - id: jahoda-2019-nyarma
+    kind: article
+    author: Christian Jahoda
+    title: "On the Foundation of the Nyarma gtsug lag khang, Ladakh"
+    container: "Collected volume on Buddhist art and history of western Himalaya, Austrian Academy of Sciences"
+    year: 2019
+    note: >-
+      A close philological study of the temple-founding narratives
+      associated with the translator Rinchen Zangpo (958-1055) in Ngari and
+      Ladakh during the "second transmission" of Buddhism - used here for
+      his dates and the temple-building context of Guge's Buddhist revival.
+      Open access.
+
+  - id: bell-1924
+    kind: book
+    author: Charles Bell
+    title: "Tibet: Past and Present"
+    publisher: Clarendon Press
+    year: 1924
+    note: >-
+      A former British political officer in Tibet's own general history,
+      written from direct acquaintance with the country and its officials.
+      Used here for the Sakya-Mongol period and background on Atisha's
+      mission; its transliterations and some dates are dated by modern
+      standards and are checked against other sources where the two
+      diverge. Out of copyright.
+
+  - id: kmaps-sakya-polity
+    kind: reference article
+    author: "Tibetan and Himalayan Library, University of Virginia"
+    title: "Sakya-Mongol Yuan State (Places, Kingdoms, Empires feature set)"
+    container: "kmaps.virginia.edu"
+    note: >-
+      A scholarly reference entry on the administrative structure the
+      Mongols imposed on Sakya-governed Tibet - the household census, the
+      decimal hierarchy of units up to the myriarchy, and the province of
+      three circuits Khubilai Khan decreed for a country too small to
+      technically qualify as one. Used here for institutional and
+      administrative detail; it names no individual rulers. Open access.

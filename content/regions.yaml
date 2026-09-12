@@ -567,7 +567,13 @@ regions:
       time, and then turned into something no other polity here became: a
       country governed by its monasteries.
     group: steppe-east-asia
-    thread: false
+    # `thread: true` since real sourced edges now join three of the region's
+    # own polities: Zhangzhung to the Tibetan Empire (absorption, 634) and
+    # the Tibetan Empire to Guge (the old royal line's own claim of
+    # continuity after 842). Sakya's own authority came from the Mongols
+    # rather than any claimed continuity with the old empire, so that edge
+    # (mongol -> sakya) is cross-region and does not draw on this thread.
+    thread: true
 
   - id: mongol-world
     name: The Mongol World
