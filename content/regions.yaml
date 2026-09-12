@@ -349,12 +349,17 @@ regions:
     name: The Post-Roman West
     blurb: >-
       What the western provinces became when there was no longer anyone in
-      Ravenna to send taxes to: Gothic, Vandal and Lombard kingdoms governing
-      Roman populations with Roman law and their own armies, none of them
-      claiming to have replaced the empire and all of them behaving as though
-      they had.
+      Ravenna to send taxes to: Gothic, Vandal, Suevic and Lombard kingdoms
+      governing Roman populations with Roman law and their own armies, none
+      of them claiming to have replaced the empire and all of them behaving
+      as though they had.
     group: mediterranean
-    thread: false
+    # `thread: true` since a real edge - Suebi to Visigothic, conquered by,
+    # 585 - now joins two of the region's own polities. The other three
+    # members' own endings all point outside the region (Ostrogothic and
+    # Vandal to Byzantine conquest, Lombard to Carolingian), so this is the
+    # region's only internal edge and likely to stay that way.
+    thread: true
 
   - id: frankish-world
     name: The Frankish World

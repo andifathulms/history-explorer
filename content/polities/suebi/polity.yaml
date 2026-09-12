@@ -1,0 +1,128 @@
+id: suebi
+region: post-roman-west
+
+name:
+  latin: Suebic Kingdom of Gallaecia
+  script: null
+  script_lang: null
+
+# 411 is the year Hydatius's own chronicle gives for the division of Spain by
+# lot among the barbarian groups who had crossed into it in 409, with the
+# Vandals and Suevi drawing Gallaecia. 585 is already this corpus's own
+# Visigothic record's date for Leovigild's conquest, sourced there to
+# collins-2004; Hydatius's own coverage ends around 468-9, so nothing in
+# this record's own primary source addresses the kingdom's last century.
+span:
+  start: { min: 411, max: 411, source: hydatius-tamimi }
+  end: { min: 585, max: 585, source: collins-2004 }
+
+identity: >-
+  A Germanic settlement drawn by lot into the wettest corner of Roman Spain,
+  which spent its first half-century raiding its own Galician neighbors
+  under a chronicler's disapproving eye, and was absorbed by a Visigothic
+  king twice over.
+
+capitals:
+  - { name: "Bracara Augusta (Braga)", source: hydatius-tamimi }
+
+core_region: Gallaecia - roughly modern Galicia and northern Portugal
+
+rulers:
+  founder: { name: Hermeric, source: hydatius-tamimi }
+  # Rechila took Mérida and Seville and subjected Baetica and the
+  # Carthaginian province to Suebi authority - the widest territorial reach
+  # the kingdom achieved under any king this chronicle names.
+  peak: { name: Rechila, source: hydatius-tamimi }
+  # Null. Hydatius's own chronicle, the source the rest of this record
+  # depends on, ends around 468-9; no source consulted here names the king
+  # who actually held the throne when Leovigild conquered it in 585.
+  last: { name: null, source: null }
+
+scripts_and_languages:
+  administration: [Latin]
+  writing_system: Latin alphabet
+
+institutions:
+  military_basis: { values: [tribal-levy], source: hydatius-tamimi }
+  revenue_basis: null
+  succession_rule: null
+  # Rechiarius was Catholic while his own father Rechila had died "a
+  # heathen" - the chronicle's own word - and while Ajax, described as an
+  # apostate and senior Arian, is later recorded winning royal backing for
+  # Arianism among the Suevi. Religious legitimation in this kingdom was
+  # contested rather than fixed to one confession for most of the span this
+  # record's own primary source covers.
+  legitimation: { values: [conquest, descent], source: hydatius-tamimi }
+
+# Leovigild's conquest is already this corpus's own Visigothic record's
+# event, sourced there to collins-2004; see that record's own first and
+# third chapters. No named king of the Suevi survives in either record's
+# own source for this event.
+ended:
+  type: conquest
+  by: [visigothic]
+  year: 585
+  source: collins-2004
+
+preceded_by_external: []
+succeeded_by_external: []
+
+turning_points:
+  - year: 411
+    type: capital-move
+    name: "The division of Spain by lot"
+    changed: >-
+      Two years after crossing into the Iberian peninsula, the barbarian
+      groups who had spent that time raiding it settled instead, dividing
+      its provinces among themselves in an arrangement Hydatius's own
+      chronicle frames as an act of divine mercy - the Vandals and Suevi
+      together drawing the wet, remote province of Gallaecia in the
+      peninsula's far northwest.
+    source: hydatius-tamimi
+    contested: false
+  - year: 448
+    type: succession-crisis
+    name: "Rechiarius's Catholic accession"
+    changed: >-
+      A pagan king died at Mérida, and the son who inherited his throne
+      openly practiced a different faith - a religious break at the very
+      top of the dynasty that did nothing to slow the new king down, who
+      married into the Visigothic royal house and resumed plundering the
+      peninsula's Roman and Basque populations within months of his own
+      accession.
+    source: hydatius-tamimi
+    contested: false
+  - year: 456
+    type: battle
+    name: "Defeat on the Urbicus"
+    changed: >-
+      The Visigothic king Theodoric II, acting under an imperial
+      commission and provoked by Suebi raids into Roman-held territory,
+      crushed Rechiarius's army twelve miles from Astorga; the king himself
+      fled wounded and was captured and executed within weeks, and the
+      chronicle that had followed his reign in close detail pronounced the
+      whole kingdom finished - a verdict that, within a year, its own later
+      entries would quietly contradict.
+    source: hydatius-tamimi
+    contested: false
+  - year: 468
+    type: reform
+    name: "Remismund's restoration"
+    changed: >-
+      Out of more than a decade of rival claimants, informers and
+      factional killing that followed Rechiarius's death - including the
+      capture of the chronicler Hydatius himself by one of the warring
+      Suebi bands - Remismund emerged as sole king by Visigothic
+      sponsorship, married a bride Theodoric sent him, and reconstituted a
+      single Suebi authority the chronicle's own narrative had spent years
+      describing as broken beyond repair.
+    source: hydatius-tamimi
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: hydatius-tamimi }
+    religions_carried: { count: 0, items: [], source: hydatius-tamimi }
+    successor_claims: { count: 0, items: [], source: hydatius-tamimi }

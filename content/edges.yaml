@@ -4083,3 +4083,17 @@ edges:
            their land with Muscovite servitors."
     source: kliuchevsky-1912
     contested: false
+
+  # ---- Post-Roman West: the region's first internal edge ----
+
+  - from: suebi
+    to: visigothic
+    type: conquered by
+    year: 585
+    note: "Leovigild finished what a Visigothic army under Theodoric II
+           had failed to make permanent in 456, conquering the Suevic
+           kingdom outright and absorbing Gallaecia into Visigothic
+           Spain - the campaign that gave the Visigothic crown its first
+           full command of the peninsula."
+    source: collins-2004
+    contested: false
