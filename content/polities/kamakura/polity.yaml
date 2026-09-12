@@ -1,0 +1,171 @@
+id: kamakura
+region: korea-and-japan
+
+name:
+  latin: The Kamakura Shogunate
+  script: 鎌倉幕府
+  script_lang: ja
+
+# 1192 is Minamoto no Yoritomo's appointment as Sei-i Tai Shogun, the
+# same event yamato's own record ends on. griffis-1883's own summary
+# table of shoguns actually dates Yoritomo's rule from 1185, the year
+# the Taira were destroyed at sea, but the narrative treats the 1192
+# title as "the climax of honor" and the office as what "existed until
+# 1868" - the span follows that formal grant rather than the earlier
+# military victory, for a clean handoff from the previous record.
+#
+# 1333 is Kamakura's destruction by Nitta Yoshisada and the mass
+# suicide of the Hojo regental family - "the Hojo domination, which had
+# been paramount for nearly one hundred and fifty years, was utterly
+# broken."
+span:
+  start: { min: 1192, max: 1192, source: griffis-1883 }
+  end: { min: 1333, max: 1333, source: griffis-1883 }
+
+identity: >-
+  The military government a victorious general built beside, not
+  instead of, the throne he had just rescued - administered from a
+  fishing town he chose over the capital, inherited within a
+  generation by the wife's own family after his sons were murdered one
+  by one, and finally destroyed by an army whose own commander offered
+  his sword to the sea as a prayer before marching in.
+
+capitals:
+  - { name: Kamakura, source: griffis-1883 }
+
+core_region: The Kantō plain around Kamakura, with authority projected over the whole of Japan through provincial military governors
+
+rulers:
+  founder: { name: "Minamoto no Yoritomo", reign: [1192, 1199], source: griffis-1883 }
+  # No reign dates are given by the source for Tokimune's own tenure as
+  # regent; only the Mongol invasions his leadership repelled are dated.
+  peak: { name: "Hōjō Tokimune", source: griffis-1883 }
+  # No reign dates are given by the source for Takatoki specifically;
+  # he is named only as the last of the twelve Hōjō regents.
+  last: { name: "Hōjō Takatoki", source: griffis-1883 }
+
+scripts_and_languages:
+  administration: [Classical Chinese, Old Japanese]
+  writing_system: Chinese characters (kanji), adapted for Japanese
+
+# Not a conquest of the imperial house, which the shogunate had always
+# formally served: Nitta Yoshisada fought and burned Kamakura in the
+# name of the same Emperor Go-Daigo the Hojo had themselves deposed and
+# exiled. `internal usurpation` fits the underlying pattern the source
+# itself names a "double usurpation" - vassals (the Hojo) who had
+# usurped power from their own nominal lord (the shogun), themselves
+# overthrown by a restoration fought in their common sovereign's name.
+# `by` is empty since no record for the Kenmu Restoration exists yet;
+# see the succeeded_by_external note below.
+ended:
+  type: internal usurpation
+  by: []
+  year: 1333
+  source: griffis-1883
+
+preceded_by_external: []
+
+succeeded_by_external:
+  - name: The Kenmu Restoration
+    type: overthrew
+    year: 1333
+    note: >-
+      Nitta Yoshisada destroyed Kamakura from the east while Ashikaga
+      Takauji, together with Kusunoki Masashige, re-established
+      imperial rule in Kyoto from the west - two commanders converging
+      on the same end from opposite directions, in the name of an
+      emperor the Hojo had exiled three years before.
+    source: griffis-1883
+
+institutions:
+  # `standing-professional` for the permanent, tax-funded garrison
+  # Yoritomo's own chief minister proposed - a genuine departure from
+  # the levies that had supported earlier campaigns - alongside the
+  # `client-levy` provincial military governors, the shugo, who divided
+  # authority in each province with the older civil governors and a
+  # second Kamakura appointee, the jito.
+  military_basis: { values: [standing-professional, client-levy], source: griffis-1883 }
+  revenue_basis: { values: [land-tax, tribute], source: griffis-1883 }
+  # `primogeniture` describes the brief Minamoto line in principle,
+  # extinguished within a generation of Yoritomo's own death; `election`
+  # describes the practice that actually governed succession for the
+  # rest of the shogunate's existence, as the Hojo regents installed
+  # and removed infant, boy, and imperial-prince shoguns to suit their
+  # own convenience - the identical mechanism yamato's own record
+  # documents the Fujiwara using on the throne itself.
+  succession_rule: { values: [primogeniture, election], source: griffis-1883 }
+  # `investiture`: the shogunal title itself was a grant of authority
+  # from the emperor, an external sovereign in the sense coding rule 8
+  # requires - the office remained, in law, a vassal's commission for
+  # the whole of this record's span, however completely the vassal's
+  # own vassals came to exercise its actual power.
+  legitimation: { values: [descent, investiture], source: griffis-1883 }
+
+turning_points:
+  - year: 1199
+    type: succession-crisis
+    name: Yoriie's compelled retirement
+    changed: >-
+      An eighteen-year-old heir inherited his father's title and almost
+      none of his father's actual standing, and within two years his
+      own household turned on him during a sickbed dispute over the
+      succession, ending his own rule by force. Yoritomo's personal
+      authority, it turned out, was not a thing his office could simply
+      pass down whole.
+      ruler himself.
+    source: griffis-1883
+    contested: false
+  - year: 1219
+    type: succession-crisis
+    name: The Minamoto line dies out
+    changed: >-
+      A nephew who had spent years believing his own uncle responsible
+      for his father's death cut that uncle down at a shrine and was
+      himself killed moments later, extinguishing in one afternoon every
+      direct male descendant Yoritomo had left. His own in-laws, who had
+      quietly arranged most of the family's mutual destruction, were
+      the only ones left standing to inherit what remained of it.
+    source: griffis-1883
+    contested: false
+  - year: 1281
+    type: battle
+    name: The second Mongol invasion repelled
+    changed: >-
+      A fleet larger than any Japan had ever faced was destroyed at
+      anchor by a storm its own defenders credited to prayer rather
+      than to weather, ending the single gravest external threat the
+      shogunate would face in its whole existence without a single
+      further attempt at invasion ever following it.
+    source: griffis-1883
+    contested: false
+  - year: 1331
+    type: revolt
+    name: Go-Daigo's first rising fails
+    changed: >-
+      An emperor who resolved to restore direct imperial rule fortified
+      a mountain stronghold at Kasagi with Buddhist support, only to
+      see it burned by a Hojo relief force within the year. Captured
+      and exiled to a remote island, Go-Daigo lost the field but not the
+      loyalty of two commanders, Kusunoki Masashige and Nitta Yoshisada,
+      who kept his cause alive while he was gone.
+    source: griffis-1883
+    contested: false
+  - year: 1333
+    type: siege
+    name: The destruction of Kamakura
+    changed: >-
+      A vassal's army, convinced by a receding tide that the sea itself
+      had answered its own general's prayer, burned the shogunate's
+      capital to the ground in a single day, while thousands of the
+      defeated regental house's own retainers chose suicide over
+      surrender rather than outlive it.
+    source: griffis-1883
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: griffis-1883 }
+    religions_carried: { count: 0, items: [], source: griffis-1883 }
+    successor_claims: { count: 0, items: [], source: griffis-1883 }

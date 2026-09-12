@@ -571,6 +571,9 @@ regions:
     group: steppe-east-asia
     thread: true
 
+  # `thread: true` since a real sourced edge now joins two of the
+  # region's own polities: Yamato's own record ends exactly where the
+  # Kamakura Shogunate's begins, in 1192.
   - id: korea-and-japan
     name: Korea and Japan
     blurb: >-
@@ -580,7 +583,7 @@ regions:
       for five hundred years, and the Japanese imperial house has never been
       replaced, only sidelined.
     group: steppe-east-asia
-    thread: false
+    thread: true
 
   - id: classical-india
     name: Classical India

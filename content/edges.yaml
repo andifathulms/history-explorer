@@ -3531,3 +3531,17 @@ edges:
            Ottoman protection rather than as a rump of Hungary proper."
     source: godkin-1853
     contested: false
+
+  - from: yamato
+    to: kamakura
+    type: claimed legitimacy of
+    year: 1192
+    note: "Minamoto no Yoritomo's appointment as Sei-i Tai Shogun did not
+           depose the mikado, who kept his throne, his court and his
+           centuries-old claim to be Japan's only sovereign. It created,
+           alongside him, a military government at Kamakura that held
+           the country's actual administration from that point onward -
+           the office every later shogunate down to 1868 would trace its
+           own legitimacy back to."
+    source: griffis-1883
+    contested: false
