@@ -3679,3 +3679,15 @@ edges:
            Goguryeo, on and off, for most of both kingdoms' existence."
     source: hulbert-1905
     contested: false
+
+  - from: gaya-confederacy
+    to: silla
+    type: absorbed remnants of
+    year: 527
+    note: "Ka-rak's own king, Kim Ku-hyŭng, surrendered his sovereignty
+           to Silla outright rather than risk his small confederacy
+           becoming disputed ground between larger neighbors, and was
+           kept on to govern his former kingdom under Silla's own
+           appointment."
+    source: hulbert-1905
+    contested: false

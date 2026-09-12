@@ -1,0 +1,112 @@
+id: gaya-confederacy
+region: korea
+
+name:
+  latin: Gaya Confederacy
+  script: 가야
+  script_lang: ko
+
+# hulbert-1905 dates the founding directly: in 41 CE nine district chiefs
+# "formed a confederacy and called it the Kingdom of Ka-rak," a founding
+# the source retells as six golden eggs yielding six boys - one king for
+# the leading state of Ka-rak and five chiefs for the dependent Ka-ya
+# states named after it.
+#
+# 527 CE closes Ka-rak itself, the confederacy's own leading and only
+# state whose rulers, capital and end this source actually narrates:
+# "she was founded in 41 A.D. and now she came to an end in 527." The
+# five dependent Ka-ya states outlived Ka-rak by some decades - the
+# source places their own fall "some five hundred years later" (which
+# would be nearer 541) "in the reign of King Chin-heung," but gives no
+# named ruler, no precise year and no narrated event for it, only that
+# vague span. A dated anecdote elsewhere in the same source has U Reuk,
+# a Ka-ya musician, still fleeing a merely "doomed" but standing Ka-ya
+# for Silla's own court as late as 552 - eleven years past the source's
+# own arithmetic for the end date, a discrepancy left unresolved here
+# rather than papered over with an invented year. The confederacy's own
+# span is therefore closed on Ka-rak's own well-attested end; the later
+# fall of its dependent states is narrated in the record's own afterlife
+# chapter without a fabricated date.
+span:
+  start: { min: 41, max: 41, source: hulbert-1905 }
+  end: { min: 527, max: 527, source: hulbert-1905 }
+
+identity: >-
+  Nine chiefs' confederacy of one leading state and five dependencies,
+  founded by a legend of six boys hatched from golden eggs, whose king
+  kept his own throne under Silla even after surrendering his
+  sovereignty to her without a fight.
+
+capitals:
+  - { name: "Ka-rak (Kim-hă)", from: 41, source: hulbert-1905 }
+
+core_region: The lower Nakdong river basin, from the coast north to Ka-ya San and west to Chi-ri San
+
+rulers:
+  # No reign end is given for Kim Su-ro; the source dates only his own
+  # enthronement and the deaths, decades apart, of his queen and
+  # himself.
+  founder: { name: "Kim Su-ro (Keum Su-ro)", source: hulbert-1905 }
+  # No single narrated achievement marks a peak distinct from the
+  # confederacy's own founding and its eventual peaceful end - the
+  # source states plainly that beyond a king list "all that is told us
+  # of the history of this rival of Silla" is its beginning and its
+  # close.
+  peak: null
+  # No accession year is given for Kim Ku-hyŭng, only his own act of
+  # submission in 527.
+  last: { name: "Kim Ku-hyŭng", source: hulbert-1905 }
+
+scripts_and_languages:
+  administration: [Old Korean]
+  writing_system: none recorded
+
+# The six-golden-eggs founding, shared across Ka-rak and its five
+# dependencies alike, is the only ground the source gives for the
+# confederacy's own royal legitimacy.
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  legitimation: { values: [divine-sanction], source: hulbert-1905 }
+
+ended:
+  type: gradual absorption
+  by: [silla]
+  year: 527
+  source: hulbert-1905
+
+preceded_by_external: []
+succeeded_by_external: []
+
+turning_points:
+  - year: 41
+    type: treaty
+    name: The nine chiefs' confederacy
+    changed: >-
+      Nine district chiefs pooled their own lands under one crown, said
+      by their own shared account to have been found inside a golden
+      egg on a mountainside - and five other boys hatched from the same
+      clutch became chiefs of five further states that carried the
+      confederacy's own name outward from its leading one.
+    source: hulbert-1905
+    contested: false
+  - year: 527
+    type: treaty
+    name: Kim Ku-hyŭng's submission
+    changed: >-
+      Rather than risk becoming contested ground between the peninsula's
+      two rising powers, Ka-rak's own king surrendered his sovereignty to
+      Silla outright and was kept on as governor of his former kingdom
+      under Silla's own appointment - a change the source's scanty
+      records give no sign of being anything but peaceful.
+    source: hulbert-1905
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: hulbert-1905 }
+    religions_carried: { count: 0, items: [], source: hulbert-1905 }
+    successor_claims: { count: 0, items: [], source: hulbert-1905 }
