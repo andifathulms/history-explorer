@@ -374,8 +374,12 @@ regions:
   # outside the region, Byzantium in 1018 and the Ottomans in 1396.
   #
   # Bulgaria was named in the prose of eight records before it had one of its
-  # own, which is what brought it in. Serbia is named on three and the Rus on
-  # two, and both belong here when they come.
+  # own, which is what brought it in. Serbia is named on three and belongs
+  # here when it comes. The Rus were once planned for this region too, but a
+  # four-polity, thousand-year arc from Kyiv to Moscow overloads a region
+  # blurbed around smaller neighbouring states, so it split out on its own —
+  # see `rus-and-muscovy` below, the same reasoning that split maritime
+  # Southeast Asia into three.
   - id: the-balkans
     name: The Balkans
     blurb: >-
@@ -387,13 +391,35 @@ regions:
     thread: false
 
   - id: eastern-europe
-    name: Eastern Europe and the Rus'
+    name: Eastern Europe
     blurb: >-
       The country between the Latin west and the steppe, where the frontier ran
       the wrong way: these were states with open grassland on one side and
       forest on the other, taking their letters and their liturgy from
       Constantinople and their politics from whoever was riding out of the east
       that century.
+    group: northern-and-eastern-europe
+    thread: false
+
+  # Added with `thread: false`, per the standing rule: a region enters with
+  # the flag off and it is flipped only once real sourced edges join two of
+  # its own polities. Kievan Rus', Novgorod, Muscovy and the Tsardom/Empire
+  # of Russia are one continuous political throughline rather than a
+  # scatter of unrelated states, which is the reason it gets its own region
+  # instead of sharing `eastern-europe` with Serbia and its neighbours.
+  #
+  # Named for its two centres of gravity rather than for "Russia" outright:
+  # Kievan Rus' and Novgorod never called themselves that, the same
+  # reasoning that keeps `medang` separate from the later Mataram sultanate
+  # elsewhere in this corpus.
+  - id: rus-and-muscovy
+    name: Rus' and Muscovy
+    blurb: >-
+      The river road from the Baltic to the Black Sea, and the
+      principalities built along it: a federation of trading cities
+      converted from Constantinople, shattered by the Mongols, and
+      reassembled — over two centuries as a tribute-collecting vassal — by
+      the one city among them that outlasted its own masters.
     group: northern-and-eastern-europe
     thread: false
 
