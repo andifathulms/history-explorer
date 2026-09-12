@@ -113,6 +113,21 @@ turning_points:
       it as a combatant, never again as an overlord being paid.
     source: shaw-2000
     contested: true
+  - year: -1550
+    type: siege
+    name: "The fall of Avaris"
+    changed: >-
+      Ahmose took the city his family's tributary war had been fought over
+      for two generations and drove what remained of the dynasty into
+      Palestine, pursuing it as far as a three-year siege at Sharuhen rather
+      than treating the capture of Avaris itself as the end of the matter.
+      No Hyksos kingship survived it anywhere. What did survive was
+      everything the conquered had brought with them — the horse, the
+      chariot, better bronze — in the hands of the army that had just
+      finished them, which is the whole shape of the New Kingdom that
+      follows.
+    source: breasted-1912
+    contested: false
 
 measures:
   # No figure specific to a Delta kingdom whose own effective southern
