@@ -109,6 +109,20 @@ turning_points:
       reached and is the measure of what the tribute of 484 had bought.
     source: litvinsky-1996
     contested: false
+  - year: 560
+    type: battle
+    name: "The Türk-Sasanian partition"
+    changed: >-
+      Khusrau I allied with the newly risen Göktürk khaganate and the two
+      powers attacked from opposite sides between roughly 557 and 561, the
+      Türks across the Oxus from the north and the Sasanians from the
+      south-west. The confederation broke and its territory was partitioned
+      along the river rather than annexed by either side. It had taken a
+      coalition of the empire it had been extorting for a generation and a
+      larger confederation from further east to end it: one of them was not
+      enough.
+    source: litvinsky-1996
+    contested: false
 
 measures:
   reach_km2: null
