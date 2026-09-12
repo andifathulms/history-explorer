@@ -1,0 +1,140 @@
+id: baekje
+region: korea
+
+name:
+  latin: Baekje
+  script: 백제
+  script_lang: ko
+
+# hulbert-1905 dates the founding directly and without hedging: "the year 18
+# B.C. beheld the founding of the third of the great kingdoms" - the year
+# On-jo, a son of Goguryeo's own founder Jumong displaced by an elder
+# half-brother's return, settled at Eui-rye-sŭng as a vassal of Ma-han.
+# Elsewhere, working backward from a 678-year reported lifespan and the 660
+# CE fall, the same source offers 16 BCE instead and calls the arithmetic
+# uncertain even as it states a preference - an internal inconsistency of a
+# few years in the source's own counting, not a second source to weigh
+# against the first. The directly narrated date is used here.
+#
+# 660 CE is given directly: "It was in 660 that Păk-je fell. She survived
+# for 678 years."
+span:
+  start: { min: -18, max: -18, source: hulbert-1905 }
+  end: { min: 660, max: 660, source: hulbert-1905 }
+
+identity: >-
+  A displaced prince's kingdom on land its own neighbor had granted it,
+  which repaid that grant with conquest, once nearly broke Goguryeo at its
+  own capital, and finally fell to a Silla-Tang alliance that shipped its
+  last king to China.
+
+capitals:
+  - { name: "Eui-rye-sŭng (Chik-san)", from: -18, source: hulbert-1905 }
+  - { name: "Han-san / Nam P'yŭng-yang (Seoul)", from: 371, source: hulbert-1905 }
+  - { name: "Sa-ja (Sabi)", source: hulbert-1905 }
+
+core_region: The Han river basin, later the Kŭm river basin in Ch'ung-ch'ŭng Province
+
+rulers:
+  # No reign end is given for On-jo; the source dates only his founding and
+  # his own conquest of Ma-han twenty-seven years later.
+  founder: { name: "On-jo", source: hulbert-1905 }
+  # The king who nearly took P'yongyang in 371 and mortally wounded
+  # Goguryeo's own king is never named in the source's account of the
+  # campaign - only "the king of Păk-je" and an unnamed Crown Prince who led
+  # the field army. The next king the source names by name, Ch'im-yu, did
+  # not ascend until 384.
+  peak: null
+  # The king captured at Sabi in 660 and carried to China, where he died the
+  # following year, is likewise never named in the source's narration of the
+  # fall - only "the king of Păk-je."
+  last: null
+
+scripts_and_languages:
+  administration: [Old Korean]
+  writing_system: none recorded; Chinese script used for diplomatic correspondence
+
+ended:
+  type: conquest
+  by: [tang]
+  year: 660
+  source: hulbert-1905
+
+preceded_by_external: []
+
+succeeded_by_external:
+  - name: Silla
+    type: conquered by
+    year: 660
+    note: >-
+      A Silla army under Gen. Kim Yu-sin supplied the land force that broke
+      Baekje's own defenders at the Hwangsan Pass while a Tang fleet of a
+      hundred and thirty thousand men landed by sea; Silla later crushed a
+      restoration movement raised in Baekje's name before absorbing its
+      territory outright.
+    source: hulbert-1905
+
+# China invested Baekje's king with the insignia of royalty in 415, two
+# years after doing the same for Goguryeo's - the same external confirmation
+# this region's Goguryeo record also carries. Descent is attested
+# throughout: every succession the source narrates passes father to son or
+# among a king's own sons.
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  legitimation: { values: [descent, investiture], source: hulbert-1905 }
+
+turning_points:
+  - year: -18
+    type: capital-move
+    name: The founding of Eui-rye-sŭng
+    changed: >-
+      Passed over for the succession by an elder half-brother's return from
+      Goguryeo, On-jo fled south with his own brother Pi-ryu, and where
+      Pi-ryu's own coastal choice failed to take root, On-jo's inland
+      settlement on land granted by the king of Ma-han grew into the
+      kingdom later known as Baekje.
+    source: hulbert-1905
+    contested: false
+  - year: 9
+    type: battle
+    name: The fall of Ma-han
+    changed: >-
+      A generation into holding land granted him as a guest, On-jo used a
+      staged hunting party to seize Ma-han's own capital almost without a
+      fight, converting a tenant's settlement into a fully independent
+      kingdom by the same treachery the source says Wiman had once used
+      against Gija's own Joseon.
+    source: hulbert-1905
+    contested: false
+  - year: 371
+    type: battle
+    name: The storming of P'yongyang
+    changed: >-
+      A Baekje army of thirty thousand met no resistance until it reached
+      Goguryeo's own capital and mortally wounded that kingdom's king with
+      an arrow during the assault on its walls; in the campaign's
+      aftermath Baekje's own king relocated his government onto ground his
+      army had just fought across.
+    source: hulbert-1905
+    contested: false
+  - year: 660
+    type: siege
+    name: The fall of Sabi
+    changed: >-
+      A Silla army broke Baekje's last field defenders at Hwangsan Pass
+      while a Tang fleet landed on the coast; the king fled, returned to
+      surrender, and was deported to China with his sons and thousands of
+      his own subjects, closing out a dynasty of thirty kings in a single
+      campaign.
+    source: hulbert-1905
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: hulbert-1905 }
+    religions_carried: { count: 0, items: [], source: hulbert-1905 }
+    successor_claims: { count: 0, items: [], source: hulbert-1905 }

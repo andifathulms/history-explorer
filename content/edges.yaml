@@ -3631,3 +3631,15 @@ edges:
            twenty thousand captives back to China."
     source: hulbert-1905
     contested: false
+
+  - from: goguryeo
+    to: baekje
+    type: seceded from
+    year: -18
+    note: "On-jo, a son of Goguryeo's own founder Jumong, fled south
+           with his brother Pi-ryu rather than remain under an elder
+           half-brother restored to the succession, and settled on
+           land granted by Ma-han's king to found the kingdom later
+           known as Baekje."
+    source: hulbert-1905
+    contested: false
