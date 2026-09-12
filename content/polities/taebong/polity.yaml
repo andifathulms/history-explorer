@@ -1,0 +1,122 @@
+id: taebong
+region: korea
+
+name:
+  latin: Taebong
+  script: 태봉
+  script_lang: ko
+
+# hulbert-1905 dates the founding to 905: "Kung-ye established his
+# capital at Ch'ŭl-wŭn... and named his kingdom Ma-jin," the point at
+# which a warlord who had spent nine years seizing territory (from 896)
+# and four calling himself king without a named state (from 901) finally
+# built the institutions - a capital, a distributed set of offices - that
+# made it one. The name used here, Tă-bong, was adopted only in 911; the
+# founding year is kept at the earlier, better-attested act of state
+# formation rather than either the vaguer proclamation of 901 or the
+# later renaming.
+#
+# 918 CE is given directly: "The year 918 was one of the epochal years
+# of Korean history" - the year Kung-ye's own officers forced Wang-gön
+# to the throne and Kung-ye himself was hunted down and beheaded at
+# Pu-yang.
+span:
+  start: { min: 905, max: 905, source: hulbert-1905 }
+  end: { min: 918, max: 918, source: hulbert-1905 }
+
+identity: >-
+  A warlord's kingdom that declared its own king a living Buddha, grew
+  to hold most of the peninsula's north and east, and collapsed when
+  its officers deposed a ruler who had turned on his own wife and sons
+  over doctrine.
+
+capitals:
+  - { name: "Ch'ŭl-wŭn", from: 905, source: hulbert-1905 }
+
+core_region: The central peninsula from the Han River basin north and east, including former Goguryeo territory
+
+rulers:
+  # No birth or accession year distinct from the founding of the state
+  # itself is given for Kung-ye; his reign is dated here from that
+  # founding to his own death.
+  founder: { name: "Kung-ye", reign: [905, 918], source: hulbert-1905 }
+  peak: { name: "Kung-ye", reign: [905, 918], source: hulbert-1905 }
+  last: { name: "Kung-ye", reign: [905, 918], source: hulbert-1905 }
+
+scripts_and_languages:
+  administration: [Old Korean]
+  writing_system: none recorded
+
+# Kung-ye's own claim to rule rested, by 911, on nothing short of
+# divinity: he proclaimed himself the Buddha Mi-ryŭk (Maitreya), took
+# the name for himself, dressed as a high priest and had a monk put to
+# death for refusing to accept a book of his own composition as
+# canonical scripture.
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  legitimation: { values: [divine-sanction], source: hulbert-1905 }
+
+ended:
+  type: internal usurpation
+  by: []
+  year: 918
+  source: hulbert-1905
+
+preceded_by_external: []
+
+succeeded_by_external:
+  - name: Goryeo
+    type: overthrew
+    year: 918
+    note: >-
+      Kung-ye's own officials, fearing for their lives after his
+      escalating cruelty toward his own family, carried Wang-gön to the
+      palace by force and proclaimed him king in Kung-ye's place; Kung-ye
+      fled the capital naked and was caught and beheaded at Pu-yang.
+    source: hulbert-1905
+
+turning_points:
+  - year: 905
+    type: capital-move
+    name: The founding of Ma-jin at Ch'ŭl-wŭn
+    changed: >-
+      Nine years after first seizing territory in the north and four
+      after proclaiming himself a king without yet naming a state,
+      Kung-ye gave his rule a fixed seat and a formal name, dividing
+      administrative offices among his own followers - by which point
+      most of the peninsula's north and east, including the young
+      Wang-gön's own territory, already answered to him.
+    source: hulbert-1905
+    contested: false
+  - year: 911
+    type: conversion
+    name: Kung-ye becomes the Buddha
+    changed: >-
+      Renaming his kingdom Tă-bong, Kung-ye proclaimed himself the
+      living Buddha Mi-ryŭk, dressed the part and began enforcing his
+      own writings as canon - a religious claim that, rather than
+      strengthening his own authority, marked the point his subjects
+      and officials began to regard him as unfit to rule.
+    source: hulbert-1905
+    contested: false
+  - year: 918
+    type: succession-crisis
+    name: The palace coup
+    changed: >-
+      Fearing for their own lives after Kung-ye's murder of his wife and
+      sons, his officials seized Wang-gön by force, carried him to the
+      palace against his own stated wishes and proclaimed him king in
+      Kung-ye's place; the deposed ruler was run down and executed
+      before the day was out.
+    source: hulbert-1905
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: hulbert-1905 }
+    religions_carried: { count: 0, items: [], source: hulbert-1905 }
+    successor_claims: { count: 0, items: [], source: hulbert-1905 }
