@@ -1,0 +1,126 @@
+id: gojoseon
+region: korea
+
+name:
+  latin: Gojoseon (Old Joseon)
+  script: 고조선
+  script_lang: ko
+
+# 2332 BCE is hulbert-1905's own date for Tan-gun's founding - framed
+# throughout as legend ("in the primeval ages, so the story runs"), but
+# the only founding date the source actually gives, and the one its own
+# chronology of Korea is built outward from. The source itself
+# speculates that "Tan-gun" may name a line of native chieftains rather
+# than one man, which is the reading this record's own founder entry
+# follows: no single reign length is recorded, because none is claimed
+# to exist.
+#
+# 106 BCE is the fall of P'yongyang to Han China under Emperor Wu, "in
+# the thirty-fourth year of the Han Emperor Wu-ti" - ending the line
+# founded by the usurper Wiman, itself built on the wreck of the
+# kingdom Gija had ruled for very close to a thousand years.
+span:
+  start: { min: -2332, max: -2332, source: hulbert-1905 }
+  end: { min: -106, max: -106, source: hulbert-1905 }
+
+identity: >-
+  The peninsula's first kingdom by its own reckoning, founded by a
+  half-divine lord who taught marriage, cooking and farming to nine
+  wild tribes, inherited by a Chinese sage who arrived with five
+  thousand followers and a law code written on a tortoise's back, and
+  finally stolen by a refugee general whose own grandson picked a fight
+  with the Han Empire that no border kingdom could actually win.
+
+capitals:
+  - { name: "P'yongyang", source: hulbert-1905 }
+
+core_region: The Taedong river basin and the territory between the Amnok (Yalu) and the Han rivers
+
+rulers:
+  # No personal reign length is given: the source itself treats
+  # "Tan-gun" as likely naming a line of rulers rather than one man who
+  # reigned for over a thousand years.
+  founder: { name: "Tan-gun (Dangun)", source: hulbert-1905 }
+  # Wiman's own reign length is not given, only that his kingdom reached
+  # its greatest extent - into Liao-tung and south to the Han River -
+  # under his rule before being lost within two generations.
+  peak: { name: "Wiman", source: hulbert-1905 }
+  # U-gu was Wiman's grandson, killed by his own subjects during the
+  # siege of P'yongyang in 106 BCE; no reign start date is given.
+  last: { name: "U-gu", source: hulbert-1905 }
+
+scripts_and_languages:
+  administration: [Old Korean]
+  writing_system: none recorded; Chinese script used for later diplomatic correspondence
+
+# A conquest in the plainest sense: Han China invaded after U-gu cut
+# off diplomatic relations and had an imperial envoy's own intermediary
+# killed, besieged P'yongyang for months, and took the city after an
+# internal traitor opened its gates. `by` names han, which carries a
+# record of its own in this corpus.
+ended:
+  type: conquest
+  by: [han]
+  year: -106
+  source: hulbert-1905
+
+preceded_by_external: []
+succeeded_by_external: []
+
+institutions:
+  military_basis: { values: [tribal-levy, client-levy], source: hulbert-1905 }
+  revenue_basis: { values: [tribute], source: hulbert-1905 }
+  # `nomination` for Gija's own accession - installed as king of Joseon
+  # by China's new Zhou emperor rather than inheriting Tan-gun's own
+  # line - and for Wiman's usurpation, which replaced Gija's dynasty by
+  # force rather than by any recognised rule of succession at all.
+  succession_rule: { values: [primogeniture, nomination], source: hulbert-1905 }
+  # `divine-sanction` for Tan-gun's own descent from a spirit king; the
+  # Korean equivalent of `investiture` for Gija's own kingship, granted
+  # by the founding emperor of the Zhou dynasty rather than claimed
+  # unilaterally.
+  legitimation: { values: [divine-sanction, investiture], source: hulbert-1905 }
+
+turning_points:
+  - year: -1122
+    type: succession-crisis
+    name: Gija's arrival
+    changed: >-
+      A Shang prince who had refused to serve the dynasty that overthrew
+      his own royal house emigrated eastward with five thousand
+      followers rather than accept office under it, and was made king of
+      Joseon by China's new Zhou emperor without ever being required to
+      swear vassalage - the point Tan-gun's own line, by tradition,
+      retired from the throne it had held since the kingdom's founding.
+    source: hulbert-1905
+    contested: false
+  - year: -193
+    type: revolt
+    name: Wiman's betrayal
+    changed: >-
+      A refugee general given land and a border post in exchange for
+      loyal service instead raised a force from Chinese refugees and
+      local tribes, tricked the reigning king into letting him march on
+      the capital under false pretences, and seized the throne outright
+      while his former patron fled south by boat with what treasure
+      could be loaded in time.
+    source: hulbert-1905
+    contested: false
+  - year: -106
+    type: siege
+    name: The fall of P'yongyang
+    changed: >-
+      A months-long siege, prolonged by open quarreling between the two
+      Han generals sent to conduct it, ended only when the king's own
+      subjects turned on him from within - closing a kingdom Wiman had
+      built on treachery with a treachery of its own people's making.
+    source: hulbert-1905
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: hulbert-1905 }
+    religions_carried: { count: 0, items: [], source: hulbert-1905 }
+    successor_claims: { count: 0, items: [], source: hulbert-1905 }

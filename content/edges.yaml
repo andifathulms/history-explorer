@@ -3595,3 +3595,15 @@ edges:
            over its formal reunification."
     source: griffis-1883
     contested: false
+
+  - from: gojoseon
+    to: han
+    type: conquered by
+    year: -106
+    note: "Emperor Wu sent two generals against U-gu, Wiman's grandson,
+           after he cut off diplomatic relations and had an imperial
+           intermediary killed. A months-long siege of P'yongyang ended
+           when the king was assassinated by his own subjects and a
+           second traitor opened the gates."
+    source: hulbert-1905
+    contested: false
