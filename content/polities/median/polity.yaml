@@ -74,6 +74,19 @@ turning_points:
       from the sky rather than from any record the Medes kept.
     source: van-de-mieroop-2015
     contested: false
+  - year: -549
+    type: revolt
+    name: "Astyages handed over"
+    changed: >-
+      Cyrus of Anshan revolted around 553 and defeated Astyages around 549,
+      and the Median king's own army is said to have handed him over to him.
+      The Nabonidus Chronicle, contemporary and independent of Herodotus,
+      confirms that Astyages' troops rebelled and delivered him — the second
+      and last of the two things about the Medes a cuneiform document
+      confirms, bracketing sixty years of asserted empire between it and
+      Nineveh that no contemporary source describes.
+    source: briant-2002
+    contested: false
 
 measures:
   # Taagepera's figure, cited and transcribed correctly, for a polity whose
