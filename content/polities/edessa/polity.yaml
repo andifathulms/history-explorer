@@ -66,6 +66,20 @@ turning_points:
       by that population's own act, or with its acquiescence.
     source: macevitt-2008
     contested: true
+  - year: 1123
+    type: battle
+    name: "Both rulers taken"
+    changed: >-
+      Balak ibn Ortuq took Joscelin I of Courtenay at Saruj in the autumn of
+      1122 and Baldwin II of Jerusalem near Manzara the following spring, and
+      held count and king together in the same fortress at Kharput. It was
+      the sharpest instance of the county's chronic weakness — rulers who had
+      to lead from the front on a long frontier with a Latin fighting
+      strength in the hundreds — and it left both Edessa and Jerusalem
+      without their own lord at once. When a genuinely bad year came, in
+      1144, there was no reserve of leadership left to draw on.
+    source: ibn-al-qalanisi
+    contested: false
   - year: 1144
     type: siege
     name: "The fall of Edessa"
