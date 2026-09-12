@@ -19,11 +19,9 @@ span:
   end: { min: -1430, max: -1390, source: trameri-2020 }
 
 identity: >-
-  A Cilician highland kingdom known almost entirely through the archives of
-  its neighbors - a seal, a handful of treaties, one private contract with a
-  Syrian city-state - that spent its whole independent existence as a
-  smaller power triangulating between Hatti and Mittani, and ended not in
-  conquest but in a treaty that simply stopped calling it independent.
+  A Cilician highland kingdom known almost entirely through its neighbors'
+  archives - a seal, a treaty, one private contract - that balanced between
+  Hatti and Mittani until a treaty simply stopped calling it independent.
 
 capitals:
   - { name: Kummanni, source: trameri-2020 }

@@ -17,11 +17,9 @@ span:
   end: { min: -1780, max: -1778, source: king-1910 }
 
 identity: >-
-  The kingdom of Sumer and Akkad, reconstituted under a new capital by the
-  officer Ur's own last king had sent north for grain, which held the old
-  title for two and a quarter centuries before a rival city it had itself
-  once out-fought grew strong enough to end it - by whose hand, and exactly
-  when, no source consulted here can say with confidence.
+  The kingdom of Sumer and Akkad, reconstituted by an officer sent north for
+  grain when Ur fell, holding the old title two centuries before a rival it
+  had once beaten ended it - by whose hand, no source says.
 
 capitals:
   - { name: Isin, from: -2004, source: king-1910 }

@@ -18,11 +18,9 @@ span:
   end: { min: -1763, max: -1763, source: van-de-mieroop-2005 }
 
 identity: >-
-  A governorship that broke from Isin, spent a century as one power among
-  several in southern Mesopotamia, and finally unified the whole of it under
-  a king who held the throne for sixty years - only to lose everything in a
-  single campaign to an Amorite rival who had spent twenty-nine years being
-  ignored.
+  A governorship that broke from Isin and, under a king who held the throne
+  sixty years, unified southern Mesopotamia - only to lose it all in one
+  campaign to an Amorite rival it had spent decades ignoring.
 
 capitals:
   - { name: Larsa, from: -1910, source: king-1910 }

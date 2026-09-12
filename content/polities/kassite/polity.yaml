@@ -24,12 +24,9 @@ span:
   end: { min: -1160, max: -1140, source: taagepera-1997 }
 
 identity: >-
-  The longest dynasty Mesopotamia ever had, ruling a land it renamed after
-  itself, without ever leaving a native chronicle of how it came to power -
-  Aryan horse-breeders who spent four centuries governing Babylon in
-  Babylon's own language, exchanging gold and daughters with the Pharaohs of
-  Egypt as an equal power, and vanishing from a name uncertain enough that
-  the king list itself preserves it only as a broken word.
+  The longest dynasty Mesopotamia ever had, ruling Babylon in Babylon's own
+  language for four centuries with no record of how it began - diplomatic
+  equals of the Pharaohs, gone at the end under a name too broken to read.
 
 capitals:
   - { name: Babylon, source: king-1915 }

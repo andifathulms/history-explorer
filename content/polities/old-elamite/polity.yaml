@@ -18,11 +18,9 @@ span:
   end: { min: -1750, max: -1750, source: cameron-1936 }
 
 identity: >-
-  Nine centuries and three successive ruling systems under one loose Elamite
-  identity - a line of Awan kings, a Shimashki dynasty that took a Sumerian
-  capital captive, and a triarchic power-sharing system of grand regents and
-  viceroys - that the source's own narrative simply loses sight of, rather
-  than records the end of.
+  Nine centuries under one loose Elamite identity - Awan kings, a Shimashki
+  dynasty that took a Sumerian capital captive, and a triarchic system of
+  grand regents - whose own record simply loses sight of itself at the end.
 
 capitals:
   - { name: Susa, source: cameron-1936 }
