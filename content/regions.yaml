@@ -401,17 +401,23 @@ regions:
     group: northern-and-eastern-europe
     thread: false
 
-  # Added with `thread: false`, per the standing rule: a region enters with
-  # the flag off and it is flipped only once real sourced edges join two of
-  # its own polities. Kievan Rus', Novgorod, Muscovy and the Tsardom/Empire
-  # of Russia are one continuous political throughline rather than a
-  # scatter of unrelated states, which is the reason it gets its own region
-  # instead of sharing `eastern-europe` with Serbia and its neighbours.
+  # Kievan Rus', Novgorod, Muscovy and the Tsardom/Empire of Russia are one
+  # continuous political throughline rather than a scatter of unrelated
+  # states, which is the reason it gets its own region instead of sharing
+  # `eastern-europe` with Serbia and its neighbours.
   #
   # Named for its two centres of gravity rather than for "Russia" outright:
   # Kievan Rus' and Novgorod never called themselves that, the same
   # reasoning that keeps `medang` separate from the later Mataram sultanate
   # elsewhere in this corpus.
+  #
+  # `thread: true` since the sourced edge from muscovy to tsardom-of-russia
+  # joined two of the region's own polities. Kievan Rus' and Novgorod carry
+  # no edge to either successor state or to each other — both are
+  # contemporaries of the Muscovite line rather than links in its chain —
+  # so the thread draws one thing, the Muscovite succession, and leaves the
+  # other two records exactly as edgeless as hard rule 7 says a polity is
+  # allowed to be.
   - id: rus-and-muscovy
     name: Rus' and Muscovy
     blurb: >-
@@ -421,7 +427,7 @@ regions:
       reassembled — over two centuries as a tribute-collecting vassal — by
       the one city among them that outlasted its own masters.
     group: northern-and-eastern-europe
-    thread: false
+    thread: true
 
   - id: islamic-west
     name: The Islamic West

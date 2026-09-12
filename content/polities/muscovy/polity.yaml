@@ -47,29 +47,17 @@ scripts_and_languages:
 # under a newly claimed title. `dynastic replacement` is the closest fit
 # in the closed vocabulary to a change of ruling status rather than of
 # rulers - the same category this corpus already uses when one record
-# gives way to a direct successor rather than being destroyed. `by` is
-# empty here rather than naming that successor, since no record for it
-# exists yet; see the succeeded_by_external note below.
+# gives way to a direct successor rather than being destroyed. `by` names
+# tsardom-of-russia, and the edges.yaml entry for the same event carries
+# the note this comment would otherwise duplicate.
 ended:
   type: dynastic replacement
-  by: []
+  by: [tsardom-of-russia]
   year: 1547
   source: kliuchevsky-1912
 
 preceded_by_external: []
-
-succeeded_by_external:
-  - name: The Tsardom of Russia
-    type: claimed legitimacy of
-    year: 1547
-    note: >-
-      Ivan IV's coronation with the title of Tsar in January 1547 did not
-      change the ruling house, the capital, or the territory at a stroke.
-      It changed the office the same Rurikid line now claimed to hold -
-      no longer merely the senior of the Rus' princes, but an anointed
-      autocrat in the Byzantine mould his grandfather Ivan III had already
-      spent a reign building the ceremonial and genealogical case for.
-    source: kliuchevsky-1912
+succeeded_by_external: []
 
 institutions:
   # Princely retinues (the druzhina, later reorganised as a service

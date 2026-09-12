@@ -1,0 +1,173 @@
+id: tsardom-of-russia
+region: rus-and-muscovy
+
+name:
+  latin: The Tsardom and Empire of Russia
+  script: Российское царство / Российская империя
+  script_lang: rus
+
+# 1547 is Ivan IV's coronation with the title of Tsar - the same event
+# muscovy's own record ends on. Nothing about the ruling house, the
+# capital or the territory changed that January; what changed was the
+# office, and this record is the one that office belongs to from that
+# point on.
+#
+# 1917 is Nicholas II's abdication in favour of his brother Michael, and
+# Michael's own refusal, the next day, to accept the throne without a
+# Constituent Assembly's sanction. pares-1926 treats that refusal, not
+# the abdication itself, as the actual fall of the dynasty: Nicholas
+# still expected a Romanov successor when he signed, and it was
+# Michael's answer that left no one on the throne at all.
+span:
+  start: { min: 1547, max: 1547, source: kliuchevsky-1912 }
+  end: { min: 1917, max: 1917, source: pares-1926 }
+
+identity: >-
+  The Muscovite grand principality's own continuation under a title that
+  began as a claim to Byzantium's fallen inheritance and ended as a
+  fully continental empire, ruled from a new capital its own reformer
+  built from a river swamp, and undone in the end not by any foreign
+  army but by the accumulated weight of a war it could not win and a
+  monarchy that no one any longer knew how to save.
+
+capitals:
+  - { name: Moscow, script: Москва, from: 1547, source: kliuchevsky-1912 }
+  - { name: Saint Petersburg, script: Санкт-Петербург, from: 1712, source: pares-1926 }
+
+core_region: The East European Plain, extended over three and a half centuries across Siberia to the Pacific and into Central Asia and the Caucasus
+
+rulers:
+  founder: { name: "Ivan IV (Ivan the Terrible)", reign: [1547, 1584], source: kliuchevsky-1912 }
+  peak: { name: "Peter I (Peter the Great)", reign: [1682, 1725], source: pares-1926 }
+  last: { name: Nicholas II, reign: [1894, 1917], source: pares-1926 }
+
+scripts_and_languages:
+  administration: [Russian, Church Slavonic, French]
+  writing_system: Cyrillic
+
+# Not a conquest and not a clean dynastic replacement: no rival house took
+# the throne, no foreign army occupied the capital in 1917 itself, and no
+# single usurping faction seized power in the moment of the abdication.
+# Nicholas signed expecting a Romanov successor; it was the Grand Duke
+# Michael's own refusal of the crown the next day, pending a Constituent
+# Assembly, that left the monarchy with no one to hold it. `internal
+# usurpation` is the closest fit in the closed vocabulary to authority
+# passing to a body - the Duma's Provisional Government and, within
+# months, the Petrograd Soviet - that had no dynastic claim of its own.
+ended:
+  type: internal usurpation
+  by: []
+  year: 1917
+  source: pares-1926
+
+preceded_by_external: []
+
+succeeded_by_external:
+  - name: The Russian Provisional Government
+    type: overthrew
+    year: 1917
+    note: >-
+      The Grand Duke Michael's refusal to take the crown left executive
+      authority with the Duma's own Provisional Government and, sharing
+      uneasy power with it in the same city, the Petrograd Soviet of
+      Workers' and Soldiers' Deputies. Neither body claimed to be a
+      monarchy's successor; both claimed to be holding the country until
+      a Constituent Assembly could decide its future - an assembly the
+      Bolsheviks dissolved by force within a year of taking power
+      themselves.
+    source: pares-1926
+
+institutions:
+  military_basis: { values: [conscript, standing-professional], source: pares-1926 }
+  revenue_basis: { values: [land-tax, poll-tax, monopoly], source: pares-1926 }
+  succession_rule: { values: [primogeniture], source: pares-1926 }
+  # Descent, carried by the same Romanov house from 1613 onward; divine
+  # sanction, the Orthodox anointing every Tsar and Emperor received at
+  # coronation; and, for the whole span, autocracy's own increasingly
+  # explicit claim to be unconstrained by any law but the ruler's will -
+  # a claim the 1905 October Manifesto qualified without ever formally
+  # renouncing.
+  legitimation: { values: [descent, divine-sanction], source: pares-1926 }
+
+turning_points:
+  - year: 1547
+    type: reform
+    name: Ivan IV crowned Tsar
+    changed: >-
+      The same coronation that closes the record of Moscow's grand
+      princes opens this one: an anointed title, borrowed from a fallen
+      empire's own ceremonial memory, for a Rurikid line that had spent
+      three centuries becoming powerful enough to make the borrowing
+      credible.
+    source: kliuchevsky-1912
+    contested: false
+  - year: 1613
+    type: succession-crisis
+    name: The election of Michael Romanov
+    changed: >-
+      Fifteen years without a settled succession, two false claimants to
+      the dead dynasty's name, and a foreign occupation of the Kremlin
+      itself ended when a national council chose a sixteen-year-old
+      relative of the old Tsars by acclamation rather than by any
+      established law of inheritance - a new house on the throne, put
+      there by an assembly rather than a birthright, in the one crisis
+      severe enough to require it.
+    source: kliuchevsky-1912
+    contested: false
+  - year: 1721
+    type: reform
+    name: Peter proclaimed Emperor
+    changed: >-
+      A twenty-one-year war for a strip of Baltic coastline ended in
+      total victory, and the honorific the Senate and the clergy settled
+      on for the victor announced something larger than the war itself
+      had been fought for: a tsardom that had spent a century catching up
+      to its neighbours now declaring itself finished catching up.
+    source: pares-1926
+    contested: false
+  - year: 1861
+    type: reform
+    name: Emancipation of the serfs
+    changed: >-
+      An emperor pushed personal freedom for tens of millions of bonded
+      peasants past a landowning class that fought the scheme at every
+      committee stage, over two chairmen and years of drafting. What the
+      edict itself could not settle - the actual terms on which freed
+      peasants would hold land - went on generating grievance on both
+      sides for the rest of the dynasty's life.
+    source: pares-1926
+    contested: false
+  - year: 1905
+    type: revolt
+    name: The October Manifesto
+    changed: >-
+      A capital paralysed by a general strike extracted, from a monarch
+      who had never previously answered to any body but himself, a
+      written promise of an elected assembly with power over new
+      legislation. Ministers spent the following months finding every
+      lawful way to shrink what had just been granted, but the underlying
+      admission - that the throne now owed an account of itself to
+      someone else - proved harder to take back than the specific
+      concessions were.
+    source: pares-1926
+    contested: false
+  - year: 1917
+    type: revolt
+    name: Abdication
+    changed: >-
+      A capital paralysed by strikes, a garrison that had gone over to
+      the crowd, and a chief of staff's own generals advising him to step
+      down left Nicholas little choice at Pskov. He signed away his
+      throne expecting his brother to take it up; his brother's refusal,
+      delivered the following day, is what actually ended a monarchy that
+      had ruled continuously, under one title or another, since 1547.
+    source: pares-1926
+    contested: false
+
+measures:
+  reach_km2: { value: 22800000, at: 1895, source: taagepera-1997 }
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: pares-1926 }
+    religions_carried: { count: 0, items: [], source: pares-1926 }
+    successor_claims: { count: 0, items: [], source: pares-1926 }

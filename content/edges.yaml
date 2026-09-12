@@ -3467,3 +3467,17 @@ edges:
            little serious resistance."
     source: haig-1928
     contested: false
+
+  - from: muscovy
+    to: tsardom-of-russia
+    type: claimed legitimacy of
+    year: 1547
+    note: "Ivan IV's coronation with the title of Tsar did not change the
+           ruling house, the capital, or the territory at a stroke. It
+           changed the office the same Rurikid line now claimed to hold -
+           no longer merely the senior of the Rus' princes, but an
+           anointed autocrat in the Byzantine mould his grandfather Ivan
+           III had already spent a reign building the ceremonial and
+           genealogical case for."
+    source: kliuchevsky-1912
+    contested: false
