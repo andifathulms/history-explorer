@@ -1,0 +1,118 @@
+id: ashikaga
+region: korea-and-japan
+
+name:
+  latin: The Ashikaga Shogunate
+  script: 足利幕府
+  script_lang: ja
+
+# 1336 is Ashikaga Takauji's installation of the rival emperor Kogen and
+# his own appointment as Sei-i Tai Shogun, the same event that opens
+# both the Nanboku-cho schism and this record. griffis-1883's own
+# shogun list dates Takauji's tenure from 1335, a year earlier than the
+# imperial break itself is dated elsewhere in the same source - the
+# span follows the political event common to both this record and
+# Nanboku-cho's own.
+#
+# 1573 is Nobunaga's arrest and deposition of the fifteenth and last
+# Ashikaga shogun, Yoshiaki, ending "the power of this family, which
+# had lasted two hundred and thirty-eight years." No Sei-i Tai Shogun
+# would be appointed again until Ieyasu in 1603.
+span:
+  start: { min: 1336, max: 1336, source: griffis-1883 }
+  end: { min: 1573, max: 1573, source: griffis-1883 }
+
+identity: >-
+  The military house Kamakura's own fall and a rival emperor's
+  installation put in power, which governed a country its own most
+  ambitious shogun accepted a Chinese title to flatter, spent its later
+  century as a nominal authority masking a civil war it could not
+  contain, and finally lost even the shogunal title itself to a vassal
+  daimyo strong enough to no longer need one.
+
+capitals:
+  - { name: Kyoto, source: griffis-1883 }
+
+core_region: The Kinai provinces around Kyoto, with authority increasingly nominal outside them from the fifteenth century onward
+
+rulers:
+  founder: { name: "Ashikaga Takauji", reign: [1335, 1357], source: griffis-1883 }
+  peak: { name: "Ashikaga Yoshimitsu", reign: [1368, 1393], source: griffis-1883 }
+  last: { name: "Ashikaga Yoshiaki", reign: [1568, 1573], source: griffis-1883 }
+
+scripts_and_languages:
+  administration: [Classical Chinese, Old Japanese]
+  writing_system: Chinese characters (kanji), adapted for Japanese
+
+# Not a conquest by a foreign or rival dynastic power: Nobunaga had
+# himself first backed Yoshiaki's own claim to the shogunate before
+# turning on him, and never took the shogunal title for his own house
+# even after deposing its last holder. `internal usurpation` fits the
+# same pattern this corpus already codes for the Hojo's own earlier
+# seizure of power from within - authority passing to a figure with no
+# dynastic claim of his own, rather than to a rival house. `by` is
+# empty since no record for what followed exists yet.
+ended:
+  type: internal usurpation
+  by: []
+  year: 1573
+  source: griffis-1883
+
+preceded_by_external: []
+succeeded_by_external: []
+
+institutions:
+  military_basis: { values: [client-levy], source: griffis-1883 }
+  revenue_basis: { values: [land-tax, tribute], source: griffis-1883 }
+  # `primogeniture`, a genuine change from Kamakura's own practice: the
+  # shogunal office, filled under the Hojo by whatever appointment
+  # suited the regental family's convenience, became simply hereditary
+  # in the Ashikaga line itself for the whole of this record's span.
+  succession_rule: { values: [primogeniture], source: griffis-1883 }
+  legitimation: { values: [descent, investiture], source: griffis-1883 }
+
+turning_points:
+  - year: 1392
+    type: treaty
+    name: The dynasties reunited
+    changed: >-
+      The Southern emperor's surrender of the sacred regalia at last
+      gave the Ashikaga what a rival imperial claim had denied them for
+      fifty-six years: a single throne in Kyoto answering to their own
+      choice of emperor rather than sharing the country's own
+      legitimacy with an exiled rival court.
+    source: griffis-1883
+    contested: false
+  - year: 1401
+    type: treaty
+    name: Yoshimitsu accepts a Chinese title
+    changed: >-
+      An embassy to the Ming court, its gifts amounting in substance to
+      a bow toward the Chinese throne, brought back a foreign royal
+      title for a shogun who already dressed and behaved as the
+      mikado's own equal. Later generations never forgave a man who had
+      every real form of domestic power seeking a neighbour's stamp of
+      approval for a rank no institution of his own country had any
+      business granting him.
+    source: griffis-1883
+    contested: false
+  - year: 1573
+    type: succession-crisis
+    name: Yoshiaki deposed by Nobunaga
+    changed: >-
+      The daimyo who had put the fifteenth shogun on his own throne
+      turned on him within a handful of years and removed him by force
+      - not to claim the vacated office for himself, but simply because
+      he had stopped needing anyone else to hold it. The military title
+      Kamakura had first created stood empty for a full generation
+      after this single arrest.
+    source: griffis-1883
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: griffis-1883 }
+    religions_carried: { count: 0, items: [], source: griffis-1883 }
+    successor_claims: { count: 0, items: [], source: griffis-1883 }

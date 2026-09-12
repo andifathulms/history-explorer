@@ -57,23 +57,12 @@ scripts_and_languages:
 # succeeded_by_external note below.
 ended:
   type: gradual absorption
-  by: []
+  by: [ashikaga]
   year: 1392
   source: griffis-1883
 
 preceded_by_external: []
-
-succeeded_by_external:
-  - name: The Ashikaga Shogunate
-    type: absorbed remnants of
-    year: 1392
-    note: >-
-      Go-Kameyama's surrender of the regalia to the Northern emperor
-      Go-Komatsu was negotiated by an Ashikaga envoy and redounded, in
-      the source's own words, entirely to the glory and power of the
-      Ashikaga - the shogunate that had backed the Northern line
-      throughout the war and now presided over its formal reunification.
-    source: griffis-1883
+succeeded_by_external: []
 
 institutions:
   military_basis: { values: [client-levy], source: griffis-1883 }

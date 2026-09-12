@@ -54,23 +54,12 @@ scripts_and_languages:
 # exists yet; see the succeeded_by_external notes below.
 ended:
   type: fragmentation
-  by: [nanboku-cho]
+  by: [nanboku-cho, ashikaga]
   year: 1336
   source: griffis-1883
 
 preceded_by_external: []
-
-succeeded_by_external:
-  - name: The Ashikaga Shogunate
-    type: overthrew
-    year: 1336
-    note: >-
-      Ashikaga Takauji, having defeated the loyalist armies Go-Daigo
-      sent against him, rebuilt Kamakura, installed Kogen as a
-      compliant emperor, and received from him the same title of Sei-i
-      Tai Shogun the restoration itself had been fought to make
-      unnecessary.
-    source: griffis-1883
+succeeded_by_external: []
 
 institutions:
   # `client-levy`, not the direct central administration the

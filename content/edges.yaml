@@ -3570,3 +3570,28 @@ edges:
            restored mikadoate split into."
     source: griffis-1883
     contested: false
+
+  - from: kenmu-restoration
+    to: ashikaga
+    type: overthrew
+    year: 1336
+    note: "Ashikaga Takauji, having defeated the loyalist armies
+           Go-Daigo sent against him, rebuilt Kamakura, installed Kogen
+           as a compliant emperor, and received from him the same title
+           of Sei-i Tai Shogun the restoration itself had been fought to
+           make unnecessary."
+    source: griffis-1883
+    contested: false
+
+  - from: nanboku-cho
+    to: ashikaga
+    type: absorbed remnants of
+    year: 1392
+    note: "Go-Kameyama's surrender of the regalia to the Northern
+           emperor Go-Komatsu was negotiated by an Ashikaga envoy and
+           redounded, by the source's own account, entirely to the
+           glory and power of the Ashikaga - the shogunate that had
+           backed the Northern line throughout the war and now presided
+           over its formal reunification."
+    source: griffis-1883
+    contested: false
