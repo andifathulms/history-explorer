@@ -47,6 +47,20 @@ institutions:
   legitimation: { values: [caliphal-investiture], source: kennedy-2004 }
 
 turning_points:
+  - year: 942
+    type: reform
+    name: "Two titles in one day"
+    changed: >-
+      The caliph al-Muttaqi granted two brothers of the Banu Hamdan the
+      titles champion and sword of the empire, thirteen years after their
+      father died defending a previous caliph at Baghdad. It was a
+      settlement of accounts rather than a gift — the caliphate could no
+      longer pay what it owed the family in anything but words — and it
+      marks the point the family's local standing became a formally
+      recognised dynasty, two years before the brothers split the north
+      between them.
+    source: ibn-khallikan
+    contested: false
   - year: 944
     type: siege
     name: "Aleppo taken"
@@ -56,6 +70,17 @@ turning_points:
       symbol of the frontier war at exactly the moment the caliphate had
       stopped being able to prosecute one, and it is the reason a minor dynasty
       is remembered at all.
+    source: kennedy-2004
+    contested: false
+  - year: 945
+    type: battle
+    name: "The Buyids take Baghdad from Mosul"
+    changed: >-
+      The Hamdanids of Mosul, who had briefly held the Abbasid caliph in the
+      chaos of the 940s and were the last Arab dynasty to hold the caliphate
+      in its own hands, lost Baghdad to the Buyids, who kept it for a
+      hundred and ten years. Mosul itself survived as a tributary emirate
+      for another forty-five years, paying to be left alone.
     source: kennedy-2004
     contested: false
   - year: 969
@@ -68,6 +93,29 @@ turning_points:
       Cairo, and looking back to Constantinople when Cairo pressed. It is the
       standard position of a small state between two large ones that both want
       it and neither can hold cheaply.
+    source: kennedy-2004
+    contested: false
+  - year: 990
+    type: battle
+    name: "The Uqaylids remove the Mosul branch"
+    changed: >-
+      The Uqaylids, another Arab tribal dynasty, took Mosul from the
+      Hamdanid branch that had governed it as a Buyid tributary since 945.
+      It ended the family's presence in the city its founder had first
+      governed a century earlier, fourteen years before the Fatimids did
+      the same thing to the Aleppo branch.
+    source: kennedy-2004
+    contested: false
+  - year: 1004
+    type: succession-crisis
+    name: "The last Hamdanid of Aleppo deposed"
+    changed: >-
+      The Fatimids deposed the last Hamdanid ruler of Aleppo and the
+      emirate passed to one of its own officers, ending the family's
+      presence in the city thirty-five years after the treaty of Safar and
+      a hundred years after two brothers were given their titles on the
+      same day. The frontier they had fought on outlasted them by less than
+      seventy years: it stopped existing after Manzikert in 1071.
     source: kennedy-2004
     contested: false
 
