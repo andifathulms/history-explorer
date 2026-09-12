@@ -1,0 +1,166 @@
+id: lithuania
+region: eastern-europe
+
+name:
+  latin: The Grand Duchy of Lithuania
+  script: Didžioji Lietuvos Kunigaikštystė
+  script_lang: lt
+
+# 1204 is katzel-2021's own periodization, and the source itself calls it
+# a "legendary reign" - Ryngold, Mindaugas's father, is credited with
+# first consolidating the separate Lithuanian tribes under one authority,
+# but the source's own footnotes flag his genealogy and even his
+# historicity as uncertain. Mindaugas, his son, is the first Lithuanian
+# ruler independently attested in an outside chronicle (the Hypatian
+# Codex, under 1235) and the only one ever crowned king, in 1253. The
+# span keeps 1204 as the traditional start while naming Mindaugas as
+# founder below, since it is his reign the source treats as the first
+# securely attested one.
+#
+# 1569 is the Union of Lublin, which did not conquer or replace the
+# Grand Duchy but merged it with the Kingdom of Poland into a single new
+# state, the Polish-Lithuanian Commonwealth - a different record in this
+# same region.
+span:
+  start: { min: 1204, max: 1204, source: katzel-2021 }
+  end: { min: 1569, max: 1569, source: katzel-2021 }
+
+identity: >-
+  The last pagan realm in Europe, built by a family of dukes out of
+  scattered Baltic tribes on the one frontier the Teutonic Order could
+  never fully close, converted to Catholic Christianity as the price of
+  a Polish crown, and grown under a warrior son-in-law into an empire
+  reaching from the Baltic to within reach of the Black Sea before it
+  merged its own throne into a shared one.
+
+capitals:
+  - { name: Kernavė, from: 1204, source: katzel-2021 }
+  - { name: Vilnius, from: 1323, source: katzel-2021 }
+
+core_region: The Neman and Neris river basins, extended through the fourteenth century over Rus' lands stretching toward the Dnieper and the Black Sea steppe
+
+rulers:
+  founder: { name: Mindaugas, reign: [1239, 1263], source: katzel-2021 }
+  peak: { name: "Vytautas the Great (Vytautas)", reign: [1392, 1430], source: katzel-2021 }
+  last: { name: "Sigismund II Augustus", reign: [1548, 1569], source: katzel-2021 }
+
+scripts_and_languages:
+  administration: [Ruthenian, Latin, Lithuanian]
+  writing_system: Cyrillic (chancery Ruthenian), Latin script (Lithuanian and Polish)
+
+# Neither conquest nor a clean dynastic replacement: no army took Vilnius
+# in 1569, and the same king, Sigismund II Augustus, continued to reign
+# over the merged state afterward. `gradual absorption` is the least
+# wrong of the six values in the closed vocabulary for a polity that
+# stopped existing as a separate legal entity through negotiation rather
+# than defeat - the same reasoning the Attalid record uses for a will
+# rather than a war. `by` is left empty since no record for the
+# Commonwealth exists yet; see the succeeded_by_external note below.
+ended:
+  type: gradual absorption
+  by: []
+  year: 1569
+  source: katzel-2021
+
+preceded_by_external: []
+
+succeeded_by_external:
+  - name: The Polish-Lithuanian Commonwealth
+    type: absorbed remnants of
+    year: 1569
+    note: >-
+      The Union of Lublin, ratified by the Sejm on 1 July 1569, merged
+      the Grand Duchy with the Kingdom of Poland into a single elective
+      monarchy under one crown and one common Sejm, while each partner
+      kept its own army, treasury and law code. Lithuania did not
+      disappear into Poland; it entered a nominally equal union that,
+      in practice, its own nobility spent the following two centuries
+      trying to keep equal.
+    source: katzel-2021
+
+institutions:
+  military_basis: { values: [client-levy, tribal-levy], source: katzel-2021 }
+  revenue_basis: { values: [land-tax, tribute, plunder], source: katzel-2021 }
+  # `election` from 1392 onward, when the Lithuanian nobility's own
+  # recognition became the thing that actually made a grand duke
+  # sovereign - Vytautas held the office only after such recognition,
+  # over rival Gediminid claimants with an equal hereditary case.
+  # `primogeniture` describes the earlier centuries, when succession
+  # passed within Gediminas's own line by inheritance, contested as
+  # often as it was settled.
+  succession_rule: { values: [primogeniture, election], source: katzel-2021 }
+  # `descent`, from the Gediminid line; `conquest`, the ground the
+  # earliest dukes stood on before any dynasty was secure; and
+  # `caliphal-investiture`'s Catholic equivalent, `investiture`, coded
+  # here for Mindaugas's own 1253 coronation, granted on the authority of
+  # a papal bull rather than claimed unilaterally.
+  legitimation: { values: [descent, conquest, investiture], source: katzel-2021 }
+
+turning_points:
+  - year: 1253
+    type: conversion
+    name: Mindaugas crowned king
+    changed: >-
+      A duke who had just out-manoeuvred a coalition of his own nephews,
+      a rival prince of Galicia and the Livonian Order's own knights
+      accepted baptism and, months later, a crown sent from Rome - the
+      only time any Lithuanian ruler would hold the title of king rather
+      than grand duke, and a title his own murder ten years later
+      ensured no immediate successor inherited.
+    source: katzel-2021
+    contested: false
+  - year: 1323
+    type: capital-move
+    name: Gediminas founds Vilnius
+    changed: >-
+      A grand duke who had already brought Lithuanian-ruled Rus' under
+      closer central control gave the union a capital built to be one,
+      on the Neris rather than at the older, smaller seat further south
+      - the city every later grand duke would rule from.
+    source: katzel-2021
+    contested: false
+  - year: 1386
+    type: conversion
+    name: The Union of Krewo
+    changed: >-
+      Jogaila accepted baptism, married the fourteen-year-old queen of
+      Poland, and took a new royal name and crown within a month - terms
+      he had signed before the wedding rather than after it. No later
+      grand duke would again rule a Lithuania whose religion, Rome's own
+      clergy could plausibly claim, was still to be won.
+    source: katzel-2021
+    contested: false
+  - year: 1410
+    type: battle
+    name: Grunwald
+    changed: >-
+      A joint Lithuanian-Polish army broke the Teutonic Order so
+      completely that its knights never again drew the recruits from
+      across Europe that had once sustained a crusading order with
+      diminishing pagans left to crusade against. Poland gained more
+      from the peace than Lithuania did, a fact Vytautas himself
+      recognised by pulling his own troops out before the fighting even
+      finished.
+    source: katzel-2021
+    contested: false
+  - year: 1429
+    type: succession-crisis
+    name: The Congress of Lutsk
+    changed: >-
+      Encouraged by a Holy Roman Emperor who wanted Lithuania pried loose
+      from Poland's own orbit, Vytautas gathered kings, khans and
+      crusading masters at Lutsk to seek a royal crown of his own. The
+      Poles who had crowned Jogaila recognised exactly what the request
+      meant and blocked it twice; Vytautas died within a year of the
+      second failed attempt, having ruled Lithuania at its widest reach
+      without ever ruling it as a kingdom.
+    source: katzel-2021
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: katzel-2021 }
+    religions_carried: { count: 0, items: [], source: katzel-2021 }
+    successor_claims: { count: 0, items: [], source: katzel-2021 }

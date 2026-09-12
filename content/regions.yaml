@@ -390,14 +390,21 @@ regions:
     group: northern-and-eastern-europe
     thread: false
 
+  # This blurb previously described states converted from Constantinople —
+  # copied, at some point, from `the-balkans` above rather than written for
+  # this region's own polities, and left uncorrected while the region sat
+  # empty. It is wrong for what actually belongs here: Poland, Lithuania and
+  # Hungary took their script and their liturgy from Rome, not Byzantium, and
+  # Transylvania's own Latin Christian identity is the reason it stayed a
+  # distinct principality rather than folding into an Orthodox neighbour.
   - id: eastern-europe
     name: Eastern Europe
     blurb: >-
-      The country between the Latin west and the steppe, where the frontier ran
-      the wrong way: these were states with open grassland on one side and
-      forest on the other, taking their letters and their liturgy from
-      Constantinople and their politics from whoever was riding out of the east
-      that century.
+      The Latin Christian kingdoms wedged between German-speaking Central
+      Europe and the steppe: crowned from Rome rather than Constantinople,
+      spending centuries absorbing whatever rode out of the east — Mongols,
+      Tatars, Ottomans — on ground the rest of Latin Christendom was content
+      to let them hold alone.
     group: northern-and-eastern-europe
     thread: false
 
