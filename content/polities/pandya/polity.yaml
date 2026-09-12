@@ -1,0 +1,148 @@
+id: pandya
+region: classical-india
+
+name:
+  latin: Pandya Kingdom
+  script: பாண்டியர்
+  script_lang: ta
+
+# sastri-1929-pandyan treats the political history of the Sangam-age
+# Pandya kings as too uncertain to date or order - "we must rest
+# content with gathering the chief facts... as interesting but
+# isolated events whose exact inter-relation cannot yet be determined"
+# - and dates the dynasty's own first reconstructible political line to
+# Kadungon, who restored Pandya rule after a Kalabhra occupation the
+# source can neither date nor fully explain. Working backward from
+# securely dated later reigns at roughly twenty-five years a
+# generation, the source places Kadungon's own accession "at some date
+# at the beginning of the seventh century A.D. Even the end of the
+# sixth century may be accepted as possible."
+#
+# The source calls the three centuries from Kadungon to a decisive
+# Chola attack the "Age of the First Empire," and a later revival from
+# 1190 the "Second Empire" - both periods of one continuous kingdom in
+# the source's own telling, not two distinct objects, so this record
+# spans both rather than splitting them.
+span:
+  start: { min: 590, max: 620, source: sastri-1929-pandyan }
+  end: { min: 1330, max: 1330, source: sastri-1929-pandyan }
+
+identity: >-
+  A Tamil kingdom restored from foreign occupation that rose twice,
+  first as one of the three great powers of the ancient Tamil country
+  and later, after two centuries under Chola domination, as the
+  conqueror who broke the Cholas outright - before a Delhi Sultanate
+  invasion and civil war among its own princes cost it Madurai for
+  good.
+
+capitals:
+  - { name: Madurai (Madura), source: sastri-1929-pandyan }
+
+core_region: The far south of the Tamil country - the modern districts of Tinnevelly, Ramnad and Madura
+
+rulers:
+  # No individual reign dates survive for Kadungon himself; the source
+  # only fixes his generation by counting backward from later, securely
+  # dated kings.
+  founder: { name: Kadungon, source: sastri-1929-pandyan }
+  peak: { name: "Jatavarman Sundara Pandya I", reign: [1251, 1268], source: sastri-1929-pandyan }
+  last: { name: "Jatavarman Vira Pandya", source: sastri-1929-pandyan }
+
+scripts_and_languages:
+  administration: [Tamil, Sanskrit]
+  writing_system: Tamil script
+
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  legitimation: { values: [descent, conquest], source: sastri-1929-pandyan }
+
+# The loss of Madura to an independent Sultanate did not end Pandya
+# power at a stroke - epigraphs show Pandya rulers still holding parts
+# of Madura, Ramnad and Tanjore for decades afterward, and a separate
+# line lingered in Tinnevelly toward the close of the sixteenth or
+# start of the seventeenth century - so "gradual absorption" rather
+# than a single dated conquest fits the source's own account best.
+# Vijayanagara's own conquest of the Sultanate a generation later (see
+# turning_points) did not have a named Pandya king to defeat by then;
+# it inherited, rather than conquered, the ground the Pandyas had
+# already lost.
+ended:
+  type: gradual absorption
+  by: []
+  year: 1330
+  source: sastri-1929-pandyan
+
+preceded_by_external: []
+
+succeeded_by_external:
+  - name: the Sultanate of Madurai
+    type: conquered by
+    year: 1330
+    note: >-
+      A Delhi Sultanate governor's rebellion turned the Pandyas'
+      own capital into the seat of an independent Muslim sultanate,
+      "the Turuskas" - Pandya rulers kept parts of Madura, Ramnad and
+      Tanjore for decades afterward, but never recovered the city
+      itself.
+    source: sastri-1929-pandyan
+
+turning_points:
+  - year: 910
+    type: battle
+    name: Parantaka's conquest of Madurai
+    changed: >-
+      A newly crowned Chola king struck fast and hard at Madurai
+      itself, breaking Pandya resistance outright and pushing what
+      remained of it to the peninsula's southern rim - the single
+      stroke that closed three centuries of Pandya expansion and
+      opened two centuries of subjection to the very neighbor it had
+      spent that time containing.
+    source: sastri-1929-pandyan
+    contested: false
+  - year: 1190
+    type: revolt
+    name: The accession of Jatavarman Kulasekhara
+    changed: >-
+      A generation of genuine Pandya subordination to Chola overlords
+      ended the moment a new king took the throne and simply stopped
+      answering to them, launching a run of conquests that would carry
+      Pandya arms as far north as Nellore and Cuddapah while the
+      dynasty that had once ruled them slid toward irrelevance.
+    source: sastri-1929-pandyan
+    contested: false
+  - year: 1279
+    type: battle
+    name: The defeat of Rajendra III
+    changed: >-
+      A rival already reduced to paying tribute was finished off
+      outright, its last known ruler vanishing from the epigraphic
+      record entirely after this one battle - leaving the Pandya
+      kingdom, for the only time in its history, the unrivaled power of
+      the entire Tamil country.
+    source: sastri-1929-pandyan
+    contested: false
+  - year: 1311
+    type: succession-crisis
+    name: Civil war and the first Muhammadan invasion
+    changed: >-
+      A dispute between two sons of the aging Maravarman Kulasekhara,
+      Vira Pandya and Sundara Pandya, broke into open civil war at
+      almost exactly the moment Malik Kafur's Delhi Sultanate army
+      reached the Pandya country - the two conflicts so entangled in
+      the surviving accounts, Muhammadan and Tamil alike, that the
+      source itself rejects the traditional story of one brother
+      inviting the invaders in as unreliable, while confirming from
+      independent testimony that the war and the invasion were
+      genuinely simultaneous.
+    source: sastri-1929-pandyan
+    contested: true
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: sastri-1929-pandyan }
+    religions_carried: { count: 0, items: [], source: sastri-1929-pandyan }
+    successor_claims: { count: 0, items: [], source: sastri-1929-pandyan }

@@ -68,17 +68,7 @@ ended:
 
 preceded_by_external: []
 
-succeeded_by_external:
-  - name: the revived Pandya kingdom
-    type: conquered by
-    year: 1279
-    note: >-
-      Under Jatavarman Sundara Pandya I and his successor Maravarman
-      Kulasekhara, a Pandya dynasty the Cholas had dominated for
-      generations reversed the relationship entirely, defeating
-      Rajendra III and his ally Vira Ramanatha in battle and ending the
-      last trace of Chola inscriptional authority.
-    source: nilakanta-sastri-1955
+succeeded_by_external: []
 
 turning_points:
   - year: 850

@@ -3862,3 +3862,29 @@ edges:
            opportunism had begun two generations earlier."
     source: gopalan-1928
     contested: false
+
+  - from: pandya
+    to: chola
+    type: conquered by
+    year: 910
+    note: "The Chola king Parantaka I invaded the Pandya heartland
+           within three years of his own accession, defeated the
+           reigning Pandya king outright and drove Pandya influence
+           back to Kanyakumari, earning the title 'Madurai-konda' -
+           captor of Madurai - and opening two centuries of Chola
+           domination before the Pandyas' own Second Empire reversed
+           it."
+    source: sastri-1929-pandyan
+    contested: false
+
+  - from: chola
+    to: pandya
+    type: conquered by
+    year: 1279
+    note: "Jatavarman Sundara Pandya I reduced Rajendra III to tribute
+           within a decade of his own 1251 accession, and Sundara's
+           successor Maravarman Kulasekhara finished the reversal,
+           defeating Rajendra III and his ally Vira Ramanatha in
+           battle - after which no further Chola inscription is known."
+    source: sastri-1929-pandyan
+    contested: false
