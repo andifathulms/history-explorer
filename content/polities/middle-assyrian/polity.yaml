@@ -89,7 +89,7 @@ institutions:
 
 turning_points:
   - year: -1260
-    type: battle
+    type: reform
     name: Hanigalbat
     changed: >-
       Adad-nirari I and then Shalmaneser I took what Suppiluliuma had left of
@@ -107,10 +107,10 @@ turning_points:
       Tukulti-Ninurta I built a new capital across the Tigris from Ashur and
       moved the court into it. A king of Ashur leaving Ashur is not an
       administrative convenience: the city and the god have the same name and
-      the king's title makes him the god's steward there. This site's later
-      Assyrian record has the same manoeuvre repeated by Sargon II at
-      Khorsabad, and both new capitals were abandoned within a generation of
-      their builder's death.
+      the king's title makes him the god's steward there. The later Assyrian
+      empire repeats the same manoeuvre when Sargon II builds Khorsabad, and
+      both new capitals were abandoned within a generation of their builder's
+      death.
     source: frahm-2023
     contested: false
   - year: -1225
