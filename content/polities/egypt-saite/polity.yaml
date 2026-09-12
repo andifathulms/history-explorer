@@ -55,6 +55,19 @@ institutions:
 
 turning_points:
   - year: -656
+    type: revolt
+    name: "Psamtik's secession"
+    changed: >-
+      No source records a battle against Assyria and none was needed: a
+      Delta vassal simply stopped answering while Assyria's own attention
+      was on a civil war at Babylon, and independence was never afterward
+      contested by force. It is the same shape of event as Egypt's own
+      later break from Persian rule in 404, a province ceasing to defer
+      rather than defeating an army sent to stop it, because in both cases
+      no such army was sent.
+    source: shaw-2000
+    contested: false
+  - year: -656
     type: succession-crisis
     name: "The adoption of Nitocris"
     changed: >-
@@ -93,6 +106,20 @@ turning_points:
       held for three generations turned out to describe the normal case
       and not a requirement, discarded the one time an army had the power
       to discard it and a good enough reason to use that power.
+    source: shaw-2000
+    contested: false
+  - year: -525
+    type: battle
+    name: "Pelusium"
+    changed: >-
+      The same recipe that had built this dynasty — native Egyptian troops
+      alongside Greek and Carian mercenaries, going back to the bronze men
+      Psamtik I first hired against his own Delta rivals — broke in a
+      single battle rather than winning one, six months into a reign that
+      had inherited the arrangement rather than built it. A century and a
+      half of Egyptian kingship rebuilt out of borrowed antiquity and
+      borrowed soldiers ended with the soldiers losing and the antiquity
+      outlasting the family that had assembled both.
     source: shaw-2000
     contested: false
 
