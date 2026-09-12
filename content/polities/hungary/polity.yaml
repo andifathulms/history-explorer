@@ -1,0 +1,168 @@
+id: hungary
+region: eastern-europe
+
+name:
+  latin: The Kingdom of Hungary
+  script: Magyar Királyság
+  script_lang: hu
+
+# 895 is godkin-1853's own dating for the completion of the Magyar
+# conquest of the Carpathian basin (the source gives the whole campaign
+# as running 884-895), the point at which Arpad's confederated tribes
+# held the territory the later kingdom would be built on - a conquest
+# rather than a coronation, since the polity existed as an armed
+# confederacy under Arpad and his line for over a century before Stephen
+# converted it into a Christian kingdom.
+#
+# 1526 is the Battle of Mohacs and the death of Louis II, the point at
+# which the unified medieval kingdom broke into three: a Habsburg-ruled
+# rump, direct Ottoman administration over the centre, and an
+# autonomous Transylvania - a different record in this same region.
+span:
+  start: { min: 895, max: 895, source: godkin-1853 }
+  end: { min: 1526, max: 1526, source: godkin-1853 }
+
+identity: >-
+  The confederation of mounted archers Arpad led into the Carpathian
+  basin, remade as a Christian kingdom by a descendant crowned with a
+  pope's own crown, whose nobility wrote resistance to royal tyranny
+  into law a full generation before England's own Magna Carta, and
+  which drowned its last independent king in a marsh before the field
+  of Mohacs was even fully lost.
+
+capitals:
+  - { name: Buda, from: 1047, source: godkin-1853 }
+
+core_region: The Carpathian basin, along the middle Danube and Tisza rivers
+
+rulers:
+  # No death year for Árpád is given by the source; only his own 894
+  # governance and the length of his successor's reign are dated.
+  founder: { name: Árpád, source: godkin-1853 }
+  peak: { name: "Matthias Corvinus (Mathias I)", reign: [1457, 1489], source: godkin-1853 }
+  last: { name: "Louis II", reign: [1516, 1526], source: godkin-1853 }
+
+scripts_and_languages:
+  administration: [Latin, Hungarian]
+  writing_system: Latin script
+
+# A fragmentation into three rather than a single conquest or dynastic
+# handover: Ferdinand of Habsburg and John Zapolya both claimed the
+# crown after Louis's death, the Ottomans occupied and directly
+# administered the centre of the kingdom, and Transylvania emerged as a
+# distinct autonomous principality - the same three-way split this
+# record's own succeeded_by_external entries name. `by` is empty since
+# none of the three successors has a record here yet.
+ended:
+  type: fragmentation
+  by: []
+  year: 1526
+  source: godkin-1853
+
+preceded_by_external: []
+
+succeeded_by_external:
+  - name: Royal Hungary (the Habsburg-ruled rump)
+    type: claimed legitimacy of
+    year: 1526
+    note: >-
+      Ferdinand of Habsburg, brother-in-law of the dead Louis II,
+      claimed the Hungarian crown by right of an earlier succession
+      treaty and secured recognition over the kingdom's northern and
+      western fringe, the only portion neither directly Ottoman nor
+      under Transylvania's own princes.
+    source: godkin-1853
+  - name: Ottoman Hungary
+    type: conquered by
+    year: 1541
+    note: >-
+      The Ottomans took Buda itself in 1541 and administered the
+      kingdom's central plain directly as a frontier province for the
+      following century and a half, ending the medieval capital's
+      standing as any Hungarian ruler's own seat.
+    source: godkin-1853
+  - name: The Principality of Transylvania
+    type: seceded from
+    year: 1541
+    note: >-
+      John Zapolya's own line held the eastern third of the old kingdom
+      as an Ottoman vassal principality after Buda's fall, ruling
+      Transylvania in practice as a separate state under Ottoman
+      protection rather than as a rump of Hungary proper.
+    source: godkin-1853
+
+institutions:
+  military_basis: { values: [tribal-levy, land-grant], source: godkin-1853 }
+  revenue_basis: { values: [land-tax, tribute], source: godkin-1853 }
+  # `election` alongside `primogeniture`: succession within the Arpad
+  # line passed largely by inheritance, but the Golden Bull's own
+  # confirmation at a diet, and the outright election of Matthias
+  # Corvinus by an armed assembly in 1457 after his family held no
+  # throne at all, mark succession as never purely hereditary in
+  # practice.
+  succession_rule: { values: [primogeniture, election], source: godkin-1853 }
+  # `investiture` for Stephen's own coronation, crowned with a crown the
+  # source records as sent by Pope Sylvester II - a grant of authority
+  # from an external sovereign who was not a caliph, coding rule 8's own
+  # test for the general value rather than its caliphal-investiture
+  # counterpart.
+  legitimation: { values: [descent, investiture, divine-sanction], source: godkin-1853 }
+
+turning_points:
+  - year: 1000
+    type: conversion
+    name: Stephen's coronation
+    changed: >-
+      A ruler who had watched his own brother-in-law secure independence
+      through papal recognition sought and won the identical grant for
+      himself - the point at which an armed confederacy of Magyar tribes
+      became, in its own public claim, a Christian kingdom answerable to
+      Rome rather than to any steppe confederation's customs.
+    source: godkin-1853
+    contested: false
+  - year: 1231
+    type: reform
+    name: The Golden Bull confirmed
+    changed: >-
+      A weak king, having lost his own nobility's confidence through
+      years of foreign war and a scandal that ended in his own queen's
+      murder, ratified thirty-one articles at a diet that bound every
+      later monarch to the same oath of constitutional restraint -
+      articles the nobility could enforce, by the charter's own terms,
+      with their own swords if a future king ignored them. Hungary
+      secured a written check on royal power a generation before
+      England's own Magna Carta acquired the same reputation.
+    source: godkin-1853
+    contested: false
+  - year: 1457
+    type: succession-crisis
+    name: Matthias Corvinus elected
+    changed: >-
+      With three foreign claimants pressing rival cases for a vacant
+      throne, an armed assembly convened at Pest was surrounded by
+      Hunyadi's own former lieutenant and, rather than seizing the crown
+      himself, offered it to Hunyadi's imprisoned younger son - a choice
+      the gathered nobility greeted with open acclaim before any
+      foreign candidate could press his own claim further.
+    source: godkin-1853
+    contested: false
+  - year: 1526
+    type: battle
+    name: Mohács
+    changed: >-
+      A young king overruled his own chancellor's caution, threw his
+      reserve into a battle already lost, and died within minutes of a
+      riding accident during the retreat that followed. An army the
+      kingdom would never again field the equal of went down with him in
+      a single afternoon. No single ruler succeeded him over the whole
+      territory he had held.
+    source: godkin-1853
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: godkin-1853 }
+    religions_carried: { count: 0, items: [], source: godkin-1853 }
+    successor_claims: { count: 0, items: [], source: godkin-1853 }
