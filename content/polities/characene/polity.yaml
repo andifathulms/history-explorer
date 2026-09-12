@@ -50,6 +50,18 @@ institutions:
   legitimation: { values: [conquest], source: wiesehofer-1996 }
 
 turning_points:
+  - year: -127
+    type: succession-crisis
+    name: "Hyspaosines takes the title"
+    changed: >-
+      Hyspaosines, the Seleucid satrap left holding the delta, raised the
+      refounded port above the flood on an artificial mound, put his own name
+      on it, and began calling himself king. It is the commonest way a state
+      begins in this part of the world — a governor an empire has stopped
+      being able to remove — and it is the only claim the coinage supports:
+      no battle, no treaty, just a satrap who stopped being one.
+    source: wiesehofer-1996
+    contested: false
   - year: 116
     type: siege
     name: "Trajan at Charax"
@@ -61,6 +73,20 @@ turning_points:
       the clearest illustration of what a transit kingdom was: worth conquering
       to nobody, because the value was the traffic and the traffic did not stop
       for a change of sovereign.
+    source: wiesehofer-1996
+    contested: false
+  - year: 222
+    type: succession-crisis
+    name: "Ardashir takes the delta"
+    changed: >-
+      Ardashir of Persis took Characene two years before he killed Artabanus
+      IV and took the Parthian empire itself — one of the pieces picked up on
+      the way, the neighbouring vassal moving early while the empire both of
+      them belonged to was busy fighting itself. Three hundred and fifty
+      years of vassalage and a Roman emperor's visit ended with no battle in
+      the record; what the kingdom left behind is a name in somebody else's
+      inscription, at Palmyra, honouring the men who brought a caravan
+      safely home from it.
     source: wiesehofer-1996
     contested: false
 
