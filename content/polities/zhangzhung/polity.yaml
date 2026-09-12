@@ -1,0 +1,81 @@
+id: zhangzhung
+region: tibet
+
+name:
+  latin: Zhangzhung
+  script: null
+  script_lang: null
+
+# Absorption date and mechanism (Songtsen Gampo's marriage to a Zhangzhung
+# princess) follow beckwith-1987, already the source for this exact claim in
+# the Tibetan Empire's own preceded_by_external note. No source consulted
+# here gives Zhangzhung's own founding a year - nishi-nagano-2009 places it
+# only as pre-existing "before the establishment of the Tibetan Empire,"
+# which beckwith-1987 dates to 618. The wide range below reflects that
+# silence rather than a claim about when the kingdom actually began; a
+# tighter figure would misrepresent how little either source commits to.
+# nishi-nagano-2009 separately places the language's extinction "around the
+# 11th century," well after the kingdom's own political absorption.
+span:
+  start: { min: 100, max: 600, source: nishi-nagano-2009 }
+  end: { min: 634, max: 634, source: beckwith-1987 }
+
+identity: >-
+  A pre-Tibetan kingdom of the far west, known today mainly through the
+  language it left behind - five Dunhuang manuscripts in a
+  Tibeto-Burman tongue tied to the Bon religion - rather than any surviving
+  political record.
+
+capitals:
+  - { name: null, source: null }
+
+core_region: Western Tibet, centered on the region around Mount Kailash and the upper Sutlej
+
+rulers:
+  # Null throughout. No source consulted here names an individual
+  # Zhangzhung king with a securely attested reign; even the marriage
+  # alliance that ended the kingdom's independence is recorded from the
+  # Tibetan side, without naming the Zhangzhung ruler involved.
+  founder: { name: null, source: null }
+  peak: { name: null, source: null }
+  last: { name: null, source: null }
+
+scripts_and_languages:
+  administration: [Zhangzhung]
+  writing_system: "An adapted form of Tibetan letters, attested only in a handful of Dunhuang manuscripts"
+
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  legitimation: null
+
+ended:
+  type: gradual absorption
+  by: [tibetan-empire]
+  year: 634
+  source: beckwith-1987
+
+preceded_by_external: []
+succeeded_by_external: []
+
+turning_points:
+  - year: 634
+    type: treaty
+    name: "The Zhangzhung marriage alliance"
+    changed: >-
+      Songtsen Gampo married a Zhangzhung princess, binding the two courts
+      together by marriage rather than by war in the first instance - an
+      alliance the record on the Tibetan side treats as the beginning of
+      Zhangzhung's absorption into the empire, even though the kingdom
+      continued to be governed separately for some time afterward.
+    source: beckwith-1987
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: nishi-nagano-2009 }
+    religions_carried: { count: 1, items: [Bon], source: nishi-nagano-2009 }
+    successor_claims: { count: 0, items: [], source: nishi-nagano-2009 }
