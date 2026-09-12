@@ -1,0 +1,111 @@
+id: kakatiya
+region: classical-india
+
+name:
+  latin: Kakatiya Dynasty
+  script: కాకతీయులు
+  script_lang: te
+
+# yazdani-1960 traces the Kakatiya line back through three generations
+# of Western Chalukya feudatories at Anumakonda (Beta I, Beta II, Prola
+# II) before treating Rudradeva as the first of what its own chapter
+# division calls "The Independent Sovereigns" - his father Prola II
+# had already captured, and released out of respect, a Chalukya prince
+# named Tailapa, but remained a vassal (mandalika) of the Western
+# Chalukya emperor throughout his own reign. This record follows the
+# source's own division and uses Rudradeva, rather than his feudatory
+# ancestors, as founder.
+span:
+  start: { min: 1150, max: 1150, source: yazdani-1960 }
+  end: { min: 1323, max: 1323, source: yazdani-1960 }
+
+identity: >-
+  A Telangana feudatory house that broke from Chalukya overlordship,
+  survived its own founder's death in battle and an heir's captivity at
+  a rival capital to reach, under a woman who ruled using her father's
+  own name and title, one of the most powerful states of the Deccan -
+  before a Delhi Sultanate army took its last king captive and he died,
+  by his own hand or another's, on the banks of the Narmada.
+
+capitals:
+  - { name: "Anumakonda (Hanumakonda)", source: yazdani-1960 }
+  - { name: Warangal, from: 1195, source: yazdani-1960 }
+
+core_region: Telangana and the Telugu-speaking Andhra country
+
+rulers:
+  founder: { name: "Kakati Rudradeva", reign: [1150, 1195], source: yazdani-1960 }
+  peak: { name: Ganapatideva, reign: [1199, 1261], source: yazdani-1960 }
+  last: { name: Prataparudra, reign: [1295, 1323], source: yazdani-1960 }
+
+scripts_and_languages:
+  administration: [Telugu, Sanskrit]
+  writing_system: Telugu script
+
+institutions:
+  military_basis: { values: [land-grant], source: yazdani-1960 }
+  revenue_basis: null
+  succession_rule: null
+  legitimation: { values: [conquest, descent], source: yazdani-1960 }
+
+# Prataparudra surrendered Warangal to Ulugh Khan (the future Sultan
+# Muhammad bin Tughluq) after a six-month siege and was sent toward
+# Delhi as a captive with his family; he died on the banks of the
+# Narmada before reaching the city. One near-contemporary source dates
+# this to natural causes on the journey, but a fifteenth-century grant
+# states he "departed to the world of Gods by his own desire," which
+# the source reads as suicide or a killing carried out at his own
+# request rather than death by illness or accident.
+ended:
+  type: conquest
+  by: []
+  year: 1323
+  source: yazdani-1960
+
+preceded_by_external: []
+succeeded_by_external: []
+
+turning_points:
+  - year: 1195
+    type: battle
+    name: The death of Rudradeva
+    changed: >-
+      The Yadava king Jaitugi, seizing the moment a threatened Hoysala
+      invasion left him free to strike east, killed the Kakatiya
+      founder in battle and, by one contemporary chronicler's account,
+      offered him up as a human sacrifice - a defeat so total that a
+      Kakatiya record itself describes the dynasty's own fortune as
+      abandoned in "a thorny jungle" with no one left to claim it.
+    source: yazdani-1960
+    contested: false
+  - year: 1199
+    type: succession-crisis
+    name: Ganapati's release and restoration
+    changed: >-
+      A young captive held at a hostile court since his own family's
+      defeat was set free and put back on a throne his father and a
+      loyal minister had only just kept from disappearing altogether,
+      opening a reign that would go on to bring almost the whole of the
+      Telugu country under a single ruler for the first time.
+    source: yazdani-1960
+    contested: false
+  - year: 1310
+    type: siege
+    name: Malik Na'ib's siege and the first tribute to Delhi
+    changed: >-
+      A prolonged siege of the capital ended not in a battle but in a
+      negotiated surrender of the crown's own accumulated wealth and a
+      standing yearly payment in coin and animals - the moment a power
+      that answered to no one became, for the first time, a paying
+      subordinate of a conqueror from the north it had beaten in the
+      field only seven years before.
+    source: yazdani-1960
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: yazdani-1960 }
+    religions_carried: { count: 0, items: [], source: yazdani-1960 }
+    successor_claims: { count: 0, items: [], source: yazdani-1960 }
