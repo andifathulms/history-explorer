@@ -3850,3 +3850,15 @@ edges:
            inscription found at Pataliputra itself."
     source: smith-1904
     contested: true
+
+  - from: pallava
+    to: chola
+    type: conquered by
+    year: 897
+    note: "The Chola king Aditya I defeated Aparajitavarman, the last
+           Pallava king, in battle and annexed the whole of
+           Tondaimandalam outright - the same conquest Chola's own
+           record credits with rounding out the kingdom Vijayalaya's
+           opportunism had begun two generations earlier."
+    source: gopalan-1928
+    contested: false

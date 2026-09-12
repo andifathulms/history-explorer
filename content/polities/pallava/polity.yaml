@@ -1,0 +1,97 @@
+id: pallava
+region: classical-india
+
+name:
+  latin: Pallava Dynasty
+  script: பல்லவர்
+  script_lang: ta
+
+# gopalan-1928 dates the earliest attested Pallava kings of Kanchi -
+# known only from undated Prakrit copper-plate charters placed on
+# palaeographical grounds - to "circa A.D. 200-350," a range the source
+# itself gives rather than a single year, and states plainly that "the
+# actual order of succession... is uncertain" even for those kings whose
+# names survive.
+#
+# The source's own chapter on the dynasty's later "ascendency" is
+# explicitly titled "THE DYNASTY OF SIMHAVISHNU, A.D. 575-900," and its
+# narrative places the actual conquest of Tondaimandalam by the Chola
+# king Aditya I "towards the end of the ninth century," after working
+# backward from Aditya's son Parantaka I's securely dated 907 accession
+# rather than from any inscription of Aditya's own giving the year
+# directly.
+span:
+  start: { min: 200, max: 350, source: gopalan-1928 }
+  end: { min: 897, max: 897, source: gopalan-1928 }
+
+identity: >-
+  A dynasty of Kanchi kings known first only from land-grant charters,
+  whose general sacked a rival capital to avenge a father's own
+  humiliation, ending when a Chola king defeated its last ruler and
+  annexed its territory outright.
+
+capitals:
+  - { name: "Kanchipura (Kanchi)", source: gopalan-1928 }
+
+core_region: The northern Tamil country (Tondaimandalam), centered on Kanchipuram
+
+rulers:
+  # The order of succession among the earliest Pallava kings is, in the
+  # source's own words, uncertain; no individual reign dates survive
+  # for Bappa Deva, only his position at the head of the reconstructed
+  # genealogy.
+  founder: { name: "Bappa Deva", source: gopalan-1928 }
+  peak: { name: "Narasimhavarman I (Mahamalla)", reign: [630, 660], source: gopalan-1928 }
+  last: { name: Aparajitavarman, reign: [875, 888], source: gopalan-1928 }
+
+scripts_and_languages:
+  administration: [Sanskrit, Prakrit, Tamil]
+  writing_system: Grantha, Tamil script
+
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  legitimation: { values: [descent], source: gopalan-1928 }
+
+ended:
+  type: conquest
+  by: [chola]
+  year: 897
+  source: gopalan-1928
+
+preceded_by_external: []
+succeeded_by_external: []
+
+turning_points:
+  - year: 630
+    type: battle
+    name: The sack of Vatapi
+    changed: >-
+      Avenging a Chalukya army's earlier advance to the very walls of
+      Kanchi during his own father's reign, Narasimhavarman I first
+      crushed Pulakeshin II's forces near his own capital and then sent
+      his general Siru-Tonda deep into Chalukya territory, where he
+      captured and sacked Vatapi itself and carried a captured pillar of
+      victory home to Kanchi.
+    source: gopalan-1928
+    contested: false
+  - year: 897
+    type: battle
+    name: The conquest of Tondaimandalam
+    changed: >-
+      The Chola king Aditya I, who had spent years pressing at Pallava
+      territory already, defeated Aparajitavarman outright and absorbed
+      the whole of the Pallava kingdom's own core territory into his
+      own, closing out a dynasty whose last king's own title meant
+      "the unconquered."
+    source: gopalan-1928
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: gopalan-1928 }
+    religions_carried: { count: 0, items: [], source: gopalan-1928 }
+    successor_claims: { count: 0, items: [], source: gopalan-1928 }

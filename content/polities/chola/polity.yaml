@@ -85,12 +85,13 @@ turning_points:
     type: battle
     name: The capture of Tanjore
     changed: >-
-      Fighting on behalf of his Pallava overlord against a Pandya
-      invasion, the minor chieftain Vijayalaya took Tanjore from the
-      Muttaraiyar rulers who had held it and kept it for himself rather
-      than returning it - a subordinate's opportunism that the source
-      calls the true beginning of Chola power, whatever service it was
-      dressed up as at the time.
+      The minor chieftain Vijayalaya seized Tanjore from its Muttaraiyar
+      rulers and kept it for himself under nominal Pallava overlordship
+      - a chieftain's own opportunism the source
+      calls the true beginning of Chola power, whatever the precise
+      relationship (the source itself calls this "not final") between
+      his own action and the wider Pallava-Pandya conflict of the same
+      general period.
     source: nilakanta-sastri-1955
     contested: false
   - year: 1017
