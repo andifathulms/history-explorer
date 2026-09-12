@@ -26,12 +26,9 @@ span:
   end: { min: 1569, max: 1569, source: katzel-2021 }
 
 identity: >-
-  The last pagan realm in Europe, built by a family of dukes out of
-  scattered Baltic tribes on the one frontier the Teutonic Order could
-  never fully close, converted to Catholic Christianity as the price of
-  a Polish crown, and grown under a warrior son-in-law into an empire
-  reaching from the Baltic to within reach of the Black Sea before it
-  merged its own throne into a shared one.
+  The last pagan realm in Europe, built from scattered Baltic tribes on a
+  frontier the Teutonic Order could never close, converted as the price of a
+  Polish crown, and merged at last into a shared throne.
 
 capitals:
   - { name: Kernavė, from: 1204, source: katzel-2021 }

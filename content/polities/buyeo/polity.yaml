@@ -28,12 +28,10 @@ span:
   end: { min: 17, max: 17, source: hulbert-1905 }
 
 identity: >-
-  The northern kingdom every founding legend on the peninsula seems to
-  lead back to: a golden toad-child raised as an heir, a sun-ray
-  pregnancy, an egg that hatched a master archer no one at court
-  wanted alive, and the son who fled it to found Goguryeo - the same
-  kingdom that came back a generation later to conquer the home its
-  own founder had run from.
+  The northern kingdom every founding legend on the peninsula leads back to: a
+  golden foundling raised as heir, and the egg-born son who fled to found
+  Goguryeo - which returned a generation later to conquer the home he had
+  fled.
 
 capitals:
   - { name: "East Buyeo (Tong Puyŏ)", source: hulbert-1905 }

@@ -25,14 +25,10 @@ span:
   end: { min: 1192, max: 1192, source: griffis-1883 }
 
 identity: >-
-  The court descended, by its own account, from the sun goddess
-  herself, which took Chinese writing, Chinese law and Buddhism from
-  Korea in a single sixth-century wave, built a permanent capital at
-  Kyoto to house a bureaucracy modelled on Tang China, watched real
-  power drain first to a regental family and then to the military
-  clans it had itself elevated, and ended this era of its own history
-  not dethroned but formally outranked, for the first time, by an
-  office of its own creation.
+  The court descended, by its own account, from the sun goddess, which took
+  Chinese writing, law and Buddhism from Korea in one wave, built a permanent
+  capital at Kyoto, and watched power drain to the military clans it had
+  elevated.
 
 capitals:
   - { name: Nara, source: griffis-1883 }

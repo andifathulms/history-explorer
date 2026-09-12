@@ -26,13 +26,10 @@ span:
   end: { min: 1691, max: 1691, source: godkin-1853 }
 
 identity: >-
-  The easternmost third of the old Hungarian kingdom, carved out for an
-  infant king's cradle by the same Ottoman army that had just seized
-  his capital by trickery, ruled for a century and a half by elected
-  princes who balanced Ottoman protection against Habsburg pressure
-  from the other direction, and folded at last into the House of
-  Austria's own hereditary possessions in the same treaty that broke
-  Ottoman power in Europe for good.
+  The easternmost third of the old Hungarian kingdom, carved out for an infant
+  king's cradle by the Ottoman army that had seized his capital, ruled by
+  elected princes balancing Ottoman and Habsburg pressure, and folded into
+  Austria's hereditary lands.
 
 capitals:
   - { name: Gyulafehérvár, source: godkin-1853 }

@@ -23,12 +23,9 @@ span:
   end: { min: 1917, max: 1917, source: pares-1926 }
 
 identity: >-
-  The Muscovite grand principality's own continuation under a title that
-  began as a claim to Byzantium's fallen inheritance and ended as a
-  fully continental empire, ruled from a new capital its own reformer
-  built from a river swamp, and undone in the end not by any foreign
-  army but by the accumulated weight of a war it could not win and a
-  monarchy that no one any longer knew how to save.
+  Muscovy's own continuation under a title claiming Byzantium's fallen
+  inheritance, grown into a continental empire ruled from a capital its
+  reformer built from a river swamp, and undone by a war it could not win.
 
 capitals:
   - { name: Moscow, script: Москва, from: 1547, source: kliuchevsky-1912 }

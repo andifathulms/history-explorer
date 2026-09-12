@@ -23,12 +23,10 @@ span:
   end: { min: 1573, max: 1573, source: griffis-1883 }
 
 identity: >-
-  The military house Kamakura's own fall and a rival emperor's
-  installation put in power, which governed a country its own most
-  ambitious shogun accepted a Chinese title to flatter, spent its later
-  century as a nominal authority masking a civil war it could not
-  contain, and finally lost even the shogunal title itself to a vassal
-  daimyo strong enough to no longer need one.
+  The military house Kamakura's fall and a rival emperor's installation put in
+  power, whose most ambitious shogun accepted a Chinese title to flatter it,
+  and which finally lost its own title to a vassal daimyo who no longer needed
+  one.
 
 capitals:
   - { name: Kyoto, source: griffis-1883 }

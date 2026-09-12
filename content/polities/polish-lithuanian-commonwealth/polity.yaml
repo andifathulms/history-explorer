@@ -21,12 +21,9 @@ span:
   end: { min: 1795, max: 1795, source: fletcher-1836 }
 
 identity: >-
-  The union of two crowns under one elected king and one common Sejm,
-  a nobility so protective of its own liberty that a single deputy's
-  dissent could dissolve an entire session, briefly the sword that
-  broke an Ottoman army at the gates of Vienna, and finally a state
-  three neighbours agreed to erase from the map in three successive
-  bites rather than one.
+  The union of two crowns under one elected king and one common Sejm, a
+  nobility so protective of its own liberty that a single deputy's dissent
+  could dissolve a session, and finally partitioned away by three neighbours.
 
 capitals:
   - { name: Warsaw, from: 1596, source: fletcher-1836 }

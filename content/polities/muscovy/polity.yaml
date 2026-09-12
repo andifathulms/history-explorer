@@ -22,12 +22,9 @@ span:
   end: { min: 1547, max: 1547, source: kliuchevsky-1912 }
 
 identity: >-
-  The junior appanage on the road between Suzdal and Kyiv that out-served
-  every rival claimant to the Tartars, bought and inherited its way through
-  the other Rus' principalities one at a time, married a Byzantine
-  emperor's niece once there was no Byzantine emperor left to object, and
-  ended the two-and-a-half-century tribute its own princes had once
-  collected on a khan's behalf.
+  The junior appanage that out-served every rival claimant to the Tartars,
+  bought and inherited its way through the other Rus' principalities, and
+  ended the tribute its own princes had once collected on a khan's behalf.
 
 capitals:
   - { name: Moscow, script: Москва, from: 1263, source: kliuchevsky-1912 }

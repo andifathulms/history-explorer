@@ -23,14 +23,10 @@ span:
   end: { min: 1868, max: 1868, source: griffis-1883 }
 
 identity: >-
-  The last and longest of Japan's military governments, built by the
-  one rival strong enough to outlast Nobunaga's ambition and
-  Hideyoshi's own dynasty, which sealed the country behind a policy of
-  deliberate isolation for two centuries, held every regional lord
-  hostage to a system of enforced attendance at its own capital, and
-  was finally persuaded - by a coalition of samurai it could no longer
-  outmaneuver - to hand back an authority it had never formally taken
-  from the throne it always claimed to serve.
+  The last and longest of Japan's military governments, built by the one rival
+  strong enough to outlast Nobunaga and Hideyoshi's own dynasty, which sealed
+  the country behind two centuries of isolation before handing back an
+  authority it never formally took.
 
 capitals:
   - { name: Edo (Yedo), source: griffis-1883 }

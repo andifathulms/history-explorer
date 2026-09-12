@@ -24,12 +24,9 @@ span:
   end: { min: -106, max: -106, source: hulbert-1905 }
 
 identity: >-
-  The peninsula's first kingdom by its own reckoning, founded by a
-  half-divine lord who taught marriage, cooking and farming to nine
-  wild tribes, inherited by a Chinese sage who arrived with five
-  thousand followers and a law code written on a tortoise's back, and
-  finally stolen by a refugee general whose own grandson picked a fight
-  with the Han Empire that no border kingdom could actually win.
+  The peninsula's first kingdom by its own reckoning, founded by a half-divine
+  lord who taught farming to nine wild tribes, inherited by a Chinese sage
+  with five thousand followers, and finally conquered by Han China.
 
 capitals:
   - { name: "P'yongyang", source: hulbert-1905 }

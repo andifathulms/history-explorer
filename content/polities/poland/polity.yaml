@@ -24,13 +24,9 @@ span:
   end: { min: 1569, max: 1569, source: fletcher-1836 }
 
 identity: >-
-  The Piast duchy on the Vistula and Warta that took Christianity from
-  Rome as the price of a Bohemian marriage, was crowned a kingdom by an
-  emperor's own visit to a martyr's tomb, survived the extinction of its
-  founding dynasty by inviting a foreign queen and marrying her to a
-  pagan Lithuanian duke, and grew under the Jagiellonian house it
-  created into the larger partner of a union it would spend two more
-  centuries defending as an equal one.
+  The Piast duchy that took Christianity from Rome as the price of a Bohemian
+  marriage, was crowned a kingdom by an emperor's own visit to a martyr's
+  tomb, and grew into the larger partner of a union with Lithuania.
 
 capitals:
   - { name: Gniezno, from: 964, source: fletcher-1836 }
@@ -124,7 +120,7 @@ turning_points:
       and his whole nation's to Poland's own church. The crown Louis of
       Hungary's death had left without an obvious heir passed, through
       that marriage, to a dynasty that would hold it for the rest of
-      this record's span.
+      Poland's own independent existence.
     source: fletcher-1836
     contested: false
   - year: 1569

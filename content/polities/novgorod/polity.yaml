@@ -23,11 +23,9 @@ span:
   end: { min: 1471, max: 1471, source: forbes-1914 }
 
 identity: >-
-  The trading city on the Volkhov that hired and expelled its own princes
-  rather than inheriting them, ran its affairs through a citizens' assembly
-  for three and a half centuries, and lost its independence not to the
-  Mongols who taxed it but to the one Rus' power that never had to fight
-  through a khan to reach it.
+  The trading city on the Volkhov that hired and expelled its own princes, ran
+  its affairs through a citizens' assembly for three and a half centuries, and
+  lost its independence to Moscow.
 
 capitals:
   - { name: Novgorod, script: Новъгородъ, from: 1136, source: forbes-1914 }

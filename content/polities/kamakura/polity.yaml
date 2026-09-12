@@ -23,12 +23,10 @@ span:
   end: { min: 1333, max: 1333, source: griffis-1883 }
 
 identity: >-
-  The military government a victorious general built beside, not
-  instead of, the throne he had just rescued - administered from a
-  fishing town he chose over the capital, inherited within a
-  generation by the wife's own family after his sons were murdered one
-  by one, and finally destroyed by an army whose own commander offered
-  his sword to the sea as a prayer before marching in.
+  The military government a victorious general built beside, not instead of,
+  the throne he had just rescued - inherited within a generation by his wife's
+  own family, and destroyed by an army whose commander offered his sword to
+  the sea.
 
 capitals:
   - { name: Kamakura, source: griffis-1883 }

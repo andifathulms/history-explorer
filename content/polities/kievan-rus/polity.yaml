@@ -25,9 +25,8 @@ span:
 
 identity: >-
   The river-trade federation of Slavic and Varangian princes centred on Kyiv,
-  which took its religion from Constantinople, wrote its own law before most
-  of the states that outlasted it, and was destroyed by the Mongols after a
-  century of quarrelling among its own princes had already broken it apart.
+  which took its religion from Constantinople and was destroyed by the Mongols
+  after a century of internal quarrelling.
 
 capitals:
   - { name: Kyiv, script: Кыѥвъ, from: 878, source: vernadsky-1948 }

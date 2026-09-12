@@ -23,13 +23,10 @@ span:
   end: { min: 1600, max: 1600, source: griffis-1883 }
 
 identity: >-
-  A peasant soldier's rise, on raw ability alone, to an office the law
-  had reserved for one noble family for centuries, completing in less
-  than two decades the unification his own murdered lord had begun by
-  the sword, spending it on a war of conquest against Korea that
-  achieved nothing, and dying with his empire entrusted to guardians
-  who fought each other for it before his own son was old enough to
-  rule.
+  A peasant soldier's rise, on raw ability alone, to an office the law had
+  reserved for one noble family, completing the unification his murdered lord
+  had begun, and dying with his infant heir entrusted to guardians who fought
+  each other.
 
 capitals:
   - { name: Kyoto, source: griffis-1883 }

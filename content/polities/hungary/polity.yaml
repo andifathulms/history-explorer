@@ -23,12 +23,10 @@ span:
   end: { min: 1526, max: 1526, source: godkin-1853 }
 
 identity: >-
-  The confederation of mounted archers Arpad led into the Carpathian
-  basin, remade as a Christian kingdom by a descendant crowned with a
-  pope's own crown, whose nobility wrote resistance to royal tyranny
-  into law a full generation before England's own Magna Carta, and
-  which drowned its last independent king in a marsh before the field
-  of Mohacs was even fully lost.
+  The confederation of mounted archers Arpad led into the Carpathian basin,
+  remade as a Christian kingdom, whose nobility wrote resistance to royal
+  tyranny into law before England's own Magna Carta, and which drowned its
+  last king at Mohacs.
 
 capitals:
   - { name: Buda, from: 1047, source: godkin-1853 }

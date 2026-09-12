@@ -23,11 +23,9 @@ span:
   end: { min: 1336, max: 1336, source: griffis-1883 }
 
 identity: >-
-  Two years and a few months in which a mikado exiled by his own
-  vassals returned to rule Japan directly for the first time in a
-  century and a half, undone not by the shogunate he had just
-  destroyed but by his own unequal reward of the men who had destroyed
-  it for him.
+  Two years in which a mikado exiled by his own vassals returned to rule Japan
+  directly for the first time in a century and a half, undone by his own
+  unequal reward of the men who restored him.
 
 capitals:
   - { name: Kyoto, source: griffis-1883 }
