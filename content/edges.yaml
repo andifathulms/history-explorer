@@ -3888,3 +3888,17 @@ edges:
            battle - after which no further Chola inscription is known."
     source: sastri-1929-pandyan
     contested: false
+
+  - from: hoysala
+    to: vijayanagara
+    type: absorbed remnants of
+    year: 1342
+    note: "Ballala III's death left his son Ballala IV a ruler in name
+           only, and the Vijayanagara kings inherited leadership of the
+           Hindu resistance to the Delhi Sultanate's southern advance,
+           absorbing the whole Hoysala kingdom within a few years
+           without recorded opposition; early Vijayanagara inscriptions
+           describe Harihara and Bukka as ruling 'the Hoysala kingdom'
+           outright."
+    source: coelho-1950
+    contested: false

@@ -1,0 +1,116 @@
+id: hoysala
+region: classical-india
+
+name:
+  latin: Hoysala Empire
+  script: ಹೊಯ್ಸಳ
+  script_lang: kn
+
+# Every Hoysala inscription that gives a genealogy begins it not with
+# the legendary Sala but with Nripa Kama Hoysala, whose own earliest
+# inscription is dated A.D. 1022 and whose reign coelho-1950 places at
+# 1022-1027 - the first Hoysala ruler who can actually be dated. The
+# source records without resolving a scholarly dispute over whether
+# Nripa Kama Hoysala and the tiger-slaying Sala of legend are one and
+# the same person; this record uses the dated, historically attested
+# ruler as founder and treats Sala's story as the dynasty's own account
+# of its origin, covered in its first chapter.
+span:
+  start: { min: 1022, max: 1027, source: coelho-1950 }
+  end: { min: 1342, max: 1342, source: coelho-1950 }
+
+identity: >-
+  A Western Ghats hill chieftaincy that named itself for a legendary
+  tiger kill, grew into a Karnataka empire under a king who changed his
+  own religion the same year he broke the Cholas, and ended when its
+  last king, eighty years old, was captured, killed and flayed outside
+  the fortress he had spent ten months besieging.
+
+capitals:
+  - { name: Belur, source: coelho-1950 }
+  - { name: "Dwarasamudra (Halebidu)", source: coelho-1950 }
+
+core_region: Karnataka, centered on the Western Ghats and the old Ganga territory of Gangavadi
+
+rulers:
+  founder: { name: "Nripa Kama Hoysala", reign: [1022, 1027], source: coelho-1950 }
+  peak: { name: Vishnuvardhana, reign: [1104, 1141], source: coelho-1950 }
+  last: { name: "Ballala III", reign: [1291, 1342], source: coelho-1950 }
+
+scripts_and_languages:
+  administration: [Kannada, Sanskrit]
+  writing_system: Kannada script
+
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  # Vishnuvardhana's own conversion from Jainism to Vaishnavism in 1116,
+  # the same year as his conquest of Talakad, is well documented; his
+  # predecessors and the earlier dynasty were Jain, and the source
+  # treats the change as adding a real religious edge to his wars
+  # against Jain and Saivite rivals alike, without calling him a
+  # fanatic.
+  legitimation: { values: [conquest, divine-sanction], source: coelho-1950 }
+
+# Ballala III died at Madurai in September 1342, at the Sultanate's own
+# hands, after a siege he had pressed for ten months - the source calls
+# this "the end of the great monarch" and "his great empire" in the
+# same breath. His son Ballala IV held a nominal crown for a few more
+# years, but the source is explicit that his power "could not have
+# been much more than that of an ordinary chieftain," so this record
+# treats 1342 as the political end and the brief coda as afterlife
+# rather than a second reign worth its own span.
+ended:
+  type: conquest
+  by: []
+  year: 1342
+  source: coelho-1950
+
+preceded_by_external: []
+
+succeeded_by_external:
+  - name: the Sultanate of Madurai
+    type: conquered by
+    year: 1342
+    note: >-
+      Ballala III besieged the Sultanate's fortress at Kannanur-Koppam
+      for ten months and had all but won it when a relief force led by
+      the Sultan himself routed his unprepared army; captured and, once
+      his riches were extracted, killed, his body was flayed and the
+      skin hung from the walls of Madurai - the act Ibn Battuta himself
+      records having seen there in person not long afterward.
+    source: coelho-1950
+
+turning_points:
+  - year: 1116
+    type: battle
+    name: The conquest of Talakad and a change of faith
+    changed: >-
+      In a single year, King Vishnuvardhana's own forces broke a Chola
+      garrison and seized Talakad, the old Ganga capital the Cholas had
+      held for two centuries, while the king himself abandoned the
+      Jainism of his predecessors for Vaishnavism - a double
+      transformation that turned a Chalukya governorship into the core
+      of an independent kingdom.
+    source: coelho-1950
+    contested: false
+  - year: 1342
+    type: siege
+    name: The death of Ballala III at Madurai
+    changed: >-
+      An eighty-year-old king who had spent decades leading Hindu South
+      India's resistance to Delhi's southern advance was captured
+      outside the fortress he had nearly starved into surrender and put
+      to death, ending in a single afternoon the military leadership a
+      whole regional coalition had depended on for a generation.
+    source: coelho-1950
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: coelho-1950 }
+    religions_carried: { count: 0, items: [], source: coelho-1950 }
+    successor_claims: { count: 0, items: [], source: coelho-1950 }
