@@ -78,6 +78,18 @@ turning_points:
       they could not afford to be removed from.
     source: kennedy-2004
     contested: false
+  - year: 1050
+    type: succession-crisis
+    name: "Qirwash chained by his brother"
+    changed: >-
+      After fifty years in power, Qirwash quarrelled with his brother Baraka
+      and was put in chains; Baraka took the title and ruled two years, and
+      when he died their nephew Quraysh had Qirwash executed at a public
+      audience. It left thirty-four years of Uqaylid rule at Mosul standing
+      on a family that had just demonstrated it could not hold a succession
+      without chaining or killing one of its own.
+    source: ibn-khallikan
+    contested: false
   - year: 1085
     type: battle
     name: "The death of Muslim ibn Quraysh"
@@ -89,6 +101,22 @@ turning_points:
       pieces one at a time.
     source: wilson-2023
     contested: false
+  # No battle and no securely attested last emir: the sources stop mentioning
+  # Uqaylid rule at Mosul rather than recording its defeat. 1096 is coded
+  # because that is when Kerbogha is attested ruling the city in his own
+  # name, not because a document marks the changeover.
+  - year: 1096
+    type: catastrophe
+    name: "Kerbogha takes Mosul"
+    changed: >-
+      A Turkish officer named Kerbogha made himself amir of Mosul, and
+      Uqaylid rule there ended without a named battle or a recorded last
+      emir — the dynasty stops being mentioned rather than being defeated.
+      A branch held the fortress of Qal'at Ja'bar on the Euphrates for
+      another seventy years, but the family that had governed the Jazira's
+      largest city for a century never held a capital again.
+    source: wilson-2023
+    contested: true
 
 measures:
   reach_km2: null
