@@ -3284,6 +3284,33 @@ edges:
     source: breasted-1912
     contested: false
 
+  - from: egypt-new-kingdom
+    to: egypt-third-intermediate
+    type: partitioned from
+    year: -1077
+    note: >-
+      The kingdom did not fall to anybody. It divided: a Ramesside line at
+      Tanis in the Delta holding the title, and the High Priest of Amun at
+      Thebes holding the south with an army and the temple estates. Wenamun
+      sailed for Byblos under that arrangement, with letters from the High
+      Priest and no authority behind them.
+    source: breasted-1912
+    contested: false
+
+  - from: egypt-third-intermediate
+    to: kush
+    type: conquered by
+    year: -728
+    note: >-
+      Piye moved north from Napata against a country split among at least
+      four rival kings and received the personal submission of every one
+      of them; his own Gebel Barkal stela names them individually, coming
+      to him one by one. He returned to Napata rather than ruling Egypt
+      directly, and most of the Delta kinglets he had beaten kept their
+      local thrones as his tributaries.
+    source: shaw-2000
+    contested: false
+
   # ---- Indian sultanates: the regional courts Timur's 1398 sack let loose ----
 
   - from: delhi-sultanate
