@@ -111,6 +111,22 @@ turning_points:
       recently acquired was being asserted in the oldest available idiom.
     source: shaw-2000
     contested: true
+  - year: -728
+    type: battle
+    name: "Piye's campaign"
+    changed: >-
+      A Kushite king moved north against a country split among at least
+      four rival pharaohs and took the personal submission of every one of
+      them, ending not their local thrones but any question of who actually
+      held Egypt. Nothing about the settlement afterward looked like
+      annexation: the defeated kings mostly kept their crowns, now paying a
+      distant overlord at Napata rather than claiming the whole country
+      each for himself. The fragmentation this campaign answered had lasted
+      three and a half centuries; the arrangement that replaced it lasted a
+      matter of decades before Piye's own successors chose to hold Egypt
+      directly instead.
+    source: shaw-2000
+    contested: false
 
 measures:
   reach_km2: null
