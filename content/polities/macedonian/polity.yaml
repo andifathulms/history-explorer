@@ -63,6 +63,20 @@ institutions:
   legitimation: { values: [conquest, divine-sanction], source: ab-bosworth-1988 }
 
 turning_points:
+  - year: -331
+    type: battle
+    name: "Gaugamela"
+    changed: >-
+      Darius levelled the ground for his own scythed chariots and Alexander
+      broke his line anyway, wheeling into a gap the Persian cavalry opened
+      trying to envelop the Macedonian right; Darius fled the field first,
+      and was killed by his own satrap the following year. Babylon, Susa and
+      Persepolis followed with their treasuries. It is where a war of
+      conquest ends — the Achaemenid empire was beaten in three afternoons,
+      and everything after Gaugamela is the harder work of holding what had
+      already been won.
+    source: arrian-chinnock
+    contested: false
   - year: -326
     type: revolt
     name: "The Hyphasis"
