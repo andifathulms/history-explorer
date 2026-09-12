@@ -4012,3 +4012,21 @@ edges:
            and Anshan plainly continues across it."
     source: potts-2016
     contested: false
+
+  # ---- The Caucasus: the Bagrationi's own claimed origin ----
+
+  - from: bagratid-armenia
+    to: georgia
+    type: claimed legitimacy of
+    year: null
+    note: "The Georgian Bagrationi and the Armenian Bagratuni made the same
+           claim of descent from King David through the same tradition, and
+           the two houses are generally taken to be branches of one family
+           - a branch that had already settled in Tao-Klarjeti under
+           Byzantine protection before Bagrat III united it with his own
+           inherited claim to Abkhazia in 1008. Nobody outside the
+           tradition believes the specific genealogy back to David; the
+           kinship between the two houses is a separate and better
+           supported claim."
+    source: suny-1994
+    contested: true
