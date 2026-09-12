@@ -105,9 +105,13 @@ turning_points:
       the writing of the name itself, and it accompanies the reorganisation —
       standard weights and measures, a single state calendar, a reformed
       accounting system, the scribal schools — that produced the administrative
-      record the dynasty is known by.
+      record the dynasty is known by. Marked contested because why it happened
+      is genuinely unsettled: the argument runs one way toward an
+      administrative-control theory and the other toward a continuation of
+      older Sumerian ideas about the king's ritual marriage to Inanna, and the
+      sources do not decide between them.
     source: crawford-2013
-    contested: false
+    contested: true
   - year: -2022
     type: catastrophe
     name: The grain crisis
@@ -119,9 +123,11 @@ turning_points:
       failure of the irrigation, or the bala system itself seizing up under a
       king who had lost the provinces is argued about. What the tablets show is
       an administrative machine recording, in its own formulae, its own supply
-      failing.
+      failing. Marked contested because the event and its shape are not in
+      question while the weight each candidate cause deserves against the
+      others genuinely is, with no source settling the argument.
     source: crawford-2013
-    contested: false
+    contested: true
   - year: -2020
     type: revolt
     name: Ishbi-Erra at Isin
