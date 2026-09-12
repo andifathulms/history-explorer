@@ -1,0 +1,165 @@
+id: muscovy
+region: rus-and-muscovy
+
+name:
+  latin: The Grand Principality of Moscow
+  script: Великое княжество Московское
+  script_lang: orv
+
+# 1263 is Daniel, Alexander Nevsky's youngest son, being made Moscow's own
+# prince - the point kliuchevsky-1912 identifies as the start of a
+# permanent princely line there, after decades in which the town had no
+# ruler of its own at all. Before Daniel the town appears in the sources
+# only as a minor waypoint on the road between Suzdal and Kyiv.
+#
+# 1547 is Ivan IV's coronation with the title of Tsar - the moment the
+# source this record is drafted from treats as the line between a
+# princely Moscow gathering the other Rus' lands under itself and a
+# formally imperial Muscovite state. What follows belongs to a different
+# record in this same region.
+span:
+  start: { min: 1263, max: 1263, source: kliuchevsky-1912 }
+  end: { min: 1547, max: 1547, source: kliuchevsky-1912 }
+
+identity: >-
+  The junior appanage on the road between Suzdal and Kyiv that out-served
+  every rival claimant to the Tartars, bought and inherited its way through
+  the other Rus' principalities one at a time, married a Byzantine
+  emperor's niece once there was no Byzantine emperor left to object, and
+  ended the two-and-a-half-century tribute its own princes had once
+  collected on a khan's behalf.
+
+capitals:
+  - { name: Moscow, script: Москва, from: 1263, source: kliuchevsky-1912 }
+
+core_region: The forest zone between the Upper Volga and the Oka, radiating outward from the Moskva river
+
+rulers:
+  founder: { name: Daniel of Moscow, reign: [1263, 1303], source: kliuchevsky-1912 }
+  peak: { name: "Ivan III (Ivan the Great)", reign: [1462, 1505], source: kliuchevsky-1912 }
+  last: { name: "Ivan IV (Ivan the Terrible)", reign: [1533, 1547], source: kliuchevsky-1912 }
+
+scripts_and_languages:
+  administration: [Old East Slavic, Church Slavonic]
+  writing_system: Cyrillic
+
+# Not a conquest: the same dynasty, the same capital, the same territory,
+# under a newly claimed title. `dynastic replacement` is the closest fit
+# in the closed vocabulary to a change of ruling status rather than of
+# rulers - the same category this corpus already uses when one record
+# gives way to a direct successor rather than being destroyed. `by` is
+# empty here rather than naming that successor, since no record for it
+# exists yet; see the succeeded_by_external note below.
+ended:
+  type: dynastic replacement
+  by: []
+  year: 1547
+  source: kliuchevsky-1912
+
+preceded_by_external: []
+
+succeeded_by_external:
+  - name: The Tsardom of Russia
+    type: claimed legitimacy of
+    year: 1547
+    note: >-
+      Ivan IV's coronation with the title of Tsar in January 1547 did not
+      change the ruling house, the capital, or the territory at a stroke.
+      It changed the office the same Rurikid line now claimed to hold -
+      no longer merely the senior of the Rus' princes, but an anointed
+      autocrat in the Byzantine mould his grandfather Ivan III had already
+      spent a reign building the ceremonial and genealogical case for.
+    source: kliuchevsky-1912
+
+institutions:
+  # Princely retinues (the druzhina, later reorganised as a service
+  # nobility bound to landholding) reinforced, for most of this record's
+  # span, by Tartar auxiliaries the Grand Prince could call on as the
+  # Khan's own tribute-collector and enforcer against rival principalities.
+  military_basis: { values: [client-levy], source: kliuchevsky-1912 }
+  # Tribute owed to the Golden Horde and, simultaneously, collected by
+  # Moscow's own princes on the Horde's behalf from every other Rus'
+  # principality - the arrangement that made Ivan Kalita's 1328 grant of
+  # the Suzerain throne the financial foundation of everything that
+  # followed.
+  revenue_basis: { values: [tribute, land-tax], source: kliuchevsky-1912 }
+  succession_rule: { values: [primogeniture], source: kliuchevsky-1912 }
+  # Descent, from Daniel through his eventual grandson Ivan III; divine
+  # sanction, built up deliberately under Ivan III through his marriage to
+  # the Byzantine heiress Sophia Palaiologina and the ceremonial and
+  # genealogical claims to Constantinople's own succession that followed
+  # it; and, for the whole span, a khan's confirmation, without which no
+  # claim of descent or divine favour translated into an actual throne.
+  legitimation: { values: [descent, divine-sanction, investiture], source: kliuchevsky-1912 }
+
+turning_points:
+  - year: 1328
+    type: treaty
+    name: The Suzerain throne
+    changed: >-
+      A khan rewarded the one Rus' prince who never arrived at his court
+      empty-handed by making him responsible for collecting every other
+      principality's tribute as well as his own - a punishment for Tver,
+      which Kalita's own troops had just helped to devastate, and a reward
+      for Moscow, which received the senior title itself. Every later
+      Muscovite claim to precedence over the other Rus' lines starts from
+      the accounting relationship this appointment created.
+    source: kliuchevsky-1912
+    contested: false
+  - year: 1380
+    type: battle
+    name: Kulikovo
+    changed: >-
+      Dmitri, Ivan Kalita's grandson, chose an open field rather than the
+      usual annual payment and beat a Mongol army for the first time since
+      the yoke had been imposed. Subjection to the Horde did not actually
+      end there, and would not for another century - but the fact of the
+      victory, once it existed, could never again be un-happened.
+    source: kliuchevsky-1912
+    contested: false
+  - year: 1472
+    type: reform
+    name: Ivan III marries Sophia Palaiologina
+    changed: >-
+      Ivan married into the fallen imperial house of Constantinople
+      itself, and treated the match as licence to remake his own court
+      around Greek ceremony and a genealogy reaching past every rival Rus'
+      prince entirely. His boyars had married their princes off for
+      generations without any of them acquiring this particular idea of
+      what a wife's ancestry could justify.
+    source: kliuchevsky-1912
+    contested: false
+  - year: 1480
+    type: battle
+    name: The stand on the Ugra
+    changed: >-
+      A Mongol force massed on a river frontier and, after a prolonged
+      standoff, withdrew without ever forcing the crossing - the last
+      time any khan tried to compel the payment Moscow had owed since
+      1238, and the last time one succeeded in nothing at all.
+      Contemporaries did not yet treat the outcome as certain: Ivan's own
+      subjects, alarmed by his brief withdrawal during the crisis, are
+      recorded fearing the opposite result right up to the end of it.
+    source: kliuchevsky-1912
+    contested: false
+  - year: 1547
+    type: reform
+    name: Ivan IV crowned Tsar
+    changed: >-
+      A young ruler who had spent his whole minority watching rival boyar
+      factions fight for control of his own throne answered that
+      experience by having himself anointed to an office none of them
+      could contest on the same terms they had contested a regency.
+      Everything that followed - a Zemski Sobor within three years, an
+      Oprichnina within two decades - belongs to a Tsardom rather than a
+      Grand Principality.
+    source: kliuchevsky-1912
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: kliuchevsky-1912 }
+    religions_carried: { count: 0, items: [], source: kliuchevsky-1912 }
+    successor_claims: { count: 0, items: [], source: kliuchevsky-1912 }
