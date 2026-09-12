@@ -1,0 +1,151 @@
+id: tokugawa
+region: korea-and-japan
+
+name:
+  latin: The Tokugawa Shogunate
+  script: 徳川幕府
+  script_lang: ja
+
+# 1603 is Ieyasu's own formal investiture as Sei-i Tai Shogun,
+# griffis-1883's own repeated dating for the start of "the Tokugawa
+# shoguns (1603-1868)" - three years after his decisive victory at
+# Sekigahara had already made him Japan's actual master. The gap
+# between battlefield supremacy and formal title, in both directions,
+# matches the same pattern this record's own predecessor was built on.
+#
+# 1868 is the court's coup d'etat of 3 January, which abolished the
+# office of shogun and the bakufu outright and declared the government
+# restored solely to the imperial court - four years after Yoshinobu
+# had already tendered his own resignation as shogun in November 1867,
+# a resignation he came to regret and briefly tried to reverse by force.
+span:
+  start: { min: 1603, max: 1603, source: griffis-1883 }
+  end: { min: 1868, max: 1868, source: griffis-1883 }
+
+identity: >-
+  The last and longest of Japan's military governments, built by the
+  one rival strong enough to outlast Nobunaga's ambition and
+  Hideyoshi's own dynasty, which sealed the country behind a policy of
+  deliberate isolation for two centuries, held every regional lord
+  hostage to a system of enforced attendance at its own capital, and
+  was finally persuaded - by a coalition of samurai it could no longer
+  outmaneuver - to hand back an authority it had never formally taken
+  from the throne it always claimed to serve.
+
+capitals:
+  - { name: Edo (Yedo), source: griffis-1883 }
+
+core_region: The Kantō plain around Edo, with authority projected over the whole of Japan through a system of hostage daimyo and enforced attendance
+
+rulers:
+  founder: { name: "Tokugawa Ieyasu", reign: [1603, 1616], source: griffis-1883 }
+  peak: { name: "Tokugawa Iemitsu", reign: [1633, 1649], source: griffis-1883 }
+  last: { name: "Tokugawa Yoshinobu (Keiki)", reign: [1867, 1868], source: griffis-1883 }
+
+scripts_and_languages:
+  administration: [Classical Chinese, Old Japanese]
+  writing_system: Chinese characters (kanji), adapted for Japanese
+
+# Not a conquest: no battle destroyed the Tokugawa house in the act of
+# its own political ending. A coalition of samurai and daimyo, acting
+# in the emperor's name after Yoshinobu had already tendered his own
+# resignation, seized the palace gates and declared the shogunate
+# abolished by imperial decree - authority passing to a body with no
+# dynastic claim of its own rather than to a rival house. `internal
+# usurpation` matches the same pattern this corpus already codes for
+# the Hojo's rise, Nobunaga's deposal of the last Ashikaga shogun, and
+# Ieyasu's own victory over the Toyotomi coalition.
+ended:
+  type: internal usurpation
+  by: []
+  year: 1868
+  source: griffis-1883
+
+preceded_by_external: []
+
+succeeded_by_external:
+  - name: The Meiji government
+    type: overthrew
+    year: 1868
+    note: >-
+      A samurai coalition from Satsuma, Chōshū and allied domains, in
+      the name of a mikado who had never actually governed in his own
+      right for the shogunate's whole existence, took the palace gates
+      by force and declared authority restored solely to the imperial
+      court - the government that would go on to abolish feudal
+      domains outright and remake Japan on an entirely different model.
+    source: griffis-1883
+
+institutions:
+  military_basis: { values: [client-levy], source: griffis-1883 }
+  revenue_basis: { values: [land-tax], source: griffis-1883 }
+  succession_rule: { values: [primogeniture], source: griffis-1883 }
+  legitimation: { values: [descent, investiture], source: griffis-1883 }
+
+turning_points:
+  - year: 1615
+    type: siege
+    name: The fall of Osaka
+    changed: >-
+      Ieyasu laid siege to the castle still sheltering Hideyoshi's own
+      son, and a single day of ferocious fighting on 9 June ended with
+      the citadel burned and Hideyori dead alongside thousands of his
+      own followers. The last possible rival claim to the country's
+      mastery went up in the same flames.
+    source: griffis-1883
+    contested: false
+  - year: 1637
+    type: revolt
+    name: Shimabara
+    changed: >-
+      Tens of thousands of persecuted Christian peasants seized and
+      fortified an old castle, and shogunal armies drawn largely from
+      veterans of the Korean and Osaka campaigns needed two months of
+      siege by land and sea to reduce a rebellion its own commanders
+      had expected to crush without difficulty. The uprising hardened
+      the exclusion policy already underway into something closer to
+      permanent national seclusion.
+    source: griffis-1883
+    contested: false
+  - year: 1639
+    type: reform
+    name: National seclusion completed
+    changed: >-
+      Foreign trade was confined to a single artificial island at
+      Nagasaki, Japanese subjects were forbidden on pain of death from
+      leaving the country, and vessels capable of ocean voyages were
+      ordered destroyed - closing, in a matter of years, a coastline
+      that had welcomed foreign traders eagerly just a century before.
+    source: griffis-1883
+    contested: false
+  - year: 1867
+    type: succession-crisis
+    name: Yoshinobu tenders his resignation
+    changed: >-
+      A shogun who had accepted the office reluctantly and led it with
+      no fixed course of his own yielded to demands he could no longer
+      outlast, and offered to resign the title of Sei-i Tai Shogun
+      outright - the first Tokugawa ruler ever to give the office up
+      voluntarily rather than pass it on or lose it in the field.
+    source: griffis-1883
+    contested: false
+  - year: 1868
+    type: revolt
+    name: The bakufu abolished
+    changed: >-
+      A coalition of domains seized the palace gates, purged the boy
+      emperor's own court of Tokugawa sympathisers, and issued an edict
+      in his name declaring the shogunate and its whole apparatus
+      abolished - converting one man's earlier resignation into a
+      decision no army could reverse, however hard its own author would
+      soon try.
+    source: griffis-1883
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: griffis-1883 }
+    religions_carried: { count: 0, items: [], source: griffis-1883 }
+    successor_claims: { count: 0, items: [], source: griffis-1883 }
