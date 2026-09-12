@@ -83,6 +83,26 @@ turning_points:
       in 1174 preparing to march south. His heir was eleven.
     source: humphreys-1977
     contested: false
+  # No single date ends the Zangids: Saladin took Damascus in 1174, bought
+  # Aleppo by exchange in 1183, and had Mosul's submission in 1186 without
+  # taking the city, and Zangid branches went on ruling at Mosul as Ayyubid
+  # vassals for decades after that. 1186 is coded because it is the point
+  # nothing Zangid-ruled stood outside Saladin's authority, not because it is
+  # a clean ending; the point of the entry is the absence of one.
+  - year: 1186
+    type: siege
+    name: "Mosul submits"
+    changed: >-
+      Saladin took Damascus in 1174 and bought Aleppo by exchange in 1183; in
+      1186, after two failed sieges, Mosul consented to become his vassal
+      without a storm. Nothing was destroyed. He inherited the army, the
+      religious establishment, the reputation for justice and the commitment
+      to Jerusalem, and finished the project with the instruments the Zangids
+      had built, while Zangid branches went on ruling Mosul and the Jazira as
+      his vassals for decades. The dynasty was not conquered so much as
+      absorbed one branch at a time.
+    source: humphreys-1977
+    contested: true
 
 measures:
   # No cited km2 for this polity in the works consulted; Taagepera does not
