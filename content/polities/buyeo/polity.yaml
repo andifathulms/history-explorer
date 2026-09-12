@@ -1,0 +1,128 @@
+id: buyeo
+region: korea
+
+name:
+  latin: Buyeo (Puyŏ)
+  script: 부여
+  script_lang: ko
+
+# hulbert-1905 carries two founding traditions for Buyeo and treats them
+# very differently. The earlier one - that Tan-gun's own son Pu-ru
+# founded North Buyeo around 2187 BCE - the source calls "quite
+# apocryphal," offering only "a precarious starting point." The span
+# instead follows the source's other tradition: King Hă-bu-ru reigning
+# in Buyeo "about fifty years before the beginning of our era," the
+# point at which the narrative that can actually be followed - Hă-bu-ru,
+# his adopted heir Geumwa, and Geumwa's own household - begins.
+#
+# The end date is not given as a single figure but built from the
+# source's own sequence of year-markers: an event dated 14 CE, a king's
+# death "two years later," and a conquest "the next year," which places
+# Goguryeo's destruction of the Buyeo capital at 17 CE. This is the one
+# Buyeo lineage - the line Jumong fled from to found Goguryeo - whose
+# end the source actually narrates; other Buyeo remnants and successor
+# statelets are named elsewhere without a continuous history attached to
+# them, and are outside this record's own span.
+span:
+  start: { min: -50, max: -50, source: hulbert-1905 }
+  end: { min: 17, max: 17, source: hulbert-1905 }
+
+identity: >-
+  The northern kingdom every founding legend on the peninsula seems to
+  lead back to: a golden toad-child raised as an heir, a sun-ray
+  pregnancy, an egg that hatched a master archer no one at court
+  wanted alive, and the son who fled it to found Goguryeo - the same
+  kingdom that came back a generation later to conquer the home its
+  own founder had run from.
+
+capitals:
+  - { name: "East Buyeo (Tong Puyŏ)", source: hulbert-1905 }
+
+core_region: The upper reaches of the Sungari river basin, in what is now northeastern China
+
+rulers:
+  # No death year is given for Hă-bu-ru; only his own approximate
+  # accession, "about fifty years before the beginning of our era."
+  founder: { name: "Hă-bu-ru", source: hulbert-1905 }
+  peak: null
+  # Dae So (Ta-so) was killed when Goguryeo's forces took the Buyeo
+  # capital; no accession year is given for his own reign.
+  last: { name: "Dae So (Ta-so)", source: hulbert-1905 }
+
+scripts_and_languages:
+  administration: [Old Korean]
+  writing_system: none recorded
+
+# A conquest, narrated as one: Goguryeo's king took the field against
+# Buyeo after a dispute over an omen each side read as pointing to its
+# own victory, defeated the Buyeo army before its own capital, and
+# accepted its surrender after the king's death in the field. `by` is
+# empty since no record for Goguryeo exists here yet; see the
+# succeeded_by_external note below.
+ended:
+  type: conquest
+  by: []
+  year: 17
+  source: hulbert-1905
+
+preceded_by_external: []
+
+succeeded_by_external:
+  - name: Goguryeo
+    type: conquered by
+    year: 17
+    note: >-
+      Goguryeo's own founding dynasty, itself descended from a prince
+      who had fled Buyeo a generation earlier, returned to conquer the
+      kingdom he had left - accepting the surrender of Buyeo's army
+      after its king died in the field, though the dead king's brother
+      escaped with a hundred followers to found a smaller holding
+      Goguryeo chose not to pursue.
+    source: hulbert-1905
+
+institutions:
+  military_basis: { values: [tribal-levy], source: hulbert-1905 }
+  revenue_basis: { values: [tribute], source: hulbert-1905 }
+  # `nomination`: Geumwa was a foundling adopted by Hă-bu-ru after a
+  # prayer for an heir, raised to succeed him rather than inheriting
+  # through descent from him.
+  succession_rule: { values: [nomination], source: hulbert-1905 }
+  # `divine-sanction`: Geumwa's own arrival was framed as an answer to
+  # a royal prayer, and his own household's succession dispute - which
+  # drove Jumong to flee and found Goguryeo - centred on a rival
+  # claimant conceived, by the same tradition, through a ray of
+  # sunlight rather than an ordinary union.
+  legitimation: { values: [divine-sanction], source: hulbert-1905 }
+
+turning_points:
+  - year: -50
+    type: succession-crisis
+    name: A golden foundling becomes heir
+    changed: >-
+      A king with no son of his own found, beneath a weeping horse and
+      an overturned boulder, a golden child shaped like a toad - and
+      raised him as Geumwa, the heir his own prayers had failed to
+      produce by ordinary means. The kingdom relocated eastward not
+      long afterward, to a new seat near the White Head Mountain.
+    source: hulbert-1905
+    contested: false
+  - year: 17
+    type: battle
+    name: Goguryeo's conquest
+    changed: >-
+      A dispute over the meaning of a two-bodied crow, each side reading
+      the same omen as proof of its own coming victory, ended in an
+      actual war rather than a symbolic one: Goguryeo's army broke the
+      Buyeo forces before their own capital and accepted the kingdom's
+      surrender once its king had died trying to spring a night ambush
+      that instead mired his own troops in a marsh.
+    source: hulbert-1905
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: hulbert-1905 }
+    religions_carried: { count: 0, items: [], source: hulbert-1905 }
+    successor_claims: { count: 0, items: [], source: hulbert-1905 }
