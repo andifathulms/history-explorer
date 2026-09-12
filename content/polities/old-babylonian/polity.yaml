@@ -151,19 +151,24 @@ turning_points:
       Larsa were substantially abandoned, their temple establishments moved
       north, and the administrative archives that had run continuously for
       centuries stop. The empire lasted one reign. The dynasty lasted another
-      hundred and forty years as a middling kingdom around Babylon.
+      hundred and forty years as a middling kingdom around Babylon. Marked
+      contested because why the south emptied out is genuinely argued —
+      a shift in the Euphrates channel, salinisation, the political collapse
+      itself, or the three feeding each other — while the scale of the
+      abandonment itself is not in question.
     source: beaulieu-2018
-    contested: false
+    contested: true
   - year: -1595
     type: siege
     name: The Hittite raid
     changed: >-
       Mursili I took the city and the dynasty ended. He held nothing and went
-      home, where he was murdered. This site carries the same event as the first
-      turning point of the Hittite record, which is the second such pairing in
-      this region — the fall of Nineveh in 612 is on three pages — and in both
-      cases the two entries say different things, because what the raid did to
-      Hatti and what it did to Babylon have almost nothing in common.
+      home, where he was murdered. The same raid is also the first turning
+      point of the Hittite kingdom's own history, and the two accounts of it
+      say different things rather than one simply repeating the other,
+      because what the raid did to Hatti and what it did to Babylon have
+      almost nothing in common — a pairing of the same kind as the fall of
+      Nineveh in 612, which touches three separate histories at once.
     source: beaulieu-2018
     contested: false
 
