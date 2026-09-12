@@ -96,6 +96,20 @@ turning_points:
       years the city was Nur al-Din's.
     source: el-azhari-1997
     contested: false
+  - year: 1154
+    type: siege
+    name: "The gates opened from inside"
+    changed: >-
+      Nur al-Din brought his army to the walls in April after six years of
+      blockade, marriage and the accusation that the Burids were the Franks'
+      tributaries; the wall was left unguarded and the city let him in.
+      Damascus and Aleppo were under one ruler for the first time since the
+      tenth century, the foundation everything the counter-crusade did
+      afterwards runs on. The Burids were not defeated in the ordinary sense:
+      they were argued out of a city that had stopped trusting them to
+      defend it.
+    source: el-azhari-1997
+    contested: false
 
 measures:
   reach_km2: null
