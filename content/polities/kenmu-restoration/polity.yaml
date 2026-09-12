@@ -54,23 +54,13 @@ scripts_and_languages:
 # exists yet; see the succeeded_by_external notes below.
 ended:
   type: fragmentation
-  by: []
+  by: [nanboku-cho]
   year: 1336
   source: griffis-1883
 
 preceded_by_external: []
 
 succeeded_by_external:
-  - name: The Nanboku-chō schism
-    type: partitioned from
-    year: 1336
-    note: >-
-      Go-Daigo's flight from Kyoto with the sacred regalia, refusing to
-      recognise the rival emperor Ashikaga had just installed, opened
-      the fifty-six-year contest between northern and southern
-      imperial courts that this record's own single restored mikadoate
-      split into.
-    source: griffis-1883
   - name: The Ashikaga Shogunate
     type: overthrew
     year: 1336

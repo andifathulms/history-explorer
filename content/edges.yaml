@@ -3558,3 +3558,15 @@ edges:
            three years before."
     source: griffis-1883
     contested: false
+
+  - from: kenmu-restoration
+    to: nanboku-cho
+    type: partitioned from
+    year: 1336
+    note: "Go-Daigo's flight from Kyoto with the sacred regalia,
+           refusing to recognise the rival emperor Ashikaga had just
+           installed, opened the fifty-six-year contest between
+           northern and southern imperial courts that the single
+           restored mikadoate split into."
+    source: griffis-1883
+    contested: false

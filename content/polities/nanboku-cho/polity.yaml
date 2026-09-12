@@ -1,0 +1,132 @@
+id: nanboku-cho
+region: korea-and-japan
+
+name:
+  latin: "Nanboku-chō (the Southern Court)"
+  script: 南北朝
+  script_lang: ja
+
+# 1336 is Ashikaga Takauji's installation of the rival emperor Kogen in
+# Kyoto, the same event that ends the Kenmu Restoration's own record.
+# Go-Daigo, refusing to recognise Kogen, fled with the sacred regalia
+# and continued to reign as what griffis-1883, following the Dai Nihon
+# Shi's own judgment, treats as the legitimate line - the Southern
+# Court this record follows, rather than the Ashikaga-backed Northern
+# line reigning simultaneously in Kyoto.
+#
+# 1392 is Go-Kameyama's abdication: persuaded by an Ashikaga envoy to
+# travel to Kyoto and surrender the regalia to Go-Komatsu, the Northern
+# emperor, ending "the war of fifty-six years' duration" on terms that
+# promised an alternating throne between the two branches - a promise
+# the Ashikaga never actually honoured.
+span:
+  start: { min: 1336, max: 1336, source: griffis-1883 }
+  end: { min: 1392, max: 1392, source: griffis-1883 }
+
+identity: >-
+  The exiled continuation of the single restored mikadoate Ashikaga
+  Takauji's own rebellion had split in two, carrying the sacred regalia
+  away from a capital it no longer held and fighting, through three
+  reigns and the deaths of its most devoted generals, a war that
+  outlived the purpose it started with and ended only when the last of
+  its emperors agreed to hand back the very regalia the whole line had
+  fled with fifty-six years before.
+
+# No specific seat is named by the source for the Southern line's own
+# court in exile from Kyoto.
+capitals: []
+
+core_region: The mountains south of the Kinai, holding a contested claim over the whole country
+
+rulers:
+  founder: { name: "Emperor Go-Daigo", reign: [1336, 1338], source: griffis-1883 }
+  peak: { name: "Emperor Go-Murakami", reign: [1339, 1367], source: griffis-1883 }
+  last: { name: "Emperor Go-Kameyama", reign: [1383, 1392], source: griffis-1883 }
+
+scripts_and_languages:
+  administration: [Classical Chinese, Old Japanese]
+  writing_system: Chinese characters (kanji), adapted for Japanese
+
+# Not a conquest: the Southern line's own claim was folded back into a
+# single throne by negotiated abdication rather than defeated in the
+# field. `gradual absorption` is the least wrong of the six values in
+# the closed vocabulary for a court whose separate existence ended
+# through a diplomatic settlement, on terms it did not fully get kept,
+# rather than through military destruction. `by` is empty since no
+# record for the Ashikaga Shogunate exists yet; see the
+# succeeded_by_external note below.
+ended:
+  type: gradual absorption
+  by: []
+  year: 1392
+  source: griffis-1883
+
+preceded_by_external: []
+
+succeeded_by_external:
+  - name: The Ashikaga Shogunate
+    type: absorbed remnants of
+    year: 1392
+    note: >-
+      Go-Kameyama's surrender of the regalia to the Northern emperor
+      Go-Komatsu was negotiated by an Ashikaga envoy and redounded, in
+      the source's own words, entirely to the glory and power of the
+      Ashikaga - the shogunate that had backed the Northern line
+      throughout the war and now presided over its formal reunification.
+    source: griffis-1883
+
+institutions:
+  military_basis: { values: [client-levy], source: griffis-1883 }
+  revenue_basis: { values: [land-tax, plunder], source: griffis-1883 }
+  # `primogeniture` describes succession within the Southern line
+  # itself; the 1392 settlement additionally promised an alternating
+  # throne between the two branches going forward, a term never
+  # actually honoured once the Ashikaga held sole possession of the
+  # regalia they had negotiated Go-Kameyama into surrendering.
+  succession_rule: { values: [primogeniture], source: griffis-1883 }
+  legitimation: { values: [descent, divine-sanction], source: griffis-1883 }
+
+turning_points:
+  - year: 1336
+    type: battle
+    name: Minatogawa
+    changed: >-
+      A general whose repeated warnings had gone unheeded was left to
+      face a vastly outnumbering rebel force near Hyōgo with no
+      realistic hope of holding the field, and chose, once the battle
+      was unmistakably lost, an ending of his own rather than a captor's.
+      A hundred and fifty companions followed him into it.
+    source: griffis-1883
+    contested: false
+  - year: 1338
+    type: battle
+    name: The death of Nitta Yoshisada
+    changed: >-
+      Caught with a mere handful of retainers by a force many times
+      their number, Nitta refused every chance to escape, rode straight
+      into the enemy's arrows, and, mortally struck, took his own head
+      off with his own blade rather than let it be claimed as a trophy.
+      His identity was confirmed only afterward, from a document
+      recovered on his body.
+    source: griffis-1883
+    contested: false
+  - year: 1392
+    type: treaty
+    name: The regalia returned
+    changed: >-
+      A settlement brokered by the very shogunate the whole schism had
+      begun by defying handed the sacred regalia back to the Kyoto
+      throne it had been carried away from fifty-six years earlier,
+      closing a war that had long since stopped being about which
+      mikado actually reigned - and closing it, in the end, entirely on
+      the broker's own terms.
+    source: griffis-1883
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: griffis-1883 }
+    religions_carried: { count: 0, items: [], source: griffis-1883 }
+    successor_claims: { count: 0, items: [], source: griffis-1883 }
