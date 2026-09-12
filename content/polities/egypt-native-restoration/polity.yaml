@@ -1,0 +1,111 @@
+id: egypt-native-restoration
+region: ancient-egypt
+
+name:
+  latin: "Egypt, the Native Restoration"
+  script: 𓆎𓅓𓏏𓊖
+  script_lang: egy
+
+# Shaw's figures, for consistency with this site's other Egyptian records.
+# The lower bound is Amyrtaeus's revolt against Persian rule; the upper is
+# Artaxerxes III's reconquest, which this site's Achaemenid record already
+# dates from the winning side.
+span:
+  start: { min: -404, max: -404, source: shaw-2000 }
+  end: { min: -343, max: -343, source: shaw-2000 }
+
+identity: >-
+  Sixty years in which Egypt ruled itself between two periods of Persian
+  rule, under three families in three different Delta capitals, ending with
+  the last man to hold the office of native pharaoh fleeing south rather
+  than surrendering it.
+
+capitals:
+  - { name: Sais, from: -404, to: -399, source: shaw-2000 }
+  - { name: Mendes, from: -399, to: -380, source: shaw-2000 }
+  - { name: Sebennytos, from: -380, source: shaw-2000 }
+
+core_region: The Nile valley from the Delta to the First Cataract
+
+rulers:
+  founder: { name: Amyrtaeus, reign: [-404, -399], source: shaw-2000 }
+  # The only king of this period to defeat a full Persian invasion rather
+  # than eventually lose to one.
+  peak: { name: Nectanebo I, reign: [-380, -362], source: shaw-2000 }
+  last: { name: Nectanebo II, reign: [-360, -343], source: shaw-2000 }
+
+scripts_and_languages:
+  administration: [Egyptian]
+  writing_system: Egyptian hieroglyphs, hieratic and demotic
+
+ended:
+  type: conquest
+  by: [achaemenid]
+  year: -343
+  source: shaw-2000
+
+institutions:
+  # Greek hoplite mercenaries, hired at scale for every major campaign this
+  # period fought on both offence and defence, alongside conscripted
+  # Egyptian and Libyan levies; the same Athenian and Spartan commanders
+  # who fought for Egypt in one campaign are attested serving Persia, or
+  # each other's rivals inside Egypt, in the next.
+  military_basis: { values: [mercenary, conscript], source: kemp-2018 }
+  revenue_basis: { values: [land-tax, trade-toll], source: kemp-2018 }
+  # Factional, in the same sense this corpus codes it for the Mamluk
+  # sultanate: not the absence of a rule but a real one, in which the
+  # throne went to whoever a faction — a general, a rival brother, a
+  # provincial governor — could actually put on it. Every transition in
+  # this period's sixty years was exactly that kind of transfer rather than
+  # an orderly succession within one family.
+  succession_rule: { values: [factional], source: shaw-2000 }
+  legitimation: { values: [divine-sanction, descent], source: shaw-2000 }
+
+turning_points:
+  - year: -404
+    type: revolt
+    name: "Amyrtaeus's revolt"
+    changed: >-
+      Persia's own succession dispute absorbed the empire's attention so
+      completely that the loss of an entire province registered, at the
+      time, as a problem deferred rather than a crisis addressed: no
+      Persian expedition attempted to retake Egypt for the better part of
+      a decade, by which point a revolt improvised around one dead king's
+      inheritance dispute had had time to harden into an arrangement
+      nobody remaining in Persia had actually decided to accept.
+    source: shaw-2000
+    contested: false
+  - year: -373
+    type: siege
+    name: "The Nile turns the Persians back"
+    changed: >-
+      Every successful crossing of Egypt's eastern approach on record —
+      Cambyses' in 525, Artaxerxes III's own in 343 — happened outside
+      flood season, with the invading command united on when to press the
+      advance. This is the one attempt that had both conditions working
+      against it at once, which is closer to showing what usually made an
+      invasion of Egypt succeed than to showing anything unusual about how
+      this one failed.
+    source: shaw-2000
+    contested: false
+  - year: -360
+    type: succession-crisis
+    name: "Tjahapimu's coup"
+    changed: >-
+      The mixed native-and-mercenary army this coup exposed as only as
+      loyal as its foreign contingents happened to feel was the same army,
+      recruited on the same terms, that Nectanebo II himself would lead
+      against Artaxerxes III seventeen years later — and lose with, for
+      reasons no source suggests were structurally different. The
+      arrangement that made this coup possible was never fixed after it
+      succeeded; it was inherited by the king it had just installed.
+    source: shaw-2000
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: shaw-2000 }
+    religions_carried: { count: 0, items: [], source: shaw-2000 }
+    successor_claims: { count: 0, items: [], source: shaw-2000 }
