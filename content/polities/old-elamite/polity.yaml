@@ -1,0 +1,110 @@
+id: old-elamite
+region: elam
+
+name:
+  latin: "Old Elam: Awan, Shimashki and the Sukkalmahs"
+  script: null
+  script_lang: null
+
+# cameron-1936 is a narrative source only; its own absolute chronology (an
+# older "long" system - it dates Ibi-Sin's accession to 2207) is not used
+# here. The end of Ur is anchored instead to -2004, the date this corpus's
+# own Ur III and Isin records already use (crawford-2013, king-1910), and
+# Puzur-Inshushinak's reign is placed shortly before Ur-Nammu's own -2112
+# founding of Ur III, since Puzur-Inshushinak's independence was won from
+# the Akkadian kings Naram-Sin and Sharkalisharri, whose reigns preceded it.
+span:
+  start: { min: -2150, max: -2120, source: cameron-1936 }
+  end: { min: -1750, max: -1750, source: cameron-1936 }
+
+identity: >-
+  Nine centuries and three successive ruling systems under one loose Elamite
+  identity - a line of Awan kings, a Shimashki dynasty that took a Sumerian
+  capital captive, and a triarchic power-sharing system of grand regents and
+  viceroys - that the source's own narrative simply loses sight of, rather
+  than records the end of.
+
+capitals:
+  - { name: Susa, source: cameron-1936 }
+  - { name: Anshan, source: cameron-1936 }
+
+core_region: Khuzestan, Fars and the highlands of southwestern Iran
+
+rulers:
+  # The twelfth and last king of the Awan line, not its founder - but the
+  # earliest Elamite ruler whose own reign the sources can actually narrate,
+  # rather than merely list. He is treated as this record's founder for
+  # that reason.
+  founder: { name: "Puzur-Inshushinak", source: cameron-1936 }
+  # Kindattu's own conquest of Ur is the single most consequential act any
+  # ruler in this record's span accomplished, and the one already
+  # cross-referenced from the Mesopotamian side, in Ur III's own record.
+  peak: { name: Kindattu, source: cameron-1936 }
+  # The source's own narrative trails off around 1750 BC into rulers whose
+  # ancestry it calls explicitly doubtful, with no clear final name to
+  # record.
+  last: null
+
+scripts_and_languages:
+  administration: [Elamite, Akkadian, Sumerian]
+  writing_system: Cuneiform, Linear Elamite (undeciphered)
+
+institutions:
+  military_basis: null
+  revenue_basis: null
+  # The sukkalmah system: a Grand Regent at Susa with two subordinate
+  # viceroys, of Elam-and-Simash and of Susa, succession among the three
+  # offices apparently passing collaterally - brother to brother, then to a
+  # sister's son - rather than father to son.
+  succession_rule: { values: [tanistry], source: cameron-1936 }
+  legitimation: { values: [conquest, descent], source: cameron-1936 }
+
+# The source's own account is explicit that Elam simply "fades almost
+# entirely from our view" around 1750 BC, its last named rulers claiming
+# descent from the great sukkalmah Shilhaha on evidence too thin to verify -
+# archaization the source reads as a sign of weakness rather than a fixed
+# claim to legitimate succession. No conquest, no named conqueror: the
+# record does not end so much as go dark for the two and a half centuries
+# before Ige-halki's own dynasty picks the thread back up.
+ended:
+  type: still contested
+  by: []
+  year: null
+  source: cameron-1936
+
+preceded_by_external: []
+succeeded_by_external: []
+
+turning_points:
+  - year: -2130
+    type: revolt
+    name: "Puzur-Inshushinak's independence"
+    changed: >-
+      Waiting for the death of the Akkadian king he had served, Elam's own
+      ruler at Susa allied with a neighboring land and invaded Babylonia
+      deep enough to reach the outskirts of Akkad's own heartland - a feat
+      of arms he returned home from to be crowned king of Awan and to
+      claim, for the first time in Elamite history, a title of universal
+      rule.
+    source: cameron-1936
+    contested: false
+  - year: -2004
+    type: battle
+    name: "Kindattu's capture of Ur"
+    changed: >-
+      A Shimashki king who had already restored the god of Susa to Elamite
+      favor and drawn other Ur-controlled lands over to his own side
+      finished the work an earlier ruler of his own dynasty had begun,
+      taking the Sumerian capital itself and carrying its king off in
+      chains - closing out two and a half centuries of Sumerian kingship
+      for good.
+    source: cameron-1936
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: cameron-1936 }
+    religions_carried: { count: 0, items: [], source: cameron-1936 }
+    successor_claims: { count: 0, items: [], source: cameron-1936 }

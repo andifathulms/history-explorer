@@ -41,7 +41,7 @@ scripts_and_languages:
 # destroying it, and this one ends with it.
 ended:
   type: conquest
-  by: []
+  by: [old-elamite]
   year: -2004
   source: crawford-2013
 

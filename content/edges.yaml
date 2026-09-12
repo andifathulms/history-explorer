@@ -3985,3 +3985,30 @@ edges:
            the Hammurabi stele and the statue of Marduk home to Susa."
     source: potts-2016
     contested: false
+
+  - from: ur-iii
+    to: old-elamite
+    type: conquered by
+    year: -2004
+    note: "Kindattu of Shimashki, ruling from Anshan, took the city of Ur
+           itself and carried its king Ibi-Sin off in captivity, ending
+           the Third Dynasty of Ur outright - the coalition Middle
+           Elamite's own record already names as Old Elam, now given a
+           record of its own."
+    source: cameron-1936
+    contested: false
+
+  - from: old-elamite
+    to: middle-elamite
+    type: claimed legitimacy of
+    year: null
+    note: "No conquest, no named founder-event: Old Elam's own political
+           record simply goes dark around 1750 BC, and the next securely
+           datable Elamite state, the Igehalkid dynasty, does not appear
+           until roughly three centuries later. Middle Elamite is already
+           the earlier half of its own resumption, by neo-elamite, so this
+           earlier gap is recorded as a claim of continuity rather than a
+           second resumption - but the same tradition of kingship at Susa
+           and Anshan plainly continues across it."
+    source: potts-2016
+    contested: false

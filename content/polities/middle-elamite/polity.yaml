@@ -45,17 +45,12 @@ ended:
   source: potts-2016
 
 # The Elam before this one. It is a real predecessor and not a record here; see
-# the last chapter, which is about exactly that gap.
-preceded_by_external:
-  - name: the Elam of Awan, Shimashki and the sukkalmahs
-    year: null
-    note: >-
-      Six centuries of Elamite states preceded this one, with their own federal
-      structure and a succession passing from brother to brother and then to a
-      sister's son. It was a coalition from that Elam that took Ur in 2004 BC and
-      carried its last king off to Anshan. The Middle Elamite kingdom is a
-      resumption of that tradition after a long thin period, not a new thing.
-    source: potts-2016
+# What preceded this kingdom now has a record of its own - see the edge to
+# it below. Not coded as `resumes`: neo-elamite already resumes this record,
+# and a three-record chain is exactly what that field is built to refuse (one
+# object cannot be claimed as the same as two others at once). The real
+# continuity the source describes is instead a "claimed legitimacy of" edge.
+preceded_by_external: []
 
 # Who ended it. The Second Dynasty of Isin has no record here and is the answer to
 # what came next, so it is named rather than left to an empty line.

@@ -143,11 +143,16 @@ regions:
     name: Elam
     blurb: >-
       The oldest state on the Iranian side of the Zagros, and the one the rest
-      of Iran was built on top of: Susa was an administrative capital for two
-      thousand years before Cyrus, and the Achaemenids kept its language, its
-      scribes and its clay.
+      of Iran was built on top of: a Shimashki king took a Sumerian capital
+      captive, Susa served as an administrative center for two thousand years
+      before Cyrus, and the Achaemenids kept its language, its scribes and its
+      clay.
     group: iranian-plateau
-    thread: false
+    # `thread: true` since a real edge - old-elamite to middle-elamite,
+    # "claimed legitimacy of" - now joins two of the region's own records.
+    # Not coded as `resumes`: middle-elamite is already resumed by
+    # neo-elamite, and the field refuses a three-record chain.
+    thread: true
 
   # Blurb widened. The four imperial records are still the spine, but the
   # region also holds the polities that took pieces of the plateau and did not

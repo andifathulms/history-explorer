@@ -6348,3 +6348,18 @@ sources:
       its own conclusions are frequently framed as the more defensible of
       several competing scholarly reconstructions rather than settled fact,
       and this record follows that framing where the source itself does.
+
+  - id: cameron-1936
+    kind: book
+    author: George G. Cameron
+    title: "History of Early Iran"
+    publisher: University of Chicago Press
+    year: 1936
+    note: >-
+      A narrative source only; its own absolute chronology uses an older
+      "long" system now superseded (it dates Ibi-Sin's accession to 2207),
+      so this corpus takes absolute dates for events it also covers - the
+      fall of Ur - from crawford-2013 and king-1910 instead. Still the
+      fullest freely available narrative treatment of the Awan, Shimashki
+      and Sukkalmah dynasties that preceded the Middle Elamite kingdom. Out
+      of copyright.
