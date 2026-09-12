@@ -1,0 +1,115 @@
+id: rashtrakuta
+region: classical-india
+
+name:
+  latin: Rashtrakuta Empire
+  script: ರಾಷ್ಟ್ರಕೂಟ
+  script_lang: kn
+
+# yazdani-1960 dates the dynasty's founding to 753, the year Dantidurga
+# - a Chalukya feudatory who had spent years isolating Kirttivarman II
+# diplomatically before ever attacking him - declared himself sovereign
+# of the Deccan in his former overlord's place, as this region's own
+# Chalukya record's end also carries.
+#
+# Karkka II, the dynasty's own last king, was defeated in battle at the
+# end of 973 by Taila II - himself a claimed descendant of the same
+# Chalukya line the Rashtrakutas had overthrown two centuries earlier -
+# who then occupied Malkhed and restored Chalukya power at Kalyani.
+# That revived dynasty does not yet carry a record here, so the
+# conquest is held in succeeded_by_external for now rather than linked
+# to this corpus's own (Badami) Chalukya record, which had already
+# ended two centuries before Taila's own revival began.
+span:
+  start: { min: 753, max: 753, source: yazdani-1960 }
+  end: { min: 973, max: 973, source: yazdani-1960 }
+
+identity: >-
+  A Chalukya feudatory's patient revenge that grew into an empire Arab
+  travelers described firsthand as wealthy beyond counting, overthrown
+  two centuries later by a rival claiming descent from the very
+  dynasty it had itself replaced.
+
+capitals:
+  - { name: "Manyakheta (Malkhed)", source: yazdani-1960 }
+
+core_region: The Deccan plateau, at its height extending from the Ganges plain to the Tamil country
+
+rulers:
+  founder: { name: Dantidurga, source: yazdani-1960 }
+  peak: { name: "Krishna III", reign: [939, 967], source: yazdani-1960 }
+  last: { name: "Karkka II", reign: [972, 973], source: yazdani-1960 }
+
+scripts_and_languages:
+  administration: [Sanskrit, Kannada]
+  writing_system: Kannada script
+
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  legitimation: { values: [conquest, descent], source: yazdani-1960 }
+
+ended:
+  type: conquest
+  by: []
+  year: 973
+  source: yazdani-1960
+
+preceded_by_external: []
+
+succeeded_by_external:
+  - name: the Chalukyas of Kalyani (Western Chalukya)
+    type: conquered by
+    year: 973
+    note: >-
+      Taila II, ruler of a small fief who claimed descent from the
+      Chalukyas of Badami the Rashtrakutas had overthrown two centuries
+      earlier, defeated Karkka II in a fierce battle at the end of 973
+      and occupied Manyakheta itself, restoring Chalukya power on the
+      ruins of the empire that had displaced his own family's line.
+    source: yazdani-1960
+
+turning_points:
+  - year: 753
+    type: revolt
+    name: Dantidurga's founding
+    changed: >-
+      A Chalukya feudatory who had spent years forging alliances to
+      isolate his own overlord before ever attacking him defeated
+      Kirttivarman II and declared himself sovereign of the Deccan,
+      founding an imperial line that would eclipse the Chalukyas' own
+      former power for two centuries.
+    source: yazdani-1960
+    contested: false
+  - year: 949
+    type: battle
+    name: Takkolam
+    changed: >-
+      A Rashtrakuta army under Krishna III's own brother-in-law
+      defeated a Chola force at Takkolam, killing the Chola crown
+      prince Rajaditya in the fighting and opening the road for Krishna
+      to press south as far as Ramesvaram, occupying it and building
+      temples there to proclaim a conquest no earlier Rashtrakuta king
+      had matched.
+    source: yazdani-1960
+    contested: false
+  - year: 973
+    type: revolt
+    name: The restoration of the Chalukyas
+    changed: >-
+      Taila II, a minor Chalukya feudatory who believed his own descent
+      from the old imperial line of Badami entitled him to more than a
+      small fief, defeated Karkka II in a sanguinary battle and occupied
+      Manyakheta itself, ending Rashtrakuta rule in favor of a dynasty
+      it had displaced two centuries before.
+    source: yazdani-1960
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: yazdani-1960 }
+    religions_carried: { count: 0, items: [], source: yazdani-1960 }
+    successor_claims: { count: 0, items: [], source: yazdani-1960 }
