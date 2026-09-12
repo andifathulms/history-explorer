@@ -94,6 +94,21 @@ turning_points:
       which Rome took Ctesiphon and kept nothing.
     source: chi-3
     contested: false
+  - year: 224
+    type: succession-crisis
+    name: "Hormozdgan"
+    changed: >-
+      Ardashir, sub-king of Persis and one of the vassal dynasties the whole
+      structure rested on, took the neighbouring kingdoms, refused tribute,
+      and killed Artabanus IV in battle. There was no foreign conquest and no
+      collapse: the new dynasty kept Ctesiphon, the title king of kings and
+      the Euphrates frontier, and went on fighting Rome for four more
+      centuries. A coalition empire that three Roman sacks of its own
+      capital could not destroy ended when one of its own component
+      kingdoms took the throne — a replacement of one member's leadership by
+      another's, not a conquest of the whole.
+    source: daryaee-2009
+    contested: false
 
 measures:
   reach_km2: { value: 2800000, at: 1, source: taagepera-1979 }
