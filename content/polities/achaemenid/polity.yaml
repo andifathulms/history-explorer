@@ -62,6 +62,19 @@ institutions:
   legitimation: { values: [divine-sanction, descent], source: briant-2002 }
 
 turning_points:
+  - year: -549
+    type: revolt
+    name: "Astyages handed over"
+    changed: >-
+      Cyrus of Anshan defeated Astyages of Media, whose own army is said to
+      have handed him over rather than fight — the same event the Median
+      record dates and codes from the other side, where it is the polity's
+      own ending. From this side it is the first of three conquests in a
+      decade: Media gave Cyrus the manpower and the administrative
+      apparatus of an existing Iranian state before he had taken a single
+      Mesopotamian city.
+    source: briant-2002
+    contested: false
   - year: -539
     type: siege
     name: "Babylon"
