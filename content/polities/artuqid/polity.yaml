@@ -69,6 +69,19 @@ turning_points:
       that preference was always available.
     source: hillenbrand-1999
     contested: false
+  - year: 1409
+    type: siege
+    name: "The Kara Koyunlu take Mardin"
+    changed: >-
+      The Mardin branch had survived nine sovereignties across two hundred
+      and seventy-five years by being a tributary rock nobody wanted to
+      besiege. The Kara Koyunlu were a Turkmen confederation competing for
+      pasture rather than a state collecting tribute, and had no use for a
+      tributary; they took the city and the dynasty that had outlasted the
+      Great Seljuks, the Zangids, the Ayyubids, the Khwarazmshahs and the
+      Ilkhanate stopped.
+    source: hillenbrand-1999
+    contested: false
 
 measures:
   reach_km2: null
