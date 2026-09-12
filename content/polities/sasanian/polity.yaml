@@ -117,6 +117,21 @@ turning_points:
       own nobles and the war was lost.
     source: daryaee-2009
     contested: false
+  - year: 651
+    type: succession-crisis
+    name: "Yazdegerd murdered at Merv"
+    changed: >-
+      A child king raised to the throne in 632 watched al-Qadisiyya break the
+      field army in 636 and Ctesiphon fall the same year, then spent fifteen
+      years retreating east as the empire was unwound province by province
+      rather than defeated again, until he was murdered by a miller at Merv.
+      The state the Arabs met was not decadent — it had nearly destroyed Rome
+      six years before — it was bankrupt, leaderless and exhausted after
+      spending everything to win a war it then lost. Nobody restored the
+      line; the Buyids revived the title shahanshah three centuries later,
+      the only such claim anybody made.
+    source: daryaee-2009
+    contested: false
 
 measures:
   reach_km2: { value: 3500000, at: 550, source: taagepera-1979 }
