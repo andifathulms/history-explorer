@@ -67,6 +67,35 @@ turning_points:
       died in the revolt of 66.
     source: wiesehofer-1996
     contested: false
+  # From the History of the Bishops of Adiabene, a sixth-century compilation
+  # whose authenticity is disputed; the fifth chapter flags the source and
+  # uses it anyway, since it is the only connected account there is.
+  - year: 123
+    type: catastrophe
+    name: "Samson's martyrdom"
+    changed: >-
+      The second bishop of Adiabene was killed by Magians, the first Christian
+      death for the faith recorded in the country and, by one estimate, the
+      start of a tradition that would go on to supply more martyrs than
+      anywhere else in the east. Persecution at this stage came from a
+      priestly clan rather than from the Parthian state, which had no
+      religious policy on the matter at all; formal state persecution does
+      not begin until the Sasanians, a century later.
+    source: wigram-1910
+    contested: true
+  - year: 226
+    type: battle
+    name: "Ardashir annexes Adiabene"
+    changed: >-
+      Ardashir took Adiabene in the same sequence of campaigns that took
+      Characene, Elymais and the Parthian empire itself. The kingdom became a
+      Sasanian province and its dynasty disappears from the record in one
+      flat sentence — a disproportion against everything the country had
+      already become by then: two centuries a Parthian vassal, a Jewish
+      royal house for generations, and by 226 a Christian community old
+      enough to have buried its own martyred bishops.
+    source: wiesehofer-1996
+    contested: false
 
 measures:
   reach_km2: null
