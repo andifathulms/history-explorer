@@ -1,0 +1,129 @@
+id: later-baekje
+region: korea
+
+name:
+  latin: Later Baekje
+  script: 후백제
+  script_lang: ko
+
+# hulbert-1905 dates Kyŏn Hwŏn's revolt to 893 ("the following year"
+# after the bandit Yang-gil arose in 892), but the kingdom itself was
+# not founded until "In 897... Kyŭn-whŭn established his headquarters
+# at Wan-san, now Chŭn-ju, and called his kingdom New Păk-je" - the
+# source's own name for what history calls Later Baekje, and the
+# founding date used here.
+#
+# 936 CE is given directly: "As the year 936 opens..." Wang-gön marched
+# south with Kyŏn Hwŏn himself in his own army and crushed the last
+# force Kyŏn Hwŏn's son Sin-geum could muster.
+span:
+  start: { min: 897, max: 897, source: hulbert-1905 }
+  end: { min: 936, max: 936, source: hulbert-1905 }
+
+identity: >-
+  A bandit-turned-king's revival of Baekje's own name, built from
+  outlaws and malcontents, that sacked Silla's capital at its height and
+  fell only after its own founder was deposed by his favored son's
+  disappointed brother.
+
+capitals:
+  - { name: "Wan-san (Chŏn-ju)", from: 897, source: hulbert-1905 }
+
+core_region: The former southwestern territory of Baekje, in what is now Chŏlla Province
+
+rulers:
+  # Reign taken from Kyŏn Hwŏn's own founding of New Baekje in 897 to
+  # his deposition by his son Sin-geum in 935.
+  founder: { name: "Kyŏn Hwŏn (Kyŭn-whŭn)", reign: [897, 935], source: hulbert-1905 }
+  peak: { name: "Kyŏn Hwŏn (Kyŭn-whŭn)", reign: [897, 935], source: hulbert-1905 }
+  last: { name: "Sin-geum", reign: [935, 936], source: hulbert-1905 }
+
+scripts_and_languages:
+  administration: [Old Korean]
+  writing_system: none recorded
+
+# Kyŏn Hwŏn's own legitimacy rested first on a borrowed title - "King of
+# Southern Silla," modified to "Master of Men and Horses" once he judged
+# the first too bold - and then on reviving Baekje's own name outright;
+# China's own Emperor later confirmed him as King of Baekje while
+# playing him off against Wang-gön, the same investiture this region's
+# Goguryeo, Baekje and Balhae records also carry.
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  legitimation: { values: [titulature, investiture], source: hulbert-1905 }
+
+ended:
+  type: conquest
+  by: []
+  year: 936
+  source: hulbert-1905
+
+preceded_by_external: []
+
+succeeded_by_external:
+  - name: Goryeo
+    type: conquered by
+    year: 936
+    note: >-
+      Wang-gön marched south at the head of 87,000 men, with Kyŏn Hwŏn
+      himself riding in his own army against the son who had deposed
+      him, and crushed the small force Sin-geum could still muster -
+      ending the kingdom Kyŏn Hwŏn had founded within a year of his own
+      death.
+    source: hulbert-1905
+
+turning_points:
+  - year: 897
+    type: capital-move
+    name: The founding of New Baekje at Wan-san
+    changed: >-
+      Four years after seizing Mu-ju and proclaiming himself a king
+      under a borrowed Silla title, Kyŏn Hwŏn fixed his own capital and
+      renamed his holdings after the kingdom Silla and Tang had
+      destroyed two and a half centuries earlier, giving his revolt
+      against a collapsing Silla a name with its own claim on the
+      southwest's history.
+    source: hulbert-1905
+    contested: false
+  - year: 927
+    type: siege
+    name: The sack of Gyeongju
+    changed: >-
+      Kyŏn Hwŏn personally led a picked band into Silla's own capital
+      while its king and court feasted, drove the king to suicide,
+      looted the palace and handed its throne to a puppet of his own
+      choosing - the high point of Later Baekje's own power over its
+      rival, achieved by surprise rather than by open battle.
+    source: hulbert-1905
+    contested: false
+  - year: 935
+    type: succession-crisis
+    name: Sin-geum's coup
+    changed: >-
+      Passed over in favor of a younger half-brother he loved best,
+      Kyŏn Hwŏn's own eldest son Sin-geum seized the throne, had the
+      favored brother killed and imprisoned their father in a
+      monastery - a betrayal Kyŏn Hwŏn answered by escaping his own
+      guards and defecting to the rival he had spent decades fighting.
+    source: hulbert-1905
+    contested: false
+  - year: 936
+    type: battle
+    name: The last muster
+    changed: >-
+      With its own founder now riding against it, Later Baekje's
+      remaining army under Sin-geum was hunted down and destroyed by an
+      overwhelming force, closing out in a single campaign a kingdom
+      whose revolt against Silla had once seemed unstoppable.
+    source: hulbert-1905
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: hulbert-1905 }
+    religions_carried: { count: 0, items: [], source: hulbert-1905 }
+    successor_claims: { count: 0, items: [], source: hulbert-1905 }
