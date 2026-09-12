@@ -634,7 +634,11 @@ regions:
       Tamil empire that sent fleets to Sumatra, a city on the Tungabhadra that
       Persian visitors compared to Rome, and a sultanate that broke into five.
     group: south-asia
-    thread: false
+    # `thread: true` since real sourced edges join five of the region's
+    # own polities: the Bahmani sultanate seceded, piece by piece, into
+    # Ahmadnagar, Bijapur, Golconda, Berar and Bidar, and Berar's own
+    # record in turn was absorbed by Ahmadnagar in 1572.
+    thread: true
 
   - id: indian-sultanates
     name: The Indian Sultanates

@@ -1,0 +1,106 @@
+id: golconda
+region: the-deccan
+
+name:
+  latin: Golconda Sultanate
+  script: گولکنڈہ سلطنت
+  script_lang: ur
+
+# firishta-briggs-1829-v3 (vol. iii) dates Sultan Quli Qutb Shah's formal
+# declaration of independence to "the year 918" (1512) - later than the
+# other Bahmani governors' own breaks, since he continued having the
+# Bahmani sultan's name read in the khutba for some years after already
+# adopting Shia forms of prayer under his own authority.
+#
+# The source's own narrative continues further for Golconda than for
+# most of the other Deccan sultanates, reaching Muhammad Quli Qutb
+# Shah's death on 17 December 1611 - within days of the date usually
+# given for when Firishta himself stopped writing. It mentions his
+# young successor's coronation only in passing, without developing that
+# reign, so the span below closes with Muhammad Quli rather than an
+# unnamed successor the source does not actually narrate.
+span:
+  start: { min: 1512, max: 1512, source: firishta-briggs-1829-v3 }
+  end: { min: 1611, max: 1611, source: firishta-briggs-1829-v3 }
+
+identity: >-
+  A Persian secretary's kingdom, founded a generation after its
+  neighbors' own secessions and whose founder was murdered by his own
+  son, later home to the king who built Hyderabad and died as this
+  source's own narrative ran out of road.
+
+capitals:
+  - { name: Golconda, from: 1512, source: firishta-briggs-1829-v3 }
+  - { name: "Bhagnagar (Hyderabad)", source: firishta-briggs-1829-v3 }
+
+core_region: The Telangana plateau around the upper Musi river
+
+rulers:
+  founder: { name: "Sultan Quli Qutb Shah", reign: [1512, 1543], source: firishta-briggs-1829-v3 }
+  peak: { name: "Muhammad Quli Qutb Shah", reign: [1580, 1611], source: firishta-briggs-1829-v3 }
+  last: { name: "Muhammad Quli Qutb Shah", reign: [1580, 1611], source: firishta-briggs-1829-v3 }
+
+scripts_and_languages:
+  administration: [Persian, Deccani Urdu, Telugu]
+  writing_system: Perso-Arabic script
+
+# Sultan Quli's own throne rested on decades of loyal Bahmani service
+# turned outright secession once the sultanate's own weakness became
+# undeniable, not on any claimed foreign pedigree. His introduction of
+# Persian court customs and Shia observance at Golconda gave the
+# dynasty a lasting cultural identity independent of its Bahmani
+# origins.
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  legitimation: { values: [descent], source: firishta-briggs-1829-v3 }
+
+ended: null
+
+preceded_by_external: []
+succeeded_by_external: []
+
+turning_points:
+  - year: 1512
+    type: succession-crisis
+    name: Sultan Quli's declaration of independence
+    changed: >-
+      Having already introduced Persian court customs and Shia
+      observance at Golconda under nominal Bahmani authority, Sultan
+      Quli formally cast off that allegiance once Bahmani weakness had
+      become undeniable to everyone, founding a dynasty that would
+      outlast the sultanate he had served for decades.
+    source: firishta-briggs-1829-v3
+    contested: false
+  - year: 1543
+    type: succession-crisis
+    name: A son's dagger
+    changed: >-
+      Impatient for his own father's throne, Prince Jamshid arranged
+      for a slave to stab the aging Sultan Quli to death while he
+      examined jewels, then killed the assassin on the spot to conceal
+      his own role - a founding dynasty's first succession settled by
+      murder rather than by the father's own choice.
+    source: firishta-briggs-1829-v3
+    contested: false
+  - year: 1590
+    type: capital-move
+    name: The founding of Bhagnagar
+    changed: >-
+      Judging Golconda's own fortress capital unhealthy for want of
+      water, Muhammad Quli Qutb Shah founded a new city on a nearby
+      riverbank, naming it Bhagnagar after a favored companion
+      before it was renamed Hyderabad - the palaces, mosques, college
+      and public hospital he endowed there outlasting his own reign by
+      centuries.
+    source: firishta-briggs-1829-v3
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: firishta-briggs-1829-v3 }
+    religions_carried: { count: 0, items: [], source: firishta-briggs-1829-v3 }
+    successor_claims: { count: 0, items: [], source: firishta-briggs-1829-v3 }

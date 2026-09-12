@@ -1,0 +1,102 @@
+id: bidar
+region: the-deccan
+
+name:
+  latin: Bidar Sultanate
+  script: بیدر سلطنت
+  script_lang: ur
+
+# firishta-briggs-1829-v3 (vol. iii) opens Bidar's own history with an
+# explicit caveat rare in the rest of the work: the author states
+# outright that he "failed in procuring any written accounts of the
+# Kootb Shahy, Imad Shahy, or Bereed Shahy dynasties" and was compelled
+# to rely on oral tradition from "the most respectable and well
+# informed people of his own times" for all three, Bidar included -
+# asking future readers to correct the chronology if better sources
+# ever surfaced.
+#
+# Qasim Barid's own death is dated to "the year 910" (1504), after
+# ruling his own estate autonomously, though still nominally a Bahmani
+# minister, for "a period of twelve years" - placing the effective
+# start of Barid Shahy autonomy at approximately 1492, computed from
+# those two directly stated figures rather than from any single
+# founding date the source gives outright.
+#
+# The narrative's own final sentence places Amir Barid Shah II "at the
+# present period, being the year 1018" (1609) still on the throne, with
+# no further dated event given; the dynasty's actual end, decades
+# later, lies beyond what this source narrates.
+span:
+  start: { min: 1492, max: 1492, source: firishta-briggs-1829-v3 }
+  end: { min: 1609, max: 1609, source: firishta-briggs-1829-v3 }
+
+identity: >-
+  A Georgian slave's estate, grown out of a Bahmani king reduced to a
+  figurehead in his own capital, that outlasted the dynasty it once
+  served and was still reigning when its own chronicler ran out of
+  written sources.
+
+capitals:
+  - { name: Ahmadabad Bidar, from: 1492, source: firishta-briggs-1829-v3 }
+
+core_region: The city of Bidar and its immediately surrounding territory
+
+rulers:
+  # Qasim Barid's death year (1504) and the length of his own estate's
+  # autonomous rule ("twelve years") are both stated directly; his
+  # accession year is computed from the two.
+  founder: { name: "Qasim Barid I", reign: [1492, 1504], source: firishta-briggs-1829-v3 }
+  # Ali Barid was, in the source's own words, "the first of the
+  # dynasty who adopted the style of Shah or King" - his grandfather
+  # Qasim Barid held real power without ever formally claiming the
+  # title. His own reign length (forty-five years) and death year
+  # (1562) are both given directly.
+  peak: { name: "Ali Barid Shah", reign: [1517, 1562], source: firishta-briggs-1829-v3 }
+  # Reigning as of 1609, the last year this source's own narrative
+  # names; no death year is given.
+  last: { name: "Amir Barid Shah II", source: firishta-briggs-1829-v3 }
+
+scripts_and_languages:
+  administration: [Persian, Deccani Urdu]
+  writing_system: Perso-Arabic script
+
+# Qasim Barid, like several of the Bahmani sultanate's other breakaway
+# governors, rose from a purchased slave in royal service rather than
+# any claimed pedigree; his own throne rested entirely on descent
+# afterward. He never took the royal title himself, ruling in the
+# Bahmani king's own name for over a decade while holding all
+# substantive power - the clearest case in this region of a minister's
+# authority outlasting the monarchy it was meant to serve.
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: { values: [factional], source: firishta-briggs-1829-v3 }
+  legitimation: { values: [descent], source: firishta-briggs-1829-v3 }
+
+ended: null
+
+preceded_by_external: []
+succeeded_by_external: []
+
+turning_points:
+  - year: 1492
+    type: succession-crisis
+    name: A minister's estate becomes a kingdom
+    changed: >-
+      Qasim Barid, a Georgian slave raised in Bahmani royal service,
+      seized three of the sultanate's own strongholds on the advice of
+      his fellow breakaway governors, reducing the reigning king to a
+      figurehead confined to his own capital while reading the public
+      prayers and striking coin in his own name - power without the
+      title of king, which his own grandson would be the first of the
+      family to claim outright.
+    source: firishta-briggs-1829-v3
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: firishta-briggs-1829-v3 }
+    religions_carried: { count: 0, items: [], source: firishta-briggs-1829-v3 }
+    successor_claims: { count: 0, items: [], source: firishta-briggs-1829-v3 }

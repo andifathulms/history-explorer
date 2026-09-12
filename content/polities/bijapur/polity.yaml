@@ -1,0 +1,102 @@
+id: bijapur
+region: the-deccan
+
+name:
+  latin: Bijapur Sultanate
+  script: بیجاپور سلطنت
+  script_lang: ur
+
+# firishta-briggs-1829-v3 (vol. iii) places Yusuf Adil Shah among the
+# Bahmani governors who "formed" independent sovereignties together -
+# Bijapur, Ahmadnagar, Golconda, Bidar and Berar all breaking away at
+# essentially the same moment, which this corpus's own Ahmadnagar
+# record dates to 1490.
+#
+# The source's own English editor notes that Firishta's narrative for
+# Bijapur "leaves off so abruptly" around 1596, sixteen years before he
+# continued writing elsewhere, and speculates Firishta died before
+# finishing this section - so no year is given for Bijapur's actual
+# end, which came decades later under Mughal conquest. Span end is set
+# to the last year this source's own narrative reaches.
+span:
+  start: { min: 1490, max: 1490, source: firishta-briggs-1829-v3 }
+  end: { min: 1596, max: 1596, source: firishta-briggs-1829-v3 }
+
+identity: >-
+  A prince smuggled out of the Ottoman court as an infant, by
+  tradition, whose Deccan sultanate led a four-king coalition that
+  destroyed Vijayanagara at Talikota, and was still standing when its
+  own chronicler's narrative broke off unfinished.
+
+capitals:
+  - { name: Bijapur, from: 1490, source: firishta-briggs-1829-v3 }
+
+core_region: The Bhima river basin in the western Deccan
+
+rulers:
+  # Reign length ("twenty-one years") and death age ("seventy-five")
+  # are both given directly; the reign's start year is inferred here
+  # from the same 1490 secession the source dates for Ahmadnagar,
+  # since it groups both under one sentence.
+  founder: { name: "Yusuf Adil Shah", reign: [1490, 1511], source: firishta-briggs-1829-v3 }
+  peak: { name: "Ali Adil Shah I", source: firishta-briggs-1829-v3 }
+  # No death year for Ibrahim Adil Shah II appears before the source's
+  # own narrative breaks off; he was still reigning when it does.
+  last: { name: "Ibrahim Adil Shah II", source: firishta-briggs-1829-v3 }
+
+scripts_and_languages:
+  administration: [Persian, Deccani Urdu]
+  writing_system: Perso-Arabic script
+
+# Yusuf Adil Shah's own claimed origin - a smuggled Ottoman prince,
+# substituted at birth with a purchased slave child to save him from a
+# succession purge - is retold by the source without the open
+# skepticism it shows toward the Bahmani founder's own Persian
+# pedigree, though it is no less a claim of foreign royal descent
+# invoked to justify a throne actually won by service and revolt.
+# Yusuf's own public adoption of Shia Islam, the first such declaration
+# by a ruler in India, gave the dynasty a confessional identity his
+# successors did not uniformly keep.
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  legitimation: { values: [descent, titulature], source: firishta-briggs-1829-v3 }
+
+ended: null
+
+preceded_by_external: []
+succeeded_by_external: []
+
+turning_points:
+  - year: 1490
+    type: succession-crisis
+    name: Bijapur's secession
+    changed: >-
+      Yusuf Adil Shah joined the Bahmani governors of Ahmadnagar,
+      Golconda, Bidar and Berar in breaking from a sultanate too weak
+      after Mahmud Gawan's execution to hold them, founding Bijapur as
+      an independent kingdom in his own right rather than a Bahmani
+      province answering to Gulbarga.
+    source: firishta-briggs-1829-v3
+    contested: false
+  - year: 1565
+    type: battle
+    name: Talikota
+    changed: >-
+      Hosting the campaign on his own territory, Ali Adil Shah led the
+      right wing of a four-sultanate coalition that destroyed
+      Vijayanagara's army and killed its regent Rama Raya, ending the
+      one Hindu power capable of matching the Deccan sultanates
+      combined and opening a period of Muslim dominance over the
+      peninsula that outlasted his own reign.
+    source: firishta-briggs-1829-v3
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: firishta-briggs-1829-v3 }
+    religions_carried: { count: 0, items: [], source: firishta-briggs-1829-v3 }
+    successor_claims: { count: 0, items: [], source: firishta-briggs-1829-v3 }

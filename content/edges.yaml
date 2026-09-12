@@ -3750,3 +3750,85 @@ edges:
            decade losing ground to on the battlefield."
     source: hulbert-1905
     contested: false
+
+  - from: bahmani
+    to: ahmadnagar
+    type: seceded from
+    year: 1490
+    note: "Ahmad Nizam Shah, avenging his own father's assassination
+           at the Bahmani court, destroyed the royal army at Bingar
+           and stopped naming the Bahmani sultan in his own Friday
+           prayers, founding an independent kingdom on the site of
+           his own victory."
+    source: firishta-briggs-1829-v3
+    contested: false
+
+  - from: bahmani
+    to: bijapur
+    type: seceded from
+    year: 1490
+    note: "Yusuf Adil Shah, commander of the Bahmani sultanate's own
+           foreign troops, broke from a court too weakened by Mahmud
+           Gawan's execution to hold him, taking the royal title for
+           himself and making Bijapur his own capital."
+    source: firishta-briggs-1829-v3
+    contested: false
+
+  - from: bahmani
+    to: golconda
+    type: seceded from
+    year: 1512
+    note: "Sultan Quli, the Bahmani sultanate's own general and
+           commander-in-chief, formally cast off his allegiance once
+           the reigning Bahmani king's incompetence and his own
+           minister's dominance had become undeniable to everyone in
+           the Deccan."
+    source: firishta-briggs-1829-v3
+    contested: false
+
+  - from: bahmani
+    to: berar
+    type: seceded from
+    year: 1485
+    note: "Fateh Ullah, commander of the Bahmani forces stationed in
+           Berar, declared his own independence from the court at
+           Bidar - the earliest of the five Deccan secessions this
+           source dates directly."
+    source: firishta-briggs-1829-v3
+    contested: false
+
+  - from: bahmani
+    to: bidar
+    type: seceded from
+    year: 1492
+    note: "Qasim Barid, a former royal slave risen to high office,
+           seized three of the sultanate's own strongholds and left
+           the reigning Bahmani king only the town of Bidar itself,
+           ruling in the king's own name for over a decade without
+           ever formally claiming the throne he already controlled."
+    source: firishta-briggs-1829-v3
+    contested: false
+
+  - from: berar
+    to: ahmadnagar
+    type: conquered by
+    year: 1572
+    note: "Ahmadnagar's Murtaza Nizam Shah hunted down the usurping
+           regent Toofal Khan, who had imprisoned Berar's own last
+           king; both men were strangled in confinement, ending the
+           Imad Shahy line entirely and leaving Berar's territory to
+           be absorbed by Ahmadnagar."
+    source: firishta-briggs-1829-v3
+    contested: false
+
+  - from: ahmadnagar
+    to: mughal
+    type: conquered by
+    year: 1599
+    note: "Akbar's own son Prince Daniel and the commander Khan
+           Khanan besieged Ahmadnagar after the regent Chand Sultana
+           was murdered by her own garrison; Mughal troops stormed
+           the breached walls and carried the boy-king Bahadur Nizam
+           Shah prisoner to Gwalior."
+    source: firishta-briggs-1829-v3
+    contested: false

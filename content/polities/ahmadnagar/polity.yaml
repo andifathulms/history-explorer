@@ -1,0 +1,110 @@
+id: ahmadnagar
+region: the-deccan
+
+name:
+  latin: Ahmadnagar Sultanate
+  script: احمدنگر سلطنت
+  script_lang: ur
+
+# firishta-briggs-1829-v3 (vol. iii) dates the decisive break from Bahmani
+# rule to "the 3d of Rujub, A.H. 895" (28 May 1490), when Ahmad Nizam
+# Shah - avenging his own father's assassination at the Bahmani court -
+# destroyed the royal army at Bingar, the site on which Ahmadnagar
+# itself was later built, and began having his own name read in the
+# Friday prayers in place of the Bahmani king's.
+#
+# The Mughal emperor Akbar's own campaign against Ahmadnagar is dated
+# to "the beginning of the year 1008" (1599); the capital fell after a
+# siege that the source does not separately date, ending with the
+# regent Chand Sultana killed by her own garrison and the boy-king
+# Bahadur Nizam Shah taken prisoner to Gwalior. A rump Nizam Shahy state
+# persisted afterward under regents including the Abyssinian former
+# slave Malik Ambar, still resisting the Mughals as this source's own
+# narrative closes; that remnant is not part of the span below, which
+# ends where the original sultanate's own independent rule did.
+span:
+  start: { min: 1490, max: 1490, source: firishta-briggs-1829-v3 }
+  end: { min: 1599, max: 1599, source: firishta-briggs-1829-v3 }
+
+identity: >-
+  A minister's son who avenged his father's murder by breaking a
+  Bahmani army where his own future capital would stand - a sultanate
+  that ended when its garrison murdered the regent defending it and
+  gave up her boy-king.
+
+capitals:
+  - { name: Ahmadnagar, from: 1490, source: firishta-briggs-1829-v3 }
+
+core_region: The upper Godavari basin and the northwestern Deccan plateau
+
+rulers:
+  # No death year is given for Ahmad Nizam Shah in this source; his son
+  # Burhan I is recorded only as ascending "in his seventh year," with
+  # no year of his own father's death stated.
+  founder: { name: "Ahmad Nizam Shah I", source: firishta-briggs-1829-v3 }
+  peak: { name: "Ahmad Nizam Shah I", source: firishta-briggs-1829-v3 }
+  # No accession year is given for Bahadur Nizam Shah; the source
+  # states only that "his reign lasted for three years" before his
+  # 1599-1600 capture.
+  last: { name: "Bahadur Nizam Shah", source: firishta-briggs-1829-v3 }
+
+scripts_and_languages:
+  administration: [Persian, Deccani Urdu]
+  writing_system: Perso-Arabic script
+
+# Ahmad Nizam Shah's own father, a former Vijayanagara Brahmin captive
+# raised in Bahmani service, rose to be the Bahmani sultanate's own
+# chief minister; his assassination at court is what drove his son to
+# revolt rather than serve the dynasty that had employed them both.
+# Hereditary descent held the Nizam Shahy throne afterward, though the
+# source describes several of its later kings as figureheads managed
+# by whichever regent controlled the court - Chand Sultana foremost
+# among them.
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  legitimation: { values: [descent], source: firishta-briggs-1829-v3 }
+
+ended:
+  type: conquest
+  by: [mughal]
+  year: 1599
+  source: firishta-briggs-1829-v3
+
+preceded_by_external: []
+succeeded_by_external: []
+
+turning_points:
+  - year: 1490
+    type: battle
+    name: The Victory of the Garden
+    changed: >-
+      Ahmad Nizam Shah's night attack routed the Bahmani royal army at
+      Bingar, and on the site of that victory he built a palace and
+      garden that later grew into his own capital - the engagement
+      after which he stopped naming the Bahmani sultan in the Friday
+      prayers and began naming himself instead.
+    source: firishta-briggs-1829-v3
+    contested: false
+  - year: 1599
+    type: siege
+    name: The fall of Ahmadnagar
+    changed: >-
+      Distrustful of the officers around her after years of court
+      betrayals, the regent Chand Sultana proposed negotiating the
+      fort's surrender to the besieging Mughal army rather than fight
+      on; her own garrison, told she meant to hand them over, killed
+      her instead, and Mughal troops stormed the breached walls within
+      days, taking the young king captive and sending him to prison at
+      Gwalior.
+    source: firishta-briggs-1829-v3
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: firishta-briggs-1829-v3 }
+    religions_carried: { count: 0, items: [], source: firishta-briggs-1829-v3 }
+    successor_claims: { count: 0, items: [], source: firishta-briggs-1829-v3 }

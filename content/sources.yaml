@@ -686,15 +686,40 @@ sources:
       A seventeenth-century Persian court history translated into English in
       four volumes; volume two carries the dedicated section on "the kings of
       Koolburga, denominated Bahmuny" from Ala-ud-Din Hasan's 1347 coronation
-      through Kalimullah Shah's 1526 flight into exile, alongside the
-      dynasties that succeeded it once the sultanate broke into five. Written
-      nearly three centuries after the events it opens with and drawing on
-      earlier chronicles Firishta names but that do not themselves survive
-      complete, so its dates for early reigns rest on his own reported
-      reconciliation of conflicting sources rather than on inscriptions.
-      Firishta is openly skeptical of some of his own material, including the
-      Bahmani dynasty's own claimed descent from an ancient Persian king. Out
-      of copyright.
+      through Kalimullah Shah's 1526 flight into exile. Written nearly three
+      centuries after the events it opens with and drawing on earlier
+      chronicles Firishta names but that do not themselves survive complete,
+      so its dates for early reigns rest on his own reported reconciliation of
+      conflicting sources rather than on inscriptions. Firishta is openly
+      skeptical of some of his own material, including the Bahmani dynasty's
+      own claimed descent from an ancient Persian king. Out of copyright. See
+      also firishta-briggs-1829-v3, the third volume of the same translation,
+      covering the five sultanates the Bahmani state broke into.
+
+  - id: firishta-briggs-1829-v3
+    kind: book
+    author: Muhammad Qasim Firishta
+    title: "History of the Rise of the Mahomedan Power in India, till the Year A.D. 1612 (Vol. III)"
+    translator: John Briggs
+    publisher: R. Cambray & Co. / Kegan Paul, Trench, Trubner & Co.
+    year: 1910
+    note: >-
+      The third volume of the same Briggs translation as firishta-briggs-1829
+      (this 1910 Calcutta reprint, not the 1829 first edition, is the copy
+      used here), carrying the dedicated histories of the five sultanates
+      that succeeded the Bahmani state: Bijapur (Adil Shahy), Ahmadnagar
+      (Nizam Shahy), Golconda (Qutb Shahy), Berar (Imad Shahy) and Bidar
+      (Barid Shahy). Firishta's own coverage is uneven across the five - his
+      English editor notes that the Bijapur section "leaves off so abruptly"
+      around 1596 that Firishta probably died before finishing it, while
+      Firishta himself states outright, opening the Bidar section, that he
+      could find no written histories at all for the Qutb Shahy, Imad Shahy
+      or Barid Shahy dynasties and was compelled to rely on oral tradition
+      for all three. None of the five sultanates' own actual ends - Berar
+      absorbed by Ahmadnagar in 1574, the rest falling to Mughal conquest
+      between 1600 and 1687 - falls within what this source narrates; each
+      record drafted from it closes on the last year the source itself
+      reaches, not on the polity's real end. Out of copyright.
 
   - id: finkel-2005
     kind: book

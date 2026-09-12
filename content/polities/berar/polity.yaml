@@ -1,0 +1,109 @@
+id: berar
+region: the-deccan
+
+name:
+  latin: Berar Sultanate
+  script: برار سلطنت
+  script_lang: ur
+
+# firishta-briggs-1829-v3 (vol. iii) dates Fateh Ullah Imad Shah's
+# declaration of independence to "the year 890" (1485), the earliest of
+# the five Bahmani secessions this source dates directly - predating
+# even Mahmud Gawan's 1481 execution's full political fallout,
+# suggesting Berar's own break came in stages rather than at one clean
+# moment shared with its neighbors.
+#
+# The usurping regent Toofal Khan, who had imprisoned the dynasty's own
+# last king, was captured after a campaign Ahmadnagar's Murtaza Nizam
+# Shah began "in the year 980" (1572); Toofal Khan, his son and the
+# imprisoned king were all subsequently strangled in confinement,
+# extinguishing "the family of Imad Shah" entirely. No year closer than
+# the campaign's own start is given for the deaths themselves.
+span:
+  start: { min: 1485, max: 1485, source: firishta-briggs-1829-v3 }
+  end: { min: 1572, max: 1572, source: firishta-briggs-1829-v3 }
+
+identity: >-
+  A Vijayanagara war captive's family that rose through Bahmani service
+  to found the smallest of the five Deccan sultanates, ending when its
+  own usurping regent and its last true king were strangled together in
+  the same prison.
+
+capitals:
+  - { name: "Gawilgarh, later Ellichpur", from: 1485, source: firishta-briggs-1829-v3 }
+
+core_region: The upper Purna river valley in eastern Berar
+
+rulers:
+  # No death year is given for Fateh Ullah; the source states only
+  # that he died "shortly after" his own 1485 declaration.
+  founder: { name: "Fateh Ullah Imad Shah", source: firishta-briggs-1829-v3 }
+  # Berar's own history, as the source narrates it, is one of
+  # continuous pressure from its larger neighbors rather than any
+  # single reign standing out as a height - forts won from Ahmadnagar
+  # were as often lost again within the same reign.
+  peak: null
+  # Burhan Imad Shah's own accession year is not given; the source
+  # dates only his minority, his regent's usurpation, and his death in
+  # confinement after 1572.
+  last: { name: "Burhan Imad Shah", source: firishta-briggs-1829-v3 }
+
+scripts_and_languages:
+  administration: [Persian, Deccani Urdu, Marathi]
+  writing_system: Perso-Arabic script
+
+# Fateh Ullah, like Ahmadnagar's own founding minister, began as a
+# Vijayanagara war captive raised in Bahmani service; his own throne
+# rested on decades of military service rewarded with rank rather than
+# any claimed foreign or royal pedigree. Succession is coded as
+# factional rather than by any stated rule: the dynasty's own last king
+# came to the throne as a minor and was imprisoned in irons by his own
+# regent before that regent's usurpation destroyed the dynasty outright.
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: { values: [factional], source: firishta-briggs-1829-v3 }
+  legitimation: { values: [descent], source: firishta-briggs-1829-v3 }
+
+ended:
+  type: internal usurpation
+  by: [ahmadnagar]
+  year: 1572
+  source: firishta-briggs-1829-v3
+
+preceded_by_external: []
+succeeded_by_external: []
+
+turning_points:
+  - year: 1485
+    type: succession-crisis
+    name: Fateh Ullah's declaration
+    changed: >-
+      A former Vijayanagara war captive who had risen through decades
+      of Bahmani military service, ennobled for his role commanding the
+      army in Berar, broke with Bidar's own authority outright -
+      founding, from a soldier's career rather than any royal claim,
+      the smallest of the five sultanates the fractured Bahmani state
+      left behind.
+    source: firishta-briggs-1829-v3
+    contested: false
+  - year: 1572
+    type: revolt
+    name: Toofal Khan's usurpation and downfall
+    changed: >-
+      A regent who had confined his own young king in irons and ruled
+      Berar as king in all but name was hunted down by an Ahmadnagar
+      army after years of shifting alliances and betrayed truces;
+      captured along with the imprisoned rightful king, both men were
+      strangled in confinement, ending the Imad Shahy line entirely and
+      leaving Berar's own territory to be absorbed by Ahmadnagar.
+    source: firishta-briggs-1829-v3
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: firishta-briggs-1829-v3 }
+    religions_carried: { count: 0, items: [], source: firishta-briggs-1829-v3 }
+    successor_claims: { count: 0, items: [], source: firishta-briggs-1829-v3 }
