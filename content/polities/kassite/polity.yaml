@@ -1,0 +1,128 @@
+id: kassite
+region: mesopotamia
+
+name:
+  latin: Kassite Dynasty of Babylon
+  script: 𒅗𒀸𒋯
+  script_lang: akk
+
+# The absolute chronology here follows taagepera-1997's dataset rather than
+# king1915's own regnal-year table, which uses a now-superseded "long"
+# chronology roughly three centuries too high (its own table puts Hammurabi's
+# accession at 2225 BC). king1915 is cited throughout for narrative content -
+# names, order of succession, the character of individual reigns - which does
+# not depend on which absolute chronology is used.
+#
+# king1915 is explicit that the conquest itself had no clean date: it was "a
+# gradual process in the south," resisted for a time by holdout kings of the
+# Sealand, and Old Babylonian's own record already says the Kassites' arrival
+# "nobody recorded." The range given here spans from the Hittite raid that
+# ended the First Dynasty to the point Babylon was fully reunited under one
+# Kassite king.
+span:
+  start: { min: -1595, max: -1530, source: taagepera-1997 }
+  end: { min: -1160, max: -1140, source: taagepera-1997 }
+
+identity: >-
+  The longest dynasty Mesopotamia ever had, ruling a land it renamed after
+  itself, without ever leaving a native chronicle of how it came to power -
+  Aryan horse-breeders who spent four centuries governing Babylon in
+  Babylon's own language, exchanging gold and daughters with the Pharaohs of
+  Egypt as an equal power, and vanishing from a name uncertain enough that
+  the king list itself preserves it only as a broken word.
+
+capitals:
+  - { name: Babylon, source: king-1915 }
+
+core_region: Babylonia, and for a time the Sealand of the far south
+
+rulers:
+  founder: { name: Gandash, source: king-1915 }
+  # No letters of Kurigalzu I himself survive, but his son's own complaints
+  # to Akhenaten describe a father who had already made Babylon a power Egypt
+  # had to court rather than ignore - the reputation Burna-Buriash II
+  # inherited and built his own reign's diplomacy on.
+  peak: { name: "Burna-Buriash II", source: king-1915 }
+  # The King's List itself preserves only a broken name for the dynasty's
+  # last ruler, who reigned three years; king1915 discusses two possible
+  # readings without settling on either, so this record leaves the field
+  # null rather than choose between them.
+  last: null
+
+scripts_and_languages:
+  administration: [Akkadian, Sumerian]
+  writing_system: Cuneiform
+
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: { values: [primogeniture], source: king-1915 }
+  legitimation: { values: [conquest, descent], source: king-1915 }
+
+# Shutruk-Nakhkhunte of Elam killed Zamama-shum-iddin in battle and, with his
+# son Kutir-Nakhkhunte, sacked Sippar and carried off spoil to Elam; a
+# further Elamite blow fell a few years later on whichever king followed him.
+# The dynasty that eventually avenged this and recovered the statue of
+# Marduk from Elam has no record here.
+ended:
+  type: conquest
+  by: []
+  year: -1150
+  source: king-1915
+
+preceded_by_external: []
+
+succeeded_by_external:
+  - name: the dynasty of Nebuchadnezzar I
+    type: overthrew
+    year: null
+    note: >-
+      A Babylonian line the source does not treat in the same chapter
+      eventually turned on Elam in retaliation, recovering the statue of
+      Marduk that Shutruk-Nakhkhunte's campaigns had carried off - the source
+      gives no year for this Babylonian dynasty's own rise, only for
+      Nebuchadnezzar's later revenge.
+    source: king-1915
+
+turning_points:
+  - year: -1550
+    type: conversion
+    name: The naming of Karduniash
+    changed: >-
+      Rather than rule Babylon as occupiers governing a foreign country, the
+      new dynasty adopted the Babylonian scribal tradition, the Akkadian
+      language of administration and a new name, Karduniash, for the unified
+      land beneath them - taking over the machinery of the state they had
+      beaten rather than replacing it with anything of their own.
+    source: king-1915
+    contested: false
+  - year: -1350
+    type: treaty
+    name: Amarna diplomacy with Egypt
+    changed: >-
+      Burna-Buriash II corresponded with the Egyptian court as a diplomatic
+      equal, exchanging gold, physicians and royal daughters in marriage
+      while pointedly reminding Akhenaten of the precedent his own father
+      Kurigalzu had set - a relationship known to history at all only
+      because the archive that recorded it belonged to the other party.
+    source: king-1915
+    contested: false
+  - year: -1155
+    type: battle
+    name: Shutruk-Nakhkhunte's invasion
+    changed: >-
+      An Elamite king killed the reigning Kassite ruler and, with a son
+      of his own, stripped a major temple city of its treasure and carried
+      it home to Susa - a defeat severe enough that the dynasty could not
+      outlast it, even though the final blow fell on whichever obscure
+      successor held the broken name in the king list a few years later.
+    source: king-1915
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: king-1915 }
+    religions_carried: { count: 0, items: [], source: king-1915 }
+    successor_claims: { count: 0, items: [], source: king-1915 }

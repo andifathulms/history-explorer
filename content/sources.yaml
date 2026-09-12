@@ -3166,6 +3166,20 @@ sources:
       difference between the legend and the evidence was still being worked out.
       Out of copyright.
 
+  - id: king-1915
+    kind: book
+    author: Leonard William King
+    title: "A History of Babylon: From the Foundation of the Monarchy to the Persian Conquest"
+    publisher: Chatto and Windus
+    year: 1915
+    note: >-
+      King's own sequel to king-1910, carrying the same survey forward from
+      Hammurabi's fall through the Kassite dynasty. Its absolute chronology is
+      superseded - the appended king-list dates the First Dynasty three
+      centuries too high - so this corpus draws only its narrative content
+      from it and takes absolute dates from taagepera-1997 instead. Out of
+      copyright.
+
   - id: king-hammurabi
     kind: book
     author: Leonard William King
