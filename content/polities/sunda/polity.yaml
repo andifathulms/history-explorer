@@ -75,37 +75,35 @@ turning_points:
     type: battle
     name: Bubat
     changed: >-
-      A Sundanese king brought his daughter to Java for a marriage to Hayam
-      Wuruk of Majapahit; Gajah Mada received the party as tribute-bearers rather
-      than as guests; the Sundanese refused the terms and were killed on the
-      field at Bubat with the princess.
-      This corpus's Majapahit record carries the same event as its own turning
-      point, from the other side, and observes that the memory of it kept Sunda
-      and Java apart. This is the record that memory belonged to.
+      A marriage meant to bind two courts together ended with the bride's
+      own father and his entire retinue slaughtered on the field rather
+      than accept being received as tribute-bearers instead of in-laws -
+      and the humiliation outlived every ruler involved in it, closing off
+      any further dynastic marriage between Sunda and Java for as long as
+      either kingdom lasted.
     source: coedes-1968
     contested: false
   - year: 1522
     type: treaty
     name: The padrao
     changed: >-
-      Sunda signed a treaty with the Portuguese at Melaka permitting them a fort
-      at Sunda Kelapa, in exchange for help against the Muslim powers on the
-      north coast, and a stone pillar was set up to mark it.
-      It is the only case in the archipelago of a polity inviting the Portuguese
-      in as protection against its neighbours, and the calculation was not
-      unreasonable: Demak had taken most of the Javanese coast by then. What it
-      produced was the opposite. Demak sent a force to take the port before the
-      Portuguese could occupy it, and Sunda lost its outlet five years after
-      signing for a guarantee of it.
+      A kingdom that invited a European garrison in specifically to keep
+      its own port out of a rival's hands ended up losing that port to the
+      rival anyway, faster than the ally it had bet on could ever have
+      arrived to defend it - a calculation that was reasonable on paper
+      and still produced the exact outcome it was designed to prevent.
     source: ricklefs-2008
     contested: false
   - year: 1579
     type: siege
     name: Pakuan
     changed: >-
-      Banten destroyed the inland capital. The last Indic kingdom on Java ended
-      fifty-two years after Majapahit, on the other end of the island, and the
-      Sundanese highlands were Muslim within a generation.
+      A capital chosen specifically for its distance from the coast fell
+      anyway, closing out the last Hindu-Buddhist court still standing on
+      an island where every other one had already gone the same way half
+      a century earlier - and doing it fast enough that the highlands
+      around it were Muslim before the generation that lost them had
+      finished dying out.
     source: ricklefs-2008
     contested: false
 

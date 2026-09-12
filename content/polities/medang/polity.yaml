@@ -72,7 +72,7 @@ succeeded_by_external:
     year: 1019
     note: >-
       Airlangga was the king's son-in-law and sixteen years old when the court was
-      destroyed in 1016. He took refuge among hermits on Mount Vanagiri for four
+      destroyed in 1016. He took refuge among hermits on Mount Vanagiri for three
       years, was crowned in 1019 over a strip of the north coast, and spent from
       1028 to 1035 reconquering the rest kingdom by kingdom. In 1042 he divided
       what he had assembled between his two sons; the half that won the war
@@ -100,40 +100,36 @@ turning_points:
     type: battle
     name: Prambanan and Balaputra
     changed: >-
-      Rakai Pikatan consecrated the Shiva temple complex at Prambanan and, on one
-      reading of the Shivagrha inscription, defeated Balaputradeva, the last
-      Sailendra claimant in Java, who left.
-      Balaputra turns up a few years later on a copper plate from Nalanda in
-      Bengal, endowing a monastery there as king of Suvarnadvipa — which is
-      Srivijaya. It is the one moment when the Javanese and Sumatran halves of the
-      archipelago touch in a person rather than in a trade route.
+      A dynastic rivalry settled in Java resurfaced on the far side of the
+      strait: the losing claimant did not simply vanish from the record
+      but reappears, within a few years, endowing a monastery in Bengal as
+      a reigning king of Srivijaya - the clearest single trace anywhere of
+      the Javanese and Sumatran halves of the archipelago touching through
+      one man's fortunes rather than through trade alone.
     source: coedes-1968
     contested: true
   - year: 929
     type: capital-move
     name: East
     changed: >-
-      Mpu Sindok moved the court from central Java to the Brantas valley in the
-      east, and central Java was not the seat of a Javanese kingdom again.
-      Nothing explains it. There is no defeat in the record, no invasion, no
-      succession crisis; the inscriptions simply stop being issued in one place
-      and start being issued in another, four hundred kilometres away. Merapi's
-      eruptions, an epidemic and a Srivijayan raid have all been proposed and
-      none is attested.
-      What it left behind is the largest concentration of eighth- and
-      ninth-century monumental architecture in Southeast Asia, standing on a
-      plain that the state walked away from.
+      A court that had spent two centuries raising the densest concentration
+      of monumental temple architecture anywhere in Southeast Asia simply
+      stopped issuing inscriptions from the plain that carried it and
+      started issuing them four hundred kilometres east, for reasons no
+      surviving record states - leaving the temples standing exactly
+      where an abandoned capital left them rather than where any
+      recorded catastrophe would have.
     source: ricklefs-2008
     contested: true
   - year: 1016
     type: catastrophe
     name: The pralaya
     changed: >-
-      A vassal named in the inscriptions as Wurawari attacked the court during
-      the wedding of the king's daughter, and Dharmawangsa was killed. The
-      Javanese term for it is pralaya, the dissolution at the end of a world age.
-      Airlangga, a young relative who escaped into the forest, spent the next
-      twenty years rebuilding the kingdom under a different name.
+      A vassal's attack during a royal wedding killed the king and did what
+      no recorded invasion had: the sixteen-year-old son-in-law who
+      escaped it spent three years among hermits before anyone even tried
+      to restore the throne, and the kingdom he eventually rebuilt bore a
+      different name from the one that had just ended.
     source: coedes-1968
     contested: false
 
