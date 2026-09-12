@@ -1,0 +1,161 @@
+id: yamato
+region: korea-and-japan
+
+name:
+  latin: Yamato (Imperial Japan)
+  script: 大和
+  script_lang: ja
+
+# griffis-1883 treats Jimmu's traditional accession in 660 BC as a
+# legend the source itself calls uncertain - "it is by no means certain
+# that Jimmu was a historical character" - and dates the point the
+# succession becomes reasonably historical to the reign of Kimmei
+# (540-571), when Buddhism and Chinese learning first arrived from
+# Korea in 552. The span follows the source's own judgment rather than
+# the legendary founding it declines to build on.
+#
+# 1192 is Minamoto no Yoritomo's appointment as Sei-i Tai Shogun, "a
+# title and office that existed until 1868." The mikado remained the
+# only sovereign in law for the rest of Japan's history, but from this
+# point on he was not, in the source's own words, "supreme in fact" -
+# what follows belongs to the Kamakura Shogunate, a different record in
+# this same region.
+span:
+  start: { min: 540, max: 540, source: griffis-1883 }
+  end: { min: 1192, max: 1192, source: griffis-1883 }
+
+identity: >-
+  The court descended, by its own account, from the sun goddess
+  herself, which took Chinese writing, Chinese law and Buddhism from
+  Korea in a single sixth-century wave, built a permanent capital at
+  Kyoto to house a bureaucracy modelled on Tang China, watched real
+  power drain first to a regental family and then to the military
+  clans it had itself elevated, and ended this record's span not
+  dethroned but formally outranked, for the first time, by an office of
+  its own creation.
+
+capitals:
+  - { name: Nara, source: griffis-1883 }
+  - { name: Kyoto (Heian-kyō), from: 794, source: griffis-1883 }
+
+core_region: The Kinai provinces around Nara and Kyoto, and the Yamato plain that gave the court its name
+
+rulers:
+  founder: { name: "Emperor Kimmei", reign: [540, 571], source: griffis-1883 }
+  peak: { name: "Emperor Kammu (Kuammu)", reign: [782, 805], source: griffis-1883 }
+  last: { name: "Emperor Go-Toba", reign: [1184, 1192], source: griffis-1883 }
+
+scripts_and_languages:
+  administration: [Classical Chinese, Old Japanese]
+  writing_system: Chinese characters (kanji), adapted for Japanese
+
+# Not a conquest, a dynastic replacement, or a fragmentation: the same
+# emperor remained the only sovereign in law, and no rival house took
+# his throne. `internal usurpation` is the closest fit in the closed
+# vocabulary for authority passing to an office - the shogunate - that
+# had no dynastic claim of its own and derived its legitimacy from an
+# imperial appointment it then proceeded to outrank in substance. `by`
+# is empty since no record for the Kamakura Shogunate exists yet; see
+# the succeeded_by_external note below.
+ended:
+  type: internal usurpation
+  by: []
+  year: 1192
+  source: griffis-1883
+
+preceded_by_external: []
+
+succeeded_by_external:
+  - name: The Kamakura Shogunate
+    type: claimed legitimacy of
+    year: 1192
+    note: >-
+      Minamoto no Yoritomo's appointment as Sei-i Tai Shogun did not
+      depose the mikado, who kept his throne, his court and his
+      centuries-old claim to be Japan's only sovereign. It created,
+      alongside him, a military government at Kamakura that held the
+      country's actual administration from that point onward - the
+      office every later shogunate down to 1868 would trace its own
+      legitimacy back to.
+    source: griffis-1883
+
+institutions:
+  military_basis: { values: [client-levy, tribal-levy], source: griffis-1883 }
+  revenue_basis: { values: [land-tax, tribute], source: griffis-1883 }
+  # `primogeniture` describes succession within the imperial line in
+  # principle; `election` is coded alongside it for a distinct later
+  # practice the source itself describes - the Fujiwara regental family
+  # choosing among eligible imperial claimants and compelling a sitting
+  # mikado's abdication when it suited them to empty the throne.
+  succession_rule: { values: [primogeniture, election], source: griffis-1883 }
+  # `divine-sanction`: descent from the sun goddess is the imperial
+  # house's own foundational claim, asserted without interruption for
+  # the whole of this record's span and never seriously contested by
+  # any rival house.
+  legitimation: { values: [descent, divine-sanction], source: griffis-1883 }
+
+turning_points:
+  - year: 552
+    type: conversion
+    name: Continental civilization arrives
+    changed: >-
+      Doctors, diviners, astronomers and mathematicians sent from Korea
+      arrived at court together with Buddhist missionaries, in what the
+      source calls the first and most powerful of three great waves of
+      foreign influence Japan would absorb across its whole history. Writing,
+      administrative technique and a new religion arrived in the same
+      delegation.
+    source: griffis-1883
+    contested: false
+  - year: 645
+    type: reform
+    name: The Taika reforms begin
+    changed: >-
+      Kamatari took the regency and began remaking the court's own
+      administration on a Chinese model - the labour that founded the
+      Fujiwara line his own descendants would use, within two
+      centuries, to make themselves the empire's most powerful subjects
+      and the throne's own kingmakers.
+    source: griffis-1883
+    contested: false
+  - year: 794
+    type: capital-move
+    name: The move to Kyoto
+    changed: >-
+      A government that had shifted its seat repeatedly while it
+      remained essentially a military chieftaincy on the march finally
+      settled on a permanent capital, chosen for a position at the
+      narrowest neck of the main island between its two seas. Kyoto
+      would hold that role for the rest of Japan's imperial history.
+    source: griffis-1883
+    contested: false
+  - year: 1185
+    type: battle
+    name: The Taira destroyed
+    changed: >-
+      Minamoto forces annihilated the rival Taira clan's fleet, drowning
+      the boy emperor Antoku along with the imperial regalia he carried
+      into the sea. The court survived the battle it had not fought
+      itself, but the military clan that won it, not the throne, would
+      decide everything that followed.
+    source: griffis-1883
+    contested: false
+  - year: 1192
+    type: reform
+    name: Yoritomo made shogun
+    changed: >-
+      The victor of a war the court had only watched received, from
+      that same court, a military title with no precedent for the scale
+      of authority it was about to carry. The mikado remained the only
+      sovereign Japan recognised in law; from this appointment onward,
+      he was not the only power that mattered in fact.
+    source: griffis-1883
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: griffis-1883 }
+    religions_carried: { count: 0, items: [], source: griffis-1883 }
+    successor_claims: { count: 0, items: [], source: griffis-1883 }
