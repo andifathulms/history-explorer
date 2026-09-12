@@ -2821,6 +2821,66 @@ sources:
       with figures, including the pension for which the last sultan gave up the
       administration of the country.
 
+  - id: josselin-de-jong-1951
+    kind: book
+    author: P. E. de Josselin de Jong
+    title: "Minangkabau and Negeri Sembilan: Socio-Political Structure in Indonesia"
+    publisher: Ijdo
+    year: 1951
+    note: >-
+      A Leiden dissertation on the Minangkabau adat system and its export to
+      Negeri Sembilan in the Malay peninsula, reprinted by AMS Press in 1980.
+      It is a study of social and political structure — matrilineal descent,
+      the paired offices of the Kings of the Three Seats, the relation between
+      adat custom and royal authority — rather than a political chronicle, and
+      is cited here for that structure rather than for a year-by-year account,
+      which nothing consulted supplies for Pagaruyung before the eighteenth
+      century.
+
+  - id: dobbin-1983
+    kind: book
+    author: Christine Dobbin
+    title: "Islamic Revivalism in a Changing Peasant Economy: Central Sumatra, 1784-1847"
+    publisher: Curzon Press
+    year: 1983
+    note: >-
+      An economic and social history of the Minangkabau highlands across the
+      Padri movement and war, built from Dutch and British trade records
+      alongside local tradition. Cited here for the kingdom's last decades: the
+      coffee and gold trade that funded the Padri reformists, the civil war
+      between the Padris and the customary chiefs and royal house, and the
+      Dutch intervention that ended both the war and the kingship.
+
+  - id: ras-1968
+    kind: book
+    author: J. J. Ras
+    title: "Hikajat Bandjar: A Study in Malay Historiography"
+    container: Bibliotheca Indonesica 1
+    publisher: Martinus Nijhoff
+    year: 1968
+    note: >-
+      A critical edition and study of the Hikayat Banjar, the court chronicle
+      of Banjarmasin, with the Malay text, an English translation and a long
+      analysis of how the chronicle was assembled from older Javanese and
+      Malay materials. It is the principal source for the sultanate's own
+      account of its founding and is used here alongside Ras's own historical
+      commentary on where the chronicle's chronology can and cannot be
+      trusted.
+
+  - id: andaya-b-1993
+    kind: book
+    author: Barbara Watson Andaya
+    title: "To Live as Brothers: Southeast Sumatra in the Seventeenth and Eighteenth Centuries"
+    publisher: University of Hawaii Press
+    year: 1993
+    note: >-
+      The standard study of Palembang and Jambi together, built on Dutch and
+      English company records read against Malay ideas of kinship and of the
+      relation between an upstream and a downstream. Not to be confused with
+      Leonard Y. Andaya, a different historian of the same period and region;
+      this site's Palembang record is coded from Barbara Watson Andaya's book
+      specifically.
+
   - id: baladhuri-futuh
     kind: book
     author: Ahmad ibn Yahya al-Baladhuri
