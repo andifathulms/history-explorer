@@ -1,0 +1,101 @@
+id: guge
+region: tibet
+
+name:
+  latin: Kingdom of Guge
+  script: null
+  script_lang: null
+
+# Founding: Kyide Nyima-gon, of the old Tibetan royal line displaced when
+# Langdarma was assassinated (bell-1924, c. 842), established the western
+# Tibetan kingdoms his own sons and grandsons later divided among
+# themselves; jahoda-2019-nyarma names his son dPal-gyi-mgon inheriting Mar
+# yul specifically. No source consulted here gives Guge's own end a year -
+# both sources document the kingdom's formative religious history through
+# the early eleventh century in real depth, and neither follows its later
+# political trajectory.
+span:
+  start: { min: 930, max: 930, source: jahoda-2019-nyarma }
+  # Neither source consulted for this record follows Guge's own political
+  # history past the early eleventh century. The range below marks only
+  # that the kingdom is attested continuing after Rinchen Zangpo's death in
+  # 1055, not a claim about when it actually ended - see the comment on
+  # `ended` above.
+  end: { min: 1055, max: 1055, source: jahoda-2019-nyarma }
+
+identity: >-
+  A refuge kingdom the old Tibetan royal line built in the far west after
+  its dynasty collapsed at home, remembered less for its politics than for
+  one king's decade-long temple-building campaign that helped restart
+  Buddhism on the plateau.
+
+capitals:
+  - { name: "Tsaparang (with a major religious center at Tholing)", source: jahoda-2019-nyarma }
+
+core_region: Ngari, the far western Tibetan region around the upper Sutlej valley
+
+rulers:
+  founder: { name: "Kyide Nyima-gon", source: jahoda-2019-nyarma }
+  # Yeshe-O's own building program - the temple at Tholing alone took eight
+  # years - and his patronage of translators make his reign the
+  # best-documented moment in either source consulted for this record.
+  peak: { name: "Yeshe-O (lha bla ma Ye shes 'od)", source: jahoda-2019-nyarma }
+  # Null. Neither source consulted for this record follows Guge's political
+  # history far enough to name a last king.
+  last: { name: null, source: null }
+
+scripts_and_languages:
+  administration: [Tibetan]
+  writing_system: Tibetan script
+
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  legitimation: { values: [descent, divine-sanction], source: jahoda-2019-nyarma }
+
+# Type "still contested" because no source consulted for this record
+# documents how or when Guge's own political history actually ended -
+# both stop well short of it, in the middle of the kingdom's own religious
+# building program.
+ended:
+  type: still contested
+  by: []
+  year: null
+  source: jahoda-2019-nyarma
+
+preceded_by_external: []
+succeeded_by_external: []
+
+turning_points:
+  - year: 996
+    type: reform
+    name: "The founding of Tholing"
+    changed: >-
+      A king who had inherited a small refuge kingdom committed it to a
+      building project on a scale that kingdom had never attempted, and to
+      an educational investment - drawing recruits from every valley under
+      his own influence rather than relying on whatever talent happened to
+      be local - that would define the religious character of the whole
+      western Tibetan region for generations.
+    source: jahoda-2019-nyarma
+    contested: false
+  - year: 1004
+    type: reform
+    name: "The consecration and the temple network"
+    changed: >-
+      An eight-year construction effort closed with a three-week
+      celebration and left behind not one monument but a whole regional
+      infrastructure of shrines, statues and murals - proof that the king's
+      own ambition had been institutional from the start, not a single
+      building meant to outshine his predecessors.
+    source: jahoda-2019-nyarma
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: jahoda-2019-nyarma }
+    religions_carried: { count: 1, items: [Buddhism], source: jahoda-2019-nyarma }
+    successor_claims: { count: 0, items: [], source: jahoda-2019-nyarma }
