@@ -3607,3 +3607,27 @@ edges:
            second traitor opened the gates."
     source: hulbert-1905
     contested: false
+
+  - from: buyeo
+    to: goguryeo
+    type: conquered by
+    year: 17
+    note: "Goguryeo's own founding dynasty, itself descended from a
+           prince who had fled Buyeo a generation earlier, returned to
+           conquer the kingdom he had left - accepting the surrender of
+           Buyeo's army after its king died in the field, though the
+           dead king's brother escaped with a hundred followers to
+           found a smaller holding Goguryeo chose not to pursue."
+    source: hulbert-1905
+    contested: false
+
+  - from: goguryeo
+    to: tang
+    type: conquered by
+    year: 668
+    note: "A combined Tang and Silla army besieged P'yongyang for a
+           month after Goguryeo's own regental house tore itself apart
+           in a succession fight, taking the last king, his sons and
+           twenty thousand captives back to China."
+    source: hulbert-1905
+    contested: false

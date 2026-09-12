@@ -593,9 +593,10 @@ regions:
 
   # Added with `thread: false`, per the standing rule: a region enters
   # with the flag off and it is flipped only once real sourced edges
-  # join two of its own polities. Empty at the time of writing — see
-  # `japan` above for why the two were split apart rather than sharing a
-  # shelf.
+  # `thread: true` since a real sourced edge now joins two of the
+  # region's own polities: Goguryeo's own founding dynasty returned a
+  # generation later to conquer Buyeo, the kingdom its founder Jumong
+  # had fled.
   - id: korea
     name: Korea
     blurb: >-
@@ -606,7 +607,7 @@ regions:
       eventually, the one dynasty that outlasted every rival before it
       by five hundred years.
     group: steppe-east-asia
-    thread: false
+    thread: true
 
   - id: classical-india
     name: Classical India

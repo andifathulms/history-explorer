@@ -59,24 +59,12 @@ scripts_and_languages:
 # succeeded_by_external note below.
 ended:
   type: conquest
-  by: []
+  by: [goguryeo]
   year: 17
   source: hulbert-1905
 
 preceded_by_external: []
-
-succeeded_by_external:
-  - name: Goguryeo
-    type: conquered by
-    year: 17
-    note: >-
-      Goguryeo's own founding dynasty, itself descended from a prince
-      who had fled Buyeo a generation earlier, returned to conquer the
-      kingdom he had left - accepting the surrender of Buyeo's army
-      after its king died in the field, though the dead king's brother
-      escaped with a hundred followers to found a smaller holding
-      Goguryeo chose not to pursue.
-    source: hulbert-1905
+succeeded_by_external: []
 
 institutions:
   military_basis: { values: [tribal-levy], source: hulbert-1905 }

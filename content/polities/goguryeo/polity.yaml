@@ -1,0 +1,139 @@
+id: goguryeo
+region: korea
+
+name:
+  latin: Goguryeo
+  script: 고구려
+  script_lang: ko
+
+# hulbert-1905 dates Goguryeo's own founding to 37 BCE, the year Jumong
+# - the egg-born exile whose flight from Buyeo this region's own Buyeo
+# record covers from the other side - settled at Jol-bon and named his
+# new kingdom after his own family name and a mountain in his native
+# land.
+#
+# 668 CE is given directly and exactly: "Goguryeo's lease of life had
+# been 705 years, from 37 B.C. to 668 A.D., during which time she had
+# been governed by twenty-eight kings" - the fall of P'yongyang to a
+# combined Tang and Silla siege.
+span:
+  start: { min: -37, max: -37, source: hulbert-1905 }
+  end: { min: 668, max: 668, source: hulbert-1905 }
+
+identity: >-
+  The exile's kingdom that grew to defy China for seven centuries,
+  broke a Sui invasion of over a million men down to a few thousand
+  survivors, and finally fell to Tang China and its own southern rival
+  together.
+
+capitals:
+  - { name: "Jol-bon (Chŭl-bon)", from: -37, source: hulbert-1905 }
+  - { name: "P'yongyang", source: hulbert-1905 }
+
+core_region: The middle and upper Yalu river basin, extended south to the Han river and east to the Sea of Japan
+
+rulers:
+  # No death year is given for Jumong; the source dates only his
+  # founding and his first campaigns of conquest, beginning in 35 BCE.
+  founder: { name: "Jumong (Chu-mong)", source: hulbert-1905 }
+  # Eulji Mundeok, not a king, commanded the campaign that broke the Sui
+  # invasion of 612 - the single most celebrated military feat in the
+  # source's own account of Goguryeo's history, and the reason he
+  # stands as this record's peak figure in place of the reigning king,
+  # whom the source does not name in the same passage.
+  peak: { name: "Eulji Mundeok (Eul-ji Mun-dŭk)", source: hulbert-1905 }
+  last: { name: "King Chang (Bojang)", reign: [642, 668], source: hulbert-1905 }
+
+scripts_and_languages:
+  administration: [Old Korean]
+  writing_system: none recorded; Chinese script used for diplomatic correspondence
+
+# A conquest narrated in detail: Tang and Silla forces combined to
+# besiege P'yongyang after the death of Goguryeo's own strongman
+# regent set his two sons fighting each other for his office, one of
+# whom defected to China with the border tribes under his command. `by`
+# names tang, which carries a record of its own in this corpus; Silla,
+# the co-belligerent, does not have one here yet.
+ended:
+  type: conquest
+  by: [tang]
+  year: 668
+  source: hulbert-1905
+
+preceded_by_external: []
+
+succeeded_by_external:
+  - name: Silla
+    type: conquered by
+    year: 668
+    note: >-
+      Silla supplied part of the besieging army under Gen. Kim In-mun
+      and received twelve of Goguryeo's own border forts from a
+      defecting general the year before P'yongyang itself fell -
+      payment in advance for a war Silla had waged against Goguryeo,
+      on and off, for most of both kingdoms' existence.
+    source: hulbert-1905
+
+institutions:
+  military_basis: { values: [tribal-levy, client-levy], source: hulbert-1905 }
+  revenue_basis: { values: [land-tax, tribute], source: hulbert-1905 }
+  succession_rule: { values: [primogeniture], source: hulbert-1905 }
+  legitimation: { values: [descent, divine-sanction], source: hulbert-1905 }
+
+turning_points:
+  - year: -37
+    type: capital-move
+    name: The founding of Jol-bon
+    changed: >-
+      An exile who had crossed a river on the backs of fish and
+      tortoises, by his own family's telling, gathered new followers
+      along his route south and built a stockaded capital named for his
+      own family and a mountain of his native Buyeo - a kingdom founded
+      on land still nominally claimed by China, which absorbed it
+      piece by piece rather than all at once.
+    source: hulbert-1905
+    contested: false
+  - year: 612
+    type: battle
+    name: Salsu
+    changed: >-
+      A general who let the Sui army believe its own feigned surrender,
+      after luring it deep into Goguryeo territory on empty
+      provisions, watched an invading force of over a million men
+      collapse into a rout that killed all but a few thousand of the
+      three hundred thousand troops who had crossed the border toward
+      the capital.
+    source: hulbert-1905
+    contested: false
+  - year: 642
+    type: succession-crisis
+    name: Yeon Gaesomun's coup
+    changed: >-
+      A general already feared for his cruelty assassinated the
+      reigning king at a feast where he had also killed every official
+      who had plotted against him, cut the king's own body in two, and
+      installed a compliant nephew on the throne in his place - securing
+      for himself the real power behind a kingdom that had, until then,
+      still answered to an actual sovereign.
+    source: hulbert-1905
+    contested: false
+  - year: 668
+    type: siege
+    name: The fall of P'yongyang
+    changed: >-
+      A month-long siege ended when the last king's own officials
+      brought out a flag of truce, the regent's son who had inherited
+      his father's office killed himself rather than face capture, and
+      the victorious general carried the king, his sons and twenty
+      thousand captives back to China - a single campaign undoing seven
+      centuries of resistance to exactly this outcome.
+    source: hulbert-1905
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: hulbert-1905 }
+    religions_carried: { count: 0, items: [], source: hulbert-1905 }
+    successor_claims: { count: 0, items: [], source: hulbert-1905 }
