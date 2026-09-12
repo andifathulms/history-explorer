@@ -56,6 +56,19 @@ institutions:
   legitimation: { values: [caliphal-investiture], source: wilson-2023 }
 
 turning_points:
+  - year: 1070
+    type: reform
+    name: "The qadis stop remitting"
+    changed: >-
+      The Banu Ammar, Fatimid-appointed judges of a Shi'i city, simply stopped
+      sending Tripoli's revenue to Cairo and began governing on their own
+      account, as central Fatimid authority collapsed across Syria. There was
+      no rising, no declaration and no battle — the judicial office they
+      already held expanded until it was the state, and they went on naming
+      the Fatimid caliph in the Friday prayer for decades after they had
+      stopped obeying him.
+    source: wilson-2023
+    contested: false
   - year: 1102
     type: siege
     name: "Mount Pilgrim"
@@ -76,6 +89,17 @@ turning_points:
       his absence and surrendered it the following year. The emirate ended with
       its ruler alive and elsewhere.
     source: wilson-2023
+    contested: false
+  - year: 1109
+    type: siege
+    name: "The fall of Tripoli"
+    changed: >-
+      A Genoese fleet and Baldwin I of Jerusalem took the city after the
+      Fatimid governor who had replaced Fakhr al-Mulk the year before could
+      not hold it either. Seven years of blockade ended in the County of
+      Tripoli, and a working state with judges, a library and harbour dues
+      was replaced rather than merely conquered.
+    source: barber-2012
     contested: false
 
 measures:
