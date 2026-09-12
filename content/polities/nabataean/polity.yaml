@@ -124,9 +124,9 @@ turning_points:
       Trajan turned the kingdom into a province, ran the Via Nova Traiana from
       Bostra to the Red Sea, and moved the administrative centre north to
       Bostra. Petra kept a ceremonial standing and stopped being the point of
-      anything. Coded as a reform rather than as a conquest because that is what
-      the evidence describes — an administrative act on the death of a client
-      king — and because this record's `ended` field carries the transfer.
+      anything. This is treated as an administrative absorption rather than a
+      conquest because that is what the evidence describes: an administrative
+      act on the death of a client king, not a war.
     source: bowersock-1983
     contested: false
 
