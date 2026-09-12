@@ -6030,3 +6030,17 @@ sources:
       The standard English-language academic history of the Kyiv-based
       period, running from the Varangian founding traditions to the
       Mongol invasion of 1237. Out of copyright.
+
+  - id: forbes-1914
+    kind: primary
+    author: "Translated by Robert Michell and Nevill Forbes"
+    title: "The Chronicle of Novgorod, 1016-1471"
+    container: Camden Third Series, Volume XXV
+    publisher: Camden Society / Royal Historical Society
+    year: 1914
+    note: >-
+      The standard English translation of the Novgorod First Chronicle,
+      the city's own year-by-year record, with an introduction on the
+      republic's institutions (the veche, the posadnik, the archbishop's
+      role) and the 1471 crisis that ended Novgorod's independent
+      relations with Moscow. Out of copyright.

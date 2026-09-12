@@ -1,0 +1,164 @@
+id: novgorod
+region: rus-and-muscovy
+
+name:
+  latin: The Republic of Novgorod
+  script: Новъгородъ
+  script_lang: orv
+
+# Novgorod is centuries older than 1136 as a settlement and as a princely
+# seat - it is where the Riurik tradition itself begins, before Oleg ever
+# moved south to Kyiv. What starts in 1136 is the distinct thing this record
+# is about: princes no longer inherited the city but were hired and expelled
+# by its own citizens, an arrangement the sources call a veche republic
+# rather than a princedom.
+#
+# 1471 is the Battle of the Shelon, the military defeat that ended
+# Novgorod's own independent foreign policy. Formal absorption into Muscovy
+# followed some years later; forbes-1914's own chronicle text stops at 1471
+# and its introduction treats that year's crisis, not the later formality,
+# as the end of the republic in substance.
+span:
+  start: { min: 1136, max: 1136, source: forbes-1914 }
+  end: { min: 1471, max: 1471, source: forbes-1914 }
+
+identity: >-
+  The trading city on the Volkhov that hired and expelled its own princes
+  rather than inheriting them, ran its affairs through a citizens' assembly
+  for three and a half centuries, and lost its independence not to the
+  Mongols who taxed it but to the one Rus' power that never had to fight
+  through a khan to reach it.
+
+capitals:
+  - { name: Novgorod, script: Новъгородъ, from: 1136, source: forbes-1914 }
+
+core_region: The Volkhov river and Lake Ilmen, with a vast and thinly governed hinterland reaching north to the White Sea and east toward the Urals
+
+rulers:
+  # Null. The republic's founding act was a collective one - a city
+  # expelling a prince rather than a ruler establishing anything - and no
+  # single figure presides over it the way a founder does elsewhere in this
+  # corpus.
+  founder: { name: null, source: null }
+  peak: { name: Alexander Nevsky, reign: [1236, 1263], source: forbes-1914 }
+  # Null. Novgorod's own structure never vested authority in a single
+  # office the way a prince or sultan did elsewhere; the city's most
+  # prominent figure in its last years, the Posadnitsa Marfa Boretskaya, held
+  # influence through her dead husband's former office rather than a title
+  # of her own, and the chronicle itself treats her as a faction leader
+  # rather than a ruler.
+  last: { name: null, source: null }
+
+scripts_and_languages:
+  administration: [Old East Slavic, Church Slavonic]
+  writing_system: Cyrillic
+
+# Not a single conquest but a defeat that ended independent policy. Ivan III
+# of Moscow marched on Novgorod, defeated its forces at the Shelon, and the
+# republic's own chronicle records its citizens receiving "their liberty"
+# back from him afterward on his terms - a settlement more than a sack.
+# Formal annexation is not covered by the source this record is drafted
+# from, so `by` is empty rather than guessed.
+ended:
+  type: conquest
+  by: []
+  year: 1471
+  source: forbes-1914
+
+# What came before: the same princely house Kievan Rus' traces itself to,
+# and in fact the earlier of the two. Novgorod is where the Riurik
+# tradition places its own founding, before Oleg's move to Kyiv in 878 —
+# this record starts later, with the city's own distinct republican
+# structure, not with its first appearance in the sources.
+preceded_by_external:
+  - name: "Riurik's princely Novgorod"
+    year: null
+    note: >-
+      The same founding tradition Kievan Rus' carries places Riurik's
+      arrival at Novgorod itself, around 862, before his regent Oleg ever
+      moved south to take Kyiv. For nearly three centuries after that
+      Novgorod was a princely seat like any other, usually held by a son of
+      whichever prince controlled Kyiv, sent north to govern rather than to
+      rule in his own right. What changes in 1136 is not the city's
+      existence but the citizens' relationship to the man in that seat.
+    source: forbes-1914
+
+succeeded_by_external:
+  - name: The Grand Principality of Moscow
+    type: conquered by
+    year: 1478
+    note: >-
+      Ivan III's 1471 victory at the Shelon left Novgorod formally
+      independent but no longer able to conduct its own foreign policy
+      against Moscow's wishes. The arrangement did not last: renewed
+      friction brought Ivan's army back in 1478, and this time the veche
+      itself was abolished and the city's assembly bell - the physical
+      instrument by which it had been summoned for three and a half
+      centuries - was carried off to Moscow.
+    source: forbes-1914
+
+institutions:
+  # Client-levy from the city's own commercial wards and its vast northern
+  # hinterland, supplemented by whichever prince currently held office
+  # bringing his own retinue. There was no standing force separate from
+  # both.
+  military_basis: { values: [client-levy], source: forbes-1914 }
+  # Trade above all — Novgorod's whole position rested on controlling the
+  # river routes between the Baltic and the Volga basin, and on the fur,
+  # wax and other northern produce its hinterland supplied to that trade.
+  revenue_basis: { values: [trade-toll, tribute], source: forbes-1914 }
+  # `election`, and it is the thing that most distinguishes this record.
+  # The prince himself was elected in substance if not in ceremony - a
+  # candidate the city's own citizens' assembly, the veche, accepted or
+  # rejected, installed and then frequently expelled within months when he
+  # displeased them. The posadnik, the republic's chief civil officer, was
+  # elected in the same way and deposed, or on several recorded occasions
+  # killed, just as readily.
+  succession_rule: { values: [election], source: forbes-1914 }
+  legitimation: { values: [descent, divine-sanction], source: forbes-1914 }
+
+turning_points:
+  - year: 1136
+    type: revolt
+    name: The expulsion of Vsevolod
+    changed: >-
+      The city's own citizens confined their prince in the archbishop's
+      palace with his family for two months, drew up a formal list of his
+      failures as a ruler, and expelled him - then installed his own son in
+      his place rather than abolishing the office outright. Novgorod did
+      not reject princely rule as such. It rejected inheriting one without
+      being asked.
+    source: forbes-1914
+    contested: false
+  - year: 1240
+    type: battle
+    name: The Neva
+    changed: >-
+      A young prince not yet twenty defeated a Swedish landing force at the
+      mouth of the river that gave him his lasting name, then turned east
+      within a decade to negotiate the city's submission to the Mongols
+      rather than fight a third war on a second front. Novgorod's western
+      border was secured by the sword and its eastern survival by a bow to
+      a khan - two very different tools, chosen by the same ruler within a
+      single decade of each other.
+    source: forbes-1914
+    contested: false
+  - year: 1471
+    type: battle
+    name: The Shelon
+    changed: >-
+      A widowed posadnik's wife led the faction that gambled Novgorod's
+      independence on a Lithuanian alliance, and lost it on a battlefield
+      instead. The defeat did not end the republic's own institutions that
+      year - only the choice of foreign patron that had divided its
+      assembly for a generation.
+    source: forbes-1914
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: forbes-1914 }
+    religions_carried: { count: 0, items: [], source: forbes-1914 }
+    successor_claims: { count: 0, items: [], source: forbes-1914 }
