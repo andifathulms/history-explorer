@@ -1,0 +1,139 @@
+id: silla
+region: korea
+
+name:
+  latin: Silla
+  script: 신라
+  script_lang: ko
+
+# hulbert-1905 dates the founding directly: "In the year 57 B.C. the
+# chiefs of the six great Chin-han states... held a great council... and
+# agreed to merge their separate fiefs into a kingdom," placing the boy
+# Hyŭk-kŭ-se on the throne. The kingdom itself was not called "Silla"
+# until "the twenty-second generation" - the name arrived long after the
+# state did, the same gap between founding and naming this region's
+# Goguryeo record carries for its own five clans.
+#
+# 935 CE is given directly: "the ancient kingdom of Sil-la... had existed
+# for 992 years, from 57 B.C. to 935 A.D."
+span:
+  start: { min: -57, max: -57, source: hulbert-1905 }
+  end: { min: 935, max: 935, source: hulbert-1905 }
+
+identity: >-
+  A confederation of six clans that outlasted its two rivals, briefly
+  held the whole peninsula after fighting off the Tang empire that had
+  helped it conquer them, and ended not by conquest but by its own last
+  king's abdication.
+
+capitals:
+  - { name: "Sŭ-ya-bŭl / Kyŭng-ju", from: -57, source: hulbert-1905 }
+
+core_region: The Kyŭngsang basin, later the whole Korean peninsula south of the Taedong River
+
+rulers:
+  # No reign end is given directly for Hyŭk-kŭ-se; the source dates only
+  # his enthronement and his marriage five years later.
+  founder: { name: "Pak Hyŭk-kŭ-se", source: hulbert-1905 }
+  # No accession year is given for Munmu; the source dates only his
+  # father's-generation war against Tang, his own direct exchanges with
+  # the Emperor, and his death in 681.
+  peak: { name: "Munmu", source: hulbert-1905 }
+  last: { name: "Kyŭng-sun", reign: [927, 935], source: hulbert-1905 }
+
+scripts_and_languages:
+  administration: [Old Korean]
+  writing_system: none recorded; Chinese script used for diplomatic correspondence
+
+# Descent is attested throughout - kingship passed within a small set of
+# families across nearly a millennium, including to two queens when no
+# male heir of the required lineage was available, which the source
+# narrates as a succession like any other rather than as an irregularity.
+# China invested Silla's kings with the insignia of royalty, as it did
+# Goguryeo's and Baekje's own kings in this region.
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  legitimation: { values: [descent, divine-sanction, investiture], source: hulbert-1905 }
+
+# Ended not by conquest but by the last king's own decision, over his
+# Crown Prince's objection, to abdicate to Wang-gön rather than let his
+# already-diminished kingdom keep bleeding out under Kyŭn-whŭn's raids.
+# Wang-gön's own state does not yet carry a record here.
+ended:
+  type: dynastic replacement
+  by: []
+  year: 935
+  source: hulbert-1905
+
+preceded_by_external: []
+
+succeeded_by_external:
+  - name: Goryeo
+    type: absorbed remnants of
+    year: 935
+    note: >-
+      Wang-gön received Kyŭng-sun's abdication in person at Song-do,
+      married him to a royal princess, made him prime minister and set
+      aside the revenues of an entire district for his use - the same
+      kingdom Silla had spent its final decade losing ground to on the
+      battlefield.
+    source: hulbert-1905
+
+turning_points:
+  - year: -57
+    type: treaty
+    name: The council at Yun-chŭn-yang
+    changed: >-
+      Six clan chiefs of the Chin-han confederation agreed at a joint
+      council to pool their own fiefs under one crown and placed a
+      thirteen-year-old boy, said to have been found inside a luminous
+      egg, on its new throne - a founding built on negotiation among
+      equals rather than any single chief's conquest of the others.
+    source: hulbert-1905
+    contested: false
+  - year: 685
+    type: reform
+    name: The nine provinces
+    changed: >-
+      Having fought off the same Tang armies it had allied with to bring
+      down Goguryeo and Baekje, Silla redivided the entire conquered
+      peninsula south of the Taedong into nine provinces, three each
+      from its own original territory and the two kingdoms it had
+      absorbed - the administrative act that turned a wartime alliance's
+      spoils into a single governed state.
+    source: hulbert-1905
+    contested: false
+  - year: 889
+    type: revolt
+    name: The tax revolts
+    changed: >-
+      A court sunk low enough that insulting placards went up in the
+      capital's own streets lost its grip on the provinces once official
+      tax collectors could no longer reach them; among the men who rose
+      in the resulting chaos were two bandit leaders, Kyŭn-whŭn and
+      Kung-ye, who would each carve a rival kingdom out of Silla's own
+      former territory within the decade.
+    source: hulbert-1905
+    contested: false
+  - year: 935
+    type: treaty
+    name: The abdication at Song-do
+    changed: >-
+      Overruling a Crown Prince who begged him to consult the people
+      first and then starved himself in protest, Kyŭng-sun sent word to
+      Wang-gön offering to lay down his own scepter rather than watch
+      his diminished kingdom keep losing ground - ending, by one king's
+      choice, a line of fifty-six rulers that had held the throne for
+      nearly a millennium.
+    source: hulbert-1905
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: hulbert-1905 }
+    religions_carried: { count: 0, items: [], source: hulbert-1905 }
+    successor_claims: { count: 0, items: [], source: hulbert-1905 }

@@ -51,28 +51,16 @@ scripts_and_languages:
 # A conquest narrated in detail: Tang and Silla forces combined to
 # besiege P'yongyang after the death of Goguryeo's own strongman
 # regent set his two sons fighting each other for his office, one of
-# whom defected to China with the border tribes under his command. `by`
-# names tang, which carries a record of its own in this corpus; Silla,
-# the co-belligerent, does not have one here yet.
+# whom defected to China with the border tribes under his command.
 ended:
   type: conquest
-  by: [tang]
+  by: [tang, silla]
   year: 668
   source: hulbert-1905
 
 preceded_by_external: []
 
-succeeded_by_external:
-  - name: Silla
-    type: conquered by
-    year: 668
-    note: >-
-      Silla supplied part of the besieging army under Gen. Kim In-mun
-      and received twelve of Goguryeo's own border forts from a
-      defecting general the year before P'yongyang itself fell -
-      payment in advance for a war Silla had waged against Goguryeo,
-      on and off, for most of both kingdoms' existence.
-    source: hulbert-1905
+succeeded_by_external: []
 
 institutions:
   military_basis: { values: [tribal-levy, client-levy], source: hulbert-1905 }

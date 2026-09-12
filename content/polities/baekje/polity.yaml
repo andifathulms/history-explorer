@@ -56,23 +56,13 @@ scripts_and_languages:
 
 ended:
   type: conquest
-  by: [tang]
+  by: [tang, silla]
   year: 660
   source: hulbert-1905
 
 preceded_by_external: []
 
-succeeded_by_external:
-  - name: Silla
-    type: conquered by
-    year: 660
-    note: >-
-      A Silla army under Gen. Kim Yu-sin supplied the land force that broke
-      Baekje's own defenders at the Hwangsan Pass while a Tang fleet of a
-      hundred and thirty thousand men landed by sea; Silla later crushed a
-      restoration movement raised in Baekje's name before absorbing its
-      territory outright.
-    source: hulbert-1905
+succeeded_by_external: []
 
 # China invested Baekje's king with the insignia of royalty in 415, two
 # years after doing the same for Goguryeo's - the same external confirmation

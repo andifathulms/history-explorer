@@ -3643,3 +3643,39 @@ edges:
            known as Baekje."
     source: hulbert-1905
     contested: false
+
+  - from: baekje
+    to: tang
+    type: conquered by
+    year: 660
+    note: "A Tang fleet of a hundred and thirty thousand men landed on
+           Baekje's own coast to coordinate with a Silla army
+           converging by land; the king was made to pour wine for his
+           conquerors and was then carried to China with his sons and
+           thousands of his own people."
+    source: hulbert-1905
+    contested: false
+
+  - from: baekje
+    to: silla
+    type: conquered by
+    year: 660
+    note: "A Silla army under Gen. Kim Yu-sin broke Baekje's last field
+           defenders at Hwangsan Pass while a Tang fleet of a hundred
+           and thirty thousand men landed by sea; Silla later crushed
+           a restoration movement raised in Baekje's own name before
+           absorbing its territory outright."
+    source: hulbert-1905
+    contested: false
+
+  - from: goguryeo
+    to: silla
+    type: conquered by
+    year: 668
+    note: "Silla supplied part of the besieging army under Gen. Kim
+           In-mun and received twelve of Goguryeo's own border forts
+           from a defecting general the year before P'yongyang itself
+           fell - payment in advance for a war Silla had waged against
+           Goguryeo, on and off, for most of both kingdoms' existence."
+    source: hulbert-1905
+    contested: false
