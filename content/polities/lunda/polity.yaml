@@ -1,0 +1,148 @@
+id: lunda
+region: central-africa
+
+name:
+  latin: Lunda Empire
+  # No native script: Lunda's court languages were oral throughout the period
+  # this record covers.
+  script: null
+  script_lang: null
+
+span:
+  # ogot-1992: the small Rund chiefdom that became the Lunda empire "cannot be
+  # dated by oral tradition... but at least the state is mentioned in the
+  # traditions by 1680. How long before that date it took shape, we do not
+  # know." 1680 is therefore the earliest point the source itself anchors,
+  # not a claimed founding year.
+  start: { min: 1680, max: 1680, source: ogot-1992 }
+  # The source (a single chapter tracing the empire's "emergence and
+  # expansion" to 1800) narrates growth and consolidation throughout and does
+  # not narrate an end; see `ended` below.
+  end: { min: 1798, max: 1798, source: ogot-1992 }
+
+identity: >-
+  An empire built from a small chiefdom on the family model - every office
+  passed on with the very identity of its holder - that grew, inside a
+  century, from the Kwango River to the Luapula on the strength of conquest,
+  tribute and a steady trade in captives.
+
+capitals:
+  - { name: Mussumba, source: ogot-1992 }
+
+core_region: The upper Kasai and Lualaba valleys, in what is now south-central Democratic Republic of Congo
+
+rulers:
+  # Traditions collected by Dias de Carvalho (1890) credit the Luba hunter
+  # Cibinda Ilunga with taking power from a female chief, Rweej, who ceded her
+  # own office to him - though later-collected versions dispute both the
+  # succession that followed and whether the union was quite this simple; see
+  # the formation chapter.
+  founder: { name: "Cibinda Ilunga", source: ogot-1992 }
+  # Carvalho's account names Naweej, Yav's own brother and successor, as "the
+  # real organizer of the empire" - the ruler under whom Lunda's institutions
+  # of tribute and territorial administration took the shape the eighteenth
+  # century expansion then carried outward.
+  peak: { name: "Naweej", source: ogot-1992 }
+  # The source consulted narrates Lunda's expansion and consolidation only up
+  # to 1800 and names no later ruler.
+  last: null
+
+scripts_and_languages:
+  administration: [Lunda, Chokwe]
+  writing_system: "None native; the empire's administration remained entirely oral throughout the period this record covers"
+
+institutions:
+  military_basis: { values: [standing-professional], source: ogot-1992 }
+  revenue_basis: { values: [tribute, plunder], source: ogot-1992 }
+  # "Positional succession" - an office's incumbent took on his predecessor's
+  # name, wives and kin, so that the office's genealogy stayed fixed while its
+  # holders changed - is a real and closely documented Lunda institution, but
+  # it describes how continuity was maintained rather than who was eligible
+  # to succeed or how a candidate was chosen among the eligible, which is what
+  # this field codes. The source itself records three different, disputed
+  # accounts of how the throne itself passed after its own founding
+  # generation. Coded null rather than forced into a vocabulary built for a
+  # different question.
+  succession_rule: null
+  legitimation: { values: [divine-sanction, descent] , source: ogot-1992 }
+
+preceded_by_external: []
+succeeded_by_external: []
+
+# The source's own narrative is one of continued expansion and consolidation
+# through 1800, with no conquest, fragmentation or succession failure
+# narrated. Later Lunda history - the empire's nineteenth-century fragmentation
+# under pressure from Chokwe and Ovimbundu traders and eventual colonial
+# partition - is well outside its scope.
+ended:
+  type: still contested
+  by: []
+  year: null
+  source: ogot-1992
+
+turning_points:
+  - year: 1680
+    type: reform
+    name: "The Rund state enters the record"
+    changed: >-
+      A small chiefdom built on a single organizing idea - that every office
+      carried the very identity of the person who had held it before, so that
+      the family at its center never seemed to age - became, at whatever
+      point the surviving traditions first register it, a state substantial
+      enough to be remembered as one.
+    source: ogot-1992
+    contested: true
+  - year: 1700
+    type: revolt
+    name: "Musokantanda and Kanongesha break away south"
+    changed: >-
+      A breakaway expedition carried the same family model south into
+      present-day Zambia, absorbing the population it found there and
+      founding a state of its own - the first sign that Lunda's method of
+      incorporating conquered peoples as kin could reproduce itself far
+      beyond the original chiefdom's own borders.
+    source: ogot-1992
+    contested: false
+  - year: 1750
+    type: battle
+    name: "Shaba and the Luapula fall to Lunda arms"
+    changed: >-
+      A campaign pushing east beat back a rival army sent to stop it,
+      brought the copper-rich chiefs beyond the empire's own core to heel,
+      and absorbed an existing riverside state entire - laying the ground
+      for a subsidiary kingdom, ruled by a general given the title kazembe,
+      that would grow into the wealthiest and most autonomous of all the
+      empire's outlying territories.
+    source: ogot-1992
+    contested: false
+  - year: 1760
+    type: battle
+    name: "The Kwango chiefdoms are overrun"
+    changed: >-
+      An expedition west reached the Kwango river and overran a kingdom built
+      on the Kongo pattern, the Yaka among them - not destroying the
+      conquered states' own structures but layering Lunda officials above or
+      alongside them, producing a three-tiered political order in which even
+      the ruling ideology itself was now split between conquerors and
+      conquered.
+    source: ogot-1992
+    contested: false
+  - year: 1798
+    type: treaty
+    name: "The Lacerda mission reaches Kazembe"
+    changed: >-
+      A Portuguese mission from the lower Zambezi arrived at the Luapula
+      court and came away impressed by its military strength - the start of
+      direct trade relations that within a generation would let the eastern
+      kingdom deal with Portugal as something closer to an equal partner than
+      a tributary bound to the distant capital that had founded it.
+    source: ogot-1992
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

@@ -1,0 +1,123 @@
+id: luba
+region: central-africa
+
+name:
+  latin: Luba Kingdom
+  script: null
+  script_lang: null
+
+span:
+  # ogot-1992 states plainly that "oral chronology cannot be pushed back
+  # reliably much beyond 1700" for Luba, even though the kingdom's own
+  # expansion is known to predate the neighboring Rund/Lunda state's
+  # development. 1700 is the source's own reliability horizon, not a claimed
+  # founding year - the founding narrative itself, in the formation chapter,
+  # carries no date at all.
+  start: { min: 1700, max: 1700, source: ogot-1992 }
+  # The source's own narrative continues describing expansion past 1800
+  # without giving it a further precise date; 1810 is the last year the
+  # source dates exactly (the end of a decades-long succession crisis). See
+  # the closing chapter and `ended` below.
+  end: { min: 1810, max: 1810, source: ogot-1992 }
+
+identity: >-
+  A kingdom of the Shaba plains built on a paradox its own political theology
+  made explicit - a king who was supposed to have no lineage of his own, yet
+  stood at the center of a pyramid of kinship holding together a country his
+  warriors were never numerous enough to garrison by force alone.
+
+capitals:
+  - { name: Munza, source: ogot-1992 }
+
+core_region: The plains north of the Upemba Depression, in what is now the Haut-Lomami and Tanganyika provinces of the Democratic Republic of Congo
+
+rulers:
+  # Epic tradition credits Kalala Ilunga - "Ilunga the hunter," a foreigner
+  # from the east - with defeating a predecessor named Kongolo and founding
+  # the capital at Munza; ogot-1992 is explicit that Kongolo "may well not be
+  # an authentic figure," treating the epic as reliable about where the early
+  # capitals stood rather than as a literal account of persons. See the
+  # formation chapter.
+  founder: { name: "Kalala Ilunga", source: ogot-1992 }
+  # The only ruler this record's source names with any narrated reign: his
+  # campaigns against the Songye towns to the north, and the succession
+  # crisis his defeat helped set in motion, mark the earliest point ogot-1992
+  # can say anything concrete about the kingdom's own territorial history at
+  # all - not a claim that his reign was the kingdom's most successful one.
+  peak: { name: "Kadilo", source: ogot-1992 }
+  last: null
+
+scripts_and_languages:
+  administration: [Kiluba, Ciluba]
+  writing_system: "None native; oral throughout the period this record covers"
+
+institutions:
+  # "There was no standing army" (ogot-1992) - the king's warriors were raised
+  # as needed, and the kingdom's cohesion rested more on the ideological
+  # authority of the Bambudye association than on permanent military force.
+  military_basis: { values: [tribal-levy], source: ogot-1992 }
+  revenue_basis: { values: [tribute], source: ogot-1992 }
+  # Office passed "from father to brother to son," but the Luba themselves
+  # understood this as a rotation between the lineages of different queen-
+  # mothers rather than simple patrilineal inheritance - a lateral,
+  # female-line-anchored pattern coded here as both.
+  succession_rule: { values: [tanistry, matrilineal], source: ogot-1992 }
+  # The mulopwe was formally kinless - "not supposed to have a lineage or
+  # clan" - yet was the living center of an ancestor cult whose deceased kings
+  # spoke through mediums at their own shrines; kingship as sacred office
+  # rather than personal inheritance.
+  legitimation: { values: [divine-sanction], source: ogot-1992 }
+
+preceded_by_external: []
+succeeded_by_external: []
+
+# ogot-1992 narrates continued Luba expansion past 1800 without giving it a
+# further precise end point; the kingdom's actual nineteenth-century decline
+# and colonial-era absorption are outside what this source covers.
+ended:
+  type: still contested
+  by: []
+  year: null
+  source: ogot-1992
+
+turning_points:
+  - year: 1700
+    type: battle
+    name: "Kadilo's campaigns against the Songye"
+    changed: >-
+      A campaign against towns on the kingdom's own northern frontier ended
+      badly for the king, and the settlement struck to recover from it let a
+      degree of foreign cultural influence into the Luba court that would
+      only deepen over the following century.
+    source: ogot-1992
+    contested: false
+  - year: 1780
+    type: succession-crisis
+    name: "A disputed throne frees the Kanyok"
+    changed: >-
+      A succession dispute that would drag on for three decades gave the
+      Kanyok, subjects since the kingdom's own early expansion, the opening
+      they needed to throw off Luba overrule entirely, while Songye
+      political and religious influence - already present since Kadilo's own
+      reign - reached its highest point yet at court.
+    source: ogot-1992
+    contested: false
+  - year: 1810
+    type: reform
+    name: "Expansion resumes without a clear cause"
+    changed: >-
+      Once the succession crisis passed, campaigns resumed on two fronts at
+      once - east to the shore of Lake Tanganyika, north along the Lualaba as
+      far as Buli - led by generals carrying the throne's own ritual
+      authority into conquest, for reasons the surviving sources do not
+      allow anyone to state with confidence.
+    source: ogot-1992
+    contested: true
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

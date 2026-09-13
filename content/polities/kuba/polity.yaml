@@ -1,0 +1,139 @@
+id: kuba
+region: central-africa
+
+name:
+  latin: Kuba Kingdom
+  script: null
+  script_lang: null
+
+span:
+  # Two independent dating methods converge on the same decade. Torday's own
+  # informants supplied an eclipse that outside astronomical records date to
+  # 30 March 1680, falling in the reign of the 98th named chief - three
+  # reigns after Shamba Bolongongo, whose own accession this places around
+  # 1600. Modern scholarship, working from Vansina's own research, puts
+  # Shyaam's (Shamba's) unification of the Bushong chieftaincies "probably in
+  # the 1620s."
+  start: { min: 1600, max: 1625, source: torday-joyce-1925, max_source: kuba-nber-2015 }
+  # The last precisely dated event this record's sources narrate: a failed
+  # attempt at regional secession during the Congo's own post-independence
+  # crisis. See the afterlife chapter.
+  end: { min: 1960, max: 1962, source: kuba-nber-2015 }
+
+identity: >-
+  A kingdom built by an outsider who talked his way to a throne, then ruled
+  it through nine provinces, four courtly councils and a hundred and twenty
+  titled offices - and the rare precolonial Central African state whose own
+  courts, councils and titles survived Belgian rule with barely a break.
+
+capitals:
+  - { name: Mushenge, source: kuba-nber-2015 }
+
+core_region: The forest-savanna country between the Kasai, Sankuru and Lulua rivers, in what is now the Kasai region of the Democratic Republic of Congo
+
+rulers:
+  # "Shyaam" in the reconstructed academic spelling, "Shamba Bolongongo" in
+  # the form Torday recorded directly from Bushong informants in 1907-8 -
+  # both names for the same founding figure. An outsider credited with
+  # unifying independent Bushong chieftaincies by winning their trust rather
+  # than only by force, and with introducing raffia weaving, new world food
+  # crops and a set of lasting political institutions.
+  founder: { name: "Shyaam a Mbul a Ngoong (Shamba Bolongongo)", source: kuba-nber-2015 }
+  # Reigning at the time of the kingdom's first sustained European contact
+  # (Ludwig Wolf's 1885 visit) and the point at which this record's sources
+  # can describe the kingdom's institutions - nine provinces, 120 titled
+  # officials, four courtly councils - in their fullest, most bureaucratized
+  # form.
+  peak: { name: "Bope Mobinji", source: torday-joyce-1925 }
+  last: null
+
+scripts_and_languages:
+  administration: [Bushong, Kuba]
+  writing_system: "None native; oral throughout the period this record covers"
+
+institutions:
+  # A formally organized police force - forty men in Bushong territory by
+  # 1892, commanded by the king's own son, with two policemen posted to
+  # every village - rather than a standing army raised for conquest; Shamba
+  # Bolongongo's own reforms had abolished war as state policy generations
+  # earlier.
+  military_basis: { values: [standing-professional], source: kuba-nber-2015 }
+  # Annual taxes levied on every village, corvée labor for roads, bridges and
+  # the upkeep of the capital, and court fees paid in cowrie shells to bring
+  # a case to trial.
+  revenue_basis: { values: [poll-tax, tribute], source: kuba-nber-2015 }
+  succession_rule: null
+  # Shyaam's own claim rested on having deposed the existing Bushong chief by
+  # force; every king after him ruled as his recognized successor.
+  legitimation: { values: [conquest, descent], source: kuba-nber-2015 }
+
+preceded_by_external: []
+succeeded_by_external: []
+
+# Not a conquest and not a single dated collapse: a 1910 Belgian colonial
+# decree subordinated the kingdom's own institutions to indirect colonial
+# rule, but - uniquely among this record's neighbors - those institutions
+# were not dismantled and continued functioning underneath it. See the
+# afterlife chapter.
+ended:
+  type: gradual absorption
+  by: []
+  year: 1910
+  source: kuba-nber-2015
+
+turning_points:
+  - year: 1620
+    type: battle
+    name: "Shyaam takes the Bushong throne"
+    changed: >-
+      An outsider with a reputation as a magician and wide knowledge of
+      distant trade networks overthrew and killed the existing Bushong
+      chief, then set about uniting a collection of separate chieftaincies
+      into a single kingdom - the beginning of the only large centralized
+      state any of the peoples in this stretch of the Kasai basin would
+      ever build.
+    source: kuba-nber-2015
+    contested: true
+  - year: 1900
+    type: catastrophe
+    name: "A rubber concession takes the whole region"
+    changed: >-
+      Under the Congo Free State, the entire Kasai region - the Kuba
+      kingdom included - was handed to a single concession company that
+      pursued rubber collection by methods a British consul's own eyewitness
+      report would document directly; the kingdom's own institutions kept
+      functioning underneath the concession, but its subjects did not go
+      unharmed by it.
+    source: kuba-nber-2015
+    contested: false
+  - year: 1910
+    type: reform
+    name: "A colonial decree, and a kingdom kept intact"
+    changed: >-
+      A Belgian decree establishing indirect rule across the colony made
+      Kuba's own king and courts the lowest tier of a colonial government
+      rather than a sovereign state, binding Kuba's own people to the same
+      compulsory quotas and levies imposed everywhere else in the colony -
+      while leaving the kingdom's own councils, titles and courts standing,
+      to administer the new impositions rather than being swept aside by
+      them.
+    source: kuba-nber-2015
+    contested: false
+  - year: 1960
+    type: revolt
+    name: "A secession attempt fails"
+    changed: >-
+      In the chaos surrounding Congolese independence, the Kasai region
+      attempted to break away on its own - a bid that failed within two
+      years, well before the kingdom's own institutions, battered by the
+      neglect of the decades that followed, would.
+    source: kuba-nber-2015
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
