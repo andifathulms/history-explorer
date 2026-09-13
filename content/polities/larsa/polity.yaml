@@ -67,15 +67,40 @@ turning_points:
       original ruling families.
     source: king-1910
     contested: false
+  - year: -1834
+    type: succession-crisis
+    name: "Kudur-Mabuk installs his son"
+    changed: >-
+      An Amorite tribal chief with an Elamite name, never himself styled
+      king, placed his own son Warad-Sin on the throne of Larsa, replacing
+      whatever remained of Gungunum's own line with a family that would
+      hold the kingdom for the whole of its remaining existence. When
+      Warad-Sin died without a son of his own to succeed him, the throne
+      passed to his brother Rim-Sin instead, the first orderly succession
+      the kingdom had managed since its founding.
+    source: van-de-mieroop-2005
+    contested: false
+  - year: -1794
+    type: siege
+    name: "Rim-Sin takes Isin"
+    changed: >-
+      A century-old rivalry between two cities for the same royal title
+      ended when Rim-Sin absorbed Isin's own territory and claim into a
+      single southern kingdom answering to Larsa alone. The event mattered
+      enough that every subsequent year of Rim-Sin's own reign was dated
+      from it rather than from anything that happened afterward.
+    source: van-de-mieroop-2005
+    contested: false
   - year: -1763
     type: siege
     name: "Hammurabi's conquest"
     changed: >-
       A king who had governed the south for sixty years and outlasted every
       rival that mattered lost his own throne in a single campaign to a
-      neighbor he had spent three decades not bothering to fight, ending
-      independent rule over southern Mesopotamia for the rest of recorded
-      antiquity.
+      neighbor he had spent three decades not bothering to fight. It was
+      the end of Larsa's own kingship, but not, as it would first appear,
+      of southern independence: the region broke from Babylon again within
+      a generation, under a different name.
     source: van-de-mieroop-2005
     contested: false
 
