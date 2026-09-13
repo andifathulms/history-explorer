@@ -1,0 +1,166 @@
+id: aztec
+region: mesoamerica
+
+name:
+  latin: Aztec Empire
+  script: null
+  script_lang: null
+
+span:
+  # The traditional founding date, from the migration-legend chronology
+  # of the eagle-on-the-cactus omen, is 1325 - though Tenochtitlan spent
+  # its first century as a subordinate city rather than an independent
+  # state.
+  start: { min: 1325, max: 1325, source: clavigero-1787 }
+  end: { min: 1521, max: 1521, source: diaz-lockhart-1844 }
+
+identity: >-
+  A confederation of three Nahua cities on Lake Texcoco - Tenochtitlan,
+  Texcoco and Tlacopan - that broke free of their own Tepanec overlord in
+  a single war and, within a century, dominated central Mexico through
+  tribute rather than direct rule, before a Spanish-led coalition of
+  their own tributaries and rivals ended it in another single war.
+
+capitals:
+  - { name: Tenochtitlan, from: 1325, source: clavigero-1787 }
+
+core_region: The Valley of Mexico and, by tribute, most of central Mexico
+
+rulers:
+  # Tenochtitlan's own founding in 1325 predates organized kingship by
+  # decades; the sources used here do not name a single founder of the
+  # city, only of the later monarchy.
+  founder: null
+  peak: { name: Ahuitzotl, reign: [1486, 1502], source: clavigero-1787 }
+  last: { name: Cuauhtemoc, reign: [1520, 1521], source: diaz-lockhart-1844 }
+
+scripts_and_languages:
+  administration: [Nahuatl]
+  writing_system: null
+
+institutions:
+  military_basis: { values: [tribal-levy], source: clavigero-1787 }
+  # The empire's basic mechanism was tribute rather than direct
+  # administration: conquered cities kept their own rulers and
+  # institutions and paid regular tribute in goods, labour and captives
+  # to the Triple Alliance.
+  revenue_basis: { values: [tribute], source: clavigero-1787 }
+  # Four noble electors chose the king of Tenochtitlan from within the
+  # royal line - a restricted election among close kin rather than
+  # strict primogeniture.
+  succession_rule: { values: [election], source: clavigero-1787 }
+  legitimation: { values: [descent, divine-sanction], source: clavigero-1787 }
+
+preceded_by_external: []
+
+succeeded_by_external:
+  - name: New Spain
+    type: conquered by
+    year: 1521
+    note: >-
+      Hernán Cortés's forces, overwhelmingly outnumbered by their own
+      Tlaxcalan and other indigenous allies, took Tenochtitlan after a
+      siege of nearly three months, and the Triple Alliance's own
+      former tributaries and rivals found themselves absorbed into the
+      same Spanish colony they had helped conquer the Mexica to build.
+    source: diaz-lockhart-1844
+    contested: false
+
+ended:
+  type: conquest
+  by: []
+  year: 1521
+  source: diaz-lockhart-1844
+
+turning_points:
+  - year: 1325
+    type: capital-move
+    name: "Tenochtitlan is founded"
+    changed: >-
+      Expelled by their own former overlords at Colhuacan, the Mexica
+      found what their oracle had promised would mark their future
+      home - a nopal cactus growing from a stone, an eagle resting on it
+      - on a marshy island in Lake Texcoco, and raised a shrine there to
+      their own god before building anything else.
+    source: clavigero-1787
+    contested: false
+  - year: 1428
+    type: battle
+    name: "The war against Azcapotzalco and the Triple Alliance"
+    changed: >-
+      Itzcoatl, newly elected king of a Tenochtitlan still paying
+      tribute to the Tepanec city of Azcapotzalco, allied with the
+      exiled Texcocan prince Nezahualcoyotl to defeat and kill the
+      Tepanec ruler Maxtla, then formalized a three-way league with
+      Texcoco and the smaller city of Tlacopan that would direct the
+      alliance's wars and divide its tribute for the following century.
+    source: clavigero-1787
+    contested: false
+  - year: 1486
+    type: reform
+    name: "The Great Temple is dedicated"
+    changed: >-
+      Ahuitzotl completed the reconstruction of Tenochtitlan's chief
+      temple, begun under his predecessor, and marked its consecration
+      with four days of sacrifice of the war captives held in reserve
+      for the occasion - a festival historians describe as having drawn
+      spectators from every corner of the empire's tribute network.
+    source: clavigero-1787
+    contested: false
+  - year: 1509
+    type: catastrophe
+    name: "Portents trouble Moctezuma II"
+    changed: >-
+      A sudden, unexplained fire consumed the turret of the Great Temple
+      in a calm and windless night, followed within two years by a
+      violent disturbance of the lake with no natural cause and reports
+      of armed apparitions fighting in the sky - omens later chroniclers
+      record as having thrown the king into a foreboding he could not
+      shake even as his armies kept campaigning.
+    source: clavigero-1787
+    contested: false
+  - year: 1519
+    type: treaty
+    name: "Cortés and Moctezuma II meet"
+    changed: >-
+      A Spanish captain and some four hundred and fifty men, guided and
+      reinforced by Tlaxcalan and other allies hostile to the Triple
+      Alliance, walked the causeway into Tenochtitlan and were received
+      by Moctezuma II himself in a ceremony of exchanged gifts and
+      formal courtesy that neither side, by every account, fully
+      trusted.
+    source: diaz-lockhart-1844
+    contested: false
+  - year: 1520
+    type: catastrophe
+    name: "Moctezuma II dies and the Spanish are driven out"
+    changed: >-
+      Moctezuma, sent out by his own Spanish captors to calm a rebellion
+      against their occupation of his palace, was struck by stones and
+      an arrow while addressing his own people and died of his wounds
+      days later; the occupiers, their position untenable, abandoned the
+      city by night with heavy losses in the retreat later remembered as
+      the Noche Triste.
+    source: diaz-lockhart-1844
+    contested: false
+  - year: 1521
+    type: siege
+    name: "Cuauhtemoc is captured and Tenochtitlan falls"
+    changed: >-
+      After a siege of some ninety-three days, in which smallpox and
+      the destruction of the city's own causeways and aqueducts did as
+      much damage as the fighting, Spanish brigantines ran down the
+      canoe carrying Cuauhtemoc as he tried to escape across the lake,
+      and his capture on August 13 ended organized Mexica resistance
+      and the independent existence of the Triple Alliance.
+    source: diaz-lockhart-1844
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
