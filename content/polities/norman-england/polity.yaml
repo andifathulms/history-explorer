@@ -1,0 +1,209 @@
+id: norman-england
+region: the-british-isles
+
+name:
+  latin: Kingdom of England (Norman and Plantagenet)
+  script: null
+  script_lang: null
+
+span:
+  start: { min: 1066, max: 1066, source: oman-1906 }
+  # Richard III was killed at Bosworth Field on 22 August 1485, and Henry
+  # Tudor took the crown from the field.
+  end: { min: 1485, max: 1485, source: oman-1906 }
+
+identity: >-
+  The kingdom William of Normandy took by conquest, governed through a
+  new aristocracy and the Domesday survey, checked at Runnymede, and
+  carried into France as far as a captured French king under Edward
+  III before its own royal house tore itself apart and lost the crown
+  at Bosworth Field.
+
+capitals:
+  - { name: Westminster, source: adams-1905 }
+
+core_region: England, with intermittent lordship over Wales, Ireland and parts of France
+
+rulers:
+  founder: { name: William I "the Conqueror", reign: [1066, 1087], source: oman-1906 }
+  # Edward III's armies took both the French and Scottish kings captive
+  # within a decade of each other - Crécy and Poitiers on one side,
+  # Neville's Cross on the other - the widest reach English arms ever had
+  # on the continent.
+  peak: { name: Edward III, reign: [1327, 1377], source: tout-1905 }
+  last: { name: Richard III, reign: [1483, 1485], source: oman-1906 }
+
+scripts_and_languages:
+  administration: [Latin, Anglo-Norman French, Middle English]
+  writing_system: Latin alphabet
+
+institutions:
+  # Knight service in return for land was the base of the Norman military
+  # settlement; by the fourteenth century armies for France were raised
+  # increasingly by paid indenture rather than feudal summons alone.
+  military_basis: { values: [land-grant, mercenary], source: tout-1905 }
+  # The Danegeld-descended land tax continued after 1066; by Edward III's
+  # reign customs duties on the wool trade had become a central source of
+  # war finance.
+  revenue_basis: { values: [land-tax, trade-toll], source: tout-1905 }
+  # Primogeniture was the stated rule, and every one of the period's
+  # worst crises - Stephen against the Empress Matilda, the depositions
+  # of Edward II, Richard II and Henry VI, and the Wars of the Roses
+  # themselves - was a fight over who could override or claim to fulfil
+  # it.
+  succession_rule: { values: [primogeniture], source: adams-1905 }
+  legitimation: { values: [conquest, descent, divine-sanction], source: oman-1906 }
+
+preceded_by_external: []
+
+succeeded_by_external:
+  - name: the Kingdom of England under the Tudors
+    type: overthrew
+    year: 1485
+    note: >-
+      Henry Tudor, Earl of Richmond, defeated and killed Richard III at
+      Bosworth Field on 22 August 1485 after the Earl of Northumberland's
+      division stood aside and Sir William Stanley's men switched sides
+      at the decisive moment. Richard refused to flee even as his line
+      broke around him, and was cut down still fighting.
+    source: oman-1906
+
+ended:
+  type: internal usurpation
+  by: []
+  year: 1485
+  source: oman-1906
+
+turning_points:
+  - year: 1069
+    type: catastrophe
+    name: "The Harrying of the North"
+    changed: >-
+      After repeated Northumbrian revolts and a Danish invasion that
+      briefly took York, William put the land north of the city to the
+      torch systematically - people, livestock, food stores and farm
+      tools alike - leaving a stretch of England a desert for a
+      generation and breaking organized resistance to the Conquest north
+      of the Humber for good.
+    source: adams-1905
+    contested: false
+  - year: 1086
+    type: reform
+    name: "The Domesday survey"
+    changed: >-
+      Commissioners were sent through every county, putting sworn local
+      juries under oath to state each manor's holders and value, past
+      and present. The resulting
+      record, soon nicknamed for its unappealable finality, gave the
+      Norman crown a command of its own kingdom's resources no earlier
+      English government had matched.
+    source: adams-1905
+    contested: false
+  - year: 1153
+    type: treaty
+    name: "Treaty of Winchester"
+    changed: >-
+      Stephen's son and heir Eustace died suddenly in August, removing
+      his only reason to keep fighting. At Winchester that November,
+      before the largest gathering of magnates seen in years, Stephen
+      recognized Henry of Anjou as his heir, ending nineteen years of
+      civil war and unauthorized castle-building that had enriched no
+      one but the church.
+    source: adams-1905
+    contested: false
+  - year: 1170
+    type: catastrophe
+    name: "Murder of Thomas Becket"
+    changed: >-
+      Four knights of Henry II's household, acting on the king's
+      furious words against the archbishop rather than any direct
+      order, cut Becket down inside his own cathedral on 29 December.
+      The killing of an archbishop turned a dispute over the church's
+      legal privileges into a European scandal that forced Henry into
+      public penance.
+    source: adams-1905
+    contested: false
+  - year: 1215
+    type: treaty
+    name: "Magna Carta"
+    changed: >-
+      Rebel barons camped at Runnymede forced John to seal a charter
+      whose specific clauses mattered less than the single principle
+      underlying them: that no king stood above the law he ruled by, and
+      could be made to answer for breaking it. It settled nothing for
+      long - war resumed within weeks - but the principle it stated
+      outlived the crisis that produced it.
+    source: adams-1905
+    contested: false
+  - year: 1284
+    type: reform
+    name: "Statute of Wales"
+    changed: >-
+      With Llywelyn ap Gruffudd dead in battle and his brother David
+      executed as a traitor, Edward I's Statute of Wales
+      extended English shire government over the conquered principality
+      and ringed Snowdonia with new castles and garrison towns. Wales
+      would be governed as an English possession, not a client
+      principality, from this point on.
+    source: tout-1905
+    contested: false
+  - year: 1356
+    type: battle
+    name: "Battle of Poitiers"
+    changed: >-
+      The Black Prince's army destroyed a much larger French force and
+      captured King John II of France in the fighting. David II of
+      Scotland was already a prisoner in the Tower from Neville's Cross
+      ten years earlier, so for a span of months two neighbouring
+      crowns sat in English custody together - the high-water mark of
+      English arms in this whole period.
+    source: tout-1905
+    contested: false
+  - year: 1399
+    type: succession-crisis
+    name: "Deposition of Richard II"
+    changed: >-
+      Henry of Lancaster, returned from exile to reclaim confiscated
+      lands, found Richard's own support collapsing on every side and
+      took his surrender at Flint. Richard was made to ride into London
+      in disgrace and, within weeks, forced to read aloud a formal deed
+      of abdication - the first time since William's own coronation that
+      a crowned king lost his throne to a rival's claim rather than to
+      death.
+    source: oman-1906
+    contested: false
+  - year: 1415
+    type: battle
+    name: "Battle of Agincourt"
+    changed: >-
+      A much smaller English army destroyed the flower of French
+      chivalry in a single afternoon, and Henry V, fearing a fresh
+      attack while his men were scattered taking prisoners, ordered the
+      captives killed. The victory restored English claims in France to
+      a footing not held since the fourteenth century, though the war
+      it reopened would end very differently within Henry's own son's
+      reign.
+    source: oman-1906
+    contested: false
+  - year: 1453
+    type: catastrophe
+    name: "Battle of Castillon"
+    changed: >-
+      John Talbot's relief force was cut to pieces by French artillery
+      and gunfire at Castillon, and Talbot himself was killed. Bordeaux
+      surrendered that October after three centuries of English rule in
+      Gascony, closing the long war between the two crowns decisively
+      in France's favour and leaving an English government too
+      discredited by the loss to survive the political reckoning that
+      followed.
+    source: oman-1906
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

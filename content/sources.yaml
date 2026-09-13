@@ -7362,3 +7362,61 @@ sources:
       Yorkshire and Lincolnshire, and the place-name evidence bearing on
       how, and by whom, Scandinavian settlement changed landholding.
       Open access via archive.org (Community Texts).
+
+  - id: adams-1905
+    kind: book
+    author: George Burton Adams
+    title: "The History of England from the Norman Conquest to the Death of John (1066-1216)"
+    container: The Political History of England, vol. II
+    year: 1905
+    note: >-
+      Covers the Conquest and the Harrying of the North, Domesday Book,
+      the Anarchy of Stephen's reign and its settlement by the Treaty of
+      Winchester, Henry II's reign and the murder of Becket, and John's
+      reign through Magna Carta and the First Barons' War. Open access,
+      Project Gutenberg #8556.
+
+  - id: tout-1905
+    kind: book
+    author: T. F. Tout
+    title: "The History of England from the Accession of Henry III to the Death of Edward III (1216-1377)"
+    container: The Political History of England, vol. III
+    year: 1905
+    note: >-
+      Covers Edward I's conquest of north Wales (1282-84) and the
+      Statute of Wales, and the opening decades of the Hundred Years'
+      War under Edward III, including Crécy (1346), Neville's Cross
+      (1346) and Poitiers (1356). Open access via archive.org and
+      Project Gutenberg #16679.
+
+  - id: oman-1906
+    kind: book
+    author: Charles Oman
+    title: "The History of England from the Accession of Richard II to the Death of Richard III (1377-1485)"
+    container: The Political History of England, vol. IV
+    year: 1906
+    note: >-
+      Covers Richard II's deposition (1399), Agincourt (1415), the loss
+      of Gascony at Castillon (1453) and the outbreak of the Wars of the
+      Roses, through Richard III's death at Bosworth Field (1485). Open
+      access via archive.org.
+
+  - id: round-1895
+    kind: book
+    author: J. H. Round
+    title: "Feudal England: Historical Studies on the XIth and XIIth Centuries"
+    year: 1895
+    note: >-
+      The foundational scholarly study of Domesday Book's own mechanics
+      and of Norman feudal land tenure in England. Open access via
+      archive.org and Project Gutenberg #44021.
+
+  - id: round-1892
+    kind: book
+    author: J. H. Round
+    title: "Geoffrey de Mandeville: A Study of the Anarchy"
+    year: 1892
+    note: >-
+      A study of Stephen's reign and the civil war with the Empress
+      Matilda built around the career of one of its central magnates.
+      Open access via archive.org.

@@ -4358,3 +4358,16 @@ edges:
       Yorkshire in 876.
     source: stenton-1943
     contested: false
+
+  - from: wessex
+    to: norman-england
+    type: conquered by
+    year: 1066
+    note: >-
+      William of Normandy's army killed Harold at Hastings on 14
+      October 1066. With no second English army left to field, the
+      surviving nobles who might have resisted chose instead to
+      negotiate, and gave way before William's own coronation that
+      December.
+    source: stenton-1943
+    contested: false
