@@ -129,6 +129,21 @@ turning_points:
       them.
     source: gammer-1994
     contested: false
+  - year: 1859
+    type: siege
+    name: "Gunib"
+    changed: >-
+      Vedeno fell in April and Shamil withdrew to the mountain of Gunib
+      with a few hundred men, was surrounded, and surrendered on 25
+      August - the end of the imamate itself, though not of the wider
+      Caucasian wars: Circassia, which the imamate had never governed,
+      fought on for five more years on the other side of the range.
+      Shamil was received by Alexander II as a defeated sovereign rather
+      than a rebel, pensioned, and eventually permitted to make the
+      pilgrimage; he died at Medina in 1871 and is buried in the same
+      cemetery the Wahhabis had levelled sixty-five years earlier.
+    source: gammer-1994
+    contested: false
 
 measures:
   reach_km2: null
