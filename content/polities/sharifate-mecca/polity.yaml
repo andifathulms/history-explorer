@@ -153,6 +153,21 @@ turning_points:
       years.
     source: peters-1994
     contested: false
+  - year: 1925
+    type: catastrophe
+    name: "The office left unfilled"
+    changed: >-
+      Ibn Sa'ud took Ta'if, then Mecca, then Jeddah after a siege; Husayn
+      had already abdicated to his son Ali, who abdicated in turn and
+      left. Ibn Sa'ud took the title of king of the Hejaz himself rather
+      than confer the sharifate on anyone, which was the only honest
+      answer to a question nine centuries had been putting: whether the
+      qualification could be given to someone who lacked the descent it
+      required. It could not, so the office went unfilled instead - the
+      sharifate succeeded nobody and nobody succeeded it, having been
+      continuously somebody's client and never anybody's heir.
+    source: peters-1994
+    contested: false
 
 measures:
   reach_km2: null

@@ -99,6 +99,21 @@ turning_points:
       house became claimants without a claim.
     source: fisher-2011
     contested: false
+  - year: 550
+    type: catastrophe
+    name: "The confederation comes apart"
+    changed: >-
+      Hujr ibn al-Harith, the last of the family to hold a position over
+      the Banu Asad, was killed by them, and nothing replaced the
+      arrangement - the confederation broke into its component tribes
+      with no conqueror to name, at the same moment its patron Himyar was
+      collapsing under Aksumite invasion. It is the third of three client
+      dynasties three empires dismantled within about seventy years, each
+      for its own unrelated reason: Rome arrested the Jafnid phylarch in
+      582, Persia executed the last Nasrid around 602, and Himyar simply
+      stopped existing.
+    source: fisher-2011
+    contested: false
 
 measures:
   reach_km2: null

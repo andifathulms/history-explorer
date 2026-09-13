@@ -93,6 +93,22 @@ turning_points:
       the Isma'ili world.
     source: daftary-2007
     contested: false
+  - year: 985
+    type: battle
+    name: "The reputation ends at Kufa"
+    changed: >-
+      Two Qarmatian leaders seized Kufa and pushed on collecting revenue
+      until Baghdad's patience ran out; two ordinary field engagements,
+      assembled from the troops available in the normal way, routed them
+      both times. Nothing had changed in the Qarmatians' own doctrine or
+      organisation - what ran out was the belief that fighting them was
+      different from fighting anybody else, and once that belief was
+      gone the state that had held Mecca's stone and taxed two
+      caliphates turned out to be an ordinary regional power with fiefs
+      in Iraq. Al-Hasa itself held out under its council for another
+      ninety years.
+    source: miskawayh-margoliouth
+    contested: false
 
 measures:
   reach_km2: null
