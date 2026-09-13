@@ -91,6 +91,33 @@ turning_points:
       had appealed to.
     source: bosworth-1968
     contested: false
+  - year: 1220
+    type: catastrophe
+    name: "The state ends: Otrar and the flight"
+    changed: >-
+      After the governor of Otrar killed a Mongol-protected caravan as spies
+      and Muhammad had the senior envoy sent to demand redress killed,
+      Chinggis Khan's invasion arrived in 1219 and reduced Otrar, Bukhara,
+      Samarkand and Gurganj one after another with siege engineers rather
+      than meeting the scattered Khwarazmian army in the field. Muhammad
+      fled west across Iran losing a province at a time and died on a
+      Caspian island at the end of 1220 with no territory left, buried in
+      borrowed linen - the largest state in the eastern world three years
+      earlier, destroyed in two.
+    source: iranica-khwarazmshahs
+    contested: false
+  - year: 1231
+    type: catastrophe
+    name: "Jalal al-Din murdered in a Kurdish village"
+    changed: >-
+      Eleven years after the state itself ended, Muhammad's son - who had
+      fought the Mongols, his own brother, his vassals, the caliph, the
+      Turkmens, the Isma'ilis and the Georgians by turns, and refused to
+      stop - was murdered while fleeing the Mongols. Whether the empire
+      ends in 1220 with the state or in 1231 with the man is not a
+      question with a right answer, and both dates are worth keeping.
+    source: browne-1906
+    contested: true
 
 measures:
   # No consulted dataset gives a Khwarazmian peak extent, and the empire held
