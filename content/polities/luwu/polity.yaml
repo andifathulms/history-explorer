@@ -1,0 +1,108 @@
+id: luwu
+region: the-eastern-archipelago
+
+name:
+  latin: Luwu
+  script: null
+  script_lang: null
+
+# Archaeological survey (bulbeck-prasetyo-2007) dates Luwu's "meteoric rise"
+# as a Bugis chiefdom to between AD 1300 and 1600, built on a much older
+# iron-trading economy the same survey traces back roughly two thousand
+# years. This record's own span starts at 1300, the point the chiefdom
+# itself is archaeologically attested, rather than at the legendary
+# founding the La Galigo tradition claims - see the note on `founder`.
+span:
+  start: { min: 1300, max: 1300, source: bulbeck-prasetyo-2007 }
+  end: { min: 1611, max: 1611, source: bulbeck-prasetyo-2007 }
+
+identity: >-
+  The oldest and most prestigious Bugis chiefdom, built on an iron trade two
+  thousand years older than its own political rise, which lost most of the
+  territory backing that prestige to younger, rice-rich neighbors long
+  before it lost the reputation.
+
+capitals:
+  - { name: Malangke, from: 1300, source: bulbeck-prasetyo-2007 }
+
+core_region: The Cenrana river system and the upper reaches of South Sulawesi, and in its own tradition much of the peninsula's east coast
+
+rulers:
+  # The Lontara Simpurasia traces Luwu's kingship to Simpurasia, but the
+  # source is explicit that the figure is drawn from the same La Galigo
+  # mythological cycle it is meant to authenticate, not an independently
+  # attested historical ruler - promoted, in the source's own reading,
+  # precisely because it let Luwu's rulers claim a more primordial descent
+  # than the tomanurung ("descended from heaven") founders other Bugis
+  # chiefdoms relied on.
+  founder: { name: null, source: null }
+  peak: { name: null, source: null }
+  last: { name: null, source: null }
+
+scripts_and_languages:
+  administration: [Bugis]
+  writing_system: "Lontara script"
+
+institutions:
+  military_basis: null
+  revenue_basis: { values: [trade-toll], source: bulbeck-prasetyo-2007 }
+  succession_rule: null
+  legitimation: { values: [divine-sanction, descent], source: bulbeck-prasetyo-2007 }
+
+# No source consulted for this record names a conqueror or a clean end date.
+# Luwu's own decisive loss of standing predates Islam - the surrender of its
+# central territories to Wajo and Bone around 1500, and of Cenrana itself in
+# 1563 - and its own conversion to Islam in 1605 folded it into the same
+# regional order Gowa's conquests were consolidating; 1611, when Gowa's own
+# Islamic wars closed with the submission of the remaining Bugis kingdoms,
+# is used here as the point Luwu's own independent political weight ends,
+# though the source does not treat this as Luwu's own conquest.
+ended:
+  type: gradual absorption
+  by: []
+  year: 1611
+  source: bulbeck-prasetyo-2007
+
+preceded_by_external: []
+succeeded_by_external: []
+
+turning_points:
+  - year: 1500
+    type: catastrophe
+    name: "The loss of the central peninsula"
+    changed: >-
+      Luwu's two closest Bugis neighbors, Wajo and Bone, forced the
+      surrender of the central territories Luwu had held along the
+      peninsula's own east coast - ending, in practice if not in title, a
+      dominance one later observer described as having once run the whole
+      of that coastline.
+    source: bulbeck-prasetyo-2007
+    contested: false
+  - year: 1563
+    type: catastrophe
+    name: "The loss of Cenrana"
+    changed: >-
+      Luwu finally gave up its hold on Cenrana, at the mouth of the
+      peninsula's major river system, the last piece of the territorial
+      reach that had once let it dominate trade along the whole eastern
+      coast - a decades-long retreat reaching its final point.
+    source: bulbeck-prasetyo-2007
+    contested: false
+  - year: 1605
+    type: conversion
+    name: "Conversion to Islam"
+    changed: >-
+      Luwu's own ruler embraced Islam months before Gowa's own conversion
+      that same year - a religious change made from a position of reduced
+      territorial power, in a kingdom whose prestige by this point rested
+      far more on ancient reputation than on any army it could still field.
+    source: bulbeck-prasetyo-2007
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: bulbeck-prasetyo-2007 }
+    religions_carried: { count: 0, items: [], source: bulbeck-prasetyo-2007 }
+    successor_claims: { count: 0, items: [], source: bulbeck-prasetyo-2007 }
