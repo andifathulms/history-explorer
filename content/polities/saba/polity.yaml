@@ -106,6 +106,20 @@ turning_points:
       which in the following century removed the reason Saba' was rich.
     source: fisher-2015
     contested: false
+  - year: 275
+    type: reform
+    name: "Zafar takes the Sabaean title"
+    changed: >-
+      After three centuries of shifting alliances and wars between Saba'
+      and the highland kingdom of Himyar, the ruler at Zafar began styling
+      himself king of Saba' and dhu-Raydan, and then added Hadramawt and
+      Yamanat to the same titulature - evidence of a unification with no
+      single date and no conquest behind it, a competition for the same
+      crown that one side had simply stopped losing. Himyar kept the
+      Sabaean royal title at the head of its own and maintained the dam
+      for two and a half centuries afterward.
+    source: fisher-2015
+    contested: false
 
 measures:
   reach_km2: null
