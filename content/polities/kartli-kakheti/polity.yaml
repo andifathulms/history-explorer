@@ -108,6 +108,23 @@ turning_points:
       never recovered.
     source: suny-1994
     contested: false
+  - year: 1801
+    type: catastrophe
+    name: "Annexation and the abolition of the monarchy"
+    changed: >-
+      George XII had asked for an incorporation that kept a Bagrationi on
+      the throne under Russian sovereignty; Alexander I instead abolished
+      the monarchy outright, and the dynasty was deported. Nine hundred
+      and thirteen years of a Bagrationi holding some Georgian throne,
+      across four kingdoms since 888, ended with it. Ten years later the
+      autocephaly the Georgian church had held since the fifth century -
+      surviving the Sasanians, four centuries of presiding princes, an
+      Arab emirate in its own capital, the Seljuks, the Mongols and eight
+      visits from Timur - was abolished too, subordinated to the Russian
+      Synod. It had outlasted every Muslim conqueror; it did not survive
+      a Christian one, which was the only kind with a reason to want it.
+    source: suny-1994
+    contested: false
 
 measures:
   reach_km2: null
