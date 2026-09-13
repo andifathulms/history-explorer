@@ -135,6 +135,22 @@ turning_points:
       years left.
     source: amanat-2017
     contested: false
+  - year: 1921
+    type: succession-crisis
+    name: "The Cossack Brigade takes Tehran"
+    changed: >-
+      Reza Khan, commander of the one military force in the country that
+      was paid, permanent and centrally commanded, marched it on Tehran
+      and took the government - an internal usurpation of exactly the
+      kind that had ended the Ayyubids in 1250, the latest instance of a
+      pattern running from Samarra's Turkish guard through the Ghaznavids,
+      the Bahriyya and the Ottoman janissaries. He was made prime minister
+      within months, and in 1925 the Majles voted the absent Ahmad Shah
+      deposed and crowned Reza Khan in his place under the name Pahlavi -
+      the one constitutional institution the Qajars had reluctantly
+      created removing the dynasty that created it.
+    source: amanat-2017
+    contested: false
 
 measures:
   reach_km2: null
