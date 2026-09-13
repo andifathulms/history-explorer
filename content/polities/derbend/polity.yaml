@@ -59,15 +59,46 @@ institutions:
   succession_rule: null
   legitimation: { values: [caliphal-investiture], source: minorsky-1958 }
 
-# None, deliberately. Coding rule 4.3 covers this case and names Srivijaya for
-# it: a polity whose power was a standing arrangement over a strait rather than
-# a sequence of decisive days. Derbend is the same shape. Two centuries of the
-# same three things happening — the pass taxed, the city deposing its emir, the
-# Shirvanshahs and the highland principalities manoeuvring — and no dated event
-# in the works consulted that altered what the emirate was subsequently able to
-# do. An empty list is a true statement and a padded one would be false in the
-# direction that makes this site look more complete than it is.
-turning_points: []
+# Not empty after all, and the comment below is kept because the narrower claim
+# it argues for is still true. Coding rule 4.3 covers this case and names
+# Srivijaya for it: a polity whose power was a standing arrangement over a
+# strait rather than a sequence of decisive days. That holds for the two
+# centuries in the middle of this record — the pass taxed, the city deposing
+# its emir, the Shirvanshahs and the highland principalities manoeuvring, and
+# no dated event in the works consulted that altered what the emirate was
+# subsequently able to do during that stretch. It does not hold for the two
+# hinges below: one is a demonstrated vulnerability the emirate's own economics
+# absorbed rather than answered, and the other is the emirate's actual end.
+turning_points:
+  - year: 913
+    type: revolt
+    name: "A Rus fleet passes the Gate by sea"
+    changed: >-
+      A Rus fleet came down the Volga and out onto the Caspian - a sea no
+      hostile fleet had ever used before - passed Derbend's wall entirely
+      by water, and raided both coasts of it for as long as it chose. The
+      wall had been built and maintained for four centuries against
+      exactly the overland approaches it still controlled completely; a
+      standing arrangement does not stop being profitable because someone
+      has proved it can be bypassed, but it does stop being the answer to
+      the question it was built to answer, and the emirate went on taxing
+      the pass for another century and a half regardless.
+    source: masudi-sprenger
+    contested: false
+  - year: 1077
+    type: siege
+    name: "The Seljuks take Derbend"
+    changed: >-
+      A wall built and maintained for four centuries to stop
+      Turkic-speaking peoples from the northern steppe entering the lands
+      south of the Caucasus was taken by Turkic-speaking peoples who came
+      from the south instead, having reached the region by way of Iran
+      rather than through the gate at all. The Hashimid emirate ended; the
+      fortress did not, and went on being held by one power after another
+      - Shirvanshahs, Mongols, Safavids, Ottomans, Afsharids, finally
+      Russia - for the ground's own value rather than for any dynasty's.
+    source: minorsky-1958
+    contested: false
 
 measures:
   reach_km2: null
