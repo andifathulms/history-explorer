@@ -7420,3 +7420,88 @@ sources:
       A study of Stephen's reign and the civil war with the Empress
       Matilda built around the career of one of its central magnates.
       Open access via archive.org.
+
+  - id: brown-1899
+    kind: book
+    author: P. Hume Brown
+    title: "History of Scotland"
+    container: "3 vols, Cambridge University Press"
+    year: 1899-1909
+    note: >-
+      A continuous scholarly narrative from the early medieval kingdom
+      through the Reformation, the Union of the Crowns and the Union of
+      1707. Used here for Kenneth MacAlpin's reign and its own uncertain
+      chronology, the Reformation Parliament and the Treaty of Berwick,
+      James VI's 1603 accession to the English throne, and the Darien
+      disaster and the passing of the Treaty of Union. Open access via
+      archive.org (all three volumes NOT_IN_COPYRIGHT).
+
+  - id: broun-2015
+    kind: article
+    author: Dauvit Broun
+    title: "Statehood and lordship in 'Scotland' before the mid-twelfth century"
+    container: The Innes Review, vol. 66, no. 1
+    year: 2015
+    note: >-
+      A critical assessment of how much genuine centralized authority
+      the evidence actually supports for ninth- to eleventh-century
+      Scotland, cautioning against reading a securely dated unification
+      out of a near-total absence of contemporary documentation. Open
+      access via the University of Glasgow's Enlighten repository.
+
+  - id: alba-chronicle
+    kind: article
+    title: "Chronicle of the Kings of Alba"
+    container: Internet Medieval Sourcebook, Fordham University
+    year: 2023
+    note: >-
+      An open translation of the Chronicle of the Kings of Alba (the
+      Scottish Chronicle in the Poppleton Manuscript), the only native
+      narrative source for Scotland c.850-975, covering Kenneth mac
+      Alpin's reign and accession to Dál Riata and Pictland. The
+      editorial headnote itself flags the surrounding tradition as later
+      embellishment. Open access.
+
+  - id: maxwell-1897
+    kind: book
+    author: Herbert Maxwell
+    title: "Robert the Bruce and the Struggle for Scottish Independence"
+    year: 1897
+    note: >-
+      A narrative biography covering Bruce's campaigns and the Battle of
+      Bannockburn (1314) in detail, including the single combat between
+      Bruce and Henry de Bohun and the battle's casualty lists. Open
+      access via archive.org.
+
+  - id: murison-1900
+    kind: book
+    author: A. F. Murison
+    title: "Sir William Wallace"
+    container: Famous Scots Series
+    year: 1900
+    note: >-
+      A narrative biography of William Wallace and the opening of the
+      Wars of Scottish Independence. Open access via archive.org and
+      Project Gutenberg.
+
+  - id: union-1706-statute
+    kind: article
+    title: "Union with Scotland Act 1706"
+    container: legislation.gov.uk
+    year: 1706
+    note: >-
+      The statutory text of the Act itself, all 25 Articles, confirming
+      the Treaty of Union's actual terms. Open access under the Open
+      Government Licence.
+
+  - id: shs-union-2016
+    kind: article
+    title: "The Union of 1707: The Historical Context"
+    container: Scottish History Society learning resource
+    year: 2016
+    note: >-
+      A short open-access overview explicitly addressing whether 1707
+      was an "incorporating union" (both parliaments ceasing to exist,
+      replaced by a new Parliament of Great Britain) versus a looser
+      confederal alternative that was seriously contended for at the
+      time. Open access PDF.

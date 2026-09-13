@@ -1,0 +1,170 @@
+id: scotland
+region: the-british-isles
+
+name:
+  latin: Kingdom of Scotland
+  script: null
+  script_lang: null
+
+span:
+  # The Chronicle of the Kings of Alba, the only native narrative source
+  # for this period, dates Kenneth's receipt of Dál Riata to 840/1 and
+  # the start of his sixteen-year rule over "this Pictland" to 842/3.
+  # Brown's own history is explicit that only the general trend of
+  # events, not precise dates, can be established with confidence for
+  # this reign, and Broun (2015) cautions against reading a securely
+  # dated, centrally governed unification out of the surviving evidence.
+  start: { min: 842, max: 843, source: alba-chronicle }
+  end: { min: 1707, max: 1707, source: brown-1899 }
+
+identity: >-
+  A northern kingdom whose own founding union of Picts and Scots is
+  attested only by a scant native chronicle, independent for the wars
+  Wallace and Bruce fought to keep it, until its own parliament voted
+  itself out of existence into a union with England in 1707.
+
+capitals:
+  - { name: Scone, source: brown-1899 }
+  - { name: Edinburgh, source: brown-1899 }
+
+core_region: The mainland between the Forth and the Pentland Firth, with the Hebrides and Northern Isles absorbed over time
+
+rulers:
+  founder: { name: Kenneth MacAlpin (Cináed mac Ailpín), reign: [843, 858], source: alba-chronicle }
+  # Robert I's victory at Bannockburn in 1314 secured, in practice if not
+  # yet in treaty, the independence the Wars of Independence had been
+  # fought over since Wallace's rising in 1297.
+  peak: { name: Robert I "the Bruce", reign: [1306, 1329], source: maxwell-1897 }
+  last: { name: Anne, reign: [1702, 1707], source: brown-1899 }
+
+scripts_and_languages:
+  administration: [Latin, Scots, Scottish Gaelic]
+  writing_system: Latin alphabet
+
+institutions:
+  military_basis: null
+  # A land tax assessed by the "davoch" and later feudal units funded
+  # the crown; by the seventeenth century, customs and excise had
+  # become central to royal revenue as well, though this record's
+  # sources speak mainly to the land-based assessment.
+  revenue_basis: { values: [land-tax], source: brown-1899 }
+  succession_rule: { values: [primogeniture], source: brown-1899 }
+  legitimation: { values: [descent, divine-sanction], source: brown-1899 }
+
+preceded_by_external:
+  - name: the Pictish kingdom and Dál Riata
+    type: absorbed remnants of
+    year: 843
+    note: >-
+      Kenneth first took the Dál Riatan throne, then extended his own
+      authority over Pictish territory a couple of years afterward -
+      though the sole surviving native account of this transition gives
+      no detail of how the union of the two peoples was actually
+      accomplished, and later medieval writers filled the gap with
+      elaborate and largely unverifiable stories of conquest and
+      betrayal.
+    source: alba-chronicle
+
+succeeded_by_external: []
+
+ended:
+  type: gradual absorption
+  by: []
+  year: 1707
+  source: brown-1899
+
+turning_points:
+  - year: 843
+    type: reform
+    name: "Kenneth's rule over Pictland begins"
+    changed: >-
+      Having already received the kingship of Dál Riata two years
+      earlier, Kenneth began what the Chronicle records as sixteen years
+      of rule over the Picts as well - the earliest point at which one
+      king is attested governing both peoples, whatever the true
+      circumstances of how that came about.
+    source: alba-chronicle
+    contested: true
+  - year: 1297
+    type: battle
+    name: "Battle of Stirling Bridge"
+    changed: >-
+      William Wallace's forces destroyed an English army at the
+      crossing of the Forth, reviving armed resistance to Edward I's
+      claim of overlordship after the kingdom's own nobility had largely
+      submitted the year before.
+    source: murison-1900
+    contested: false
+  - year: 1314
+    type: battle
+    name: "Battle of Bannockburn"
+    changed: >-
+      Robert I's army destroyed an English relief force sent to break
+      the siege of Stirling Castle, the king himself opening the
+      engagement by killing an English knight, Henry de Bohun, in single
+      combat before the main armies closed. The victory did not by
+      itself end the war, but it secured Bruce's own throne and the
+      practical independence the peace of 1328 would formally recognize.
+    source: maxwell-1897
+    contested: false
+  - year: 1560
+    type: conversion
+    name: "The Reformation Parliament"
+    changed: >-
+      With French forces withdrawn under an English-backed treaty and
+      the regent Mary of Guise recently dead, the Scottish Parliament
+      renounced papal authority and endorsed a new statement of Reformed
+      belief - a change the kingdom's own historian later contrasted with
+      the bloodshed that accompanied the same transition elsewhere in
+      Europe, noting that Scottish Protestants carried out not one
+      execution for religion, even at their most dominant.
+    source: brown-1899
+    contested: false
+  - year: 1603
+    type: succession-crisis
+    name: "Union of the Crowns"
+    changed: >-
+      News that Elizabeth of England had died reached James VI at
+      Holyrood within three days, and the English Privy Council
+      proclaimed him her successor soon after. He set out for London
+      that spring having pledged regular visits home, a pledge he kept
+      only once across the rest of his reign. Scotland kept its own
+      parliament and law, but ceased that same season to have an
+      independent foreign policy or a resident king.
+    source: brown-1899
+    contested: false
+  - year: 1700
+    type: catastrophe
+    name: "Collapse of the Darien scheme"
+    changed: >-
+      A Scottish colonial venture on the isthmus of Panama, into which
+      much of the country's available capital had been poured, collapsed
+      under Spanish attack and tropical disease; of the emigrants who
+      had sailed out with high hopes, only a fraction ever saw Scotland
+      again. The financial wreck it left behind became one of the
+      strongest arguments the Union's supporters had.
+    source: brown-1899
+    contested: false
+  - year: 1707
+    type: treaty
+    name: "The Treaty of Union ratified"
+    changed: >-
+      After nearly three months of debate, the Scottish Parliament gave
+      final sanction to the Treaty of Union on 16 January, its
+      chief architect, the Earl of Stair, having collapsed and died of
+      apoplexy just eight days before. The Parliaments of Scotland and
+      England both dissolved into a new Parliament of Great Britain -
+      not, by the treaty's own terms, one kingdom's absorption into the
+      other, though its actual architects were denounced by their own
+      countrymen as hirelings rather than thanked as statesmen.
+    source: brown-1899
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
