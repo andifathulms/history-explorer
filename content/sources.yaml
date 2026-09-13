@@ -7530,3 +7530,40 @@ sources:
       White in 852, the dynasty of Ivar, and its capture by Strongbow
       and the English in 1170, including King Hasculf's failed attempt
       to retake it. Open access via archive.org.
+
+  - id: giraldus-1896
+    kind: book
+    author: Giraldus Cambrensis (Middle English trans., ed. Frederick J. Furnivall)
+    title: "The English Conquest of Ireland, A.D. 1166-1185"
+    container: Early English Text Society
+    year: 1896
+    note: >-
+      A Middle English translation of Giraldus Cambrensis's Expugnatio
+      Hibernica, covering Diarmait Mac Murchada's exile and appeal to
+      Henry II, Strongbow's intervention and marriage to Aoife, and
+      the taking of Dublin and Waterford. Open access via archive.org.
+
+  - id: orpen-1911
+    kind: book
+    author: Goddard Henry Orpen
+    title: "Ireland under the Normans"
+    container: "4 vols"
+    year: 1911-1920
+    note: >-
+      The standard scholarly narrative of the Anglo-Norman conquest and
+      lordship of Ireland, covering the invasion and settlement (vols
+      1-2, 1169-1216) and Edward Bruce's invasion and death at Faughart
+      in 1318 (vol 4, 1216-1333). Open access via archive.org.
+
+  - id: bagwell-1885
+    kind: book
+    author: Richard Bagwell
+    title: "Ireland under the Tudors"
+    container: "3 vols"
+    year: 1885-1890
+    note: >-
+      The standard narrative of the Tudor conquest of Ireland; volume 1
+      opens with the medieval Lordship's decline (the Statute of
+      Kilkenny, 1367) and the 1541 Irish Parliament that made Henry
+      VIII King of Ireland by statute. Open access via archive.org,
+      also mirrored on Project Gutenberg.

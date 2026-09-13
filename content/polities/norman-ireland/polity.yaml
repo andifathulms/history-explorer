@@ -1,0 +1,170 @@
+id: norman-ireland
+region: the-british-isles
+
+name:
+  latin: Lordship of Ireland
+  script: null
+  script_lang: null
+
+span:
+  # The span opens with Diarmait Mac Murchada's abduction of
+  # Derbforgaill, the event chroniclers trace the whole Anglo-Norman
+  # intervention back to, rather than with Henry II's own 1171 landing
+  # - the crisis that produced this lordship began before the lordship
+  # itself formally existed.
+  start: { min: 1152, max: 1152, source: giraldus-1896 }
+  end: { min: 1541, max: 1541, source: bagwell-1885 }
+
+identity: >-
+  An English crown possession carved out by adventurers who came to
+  restore an exiled Leinster king, reduced within two centuries to a
+  fortified strip around Dublin, and elevated by its own Parliament's
+  unanimous vote in 1541 from a lordship into a kingdom.
+
+capitals:
+  - { name: Dublin, source: orpen-1911 }
+
+core_region: The eastern seaboard around Dublin, contracting over the fourteenth century to the fortified district later called the Pale
+
+rulers:
+  founder: { name: Henry II, reign: [1171, 1189], source: orpen-1911 }
+  # No single reign stands out in the sources as this lordship's peak;
+  # its greatest territorial reach under the thirteenth-century English
+  # justiciars is real but not clearly attached to one ruler's own
+  # tenure, and the fourteenth century onward is a story of contraction
+  # rather than further growth.
+  peak: null
+  last: { name: Henry VIII, reign: [1509, 1541], source: bagwell-1885 }
+
+scripts_and_languages:
+  administration: [Latin, Anglo-Norman French, English]
+  writing_system: Latin alphabet
+
+institutions:
+  military_basis: { values: [land-grant], source: orpen-1911 }
+  revenue_basis: { values: [land-tax], source: bagwell-1885 }
+  succession_rule: { values: [primogeniture], source: bagwell-1885 }
+  # Henry's claim rested on both conquest and a grant of authority from
+  # Pope Adrian IV, whose bull Giraldus records Henry as having
+  # invoked to justify the whole enterprise.
+  legitimation: { values: [conquest, investiture], source: giraldus-1896 }
+
+preceded_by_external:
+  - name: the Kingdom of Leinster under Diarmait Mac Murchada
+    type: overthrew
+    year: 1171
+    note: >-
+      Diarmait, restored to his own throne with Anglo-Norman help
+      before his death in 1171, had already agreed that Strongbow
+      would inherit Leinster through marriage to his daughter Aoife;
+      Henry II's own arrival that same year folded the whole enterprise
+      into a royal lordship before Strongbow could rule it as an
+      independent kingdom in his own right.
+    source: giraldus-1896
+
+succeeded_by_external: []
+
+ended:
+  # No conquest, dynasty change or fragmentation - Henry VIII simply
+  # continued ruling under the new style his own Irish Parliament had
+  # just voted him. "Gradual absorption" is the closest available fit
+  # in the closed vocabulary for a lordship legislated out of existence
+  # into a kingdom that inherited it whole, the same stretch this
+  # corpus already makes for Poland-Lithuania's 1569 union and
+  # Scotland's own 1707 one.
+  type: gradual absorption
+  by: []
+  year: 1541
+  source: bagwell-1885
+
+turning_points:
+  - year: 1152
+    type: revolt
+    name: "Diarmait Mac Murchada abducts Derbforgaill"
+    changed: >-
+      Diarmait, king of Leinster, carried off Derbforgaill, wife of
+      Tiernan O'Rourke of Breifne, with her own apparent consent - an
+      injury O'Rourke never forgave, and one later chroniclers treated
+      as the seed of the feud that would cost Diarmait his own kingdom
+      fourteen years later.
+    source: giraldus-1896
+    contested: true
+  - year: 1167
+    type: revolt
+    name: "Diarmait is driven from Leinster"
+    changed: >-
+      A coalition led by O'Rourke and the high king Rory O'Connor
+      expelled Diarmait from his own kingdom. He crossed to England and
+      then to France to seek Henry II's help, receiving only a royal
+      letter permitting any of the king's subjects to aid him, since
+      Henry himself had pressing business elsewhere.
+    source: giraldus-1896
+    contested: false
+  - year: 1170
+    type: siege
+    name: "Strongbow takes Waterford and marries Aoife"
+    changed: >-
+      Strongbow arrived with a force of knights, stormed Waterford, and
+      married Diarmait's daughter Aoife there on the spot - securing,
+      by the agreement struck at Bristol, his own inheritance of the
+      whole kingdom of Leinster on Diarmait's death.
+    source: giraldus-1896
+    contested: false
+  - year: 1171
+    type: treaty
+    name: "Henry II lands and receives submission"
+    changed: >-
+      Alarmed that Strongbow might carve out an independent kingdom of
+      his own, Henry II landed with a large force that October. A
+      synod at Cashel brought the Irish church into line with Roman
+      practice, and Irish kings and Anglo-Norman lords alike gave way
+      before him rather than risk a fight - the conquest absorbed
+      into a royal lordship instead of standing as an independent
+      baronial state.
+    source: orpen-1911
+    contested: false
+  - year: 1318
+    type: battle
+    name: "Battle of Faughart"
+    changed: >-
+      Edward Bruce, brother of the Scottish king and self-proclaimed
+      high king of Ireland, was killed at Faughart near Dundalk after
+      three years of invasion that had burned English towns from Sligo
+      to Athlone. The colony survived the immediate crisis, but the
+      devastation of these years left it markedly weaker than before.
+    source: orpen-1911
+    contested: false
+  - year: 1367
+    type: reform
+    name: "Statute of Kilkenny"
+    changed: >-
+      A parliament under Lionel of Clarence gave legal recognition to
+      what was already the practical reality: English royal authority
+      now held firmly only in a narrow strip of shires later called the
+      Pale. The statute made marriage, fosterage or even everyday
+      dealing with the Irish outside it a treasonable offence for the
+      English colonists still living inside it.
+    source: bagwell-1885
+    contested: false
+  - year: 1541
+    type: reform
+    name: "Henry VIII becomes King of Ireland"
+    changed: >-
+      An Irish Parliament convened at Dublin, attended by Gaelic lords
+      as well as the English-descended peerage, read a bill making
+      Henry VIII King of Ireland in both English and Irish and passed
+      it by acclamation. The deputy who proposed it described his own
+      part in the change in the most personal terms he could find - a
+      lordship of two centuries' standing became a kingdom by a single
+      unanimous vote.
+    source: bagwell-1885
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
