@@ -1,0 +1,139 @@
+id: toltec
+region: mesoamerica
+
+name:
+  latin: Toltec Empire
+  script: null
+  script_lang: null
+
+span:
+  # The colonial-era chronicles that are the only surviving source for
+  # this reign-by-reign chronology do not agree closely with one
+  # another; the dates here follow the correlation Bancroft's own
+  # compilation adopts, treated as tradition rather than settled fact.
+  start: { min: 710, max: 720, source: bancroft-1875 }
+  end: { min: 1062, max: 1064, source: bancroft-1875 }
+
+identity: >-
+  A Nahua people remembered by every later Mesoamerican civilization,
+  the Aztecs included, as the source of their own arts, their calendar
+  and their claim to legitimate kingship - a reputation built on a
+  monarchy at Tollan that began as an elective theocratic republic,
+  survived a king who renounced his own throne rather than preside over
+  human sacrifice, and ended in a war that scattered its people without
+  destroying them.
+
+capitals:
+  - { name: Tollan, from: 710, source: bancroft-1875 }
+
+core_region: The Mexican highlands, centred on the Tula river valley
+
+rulers:
+  # Chosen by the seven Toltec chiefs' own assembly to end a period of
+  # collective rule, at a time when the Toltecs still credited a
+  # foreign court, Huehue Tlapallan, with the legitimacy to supply one.
+  founder: { name: Chalchiuh Tlatonac, source: bancroft-1875 }
+  # Modern scholarship's inaccessibility here reflects the sources
+  # themselves: Ceacatl Quetzalcoatl's reign is the one every later
+  # chronicle treats as the peak of Toltec religious and artistic
+  # achievement, whatever confusion surrounds his own exact dates.
+  peak: { name: "Topiltzin Ceacatl Quetzalcoatl", reign: [873, 895], source: bancroft-1875 }
+  # The chronicles are not fully consistent about whether this is the
+  # same king elsewhere called Huemac II or Tecpancaltzin, or a
+  # successor; what they agree on is that he was the last to hold real
+  # power at Tollan.
+  last: { name: "Topiltzin Acxitl", source: bancroft-1875 }
+
+scripts_and_languages:
+  administration: [Nahuatl]
+  writing_system: null
+
+institutions:
+  military_basis: null
+  revenue_basis: null
+  # Tradition credits the first king with a law limiting any reign to
+  # fifty-two years - one full calendar round - after which the throne
+  # was to pass to the eldest son, with elected magistrates governing
+  # any unexpired term if a king died first.
+  succession_rule: { values: [primogeniture], source: bancroft-1875 }
+  legitimation: { values: [descent, divine-sanction], source: bancroft-1875 }
+
+preceded_by_external: []
+
+succeeded_by_external: []
+
+ended:
+  type: fragmentation
+  by: []
+  year: 1062
+  source: bancroft-1875
+
+turning_points:
+  - year: 715
+    type: reform
+    name: "A monarchy replaces the council of seven chiefs"
+    changed: >-
+      Toltec settlers at Tollan, until then governed as a theocratic
+      republic by seven chiefs acting under a prophet's own guidance,
+      convened an assembly and voted to replace their own collective
+      rule with a single elected king - a foreign prince brought from
+      Huehue Tlapallan and crowned as Chalchiuh Tlatonac.
+    source: bancroft-1875
+    contested: true
+  - year: 873
+    type: succession-crisis
+    name: "Ceacatl Quetzalcoatl is raised to the throne"
+    changed: >-
+      A prince unable, tradition says, to claim his murdered father's
+      crown on reaching adulthood spent years building support before
+      being raised to Tollan's throne on the death of his predecessor -
+      beginning the reign every later Toltec and Aztec tradition alike
+      would remember as the high point of the city's own learning and
+      artistry.
+    source: bancroft-1875
+    contested: true
+  - year: 895
+    type: revolt
+    name: "Quetzalcoatl abandons his own throne"
+    changed: >-
+      Rather than preside over the human sacrifice his own priesthood
+      and nobility demanded he restore, Quetzalcoatl gave up the crown
+      he had held for about two decades and left the city altogether,
+      ceding power to the rival faction that had opposed his religious
+      reforms from the start.
+    source: bancroft-1875
+    contested: true
+  - year: 1045
+    type: catastrophe
+    name: "Civil strife and portents of divine wrath"
+    changed: >-
+      Rival religious factions fought in the streets of Tollan itself
+      until the city's own monuments lay half in ruins, while war,
+      pestilence and famine struck the wider Toltec domain at the same
+      time - disasters the chronicles record as accompanied by omens so
+      alarming that the kingdom's priests and nobles convened at
+      Teotihuacan to beg the favour of gods they believed had turned
+      against them.
+    source: bancroft-1875
+    contested: true
+  - year: 1062
+    type: siege
+    name: "The last king flees Tollan"
+    changed: >-
+      After a last stand at Tultitlan that scattered the remaining
+      Toltec army, the reigning king took refuge in a lakeside cave, and
+      from hiding sent word that he intended to leave the country for
+      good - entrusting his own infant children to guardians in
+      Culhuacan and ending, in practice, the line of kings that had
+      ruled from Tollan for three and a half centuries.
+    source: bancroft-1875
+    contested: true
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
