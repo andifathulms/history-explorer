@@ -85,6 +85,18 @@ turning_points:
       raiding ground.
     source: bosworth-1977
     contested: false
+  - year: 1186
+    type: succession-crisis
+    name: "The vassals finish it"
+    changed: >-
+      Mu'izz al-Din of Ghur took Lahore, and Khusrau Malik was imprisoned
+      and later killed with his son. The Ghaznavids had themselves begun
+      with a Samanid slave-general who took a frontier town and outlived
+      his masters; they ended with a client house from the mountains that
+      took their own capital and extinguished them - the same mechanism
+      that founded the dynasty running once more, this time against it.
+    source: bosworth-1977
+    contested: false
 
 measures:
   reach_km2: { value: 3400000, at: 1029, source: taagepera-1997 }
