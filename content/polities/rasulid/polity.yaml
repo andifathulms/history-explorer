@@ -90,6 +90,21 @@ turning_points:
       that had paid for everything it had built.
     source: vallet-2010
     contested: false
+  - year: 1454
+    type: succession-crisis
+    name: "The last Rasulid, and the Tahirid takeover"
+    changed: >-
+      Three decades of factional successions, mamluk regiments taking
+      sides, tribal confederations withdrawing recognition and Zaydi
+      imams retaking districts lost two centuries earlier ended with the
+      last Rasulid gone and the Tahirids - Yemeni highland landowners who
+      had themselves been men of consequence in the Rasulid state -
+      taking what was left. The rise and fall are the same fact seen
+      twice: a state built on one harbour's customs was exactly as
+      durable as the reasons ships had to enter it, and Barsbay had
+      already removed those reasons thirty years before.
+    source: vallet-2010
+    contested: false
 
 measures:
   reach_km2: null
