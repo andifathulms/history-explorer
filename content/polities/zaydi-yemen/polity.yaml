@@ -123,6 +123,22 @@ turning_points:
       fourteen years later was no.
     source: dresch-1989
     contested: false
+  - year: 1962
+    type: succession-crisis
+    name: "The republic declared"
+    changed: >-
+      A week after Muhammad al-Badr succeeded his father, army officers
+      under Abdullah al-Sallal shelled the palace at Sana'a and declared a
+      republic; al-Badr escaped and raised the same northern tribes his
+      grandfather had, and the civil war that followed ran eight years
+      with Egyptian troops on one side and Saudi money on the other. The
+      republicans kept Sana'a and no imam was proclaimed again. Calling
+      it a coup is right in the narrow sense and thin in every other:
+      what ended was not a government but the proposition that the right
+      to rule Yemen belonged to whichever qualified descendant of Ali
+      rose and was answered.
+    source: dresch-1989
+    contested: false
 
 measures:
   reach_km2: null
