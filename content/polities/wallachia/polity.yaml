@@ -1,0 +1,155 @@
+id: wallachia
+region: the-balkans
+
+name:
+  latin: Wallachia
+  script: null
+  script_lang: null
+
+span:
+  # Proto-state activity is attested well before this: Voivode Litovoi
+  # fought and died against Hungary in the 1280s, and a document of 1332
+  # names one Tihomir as an early ruler of the unified territory centered
+  # on Argeș - a name that, on the document's own dating, must precede
+  # Basarab's own reign despite being recorded later. dorin-matei-2018 is
+  # explicit, though, that it is Basarab I's break with Hungary and his
+  # victory at Posada that "sanctioned the foundation" of the state.
+  start: { min: 1330, max: 1330, source: dorin-matei-2018 }
+  # The double election of Alexandru Ioan Cuza as prince of both Wallachia
+  # and Moldavia - see `ended` and the closing chapter.
+  end: { min: 1859, max: 1859, source: cliveti-2022 }
+
+identity: >-
+  The land south and east of the Carpathians that broke from Hungary at a
+  mountain pass no one can precisely locate anymore, then spent five
+  centuries as the Ottoman Empire's own most fought-over tributary - held
+  briefly and expensively by a prince whose posthumous fame the country
+  never sought.
+
+capitals:
+  - { name: Curtea de Argeș, source: dorin-matei-2018 }
+  - { name: Târgoviște, source: carciumaru-2023 }
+
+core_region: The plain between the southern Carpathians and the Danube, in what is now southern Romania
+
+rulers:
+  # Basarab's own break with Hungarian overlordship and his victory at
+  # Posada are what a document of 1332 and the Hungarian court chronicle
+  # both treat as the state's real founding, whatever an earlier and
+  # otherwise unattested Tihomir's own claim to precedence.
+  founder: { name: "Basarab I", source: dorin-matei-2018 }
+  peak: { name: "Mircea the Elder", reign: [1386, 1418], source: miller-1896 }
+  # Reigned twice, briefly, and is covered in the fourth chapter; no single
+  # ruler after him held the throne long enough to be called Wallachia's
+  # last one in any but a technical sense - Cuza's own 1859 double election
+  # ended the office itself rather than any one prince's reign. See the
+  # closing chapter.
+  last: null
+
+scripts_and_languages:
+  administration: [Romanian, Church Slavonic]
+  writing_system: Cyrillic
+
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  # Basarab's own claim rested on descent and on military victory over the
+  # Hungarian crown that had previously held Wallachia in vassalage; later
+  # Ottoman-era princes ruled only with the sultan's own confirmation.
+  legitimation: { values: [descent, conquest, investiture], source: dorin-matei-2018 }
+
+preceded_by_external: []
+
+# Not a conquest: Cuza's 1859 election as prince of both Wallachia and
+# Moldavia at once - "the double election" - merged the two principalities'
+# thrones under one ruler, and a full administrative union followed in
+# 1862. Neither Wallachia nor Moldavia was absorbed by the other; both
+# entered a new state, Romania, that has no record of its own in this
+# collection.
+succeeded_by_external:
+  - name: Romania
+    type: absorbed remnants of
+    year: 1859
+    note: >-
+      Alexandru Ioan Cuza's simultaneous election as prince of Wallachia
+      and of Moldavia - achieved despite the Ottoman Porte's own reluctance,
+      which recognized his double rule as a one-time personal exception
+      rather than a precedent - joined the two principalities' thrones
+      under a single ruler; full administrative union followed in 1862.
+    source: cliveti-2022
+    contested: false
+
+ended:
+  type: dynastic replacement
+  by: []
+  year: 1859
+  source: cliveti-2022
+
+turning_points:
+  - year: 1330
+    type: battle
+    name: "The Battle of Posada"
+    changed: >-
+      A four-day battle in a mountain pass destroyed the army King Charles
+      Robert of Hungary had led south to punish Basarab for renouncing his
+      own vassalage, and cost the king his royal seal in the rout - the
+      victory later chroniclers and charters alike would treat as the
+      moment an independent Romanian state came into being.
+    source: dorin-matei-2018
+    contested: false
+  - year: 1391
+    type: treaty
+    name: "The first Ottoman tribute"
+    changed: >-
+      Defeated after a Turkish punitive campaign, Mircea the Elder accepted
+      formal terms of submission - continued local self-government and an
+      independent ruler, purchased with an annual payment to the Ottoman
+      treasury - marking the first time Wallachia is recorded as a
+      tributary rather than an independent belligerent.
+    source: miller-1896
+    contested: false
+  - year: 1462
+    type: battle
+    name: "The night attack on Mehmed II's camp"
+    changed: >-
+      Rather than meet an Ottoman invasion in open battle, Vlad III led a
+      raid straight into the invaders' own encampment by night, hoping to
+      cut the campaign short by killing Mehmed II outright, and followed it
+      with a field of impaled prisoners that, by report, shook the sultan's
+      own resolve to continue - a defense that cost the invaders momentum
+      without Wallachia ever winning a single pitched battle.
+    source: carciumaru-2023
+    contested: false
+  - year: 1462
+    type: succession-crisis
+    name: "Radu unseats his own brother"
+    changed: >-
+      Barely two months after the campaign his brother had just fought off,
+      Radu the Handsome took the throne with a small Ottoman escort and the
+      backing of boyars unwilling to keep gambling on help from Hungary -
+      ending Vlad's second reign through negotiation rather than battle,
+      and binding the country closer to Ottoman oversight in exactly the
+      outcome his brother's whole campaign had tried to head off.
+    source: carciumaru-2023
+    contested: false
+  - year: 1859
+    type: reform
+    name: "Cuza's double election"
+    changed: >-
+      Separate assemblies in Bucharest and Iași elected the same man,
+      Alexandru Ioan Cuza, as their own prince within weeks of each other -
+      a technically legal maneuver inside the Paris Convention's own rules
+      that the Ottoman Porte could only recognize as an accomplished fact,
+      merging two princely thrones under one ruler without a war, a treaty
+      of union, or the Porte's own prior consent.
+    source: cliveti-2022
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

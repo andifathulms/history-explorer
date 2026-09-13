@@ -404,10 +404,11 @@ regions:
   - id: the-balkans
     name: The Balkans
     blurb: >-
-      The states between the Danube and the Aegean that Constantinople converted
-      and then had to live beside: powers in their own right for stretches of
-      two or three generations, and the ground every empire on either side
-      needed to hold and could not.
+      Orthodox states that Constantinople converted and then had to live
+      beside, from the peninsula between the Danube and the Aegean to the two
+      tributary principalities just north of the river itself: powers in
+      their own right for stretches of two or three generations, and the
+      ground every empire on every side needed to hold and could not.
     group: northern-and-eastern-europe
     thread: false
 

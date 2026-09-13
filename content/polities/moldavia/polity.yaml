@@ -1,0 +1,138 @@
+id: moldavia
+region: the-balkans
+
+name:
+  latin: Moldavia
+  script: null
+  script_lang: null
+
+span:
+  # Dragoș's own frontier march, established under Hungarian authority to
+  # hold the eastern approach to the Carpathians against a weakening
+  # Mongol threat, has no source-given founding year of its own; what is
+  # dated is the break from Hungarian control that followed it.
+  start: { min: 1359, max: 1359, source: dorin-matei-2018 }
+  end: { min: 1859, max: 1859, source: cliveti-2022 }
+
+identity: >-
+  The sister principality east of the Carpathians, named - by its own
+  founding legend - for a drowned hunting dog, and defended for nearly
+  half a century by a ruler so consistently victorious that even the
+  Ottoman court he eventually had to pay tribute to never quite finished
+  the job of conquering him.
+
+capitals:
+  - { name: Suceava, source: dorin-matei-2018 }
+
+core_region: The land between the eastern Carpathians and the Dniester, in what is now northeastern Romania and the Republic of Moldova
+
+rulers:
+  # Dragoș founded the Hungarian-sponsored frontier march the later
+  # independent principality grew out of; the rival who actually broke it
+  # from Hungarian control in 1359, after banishing Dragoș's own
+  # successor, is not named in the sources consulted here. Historical
+  # tradition identifies him as Bogdan I, but that name is not asserted on
+  # this record's own sourcing.
+  founder: { name: "Dragoș", source: dorin-matei-2018 }
+  peak: { name: "Stephen the Great", reign: [1457, 1504], source: dorin-matei-2018 }
+  last: null
+
+scripts_and_languages:
+  administration: [Romanian, Church Slavonic]
+  writing_system: Cyrillic
+
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  # Dragoș's own march was a Hungarian appointment; the break to
+  # independence in 1359 was accomplished by force rather than granted by
+  # any outside sovereign.
+  legitimation: { values: [investiture, conquest], source: dorin-matei-2018 }
+
+preceded_by_external: []
+
+succeeded_by_external:
+  - name: Romania
+    type: absorbed remnants of
+    year: 1859
+    note: >-
+      Alexandru Ioan Cuza's election as prince of Moldavia in January 1859,
+      followed weeks later by his separate election as prince of Wallachia,
+      joined the two principalities' thrones under one ruler; full
+      administrative union followed in 1862.
+    source: cliveti-2022
+    contested: false
+
+ended:
+  type: dynastic replacement
+  by: []
+  year: 1859
+  source: cliveti-2022
+
+turning_points:
+  - year: 1359
+    type: revolt
+    name: "A banished rival takes the scepter"
+    changed: >-
+      A rival with his own grievance against the Hungarian crown displaced
+      Dragoș's own successor as ruler of the frontier march and severed it
+      from royal oversight for good - the point at which a Hungarian-
+      sponsored outpost became an independent principality in its own
+      right.
+    source: dorin-matei-2018
+    contested: false
+  - year: 1457
+    type: succession-crisis
+    name: "Stephen takes the throne"
+    changed: >-
+      A young claimant took power with backing from Wallachia's own
+      Vlad III, beginning a reign that would run for nearly half a century
+      and give Moldavia its longest and most consequential rule of the
+      whole medieval period.
+    source: miller-1896
+    contested: false
+  - year: 1475
+    type: battle
+    name: "Victory at Podul Înalt"
+    changed: >-
+      An Ottoman army sent to punish Moldavia for interfering in
+      Wallachia's own succession was lured into a narrow, marshy approach
+      to Vaslui and crushed there - a defeat, in the words of the sultan's
+      own widow, unlike any an Ottoman army had suffered before, and one
+      that made Moldavia's own ruler, for a moment, the European coalition
+      against the Turks that never quite otherwise formed.
+    source: dorin-matei-2018
+    contested: false
+  - year: 1504
+    type: succession-crisis
+    name: "A dying king orders submission"
+    changed: >-
+      On his deathbed, the ruler who had resisted Ottoman, Polish and
+      Hungarian pressure in turn for nearly fifty years advised his own son
+      to make peace with the Porte rather than continue the fight - and,
+      in the same act, had several nobles he distrusted put to death to
+      clear the path for the succession he had just arranged, securing his
+      chosen heir's throne by the same ruthlessness that had once secured
+      his own.
+    source: miller-1896
+    contested: false
+  - year: 1859
+    type: reform
+    name: "Cuza's double election"
+    changed: >-
+      Weeks after Wallachia's own assembly did the same, Moldavia's
+      assembly elected Alexandru Ioan Cuza as its own prince - joining two
+      separately elected thrones under a single ruler through a legal
+      technicality neither the Paris Convention nor the Ottoman Porte had
+      actually intended to permit.
+    source: cliveti-2022
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
