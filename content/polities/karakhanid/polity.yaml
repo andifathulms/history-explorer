@@ -80,6 +80,21 @@ turning_points:
       its subjects believed.
     source: ei2-karakhanids
     contested: false
+  - year: 1209
+    type: catastrophe
+    name: "A refused marriage sets the collapse moving"
+    changed: >-
+      Uthman of Samarkand, the last western khan, was refused the Gur
+      Khan's daughter and turned secretly to the Khwarazmshah instead - the
+      personal grievance that opened a three-way scramble for Qara Khitai
+      territory between a Turkish sultan, a Naiman refugee sheltering at
+      the Gur Khan's own court, and the Buddhist protector both of them
+      were living off. The eastern Karakhanid line went down in 1211 and
+      the western one in 1212, ended not by one battle but by a
+      transaction two outsiders had agreed to in advance over land neither
+      of them was from.
+    source: juzjani-raverty
+    contested: false
 
 measures:
   reach_km2: null
