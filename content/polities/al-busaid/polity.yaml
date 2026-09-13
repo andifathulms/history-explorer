@@ -137,6 +137,19 @@ turning_points:
       the two facts were understood in Zanzibar to be the same fact.
     source: sheriff-1987
     contested: false
+  - year: 1861
+    type: treaty
+    name: "The Canning Award divides the empire"
+    changed: >-
+      Sa'id bin Sultan's sons disputed his inheritance and referred it to
+      the Governor-General of India; Lord Canning's award gave Zanzibar
+      and the African coast to Majid and Muscat and Oman to Thuwaini,
+      with an annual subsidy from the richer half to the poorer to offset
+      the inequality. The empire was not conquered, did not collapse and
+      was not overthrown - it was divided by an arbitration both brothers
+      had asked for, and both accepted the result.
+    source: sheriff-1987
+    contested: false
 
 measures:
   reach_km2: null

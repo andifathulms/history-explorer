@@ -113,6 +113,20 @@ turning_points:
       an Abbasid army in.
     source: wilkinson-1987
     contested: false
+  - year: 893
+    type: catastrophe
+    name: "Nizwa falls to Muhammad ibn Nur"
+    changed: >-
+      The Rustaq party, the losing side in the deposition dispute, invited
+      in Muhammad ibn Nur, the Abbasid governor of Bahrayn, who took Tu'am,
+      then al-Sirr, then Nizwa, killed the imam Azzan ibn Tamim and sent
+      heads to Baghdad. The first Omani imamate ended in a foreign
+      occupation one of its own factions had arranged - not the state's
+      last word, since the office would be reconstituted in the same
+      mountains for another millennium, but the end of this particular
+      constitution of it.
+    source: wilkinson-1987
+    contested: false
 
 measures:
   reach_km2: null
