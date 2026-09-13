@@ -15,11 +15,10 @@ span:
   end: { min: 1533, max: 1533, source: taagepera-1997 }
 
 identity: >-
-  A highland lordship that grew, within a single century, into the
-  largest state the Americas had ever seen - built on a road network
-  thousands of miles long, a labour-tax system that moved whole
-  populations, and an administration that kept the accounts of an empire
-  without writing, on knotted cords read by trained specialists.
+  A highland lordship that grew, within a single century, into the largest
+  state the Americas had ever seen - built on a road network thousands of
+  miles long, a labour-tax system that moved whole populations, and an
+  administration that kept its accounts on knotted cords without writing.
 
 capitals:
   - { name: Cuzco, source: cieza-1883 }

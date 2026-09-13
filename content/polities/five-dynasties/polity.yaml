@@ -11,13 +11,10 @@ span:
   end: { min: 960, max: 960, source: boulger-1898 }
 
 identity: >-
-  Five military regimes in fifty-three years, each one founded by a general
-  deposing or destroying the last, occupying the old Tang capitals of
-  Kaifeng and Luoyang in succession while ten separate kingdoms ran their
-  own courts in the south - the interregnum between two of the most durable
-  dynasties China ever had, remembered less for anything any one of the
-  five accomplished than for how little time each of them was given to
-  accomplish it.
+  Five military regimes in fifty-three years, each founded by a general
+  deposing or destroying the last, occupying the old Tang capitals while ten
+  separate kingdoms ran their own courts in the south - the interregnum
+  between two of the most durable dynasties China ever had.
 
 capitals:
   - { name: Kaifeng (Bianliang), script: 開封, source: boulger-1898 }

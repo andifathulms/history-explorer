@@ -16,12 +16,10 @@ span:
   end: { min: 1462, max: 1470, source: rowe-1948 }
 
 identity: >-
-  A north-coast Peruvian kingdom ruled by one family for over a century,
-  built from a river valley lordship into a state whose plunder, when an
-  Inca army finally took it, was the richest ever carried back to Cuzco -
-  and whose own royal line survived its kingdom's fall by generations,
-  quietly reburying its exiled kings by the old rites long after Spanish
-  priests had already said the Christian ones over them.
+  A north-coast Peruvian kingdom ruled by one family for generations, built
+  into a state whose plunder, when an Inca army took it, was the richest ever
+  carried back to Cuzco - its royal line surviving the fall by generations,
+  quietly reburying its exiled kings by the old rites.
 
 capitals:
   - { name: Chan Chan, source: rowe-1948 }

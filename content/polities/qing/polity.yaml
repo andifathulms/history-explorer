@@ -12,11 +12,9 @@ span:
 
 identity: >-
   A Jurchen clan's confederacy from beyond the Great Wall that a Ming
-  general's own invitation let into Beijing, that went on to rule more
-  territory and more people than any Chinese dynasty before it, and that
-  closed itself out in the same city with an edict its own last regent
-  countersigned, vesting sovereignty in the people it had spent two hundred
-  and seventy-six years ruling as subjects.
+  general's own invitation let into Beijing, going on to rule more territory
+  and people than any Chinese dynasty before it, and closing itself out with
+  an edict vesting sovereignty in the people it had ruled as subjects.
 
 capitals:
   - { name: Mukden (Shenyang), script: 盛京, source: boulger-1898 }

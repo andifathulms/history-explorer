@@ -13,9 +13,8 @@ span:
 identity: >-
   The dynasty that reunified China after the Five Dynasties, ruled a state
   that paid other powers to leave it alone rather than fight them, lost its
-  own capital and the whole of the north to a border war fifty years old, and
-  spent its last century and a half as a wealthy, urbanised remnant south of
-  the Yangtze before a Mongol fleet drowned its last emperor at sea.
+  capital and the whole north to a border war, and spent its last century as a
+  wealthy remnant south of the Yangtze.
 
 capitals:
   - { name: Bianjing (Kaifeng), script: 汴京, from: 960, source: boulger-1898 }

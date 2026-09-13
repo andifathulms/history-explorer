@@ -12,7 +12,8 @@ span:
 
 identity: >-
   The empire that made the Chinese imperial system durable, and the western
-  end of whose trade routes reached Parthia.
+  end of whose trade routes reached Parthia, reaching its greatest extent
+  under Emperor Wu before fragmenting into the Three Kingdoms in 220.
 
 capitals:
   - { name: Chang'an, script: 長安, from: -202, source: loewe-twitchett-1986 }

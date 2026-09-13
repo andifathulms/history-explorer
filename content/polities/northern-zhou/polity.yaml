@@ -11,13 +11,10 @@ span:
   end: { min: 581, max: 581, source: parker-1895 }
 
 identity: >-
-  The western half of a Wei dynasty split by its own generals' rivalry, run
-  for a generation by the Yuwen family as regents for a puppet Wei prince
-  before one of them finally took the title outright - a state that spent
-  twenty-four years destroying the eastern half of the same broken empire,
-  reunited the whole of northern China under one throne for the first time
-  since the split, and was taken over in turn by its own regent within four
-  years of finishing the job.
+  The western half of a Wei dynasty split by its own generals' rivalry, run by
+  the Yuwen family as regents before one of them took the title outright - a
+  state that reunited northern China under one throne before its own regent
+  took it over in turn.
 
 capitals:
   - { name: Chang'an, script: 長安, source: parker-1895 }

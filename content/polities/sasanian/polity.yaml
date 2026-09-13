@@ -11,8 +11,9 @@ span:
   end: { min: 651, max: 651, source: daryaee-2009 }
 
 identity: >-
-  The last pre-Islamic Iranian empire: Zoroastrian, centrally administered from
-  Ctesiphon, and Rome's only peer for four centuries.
+  The last pre-Islamic Iranian empire: Zoroastrian, centrally administered
+  from Ctesiphon, and Rome's only peer for four centuries, reaching its height
+  under Khusrau I before the Rashidun conquest ended it in 651.
 
 capitals:
   - { name: Ctesiphon, from: 224, to: 637, source: daryaee-2009 }

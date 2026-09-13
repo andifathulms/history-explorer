@@ -11,13 +11,10 @@ span:
   end: { min: 1538, max: 1538, source: haig-1928 }
 
 identity: >-
-  A province too far from Delhi to govern reliably that became its own
-  kingdom by simple distance and bad roads, ruled at different points by a
-  Hindu chieftain who forced his own son's conversion, by three African
-  kings whose combined reigns spanned barely seventeen years of court
-  intrigue, and by the Sayyid line that expelled the Africans and built the
-  kingdom's real golden age before an Afghan adventurer from Bihar took it
-  by siege.
+  A province too far from Delhi to govern reliably that became its own kingdom
+  by distance and bad roads, ruled by a Hindu convert-chieftain, three African
+  kings, and the Sayyid line that built its real golden age before an Afghan
+  adventurer took it by siege.
 
 capitals:
   - { name: Lakhnawati (Gaur), script: لکھنوتی, from: 1338, source: haig-1928 }

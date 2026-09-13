@@ -18,12 +18,11 @@ span:
   end: { min: 1530, max: 1531, source: trollope-1865 }
 
 identity: >-
-  The one Italian city-state every later account of the Renaissance
-  measures itself against - a wool-and-banking republic that expelled its
-  own nobility from government, survived a wool-workers' government for a
-  season, handed real power to one banking family without ever changing
-  its own constitution to say so, and took a decade-long armed siege to
-  finally put down.
+  The one Italian city-state every later account of the Renaissance measures
+  itself against - a wool-and-banking republic that expelled its own nobility
+  from government and handed real power to one banking family without ever
+  changing its own constitution, a rule it took a decade-long siege to finally
+  put down.
 
 capitals:
   - { name: Florence, source: trollope-1865 }

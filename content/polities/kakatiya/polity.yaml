@@ -20,12 +20,10 @@ span:
   end: { min: 1323, max: 1323, source: yazdani-1960 }
 
 identity: >-
-  A Telangana feudatory house that broke from Chalukya overlordship,
-  survived its own founder's death in battle and an heir's captivity at
-  a rival capital to reach, under a woman who ruled using her father's
-  own name and title, one of the most powerful states of the Deccan -
-  before a Delhi Sultanate army took its last king captive and he died,
-  by his own hand or another's, on the banks of the Narmada.
+  A Telangana feudatory house that broke from Chalukya overlordship to reach,
+  under a woman ruling using her father's own name and title, one of the most
+  powerful states of the Deccan - before a Delhi army took its last king, who
+  died on the Narmada.
 
 capitals:
   - { name: "Anumakonda (Hanumakonda)", source: yazdani-1960 }

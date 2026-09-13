@@ -17,13 +17,10 @@ span:
   end: { min: 1870, max: 1870, source: garofalo-2024 }
 
 identity: >-
-  The one government in Latin Christendom whose ruler was never a king's
-  son and never needed to be - a state built twice, once by a Lombard's
-  restitution of a single captured town and once by a Frankish king's
-  grant of an entire former Byzantine province, that went on to crown
-  emperors, depose them, buy a foreign prince a southern Italian throne,
-  and spend seventy years governing from exile before it ever lost an inch
-  of ground by force.
+  The one government in Latin Christendom whose ruler was never a king's son -
+  a state built by a Lombard's restitution of one captured town and a Frankish
+  king's grant of a former Byzantine province, that went on to crown emperors
+  and spend seventy years governing from exile.
 
 capitals:
   - { name: Rome, source: mann-1902 }

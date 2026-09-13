@@ -12,11 +12,9 @@ span:
 
 identity: >-
   The largest and best-placed of the three successor states the Han broke
-  into, holding the recognized capital and most of the old empire's
-  population while its rivals held the court historians' sympathy instead,
-  and the state whose own regent's family took it over from the inside by
-  the same slow accumulation of loyal service that Cao Cao himself had once
-  used against the Han.
+  into, holding the recognized capital and most of its population, and the
+  state its own regent's family took over from inside by the same loyal
+  service Cao Cao had once used against the Han.
 
 capitals:
   - { name: Luoyang, script: 洛陽, source: boulger-1898 }

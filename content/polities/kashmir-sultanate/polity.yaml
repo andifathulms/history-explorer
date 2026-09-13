@@ -11,12 +11,10 @@ span:
   end: { min: 1586, max: 1586, source: haig-1928 }
 
 identity: >-
-  A minister who imprisoned the queen he had just forcibly married and took
-  her throne, and the valley kingdom he founded - ruled at its height by a
-  king remembered as Kashmir's own Akbar for a tolerance genuine enough to
-  recall the exiles his own father had driven out, and lost by its last
-  independent ruler to an annexation treaty the Mughal emperor broke as
-  soon as it was signed.
+  A minister who imprisoned the queen he had forcibly married and took her
+  throne, and the valley kingdom he founded - ruled at its height by a king
+  remembered as Kashmir's own Akbar, and lost to an annexation treaty the
+  Mughal emperor broke as soon as it was signed.
 
 capitals:
   - { name: Srinagar, script: سرینگر, from: 1339, source: haig-1928 }

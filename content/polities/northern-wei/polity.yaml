@@ -11,12 +11,10 @@ span:
   end: { min: 535, max: 535, source: parker-1895 }
 
 identity: >-
-  A Tuoba frontier command that a fading Jin court once patented as Prince
-  of Tai, and that grew across three generations into the strongest of the
-  Sixteen Kingdoms and then the government of the whole of northern China -
-  a state whose own rulers eventually banned their own language, dress and
-  clan names in favour of Chinese ones, and that still split in two rather
-  than survive its own founding family's quarrels intact.
+  A Tuoba frontier command that grew across three generations into the
+  strongest of the Sixteen Kingdoms and then the government of all northern
+  China - a state whose own rulers eventually banned their own language, dress
+  and clan names in favour of Chinese ones.
 
 capitals:
   - { name: Pingcheng (Datong), script: 平城, from: 386, source: parker-1895 }

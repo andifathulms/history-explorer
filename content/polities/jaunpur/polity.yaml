@@ -11,11 +11,11 @@ span:
   end: { min: 1479, max: 1489, source: haig-1928 }
 
 identity: >-
-  A eunuch minister's breakaway province that became, under an adopted
-  dynasty remembered by its own contemporaries as of African descent, the
-  court contemporaries called the Shiraz of India - a title earned by one
-  king's patronage of learning and outlived by three generations of wars
-  its successors could not stop losing.
+  A eunuch minister's breakaway province that became, under an adopted dynasty
+  remembered by its own contemporaries as of African descent, the court
+  contemporaries called the Shiraz of India - a title earned by one king's
+  patronage and outlived by three generations of wars its successors could not
+  stop losing.
 
 capitals:
   - { name: Jaunpur, script: جونپور, from: 1394, source: haig-1928 }

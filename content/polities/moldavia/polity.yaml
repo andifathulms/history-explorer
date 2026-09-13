@@ -15,11 +15,10 @@ span:
   end: { min: 1859, max: 1859, source: cliveti-2022 }
 
 identity: >-
-  The sister principality east of the Carpathians, named - by its own
-  founding legend - for a drowned hunting dog, and defended for nearly
-  half a century by a ruler so consistently victorious that even the
-  Ottoman court he eventually had to pay tribute to never quite finished
-  the job of conquering him.
+  The sister principality east of the Carpathians, named - by its own founding
+  legend - for a drowned hunting dog, and defended for nearly half a century
+  by a ruler so consistently victorious that even the Ottoman court he
+  eventually paid tribute to never quite finished conquering him.
 
 capitals:
   - { name: Suceava, source: dorin-matei-2018 }

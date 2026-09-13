@@ -12,7 +12,9 @@ span:
 
 identity: >-
   The northern Indian empire whose court culture became the classical
-  reference point for Sanskrit literature, art and mathematics.
+  reference point for Sanskrit literature, art and mathematics, reaching its
+  greatest extent under Chandragupta II before fragmenting under pressure from
+  Hun invasions.
 
 capitals:
   - { name: Pataliputra, script: पाटलिपुत्र, from: 320, source: thapar-2002 }

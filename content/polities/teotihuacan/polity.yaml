@@ -16,12 +16,10 @@ span:
   end: { min: 600, max: 700, source: cowgill-1997 }
 
 identity: >-
-  A planned city in the highlands of central Mexico that grew, within
-  two centuries, into the largest urban concentration the Americas had
-  yet seen - built around the largest pyramids Mesoamerica ever raised,
-  ruled at its start by kings powerful enough to need no inscriptions,
-  and destroyed at the end by its own people rather than by any outside
-  conqueror.
+  A planned city in the highlands of central Mexico that grew, within two
+  centuries, into the largest urban concentration the Americas had yet seen -
+  built around the largest pyramids Mesoamerica ever raised, and destroyed at
+  the end by its own people rather than any outside conqueror.
 
 capitals:
   - { name: Teotihuacan, source: cowgill-1997 }

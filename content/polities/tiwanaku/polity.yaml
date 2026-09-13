@@ -15,12 +15,10 @@ span:
   end: { min: 1010, max: 1050, source: marsh-2023 }
 
 identity: >-
-  A city on the southern shore of Lake Titicaca that became, by the
-  seventh century, one of the Andes' first true urban centres and the
-  destination its whole region's own migrants converged on - known now
-  only through its monuments, its raised fields, and a precisely dated
-  collapse that recent research has shown was neither slow nor simply
-  caused by drought.
+  A city on the southern shore of Lake Titicaca that became, by the seventh
+  century, one of the Andes' first true urban centres - known now through its
+  monuments, its raised fields, and a precisely dated collapse recent research
+  has shown was neither slow nor simply caused by drought.
 
 capitals:
   - { name: Tiwanaku, source: marsh-2023 }

@@ -20,11 +20,10 @@ span:
   end: { min: 1342, max: 1342, source: coelho-1950 }
 
 identity: >-
-  A Western Ghats hill chieftaincy that named itself for a legendary
-  tiger kill, grew into a Karnataka empire under a king who changed his
-  own religion the same year he broke the Cholas, and ended when its
-  last king, eighty years old, was captured, killed and flayed outside
-  the fortress he had spent ten months besieging.
+  A Western Ghats hill chieftaincy named for a legendary tiger kill, grown
+  into a Karnataka empire under a king who changed his own religion the year
+  he broke the Cholas, and ended when its last king, eighty years old, was
+  captured and killed outside a besieged fortress.
 
 capitals:
   - { name: Belur, source: coelho-1950 }

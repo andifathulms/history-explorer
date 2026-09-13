@@ -18,11 +18,10 @@ span:
   end: { min: 1328, max: 1328, source: kliuchevsky-1912 }
 
 identity: >-
-  The principality that took the senior title of Rus without ever holding
-  Kiev again - ruled from a town its own founder chose precisely because it
-  had no assembly to answer to, dominant over every neighboring prince for a
-  generation, and eventually handed, title and all, to the one junior
-  branch of its own family cunning enough to buy it.
+  The principality that took the senior title of Rus without ever holding Kiev
+  again - ruled from a town its founder chose for having no assembly to answer
+  to, dominant over every neighboring prince, and eventually handed, title and
+  all, to the junior branch cunning enough to buy it.
 
 capitals:
   - { name: Vladimir, from: 1157, source: kliuchevsky-1912 }

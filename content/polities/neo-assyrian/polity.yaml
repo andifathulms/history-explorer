@@ -12,7 +12,9 @@ span:
 
 identity: >-
   The first empire to govern the whole Near East with a standing army, mass
-  deportation and a provincial system.
+  deportation and a provincial system, reaching its widest extent under
+  Ashurbanipal before a Median and Babylonian coalition destroyed it in 609
+  BCE.
 
 capitals:
   - { name: Nineveh, script: 𒌷𒉌𒉡𒀀, from: -911, source: van-de-mieroop-2015 }

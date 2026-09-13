@@ -11,12 +11,10 @@ span:
   end: { min: 1000, max: 1000, source: tung-2012 }
 
 identity: >-
-  A highland Andean state whose own political history survives nowhere
-  in writing, known only through the ruins of an urban capital, a
-  distinctive walled architecture built to restrict movement within its
-  own compounds, and provincial centers that once linked much of the
-  central Andes together along roads the Inca would later inherit and
-  extend.
+  A highland Andean state whose political history survives nowhere in writing,
+  known only through the ruins of an urban capital, a distinctive walled
+  architecture built to restrict movement, and provincial centers that once
+  linked much of the central Andes along roads the Inca would later inherit.
 
 capitals:
   - { name: Huari, source: tung-2012 }

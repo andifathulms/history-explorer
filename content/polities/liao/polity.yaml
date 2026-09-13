@@ -12,7 +12,8 @@ span:
 
 identity: >-
   The Khitan empire of the northern frontier, which governed steppe and
-  farmland through two separate administrations at once.
+  farmland through two separate administrations at once, reaching its height
+  under Emperor Shengzong before the Jurchen Jin conquered it in 1125.
 
 capitals:
   - { name: Shangjing, script: 上京, from: 916, source: franke-twitchett-1994 }

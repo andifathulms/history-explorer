@@ -11,12 +11,10 @@ span:
   end: { min: 1561, max: 1561, source: haig-1928 }
 
 identity: >-
-  A Delhi-appointed governor's principality that became a kingdom when
-  his own son poisoned him for it, ruled at its widest reach by a usurper
-  of the same throne and, in its last independent generation, by a king
-  remembered less for governing it than for a mistress commemorated in
-  her own pavilion at Mandu - lost first to a rival sultan, then to an
-  emperor, without an independent dynasty surviving either.
+  A Delhi-appointed governor's principality that became a kingdom when his own
+  son poisoned him for it, ruled late by a king remembered less for governing
+  than for a mistress commemorated in her own pavilion at Mandu - lost first
+  to a rival sultan, then to an emperor.
 
 capitals:
   - { name: Dhar, from: 1392, source: haig-1928 }

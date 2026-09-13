@@ -28,12 +28,10 @@ span:
   end: { min: 1330, max: 1330, source: sastri-1929-pandyan }
 
 identity: >-
-  A Tamil kingdom restored from foreign occupation that rose twice,
-  first as one of the three great powers of the ancient Tamil country
-  and later, after two centuries under Chola domination, as the
-  conqueror who broke the Cholas outright - before a Delhi Sultanate
-  invasion and civil war among its own princes cost it Madurai for
-  good.
+  A Tamil kingdom restored from foreign occupation that rose twice, first as
+  one of the three great powers of the ancient Tamil country and later, after
+  Chola domination, as the conqueror who broke the Cholas outright - before
+  civil war and invasion cost it Madurai for good.
 
 capitals:
   - { name: Madurai (Madura), source: sastri-1929-pandyan }

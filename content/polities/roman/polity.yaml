@@ -11,8 +11,10 @@ span:
   end: { min: 395, max: 395, source: woolf-2012 }
 
 identity: >-
-  The Mediterranean empire whose eastern half became Byzantium, and whose
-  name every later western claimant wanted.
+  The Mediterranean empire whose eastern half became Byzantium, and whose name
+  every later western claimant wanted, founded by Augustus and reaching its
+  greatest territorial extent under Trajan before splitting permanently in
+  395.
 
 capitals:
   - { name: Rome, script: Roma, from: -27, source: woolf-2012 }

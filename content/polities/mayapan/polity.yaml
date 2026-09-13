@@ -17,10 +17,9 @@ span:
 
 identity: >-
   A walled city in northern Yucatán where, uniquely among lowland Maya
-  capitals, the ruling lords of the surrounding provinces were required
-  to live rather than merely pay homage from a distance - a joint
-  government dominated in its final century by one family, ended by the
-  other noble houses it had tried to hold hostage to itself.
+  capitals, the ruling lords of the surrounding provinces were required to
+  live - a joint government dominated in its final century by one family,
+  ended by the other noble houses it had tried to hold hostage.
 
 capitals:
   - { name: Mayapan, source: mayapan-1962 }

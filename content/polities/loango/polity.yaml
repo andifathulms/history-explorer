@@ -19,11 +19,10 @@ span:
   end: { min: 1787, max: 1787, source: ogot-1992 }
 
 identity: >-
-  A fire-cult kingship on the Atlantic coast north of the Congo's mouth,
-  whose own Vili traders were running a caravan network to the interior a
-  century before any European ship anchored off its own coast - and whose
-  royal line, weakened first by the wealth its own slave trade generated for
-  everyone except the crown, ran out entirely within the same century.
+  A fire-cult kingship on the Atlantic coast north of the Congo's mouth, whose
+  Vili traders ran a caravan network inland a century before any European ship
+  anchored off its coast - its royal line running out within the century its
+  own slave trade enriched everyone except the crown.
 
 capitals:
   - { name: "Mbanza Loango (Buali)", source: ogot-1992 }

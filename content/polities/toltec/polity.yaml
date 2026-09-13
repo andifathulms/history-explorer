@@ -15,13 +15,10 @@ span:
   end: { min: 1062, max: 1064, source: bancroft-1875 }
 
 identity: >-
-  A Nahua people remembered by every later Mesoamerican civilization,
-  the Aztecs included, as the source of their own arts, their calendar
-  and their claim to legitimate kingship - a reputation built on a
-  monarchy at Tollan that began as an elective theocratic republic,
-  survived a king who renounced his own throne rather than preside over
-  human sacrifice, and ended in a war that scattered its people without
-  destroying them.
+  A Nahua people remembered by every later Mesoamerican civilization, the
+  Aztecs included, as the source of their own arts, calendar and claim to
+  legitimate kingship - a monarchy at Tollan that began as an elective
+  theocratic republic and ended in a war that scattered its people.
 
 capitals:
   - { name: Tollan, from: 710, source: bancroft-1875 }

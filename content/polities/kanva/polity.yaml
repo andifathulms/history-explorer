@@ -11,11 +11,10 @@ span:
   end: { min: -27, max: -27, source: smith-1904 }
 
 identity: >-
-  Forty-five years and four reigns about which almost nothing is known
-  beyond how the dynasty began - a Brahmin minister murdering the king he
-  had already been ruling through - and how it ended, killed by a southern
-  power that has left no monument at Pataliputra to prove it was ever
-  there.
+  Forty-five years and four reigns about which almost nothing is known beyond
+  how the dynasty began - a Brahmin minister murdering the king he had already
+  been ruling through - and how it ended, killed by a southern power that left
+  no monument to prove it.
 
 capitals:
   - { name: Pataliputra, script: पाटलिपुत्र, source: smith-1904 }

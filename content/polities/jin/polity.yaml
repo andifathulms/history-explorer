@@ -11,8 +11,9 @@ span:
   end: { min: 1234, max: 1234, source: franke-twitchett-1994 }
 
 identity: >-
-  The Jurchen empire that destroyed the Liao and took northern China, and
-  was destroyed by the Mongols in turn.
+  The Jurchen empire that destroyed the Liao and took northern China, reaching
+  its height under Emperor Shizong, and was destroyed by the Mongols in turn
+  in 1234.
 
 capitals:
   - { name: Zhongdu, script: 中都, from: 1115, source: franke-twitchett-1994 }

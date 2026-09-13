@@ -11,13 +11,10 @@ span:
   end: { min: 1601, max: 1601, source: haig-1937 }
 
 identity: >-
-  A rebel against the Bahmani dynasty of the Deccan, not against Delhi,
-  who carved out the smallest and most exposed of the post-Timur
-  sultanates and named it for his own family's title - and whose last
-  king's African commander, ordered to hold an unassailable fortress
-  regardless of any order to surrender it, freed nearly fifty imprisoned
-  princes, begged one of them to take the crown and fight, and took
-  poison when none of them would.
+  A rebel against the Bahmani dynasty of the Deccan who carved out the
+  smallest and most exposed of the post-Timur sultanates and named it for his
+  own family's title - whose last king's commander freed nearly fifty
+  imprisoned princes and took poison when none would take the crown.
 
 capitals:
   - { name: Thalner, from: 1382, source: haig-1928 }

@@ -16,10 +16,10 @@ span:
 
 identity: >-
   A confederation of three Nahua cities on Lake Texcoco - Tenochtitlan,
-  Texcoco and Tlacopan - that broke free of their own Tepanec overlord in
-  a single war and, within a century, dominated central Mexico through
-  tribute rather than direct rule, before a Spanish-led coalition of
-  their own tributaries and rivals ended it in another single war.
+  Texcoco and Tlacopan - that broke free of their Tepanec overlord in a single
+  war and, within a century, dominated central Mexico through tribute, before
+  a Spanish-led coalition of their own tributaries ended it in another single
+  war.
 
 capitals:
   - { name: Tenochtitlan, from: 1325, source: clavigero-1787 }

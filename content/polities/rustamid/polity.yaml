@@ -11,8 +11,9 @@ span:
   end: { min: 909, max: 909, source: abun-nasr-1987 }
 
 identity: >-
-  An Ibadi Kharijite imamate in the central Maghreb, elected rather than
-  inherited, and the longest-lived Kharijite state.
+  An Ibadi Kharijite imamate in the central Maghreb, its imams elected rather
+  than inherited, ruling from Tahert under Aflah ibn Abd al-Wahhab at its
+  height until the Fatimids conquered the state in 909.
 
 capitals:
   - { name: Tahert, script: تاهرت, from: 776, source: abun-nasr-1987 }

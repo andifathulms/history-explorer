@@ -15,10 +15,10 @@ span:
   end: { min: 1783, max: 1783, source: di-cosmo-2009 }
 
 identity: >-
-  The longest-lived Chinggisid state anywhere: a Jochid dynasty on a peninsula,
-  under Ottoman protection for three centuries, whose horsemen were the largest
-  single supplier of slaves to the Mediterranean and whose khan was the only
-  ruler in Europe the tsar and the king of Poland both paid not to attack them.
+  The longest-lived Chinggisid state anywhere: a Jochid dynasty on a
+  peninsula, under Ottoman protection for three centuries, whose horsemen were
+  the largest single supplier of slaves to the Mediterranean and whose khan
+  was paid tribute not to attack by both the tsar and the king of Poland.
 
 capitals:
   - { name: Qırq Yer, from: 1441, source: di-cosmo-2009 }

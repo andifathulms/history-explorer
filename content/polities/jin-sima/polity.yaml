@@ -11,13 +11,10 @@ span:
   end: { min: 420, max: 420, source: boulger-1898 }
 
 identity: >-
-  The dynasty a general's grandson built by inheriting the loyal service
-  three generations of his family had rendered to the state they eventually
-  took over, the one house to reunite the whole of the old Han territory
-  between the Three Kingdoms and the Sui - for barely a generation - before
-  its own princes tore the north apart from inside and its court spent the
-  next century ruling a reduced, southern half of what it had briefly held
-  whole.
+  The dynasty a general's grandson built on three generations of loyal service
+  to the state his family eventually took over - the one house to reunite the
+  old Han territory between the Three Kingdoms and the Sui, for barely a
+  generation, before its own princes tore the north apart.
 
 capitals:
   - { name: Luoyang, script: 洛陽, from: 265, source: boulger-1898 }

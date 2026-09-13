@@ -11,11 +11,10 @@ span:
   end: { min: -72, max: -72, source: smith-1904 }
 
 identity: >-
-  The contracted Mauryan rump a general took by killing his own emperor,
-  that fought off a Greek army at the gates of its own capital, revived the
-  old paramount's horse-sacrifice to prove the point, and spent its last
-  decades as short reigns and palace murders before its own chief minister
-  did to it exactly what its founder had done to the Mauryas.
+  The contracted Mauryan rump a general took by killing his own emperor, that
+  fought off a Greek army at the gates of its capital, revived the old
+  paramount's horse-sacrifice to prove the point, and ended when its own chief
+  minister did what its founder had done to the Mauryas.
 
 capitals:
   - { name: Pataliputra, script: पाटलिपुत्र, source: smith-1904 }

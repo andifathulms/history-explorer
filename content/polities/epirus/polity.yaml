@@ -16,12 +16,10 @@ span:
   end: { min: 1479, max: 1479, source: nicol-1984 }
 
 identity: >-
-  The fourth successor state the Fourth Crusade produced, and for six
-  years its most serious one - an Adriatic province a deserting Latin
-  officer built into a rival empire, crowned at Thessalonica by a bishop
-  with no right to crown anyone, before the Bulgarians ended the imperial
-  experiment in a single battle and left two and a half more centuries of
-  a diminished, endlessly contested principality in its place.
+  The fourth successor state the Fourth Crusade produced, and for six years
+  its most serious one - an Adriatic province a deserting Latin officer built
+  into a rival empire, before the Bulgarians ended it in one battle and left
+  two and a half centuries of a diminished principality behind.
 
 capitals:
   - { name: Arta, source: nicol-1984 }

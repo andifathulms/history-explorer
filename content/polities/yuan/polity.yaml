@@ -12,7 +12,8 @@ span:
 
 identity: >-
   Kublai's Chinese dynasty: the first time the whole of China was ruled by a
-  conquest regime from the steppe.
+  conquest regime from the steppe, holding power until the Ming conquered it
+  in 1368 and drove its court back onto the steppe.
 
 capitals:
   - { name: Dadu, script: 大都, from: 1271, source: franke-twitchett-1994 }

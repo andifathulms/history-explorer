@@ -15,11 +15,10 @@ span:
   end: { min: 1428, max: 1428, source: clavigero-1787 }
 
 identity: >-
-  A Chichimec-descended people granted a lakeside capital as one among
-  several vassal lordships, who built the dominant power of the Valley
-  of Mexico under a king who ruled into extreme old age, only to lose
-  everything within a year of his death to the same royal exile his own
-  final nightmares had warned him to kill.
+  A Chichimec-descended people granted a lakeside capital as one among several
+  vassal lordships, who built the dominant power of the Valley of Mexico under
+  a king who ruled into old age, only to lose everything within a year to the
+  exile his final nightmares had warned him to kill.
 
 capitals:
   - { name: Azcapotzalco, source: bancroft-1875 }
