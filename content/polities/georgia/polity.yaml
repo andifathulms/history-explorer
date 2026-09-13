@@ -103,6 +103,33 @@ turning_points:
       at once, and the kingdom spent seventy years in two halves.
     source: suny-1994
     contested: false
+  - year: 1453
+    type: catastrophe
+    name: "Constantinople falls"
+    changed: >-
+      The Ottoman conquest removed the Christian empire Georgia had
+      oriented itself towards for six centuries and left the kingdom
+      surrounded, at the same moment Timurid and Turkmen campaigns had
+      already ruined its countryside and the crown's revenue with it. The
+      event belonged to nobody in the Caucasus, but Georgia's own
+      collapse a generation later cannot be read without it.
+    source: suny-1994
+    contested: false
+  - year: 1490
+    type: catastrophe
+    name: "Three kingdoms"
+    changed: >-
+      A royal council formally acknowledged what had already happened and
+      divided the kingdom among three branches of the Bagrationi - Kartli,
+      Kakheti and Imereti - with several princedoms effectively
+      independent besides. Nobody conquered anything: the crown could no
+      longer pay a standing army, the great noble houses had recovered
+      the autonomy David IV had taken from them, and the country came
+      apart along family lines rather than being taken by an outside
+      power, which is the rare case in this region's history rather than
+      the ordinary one.
+    source: suny-1994
+    contested: false
 
 measures:
   reach_km2: null
