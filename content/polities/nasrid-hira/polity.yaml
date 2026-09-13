@@ -155,6 +155,23 @@ turning_points:
       not settled by the sources.
     source: toral-niehoff-2014
     contested: true
+  - year: 602
+    type: succession-crisis
+    name: "Khusrau II kills al-Nu'man III"
+    changed: >-
+      The last Nasrid king was seized, imprisoned and killed - the
+      accounts differ on execution or plague - and Ctesiphon replaced the
+      client kingship with a Persian governor after three centuries. Two
+      years later an Arab coalition beat a Persian army at Dhu Qar,
+      discovering inside twenty-four months that a governor could not do
+      what the dynasty had done. Rome had dismantled its own Arab client
+      the same way twenty years earlier, in 582: two closed-vocabulary
+      endings that look different on paper - fragmentation there,
+      dynastic replacement here - but are one decision, taken twice by
+      two empires that each concluded the job was no longer worth paying
+      for.
+    source: toral-niehoff-2014
+    contested: false
 
 measures:
   reach_km2: null

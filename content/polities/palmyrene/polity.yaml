@@ -101,6 +101,21 @@ turning_points:
       client that had been useful into a war that had to be won.
     source: smith-2013
     contested: false
+  - year: 273
+    type: catastrophe
+    name: "Aurelian sacks Palmyra a second time"
+    changed: >-
+      The city had already surrendered in 272, after two field defeats
+      and a siege, and Zenobia was caught trying to reach the Euphrates.
+      Aurelian left a garrison and went west; Palmyra rose again, killed
+      it, and he turned back and finished the job in a single season -
+      the walls broken, the population dispersed or killed. Palmyra as a
+      power ended in the second destruction rather than the first
+      surrender. Zenobia herself was displayed in Aurelian's triumph at
+      Rome and then settled in Italy, a considerably better outcome than
+      a defeated sovereign usually got.
+    source: smith-2013
+    contested: false
 
 measures:
   reach_km2: null

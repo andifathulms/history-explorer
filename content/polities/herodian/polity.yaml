@@ -154,6 +154,21 @@ turning_points:
       destroy the thing it had built, from the besiegers' camp.
     source: smallwood-1976
     contested: false
+  - year: 92
+    type: catastrophe
+    name: "Agrippa II dies, the dynasty is wound up"
+    changed: >-
+      The last of the family to hold territory died childless, and Rome
+      took his northern districts the way client dynasties are usually
+      absorbed - a territory at a time, with no campaign fought against
+      it. This is a different ending from 70: the Temple's destruction
+      ended a religion practised in one building, while the dynasty's own
+      end was an administrative formality twenty-two years later. A
+      client kingdom's dissolution and the end of the cult it had been
+      built to make governable happened in the same country within a
+      generation, and only one of them is still consequential.
+    source: smallwood-1976
+    contested: false
 
 measures:
   reach_km2: null

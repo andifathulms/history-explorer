@@ -100,6 +100,21 @@ turning_points:
       years of Jafnid history are about what Rome then did with one.
     source: fisher-2011
     contested: false
+  - year: 582
+    type: catastrophe
+    name: "Rome dismantles its own client"
+    changed: >-
+      Al-Mundhir was received with honour at Constantinople in 580 and
+      arrested and exiled to Sicily two years later; his son was taken
+      shortly afterward, and Maurice divided the following among fifteen
+      chiefs, none of them supreme. This does not fit any of the usual
+      words - not conquest, not collapse, not a successor's usurpation.
+      The instrument built in 529 was taken apart on purpose by the only
+      party with an interest in its continuing, having decided it had
+      become more dangerous than the problem it was built for. Fifty-four
+      years later Rome lost the same country at the Yarmuk.
+    source: fisher-2011
+    contested: false
 
 measures:
   reach_km2: null
