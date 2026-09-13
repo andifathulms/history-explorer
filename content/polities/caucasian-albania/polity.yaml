@@ -113,6 +113,19 @@ turning_points:
       principality and not as a province.
     source: toumanoff-1963
     contested: false
+  - year: 680
+    type: succession-crisis
+    name: "Javanshir assassinated"
+    changed: >-
+      The prince who had spent fifteen years keeping his country intact by
+      being personally useful to three empires in turn - Byzantium, the
+      caliphate and the Khazars - was murdered in his own garden by a man
+      of his own household. There was no arrangement to inherit, because
+      the arrangement had never been an institution: it was one man three
+      empires happened to trust at the same time, and that trust could not
+      be handed to his sons along with the country.
+    source: dasxuranci-bedrosian
+    contested: false
   - year: 705
     type: catastrophe
     name: "The church absorbed"
@@ -124,6 +137,21 @@ turning_points:
       distinguishable — and the manuscripts stopped being copied, which is why
       the language had to be recovered from under other people's writing.
     source: gippert-2008
+    contested: false
+  - year: 822
+    type: succession-crisis
+    name: "The last Mihranid killed"
+    changed: >-
+      Nerseh son of Philippe killed Varaz-Trdat, eighth prince of the
+      Mihranid line since Varaz-Grigor, slaughtered his infant son as
+      well, and took everything he owned - the end of the princely line,
+      recorded by its own history in a single sentence dropped into a
+      year's worth of raids and locusts. It is not the end of the
+      country's own government: within about fifteen years the
+      principality passed to the Eranshahik house, a native family
+      rewarded by the caliph for capturing the rebel Babak, and its own
+      catholicosate went on existing in the mountain district it held.
+    source: dasxuranci-dowsett
     contested: false
 
 measures:
