@@ -4162,3 +4162,16 @@ edges:
            kingdoms lost more of it to Portugal."
     source: ogot-1992
     contested: false
+
+  - from: kongo
+    to: loango
+    type: vassal of
+    year: null
+    note: "Some traditions make Loango a state founded by a relative of
+           Kongo's own first king, and it is possible the two kingdoms kept
+           close, perhaps tributary, relations until the late fifteenth
+           century - but other traditions trace Loango's own founding to
+           processes entirely internal to Vili society, and no source dates
+           whatever relationship existed, or says when it ended."
+    source: ogot-1992
+    contested: true

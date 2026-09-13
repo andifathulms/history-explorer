@@ -1,0 +1,146 @@
+id: loango
+region: central-africa
+
+name:
+  latin: Kingdom of Loango
+  script: null
+  script_lang: null
+
+span:
+  # ogot-1992: "well established by about 1500, since all the voyagers'
+  # accounts of the early sixteenth century refer to the Mani Loango and
+  # Mbanza Loango by name" - the source is explicit that the kingdom's actual
+  # foundation and extent are "difficult to resolve," so 1500 is the earliest
+  # point outside observers confirm it existed, not a claimed founding year.
+  start: { min: 1500, max: 1500, source: ogot-1992 }
+  # The last king the source can date: after his appointment in 1787, "no
+  # more kings were appointed for almost two centuries." See `ended` and the
+  # closing chapter.
+  end: { min: 1787, max: 1787, source: ogot-1992 }
+
+identity: >-
+  A fire-cult kingship on the Atlantic coast north of the Congo's mouth,
+  whose own Vili traders were running a caravan network to the interior a
+  century before any European ship anchored off its own coast - and whose
+  royal line, weakened first by the wealth its own slave trade generated for
+  everyone except the crown, ran out entirely within the same century.
+
+capitals:
+  - { name: "Mbanza Loango (Buali)", source: ogot-1992 }
+
+core_region: The Atlantic coast north of the Congo river's mouth, around what is now Pointe-Noire, Republic of Congo
+
+rulers:
+  # No source consulted names an individual founder: the earliest accounts
+  # name only the royal title, Mani Loango, and disagree on whether the
+  # kingdom was founded by a relative of Kongo's own first king or arose
+  # from processes internal to Vili society. See the formation chapter.
+  founder: null
+  # No single reign is credited with the kingdom's height in the sources
+  # consulted - its regional influence, its trade network and its slave-trade
+  # revenues are each described institutionally rather than attributed to a
+  # named king.
+  peak: null
+  # The royal line became extinct by about 1750; the neutral king the royal
+  # kitomi installed afterward, and the schism that later split even that
+  # line, are described by office and event rather than by any name that
+  # survives in the sources consulted.
+  last: null
+
+scripts_and_languages:
+  administration: [Vili]
+  writing_system: "None native; oral throughout the period this record covers"
+
+institutions:
+  military_basis: null
+  # The Vili trading network - palm-cloth, ivory, copper and redwood moving
+  # through royally sanctioned markets - gave way, from the later eighteenth
+  # century, to a system in which the crown itself sold noble titles and
+  # land to newly wealthy traders and caravan leaders.
+  revenue_basis: { values: [monopoly, trade-toll], source: ogot-1992 }
+  # Coded for the practice attested after the royal line's own extinction
+  # around 1750, when councillors are explicitly recorded electing kings;
+  # no source consulted states what rule, if any, governed succession before
+  # that crisis.
+  succession_rule: { values: [election], source: ogot-1992 }
+  # Kingship was founded by a family of smiths and built around the ntufia,
+  # a sacred fire lit at each coronation and kept burning until the king's
+  # death, and around an annual rainmaking rite in which the king himself
+  # shot an arrow into the sky.
+  legitimation: { values: [divine-sanction], source: ogot-1992 }
+
+preceded_by_external: []
+succeeded_by_external: []
+
+# Not a conquest: the royal line simply ran out, a weakened compromise
+# monarchy followed, and after 1787 no successor was appointed at all for
+# close to two centuries - see the closing chapter.
+ended:
+  type: still contested
+  by: []
+  year: 1787
+  source: ogot-1992
+
+turning_points:
+  - year: 1663
+    type: conversion
+    name: "A king converts alone"
+    changed: >-
+      The kingdom's own king was personally baptized into a foreign faith -
+      and unlike in Kongo to the south, where the same religion had already
+      spread through the urban nobility by this date, it went no further
+      than the man who accepted it.
+    source: ogot-1992
+    contested: false
+  - year: 1701
+    type: succession-crisis
+    name: "A twenty-five-year-old regent"
+    changed: >-
+      The king's own death left no settled successor. A young female
+      relative took power as regent, her own council governing in her name,
+      and it took more than a year before a new king could actually be
+      chosen - an early sign of exactly the succession fragility that would
+      break the royal line entirely within two generations.
+    source: ogot-1992
+    contested: false
+  - year: 1750
+    type: succession-crisis
+    name: "The royal line runs out"
+    changed: >-
+      The king's own bloodline died out entirely, and six rival factions
+      contended for a throne none of them held by clear right - a deadlock
+      the kingdom's own senior religious office finally broke by naming a
+      neutral outsider to it, at the lasting cost of the crown's own former
+      standing.
+    source: ogot-1992
+    contested: false
+  - year: 1750
+    type: revolt
+    name: "Mayumba breaks away"
+    changed: >-
+      A distant province took the same royal crisis that had just produced
+      a powerless compromise king as its own opening to leave the kingdom
+      outright - the first of several provinces that would use the decades
+      following the succession collapse to stop answering to Mbanza Loango
+      at all.
+    source: ogot-1992
+    contested: false
+  - year: 1787
+    type: reform
+    name: "The last king, for almost two centuries"
+    changed: >-
+      A further split ran through the very compromise dynasty the crisis of
+      1750 had produced, and the king appointed that year was the last one
+      the kingdom would see for close to two hundred years - a throne left
+      standing empty rather than abolished, with no conqueror and no single
+      dated collapse to mark its own end.
+    source: ogot-1992
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
