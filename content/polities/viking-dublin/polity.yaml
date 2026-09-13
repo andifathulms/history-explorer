@@ -1,0 +1,133 @@
+id: viking-dublin
+region: the-british-isles
+
+name:
+  latin: Kingdom of Dublin
+  script: null
+  script_lang: null
+
+span:
+  start: { min: 852, max: 852, source: haliday-1881 }
+  # Strongbow's assault took the city in September 1170; King Hasculf's
+  # own attempt to retake it the following year failed and ended
+  # independent Norse kingship there for good.
+  end: { min: 1170, max: 1171, source: haliday-1881 }
+
+identity: >-
+  A Norse settlement on the Liffey that became the chief Scandinavian
+  power in Ireland, allied with Leinster against Brian Boru at Clontarf
+  in 1014, and survived that defeat as a diminished tributary kingdom
+  for another century and a half before Strongbow's English force took
+  the city for good in 1170.
+
+capitals:
+  - { name: Dublin, source: haliday-1881 }
+
+core_region: The Liffey estuary and its immediate hinterland, with intermittent overlordship of the other Norse towns of the Irish coast
+
+rulers:
+  founder: { name: "Olaf the White (Amlaíb Conung)", source: haliday-1881 }
+  # Sitric Silkenbeard ruled Dublin through Clontarf and for over two
+  # decades afterward, presiding over the kingdom's transition into a
+  # major trading town under its own coinage.
+  peak: { name: "Sitric Silkenbeard (Sitric mac Amlaíb)", source: todd-1867 }
+  last: { name: "Hasculf (Ascall mac Ragnaill)", source: haliday-1881 }
+
+scripts_and_languages:
+  administration: []
+  writing_system: null
+
+institutions:
+  military_basis: null
+  revenue_basis: null
+  # Kingship repeatedly passed to whichever member of the ruling dynasty
+  # could hold the town by force or alliance - Dublin was seized,
+  # abandoned and retaken by rival claimants more than once in its own
+  # recorded history.
+  succession_rule: { values: [factional], source: haliday-1881 }
+  legitimation: { values: [descent, conquest], source: haliday-1881 }
+
+preceded_by_external: []
+
+succeeded_by_external:
+  - name: the Lordship of Ireland under Henry II
+    type: conquered by
+    year: 1171
+    note: >-
+      Henry II landed at Waterford in October 1171 and received the
+      submission of the Anglo-Norman adventurers, including Strongbow,
+      who had already taken Dublin the year before; the city and its
+      hinterland were retained directly under the English crown rather
+      than granted out as another Norman lordship.
+    source: haliday-1881
+
+ended:
+  type: conquest
+  by: []
+  year: 1170
+  source: haliday-1881
+
+turning_points:
+  - year: 852
+    type: capital-move
+    name: "Dublin founded"
+    changed: >-
+      Olaf the White founded a stronghold at the Liffey's mouth,
+      giving the Scandinavians in Ireland a capital that would outlast
+      every other Norse settlement on the island and become, for the
+      Norse world at large, a central point between their holdings in
+      Scotland, Man, and northern England.
+    source: haliday-1881
+    contested: false
+  - year: 902
+    type: revolt
+    name: "The Irish expel the Norse from Dublin"
+    changed: >-
+      A coalition of Irish kings overran the town and cast its ruling
+      family out along with their followers, ending Norse control of
+      the Liffey until the next generation.
+    source: todd-1867
+    contested: false
+  - year: 917
+    type: siege
+    name: "Sitric Cáech retakes Dublin"
+    changed: >-
+      Sitric, grandson of Ivar, sailed back and put his own dynasty
+      back in power at Dublin - the same kinsman who would go on to
+      claim the throne of York as well, linking the two settlements'
+      fortunes for a generation afterward.
+    source: todd-1867
+    contested: false
+  - year: 1014
+    type: battle
+    name: "Battle of Clontarf"
+    changed: >-
+      Sitric Silkenbeard's alliance of Leinster and foreign Norse
+      fighters was broken outside the city's own walls by Brian Boru's
+      army, though Brian himself was killed in his tent by the Manx
+      chieftain Brodir during the retreat. Sitric, who had stayed
+      within the fortifications, kept his throne, but Dublin's
+      capacity to dominate the island militarily was broken for good.
+    source: todd-1867
+    contested: false
+  - year: 1170
+    type: siege
+    name: "Strongbow takes Dublin"
+    changed: >-
+      Richard de Clare, called Strongbow, stormed the city while its
+      own leaders were still negotiating terms with the besiegers.
+      King Hasculf fled by ship to the Orkneys; many of the town's
+      Norse inhabitants were driven across the Liffey to a separate
+      quarter, and Hasculf's own attempt to retake the city with a
+      hired Norwegian champion the following year ended in defeat.
+    source: haliday-1881
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
