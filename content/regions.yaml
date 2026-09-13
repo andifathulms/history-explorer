@@ -780,3 +780,14 @@ regions:
       network of thousands of miles and kept its accounts on knotted cord.
     group: the-americas
     thread: false
+
+  - id: the-british-isles
+    name: The British Isles
+    blurb: >-
+      Two islands off the Frankish coast, worked out separately: a
+      Scandinavian settlement carved into the middle of a single Anglo-Saxon
+      kingdom's own rise, a conquest that replaced its ruling class outright,
+      and a northern kingdom that stayed formally independent for eight
+      centuries before a treaty, not a battle, ended it.
+    group: mediterranean
+    thread: false

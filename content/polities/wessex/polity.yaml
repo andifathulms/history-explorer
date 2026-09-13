@@ -1,0 +1,165 @@
+id: wessex
+region: the-british-isles
+
+name:
+  latin: Kingdom of Wessex / England
+  script: null
+  script_lang: null
+
+span:
+  # Beorhtric of Wessex died in 802 and Egbert, whom Offa and Beorhtric had
+  # driven into exile, was immediately recognized as king.
+  start: { min: 802, max: 802, source: stenton-1943 }
+  end: { min: 1066, max: 1066, source: stenton-1943 }
+
+identity: >-
+  The West Saxon kingdom that absorbed Mercia, reconquered the Danelaw and
+  took Northumbria to become, under Æthelstan in 927, the first single
+  crown to rule what the Chronicle already called England - ending when a
+  Norman army broke its last king's army at Hastings in 1066.
+
+capitals:
+  - { name: Winchester, source: stenton-1943 }
+
+core_region: Wessex, extending to cover England south of the Humber and, from 927, Northumbria as well
+
+rulers:
+  founder: { name: Egbert, source: stenton-1943 }
+  # Æthelstan took York in 927 and received the submission of the kings of
+  # Scotland, Strathclyde and Bamburgh at Eamont the same year - the first
+  # West Saxon king to rule the territory later called England as a whole.
+  peak: { name: Æthelstan, reign: [925, 939], source: stenton-1943 }
+  # Harold II, chosen by the king's council on Edward the Confessor's death
+  # in January 1066, was not of the West Saxon royal line by direct descent
+  # from Alfred - a break from the pattern of royal descent this record
+  # otherwise codes below - and reigned only until Hastings that October.
+  last: { name: Harold II Godwinson, reign: [1066, 1066], source: stenton-1943 }
+
+scripts_and_languages:
+  administration: [Old English, Latin]
+  writing_system: Latin alphabet (Old English vernacular alongside Latin)
+
+institutions:
+  # Thegns held land in return for military service (the "land-grant" basis
+  # of the fyrd); Cnut's housecarls, a paid household guard, added a
+  # standing-professional element from 1016 on.
+  military_basis: { values: [land-grant, standing-professional], source: stenton-1943 }
+  # The geld, an assessment on the hide, funded fortress-building under
+  # Alfred and, from Æthelred's reign, the tribute payments known as
+  # Danegeld.
+  revenue_basis: { values: [land-tax], source: stenton-1943 }
+  # Royal blood mattered, but the witan (the king's council) chose among
+  # the available claimants rather than following strict primogeniture -
+  # Harold's own accession in 1066, decided by council vote, is the
+  # clearest recorded case.
+  succession_rule: { values: [election], source: stenton-1943 }
+  legitimation: { values: [descent, divine-sanction], source: stenton-1943 }
+
+preceded_by_external: []
+
+succeeded_by_external:
+  - name: the Kingdom of England under Norman rule
+    type: conquered by
+    year: 1066
+    note: >-
+      William of Normandy's army killed Harold at Hastings on 14 October
+      1066. With no second English army left to field, the surviving
+      nobles who might have resisted chose instead to negotiate, and gave
+      way before William's own coronation that December.
+    source: stenton-1943
+
+ended:
+  type: conquest
+  by: []
+  year: 1066
+  source: stenton-1943
+
+turning_points:
+  - year: 825
+    type: battle
+    name: "Battle of Ellendun"
+    changed: >-
+      Egbert's victory over Beornwulf of Mercia at Ellendun broke a
+      subordination to Mercia that had lasted since his predecessor's
+      marriage to Offa's daughter, and brought Kent, Sussex, Surrey and
+      Essex over to Wessex within the year - the moment Wessex stopped
+      being a Mercian client and became the dominant southern kingdom.
+    source: stenton-1943
+    contested: false
+  - year: 878
+    type: battle
+    name: "Battle of Edington"
+    changed: >-
+      Alfred, who had spent the winter a fugitive in the Somerset marshes,
+      rallied the levies of three shires and broke Guthrum's army at
+      Edington. Guthrum accepted baptism and withdrew from Wessex, and of
+      the several independent English kingdoms still standing a generation
+      before, only this one now remained unconquered.
+    source: stenton-1943
+    contested: false
+  - year: 927
+    type: treaty
+    name: "Submission at Eamont"
+    changed: >-
+      Æthelstan took York after Sihtric's death, and three northern rulers
+      - the Scottish and Strathclyde kings and Bamburgh's own English lord
+      - all swore him allegiance at a single meeting near Penrith. One
+      crown now held the whole territory a contemporary writer had begun
+      calling England.
+    source: stenton-1943
+    contested: false
+  - year: 973
+    type: reform
+    name: "Coronation of Edgar at Bath"
+    changed: >-
+      Edgar's coronation, long deferred and finally held at Bath, followed
+      a rite drafted and redrafted by the archbishop's circle and centred
+      on anointing rather than the crowning itself. It gave the kingdom a
+      fixed ceremony of accession for the first time, one later English
+      coronations still trace their form to.
+    source: stenton-1943
+    contested: false
+  - year: 1002
+    type: catastrophe
+    name: "St Brice's Day massacre"
+    changed: >-
+      Æthelred ordered every Danish man in England killed on 13 November,
+      telling one charter afterward that he had learned of a plot against
+      his own life and crown. Such an order was unenforceable across a
+      Danish-settled York or Lincoln, but a massacre did happen, and it
+      provoked King Swein of Denmark - whose own sister was among the
+      reported dead - into the invasions that ended in conquest.
+    source: stenton-1943
+    contested: false
+  - year: 1016
+    type: treaty
+    name: "Compact at Deerhurst and the death of Edmund Ironside"
+    changed: >-
+      After Cnut's victory at Ashingdon, he and Edmund Ironside met near
+      Deerhurst on the Severn and split the kingdom between them by treaty,
+      Edmund holding the south and Cnut the north. Edmund's sudden death
+      three weeks later, on 30 November, left Cnut ruler of the whole
+      country a battle had failed to decide outright.
+    source: stenton-1943
+    contested: false
+  - year: 1066
+    type: battle
+    name: "Battle of Hastings"
+    changed: >-
+      Harold marched his army the length of England twice within a month,
+      destroying a Norwegian invasion at Stamford Bridge before turning
+      south to face a second invader who had landed unopposed at Pevensey
+      while he was still fighting in the north. His army caught only
+      partly ready, Harold fell on the ridge above the town that took its
+      own name from his defeat there.
+    source: stenton-1943
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
