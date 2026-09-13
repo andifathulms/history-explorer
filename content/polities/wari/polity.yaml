@@ -1,0 +1,123 @@
+id: wari
+region: the-andes
+
+name:
+  latin: Wari
+  script: null
+  script_lang: null
+
+span:
+  start: { min: 600, max: 600, source: tung-2012 }
+  end: { min: 1000, max: 1000, source: tung-2012 }
+
+identity: >-
+  A highland Andean state whose own political history survives nowhere
+  in writing, known only through the ruins of an urban capital, a
+  distinctive walled architecture built to restrict movement within its
+  own compounds, and provincial centers that once linked much of the
+  central Andes together along roads the Inca would later inherit and
+  extend.
+
+capitals:
+  - { name: Huari, source: tung-2012 }
+
+core_region: The Ayacucho basin, in the central Peruvian highlands
+
+rulers:
+  # No inscription, king-list or native chronicle naming a Wari ruler
+  # has survived; everything known of its government comes from
+  # archaeology alone.
+  founder: null
+  peak: null
+  last: null
+
+scripts_and_languages:
+  administration: []
+  writing_system: null
+
+institutions:
+  military_basis: { values: [conscript], source: tung-2012 }
+  revenue_basis: null
+  succession_rule: null
+  legitimation: { values: [divine-sanction], source: tung-2012 }
+
+preceded_by_external: []
+
+succeeded_by_external: []
+
+ended:
+  # Archaeologists have not settled on a single cause or mechanism for
+  # Wari's own collapse the way they have begun to for Tiwanaku's.
+  type: still contested
+  by: []
+  year: 1000
+  source: tung-2012
+
+turning_points:
+  - year: 600
+    type: capital-move
+    name: "Huari emerges as an urban capital"
+    changed: >-
+      A settlement in the Ayacucho basin, heir to the local Huarpa
+      pottery tradition and its own recent contact with cultures further
+      south, grew rapidly into an urban centre paired with a smaller
+      satellite site nearby - the beginning of an expansion of economic
+      and political reach across the central Andes.
+    source: tung-2012
+    contested: false
+  - year: 650
+    type: catastrophe
+    name: "Trophy-head taking marks Wari expansion"
+    changed: >-
+      Wari forces raided neighbouring communities, taking prisoners -
+      men and children only - for sacrifice and transformation into
+      trophy heads pierced at the crown of the skull for upright
+      display, a practice adapted from an older regional custom but
+      given its own unmistakable local form.
+    source: tung-2012
+    contested: true
+  - year: 800
+    type: capital-move
+    name: "Cerro Baúl is built on the Tiwanaku frontier"
+    changed: >-
+      Wari established an administrative and ceremonial centre far to
+      the south, at the one place its own territory is known to have
+      directly bordered the contemporary state of Tiwanaku - a shared
+      frontier that, on all the evidence excavation has produced, never
+      once broke into open conflict between the two powers.
+    source: williams-2001
+    contested: false
+  - year: 850
+    type: reform
+    name: "Provincial centers extend from Cajamarca to Cuzco"
+    changed: >-
+      Walled administrative centers built to Wari's own rigid
+      rectangular plan appeared as far north as Cajamarca and as far
+      south as the Cuzco region, linked by roads later incorporated into
+      the Inca highway system - though at Viracochapampa in the north
+      construction began and was never finished, leaving open whether
+      the surrounding region was ever actually brought under Wari
+      control.
+    source: tung-2012
+    contested: true
+  - year: 1000
+    type: catastrophe
+    name: "Huari and its provincial centers are abandoned"
+    changed: >-
+      The capital and most of its network of provincial centers were
+      abandoned around this time, Pikillaqta among them still under
+      construction when work stopped - the end of a state whose own
+      collapse, unlike the closely studied end of neighbouring Tiwanaku,
+      has not been dated or explained with anything like the same
+      precision.
+    source: tung-2012
+    contested: true
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
