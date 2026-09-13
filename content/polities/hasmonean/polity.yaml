@@ -137,6 +137,22 @@ turning_points:
       was a client arrangement.
     source: smallwood-1976
     contested: false
+  - year: -37
+    type: siege
+    name: "Herod takes Jerusalem"
+    changed: >-
+      Herod took the city after a five-month siege with a Roman army
+      under Sosius, and Antony had the last Hasmonean, Antigonus II
+      Mattathias, scourged and beheaded - the first time Rome had
+      executed a foreign king, done because as long as Antigonus lived
+      the Hasmonean would be the king and Herod would not. It is a real
+      succession between two local powers rather than an outside empire
+      absorbing either, nearly the only one this stretch of the Levant's
+      history offers: Herod married into the Hasmonean line and then
+      destroyed it, a use of the connection rather than a public claim to
+      its legitimacy.
+    source: smallwood-1976
+    contested: false
 
 measures:
   reach_km2: null
