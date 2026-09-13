@@ -1,0 +1,202 @@
+id: burgundian
+region: frankish-world
+
+name:
+  latin: Regnum Burgundionum
+  script: null
+  script_lang: null
+
+span:
+  # Guntiarius, the first Burgundian king Roman sources name, appears in
+  # 412 helping install the usurper emperor Jovinus - the earliest
+  # attested political action of an independent Burgundian kingdom on
+  # the Rhine.
+  start: { min: 412, max: 412, source: wood-1994 }
+  # Godomar, the last king, was overthrown by his own Frankish neighbours
+  # in 534, completing a conquest whose outcome had been effectively
+  # settled since the 524 Battle of Vézeronce.
+  end: { min: 534, max: 534, source: wood-1994 }
+
+identity: >-
+  A Rhineland people whose first kingdom was annihilated by Hunnic forces
+  within a generation of its founding - the historical kernel later German
+  legend would turn into the fall of the Nibelungs - and who built a
+  second kingdom from the survivors, one whose kings served as Roman
+  generals and kingmakers in Italy before ruling a stretch of the Rhône
+  valley that outlasted their own first catastrophe by nearly a century.
+
+capitals:
+  - { name: Geneva, from: 443, source: wood-1994 }
+  - { name: Lyon, source: wood-1994 }
+
+core_region: The Rhône valley and the Alpine approaches around Lake Geneva
+
+rulers:
+  # Guntiarius founded the first, short-lived Rhineland kingdom destroyed
+  # in 436; no source used here states that Gundioc, the first king
+  # clearly attested after the Sapaudia resettlement, was his direct
+  # descendant, so no single founder is named for the kingdom that
+  # actually held the Rhône valley for the following century.
+  founder: null
+  peak: { name: Gundobad, reign: [473, 516], source: wood-1994 }
+  last: { name: Godomar, reign: [524, 534], source: wood-1994 }
+
+scripts_and_languages:
+  administration: [Latin]
+  writing_system: Latin
+
+institutions:
+  military_basis: { values: [client-levy, tribal-levy], source: wood-1994 }
+  revenue_basis: null
+  # Gundioc's own sons - Chilperic I, Gundobad, Godegisel and a second
+  # Chilperic - ruled jointly and then divided the kingdom among
+  # themselves, the same pattern of partible succession found across the
+  # Rhine among the Franks.
+  succession_rule: { values: [appanage], source: wood-1994 }
+  # Roman military titles mattered as much as blood to the Burgundian
+  # kings: Gundobad and Sigismund each sought the rank of magister
+  # militum from Constantinople even while ruling in their own right.
+  legitimation: { values: [descent, investiture], source: wood-1994 }
+
+preceded_by_external: []
+
+succeeded_by_external: []
+
+ended:
+  type: conquest
+  by: [merovingian]
+  year: 534
+  source: wood-1994
+
+turning_points:
+  - year: 412
+    type: revolt
+    name: "Guntiarius helps install the usurper Jovinus"
+    changed: >-
+      A Burgundian king joined the Alan leader Goar in raising a
+      Roman aristocrat, Jovinus, to a rival emperorship - the first
+      recorded act of an independent Burgundian kingdom in Gaul, and one
+      that put the Burgundians on the losing side of an imperial civil
+      war within their own kingdom's opening years.
+    source: wood-1994
+    contested: false
+  - year: 436
+    type: catastrophe
+    name: "The Rhineland kingdom is destroyed"
+    changed: >-
+      A Roman-sponsored assault wiped out Guntiarius's kingdom at Worms
+      so thoroughly that a contemporary chronicler could describe the
+      Burgundian people as destroyed along with their own king in a
+      single entry - the seed a much later German epic would grow into
+      a story of doomed treasure-holders and betrayed kinship.
+    source: gallic-chronicle-452
+    contested: false
+  - year: 443
+    type: treaty
+    name: "Sapaudia is granted to the survivors"
+    changed: >-
+      Rome settled what remained of the Burgundian people in Sapaudia,
+      the Alpine country north of Geneva, to be divided with the region's
+      existing inhabitants - the resettlement that gave the Burgundians a
+      second kingdom and the territorial base from which they expanded
+      down the Rhône for the following century.
+    source: gallic-chronicle-452
+    contested: false
+  - year: 472
+    type: catastrophe
+    name: "Gundobad kills the emperor Anthemius"
+    changed: >-
+      Decades before he became Burgundian king, Gundobad, acting as the
+      Roman kingmaker Ricimer's own right-hand man in Italy, killed the
+      western emperor Anthemius outright - a demonstration of how deep
+      into Roman imperial politics a Burgundian prince's own ambitions
+      already reached.
+    source: wood-1994
+    contested: false
+  - year: 500
+    type: battle
+    name: "Clovis and Godegisel invade Burgundy"
+    changed: >-
+      King Gundobad's own brother Godegisel allied secretly with the
+      Frankish king Clovis against him; defeated and besieged at Avignon,
+      Gundobad survived through his minister's cunning and bought peace
+      as Clovis's tributary, then turned on Godegisel and killed him at
+      Vienne once the Franks had gone home.
+    source: wood-1994
+    contested: false
+  - year: 516
+    type: conversion
+    name: "Sigismund becomes king as a Catholic"
+    changed: >-
+      Gundobad's son succeeded him already converted from the Arian
+      Christianity of his father's court to the Catholic faith of most of
+      his own Gallo-Roman subjects - aligning the Burgundian crown with
+      the same church the neighbouring Franks had claimed for themselves
+      a generation before.
+    source: wood-1994
+    contested: false
+  - year: 517
+    type: reform
+    name: "The Liber Constitutionum is promulgated"
+    changed: >-
+      A synod of the kingdom's own bishops, meeting at Epaon, settled
+      questions of church discipline and put the last of Gundobad's own
+      Arian clergy on notice, in the same year Sigismund issued the
+      law code - built in large part on his father's own work - that
+      would govern Burgundian subjects long after the kingdom that
+      wrote it had fallen.
+    source: wood-1994
+    contested: false
+  - year: 522
+    type: catastrophe
+    name: "Sigismund strangles his own son"
+    changed: >-
+      Urged on, Gregory of Tours says, by a second wife, Sigismund had
+      Sigistrix, his son by an earlier marriage, strangled - a killing he
+      almost immediately treated as a sin requiring penance, setting off
+      for his own monastic foundation to atone for it.
+    source: wood-1994
+    contested: false
+  - year: 523
+    type: battle
+    name: "Chlodomer captures and kills Sigismund"
+    changed: >-
+      The Frankish king Chlodomer struck at once while the kingdom was
+      still reeling from Sigistrix's killing, overran Burgundy in a swift
+      campaign, and had Sigismund, his wife and his children thrown down
+      a well after their capture - a death later tradition would treat as
+      martyrdom once his remains were enshrined at his own foundation of
+      Agaune.
+    source: wood-1994
+    contested: false
+  - year: 524
+    type: battle
+    name: "The Battle of Vézeronce"
+    changed: >-
+      Sigismund's brother Godomar met Chlodomer's renewed invasion in the
+      field and killed him, breaking the Frankish attack for a decade and
+      keeping an independent Burgundian kingdom alive under his own rule
+      even as the victory left Chlodomer's own Frankish throne to be
+      split up among the brothers he left behind.
+    source: wood-1994
+    contested: false
+  - year: 534
+    type: battle
+    name: "Godomar is overthrown"
+    changed: >-
+      Chlodomer's own brothers, Childebert and Chlothar, picked up a
+      conquest their brother had not lived to finish: they overran
+      Burgundy, deposed Godomar, and absorbed his kingdom into Frankish
+      territory, rounding out the borders the Merovingian realm would
+      hold for the rest of the century.
+    source: wood-1994
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

@@ -7038,3 +7038,32 @@ sources:
       modern academic monograph, used only where it draws directly and
       traceably on a named primary source. Public domain, open access via
       archive.org.
+
+  - id: wood-1994
+    kind: book
+    author: Ian Wood
+    title: "The Merovingian Kingdoms, 450-751"
+    publisher: Longman
+    year: 1994
+    note: >-
+      A scholarly history of Merovingian Gaul that also covers the
+      Burgundian kingdom in detail: Gundobad's career in Roman Italy
+      including his killing of the emperor Anthemius in 472, his war
+      with Clovis and his brother Godegisel in 500, the Liber
+      Constitutionum and the 517 Council of Epaon, King Sigismund's
+      conversion, his 522 killing of his own son Sigistrix, his capture
+      and death at Chlodomer's hands in 523, the 524 Battle of
+      Vézeronce, and Godomar's own overthrow completing the Frankish
+      conquest of Burgundy in 534. Open access via archive.org.
+
+  - id: gallic-chronicle-452
+    kind: primary
+    author: "Unknown, trans. Aymenn Jawad Al-Tamimi"
+    title: The Gallic Chronicle of 452
+    year: 452
+    note: >-
+      A contemporary annalistic chronicle, our earliest source for the
+      Huns' destruction of Guntiarius's Burgundian kingdom on the Rhine
+      (dated to the chronicle's own thirteenth regnal year of Theodosius
+      II, 436) and the 443 grant of Sapaudia to the Burgundian survivors.
+      Open access at aymennjawad.org.

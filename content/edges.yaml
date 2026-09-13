@@ -2072,6 +2072,19 @@ edges:
     source: einhard-turner
     contested: false
 
+  - from: burgundian
+    to: merovingian
+    type: conquered by
+    year: 534
+    note: >-
+      A decade after Vézeronce had cost the Franks a king, two more of
+      Clovis's own sons returned in force and took the whole kingdom.
+      Its law code, the Liber Constitutionum, still governed the
+      Burgundian population under Frankish rule for generations
+      afterward, even once no Burgundian king remained to enforce it.
+    source: wood-1994
+    contested: false
+
   - from: roman
     to: carolingian
     type: claimed legitimacy of
