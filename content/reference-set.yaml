@@ -68,7 +68,6 @@ polities:
   - { id: aksum, name: Kingdom of Aksum, span: { start: 100, end: 940, source: taagepera-1997 }, reach_km2: null, peak_population: null }
   - { id: srivijaya, name: Srivijaya, span: { start: 671, end: 1275, source: taagepera-1997 }, reach_km2: null, peak_population: null }
   - { id: majapahit, name: Majapahit, span: { start: 1293, end: 1527, source: taagepera-1997 }, reach_km2: null, peak_population: null }
-  - { id: inca, name: Inca Empire, span: { start: 1438, end: 1533, source: taagepera-1997 }, reach_km2: null, peak_population: null }
 
 # Denominators for era-normalised mode. Both series must come from cited
 # sources. Where a denominator is missing for a date, era-normalised mode shows

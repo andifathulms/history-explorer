@@ -1,0 +1,154 @@
+id: inca
+region: the-andes
+
+name:
+  latin: Inca Empire
+  script: null
+  script_lang: null
+
+span:
+  # Cuzco's own founding legend has no fixed year in any source used
+  # here; what can be dated is the crisis that turned a regional lordship
+  # into an expanding empire, conventionally placed at Pachacuti's own
+  # accession.
+  start: { min: 1438, max: 1438, source: taagepera-1997 }
+  end: { min: 1533, max: 1533, source: taagepera-1997 }
+
+identity: >-
+  A highland lordship that grew, within a single century, into the
+  largest state the Americas had ever seen - built on a road network
+  thousands of miles long, a labour-tax system that moved whole
+  populations, and an administration that kept the accounts of an empire
+  without writing, on knotted cords read by trained specialists.
+
+capitals:
+  - { name: Cuzco, source: cieza-1883 }
+
+core_region: The Andean highlands, from the Cuzco valley outward
+
+rulers:
+  # Colonial-era chroniclers disagree sharply even on this figure's own
+  # name and the names of his siblings - Cieza's own Orejones informants
+  # called him Ayar Manco, while other chroniclers give Manco Capac and
+  # varying lists of brothers and sisters. The name used here is the one
+  # most consistently repeated across the variant traditions.
+  founder: { name: "Manco Capac", source: cieza-1883 }
+  # By Huayna Capac's own reign the empire reached its greatest extent,
+  # from the Ancasmayu river to the Maule, more than a thousand leagues.
+  peak: { name: "Huayna Capac", source: cieza-1883 }
+  last: { name: Atahualpa, reign: [1532, 1533], source: prescott-1847 }
+
+scripts_and_languages:
+  administration: [Quechua]
+  writing_system: null
+
+institutions:
+  # Conscripted labour and military service, organized through the same
+  # mit'a system that moved whole populations for public works, ran the
+  # armies as well.
+  military_basis: { values: [conscript], source: markham-1910 }
+  revenue_basis: { values: [tribute], source: markham-1910 }
+  # Succession within the royal line was repeatedly contested rather
+  # than fixed by birth order - Pachacuti himself displaced an elder
+  # brother after the Chanka war, and Huayna Capac's own two sons fought
+  # a civil war over the succession he left unresolved.
+  succession_rule: { values: [factional], source: cieza-1883 }
+  legitimation: { values: [descent, divine-sanction], source: cieza-1883 }
+
+preceded_by_external: []
+
+succeeded_by_external:
+  - name: The Viceroyalty of Peru
+    type: conquered by
+    year: 1533
+    note: >-
+      Francisco Pizarro's forces, having executed Atahualpa, installed a
+      series of puppet Incas before Spanish colonial administration
+      replaced native rule outright; resistance continued for decades
+      from a rump state at Vilcabamba, but the empire that had governed
+      the Andes from Cuzco did not survive Atahualpa's own death.
+    source: prescott-1847
+    contested: false
+
+ended:
+  type: conquest
+  by: []
+  year: 1533
+  source: prescott-1847
+
+turning_points:
+  - year: 1438
+    type: battle
+    name: "The Chanka are defeated at Cuzco"
+    changed: >-
+      With the aged king Viracocha Inca fled from the city and his own
+      heir mocking the danger, a younger son, Inca Yupanqui, rallied the
+      Cuzco nobility, defeated the invading Chanka in battle at the
+      city's own gates, and was raised to the throne in his brother's
+      place under the name that would define the rest of his reign,
+      Pachacutec.
+    source: cieza-1883
+    contested: false
+  - year: 1470
+    type: battle
+    name: "Chimor is conquered"
+    changed: >-
+      A campaign led in the young heir's own name against the walled
+      capital of the north coast ended Andean history's other great
+      state, bringing home the richest haul of plunder any Inca army had
+      yet produced from a kingdom that had once seemed capable of
+      matching Cuzco itself.
+    source: rowe-1948
+    contested: false
+  - year: 1527
+    type: catastrophe
+    name: "Huayna Capac dies of pestilence at Quito"
+    changed: >-
+      A contagious disease sweeping the empire's own provinces killed
+      the reigning Inca along with a great many of his own subjects;
+      chroniclers cannot agree on what he actually decided about his own
+      succession before he died, and that disagreement outlived him as
+      open war between two of his sons.
+    source: cieza-1883
+    contested: true
+  - year: 1532
+    type: battle
+    name: "Atahualpa wins the civil war"
+    changed: >-
+      Atahualpa's own generals broke Huascar's larger army decisively,
+      killing tens of thousands on both sides and leaving Atahualpa the
+      empire's uncontested master just as Spanish forces were landing on
+      the coast he had not yet had time to reach in person.
+    source: cieza-1883
+    contested: false
+  - year: 1532
+    type: siege
+    name: "Atahualpa is seized at Cajamarca"
+    changed: >-
+      Francisco Pizarro's small company ambushed Atahualpa after a
+      friar's Bible was thrown to the ground, seizing the Inca by his
+      own arm in the midst of a slaughter that killed thousands of his
+      unarmed retinue without a single Spaniard falling in return.
+    source: xerez-1872
+    contested: false
+  - year: 1533
+    type: catastrophe
+    name: "Atahualpa is executed"
+    changed: >-
+      Having paid an enormous ransom in gold and silver for a freedom he
+      was never granted, Atahualpa converted to Christianity in his
+      final hours to have his sentence commuted from burning to
+      strangulation by garrote - dying, in the end, in the same
+      Cajamarca plaza where his own captivity had begun nine months
+      earlier.
+    source: prescott-1847
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

@@ -7171,3 +7171,86 @@ sources:
       its own chronology among competing colonial sources is treated
       here as tradition, not settled fact. Public domain, open access
       via Project Gutenberg.
+
+  - id: cieza-1883
+    kind: primary
+    author: Pedro de Cieza de León, trans. Clements Markham
+    title: "The Second Part of the Chronicle of Peru"
+    container: Works Issued by the Hakluyt Society
+    publisher: Hakluyt Society
+    year: 1883
+    note: >-
+      Cieza's own Señorío de los Incas, compiled in Cuzco around 1550
+      from the testimony of surviving Inca nobles (Orejones) a
+      generation after the conquest - the fullest connected narrative of
+      Inca dynastic history available: the Pacaritambo origin legend in
+      several variant tellings, the Chanka war and Inca Yupanqui's rise
+      as Pachacutec, the death of Huayna Capac and the disputed division
+      of the empire, and the opening battles of the Huascar-Atahualpa
+      civil war, breaking off as news arrives of the Spaniards' own
+      landing. Public domain, open access via archive.org.
+
+  - id: xerez-1872
+    kind: primary
+    author: Francisco de Xerez, trans. Clements Markham
+    title: "Reports on the Discovery of Peru"
+    container: Works Issued by the Hakluyt Society
+    publisher: Hakluyt Society
+    year: 1872
+    note: >-
+      An eyewitness account by Pizarro's own secretary, written within a
+      year or two of the events - the ambush at Cajamarca in November
+      1532, Friar Vicente de Valverde's confrontation with Atahualpa and
+      the seizure of the Inca by Pizarro himself, and the ransom that
+      followed. Ends before Atahualpa's 1533 execution, which Xerez had
+      already left Peru by the time it happened. Public domain, open
+      access via archive.org.
+
+  - id: prescott-1847
+    kind: book
+    author: William H. Prescott
+    title: History of the Conquest of Peru
+    year: 1847
+    note: >-
+      A 19th-century narrative synthesis drawing on the Spanish
+      chronicle tradition, cited here for Atahualpa's execution by
+      garrote on August 29, 1533, after a last-hour conversion to
+      Christianity commuted his sentence from burning - an event outside
+      the span of Xerez's own eyewitness account. An older synthesis
+      rather than a modern academic monograph, used only for narrative
+      it draws traceably from named chronicle sources. Public domain,
+      open access via archive.org.
+
+  - id: rowe-1948
+    kind: article
+    author: John Howland Rowe
+    title: "The Kingdom of Chimor"
+    container: Acta Americana, vol. 6
+    year: 1948
+    note: >-
+      The standard scholarly reconstruction of Chimú political history,
+      built from a careful critical reading of the Anonymous History of
+      Trujillo (1604) and other colonial sources - the Taycanamo
+      founding legend, the real territorial conquests of his grandson
+      Ñancen-pinco dated to around 1370, the reign of the last
+      independent king Minchançaman, the unauthorized 1461-62 raid of
+      the Inca general Capac Yupanqui and his execution for it, the
+      proper Inca conquest of Chimor under Topa Capac and the young heir
+      Topa Inca between 1462 and 1470, and the puppet dynasty and
+      eventual fragmentation of the kingdom under Inca rule. Open
+      access via archive.org.
+
+  - id: markham-1910
+    kind: book
+    author: Clements Markham
+    title: The Incas of Peru
+    publisher: Smith, Elder & Co.
+    year: 1910
+    note: >-
+      A general synthesis of Inca history and institutions by the
+      Hakluyt Society's own principal translator of the Peruvian
+      chronicles; cited here for its account of the quipu, the knotted
+      cords kept by trained officials (quipucamayocs) that Inca
+      administration used for numerical records and, with the aid of
+      specialist interpreters, as reminders for historical and
+      ceremonial knowledge. Open access via archive.org.
