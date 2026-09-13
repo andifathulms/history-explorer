@@ -1,0 +1,175 @@
+id: kongo
+region: central-africa
+
+name:
+  latin: Kingdom of Kongo
+  # No native script: Kikongo was an oral language at court. Portuguese
+  # orthography was adopted for royal correspondence from Afonso I's reign
+  # onward, which is a language fact rather than a script fact.
+  script: null
+  script_lang: null
+
+# Thornton's revised chronology (thornton-2025-origins) dates the kingdom's own
+# genealogical founding to roughly 1350, arrived at step by step through
+# alliances with Mbata and Mpangu before the conquest of the larger parent
+# state, Mpemba. Older scholarship (ogot-1992, following Randles) could only
+# bound the founding to sometime before 1400. Both figures are kept rather
+# than averaged.
+span:
+  start: { min: 1350, max: 1400, source: thornton-2025-origins, max_source: ogot-1992 }
+  # 1709 is the last point this record's sources narrate a named king back at
+  # Mbanza Kongo at all - Pedro IV's incomplete restoration after four decades
+  # without one. It is not a claim that the kingdom, or its titular kingship,
+  # stopped existing in 1709; see `ended` below and the afterlife chapter.
+  end: { min: 1709, max: 1709, source: ogot-1992 }
+
+identity: >-
+  The dominant power of the lower Congo for two centuries - a centralized
+  kingdom of nobles, currency and a sacred kingship that became, after 1506,
+  the first sub-Saharan state to make Christianity its own on its own terms.
+
+capitals:
+  - { name: Mbanza Kongo, from: 1350, source: ogot-1992 }
+
+core_region: The lower Congo River basin, from the Atlantic coast to the Inkisi valley
+
+rulers:
+  # Reconstructed from the earliest recorded oral tradition (Cardoso, 1622);
+  # thornton-2025-origins argues the "founding" was in fact a centuries-long
+  # process of alliance and conquest that this name is shorthand for.
+  founder: { name: "Lukeni lua Nimi", source: thornton-2025-origins }
+  peak: { name: "Afonso I (Nzinga Mbemba)", reign: [1506, 1543], source: ogot-1992 }
+  # The last king to rule a still-unified kingdom from Mbanza Kongo, killed at
+  # Mbwila in 1665 (heywood-2009 and ogot-1992 both give Garcia II's own reign
+  # as ending in 1661; no source in hand gives Antonio I's own accession year,
+  # so only his death is dated here). Pedro IV's 1709 restoration, narrated in
+  # the afterlife chapter, returned a king to the capital but not the
+  # centralized state Antonio I had ruled.
+  last: { name: "Antonio I", source: ogot-1992 }
+
+scripts_and_languages:
+  administration: [Kikongo, Portuguese]
+  writing_system: "None native; Portuguese adopted for royal correspondence from 1506"
+
+institutions:
+  military_basis: { values: [slave-soldier, conscript], source: ogot-1992 }
+  revenue_basis: { values: [monopoly, tribute], source: ogot-1992 }
+  # A royal council of twelve, four of them women representing the clans of
+  # the king's grandparents, formally elected the king from among Afonso I's
+  # descendants once the succession narrowed to his line.
+  succession_rule: { values: [election], source: ogot-1992 }
+  # The king was addressed as Nzambi mpungu and was himself the kingdom's own
+  # nkisi - the sacred force whose blessing guaranteed fertility and rainfall -
+  # and after Afonso I every claimant's case rested on descent from him.
+  legitimation: { values: [divine-sanction, descent], source: ogot-1992 }
+
+# Not an edge: Mpemba has no record of its own here, and what Kongo did to it
+# was absorption into a new state rather than succession between two that
+# continued side by side.
+preceded_by_external:
+  - name: the Kingdom of Mpemba
+    type: absorbed remnants of
+    year: null
+    note: >-
+      Kongo's own founding tradition, once thought to describe a single
+      hero-king's invasion from the north, is now read as a longer process
+      that began in Mpemba Kasi, a small province of the larger Kingdom of
+      Mpemba, and proceeded through alliances with Mbata and Mpangu before
+      Mpemba itself was absorbed. No source dates the conquest itself; the
+      surrounding alliances are reckoned to the mid-fourteenth century.
+    source: thornton-2025-origins
+
+succeeded_by_external: []
+
+turning_points:
+  - year: 1400
+    type: battle
+    name: "The absorption of Mpemba"
+    changed: >-
+      A province of a larger, older kingdom to its north built alliances with
+      its neighbors and then outgrew and absorbed the state it had begun
+      inside, leaving its own name to the country the alliance had built.
+    source: thornton-2025-origins
+    contested: true
+  - year: 1506
+    type: conversion
+    name: "Afonso I takes the throne"
+    changed: >-
+      A war between rival houses put a Christian convert on the throne for a
+      thirty-seven-year reign, the longest in the kingdom's history, and
+      Catholicism became the religion of the court - his own son consecrated a
+      bishop in Rome within a decade of his accession.
+    source: ogot-1992
+    contested: false
+  - year: 1526
+    type: reform
+    name: "Afonso I tries to abolish the slave trade"
+    changed: >-
+      Having spent two decades watching the trade in captives corrode his own
+      officials and deplete his own kingdom, Afonso wrote to Portugal's king
+      asking that it stop outright - and was refused. Kongo's own royal
+      monopoly on the trade survived the attempt; the attempt to end it did
+      not.
+    source: afonso-letter-1526
+    contested: false
+  - year: 1568
+    type: catastrophe
+    name: "The Jaga invasion"
+    changed: >-
+      A sudden military collapse forced the court to flee its own capital
+      entirely, ending in one blow the regional dominance Afonso's line had
+      spent a century building - and the rescue that restored the throne cost
+      Kongo a rival Portuguese colony on its own southern border.
+    source: ogot-1992
+    contested: false
+  - year: 1636
+    type: revolt
+    name: "Soyo secedes"
+    changed: >-
+      The province holding the kingdom's own Atlantic gateway broke away for
+      good after a disputed royal election - its ruler kept a ceremonial vote
+      in choosing future kings but answered to nobody else in running his own
+      territory from then on.
+    source: ogot-1992
+    contested: false
+  - year: 1665
+    type: battle
+    name: "The Battle of Mbwila"
+    changed: >-
+      An Angolan army destroyed the royal army at Mbwila and killed Antonio I
+      on the field - the single costliest defeat any Kongo king suffered, and
+      the one the kingdom's own institutions never recovered from.
+    source: ogot-1992
+    contested: false
+  - year: 1678
+    type: catastrophe
+    name: "Mbanza Kongo abandoned"
+    changed: >-
+      Thirteen years of civil war between rival claimant houses ended in the
+      total abandonment of the capital itself - the seat every one of the
+      kingdom's institutions had been built around, now empty, while the
+      nobility that had once lived there scattered to govern from the
+      provinces instead.
+    source: ogot-1992
+    contested: false
+  - year: 1709
+    type: reform
+    name: "Pedro IV repopulates the capital"
+    changed: >-
+      A king occupied and resettled the old capital after three decades
+      standing empty, but a single reoccupation could not undo four decades of
+      splintering - what returned was a nominal kingship layered over a
+      country still run, in practice, as separate principalities.
+    source: ogot-1992
+    contested: false
+
+measures:
+  # ogot-1992 reports population estimates for the kingdom and its sphere of
+  # influence ranging from under half a million to eight million with no
+  # scholarly consensus - too wide a spread to render as one cited figure.
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

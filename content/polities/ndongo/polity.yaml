@@ -1,0 +1,159 @@
+id: ndongo
+region: central-africa
+
+name:
+  latin: Kingdom of Ndongo
+  # No native script: Kimbundu was an oral language at court, as Kikongo was
+  # at Kongo's.
+  script: null
+  script_lang: null
+
+span:
+  # ogot-1992 dates the kingdom's own emergence only loosely, as "taking shape
+  # about 1500" - a merger of many small chiefdoms rather than the alliance of
+  # large provinces that built Kongo, and consequently a shallower, more
+  # recent state structure.
+  start: { min: 1500, max: 1500, source: ogot-1992 }
+  # "In 1671 the last vestige of Ndongo was conquered" (ogot-1992) - the
+  # Portuguese defeat of whatever rump authority still held the Ngola title
+  # inside Ndongo itself, eight years after Nzinga Mbandi's own death at
+  # Matamba. See `ended` below.
+  end: { min: 1671, max: 1671, source: ogot-1992 }
+
+identity: >-
+  A merger of small chiefdoms south of Kongo, forced within a century of its
+  own founding into a war of conquest against Portugal that outlasted the
+  kingdom itself, and that produced, from its collapse, the sovereign who
+  carried the Ndongo name farther than any of its kings ever had.
+
+capitals:
+  - { name: Kabasa, source: njinga-unesco-2014 }
+
+core_region: The Kwanza River valley, inland from the Angolan coast
+
+rulers:
+  # The earliest king a source names: he received Paulo Dias de Novais at
+  # Kabasa in 1560, reacting coldly to Portugal's overtures. No source
+  # consulted names an actual founder for a kingdom ogot-1992 says was already
+  # "taking shape" two generations earlier.
+  founder: { name: "Ngola Kiluanje kia Ndambi", source: njinga-unesco-2014 }
+  # Not the kingdom's territorial peak - Ndongo was already losing ground to
+  # Portugal throughout her lifetime - but its most consequential ruler by far,
+  # and the one whose own name outlasted the kingdom's.
+  peak: { name: "Nzinga Mbandi", reign: [1624, 1663], source: njinga-unesco-2014 }
+  # No source consulted names whoever held the Portuguese-installed Ngola
+  # title inside Ndongo itself between Nzinga's own 1626-9 expulsion and the
+  # kingdom's final conquest in 1671.
+  last: null
+
+scripts_and_languages:
+  administration: [Kimbundu, Portuguese]
+  writing_system: "None native; Portuguese used in diplomatic correspondence from the 1620s"
+
+institutions:
+  # ogot-1992: Ndongo, unlike Kongo or Loango, "had no territorial structure
+  # above the petty chiefdom level, and the military system was intended to
+  # make good the deficiency" - a standing force built to substitute for the
+  # provincial hierarchy the kingdom never developed.
+  military_basis: { values: [standing-professional, tribal-levy], source: ogot-1992 }
+  revenue_basis: { values: [tribute, plunder], source: njinga-unesco-2014 }
+  succession_rule: null
+  legitimation: { values: [descent], source: njinga-unesco-2014 }
+
+# Not an edge: Portuguese Angola is the colonial administration that absorbed
+# Ndongo's own territory, not a polity with a record of its own here.
+succeeded_by_external:
+  - name: Portuguese Angola
+    type: conquered by
+    year: 1671
+    note: >-
+      The Portuguese conquest that had begun in 1575 finally reached whatever
+      rump of Ndongo's own royal authority still stood in 1671, eight years
+      after Nzinga Mbandi's death - by which point Ndongo's own territory had
+      long since been folded into the colony Paulo Dias de Novais founded in
+      her grandfather's lifetime.
+    source: ogot-1992
+    contested: false
+
+ended:
+  type: conquest
+  by: []
+  year: 1671
+  source: ogot-1992
+
+preceded_by_external: []
+
+turning_points:
+  - year: 1575
+    type: catastrophe
+    name: "Portuguese conquest begins"
+    changed: >-
+      A Portuguese fleet that had first come promising trade returned in
+      force, seized Ndongo's coastal strip outright, and founded a colonial
+      port on it named for Ndongo's own royal title, opening nearly a century
+      of continuous warfare in place of the alliance the kingdom had been
+      promised.
+    source: ogot-1992
+    contested: false
+  - year: 1612
+    type: treaty
+    name: "Portugal allies with the Imbangala"
+    changed: >-
+      Facing a war it could not win alone, Portugal brought in nomadic warrior
+      bands from the interior as allies, and with their help occupied most of
+      Ndongo within a decade, driving its own king into flight and leaving the
+      country ravaged by war and famine alike.
+    source: ogot-1992
+    contested: false
+  - year: 1622
+    type: treaty
+    name: "Nzinga's embassy to Luanda"
+    changed: >-
+      Dispatched to arrange terms on her brother's behalf, the king's own
+      sister secured a truce through sheer force of personality, famously
+      declining to accept a lesser seat than the Portuguese governor's own
+      chair - and came home from what was meant to be a routine diplomatic
+      errand a political figure in her own right.
+    source: njinga-unesco-2014
+    contested: false
+  - year: 1626
+    type: succession-crisis
+    name: "Nzinga loses the throne"
+    changed: >-
+      War resumed against the new queen almost as soon as she took power, and
+      within three years Portugal had installed a rival of its own choosing on
+      the throne at Kabasa, pushing her out of the country her line had
+      governed for generations and into a neighboring territory she would
+      make her new base instead.
+    source: njinga-unesco-2014
+    contested: false
+  - year: 1657
+    type: treaty
+    name: "Portugal renounces its claim"
+    changed: >-
+      Decades of campaigns against a queen by then past seventy years old had
+      failed to capture or subdue her, and the Portuguese Crown formally gave
+      up any right to install its own candidate at Kabasa - conceding nothing
+      it still physically held, but admitting at last that force alone would
+      never settle the question in its favor.
+    source: njinga-unesco-2014
+    contested: false
+  - year: 1671
+    type: catastrophe
+    name: "The last vestige of Ndongo falls"
+    changed: >-
+      Whatever remained of Ndongo's own royal authority, eight years after the
+      queen who had defended its name for four decades was gone, was finally
+      overrun - the war that began with a fleet arriving to trade in 1575
+      ending, ninety-six years later, with nothing left of the kingdom it had
+      first been fought against.
+    source: ogot-1992
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

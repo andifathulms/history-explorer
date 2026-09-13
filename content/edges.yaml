@@ -4150,3 +4150,15 @@ edges:
            lasted."
     source: bell-1924
     contested: false
+
+  - from: kongo
+    to: ndongo
+    type: vassal of
+    year: 1520
+    note: "Ndongo grew out of a merger of small chiefdoms south of Kongo and
+           was, as late as 1520, still partly dependent on its larger
+           neighbor - a subordination it broke within a generation, gaining
+           ground from Kongo's own weakening grip on the region even as both
+           kingdoms lost more of it to Portugal."
+    source: ogot-1992
+    contested: false

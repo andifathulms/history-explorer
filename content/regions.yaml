@@ -525,7 +525,9 @@ regions:
       of people, and almost no written record of their own until outsiders
       arrived with one.
     group: africa-maghreb
-    thread: false
+    # `thread: true` since a real sourced edge - Kongo to Ndongo, "vassal of",
+    # 1520 - now joins the region's first two records.
+    thread: true
 
   # `thread: false` and ordinary. Two records with no edge between them, and
   # there is no edge to draw: Kilwa sold the gold that Great Zimbabwe's plateau
