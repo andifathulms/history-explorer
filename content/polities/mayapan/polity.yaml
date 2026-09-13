@@ -1,0 +1,141 @@
+id: mayapan
+region: mesoamerica
+
+name:
+  latin: Mayapan
+  script: null
+  script_lang: null
+
+span:
+  # Maya katun-count chronology dates the "founding" of Mayapan to Katun
+  # 13 Ahau, conventionally correlated to A.D. 1263-1283.
+  start: { min: 1263, max: 1283, source: mayapan-1962 }
+  # The Cocom government was overthrown in Katun 8 Ahau, conventionally
+  # correlated to A.D. 1441-1461; the city was likely abandoned close to
+  # 1446, within that same range.
+  end: { min: 1441, max: 1461, source: mayapan-1962 }
+
+identity: >-
+  A walled city in northern Yucatán where, uniquely among lowland Maya
+  capitals, the ruling lords of the surrounding provinces were required
+  to live rather than merely pay homage from a distance - a joint
+  government dominated in its final century by one family, ended by the
+  other noble houses it had tried to hold hostage to itself.
+
+capitals:
+  - { name: Mayapan, source: mayapan-1962 }
+
+core_region: Northern Yucatán peninsula
+
+rulers:
+  # The city's own founding is credited by colonial-era Maya chronicles
+  # to a figure called Kukulcan, treated by modern scholarship as
+  # legendary chronology rather than a historical individual with an
+  # attested reign.
+  founder: null
+  peak: null
+  last: null
+
+scripts_and_languages:
+  administration: [Yucatec Maya]
+  writing_system: null
+
+institutions:
+  # The ruling Cocom family is recorded as having brought Mexican
+  # mercenary troops from garrisons the Mexica kept at Tabasco and
+  # Xicalango into the city to secure their own dominance.
+  military_basis: { values: [client-levy], source: mayapan-1962 }
+  # The lords of the province resided in the city and, in the words of
+  # a colonial-era visitor, came there with their tribute, as though it
+  # were a royal court.
+  revenue_basis: { values: [tribute], source: mayapan-1962 }
+  succession_rule: null
+  legitimation: { values: [descent, divine-sanction], source: mayapan-1962 }
+
+preceded_by_external: []
+
+succeeded_by_external:
+  - name: The Cocom state of Sotuta
+    type: seceded from
+    year: 1461
+    note: >-
+      A single Cocom son, away trading in Honduras when the rest of his
+      family was killed, returned to gather enough relatives and
+      followers to found a new and prosperous state at Sotuta - the one
+      part of the Cocom lineage's own power to survive the destruction
+      of the city it had once ruled from.
+    source: mayapan-1962
+    contested: false
+
+ended:
+  type: fragmentation
+  by: []
+  year: 1461
+  source: mayapan-1962
+
+turning_points:
+  - year: 1263
+    type: reform
+    name: "Mayapan is founded"
+    changed: >-
+      Colonial-era Maya chronicles credit the city's founding to a
+      figure called Kukulcan, said to have left Chichen Itza to
+      establish a new capital nearby - the start of a settlement that
+      would, within a couple of centuries, come to eclipse and outlast
+      the older city it grew out of.
+    source: mayapan-1962
+    contested: true
+  - year: 1380
+    type: succession-crisis
+    name: "The Cocom family rises to dominance"
+    changed: >-
+      A poorly documented uprising inside the city itself seems to be
+      the moment when one lineage, the Cocom, took the upper hand over
+      every other noble house sharing Mayapan's own government, a grip
+      on power the family would not relinquish willingly.
+    source: mayapan-1962
+    contested: true
+  - year: 1400
+    type: reform
+    name: "The lords are made to live in the capital"
+    changed: >-
+      Under Cocom leadership, the noble families of Yucatán's own
+      provinces were required to maintain residences inside Mayapan
+      itself and to govern their home territories at a distance through
+      appointed deputies - a system a colonial-era visitor later
+      described as making the city function like a royal court where
+      every lord of the land was required to appear.
+    source: mayapan-1962
+    contested: false
+  - year: 1441
+    type: revolt
+    name: "The Xiu overthrow the Cocom"
+    changed: >-
+      Resentful of a ruler who had brought in foreign mercenaries,
+      enslaved commoners and, by their own account, governed as a
+      tyrant, the Xiu and other noble houses conspired against him;
+      fighting broke out over control of the city's own defensive wall,
+      and by the time it was over almost none of the ruling lineage
+      remained alive, nor did the wall itself.
+    source: mayapan-1962
+    contested: false
+  - year: 1461
+    type: catastrophe
+    name: "Yucatán splits into sixteen states"
+    changed: >-
+      With the joint government destroyed and no single house able to
+      replace it, the northern peninsula broke into roughly sixteen
+      independent and often warring provinces - the political landscape
+      Spanish expeditions would encounter and, over the following
+      century, conquer piecemeal rather than at a single stroke.
+    source: mayapan-1962
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
