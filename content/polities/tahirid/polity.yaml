@@ -93,6 +93,19 @@ turning_points:
       time it worked.
     source: chi-4
     contested: false
+  - year: 873
+    type: siege
+    name: "Ya'qub ibn al-Layth takes Nishapur"
+    changed: >-
+      A warlord out of Sistan who had asked Baghdad for a governorship and
+      been refused took Khurasan by force instead, with no significant
+      battle and no title to show for it. Fifty years of demonstrating
+      that formal subordination could contain real independence ended in
+      a season that showed independence no longer needed the formal part
+      at all - Khurasan passed to whichever power could hold it, a
+      condition that lasted three centuries.
+    source: bosworth-1994
+    contested: false
 
 measures:
   # No consulted dataset gives a Tahirid extent. Taagepera's series does not
