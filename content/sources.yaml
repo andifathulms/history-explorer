@@ -1894,6 +1894,23 @@ sources:
       school copies, and a school copy of a royal letter is a literary object
       before it is a document.
 
+  - id: michalowski-1983
+    kind: article
+    author: Piotr Michalowski
+    title: "History as Charter: Some Observations on the Sumerian King List"
+    container: Journal of the American Oriental Society
+    volume: "103"
+    pages: "237-247"
+    year: 1983
+    note: >-
+      The argument that the Sumerian King List, in the form it survives, is
+      an Isin-court composition: a single line of legitimate kingship handed
+      down from city to city since the beginning of history, compiled at a
+      moment when Isin's own dynasty needed exactly that kind of unbroken
+      chain to stand at the end of. Cited here for that argument specifically,
+      not for the list's contents, which are cited elsewhere from the
+      editions that print the text itself.
+
   - id: roth-1997
     kind: book
     author: Martha T. Roth
