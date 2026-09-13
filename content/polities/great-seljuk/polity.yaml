@@ -111,6 +111,22 @@ turning_points:
       never had a single undisputed ruler again.
     source: bosworth-1968
     contested: false
+  - year: 1194
+    type: battle
+    name: "Tughril III killed by the Khwarazmshah"
+    changed: >-
+      The last Great Seljuk sultan was killed in battle against Ala al-Din
+      Tekish, whose own office of Khwarazmshah had been a Seljuk
+      appointment from beginning to end - a governorship that turned
+      hereditary, grew stronger than the sultans who had created it, and
+      took the sultanate's own titles along with the sultanate. The
+      Ghaznavids had been ended by a vassal house they had not made and
+      the Samanids by a slave-general who went east on his own initiative;
+      the Seljuks were the rare case ended by an instrument of their own
+      making, appointed by them for exactly the purpose it turned against
+      them.
+    source: bosworth-1968
+    contested: false
 
 measures:
   reach_km2: { value: 3900000, at: 1080, source: taagepera-1997 }
