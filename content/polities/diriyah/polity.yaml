@@ -120,6 +120,20 @@ turning_points:
       destroyed the emirate fifteen years later.
     source: al-rasheed-2010
     contested: false
+  - year: 1818
+    type: catastrophe
+    name: "Diriyah pulled down"
+    changed: >-
+      The town was not garrisoned or annexed but systematically
+      demolished - walls, towers, palaces and houses pulled down and the
+      date palms cut - on orders meant to leave the movement no centre to
+      return to. Abdullah ibn Saud was sent to Istanbul and beheaded, and
+      members of the ruling family and the Al al-Shaykh were deported to
+      Egypt. It did not take: six years later a cousin of the executed
+      imam was reconstituting the state at Riyadh, because the doctrine
+      had not been deported along with the families that professed it.
+    source: al-rasheed-2010
+    contested: false
 
 measures:
   reach_km2: null

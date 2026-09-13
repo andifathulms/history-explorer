@@ -71,6 +71,20 @@ turning_points:
       holding the capital.
     source: al-rasheed-2010
     contested: false
+  - year: 1891
+    type: catastrophe
+    name: "Abd al-Rahman flees to Kuwait"
+    changed: >-
+      The last imam of the second state left the Najd after Mulayda and
+      settled in Kuwait as a pensioner of the Al Sabah - conquered by the
+      Rashidis of Ha'il, the family that had begun as the state's own
+      appointed governors. What the two failed Saudi states left behind
+      was not nothing: the 1744 compact survived unrenegotiated, a
+      scholarly class kept teaching through both collapses, and Riyadh
+      remained recoverable in a single night by forty men eleven years
+      later, because everyone still knew what it was.
+    source: al-rasheed-2010
+    contested: false
 
 measures:
   reach_km2: null

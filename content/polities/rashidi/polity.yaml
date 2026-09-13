@@ -101,6 +101,19 @@ turning_points:
       confederation comes apart once its founder is gone.
     source: al-rasheed-1991
     contested: false
+  - year: 1921
+    type: siege
+    name: "Ha'il falls"
+    changed: >-
+      Ibn Saud's forces took Ha'il after a siege, and the surviving
+      Rashidis were taken to Riyadh, treated well and married into the Al
+      Saud - more than the second Saudi state's own imam received from
+      Ibrahim Pasha a century earlier. A failed Saudi assault on the city
+      in 1918 had already committed Ibn Saud to a policy of imperial
+      expansion that led, more directly than anything else he did, to his
+      coronation at Mecca five years later.
+    source: al-rasheed-1991
+    contested: false
 
 measures:
   reach_km2: null
