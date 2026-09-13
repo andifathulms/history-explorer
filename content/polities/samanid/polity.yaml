@@ -100,6 +100,22 @@ turning_points:
     source: chi-4
     contested: true
 
+  - year: 999
+    type: catastrophe
+    name: "Bukhara falls, and a family keeps fighting"
+    changed: >-
+      The Karakhanids took Bukhara with almost no resistance, and Mahmud of
+      Ghazna, governing Khurasan in Samanid name, chose to keep his own
+      province rather than march to save his nominal overlords - the Oxus,
+      an internal river until that point, became the border between two
+      successor states instead. Whether the dynasty's own history ends
+      here or six years later, when Isma'il al-Muntasir was killed after a
+      long attempt to retake what had been lost, depends on whether the
+      state or the family's own claim to it is being dated; both answers
+      are kept.
+    source: iranica-samanids
+    contested: true
+
 measures:
   # Was 2,600,000. The appendix row for 928 reads 2.85.
   reach_km2: { value: 2850000, at: 928, source: taagepera-1997 }
