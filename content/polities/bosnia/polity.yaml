@@ -1,0 +1,138 @@
+id: bosnia
+region: the-balkans
+
+name:
+  latin: Kingdom of Bosnia
+  script: null
+  script_lang: null
+
+span:
+  # fine-1975-bosnian-church's own narrative begins with Ban Kulin, the
+  # earliest ruler of Bosnia the sources allow to be studied in any detail -
+  # he is first attested in a papal letter of 1180. Earlier Byzantine
+  # mentions of a "country of Bosnia" exist but are outside what this
+  # record's source covers.
+  start: { min: 1180, max: 1180, source: fine-1975-bosnian-church }
+  # The kingdom proper fell in 1463 (see `ended`); its breakaway duchy of
+  # Hercegovina held out under its own line until 1481 - see the closing
+  # chapter.
+  end: { min: 1481, max: 1481, source: fine-1975-bosnian-church }
+
+identity: >-
+  A mountain banate turned kingdom, ruled at times by Catholics crowned by
+  Orthodox metropolitans and defended at its end by a church neither Rome
+  nor Constantinople would recognize as fully its own - the third Balkan
+  Slavic kingdom, and the one whose own religious history no two
+  generations of scholars have described the same way twice.
+
+capitals:
+  - { name: Bobovac, source: fine-1975-bosnian-church }
+
+core_region: The Bosna river valley and the mountains between the Drina and the Adriatic hinterland, in what is now Bosnia and Herzegovina
+
+rulers:
+  # The earliest ruler of Bosnia the surviving sources allow to be studied
+  # as an individual: first attested 1180, still Catholic and in good
+  # standing with the papacy as late as 1199, when a political rival's
+  # accusation of heresy set off the controversy this record's own
+  # aside chapter covers.
+  founder: { name: "Ban Kulin", reign: [1180, 1204], source: fine-1975-bosnian-church }
+  peak: { name: "Tvrtko I", reign: [1353, 1391], source: fine-1975-bosnian-church }
+  # Crowned in 1461, executed by the Ottomans in 1463 - the last king of an
+  # independent Bosnia, though Hercegovina's own line survived him by
+  # eighteen years. See the closing chapter.
+  last: { name: "Stefan Tomašević", reign: [1461, 1463], source: fine-1975-bosnian-church }
+
+scripts_and_languages:
+  administration: [Bosnian, Latin]
+  writing_system: Cyrillic
+
+institutions:
+  # Regional magnates - the Hrvatinić and Kosača families chief among them -
+  # commanded their own retainers under royal service rather than the crown
+  # maintaining a standing force of its own; Hrvoje Vukčić Hrvatinić's title
+  # of Great Vojvoda is emblematic of the arrangement.
+  military_basis: { values: [client-levy], source: fine-1975-bosnian-church }
+  revenue_basis: null
+  succession_rule: null
+  # Tvrtko's own claim to the Serbian crown rested on descent from the
+  # Nemanjić line through his great-grandfather Stefan Dragutin; Stefan
+  # Tomašević's 1461 coronation, by contrast, was performed by a papal
+  # legate at Rome's own instigation - legitimation resting on an external
+  # grant rather than lineage.
+  legitimation: { values: [descent, investiture], source: fine-1975-bosnian-church }
+
+preceded_by_external: []
+succeeded_by_external: []
+
+ended:
+  type: conquest
+  by: [ottoman]
+  year: 1463
+  source: fine-1975-bosnian-church
+
+turning_points:
+  - year: 1203
+    type: treaty
+    name: "The Bilino Polje renunciation"
+    changed: >-
+      Under pressure from a papal legate sent after a rival ruler's own
+      accusation of heresy, Ban Kulin had the priors of his own kingdom's
+      religious houses formally renounce their errors and pledge obedience
+      to Rome - a renunciation that did nothing to end the controversy over
+      what those houses actually believed, and everything to place Bosnia's
+      own religious loyalty under permanent outside suspicion.
+    source: fine-1975-bosnian-church
+    contested: false
+  - year: 1377
+    type: reform
+    name: "Tvrtko is crowned king"
+    changed: >-
+      A ban whose own lineage traced back to the extinct Serbian royal house
+      took a royal title at Mileševo, receiving it from an Orthodox
+      cleric despite his own Catholic leanings - transforming a mountain
+      banate into a kingdom and, within little more than a decade, into the
+      overlord of most of the Dalmatian coast.
+    source: fine-1975-bosnian-church
+    contested: false
+  - year: 1461
+    type: conversion
+    name: "The last king crowned by Rome"
+    changed: >-
+      A new king who claimed never to have feared a crown his own father
+      had once turned down, wary of provoking the sultan - and who
+      pointedly emphasized his own firm grasp of the Catholic faith to the
+      Roman legate sent to crown him - completed, in his kingdom's own final
+      years, a Catholicization the throne itself had pursued only
+      fitfully across its whole existence.
+    source: fine-1975-bosnian-church
+    contested: false
+  - year: 1463
+    type: catastrophe
+    name: "The kingdom falls"
+    changed: >-
+      An Ottoman army whose own sultan meant to end Bosnian independence
+      outright, not merely raid it, took the kingdom's fortresses one after
+      another within weeks; the king was run down in flight, tricked into
+      surrendering under a false promise of safe passage, and beheaded.
+    source: fine-1975-bosnian-church
+    contested: false
+  - year: 1481
+    type: catastrophe
+    name: "Hercegovina's own line ends"
+    changed: >-
+      The breakaway duchy the last king's own former rival had carved out of
+      the kingdom's south held on for eighteen years after Bosnia itself
+      fell, ruled by his sons in turn, before its own last fortresses were
+      taken - closing out, in a second and quieter collapse, what the fall
+      of 1463 had not quite finished.
+    source: fine-1975-bosnian-church
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

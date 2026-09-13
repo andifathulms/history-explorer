@@ -2457,6 +2457,19 @@ edges:
     source: fine-1987
     contested: false
 
+  - from: bosnia
+    to: ottoman
+    type: conquered by
+    year: 1463
+    note: >-
+      An Ottoman army bent on ending Bosnian independence outright took the
+      kingdom's fortresses in a matter of weeks; King Stefan Tomašević was
+      run down in flight and beheaded. The breakaway duchy of Hercegovina,
+      carved from the same kingdom by a rival magnate, held out under its
+      own line for eighteen more years before it too fell, in 1481.
+    source: fine-1975-bosnian-church
+    contested: false
+
   # ---- What the western provinces became ----
 
   # The four post-Roman kingdoms all take an edge from the Roman record and all
