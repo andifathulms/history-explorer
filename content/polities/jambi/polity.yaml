@@ -6,20 +6,12 @@ name:
   script: null
   script_lang: null
 
-# Palembang's own record already cites andaya-b-1993 as "the standard study
-# of Palembang and Jambi together." No source consulted here gives Jambi's
-# own Islamic sultanate a precise founding year; 1615 is used as an
-# approximate point consistent with the period other Sumatran river
-# sultanates of the same kind (Palembang, Siak) took the same institutional
-# form, not a year stated directly for Jambi itself.
+# jambi-penetration-2021 dates Sultan Abdul Kahar's own accession, as the
+# first ruler to hold the title Sultan in Jambi, to 1615 - the same year
+# the earliest Dutch trade contact was established there.
 span:
-  start: { min: 1600, max: 1630, source: andaya-b-1993 }
-  # No source consulted here dates Jambi's own end; the sultanate in fact
-  # continued into the Dutch colonial period. 1673 marks only the latest
-  # point this record's own sourced material actually reaches, not a claim
-  # about when the sultanate itself ended - see the comment on `ended`
-  # below.
-  end: { min: 1673, max: 1673, source: andaya-b-1993 }
+  start: { min: 1615, max: 1615, source: jambi-penetration-2021 }
+  end: { min: 1904, max: 1904, source: jambi-penetration-2021 }
 
 identity: >-
   The upstream heir of old Melayu, a river sultanate that spent centuries
@@ -33,9 +25,11 @@ capitals:
 core_region: The Batang Hari river basin, eastern Sumatra
 
 rulers:
-  founder: { name: null, source: null }
+  founder: { name: "Sultan Abdul Kahar", reign: [1615, 1643], source: jambi-penetration-2021 }
   peak: { name: null, source: null }
-  last: { name: null, source: null }
+  # Killed at Bedaro on 21 April 1904 while still pursuing his own
+  # long-standing aim of driving the Dutch out of Jambi.
+  last: { name: "Sultan Thaha Syaifuddin", source: jambi-penetration-2021 }
 
 scripts_and_languages:
   administration: [Malay]
@@ -47,14 +41,11 @@ institutions:
   succession_rule: null
   legitimation: { values: [descent], source: andaya-b-1993 }
 
-# No source consulted here dates or names Jambi's own end; the sultanate
-# continued into the Dutch colonial period, well past what this record's
-# own sources cover.
 ended:
-  type: still contested
+  type: conquest
   by: []
-  year: null
-  source: andaya-b-1993
+  year: 1904
+  source: jambi-penetration-2021
 
 preceded_by_external:
   - name: "Malayu (Jambi-Melayu)"
