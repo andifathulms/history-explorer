@@ -85,6 +85,19 @@ turning_points:
       al-Dawla produced a hundred years of family war instead.
     source: busse-1975
     contested: false
+  - year: 1055
+    type: catastrophe
+    name: "Tughril Beg enters Baghdad"
+    changed: >-
+      The caliph al-Qa'im, who had spent his reign under Buyid control,
+      arrested al-Malik al-Rahim and granted the sultanate to Tughril Beg
+      instead - the same office, the same investiture, the same building,
+      with a Sunni Turk now standing where a Shi'i Daylamite had. A branch
+      held on in Fars for another seven years, which is why the dynasty
+      has two ending dates; what actually ended in 1055 was the
+      arrangement itself, not the last of the family.
+    source: busse-1975
+    contested: true
 
 measures:
   # Taagepera 1997, appendix: 932 -> .0, 945 -> 1.3?, 980 -> 1.6,
