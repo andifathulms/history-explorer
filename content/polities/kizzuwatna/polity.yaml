@@ -89,6 +89,17 @@ turning_points:
       answered to nowhere named in the text at all.
     source: trameri-2020
     contested: false
+  - year: -1420
+    type: treaty
+    name: "Saustatar arbitrates the Niqmepa dispute"
+    changed: >-
+      A border dispute that would once have been settled between
+      Kizzuwatna and its neighbor directly was instead decided by the
+      Mittanian king Saustatar, sitting in judgment over both rulers -
+      the first evidence that Kizzuwatna's own borders were no longer
+      entirely its own to negotiate.
+    source: trameri-2020
+    contested: false
   - year: -1400
     type: treaty
     name: "The Sunassura treaty"
