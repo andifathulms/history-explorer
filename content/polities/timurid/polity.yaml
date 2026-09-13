@@ -72,6 +72,22 @@ turning_points:
       they could not.
     source: manz-1989
     contested: false
+  - year: 1398
+    type: battle
+    name: "Delhi"
+    changed: >-
+      Timur's own house recorded the campaign in two internal accounts that
+      can be read against each other: a hundred thousand prisoners killed
+      before the battle for the city, reported in the first person with no
+      distance at all as being in accordance with the rules of war, and
+      the sack of Delhi itself three days later narrated through an
+      elaborate chain of self-exculpating pretexts ending in the line the
+      whole preamble was built for - by the will of God, and by no wish or
+      direction of mine. The builders and stonemasons taken from the city
+      were reserved to Timur personally, and built the mosque at Samarkand
+      that still stands.
+    source: elliot-dowson-3
+    contested: false
   - year: 1402
     type: battle
     name: "Ankara"
@@ -104,6 +120,20 @@ turning_points:
       never reassembled. It ended the Samarkand court that had built the
       observatory, and it left Herat as the only Timurid centre for the
       remaining sixty years.
+    source: manz-2007
+    contested: false
+  - year: 1507
+    type: catastrophe
+    name: "Shaybani Khan takes Herat"
+    changed: >-
+      Muhammad Shaybani Khan, leading Uzbek tribes under a Chinggisid line
+      of exactly the descent Timur himself had lacked, took Samarkand in
+      1500 and Herat in 1507, ending the Timurid line in Central Asia. One
+      descendant, Babur, had already lost Ferghana and Samarkand to
+      Shaybani twice; he took Kabul instead, and in 1526 carried his
+      great-great-great-grandfather's own title - gurkan, the apology for
+      not being khan - two thousand kilometres south to found the empire
+      India would call Mughal.
     source: manz-2007
     contested: false
 
