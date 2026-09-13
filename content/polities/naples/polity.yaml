@@ -1,0 +1,215 @@
+id: naples
+region: italy
+
+name:
+  latin: Kingdom of Naples
+  script: null
+  script_lang: null
+
+span:
+  # Charles of Anjou held the whole Kingdom of Sicily, island and mainland
+  # together, from his 1266 conquest; the mainland-only "Kingdom of
+  # Naples" this record covers begins either at the 1282 Sicilian
+  # Vespers, when Angevin rule was expelled from the island, or at the
+  # 1302 peace that made the split diplomatically permanent.
+  start: { min: 1282, max: 1302, source: amari-1850 }
+  # The decree renumbering Ferdinand IV as Ferdinand I and formally
+  # merging the crowns of Naples and Sicily into one Kingdom of the Two
+  # Sicilies was dated to the Congress of Vienna but not published until
+  # December 1, 1816.
+  end: { min: 1816, max: 1816, source: colletta-1858 }
+
+identity: >-
+  The mainland half of a splintered Norman-Hohenstaufen kingdom, ruled in
+  turn by French, Aragonese, Spanish, Austrian, restored Bourbon and
+  Napoleonic crowns for five and a half centuries before its own dynasty
+  folded it into a single kingdom with the island it had been split from.
+
+capitals:
+  - { name: Naples, source: amari-1850 }
+
+core_region: The Italian mainland south of the Papal States
+
+rulers:
+  # No single founder in the ordinary sense: Charles of Anjou's conquest
+  # of the whole Kingdom of Sicily in 1266 predates the mainland-only
+  # state this record covers, which was carved out of that conquest by
+  # the loss of the island in 1282. See the formation chapters.
+  founder: null
+  # Naples reached its widest cultural and political stature under the
+  # Aragonese king who reunited it with Sicily and made it a Renaissance
+  # capital in its own right.
+  peak: { name: "Alfonso V, the Magnanimous", reign: [1442, 1458], source: giannone-1729 }
+  # The last king to reign as King of Naples alone before the 1816 decree
+  # merged the title into that of the Two Sicilies.
+  last: { name: "Ferdinand IV", reign: [1759, 1816], source: colletta-1858 }
+
+scripts_and_languages:
+  administration: [Latin, Italian, Spanish]
+  writing_system: Latin
+
+institutions:
+  # Across five centuries, no one basis holds throughout: Angevin and
+  # Aragonese armies relied on feudal baronial levies, while the Bourbon
+  # kingdom after 1734 built a standing royal army recruited by
+  # conscription.
+  military_basis: { values: [land-grant, conscript], source: colletta-1858 }
+  revenue_basis: { values: [land-tax, tribute], source: giannone-1729 }
+  succession_rule: { values: [primogeniture], source: giannone-1729 }
+  legitimation: { values: [descent, investiture, conquest], source: giannone-1729 }
+
+preceded_by_external: []
+
+succeeded_by_external:
+  - name: The Kingdom of the Two Sicilies
+    type: absorbed remnants of
+    year: 1816
+    note: >-
+      No new dynasty and no conquest: the same Bourbon king who had ruled
+      Naples and Sicily in personal union since 1734, restored to both
+      thrones after the Napoleonic interruption, issued a single decree
+      folding the two crowns into one kingdom and taking the title
+      Ferdinand I.
+    source: colletta-1858
+    contested: false
+
+ended:
+  type: gradual absorption
+  by: []
+  year: 1816
+  source: colletta-1858
+
+turning_points:
+  - year: 1282
+    type: revolt
+    name: "The Sicilian Vespers"
+    changed: >-
+      A single act of French soldiers' insolence toward a Palermo
+      townswoman at a festival exploded into a citywide massacre and then
+      an islandwide revolt against Angevin rule, driving Charles's
+      officials out of Sicily entirely and leaving him only the mainland
+      half of the kingdom he had won sixteen years before.
+    source: amari-1850
+    contested: false
+  - year: 1302
+    type: treaty
+    name: "The Peace of Caltabellotta"
+    changed: >-
+      A negotiated peace, agreed after years of inconclusive war and
+      sealed by a Aragonese-Angevin marriage, formally split the old
+      Kingdom of Sicily along the line the Vespers had already drawn in
+      practice: Frederick of Aragon kept the island under the deliberately
+      diminished title of King of Trinacria, and Charles II kept the
+      mainland as King of Naples.
+    source: giannone-1729
+    contested: false
+  - year: 1345
+    type: catastrophe
+    name: "Andrew of Hungary is strangled"
+    changed: >-
+      Queen Joanna I's own husband was lured from her bedchamber at
+      Aversa and strangled with a cord in the dark, an unsolved murder
+      that shadowed the rest of her reign with suspicion even as she went
+      on to govern the kingdom with a fairness that later jurists praised
+      without reservation.
+    source: giannone-1729
+    contested: false
+  - year: 1382
+    type: succession-crisis
+    name: "Joanna I is smothered at Muro"
+    changed: >-
+      The cousin Joanna had herself adopted as heir imprisoned her,
+      wrote to Hungary asking how she should be disposed of, and, told to
+      treat her as her own first husband had been treated, had her
+      smothered with a bolster in a mountain castle - opening four
+      decades of contested Angevin succession that ended only with a
+      foreign conquest.
+    source: giannone-1729
+    contested: false
+  - year: 1442
+    type: siege
+    name: "Alfonso the Magnanimous takes Naples"
+    changed: >-
+      An Aragonese king who had spent years buying off his Angevin
+      rival's own condottieri sent men through the city's aqueduct to
+      open its gates from within, ending Naples's own long run under
+      native Angevin kings in a single day and folding it into the same
+      crown that already held Sicily and Aragon.
+    source: giannone-1729
+    contested: false
+  - year: 1501
+    type: treaty
+    name: "France and Spain divide the kingdom in secret"
+    changed: >-
+      King Frederick, besieged in his own capital, learned only after the
+      fact that the King of Aragon he had appealed to for help had
+      already agreed with the King of France to partition his kingdom
+      between them - a betrayal that ended his reign without a single
+      battle being fought in his own defense.
+    source: giannone-1729
+    contested: false
+  - year: 1503
+    type: battle
+    name: "Gonzalo de Córdoba secures Naples for Spain alone"
+    changed: >-
+      The French and Spanish partners in the 1501 partition fell out over
+      its terms within months, and Gonzalo de Córdoba's own victories
+      drove the French entirely out of the peninsula, leaving Naples a
+      viceroyalty of the Spanish crown rather than a kingdom with a
+      resident king of its own for the next two centuries.
+    source: giannone-1729
+    contested: false
+  - year: 1647
+    type: revolt
+    name: "Masaniello's revolt against the fruit tax"
+    changed: >-
+      A young Amalfitano fisherman turned a shopkeepers' boycott of a
+      gabelle on fruit into an armed uprising that briefly made him the
+      unelected master of Naples in the viceroy's own name, before his own
+      erratic behaviour cost him the crowd's loyalty and he was shot dead
+      in the Church of Carmine ten days after it began.
+    source: giraffi-1650
+    contested: false
+  - year: 1734
+    type: battle
+    name: "The Battle of Bitonto restores an independent crown"
+    changed: >-
+      A Spanish Bourbon prince's army routed the Austrian garrison
+      defending the viceroyalty in a single morning's battle, and within
+      weeks he had himself proclaimed king of a reunited and, for the
+      first time in two centuries, genuinely independent Two Sicilies -
+      ending Naples's own long run as somebody else's dependency.
+    source: colletta-1858
+    contested: false
+  - year: 1806
+    type: siege
+    name: "Joseph Bonaparte enters Naples"
+    changed: >-
+      An invading French force reached Naples within a week of crossing
+      the kingdom's own northern frontier, and Napoleon's own brother was
+      installed on a throne the Bourbon court had abandoned for the
+      safety of British-protected Sicily, opening a decade in which the
+      mainland kingdom and its island half answered to two rulers at once.
+    source: johnston-1904
+    contested: false
+  - year: 1816
+    type: reform
+    name: "Ferdinand IV becomes Ferdinand I of the Two Sicilies"
+    changed: >-
+      A decree agreed in principle at the Congress of Vienna but withheld
+      from publication for over a year merged the restored Kingdom of
+      Naples with the island it had been split from more than five
+      hundred years earlier under one crown and one royal number,
+      Ferdinand I - a change of title rather than of dynasty, and one
+      accomplished without a war.
+    source: colletta-1858
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
