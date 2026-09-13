@@ -94,6 +94,18 @@ turning_points:
       beaten rather than replacing it with anything of their own.
     source: king-1915
     contested: false
+  - year: -1475
+    type: battle
+    name: Ulam-Buriash conquers the Sealand
+    changed: >-
+      A rival native dynasty that had held the marshy south independently
+      of Babylon since before the Kassites ever took the city was broken
+      by one king's own brother, who folded its territory into Babylonia
+      and stayed on to rule it directly - the point after which the
+      dynasty's claim to the whole country finally matched the ground it
+      actually held.
+    source: king-1915
+    contested: false
   - year: -1350
     type: treaty
     name: Amarna diplomacy with Egypt
@@ -103,6 +115,30 @@ turning_points:
       while pointedly reminding Akhenaten of the precedent his own father
       Kurigalzu had set - a relationship known to history at all only
       because the archive that recorded it belonged to the other party.
+    source: king-1915
+    contested: false
+  - year: -1225
+    type: siege
+    name: Tukulti-Ninurta I captures Kashtiliash IV
+    changed: >-
+      An Assyrian king took Babylon itself, deported the reigning Kassite
+      ruler north in chains, and carried off the cult statue of Marduk -
+      the first time Assyria had ever held Babylonia, and the deepest
+      humiliation the dynasty suffered in its four centuries on the
+      throne. Both sides wrote their own account of it, and neither one
+      let it pass in silence.
+    source: frahm-2023
+    contested: false
+  - year: -1180
+    type: battle
+    name: Adad-shum-usur's reversal
+    changed: >-
+      A king raised to the throne by a revolt against Assyrian domination
+      defeated and killed the Assyrian king in the field and pushed his
+      advantage as far as the enemy capital - the one clear Babylonian
+      victory the whole long rivalry with Assyria produced, answering the
+      captivity of Kashtiliash IV in the only currency the relationship
+      had ever been conducted in.
     source: king-1915
     contested: false
   - year: -1155
