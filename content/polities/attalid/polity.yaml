@@ -131,6 +131,20 @@ turning_points:
       receive him.
     source: allen-1983
     contested: false
+  - year: -133
+    type: treaty
+    name: "Attalus III's will"
+    changed: >-
+      Dying childless, Attalus III bequeathed his kingdom to the Roman
+      people, and the senate accepted it - a transfer with no good word
+      for what it was: not a conquest, not a fragmentation, not a
+      dynastic replacement and not an absorption. Aristonicus, claiming
+      to be an illegitimate son of Eumenes II, took the name Eumenes III
+      and held the interior for four years, but he was a pretender rather
+      than a successor: the kingdom had already ended at the reading of a
+      document, before his war against Rome ever began.
+    source: allen-1983
+    contested: false
 
 measures:
   reach_km2: null

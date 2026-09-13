@@ -120,6 +120,20 @@ turning_points:
       lifetime taking prophylactic doses of poison he had to have a guard do it.
     source: mcging-1986
     contested: false
+  - year: -63
+    type: catastrophe
+    name: "Mithridates's death, the kingdom divided"
+    changed: >-
+      Cornered in the Crimea by his own son's revolt, Mithridates failed
+      to poison himself after a lifetime of prophylactic doses and had a
+      Gallic guard finish it with a sword. Pompey then settled the east
+      by a third method distinct from what Rome had done to Macedon or
+      Pergamon: the coast became the province of Bithynia et Pontus, the
+      interior went to client rulers and priest-dynasts, and the Bosporan
+      kingdom in the Crimea was left to Pharnaces because it was too far
+      away to be worth holding directly.
+    source: mcging-1986
+    contested: false
 
 measures:
   reach_km2: null

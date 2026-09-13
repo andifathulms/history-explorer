@@ -101,6 +101,21 @@ turning_points:
       condition from independence and was understood as one at the time.
     source: holbl-2001
     contested: false
+  - year: -30
+    type: catastrophe
+    name: "Cleopatra's death, Octavian at Alexandria"
+    changed: >-
+      After Actium and Antony's suicide, Cleopatra failed to secure terms
+      for her children and killed herself; Caesarion, the last Ptolemy,
+      was hunted down and executed. The dynasty ended that summer, but
+      the apparatus it had spent three centuries building - the tax
+      registers, the granaries, the priesthood certifying the ruler - did
+      not end with it. Rome took the machine intact and pointed it at
+      Rome, and Egypt became the emperor's own personal possession rather
+      than an ordinary province precisely because it was worth too much
+      to hand to a senator.
+    source: holbl-2001
+    contested: false
 
 measures:
   # Taagepera's series does not carry a Ptolemaic figure in the tables this site
