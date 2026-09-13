@@ -92,6 +92,34 @@ turning_points:
       claim to the same family in the same mountains.
     source: chi-4
     contested: false
+  - year: 1210
+    type: succession-crisis
+    name: "The second line ends in a murder"
+    changed: >-
+      Forty-five years after Shah Ghazi Rustam's death, the Ispahbadhiyya's
+      own last ruler was killed and the province passed briefly to the
+      Khwarazmshahs. It was the second time the same family lost the
+      mountains outright, and the second time the claim would prove still
+      available: the Kinkhwariyya took it up again in 1237, once the
+      Mongols had passed through.
+    source: chi-4
+    contested: false
+  - year: 1349
+    type: catastrophe
+    name: "The murder in the bath at Amul"
+    changed: >-
+      Malik Fakhr al-Dawla was killed by rivals from the kiyas of Chalav
+      over a religious quarrel among his own nobles, and this time the
+      claim was not reconstituted - his four young sons' own guardian
+      fought and lost trying to restore them. The chronicle that records
+      the killing does its own arithmetic and gets seven hundred and five
+      years rather than the six hundred and ninety-eight usually given,
+      dating the founding slightly later and counting to this same murder;
+      neither figure is wrong, and the disagreement is itself what a span
+      interrupted twice looks like when someone tries to put one number on
+      it.
+    source: ibn-isfandiyar-browne
+    contested: true
 
 measures:
   reach_km2: null
