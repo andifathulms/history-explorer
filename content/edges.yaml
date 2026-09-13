@@ -4316,3 +4316,17 @@ edges:
            whatever relationship existed, or says when it ended."
     source: ogot-1992
     contested: true
+
+  # Mesoamerica's first internal edge: the war that made the Triple
+  # Alliance possible in the first place.
+  - from: tepanec
+    to: aztec
+    type: conquered by
+    year: 1428
+    note: >-
+      A war Tezozomoc's own dying nightmare had tried to head off ended
+      with his son on the losing side of it: Azcapotzalco was defeated
+      and burned, and the dominance Tezozomoc spent a lifetime building
+      passed whole to the league of cities that tore it down.
+    source: clavigero-1787
+    contested: false

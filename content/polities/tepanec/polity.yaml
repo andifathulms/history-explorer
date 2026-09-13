@@ -1,0 +1,128 @@
+id: tepanec
+region: mesoamerica
+
+name:
+  latin: Tepanec Empire
+  script: null
+  script_lang: null
+
+span:
+  # Azcapotzalco was granted to the Tepanec lord Acolhua as his capital
+  # during the reign of the Chichimec emperor Xolotl II, whose own reign
+  # the sources used here place in the first half of the twelfth
+  # century without a narrower date for the grant itself.
+  start: { min: 1100, max: 1150, source: bancroft-1875 }
+  end: { min: 1428, max: 1428, source: clavigero-1787 }
+
+identity: >-
+  A Chichimec-descended people granted a lakeside capital as one among
+  several vassal lordships, who built the dominant power of the Valley
+  of Mexico under a king who ruled into extreme old age, only to lose
+  everything within a year of his death to the same royal exile his own
+  final nightmares had warned him to kill.
+
+capitals:
+  - { name: Azcapotzalco, source: bancroft-1875 }
+
+core_region: The western shore of Lake Texcoco, in the Valley of Mexico
+
+rulers:
+  founder: { name: Acolhua, source: bancroft-1875 }
+  peak: { name: Tezozomoc, reign: [1370, 1427], source: bancroft-1875 }
+  last: { name: Maxtla, reign: [1427, 1428], source: bancroft-1875 }
+
+scripts_and_languages:
+  administration: [Nahuatl]
+  writing_system: null
+
+institutions:
+  military_basis: null
+  # Tributary peoples, the Mexica of Tenochtitlan prominent among them,
+  # supplied Azcapotzalco with regular tribute and military service in
+  # exchange for land to settle on.
+  revenue_basis: { values: [tribute], source: bancroft-1875 }
+  # Tezozomoc named a chosen son, Tayauh, as his own successor rather
+  # than leaving the succession to strict seniority - a nomination his
+  # own more capable but distrusted son Maxtla refused to accept.
+  succession_rule: { values: [nomination], source: bancroft-1875 }
+  legitimation: { values: [descent, investiture], source: bancroft-1875 }
+
+preceded_by_external: []
+
+succeeded_by_external: []
+
+ended:
+  type: conquest
+  by: [aztec]
+  year: 1428
+  source: clavigero-1787
+
+turning_points:
+  - year: 1125
+    type: reform
+    name: "Azcapotzalco is granted to Acolhua"
+    changed: >-
+      The Chichimec emperor Xolotl II, formalizing alliances with the
+      chiefs who had tendered him their allegiance, granted the Tepanec
+      lord Acolhua a capital at Azcapotzalco and the hand of his own
+      eldest daughter in marriage - founding a lordship that would, over
+      the following three centuries, outgrow the imperial authority that
+      created it.
+    source: bancroft-1875
+    contested: true
+  - year: 1297
+    type: catastrophe
+    name: "King Acolnahuacatl is killed by the Mexica"
+    changed: >-
+      A Tepanec king was murdered and dismembered by Mexica forces in
+      a war provoked by an earlier killing on the Tepanec side, and
+      although the Mexica were themselves crushed soon afterward for the
+      act, the killing left Azcapotzalco's own throne to an infant heir,
+      Tezozomoc, governed for years by a regency.
+    source: bancroft-1875
+    contested: true
+  - year: 1418
+    type: battle
+    name: "Tezozomoc destroys the throne of Texcoco"
+    changed: >-
+      Tezozomoc's own forces stormed and took Texcoco, killing its king
+      Ixtlilxochitl and sending his fifteen-year-old son Nezahualcoyotl
+      into a decade of exile - the conquest that gave Tezozomoc
+      unchallenged supremacy over the whole Valley of Mexico in the last
+      years of his own life. Colonial-era chroniclers date the fall of
+      Texcoco anywhere from 1410 to 1419; 1418 is the year most often
+      repeated.
+    source: bancroft-1875
+    contested: true
+  - year: 1427
+    type: succession-crisis
+    name: "Tezozomoc dies naming an heir his own son would not accept"
+    changed: >-
+      An aged king who had, by his own late remorse, come to fear the
+      exiled Nezahualcoyotl above all his other enemies died naming a
+      chosen son, Tayauh, his successor on the Tepanec and Chichimec
+      thrones - a decision his more capable and ambitious son Maxtla had
+      no intention of honouring.
+    source: bancroft-1875
+    contested: false
+  - year: 1428
+    type: battle
+    name: "The Aztec Triple Alliance destroys Azcapotzalco"
+    changed: >-
+      Maxtla's own seizure of the throne and his hostility toward
+      Tenochtitlan drove the Mexica into alliance with the exiled
+      Nezahualcoyotl against him; the combined armies broke the Tepanec
+      forces in open battle, ran Maxtla to ground in his own capital's
+      bathhouse, and put him to death there before razing Azcapotzalco
+      itself to the ground.
+    source: prescott-1843
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
