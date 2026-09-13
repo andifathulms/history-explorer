@@ -124,6 +124,21 @@ turning_points:
       centuries.
     source: hovannisian-1997
     contested: false
+  - year: 428
+    type: reform
+    name: "The crown removed and the houses left"
+    changed: >-
+      The Sasanians abolished the Arsacid kingship at the request of some
+      of the Armenian nobles themselves, who preferred a Persian governor
+      to a king of their own who might tax them - a foreign empire
+      removing a native monarchy because a proportion of the native
+      aristocracy asked it to, rather than a conquest in the ordinary
+      sense. The crown went; the nakharar houses, holding their own
+      districts, fortresses and cavalry, did not, and it was those houses
+      rather than any restored throne that fought at Avarayr twenty-three
+      years later.
+    source: hovannisian-1997
+    contested: false
 
 measures:
   reach_km2: null
