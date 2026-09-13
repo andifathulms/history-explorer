@@ -98,6 +98,41 @@ turning_points:
       for good.
     source: cameron-1936
     contested: false
+  - year: -1970
+    type: reform
+    name: "The sukkalmah system replaces personal rule"
+    changed: >-
+      Elam's government was reorganized into a triarchy - a Grand Regent
+      at Susa and two subordinate viceroys, succeeding one another
+      collaterally, brother to brother, before descending to a sister's
+      son - built to outlast any one ruler's own lifetime rather than to
+      hold Kindattu's own conquests together as one man's personal
+      possession.
+    source: cameron-1936
+    contested: false
+  - year: -1765
+    type: treaty
+    name: "Siwepalarhuppak's Eshnunna coalition"
+    changed: >-
+      A sukkalmah brought Mari and Babylon into an alliance against a
+      rival Mesopotamian power under his own leadership, and both allied
+      kings addressed him in their own correspondence with the title
+      ordinarily reserved for an acknowledged overlord - the high point of
+      Elamite standing in Mesopotamian affairs the whole sukkalmah period
+      produced.
+    source: potts-2016
+    contested: false
+  - year: -1750
+    type: catastrophe
+    name: "Elam fades from the record"
+    changed: >-
+      No conquest, no named conqueror and no captured king mark the close
+      of the sukkalmah line in the surviving sources; the documentation
+      itself simply stops being detailed enough to narrate individual
+      reigns, leaving two and a half centuries dark before a later
+      dynasty picks the thread back up.
+    source: cameron-1936
+    contested: true
 
 measures:
   reach_km2: null
