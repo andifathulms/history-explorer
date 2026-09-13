@@ -28,25 +28,7 @@ scripts_and_languages:
   administration: [Latin]
   writing_system: Latin
 
-# Not an edge: the Merovingian kingdom has no record here. The relation is a
-# deposition rather than a conquest — Pepin took the crown from a living king of
-# an established line, with a papal opinion procured in advance to cover it.
-preceded_by_external:
-  - name: the Merovingian kingdom
-    type: overthrew
-    year: 751
-    note: >-
-      Pepin, mayor of the palace and the fourth of his family to run the
-      Frankish kingdoms without holding a throne, sent to Rome to ask who ought
-      to be called king — the man who had the power or the man who had the title
-      — and on the answer he had commissioned deposed Childeric III, had his
-      hair cut off, and put him in a monastery. Einhard, defending the family
-      eighty years later, insists the line had long been powerless and
-      conspicuous only for an empty title; the shaving is his own evidence
-      against himself, since cutting the hair was what made the deposition
-      effective.
-    source: einhard-turner
-    contested: false
+preceded_by_external: []
 
 ended:
   type: fragmentation

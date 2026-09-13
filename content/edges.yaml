@@ -2057,6 +2057,21 @@ edges:
     source: treadgold-1997
     contested: true
 
+  # Previously a preceded_by_external on the Carolingian record, since the
+  # Merovingian kingdom had no page of its own; it does now.
+  - from: merovingian
+    to: carolingian
+    type: overthrew
+    year: 751
+    note: >-
+      Pepin, mayor of the palace and the fourth of his family to run the
+      Frankish kingdoms without holding a throne, sent to Rome to ask who
+      ought to be called king — the man with the power or the man with the
+      title — and on the answer he had procured deposed Childeric III, had
+      his hair cut off, and shut him in a monastery.
+    source: einhard-turner
+    contested: false
+
   - from: roman
     to: carolingian
     type: claimed legitimacy of
