@@ -1,0 +1,200 @@
+id: florence
+region: italy
+
+name:
+  latin: Republic of Florence
+  script: null
+  script_lang: null
+
+span:
+  # A consular government is attested in Florence by 1102; the death of
+  # the Countess Matilda of Tuscany in 1115 removed the last feudal
+  # overlord with any residual claim on the city, and is the date
+  # traditionally treated as marking the commune's full independence.
+  start: { min: 1102, max: 1115, source: trollope-1865 }
+  # The final Republic's surrender came in August 1530, after a
+  # ten-month siege; Trollope's own history takes 1531 as the year the
+  # Republic's fall was completed.
+  end: { min: 1530, max: 1531, source: trollope-1865 }
+
+identity: >-
+  The one Italian city-state every later account of the Renaissance
+  measures itself against - a wool-and-banking republic that expelled its
+  own nobility from government, survived a wool-workers' government for a
+  season, handed real power to one banking family without ever changing
+  its own constitution to say so, and took a decade-long armed siege to
+  finally put down.
+
+capitals:
+  - { name: Florence, source: trollope-1865 }
+
+core_region: The Arno valley in Tuscany, central Italy
+
+rulers:
+  # No single founder: the commune grew out of an existing consular
+  # government of uncertain origin, formalized rather than created by
+  # Matilda's own death removing outside feudal authority. See the
+  # formation chapter.
+  founder: null
+  peak: { name: "Lorenzo de' Medici", reign: [1469, 1492], source: trollope-1865 }
+  # No source consulted names whichever Gonfaloniere held office at the
+  # precise moment of the city's own August 1530 capitulation with
+  # certainty; Francesco Carducci and Raffaello Girolami both held the
+  # office during the final siege. See the closing chapter.
+  last: null
+
+scripts_and_languages:
+  administration: [Italian, Latin]
+  writing_system: Latin
+
+institutions:
+  # Florence's own wars were fought overwhelmingly by hired condottieri
+  # captains - Malatesta Baglioni and Francesco Ferrucci among the
+  # commanders of the final Republic's own forces - rather than by a
+  # standing citizen army.
+  military_basis: { values: [mercenary], source: trollope-1865 }
+  revenue_basis: null
+  # The Priori and the Gonfaloniere di Giustizia were elected offices,
+  # drawn from the city's guilds - the Arti - throughout the whole of the
+  # Republic's history, even during the periods when the Medici family
+  # controlled the outcome of those elections without ever formally
+  # altering the constitution that produced them.
+  succession_rule: { values: [election], source: trollope-1865 }
+  legitimation: { values: [election], source: trollope-1865 }
+
+preceded_by_external: []
+
+# Not literally absorbed: the city itself was not annexed by either power
+# that besieged it. What ended was the Republic's own constitution,
+# replaced with hereditary Medici rule under papal and imperial sanction -
+# a change accomplished by conquest even though no territory changed
+# hands to a foreign crown.
+succeeded_by_external:
+  - name: The Duchy of Florence
+    type: conquered by
+    year: 1530
+    note: >-
+      The besieging papal-imperial army's own victory ended the Republic's
+      elective government outright; the capitulation's own terms handed
+      hereditary rule of the city to Alessandro de' Medici, ending four
+      centuries of Florence's own communal constitution.
+    source: trollope-1865
+    contested: false
+
+ended:
+  type: conquest
+  by: [papal-states, holy-roman-empire]
+  year: 1530
+  source: trollope-1865
+
+turning_points:
+  - year: 1115
+    type: reform
+    name: "The Countess Matilda dies"
+    changed: >-
+      The death of the last feudal overlord with any claim on the city
+      removed the one outside authority Florence's own consular
+      government might otherwise have had to answer to, clearing the way
+      for a self-governing commune with no higher power above it in
+      practice.
+    source: trollope-1865
+    contested: false
+  - year: 1293
+    type: reform
+    name: "The Ordinances of Justice"
+    changed: >-
+      A new code of law, pushed through by the reformer Giano della
+      Bella, closed off public office to the whole old feudal
+      aristocracy at a stroke and created a standing magistracy, backed
+      by a thousand armed men, specifically to enforce harsh penalties on
+      nobles who harmed commoners - permanently excluding Florence's
+      titled families from the government of the city they still lived
+      in.
+    source: trollope-1865
+    contested: false
+  - year: 1378
+    type: revolt
+    name: "The Ciompi seize the palace"
+    changed: >-
+      Wool-workers excluded from every guild that carried political
+      weight rose against a government that had just tried to suppress
+      their own organizing, stormed the Palazzo della Signoria when its
+      last two Priors abandoned it, and put a wool-comber, Michele di
+      Lando, in charge of the city for more than a day before he himself
+      moved to restore an elected government - one that, for the first
+      time, gave the lowest ranks of Florentine labor seats among the
+      Priors.
+    source: trollope-1865
+    contested: false
+  - year: 1434
+    type: succession-crisis
+    name: "Cosimo returns from exile"
+    changed: >-
+      A year after the ruling faction had exiled him rather than risk
+      executing a man whose wealth made him too dangerous to kill, Cosimo
+      de' Medici came home to a welcome his own contemporaries compared to
+      a conqueror's triumph, while the faction that had banished him was
+      itself banished in turn - the moment after which no Florentine
+      government would be formed again for six decades without Medici
+      consent.
+    source: trollope-1865
+    contested: false
+  - year: 1478
+    type: battle
+    name: "The Pazzi Conspiracy"
+    changed: >-
+      A rival banking family, financed and blessed by a pope Lorenzo de'
+      Medici had offended, tried to kill both Medici brothers during mass
+      in the cathedral itself; Giuliano died under nineteen stab wounds
+      while Lorenzo escaped with a scratch, and Florence's own popular
+      fury against the plotters - not any love of the constitution -
+      cemented Medici control of the city more firmly than it had stood
+      before the attempt.
+    source: trollope-1865
+    contested: false
+  - year: 1494
+    type: revolt
+    name: "The Medici are expelled"
+    changed: >-
+      Piero de' Medici's own capitulation to an invading French army,
+      handing over Florentine fortresses entirely on his own authority,
+      triggered a popular uprising that drove his family from the city -
+      and left Girolamo Savonarola, a Dominican friar with no civic office
+      at all, the only figure with enough public trust to help shape what
+      replaced them.
+    source: trollope-1865
+    contested: false
+  - year: 1498
+    type: reform
+    name: "Savonarola is executed"
+    changed: >-
+      Excommunicated, subjected to a farcical trial by ordeal his own
+      order backed out of, and finally condemned by the same city whose
+      government he had helped design, Savonarola was hanged and burned
+      in the very square his own collections of confiscated luxury goods
+      had once gone up in flames before cheering onlookers - ending, more
+      decisively than any papal censure alone could have, the theocratic
+      phase of the restored Republic.
+    source: trollope-1865
+    contested: false
+  - year: 1530
+    type: siege
+    name: "The Republic capitulates"
+    changed: >-
+      Betrayed by his own condottiere commander, who murdered the envoy
+      sent to relieve him of command and forced the city's submission
+      rather than risk a final sortie, Florence surrendered to a combined
+      papal and imperial army after a siege of nearly a year - ending the
+      elective constitution that had run, with interruptions, for four
+      centuries, and clearing the way for hereditary Medici rule imposed
+      under the victors' own terms.
+    source: trollope-1865
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

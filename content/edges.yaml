@@ -2419,6 +2419,36 @@ edges:
     source: matthew-1992
     contested: false
 
+  # A joint siege, and both of its own sponsors get an edge for it. Pope
+  # Clement VII, a Medici himself, arranged the campaign specifically to
+  # restore his own family; Charles V's own imperial troops, under the
+  # Prince of Orange and then Philibert of Orange's successors, did most of
+  # the actual fighting.
+  - from: florence
+    to: papal-states
+    type: conquered by
+    year: 1530
+    note: >-
+      Pope Clement VII, himself a Medici, arranged and helped finance the
+      decade-long war that ended in Florence's own August 1530 surrender,
+      specifically to restore his family's rule over the city his own
+      relatives had twice been driven from.
+    source: trollope-1865
+    contested: false
+
+  - from: florence
+    to: holy-roman-empire
+    type: conquered by
+    year: 1530
+    note: >-
+      The besieging army was overwhelmingly an Imperial one, financed by
+      Charles V and commanded in the field by his own officers; Florence's
+      surrender came after its own condottiere general, Malatesta
+      Baglioni, forced capitulation on the city's behalf rather than risk
+      a final battle.
+    source: trollope-1865
+    contested: false
+
   # Both Bulgarian records point outward, at Byzantium and at the Ottomans, and
   # the relation between them is the `resumes` field rather than an edge. The
   # Balkans therefore enters this corpus with `thread: false`, which is the
