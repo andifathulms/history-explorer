@@ -117,6 +117,20 @@ turning_points:
       turbulence Iran spent the eighteenth century in.
     source: matthee-2012
     contested: false
+  - year: 1736
+    type: succession-crisis
+    name: "Nadir Shah ends the line at Mughan"
+    changed: >-
+      Fourteen years of puppet Safavids - Tahmasp II, then the infant
+      Abbas III - had ruled as authorisation for the Turkmen commander who
+      had driven the Afghans out; at an assembly on the Mughan plain in
+      Azerbaijan, Nadir had himself proclaimed shah and ended the line he
+      had spent over a decade restoring in name only. There are two dates
+      that answer different questions: the state fell in 1722, in a siege,
+      to twenty thousand Afghans; the dynasty ended here, in a tent, when
+      the man who had kept it alive decided he no longer needed it.
+    source: matthee-2012
+    contested: false
 
 measures:
   reach_km2: { value: 2900000, at: 1512, source: taagepera-1997 }
