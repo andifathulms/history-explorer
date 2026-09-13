@@ -83,6 +83,33 @@ turning_points:
       push Aksum into invading, and destroyed the kingdom inside two years.
     source: bowersock-2013
     contested: false
+  - year: 525
+    type: battle
+    name: "Kaleb invades, Yusuf killed"
+    changed: >-
+      The Aksumite king, using the Najran massacre as cause, collected
+      ships and an army, beat the Himyarite forces, killed Yusuf and
+      installed a Christian client king under tribute. Kingship at Zafar
+      had belonged to a native Himyarite line for eight centuries; from
+      here it did not again. Ethiopian soldiers who stayed behind rather
+      than go home with the king rose against the client within a few
+      years and made one of their own number, a slave of a Roman
+      shipowner, king in his place.
+    source: procopius-dewing
+    contested: false
+  - year: 570
+    type: battle
+    name: "The Sasanians take Yemen"
+    changed: >-
+      A Persian force, sought by a Himyarite noble who had been refused
+      help at Constantinople, took the country from its Ethiopian-descended
+      rulers, and South Arabia remained a Persian province until the
+      Muslim conquest. There are two dates for the end and they measure
+      different things: 525, when the kingdom stopped being Himyarite,
+      and this one, when the country stopped being Aksumite. There is no
+      third date on which it recovered its independence.
+    source: fisher-2015
+    contested: false
 
 measures:
   reach_km2: null
