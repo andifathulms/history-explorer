@@ -1,0 +1,118 @@
+id: banjar
+region: the-eastern-archipelago
+
+name:
+  latin: Sultanate of Banjar
+  script: null
+  script_lang: null
+
+# 1526 is the date the Hikayat Banjar's own chronology gives for Raden
+# Samudera's conversion and assumption of the title Sultan Suryanullah; Ras's
+# study treats this part of the chronicle's chronology as broadly usable,
+# unlike some of its earlier, more legendary material. 1860 is the Dutch
+# colonial government's formal abolition of the sultanate during the
+# Banjarmasin War.
+span:
+  start: { min: 1526, max: 1526, source: ras-1968 }
+  end: { min: 1860, max: 1860, source: ricklefs-2008 }
+
+identity: >-
+  A pepper and diamond sultanate on the rivers of southern Borneo, founded by
+  a prince who fled his own Hindu kingdom for Islam and Demak's backing, and
+  ended by a Dutch government that had spent its final years installing and
+  then unseating the sultan's own successors.
+
+capitals:
+  - { name: Banjarmasin, from: 1526, source: ras-1968 }
+
+core_region: The Barito river delta and the pepper-growing country of southern Borneo
+
+rulers:
+  founder: { name: "Suriansyah (Raden Samudera)", reign: [1526, 1550], source: ras-1968 }
+  # No consulted source identifies a ruler as presiding over the sultanate's
+  # greatest extent or wealth rather than simply its longest or most
+  # documented reign; the pepper and diamond trade that mattered most to the
+  # sultanate's standing ran across many reigns rather than peaking under one.
+  peak: { name: null, source: null }
+  # The Dutch recognised Tamjidillah II as sultan in 1857 over the claim of
+  # Pangeran Hidayatullah II, whom Sultan Adam's own will had named; the war
+  # that followed makes "last sultan" a contested title in its own right, and
+  # this site does not resolve a dispute the participants themselves fought a
+  # war over.
+  last: { name: null, source: null }
+
+scripts_and_languages:
+  administration: [Banjarese, Malay]
+  writing_system: Jawi, from the sultanate's founding
+
+# The sultanate was abolished by regulation during a war rather than
+# conquered outright in the ordinary sense: Dutch forces controlled
+# Banjarmasin itself well before the fighting in the interior ended, and
+# resistance under the sultanate's own name continued for years after the
+# abolition decree.
+ended:
+  type: conquest
+  by: []
+  year: 1860
+  source: ricklefs-2008
+
+institutions:
+  military_basis: null
+  # Pepper, grown in the interior and shipped down the Barito to Banjarmasin,
+  # and diamonds mined in the same country — the sultanate's two exports of
+  # record and the reasons Dutch, English and earlier Portuguese traders all
+  # sought agreements with it. Unranked.
+  revenue_basis: { values: [land-tax, trade-toll, mining], source: ras-1968 }
+  succession_rule: null
+  # Caliphal-style investiture was not available this far from any caliph
+  # with standing to grant it; what the chronicle records instead is descent
+  # from Suriansyah's own line, converted from a prior claim to the Hindu
+  # kingdom of Daha he had abandoned for Islam.
+  legitimation: { values: [descent], source: ras-1968 }
+
+turning_points:
+  - year: 1526
+    type: conversion
+    name: "Raden Samudera becomes Suriansyah"
+    changed: >-
+      A prince of the Hindu kingdom of Daha, driven out by a succession
+      dispute in his own family, fled to the Barito delta, accepted Islam and
+      military backing from the sultanate of Demak on Java, and returned to
+      defeat the uncle who had displaced him — as Sultan Suriansyah of a new
+      state rather than as a claimant to the old one. Banjarmasin was founded
+      on the ruins of the very kingdom its founder had just left.
+    source: ras-1968
+    contested: false
+  - year: 1857
+    type: succession-crisis
+    name: "The Dutch install Tamjidillah"
+    changed: >-
+      Sultan Adam had named his grandson Hidayatullah as heir in his own
+      will; on Adam's death the Dutch colonial government instead recognised
+      Tamjidillah, a candidate they judged more compliant, as sultan. It
+      converted an internal succession question into a dispute over whether
+      the colonial government or the sultanate's own testamentary practice
+      decided who ruled Banjarmasin, and the answer the Dutch had just given
+      was not one the country accepted quietly.
+    source: ricklefs-2008
+    contested: false
+  - year: 1860
+    type: revolt
+    name: "The Banjarmasin War and the abolition"
+    changed: >-
+      Prince Antasari led an attack on a Dutch coal concession in 1859 that
+      opened a war fought simultaneously as a Banjarese succession dispute
+      and a rebellion against Dutch colonial expansion into southern Borneo.
+      The following year the Dutch government abolished the sultanate by
+      decree, though the fighting under the deposed claimants' names
+      continued for years afterward in the interior.
+    source: ricklefs-2008
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
