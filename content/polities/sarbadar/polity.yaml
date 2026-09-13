@@ -101,6 +101,21 @@ turning_points:
       lasted long enough to try anything else.
     source: smith-1970
     contested: false
+  - year: 1381
+    type: treaty
+    name: "Ali Mu'ayyad invites Timur in"
+    changed: >-
+      The last Sarbadar ruler, ruling a small state in a crowded
+      neighbourhood after breaking the dervish faction that had shared
+      power with the landowners for a generation, wrote to Timur asking
+      him to come and submitted the moment he crossed into Khurasan -
+      wanting the Timurid army against his own neighbours and his own
+      exiles rather than waiting to be conquered by them. There was no
+      siege and no massacre. A few hundred miles south-west the
+      Muzaffarids were exterminated to a man for having made the same
+      calculation too late.
+    source: smith-1970
+    contested: false
 
 measures:
   reach_km2: null
