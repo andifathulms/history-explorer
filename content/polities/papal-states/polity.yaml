@@ -1,0 +1,207 @@
+id: papal-states
+region: italy
+
+name:
+  latin: Papal States
+  script: null
+  script_lang: null
+
+span:
+  # mann-1902's own footnote on the Lombard king Liutprand's 728
+  # restitution of Sutri notes that "some see in it the beginning of the
+  # temporal power" - a single town, restored rather than newly granted.
+  # The far larger and better-attested Donation of Pepin, covering the
+  # whole former Byzantine Exarchate of Ravenna, followed in 756. Both
+  # dates are kept rather than averaged.
+  start: { min: 728, max: 756, source: mann-1902 }
+  end: { min: 1870, max: 1870, source: garofalo-2024 }
+
+identity: >-
+  The one government in Latin Christendom whose ruler was never a king's
+  son and never needed to be - a state built twice, once by a Lombard's
+  restitution of a single captured town and once by a Frankish king's
+  grant of an entire former Byzantine province, that went on to crown
+  emperors, depose them, buy a foreign prince a southern Italian throne,
+  and spend seventy years governing from exile before it ever lost an inch
+  of ground by force.
+
+capitals:
+  - { name: Rome, source: mann-1902 }
+
+core_region: Central Italy, from Rome north through Umbria, the Marche and the Romagna to the former Exarchate of Ravenna
+
+rulers:
+  founder: { name: "Pope Stephen II", reign: [752, 757], source: mann-1902 }
+  # Excommunicated and deposed an emperor, then absolved him only after
+  # three days of public penance in the snow at Canossa - the single
+  # moment this record's own sources treat as the high-water mark of
+  # papal authority over a temporal sovereign.
+  peak: { name: "Pope Gregory VII", reign: [1073, 1085], source: gregorovius-1894 }
+  # Still reigning as pope for another eight years after 1870, but as
+  # ruler of a sovereign temporal state, his reign ended with the fall of
+  # Rome. See the closing chapters.
+  last: { name: "Pope Pius IX", reign: [1846, 1870], source: garofalo-2024 }
+
+scripts_and_languages:
+  administration: [Latin, Italian]
+  writing_system: Latin
+
+institutions:
+  military_basis: null
+  revenue_basis: null
+  # The papacy was, and remained throughout this record's span, an
+  # elective office - its temporal rule inseparable from an ecclesiastical
+  # succession that never passed by birth.
+  succession_rule: { values: [election], source: mann-1902 }
+  # Papal authority rested on the office's own claimed divine institution
+  # (the successor of St. Peter), and its temporal territory specifically
+  # on the 756 grant of a Frankish king - an investiture in fact, if never
+  # in the pope's own account of it.
+  legitimation: { values: [divine-sanction, investiture], source: mann-1902 }
+
+preceded_by_external: []
+
+# Not absorbed and not conquered outright to extinction: the Kingdom of
+# Italy took the papacy's territory by force in 1870, but the papacy
+# itself survived as a religious institution and, in 1929, received
+# sovereignty over a much smaller territory of its own.
+succeeded_by_external:
+  - name: The Kingdom of Italy
+    type: conquered by
+    year: 1870
+    note: >-
+      Victor Emmanuel II's army breached the Aurelian Walls at the Porta
+      Pia on 20 September 1870 after a five-hour battle, ending the
+      papacy's rule over central Italy and completing Italian
+      unification. Pope Pius IX refused to recognize the loss, becoming
+      the self-styled "prisoner of the Vatican" - a status his successors
+      held until the Kingdom of Italy's own fascist government restored a
+      small sovereign Vatican City State to the papacy by the 1929
+      Lateran Treaty.
+    source: garofalo-2024
+    contested: false
+
+ended:
+  type: conquest
+  by: []
+  year: 1870
+  source: garofalo-2024
+
+turning_points:
+  - year: 728
+    type: treaty
+    name: "Sutri is restored to the apostles"
+    changed: >-
+      A Lombard king who had seized the town of Sutri, under pressure of
+      papal money and diplomacy alike, gave it back not to the Byzantine
+      authorities who had once held it but directly to the papacy itself
+      - a small, single-town restitution that later writers would debate
+      as the true first grant of sovereign ground the papacy ever
+      received.
+    source: mann-1902
+    contested: true
+  - year: 751
+    type: reform
+    name: "Zachary sanctions a coup"
+    changed: >-
+      Asked by the Frankish nobility whether it was right that a man with
+      no royal power should keep the name of king while another held the
+      substance, Pope Zachary ruled that the one with the power should
+      also hold the title - a papal judgment that deposed the last
+      Merovingian king in all but name and cleared the way for the
+      Carolingian line the papacy's own fortunes would soon become bound
+      to.
+    source: mann-1902
+    contested: false
+  - year: 756
+    type: treaty
+    name: "The Donation of Pepin"
+    changed: >-
+      After two campaigns forced the Lombard king to disgorge what he had
+      seized, Pepin handed the recovered Byzantine province over to the
+      papacy rather than returning it to Constantinople - conquered
+      territory given away by its own conqueror, and the grant that
+      turned a bishop of Rome into the sovereign of a real, continuous
+      territorial state.
+    source: mann-1902
+    contested: false
+  - year: 800
+    type: reform
+    name: "Charlemagne is crowned emperor"
+    changed: >-
+      Rising from prayer at St. Peter's on Christmas Day, Charlemagne
+      found a crown placed on his own head by Pope Leo III before a
+      crowd that hailed him emperor of the Romans - reviving a Western
+      imperial title extinct for three centuries, in a ceremony arranged
+      so that the pope who performed it, not the king who received it,
+      would appear the arbiter of the transaction.
+    source: gregorovius-1894
+    contested: false
+  - year: 1077
+    type: reform
+    name: "Canossa"
+    changed: >-
+      Excommunicated and declared deposed by Gregory VII, Henry IV
+      crossed the Alps in winter and stood for three days outside a
+      mountain fortress in a penitent's shirt before the pope would
+      absolve him - forgiveness granted only on condition that Henry
+      surrender his own royal authority until a council could judge him,
+      the clearest demonstration Latin Christendom had yet seen that a
+      pope could unmake as well as make an emperor.
+    source: gregorovius-1894
+    contested: false
+  - year: 1250
+    type: reform
+    name: "Frederick II dies, and an age with him"
+    changed: >-
+      The death of the emperor who had spent three decades contesting
+      papal authority across Italy left the empire without the one
+      Hohenstaufen ruler strong enough to sustain that contest - closing,
+      in the judgment of historians looking back on it, the whole medieval
+      argument between universal empire and universal papacy in the
+      papacy's own favor, decades before a French monarchy would take up
+      the same argument on entirely different, national terms.
+    source: gregorovius-1894
+    contested: false
+  - year: 1266
+    type: battle
+    name: "Benevento"
+    changed: >-
+      Charles of Anjou, granted Sicily on condition he first remove its
+      reigning Hohenstaufen king, destroyed Manfred's army and killed him
+      in the field - a French prince's conquest, financed and legitimized
+      entirely by Rome, ending the same dynasty's hold on southern Italy
+      that a whole generation of popes before Charles had failed to break
+      by censure alone.
+    source: gregorovius-1894
+    contested: false
+  - year: 1309
+    type: capital-move
+    name: "The move to Avignon"
+    changed: >-
+      Pressed by a French king he could not safely defy on the eve of a
+      council that would try the Templars, Clement V moved the papal
+      court to Avignon rather than returning it to a Rome he judged too
+      dangerous and too poor to govern from - a relocation meant as
+      temporary that lasted, in the end, for nearly seventy years.
+    source: mollat-1963
+    contested: false
+  - year: 1870
+    type: siege
+    name: "The Porta Pia breach"
+    changed: >-
+      Italian artillery opened a gap in the Aurelian Walls after a
+      five-hour bombardment, and troops entered Rome over the rubble
+      within hours - ending, in a single afternoon, eleven centuries of
+      papal rule over the city the Donation of Pepin had first made a
+      sovereign territory in its own right.
+    source: garofalo-2024
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
