@@ -98,6 +98,30 @@ turning_points:
       won a battle.
     source: bosworth-1994
     contested: false
+  - year: 900
+    type: battle
+    name: "Balkh, and the end of the imperial claim"
+    changed: >-
+      Amr ibn al-Layth was defeated by the Samanid Isma'il at Balkh - the
+      authorities disagree on whether the battle fell in 900 or the
+      following spring - and the caliph handed Khurasan to the winner. The
+      state that had taken Nishapur and marched to within fifty miles of
+      Baghdad was finished; nothing that followed in Sistan resembled it.
+    source: bosworth-1994
+    contested: true
+  - year: 1003
+    type: succession-crisis
+    name: "Khalaf ibn Ahmad deposed"
+    changed: >-
+      Mahmud of Ghazna deposed the last Saffarid malik of Nimruz, ending a
+      century in which the family had governed Sistan alone, first as
+      Samanid and then as Ghaznavid vassals, on exactly the kind of
+      permission Ya'qub's own career had argued a man with an army did not
+      need. It is a different ending from Balkh, a hundred and two years
+      apart, and answers a different question: not when the state ended,
+      but when the family's own hold on the province did.
+    source: bosworth-1994
+    contested: false
 
 measures:
   reach_km2: null
