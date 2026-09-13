@@ -4074,6 +4074,34 @@ edges:
     source: morgan-2007
     contested: false
 
+  - from: kievan-rus
+    to: vladimir-suzdal
+    type: seceded from
+    year: 1157
+    note: "Andrei Bogolyubsky, on his father Yuri Dolgoruki's death, took
+           the senior Suzerain title without ever occupying Kiev to claim
+           it, ruling instead from Vladimir on the Klyazma - the first
+           time the title and the city had been separated, splitting what
+           had been one Suzerain principality into two. He and his father
+           belonged to the same Rurikid line that had ruled Kiev, so no
+           single dated act of secession exists; the split is dated here
+           to Andrei's own accession."
+    source: kliuchevsky-1912
+    contested: true
+
+  - from: vladimir-suzdal
+    to: muscovy
+    type: absorbed remnants of
+    year: 1328
+    note: "Ivan Kalita of Moscow, rewarded by the Golden Horde for
+           crushing a revolt at rival Tver, received the Suzerain throne
+           of Vladimir in 1328 - and it never again left Moscow's own
+           hands. Vladimir continued to exist as a titular seat, but the
+           independent principality that had held it since 1157 was, from
+           this year on, indistinguishable from Muscovy itself."
+    source: kliuchevsky-1912
+    contested: false
+
   - from: golden-horde
     to: muscovy
     type: vassal of
@@ -4109,6 +4137,19 @@ edges:
            vast northern hinterland under direct Muscovite rule, deporting
            thousands of Novgorodian boyars and merchants and resettling
            their land with Muscovite servitors."
+    source: kliuchevsky-1912
+    contested: false
+
+  - from: tver
+    to: muscovy
+    type: conquered by
+    year: 1485
+    note: "Ivan III besieged Tver over its own alliance with Lithuania, but
+           the outcome was already settled: local boyars and even
+           appanage princes of Tver had been defecting to Moscow for
+           years beforehand, a pattern Tver's own chroniclers called
+           treason and blamed for the principality's fall. The city
+           surrendered without a battle."
     source: kliuchevsky-1912
     contested: false
 

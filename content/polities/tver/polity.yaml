@@ -1,0 +1,113 @@
+id: tver
+region: rus-and-muscovy
+
+name:
+  latin: Principality of Tver
+  script: null
+  script_lang: null
+
+span:
+  # Tver was carved out of the appanage of Pereiaslavl during the
+  # subdivision of Vsevolod III's own territory among his grandsons and
+  # great-grandsons; no source consulted dates that carving precisely. The
+  # earliest year a named Prince of Tver is attested is 1270, in a treaty
+  # with Novgorod.
+  start: { min: 1270, max: 1270, source: kliuchevsky-1912 }
+  # Ivan III's bloodless siege of Tver - see the closing chapter.
+  end: { min: 1485, max: 1485, source: kliuchevsky-1912 }
+
+identity: >-
+  Moscow's one serious rival for the senior throne of Rus - stronger by
+  seniority, no weaker in resources for most of a century, and undone in
+  the end less by battle than by its own boyars deciding a richer prince
+  was worth more than a loyal one.
+
+capitals:
+  - { name: Tver, source: kliuchevsky-1912 }
+
+core_region: The upper Volga valley between Vladimir-Suzdal and Novgorod, in what is now western Russia
+
+rulers:
+  founder: { name: "Yaroslav of Tver", source: kliuchevsky-1912 }
+  # Held the Suzerain throne of Vladimir before losing it to his own rival,
+  # Yuri of Moscow, and was executed at the Golden Horde's own court not
+  # long after - Tver's furthest reach and its first great loss in the
+  # same reign.
+  peak: { name: "Michael of Tver", source: kliuchevsky-1912 }
+  # No source consulted names the prince who held Tver at its 1485 fall.
+  last: null
+
+scripts_and_languages:
+  administration: [Old East Slavic]
+  writing_system: Cyrillic
+
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  # The princes of Tver descended, like Moscow's own line, from Vsevolod III
+  # through his son Yaroslav; their claim to the Suzerain throne rested on
+  # this shared descent and, for one generation, on holding it outright.
+  legitimation: { values: [descent], source: kliuchevsky-1912 }
+
+preceded_by_external: []
+succeeded_by_external: []
+
+ended:
+  type: conquest
+  by: [muscovy]
+  year: 1485
+  source: kliuchevsky-1912
+
+turning_points:
+  - year: 1318
+    type: succession-crisis
+    name: "Michael is executed at the Horde"
+    changed: >-
+      Having reached the senior title of Rus and then lost it to his own
+      Muscovite rival, Michael was put to death at the Golden Horde's own
+      court in a dispute Moscow's princes had helped provoke - his body
+      returned to Rus and thrown down before his rival's tent, a scene the
+      chronicle records as shocking even the Tartars present.
+    source: kliuchevsky-1912
+    contested: false
+  - year: 1327
+    type: revolt
+    name: "Tver rises against the Tartars"
+    changed: >-
+      Michael's own son Alexander, urging the princes of Rus to stand
+      together rather than submit, joined his own townsmen in turning on a
+      delegation of Tartar officials visiting the city - open resistance of
+      a kind no other Rus principality of the age was willing to risk.
+    source: kliuchevsky-1912
+    contested: false
+  - year: 1328
+    type: catastrophe
+    name: "Moscow lays the principality waste"
+    changed: >-
+      Entrusted by the Khan with punishing Tver's own revolt, Ivan Kalita of
+      Moscow carried out the assignment so completely that the principality
+      was left desolate - and received, as his own reward, the Suzerain
+      throne that had eluded Moscow for every generation before his.
+    source: kliuchevsky-1912
+    contested: false
+  - year: 1485
+    type: siege
+    name: "The city falls without a blow"
+    changed: >-
+      Ivan III's siege ended an alliance with Lithuania that had given
+      Moscow its pretext, but the outcome had been settled well before his
+      army arrived at the walls: local boyars and even appanage princes of
+      Tver had already been defecting to Moscow for years, a pattern the
+      principality's own chroniclers called treason and blamed directly for
+      its fall.
+    source: kliuchevsky-1912
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

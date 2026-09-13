@@ -1,0 +1,143 @@
+id: vladimir-suzdal
+region: rus-and-muscovy
+
+name:
+  latin: Vladimir-Suzdal
+  script: null
+  script_lang: null
+
+span:
+  # Yuri Dolgoruki, prince of Rostov-Suzdal, died in 1157 and his son
+  # Andrei took power - refusing to share it with his own kin, and shortly
+  # afterward moving his own seat from Rostov and Suzdal to Vladimir, a
+  # lesser town with no assembly of its own to answer to.
+  start: { min: 1157, max: 1157, source: kliuchevsky-1912 }
+  # The year the Suzerain throne, after Ivan Kalita's own campaign against
+  # Tver on the Khan's behalf, permanently attached itself to the princes of
+  # Moscow - see `ended` and the closing chapter.
+  end: { min: 1328, max: 1328, source: kliuchevsky-1912 }
+
+identity: >-
+  The principality that took the senior title of Rus without ever holding
+  Kiev again - ruled from a town its own founder chose precisely because it
+  had no assembly to answer to, dominant over every neighboring prince for a
+  generation, and eventually handed, title and all, to the one junior
+  branch of its own family cunning enough to buy it.
+
+capitals:
+  - { name: Vladimir, from: 1157, source: kliuchevsky-1912 }
+
+core_region: The Klyazma and upper Volga river basins, in what is now central European Russia
+
+rulers:
+  founder: { name: "Andrei Bogolyubsky", reign: [1157, 1174], source: kliuchevsky-1912 }
+  peak: { name: "Vsevolod III", reign: [1176, 1212], source: kliuchevsky-1912 }
+  # The Suzerain throne passed, after Vsevolod's death, through his sons and
+  # grandsons in a still-recognizable order of seniority - briefly even to a
+  # Prince of Tver - before Ivan Kalita's 1328 acquisition of it made
+  # "Vladimir" a title held by Moscow's own princes rather than the seat of
+  # an independent principality. No single ruler's reign marks that
+  # transition as a personal succession; see the closing chapter.
+  last: null
+
+scripts_and_languages:
+  administration: [Old East Slavic]
+  writing_system: Cyrillic
+
+institutions:
+  # Subordinate princes - of Ryazan, of Novgorod, of Smolensk - supplied
+  # troops to Suzdal's own campaigns on demand once Vsevolod III had
+  # established his supremacy over them.
+  military_basis: { values: [client-levy], source: kliuchevsky-1912 }
+  # Andrei and Vsevolod's own reigns coincided with the movement of the bulk
+  # of the old Kievan population northward into the Klyazma and upper Volga
+  # basins, where agricultural colonization replaced the river trade that
+  # had sustained Kievan Rus.
+  revenue_basis: { values: [land-tax], source: kliuchevsky-1912 }
+  # Vsevolod broke the old rota system of seniority among the whole princely
+  # clan by personally transferring his own eldest son's right of
+  # succession to his second son - designation by the ruler himself, not
+  # automatic inheritance by birth order.
+  succession_rule: { values: [nomination], source: kliuchevsky-1912 }
+  # Neither Andrei nor Vsevolod sought Kiev's own endorsement for the
+  # Suzerain title they each claimed; both held it by right of their own
+  # Rurikid descent and enforced recognition of it on neighboring princes by
+  # force when it was withheld.
+  legitimation: { values: [descent, conquest], source: kliuchevsky-1912 }
+
+# Not a conquest: Andrei and his father belonged to the same Rurikid line
+# that had ruled Kiev, and no single dated event marks a formal break - see
+# the formation chapter.
+preceded_by_external: []
+succeeded_by_external: []
+
+ended:
+  type: gradual absorption
+  by: [muscovy]
+  year: 1328
+  source: kliuchevsky-1912
+
+turning_points:
+  - year: 1157
+    type: capital-move
+    name: "The seat moves to Vladimir"
+    changed: >-
+      Rather than rule from either of his own province's two established
+      capitals, Rostov or Suzdal, a new prince who owed both towns nothing
+      but a father's memory chose to govern instead from a minor settlement
+      free of any assembly practiced at telling a prince what to do - and
+      to build it up into something grand enough that its own inhabitants
+      would stop thinking of it as minor at all.
+    source: kliuchevsky-1912
+    contested: false
+  - year: 1176
+    type: battle
+    name: "Vsevolod III takes power"
+    changed: >-
+      Defeating his own nephew for control of the principality, Vsevolod III
+      began a thirty-six-year reign that would extend his own authority
+      further over the rest of the Russian princes than any ruler of Rus had
+      managed since the days of Kiev's own greatest kings.
+    source: kliuchevsky-1912
+    contested: false
+  - year: 1207
+    type: siege
+    name: "Ryazan is burned to the ground"
+    changed: >-
+      A subordinate principality's princes, caught intriguing against him,
+      were seized outright; when its own townsmen later banished his son
+      from the province in defiance, Vsevolod had the entire city and its
+      bishop deported to other towns and burned Ryazan itself to the ground
+      - a demonstration of what defying Vladimir's own supremacy actually
+      cost.
+    source: kliuchevsky-1912
+    contested: false
+  - year: 1238
+    type: catastrophe
+    name: "Vladimir burns"
+    changed: >-
+      A Mongol army destroyed the capital outright, and the two eldest lines
+      of Vsevolod's own descendants died with it, fallen in battle against
+      the same invasion - leaving the Suzerain throne to pass to a third,
+      more junior line for the rest of the century.
+    source: kliuchevsky-1912
+    contested: false
+  - year: 1328
+    type: reform
+    name: "The throne passes to Moscow for good"
+    changed: >-
+      Entrusted by the Khan with punishing a rival principality's own
+      resistance, the Prince of Moscow carried out the task so thoroughly
+      that his reward was the Suzerain throne itself - which, from that
+      year on, never again left Moscow's own hands, ending Vladimir's run as
+      the seat of an independent principality in anything but name.
+    source: kliuchevsky-1912
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

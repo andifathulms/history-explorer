@@ -449,12 +449,13 @@ regions:
   # elsewhere in this corpus.
   #
   # `thread: true` since the sourced edge from muscovy to tsardom-of-russia
-  # joined two of the region's own polities. Kievan Rus' and Novgorod carry
-  # no edge to either successor state or to each other — both are
-  # contemporaries of the Muscovite line rather than links in its chain —
-  # so the thread draws one thing, the Muscovite succession, and leaves the
-  # other two records exactly as edgeless as hard rule 7 says a polity is
-  # allowed to be.
+  # joined two of the region's own polities — a chain now longer than that
+  # one link. Kievan Rus' seceded from (in effect) into Vladimir-Suzdal in
+  # 1157, Vladimir-Suzdal's own Suzerain throne was absorbed into Muscovy in
+  # 1328, and both Novgorod and Tver were later conquered by Muscovy outright
+  # (1471 and 1485). The full chain the thread now draws is Kievan Rus' →
+  # Vladimir-Suzdal → Muscovy → Tsardom of Russia, with Novgorod and Tver
+  # joining Muscovy's side of it rather than continuing past it.
   - id: rus-and-muscovy
     name: Rus' and Muscovy
     blurb: >-
