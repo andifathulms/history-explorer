@@ -93,6 +93,19 @@ turning_points:
       was founded on the proceeds — Isma'il took Tabriz the following year.
     source: newman-2006
     contested: false
+  - year: 1538
+    type: succession-crisis
+    name: "Tahmasp deposes the last Shirvanshah"
+    changed: >-
+      Thirty-eight years of vassalage followed the killing of Farrukh
+      Yasar, and Shah Tahmasp ended them by deposing the last Shirvanshah
+      and folding the province into direct Safavid administration from
+      Tabriz. 1500 had ended the dynasty's independence; this ended the
+      dynasty itself. Baku's walls and palace stayed standing, and the
+      province went on being fought over by the Safavids and the Ottomans
+      for a century and a half more.
+    source: newman-2006
+    contested: false
 
 measures:
   reach_km2: null
