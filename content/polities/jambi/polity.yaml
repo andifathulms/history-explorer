@@ -1,0 +1,91 @@
+id: jambi
+region: sumatra-and-the-peninsula
+
+name:
+  latin: Sultanate of Jambi
+  script: null
+  script_lang: null
+
+# Palembang's own record already cites andaya-b-1993 as "the standard study
+# of Palembang and Jambi together." No source consulted here gives Jambi's
+# own Islamic sultanate a precise founding year; 1615 is used as an
+# approximate point consistent with the period other Sumatran river
+# sultanates of the same kind (Palembang, Siak) took the same institutional
+# form, not a year stated directly for Jambi itself.
+span:
+  start: { min: 1600, max: 1630, source: andaya-b-1993 }
+  # No source consulted here dates Jambi's own end; the sultanate in fact
+  # continued into the Dutch colonial period. 1673 marks only the latest
+  # point this record's own sourced material actually reaches, not a claim
+  # about when the sultanate itself ended - see the comment on `ended`
+  # below.
+  end: { min: 1673, max: 1673, source: andaya-b-1993 }
+
+identity: >-
+  The upstream heir of old Melayu, a river sultanate that spent centuries
+  as Palembang's rival and occasional ally over the same pepper and tin
+  trade, prosperous enough by the 1670s to nearly destroy a Malay neighbor
+  twice its own size.
+
+capitals:
+  - { name: "Jambi (on the Batang Hari river)", source: andaya-b-1993 }
+
+core_region: The Batang Hari river basin, eastern Sumatra
+
+rulers:
+  founder: { name: null, source: null }
+  peak: { name: null, source: null }
+  last: { name: null, source: null }
+
+scripts_and_languages:
+  administration: [Malay]
+  writing_system: Jawi
+
+institutions:
+  military_basis: null
+  revenue_basis: { values: [trade-toll], source: andaya-b-1993 }
+  succession_rule: null
+  legitimation: { values: [descent], source: andaya-b-1993 }
+
+# No source consulted here dates or names Jambi's own end; the sultanate
+# continued into the Dutch colonial period, well past what this record's
+# own sources cover.
+ended:
+  type: still contested
+  by: []
+  year: null
+  source: andaya-b-1993
+
+preceded_by_external:
+  - name: "Malayu (Jambi-Melayu)"
+    year: null
+    note: >-
+      The same river system carried an older kingdom, Malayu, that
+      succeeded Srivijaya's own position as the region's paramount trading
+      power and that Singhasari's own Pamalayu expedition targeted in the
+      thirteenth century - the ancient predecessor to the later Islamic
+      sultanate governed from the same river.
+    source: andaya-b-1993
+
+succeeded_by_external: []
+
+turning_points:
+  - year: 1673
+    type: siege
+    name: "The sack of Johor Lama"
+    changed: >-
+      A Malay polity sacked another Malay polity outright, driving Johor's
+      own court out of its river capital and into the Riau islands -
+      a war over precedence and trade settled purely between two rival
+      Sumatran and Malay courts, nobody else's fleet or garrison anywhere
+      near it.
+    source: andaya-b-1993
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: andaya-b-1993 }
+    religions_carried: { count: 0, items: [], source: andaya-b-1993 }
+    successor_claims: { count: 0, items: [], source: andaya-b-1993 }
