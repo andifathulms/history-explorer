@@ -73,6 +73,19 @@ turning_points:
       governors for another ninety years.
     source: bosworth-1996
     contested: false
+  - year: 1141
+    type: battle
+    name: "Garshasp II dies at Qatwan"
+    changed: >-
+      The last Kakuyid, holding Yazd as a Seljuk governor, was killed at
+      the battle of Qatwan when Sanjar's army was destroyed by a Buddhist
+      steppe empire outside Samarkand - a Daylamite prince from Isfahan
+      ending his line in Transoxiana, fighting Khitans from north China in
+      a war that had nothing to do with anything the dynasty itself had
+      ever held or cared about. The state had ended ninety years earlier
+      at Isfahan; the family ended here, on somebody else's battlefield.
+    source: bosworth-1996
+    contested: false
 
 measures:
   reach_km2: null
