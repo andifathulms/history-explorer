@@ -1,0 +1,128 @@
+id: kutai-kartanegara
+region: the-eastern-archipelago
+
+name:
+  latin: Kutai Kartanegara (later Kutai Kartanegara Ing Martadipura)
+  script: null
+  script_lang: null
+
+# sopian-norhidayat-2022 dates the founding to 1300 and its own narrative
+# arc to 1732, when Aji Muhammad Idris became the first ruler to hold the
+# title Sultan. This record's own span follows that source's own scope
+# rather than the much longer sultanate history that continued afterward
+# into the twentieth century.
+span:
+  start: { min: 1300, max: 1300, source: sopian-norhidayat-2022 }
+  end: { min: 1732, max: 1732, source: sopian-norhidayat-2022 }
+
+identity: >-
+  A Mahakam river kingdom that took its own name from an older Hindu
+  kingdom it conquered, absorbing the dynasty of the Yupa inscriptions -
+  among Indonesia's oldest surviving stone inscriptions - into its own
+  royal title after a seven-day war.
+
+capitals:
+  - { name: "Jaitan Layar (Kutai Lama)", from: 1300, source: sopian-norhidayat-2022 }
+  - { name: "Pemarang, Jembayan", from: 1700, source: sopian-norhidayat-2022 }
+
+core_region: The lower and middle Mahakam river, East Kalimantan (Borneo)
+
+rulers:
+  founder: { name: "Aji Batara Agung Dewa Sakti", source: sopian-norhidayat-2022 }
+  # Pangeran Sinum Panji Mendapa led the war that conquered the older
+  # Hindu kingdom at Muara Kaman and merged its name into his own title -
+  # the single most consequential reign in the source's own account.
+  peak: { name: "Pangeran Sinum Panji Mendapa", source: sopian-norhidayat-2022 }
+  # Aji Muhammad Idris was installed as the kingdom's first ruler to hold
+  # the title Sultan in 1732, at his predecessor's own abdication - the
+  # point this record's own source treats as its narrative's natural close.
+  last: { name: "Aji Muhammad Idris", reign: [1732, 1732], source: sopian-norhidayat-2022 }
+
+scripts_and_languages:
+  administration: [Malay, Kutai]
+  writing_system: Jawi
+
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: { values: [primogeniture, matrilineal], source: sopian-norhidayat-2022 }
+  legitimation: { values: [descent, conquest], source: sopian-norhidayat-2022 }
+
+# No source consulted here treats 1732 as a conquest or dissolution; it
+# marks a change of royal title (to Sultan) within a continuous line, not
+# an ending. The kingdom in fact continued for over two more centuries.
+ended:
+  type: still contested
+  by: []
+  year: 1732
+  source: sopian-norhidayat-2022
+
+# The Hindu kingdom this one conquered and absorbed, rather than the one
+# it descended from.
+preceded_by_external:
+  - name: "Kutai Martadipura (the Mulawarman dynasty)"
+    year: null
+    note: >-
+      A separate, older Hindu kingdom at Muara Kaman upriver, attested by
+      seven Yupa stone inscriptions in Sanskrit and Pallava script dated
+      to around the fifth century - among the oldest inscriptions
+      anywhere in the Indonesian archipelago, naming the kings Kudungga,
+      Aswawarman and Mulawarman. It was a wholly separate polity until
+      Kutai Kartanegara's own conquest of it absorbed both its territory
+      and its name.
+    source: sopian-norhidayat-2022
+
+succeeded_by_external: []
+
+turning_points:
+  - year: 1365
+    type: conversion
+    name: "Named in the Nagarakretagama"
+    changed: >-
+      A Javanese court poem naming the territories Gajah Mada had brought
+      under Majapahit's own influence listed the kingdom under the name
+      Tanjung Kute - the earliest outside written record of its existence,
+      arriving as a note in someone else's list of conquests rather than
+      through any account the kingdom left of itself.
+    source: sopian-norhidayat-2022
+    contested: false
+  - year: 1525
+    type: conversion
+    name: "Raja Mahkota's conversion"
+    changed: >-
+      A dynasty that had ruled for two centuries under its own older
+      religious tradition adopted Islam at the top for the first time,
+      opening a transition its own successors would continue and deepen
+      rather than complete in a single reign.
+    source: sopian-norhidayat-2022
+    contested: false
+  - year: 1635
+    type: battle
+    name: "The conquest of Martadipura"
+    changed: >-
+      Seven days and nights of fighting ended with the kings of the older
+      upriver kingdom dead and its own high officials submitting to the
+      victor - a war that folded one of the archipelago's oldest royal
+      lines into Kutai's own, and gave the winning dynasty a new,
+      compound name to mark the merger.
+    source: sopian-norhidayat-2022
+    contested: true
+  - year: 1700
+    type: capital-move
+    name: "Flight from the pirates of Lanun Solok"
+    changed: >-
+      Repeated coastal raids, costly enough in lives and plunder to
+      threaten the dynasty year after year, forced the abandonment of the
+      old capital for a new seat further upriver - a relocation driven by
+      outside predation rather than by any dynastic or religious change
+      from within.
+    source: sopian-norhidayat-2022
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: sopian-norhidayat-2022 }
+    religions_carried: { count: 0, items: [], source: sopian-norhidayat-2022 }
+    successor_claims: { count: 1, items: ["the royal title of Kutai Martadipura"], source: sopian-norhidayat-2022 }
