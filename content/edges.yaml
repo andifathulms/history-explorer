@@ -2457,6 +2457,20 @@ edges:
     source: fine-1987
     contested: false
 
+  - from: epirus
+    to: second-bulgarian
+    type: conquered by
+    year: 1230
+    note: >-
+      Theodore of Epirus broke his own alliance with John Asen II and was
+      crushed at Klokotnitsa, captured and later blinded; Bulgaria annexed
+      the greater part of his empire's own territory from Adrianople to
+      Durazzo outright, though Epirus itself, reduced and ruled by
+      Theodore's brother, survived the defeat as a lesser state rather
+      than being absorbed entire.
+    source: vasiliev-1928
+    contested: false
+
   - from: bosnia
     to: ottoman
     type: conquered by

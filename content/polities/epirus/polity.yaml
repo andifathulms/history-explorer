@@ -1,0 +1,175 @@
+id: epirus
+region: rome-and-byzantium
+
+name:
+  latin: Epirus
+  script: null
+  script_lang: null
+
+span:
+  # vasiliev-1928 gives 1204 as the founding year; nicol-1984 places
+  # Michael I's actual settlement at Arta at "about" the same date, the
+  # precise year being unrecoverable from the sources either way.
+  start: { min: 1204, max: 1205, source: vasiliev-1928, max_source: nicol-1984 }
+  # The fall of Vonitsa, the last of the Despotate's own cities to hold
+  # out - see the closing chapter.
+  end: { min: 1479, max: 1479, source: nicol-1984 }
+
+identity: >-
+  The fourth successor state the Fourth Crusade produced, and for six
+  years its most serious one - an Adriatic province a deserting Latin
+  officer built into a rival empire, crowned at Thessalonica by a bishop
+  with no right to crown anyone, before the Bulgarians ended the imperial
+  experiment in a single battle and left two and a half more centuries of
+  a diminished, endlessly contested principality in its place.
+
+capitals:
+  - { name: Arta, source: nicol-1984 }
+
+core_region: The Adriatic coast and mountainous interior of northwestern Greece and southern Albania
+
+rulers:
+  founder: { name: "Michael I Komnenos Doukas", reign: [1204, 1215], source: nicol-1984 }
+  # Crowned emperor at Thessalonica in 1224; captured and blinded at
+  # Klokotnitsa in 1230. Neither the height nor the collapse of Epirus's
+  # own imperial ambitions can be told without the other.
+  peak: { name: "Theodore Komnenos Doukas", reign: [1215, 1230], source: vasiliev-1928 }
+  # nicol-1984 calls him "the last true Despot in Epiros" - the title the
+  # Despotate's own last century of rulers, Serbian, Albanian and Italian
+  # alike, continued to claim without any Byzantine emperor left to grant
+  # it. See the closing chapter.
+  last: { name: "Carlo I Tocco", source: nicol-1984 }
+
+scripts_and_languages:
+  administration: [Greek]
+  writing_system: Greek
+
+institutions:
+  military_basis: null
+  revenue_basis: null
+  # nicol-1984 is explicit that the "Despot" title itself "was never
+  # hereditary and it could be conferred only by a Byzantine emperor" -
+  # a statement about the title's formal status rather than a rule
+  # governing who actually held power in Epirus, which passed by conquest,
+  # marriage and outright usurpation throughout the region's history.
+  succession_rule: null
+  # Michael I and Theodore both traced descent from the Komnenos, Doukas
+  # and Angelos families and asserted their own right to rule by force
+  # against the Latins; Theodore's own imperial coronation was performed,
+  # irregularly, by the autocephalous archbishop of Ohrid rather than by
+  # the legitimate Patriarch, a grant of investiture with no other
+  # Orthodox hierarch prepared to recognize it.
+  legitimation: { values: [descent, conquest, investiture], source: vasiliev-1928 }
+
+preceded_by_external: []
+succeeded_by_external: []
+
+ended:
+  type: conquest
+  by: [ottoman]
+  year: 1479
+  source: nicol-1984
+
+turning_points:
+  - year: 1205
+    type: revolt
+    name: "Michael Doukas deserts the Latins"
+    changed: >-
+      A Byzantine nobleman serving in the Latin conquest of Greece switched
+      sides, found refuge with the Byzantine governor already holding out
+      at Arta, and set himself up as the region's own protector - founding,
+      without any Byzantine emperor's sanction, a state the crusaders never
+      managed to absorb.
+    source: nicol-1984
+    contested: false
+  - year: 1217
+    type: battle
+    name: "The Latin emperor is captured"
+    changed: >-
+      Theodore, Michael's own successor, ambushed the newly elected Latin
+      emperor of Constantinople as he tried to reach his own capital
+      overland, and the emperor died in Epirote captivity - the first time
+      Epirus's own ambitions reached beyond merely defending its own
+      territory.
+    source: vasiliev-1928
+    contested: false
+  - year: 1222
+    type: siege
+    name: "Thessalonica falls"
+    changed: >-
+      Theodore's war against the Latin Kingdom of Thessalonica ended in
+      an easy victory, handing Epirus a major Aegean port and stretching
+      its own reach clear across northern Greece from one coast to the
+      other - a base broad enough that Theodore judged himself entitled
+      to a great deal more than a provincial governorship.
+    source: vasiliev-1928
+    contested: false
+  - year: 1224
+    type: reform
+    name: "Theodore is crowned emperor"
+    changed: >-
+      Denied a coronation by the Patriarch, who already served the rival
+      claimant at Nicaea, Theodore had himself crowned instead by the
+      independent archbishop of Ohrid - an irregular anointment that
+      nonetheless made Epirus, for the first time, an open rival empire to
+      Nicaea rather than merely a defensive Greek province.
+    source: vasiliev-1928
+    contested: false
+  - year: 1230
+    type: battle
+    name: "Klokotnitsa"
+    changed: >-
+      An alliance with Bulgaria's own John Asen II collapsed into open war
+      when Theodore turned on his ally first, and the resulting battle
+      destroyed the Epirote army outright, delivering Theodore himself
+      into captivity and, soon after, blindness - ending in a single
+      afternoon the only real chance a western Greek state ever had of
+      restoring the empire before Nicaea did.
+    source: vasiliev-1928
+    contested: false
+  - year: 1246
+    type: treaty
+    name: "Epirus submits to Nicaea"
+    changed: >-
+      With Thessalonica already lost to Nicaea's own advancing armies,
+      Epirus accepted the suzerainty of the Emperor John Vatatzes,
+      formally recognizing an authority it had spent decades refusing to
+      answer to - a concession that came sixteen years after Klokotnitsa
+      had already settled, in practice, which Greek court would restore
+      Byzantium.
+    source: vasiliev-1928
+    contested: false
+  - year: 1259
+    type: battle
+    name: "Disaster at Pelagonia, and a refusal that followed it"
+    changed: >-
+      Michael II's own alliance disintegrated before the battle even
+      began - his allies captured, his own illegitimate son deserting to
+      the enemy - and the defeat that followed opened Epirus itself to
+      occupation by the army that would recover Constantinople two years
+      later. Michael refused to accept the loss: he fought his own way
+      back into Arta before Constantinople had even changed hands, and
+      once the Byzantine Empire was restored there in 1261, refused its
+      new emperor's jurisdiction over his own territory just as
+      stubbornly as he had refused Nicaea's.
+    source: nicol-1984
+    contested: false
+  - year: 1479
+    type: catastrophe
+    name: "Vonitsa, the last city, falls"
+    changed: >-
+      Ioannina had gone to the Ottomans in 1430 and Arta in 1449; the
+      fortress at Vonitsa held out longest of all, and its own surrender
+      that August folded the last piece of the old territory into an
+      Ottoman province like every other Byzantine successor state around
+      it.
+    source: nicol-1984
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
