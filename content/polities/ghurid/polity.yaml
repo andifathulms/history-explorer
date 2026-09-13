@@ -93,6 +93,20 @@ turning_points:
       between a raid and a conquest that actually spread Islam into India.
     source: jackson-1999
     contested: false
+  - year: 1204
+    type: battle
+    name: "The road shut at Andkhud"
+    changed: >-
+      Mu'izz al-Din marched to annex Khwarazm and came back with about a
+      hundred horsemen, having paid his own baggage train for permission
+      to leave after the Khwarazmians and the Qara Khitai shut the road
+      home at Andkhud and his vanguard commander, Husain ibn Kharmil,
+      abandoned the field with five thousand men in the night. Khurasan
+      was gone and did not come back - the one war the Ghurids fought
+      against an equal ended their claim to be one, two years before the
+      assassination that ended the state itself.
+    source: juzjani-raverty
+    contested: false
   - year: 1206
     type: succession-crisis
     name: "Mu'izz al-Din assassinated with no son"
