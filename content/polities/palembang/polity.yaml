@@ -1,0 +1,107 @@
+id: palembang
+region: sumatra-and-the-peninsula
+
+name:
+  latin: Palembang Sultanate
+  script: null
+  script_lang: null
+
+# 1659 is when Susuhunan Abdurrahman's rule is conventionally dated from, the
+# point at which Palembang's ruling house is treated as a sultanate in its
+# own right rather than as a lesser successor polity still finding its feet
+# after Sumatra's older trading states had gone. This is not the Srivijaya
+# that once stood on the same ground: the two are separated by the better
+# part of four centuries, by religion, and by the total absence of anything
+# connecting the one to the other except the river they both sat on.
+span:
+  start: { min: 1659, max: 1659, source: andaya-b-1993 }
+  end: { min: 1823, max: 1823, source: ricklefs-2008 }
+
+identity: >-
+  A tin and pepper sultanate on the lower Musi river, downstream neighbour and
+  periodic rival of Jambi, which fought the British and then the Dutch in
+  successive wars before its last resisting sultan was exiled to Ternate.
+
+capitals:
+  - { name: Palembang, from: 1659, source: andaya-b-1993 }
+
+core_region: The lower Musi river and its delta, south-eastern Sumatra
+
+rulers:
+  founder: { name: "Susuhunan Abdurrahman", reign: [1659, 1706], source: andaya-b-1993 }
+  # No consulted source identifies a ruler as presiding over the sultanate's
+  # widest reach or greatest revenue distinct from the long eighteenth-century
+  # tin trade this page's third chapter describes, which ran across several
+  # reigns rather than peaking under one of them.
+  peak: { name: null, source: null }
+  last: { name: "Mahmud Badaruddin II", reign: [1804, 1821], source: ricklefs-2008 }
+
+scripts_and_languages:
+  administration: [Malay]
+  writing_system: Jawi, from the sultanate's founding
+
+# Not a single conquest: Dutch forces took the city in 1821 after two years
+# of war, exiled the sultan, and installed a successor who was himself
+# removed when the Dutch formally abolished the office and annexed the
+# territory outright in 1823.
+ended:
+  type: gradual absorption
+  by: []
+  year: 1823
+  source: ricklefs-2008
+
+institutions:
+  military_basis: null
+  # Tin mined on Bangka island, under Palembang's authority for most of the
+  # sultanate's life, and pepper grown in the upriver country — the two
+  # exports every European company operating on this coast wanted a contract
+  # for. Unranked.
+  revenue_basis: { values: [land-tax, trade-toll, mining], source: andaya-b-1993 }
+  succession_rule: null
+  legitimation: { values: [descent], source: andaya-b-1993 }
+
+turning_points:
+  - year: 1659
+    type: reform
+    name: "Abdurrahman's sultanate"
+    changed: >-
+      Palembang's ruling house, governing a river port on ground that had
+      once carried the ancient thalassocracy of Srivijaya and nothing
+      connecting the one polity to the other, formalised itself as a
+      sultanate under Susuhunan Abdurrahman. It set the pattern that
+      followed for the next century and a half: a downstream capital taxing
+      river traffic and an upstream country of tin and pepper it needed and
+      never fully commanded.
+    source: andaya-b-1993
+    contested: true
+  - year: 1812
+    type: siege
+    name: "The British take Palembang"
+    changed: >-
+      Provoked by the massacre of a Dutch garrison the sultan had ordered
+      during the transition of colonial power on Java, a British expedition
+      took Palembang, deposed the reigning sultan and installed a more
+      compliant successor. It was the first time an outside naval power had
+      taken the city by force, and it set the precedent the Dutch would
+      follow themselves within a decade.
+    source: ricklefs-2008
+    contested: false
+  - year: 1821
+    type: siege
+    name: "The Palembang War ends"
+    changed: >-
+      After two years of fighting, Dutch forces took Palembang on 25 June
+      1821 and exiled Sultan Mahmud Badaruddin II, who had led the
+      resistance, to Ternate. A puppet sultan installed in his place lasted
+      only until the Dutch decided the office itself was no longer worth
+      keeping.
+    source: ricklefs-2008
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
