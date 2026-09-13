@@ -6,13 +6,15 @@ name:
   script: null
   script_lang: null
 
-# No source consulted here documents Bone's own founding; the record
-# available begins with its forced Islamization by Gowa and ends with the
-# death of the ruler who reversed that subordination. Bone itself continued
-# as a kingdom for centuries after 1696 - into the Dutch colonial period and
+# macknight-paeni-hadrawi-2020's own edition cross-checks the chronicle's
+# internal reign-lengths against later Bone genealogies; the two available
+# reconstructions place the founding tomanurung Matasilompo'é's own reign
+# somewhere between the 1320s and 1360s, given here as a range reflecting
+# that disagreement rather than false precision. Bone itself continued as a
+# kingdom for centuries after 1696 - into the Dutch colonial period and
 # beyond - but nothing consulted for this record follows it there.
 span:
-  start: { min: 1611, max: 1611, source: andaya-1981 }
+  start: { min: 1326, max: 1358, source: macknight-paeni-hadrawi-2020 }
   end: { min: 1696, max: 1696, source: andaya-1981 }
 
 identity: >-
@@ -28,7 +30,10 @@ core_region: The eastern side of the South Sulawesi peninsula, Bugis-speaking te
 
 rulers:
   # No source consulted here names a Bone ruler before the Gowa conquest.
-  founder: { name: null, source: null }
+  # A tomanurung, "descended one" - a founding claim of heavenly rather
+  # than ordinary human origin, matched by his own wife, a second
+  # tomanurung from the neighboring settlement of Toro'.
+  founder: { name: "Matasilompo'é", source: macknight-paeni-hadrawi-2020 }
   peak: { name: "Arung Palakka (La Tenritatta)", source: andaya-1981 }
   last: { name: "La Patau", source: andaya-1981 }
 
@@ -55,6 +60,16 @@ preceded_by_external: []
 succeeded_by_external: []
 
 turning_points:
+  - year: 1340
+    type: succession-crisis
+    name: "The founding marriage of two tomanurung"
+    changed: >-
+      A ruler whose own claim to the throne rested on a descent from the
+      sky married a second figure who made the identical claim at a
+      neighboring settlement, joining two separately legitimated founding
+      lines by union rather than by either one absorbing the other.
+    source: macknight-paeni-hadrawi-2020
+    contested: true
   - year: 1611
     type: conversion
     name: "Forced conversion and submission to Gowa"
