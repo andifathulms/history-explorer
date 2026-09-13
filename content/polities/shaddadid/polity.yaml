@@ -73,6 +73,20 @@ institutions:
   legitimation: { values: [conquest, investiture], source: minorsky-1953 }
 
 turning_points:
+  - year: 1045
+    type: battle
+    name: "Abu'l-Aswar holds Dvin"
+    changed: >-
+      A Byzantine lieutenant, having subdued Armenia after Ani's own
+      surrender the same year, marched on Dvin; Abu'l-Aswar fought him at
+      the city gate and killed Vahram, the great prince of Armenia, who
+      died in Byzantine service fighting the emir his own family had
+      married into. It is one of only three mentions the fullest
+      contemporary Armenian chronicle gives this dynasty at all - a house
+      visible mainly through what its neighbors happened to record while
+      it held its walls and outlasted them.
+    source: aristakes-bedrosian
+    contested: false
   - year: 1072
     type: treaty
     name: "Ani granted"
@@ -83,6 +97,20 @@ turning_points:
       following hundred and twenty-six years, maintaining its churches and its
       Armenian population even as the dynasty's own centre of gravity shifted
       from Arran into Armenia.
+    source: minorsky-1953
+    contested: false
+  - year: 1199
+    type: siege
+    name: "Tamar takes Ani"
+    changed: >-
+      Georgian forces under Tamar's generals, the Zakarid brothers,
+      captured Ani from the last Shaddadid emir - almost the only
+      instance in a thousand years of Caucasus history in which one
+      polity of the region ended another rather than being ended from
+      outside it. The dynasty invented no script, propagated no religion
+      and left no one claiming to be its heir; what it left was a
+      position, and a family that had departed its service a century
+      earlier and taken Egypt.
     source: minorsky-1953
     contested: false
 
