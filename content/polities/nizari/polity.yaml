@@ -92,6 +92,35 @@ turning_points:
       is the whole strategy stated once in a single episode.
     source: hillenbrand-1999
     contested: true
+  - year: 1220
+    type: treaty
+    name: "Jalal al-Din Hasan submits to the Mongols"
+    changed: >-
+      A decade of demonstrated orthodoxy - fealty to the Abbasid caliph,
+      a pilgrimage, Qazvin's own jurists invited to search and burn
+      heretical books in Alamut's libraries - ended with Jalal al-Din
+      Hasan sending the first submission any Muslim power made to
+      Chinggis Khan, and dying suddenly within weeks. Every one of the
+      decade's moves was individually rational; together they gave up the
+      one thing that had protected the state for over a century, which
+      was having nothing to negotiate with anybody about.
+    source: browne-1906
+    contested: false
+  - year: 1256
+    type: treaty
+    name: "The surrender"
+    changed: >-
+      A state that no army had reduced in a hundred and sixty-six years
+      was talked into opening its gates by Nasir al-Din Tusi, a scholar
+      the Isma'ilis had themselves held prisoner for two decades. The
+      castles were handed over and dismantled, Alamut's library was
+      burned after Juvayni took what he wanted from it, and Rukn al-Din
+      was killed on the road east. Whether Tusi's role makes him, in
+      Browne's phrase, a double-dyed traitor, or simply a hostage with no
+      honourable exit available to him, the outcome itself is not in
+      dispute: the place fell to a conversation rather than a siege.
+    source: browne-1906
+    contested: true
 
 measures:
   # Taagepera does not tabulate this polity, and the omission is structural
