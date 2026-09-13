@@ -87,6 +87,42 @@ turning_points:
       the ruling family had held unchallenged for ninety-four years.
     source: king-1910
     contested: false
+  # No exact regnal year survives for the code's issuance; -1908 is placed
+  # early in Libit-Ishtar's eleven-year reign on the pattern the other
+  # Mesopotamian law collections follow, and is marked contested for that
+  # reason rather than for any dispute about the text itself.
+  - year: -1908
+    type: reform
+    name: "The laws of Libit-Ishtar"
+    changed: >-
+      A prologue naming the gods' mandate, a body of conditional provisions
+      on slavery, inheritance, land and hire, and an epilogue of blessings
+      and curses — the same three-part structure Ur-Nammu's collection had
+      used two centuries earlier and Hammurabi's would use a century and a
+      half later. No court record ever cites it as the authority for a
+      verdict, but scribal schools copied it for centuries after the
+      dynasty that produced it had ended, which is where its actual
+      influence lies.
+    source: roth-1997
+    contested: true
+  # Entered here not because a dated end can be named but because one
+  # cannot: no siege, no named conqueror, and the two captures the later
+  # record does date belong, on inspection, to a fight between other
+  # powers a generation or more afterward. The year matches the span end
+  # derived from the dynasty's own stated length, not an attested event.
+  - year: -1780
+    type: catastrophe
+    name: "The dynasty ends without a recorded cause"
+    changed: >-
+      A line that had held the old royal title of Sumer and Akkad for two
+      and a quarter centuries disappears from the king list after
+      Damik-ilishu, and nothing in the surviving record states how or by
+      whom. The captures later date-formulas credit to Larsa and to
+      Babylon both turn out, once the chronology is checked, to belong to
+      a struggle fought after Isin's own kingship had already ended by
+      some other, unrecorded means.
+    source: king-1910
+    contested: true
 
 measures:
   reach_km2: null

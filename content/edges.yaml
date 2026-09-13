@@ -3943,6 +3943,21 @@ edges:
     source: van-de-mieroop-2005
     contested: false
 
+  - from: isin
+    to: larsa
+    type: claimed legitimacy of
+    year: null
+    note: "No source states who or what actually ended the Dynasty of
+           Isin, or when; the disputed captures later date-formulas
+           credit to Larsa and to Babylon both belong, on the balance of
+           the evidence, to a struggle fought a generation or more after
+           Isin's own last king. What is certain is only that Larsa,
+           once a governorship within Isin's own kingdom, inherited the
+           title King of Sumer and Akkad and the contest for the south
+           that went with it."
+    source: king-1910
+    contested: true
+
   # ---- Hatti and the Highlands: the region's own internal edge, plus the
   # cross-region link Hittite foreign relations were actually built on ----
 
