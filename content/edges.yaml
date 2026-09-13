@@ -4330,3 +4330,17 @@ edges:
       passed whole to the league of cities that tore it down.
     source: clavigero-1787
     contested: false
+
+  # The Andes' first internal edge, and the richest single haul of
+  # plunder any Inca campaign produced.
+  - from: chimor
+    to: inca
+    type: conquered by
+    year: 1470
+    note: >-
+      An unauthorized raid by one Inca general, and his own execution
+      for it, drew the two greatest Andean states into a war neither had
+      chosen; a second, properly commanded expedition finished what the
+      raid began, ending Chimor's own independent existence.
+    source: rowe-1948
+    contested: false

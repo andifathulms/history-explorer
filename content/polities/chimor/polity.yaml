@@ -1,0 +1,130 @@
+id: chimor
+region: the-andes
+
+name:
+  latin: Chimor
+  script: null
+  script_lang: null
+
+span:
+  # Ñancen-pinco's own conquests, which turned a local lordship into a
+  # real kingdom, are dated by Rowe's reconstruction of the dynastic
+  # count to somewhere in the first half of the fourteenth century.
+  start: { min: 1300, max: 1350, source: rowe-1948 }
+  # Cabello Balboa's chronology, which Rowe treats as the most reliable
+  # available, places the Inca conquest of Chimor between 1462 and 1470.
+  end: { min: 1462, max: 1470, source: rowe-1948 }
+
+identity: >-
+  A north-coast Peruvian kingdom ruled by one family for over a century,
+  built from a river valley lordship into a state whose plunder, when an
+  Inca army finally took it, was the richest ever carried back to Cuzco -
+  and whose own royal line survived its kingdom's fall by generations,
+  quietly reburying its exiled kings by the old rites long after Spanish
+  priests had already said the Christian ones over them.
+
+capitals:
+  - { name: Chan Chan, source: rowe-1948 }
+
+core_region: The valley of Trujillo (Moche), on the north coast of Peru
+
+rulers:
+  # A culture hero as much as a historical founder in the sources that
+  # preserve him, credited by his own dynasty's descendants with
+  # arriving from across the sea and founding the royal line by right of
+  # the ceremonies he alone knew how to perform.
+  founder: { name: Taycanamo, source: rowe-1948 }
+  # Taycanamo's grandson, credited in the one surviving colonial account
+  # of Chimú history with the conquests that actually built a kingdom
+  # out of what his grandfather and father had only begun.
+  peak: { name: "Ñancen-pinco", source: rowe-1948 }
+  last: { name: "Minchançaman", source: rowe-1948 }
+
+scripts_and_languages:
+  administration: [Yunga]
+  writing_system: null
+
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: { values: [primogeniture], source: rowe-1948 }
+  legitimation: { values: [descent, divine-sanction], source: rowe-1948 }
+
+preceded_by_external: []
+
+succeeded_by_external: []
+
+ended:
+  type: conquest
+  by: [inca]
+  year: 1470
+  source: rowe-1948
+
+turning_points:
+  - year: 1300
+    type: reform
+    name: "Taycanamo arrives by balsa raft"
+    changed: >-
+      A stranger came ashore on a log raft claiming to serve a distant
+      overseas ruler, and within a year of teaching himself the local
+      speech and performing rites with sacred yellow powders, the
+      inhabitants of Trujillo had accepted him as their own king -
+      however embellished the story became in later retelling, the
+      opening act of a royal line that would last two centuries.
+    source: rowe-1948
+    contested: true
+  - year: 1370
+    type: battle
+    name: "Ñancen-pinco conquers the valley and its neighbours"
+    changed: >-
+      Taycanamo's grandson extended his own family's rule from the head
+      of the Chimor valley down its full length and along a long run of
+      coastline in both directions - the conquests that turned an
+      inherited river-valley lordship into a real regional kingdom.
+    source: rowe-1948
+    contested: true
+  - year: 1461
+    type: battle
+    name: "An unauthorized raid draws Chimor into war with Cuzco"
+    changed: >-
+      An Inca general, facing censure for letting deserters escape
+      across a river he had orders not to cross, chose to redeem himself
+      by attacking the state of Cajamarca instead of returning home;
+      besieged, Cajamarca's own ruler turned to Minchançaman for troops,
+      and the two greatest powers of the Andes found themselves at open
+      war by accident rather than design.
+    source: rowe-1948
+    contested: false
+  - year: 1462
+    type: catastrophe
+    name: "The Inca king executes his own disobedient general"
+    changed: >-
+      Furious that a subordinate's own unauthorized victory had
+      committed his state to defending a distant garrison it was not
+      ready for, the Inca ruler Pachacuti had the man executed on the
+      road home rather than let successful disobedience by a rival with
+      a claim to the throne go unpunished - but the war his general had
+      started could not be undone by killing him.
+    source: rowe-1948
+    contested: false
+  - year: 1470
+    type: siege
+    name: "Chimor is conquered and Minchançaman is taken to Cuzco"
+    changed: >-
+      A second Inca army, commanded by Pachacuti's son Topa Capac with
+      the heir Topa Inca serving alongside him, forced its way down from
+      the highlands into Chimú territory and broke Minchançaman's bitter
+      but unavailing resistance, looting riches richer than any previous
+      Inca campaign had brought home and carrying the defeated king off
+      to honoured exile at Cuzco.
+    source: rowe-1948
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
