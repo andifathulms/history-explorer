@@ -2449,6 +2449,21 @@ edges:
     source: trollope-1865
     contested: false
 
+  # Pisa's own final loss of independence, after a fifteen-year revival
+  # (1494-1509) that followed an earlier, reversed conquest in 1406.
+  - from: pisa
+    to: florence
+    type: conquered by
+    year: 1509
+    note: >-
+      Three separate sieges over fifteen years, including a failed 1503
+      attempt (Leonardo da Vinci among the engineers) to starve the city
+      out by diverting the Arno away from it entirely, ended the revived
+      Republic for good; unlike the 1406 conquest this one produced no
+      further revival.
+    source: ross-1909
+    contested: false
+
   # Both Bulgarian records point outward, at Byzantium and at the Ottomans, and
   # the relation between them is the `resumes` field rather than an edge. The
   # Balkans therefore enters this corpus with `thread: false`, which is the

@@ -1,0 +1,199 @@
+id: pisa
+region: italy
+
+name:
+  latin: Republic of Pisa
+  script: null
+  script_lang: null
+
+span:
+  # A Muslim raid up the Arno in 1004 is the first attested event of Pisa's
+  # own naval history; the earliest documented consuls, the first named
+  # holders of communal authority independent of the bishop and the
+  # Countess Matilda's officials, appear in Archbishop Daibert's own 1094
+  # Concordia. Both dates are Heywood's own.
+  start: { min: 1004, max: 1094, source: heywood-1921 }
+  # The final Republic's capitulation to Florence came on June 8, 1509,
+  # after a fifteen-year, three-siege war that followed the Pisans' own
+  # 1494 revolt against Florentine rule.
+  end: { min: 1509, max: 1509, source: ross-1909 }
+
+identity: >-
+  A maritime republic built on no natural harbour at all, whose merchant
+  fleets cleared the western Mediterranean of Saracen raiders, planted
+  colonies from Sardinia to Acre, and for two centuries disputed command
+  of the Tyrrhenian Sea with Genoa before a single afternoon off a rock
+  called Meloria ended it.
+
+capitals:
+  - { name: Pisa, source: heywood-1921 }
+
+core_region: The mouth of the Arno, on the Tuscan coast
+
+rulers:
+  # No single founder: the Commune grew out of an existing association of
+  # armatori and merchant families, tolerated rather than created by the
+  # Bishop of Pisa and the Marquises of Tuscany, and only slowly hardened
+  # into a formal consulate. See the formation chapter.
+  founder: null
+  # Pisa never had a single peak ruler in the way an Italian signoria did;
+  # its own government throughout the height of its power remained
+  # collective - elected consuls, later a podestà - and no source names
+  # one figure as embodying that height. See the formation and expansion
+  # chapters.
+  peak: null
+  # Giovanni Gambacorti held no formal office beyond Captain of the
+  # People, but his own seizure of personal lordship in the Republic's
+  # final years, and his own secret negotiation of its 1406 surrender, are
+  # the last exercise of independent authority the sources describe
+  # before Florentine rule.
+  last: { name: "Giovanni Gambacorti", source: ross-1909 }
+
+scripts_and_languages:
+  administration: [Latin, Italian]
+  writing_system: Latin
+
+institutions:
+  # Pisan fleets, including the one that fought at Meloria, were manned
+  # overwhelmingly by the city's own citizens and armatori under
+  # obligation to the Commune, not by hired companies.
+  military_basis: { values: [conscript], source: heywood-1921 }
+  # Maritime trade duties funded the Commune throughout its independence;
+  # subject towns of the contado and the Sardinian giudicati rendered
+  # tribute, formalized as an annual offering of wax candles in sign of
+  # vassalage.
+  revenue_basis: { values: [trade-toll, tribute], source: heywood-1921 }
+  succession_rule: { values: [election], source: heywood-1921 }
+  # Early communal authority rested on the Emperor's own charters
+  # recognizing the Commune's existence; day-to-day government rested on
+  # election of consuls and, later, of a podestà.
+  legitimation: { values: [investiture, election], source: heywood-1921 }
+
+preceded_by_external: []
+
+succeeded_by_external:
+  - name: The Florentine dominion of Pisa
+    type: conquered by
+    year: 1509
+    note: >-
+      No new state was declared; Florence simply resumed the direct rule
+      of the city that the 1494 revolt had interrupted, and Pisa did not
+      govern itself again until Italian unification in the nineteenth
+      century.
+    source: ross-1909
+    contested: false
+
+ended:
+  type: conquest
+  by: [florence]
+  year: 1509
+  source: ross-1909
+
+turning_points:
+  - year: 1004
+    type: catastrophe
+    name: "A Muslim fleet sacks the Arno quarter"
+    changed: >-
+      A raid that reached the heart of the city, rather than merely its
+      coast, gave the Pisans their first attested reason to fight the
+      Saracen fleets that had, until then, simply been a hazard of trade -
+      the opening episode of a long run of Pisan naval campaigns across
+      the western Mediterranean.
+    source: heywood-1921
+    contested: false
+  - year: 1016
+    type: battle
+    name: "Mogahid is expelled from Sardinia"
+    changed: >-
+      A combined Pisan-Genoese fleet drove a Saracen warlord from an
+      island he had held for a year, giving Pisa its first lasting claim
+      on Sardinia and a taste of the joint command of the sea that its own
+      rivalry with Genoa would later be fought to keep.
+    source: heywood-1921
+    contested: false
+  - year: 1094
+    type: reform
+    name: "The first Pisan consuls are recorded"
+    changed: >-
+      Archbishop Daibert's own Concordia names sitting consuls for the
+      first time, marking the point at which authority in Pisa had
+      visibly passed from feudal officials answering to the bishop and
+      the Countess of Tuscany into the hands of men the city's own
+      shipowning families had picked for the office themselves.
+    source: heywood-1921
+    contested: false
+  - year: 1115
+    type: battle
+    name: "The Balearic expedition takes Palma"
+    changed: >-
+      A three-year campaign against the Saracen strongholds of Majorca,
+      fought under a papal blessing and a red-and-white banner that
+      became the city's own arms, ended in the storming of the citadel and
+      the freeing of thousands of Christian captives - the high-water mark
+      of Pisa acting as leader of a Mediterranean coalition rather than
+      one power among several.
+    source: heywood-1921
+    contested: false
+  - year: 1119
+    type: battle
+    name: "War with Genoa begins"
+    changed: >-
+      A quarrel over a papal grant opened the war that would define
+      Pisa's whole later history: a struggle for the Tyrrhenian Sea
+      against a rival whose mountainous coast left it no choice but to
+      live or die by that same sea, while Pisa's own exposed, harbourless
+      coastline meant it could never enjoy the same singleness of purpose.
+    source: heywood-1921
+    contested: false
+  - year: 1284
+    type: battle
+    name: "The Battle of Meloria"
+    changed: >-
+      A Genoese fleet under Oberto Doria destroyed the armed strength of
+      Pisa off a shoal in sight of its own harbour, and because Pisa's sea
+      power rested on no natural maritime population the way Genoa's did,
+      the city had no reserve of ships or sailors left to rebuild what a
+      single afternoon had taken away.
+    source: ross-1909
+    contested: false
+  - year: 1289
+    type: succession-crisis
+    name: "Ugolino della Gherardesca starves in the Tower"
+    changed: >-
+      The admiral blamed for Meloria, briefly the city's own strongman
+      afterward, was walled up with two sons and two grandsons and left to
+      starve by an archbishop who then seized his office - a collapse of
+      elite authority that left Pisa's post-Meloria government to whichever
+      faction could seize the Elders' palace next.
+    source: ross-1909
+    contested: false
+  - year: 1406
+    type: siege
+    name: "Giovanni Gambacorti surrenders the city"
+    changed: >-
+      Ten months of Florentine blockade and starvation ended when the
+      Republic's own last strongman struck a private bargain securing his
+      own family's fortune in exchange for the keys of Pisa, closing three
+      centuries of communal independence at a stroke.
+    source: ross-1909
+    contested: false
+  - year: 1494
+    type: revolt
+    name: "Pisa rises against Florentine rule"
+    changed: >-
+      Charles VIII's own passage through the city gave a crowd that had
+      lived under Florentine garrison for nearly ninety years the moment
+      to tear down the lily and the lion and reconstitute a government of
+      its own - a revival contemporaries themselves described as a dead
+      republic waking to life.
+    source: ross-1909
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
