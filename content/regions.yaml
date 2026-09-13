@@ -790,4 +790,6 @@ regions:
       and a northern kingdom that stayed formally independent for eight
       centuries before a treaty, not a battle, ended it.
     group: mediterranean
-    thread: false
+    # `thread: true` since a real edge - Danelaw to Wessex, conquered by,
+    # 954 - now joins two of the region's own polities.
+    thread: true

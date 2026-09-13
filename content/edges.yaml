@@ -4344,3 +4344,17 @@ edges:
       raid began, ending Chimor's own independent existence.
     source: rowe-1948
     contested: false
+
+  # The British Isles' first internal edge.
+  - from: danelaw
+    to: wessex
+    type: conquered by
+    year: 954
+    note: >-
+      Eric Bloodaxe's expulsion from York left no Scandinavian claimant
+      standing, and King Eadred took the whole of Northumbria under
+      direct West Saxon rule - the end of independent Viking kingship
+      north of the Humber that had begun with Halfdan's own partition of
+      Yorkshire in 876.
+    source: stenton-1943
+    contested: false

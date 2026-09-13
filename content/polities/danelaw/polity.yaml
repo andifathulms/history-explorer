@@ -1,0 +1,142 @@
+id: danelaw
+region: the-british-isles
+
+name:
+  latin: The Danelaw / Viking York
+  script: null
+  script_lang: null
+
+span:
+  # The Great Army, brought to England by Ivar and Halfdan, landed in East
+  # Anglia in the autumn of 865 and took York the following year.
+  start: { min: 865, max: 865, source: stenton-1943 }
+  # Eric Bloodaxe's final expulsion and death at Stainmore closed "the
+  # phase of English history which began with the division of Northumbria
+  # among Halfdan's followers in 876" - Stenton's own framing of the span.
+  end: { min: 954, max: 954, source: stenton-1943 }
+
+identity: >-
+  The Scandinavian army that took York in 866 and, a decade later, sat
+  its own men down as farmers rather than raiders - ruled after that by
+  a shifting line of Norse kings until Eric Bloodaxe's expulsion in 954
+  ended independent Viking rule north of the Humber.
+
+capitals:
+  - { name: York, source: stenton-1943 }
+
+core_region: Yorkshire and the eastern Midlands, with Northumbria beyond the Tees under separate English rule
+
+rulers:
+  # Halfdan carried out the 876 partition of Yorkshire among his men -
+  # the point at which the Great Army stopped raiding and became a
+  # settled kingdom with a capital at York.
+  founder: { name: Halfdan, source: stenton-1943 }
+  # Olaf Guthfrithson's 939-941 reign held York together with the whole
+  # Five Boroughs confederation south to Watling Street - the largest
+  # territory any king of this record ruled at once.
+  peak: { name: Olaf Guthfrithson, reign: [939, 941], source: stenton-1943 }
+  last: { name: Eric Bloodaxe, reign: [952, 954], source: stenton-1943 }
+
+scripts_and_languages:
+  administration: []
+  writing_system: null
+
+institutions:
+  # Halfdan's men were settled as landholders on the territory he divided
+  # among them in 876, rather than paid as a standing force.
+  military_basis: { values: [land-grant], source: stenton-1943 }
+  revenue_basis: null
+  # Every change of king after Æthelstan's death came through invasion,
+  # expulsion or a rival faction's choice, never through an agreed rule -
+  # Olaf Guthfrithson, Olaf Sihtricson, Raegnald and Eric Bloodaxe each
+  # took York by force or by the Northumbrians' own shifting allegiance.
+  succession_rule: { values: [factional], source: stenton-1943 }
+  legitimation: { values: [conquest, descent], source: stenton-1943 }
+
+preceded_by_external:
+  - name: the Kingdom of Northumbria
+    type: absorbed remnants of
+    year: 867
+    note: >-
+      Northumbria's own rival kings, Osberht and Ælle, had barely
+      combined their forces against the invaders when both were killed
+      retaking York on 21 March 867; eight ealdormen died with them, and
+      the survivors bought peace. English rule continued under lesser
+      figures north of the Tees, but York itself and the country around
+      it passed into Danish hands.
+    source: stenton-1943
+
+succeeded_by_external: []
+
+ended:
+  type: conquest
+  by: [wessex]
+  year: 954
+  source: stenton-1943
+
+turning_points:
+  - year: 866
+    type: siege
+    name: "The Great Army takes York"
+    changed: >-
+      After a year raiding East Anglia for horses and supplies, the army
+      turned north and took possession of York at the start of November.
+      Northumbria's own civil war meant no army came against them for
+      four months, and when English forces finally attacked the city in
+      the spring, the assault was thrown back with heavy loss.
+    source: stenton-1943
+    contested: false
+  - year: 876
+    type: reform
+    name: "Halfdan's partition of Yorkshire"
+    changed: >-
+      Rather than move his men on to the next campaign, Halfdan divided
+      the territory around York among them as farmland. It was the first
+      of three such partitions that would settle Danish armies across a
+      third of England, and the one that turned a raiding force into a
+      kingdom with a fixed centre.
+    source: stenton-1943
+    contested: false
+  - year: 927
+    type: battle
+    name: "Æthelstan's conquest of York"
+    changed: >-
+      With Sihtric dead and his young heir Olaf unable to hold the
+      throne against invasion, Æthelstan occupied York, tore down its
+      Danish-built defences and seized its treasury. A West Saxon king
+      now governed the city directly, for the first time since Danish
+      settlers had made it their own capital two generations earlier.
+    source: stenton-1943
+    contested: false
+  - year: 939
+    type: treaty
+    name: "Loss of the Five Boroughs"
+    changed: >-
+      Within months of Æthelstan's death, Olaf Guthfrithson of Dublin
+      retook York without resistance and drove south as far as
+      Tamworth. A treaty brokered by the archbishops handed him the
+      whole region between Watling Street and Northumbria - Leicester,
+      Derby, Nottingham and Lincoln - undoing two decades of English
+      rule at a stroke.
+    source: stenton-1943
+    contested: false
+  - year: 954
+    type: battle
+    name: "Battle of Stainmore"
+    changed: >-
+      Eric Bloodaxe, restored to York for a second time in 952, was
+      driven out again in 954 and killed shortly afterward at Stainmore,
+      reportedly betrayed by the Northumbrian earl Oswulf. King Eadred
+      took direct control of the whole territory, and no independent
+      Scandinavian kingdom north of the Humber was ever restored.
+    source: stenton-1943
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
