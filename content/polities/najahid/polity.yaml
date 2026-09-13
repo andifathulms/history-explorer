@@ -92,6 +92,21 @@ turning_points:
       highlands and a Sunni one on the coast, neither able to finish the other.
     source: daftary-2007
     contested: true
+  - year: 1158
+    type: siege
+    name: "Ali ibn Mahdi takes Zabid"
+    changed: >-
+      A Zaydi sharif from Sa'da, brought in by the besieged city's own chiefs
+      on condition that they kill their lord Fatik first, could not save the
+      city once they had done it. After seventy-two separate engagements and
+      a siege the defenders fought through carrion-eating hunger, Ali ibn
+      Mahdi took Zabid - six generations after a freedman named Marjan first
+      served the house the Najahids themselves had displaced, ending with a
+      lord killed by his own slaves at a sharif's request. Umara's own
+      eyewitness dating puts the fall a year later than the conventional
+      date kept here.
+    source: kay-1892
+    contested: true
 
 measures:
   reach_km2: null

@@ -108,6 +108,20 @@ turning_points:
       are Isma'ilis in Gujarat.
     source: daftary-2007
     contested: false
+  - year: 1138
+    type: catastrophe
+    name: "Arwa dies, the state comes apart"
+    changed: >-
+      Ninety-one years after it began, the Sulayhid state ended with Arwa's
+      death: no successor, no claimant, nobody conquering it - it simply
+      stopped being governed as one thing. The Tayyibi mission she had
+      reconstituted eight years earlier did not fragment with it. It
+      continued in Yemen for four centuries and then moved its seat to
+      India, under a line of da'is running back to the one she appointed;
+      the state and the religious organisation it had produced ended at
+      completely different times.
+    source: daftary-2007
+    contested: false
 
 measures:
   reach_km2: null
