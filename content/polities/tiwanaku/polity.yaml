@@ -1,0 +1,131 @@
+id: tiwanaku
+region: the-andes
+
+name:
+  latin: Tiwanaku
+  script: null
+  script_lang: null
+
+span:
+  # A recent Bayesian analysis of 102 radiocarbon dates places Tiwanaku's
+  # own founding around A.D. 180.
+  start: { min: 180, max: 180, source: marsh-2023 }
+  # The same chronology dates permanent residence ending and a rapid,
+  # roughly twenty-year, city-wide collapse to this window.
+  end: { min: 1010, max: 1050, source: marsh-2023 }
+
+identity: >-
+  A city on the southern shore of Lake Titicaca that became, by the
+  seventh century, one of the Andes' first true urban centres and the
+  destination its whole region's own migrants converged on - known now
+  only through its monuments, its raised fields, and a precisely dated
+  collapse that recent research has shown was neither slow nor simply
+  caused by drought.
+
+capitals:
+  - { name: Tiwanaku, source: marsh-2023 }
+
+core_region: The southern basin of Lake Titicaca
+
+rulers:
+  # No inscription, king-list or native chronicle naming a Tiwanaku
+  # ruler has survived; everything known of its government comes from
+  # archaeology alone.
+  founder: null
+  peak: null
+  last: null
+
+scripts_and_languages:
+  administration: []
+  writing_system: null
+
+institutions:
+  # Archaeologists remain genuinely divided over Tiwanaku's own political
+  # organization - see the coded turning point on this question - so no
+  # single value is asserted here for institutions that four competing
+  # scholarly models describe in incompatible ways.
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  legitimation: { values: [divine-sanction], source: albarracin-jordan-1999 }
+
+preceded_by_external: []
+
+succeeded_by_external: []
+
+ended:
+  # Recent dating rules out drought as the collapse's own trigger without
+  # yet establishing what did cause it; older scholarship attributes the
+  # collapse to an Aymara invasion, a claim resting on linguistic
+  # reconstruction rather than direct archaeological evidence.
+  type: still contested
+  by: []
+  year: 1010
+  source: marsh-2023
+
+turning_points:
+  - year: 180
+    type: reform
+    name: "Tiwanaku is founded"
+    changed: >-
+      A lakeside settlement was established around this year, the most
+      precisely dated radiocarbon chronology now available shows - the
+      beginning of a community that would, within four centuries,
+      become one of the Andes' first genuine cities.
+    source: marsh-2023
+    contested: false
+  - year: 600
+    type: reform
+    name: "Tiwanaku becomes a destination for migrants"
+    changed: >-
+      A surge of arrivals from across the wider region made the
+      settlement the area's foremost draw for anyone looking to
+      relocate, driving rapid urban growth and the construction of the
+      monumental core - platforms, sunken courts and carved gateways -
+      that would define Tiwanaku's own reputation for the rest of its
+      existence and long afterward.
+    source: marsh-2023
+    contested: false
+  - year: 720
+    type: reform
+    name: "Monument building ends"
+    changed: >-
+      Construction of new monuments at Tiwanaku stopped around this
+      year, the same dated chronology's best single estimate finds - a
+      shift in the city's own priorities whose cause is not yet
+      explained, coming a full three centuries before the wider urban
+      collapse that eventually followed it.
+    source: marsh-2023
+    contested: true
+  - year: 910
+    type: catastrophe
+    name: "Formal burial ends and ritualized violence begins"
+    changed: >-
+      The practice of interring the dead in built tombs ceased at almost
+      the same moment that bodies showing clear signs of ritualized
+      killing - bound, struck with blunt force, or wounded to the head -
+      began appearing in refuse pits without any burial architecture at
+      all, a shift researchers who first documented it call a major and
+      previously unrecognized turning point in the city's own history.
+    source: marsh-2023
+    contested: false
+  - year: 1010
+    type: catastrophe
+    name: "Permanent residence at Tiwanaku ends"
+    changed: >-
+      Over barely two decades, permanent habitation at Tiwanaku ceased
+      entirely, followed by a shorter interval in which visitors still
+      used the same styles of pottery before even temporary camps at
+      the site stopped - a rapid, city-wide collapse that recent dating
+      shows began before any regional drought could have caused it.
+    source: marsh-2023
+    contested: true
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
