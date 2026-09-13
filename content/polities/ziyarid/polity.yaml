@@ -96,6 +96,20 @@ turning_points:
       held more than the Caspian provinces.
     source: chi-4
     contested: false
+  - year: 1090
+    type: catastrophe
+    name: "A family's end, not the region's"
+    changed: >-
+      The Nizari Isma'ilis took Gilanshah's own territory in the Elburz and
+      Tabaristan, ending the family's hold on a province it had governed,
+      with one long interruption, for a century and a half. What ended was
+      a family holding a province, not the province's own habits: resisting
+      the plateau, producing infantry, sheltering whoever could not
+      currently be dislodged continued under the Nizaris themselves for two
+      more centuries, on the same Caspian terms the Ziyarids had inherited
+      rather than invented.
+    source: chi-4
+    contested: false
 
 measures:
   reach_km2: null
