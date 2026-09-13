@@ -98,6 +98,18 @@ turning_points:
       created in the process of being reversed.
     source: axworthy-2006
     contested: false
+  - year: 1738
+    type: siege
+    name: "Nadir destroys Kandahar"
+    changed: >-
+      Husayn Hotak had held Kandahar for nine years after the expulsion
+      from Persia, ruling what was left of the state from the province it
+      had come from. Nadir, by then shah in his own right, besieged the
+      city for a year, took it, and destroyed it - the dynasty's actual
+      extinction, distinct from the 1729 defeats that had already ended
+      its hold on Persia proper.
+    source: axworthy-2006
+    contested: false
 
 measures:
   reach_km2: null
