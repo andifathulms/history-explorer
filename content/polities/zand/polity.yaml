@@ -96,6 +96,18 @@ turning_points:
       fighting each other while he took the country.
     source: perry-1979
     contested: false
+  - year: 1794
+    type: catastrophe
+    name: "Lutf Ali Khan captured at Bam"
+    changed: >-
+      The last and most capable of Karim Khan's successors, betrayed by
+      his own chief minister and reduced to raiding southern Iran with a
+      few hundred men, was captured, blinded, tortured and killed at
+      twenty-five - the dynasty's actual end, fifteen years after the
+      succession crisis that began it. Agha Muhammad Khan destroyed
+      Kerman afterward for having sheltered him.
+    source: perry-1979
+    contested: false
 
 measures:
   reach_km2: null
