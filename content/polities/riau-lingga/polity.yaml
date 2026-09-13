@@ -1,0 +1,90 @@
+id: riau-lingga
+region: sumatra-and-the-peninsula
+
+name:
+  latin: Sultanate of Riau-Lingga
+  script: null
+  script_lang: null
+
+# Johor's own record (andaya-1975) dates the 1824 Anglo-Dutch treaty that
+# split the old Johor-Riau-Lingga-Pahang confederation into separate
+# British and Dutch spheres, creating the Malay court based at Penyengat
+# as a formally distinct sultanate from the Johor line the treaty left on
+# the peninsula's own side. Its own abolition by the Dutch is dated to
+# 1911 by the same broad tradition Johor's own record draws on for the
+# confederation's later history.
+span:
+  start: { min: 1824, max: 1824, source: andaya-1975 }
+  end: { min: 1911, max: 1911, source: andaya-1975 }
+
+identity: >-
+  The Dutch-side half of a divided Malay-Bugis confederation, split off in
+  1824 - a Malay sultan fronting for real Bugis power behind the throne,
+  in a kingdom drawn by two rival European empires.
+
+capitals:
+  - { name: "Penyengat (Pulau Penyengat)", source: andaya-1975 }
+
+core_region: The Riau-Lingga archipelago, between the Malay peninsula and Sumatra
+
+rulers:
+  founder: { name: null, source: null }
+  peak: { name: null, source: null }
+  last: { name: null, source: null }
+
+scripts_and_languages:
+  administration: [Malay]
+  writing_system: Jawi
+
+institutions:
+  military_basis: null
+  revenue_basis: { values: [trade-toll], source: andaya-1975 }
+  succession_rule: null
+  # A Malay sultan on the throne, a Bugis viceroy actually running the
+  # state - a dual arrangement the source treats as inherited directly
+  # from the pre-1824 Johor-Riau confederation rather than invented anew.
+  legitimation: { values: [descent, titulature], source: andaya-1975 }
+
+ended:
+  type: conquest
+  by: []
+  year: 1911
+  source: andaya-1975
+
+# The court this record continues. A single confederation, split by treaty
+# rather than conquered, into a Malay-sphere half and this Dutch-sphere
+# half.
+preceded_by_external:
+  - name: "Johor-Riau-Lingga-Pahang (before 1824)"
+    year: 1824
+    note: >-
+      Before the Anglo-Dutch treaty, "Johor" named one confederation
+      spanning both sides of the strait and the archipelago beyond it - a
+      Malay court largely ceremonial in its own authority, with a Bugis
+      viceroy actually running the state's affairs. The 1824 treaty
+      settled a rivalry between two European trading empires, not any
+      quarrel of the Malay court's own, and simply assigned each side of
+      an existing single kingdom to a different colonial sphere.
+    source: andaya-1975
+
+succeeded_by_external: []
+
+turning_points:
+  - year: 1824
+    type: treaty
+    name: "The Anglo-Dutch partition"
+    changed: >-
+      A treaty between two European trading empires drew a line through
+      waters a single Malay-Bugis confederation had once claimed as one
+      connected world, dividing it along colonial lines that answered to
+      neither the Malay court's own interests nor its Bugis viceroy's.
+    source: andaya-1975
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: andaya-1975 }
+    religions_carried: { count: 0, items: [], source: andaya-1975 }
+    successor_claims: { count: 0, items: [], source: andaya-1975 }
