@@ -1,0 +1,124 @@
+id: teotihuacan
+region: mesoamerica
+
+name:
+  latin: Teotihuacan
+  script: null
+  script_lang: null
+
+span:
+  # Rapid population growth and monumental construction began in the
+  # first or second century BCE.
+  start: { min: -200, max: -100, source: cowgill-1997 }
+  # The city's civic-religious core was burned and its political
+  # importance ended sometime in the 600s or 700s; the archaeological
+  # evidence does not fix a narrower date.
+  end: { min: 600, max: 700, source: cowgill-1997 }
+
+identity: >-
+  A planned city in the highlands of central Mexico that grew, within
+  two centuries, into the largest urban concentration the Americas had
+  yet seen - built around the largest pyramids Mesoamerica ever raised,
+  ruled at its start by kings powerful enough to need no inscriptions,
+  and destroyed at the end by its own people rather than by any outside
+  conqueror.
+
+capitals:
+  - { name: Teotihuacan, source: cowgill-1997 }
+
+core_region: The Basin of Mexico
+
+rulers:
+  # No inscription, king-list or native chronicle naming a Teotihuacan
+  # ruler has survived or been deciphered; everything known of its
+  # government comes from archaeology alone.
+  founder: null
+  peak: null
+  last: null
+
+scripts_and_languages:
+  # No language spoken at Teotihuacan has been identified with
+  # confidence; proposals include Nahuatl, Totonac and Otomanguean
+  # languages, none of them settled.
+  administration: []
+  writing_system: null
+
+institutions:
+  # Teotihuacan armies fought in disciplined masses that drew on common
+  # citizens as well as elite warriors, rather than relying on
+  # professional or hired troops alone.
+  military_basis: { values: [conscript], source: cowgill-1997 }
+  revenue_basis: null
+  succession_rule: null
+  legitimation: { values: [divine-sanction], source: cowgill-1997 }
+
+preceded_by_external: []
+
+succeeded_by_external: []
+
+ended:
+  # Archaeologists dispute whether the burning of the city's core was
+  # carried out by insiders, by outside groups taking advantage of a
+  # weakened state, or some combination of both.
+  type: still contested
+  by: []
+  year: 650
+  source: cowgill-1997
+
+turning_points:
+  - year: -150
+    type: reform
+    name: "The city's population is concentrated"
+    changed: >-
+      Most of the population of the whole Basin of Mexico relocated into
+      a single settlement within a few generations, and construction
+      began on civic-religious structures - among them the Pyramid of
+      the Sun - on a scale no earlier Mesoamerican city had attempted.
+    source: cowgill-1997
+    contested: false
+  - year: 200
+    type: catastrophe
+    name: "Mass sacrifice dedicates the Feathered Serpent Pyramid"
+    changed: >-
+      Roughly two hundred people, many dressed as soldiers and
+      dignitaries and arranged in patterns that appear tied to
+      calendrical symbolism, were sacrificed as part of the dedication of
+      a new pyramid honouring the Feathered Serpent - the clearest
+      material evidence for the power a small number of early rulers
+      held over the city and its religious life.
+    source: cowgill-1997
+    contested: false
+  - year: 300
+    type: revolt
+    name: "The Feathered Serpent Pyramid is burned"
+    changed: >-
+      In a hot, deliberate fire, the pyramid and its temple were burned
+      and partly dismantled rather than rebuilt on a grander scale as
+      earlier structures had been - and the ruin was left visible rather
+      than concealed, a change archaeologists read as a reaction, by
+      elites or a successor ruler, against the excess of the sacrifices
+      committed there.
+    source: cowgill-1997
+    contested: true
+  - year: 650
+    type: revolt
+    name: "The city's core is burned"
+    changed: >-
+      Temples and elite residences along the city's own ceremonial
+      avenue were deliberately and selectively burned and their idols
+      smashed, leaving most of the wider settlement untouched - an act
+      modern archaeology reads as directed squarely at the institutions
+      of rule, whether carried out by insiders or by outsiders taking
+      advantage of a weakened capital, rather than as a foreign conquest
+      of the city as a whole.
+    source: cowgill-1997
+    contested: true
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
