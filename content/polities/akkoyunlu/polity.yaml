@@ -77,6 +77,22 @@ turning_points:
       the tribes that followed Isma'il into Tabriz in 1501 chose him during it.
     source: woods-1999
     contested: false
+  - year: 1501
+    type: battle
+    name: "Isma'il beats Alvand at Sharur"
+    changed: >-
+      Uzun Hasan's own grandson, leading the Safavid order at Ardabil and
+      claiming Alid descent rather than any Bayandur legitimacy, defeated
+      Alvand at Sharur and took Tabriz with the same Turkmen tribes his
+      grandfather had once led out of it. The eastern half under Sultan
+      Murad held Iraq-i Ajam and Fars a few years longer and lost them by
+      1503; Diyarbakir, where the confederation had begun a hundred and
+      thirty years earlier, fell in 1508 and Murad was killed. What the
+      Safavids kept was the law code, the chancery and the painters; what
+      they added was a reason for the tribes to hold together that
+      survived a defeat, which neither sheep confederation had ever had.
+    source: woods-1999
+    contested: false
 measures:
   reach_km2: null
   peak_population: null
