@@ -85,6 +85,20 @@ turning_points:
       before they arrived.
     source: hovannisian-1997
     contested: false
+  - year: 1045
+    type: succession-crisis
+    name: "Ani surrendered, Gagik II detained"
+    changed: >-
+      Byzantium invited Gagik II to Constantinople to negotiate and did
+      not let him leave; Ani surrendered the same year, and the kingdom
+      Hovhannes-Smbat's own bequest had already signed away in 1022
+      changed hands on schedule. It was a conquest, and the instrument
+      was a document rather than a battle - the dismantling of the
+      Armenian noble military system on the frontier that followed left a
+      Byzantine provincial establishment unable to hold the same ground
+      the Seljuks took nineteen years later.
+    source: hovannisian-1997
+    contested: false
 
 measures:
   reach_km2: null
