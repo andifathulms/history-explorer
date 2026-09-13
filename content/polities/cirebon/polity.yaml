@@ -1,0 +1,126 @@
+id: cirebon
+region: java-and-bali
+
+name:
+  latin: Sultanate of Cirebon
+  script: null
+  script_lang: null
+
+# 1479 is the date graaf-pigeaud-1974 treats as reasonably secure for Sunan
+# Gunung Jati's establishment of an independent Muslim polity at Cirebon,
+# rather than the earlier, more legendary dates some Cirebonese tradition
+# gives for the settlement itself. 1809 is Daendels' Reglement van Bestuur
+# voor de Cheribonsche Landen, which ended the sultans' political authority
+# without removing them physically or abolishing their titles.
+span:
+  start: { min: 1479, max: 1479, source: graaf-pigeaud-1974 }
+  end: { min: 1809, max: 1809, source: ricklefs-2008 }
+
+identity: >-
+  The port on Java's north coast where Sunan Gunung Jati, one of the nine
+  saints credited with converting Java to Islam, built an independent state
+  before dividing his own family's inheritance between two of his lines and
+  spending the next two centuries as a client of larger neighbours.
+
+capitals:
+  - { name: Cirebon, from: 1479, source: graaf-pigeaud-1974 }
+
+core_region: The north coast of West Java, between the Cimanuk and Cipunagara rivers
+
+rulers:
+  founder: { name: "Sunan Gunung Jati (Syarif Hidayatullah)", reign: [1479, 1568], source: graaf-pigeaud-1974 }
+  # No consulted source identifies a later ruler as presiding over greater
+  # power than the founder did; every reign after Gunung Jati's own is a
+  # contraction of the position he left, first under Mataram and then under
+  # the VOC.
+  peak: { name: null, source: null }
+  # The 1677 division installed two co-equal sultans at once, Sultan Sepuh
+  # and Sultan Anom, and a third princely line followed later; no single
+  # ruler was on the throne, or on either throne, in 1809, and this site does
+  # not choose one line as the sultanate for the purpose of naming a last
+  # ruler.
+  last: { name: null, source: null }
+
+scripts_and_languages:
+  administration: [Javanese, Sundanese, Malay]
+  writing_system: Jawi, from the sultanate's founding
+
+# The Dutch East India Company and the colonial government that inherited
+# its territories have no record here, so `by` is empty rather than pointed
+# at a polity this site does not carry.
+ended:
+  type: gradual absorption
+  by: []
+  year: 1809
+  source: ricklefs-2008
+
+institutions:
+  military_basis: null
+  # The customs of a port on the main coastal shipping lane of Java, and the
+  # rice-growing plain behind it. Unranked.
+  revenue_basis: { values: [land-tax, trade-toll], source: graaf-pigeaud-1974 }
+  succession_rule: null
+  # Descent from Sunan Gunung Jati, and — uniquely on this coast — a claim to
+  # sainthood as well as sovereignty: Gunung Jati is one of the Wali Songo,
+  # the nine saints credited with converting Java to Islam, and his tomb on
+  # Gunung Sembung above the city was and remains a major pilgrimage site in
+  # its own right. `divine-sanction` is coded for that religious standing
+  # rather than for any claim of the kind a caliph's investiture would make.
+  legitimation: { values: [descent, divine-sanction], source: graaf-pigeaud-1974 }
+
+turning_points:
+  - year: 1479
+    type: conversion
+    name: "Gunung Jati breaks from Sunda"
+    changed: >-
+      Syarif Hidayatullah, a Muslim preacher connected by descent to the
+      Sundanese royal house and by marriage to the sultan of Demak,
+      established Cirebon as an independent Muslim polity rather than a
+      tributary of the still-Hindu Sunda kingdom to its west. It planted
+      Islam on ground the Sunda court had never converted and gave the
+      religion a second base on Java's north coast beside Demak's own.
+    source: graaf-pigeaud-1974
+    contested: true
+  - year: 1613
+    type: treaty
+    name: "Cirebon accepts Mataram"
+    changed: >-
+      The rising inland power of Mataram brought Cirebon under its
+      overlordship, ending nearly a century and a half of independence for
+      the port Gunung Jati had founded. Cirebon kept its own ruling house and
+      its religious prestige but lost the freedom of action it had held since
+      the fifteenth century.
+    source: ricklefs-2008
+    contested: false
+  - year: 1677
+    type: succession-crisis
+    name: "The sultanate divided in two"
+    changed: >-
+      With Mataram itself in the middle of the Trunajaya rebellion, Sultan
+      Ageng of Banten took two captive Cirebonese princes under his
+      protection and had both crowned, installing Sultan Sepuh and Sultan
+      Anom as co-equal rulers of separate courts in the same city. A single
+      line founded by one man became two rival households, and a third,
+      smaller princely line split off from one of them later still.
+    source: ricklefs-2008
+    contested: false
+  - year: 1809
+    type: reform
+    name: "Daendels ends the sultans' authority"
+    changed: >-
+      Governor-General Daendels issued a regulation for the government of the
+      Cirebon lands that removed whatever administrative authority the
+      divided sultans still held, completing a decline that had been running
+      since the Dutch East India Company first inserted itself into disputes
+      between the courts. The sultans kept their titles, their palaces and
+      their religious standing; they stopped being rulers of anything.
+    source: ricklefs-2008
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
