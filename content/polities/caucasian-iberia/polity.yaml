@@ -120,6 +120,21 @@ turning_points:
       the later medieval kingdom of Georgia, and still there.
     source: suny-1994
     contested: false
+  - year: 580
+    type: reform
+    name: "The crown abolished, a presiding prince installed"
+    changed: >-
+      The Sasanians abolished the Iberian monarchy after Bakur III's death
+      and governed through a marzban - the last of the three Caucasian
+      crowns to go, after Armenia in 428 and Albania in 510. What replaced
+      it in 588, an erismtavari chosen from the noble houses and
+      recognised by whichever empire was currently paramount, changed who
+      signed the negotiation and little else: the kingdom's own throne had
+      been a matter disposed of from outside since 298, and the houses
+      that actually governed the country held their districts, fortresses
+      and cavalry before the crown and went on holding them after it.
+    source: suny-1994
+    contested: false
 
 measures:
   reach_km2: null
