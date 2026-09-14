@@ -315,11 +315,12 @@ regions:
   - id: rome-and-byzantium
     name: Rome and Byzantium
     blurb: >-
-      The Roman republic, the empire it became, the eastern half that outlived
-      the empire by a thousand years, and the two governments that held or
-      claimed Constantinople in the fifty-seven years the Fourth Crusade took
-      it away. One continuous object that this site is obliged to cut into
-      five records, and every page here says so.
+      Legendary Rome under its kings, the republic that replaced them, the
+      empire the republic became, the eastern half that outlived the empire
+      by a thousand years, and the two governments that held or claimed
+      Constantinople in the fifty-seven years the Fourth Crusade took it
+      away. One continuous object that this site is obliged to cut into six
+      records, and every page here says so.
     group: mediterranean
     thread: true
 

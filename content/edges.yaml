@@ -2047,6 +2047,19 @@ edges:
 
   # ---- Rome, and the people who wanted its name ----
 
+  - from: roman-kingdom
+    to: roman-republic
+    type: overthrew
+    year: -509
+    note: >-
+      Tarquin the Proud was driven out after his son's rape of Lucretia, and
+      the office of king was abolished outright rather than reformed or
+      inherited - replaced by two annually elected consuls in a design built
+      specifically to prevent the thing that had just been removed from ever
+      being rebuilt through the same office.
+    source: livy-roberts
+    contested: true
+
   - from: roman-republic
     to: roman
     type: claimed legitimacy of

@@ -1,0 +1,114 @@
+id: roman-kingdom
+region: rome-and-byzantium
+
+name:
+  latin: Roman Kingdom
+  script: Regnum Romanum
+  script_lang: la
+
+# 753 is the traditional founding date, calculated backward by the Roman
+# scholar Varro in the first century BC from the fixed list of seven kings
+# and no independent contemporary record; 509 is the traditional expulsion of
+# Tarquin the Proud, the same year this site's Roman Republic record opens
+# with. Both dates are the Roman tradition's own chronology rather than an
+# independently verified one, and the fourth chapter is about the gap between
+# that chronology and what the archaeological record actually supports.
+span:
+  start: { min: -753, max: -753, source: livy-roberts }
+  end: { min: -509, max: -509, source: livy-roberts }
+
+identity: >-
+  Legendary Rome under seven kings, most of it unverifiable as documented
+  history, credited by the Romans themselves with founding the city and
+  every institution the kingless state that followed inherited wholesale.
+
+capitals:
+  - { name: Rome, script: Roma, from: -753, source: livy-roberts }
+
+core_region: The Palatine and the hills around it, expanding to the plain of Latium
+
+rulers:
+  # Legend, not a documented individual. Entered because it is the founding
+  # figure the Roman tradition itself named and dated everything else from,
+  # not because a contemporary record of him exists - none does, and none
+  # could.
+  founder: { name: Romulus, source: livy-roberts }
+  # Servius Tullius is the traditional peak on institutional grounds - the
+  # census, the military classes, the extension of the city - not on
+  # documentary ones. Some of what later tradition credits to him, including
+  # the wall that still carries his name, is now dated archaeologically to
+  # more than a century after his own traditional reign. The fourth chapter
+  # sets out what can and cannot be attributed to him with confidence.
+  peak: { name: Servius Tullius, source: livy-roberts }
+  last: { name: "Tarquin the Proud (Lucius Tarquinius Superbus)", source: livy-roberts }
+
+scripts_and_languages:
+  administration: [Latin]
+  writing_system: null
+
+# No `preceded_by_external`. The tradition itself has nothing at this site to
+# be preceded by: Rome, in the Roman account of its own founding, is built on
+# ground with no prior state on it, only villages of the kind the fourth
+# chapter's archaeology describes.
+preceded_by_external: []
+
+ended:
+  type: internal usurpation
+  by: []
+  year: -509
+  source: livy-roberts
+
+institutions:
+  # Null. What the tradition describes - a king's own retinue, and Latin
+  # citizens mustered by the classes Servius Tullius's census is credited
+  # with creating - is itself the material the fourth chapter argues cannot
+  # be taken as a documented arrangement for the sixth century BC, let alone
+  # for the two centuries before it. Coding a field from a chronology the
+  # record's own sources cannot verify would assert more than is known.
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  # `divine-sanction` and `descent` both appear in the tradition - Romulus a
+  # son of Mars, later kings ruling by a mixture of election by the people
+  # and confirmation by augury, the taking of omens believed to show the
+  # gods' own approval - but no source consulted here treats the claim as
+  # documented rather than as the origin legend explaining it. Left null
+  # rather than coded from material the kingdom's own institutions field
+  # above declines for the same reason.
+  legitimation: null
+
+turning_points:
+  - year: -753
+    type: revolt
+    name: "Romulus founds the city"
+    changed: >-
+      A herdsman raised on the Tiber's bank after being exposed as an infant
+      and, by the tradition, suckled by a wolf, killed his own brother in a
+      dispute over which hill the new city should be built on and which of
+      them the gods had favoured by augury, and gave the city his own name.
+      Nothing about the story is independently verifiable, and the Romans
+      themselves dated their entire subsequent calendar from the year it was
+      supposed to have happened anyway.
+    source: livy-roberts
+    contested: true
+  - year: -509
+    type: revolt
+    name: "Tarquin the Proud expelled"
+    changed: >-
+      The seventh and last king was driven out after his son raped a Roman
+      noblewoman, Lucretia, who killed herself rather than live with the
+      disgrace - an episode the kingless state that followed remembered and
+      retold at greater length than almost anything else in its own early
+      history. The office of king was abolished outright and replaced with
+      two annually elected magistrates, a design built specifically against
+      the thing that had just been overthrown.
+    source: livy-roberts
+    contested: true
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
