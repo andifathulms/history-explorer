@@ -4476,3 +4476,33 @@ edges:
       strait it sits on.
     source: reid-1988
     contested: false
+
+  - from: great-moravia
+    to: bohemia
+    type: seceded from
+    year: 895
+    note: >-
+      Svatopluk of Moravia had reduced Bohemia to a subject duchy under
+      his own direct rule; his death in 894 set his sons quarrelling,
+      and the Bohemian prince Spytihněv used the opening to throw off
+      Moravian overlordship and restore the Přemyslid dynasty's own
+      independent rule over the whole of Bohemia.
+    source: lutzow-bohemia-1920
+    contested: false
+
+  # Cross-region edge, drawn in neither region's own thread per hard
+  # rule 7 (Great Moravia sits in `bohemia`, Hungary in
+  # `eastern-europe`) but real and sourced all the same, on the model
+  # of the Jazira's own outward edges.
+  - from: great-moravia
+    to: hungary
+    type: conquered by
+    year: 907
+    note: >-
+      A joint German-Slav army raised to meet the Magyar advance broke
+      at Pressburg, and the Magyars overran Moravia in the campaign
+      that followed, holding it for more than half a century - the
+      conquest the Kingdom of Hungary's own record traces its
+      beginning to.
+    source: lutzow-bohemia-1920
+    contested: false

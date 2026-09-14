@@ -478,17 +478,19 @@ regions:
   # and its Hussite revolt and Habsburg absorption sit far closer to the
   # pattern of Poland and Hungary than to anything in that region.
   #
-  # `thread: false`: a single record for now, per the standard workflow of
-  # adding one polity before any thread is drawn.
+  # `thread: true` since a real sourced edge - Great Moravia to Bohemia,
+  # "seceded from," 895 - now joins two of the region's own polities.
   - id: bohemia
     name: Bohemia
     blurb: >-
       The Czech-speaking kingdom of the Přemyslid and Luxembourg dynasties,
       an Elector of the Holy Roman Empire that briefly held the Imperial
       throne itself, and the country whose Hussite revolt produced Latin
-      Christendom's first state to break openly with Rome and survive it.
+      Christendom's first state to break openly with Rome and survive it -
+      grown from a Moravian empire whose own princes' quarrel let the
+      Magyars conquer it outright.
     group: northern-and-eastern-europe
-    thread: false
+    thread: true
 
   # The homeland kingdom, not the colonial offshoot: `danelaw` and
   # `viking-dublin`, in the-british-isles, are Danish and Norse

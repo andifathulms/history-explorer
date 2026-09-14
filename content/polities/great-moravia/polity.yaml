@@ -1,0 +1,170 @@
+id: great-moravia
+region: bohemia
+
+name:
+  latin: Great Moravia
+  script: Velká Morava
+  script_lang: cs
+
+span:
+  # Lützow gives no exact founding year for Mojmir I's unification of the
+  # Moravian tribes. The earliest concrete date connected to the
+  # Moravian principality in this source is 836, the consecration of a
+  # church at Neutra under a Christian Moravian prince; the latest point
+  # by which Mojmir was certainly already ruling, before the Franks
+  # deposed him, is 846. The span brackets those two sourced years
+  # rather than inventing a founding date the source does not give.
+  start: { min: 836, max: 846, source: lutzow-bohemia-1920 }
+  # The Magyar conquest is dated by the source only "about the time of"
+  # the Battle of Pressburg (907), with the source explicitly noting
+  # that "the exact date cannot be ascertained in the complete absence
+  # of contemporary evidence."
+  end: { min: 906, max: 907, source: lutzow-bohemia-1920 }
+
+identity: >-
+  A Slavic empire built by a Frankish-installed prince who turned
+  independent, whose ruler Rostislav brought in Cyril and Methodius to
+  build a Slavic-language Church free of German clergy, and which
+  reached from Kraków to Magdeburg under Svatopluk before its own
+  princes' quarrels let the Magyars conquer it outright.
+
+capitals:
+  - { name: "Nitra (Neutra)", source: lutzow-bohemia-1920 }
+
+core_region: The Morava river valley, later extended into Bohemia, Slovakia, Silesia and parts of Pannonia
+
+rulers:
+  # No reign dates survive for Mojmir I in this source, only that he was
+  # already ruling "about the middle of the ninth century" and was
+  # deposed by a Frankish army in 846.
+  founder: { name: Mojmir I, source: lutzow-bohemia-1920 }
+  # Svatopluk's own reach - Kraków and its Polish hinterland, Silesia, a
+  # swath of northern Germany as far as Magdeburg, and northern Bohemia
+  # all acknowledging his supremacy - is the furthest extent any ruler
+  # on this record commanded, matching the source's own description of
+  # him as "the chief of a mighty Slavonic empire."
+  peak: { name: Svatopluk I, reign: [871, 894], source: lutzow-bohemia-1920 }
+  # The source names only the succession dispute between Svatopluk's two
+  # sons, Mojmir and Svatopluk, as the last event of the reigning house
+  # before the Magyar conquest, without giving either brother's own
+  # reign dates or stating outright which of them held the throne when
+  # the empire fell - reflecting the source's own note that "the
+  # chronology of Bohemia is at this time still very uncertain," which
+  # applies with at least as much force to Moravia's own final years.
+  last: { name: Mojmir II, source: lutzow-bohemia-1920 }
+
+scripts_and_languages:
+  administration: [Old Church Slavonic, Latin]
+  # Lützow's own text credits Constantine (Cyril) with inventing "the
+  # Cyrillic alphabet" for his Slavic Bible translation; this record
+  # follows the source's own naming rather than substituting the
+  # Glagolitic attribution later scholarship has settled on.
+  writing_system: The Cyrillic alphabet (per Lützow's own account)
+
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  # Rostislav is explicitly described as "invested with sovereignty by
+  # the Germans," and the throne otherwise passed within one family
+  # (Mojmir, his nephew Rostislav, Rostislav's nephew Svatopluk, then
+  # Svatopluk's own sons) across the whole span this record covers.
+  legitimation: { values: [investiture, descent], source: lutzow-bohemia-1920 }
+
+preceded_by_external: []
+
+succeeded_by_external: []
+
+# The Magyars, per this source, "entirely conquered Moravia, which
+# remained in their power for more than half a century; only a small
+# western district fell to Bohemia" - the Kingdom of Hungary that later
+# grew from that conquest is a record in this collection, region
+# eastern-europe, and carries the edge in edges.yaml (cross-region
+# edges are drawn nowhere on the map but are real and sourced all the
+# same, per the standard set for the Jazira's own outward edges).
+ended:
+  type: conquest
+  by: [hungary]
+  year: 907
+  source: lutzow-bohemia-1920
+
+turning_points:
+  - year: 846
+    type: succession-crisis
+    name: "Louis the German deposes Mojmir"
+    changed: >-
+      A Frankish army under Louis "the German" deposed Mojmir and set
+      his own nephew Rostislav on the Moravian throne in his place - a
+      client appointment that backfired badly, since the man the Franks
+      had chosen to obey them would spend the following decade trying
+      to pry his own country loose from their grip instead.
+    source: lutzow-bohemia-1920
+    contested: false
+  - year: 863
+    type: conversion
+    name: "Cyril and Methodius arrive"
+    changed: >-
+      Answering Rostislav's own request for teachers who could preach
+      "in our own language," the Byzantine Emperor sent the brothers
+      Constantine and Methodius, who built a Slavic-language liturgy
+      and Church independent of the German clergy Rostislav distrusted
+      - a mission with as much political purpose, in the source's own
+      judgment, as religious.
+    source: lutzow-bohemia-1920
+    contested: false
+  - year: 871
+    type: battle
+    name: "Svatopluk turns on his own captors"
+    changed: >-
+      Svatopluk, who had betrayed his own uncle Rostislav to the Franks
+      the previous year and was then imprisoned in turn by the same
+      Germans he had served, broke free, put himself at his own
+      countrymen's head, and wiped out the pursuing force - both
+      Austrian margraves dead among the casualties - to become
+      Moravia's sole and unchallenged ruler.
+    source: lutzow-bohemia-1920
+    contested: false
+  - year: 874
+    type: treaty
+    name: "The Treaty of Forcheim"
+    changed: >-
+      After Svatopluk carried the war into Germany itself, King Louis
+      agreed terms that secured Svatopluk his conquests in northern
+      Hungary under nominal German overlordship alone - a peace that
+      let Moravia's own empire expand toward the reach it held at its
+      height, from Kraków to the Bohemian interior.
+    source: lutzow-bohemia-1920
+    contested: false
+  - year: 894
+    type: succession-crisis
+    name: "Svatopluk's death and the empire's ruin"
+    changed: >-
+      Svatopluk's death broke Moravia's own unity: his sons Mojmir and
+      Svatopluk fell to fighting each other over the succession, and
+      the Bohemian prince Spytihněv seized the resulting disorder as
+      his own chance to break free of Moravian control and put an
+      independent Přemyslid back in charge of Bohemia - the largest
+      single territory Svatopluk's own empire ever lost.
+    source: lutzow-bohemia-1920
+    contested: false
+  - year: 907
+    type: catastrophe
+    name: "The Magyar conquest"
+    changed: >-
+      A combined German and Slavic force meant to check the Magyar
+      advance instead broke apart at Pressburg, and the victors went on
+      to occupy Moravia itself for the next half-century and more -
+      erasing, in a campaign whose own date the source cannot pin down
+      with confidence, an empire that had once stretched from the Elbe
+      to the Carpathians.
+    source: lutzow-bohemia-1920
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
