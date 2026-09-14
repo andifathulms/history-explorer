@@ -478,8 +478,9 @@ regions:
   # and its Hussite revolt and Habsburg absorption sit far closer to the
   # pattern of Poland and Hungary than to anything in that region.
   #
-  # `thread: true` since a real sourced edge - Great Moravia to Bohemia,
-  # "seceded from," 895 - now joins two of the region's own polities.
+  # `thread: true` since real sourced edges - Great Moravia to Bohemia,
+  # "seceded from," 895; Bohemia to the Habsburg Monarchy, "conquered
+  # by," 1620 - now join three of the region's own polities in a chain.
   - id: bohemia
     name: Bohemia
     blurb: >-
@@ -488,7 +489,8 @@ regions:
       throne itself, and the country whose Hussite revolt produced Latin
       Christendom's first state to break openly with Rome and survive it -
       grown from a Moravian empire whose own princes' quarrel let the
-      Magyars conquer it outright.
+      Magyars conquer it outright, and absorbed in turn into the Habsburg
+      Monarchy its own kings had helped build.
     group: northern-and-eastern-europe
     thread: true
 

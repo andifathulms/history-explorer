@@ -1,0 +1,132 @@
+id: habsburg-monarchy
+region: bohemia
+
+name:
+  latin: The Habsburg Monarchy
+  script: Habsburgermonarchie
+  script_lang: de
+
+# Coxe's own book dates "the foundation of the monarchy by Rhodolph of
+# Hapsburgh" to his 1273 election as King of the Romans - the point at
+# which a minor Swabian count became a crowned monarch at all, and the
+# precondition for everything that followed. Austria and Styria did
+# not become the family's own territory until Rudolf invested his sons
+# with them at the Diet of Augsburg in December 1282; that acquisition
+# is carried below as a turning point rather than the span's own start,
+# following the source's own periodization.
+span:
+  start: { min: 1273, max: 1273, source: coxe-austria-1847 }
+  # This record currently runs only to Rudolf I's own death in 1291 -
+  # the last event its sourced chapters cover, not an institutional
+  # end. The Habsburg Monarchy has no end within this source's own
+  # scope, let alone in reality: it continued, through the Austrian
+  # Empire and Austria-Hungary, into the twentieth century.
+  end: { min: 1291, max: 1291, source: coxe-austria-1847 }
+
+identity: >-
+  A minor Swabian count's family raised to the crown of Germany by
+  electors who wanted a monarch too weak to master them, and who used
+  that crown to destroy the most powerful king in the empire and settle
+  his own conquered duchies of Austria and Styria on his sons.
+
+capitals:
+  - { name: Vienna, from: 1280, source: coxe-austria-1847 }
+
+core_region: The Duchies of Austria and Styria, along the middle Danube
+
+rulers:
+  # Coxe's own subtitle names Rudolf "the great founder of the House of
+  # Austria," even though he never personally held the title Duke of
+  # Austria - he settled the duchy on his sons Albert and Rudolph II by
+  # investiture in 1282 and vested its sole administration in Albert
+  # alone the following year, while he himself remained King of the
+  # Romans, based elsewhere in the empire.
+  founder: { name: "Rudolf I of Habsburg (Rhodolph of Hapsburgh)", source: coxe-austria-1847 }
+  # Provisional: the only ruler this record's chapters currently cover.
+  # Centuries of Habsburg history - Charles V's global empire, Maria
+  # Theresa's reforms - remain to be added, and will very likely
+  # displace Rudolf from this field once they are.
+  peak: { name: "Rudolf I of Habsburg (Rhodolph of Hapsburgh)", reign: [1273, 1291], source: coxe-austria-1847 }
+  last: null
+
+scripts_and_languages:
+  administration: [German, Latin]
+  writing_system: Latin alphabet
+
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  # Rudolf's own crown came from election, explicitly won through a
+  # coalition of electors he cultivated by marrying his daughters to
+  # their sons - "the electors, who desired an emperor, but dreaded a
+  # master," per Coxe's own account. Austria and Styria, by contrast,
+  # passed to his own sons by his personal investiture and grant, a
+  # dynastic transfer rather than an elected one.
+  legitimation: { values: [election, investiture], source: coxe-austria-1847 }
+
+preceded_by_external: []
+
+succeeded_by_external: []
+
+# The Habsburg Monarchy does not end within this record's current
+# coverage, or in reality: it continued through the Austrian Empire
+# (1804) and Austria-Hungary (1867) into the twentieth century.
+ended: null
+
+turning_points:
+  - year: 1273
+    type: succession-crisis
+    name: "Rudolf's election as King of the Romans"
+    changed: >-
+      The electors passed over both favourites for the vacant German
+      crown - Bohemia's own king among them - and settled instead on a
+      minor Swabian count whose modest territories made him look easy
+      to control, a calculation about to be proven badly wrong.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1278
+    type: battle
+    name: "The Battle of Marchfeld"
+    changed: >-
+      Rudolf's army broke Ottokar's forces near the March river after
+      Ottokar refused every offer of peace, and Ottokar himself, unhorsed
+      and overpowered after refusing to quit the field even as his army
+      collapsed around him, was stripped of his armour and cut down in
+      revenge by noblemen whose own families he had once destroyed.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1282
+    type: reform
+    name: "Austria and Styria settled on Rudolf's sons"
+    changed: >-
+      At a diet in Augsburg, Rudolf formally granted the conquered
+      duchies of Austria and Styria to his own sons Albert and Rudolph
+      II, converting territory he had won as King of the Romans into
+      hereditary Habsburg family property for the first time - a
+      separate act, years after his own election, that made Austria
+      itself the family's own possession rather than a fief he merely
+      administered.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1291
+    type: catastrophe
+    name: "The death of Rudolf I"
+    changed: >-
+      Denied his final wish - securing the imperial crown for his own
+      son Albert while he still lived - Rudolf died at Germersheim on
+      his way to be buried among his predecessors at Speyer, leaving the
+      empire's throne open to a fresh election and his own family's
+      fortunes resting on nothing more than the two duchies he had
+      managed to hand down before the end.
+    source: coxe-austria-1847
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

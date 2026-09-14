@@ -66,17 +66,7 @@ institutions:
 
 preceded_by_external: []
 
-succeeded_by_external:
-  - name: the Habsburg Monarchy
-    type: conquered by
-    year: 1620
-    note: >-
-      The White Mountain's victors did not merely install a new king:
-      they revoked the Letter of Majesty and the elective constitution
-      the Bohemian Estates had built up over two centuries, folding the
-      kingdom into direct hereditary Habsburg rule for the next three
-      hundred years.
-    source: lutzow-bohemia-1920
+succeeded_by_external: []
 
 # A Catholic League and Imperial army broke the army of the rebel
 # Bohemian Estates and their elected king, Frederick of the Palatinate,
@@ -86,12 +76,12 @@ succeeded_by_external:
 # elective constitution and the Letter of Majesty's religious
 # settlement, both stripped away in the battle's aftermath, leaving
 # Bohemia a hereditary Habsburg crown land rather than the
-# self-governing kingdom this record describes. No successor polity
-# has a record in this collection, so `by` is empty; the sourced
-# sentence above carries the name.
+# self-governing kingdom this record describes. The Habsburg Monarchy
+# now has its own record in this collection, so the succession carries
+# as an edge in edges.yaml rather than as a sourced sentence here.
 ended:
   type: conquest
-  by: []
+  by: [habsburg-monarchy]
   year: 1620
   source: lutzow-bohemia-1920
 

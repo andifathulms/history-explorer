@@ -4506,3 +4506,16 @@ edges:
       beginning to.
     source: lutzow-bohemia-1920
     contested: false
+
+  - from: bohemia
+    to: habsburg-monarchy
+    type: conquered by
+    year: 1620
+    note: >-
+      The White Mountain's victors did not merely install a new king:
+      they revoked the Letter of Majesty and the elective constitution
+      the Bohemian Estates had built up over two centuries, folding the
+      kingdom into direct hereditary Habsburg rule for the next three
+      hundred years.
+    source: lutzow-bohemia-1920
+    contested: false
