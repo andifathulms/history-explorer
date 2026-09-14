@@ -14,19 +14,20 @@ span:
   # of Norway is dated by the saga tradition to the Battle of Hafrsfjord
   # in 872.
   start: { min: 872, max: 872, source: boyesen-norway-1886 }
-  # This record currently runs only to Olaf Tryggvason's death at the
-  # Battle of Svolder in 1000 - the last event it has sourced chapters
-  # for - not to the kingdom's actual institutional end, since Norway
-  # has none: it continues as a sovereign state to the present day.
-  # `ended` below is null for that reason as well as for the coverage
-  # reason.
-  end: { min: 1000, max: 1000, source: boyesen-norway-1886 }
+  # This record currently runs only to Olaf Haraldsson's death at the
+  # Battle of Stiklestad in 1030 - the last event it has sourced
+  # chapters for - not to the kingdom's actual institutional end, since
+  # Norway has none: it continues as a sovereign state to the present
+  # day. `ended` below is null for that reason as well as for the
+  # coverage reason.
+  end: { min: 1030, max: 1030, source: boyesen-norway-1886 }
 
 identity: >-
   A collection of Norwegian petty kingdoms Harald Fairhair united by
-  conquest at Hafrsfjord in 872, ruled afterward by Haakon the Good
-  and by the former slave Olaf Tryggvason, who forced Christianity on
-  the kingdom before drowning at Svolder in 1000.
+  conquest at Hafrsfjord in 872, converted by force under Olaf
+  Tryggvason and then Olaf Haraldsson, whose death at Stiklestad in
+  1030 made him Norway's patron saint even as the kingdom fell under
+  Danish rule.
 
 capitals: []
 
@@ -37,11 +38,12 @@ rulers:
   # year of Hafrsfjord, the decisive battle within it, not his
   # accession.
   founder: { name: "Harald Fairhair (Harald Hårfagre)", reign: [860, 930], source: boyesen-norway-1886 }
-  # Haakon the Good was more beloved, and Olaf Tryggvason's own reach -
-  # a united Norway forcibly converted to Christianity - was real but
-  # cut short after five years by his death at Svolder. Neither
-  # exceeded the territorial reach Harald's own conquest at Hafrsfjord
-  # first established, so this field stands provisional but unchanged.
+  # Haakon the Good, Olaf Tryggvason and now Olaf Haraldsson each ruled
+  # a united Norway in turn, but none exceeded the territorial reach
+  # Harald's own conquest at Hafrsfjord first established - and Olaf
+  # Haraldsson's own reign ended with Norway reduced to a Danish
+  # province, the opposite of a widening reach. This field stands
+  # confirmed rather than provisional now that four reigns are in view.
   peak: { name: "Harald Fairhair (Harald Hårfagre)", reign: [860, 930], source: boyesen-norway-1886 }
   last: null
 
@@ -127,6 +129,32 @@ turning_points:
       went over the side in full armour rather than be taken - and the
       victors divided the kingdom he had briefly forced into Christian
       unity among themselves.
+    source: boyesen-norway-1886
+    contested: false
+  - year: 1028
+    type: succession-crisis
+    name: "Cnut buys the Norwegian chiefs"
+    changed: >-
+      Years of bribery among disaffected Norwegian chieftains let Cnut
+      the Great sail into Trondheim unopposed and take the crown for
+      his own, installing a young nephew as his regent there and
+      forcing Olaf Haraldsson - already weakened and without real
+      support after a series of setbacks - into flight and, within a
+      year, exile in Russia.
+    source: boyesen-norway-1886
+    contested: false
+  - year: 1030
+    type: battle
+    name: "The Battle of Stiklestad"
+    changed: >-
+      Olaf Haraldsson's attempt to fight his way back from exile ended
+      in defeat by a peasant army roughly twice the size of his own at
+      Stiklestad, where he was struck down by two of his own former
+      subjects with old grievances against him; a total solar eclipse
+      that afternoon, which peasants took for divine anger, is a rare
+      case where modern astronomical reckoning bears the saga's own
+      account out, and his death did more than his life's own campaigns
+      to root Christianity in Norway for good.
     source: boyesen-norway-1886
     contested: false
 
