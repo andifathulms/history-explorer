@@ -79,6 +79,20 @@ institutions:
   legitimation: { values: [election, descent, divine-sanction], source: millar-1977 }
 
 turning_points:
+  - year: -27
+    type: reform
+    name: "Octavian gives the state back"
+    changed: >-
+      Octavian resigned his extraordinary powers to the senate and received in
+      return a set of ordinary ones, voted individually and by name, along
+      with the title Augustus. No office was created that had not existed
+      under the republic, no law declared the republic ended, and the senate
+      went on meeting and the consuls went on being elected for three more
+      centuries. It is the constitutional fiction the whole empire was built
+      on: a monarchy assembled out of republican parts and never given a
+      name that admitted what it was.
+    source: millar-1977
+    contested: false
   - year: 69
     type: succession-crisis
     name: The year of four emperors
@@ -142,6 +156,21 @@ turning_points:
       next century being governed by arrangements of that kind.
     source: woolf-2012
     contested: false
+  - year: 395
+    type: catastrophe
+    name: "A choice about where to cut a continuous thing"
+    changed: >-
+      Theodosius I died and the empire passed to his two sons, Arcadius in
+      the east and Honorius in the west, in an administrative division that
+      had happened before and had always been reunited - except that this
+      time it was not. Nothing constitutional occurred: the law, the army
+      and the currency remained one system in two hands, and nobody involved
+      expected the split to be permanent. What makes 395 usable as an ending
+      rather than 476 or 1453 or no date at all is only that it is the last
+      division that stuck, for reasons nobody living through it could have
+      known.
+    source: woolf-2012
+    contested: true
 
 measures:
   reach_km2: { value: 5000000, at: 117, source: taagepera-1979 }
