@@ -8,19 +8,14 @@ name:
 
 span:
   start: { min: 987, max: 987, source: kitchin-1899 }
-  # This record currently runs only to the 1685 Revocation of the
-  # Edict of Nantes - the last event it has sourced chapters for - not
-  # to the kingdom's actual institutional end at the Revolution.
-  # `ended` below is null for that reason, not because the sources
-  # leave the kingdom's later history unclear.
-  end: { min: 1685, max: 1685, source: kitchin-1899 }
+  end: { min: 1792, max: 1792, source: kitchin-1899 }
 
 identity: >-
-  A duke of a small demesne around Paris, elected king in 987, whose
-  line survived near-total English conquest and religious civil war
-  before a cardinal crushed the last Huguenot stronghold and an
-  absolute Sun King, ruling from Versailles, revoked the toleration
-  his own great-grandfather had granted.
+  A duke of a small demesne around Paris, elected king over greater
+  princes in 987, whose line ruled for eight centuries through civil
+  war, near-total English conquest and absolute monarchy, before a
+  Parisian crowd and a National Convention abolished the throne in
+  1792.
 
 capitals:
   - { name: Paris, from: 987, source: kitchin-1899 }
@@ -29,15 +24,14 @@ core_region: The Île-de-France around Paris, expanding outward across the kingd
 
 rulers:
   founder: { name: Hugh Capet, reign: [987, 996], source: kitchin-1899 }
-  # Philip IV's reign saw the crown break the Templars, force a French
-  # pope to Avignon and eclipse the papacy's own independence - the
-  # widest reach of royal authority this record's current coverage
-  # shows any Capetian king command.
-  peak: { name: "Philip IV \"the Fair\"", reign: [1285, 1314], source: kitchin-1899 }
-  # No final ruler is asserted: this record's own coverage stops in
-  # 1685, over a century short of the kingdom's real end in 1792, so
-  # there is no "last" king of this record to name yet.
-  last: null
+  # Philip IV's reign, which this record's phase: peak chapter covers,
+  # was the widest reach of medieval Capetian royal authority - but
+  # Louis XIV's seventy-two years of undivided personal rule from
+  # Versailles built a scale of centralized power no French king
+  # before or after him commanded, and this field is updated to him
+  # now that his reign is fully in view.
+  peak: { name: Louis XIV, reign: [1643, 1715], source: kitchin-1899 }
+  last: { name: Louis XVI, reign: [1774, 1792], source: kitchin-1899 }
 
 scripts_and_languages:
   administration: [Latin, French]
@@ -57,14 +51,31 @@ institutions:
 
 preceded_by_external: []
 
-succeeded_by_external: []
+succeeded_by_external:
+  - name: the French Republic
+    type: overthrew
+    year: 1792
+    note: >-
+      Six weeks after the Tuileries fell and the royal family was
+      imprisoned in the Temple, the newly elected National Convention
+      voted, on 21 September 1792, to abolish the monarchy outright and
+      proclaimed the Republic in its place.
+    source: kitchin-1899
 
-# France did not cease to exist in 1453 - the kingdom continued for
-# more than three centuries afterward. This record's own span ends
-# where its sourced coverage currently stops, not because a conquest,
-# dynastic replacement or fragmentation actually ended the kingdom
-# there.
-ended: null
+# A Parisian insurrection on 10 August 1792 overran the Tuileries and
+# forced the royal family into the Legislative Assembly's protection;
+# the National Convention elected afterward formally abolished the
+# monarchy on 21 September 1792. This was an internal overthrow of
+# the crown by its own capital and a revolutionary assembly, not a
+# conquest, a fragmentation of territory, a replacement of one royal
+# dynasty by another, or a gradual absorption into another state -
+# the same reasoning that gives Norman England's 1485 ending at
+# Bosworth its `internal usurpation` type.
+ended:
+  type: internal usurpation
+  by: []
+  year: 1792
+  source: kitchin-1899
 
 turning_points:
   - year: 987
@@ -234,6 +245,44 @@ turning_points:
       kingdom's peace on - outlawing Protestant worship outright and
       driving pastors from the realm on pain of the galleys, an act
       Louis's own court celebrated as the summit of his glory.
+    source: kitchin-1899
+    contested: false
+  - year: 1715
+    type: succession-crisis
+    name: "Death of Louis XIV"
+    changed: >-
+      Louis XIV died after seventy-two years on the throne, leaving
+      the crown to a great-grandson not yet six years old, opening a long
+      regency; his own deathbed advice to spend less and love war less
+      went unheeded, and the reign that followed is remembered in the
+      sources drawn on here as the start of the monarchy's decline
+      rather than its continuation.
+    source: kitchin-1899
+    contested: false
+  - year: 1789
+    type: revolt
+    name: "The storming of the Bastille"
+    changed: >-
+      A Parisian crowd already armed from seizing the royal arsenal at
+      the Invalides took the Bastille within hours despite its
+      garrison's surrender terms, and razed it in the weeks after -
+      destroying, in the act, the clearest physical symbol of the old
+      monarchy's arbitrary power and leaving Louis XVI's own authority
+      dependent on the goodwill of a capital that had just defeated
+      him without a real battle.
+    source: kitchin-1899
+    contested: false
+  - year: 1792
+    type: revolt
+    name: "The fall of the monarchy"
+    changed: >-
+      An insurrection on 10 August overran the Tuileries, destroyed
+      the royal guard defending it, and forced the royal family into
+      the Legislative Assembly's keeping; six weeks later a newly elected
+      National Convention formally declared the monarchy abolished and
+      proclaimed a Republic, closing eight hundred and five years of
+      rule by the line an assembly of nobles had raised over their
+      equals at Noyon.
     source: kitchin-1899
     contested: false
 
