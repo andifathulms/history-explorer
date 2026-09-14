@@ -14,19 +14,21 @@ span:
   # of Norway is dated by the saga tradition to the Battle of Hafrsfjord
   # in 872.
   start: { min: 872, max: 872, source: boyesen-norway-1886 }
-  # This record currently runs only to Harald Hardrada's death at the
-  # Battle of Stamford Bridge in 1066 - the last event it has sourced
-  # chapters for - not to the kingdom's actual institutional end, since
-  # Norway has none: it continues as a sovereign state to the present
-  # day. `ended` below is null for that reason as well as for the
-  # coverage reason.
-  end: { min: 1066, max: 1066, source: boyesen-norway-1886 }
+  # This record currently runs only to Sverre Sigurdsson's decisive
+  # victory over King Magnus Erlingsson at the Battle of Norefjord in
+  # 1184 - the last event it has sourced chapters for, skipping the
+  # intervening century of civil war this record has not yet reached -
+  # not to the kingdom's actual institutional end, since Norway has
+  # none: it continues as a sovereign state to the present day. `ended`
+  # below is null for that reason as well as for the coverage reason.
+  end: { min: 1184, max: 1184, source: boyesen-norway-1886 }
 
 identity: >-
   A collection of Norwegian petty kingdoms Harald Fairhair united by
   conquest at Hafrsfjord in 872, briefly joined to Denmark under
-  Magnus the Good, and ruled afterward by his uncle Harald Hardrada,
-  who died invading England at Stamford Bridge in 1066.
+  Magnus the Good, and ruled after a century of civil war by Sverre
+  Sigurdsson, a Faroese priest turned rebel leader who won the throne
+  outright at Norefjord in 1184.
 
 capitals: []
 
@@ -179,6 +181,31 @@ turning_points:
       through the throat, Tostig fell fighting on after him, and what
       remained of the army straggled back to its ships under cover of
       dusk - the end, in most tellings, of the Viking Age itself.
+    source: boyesen-norway-1886
+    contested: false
+  - year: 1181
+    type: battle
+    name: "The Battle of Nordnes"
+    changed: >-
+      Sverre Sigurdsson, standing exposed under a hail of missiles
+      without a shield, sang a hymn through a naval battle he was
+      losing until King Magnus Erlingsson was wounded and fell on his
+      own blood-slicked deck; a commander who assumed the king dead cut
+      his fleet's mooring ropes and fled, handing a battle Magnus had
+      been on the point of winning to Sverre's own Birchlegs instead.
+    source: boyesen-norway-1886
+    contested: false
+  - year: 1184
+    type: battle
+    name: "The Battle of Norefjord"
+    changed: >-
+      Fourteen Birchleg ships, caught by surprise while punishing a
+      rebellious district, were surrounded by a royal fleet nearly
+      twice their number under King Magnus - and won regardless, in
+      fighting that ran past midnight and killed two thousand men
+      including Magnus himself, who drowned rather than be taken;
+      his death ended organized resistance to Sverre's own claim to a
+      throne no one could ever prove or disprove he was born to.
     source: boyesen-norway-1886
     contested: false
 
