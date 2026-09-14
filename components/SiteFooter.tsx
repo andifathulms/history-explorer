@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { Mark } from '@/components/Mark'
+import { MakerSignature } from '@/components/MakerSignature'
 
 const columns = [
   {
@@ -68,10 +69,22 @@ export function SiteFooter() {
           ))}
         </div>
 
-        <p className="mt-12 border-t border-dawat-edge pt-6 font-mono text-micro uppercase text-debu-paper">
-          Chapters drafted against named sources · coverage follows one person&rsquo;s
-          curiosity and claims no completeness
-        </p>
+        {/* One seam across the foot of the page, not two.
+
+            The standing note about sourcing and the maker's credit are
+            different kinds of statement — what the site promises about its
+            figures, and who made it — so they are kept apart rather than run
+            into one sentence. But a second rule to separate them would have
+            made the footer end in a stack of bars, so they share this one:
+            note on the left, credit on the right, stacked on a phone. */}
+        <div className="mt-12 flex flex-col gap-8 border-t border-dawat-edge pt-6 sm:flex-row sm:items-start sm:justify-between sm:gap-12">
+          <p className="max-w-[54ch] font-mono text-micro uppercase text-debu-paper">
+            Chapters drafted against named sources · coverage follows one
+            person&rsquo;s curiosity and claims no completeness
+          </p>
+
+          <MakerSignature />
+        </div>
       </div>
     </footer>
   )
