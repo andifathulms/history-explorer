@@ -8,19 +8,19 @@ name:
 
 span:
   start: { min: 987, max: 987, source: kitchin-1899 }
-  # This record currently runs only to Henry IV's assassination in
-  # 1610 - the last event it has sourced chapters for - not to the
-  # kingdom's actual institutional end at the Revolution. `ended`
-  # below is null for that reason, not because the sources leave the
-  # kingdom's later history unclear.
-  end: { min: 1610, max: 1610, source: kitchin-1899 }
+  # This record currently runs only to the 1685 Revocation of the
+  # Edict of Nantes - the last event it has sourced chapters for - not
+  # to the kingdom's actual institutional end at the Revolution.
+  # `ended` below is null for that reason, not because the sources
+  # leave the kingdom's later history unclear.
+  end: { min: 1685, max: 1685, source: kitchin-1899 }
 
 identity: >-
   A duke of a small demesne around Paris, elected king in 987, whose
-  line survived near-total English conquest in the Hundred Years' War
-  and decades of religious civil war, ending only when a converted
-  Huguenot king secured toleration by edict and was murdered for it
-  in 1610.
+  line survived near-total English conquest and religious civil war
+  before a cardinal crushed the last Huguenot stronghold and an
+  absolute Sun King, ruling from Versailles, revoked the toleration
+  his own great-grandfather had granted.
 
 capitals:
   - { name: Paris, from: 987, source: kitchin-1899 }
@@ -35,8 +35,8 @@ rulers:
   # shows any Capetian king command.
   peak: { name: "Philip IV \"the Fair\"", reign: [1285, 1314], source: kitchin-1899 }
   # No final ruler is asserted: this record's own coverage stops in
-  # 1453, centuries short of the kingdom's real end in 1792, so there
-  # is no "last" king of this record to name yet.
+  # 1685, over a century short of the kingdom's real end in 1792, so
+  # there is no "last" king of this record to name yet.
   last: null
 
 scripts_and_languages:
@@ -198,6 +198,42 @@ turning_points:
       life of the man who had closed France's religious wars and the
       wider continental plans he had been assembling against Spain and
       the Habsburgs, leaving the kingdom to a regency under his widow.
+    source: kitchin-1899
+    contested: false
+  - year: 1628
+    type: siege
+    name: "The fall of La Rochelle"
+    changed: >-
+      Cardinal Richelieu directed a fourteen-month siege in person,
+      closing La Rochelle's harbour with an engineered mole that
+      defeated two English relief attempts and starved the town into
+      surrender - ending the last fortified Huguenot refuge the Edict
+      of Nantes had guaranteed, and with it the last French town ever
+      to stand up against the crown until 1789.
+    source: kitchin-1899
+    contested: false
+  - year: 1661
+    type: reform
+    name: "Louis XIV takes personal rule"
+    changed: >-
+      On Cardinal Mazarin's death, Louis XIV, king in name since
+      childhood but content until then to let his minister govern,
+      chose to appoint no successor and divided administration instead
+      among secretaries who answered to him alone - opening a
+      fifty-four-year personal reign built on the same centralizing
+      logic that had razed La Rochelle's walls a generation before.
+    source: kitchin-1899
+    contested: false
+  - year: 1685
+    type: reform
+    name: "Revocation of the Edict of Nantes"
+    changed: >-
+      Judging, on flattering and mistaken advice, that scarcely any
+      genuine Huguenots remained to protect, Louis XIV signed away the
+      religious settlement his own great-grandfather had built a
+      kingdom's peace on - outlawing Protestant worship outright and
+      driving pastors from the realm on pain of the galleys, an act
+      Louis's own court celebrated as the summit of his glory.
     source: kitchin-1899
     contested: false
 
