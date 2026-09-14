@@ -14,18 +14,19 @@ span:
   # the Old, undated in this source beyond his son Harald Bluetooth's
   # own reign, given here as beginning in 940.
   start: { min: 940, max: 940, source: stefansson-denmark-1916 }
-  # This record currently runs only to Valdemar II's death in 1241 -
-  # the last event it has sourced chapters for - not to the kingdom's
+  # This record currently runs only to the 1397 Kalmar Union coronation
+  # - the last event it has sourced chapters for - not to the kingdom's
   # actual institutional end, since Denmark has none: it continues as a
   # sovereign state to the present day. `ended` below is null for that
   # reason as well as for the coverage reason.
-  end: { min: 1241, max: 1241, source: stefansson-denmark-1916 }
+  end: { min: 1397, max: 1397, source: stefansson-denmark-1916 }
 
 identity: >-
-  A Viking-age kingdom that entered history through its own runestones,
-  ruled Norway and England together under Cnut the Great, and built a
-  near-equal Baltic dominion under Valdemar II before a rival's
-  treachery undid it within a single year.
+  A Viking-age kingdom that ruled Norway and England together under
+  Cnut the Great, nearly vanished into foreign mortgage and eight
+  kingless years in the 1330s, and was rebuilt by Valdemar Atterdag
+  before Queen Margaret bound Denmark, Norway and Sweden under one
+  crown at Kalmar in 1397.
 
 capitals:
   - { name: Roskilde, source: stefansson-denmark-1916 }
@@ -40,11 +41,14 @@ rulers:
   # Anglo-Scandinavian empire with no real precedent in the North.
   # Valdemar II later built a Baltic dominion Stefánsson himself judges
   # the widest Denmark held since Cnut, but explicitly ranks it second
-  # to Cnut's own reach, so this field stands confirmed rather than
-  # provisional now that both eras are in view.
+  # to Cnut's own reach. The 1397 Kalmar Union - Denmark, Norway and
+  # Sweden under one crown for well over a century - is a real rival
+  # claim to this field, engineered by Queen Margaret rather than by
+  # Eric of Pomerania, its own crowned king; left as Cnut for now, to
+  # be revisited once the Union's own full run is in view.
   peak: { name: Cnut the Great, reign: [1016, 1035], source: stefansson-denmark-1916 }
-  # No final ruler is asserted: this record's own coverage stops at
-  # Valdemar II's death in 1241, well short of the present day, so
+  # No final ruler is asserted: this record's own coverage stops at the
+  # 1397 Kalmar Union coronation, well short of the present day, so
   # there is no "last" king of this record to name - and, since Denmark
   # has never institutionally ended, may never be one.
   last: null
@@ -160,6 +164,54 @@ turning_points:
       away for good that same year - reducing a Baltic dominion that
       had briefly rivalled Cnut's own empire to the single island of
       Rügen.
+    source: stefansson-denmark-1916
+    contested: false
+  - year: 1340
+    type: succession-crisis
+    name: "Valdemar IV ends the interregnum"
+    changed: >-
+      A Jutland nobleman's killing of the occupying Count Gerhard III
+      of Holstein ended eight kingless years during which the realm sat
+      divided among foreign creditors, and opened the way for
+      Christopher II's youngest son to be elected king with nothing to
+      his name but the revenue of a single county - and, within a
+      decade, to have bought and fought back most of what his
+      predecessors had signed away.
+    source: stefansson-denmark-1916
+    contested: false
+  - year: 1370
+    type: treaty
+    name: "The Peace of Stralsund"
+    changed: >-
+      An alliance of dozens of Hanseatic trading cities, joined by
+      Sweden, Mecklenburg and Holstein, forced Valdemar Atterdag abroad for
+      three years and, on his return, into a humiliating peace granting
+      the Hansa the revenues of West Scania for sixteen years and a
+      veto over the election of any future Danish king.
+    source: stefansson-denmark-1916
+    contested: false
+  - year: 1389
+    type: battle
+    name: "The Battle of Falköping"
+    changed: >-
+      Sweden's own discontented nobles had already offered Margaret
+      their crown on onerous terms when her forces captured King
+      Albrecht outright on the field at Falköping - leaving her, a
+      childless widow with no formal claim of her own, ruling what
+      contemporaries called the largest monarchy in Europe.
+    source: stefansson-denmark-1916
+    contested: false
+  - year: 1397
+    type: treaty
+    name: "The Kalmar Union"
+    changed: >-
+      Margaret's grand-nephew Eric of Pomerania was crowned ruler of all
+      three Scandinavian kingdoms in one ceremony at Kalmar, and the
+      assembled lords of all three kingdoms spent weeks afterward
+      drafting terms for a lasting union under one sovereign - though
+      only the coronation document itself was ever fully sealed, the
+      fuller constitutional draft left short of ratification by every
+      Norwegian councillor present.
     source: stefansson-denmark-1916
     contested: false
 
