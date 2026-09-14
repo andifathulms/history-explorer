@@ -118,6 +118,20 @@ turning_points:
       describing as broken beyond repair.
     source: hydatius-tamimi
     contested: false
+  - year: 585
+    type: conquest
+    name: "A conquest without a chronicle of its own"
+    changed: >-
+      Leovigild finished in 585 what Theodoric's campaign had only
+      interrupted in 456, absorbing Gallaecia into Visigothic Spain for
+      good. Nobody wrote down the name of the Suevi king he defeated or
+      any detail of the campaign beyond the bare fact of the outcome — a
+      kingdom whose formation is documented almost day by day by a
+      bishop who lived through it, and whose actual end, more than a
+      century later, survives only as a single sentence in someone
+      else's history.
+    source: collins-2004
+    contested: false
 
 measures:
   reach_km2: null
