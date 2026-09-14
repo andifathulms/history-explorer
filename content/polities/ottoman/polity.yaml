@@ -132,6 +132,21 @@ turning_points:
       word decline.
     source: finkel-2005
     contested: false
+  - year: 1922
+    type: succession-crisis
+    name: "The Assembly abolishes the sultanate"
+    changed: >-
+      On 1 November the Grand National Assembly at Ankara abolished the
+      sultanate after a committee deadlock over separating it from the
+      caliphate. Mustafa Kemal told the Assembly that sovereignty is
+      acquired by force and was now being carried on by the nation that
+      had won it, and the vote he warned would otherwise come "in the
+      necessary form" passed unanimously the same afternoon. Mehmed VI
+      did not contest it: on 17 November he left Constantinople under
+      British protection, asking after his family by wireless from the
+      ship.
+    source: nutuk-1929
+    contested: false
 
 measures:
   reach_km2: { value: 5200000, at: 1683, source: taagepera-1997 }
