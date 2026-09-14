@@ -14,19 +14,21 @@ span:
   # nephew Styrbjörn at the Battle of Fyrisvellen, near Uppsala, is
   # dated by the sources only approximately, to around 983.
   start: { min: 983, max: 983, source: stefansson-denmark-1916 }
-  # This record now runs to Gustav Vasa's death in 1560 - the last
-  # event it has sourced chapters for - not to the kingdom's actual
-  # institutional end, since Sweden has none: it continues as a
-  # sovereign state to the present day. `ended` below is null for that
-  # reason as well as for the coverage reason.
-  end: { min: 1560, max: 1560, source: stefansson-denmark-1916 }
+  # This record now runs to Gustavus Adolphus's death at Lützen in
+  # 1632, skipping the three reigns between Gustav Vasa and him - Eric
+  # XIV, John III, Sigismund and Charles IX - that this record has not
+  # yet reached. Not the kingdom's actual institutional end, since
+  # Sweden has none: it continues as a sovereign state to the present
+  # day. `ended` below is null for that reason as well as for the
+  # coverage reason.
+  end: { min: 1632, max: 1632, source: stefansson-denmark-1916 }
 
 identity: >-
   A Norse kingdom whose Viking-age fleets founded Russia's own first
-  ruling dynasty, ruled by the statesman Birger Jarl, and re-founded
-  in 1523 when Gustav Vasa broke free of Danish rule, made the crown
-  hereditary in his own family, and completed Sweden's Reformation
-  before his death in 1560.
+  ruling dynasty, re-founded in 1523 under Gustav Vasa, and raised to
+  a European great power by his grandson Gustavus Adolphus, who broke
+  the Catholic Empire's armies at Breitenfeld in 1631 and died at
+  Lützen the following year.
 
 capitals:
   - { name: Uppsala, source: stefansson-denmark-1916 }
@@ -38,14 +40,13 @@ rulers:
   # "about 993" - for a king dated more precisely nowhere in this
   # source.
   founder: { name: "Eric the Victorious (Eric Segersäll)", reign: [983, 993], source: stefansson-denmark-1916 }
-  # Revised: Olof's joint rule over Norway was real but contested and
-  # lost again within fifteen years. Gustav Vasa's own reign ended
-  # Danish overlordship permanently, made the Swedish crown hereditary
-  # for the first time in the kingdom's history, and rebuilt the
-  # nation's institutions from the ground up - a transformation whose
-  # effects long outlasted him, unlike any earlier king's own reach in
-  # this record.
-  peak: { name: Gustav Vasa, reign: [1523, 1560], source: stefansson-denmark-1916 }
+  # Revised again: Gustav Vasa refounded the Swedish state, but his
+  # grandson Gustavus Adolphus is named outright by this source as the
+  # greatest figure in Swedish history - the king whose victory at
+  # Breitenfeld in 1631 broke the supposedly invincible Imperial army
+  # and raised Sweden, for the first time, to the rank of a European
+  # great power, a reach no earlier Swedish king approached.
+  peak: { name: Gustavus Adolphus, reign: [1611, 1632], source: stefansson-denmark-1916 }
   last: null
 
 scripts_and_languages:
@@ -160,6 +161,43 @@ turning_points:
       appointed superintendents - ending centuries of elective kingship
       and putting more than twelve thousand church estates under royal
       control by the end of the reign.
+    source: stefansson-denmark-1916
+    contested: false
+  - year: 1611
+    type: succession-crisis
+    name: "Gustavus Adolphus inherits three wars at once"
+    changed: >-
+      Not yet seventeen when his father died, Gustavus Adolphus
+      inherited a kingdom fighting Russia, wary of an expansionist
+      Poland far larger than itself, and struggling even to hold its
+      own against Denmark - and secured the nobility's loyalty by
+      granting a royal charter that bound his own hand on taxation,
+      lawmaking, war and peace alike.
+    source: stefansson-denmark-1916
+    contested: false
+  - year: 1631
+    type: battle
+    name: "The Battle of Breitenfeld"
+    changed: >-
+      Gustavus Adolphus broke Tilly's supposedly invincible Imperial
+      army outside Leipzig using shallow infantry lines, light muskets
+      and mobile field artillery against the old massed Spanish square
+      formation - a tactical revolution that killed or captured twelve
+      thousand Imperial troops for seven hundred Swedish dead, and put
+      Sweden, overnight, among the great powers of Europe.
+    source: stefansson-denmark-1916
+    contested: false
+  - year: 1632
+    type: battle
+    name: "The Battle of Lützen"
+    changed: >-
+      Riding to rescue his own overwhelmed cavalry wing in heavy fog,
+      Gustavus Adolphus was wounded, separated from all but a handful
+      of attendants, and killed by pursuing Croatian horsemen; his
+      riderless, blood-soaked horse running back through the Swedish
+      lines announced his death to an army that broke Wallenstein's own
+      line in a final vengeful charge before the field of Lützen fell
+      quiet.
     source: stefansson-denmark-1916
     contested: false
 
