@@ -104,11 +104,22 @@ export default function Sources() {
           <ul className="mt-8">
             {used.map((u) => (
               <li key={u.source.id} className="border-t border-kashi/12 py-5">
+                {/* The full entry, with the note and the link. Both used to
+                    render only on About, which listed the same 550 works over
+                    again: 493 of them carry a note and 15 a url, and none of
+                    it appeared on the page named Sources. There is one
+                    bibliography now and this is it. */}
                 <div className="flex flex-wrap items-baseline gap-x-3">
                   <p className="text-[17px]">
-                    <Cite source={u.source} />
+                    <Cite source={u.source} showUrl />
                   </p>
+                  <span className="font-mono text-micro text-debu-ink">{u.source.id}</span>
                 </div>
+                {u.source.note ? (
+                  <p className="mt-1.5 max-w-measure text-[15px] leading-relaxed text-debu-ink">
+                    {u.source.note}
+                  </p>
+                ) : null}
                 {/* Length is a cited quantity here too: the bar is the claim
                     count, so it has to keep measuring at the top of the range.
 

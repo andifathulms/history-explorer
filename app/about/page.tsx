@@ -1,18 +1,15 @@
 import type { Metadata } from 'next'
+import Link from 'next/link'
 import { loadCorpus } from '@/lib/content'
 import { Page, Shell, PageHead } from '@/components/Shell'
-import { Cite } from '@/components/Cite'
 
 export const metadata: Metadata = {
   title: 'About',
-  description: 'How this site was made, what it is not, and every source it cites.',
+  description: 'How this site was made, how the chapters were drafted, and what the numbers are not.',
 }
 
 export default function About() {
   const { sources, narrative, backdrop, edges } = loadCorpus()
-  const list = [...sources.values()].sort((a, b) =>
-    (a.author ?? a.title).localeCompare(b.author ?? b.title),
-  )
 
   return (
     <Page ground="paper" current="About">
@@ -122,25 +119,30 @@ export default function About() {
           </ul>
         </section>
 
-        <section className="mt-16 border-t border-kashi/15 pt-8">
+        {/* The list itself lives on /sources/, where each work carries what
+            rests on it. It used to be printed here as well — the same 550
+            entries a second time, which made this page, whose subject is
+            method and limits, about ninety per cent bibliography by weight and
+            gave a reader who landed here no reason to suspect the other page
+            existed. */}
+        <section className="mt-16 max-w-measure border-t border-kashi/15 pt-8">
           <h2 className="font-display text-title font-semibold text-kashi-deep">Sources</h2>
-          <p className="mt-4 max-w-measure text-body">
-            Every citation on this site resolves to an item in this list, and the build
-            fails if one does not. {list.length} works, cited across {narrative.length}{' '}
+          <p className="mt-4 text-body">
+            Every citation on this site resolves to a work in one list, and the build
+            fails if one does not. {sources.size} works, cited across {narrative.length}{' '}
             narrative polities, {backdrop.length} reference polities and {edges.length}{' '}
             succession edges.
           </p>
-          <ul className="mt-8 grid gap-x-12 gap-y-0 lg:grid-cols-2">
-            {list.map((s) => (
-              <li key={s.id} className="border-t border-kashi/12 py-4">
-                <p>
-                  <Cite source={s} showUrl />
-                </p>
-                {s.note ? <p className="mt-1 text-[15px] text-debu-ink">{s.note}</p> : null}
-                <p className="mt-1.5 font-mono text-micro text-debu-ink">{s.id}</p>
-              </li>
-            ))}
-          </ul>
+          <p className="mt-4 text-body">
+            <Link
+              href="/sources/"
+              className="link-underline font-semibold text-kashi hover:text-firuze-ink"
+            >
+              The full bibliography
+            </Link>{' '}
+            shows each work with the number of claims resting on it, the polities that
+            rest on it, and the ones where a single book carries an entire page.
+          </p>
         </section>
         </Shell>
       </main>
