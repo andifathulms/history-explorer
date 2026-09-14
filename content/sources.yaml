@@ -7578,3 +7578,61 @@ sources:
       Hugh O'Neill and Rory O'Donnell into exile in 1607, covering their
       departure from Lough Swilly and journey to the Continent. Open
       access via archive.org.
+
+  - id: bagwell-1909
+    kind: book
+    author: Richard Bagwell
+    title: "Ireland under the Stuarts and during the Interregnum"
+    container: "3 vols"
+    year: 1909-1916
+    note: >-
+      The direct sequel to Bagwell's Tudors volumes, covering the 1641
+      Rebellion, Cromwell's storming of Drogheda (1649) and the
+      Cromwellian land settlement, the Restoration, and the Williamite
+      War through the Battle of the Boyne (1690). Open access via
+      archive.org and Project Gutenberg.
+
+  - id: lecky-1892
+    kind: book
+    author: W. E. H. Lecky
+    title: "A History of Ireland in the Eighteenth Century"
+    container: "5 vols"
+    year: 1892
+    note: >-
+      The standard older narrative of Penal-era and eighteenth-century
+      Ireland; volume 1 covers the Treaty of Limerick's actual terms
+      and its violation by the Penal Laws that followed. Open access
+      via archive.org.
+
+  - id: lecky-1871
+    kind: book
+    author: W. E. H. Lecky
+    title: "Leaders of Public Opinion in Ireland: Swift, Flood, Grattan, O'Connell"
+    year: 1871
+    note: >-
+      Essay-form treatment covering Henry Grattan and the 1782
+      declaration of Irish legislative independence, including
+      Grattan's own speech to the Irish Parliament that day. Open
+      access via archive.org.
+
+  - id: gordon-1801
+    kind: book
+    author: James Gordon
+    title: "History of the Rebellion in Ireland in the Year 1798"
+    year: 1801
+    note: >-
+      A near-contemporary account by a Church of Ireland clergyman who
+      lived through the rebellion in County Wexford, covering the
+      Wexford Bridge massacre of loyalist prisoners and the rebellion's
+      suppression. Open access via archive.org.
+
+  - id: barrington-1844
+    kind: book
+    author: Jonah Barrington
+    title: "Historic Records and Secret Memoirs of the Legislative Union between Great Britain and Ireland"
+    year: 1844
+    note: >-
+      A contemporary account by an Irish MP who voted against the 1800
+      Act of Union, detailing the patronage and bribery - including the
+      £1,500,000 distributed among members of both Houses - used to
+      secure its passage. Open access via archive.org.

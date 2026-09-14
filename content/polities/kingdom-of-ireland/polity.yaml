@@ -8,18 +8,14 @@ name:
 
 span:
   start: { min: 1541, max: 1541, source: bagwell-1885 }
-  # This record currently runs only to the Flight of the Earls in 1607,
-  # the last event it has sourced chapters for - not to the kingdom's
-  # actual institutional end at the 1800 Act of Union, which remains
-  # unresearched. `ended` below is null for that reason, not because
-  # the sources leave the kingdom's real end unclear.
-  end: { min: 1607, max: 1607, source: ocianain-1916 }
+  end: { min: 1800, max: 1800, source: barrington-1844 }
 
 identity: >-
-  The kingdom an Irish Parliament's unanimous vote created out of the
-  medieval lordship in 1541, fought over through four decades of
-  rebellion and reconquest until Hugh O'Neill and the earl of
-  Tyrconnell sailed into exile from Lough Swilly in 1607.
+  The kingdom an Irish Parliament's vote created out of the medieval
+  lordship in 1541, fought over through Cromwellian and Williamite
+  reconquest and a brief span of legislative independence under
+  Grattan, before its own Parliament voted itself into union with
+  Great Britain in 1800.
 
 capitals:
   - { name: Dublin, source: bagwell-1885 }
@@ -33,10 +29,7 @@ rulers:
   # Years' War ending in the complete submission the earlier Tudor
   # monarchs had claimed but never actually achieved.
   peak: { name: Elizabeth I, reign: [1558, 1603], source: bagwell-1885 }
-  # No final ruler is asserted: this record's own coverage stops in
-  # 1607, well short of the kingdom's real end in 1800, so there is no
-  # "last" king of this record to name yet.
-  last: null
+  last: { name: George III, reign: [1760, 1800], source: barrington-1844 }
 
 scripts_and_languages:
   administration: [English, Latin, Irish]
@@ -52,7 +45,17 @@ preceded_by_external: []
 
 succeeded_by_external: []
 
-ended: null
+ended:
+  # As with the Lordship-to-Kingdom transition of 1541, no conquest,
+  # dynasty change or fragmentation ended this kingdom - its own
+  # Parliament voted itself out of existence into a new Parliament of
+  # the United Kingdom. "Gradual absorption" is again the closest
+  # available fit in the closed vocabulary, matching Scotland's own
+  # 1707 union with England.
+  type: gradual absorption
+  by: []
+  year: 1800
+  source: barrington-1844
 
 turning_points:
   - year: 1583
@@ -115,6 +118,81 @@ turning_points:
       departure, no independent Gaelic lord of any standing remained
       anywhere on the island.
     source: ocianain-1916
+    contested: false
+  - year: 1649
+    type: catastrophe
+    name: "Storm of Drogheda"
+    changed: >-
+      Oliver Cromwell's army breached Drogheda's walls and, once inside,
+      killed the garrison and an unknown number of townspeople under
+      Cromwell's own direct order to spare no one found in arms - by
+      his own estimate some two thousand dead. The massacre opened a
+      campaign of reconquest that broke organized Catholic resistance
+      across the country within four years.
+    source: bagwell-1909
+    contested: false
+  - year: 1690
+    type: battle
+    name: "Battle of the Boyne"
+    changed: >-
+      William III forced a river crossing against James II's smaller
+      army at Oldbridge, routing the Jacobite forces within a few hours
+      despite being wounded by a cannon shot the day before. James fled
+      to France; the war continued another year around Limerick, but
+      the Boyne broke Jacobite Ireland's last real chance of reversing
+      the Williamite settlement by force.
+    source: bagwell-1909
+    contested: false
+  - year: 1691
+    type: treaty
+    name: "Treaty of Limerick, and its violation"
+    changed: >-
+      The treaty ending the war promised Irish Catholics the religious
+      liberty they had held under Charles II. Parliament never ratified
+      that promise; a new body of Penal Laws instead barred Catholics
+      from land ownership, the professions, and public office within a
+      few years of the ink drying; Patrick Sarsfield and thousands of
+      soldiers sailed for French service rather than live under it.
+    source: lecky-1892
+    contested: false
+  - year: 1782
+    type: reform
+    name: "Grattan's declaration of independence"
+    changed: >-
+      Under pressure from an armed Volunteer movement the government
+      could not safely ignore, the British Parliament conceded
+      legislative independence to its Irish counterpart. Escorted
+      through the Volunteers' own ranks to move the declaration, Henry
+      Grattan told the chamber "Ireland is now a nation" - the high
+      point of the Protestant Ascendancy's own political self-rule,
+      achieved without a shot fired.
+    source: lecky-1871
+    contested: false
+  - year: 1798
+    type: revolt
+    name: "Rebellion and the Wexford Bridge massacre"
+    changed: >-
+      A rising organized by the United Irishmen took its strongest hold
+      in Wexford, whose county town remained in rebel hands for several
+      weeks. As government troops closed in, a mob dragged Protestant
+      prisoners onto the town's own bridge and killed nearly a hundred
+      of them with pikes before a priest halted the killing; the rising
+      itself was crushed soon after, at a cost historians still dispute
+      but which ran into the thousands on both sides.
+    source: gordon-1801
+    contested: true
+  - year: 1800
+    type: treaty
+    name: "The Irish Parliament votes for Union"
+    changed: >-
+      Having failed on a first attempt in 1799, the government secured
+      passage of the Act of Union the following year through what a
+      contemporary member who voted against it later itemised as a
+      vast sum of Irish money handed out among sitting members, plus a
+      fresh batch of peerages for the compliant. The Irish Parliament
+      dissolved itself, merging into Westminster's own enlarged body
+      for the United Kingdom.
+    source: barrington-1844
     contested: false
 
 measures:
