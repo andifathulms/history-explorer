@@ -14,20 +14,18 @@ span:
   # the Old, undated in this source beyond his son Harald Bluetooth's
   # own reign, given here as beginning in 940.
   start: { min: 940, max: 940, source: stefansson-denmark-1916 }
-  # This record currently runs only to Cnut the Great's death in 1035
-  # and the collapse of his Anglo-Scandinavian empire - the last event
-  # it has sourced chapters for - not to the kingdom's actual
-  # institutional end, since Denmark has none: it continues as a
+  # This record currently runs only to Valdemar II's death in 1241 -
+  # the last event it has sourced chapters for - not to the kingdom's
+  # actual institutional end, since Denmark has none: it continues as a
   # sovereign state to the present day. `ended` below is null for that
   # reason as well as for the coverage reason.
-  end: { min: 1035, max: 1035, source: stefansson-denmark-1916 }
+  end: { min: 1241, max: 1241, source: stefansson-denmark-1916 }
 
 identity: >-
-  A Viking-age kingdom that entered recorded history through its own
-  runestones, converted under a trial by fire under Harald Bluetooth,
-  and briefly ruled Norway and England together under Cnut the Great
-  before his short-lived Anglo-Scandinavian empire came apart at his
-  death.
+  A Viking-age kingdom that entered history through its own runestones,
+  ruled Norway and England together under Cnut the Great, and built a
+  near-equal Baltic dominion under Valdemar II before a rival's
+  treachery undid it within a single year.
 
 capitals:
   - { name: Roskilde, source: stefansson-denmark-1916 }
@@ -39,15 +37,16 @@ rulers:
   # Bluetooth's own reign is dated here as beginning in 940.
   founder: { name: Gorm the Old, source: stefansson-denmark-1916 }
   # Cnut ruled England, Denmark and Norway together - an
-  # Anglo-Scandinavian empire with no real precedent in the North and,
-  # per this record's current coverage, none since. This field may be
-  # revisited once later centuries of Danish history - the Valdemars'
-  # Baltic dominion, the Kalmar Union - are in view.
+  # Anglo-Scandinavian empire with no real precedent in the North.
+  # Valdemar II later built a Baltic dominion Stefánsson himself judges
+  # the widest Denmark held since Cnut, but explicitly ranks it second
+  # to Cnut's own reach, so this field stands confirmed rather than
+  # provisional now that both eras are in view.
   peak: { name: Cnut the Great, reign: [1016, 1035], source: stefansson-denmark-1916 }
   # No final ruler is asserted: this record's own coverage stops at
-  # Cnut's death in 1035, well short of the present day, so there is no
-  # "last" king of this record to name - and, since Denmark has never
-  # institutionally ended, may never be one.
+  # Valdemar II's death in 1241, well short of the present day, so
+  # there is no "last" king of this record to name - and, since Denmark
+  # has never institutionally ended, may never be one.
   last: null
 
 scripts_and_languages:
@@ -114,6 +113,53 @@ turning_points:
       Cnut had taken from him two years earlier without a battle -
       closing out Cnut's hold on Norway and completing, for a few
       years, an Anglo-Scandinavian empire ruled from Denmark.
+    source: stefansson-denmark-1916
+    contested: false
+  - year: 1169
+    type: siege
+    name: "The storming of Arkona"
+    changed: >-
+      Valdemar I and his foster-brother Absalon, Bishop of Roskilde,
+      stormed the Wends' fortress-temple on Rügen, destroyed the great
+      wooden idol of Svantovit before hundreds of its own priests, and
+      annexed the island to the Danish church - closing out a
+      generation of Wendish raiding that had once left a third of
+      Denmark wasted.
+    source: stefansson-denmark-1916
+    contested: false
+  - year: 1219
+    type: battle
+    name: "Lyndanise and the Dannebrog"
+    changed: >-
+      A huge crusading armada under Valdemar II won a hard-fought
+      battle near Reval after a red-and-white banner, by tradition
+      fallen from the sky at the critical moment, rallied the Danish
+      line - giving Denmark both a foothold in Estonia and the flag it
+      has flown ever since.
+    source: stefansson-denmark-1916
+    contested: true
+  - year: 1223
+    type: catastrophe
+    name: "The kidnapping on Lyø"
+    changed: >-
+      A disgruntled German vassal, Count Henry of Schwerin, surprised
+      Valdemar II and his own eldest son during a night's hunting trip
+      and dragged both off into a German dungeon, touching off a
+      vassal revolt that kept the king in foreign captivity for well
+      over two years and, in ransom, cost him nearly every conquest he
+      had made.
+    source: stefansson-denmark-1916
+    contested: false
+  - year: 1227
+    type: battle
+    name: "The Battle of Bornhöved"
+    changed: >-
+      Valdemar II's attempt to retrieve by force what his captivity had
+      cost him ended in defeat and the loss of an eye, and the German
+      territory he had once ruled as Lord of Northalbingia was signed
+      away for good that same year - reducing a Baltic dominion that
+      had briefly rivalled Cnut's own empire to the single island of
+      Rügen.
     source: stefansson-denmark-1916
     contested: false
 
