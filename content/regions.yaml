@@ -469,6 +469,26 @@ regions:
     group: northern-and-eastern-europe
     thread: true
 
+  # A Slavic-speaking kingdom that sat inside the Holy Roman Empire rather
+  # than beside it, an Imperial Elector in its own right and, under Charles
+  # IV, briefly the seat of the Empire itself - close enough to
+  # `frankish-world`'s own story that the pairing was considered, but
+  # Bohemia never became the Empire the way West Francia's own line did,
+  # and its Hussite revolt and Habsburg absorption sit far closer to the
+  # pattern of Poland and Hungary than to anything in that region.
+  #
+  # `thread: false`: a single record for now, per the standard workflow of
+  # adding one polity before any thread is drawn.
+  - id: bohemia
+    name: Bohemia
+    blurb: >-
+      The Czech-speaking kingdom of the Přemyslid and Luxembourg dynasties,
+      an Elector of the Holy Roman Empire that briefly held the Imperial
+      throne itself, and the country whose Hussite revolt produced Latin
+      Christendom's first state to break openly with Rome and survive it.
+    group: northern-and-eastern-europe
+    thread: false
+
   - id: islamic-west
     name: The Islamic West
     blurb: >-

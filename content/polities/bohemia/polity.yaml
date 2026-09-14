@@ -1,0 +1,138 @@
+id: bohemia
+region: bohemia
+
+name:
+  latin: Kingdom of Bohemia
+  script: Čechy
+  script_lang: cs
+
+span:
+  # The famous founding story - the princess-judge Libuše choosing the
+  # ploughman Přemysl as her husband and king, his descendants promised
+  # eternal rule - is a legend first written down centuries later by the
+  # chronicler Cosmas of Prague, and Lützow treats it as such. The first
+  # Přemyslid duke real evidence can attest to is Bořivoj I, whose
+  # Christianization by followers of Methodius falls somewhere between
+  # the 874 Treaty of Forchheim and Methodius's own death in 885.
+  start: { min: 872, max: 885, source: lutzow-bohemia-1920 }
+  # This record currently runs only to Charles IV's 1348 refoundation of
+  # Bohemia's own institutions and his founding of Prague's university -
+  # the last event it has sourced chapters for - not to the kingdom's
+  # actual institutional end at the 1620 Battle of the White Mountain.
+  # `ended` below is null for that reason.
+  end: { min: 1348, max: 1348, source: lutzow-bohemia-1920 }
+
+identity: >-
+  A Slavic duchy on the Elbe that became a hereditary kingdom and an
+  Imperial Elector, lost a king and an empire in a single afternoon at
+  Dürnkrut in 1278, and recovered to see one of its own dukes crowned
+  Holy Roman Emperor within a lifetime.
+
+capitals:
+  - { name: Prague, source: lutzow-bohemia-1920 }
+
+core_region: The Elbe and Vltava basins of Bohemia, later joined by Moravia, Silesia and Upper Lusatia
+
+rulers:
+  # No reign dates survive for Bořivoj I; even the fact of his baptism is
+  # dated only within a decade.
+  founder: { name: Bořivoj I, source: lutzow-bohemia-1920 }
+  # Charles IV's own reign, which this record's chapters carry up to only
+  # its opening years so far, made Prague an Imperial capital and Charles
+  # himself Holy Roman Emperor - the furthest reach of authority any ruler
+  # on this record has commanded.
+  peak: { name: Charles IV, reign: [1346, 1378], source: lutzow-bohemia-1920 }
+  # No final ruler is asserted: this record's own coverage stops in 1348,
+  # nearly three centuries short of the kingdom's real end at the White
+  # Mountain in 1620, so there is no "last" king of this record to name
+  # yet.
+  last: null
+
+scripts_and_languages:
+  administration: [Czech, Latin, German]
+  writing_system: Latin alphabet
+
+institutions:
+  military_basis: null
+  revenue_basis: null
+  # An assembly of Estates chose Přemysl himself in the founding legend,
+  # and the Estates' right to elect a king was repeatedly reaffirmed even
+  # after hereditary succession became the ordinary practice - most
+  # explicitly at Charles IV's own 1348 Diet, which preserved the
+  # Estates' elective right for the case of the royal line's extinction
+  # while otherwise fixing succession by primogeniture.
+  succession_rule: { values: [election, primogeniture], source: lutzow-bohemia-1920 }
+  # Kings of Bohemia were repeatedly crowned in conjunction with the
+  # German crown - Ottokar I at Mainz in 1198 alongside King Philip of
+  # Germany - tying Bohemian kingship to external Imperial recognition
+  # as well as to dynastic descent.
+  legitimation: { values: [descent, investiture], source: lutzow-bohemia-1920 }
+
+preceded_by_external: []
+
+succeeded_by_external: []
+
+# Bohemia did not cease to exist in 1348 - the kingdom continued for
+# nearly three centuries afterward, through the Hussite Wars and into
+# Habsburg rule. This record's own span ends where its sourced coverage
+# currently stops, not because a conquest, dynastic replacement or
+# fragmentation actually ended the kingdom there.
+ended: null
+
+turning_points:
+  - year: 885
+    type: conversion
+    name: "Bořivoj I's baptism"
+    changed: >-
+      Followers of Methodius, "the apostle of the Slavs," baptized the
+      Bohemian duke Bořivoj I and his wife Ludmila somewhere in the years
+      after a Frankish-Moravian peace freed Methodius to return to his
+      mission - the point at which Bohemia's own ruling house enters
+      Christian, and with it wider European, history.
+    source: lutzow-bohemia-1920
+    contested: false
+  - year: 1278
+    type: battle
+    name: "The Battle of Dürnkrut (Marchfeld)"
+    changed: >-
+      Přemysl Ottokar II, who had made Bohemia the strongest power
+      within the German Empire through marriage, election and conquest
+      as far south as the Adriatic, was deserted by nobles he had
+      alienated by favouring the towns, and died fighting after his
+      army broke before Rudolph of Habsburg's forces - collapsing in a
+      single afternoon a reach no Bohemian ruler had commanded before
+      or matched since.
+    source: lutzow-bohemia-1920
+    contested: false
+  - year: 1346
+    type: battle
+    name: "The blind King John dies at Crécy"
+    changed: >-
+      Already sightless, the Bohemian king had two knights bind his
+      horse to theirs and lead him into the enemy's ranks rather than
+      flee a battle already lost, and died there with fifty of his
+      nobles around him - a defeat that cost Bohemia the flower of its
+      aristocracy and passed the crown to his son Charles.
+    source: lutzow-bohemia-1920
+    contested: false
+  - year: 1348
+    type: reform
+    name: "Charles IV's Diet and the founding of Prague's university"
+    changed: >-
+      Charles IV convened the Estates at Prague to confirm the kingdom's
+      privileges, fix Moravia's, Silesia's and Upper Lusatia's place under
+      the Bohemian crown, and settle succession by primogeniture with
+      election reserved for the royal line's extinction - and in the same
+      year announced the university that would make Prague, for the first
+      time, a centre of learning to rival Paris.
+    source: lutzow-bohemia-1920
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
