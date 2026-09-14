@@ -16,18 +16,18 @@ name:
 # following the source's own periodization.
 span:
   start: { min: 1273, max: 1273, source: coxe-austria-1847 }
-  # This record currently runs only to Rudolf I's own death in 1291 -
-  # the last event its sourced chapters cover, not an institutional
-  # end. The Habsburg Monarchy has no end within this source's own
-  # scope, let alone in reality: it continued, through the Austrian
-  # Empire and Austria-Hungary, into the twentieth century.
-  end: { min: 1291, max: 1291, source: coxe-austria-1847 }
+  # This record currently runs only to Albert I's own assassination in
+  # 1308 - the last event its sourced chapters cover, not an
+  # institutional end. The Habsburg Monarchy has no end within this
+  # source's own scope, let alone in reality: it continued, through the
+  # Austrian Empire and Austria-Hungary, into the twentieth century.
+  end: { min: 1308, max: 1308, source: coxe-austria-1847 }
 
 identity: >-
-  A minor Swabian count's family raised to the crown of Germany by
-  electors who wanted a monarch too weak to master them, and who used
-  that crown to destroy the most powerful king in the empire and settle
-  his own conquered duchies of Austria and Styria on his sons.
+  A minor Swabian count's family, raised to the German crown by
+  electors who wanted a weak monarch, that used it to destroy Bohemia's
+  own king, settle Austria and Styria on its sons, and briefly claim
+  Bohemia's throne before a nephew's grudge killed its second ruler.
 
 capitals:
   - { name: Vienna, from: 1280, source: coxe-austria-1847 }
@@ -119,6 +119,49 @@ turning_points:
       empire's throne open to a fresh election and his own family's
       fortunes resting on nothing more than the two duchies he had
       managed to hand down before the end.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1292
+    type: succession-crisis
+    name: "Adolf of Nassau elected over Albert"
+    changed: >-
+      The same calculation that had once favoured Rudolf worked against
+      his own son: the electors, wary of Albert's power and alienated by
+      his arrogance, chose a far weaker rival instead, and Albert judged
+      his own position too precarious to contest the result by force.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1298
+    type: battle
+    name: "The Battle of Göllheim"
+    changed: >-
+      Albert's own coalition of electors had already deposed Adolf for
+      contumacy when the two kings met in battle near Speyer; Albert
+      killed his rival in single combat after a defiant exchange of
+      words, and was afterward re-elected unanimously rather than rest
+      his claim on the outcome of the fighting alone.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1306
+    type: succession-crisis
+    name: "Rudolph of Austria elected King of Bohemia"
+    changed: >-
+      With Bohemia's own ruling line extinct, Albert secured the throne
+      for his eldest son over a rival candidate the late king's own
+      grieving family had pleaded for - a Habsburg foothold in Bohemia
+      that collapsed within a year when Rudolph died besieging his own
+      rebellious subjects.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1308
+    type: catastrophe
+    name: "The assassination of Albert I"
+    changed: >-
+      Albert's own nephew John, denied his share of the family's
+      hereditary lands once too often, ambushed and killed him within
+      sight of the ancestral castle of Habsburg itself, ending the
+      second Habsburg reign in murder rather than in the succession
+      Albert had spent his life trying to secure for his own sons.
     source: coxe-austria-1847
     contested: false
 
