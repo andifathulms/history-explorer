@@ -1,5 +1,6 @@
 import { citeShort, getFigure } from '@/lib/content'
 import type { Figure as FigureData } from '@/lib/types'
+import { Zoom } from '@/components/Zoom'
 
 /**
  * A picture that is evidence, rendered to the standard evidence is held to.
@@ -38,16 +39,14 @@ function One({ fig, grouped }: { fig: FigureData; grouped: boolean }) {
       {/* Explicit intrinsic dimensions. `images: { unoptimized: true }` is set
           for static export, so nothing downstream is going to work the aspect
           ratio out — without these the page reflows as each file lands, which
-          on a reading page means the paragraph you are on jumps. */}
-      {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img
+          on a reading page means the paragraph you are on jumps. Zoom renders
+          the same file un-cropped by the reading column, not a second,
+          higher-resolution image — there isn't one. */}
+      <Zoom
         src={`${BASE}/images/${fig.file}`}
         alt={fig.alt}
         width={fig.width}
         height={fig.height}
-        loading="lazy"
-        decoding="async"
-        className="h-auto w-full border border-kashi/15 bg-kaghaz-lift"
       />
 
       {/* The caption makes the claim; the alt describes the object. They are
