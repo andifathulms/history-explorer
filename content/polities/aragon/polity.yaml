@@ -1,0 +1,136 @@
+id: aragon
+region: iberia
+
+name:
+  latin: Kingdom of Aragon
+  script: null
+  script_lang: null
+
+span:
+  # The same 1035 testamentary division by Sancho the Great of Navarre
+  # that made Castile a kingdom under Ferdinand I also made Aragon one,
+  # under his brother Ramiro I.
+  start: { min: 1035, max: 1035, source: chapman-1918 }
+  end: { min: 1479, max: 1479, source: chapman-1918 }
+
+identity: >-
+  A small Pyrenean kingdom that married its way, in 1137, into union
+  with Barcelona and became a Mediterranean power in Catalonia's own
+  name - conquering the Balearics and Valencia, intervening in Sicily
+  after the Vespers of 1282, before its crown joined Castile's in 1479.
+
+capitals:
+  - { name: Zaragoza, source: chapman-1918 }
+  - { name: Barcelona, source: chapman-1918 }
+
+core_region: The Ebro valley and, after 1137, Catalonia and the western Mediterranean
+
+rulers:
+  founder: { name: Ramiro I, reign: [1035, 1063], source: chapman-1918 }
+  # Peter III conquered Sicily after the Vespers of 1282 and defeated a
+  # French crusade against his own kingdom the following year - the
+  # widest reach Aragon's own crown ever commanded at once.
+  peak: { name: "Peter III \"the Great\"", reign: [1276, 1285], source: chapman-1918 }
+  # Ferdinand inherited Aragon on his father Juan II's death in 1479,
+  # a decade after his own marriage to Isabella of Castile had already
+  # joined the two royal households.
+  last: { name: Ferdinand II, reign: [1479, 1516], source: chapman-1918 }
+
+scripts_and_languages:
+  administration: [Latin, Catalan, Aragonese]
+  writing_system: Latin alphabet
+
+institutions:
+  military_basis: { values: [land-grant], source: chapman-1918 }
+  revenue_basis: { values: [tribute, land-tax], source: chapman-1918 }
+  # Alfonso I "the Battler" left his kingdom to two military orders for
+  # want of a son, a will his own subjects simply refused to honour -
+  # a sign of how little a king's own testament could actually bind
+  # the throne's real succession when the nobility disagreed with it.
+  succession_rule: { values: [election, primogeniture], source: chapman-1918 }
+  legitimation: { values: [descent, divine-sanction], source: chapman-1918 }
+
+preceded_by_external: []
+
+succeeded_by_external: []
+
+# Aragon did not cease to exist in 1479 - it continued as a legally
+# distinct kingdom, under the same monarchs as Castile, for centuries
+# afterward. This record's own span ends at the union of the crowns
+# because that is where its sourced coverage currently stops, not
+# because a conquest, dynastic replacement or fragmentation actually
+# ended the kingdom there.
+ended: null
+
+turning_points:
+  - year: 1118
+    type: siege
+    name: "Alfonso I the Battler takes Zaragoza"
+    changed: >-
+      Alfonso I captured Zaragoza, an acquisition as significant for
+      Aragon as Toledo's capture had been for Castile a generation
+      before, and carried his campaigns as far south as Murcia and
+      Andalusia - though it was the resettlement of ten thousand
+      Mozarabs in his new conquests, not the raiding itself, that did
+      the most to actually hold the ground he had won.
+    source: chapman-1918
+    contested: false
+  - year: 1137
+    type: treaty
+    name: "Petronilla's marriage unites Aragon and Barcelona"
+    changed: >-
+      Ramiro II, a monk pulled from his monastery to take the throne
+      after his brother's death without an heir, married only long
+      enough to father a daughter, Petronilla, before abdicating back
+      to religious life. Her marriage to Ramon Berenguer IV of
+      Barcelona joined Aragon to the county of Catalonia - a union in
+      which Catalonia, though it gave the crown its lesser partner's
+      name, would remain the more important half.
+    source: chapman-1918
+    contested: false
+  - year: 1238
+    type: siege
+    name: "James I conquers Valencia"
+    changed: >-
+      Having already taken Majorca, Minorca and Ibiza for his Catalan
+      followers, James I "the Conqueror" took the city of Valencia
+      itself after a campaign his own nobles gave only lukewarm
+      support to at first - the richest single conquest of his reign,
+      won the same decade Castile's own king was taking Seville.
+    source: chapman-1918
+    contested: false
+  - year: 1282
+    type: revolt
+    name: "The Sicilian Vespers and Peter III's intervention"
+    changed: >-
+      A Sicilian uprising against the French rule of Charles of Anjou
+      erupted into massacre, and Peter III, married to the deposed
+      Sicilian royal house's own heir and already holding an army in
+      nearby Tunis, landed to claim the island for himself. The pope
+      excommunicated him and offered his own crown to a French prince;
+      Peter's admiral Roger de Lauria broke the resulting French
+      invasion of Catalonia the following year.
+    source: chapman-1918
+    contested: false
+  - year: 1479
+    type: succession-crisis
+    name: "Ferdinand inherits Aragon"
+    changed: >-
+      Ferdinand, already married to Isabella of Castile for a decade,
+      succeeded his father Juan II - whose own last years had been
+      consumed by a civil war in Catalonia sparked by his second wife's
+      plotting against his son by an earlier marriage. Aragon's crown
+      now sat on the same head as Castile's, joined but not merged -
+      each kingdom keeping its own laws, its own assembly, its own
+      separate administration regardless of the shared household.
+    source: chapman-1918
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
