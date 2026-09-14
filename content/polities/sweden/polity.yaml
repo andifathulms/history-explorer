@@ -14,20 +14,21 @@ span:
   # nephew Styrbjörn at the Battle of Fyrisvellen, near Uppsala, is
   # dated by the sources only approximately, to around 983.
   start: { min: 983, max: 983, source: stefansson-denmark-1916 }
-  # This record currently runs only to Olof Skötkonung's confrontation
-  # with the Thing over his Norwegian ambitions - the last event it has
-  # sourced chapters for - not to the kingdom's actual institutional
-  # end, since Sweden has none: it continues as a sovereign state to
-  # the present day. `ended` below is null for that reason as well as
-  # for the coverage reason.
-  end: { min: 1008, max: 1008, source: stefansson-denmark-1916 }
+  # This record now runs to 1523, skipping three centuries between
+  # Birger Jarl's regency and Gustav Vasa's own rebellion that this
+  # record has not yet reached, to Gustav's election as king at
+  # Strängnäs - the last event it has sourced chapters for - not to the
+  # kingdom's actual institutional end, since Sweden has none: it
+  # continues as a sovereign state to the present day. `ended` below is
+  # null for that reason as well as for the coverage reason.
+  end: { min: 1523, max: 1523, source: stefansson-denmark-1916 }
 
 identity: >-
   A Norse kingdom whose Viking-age fleets founded Russia's own first
-  ruling dynasty, and whose king Olof Skötkonung became the first
-  Swede baptized a Christian around 1008, only to be publicly
-  threatened with deposition by his own peasant assembly for coveting
-  Norway.
+  ruling dynasty, ruled in the thirteenth century by the statesman
+  Birger Jarl, and re-founded in 1523 when the Estates elected Gustav
+  Vasa king over his own objections, ending Danish overlordship for
+  good.
 
 capitals:
   - { name: Uppsala, source: stefansson-denmark-1916 }
@@ -41,8 +42,10 @@ rulers:
   founder: { name: "Eric the Victorious (Eric Segersäll)", reign: [983, 993], source: stefansson-denmark-1916 }
   # Provisional: Olof ruled Norway jointly with Denmark from 1000 to
   # 1015, a wider reach than his father Eric ever held, and was the
-  # first Swedish king to accept Christianity - but only two reigns are
-  # in view so far, so this field is likely to be revisited.
+  # first Swedish king to accept Christianity. Birger Jarl's own
+  # regency and Finnish conquests are real but narrower in scope, so
+  # this field stands unchanged with four reigns now in view - though
+  # Gustav Vasa's still-unwritten reign (1523-60) may yet outweigh it.
   peak: { name: "Olof Skötkonung", source: stefansson-denmark-1916 }
   last: null
 
@@ -53,13 +56,18 @@ scripts_and_languages:
 institutions:
   military_basis: null
   revenue_basis: null
-  succession_rule: null
-  # Descent from Eric and, through him, the legendary Yngling line is
-  # the only claim to legitimacy attested for this record's kings so
-  # far; the Thing's own power to depose a king who defied it, per
-  # Thorgny's speech, was a check on royal authority rather than a
-  # source of it.
-  legitimation: { values: [descent], source: stefansson-denmark-1916 }
+  # Birger Jarl's own son Valdemar was elected king in 1250 on the
+  # strength of his mother's royal blood rather than his father's, and
+  # Gustav Vasa's own election at Strängnäs in 1523 turned on the
+  # Estates' judgment of merit over any hereditary claim at all -
+  # election, not simple primogeniture, decided the Swedish throne
+  # throughout the period this record has covered so far.
+  succession_rule: { values: [election], source: stefansson-denmark-1916 }
+  # Descent from Eric and, through him, the legendary Yngling line was
+  # the only claim to legitimacy attested for this record's earliest
+  # kings; by Gustav Vasa's own election, the Estates' judgment of
+  # merit had become a legitimating claim in its own right.
+  legitimation: { values: [descent, election], source: stefansson-denmark-1916 }
 
 preceded_by_external: []
 
@@ -104,6 +112,29 @@ turning_points:
       accept Christianity, even though the old religion centred on
       Uppsala's own temple would take generations longer to lose its
       hold over most of his subjects.
+    source: stefansson-denmark-1916
+    contested: false
+  - year: 1249
+    type: conversion
+    name: "Birger Jarl's crusade to Finland"
+    changed: >-
+      Answering a papal call to defend Christian settlements around
+      Åbo from Karelian and Russian pressure, Birger Jarl led a crusade
+      into Tavastland, conquered and Christianized it, and built the
+      fortress of Tavastehus to secure his gains - bringing
+      Finland under lasting Swedish rule and expanding a kingdom his
+      own regency for a child king already governed in all but name.
+    source: stefansson-denmark-1916
+    contested: false
+  - year: 1523
+    type: succession-crisis
+    name: "Gustav Vasa elected at Strängnäs"
+    changed: >-
+      With Christian II driven from Denmark and no clear ruler left to
+      claim Sweden, an assembly at Strängnäs unanimously chose Gustaf
+      Eriksson as king over his own genuine objections that an older
+      Council noble would serve better - ending, in the same act,
+      Danish overlordship and opening the reign of a new royal line.
     source: stefansson-denmark-1916
     contested: false
 
