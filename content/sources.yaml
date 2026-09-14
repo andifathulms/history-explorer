@@ -7830,3 +7830,37 @@ sources:
       surveyed plans have not been, and no later publication draws the
       rows of subsidiary burials as plainly. Out of copyright, scanned in
       full on the Internet Archive.
+
+  - id: grebaut-1890
+    kind: report
+    author: Eugène Grébaut
+    title: "Le Musée Égyptien: recueil de monuments et de notices sur les fouilles d'Égypte"
+    container: Volume I
+    publisher: Institut Français d'Archéologie Orientale
+    year: 1890
+    licence: Public domain
+    note: >-
+      Facsimile plates of pieces in the Cairo museum, published by its then
+      director. Plates XXVII-XXVIII reproduce the inscribed slab from Weni's
+      tomb at Abydos in full, which is the value of the volume here: Breasted's
+      translation supplies the words, this supplies the stone they are cut
+      into. Out of copyright.
+
+  - id: description-egypte
+    kind: report
+    author: "Commission des sciences et arts d'Égypte"
+    title: "Description de l'Égypte, ou recueil des observations et des recherches qui ont été faites en Égypte pendant l'expédition de l'armée française"
+    container: "Antiquités, vol. IV"
+    publisher: Imprimerie impériale
+    year: 1821
+    url: https://digitalcollections.nypl.org/collections/description-de-l-egypte
+    licence: Public domain
+    note: >-
+      The plate volumes from Napoleon's Egyptian expedition of 1798-1801,
+      compiled and engraved over the following two decades. Plate 47 of the
+      Antiquités volume on Asyut draws a rock-cut tomb there in plan, section
+      and elevation; it is the earliest surviving record of that cliff
+      cemetery, made before the damage breasted-1906 describes and before
+      Griffith's later copies of the inscriptions this site cites for the
+      nomarchs of Siut by name. Scanned in full by the New York Public
+      Library. Out of copyright.
