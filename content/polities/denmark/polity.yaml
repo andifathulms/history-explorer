@@ -14,19 +14,20 @@ span:
   # the Old, undated in this source beyond his son Harald Bluetooth's
   # own reign, given here as beginning in 940.
   start: { min: 940, max: 940, source: stefansson-denmark-1916 }
-  # This record currently runs only to Christian IV's death in 1648 -
-  # the last event it has sourced chapters for - not to the kingdom's
+  # This record currently runs only to Griffenfeld's death in prison,
+  # computed here as 1698 from the twenty-two years' imprisonment this
+  # source states followed his 1676 arrest - not to the kingdom's
   # actual institutional end, since Denmark has none: it continues as a
   # sovereign state to the present day. `ended` below is null for that
   # reason as well as for the coverage reason.
-  end: { min: 1648, max: 1648, source: stefansson-denmark-1916 }
+  end: { min: 1698, max: 1698, source: stefansson-denmark-1916 }
 
 identity: >-
   A Viking-age kingdom that ruled Norway and England together under
-  Cnut the Great, bound Denmark, Norway and Sweden under one crown at
-  Kalmar, made its own church Protestant in 1536, and then, under
-  Christian IV, lost Baltic provinces and Sound revenue in Sweden's
-  wars of 1644-45.
+  Cnut, bound three Scandinavian crowns at Kalmar, and after Christian
+  IV's wars became, in 1660, one of Europe's most extreme absolute
+  monarchies - a regime whose own architect, Griffenfeld, it later
+  imprisoned for life.
 
 capitals:
   - { name: Roskilde, source: stefansson-denmark-1916 }
@@ -49,9 +50,10 @@ rulers:
   # confirmed now that the Union's full rise and fall are both in view.
   peak: { name: Cnut the Great, reign: [1016, 1035], source: stefansson-denmark-1916 }
   # No final ruler is asserted: this record's own coverage stops at
-  # Christian IV's death in 1648, well short of the present day, so
-  # there is no "last" king of this record to name - and, since Denmark
-  # has never institutionally ended, may never be one.
+  # Griffenfeld's death in prison around 1698, well short of the
+  # present day, so there is no "last" king of this record to name -
+  # and, since Denmark has never institutionally ended, may never be
+  # one.
   last: null
 
 scripts_and_languages:
@@ -67,12 +69,17 @@ institutions:
   # and English coins paid as tribute have been found in Denmark in
   # abundance from this period.
   revenue_basis: { values: [tribute, plunder], source: stefansson-denmark-1916 }
-  # Cnut himself was "elected king by the Danish army" while still in
-  # England, even as his brother Harald succeeded their father in
-  # Denmark by simple primogeniture - both patterns attested within the
-  # same generation of the dynasty.
-  succession_rule: { values: [election, primogeniture], source: stefansson-denmark-1916 }
-  legitimation: { values: [descent], source: stefansson-denmark-1916 }
+  # Election by the Estates was the formal rule from Cnut's own day
+  # (elected by the Danish army) through 1660, even as it grew steadily
+  # more nominal under a de facto hereditary dynasty; the 1660
+  # revolution abolished it outright, making the crown hereditary to
+  # male and female heirs alike by the Lex Regia of 1665.
+  succession_rule: { values: [primogeniture], source: stefansson-denmark-1916 }
+  # The Lex Regia had the king acknowledge "no superior but God" in
+  # civil and spiritual affairs alike - a divine-right claim well
+  # beyond the ordinary religious coronation this record's earlier
+  # kings received.
+  legitimation: { values: [descent, divine-sanction], source: stefansson-denmark-1916 }
 
 preceded_by_external: []
 
@@ -309,6 +316,32 @@ turning_points:
       granting Sweden's own new provinces exemption from Sound tolls
       that cut the crown's customs revenue to a quarter of its former
       volume.
+    source: stefansson-denmark-1916
+    contested: false
+  - year: 1660
+    type: reform
+    name: "The absolutist revolution"
+    changed: >-
+      Burgesses and clergy, angered by noble tax exemption after a war
+      Copenhagen's own commoners had helped defend the city through,
+      forced the nobility to yield and then persuaded Frederick III to
+      accept the throne on a hereditary basis; the Estates gave up the
+      king's own coronation charter and would not convene again until
+      the following century, and the secret constitution that followed,
+      the Lex Regia, placed all legislative, executive and judicial
+      authority in the monarch's own hands alone.
+    source: stefansson-denmark-1916
+    contested: false
+  - year: 1676
+    type: catastrophe
+    name: "The fall of Griffenfeld"
+    changed: >-
+      Denmark's self-made chancellor, architect of the new absolute
+      monarchy's efficient administration, was arrested on embezzlement
+      charges after his own caution in avoiding war with Sweden turned
+      the king against him, and was pardoned from execution only as he
+      knelt awaiting the axe - a reprieve that still cost him
+      twenty-two years of imprisonment without writing materials.
     source: stefansson-denmark-1916
     contested: false
 
