@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { sourceUsage, hasPage, displayName } from '@/lib/content'
 import { Page, Shell, PageHead, StatRow } from '@/components/Shell'
 import { Cite } from '@/components/Cite'
+import { SourceFilter } from '@/components/SourceFilter'
 
 export const metadata: Metadata = {
   title: 'Sources',
@@ -44,6 +45,22 @@ export default function Sources() {
   const concentrated = used.filter((u) => u.soleSourceFor.length > 0)
   const max = Math.max(...used.map((u) => u.claims))
 
+  /**
+   * The shape of the distribution, which the page argued about and never
+   * stated. All four are derived from the counts already on the page.
+   *
+   * `reachable` is the one that is not about distribution at all: a `url` is
+   * the only thing standing between a reader and the work a claim came from —
+   * the "source" link on a chapter and the link in this list both render only
+   * where one exists — and a page called Where the weight sits should say how
+   * much of that weight can actually be opened.
+   */
+  const claimsDesc = used.map((u) => u.claims)
+  const topTen = claimsDesc.slice(0, 10).reduce((n, c) => n + c, 0)
+  const median = [...claimsDesc].sort((a, b) => a - b)[Math.floor(claimsDesc.length / 2)] ?? 0
+  const once = used.filter((u) => u.claims === 1).length
+  const reachable = uses.filter((u) => u.source.url).length
+
   return (
     <Page ground="paper" current="Sources">
       <main id="main" className="flex-1">
@@ -59,6 +76,15 @@ export default function Sources() {
               A polity whose every claim rests on one book is not better sourced than a
               polity with a visible gap. It is one disagreement away from being wrong
               throughout, and nothing on its own page shows that. This page shows it.
+            </p>
+            {/* The shape, said once and counted at build. The page argued about
+                distribution and stated none of it. */}
+            <p className="mt-4 text-[17px] leading-relaxed text-debu-ink">
+              The ten most-used works carry{' '}
+              {Math.round((topTen / totalClaims) * 100)}% of those citations; the middle
+              work is cited {median} times, and {once} are cited once.{' '}
+              {reachable} of {uses.length} carry a link to something readable online — the
+              rest are citations you take to a library.
             </p>
           </PageHead>
 
@@ -101,9 +127,19 @@ export default function Sources() {
           <h2 className="font-display text-title font-semibold text-kashi-deep">
             Every work, by how much rests on it
           </h2>
+
+          <SourceFilter total={used.length} />
+
           <ul className="mt-8">
             {used.map((u) => (
-              <li key={u.source.id} className="border-t border-kashi/12 py-5">
+              <li
+                key={u.source.id}
+                data-source=""
+                data-name={`${u.source.author ?? ''} ${u.source.title} ${
+                  u.source.container ?? ''
+                } ${u.source.id}`}
+                className="border-t border-kashi/12 py-5"
+              >
                 {/* The full entry, with the note and the link. Both used to
                     render only on About, which listed the same 550 works over
                     again: 493 of them carry a note and 15 a url, and none of
