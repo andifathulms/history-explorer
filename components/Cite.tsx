@@ -36,7 +36,11 @@ export function Cite({
       ) : s.publisher ? (
         <span>)</span>
       ) : s.year ? (
-        <span className="text-debu-ink"> ({s.year})</span>
+        // No `text-debu-ink`. The year is the same datum either way, and
+        // printing it in dust when a publisher is absent made it two colours
+        // across the bibliography — 461 works in body colour, 77 in dust,
+        // decided by a neighbouring field the reader cannot see.
+        <span> ({s.year})</span>
       ) : null}
       {showUrl && s.url ? (
         <>

@@ -109,12 +109,29 @@ export default function Sources() {
                     <Cite source={u.source} />
                   </p>
                 </div>
-                {/* Length is a cited quantity here too: the bar is the claim count. */}
+                {/* Length is a cited quantity here too: the bar is the claim
+                    count, so it has to keep measuring at the top of the range.
+
+                    It was a percentage of the page clamped at 540px, and at
+                    the shell's 1,176px of content width that meant everything
+                    at or above 45.9% of the maximum drew the same 540 pixels.
+                    Ten works were over that line, spanning a true range of 46%
+                    to 100% — so the Korea volume at 201 citations and the
+                    Cambridge History of India at 118 were one length. The page
+                    argues that distribution is the useful question and was
+                    flattening the only part of the distribution its argument
+                    is about.
+
+                    A track of fixed width with the fill scaled inside it. The
+                    percentage now resolves against the track rather than
+                    against the page, so nothing clamps and nothing saturates. */}
                 <div className="mt-3 flex items-center gap-4">
-                  <span
-                    className="h-[7px] max-w-[540px] shrink-0 rounded-full bg-kashi/55"
-                    style={{ width: `${Math.max(1, (u.claims / max) * 100)}%` }}
-                  />
+                  <div className="h-[7px] w-full max-w-[420px] shrink-0 rounded-full bg-kashi/12">
+                    <div
+                      className="h-full rounded-full bg-kashi/55"
+                      style={{ width: `${Math.max(0.8, (u.claims / max) * 100)}%` }}
+                    />
+                  </div>
                   <span className="shrink-0 font-mono text-micro uppercase tabular-nums text-debu-ink">
                     {u.claims} {u.claims === 1 ? 'citation' : 'citations'}
                     {u.chapters ? ` · ${u.chapters} chapter${u.chapters === 1 ? '' : 's'}` : ''}
