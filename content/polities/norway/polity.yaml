@@ -14,22 +14,25 @@ span:
   # of Norway is dated by the saga tradition to the Battle of Hafrsfjord
   # in 872.
   start: { min: 872, max: 872, source: boyesen-norway-1886 }
-  # This record currently runs only to 1380, when the child king Olaf's
-  # accession bound Norway to Denmark - the last event it has sourced
-  # chapters for - not to the kingdom's actual institutional end, since
-  # Norway has none: it continues as a sovereign state to the present
-  # day. `ended` below is null for that reason as well as for the
-  # coverage reason. No edge is drawn to the denmark record for this
-  # union: it was a personal union of crowns, the same reasoning that
-  # keeps Scotland's 1603 union with England and Aragon's 1479 union
-  # with Castile edgeless elsewhere in this corpus.
-  end: { min: 1380, max: 1380, source: boyesen-norway-1886 }
+  # This record now runs to 1814, skipping the 434-year union with
+  # Denmark itself (already narrated in full from Denmark's own side of
+  # it) to reach the Treaty of Kiel's aftermath - the Eidsvoll
+  # constitution and the union with Sweden that followed it - the last
+  # events this record has sourced chapters for. Not the kingdom's
+  # actual institutional end, since Norway has none: it continues as a
+  # sovereign state to the present day. `ended` below is null for that
+  # reason as well as for the coverage reason. No edge is drawn to
+  # either the denmark or a future sweden record for either union: both
+  # were personal unions of crowns, the same reasoning that keeps
+  # Scotland's 1603 union with England and Aragon's 1479 union with
+  # Castile edgeless elsewhere in this corpus.
+  end: { min: 1814, max: 1814, source: boyesen-norway-1886 }
 
 identity: >-
   A collection of Norwegian petty kingdoms Harald Fairhair united by
-  conquest at Hafrsfjord in 872, reaching its medieval height under
-  Haakon Haakonsson before the Black Death and a child king's
-  accession bound it to Denmark in 1380 for four centuries to come.
+  conquest at Hafrsfjord in 872, bound to Denmark from 1380, and
+  reborn in 1814 with a liberal constitution at Eidsvoll before a
+  brief war forced it into a still-autonomous union with Sweden.
 
 capitals: []
 
@@ -271,6 +274,34 @@ turning_points:
       his mother Margaret governing both kingdoms in his
       name; no treaty marked the moment, but the two crowns would stay
       joined without a break for the next four and a third centuries.
+    source: boyesen-norway-1886
+    contested: false
+  - year: 1814
+    type: reform
+    name: "The Eidsvoll constitution"
+    changed: >-
+      News that Denmark had ceded Norway to Sweden without asking the
+      Norwegians themselves brought the Danish viceroy, Christian
+      Frederik, to summon representatives to Eidsvoll rather than
+      simply accept the transfer; a hundred and twelve delegates
+      adopted a constitution judged extremely liberal for its time on
+      17 May 1814, declaring the kingdom sovereign in its own right and
+      electing Christian Frederik king in place of the crown he might
+      otherwise have simply claimed by inheritance.
+    source: boyesen-norway-1886
+    contested: false
+  - year: 1814
+    type: treaty
+    name: "The Convention of Moss and the union with Sweden"
+    changed: >-
+      A brief war that summer, in which Norwegian troops fought
+      Sweden's invading army to a standstill despite an indifferent
+      king, ended in an armistice at Moss that August; an extraordinary
+      Storthing accepted Christian Frederik's abdication and elected
+      Sweden's own king in his place, binding him to keep the Eidsvoll
+      charter intact instead of drafting a fresh one of his own choosing
+      - securing, through defeat, a real autonomy few had expected
+      Norway to keep.
     source: boyesen-norway-1886
     contested: false
 
