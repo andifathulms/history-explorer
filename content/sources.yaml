@@ -7690,3 +7690,47 @@ sources:
       Duero valley - settlement phases and the origins of the
       repopulating groups. Open access via the Universidad de
       Salamanca's Gredos repository.
+
+  - id: beard-2015
+    kind: book
+    author: Mary Beard
+    title: "SPQR: A History of Ancient Rome"
+    publisher: Profile Books
+    year: 2015
+    note: >-
+      The standard modern narrative history of Rome from the Kingdom through
+      the early Empire, used here as the primary source for the Republic's own
+      record for the same reason Woolf's book carries the Roman Empire record:
+      a comprehensive single-volume account against which the primary-source
+      chapters can be checked and dated.
+
+  - id: livy-roberts
+    kind: primary
+    author: Livy
+    title: "The History of Rome"
+    translator: Rev. Canon William M. Roberts
+    publisher: Everyman's Library
+    year: 1912
+    note: >-
+      Writing under Augustus, four and a half centuries after the traditional
+      founding, working substantially from earlier annalists whose own work is
+      lost and from a native Roman tradition of family and civic legend rather
+      than from contemporary documents for the earliest material. Livy says so
+      himself in his preface, distinguishing what can be established from what
+      is transmitted because it is fitting to the greatness of the subject. Used
+      here for the kings, the expulsion, and the early Conflict of the Orders,
+      where he is substantially the only continuous narrative that survives at
+      all. Out of copyright.
+
+  - id: appian-civilwars-white
+    kind: primary
+    author: Appian of Alexandria
+    title: "The Civil Wars"
+    translator: Horace White
+    publisher: Macmillan
+    year: 1899
+    note: >-
+      The companion volume to this site's Foreign Wars citation, by the same
+      translator, covering the Gracchi through Actium as a single continuous
+      civil conflict rather than as separate crises - which is itself Appian's
+      own argument about the period. Out of copyright.

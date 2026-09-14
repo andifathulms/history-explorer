@@ -2047,6 +2047,20 @@ edges:
 
   # ---- Rome, and the people who wanted its name ----
 
+  - from: roman-republic
+    to: roman
+    type: claimed legitimacy of
+    year: -27
+    note: >-
+      Octavian's powers were voted to him by the senate and people under the
+      republic's own constitutional forms, individually and by name, and
+      every emperor for three centuries after him sought the same kind of
+      grant rather than a new title. The empire's own claim, maintained in
+      public for as long as anyone bothered to maintain it, was continuity
+      with the republic's own institutions rather than replacement of them.
+    source: beard-2015
+    contested: true
+
   - from: roman
     to: byzantine
     type: partitioned from

@@ -1,0 +1,190 @@
+id: roman-republic
+region: rome-and-byzantium
+
+name:
+  latin: Roman Republic
+  script: Res publica Romana
+  script_lang: la
+
+# 509 is the traditional date for the expulsion of Tarquin the Proud and the
+# first consuls, preserved in the Roman civic calendar itself rather than
+# independently attested; the earlier kings are legend, not history, and the
+# first chapter says so. 27 is Octavian's constitutional settlement, which is
+# also where this site's own Roman Empire record begins - the same event
+# closes one record and opens the other.
+span:
+  start: { min: -509, max: -509, source: livy-roberts }
+  end: { min: -27, max: -27, source: beard-2015 }
+
+identity: >-
+  Rome governed by elected annual magistrates rather than a king, for four
+  hundred and eighty-two years, until the civil wars its own success produced
+  ended in one man holding permanent power under old republican names.
+
+capitals:
+  - { name: Rome, script: Roma, from: -509, source: livy-roberts }
+
+core_region: Central Italy, expanding to the whole Mediterranean basin
+
+rulers:
+  # Traditional, not documentary: no contemporary record of 509 survives, and
+  # Livy himself is writing four and a half centuries later. Entered because
+  # it is the constitutional founding act the Romans themselves dated
+  # everything else from - the first of the new dual magistracy the whole
+  # record is about - not because it is independently verified.
+  founder: { name: Lucius Junius Brutus, source: livy-roberts }
+  # Null, deliberately. The republic had no single ruler at any point in its
+  # life - that is the whole structural fact the record is about - and naming
+  # one figure as its peak would misstate the thing being described. Chapter
+  # six is about the office structure this field cannot hold.
+  peak: { name: null, source: null }
+  # Octavian held the consulship repeatedly through the 30s and 20s and was
+  # the man in whose favour the republic's own institutions stopped operating
+  # independently in 27. He is entered here as the magistrate present at the
+  # end, not as a final ruler in the sense the word implies for a monarchy -
+  # the same convention this site uses for the Roman Empire record's own
+  # `last` field, one institutional step later.
+  last: { name: Octavian, reign: [-43, -27], source: beard-2015 }
+
+scripts_and_languages:
+  administration: [Latin]
+  writing_system: Latin
+
+# Not a conquest and not a collapse. Octavian's settlement of 27 left the
+# senate meeting, the consuls being elected and no law declaring the republic
+# ended - the same fiction the Roman Empire record's own first chapter
+# describes from the other side. What ended was the institutions' independent
+# operation rather than their existence, captured from within by the winner
+# of a civil war rather than taken by an outside power, which is what
+# `internal usurpation` is for.
+ended:
+  type: internal usurpation
+  by: []
+  year: -27
+  source: beard-2015
+
+institutions:
+  # Two, and the change between them is one of the best-documented turning
+  # points in the record. The early and middle republic's army was a
+  # property-qualified citizen levy: men who met a census threshold armed
+  # themselves and served a campaign season, unpaid beyond their share of the
+  # plunder, dismissed at the season's end. Marius's reforms of 107 opened the
+  # legions to the landless and made service continuous and paid, which is
+  # what `standing-professional` records - and it is the reform the seventh
+  # chapter says produced every civil war that followed.
+  military_basis: { values: [conscript, standing-professional], source: beard-2015 }
+  # Rome's own citizens paid a direct property tax, the tributum, levied only
+  # when a campaign required it and formally suspended after 167 once
+  # conquest income made it unnecessary. What actually ran the state for most
+  # of its life was what conquest produced: war indemnities, the sale of
+  # captives, and from the second century onward the tribute of the
+  # provinces, collected in large part by tax farmers under contract to the
+  # censors. Unranked.
+  revenue_basis: { values: [plunder, tribute, land-tax], source: beard-2015 }
+  # Election, and it is coded in the strict sense: two consuls a year, chosen
+  # by the citizen assembly, bound by collegiality (either could veto the
+  # other) and by the expectation, not always honoured, that ten years would
+  # pass before the same man held the office again. Coding rule 7 asks for
+  # the rule, and annual election by assembly is the rule the whole record
+  # describes - including the crises that came from generals refusing to
+  # honour it.
+  succession_rule: { values: [election], source: beard-2015 }
+  # Election, and nothing else. The consuls, praetors and tribunes held
+  # office because the citizen assemblies had voted for them, in a system
+  # with no monarch, no dynasty and no religious claim to the office itself -
+  # the senate's own authority was auctoritas, weight of custom and standing,
+  # not a coded legal power this vocabulary has a separate value for, and the
+  # sixth chapter is about the distinction.
+  legitimation: { values: [election], source: beard-2015 }
+
+turning_points:
+  - year: -509
+    type: revolt
+    name: "The expulsion of the kings"
+    changed: >-
+      Tarquin the Proud was driven out and the office of king was replaced
+      with two annually elected consuls holding equal power, each able to
+      veto the other - a deliberate design against the thing that had just
+      been overthrown. Roman tradition dated its entire subsequent
+      chronology from this year, and the aristocratic families who had just
+      removed a monarchy spent the next two centuries making sure no single
+      man could rebuild one through the same office.
+    source: livy-roberts
+    contested: true
+  - year: -287
+    type: reform
+    name: "The Lex Hortensia"
+    changed: >-
+      A law ended two centuries of plebeian secessions and gradual
+      concessions by making resolutions of the plebeian assembly binding on
+      patricians and plebeians alike, without requiring senatorial approval.
+      The Conflict of the Orders, which had run since the first secession in
+      494, was over: Rome's constitution was now genuinely shared between
+      the old aristocracy and everyone else, on paper if not always in
+      practice.
+    source: beard-2015
+    contested: false
+  - year: -202
+    type: battle
+    name: "Zama"
+    changed: >-
+      Scipio Africanus defeated Hannibal in Africa and ended the Second
+      Punic War, fourteen years after Cannae had killed a Roman army whole
+      generations remembered as the worst defeat the republic ever absorbed
+      and survived. Carthage kept its city and lost its empire, its fleet
+      and its independent foreign policy; Rome held every major state west
+      of Greece and had demonstrated, twice within a century, that it did
+      not have to win every battle to win a war.
+    source: polybius-shuckburgh
+    contested: false
+  - year: -133
+    type: catastrophe
+    name: "Tiberius Gracchus killed"
+    changed: >-
+      A tribune proposing to redistribute public land held illegally in
+      excess by wealthy families was clubbed to death by a mob of senators
+      and their clients on the floor of the assembly, the first Roman
+      politician killed in domestic politics in living memory. The land
+      question that had produced him was not solved and the precedent that
+      mattered more than the land: political disagreement inside Rome could
+      now be settled by killing the men who lost the argument.
+    source: plutarch-clough
+    contested: false
+  - year: -49
+    type: revolt
+    name: "Caesar crosses the Rubicon"
+    changed: >-
+      Ordered by the senate to disband his army and return to Rome as a
+      private citizen, Caesar led a legion across the small river marking
+      the boundary of his province instead, a technical act of war against
+      his own state. Civil war among Roman citizen armies, fought
+      intermittently since Marius and Sulla's generation, resumed on a
+      scale that did not stop until one man held every army that mattered.
+    source: appian-civilwars-white
+    contested: false
+  - year: -27
+    type: reform
+    name: "Octavian gives the state back"
+    changed: >-
+      Octavian resigned the extraordinary powers the civil wars had left in
+      his hands and received in return a set of ordinary ones, voted
+      individually and by name, along with the title Augustus. No law
+      declared the republic ended, the senate went on meeting and the
+      consuls went on being elected, and that is exactly why the date is
+      difficult: nothing visible broke, and everything that mattered had
+      already stopped operating independently.
+    source: beard-2015
+    contested: true
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    # One. The Roman Empire's own legitimacy rested explicitly on continuity
+    # with the republic's institutions - powers voted under republican forms,
+    # by name, for three centuries - which is titulature and constitutional
+    # form claimed rather than invented, and is the `claimed legitimacy of`
+    # edge this record carries to it.
+    successor_claims: { count: 1, items: [roman], source: beard-2015 }
