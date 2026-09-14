@@ -14,21 +14,19 @@ span:
   # of Norway is dated by the saga tradition to the Battle of Hafrsfjord
   # in 872.
   start: { min: 872, max: 872, source: boyesen-norway-1886 }
-  # This record currently runs only to Sverre Sigurdsson's decisive
-  # victory over King Magnus Erlingsson at the Battle of Norefjord in
-  # 1184 - the last event it has sourced chapters for, skipping the
-  # intervening century of civil war this record has not yet reached -
-  # not to the kingdom's actual institutional end, since Norway has
-  # none: it continues as a sovereign state to the present day. `ended`
-  # below is null for that reason as well as for the coverage reason.
-  end: { min: 1184, max: 1184, source: boyesen-norway-1886 }
+  # This record currently runs only to Haakon Haakonsson's death in the
+  # Orkneys in 1263 - the last event it has sourced chapters for - not
+  # to the kingdom's actual institutional end, since Norway has none:
+  # it continues as a sovereign state to the present day. `ended` below
+  # is null for that reason as well as for the coverage reason.
+  end: { min: 1263, max: 1263, source: boyesen-norway-1886 }
 
 identity: >-
   A collection of Norwegian petty kingdoms Harald Fairhair united by
-  conquest at Hafrsfjord in 872, briefly joined to Denmark under
-  Magnus the Good, and ruled after a century of civil war by Sverre
-  Sigurdsson, a Faroese priest turned rebel leader who won the throne
-  outright at Norefjord in 1184.
+  conquest at Hafrsfjord in 872, ruled at its medieval height by
+  Haakon Haakonsson, whose diplomatic reach brought Iceland and
+  Greenland under Norwegian overlordship before his death in Orkney
+  in 1263.
 
 capitals: []
 
@@ -39,13 +37,15 @@ rulers:
   # year of Hafrsfjord, the decisive battle within it, not his
   # accession.
   founder: { name: "Harald Fairhair (Harald Hårfagre)", reign: [860, 930], source: boyesen-norway-1886 }
-  # Revised: Magnus the Good ruled Norway and Denmark together for five
-  # years (1042-47), a genuine dual crown rather than a nominal claim,
-  # and the widest reach of authority any king in this record has held
-  # - wider than Harald's own unification of Norway alone. Harald
-  # Hardrada's own Byzantine career brought him personal fame and
-  # wealth but never added territory to the Norwegian crown itself.
-  peak: { name: Magnus the Good, reign: [1035, 1047], source: boyesen-norway-1886 }
+  # Revised again: Magnus the Good's five years ruling Norway and
+  # Denmark together was real but brief. Haakon Haakonsson's own reign
+  # - forty-six years, a navy strong enough to force Denmark to terms
+  # without a battle, a Papal invitation to stand as candidate for Holy
+  # Roman Emperor, and the first-ever submission of Iceland and
+  # Greenland to the Norwegian crown in 1261 - is a wider and far more
+  # durable reach of authority than any king in this record, including
+  # Magnus, has held.
+  peak: { name: Haakon Haakonsson the Old, reign: [1217, 1263], source: boyesen-norway-1886 }
   last: null
 
 scripts_and_languages:
@@ -206,6 +206,32 @@ turning_points:
       including Magnus himself, who drowned rather than be taken;
       his death ended organized resistance to Sverre's own claim to a
       throne no one could ever prove or disprove he was born to.
+    source: boyesen-norway-1886
+    contested: false
+  - year: 1261
+    type: treaty
+    name: "Iceland and Greenland submit"
+    changed: >-
+      Decades of feuding among its own leading families left Iceland's
+      old commonwealth too exhausted to resist a foreign crown any
+      longer, and its assembly accepted Haakon as overlord in exchange
+      for tribute; distant Greenland followed the same year. Neither
+      submission cost Norway a soldier - both were the product of a
+      naval reputation strong enough to settle arguments before they
+      became battles.
+    source: boyesen-norway-1886
+    contested: false
+  - year: 1263
+    type: battle
+    name: "Largs and the death of Haakon the Old"
+    changed: >-
+      A dispute over Orkney and Shetland brought Haakon to Scotland in
+      person, past fifty and fresh from a storm that wrecked part of
+      his fleet, to fight an inconclusive battle at Largs that each
+      side would later claim as its own victory; he wintered in Orkney
+      afterward and died at Kirkwall that December while listening to
+      his own family's sagas read aloud, expiring during the account of
+      his grandfather Sverre's reign.
     source: boyesen-norway-1886
     contested: false
 
