@@ -113,6 +113,22 @@ turning_points:
       only purchased one of them.
     source: shaw-2000
     contested: false
+  - year: -1077
+    type: catastrophe
+    name: "Wenamun in the window"
+    changed: >-
+      A temple official sent to Byblos for cedar found the prince there
+      producing his own fathers' ledgers of what Egypt used to pay and
+      telling him to his face that he was nobody's servant. No battle
+      ends the New Kingdom and no single conqueror can be named for it;
+      the last Ramesside king held the throne as one of two powers in the
+      country, with the high priest of Amun holding the south, and the
+      account of the kingdom's actual reach in the wider world survives
+      only because an envoy with no army, no money and no letters wrote
+      down what he was told when he tried to collect on an authority that
+      had already stopped being real outside the Nile valley.
+    source: shaw-2000
+    contested: false
 
 # Egypt's Old Kingdom, across the First Intermediate Period and the Middle
 # Kingdom. The only one of the four pairs where a whole further kingdom sits in

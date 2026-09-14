@@ -120,6 +120,23 @@ turning_points:
       establishment — is genuinely disputed.
     source: shaw-2000
     contested: true
+  - year: -2181
+    type: catastrophe
+    name: "After the longest reign, silence"
+    changed: >-
+      Pepi II reigned over ninety years, long enough for every arrangement
+      made in the provinces to settle, harden and become customary with no
+      succession ever interrupting it - the same process hereditary
+      nomarchs had already begun, now running unchecked. What followed his
+      death is obscure not because scholars disagree but because the
+      writing itself stops: a handful of brief reigns, then nothing. No
+      foreign army came and no conquest is recorded; the power of the
+      landed provincial governors had become a centrifugal force the
+      throne could no longer withstand, and roughly a thousand years of
+      continuous development ended with Egypt in approximately the
+      political condition it had been in before it began.
+    source: breasted-1905
+    contested: false
 
 measures:
   # Taagepera's figure at 2400. It is smaller than the New Kingdom's 1,000,000
