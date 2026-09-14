@@ -14,19 +14,19 @@ span:
   # the Old, undated in this source beyond his son Harald Bluetooth's
   # own reign, given here as beginning in 940.
   start: { min: 940, max: 940, source: stefansson-denmark-1916 }
-  # This record currently runs only to Queen Caroline Matilda's death
-  # in exile in 1775 - the last event it has sourced chapters for - not
-  # to the kingdom's actual institutional end, since Denmark has none:
-  # it continues as a sovereign state to the present day. `ended` below
-  # is null for that reason as well as for the coverage reason.
-  end: { min: 1775, max: 1775, source: stefansson-denmark-1916 }
+  # This record currently runs only to the 1814 Treaty of Kiel - the
+  # last event it has sourced chapters for - not to the kingdom's
+  # actual institutional end, since Denmark has none: it continues as a
+  # sovereign state to the present day. `ended` below is null for that
+  # reason as well as for the coverage reason.
+  end: { min: 1814, max: 1814, source: stefansson-denmark-1916 }
 
 identity: >-
   A Viking-age kingdom that ruled Norway and England together under
-  Cnut, bound three Scandinavian crowns at Kalmar, and became, in
-  1660, an absolute monarchy so unstable a century later that its own
-  royal physician, Struensee, ruled by decree before his 1772
-  execution.
+  Cnut, bound three Scandinavian crowns at Kalmar, became an absolute
+  monarchy in 1660, and then lost its fleet to a British bombardment
+  in 1807 and its four-century union with Norway at the 1814 Treaty of
+  Kiel.
 
 capitals:
   - { name: Roskilde, source: stefansson-denmark-1916 }
@@ -49,7 +49,7 @@ rulers:
   # confirmed now that the Union's full rise and fall are both in view.
   peak: { name: Cnut the Great, reign: [1016, 1035], source: stefansson-denmark-1916 }
   # No final ruler is asserted: this record's own coverage stops in
-  # 1775, well short of the present day, so there is no "last" king of
+  # 1814, well short of the present day, so there is no "last" king of
   # this record to name - and, since Denmark has never institutionally
   # ended, may never be one.
   last: null
@@ -368,6 +368,42 @@ turning_points:
       lifelong Danish imprisonment only because her brother, England's
       own King George III, personally intervened, dying in exile at
       Celle three years later.
+    source: stefansson-denmark-1916
+    contested: false
+  - year: 1801
+    type: battle
+    name: "The Battle of Copenhagen"
+    changed: >-
+      Nelson's fleet attacked Copenhagen's harbour defences, held by an
+      improvised garrison of student volunteers and untried recruits,
+      in what he later called the fiercest engagement of his career;
+      with six of his own ships aground after five hours, he proposed a
+      truce in a personal letter to the Crown Prince, who accepted it.
+    source: stefansson-denmark-1916
+    contested: false
+  - year: 1807
+    type: siege
+    name: "The bombardment of Copenhagen"
+    changed: >-
+      A British fleet carrying thirty thousand troops demanded Denmark
+      hand over its entire navy until the war's own end; when the
+      Crown Prince refused, Copenhagen was bombarded for three days,
+      burning the university and cathedral, and Britain carried off
+      the whole Danish fleet - driving an outraged Denmark into
+      alliance with Napoleon that same October.
+    source: stefansson-denmark-1916
+    contested: false
+  - year: 1814
+    type: treaty
+    name: "The Treaty of Kiel"
+    changed: >-
+      Defeated alongside Napoleon and unable to hold Norway against a
+      Swedish-Russian claim backed by force, Frederick VI ceded Norway
+      proper - keeping only Iceland, Greenland and the Faroes of its
+      old North Atlantic holdings - to Sweden in exchange for Pomerania
+      and a cash indemnity, ending more than four centuries of the two
+      crowns sharing one king and leaving Denmark bankrupt and
+      diminished.
     source: stefansson-denmark-1916
     contested: false
 
