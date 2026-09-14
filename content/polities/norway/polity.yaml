@@ -14,18 +14,19 @@ span:
   # of Norway is dated by the saga tradition to the Battle of Hafrsfjord
   # in 872.
   start: { min: 872, max: 872, source: boyesen-norway-1886 }
-  # This record currently runs only to Haakon the Good's death at the
-  # Battle of Fitjar in 961 - the last event it has sourced chapters for
-  # - not to the kingdom's actual institutional end, since Norway has
-  # none: it continues as a sovereign state to the present day. `ended`
-  # below is null for that reason as well as for the coverage reason.
-  end: { min: 961, max: 961, source: boyesen-norway-1886 }
+  # This record currently runs only to Olaf Tryggvason's death at the
+  # Battle of Svolder in 1000 - the last event it has sourced chapters
+  # for - not to the kingdom's actual institutional end, since Norway
+  # has none: it continues as a sovereign state to the present day.
+  # `ended` below is null for that reason as well as for the coverage
+  # reason.
+  end: { min: 1000, max: 1000, source: boyesen-norway-1886 }
 
 identity: >-
-  A collection of Norwegian petty kingdoms that Harald Fairhair united
-  by conquest at Hafrsfjord in 872, ruled afterward by a tyrant son and
-  then by the foster-son of an English king, Haakon the Good, who died
-  defending it at Fitjar in 961.
+  A collection of Norwegian petty kingdoms Harald Fairhair united by
+  conquest at Hafrsfjord in 872, ruled afterward by Haakon the Good
+  and by the former slave Olaf Tryggvason, who forced Christianity on
+  the kingdom before drowning at Svolder in 1000.
 
 capitals: []
 
@@ -36,10 +37,11 @@ rulers:
   # year of Hafrsfjord, the decisive battle within it, not his
   # accession.
   founder: { name: "Harald Fairhair (Harald Hårfagre)", reign: [860, 930], source: boyesen-norway-1886 }
-  # Haakon the Good was more beloved and left a more durable legal
-  # legacy than Harald, but he inherited Norway united rather than
-  # extending it - Harald's own conquest at Hafrsfjord remains the
-  # wider reach of authority this record's coverage has shown so far.
+  # Haakon the Good was more beloved, and Olaf Tryggvason's own reach -
+  # a united Norway forcibly converted to Christianity - was real but
+  # cut short after five years by his death at Svolder. Neither
+  # exceeded the territorial reach Harald's own conquest at Hafrsfjord
+  # first established, so this field stands provisional but unchanged.
   peak: { name: "Harald Fairhair (Harald Hårfagre)", reign: [860, 930], source: boyesen-norway-1886 }
   last: null
 
@@ -99,6 +101,32 @@ turning_points:
       declined to force his own faith on his people in life, and asking
       with his last act that the men who had just tried to kill him
       take the kingdom he left without an heir.
+    source: boyesen-norway-1886
+    contested: false
+  - year: 995
+    type: succession-crisis
+    name: "Olaf Tryggvason proclaimed at the Øre-thing"
+    changed: >-
+      An assassination plot against a returning grandson of Harald
+      Fairhair backfired when Olaf Tryggvason found Trøndelag already
+      in revolt against the unpopular Earl Haakon, who died in
+      disgrace; the assembled chieftains and peasants proclaimed Olaf
+      king at the Øre-thing, establishing Trøndelag's own lasting right
+      to proclaim Norway's kings and Trondheim as their coronation site
+      ever since.
+    source: boyesen-norway-1886
+    contested: false
+  - year: 1000
+    type: battle
+    name: "The Battle of Svolder"
+    changed: >-
+      A conspiracy of Danish, Swedish and Norwegian rivals ambushed
+      Olaf Tryggvason's fleet behind the island of Svolder with the
+      connivance of his own escort; heavily outnumbered, his ships were
+      cut off one by one until Olaf, his own flagship overwhelmed,
+      went over the side in full armour rather than be taken - and the
+      victors divided the kingdom he had briefly forced into Christian
+      unity among themselves.
     source: boyesen-norway-1886
     contested: false
 
