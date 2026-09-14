@@ -116,6 +116,20 @@ turning_points:
       rose ten years later.
     source: abun-nasr-1987
     contested: false
+  - year: 750
+    type: battle
+    name: "The Great Zab"
+    changed: >-
+      A movement organised in Khurasan for twenty years under the vague
+      banner of an unnamed member of the Prophet's family took Kufa in 749
+      and destroyed Marwan II's army at the Great Zab in 750. Only then
+      was the candidate named, and he was an Abbasid rather than an Alid —
+      the Shi'i element of the coalition that had carried the revolution
+      discovered it had been used. The Umayyad house was hunted down; one
+      grandson of Hisham escaped west and founded an emirate at Cordoba
+      that outlasted the caliphate his family had lost.
+    source: hawting-2000
+    contested: false
 
 measures:
   reach_km2: { value: 11100000, at: 720, source: taagepera-1997 }

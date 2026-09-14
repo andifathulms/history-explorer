@@ -87,6 +87,21 @@ turning_points:
       acquired a possibility it kept using for two thousand years.
     source: foster-2016
     contested: false
+  - year: -2154
+    type: catastrophe
+    name: "Who was king, who was not king?"
+    changed: >-
+      Shar-kali-sharri spent his reign fighting on every frontier at once,
+      and after him the king-list itself asks the question. Nobody
+      conquered Akkad; three explanations compete for how it came apart —
+      Gutian pressure, the gods' anger at Naram-Sin, a sharp arid
+      episode — and none can be chosen over the others from what
+      survives. A state that had made kingship over the whole land
+      thinkable for the first time lasted about a hundred and eighty
+      years and left the precedent every later Mesopotamian ruler
+      described his own reach in.
+    source: foster-2016
+    contested: true
 
 measures:
   reach_km2: { value: 650000, at: -2300, source: taagepera-1978b }

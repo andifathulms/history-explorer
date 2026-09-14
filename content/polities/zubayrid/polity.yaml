@@ -76,6 +76,20 @@ turning_points:
       started in. Everything after it is a siege.
     source: hawting-2000
     contested: false
+  - year: 692
+    type: siege
+    name: "Ibn al-Zubayr's death at Mecca"
+    changed: >-
+      Al-Hajjaj besieged the sanctuary for months, and when the defections
+      had run through his own household, Ibn al-Zubayr's mother told him
+      death was better than surrender. He fought to the last morning and
+      was killed, aged about seventy, and the caliphate that had struck
+      coin from Egypt to Khurasan and held both holy cities for nine years
+      ended with him — remembered as the second fitna and its head as a
+      rebel, because the accounts that survive were written by the side
+      that won.
+    source: tabari-21-fishbein
+    contested: false
 
 measures:
   # Taagepera does not tabulate this polity. At its widest recognition it held

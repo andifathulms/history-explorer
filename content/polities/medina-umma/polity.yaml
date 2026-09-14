@@ -140,6 +140,20 @@ turning_points:
       to see which way it went.
     source: watt-1956
     contested: false
+  - year: 632
+    type: succession-crisis
+    name: "What existed in 632"
+    changed: >-
+      Muhammad died in June, having named nobody to follow him. The
+      community's head had been God, its intermediary a man who announced
+      what God commanded, and its membership a bundle of treaties made
+      with that man personally — the one function nobody could inherit
+      was the one the whole arrangement rested on. A great many tribes
+      took the reasonable view that an agreement made with Muhammad had
+      ended with Muhammad, and whether they were right was decided by
+      force over the following two years.
+    source: watt-1956
+    contested: false
 
 measures:
   # No source consulted publishes a figure for the area under Medinan authority
