@@ -1,0 +1,132 @@
+id: asturias
+region: iberia
+
+name:
+  latin: Kingdom of Asturias
+  script: null
+  script_lang: null
+
+span:
+  # Chroniclers place the Battle of Covadonga in 718 or 722 depending on
+  # the source, and Chapman notes that even the traditional account has
+  # Pelayo already elected king "several years before" the battle
+  # itself - so no single year for the kingdom's own beginning is
+  # actually secure.
+  start: { min: 718, max: 722, source: chapman-1918 }
+  end: { min: 910, max: 910, source: chapman-1918 }
+
+identity: >-
+  A mountain redoubt in the far north of a peninsula the Umayyads had
+  otherwise overrun, whose kings pushed the frontier south over two
+  centuries of raids and resettlement, before its own sons and wife
+  forced its greatest king into abdication and split it three ways.
+
+capitals:
+  - { name: Cangas de Onís, source: chapman-1918 }
+  - { name: Oviedo, from: 791, source: chapman-1918 }
+
+core_region: The mountains of Asturias, extending south to the Duero valley by the ninth century
+
+rulers:
+  founder: { name: Pelayo (Pelagius), source: chapman-1918 }
+  # Alfonso III added the most territory of any Asturian king in a
+  # period of Umayyad weakness, before his own family turned on him.
+  peak: { name: Alfonso III "the Great", reign: [866, 910], source: chapman-1918 }
+  # The kingdom did not pass to a single final king: Alfonso III's
+  # forced abdication and the division of his realm among three sons
+  # happened in the same year, so there is no ruler of a still-unified
+  # Asturias after him to name.
+  last: null
+
+scripts_and_languages:
+  administration: [Latin]
+  writing_system: Latin alphabet
+
+institutions:
+  # Frontier counts, including the counts of Castile who would later
+  # break away entirely, held their lands in exchange for military
+  # service and increasingly acted as independent lords in their own
+  # right.
+  military_basis: { values: [land-grant], source: chapman-1918 }
+  revenue_basis: null
+  # Pelayo himself was elected by the nobles and clergy gathered in the
+  # Asturian mountains, according to the tradition Chapman relates -
+  # the clearest attested case, even if later successions were
+  # increasingly hereditary and occasionally decided by outright
+  # rebellion instead.
+  succession_rule: { values: [election], source: chapman-1918 }
+  legitimation: { values: [descent, election], source: chapman-1918 }
+
+preceded_by_external:
+  - name: the Visigothic Kingdom
+    type: absorbed remnants of
+    year: 718
+    note: >-
+      The nobles, bishops and remnants of the defeated Visigothic armies
+      who gathered in the Asturian mountains after King Roderic's death
+      and the collapse of organized resistance elsewhere in the
+      peninsula formed the nucleus from which Pelayo's kingdom grew.
+    source: chapman-1918
+
+succeeded_by_external: []
+
+ended:
+  type: fragmentation
+  by: []
+  year: 910
+  source: chapman-1918
+
+turning_points:
+  - year: 718
+    type: battle
+    name: "Battle of Covadonga"
+    changed: >-
+      Pelayo and his followers won a victory in the valley of Covadonga
+      after several years of Umayyad advances - a battle whose actual
+      military significance later legend inflated far beyond its real
+      scope, but whose immediate effect was to secure eastern Asturias
+      for the Christian holdouts gathered there.
+    source: chapman-1918
+    contested: true
+  - year: 791
+    type: capital-move
+    name: "Alfonso II moves the capital to Oviedo"
+    changed: >-
+      Alfonso II "the Chaste" shifted the kingdom's seat to Oviedo, and
+      in his reign a Galician site was identified as the resting place
+      of the apostle James's own remains - the beginning of Santiago de
+      Compostela's rise as a destination for pilgrims from across
+      Christian Europe.
+    source: chapman-1918
+    contested: false
+  - year: 866
+    type: reform
+    name: "Alfonso III's reign begins"
+    changed: >-
+      Alfonso III took the throne at the start of a period of marked
+      Umayyad weakness, and used it to extend Asturian territory
+      further than any king before him - the high point of the
+      kingdom's own reach before its sudden collapse into division.
+    source: chapman-1918
+    contested: false
+  - year: 910
+    type: succession-crisis
+    name: "Alfonso III's forced abdication"
+    changed: >-
+      Alfonso III's own sons rose against him, joined even by his wife,
+      and forced his abdication. The kingdom was split three ways among
+      his sons - León, Galicia and Portugal, and Asturias itself -
+      leaving the old king nothing but the town of Zamora. Unified
+      Asturias did not survive its own most successful king by more
+      than the time it took his children to turn on him.
+    source: chapman-1918
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

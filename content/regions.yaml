@@ -793,3 +793,14 @@ regions:
     # `thread: true` since a real edge - Danelaw to Wessex, conquered by,
     # 954 - now joins two of the region's own polities.
     thread: true
+
+  - id: iberia
+    name: Iberia
+    blurb: >-
+      A peninsula reconquered piecemeal, over seven centuries, by Christian
+      kingdoms that spent as much of that time fighting each other as
+      fighting the Muslim south - and that went on, the moment the
+      reconquest was finished, to launch the first colonial empires with a
+      global reach.
+    group: mediterranean
+    thread: false

@@ -7636,3 +7636,57 @@ sources:
       Act of Union, detailing the patronage and bribery - including the
       £1,500,000 distributed among members of both Houses - used to
       secure its passage. Open access via archive.org.
+
+  - id: chapman-1918
+    kind: book
+    author: Charles E. Chapman
+    title: "A History of Spain, Founded on the Historia de España y de la Civilización Española of Rafael Altamira"
+    year: 1918
+    note: >-
+      An English-language narrative history of Spain from the
+      Visigothic collapse onward, covering the traditional Pelayo and
+      Covadonga narrative, Alfonso I's campaigns and the repopulation
+      of the north, Alfonso II's move to Oviedo and the discovery of
+      Santiago's relics, Alfonso III's reign, and his forced abdication
+      and the 910 division of the kingdom among his sons. Open access
+      via archive.org and Project Gutenberg.
+
+  - id: chalmeta-2022
+    kind: article
+    author: Pedro Chalmeta Gendrón
+    title: "¿Asturias, Covadonga, Pelayo?"
+    container: Aragón en la Edad Media, vol. 33
+    year: 2022
+    note: >-
+      A critical reassessment of the Covadonga/Pelayo founding
+      narrative, noting that the only genuinely contemporary source,
+      the Chronicle of 754, says nothing at all about an Asturian
+      uprising despite discussing events far more distant from its own
+      vantage point - the later chronicle tradition's silence-filling
+      is treated as legend-building rather than history. Open access
+      via the Universidad de Zaragoza's journal repository.
+
+  - id: wreglesworth-1995
+    kind: article
+    author: John Wreglesworth
+    title: "The Chronicle of Alfonso III and Its Significance for the Historiography of the Asturian Kingdom, 718-910 AD"
+    container: PhD thesis, University of Leeds
+    year: 1995
+    note: >-
+      A full historiographical study treating the Chronicle of Alfonso
+      III as a deliberate ninth/tenth-century composition surviving in
+      two divergent recensions (Rotensis and ad Sebastianum) rather
+      than a transparent record of the kingdom's own history. Open
+      access via the White Rose eTheses repository.
+
+  - id: barrios-1985
+    kind: article
+    author: Ángel Barrios García
+    title: "Repoblación de la zona meridional del Duero: Fases de ocupación, procedencias y distribución espacial de los grupos repobladores"
+    container: Studia Historica. Historia Medieval, III
+    year: 1985
+    note: >-
+      A study of the actual mechanics of the repoblación south into the
+      Duero valley - settlement phases and the origins of the
+      repopulating groups. Open access via the Universidad de
+      Salamanca's Gredos repository.
