@@ -83,6 +83,22 @@ turning_points:
       six months in charge ever could.
     source: banister-2021
     contested: false
+  - year: 1517
+    type: catastrophe
+    name: "Taken to Constantinople"
+    changed: >-
+      Selim I destroyed the Mamluk army outside Cairo in January, and
+      al-Mutawakkil III was taken to Constantinople, held, and eventually
+      allowed home to Cairo, where he died a private person on a pension.
+      Nobody appointed a successor and the office simply stopped being
+      filled. Ottoman writing from the 1770s later claimed a formal
+      ceremony of transfer at Cairo, useful in a dispute with Russia over
+      religious authority, but modern scholarship finds no such ceremony
+      in the near-contemporary sources: of the office's three endings —
+      Baghdad in 1258, Cairo in 1517, Ankara in 1924 — this is the only
+      one where nobody appears to have decided anything.
+    source: banister-2021
+    contested: false
 
 measures:
   # Taagepera does not tabulate this polity and could not: it held no ground.

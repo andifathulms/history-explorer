@@ -104,6 +104,21 @@ turning_points:
       state the others would accept.
     source: kennedy-1996
     contested: false
+  - year: 1031
+    type: fragmentation
+    name: "Thirty years, and then taifas"
+    changed: >-
+      There is no agent to name for the ending. No foreign army, no rival
+      dynasty, no conquest: a caliphate that had recently been the
+      strongest state in the western Mediterranean came apart in about
+      thirty years, dismantled by the same mechanism that had made it
+      strong — a chamberlain ruling through a caliph too young or too
+      secluded to rule himself, the same arrangement independently
+      arrived at by the Buyid amirs in Baghdad and the Fatimid viziers in
+      Cairo. What was left of Umayyad al-Andalus split into the party
+      kingdoms known as the taifas.
+    source: kennedy-1996
+    contested: false
 
 measures:
   # Taagepera 1997, appendix: Cordoba 1000 -> .6 Mm2, "Entire Iberia

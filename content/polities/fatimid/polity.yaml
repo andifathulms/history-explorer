@@ -116,6 +116,20 @@ turning_points:
       office the dynasty's last crisis runs through.
     source: brett-2017
     contested: false
+  - year: 1171
+    type: succession-crisis
+    name: "Saladin ends it"
+    changed: >-
+      Competing viziers in the 1160s each invited outside help against the
+      other, and Nur al-Din's commander Shirkuh won the contest; when he
+      died two months into the vizierate his nephew Saladin took the post,
+      dismantled the Isma'ili establishment, and in 1171 had the Friday
+      sermon in Cairo preached in the name of the Abbasid caliph. Al-Adid
+      died days later. No foreign army took Cairo — the dynasty was ended
+      by its own chief minister, which is what the vizierate had made
+      structurally possible a century earlier.
+    source: brett-2017
+    contested: false
 
 measures:
   reach_km2: { value: 4100000, at: 969, source: taagepera-1997 }
