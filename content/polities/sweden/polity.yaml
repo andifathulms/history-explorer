@@ -14,19 +14,19 @@ span:
   # nephew Styrbjörn at the Battle of Fyrisvellen, near Uppsala, is
   # dated by the sources only approximately, to around 983.
   start: { min: 983, max: 983, source: stefansson-denmark-1916 }
-  # This record now runs to 1710, skipping the six decades between
-  # Gustavus Adolphus and Charles XII - Christina, Charles X, Charles
-  # XI - that this record has not yet reached. Not the kingdom's actual
-  # institutional end, since Sweden has none: it continues as a
-  # sovereign state to the present day. `ended` below is null for that
-  # reason as well as for the coverage reason.
-  end: { min: 1710, max: 1710, source: stefansson-denmark-1916 }
+  # This record now runs to the Peace of Nystad in 1721, closing the
+  # Great Northern War - the last event it has sourced chapters for -
+  # not to the kingdom's actual institutional end, since Sweden has
+  # none: it continues as a sovereign state to the present day. `ended`
+  # below is null for that reason as well as for the coverage reason.
+  end: { min: 1721, max: 1721, source: stefansson-denmark-1916 }
 
 identity: >-
   A Norse kingdom raised to a European great power under Gustavus
-  Adolphus, then driven to catastrophe by his own successor Charles
-  XII, whose brilliant early victories at Narva collapsed into
-  disaster in the Russian snows and defeat at Poltava in 1709.
+  Adolphus, driven to catastrophe under Charles XII, whose death
+  besieging a Norwegian fortress in 1718 ended both his own reign and
+  the absolutism his house had built, closing the Great Northern War
+  at Nystad in 1721.
 
 capitals:
   - { name: Uppsala, source: stefansson-denmark-1916 }
@@ -221,6 +221,31 @@ turning_points:
       starved Swedes could not answer; the army collapsed, fourteen
       thousand men surrendered days later, and Charles fled into
       Ottoman territory with fifteen hundred survivors.
+    source: stefansson-denmark-1916
+    contested: false
+  - year: 1718
+    type: catastrophe
+    name: "The death of Charles XII"
+    changed: >-
+      Inspecting the siege works at Fredriksten in Norway as he always
+      did, exposed and unarmoured, Charles XII was struck through both
+      temples by a cannon shot and died instantly, his corpse found
+      still upright with a fixed grip on its own drawn blade; his own
+      minister Görtz, who had propped up the king's crumbling position
+      for years by claims of unwritten royal authority, was arrested
+      the next day and beheaded within two months.
+    source: stefansson-denmark-1916
+    contested: false
+  - year: 1721
+    type: treaty
+    name: "The Peace of Nystad"
+    changed: >-
+      With Sweden's coasts burned by unopposed Russian raids and no
+      help forthcoming from an inactive British fleet in the Baltic,
+      Sweden gave up nearly all its remaining eastern Baltic
+      territories to Russia outright, closing twenty-one years of war
+      and, in the same stroke, the absolute personal monarchy that had
+      ruled Sweden since Charles XI's own reign.
     source: stefansson-denmark-1916
     contested: false
 
