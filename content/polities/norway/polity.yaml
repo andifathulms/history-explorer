@@ -14,19 +14,22 @@ span:
   # of Norway is dated by the saga tradition to the Battle of Hafrsfjord
   # in 872.
   start: { min: 872, max: 872, source: boyesen-norway-1886 }
-  # This record currently runs only to Haakon Haakonsson's death in the
-  # Orkneys in 1263 - the last event it has sourced chapters for - not
-  # to the kingdom's actual institutional end, since Norway has none:
-  # it continues as a sovereign state to the present day. `ended` below
-  # is null for that reason as well as for the coverage reason.
-  end: { min: 1263, max: 1263, source: boyesen-norway-1886 }
+  # This record currently runs only to 1380, when the child king Olaf's
+  # accession bound Norway to Denmark - the last event it has sourced
+  # chapters for - not to the kingdom's actual institutional end, since
+  # Norway has none: it continues as a sovereign state to the present
+  # day. `ended` below is null for that reason as well as for the
+  # coverage reason. No edge is drawn to the denmark record for this
+  # union: it was a personal union of crowns, the same reasoning that
+  # keeps Scotland's 1603 union with England and Aragon's 1479 union
+  # with Castile edgeless elsewhere in this corpus.
+  end: { min: 1380, max: 1380, source: boyesen-norway-1886 }
 
 identity: >-
   A collection of Norwegian petty kingdoms Harald Fairhair united by
-  conquest at Hafrsfjord in 872, ruled at its medieval height by
-  Haakon Haakonsson, whose diplomatic reach brought Iceland and
-  Greenland under Norwegian overlordship before his death in Orkney
-  in 1263.
+  conquest at Hafrsfjord in 872, reaching its medieval height under
+  Haakon Haakonsson before the Black Death and a child king's
+  accession bound it to Denmark in 1380 for four centuries to come.
 
 capitals: []
 
@@ -232,6 +235,42 @@ turning_points:
       afterward and died at Kirkwall that December while listening to
       his own family's sagas read aloud, expiring during the account of
       his grandfather Sverre's reign.
+    source: boyesen-norway-1886
+    contested: false
+  - year: 1319
+    type: succession-crisis
+    name: "Magnus Eriksson unites Norway and Sweden"
+    changed: >-
+      A Swedish rebellion that deposed and executed King Birger's own
+      line left Norwegian and Swedish magnates settling jointly on a
+      three-year-old, Haakon Haakonsson's own grandson through his
+      mother, to wear both crowns together - a nominal arrangement of
+      separate laws and administrations, sharing nothing yet but an
+      infant too young to govern either kingdom in fact.
+    source: boyesen-norway-1886
+    contested: false
+  - year: 1349
+    type: catastrophe
+    name: "The Black Death reaches Bergen"
+    changed: >-
+      An English merchant ship carried the plague into Bergen, and it
+      spread across Norway fast enough to leave whole districts
+      depopulated, cathedrals down to a single surviving canon, and
+      farmland reverting to forest within a generation - a catastrophe
+      later historians would still, by this account, blame for more of
+      Norway's medieval decline than it alone actually caused.
+    source: boyesen-norway-1886
+    contested: false
+  - year: 1380
+    type: succession-crisis
+    name: "Olaf's accession binds Norway to Denmark"
+    changed: >-
+      Haakon Magnusson's death left his young son Olaf - elected to the
+      Danish throne five years earlier, on his grandfather Valdemar
+      Atterdag's own death - proclaimed king of Norway as well, with
+      his mother Margaret governing both kingdoms in his
+      name; no treaty marked the moment, but the two crowns would stay
+      joined without a break for the next four and a third centuries.
     source: boyesen-norway-1886
     contested: false
 
