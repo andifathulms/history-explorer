@@ -166,6 +166,22 @@ turning_points:
       child's guardianship.
     source: treadgold-1997
     contested: false
+  - year: 1453
+    type: catastrophe
+    name: "The land walls breached"
+    changed: >-
+      Mehmed II's siege breached the Theodosian land walls on 29 May after
+      fifty-three days, having dragged ships overland into the Golden Horn
+      to get past the chain; Constantine XI died in the fighting and his
+      body was never identified. The difficulty in saying what ended is
+      that the state which fell called itself the empire of the Romans,
+      its people called themselves Romans, and its neighbours agreed -
+      there is no year in which anybody in Constantinople decided to stop
+      being Roman, not this one included, and the division from the state
+      that began at Rome is a periodisation later historians made for
+      their own reasons.
+    source: treadgold-1997
+    contested: true
 
 measures:
   reach_km2: { value: 1350000, at: 555, source: taagepera-1997 }
