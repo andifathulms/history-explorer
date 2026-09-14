@@ -48,6 +48,31 @@ institutions:
   legitimation: { values: [titulature, descent], source: treadgold-1997 }
 
 turning_points:
+  - year: 1211
+    type: battle
+    name: "Antioch on the Maeander"
+    changed: >-
+      Theodore I Laskaris killed the Seljuk sultan Kaykhusraw I in personal
+      combat and settled the eastern frontier for a generation. A state that
+      no longer had to defend its Anatolian border against the Seljuks could
+      spend everything it had on the Latins and its Greek rivals instead,
+      which is the whole basis of the advantage western Anatolia's grain and
+      manpower gave it over Epirus and Trebizond.
+    source: treadgold-1997
+    contested: false
+  - year: 1250
+    type: treaty
+    name: "The union negotiations fail with Vatatzes's death"
+    changed: >-
+      John III Vatatzes came closer than any Nicaean emperor to a negotiated
+      reunion of the churches, and died before anything was signed. Every
+      Nicaean ruler had sought the same settlement, because papal recognition
+      would have stripped the Latin empire of its justification - and every
+      one failed for the same reason, because what Rome wanted would have
+      cost Nicaea the Orthodox world whose loyalty was the actual point of
+      holding the patriarchate at all.
+    source: treadgold-1997
+    contested: false
   - year: 1261
     type: siege
     name: "Constantinople retaken"
