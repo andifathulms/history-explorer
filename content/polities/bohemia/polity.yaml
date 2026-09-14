@@ -15,18 +15,18 @@ span:
   # Christianization by followers of Methodius falls somewhere between
   # the 874 Treaty of Forchheim and Methodius's own death in 885.
   start: { min: 872, max: 885, source: lutzow-bohemia-1920 }
-  # This record currently runs only to Charles IV's 1348 refoundation of
-  # Bohemia's own institutions and his founding of Prague's university -
-  # the last event it has sourced chapters for - not to the kingdom's
-  # actual institutional end at the 1620 Battle of the White Mountain.
-  # `ended` below is null for that reason.
-  end: { min: 1348, max: 1348, source: lutzow-bohemia-1920 }
+  # This record currently runs only to the Hussite defeat of Sigismund's
+  # crusade at Žižka's Hill in 1420 - the last event it has sourced
+  # chapters for - not to the kingdom's actual institutional end at the
+  # 1620 Battle of the White Mountain. `ended` below is null for that
+  # reason.
+  end: { min: 1420, max: 1420, source: lutzow-bohemia-1920 }
 
 identity: >-
-  A Slavic duchy on the Elbe that became a hereditary kingdom and an
-  Imperial Elector, lost a king and an empire in a single afternoon at
-  Dürnkrut in 1278, and recovered to see one of its own dukes crowned
-  Holy Roman Emperor within a lifetime.
+  A Slavic kingdom and Imperial Elector that lost a king at Dürnkrut in
+  1278, saw Prague become an imperial capital under Charles IV, and
+  then rose in armed revolt after its own reformer, Jan Hus, was
+  burned as a heretic at Constance in 1415.
 
 capitals:
   - { name: Prague, source: lutzow-bohemia-1920 }
@@ -42,8 +42,8 @@ rulers:
   # himself Holy Roman Emperor - the furthest reach of authority any ruler
   # on this record has commanded.
   peak: { name: Charles IV, reign: [1346, 1378], source: lutzow-bohemia-1920 }
-  # No final ruler is asserted: this record's own coverage stops in 1348,
-  # nearly three centuries short of the kingdom's real end at the White
+  # No final ruler is asserted: this record's own coverage stops in 1420,
+  # exactly two centuries short of the kingdom's real end at the White
   # Mountain in 1620, so there is no "last" king of this record to name
   # yet.
   last: null
@@ -125,6 +125,42 @@ turning_points:
       election reserved for the royal line's extinction - and in the same
       year announced the university that would make Prague, for the first
       time, a centre of learning to rival Paris.
+    source: lutzow-bohemia-1920
+    contested: false
+  - year: 1415
+    type: catastrophe
+    name: "The burning of Jan Hus"
+    changed: >-
+      A safe-conduct from King Sigismund did not stop the Council of
+      Constance from imprisoning the reformer Jan Hus, refusing him a
+      real hearing, and burning him as a heretic when he would not
+      recant teachings he held to be true - turning a theological
+      dispute over Church corruption into a grievance the whole of
+      Bohemia took as its own.
+    source: lutzow-bohemia-1920
+    contested: false
+  - year: 1419
+    type: revolt
+    name: "The first defenestration of Prague"
+    changed: >-
+      A stone thrown at a Hussite procession from the New Town's town
+      hall brought a crowd led by the royal courtier Jan Žižka storming
+      the building; the burgomaster and his fellow councillors were cast
+      down into the square below, and Bohemia's reform movement passed
+      in an afternoon from preaching to open insurrection against the
+      crown.
+    source: lutzow-bohemia-1920
+    contested: false
+  - year: 1420
+    type: battle
+    name: "Sigismund's crusade breaks at Žižka's Hill"
+    changed: >-
+      A force gathered from nearly every corner of Latin Christendom
+      under a papal crusading banner, put by contemporary estimate as
+      high as 150,000 strong, besieged Prague and was thrown back from
+      a hastily fortified hill east of the city by Žižka's wagon-forts
+      - the first proof that a peasant army built around Hussite
+      conviction could break a crusade sent to destroy it.
     source: lutzow-bohemia-1920
     contested: false
 
