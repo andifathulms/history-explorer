@@ -1,0 +1,150 @@
+id: portugal
+region: iberia
+
+name:
+  latin: Kingdom of Portugal
+  script: null
+  script_lang: null
+
+span:
+  # Stephens is explicit that the traditional account of Ourique - five
+  # kings defeated, two hundred thousand Muslims killed, Christ's own
+  # vision promising victory, soldiers raising Afonso on their shields
+  # as king - is a fabrication with no contemporary authority, as is
+  # the supposed "Cortes of Lamego" said to have met in 1143 and passed
+  # Portugal's first constitutional laws. What is real is the battle
+  # itself in 1139 and León's actual recognition of Afonso's
+  # independence by 1143.
+  start: { min: 1139, max: 1143, source: stephens-1891 }
+  end: { min: 1580, max: 1580, source: stephens-1891 }
+
+identity: >-
+  A county that broke from León and completed its own reconquest
+  before any other Iberian kingdom, then launched, from a naval school
+  at Sagres, the sea route to India - before its own royal line ended
+  on a Moroccan battlefield and Spain conquered it within two years.
+
+capitals:
+  - { name: Coimbra, source: stephens-1891 }
+  - { name: Lisbon, source: stephens-1891 }
+
+core_region: The Atlantic coast of the Iberian peninsula between the Minho and the Algarve
+
+rulers:
+  founder: { name: Afonso Henriques (Afonso I), source: stephens-1891 }
+  # Manuel I's reign covered Vasco da Gama's completed sea route to
+  # India and Pedro Álvares Cabral's landfall in Brazil - the fullest
+  # reach of Portuguese power the kingdom ever commanded.
+  peak: { name: "Manuel I \"the Fortunate\"", reign: [1495, 1521], source: stephens-1891 }
+  last: { name: "Henry \"the Chaste\" (Cardinal-King)", reign: [1578, 1580], source: stephens-1891 }
+
+scripts_and_languages:
+  administration: [Latin, Portuguese]
+  writing_system: Latin alphabet
+
+institutions:
+  military_basis: { values: [land-grant], source: stephens-1891 }
+  # The whole strategic logic of the fifteenth-century voyages, in
+  # Stephens's own account, was to let Lisbon replace Venice as
+  # Europe's distributor of eastern trade goods - a royally directed
+  # monopoly on the spice route, not merely ordinary customs revenue.
+  revenue_basis: { values: [land-tax, monopoly], source: stephens-1891 }
+  # John I's own succession in 1385 was by election: a Cortes at
+  # Coimbra declared the throne elective and chose him by acclamation
+  # over the hereditary Castilian claim, even though ordinary royal
+  # succession otherwise ran by descent.
+  succession_rule: { values: [primogeniture, election], source: stephens-1891 }
+  legitimation: { values: [descent, divine-sanction], source: stephens-1891 }
+
+preceded_by_external: []
+
+succeeded_by_external: []
+
+ended:
+  type: conquest
+  by: []
+  year: 1580
+  source: stephens-1891
+
+turning_points:
+  - year: 1139
+    type: battle
+    name: "Battle of Ourique"
+    changed: >-
+      Afonso Henriques pressed far into hostile country and broke a
+      provincial governor's forces at Ourique - a real battle whose
+      later legend, recorded only two centuries afterward, vastly
+      overstated its scale and significance. What the victory actually
+      demonstrated was Afonso's own daring, not a decisive military
+      triumph in itself.
+    source: stephens-1891
+    contested: true
+  - year: 1249
+    type: siege
+    name: "Afonso III completes the conquest of the Algarve"
+    changed: >-
+      Afonso III took Faro and the remaining Muslim strongholds of the
+      Algarve, making Portugal the first Iberian Christian kingdom to
+      complete its own reconquest - a full fourteen years before
+      Castile of Alfonso X formally recognized Portuguese sovereignty
+      over the territory in 1263.
+    source: stephens-1891
+    contested: false
+  - year: 1385
+    type: battle
+    name: "Battle of Aljubarrota"
+    changed: >-
+      A Cortes at Coimbra declared the Portuguese throne elective and
+      chose John, head of the Knights of Aviz, as king over a
+      rival Castilian claim. English archers serving alongside the
+      Portuguese and early artillery pieces helped break a Castilian
+      invasion at Aljubarrota that August, securing both John's own
+      throne and Portugal's continued independence from Castile.
+    source: stephens-1891
+    contested: false
+  - year: 1498
+    type: reform
+    name: "Vasco da Gama reaches Calicut"
+    changed: >-
+      After an eleven-month voyage around the Cape of Good Hope and
+      across a stormy Indian Ocean, Vasco da Gama's fleet anchored off
+      Calicut on 20 May - realizing, six decades after his death, the
+      sea route to India that Prince Henry had spent a lifetime and a
+      fortune pursuing without ever sailing on a single voyage himself.
+    source: stephens-1891
+    contested: false
+  - year: 1578
+    type: catastrophe
+    name: "Death of Sebastian at Alcácer Quibir"
+    changed: >-
+      King Sebastian's invasion of Morocco ended in catastrophe at
+      Alcácer Quibir, where all three rulers involved died within
+      hours of each other - the reigning Moroccan sultan of natural
+      causes mid-battle, his rival drowned in retreat, and Sebastian
+      himself vanishing so completely that a persistent later legend
+      held he had somehow survived. Nine thousand of his army died with
+      him, and the House of Aviz lost its only capable heir.
+    source: stephens-1891
+    contested: false
+  - year: 1580
+    type: battle
+    name: "Battle of Alcântara"
+    changed: >-
+      With the aged Cardinal-King Henry dead and no accepted heir, the
+      Duke of Alva led a Spanish army into Portugal and crushed the
+      forces of the rival claimant, the Prior of Crato, at Alcântara.
+      Philip II of Spain was proclaimed king of Portugal, swearing at
+      a Cortes in Tomar the following year to keep Portugal's own
+      revenue, offices and law distinct from Castile's - a promise
+      that opened sixty years of union under the Spanish crown.
+    source: stephens-1891
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

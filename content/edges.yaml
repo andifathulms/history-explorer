@@ -4424,3 +4424,28 @@ edges:
       completion at Granada.
     source: chapman-1918
     contested: false
+
+  - from: leon-castile
+    to: portugal
+    type: seceded from
+    year: 1143
+    note: >-
+      The county of Portugal, held by Afonso Henriques after he had
+      already defeated his own mother's claim to it, broke from León
+      by force of arms and by legend alike; León's recognition of
+      Portuguese independence followed by 1143.
+    source: stephens-1891
+    contested: false
+
+  - from: melaka
+    to: portugal
+    type: conquered by
+    year: 1511
+    note: >-
+      Afonso de Albuquerque took the city for Portugal, which held it
+      for a hundred and thirty years and never recovered the trade
+      that had made it worth taking. A Dutch company siege took it in
+      1641; Britain held it from 1824. Melaka never again ran the
+      strait it sits on.
+    source: reid-1988
+    contested: false

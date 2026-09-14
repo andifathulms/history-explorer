@@ -150,6 +150,36 @@ turning_points:
       now be settled by killing the men who lost the argument.
     source: plutarch-clough
     contested: false
+  - year: -107
+    type: reform
+    name: "Marius opens the legions"
+    changed: >-
+      Facing a recruitment shortage, Marius enlisted citizens below the
+      property threshold that had always determined eligibility for
+      legionary service, promising pay, equipment and land or plunder on
+      discharge instead. It solved the manpower problem and permanently
+      changed what a soldier's loyalty rested on: a landless volunteer whose
+      livelihood depended on his general delivering what was promised had
+      every reason to want that general, specifically, to stay powerful -
+      the single change later chapters identify as doing the most
+      long-term damage to the republic's own stability of anything that
+      happened to it.
+    source: plutarch-clough
+    contested: false
+  - year: -60
+    type: treaty
+    name: "Pompey, Crassus and Caesar agree to share"
+    changed: >-
+      Three men with no formal joint office and no legal standing for their
+      arrangement agreed privately to pool their influence against the
+      senate: Pompey and Crassus would secure Caesar's election as consul,
+      and all three would support each other's interests afterward. It
+      worked, and it set the pattern for the second, formally voted version
+      of the same arrangement a generation later - proof that the senate
+      could be overridden by simple private agreement among men powerful
+      enough, with no constitutional crisis required to do it.
+    source: appian-civilwars-white
+    contested: false
   - year: -49
     type: revolt
     name: "Caesar crosses the Rubicon"
@@ -161,6 +191,35 @@ turning_points:
       intermittently since Marius and Sulla's generation, resumed on a
       scale that did not stop until one man held every army that mattered.
     source: appian-civilwars-white
+    contested: false
+  - year: -44
+    type: succession-crisis
+    name: "The Ides of March"
+    changed: >-
+      More than sixty senators, led by Brutus and Cassius, stabbed Caesar to
+      death at a senate meeting after he had accepted the title dictator
+      for life. The conspirators had a plan for the killing and almost none
+      for what followed it: Mark Antony's funeral oration turned the crowd
+      against them within days, and Caesar's eighteen-year-old heir Octavian
+      arrived to claim his inheritance almost immediately afterward. The
+      republic a dictator's assassination was meant to save had, within a
+      year, three more men fighting over exactly the position he had held
+      alone.
+    source: plutarch-clough
+    contested: false
+  - year: -31
+    type: battle
+    name: "Actium"
+    changed: >-
+      Octavian's fleet defeated Antony and Cleopatra's off the coast of
+      western Greece; Antony and Cleopatra's ships broke off and fled south,
+      followed by much of Antony's own remaining fleet, and his land forces
+      surrendered within days without further fighting. Both were dead
+      within a year by their own hands, and Caesarion, Caesar's son by
+      Cleopatra and the one rival with a plausible blood claim to Caesar's
+      name, was hunted down and executed separately. Octavian was now the
+      last man holding an army that mattered anywhere in the Roman world.
+    source: plutarch-clough
     contested: false
   - year: -27
     type: reform
