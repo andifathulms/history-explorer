@@ -16,18 +16,19 @@ name:
 # following the source's own periodization.
 span:
   start: { min: 1273, max: 1273, source: coxe-austria-1847 }
-  # This record currently runs only to Albert I's own assassination in
-  # 1308 - the last event its sourced chapters cover, not an
+  # This record currently runs only to Frederick the Handsome's own
+  # death in 1330 - the last event its sourced chapters cover, not an
   # institutional end. The Habsburg Monarchy has no end within this
   # source's own scope, let alone in reality: it continued, through the
   # Austrian Empire and Austria-Hungary, into the twentieth century.
-  end: { min: 1308, max: 1308, source: coxe-austria-1847 }
+  end: { min: 1330, max: 1330, source: coxe-austria-1847 }
 
 identity: >-
   A minor Swabian count's family, raised to the German crown by
-  electors who wanted a weak monarch, that used it to destroy Bohemia's
-  own king, settle Austria and Styria on its sons, and briefly claim
-  Bohemia's throne before a nephew's grudge killed its second ruler.
+  electors who wanted a weak monarch, that destroyed Bohemia's own
+  king, settled Austria and Styria on its sons, lost an army to the
+  Swiss, and whose own claimant honoured a captor's parole rather than
+  break it.
 
 capitals:
   - { name: Vienna, from: 1280, source: coxe-austria-1847 }
@@ -162,6 +163,53 @@ turning_points:
       sight of the ancestral castle of Habsburg itself, ending the
       second Habsburg reign in murder rather than in the succession
       Albert had spent his life trying to secure for his own sons.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1308
+    type: succession-crisis
+    name: "Henry of Luxembourg elected over Frederick"
+    changed: >-
+      Passed over a second time for the German crown, Frederick watched
+      the new emperor place his own son John on Bohemia's own throne
+      within two years - a rival dynasty's foothold next door that
+      Habsburg arms would spend decades failing to dislodge.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1315
+    type: battle
+    name: "The Battle of Morgarten"
+    changed: >-
+      A year after rival electors crowned both Frederick and Louis of
+      Bavaria within a fortnight of each other, Leopold marched an army
+      into the Swiss mountains to punish cantons that had sided with
+      his brother's rival, and lost more than fifteen hundred men in a
+      single ambush in a pass too narrow for his own cavalry to fight
+      in - a defeat that cost the family more than the war it was meant
+      to help win.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1322
+    type: battle
+    name: "The Battle of Mühldorf"
+    changed: >-
+      Frederick abandoned a sound defensive position to give battle
+      alone rather than wait for his brother's army, and lost: a
+      disguised flanking force broke his exhausted troops in the day's
+      final hour, and Frederick himself was captured and imprisoned,
+      leaving Louis of Bavaria's own claim to the German throne
+      effectively unopposed.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1330
+    type: catastrophe
+    name: "The death of Frederick the Handsome"
+    changed: >-
+      Denied the shared authority Louis had once promised him and
+      forced to give up part of his own inheritance to a younger
+      brother, Frederick died at Gutenstein in failing health - the
+      only one of his family's German kings never to rule unopposed,
+      remembered instead for the parole he honoured at the cost of his
+      own freedom.
     source: coxe-austria-1847
     contested: false
 
