@@ -4,6 +4,7 @@ import { citeShort, getSource } from "@/lib/content";
 import { SectionHead } from "@/components/Shell";
 import { Spine } from "@/components/Spine";
 import { Hint } from "@/components/Hint";
+import { Figure } from "@/components/Figure";
 
 /**
  * Chapters are free-form, 2 to 8 per polity, with titles the author wrote.
@@ -83,7 +84,15 @@ const components = {
 async function One({ chapter }: { chapter: Chapter }) {
   const { content } = await compileMDX({
     source: chapter.body,
-    components,
+    // `Figure` is bound to this chapter's polity here rather than taking it as
+    // a prop in the MDX. A `<Figure id="..." polity="egypt-early-dynastic" />`
+    // in every marker is a second place for the polity id to be wrong, in the
+    // file least able to report it — and the author writing the chapter already
+    // knows which polity they are in.
+    components: {
+      ...components,
+      Figure: (p: { id: string }) => <Figure {...p} polity={chapter.polity} />,
+    },
     options: { parseFrontmatter: false },
   });
   const source = getSource(chapter.drafted_from);

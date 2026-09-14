@@ -682,6 +682,44 @@ export function arcIndex(phase: ChapterPhase | null | undefined): number | null 
   return i === -1 ? null : i
 }
 
+/**
+ * A picture in a chapter.
+ *
+ * Two provenances, because they are two different facts and conflating them is
+ * how an uncredited photograph or an unsourced identification gets shipped:
+ * `source` says who identifies the object and dates it, and is an id in
+ * sources.yaml like any other claim on this site; `credit`/`licence`/
+ * `file_page` say who made the image file and on what terms it may be
+ * redistributed. A figure missing either fails the build.
+ *
+ * `width` and `height` are the file's real pixel dimensions, checked against
+ * the file at build. They are not a display size — they are what stops the page
+ * reflowing under the reader as each image lands.
+ */
+export interface Figure {
+  id: string
+  /** Path under `public/images/`, e.g. `polities/aceh/kutaraja-1874.jpg`. */
+  file: string
+  width: number
+  height: number
+  /** Describes the object, for a reader who cannot see it. */
+  alt: string
+  /** Makes the claim: what this is, and what it shows. Subject to hard rule 12. */
+  caption: string
+  /** Who says what the object is. Hard rule 1 applies to pictures too. */
+  source: SourceId
+  /** Where the object is now, where a source names a holder. */
+  holder?: string
+  /** Who made the photograph or drawing. */
+  credit: string
+  /** The terms the file ships under, e.g. `Public domain`, `CC BY-SA 4.0`. */
+  licence: string
+  /** The file's own page, so the licence can be checked rather than trusted. */
+  file_page: string
+  /** Break out of the reading measure. For plans and comparison rows. */
+  wide?: boolean
+}
+
 export interface Chapter {
   polity: PolityId
   slug: string
@@ -691,6 +729,12 @@ export interface Chapter {
   drafted_from: SourceId
   /** An arc phase, `aside`, or null where the author has not tagged it yet. */
   phase: ChapterPhase | null
+  /**
+   * Declared in frontmatter, placed in the body with `<Figure id="..." />`.
+   * Ordinarily empty — a chapter argued from a chronicle has nothing to show,
+   * and an empty list renders as nothing, never as a gap.
+   */
+  figures: Figure[]
   body: string
 }
 

@@ -13,6 +13,7 @@ import 'server-only'
 import fs from 'node:fs'
 import path from 'node:path'
 import matter from 'gray-matter'
+import { parseFigures } from './figures'
 import { checkResumptions, resumptionOf, type Resumption } from './resumption'
 import { checkTransfers, transfersOf, type Transfers } from './transfers'
 import { parse as parseYaml } from 'yaml'
@@ -30,6 +31,7 @@ import {
   LEGITIMATIONS,
   SOURCE_KINDS,
   type Chapter,
+  type Figure,
   type ExternalNeighbour,
   type Edge,
   type Transfer,
@@ -465,6 +467,16 @@ export function loadCorpus(): Corpus {
         title: data.title as string,
         drafted_from: data.drafted_from as string,
         phase: (data.phase as Chapter['phase']) ?? null,
+        figures: parseFigures(
+          data.figures,
+          content,
+          chWhere,
+          path.join(process.cwd(), 'public'),
+          requireSource,
+          (where, message) => {
+            throw new ContentError(where, message)
+          },
+        ),
         body: content,
       }
     })
@@ -509,6 +521,27 @@ export function loadCorpus(): Corpus {
     if (p.context_only && list.length > 0) {
       throw new ContentError(`polities/${id}`, 'a context polity must not have chapters')
     }
+    // The other direction of the figure check. `parseFigures` proves every
+    // declared figure has a file; this proves every file has a figure. An image
+    // nobody references still ships to the reader's browser as part of the
+    // static export, costs them the bytes, and looks from the repository like
+    // something that is on the page — which is how a rejected crop or a
+    // superseded photograph survives three rounds of review.
+    const imageDir = path.join(process.cwd(), 'public/images/polities', id)
+    if (fs.existsSync(imageDir)) {
+      const declared = new Set(list.flatMap((ch) => ch.figures.map((f) => path.basename(f.file))))
+      for (const file of fs.readdirSync(imageDir)) {
+        if (file.startsWith('.')) continue
+        if (!declared.has(file)) {
+          throw new ContentError(
+            `polities/${id}`,
+            `public/images/polities/${id}/${file} is not declared by any chapter — ` +
+              'place it in a figure or delete it',
+          )
+        }
+      }
+    }
+
     chapters.set(id, list)
   }
 
@@ -629,6 +662,22 @@ export function loadCorpus(): Corpus {
 
 export function getPolity(id: string): Polity | undefined {
   return loadCorpus().all.find((p) => p.id === id)
+}
+
+/**
+ * One figure, by the polity and id its chapter declared it under.
+ *
+ * Looked up across the polity's chapters rather than within one, so a figure
+ * resolves from wherever it was declared. The build has already proved the id
+ * exists and is placed exactly once, so a miss here is a bug in the loader
+ * rather than in the content — it throws rather than rendering a blank frame.
+ */
+export function getFigure(polity: string, id: string): Figure {
+  for (const ch of getChapters(polity)) {
+    const hit = ch.figures.find((f) => f.id === id)
+    if (hit) return hit
+  }
+  throw new ContentError(`polities/${polity}`, `no figure "${id}" in any chapter`)
 }
 
 export function getChapters(id: string): Chapter[] {
