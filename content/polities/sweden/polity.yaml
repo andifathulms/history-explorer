@@ -14,19 +14,18 @@ span:
   # nephew Styrbjörn at the Battle of Fyrisvellen, near Uppsala, is
   # dated by the sources only approximately, to around 983.
   start: { min: 983, max: 983, source: stefansson-denmark-1916 }
-  # This record now runs to the Peace of Nystad in 1721, closing the
-  # Great Northern War - the last event it has sourced chapters for -
-  # not to the kingdom's actual institutional end, since Sweden has
-  # none: it continues as a sovereign state to the present day. `ended`
-  # below is null for that reason as well as for the coverage reason.
-  end: { min: 1721, max: 1721, source: stefansson-denmark-1916 }
+  # This record now runs to the Act of Union with Norway in 1815 - the
+  # last event it has sourced chapters for - not to the kingdom's
+  # actual institutional end, since Sweden has none: it continues as a
+  # sovereign state to the present day. `ended` below is null for that
+  # reason as well as for the coverage reason.
+  end: { min: 1815, max: 1815, source: stefansson-denmark-1916 }
 
 identity: >-
   A Norse kingdom raised to a European great power under Gustavus
-  Adolphus, driven to catastrophe under Charles XII, whose death
-  besieging a Norwegian fortress in 1718 ended both his own reign and
-  the absolutism his house had built, closing the Great Northern War
-  at Nystad in 1721.
+  Adolphus, reduced by Charles XII's wars to a weak oligarchy, and
+  twice restored to real monarchy by force before losing Finland to
+  Russia and gaining Norway instead in 1814.
 
 capitals:
   - { name: Uppsala, source: stefansson-denmark-1916 }
@@ -236,6 +235,17 @@ turning_points:
       the next day and beheaded within two months.
     source: stefansson-denmark-1916
     contested: false
+  - year: 1720
+    type: reform
+    name: "The constitution of the Age of Liberty"
+    changed: >-
+      Ulrica Leonora's abdication in her husband's favour came bundled
+      with a new frame of government that left the throne almost
+      powerless - unable even to pick its own Council - and put the
+      House of Nobles' Secret Committee in charge of Sweden for the
+      next half-century.
+    source: stefansson-denmark-1916
+    contested: false
   - year: 1721
     type: treaty
     name: "The Peace of Nystad"
@@ -246,6 +256,62 @@ turning_points:
       territories to Russia outright, closing twenty-one years of war
       and, in the same stroke, the absolute personal monarchy that had
       ruled Sweden since Charles XI's own reign.
+    source: stefansson-denmark-1916
+    contested: false
+  - year: 1772
+    type: revolt
+    name: "Gustavus III's coup"
+    changed: >-
+      Acting alone in Stockholm after word of his own conspirators'
+      plans leaked to the Council, Gustavus III seized the capital in a
+      single day with the Guards' support, forced a paralysed
+      parliamentary oligarchy to accept a new frame of government
+      without debate, and put the throne back in charge of its own
+      officials, treaties and soldiers.
+    source: stefansson-denmark-1916
+    contested: false
+  - year: 1792
+    type: catastrophe
+    name: "The assassination of Gustavus III"
+    changed: >-
+      Shot at a masked ball by aristocratic conspirators still
+      resentful of the power he had taken from them twenty years
+      earlier, Gustavus III lingered for twelve days, forgave the plot
+      openly, and left the throne to a son whose own reign would end
+      far less mercifully.
+    source: stefansson-denmark-1916
+    contested: false
+  - year: 1809
+    type: succession-crisis
+    name: "The arrest of Gustavus IV"
+    changed: >-
+      Officers who had fought and lost Finland under his command
+      arrested Gustavus IV in his own palace to stop him dragging the
+      country into a two-front war it could not survive; the Estates
+      declared his entire line forfeit of the crown and adopted the
+      constitution that still governs Sweden today.
+    source: stefansson-denmark-1916
+    contested: false
+  - year: 1809
+    type: treaty
+    name: "The Treaty of Fredrikshamn"
+    changed: >-
+      With Russian troops having crossed the frozen sea to Sweden's own
+      shore on foot, the kingdom gave up Finland entirely, along with
+      the Åland Islands and its Lapland holdings east of the Tornea
+      river, surrendering in one stroke a province the crown had
+      governed since the thirteenth century.
+    source: stefansson-denmark-1916
+    contested: false
+  - year: 1814
+    type: treaty
+    name: "The Peace of Kiel and the union with Norway"
+    changed: >-
+      A French marshal elected Crown Prince six years after Sweden lost
+      Finland forced Denmark to cede Norway instead, and after a brief
+      war and the Convention of Moss, Norway's own parliament accepted
+      union under the Swedish crown while keeping its own laws, army
+      and constitution.
     source: stefansson-denmark-1916
     contested: false
 
