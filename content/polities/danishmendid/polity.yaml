@@ -98,6 +98,21 @@ turning_points:
       surviving Danishmendids entered Seljuk service.
     source: peacock-yildiz-2013
     contested: false
+  - year: 1178
+    type: catastrophe
+    name: "Malatya falls, one Turkish state instead of two"
+    changed: >-
+      Kilij Arslan II took Malatya and ended a century in which it was not
+      obvious which of Anatolia's two Turkish states would end up as the
+      country - the Danishmendids had held the caliph's own investiture, the
+      richer cities, and had beaten crusaders and fought Byzantium to a
+      standstill under its most capable twelfth-century emperor. Rum
+      inherited a working country rather than conquered an empty one: the
+      Danishmendid cities became the Seljuk sultanate's own economic
+      centre, and its administrative and military class became Seljuk
+      officers.
+    source: peacock-yildiz-2013
+    contested: false
 
 measures:
   reach_km2: null

@@ -91,6 +91,22 @@ turning_points:
     source: peacock-yildiz-2013
     contested: true
 
+  - year: 1308
+    type: catastrophe
+    name: "The last sultan disappears from the record"
+    changed: >-
+      The last Seljuk sultan of Rum stops being mentioned, with no
+      deposition, no execution anyone bothered to write down and no
+      successor - the Ilkhanid governor simply went on governing exactly
+      as before. Sixty-five years after Kosedag the throne had been
+      occupied by men installed from Tabriz competing with brothers
+      installed elsewhere from Tabriz, and nobody being able to say what
+      happened to the last of them is the most accurate possible statement
+      of how much the office was worth by the end. What replaced it was
+      not one state but a dozen competing beyliks.
+    source: peacock-yildiz-2013
+    contested: false
+
 measures:
   reach_km2: null
   peak_population: null

@@ -84,6 +84,22 @@ turning_points:
       fight and an ally it could not reach.
     source: petry-1998
     contested: false
+  - year: 1375
+    type: siege
+    name: "Sis falls"
+    changed: >-
+      The capital fell in April and the last king, Levon V, was taken to
+      Cairo. The kingdom had made one large strategic decision in its
+      history, made early and correctly on the information available in
+      1253: submit to the Mongols before being attacked. It worked for
+      half a century, and then the ally lost a battle at Ayn Jalut,
+      converted to its enemies' religion, and stopped coming - leaving
+      Cilicia holding a commitment it could not withdraw, on the frontier
+      of the power that had beaten its protector, worked to pieces over
+      the following century by an enemy that was never in any particular
+      danger from it.
+    source: petry-1998
+    contested: false
 
 measures:
   reach_km2: null
