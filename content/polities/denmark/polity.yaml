@@ -14,19 +14,19 @@ span:
   # the Old, undated in this source beyond his son Harald Bluetooth's
   # own reign, given here as beginning in 940.
   start: { min: 940, max: 940, source: stefansson-denmark-1916 }
-  # This record currently runs only to the 1536 Reformation act - the
-  # last event it has sourced chapters for - not to the kingdom's
+  # This record currently runs only to Christian IV's death in 1648 -
+  # the last event it has sourced chapters for - not to the kingdom's
   # actual institutional end, since Denmark has none: it continues as a
   # sovereign state to the present day. `ended` below is null for that
   # reason as well as for the coverage reason.
-  end: { min: 1536, max: 1536, source: stefansson-denmark-1916 }
+  end: { min: 1648, max: 1648, source: stefansson-denmark-1916 }
 
 identity: >-
   A Viking-age kingdom that ruled Norway and England together under
-  Cnut the Great and bound Denmark, Norway and Sweden under one crown
-  at Kalmar before Sweden's secession, and which then demoted Norway
-  to a mere province and made its own church a national Protestant
-  one in 1536.
+  Cnut the Great, bound Denmark, Norway and Sweden under one crown at
+  Kalmar, made its own church Protestant in 1536, and then, under
+  Christian IV, lost Baltic provinces and Sound revenue in Sweden's
+  wars of 1644-45.
 
 capitals:
   - { name: Roskilde, source: stefansson-denmark-1916 }
@@ -48,10 +48,10 @@ rulers:
   # unambiguous pinnacle Cnut's reign is given, so this field stands
   # confirmed now that the Union's full rise and fall are both in view.
   peak: { name: Cnut the Great, reign: [1016, 1035], source: stefansson-denmark-1916 }
-  # No final ruler is asserted: this record's own coverage stops at the
-  # 1536 Reformation act, well short of the present day, so there is no
-  # "last" king of this record to name - and, since Denmark has never
-  # institutionally ended, may never be one.
+  # No final ruler is asserted: this record's own coverage stops at
+  # Christian IV's death in 1648, well short of the present day, so
+  # there is no "last" king of this record to name - and, since Denmark
+  # has never institutionally ended, may never be one.
   last: null
 
 scripts_and_languages:
@@ -273,6 +273,42 @@ turning_points:
       same charter making Danish kingship hereditary in all but name
       and formally, if not yet effectively, reducing Norway from a
       kingdom to a Danish province.
+    source: stefansson-denmark-1916
+    contested: false
+  - year: 1626
+    type: battle
+    name: "The Battle of Lutter"
+    changed: >-
+      Christian IV's invasion of imperial territory in defence of
+      German Lutherans, mounted with an army that was itself mostly
+      German and little backed by his fellow Protestant princes, was
+      crushed by Tilly at Lutter am Barenberg - opening Jutland itself
+      to two years of occupation and plunder by Wallenstein's
+      mercenaries.
+    source: stefansson-denmark-1916
+    contested: false
+  - year: 1644
+    type: battle
+    name: "Kolberger Heide"
+    changed: >-
+      A sixty-seven-year-old Christian IV personally commanded his
+      fleet against a Swedish force off Kolberger Heide, was wounded in
+      thirteen places and lost an eye when a gun exploded beside him,
+      and remained at his post commanding the fight regardless - a
+      moment of personal heroism that could not, in the end, stop the
+      blockaded Swedish fleet from escaping days later.
+    source: stefansson-denmark-1916
+    contested: false
+  - year: 1645
+    type: treaty
+    name: "The Peace of Brömsebro"
+    changed: >-
+      Defeated by a joint Dutch-Swedish fleet and a lightning invasion
+      of Jutland, Christian IV was forced to cede Jämtland, Härjedalen,
+      Ösel and Gotland outright and Halland for thirty years, while
+      granting Sweden's own new provinces exemption from Sound tolls
+      that cut the crown's customs revenue to a quarter of its former
+      volume.
     source: stefansson-denmark-1916
     contested: false
 
