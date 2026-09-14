@@ -14,21 +14,19 @@ span:
   # nephew Styrbjörn at the Battle of Fyrisvellen, near Uppsala, is
   # dated by the sources only approximately, to around 983.
   start: { min: 983, max: 983, source: stefansson-denmark-1916 }
-  # This record now runs to Gustavus Adolphus's death at Lützen in
-  # 1632, skipping the three reigns between Gustav Vasa and him - Eric
-  # XIV, John III, Sigismund and Charles IX - that this record has not
-  # yet reached. Not the kingdom's actual institutional end, since
-  # Sweden has none: it continues as a sovereign state to the present
-  # day. `ended` below is null for that reason as well as for the
-  # coverage reason.
-  end: { min: 1632, max: 1632, source: stefansson-denmark-1916 }
+  # This record now runs to 1710, skipping the six decades between
+  # Gustavus Adolphus and Charles XII - Christina, Charles X, Charles
+  # XI - that this record has not yet reached. Not the kingdom's actual
+  # institutional end, since Sweden has none: it continues as a
+  # sovereign state to the present day. `ended` below is null for that
+  # reason as well as for the coverage reason.
+  end: { min: 1710, max: 1710, source: stefansson-denmark-1916 }
 
 identity: >-
-  A Norse kingdom whose Viking-age fleets founded Russia's own first
-  ruling dynasty, re-founded in 1523 under Gustav Vasa, and raised to
-  a European great power by his grandson Gustavus Adolphus, who broke
-  the Catholic Empire's armies at Breitenfeld in 1631 and died at
-  Lützen the following year.
+  A Norse kingdom raised to a European great power under Gustavus
+  Adolphus, then driven to catastrophe by his own successor Charles
+  XII, whose brilliant early victories at Narva collapsed into
+  disaster in the Russian snows and defeat at Poltava in 1709.
 
 capitals:
   - { name: Uppsala, source: stefansson-denmark-1916 }
@@ -198,6 +196,31 @@ turning_points:
       lines announced his death to an army that broke Wallenstein's own
       line in a final vengeful charge before the field of Lützen fell
       quiet.
+    source: stefansson-denmark-1916
+    contested: false
+  - year: 1700
+    type: battle
+    name: "The Battle of Narva"
+    changed: >-
+      Charles XII marched fewer than eight thousand exhausted men to
+      relieve a Russian siege of Narva and threw them straight into the
+      Tsar's entrenchments during a snowstorm the moment they arrived,
+      taking more prisoners than his own army numbered - a victory that
+      made his name across Europe and left him fatally contemptuous of
+      Russia as a serious opponent.
+    source: stefansson-denmark-1916
+    contested: false
+  - year: 1709
+    type: battle
+    name: "The Battle of Poltava"
+    changed: >-
+      An invasion of Russia that survived the coldest winter in living
+      memory only to be halved by cold and hunger met its end at
+      Poltava, where a miscommunication sent Sweden's elite Guards
+      forward alone into massed Russian artillery fire the powder-
+      starved Swedes could not answer; the army collapsed, fourteen
+      thousand men surrendered days later, and Charles fled into
+      Ottoman territory with fifteen hundred survivors.
     source: stefansson-denmark-1916
     contested: false
 
