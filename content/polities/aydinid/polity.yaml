@@ -47,6 +47,20 @@ turning_points:
       waiting to be annexed.
     source: peacock-yildiz-2013
     contested: false
+  - year: 1426
+    type: siege
+    name: "Cuneyd besieged and executed"
+    changed: >-
+      Murad II ended thirty-six years in which the beylik had survived
+      annexation, Timur's restoration after Ankara, and a second annexation
+      by exploiting one contested Ottoman succession after another. Cuneyd,
+      besieged, surrendered on terms and was executed with his family.
+      Aydin had a harbour and lost it and could not replace it; the
+      Ottomans, who had Rumelia as well as Anatolia, could lose one and
+      come back on the other, which is the asset no single-harbour or
+      single-mountain beylik ever matched.
+    source: finkel-2005
+    contested: false
 measures:
   reach_km2: null
   peak_population: null

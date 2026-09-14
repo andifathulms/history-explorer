@@ -73,6 +73,22 @@ turning_points:
       Karaman was the enemy that had to be finished.
     source: finkel-2005
     contested: false
+  - year: 1487
+    type: catastrophe
+    name: "Bayezid II finishes it"
+    changed: >-
+      Mehmed II had annexed the beylik in 1468 and it did not stay
+      annexed - rival Karamanids kept reappearing with Akkoyunlu and then
+      Mamluk backing. Bayezid II finished it not by winning a decisive
+      battle but because by 1487 Akkoyunlu power had collapsed, Mamluk
+      power was in decline, and nobody remained willing to supply a
+      Karamanid claimant. A dynasty in mountains is not destroyed by a
+      single conquest; it is starved of patrons, and the family was
+      resettled across Ottoman provinces four hundred miles from its own
+      following, which ended it as a political problem within a
+      generation.
+    source: finkel-2005
+    contested: false
 
 measures:
   reach_km2: null

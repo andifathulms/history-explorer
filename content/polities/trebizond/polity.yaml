@@ -51,6 +51,21 @@ institutions:
   legitimation: { values: [descent, titulature], source: treadgold-1997 }
 
 turning_points:
+  - year: 1204
+    type: succession-crisis
+    name: "Alexios Komnenos takes the city"
+    changed: >-
+      Two brothers took Trebizond with troops borrowed from their relative
+      Queen Tamar of Georgia in the same month a crusading army was
+      sacking Constantinople, and Alexios was proclaimed emperor at
+      twenty-two. Three Byzantine successor states came out of 1204 and
+      all three called themselves the Roman empire; Trebizond had no
+      depth, no manpower reserve and no field army worth the name, and
+      what it had instead - a mountain wall behind it and a sea in front
+      - is the whole reason the least defensible of the three outlasted
+      the other two and the empire they had all claimed to be.
+    source: treadgold-1997
+    contested: false
   - year: 1282
     type: treaty
     name: "Giving up the imperial title"
@@ -62,6 +77,33 @@ turning_points:
       state stopped competing and started surviving, which it then did for
       another hundred and seventy-nine years.
     source: treadgold-1997
+    contested: false
+  - year: 1344
+    type: catastrophe
+    name: "The economy that had made the state matter ends"
+    changed: >-
+      A civil war between court factions running through the 1340s, the
+      plague's arrival in 1347, and a trade route already relocating since
+      the Ilkhanate's own collapse a decade earlier ended, without a
+      single conquest, the fourteenth-century prosperity that had briefly
+      made a two-hundred-mile strip of coast one of the more important
+      places in the world economy. The city went on. What a state does
+      once it has lost the reason it was wealthy and still has two
+      hundred and fifty miles of coast to hold is the rest of its history.
+    source: treadgold-1997
+    contested: false
+  - year: 1461
+    type: catastrophe
+    name: "David surrenders"
+    changed: >-
+      Mehmed II brought an army overland and a fleet along the coast; the
+      city held out about a month, and David surrendered on 15 August. Uzun
+      Hasan, married to David's own daughter and Trebizond's last hoped-for
+      ally, did not come. Fifteen hundred and eight years after Augustus,
+      the last man anywhere entitled to be addressed as Roman emperor
+      handed over his keys, was taken to Constantinople, and was executed
+      there two years later with most of his sons.
+    source: finkel-2005
     contested: false
 
 measures:
