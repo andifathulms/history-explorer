@@ -489,6 +489,25 @@ regions:
     group: northern-and-eastern-europe
     thread: false
 
+  # The homeland kingdom, not the colonial offshoot: `danelaw` and
+  # `viking-dublin`, in the-british-isles, are Danish and Norse
+  # settlements abroad, while this region is the Scandinavian kingdoms
+  # themselves. Denmark first, since its own founding moment - Gorm and
+  # Harald Bluetooth's unification and conversion, monumentalized on the
+  # Jelling stones - is the most self-contained of the three.
+  #
+  # `thread: false`: a single record for now, per the standard workflow of
+  # adding one polity before any thread is drawn.
+  - id: scandinavia
+    name: Scandinavia
+    blurb: >-
+      The Norse homeland kingdoms - Denmark, Norway and Sweden - whose own
+      dynasties raided and settled half of Latin Christendom before
+      converting, unifying, and periodically binding themselves to each
+      other under a single crown.
+    group: northern-and-eastern-europe
+    thread: false
+
   - id: islamic-west
     name: The Islamic West
     blurb: >-

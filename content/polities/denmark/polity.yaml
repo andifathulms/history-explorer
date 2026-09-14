@@ -1,0 +1,127 @@
+id: denmark
+region: scandinavia
+
+name:
+  latin: Kingdom of Denmark
+  script: Danmark
+  script_lang: da
+
+span:
+  # Saxo Grammaticus names fifty legendary kings before the Viking Age,
+  # a king-list Stefánsson treats no differently from the invented
+  # ancient pedigrees other early medieval kingdoms produced for
+  # themselves. The first Danish ruler whose own words survive is Gorm
+  # the Old, undated in this source beyond his son Harald Bluetooth's
+  # own reign, given here as beginning in 940.
+  start: { min: 940, max: 940, source: stefansson-denmark-1916 }
+  # This record currently runs only to Cnut the Great's death in 1035
+  # and the collapse of his Anglo-Scandinavian empire - the last event
+  # it has sourced chapters for - not to the kingdom's actual
+  # institutional end, since Denmark has none: it continues as a
+  # sovereign state to the present day. `ended` below is null for that
+  # reason as well as for the coverage reason.
+  end: { min: 1035, max: 1035, source: stefansson-denmark-1916 }
+
+identity: >-
+  A Viking-age kingdom that entered recorded history through its own
+  runestones, converted under a trial by fire under Harald Bluetooth,
+  and briefly ruled Norway and England together under Cnut the Great
+  before his short-lived Anglo-Scandinavian empire came apart at his
+  death.
+
+capitals:
+  - { name: Roskilde, source: stefansson-denmark-1916 }
+
+core_region: Jutland and the Danish isles - Zealand, Funen and Scania
+
+rulers:
+  # No reign dates for Gorm survive in this source; his son Harald
+  # Bluetooth's own reign is dated here as beginning in 940.
+  founder: { name: Gorm the Old, source: stefansson-denmark-1916 }
+  # Cnut ruled England, Denmark and Norway together - an
+  # Anglo-Scandinavian empire with no real precedent in the North and,
+  # per this record's current coverage, none since. This field may be
+  # revisited once later centuries of Danish history - the Valdemars'
+  # Baltic dominion, the Kalmar Union - are in view.
+  peak: { name: Cnut the Great, reign: [1016, 1035], source: stefansson-denmark-1916 }
+  # No final ruler is asserted: this record's own coverage stops at
+  # Cnut's death in 1035, well short of the present day, so there is no
+  # "last" king of this record to name - and, since Denmark has never
+  # institutionally ended, may never be one.
+  last: null
+
+scripts_and_languages:
+  administration: [Old Norse, Latin]
+  writing_system: Younger Futhark runes, later Latin alphabet
+
+institutions:
+  # Cnut sent most of his Danish army home once England was secured and
+  # kept only his household troops, the housecarls - a standing force
+  # of some three thousand men.
+  military_basis: { values: [standing-professional], source: stefansson-denmark-1916 }
+  # Sven Forkbeard's raids into England were bought off with Danegeld,
+  # and English coins paid as tribute have been found in Denmark in
+  # abundance from this period.
+  revenue_basis: { values: [tribute, plunder], source: stefansson-denmark-1916 }
+  # Cnut himself was "elected king by the Danish army" while still in
+  # England, even as his brother Harald succeeded their father in
+  # Denmark by simple primogeniture - both patterns attested within the
+  # same generation of the dynasty.
+  succession_rule: { values: [election, primogeniture], source: stefansson-denmark-1916 }
+  legitimation: { values: [descent], source: stefansson-denmark-1916 }
+
+preceded_by_external: []
+
+succeeded_by_external: []
+
+# Denmark did not end in 1035 - it has never institutionally ended, and
+# remains a sovereign state to the present day. This record's own span
+# ends where its sourced coverage currently stops, not because a
+# conquest, dynastic replacement or fragmentation actually ended the
+# kingdom there.
+ended: null
+
+turning_points:
+  - year: 960
+    type: conversion
+    name: "Harald Bluetooth's baptism"
+    changed: >-
+      A German missionary priest, Poppo, is said to have carried
+      glowing metal barehanded before King Harald without any mark of
+      injury - a trial the king took as proof enough to accept baptism
+      himself, making the Danish monarchy Christian for the first time
+      rather than merely tolerating a foreign mission at its edges.
+    source: stefansson-denmark-1916
+    contested: true
+  - year: 1016
+    type: succession-crisis
+    name: "Cnut secures England"
+    changed: >-
+      Two English kings, father and son, died within months of one
+      another after a hard-fought two-year struggle, leaving a
+      twenty-two-year-old Danish claimant in sole possession of the
+      English throne - the foundation, though nobody could have known
+      it yet, of a kingship that would come to span three crowns at
+      once.
+    source: stefansson-denmark-1916
+    contested: false
+  - year: 1030
+    type: battle
+    name: "The Battle of Stiklestad"
+    changed: >-
+      Norwegian farmers themselves killed the exiled King Olaf
+      Haraldsson when he tried to fight his way back onto the throne
+      Cnut had taken from him two years earlier without a battle -
+      closing out Cnut's hold on Norway and completing, for a few
+      years, an Anglo-Scandinavian empire ruled from Denmark.
+    source: stefansson-denmark-1916
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
