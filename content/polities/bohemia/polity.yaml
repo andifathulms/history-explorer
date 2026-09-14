@@ -15,18 +15,13 @@ span:
   # Christianization by followers of Methodius falls somewhere between
   # the 874 Treaty of Forchheim and Methodius's own death in 885.
   start: { min: 872, max: 885, source: lutzow-bohemia-1920 }
-  # This record currently runs only to the Hussite defeat of Sigismund's
-  # crusade at Žižka's Hill in 1420 - the last event it has sourced
-  # chapters for - not to the kingdom's actual institutional end at the
-  # 1620 Battle of the White Mountain. `ended` below is null for that
-  # reason.
-  end: { min: 1420, max: 1420, source: lutzow-bohemia-1920 }
+  end: { min: 1620, max: 1620, source: lutzow-bohemia-1920 }
 
 identity: >-
-  A Slavic kingdom and Imperial Elector that lost a king at Dürnkrut in
-  1278, saw Prague become an imperial capital under Charles IV, and
-  then rose in armed revolt after its own reformer, Jan Hus, was
-  burned as a heretic at Constance in 1415.
+  A Slavic kingdom and Imperial Elector whose reformer, Jan Hus, was
+  burned at Constance in 1415, whose peasant armies broke a crusade
+  under Žižka, and whose own elected Estates lost their constitutional
+  kingdom to Habsburg conquest at the White Mountain in 1620.
 
 capitals:
   - { name: Prague, source: lutzow-bohemia-1920 }
@@ -42,11 +37,12 @@ rulers:
   # himself Holy Roman Emperor - the furthest reach of authority any ruler
   # on this record has commanded.
   peak: { name: Charles IV, reign: [1346, 1378], source: lutzow-bohemia-1920 }
-  # No final ruler is asserted: this record's own coverage stops in 1420,
-  # exactly two centuries short of the kingdom's real end at the White
-  # Mountain in 1620, so there is no "last" king of this record to name
-  # yet.
-  last: null
+  # Elected by the rebel Estates in 1619 and deposed within a winter,
+  # Frederick was the last king of the independent, constitutional
+  # kingdom this record describes - not the last Habsburg claimant,
+  # whose own line continued ruling Bohemia as a hereditary possession
+  # after 1620.
+  last: { name: "Frederick I (of the Palatinate)", reign: [1619, 1620], source: lutzow-bohemia-1920 }
 
 scripts_and_languages:
   administration: [Czech, Latin, German]
@@ -70,14 +66,34 @@ institutions:
 
 preceded_by_external: []
 
-succeeded_by_external: []
+succeeded_by_external:
+  - name: the Habsburg Monarchy
+    type: conquered by
+    year: 1620
+    note: >-
+      The White Mountain's victors did not merely install a new king:
+      they revoked the Letter of Majesty and the elective constitution
+      the Bohemian Estates had built up over two centuries, folding the
+      kingdom into direct hereditary Habsburg rule for the next three
+      hundred years.
+    source: lutzow-bohemia-1920
 
-# Bohemia did not cease to exist in 1348 - the kingdom continued for
-# nearly three centuries afterward, through the Hussite Wars and into
-# Habsburg rule. This record's own span ends where its sourced coverage
-# currently stops, not because a conquest, dynastic replacement or
-# fragmentation actually ended the kingdom there.
-ended: null
+# A Catholic League and Imperial army broke the army of the rebel
+# Bohemian Estates and their elected king, Frederick of the Palatinate,
+# in a few hours at the White Mountain outside Prague on 8 November
+# 1620. The Habsburgs had already held the Bohemian crown since 1526,
+# so this was not a change of dynasty; what ended was the kingdom's own
+# elective constitution and the Letter of Majesty's religious
+# settlement, both stripped away in the battle's aftermath, leaving
+# Bohemia a hereditary Habsburg crown land rather than the
+# self-governing kingdom this record describes. No successor polity
+# has a record in this collection, so `by` is empty; the sourced
+# sentence above carries the name.
+ended:
+  type: conquest
+  by: []
+  year: 1620
+  source: lutzow-bohemia-1920
 
 turning_points:
   - year: 885
@@ -161,6 +177,56 @@ turning_points:
       a hastily fortified hill east of the city by Žižka's wagon-forts
       - the first proof that a peasant army built around Hussite
       conviction could break a crusade sent to destroy it.
+    source: lutzow-bohemia-1920
+    contested: false
+  - year: 1434
+    type: battle
+    name: "The Battle of Lipany"
+    changed: >-
+      Moderate Utraquist nobles who had made their own peace terms
+      with Rome broke the radical Taborites in a single day near
+      Lipany, using a feigned retreat to draw them from their own
+      wagon-fort before cutting them off from it - killing both
+      Prokop leaders and roughly thirteen thousand of their men in
+      what Bohemian historians have since judged an extermination
+      rather than a battle.
+    source: lutzow-bohemia-1920
+    contested: false
+  - year: 1436
+    type: treaty
+    name: "The Compacts of Basel accepted at Jihlava"
+    changed: >-
+      Bohemian delegates at last put their names to the Council of
+      Basel's terms, permitting communion in both kinds and ending
+      Rome's excommunication of the whole kingdom, and King Sigismund -
+      whose own broken promise had sent Hus to the stake two decades
+      earlier - was at last received into his own capital as the
+      Estates' undisputed and recognized sovereign.
+    source: lutzow-bohemia-1920
+    contested: false
+  - year: 1618
+    type: revolt
+    name: "The second defenestration of Prague"
+    changed: >-
+      Protestant nobles under Count Thurn, confronting royal governors
+      over violations of the 1609 Letter of Majesty, threw two of the
+      king's councillors and a secretary from the windows of Prague
+      Castle into the moat below - all three survived the fall, but the
+      Estates' provisional government that formed within hours put
+      Bohemia into open war against its own Habsburg king and touched
+      off the conflict that would consume the whole continent for
+      thirty years.
+    source: lutzow-bohemia-1920
+    contested: false
+  - year: 1620
+    type: battle
+    name: "The Battle of the White Mountain"
+    changed: >-
+      An unpaid, mutinous Bohemian army under the Estates' elected king,
+      Frederick of the Palatinate, broke within hours before the allied
+      forces of the Catholic League and the Emperor outside Prague; Frederick fled
+      the city within a day, and the kingdom's constitutional
+      self-government did not survive the defeat.
     source: lutzow-bohemia-1920
     contested: false
 
