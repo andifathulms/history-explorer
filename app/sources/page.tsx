@@ -4,6 +4,7 @@ import { sourceUsage, hasPage, displayName } from '@/lib/content'
 import { Page, Shell, PageHead, StatRow } from '@/components/Shell'
 import { Cite } from '@/components/Cite'
 import { SourceFilter } from '@/components/SourceFilter'
+import { PageNav, type NavSection } from '@/components/PageNav'
 
 export const metadata: Metadata = {
   title: 'Sources',
@@ -61,10 +62,26 @@ export default function Sources() {
   const once = used.filter((u) => u.claims === 1).length
   const reachable = uses.filter((u) => u.source.url).length
 
+  // Built from the same conditions the sections render under, so the gutter
+  // can never point at one that decided not to draw itself.
+  const sections: NavSection[] = [
+    ...(concentrated.length ? [{ id: 'sole-heading', label: 'Single-source' }] : []),
+    { id: 'works-heading', label: 'Every work' },
+    ...(unused.length ? [{ id: 'unused-heading', label: 'Listed but uncited' }] : []),
+    ...(datasets.length ? [{ id: 'datasets-heading', label: 'Datasets' }] : []),
+  ]
+
   return (
     <Page ground="paper" current="Sources">
-      <main id="main" className="flex-1">
-        <Shell className="pb-24">
+      <Shell className="flex-1 pb-24">
+        <div className="flex gap-12">
+          <aside className="hidden shrink-0 pt-16 lg:block lg:w-[224px]">
+            <div className="sticky top-24">
+              <PageNav sections={sections} />
+            </div>
+          </aside>
+
+          <main id="main" className="min-w-0 flex-1">
           <PageHead kicker="Where the weight sits" title="Sources" ground="paper">
             <p>
           {used.length} works carrying {totalClaims.toLocaleString('en-GB')} citations. The
@@ -100,7 +117,10 @@ export default function Sources() {
 
         {concentrated.length ? (
           <section className="mt-16 max-w-measure border-t border-kashi/15 pt-8">
-            <h2 className="font-display text-title font-semibold text-kashi-deep">
+            <h2
+              id="sole-heading"
+              className="font-display text-title font-semibold text-kashi-deep"
+            >
               Single-source polities
             </h2>
             <p className="mt-4 text-body">
@@ -124,7 +144,10 @@ export default function Sources() {
         ) : null}
 
         <section className="mt-16 border-t border-kashi/15 pt-8">
-          <h2 className="font-display text-title font-semibold text-kashi-deep">
+          <h2
+            id="works-heading"
+            className="font-display text-title font-semibold text-kashi-deep"
+          >
             Every work, by how much rests on it
           </h2>
 
@@ -200,7 +223,10 @@ export default function Sources() {
 
         {unused.length ? (
           <section className="mt-16 max-w-measure border-t border-kashi/15 pt-8">
-            <h2 className="font-display text-title font-semibold text-kashi-deep">
+            <h2
+              id="unused-heading"
+              className="font-display text-title font-semibold text-kashi-deep"
+            >
               Listed but uncited
             </h2>
             <p className="mt-4 text-body">
@@ -222,7 +248,12 @@ export default function Sources() {
         ) : null}
         {datasets.length ? (
           <section className="mt-16 max-w-measure border-t border-kashi/15 pt-8">
-            <h2 className="font-display text-title font-semibold text-kashi-deep">Datasets</h2>
+            <h2
+              id="datasets-heading"
+              className="font-display text-title font-semibold text-kashi-deep"
+            >
+              Datasets
+            </h2>
             <p className="mt-4 text-body">
               Consumed by the map layer through{' '}
               <code className="text-[15px]">basemap-links.yaml</code> rather than by a{' '}
@@ -241,8 +272,9 @@ export default function Sources() {
             </ul>
           </section>
         ) : null}
-        </Shell>
-      </main>
+          </main>
+        </div>
+      </Shell>
     </Page>
   )
 }

@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { loadCorpus, getPolity } from '@/lib/content'
 import { buildField, rate, DEFAULT_WEIGHTS } from '@/lib/ratings'
 import { Page, Shell, PageHead } from '@/components/Shell'
+import { PageNav, type NavSection } from '@/components/PageNav'
 
 export const metadata: Metadata = {
   title: 'About',
@@ -23,6 +24,14 @@ export default function About() {
    * never taught to check itself. It reads the rating now, so the day a
    * Ghurid extent figure is entered the sentence corrects itself.
    */
+  const sections: NavSection[] = [
+    { id: 'thread-heading', label: 'One section' },
+    { id: 'drafting-heading', label: 'How it was written' },
+    { id: 'numbers-heading', label: 'The numbers' },
+    { id: 'not-heading', label: 'What this is not' },
+    { id: 'sources-heading', label: 'Sources' },
+  ]
+
   const ghurid = getPolity('ghurid')
   const ghuridEmpty = ghurid
     ? (() => {
@@ -34,8 +43,15 @@ export default function About() {
 
   return (
     <Page ground="paper" current="About">
-      <main id="main" className="flex-1">
-        <Shell className="pb-24">
+      <Shell className="flex-1 pb-24">
+        <div className="flex gap-12">
+          <aside className="hidden shrink-0 pt-16 lg:block lg:w-[224px]">
+            <div className="sticky top-24">
+              <PageNav sections={sections} />
+            </div>
+          </aside>
+
+          <main id="main" className="min-w-0 flex-1">
           <PageHead kicker="Method, limits, sources" title="About" ground="paper">
             <p>
           History Explorer is a reading site about polities — what they were, how far
@@ -46,7 +62,10 @@ export default function About() {
           </PageHead>
 
         <section className="mt-16 max-w-measure border-t border-kashi/15 pt-8">
-          <h2 className="font-display text-title font-semibold text-kashi-deep">
+          <h2
+            id="thread-heading"
+            className="font-display text-title font-semibold text-kashi-deep"
+          >
             Why succession is only one section
           </h2>
           <p className="mt-4 text-body">
@@ -72,7 +91,10 @@ export default function About() {
         {/* PRD section 9. The standing note, in plain words, not a disclaimer
             in small type at the bottom. */}
         <section className="mt-16 max-w-measure border-t border-kashi/15 pt-8">
-          <h2 className="font-display text-title font-semibold text-kashi-deep">
+          <h2
+            id="drafting-heading"
+            className="font-display text-title font-semibold text-kashi-deep"
+          >
             How the chapters were written
           </h2>
           <p className="mt-4 text-body">
@@ -97,7 +119,10 @@ export default function About() {
         </section>
 
         <section className="mt-16 max-w-measure border-t border-kashi/15 pt-8">
-          <h2 className="font-display text-title font-semibold text-kashi-deep">
+          <h2
+            id="numbers-heading"
+            className="font-display text-title font-semibold text-kashi-deep"
+          >
             What the numbers are, and are not
           </h2>
           <p className="mt-4 text-body">
@@ -127,7 +152,10 @@ export default function About() {
         </section>
 
         <section className="mt-16 max-w-measure border-t border-kashi/15 pt-8">
-          <h2 className="font-display text-title font-semibold text-kashi-deep">
+          <h2
+            id="not-heading"
+            className="font-display text-title font-semibold text-kashi-deep"
+          >
             What this is not
           </h2>
           <ul className="mt-4 list-disc space-y-2 ps-5 text-body marker:text-kashi/50">
@@ -149,7 +177,12 @@ export default function About() {
             gave a reader who landed here no reason to suspect the other page
             existed. */}
         <section className="mt-16 max-w-measure border-t border-kashi/15 pt-8">
-          <h2 className="font-display text-title font-semibold text-kashi-deep">Sources</h2>
+          <h2
+            id="sources-heading"
+            className="font-display text-title font-semibold text-kashi-deep"
+          >
+            Sources
+          </h2>
           <p className="mt-4 text-body">
             Every citation on this site resolves to a work in one list, and the build
             fails if one does not. {sources.size} works, cited across {narrative.length}{' '}
@@ -167,8 +200,9 @@ export default function About() {
             rest on it, and the ones where a single book carries an entire page.
           </p>
         </section>
-        </Shell>
-      </main>
+          </main>
+        </div>
+      </Shell>
     </Page>
   )
 }
