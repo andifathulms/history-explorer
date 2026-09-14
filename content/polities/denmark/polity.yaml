@@ -14,20 +14,19 @@ span:
   # the Old, undated in this source beyond his son Harald Bluetooth's
   # own reign, given here as beginning in 940.
   start: { min: 940, max: 940, source: stefansson-denmark-1916 }
-  # This record currently runs only to Griffenfeld's death in prison,
-  # computed here as 1698 from the twenty-two years' imprisonment this
-  # source states followed his 1676 arrest - not to the kingdom's
-  # actual institutional end, since Denmark has none: it continues as a
-  # sovereign state to the present day. `ended` below is null for that
-  # reason as well as for the coverage reason.
-  end: { min: 1698, max: 1698, source: stefansson-denmark-1916 }
+  # This record currently runs only to Queen Caroline Matilda's death
+  # in exile in 1775 - the last event it has sourced chapters for - not
+  # to the kingdom's actual institutional end, since Denmark has none:
+  # it continues as a sovereign state to the present day. `ended` below
+  # is null for that reason as well as for the coverage reason.
+  end: { min: 1775, max: 1775, source: stefansson-denmark-1916 }
 
 identity: >-
   A Viking-age kingdom that ruled Norway and England together under
-  Cnut, bound three Scandinavian crowns at Kalmar, and after Christian
-  IV's wars became, in 1660, one of Europe's most extreme absolute
-  monarchies - a regime whose own architect, Griffenfeld, it later
-  imprisoned for life.
+  Cnut, bound three Scandinavian crowns at Kalmar, and became, in
+  1660, an absolute monarchy so unstable a century later that its own
+  royal physician, Struensee, ruled by decree before his 1772
+  execution.
 
 capitals:
   - { name: Roskilde, source: stefansson-denmark-1916 }
@@ -49,11 +48,10 @@ rulers:
   # unambiguous pinnacle Cnut's reign is given, so this field stands
   # confirmed now that the Union's full rise and fall are both in view.
   peak: { name: Cnut the Great, reign: [1016, 1035], source: stefansson-denmark-1916 }
-  # No final ruler is asserted: this record's own coverage stops at
-  # Griffenfeld's death in prison around 1698, well short of the
-  # present day, so there is no "last" king of this record to name -
-  # and, since Denmark has never institutionally ended, may never be
-  # one.
+  # No final ruler is asserted: this record's own coverage stops in
+  # 1775, well short of the present day, so there is no "last" king of
+  # this record to name - and, since Denmark has never institutionally
+  # ended, may never be one.
   last: null
 
 scripts_and_languages:
@@ -342,6 +340,34 @@ turning_points:
       the king against him, and was pardoned from execution only as he
       knelt awaiting the axe - a reprieve that still cost him
       twenty-two years of imprisonment without writing materials.
+    source: stefansson-denmark-1916
+    contested: false
+  - year: 1771
+    type: reform
+    name: "Struensee becomes Cabinet Minister"
+    changed: >-
+      A German court physician who had become both the mentally
+      unstable king's most trusted advisor and the queen's lover
+      dissolved the Council of State, made himself the sole channel for
+      royal authority, and was formally given the title that let him
+      issue orders under the king's own seal - well over a thousand
+      such orders followed before his fall, some genuine reform, much
+      of it pushed through fast enough to make him as many enemies as
+      changes.
+    source: stefansson-denmark-1916
+    contested: false
+  - year: 1772
+    type: catastrophe
+    name: "The execution of Struensee"
+    changed: >-
+      A palace conspiracy around the Queen Dowager overthrew Struensee,
+      who was arrested, chained in prison, and executed by having his
+      right hand and then his head cut off before his body was drawn
+      and quartered; Queen Caroline Matilda admitted their affair once
+      his own statement left her no room to deny it, and escaped
+      lifelong Danish imprisonment only because her brother, England's
+      own King George III, personally intervened, dying in exile at
+      Celle three years later.
     source: stefansson-denmark-1916
     contested: false
 
