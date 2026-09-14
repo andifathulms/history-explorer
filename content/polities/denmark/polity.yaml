@@ -14,19 +14,19 @@ span:
   # the Old, undated in this source beyond his son Harald Bluetooth's
   # own reign, given here as beginning in 940.
   start: { min: 940, max: 940, source: stefansson-denmark-1916 }
-  # This record currently runs only to the 1397 Kalmar Union coronation
-  # - the last event it has sourced chapters for - not to the kingdom's
-  # actual institutional end, since Denmark has none: it continues as a
+  # This record currently runs only to Sweden's 1523 secession from the
+  # Kalmar Union and Christian II's flight into exile - the last event
+  # it has sourced chapters for - not to the kingdom's actual
+  # institutional end, since Denmark has none: it continues as a
   # sovereign state to the present day. `ended` below is null for that
   # reason as well as for the coverage reason.
-  end: { min: 1397, max: 1397, source: stefansson-denmark-1916 }
+  end: { min: 1523, max: 1523, source: stefansson-denmark-1916 }
 
 identity: >-
   A Viking-age kingdom that ruled Norway and England together under
-  Cnut the Great, nearly vanished into foreign mortgage and eight
-  kingless years in the 1330s, and was rebuilt by Valdemar Atterdag
-  before Queen Margaret bound Denmark, Norway and Sweden under one
-  crown at Kalmar in 1397.
+  Cnut the Great, nearly vanished into foreign mortgage, and bound
+  Denmark, Norway and Sweden under one crown at Kalmar before a
+  massacre of Swedish nobles provoked the revolt that broke the union.
 
 capitals:
   - { name: Roskilde, source: stefansson-denmark-1916 }
@@ -41,16 +41,17 @@ rulers:
   # Anglo-Scandinavian empire with no real precedent in the North.
   # Valdemar II later built a Baltic dominion Stefánsson himself judges
   # the widest Denmark held since Cnut, but explicitly ranks it second
-  # to Cnut's own reach. The 1397 Kalmar Union - Denmark, Norway and
-  # Sweden under one crown for well over a century - is a real rival
-  # claim to this field, engineered by Queen Margaret rather than by
-  # Eric of Pomerania, its own crowned king; left as Cnut for now, to
-  # be revisited once the Union's own full run is in view.
+  # to Cnut's own reach. The Kalmar Union bound a larger area under one
+  # crown for longer, but this source's own account treats it as an
+  # unstable, unequal arrangement that "worked far otherwise" than its
+  # theory of equal kingdoms and gradually broke up - not the kind of
+  # unambiguous pinnacle Cnut's reign is given, so this field stands
+  # confirmed now that the Union's full rise and fall are both in view.
   peak: { name: Cnut the Great, reign: [1016, 1035], source: stefansson-denmark-1916 }
-  # No final ruler is asserted: this record's own coverage stops at the
-  # 1397 Kalmar Union coronation, well short of the present day, so
-  # there is no "last" king of this record to name - and, since Denmark
-  # has never institutionally ended, may never be one.
+  # No final ruler is asserted: this record's own coverage stops at
+  # Sweden's 1523 secession, well short of the present day, so there is
+  # no "last" king of this record to name - and, since Denmark has
+  # never institutionally ended, may never be one.
   last: null
 
 scripts_and_languages:
@@ -212,6 +213,41 @@ turning_points:
       only the coronation document itself was ever fully sealed, the
       fuller constitutional draft left short of ratification by every
       Norwegian councillor present.
+    source: stefansson-denmark-1916
+    contested: false
+  - year: 1520
+    type: catastrophe
+    name: "The Stockholm Bloodbath"
+    changed: >-
+      Days after a full amnesty secured Stockholm's surrender and his
+      own coronation as hereditary King of Sweden, Christian II had
+      dozens of Swedish nobles, clergy and councillors arrested on
+      fabricated charges of heresy and publicly beheaded over two days
+      - a massacre his own later, contradictory excuses to his Swedish
+      subjects and to the Pope only made more damning.
+    source: stefansson-denmark-1916
+    contested: false
+  - year: 1521
+    type: battle
+    name: "Gustaf Vasa's peasants break the Danes at Västerås"
+    changed: >-
+      A hunted fugitive turned rebel leader, Gustaf Eriksson Vasa
+      rallied the Dalecarlian peasantry after the Stockholm massacre
+      claimed his own father, and their pikemen broke a mounted Danish
+      charge outright that April, capturing artillery the rebels had
+      lacked until then - the victory that turned a local rising into a
+      province-by-province revolt against Danish rule.
+    source: stefansson-denmark-1916
+    contested: false
+  - year: 1523
+    type: succession-crisis
+    name: "Sweden elects Gustaf Vasa; Christian II flees"
+    changed: >-
+      A Jutland noble revolt drove Christian II into Dutch exile that
+      April, and within weeks a Swedish assembly at Strängnäs proclaimed
+      Gustaf Vasa king over his own objections, with Stockholm's
+      starving garrison surrendering a fortnight later - closing, in
+      every sense but name, the Kalmar settlement of 1397.
     source: stefansson-denmark-1916
     contested: false
 
