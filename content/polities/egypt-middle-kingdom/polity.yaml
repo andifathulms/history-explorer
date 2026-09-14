@@ -13,6 +13,11 @@ name:
 # the Hyksos — is first attested ruling in its own right rather than as one
 # claimant among several, which this site's Thirteenth Dynasty chapter treats
 # as the line between a weakening kingdom and a divided one.
+#
+# The Herakleopolitan kings this line defeated to reunify the country now
+# have their own record, the First Intermediate Period; the edge joining the
+# two is in edges.yaml, and that record's own last chapter tells the losing
+# side of the same war this record's first turning point tells from Thebes.
 span:
   start: { min: -2055, max: -2055, source: shaw-2000 }
   end: { min: -1650, max: -1650, source: shaw-2000 }
@@ -53,22 +58,6 @@ ended:
   by: [hyksos]
   year: -1650
   source: shaw-2000
-
-# The Herakleopolitan kings, on the north side of the First Intermediate
-# Period, are Old Kingdom's own external note; a reader arriving here is
-# asking what stood before Thebes actually won, which is the same war
-# described from the losing side.
-preceded_by_external:
-  - name: the kings of Herakleopolis
-    year: null
-    note: >-
-      For over a century before Mentuhotep's victory, Egypt had two
-      kingships at once: a northern line ruling from Herakleopolis, served
-      by the nomarchs of Asyut, and a southern one at Thebes that eventually
-      overran it. Herakleopolis has no record of its own here — the sources
-      for it are almost entirely the tomb inscriptions of its Asyut
-      governors, describing a war it lost.
-    source: breasted-1906
 
 institutions:
   # Levies raised by province, as in the Old Kingdom, with one addition: the

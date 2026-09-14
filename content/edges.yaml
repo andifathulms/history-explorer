@@ -3400,6 +3400,33 @@ edges:
     source: shaw-2000
     contested: true
 
+  - from: egypt-old-kingdom
+    to: egypt-first-intermediate
+    type: partitioned from
+    year: -2181
+    note: >-
+      No single conquest or rupture ends the Old Kingdom; the provincial
+      governors who had already gained hereditary hold on their own nomes
+      simply carried on governing them once Memphis stopped being able to
+      enforce anything, and a kingship that had run one country for a
+      thousand years became a set of local ones with no single throne
+      above them.
+    source: shaw-2000
+    contested: false
+
+  - from: egypt-first-intermediate
+    to: egypt-middle-kingdom
+    type: overthrew
+    year: -2055
+    note: >-
+      A Theban line that had already been pushed back once by the
+      Herakleopolitan kingdom's own vassals at Siut renewed the war under
+      Intef I and did not stop; by Mentuhotep II's accession the Theban
+      kingship already regarded itself as sovereign over the whole
+      country, years before Herakleopolis itself actually fell.
+    source: shaw-2000
+    contested: false
+
   - from: egypt-middle-kingdom
     to: hyksos
     type: seceded from

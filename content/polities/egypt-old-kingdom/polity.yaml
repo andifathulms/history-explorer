@@ -34,30 +34,19 @@ scripts_and_languages:
   administration: [Egyptian]
   writing_system: Egyptian hieroglyphs
 
-# The First Intermediate Period. Central authority dissolved and the provincial
-# governors, whose offices had become hereditary over the preceding century,
-# carried on governing their own nomes and dating by their own years. There is
-# no conquest and no external agent, which is why `by` is empty: nobody took
-# Egypt in 2181, and it took itself apart.
+# The First Intermediate Period, which now has its own record; the edge
+# joining the two is in edges.yaml. Central authority dissolved and the
+# provincial governors, whose offices had become hereditary over the
+# preceding century, carried on governing their own nomes and dating by
+# their own years. There is no conquest and no external agent for this
+# collapse itself, which is why `by` names the fragmented period that
+# followed rather than any single conqueror: nobody took Egypt in 2181, and
+# it took itself apart.
 ended:
   type: fragmentation
-  by: []
+  by: [egypt-first-intermediate]
   year: -2181
   source: shaw-2000
-
-# The predecessor now has its own record and the relationship is an edge
-# there rather than an external note here; the Herakleopolitans still have
-# none, so that direction stays external.
-succeeded_by_external:
-  - name: the kings of Herakleopolis
-    year: null
-    note: >-
-      After 2181 the Memphite kingship dissolved and the country was governed in
-      pieces. The line that eventually claimed Egypt from the north ruled at
-      Herakleopolis and was served by the lords of Asyut, whose tombs are the only
-      contemporary source for the period; the line that beat them ruled at Thebes
-      and became the Eleventh Dynasty.
-    source: breasted-1906
 
 institutions:
   # The corvee: a periodic obligation of labour and military service owed by the

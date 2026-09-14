@@ -1,0 +1,141 @@
+id: egypt-first-intermediate
+region: ancient-egypt
+
+name:
+  latin: "Egypt, First Intermediate Period"
+  script: 𓆎𓅓𓏏𓊖
+  script_lang: egy
+
+# As with this site's other Egyptian records, Shaw's figures are used for
+# consistency between them. The lower bound is the Old Kingdom's own
+# collapse; the upper bound is Mentuhotep II's accession, which this site's
+# Middle Kingdom record treats as the point the Theban kingship regarded
+# itself as already legitimate over the whole country, even though the
+# actual capture of Herakleopolis waited until several years into that
+# reign. That later battle is narrated on the Middle Kingdom's own page,
+# from the winning side; this record ends where that one begins.
+span:
+  start: { min: -2181, max: -2181, source: shaw-2000 }
+  end: { min: -2055, max: -2055, source: shaw-2000 }
+
+identity: >-
+  A century and a quarter with no single king: the landed governors who had
+  kept the Old Kingdom's nomes running went on running them after Memphis
+  fell silent, and the kingship that had held the whole Nile valley for a
+  thousand years became a prize two rival lines, one at Herakleopolis and
+  one at Thebes, spent generations fighting over.
+
+capitals:
+  - { name: Herakleopolis, source: breasted-1905 }
+
+core_region: >-
+  Middle Egypt from Herakleopolis, contested for most of the period with an
+  independent Thebes to the south
+
+rulers:
+  # Manetho's founder of the Ninth Dynasty, called Akhthoes: the only king
+  # of the line credited with an act rather than a name. Breasted's account
+  # of him is entirely secondhand and entirely unflattering, which is
+  # consistent with a house that only survives in the record of the rivals
+  # who eventually beat it.
+  founder: { name: Akhthoes, source: breasted-1905 }
+  # Null. Manetho's list gives the Herakleopolitan line eighteen kings; only
+  # the first and the last are named in any source consulted here, and no
+  # one of the sixteen in between is attested well enough, or distinctly
+  # enough from a nomarch of the same common name, to be called a peak.
+  peak: null
+  # Merikare, the addressee of the Siut nomarchs' loyalty and the last king
+  # this line's own tomb inscriptions still describe as reigning. No source
+  # consulted here narrates his own end; the inscriptions simply stop.
+  last: { name: Merikare, source: breasted-1905 }
+
+scripts_and_languages:
+  administration: [Egyptian]
+  writing_system: Egyptian hieroglyphs and hieratic
+
+# Conquest, on the reasoning this site's Hyksos-to-New-Kingdom edge already
+# uses for the same kind of transition: a rival Egyptian line, not a
+# foreign one, ends a fragmented kingship by defeating it in the field. The
+# year matches this record's own span end rather than the year Herakleopolis
+# actually fell, which this site's Middle Kingdom record dates several
+# years later, within Mentuhotep II's reign; see that record's own note.
+ended:
+  type: conquest
+  by: [egypt-middle-kingdom]
+  year: -2055
+  source: shaw-2000
+
+preceded_by_external: []
+succeeded_by_external: []
+
+institutions:
+  # Null rather than a value inherited from the Old Kingdom. What the Siut
+  # tomb inscriptions describe is a nomarch's own troops and his own fleet,
+  # raised and commanded locally rather than through any apparatus a king at
+  # Herakleopolis controlled directly - the same fragmentation the whole
+  # period is defined by, applied to the army rather than the treasury.
+  military_basis: null
+  # Null. No source consulted here gives an account of how a Herakleopolitan
+  # king's household was actually funded, distinct from the nome-level
+  # taxation the local governors already controlled in their own right.
+  revenue_basis: null
+  # Null. No source consulted here states a rule for the Herakleopolitan
+  # throne itself; the one succession this period documents in any detail
+  # is a nomarch's, not a king's - the Siut governorship passing through a
+  # daughter acting as regent for a son too young to rule - which is
+  # evidence of a family's practice, not of a rule the kingship itself ran
+  # on.
+  succession_rule: null
+  # Null. The Herakleopolitan kings inherited Old Kingdom titulary without,
+  # so far as any source consulted here shows, inheriting the confidence
+  # that went with it; asserting a title is not the same claim as asserting
+  # its old religious warrant, and no source here distinguishes which this
+  # line was actually making.
+  legitimation: null
+
+turning_points:
+  - year: -2181
+    type: catastrophe
+    name: "Nothing left to date by"
+    changed: >-
+      The Sixth Dynasty's fall did not produce a new ruling house so much
+      as an absence of one: Manetho's own scanty notes credit Memphis with
+      a Seventh and an Eighth Dynasty lasting less than thirty years
+      between them, and no source consulted here can name a single
+      monument, tomb or inscription securely dated to either. The
+      systematic destruction of Old Kingdom statues and temple reliefs
+      that archaeology attributes to roughly this period was never claimed
+      by anyone in a text that survives - a violence with no author on
+      record, done to a kingship that had just lost the only son who
+      still recognised its authority.
+    source: breasted-1905
+    contested: false
+  - year: -2055
+    type: battle
+    name: "What Merikare inherited"
+    changed: >-
+      Tefibi of Siut had once driven a Theban army back on both banks of
+      the Nile at once, and his son Kheti had been the Herakleopolitan
+      throne's own king-maker, bringing Merikare south under military
+      escort to receive a city's rejoicing. None of that loyalty changed
+      the direction the war had been running for two generations: Thebes
+      held the frontier Tefibi had once pushed back, and the line's own
+      tomb inscriptions, the fullest surviving account of the
+      Herakleopolitan side, simply stop naming a king after Merikare. What
+      Mentuhotep II inherited when Thebes finally took the north is
+      recorded from the winning side; what Merikare himself lost in
+      it is not recorded at all.
+    source: breasted-1905
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    # Null throughout: no source consulted here addresses script derivation,
+    # religious propagation or a later claim on this specific fragmented
+    # kingship, as distinct from the continuous Egyptian institution its own
+    # neighbouring records already carry these questions for.
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
