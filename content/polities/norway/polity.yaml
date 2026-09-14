@@ -1,0 +1,112 @@
+id: norway
+region: scandinavia
+
+name:
+  latin: Kingdom of Norway
+  script: Norge
+  script_lang: no
+
+span:
+  # Snorri Sturluson's Heimskringla traces the royal line back through a
+  # saga genealogy of legendary Swedish kings descended from the god
+  # Frey - foundation legend rather than history. The first ruler this
+  # record treats as historical is Harald Fairhair, whose unification
+  # of Norway is dated by the saga tradition to the Battle of Hafrsfjord
+  # in 872.
+  start: { min: 872, max: 872, source: boyesen-norway-1886 }
+  # This record currently runs only to Haakon the Good's death at the
+  # Battle of Fitjar in 961 - the last event it has sourced chapters for
+  # - not to the kingdom's actual institutional end, since Norway has
+  # none: it continues as a sovereign state to the present day. `ended`
+  # below is null for that reason as well as for the coverage reason.
+  end: { min: 961, max: 961, source: boyesen-norway-1886 }
+
+identity: >-
+  A collection of Norwegian petty kingdoms that Harald Fairhair united
+  by conquest at Hafrsfjord in 872, ruled afterward by a tyrant son and
+  then by the foster-son of an English king, Haakon the Good, who died
+  defending it at Fitjar in 961.
+
+capitals: []
+
+core_region: The western and southwestern Norwegian coast and fjords, from Agder to Trøndelag
+
+rulers:
+  # Chapter heading dates give Harald's reign as 860-930; 872 is the
+  # year of Hafrsfjord, the decisive battle within it, not his
+  # accession.
+  founder: { name: "Harald Fairhair (Harald Hårfagre)", reign: [860, 930], source: boyesen-norway-1886 }
+  # Haakon the Good was more beloved and left a more durable legal
+  # legacy than Harald, but he inherited Norway united rather than
+  # extending it - Harald's own conquest at Hafrsfjord remains the
+  # wider reach of authority this record's coverage has shown so far.
+  peak: { name: "Harald Fairhair (Harald Hårfagre)", reign: [860, 930], source: boyesen-norway-1886 }
+  last: null
+
+scripts_and_languages:
+  administration: [Old Norse]
+  writing_system: Younger Futhark runes
+
+institutions:
+  # Harald's earls kept a third of the taxes they collected in exchange
+  # for maintaining sixty warriors at the king's call, and their own
+  # sub-vassals, the hersir, held royal estates on condition of keeping
+  # twenty warriors ready - a fief-for-service arrangement built on the
+  # conquered kingdoms' own land.
+  military_basis: { values: [land-grant], source: boyesen-norway-1886 }
+  # Harald declared all land the property of the crown and stripped the
+  # peasantry of their former allodial (freehold) rights, reducing them
+  # to tenants taxed on land they had once owned outright.
+  revenue_basis: { values: [land-tax], source: boyesen-norway-1886 }
+  succession_rule: null
+  # Harald's own claim rested on conquest, province by province, over
+  # kings who could not stand against him; the Yngling genealogy
+  # tracing his line to the god Frey is the saga's own claim of descent.
+  legitimation: { values: [conquest, descent], source: boyesen-norway-1886 }
+
+preceded_by_external: []
+
+succeeded_by_external: []
+
+# Norway did not end with Harald Fairhair's unification - it continues
+# as a sovereign state to the present day. This record's own span ends
+# where its sourced coverage currently stops, not because a conquest,
+# dynastic replacement or fragmentation actually ended the kingdom
+# there.
+ended: null
+
+turning_points:
+  - year: 872
+    type: battle
+    name: "The Battle of Hafrsfjord"
+    changed: >-
+      A coalition of Norwegian chieftains who had each separately lost
+      to Harald combined their fleets in a last stand near modern
+      Stavanger, and were broken when Harald's own berserkers stormed
+      aboard their ships - the battle Snorri's saga remembers as
+      Norway's greatest, and the one that left Harald with no rival
+      left in the country.
+    source: boyesen-norway-1886
+    contested: true
+  - year: 961
+    type: battle
+    name: "The Battle of Fitjar"
+    changed: >-
+      Haakon the Good, who had won the throne from his own tyrannical
+      half-brother by promising to restore rights their father had
+      taken away, died defending it against that brother's returning
+      sons at Fitjar - refusing Christian burial in death as he had
+      declined to force his own faith on his people in life, and asking
+      with his last act that the men who had just tried to kill him
+      take the kingdom he left without an heir.
+    source: boyesen-norway-1886
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
