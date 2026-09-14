@@ -8,18 +8,19 @@ name:
 
 span:
   start: { min: 987, max: 987, source: kitchin-1899 }
-  # This record currently runs only to the English expulsion at
-  # Castillon in 1453 - the last event it has sourced chapters for -
-  # not to the kingdom's actual institutional end at the Revolution.
-  # `ended` below is null for that reason, not because the sources
-  # leave the kingdom's later history unclear.
-  end: { min: 1453, max: 1453, source: kitchin-1899 }
+  # This record currently runs only to Henry IV's assassination in
+  # 1610 - the last event it has sourced chapters for - not to the
+  # kingdom's actual institutional end at the Revolution. `ended`
+  # below is null for that reason, not because the sources leave the
+  # kingdom's later history unclear.
+  end: { min: 1610, max: 1610, source: kitchin-1899 }
 
 identity: >-
-  A duke of a small demesne around Paris, elected king over greater
-  princes in 987, whose line survived a near-total English conquest
-  during the Hundred Years' War to recover the kingdom whole by 1453
-  under a shepherd girl's banner.
+  A duke of a small demesne around Paris, elected king in 987, whose
+  line survived near-total English conquest in the Hundred Years' War
+  and decades of religious civil war, ending only when a converted
+  Huguenot king secured toleration by edict and was murdered for it
+  in 1610.
 
 capitals:
   - { name: Paris, from: 987, source: kitchin-1899 }
@@ -150,6 +151,53 @@ turning_points:
       with two sons who stood over his body, closing out a war that
       had run, on and off, for over a century. It left England holding
       nothing more on the continent than the fortress town of Calais.
+    source: kitchin-1899
+    contested: false
+  - year: 1572
+    type: catastrophe
+    name: "The Saint Bartholomew's Day massacre"
+    changed: >-
+      A planned killing of a handful of Huguenot leaders in Paris,
+      opened by a bell rung in the night, ran out of every leader's
+      control once the city's own crowd joined in - leaving thousands
+      dead within days and forcing the two most senior Protestant
+      nobles caught in the city to choose the Mass over the knife.
+    source: kitchin-1899
+    contested: false
+  - year: 1593
+    type: conversion
+    name: "Henry IV's abjuration"
+    changed: >-
+      Judging that all France, even Paris, was finally ready for
+      peace, the Protestant king who had spent four years fighting for
+      a throne most of his own kingdom refused to accept from a
+      Huguenot converted to Catholicism - and watched towns everywhere
+      lay down their resistance in short order once the religious
+      objection to his rule was gone.
+    source: kitchin-1899
+    contested: false
+  - year: 1598
+    type: reform
+    name: "The Edict of Nantes"
+    changed: >-
+      Unlike earlier truces that kept collapsing back into fighting,
+      the edict granted Huguenots freedom to worship in most of the
+      realm, admission to judicial and financial posts, and a bench of
+      their own inside the Paris law courts - a settlement solid
+      enough that, three weeks later, a separate treaty with Spain
+      could finally end decades of a civil war that had also served
+      Madrid as a front against its own French rival.
+    source: kitchin-1899
+    contested: false
+  - year: 1610
+    type: catastrophe
+    name: "The assassination of Henry IV"
+    changed: >-
+      A single knife-thrust from a stranger who climbed onto the wheel
+      of the king's own stalled carriage ended, in an instant, both the
+      life of the man who had closed France's religious wars and the
+      wider continental plans he had been assembling against Spain and
+      the Habsburgs, leaving the kingdom to a regency under his widow.
     source: kitchin-1899
     contested: false
 
