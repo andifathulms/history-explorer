@@ -14,20 +14,19 @@ span:
   # of Norway is dated by the saga tradition to the Battle of Hafrsfjord
   # in 872.
   start: { min: 872, max: 872, source: boyesen-norway-1886 }
-  # This record currently runs only to Olaf Haraldsson's death at the
-  # Battle of Stiklestad in 1030 - the last event it has sourced
+  # This record currently runs only to Harald Hardrada's death at the
+  # Battle of Stamford Bridge in 1066 - the last event it has sourced
   # chapters for - not to the kingdom's actual institutional end, since
   # Norway has none: it continues as a sovereign state to the present
   # day. `ended` below is null for that reason as well as for the
   # coverage reason.
-  end: { min: 1030, max: 1030, source: boyesen-norway-1886 }
+  end: { min: 1066, max: 1066, source: boyesen-norway-1886 }
 
 identity: >-
   A collection of Norwegian petty kingdoms Harald Fairhair united by
-  conquest at Hafrsfjord in 872, converted by force under Olaf
-  Tryggvason and then Olaf Haraldsson, whose death at Stiklestad in
-  1030 made him Norway's patron saint even as the kingdom fell under
-  Danish rule.
+  conquest at Hafrsfjord in 872, briefly joined to Denmark under
+  Magnus the Good, and ruled afterward by his uncle Harald Hardrada,
+  who died invading England at Stamford Bridge in 1066.
 
 capitals: []
 
@@ -38,13 +37,13 @@ rulers:
   # year of Hafrsfjord, the decisive battle within it, not his
   # accession.
   founder: { name: "Harald Fairhair (Harald Hårfagre)", reign: [860, 930], source: boyesen-norway-1886 }
-  # Haakon the Good, Olaf Tryggvason and now Olaf Haraldsson each ruled
-  # a united Norway in turn, but none exceeded the territorial reach
-  # Harald's own conquest at Hafrsfjord first established - and Olaf
-  # Haraldsson's own reign ended with Norway reduced to a Danish
-  # province, the opposite of a widening reach. This field stands
-  # confirmed rather than provisional now that four reigns are in view.
-  peak: { name: "Harald Fairhair (Harald Hårfagre)", reign: [860, 930], source: boyesen-norway-1886 }
+  # Revised: Magnus the Good ruled Norway and Denmark together for five
+  # years (1042-47), a genuine dual crown rather than a nominal claim,
+  # and the widest reach of authority any king in this record has held
+  # - wider than Harald's own unification of Norway alone. Harald
+  # Hardrada's own Byzantine career brought him personal fame and
+  # wealth but never added territory to the Norwegian crown itself.
+  peak: { name: Magnus the Good, reign: [1035, 1047], source: boyesen-norway-1886 }
   last: null
 
 scripts_and_languages:
@@ -155,6 +154,31 @@ turning_points:
       case where modern astronomical reckoning bears the saga's own
       account out, and his death did more than his life's own campaigns
       to root Christianity in Norway for good.
+    source: boyesen-norway-1886
+    contested: false
+  - year: 1042
+    type: succession-crisis
+    name: "Magnus the Good becomes king of Denmark too"
+    changed: >-
+      An inheritance pact struck with Harthacnut of Denmark in 1038
+      came due when Harthacnut died without an heir, and a Danish
+      assembly recognized Magnus as its own new sovereign without a
+      fight - the first time both Norse kingdoms answered to a single
+      ruler at once, and a wider reach than Harald Fairhair's own
+      descendants had held before.
+    source: boyesen-norway-1886
+    contested: false
+  - year: 1066
+    type: battle
+    name: "The Battle of Stamford Bridge"
+    changed: >-
+      Harald Hardrada's invasion of England, launched at Earl Tostig's
+      urging with a fleet larger than any the kingdom had sent abroad
+      before, won an early victory at Fulford before an unarmoured camp at Stamford
+      Bridge was caught entirely by surprise; Harald died with an arrow
+      through the throat, Tostig fell fighting on after him, and what
+      remained of the army straggled back to its ships under cover of
+      dusk - the end, in most tellings, of the Viking Age itself.
     source: boyesen-norway-1886
     contested: false
 
