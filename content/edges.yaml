@@ -4371,3 +4371,15 @@ edges:
       December.
     source: stenton-1943
     contested: false
+
+  - from: norman-ireland
+    to: kingdom-of-ireland
+    type: absorbed remnants of
+    year: 1541
+    note: >-
+      No conquest or change of ruler separates the two records: an
+      Irish Parliament voted Henry VIII King of Ireland in place of
+      Lord of Ireland, and the same crown administration continued
+      under the new style.
+    source: bagwell-1885
+    contested: false

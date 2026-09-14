@@ -1,0 +1,127 @@
+id: kingdom-of-ireland
+region: the-british-isles
+
+name:
+  latin: Kingdom of Ireland
+  script: null
+  script_lang: null
+
+span:
+  start: { min: 1541, max: 1541, source: bagwell-1885 }
+  # This record currently runs only to the Flight of the Earls in 1607,
+  # the last event it has sourced chapters for - not to the kingdom's
+  # actual institutional end at the 1800 Act of Union, which remains
+  # unresearched. `ended` below is null for that reason, not because
+  # the sources leave the kingdom's real end unclear.
+  end: { min: 1607, max: 1607, source: ocianain-1916 }
+
+identity: >-
+  The kingdom an Irish Parliament's unanimous vote created out of the
+  medieval lordship in 1541, fought over through four decades of
+  rebellion and reconquest until Hugh O'Neill and the earl of
+  Tyrconnell sailed into exile from Lough Swilly in 1607.
+
+capitals:
+  - { name: Dublin, source: bagwell-1885 }
+
+core_region: The whole island of Ireland, contested in practice between the crown administration at Dublin and Gaelic and Old English lordships until the end of the Nine Years' War
+
+rulers:
+  founder: { name: Henry VIII, reign: [1541, 1547], source: bagwell-1885 }
+  # Elizabeth's reign saw the crown's authority pushed, at heavy cost,
+  # into every corner of the island for the first time - the Nine
+  # Years' War ending in the complete submission the earlier Tudor
+  # monarchs had claimed but never actually achieved.
+  peak: { name: Elizabeth I, reign: [1558, 1603], source: bagwell-1885 }
+  # No final ruler is asserted: this record's own coverage stops in
+  # 1607, well short of the kingdom's real end in 1800, so there is no
+  # "last" king of this record to name yet.
+  last: null
+
+scripts_and_languages:
+  administration: [English, Latin, Irish]
+  writing_system: Latin alphabet
+
+institutions:
+  military_basis: { values: [standing-professional], source: bagwell-1885 }
+  revenue_basis: { values: [land-tax], source: bagwell-1885 }
+  succession_rule: { values: [primogeniture], source: bagwell-1885 }
+  legitimation: { values: [descent, divine-sanction], source: bagwell-1885 }
+
+preceded_by_external: []
+
+succeeded_by_external: []
+
+ended: null
+
+turning_points:
+  - year: 1583
+    type: catastrophe
+    name: "Death of the Earl of Desmond"
+    changed: >-
+      Gerald FitzGerald, the fifteenth Earl of Desmond, was surprised
+      and beheaded by the O'Moriartys in a Kerry glen after years as a
+      hunted fugitive, ending the last great Geraldine rising. English
+      colonists were brought in to settle his forfeited estates, and
+      the plantation that resulted remade landholding across Munster
+      more thoroughly than four decades of fighting had.
+    source: bagwell-1885
+    contested: false
+  - year: 1598
+    type: battle
+    name: "Battle of the Yellow Ford"
+    changed: >-
+      Hugh O'Neill and Hugh O'Donnell destroyed an English relief
+      column at a ford on the river Callan, killing the Crown's own
+      marshal, Sir Henry Bagenal, in what became the costliest reverse
+      the English crown had yet suffered on Irish soil. The victory
+      touched off a general rising that spread the war far beyond
+      Ulster for the first time.
+    source: bagwell-1885
+    contested: false
+  - year: 1601
+    type: battle
+    name: "Battle of Kinsale"
+    changed: >-
+      A night attack meant to catch Mountjoy's besieging army between
+      the Irish confederates and a besieged Spanish garrison collapsed
+      into confusion after O'Donnell's own guides took a wrong turning
+      in the dark; Tyrone's exposed vanguard was routed at daybreak, and
+      the Irish lost some two thousand men against a single English
+      fatality. The confederate army broke apart afterward and never
+      reassembled.
+    source: bagwell-1885
+    contested: false
+  - year: 1603
+    type: treaty
+    name: "Tyrone's submission at Mellifont"
+    changed: >-
+      Unaware that Elizabeth had already died six days earlier, Tyrone
+      travelled to Mellifont and knelt in penitent submission for close
+      to an hour, renouncing his old title and any dependence on Spain.
+      He learned of the Queen's death, and of James's accession, only
+      after he had already surrendered everything the old war had been
+      fought over.
+    source: bagwell-1885
+    contested: false
+  - year: 1607
+    type: revolt
+    name: "The Flight of the Earls"
+    changed: >-
+      Hugh O'Neill and the earl of Tyrconnell, Rory O'Donnell, sailed
+      from Lough Swilly with some ninety-nine followers, never to return.
+      O'Neill spent his final night in Ireland at the same house at
+      Mellifont where he had once submitted to Mountjoy - and with his
+      departure, no independent Gaelic lord of any standing remained
+      anywhere on the island.
+    source: ocianain-1916
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
