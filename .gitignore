@@ -5,3 +5,9 @@ out/
 next-env.d.ts
 .DS_Store
 .env*.local
+
+# The brand export, as the design tool writes it: every colourway, every tier,
+# the lockups, and 69KB of the tool's own support.js. What the site actually
+# serves is copied into public/brand, which is tracked — CI builds from the
+# repository and cannot see anything that only exists on one machine.
+exports/
