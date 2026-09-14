@@ -91,6 +91,21 @@ turning_points:
       supposed to have happened anyway.
     source: livy-roberts
     contested: true
+  - year: -550
+    type: reform
+    name: "The census and the centuriate assembly"
+    changed: >-
+      Servius Tullius divided the male citizen body into property classes,
+      each obligated to supply a fixed number of armed men equipped to a
+      standard the class could afford, voting in an assembly organised by
+      those same classes rather than by simple headcount. Whether it took
+      this exact form under this exact king or was elaborated later and
+      read back onto him, the census and the centuriate assembly built on
+      it outlasted the monarchy credited with inventing them by centuries,
+      continuing as ordinary republican machinery long after nobody alive
+      remembered a king.
+    source: livy-roberts
+    contested: true
   - year: -509
     type: revolt
     name: "Tarquin the Proud expelled"
