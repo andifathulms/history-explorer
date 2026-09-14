@@ -14,21 +14,19 @@ span:
   # nephew Styrbjörn at the Battle of Fyrisvellen, near Uppsala, is
   # dated by the sources only approximately, to around 983.
   start: { min: 983, max: 983, source: stefansson-denmark-1916 }
-  # This record now runs to 1523, skipping three centuries between
-  # Birger Jarl's regency and Gustav Vasa's own rebellion that this
-  # record has not yet reached, to Gustav's election as king at
-  # Strängnäs - the last event it has sourced chapters for - not to the
-  # kingdom's actual institutional end, since Sweden has none: it
-  # continues as a sovereign state to the present day. `ended` below is
-  # null for that reason as well as for the coverage reason.
-  end: { min: 1523, max: 1523, source: stefansson-denmark-1916 }
+  # This record now runs to Gustav Vasa's death in 1560 - the last
+  # event it has sourced chapters for - not to the kingdom's actual
+  # institutional end, since Sweden has none: it continues as a
+  # sovereign state to the present day. `ended` below is null for that
+  # reason as well as for the coverage reason.
+  end: { min: 1560, max: 1560, source: stefansson-denmark-1916 }
 
 identity: >-
   A Norse kingdom whose Viking-age fleets founded Russia's own first
-  ruling dynasty, ruled in the thirteenth century by the statesman
-  Birger Jarl, and re-founded in 1523 when the Estates elected Gustav
-  Vasa king over his own objections, ending Danish overlordship for
-  good.
+  ruling dynasty, ruled by the statesman Birger Jarl, and re-founded
+  in 1523 when Gustav Vasa broke free of Danish rule, made the crown
+  hereditary in his own family, and completed Sweden's Reformation
+  before his death in 1560.
 
 capitals:
   - { name: Uppsala, source: stefansson-denmark-1916 }
@@ -40,13 +38,14 @@ rulers:
   # "about 993" - for a king dated more precisely nowhere in this
   # source.
   founder: { name: "Eric the Victorious (Eric Segersäll)", reign: [983, 993], source: stefansson-denmark-1916 }
-  # Provisional: Olof ruled Norway jointly with Denmark from 1000 to
-  # 1015, a wider reach than his father Eric ever held, and was the
-  # first Swedish king to accept Christianity. Birger Jarl's own
-  # regency and Finnish conquests are real but narrower in scope, so
-  # this field stands unchanged with four reigns now in view - though
-  # Gustav Vasa's still-unwritten reign (1523-60) may yet outweigh it.
-  peak: { name: "Olof Skötkonung", source: stefansson-denmark-1916 }
+  # Revised: Olof's joint rule over Norway was real but contested and
+  # lost again within fifteen years. Gustav Vasa's own reign ended
+  # Danish overlordship permanently, made the Swedish crown hereditary
+  # for the first time in the kingdom's history, and rebuilt the
+  # nation's institutions from the ground up - a transformation whose
+  # effects long outlasted him, unlike any earlier king's own reach in
+  # this record.
+  peak: { name: Gustav Vasa, reign: [1523, 1560], source: stefansson-denmark-1916 }
   last: null
 
 scripts_and_languages:
@@ -56,17 +55,17 @@ scripts_and_languages:
 institutions:
   military_basis: null
   revenue_basis: null
-  # Birger Jarl's own son Valdemar was elected king in 1250 on the
-  # strength of his mother's royal blood rather than his father's, and
-  # Gustav Vasa's own election at Strängnäs in 1523 turned on the
-  # Estates' judgment of merit over any hereditary claim at all -
-  # election, not simple primogeniture, decided the Swedish throne
-  # throughout the period this record has covered so far.
-  succession_rule: { values: [election], source: stefansson-denmark-1916 }
-  # Descent from Eric and, through him, the legendary Yngling line was
-  # the only claim to legitimacy attested for this record's earliest
-  # kings; by Gustav Vasa's own election, the Estates' judgment of
-  # merit had become a legitimating claim in its own right.
+  # Election by assembly - Birger Jarl's own son in 1250, Gustav Vasa
+  # himself in 1523 - was the rule for most of this record's coverage,
+  # but the grateful Estates that met at Västerås in 1544 declared the
+  # crown hereditary in Gustav's own family and male descendants,
+  # ending that tradition for good.
+  succession_rule: { values: [primogeniture], source: stefansson-denmark-1916 }
+  # Descent and election both mattered across this record's history -
+  # the Yngling genealogy for the earliest kings, the Estates' judgment
+  # of merit for Gustav Vasa's own 1523 election - but from 1544 the
+  # Vasa family's own hereditary right, granted by that same Estates,
+  # became the crown's legitimating claim in its own right.
   legitimation: { values: [descent, election], source: stefansson-denmark-1916 }
 
 preceded_by_external: []
@@ -135,6 +134,32 @@ turning_points:
       Eriksson as king over his own genuine objections that an older
       Council noble would serve better - ending, in the same act,
       Danish overlordship and opening the reign of a new royal line.
+    source: stefansson-denmark-1916
+    contested: false
+  - year: 1531
+    type: revolt
+    name: "The third Dalecarlian rebellion"
+    changed: >-
+      The Dalecarlians who had once made Gustav Vasa their king rose
+      against him for a third time, first over a church-bell
+      levy to pay Sweden's war debt and, before that, over his own
+      sympathy for Lutheran reform - and were made to kneel through a
+      day-long royal harangue threatening to lay their country waste if
+      they defied him again, a final breach between the king and the
+      power base that had made him.
+    source: stefansson-denmark-1916
+    contested: false
+  - year: 1544
+    type: reform
+    name: "The Diet of Västerås"
+    changed: >-
+      A grateful Estates, meeting at Västerås once the last peasant
+      revolt was crushed, declared the Swedish crown hereditary in
+      Gustav Vasa's own family and completed the kingdom's Lutheran
+      Reformation, replacing chapter-elected bishops with crown-
+      appointed superintendents - ending centuries of elective kingship
+      and putting more than twelve thousand church estates under royal
+      control by the end of the reign.
     source: stefansson-denmark-1916
     contested: false
 
