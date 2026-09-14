@@ -813,6 +813,13 @@ export interface SourceUse {
   claims: number
   /** Polities whose every citation resolves to this one work. */
   soleSourceFor: PolityId[]
+  /**
+   * What cites it besides a polity record: succession edges, the reference
+   * set, the era denominators. The Sources page used to say "cited by edges or
+   * the reference set only" for every such work, which read the same for one
+   * behind a single edge and one behind all six world denominators.
+   */
+  contexts: string[]
 }
 
 /**
@@ -826,13 +833,18 @@ export interface SourceUse {
  */
 export function sourceUsage(): SourceUse[] {
   const c = loadCorpus()
-  const byId = new Map<string, { polities: Set<string>; chapters: number; claims: number }>()
-  const bump = (id: string | null | undefined, polity: string | null) => {
+  const byId = new Map<
+    string,
+    { polities: Set<string>; chapters: number; claims: number; contexts: Set<string> }
+  >()
+  const bump = (id: string | null | undefined, polity: string | null, context?: string) => {
     if (!id) return
-    if (!byId.has(id)) byId.set(id, { polities: new Set(), chapters: 0, claims: 0 })
+    if (!byId.has(id))
+      byId.set(id, { polities: new Set(), chapters: 0, claims: 0, contexts: new Set() })
     const e = byId.get(id)!
     e.claims += 1
     if (polity) e.polities.add(polity)
+    if (context) e.contexts.add(context)
   }
 
   // Per-polity citations, counted the same way the verification worklist does.
@@ -872,18 +884,18 @@ export function sourceUsage(): SourceUse[] {
       if (e) e.chapters += 1
     }
   }
-  for (const e of c.edges) bump(e.source, null)
+  for (const e of c.edges) bump(e.source, null, 'succession edges')
   for (const r of c.backdrop) {
-    bump(r.span?.source, null)
-    bump(r.reach_km2?.source, null)
-    bump(r.peak_population?.source, null)
+    bump(r.span?.source, null, 'the reference set')
+    bump(r.reach_km2?.source, null, 'the reference set')
+    bump(r.peak_population?.source, null, 'the reference set')
   }
   // Era-normalised mode's denominators. Missing these once reported McEvedy &
   // Jones as cited by nothing, when it is the source for all six of them — a
   // page about provenance getting provenance wrong.
   for (const d of c.denominators) {
-    bump(d.world_population?.source, null)
-    bump(d.world_land_under_state_control_km2?.source, null)
+    bump(d.world_population?.source, null, 'the era-normalised denominators')
+    bump(d.world_land_under_state_control_km2?.source, null, 'the era-normalised denominators')
   }
 
   const sole = new Map<string, string[]>()
@@ -903,6 +915,7 @@ export function sourceUsage(): SourceUse[] {
         chapters: e?.chapters ?? 0,
         claims: e?.claims ?? 0,
         soleSourceFor: (sole.get(source.id) ?? []).sort(),
+        contexts: [...(e?.contexts ?? [])].sort(),
       }
     })
     .sort((a, b) => b.claims - a.claims || a.source.id.localeCompare(b.source.id))

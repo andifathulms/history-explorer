@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { sourceUsage, hasPage, displayName } from '@/lib/content'
+import { sourceUsage, hasPage, displayName, getPolity } from '@/lib/content'
+import { formatSpan } from '@/lib/years'
 import { Page, Shell, PageHead, StatRow } from '@/components/Shell'
 import { Cite } from '@/components/Cite'
 import { SourceFilter } from '@/components/SourceFilter'
@@ -12,24 +13,35 @@ export const metadata: Metadata = {
     'Every work this site cites, what rests on it, and where the corpus leans hardest on a single book.',
 }
 
-function PolityList({ ids }: { ids: string[] }) {
+function PolityList({ ids, spans = false }: { ids: string[]; spans?: boolean }) {
   return (
     <>
-      {ids.map((id, i) => (
-        <span key={id}>
-          {i > 0 ? ', ' : ''}
-          {hasPage(id) ? (
-            <Link
-              href={`/polity/${id}/`}
-              className="link-underline text-kashi hover:text-firuze-ink"
-            >
-              {displayName(id)}
-            </Link>
-          ) : (
-            displayName(id)
-          )}
-        </span>
-      ))}
+      {ids.map((id, i) => {
+        // The sole-source list is the page's argument, so it carries the span:
+        // a book holding a hundred-year emirate and a book holding a thousand
+        // years of Byzantium are not the same weight of reliance.
+        const p = spans ? getPolity(id) : undefined
+        return (
+          <span key={id}>
+            {i > 0 ? ', ' : ''}
+            {hasPage(id) ? (
+              <Link
+                href={`/polity/${id}/`}
+                className="link-underline text-kashi hover:text-firuze-ink"
+              >
+                {displayName(id)}
+              </Link>
+            ) : (
+              displayName(id)
+            )}
+            {p ? (
+              <span className="ms-1.5 font-mono text-micro tabular-nums text-debu-ink">
+                {formatSpan(p.span.start.min, p.span.end.max)}
+              </span>
+            ) : null}
+          </span>
+        )
+      })}
     </>
   )
 }
@@ -133,7 +145,7 @@ export default function Sources() {
               {concentrated.map((u) => (
                 <li key={u.source.id} className="border-t border-kashi/15 pt-3">
                   <p className="text-body">
-                    <PolityList ids={u.soleSourceFor} />
+                    <PolityList ids={u.soleSourceFor} spans />
                     {' — '}
                     <Cite source={u.source} />
                   </p>
@@ -212,8 +224,15 @@ export default function Sources() {
                     <PolityList ids={u.polities} />
                   </p>
                 ) : (
+                  /* Name it, the way every row above names its polities. This
+                     read identically for a work behind a single edge and one
+                     behind all six world denominators. */
                   <p className="mt-2 text-[15px] text-debu-ink">
-                    Cited by edges or the reference set only.
+                    Cited by{' '}
+                    {u.contexts.length
+                      ? u.contexts.join(' and ')
+                      : 'no polity record directly'}
+                    , not by a polity record.
                   </p>
                 )}
               </li>
