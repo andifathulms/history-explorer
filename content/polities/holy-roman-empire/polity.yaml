@@ -195,6 +195,22 @@ turning_points:
       institution does.
     source: wilson-2016
     contested: true
+  - year: 1806
+    type: reform
+    name: "Francis II lays down the crown"
+    changed: >-
+      Seven months after Austerlitz, sixteen princes seceded to form the
+      Confederation of the Rhine under French protection, and on 1 August
+      the French envoy at Regensburg informed the Diet that Napoleon no
+      longer recognised the empire's existence. Five days later Francis
+      II, who had already given himself a hereditary Austrian imperial
+      title in 1804, laid down the crown and released the estates from
+      their obligations. Nobody conquered it: the members stopped wanting
+      it and the head decided abolition was cheaper than losing it — an
+      ending by document, consistent with a history made by written
+      settlements and not a single battle.
+    source: wilson-2016
+    contested: false
 
 measures:
   # Taagepera's figure, dated to 1050 — before the first turning point on this
