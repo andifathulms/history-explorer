@@ -119,7 +119,7 @@ turning_points:
     source: hydatius-tamimi
     contested: false
   - year: 585
-    type: conquest
+    type: battle
     name: "A conquest without a chronicle of its own"
     changed: >-
       Leovigild finished in 585 what Theodoric's campaign had only
