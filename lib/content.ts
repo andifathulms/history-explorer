@@ -28,6 +28,7 @@ import {
   REVENUE_BASES,
   SUCCESSION_RULES,
   LEGITIMATIONS,
+  SOURCE_KINDS,
   type Chapter,
   type ExternalNeighbour,
   type Edge,
@@ -82,6 +83,21 @@ export function loadCorpus(): Corpus {
   const sources = new Map(sourceList.map((s) => [s.id, s]))
   if (sources.size !== sourceList.length) {
     throw new ContentError('sources.yaml', 'duplicate source id')
+  }
+
+  // `kind` is a closed vocabulary like every other one here, and it is
+  // load-bearing: the Sources page decides whether an uncited work is a
+  // leftover or a map dataset by comparing this string. Left open it had
+  // drifted to fourteen values with five synonyms among them. See
+  // SOURCE_KINDS.
+  const kinds = new Set<string>(SOURCE_KINDS)
+  for (const s of sourceList) {
+    if (!kinds.has(s.kind)) {
+      throw new ContentError(
+        `sources.yaml/${s.id}`,
+        `kind "${s.kind}" is not in the vocabulary; one of ${SOURCE_KINDS.join(', ')}`,
+      )
+    }
   }
 
   /** Hard rule 1, enforced. Every citation resolves to a real listed work. */

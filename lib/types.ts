@@ -694,9 +694,40 @@ export interface Chapter {
   body: string
 }
 
+/**
+ * What kind of thing a source is.
+ *
+ * Closed, like every other vocabulary here, and closed late. It was a bare
+ * `string` and it drifted: 551 records had grown fourteen values, several of
+ * them synonyms — monograph beside book, dissertation beside thesis, reference
+ * article beside reference, "primary source (translation)" beside primary,
+ * edited volume beside book.
+ *
+ * Nothing renders `kind`, so none of that was visible, and that is exactly why
+ * it mattered. The Sources page routes on it: an uncited work goes to "listed
+ * but uncited" — a section whose own copy calls such an entry a leftover —
+ * unless its kind is exactly `dataset`, in which case it is correctly
+ * explained as something the map layer consumes through basemap-links.yaml. A
+ * capital D or a stray space would have turned a string mismatch into a public
+ * accusation, on the page whose whole subject is getting provenance right.
+ */
+export const SOURCE_KINDS = [
+  'book',
+  'chapter',
+  'article',
+  'primary',
+  'encyclopaedia',
+  'reference',
+  'report',
+  'thesis',
+  /** Consumed by the map layer, never a source for a measure — hard rule 5. */
+  'dataset',
+] as const
+export type SourceKind = (typeof SOURCE_KINDS)[number]
+
 export interface Source {
   id: SourceId
-  kind: string
+  kind: SourceKind
   author?: string
   title: string
   container?: string

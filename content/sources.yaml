@@ -33,7 +33,7 @@ sources:
     year: 1968
 
   - id: kennedy-2004
-    kind: monograph
+    kind: book
     author: Hugh Kennedy
     title: "The Prophet and the Age of the Caliphates: The Islamic Near East from the Sixth to the Eleventh Century"
     edition: 2nd
@@ -42,21 +42,21 @@ sources:
 
   # ---- Monographs, per dynasty ----
   - id: bosworth-1963
-    kind: monograph
+    kind: book
     author: C. E. Bosworth
     title: "The Ghaznavids: Their Empire in Afghanistan and Eastern Iran, 994-1040"
     publisher: Edinburgh University Press
     year: 1963
 
   - id: bosworth-1977
-    kind: monograph
+    kind: book
     author: C. E. Bosworth
     title: "The Later Ghaznavids: Splendour and Decay. The Dynasty in Afghanistan and Northern India, 1040-1186"
     publisher: Edinburgh University Press
     year: 1977
 
   - id: bosworth-1994
-    kind: monograph
+    kind: book
     author: C. E. Bosworth
     title: "The History of the Saffarids of Sistan and the Maliks of Nimruz (247/861 to 949/1542-3)"
     publisher: Mazda Publishers
@@ -79,7 +79,7 @@ sources:
     year: 1968
 
   - id: jackson-1999
-    kind: monograph
+    kind: book
     author: Peter Jackson
     title: "The Delhi Sultanate: A Political and Military History"
     publisher: Cambridge University Press
@@ -748,7 +748,7 @@ sources:
       otherwise have had to write in the vocabulary of decline by default.
 
   - id: reid-1969
-    kind: monograph
+    kind: book
     author: Anthony Reid
     title: "The Contest for North Sumatra: Atjeh, the Netherlands and Britain, 1858-1898"
     publisher: Oxford University Press / University of Malaya Press
@@ -783,7 +783,7 @@ sources:
       Turkish suzerainty."
 
   - id: reid-2006
-    kind: edited volume
+    kind: book
     author: Anthony Reid (ed.)
     title: "Verandah of Violence: The Background to the Aceh Problem"
     publisher: Singapore University Press / NUS Press
@@ -4189,7 +4189,7 @@ sources:
       family displaced. Out of copyright.
 
   - id: trevelyan-1923
-    kind: monograph
+    kind: book
     author: G. M. Trevelyan
     title: Manin and the Venetian Revolution of 1848
     publisher: Longmans, Green
@@ -4203,7 +4203,7 @@ sources:
       Out of copyright.
 
   - id: bryce-1889
-    kind: monograph
+    kind: book
     author: James Bryce
     title: The Holy Roman Empire
     publisher: Macmillan
@@ -4218,7 +4218,7 @@ sources:
       piece of the story rather than an account of it. Out of copyright.
 
   - id: curtis-1912
-    kind: monograph
+    kind: book
     author: Edmund Curtis
     title: "Roger of Sicily and the Normans in Lower Italy, 1016-1154"
     publisher: G. P. Putnam's Sons
@@ -4231,7 +4231,7 @@ sources:
       kingdom's last forty years. Out of copyright.
 
   - id: bent-1881
-    kind: monograph
+    kind: book
     author: J. Theodore Bent
     title: "Genoa: How the Republic Rose and Fell"
     publisher: C. Kegan Paul
@@ -4342,7 +4342,7 @@ sources:
       of the Mongol conquest of the sultanate. Out of copyright.
 
   - id: ramsay-1890
-    kind: monograph
+    kind: book
     author: W. M. Ramsay
     title: The Historical Geography of Asia Minor
     publisher: John Murray, for the Royal Geographical Society
@@ -6413,7 +6413,7 @@ sources:
       Rashtrakuta king's army, given under the Arabic title Balhara.
 
   - id: trameri-2020
-    kind: dissertation
+    kind: thesis
     author: Andrea Trameri
     title: "The Land of Kizzuwatna: History of Cilicia in the Second Millennium BCE until the Hittite Conquest (ca. 2000-1350)"
     container: PhD dissertation, Institute for the Study of the Ancient World, New York University
@@ -6442,7 +6442,7 @@ sources:
       of copyright.
 
   - id: hydatius-tamimi
-    kind: primary source (translation)
+    kind: primary
     author: Hydatius of Aquae Flaviae
     title: "The Chronicle of Hydatius: Translation and Overview"
     container: "Translated by Aymenn Jawad Al-Tamimi, based on R. W. Burgess's critical edition (The Chronicle of Hydatius and the Consularia Constantinopolitana, Oxford, 1993)"
@@ -6500,7 +6500,7 @@ sources:
       diverge. Out of copyright.
 
   - id: kmaps-sakya-polity
-    kind: reference article
+    kind: reference
     author: "Tibetan and Himalayan Library, University of Virginia"
     title: "Sakya-Mongol Yuan State (Places, Kingdoms, Empires feature set)"
     container: "kmaps.virginia.edu"
