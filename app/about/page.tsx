@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { loadCorpus } from '@/lib/content'
+import { loadCorpus, getPolity } from '@/lib/content'
+import { buildField, rate, DEFAULT_WEIGHTS } from '@/lib/ratings'
 import { Page, Shell, PageHead } from '@/components/Shell'
 
 export const metadata: Metadata = {
@@ -9,7 +10,27 @@ export const metadata: Metadata = {
 }
 
 export default function About() {
-  const { sources, narrative, backdrop, edges } = loadCorpus()
+  const corpus = loadCorpus()
+  const { sources, narrative, backdrop, edges } = corpus
+
+  /**
+   * The Ghurid example, counted rather than asserted.
+   *
+   * This paragraph said the Ghurids "have three empty axes" while their own
+   * page said "computed from 2 of 4 axes" — reach and population are null,
+   * longevity and influence are not. It is the same failure as the timeline's
+   * "five acts" against a six-phase arc: a number written into prose once and
+   * never taught to check itself. It reads the rating now, so the day a
+   * Ghurid extent figure is entered the sentence corrects itself.
+   */
+  const ghurid = getPolity('ghurid')
+  const ghuridEmpty = ghurid
+    ? (() => {
+        const field = buildField(corpus.narrative, corpus.backdrop, 'absolute', corpus.denominators)
+        const r = rate(ghurid, field, DEFAULT_WEIGHTS, 'absolute', corpus.denominators)
+        return r.axesTotal - r.axesAvailable
+      })()
+    : 0
 
   return (
     <Page ground="paper" current="About">
@@ -37,9 +58,10 @@ export default function About() {
           </p>
           <p className="mt-4 text-body">
             But most of history is not a thread. Rome, Srivijaya, Aksum and the Inca have
-            no succession relationship to the Samanids and never will, and a site
-            organised around continuity would have to either exclude them or invent a
-            connection. So continuity became a section rather than the spine. A polity
+            no succession relationship to the Samanids and never will. All four are here,
+            with full pages and full rankings, and a site organised around continuity
+            would have had to either leave them out or invent a connection. So continuity
+            became a section rather than the spine. A polity
             that seceded from nothing and was inherited by nobody gets a full page and a
             full ranking here, and simply has no thread to stand in — which the page says
             in one sentence, as a fact about what has been read rather than a hole in the
@@ -89,8 +111,9 @@ export default function About() {
             That last rule matters more than it looks. A polity with two documented axes
             must never appear to score lower than one with four, so every total states
             how many axes it was computed from and is renormalised across those only. The
-            Ghurids produced the Delhi Sultanate and have three empty axes; the empty bars
-            are a fact about what scholarship has bothered to quantify, and they are
+            Ghurids produced the Delhi Sultanate and have{' '}
+            {ghuridEmpty === 1 ? 'one empty axis' : `${ghuridEmpty} empty axes`}; the empty
+            bars are a fact about what scholarship has bothered to quantify, and they are
             content rather than an apology.
           </p>
           <p className="mt-4 text-body">
