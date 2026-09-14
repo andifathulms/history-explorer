@@ -126,6 +126,20 @@ turning_points:
       inspectors stops being possible here.
     source: wickham-2009
     contested: false
+  - year: 888
+    type: fragmentation
+    name: "888"
+    changed: >-
+      Charles the Fat held the reunited empire for three years, failed to
+      relieve a Viking siege of Paris, and was deposed by an assembly of
+      magnates in November 887; he died two months later, and nobody
+      replaced him. Five or six kingdoms emerged in a year, only one held
+      by a Carolingian in the male line, and no external agent can be
+      named for it: the machinery that took the empire apart — offices
+      grown hereditary, territory divided by inheritance — was the same
+      machinery that had been running it all along.
+    source: mckitterick-2008
+    contested: false
 
 measures:
   # Was 1,100,000 at 800. The "Frankish" series has no 800 row: 768 -> .75
