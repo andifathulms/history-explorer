@@ -1,0 +1,163 @@
+id: france
+region: frankish-world
+
+name:
+  latin: Kingdom of France
+  script: null
+  script_lang: null
+
+span:
+  start: { min: 987, max: 987, source: kitchin-1899 }
+  # This record currently runs only to the English expulsion at
+  # Castillon in 1453 - the last event it has sourced chapters for -
+  # not to the kingdom's actual institutional end at the Revolution.
+  # `ended` below is null for that reason, not because the sources
+  # leave the kingdom's later history unclear.
+  end: { min: 1453, max: 1453, source: kitchin-1899 }
+
+identity: >-
+  A duke of a small demesne around Paris, elected king over greater
+  princes in 987, whose line survived a near-total English conquest
+  during the Hundred Years' War to recover the kingdom whole by 1453
+  under a shepherd girl's banner.
+
+capitals:
+  - { name: Paris, from: 987, source: kitchin-1899 }
+
+core_region: The Île-de-France around Paris, expanding outward across the kingdom's vassal duchies and counties
+
+rulers:
+  founder: { name: Hugh Capet, reign: [987, 996], source: kitchin-1899 }
+  # Philip IV's reign saw the crown break the Templars, force a French
+  # pope to Avignon and eclipse the papacy's own independence - the
+  # widest reach of royal authority this record's current coverage
+  # shows any Capetian king command.
+  peak: { name: "Philip IV \"the Fair\"", reign: [1285, 1314], source: kitchin-1899 }
+  # No final ruler is asserted: this record's own coverage stops in
+  # 1453, centuries short of the kingdom's real end in 1792, so there
+  # is no "last" king of this record to name yet.
+  last: null
+
+scripts_and_languages:
+  administration: [Latin, French]
+  writing_system: Latin alphabet
+
+institutions:
+  military_basis: { values: [land-grant], source: kitchin-1899 }
+  # No sourced account of royal revenue collection has been read yet.
+  revenue_basis: null
+  # Unbroken father-to-son succession from Hugh Capet's own election in
+  # 987 through Philip IV's sons, a run later chroniclers treated as
+  # nearly miraculous for its regularity.
+  succession_rule: { values: [primogeniture], source: kitchin-1899 }
+  # Coronation and anointing by the Archbishop at Reims, attested for
+  # Hugh Capet and again for Charles VII in 1429.
+  legitimation: { values: [descent, divine-sanction], source: kitchin-1899 }
+
+preceded_by_external: []
+
+succeeded_by_external: []
+
+# France did not cease to exist in 1453 - the kingdom continued for
+# more than three centuries afterward. This record's own span ends
+# where its sourced coverage currently stops, not because a conquest,
+# dynastic replacement or fragmentation actually ended the kingdom
+# there.
+ended: null
+
+turning_points:
+  - year: 987
+    type: succession-crisis
+    name: "Hugh Capet elected king"
+    changed: >-
+      With the last Carolingian line in the west extinct in the male
+      line, an assembly of Frankish nobles, swayed by Archbishop
+      Adalberon and by Gerbert of Aurillac, passed over the Carolingian
+      heir and raised Hugh, a Neustrian baron whose own power rested
+      on the duchy of the Franks, to the throne instead - founding a
+      royal line from a lordship no larger than several of the
+      territories its own new king was meant to rule.
+    source: kitchin-1899
+    contested: false
+  - year: 1214
+    type: battle
+    name: "Battle of Bouvines"
+    changed: >-
+      A rearguard action forced on Philip Augustus while marching near
+      Tournai turned into a pitched field battle that shattered an
+      allied army raised against him by the German emperor, the
+      Flemish count and the English crown together. Its outcome
+      unseated the emperor within months and left the English king so
+      weakened before his own nobles that it fed directly into the
+      concessions he made them the following year.
+    source: kitchin-1899
+    contested: false
+  - year: 1307
+    type: reform
+    name: "Arrest of the Templars"
+    changed: >-
+      A single kingdom-wide sweep put every Templar in France into
+      royal custody at once, and years of interrogation under torture,
+      culminating in Jacques de Molay's execution once he recanted his
+      own forced confession, broke apart an order that had answered to
+      no crown in Europe. The affair also pushed a reluctant pope out
+      of Rome for good, leaving the papacy settled at Avignon under
+      French influence for decades afterward.
+    source: kitchin-1899
+    contested: false
+  - year: 1415
+    type: battle
+    name: "Battle of Azincourt"
+    changed: >-
+      Henry V's outnumbered English army destroyed a French host bogged
+      down in mud before his archers' palisades, killing the Constable
+      of France and three royal dukes and taking others prisoner -
+      a defeat so total it left the divided French court unable to
+      resist the settlement Henry would dictate five years later.
+    source: kitchin-1899
+    contested: false
+  - year: 1420
+    type: treaty
+    name: "Treaty of Troyes"
+    changed: >-
+      A murder at a supposed peace conference pushed the Burgundian
+      duchy fully into the English camp, and the settlement that
+      followed cut the Dauphin out of the succession altogether,
+      binding the English and French crowns together through a royal
+      marriage and handing Henry V the regency and reversion of a
+      throne its sitting, incapacitated king could no longer defend.
+    source: kitchin-1899
+    contested: false
+  - year: 1429
+    type: siege
+    name: "Jeanne Darc relieves Orléans"
+    changed: >-
+      An unlikely young commander, claiming divine instruction, gained
+      the disinherited Dauphin's trust and freed a starving city whose
+      fall would have opened the whole of his remaining territory to
+      conquest. The victory carried enough momentum that within weeks
+      the same Dauphin was marching under her escort to be formally
+      anointed king in territory Troyes had promised to an English
+      rival instead.
+    source: kitchin-1899
+    contested: false
+  - year: 1453
+    type: battle
+    name: "Battle of Castillon"
+    changed: >-
+      England's last field commander in Guienne threw an unsupported
+      relief force at entrenched French guns and was cut down together
+      with two sons who stood over his body, closing out a war that
+      had run, on and off, for over a century. It left England holding
+      nothing more on the continent than the fortress town of Calais.
+    source: kitchin-1899
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
