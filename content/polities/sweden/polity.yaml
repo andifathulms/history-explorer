@@ -1,0 +1,117 @@
+id: sweden
+region: scandinavia
+
+name:
+  latin: Kingdom of Sweden
+  script: Sverige
+  script_lang: sv
+
+span:
+  # Snorri Sturluson traces the early Swedish kings back to a legendary
+  # Yngling line descended from the god Frey's own son - foundation
+  # legend rather than history. The first Swedish king this record
+  # treats as historical is Eric the Victorious, whose defeat of his own
+  # nephew Styrbjörn at the Battle of Fyrisvellen, near Uppsala, is
+  # dated by the sources only approximately, to around 983.
+  start: { min: 983, max: 983, source: stefansson-denmark-1916 }
+  # This record currently runs only to Olof Skötkonung's confrontation
+  # with the Thing over his Norwegian ambitions - the last event it has
+  # sourced chapters for - not to the kingdom's actual institutional
+  # end, since Sweden has none: it continues as a sovereign state to
+  # the present day. `ended` below is null for that reason as well as
+  # for the coverage reason.
+  end: { min: 1008, max: 1008, source: stefansson-denmark-1916 }
+
+identity: >-
+  A Norse kingdom whose Viking-age fleets founded Russia's own first
+  ruling dynasty, and whose king Olof Skötkonung became the first
+  Swede baptized a Christian around 1008, only to be publicly
+  threatened with deposition by his own peasant assembly for coveting
+  Norway.
+
+capitals:
+  - { name: Uppsala, source: stefansson-denmark-1916 }
+
+core_region: The Mälaren valley and Uppland, centred on Uppsala
+
+rulers:
+  # Reign dates are the sources' own approximations - "about 983" to
+  # "about 993" - for a king dated more precisely nowhere in this
+  # source.
+  founder: { name: "Eric the Victorious (Eric Segersäll)", reign: [983, 993], source: stefansson-denmark-1916 }
+  # Provisional: Olof ruled Norway jointly with Denmark from 1000 to
+  # 1015, a wider reach than his father Eric ever held, and was the
+  # first Swedish king to accept Christianity - but only two reigns are
+  # in view so far, so this field is likely to be revisited.
+  peak: { name: "Olof Skötkonung", source: stefansson-denmark-1916 }
+  last: null
+
+scripts_and_languages:
+  administration: [Old Norse]
+  writing_system: Younger Futhark runes
+
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  # Descent from Eric and, through him, the legendary Yngling line is
+  # the only claim to legitimacy attested for this record's kings so
+  # far; the Thing's own power to depose a king who defied it, per
+  # Thorgny's speech, was a check on royal authority rather than a
+  # source of it.
+  legitimation: { values: [descent], source: stefansson-denmark-1916 }
+
+preceded_by_external: []
+
+succeeded_by_external: []
+
+# Sweden did not end in 1008 - it continues as a sovereign state to the
+# present day. This record's own span ends where its sourced coverage
+# currently stops, not because a conquest, dynastic replacement or
+# fragmentation actually ended the kingdom there.
+ended: null
+
+turning_points:
+  - year: 983
+    type: battle
+    name: "The Battle of Fyrisvellen"
+    changed: >-
+      Eric the Victorious broke an invading force of mercenary raiders
+      from Jomsborg and their Danish allies near Uppsala, cutting down
+      his own sister's son, who had led them against him - a triumph
+      tradition attributes to a pledge that Eric would offer his own
+      life to Odin within a decade, a bargain he is said to have
+      honoured when he died around 993.
+    source: stefansson-denmark-1916
+    contested: true
+  - year: 1000
+    type: battle
+    name: "The Battle of Svolder"
+    changed: >-
+      Olof Skötkonung, allied with his own new stepfather-by-marriage
+      Sweyn Forkbeard of Denmark, helped defeat and kill Norway's own
+      king in the naval ambush off Svolder, and the two victors split
+      Norway's overlordship between them for the next fifteen years,
+      until a Norwegian claimant reclaimed it outright.
+    source: stefansson-denmark-1916
+    contested: false
+  - year: 1008
+    type: conversion
+    name: "Olof's baptism at Husaby"
+    changed: >-
+      An English missionary named Sigfrid baptized Olof Skötkonung at a
+      royal estate in West Götaland - making him the first Swedish king to
+      accept Christianity, even though the old religion centred on
+      Uppsala's own temple would take generations longer to lose its
+      hold over most of his subjects.
+    source: stefansson-denmark-1916
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
