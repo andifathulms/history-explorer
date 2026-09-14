@@ -4383,3 +4383,17 @@ edges:
       under the new style.
     source: bagwell-1885
     contested: false
+
+  # Iberia's first internal edge.
+  - from: asturias
+    to: leon-castile
+    type: partitioned from
+    year: 910
+    note: >-
+      Alfonso III's forced abdication split his kingdom three ways
+      among his sons; the share centred on the old Roman base at León
+      inherited Asturias's own claim to primacy and, after Castile's
+      permanent union with it in 1230, carried the reconquest to its
+      completion at Granada.
+    source: chapman-1918
+    contested: false

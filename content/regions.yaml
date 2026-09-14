@@ -803,4 +803,7 @@ regions:
       reconquest was finished, to launch the first colonial empires with a
       global reach.
     group: mediterranean
-    thread: false
+    # `thread: true` since a real edge - Asturias to León-Castile,
+    # partitioned from, 910 - now joins two of the region's own
+    # polities.
+    thread: true

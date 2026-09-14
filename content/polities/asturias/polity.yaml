@@ -72,7 +72,7 @@ succeeded_by_external: []
 
 ended:
   type: fragmentation
-  by: []
+  by: [leon-castile]
   year: 910
   source: chapman-1918
 

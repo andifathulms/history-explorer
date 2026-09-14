@@ -1,0 +1,176 @@
+id: leon-castile
+region: iberia
+
+name:
+  latin: Kingdom of León and Castile
+  script: null
+  script_lang: null
+
+span:
+  start: { min: 910, max: 910, source: chapman-1918 }
+  # Chapman's own history brackets exactly this span - "Development
+  # Toward National Unity, 910-1492" - as the process this record
+  # traces: not because the kingdom itself ceased to exist in 1492, but
+  # because the Reconquista it had spent nearly six centuries pursuing
+  # was finished that January. See the note on `ended` below.
+  end: { min: 1492, max: 1492, source: chapman-1918 }
+
+identity: >-
+  The kingdom Asturias split into in 910, reunited and divided among
+  royal heirs more than once before Castile, its own frontier county,
+  grew to dominate it permanently in 1230 - conquering Córdoba and
+  Seville within two decades, and completing the reconquest of the
+  peninsula at Granada in 1492.
+
+capitals:
+  - { name: León, source: chapman-1918 }
+  - { name: Burgos, source: chapman-1918 }
+
+core_region: Northwestern and central Spain, extending south to Andalusia by the thirteenth century
+
+rulers:
+  # Chapman's own account does not name which of Alfonso III's three
+  # sons received León in the 910 division, only that one of them did.
+  founder: null
+  # Ferdinand III took Córdoba, Murcia and Seville and permanently
+  # united León with Castile in 1230 - the widest reach any king of
+  # this record's own line achieved.
+  peak: { name: "Ferdinand III (San Fernando)", reign: [1217, 1252], source: chapman-1918 }
+  last: { name: Isabella I, reign: [1474, 1504], source: chapman-1918 }
+
+scripts_and_languages:
+  administration: [Latin, Castilian]
+  writing_system: Latin alphabet
+
+institutions:
+  military_basis: { values: [land-grant], source: chapman-1918 }
+  # Ferdinand I "subject[ed] many states to the payment of tribute,"
+  # and tribute from Muslim taifa kingdoms was a major and recurring
+  # source of Christian royal income throughout this period.
+  revenue_basis: { values: [tribute, land-tax], source: chapman-1918 }
+  # Ferdinand I divided his own realm among three sons at his death in
+  # 1065, precisely repeating the pattern that had already split
+  # Asturias in 910 - the dominant attested practice even though later
+  # successions, including two queens regnant, did not always follow
+  # it.
+  succession_rule: { values: [appanage, primogeniture], source: chapman-1918 }
+  legitimation: { values: [descent, divine-sanction], source: chapman-1918 }
+
+preceded_by_external: []
+
+succeeded_by_external: []
+
+# Castile did not cease to exist in 1492 - it continued as a legally
+# distinct kingdom, under the same monarchs as Aragon from 1479
+# onward, for centuries afterward. This record's own span ends at the
+# completion of the Reconquista because that is where its sourced
+# coverage currently stops, not because a conquest, dynastic
+# replacement or fragmentation actually ended the kingdom there.
+# `ended` is left null for that reason.
+ended: null
+
+turning_points:
+  - year: 910
+    type: succession-crisis
+    name: "Asturias divides; León founded"
+    changed: >-
+      Alfonso III's forced abdication split his kingdom three ways
+      among his sons. The share built around the old Roman legionary
+      base at León inherited whatever precedence Asturias itself had
+      once held among the peninsula's Christian kingdoms.
+    source: chapman-1918
+    contested: false
+  - year: 1035
+    type: succession-crisis
+    name: "Castile becomes a kingdom in its own right"
+    changed: >-
+      A testamentary grant from the Navarrese king Sancho the Great
+      raised the frontier county of Castile - named for the many
+      castles built along its own exposed border with Muslim territory
+      - to the rank of a kingdom under Ferdinand I, ending its old
+      dependency on León.
+    source: chapman-1918
+    contested: false
+  - year: 1085
+    type: siege
+    name: "Alfonso VI takes Toledo"
+    changed: >-
+      Alfonso VI took Toledo after reneging on a promise to restore its
+      own deposed ruler, and the city became the military and cultural
+      centre of the wider reconquest - the point at which a captured
+      capital, not just raiding and tribute, began shaping Castile's
+      own culture directly.
+    source: chapman-1918
+    contested: false
+  - year: 1212
+    type: battle
+    name: "Battle of Las Navas de Tolosa"
+    changed: >-
+      A combined army from León, Castile, Aragon and Navarre broke the
+      Almohad forces at an Andalusian pass south of the Sierra Morena,
+      reversing the earlier disaster at Alarcos and permanently
+      breaking Almohad power in the peninsula - the single battle later
+      historians treat as the reconquest's own decisive turning point.
+    source: chapman-1918
+    contested: false
+  - year: 1230
+    type: succession-crisis
+    name: "Ferdinand III permanently unites León and Castile"
+    changed: >-
+      Alfonso IX of León died attempting to will his kingdom to two
+      daughters from an earlier marriage; his son Ferdinand III
+      overrode that will and incorporated León into Castile for good.
+      Unlike every previous union of the two crowns, this one was never
+      undone by a later division among heirs.
+    source: chapman-1918
+    contested: false
+  - year: 1248
+    type: siege
+    name: "Fall of Seville"
+    changed: >-
+      Ferdinand III took Córdoba in 1236 and Seville in 1248, the
+      culminating conquest of a reign in which - despite his own
+      canonization as a saint - crusading zeal never became
+      uncompromising: he allied at different points with the Almohad
+      emperor and with the Muslim prince of Granada himself, and is
+      said to have turned down a French king's invitation to a crusade
+      in the East, observing that his own land held plenty of enemies
+      of the faith already.
+    source: chapman-1918
+    contested: false
+  - year: 1469
+    type: treaty
+    name: "Marriage of Isabella and Ferdinand"
+    changed: >-
+      Isabella of Castile married Ferdinand, heir to the Aragonese
+      throne, turning down her own brother's preferred candidate, the
+      king of Portugal. A war of succession followed her brother's
+      death before she was
+      confirmed as queen in 1479, the same year Ferdinand inherited
+      Aragon - joining the crowns of Castile and Aragon under one
+      husband and wife without merging either kingdom's own separate
+      laws and institutions.
+    source: chapman-1918
+    contested: false
+  - year: 1492
+    type: siege
+    name: "Fall of Granada"
+    changed: >-
+      After a decade of war in which Ferdinand exploited a Nasrid
+      succession dispute as freely as he fought in open battle,
+      Granada's defenders were starved into surrender, and Castilian
+      troops entered the Alhambra on 2 January 1492. The last Muslim
+      state in the peninsula, which had survived for two and a half
+      centuries, was gone, and with it the reconquest that had defined
+      this kingdom's own history for nearly six hundred years.
+    source: chapman-1918
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
