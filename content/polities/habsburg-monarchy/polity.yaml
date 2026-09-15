@@ -16,20 +16,21 @@ name:
 # following the source's own periodization.
 span:
   start: { min: 1273, max: 1273, source: coxe-austria-1847 }
-  # This record currently runs to Frederick III's own final years,
-  # covering Maximilian's recovery of Austria, his lost marriage to
-  # Anne of Brittany, and the Treaty of Senlis - the last events its
-  # sourced chapters cover, not an institutional end. The Habsburg
-  # Monarchy has no end within this source's own scope, let alone in
-  # reality: it continued, through the Austrian Empire and Austria-
-  # Hungary, into the twentieth century.
+  # This record currently runs to Frederick III's own death on 19
+  # August 1493, after a fifty-three-year reign - the longest of any
+  # emperor since Augustus - the last event its sourced chapters cover,
+  # not an institutional end. The Habsburg Monarchy has no end within
+  # this source's own scope, let alone in reality: it continued,
+  # through the Austrian Empire and Austria-Hungary, into the
+  # twentieth century.
   end: { min: 1493, max: 1493, source: coxe-austria-1847 }
 
 identity: >-
   A minor Swabian count's family, raised to the German crown by
   electors who wanted a weak monarch, that briefly reunited Austria,
   Hungary and Bohemia under Albert V, lost Vienna to Matthias Corvinus,
-  and watched Maximilian's own wife married away to the King of France.
+  and closed Frederick III's fifty-three-year reign, the longest of
+  any emperor since Augustus.
 
 capitals:
   - { name: Vienna, from: 1280, source: coxe-austria-1847 }
@@ -656,6 +657,18 @@ turning_points:
       children's upbringing.
     source: coxe-austria-1847
     contested: false
+  - year: 1485
+    type: succession-crisis
+    name: "Albert of Munich seizes Regensburg and marries Cunegunda"
+    changed: >-
+      A Bavarian duke took an old imperial city his own family had once
+      held and married Frederick's daughter without so much as asking
+      his consent, insulting the emperor as both sovereign and father
+      at the exact moment Frederick was too weak, exiled from his own
+      Austrian lands, to answer either offense - a dispute the new
+      Swabian League would later give him the power to finally settle.
+    source: coxe-austria-1847
+    contested: false
   - year: 1486
     type: succession-crisis
     name: "Maximilian elected King of the Romans in secret"
@@ -746,6 +759,18 @@ turning_points:
       France outright and leaving Maximilian, abandoned by every ally
       he had courted, to settle for Franche-Comté and Artois as
       compensation once formal terms were finally agreed.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1493
+    type: catastrophe
+    name: "The death of Frederick III"
+    changed: >-
+      A leg amputation he bore without complaint gave way to a fatal
+      dysentery, brought on by an indulgence for melons that echoed the
+      very habit that had ended his own son's life decades before;
+      having already handed full administration of Austria and the
+      empire to Maximilian, Frederick closed a fifty-three-year reign
+      longer than any emperor's since Augustus.
     source: coxe-austria-1847
     contested: false
 
