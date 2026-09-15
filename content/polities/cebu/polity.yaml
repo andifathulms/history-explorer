@@ -1,0 +1,128 @@
+id: cebu
+region: the-eastern-archipelago
+
+name:
+  latin: Rajahnate of Cebu
+  script: null
+  script_lang: null
+
+# pigafetta-1906 gives no founding date, only the state of the polity at
+# first European contact in April 1521; several neighboring villages
+# already rendered it food and tribute at that date.
+span:
+  start: { min: 1521, max: 1521, source: pigafetta-1906 }
+  end: { min: 1565, max: 1565, source: morga-stanley-1868 }
+
+identity: >-
+  A tribute-collecting port on the island of Cebu, ruled by Raja Humabon,
+  that struck a blood compact and mass baptism with Magellan's expedition
+  in 1521, watched its new ally die at the hands of a neighboring chief who
+  refused the same submission, and turned on the survivors at a banquet
+  before falling to a second Spanish fleet under Legazpi forty-four years
+  later.
+
+capitals:
+  - { name: Cebu (Sugbu), from: null, source: pigafetta-1906 }
+
+core_region: The island of Cebu and neighboring coastal villages, central Philippines
+
+rulers:
+  founder: { name: null, source: null }
+  # pigafetta-1906 names Raja Humabon as ruler at the time of the Magellan
+  # expedition's 1521 visit, receiving tribute from several named villages
+  # and presiding over the mass baptism of his own people.
+  peak: { name: "Raja Humabon", source: pigafetta-1906 }
+  # morga-stanley-1868 names Tupas as the chief who received, and then
+  # resisted, Legazpi's expedition in 1565.
+  last: { name: Tupas, source: morga-stanley-1868 }
+
+scripts_and_languages:
+  administration: [Cebuano]
+  writing_system: null
+
+institutions:
+  military_basis: { values: [tribal-levy], source: pigafetta-1906 }
+  # pigafetta-1906 names several villages of the island that "rendered
+  # obedience to us, and gave us food and tribute" once Humabon had
+  # accepted the Spanish alliance.
+  revenue_basis: { values: [tribute], source: pigafetta-1906 }
+  succession_rule: null
+  legitimation: { values: [descent], source: pigafetta-1906 }
+
+preceded_by_external: []
+
+succeeded_by_external:
+  - name: Spain (Captaincy General of the Philippines)
+    type: conquered by
+    year: 1565
+    note: >-
+      Miguel Lopez de Legazpi's expedition, arriving in 1565, was at first
+      peacefully received by Tupas, but fighting broke out over the
+      Spanish taking of provisions; the Spanish prevailed, and Legazpi
+      founded the first permanent Spanish settlement in the islands there,
+      naming it the City of the Most Holy Name of Jesus after a carved
+      image of the Christ child found in a native house, which the
+      Spanish and the islanders alike believed had been left behind by
+      Magellan's fleet decades before.
+    source: morga-stanley-1868
+
+ended:
+  type: conquest
+  by: []
+  year: 1565
+  source: morga-stanley-1868
+
+turning_points:
+  - year: 1521
+    type: treaty
+    name: "The blood compact with Magellan"
+    changed: >-
+      Raja Humabon and Magellan drew blood from their own right arms and
+      exchanged it as a pledge of friendship, and within a week nearly
+      every person on Cebu and some neighboring islands had accepted
+      baptism, including Humabon's queen - baptized Johanna after the
+      Spanish emperor's mother - and, by Pigafetta's count, eight hundred
+      people in total. One village that refused to submit to Humabon or
+      the Spanish was burned and a cross raised over it as a mark, in
+      Pigafetta's words, that heathens were judged easier to convert than
+      Moros would have been.
+    source: pigafetta-1906
+    contested: false
+  - year: 1521
+    type: battle
+    name: "Magellan killed at Mactan"
+    changed: >-
+      The chief Lapulapu of the neighboring island of Mactan refused the
+      submission his rival chief Zula had already offered, and when
+      Magellan led sixty armed men across at Zula's own request to compel
+      him, more than fifteen hundred warriors met them on the beach.
+      Magellan was wounded in the leg by a poisoned arrow, then cut down
+      by spears and blades as his men retreated to the boats; Humabon's own
+      warriors, kept back in their boats at Magellan's earlier order,
+      never joined the fighting, and Lapulapu refused a Spanish offer of
+      ransom for the body, choosing to keep it as a trophy instead.
+    source: pigafetta-1906
+    contested: false
+  - year: 1521
+    type: catastrophe
+    name: "The banquet massacre"
+    changed: >-
+      Days after Magellan's death, the expedition's freed slave
+      interpreter Enrique, threatened with continued bondage by the new
+      Spanish commanders, warned Humabon that the fleet meant to leave and
+      urged him to strike first; Humabon invited the senior officers to a
+      farewell banquet on 1 May 1521 and had them killed, all but one of
+      more than two dozen men who went ashore, forcing the diminished
+      expedition to abandon one of its three ships and sail on
+      undermanned.
+    source: pigafetta-1906
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

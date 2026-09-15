@@ -1,0 +1,121 @@
+id: tondo
+region: the-eastern-archipelago
+
+name:
+  latin: Tondo and Maynila
+  script: null
+  script_lang: null
+
+# Neither source gives a founding date. Both describe an already fortified,
+# cannon-casting, Chinese- and Japanese-trading settlement at first Spanish
+# contact in 1570; that is the earliest year either source attests, not an
+# estimate of when the polity began.
+span:
+  start: { min: 1570, max: 1570, source: blair-robertson-vol3 }
+  end: { min: 1571, max: 1571, source: morga-stanley-1868 }
+
+identity: >-
+  Two allied fortified towns facing each other across the mouth of the
+  Pasig river on Manila Bay, ruled by chiefs styled raja, home to resident
+  Chinese and Japanese trading communities and a bronze cannon foundry,
+  that burned rather than pay the tribute a Spanish expedition never
+  actually demanded, and was refounded the following year as Spanish
+  Manila on the ashes of its own principal town.
+
+capitals:
+  - { name: Maynila, from: null, source: blair-robertson-vol3 }
+
+core_region: The mouth of the Pasig river, Manila Bay, island of Luzon
+
+rulers:
+  # Neither source names an earlier or founding ruler.
+  founder: { name: null, source: null }
+  peak: { name: null, source: null }
+  # blair-robertson-vol3 names Raxa Soliman, described as young, proud and
+  # the more aggressive of the two Maynila chiefs, as the ruler blamed by
+  # his own people for ordering the artillery fired on Goiti's ships.
+  last: { name: "Raxa Soliman", source: blair-robertson-vol3 }
+
+scripts_and_languages:
+  administration: [Tagalog]
+  writing_system: null
+
+institutions:
+  military_basis: { values: [tribal-levy], source: blair-robertson-vol3 }
+  # blair-robertson-vol3 records neighboring towns coming to complain to
+  # the Spanish "of the Raxa Soliman, for having plundered their towns and
+  # killed many of the inhabitants," and Maynila's own chiefs agreeing that
+  # the towns that supported the Spanish settlement "should pay no other
+  # tribute" - implying tribute had been the norm before.
+  revenue_basis: { values: [tribute, plunder], source: blair-robertson-vol3 }
+  succession_rule: null
+  legitimation: { values: [descent], source: blair-robertson-vol3 }
+
+preceded_by_external: []
+
+succeeded_by_external:
+  - name: Spain (Captaincy General of the Philippines)
+    type: conquered by
+    year: 1571
+    note: >-
+      Miguel Lopez de Legazpi founded the Spanish city of Manila on the
+      site of the burned town in 1571, keeping its native name; Manila
+      became the seat of the colonial government, and Tondo, across the
+      river, continued as a native settlement under Spanish administration.
+    source: morga-stanley-1868
+
+ended:
+  type: conquest
+  by: []
+  year: 1571
+  source: morga-stanley-1868
+
+turning_points:
+  - year: 1570
+    type: treaty
+    name: "Blood drawn with Goiti"
+    changed: >-
+      Martin de Goiti, sent ahead by Legazpi from Panay, met Maynila's two
+      ruling chiefs - an elder styled raja and his nephew Raxa Soliman -
+      and drew blood with both in the customary compact of friendship,
+      agreeing that the towns of the bay would support the Spanish
+      settlement and pay no other tribute. Soliman, boasting that "the
+      Moros were not painted Indians" and would answer any insult with
+      death, accepted the peace while his people kept their weapons and
+      their artillery manned.
+    source: blair-robertson-vol3
+    contested: false
+  - year: 1570
+    type: battle
+    name: "The burning of Soliman's town"
+    changed: >-
+      Days after the blood compact, Maynila's artillery opened fire
+      without warning on the anchored Spanish ships; Goiti's men stormed
+      the palisade, captured its thirteen cannon, and burned the town,
+      killing or capturing several hundred of its people and destroying a
+      cannon foundry, a trading quarter of resident Chinese and Japanese,
+      and a chief's house whose lost furnishings alone were valued, by
+      native report, above five thousand ducats.
+    source: blair-robertson-vol3
+    contested: false
+  - year: 1571
+    type: capital-move
+    name: "Manila refounded on the ashes"
+    changed: >-
+      Legazpi returned in person the following year, negotiated afresh
+      with the surviving chiefs, and founded the Spanish city of Manila on
+      the same tongue of land between river and sea, keeping the town's
+      own name; it became the seat of the colonial government over the
+      whole archipelago, while Tondo, across the river, continued under
+      Spanish administration as a native settlement.
+    source: morga-stanley-1868
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
