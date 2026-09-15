@@ -16,20 +16,20 @@ name:
 # following the source's own periodization.
 span:
   start: { min: 1273, max: 1273, source: coxe-austria-1847 }
-  # This record currently runs only to George of Poděbrady's death and
-  # Vladislaus's election in 1471 - the last event its sourced chapters
-  # cover, not an institutional end. The Habsburg Monarchy has no end
-  # within this source's own scope, let alone in reality: it continued,
-  # through the Austrian Empire and Austria-Hungary, into the twentieth
-  # century.
-  end: { min: 1471, max: 1471, source: coxe-austria-1847 }
+  # This record currently runs only to the 1487 armistice ceding
+  # Austria to Matthias Corvinus's occupation - the last event its
+  # sourced chapters cover, not an institutional end. The Habsburg
+  # Monarchy has no end within this source's own scope, let alone in
+  # reality: it continued, through the Austrian Empire and Austria-
+  # Hungary, into the twentieth century.
+  end: { min: 1487, max: 1487, source: coxe-austria-1847 }
 
 identity: >-
   A minor Swabian count's family, raised to the German crown by
   electors who wanted a weak monarch, that briefly reunited Austria,
-  Hungary and Bohemia under Albert V, then, under Frederick III,
-  betrayed the Bohemian king who had once saved it from his own
-  brother's siege of Vienna.
+  Hungary and Bohemia under Albert V, was driven from Vienna itself by
+  Matthias Corvinus, and won Burgundy through a marriage a French
+  king's intrigue very nearly wrecked.
 
 capitals:
   - { name: Vienna, from: 1280, source: coxe-austria-1847 }
@@ -611,6 +611,49 @@ turning_points:
       for the Bohemian crown drew even less support than his second,
       and the estates confirmed Vladislaus as king over Matthias's own
       larger faction.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1477
+    type: treaty
+    name: "Maximilian marries Mary of Burgundy by proxy"
+    changed: >-
+      Against her own council's advice and the machinations of Louis
+      XI of France, Mary chose Maximilian on the strength of her late
+      father's praise for him and a token exchange of letters, joining
+      the vast Burgundian inheritance - Flanders, Artois, Holland,
+      Brabant and more - to the House of Austria for the first time.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1477
+    type: siege
+    name: "Matthias's first invasion of Austria"
+    changed: >-
+      Provoked past endurance by years of betrayal, Matthias Corvinus
+      overran most of Lower Austria within a month, besieged Vienna
+      itself, and forced Frederick to buy back his own capital for a
+      hundred thousand ducats he would later refuse to pay.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1479
+    type: battle
+    name: "The Battle of Guinegate"
+    changed: >-
+      Eighteen years old and commanding no army of his own a year
+      earlier, Maximilian defeated the forces of Louis XI in Artois,
+      stabilising Habsburg rule over the Burgundian Netherlands through
+      force of arms rather than the marriage contract alone.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1487
+    type: catastrophe
+    name: "Vienna falls, Frederick driven into exile"
+    changed: >-
+      A second invasion, launched once Frederick's broken promises gave
+      Matthias fresh cause for war, took four years of siege warfare
+      but ended completely: Vienna and Wiener Neustadt both fell, and
+      an armistice ceded occupied Austria to Matthias outright, leaving
+      Frederick a wandering exile in his own empire until repayment of
+      his old debts could win it back.
     source: coxe-austria-1847
     contested: false
 
