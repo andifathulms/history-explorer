@@ -1,0 +1,116 @@
+id: toungoo
+region: mainland-southeast-asia
+
+name:
+  latin: Toungoo Dynasty
+  script: တောင်ငူခေတ်
+  script_lang: my
+
+span:
+  start: { min: 1531, max: 1531, source: harvey-burma-1925 }
+  # harvey-1925 dates the fall and burning of Ava to the Talaing
+  # (Mon) forces of Pegu to April 1752, after which the royal family
+  # was deported and the surviving princes fled without raising
+  # further resistance.
+  end: { min: 1752, max: 1752, source: harvey-burma-1925 }
+
+identity: >-
+  A refugee garrison town's dynasty, founded by a fifteen-year-old
+  king who reunited Burma by conquest and stratagem, carried to its
+  own peak by his general and brother-in-law Bayinnaung, and ended two
+  centuries later when a starving Ava fell to Mon rebels who burned it
+  to the ground.
+
+capitals:
+  - { name: Toungoo, source: harvey-burma-1925 }
+  - { name: Pegu, from: 1539, source: harvey-burma-1925 }
+  - { name: Ava, source: harvey-burma-1925 }
+
+core_region: The Irrawaddy valley and Lower Burma, with a peak reach into Siam, Manipur and the Shan states
+
+rulers:
+  # harvey-1925 dates Tabinshwehti's accession, at fifteen years old,
+  # to 1531, and his murder by lured ambush to 1550, at thirty-five.
+  founder: { name: Tabinshwehti, reign: [1531, 1550], source: harvey-burma-1925 }
+  # harvey-1925 records Bayinnaung's suzerainty, at its widest extent,
+  # reaching Siam, Chiang Mai, Manipur and the Shan states - a reach
+  # his own successors could not hold in full.
+  peak: { name: Bayinnaung, reign: [1551, 1581], source: harvey-burma-1925 }
+  last: { name: null, source: null }
+
+scripts_and_languages:
+  administration: [Burmese, Mon]
+  writing_system: Burmese script
+
+institutions:
+  military_basis: null
+  # harvey-1925 records Tabinshwehti engaging Portuguese mercenaries
+  # under Joano Cayeyro, with their own ships, muskets and light
+  # artillery, "probably the first ever seen in Burma" - a paid,
+  # foreign contingent alongside the levies his own Burmese and,
+  # later, Talaing lords raised.
+  revenue_basis: null
+  succession_rule: null
+  legitimation: null
+
+preceded_by_external: []
+
+succeeded_by_external: []
+
+ended:
+  type: conquest
+  by: []
+  year: 1752
+  source: harvey-burma-1925
+
+turning_points:
+  - year: 1539
+    type: siege
+    name: "Tabinshwehti takes Pegu"
+    changed: >-
+      Tabinshwehti's own stratagem - sending Pegu's two ablest
+      commanders home with a letter promising each of them a captured
+      city, arranged so the Talaing court would intercept and read it
+      as proof of treason - cost Pegu its own best leaders before a
+      shot was fired; the Talaing king fled to Prome and Tabinshwehti
+      entered Pegu unopposed, completing his own conquest of Lower
+      Burma.
+    source: harvey-burma-1925
+    contested: false
+  - year: 1550
+    type: succession-crisis
+    name: "The assassination of Tabinshwehti"
+    changed: >-
+      Tabinshwehti's own decline into heavy drinking, encouraged by a
+      Portuguese favourite who had taught his royal bride to cook
+      foreign food and served him wine and spirits, ended when
+      Talaing chamberlains lured him into a jungle on a false pretext
+      and had him beheaded at thirty-five - opening the succession
+      that brought his brother-in-law and general, Bayinnaung, to the
+      throne.
+    source: harvey-burma-1925
+    contested: false
+  - year: 1752
+    type: siege
+    name: "The fall of Ava"
+    changed: >-
+      A besieging Talaing (Mon) army from Pegu, on the verge of
+      withdrawing for lack of supplies, learned from deserters that
+      the starving garrison of Ava could barely lift its own weapons,
+      forced its way into the city in April 1752, sacked and burned
+      it, and deported the royal family to Pegu - ending the dynasty
+      Tabinshwehti had founded, though harvey-1925 notes the
+      overrunning of the north that followed proved, within years,
+      that "the Burmese people were" not "played out" even if the Ava
+      dynasty was.
+    source: harvey-burma-1925
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
