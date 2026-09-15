@@ -16,13 +16,13 @@ name:
 # following the source's own periodization.
 span:
   start: { min: 1273, max: 1273, source: coxe-austria-1847 }
-  # This record currently runs to the Diet of Worms in May 1496, where
-  # Maximilian's own eloquence failed to move the German states to
-  # intervene against Charles VIII's conquest of Naples - the last
-  # event its sourced chapters cover, not an institutional end. The
-  # Habsburg Monarchy has no end within this source's own scope, let
-  # alone in reality: it continued, through the Austrian Empire and
-  # Austria-Hungary, into the twentieth century.
+  # This record currently runs to the Diet of Worms (1496), which
+  # traded Maximilian's demand for troops against France for the
+  # empire's own most durable constitutional reform, the Imperial
+  # Chamber Court - the last event its sourced chapters cover, not an
+  # institutional end. The Habsburg Monarchy has no end within this
+  # source's own scope, let alone in reality: it continued, through the
+  # Austrian Empire and Austria-Hungary, into the twentieth century.
   end: { min: 1496, max: 1496, source: coxe-austria-1847 }
 
 identity: >-
@@ -794,6 +794,18 @@ turning_points:
       alarmed every power in Italy, Maximilian most of all, and turned
       even the Milanese regent who had opened the Alpine passes for him
       into a leader of the coalition against him.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1495
+    type: battle
+    name: "The Battle of Fornovo"
+    changed: >-
+      Retreating from a Naples he could no longer hold once the league
+      against him took shape, Charles VIII broke through a confederate
+      army blocking his passage home near Parma, secured his own
+      escape, and made a separate peace with Milan - leaving Naples
+      itself to fall back to its restored king within months of the
+      French withdrawal.
     source: coxe-austria-1847
     contested: false
   - year: 1496
