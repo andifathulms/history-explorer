@@ -1,0 +1,117 @@
+id: benin
+region: west-africa
+
+name:
+  latin: Kingdom of Benin
+  # roth-benin-1903 gives the Edo name of the country as Ubini (or
+  # Aiye), by the dynasty's own founding tradition named for a slave
+  # of Eweka's own buried near him - but records no script: the
+  # kingdom's own history was preserved orally and on cast bronze and
+  # ivory rather than written down.
+  script: null
+  script_lang: null
+
+# roth-benin-1903 gives no calendar date for Eweka's own founding
+# journey from Ife; the tradition it records is undated. 1486 is the
+# year the source dates João Afonso de Aveiro's own visit, "the first
+# description" of the city, in Ruy de Pina's chronicle - the earliest
+# point this record can actually date.
+span:
+  start: { min: 1486, max: 1486, source: roth-benin-1903 }
+  # roth-benin-1903 dates the capture of Benin City by Admiral Sir
+  # Harry Rawson's Punitive Expedition to 17 February 1897, and its
+  # destruction by fire "which the soldiery was unable to stem" in the
+  # days after.
+  end: { min: 1897, max: 1897, source: roth-benin-1903 }
+
+identity: >-
+  An Edo kingdom whose bronze plaques recorded its own history in
+  metal rather than writing, ruled by a dynasty tradition says came
+  from Ife, traded pepper and ambassadors with Portugal from 1486, and
+  was burned by a British punitive force after its own king's men
+  massacred an unarmed trade mission.
+
+capitals:
+  - { name: Benin City, source: roth-benin-1903 }
+
+core_region: The forest belt of the Niger Delta hinterland, in present-day southern Nigeria
+
+rulers:
+  # roth-benin-1903 records the founding tradition collected from
+  # Captain Roupell's court informants: the people of Ubini sent to
+  # Ife for a king, and Eweka came with a few men, gradually extending
+  # his own rule over the country by force or persuasion. No accession
+  # year is given.
+  founder: { name: Eweka, source: roth-benin-1903 }
+  # roth-benin-1903 dates the first Portuguese contact - Aveiro's 1486
+  # visit and the exchange of ambassadors that followed - to the reign
+  # of the tenth king, Esigie, "424 years before the deposition" of
+  # the twenty-third and last king. No other reign in the source's own
+  # king list is given comparable documented weight.
+  peak: { name: Esigie, source: roth-benin-1903 }
+  # roth-benin-1903 names Overami (Ovonramwen) as the twenty-third and
+  # last king before deposition in 1897.
+  last: { name: "Overami (Ovonramwen)", source: roth-benin-1903 }
+
+scripts_and_languages:
+  administration: [Edo]
+  writing_system: null
+
+institutions:
+  military_basis: null
+  revenue_basis: null
+  # roth-benin-1903 records, from both Lieutenant King's account and
+  # Captain Roupell's court informants, that the eldest son always
+  # succeeded to the throne - though the source notes this custom was
+  # tested directly at Overami's own accession, when a guardian's
+  # speed in reporting a birth, not strict seniority, decided the
+  # succession between two half-brothers.
+  succession_rule: { values: [primogeniture], source: roth-benin-1903 }
+  legitimation: { values: [descent, investiture], source: roth-benin-1903 }
+
+preceded_by_external: []
+
+succeeded_by_external: []
+
+ended:
+  type: conquest
+  by: []
+  year: 1897
+  source: roth-benin-1903
+
+turning_points:
+  - year: 1486
+    type: treaty
+    name: "João Afonso de Aveiro's visit"
+    changed: >-
+      A Portuguese expedition under Aveiro gave Europe its first
+      description of Benin City, and the king sent his own captain at
+      Gwato back to Portugal as ambassador - opening a direct exchange
+      of gifts, missionaries and "holy and Catholic advice" between the
+      two courts that a 1516 letter records continuing under Esigie,
+      whose own son and leading nobles were baptised and taught to
+      read and write.
+    source: roth-benin-1903
+    contested: false
+  - year: 1897
+    type: catastrophe
+    name: "The Phillips massacre and the Punitive Expedition"
+    changed: >-
+      Local chiefs' warnings went unheeded when Acting Consul-General
+      Phillips led an unarmed mission toward Benin City on 4 January
+      1897; all but two of the mission's white members were killed
+      within hours. Admiral Sir Harry Rawson's Punitive Expedition
+      captured the city on 17 February and it burned in a fire the
+      British soldiery could not stop, ending the kingdom's own
+      independence.
+    source: roth-benin-1903
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
