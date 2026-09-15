@@ -1,0 +1,126 @@
+id: sokoto
+region: west-africa
+
+name:
+  latin: Sokoto Caliphate
+  # shaw-tropical-dependency-1905 does not give the state's own Arabic
+  # or Fulfulde titulature in a script this record could reproduce
+  # responsibly.
+  script: null
+  script_lang: null
+
+# shaw-tropical-dependency-1905 states plainly that "the date of the
+# opening of the Holy War is given differently by different authors,
+# who vary between 1800 and 1804" - the source's own acknowledged
+# uncertainty, kept here as a range rather than resolved to a single
+# year.
+span:
+  start: { min: 1800, max: 1804, source: shaw-tropical-dependency-1905 }
+  # shaw-tropical-dependency-1905 dates the battle in which "the
+  # Sokoto troops were defeated and put to flight" before the British
+  # expeditionary force to 15 March 1903.
+  end: { min: 1903, max: 1903, source: shaw-tropical-dependency-1905 }
+
+identity: >-
+  A Fulani jihad state that overran Hausaland's own walled cities in
+  the name of Islamic reform, split at its founder's death between two
+  capitals, and answered a British ultimatum with a declaration of
+  holy war it had no cavalry left able to win.
+
+capitals:
+  - { name: Sokoto, from: 1809, source: shaw-tropical-dependency-1905 }
+
+core_region: Hausaland, the savanna states of what is now northern Nigeria
+
+rulers:
+  # shaw-tropical-dependency-1905 records Usman (Othman) dan Fodio's
+  # own 1802 confrontation with King Bawa of Gobir, his election as
+  # Sheikh, and the jihad declared under his leadership.
+  founder: { name: "Usman dan Fodio", source: shaw-tropical-dependency-1905 }
+  # shaw-tropical-dependency-1905 calls the period of Sultan Bello's
+  # reign, which "almost coincid[ed] with the great period of Bornu
+  # under its new ruler," the great period of Fulani rule in
+  # Hausaland - Bello having founded the city of Sokoto itself during
+  # his father's lifetime and inherited the eastern, senior half of
+  # the empire on Usman's 1816 death.
+  peak: { name: "Muhammad Bello", reign: [1816, 1837], source: shaw-tropical-dependency-1905 }
+  # shaw-tropical-dependency-1905 does not name the reigning Sultan of
+  # Sokoto at the time of the 1903 conquest, recording only Sokoto's
+  # own defiant 1902 letter and the British High Commissioner's
+  # subsequent campaign.
+  last: { name: null, source: null }
+
+scripts_and_languages:
+  administration: [Fulfulde, Hausa, Arabic]
+  writing_system: Arabic script (Ajami)
+
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  # shaw-tropical-dependency-1905 records Usman dan Fodio's own
+  # election as Sheikh by the assembled Fulani chiefs at the jihad's
+  # outset, and the caliphal-style investiture he in turn gave his
+  # son Bello and brother Abdullahi as governors of Sokoto and Gando;
+  # the source also records Sokoto's own religious authority over
+  # emirates far beyond its direct rule, which took their investiture
+  # from the Sultan of Sokoto as a matter of course.
+  legitimation: { values: [election, caliphal-investiture], source: shaw-tropical-dependency-1905 }
+
+preceded_by_external: []
+
+succeeded_by_external: []
+
+ended:
+  type: conquest
+  by: []
+  year: 1903
+  source: shaw-tropical-dependency-1905
+
+turning_points:
+  - year: 1802
+    type: succession-crisis
+    name: "King Bawa's reprimand"
+    changed: >-
+      King Bawa of Gobir summoned Usman dan Fodio and the principal
+      Fulani chiefs and publicly reprimanded them for their growing
+      religious and political pretensions - an insult
+      shaw-tropical-dependency-1905 calls "a spark to the tinder,"
+      after which dan Fodio's own preaching turned Fulani resentment
+      into open revolt against Gobir's pagan rule.
+    source: shaw-tropical-dependency-1905
+    contested: false
+  - year: 1816
+    type: succession-crisis
+    name: "Usman dan Fodio divides the empire"
+    changed: >-
+      On his death Usman dan Fodio divided his conquered territory
+      between his son Muhammad Bello, who received the eastern
+      provinces and had already founded the city of Sokoto for
+      himself, and his brother Abdullahi, whose own seat at Gando
+      governed the west - splitting a single jihad state into two
+      capitals that would never fully reunite.
+    source: shaw-tropical-dependency-1905
+    contested: false
+  - year: 1903
+    type: battle
+    name: "The British conquest of Kano and Sokoto"
+    changed: >-
+      After Sokoto answered British overtures with a letter declaring
+      "war as God Almighty has enjoined upon us," a British
+      expeditionary force took Kano on 3 February and defeated the
+      Sokoto army in the field on 15 March - ending Fulani political
+      supremacy in Hausaland and bringing every emirate that had
+      taken its own investiture from Sokoto under British colonial
+      rule instead.
+    source: shaw-tropical-dependency-1905
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
