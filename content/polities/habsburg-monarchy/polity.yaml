@@ -16,19 +16,20 @@ name:
 # following the source's own periodization.
 span:
   start: { min: 1273, max: 1273, source: coxe-austria-1847 }
-  # This record currently runs only to Albert VI's own death in 1463 -
-  # the last event its sourced chapters cover, not an institutional
-  # end. The Habsburg Monarchy has no end within this source's own
-  # scope, let alone in reality: it continued, through the Austrian
-  # Empire and Austria-Hungary, into the twentieth century.
-  end: { min: 1463, max: 1463, source: coxe-austria-1847 }
+  # This record currently runs only to George of Poděbrady's death and
+  # Vladislaus's election in 1471 - the last event its sourced chapters
+  # cover, not an institutional end. The Habsburg Monarchy has no end
+  # within this source's own scope, let alone in reality: it continued,
+  # through the Austrian Empire and Austria-Hungary, into the twentieth
+  # century.
+  end: { min: 1471, max: 1471, source: coxe-austria-1847 }
 
 identity: >-
   A minor Swabian count's family, raised to the German crown by
   electors who wanted a weak monarch, that briefly reunited Austria,
-  Hungary and Bohemia under Albert V, then fell into a fraternal war a
-  Bohemian king had to break by siege before Frederick III nearly lost
-  the imperial crown outright.
+  Hungary and Bohemia under Albert V, then, under Frederick III,
+  betrayed the Bohemian king who had once saved it from his own
+  brother's siege of Vienna.
 
 capitals:
   - { name: Vienna, from: 1280, source: coxe-austria-1847 }
@@ -563,6 +564,53 @@ turning_points:
       more time, ending years of fraternal conflict not through
       victory or reconciliation but through the simple exhaustion of
       one side's own ability to keep fighting.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1467
+    type: reform
+    name: "Pope Paul II deposes Poděbrady"
+    changed: >-
+      Years of pressure from Rome finally overcame Frederick's own debt
+      to the king who had rescued him at Vienna, and the emperor's own
+      envoys threw their support behind a formal call to arms against
+      Bohemia at a German assembly; even after that specific proposal
+      was voted down, the pope stripped Poděbrady of his crown by
+      decree and turned loose recruiters for a holy war he never
+      actually needed the diet's own consent to authorise.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1469
+    type: succession-crisis
+    name: "Matthias crowned rival King of Bohemia at Olomouc"
+    changed: >-
+      Persuaded that no peace with a "heretic" king need be honoured,
+      Matthias Corvinus broke a treaty signed only weeks earlier, swept
+      through two neighbouring provinces, and staged his own election
+      and coronation before a gathering of loyal Catholic nobles -
+      installing a rival Bohemian monarchy alongside Poděbrady's own,
+      still-unbroken hold on Prague.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1470
+    type: treaty
+    name: "Armistice ends the Bohemian-Hungarian war"
+    changed: >-
+      Two kings personally leading their own armies fought each other
+      to a standstill before agreeing, on 22 July, to end hostilities
+      that had devastated both their countries without settling which
+      of them actually ruled Bohemia.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1471
+    type: succession-crisis
+    name: "Poděbrady's death and Vladislaus's election"
+    changed: >-
+      Poděbrady died having already outmanoeuvred both Frederick and
+      Matthias by naming a Polish prince, acceptable to Catholics and
+      Calixtins alike, as his own successor; Frederick's own third bid
+      for the Bohemian crown drew even less support than his second,
+      and the estates confirmed Vladislaus as king over Matthias's own
+      larger faction.
     source: coxe-austria-1847
     contested: false
 
