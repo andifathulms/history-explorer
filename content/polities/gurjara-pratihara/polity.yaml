@@ -1,0 +1,132 @@
+id: gurjara-pratihara
+region: northern-india
+
+name:
+  latin: Gurjara-Pratihara Empire
+  script: गुर्जर-प्रतिहार
+  script_lang: hi
+
+# smith-1904 gives two approximations for Nagabhata's conquest of
+# Kanauj in different chapters: "about A.D. 800" in a general aside on
+# Rajput clan origins, and "about A.D. 816" tied to a dated Gwalior
+# inscription in the source's own dedicated account of the Pratihara
+# dynasty. The more specific, epigraphically anchored figure is used
+# here.
+span:
+  start: { min: 816, max: 816, source: smith-1904 }
+  # smith-1904 states Kanauj "had been conquered and occupied, a
+  # little before A.D. 1090" by the Gaharwar (Gahadavala) chief
+  # Chandradeva, and that "these later chiefs did not belong to the
+  # old Gurjara-Pratihara dynasty, which disappeared utterly." No more
+  # precise date is given for the extinction itself.
+  end: { min: 1090, max: 1090, source: smith-1904 }
+
+identity: >-
+  A Rajputana dynasty that shifted its capital to a conquered Kanauj
+  and fought Bengal's Palas and the Deccan's Rashtrakutas for two
+  centuries over the city, reaching from the Punjab to Bihar under
+  Mihira Bhoja before Mahmud of Ghazni's sack broke it for good.
+
+capitals:
+  - { name: Bhillamala (Bhinmal), source: smith-1904 }
+  - { name: Kanauj, from: 816, source: smith-1904 }
+
+core_region: The upper and middle Gangetic plain, from the Punjab borderlands to Bihar, ruled from Kanauj
+
+rulers:
+  # smith-1904 gives no precise date for Nagabhata's own accession in
+  # Rajputana, only for his conquest of Kanauj itself; the Gwalior
+  # inscription used to date that conquest is the source's own citation.
+  founder: { name: Nagabhata, reign: [null, 833], source: smith-1904 }
+  # smith-1904 calls Mihira Bhoja's near-half-century reign one whose
+  # dominions "may be called an 'empire' without exaggeration," running
+  # from the Punjab to Gujarat and Malwa; his son Mahendrapala held the
+  # same extent intact. Bhoja is used here as the single peak-reign
+  # field requires one ruler rather than a father-son pair.
+  peak: { name: "Mihira Bhoja", reign: [840, 890], source: smith-1904 }
+  # smith-1904 names Yasahpala, attested in an inscription of A.D.
+  # 1036, as possibly Trilochanapala's immediate successor; "other
+  # obscure chiefs" continued at Kanauj afterward, unnamed in the
+  # source, until the dynasty's own extinction there around 1090.
+  last: { name: Yasahpala, reign: [null, 1036], source: smith-1904 }
+
+scripts_and_languages:
+  administration: [Sanskrit]
+  writing_system: Nagari
+
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  # smith-1904 records the Pratiharas among four Rajput clans bound by
+  # the Agnikula ("fire-born") origin myth of Mount Abu, alongside
+  # conquest as the plain fact of Nagabhata's own seizure of Kanauj.
+  legitimation: { values: [conquest, descent], source: smith-1904 }
+
+preceded_by_external: []
+
+# Kanauj passed to the Gaharwar (Gahadavala) chief Chandradeva "a
+# little before A.D. 1090" - not yet a record in this collection at
+# the time this page was written, so named here per the usual rule
+# rather than forced into `ended` below.
+succeeded_by_external:
+  - name: the Gahadavala dynasty of Kanauj
+    type: conquered by
+    year: null
+    note: >-
+      smith-1904 dates the Gaharwar chief Chandradeva's conquest and
+      occupation of Kanauj only to "a little before A.D. 1090," and
+      states plainly that the new rulers "did not belong to the old
+      Gurjara-Pratihara dynasty, which disappeared utterly."
+    source: smith-1904
+
+ended:
+  type: dynastic replacement
+  by: []
+  year: 1090
+  source: smith-1904
+
+turning_points:
+  - year: 816
+    type: battle
+    name: "Nagabhata's conquest of Kanauj"
+    changed: >-
+      Nagabhata, ruler of the Gurjara kingdom of Bhillamala in
+      Rajputana, deposed Chakrayudha of Kanauj and moved his own
+      capital there - the move smith-1904 credits with making Kanauj
+      "again for a considerable time the premier city of Northern
+      India," and the beginning of the Pratihara line's own paramountcy
+      over the city two other powers were contesting at the same time.
+    source: smith-1904
+    contested: false
+  - year: 916
+    type: siege
+    name: "The Rashtrakuta sack of Kanauj"
+    changed: >-
+      The Rashtrakuta king Indra III's armies captured Kanauj outright,
+      dealing what smith-1904 calls "a severe blow to the power of the
+      Pratihara dynasty" and marking, under King Mahipala, the
+      beginning of the empire's own decline - though Mahipala recovered
+      his capital soon after with Chandela help.
+    source: smith-1904
+    contested: false
+  - year: 1019
+    type: siege
+    name: "Mahmud of Ghazni before Kanauj"
+    changed: >-
+      Sultan Mahmud captured Kanauj's seven guardian forts in a single
+      day; King Rajyapala abandoned the city without a fight and was
+      killed soon after by the Chandela heir apparent for the
+      humiliation of his own surrender - reducing the once-paramount
+      Pratihara throne to a diminished, fugitive court at Bari.
+    source: smith-1904
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
