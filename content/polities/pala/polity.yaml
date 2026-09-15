@@ -1,0 +1,142 @@
+id: pala
+region: northern-india
+
+name:
+  latin: Pala Empire
+  script: পাল সাম্রাজ্য
+  script_lang: bn
+
+# smith-1904 dates Gopala's election "early in the eighth century (c.
+# A.D. 730-40)", and credits him with a forty-five-year reign - the
+# source's own approximation is used as a single point, as elsewhere
+# in this record.
+span:
+  start: { min: 730, max: 730, source: smith-1904 }
+  # smith-1904 names Indradyumna[-pala] as the traditional ruler of
+  # Magadha "at the time of the Muhammadan conquest, in A.D. 1197" -
+  # the last date the source attaches to the dynasty, by which point it
+  # had already lost nearly all of Bengal to the Senas.
+  end: { min: 1197, max: 1197, source: smith-1904 }
+
+identity: >-
+  A Buddhist dynasty elected out of Bengal's own anarchy, which built
+  a Gangetic empire under Dharmapala and Devapala, survived a usurper
+  and a peasant revolt, and endured four and a half centuries before a
+  rival Hindu line and, finally, Muslim conquest ended it in Magadha.
+
+capitals:
+  - { name: Pataliputra, source: smith-1904 }
+  - { name: Monghyr (Mudgagiri), from: 810, source: smith-1904 }
+
+core_region: Bengal and Bihar, with periods of overlordship reaching into Assam, Mithila, Orissa and Kanauj
+
+rulers:
+  founder: { name: Gopala, reign: [730, 775], source: smith-1904 }
+  # smith-1904 calls Devapala's forty-eight-year reign the one in
+  # which, together with his father Dharmapala's, Bengal became "one
+  # of the great powers of India" - the pair together, rather than
+  # either alone, mark the dynasty's own widest reach.
+  peak: { name: Devapala, reign: [810, 850], source: smith-1904 }
+  # smith-1904 names Indradyumna[-pala] only by tradition, as ruler of
+  # Magadha "at the time of the Muhammadan conquest" in 1197 - the last
+  # Pala the source can name at all.
+  last: { name: "Indradyumnapala", reign: [null, 1197], source: smith-1904 }
+
+scripts_and_languages:
+  administration: [Sanskrit]
+  writing_system: Nagari
+
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  # smith-1904 records Gopala's own accession as an election "out of
+  # anarchy" - a choice by the region's own leading men rather than an
+  # inherited or conquered claim - with descent carrying the line
+  # afterward for four and a half centuries.
+  legitimation: { values: [election, descent], source: smith-1904 }
+
+preceded_by_external: []
+
+# The Muhammadan conquest of 1197 is the dynasty's own recorded end,
+# but its territory did not pass to a single named conqueror within
+# Magadha itself in smith-1904's own account - the source names no
+# specific commander for this event, unlike the well-documented
+# Ghurid campaigns elsewhere in the same chapter.
+succeeded_by_external: []
+
+ended:
+  type: conquest
+  by: []
+  year: 1197
+  source: smith-1904
+
+turning_points:
+  - year: 730
+    type: succession-crisis
+    name: "Gopala's election"
+    changed: >-
+      A chieftain named Gopala was elected king of a Bengal that
+      smith-1904 describes as "suffering from anarchy" - a founding by
+      choice rather than conquest or inheritance, and the start of a
+      dynasty that would rule, in one form or another, for four and a
+      half centuries.
+    source: smith-1904
+    contested: false
+  - year: 810
+    type: battle
+    name: "Dharmapala installs a client at Kanauj"
+    changed: >-
+      Dharmapala dethroned Indrayudha of Panchala and installed
+      Chakrayudha in his place "with the assent of the neighbouring
+      northern powers" - a direct intervention in the contest for
+      Kanauj that put the Pala dynasty, for the only time in its
+      history, at the head of the very city its own Pratihara rivals
+      would seize from his client within a few years.
+    source: smith-1904
+    contested: false
+  - year: 966
+    type: revolt
+    name: "The Kamboja usurpation"
+    changed: >-
+      Hillmen known as Kambojas seized the Pala throne and set up their
+      own chief as king, interrupting the dynastic line for over a
+      decade until Mahipala I expelled them and restored his own
+      family's rule around 978 - the empire's first real proof that
+      the throne Dharmapala and Devapala had built could actually be
+      taken from their descendants.
+    source: smith-1904
+    contested: false
+  - year: 1080
+    type: revolt
+    name: "The Kaivarta rebellion"
+    changed: >-
+      Mahipala II's own misgovernment - he imprisoned his brothers on
+      taking the throne - provoked a rebellion under Divyoka, chief of
+      the Kaivarta tribe, who killed Mahipala II and seized Varendra
+      outright; the exiled prince Ramapala spent years gathering
+      support, including Rashtrakuta troops from his own in-laws,
+      before retaking the throne by force.
+    source: smith-1904
+    contested: false
+  - year: 1150
+    type: catastrophe
+    name: "Bengal lost to the Sena kings"
+    changed: >-
+      Over the dynasty's final century smith-1904 records the Palas
+      losing "nearly the whole of Bengal to the Senas" while retaining
+      Magadha and northern Bihar with little interruption - a rival
+      Hindu line's slow absorption of the dynasty's own original
+      territory, decades before Magadha itself finally fell to
+      Muhammadan conquest.
+    source: smith-1904
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
