@@ -20,9 +20,26 @@ span:
   # settled the Burgundian dispute against Maximilian's own son and
   # left the Habsburg-Swiss standoff over imperial obedience just short
   # of open war - the last events its sourced chapters cover, not an
-  # institutional end. The Habsburg Monarchy has no end within this
-  # source's own scope, let alone in reality: it continued, through the
-  # Austrian Empire and Austria-Hungary, into the twentieth century.
+  # institutional end.
+  #
+  # SCOPE DECISION (for whoever continues this record): this page is
+  # bounded, not open-ended. It should keep being extended from
+  # coxe-austria-1847 - which itself runs all the way to Leopold II's
+  # death in 1792 - until it reaches that source's own limit. 1792 is
+  # this record's practical stopping point for as long as Coxe remains
+  # its only source; the real institutional break sits twelve years
+  # later, in 1804, when Francis II proclaimed himself hereditary
+  # Emperor of Austria and the family's separately-held crowns became a
+  # single constituted state - the same transition already dated on
+  # this site's own Holy Roman Empire record (1806, Francis II's
+  # abdication of that older title). A successor record - Austrian
+  # Empire, then later Austria-Hungary in 1867 - should pick up from
+  # 1792 or 1804 rather than this one being extended past either point;
+  # see the corpus's own precedent of splitting one dynasty's
+  # continuity across sequential bounded records (Bohemia's own page
+  # already ends in 1620, handing off to this one, on exactly that
+  # model). Reaching 1804 itself will need a second source, since Coxe
+  # does not cover it.
   end: { min: 1499, max: 1499, source: coxe-austria-1847 }
 
 identity: >-
@@ -74,9 +91,12 @@ preceded_by_external: []
 
 succeeded_by_external: []
 
-# The Habsburg Monarchy does not end within this record's current
-# coverage, or in reality: it continued through the Austrian Empire
-# (1804) and Austria-Hungary (1867) into the twentieth century.
+# Null until this record's own coverage actually reaches its scoped
+# end (1792 from coxe-austria-1847, or 1804 with a second source - see
+# the span comment above). Not a claim that the Habsburg Monarchy
+# itself had no end: it continued, under other titles this site should
+# carry as separate records, through the Austrian Empire and
+# Austria-Hungary into the twentieth century.
 ended: null
 
 # Trimmed from sixty-seven hinges to the ones that survive a chronicle
