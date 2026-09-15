@@ -1,0 +1,118 @@
+id: konbaung
+region: mainland-southeast-asia
+
+name:
+  latin: Konbaung Dynasty (Alaungpaya Dynasty)
+  script: ကုန်းဘောင်ခေတ်
+  script_lang: my
+
+# harvey-1925 dates the fall of Ava, and the beginning of Alaungpaya's
+# own resistance at his home village of Moksobomyo (Shwebo), to 1752.
+span:
+  start: { min: 1752, max: 1752, source: harvey-burma-1925 }
+  # This record currently covers only Alaungpaya's own founding reign,
+  # ending with his death on the retreat from the failed siege of
+  # Ayutthaya in 1760 - not an institutional end. harvey-1925 itself
+  # continues the dynasty's own history to 1824, and the dynasty
+  # endured in fact until the British annexation of Upper Burma in
+  # 1885; a second pass through the same source, or a later one, would
+  # be needed to carry this record further.
+  end: { min: 1760, max: 1760, source: harvey-burma-1925 }
+
+identity: >-
+  A village headman's dynasty, raised from a stockade of felled toddy
+  trees against a Talaing army that had just burned the old Burmese
+  capital, and carried in eight years to the homage of French and
+  English captains before its own founder died on retreat from a
+  failed siege he had launched too late in the season.
+
+capitals:
+  - { name: Shwebo (Moksobomyo), from: 1752, source: harvey-burma-1925 }
+
+core_region: Upper Burma, expanding under its founder to Lower Burma and briefly into Siam
+
+rulers:
+  # harvey-1925 dates Alaungpaya's own birth to 1714 at Shwebo, his
+  # rising against the Talaings to 1752, and his death, on the retreat
+  # from Ayutthaya, to 11 May 1760.
+  founder: { name: Alaungpaya, reign: [1752, 1760], source: harvey-burma-1925 }
+  # Provisional. This record currently covers only Alaungpaya's own
+  # reign, and his own conquests - reunifying Burma and receiving the
+  # homage of foreign trading captains within eight years - are the
+  # only ones it can credit with a territorial peak; his son
+  # Hsinbyushin's own later reach may displace him once that reign is
+  # added.
+  peak: { name: Alaungpaya, reign: [1752, 1760], source: harvey-burma-1925 }
+  last: { name: null, source: null }
+
+scripts_and_languages:
+  administration: [Burmese]
+  writing_system: Burmese script
+
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  # harvey-1925 records Alaungpaya claiming descent from a fifteenth-
+  # century Ava commandant, Nawrahta, though the source calls the
+  # genealogy unproved; his own real authority rested on his standing
+  # as hereditary myothugyi (headman) of Shwebo and the loyalty his
+  # own resistance to the Talaings earned from neighbouring villages.
+  legitimation: { values: [descent, conquest], source: harvey-burma-1925 }
+
+preceded_by_external: []
+
+succeeded_by_external: []
+
+ended: null
+
+turning_points:
+  - year: 1752
+    type: revolt
+    name: "The stockade at Shwebo"
+    changed: >-
+      Rather than submit to the victorious Talaings as his own father
+      urged, Alaungpaya fortified his village with a stockade of
+      felled toddy trees and a moat, ambushed the Talaing detachment
+      sent to collect his family's homage, and destroyed a much larger
+      punitive force soon after in a night sortie that Burmese
+      soldiers credited to the spirit Rider of the White Horse fighting
+      at their side - the start of an uprising that drew fighters from
+      across Upper Burma within months.
+    source: harvey-burma-1925
+    contested: false
+  - year: 1753
+    type: siege
+    name: "Alaungpaya camps under the walls of Ava"
+    changed: >-
+      Within eighteen months of the Talaing sack of Ava, Alaungpaya's
+      own forces had reversed the position entirely, camping under the
+      city's own walls and beating back Talaing attempts to dislodge
+      them - a reversal harvey-1925 credits to the willingness of
+      rival Upper Burma leaders, men "who had not to go back nine
+      generations to claim royal blood," to place their own forces
+      under Alaungpaya rather than compete with him.
+    source: harvey-burma-1925
+    contested: false
+  - year: 1760
+    type: catastrophe
+    name: "Death on the retreat from Ayutthaya"
+    changed: >-
+      A siege of the Siamese capital Ayutthaya, launched too late in
+      the dry season and undermined by dysentery in his own camp,
+      forced Alaungpaya into retreat; already ill, he died at dawn on
+      11 May 1760 during the withdrawal, his death kept secret by his
+      own attendants - who continued issuing orders in his name from
+      his curtained litter - until the crown prince could be secured
+      on the throne at Shwebo.
+    source: harvey-burma-1925
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
