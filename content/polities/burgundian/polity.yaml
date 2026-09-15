@@ -2,9 +2,9 @@ id: burgundian
 region: frankish-world
 
 name:
-  latin: Regnum Burgundionum
-  script: null
-  script_lang: null
+  latin: Burgundian Kingdom
+  script: Regnum Burgundionum
+  script_lang: la
 
 span:
   # Guntiarius, the first Burgundian king Roman sources name, appears in

@@ -3,8 +3,8 @@ region: rus-and-muscovy
 
 name:
   latin: Vladimir-Suzdal
-  script: null
-  script_lang: null
+  script: Владимиро-Суздальское княжество
+  script_lang: orv
 
 span:
   # Yuri Dolgoruki, prince of Rostov-Suzdal, died in 1157 and his son

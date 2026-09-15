@@ -4,7 +4,7 @@ region: pre-islamic-iran
 name:
   latin: Parthian Empire
   script: 𐭀𐭔𐭊𐭍𐭉𐭀
-  script_lang: pal
+  script_lang: xpr
 
 span:
   start: { min: -247, max: -247, source: chi-3 }

@@ -4,7 +4,7 @@ region: anatolia
 name:
   latin: Empire of Trebizond
   script: Αὐτοκρατορία τῆς Τραπεζοῦντας
-  script_lang: el
+  script_lang: grc
 
 span:
   start: { min: 1204, max: 1204, source: treadgold-1997 }

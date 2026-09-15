@@ -3,8 +3,14 @@ region: italy
 
 name:
   latin: Kingdom of Naples
-  script: null
-  script_lang: null
+  # The kingdom's own chancery style after 1282 was still, confusingly,
+  # "Regnum Siciliae citra Pharum" - the Sicilian royal title the
+  # Angevins kept using for the mainland alone, "this side of the
+  # Lighthouse" at Messina. Regnum Neapolitanum is the form historians
+  # use for exactly this record's own mainland-only span, and the one
+  # given here for that reason.
+  script: Regnum Neapolitanum
+  script_lang: la
 
 span:
   # Charles of Anjou held the whole Kingdom of Sicily, island and mainland

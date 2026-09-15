@@ -3,8 +3,8 @@ region: rus-and-muscovy
 
 name:
   latin: Principality of Tver
-  script: null
-  script_lang: null
+  script: Тверское княжество
+  script_lang: orv
 
 span:
   # Tver was carved out of the appanage of Pereiaslavl during the

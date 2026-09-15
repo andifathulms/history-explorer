@@ -3,8 +3,8 @@ region: post-roman-west
 
 name:
   latin: Suebic Kingdom of Gallaecia
-  script: null
-  script_lang: null
+  script: Regnum Suevorum
+  script_lang: la
 
 # 411 is the year Hydatius's own chronicle gives for the division of Spain by
 # lot among the barbarian groups who had crossed into it in 409, with the

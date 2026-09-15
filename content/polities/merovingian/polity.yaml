@@ -2,9 +2,9 @@ id: merovingian
 region: frankish-world
 
 name:
-  latin: Regnum Francorum
-  script: null
-  script_lang: null
+  latin: Merovingian Kingdom
+  script: Regnum Francorum
+  script_lang: la
 
 span:
   # Childeric I died in 481 and his sixteen-year-old son Clovis succeeded

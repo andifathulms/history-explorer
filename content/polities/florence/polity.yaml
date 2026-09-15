@@ -3,8 +3,8 @@ region: italy
 
 name:
   latin: Republic of Florence
-  script: null
-  script_lang: null
+  script: Res Publica Florentina
+  script_lang: la
 
 span:
   # A consular government is attested in Florence by 1102; the death of

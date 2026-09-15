@@ -4,7 +4,7 @@ region: turkic-steppe
 name:
   latin: Khazar Khaganate
   script: Xazar
-  script_lang: kdr
+  script_lang: zkz
 
 span:
   start: { min: 650, max: 650, source: golden-1992 }

@@ -3,8 +3,8 @@ region: italy
 
 name:
   latin: Papal States
-  script: null
-  script_lang: null
+  script: Status Pontificius
+  script_lang: la
 
 span:
   # mann-1902's own footnote on the Lombard king Liutprand's 728

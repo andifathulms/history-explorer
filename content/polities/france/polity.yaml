@@ -3,8 +3,8 @@ region: frankish-world
 
 name:
   latin: Kingdom of France
-  script: null
-  script_lang: null
+  script: Royaume de France
+  script_lang: fr
 
 span:
   start: { min: 987, max: 987, source: kitchin-1899 }
