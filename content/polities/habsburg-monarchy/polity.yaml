@@ -23,22 +23,24 @@ name:
 # of the Austrian lands themselves.
 span:
   start: { min: 1526, max: 1526, source: coxe-austria-1847 }
-  # This record currently covers Ferdinand I's own accession to Bohemia
-  # and Hungary, the 1529 and 1532 Ottoman invasions turned back at
-  # Vienna and Güns, and the collapse of his claim to a united Hungary
-  # through Martinuzzi's regency for the infant John Sigismund, down to
-  # the humiliating five-year truce of August 1545 - not an
-  # institutional end. Target roughly 15-18 chapters overall,
-  # consolidated by era and reign (on the Ottoman record's own model)
-  # rather than the much finer battle-by-battle density of
-  # house-of-austria's original draft: the Reformation era and the
-  # Peace of Augsburg; the Thirty Years' War from Austria's own side
-  # (the direct sequel to Bohemia's own 1620 ending); Leopold I and the
-  # 1683 Siege of Vienna; Charles VI and the Pragmatic Sanction; Maria
-  # Theresa's wars and reforms; Joseph II's enlightened absolutism;
-  # and Francis II's 1804 self-coronation as Emperor of Austria, which
-  # will need a second source since coxe-austria-1847 stops in 1792.
-  end: { min: 1545, max: 1545, source: coxe-austria-1847 }
+  # This record currently runs Ferdinand I's own founding through
+  # Leopold I's reconquest of Hungary: the Ottoman wars and the 1545
+  # and 1562 truces; Ferdinand's own 1547 crushing of the Bohemian
+  # estates and the end of their elective crown; Maximilian II's
+  # toleration and the 1566 death of Süleyman at Szigetvár; Rudolf II's
+  # decline, Matthias's usurpation, and the 1609 Letter of Majesty;
+  # the 1618 Defenestration of Prague and the Thirty Years' War down to
+  # the 1648 Peace of Westphalia; and Leopold I's own Ottoman wars,
+  # closing with the 1683 Siege of Vienna and the 1699 Peace of
+  # Karlowitz - not an institutional end. Target roughly 18-20 chapters
+  # overall, consolidated by era and reign (on the Ottoman record's own
+  # model) rather than the much finer battle-by-battle density of
+  # house-of-austria's original draft: the War of the Spanish
+  # Succession and Charles VI's Pragmatic Sanction; Maria Theresa's
+  # wars and reforms; Joseph II's enlightened absolutism; and Francis
+  # II's 1804 self-coronation as Emperor of Austria, which will need a
+  # second source since coxe-austria-1847 stops in 1792.
+  end: { min: 1699, max: 1699, source: coxe-austria-1847 }
 
 identity: >-
   The composite Austria-Bohemia-Hungary state Ferdinand I built from a
@@ -59,12 +61,12 @@ rulers:
   # on 26 October 1526; crowned King of Hungary at Székesfehérvár after
   # a contested double election against John Zápolya the same year.
   founder: { name: "Ferdinand I", reign: [1526, 1564], source: coxe-austria-1847 }
-  # Provisional: the only ruler this record's chapters currently cover.
-  # Centuries of Habsburg history remain to be added - Charles VI's own
-  # reach as much of Europe accepted the Pragmatic Sanction, Maria
-  # Theresa's - and will very likely displace Ferdinand from this field
-  # once they are.
-  peak: { name: "Ferdinand I", reign: [1526, 1564], source: coxe-austria-1847 }
+  # Provisional. Leopold I's reconquest of Hungary, completed by the
+  # 1699 Peace of Karlowitz, is the high-water mark among the reigns
+  # this record covers so far - but Charles VI's own reach, as most of
+  # Europe accepted the Pragmatic Sanction, and Maria Theresa's, remain
+  # to be added and will very likely displace him from this field.
+  peak: { name: "Leopold I", reign: [1657, 1705], source: coxe-austria-1847 }
   last: null
 
 scripts_and_languages:
@@ -169,6 +171,76 @@ turning_points:
       time being, the three-way partition of the old Hungarian kingdom
       between Habsburg, Ottoman and Transylvanian rule that would
       outlast his own reign.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1547
+    type: revolt
+    name: "The Bloody Diet"
+    changed: >-
+      Ferdinand crushed a Bohemian confederacy raised to defend the
+      kingdom's elective constitution, executing and imprisoning its
+      leaders and stripping Prague's own towns of their arms and
+      privileges - a reckoning that let him convert Bohemia's crown
+      from elective to hereditary within his own lifetime, secured
+      formally by his son Maximilian's 1562 coronation as heir.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1609
+    type: reform
+    name: "The Letter of Majesty"
+    changed: >-
+      Facing an armed Bohemian confederacy his own brother Matthias's
+      rival claim left him no means to resist, Rudolf II granted full
+      Protestant freedom of worship and a standing right of armed
+      defenders to enforce it - a concession torn up within a decade,
+      but which set the terms the 1618 revolt would be fought over.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1618
+    type: revolt
+    name: "The Defenestration of Prague"
+    changed: >-
+      Protestant nobles threw two royal councillors and a secretary
+      from a window of Prague Castle over a disputed church closure,
+      an act that revived Bohemia's old confederacy, deposed Ferdinand
+      II in favour of the Calvinist Frederick V, and opened the war
+      that would run for three decades across the whole empire.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1620
+    type: battle
+    name: "The Battle of White Mountain"
+    changed: >-
+      Ferdinand II's Catholic League army broke Frederick V's forces
+      outside Prague in a single afternoon; the "Winter King" fled the
+      city by night, and the reprisal that followed - mass executions,
+      confiscations, and the effective abolition of the Letter of
+      Majesty - fixed Bohemia's Counter-Reformation settlement for the
+      remainder of Habsburg rule.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1648
+    type: treaty
+    name: "The Peace of Westphalia"
+    changed: >-
+      Signed at Osnabrück and Münster after three decades of war that
+      had long outgrown its Bohemian origins, the peace ceded Alsace
+      to France and territory to Sweden, gave Calvinists legal standing
+      equal to Lutherans, and froze the ownership of disputed church
+      property to its 1624 pattern - ending the empire's bloodiest
+      religious war without settling it by victory for either faith.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1683
+    type: siege
+    name: "The second Ottoman siege of Vienna"
+    changed: >-
+      A Grand Vizier's army invested Vienna for two months while
+      Leopold I fled the capital; a relief force under John Sobieski of
+      Poland broke the siege from the Kahlenberg heights on 12
+      September, and the campaign that followed pushed Ottoman power
+      out of most of Hungary within a generation, ending in the 1699
+      Peace of Karlowitz.
     source: coxe-austria-1847
     contested: false
 
