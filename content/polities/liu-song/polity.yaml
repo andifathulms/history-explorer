@@ -1,0 +1,112 @@
+id: liu-song
+region: china
+
+name:
+  latin: Liu Song (Southern) Dynasty
+  script: 宋
+  script_lang: zh
+
+span:
+  start: { min: 420, max: 420, source: boulger-china-1881 }
+  # boulger-china-1881 dates the deposition that ended the dynasty to
+  # 479, when Xiao Daocheng (Siaotaoching), founder of the Southern
+  # Qi, deposed the child emperor Shundi (Chunti).
+  end: { min: 479, max: 479, source: boulger-china-1881 }
+
+identity: >-
+  One ruler among six rival northern kingdoms rather than a restored
+  empire, founded by a general who seized the south and immediately
+  fell into a string of murdered, deposed and infant emperors before a
+  general of its own overthrew it in turn.
+
+capitals:
+  - { name: Jiankang (Nanjing), source: boulger-china-1881 }
+
+core_region: The lower Yangtze valley and southern China, opposite the Northern Wei kingdom across the Yellow River basin
+
+rulers:
+  # boulger-china-1881 records Liu Yu taking the imperial title in
+  # 420 under the dynastic name Song and the personal style Kaotsou.
+  founder: { name: "Liu Yu (Kaotsou)", reign: [420, 422], source: boulger-china-1881 }
+  # boulger-china-1881 credits Wenti with the dynasty's most
+  # substantial and least catastrophic reign, though his own
+  # generals' campaigns against Wei ended in heavy losses and his own
+  # eventual murder by his son.
+  peak: { name: Wenti, reign: [424, 453], source: boulger-china-1881 }
+  # boulger-china-1881 names the child emperor Shundi (Chunti) as the
+  # last Song ruler, deposed by Xiao Daocheng in 479.
+  last: { name: "Shundi (Chunti)", reign: [477, 479], source: boulger-china-1881 }
+
+scripts_and_languages:
+  administration: [Classical Chinese]
+  writing_system: Chinese characters
+
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  # boulger-china-1881 records Liu Yu's own rise from general of the
+  # preceding Eastern Jin to founder of the Song by force, and
+  # thereafter a succession repeatedly settled by murder and
+  # deposition rather than any observed rule - Chowti deposed and
+  # secretly killed by his own nobles, Wenti murdered by his son
+  # Vouti, and Mingti's own admitted massacre of fourteen nephews and
+  # brothers to secure his throne.
+  legitimation: { values: [conquest], source: boulger-china-1881 }
+
+# The Eastern Jin, whose last emperor Liu Yu deposed and had
+# murdered, is already a record in this collection (jin-sima); see
+# edges.yaml.
+preceded_by_external: []
+
+succeeded_by_external: []
+
+ended:
+  type: internal usurpation
+  by: []
+  year: 479
+  source: boulger-china-1881
+
+turning_points:
+  - year: 420
+    type: succession-crisis
+    name: "Liu Yu founds the Song"
+    changed: >-
+      Liu Yu, a successful general of the preceding Jin dynasty, took
+      the imperial title as Kaotsou - not as a restoration of unified
+      rule, boulger-china-1881 stresses, but as a seventh competitor
+      among six rival kingdoms already established across the
+      northern provinces, "never more than one ruler among many."
+    source: boulger-china-1881
+    contested: false
+  - year: 453
+    type: succession-crisis
+    name: "A parricide ends Wenti's reign"
+    changed: >-
+      Wenti, whose thirty-year reign was the dynasty's most stable,
+      was murdered by his own son Vouti (Liu Shao) - opening a run of
+      short, violent reigns, including Mingti's own admitted massacre
+      of fourteen nephews and brothers, that boulger-china-1881
+      treats as characteristic of the dynasty's second half.
+    source: boulger-china-1881
+    contested: false
+  - year: 479
+    type: succession-crisis
+    name: "Xiao Daocheng deposes the child emperor"
+    changed: >-
+      Xiao Daocheng deposed the boy emperor Shundi, ending the Song
+      dynasty after fifty-nine years and founding the Southern Qi in
+      its place - the same pattern of a successful general supplanting
+      an exhausted imperial line that had brought the Song itself to
+      power two generations earlier.
+    source: boulger-china-1881
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
