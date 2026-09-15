@@ -1,0 +1,111 @@
+id: chandela
+region: northern-india
+
+name:
+  latin: Chandela Dynasty of Jejakabhukti
+  script: चंदेल
+  script_lang: hi
+
+# smith-1904 dates Nannuka Chandel's overthrow of a Parihar chieftain
+# in southern Jejakabhukti to "about A.D. 831".
+span:
+  start: { min: 831, max: 831, source: smith-1904 }
+  # smith-1904 dates the fall of Kalanjar to Qutb al-Din Aibak, ending
+  # organised Chandela resistance, to the spring of 1203.
+  end: { min: 1203, max: 1203, source: smith-1904 }
+
+identity: >-
+  Hinduized Gonds who carved a Bundelkhand kingdom out of Pratihara
+  territory, built the temples of Khajuraho, propped up and then
+  outlasted Kanauj's own declining power, and held out at Kalanjar
+  until drought, not battle, forced their final surrender.
+
+capitals:
+  - { name: Mahoba, source: smith-1904 }
+  - { name: Kalanjar, source: smith-1904 }
+  - { name: Khajuraho, source: smith-1904 }
+
+core_region: Jejakabhukti, the historical name for Bundelkhand, between the Jumna and Narmada rivers
+
+rulers:
+  founder: { name: "Nannuka Chandel", reign: [831, null], source: smith-1904 }
+  # smith-1904 calls Dhanga "the most notable of his family," crediting
+  # him with the grandest of the Khajuraho temples and a reign, from
+  # about 950 to 999, over a dynasty by then plainly independent of
+  # Kanauj.
+  peak: { name: "Dhanga", reign: [950, 999], source: smith-1904 }
+  # smith-1904 dates Paramardi's (Parmal's) own reign 1165-1203; he was
+  # the last Chandel king "to play any considerable part upon the
+  # stage of history."
+  last: { name: "Paramardi (Parmal)", reign: [1165, 1203], source: smith-1904 }
+
+scripts_and_languages:
+  administration: [Sanskrit]
+  writing_system: Nagari
+
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  # smith-1904 describes the Chandels as Hinduized Gonds closely
+  # connected to the Bhars, a lineage of local, non-Rajput origin
+  # distinct from the Gurjara-descended clans of the Agnikula legend -
+  # descent and, in Nannuka's own founding act, conquest.
+  legitimation: { values: [conquest, descent], source: smith-1904 }
+
+preceded_by_external: []
+
+succeeded_by_external: []
+
+ended:
+  type: conquest
+  by: []
+  year: 1203
+  source: smith-1904
+
+turning_points:
+  - year: 916
+    type: battle
+    name: "Harsha Chandel restores Mahipala to Kanauj"
+    changed: >-
+      Chandel forces under Harsha helped the Pratihara king Mahipala
+      recover Kanauj after the Rashtrakuta sack of the same year - the
+      moment a once-subordinate Bundelkhand chieftaincy first acted as
+      Kanauj's own ally rather than its tributary, and the beginning of
+      a shift in power the following generation would make permanent.
+    source: smith-1904
+    contested: false
+  - year: 950
+    type: succession-crisis
+    name: "Yasovarman humbles Kanauj"
+    changed: >-
+      Strengthened by his own occupation of the fortress of Kalanjar,
+      Yasovarman compelled the Pratihara king Devapala to surrender a
+      prized image of Vishnu for a new temple at Khajuraho - a small
+      transaction smith-1904 reads as proof the once-subordinate
+      Chandel kingdom had grown stronger than its old Pratihara
+      overlord.
+    source: smith-1904
+    contested: false
+  - year: 1203
+    type: siege
+    name: "The fall of Kalanjar"
+    changed: >-
+      Parmal's own minister Aj Deo held the fortress of Kalanjar
+      against Qutb al-Din Aibak's siege even after his king's death,
+      until a severe drought dried up every reservoir inside the walls
+      and forced surrender - closing, in a contemporary Muhammadan
+      historian's own account smith-1904 quotes, "the fort of Kalanjar,
+      which was celebrated throughout the world for being as strong as
+      the wall of Alexander."
+    source: smith-1904
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
