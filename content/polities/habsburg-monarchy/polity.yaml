@@ -24,19 +24,21 @@ name:
 span:
   start: { min: 1526, max: 1526, source: coxe-austria-1847 }
   # This record currently covers Ferdinand I's own accession to Bohemia
-  # and Hungary and the opening of his war with John Zápolya, through
-  # his February 1527 coronation at Prague - not an institutional end.
-  # Target roughly 15-18 chapters overall, consolidated by era and
-  # reign (on the Ottoman record's own model) rather than the much
-  # finer battle-by-battle density of house-of-austria's original
-  # draft: the 1529 Siege of Vienna; the Reformation era and the Peace
-  # of Augsburg; the Thirty Years' War from Austria's own side (the
-  # direct sequel to Bohemia's own 1620 ending); Leopold I and the
+  # and Hungary, the 1529 and 1532 Ottoman invasions turned back at
+  # Vienna and Güns, and the collapse of his claim to a united Hungary
+  # through Martinuzzi's regency for the infant John Sigismund, down to
+  # the humiliating five-year truce of August 1545 - not an
+  # institutional end. Target roughly 15-18 chapters overall,
+  # consolidated by era and reign (on the Ottoman record's own model)
+  # rather than the much finer battle-by-battle density of
+  # house-of-austria's original draft: the Reformation era and the
+  # Peace of Augsburg; the Thirty Years' War from Austria's own side
+  # (the direct sequel to Bohemia's own 1620 ending); Leopold I and the
   # 1683 Siege of Vienna; Charles VI and the Pragmatic Sanction; Maria
   # Theresa's wars and reforms; Joseph II's enlightened absolutism;
   # and Francis II's 1804 self-coronation as Emperor of Austria, which
   # will need a second source since coxe-austria-1847 stops in 1792.
-  end: { min: 1527, max: 1527, source: coxe-austria-1847 }
+  end: { min: 1545, max: 1545, source: coxe-austria-1847 }
 
 identity: >-
   The composite Austria-Bohemia-Hungary state Ferdinand I built from a
@@ -116,6 +118,57 @@ turning_points:
       him separately at Székesfehérvár - opening a rival kingship that
       would draw the Ottoman sultan directly into Habsburg affairs
       within three years.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1529
+    type: siege
+    name: "The first Ottoman siege of Vienna"
+    changed: >-
+      Süleyman the Magnificent's army reached Vienna's own walls after
+      an almost unopposed advance through Hungary, and was turned back
+      after thirty days by a dilapidated garrison under Nicholas of
+      Salm, helped by the loss of the Turkish siege artillery to the
+      Pressburg garrison - the young composite state's first proof
+      that it could survive an existential Ottoman campaign rather
+      than simply lose Hungary to one.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1532
+    type: siege
+    name: "Güns, and Süleyman's second withdrawal"
+    changed: >-
+      An eight-hundred-man garrison at Güns held Süleyman's renewed
+      invasion for nearly a month, giving Charles V time to gather a
+      combined Catholic-Protestant army of well over a hundred thousand
+      at Vienna - a mobilisation of the whole empire behind the young
+      state's own defence that Süleyman chose not to test, turning
+      back to Graz and then home without a second attempt on the
+      capital.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1541
+    type: siege
+    name: "The fall of Buda"
+    changed: >-
+      Süleyman took Buda by stratagem while relieving Bishop
+      Martinuzzi's regency government from Ferdinand's own siege,
+      installed a janissary garrison in the citadel, and kept the
+      captured queen and infant king in his own hands - converting a
+      contested Hungarian succession into direct Ottoman possession of
+      the kingdom's own capital and the Danube corridor it commanded.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1545
+    type: treaty
+    name: "The five-year truce"
+    changed: >-
+      Exhausted by two decades of intermittent war and unable to
+      recover Buda, Ferdinand accepted a truce that bound him to pay
+      an annual tribute of thirty thousand ducats and hold what
+      remained of royal Hungary as an Ottoman fief - settling, for the
+      time being, the three-way partition of the old Hungarian kingdom
+      between Habsburg, Ottoman and Transylvanian rule that would
+      outlast his own reign.
     source: coxe-austria-1847
     contested: false
 
