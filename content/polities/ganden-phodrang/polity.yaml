@@ -1,0 +1,129 @@
+id: ganden-phodrang
+region: tibet
+
+name:
+  latin: Ganden Phodrang (Dalai Lama's Government)
+  script: དགའ་ལྡན་ཕོ་བྲང
+  script_lang: bo
+
+# bell-1924 dates the Tsang king's defeat of the last Sitya ruler,
+# the event that set the founding conquest in motion, to 1635, and
+# states only that Gushi Khan subdued that same Tsang king and
+# installed the fifth Dalai Lama "a few years later" - no more
+# precise year is given for the installation itself in this source
+# (the figure of 1642 more commonly cited elsewhere comes from
+# elsewhere), so the span starts at the dated event that opens the
+# chain leading to it.
+span:
+  start: { min: 1635, max: 1635, source: bell-1924 }
+  # This record currently runs through the 1750 Lhasa massacre of the
+  # Chinese Ambans and the Qianlong Emperor's restoration of Chinese
+  # ascendancy afterward - not an institutional end. The Ganden
+  # Phodrang continued as Tibet's own government for two more
+  # centuries after bell-1924's own narrative moves on to other
+  # subjects; a source covering the twentieth century would be needed
+  # to carry this record to 1959.
+  end: { min: 1750, max: 1750, source: bell-1924 }
+
+identity: >-
+  The Dalai Lama's own government, installed by a Mongol khan who
+  crushed a rival Tibetan king, run for decades by an able regent who
+  built the Potala in the Fifth Dalai Lama's name, and drawn steadily
+  under Chinese oversight after a disputed reincarnation split
+  Tibetans, Mongols and the Qing court against each other.
+
+capitals:
+  - { name: Lhasa, source: bell-1924 }
+
+core_region: Central Tibet, administered from Lhasa
+
+rulers:
+  # bell-1924 names Gushi Khan, chief of the Oelöt (Khoshut) Mongols,
+  # as the military power that installed the fifth Dalai Lama on the
+  # Tibetan throne after subduing the king of Tsang.
+  founder: { name: "Lobsang Gyatso, the Fifth Dalai Lama", source: bell-1924 }
+  # bell-1924 calls Lobsang Gyatso "The Great Fifth," the only Dalai
+  # Lama besides the seventh known popularly by an honorific rather
+  # than simply his number, and credits his reign and that of his
+  # Chief Minister Sang-gye Gyatso with centralising the government
+  # and completing the Potala in its present form.
+  peak: { name: "Lobsang Gyatso, the Fifth Dalai Lama", reign: [1642, 1680], source: bell-1924 }
+  last: { name: null, source: null }
+
+scripts_and_languages:
+  administration: [Tibetan]
+  writing_system: Tibetan script
+
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  # bell-1924 records the fifth Dalai Lama's own installation by Gushi
+  # Khan's conquest, and the seventh Dalai Lama's own enthronement,
+  # after Tibetan and Mongol rejection of a Chinese-nominated rival,
+  # only once a Chinese army arrived "to enthrone" the Tibetans' own
+  # choice - conquest and religious recognition operating together
+  # rather than either one alone.
+  legitimation: { values: [conquest, divine-sanction, investiture], source: bell-1924 }
+
+preceded_by_external: []
+
+succeeded_by_external: []
+
+ended: null
+
+turning_points:
+  - year: 1635
+    type: battle
+    name: "The Tsang king's rise"
+    changed: >-
+      The king of Tsang defeated the last ruler of the Sitya dynasty,
+      briefly bringing a rival, non-Gelug power to dominance in
+      Central Tibet - the immediate instability that gave Gushi Khan
+      his own opening a few years later.
+    source: bell-1924
+    contested: false
+  - year: 1642
+    type: battle
+    name: "Gushi Khan installs the Fifth Dalai Lama"
+    changed: >-
+      Gushi Khan, chief of the Oelöt Mongols, subdued the king of
+      Tsang and installed the fifth Dalai Lama on the Tibetan throne -
+      founding a government under which His Holiness soon retired
+      "to the higher sphere of things religious," leaving secular
+      affairs to his own Chief Minister, Sang-gye Gyatso.
+    source: bell-1924
+    contested: false
+  - year: 1706
+    type: succession-crisis
+    name: "The execution of the Sixth Dalai Lama"
+    changed: >-
+      Doubts over the unorthodox sixth Dalai Lama, Tsang-yang Gyatso,
+      let the Chinese and their Mongol allies remove and kill him,
+      installing their own nominee in his place - a choice most
+      Mongols and Tibetans refused to accept, touching off years of
+      conflict that ended only when a Chinese army marched to Lhasa in
+      1720 to enthrone the child the Tibetans themselves had chosen.
+    source: bell-1924
+    contested: false
+  - year: 1750
+    type: revolt
+    name: "The Lhasa massacre of the Ambans"
+    changed: >-
+      The Chinese Residents (Ambans) murdered the Tibetan Regent, and
+      the people of Lhasa massacred the Chinese in turn; the Qianlong
+      Emperor's army restored Chinese ascendancy and strengthened the
+      Ambans' own standing afterward - deepening, rather than
+      loosening, Qing oversight of the Ganden Phodrang's own
+      government.
+    source: bell-1924
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
