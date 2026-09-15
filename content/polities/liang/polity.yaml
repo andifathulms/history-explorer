@@ -1,0 +1,111 @@
+id: liang
+region: china
+
+name:
+  latin: Liang Dynasty
+  script: 梁
+  script_lang: zh
+
+span:
+  start: { min: 502, max: 502, source: boulger-china-1881 }
+  # boulger-china-1881 dates the murder of the last Liang emperor,
+  # Jingdi (Kingti), by the general Chen Baxian to 557, the year
+  # Chen Baxian founded the Chen dynasty.
+  end: { min: 557, max: 557, source: boulger-china-1881 }
+
+identity: >-
+  A dynasty whose long-reigning founder abolished capital punishment,
+  fought Northern Wei to an exhausted standstill for half a century,
+  and at eighty years old surrendered his capital to his own rebel
+  vassal, dying with the words "it was I who raised my family and it
+  is I who have destroyed it."
+
+capitals:
+  - { name: Jiankang (Nanjing), source: boulger-china-1881 }
+
+core_region: The lower Yangtze valley and southern China, opposite the Northern Wei kingdom
+
+rulers:
+  # boulger-china-1881 records Xiao Yan (Siaoyen), a cadet of the
+  # fallen Qi ruling family, founding the Liang and taking the
+  # personal style Wuti in 502.
+  founder: { name: "Xiao Yan (Wuti)", reign: [502, 549], source: boulger-china-1881 }
+  # boulger-china-1881 credits Wuti's own forty-seven-year reign,
+  # longer than any other Liang ruler's and longer than any Song or
+  # Qi reign, as the dynasty's peak, calling him "the greatest and
+  # most praiseworthy prince" of the whole troubled span between the
+  # Han and the Tang.
+  peak: { name: "Xiao Yan (Wuti)", reign: [502, 549], source: boulger-china-1881 }
+  # boulger-china-1881 names Jingdi (Kingti), Yuandi's ninth son, as
+  # the last Liang ruler, reigning two years before his murder.
+  last: { name: "Jingdi (Kingti)", reign: [555, 557], source: boulger-china-1881 }
+
+scripts_and_languages:
+  administration: [Classical Chinese]
+  writing_system: Chinese characters
+
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  legitimation: { values: [conquest], source: boulger-china-1881 }
+
+# The Southern Qi, whose last emperor Hoti Xiao Yan deposed and had
+# murdered to found this dynasty, is already a record in this
+# collection (southern-qi); see edges.yaml.
+preceded_by_external: []
+
+succeeded_by_external: []
+
+ended:
+  type: internal usurpation
+  by: []
+  year: 557
+  source: boulger-china-1881
+
+turning_points:
+  - year: 502
+    type: reform
+    name: "Wuti abolishes capital punishment"
+    changed: >-
+      Xiao Yan's abolition of capital punishment, one of his first
+      acts as emperor, was followed by what boulger-china-1881 calls
+      a great increase in crime, and he was soon obliged to suspend
+      the well-meant but "very injudicious" experiment - an early sign
+      of the idealism that would also mark the end of his reign.
+    source: boulger-china-1881
+    contested: false
+  - year: 507
+    type: battle
+    name: "The wars with Wei reach their peak"
+    changed: >-
+      Wuti fielded an army of two hundred thousand men under his one
+      reliably successful general, Weijoui, in a renewed war against
+      Northern Wei that had already seen the heroic defence of Chouyang
+      by Mengqi (Mongchi), wife of its commandant, during her
+      husband's absence - decades of fighting that left neither side
+      able to decisively defeat the other.
+    source: boulger-china-1881
+    contested: false
+  - year: 549
+    type: siege
+    name: "Hou Jing's rebellion"
+    changed: >-
+      Wuti's own vassal Hou Jing (Heou King) renounced his allegiance,
+      published an indictment of the emperor, and besieged and
+      captured the capital; the eighty-year-old Wuti, reduced to a
+      captive in his own palace, is recorded by boulger-china-1881 as
+      saying "it was I who raised my family and it is I who have
+      destroyed it. I have no reason to complain" shortly before his
+      own death.
+    source: boulger-china-1881
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

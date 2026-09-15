@@ -4569,3 +4569,14 @@ edges:
       the same way.
     source: boulger-china-1881
     contested: false
+
+  - from: southern-qi
+    to: liang
+    type: overthrew
+    year: 502
+    note: >-
+      Xiao Yan, avenging his own brother Xiao Yi's assassination on
+      Mingti's orders, deposed and murdered the teenage emperor Hoti
+      and founded the Liang dynasty in the Qi's place.
+    source: boulger-china-1881
+    contested: false
