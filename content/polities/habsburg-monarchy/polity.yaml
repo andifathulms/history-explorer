@@ -16,13 +16,14 @@ name:
 # following the source's own periodization.
 span:
   start: { min: 1273, max: 1273, source: coxe-austria-1847 }
-  # This record currently runs only to the 1487 armistice ceding
-  # Austria to Matthias Corvinus's occupation - the last event its
-  # sourced chapters cover, not an institutional end. The Habsburg
+  # This record currently runs only to the death of Matthias Corvinus
+  # in April 1490, which reopened Habsburg Austria's own path home
+  # after more than a decade of Hungarian occupation - the last event
+  # its sourced chapters cover, not an institutional end. The Habsburg
   # Monarchy has no end within this source's own scope, let alone in
   # reality: it continued, through the Austrian Empire and Austria-
   # Hungary, into the twentieth century.
-  end: { min: 1487, max: 1487, source: coxe-austria-1847 }
+  end: { min: 1490, max: 1490, source: coxe-austria-1847 }
 
 identity: >-
   A minor Swabian count's family, raised to the German crown by
@@ -644,6 +645,30 @@ turning_points:
       force of arms rather than the marriage contract alone.
     source: coxe-austria-1847
     contested: false
+  - year: 1482
+    type: treaty
+    name: "The Treaty of Arras"
+    changed: >-
+      Mary's sudden death left Flanders openly hostile to Maximilian's
+      own claim to govern; Louis XI negotiated directly with the
+      Flemish estates over his head, betrothing his infant daughter
+      Margaret to the French dauphin with a dowry of Franche-Comté and
+      Artois, and stripping Maximilian of any real role in his own
+      children's upbringing.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1486
+    type: succession-crisis
+    name: "Maximilian elected King of the Romans in secret"
+    changed: >-
+      Frederick secured his son's succession to the imperial title
+      through a rushed, deliberately concealed election that excluded
+      Bohemia's own king from a process he had a documented right to
+      join, provoking a crisis nearly serious enough to reopen the
+      whole succession before Frederick's personal mediation secured
+      Bohemian recognition.
+    source: coxe-austria-1847
+    contested: false
   - year: 1487
     type: catastrophe
     name: "Vienna falls, Frederick driven into exile"
@@ -654,6 +679,50 @@ turning_points:
       an armistice ceded occupied Austria to Matthias outright, leaving
       Frederick a wandering exile in his own empire until repayment of
       his old debts could win it back.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1488
+    type: revolt
+    name: "Maximilian imprisoned at Bruges"
+    changed: >-
+      A city he had entered under promise of loyal support instead rose
+      against him within a day, held him captive for months while
+      torturing and executing his own ministers, and voted his son's
+      guardianship to a new government before Frederick's own march on
+      Brabant forced his release that May.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1488
+    type: battle
+    name: "The Battle of Saint-Aubin"
+    changed: >-
+      France crushed the anti-royal alliance Maximilian had helped
+      build with Brittany and a faction of discontented French nobles
+      over the previous two years, capturing his own confederates and
+      forcing the Breton duke into vassalage - a military collapse that
+      removed his last real leverage against the French crown.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1489
+    type: treaty
+    name: "The Peace of Frankfurt"
+    changed: >-
+      France, keen to turn its own arms against a Brittany now left
+      undefended, restored the territory it had occupied there,
+      reaffirmed the Arras settlement, and used its influence over the
+      Flemish rebels to secure Philip's custody for his own father at
+      last.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1490
+    type: catastrophe
+    name: "The death of Matthias Corvinus"
+    changed: >-
+      Astrologers had promised Frederick his rival would die within the
+      year, and for once they were right: Matthias's death in April,
+      after prolonged illness delayed a planned meeting between the two
+      kings, opened the way for Habsburg Austria's own recovery after
+      more than a decade under Hungarian occupation.
     source: coxe-austria-1847
     contested: false
 
