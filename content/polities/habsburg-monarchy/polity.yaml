@@ -16,19 +16,18 @@ name:
 # following the source's own periodization.
 span:
   start: { min: 1273, max: 1273, source: coxe-austria-1847 }
-  # This record currently runs only to Ladislaus Posthumus's coronation
-  # as King of Bohemia in 1453 - the last event its sourced chapters
-  # cover, not an institutional end. The Habsburg Monarchy has no end
-  # within this source's own scope, let alone in reality: it continued,
-  # through the Austrian Empire and Austria-Hungary, into the twentieth
-  # century.
-  end: { min: 1453, max: 1453, source: coxe-austria-1847 }
+  # This record currently runs only to Ladislaus Posthumus's own death
+  # in 1457 - the last event its sourced chapters cover, not an
+  # institutional end. The Habsburg Monarchy has no end within this
+  # source's own scope, let alone in reality: it continued, through the
+  # Austrian Empire and Austria-Hungary, into the twentieth century.
+  end: { min: 1457, max: 1457, source: coxe-austria-1847 }
 
 identity: >-
   A minor Swabian count's family, raised to the German crown by
   electors who wanted a weak monarch, that briefly reunited Austria,
-  Hungary, Bohemia and the German crown under Albert V, whose death
-  left a posthumous son crowned king of three kingdoms in infancy.
+  Hungary and Bohemia under Albert V, whose posthumous son was crowned
+  king of all three in infancy and died of plague at seventeen.
 
 capitals:
   - { name: Vienna, from: 1280, source: coxe-austria-1847 }
@@ -482,6 +481,43 @@ turning_points:
       Poděbrady, Ladislaus was finally crowned in a kingdom that had
       spent thirteen years arguing over whether an absent infant could
       be trusted to govern it at all.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1456
+    type: battle
+    name: "The Siege of Belgrade"
+    changed: >-
+      John Hunyadi broke an Ottoman river blockade to resupply Belgrade
+      before Sultan Mehmed II's main assault, then rallied defenders
+      who had already lost the walls into driving the Turks back out
+      again, at a cost of some thirty thousand Ottoman dead - a victory
+      that cost Hunyadi his own life to a fever weeks later, and left
+      Ladislaus without the one regent more trusted than the king
+      himself.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1457
+    type: catastrophe
+    name: "Cilli murdered, Ladislaus Hunyadi executed"
+    changed: >-
+      A brawl between Count Cilli and Hunyadi's elder son left Cilli
+      dead; the king publicly pardoned young Ladislaus Hunyadi and his
+      mother's tearful pleas, then had him arrested and beheaded the
+      moment his guard was down - a betrayal that turned Hungary
+      against its own sovereign, who left the kingdom soon after amid
+      the open contempt of its people.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1457
+    type: catastrophe
+    name: "The death of Ladislaus Posthumus"
+    changed: >-
+      Struck down by sudden illness in Prague while preparing to marry
+      a French princess, Ladislaus died within thirty-six hours at
+      seventeen, ending the one reign that had briefly held Austria,
+      Hungary and Bohemia together under a single king - a death German
+      rumor blamed on poison, though the Bohemian historians Coxe
+      follows traced it instead to plague.
     source: coxe-austria-1847
     contested: false
 
