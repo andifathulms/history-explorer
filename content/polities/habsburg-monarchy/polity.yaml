@@ -16,19 +16,19 @@ name:
 # following the source's own periodization.
 span:
   start: { min: 1273, max: 1273, source: coxe-austria-1847 }
-  # This record currently runs only to Albert V's own death in 1439 -
-  # the last event its sourced chapters cover, not an institutional
-  # end. The Habsburg Monarchy has no end within this source's own
-  # scope, let alone in reality: it continued, through the Austrian
-  # Empire and Austria-Hungary, into the twentieth century.
-  end: { min: 1439, max: 1439, source: coxe-austria-1847 }
+  # This record currently runs only to Ladislaus Posthumus's coronation
+  # as King of Bohemia in 1453 - the last event its sourced chapters
+  # cover, not an institutional end. The Habsburg Monarchy has no end
+  # within this source's own scope, let alone in reality: it continued,
+  # through the Austrian Empire and Austria-Hungary, into the twentieth
+  # century.
+  end: { min: 1453, max: 1453, source: coxe-austria-1847 }
 
 identity: >-
   A minor Swabian count's family, raised to the German crown by
-  electors who wanted a weak monarch, that split into rival branches
-  letting banditry overrun Austria itself, then briefly reunited
-  Austria, Hungary, Bohemia and the German crown under Albert V before
-  dysentery cut his reign short.
+  electors who wanted a weak monarch, that briefly reunited Austria,
+  Hungary, Bohemia and the German crown under Albert V, whose death
+  left a posthumous son crowned king of three kingdoms in infancy.
 
 capitals:
   - { name: Vienna, from: 1280, source: coxe-austria-1847 }
@@ -437,6 +437,51 @@ turning_points:
       than two years after becoming the first ruler in a century and a
       half to hold both the imperial crown and the House of Austria's
       own patrimony together.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1440
+    type: succession-crisis
+    name: "Ladislaus Posthumus crowned in infancy"
+    changed: >-
+      Born after his father's death and crowned king of Hungary at four
+      months old on his own mother's chest, Ladislaus became the object
+      of a Hungarian civil war between his mother's regency and a rival
+      Polish king the nobles had already been persuaded to accept
+      before his birth was even known.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1442
+    type: catastrophe
+    name: "The death of Elizabeth"
+    changed: >-
+      Ladislaus's mother died at Győr under suspicion of poison just as
+      a papal-brokered peace might have secured his throne without
+      further war, leaving her infant son's only formal protector in
+      Frederick of Styria, his distant guardian rather than a parent
+      with a direct stake in his survival.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1452
+    type: siege
+    name: "The siege of Wiener Neustadt"
+    changed: >-
+      After years of refusing to surrender his ward to any of the three
+      kingdoms demanding his presence, Frederick was besieged in his
+      own residence by an Austrian noble at the head of sixteen
+      thousand men and forced to give up the twelve-year-old king,
+      who entered Vienna to public celebration under a new, three-way
+      regency dividing Hungary, Bohemia and Austria among separate
+      governors.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1453
+    type: succession-crisis
+    name: "Ladislaus crowned King of Bohemia"
+    changed: >-
+      Escorted to Prague by his own Bohemian regent, George of
+      Poděbrady, Ladislaus was finally crowned in a kingdom that had
+      spent thirteen years arguing over whether an absent infant could
+      be trusted to govern it at all.
     source: coxe-austria-1847
     contested: false
 
