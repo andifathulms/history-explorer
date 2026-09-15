@@ -78,6 +78,18 @@ turning_points:
       collected its founder from a cell in this oasis.
     source: halm-1996
     contested: false
+  - year: 976
+    type: succession-crisis
+    name: "The last Midrarid removed"
+    changed: >-
+      The ruling family lost hold of the town it had founded two centuries
+      before - not a conquest of Sijilmasa itself, which went on prospering
+      under new masters, but the point at which the Midrarids stopped being
+      the people who held it. No source agrees on which Midrarid it even
+      was: after a century as a client of whichever caliphate was paying,
+      the dynasty's own end drew too little notice to be recorded precisely.
+    source: abun-nasr-1987
+    contested: true
 
 measures:
   reach_km2: null

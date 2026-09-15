@@ -108,6 +108,18 @@ turning_points:
       Umayyad proxy war found the far Maghreb already in pieces.
     source: abun-nasr-1987
     contested: false
+  - year: 974
+    type: succession-crisis
+    name: "Al-Hasan al-Hajjam removed"
+    changed: >-
+      The last Idrisid principality was taken and this time not restored,
+      ending the fragments' formal existence a hundred and forty years
+      after the state itself had stopped functioning as one at Idris II's
+      own division. No battle marks it and no Idrisid account of it
+      survives - a family with a pedigree but no army, useful to install
+      and cheap to remove, simply had nothing left to install by 974.
+    source: abun-nasr-1987
+    contested: false
 
 measures:
   # No cited km2 for this polity in the works consulted; Taagepera does not

@@ -86,6 +86,17 @@ turning_points:
       kind of thing that divides a parliament rather than a religion.
     source: abun-nasr-1987
     contested: false
+  - year: 823
+    type: reform
+    name: "Aflah's reign begins"
+    changed: >-
+      Aflah, already experienced in government before his father's death,
+      began a reign that would run fifty or sixty years - the longest any
+      Rustamid held, and long enough that the imamate's own authority did
+      not have to be re-argued at every succession the way it had before
+      him and would be again after.
+    source: motylinski-1907
+    contested: false
   - year: 909
     type: siege
     name: "Tahert taken"
