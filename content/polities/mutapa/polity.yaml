@@ -1,0 +1,124 @@
+id: mutapa
+region: zimbabwe-and-the-coast
+
+name:
+  latin: Mutapa Empire
+  # theal-zambesi-1907 records "monomotapa" as the Portuguese rendering
+  # of the paramount Makalanga chief's own title - a word the source
+  # itself calls unattested in the modern Makalanga dialect, and of
+  # uncertain original form. No script: the polity left no writing of
+  # its own, as at Great Zimbabwe.
+  script: null
+  script_lang: null
+
+# theal-zambesi-1907 dates the founding of the Portuguese fort and
+# trading station at Sofala, the opening of sustained documentary
+# contact with the Makalanga empire the Portuguese called
+# monomotapa's, to 1505. The empire itself is older: theal-zambesi-1907
+# gives no founding date of its own, and this record's own predecessor
+# in this collection, great-zimbabwe, ends around 1450 without
+# recording what replaced it. That gap is real, not filled here.
+span:
+  start: { min: 1505, max: 1505, source: theal-zambesi-1907 }
+  # theal-zambesi-1907 records the monomotapa Domingos, baptised in
+  # 1652, as "murdered by his own captains eighteen years later" - the
+  # last dated event for the dynasty this source's own first volume
+  # covers. The empire itself continued as a much-reduced Portuguese
+  # client state for more than two further centuries.
+  end: { min: 1670, max: 1670, source: theal-zambesi-1907 }
+
+identity: >-
+  The Makalanga empire whose paramount title, monomotapa, gave
+  Portuguese maps a name for the whole interior gold trade - never
+  conquered outright, but reduced to a vassal after civil war, its
+  baptised king murdered by his own captains eighteen years after he
+  took a Christian name.
+
+capitals:
+  - { name: "Mount Fura (Mount Darwin), the monomotapa's great place", source: theal-zambesi-1907 }
+
+core_region: The Zimbabwe plateau between the Zambesi and Sabi rivers, and the Manica goldfields
+
+rulers:
+  # theal-zambesi-1907 names no founding monomotapa; the founding of
+  # the empire predates the Portuguese documentary record this source
+  # is built from. See great-zimbabwe's own matching null founder.
+  founder: { name: null, source: null }
+  # theal-zambesi-1907 gives Gasilusere the fullest individual portrait
+  # of any monomotapa in its own narrative - "addicted to the use of
+  # dacha, and... a cruel, passionate, faithless tyrant" who executed
+  # his own general-in-chief - but does not present his reign as the
+  # empire's territorial or military height; no reign dates are given.
+  # Provisional pending a source that can name an actual peak.
+  peak: { name: Gasilusere, source: theal-zambesi-1907 }
+  last: { name: "Domingos (baptismal name)", reign: [1652, 1670], source: theal-zambesi-1907 }
+
+scripts_and_languages:
+  administration: [Karanga (Shona)]
+  writing_system: null
+
+institutions:
+  military_basis: null
+  revenue_basis: null
+  # theal-zambesi-1907 records the throne changing hands by usurpation,
+  # civil war and Portuguese-backed coup at least three times in the
+  # narrative this record covers - Tshikanga's usurpation of Mokomba,
+  # Kesarimyo's restoration, and Manuza's own proclamation as
+  # monomotapa by a Portuguese-led army against the reigning
+  # Kapranzine - rather than any single settled rule of succession.
+  succession_rule: { values: [factional], source: theal-zambesi-1907 }
+  legitimation: null
+
+preceded_by_external: []
+
+succeeded_by_external: []
+
+ended: null
+
+turning_points:
+  - year: 1505
+    type: treaty
+    name: "The Portuguese fort at Sofala"
+    changed: >-
+      The construction of a Portuguese fort and trading station at
+      Sofala opened sustained documentary contact between Europe and
+      the Makalanga empire the Portuguese called monomotapa's - the
+      beginning of the written record this account of the empire is
+      built from, though the empire itself was already old by this
+      date.
+    source: theal-zambesi-1907
+    contested: false
+  - year: 1629
+    type: treaty
+    name: "A monomotapa becomes a Portuguese vassal"
+    changed: >-
+      After a civil war in which a Portuguese-led force helped install
+      Manuza as monomotapa against the reigning Kapranzine, Manuza
+      signed a document on 24 May 1629 acknowledging himself a vassal
+      of the king of Portugal - opening the country to missionaries and
+      traders and promising not to shelter fugitives, the first formal
+      subordination of the monomotapa's own throne to a European crown.
+    source: theal-zambesi-1907
+    contested: false
+  - year: 1652
+    type: conversion
+    name: "The baptism of the monomotapa Domingos"
+    changed: >-
+      The reigning monomotapa was received into the Catholic church
+      along with his principal wife and a multitude of sub-chiefs,
+      taking the baptismal name Domingos - an event celebrated in Rome
+      with special services and a Latin inscription on bronze, and the
+      high point of Dominican missionary influence over the Makalanga
+      throne before Domingos's own murder by his captains eighteen
+      years later.
+    source: theal-zambesi-1907
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
