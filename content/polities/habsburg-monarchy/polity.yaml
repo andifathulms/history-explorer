@@ -16,18 +16,19 @@ name:
 # following the source's own periodization.
 span:
   start: { min: 1273, max: 1273, source: coxe-austria-1847 }
-  # This record currently runs only to Ladislaus Posthumus's own death
-  # in 1457 - the last event its sourced chapters cover, not an
-  # institutional end. The Habsburg Monarchy has no end within this
-  # source's own scope, let alone in reality: it continued, through the
-  # Austrian Empire and Austria-Hungary, into the twentieth century.
-  end: { min: 1457, max: 1457, source: coxe-austria-1847 }
+  # This record currently runs only to Albert VI's own death in 1463 -
+  # the last event its sourced chapters cover, not an institutional
+  # end. The Habsburg Monarchy has no end within this source's own
+  # scope, let alone in reality: it continued, through the Austrian
+  # Empire and Austria-Hungary, into the twentieth century.
+  end: { min: 1463, max: 1463, source: coxe-austria-1847 }
 
 identity: >-
   A minor Swabian count's family, raised to the German crown by
   electors who wanted a weak monarch, that briefly reunited Austria,
-  Hungary and Bohemia under Albert V, whose posthumous son was crowned
-  king of all three in infancy and died of plague at seventeen.
+  Hungary and Bohemia under Albert V, then fell into a fraternal war a
+  Bohemian king had to break by siege before Frederick III nearly lost
+  the imperial crown outright.
 
 capitals:
   - { name: Vienna, from: 1280, source: coxe-austria-1847 }
@@ -518,6 +519,50 @@ turning_points:
       Hungary and Bohemia together under a single king - a death German
       rumor blamed on poison, though the Bohemian historians Coxe
       follows traced it instead to plague.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1458
+    type: reform
+    name: "Austria partitioned among Frederick, Albert and Sigismund"
+    changed: >-
+      With no single strong heir to claim the whole Austrian
+      inheritance after Ladislaus's death, the states split it three
+      ways among rival Habsburg cousins forced to share the same
+      capital - a settlement that satisfied none of them and opened
+      years of open war between the two closest claimants.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1461
+    type: succession-crisis
+    name: "The Elector Palatine's league to depose Frederick"
+    changed: >-
+      A coalition of German princes, including Frederick's own brother
+      and cousin, convened rival diets without his consent and moved
+      toward formally deposing him as emperor; only skillful diplomacy
+      and Pope Pius II's own personal support, splitting the coalition
+      one prince at a time, kept the imperial crown in Habsburg hands.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1462
+    type: siege
+    name: "The siege of the Vienna citadel"
+    changed: >-
+      Frederick, reduced to two hundred men and three weeks of
+      provisions inside his own besieged fortress, was saved not by
+      the empire's own slow-moving diet but by George of Poděbrady, who
+      marched thirteen thousand Bohemian troops to break the siege and
+      then personally arbitrated a settlement between the warring
+      Habsburg brothers.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1463
+    type: catastrophe
+    name: "The death of Albert VI"
+    changed: >-
+      Albert died suddenly while preparing to renew the family war one
+      more time, ending years of fraternal conflict not through
+      victory or reconciliation but through the simple exhaustion of
+      one side's own ability to keep fighting.
     source: coxe-austria-1847
     contested: false
 
