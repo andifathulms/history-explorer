@@ -16,21 +16,21 @@ name:
 # following the source's own periodization.
 span:
   start: { min: 1273, max: 1273, source: coxe-austria-1847 }
-  # This record currently runs to Frederick III's own death on 19
-  # August 1493, after a fifty-three-year reign - the longest of any
-  # emperor since Augustus - the last event its sourced chapters cover,
-  # not an institutional end. The Habsburg Monarchy has no end within
-  # this source's own scope, let alone in reality: it continued,
-  # through the Austrian Empire and Austria-Hungary, into the
-  # twentieth century.
-  end: { min: 1493, max: 1493, source: coxe-austria-1847 }
+  # This record currently runs to the Diet of Worms in May 1496, where
+  # Maximilian's own eloquence failed to move the German states to
+  # intervene against Charles VIII's conquest of Naples - the last
+  # event its sourced chapters cover, not an institutional end. The
+  # Habsburg Monarchy has no end within this source's own scope, let
+  # alone in reality: it continued, through the Austrian Empire and
+  # Austria-Hungary, into the twentieth century.
+  end: { min: 1496, max: 1496, source: coxe-austria-1847 }
 
 identity: >-
   A minor Swabian count's family, raised to the German crown by
   electors who wanted a weak monarch, that briefly reunited Austria,
   Hungary and Bohemia under Albert V, lost Vienna to Matthias Corvinus,
-  and closed Frederick III's fifty-three-year reign, the longest of
-  any emperor since Augustus.
+  and under Maximilian I found a French king's conquest of Rome itself
+  could not move a German diet.
 
 capitals:
   - { name: Vienna, from: 1280, source: coxe-austria-1847 }
@@ -771,6 +771,41 @@ turning_points:
       having already handed full administration of Austria and the
       empire to Maximilian, Frederick closed a fifty-three-year reign
       longer than any emperor's since Augustus.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1494
+    type: treaty
+    name: "Maximilian marries Bianca Maria Sforza"
+    changed: >-
+      A dowry-rich but socially unequal match with the ruling family of
+      Milan drew open scorn from Germany's nobles, who considered the
+      Sforzas too low-born for an imperial marriage - but it gave
+      Maximilian the Italian foothold that would soon pull him directly
+      into the coming war over Naples.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1495
+    type: battle
+    name: "Charles VIII conquers Naples"
+    changed: >-
+      A French king crossed the Alps, took Florence and Rome by force
+      of arms and reputation alone, and entered Naples in May wearing
+      the trappings of imperial authority - a conquest so rapid it
+      alarmed every power in Italy, Maximilian most of all, and turned
+      even the Milanese regent who had opened the Alpine passes for him
+      into a leader of the coalition against him.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1496
+    type: reform
+    name: "The Diet of Worms"
+    changed: >-
+      Maximilian summoned the empire's most heavily attended diet in
+      living memory to Worms and threw every argument he had - exiled
+      kings, a wronged pope, his own considerable eloquence - behind a
+      demand for troops to drive France from Italy, only to find the
+      German states too numbed by decades of unanswered appeals to act
+      even when the case against France had never been stronger.
     source: coxe-austria-1847
     contested: false
 
