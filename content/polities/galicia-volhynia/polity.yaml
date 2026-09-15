@@ -1,0 +1,133 @@
+id: galicia-volhynia
+region: rus-and-muscovy
+
+name:
+  latin: Principality of Galicia-Volhynia
+  script: Галицько-Волинське князівство
+  script_lang: uk
+
+# rambaud-russia-1880 dates Roman Mstislavich's own reign over Galitch
+# to 1188-1205 in its own chapter summary, though his hold on the
+# throne was interrupted more than once before his final conquest of
+# the city by force with Polish help.
+span:
+  start: { min: 1188, max: 1188, source: rambaud-russia-1880 }
+  # rambaud-russia-1880 states only that "in the fourteenth century
+  # it was absorbed into the kingdom of Poland and was lost to
+  # Russia," without naming a specific year.
+  end: { min: 1301, max: 1400, source: rambaud-russia-1880 }
+
+identity: >-
+  A Rurikid principality where the prince was elected by a popular
+  assembly the local nobles actually controlled, made a kingdom by
+  papal coronation after its own ruler's submission to the Mongols,
+  and absorbed into Poland within a century of that same crowning.
+
+capitals:
+  - { name: Halych (Galitch), source: rambaud-russia-1880 }
+
+core_region: Red Ruthenia and Volhynia, between Kievan Rus', Poland and Hungary
+
+rulers:
+  # rambaud-russia-1880 records the boyars first electing Roman
+  # prince in 1188, his expulsion by a Hungarian-backed rival, and
+  # his eventual return "not by election, but by conquest," with
+  # Polish military support, after the death of his rival Vladimir.
+  founder: { name: "Roman Mstislavich", reign: [1188, 1205], source: rambaud-russia-1880 }
+  # rambaud-russia-1880 calls Daniel's own coronation as King by a
+  # papal legate in 1254 the high point of a reign otherwise spent
+  # fighting civil wars, the Mongols, Poland and Hungary in turn -
+  # "one of the most memorable and most chequered careers in the
+  # history of Russia."
+  peak: { name: "Daniel Romanovich", reign: [1205, 1264], source: rambaud-russia-1880 }
+  last: { name: null, source: null }
+
+scripts_and_languages:
+  administration: [Old East Slavic]
+  writing_system: Cyrillic
+
+institutions:
+  military_basis: null
+  revenue_basis: null
+  # rambaud-russia-1880 describes the prince of Galitch, in its own
+  # older Slavonic form, as "elected by a popular assembly, and kept
+  # his crown by its consent" - though that assembly was itself
+  # dominated by the wealthiest boyars, whom both Roman and Daniel
+  # fought to subordinate to princely authority.
+  succession_rule: { values: [election, factional], source: rambaud-russia-1880 }
+  # rambaud-russia-1880 records Pope Innocent IV granting Daniel the
+  # title of King and a crown and sceptre in exchange for a promised
+  # church union and crusade against the Mongols - an outside
+  # investiture Daniel kept using even after both promises collapsed.
+  legitimation: { values: [election, conquest, investiture], source: rambaud-russia-1880 }
+
+preceded_by_external: []
+
+# rambaud-russia-1880 states only that Galicia "was absorbed into the
+# kingdom of Poland" in the fourteenth century, without naming the
+# Polish crown as a record or giving a precise year - named here per
+# the usual rule for a real successor this source does not date
+# closely enough to place in edges.yaml.
+succeeded_by_external:
+  - name: the Kingdom of Poland
+    type: conquered by
+    year: null
+    note: >-
+      rambaud-russia-1880 records only that "in the fourteenth
+      century it was absorbed into the kingdom of Poland and was lost
+      to Russia," without naming the year or the circumstances of the
+      final annexation.
+    source: rambaud-russia-1880
+
+ended:
+  type: gradual absorption
+  by: []
+  year: null
+  source: rambaud-russia-1880
+
+turning_points:
+  - year: 1188
+    type: succession-crisis
+    name: "The boyars elect Roman"
+    changed: >-
+      Galitch's boyars expelled the dissolute Prince Vladimir and
+      offered the throne to Roman of Volhynia - the first time the
+      two principalities shared a single ruler, though Hungarian
+      intervention restored Vladimir within the same year and Roman
+      would not hold Galitch securely for another decade.
+    source: rambaud-russia-1880
+    contested: false
+  - year: 1205
+    type: catastrophe
+    name: "The death of Roman"
+    changed: >-
+      Roman, who had finally conquered Galitch by force and broken the
+      power of its boyar aristocracy with a severity contemporary
+      Polish chroniclers found shocking, was killed in an unequal
+      skirmish on the banks of the Vistula during a war with Poland -
+      leaving the principality to two minor sons and opening decades
+      of civil war rambaud-russia-1880 says the Kievan chronicles
+      remembered as having made "atheists" of the Galicians themselves.
+    source: rambaud-russia-1880
+    contested: false
+  - year: 1254
+    type: conversion
+    name: "Daniel crowned King by a papal legate"
+    changed: >-
+      Pope Innocent IV granted Daniel the title of King in exchange
+      for a promised union of the churches and support for a crusade
+      against the Mongols, and a papal legate crowned him at Drohiczyn
+      - a title Daniel kept using even after both the church union and
+      the crusade came to nothing and his successor Alexander IV's own
+      threats followed.
+    source: rambaud-russia-1880
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
