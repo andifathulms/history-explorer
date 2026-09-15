@@ -16,19 +16,19 @@ name:
 # following the source's own periodization.
 span:
   start: { min: 1273, max: 1273, source: coxe-austria-1847 }
-  # This record currently runs only to Leopold IV's own death in 1411 -
+  # This record currently runs only to Albert V's own death in 1439 -
   # the last event its sourced chapters cover, not an institutional
   # end. The Habsburg Monarchy has no end within this source's own
   # scope, let alone in reality: it continued, through the Austrian
   # Empire and Austria-Hungary, into the twentieth century.
-  end: { min: 1411, max: 1411, source: coxe-austria-1847 }
+  end: { min: 1439, max: 1439, source: coxe-austria-1847 }
 
 identity: >-
   A minor Swabian count's family, raised to the German crown by
-  electors who wanted a weak monarch, that destroyed Bohemia's own
-  king, acquired Austria and Tyrol, lost a duke to Swiss peasants at
-  Sempach, and split into rival branches that let banditry overrun
-  Austria itself.
+  electors who wanted a weak monarch, that split into rival branches
+  letting banditry overrun Austria itself, then briefly reunited
+  Austria, Hungary, Bohemia and the German crown under Albert V before
+  dysentery cut his reign short.
 
 capitals:
   - { name: Vienna, from: 1280, source: coxe-austria-1847 }
@@ -43,13 +43,13 @@ rulers:
   # alone the following year, while he himself remained King of the
   # Romans, based elsewhere in the empire.
   founder: { name: "Rudolf I of Habsburg (Rhodolph of Hapsburgh)", source: coxe-austria-1847 }
-  # Provisional: the widest reach of authority any ruler covered so far
-  # has commanded, since Rudolf I alone among them held the imperial
-  # crown itself rather than a territorial duchy. Centuries of Habsburg
-  # history - Charles V's global empire, Maria Theresa's reforms -
-  # remain to be added, and will very likely displace Rudolf from this
-  # field once they are.
-  peak: { name: "Rudolf I of Habsburg (Rhodolph of Hapsburgh)", reign: [1273, 1291], source: coxe-austria-1847 }
+  # Revised from Rudolf I: Albert held Austria, Hungary and Bohemia
+  # simultaneously and was elected King of the Romans besides - the
+  # first Habsburg since Rudolf I to hold the German crown, and the
+  # first ever to combine it with two further kingdoms at once. His
+  # reign lasted barely two years, but the reach itself, while it
+  # lasted, exceeded any predecessor's on this record.
+  peak: { name: "Albert V (Albert II of Germany)", reign: [1437, 1439], source: coxe-austria-1847 }
   last: null
 
 scripts_and_languages:
@@ -400,6 +400,43 @@ turning_points:
       Leopold's own death, still without resolving which of his own
       squabbling relatives would finally govern a duchy neither co-
       regent had managed to control.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1437
+    type: succession-crisis
+    name: "Sigismund names Albert his successor"
+    changed: >-
+      Dying and thwarted by his own wife's scheme to divert Hungary and
+      Bohemia to a Polish rival, Sigismund summoned the nobles of both
+      kingdoms to his deathbed and personally commended Albert as his
+      chosen heir; the Hungarians accepted him without real contest, but
+      the Hussites in Bohemia rejected the succession outright and
+      backed a Polish claimant instead, reopening the war Albert had
+      already fought once as Sigismund's own general.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1438
+    type: succession-crisis
+    name: "Albert elected King of the Romans"
+    changed: >-
+      With Germany still fractured by private feuds and church schism
+      and the Ottomans pressing on Hungary's own frontier, the electors
+      turned to the one prince already ruling three kingdoms at once;
+      although never formally crowned, Albert became the first Habsburg
+      to hold the German crown since Rudolf I, and the first ever to
+      pair it with Austria, Hungary and Bohemia together.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1439
+    type: catastrophe
+    name: "The death of Albert V"
+    changed: >-
+      Struck by the same dysentery that had already forced an Ottoman
+      army into retreat, Albert insisted on pressing toward Vienna
+      rather than rest, and died in a village short of the city less
+      than two years after becoming the first ruler in a century and a
+      half to hold both the imperial crown and the House of Austria's
+      own patrimony together.
     source: coxe-austria-1847
     contested: false
 
