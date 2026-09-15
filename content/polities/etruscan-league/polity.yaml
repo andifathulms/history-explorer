@@ -1,0 +1,133 @@
+id: etruscan-league
+region: etruria
+
+name:
+  latin: Etruscan League (Etruria)
+  script: Rasna
+  script_lang: ett
+
+# dennis-1848 does not date the legendary founding of the Twelve
+# Cities by Tarchon; the traditional date used elsewhere for the
+# Etruscan kings' influence over Rome, and the point this record's
+# own founding is anchored to, is the accession of the first Tarquin
+# to the Roman throne. dennis-1848 dates this tradition only in
+# relative terms, so the span uses the conventional figure (616) that
+# the source's own discussion of the Tarquin legend does not
+# contradict.
+span:
+  start: { min: -616, max: -616, source: dennis-etruria-1848 }
+  # dennis-1848 calls the second battle of the Vadimonian Lake, in
+  # 283 BC, "the final great struggle for independence," after which
+  # no further Etruscan military resistance to Rome is recorded in
+  # the source, though it notes the precise date individual cities
+  # like Tarquinii actually fell under direct Roman rule is unknown.
+  end: { min: -283, max: -283, source: dennis-etruria-1848 }
+
+identity: >-
+  A confederation of twelve Etruscan cities whose kings once ruled
+  Rome itself, who marched to restore an expelled Tarquin and were
+  turned back at the Arsian Wood, and who spent a century and a half
+  after losing Veii being worn down city by city until one last stand
+  at the Vadimonian Lake.
+
+capitals:
+  - { name: Veii, source: dennis-etruria-1848 }
+  - { name: Tarquinii, source: dennis-etruria-1848 }
+
+core_region: Etruria, the hill country of central Italy between the Tiber and the Arno
+
+rulers:
+  # dennis-1848 records the tradition, doubted by some of the modern
+  # scholars it cites, that Tarchon conquered the land and founded
+  # the Twelve Cities - a legend the source treats as unverifiable
+  # rather than endorses outright.
+  founder: { name: null, source: null }
+  peak: { name: null, source: null }
+  last: { name: null, source: null }
+
+scripts_and_languages:
+  administration: [Etruscan]
+  writing_system: Old Italic script
+
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  legitimation: { values: [divine-sanction], source: dennis-etruria-1848 }
+
+# Rome, whose own throne the Etruscan Tarquin dynasty once held and
+# whose kingdom this record's own peak-era wars were fought against,
+# is already a record in this collection; the relationship is
+# adversarial rather than successive, so it is narrated in the
+# chapters rather than coded as an edge.
+preceded_by_external: []
+
+succeeded_by_external: []
+
+ended:
+  type: gradual absorption
+  by: []
+  year: -283
+  source: dennis-etruria-1848
+
+turning_points:
+  - year: -509
+    type: battle
+    name: "The battle of the Arsian Wood"
+    changed: >-
+      After Tarquinius Superbus was expelled from Rome, the cities of
+      Tarquinii and Veii sent an army to restore him on the grounds of
+      kinship; in the battle that followed, the Veientes broke and
+      fled, but the Tarquinienses, dennis-1848 notes, "not only
+      maintained their ground, but even repulsed the Romans" - a
+      battle in which the first Roman consul and the last Etruscan
+      Tarquin killed each other, ending the dynasty's own last real
+      chance of restoration.
+    source: dennis-etruria-1848
+    contested: false
+  - year: -396
+    type: siege
+    name: "The fall of Veii"
+    changed: >-
+      After a siege of ten years, Rome's dictator Camillus took Veii
+      by driving a tunnel into its own citadel rather than by open
+      assault - "beleaguered for ten long years, with more injury to
+      her foe than to herself, she was at last overcome by stratagem,
+      not by open force," in dennis-1848's own words - removing the
+      Confederation's own closest and most powerful member from the
+      board entirely.
+    source: dennis-etruria-1848
+    contested: false
+  - year: -358
+    type: battle
+    name: "The Confederation musters at the Salinae"
+    changed: >-
+      Tarquinii and its allies rallied the full military strength of
+      the Etruscan Confederation and marched on Rome behind priests
+      carrying torches and serpents, a display dennis-1848 records as
+      having briefly panicked the Roman line before it was rallied and
+      the Etruscan force routed - the last time dennis-1848 records
+      the Confederation fielding a fully combined army.
+    source: dennis-etruria-1848
+    contested: false
+  - year: -283
+    type: battle
+    name: "The second battle of the Vadimonian Lake"
+    changed: >-
+      dennis-1848 calls this battle, fought after decades of
+      individual cities' truces and renewed wars had already worn the
+      Confederation down, "the final great struggle for independence"
+      - a second, equally fruitless stand at the same lake where an
+      earlier Etruscan army had already been broken, after which no
+      further coordinated Etruscan resistance to Rome is recorded.
+    source: dennis-etruria-1848
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

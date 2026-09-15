@@ -886,3 +886,14 @@ regions:
     # partitioned from, 910 - now joins two of the region's own
     # polities.
     thread: true
+
+  - id: etruria
+    name: Etruria
+    blurb: >-
+      A confederation of twelve city-states in the hills north of the
+      Tiber, whose kings once sat on the Roman throne itself - and
+      whose three-century war of attrition with the republic that threw
+      them out ended not in one battle but in a slow, city-by-city
+      exhaustion.
+    group: rome-and-post-roman-europe
+    thread: false
