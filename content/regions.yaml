@@ -290,7 +290,7 @@ regions:
       made itself and was unmade, and the Arab powers that held the desert
       between Rome and Iran. Seven of the ten end against Rome, which is most of
       what the region has to say.
-    group: mediterranean
+    group: rome-and-post-roman-europe
     thread: true
 
   # Split out of `byzantium-and-the-latin-west`, which held both of these and
@@ -322,7 +322,7 @@ regions:
       Constantinople in the fifty-seven years the Fourth Crusade took it
       away. One continuous object that this site is obliged to cut into six
       records, and every page here says so.
-    group: mediterranean
+    group: rome-and-post-roman-europe
     thread: true
 
   # Membership is the peninsula, not a lineage. That needs saying because the
@@ -339,7 +339,7 @@ regions:
       the mountains, one of them outlasting Constantinople itself. The polity
       that eventually took all of it began as the smallest of the
       principalities and is the reason the rest are usually left out.
-    group: mediterranean
+    group: rome-and-post-roman-europe
     thread: true
 
   # Split from `latin-west`, which held nine records in six disconnected pieces
@@ -355,7 +355,7 @@ regions:
       governing Roman populations with Roman law and their own armies, none
       of them claiming to have replaced the empire and all of them behaving
       as though they had.
-    group: mediterranean
+    group: rome-and-post-roman-europe
     # `thread: true` since a real edge - Suebi to Visigothic, conquered by,
     # 585 - now joins two of the region's own polities. The other three
     # members' own endings all point outside the region (Ostrogothic and
@@ -370,7 +370,7 @@ regions:
       the thing it turned into. A Frankish king was crowned emperor in Rome in
       800 and the title outlived his dynasty, his kingdom and the division of
       his inheritance by a thousand years.
-    group: mediterranean
+    group: rome-and-post-roman-europe
     thread: true
 
   # The third piece of `latin-west`. Two merchant republics and a Norman
@@ -385,7 +385,7 @@ regions:
       and Genoa held quarters in every port that mattered from the Black Sea to
       Alexandria, fought each other for two centuries over the right to do it,
       and outlasted most of the kingdoms they supplied.
-    group: mediterranean
+    group: rome-and-post-roman-europe
     thread: false
 
   # Added with `thread: false` for the two Bulgarian records, per the workflow
@@ -834,7 +834,7 @@ regions:
       kingdom's own rise, a conquest that replaced its ruling class outright,
       and a northern kingdom that stayed formally independent for eight
       centuries before a treaty, not a battle, ended it.
-    group: mediterranean
+    group: rome-and-post-roman-europe
     # `thread: true` since a real edge - Danelaw to Wessex, conquered by,
     # 954 - now joins two of the region's own polities.
     thread: true
@@ -847,7 +847,7 @@ regions:
       fighting the Muslim south - and that went on, the moment the
       reconquest was finished, to launch the first colonial empires with a
       global reach.
-    group: mediterranean
+    group: rome-and-post-roman-europe
     # `thread: true` since a real edge - Asturias to León-Castile,
     # partitioned from, 910 - now joins two of the region's own
     # polities.

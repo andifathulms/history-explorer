@@ -52,12 +52,20 @@ export const REGION_GROUPS = [
   // Christian kingdoms whose orientation was Byzantine and then Russian.
   { id: 'iranian-plateau', name: 'The Iranian Plateau and the Caucasus' },
   { id: 'arabia', name: 'The Arabian Peninsula' },
-  { id: 'mediterranean', name: 'The Mediterranean' },
+  // Was 'mediterranean'. Half its regions never touch that sea - the
+  // Post-Roman West, the Frankish World and the British Isles sit on it
+  // for the same reason Eastern Mediterranean after Alexander, Rome and
+  // Byzantium, Anatolia, Italy and the Sea Republics, and Iberia do: not
+  // geography, but Roman inheritance - law, provincial boundaries, Latin
+  // Christianity - carried forward by every one of the eight regions
+  // here regardless of which coast, or no coast, they ended up on.
+  { id: 'rome-and-post-roman-europe', name: 'Rome and Post-Roman Europe' },
   { id: 'africa-maghreb', name: 'Africa and the Maghreb' },
-  // Split from 'mediterranean'. The Balkans, the Rus' and the Polish-Lithuanian
-  // and Hungarian kingdoms were homeless: Orthodox and Latin Christian states
-  // whose frontier was the steppe rather than the sea, filed on a shelf named
-  // after a sea most of them never touched.
+  // Split from 'mediterranean' (now 'rome-and-post-roman-europe'). The
+  // Balkans, the Rus' and the Polish-Lithuanian and Hungarian kingdoms
+  // were homeless: Orthodox and Latin Christian states whose frontier
+  // was the steppe rather than the sea, filed on a shelf named after a
+  // sea most of them never touched.
   { id: 'northern-and-eastern-europe', name: 'Northern and Eastern Europe' },
   { id: 'steppe-east-asia', name: 'The Steppe and East Asia' },
   // Was one shelf, 'south-asia' / 'South and Southeast Asia', and it held two
