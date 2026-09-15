@@ -23,24 +23,23 @@ name:
 # of the Austrian lands themselves.
 span:
   start: { min: 1526, max: 1526, source: coxe-austria-1847 }
-  # This record currently runs Ferdinand I's own founding through
-  # Leopold I's reconquest of Hungary: the Ottoman wars and the 1545
-  # and 1562 truces; Ferdinand's own 1547 crushing of the Bohemian
+  # This record currently runs Ferdinand I's own founding all the way
+  # through coxe-austria-1847's own endpoint: the Ottoman wars and the
+  # 1545 and 1562 truces; Ferdinand's own 1547 crushing of the Bohemian
   # estates and the end of their elective crown; Maximilian II's
   # toleration and the 1566 death of Süleyman at Szigetvár; Rudolf II's
-  # decline, Matthias's usurpation, and the 1609 Letter of Majesty;
-  # the 1618 Defenestration of Prague and the Thirty Years' War down to
-  # the 1648 Peace of Westphalia; and Leopold I's own Ottoman wars,
-  # closing with the 1683 Siege of Vienna and the 1699 Peace of
-  # Karlowitz - not an institutional end. Target roughly 18-20 chapters
-  # overall, consolidated by era and reign (on the Ottoman record's own
-  # model) rather than the much finer battle-by-battle density of
-  # house-of-austria's original draft: the War of the Spanish
-  # Succession and Charles VI's Pragmatic Sanction; Maria Theresa's
-  # wars and reforms; Joseph II's enlightened absolutism; and Francis
-  # II's 1804 self-coronation as Emperor of Austria, which will need a
-  # second source since coxe-austria-1847 stops in 1792.
-  end: { min: 1699, max: 1699, source: coxe-austria-1847 }
+  # decline, Matthias's usurpation, and the 1609 Letter of Majesty; the
+  # 1618 Defenestration of Prague and the Thirty Years' War down to the
+  # 1648 Peace of Westphalia; Leopold I's own Ottoman wars, closing with
+  # the 1683 Siege of Vienna and the 1699 Peace of Karlowitz; the War of
+  # the Spanish Succession and Charles VI's Pragmatic Sanction; Maria
+  # Theresa's wars and reforms; Joseph II's enlightened absolutism; and
+  # Leopold II's own brief, stabilising reign, down to his 1792 death
+  # and Francis II's accession - not an institutional end. A second
+  # source, still to be opened, will be needed to carry the record from
+  # 1792 to Francis II's 1804 self-coronation as Emperor of Austria,
+  # since coxe-austria-1847 stops in 1792.
+  end: { min: 1792, max: 1792, source: coxe-austria-1847 }
 
 identity: >-
   The composite Austria-Bohemia-Hungary state Ferdinand I built from a
@@ -61,12 +60,13 @@ rulers:
   # on 26 October 1526; crowned King of Hungary at Székesfehérvár after
   # a contested double election against John Zápolya the same year.
   founder: { name: "Ferdinand I", reign: [1526, 1564], source: coxe-austria-1847 }
-  # Provisional. Leopold I's reconquest of Hungary, completed by the
-  # 1699 Peace of Karlowitz, is the high-water mark among the reigns
-  # this record covers so far - but Charles VI's own reach, as most of
-  # Europe accepted the Pragmatic Sanction, and Maria Theresa's, remain
-  # to be added and will very likely displace him from this field.
-  peak: { name: "Leopold I", reign: [1657, 1705], source: coxe-austria-1847 }
+  # Provisional. Charles VI held the broadest territory of any ruler
+  # this record covers - Leopold I's reconquered Hungary, plus the
+  # former Spanish Netherlands and Habsburg Italy gained at Utrecht -
+  # before Maria Theresa lost Silesia to Prussia within weeks of her
+  # own accession. A later measures.reach_km2 figure, once a cited
+  # source publishes one, may yet move this field.
+  peak: { name: "Charles VI", reign: [1711, 1740], source: coxe-austria-1847 }
   last: null
 
 scripts_and_languages:
@@ -241,6 +241,55 @@ turning_points:
       September, and the campaign that followed pushed Ottoman power
       out of most of Hungary within a generation, ending in the 1699
       Peace of Karlowitz.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1713
+    type: treaty
+    name: "The Peace of Utrecht"
+    changed: >-
+      Charles VI's own decade-long war to claim the Spanish throne
+      ended with Spain itself going to his Bourbon rival, but left him
+      the former Spanish Netherlands and Habsburg territory in Italy as
+      compensation - the broadest territorial extent the monarchy would
+      reach under his reign, achieved only after the war that had put
+      him on the Austrian throne cost him the Spanish one he had fought
+      a decade to reach.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1718
+    type: reform
+    name: "The Pragmatic Sanction"
+    changed: >-
+      Charles VI reordered the Habsburg succession to favour his own
+      daughters over his late brother's, then spent two decades buying
+      every major European power's formal guarantee of it - a
+      guarantee Prussia tested within weeks of his death by invading
+      Silesia, proving how little the paper commitment was worth
+      without an army to back it.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1740
+    type: catastrophe
+    name: "The loss of Silesia"
+    changed: >-
+      Frederick II's invasion, launched weeks after Charles VI's death,
+      opened the War of the Austrian Succession and cost Maria Theresa
+      the province permanently despite the war's own guarantees; she
+      held the rest of the Pragmatic Sanction's promise intact, but the
+      loss reoriented Habsburg policy around recovering Silesia for the
+      next generation.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1781
+    type: reform
+    name: "Joseph II's Edict of Toleration and the abolition of serfdom"
+    changed: >-
+      Joseph II extended legal worship rights to Protestants, Orthodox
+      Christians and Jews in Catholic-only hereditary lands and freed
+      peasants from bondage to their lords' own soil - sweeping reforms
+      issued and revised faster than the monarchy's institutions could
+      absorb them, and resisted outright by Hungary's own nobility and
+      the Austrian Netherlands alike.
     source: coxe-austria-1847
     contested: false
 
