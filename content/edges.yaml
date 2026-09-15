@@ -4475,6 +4475,30 @@ edges:
     source: stephens-1891
     contested: false
 
+  - from: navarre
+    to: aragon
+    type: partitioned from
+    year: 1035
+    note: >-
+      Sancho the Great of Navarre, who had briefly united Navarre,
+      Aragon, Castile and León under his own rule, divided his
+      inheritance among his sons at his death; Aragon entered
+      independent existence for the first time as one of the pieces.
+    source: chapman-1918
+    contested: false
+
+  - from: navarre
+    to: aragon
+    type: conquered by
+    year: 1512
+    note: >-
+      Ferdinand of Aragon conquered the Spanish portion of a Navarre
+      his own kingdom had itself once been part of, under Sancho the
+      Great three centuries before, ending its independence south of
+      the Pyrenees for good.
+    source: chapman-1918
+    contested: false
+
   - from: melaka
     to: portugal
     type: conquered by

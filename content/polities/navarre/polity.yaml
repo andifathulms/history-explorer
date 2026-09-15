@@ -1,0 +1,146 @@
+id: navarre
+region: iberia
+
+name:
+  latin: Kingdom of Navarre
+  script: Regnum Navarrae
+  script_lang: la
+
+# Neither source consulted gives an exact founding year. Chapman calls
+# the kingdom's origin certain in cause - the same Basque wars of
+# resistance that produced the 778 and 824 routs of Frankish armies at
+# Roncesvalles - but "uncertain" in date, and names no king before
+# Sancho García (905-925) with any confidence. Scott places the second
+# Roncesvalles disaster, which he ties directly to "the assertion of
+# the independence and political organization" of the mountain
+# kingdom, within the reign of the Cordovan emir Abd-al-Rahman II
+# (822-852) without giving a calendar year of his own. The range below
+# brackets that reign rather than asserting a precise year neither
+# source states.
+span:
+  start: { min: 822, max: 852, source: scott-1904 }
+  end: { min: 1512, max: 1512, source: chapman-1918 }
+
+identity: >-
+  A mountain kingdom of Basque resistance fighters who ambushed
+  Charlemagne's own rearguard at Roncesvalles, and whose greatest king
+  briefly ruled nearly the whole Christian north before dividing it
+  again among his sons - a division from which Castile and Aragon
+  emerged as kingdoms in their own right, while Navarre itself, reduced
+  ever since, was finally split in two by a conquest three centuries
+  later.
+
+capitals:
+  - { name: Pamplona, source: chapman-1918 }
+
+core_region: The western Pyrenees and the Ebro's upper valley, on both the Spanish and French sides of the mountains
+
+rulers:
+  # Tradition, not a securely dated record, credits Íñigo Arista as an
+  # early king or chief; Chapman is explicit that the first name to
+  # appear with real certainty is Sancho García, a full century later.
+  founder: { name: "Íñigo Arista (traditional)", source: chapman-1918 }
+  # Sancho III united Navarre, Aragon, the Basque provinces on both
+  # sides of the Pyrenees, and - by intervening in a Castilian-Leonese
+  # civil war - Castile and León as well, leaving only Galicia and
+  # Catalonia outside his rule in the Christian north. He divided it
+  # all again among his own sons at his death, but the kingdoms of
+  # Castile and Aragon that resulted from that division trace their
+  # own separate existence to his reign.
+  peak: { name: "Sancho III \"the Great\"", reign: [970, 1035], source: chapman-1918 }
+  # Chapman names the conquest of 1512 but not the monarch reigning
+  # over Spanish Navarre when it happened.
+  last: null
+
+scripts_and_languages:
+  administration: [Latin, Basque, Navarro-Aragonese, Occitan]
+  writing_system: Latin alphabet
+
+institutions:
+  military_basis: { values: [land-grant], source: chapman-1918 }
+  revenue_basis: null
+  succession_rule: { values: [primogeniture], source: chapman-1918 }
+  legitimation: { values: [descent], source: chapman-1918 }
+
+preceded_by_external: []
+
+succeeded_by_external: []
+
+# Ferdinand of Aragon conquered Spanish Navarre in 1512, ending its
+# independence south of the Pyrenees. A rump French Navarre survived
+# for a time under the house of Foix before being absorbed into the
+# kingdom of France - the closing chapter covers what Chapman's own
+# account says of it.
+ended:
+  type: conquest
+  by: [aragon]
+  year: 1512
+  source: chapman-1918
+
+turning_points:
+  - year: 824
+    type: battle
+    name: "A second rout at Roncesvalles"
+    changed: >-
+      A Frankish army under Counts Eblus and Asenarius took Pamplona
+      and then, retreating through the same pass where Charlemagne's
+      own rearguard had been destroyed decades before, was itself cut
+      to pieces by an alliance of Basque mountaineers and Muslim
+      allies from Córdoba - a victory Scott ties directly to the
+      Basque mountain country's own assertion of independent political
+      organization.
+    source: scott-1904
+    contested: false
+  - year: 905
+    type: succession-crisis
+    name: "Sancho García, the first securely dated king"
+    changed: >-
+      Sancho García's reign is the earliest point at which either
+      source consulted can name Navarre's own ruler with real
+      confidence - everything before him, including the traditional
+      founder Íñigo Arista, rests on tradition rather than a secure
+      record.
+    source: chapman-1918
+    contested: false
+  - year: 1000
+    type: reform
+    name: "Aragon absorbed into Navarre"
+    changed: >-
+      By around the end of the tenth century Navarre had absorbed the
+      neighboring kingdom of Aragon outright, a union that would not
+      be undone until Sancho the Great divided his own inheritance
+      among his sons a generation later.
+    source: chapman-1918
+    contested: true
+  - year: 1035
+    type: succession-crisis
+    name: "Sancho the Great divides his inheritance"
+    changed: >-
+      Sancho III's death broke apart the widest Christian confederation
+      the peninsula had yet seen, parcelled out among his sons as the
+      separate kingdoms of Navarre, Castile and Aragon - the last two
+      entering their own independent existence at the very moment
+      Navarre itself, once their shared source, began to shrink beside
+      them.
+    source: chapman-1918
+    contested: false
+  - year: 1512
+    type: siege
+    name: "Ferdinand of Aragon conquers Spanish Navarre"
+    changed: >-
+      Ferdinand of Aragon conquered the Spanish portion of a kingdom
+      the house of Foix had ruled only briefly, ending Navarre's own
+      independence south of the Pyrenees. A separate French Navarre
+      survived the conquest under the same dynasty before it, too, was
+      eventually absorbed into the kingdom of France.
+    source: chapman-1918
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

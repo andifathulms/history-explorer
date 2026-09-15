@@ -99,6 +99,19 @@ turning_points:
       Christian Europe.
     source: chapman-1918
     contested: false
+  - year: 844
+    type: battle
+    name: "A Norse fleet lands and withdraws"
+    changed: >-
+      A fleet of Norse raiders made its first recorded landing on the
+      Asturian coast during Ramiro I's reign, then withdrew - drawn off
+      less, by one contemporary account, by any fear of Asturian arms
+      than by the country's own thin plunder. The same fleet went on to
+      sack the suburbs of Seville itself, a raid alarming enough to
+      push the Cordovan emirate into building the coastal defenses
+      Asturias's own encounter with the raiders had not provoked.
+    source: scott-1904
+    contested: false
   - year: 866
     type: reform
     name: "Alfonso III's reign begins"

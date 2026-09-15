@@ -102,6 +102,19 @@ turning_points:
       own culture directly.
     source: chapman-1918
     contested: false
+  - year: 1135
+    type: reform
+    name: "Alfonso VII crowned Imperator totius Hispaniae"
+    changed: >-
+      Alfonso VII was crowned emperor at León - a claim to sole
+      temporal authority over Christian Spain, echoing the same title
+      Ferdinand I had taken before him. For a decade the kings of
+      Aragon and Navarre, the counts of Barcelona and Toulouse and
+      several lesser princes swore him fealty as their sovereign; his
+      own division of the realm between two sons at his death in 1157
+      undid the confederation the title had claimed to represent.
+    source: chapman-1918
+    contested: false
   - year: 1212
     type: battle
     name: "Battle of Las Navas de Tolosa"
@@ -136,6 +149,33 @@ turning_points:
       said to have turned down a French king's invitation to a crusade
       in the East, observing that his own land held plenty of enemies
       of the faith already.
+    source: chapman-1918
+    contested: false
+  - year: 1265
+    type: reform
+    name: "The Siete Partidas"
+    changed: >-
+      Alfonso X, a scholar-king whose military and diplomatic ambitions
+      mostly came to nothing, completed a sweeping legal code begun
+      under his father - the Siete Partidas, drawing on Roman and canon
+      law to describe not just legal procedure but the theory of
+      kingship itself. Never formally enacted in his own lifetime, it
+      outlived every campaign of his reign, going on to shape Castilian
+      law for centuries and, eventually, the law Spain carried to its
+      American colonies.
+    source: chapman-1918
+    contested: false
+  - year: 1369
+    type: succession-crisis
+    name: "Henry of Trastámara kills Pedro the Cruel at Montiel"
+    changed: >-
+      A decade of civil war between Pedro I and his half-brother Henry
+      of Trastámara - fought with the help of French mercenaries on one
+      side and an English army under the Black Prince on the other -
+      ended at Montiel, where Henry's forces crushed Pedro's, captured
+      him by a trick, and killed him in a hand-to-hand struggle between
+      the two brothers themselves. Henry's line, the house of
+      Trastámara, held the Castilian throne from that day forward.
     source: chapman-1918
     contested: false
   - year: 1469

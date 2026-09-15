@@ -88,6 +88,19 @@ turning_points:
       name, would remain the more important half.
     source: chapman-1918
     contested: false
+  - year: 1213
+    type: battle
+    name: "Pedro II dies at Muret"
+    changed: >-
+      Pedro II had placed his own kingdom in vassalage to the pope in
+      1204, then watched the papacy turn around and proclaim a crusade
+      against his own Occitan vassals regardless. He died fighting
+      Simon de Montfort's crusaders at Muret, and with him died any
+      real prospect that Aragon's cross-Pyrenean holdings would survive
+      what followed - the redirection south and east into the
+      Mediterranean, completed by his own son, starts here.
+    source: chapman-1918
+    contested: false
   - year: 1238
     type: siege
     name: "James I conquers Valencia"
@@ -110,6 +123,20 @@ turning_points:
       excommunicated him and offered his own crown to a French prince;
       Peter's admiral Roger de Lauria broke the resulting French
       invasion of Catalonia the following year.
+    source: chapman-1918
+    contested: false
+  - year: 1412
+    type: succession-crisis
+    name: "The Compromise of Caspe"
+    changed: >-
+      Martin I died in 1410 without a surviving heir, and rather than
+      let the crown be settled by war between the two leading
+      claimants, the parliaments of Aragon, Catalonia and Valencia sent
+      nine men to Caspe to arbitrate the succession. Their choice,
+      announced in June 1412, was Ferdinand of Antequera - a Castilian
+      regent, not an Aragonese-born prince - installing the house of
+      Trastámara on a throne an elected panel had awarded rather than
+      one inheritance alone had settled.
     source: chapman-1918
     contested: false
   - year: 1479

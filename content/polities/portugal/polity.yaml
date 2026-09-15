@@ -79,6 +79,18 @@ turning_points:
       triumph in itself.
     source: stephens-1891
     contested: true
+  - year: 1147
+    type: siege
+    name: "The capture of Lisbon"
+    changed: >-
+      A great fleet of crusaders bound for the Holy Land put in at
+      Oporto, and the Bishop of Oporto persuaded them to open their
+      holy war by helping Afonso take Lisbon first. The city fell,
+      and Cintra, Palmela, Mafra and Almada surrendered in its wake -
+      the future capital in Christian hands for the first time, taken
+      with help from a fleet that then sailed on to Palestine.
+    source: stephens-1891
+    contested: false
   - year: 1249
     type: siege
     name: "Afonso III completes the conquest of the Algarve"
@@ -88,6 +100,18 @@ turning_points:
       complete its own reconquest - a full fourteen years before
       Castile of Alfonso X formally recognized Portuguese sovereignty
       over the territory in 1263.
+    source: stephens-1891
+    contested: false
+  - year: 1355
+    type: catastrophe
+    name: "The murder of Inês de Castro"
+    changed: >-
+      King Afonso IV had Inês de Castro, the woman his son Pedro had
+      loved since her own arrival as a lady-in-waiting, murdered in the
+      streets of Coimbra to end the affair. Pedro took his revenge as
+      king - torturing her killers to death before his own eyes, then
+      disinterring and crowning her body at Alcobaça - in one of the
+      best-remembered single episodes in all of Portuguese history.
     source: stephens-1891
     contested: false
   - year: 1385
@@ -111,6 +135,18 @@ turning_points:
       Calicut on 20 May - realizing, six decades after his death, the
       sea route to India that Prince Henry had spent a lifetime and a
       fortune pursuing without ever sailing on a single voyage himself.
+    source: stephens-1891
+    contested: false
+  - year: 1510
+    type: siege
+    name: "Albuquerque takes Goa"
+    changed: >-
+      Afonso de Albuquerque, judging Cochin too far south to serve as a
+      real capital, took Goa from the king of Bijapur, lost it to a
+      counterattack within the year, and stormed it back for good that
+      November. The city became the seat of every later Portuguese
+      governor in Asia - the point at which da Gama's single voyage of
+      1498 turned into a standing trading empire.
     source: stephens-1891
     contested: false
   - year: 1578
