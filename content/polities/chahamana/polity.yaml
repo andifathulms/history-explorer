@@ -1,0 +1,107 @@
+id: chahamana
+region: northern-india
+
+name:
+  latin: Chahamana Dynasty of Ajmer
+  script: चाहमान
+  script_lang: hi
+
+# smith-1904 dates Ajmer's founding by Ajayadeva Chauhan to "about
+# A.D. 1100"; it became the dynasty's own capital, superseding the
+# older Chahamana seat at Sambhar (Shakambhari).
+span:
+  start: { min: 1100, max: 1100, source: smith-1904 }
+  # smith-1904 dates the Second Battle of Tarain, Prithviraja's capture
+  # and execution, and the sack of Ajmer to A.D. 1192 (A.H. 588).
+  end: { min: 1192, max: 1192, source: smith-1904 }
+
+identity: >-
+  A Rajput clan that built Ajmer into a fortress capital, checked
+  Muhammad of Ghor's own first invasion under Prithviraja, and was
+  destroyed the following year when the same enemy returned with a
+  cavalry charge no confederate Indian army could withstand.
+
+capitals:
+  - { name: Ajmer, from: 1100, source: smith-1904 }
+
+core_region: Eastern Rajputana, centred on Ajmer and the older Chahamana seat of Sambhar (Shakambhari)
+
+rulers:
+  founder: { name: Ajayadeva Chauhan, source: smith-1904 }
+  # smith-1904 credits Prithviraja with real military achievement - the
+  # 1182 capture of Mahoba from the Chandela king, and the 1191 victory
+  # at Tarain - before his own defeat and execution the following year;
+  # no other Chahamana ruler this source names commanded comparable
+  # reach or reputation.
+  peak: { name: "Prithviraja III (Rai Pithora)", reign: [1177, 1192], source: smith-1904 }
+  last: { name: "Prithviraja III (Rai Pithora)", reign: [1177, 1192], source: smith-1904 }
+
+scripts_and_languages:
+  administration: [Sanskrit, Prakrit]
+  writing_system: Nagari
+
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  # smith-1904 groups the Chahamanas among the four Rajput clans of
+  # the Agnikula ("fire-born") legend, alongside the Pratiharas,
+  # Paramaras and Chaulukyas - conquest and inherited descent both
+  # plainly attested in the source's own account of the dynasty's
+  # kings.
+  legitimation: { values: [conquest, descent], source: smith-1904 }
+
+preceded_by_external: []
+
+succeeded_by_external: []
+
+ended:
+  type: conquest
+  by: []
+  year: 1192
+  source: smith-1904
+
+turning_points:
+  - year: 1100
+    type: capital-move
+    name: "Ajayadeva founds Ajmer"
+    changed: >-
+      Ajayadeva Chauhan founded Ajmer as a new capital for a dynasty
+      that had previously ruled from Sambhar (Shakambhari), giving the
+      Chahamanas a fortress seat that would anchor their power in
+      eastern Rajputana for the rest of the dynasty's own independent
+      existence.
+    source: smith-1904
+    contested: false
+  - year: 1191
+    type: battle
+    name: "The first battle of Tarain"
+    changed: >-
+      Prithviraja led a confederacy of Northern Indian princes to a
+      real victory over Muhammad of Ghor's own invading army at Tarain,
+      forcing the Ghurid force to retreat beyond the Indus - the high
+      point of organised Hindu resistance to the Ghurid advance, and
+      the last such victory any Northern Indian confederacy would win.
+    source: smith-1904
+    contested: false
+  - year: 1192
+    type: battle
+    name: "The second battle of Tarain"
+    changed: >-
+      Muhammad of Ghor returned with a fresh army and, on the same
+      field, broke Prithviraja's own confederate host with a charge of
+      twelve thousand mounted horsemen; the captured Prithviraja was
+      executed, and Ajmer's own inhabitants were put to the sword or
+      sold into slavery - ending the dynasty's independence in the same
+      year its own greatest king had won his greatest victory.
+    source: smith-1904
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
