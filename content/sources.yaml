@@ -570,6 +570,20 @@ sources:
     publisher: Cambridge University Press
     year: 1987
 
+  - id: motylinski-1907
+    kind: book
+    author: Adolphe de Calassanti-Motylinski
+    title: "Chronique d'Ibn Saghir sur les imams rostemides de Tahert"
+    year: 1907
+    note: >-
+      A French edition and translation, with the Arabic text facing, of
+      Ibn al-Saghir's own early-tenth-century chronicle of the Rustamid
+      imams - written by a contemporary at Tahert itself. Covers, among
+      the imams, Aflah ibn Abd al-Wahhab's fifty- or sixty-year reign -
+      the longest of the dynasty - his own character and governance,
+      and the succession dispute after his death. Open access via
+      archive.org.
+
   - id: bennison-2016
     kind: book
     author: Amira K. Bennison
@@ -8106,3 +8120,18 @@ sources:
       (1531-1752) - Tabinshwehti's conquest of Pegu and Martaban,
       Bayinnaung's reign, and the 1752 fall of Ava - and the founding
       of the Alaungpaya (Konbaung) dynasty that followed it.
+
+  - id: morgan-iroquois-1851
+    kind: book
+    author: Lewis Henry Morgan
+    title: "League of the Ho-de'-no-sau-nee, or Iroquois"
+    publisher: Sage & Brother
+    year: 1851
+    note: >-
+      An ethnographer's account written with the collaboration of Ely S.
+      Parker, a Seneca sachem, drawing on Iroquois oral tradition alongside
+      colonial and early US records. Cited here for the confederacy's own
+      account of its founding by Dekanawida (rendered Da-ga-no-we'-da), the
+      structure of the fifty sachemships and the five founding nations, the
+      1715 admission of the Tuscaroras as a sixth nation, and the
+      confederacy's political collapse following the American Revolution.

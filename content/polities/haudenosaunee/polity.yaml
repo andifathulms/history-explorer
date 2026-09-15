@@ -1,0 +1,152 @@
+id: haudenosaunee
+region: eastern-woodlands
+
+name:
+  latin: Haudenosaunee Confederacy (Iroquois League)
+  script: null
+  script_lang: null
+
+# morgan-1851 gives no fixed founding date: the Iroquois' own traditions place
+# it in a remote and unrecorded past, while circumstances of first contact
+# suggested to Morgan that the League "had subsisted about a century" by the
+# time of Dutch discovery of the Hudson (1609) - his own words, not an
+# invented estimate. That range, not a single year, is what the source
+# supports.
+span:
+  start: { min: 1450, max: 1600, source: morgan-iroquois-1851 }
+  end: { min: 1783, max: 1794, source: morgan-iroquois-1851 }
+
+identity: >-
+  A confederacy of five, later six, nations of present-day New York, bound
+  by fifty hereditary sachemships under a law tradition credited to the
+  Onondaga lawgiver Dekanawida, that broke the Huron, Erie and Neutral
+  nations, held the balance between French and English colonial power for a
+  century, and split irreparably over which side to support in the American
+  Revolution.
+
+capitals:
+  - { name: Onondaga (council fire), from: null, source: morgan-iroquois-1851 }
+
+core_region: Present-day upstate New York, between the Hudson and Niagara rivers
+
+rulers:
+  # morgan-1851 names Dekanawida ("Da-ga-no-we'-da") as the League's
+  # traditional founder and first lawgiver, working with the Onondaga
+  # sachem Tododaho and the Mohawk sachem Hiawatha ("Ha-yo-went'-ha") - but
+  # gives no dates, calling the epoch of founding undeterminable.
+  founder: { name: "Dekanawida (Da-ga-no-we'-da)", source: morgan-iroquois-1851 }
+  # The League's supreme power rested in a council of fifty sachems, never
+  # in one ruler; morgan-1851 names no individual as having presided over
+  # any particular peak, and no such figure is coded here.
+  peak: { name: null, source: null }
+  last: { name: null, source: null }
+
+scripts_and_languages:
+  administration: [Iroquoian languages]
+  writing_system: null
+
+institutions:
+  # Each of the five, later six, nations raised its own warriors by tribe;
+  # morgan-1851 describes no standing or professional force.
+  military_basis: { values: [tribal-levy], source: morgan-iroquois-1851 }
+  # morgan-1851 describes subjugated neighboring nations being "made
+  # tributary" after Iroquois campaigns of the 1640s-1670s.
+  revenue_basis: { values: [tribute], source: morgan-iroquois-1851 }
+  # Sachem titles were hereditary within a fixed maternal tribe/clan and
+  # could never leave it, but the individual successor - usually a nephew
+  # or brother of the deceased - was chosen by a tribal council from among
+  # those eligible: hereditary in the clan, elective within it.
+  succession_rule: { values: [matrilineal, election], source: morgan-iroquois-1851 }
+  legitimation: { values: [descent], source: morgan-iroquois-1851 }
+
+preceded_by_external: []
+
+succeeded_by_external:
+  - name: the United States
+    type: conquered by
+    year: null
+    note: >-
+      The Revolution's peace treaty of 1783 made no provision for the
+      confederacy, which had split over which side to support; a punitive
+      campaign in 1779 had already destroyed the principal Seneca and Cayuga
+      towns, and in the years after the war the jurisdiction of the United
+      States and New York State was extended over Iroquois territory,
+      ending the League's political independence and beginning a history of
+      reservations and land cessions.
+    source: morgan-iroquois-1851
+
+ended:
+  type: gradual absorption
+  by: []
+  year: null
+  source: morgan-iroquois-1851
+
+turning_points:
+  - year: 1609
+    type: battle
+    name: "First battle with Europeans, at Lake George"
+    changed: >-
+      A Mohawk war party met Samuel de Champlain, allied with the
+      Iroquois' own Algonquian-speaking enemies, on the shore of the lake
+      he named for himself - the first clash between the Iroquois and any
+      European power, and the first time they heard the report of a
+      firearm, "by the marvellous power of which they were then easily
+      vanquished." The French alliance with the Huron and Adirondack
+      against them shaped a century of Iroquois foreign policy in return.
+    source: morgan-iroquois-1851
+    contested: false
+  - year: 1643
+    type: battle
+    name: "The Neutral Nation driven from Niagara"
+    changed: >-
+      Armed increasingly with firearms obtained through Dutch trade at
+      Fort Orange, the confederacy expelled the Neutral Nation from the
+      Niagara peninsula and settled the river's mouth permanently - the
+      opening campaign of a decade of wars that gave the Iroquois
+      unmatched military supremacy over their neighboring nations.
+    source: morgan-iroquois-1851
+    contested: false
+  - year: 1653
+    type: battle
+    name: "The Erie nearly exterminated"
+    changed: >-
+      A war against the Erie, who held the south shore of Lake Erie east
+      to the Genesee, brought the confederacy close to annihilating that
+      nation outright and left the Iroquois in possession of the whole of
+      western New York and the northern edge of Ohio.
+    source: morgan-iroquois-1851
+    contested: false
+  - year: 1715
+    type: reform
+    name: "The Tuscarora admitted as the sixth nation"
+    changed: >-
+      Expelled from North Carolina after a disastrous war with English
+      colonists, the Tuscarora turned north on the strength of a claimed
+      common origin and were admitted as a constituent nation, settled on
+      Oneida land; the Five Nations became, in English usage, the Six
+      Nations, though the five original nations kept the fifty sachemships
+      for themselves and never seated a Tuscarora sachem among them.
+    source: morgan-iroquois-1851
+    contested: false
+  - year: 1779
+    type: catastrophe
+    name: "Sullivan's campaign in Seneca and Cayuga country"
+    changed: >-
+      An American army of four thousand under General Sullivan marched
+      into Seneca territory as far as the Genesee, burning towns, orchards
+      and grain stores before a detachment ravaged Cayuga settlements in
+      turn - punishment for a war the confederacy itself had entered only
+      after the Oneida's lone dissent failed to hold the League to
+      neutrality, and a blow from which its political power never
+      recovered.
+    source: morgan-iroquois-1851
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

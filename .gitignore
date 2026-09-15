@@ -11,3 +11,7 @@ next-env.d.ts
 # serves is copied into public/brand, which is tracked — CI builds from the
 # repository and cannot see anything that only exists on one machine.
 exports/
+
+# Generated metadata dump (group/region/polity JSON) — regenerate on demand,
+# not tracked.
+polities-metadata.json

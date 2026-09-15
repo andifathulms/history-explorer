@@ -907,3 +907,13 @@ regions:
       so completely that a curse was pronounced against rebuilding it.
     group: africa-maghreb
     thread: false
+
+  - id: eastern-woodlands
+    name: The Eastern Woodlands
+    blurb: >-
+      The agricultural and hunting societies east of the Mississippi, whose
+      largest polity, the Iroquois confederacy, organized five nations under
+      a shared council of hereditary sachems without ever developing a state
+      of the Mesoamerican or Andean kind.
+    group: the-americas
+    thread: false
