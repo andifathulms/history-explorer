@@ -79,6 +79,11 @@ succeeded_by_external: []
 # (1804) and Austria-Hungary (1867) into the twentieth century.
 ended: null
 
+# Trimmed from sixty-seven hinges to the ones that survive a chronicle
+# compressed from seventy chapters to under thirty: one per chapter or
+# consolidated chapter-group, tracing the family's own rise to Albert
+# V's triple crown and its long, uneven aftermath, rather than every
+# succession and battle the source narrates in full.
 turning_points:
   - year: 1273
     type: succession-crisis
@@ -114,224 +119,53 @@ turning_points:
       administered.
     source: coxe-austria-1847
     contested: false
-  - year: 1291
-    type: catastrophe
-    name: "The death of Rudolf I"
-    changed: >-
-      Denied his final wish - securing the imperial crown for his own
-      son Albert while he still lived - Rudolf died at Germersheim on
-      his way to be buried among his predecessors at Speyer, leaving the
-      empire's throne open to a fresh election and his own family's
-      fortunes resting on nothing more than the two duchies he had
-      managed to hand down before the end.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1292
-    type: succession-crisis
-    name: "Adolf of Nassau elected over Albert"
-    changed: >-
-      The same calculation that had once favoured Rudolf worked against
-      his own son: the electors, wary of Albert's power and alienated by
-      his arrogance, chose a far weaker rival instead, and Albert judged
-      his own position too precarious to contest the result by force.
-    source: coxe-austria-1847
-    contested: false
   - year: 1298
     type: battle
     name: "The Battle of Göllheim"
     changed: >-
-      Albert's own coalition of electors had already deposed Adolf for
-      contumacy when the two kings met in battle near Speyer; Albert
-      killed his rival in single combat after a defiant exchange of
-      words, and was afterward re-elected unanimously rather than rest
-      his claim on the outcome of the fighting alone.
+      Passed over for the crown once already, Albert deposed his own
+      electors' second choice for contumacy and killed him in single
+      combat when the two kings met in battle near Speyer - then had
+      the electors formally re-elect him anyway, unwilling to hold a
+      throne people might call a battlefield prize rather than a lawful
+      succession.
     source: coxe-austria-1847
     contested: false
-  - year: 1306
+  - year: 1314
     type: succession-crisis
-    name: "Rudolph of Austria elected King of Bohemia"
+    name: "Two kings crowned in a fortnight"
     changed: >-
-      With Bohemia's own ruling line extinct, Albert secured the throne
-      for his eldest son over a rival candidate the late king's own
-      grieving family had pleaded for - a Habsburg foothold in Bohemia
-      that collapsed within a year when Rudolph died besieging his own
-      rebellious subjects.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1308
-    type: catastrophe
-    name: "The assassination of Albert I"
-    changed: >-
-      Albert's own nephew John, denied his share of the family's
-      hereditary lands once too often, ambushed and killed him within
-      sight of the ancestral castle of Habsburg itself, ending the
-      second Habsburg reign in murder rather than in the succession
-      Albert had spent his life trying to secure for his own sons.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1308
-    type: succession-crisis
-    name: "Henry of Luxembourg elected over Frederick"
-    changed: >-
-      Passed over a second time for the German crown, Frederick watched
-      the new emperor place his own son John on Bohemia's own throne
-      within two years - a rival dynasty's foothold next door that
-      Habsburg arms would spend decades failing to dislodge.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1315
-    type: battle
-    name: "The Battle of Morgarten"
-    changed: >-
-      A year after rival electors crowned both Frederick and Louis of
-      Bavaria within a fortnight of each other, Leopold marched an army
-      into the Swiss mountains to punish cantons that had sided with
-      his brother's rival, and lost more than fifteen hundred men in a
-      single ambush in a pass too narrow for his own cavalry to fight
-      in - a defeat that cost the family more than the war it was meant
-      to help win.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1322
-    type: battle
-    name: "The Battle of Mühldorf"
-    changed: >-
-      Frederick abandoned a sound defensive position to give battle
-      alone rather than wait for his brother's army, and lost: a
-      disguised flanking force broke his exhausted troops in the day's
-      final hour, and Frederick himself was captured and imprisoned,
-      leaving Louis of Bavaria's own claim to the German throne
-      effectively unopposed.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1330
-    type: catastrophe
-    name: "The death of Frederick the Handsome"
-    changed: >-
-      Denied the shared authority Louis had once promised him and
-      forced to give up part of his own inheritance to a younger
-      brother, Frederick died at Gutenstein in failing health - the
-      only one of his family's German kings never to rule unopposed,
-      remembered instead for the parole he honoured at the cost of his
-      own freedom.
+      Rival electors crowned Frederick the Handsome and Louis of
+      Bavaria within days of each other, each coronation looking
+      equally legitimate, and opened eight years of civil war that
+      cost the family a king's freedom at Mühldorf, over fifteen
+      hundred men in a single ambush at Morgarten, and its last real
+      claim on the German throne for more than a century.
     source: coxe-austria-1847
     contested: false
   - year: 1330
     type: treaty
     name: "The Peace of Hagenau"
     changed: >-
-      Albert II and Otho made peace with Louis of Bavaria at last,
-      closing a rift the 1314 double election had opened between their
-      two families sixteen years earlier - a reconciliation that let
-      Austria turn its attention toward a more dangerous rival next
-      door in Bohemia.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1339
-    type: treaty
-    name: "Carinthia secured, Tyrol renounced"
-    changed: >-
-      After years of war over a childless duke's inheritance, Austria
-      gave up its claim on Tyrol to the disputed heiress Margaret
-      Maultasch in exchange for permanent, undisputed possession of
-      Carinthia - a duchy the family would go on holding far longer
-      than either Austria or Styria's own original conquest.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1347
-    type: succession-crisis
-    name: "Charles IV succeeds Louis of Bavaria"
-    changed: >-
-      Louis died suddenly of apoplexy while pressing his advantage
-      against a rival German king backed by the Pope and Bohemia,
-      handing the imperial crown to Charles almost by accident; Albert,
-      who had backed Louis to the end, switched sides at once and
-      traded his goodwill with the new emperor for a final, lasting
-      settlement of the Tyrol dispute.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1358
-    type: catastrophe
-    name: "The death of Albert II"
-    changed: >-
-      Crippled for decades by paralysis but never in mind, Albert died
-      after a twenty-eight-year reign that earned him the name "the
-      Wise" everywhere except in Switzerland, where a war fought to
-      keep Lucerne, Zurich, Glarus and Zug closed instead in a
-      grudging, unenforceable armistice.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1364
-    type: treaty
-    name: "Tyrol confirmed at Brünn"
-    changed: >-
-      Rudolf IV had already secured Margaret Maultasch's own grant of
-      Tyrol and rushed to claim it outright once her husband and son
-      both died within two years of each other; his wife then brokered
-      a reconciliation between her husband and her own father Charles
-      IV, who confirmed the grant and invested Rudolf with a province
-      no Habsburg duke had ruled before.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1365
-    type: catastrophe
-    name: "The death of Rudolf IV"
-    changed: >-
-      A fever caught traveling to his own brother's Italian wedding
-      killed Rudolf at twenty-six, cutting short a reign that had
-      already added Tyrol to the family's possessions, founded a
-      university meant to rival Prague's, and provoked an emperor's
-      formal rebuke by reviving the title "Archduke" from a disputed
-      antiquarian claim - a title Rudolf never fully abandoned, and the
-      House of Austria would one day bear in earnest.
+      Frederick's and Leopold's deaths removed the family's last
+      rival claim on the imperial title, and the surviving brothers
+      made peace with Louis of Bavaria at last - closing, at a stroke,
+      a war the 1314 double election had opened sixteen years earlier
+      and steadying the House of Austria more than either dead
+      brother's reign ever had.
     source: coxe-austria-1847
     contested: false
   - year: 1369
     type: treaty
     name: "Tyrol secured at Scharding"
     changed: >-
-      Three years after Bavaria renewed its old claim on Tyrol
-      following Margaret Maultasch's death, Emperor Charles IV mediated
-      a settlement that closed the dispute for good: Bavaria gave up
-      the province outright for a sizeable payment, leaving Austria the
-      undisputed master of a mountain duchy rich in silver and command
-      of the roads into Italy.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1379
-    type: reform
-    name: "The family divided between Albert III and Leopold III"
-    changed: >-
-      Leopold forced a new compact on his elder brother that broke the
-      indivisibility every previous Habsburg generation had preserved,
-      leaving Austria itself to Albert while Leopold claimed Styria,
-      Carinthia, Tyrol and the family's own Alsatian and Swabian
-      holdings outright - a division the emperor approved with visible
-      satisfaction at the family's own self-inflicted weakening.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1383
-    type: treaty
-    name: "The Trevigiano sold, Trieste gained"
-    changed: >-
-      Worn down by a war in Venetian territory he could no longer
-      afford, Leopold gave up his hard-won share of the Trevigiano for
-      a cash payment - but came away from the same conflict with a
-      lasting prize instead, when the citizens of Trieste, abandoned by
-      a weaker patriarch, offered him their own submission and made
-      Austria a maritime power on the Adriatic for the first time.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1386
-    type: succession-crisis
-    name: "William loses the Polish crown"
-    changed: >-
-      Denied any audience with the queen he had been betrothed to since
-      childhood by a court faction that favoured a rival Lithuanian
-      suitor, Leopold's son William abandoned his claim on Poland just
-      before Jogaila arrived to marry Hedwig and take the throne
-      himself - a personal humiliation that helped drive Leopold into
-      the despondency that let his own bailiffs' abuses go unchecked.
+      Three decades after a childless heiress's disputed marriages
+      first drew Bavaria, Bohemia and Austria into a three-way contest
+      for her inheritance, Emperor Charles IV mediated a settlement
+      that closed the dispute for good: Bavaria gave up its claim
+      outright for a cash payment, leaving Austria undisputed master
+      of a mountain duchy rich in silver and command of the roads into
+      Italy.
     source: coxe-austria-1847
     contested: false
   - year: 1386
@@ -339,82 +173,27 @@ turning_points:
     name: "The Battle of Sempach"
     changed: >-
       Confident nobles who dismissed the confederate army as an
-      unarmed rabble pushed Leopold into an immediate attack rather
-      than wait for reinforcements, and a knight's self-sacrifice broke
-      the Austrian line open; roughly two thousand men died, Leopold
-      himself among them, fighting on foot with the family standard in
-      his own hands after refusing every urging to save himself.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1388
-    type: battle
-    name: "The Battle of Näfels"
-    changed: >-
-      An Austrian force eight thousand strong, sent to punish Glarus
-      for copying Swiss self-government, scattered to plunder the
-      moment it reached Näfels and was routed by a few hundred
-      defenders using the same rock-and-charge tactics that had broken
-      an Austrian army at Morgarten seventy years earlier - a second
-      catastrophic defeat that finally ended the war for good.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1395
-    type: catastrophe
-    name: "The death of Albert III"
-    changed: >-
-      Struck by a mortal illness while campaigning in Bohemia on behalf
-      of nobles who had briefly deposed King Wenceslas IV, Albert died
-      at Laxenburg genuinely mourned by his own subjects - a gentler
-      end, in the source's own telling, than any Habsburg ruler before
-      him had received from the people he governed.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1404
-    type: catastrophe
-    name: "Albert IV poisoned at Znaim"
-    changed: >-
-      Besieging a Moravian warlord alongside King Sigismund of Hungary,
-      Albert accepted a surrender feast that turned out to be an
-      assassination attempt; Sigismund barely survived the poison, but
-      Albert died weeks later, leaving Austria's throne to a seven-year-
-      old son for the second time in three Habsburg generations.
+      unarmed rabble pushed Leopold III into an immediate attack
+      rather than wait for reinforcements, and a knight's
+      self-sacrifice broke the Austrian line open; roughly two
+      thousand men died, Leopold himself among them, closing out
+      seventy years in which the family's Swiss patrimony was lost
+      the same way every time - armoured cavalry sent into terrain
+      that neutralised it, broken by a smaller force holding the
+      high ground.
     source: coxe-austria-1847
     contested: false
   - year: 1406
     type: reform
     name: "The family splits into the Albertine and Leopoldine lines"
     changed: >-
-      William's sudden, childless death ended the joint guardianship
+      A cousin's sudden, childless death ended the joint guardianship
       that had briefly held the dynasty together, and the House of
       Austria broke permanently into an Albertine branch holding
-      Austria for the child Albert V and a Leopoldine branch split three
-      ways among Leopold III's own surviving sons - the very outcome
-      Emperor Charles IV had once wryly predicted, a family humbling
-      itself through its own internal division.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1411
-    type: catastrophe
-    name: "The death of Leopold IV"
-    changed: >-
-      A decade of rival regents, factional score-settling and unchecked
-      banditry across the Austrian countryside ended only with
-      Leopold's own death, still without resolving which of his own
-      squabbling relatives would finally govern a duchy neither co-
-      regent had managed to control.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1437
-    type: succession-crisis
-    name: "Sigismund names Albert his successor"
-    changed: >-
-      Dying and thwarted by his own wife's scheme to divert Hungary and
-      Bohemia to a Polish rival, Sigismund summoned the nobles of both
-      kingdoms to his deathbed and personally commended Albert as his
-      chosen heir; the Hungarians accepted him without real contest, but
-      the Hussites in Bohemia rejected the succession outright and
-      backed a Polish claimant instead, reopening the war Albert had
-      already fought once as Sigismund's own general.
+      Austria for the child Albert V and a Leopoldine branch split
+      three ways among Leopold III's own surviving sons - a family
+      humbling itself through its own internal division, exactly as
+      an earlier emperor had once wryly predicted it would.
     source: coxe-austria-1847
     contested: false
   - year: 1438
@@ -438,77 +217,8 @@ turning_points:
       rather than rest, and died in a village short of the city less
       than two years after becoming the first ruler in a century and a
       half to hold both the imperial crown and the House of Austria's
-      own patrimony together.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1440
-    type: succession-crisis
-    name: "Ladislaus Posthumus crowned in infancy"
-    changed: >-
-      Born after his father's death and crowned king of Hungary at four
-      months old on his own mother's chest, Ladislaus became the object
-      of a Hungarian civil war between his mother's regency and a rival
-      Polish king the nobles had already been persuaded to accept
-      before his birth was even known.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1442
-    type: catastrophe
-    name: "The death of Elizabeth"
-    changed: >-
-      Ladislaus's mother died at Győr under suspicion of poison just as
-      a papal-brokered peace might have secured his throne without
-      further war, leaving her infant son's only formal protector in
-      Frederick of Styria, his distant guardian rather than a parent
-      with a direct stake in his survival.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1452
-    type: siege
-    name: "The siege of Wiener Neustadt"
-    changed: >-
-      After years of refusing to surrender his ward to any of the three
-      kingdoms demanding his presence, Frederick was besieged in his
-      own residence by an Austrian noble at the head of sixteen
-      thousand men and forced to give up the twelve-year-old king,
-      who entered Vienna to public celebration under a new, three-way
-      regency dividing Hungary, Bohemia and Austria among separate
-      governors.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1453
-    type: succession-crisis
-    name: "Ladislaus crowned King of Bohemia"
-    changed: >-
-      Escorted to Prague by his own Bohemian regent, George of
-      Poděbrady, Ladislaus was finally crowned in a kingdom that had
-      spent thirteen years arguing over whether an absent infant could
-      be trusted to govern it at all.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1456
-    type: battle
-    name: "The Siege of Belgrade"
-    changed: >-
-      John Hunyadi broke an Ottoman river blockade to resupply Belgrade
-      before Sultan Mehmed II's main assault, then rallied defenders
-      who had already lost the walls into driving the Turks back out
-      again, at a cost of some thirty thousand Ottoman dead - a victory
-      that cost Hunyadi his own life to a fever weeks later, and left
-      Ladislaus without the one regent more trusted than the king
-      himself.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1457
-    type: catastrophe
-    name: "Cilli murdered, Ladislaus Hunyadi executed"
-    changed: >-
-      A brawl between Count Cilli and Hunyadi's elder son left Cilli
-      dead; the king publicly pardoned young Ladislaus Hunyadi and his
-      mother's tearful pleas, then had him arrested and beheaded the
-      moment his guard was down - a betrayal that turned Hungary
-      against its own sovereign, who left the kingdom soon after amid
-      the open contempt of its people.
+      own patrimony together - a reach no later Habsburg duke would
+      match.
     source: coxe-austria-1847
     contested: false
   - year: 1457
@@ -517,101 +227,11 @@ turning_points:
     changed: >-
       Struck down by sudden illness in Prague while preparing to marry
       a French princess, Ladislaus died within thirty-six hours at
-      seventeen, ending the one reign that had briefly held Austria,
-      Hungary and Bohemia together under a single king - a death German
-      rumor blamed on poison, though the Bohemian historians Coxe
-      follows traced it instead to plague.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1458
-    type: reform
-    name: "Austria partitioned among Frederick, Albert and Sigismund"
-    changed: >-
-      With no single strong heir to claim the whole Austrian
-      inheritance after Ladislaus's death, the states split it three
-      ways among rival Habsburg cousins forced to share the same
-      capital - a settlement that satisfied none of them and opened
-      years of open war between the two closest claimants.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1461
-    type: succession-crisis
-    name: "The Elector Palatine's league to depose Frederick"
-    changed: >-
-      A coalition of German princes, including Frederick's own brother
-      and cousin, convened rival diets without his consent and moved
-      toward formally deposing him as emperor; only skillful diplomacy
-      and Pope Pius II's own personal support, splitting the coalition
-      one prince at a time, kept the imperial crown in Habsburg hands.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1462
-    type: siege
-    name: "The siege of the Vienna citadel"
-    changed: >-
-      Frederick, reduced to two hundred men and three weeks of
-      provisions inside his own besieged fortress, was saved not by
-      the empire's own slow-moving diet but by George of Poděbrady, who
-      marched thirteen thousand Bohemian troops to break the siege and
-      then personally arbitrated a settlement between the warring
-      Habsburg brothers.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1463
-    type: catastrophe
-    name: "The death of Albert VI"
-    changed: >-
-      Albert died suddenly while preparing to renew the family war one
-      more time, ending years of fraternal conflict not through
-      victory or reconciliation but through the simple exhaustion of
-      one side's own ability to keep fighting.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1467
-    type: reform
-    name: "Pope Paul II deposes Poděbrady"
-    changed: >-
-      Years of pressure from Rome finally overcame Frederick's own debt
-      to the king who had rescued him at Vienna, and the emperor's own
-      envoys threw their support behind a formal call to arms against
-      Bohemia at a German assembly; even after that specific proposal
-      was voted down, the pope stripped Poděbrady of his crown by
-      decree and turned loose recruiters for a holy war he never
-      actually needed the diet's own consent to authorise.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1469
-    type: succession-crisis
-    name: "Matthias crowned rival King of Bohemia at Olomouc"
-    changed: >-
-      Persuaded that no peace with a "heretic" king need be honoured,
-      Matthias Corvinus broke a treaty signed only weeks earlier, swept
-      through two neighbouring provinces, and staged his own election
-      and coronation before a gathering of loyal Catholic nobles -
-      installing a rival Bohemian monarchy alongside Poděbrady's own,
-      still-unbroken hold on Prague.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1470
-    type: treaty
-    name: "Armistice ends the Bohemian-Hungarian war"
-    changed: >-
-      Two kings personally leading their own armies fought each other
-      to a standstill before agreeing, on 22 July, to end hostilities
-      that had devastated both their countries without settling which
-      of them actually ruled Bohemia.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1471
-    type: succession-crisis
-    name: "Poděbrady's death and Vladislaus's election"
-    changed: >-
-      Poděbrady died having already outmanoeuvred both Frederick and
-      Matthias by naming a Polish prince, acceptable to Catholics and
-      Calixtins alike, as his own successor; Frederick's own third bid
-      for the Bohemian crown drew even less support than his second,
-      and the estates confirmed Vladislaus as king over Matthias's own
-      larger faction.
+      seventeen, ending the one reign since Albert V's own death that
+      had briefly held Austria, Hungary and Bohemia together under a
+      single king - and opening, in its place, decades of fraternal
+      war, disputed regencies and Ottoman pressure that no single
+      Habsburg duke would fully master again.
     source: coxe-austria-1847
     contested: false
   - year: 1477
@@ -622,143 +242,9 @@ turning_points:
       XI of France, Mary chose Maximilian on the strength of her late
       father's praise for him and a token exchange of letters, joining
       the vast Burgundian inheritance - Flanders, Artois, Holland,
-      Brabant and more - to the House of Austria for the first time.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1477
-    type: siege
-    name: "Matthias's first invasion of Austria"
-    changed: >-
-      Provoked past endurance by years of betrayal, Matthias Corvinus
-      overran most of Lower Austria within a month, besieged Vienna
-      itself, and forced Frederick to buy back his own capital for a
-      hundred thousand ducats he would later refuse to pay.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1479
-    type: battle
-    name: "The Battle of Guinegate"
-    changed: >-
-      Eighteen years old and commanding no army of his own a year
-      earlier, Maximilian defeated the forces of Louis XI in Artois,
-      stabilising Habsburg rule over the Burgundian Netherlands through
-      force of arms rather than the marriage contract alone.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1482
-    type: treaty
-    name: "The Treaty of Arras"
-    changed: >-
-      Mary's sudden death left Flanders openly hostile to Maximilian's
-      own claim to govern; Louis XI negotiated directly with the
-      Flemish estates over his head, betrothing his infant daughter
-      Margaret to the French dauphin with a dowry of Franche-Comté and
-      Artois, and stripping Maximilian of any real role in his own
-      children's upbringing.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1485
-    type: succession-crisis
-    name: "Albert of Munich seizes Regensburg and marries Cunegunda"
-    changed: >-
-      A Bavarian duke took an old imperial city his own family had once
-      held and married Frederick's daughter without so much as asking
-      his consent, insulting the emperor as both sovereign and father
-      at the exact moment Frederick was too weak, exiled from his own
-      Austrian lands, to answer either offense - a dispute the new
-      Swabian League would later give him the power to finally settle.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1486
-    type: succession-crisis
-    name: "Maximilian elected King of the Romans in secret"
-    changed: >-
-      Frederick secured his son's succession to the imperial title
-      through a rushed, deliberately concealed election that excluded
-      Bohemia's own king from a process he had a documented right to
-      join, provoking a crisis nearly serious enough to reopen the
-      whole succession before Frederick's personal mediation secured
-      Bohemian recognition.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1487
-    type: catastrophe
-    name: "Vienna falls, Frederick driven into exile"
-    changed: >-
-      A second invasion, launched once Frederick's broken promises gave
-      Matthias fresh cause for war, took four years of siege warfare
-      but ended completely: Vienna and Wiener Neustadt both fell, and
-      an armistice ceded occupied Austria to Matthias outright, leaving
-      Frederick a wandering exile in his own empire until repayment of
-      his old debts could win it back.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1488
-    type: revolt
-    name: "Maximilian imprisoned at Bruges"
-    changed: >-
-      A city he had entered under promise of loyal support instead rose
-      against him within a day, held him captive for months while
-      torturing and executing his own ministers, and voted his son's
-      guardianship to a new government before Frederick's own march on
-      Brabant forced his release that May.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1488
-    type: battle
-    name: "The Battle of Saint-Aubin"
-    changed: >-
-      France crushed the anti-royal alliance Maximilian had helped
-      build with Brittany and a faction of discontented French nobles
-      over the previous two years, capturing his own confederates and
-      forcing the Breton duke into vassalage - a military collapse that
-      removed his last real leverage against the French crown.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1489
-    type: treaty
-    name: "The Peace of Frankfurt"
-    changed: >-
-      France, keen to turn its own arms against a Brittany now left
-      undefended, restored the territory it had occupied there,
-      reaffirmed the Arras settlement, and used its influence over the
-      Flemish rebels to secure Philip's custody for his own father at
-      last.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1490
-    type: catastrophe
-    name: "The death of Matthias Corvinus"
-    changed: >-
-      Astrologers had promised Frederick his rival would die within the
-      year, and for once they were right: Matthias's death in April,
-      after prolonged illness delayed a planned meeting between the two
-      kings, opened the way for Habsburg Austria's own recovery after
-      more than a decade under Hungarian occupation.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1490
-    type: succession-crisis
-    name: "Ladislaus elected King of Hungary over Maximilian"
-    changed: >-
-      Passed over for the Hungarian crown on 15 July despite his own
-      proven talents, Maximilian answered by clearing every garrison
-      Ladislaus still held on Austrian soil within six weeks and
-      invading Hungary itself, a campaign that ended not in conquest
-      but in a negotiated peace at Bratislava restoring Austria fully
-      to Habsburg hands.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1493
-    type: treaty
-    name: "The Treaty of Senlis"
-    changed: >-
-      A French king Maximilian's own bride despised married her anyway,
-      after a "mock treaty" cleared her supposed passage into Germany
-      and delivered her instead to Langeais - absorbing Brittany into
-      France outright and leaving Maximilian, abandoned by every ally
-      he had courted, to settle for Franche-Comté and Artois as
-      compensation once formal terms were finally agreed.
+      Brabant and more - to the House of Austria for the first time,
+      and opening a rivalry with the French crown that would outlast
+      every ruler who lived through its opening decade.
     source: coxe-austria-1847
     contested: false
   - year: 1493
@@ -771,76 +257,6 @@ turning_points:
       having already handed full administration of Austria and the
       empire to Maximilian, Frederick closed a fifty-three-year reign
       longer than any emperor's since Augustus.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1494
-    type: treaty
-    name: "Maximilian marries Bianca Maria Sforza"
-    changed: >-
-      A dowry-rich but socially unequal match with the ruling family of
-      Milan drew open scorn from Germany's nobles, who considered the
-      Sforzas too low-born for an imperial marriage - but it gave
-      Maximilian the Italian foothold that would soon pull him directly
-      into the coming war over Naples.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1495
-    type: battle
-    name: "Charles VIII conquers Naples"
-    changed: >-
-      A French king crossed the Alps, took Florence and Rome by force
-      of arms and reputation alone, and entered Naples in May wearing
-      the trappings of imperial authority - a conquest so rapid it
-      alarmed every power in Italy, Maximilian most of all, and turned
-      even the Milanese regent who had opened the Alpine passes for him
-      into a leader of the coalition against him.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1495
-    type: battle
-    name: "The Battle of Fornovo"
-    changed: >-
-      Retreating from a Naples he could no longer hold once the league
-      against him took shape, Charles VIII broke through a confederate
-      army blocking his passage home near Parma, secured his own
-      escape, and made a separate peace with Milan - leaving Naples
-      itself to fall back to its restored king within months of the
-      French withdrawal.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1496
-    type: reform
-    name: "The Diet of Worms"
-    changed: >-
-      Maximilian summoned the empire's most heavily attended diet in
-      living memory to Worms and threw every argument he had - exiled
-      kings, a wronged pope, his own considerable eloquence - behind a
-      demand for troops to drive France from Italy, only to find the
-      German states too numbed by decades of unanswered appeals to act
-      even when the case against France had never been stronger.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1496
-    type: catastrophe
-    name: "Maximilian retreats from a failed Italian expedition"
-    changed: >-
-      A second Italian venture, undertaken with barely more than a
-      thousand men on the strength of allies who no longer needed him,
-      collapsed into a fruitless siege of Livorno that Venetian foot-
-      dragging made hopeless; Maximilian abandoned the campaign in
-      disgust that December, a failure Coxe judges genuinely damaging
-      to his standing as both emperor and soldier.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1498
-    type: succession-crisis
-    name: "Charles VIII dies, Louis XII succeeds"
-    changed: >-
-      The French king who had stalled Philip's own demands over the
-      remaining Burgundian territories died leaving only a daughter;
-      his cousin and successor divorced his own wife to marry Anne of
-      Brittany in his place - the same woman Maximilian had once wed
-      before she was taken from him.
     source: coxe-austria-1847
     contested: false
   - year: 1499
