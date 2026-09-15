@@ -16,24 +16,24 @@ name:
 # following the source's own periodization.
 span:
   start: { min: 1273, max: 1273, source: coxe-austria-1847 }
-  # This record currently runs only to Albert II's own death in 1358 -
+  # This record currently runs only to Rudolf IV's own death in 1365 -
   # the last event its sourced chapters cover, not an institutional
   # end. The Habsburg Monarchy has no end within this source's own
   # scope, let alone in reality: it continued, through the Austrian
   # Empire and Austria-Hungary, into the twentieth century.
-  end: { min: 1358, max: 1358, source: coxe-austria-1847 }
+  end: { min: 1365, max: 1365, source: coxe-austria-1847 }
 
 identity: >-
   A minor Swabian count's family, raised to the German crown by
   electors who wanted a weak monarch, that destroyed Bohemia's own
-  king, settled Austria and Styria on its sons, secured Carinthia
-  permanently, and lost four Swiss towns to the confederacy it once
-  tried to crush at Morgarten.
+  king, settled Austria and Styria on its sons, and under a
+  twenty-something duke acquired Tyrol and invented a title, "Archduke,"
+  an emperor's rebuke could not fully undo.
 
 capitals:
   - { name: Vienna, from: 1280, source: coxe-austria-1847 }
 
-core_region: The Duchies of Austria, Styria and (from 1335) Carinthia, along the middle Danube
+core_region: The Duchies of Austria, Styria, Carinthia (from 1335) and Tyrol (from 1363), along the middle Danube
 
 rulers:
   # Coxe's own subtitle names Rudolf "the great founder of the House of
@@ -43,10 +43,12 @@ rulers:
   # alone the following year, while he himself remained King of the
   # Romans, based elsewhere in the empire.
   founder: { name: "Rudolf I of Habsburg (Rhodolph of Hapsburgh)", source: coxe-austria-1847 }
-  # Provisional: the only ruler this record's chapters currently cover.
-  # Centuries of Habsburg history - Charles V's global empire, Maria
-  # Theresa's reforms - remain to be added, and will very likely
-  # displace Rudolf from this field once they are.
+  # Provisional: the widest reach of authority any ruler covered so far
+  # has commanded, since Rudolf I alone among them held the imperial
+  # crown itself rather than a territorial duchy. Centuries of Habsburg
+  # history - Charles V's global empire, Maria Theresa's reforms -
+  # remain to be added, and will very likely displace Rudolf from this
+  # field once they are.
   peak: { name: "Rudolf I of Habsburg (Rhodolph of Hapsburgh)", reign: [1273, 1291], source: coxe-austria-1847 }
   last: null
 
@@ -255,6 +257,31 @@ turning_points:
       Wise" everywhere except in Switzerland, where a war fought to
       keep Lucerne, Zurich, Glarus and Zug closed instead in a
       grudging, unenforceable armistice.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1364
+    type: treaty
+    name: "Tyrol confirmed at Brünn"
+    changed: >-
+      Rudolf IV had already secured Margaret Maultasch's own grant of
+      Tyrol and rushed to claim it outright once her husband and son
+      both died within two years of each other; his wife then brokered
+      a reconciliation between her husband and her own father Charles
+      IV, who confirmed the grant and invested Rudolf with a province
+      no Habsburg duke had ruled before.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1365
+    type: catastrophe
+    name: "The death of Rudolf IV"
+    changed: >-
+      A fever caught traveling to his own brother's Italian wedding
+      killed Rudolf at twenty-six, cutting short a reign that had
+      already added Tyrol to the family's possessions, founded a
+      university meant to rival Prague's, and provoked an emperor's
+      formal rebuke by reviving the title "Archduke" from a disputed
+      antiquarian claim - a title Rudolf never fully abandoned, and the
+      House of Austria would one day bear in earnest.
     source: coxe-austria-1847
     contested: false
 
