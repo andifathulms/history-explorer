@@ -16,19 +16,18 @@ name:
 # following the source's own periodization.
 span:
   start: { min: 1273, max: 1273, source: coxe-austria-1847 }
-  # This record currently runs only to Rudolf IV's own death in 1365 -
-  # the last event its sourced chapters cover, not an institutional
-  # end. The Habsburg Monarchy has no end within this source's own
-  # scope, let alone in reality: it continued, through the Austrian
-  # Empire and Austria-Hungary, into the twentieth century.
-  end: { min: 1365, max: 1365, source: coxe-austria-1847 }
+  # This record currently runs only to Leopold III's own death at
+  # Sempach in 1386 - the last event its sourced chapters cover, not an
+  # institutional end. The Habsburg Monarchy has no end within this
+  # source's own scope, let alone in reality: it continued, through the
+  # Austrian Empire and Austria-Hungary, into the twentieth century.
+  end: { min: 1386, max: 1386, source: coxe-austria-1847 }
 
 identity: >-
   A minor Swabian count's family, raised to the German crown by
   electors who wanted a weak monarch, that destroyed Bohemia's own
-  king, settled Austria and Styria on its sons, and under a
-  twenty-something duke acquired Tyrol and invented a title, "Archduke,"
-  an emperor's rebuke could not fully undo.
+  king, acquired Austria, Tyrol and Trieste, and lost a duke and two
+  thousand men to Swiss peasants it had dismissed as an unarmed rabble.
 
 capitals:
   - { name: Vienna, from: 1280, source: coxe-austria-1847 }
@@ -282,6 +281,66 @@ turning_points:
       formal rebuke by reviving the title "Archduke" from a disputed
       antiquarian claim - a title Rudolf never fully abandoned, and the
       House of Austria would one day bear in earnest.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1369
+    type: treaty
+    name: "Tyrol secured at Scharding"
+    changed: >-
+      Three years after Bavaria renewed its old claim on Tyrol
+      following Margaret Maultasch's death, Emperor Charles IV mediated
+      a settlement that closed the dispute for good: Bavaria gave up
+      the province outright for a sizeable payment, leaving Austria the
+      undisputed master of a mountain duchy rich in silver and command
+      of the roads into Italy.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1379
+    type: reform
+    name: "The family divided between Albert III and Leopold III"
+    changed: >-
+      Leopold forced a new compact on his elder brother that broke the
+      indivisibility every previous Habsburg generation had preserved,
+      leaving Austria itself to Albert while Leopold claimed Styria,
+      Carinthia, Tyrol and the family's own Alsatian and Swabian
+      holdings outright - a division the emperor approved with visible
+      satisfaction at the family's own self-inflicted weakening.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1383
+    type: treaty
+    name: "The Trevigiano sold, Trieste gained"
+    changed: >-
+      Worn down by a war in Venetian territory he could no longer
+      afford, Leopold gave up his hard-won share of the Trevigiano for
+      a cash payment - but came away from the same conflict with a
+      lasting prize instead, when the citizens of Trieste, abandoned by
+      a weaker patriarch, offered him their own submission and made
+      Austria a maritime power on the Adriatic for the first time.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1386
+    type: succession-crisis
+    name: "William loses the Polish crown"
+    changed: >-
+      Denied any audience with the queen he had been betrothed to since
+      childhood by a court faction that favoured a rival Lithuanian
+      suitor, Leopold's son William abandoned his claim on Poland just
+      before Jogaila arrived to marry Hedwig and take the throne
+      himself - a personal humiliation that helped drive Leopold into
+      the despondency that let his own bailiffs' abuses go unchecked.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1386
+    type: battle
+    name: "The Battle of Sempach"
+    changed: >-
+      Confident nobles who dismissed the confederate army as an
+      unarmed rabble pushed Leopold into an immediate attack rather
+      than wait for reinforcements, and a knight's self-sacrifice broke
+      the Austrian line open; roughly two thousand men died, Leopold
+      himself among them, fighting on foot with the family standard in
+      his own hands after refusing every urging to save himself.
     source: coxe-austria-1847
     contested: false
 
