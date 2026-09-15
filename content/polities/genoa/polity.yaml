@@ -172,6 +172,22 @@ turning_points:
       independent period at once.
     source: epstein-1996
     contested: false
+  - year: 1797
+    type: revolt
+    name: "The book of gold"
+    changed: >-
+      Manoeuvred out of neutrality by British and French naval pressure
+      over eighteen months, Genoa was forced into a French alliance,
+      survived a day of street fighting between revolutionary and
+      pro-government factions, and then accepted whatever constitution
+      Napoleon cared to impose. The crowd carried the Libro d'Oro - the
+      noble register kept since Doria's own 1528 constitution - to the
+      Piazza d'Acquaverde and burned it, dancing round the embers and
+      turning its leaves with bayonets. Six hundred and ninety-eight
+      years after a group of merchants swore an oath to act together, a
+      bonfire of its own membership list ended the republic.
+    source: bent-1881
+    contested: false
 
 measures:
   reach_km2: null
