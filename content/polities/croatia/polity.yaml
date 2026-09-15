@@ -1,0 +1,120 @@
+id: croatia
+region: the-balkans
+
+name:
+  latin: Kingdom of Croatia
+  script: Kraljevina Hrvatska
+  script_lang: hr
+
+# seton-watson-1911 dates the council of Split at which Tomislav is
+# first attested with the title Chroatorum Rex to 914, and states he
+# "assumed the royal title" during the first quarter of the tenth
+# century - the earliest point this record can date the kingship
+# itself, distinct from the Croat settlement of the region three
+# centuries earlier.
+span:
+  start: { min: 914, max: 914, source: seton-watson-1911 }
+  # seton-watson-1911 dates the Croat nobles' recognition of Coloman
+  # of Hungary as their sovereign, following the extinction of the
+  # native dynasty and a civil war, to 1102.
+  end: { min: 1102, max: 1102, source: seton-watson-1911 }
+
+identity: >-
+  A Slavic duchy on the Byzantine frontier that crowned its own king
+  while still nominally under Constantinople, kept a Slavonic liturgy
+  Rome tried and failed to suppress, and ended when its last king died
+  childless and the nobles chose a Hungarian claimant over civil war.
+
+capitals:
+  - { name: Biograd, source: seton-watson-1911 }
+  - { name: Split (Spalato), source: seton-watson-1911 }
+
+core_region: Dalmatia and the Croatian interior, between the Adriatic and the Sava
+
+rulers:
+  # seton-watson-1911 attests Tomislav bearing the title Chroatorum
+  # Rex at the 914 council of Split, and describes him as recognizing
+  # papal rather than Byzantine or Frankish suzerainty in taking it -
+  # the source gives no precise accession year for his own rule as
+  # duke, which began somewhat earlier.
+  founder: { name: Tomislav, source: seton-watson-1911 }
+  # seton-watson-1911 calls Zvonimir "the most famous" of Tomislav's
+  # successors, crowned in 1076 by the legate of Pope Gregory VII -
+  # though it adds bluntly that "Zvonimir's greatness died with him."
+  peak: { name: Zvonimir, reign: [1075, 1089], source: seton-watson-1911 }
+  last: { name: null, source: null }
+
+scripts_and_languages:
+  administration: [Latin, Old Church Slavonic]
+  writing_system: Glagolitic and Latin script
+
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  # seton-watson-1911 describes Tomislav's own royal title as resting
+  # on papal rather than Byzantine recognition, and records Coloman of
+  # Hungary, at the dynasty's own extinction, asserting "the triple
+  # claims of conquest, inheritance and election" together rather than
+  # any single ground.
+  legitimation: { values: [investiture, conquest, election], source: seton-watson-1911 }
+
+preceded_by_external: []
+
+# The Kingdom of Hungary, whose King Coloman the Croat nobles
+# recognized as their own sovereign in 1102, is already a record in
+# this collection; see edges.yaml.
+succeeded_by_external: []
+
+ended:
+  type: dynastic replacement
+  by: []
+  year: 1102
+  source: seton-watson-1911
+
+turning_points:
+  - year: 914
+    type: reform
+    name: "Tomislav crowned in the presence of a papal legate"
+    changed: >-
+      A council held at Split in the presence of the Legate of Pope
+      John X already records Tomislav bearing the title Chroatorum
+      Rex - Duke Tomislav's own assumption of the royal title,
+      recognizing the Papal See's suzerainty rather than that of
+      Constantinople or the Frankish emperors, three generations
+      before King Stephen of Hungary did the same.
+    source: seton-watson-1911
+    contested: false
+  - year: 1076
+    type: reform
+    name: "Zvonimir's coronation at Split"
+    changed: >-
+      Zvonimir, "the most famous" of Tomislav's successors, received
+      his own crown at Split directly from the hands of the Legate of
+      Pope Gregory VII - the high point seton-watson-1911 credits the
+      kingdom with, and one that did not survive its own recipient's
+      death.
+    source: seton-watson-1911
+    contested: false
+  - year: 1102
+    type: succession-crisis
+    name: "Coloman recognized as King"
+    changed: >-
+      The extinction of the native royal line plunged Croatia into
+      civil war, and the Croat nobles recognized Coloman, King of
+      Hungary, as their own sovereign - a claim Coloman himself
+      grounded in conquest, inheritance through his predecessor's
+      marriage to a Hungarian princess, and the nobles' own election
+      together, sealed by his coronation at Biograd under the title
+      "King of Hungary, Croatia and Dalmatia."
+    source: seton-watson-1911
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
