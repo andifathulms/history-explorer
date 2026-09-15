@@ -624,12 +624,46 @@ regions:
     # (mongol -> sakya) is cross-region and does not draw on this thread.
     thread: true
 
-  - id: mongol-world
-    name: The Mongol World
+  # Split from `mongol-world`, which held seventeen polities doing two
+  # different jobs: the empire itself and its four thirteenth-century
+  # successor khanates, and a much later, looser cluster of Central
+  # Asian khanates descended from it two to six centuries on. Moghulistan
+  # and Northern Yuan stay here rather than with the later cluster - both
+  # are the Chagatai and Yuan lines' own direct continuations under the
+  # same dynasty, not new states formed after the empire's own collapse.
+  # The Golden Horde's own edges to six of the later khanates - Crimean,
+  # Kazan, Astrakhan, Nogai, Sibir, Shaybanid - now cross the region
+  # boundary and are not drawn in either region's own thread, the same
+  # as any other cross-region edge in this corpus; the data and the
+  # sourced relationship are unchanged, only where it is visualised.
+  - id: mongol-empire
+    name: The Mongol Empire and Its Khanates
     blurb: >-
-      The largest contiguous land empire ever assembled, the four successor
-      khanates it broke into within two generations, and the Chinggisid houses
-      still ruling on the strength of that descent three centuries later.
+      The largest contiguous land empire ever assembled, conquered in a
+      single lifetime and partitioned within two generations into four
+      khanates that answered to no single centre again - Ilkhanate Iran,
+      the Golden Horde on the Volga, Chagatai's Central Asia, and the
+      Yuan dynasty in China, whose own line held on in Mongolia for
+      three centuries after Beijing was lost.
+    group: steppe-east-asia
+    thread: true
+
+  # The other half of `mongol-world`: the Chinggisid- or Timurid-descended
+  # khanates of Central Asia and the Volga-Ural steppe, running from the
+  # Golden Horde's own fifteenth-century breakup to Russian and Qing
+  # conquest in the nineteenth. A distinct historical moment from the
+  # thirteenth-century empire and its four classic successors, two to six
+  # centuries later and considerably more numerous - the same shape as
+  # this site's own Habsburg split.
+  - id: post-mongol-khanates
+    name: The Post-Mongol Central Asian Khanates
+    blurb: >-
+      Eleven khanates ruling by descent from Chinggis Khan or from
+      Timur, scattered from the Volga to the Tarim basin across four
+      centuries after the classic khanates broke up - the Golden Horde's
+      own steppe and river fragments, the Uzbek successor states of
+      Transoxiana, and the last Mongol confederation still independent
+      of a settled empire on either side of it.
     group: steppe-east-asia
     thread: true
 
