@@ -176,6 +176,20 @@ turning_points:
       constitution.
     source: lane-1973
     contested: false
+  - year: 1797
+    type: succession-crisis
+    name: "The twelfth of May"
+    changed: >-
+      The Great Council met without a quorum and, in the last business it
+      would ever transact, voted to abolish itself and hand power to a
+      provisional municipality. Ludovico Manin took off the ducal cap,
+      handed it to his servant, and said it would not be needed again;
+      there was no siege and no battle. Eleven hundred years ended in an
+      afternoon by a show of hands its own constitution did not authorise
+      - and five months later Napoleon traded the city to Austria at
+      Campo Formio for territory he wanted elsewhere.
+    source: lane-1973
+    contested: false
 
 measures:
   reach_km2: null

@@ -188,6 +188,20 @@ turning_points:
       republic waking to life.
     source: ross-1909
     contested: false
+  - year: 1509
+    type: siege
+    name: "The revived republic falls for good"
+    changed: >-
+      Fifteen years, three Florentine sieges and a failed attempt to
+      divert the Arno itself with an eight-thousand-labourer canal
+      Leonardo da Vinci inspected in person could not save the revived
+      republic from what a blockade finally did: hunger. Florence
+      re-entered Pisa on 8 June, and this time there was no third
+      revival to follow - the city's own independent government, first
+      attested four centuries earlier, did not return until Italy itself
+      was unified.
+    source: ross-1909
+    contested: false
 
 measures:
   reach_km2: null
