@@ -1,0 +1,99 @@
+id: chen
+region: china
+
+name:
+  latin: Chen Dynasty
+  script: 陳
+  script_lang: zh
+
+span:
+  start: { min: 557, max: 557, source: boulger-china-1881 }
+  # boulger-china-1881 dates the Sui conquest of the Chen capital and
+  # the deposition of the last emperor, Houzhu (Heouchu), to 589.
+  end: { min: 589, max: 589, source: boulger-china-1881 }
+
+identity: >-
+  The least notable of every dynasty to rule from Jiankang, by its own
+  historian's judgment - five rulers in thirty-two years, remembered
+  chiefly for the reunification of China that followed its own
+  conquest rather than for anything it achieved while it stood.
+
+capitals:
+  - { name: Jiankang (Nanjing), source: boulger-china-1881 }
+
+core_region: The lower Yangtze valley and southern China
+
+rulers:
+  # boulger-china-1881 records Chen Baxian's 557 murder of the last
+  # Liang emperor and his own accession as Wuti, taking his new
+  # dynasty's name from his own former principality of Chen.
+  founder: { name: "Chen Baxian (Wuti)", reign: [557, 559], source: boulger-china-1881 }
+  # boulger-china-1881 credits Xuandi (Suenti), Chen Baxian's nephew,
+  # with the dynasty's longest reign at fourteen years, during which
+  # war continued against the northern kingdom of Zhou - the fullest
+  # reign the source gives any Chen ruler, though it records no
+  # achievement rising to the "peak" claimed by other dynasties' own
+  # strongest kings.
+  peak: { name: "Xuandi (Suenti)", reign: [569, 582], source: boulger-china-1881 }
+  # boulger-china-1881 names Houzhu (Heouchu) as the last Chen
+  # emperor, deposed by the Sui conquest in 589 and surviving a
+  # further twenty-four years in private life.
+  last: { name: "Houzhu (Heouchu)", reign: [582, 589], source: boulger-china-1881 }
+
+scripts_and_languages:
+  administration: [Classical Chinese]
+  writing_system: Chinese characters
+
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  legitimation: { values: [conquest], source: boulger-china-1881 }
+
+# The Liang, whose last emperor Chen Baxian deposed and murdered to
+# found this dynasty, is already a record in this collection (liang);
+# see edges.yaml.
+preceded_by_external: []
+
+succeeded_by_external: []
+
+ended:
+  type: conquest
+  by: []
+  year: 589
+  source: boulger-china-1881
+
+turning_points:
+  - year: 557
+    type: succession-crisis
+    name: "Chen Baxian founds the Chen"
+    changed: >-
+      Chen Baxian, a lieutenant who had risen against Hou Jing's
+      rebellion alongside the future Liang emperor Yuandi, murdered
+      the last Liang ruler, Jingdi, and founded a dynasty named for
+      his own former principality - a reign so brief, boulger-china-1881
+      notes, that his own sudden death within three years "threw
+      things again into confusion."
+    source: boulger-china-1881
+    contested: false
+  - year: 589
+    type: battle
+    name: "The Sui conquest ends the Southern Dynasties"
+    changed: >-
+      Sui forces under Yang Jian crossed the Yangtze, entered the
+      Chen capital, and deposed Houzhu, who survived twenty-four more
+      years in private life - closing, in boulger-china-1881's own
+      words, "the least notable of all the families which have ruled
+      in China" and, with it, the whole century and a half of
+      division the Southern Dynasties had shared with the north.
+    source: boulger-china-1881
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

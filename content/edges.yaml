@@ -4580,3 +4580,14 @@ edges:
       and founded the Liang dynasty in the Qi's place.
     source: boulger-china-1881
     contested: false
+
+  - from: liang
+    to: chen
+    type: overthrew
+    year: 557
+    note: >-
+      Chen Baxian, a lieutenant who had helped drive Hou Jing from
+      power, murdered the last Liang emperor, Jingdi, and founded his
+      own dynasty in the Liang's place.
+    source: boulger-china-1881
+    contested: false
