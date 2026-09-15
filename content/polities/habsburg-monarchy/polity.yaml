@@ -16,24 +16,24 @@ name:
 # following the source's own periodization.
 span:
   start: { min: 1273, max: 1273, source: coxe-austria-1847 }
-  # This record currently runs only to Frederick the Handsome's own
-  # death in 1330 - the last event its sourced chapters cover, not an
-  # institutional end. The Habsburg Monarchy has no end within this
-  # source's own scope, let alone in reality: it continued, through the
-  # Austrian Empire and Austria-Hungary, into the twentieth century.
-  end: { min: 1330, max: 1330, source: coxe-austria-1847 }
+  # This record currently runs only to Albert II's own death in 1358 -
+  # the last event its sourced chapters cover, not an institutional
+  # end. The Habsburg Monarchy has no end within this source's own
+  # scope, let alone in reality: it continued, through the Austrian
+  # Empire and Austria-Hungary, into the twentieth century.
+  end: { min: 1358, max: 1358, source: coxe-austria-1847 }
 
 identity: >-
   A minor Swabian count's family, raised to the German crown by
   electors who wanted a weak monarch, that destroyed Bohemia's own
-  king, settled Austria and Styria on its sons, lost an army to the
-  Swiss, and whose own claimant honoured a captor's parole rather than
-  break it.
+  king, settled Austria and Styria on its sons, secured Carinthia
+  permanently, and lost four Swiss towns to the confederacy it once
+  tried to crush at Morgarten.
 
 capitals:
   - { name: Vienna, from: 1280, source: coxe-austria-1847 }
 
-core_region: The Duchies of Austria and Styria, along the middle Danube
+core_region: The Duchies of Austria, Styria and (from 1335) Carinthia, along the middle Danube
 
 rulers:
   # Coxe's own subtitle names Rudolf "the great founder of the House of
@@ -210,6 +210,51 @@ turning_points:
       only one of his family's German kings never to rule unopposed,
       remembered instead for the parole he honoured at the cost of his
       own freedom.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1330
+    type: treaty
+    name: "The Peace of Hagenau"
+    changed: >-
+      Albert II and Otho made peace with Louis of Bavaria at last,
+      closing a rift the 1314 double election had opened between their
+      two families sixteen years earlier - a reconciliation that let
+      Austria turn its attention toward a more dangerous rival next
+      door in Bohemia.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1339
+    type: treaty
+    name: "Carinthia secured, Tyrol renounced"
+    changed: >-
+      After years of war over a childless duke's inheritance, Austria
+      gave up its claim on Tyrol to the disputed heiress Margaret
+      Maultasch in exchange for permanent, undisputed possession of
+      Carinthia - a duchy the family would go on holding far longer
+      than either Austria or Styria's own original conquest.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1347
+    type: succession-crisis
+    name: "Charles IV succeeds Louis of Bavaria"
+    changed: >-
+      Louis died suddenly of apoplexy while pressing his advantage
+      against a rival German king backed by the Pope and Bohemia,
+      handing the imperial crown to Charles almost by accident; Albert,
+      who had backed Louis to the end, switched sides at once and
+      traded his goodwill with the new emperor for a final, lasting
+      settlement of the Tyrol dispute.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1358
+    type: catastrophe
+    name: "The death of Albert II"
+    changed: >-
+      Crippled for decades by paralysis but never in mind, Albert died
+      after a twenty-eight-year reign that earned him the name "the
+      Wise" everywhere except in Switzerland, where a war fought to
+      keep Lucerne, Zurich, Glarus and Zug closed instead in a
+      grudging, unenforceable armistice.
     source: coxe-austria-1847
     contested: false
 
