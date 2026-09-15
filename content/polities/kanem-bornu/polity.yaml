@@ -3,6 +3,12 @@ region: west-africa
 
 name:
   latin: Kanem-Bornu
+  # Unlike Mali and Songhai in this corpus, Arabic script here was genuinely
+  # adapted to the local tongue - Kanuri/Old Kanembu Ajami glosses survive
+  # in Bornu's own Quranic manuscripts from the late sixteenth century on.
+  # But no source consulted gives an attested Ajami spelling of the state's
+  # own name, only of the liturgical vocabulary the glosses were written to
+  # explain, so the field stays null rather than reconstructed.
   script: null
   script_lang: null
 

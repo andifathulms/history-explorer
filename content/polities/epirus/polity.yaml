@@ -3,6 +3,13 @@ region: rome-and-byzantium
 
 name:
   latin: Epirus
+  # "Despotate of Epirus" is itself a modern historiographical label -
+  # contemporary sources did not use "despotaton" as a territorial term
+  # for Epirus until the fourteenth century, and even the title despotes
+  # was not used by this record's own first two rulers, Michael I and
+  # Theodore, only from Michael II onward. No single Greek form for the
+  # state itself is stable across this record's own span the way
+  # Nicaea's or Trebizond's own titles were.
   script: null
   script_lang: null
 

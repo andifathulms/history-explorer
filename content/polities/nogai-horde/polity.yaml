@@ -3,6 +3,10 @@ region: post-mongol-khanates
 
 name:
   latin: Nogai Horde
+  # "Nogai" is a name taken from Nogai Khan rather than a term the horde
+  # used of itself; a Mangit-derived self-designation is plausible on the
+  # dynasty's own lineage but not attested here with a spelling precise
+  # enough to cite.
   script: null
   script_lang: null
 

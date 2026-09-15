@@ -3,6 +3,8 @@ region: central-africa
 
 name:
   latin: Kingdom of Loango
+  # No native script: Loango's own court language was a northern dialect of
+  # Kikongo, oral in the same way as at Kongo itself in this region.
   script: null
   script_lang: null
 

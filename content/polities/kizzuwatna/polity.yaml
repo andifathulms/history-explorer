@@ -3,6 +3,10 @@ region: hatti-and-the-highlands
 
 name:
   latin: Kizzuwatna
+  # "Kizzuwatna" is itself the Hittite and Luwian name for the region, and
+  # like Mitanni in this same period, the kingdom's own self-designation -
+  # as opposed to what its neighbours called it - is not securely
+  # established from the sources consulted here.
   script: null
   script_lang: null
 

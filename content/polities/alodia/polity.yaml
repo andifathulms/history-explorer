@@ -3,6 +3,10 @@ region: the-nile-and-the-horn
 
 name:
   latin: Kingdom of Alodia
+  # Old Nubian, written in the Coptic-derived alphabet, as at Makuria in
+  # this region - null here for the same reason given on that record: a
+  # name in letters nobody on this project can proofread is a decoration
+  # that reads as a citation.
   script: null
   script_lang: null
 

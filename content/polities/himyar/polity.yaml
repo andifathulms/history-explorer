@@ -3,6 +3,9 @@ region: south-arabia
 
 name:
   latin: Himyar
+  # Written in the same Ancient South Arabian musnad alphabet as the Saba
+  # record in this region, for the same reason left null there: a script
+  # this site cannot render.
   script: null
   script_lang: null
 

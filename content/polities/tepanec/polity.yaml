@@ -3,6 +3,11 @@ region: mesoamerica
 
 name:
   latin: Tepanec Empire
+  # Unlike the Aztecs' own Ēxcān Tlahtōlōyān, no contemporary Nahuatl term
+  # for Azcapotzalco's hegemony as a single polity is attested in the
+  # sources consulted - "Tepanec Empire" is a modern historians' label for
+  # a period of altepetl-by-altepetl conquest, not a name the Tepanecs used
+  # of their own dominion.
   script: null
   script_lang: null
 

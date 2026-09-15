@@ -3,6 +3,9 @@ region: post-mongol-khanates
 
 name:
   latin: Khanate of Sibir
+  # No self-designation is confirmed with a spelling this record can cite.
+  # A Tatar form has been proposed in passing by some secondary writers, but
+  # nowhere with the sourcing or precision this collection requires.
   script: null
   script_lang: null
 

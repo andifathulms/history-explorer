@@ -3,6 +3,10 @@ region: mesoamerica
 
 name:
   latin: Teotihuacan
+  # "Teotihuacan" is the Nahuatl name the Aztecs gave the ruins centuries
+  # after the city fell; no source consulted can say what its own people
+  # called it, and the city's own language is itself unidentified (see
+  # scripts_and_languages below).
   script: null
   script_lang: null
 

@@ -3,6 +3,9 @@ region: the-andes
 
 name:
   latin: Chimor
+  # No Andean society in this record had a writing system (see
+  # writing_system below); the Chimu recorded information on knotted
+  # quipu cords, not in a script that could render the kingdom's own name.
   script: null
   script_lang: null
 

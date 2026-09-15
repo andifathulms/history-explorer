@@ -3,6 +3,10 @@ region: central-africa
 
 name:
   latin: Luba Kingdom
+  # No native script: the lukasa, a beaded memory board used by trained
+  # oral historians to recite lineage and ritual, is a mnemonic device
+  # rather than writing - the kingdom's own instrument for recording
+  # history was explicitly not textual.
   script: null
   script_lang: null
 

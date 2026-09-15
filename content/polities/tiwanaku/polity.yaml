@@ -3,6 +3,9 @@ region: the-andes
 
 name:
   latin: Tiwanaku
+  # No Andean society in this record had a writing system (see
+  # writing_system below); "Tiwanaku" is itself a later Aymara name for the
+  # site, not a self-designation recorded by the polity in its own time.
   script: null
   script_lang: null
 

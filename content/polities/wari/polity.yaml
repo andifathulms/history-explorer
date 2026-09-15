@@ -3,6 +3,9 @@ region: the-andes
 
 name:
   latin: Wari
+  # No Andean society in this record had a writing system (see
+  # writing_system below); no self-designation for the polity survives in
+  # any form this record can cite.
   script: null
   script_lang: null
 

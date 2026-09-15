@@ -3,6 +3,9 @@ region: mesoamerica
 
 name:
   latin: Mayapan
+  # Monumental hieroglyphic writing had gone out of use by Mayapan's own
+  # period (see writing_system below); no attested glyphic or alphabetic
+  # form of the city's own name survives from the polity itself.
   script: null
   script_lang: null
 

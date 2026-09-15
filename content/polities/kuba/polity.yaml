@@ -3,6 +3,8 @@ region: central-africa
 
 name:
   latin: Kuba Kingdom
+  # No native script: Bushong, the court language, was oral throughout the
+  # period this record covers, as at Kongo, Lunda and Ndongo in this region.
   script: null
   script_lang: null
 
