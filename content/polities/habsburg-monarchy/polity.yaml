@@ -16,12 +16,12 @@ name:
 # following the source's own periodization.
 span:
   start: { min: 1273, max: 1273, source: coxe-austria-1847 }
-  # This record currently runs only to Leopold III's own death at
-  # Sempach in 1386 - the last event its sourced chapters cover, not an
-  # institutional end. The Habsburg Monarchy has no end within this
-  # source's own scope, let alone in reality: it continued, through the
-  # Austrian Empire and Austria-Hungary, into the twentieth century.
-  end: { min: 1386, max: 1386, source: coxe-austria-1847 }
+  # This record currently runs only to Albert III's own death in 1395 -
+  # the last event its sourced chapters cover, not an institutional
+  # end. The Habsburg Monarchy has no end within this source's own
+  # scope, let alone in reality: it continued, through the Austrian
+  # Empire and Austria-Hungary, into the twentieth century.
+  end: { min: 1395, max: 1395, source: coxe-austria-1847 }
 
 identity: >-
   A minor Swabian count's family, raised to the German crown by
@@ -341,6 +341,29 @@ turning_points:
       the Austrian line open; roughly two thousand men died, Leopold
       himself among them, fighting on foot with the family standard in
       his own hands after refusing every urging to save himself.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1388
+    type: battle
+    name: "The Battle of Näfels"
+    changed: >-
+      An Austrian force eight thousand strong, sent to punish Glarus
+      for copying Swiss self-government, scattered to plunder the
+      moment it reached Näfels and was routed by a few hundred
+      defenders using the same rock-and-charge tactics that had broken
+      an Austrian army at Morgarten seventy years earlier - a second
+      catastrophic defeat that finally ended the war for good.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1395
+    type: catastrophe
+    name: "The death of Albert III"
+    changed: >-
+      Struck by a mortal illness while campaigning in Bohemia on behalf
+      of nobles who had briefly deposed King Wenceslas IV, Albert died
+      at Laxenburg genuinely mourned by his own subjects - a gentler
+      end, in the source's own telling, than any Habsburg ruler before
+      him had received from the people he governed.
     source: coxe-austria-1847
     contested: false
 
