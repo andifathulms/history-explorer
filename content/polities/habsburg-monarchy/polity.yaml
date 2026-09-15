@@ -23,23 +23,25 @@ name:
 # of the Austrian lands themselves.
 span:
   start: { min: 1526, max: 1526, source: coxe-austria-1847 }
-  # This record currently runs Ferdinand I's own founding all the way
-  # through coxe-austria-1847's own endpoint: the Ottoman wars and the
-  # 1545 and 1562 truces; Ferdinand's own 1547 crushing of the Bohemian
-  # estates and the end of their elective crown; Maximilian II's
-  # toleration and the 1566 death of Süleyman at Szigetvár; Rudolf II's
-  # decline, Matthias's usurpation, and the 1609 Letter of Majesty; the
-  # 1618 Defenestration of Prague and the Thirty Years' War down to the
-  # 1648 Peace of Westphalia; Leopold I's own Ottoman wars, closing with
-  # the 1683 Siege of Vienna and the 1699 Peace of Karlowitz; the War of
-  # the Spanish Succession and Charles VI's Pragmatic Sanction; Maria
-  # Theresa's wars and reforms; Joseph II's enlightened absolutism; and
-  # Leopold II's own brief, stabilising reign, down to his 1792 death
-  # and Francis II's accession - not an institutional end. A second
-  # source, still to be opened, will be needed to carry the record from
-  # 1792 to Francis II's 1804 self-coronation as Emperor of Austria,
-  # since coxe-austria-1847 stops in 1792.
-  end: { min: 1792, max: 1792, source: coxe-austria-1847 }
+  # This record runs Ferdinand I's own founding at Mohács through
+  # Francis II's 1804 adoption of the hereditary title Emperor of
+  # Austria: the Ottoman wars and the 1545 and 1562 truces; Ferdinand's
+  # own 1547 crushing of the Bohemian estates and the end of their
+  # elective crown; Maximilian II's toleration and the 1566 death of
+  # Süleyman at Szigetvár; Rudolf II's decline, Matthias's usurpation,
+  # and the 1609 Letter of Majesty; the 1618 Defenestration of Prague
+  # and the Thirty Years' War down to the 1648 Peace of Westphalia;
+  # Leopold I's own Ottoman wars, closing with the 1683 Siege of Vienna
+  # and the 1699 Peace of Karlowitz; the War of the Spanish Succession
+  # and Charles VI's Pragmatic Sanction; Maria Theresa's wars and
+  # reforms; Joseph II's enlightened absolutism; Leopold II's own
+  # brief, stabilising reign; and Francis II's own first decade of war
+  # against revolutionary France, closing with his 1804 self-styling as
+  # Emperor of Austria - a change of title Lingelbach's own source is
+  # careful to note altered no province's actual government, not an
+  # institutional end. coxe-austria-1847 carries the record to 1792;
+  # lingelbach-austria-hungary-1910 carries it the rest of the way.
+  end: { min: 1804, max: 1804, source: lingelbach-austria-hungary-1910 }
 
 identity: >-
   The composite Austria-Bohemia-Hungary state Ferdinand I built from a
@@ -291,6 +293,18 @@ turning_points:
       absorb them, and resisted outright by Hungary's own nobility and
       the Austrian Netherlands alike.
     source: coxe-austria-1847
+    contested: false
+  - year: 1804
+    type: reform
+    name: "Francis II proclaims the hereditary Empire of Austria"
+    changed: >-
+      Answering Napoleon's own new imperial title, Francis II declared
+      himself hereditary Emperor of Austria while keeping every
+      existing crown, constitution and privilege of his separate
+      kingdoms intact - a title that changed no province's actual
+      government, but stated outright, for the first time, the
+      historical unity the Pragmatic Sanction had only implied.
+    source: lingelbach-austria-hungary-1910
     contested: false
 
 measures:
