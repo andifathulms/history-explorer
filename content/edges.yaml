@@ -4530,3 +4530,16 @@ edges:
       hundred years.
     source: lutzow-bohemia-1920
     contested: false
+
+  - from: gurjara-pratihara
+    to: gahadavala
+    type: conquered by
+    year: 1090
+    note: >-
+      By the time the Gaharwar chief Chandradeva conquered and
+      occupied Kanauj, the old Pratihara dynasty had already
+      dwindled into a line of unnamed local chiefs; smith-1904 is
+      explicit that Chandradeva's own line "did not belong to the old
+      Gurjara-Pratihara dynasty, which disappeared utterly."
+    source: smith-1904
+    contested: false

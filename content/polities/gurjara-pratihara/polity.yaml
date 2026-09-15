@@ -66,23 +66,13 @@ institutions:
 preceded_by_external: []
 
 # Kanauj passed to the Gaharwar (Gahadavala) chief Chandradeva "a
-# little before A.D. 1090" - not yet a record in this collection at
-# the time this page was written, so named here per the usual rule
-# rather than forced into `ended` below.
-succeeded_by_external:
-  - name: the Gahadavala dynasty of Kanauj
-    type: conquered by
-    year: null
-    note: >-
-      smith-1904 dates the Gaharwar chief Chandradeva's conquest and
-      occupation of Kanauj only to "a little before A.D. 1090," and
-      states plainly that the new rulers "did not belong to the old
-      Gurjara-Pratihara dynasty, which disappeared utterly."
-    source: smith-1904
+# little before A.D. 1090" - now a record in this collection, so an
+# edge in edges.yaml rather than this field.
+succeeded_by_external: []
 
 ended:
   type: dynastic replacement
-  by: []
+  by: [gahadavala]
   year: 1090
   source: smith-1904
 

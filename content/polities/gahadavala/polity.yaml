@@ -1,0 +1,108 @@
+id: gahadavala
+region: northern-india
+
+name:
+  latin: Gahadavala Dynasty of Kanauj
+  script: गहड़वाल
+  script_lang: hi
+
+# smith-1904 dates Chandradeva's conquest and occupation of Kanauj
+# only to "a little before A.D. 1090" - the same approximation already
+# used as this record's own end date in the Gurjara-Pratihara polity
+# it replaced there.
+span:
+  start: { min: 1090, max: 1090, source: smith-1904 }
+  # smith-1904 dates Shihab-ud-din's (Muhammad of Ghor's) defeat and
+  # killing of Jayachandra at Chandawar to A.D. 1194 (A.H. 590), and
+  # calls the battle the end of "the story of the independent kingdom
+  # of Kanauj."
+  end: { min: 1194, max: 1194, source: smith-1904 }
+
+identity: >-
+  A Gaharwar clan's conquest of a diminished Kanauj, restored to real
+  power under Govindachandra, and destroyed at Chandawar when Muhammad
+  of Ghor defeated and killed its last king, Jayachandra, closing out
+  independent Kanauj's own four-century-old story for good.
+
+capitals:
+  - { name: Kanauj, from: 1090, source: smith-1904 }
+  - { name: Varanasi (Benares), source: smith-1904 }
+
+core_region: The middle Gangetic plain around Kanauj and Varanasi
+
+rulers:
+  founder: { name: Chandradeva, source: smith-1904 }
+  # smith-1904 credits Govindachandra, Chandradeva's grandson, with a
+  # long reign spanning at least 1104 to 1155, whose "numerous land
+  # grants and widely distributed coins prove that he succeeded to a
+  # large extent in restoring the glories of Kanauj."
+  peak: { name: Govindachandra, reign: [1104, 1155], source: smith-1904 }
+  # smith-1904 gives no accession year for Jayachandra (Jaichand), only
+  # his death at Chandawar in 1194.
+  last: { name: "Jayachandra (Jaichand)", reign: [null, 1194], source: smith-1904 }
+
+scripts_and_languages:
+  administration: [Sanskrit]
+  writing_system: Nagari
+
+institutions:
+  military_basis: null
+  # smith-1904 records a special tax, turushka danda, levied under
+  # Govindachandra specifically "to meet the cost of resisting the
+  # Muhammadan invasion" - a named revenue measure tied directly to
+  # the dynasty's own frontier war, though the source does not
+  # describe the kingdom's ordinary revenue system in enough detail to
+  # code revenue_basis itself.
+  revenue_basis: null
+  succession_rule: null
+  legitimation: { values: [conquest, descent], source: smith-1904 }
+
+# The Gurjara-Pratihara dynasty this record's own predecessor at
+# Kanauj: not a state Chandradeva overthrew directly, since
+# smith-1904 records the Pratihara line as having already "disappeared
+# utterly" into obscurity before his own conquest, but the same city
+# and the same claim to paramountcy in the Gangetic plain. See
+# edges.yaml.
+preceded_by_external: []
+
+succeeded_by_external: []
+
+ended:
+  type: conquest
+  by: []
+  year: 1194
+  source: smith-1904
+
+turning_points:
+  - year: 1090
+    type: battle
+    name: "Chandradeva's conquest of Kanauj"
+    changed: >-
+      A Gaharwar chief named Chandradeva conquered and occupied Kanauj
+      from whatever "obscure chiefs" still nominally held it in the
+      old Pratihara dynasty's name, establishing his own clan's rule
+      over a city that had already spent most of the eleventh century
+      as a diminished, tributary rump state.
+    source: smith-1904
+    contested: false
+  - year: 1194
+    type: battle
+    name: "The battle of Chandawar"
+    changed: >-
+      Shihab-ud-din (Muhammad of Ghor) met Jayachandra's own army at
+      Chandawar in the Etawah district and defeated it "with immense
+      slaughter, in which the Raja was included," before marching on to
+      plunder Varanasi itself - the battle smith-1904 calls the end of
+      "the story of the independent kingdom of Kanauj," and the
+      opening of Ghurid rule over the middle Gangetic plain.
+    source: smith-1904
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
