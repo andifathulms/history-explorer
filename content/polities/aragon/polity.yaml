@@ -3,8 +3,8 @@ region: iberia
 
 name:
   latin: Kingdom of Aragon
-  script: null
-  script_lang: null
+  script: Regnum Aragoniae
+  script_lang: la
 
 span:
   # The same 1035 testamentary division by Sancho the Great of Navarre

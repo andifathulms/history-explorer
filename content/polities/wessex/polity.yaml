@@ -3,8 +3,8 @@ region: the-british-isles
 
 name:
   latin: Kingdom of Wessex / England
-  script: null
-  script_lang: null
+  script: Westseaxna rīce
+  script_lang: ang
 
 span:
   # Beorhtric of Wessex died in 802 and Egbert, whom Offa and Beorhtric had

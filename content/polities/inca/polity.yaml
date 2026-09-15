@@ -3,8 +3,11 @@ region: the-andes
 
 name:
   latin: Inca Empire
-  script: null
-  script_lang: null
+  # "Inca" was the ruler's own title, not the state's name - the Quechua
+  # name for the empire itself was Tawantinsuyu, "the four regions
+  # (bound together)."
+  script: Tawantinsuyu
+  script_lang: qwc
 
 span:
   # Cuzco's own founding legend has no fixed year in any source used

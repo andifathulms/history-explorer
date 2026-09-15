@@ -3,8 +3,8 @@ region: iberia
 
 name:
   latin: Kingdom of León and Castile
-  script: null
-  script_lang: null
+  script: Regnum Castellae et Legionis
+  script_lang: la
 
 span:
   start: { min: 910, max: 910, source: chapman-1918 }

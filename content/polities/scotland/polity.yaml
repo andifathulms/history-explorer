@@ -3,8 +3,8 @@ region: the-british-isles
 
 name:
   latin: Kingdom of Scotland
-  script: null
-  script_lang: null
+  script: Alba
+  script_lang: gla
 
 span:
   # The Chronicle of the Kings of Alba, the only native narrative source

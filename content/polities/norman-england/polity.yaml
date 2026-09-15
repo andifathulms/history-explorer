@@ -3,8 +3,8 @@ region: the-british-isles
 
 name:
   latin: Kingdom of England (Norman and Plantagenet)
-  script: null
-  script_lang: null
+  script: Regnum Angliae
+  script_lang: la
 
 span:
   start: { min: 1066, max: 1066, source: oman-1906 }

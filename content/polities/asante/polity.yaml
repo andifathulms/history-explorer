@@ -3,8 +3,8 @@ region: west-africa
 
 name:
   latin: Asante Empire
-  script: null
-  script_lang: null
+  script: Asanteman
+  script_lang: aka
 
 # 1701 is Feyiase, where the Asante confederacy destroyed Denkyira and stopped
 # paying tribute to anybody. 1901 is the British annexation, after the last of

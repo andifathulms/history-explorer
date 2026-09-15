@@ -3,8 +3,8 @@ region: the-british-isles
 
 name:
   latin: Kingdom of Ireland
-  script: null
-  script_lang: null
+  script: Regnum Hiberniae
+  script_lang: la
 
 span:
   start: { min: 1541, max: 1541, source: bagwell-1885 }

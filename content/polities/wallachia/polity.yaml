@@ -3,6 +3,10 @@ region: the-balkans
 
 name:
   latin: Wallachia
+  # Null, for the same reason already given on this region's Bulgarian,
+  # Serbian and Bosnian records: the site does not set a name in letters
+  # nobody on the project can proofread, and Wallachia's own chancery used
+  # the same archaic Romanian Cyrillic orthography as Moldavia's.
   script: null
   script_lang: null
 

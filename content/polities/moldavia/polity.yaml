@@ -3,6 +3,12 @@ region: the-balkans
 
 name:
   latin: Moldavia
+  # Null, for the same reason already given on this region's Bulgarian and
+  # Serbian records: the site does not set a name in letters nobody on the
+  # project can proofread. The period form, Цара Мѡлдѡвєй, uses archaic
+  # Romanian Cyrillic letters (ѡ, ѣ) this project cannot verify with
+  # confidence, and the modern Romanian Țara Moldovei is a different
+  # alphabet entirely, adopted centuries after this record's own span.
   script: null
   script_lang: null
 

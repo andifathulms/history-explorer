@@ -3,8 +3,8 @@ region: iberia
 
 name:
   latin: Kingdom of Portugal
-  script: null
-  script_lang: null
+  script: Regnum Portugalliae
+  script_lang: la
 
 span:
   # Stephens is explicit that the traditional account of Ourique - five

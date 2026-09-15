@@ -3,8 +3,8 @@ region: iberia
 
 name:
   latin: Kingdom of Asturias
-  script: null
-  script_lang: null
+  script: Regnum Asturorum
+  script_lang: la
 
 span:
   # Chroniclers place the Battle of Covadonga in 718 or 722 depending on

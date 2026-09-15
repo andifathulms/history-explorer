@@ -3,8 +3,8 @@ region: the-british-isles
 
 name:
   latin: Kingdom of Dublin
-  script: null
-  script_lang: null
+  script: Dyflinn
+  script_lang: non
 
 span:
   start: { min: 852, max: 852, source: haliday-1881 }

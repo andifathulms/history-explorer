@@ -3,8 +3,11 @@ region: mesoamerica
 
 name:
   latin: Aztec Empire
-  script: null
-  script_lang: null
+  # "Aztec" is a nineteenth-century historiographical label. The alliance's
+  # own Nahuatl name for itself was Ēxcān Tlahtōlōyān, "the three places
+  # where decisions are made" - Mexico-Tenochtitlan, Tetzcoco and Tlacopan.
+  script: Ēxcān Tlahtōlōyān
+  script_lang: nci
 
 span:
   # The traditional founding date, from the migration-legend chronology

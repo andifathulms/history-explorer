@@ -3,6 +3,11 @@ region: the-balkans
 
 name:
   latin: Kingdom of Bosnia
+  # Null, for the same reason already given on this region's Bulgarian and
+  # Serbian records: the site does not set a name in letters nobody on the
+  # project can proofread. Bosnia's own medieval script, Bosančica, is a
+  # distinct Cyrillic-derived orthography with its own irregular letterforms,
+  # not a case where a modern transliteration can safely stand in for it.
   script: null
   script_lang: null
 

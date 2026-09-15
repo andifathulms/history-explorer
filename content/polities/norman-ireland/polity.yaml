@@ -3,8 +3,8 @@ region: the-british-isles
 
 name:
   latin: Lordship of Ireland
-  script: null
-  script_lang: null
+  script: Dominium Hiberniae
+  script_lang: la
 
 span:
   # The span opens with Diarmait Mac Murchada's abduction of

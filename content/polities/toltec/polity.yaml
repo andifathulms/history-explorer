@@ -3,8 +3,12 @@ region: mesoamerica
 
 name:
   latin: Toltec Empire
-  script: null
-  script_lang: null
+  # Tōllān, "place of the reeds," was the Nahuatl name of the Toltec
+  # capital (modern Tula) - the same name an earlier tradition had already
+  # given Teotihuacan, and the one the Toltec state itself is identified
+  # by in its own sources.
+  script: Tōllān
+  script_lang: nci
 
 span:
   # The colonial-era chronicles that are the only surviving source for
