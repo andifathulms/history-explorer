@@ -198,6 +198,24 @@ turning_points:
       followed.
     source: oman-1906
     contested: false
+  - year: 1485
+    type: battle
+    name: "Battle of Bosworth Field"
+    changed: >-
+      The Earl of Northumberland held his division back from the
+      fighting entirely, and Sir William Stanley, who had spent the
+      battle edging his own force nearer without committing to either
+      side, fell on Richard's flank at the decisive moment - the same
+      structural vulnerability that had ended Richard II's reign in
+      1399, a king's own magnates deciding they would rather back a
+      rival's claim than keep fighting for him. Richard refused a horse
+      to flee and was cut down still shouting accusations of treason.
+      Henry Tudor took the crown from the field, and the line that had
+      ruled England since William's own coronation, with one
+      nineteen-year interruption, ended that afternoon in a
+      Leicestershire field.
+    source: oman-1906
+    contested: false
 
 measures:
   reach_km2: null
