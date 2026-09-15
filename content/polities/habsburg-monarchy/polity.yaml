@@ -16,18 +16,19 @@ name:
 # following the source's own periodization.
 span:
   start: { min: 1273, max: 1273, source: coxe-austria-1847 }
-  # This record currently runs only to Albert III's own death in 1395 -
+  # This record currently runs only to Leopold IV's own death in 1411 -
   # the last event its sourced chapters cover, not an institutional
   # end. The Habsburg Monarchy has no end within this source's own
   # scope, let alone in reality: it continued, through the Austrian
   # Empire and Austria-Hungary, into the twentieth century.
-  end: { min: 1395, max: 1395, source: coxe-austria-1847 }
+  end: { min: 1411, max: 1411, source: coxe-austria-1847 }
 
 identity: >-
   A minor Swabian count's family, raised to the German crown by
   electors who wanted a weak monarch, that destroyed Bohemia's own
-  king, acquired Austria, Tyrol and Trieste, and lost a duke and two
-  thousand men to Swiss peasants it had dismissed as an unarmed rabble.
+  king, acquired Austria and Tyrol, lost a duke to Swiss peasants at
+  Sempach, and split into rival branches that let banditry overrun
+  Austria itself.
 
 capitals:
   - { name: Vienna, from: 1280, source: coxe-austria-1847 }
@@ -364,6 +365,41 @@ turning_points:
       at Laxenburg genuinely mourned by his own subjects - a gentler
       end, in the source's own telling, than any Habsburg ruler before
       him had received from the people he governed.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1404
+    type: catastrophe
+    name: "Albert IV poisoned at Znaim"
+    changed: >-
+      Besieging a Moravian warlord alongside King Sigismund of Hungary,
+      Albert accepted a surrender feast that turned out to be an
+      assassination attempt; Sigismund barely survived the poison, but
+      Albert died weeks later, leaving Austria's throne to a seven-year-
+      old son for the second time in three Habsburg generations.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1406
+    type: reform
+    name: "The family splits into the Albertine and Leopoldine lines"
+    changed: >-
+      William's sudden, childless death ended the joint guardianship
+      that had briefly held the dynasty together, and the House of
+      Austria broke permanently into an Albertine branch holding
+      Austria for the child Albert V and a Leopoldine branch split three
+      ways among Leopold III's own surviving sons - the very outcome
+      Emperor Charles IV had once wryly predicted, a family humbling
+      itself through its own internal division.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1411
+    type: catastrophe
+    name: "The death of Leopold IV"
+    changed: >-
+      A decade of rival regents, factional score-settling and unchecked
+      banditry across the Austrian countryside ended only with
+      Leopold's own death, still without resolving which of his own
+      squabbling relatives would finally govern a duchy neither co-
+      regent had managed to control.
     source: coxe-austria-1847
     contested: false
 
