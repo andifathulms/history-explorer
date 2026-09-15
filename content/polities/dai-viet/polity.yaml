@@ -3,6 +3,9 @@ region: mainland-southeast-asia
 
 name:
   latin: Dai Viet under the Ly and the Tran
+  # Written in Chữ Nôm, a script this project cannot proofread
+  # with confidence - null for the same reason given on this site's
+  # Jawi-script and Cyrillic-script records elsewhere.
   script: null
   script_lang: null
 

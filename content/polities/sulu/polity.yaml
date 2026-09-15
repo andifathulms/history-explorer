@@ -3,6 +3,9 @@ region: the-eastern-archipelago
 
 name:
   latin: The Sultanate of Sulu
+  # Written in Jawi, like Melaka's Malay, and null here for the reason
+  # that record gives: a name in letters nobody on this project can
+  # proofread is a decoration that reads as a citation.
   script: null
   script_lang: null
 

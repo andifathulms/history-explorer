@@ -3,6 +3,11 @@ region: the-eastern-archipelago
 
 name:
   latin: Luwu
+  # Bugis chancery language was written in Lontara, its own script
+  # derived from Brahmi rather than from Arabic - null for the same
+  # reason as this region's Jawi-script records: a name in letters
+  # nobody on this project can proofread is a decoration that reads
+  # as a citation.
   script: null
   script_lang: null
 
