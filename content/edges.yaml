@@ -4543,3 +4543,17 @@ edges:
       Gurjara-Pratihara dynasty, which disappeared utterly."
     source: smith-1904
     contested: false
+
+  - from: pala
+    to: sena
+    type: absorbed remnants of
+    year: 1150
+    note: >-
+      smith-1904 records the Palas losing "nearly the whole of Bengal
+      to the Senas" over the dynasty's final century while retaining
+      only Magadha and northern Bihar - a slow territorial absorption
+      rather than a single conquest, distinct from the Muhammadan
+      conquest that ended the last Pala remnant in Magadha decades
+      later.
+    source: smith-1904
+    contested: false

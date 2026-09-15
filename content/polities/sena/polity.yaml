@@ -1,0 +1,120 @@
+id: sena
+region: northern-india
+
+name:
+  latin: Sena Dynasty of Bengal
+  script: সেন রাজবংশ
+  script_lang: bn
+
+# smith-1904 dates the founding principality at Kasipuri, by
+# Samantasena or his son Hemantasena, only to "about the middle of the
+# eleventh century."
+span:
+  start: { min: 1050, max: 1050, source: smith-1904 }
+  # smith-1904 dates Bakhtiyar Khalji's capture of the Sena capital
+  # Nadia to "probably A.D. 1199."
+  end: { min: 1199, max: 1199, source: smith-1904 }
+
+identity: >-
+  A Deccan chief's line that carved Brahmanical Hindu rule out of
+  Buddhist Pala Bengal, reorganised caste under Ballal Sen, and was
+  ended when a Muhammadan raider rode into its capital with eighteen
+  horsemen and put its aged king to flight from his own dinner table.
+
+capitals:
+  - { name: Nadia (Nudiah), source: smith-1904 }
+  - { name: Gaur (Lakhnauti), source: smith-1904 }
+
+core_region: Bengal
+
+rulers:
+  # smith-1904 names Samantasena as the dynasty's own founder, though
+  # neither he nor his son Hemantasena "seems to have acquired
+  # extensive power" - that came only with Samantasena's grandson.
+  founder: { name: Samantasena, source: smith-1904 }
+  # smith-1904 credits Vijayasena with wresting most of Bengal from
+  # the Palas and "firmly establishing the Sena dynasty" over a reign
+  # of about forty years, ending around 1108 when he passed the
+  # throne to his son.
+  peak: { name: Vijayasena, reign: [null, 1108], source: smith-1904 }
+  # smith-1904 dates Lakshmanasena's own accession to 1119; his flight
+  # from Nadia in 1199 is the last date the source attaches to him.
+  last: { name: Lakshmanasena, reign: [1119, 1199], source: smith-1904 }
+
+scripts_and_languages:
+  administration: [Sanskrit, Bengali]
+  writing_system: Bengali script
+
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  # smith-1904 records Vijayasena's own rise to sovereignty by
+  # conquest and, throughout, an unbroken line of descent; his son
+  # Ballal Sen is separately credited with reorganising the caste
+  # system and introducing "Kulinism" among Brahmans, Baidyas and
+  # Kayasths, a religious rather than political claim to authority the
+  # closed vocabulary here has no separate value for.
+  legitimation: { values: [conquest, descent], source: smith-1904 }
+
+# The Pala dynasty, whose own decline across the eleventh and twelfth
+# centuries the Senas' own rise mirrors almost exactly - already a
+# record in this collection, so an edge in edges.yaml rather than
+# this field.
+preceded_by_external: []
+
+succeeded_by_external: []
+
+ended:
+  type: conquest
+  by: []
+  year: 1199
+  source: smith-1904
+
+turning_points:
+  - year: 1108
+    type: succession-crisis
+    name: "Vijayasena's conquests pass to Ballal Sen"
+    changed: >-
+      Vijayasena transmitted a kingdom he had built from a minor
+      Deccan-descended principality into the master of most of Bengal
+      to his son Vallalasena (Ballal Sen), who used the inheritance to
+      reorganise Bengali caste practice rather than to expand the
+      dynasty's own territory further.
+    source: smith-1904
+    contested: false
+  - year: 1197
+    type: conversion
+    name: "The storming of Bihar"
+    changed: >-
+      Muhammad, son of Bakhtiyar, stormed the fortress-monastery of
+      Bihar with a raiding party of only two hundred horsemen, killing
+      its Buddhist monks so completely that smith-1904 records no one
+      literate in their own libraries' books could afterward be found
+      - the blow that destroyed organised Buddhism in its last stronghold
+      south of the Himalaya, on the Sena dynasty's own northern
+      frontier.
+    source: smith-1904
+    contested: false
+  - year: 1199
+    type: siege
+    name: "Eighteen horsemen take Nadia"
+    changed: >-
+      Muhammad rode ahead of his own main army with eighteen horsemen,
+      entered the Sena capital of Nadia unopposed on the assumption he
+      was a horse-trader, and stormed the aged King Lakshmanasena's own
+      palace while the king was at dinner - who fled barefoot,
+      abandoning his treasure, his household and his throne, in what
+      smith-1904 calls "the dishonoured end of the last Hindu kingdom"
+      of Bengal.
+    source: smith-1904
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
