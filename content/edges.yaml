@@ -4557,3 +4557,15 @@ edges:
       later.
     source: smith-1904
     contested: false
+
+  - from: liu-song
+    to: southern-qi
+    type: overthrew
+    year: 479
+    note: >-
+      Xiao Daocheng, a Song general, deposed the child emperor Shundi
+      and founded the Southern Qi in the Song's place - fifty-nine
+      years after the Song's own founder, Liu Yu, had come to power
+      the same way.
+    source: boulger-china-1881
+    contested: false

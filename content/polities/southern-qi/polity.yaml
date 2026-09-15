@@ -1,0 +1,112 @@
+id: southern-qi
+region: china
+
+name:
+  latin: Southern Qi Dynasty
+  script: 齊
+  script_lang: zh
+
+span:
+  start: { min: 479, max: 479, source: boulger-china-1881 }
+  # boulger-china-1881 dates the murder of the last Qi emperor, Hoti,
+  # by the general Xiao Yan (Siaoyen) to 502, the year Siaoyen founded
+  # the Liang dynasty in the Qi's place.
+  end: { min: 502, max: 502, source: boulger-china-1881 }
+
+identity: >-
+  A dynasty a contemporary official admitted held its own throne "not
+  by merit, but by force," whose second-most-notable act was banning
+  marriage between blood relations and whose last king asked for wine
+  rather than the gold sent to prepare him for death.
+
+capitals:
+  - { name: Jiankang (Nanjing), source: boulger-china-1881 }
+
+core_region: The lower Yangtze valley and southern China, opposite the Northern Wei kingdom
+
+rulers:
+  # boulger-china-1881 records Xiao Daocheng's 479 deposition of the
+  # last Song emperor and his own accession as Kaoti.
+  founder: { name: "Xiao Daocheng (Kaoti)", reign: [479, 482], source: boulger-china-1881 }
+  # boulger-china-1881 calls Wuti (Xiao Ze) "the most respectable of
+  # the Tsis," a reign under which the dynasty held its own against
+  # Wei without ever clearly besting it.
+  peak: { name: "Xiao Ze (Wuti)", reign: [482, 493], source: boulger-china-1881 }
+  # boulger-china-1881 names Hoti (Xiao Baorong) as the last Qi
+  # emperor, murdered on the order of Xiao Yan in 502.
+  last: { name: "Hoti (Xiao Baorong)", reign: [500, 502], source: boulger-china-1881 }
+
+scripts_and_languages:
+  administration: [Classical Chinese]
+  writing_system: Chinese characters
+
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  # boulger-china-1881 quotes the public proclamation, made under
+  # Wuti's own reign, that the Qi held supreme power "not by merit,
+  # but by force" - a rare instance of a dynasty's own officials
+  # stating its legitimation as bluntly as any outside historian
+  # could.
+  legitimation: { values: [conquest], source: boulger-china-1881 }
+
+# The Liu Song, whose last emperor Xiao Daocheng deposed to found this
+# dynasty, is already a record in this collection (liu-song); see
+# edges.yaml.
+preceded_by_external: []
+
+succeeded_by_external: []
+
+ended:
+  type: internal usurpation
+  by: []
+  year: 502
+  source: boulger-china-1881
+
+turning_points:
+  - year: 482
+    type: reform
+    name: "Wuti bans marriage between blood relations"
+    changed: >-
+      Wuti revived an ancient prohibition on marriage between families
+      sharing a surname, a measure boulger-china-1881 links to the
+      declining population of districts still following the old
+      kinship system - one of the few substantive acts of domestic
+      legislation the source credits to any Qi reign.
+    source: boulger-china-1881
+    contested: false
+  - year: 498
+    type: succession-crisis
+    name: "Mingti's assassination of Xiao Yi"
+    changed: >-
+      Mingti, who had already murdered an infant emperor and others to
+      reach the throne himself, had the general Xiao Yi - the man who
+      had done most to defend the state against Wei - assassinated in
+      the final year of his own reign, an act boulger-china-1881 calls
+      the one that "brought about eventually the fall and extirpation"
+      of the Qi ruling family, since Xiao Yi's own brother Xiao Yan
+      would lead the revolt that ended it.
+    source: boulger-china-1881
+    contested: false
+  - year: 502
+    type: succession-crisis
+    name: "Xiao Yan avenges his brother"
+    changed: >-
+      Xiao Yan, rallying popular support against a dynasty
+      boulger-china-1881 says had made loyalty to the Qi "a crime" in
+      the eyes of the wider population, deposed and murdered the
+      teenage emperor Hoti and founded the Liang dynasty - closing a
+      twenty-three-year reign that had opened with the same kind of
+      forced deposition it ended in.
+    source: boulger-china-1881
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
