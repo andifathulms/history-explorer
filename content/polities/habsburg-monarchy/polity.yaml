@@ -62,13 +62,17 @@ rulers:
   # on 26 October 1526; crowned King of Hungary at Székesfehérvár after
   # a contested double election against John Zápolya the same year.
   founder: { name: "Ferdinand I", reign: [1526, 1564], source: coxe-austria-1847 }
-  # Provisional. Charles VI held the broadest territory of any ruler
-  # this record covers - Leopold I's reconquered Hungary, plus the
-  # former Spanish Netherlands and Habsburg Italy gained at Utrecht -
-  # before Maria Theresa lost Silesia to Prussia within weeks of her
-  # own accession. A later measures.reach_km2 figure, once a cited
-  # source publishes one, may yet move this field.
-  peak: { name: "Charles VI", reign: [1711, 1740], source: coxe-austria-1847 }
+  # Revised from Charles VI, who held more territory in absolute terms
+  # (the former Spanish Netherlands and Habsburg Italy, gained at
+  # Utrecht, on top of Leopold I's own reconquered Hungary) but only by
+  # counting provinces this record's own core_region excludes - Austria,
+  # Bohemia and Hungary, not the Low Countries or Italy. Within that
+  # core_region, the fuller claim belongs to Leopold I: the 1699 Peace
+  # of Karlowitz, closing his reign, confirmed nearly all of Hungary and
+  # Transylvania under Habsburg rule for the first time since Mohács -
+  # the founding mission this record's own identity states, achieved
+  # most completely under him rather than under his grandson.
+  peak: { name: "Leopold I", reign: [1657, 1705], source: coxe-austria-1847 }
   last: null
 
 scripts_and_languages:
@@ -95,8 +99,33 @@ institutions:
 # its existing edge to Transylvania.
 preceded_by_external: []
 
-succeeded_by_external: []
+# The Empire of Austria has no record of its own here yet. 1804 is not
+# a conquest, fragmentation, dynastic replacement, absorption or
+# usurpation - Lingelbach's own account is explicit that Francis II's
+# new title "altered no province's actual government" - so it is named
+# here rather than forced into the `ended` field below, on the same
+# principle as any other real successor this collection has not yet
+# drawn a page for.
+succeeded_by_external:
+  - name: the Empire of Austria
+    type: claimed legitimacy of
+    year: 1804
+    note: >-
+      Answering Napoleon's own new imperial title, Francis II declared
+      himself hereditary Emperor of Austria while keeping every
+      existing crown, constitution and privilege of his separate
+      kingdoms intact - stating outright, for the first time, the
+      historical unity the Pragmatic Sanction had only implied, rather
+      than replacing or dissolving any of the kingdoms' own existing
+      governments. Later restyled Austria-Hungary after the 1867
+      Ausgleich.
+    source: lingelbach-austria-hungary-1910
 
+# Deliberately null rather than forced to a value from the closed
+# vocabulary: none of the six fits a state that renamed itself with no
+# change of government, and the actual succession is recorded above.
+# This is the real, scoped end of this record's own coverage (see the
+# span comment), not an open-ended placeholder.
 ended: null
 
 turning_points:
