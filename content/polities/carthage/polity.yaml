@@ -1,0 +1,107 @@
+id: carthage
+region: ancient-north-africa
+
+name:
+  latin: Carthage
+  # bosworth-smith-1878 does not give the Punic name Qart-hadasht in
+  # its own original script, and this record does not reproduce it
+  # without a source that does.
+  script: null
+  script_lang: null
+
+# bosworth-smith-1878 gives no calendar date for the traditional
+# founding of Carthage by exiles from Tyre; the earliest event this
+# source itself dates is the 537 BC alliance with the Etruscans
+# against the Phocaeans at the battle of Alalia, a change of policy
+# the source frames as already well underway "in the course of the
+# sixth century."
+span:
+  start: { min: -537, max: -537, source: bosworth-smith-carthage-1878 }
+  # bosworth-smith-1878 dates the fall and total destruction of
+  # Carthage by Scipio Aemilianus, at the close of the Third Punic
+  # War, to 146 BC.
+  end: { min: -146, max: -146, source: bosworth-smith-carthage-1878 }
+
+identity: >-
+  A Phoenician trading settlement, founded by legend on land bought
+  from friendly Berbers and ruled by a fugitive queen, that grew into
+  the Mediterranean's other great power - fought Rome to exhaustion
+  twice, and was erased so completely the third time that Roman law
+  cursed anyone who tried to rebuild it.
+
+capitals:
+  - { name: Carthage, source: bosworth-smith-carthage-1878 }
+
+core_region: The Gulf of Tunis coast, with trading colonies and territory across the western Mediterranean at its height
+
+rulers:
+  # bosworth-smith-1878 treats the Dido/Elissa story as a Phoenician
+  # foundation legend rather than a verified historical figure,
+  # tracing the name itself to a Semitic root meaning "the beloved"
+  # and noting she was worshipped at Carthage as a goddess for as
+  # long as the city stood - a detail the source reads as evidence
+  # she began as a deity rather than a historical queen.
+  founder: { name: null, source: null }
+  peak: { name: null, source: null }
+  # bosworth-smith-1878 names Hasdrubal, the last commander-in-chief
+  # of Carthage, presiding over the city's own final defense and
+  # surviving its fall as a captive.
+  last: { name: Hasdrubal, reign: [null, -146], source: bosworth-smith-carthage-1878 }
+
+scripts_and_languages:
+  administration: [Punic]
+  writing_system: Phoenician alphabet
+
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  legitimation: null
+
+preceded_by_external: []
+
+succeeded_by_external: []
+
+ended:
+  type: conquest
+  by: []
+  year: -146
+  source: bosworth-smith-carthage-1878
+
+turning_points:
+  - year: -537
+    type: battle
+    name: "The battle of Alalia"
+    changed: >-
+      Carthage allied with its own longstanding rival, the Etruscans,
+      to drive Phocaean Greek settlers from Corsica - a change from
+      the city's own earlier posture as a peaceable trading factory,
+      driven, bosworth-smith-1878 argues, by the recognition that
+      Hellenic colonisation threatened Carthage's own hold on Africa,
+      Sicily and Spain exactly as it had already displaced Phoenician
+      settlements from Italy, Greece and the Levant.
+    source: bosworth-smith-carthage-1878
+    contested: false
+  - year: -146
+    type: siege
+    name: "Carthage razed to the ground"
+    changed: >-
+      Scipio Aemilianus's forces stormed the last defenders of
+      Carthage, and the Roman Senate ordered every building levelled
+      and the ground itself ploughed over, pronouncing a curse on
+      anyone who tried to rebuild or resettle the site; Hasdrubal's
+      own wife, refusing captivity, killed their two sons and then
+      herself in the flames of a temple, and Scipio himself, watching
+      the city burn, was overheard quoting Homer's own lines on the
+      fall of Troy.
+    source: bosworth-smith-carthage-1878
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

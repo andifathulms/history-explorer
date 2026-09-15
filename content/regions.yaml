@@ -897,3 +897,13 @@ regions:
       exhaustion.
     group: rome-and-post-roman-europe
     thread: false
+
+  - id: ancient-north-africa
+    name: Ancient North Africa
+    blurb: >-
+      A Phoenician trading colony that grew into the one Mediterranean
+      power Rome could never simply outlast - fought to a standstill
+      twice, broken on the third attempt, and erased from its own site
+      so completely that a curse was pronounced against rebuilding it.
+    group: africa-maghreb
+    thread: false
