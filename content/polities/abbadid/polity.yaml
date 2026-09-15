@@ -73,6 +73,19 @@ turning_points:
       Sagrajas, went home, came back, and deposed him.
     source: kennedy-1996
     contested: false
+  - year: 1091
+    type: siege
+    name: "Seville falls, al-Mu'tamid exiled"
+    changed: >-
+      Yusuf ibn Tashfin besieged and took Seville, backed by legal opinions
+      from al-Andalus's own jurists holding that a ruler who paid tribute to
+      Christians out of forbidden taxes had forfeited his authority. Sent to
+      Morocco and confined at Aghmat, al-Mu'tamid lived out his last four
+      years in poverty, writing the poems that are the most admired of his
+      career - the army he had himself invited across the strait ended his
+      own rule rather than going home once its war was won.
+    source: kennedy-1996
+    contested: false
 
 measures:
   reach_km2: null

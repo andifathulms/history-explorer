@@ -69,11 +69,22 @@ turning_points:
     type: revolt
     name: "The da'wa reaches the Kutama"
     changed: >-
-      An Isma'ili missionary went to the Berbers of the Lesser Kabylie — inside
-      Aghlabid territory and outside Aghlabid control — converted them and
-      reorganised them as an army. The emirate was destroyed sixteen years later by an army raised out of
-      its own subjects, in the name of a man who was living quietly as a
-      merchant in an oasis two thousand kilometres away.
+      Abu Abdallah al-Shi'i began converting and organising the Kutama
+      Berbers of the Lesser Kabylie into a disciplined military force under
+      Isma'ili doctrine - the instrument that would take Aghlabid towns
+      within a decade, raised entirely from inside the emirate's own
+      territory rather than sent against it from outside.
+    source: halm-1996
+    contested: false
+  - year: 909
+    type: succession-crisis
+    name: "Ziyadat Allah III flees, Abu Abdallah takes Raqqada"
+    changed: >-
+      The last Aghlabid emir fled east without fighting a final battle, and
+      Abu Abdallah entered the palace city of Raqqada unopposed - not a
+      conquest by a neighbouring power but an army raised from the
+      emirate's own subjects, in territory the Aghlabids had never actually
+      controlled, walking into a capital its rulers had already abandoned.
     source: halm-1996
     contested: false
 

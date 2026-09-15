@@ -81,6 +81,18 @@ turning_points:
       state living on shipping — smaller, and for ninety years viable.
     source: abun-nasr-1987
     contested: false
+  - year: 1148
+    type: siege
+    name: "Norman fleet takes Mahdia"
+    changed: >-
+      Roger II's Sicilian fleet, working through the Tunisian ports piece by
+      piece over the 1140s, took Sfax, Gabès and finally Mahdia itself. No
+      dynasty conquered Ifriqiya from the Zirids — a pastoral migration had
+      already ruined the agricultural base decades earlier and left them a
+      port living on the sea — but it took a separate conqueror at the coast
+      to finish what that migration had started.
+    source: abun-nasr-1987
+    contested: false
 
 measures:
   reach_km2: null
