@@ -6,289 +6,116 @@ name:
   script: Habsburgermonarchie
   script_lang: de
 
-# Coxe's own book dates "the foundation of the monarchy by Rhodolph of
-# Hapsburgh" to his 1273 election as King of the Romans - the point at
-# which a minor Swabian count became a crowned monarch at all, and the
-# precondition for everything that followed. Austria and Styria did
-# not become the family's own territory until Rudolf invested his sons
-# with them at the Diet of Augsburg in December 1282; that acquisition
-# is carried below as a turning point rather than the span's own start,
-# following the source's own periodization.
+# The second half of a two-record split (see house-of-austria's own
+# span comment for the full reasoning). This record is the composite
+# Austria-Bohemia-Hungary state historians actually mean by "the
+# Habsburg Monarchy" - not the medieval House of Austria that
+# preceded it, which ran 1273-1519 under a single line before
+# permanently forking between Charles V (Spain, Burgundy, the
+# Americas, the Imperial title - out of this region's scope) and his
+# brother Ferdinand, who took the Austrian hereditary lands in the
+# 1521-22 division of the inheritance.
+#
+# This record starts at the Battle of Mohács (29 August 1526), where
+# the death of the childless King Louis II of Bohemia and Hungary
+# opened both thrones to Ferdinand's own claim - the actual founding
+# moment of the composite state, distinct from the earlier division
+# of the Austrian lands themselves.
 span:
-  start: { min: 1273, max: 1273, source: coxe-austria-1847 }
-  # This record currently runs to the 1499 peace with Louis XII, which
-  # settled the Burgundian dispute against Maximilian's own son and
-  # left the Habsburg-Swiss standoff over imperial obedience just short
-  # of open war - the last events its sourced chapters cover, not an
-  # institutional end.
-  #
-  # SCOPE DECISION (for whoever continues this record): this page is
-  # bounded, not open-ended. It should keep being extended from
-  # coxe-austria-1847 - which itself runs all the way to Leopold II's
-  # death in 1792 - until it reaches that source's own limit. 1792 is
-  # this record's practical stopping point for as long as Coxe remains
-  # its only source; the real institutional break sits twelve years
-  # later, in 1804, when Francis II proclaimed himself hereditary
-  # Emperor of Austria and the family's separately-held crowns became a
-  # single constituted state - the same transition already dated on
-  # this site's own Holy Roman Empire record (1806, Francis II's
-  # abdication of that older title). A successor record - Austrian
-  # Empire, then later Austria-Hungary in 1867 - should pick up from
-  # 1792 or 1804 rather than this one being extended past either point;
-  # see the corpus's own precedent of splitting one dynasty's
-  # continuity across sequential bounded records (Bohemia's own page
-  # already ends in 1620, handing off to this one, on exactly that
-  # model). Reaching 1804 itself will need a second source, since Coxe
-  # does not cover it.
-  end: { min: 1499, max: 1499, source: coxe-austria-1847 }
+  start: { min: 1526, max: 1526, source: coxe-austria-1847 }
+  # This record currently covers Ferdinand I's own accession to Bohemia
+  # and Hungary and the opening of his war with John Zápolya, through
+  # his February 1527 coronation at Prague - not an institutional end.
+  # Target roughly 15-18 chapters overall, consolidated by era and
+  # reign (on the Ottoman record's own model) rather than the much
+  # finer battle-by-battle density of house-of-austria's original
+  # draft: the 1529 Siege of Vienna; the Reformation era and the Peace
+  # of Augsburg; the Thirty Years' War from Austria's own side (the
+  # direct sequel to Bohemia's own 1620 ending); Leopold I and the
+  # 1683 Siege of Vienna; Charles VI and the Pragmatic Sanction; Maria
+  # Theresa's wars and reforms; Joseph II's enlightened absolutism;
+  # and Francis II's 1804 self-coronation as Emperor of Austria, which
+  # will need a second source since coxe-austria-1847 stops in 1792.
+  end: { min: 1527, max: 1527, source: coxe-austria-1847 }
 
 identity: >-
-  A minor Swabian count's family, raised to the German crown by
-  electors who wanted a weak monarch, that briefly reunited Austria,
-  Hungary and Bohemia under Albert V, lost Vienna to Matthias Corvinus,
-  and under Maximilian I found a French king's conquest of Rome itself
-  could not move a German diet.
+  The composite Austria-Bohemia-Hungary state Ferdinand I built from a
+  dead king's crowns at Mohács, contested from its first year by a
+  rival king backed by the Ottoman sultan who threatened to march the
+  keys of Hungary's own fortresses to Vienna's gates.
 
 capitals:
-  - { name: Vienna, from: 1280, source: coxe-austria-1847 }
+  - { name: Vienna, source: coxe-austria-1847 }
 
-core_region: The Duchies of Austria, Styria, Carinthia (from 1335) and Tyrol (from 1363), along the middle Danube
+core_region: Austria, Bohemia and Hungary, from the Alps to the Carpathians
 
 rulers:
-  # Coxe's own subtitle names Rudolf "the great founder of the House of
-  # Austria," even though he never personally held the title Duke of
-  # Austria - he settled the duchy on his sons Albert and Rudolph II by
-  # investiture in 1282 and vested its sole administration in Albert
-  # alone the following year, while he himself remained King of the
-  # Romans, based elsewhere in the empire.
-  founder: { name: "Rudolf I of Habsburg (Rhodolph of Hapsburgh)", source: coxe-austria-1847 }
-  # Revised from Rudolf I: Albert held Austria, Hungary and Bohemia
-  # simultaneously and was elected King of the Romans besides - the
-  # first Habsburg since Rudolf I to hold the German crown, and the
-  # first ever to combine it with two further kingdoms at once. His
-  # reign lasted barely two years, but the reach itself, while it
-  # lasted, exceeded any predecessor's on this record.
-  peak: { name: "Albert V (Albert II of Germany)", reign: [1437, 1439], source: coxe-austria-1847 }
+  # Ferdinand claimed both crowns by family compact and by marriage to
+  # Louis II's own sister, but - aware Bohemians and Hungarians valued
+  # their own right of election - stood for election in both kingdoms
+  # rather than simply asserting inheritance. Elected King of Bohemia
+  # on 26 October 1526; crowned King of Hungary at Székesfehérvár after
+  # a contested double election against John Zápolya the same year.
+  founder: { name: "Ferdinand I", reign: [1526, 1564], source: coxe-austria-1847 }
+  # Provisional: the only ruler this record's chapters currently cover.
+  # Centuries of Habsburg history remain to be added - Charles VI's own
+  # reach as much of Europe accepted the Pragmatic Sanction, Maria
+  # Theresa's - and will very likely displace Ferdinand from this field
+  # once they are.
+  peak: { name: "Ferdinand I", reign: [1526, 1564], source: coxe-austria-1847 }
   last: null
 
 scripts_and_languages:
-  administration: [German, Latin]
+  administration: [German, Latin, Czech, Hungarian]
   writing_system: Latin alphabet
 
 institutions:
   military_basis: null
   revenue_basis: null
   succession_rule: null
-  # Rudolf's own crown came from election, explicitly won through a
-  # coalition of electors he cultivated by marrying his daughters to
-  # their sons - "the electors, who desired an emperor, but dreaded a
-  # master," per Coxe's own account. Austria and Styria, by contrast,
-  # passed to his own sons by his personal investiture and grant, a
-  # dynastic transfer rather than an elected one.
-  legitimation: { values: [election, investiture], source: coxe-austria-1847 }
+  # Ferdinand's own claim rested on two grounds at once: family
+  # compacts entailing the succession on the House of Austria in
+  # default of Louis II's own male heirs, and his marriage to Anne,
+  # the dead king's sister - but he chose to stand for election in
+  # both kingdoms rather than rest on inheritance alone, aware how
+  # closely Bohemians and Hungarians guarded their own elective right.
+  legitimation: { values: [descent, election], source: coxe-austria-1847 }
 
+# Both predecessors here are records in this collection, so they are
+# edges in edges.yaml rather than this field: the Kingdom of Bohemia's
+# own 1620 conquest already pointed at this record's id before this
+# record existed to receive it; the Kingdom of Hungary's own 1526
+# fragmentation now carries a matching edge to this record alongside
+# its existing edge to Transylvania.
 preceded_by_external: []
 
 succeeded_by_external: []
 
-# Null until this record's own coverage actually reaches its scoped
-# end (1792 from coxe-austria-1847, or 1804 with a second source - see
-# the span comment above). Not a claim that the Habsburg Monarchy
-# itself had no end: it continued, under other titles this site should
-# carry as separate records, through the Austrian Empire and
-# Austria-Hungary into the twentieth century.
 ended: null
 
-# Trimmed from sixty-seven hinges to the ones that survive a chronicle
-# compressed from seventy chapters to under thirty: one per chapter or
-# consolidated chapter-group, tracing the family's own rise to Albert
-# V's triple crown and its long, uneven aftermath, rather than every
-# succession and battle the source narrates in full.
 turning_points:
-  - year: 1273
-    type: succession-crisis
-    name: "Rudolf's election as King of the Romans"
-    changed: >-
-      The electors passed over both favourites for the vacant German
-      crown - Bohemia's own king among them - and settled instead on a
-      minor Swabian count whose modest territories made him look easy
-      to control, a calculation about to be proven badly wrong.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1278
+  - year: 1526
     type: battle
-    name: "The Battle of Marchfeld"
+    name: "The Battle of Mohács"
     changed: >-
-      Rudolf's army broke Ottokar's forces near the March river after
-      Ottokar refused every offer of peace, and Ottokar himself, unhorsed
-      and overpowered after refusing to quit the field even as his army
-      collapsed around him, was stripped of his armour and cut down in
-      revenge by noblemen whose own families he had once destroyed.
+      Pressed into a battle his own council had counselled against,
+      the young King Louis II watched his outnumbered army destroyed
+      by Süleyman the Magnificent's forces and drowned fleeing the
+      field when his own armored horse collapsed into a marsh - dying
+      without an heir, and leaving his two kingdoms' own crowns open
+      to Ferdinand's own claim.
     source: coxe-austria-1847
     contested: false
-  - year: 1282
-    type: reform
-    name: "Austria and Styria settled on Rudolf's sons"
-    changed: >-
-      At a diet in Augsburg, Rudolf formally granted the conquered
-      duchies of Austria and Styria to his own sons Albert and Rudolph
-      II, converting territory he had won as King of the Romans into
-      hereditary Habsburg family property for the first time - a
-      separate act, years after his own election, that made Austria
-      itself the family's own possession rather than a fief he merely
-      administered.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1298
-    type: battle
-    name: "The Battle of Göllheim"
-    changed: >-
-      Passed over for the crown once already, Albert deposed his own
-      electors' second choice for contumacy and killed him in single
-      combat when the two kings met in battle near Speyer - then had
-      the electors formally re-elect him anyway, unwilling to hold a
-      throne people might call a battlefield prize rather than a lawful
-      succession.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1314
+  - year: 1526
     type: succession-crisis
-    name: "Two kings crowned in a fortnight"
+    name: "Ferdinand elected King of Bohemia, contested in Hungary"
     changed: >-
-      Rival electors crowned Frederick the Handsome and Louis of
-      Bavaria within days of each other, each coronation looking
-      equally legitimate, and opened eight years of civil war that
-      cost the family a king's freedom at Mühldorf, over fifteen
-      hundred men in a single ambush at Morgarten, and its last real
-      claim on the German throne for more than a century.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1330
-    type: treaty
-    name: "The Peace of Hagenau"
-    changed: >-
-      Frederick's and Leopold's deaths removed the family's last
-      rival claim on the imperial title, and the surviving brothers
-      made peace with Louis of Bavaria at last - closing, at a stroke,
-      a war the 1314 double election had opened sixteen years earlier
-      and steadying the House of Austria more than either dead
-      brother's reign ever had.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1369
-    type: treaty
-    name: "Tyrol secured at Scharding"
-    changed: >-
-      Three decades after a childless heiress's disputed marriages
-      first drew Bavaria, Bohemia and Austria into a three-way contest
-      for her inheritance, Emperor Charles IV mediated a settlement
-      that closed the dispute for good: Bavaria gave up its claim
-      outright for a cash payment, leaving Austria undisputed master
-      of a mountain duchy rich in silver and command of the roads into
-      Italy.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1386
-    type: battle
-    name: "The Battle of Sempach"
-    changed: >-
-      Confident nobles who dismissed the confederate army as an
-      unarmed rabble pushed Leopold III into an immediate attack
-      rather than wait for reinforcements, and a knight's
-      self-sacrifice broke the Austrian line open; roughly two
-      thousand men died, Leopold himself among them, closing out
-      seventy years in which the family's Swiss patrimony was lost
-      the same way every time - armoured cavalry sent into terrain
-      that neutralised it, broken by a smaller force holding the
-      high ground.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1406
-    type: reform
-    name: "The family splits into the Albertine and Leopoldine lines"
-    changed: >-
-      A cousin's sudden, childless death ended the joint guardianship
-      that had briefly held the dynasty together, and the House of
-      Austria broke permanently into an Albertine branch holding
-      Austria for the child Albert V and a Leopoldine branch split
-      three ways among Leopold III's own surviving sons - a family
-      humbling itself through its own internal division, exactly as
-      an earlier emperor had once wryly predicted it would.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1438
-    type: succession-crisis
-    name: "Albert elected King of the Romans"
-    changed: >-
-      With Germany still fractured by private feuds and church schism
-      and the Ottomans pressing on Hungary's own frontier, the electors
-      turned to the one prince already ruling three kingdoms at once;
-      although never formally crowned, Albert became the first Habsburg
-      to hold the German crown since Rudolf I, and the first ever to
-      pair it with Austria, Hungary and Bohemia together.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1439
-    type: catastrophe
-    name: "The death of Albert V"
-    changed: >-
-      Struck by the same dysentery that had already forced an Ottoman
-      army into retreat, Albert insisted on pressing toward Vienna
-      rather than rest, and died in a village short of the city less
-      than two years after becoming the first ruler in a century and a
-      half to hold both the imperial crown and the House of Austria's
-      own patrimony together - a reach no later Habsburg duke would
-      match.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1457
-    type: catastrophe
-    name: "The death of Ladislaus Posthumus"
-    changed: >-
-      Struck down by sudden illness in Prague while preparing to marry
-      a French princess, Ladislaus died within thirty-six hours at
-      seventeen, ending the one reign since Albert V's own death that
-      had briefly held Austria, Hungary and Bohemia together under a
-      single king - and opening, in its place, decades of fraternal
-      war, disputed regencies and Ottoman pressure that no single
-      Habsburg duke would fully master again.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1477
-    type: treaty
-    name: "Maximilian marries Mary of Burgundy by proxy"
-    changed: >-
-      Against her own council's advice and the machinations of Louis
-      XI of France, Mary chose Maximilian on the strength of her late
-      father's praise for him and a token exchange of letters, joining
-      the vast Burgundian inheritance - Flanders, Artois, Holland,
-      Brabant and more - to the House of Austria for the first time,
-      and opening a rivalry with the French crown that would outlast
-      every ruler who lived through its opening decade.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1493
-    type: catastrophe
-    name: "The death of Frederick III"
-    changed: >-
-      A leg amputation he bore without complaint gave way to a fatal
-      dysentery, brought on by an indulgence for melons that echoed the
-      very habit that had ended his own son's life decades before;
-      having already handed full administration of Austria and the
-      empire to Maximilian, Frederick closed a fifty-three-year reign
-      longer than any emperor's since Augustus.
-    source: coxe-austria-1847
-    contested: false
-  - year: 1499
-    type: treaty
-    name: "Peace with France settles Burgundy against Philip"
-    changed: >-
-      After a Swiss-mercenary force sent to press Philip's claims
-      collapsed through mutiny and bribery, Louis XII - his own
-      attention already fixed on conquering Milan - offered terms
-      Philip accepted at once: the three disputed towns restored, and
-      the whole Burgundian question handed to the Parliament of Paris
-      for a verdict everyone involved already knew how it would fall.
+      Bohemia's own electoral committee chose Ferdinand on 26 October
+      with only token opposition, but Hungary split between his own
+      claim and John Zápolya, who had his own large following crowned
+      him separately at Székesfehérvár - opening a rival kingship that
+      would draw the Ottoman sultan directly into Habsburg affairs
+      within three years.
     source: coxe-austria-1847
     contested: false
 

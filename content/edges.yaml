@@ -3699,7 +3699,18 @@ edges:
            ruling Transylvania in practice as a separate state under
            Ottoman protection rather than as a rump of Hungary proper."
     source: godkin-1853
-    contested: false
+
+  - from: hungary
+    to: habsburg-monarchy
+    type: claimed legitimacy of
+    year: 1526
+    note: "Louis II died without an heir at Mohacs, and Ferdinand of
+           Austria was elected king that same year over a rival,
+           John Zapolya - a contested claim to the whole Hungarian
+           crown the Habsburgs pressed for over a century while
+           actually controlling only its western and northern rump."
+    source: coxe-austria-1847
+    contested: true
 
   - from: yamato
     to: kamakura
