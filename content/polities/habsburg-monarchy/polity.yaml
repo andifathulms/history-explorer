@@ -16,14 +16,14 @@ name:
 # following the source's own periodization.
 span:
   start: { min: 1273, max: 1273, source: coxe-austria-1847 }
-  # This record currently runs to the Diet of Worms (1496), which
-  # traded Maximilian's demand for troops against France for the
-  # empire's own most durable constitutional reform, the Imperial
-  # Chamber Court - the last event its sourced chapters cover, not an
+  # This record currently runs to the 1499 peace with Louis XII, which
+  # settled the Burgundian dispute against Maximilian's own son and
+  # left the Habsburg-Swiss standoff over imperial obedience just short
+  # of open war - the last events its sourced chapters cover, not an
   # institutional end. The Habsburg Monarchy has no end within this
   # source's own scope, let alone in reality: it continued, through the
   # Austrian Empire and Austria-Hungary, into the twentieth century.
-  end: { min: 1496, max: 1496, source: coxe-austria-1847 }
+  end: { min: 1499, max: 1499, source: coxe-austria-1847 }
 
 identity: >-
   A minor Swabian count's family, raised to the German crown by
@@ -818,6 +818,41 @@ turning_points:
       demand for troops to drive France from Italy, only to find the
       German states too numbed by decades of unanswered appeals to act
       even when the case against France had never been stronger.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1496
+    type: catastrophe
+    name: "Maximilian retreats from a failed Italian expedition"
+    changed: >-
+      A second Italian venture, undertaken with barely more than a
+      thousand men on the strength of allies who no longer needed him,
+      collapsed into a fruitless siege of Livorno that Venetian foot-
+      dragging made hopeless; Maximilian abandoned the campaign in
+      disgust that December, a failure Coxe judges genuinely damaging
+      to his standing as both emperor and soldier.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1498
+    type: succession-crisis
+    name: "Charles VIII dies, Louis XII succeeds"
+    changed: >-
+      The French king who had stalled Philip's own demands over the
+      remaining Burgundian territories died leaving only a daughter;
+      his cousin and successor divorced his own wife to marry Anne of
+      Brittany in his place - the same woman Maximilian had once wed
+      before she was taken from him.
+    source: coxe-austria-1847
+    contested: false
+  - year: 1499
+    type: treaty
+    name: "Peace with France settles Burgundy against Philip"
+    changed: >-
+      After a Swiss-mercenary force sent to press Philip's claims
+      collapsed through mutiny and bribery, Louis XII - his own
+      attention already fixed on conquering Milan - offered terms
+      Philip accepted at once: the three disputed towns restored, and
+      the whole Burgundian question handed to the Parliament of Paris
+      for a verdict everyone involved already knew how it would fall.
     source: coxe-austria-1847
     contested: false
 
