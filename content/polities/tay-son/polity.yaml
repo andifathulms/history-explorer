@@ -1,0 +1,137 @@
+id: tay-son
+region: mainland-southeast-asia
+
+name:
+  latin: Tay Son
+  script: null
+  script_lang: null
+
+span:
+  start: { min: 1774, max: 1774, source: barrow-cochinchina-1806 }
+  end: { min: 1802, max: 1802, source: white-cochinchina-1824 }
+
+identity: >-
+  A rebellion of three merchant brothers from Qui Nhon that toppled a
+  sickly king, split his kingdom three ways, turned back a Chinese army
+  said to number a hundred thousand, and then lost everything over a
+  decade of naval battles to the same boy-king it had once hunted through
+  a forest, dying with the fall of Hue in 1802.
+
+capitals:
+  - { name: "Qui Nhon (Quin-nong)", from: 1774, source: barrow-cochinchina-1806 }
+  - { name: "Hue (Hue-foo)", from: null, source: barrow-cochinchina-1806 }
+
+core_region: Central and northern Vietnam, from Qui Nhon to Tonquin
+
+rulers:
+  # barrow-1806 names the eldest of the three brothers, a wealthy merchant
+  # trading with China and Japan, as leader of the 1774 rising.
+  founder: { name: "Nguyen Nhac (Yin-yac)", source: barrow-cochinchina-1806 }
+  # The second brother, a general, took Hue, defeated a Qing invasion of
+  # Tonquin and crowned himself under this title - the dynasty's most
+  # successful ruler by every measure barrow-1806 gives.
+  peak: { name: "Nguyen Hue, Quang Trung (Long-niang)", reign: [null, 1791], source: barrow-cochinchina-1806 }
+  # Neither source names Quang Trung's young son and successor at Hue,
+  # describing him only as "the other young usurper" defeated in 1802;
+  # a different son, ruling the separate Qui Nhon remnant, is named only
+  # as "Tai-saun" by white-1824 and was defeated earlier, in 1796.
+  last: { name: null, source: null }
+
+scripts_and_languages:
+  administration: [Vietnamese, Literary Chinese]
+  writing_system: null
+
+institutions:
+  military_basis: null
+  revenue_basis: null
+  succession_rule: null
+  # barrow-1806 records Nguyen Hue's own proclamation, on crowning himself
+  # king of a united Tonquin and Cochinchina, that he had been "called to
+  # the throne by the will of heaven and the voice of the people."
+  legitimation: { values: [conquest, divine-sanction], source: barrow-cochinchina-1806 }
+
+preceded_by_external: []
+
+succeeded_by_external:
+  - name: the Nguyen dynasty, under Gia Long
+    type: overthrew
+    year: 1802
+    note: >-
+      Nguyen Anh, the deposed heir the Tay Son brothers had hunted through
+      a forest as a child, took Hue in 1802 after twelve years of
+      campaigning from his base at Saigon, reuniting the whole country
+      under his own restored dynasty and ending Tay Son rule for good.
+    source: white-cochinchina-1824
+
+ended:
+  type: conquest
+  by: []
+  year: 1802
+  source: white-cochinchina-1824
+
+turning_points:
+  - year: 1774
+    type: revolt
+    name: "The rising at Qui Nhon"
+    changed: >-
+      Three brothers - a wealthy merchant, a general, and a priest - led a
+      sudden insurrection against a king weakened by illness and years of
+      rule by proxy through his own generals. Their forces razed the walls
+      of Saigon, put a reported twenty thousand of its people to the sword
+      for favoring the deposed king, and secured popular favor in turn
+      through feasts, fireworks and clergy who preached that heaven itself
+      had chosen the three brothers to rule.
+    source: barrow-cochinchina-1806
+    contested: false
+  - year: 1791
+    type: catastrophe
+    name: "Quang Trung dies at Hue"
+    changed: >-
+      The dynasty's most capable ruler, who had defeated a Qing invasion
+      of Tonquin and crowned himself king of a united north and south,
+      died at Hue, leaving a twelve-year-old son to hold the throne his
+      father had won by force - a succession too fragile to survive the
+      restoration campaign already gathering strength against it.
+    source: barrow-cochinchina-1806
+    contested: false
+  - year: 1792
+    type: battle
+    name: "The fleet burned at Qui Nhon"
+    changed: >-
+      Nguyen Anh's fleet, sailing under two French officers, caught the
+      Tay Son fleet at anchor at Qui Nhon while its king and court were
+      away hunting inland, and destroyed the greater part of it - a blow
+      that did not retake territory but broke Tay Son naval power for the
+      remainder of the war.
+    source: barrow-cochinchina-1806
+    contested: false
+  - year: 1796
+    type: battle
+    name: "Qui Nhon falls"
+    changed: >-
+      Nguyen Anh routed a Tay Son army reported at a hundred thousand men
+      with a far smaller force and took Qui Nhon itself, reducing Tay Son
+      rule to the single remaining court at Hue and the northern territory
+      it still held.
+    source: barrow-cochinchina-1806
+    contested: false
+  - year: 1802
+    type: battle
+    name: "Hue falls, the dynasty ends"
+    changed: >-
+      Nguyen Anh dislodged the last Tay Son ruler from Hue and compelled
+      him to retreat into Tonquin, reuniting Cochinchina and Tonquin under
+      his own restored rule for the first time since the 1774 rising -
+      the end of Tay Son rule and the founding of the Nguyen dynasty that
+      followed it.
+    source: white-cochinchina-1824
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

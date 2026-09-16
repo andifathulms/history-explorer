@@ -8193,3 +8193,35 @@ sources:
       his wars with Burma, his 1571 disappearance in Cambodia, the Burmese
       vassalage that followed, and the 1779 Siamese conquest of Wiengchan
       under Taksin's general Chao Phya Chakri.
+
+  - id: barrow-cochinchina-1806
+    kind: book
+    author: John Barrow
+    title: "A Voyage to Cochinchina, in the Years 1792 and 1793"
+    publisher: T. Cadell and W. Davies
+    year: 1806
+    note: >-
+      An account by a member of the Macartney embassy's supporting
+      squadron, which called at Cochinchina en route to China, including a
+      "Historical Sketch of Modern Cochinchina" compiled from a French
+      officer's manuscript memoir and corroborated, Barrow states, by
+      missionary accounts and Chinese court testimony. Cited here for the
+      1774 Tay Son rising, the division of the kingdom among the three
+      brothers, the Qing invasion of Tonquin and its aftermath, Nguyen
+      Anh's exile at Pulo Wai and in Siam, Bishop Pigneau de Behaine's
+      ("Adran's") 1787 treaty of Versailles, and the naval campaigns of
+      1790-96.
+
+  - id: white-cochinchina-1824
+    kind: book
+    author: John White
+    title: "A Voyage to Cochin China"
+    publisher: Longman, Hurst, Rees, Orme, Brown, and Green
+    year: 1824
+    note: >-
+      An American merchant captain's account of a trading voyage to
+      Saigon, including a historical sketch of the Tay Son wars drawn from
+      the same tradition of sources as Barrow's account. Cited here for
+      the 1802 fall of Hue and the reunification of Cochinchina and
+      Tonquin under Nguyen Anh (Gia Long), and for Bishop Adran's postwar
+      reforms.
