@@ -71,6 +71,18 @@ turning_points:
       again.
     source: ibn-khaldun-de-slane
     contested: false
+  - year: 1184
+    type: battle
+    name: "Abu Ya'qub Yusuf dies at Santarém"
+    changed: >-
+      The second caliph, struck by a lance or an arrow while besieging
+      Santarém, died in the field rather than on the throne - the sources
+      disagree on whether treachery or confusion caused his own army to
+      withdraw without him. His son Ya'qub succeeded within days and
+      inherited an empire at its widest reach, which he would carry to its
+      military peak at Alarcos before losing it all at Las Navas.
+    source: ibn-khaldun-de-slane
+    contested: true
   - year: 1212
     type: battle
     name: "Las Navas de Tolosa"
@@ -96,6 +108,19 @@ turning_points:
       while longer and lost, in one year, the reason anyone was obliged to obey
       it.
     source: ibn-khaldun-de-slane
+    contested: false
+  - year: 1269
+    type: siege
+    name: "Marrakesh falls to the Marinids"
+    changed: >-
+      Zenata pastoralists under the Marinid dynasty took Marrakesh, ending
+      the caliphate's institutional existence in Morocco four decades after
+      1229 had already ended its doctrinal one. A cadet branch descended
+      from one of Ibn Tumart's own ten companions kept the Almohad name and
+      argument alive from Tunis for another century, but the empire itself
+      - the territory, the capital, the line of caliphs at Marrakesh - was
+      gone.
+    source: bennison-2016
     contested: false
 
 measures:

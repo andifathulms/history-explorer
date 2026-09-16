@@ -104,6 +104,18 @@ turning_points:
       against each other until one of them stopped bothering with a Hafsid.
     source: abun-nasr-1987
     contested: false
+  - year: 1574
+    type: siege
+    name: "The last Hafsid killed at Constantinople"
+    changed: >-
+      An Ottoman force took Tunis for the last time, ending forty years in
+      which the dynasty had been restored, deposed and restored again as a
+      local name for Spain and the Ottomans to rule through. This time
+      nobody put a Hafsid back: the last of the line was carried to
+      Constantinople and killed there, and the sources cannot even agree
+      which Hafsid he was.
+    source: abun-nasr-1987
+    contested: false
 
 measures:
   reach_km2: null
