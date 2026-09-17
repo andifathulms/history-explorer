@@ -8006,6 +8006,19 @@ sources:
       Commander Bacon's own accounts of the 1897 massacre and
       expedition. Open access via archive.org.
 
+  - id: smb-benin-return-2022
+    kind: article
+    author: Staatliche Museen zu Berlin
+    title: "Return of Benin Bronzes from the Ethnologisches Museum"
+    publisher: Staatliche Museen zu Berlin
+    year: 2022
+    note: >-
+      The museum's own account of the August 2022 transfer of ownership
+      of 512 Benin objects to Nigeria - the largest transfer of
+      ownership of museum objects from a colonial context to date -
+      and the ten-year loan arrangement keeping roughly a third of them
+      on display in Berlin. Open access via smb.museum.
+
   - id: shaw-tropical-dependency-1905
     kind: book
     author: "Flora L. Shaw (Lady Lugard)"
@@ -8024,6 +8037,18 @@ sources:
       1802-1804 jihad, Sultan Bello's founding of Sokoto and the battle
       of Dagh, and the 1903 British conquest of Kano and Sokoto. Open
       access via archive.org.
+
+  - id: muslim500-abubakar-profile
+    kind: reference
+    title: "Sheikh As-Sultan Muhammadu Sa'adu Abubakar III"
+    publisher: The Muslim 500
+    year: 2024
+    note: >-
+      An annual reference profile of the twentieth Sultan of Sokoto,
+      installed 2006, describing the office's continued role as head
+      of Nigeria's Supreme Council for Islamic Affairs and its
+      standing as the spiritual leadership recognised by roughly half
+      of Nigeria's population. Open access via themuslim500.com.
 
   - id: boulger-china-1881
     kind: book

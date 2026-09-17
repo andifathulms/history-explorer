@@ -166,6 +166,18 @@ turning_points:
       and the men who did it were tried by the Asante and exiled. It exists.
     source: wilks-1975
     contested: false
+  - year: 1901
+    type: treaty
+    name: "Formal British annexation"
+    changed: >-
+      Britain formally annexed Asante the year after the War of the Golden
+      Stool was put down - a distinct legal act from the war itself, closing
+      out two decades of factional politics over accommodation versus
+      resistance that the 1874 sack of Kumasi had opened. Prempeh I, already
+      deported to the Seychelles since 1896, would not be allowed home for
+      another twenty-three years.
+    source: wilks-1975
+    contested: false
 
 measures:
   reach_km2: null
