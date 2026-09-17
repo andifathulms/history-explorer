@@ -107,6 +107,19 @@ turning_points:
       negotiated separately with each of them.
     source: harvey-1990
     contested: false
+  - year: 1492
+    type: siege
+    name: "Granada surrenders"
+    changed: >-
+      Boabdil handed over the Alhambra on 2 January, ending the last Muslim
+      state in Iberia after a decade of fighting Castile and its own
+      dynastic quarrel at once. The Capitulations that guaranteed the
+      Muslim population its religion, law and property lasted about seven
+      years. Columbus signed his own commission at the siege camp of Santa
+      Fe the same year, funded by the monarchs who had just spent their
+      whole treasury taking this emirate.
+    source: harvey-1990
+    contested: false
 
 measures:
   # Taagepera does not tabulate the emirate, and no work consulted publishes a

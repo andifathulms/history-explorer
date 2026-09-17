@@ -88,6 +88,20 @@ turning_points:
       which is the pattern of its whole existence.
     source: abun-nasr-1987
     contested: false
+  - year: 1551
+    type: siege
+    name: "Ottomans take Tlemcen"
+    changed: >-
+      A kingdom that had spent a century as a tributary of the Hafsids, the
+      Marinids and the Crown of Aragon in turn was taken by the Ottomans, and
+      the last Zayyanid fled to Spanish Oran, was baptised, and lived out his
+      life there as Carlos. By 1556 the territory was a beylik of the
+      Regency of Algiers - the same fate Tunis was living through in the same
+      years, ending the three-way Almohad-successor division that had held,
+      roughly along the lines of modern Morocco, Algeria and Tunisia, for
+      over three centuries.
+    source: abun-nasr-1987
+    contested: false
 
 measures:
   reach_km2: null

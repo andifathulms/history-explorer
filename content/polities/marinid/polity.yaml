@@ -99,6 +99,19 @@ turning_points:
       being landed on.
     source: abun-nasr-1987
     contested: false
+  - year: 1465
+    type: revolt
+    name: "A sharif takes the throne at Fez"
+    changed: >-
+      A notable of Fez killed the last Marinid sultan and was raised to the
+      throne by popular favour - not a conquest, since nobody outside Morocco
+      did the conquering, but the moment a government that had ruled on bare
+      possession for a century lost even that, and the city transferred its
+      allegiance to a family it already respected. The Wattasid regents who
+      had actually been running the state since 1420 took the throne under
+      their own name within seven years regardless.
+    source: leo-africanus-pory
+    contested: false
 
 measures:
   reach_km2: null
