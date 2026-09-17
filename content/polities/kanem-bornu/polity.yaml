@@ -183,6 +183,20 @@ turning_points:
       The state continued under the Kanemi shehus for another forty-seven years.
     source: levtzion-pouwels-2000
     contested: false
+  - year: 1893
+    type: catastrophe
+    name: "Rabih az-Zubayr conquers Bornu"
+    changed: >-
+      A Sudanese warlord who had built a state out of raiding with a
+      firearms-equipped army recruited from the wreckage of Zubayr Pasha's
+      slaving empire in the Bahr al-Ghazal took Bornu outright, burned
+      Kukawa and killed its ruler - ending forty-seven years of Kanemi
+      rule that had itself followed something close to eight hundred years
+      of the Sayfawa dynasty. Rabih held the country for seven years before
+      a French column killed him in 1900, and the territory was then
+      partitioned between France, Britain and Germany.
+    source: levtzion-pouwels-2000
+    contested: false
 
 measures:
   # Null. A figure of 130,000 square kilometres at 1892 circulates for Bornu,
