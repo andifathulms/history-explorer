@@ -63,6 +63,19 @@ turning_points:
     source: leo-africanus-pory
     contested: false
   - year: 1554
+    type: siege
+    name: "Muhammad al-Shaykh takes Fez decisively"
+    changed: >-
+      Having already taken the city once in 1549, the Saadi sultan Muhammad
+      al-Shaykh took it again, this time for good, ending the Wattasid line.
+      The state, its administration and its capital carried on without a
+      break - what changed was the family and the argument for it: every
+      Moroccan dynasty since has ruled on a claim of descent from the
+      Prophet, a requirement the Wattasids' own eighty years of holding a
+      country they could not defend is the reason it became one.
+    source: abun-nasr-1987
+    contested: false
+  - year: 1554
     type: revolt
     name: "The Turks who stayed"
     changed: >-

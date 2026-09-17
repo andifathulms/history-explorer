@@ -121,6 +121,31 @@ turning_points:
       chronicler says he saw the letter.
     source: hunwick-1999
     contested: false
+  - year: 1603
+    type: catastrophe
+    name: "Death of Ahmad al-Mansur"
+    changed: >-
+      Al-Mansur died of plague leaving three sons who all wanted the throne,
+      opening twenty-five years of division between Marrakesh and Fez decided
+      by whichever brother or nephew had an army that season. What filled the
+      space the fragmented sultanate left was not another dynasty but Sufi
+      brotherhoods, marabout lordships and a corsair republic at Salé - the
+      state stopped being fought over as a single prize because it had
+      stopped being one.
+    source: abun-nasr-1987
+    contested: false
+  - year: 1659
+    type: succession-crisis
+    name: "The last Saadi assassinated"
+    changed: >-
+      The last Saadi sultan was killed by his own uncle, closing out the
+      fragmentation al-Mansur's death had opened fifty-six years earlier.
+      Another sharifian family, from the Tafilalt oasis at the far end of the
+      gold road, took the country in the 1660s and reigns in Morocco still -
+      the Saadis made sharifian descent the requirement for Moroccan
+      kingship, and the Alawis are the dynasty that has held it ever since.
+    source: abun-nasr-1987
+    contested: false
 measures:
   reach_km2: null
   peak_population: null
