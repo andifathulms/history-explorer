@@ -118,6 +118,22 @@ turning_points:
       money means the record goes dark as the state does.
     source: phillipson-2012
     contested: true
+  - year: 940
+    type: catastrophe
+    name: "No fall is recorded"
+    changed: >-
+      Entered not because a dated happening can be named but because one
+      cannot: no conqueror is recorded and no battle ends the kingdom, and
+      the date is a convention standing in for a process nobody described.
+      Ethiopian tradition supplies a queen, Gudit or Yodit, said to have
+      destroyed Aksum and burned its churches around this time; almost
+      nothing about her can actually be established, and the conventional
+      end date is drawn from that neighbourhood of legend rather than from
+      anything datable. The church, the script and the highland Christian
+      state all carried on without a break - the kingdom ends and the
+      thing it was does not.
+    source: phillipson-2012
+    contested: true
 
 measures:
   # Null, and this one is a deliberate refusal rather than an absence. A figure

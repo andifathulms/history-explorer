@@ -183,6 +183,20 @@ turning_points:
       the British Museum.
     source: welsby-1996
     contested: false
+  - year: 350
+    type: catastrophe
+    name: "The record stops"
+    changed: >-
+      Entered not because a dated happening can be named but because one
+      cannot: the royal burials at Meroë stop, the inscriptions stop, and
+      nobody wrote down that the kingdom had ended. The long-standard story
+      that Aksum destroyed Meroë does not survive scrutiny - Ezana's own
+      campaign was against the Noba who had already displaced the
+      Kushites, not against Kush itself - which leaves a slow loss of
+      revenue as the trade routes shifted east to the Red Sea, and no
+      event at all.
+    source: welsby-1996
+    contested: true
 
 measures:
   # Null. Taagepera's tabulations do not carry this kingdom, and a state that
