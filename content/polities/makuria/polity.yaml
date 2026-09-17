@@ -154,6 +154,20 @@ turning_points:
       centuries, seen at the point where it broke.
     source: welsby-2002
     contested: false
+  - year: 1365
+    type: capital-move
+    name: "The court withdraws to Gebel Adda"
+    changed: >-
+      Entered not because a dated happening can be named but because one
+      cannot: there is no last battle and no last king anybody can name
+      with confidence. The court's move from Dongola to a fortress two
+      hundred and fifty kilometres downstream is the best evidence
+      available for the kingdom's institutional end, and even that is a
+      government quietly withdrawing toward a border it could still be
+      protected on, not an event in the usual sense - nobody conquered
+      Makuria, and the record simply stops here.
+    source: welsby-2002
+    contested: true
 
 measures:
   reach_km2: null

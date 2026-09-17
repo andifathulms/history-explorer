@@ -201,6 +201,22 @@ turning_points:
       state rather than as somebody's colony.
     source: marcus-2002
     contested: false
+  - year: 1974
+    type: succession-crisis
+    name: "The Derg deposes Haile Selassie"
+    changed: >-
+      A committee of junior officers deposed Haile Selassie, drove him out
+      of the palace in the back of a Volkswagen, and abolished the
+      monarchy - taken from inside rather than conquered, fragmented or
+      dissolved by its own ruler, joining a small set of polities that
+      includes the Attalids, Venice and the Holy Roman Empire. The state
+      the Derg inherited was the centralised modern one Haile Selassie
+      himself had spent fifty years building, and every instrument of it
+      changed hands intact: what ended the Solomonic dynasty was the
+      modern Ethiopia it had built rather than the medieval one it had
+      ruled.
+    source: marcus-2002
+    contested: false
 
 measures:
   reach_km2: null
