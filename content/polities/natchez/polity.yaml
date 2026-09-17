@@ -1,0 +1,158 @@
+id: natchez
+region: eastern-woodlands
+
+name:
+  latin: Natchez
+  script: null
+  script_lang: null
+
+# The Natchez were a Mississippian-tradition mound-building chiefdom whose
+# own political existence obviously predates any European document by
+# centuries - thomas-1894's own archaeological survey dates the broader
+# mound-building tradition to a much older horizon. No source used here
+# gives a founding year for the Natchez polity itself, so this record
+# begins with the earliest dated event in dupratz-louisiana-1774's own
+# eyewitness account: a clash with the French garrison in 1723.
+span:
+  start: { min: 1723, max: 1723, source: dupratz-louisiana-1774 }
+  end: { min: 1730, max: 1730, source: dupratz-louisiana-1774 }
+
+identity: >-
+  A theocratic chiefdom of the lower Mississippi ruled by a Great Sun
+  descended, by its own account, from the sun itself, whose nobility
+  passed only through women and whose royal funerals could claim a dozen
+  lives by strangulation - destroyed within a single year after a French
+  commandant demanded the cornfields of its oldest village for his own.
+
+capitals:
+  - { name: "Grand Village (Natchez)", from: null, source: dupratz-louisiana-1774 }
+
+core_region: The lower Mississippi valley, near present-day Natchez, Mississippi
+
+rulers:
+  # dupratz-1774 records the Natchez's own oral tradition of a lawgiver
+  # who descended from the sun and founded the nation's institutions, but
+  # never gives him a personal name.
+  founder: { name: null, source: null }
+  # Brother of the reigning Great Sun and the nation's leading war
+  # chief, credited by dupratz-1774 with forty-six enemies slain; his 1725
+  # funeral is the most fully documented ceremony of the whole record.
+  peak: { name: "Tattooed Serpent (Stung Serpent)", source: dupratz-louisiana-1774 }
+  # dupratz-1774 never names the reigning Great Sun of 1729-30, referring
+  # to him only by title; his mother, the regent-like figure who tried to
+  # warn the French of the planned uprising, is named only as the
+  # Tattooed Arm (Stung Arm).
+  last: { name: null, source: null }
+
+scripts_and_languages:
+  administration: [Natchez]
+  writing_system: null
+
+institutions:
+  military_basis: { values: [tribal-levy], source: dupratz-louisiana-1774 }
+  revenue_basis: null
+  # dupratz-1774 gives the Natchez's own account of their founding law:
+  # noble rank passed through the female line, with the reigning Great
+  # Sun's eldest sister's son inheriting the sovereignty regardless of
+  # her own husband's rank.
+  succession_rule: { values: [matrilineal], source: dupratz-louisiana-1774 }
+  legitimation: { values: [divine-sanction, descent], source: dupratz-louisiana-1774 }
+
+preceded_by_external: []
+
+succeeded_by_external:
+  - name: the French colony of Louisiana
+    type: conquered by
+    year: 1730
+    note: >-
+      A French force besieged and captured the fort the Natchez had built
+      after the 1729 massacre, taking the Great Sun, the female Suns and
+      hundreds of warriors, women and children prisoner. Those who escaped
+      the siege fled to the Chickasaw; the captives were shipped from New
+      Orleans and sold into slavery at Saint-Domingue, a deportation
+      dupratz-1774 states was deliberately intended to prevent the nation
+      from ever reconstituting itself in the colony.
+    source: dupratz-louisiana-1774
+
+ended:
+  type: conquest
+  by: []
+  year: 1730
+  source: dupratz-louisiana-1774
+
+turning_points:
+  - year: 1723
+    type: battle
+    name: "The first war, over a debt of corn"
+    changed: >-
+      A French soldier's dispute over a small debt of corn ended with a
+      Natchez warrior shot dead by a nervous garrison; his own village,
+      White Apple, retaliated by killing two French settlers and attacking
+      the settlements near Fort Rosalie. The fighting lasted only three or
+      four days before the war chief Tattooed Serpent brokered peace, and
+      trade resumed as before - a preview, in miniature, of the grievance
+      and the village that would end the nation six years later.
+    source: dupratz-louisiana-1774
+    contested: false
+  - year: 1725
+    type: catastrophe
+    name: "The funeral of Tattooed Serpent"
+    changed: >-
+      The death of the Great Sun's own brother and the nation's leading
+      war chief brought the Natchez to the edge of a far larger
+      catastrophe: the two brothers had sworn to follow each other into
+      death, and only French intervention talked the Great Sun out of
+      killing himself, which would have compelled the deaths of a great
+      part of the nation along with him. As it was, the funeral itself
+      claimed a dozen lives by strangulation - wives, servants, and
+      volunteers - in the fullest ceremonial display of Natchez kingship
+      any source here records.
+    source: dupratz-louisiana-1774
+    contested: false
+  - year: 1729
+    type: revolt
+    name: "The massacre at Fort Rosalie"
+    changed: >-
+      Commandant Chopart's demand that the village of White Apple abandon
+      its own cornfields for his private plantation drove its Sun and the
+      nation's council of elders to plan a coordinated uprising; on the
+      eve of Saint Andrew, warriors bearing corn and hunting arms as cover
+      killed some seven hundred French at the Natchez post in a single
+      morning, the worst single loss of life the French colony of
+      Louisiana ever suffered at native hands.
+    source: dupratz-louisiana-1774
+    contested: false
+  - year: 1730
+    type: siege
+    name: "The Natchez besieged in their own fort"
+    changed: >-
+      A French relief army trapped the bulk of the nation, including the
+      Great Sun and the female Suns, inside a fort they had built after
+      the massacre; cut off and unable to protect their own women and
+      children from the bombardment, the defenders capitulated after
+      several days of negotiation, though a portion escaped in the
+      confusion to the Chickasaw.
+    source: dupratz-louisiana-1774
+    contested: false
+  - year: 1730
+    type: catastrophe
+    name: "Deportation to Saint-Domingue"
+    changed: >-
+      Rather than hold the captured Natchez as a subject population in
+      Louisiana, the French shipped the survivors into slavery at
+      Saint-Domingue - a deliberate policy, dupratz-1774 states, meant to
+      prevent the nation from ever recovering the numbers of women it
+      needed to reconstitute itself, ending the political existence of a
+      people the same source calls the most useful and conspicuous native
+      nation the French colony had known.
+    source: dupratz-louisiana-1774
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  extent: []
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
