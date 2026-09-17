@@ -41,10 +41,11 @@ rulers:
   # Portugal throughout her lifetime - but its most consequential ruler by far,
   # and the one whose own name outlasted the kingdom's.
   peak: { name: "Nzinga Mbandi", reign: [1624, 1663], source: njinga-unesco-2014 }
-  # No source consulted names whoever held the Portuguese-installed Ngola
-  # title inside Ndongo itself between Nzinga's own 1626-9 expulsion and the
-  # kingdom's final conquest in 1671.
-  last: null
+  # lara-2016-pungo-andongo names the king captured and beheaded when
+  # Portugal took Pungo Andongo in 1671 - not the Portuguese-installed rival
+  # who displaced Nzinga in 1629, but the Ngola ruling whatever remained of
+  # Ndongo's own royal line by the time of the kingdom's actual conquest.
+  last: { name: "Dom João Hari (Ngola Hari)", source: lara-2016-pungo-andongo }
 
 scripts_and_languages:
   administration: [Kimbundu, Portuguese]
@@ -79,7 +80,7 @@ ended:
   type: conquest
   by: []
   year: 1671
-  source: ogot-1992
+  source: lara-2016-pungo-andongo
 
 preceded_by_external: []
 
@@ -140,14 +141,19 @@ turning_points:
     contested: false
   - year: 1671
     type: catastrophe
-    name: "The last vestige of Ndongo falls"
+    name: "The siege of Pungo Andongo"
     changed: >-
-      Whatever remained of Ndongo's own royal authority, eight years after the
-      queen who had defended its name for four decades was gone, was finally
-      overrun - the war that began with a fleet arriving to trade in 1575
-      ending, ninety-six years later, with nothing left of the kingdom it had
-      first been fought against.
-    source: ogot-1992
+      Portuguese forces took the fortress of Pungo Andongo after a months-
+      long siege, captured and beheaded King Dom João Hari, and deported
+      roughly sixteen surviving princes of the royal line across the
+      Atlantic - first to Brazil, then to convents in Portugal, out of fear
+      that leaving them in Angola or Brazil risked a rebellion or an
+      alliance with the Palmares maroon community. Eight years after the
+      queen who had defended its name for four decades was gone, the war
+      that began with a fleet arriving to trade in 1575 ended, ninety-six
+      years later, with nothing left of the kingdom it had first been
+      fought against.
+    source: lara-2016-pungo-andongo
     contested: false
 
 measures:

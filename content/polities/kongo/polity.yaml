@@ -81,6 +81,18 @@ preceded_by_external:
 
 succeeded_by_external: []
 
+# Kongo did not cease to exist at Mbwila in 1665, and no single later event is
+# a clean substitute for one: the capital stood abandoned for thirteen years
+# after 1678, and Pedro IV's 1709 return produced a nominal kingship layered
+# over a country still governed, in practice, as separate principalities -
+# not a restoration of the centralized state Antonio I had ruled. None of the
+# closed END_TYPES describes that shape cleanly, so the field is left null
+# rather than forced onto whichever of Mbwila, 1678 or 1709 reads most like a
+# conventional ending. This record's own span ends in 1709 because that is
+# where its sourced coverage stops, not because that is when the kingdom, or
+# its titular kingship, actually ended - see the afterlife chapter.
+ended: null
+
 turning_points:
   - year: 1400
     type: battle
