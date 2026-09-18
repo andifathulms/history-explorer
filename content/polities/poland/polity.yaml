@@ -98,6 +98,22 @@ turning_points:
       centuries of fragmentation.
     source: fletcher-1836
     contested: false
+  - year: 1139
+    type: succession-crisis
+    name: "Bolesław III's death divides the realm for good"
+    changed: >-
+      A duke who had already spent his early reign reassembling a
+      kingdom his own father had divided among his sons died after a
+      subordinate's treachery broke his spirit in battle, and left a
+      will dividing his own dukedom among four sons in turn - a
+      settlement that produced only contention until one of them
+      fought his way to sole mastery in 1146. It was the last such
+      reunification for a very long time: the royal title itself
+      lapsed for more than two centuries afterward, and Fletcher's own
+      account treats the intervening reigns as not worth recounting
+      individually.
+    source: fletcher-1836
+    contested: false
   - year: 1370
     type: succession-crisis
     name: The Piast line runs out

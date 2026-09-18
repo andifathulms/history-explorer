@@ -140,6 +140,22 @@ turning_points:
       without ever ruling it as a kingdom.
     source: katzel-2021
     contested: false
+  - year: 1569
+    type: treaty
+    name: "The Union of Lublin"
+    changed: >-
+      A Lithuanian walkout meant to pressure Sigismund II Augustus into
+      softening Poland's own terms backfired completely: with no
+      Lithuanian delegation left to object, the Poles who remained
+      detached Volhynia and Podolia from the Grand Duchy outright, and
+      the Lithuanian Rus' nobility who might have resisted swore the
+      required oaths instead. The delegation that returned in June had
+      already lost the leverage to negotiate anything but dignity, and
+      on 1 July the Grand Duchy's separate existence ended, merged with
+      Poland into a single elective monarchy on terms it had rejected
+      four months earlier.
+    source: katzel-2021
+    contested: false
 
 measures:
   reach_km2: null

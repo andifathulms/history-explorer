@@ -123,6 +123,34 @@ turning_points:
       England's own Magna Carta acquired the same reputation.
     source: godkin-1853
     contested: false
+  - year: 1370
+    type: treaty
+    name: "Louis inherits the Polish crown"
+    changed: >-
+      On the death of his uncle Casimir the Great, Louis accepted
+      Poland's own throne alongside Hungary's - won not by conquest but
+      by a childless king's succession and years of prior military
+      cooperation, and accepted only on terms sharply limiting his own
+      royal revenue and requiring the Polish diet's consent for every
+      visit. The two crowns' union did not outlast him: his daughter
+      Jadwiga inherited Poland separately after his own death, while
+      Hungary passed to other hands.
+    source: godkin-1853
+    contested: false
+  - year: 1444
+    type: battle
+    name: "Varna, and Hunyadi's regency"
+    changed: >-
+      King Wladislaus I died leading a renewed crusade against the
+      Ottomans at Varna, leaving the throne to his nine-year-old cousin
+      Ladislaus V and the kingdom without an adult ruler at the worst
+      possible moment. The diet answered by making John Hunyadi
+      governor of the realm - the one commander whose record against
+      the Ottomans nobody disputed, and the man whose decade-plus of
+      victories from this point on would make him Hungary's real
+      defender in fact, regardless of who wore the crown.
+    source: godkin-1853
+    contested: false
   - year: 1457
     type: succession-crisis
     name: Matthias Corvinus elected
