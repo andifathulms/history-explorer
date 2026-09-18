@@ -34,6 +34,40 @@ ended:
   year: 1260
   source: morgan-2007
 
+turning_points:
+  - year: 1235
+    type: capital-move
+    name: "Karakorum founded, the next campaigns authorized"
+    changed: >-
+      A kuriltai called after the Jin dynasty's 1234 collapse
+      authorized the empire's next round of campaigns - including the
+      western expedition under Batu that would reach Kyiv, Hungary and
+      the outskirts of Vienna - and Ögödei walled a permanent capital
+      at Karakorum on the Orkhon river the same year, fed daily by
+      hundreds of cartloads of provisions and linked to the rest of
+      the empire by a formalized relay-post system. An empire built so
+      far entirely by campaigning acquired, for the first time, a
+      fixed seat of its own.
+    source: howorth-1876-mongols
+    contested: false
+  - year: 1260
+    type: succession-crisis
+    name: "The Toluid civil war"
+    changed: >-
+      Möngke died on campaign in 1259 with no quriltai held to name a
+      successor - the assembly of the whole imperial family that
+      Mongol practice required, and the same requirement that had
+      once pulled Batu's armies out of Hungary rather than risk
+      missing it. This time nobody went: Kublai was proclaimed by his
+      own commanders in China, Ariq Böke by the properly-convened
+      assembly at Karakorum, and four years of civil war followed,
+      decided in the end by Kublai cutting the grain convoys Karakorum
+      depended on to feed itself. After 1260 no assembly of the whole
+      family was ever held again, and the one institution that had
+      made the empire a single object was gone for good.
+    source: morgan-2007
+    contested: false
+
 measures:
   reach_km2: { value: 24000000, at: 1270, source: taagepera-1997 }
   peak_population: null

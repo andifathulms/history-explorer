@@ -34,6 +34,39 @@ ended:
   year: 1502
   source: halperin-1985
 
+turning_points:
+  - year: 1395
+    type: catastrophe
+    name: "Timur destroys Sarai and Astrakhan"
+    changed: >-
+      Timur, twice defeated by his own former client Toqtamish's
+      betrayal, broke him in the field on the Terek and then marched
+      into the Horde's own territory in winter rather than turn back -
+      driving out and destroying Astrakhan and Sarai, the twin
+      residences of the Kipchak khans, in turn. It was not the same
+      kind of defeat the Horde had survived before: a nomad army that
+      loses a battle rides away and re-forms, but a nomad state that
+      loses the cities that housed its mints, its customs revenue and
+      its river trade loses the treasury a khan's own authority over
+      his princes depended on, with no riding away from that. No ruler
+      commanded the whole Horde again after this year.
+    source: howorth-1880-div1
+    contested: false
+  - year: 1502
+    type: battle
+    name: "The Crimean khan destroys the Great Horde"
+    changed: >-
+      The rump state left after Crimea, Kazan and Astrakhan had each
+      broken away in the fifteenth century was finally destroyed by
+      the Crimean khan - the last of the Horde's own breakaway
+      successors finishing off what remained of the original. A
+      Russian tributary that had been sending silver to Sarai for a
+      century and a half stopped sending it, and began taking the
+      pieces of the Horde's own former territory one at a time
+      instead.
+    source: halperin-1985
+    contested: false
+
 measures:
   reach_km2: { value: 6000000, at: 1310, source: taagepera-1997 }
   peak_population: null

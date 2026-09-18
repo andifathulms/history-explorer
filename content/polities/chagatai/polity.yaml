@@ -34,6 +34,38 @@ ended:
   year: 1347
   source: biran-1997
 
+turning_points:
+  - year: 1334
+    type: succession-crisis
+    name: "Tarmashirin deposed by the annual assembly"
+    changed: >-
+      Tarmashirin, a settled, law-abiding Muslim khan who governed
+      from Transoxiana, abolished the annual assembly at which
+      Chinggisid nobles reviewed the khan's own conduct and could
+      depose him for breaking the yasak. The eastern amirs of the
+      steppe did exactly what the abolished institution had once
+      allowed them to do anyway: they assembled without him, deposed
+      him, hunted him down and killed him. Not a religious quarrel -
+      his own successors turned Muslim within a generation - but a
+      verdict on governing from the wrong place, through the wrong
+      people, in a way that made the amirs' own consent unnecessary.
+    source: ibn-battuta-lee
+    contested: false
+  - year: 1347
+    type: succession-crisis
+    name: "Qazan Khan killed, the khanate splits for good"
+    changed: >-
+      Qazan Khan was killed in battle by his own amirs, and no khan
+      afterward ruled both halves of the khanate again. In the west
+      the amir Qazghan took power without the title, ruling through a
+      Chinggisid figurehead - the arrangement Timur would later
+      inherit and perfect. In the east the Dughlat amirs installed a
+      boy said to be the old khan's own son and built Moghulistan
+      around him. The fracture Tarmashirin's 1334 deposition had
+      opened thirteen years earlier finally split the country in two.
+    source: biran-1997
+    contested: false
+
 measures:
   reach_km2: { value: 3500000, at: 1310, source: taagepera-1997 }
   peak_population: null
