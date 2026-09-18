@@ -18,11 +18,15 @@ span:
   # founding year - the founding narrative itself, in the formation chapter,
   # carries no date at all.
   start: { min: 1700, max: 1700, source: ogot-1992 }
-  # The source's own narrative continues describing expansion past 1800
-  # without giving it a further precise date; 1810 is the last year the
-  # source dates exactly (the end of a decades-long succession crisis). See
-  # the closing chapter and `ended` below.
-  end: { min: 1810, max: 1810, source: ogot-1992 }
+  # vellut-1989 traces the kingdom's own territorial authority to its
+  # widest point in the first half of the nineteenth century, then its
+  # fragmentation under Swahili and Angolan trading caravans through the
+  # 1870s; "by the end of the period" it covers - the 1880s, the volume's
+  # own closing horizon - the source states the Luba states and
+  # chiefdoms "had become almost entirely autonomous," without giving
+  # that process any single further precise date. See the closing
+  # chapter and `ended` below.
+  end: { min: 1880, max: 1880, source: vellut-1989 }
 
 identity: >-
   A kingdom of the Shaba plains built on a paradox its own political theology
@@ -75,14 +79,15 @@ institutions:
 preceded_by_external: []
 succeeded_by_external: []
 
-# ogot-1992 narrates continued Luba expansion past 1800 without giving it a
-# further precise end point; the kingdom's actual nineteenth-century decline
-# and colonial-era absorption are outside what this source covers.
+# vellut-1989 describes fragmentation by trade-driven chiefly autonomy
+# through the 1870s-80s, not a conquest or a single dated collapse; the
+# kingdom's actual colonial-era absorption is outside what either
+# source gathered here covers.
 ended:
   type: still contested
   by: []
   year: null
-  source: ogot-1992
+  source: vellut-1989
 
 turning_points:
   - year: 1700
