@@ -121,6 +121,18 @@ turning_points:
       the neighbour was distracted rather than of what it could hold.
     source: di-cosmo-2009
     contested: false
+  - year: 1599
+    type: succession-crisis
+    name: "The line runs out"
+    changed: >-
+      Abdullah Khan's son was murdered within six months of his own accession
+      and no Shaybanid of sufficient standing remained. The throne passed by
+      marriage to the Toqay-Timurids, a different Jochid line, without a war
+      or a change of territory, officials, coinage or law - the same rule of
+      Chinggisid descent that had forced Timur to rule through a puppet khan
+      still deciding who sat in Bukhara a hundred and seventy years later.
+    source: di-cosmo-2009
+    contested: false
 
 measures:
   reach_km2: null
