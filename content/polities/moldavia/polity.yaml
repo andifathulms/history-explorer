@@ -87,6 +87,19 @@ turning_points:
       right.
     source: dorin-matei-2018
     contested: false
+  - year: 1410
+    type: treaty
+    name: "Moldavian troops fight at Tannenberg"
+    changed: >-
+      Alexandru cel Bun, allied with Poland through his own third
+      marriage to a relative of King Władysław Jagiełło, sent Moldavian
+      troops to fight under the Polish banner at Tannenberg - one of
+      medieval Europe's largest battles, and clear evidence that
+      Alexandru had built Moldavia's own security on ties to Poland
+      rather than on the Hungarian or Ottoman relationships that
+      defined Wallachia's own foreign policy in the same period.
+    source: seton-watson-1937-roumains
+    contested: false
   - year: 1457
     type: succession-crisis
     name: "Stephen takes the throne"
@@ -121,6 +134,20 @@ turning_points:
       chosen heir's throne by the same ruthlessness that had once secured
       his own.
     source: miller-1896
+    contested: false
+  - year: 1711
+    type: catastrophe
+    name: "Cantemir's defection ends native rule"
+    changed: >-
+      Prince Dimitrie Cantemir secretly allied Moldavia with Peter the
+      Great against the Ottomans, then watched the Russian army he had
+      bet everything on get trapped and nearly destroyed at Stanilesti
+      on the Pruth; Cantemir fled into permanent exile, and the Porte
+      replaced him with a Greek Phanariote administrator rather than
+      risk another native prince's own foreign entanglements - three
+      years before Wallachia's own prince was executed for exactly the
+      same kind of hedging.
+    source: seton-watson-1937-roumains
     contested: false
   - year: 1859
     type: reform

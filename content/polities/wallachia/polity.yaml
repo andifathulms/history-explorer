@@ -102,6 +102,19 @@ turning_points:
       moment an independent Romanian state came into being.
     source: dorin-matei-2018
     contested: false
+  - year: 1365
+    type: treaty
+    name: "Vlaicu allies with Louis the Great at Vidin"
+    changed: >-
+      When Louis the Great of Hungary seized Vidin to keep it from
+      following a neighboring Bulgarian principality into Ottoman
+      vassalage, Basarab's grandson Vladislav "Vlaicu" brought
+      Wallachia into alliance with him - the first recorded encounter
+      between Hungarian and Ottoman forces in the region, and the
+      clearest return on the march at Făgăraș Louis had granted Vlaicu
+      to draw Wallachia into Hungary's own orbit.
+    source: seton-watson-1937-roumains
+    contested: false
   - year: 1391
     type: treaty
     name: "The first Ottoman tribute"
@@ -136,6 +149,21 @@ turning_points:
       and binding the country closer to Ottoman oversight in exactly the
       outcome his brother's whole campaign had tried to head off.
     source: carciumaru-2023
+    contested: false
+  - year: 1714
+    type: catastrophe
+    name: "Brâncoveanu's execution ends native rule"
+    changed: >-
+      Compromised by intercepted correspondence with both Vienna and
+      Moscow after Moldavia's own prince had just defected openly to
+      Russia, Constantin Brâncoveanu was deposed, marched to
+      Constantinople, and executed with his two sons and his
+      son-in-law before the sultan himself - ending, after twenty-six
+      years, the longest reign in two centuries of Wallachian history
+      and opening the Phanariote period, under which Constantinople
+      appointed Greek administrators with no independent local power
+      base rather than trust native princes again.
+    source: seton-watson-1937-roumains
     contested: false
   - year: 1859
     type: reform
