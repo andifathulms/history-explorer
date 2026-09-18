@@ -82,6 +82,89 @@ turning_points:
       settlements from Italy, Greece and the Levant.
     source: bosworth-smith-carthage-1878
     contested: false
+  - year: -264
+    type: battle
+    name: "War over Messana"
+    changed: >-
+      Rome intervened at Messana on behalf of a band of Italian pirates
+      who had already appealed to, and received help from, Carthage -
+      choosing ambition over the gratitude it owed its own ally Hiero of
+      Syracuse, in Bosworth Smith's own reading. The two great powers of
+      the western Mediterranean went to war for the first time, over a
+      garrison neither side could really defend on principle, and did
+      not stop fighting for twenty-three years.
+    source: bosworth-smith-carthage-1878
+    contested: false
+  - year: -241
+    type: treaty
+    name: "The loss of Sicily"
+    changed: >-
+      The Lutatius treaty ended the First Punic War on terms that cost
+      Carthage Sicily outright - the first Carthaginian territory ever
+      surrendered to a foreign power - and a war indemnity besides. The
+      unpaid mercenary army that had fought the war then mutinied at
+      Carthage's own gates, joined by Libyan subjects taxed past
+      endurance, in a revolt as long and far crueler than the war just
+      lost; Rome used Carthage's distraction to seize Sardinia and
+      Corsica outright under a transparent pretext, a second loss
+      Hamilcar Barca never stopped preparing to reverse.
+    source: bosworth-smith-carthage-1878
+    contested: false
+  - year: -218
+    type: battle
+    name: "Hannibal crosses the Alps"
+    changed: >-
+      Rather than risk the sea route or wait to be invaded, Hannibal
+      marched an army from Spain through the Pyrenees, across the
+      Rhone and over the Alps into Italy - a campaign no friendly
+      account of the mountains had prepared him for, undertaken on the
+      strength of an alliance already struck with the hostile Gallic
+      tribes of the Po valley. He broke a Roman army at the Trebia
+      before the year was out and destroyed a second at Lake Trasimene
+      the following spring.
+    source: bosworth-smith-carthage-1878
+    contested: false
+  - year: -216
+    type: battle
+    name: "Cannae"
+    changed: >-
+      Roman consuls ordered to force a battle met Hannibal on a plain
+      at Cannae that favoured his own cavalry, and lost the worst
+      single-day defeat Rome ever absorbed and survived. Hannibal
+      offered peace to the Roman prisoners he gathered afterward; Rome
+      refused to speak the word at all, refused even to ransom the
+      captured, and thanked the defeated consul Varro for not having
+      despaired of the republic - the refusal to negotiate, more than
+      the battle itself, was the war's real turning point.
+    source: bosworth-smith-carthage-1878
+    contested: false
+  - year: -202
+    type: battle
+    name: "Zama"
+    changed: >-
+      Scipio, who had carried the war to Africa after building a new
+      Roman army in Hannibal's own former Spanish base, defeated
+      Hannibal in the only major pitched battle Hannibal ever lost.
+      Twenty thousand Carthaginians fell and twenty thousand more were
+      taken prisoner; Hannibal told his own government he had been
+      beaten not merely in the battle but in the war, and Carthage's
+      peace envoys tried, unsuccessfully, to blame the whole conflict
+      on him alone.
+    source: bosworth-smith-carthage-1878
+    contested: false
+  - year: -149
+    type: siege
+    name: "The Third Punic War begins"
+    changed: >-
+      Decades of Massinissa's Roman-encouraged raids on Carthaginian
+      territory, and a recovery too visible for Rome to tolerate -
+      Cato the Elder's own basket of fresh Carthaginian figs, grown
+      three days' sail from the Senate, made the point without needing
+      an argument - ended in a war Carthage had spent fifty years
+      trying to avoid giving Rome any pretext for. This time Rome did
+      not intend to leave a treaty behind.
+    source: bosworth-smith-carthage-1878
+    contested: false
   - year: -146
     type: siege
     name: "Carthage razed to the ground"
