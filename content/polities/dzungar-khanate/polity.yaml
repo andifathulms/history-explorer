@@ -133,6 +133,19 @@ turning_points:
       thousand camels, and never again put a field army against the Qing.
     source: howorth-1876
     contested: false
+  - year: 1755
+    type: catastrophe
+    name: "I uprooted his race"
+    changed: >-
+      Qing armies took the Ili and captured Dawachi, and the settlement that
+      followed put the four Oirat divisions under four separate khans and then
+      destroyed each in turn - one beheaded on the emperor's own order, one
+      tortured to death, one executed on suspicion outside the gates of his own
+      camp. Valikhanov's figure, half a million Oirats, is the number Howorth
+      quotes without softening it. No independent nomad state was ever again
+      assembled on the Eurasian steppe.
+    source: howorth-1876
+    contested: false
 
 measures:
   reach_km2: null

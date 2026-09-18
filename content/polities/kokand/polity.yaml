@@ -116,6 +116,17 @@ turning_points:
       to leave standing.
     source: schuyler-1876
     contested: false
+  - year: 1876
+    type: catastrophe
+    name: "Alone of the three, abolished"
+    changed: >-
+      Bukhara and Khiva had each lost territory, signed a treaty and kept
+      their ruler; Kokand was annexed outright and its dynasty ended. The
+      valley was renamed under its own historic name of Ferghana, and there
+      was no successor calling itself the khanate, no claimant and no dynasty
+      in exile.
+    source: schuyler-1876
+    contested: false
 
 measures:
   reach_km2: null
