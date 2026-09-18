@@ -124,6 +124,20 @@ turning_points:
       them.
     source: chapman-1918
     contested: false
+  - year: 1387
+    type: catastrophe
+    name: "The death of Charles the Bad"
+    changed: >-
+      Charles II died after being burned in his bed, by the
+      near-contemporary account Froissart says he was told at Foix,
+      following years of scheming against the French crown and a tax
+      dispute in which he had three of his own Pampeluna deputies
+      beheaded. Whatever the truth of the fire, he left the Evreux
+      dynasty's throne to his son Charles III under a reputation for
+      treachery - the "Bad" of his own name - that would outlast the
+      specifics of his reign.
+    source: froissart-johnes-1849
+    contested: true
   - year: 1512
     type: siege
     name: "Ferdinand of Aragon conquers Spanish Navarre"
