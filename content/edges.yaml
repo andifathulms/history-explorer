@@ -4280,6 +4280,20 @@ edges:
     source: kliuchevsky-1912
     contested: false
 
+  - from: galicia-volhynia
+    to: poland
+    type: absorbed remnants of
+    year: 1347
+    note: "The Volhynian Chronicle, the principality's own best surviving
+           source, stops after 1292, leaving no detailed record of its
+           final half-century; what is certain is that by 1347 it had
+           been incorporated into the kingdom of Poland, its boyar
+           aristocracy going over to Rome and Polish civilization while
+           its common people, Lviv's chief among them, remained Orthodox
+           and Russian."
+    source: cmh7-russia-1932
+    contested: false
+
   - from: novgorod
     to: muscovy
     type: conquered by

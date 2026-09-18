@@ -12,10 +12,13 @@ name:
 # the city by force with Polish help.
 span:
   start: { min: 1188, max: 1188, source: rambaud-russia-1880 }
-  # rambaud-russia-1880 states only that "in the fourteenth century
-  # it was absorbed into the kingdom of Poland and was lost to
-  # Russia," without naming a specific year.
-  end: { min: 1301, max: 1400, source: rambaud-russia-1880 }
+  # cmh7-russia-1932 dates the final incorporation into Poland to
+  # 1347. The Volhynian Chronicle, the principality's own best
+  # surviving source, stops after 1292, leaving Mirsky's account
+  # explicit that "practically no sources" survive for the
+  # half-century in between - a genuine evidentiary gap rather than
+  # an uneventful one, per the closing chapter.
+  end: { min: 1347, max: 1347, source: cmh7-russia-1932 }
 
 identity: >-
   A Rurikid principality where the prince was elected by a popular
@@ -63,27 +66,17 @@ institutions:
 
 preceded_by_external: []
 
-# rambaud-russia-1880 states only that Galicia "was absorbed into the
-# kingdom of Poland" in the fourteenth century, without naming the
-# Polish crown as a record or giving a precise year - named here per
-# the usual rule for a real successor this source does not date
-# closely enough to place in edges.yaml.
-succeeded_by_external:
-  - name: the Kingdom of Poland
-    type: conquered by
-    year: null
-    note: >-
-      rambaud-russia-1880 records only that "in the fourteenth
-      century it was absorbed into the kingdom of Poland and was lost
-      to Russia," without naming the year or the circumstances of the
-      final annexation.
-    source: rambaud-russia-1880
+# The Kingdom of Poland, which absorbed Galicia-Volhynia in 1347, is
+# already a record in this collection; see the edge to it in
+# edges.yaml rather than succeeded_by_external, now that
+# cmh7-russia-1932 supplies a precise year.
+succeeded_by_external: []
 
 ended:
   type: gradual absorption
-  by: []
-  year: null
-  source: rambaud-russia-1880
+  by: [poland]
+  year: 1347
+  source: cmh7-russia-1932
 
 turning_points:
   - year: 1188
@@ -121,6 +114,19 @@ turning_points:
       the crusade came to nothing and his successor Alexander IV's own
       threats followed.
     source: rambaud-russia-1880
+    contested: false
+  - year: 1347
+    type: treaty
+    name: "Incorporated into Poland"
+    changed: >-
+      With no detailed source surviving for the principality's own
+      final half-century - the Volhynian Chronicle itself stops after
+      1292 - Galicia-Volhynia was incorporated into the kingdom of
+      Poland by 1347, no particular battle or treaty earning a name in
+      the record. Its boyar aristocracy went over to Rome and Polish
+      civilization; its common people, in cities like Lviv, remained
+      Orthodox and Russian.
+    source: cmh7-russia-1932
     contested: false
 
 measures:
