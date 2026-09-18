@@ -20,12 +20,19 @@ name:
 # recording what replaced it. That gap is real, not filled here.
 span:
   start: { min: 1505, max: 1505, source: theal-zambesi-1907 }
-  # theal-zambesi-1907 records the monomotapa Domingos, baptised in
-  # 1652, as "murdered by his own captains eighteen years later" - the
-  # last dated event for the dynasty this source's own first volume
-  # covers. The empire itself continued as a much-reduced Portuguese
-  # client state for more than two further centuries.
-  end: { min: 1670, max: 1670, source: theal-zambesi-1907 }
+  # mudenge-1988 traces the founding, under Mutota and his son Matope,
+  # to a Karanga migration and conquest out of the declining Great
+  # Zimbabwe state, but is explicit that no reliable year survives for
+  # either man's reign: the surviving king-lists name barely half the
+  # rulers who probably reigned before 1490. 1505, the year Theal's
+  # source begins its own documentary record at the Portuguese fort at
+  # Sofala, remains the earliest confidently dated point.
+  # mudenge-1988 traces the dynasty's own line of successors past
+  # Domingos's 1670 murder, through progressive territorial loss, to
+  # a fifty-second and final ruler, Chioko Dambamupute, whose death in
+  # 1902 the source itself identifies as the end of "both the dream
+  # and the reality of the historic Mutapa state."
+  end: { min: 1902, max: 1902, source: mudenge-1988 }
 
 identity: >-
   The Makalanga empire whose paramount title, monomotapa, gave
@@ -44,14 +51,19 @@ rulers:
   # the empire predates the Portuguese documentary record this source
   # is built from. See great-zimbabwe's own matching null founder.
   founder: { name: null, source: null }
-  # theal-zambesi-1907 gives Gasilusere the fullest individual portrait
-  # of any monomotapa in its own narrative - "addicted to the use of
-  # dacha, and... a cruel, passionate, faithless tyrant" who executed
-  # his own general-in-chief - but does not present his reign as the
-  # empire's territorial or military height; no reign dates are given.
-  # Provisional pending a source that can name an actual peak.
-  peak: { name: Gasilusere, source: theal-zambesi-1907 }
-  last: { name: "Domingos (baptismal name)", reign: [1652, 1670], source: theal-zambesi-1907 }
+  # mudenge-1988 credits Matope, Mutota's son and successor, with the
+  # conquests - east to the Rwenya river and, through alliance and
+  # conquest together, on to the Indian Ocean coast - that gave the
+  # empire its greatest territorial reach; no reliable reign dates
+  # survive for a founding-era ruler.
+  peak: { name: Matope (Nyanhehwe), source: mudenge-1988 }
+  # mudenge-1988's own numbered king-list runs to a fifty-second and
+  # final ruler, Chioko Dambamupute, whose accession it dates only as
+  # "post-1890" and whose death in 1902 the source treats as the end
+  # of the historic Mutapa state; Domingos (1652-1670) was the last
+  # monomotapa theal-zambesi-1907's own narrower documentary record
+  # reaches, not the dynasty's actual last ruler.
+  last: { name: Chioko Dambamupute, reign: [1890, 1902], source: mudenge-1988 }
 
 scripts_and_languages:
   administration: [Karanga (Shona)]
@@ -73,7 +85,19 @@ preceded_by_external: []
 
 succeeded_by_external: []
 
-ended: null
+# mudenge-1988 describes a centuries-long shrinkage - province after
+# province (Guruuswa, Uteve, Barwe, Manyika, Dande) lost to the Rozvi,
+# to Portuguese prazo estates and to internal breakaway, leaving only
+# the district of Chidima by the late eighteenth century - rather than
+# any single conquest. The Portuguese formally annexed the last of
+# that territory in 1885; the dynasty's own final claimant, Chioko
+# Dambamupute, died in 1902 leading a failed attempt to reverse that
+# loss, which mudenge-1988 treats as the state's actual end.
+ended:
+  type: gradual absorption
+  by: [portugal]
+  year: 1902
+  source: mudenge-1988
 
 turning_points:
   - year: 1505
@@ -87,6 +111,21 @@ turning_points:
       built from, though the empire itself was already old by this
       date.
     source: theal-zambesi-1907
+    contested: false
+  - year: 1561
+    type: catastrophe
+    name: "The martyrdom of Fr Silveira"
+    changed: >-
+      After the Jesuit missionary Goncalo da Silveira baptised the
+      monomotapa Negomo and hundreds of his court within weeks of
+      arriving, an alliance of threatened Shona religious leaders and
+      Muslim traders convinced Negomo that the priest was a sorcerer
+      and a Portuguese spy; Negomo had him strangled on 15 March 1561
+      and his body thrown into the Musengezi river. The killing became
+      Portugal's own pretext for an armed expedition into the interior
+      within a decade, and no monomotapa after Negomo risked so open an
+      embrace of a single foreign faction again.
+    source: mudenge-1988
     contested: false
   - year: 1629
     type: treaty
@@ -125,6 +164,34 @@ turning_points:
       reduced, vassal monomotapas for more than two further centuries,
       but this is where Theal's own documentary account closes.
     source: theal-zambesi-1907
+    contested: false
+  - year: 1885
+    type: treaty
+    name: "The annexation of Chidima"
+    changed: >-
+      Two centuries of province-by-province loss - Guruuswa, Uteve,
+      Barwe, Manyika and finally Dande, each hiving off or falling to
+      the Rozvi state or to Portuguese prazo landholders - had already
+      reduced the dynasty to one district, Chidima, when Portuguese
+      agents broke the power of its ruler Dzuda in 1884 and formally
+      annexed the district the following year. For the first time in
+      more than four centuries, a direct successor of Mutota and
+      Matope held no territory of his own at all.
+    source: mudenge-1988
+    contested: false
+  - year: 1902
+    type: revolt
+    name: "The death of Chioko Dambamupute"
+    changed: >-
+      Dzuda's successor Chioko Dambamupute spent the 1890s building an
+      anti-Portuguese coalition that, by 1901, had very nearly turned
+      the Tete district into a liberated zone and looked close to
+      recreating the empire of Munhumutapa. Chioko was killed in 1902
+      assisting the ruler of Barwe against the Portuguese; his heir
+      never rebuilt the alliance, and with Chioko's death, mudenge-1988
+      writes, "both the dream and the reality of the historic Mutapa
+      state came to an end."
+    source: mudenge-1988
     contested: false
 
 measures:
