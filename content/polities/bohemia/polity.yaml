@@ -97,6 +97,34 @@ turning_points:
       Christian, and with it wider European, history.
     source: lutzow-bohemia-1920
     contested: false
+  - year: 935
+    type: succession-crisis
+    name: "Wenceslas murdered at Stará Boleslav"
+    changed: >-
+      Duke Wenceslas, a pious ruler who had bought peace with Germany
+      through tribute rather than risk his kingdom in battle, was
+      murdered by his own younger brother Boleslav on the way to early
+      mass - a killing the Church answered with Wenceslas's own
+      canonization, giving the Přemyslid dynasty a martyr-patron no
+      rival house could claim to share, while Boleslav's considerably
+      harder reign went on to expand Bohemia's own reach further than
+      his murdered brother's caution ever had.
+    source: lutzow-bohemia-1920
+    contested: false
+  - year: 1198
+    type: reform
+    name: "Ottokar I secures a hereditary crown"
+    changed: >-
+      Backing Philip of Swabia's claim to the German throne during a
+      disputed imperial succession, Přemysl Ottokar I extracted
+      concessions no earlier Bohemian ruler had won outright: Philip's
+      renunciation of any future say in choosing Bohemia's own dukes,
+      the same renunciation over appointing Prague's bishops, and a
+      royal title made hereditary "for all time" rather than dependent
+      on each new German king's own confirmation - the grant every
+      later king of Bohemia's own legitimacy traced back to.
+    source: lutzow-bohemia-1920
+    contested: false
   - year: 1278
     type: battle
     name: "The Battle of Dürnkrut (Marchfeld)"
@@ -131,6 +159,19 @@ turning_points:
       election reserved for the royal line's extinction - and in the same
       year announced the university that would make Prague, for the first
       time, a centre of learning to rival Paris.
+    source: lutzow-bohemia-1920
+    contested: false
+  - year: 1393
+    type: catastrophe
+    name: "John of Nepomuk drowned in the Vltava"
+    changed: >-
+      King Wenceslas IV, enraged when the archbishop's vicar-general John
+      of Pomuk quietly frustrated a royal scheme to suppress an abbey,
+      had him tortured until his death was certain and his body thrown
+      into the river - a killing the Church later recognised with
+      sainthood, and a first, personal sign of the ungovernable temper
+      that would cost Wenceslas the German crown seven years later and
+      leave Bohemia's own nobility running the kingdom in his name.
     source: lutzow-bohemia-1920
     contested: false
   - year: 1415
@@ -192,6 +233,19 @@ turning_points:
       whose own broken promise had sent Hus to the stake two decades
       earlier - was at last received into his own capital as the
       Estates' undisputed and recognized sovereign.
+    source: lutzow-bohemia-1920
+    contested: false
+  - year: 1526
+    type: catastrophe
+    name: "Louis II drowns fleeing Mohács"
+    changed: >-
+      The ten-year-old boy crowned king in 1516 grew up fighting an
+      Ottoman advance a feuding, reluctant Bohemian nobility funded and
+      reinforced too slowly to matter; badly outnumbered at Mohács, he
+      drowned fleeing the rout at twenty. The defeat cost Hungary two
+      centuries of Ottoman occupation and left Bohemia's own throne
+      vacant for the second time in fifty-five years, with no native
+      candidate left standing to fill it.
     source: lutzow-bohemia-1920
     contested: false
   - year: 1618
