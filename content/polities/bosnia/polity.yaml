@@ -89,6 +89,20 @@ turning_points:
       own religious loyalty under permanent outside suspicion.
     source: fine-1975-bosnian-church
     contested: false
+  - year: 1353
+    type: treaty
+    name: "Elizabeth marries Louis the Great"
+    changed: >-
+      Ban Stjepan II, who had spent his reign rebuilding Kotromanić
+      supremacy after two decades of subordination to the counts of
+      Bribir, married his daughter Elizabeth to Louis the Great,
+      Angevin king of Hungary - placing the Bosnian ruling house, in
+      Filipović's own assessment, on close to equal footing with the
+      region's most powerful dynasties, and setting the stage for his
+      nephew and successor Tvrtko's own royal coronation a generation
+      later.
+    source: filipovic-2019-kotromanic
+    contested: false
   - year: 1377
     type: reform
     name: "Tvrtko is crowned king"
@@ -99,6 +113,21 @@ turning_points:
       banate into a kingdom and, within little more than a decade, into the
       overlord of most of the Dalmatian coast.
     source: fine-1975-bosnian-church
+    contested: false
+  - year: 1404
+    type: succession-crisis
+    name: "Tvrtko II installed over a Ragusan client"
+    changed: >-
+      Following King Ostoja's war with Ragusa, the commune tried to
+      engineer his replacement - first courting Duke Hrvoje Vukčić to
+      take the crown himself, then backing a client candidate, Pavle
+      Radišić - only for the Bosnian nobility to choose Tvrtko I's own
+      son Tvrtko II instead. The crisis set the pattern Bosnian
+      kingship would keep for decades afterward: magnates like Hrvoje
+      deposing and installing kings from a narrowing Kotromanić pool,
+      a kingdom the throne no longer controlled so much as the great
+      regional lords did.
+    source: filipovic-2019-kotromanic
     contested: false
   - year: 1461
     type: conversion

@@ -135,6 +135,19 @@ turning_points:
       before the Ottomans crossed, and what they crossed into was its result.
     source: fine-1987
     contested: false
+  - year: 1396
+    type: siege
+    name: "Vidin falls after Nicopolis"
+    changed: >-
+      Tarnovo had already fallen in 1393 after a three-month siege; Vidin,
+      the seat of the state's other half since Ivan Alexander divided it
+      between his sons, held on until the western crusade assembled to
+      relieve it was destroyed at Nicopolis on the Danube. Its fall ended
+      the state outright - the patriarchate Bulgarian rulers had fought
+      Constantinople for across five centuries was abolished without a
+      further fight, and there was no Bulgarian state again until 1878.
+    source: fine-1987
+    contested: false
 
 measures:
   reach_km2: null
