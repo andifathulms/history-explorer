@@ -123,6 +123,40 @@ turning_points:
       own regency for a child king already governed in all but name.
     source: stefansson-denmark-1916
     contested: false
+  - year: 1397
+    type: treaty
+    name: "The Kalmar Union crowned"
+    changed: >-
+      After defeating and capturing Sweden's own puppet king Albrecht
+      of Mecklenburg at Falköping and finally taking Stockholm from
+      his German garrison, Margaret of Denmark had her grand-nephew
+      crowned with a single triple crown representing Denmark, Norway
+      and Sweden at once - a coronation held at Kalmar rather than in
+      any one kingdom's own capital, so that none could claim
+      precedence over the others. The union's written terms promised
+      each kingdom continued independence; Margaret never actually
+      promulgated them, and Danish officials placed in Swedish offices
+      would define the union's real character for the century that
+      followed far more than the terms signed at Kalmar did.
+    source: stefansson-denmark-1916
+    contested: false
+  - year: 1436
+    type: revolt
+    name: "Engelbrekt's rebellion deposes King Eric"
+    changed: >-
+      A Dalecarlian rebellion against Eric of Pomerania's absentee,
+      extractive rule - led by Engelbrekt Engelbrektsson after his own
+      repeated appeals to the king went nowhere - freed nearly all of
+      Sweden from Danish officials within four months and forced the
+      state council to depose Eric outright, electing Engelbrekt
+      regent at the first Swedish parliament ever to include burgesses
+      and peasants. Engelbrekt's own murder by a rival noble's son
+      within the year did not undo what the rising had proven: that a
+      provincial peasant army could force the union's own hand, a
+      precedent Gustav Vasa's rebellion would draw on directly less
+      than a century later.
+    source: stefansson-denmark-1916
+    contested: false
   - year: 1523
     type: succession-crisis
     name: "Gustav Vasa elected at Strängnäs"
