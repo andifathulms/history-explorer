@@ -152,6 +152,18 @@ turning_points:
       state ended four years afterwards.
     source: fine-1983
     contested: true
+  - year: 1018
+    type: treaty
+    name: "The surrender to Basil II"
+    changed: >-
+      Ivan Vladislav was killed outside Dyrrachium and the resistance ended
+      without a final battle. Basil went through Bulgaria receiving
+      submissions, Samuel's widow and family came in, and the aristocracy
+      was given Byzantine titles and taken to Constantinople — the actual
+      end of the state, four years after Kleidion broke its army rather
+      than its capacity to keep fighting.
+    source: fine-1983
+    contested: false
 
 measures:
   reach_km2: null

@@ -42,7 +42,13 @@ rulers:
   # successors, crowned in 1076 by the legate of Pope Gregory VII -
   # though it adds bluntly that "Zvonimir's greatness died with him."
   peak: { name: Zvonimir, reign: [1075, 1089], source: seton-watson-1911 }
-  last: { name: null, source: null }
+  # fine-1983 names Peter, who rebuilt an independent Croatian
+  # kingship out of Dalmatia and the interior during the "Time of
+  # Troubles" after the Trpimirovic dynasty's extinction, as "the last
+  # king to rule an independent Croatia" - killed in 1097 fighting
+  # King Koloman of Hungary's army, five years before the Croat
+  # nobles' own recognition of Koloman formally ended the kingdom.
+  last: { name: Peter, reign: [1093, 1097], source: fine-1983 }
 
 scripts_and_languages:
   administration: [Latin, Old Church Slavonic]
@@ -85,6 +91,34 @@ turning_points:
       before King Stephen of Hungary did the same.
     source: seton-watson-1911
     contested: false
+  - year: 949
+    type: revolt
+    name: "Pribina's civil war"
+    changed: >-
+      The nobleman Pribina, ban of three districts and probably the
+      kingdom's own strongest military power outside the throne,
+      overthrew and killed King Miroslav and installed Miroslav's
+      brother Kresimir II in his place. The unrest let the Neretljani
+      return to piracy and cost the kingdom much of Bosnia to a
+      revived Serbia - the first clear evidence, after two decades of
+      unrecorded successions, of a noble class strong enough to make
+      and unmake a Croatian king.
+    source: fine-1983
+    contested: false
+  - year: 1069
+    type: treaty
+    name: "Zvonimir brings Slavonia under Croatian suzerainty"
+    changed: >-
+      Zvonimir, the autonomous ban of Slavonia and son-in-law of the
+      Hungarian king, agreed to bring his own territory under the
+      suzerainty of King Petar Kresimir IV in exchange for continued
+      local independence, a leading role in state affairs, and the
+      throne itself should the childless Kresimir die without an
+      heir - the agreement that made Zvonimir's own later kingship
+      possible, in the same year Byzantium recognized Kresimir as its
+      own representative over Dalmatia.
+    source: fine-1983
+    contested: false
   - year: 1076
     type: reform
     name: "Zvonimir's coronation at Split"
@@ -95,6 +129,34 @@ turning_points:
       kingdom with, and one that did not survive its own recipient's
       death.
     source: seton-watson-1911
+    contested: false
+  - year: 1090
+    type: succession-crisis
+    name: "The Trpimirovic dynasty dies out"
+    changed: >-
+      Zvonimir's only son, his heir by his Hungarian wife, died within
+      a year of his father's own death - ending the dynasty Tomislav
+      had founded and removing the one thing that had held the
+      kingdom's crown-versus-nobility tensions in check. His widow's
+      attempt to hold the throne herself drew her brother, the King of
+      Hungary, into Croatia to protect her interests, opening a decade
+      of intervention the kingdom's own native kingship did not
+      survive.
+    source: fine-1983
+    contested: false
+  - year: 1097
+    type: siege
+    name: "King Peter's death and the loss of Biograd"
+    changed: >-
+      Peter, who had rebuilt an independent Croatian kingship out of
+      Dalmatia and the interior after briefly expelling a Hungarian
+      regency, was killed fighting the army of the new Hungarian king
+      Koloman on the mountain afterward renamed Petrova gora in his
+      memory - the last king to rule an independent Croatia. Koloman
+      followed the victory by occupying the port of Biograd, and the
+      remaining Dalmatian cities turned to Venice for protection
+      rather than to a Croatian throne that no longer had an occupant.
+    source: fine-1983
     contested: false
   - year: 1102
     type: succession-crisis
