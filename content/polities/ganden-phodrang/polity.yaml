@@ -16,21 +16,29 @@ name:
 # chain leading to it.
 span:
   start: { min: 1635, max: 1635, source: bell-1924 }
-  # This record currently runs through the 1750 Lhasa massacre of the
-  # Chinese Ambans and the Qianlong Emperor's restoration of Chinese
-  # ascendancy afterward - not an institutional end. The Ganden
-  # Phodrang continued as Tibet's own government for two more
-  # centuries after bell-1924's own narrative moves on to other
-  # subjects; a source covering the twentieth century would be needed
-  # to carry this record to 1959.
-  end: { min: 1750, max: 1750, source: bell-1924 }
+  # An earlier version of this record stopped at the 1750 Lhasa
+  # massacre of the Chinese Ambans, treating it as the point bell-1924
+  # happened to move on from - not an institutional end, since the
+  # Ganden Phodrang continued governing under deepened Qing oversight
+  # afterward. bell-1924 in fact continues much further: the 1904
+  # Younghusband expedition, the Thirteenth Dalai Lama's two exiles
+  # (1904-09 in Mongolia and China, 1910-12 in India), and the 1912
+  # expulsion of the last Chinese troops from Lhasa, restoring the
+  # Ganden Phodrang's own government to power without a foreign
+  # garrison for the first time in generations - see the closing
+  # chapters. The Ganden Phodrang continued still further, to 1959; no
+  # source consulted here reaches that far, so 1912 marks the limit of
+  # what is covered, not a claimed institutional end - see `ended`.
+  end: { min: 1912, max: 1912, source: bell-1924 }
 
 identity: >-
   The Dalai Lama's own government, installed by a Mongol khan who
   crushed a rival Tibetan king, run for decades by an able regent who
-  built the Potala in the Fifth Dalai Lama's name, and drawn steadily
+  built the Potala in the Fifth Dalai Lama's name, drawn steadily
   under Chinese oversight after a disputed reincarnation split
-  Tibetans, Mongols and the Qing court against each other.
+  Tibetans, Mongols and the Qing court against each other, and twice
+  driven into exile by foreign armies before expelling the last of
+  them from its own capital in 1912.
 
 capitals:
   - { name: Lhasa, source: bell-1924 }
@@ -70,6 +78,10 @@ preceded_by_external: []
 
 succeeded_by_external: []
 
+# Null, honestly: the Ganden Phodrang continued governing Tibet for
+# decades beyond 1912, into the 1950s, and no source consulted here
+# follows it that far. 1912 is the point bell-1924's own narrative
+# reaches, not a claimed institutional end.
 ended: null
 
 turning_points:
@@ -116,6 +128,37 @@ turning_points:
       Ambans' own standing afterward - deepening, rather than
       loosening, Qing oversight of the Ganden Phodrang's own
       government.
+    source: bell-1924
+    contested: false
+  - year: 1904
+    type: siege
+    name: "The Younghusband expedition takes Lhasa"
+    changed: >-
+      A British mission sent to negotiate trade questions grew into a
+      full military expedition that fought its way to Lhasa itself;
+      the Thirteenth Dalai Lama fled north to Mongolia rather than
+      receive the British in his own capital, leaving his ministers to
+      sign the Lhasa Convention in his absence. Beijing's own attempt
+      to use the crisis to depose him outright was rejected outright
+      in turn - Tibetans smeared the deposition proclamation with dirt
+      and kept referring affairs of state to their exiled ruler as
+      though it had never been issued.
+    source: bell-1924
+    contested: false
+  - year: 1912
+    type: revolt
+    name: "The last Chinese garrison expelled from Lhasa"
+    changed: >-
+      A second Chinese military occupation of Lhasa in 1910 drove the
+      Dalai Lama and his government into a second exile, this time to
+      India; the occupation collapsed the following year when the
+      Qing dynasty's own authority disintegrated in the Chinese
+      revolution, and by June 1912 the Chinese held no effective power
+      left in central Tibet. The remaining garrison in Lhasa
+      surrendered a few months later and was escorted peacefully
+      across the Indian frontier - restoring the Ganden Phodrang's own
+      government to power in its own capital without a foreign
+      garrison inside it for the first time in generations.
     source: bell-1924
     contested: false
 
