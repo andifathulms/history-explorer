@@ -10,24 +10,25 @@ name:
 # Langdarma was assassinated (bell-1924, c. 842), established the western
 # Tibetan kingdoms his own sons and grandsons later divided among
 # themselves; jahoda-2019-nyarma names his son dPal-gyi-mgon inheriting Mar
-# yul specifically. No source consulted here gives Guge's own end a year -
-# both sources document the kingdom's formative religious history through
-# the early eleventh century in real depth, and neither follows its later
-# political trajectory.
+# yul specifically.
 span:
   start: { min: 930, max: 930, source: jahoda-2019-nyarma }
-  # Neither source consulted for this record follows Guge's own political
-  # history past the early eleventh century. The range below marks only
-  # that the kingdom is attested continuing after Rinchen Zangpo's death in
-  # 1055, not a claim about when it actually ended - see the comment on
-  # `ended` above.
-  end: { min: 1055, max: 1055, source: jahoda-2019-nyarma }
+  # jahoda-2019-nyarma documents Guge's formative religious history only
+  # through Rinchen Zangpo's 1055 death, not the kingdom's own political
+  # end - an earlier version of this record used that year as a
+  # provisional endpoint for lack of anything better. wessels-1924
+  # supplies what was missing: the actual collapse of the kingdom in
+  # 1630, when a revolt backed by Ladakh forced the surrender of
+  # Tsaparang and the capture of its last king. See the closing
+  # chapters and `ended` below.
+  end: { min: 1630, max: 1630, source: wessels-1924-jesuit-travellers }
 
 identity: >-
   A refuge kingdom the old Tibetan royal line built in the far west after
-  its dynasty collapsed at home, remembered less for its politics than for
-  one king's decade-long temple-building campaign that helped restart
-  Buddhism on the plateau.
+  its dynasty collapsed at home, best remembered for one king's
+  decade-long temple-building campaign that helped restart Buddhism on
+  the plateau, and ended nearly six centuries later when a rejected
+  second marriage dragged it into a war with Ladakh it did not survive.
 
 capitals:
   - { name: "Tsaparang (with a major religious center at Tholing)", source: jahoda-2019-nyarma }
@@ -40,9 +41,13 @@ rulers:
   # years - and his patronage of translators make his reign the
   # best-documented moment in either source consulted for this record.
   peak: { name: "Yeshe-O (lha bla ma Ye shes 'od)", source: jahoda-2019-nyarma }
-  # Null. Neither source consulted for this record follows Guge's political
-  # history far enough to name a last king.
-  last: { name: null, source: null }
+  # Missionary correspondence names him Chodapo or Chodagpo, a title
+  # rather than a personal name; later scholarship (A. H. Francke, cited
+  # in wessels-1924) identified him with two votive inscriptions naming
+  # a King Khri-bkra-shis-grangs-pa-lde reigning at Tsaparang c. 1600-30,
+  # almost certainly the same king Andrade met in 1624 and who was
+  # captured when the kingdom fell in 1630.
+  last: { name: "Khri-bkra-shis-grangs-pa-lde", reign: [1600, 1630], source: wessels-1924-jesuit-travellers }
 
 scripts_and_languages:
   administration: [Tibetan]
@@ -54,18 +59,28 @@ institutions:
   succession_rule: null
   legitimation: { values: [descent, divine-sanction], source: jahoda-2019-nyarma }
 
-# Type "still contested" because no source consulted for this record
-# documents how or when Guge's own political history actually ended -
-# both stop well short of it, in the middle of the kingdom's own religious
-# building program.
 ended:
-  type: still contested
+  type: conquest
   by: []
-  year: null
-  source: jahoda-2019-nyarma
+  year: 1630
+  source: wessels-1924-jesuit-travellers
 
 preceded_by_external: []
-succeeded_by_external: []
+
+# The Kingdom of Ladakh, which backed the 1630 revolt and absorbed
+# Tsaparang once the king was captured, has no record of its own in
+# this collection.
+succeeded_by_external:
+  - name: The Kingdom of Ladakh
+    type: conquered by
+    year: 1630
+    note: >-
+      A revolt by Guge's own military commanders, backed by an
+      invading Ladakhi army, forced Tsaparang's surrender after a
+      month-long siege; the king and his family were carried off to
+      Leh and the kingdom passed under Ladakhi rule.
+    source: wessels-1924-jesuit-travellers
+    contested: false
 
 turning_points:
   - year: 996
@@ -90,6 +105,22 @@ turning_points:
       own ambition had been institutional from the start, not a single
       building meant to outshine his predecessors.
     source: jahoda-2019-nyarma
+    contested: false
+  - year: 1630
+    type: siege
+    name: "The fall of Tsaparang"
+    changed: >-
+      A revolt by Guge's own military commanders, advised by the
+      king's brother the Chief-Lama, invited an invading Ladakhi army
+      to besiege Tsaparang; after a month the king surrendered on a
+      promise of tribute-and-withdrawal that the king of Ladakh did
+      not honor, and the king and his family were carried off to Leh
+      in captivity. A kingdom whose stated end date had, for lack of
+      any source that followed its politics past 1055, defaulted to a
+      translator's death actually ended here - in a succession
+      dispute, a rejected second marriage, and a month-long siege more
+      than five and a half centuries later.
+    source: wessels-1924-jesuit-travellers
     contested: false
 
 measures:
