@@ -105,6 +105,20 @@ turning_points:
       not inherited.
     source: fletcher-1836
     contested: false
+  - year: 1648
+    type: revolt
+    name: "Chmielnicki's uprising"
+    changed: >-
+      A Cossack leader whose wife and infant child were the victims of
+      a Polish governor's own private cruelty took up arms in revenge
+      and found himself leading a rebellion the Commonwealth could not
+      suppress - besieging the king in his own camp, forcing a treaty
+      the nobility broke within the year, and drawing Russia, then
+      Sweden, into wars that would run for nearly two decades and cost
+      the Commonwealth the province the whole conflict had started
+      over.
+    source: fletcher-1836
+    contested: false
   - year: 1652
     type: reform
     name: The precedent of Sicinski
@@ -115,6 +129,19 @@ turning_points:
       that had gone unused in practice for generations. The precedent,
       once set, proved impossible to walk back and gradually paralysed
       the Commonwealth's own capacity to legislate at all.
+    source: fletcher-1836
+    contested: false
+  - year: 1667
+    type: treaty
+    name: "Ukraine ceded east of the Dnieper"
+    changed: >-
+      Nearly twenty years after a Polish governor's cruelty first drove
+      Chmielnicki to revolt, and after a Swedish invasion had briefly
+      driven the king himself into exile in the middle of the same
+      wars, the Commonwealth ceded Severia and all of Ukraine east of
+      the Dnieper to Russia outright - the permanent loss the
+      rebellion's own original grievance had, in the end, made
+      unavoidable.
     source: fletcher-1836
     contested: false
   - year: 1683
