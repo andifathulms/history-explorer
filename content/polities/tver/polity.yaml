@@ -91,6 +91,21 @@ turning_points:
       throne that had eluded Moscow for every generation before his.
     source: kliuchevsky-1912
     contested: false
+  - year: 1375
+    type: revolt
+    name: "Nineteen princes march against Michael Alexandrovich"
+    changed: >-
+      Michael Alexandrovich of Tver sought help from Lithuania and
+      allied himself with the pagan khan Mamai against Moscow - a
+      gamble that cost him the sympathy of the rest of Northern Rus.
+      When Moscow's Prince Dmitri took the field against him,
+      nineteen other Rus princes joined the campaign, several moved
+      by genuine outrage rather than mere dependence on Moscow; the
+      same coalition would stand with Moscow at Kulikovo five years
+      later, a national leadership Michael's own failed gamble had
+      helped hand to his rival.
+    source: kliuchevsky-1912
+    contested: false
   - year: 1485
     type: siege
     name: "The city falls without a blow"

@@ -127,6 +127,18 @@ turning_points:
       recorded fearing the opposite result right up to the end of it.
     source: kliuchevsky-1912
     contested: false
+  - year: 1513
+    type: siege
+    name: "Smolensk retaken from Lithuania"
+    changed: >-
+      Vassilii III recovered Smolensk, lost to Lithuania a century
+      earlier, completing the absorption of Rus' territory his father
+      had begun - by the time of his own death two decades later, a
+      Muscovite chronicle would hail him as the final consolidator of
+      Rus', and no rival prince remained who could still be called
+      anything other than Moscow's own subject.
+    source: kliuchevsky-1912
+    contested: false
   - year: 1547
     type: reform
     name: Ivan IV crowned Tsar

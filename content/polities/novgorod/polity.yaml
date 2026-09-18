@@ -152,6 +152,20 @@ turning_points:
       single decade of each other.
     source: forbes-1914
     contested: false
+  - year: 1352
+    type: catastrophe
+    name: "The plague reaches Novgorod"
+    changed: >-
+      Archbishop Vasili died of the plague on the road home after
+      traveling to bless a stricken Pskov, and Novgorod's own outbreak
+      that followed killed the Metropolitan of all Russia the same
+      spring alongside a death toll the chronicle itself struggles to
+      describe. The republic's institutions absorbed the blow rather
+      than breaking under it: a new archbishop was installed within
+      the same season, and the veche and the posadnik's office kept
+      functioning through the worst of it.
+    source: forbes-1914
+    contested: false
   - year: 1471
     type: battle
     name: The Shelon
