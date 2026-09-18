@@ -113,6 +113,19 @@ turning_points:
       years later.
     source: theal-zambesi-1907
     contested: false
+  - year: 1670
+    type: succession-crisis
+    name: "Domingos murdered by his own captains"
+    changed: >-
+      The monomotapa whose baptism had been celebrated in Rome with a
+      bronze plate was killed by his own household eighteen years
+      later - the same kind of internal violence that had already
+      claimed Mokomba and unseated Kapranzine, not a conquering army.
+      No single event ended the empire itself, which continued under
+      reduced, vassal monomotapas for more than two further centuries,
+      but this is where Theal's own documentary account closes.
+    source: theal-zambesi-1907
+    contested: false
 
 measures:
   reach_km2: null
