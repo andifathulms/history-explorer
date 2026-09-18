@@ -109,6 +109,18 @@ turning_points:
       because of it.
     source: di-cosmo-2009
     contested: false
+  - year: 1552
+    type: siege
+    name: "1552"
+    changed: >-
+      Kazan fell to assault on 2 October and no khan was installed afterward.
+      The city had changed hands before without the khanate ending; this time
+      the throne was taken to Moscow and baptised, a voevoda governed the
+      territory, and Ivan added Tsar of Kazan to his own title. What made 1552
+      different from every earlier taking was not the fighting but what came
+      after it: annexation rather than a change of patron.
+    source: di-cosmo-2009
+    contested: false
 
 measures:
   reach_km2: null

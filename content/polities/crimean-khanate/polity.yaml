@@ -114,6 +114,19 @@ turning_points:
       followed within nine years by the manifesto that abolished the state.
     source: di-cosmo-2009
     contested: false
+  - year: 1783
+    type: catastrophe
+    name: "Catherine's manifesto"
+    changed: >-
+      Catherine II signed a manifesto on 8 April announcing Russian rule over
+      the peninsula, the Taman and the Kuban. No battle was fought and no
+      treaty was signed; a document was issued and the oldest surviving state
+      founded by the house of Chinggis stopped existing. The independence
+      granted at Küçük Kaynarca had removed the only power able to protect the
+      khan, and the manifesto simply recorded what that had already made
+      inevitable.
+    source: di-cosmo-2009
+    contested: false
 
 measures:
   reach_km2: null
