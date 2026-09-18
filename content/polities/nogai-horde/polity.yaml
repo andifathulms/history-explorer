@@ -121,6 +121,18 @@ turning_points:
       was signed away in a single oath at somebody else's town.
     source: howorth-1880
     contested: false
+  - year: 1643
+    type: catastrophe
+    name: "Kho-Urluk killed near Astrakhan"
+    changed: >-
+      The Torghut Kalmyk chief Kho-Urluk was killed by the Russians while
+      trying to detach the Nogai princes from their allegiance to the tsar.
+      It made no difference to the outcome: his sons crossed the Yaik soon
+      after and subdued the Nogai tribes of the Volga steppe outright, and
+      the greater part of the horde became Kalmyk subjects and followed their
+      fortunes.
+    source: howorth-1880
+    contested: false
 
 measures:
   reach_km2: null

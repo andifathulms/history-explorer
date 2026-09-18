@@ -106,6 +106,20 @@ turning_points:
       again.
     source: howorth-1880
     contested: false
+  - year: 1598
+    type: catastrophe
+    name: "Kuchum's camp destroyed on the Ob"
+    changed: >-
+      Voyeikov attacked Kuchum's camp among the Ob marshes before sunrise,
+      killed his brother, a son and dozens of his princes and men, and took
+      eight of his wives and five of his children. Kuchum refused every offer
+      of the tsar's clemency afterward - "I am blind and deaf, poor, and
+      alone" - and rode off to die among the Nogai. Ten years after the
+      capital emptied, the khan who had never stopped fighting for it was
+      finally beaten in the field, and the voivode wrote to Moscow that
+      Siberia was conquered.
+    source: howorth-1880
+    contested: false
 
 measures:
   reach_km2: null

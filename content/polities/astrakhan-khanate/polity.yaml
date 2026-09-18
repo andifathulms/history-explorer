@@ -94,6 +94,17 @@ turning_points:
       supplied itself at the end of it, which was the real demonstration.
     source: di-cosmo-2009
     contested: false
+  - year: 1556
+    type: siege
+    name: "1556"
+    changed: >-
+      A second Russian expedition came down the Volga and found the city
+      empty: Dervish Ali had fled for the Crimea and the townspeople had
+      scattered into the delta. This time nobody was installed. Every earlier
+      taking of Astrakhan had ended in a restoration; 1556 ended in a
+      garrison, and the Chinggisid line in the delta stopped.
+    source: di-cosmo-2009
+    contested: false
 
 measures:
   reach_km2: null
