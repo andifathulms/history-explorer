@@ -81,6 +81,21 @@ turning_points:
       an approaching Mongol army as a deliverance.
     source: biran-2005
     contested: false
+  - year: 1218
+    type: catastrophe
+    name: "Jebe takes the realm; Kuchlug is hunted down"
+    changed: >-
+      A Mongol army under Jebe advanced under instructions to proclaim
+      the restoration of religious freedom, and the Tarim oasis
+      populations, faced with a choice between a Buddhist persecutor
+      and a pagan army, largely did not resist it. Kuchlug was hunted
+      into the Pamirs and killed, and the empire ended without a
+      battle worth the name - destroyed by a ruler who finally asked
+      something of subjects it had spent eighty years governing by
+      asking nothing, then finished off by an army those same
+      subjects preferred to him.
+    source: biran-2005
+    contested: false
 
 measures:
   # No dataset in the consulted set tabulates this polity, which is

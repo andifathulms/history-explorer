@@ -74,6 +74,21 @@ turning_points:
       literate administration that came through it.
     source: golden-1992
     contested: false
+  - year: 840
+    type: catastrophe
+    name: "The Kirghiz sack Karabalgasun"
+    changed: >-
+      A defecting Uyghur general brought the Yenisei Kirghiz down the
+      Orkhon valley; they took Karabalgasun, killed the qaghan, and
+      burned the city, then went home rather than stay to rule it. A
+      capital that had concentrated the khaganate's treasury, chancery
+      and stored wealth in one place made it formidable while it
+      stood and gave an enemy a single objective once it did not -
+      the Mongolian steppe was left without a central power for the
+      first time in three centuries, and stayed that way until the
+      Mongols themselves.
+    source: golden-1992
+    contested: false
 
 measures:
   reach_km2: { value: 3100000, at: 800, source: taagepera-1997 }
