@@ -20,7 +20,15 @@ name:
 # as the end of the republic in substance.
 span:
   start: { min: 1136, max: 1136, source: forbes-1914 }
-  end: { min: 1471, max: 1471, source: forbes-1914 }
+  # 1471 (the Shelon) left the republic's own institutions - the veche,
+  # the posadnik's office - formally intact under a Muscovite prince who
+  # was now the senior partner; forbes-1914's own closing argument draws
+  # a sharp line between that functional defeat and 1478, when renewed
+  # friction brought Ivan III's army back, the veche was abolished
+  # outright, and the assembly bell was carried off to Moscow. 1478 is
+  # used here as the actual end of the institution the span describes,
+  # with 1471 kept as its own turning point below.
+  end: { min: 1478, max: 1478, source: forbes-1914 }
 
 identity: >-
   The trading city on the Volkhov that hired and expelled its own princes, ran
@@ -51,17 +59,19 @@ scripts_and_languages:
   administration: [Old East Slavic, Church Slavonic]
   writing_system: Cyrillic
 
-# Not a single conquest but a defeat that ended independent policy. Ivan III
-# of Moscow marched on Novgorod, defeated its forces at the Shelon, and the
+# Not a single conquest but a two-stage defeat. Ivan III of Moscow marched
+# on Novgorod in 1471, defeated its forces at the Shelon, and the
 # republic's own chronicle records its citizens receiving "their liberty"
-# back from him afterward on his terms - a settlement more than a sack.
-# Formal annexation is not covered by the source this record is drafted
-# from, but Muscovy's own record (kliuchevsky-1912) names the conqueror
-# directly - see the edge to it.
+# back from him afterward on his terms - a settlement more than a sack,
+# leaving the veche and the posadnik's office formally intact. That
+# settlement did not hold: renewed friction brought Ivan's army back in
+# 1478, and this time the veche itself was abolished and the city's
+# assembly bell carried off to Moscow. 1478, not 1471, is used here as
+# the year the republic's own institutions actually ended.
 ended:
   type: conquest
   by: [muscovy]
-  year: 1471
+  year: 1478
   source: forbes-1914
 
 # What came before: the same princely house Kievan Rus' traces itself to,
@@ -151,6 +161,21 @@ turning_points:
       instead. The defeat did not end the republic's own institutions that
       year - only the choice of foreign patron that had divided its
       assembly for a generation.
+    source: forbes-1914
+    contested: false
+  - year: 1478
+    type: catastrophe
+    name: "The veche abolished, the bell taken to Moscow"
+    changed: >-
+      Renewed friction with Moscow, seven years after the settlement at
+      the Shelon had left Novgorod's own institutions formally intact,
+      brought Ivan III's army back - and this time there was no partial
+      accommodation. The veche was abolished outright, and the assembly
+      bell that had summoned the city's citizens to session for three
+      and a half centuries was carried off to Moscow. What the Shelon
+      had cost Novgorod was its choice of foreign patron; what ended
+      here was the institution able to make that choice, or any other,
+      at all.
     source: forbes-1914
     contested: false
 
