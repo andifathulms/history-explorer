@@ -111,6 +111,19 @@ turning_points:
       severe enough to require it.
     source: kliuchevsky-1912
     contested: false
+  - year: 1689
+    type: succession-crisis
+    name: "Peter overthrows Sophia's regency"
+    changed: >-
+      Warned that his half-sister's regency government meant to kill his
+      own mother, the seventeen-year-old Peter fled by night to the
+      Trinity Monastery and watched the streltsy regiments desert
+      Sophia's cause one by one rather than his own. He had her confined
+      to a convent on his return to Moscow that September - not yet
+      ruling outright in practice, but the last rival capable of
+      regenting on his behalf was gone for good.
+    source: pares-1926
+    contested: false
   - year: 1721
     type: reform
     name: Peter proclaimed Emperor
@@ -120,6 +133,47 @@ turning_points:
       on for the victor announced something larger than the war itself
       had been fought for: a tsardom that had spent a century catching up
       to its neighbours now declaring itself finished catching up.
+    source: pares-1926
+    contested: false
+  - year: 1775
+    type: revolt
+    name: "Pugachev's rebellion crushed"
+    changed: >-
+      A Cossack claiming to be Catherine's own murdered husband returned
+      from exile raised a rebellion across the Volga and the Urals that
+      drew in Tatars, Bashkirs, escaped convicts and peasants by the
+      thousand before it was finally run down; brought to Moscow in an
+      iron cage, Pugachev was executed that January. The rebellion's own
+      scale ended any serious talk of easing serfdom for a generation,
+      hardening the very institution its followers had risen against.
+    source: pares-1926
+    contested: false
+  - year: 1812
+    type: catastrophe
+    name: "Napoleon's invasion and the burning of Moscow"
+    changed: >-
+      Napoleon crossed into Russia with roughly 600,000 men; Alexander I
+      refused to negotiate even after Borodino's slaughter and Moscow's
+      own governor burned the city rather than surrender it intact. The
+      retreat that followed, harried by Cossacks through the depths of
+      winter and broken at the Berezina crossing, brought perhaps 50,000
+      men back out of the 600,000 who had gone in - a catastrophe that
+      set the tone of Russian politics for a generation and gave the
+      empire's own army the reputation of invincibility it would spend
+      the Crimean War discovering it no longer deserved.
+    source: pares-1926
+    contested: false
+  - year: 1825
+    type: revolt
+    name: "The Decembrist rising"
+    changed: >-
+      A succession crisis between two royal brothers gave Guards
+      officers with a political program the opening to stage a coup;
+      their rising in Senate Square was put down with grapeshot within
+      a day, but the new Tsar Nicholas I built his entire thirty-year
+      reign around preventing its like from recurring - a cautious,
+      exhaustively detailed bureaucratic rule with no patience for the
+      larger political questions the rising had raised.
     source: pares-1926
     contested: false
   - year: 1861
