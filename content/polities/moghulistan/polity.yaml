@@ -118,6 +118,23 @@ turning_points:
       name that referred to a country they no longer held.
     source: rashidi-elias-ross
     contested: false
+  - year: 1533
+    type: catastrophe
+    name: "Sultan Said Khan dies of dam-giri"
+    changed: >-
+      Returning from a campaign into Tibet and Kashmir - the highest
+      anybody in his family had attempted - Sultan Said Khan, already
+      weakened by the altitude sickness the Moghuls called dam-giri,
+      died on the road home at a place where the same sickness was
+      prevalent, not yet forty-eight. Mirza Haydar's own portrait of
+      him is unusually affectionate and specific for a chronicle
+      otherwise given to formula - a graceful, generous, open-hearted
+      man who blushed before granting a favour. He was the khanate's
+      own last ruler, dying within the same decade that Moghulistan
+      itself - the pastures the state was named for - had already
+      been lost for good.
+    source: rashidi-elias-ross
+    contested: false
 
 measures:
   reach_km2: null

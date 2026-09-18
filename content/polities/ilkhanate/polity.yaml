@@ -35,6 +35,21 @@ ended:
   source: jackson-2017
 
 turning_points:
+  - year: 1258
+    type: siege
+    name: "The fall of Baghdad"
+    changed: >-
+      Baghdad fell after a fortnight's siege, and Hülegü had the last
+      Abbasid caliph brought before him with the words "you are the
+      master of this house and I am your guest - let us see what you
+      can give us." The caliphate had been the constitutional
+      foundation of Sunni Islam for five centuries, the office every
+      sultan from Morocco to Bengal ruled by investiture from and
+      every Friday prayer named; Hülegü removed it in a fortnight, and
+      founded a Mongol state in Iran and Iraq on the ground it had
+      occupied.
+    source: jackson-2017
+    contested: false
   - year: 1295
     type: conversion
     name: "Ghazan's conversion to Islam"
@@ -43,6 +58,21 @@ turning_points:
       dynasty that had killed the caliph was building mosques, endowing Sunni
       and Shi'i foundations, and issuing coinage carrying the Muslim
       profession of faith.
+    source: jackson-2017
+    contested: false
+  - year: 1335
+    type: succession-crisis
+    name: "Abu Sa'id dies without an heir"
+    changed: >-
+      A khan died at thirty on campaign against the Golden Horde with
+      no son to succeed him, and nothing in the state survived the
+      discovery that there was nobody left to obey. Within a year
+      rival puppet khans held different provinces, each a Chinggisid
+      of some line maintained by a non-Chinggisid commander who could
+      not take the title himself; within twenty years the provincial
+      strongmen stopped bothering to produce a khan at all. A conquest
+      elite whose only qualification was descent had nothing left to
+      rule with once the descent ran out.
     source: jackson-2017
     contested: false
 
