@@ -42,6 +42,19 @@ ended:
 succeeded_by_external: []
 
 turning_points:
+  - year: 690
+    type: succession-crisis
+    name: The Empress Wou founds her own dynasty
+    changed: >-
+      Wu, empress consort and then regent in all but name for more than two
+      decades, deposed her own son a second time and declared a new dynasty
+      in her own name rather than continue ruling through a Tang figurehead.
+      No woman had reigned over China in her own right before her, and none
+      would again - and the same court that had once forced Gaozong to
+      overturn his father's household to marry her spent fifteen years
+      failing to unseat her by force before age finally did.
+    source: boulger-china-1881
+    contested: false
   - year: 751
     type: battle
     name: Talas
@@ -73,6 +86,19 @@ turning_points:
       reforms outlive the dynasty that makes them; in outline this is how China
       was taxed until the sixteenth century.
     source: twitchett-1979
+    contested: false
+  - year: 817
+    type: battle
+    name: Li Shidao's execution
+    changed: >-
+      Emperor Xianzong's army broke the last of the openly rebellious
+      provincial governors his reign had set out to bring back under central
+      control, taking Li Shidao and his sons from their own palace to be
+      executed in the public square. It proved a rebellious jiedushi could
+      still be defeated by force rather than merely negotiated with - a
+      lesson his own eunuch-dominated successors would prove no better able
+      to apply than he was to protect himself from the same eunuchs.
+    source: boulger-china-1881
     contested: false
   - year: 845
     type: conversion
