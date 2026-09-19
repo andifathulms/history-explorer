@@ -70,6 +70,23 @@ turning_points:
       lie behind the Prester John story.
     source: biran-2005
     contested: false
+  - year: 1169
+    type: succession-crisis
+    name: "Pusuwan killed by arrows"
+    changed: >-
+      The empress Pusuwan, ruling in her own name as gurkhan for
+      fourteen years, had her own husband killed to clear the way for
+      her lover - and was killed in turn, along with him, when the
+      dead man's father, the dynasty's most senior surviving general,
+      surrounded the palace with troops rather than accept it. The
+      throne passed without further crisis to her nephew Zhilugu,
+      confirming that the line the conquest generation's loyalty
+      actually protected was Yelü Dashi's own descent, not the sex of
+      whoever currently held it - a second woman had now ruled the
+      empire in her own right, after Yelü Dashi's own widow had done
+      the same as regent a generation earlier.
+    source: bretschneider-1888
+    contested: false
   - year: 1211
     type: revolt
     name: "Kuchlug takes the gurkhanate"
