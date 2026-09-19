@@ -35,6 +35,32 @@ ended:
   source: halperin-1985
 
 turning_points:
+  - year: 1291
+    type: succession-crisis
+    name: "Nogai has Tulabugha killed and installs Toktu"
+    changed: >-
+      The general who had already helped install two khans had one of
+      them killed rather than fight the army Tulabugha marched against
+      his own camp, and put Toktu, a son of Möngke Temür, on the
+      throne in his place - the first violent succession in the
+      khanate's history, and the clearest demonstration yet that the
+      army under Nogai's own command, not the throne at Sarai,
+      decided who ruled Kipchak.
+    source: howorth-1880-div1
+    contested: false
+  - year: 1313
+    type: succession-crisis
+    name: "Uzbeg's palace coup"
+    changed: >-
+      Toktu's own chosen heir was struck down by retainers loyal to a
+      nephew Toktu had exiled as a boy and recalled only on his
+      deathbed. Uzbeg's accession ended forty years in which a Jochid
+      khan's throne had depended on the backing of a general or a
+      faction strong enough to install him, and opened the reign under
+      which the khanate reached the greatest extent it would ever
+      govern from one court.
+    source: howorth-1880-div1
+    contested: false
   - year: 1395
     type: catastrophe
     name: "Timur destroys Sarai and Astrakhan"
