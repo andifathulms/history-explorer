@@ -113,6 +113,18 @@ turning_points:
       empire had been extracting from.
     source: franke-twitchett-1994
     contested: false
+  - year: 1125
+    type: catastrophe
+    name: The last emperor captured
+    changed: >-
+      Eleven years after Aguda refused to dance at the emperor's fish feast and
+      went to war, the Liao capitals had fallen and the last emperor was taken
+      prisoner in the west. A dynasty that had held tribute from China for a
+      hundred and twenty years, and had itself begun as a steppe confederation
+      claiming to be a Chinese dynasty, ceased to exist at the hands of the
+      forest people it had spent two centuries extracting from.
+    source: franke-twitchett-1994
+    contested: false
 
 measures:
   reach_km2: { value: 2600000, at: 947, source: taagepera-1997 }
