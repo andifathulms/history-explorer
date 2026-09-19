@@ -96,6 +96,20 @@ turning_points:
       loyalty of Chinese generals who could still choose to withdraw it.
     source: boulger-1898
     contested: false
+  - year: 1813
+    type: revolt
+    name: Rebels breach the Forbidden City
+    changed: >-
+      Some two hundred members of the White Water-lily sect fought their way
+      into the palace itself and nearly reached the Jiaqing emperor's own
+      chambers, survived only because his own son shot two of the
+      attackers himself. An eighty-million-tael fortune confiscated from a
+      disgraced minister and eight years of campaigning against the same
+      secret society had done nothing to prevent it - the clearest sign
+      available that the dynasty's own domestic decline, not any foreign
+      power, was what first threatened it after Qianlong's death.
+    source: boulger-1898
+    contested: false
   - year: 1839
     type: catastrophe
     name: Commissioner Lin and the First Opium War
@@ -117,6 +131,22 @@ turning_points:
       the Yangtze valley was broken within weeks of his death - by
       provincial Chinese armies and a foreign-led mercenary corps the Qing
       court had needed but never fully trusted.
+    source: boulger-1898
+    contested: false
+  - year: 1876
+    type: reform
+    name: The Woosung railway torn up
+    changed: >-
+      China's first railway opened to genuine public excitement, was bought
+      out by the government under mandarin pressure within months, and was
+      then deliberately neglected and finally dismantled, its rails shipped
+      to Formosa - the clearest single demonstration of the gap between the
+      Self-Strengthening reforms the court funded (arsenals, foreign-drilled
+      troops, a modern fleet) and the civilian half of the same programme,
+      which provincial officials sabotaged whenever it threatened their own
+      authority. The military half looked formidable on paper for thirty
+      years. The railway's own fate explained, in miniature, why that
+      wasn't enough.
     source: boulger-1898
     contested: false
   - year: 1895
