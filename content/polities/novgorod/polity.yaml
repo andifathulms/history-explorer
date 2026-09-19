@@ -152,6 +152,20 @@ turning_points:
       single decade of each other.
     source: forbes-1914
     contested: false
+  - year: 1327
+    type: treaty
+    name: "Alexander of Tver refused shelter"
+    changed: >-
+      When Alexander of Tver's massacre of a Tatar envoy's retinue
+      brought a punitive Tatar-Muscovite army down on his own
+      principality, Novgorod refused him refuge and paid the following
+      army's envoys two thousand silver grivnas rather than risk what
+      Tver had just suffered - the same transactional calculation that
+      had bought off a Tatar army in 1293, applied now against an
+      enemy that had just proven what refusal cost. Two years later a
+      Muscovite prince, Ivan Kalita, was enthroned in Novgorod itself.
+    source: forbes-1914
+    contested: false
   - year: 1352
     type: catastrophe
     name: "The plague reaches Novgorod"
