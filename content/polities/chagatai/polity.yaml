@@ -35,6 +35,34 @@ ended:
   source: biran-1997
 
 turning_points:
+  - year: 1268
+    type: treaty
+    name: "The Talas agreement"
+    changed: >-
+      Qaidu, an Ögedeid prince with his own claim to the Great Khanship,
+      offered peace to the defeated Chagatayid khan Baraq rather than
+      finishing him - splitting Transoxiana's revenue between them and
+      securing, in the same stroke, an implicit recognition from a reigning
+      Chagatai khan that Qaidu himself was the Mongols' rightful sovereign.
+      From Baraq's death a few years later until his own in 1301, Qaidu
+      ruled the whole khanate through a rapid succession of client khans he
+      installed and replaced himself.
+    source: howorth-1876
+    contested: false
+  - year: 1306
+    type: succession-crisis
+    name: "Dua absorbs Chapar's own khanate"
+    changed: >-
+      Qaidu's own loyal partner for three decades turned on his patron's
+      son within a year of managing his succession, destroyed Chapar's army
+      in a coordinated attack with the Yuan he had once fought alongside
+      Qaidu against, and quietly absorbed most of Chapar's own territory
+      after receiving him as a defeated refugee. It ended the house of
+      Ögödei as a territorial power and left the Chagatai line in sole
+      possession of the throne Qaidu had spent a lifetime deciding who
+      could sit on.
+    source: howorth-1876
+    contested: false
   - year: 1334
     type: succession-crisis
     name: "Tarmashirin deposed by the annual assembly"
