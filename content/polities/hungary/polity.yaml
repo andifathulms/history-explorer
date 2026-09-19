@@ -109,6 +109,29 @@ turning_points:
       Rome rather than to any steppe confederation's customs.
     source: godkin-1853
     contested: false
+  - year: 1077
+    type: succession-crisis
+    name: Ladislaus elected over Soloman
+    changed: >-
+      Soloman held the stronger legal claim by birth, but an assembly of
+      prelates, magnates, and nobles chose his cousin Ladislaus instead,
+      trusting a proven commander's record over a king who had already
+      lost the throne twice through his own conduct. It set the pattern
+      the kingdom's own crown would follow again and again: legitimacy
+      by election when inheritance had already failed once.
+    source: godkin-1853
+    contested: false
+  - year: 1102
+    type: treaty
+    name: Coloman crowned king of Croatia and Dalmatia
+    changed: >-
+      Coloman annexed Croatia outright after its last independent ruler
+      fell in battle, then drove a Norman incursion out of Dalmatia at
+      Venice's own request and was crowned over both coasts in the same
+      year — bringing the whole Adriatic shore the kingdom would hold
+      for centuries under one crown for the first time.
+    source: godkin-1853
+    contested: false
   - year: 1231
     type: reform
     name: The Golden Bull confirmed
