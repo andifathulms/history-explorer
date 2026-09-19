@@ -99,6 +99,18 @@ turning_points:
       then paid for everything else.
     source: twitchett-1979
     contested: false
+  - year: 907
+    type: succession-crisis
+    name: Zhu Wen deposes the last emperor
+    changed: >-
+      A general who had defected from Huang Chao's own rebellion, massacred the
+      palace eunuchs and murdered one emperor in 904, deposed the boy who
+      replaced him and took the throne himself. It was the same condition the
+      Han had been in for thirty years before 220, and it ended the same way,
+      with an abdication ceremony, for the same reason - the name was still
+      worth something to the man taking it.
+    source: twitchett-1979
+    contested: false
 
 # No institutions block until this pass, on a record that already had two
 # chapters about what the institutions did.

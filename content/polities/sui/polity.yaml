@@ -111,6 +111,18 @@ turning_points:
       the moment its own authority weakened.
     source: parker-1895
     contested: false
+  - year: 618
+    type: succession-crisis
+    name: Sui formally ends
+    changed: >-
+      The general Li Yuan, backed by Turkic troops from the same khan who had
+      nearly captured the Sui emperor two years earlier and was now sheltering
+      his fugitive empress, founded the Tang on the ruins of the dynasty he had
+      served. The canals, the granaries and the reunified administration passed
+      whole to the successor state; the thirty-seven-year dynasty that had
+      rebuilt them did not.
+    source: parker-1895
+    contested: false
 
 measures:
   reach_km2: { value: 4600000, at: 610, source: taagepera-1997 }
