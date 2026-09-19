@@ -104,6 +104,21 @@ turning_points:
       and the Nogai learned that they could dispose of a Giray.
     source: herberstein-major
     contested: false
+  - year: 1571
+    type: catastrophe
+    name: "Devlet Geray burns Moscow"
+    changed: >-
+      A Crimean army swam around the fortified Oka line Ivan the
+      Terrible had built against exactly this threat, found the road
+      to Moscow open, and burned the whole wooden capital to the
+      ground in six hours after Ivan himself fled north. It was the
+      single most damaging blow any steppe power struck against
+      Russia in the Chinggisid successor states' whole existence,
+      and it proved that the tsar who had already broken Kazan and
+      Astrakhan could still be humiliated in his own capital by the
+      one khanate he had not found a way to take.
+    source: horsey-fletcher-bond-1856
+    contested: false
   - year: 1774
     type: treaty
     name: "Küçük Kaynarca"
