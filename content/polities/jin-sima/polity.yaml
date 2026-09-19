@@ -116,6 +116,20 @@ turning_points:
       rival.
     source: boulger-1898
     contested: false
+  - year: 420
+    type: succession-crisis
+    name: "Liu Yu's staged deposition"
+    changed: >-
+      A scaffold was built in an open field outside Jiankang, a throne
+      placed on it, and before the assembled thousands of the capital
+      Emperor Gong descended from it to make way for the general Liu Yu -
+      the theatrical form Cao Pi's own abdication ceremony had set two
+      centuries earlier. With it the house Sima Yan had founded on his
+      family's accumulated service reached what Boulger calls its
+      consummation: fifteen emperors, a century and a half, ended by
+      exactly the kind of staged ceremony its own founding had used.
+    source: boulger-1898
+    contested: false
 
 measures:
   reach_km2: null

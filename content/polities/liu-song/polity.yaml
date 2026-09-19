@@ -49,8 +49,8 @@ institutions:
   # preceding Eastern Jin to founder of the Song by force, and
   # thereafter a succession repeatedly settled by murder and
   # deposition rather than any observed rule - Chowti deposed and
-  # secretly killed by his own nobles, Wenti murdered by his son
-  # Vouti, and Mingti's own admitted massacre of fourteen nephews and
+  # secretly killed by his own nobles, Wenti murdered by his son Liu
+  # Shao, and Mingti's own admitted massacre of fourteen nephews and
   # brothers to secure his throne.
   legitimation: { values: [conquest], source: boulger-china-1881 }
 
@@ -84,7 +84,8 @@ turning_points:
     name: "A parricide ends Wenti's reign"
     changed: >-
       Wenti, whose thirty-year reign was the dynasty's most stable,
-      was murdered by his own son Vouti (Liu Shao) - opening a run of
+      was murdered by his own son Liu Shao, who was in turn defeated
+      and executed by his brother within the year - opening a run of
       short, violent reigns, including Mingti's own admitted massacre
       of fourteen nephews and brothers, that boulger-china-1881
       treats as characteristic of the dynasty's second half.
