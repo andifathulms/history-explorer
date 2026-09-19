@@ -84,6 +84,19 @@ turning_points:
       power on its eastern side, and got a trading relationship out of it.
     source: schuyler-1876
     contested: false
+  - year: 1805
+    type: succession-crisis
+    name: "Alim Khan takes the title"
+    changed: >-
+      Alim, the survivor of a murdered rival house who had inherited
+      his father Narbuta's decades of quiet consolidation, executed his
+      own brother, struck the first coin any Khokandi ruler had issued
+      in his own name, had the khutbeh read for himself rather than for
+      Bukhara's amir, and completed the conquest of Tashkent his father
+      had begun. Fergana's largest bek-ship became, for the first time,
+      a khanate that called itself one.
+    source: howorth-1880
+    contested: false
   - year: 1842
     type: siege
     name: "The emir in the capital"
