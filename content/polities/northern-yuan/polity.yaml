@@ -81,6 +81,19 @@ turning_points:
       kinsman on the Tula.
     source: howorth-1876
     contested: false
+  - year: 1426
+    type: reform
+    name: "Toghon breaks the Khorchins"
+    changed: >-
+      The Oirat chief Toghon raised a rival Chinggisid claimant against
+      Adai Khan and his own kingmaker Arugtai, and in the same years
+      scattered the Khorchin tribes - descended from Chinggis Khan's
+      own brother Khassar - eastward to the Nonni river for good. It
+      was the opening move of an Oirat ascendancy that his son Esen
+      would carry, within a generation, to the capture of a reigning
+      Ming emperor.
+    source: howorth-1876
+    contested: false
   - year: 1470
     type: succession-crisis
     name: "Mandukhai's vow"
