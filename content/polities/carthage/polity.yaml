@@ -82,6 +82,32 @@ turning_points:
       settlements from Italy, Greece and the Levant.
     source: bosworth-smith-carthage-1878
     contested: false
+  - year: -480
+    type: battle
+    name: "Himera"
+    changed: >-
+      A large Carthaginian army under Hamilcar, sent to check Greek
+      colonial expansion in Sicily, was completely routed in a
+      day-long battle; Hamilcar himself disappeared in the defeat,
+      Carthaginian tradition holding that he had thrown himself onto
+      a sacrificial fire rather than survive it. Carthage abandoned
+      major Sicilian campaigns for the following seventy years.
+    source: bosworth-smith-carthage-1878
+    contested: false
+  - year: -310
+    type: catastrophe
+    name: "Agathocles invades Africa"
+    changed: >-
+      Blockaded inside Syracuse by a Carthaginian fleet and army, the
+      tyrant Agathocles broke through with a small flotilla and
+      carried the war directly to Carthage's own African countryside
+      for the first time in the city's history, ravaging its
+      heartland for three years before withdrawing. The physical
+      damage was soon repaired, but Agathocles had shown that
+      Carthage itself, not just its Sicilian holdings, could be
+      reached by an enemy willing to gamble on the crossing.
+    source: bosworth-smith-carthage-1878
+    contested: false
   - year: -264
     type: battle
     name: "War over Messana"

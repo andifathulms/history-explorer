@@ -127,6 +127,22 @@ turning_points:
       embrace of a single foreign faction again.
     source: mudenge-1988
     contested: false
+  - year: 1573
+    type: battle
+    name: "The Barreto expedition turns back"
+    changed: >-
+      Portugal's first attempt at outright conquest - an army under the
+      former governor of Portuguese India, Francisco Barreto - never
+      reached the monomotapa's own court at all, spending itself
+      instead against a Mutapa tributary people, the Samungazi Tonga,
+      before disease and starvation forced a retreat that killed most
+      of the expedition. Negomo's own offer of a hundred thousand
+      warriors to help finish the campaign, made from a safe distance,
+      persuaded Portugal that outright conquest of the empire itself
+      was not a fight worth having; accommodation and trade replaced
+      invasion as policy for the rest of the century.
+    source: mudenge-1988
+    contested: false
   - year: 1629
     type: treaty
     name: "A monomotapa becomes a Portuguese vassal"
