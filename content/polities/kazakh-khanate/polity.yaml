@@ -97,6 +97,21 @@ turning_points:
       ambush that failed.
     source: howorth-1880
     contested: false
+  - year: 1643
+    type: battle
+    name: "Yehangir's six hundred"
+    changed: >-
+      Ishim's son Yehangir, held prisoner by the Dzungars only two years
+      earlier, dug six hundred men into a line of hills and let a
+      fifty-thousand-strong Dzungar army under Baatur Khungtaidshi
+      commit to the attack before hitting it from the rear with
+      firearms the Kalmyks had no answer for, killing ten thousand of
+      them. It was the clearest single victory the khanate won in the
+      whole four decades between Tevekkel and Tauke, and it held the
+      Dzungar threat off long enough for the khanship to reach Tauke's
+      own reign intact.
+    source: howorth-1880
+    contested: false
   - year: 1723
     type: catastrophe
     name: "Turkestan taken"
