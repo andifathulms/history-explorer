@@ -139,6 +139,51 @@ turning_points:
       Poland's own independent existence.
     source: fletcher-1836
     contested: false
+  - year: 1410
+    type: battle
+    name: Grunwald
+    changed: >-
+      A combined Polish-Lithuanian army broke the Teutonic Order in the
+      field so thoroughly that the Knights sued for peace rather than
+      risk a second engagement - the decisive check, after three
+      centuries of border war, on the military order that had bled both
+      halves of the new union since before it existed.
+    source: fletcher-1836
+    contested: false
+  - year: 1444
+    type: battle
+    name: Varna
+    changed: >-
+      Władysław III broke a truce with the Ottoman sultan on the promise
+      of a decisive Christian victory and was killed in the battle that
+      followed, not yet twenty - a gamble that cost Poland a king in his
+      teens and passed the crown to his younger brother Casimir.
+    source: fletcher-1836
+    contested: false
+  - year: 1466
+    type: treaty
+    name: Prussia ceded by the Teutonic Order
+    changed: >-
+      Twelve years of war, begun when the Order's own Prussian subjects
+      rose against it and placed themselves under Casimir IV's
+      protection, ended in a treaty ceding Polish Prussia outright and
+      reducing what remained of the Order's territory to a fief of the
+      Polish crown - Danzig, Toruń, Elbląg, and Chełmno passing to
+      Poland as working Baltic trading towns rather than conquered ruins.
+    source: fletcher-1836
+    contested: false
+  - year: 1525
+    type: treaty
+    name: The Prussian Homage
+    changed: >-
+      Sigismund I's own nephew Albert of Brandenburg, the Teutonic
+      Order's last Grand Master, knelt before his uncle and received the
+      Order's secularized Prussian territory back as an ordinary
+      hereditary duchy - ending, on terms rather than by conquest, the
+      military order's three-century standing as an armed threat on
+      Poland's own border.
+    source: fletcher-1836
+    contested: false
   - year: 1569
     type: treaty
     name: The Union of Lublin
