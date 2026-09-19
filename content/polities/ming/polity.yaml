@@ -83,6 +83,18 @@ turning_points:
       mainly in the following century.
     source: mote-twitchett-1988
     contested: false
+  - year: 1550
+    type: siege
+    name: The Gengxu Incident
+    changed: >-
+      Altan Khan marched directly on Beijing and was turned back only by
+      reinforcements hurried in from Liaodong and other provinces - a full
+      century after Tumu, proof that a Mongol chieftain could still reach
+      the capital itself despite the frontier system built in that
+      catastrophe's own aftermath. The dispute with him was not actually
+      settled until 1570, two decades and a change of reign later.
+    source: boulger-1898
+    contested: false
   - year: 1581
     type: reform
     name: The single whip
@@ -93,6 +105,19 @@ turning_points:
       arriving by sea from Japan and from Spanish America — productive and
       dangerous in the same stroke.
     source: mote-twitchett-1988
+    contested: false
+  - year: 1592
+    type: battle
+    name: Ningxia and Korea
+    changed: >-
+      The same army and the same general, Li Rusong, put down a rebellion
+      at Ningxia by flooding the city with a diverted Yellow River and then,
+      within the year, crossed the Yalu to fight Toyotomi Hideyoshi's
+      invading army in Korea - two major wars back to back, fought while an
+      emperor who had stopped appearing at court left the accounts largely
+      unsupervised. The fiscal exhaustion the silver economy's final
+      decades would spend trying to outrun started here, not with the wall.
+    source: boulger-1898
     contested: false
   - year: 1644
     type: revolt
