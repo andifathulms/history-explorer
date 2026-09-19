@@ -113,6 +113,19 @@ turning_points:
       the only ones left standing to inherit what remained of it.
     source: griffis-1883
     contested: false
+  - year: 1221
+    type: revolt
+    name: The Jōkyū War
+    changed: >-
+      Retired Emperor Go-Toba declared the regent an outlaw and summoned the
+      country to war against the Bakufu; Kamakura answered with an immediate
+      offensive rather than a defensive stand, took the capital within a
+      month, and exiled three retired emperors in turn. It settled, for a
+      century, that the court could not unmake the shogunate by force - and
+      eleven years later the Bakufu wrote its own warrior-class law, the
+      Goseibai Shikimoku, to govern what the old imperial code never had.
+    source: murdoch-1910
+    contested: false
   - year: 1281
     type: battle
     name: The second Mongol invasion repelled
@@ -123,6 +136,19 @@ turning_points:
       shogunate would face in its whole existence without a single
       further attempt at invasion ever following it.
     source: griffis-1883
+    contested: false
+  - year: 1297
+    type: reform
+    name: The Einin Tokusei
+    changed: >-
+      The Mongol repulse had produced no confiscated land to reward the
+      vassals who fought it, and a debt crisis born of that unpaid reward
+      and of Kamakura's own extravagance forced the Bakufu to cancel
+      samurai mortgages and interest by decree. It struck at the root of
+      credit itself, left the poorer vassals it was meant to help worse
+      off within a few years, and gave the discontent building toward
+      Go-Daigo's rebellion a specific grievance rather than a vague one.
+    source: murdoch-1910
     contested: false
   - year: 1331
     type: revolt
