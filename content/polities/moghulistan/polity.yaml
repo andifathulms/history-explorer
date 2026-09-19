@@ -97,6 +97,23 @@ turning_points:
       invasions from Timur.
     source: rashidi-elias-ross
     contested: false
+  - year: 1428
+    type: succession-crisis
+    name: "Vais Khan killed, the khanate splits between his sons"
+    changed: >-
+      A khan who had fought the Kalmaks in sixty-one battles for a
+      single victory was killed by his own household's finest archer
+      in the confusion of a skirmish against a Timurid-backed rival,
+      and the country split behind his two sons before either had
+      ruled a day - the younger, Isan Bugha, kept Moghulistan with
+      most of the amirs behind him, while the elder, Yunus, was led
+      out toward Samarkand by a smaller faction that Ulugh Beg
+      destroyed in a single engineered massacre remembered ever after
+      as the Ruin of Irazan. Isan Bugha ruled the country outright for
+      decades while Yunus grew up a Timurid-educated claimant with
+      nothing of his own to offer the amirs who had stayed behind.
+    source: rashidi-elias-ross
+    contested: false
   - year: 1514
     type: siege
     name: "Kashgar taken"
