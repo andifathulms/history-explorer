@@ -149,6 +149,20 @@ turning_points:
       same kind of hedging.
     source: seton-watson-1937-roumains
     contested: false
+  - year: 1822
+    type: reform
+    name: "Sturdza restores a native prince"
+    changed: >-
+      Alexander Ypsilanti's Greek revolutionary invasion had crossed
+      into Moldavia the year before with the reigning Phanariote
+      prince's own backing, and collapsed after Moldavia's boyars
+      sought Ottoman help against it rather than join it. The Porte,
+      separating the Romanian and Greek causes to concentrate on the
+      larger revolt in the Peloponnese, installed Ioniță Sandu Sturdza
+      as prince - the first Moldavian-born ruler since Cantemir's
+      flight eleven years earlier.
+    source: seton-watson-1937-roumains
+    contested: false
   - year: 1859
     type: reform
     name: "Cuza's double election"

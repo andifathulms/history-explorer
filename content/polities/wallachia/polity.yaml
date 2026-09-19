@@ -165,6 +165,19 @@ turning_points:
       base rather than trust native princes again.
     source: seton-watson-1937-roumains
     contested: false
+  - year: 1822
+    type: reform
+    name: "Grigore Ghica ends the Phanariote century"
+    changed: >-
+      A Wallachian peasant leader's own rising against both the Greek
+      administrators and the boyar class, and its violent collision with
+      a separate Greek revolutionary invasion the following month,
+      persuaded the Ottoman Porte to grant the demand Wallachian boyars
+      had been making since 1718: a native-born prince. Grigore Ghica's
+      appointment ended, on the same terms that had begun it in reverse,
+      a century in which the throne had changed hands forty-one times.
+    source: seton-watson-1937-roumains
+    contested: false
   - year: 1859
     type: reform
     name: "Cuza's double election"
