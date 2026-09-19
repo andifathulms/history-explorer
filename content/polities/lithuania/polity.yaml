@@ -140,6 +140,30 @@ turning_points:
       without ever ruling it as a kingdom.
     source: katzel-2021
     contested: false
+  - year: 1440
+    type: succession-crisis
+    name: Casimir crowned on Lithuania's own terms
+    changed: >-
+      Rather than accept Vytautas's fourteen-year-old great-nephew
+      Casimir as a mere Polish-appointed deputy governor, the Lithuanian
+      nobility offered him the grand ducal crown outright, binding him
+      to never surrender Volhynia, Podolia or Kyiv to Poland - a throne
+      that passed, for once, on the grand duchy's own initiative rather
+      than a treaty's terms.
+    source: katzel-2021
+    contested: false
+  - year: 1503
+    type: treaty
+    name: Peace with Moscow after Vedrosha
+    changed: >-
+      Defeated in the field and unable to hold its own eastern frontier,
+      Lithuania ceded Chernigov, Starodub, Bryansk and a dozen other
+      towns to Moscow to end a war it had entered already weakened by a
+      failed marriage alliance - the single largest loss of territory in
+      the grand duchy's history, absorbed in one reign under Alexander
+      Jagiellon.
+    source: katzel-2021
+    contested: false
   - year: 1569
     type: treaty
     name: "The Union of Lublin"
