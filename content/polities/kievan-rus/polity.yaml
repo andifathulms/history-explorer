@@ -110,6 +110,47 @@ turning_points:
       permanently shifted the whole enterprise's centre of gravity there.
     source: vernadsky-1948
     contested: false
+  - year: 945
+    type: succession-crisis
+    name: "Igor killed collecting tribute twice"
+    changed: >-
+      Igor went back to the Drevlyans a second time to round out his own
+      personal share of a tribute collection his retinue had already
+      taken once, and was killed along with his small escort for it -
+      the first Rurikid ruler to die at his own subjects' hands. His
+      widow Olga answered by abolishing the practice that had killed
+      him, replacing the prince's winter circuit through tributary
+      tribes with fixed districts under permanent agents: the first real
+      centralization of Kievan finance.
+    source: vernadsky-1948
+    contested: false
+  - year: 969
+    type: catastrophe
+    name: "Sviatoslav destroys the Khazar khaganate"
+    changed: >-
+      A Rus' force that had already taken Sarkel, the Vyatichi and the
+      Volga Bulgar capital in three successive campaigns descended the
+      Volga and sacked Atil and Samandar, ending a khaganate that had
+      stood on the Pontic-Caspian steppe for three centuries and
+      controlled the trade route Kyiv had wanted since Oleg's own
+      generation. The campaign appears only in Arab sources - the Rus'
+      chronicles, oddly, say nothing about it at all.
+    source: vernadsky-1948
+    contested: false
+  - year: 972
+    type: battle
+    name: "Sviatoslav killed at the cataracts"
+    changed: >-
+      Returning from a failed war to hold Bulgaria as his own new
+      capital, Sviatoslav was ambushed by the Pechenegs at the Dnieper
+      cataracts after wintering at the river's mouth rather than force
+      the crossing immediately. He was killed and his skull made into a
+      drinking cup by the Pecheneg khan Kurya - the end of the one
+      Kyivan ruler who had tried to build an empire stretching from the
+      Danube to the Volga rather than simply govern the federation his
+      predecessors left him.
+    source: vernadsky-1948
+    contested: false
   - year: 988
     type: conversion
     name: Vladimir's baptism
