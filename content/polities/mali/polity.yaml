@@ -114,6 +114,19 @@ turning_points:
       conventional and the event is not seriously doubted.
     source: gomez-2018
     contested: true
+  - year: 1359
+    type: succession-crisis
+    name: "Mari Diata II deposes Fomba"
+    changed: >-
+      Mansa Sulayman's own son and successor Fomba held the throne only
+      a year before Mari Diata II removed him - the start of a reign
+      that exhausted the royal treasury and sold the dynasty's most
+      famous gold nugget to Egyptian merchants for a fraction of its
+      worth. What Ibn Battuta had described a few years earlier as a
+      well-run court became, within a single generation, the empire's
+      own byword for waste.
+    source: ogot-1984-vol4
+    contested: false
   - year: 1433
     type: siege
     name: Timbuktu lost

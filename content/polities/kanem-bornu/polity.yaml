@@ -145,6 +145,19 @@ turning_points:
       the dynasty, the chronicle, the trade road, the claim. It is why the kingdom carries two names.
     source: levtzion-pouwels-2000
     contested: false
+  - year: 1472
+    type: capital-move
+    name: "Ali Ghazi founds Ngazargamu"
+    changed: >-
+      Seventy years after the flight from Kanem, a king remembered by
+      the surname el Ghazi - the warrior - broke the hold the
+      kingdom's own aristocratic officeholders had gained over the
+      monarchy during the long crisis and built the state's first
+      fixed capital since Njimi's own loss, Ngazargamu. Kanem itself
+      was retaken from the Bulala a generation later, in 1505, under
+      his successor.
+    source: barth-1857-vol2
+    contested: false
   - year: 1571
     type: reform
     name: Idris Alooma
@@ -158,6 +171,22 @@ turning_points:
       history of its own.
     source: levtzion-pouwels-2000
     contested: false
+  - year: 1750
+    type: revolt
+    name: "Ali Omarmi's war against the Tuareg"
+    # Barth dates this only as "the middle of the last century" relative to
+    # his own 1850s writing; 1750 stands in for that approximate midpoint,
+    # not a date the chronicle itself gives.
+    changed: >-
+      Two centuries after Idris Alooma, a mai named Ali fought a
+      sustained war against Tuareg raiders drawn from the same steppe
+      stock the Sefuwa dynasty itself had originally sprung from - the
+      last vigorous royal response the chronicle records before an
+      indolent successor, Ahmed, let the accumulated pressure on
+      Bornu's own frontiers go unanswered at the exact moment the
+      Fulani jihad was gathering strength to the west.
+    source: barth-1857-vol2
+    contested: true
   - year: 1808
     type: siege
     name: Ngazargamu

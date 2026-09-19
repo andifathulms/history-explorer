@@ -2461,6 +2461,22 @@ sources:
       where Gomez departs from the older narratives, and the departures are
       stated rather than smoothed over.
 
+  - id: ogot-1984-vol4
+    kind: book
+    author: "D. T. Niane (ed.)"
+    title: "General History of Africa, Volume IV: Africa from the Twelfth to the Sixteenth Century"
+    publisher: UNESCO Publishing / Heinemann
+    year: 1984
+    note: >-
+      The UNESCO volume covering Mali's own imperial centuries in
+      depth, drawing on Ibn Khaldun and Ibn Battuta alongside Delafosse's
+      reign-by-reign chronology. Cited here for the succession after
+      Mansa Sulayman's death - his son Fomba's brief reign, Mari Diata
+      II's ruinous one, and Mansa Musa III's reign under a general's
+      real control - the stretch between Ibn Battuta's 1352-53 visit and
+      Timbuktu's loss to the Tuareg in 1433 that this site's other Mali
+      sources do not narrate in detail. Open access via archive.org.
+
   - id: levtzion-hopkins-1981
     kind: book
     author: N. Levtzion and J. F. P. Hopkins (eds)
@@ -2617,6 +2633,27 @@ sources:
       carry a record for a polity that left no writing of any kind. Every field
       on that page comes from stonework, imported ceramics, radiocarbon and
       faunal remains, which is why so many of them are empty.
+
+  - id: reindorf-1895
+    kind: book
+    author: Carl Christian Reindorf
+    title: >-
+      History of the Gold Coast and Asante: Based on Traditions and
+      Historical Facts, Comprising a Period of More Than Three Centuries
+      from About 1500 to 1860
+    publisher: "Author (Basel Mission printing press)"
+    year: 1895
+    note: >-
+      The first substantial history of the Gold Coast and Asante written
+      by an African author, a Ga-Danish Basel Mission pastor working from
+      oral testimony gathered over decades alongside Dutch and Danish
+      records. Cited here for the eighteenth-century Asante succession
+      this site had not yet drawn on directly: Opoku Ware's 1731
+      accession after Osei Tutu's death at Koromante, his wars of
+      conquest, Kusi Obodom's humane and constitutionally restrained
+      reign, Osei Kwadwo's campaigns and administrative reforms, and
+      Osei Kwame's deposition and suicide, ending at Osei Bonsu's
+      accession. Open access via archive.org.
 
   - id: wilks-1975
     kind: book
@@ -4522,6 +4559,27 @@ sources:
       what he was told, which includes most of what he says about the religion
       of places he did not enter; his Bornu chapter describes as heathen a
       kingdom that had been Muslim for four centuries. Out of copyright.
+
+  - id: barth-1857-vol2
+    kind: primary
+    author: Heinrich Barth
+    title: >-
+      Travels and Discoveries in North and Central Africa: Being a
+      Journal of an Expedition Undertaken under the Auspices of H.B.M.'s
+      Government, in the Years 1849-1855
+    publisher: Longman, Brown, Green, Longmans, and Roberts
+    year: 1857
+    note: >-
+      A German geographer traveling under British sponsorship, based for
+      months at Kukawa and given access to at least two Bornu court
+      chronicles (girgam) and a local scholar, Imam Ahmed, whom he
+      cross-checked against Makrizi and Ibn Battuta's own independent
+      notices. His own translated chronology - regnal start-years
+      reckoned backward from a securely dated 1820s battle - is cited
+      here for the fifteenth-century restoration under Ali Ghazi (Ali
+      Dunamami), founder of the capital Ngazargamu, and for the
+      seventeenth- and eighteenth-century mais his own narrative
+      summary compresses but still names and dates. Out of copyright.
 
   - id: bowdich-1819
     kind: primary

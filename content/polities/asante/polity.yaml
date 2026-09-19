@@ -129,6 +129,20 @@ turning_points:
       performed for generations before anybody wrote it down.
     source: wilks-1975
     contested: false
+  - year: 1731
+    type: succession-crisis
+    name: "Opoku Ware crowned after Koromante"
+    changed: >-
+      Osei Tutu died during a campaign against a rebellious Akyem, kept
+      secret from his own army until the fighting was won; his nephew
+      Opoku Ware, who had led the campaign, put down a rival claim to
+      the stool by execution and was crowned the following year. His
+      nineteen-year reign of conquest, and the policy of naturalizing
+      every conquered province as full citizens rather than a
+      permanent subject class, set the pattern the empire's expansion
+      followed for the rest of the century.
+    source: reindorf-1895
+    contested: false
   - year: 1824
     type: battle
     name: Nsamankow
