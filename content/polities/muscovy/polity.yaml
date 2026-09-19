@@ -78,6 +78,19 @@ institutions:
   legitimation: { values: [descent, divine-sanction, investiture], source: kliuchevsky-1912 }
 
 turning_points:
+  - year: 1303
+    type: succession-crisis
+    name: "Yuri annexes Kolomna for good"
+    changed: >-
+      Within the year of his father Daniel's death, Yuri attacked and
+      imprisoned the neighbouring Prince of Mozhaisk without
+      provocation, annexed his appanage outright, and had his own
+      father's old prisoner Constantine of Riazan murdered to make
+      Kolomna's annexation permanent - securing the entire Moskva
+      river from source to mouth for Moscow within two princely
+      generations of the principality's own founding.
+    source: kliuchevsky-1912
+    contested: false
   - year: 1328
     type: treaty
     name: The Suzerain throne
