@@ -88,6 +88,21 @@ turning_points:
       attacked them as the state competing with its own people.
     source: loewe-twitchett-1986
     contested: false
+  - year: -51
+    type: treaty
+    name: The troops of justice
+    changed: >-
+      A generation after Wu's own fifty-year war against them ended in
+      stalemate, a Xiongnu confederation splitting into rival chieftains
+      began surrendering to the frontier rather than fighting it, and by this
+      year every people between Shaanxi and the Caspian acknowledged Han
+      supremacy without a further campaign. Emperor Xuan built a hall of
+      portraits honouring the ministers and generals who had achieved it
+      through restraint rather than conquest - the clearest measure of how
+      completely his twenty-five-year reign had restored what Wu's own wars
+      had spent.
+    source: boulger-china-1881
+    contested: false
   - year: 9
     type: succession-crisis
     name: Wang Mang
