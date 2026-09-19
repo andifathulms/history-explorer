@@ -6,13 +6,20 @@ name:
   script: 𐱅𐰇𐰼𐰰
   script_lang: otk
 
+# 603 was the east-west split of the first khaganate, once used here as the
+# end date - but the page's own chapters (04 and 05) follow Kutlugh
+# Ilterish's 682 restoration and the second khaganate through Bilge Qaghan's
+# 734 death to the Uyghur-Karluk-Basmil conquest of 744, treating the
+# restoration as a continuation of the same polity rather than a break. The
+# span now matches that scope. rulers.last is null because orkhon-ross names
+# the qaghan killed in 744 only as "the last qaghan," never by name.
 span:
   start: { min: 552, max: 552, source: golden-1992 }
-  end: { min: 603, max: 603, source: golden-1992 }
+  end: { min: 744, max: 744, source: orkhon-ross }
 
 identity: >-
-  The first polity to call itself Turk, and the one that put a single steppe
-  authority between Byzantium and China.
+  The first polity to call itself Turk, broken by Tang conquest in 630,
+  restored in 682, and ended for good by its own Uyghur subjects in 744.
 
 capitals:
   - { name: Otukan, script: Otukan, from: 552, source: golden-1992 }
@@ -22,17 +29,17 @@ core_region: The Eurasian steppe
 rulers:
   founder: { name: Bumin Qaghan, reign: [552, 552], source: golden-1992 }
   peak: { name: Istami, reign: [552, 576], source: golden-1992 }
-  last: { name: Tardu, reign: [599, 603], source: golden-1992 }
+  last: null
 
 scripts_and_languages:
   administration: [Sogdian, Old Turkic]
   writing_system: Old Turkic
 
 ended:
-  type: fragmentation
-  by: []
-  year: 603
-  source: golden-1992
+  type: conquest
+  by: [uyghur-khaganate]
+  year: 744
+  source: orkhon-ross
 
 measures:
   reach_km2: { value: 6000000, at: 557, source: taagepera-1997 }
