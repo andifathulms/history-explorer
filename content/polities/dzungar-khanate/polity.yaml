@@ -133,6 +133,21 @@ turning_points:
       thousand camels, and never again put a field army against the Qing.
     source: howorth-1876
     contested: false
+  - year: 1717
+    type: siege
+    name: "Lhasa taken by a wedding trap"
+    changed: >-
+      Tsewang Rabtan seized his own prospective son-in-law at a
+      wedding festival, then sent two armies toward Tibet under
+      pretence of restoring the faith; one took Lhasa by treachery from
+      within, captured and executed the Khoshut protector Lha-bzang
+      Khan at the Potala, and ended the Khoshut family's seventy-year
+      protectorship over the Dalai Lama for good. It was the last
+      Dzungar conquest that mattered and the one that finally drew a
+      Qing army into Tibet, opening the wars that would not stop until
+      the khanate itself was gone.
+    source: howorth-1876
+    contested: false
   - year: 1755
     type: catastrophe
     name: "I uprooted his race"
