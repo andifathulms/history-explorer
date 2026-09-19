@@ -34,6 +34,36 @@ ended:
   year: 842
   source: beckwith-1987
 
+turning_points:
+  - year: 699
+    type: succession-crisis
+    name: "The hunting trip that ended the Gar regency"
+    changed: >-
+      Tridu Songtsen used a staged hunting expedition to muster
+      warriors and execute more than two thousand relatives and
+      retainers of Gar Trinring, the minister whose family had run the
+      empire on the throne's behalf for two generations since Gar
+      Tongtsen's own regency. Trinring's suicide and the destruction of
+      his household ended the only hereditary ministry ever to hold
+      the tsanp'u's own authority in trust, and put day-to-day power
+      back in the royal line's own hands - for now in the person of a
+      seven-year-old's regent rather than the tsanp'u himself.
+    source: bushell-1880
+    contested: false
+  - year: 710
+    type: treaty
+    name: "The grandmother's marriage alliance"
+    changed: >-
+      The regent ruling for the child tsanp'u Tride Tsuktsen secured a
+      Tang princess in marriage for her own grandson, the same
+      mechanism an earlier Tibetan court had used to marry Princess
+      Wencheng to Songtsen Gampo seven decades before. It confirmed
+      that a woman ruling as regent, rather than a minister's family or
+      the tsanp'u in person, could still conduct the empire's central
+      diplomatic relationship on equal terms with the Tang court.
+    source: bushell-1880
+    contested: false
+
 # Zhangzhung, Guge and Sakya all have records of their own now - see the
 # edges to and from them in edges.yaml.
 preceded_by_external: []
