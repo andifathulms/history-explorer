@@ -114,6 +114,33 @@ turning_points:
       that had welcomed foreign traders eagerly just a century before.
     source: griffis-1883
     contested: false
+  - year: 1783
+    type: catastrophe
+    name: The famine of Temmei
+    changed: >-
+      Mount Asama's eruption and independent crop failures across the north
+      combined to kill between a million and a million and a quarter people
+      over the following four years - more than half again the combatant
+      losses of the contemporary Seven Years' War, inside a country sealed
+      off from the outside grain trade that might have eased it. The census
+      of 1792 recorded the lowest population the whole Tokugawa period would
+      ever count.
+    source: murdoch-1926
+    contested: false
+  - year: 1837
+    type: revolt
+    name: Ōshio's rising
+    changed: >-
+      A former police inspector, driven to despair by a second great famine
+      and the merchant profiteering the authorities refused to check, led an
+      armed rising in Osaka that burned eighteen thousand houses before it
+      was put down - the first time since the siege of Shimabara, two
+      centuries earlier, that samurai had made common cause with a popular
+      revolt against the shogunate. It forced Mizuno Tadakuni's Tenpō
+      Reforms, whose own failure left the bakufu that met Perry sixteen
+      years later already out of untried remedies.
+    source: murdoch-1926
+    contested: false
   - year: 1867
     type: succession-crisis
     name: Yoshinobu tenders his resignation
