@@ -69,6 +69,20 @@ institutions:
   legitimation: { values: [descent], source: howorth-1880 }
 
 turning_points:
+  - year: 1511
+    type: siege
+    name: "Ilbars takes Vezir and Urgench"
+    changed: >-
+      Invited by conspirators against the delta's Persian governor,
+      Ilbars massacred the garrison at Vezir in a single night, took
+      Urgench by the sword soon after, and founded a khanate that
+      would spend the next century fighting off Bukhara and its own
+      cousins in roughly equal measure - the appanage system that had
+      won the family Transoxiana producing, in Khwarazm, three rulers
+      in Ilbars's own line dead by execution or ambush within a single
+      generation of his death.
+    source: howorth-1880
+    contested: false
   - year: 1621
     type: capital-move
     name: "The river deserts Urgench"
@@ -99,6 +113,20 @@ turning_points:
       for two generations, set the last of them aside and took the throne
       themselves. Like the Manghits at Bukhara they were Uzbeks and not
       Chinggisids; unlike them they called themselves khan anyway.
+    source: howorth-1880
+    contested: false
+  - year: 1806
+    type: battle
+    name: "Iltazar drowns crossing the Oxus"
+    changed: >-
+      Two years after declaring himself khan outright and dismissing
+      the ceremonial Kazakh figurehead the Qungrat inaqs had ruled
+      through for two generations, Iltazar overreached into a war with
+      Bukhara that ended with his own escape boat sinking under the
+      weight of his own fleeing men. His brother Muhammad Rahim, who
+      escaped the same rout, spent the next two decades turning
+      Iltazar's one-afternoon improvisation into a government that
+      actually lasted.
     source: howorth-1880
     contested: false
   - year: 1873
