@@ -94,6 +94,33 @@ turning_points:
       business granting him.
     source: griffis-1883
     contested: false
+  - year: 1441
+    type: catastrophe
+    name: The Kakitsu Incident
+    changed: >-
+      The sixth shogun, Yoshinori, was assassinated at his own host's dinner
+      table by the Akamatsu family he had moved to strip of its domains -
+      the second time in two and a half centuries a sitting Japanese ruler
+      had been murdered by a subject at a banquet in his honour. It left the
+      shogunate to a child heir who drank himself to death within two years
+      and then to his younger brother Yoshimasa, whose long personal rule
+      would do far more damage to the house than the assassination itself.
+    source: murdoch-1910
+    contested: false
+  - year: 1467
+    type: battle
+    name: The War of Ōnin
+    changed: >-
+      A dispute over Yoshimasa's own undecided succession gave two rival
+      shogunal deputies, Hosokawa Katsumoto and Yamana Sōzen, the occasion
+      to fight the war they had already been building toward for years.
+      Ten years of fighting in Kyoto's own streets left the samurai class
+      abandoning the capital for their home provinces, the imperial court
+      destitute for a generation, and shogunal authority outside Kyoto and
+      a single neighbouring province effectively fictional - the opening of
+      the Sengoku Jidai, not a separate event that followed it.
+    source: murdoch-1910
+    contested: false
   - year: 1573
     type: succession-crisis
     name: Yoshiaki deposed by Nobunaga
