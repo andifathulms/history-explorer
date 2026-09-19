@@ -2445,6 +2445,21 @@ sources:
       that prints them side by side is the only way to see how much of the
       account is one author copying another.
 
+  - id: tucci-1949-painted-scrolls
+    kind: book
+    author: Giuseppe Tucci
+    title: "Tibetan Painted Scrolls, Volume I"
+    publisher: La Libreria dello Stato, Rome
+    year: 1949
+    note: >-
+      A study of Tibetan religious painting that opens with a detailed
+      reconstruction, from the Yuan shih's own official list, of the
+      succession of Ti shih - Imperial Preceptors - who held the Sakya
+      throne's link to the Mongol court after Phagpa. Cited for the
+      unbroken run of appointments from 1280 to 1330 and the interruption
+      when a non-Sakya chaplain filled the seat during an internal
+      exile.
+
   - id: tamrat-1972
     kind: book
     author: Taddesse Tamrat
