@@ -50,6 +50,32 @@ turning_points:
       occupied.
     source: jackson-2017
     contested: false
+  - year: 1270
+    type: battle
+    name: "Abaqa breaks Baraq's invasion at Herat"
+    changed: >-
+      A Chagatayid army that had overrun most of Khorasan was lured
+      into looting a deliberately abandoned camp and then broken in
+      the field the next morning - the clearest defeat of an eastern
+      rival the dynasty inflicted in its first two generations, and
+      the reason the Chagatai ulus did not seriously threaten Iran
+      again for a generation.
+    source: howorth-1888
+    contested: false
+  - year: 1284
+    type: succession-crisis
+    name: "Tegüder Ahmad executed by Arghun"
+    changed: >-
+      The dynasty's only Muslim-convert khan was deposed and killed by
+      his own nephew less than two years after taking the throne by
+      the yasa's own seniority rule, over a peace with the Mamluks his
+      Mongol generals would not accept from a ruler who shared their
+      enemy's faith. It settled that the seniority rule could put a
+      khan on the throne but not keep him there against an army loyal
+      to someone else, and it did nothing to slow the conversion of
+      the dynasty as a whole a decade later under Ghazan.
+    source: howorth-1888
+    contested: false
   - year: 1295
     type: conversion
     name: "Ghazan's conversion to Islam"
