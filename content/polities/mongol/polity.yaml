@@ -50,6 +50,23 @@ turning_points:
       fixed seat of its own.
     source: howorth-1876-mongols
     contested: false
+  - year: 1251
+    type: succession-crisis
+    name: "Möngke installed over the house of Ögödei"
+    changed: >-
+      Three years after Güyük's death, Batu backed a rump assembly's
+      election of Möngke, Tolui's eldest son, over the objections of
+      the house of Ögödei, which the whole family had sworn thirty
+      years earlier would keep the succession for as long as any of
+      Ögödei's blood remained. Oghul Qaimish's regency and Yesü
+      Möngke's Chagatayid khanate both refused to recognise it until
+      Batu ordered his own brother to install Möngke by force. The
+      throne stayed in Tolui's line for the rest of the empire's
+      existence as a single object, and the precedent that a strong
+      enough house could simply override the succession rule outlived
+      the empire's unity by only nine years.
+    source: howorth-1876-mongols
+    contested: false
   - year: 1260
     type: succession-crisis
     name: "The Toluid civil war"
