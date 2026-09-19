@@ -77,6 +77,20 @@ institutions:
   legitimation: { values: [descent], source: howorth-1880 }
 
 turning_points:
+  - year: 1487
+    type: treaty
+    name: "Ivan III grants one marriage and refuses another"
+    changed: >-
+      Moscow let Musa marry his own daughter to the Russian-backed khan
+      of Kazan and refused, in the same breath, to let that khan's
+      sister marry into the rival Nogai line - a single calibrated
+      gesture that set the terms on which the horde would deal with
+      every neighbouring throne for the next three decades: cavalry for
+      hire, kinship by marriage where it served a patron's interest,
+      and no dynastic claim of its own that any outside power needed to
+      take seriously.
+    source: howorth-1880
+    contested: false
   - year: 1523
     type: battle
     name: "The killing of Mehmed Giray"
