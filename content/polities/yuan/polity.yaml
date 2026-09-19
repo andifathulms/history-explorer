@@ -75,6 +75,20 @@ turning_points:
       entire rather than a share of one.
     source: franke-twitchett-1994
     contested: false
+  - year: 1294
+    type: reform
+    name: Temür Khan's peaceful succession
+    changed: >-
+      Kublai's grandson took the throne without contest and spent thirteen
+      years ruling without a single major war of his own choosing - a
+      genuine rarity for this dynasty. He abolished the arbitrary power of
+      life and death Mongol princes had been exercising in their own
+      allotted territories, and when he died in 1307 Mongol authority in
+      China stood no weaker than when he had inherited it, the one clean
+      exception to the pattern of costly conquest and contested succession
+      that framed every reign around his.
+    source: boulger-1898
+    contested: false
   - year: 1323
     type: succession-crisis
     name: Nanpo
