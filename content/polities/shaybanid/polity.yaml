@@ -110,6 +110,23 @@ turning_points:
       being one cultural region.
     source: di-cosmo-2009
     contested: false
+  - year: 1536
+    type: siege
+    name: "Ubaydullah takes Herat"
+    changed: >-
+      After a five-month siege the garrison surrendered on terms;
+      Ubaydullah stripped them naked anyway and marched them to
+      Bukhara, most dying on the road. He held the city four months
+      before Shah Tahmasp forced him out - the high point of two
+      decades in which he, not the khakan whose title he did not yet
+      hold, was the one crossing the Oxus almost every year he could.
+      He became khakan himself four years later and ran the khanate
+      from Bukhara rather than Samarkand for the rest of his reign,
+      the first sign that the office's own centre of gravity was
+      shifting to whichever appanage its holder had actually built his
+      power in.
+    source: howorth-1880
+    contested: false
   - year: 1588
     type: siege
     name: "Abdullah Khan at Herat"
