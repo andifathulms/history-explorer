@@ -102,6 +102,20 @@ turning_points:
       profited both economies.
     source: franke-twitchett-1994
     contested: false
+  - year: 1010
+    type: catastrophe
+    name: The Korea campaign fails
+    changed: >-
+      With the queen mother and her own chief minister both dead within the
+      same year, and the steadying government they had run for two decades
+      gone with them, Shengzong went to war with Korea over its own new
+      border defences and lost nearly his whole army and half his nobility
+      in a single Korean counterattack - the clearest sign that the same
+      reign Chanyuan's diplomacy had made look so accomplished could not
+      manage a smaller neighbour on its own eastern frontier once the people
+      who had actually been governing it were gone.
+    source: parker-1895
+    contested: false
   - year: 1114
     type: revolt
     name: The Jurchen
