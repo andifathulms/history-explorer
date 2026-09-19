@@ -148,6 +148,20 @@ turning_points:
       hardening the very institution its followers had risen against.
     source: pares-1926
     contested: false
+  - year: 1801
+    type: succession-crisis
+    name: "Paul strangled with an officer's scarf"
+    changed: >-
+      A conspiracy Paul had entrusted his own security to organise
+      forced its way into his bedroom and killed him after his heir
+      Alexander had consented to his deposition on a condition -
+      that his father's life be spared - nobody enforced. It ended
+      five years of erratic, reversal-minded rule and put a tsar who
+      had helped clear his own path to the throne under a shadow of
+      complicity that shaped the reformist, guilt-driven cast of his
+      own reign.
+    source: pares-1926
+    contested: false
   - year: 1812
     type: catastrophe
     name: "Napoleon's invasion and the burning of Moscow"
@@ -186,6 +200,22 @@ turning_points:
       edict itself could not settle - the actual terms on which freed
       peasants would hold land - went on generating grievance on both
       sides for the rest of the dynasty's life.
+    source: pares-1926
+    contested: false
+  - year: 1881
+    type: succession-crisis
+    name: "Alexander II killed by a second bomb"
+    changed: >-
+      A first bomb thrown at the tsar's carriage left him unhurt; he
+      dismounted to check on wounded guardsmen, and a second assassin
+      threw a bomb between his feet with the words "it is too early to
+      thank God." Alexander died within two hours, a day after signing
+      a modest plan to bring elected representatives into government
+      discussion - a plan his son and successor never published,
+      opening thirteen years of systematic reaction under
+      Pobedonostsev that dismantled or hollowed out most of the
+      access to public life the assassinated tsar's own reforms had
+      opened.
     source: pares-1926
     contested: false
   - year: 1905
