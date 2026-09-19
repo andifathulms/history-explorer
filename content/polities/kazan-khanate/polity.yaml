@@ -76,6 +76,22 @@ turning_points:
       make Moscow pay.
     source: di-cosmo-2009
     contested: false
+  - year: 1469
+    type: siege
+    name: "Ivan Runo's night raid"
+    changed: >-
+      A Russian flotilla burned Kazan's own outskirts by night, freed
+      prisoners some of whom had been held for forty years, and then
+      sat idle downriver long enough that its own commander was
+      accused of taking a bribe from the khan to stop. Ibrahim's
+      cavalry and river fleet mauled the Russian column that came
+      after it, but the far larger army Ivan sent in response finally
+      forced him to release every prisoner the khanate had accumulated
+      in four decades of raiding - the clearest demonstration yet that
+      neither side could translate a battlefield win into a lasting
+      one.
+    source: howorth-1880-div1
+    contested: false
   - year: 1487
     type: siege
     name: "The first taking of Kazan"
