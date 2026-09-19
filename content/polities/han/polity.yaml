@@ -113,6 +113,19 @@ turning_points:
       else's ward.
     source: loewe-twitchett-1986
     contested: false
+  - year: 220
+    type: succession-crisis
+    name: Emperor Xian's abdication
+    changed: >-
+      Cao Cao's son stopped bothering with the fiction. Emperor Xian
+      abdicated in a carefully staged ceremony with three ritual refusals,
+      was given a fief and allowed to live out his life, and the dynasty the
+      Yellow Turban rising had broken in fact thirty-one years earlier ended
+      on paper. The form of that ceremony was the one every later usurpation
+      in this line would use, including the one that ended the dynasty
+      which replaced it.
+    source: loewe-twitchett-1986
+    contested: false
 
 measures:
   reach_km2: { value: 6500000, at: 100, source: taagepera-1979 }

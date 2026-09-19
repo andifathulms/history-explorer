@@ -99,6 +99,19 @@ turning_points:
       now controlled.
     source: boulger-1898
     contested: false
+  - year: 265
+    type: succession-crisis
+    name: Sima Yan founds the Jin
+    changed: >-
+      Sima Zhao died and his son Sima Yan inherited both the accumulated
+      authority and the patience run out, deposing the nominal emperor
+      without further ceremony and proclaiming the Jin dynasty in his own
+      name. The Sima family did to Cao Wei exactly what the Cao family had
+      done to the Han - the same indispensable, generation-spanning service
+      that had made the dynasty's own rise possible was what its founder's
+      successors had allowed to be built against them.
+    source: boulger-1898
+    contested: false
 
 measures:
   reach_km2: null
