@@ -89,6 +89,19 @@ turning_points:
       own religious loyalty under permanent outside suspicion.
     source: fine-1975-bosnian-church
     contested: false
+  - year: 1322
+    type: succession-crisis
+    name: "Stjepan II restores the Kotromanići"
+    changed: >-
+      A Croatian noble kindred, the Šubići of Bribir, had forced Bosnia's
+      own ruling family from the throne roughly two decades earlier. Ban
+      Stjepan II overthrew them with Hungarian royal support and
+      restored his family to power in its own right - the recovery that
+      let him spend the next three decades rebuilding the prestige his
+      father had lost, ground his nephew Tvrtko would later build a
+      crown on.
+    source: filipovic-2019-kotromanic
+    contested: false
   - year: 1353
     type: treaty
     name: "Elizabeth marries Louis the Great"
@@ -128,6 +141,19 @@ turning_points:
       a kingdom the throne no longer controlled so much as the great
       regional lords did.
     source: filipovic-2019-kotromanic
+    contested: false
+  - year: 1446
+    type: conversion
+    name: "Stefan Tomaš marries into peace with Vukčić"
+    changed: >-
+      Three years of civil war between the newly elected king and
+      Bosnia's most powerful magnate, Stefan Vukčić Kosača, ended not on
+      a battlefield but at a wedding: Stefan Tomaš married Vukčić's
+      daughter Katarina in a Catholic ceremony that sealed the peace and
+      confirmed, in the same act, the king's own conversion to Rome's
+      church - the commitment that would define, and complicate, the
+      rest of his reign.
+    source: fine-1975-bosnian-church
     contested: false
   - year: 1461
     type: conversion
