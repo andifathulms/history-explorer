@@ -84,6 +84,20 @@ turning_points:
       survived because its neighbours preferred it weak to each other strong.
     source: herberstein-major
     contested: false
+  - year: 1537
+    type: succession-crisis
+    name: "Abd al-Rahman driven out, then restored"
+    changed: >-
+      The regency council ruling Moscow for the young Ivan IV warned
+      Abd al-Rahman that both the Crimean Tatars and the Nogai had
+      turned against him; within the year the Nogai deposed him for a
+      rival descended from the old Ahmed line, only to see him
+      restored within two years with no battle recorded on either
+      side. Four khans had already held the throne in the previous
+      five years, none of them removed by anything more than a
+      neighbour's cavalry deciding to back somebody else.
+    source: howorth-1880-div1
+    contested: false
   - year: 1554
     type: siege
     name: "A khan from Moscow"
