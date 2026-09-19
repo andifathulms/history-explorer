@@ -74,6 +74,21 @@ turning_points:
       literate administration that came through it.
     source: golden-1992
     contested: false
+  - year: 795
+    type: succession-crisis
+    name: "The Ediz clan takes the title"
+    changed: >-
+      Sixteen years of weak and murdered khagans since Bögü's own
+      assassination ended when the general Kutlugh - fresh off losing
+      Beshbalik to the Tibetans - took the throne for an entirely new
+      clan, the Ediz, replacing the Yaghlakar line that had held the
+      title since the khaganate's founding. Rather than a final
+      collapse it produced one of the strongest reigns of the whole
+      empire: Beshbalik retaken, Uyghur influence extended to
+      Ferghana, and the Sogdian and Manichaean court establishment
+      restored to full strength.
+    source: mackerras-1972-uighur-empire
+    contested: false
   - year: 840
     type: catastrophe
     name: "The Kirghiz sack Karabalgasun"
