@@ -78,6 +78,19 @@ turning_points:
       had inherited from the empire they destroyed.
     source: franke-twitchett-1994
     contested: false
+  - year: 1208
+    type: treaty
+    name: A parting gleam
+    changed: >-
+      Song's Emperor Ningzong, persuaded by reports of Jin decline that the
+      moment had come to recover lost territory, launched a war his own
+      advisers had oversold; Jin forces won it decisively, and the peace
+      that followed simply confirmed the existing treaties. It was the last
+      real victory the dynasty would win over its southern rival - a test
+      Zhangzong's own frontier passed even as the Mongol confederation on
+      Jin's other border was still being weighed as the lesser threat.
+    source: boulger-1898
+    contested: false
   - year: 1214
     type: capital-move
     name: South to Kaifeng
