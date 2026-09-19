@@ -90,6 +90,18 @@ turning_points:
       delegation.
     source: griffis-1883
     contested: false
+  - year: 604
+    type: reform
+    name: Shōtoku's Seventeen Articles
+    changed: >-
+      Prince Shōtoku, regent for the Empress Suiko, issued a set of moral and
+      administrative articles for officials that argued, for the first time
+      at this court, that a country has only one lord and its people only
+      one master - a direct import of Chinese political theory into a court
+      still organised as a confederation of clans under a first-among-equals
+      chieftain.
+    source: murdoch-1910
+    contested: false
   - year: 645
     type: reform
     name: The Taika reforms begin
@@ -101,6 +113,18 @@ turning_points:
       and the throne's own kingmakers.
     source: griffis-1883
     contested: false
+  - year: 710
+    type: capital-move
+    name: Nara founded
+    changed: >-
+      The court built its first true city, a permanent capital laid out as
+      a deliberate copy of the Chinese capital of Chang'an, and held it for
+      seventy-four years. The standing bureaucracy a fixed seat made possible
+      produced, within the same two generations, the Kojiki and Nihon Shoki
+      - the court's own first written account of its origins - and the Great
+      Buddha of Tōdai-ji.
+    source: murdoch-1910
+    contested: false
   - year: 794
     type: capital-move
     name: The move to Kyoto
@@ -111,6 +135,18 @@ turning_points:
       narrowest neck of the main island between its two seas. Kyoto
       would hold that role for the rest of Japan's imperial history.
     source: griffis-1883
+    contested: false
+  - year: 995
+    type: succession-crisis
+    name: Michinaga becomes regent
+    changed: >-
+      Fujiwara no Michinaga set aside his own nephew, the clan's rightful
+      head, and took the regency himself, then married four daughters in
+      succession to four reigning emperors until no other noble family in
+      the capital dared offer a daughter as a rival candidate empress. It
+      was the Fujiwara kingmaking arrangement at its most complete, and the
+      same court, in the same years, produced the Tale of Genji.
+    source: murdoch-1910
     contested: false
   - year: 1185
     type: battle

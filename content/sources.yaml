@@ -6319,6 +6319,21 @@ sources:
       Golden Bull, the Mongol invasion, John Hunyadi and Matthias
       Corvinus's reign, and the 1526 Battle of Mohacs. Out of copyright.
 
+  - id: murdoch-1910
+    kind: book
+    author: James Murdoch
+    title: "A History of Japan, Volume I: From the Origins to the Arrival of the Portuguese in 1542 A.D."
+    publisher: Asiatic Society of Japan
+    year: 1910
+    note: >-
+      A detailed scholarly history of pre-1542 Japan, used for episodes
+      Griffis's shorter narrative only gestures at or omits entirely -
+      Prince Shōtoku's regency and the Seventeen Articles, the founding
+      of Nara and the compilation of the Kojiki and Nihon Shoki, Fujiwara
+      no Michinaga's regency, and the Jōkyū War, the 1232 legal code, and
+      the Ōnin War for the Kamakura and Ashikaga records. Out of
+      copyright.
+
   - id: griffis-1883
     kind: book
     author: William Elliot Griffis
