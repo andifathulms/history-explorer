@@ -73,6 +73,33 @@ institutions:
   legitimation: { values: [descent, divine-sanction], source: howorth-1880 }
 
 turning_points:
+  - year: 1611
+    type: succession-crisis
+    name: "Vali Muhammad beheaded"
+    changed: >-
+      The second Janid khan was overthrown by his own nephews after a
+      six-year reign remembered for torture rather than governance,
+      captured fleeing to Persian exile, and beheaded on the order of
+      the same holy man he had once mocked. It opened the reign of
+      Imam Quli, whose thirty-five years of ordinary, comparatively
+      humane rule became the standard every later Janid khan was
+      measured against and none quite matched.
+    source: howorth-1880
+    contested: false
+  - year: 1646
+    type: siege
+    name: "The Mughals occupy Balkh"
+    changed: >-
+      Nadir Muhammad's own war against his rebellious son Abdul Aziz
+      gave the Mughal emperor Shah Jahan an opening he had wanted for
+      decades: an Indian army under Aurangzeb occupied Balkh for two
+      years under the pretence of aiding the khan, then withdrew in a
+      winter so severe that travellers reported human bones piled
+      along the roads for years afterward. Nadir Muhammad returned to
+      a province his own son now actually ruled, and never recovered
+      real authority over it before his own death.
+    source: howorth-1880
+    contested: false
   - year: 1740
     type: catastrophe
     name: "Nader Shah at the Oxus"
