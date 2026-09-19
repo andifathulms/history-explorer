@@ -89,6 +89,19 @@ turning_points:
       Yellow River that held for less than a generation.
     source: franke-twitchett-1994
     contested: false
+  - year: 1234
+    type: siege
+    name: Caizhou
+    changed: >-
+      With the walls of his last refuge falling, Aizong abdicated in favour of
+      a general - reportedly on the grounds that he was too heavy to ride and
+      escape - and hanged himself; the general was killed in the fighting the
+      same day, and is counted in the dynastic lists for the few hours he held
+      the throne. The Jin was destroyed in exactly the way it had destroyed
+      the Liao, down to the Chinese dynasty in the south allying with the
+      northern newcomer for a share of the spoils.
+    source: bretschneider-1888
+    contested: false
 
 measures:
   reach_km2: { value: 2300000, at: 1150, source: taagepera-1997 }

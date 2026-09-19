@@ -96,6 +96,19 @@ turning_points:
       out of it, a former mendicant monk named Zhu Yuanzhang, founded the Ming.
     source: franke-twitchett-1994
     contested: false
+  - year: 1368
+    type: capital-move
+    name: The withdrawal to the steppe
+    changed: >-
+      The court did not fall to the Ming armies advancing on Dadu; it left,
+      north, with the seals, the archives and the reign titles, and its
+      successors went on issuing them from the steppe for two more centuries
+      as the Northern Yuan. Calling 1368 a conquest is true about the
+      territory and wrong about the claim - the one Mongol successor state
+      that had taken a settled empire entire was also the only one that,
+      having lost it, kept insisting it still held the mandate anyway.
+    source: franke-twitchett-1994
+    contested: false
 
 measures:
   reach_km2: { value: 11000000, at: 1310, source: taagepera-1997 }
