@@ -36,6 +36,22 @@ ended:
   year: 969
   source: golden-1992
 
+turning_points:
+  - year: 705
+    type: treaty
+    name: "The khagan's sister marries a deposed emperor"
+    changed: >-
+      The Khazar khagan sheltered the exiled Byzantine emperor
+      Justinian II, married him to his own sister, and was then bribed
+      by the reigning emperor to have him killed - a plot Justinian
+      uncovered and escaped, fleeing to the Bulgars and retaking
+      Constantinople within the year. It put a Khazar khagan's own
+      sister on the Byzantine throne as empress and made his khaganate
+      a direct party to Byzantine succession politics eight decades
+      before any outside source described its capital in detail.
+    source: theophanes-turtledove-1982
+    contested: false
+
 # The power that took Atil, with no record here. Named rather than left as an
 # absence; not an edge, because an edge joins two records.
 succeeded_by_external:
