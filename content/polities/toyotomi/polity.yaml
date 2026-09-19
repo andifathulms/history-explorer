@@ -100,6 +100,19 @@ turning_points:
       qualification for the empire's highest civil rank.
     source: griffis-1883
     contested: false
+  - year: 1588
+    type: reform
+    name: The sword hunt
+    changed: >-
+      A decree ordering every farmer and commoner to surrender arms for
+      melting into a new Buddha's ironwork completed, alongside the land
+      survey carried out in the same decade, a separation of an armed
+      warrior class from an unarmed peasantry that no earlier ruler had
+      possessed the uncontested authority to enforce nationwide. The
+      Jesuit Fróis, writing at the time, called it a device never before
+      seen in Japan.
+    source: murdoch-1903
+    contested: false
   - year: 1592
     type: catastrophe
     name: The invasion of Korea begins
