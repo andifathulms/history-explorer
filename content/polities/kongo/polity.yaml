@@ -103,6 +103,21 @@ turning_points:
       inside, leaving its own name to the country the alliance had built.
     source: thornton-2025-origins
     contested: true
+  - year: 1491
+    type: conversion
+    name: "João I baptized"
+    changed: >-
+      A Portuguese embassy sent by João II reached the Kongo court after
+      the Mani Soyo, the king's own uncle, had already converted and
+      urged his nephew to follow. A rebellion forced the plan for a
+      stone church to be abandoned for a hastily built wooden one so
+      the king could be baptized before leading troops to suppress it;
+      he took the name João, opening the alliance with Portugal that
+      his son Afonso would spend the next reign building on, and the
+      rift with his second son, who refused the new faith, that would
+      decide who succeeded him.
+    source: lopes-pigafetta-1881
+    contested: false
   - year: 1506
     type: conversion
     name: "Afonso I takes the throne"

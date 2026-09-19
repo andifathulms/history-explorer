@@ -96,6 +96,20 @@ turning_points:
       ever build.
     source: kuba-nber-2015
     contested: true
+  - year: 1885
+    type: catastrophe
+    name: "The first European reaches the frontier"
+    changed: >-
+      Bope Mobinji, remembered by his own kingdom as its harshest ruler,
+      was blind with age and still on the throne when Ludwig Wolf
+      became the first European to reach Bushong territory. On learning
+      that one of his own sons had allowed the visit, Bope Mobinji had
+      a slave killed to purify the contact - a reign of enforced
+      severity, carried out through a bodyguard of his own hundred
+      sons, that Bushong memory would use for a generation afterward as
+      the measure of a king's own strength.
+    source: torday-joyce-1925
+    contested: false
   - year: 1900
     type: catastrophe
     name: "A rubber concession takes the whole region"
