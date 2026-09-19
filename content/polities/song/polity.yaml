@@ -108,9 +108,23 @@ turning_points:
     name: An ignominious peace with the Jin
     changed: >-
       Gaozong surrendered his claim to the lost northern territory, agreed to
-      an annual tribute in silk and money, and had imprisoned - an
-      imprisonment that ended in murder - the general whose recent victories
-      had done most to make the Jin willing to negotiate at all.
+      an annual tribute in silk and money, and let his chancellor Qin Hui
+      engineer a false treason charge against Yue Fei - the general whose
+      recent victories had done most to make the Jin willing to negotiate at
+      all, and whose execution cleared the last obstacle to the peace Qin
+      Hui wanted.
+    source: mayers-1874
+    contested: false
+  - year: 1273
+    type: siege
+    name: Xiangyang falls
+    changed: >-
+      Four years of siege, two failed relief attempts and the loss of its
+      twin fortress Fanching to Persian-built trebuchets ended with the
+      governor Lü Wenhuan surrendering the city that had guarded the Han
+      river approach to the Yangtze - the last defensible line standing
+      between the Mongols and Hangzhou, opened by a court too consumed by
+      its own chancellor's neglect to relieve the men holding it.
     source: boulger-1898
     contested: false
   - year: 1279
