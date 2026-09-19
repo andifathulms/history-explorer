@@ -419,6 +419,22 @@ sources:
     note: >-
       Used for the steppe polities: Karakhanid, Uyghur, Khazar.
 
+  - id: mackerras-1972-uighur-empire
+    kind: book
+    author: Colin Mackerras
+    title: "The Uighur Empire According to the T'ang Dynastic Histories: A Study in
+      Sino-Uighur Relations, 744-840"
+    publisher: University of South Carolina Press
+    year: 1972
+    note: >-
+      A study built from the Uyghur chapters of the Old and New Tang Histories,
+      with the reign-by-reign succession the Chinese court tracked because it
+      had to. Cited for the khagans between Bögü's 779 assassination and the
+      830s crisis - the Ediz-clan restoration under Kutlugh in 795, Bai
+      Qaghan's reign to 808, and Chongde Qaghan's 821 accession and marriage to
+      Princess Taihe - a stretch this record's own peak-era chapter does not
+      otherwise narrate.
+
   - id: brett-2017
     kind: book
     author: Michael Brett
@@ -959,6 +975,21 @@ sources:
     title: "Ancient China and Its Enemies: The Rise of Nomadic Power in East Asian History"
     publisher: Cambridge University Press
     year: 2002
+
+  - id: hulsewe-1979
+    kind: primary
+    author: A. F. P. Hulsewé (translator), with an introduction by M. A. N. Loewe
+    title: "China in Central Asia: The Early Stage, 125 BC - AD 23; an annotated
+      translation of chapters 61 and 96 of the History of the Former Han
+      Dynasty"
+    publisher: E. J. Brill
+    year: 1979
+    note: >-
+      A fully annotated translation of the Han shu's own Western Regions
+      chapters. Cited for its record of Lao-shang chanyu's completion of what
+      Modu had begun against the Yuezhi - killing their king and driving the
+      survivors past Dayuan into Bactria - the event that actually finished
+      the migration Modu only started.
 
   - id: thapar-2002
     kind: book
@@ -4660,6 +4691,22 @@ sources:
       appear as frontier disturbances, Tibetan envoys arrive to submit, and the
       chronology follows the reign years of the dynasty being attacked. Out of
       copyright.
+
+  - id: theophanes-turtledove-1982
+    kind: primary
+    author: Theophanes the Confessor
+    translator: Harry Turtledove
+    title: "The Chronicle of Theophanes: An English Translation of anni mundi
+      6095-6305 (A.D. 602-813)"
+    publisher: University of Pennsylvania Press
+    year: 1982
+    note: >-
+      A Byzantine monastic chronicle finished around 814, year by year from
+      the Byzantine side of every Khazar contact the empire had in this
+      period - never naming a khagan personally, which the chronicle itself
+      makes plain is simply how Constantinople recorded them, but dating and
+      narrating the events in detail regardless. Cited for the Justinian II
+      episode, 695-711.
 
   - id: masudi-meynard
     kind: primary
