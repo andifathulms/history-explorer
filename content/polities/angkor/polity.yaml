@@ -102,6 +102,32 @@ institutions:
   legitimation: { values: [divine-sanction, descent], source: coedes-1968 }
 
 turning_points:
+  - year: 889
+    type: capital-move
+    name: Yasovarman founds Yasodharapura
+    changed: >-
+      Yasovarman I moved the seat of the Devaraja cult and the
+      temporal capital from his father's Hariharalaya to a new city he
+      built around the temple-mountain of Phnom Bakhéng, digging a
+      seven-kilometre reservoir beside it and settling monasteries for
+      every sect his own eclecticism could accommodate - the founding
+      of the city later kings would keep rebuilding at the same site
+      for the next five centuries, whatever else moved around it.
+    source: coedes-1968
+    contested: false
+  - year: 1010
+    type: succession-crisis
+    name: Suryavarman I ends a nine-year war
+    changed: >-
+      A prince with no strong claim by birth spent nine years fighting
+      two rival kings for a throne he then backdated his own accession
+      to justify, before ruling as a builder rather than a warlord once
+      he had it - completing the royal palace, favouring Buddhism
+      without breaking the Devaraja cult his Shaivite predecessors had
+      kept, and sending a diplomatic gift as far as the Chola court in
+      south India.
+    source: coedes-1968
+    contested: false
   - year: 1113
     type: succession-crisis
     name: Suryavarman II
