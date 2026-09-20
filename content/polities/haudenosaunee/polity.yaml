@@ -14,7 +14,12 @@ name:
 # supports.
 span:
   start: { min: 1450, max: 1600, source: morgan-iroquois-1851 }
-  end: { min: 1783, max: 1794, source: morgan-iroquois-1851 }
+  # Political independence ended in the years after 1783 (see `ended`
+  # below); the span is carried forward to the latest dated event Morgan
+  # records - Sosehawa's recitation of Handsome Lake's code at a general
+  # Mourning council held at Tonawanda in October 1848 - to cover the
+  # confederacy's own continuation past that formal end.
+  end: { min: 1848, max: 1848, source: morgan-iroquois-1851 }
 
 identity: >-
   A confederacy of five, later six, nations of present-day New York, bound
@@ -139,6 +144,19 @@ turning_points:
       after the Oneida's lone dissent failed to hold the League to
       neutrality, and a blow from which its political power never
       recovered.
+    source: morgan-iroquois-1851
+    contested: false
+  - year: 1800
+    type: reform
+    name: "Handsome Lake's revelation"
+    changed: >-
+      A Seneca sachem given up for dead during a long illness recovered
+      claiming a commission from the Great Spirit to preach against the
+      intemperance threatening the Iroquois with extinction, wrapping a
+      temperance reformation inside the old religion rather than
+      replacing it - a new doctrine that became, and remained, the
+      prevailing faith among the nations that had not already converted
+      to Christianity.
     source: morgan-iroquois-1851
     contested: false
 
