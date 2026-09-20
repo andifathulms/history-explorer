@@ -165,6 +165,20 @@ turning_points:
       resident king of its own for the next two centuries.
     source: giannone-1729
     contested: false
+  - year: 1547
+    type: revolt
+    name: "Naples rises against the Inquisition"
+    changed: >-
+      When Viceroy Don Pedro de Toledo posted an edict introducing the
+      Spanish Inquisition, the city tore it from the cathedral door,
+      deposed its own suspected-collaborator officials, and fought
+      Spanish garrison troops in the streets after cannon were turned
+      on the city from its own royal forts. The Inquisition was never
+      established - one of the few outright popular victories a
+      Neapolitan crowd won against viceregal authority in two centuries
+      of Spanish rule.
+    source: giannone-1729
+    contested: false
   - year: 1647
     type: revolt
     name: "Masaniello's revolt against the fruit tax"
@@ -175,6 +189,20 @@ turning_points:
       erratic behaviour cost him the crowd's loyalty and he was shot dead
       in the Church of Carmine ten days after it began.
     source: giraffi-1650
+    contested: false
+  - year: 1656
+    type: catastrophe
+    name: "The great plague"
+    changed: >-
+      A cover-up by the Viceroy and his physicians let a plague brought
+      by ship from Sardinia spread unchecked through Naples's poorest
+      quarters, killing an estimated 400,000 people in the capital
+      within six months - a toll historians contrasted directly with a
+      sixteenth-century epidemic that had taken almost two years to
+      kill a sixth as many. The demographic collapse permanently
+      weakened the kingdom just as Spain's own global power entered its
+      terminal decline.
+    source: giannone-1729
     contested: false
   - year: 1734
     type: battle
