@@ -108,6 +108,19 @@ institutions:
   legitimation: { values: [investiture], source: fisher-2011 }
 
 turning_points:
+  - year: 421
+    type: battle
+    name: "Mundhir I defeated fighting for Persia"
+    changed: >-
+      Mundhir I had already shown the dynasty's weight by forcing the Persian
+      priesthood to accept Bahram Gor's succession against their own
+      objections; fighting as Persia's vassal in the war that broke out with
+      Rome soon afterward, he was defeated with heavy losses. It is the
+      earliest datable event of Nasrid military history after the dynasty's
+      legendary founding generations, and the clearest early proof of what
+      the arrangement with Persia actually cost the family that held it.
+    source: nicholson-1907
+    contested: false
   - year: 528
     type: battle
     name: The recovery of al-Hira
