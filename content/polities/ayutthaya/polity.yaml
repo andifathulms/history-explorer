@@ -105,6 +105,30 @@ institutions:
   legitimation: { values: [descent, divine-sanction], source: baker-pasuk-2017 }
 
 turning_points:
+  - year: 1388
+    type: succession-crisis
+    name: A seven-day king
+    changed: >-
+      Ramesuen, who had voluntarily abdicated to his uncle Borommaracha
+      I eighteen years earlier, marched on Ayutthaya the moment
+      Borommaracha's fifteen-year-old son Thong Lan took the throne,
+      seized him, and had him executed after a reign of exactly seven
+      days - restoring the founder's own bloodline to a throne it had
+      given up without a fight.
+    source: wood-1926
+    contested: false
+  - year: 1424
+    type: succession-crisis
+    name: Two princes on a bridge
+    changed: >-
+      King Intharacha I's two eldest sons met on a bridge inside
+      Ayutthaya, each mounted on his own war elephant, to settle the
+      succession by single combat between the animals; both were
+      thrown and killed in the same encounter, leaving their younger
+      brother to take the throne as Borommaracha II without another
+      claimant left standing.
+    source: wood-1926
+    contested: false
   - year: 1431
     type: siege
     name: Angkor
