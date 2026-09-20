@@ -105,6 +105,20 @@ institutions:
   legitimation: { values: [descent, investiture], source: peters-1994 }
 
 turning_points:
+  - year: 1010
+    type: succession-crisis
+    name: "Husayn ibn Ja'far proclaimed rival caliph"
+    changed: >-
+      Bedouin rebels against the Fatimid caliph al-Hakim in Palestine sent
+      for the Sharif of Mecca and had him saluted "Commander of the
+      Faithful" - a Hasanid sharif briefly holding the same title as his
+      own Fatimid overlord - before the same rebels abandoned him for a
+      pardon and he returned to Mecca. His two-year suspended defiance
+      ended in reconciliation with Hakim and Mecca's coinage and Friday
+      sermon restored to the Fatimid name, the same submission that had
+      defined the office before and after the episode.
+    source: oleary-1923
+    contested: false
   - year: 1201
     type: succession-crisis
     name: "Qatada takes the sharifate"

@@ -1560,6 +1560,19 @@ sources:
       needed on a polity that lasted nine and a half centuries and for which no
       single political narrative exists in English.
 
+  - id: oleary-1923
+    kind: book
+    author: De Lacy O'Leary
+    title: A Short History of the Fatimid Khalifate
+    publisher: Kegan Paul, Trench, Trubner
+    year: 1923
+    note: >-
+      Covers, in the course of narrating Caliph al-Hakim's reign, the
+      c. 1010-13 episode in which the Sharif of Mecca, Husayn ibn Ja'far,
+      was proclaimed rival caliph by Bedouin rebels in Palestine and then
+      abandoned by them, ending in his own reconciliation with Hakim. Open
+      access via archive.org.
+
   - id: risso-1986
     kind: book
     author: Patricia Risso
