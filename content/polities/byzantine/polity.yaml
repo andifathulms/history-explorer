@@ -142,6 +142,20 @@ turning_points:
       Seljuks won the battle; the empire itself is what lost the province.
     source: treadgold-1997
     contested: false
+  - year: 1176
+    type: battle
+    name: Myriokephalon
+    changed: >-
+      Manuel I marched a large army toward Konya to end the Sultanate of Rum
+      as a threat for good, and pushed it into a narrow pass without clearing
+      the flanking heights first. The Turks cut the baggage train, trapped the
+      army in its own wagons and dead cattle, and destroyed the right wing
+      outright; Manuel escaped but never attempted an offensive war of that
+      scale again, and contemporaries agreed his mind never fully recovered
+      from the defeat. It ended, in a single afternoon, the last Komnenian
+      ambition of restoring Byzantine primacy over Anatolia by conquest.
+    source: finlay-1854
+    contested: false
   - year: 1204
     type: siege
     name: The Fourth Crusade

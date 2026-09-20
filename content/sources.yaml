@@ -649,6 +649,19 @@ sources:
     publisher: Macmillan
     year: 1996
 
+  - id: finlay-1854
+    kind: book
+    author: George Finlay
+    title: "History of the Byzantine and Greek Empires, 1057-1453"
+    container: "A History of Greece, from its Conquest by the Romans to the Present Time, Vol. III"
+    year: 1854
+    note: >-
+      Covers John II Komnenos's reign in full - his friendship with the
+      Turkish-born prime minister Axouchos, his sister Anna Komnene's failed
+      conspiracy against him, his 1143 death by a poisoned hunting arrow -
+      and Manuel I Komnenos's reign through the 1176 defeat at Myriokephalon
+      and its aftermath. Open access via archive.org.
+
   - id: lewis-2009
     kind: book
     author: Mark Edward Lewis
