@@ -84,6 +84,18 @@ turning_points:
       murder rather than by the father's own choice.
     source: firishta-briggs-1829-v3
     contested: false
+  - year: 1565
+    type: battle
+    name: The fall of Ramraj
+    changed: >-
+      Ibrahim Qutb Shah joined the general league of Deccan sultans
+      against Ramraj, the Vijayanagara regent whose own estate had
+      sheltered him during an earlier exile from his brother's court -
+      a campaign Firishta calls simply "glorious" that killed Ramraj in
+      battle and occupied Vijayanagara territory, though the alliance
+      that made it possible did not survive the peace that followed.
+    source: firishta-briggs-1829-v3
+    contested: false
   - year: 1590
     type: capital-move
     name: The founding of Bhagnagar

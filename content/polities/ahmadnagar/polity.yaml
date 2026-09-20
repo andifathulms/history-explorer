@@ -87,6 +87,19 @@ turning_points:
       prayers and began naming himself instead.
     source: firishta-briggs-1829-v3
     contested: false
+  - year: 1565
+    type: battle
+    name: The beheading of Ramraj
+    changed: >-
+      A confederacy of the Deccan's Muslim kings, exhausted by decades
+      of shifting alliances with and against him, united against the
+      Vijayanagara regent Ramraj; Husain Nizam Shah's own artillery
+      broke the Hindu charge, and when Ramraj was overtaken fleeing on
+      foot by a Nizam Shahy war elephant, Husain ordered him beheaded
+      on the spot - ending, in a single afternoon, the regional power
+      that had dominated the southern Deccan for two centuries.
+    source: firishta-briggs-1829-v3
+    contested: false
   - year: 1599
     type: siege
     name: The fall of Ahmadnagar
