@@ -95,6 +95,31 @@ turning_points:
       severe enough to end it for a generation.
     source: hulbert-1905
     contested: false
+  - year: 1170
+    type: succession-crisis
+    name: "The military coup"
+    changed: >-
+      Generals resentful of a king who favored civil officials and
+      Buddhist monasteries over his own military turned their palace
+      guards loose on the court after one officer was struck in the
+      king's presence; the massacre that followed killed scores of
+      civil officials and eunuchs, and General Chŏng Chung-bu exiled
+      the king and installed his brother in his place. Every office of
+      state passed to military men, opening a century of rule by
+      soldier-strongmen that the crown itself did not end.
+    source: hulbert-1905
+    contested: false
+  - year: 1196
+    type: succession-crisis
+    name: "Ch'oe Ch'ung-hŏn founds the family dictatorship"
+    changed: >-
+      Ch'oe Ch'ung-hŏn killed the court favorite Yi Eui-mun and, two
+      years later, deposed the reigning king outright, founding a
+      family dictatorship that would control Koryŏ's government for
+      four reigns after his own - the office Ch'oe U, his descendant,
+      would later hold during the Mongol invasions.
+    source: hulbert-1905
+    contested: false
   - year: 1232
     type: capital-move
     name: The removal to Kang-wha

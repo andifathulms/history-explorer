@@ -81,6 +81,20 @@ turning_points:
       own descendants' reigns for the next five hundred years.
     source: hulbert-1905-v2
     contested: false
+  - year: 1506
+    type: succession-crisis
+    name: "Yŏnsan-gun deposed"
+    changed: >-
+      A king who had purged the court of everyone connected to his own
+      mother's execution, emptied the capital's schools in a reign of
+      terror, and filled his years on the throne with individually
+      documented acts of cruelty was overthrown in a night by three
+      officials who met no resistance at all - even his own allies were
+      horrified by what he had done. He was exiled and denied,
+      permanently, the posthumous royal title every other Joseon king
+      received.
+    source: hulbert-1905
+    contested: false
   - year: 1592
     type: catastrophe
     name: The Japanese invasion
@@ -103,6 +117,35 @@ turning_points:
       last order, without his men learning of it until the battle was
       won - the engagement that closed out active hostilities of the
       war for good.
+    source: hulbert-1905-v2
+    contested: false
+  - year: 1637
+    type: treaty
+    name: "The surrender at Namhan"
+    changed: >-
+      After weeks besieged in the mountain fortress of Namhan on half
+      rations through a bitter winter, the king surrendered to the
+      Manchu emperor in person - dressed in blue by Manchu command,
+      leaving by the fortress's dishonorable west gate, bowing and
+      striking his own hand against the back of his head before the
+      imperial dais. Joseon's tribute obligations to the Manchu
+      emperor replaced its centuries-old allegiance to the Ming at a
+      stroke, ending the war with China's fall from the equation
+      entirely.
+    source: hulbert-1905-v2
+    contested: false
+  - year: 1762
+    type: catastrophe
+    name: "Crown Prince Sado sealed in a rice chest"
+    changed: >-
+      King Yŏngjo, convinced by court factionalism and fabricated
+      evidence that his own son was plotting to seize the throne,
+      ordered the Crown Prince sealed inside a wooden chest before the
+      assembled court and left to starve; he died after seven days,
+      and his father never expressed remorse for it in the fifteen
+      years he lived afterward. The dead prince's own grandson would
+      later inherit the throne his father had died accused of trying
+      to take too soon.
     source: hulbert-1905-v2
     contested: false
   - year: 1876
