@@ -101,6 +101,18 @@ turning_points:
       condition from independence and was understood as one at the time.
     source: holbl-2001
     contested: false
+  - year: -80
+    type: succession-crisis
+    name: "Ptolemy XI murders his wife, and is killed within hours"
+    changed: >-
+      Sent back from Rome by Sulla to marry his stepmother and co-ruler
+      Berenice III, Ptolemy XI had her murdered nineteen days into the
+      marriage; the Alexandrian mob dragged him from the palace and
+      killed him in turn before the day was out, ending the dynasty's
+      legitimate line and leaving an illegitimate claimant, Ptolemy XII
+      Auletes, to take a throne no clean succession could reach anymore.
+    source: mahaffy-1895
+    contested: false
   - year: -30
     type: catastrophe
     name: "Cleopatra's death, Octavian at Alexandria"
