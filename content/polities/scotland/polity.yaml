@@ -85,6 +85,50 @@ turning_points:
       circumstances of how that came about.
     source: alba-chronicle
     contested: true
+  - year: 1057
+    type: succession-crisis
+    name: "Malcolm III kills Macbeth"
+    changed: >-
+      Duncan I's son, old enough at last to press his own claim, defeated
+      and killed Macbeth - probably in open battle at Lumphanan - ending a
+      seventeen-year reign later chroniclers would recast as a monstrous
+      usurpation to preserve the fiction of an unbroken royal line. Malcolm
+      Canmore's own reign, oriented toward England by his marriage to the
+      Saxon princess Margaret, began the reorientation of the Scottish
+      court that his sons would complete.
+    source: brown-1899
+    contested: false
+  - year: 1138
+    type: battle
+    name: "The Battle of the Standard"
+    changed: >-
+      David I's invasion of England, pressed deep into Yorkshire, broke
+      against an English army fighting under a ship's mast mounted on a
+      wagon and topped with the consecrated host. The defeat cost Scotland
+      nothing lasting - England's own civil war left the victors unable to
+      press the advantage, and David extracted a more favorable peace
+      within a year - but it is the clearest single demonstration of the
+      composite, feudalized kingdom his own reign had built: Normans,
+      Saxons, Scots, Norwegians and Galwegian Picts fighting under one
+      Scottish king.
+    source: brown-1899
+    contested: false
+  - year: 1292
+    type: succession-crisis
+    name: "Edward I awards the crown to Balliol"
+    changed: >-
+      The death of the child queen Margaret, Maid of Norway, at sea in
+      1290 left no undisputed heir; the Scottish guardians' invitation to
+      Edward I of England to arbitrate the succession let him extract
+      recognition as feudal overlord of Scotland from every claimant
+      before he ruled, at Berwick in November 1292, in favor of John
+      Balliol. Balliol was the first Scottish king crowned on the
+      strength of an English king's judgment rather than Scottish consent
+      alone - the arrangement Edward would spend the following years
+      turning into direct rule, and that Wallace's own rising would
+      answer five years later.
+    source: brown-1899
+    contested: false
   - year: 1297
     type: battle
     name: "Battle of Stirling Bridge"
@@ -106,6 +150,61 @@ turning_points:
       itself end the war, but it secured Bruce's own throne and the
       practical independence the peace of 1328 would formally recognize.
     source: maxwell-1897
+    contested: false
+  - year: 1346
+    type: battle
+    name: "David II captured at Neville's Cross"
+    changed: >-
+      Campaigning in England at France's urging while Edward III besieged
+      Calais, David II was routed and taken prisoner - the start of eleven
+      years' captivity that left Robert the Steward governing in his
+      place and burdened the kingdom with a ransom it had not finished
+      paying by David's own death. The captivity set up the Stewart
+      succession: David's late secret offer to disinherit his own family
+      in England's favor came to nothing, and the throne passed in 1371
+      to his nephew, Robert II, the first Stewart king.
+    source: brown-1899
+    contested: false
+  - year: 1437
+    type: succession-crisis
+    name: "James I murdered at Perth"
+    changed: >-
+      A conspiracy led by his own kinsman the Earl of Atholl killed James
+      I in his own lodging, ending eighteen years of rule so determined
+      to break noble power - executions, forfeitures, the mass arrest of
+      Highland chiefs - that it provoked the very conspiracy that killed
+      him. The pattern repeated across the century: James II died when
+      his own artillery exploded beside him in 1460, and James III was
+      killed in the chaos following a revolt his own son led against him
+      in 1488 - three consecutive Stewart kings whose reigns ended in
+      violence their own methods of rule had provoked.
+    source: brown-1899
+    contested: false
+  - year: 1513
+    type: battle
+    name: "Flodden"
+    changed: >-
+      James IV's invasion of England, undertaken to honor Scotland's
+      French alliance while Henry VIII campaigned in France, ended in the
+      worst single military disaster in Scottish history: the king
+      himself killed fighting in his own line, along with twelve earls,
+      fourteen lords and most of the kingdom's higher clergy. Edinburgh
+      built its first town wall in the aftermath, expecting an invasion
+      that Surrey's own exhausted army never delivered.
+    source: brown-1899
+    contested: false
+  - year: 1542
+    type: battle
+    name: "Solway Moss, and the death of James V"
+    changed: >-
+      Drawn into war with England again by the same French alliance that
+      had killed his father, James V watched his own nobles refuse to
+      invade at Fala Moor, then saw a second army collapse almost without
+      a fight at Solway Moss. He died within days of the defeat, having
+      just learned of the birth of his own daughter and heir, Mary - an
+      infant queen inheriting a kingdom for the second time in three
+      generations.
+    source: brown-1899
     contested: false
   - year: 1560
     type: conversion
