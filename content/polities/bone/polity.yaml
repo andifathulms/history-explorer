@@ -15,18 +15,23 @@ name:
 # internal reign-lengths against later Bone genealogies; the two available
 # reconstructions place the founding tomanurung Matasilompo'é's own reign
 # somewhere between the 1320s and 1360s, given here as a range reflecting
-# that disagreement rather than false precision. Bone itself continued as a
-# kingdom for centuries after 1696 - into the Dutch colonial period and
-# beyond - but nothing consulted for this record follows it there.
+# that disagreement rather than false precision. zainol-dali-nordin-2020
+# extends coverage to the Second Bone War of 1859-60, when the kingdom was
+# defeated and reduced to a Dutch leenvorstendom; Bone continued in that
+# reduced form well into the twentieth century, including a further Dutch
+# military expedition in 1905-06, but nothing consulted here follows it
+# past 1860.
 span:
   start: { min: 1326, max: 1358, source: macknight-paeni-hadrawi-2020 }
-  end: { min: 1696, max: 1696, source: andaya-1981 }
+  end: { min: 1860, max: 1860, source: zainol-dali-nordin-2020 }
 
 identity: >-
   A Bugis kingdom fought into Islam at spear-point by its own coastal
   neighbor, whose escaped, enslaved prince came back a generation later
   with a foreign fleet and made Bone the paramount power of the whole
-  peninsula instead.
+  peninsula instead - a status a council of seven noble houses helped
+  sustain for a century and a half, until a Dutch army broke it in 1860
+  and reduced the kingdom to a loan held on someone else's terms.
 
 capitals:
   - { name: Watampone, source: andaya-1981 }
@@ -40,7 +45,12 @@ rulers:
   # tomanurung from the neighboring settlement of Toro'.
   founder: { name: "Matasilompo'é", source: macknight-paeni-hadrawi-2020 }
   peak: { name: "Arung Palakka (La Tenritatta)", source: andaya-1981 }
-  last: { name: "La Patau", source: andaya-1981 }
+  # Provisional, not a claim that Besse Kajuara was Bone's actual last
+  # ruler - only the last one named by the sources consulted here. She
+  # held the throne through the kingdom's 1859-60 defeat and reduction
+  # to a Dutch leenvorstendom; the kingdom continued under later rulers
+  # into the twentieth century.
+  last: { name: "Besse Kajuara", reign: [1857, 1860], source: zainol-dali-nordin-2020 }
 
 scripts_and_languages:
   administration: [Bugis]
@@ -49,17 +59,25 @@ scripts_and_languages:
 institutions:
   military_basis: { values: [tribal-levy, client-levy], source: andaya-1981 }
   revenue_basis: null
-  succession_rule: null
+  # The Dewan Hadat, a council of seven nobles descended from the
+  # kingdom's own seven founding wanua, chose each new ruler from among
+  # those of royal descent and could depose a king whose own conduct
+  # required it.
+  succession_rule: { values: [election], source: zainol-dali-nordin-2020 }
   legitimation: { values: [descent, conquest], source: andaya-1981 }
 
 # No source consulted here dates or names a conquest ending Bone's own
 # kingship; La Patau's own accession in 1696 is used as the point this
 # record's own coverage ends, not a claim that Bone itself ended then.
+# The 1859-60 Second Bone War reduced the kingdom to a Dutch
+# leenvorstendom but did not end it outright - it continued under its
+# own rulers, in that reduced form, well into the twentieth century.
+# No source consulted here dates or names the actual end.
 ended:
   type: still contested
   by: []
   year: null
-  source: andaya-1981
+  source: zainol-dali-nordin-2020
 
 preceded_by_external: []
 succeeded_by_external: []
@@ -117,6 +135,18 @@ turning_points:
       a reign built on breaking every possible rival, that the arrangement
       had genuinely outlasted the man who built it.
     source: andaya-1981
+    contested: false
+  - year: 1860
+    type: battle
+    name: "The Second Bone War"
+    changed: >-
+      Dutch forces defeated Bone outright, ending a century and a half in
+      which the kingdom had steadily asserted authority over its own
+      neighbours; Bone lost Sinjai, Bulukumba and Bantaeng outright and
+      was reduced to a leenvorstendom, a loan-kingdom under direct Dutch
+      oversight, though its council, chief minister and war command all
+      survived the defeat in name.
+    source: zainol-dali-nordin-2020
     contested: false
 
 measures:
