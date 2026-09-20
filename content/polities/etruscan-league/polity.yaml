@@ -85,6 +85,18 @@ turning_points:
       chance of restoration.
     source: dennis-etruria-1848
     contested: false
+  - year: -477
+    type: battle
+    name: "The Fabii destroyed at the Cremera"
+    changed: >-
+      A single Roman patrician family, three hundred and six strong,
+      had held the whole Veientine frontier at its own expense for a
+      year before Veii lured them into an ambush with driven cattle and
+      killed every man but one. Veii followed the massacre by seizing
+      the Janiculum within sight of Rome itself, the closest the city
+      came to real danger between Porsena's march and the final siege.
+    source: dennis-etruria-1848
+    contested: false
   - year: -396
     type: siege
     name: "The fall of Veii"

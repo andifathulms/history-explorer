@@ -149,6 +149,20 @@ turning_points:
       1498 turned into a standing trading empire.
     source: stephens-1891
     contested: false
+  - year: 1536
+    type: reform
+    name: "The Inquisition established"
+    changed: >-
+      John III won the tribunal he had pursued since his own accession
+      fifteen years earlier, over years of resistance from Portugal's
+      converted Jewish community - the bishop of Ceuta as first Grand
+      Inquisitor, succeeded soon after by the king's own brother,
+      Cardinal Henry. It coincided with the kingdom's own wealth
+      reaching its height and its population emptying into the
+      colonial fleets and settlements that had made that wealth
+      possible in the first place.
+    source: stephens-1891
+    contested: false
   - year: 1578
     type: catastrophe
     name: "Death of Sebastian at Alcácer Quibir"

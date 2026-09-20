@@ -139,6 +139,19 @@ turning_points:
       one inheritance alone had settled.
     source: chapman-1918
     contested: false
+  - year: 1442
+    type: treaty
+    name: "Alfonso V secures Naples"
+    changed: >-
+      Invited by Naples's own queen to defend her throne against the
+      house of Anjou and adopted as her heir, Alfonso the Magnanimous
+      spent most of his reign fighting in Italy until Naples was
+      securely his - the crown's single largest Mediterranean gain, and
+      one he ruled from a court he built in Naples itself rather than
+      from anywhere in Spain. His prolonged absence let the internal
+      disorder his son would inherit take root at home.
+    source: chapman-1918
+    contested: false
   - year: 1479
     type: succession-crisis
     name: "Ferdinand inherits Aragon"
