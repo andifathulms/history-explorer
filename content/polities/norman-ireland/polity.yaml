@@ -123,6 +123,20 @@ turning_points:
       baronial state.
     source: orpen-1911
     contested: false
+  - year: 1224
+    type: succession-crisis
+    name: "Richard de Burgh intervenes in Connaught"
+    changed: >-
+      A contested succession to the kingship of Connaught after Cathal
+      Crobderg's death drew in Anglo-Norman lords, Richard de Burgh
+      chief among them, as indispensable allies of the Irish claimants
+      who needed their swords. Over the following decades that
+      dependence hardened into outright lordship, and by the century's
+      end the de Burghs held both Connaught and Ulster - two of the
+      largest Anglo-Norman territorial blocks in Ireland, and the
+      widest extent the lordship's own territory would ever reach.
+    source: orpen-1911
+    contested: false
   - year: 1318
     type: battle
     name: "Battle of Faughart"
@@ -144,6 +158,21 @@ turning_points:
       Pale. The statute made marriage, fosterage or even everyday
       dealing with the Irish outside it a treasonable offence for the
       English colonists still living inside it.
+    source: bagwell-1885
+    contested: false
+  - year: 1534
+    type: revolt
+    name: "Silken Thomas renounces his father's office"
+    changed: >-
+      Believing a false rumor that his imprisoned father had already
+      been executed, Thomas Lord Offaly renounced his own deputyship
+      before the royal council in Dublin and raised a rebellion that
+      held the field for over a year before collapsing under an English
+      army sent to crush it. His 1537 execution, alongside five of his
+      uncles, ended the House of Kildare's decades-long function as the
+      crown's own hereditary governor of Ireland - and with it, the
+      model of ruling the lordship through a semi-independent Anglo-
+      Irish magnate family that had held since the 1460s.
     source: bagwell-1885
     contested: false
   - year: 1541
