@@ -82,6 +82,21 @@ turning_points:
       former power for two centuries.
     source: yazdani-1960
     contested: false
+  - year: 821
+    type: revolt
+    name: "A boy emperor recovers his throne"
+    changed: >-
+      A rebellion that had broken out around 817 against the
+      thirteen-year-old Amoghavarsha I - joined by the deposed Vengi
+      Chalukya king Vijayaditya II, who later claimed a hundred and
+      eight battles against the Rashtrakutas over twelve years - drove
+      the young emperor to flee the country before his cousin and
+      regent Karkka crushed the revolt and restored him by May 821; it
+      was the closest the dynasty Dantidurga had founded came to
+      collapsing within a single generation of its own peak under
+      Govinda III.
+    source: yazdani-1960
+    contested: false
   - year: 949
     type: battle
     name: Takkolam
