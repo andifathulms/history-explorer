@@ -127,9 +127,9 @@ institutions:
   # year quarrel with the papacy over who conferred what.
   legitimation: { values: [election, titulature, divine-sanction], source: wilson-2016 }
 
-# Five turning points and not one of them is a battle, which is a fair
-# description of the polity: its history is constitutional, and the things that
-# changed it were documents.
+# Not one of these turning points is a battle, which is a fair description of
+# the polity: its history is constitutional, and the things that changed it
+# were documents.
 turning_points:
   - year: 1122
     type: treaty
@@ -144,6 +144,45 @@ turning_points:
       that ends the investiture contest, and it is the moment the emperor stops
       being able to staff the empire's largest institution with his own men.
     source: wilson-2016
+    contested: false
+  - year: 1183
+    type: treaty
+    name: The Peace of Constance
+    changed: >-
+      After the Lombard League broke Frederick Barbarossa's army at Legnano in
+      1176, the emperor conceded in writing what the battle had already
+      decided: the Lombard cities kept full self-government, their own courts
+      and their own right to make war and peace, in exchange for a nominal
+      oath and a fixed tribute. The empire's Italian claim became, from this
+      point on, a formality the cities purchased rather than an authority they
+      obeyed.
+    source: kington-1862
+    contested: false
+  - year: 1231
+    type: reform
+    name: The Constitutions of Melfi
+    changed: >-
+      Frederick II issued a single comprehensive law code for the Kingdom of
+      Sicily, superseding local custom outright and making royal authority the
+      sole source of justice — distinct civil and criminal courts, officials
+      answerable to the crown, a bureaucracy run on written record rather than
+      feudal privilege. It built, within the empire's own southern kingdom, an
+      administrative state with no real parallel anywhere else in
+      thirteenth-century Europe.
+    source: kington-1862
+    contested: false
+  - year: 1245
+    type: reform
+    name: "Frederick II deposed at the Council of Lyon"
+    changed: >-
+      Pope Innocent IV convened a council far outside imperial reach and had
+      Frederick formally declared deposed as both Emperor and King of Sicily —
+      a sentence with no means of enforcement behind it, since Frederick still
+      held his armies and most of Germany's loyalty, but one that committed
+      the papacy to his destruction in terms no earlier excommunication had.
+      The war it opened outlasted Frederick's own death five years later and
+      consumed his dynasty within a generation.
+    source: kington-1862
     contested: false
   - year: 1356
     type: reform

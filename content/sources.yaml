@@ -2292,6 +2292,22 @@ sources:
       and no narrative spine requires, and why this site's institutions for it
       are coded from Wilson rather than from a chronicle.
 
+  - id: kington-1862
+    kind: book
+    author: T. L. Kington
+    title: "History of Frederick the Second, Emperor of the Romans"
+    container: 2 vols
+    year: 1862
+    note: >-
+      A continuous narrative biography drawing on contemporary chronicles and
+      the Emperor's own registers; volume 1 opens with Frederick Barbarossa's
+      later reign (the 1176 defeat at Legnano and 1183 Peace of Constance) and
+      covers Frederick II's Sicilian government, the 1231 Constitutions of
+      Melfi, the 1228-29 crusade and self-coronation at Jerusalem under
+      excommunication; volume 2 covers the 1245 deposition at the Council of
+      Lyon and Frederick's 1250 death at Fiorentino. Open access via
+      archive.org.
+
   - id: van-tricht-2011
     kind: book
     author: Filip Van Tricht
