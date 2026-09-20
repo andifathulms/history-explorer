@@ -95,6 +95,21 @@ turning_points:
       would seize from his client within a few years.
     source: smith-1904
     contested: false
+  - year: 850
+    type: succession-crisis
+    name: "A vanished heir and a divided throne"
+    changed: >-
+      Devapala's own named heir, Yuvaraja Rajyapala, disappears from
+      the record after his father's death without ever taking the
+      throne; two rival sets of royal charters from the following
+      years, naming different kings and backed by different factions
+      of the same ministerial family, suggest the empire may have been
+      genuinely split between competing claimants before a collateral
+      branch under Vigrahapala I settled the succession by default
+      rather than victory - opening a "period of stagnation" that
+      historians count across five kings.
+    source: chowdhury-1967
+    contested: true
   - year: 966
     type: revolt
     name: "The Kamboja usurpation"
@@ -129,6 +144,22 @@ turning_points:
       Hindu line's slow absorption of the dynasty's own original
       territory, decades before Magadha itself finally fell to
       Muhammadan conquest.
+    source: smith-1904
+    contested: false
+  - year: 1197
+    type: siege
+    name: "Two hundred horsemen take the fort of Bihar"
+    changed: >-
+      The Turkic general Muhammad, son of Bakhtiyar, seized the fort
+      of Bihar with a raiding party of only two hundred horsemen,
+      killing the Buddhist monks of its monasteries so thoroughly that
+      no one literate enough to read their own libraries could later
+      be found; the following year the same commander took the Sena
+      capital at Nadia with a bodyguard of eighteen. The last Pala
+      king, Indradyumna by tradition, disappears from the record at
+      the same moment - a four-and-a-half-century dynasty ending in a
+      conquest its exhausted successor state had no capacity to
+      resist.
     source: smith-1904
     contested: false
 
