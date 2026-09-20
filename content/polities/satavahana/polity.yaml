@@ -91,6 +91,20 @@ turning_points:
       empire that still nominally stood over him.
     source: yazdani-1960
     contested: false
+  - year: -158
+    type: battle
+    name: "Kharavela names Satakarni in his own inscription"
+    changed: >-
+      The Kalinga king Kharavela's Hathigumpha inscription records
+      sending a large army west in his second regnal year against a
+      king called Satakarni - almost certainly a Satavahana ruler,
+      since the family routinely took the name as a royal title. It is
+      the clearest outside evidence that a Satavahana king was already
+      a power worth a rival monarch's attention a full century before
+      Gautamiputra's own celebrated reign, in a stretch of dynastic
+      history that otherwise left no monument or war record behind.
+    source: vincent-smith-1904
+    contested: true
   - year: -27
     type: battle
     name: An unnamed Andhra king ends the Kanvas

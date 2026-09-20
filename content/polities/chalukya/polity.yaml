@@ -117,6 +117,33 @@ turning_points:
       fall.
     source: yazdani-1960
     contested: false
+  - year: 655
+    type: succession-crisis
+    name: "Vikramaditya I restores a divided kingdom"
+    changed: >-
+      Thirteen years of interregnum after Pulakeshin II's death saw
+      rival sons and a widowed queen, Vijaya-Bhattarika, each claim
+      the throne in turn while feudatories declared independence;
+      Vikramaditya I, aided by his maternal grandfather the Ganga king
+      Durvinita, restored the kingdom's unity and, district by
+      district, recovered the territory lost during the crisis - the
+      point at which the Chalukya empire became one person's fortune
+      again rather than three rivals' unresolved claim.
+    source: yazdani-1960
+    contested: false
+  - year: 674
+    type: battle
+    name: "Vikramaditya I turned back at Peruvalanallur"
+    changed: >-
+      Having camped outside Kanchipuram and, by his own inscriptions'
+      account, captured the Pallava capital, Vikramaditya I was driven
+      back into his own territory by King Paramesvaravarman I at the
+      Battle of Peruvalanallur - each side's own charters claiming the
+      other fled the field, proof that the Pallava-Chalukya rivalry
+      that had already cost one king his life was nowhere near
+      settled.
+    source: yazdani-1960
+    contested: true
   - year: 753
     type: revolt
     name: Dantidurga's overthrow

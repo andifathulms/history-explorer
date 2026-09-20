@@ -64,6 +64,21 @@ preceded_by_external: []
 succeeded_by_external: []
 
 turning_points:
+  - year: 600
+    type: conversion
+    name: "Mahendravarman I turns from Jainism to Shaivism"
+    changed: >-
+      Mahendravarman I, raised Jain and by tradition a persecutor of
+      other faiths, is said to have been converted by the Shaiva saint
+      Appar's own survival of the persecution meant for him; an
+      inscription from the king's reign records him "turned back from
+      hostile conduct to the worship of the linga." He became the
+      dynasty's most prolific builder of rock-cut cave temples and,
+      by his own authorship of the surviving Sanskrit farce Mattavilasa
+      Prahasana, one of its few kings remembered as a writer in his
+      own right.
+    source: gopalan-1928
+    contested: false
   - year: 630
     type: battle
     name: The sack of Vatapi
@@ -74,6 +89,21 @@ turning_points:
       his general Siru-Tonda deep into Chalukya territory, where he
       captured and sacked Vatapi itself and carried a captured pillar of
       victory home to Kanchi.
+    source: gopalan-1928
+    contested: false
+  - year: 731
+    type: succession-crisis
+    name: "Nandivarman II chosen by his subjects"
+    changed: >-
+      When Paramesvaravarman II died without an agreed heir, a twelve
+      -year-old prince from a collateral Pallava line was crowned in
+      his place - a charter issued later in his own reign states
+      plainly that he "was chosen by his subjects," language read by
+      later historians as describing something like an election to
+      the throne. He spent much of his reign at war defending the
+      choice, at one point besieged in his own fortress town, before
+      an alliance with the rising Rashtrakuta chief Dantidurga helped
+      end Chalukya power in the western Deccan for good.
     source: gopalan-1928
     contested: false
   - year: 897
