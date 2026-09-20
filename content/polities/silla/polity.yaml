@@ -82,6 +82,33 @@ turning_points:
       equals rather than any single chief's conquest of the others.
     source: hulbert-1905
     contested: false
+  - year: 504
+    type: reform
+    name: "The kingdom renamed Silla"
+    changed: >-
+      King Chi-jeung abolished the practice of burying ten people alive
+      with a dead king, adopted the Chinese royal title Wang in place
+      of the older Isageum and Maripgan, and renamed the kingdom itself
+      Silla in place of Saro, Seoyabeol and Gyerim - the point at which
+      a confederacy with a Korean vocabulary began remaking itself with
+      a Chinese one.
+    source: hulbert-1905
+    contested: false
+  - year: 527
+    type: conversion
+    name: "Yi Cha-don's execution, and Buddhism's advance"
+    changed: >-
+      King Pŏp-hŭng had the high priest Yi Cha-don executed after
+      courtiers alarmed at Buddhist influence pressed him to act; when
+      the priest's severed neck ran white with blood rather than red,
+      exactly as he had predicted it would if Buddhism were true, the
+      religion's opponents fell silent and its advance went unopposed
+      from that day on. The same year the neighboring confederacy of
+      Ka-rak, independent for four hundred and eighty-two years by this
+      source's count, was voluntarily folded into Silla by its own
+      king without a battle fought.
+    source: hulbert-1905
+    contested: false
   - year: 685
     type: reform
     name: The nine provinces

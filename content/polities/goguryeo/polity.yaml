@@ -81,6 +81,20 @@ turning_points:
       piece by piece rather than all at once.
     source: hulbert-1905
     contested: false
+  - year: 391
+    type: succession-crisis
+    name: "Tam-dok takes the throne"
+    changed: >-
+      Tam-dok began his reign by discarding every prior agreement with
+      Baekje, seizing ten of its towns and the near-impregnable fortress
+      of Kwang-nu by simultaneous assault from seven paths up a sea
+      cliff, then decreed that all of Goguryeo should adopt the
+      Buddhist faith his own father had introduced twenty years before.
+      His twenty-one-year reign fixed the kingdom's territorial reach
+      and religious character for the generation after him, before he
+      was succeeded in 413 by his son Kö-ryŭn.
+    source: hulbert-1905
+    contested: false
   - year: 612
     type: battle
     name: Salsu

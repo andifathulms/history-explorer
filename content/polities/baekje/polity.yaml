@@ -109,6 +109,20 @@ turning_points:
       army had just fought across.
     source: hulbert-1905
     contested: false
+  - year: 475
+    type: catastrophe
+    name: "The Han River capital falls, and moves to Ungjin"
+    changed: >-
+      A Goguryeo monk posing as a refugee spent years emptying Baekje's
+      treasury on needless public works before slipping home and
+      reporting the kingdom defenseless; the invasion that followed
+      burned the capital, killed the king on the road as he fled, and
+      carried off eight thousand captives. Crown Prince Mun-ju rebuilt
+      the kingdom from exile, moving its capital south to Ungjin - the
+      same Han River frontier Baekje had crossed in triumph a century
+      earlier now erasing the capital it had built there.
+    source: hulbert-1905
+    contested: false
   - year: 660
     type: siege
     name: The fall of Sabi
