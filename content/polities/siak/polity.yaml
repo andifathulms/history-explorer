@@ -11,22 +11,23 @@ name:
 
 # Johor's own record (andaya-1975) dates Raja Kecil's seizure of Johor's
 # throne to 1718, the event this record's own span starts from since it is
-# the same claim of descent that later founds Siak itself; his own
-# kingdom there, founded after he lost that throne back to the bendahara
-# line, is not independently dated by any source consulted here, so 1725
-# is used as an approximate founding year consistent with the timing
-# Johor's own record implies rather than a figure stated outright. No
-# source consulted here follows Siak's own history past its founding - see
-# the comment on `ended` below.
+# the same claim of descent that later founds Siak itself. His own
+# kingdom on the Siak river is dated to 1723 by siak-sistem-pemerintahan-2021.
+# Between that founding and Sultan Sjarif Kasim II's 1946 dissolution of
+# the sultanate lies a stretch of nearly two centuries - roughly 1725 to
+# 1908 - that no source consulted here covers; only the founding and the
+# closing decades are narrated.
 span:
   start: { min: 1718, max: 1718, source: andaya-1975 }
-  end: { min: 1725, max: 1725, source: andaya-1975 }
+  end: { min: 1946, max: 1946, source: khairiah-siak-education-2024 }
 
 identity: >-
   A kingdom founded on a claim rather than a conquest of soil - a
   posthumous prince's disputed birthright to Johor's own throne, converted
   into a separate Sumatran sultanate once the claim to Johor itself could
-  not be made to stick.
+  not be made to stick - that outlasted Dutch colonial rule and ended when
+  its own last sultan handed its treasury to a new republic rather than
+  bargain for his own line's future.
 
 capitals:
   - { name: "Siak Sri Indrapura", source: andaya-1975 }
@@ -36,8 +37,11 @@ core_region: The Siak river basin on the eastern coast of Sumatra, opposite the 
 rulers:
   founder: { name: "Raja Kecil (Sultan Abdul Jalil Rahmat Shah)", source: andaya-1975 }
   peak: { name: null, source: null }
-  # No source consulted here follows Siak's own line past its founder.
-  last: { name: null, source: null }
+  # Twelfth and last sultan, who directed the sultanate's own treasury
+  # toward independent schools under Dutch rule and, in 1945, gave that
+  # same treasury to the new Republic of Indonesia rather than negotiate
+  # a separate settlement for his own line.
+  last: { name: "Sultan Sjarif Kasim II", source: khairiah-siak-education-2024 }
 
 scripts_and_languages:
   administration: [Malay]
@@ -46,20 +50,26 @@ scripts_and_languages:
 institutions:
   military_basis: null
   revenue_basis: null
-  succession_rule: null
+  # A council of four hereditary datuk (Tanah Datar, Limapuluh, Pesisir
+  # and Kampar) chose each new sultan by consensus rather than by a
+  # stated order of birth; no fixed term bound a sultan once chosen.
+  succession_rule: { values: [election], source: siak-sistem-pemerintahan-2021 }
   # Raja Kecil's entire claim to rule rested on his own contested descent,
   # not on any office, election or conquest of a rival's own capital -
   # descent was the argument itself, not merely its justification.
   legitimation: { values: [descent], source: andaya-1975 }
 
-# No source consulted here documents Siak's own later history or end; the
-# sultanate in fact continued into the twentieth century, long past what
-# this record's own sources cover.
+# Sultan Sjarif Kasim II gave the sultanate's own treasury to the new
+# Republic of Indonesia in 1945 rather than negotiate a separate future
+# for his own line; the sultanate itself is dated to have ended in 1946.
+# `gradual absorption` is the closest fit in the closed vocabulary - the
+# act itself was immediate, but it was the sultan's own choice rather
+# than a conquest, a usurpation or a dynastic replacement.
 ended:
-  type: still contested
+  type: "gradual absorption"
   by: []
-  year: null
-  source: andaya-1975
+  year: 1946
+  source: siak-sistem-pemerintahan-2021
 
 preceded_by_external: []
 succeeded_by_external: []
@@ -86,6 +96,30 @@ turning_points:
       could no longer make stick - the same descent claim that had won
       him a throne once now founding a separate one.
     source: andaya-1975
+    contested: false
+  - year: 1917
+    type: reform
+    name: "Madrasah Taufiq Alhasjimiah founded"
+    changed: >-
+      Dissatisfied that the Dutch-run school he had helped establish two
+      years earlier taught Siak's own children little of their religion
+      or their own nationality, Sultan Sjarif Kasim II founded an
+      independent school for boys using the sultanate's own funds - the
+      first in a series of schools, including two founded for girls
+      within the next two decades, that became the one arena where the
+      sultan could still exercise real authority under Dutch rule.
+    source: khairiah-siak-education-2024
+    contested: false
+  - year: 1946
+    type: treaty
+    name: "The telegram to Sukarno"
+    changed: >-
+      On hearing of Indonesia's 1945 declaration of independence, Sultan
+      Sjarif Kasim II pledged the new republic his moral, political and
+      material support and handed over the whole of the sultanate's own
+      treasury to the Indonesian state, closing out the sultanate at his
+      own initiative rather than under outside compulsion.
+    source: siak-sistem-pemerintahan-2021
     contested: false
 
 measures:
