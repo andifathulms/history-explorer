@@ -105,6 +105,33 @@ turning_points:
       every tradition of the city's origin, on a holy man's advice.
     source: sewell-1900
     contested: false
+  - year: 1366
+    type: battle
+    name: "A jest, a massacre, and the first royal invasion"
+    changed: >-
+      A drunken order for a gift drawn on the Vijayanagara treasury,
+      answered with public contempt, drew the Bahmani sultan Muhammad
+      Shah across the Tungabhadra in person for the first time any
+      Delhi-descended Muhammadan sovereign had done so; a border
+      massacre at Mudkal and a night attack that routed Bukka I's own
+      army followed, in a campaign a Muslim court chronicler - no
+      neutral witness, by his own account's admission - would later put
+      the Hindu dead at half a million.
+    source: sewell-1900
+    contested: true
+  - year: 1406
+    type: treaty
+    name: "The farmer's daughter and a humiliating peace"
+    changed: >-
+      A botched attempt by Deva Raya I to seize a farmer's daughter
+      from the border town of Mudkal gave the Bahmani sultan Firuz Shah
+      grounds to besiege Vijayanagara itself for months; Deva Raya
+      bought peace with an immense indemnity, the permanent loss of the
+      fortress of Bankapur, and his own daughter's marriage outside her
+      caste to the sultan who had just devastated his kingdom - the
+      first such match a Vijayanagara king is recorded making.
+    source: sewell-1900
+    contested: false
   - year: 1520
     type: battle
     name: The battle of Raichur
