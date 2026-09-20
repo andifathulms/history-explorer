@@ -87,6 +87,48 @@ turning_points:
       overlord.
     source: smith-1904
     contested: false
+  - year: 1022
+    type: siege
+    name: "Kalanjar outlasts Mahmud"
+    changed: >-
+      Sultan Mahmud of Ghazni, who had already routed Vidyadhara in the
+      field three years earlier after the Chandel king killed the
+      Kanauj ruler Rajyapala, returned and besieged Kalanjar itself;
+      the fortress held through a siege dikshit-1977 calls of
+      "considerable time" until Mahmud accepted Vidyadhara's own terms
+      for peace rather than storm it - the fort's first proof, and not
+      its last, that it could survive what its king in the open field
+      could not.
+    source: dikshit-1977
+    contested: false
+  - year: 1060
+    type: succession-crisis
+    name: "Lakshmikarna uproots the dynasty"
+    changed: >-
+      Where Vidyadhara's own immediate successors, Vijayapala and
+      Devavarman, left no record of any success against their
+      neighbours, the Kalachuri king Lakshmikarna of Dahala overran the
+      Chandel kingdom outright - a conquest a contemporary court drama
+      says "uprooted" the family entirely, and which dikshit-1977
+      judges likely cost Devavarman, omitted from every later dynastic
+      list his own family kept, his throne and possibly his life.
+      Devavarman's brother Kirtivarman restored the kingdom in turn,
+      an achievement celebrated at his own court in the Sanskrit drama
+      Prabodhachandrodaya.
+    source: dikshit-1977
+    contested: true
+  - year: 1120
+    type: succession-crisis
+    name: "An abdication to the divine river"
+    changed: >-
+      Jayavarman, "wearied of government" by a Kalanjar inscription's
+      own account, abdicated the throne and departed for the Ganges to
+      wash away his sins, leaving no capable heir; the throne passed
+      instead to his uncle Prithvivarman, whose own son Madanavarman
+      would go on to revive Chandel power against the Kalachuri and
+      Paramara kings before passing the kingdom to his son Paramardi.
+    source: dikshit-1977
+    contested: false
   - year: 1203
     type: siege
     name: "The fall of Kalanjar"
