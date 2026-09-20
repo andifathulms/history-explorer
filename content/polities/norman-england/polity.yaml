@@ -147,6 +147,20 @@ turning_points:
       principality, from this point on.
     source: tout-1905
     contested: false
+  - year: 1327
+    type: succession-crisis
+    name: "Deposition and murder of Edward II"
+    changed: >-
+      Isabella and Mortimer's invasion collapsed Edward II's rule
+      within weeks; rather than risk deposing an anointed king outright,
+      a parliamentary delegation extracted his own resignation at
+      Kenilworth in favour of his fourteen-year-old son. Moved under
+      guard to Berkeley, the deposed king was murdered that September -
+      the first English king killed after a formal resignation of the
+      crown, and the precedent Richard II's own deposition would follow
+      seventy years later.
+    source: tout-1905
+    contested: false
   - year: 1356
     type: battle
     name: "Battle of Poitiers"
