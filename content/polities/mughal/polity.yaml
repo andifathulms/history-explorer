@@ -34,6 +34,68 @@ ended:
   year: 1857
   source: richards-1993
 
+turning_points:
+  - year: 1526
+    type: battle
+    name: "Panipat"
+    changed: >-
+      Babur beat the last Lodi sultan of Delhi with artillery and a
+      smaller army, taking the Delhi Sultanate's own capital and
+      founding, almost as an afterthought to a career spent failing to
+      hold Samarkand, the dynasty that would govern most of the
+      subcontinent for the next two centuries.
+    source: richards-1993
+    contested: false
+  - year: 1556
+    type: reform
+    name: "Akbar's mansabdari"
+    changed: >-
+      Akbar came to the throne at thirteen and spent fifty years
+      building a single numerical rank system that bound every officer
+      of the empire - Muslim, Hindu, Persian émigré, Rajput prince -
+      to unheritable, rotated land assignments matched against a
+      province-by-province revenue survey, solving for about a century
+      the failure mode that had broken the Delhi Sultanate and every
+      comparable state before it.
+    source: richards-1993
+    contested: false
+  - year: 1658
+    type: succession-crisis
+    name: "Samugarh and the head in the box"
+    changed: >-
+      Shah Jahan's illness set his four sons to war before anyone could
+      confirm he was still alive; Aurangzeb and Murad Bakhsh broke
+      Dara Shikoh's army at Samugarh, Aurangzeb's own son seized the
+      Agra citadel by trickery and imprisoned Shah Jahan in it, and
+      Dara was captured, tried for apostasy and executed in 1659 - his
+      head delivered to his own father sealed in a box.
+    source: bernier-constable
+    contested: false
+  - year: 1679
+    type: reform
+    name: "The jizya reimposed"
+    changed: >-
+      Aurangzeb reversed the core of Akbar's religious settlement,
+      reimposing the poll tax on non-Muslims his great-grandfather had
+      abolished and patronising a stricter Sunni establishment - a
+      reversal historians still weigh against the fiscal strain of the
+      Deccan wars as a cause of the empire's later collapse, without
+      settling which mattered more.
+    source: richards-1993
+    contested: true
+  - year: 1707
+    type: catastrophe
+    name: "Aurangzeb dies, and the treasury with him"
+    changed: >-
+      The empire reached its greatest territorial extent under
+      Aurangzeb and was insolvent when he died after forty-nine years
+      on the throne, twenty-five of them spent campaigning in the
+      Deccan; within fifty years its provinces governed themselves in
+      practice while remitting nothing to a Delhi that kept only the
+      ceremony of rule.
+    source: richards-1993
+    contested: false
+
 measures:
   reach_km2: { value: 4000000, at: 1690, source: taagepera-1997 }
   peak_population: null
