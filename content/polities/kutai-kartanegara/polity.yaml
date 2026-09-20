@@ -11,12 +11,14 @@ name:
 
 # sopian-norhidayat-2022 dates the founding to 1300 and its own narrative
 # arc to 1732, when Aji Muhammad Idris became the first ruler to hold the
-# title Sultan. This record's own span follows that source's own scope
-# rather than the much longer sultanate history that continued afterward
-# into the twentieth century.
+# title Sultan. wahyudi-idris-voc-2021 extends the same reign to at least
+# 1747, the year of a fourth failed VOC attempt at a trade monopoly, which
+# Idris resisted with an alliance across the Makassar Strait. Coverage
+# still stops well short of the sultanate's actual continuation into the
+# twentieth century on the same Mahakam river ground.
 span:
   start: { min: 1300, max: 1300, source: sopian-norhidayat-2022 }
-  end: { min: 1732, max: 1732, source: sopian-norhidayat-2022 }
+  end: { min: 1747, max: 1747, source: wahyudi-idris-voc-2021 }
 
 identity: >-
   A Mahakam river kingdom that took its own name from an older Hindu
@@ -36,10 +38,12 @@ rulers:
   # Hindu kingdom at Muara Kaman and merged its name into his own title -
   # the single most consequential reign in the source's own account.
   peak: { name: "Pangeran Sinum Panji Mendapa", source: sopian-norhidayat-2022 }
-  # Aji Muhammad Idris was installed as the kingdom's first ruler to hold
-  # the title Sultan in 1732, at his predecessor's own abdication - the
-  # point this record's own source treats as its narrative's natural close.
-  last: { name: "Aji Muhammad Idris", reign: [1732, 1732], source: sopian-norhidayat-2022 }
+  # Provisional, not a claim that Idris was the sultanate's actual last
+  # ruler - only the last one covered by the sources consulted here. He
+  # was installed as the kingdom's first ruler to hold the title Sultan
+  # in 1732, and is attested still resisting a Dutch trade mission as
+  # late as 1747; the sultanate itself continued for two more centuries.
+  last: { name: "Aji Muhammad Idris", reign: [1732, null], source: wahyudi-idris-voc-2021 }
 
 scripts_and_languages:
   administration: [Malay, Kutai]
@@ -51,14 +55,16 @@ institutions:
   succession_rule: { values: [primogeniture, matrilineal], source: sopian-norhidayat-2022 }
   legitimation: { values: [descent, conquest], source: sopian-norhidayat-2022 }
 
-# No source consulted here treats 1732 as a conquest or dissolution; it
-# marks a change of royal title (to Sultan) within a continuous line, not
-# an ending. The kingdom in fact continued for over two more centuries.
+# Neither source consulted here treats 1732 or 1747 as a conquest or
+# dissolution; the 1747 date marks the last event confirmed by the
+# sources at hand (a failed Dutch trade mission), not an ending. The
+# sultanate in fact continued for over two more centuries, into the
+# twentieth, on the same Mahakam river ground.
 ended:
   type: still contested
   by: []
-  year: 1732
-  source: sopian-norhidayat-2022
+  year: null
+  source: wahyudi-idris-voc-2021
 
 # The Hindu kingdom this one conquered and absorbed, rather than the one
 # it descended from.
@@ -120,6 +126,18 @@ turning_points:
       outside predation rather than by any dynastic or religious change
       from within.
     source: sopian-norhidayat-2022
+    contested: false
+  - year: 1747
+    type: treaty
+    name: "A fourth VOC mission refused"
+    changed: >-
+      Sultan Aji Muhammad Idris, the kingdom's first ruler to hold that
+      title, refused a Dutch East India Company trade mission under Van
+      der Heyden - the fourth such refusal in little over a century,
+      backed by an alliance across the Makassar Strait with the Bugis
+      commander La Maddukelleng of Wajo and by weapons smuggled in from
+      Brunei, Solok and Mindanao.
+    source: wahyudi-idris-voc-2021
     contested: false
 
 measures:
