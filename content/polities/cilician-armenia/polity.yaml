@@ -51,6 +51,20 @@ institutions:
   legitimation: { values: [descent], source: peacock-yildiz-2013 }
 
 turning_points:
+  - year: 1137
+    type: siege
+    name: "Levon captured and taken to Constantinople"
+    changed: >-
+      The emperor John II Komnenos marched into Cilicia in person and
+      besieged the Rubenid prince Levon in his own city of Anazarbus for
+      thirty-five days, taking it under sustained catapult fire. Levon,
+      his sons and his wife were carried off to Constantinople along
+      with the treasury and a venerated icon of the Mother of God; Levon
+      died there a prisoner, and his son Toros II had to rebuild Rubenid
+      authority in Cilicia from Byzantine captivity rather than inherit
+      it intact.
+    source: matthew-of-edessa
+    contested: false
   - year: 1198
     type: reform
     name: "A crown from two emperors"

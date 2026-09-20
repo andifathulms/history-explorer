@@ -3254,6 +3254,20 @@ sources:
       documents. It is the only history of the caliphate written from inside the
       Cairo Abbasid establishment, and it quotes the paperwork. Out of copyright.
 
+  - id: matthew-of-edessa
+    kind: primary
+    author: Matthew of Edessa
+    title: Chronicle
+    translator: Robert Bedrosian
+    year: 2017
+    note: >-
+      A contemporary Armenian priest's chronicle of the Edessa region and
+      Cilicia, covering the Rubenid succession from Kostandin through
+      Toros I to Levon I, and the emperor John II Komnenos's 1137
+      siege of Anazarbus and capture of Levon and his family, ending its
+      continuous narrative around 1162. Bedrosian's translation is
+      explicitly released into the public domain.
+
   - id: alexiad-dawes
     kind: book
     author: Anna Komnene
