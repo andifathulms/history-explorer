@@ -15,7 +15,10 @@ span:
   # into an expanding empire, conventionally placed at Pachacuti's own
   # accession.
   start: { min: 1438, max: 1438, source: taagepera-1997 }
-  end: { min: 1533, max: 1533, source: taagepera-1997 }
+  # The empire proper, ruled from Cuzco, ended with Atahualpa in 1533 (see
+  # `ended` below); the span is carried forward to 1571 to cover the
+  # Vilcapampa rump state's own end with Tupac Amaru's execution.
+  end: { min: 1571, max: 1571, source: markham-1910 }
 
 identity: >-
   A highland lordship that grew, within a single century, into the largest
@@ -67,8 +70,11 @@ succeeded_by_external:
       Francisco Pizarro's forces, having executed Atahualpa, installed a
       series of puppet Incas before Spanish colonial administration
       replaced native rule outright; resistance continued for decades
-      from a rump state at Vilcabamba, but the empire that had governed
-      the Andes from Cuzco did not survive Atahualpa's own death.
+      from a rump state at Vilcabamba, founded by the puppet Manco Inca
+      after his own revolt failed, and ending only with his son Tupac
+      Amaru's execution by Viceroy Toledo in 1571 - but the empire that
+      had governed the Andes from Cuzco did not survive Atahualpa's own
+      death.
     source: prescott-1847
     contested: false
 
@@ -144,6 +150,42 @@ turning_points:
       Cajamarca plaza where his own captivity had begun nine months
       earlier.
     source: prescott-1847
+    contested: false
+  - year: 1544
+    type: catastrophe
+    name: "Manco Inca killed by refugees he had sheltered"
+    changed: >-
+      Having led a failed siege of Cuzco and retreated into the remote
+      mountain country of Vilcapampa to found a rump Inca state, Manco
+      Inca was killed in a sudden quarrel by one of a group of defeated
+      Spanish rebels he had taken in and armed - the man who had refused
+      every Spanish offer of accommodation for a decade dying at the
+      hands of the very refugees his own hospitality had sheltered.
+    source: markham-1910
+    contested: false
+  - year: 1557
+    type: treaty
+    name: "Sayri Tupac leaves Vilcapampa"
+    changed: >-
+      After years of Spanish overtures, Manco Inca's son and heir agreed
+      to leave Vilcapampa for a Spanish pension, an estate and Christian
+      baptism at Cuzco - the first ruler of the Vilcapampa line to
+      choose accommodation over resistance, and the last Inca to die a
+      natural death.
+    source: markham-1910
+    contested: false
+  - year: 1571
+    type: catastrophe
+    name: "Tupac Amaru is executed"
+    changed: >-
+      Captured fleeing toward the lowland forest after a Spanish
+      invasion of Vilcapampa provoked by his own brother's death,
+      Manco's youngest son was crowned against his will by the last
+      Inca loyalists, marched to Cuzco in chains, and publicly beheaded
+      on Viceroy Toledo's order despite pleas for mercy from the city's
+      own church leaders - ending the Inca royal line as a ruling
+      dynasty for good.
+    source: markham-1910
     contested: false
 
 measures:
