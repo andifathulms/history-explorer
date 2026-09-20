@@ -1,36 +1,42 @@
 id: lan-xang
 region: mainland-southeast-asia
 
-# wood-1926 gives no date for Lan Xang's own founding (traditionally
-# credited to Fa Ngum in 1353) and this record does not assert one; its
-# own narrative opens with King Jai Jett'a's (Setthathirath's) 1547
-# succession to the Luang Prabang throne, already an established kingdom,
-# and follows it through the Siamese conquest of Wiengchan in 1779.
+# coedes-1968 dates Fa Ngum's own solemn coronation, which united Luang
+# Prabang and Wiangchan under one crown for the first time and marks the
+# kingdom's own founding, to 1353. wood-history-of-siam-1926, which
+# carries the narrative from there, gives no connected account of the
+# two intervening centuries before its own narrative settles on King
+# Jai Jett'a's (Setthathirath's) 1547 accession, and follows the kingdom
+# through the Siamese conquest of Wiengchan in 1779.
 name:
   latin: Lan Xang (Luang Prabang and Vientiane)
   script: null
   script_lang: null
 
 span:
-  start: { min: 1547, max: 1547, source: wood-history-of-siam-1926 }
+  start: { min: 1353, max: 1353, source: coedes-1968 }
   end: { min: 1779, max: 1779, source: wood-history-of-siam-1926 }
 
 identity: >-
-  The Lao kingdom of the middle Mekong, ruled from Luang Prabang and then
-  Wiengchan (Vientiane), which fought Burma to a standstill under King Jai
-  Jett'a, lost him without a trace in a Cambodian jungle, passed through
-  Burmese vassalage and back to independence, and fell to a Siamese army
-  that emptied its capital of plunder, including the Emerald Buddha its
-  own king had once carried off from Chiengmai.
+  The Lao kingdom of the middle Mekong, joined under one crown by an
+  exile's son raised at the Khmer court, ruled from Luang Prabang and
+  then Wiengchan (Vientiane), which fought Burma to a standstill under
+  King Jai Jett'a, lost him without a trace in a Cambodian jungle,
+  passed through Burmese vassalage and back to independence, split into
+  rival thrones by treaty, and fell at last to a Siamese army that
+  emptied its capital of plunder, including the Emerald Buddha its own
+  king had once carried off from Chiengmai.
 
 capitals:
-  - { name: Luang Prabang, from: null, source: wood-history-of-siam-1926 }
+  - { name: Luang Prabang, from: 1353, source: coedes-1968 }
   - { name: "Wiengchan (Vientiane)", from: null, source: wood-history-of-siam-1926 }
 
 core_region: The middle Mekong valley, present-day Laos
 
 rulers:
-  founder: { name: null, source: null }
+  # coedes-1968 dates Fa Ngum's birth to 1316 and his coronation, which
+  # founded the kingdom, to 1353; no death year is given.
+  founder: { name: "Fa Ngum", reign: [1353, null], source: coedes-1968 }
   # wood-1926 centers its Lao narrative on King Jai Jett'a (Setthathirath),
   # who fought off repeated Burmese invasions, moved the capital to
   # Wiengchan, and remains the dynasty's best-attested king.
@@ -77,6 +83,19 @@ ended:
   source: wood-history-of-siam-1926
 
 turning_points:
+  - year: 1353
+    type: succession-crisis
+    name: "Fa Ngum's coronation"
+    changed: >-
+      Raised in exile at the Khmer court of Angkor and given an army by
+      his father-in-law the Cambodian king, Fa Ngum fought and
+      negotiated his way up the Mekong, winning most of his rivals'
+      submission through a shared claim of descent from a common
+      ancestor rather than by conquest, before taking Wiangchan by a
+      feigned retreat and being crowned king - joining Luang Prabang
+      and Wiangchan under one throne for the first time.
+    source: coedes-1968
+    contested: false
   - year: 1547
     type: succession-crisis
     name: "Jai Jett'a returns from Chiengmai with Buddha images"
@@ -132,6 +151,19 @@ turning_points:
       vassalage and re-established independent rule, ending the period of
       Burmese overlordship that had begun with the installation of Jai
       Jett'a's brother twenty-one years before.
+    source: wood-history-of-siam-1926
+    contested: false
+  - year: 1699
+    type: treaty
+    name: "One crown divided"
+    changed: >-
+      Rather than fight his cousin's Siamese-backed army for control of
+      Wiengchan, Prince Kingkisarat of Luang Prabang agreed to a treaty
+      splitting the old kingdom outright, one cousin keeping Luang
+      Prabang and the other Wiengchan as separate thrones; a third
+      kingdom, Champasak, already stood apart downriver by the time
+      Siam next intervened in Lao affairs in the 1770s, though the
+      source gives no account of when or how it separated.
     source: wood-history-of-siam-1926
     contested: false
   - year: 1779
