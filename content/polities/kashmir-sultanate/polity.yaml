@@ -61,6 +61,19 @@ turning_points:
       outright kingship in a single stroke.
     source: haig-1928
     contested: false
+  - year: 1394
+    type: catastrophe
+    name: "Sikandar's accession and the Iconoclast's reign"
+    changed: >-
+      Placed on the throne as a child by his mother Sura, who had her
+      own daughter and son-in-law killed to secure it for him, Sikandar
+      grew into a king whose destruction of Kashmir's Hindu temples and
+      idols, and whose final choice offered to the valley's Brahmans
+      between Islam and exile, left the community that had dominated
+      Kashmir before his reign a small minority within it - a change
+      still legible in the population figures of Haig's own day.
+    source: haig-1928
+    contested: false
   - year: 1420
     type: reform
     name: Zain-ul-Abidin's accession
