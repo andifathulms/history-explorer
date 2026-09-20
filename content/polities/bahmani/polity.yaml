@@ -88,6 +88,43 @@ turning_points:
       chronicler doubted outright.
     source: firishta-briggs-1829
     contested: false
+  - year: 1366
+    type: battle
+    name: "A drunken jest and a war of extermination"
+    changed: >-
+      A gift order drawn on the Vijayanagara treasury and the Raja's
+      contemptuous refusal to honor it gave Muhammad Shah I grounds for
+      the first war in which a Delhi-descended Muhammadan sovereign led
+      an army in person across the Tungabhadra, opening with a
+      massacre at the border town of Mudkal that the sultan answered
+      with an oath to kill a hundred thousand in revenge.
+    source: firishta-briggs-1829
+    contested: true
+  - year: 1406
+    type: treaty
+    name: "The farmer's daughter and a royal marriage"
+    changed: >-
+      A botched Vijayanagara attempt to seize a farmer's daughter from
+      the border town of Mudkal gave Taj ud-Din Firuz Shah grounds to
+      besiege Vijayanagara itself for months; the peace that ended it
+      cost the Raja the fortress of Bankapur and his own daughter's
+      hand in marriage outside her caste, sealing what Firishta records
+      as the Bahmani dynasty's greatest reign at its outward height.
+    source: firishta-briggs-1829
+    contested: false
+  - year: 1422
+    type: succession-crisis
+    name: "A son passed over, a brother crowned"
+    changed: >-
+      As Firuz Shah's health and judgment failed him, his brother Ahmad
+      Khan moved against the sultan's own son Hasan Khan for the
+      throne; a false report of Firuz Shah's death in the fighting
+      swung the army to Ahmad's banner, and the dying sultan opened his
+      own gates rather than prolong a contest he judged already lost,
+      naming loyalty of army and nobility, not birthright, the true
+      basis of a throne.
+    source: firishta-briggs-1829
+    contested: false
   - year: 1481
     type: revolt
     name: The execution of Mahmud Gawan
