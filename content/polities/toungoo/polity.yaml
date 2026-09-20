@@ -17,9 +17,11 @@ span:
 identity: >-
   A refugee garrison town's dynasty, founded by a fifteen-year-old
   king who reunited Burma by conquest and stratagem, carried to its
-  own peak by his general and brother-in-law Bayinnaung, and ended two
-  centuries later when a starving Ava fell to Mon rebels who burned it
-  to the ground.
+  own peak by his general and brother-in-law Bayinnaung, rebuilt from
+  sixteen years of fragmentation by a grandson's patient reconquest
+  and a revenue inquest that outlasted the wars which made it
+  necessary, and ended two centuries after its founding when a
+  starving Ava fell to Mon rebels who burned it to the ground.
 
 capitals:
   - { name: Toungoo, source: harvey-burma-1925 }
@@ -88,6 +90,48 @@ turning_points:
       and had him beheaded at thirty-five - opening the succession
       that brought his brother-in-law and general, Bayinnaung, to the
       throne.
+    source: harvey-burma-1925
+    contested: false
+  - year: 1605
+    type: succession-crisis
+    name: "Nyaungyan dies mid-reconquest"
+    changed: >-
+      Bayinnaung's empire had broken into sixteen years of mutually
+      hostile petty states after his son lost Pegu around 1599; his
+      grandson, the lord of Nyaungyan, spent his own reign patiently
+      reducing the Shan states one by one from a base of only Ava and
+      its immediate country, and died on the march home from a
+      campaign still short of finishing the work - passing an oath of
+      allegiance to his son Anaukpetlun beside his own funeral pyre,
+      who completed the reunification of Upper and Lower Burma within
+      a decade.
+    source: harvey-burma-1925
+    contested: false
+  - year: 1613
+    type: siege
+    name: "The fall of Syriam"
+    changed: >-
+      Anaukpetlun besieged and took the port of Syriam from the
+      Portuguese adventurer Filipe de Brito, who had built an
+      independent fortune there on temple gold and trade tolls before
+      allying with a rebellious Toungoo vassal against the crown; de
+      Brito was impaled above his own former fort, and the last piece
+      of Bayinnaung's old kingdom still standing outside royal control
+      was brought back under it.
+    source: harvey-burma-1925
+    contested: false
+  - year: 1638
+    type: reform
+    name: "Thalun's revenue inquest"
+    changed: >-
+      Having moved the capital back to Ava for good in 1635, Thalun
+      ordered the first revenue inquest in Burmese history, rebuilding
+      the tax and canal administration a century of civil war and the
+      Delta's own depopulation had left in ruins - a survey later
+      Konbaung kings would consciously imitate, and evidence enough of
+      how completely the wars had disordered the kingdom that even a
+      major shrine, Shwesettaw, had been lost under jungle growth and
+      needed to be rediscovered the same year.
     source: harvey-burma-1925
     contested: false
   - year: 1752
