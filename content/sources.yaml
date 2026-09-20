@@ -2253,6 +2253,18 @@ sources:
       gravity is the shipping, the money and the constitution rather than the
       art, which is why this site's Venetian institutions are coded from it.
 
+  - id: brown-1893
+    kind: book
+    author: Horatio F. Brown
+    title: "Venice: An Historical Sketch of the Republic"
+    year: 1893
+    note: >-
+      Covers the 1080s war against Robert Guiscard's Normans at Durazzo
+      and Corfu, Doge Domenico Selvo's deposition after the first
+      defeat, and the 1082 Golden Bull by which Alexios I rewarded
+      Venetian naval help with customs exemption and a merchant quarter
+      in Constantinople. Open access via archive.org.
+
   - id: epstein-1996
     kind: book
     author: Steven A. Epstein
