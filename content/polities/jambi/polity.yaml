@@ -75,6 +75,47 @@ turning_points:
       near it.
     source: andaya-b-1993
     contested: false
+  - year: 1690
+    type: succession-crisis
+    name: "A prince crowns himself upstream"
+    changed: >-
+      After the Dutch arrested and exiled the sultan over the killing
+      of their own trading-post chief and installed his son as a
+      replacement ruler in his place, the rightful heir, Pangeran
+      Ratu, refused to accept the substitution and had himself
+      crowned instead at Muara Tebo as Sultan Sri Maharaja Batu, with
+      Minangkabau backing and the recognition of the Minangkabau king
+      at Pagaruyung - splitting the sultanate into rival upstream and
+      downstream courts.
+    source: jambi-penetration-2021
+    contested: false
+  - year: 1835
+    type: treaty
+    name: "The Sungai Baung agreements"
+    changed: >-
+      Sultan Muhammad Fachruddin's request for Dutch help against
+      river pirates and a rebellious Palembang dependency in 1833 was
+      answered with a price: agreements signed at Sungai Baung placed
+      Jambi under formal Dutch protection, granted the Dutch excise
+      and salt-monopoly rights, and bound the sultan and his heir to
+      an annual stipend - the direct provocation that would define his
+      son and successor Thaha Syaifuddin's own refusal to be bound by
+      it.
+    source: jambi-penetration-2021
+    contested: false
+  - year: 1858
+    type: succession-crisis
+    name: "The Dutch depose Sultan Thaha by decree"
+    changed: >-
+      Thaha Syaifuddin's outright refusal to honor his father's
+      treaties, including a direct appeal to the Ottoman Sultan as
+      Caliph to ban outside interference in Jambi, led the Dutch to
+      declare him deposed on 25 September 1858 without any Jambi
+      institution's involvement; an attack on the capital that
+      November drove him into exile at Muara Tembesi, while the Dutch
+      installed his own uncle as a replacement sultan in his place.
+    source: jambi-penetration-2021
+    contested: false
 
 measures:
   reach_km2: null
