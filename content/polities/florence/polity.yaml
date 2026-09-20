@@ -98,6 +98,21 @@ turning_points:
       practice.
     source: trollope-1865
     contested: false
+  - year: 1260
+    type: battle
+    name: "Battle of Montaperti"
+    changed: >-
+      A Ghibelline army stiffened by German mercenaries and exiled
+      Florentine nobles destroyed a Guelph coalition of more than three
+      thousand horsemen and thirty thousand foot on the banks of the
+      Arbia, after the Florentine standard-bearer's own sword arm was
+      hacked off by a Ghibelline riding disguised in the Guelph ranks.
+      More than 2,500 died and the sacred war-cart was captured; the
+      defeat, still remembered in Dante's own lifetime, broke the
+      popular government the city had built over the previous decade
+      and drove the Guelphs into mass exile.
+    source: trollope-1865
+    contested: false
   - year: 1293
     type: reform
     name: "The Ordinances of Justice"
