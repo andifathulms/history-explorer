@@ -158,6 +158,20 @@ turning_points:
       Kushite pharaohs for a decade over it.
     source: welsby-1996
     contested: false
+  - year: -525
+    type: battle
+    name: "Cambyses turned back"
+    changed: >-
+      Herodotus records that the Persian king Cambyses, having just
+      conquered Egypt, marched an army south to conquer Nubia after its
+      king rejected his overtures and sent back an unstrung bow as a
+      challenge. The expedition never reached the Nubian capital,
+      destroyed by hunger and desert conditions on the march - a story
+      whose factual core cannot be verified, but which the era's own
+      royal stelae, naming kings who kept ruling from Napata
+      uninterrupted, do nothing to contradict.
+    source: budge-egyptian-sudan-1907
+    contested: true
   - year: -300
     type: capital-move
     name: Meroë

@@ -4512,6 +4512,26 @@ sources:
       which is documentary regardless of whether the reasons are the real ones.
       Out of copyright.
 
+  - id: budge-egyptian-sudan-1907
+    kind: book
+    author: E. A. Wallis Budge
+    title: "The Egyptian Sûdân: Its History and Monuments"
+    publisher: J. B. Lippincott Company
+    year: 1907
+    note: >-
+      A British Museum Egyptologist's two-volume survey, drawing on his
+      own excavations at Gebel Barkal and Meroë alongside translations
+      of the Napatan royal stelae. Cited here, in the absence of access
+      to welsby-1996 (lending-restricted), for the reign of Aspelta -
+      his own coronation stela's account of the election ritual before
+      the statue of Amen-Ra at Gebel Barkal, and his descent traced
+      through six generations of royal women - and for Herodotus's
+      account of Cambyses's failed invasion of Nubia around 525 BC,
+      presented here as the classical historian's own story rather than
+      as verified fact. Some of Budge's regnal dates and orderings for
+      this period have since been revised by later scholarship; this is
+      noted rather than silently corrected. Out of copyright.
+
   - id: burckhardt-nubia
     kind: primary
     author: John Lewis Burckhardt
@@ -4526,6 +4546,29 @@ sources:
       recorded as Greek because they were Christian and looked Byzantine to him.
       That incuriosity is what makes the observations useful, since he had no
       thesis to fit them to. Published posthumously. Out of copyright.
+
+  - id: bruce-1790-nile
+    kind: primary
+    author: James Bruce of Kinnaird
+    title: >-
+      Travels to Discover the Source of the Nile, in the Years 1768,
+      1769, 1770, 1771, 1772, and 1773
+    publisher: G. G. J. and J. Robinson
+    year: 1790
+    note: >-
+      A Scottish traveler who spent nearly two years at the Gondarine
+      court in the 1770s, close enough to the events to have known
+      people who remembered them, and who prefaced his own travel
+      narrative with a reign-by-reign chronicle of the dynasty back to
+      Fasilides - the founder of Gondar - compiled from court annals
+      and informants. Cited here for the 1630s expulsion of the Jesuit
+      mission, the reign and assassination of Yasous I (Yasous the
+      Great), and the run of short, frequently violent successions
+      that followed through Joas's own reign, ending at the rise of Ras
+      Mikael Sehul this site's existing 1769 turning point already
+      covers. Bruce is a partial and sometimes self-aggrandising
+      narrator of his own travels, but his dynastic chronicle draws on
+      sources not otherwise available in English. Out of copyright.
 
   - id: kebra-nagast-budge
     kind: primary

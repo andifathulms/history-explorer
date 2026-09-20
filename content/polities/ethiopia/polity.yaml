@@ -147,6 +147,20 @@ turning_points:
       back to Solomon and the queen of Sheba.
     source: tamrat-1972
     contested: false
+  - year: 1450
+    type: reform
+    name: "The Council of Debre Mitmaq"
+    changed: >-
+      Zara Yaqob presided in person over a church council that ended a
+      century-old schism over the observance of the Sabbath, winning
+      Egyptian-appointed bishops' formal recognition of the practice in
+      exchange for the Ewostathian monastic movement's acceptance of
+      ordination from those same bishops. It gave the crown a unified
+      church for the first time since the Solomonic restoration, and
+      set the pattern of direct royal involvement in doctrine that
+      defined the rest of his reign.
+    source: tamrat-1972
+    contested: false
   - year: 1543
     type: battle
     name: Wayna Daga
