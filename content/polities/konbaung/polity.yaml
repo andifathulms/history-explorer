@@ -10,21 +10,24 @@ name:
 # own resistance at his home village of Moksobomyo (Shwebo), to 1752.
 span:
   start: { min: 1752, max: 1752, source: harvey-burma-1925 }
-  # This record currently covers only Alaungpaya's own founding reign,
-  # ending with his death on the retreat from the failed siege of
-  # Ayutthaya in 1760 - not an institutional end. harvey-1925 itself
-  # continues the dynasty's own history to 1824, and the dynasty
-  # endured in fact until the British annexation of Upper Burma in
-  # 1885; a second pass through the same source, or a later one, would
-  # be needed to carry this record further.
-  end: { min: 1760, max: 1760, source: harvey-burma-1925 }
+  # The coverage now runs through six reigns - Alaungpaya, Naungdawgyi,
+  # Hsinbyushin, Singu, Bodawpaya and Bagyidaw - to the outbreak of the
+  # First Anglo-Burmese War in March 1824, which is where harvey-1925
+  # itself stops ("to 10 March 1824, the beginning of the English
+  # conquest"). This is still not an institutional end: the dynasty
+  # fought two further wars with Britain and endured until the
+  # annexation of Upper Burma in 1885. A later source covering 1824-85
+  # would be needed to carry this record the rest of the way.
+  end: { min: 1824, max: 1824, source: harvey-burma-1925 }
 
 identity: >-
   A village headman's dynasty, raised from a stockade of felled toddy
   trees against a Talaing army that had just burned the old Burmese
-  capital, and carried in eight years to the homage of French and
-  English captains before its own founder died on retreat from a
-  failed siege he had launched too late in the season.
+  capital, that went on to sack Ayutthaya, repel four Chinese
+  invasions and conquer Arakan under its founder's own sons - before a
+  later king, certain that one Burman was worth four Englishmen,
+  marched into a war with the East India Company his own court had no
+  accurate idea how to measure.
 
 capitals:
   - { name: Shwebo (Moksobomyo), from: 1752, source: harvey-burma-1925 }
@@ -36,13 +39,16 @@ rulers:
   # rising against the Talaings to 1752, and his death, on the retreat
   # from Ayutthaya, to 11 May 1760.
   founder: { name: Alaungpaya, reign: [1752, 1760], source: harvey-burma-1925 }
-  # Provisional. This record currently covers only Alaungpaya's own
-  # reign, and his own conquests - reunifying Burma and receiving the
-  # homage of foreign trading captains within eight years - are the
-  # only ones it can credit with a territorial peak; his son
-  # Hsinbyushin's own later reach may displace him once that reign is
-  # added.
-  peak: { name: Alaungpaya, reign: [1752, 1760], source: harvey-burma-1925 }
+  # harvey-1925 calls Bodawpaya, on the chronicles' own judgment, the
+  # most powerful king to rule Burma with the possible exception of
+  # Bayinnaung (1551-81) - a thirty-seven-year reign that added Arakan
+  # outright and left the kingdom at its largest territorial extent of
+  # the reigns covered so far.
+  peak: { name: Bodawpaya, reign: [1782, 1819], source: harvey-burma-1925 }
+  # Provisional, not a claim that the dynasty ended here. Coverage
+  # currently stops in March 1824 with Bagyidaw still on the throne
+  # and the First Anglo-Burmese War just beginning; the dynasty's
+  # actual last king, Thibaw, was deposed by the British in 1885.
   last: { name: null, source: null }
 
 scripts_and_languages:
@@ -105,6 +111,57 @@ turning_points:
       own attendants - who continued issuing orders in his name from
       his curtained litter - until the crown prince could be secured
       on the throne at Shwebo.
+    source: harvey-burma-1925
+    contested: false
+  - year: 1767
+    type: siege
+    name: "The fall of Ayutthaya"
+    changed: >-
+      After a fourteen-month siege that outlasted both of its own
+      commanders, Hsinbyushin's army breached the walls of the Siamese
+      capital on 28 March 1767, burning it beyond rebuilding and
+      carrying its population north - even as Qing China invaded Upper
+      Burma in the same years, forcing the victorious armies to rush
+      home and fight a second war they had not chosen the timing of.
+    source: harvey-burma-1925
+    contested: false
+  - year: 1782
+    type: succession-crisis
+    name: "The massacre of the kinsmen"
+    changed: >-
+      A midnight coup replaced the drunken, erratic Singu with a
+      puppet cousin who reigned seven days before Bodawpaya, senior of
+      Alaungpaya's surviving sons, took the throne himself and
+      executed every rival claimant along with their households -
+      restoring, by force, the rule that royal brothers should succeed
+      each other in order of seniority, which Hsinbyushin had broken
+      by naming his own son heir a generation before.
+    source: harvey-burma-1925
+    contested: false
+  - year: 1785
+    type: treaty
+    name: "The conquest of Arakan"
+    changed: >-
+      Bodawpaya annexed the war-weakened coastal kingdom of Arakan,
+      giving his own kingdom, for the first time, a land border with
+      territory the English East India Company governed directly in
+      Bengal - a frontier that would spend the next four decades
+      turning refugee crossings and border skirmishes into the spark
+      for a war with Britain neither side yet had reason to expect.
+    source: harvey-burma-1925
+    contested: false
+  - year: 1824
+    type: battle
+    name: "The king decides on war"
+    changed: >-
+      Convinced by decades of unbroken victories over neighbours no
+      other power respected that one Burman was worth four
+      Englishmen, Bagyidaw's court and army together pushed the king
+      into a war with the East India Company; Burmese troops crossed
+      into British territory in January 1824, and the Governor-General
+      of India proclaimed a state of war on 5 March, opening a
+      conflict the Burmese court had no accurate means of measuring
+      the size of the power it had just challenged.
     source: harvey-burma-1925
     contested: false
 
