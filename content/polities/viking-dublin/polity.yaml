@@ -110,6 +110,19 @@ turning_points:
       capacity to dominate the island militarily was broken for good.
     source: todd-1867
     contested: false
+  - year: 1052
+    type: succession-crisis
+    name: "Diarmait mac Maíl na mBó takes the kingship of Dublin"
+    changed: >-
+      With Echmarcach mac Ragnaill gone abroad and the Norse dynasty's
+      hold on the succession broken, Diarmait, king of Leinster, seized
+      the kingship of Dublin in his own right - the first of a
+      succession of outside Irish over-kings, Leinster's and then
+      Munster's, who would hold the town's throne as one title among
+      several for the rest of the century, reducing it from an
+      independent Scandinavian kingdom to a tributary prize.
+    source: haliday-1881
+    contested: false
   - year: 1170
     type: siege
     name: "Strongbow takes Dublin"
