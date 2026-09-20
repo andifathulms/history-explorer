@@ -52,6 +52,20 @@ institutions:
   legitimation: { values: [descent], source: peacock-yildiz-2013 }
 
 turning_points:
+  - year: 1097
+    type: siege
+    name: "Nicaea falls, but not to the crusaders"
+    changed: >-
+      Kilij Arslan I's capital, besieged by the First Crusade, surrendered
+      instead to a Byzantine force smuggled in by lake under a secret deal
+      struck by the emperor Alexios I's own agent - the crusaders discovered
+      only after the fact that the city they had been fighting to take had
+      already changed hands over their heads. With his capital, treasury,
+      wife and sister all in Byzantine hands, Kilij Arslan relocated the
+      sultanate's seat to Konya, deep enough on the plateau to be safe from
+      a repeat of the same maneuver.
+    source: alexiad-dawes
+    contested: false
   - year: 1221
     type: siege
     name: "Alanya"
