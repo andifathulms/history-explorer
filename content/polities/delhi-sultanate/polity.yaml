@@ -34,6 +34,57 @@ ended:
   year: 1526
   source: jackson-1999
 
+turning_points:
+  - year: 1236
+    type: succession-crisis
+    name: "Razia's accession"
+    changed: >-
+      Iltutmish named his daughter Razia his heir over his own grown
+      sons, judging none of them capable of holding the kingdom
+      together; when the throne passed to her, a coalition of nobles
+      who had expected otherwise mustered against her at the gates of
+      Delhi before she broke it by turning two of its own commanders to
+      her side.
+    source: minhaj-raverty-1881
+    contested: false
+  - year: 1240
+    type: succession-crisis
+    name: "The death of Sultan Raziyyat"
+    changed: >-
+      A revolt by the governor of Tabarhindah, backed by Turkish nobles
+      resentful of her Abyssinian master of horse's influence, ended
+      with Razia imprisoned, then married to her own captor and
+      marching with him to reclaim the throne from her half-brother; the
+      combined force was routed near Kaithal, and Razia and her husband,
+      abandoned by their own troops, were killed by local chiefs -
+      closing the only reign a woman held at Delhi in the sultanate's
+      three centuries.
+    source: minhaj-raverty-1881
+    contested: false
+  - year: 1398
+    type: catastrophe
+    name: "Timur's sack of Delhi"
+    changed: >-
+      Timur crossed the Indus, took Delhi in December, and gave the
+      city three days of massacre and plunder before leaving with no
+      attempt to hold it; the fiction that the sultanate remained the
+      paramount power of northern India was publicly destroyed, and
+      Jaunpur, Malwa, Gujarat, Bengal and the Deccan all consolidated as
+      independent sultanates in the years that followed.
+    source: jackson-1999
+    contested: false
+  - year: 1526
+    type: battle
+    name: "Panipat"
+    changed: >-
+      Babur's smaller force, using field artillery and a fortified
+      centre, destroyed an Afghan army several times its size; Ibrahim
+      Lodi died on the field, the only sultan of Delhi to be killed in
+      battle, and the sultanate that had outlasted the Mongols and
+      survived Timur's sack ended under a new dynasty from Kabul.
+    source: jackson-1999
+    contested: false
+
 measures:
   reach_km2: { value: 3200000, at: 1312, source: taagepera-1997 }
   peak_population: null

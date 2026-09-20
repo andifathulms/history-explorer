@@ -85,6 +85,29 @@ sources:
     publisher: Cambridge University Press
     year: 1999
 
+  - id: minhaj-raverty-1881
+    kind: primary
+    author: Minhaj-i-Siraj Juzjani
+    title: "Tabakat-i-Nasiri: A General History of the Muhammadan Dynasties of Asia"
+    translator: "Major H. G. Raverty"
+    publisher: Asiatic Society of Bengal
+    year: 1881
+    note: >-
+      A contemporary Persian court chronicle by a writer who held office
+      under Sultan Raziyyat herself (Kazi of Gwalior, appointed to the
+      Nasiriyah College at Delhi during her reign) and who defends her
+      directly against later insinuations about her Abyssinian master of
+      horse, Jamal-ud-Din Yakut, calling them unsupported by anything in
+      the sources closest to events. Raverty's own translation carries
+      extensive critical footnotes correcting later, secondhand accounts
+      (including Ibn Battuta's garbled version of her reign and family)
+      against Minhaj's own contemporary testimony. Used here for her
+      father Iltutmish's decision to name her heir over his own sons, her
+      suppression of the nobles' revolt against her accession, her
+      adoption of male dress and open appearances riding an elephant, the
+      revolt of Altunia at Tabarhindah, and her death fighting alongside
+      him after their own troops deserted them in 1240. Out of copyright.
+
   - id: haig-1928
     kind: book
     author: "Sir Wolseley Haig (ed.)"
