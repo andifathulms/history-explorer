@@ -91,6 +91,21 @@ turning_points:
       territories its own new king was meant to rule.
     source: kitchin-1899
     contested: false
+  - year: 1111
+    type: siege
+    name: "Louis VI takes Le Puiset"
+    changed: >-
+      A peasant militia raised from the Church lands a robber baron had
+      been plundering, led into the assault by their own parish
+      priests, broke into Le Puiset's fortress alongside the king's own
+      troops - proof, rare enough to be remembered, that the crown's
+      claim to defend the weak against its own vassals could be more
+      than a coronation formula. Louis's decade of sieges against the
+      barons within reach of Paris built the first working precedent
+      since Hugh Capet's election for a French king whose word carried
+      force inside his own borders.
+    source: kitchin-1899
+    contested: false
   - year: 1214
     type: battle
     name: "Battle of Bouvines"
@@ -115,6 +130,32 @@ turning_points:
       no crown in Europe. The affair also pushed a reluctant pope out
       of Rome for good, leaving the papacy settled at Avignon under
       French influence for decades afterward.
+    source: kitchin-1899
+    contested: false
+  - year: 1346
+    type: battle
+    name: "Battle of Crécy"
+    changed: >-
+      Philip VI's hastily-ordered charge, opened by exhausted Genoese
+      crossbowmen whose bowstrings a summer storm had slackened, broke
+      against disciplined English archers who had kept their own
+      strings dry; the King fled the field by nightfall with only four
+      barons still at his side. It was the first major pitched-battle
+      defeat of the war and the moment French numerical superiority
+      stopped being an assumption either side could rely on.
+    source: kitchin-1899
+    contested: false
+  - year: 1356
+    type: battle
+    name: "Battle of Poitiers"
+    changed: >-
+      A French army roughly seven times the size of the Black Prince's
+      force broke itself in successive charges up a narrow, hedge-lined
+      road; King John II, fighting on foot with a battle-axe after his
+      own eldest son fled with eight hundred lances, was surrounded and
+      captured by a knight of Saint-Omer. Eleven thousand Frenchmen died
+      on the field, and the reigning King of France spent the years
+      that followed a prisoner in English hands.
     source: kitchin-1899
     contested: false
   - year: 1415
