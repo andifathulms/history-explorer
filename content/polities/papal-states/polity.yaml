@@ -134,6 +134,32 @@ turning_points:
       would appear the arbiter of the transaction.
     source: gregorovius-1894
     contested: false
+  - year: 928
+    type: succession-crisis
+    name: "Marozia imprisons Pope John X"
+    changed: >-
+      During a Roman revolt she was widely believed to have engineered,
+      the Roman noblewoman Marozia had the Pope's own military support
+      cut down in the Lateran and John X himself thrown into the Castel
+      Sant'Angelo, where he died within the year - the clearest proof
+      that the papal chair now depended on the favor of one Roman
+      household rather than any wider consensus, ecclesiastical or
+      imperial.
+    source: gregorovius-1894
+    contested: false
+  - year: 962
+    type: reform
+    name: "Otto I crowned emperor, and the papacy bound to him"
+    changed: >-
+      Pope John XII crowned Otto I emperor at St Peter's, reviving
+      Charlemagne's dormant title in exchange for a charter confirming
+      the papacy's temporal claims across central Italy - a bargain that
+      also bound the Romans and the Pope himself to oaths of fidelity to
+      the new Emperor, folding the independence Alberic's regime had
+      defended for two decades back into imperial tutelage within months
+      of the coronation meant to secure it.
+    source: gregorovius-1894
+    contested: false
   - year: 1077
     type: reform
     name: "Canossa"
@@ -182,6 +208,57 @@ turning_points:
       dangerous and too poor to govern from - a relocation meant as
       temporary that lasted, in the end, for nearly seventy years.
     source: mollat-1963
+    contested: false
+  - year: 1378
+    type: succession-crisis
+    name: "The Western Schism begins"
+    changed: >-
+      A conclave held under mob pressure to elect a Roman pope produced
+      Urban VI, whose harsh treatment of his own electors drove most of
+      the cardinals to flee Rome within months and declare his election
+      void; their rival election of Clement VII split Latin Christendom
+      between two, and by 1409 briefly three, competing popes until the
+      Council of Constance finally secured a single, uncontested
+      election in 1417.
+    source: creighton-1882
+    contested: false
+  - year: 1506
+    type: siege
+    name: "Julius II rides to war"
+    changed: >-
+      Leaving Rome at the head of an armed column at sixty-four, Julius
+      II personally led the campaigns that absorbed Perugia and Bologna
+      into direct papal government within weeks - the clearest
+      demonstration in the Papal States' history that its own territory
+      could be built by outright warfare rather than by donation or
+      diplomacy alone.
+    source: gregorovius-1894
+    contested: false
+  - year: 1527
+    type: catastrophe
+    name: "The Sack of Rome"
+    changed: >-
+      An unpaid, half-mutinous imperial army under the Duke of Bourbon
+      stormed the Leonine walls and broke into St Peter's itself, forcing
+      Clement VII to flee across a fortified passage to the Castel
+      Sant'Angelo under a borrowed cloak while the city below was given
+      over to weeks of looting and killing - the most catastrophic
+      single blow the Papal States suffered between the Avignon
+      relocation and Napoleon's own conquest.
+    source: gregorovius-1894
+    contested: false
+  - year: 1809
+    type: revolt
+    name: "Pius VII abducted from the Quirinal"
+    changed: >-
+      Weeks after Pius VII had a bull of excommunication posted against
+      the authors of French aggression against the Holy See, Napoleon's
+      gendarmes scaled the walls of the Quirinal Palace and abducted the
+      Pope from Rome by locked carriage; the Papal States were formally
+      annexed to the French Empire, and Pius spent five years in
+      successive confinement before Napoleon's own collapse freed him to
+      return.
+    source: pacca-1850
     contested: false
   - year: 1870
     type: siege

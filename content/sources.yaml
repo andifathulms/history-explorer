@@ -7162,11 +7162,17 @@ sources:
     year: 1894
     note: >-
       A monumental, multi-volume narrative history covering the whole of
-      this record's span. Volume II covers Charlemagne's 800 coronation by
-      Leo III; Volume IV covers the Investiture Controversy and Henry IV's
-      1077 penance at Canossa; Volume V (in two parts) covers Innocent III
-      through the death of Frederick II in 1250 and Charles of Anjou's
-      papally-sponsored 1266 conquest of Sicily at the Battle of Benevento.
+      this record's span. Volume III covers the ninth- and tenth-century
+      Roman aristocracy under Theophylact, Theodora and Marozia, Alberic's
+      coup and princely regime, his son's dual reign as Prince and Pope
+      John XII, and Otto I's 962 coronation and Ottonianum; Volume IV
+      covers the Investiture Controversy and Henry IV's 1077 penance at
+      Canossa; Volume V (in two parts) covers Innocent III through the
+      death of Frederick II in 1250 and Charles of Anjou's
+      papally-sponsored 1266 conquest of Sicily at the Battle of
+      Benevento; Volume VIII (in two parts) covers the sixteenth-century
+      papacy from Cesare Borgia's fall through Julius II's territorial
+      wars and the 1527 Sack of Rome to Clement VII's death in 1534.
       Public domain, open access via archive.org.
 
   - id: mollat-1963
@@ -7197,6 +7203,30 @@ sources:
       Pia breach, its casualty count, and the sixty-year "Roman Question"
       the capture opened, resolved only by the 1929 Lateran Treaty. Open
       access via escholarship.org.
+
+  - id: creighton-1882
+    kind: book
+    author: Mandell Creighton
+    title: "A History of the Papacy during the Period of the Reformation, Vol. I: The Great Schism, The Council of Constance, 1378-1418"
+    year: 1882
+    note: >-
+      Covers the disputed 1378 conclave that elected Urban VI under mob
+      pressure, the rival election of Clement VII at Fondi that opened
+      the Western Schism, and the Council of Pisa's 1409 attempt at
+      resolution that briefly produced three competing popes at once.
+      Open access via archive.org.
+
+  - id: pacca-1850
+    kind: book
+    author: Bartolomeo Pacca (trans.)
+    title: "Historical Memoirs of Cardinal Pacca, Prime Minister to Pius VII"
+    year: 1850
+    note: >-
+      An eyewitness memoir by Pius VII's own Secretary of State, covering
+      the 1809 bull of excommunication against Napoleon's aggression and
+      the escalade and abduction of the Pope from the Quirinal Palace
+      that followed weeks later, told from inside the room. Open access
+      via archive.org.
 
   - id: trollope-1865
     kind: book
