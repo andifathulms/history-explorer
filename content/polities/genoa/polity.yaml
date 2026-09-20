@@ -172,6 +172,31 @@ turning_points:
       independent period at once.
     source: epstein-1996
     contested: false
+  - year: 1684
+    type: catastrophe
+    name: "The French bombardment of Genoa"
+    changed: >-
+      Louis XIV's fleet bombarded the city for two days after the
+      senate refused his ultimatum over Spanish loyalty and ship
+      salutes, reducing whole streets to rubble with some thirteen
+      thousand shells. The peace terms broke Genoese law itself,
+      requiring the doge to leave the Republic's territory in person to
+      apologize at Versailles - a demand no doge had ever before been
+      made to meet.
+    source: bent-1881
+    contested: false
+  - year: 1768
+    type: treaty
+    name: "Corsica sold to France"
+    changed: >-
+      Unable to put down Pasquale Paoli's independence movement and
+      unwilling to grant the full withdrawal he demanded, Genoa sold
+      its claim to Corsica outright to the French crown at Versailles -
+      surrendering, in a single treaty and for the sake of a little
+      more solvency, the one overseas possession that had outlasted the
+      Republic's whole medieval trading empire.
+    source: bent-1881
+    contested: false
   - year: 1797
     type: revolt
     name: "The book of gold"
