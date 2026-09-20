@@ -58,6 +58,33 @@ ended:
   source: barrington-1844
 
 turning_points:
+  - year: 1542
+    type: reform
+    name: "Surrender and regrant: O'Neill becomes Earl of Tyrone"
+    changed: >-
+      Con O'Neill travelled to the English court and knelt to be created
+      Earl of Tyrone by Henry VIII's own hand, the first O'Neill ever to
+      submit in person to an English king. His earldom, and the ones
+      granted the same year and the next to the O'Briens and the Mac
+      Williams of Clanricarde, set the pattern the new kingdom would
+      rely on to convert Gaelic lordships into crown peerages without
+      a campaign - a bargain that also planted succession disputes,
+      Tyrone's own included, that outlasted every family who took it.
+    source: bagwell-1885
+    contested: false
+  - year: 1557
+    type: reform
+    name: "Leix and Offaly become the King's and Queen's Counties"
+    changed: >-
+      The first attempt anywhere in Ireland to replace a Gaelic
+      lordship wholesale with an English colony, rather than merely
+      extract its submission, planted twelve fortified settlements
+      around the forts of Maryborough and Philipstown and renamed the
+      O'Mores' and O'Connors' own territory after the King and Queen -
+      the model of plantation the crown would apply on a far larger
+      scale to Munster after the Desmond rebellion a generation later.
+    source: bagwell-1885
+    contested: false
   - year: 1583
     type: catastrophe
     name: "Death of the Earl of Desmond"
@@ -154,6 +181,23 @@ turning_points:
       few years of the ink drying; Patrick Sarsfield and thousands of
       soldiers sailed for French service rather than live under it.
     source: lecky-1892
+    contested: false
+  - year: 1724
+    type: revolt
+    name: "The Drapier's Letters defeat Wood's halfpence"
+    changed: >-
+      Jonathan Swift, writing anonymously as a Dublin tradesman,
+      whipped up a protest against a copper coinage patent granted
+      without consulting any Irish authority, declaring in his famous
+      Fourth Letter his allegiance to the King "not as King of
+      England, but as King of Ireland." A £300 reward for his identity
+      went unclaimed, a Dublin grand jury twice refused to indict his
+      printer, and Walpole's government was forced to withdraw the
+      patent - a rare Ascendancy-era victory that kept Molyneux's
+      banned argument for Irish legislative independence alive in
+      print until the Volunteers gave a later generation the leverage
+      to press it directly.
+    source: lecky-1871
     contested: false
   - year: 1782
     type: reform
