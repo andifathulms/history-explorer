@@ -1708,6 +1708,33 @@ sources:
       than the kings — which is what this site's `client-levy` coding on three
       Caucasian records rests on.
 
+  - id: tacitus-church-brodribb
+    kind: primary
+    author: "Tacitus, trans. Alfred John Church and William Jackson Brodribb"
+    title: The Annals
+    year: 1895
+    note: >-
+      Covers, in Book VI, Pharasmanes of Iberia's 35 AD campaign to install
+      his brother Mithridates on the Armenian throne against the Parthian
+      prince Orodes; and, in Book XII, Pharasmanes's son Rhadamistus's 53 AD
+      murder of the same Mithridates and brief seizure of Armenia, including
+      the flight and near-death of Rhadamistus's wife Zenobia. Open access
+      via archive.org.
+
+  - id: cassius-dio-cary
+    kind: primary
+    author: "Cassius Dio, trans. Earnest Cary"
+    title: Roman History
+    container: Loeb Classical Library, Vol. VIII
+    year: 1925
+    note: >-
+      Covers, in the epitome of Book LXVIII, Trajan's 114 AD annexation of
+      Armenia after Parthia installed Parthamasiris without Roman
+      confirmation - the surrendered diadem at Elegeia, the "crownless and
+      bloodless victory," and the brief interval in which Armenia was a
+      Roman province rather than a kingdom at all. Open access via
+      archive.org.
+
   - id: gippert-2008
     kind: book
     author: Jost Gippert, Wolfgang Schulze, Zaza Aleksidze and Jean-Pierre Mahé

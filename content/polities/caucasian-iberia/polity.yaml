@@ -91,10 +91,39 @@ institutions:
   # primogeniture, tanistry, appanage, nomination, election, acclamation,
   # matrilineal or
   # factional, and adding a legitimation value does not give the succession list
-  # one. Chapter 2 sets that out and it is still true.
+  # one. Chapter 4 sets that out and it is still true.
   legitimation: { values: [descent, investiture], source: toumanoff-1963 }
 
 turning_points:
+  - year: 35
+    type: battle
+    name: "Pharasmanes drives Parthia from Armenia"
+    changed: >-
+      Backing his brother Mithridates's bid for the Armenian throne,
+      Pharasmanes led an Iberian, Albanian and Sarmatian army against
+      the Parthian prince Orodes; a rumor that Orodes had been killed
+      in single combat with Pharasmanes broke the Parthian line, and
+      King Artabanus himself was later driven out of Armenia by Roman
+      pressure without Rome committing a single legion. Tiberius got a
+      client dynasty fighting his war for him, and Iberia demonstrated
+      it could put a Parthian king to flight on its neighbor's behalf.
+    source: tacitus-church-brodribb
+    contested: false
+  - year: 53
+    type: catastrophe
+    name: "Rhadamistus murders his uncle for Armenia"
+    changed: >-
+      Pharasmanes's son Rhadamistus, impatient for a throne of his own,
+      infiltrated his uncle Mithridates's Armenian court under false
+      pretenses, lured him into a rigged peace ritual, and had him and
+      his family smothered under piles of cloth once they were chained.
+      The Parthians expelled Rhadamistus within the year and installed
+      their own candidate instead; his own wife Zenobia, stabbed and
+      thrown into the Araxes during his flight back to Iberia, survived
+      and was restored with honor - the one figure in the whole affair
+      who came out of it with any dignity.
+    source: tacitus-church-brodribb
+    contested: false
   - year: 298
     type: treaty
     name: "The Peace of Nisibis"

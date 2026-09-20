@@ -98,6 +98,19 @@ turning_points:
       subject of a treaty between other people.
     source: hovannisian-1997
     contested: false
+  - year: 114
+    type: succession-crisis
+    name: "Trajan annexes Armenia outright"
+    changed: >-
+      Parthia broke the Rhandeia arrangement by installing Parthamasiris
+      without Roman confirmation; Trajan marched in, received the king's
+      surrendered diadem at Elegeia, and declared Armenia a Roman
+      province rather than restore him. For the only time since
+      Rhandeia the kingdom ceased to exist at all, until Hadrian
+      abandoned direct rule within a few years and restored something
+      close to the client-kingdom model.
+    source: cassius-dio-cary
+    contested: false
   - year: 301
     type: conversion
     name: "The conversion of Tiridates"
