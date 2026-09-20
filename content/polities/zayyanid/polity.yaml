@@ -88,6 +88,30 @@ turning_points:
       which is the pattern of its whole existence.
     source: abun-nasr-1987
     contested: false
+  - year: 1359
+    type: succession-crisis
+    name: "Abu Hammu Musa II retakes Tlemcen"
+    changed: >-
+      A refugee prince who had spent years at the Hafsid court in Tunis
+      returned with Dawawida Arab backing, routed the Marinid garrison's
+      reinforcements, besieged Tlemcen for three days and took it by
+      force on the fourth - restoring Zayyanid rule after the Marinid
+      occupation and opening the thirty-year reign the dynasty's own
+      medieval power is measured against.
+    source: ibn-khaldun-de-slane
+    contested: false
+  - year: 1389
+    type: succession-crisis
+    name: "Abu Hammu Musa II assassinated"
+    changed: >-
+      A plot set in motion by Hilal, a freedman Abu Hammu had once
+      favored and later given to his own son Abu Tashfin, killed the
+      king who had restored the dynasty thirty years earlier. Abu
+      Tashfin succeeded his father and kept the same freedman as his
+      chamberlain - a bloody transition that closed the reign
+      Ibn Khaldun himself had witnessed from inside the court.
+    source: ibn-khaldun-de-slane
+    contested: false
   - year: 1551
     type: siege
     name: "Ottomans take Tlemcen"
