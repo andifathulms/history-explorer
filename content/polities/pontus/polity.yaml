@@ -71,6 +71,20 @@ institutions:
   legitimation: { values: [descent, titulature], source: mcging-1986 }
 
 turning_points:
+  - year: -239
+    type: battle
+    name: "Battle of Ancyra"
+    changed: >-
+      Mithridates II, having married a Seleucid princess, led a large
+      Galatian army in support of Antiochus Hierax against Hierax's own
+      brother Seleucus II and shattered Seleucus's forces outright, with
+      some twenty thousand said to have died. The victory broke Seleucid
+      authority across most of Asia Minor for years and proved that a
+      minor Anatolian dynasty could decide a war between two much larger
+      Hellenistic kingdoms simply by choosing which Galatian force to
+      commit and where.
+    source: bevan-1902
+    contested: false
   - year: -183
     type: capital-move
     name: Sinope
