@@ -742,10 +742,16 @@ regions:
       Maurya, Kushan and Gupta — the subcontinental empires that carried
       Buddhism out of India and set the terms of its classical culture.
     group: south-asia
-    # `thread: true` since real sourced edges already joined several of
-    # the region's own polities - Nanda to Maurya, Maurya to Shunga,
-    # Shunga to Kanva - before the Satavahana record's own addition
-    # joined Kanva to Satavahana as a fourth link in the same chain.
+    # `thread: true` since real sourced edges join the region's own
+    # polities: Nanda to Maurya, Maurya to Shunga, Shunga to Kanva.
+    #
+    # Chalukya, Rashtrakuta, Hoysala, Kakatiya, Pallava and Pandya moved
+    # to The Deccan and the South, where their own edges actually run -
+    # this region had grouped them with Nanda through Harsha by era alone,
+    # a millennium of Gangetic-plain dynasties they never touched. Kanva's
+    # own edge to Satavahana (now in that other region) no longer renders
+    # on this thread as a result, which is correct: it was always the
+    # hinge between two different pictures, not a link within one.
     thread: true
 
   - id: northern-india
@@ -765,10 +771,17 @@ regions:
       Tamil empire that sent fleets to Sumatra, a city on the Tungabhadra that
       Persian visitors compared to Rome, and a sultanate that broke into five.
     group: south-asia
-    # `thread: true` since real sourced edges join five of the region's
-    # own polities: the Bahmani sultanate seceded, piece by piece, into
-    # Ahmadnagar, Bijapur, Golconda, Berar and Bidar, and Berar's own
-    # record in turn was absorbed by Ahmadnagar in 1572.
+    # `thread: true` since real sourced edges join the region's own
+    # polities repeatedly: the Bahmani sultanate seceded, piece by piece,
+    # into Ahmadnagar, Bijapur, Golconda, Berar and Bidar, with Berar's
+    # own record later absorbed by Ahmadnagar; Chalukya was overthrown by
+    # its own feudatory Rashtrakuta; Pallava and Pandya were each
+    # conquered by Chola in turn, and Chola later conquered a revived
+    # Pandya back; and Hoysala's own absorption fed directly into
+    # Vijayanagara. Chalukya, Rashtrakuta, Hoysala, Kakatiya, Pallava and
+    # Pandya moved here from Classical India, which had grouped them with
+    # the unrelated Gangetic-plain dynasties by era rather than by the
+    # peninsular thread they actually belong to.
     thread: true
 
   - id: indian-sultanates
