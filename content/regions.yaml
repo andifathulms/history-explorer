@@ -172,13 +172,30 @@ regions:
     group: iranian-plateau
     thread: true
 
-  - id: iranian-intermezzo
-    name: The Iranian Intermezzo
+  # Split from a single "iranian-intermezzo" region: the Khurasan/Transoxiana
+  # succession chain (Tahirid through Khwarazmian) and the Daylam/Caspian
+  # cluster (Ziyarid, Buyid, Kakuyid, Bavandid, Nizari) shared only four
+  # edges out of twenty-three, all of them crossing at Great Seljuk or the
+  # Nizari fortresses rather than running through the body of either
+  # thread. Splitting sharpens both without breaking a real throughline.
+  - id: khurasan-and-transoxiana
+    name: Khurasan and Transoxiana
     blurb: >-
-      The Persianate dynasties between the fading of direct Abbasid rule and the
-      Mongol arrival — Khurasan, Transoxiana and the Iranian plateau. Dense with
-      succession: slave-generals taking their masters' provinces, vassals
-      swallowing overlords, governors inheriting the empire that appointed them.
+      The Persianate east between the fading of direct Abbasid rule and the
+      Mongol arrival — Khurasan, Transoxiana and the lands the Oxus and
+      Jaxartes drain. Dense with succession: slave-generals taking their
+      masters' provinces, vassals swallowing overlords, governors inheriting
+      the empire that appointed them.
+    group: iranian-plateau
+    thread: true
+
+  - id: daylam-and-the-caspian
+    name: Daylam and the Caspian
+    blurb: >-
+      The mountain and coastal dynasties of northern and western Iran, from
+      the Ziyarid princes of Tabaristan to the Buyid amirs who held the
+      Abbasid caliph himself, to the Nizari fortress-state that ruled without
+      ever holding contiguous ground.
     group: iranian-plateau
     thread: true
 
