@@ -1,0 +1,133 @@
+id: zulu-kingdom
+region: southern-african-kingdoms
+
+name:
+  latin: Zulu Kingdom
+  # bryant-zululand-1929 does not supply a script for isiZulu, which
+  # had no indigenous writing system before missionary orthographies.
+  script: null
+  script_lang: null
+
+# bryant-zululand-1929 traces the Zulu clan's own founding to a
+# migration under Malandela around 1670, but the clan remained a
+# minor chiefdom for six generations; the span below dates instead
+# from Shaka's own 1816 accession, the point at which it became the
+# regional power this record actually covers.
+span:
+  start: { min: 1816, max: 1816, source: bryant-zululand-1929 }
+  # bryant-zululand-1929's own narrative runs only to Shaka's 1828
+  # assassination. The Zulu Kingdom itself continued for another half
+  # century under Dingane, Mpande and Cetshwayo, through the 1879
+  # Anglo-Zulu War, down to formal British annexation in 1887 - a true
+  # end well beyond what this source narrates and not asserted here.
+  end: { min: 1828, max: 1828, source: bryant-zululand-1929 }
+
+identity: >-
+  A minor clan descended from a seventeenth-century migrant, seized by
+  an exiled, illegitimate son who turned his own childhood humiliation
+  into a military machine that reordered the whole of southeastern
+  Africa within a decade - and was killed by his own brothers within
+  twelve years of taking the throne.
+
+capitals:
+  - { name: Bulawayo, source: bryant-zululand-1929 }
+  - { name: Dukuza, source: bryant-zululand-1929 }
+
+core_region: The Nguni-speaking territory of present-day KwaZulu-Natal, South Africa
+
+rulers:
+  # bryant-zululand-1929 names Malandela as the clan's traditional
+  # founder around 1670, but codes Shaka here as founder in the sense
+  # this record actually covers: the man who turned a minor chiefdom
+  # into the regional power described in these chapters.
+  founder: { name: Shaka, reign: [1816, 1828], source: bryant-zululand-1929 }
+  peak: { name: Shaka, reign: [1816, 1828], source: bryant-zululand-1929 }
+  # Dingane, one of Shaka's own assassins, took the throne after him
+  # and reigned until 1840; bryant-zululand-1929's own narrative ends
+  # with Shaka's death and does not follow the succession further.
+  last: { name: Shaka, reign: [1816, 1828], source: bryant-zululand-1929 }
+
+scripts_and_languages:
+  administration: [isiZulu]
+  writing_system: null
+
+institutions:
+  military_basis: { values: [conscript, tribal-levy], source: bryant-zululand-1929 }
+  revenue_basis: { values: [tribute], source: bryant-zululand-1929 }
+  # There was no right of primogeniture among the Nguni; the reigning
+  # chief named his own preferred heir among his sons, or, as with
+  # Shaka's own accession, an overlord claimed the right to choose in
+  # a chief's default - contested violently in both cases this record
+  # covers.
+  succession_rule: { values: [factional], source: bryant-zululand-1929 }
+  legitimation: { values: [descent, conquest], source: bryant-zululand-1929 }
+
+preceded_by_external: []
+
+# Not a succession to record here: Dingane, one of Shaka's own
+# assassins, took the same Zulu throne rather than founding a
+# separate state, so this is the kingdom's own continuation rather
+# than a predecessor/successor relation - see the span and rulers.last
+# comments above for what that continuation was and why it is not
+# covered further in this record.
+succeeded_by_external: []
+
+ended:
+  type: internal usurpation
+  by: []
+  year: 1828
+  source: bryant-zululand-1929
+
+turning_points:
+  - year: 1816
+    type: succession-crisis
+    name: "Sigujana killed while bathing"
+    changed: >-
+      With Senzangakhona dead and no heir named, Dingiswayo backed his
+      own protege Shaka for the Zulu throne; Shaka had his rival
+      half-brother Sigujana speared to death while bathing and took
+      the chieftainship without further opposition.
+    source: bryant-zululand-1929
+    contested: false
+  - year: 1818
+    type: catastrophe
+    name: "Dingiswayo executed by Zwide"
+    changed: >-
+      Shaka's own patron and overlord was captured and killed by the
+      rival Ndwandwe chief Zwide, removing the one authority Shaka
+      still formally answered to and opening the way for Shaka to
+      absorb the leaderless Mthethwa federation into his own growing
+      kingdom.
+    source: bryant-zululand-1929
+    contested: false
+  - year: 1827
+    type: catastrophe
+    name: "The mourning massacre for Nandi"
+    changed: >-
+      The death of Shaka's mother Nandi triggered a wave of public
+      mourning that spiraled into a self-perpetuating massacre, an
+      eyewitness trader estimating seven thousand dead within a single
+      day - a spasm of violence Shaka's own killings had never before
+      required a direct order to sustain, and one that turned private
+      grief among his own kin into open conspiracy against him.
+    source: bryant-zululand-1929
+    contested: false
+  - year: 1828
+    type: succession-crisis
+    name: "Shaka assassinated by his own brothers"
+    changed: >-
+      Convinced by their aunt Mkabayi that Shaka had deliberately
+      killed his own mother, his half-brothers Dingane and Mhlangana,
+      with the help of Shaka's own trusted servant Mbopa, ambushed and
+      killed him at his Dukuza capital - ending, at forty-one, the
+      reign of the king who had built the kingdom in the first place.
+    source: bryant-zululand-1929
+    contested: true
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: bryant-zululand-1929 }
+    religions_carried: { count: 0, items: [], source: bryant-zululand-1929 }
+    successor_claims: { count: 0, items: [], source: bryant-zululand-1929 }

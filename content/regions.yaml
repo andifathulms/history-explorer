@@ -974,3 +974,13 @@ regions:
       of the Mesoamerican or Andean kind.
     group: the-americas
     thread: false
+
+  - id: southern-african-kingdoms
+    name: Southern African Kingdoms
+    blurb: >-
+      The Nguni and Sotho-Tswana states of the nineteenth-century interior,
+      built and broken in the same generation that missionaries, traders and
+      colonial officials were writing everything down - a documentary record
+      as rich, for the years it covers, as any polity on this site.
+    group: africa-maghreb
+    thread: false
