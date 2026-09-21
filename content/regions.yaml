@@ -950,13 +950,18 @@ regions:
       power Rome could never simply outlast - fought to a standstill
       twice, broken on the third attempt, and erased from its own site
       so completely that a curse was pronounced against rebuilding it -
-      and the Berber kingdom Rome built up at its neighbor's expense,
-      an exiled cavalry chieftain's alliance that outlived Carthage by
-      a century before a civil war not really its own ended it too.
+      alongside the two Berber kingdoms Rome built up, played off each
+      other, and eventually absorbed in turn: Numidia, an exiled
+      cavalry chieftain's alliance that outlived Carthage by a century
+      before a civil war not really its own ended it too, and
+      Mauretania next door, whose own king betrayed his son-in-law to
+      save his throne and whose great-grandson lost it anyway, over a
+      robe an emperor found too fine for a client king to wear.
     group: africa-maghreb
-    # No sourced edge connects Carthage and Numidia directly - both were
-    # absorbed by Rome separately rather than one succeeding the other -
-    # so `thread: false` remains correct even with two polities now on
+    # No sourced edge connects any pair of Carthage, Numidia and
+    # Mauretania directly - each was absorbed by Rome separately at a
+    # different time rather than one succeeding another - so
+    # `thread: false` remains correct even with three polities now on
     # the page; see hard rule 7.
     thread: false
 

@@ -1,0 +1,148 @@
+id: mauretania
+region: ancient-north-africa
+
+name:
+  latin: Mauretania
+  # No source consulted for this record gives a Mauretanian-language
+  # name for the kingdom in its own script.
+  script: null
+  script_lang: null
+
+# sallust-jugurtha-pollard-1882 introduces Bocchus, ruler of all the
+# Mauritanians, only in the course of the Jugurthine War itself
+# (111-105 BC), without dating his own accession; his embassy to Rome
+# "at the outset of this war" is the earliest point at which the
+# kingdom enters the historical record used here, so the span below
+# starts with a range covering the war's own opening years rather than
+# a single invented date.
+span:
+  start: { min: -111, max: -105, source: sallust-jugurtha-pollard-1882 }
+  # suetonius-thomson-forester-1855 dates Ptolemy's execution by
+  # Caligula to shortly before the emperor's own British expedition,
+  # which other ancient sources place in AD 40; the kingdom was
+  # annexed rather than left to an heir.
+  end: { min: -40, max: -40, source: suetonius-thomson-forester-1855 }
+
+identity: >-
+  A western Berber kingdom that entered the record through a peace
+  offer Rome's own corrupt senators refused to answer, then through a
+  king's decision to betray the son-in-law he had gone to war
+  alongside - surviving two more centuries as Rome's client before an
+  emperor executed its last king for wearing too fine a robe.
+
+# No source consulted for this record names Bocchus's own capital;
+# later Mauretanian kings are known to have ruled from Volubilis and
+# from Iol, refounded as Caesarea by Juba II, but neither is stated
+# here from a source actually opened for this record.
+capitals: []
+
+core_region: Northwestern Africa along the Mediterranean and Atlantic coasts, corresponding to modern Morocco and western Algeria
+
+rulers:
+  founder: { name: Bocchus, source: sallust-jugurtha-pollard-1882 }
+  peak: { name: Bocchus, source: sallust-jugurtha-pollard-1882 }
+  # No source consulted for this record traces the throne in detail
+  # between Bocchus and Bogud's own era in Caesar's civil war (46 BC)
+  # and Ptolemy's reign under Caligula (c. AD 40) - a gap of some
+  # eight decades that includes Augustus's installation of Juba II,
+  # son of the Numidian King Juba I, as client king of a reunified
+  # Mauretania after 25 BC, and Juba II's marriage to Cleopatra
+  # Selene, daughter of Mark Antony and Cleopatra VII - facts
+  # well-established elsewhere but not sourced here from a primary
+  # text actually consulted for this record.
+  last: { name: Ptolemy, source: suetonius-thomson-forester-1855 }
+
+scripts_and_languages:
+  administration: [Punic, Latin]
+  writing_system: null
+
+institutions:
+  military_basis: { values: [tribal-levy], source: sallust-jugurtha-pollard-1882 }
+  revenue_basis: null
+  succession_rule: null
+  legitimation: { values: [descent], source: suetonius-thomson-forester-1855 }
+
+preceded_by_external: []
+
+succeeded_by_external:
+  - name: The Roman Empire
+    type: conquered by
+    year: -40
+    note: >-
+      Caligula had Ptolemy executed at Rome and annexed Mauretania
+      outright rather than recognize a successor, ending the kingdom's
+      client-state relationship with an emperor's arbitrary killing
+      rather than a war.
+    source: suetonius-thomson-forester-1855
+    contested: false
+
+ended:
+  type: conquest
+  by: []
+  year: -40
+  source: suetonius-thomson-forester-1855
+
+turning_points:
+  - year: -111
+    type: treaty
+    name: "Bocchus's rejected peace embassy"
+    changed: >-
+      Bocchus sent envoys to Rome asking for a treaty of friendship at
+      the very outset of the Jugurthine War - an alliance that would
+      have served Rome's own interest in the war then just beginning,
+      left to die by senators too distracted by Numidian bribes to
+      answer a king who had nothing yet to offer them.
+    source: sallust-jugurtha-pollard-1882
+    contested: false
+  - year: -108
+    type: treaty
+    name: "Bocchus allies with Jugurtha"
+    changed: >-
+      Persuaded by his own son-in-law's warning that Rome's appetite
+      for conquest would reach Mauretania eventually regardless of
+      what Bocchus did, the king took up arms alongside Jugurtha
+      against Rome, marching with him toward the Roman spoils gathered
+      at Cirta.
+    source: sallust-jugurtha-pollard-1882
+    contested: false
+  - year: -105
+    type: treaty
+    name: "Bocchus betrays Jugurtha to Sulla"
+    changed: >-
+      Judging Jugurtha's cause lost and unwilling to let a losing war
+      cost him his own throne, Bocchus turned an ambush Jugurtha had
+      proposed against the Roman quaestor Sulla back on its own
+      author, delivering his son-in-law to Rome in chains.
+    source: sallust-jugurtha-pollard-1882
+    contested: false
+  - year: -46
+    type: treaty
+    name: "A divided kingdom backs Caesar"
+    changed: >-
+      By the time Rome's own civil war reached Africa, two kings named
+      Bocchus and Bogud held Mauretania between them, and both backed
+      Julius Caesar against the Pompeian refuge in neighboring
+      Numidia - the same calculation of self-interest that had once
+      cost Jugurtha his throne, now running in Rome's favor a second
+      time.
+    source: caesar-african-war-loeb-1955
+    contested: false
+  - year: -40
+    type: catastrophe
+    name: "Ptolemy executed for a purple robe"
+    changed: >-
+      Caligula had King Ptolemy, his own cousin and a guest invited to
+      Rome with every mark of honor, put to death for drawing the
+      crowd's eyes at a public exhibition with the splendor of his
+      robe - and annexed the kingdom outright rather than name a
+      successor.
+    source: suetonius-thomson-forester-1855
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: sallust-jugurtha-pollard-1882 }
+    religions_carried: { count: 0, items: [], source: sallust-jugurtha-pollard-1882 }
+    successor_claims: { count: 0, items: [], source: sallust-jugurtha-pollard-1882 }
