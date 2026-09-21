@@ -74,7 +74,21 @@ institutions:
   # rather than either one alone.
   legitimation: { values: [conquest, divine-sanction, investiture], source: bell-1924 }
 
-preceded_by_external: []
+preceded_by_external:
+  - name: the Tsangpa kings of Tsang
+    type: conquered by
+    year: null
+    note: >-
+      The king of Tsang overthrew the Sakya-descended "Second
+      Monarchy" in 1635 and ruled Tibet in turn until Gushi Khan, chief
+      of the Oelöt Mongols, subdued him a few years later and installed
+      the fifth Dalai Lama on the Tibetan throne in his place - a
+      conquest, not an election, that gave the Gelug school the
+      secular authority it had never held outright before. Neither the
+      Tsangpa kings nor the Sakya-descended dynasty before them has a
+      record here.
+    source: bell-1924
+    contested: false
 
 succeeded_by_external: []
 

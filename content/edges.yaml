@@ -4919,3 +4919,44 @@ edges:
       sermon at Mecca read in its own caliph's name.
     source: peters-1994
     contested: false
+
+  - from: johor
+    to: siak
+    type: overthrew
+    year: 1718
+    note: >-
+      Raja Kecil, claiming to be a posthumous son of the murdered
+      Sultan Mahmud Shah II, pressed his claim with an army in 1718
+      and took Johor outright from the bendahara family that had
+      succeeded to its throne; the seizure did not hold, and within a
+      few years he crossed to the Sumatran side of the strait and
+      built the separate kingdom of Siak instead.
+    source: andaya-1975
+    contested: false
+
+  - from: great-zimbabwe
+    to: mutapa
+    type: absorbed remnants of
+    year: 1450
+    note: >-
+      As the stone-building state centred on Great Zimbabwe weakened
+      under civil war, overpopulation and a harder-to-navigate gold
+      trade, Karanga hunters, refugees and traders drifted north out
+      of its old heartland toward the salt deposits of Dande - among
+      them, by tradition, the elephant-hunter Mutota who built the
+      alliances Mutapa's own founding rested on.
+    source: mudenge-1988
+    contested: false
+
+  - from: kievan-rus
+    to: galicia-volhynia
+    type: seceded from
+    year: 1188
+    note: >-
+      Galitch was a genuinely different kind of Rus' principality,
+      peopled by White Croats and never as fully overwritten by the
+      Varangian conquest as the rising northeastern power of Suzdal -
+      part of the same general fragmentation of Kievan Rus' into
+      competing princely lines that also produced Vladimir-Suzdal.
+    source: rambaud-russia-1880
+    contested: false
