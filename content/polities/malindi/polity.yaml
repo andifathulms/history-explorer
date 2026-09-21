@@ -1,0 +1,134 @@
+id: malindi
+region: swahili-coast
+
+name:
+  latin: Sultanate of Malindi
+  script: مالِندي
+  script_lang: ar
+
+span:
+  # stigand-1913 dates the Zimba invasion's repulse from Malindi to
+  # 1589, and the building of a new Portuguese fort at Mombasa - the
+  # next event the source narrates, with no intervening date given -
+  # to 1594. Between those two years, the source says, the Wasegeju
+  # (Malindi's own native allies) took Mombasa from its rebellious
+  # inhabitants and "the Malindi Sheikh was installed at that place":
+  # the point Malindi's own ruling house became Mombasa's ruling house
+  # too, without ceasing to be Malindi's.
+  start: { min: 1589, max: 1594, source: stigand-1913 }
+  # stigand-1913 dates the failure of the Portuguese relief fleet's
+  # three-month siege, and Yusuf's own subsequent destruction of
+  # Mombasa and departure for Arabia, to 1632.
+  end: { min: 1632, max: 1632, source: stigand-1913 }
+
+identity: >-
+  Portugal's most loyal ally on the Swahili coast, whose ruling
+  Sheikh's own son eventually inherited both a hatred of his father's
+  murderers and their throne, was baptised a Christian in Goa, and
+  used it to massacre the men who had raised him before burning the
+  city he could not hope to keep and sailing away.
+
+capitals:
+  - { name: Malindi, source: stigand-1913 }
+  # Not a second capital in the ordinary sense: the same ruling family
+  # governed both towns as one holding from roughly the 1590s to 1632,
+  # and stigand-1913 narrates Mombasa, not Malindi, as the seat of
+  # Ahmad's and then Yusuf's own actual rule.
+  - { name: Mombasa, from: 1594, source: stigand-1913 }
+
+core_region: Malindi and, from the 1590s, Mombasa and its fort
+
+rulers:
+  # stigand-1913 does not name the Sheikh of Malindi who received Vasco
+  # da Gama in 1498 or who was installed at Mombasa after the Wasegeju
+  # took it - the name "Ahmad" first appears in the source only in
+  # connection with his 1614 murder.
+  founder: null
+  peak: { name: "Ahmad", source: stigand-1913 }
+  # stigand-1913 prints Yusuf's accession as "1680 (1040 Hejra)," which
+  # cannot be right: 1040 Hejra converts to 1630-31, matching the
+  # narrative's own placement of his reign between his father's 1614
+  # murder and the 1632 siege, and "1680" fits neither. Read as a
+  # misprint for 1630.
+  last: { name: "Yusuf (Dom Geronimo Chingulia)", source: stigand-1913 }
+
+scripts_and_languages:
+  administration: [Swahili, Arabic]
+  writing_system: Arabic
+
+institutions:
+  military_basis: { values: [tribal-levy, client-levy], source: stigand-1913 }
+  revenue_basis: { values: [trade-toll], source: stigand-1913 }
+  succession_rule: { values: [descent], source: stigand-1913 }
+  # Both, for a real distinction the source draws: Ahmad's own standing
+  # rested on loyalty to Portugal and descent within the Malindi line;
+  # his son Yusuf was additionally invested by the Portuguese crown
+  # itself, baptised and installed as a Christian Sultan of Mombasa,
+  # before renouncing all of it.
+  legitimation: { values: [descent, investiture], source: stigand-1913 }
+
+preceded_by_external: []
+
+succeeded_by_external: []
+
+ended:
+  type: conquest
+  by: []
+  year: 1632
+  source: stigand-1913
+
+turning_points:
+  - year: 1589
+    type: battle
+    name: "The Zimba repelled at Malindi"
+    changed: >-
+      Driven north after devastating Kilwa and Mombasa, the Zimba were
+      turned back from Malindi by its own people fighting alongside
+      the Portuguese and their allies the Wasegeju - the clearest
+      proof yet that Malindi's loyalty to Portugal bought it a
+      defence none of the coast's other towns could count on.
+    source: stigand-1913
+    contested: false
+  - year: 1614
+    type: catastrophe
+    name: "Ahmad murdered at Babai"
+    changed: >-
+      Driven from Mombasa by the open contempt of the Portuguese
+      governor Melo Pereira, Ahmad took refuge among his own slaves at
+      Babai and was murdered there on the governor's own orders, his
+      head sent to Goa - the loyalty that had built Malindi's rule
+      over Mombasa answered with the death of the man who had earned
+      it.
+    source: stigand-1913
+    contested: false
+  - year: 1630
+    type: succession-crisis
+    name: "Yusuf made Sultan of Mombasa"
+    changed: >-
+      Raised a Christian in Goa under the name Dom Geronimo Chingulia
+      and installed as Sultan in his murdered father's place, Yusuf
+      governed under the same Portuguese indignities that had killed
+      Ahmad - and was driven, within a year of his own accession, to
+      the massacre that ended Malindi's rule at Mombasa for good.
+    source: stigand-1913
+    contested: true
+  - year: 1632
+    type: catastrophe
+    name: "Yusuf destroys Mombasa and sails for Arabia"
+    changed: >-
+      A Portuguese relief fleet of eight hundred men besieged Mombasa
+      for three months without retaking it, but Yusuf, certain
+      Portugal would not let the massacre of its garrison rest, loaded
+      his cannon and goods aboard two captured Portuguese ships, cut
+      down the town's fruit trees, burned what he could not carry, and
+      sailed for Arabia rather than wait for the next fleet.
+    source: stigand-1913
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: stigand-1913 }
+    religions_carried: { count: 0, items: [], source: stigand-1913 }
+    successor_claims: { count: 0, items: [], source: stigand-1913 }
