@@ -16,18 +16,21 @@ name:
 #
 # sewell-1900 states outright that "the empire fell in 1565" at the
 # battle of Talikota, where a coalition of Deccan sultanates killed the
-# regent Rama Raya and destroyed the capital over five months. A
+# regent Rama Raya and destroyed the capital over five months - the
+# empire's own institutional end, recorded below under `ended`. A
 # titular line of "Rayas" continued at Chandragiri and Vellore for
-# generations afterward - the source's own list of dated inscriptions
-# runs to 1793 - but Sewell gives no comparable single date or event
-# marking the extinction of that line, only a kingdom reduced, within a
-# generation of Talikota, to a name a provincial governor did not even
-# bother using for the town built on land it had granted. The span
-# below ends where the source's own narrative of the empire ends, not
-# where the titular line finally petered out.
+# generations afterward, losing its last real fortresses to the
+# Marathas by 1677 and its bloodline never dying out - the source's own
+# list of dated inscriptions recognizing the old royal name in temple
+# grants runs to 1793, and its two surviving descendants, styled
+# zamindars under the Nizam of Hyderabad, were living when Sewell wrote
+# in 1900. The span below is carried forward to 1793, the last dated
+# event the source itself narrates, though the family's own survival
+# past that date - down to Sewell's own contemporaries - is real and is
+# simply undated by anything more precise than "writing in 1900."
 span:
   start: { min: 1336, max: 1336, source: sewell-1900 }
-  end: { min: 1565, max: 1565, source: sewell-1900 }
+  end: { min: 1793, max: 1793, source: sewell-1900 }
 
 identity: >-
   Two brothers raised to rule after their chiefdom fell to Delhi, who
@@ -154,6 +157,40 @@ turning_points:
       the royal house fleeing south with what treasure could be
       carried, opening five months of destruction that left the capital
       an empty shell of its former self.
+    source: sewell-1900
+    contested: false
+  - year: 1568
+    type: succession-crisis
+    name: "Tirumala murders Sadasiva"
+    changed: >-
+      Having ruled through the captive king in all but name for three
+      years after Talikota, the regent Tirumala murdered Sadasiva and
+      took the throne outright, founding a third dynasty descended from
+      the old royal house in blood but ruling only a shrinking fraction
+      of what it once governed.
+    source: sewell-1900
+    contested: false
+  - year: 1614
+    type: catastrophe
+    name: "A king kills his own family rather than surrender them"
+    changed: >-
+      Days after old King Venkata's death and his chosen heir Chica
+      Raya's coronation, the noble Jaga Raya seized the fortress at
+      Chandragiri, deposed the new king, and - after a rescue attempt
+      failed - forced him to kill his wife and children and himself
+      rather than let Jaga Raya's own faction do it, an atrocity that
+      cost Jaga Raya the civil war it was meant to secure.
+    source: sewell-1900
+    contested: false
+  - year: 1677
+    type: battle
+    name: "The Marathas take the last fortresses"
+    changed: >-
+      Sivaji's Maratha forces, sweeping through the Konkan and beyond,
+      seized Kurnool, Gingee and Vellore - the royal house's own last
+      strongholds, taken not by the Deccan sultanates that had broken
+      the empire at Talikota but by a newer Hindu power that owed the
+      old dynasty nothing.
     source: sewell-1900
     contested: false
 
