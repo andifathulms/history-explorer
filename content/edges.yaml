@@ -2413,6 +2413,19 @@ edges:
     source: risso-1986
     contested: false
 
+  - from: mombasa
+    to: al-busaid
+    type: conquered by
+    year: 1837
+    note: "Twice repelled by force in 1828 and 1829, Sayyid Sa'id finally took
+           Fort Jesus through intrigue with dissenting Mazaru'i factions and
+           deported the governor Rashid and some twenty of the ruling family
+           to Bandar Abbas in chains, ending a century of Mazaru'i
+           independence and clearing the way for the rule his own line
+           extended down the coast to Cape Delgado."
+    source: stigand-1913
+    contested: false
+
   - from: ayyubid
     to: rasulid
     type: seceded from

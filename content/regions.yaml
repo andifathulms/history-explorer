@@ -607,6 +607,21 @@ regions:
     group: africa-maghreb
     thread: false
 
+  # Kilwa stays in `zimbabwe-and-the-coast`, where its own identity is bound to
+  # the gold trade with the plateau. This region is for the rest of the
+  # Swahili coast on its own terms: port sultanates whose politics ran on
+  # rivalry with each other and with whichever outside power - Portugal,
+  # Oman - was strong enough that decade to claim the anchorage.
+  - id: swahili-coast
+    name: The Swahili Coast
+    blurb: >-
+      A chain of Indian Ocean port towns from Mogadishu to Mozambique, ruled by
+      their own sultans and governors and fought over in turn by Portuguese
+      viceroys and Omani Imams for the customs revenue that passed through
+      them.
+    group: africa-maghreb
+    thread: false
+
   # Was `inner-asia`. Renamed and narrowed when Tibet was lifted out: a plateau
   # empire with its own script, religion and agriculture is not a steppe power
   # and shared no succession with one. What is left is a single connected

@@ -1,0 +1,123 @@
+id: mombasa
+region: swahili-coast
+
+name:
+  latin: Mazaru'i Mombasa
+  script: مزروعي ممباسة
+  script_lang: ar
+
+span:
+  # stigand-1913 dates Ali bin Osman's recapture of Fort Jesus from his
+  # uncle's murderers, and his own assumption of the governorship
+  # thereafter, to 1746 - the point the fort's Mazaru'i custodians (put
+  # in by the Imam of Oman in 1739) stopped governing Mombasa for
+  # Oman and started governing it for themselves.
+  start: { min: 1746, max: 1746, source: stigand-1913 }
+  # stigand-1913 dates Sayyid Sa'id's final capture of the fort, and
+  # the deportation of the Mazaru'i governor Rashid and about twenty
+  # of the leading family to Bandar Abbas in chains, to 1837.
+  end: { min: 1837, max: 1837, source: stigand-1913 }
+
+identity: >-
+  A Swahili port and its fort, held by a governing family who avenged
+  a murdered predecessor, declared themselves independent of the Imam
+  who had installed them, and spent a century turning back sieges from
+  Oman, Zanzibar and Britain before intrigue and a broken family
+  finally handed the fort to the one power all the fighting had been
+  meant to keep out.
+
+capitals:
+  - { name: Mombasa, source: stigand-1913 }
+
+core_region: The island and harbour of Mombasa, with contested reach into Pemba and the Lamu archipelago
+
+rulers:
+  founder: { name: "Ali bin Osman", source: stigand-1913 }
+  # stigand-1913 names Abdallah as the Mazaru'i governor through the
+  # struggle to hold Pemba against Zanzibar in the early 1820s, and
+  # records that when he died in 1823 his death was attributed "chiefly
+  # to his sorrow at losing his possessions" - the clearest single
+  # marker the source gives of the governorship's own high-water mark
+  # and the turn against it.
+  peak: { name: "Abdallah", source: stigand-1913 }
+  last: { name: "Rashid", source: stigand-1913 }
+
+scripts_and_languages:
+  administration: [Swahili, Arabic]
+  writing_system: Arabic
+
+institutions:
+  military_basis: { values: [tribal-levy], source: stigand-1913 }
+  revenue_basis: { values: [trade-toll, tribute], source: stigand-1913 }
+  succession_rule: { values: [factional], source: stigand-1913 }
+  # Both, for a real change: the 1739 Mazaru'i custodians governed
+  # Mombasa on the Imam of Oman's own appointment, and Ali bin Osman's
+  # 1746 seizure of the fort re-founded that same governorship on
+  # nothing but his own success in taking it back.
+  legitimation: { values: [investiture, conquest], source: stigand-1913 }
+
+preceded_by_external: []
+
+succeeded_by_external: []
+
+ended:
+  type: conquest
+  by: [al-busaid]
+  year: 1837
+  source: stigand-1913
+
+turning_points:
+  - year: 1746
+    type: revolt
+    name: "Ali bin Osman retakes the fort"
+    changed: >-
+      After conspirators sent by the Imam of Oman murdered the previous
+      governor and kidnapped his brother Ali, Ali escaped, raised help
+      among the mainland Wanyika, retook the fort by force, and made
+      himself governor - the moment Mombasa's Mazaru'i custodians
+      stopped ruling the fort for Oman and started ruling it for
+      themselves.
+    source: stigand-1913
+    contested: false
+  - year: 1822
+    type: battle
+    name: "Sa'id's fleet takes Pate and Pemba"
+    changed: >-
+      Ordered out of Pate and refusing to go, the Mazaru'i were driven
+      from it by a fleet under Sa'id's general Hamad, while Sa'id's own
+      governor at Zanzibar used their absence to seize Pemba Island - a
+      double loss that cost Mombasa both its foothold in the Lamu
+      archipelago and the island whose revenue it had relied on.
+    source: stigand-1913
+    contested: false
+  - year: 1826
+    type: treaty
+    name: "The British flag comes down"
+    changed: >-
+      An 1824 agreement with the British naval officer Owen, promising
+      the Mazaru'i protection in return for abolishing the slave trade
+      and sharing customs, went unratified in London; when the British
+      flag was struck from the fort two years later, Mombasa lost the
+      one outside power capable of holding Sa'id's fleet at bay.
+    source: stigand-1913
+    contested: false
+  - year: 1837
+    type: catastrophe
+    name: "Rashid deported in chains"
+    changed: >-
+      Talked into visiting Sa'id at Zanzibar and refusing to surrender
+      Mafia Island or pay tribute, the governor Rashid and some twenty
+      of the leading Mazaru'i were seized there and shipped in irons to
+      Bandar Abbas - a betrayal the source credits with removing "the
+      last seeds of rebellion" and leaving Mombasa to submit without
+      further resistance.
+    source: stigand-1913
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: stigand-1913 }
+    religions_carried: { count: 0, items: [], source: stigand-1913 }
+    successor_claims: { count: 0, items: [], source: stigand-1913 }
