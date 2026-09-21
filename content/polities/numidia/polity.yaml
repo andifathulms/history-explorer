@@ -1,0 +1,169 @@
+id: numidia
+region: ancient-north-africa
+
+name:
+  latin: Numidia
+  # No source consulted for this record gives a Numidian-language name
+  # for the kingdom in its own script; Massinissa's own coinage used
+  # Punic and Greek legends rather than a distinct Numidian writing
+  # system.
+  script: null
+  script_lang: null
+
+# bosworth-smith-carthage-1878 dates the campaign in which Massinissa,
+# restored from exile by Scipio's own Roman army, defeated his rival
+# Syphax and took Syphax's own capital, Cirta, to the "206-202 B.C."
+# span covering the war's African phase; the formal reward of Syphax's
+# whole kingdom, uniting it with Massinissa's own hereditary Massylian
+# throne, followed the peace that closed the war at Zama in 202 BC.
+# That union of the two Numidian kingdoms under one king is the
+# founding this record dates.
+span:
+  start: { min: -202, max: -202, source: bosworth-smith-carthage-1878 }
+  # The Loeb edition of the African War's own chronology dates the
+  # Battle of Thapsus to 6 April 46 BC and King Juba I's death, by his
+  # own hand after a suicide pact with Petreius, to shortly after it;
+  # Caesar then had the kingdom sold at auction and organized as a
+  # Roman province, Africa Nova, with the historian Gaius Sallustius -
+  # the same Sallust who wrote of Jugurtha's own war a half-century
+  # earlier - left behind as its first governor.
+  end: { min: -46, max: -46, source: caesar-african-war-loeb-1955 }
+
+identity: >-
+  A Berber cavalry chieftain's exile turned into the union of two
+  rival kingdoms by a Roman alliance, spent by his grandson's own
+  namesake heir on a war against Rome itself, and ended a century
+  later when its last king lost a civil war that was never really
+  his own to begin with.
+
+capitals:
+  - { name: Cirta, source: bosworth-smith-carthage-1878 }
+
+core_region: The Numidian highlands and coastal plain west of Carthage, corresponding to modern northeastern Algeria and western Tunisia
+
+rulers:
+  founder: { name: Massinissa, reign: [-202, -149], source: bosworth-smith-carthage-1878 }
+  peak: { name: Massinissa, reign: [-202, -149], source: bosworth-smith-carthage-1878 }
+  # No source consulted for this record covers the two generations
+  # between Jugurtha's execution and Juba I's own reign in any detail;
+  # the throne is known to have passed first to Gauda, Jugurtha's
+  # half-brother, but this record does not trace the line further
+  # until Juba I appears already reigning during Caesar's civil war.
+  last: { name: "Juba I", source: caesar-african-war-loeb-1955 }
+
+scripts_and_languages:
+  administration: [Punic, Greek]
+  writing_system: null
+
+institutions:
+  # Sallust and Bosworth Smith both describe Numidian military power
+  # as resting on tribal light cavalry supplied by the king's own
+  # subject peoples rather than a standing professional force.
+  military_basis: { values: [tribal-levy], source: sallust-jugurtha-pollard-1882 }
+  revenue_basis: null
+  # Micipsa's own deathbed arrangement divided the kingdom among his
+  # two sons and his adopted nephew jointly, a settlement that
+  # collapsed into open war within the year - not a stated rule of
+  # succession so much as its absence, coded here as factional to
+  # match the pattern the source actually shows.
+  succession_rule: { values: [factional], source: sallust-jugurtha-pollard-1882 }
+  legitimation: { values: [descent], source: sallust-jugurtha-pollard-1882 }
+
+preceded_by_external: []
+
+succeeded_by_external:
+  - name: The Roman Republic
+    type: conquered by
+    year: -46
+    note: >-
+      After Thapsus and Juba I's death, Caesar had the royal property
+      at Zama sold at auction and organized the kingdom into a new
+      Roman province, Africa Nova, leaving the historian Gaius
+      Sallustius - Jugurtha's own future chronicler - behind as its
+      first governor.
+    source: caesar-african-war-loeb-1955
+    contested: false
+
+ended:
+  type: conquest
+  by: []
+  year: -46
+  source: caesar-african-war-loeb-1955
+
+turning_points:
+  - year: -202
+    type: battle
+    name: "Syphax's kingdom falls to Massinissa"
+    changed: >-
+      Restored from exile by Scipio's own Roman army, Massinissa
+      defeated his rival Syphax at the Great Plains, took Syphax's
+      capital Cirta along with his wife Sophonisba, and was confirmed
+      by Rome in possession of Syphax's whole kingdom besides his own
+      hereditary one - uniting, for the first time, the Massylian and
+      Masaesylian peoples under a single Numidian throne.
+    source: bosworth-smith-carthage-1878
+    contested: false
+  - year: -149
+    type: catastrophe
+    name: "Massinissa dies as war begins against Carthage"
+    changed: >-
+      Decades of Roman-tolerated encroachment on Carthaginian
+      territory finally provoked the war Massinissa had spent his
+      whole reign provoking; he died that same year, before its
+      outcome was decided, leaving his kingdom intact to his son
+      Micipsa.
+    source: bosworth-smith-carthage-1878
+    contested: false
+  - year: -118
+    type: succession-crisis
+    name: "Micipsa's death and Jugurtha's adoption"
+    changed: >-
+      Micipsa's deathbed division of the kingdom among his two natural
+      sons and his adopted nephew Jugurtha collapsed within the year:
+      Jugurtha had the younger prince, Hiempsal, hunted down and
+      murdered in hiding, driving the elder, Adherbal, to flee to Rome
+      for protection the Senate proved unable or unwilling to make
+      good.
+    source: sallust-jugurtha-pollard-1882
+    contested: false
+  - year: -112
+    type: revolt
+    name: "Adherbal murdered at Cirta"
+    changed: >-
+      Jugurtha besieged his own half-brother Adherbal in Cirta and,
+      after the city fell, had him tortured to death along with the
+      Italian traders who had helped defend it - killing Roman
+      citizens in the process finally forced a Senate that had ignored
+      every earlier appeal into declaring war.
+    source: sallust-jugurtha-pollard-1882
+    contested: false
+  - year: -105
+    type: catastrophe
+    name: "Jugurtha betrayed to Sulla"
+    changed: >-
+      Bocchus of Mauretania, Jugurtha's own father-in-law and last
+      remaining ally, lured him into an ambush and handed him over in
+      chains to the quaestor Sulla - ending the war not by battle but
+      by the betrayal of the one man Jugurtha had never stopped
+      trusting.
+    source: sallust-jugurtha-pollard-1882
+    contested: false
+  - year: -46
+    type: catastrophe
+    name: "Juba I's death and the end of the kingdom"
+    changed: >-
+      Defeated at Thapsus and shut out of the town of Zama by his own
+      subjects, Juba I fought a mutual suicide pact with the Roman
+      officer Petreius, killing him and then, unable to finish himself
+      with his own sword, having a slave do it; Caesar organized the
+      kingdom into the Roman province of Africa Nova within weeks.
+    source: caesar-african-war-loeb-1955
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: bosworth-smith-carthage-1878 }
+    religions_carried: { count: 0, items: [], source: bosworth-smith-carthage-1878 }
+    successor_claims: { count: 0, items: [], source: bosworth-smith-carthage-1878 }
