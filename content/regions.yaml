@@ -990,6 +990,10 @@ regions:
     group: the-americas
     thread: false
 
+  # `thread: true` since the region's first internal edge now joins two of
+  # its records: Umsilikazi's flight from Tshaka's Zulu army founded the
+  # Ndebele Kingdom thirteen years before this region's second Nguni state,
+  # Moshoeshoe's Basotho, ever crosses its path.
   - id: southern-african-kingdoms
     name: Southern African Kingdoms
     blurb: >-
@@ -998,7 +1002,7 @@ regions:
       colonial officials were writing everything down - a documentary record
       as rich, for the years it covers, as any polity on this site.
     group: africa-maghreb
-    thread: false
+    thread: true
 
   - id: hawaii
     name: Hawaii

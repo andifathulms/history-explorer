@@ -1,0 +1,127 @@
+id: ndebele-kingdom
+region: southern-african-kingdoms
+
+name:
+  latin: Ndebele Kingdom
+  script: null
+  script_lang: null
+
+span:
+  # theal-1908-v1 does not give a single explicit year for
+  # Umsilikazi's break from Tshaka's army after he withheld booty from
+  # his king; the episode is narrated under a marginal date of 1825,
+  # following the same source's account of 1823 disturbances already
+  # reaching the Barolong from the same Zululand wars.
+  start: { min: 1823, max: 1825, source: theal-1908-v1 }
+  # norris-newman-1895 reports Lobengula's death, as a fugitive north
+  # of Bulawayo, on or about January 22-23, 1894.
+  end: { min: 1894, max: 1894, source: norris-newman-1895 }
+
+identity: >-
+  A war-band that fled a Zulu king's death sentence and carved a
+  second Zulu-model kingdom a thousand miles north of the first,
+  broken from its land twice - once by Boer commandos on the
+  highveld, once by a chartered company's columns beyond the
+  Limpopo - and refounded once before it was not refounded again.
+
+capitals:
+  - { name: Mosega, to: 1837, source: theal-1908-v2 }
+  - { name: Bulawayo, from: 1840, to: 1893, source: theal-1908-v4 }
+
+core_region: The Transvaal highveld until 1837, then Matabeleland between the Limpopo and the Zambezi
+
+rulers:
+  founder: { name: "Umsilikazi (Moselekatse)", reign: [1825, 1868], source: theal-1908-v1 }
+  peak: { name: "Umsilikazi (Moselekatse)", reign: [1825, 1868], source: theal-1908-v4 }
+  last: { name: "Lobengula", reign: [1870, 1894], source: theal-1908-v4 }
+
+scripts_and_languages:
+  administration: [Ndebele]
+  writing_system: null
+
+institutions:
+  military_basis: { values: [standing-professional, conscript], source: theal-1908-v4 }
+  revenue_basis: { values: [plunder, tribute], source: theal-1908-v1 }
+  # Moselekatse's own chosen heir had disappeared years before his
+  # death, and the indunas' choice fell on Lobengula only after a
+  # rival claimant's account of himself was disbelieved and settled by
+  # civil war - not a fixed rule, but not open election either.
+  succession_rule: { values: [nomination, factional], source: theal-1908-v4 }
+  legitimation: { values: [descent, conquest], source: theal-1908-v4 }
+
+preceded_by_external: []
+
+succeeded_by_external: []
+
+ended:
+  type: conquest
+  by: []
+  year: 1894
+  source: norris-newman-1895
+
+turning_points:
+  - year: 1825
+    type: revolt
+    name: "Umsilikazi breaks from Tshaka"
+    changed: >-
+      Punished by his king for withholding part of a raid's plunder,
+      Umsilikazi fled north with the soldiers under his command rather
+      than face the army Tshaka sent to kill him, turning a Zulu
+      officer's division into an independent war-band that lived by
+      raiding every tribe in its path.
+    source: theal-1908-v1
+    contested: false
+  - year: 1837
+    type: battle
+    name: "Defeat on the Marikwa"
+    changed: >-
+      A commando of Voortrekker farmers under Potgieter and Uys broke
+      Moselekatse's army in a nine-day running fight on the Marikwa
+      river; Potgieter then proclaimed the whole territory the
+      Matabele had occupied forfeited to the emigrants, and
+      Moselekatse led his people in flight across the Limpopo to begin
+      again beyond the Matopo hills.
+    source: theal-1908-v2
+    contested: false
+  - year: 1868
+    type: succession-crisis
+    name: "Moselekatse dies without a settled heir"
+    changed: >-
+      Moselekatse's chosen heir, Kuruman, had vanished years earlier
+      and it was not known whether he had been killed or had fled;
+      the regent Nombati's search turned up a claimant from Natal whom
+      most of the indunas judged an impostor, leaving the kingdom
+      without an agreed king for more than a year.
+    source: theal-1908-v4
+    contested: false
+  - year: 1870
+    type: succession-crisis
+    name: "Lobengula wins the civil war"
+    changed: >-
+      Installed as chief on January 24, 1870, Lobengula still faced a
+      faction, including the veteran Sokindaba regiment, that backed
+      the rival claimant from Natal; one battle settled it in
+      Lobengula's favour, and he pardoned rather than exterminated the
+      defeated soldiers, drafting them into his own regiments.
+    source: theal-1908-v4
+    contested: false
+  - year: 1894
+    type: catastrophe
+    name: "Lobengula dies a fugitive"
+    changed: >-
+      After Company columns entered a Bulawayo he had already burned
+      and abandoned, and after the destruction of Major Wilson's
+      patrol on the Shangani failed to buy him time, Lobengula died
+      early one January morning north of his old capital, reportedly
+      of fever, with his surviving chiefs and family surrendering to
+      Company officers within weeks.
+    source: norris-newman-1895
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: theal-1908-v4 }
+    religions_carried: { count: 0, items: [], source: theal-1908-v4 }
+    successor_claims: { count: 0, items: [], source: theal-1908-v4 }

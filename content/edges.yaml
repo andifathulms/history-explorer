@@ -2450,6 +2450,20 @@ edges:
     source: lyne-1905
     contested: false
 
+  # ---- Southern African Kingdoms: the region's first internal edge ----
+
+  - from: zulu-kingdom
+    to: ndebele-kingdom
+    type: seceded from
+    year: 1825
+    note: "Umsilikazi, an officer commanding a division of Tshaka's own
+           army, withheld part of a raid's plunder from his king and fled
+           north with his soldiers rather than face the force Tshaka sent
+           to kill him for it, founding an independent kingdom on the
+           Zulu military model well beyond his old king's reach."
+    source: theal-1908-v1
+    contested: false
+
   - from: ayyubid
     to: rasulid
     type: seceded from
