@@ -15,10 +15,21 @@ name:
 # Partitions of 1772 and 1793 had. King Stanislaw August Poniatowski's
 # formal abdication that November, forced by the Russian ambassador at
 # Grodno, closed a state that had already lost its independent existence
-# in substance well before that signature.
+# in substance well before that signature - the Commonwealth's own
+# institutional end, recorded below under `ended`.
+#
+# The span is carried forward to 1830-31 to cover the Napoleonic Grand
+# Duchy of Warsaw, the constitutional Congress Kingdom of Poland the
+# Congress of Vienna re-erected under the Russian tsar in 1815, and the
+# opening months of the November Uprising against it. fletcher-1836's
+# own narrative of the uprising is an extract from a magazine article
+# dated May 1831, and breaks off with General Skrzynecki newly in
+# command - well before the rising's actual defeat that September and
+# the century of renewed, harsher partition that followed. That later
+# history is real and simply outside what this source narrates.
 span:
   start: { min: 1569, max: 1569, source: fletcher-1836 }
-  end: { min: 1795, max: 1795, source: fletcher-1836 }
+  end: { min: 1830, max: 1831, source: fletcher-1836 }
 
 identity: >-
   The union of two crowns under one elected king and one common Sejm, a
@@ -182,6 +193,30 @@ turning_points:
       already reduced to a pensioner signed his own abdication at Grodno
       within the year - the last acknowledged sovereign of a state that
       no longer existed to be sovereign over.
+    source: fletcher-1836
+    contested: false
+  - year: 1815
+    type: treaty
+    name: "The Congress of Vienna re-erects a Kingdom of Poland"
+    changed: >-
+      Twenty years after the Third Partition erased it, a Polish state
+      returned to the map by international agreement rather than
+      Polish arms - bound to Russia under the tsar as king, but,
+      Alexander I himself promised in writing, "irrevocably... by its
+      constitution" rather than by simple annexation, a settlement that
+      would hold in form for barely a decade.
+    source: fletcher-1836
+    contested: false
+  - year: 1830
+    type: revolt
+    name: "The storming of Belweder"
+    changed: >-
+      A failed attempt to seize Grand Duke Constantine at his own
+      palace on 29 November nonetheless freed every state prisoner in
+      Warsaw and put forty thousand men under arms within ninety
+      minutes, driving Constantine from the kingdom entirely and
+      opening a war the constitutional settlement of 1815 had no
+      mechanism left to prevent.
     source: fletcher-1836
     contested: false
 
