@@ -1,0 +1,106 @@
+id: basotho-kingdom
+region: southern-african-kingdoms
+
+name:
+  latin: Basotho Kingdom
+  # casalis-basutos-1861 gives the Sesotho terms Mosuto (one person),
+  # Basuto (the people), Lesuto (the country) and Sesuto (the
+  # language) in Latin transliteration only; no source consulted for
+  # this record supplies an original script.
+  script: null
+  script_lang: null
+
+# casalis-basutos-1861 dates the collapse of the old order among the
+# Sotho chiefdoms - the point at which scattered, loosely federated
+# communities became, under pressure of the wider Difaqane, a single
+# kingdom built around Moshoeshoe's own leadership - to 1820.
+span:
+  start: { min: 1820, max: 1820, source: casalis-basutos-1861 }
+  # casalis-basutos-1861 is a missionary memoir covering the author's
+  # own 23 years in South Africa (per its own subtitle), beginning
+  # with his 1833 arrival at Moshoeshoe's court; its narrative,
+  # including the undated war against Boer encroachment and the
+  # "moral sovereignty" proclamation covered in the kingdom's own
+  # final chapter here, cannot postdate his 1856 departure. The span
+  # is carried to that outer bound.
+  end: { min: 1833, max: 1856, source: casalis-basutos-1861 }
+
+identity: >-
+  A federation of Sotho chiefdoms shattered by the wars Shaka's own
+  conquests set loose across the highlands, rebuilt around one
+  mountain stronghold by a chief who suppressed cannibalism with a
+  sentence rather than an army, turned back the Ndebele with a gift
+  of cattle, and spent his final documented years watching Boer
+  emigrants and an indifferent colonial government erode what the
+  wars themselves had failed to break.
+
+capitals:
+  - { name: Thaba Bosiu, source: casalis-basutos-1861 }
+
+core_region: The Caledon River valley and Maloti mountains of present-day Lesotho
+
+rulers:
+  founder: { name: Moshoeshoe, source: casalis-basutos-1861 }
+  peak: { name: Moshoeshoe, source: casalis-basutos-1861 }
+  # casalis-basutos-1861 does not narrate Moshoeshoe's own death or
+  # succession; his reign continued long past this source's own
+  # narrative window, through the 1868 establishment of a British
+  # protectorate, to his death in 1870.
+  last: { name: Moshoeshoe, source: casalis-basutos-1861 }
+
+scripts_and_languages:
+  administration: [Sesotho]
+  writing_system: null
+
+institutions:
+  military_basis: { values: [tribal-levy], source: casalis-basutos-1861 }
+  revenue_basis: { values: [tribute], source: casalis-basutos-1861 }
+  succession_rule: null
+  legitimation: { values: [descent], source: casalis-basutos-1861 }
+
+preceded_by_external: []
+
+succeeded_by_external: []
+
+# casalis-basutos-1861 narrates no institutional end for the kingdom -
+# only an unresolved war and a failed colonial settlement, still open
+# when the author's own account stops. The kingdom did not in fact end
+# in the destructive sense this field elsewhere records: it became a
+# British protectorate (Basutoland) in 1868, two years before
+# Moshoeshoe's own death, and survives today as the independent
+# Kingdom of Lesotho - a continuation, not an ending, and one this
+# record's own source does not reach.
+ended: null
+
+turning_points:
+  - year: 1820
+    type: catastrophe
+    name: "The old order collapses"
+    changed: >-
+      Shaka's own conquests in Natal drove the defeated Matiwane west
+      with thousands of followers, setting off a chain of displacement
+      that turned the settled, loosely federated Sotho chiefdoms into
+      a landscape of war and eventual famine - the crisis around which
+      Moshoeshoe built a single kingdom out of what had been scattered
+      chiefdoms.
+    source: casalis-basutos-1861
+    contested: false
+  - year: 1833
+    type: conversion
+    name: "Missionaries arrive at Moshoeshoe's own request"
+    changed: >-
+      Having sent oxen with a standing request for "a man of prayer,"
+      Moshoeshoe received the first Paris Evangelical Missionary
+      Society delegates at Thaba Bosiu - opening a direct channel
+      between the Basotho kingdom and the colonial world whose
+      encroachment would define the rest of his reign.
+    source: casalis-basutos-1861
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: casalis-basutos-1861 }
+    religions_carried: { count: 1, items: [Christianity], source: casalis-basutos-1861 }
+    successor_claims: { count: 0, items: [], source: casalis-basutos-1861 }
