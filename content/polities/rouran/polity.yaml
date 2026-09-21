@@ -1,0 +1,128 @@
+id: rouran
+region: turkic-steppe
+
+name:
+  latin: Rouran Khaganate
+  # parker-1895 renders the Chinese name as "Jeu-jen," later changed
+  # by a Toba emperor to "Jwen-jwen" ("squirm," a deliberate insult);
+  # neither is the people's own name for themselves in their own
+  # script, which no source consulted for this record supplies.
+  script: null
+  script_lang: null
+
+# parker-1895 states that distinct information about this
+# people appears only from AD 394, four generations after Cheruk first
+# organized a horde worth the name - placing that founding around the
+# year 300, during the general collapse of Xiongnu power. 394 is used
+# below as the first date the source itself actually supplies.
+span:
+  start: { min: 394, max: 394, source: parker-1895 }
+  # parker-1895 dates Khagan Anakwe's catastrophic defeat and
+  # suicide to 546, and narrates his heir's failed revolt, a cousin's
+  # own repeated defeats, and an eventual massacre of the refugee
+  # remnant at the Western Wei court - but gives no further calendar
+  # year for that massacre itself. golden-1992, already cited on the
+  # Gokturk record for the same event, dates the Turkic revolt that
+  # provoked it to 552; that date is used here for the end of the
+  # khaganate as a political entity, while 546 marks Anakwe's own
+  # death.
+  end: { min: 546, max: 552, source: parker-1895 }
+
+identity: >-
+  A fugitive blacksmith's descendants, grown within a century into an
+  empire that took the first Khakhan title any steppe power ever
+  claimed - broken three times by the Toba Wei, briefly revived by a
+  king who stopped calling himself a vassal, and finally destroyed by
+  the ironworkers it had kept as its own subject craftsmen.
+
+# parker-1895 places Zarun's own courts near Toba-era
+# waystations north of Kan-chou and Tun-hwang without naming a fixed
+# capital city in its own right; no source consulted for this record
+# gives one.
+capitals: []
+
+core_region: The eastern Eurasian steppe from Korea to the Harashar oasis at its height, centered on the Mongolian plateau
+
+rulers:
+  founder: { name: Cheruk, source: parker-1895 }
+  peak: { name: Zarun, source: parker-1895 }
+  # Anakwe's own defeat and suicide in 546 effectively ended the line;
+  # an unnamed cousin was elected to succeed him but is not given a
+  # name in parker-1895, suffered repeated defeats, and was
+  # killed along with his followers after fleeing to the Western Wei
+  # court.
+  last: { name: Anakwe, source: parker-1895 }
+
+scripts_and_languages:
+  administration: [Chinese]
+  writing_system: null
+
+institutions:
+  military_basis: { values: [tribal-levy], source: parker-1895 }
+  revenue_basis: null
+  succession_rule: null
+  legitimation: { values: [conquest], source: parker-1895 }
+
+preceded_by_external: []
+
+# Not succeeded_by_external: the First Turkic Khaganate (gokturk) is
+# already a record here, so this relation is an edge in edges.yaml
+# rather than a name with no page - see hard rule 12's own distinction.
+succeeded_by_external: []
+
+ended:
+  type: conquest
+  by: [gokturk]
+  year: 546
+  source: parker-1895
+
+turning_points:
+  - year: 394
+    type: conversion
+    name: "The horde first enters the Chinese record"
+    changed: >-
+      A descendant of the fugitive smith Mukkuru, remembered only as
+      the "sixth grandson," crossed north of the desert and conquered
+      several Kanguly tribes - the first act of this people's own
+      history precise enough for the Chinese chroniclers to date.
+    source: parker-1895
+    contested: false
+  - year: 429
+    type: catastrophe
+    name: "Dadar's empire scattered by the Tobas"
+    changed: >-
+      Caught completely by surprise by a Toba army of more than a
+      hundred thousand men, Khagan Dadar burned his own camp and fled
+      into the desert without a trace; his own former enemies, the
+      Kankalis, hunted him down and killed him before the year was
+      out, while the Tobas carried off a million captured people and
+      animals.
+    source: parker-1895
+    contested: false
+  - year: 516
+    type: reform
+    name: "Cheunu's recovery"
+    changed: >-
+      Tughochir's grandson Cheunu punished the rebellious Kankalis to
+      the west and raised his people to real power for the first time
+      in generations - a recovery his own succession did not survive.
+    source: parker-1895
+    contested: false
+  - year: 546
+    type: catastrophe
+    name: "Anakwe's defeat and suicide"
+    changed: >-
+      Answering a Turkish request for a royal marriage with war
+      instead, Khagan Anakwe was utterly defeated by his own former
+      subject ironworkers and killed himself rather than survive the
+      collapse of everything he had spent his reign building.
+    source: parker-1895
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: parker-1895 }
+    religions_carried: { count: 0, items: [], source: parker-1895 }
+    successor_claims: { count: 0, items: [], source: parker-1895 }

@@ -4973,3 +4973,17 @@ edges:
       the last Hindu kingdom" of Bengal, in smith-1904's own phrase.
     source: smith-1904
     contested: false
+
+  - from: rouran
+    to: gokturk
+    type: overthrew
+    year: 552
+    note: >-
+      The Turks, ironworkers who had served the Rouran for generations,
+      revolted under their chief Bumin after Khagan Anakwe answered a
+      request for a Rouran princess in marriage with war instead of a
+      wedding; Anakwe's own defeat and suicide in 546 broke Rouran
+      power for good, and Bumin took the title Khakhan for the people
+      who founded the First Turkic Khaganate on the same ground.
+    source: golden-1992
+    contested: false
