@@ -840,13 +840,28 @@ regions:
     group: southeast-asia
     thread: true
 
+  # Split from a single "java-and-bali" region into the Hindu-Buddhist
+  # courts and the Islamic sultanates that followed them. Of 10 internal
+  # edges, only 2 cross the boundary, and both are the hinge itself -
+  # Majapahit's own claimed legitimacy passing to Demak, and Sunda's
+  # conquest by Banten - not a cut through either thread's own body.
   - id: java-and-bali
     name: Java and Bali
     blurb: >-
-      One island's rice, and the seven hundred years of kingdoms that lived on
-      it — an unbroken sequence from the Brantas valley to the division of
-      Mataram, plus the western kingdom that was never part of it and the
-      Balinese court that inherited what Java gave up.
+      Six centuries of Hindu-Buddhist kingship on one island's rice, from
+      the Brantas valley through Majapahit's own thalassocracy — plus the
+      western kingdom that was never part of it, and the Balinese court
+      that kept the old religion after Java itself turned Muslim.
+    group: southeast-asia
+    thread: true
+
+  - id: islamic-java
+    name: Islamic Java
+    blurb: >-
+      The sultanates that took Java from its Hindu-Buddhist courts -
+      Demak's own conquest of Majapahit's port cities, the brief inland
+      interlude at Pajang, and the last independent Javanese kingdom,
+      Mataram, which besieged Batavia twice and never took it.
     group: southeast-asia
     thread: true
 
