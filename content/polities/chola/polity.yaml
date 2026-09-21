@@ -17,10 +17,16 @@ name:
 # 1279 is the last regnal year attested in Rajendra III's own
 # inscriptions, matching the source's account of his defeat, alongside
 # his ally Vira Ramanatha, by the Pandya king Maravarman Kulasekhara -
-# after which no further Chola inscription is known.
+# after which no further Chola inscription is known. That is the
+# empire's own institutional end, recorded below under `ended`.
+#
+# The span is carried forward to 1554, the last dated instance the
+# source records of a local chieftain still invoking the Chola name -
+# by then centuries removed from any actual Chola rule, under a
+# Vijayanagara emperor's own suzerainty.
 span:
   start: { min: 850, max: 850, source: nilakanta-sastri-1955 }
-  end: { min: 1279, max: 1279, source: nilakanta-sastri-1955 }
+  end: { min: 1554, max: 1554, source: nilakanta-sastri-1955 }
 
 identity: >-
   A Pallava vassal's stolen city that grew into a Tamil empire, seized
