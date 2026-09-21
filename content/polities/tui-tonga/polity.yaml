@@ -1,0 +1,114 @@
+id: tui-tonga
+region: tonga
+
+name:
+  latin: Tu'i Tonga Empire
+  script: null
+  script_lang: null
+
+# thomson-1894 treats the pre-Kau-ulu-fonua Tui Tonga as unreliable
+# tradition, and dates the reign of Kau-ulu-fonua - reckoned back from
+# Captain Cook's 1777 visit through an averaged reign-length for his
+# five known successors - to 1535, "the reign from which Tongan
+# history may be said to date."
+span:
+  start: { min: 1535, max: 1535, source: thomson-1894 }
+  # thomson-1894 computes, from the same king-list, that Ngata's own
+  # assumption of the newly created title Tui Kanokubolu falls "about
+  # 1610" - the point at which he dates the completed transfer of
+  # temporal rule away from the sacred Tui Tonga line. The sacred
+  # office itself continued for centuries after this under that same
+  # source's own king-list, through European contact and into
+  # Thomson's own time, but as a title stripped of the rule this
+  # record covers - a different, still-continuing Tongan polity, not
+  # drafted from here.
+  end: { min: 1610, max: 1610, source: thomson-1894 }
+
+identity: >-
+  A sacred chief's tribute network across the western Pacific,
+  reasserted by a son's pursuit of his own father's murderers across
+  every island that owed the dead king tribute, and then broken up
+  from within by two acts of delegation that left the sacred office
+  standing while handing the actual government to lines of its own
+  making.
+
+# thomson-1894 names Mu'a, on Tongatapu, as the Tui Tonga's own seat -
+# the fishermen who angered Takalaua sailed from it, and it was there
+# that Kau-ulu-fonua's father was buried after his murder.
+capitals:
+  - { name: Mu'a, source: thomson-1894 }
+
+core_region: Tongatapu, with tributary reach across the Ha'apai and Vava'u groups, the Niuas, 'Uvea, Futuna and Samoa
+
+rulers:
+  founder: { name: "Kau-ulu-fonua", source: thomson-1894 }
+  peak: { name: "Kau-ulu-fonua", source: thomson-1894 }
+  # thomson-1894's own king-list places three further Tui Tonga
+  # between Kau-ulu-fonua and Tabuoji, who "flourished 1643," but
+  # gives no year for any of them individually - only that the four
+  # together spanned 108 years. Which of them was reigning when Ngata
+  # assumed the Tui Kanokubolu title "about 1610" is not stated.
+  last: null
+
+scripts_and_languages:
+  administration: [Tongan]
+  writing_system: null
+
+institutions:
+  military_basis: { values: [tribal-levy], source: thomson-1894 }
+  revenue_basis: { values: [tribute], source: thomson-1894 }
+  succession_rule: { values: [descent], source: thomson-1894 }
+  legitimation: { values: [descent, divine-sanction], source: thomson-1894 }
+
+preceded_by_external: []
+
+succeeded_by_external: []
+
+ended:
+  type: fragmentation
+  by: []
+  year: 1610
+  source: thomson-1894
+
+turning_points:
+  - year: 1535
+    type: catastrophe
+    name: "Takalaua murdered at Belehake"
+    changed: >-
+      Driven past endurance by a Tui Tonga who worked them through the
+      planting season dragging stone for his own tomb, two old men of
+      Belehake killed Takalaua on a garden path and hid the dismembered
+      body in a tree, ending the direct, unchecked rule the office had
+      held until then.
+    source: thomson-1894
+    contested: true
+  - year: 1535
+    type: reform
+    name: "Kau-ulu-fonua creates the Tui Ha'atakalaua"
+    changed: >-
+      Having hunted his father's killers the length of the tribute
+      network and back, Kau-ulu-fonua set his own brother over the
+      people as a buffer between the sacred office and its subjects -
+      the first time Tongan government was split between a chief who
+      held the land and the gods, and a second who held the men.
+    source: thomson-1894
+    contested: false
+  - year: 1610
+    type: reform
+    name: "Ngata named the first Tui Kanokubolu"
+    changed: >-
+      A second delegation, this time from within the Tui Ha'atakalaua's
+      own line, gave Ngata a title and a government of his own; the
+      line he founded went on to furnish every ruling chief of Tonga
+      down to Thomson's own day, while the Tui Tonga he had been
+      relieved of governing kept the tribute and the tabu alone.
+    source: thomson-1894
+    contested: true
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: thomson-1894 }
+    religions_carried: { count: 0, items: [], source: thomson-1894 }
+    successor_claims: { count: 0, items: [], source: thomson-1894 }
