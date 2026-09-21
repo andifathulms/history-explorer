@@ -4880,3 +4880,42 @@ edges:
       no Latin or Byzantine emperor's sanction behind it.
     source: nicol-1984
     contested: false
+
+  - from: bahmani
+    to: khandesh
+    type: seceded from
+    year: 1382
+    note: >-
+      Malik Ahmad had made his career in Bahmani service before joining
+      a failed revolt against Muhammad I in 1365; he fled north to
+      Thalner on the Tapti rather than face the consequences, and by
+      1382 had subdued enough of the surrounding country to rule it as
+      an independent prince in fact, taking only the modest title of
+      Khan rather than Sultan.
+    source: haig-1928
+    contested: false
+
+  - from: abbasid
+    to: hamdanid
+    type: vassal of
+    year: 905
+    note: >-
+      Hamdan ibn Hamdun and his sons fought for and against Baghdad in
+      the Jazira through the late ninth century before one of them was
+      made governor of Mosul around 905 - the caliphate's own reward
+      for a family becoming useful to it, in the same pattern that
+      raised most of the tenth century's other regional dynasties.
+    source: kennedy-2004
+    contested: false
+
+  - from: fatimid
+    to: sharifate-mecca
+    type: vassal of
+    year: 968
+    note: >-
+      From about 968 the office of amir or sharif of Mecca was
+      hereditary in a Hasanid family holding under Fatimid suzerainty -
+      the newly Egyptian caliphate wanting, above all, the Friday
+      sermon at Mecca read in its own caliph's name.
+    source: peters-1994
+    contested: false
