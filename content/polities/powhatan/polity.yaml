@@ -1,0 +1,136 @@
+id: powhatan
+region: eastern-woodlands
+
+name:
+  latin: Powhatan Confederacy
+  script: null
+  script_lang: null
+
+span:
+  # smith-1624 finds Powhatan already ruling an established paramount
+  # chiefdom over some thirty subject tribes when the English arrive
+  # in 1607; the confederacy's own founding predates the source's own
+  # narrative, which begins with Smith's own capture and presentation
+  # before Powhatan that same year.
+  start: { min: 1607, max: 1607, source: smith-1624 }
+  # smith-1624's own narrative runs to the July 1624 revocation of the
+  # Virginia Company's charter, without reaching an institutional end
+  # for the confederacy itself.
+  end: { min: 1624, max: 1624, source: smith-1624 }
+
+identity: >-
+  A paramount chiefdom of some thirty Tidewater tribes, ruled from a
+  riverside court its own emperor abandoned rather than let the
+  English see too much of, that answered a colony's arrival first
+  with a captive's ransom, then with a daughter's marriage, and
+  finally, under a brother who had watched both fail to secure the
+  peace, with a single coordinated morning of killing.
+
+capitals:
+  - { name: Werowocomoco, to: 1609, source: smith-1624 }
+
+core_region: The Tidewater region of Virginia, between the James and Potomac rivers
+
+rulers:
+  founder: { name: "Powhatan", source: smith-1624 }
+  peak: { name: "Powhatan", source: smith-1624 }
+  # smith-1624 names Opechancanough as the confederacy's paramount
+  # chief and the contriver of the 1622 massacre; the source's own
+  # narrative does not reach his death.
+  last: { name: "Opechancanough", source: smith-1624 }
+
+scripts_and_languages:
+  administration: [Powhatan]
+  writing_system: null
+
+institutions:
+  military_basis: { values: [tribal-levy], source: smith-1624 }
+  revenue_basis: { values: [tribute], source: smith-1624 }
+  # smith-1624 records Powhatan succeeded by his brother Itopatin, and
+  # then by another brother, Opechancanough - descent through
+  # brothers rather than sons, consistent with the matrilineal
+  # succession customary among the Powhatan's own royal line.
+  succession_rule: { values: [matrilineal], source: smith-1624 }
+  legitimation: { values: [descent], source: smith-1624 }
+
+preceded_by_external: []
+
+succeeded_by_external: []
+
+# smith-1624 does not narrate an institutional end - the massacre it
+# closes on opened a war, not a conclusion. Opechancanough's own
+# paramountcy, and Powhatan resistance to the colony, continued for
+# more than two decades beyond this source: a second, larger uprising
+# in 1644, Opechancanough's own capture and killing in English custody
+# in 1646, and a treaty the same year that subordinated his successor
+# to the English crown - a true end well beyond what this source
+# covers, and not asserted here.
+ended: null
+
+turning_points:
+  - year: 1607
+    type: capital-move
+    name: "Smith brought before Powhatan at Werowocomoco"
+    changed: >-
+      Captured while exploring the Chickahominy and brought before
+      Powhatan's court, John Smith was, by his own account, saved from
+      execution by Powhatan's daughter Pocahontas - the first
+      sustained direct contact between the paramount chiefdom's own
+      ruler and the new English colony, and the beginning of a
+      relationship neither side would manage to keep settled for long.
+    source: smith-1624
+    contested: true
+  - year: 1613
+    type: siege
+    name: "Pocahontas taken captive"
+    changed: >-
+      Lured aboard an English ship and held for ransom during a war
+      that had already run for several years, Pocahontas gave the
+      colony a hostage valuable enough to force Powhatan to the
+      negotiating table, ending the fighting even though Powhatan
+      himself refused to appear in person to settle the terms.
+    source: smith-1624
+    contested: false
+  - year: 1614
+    type: treaty
+    name: "Pocahontas married to John Rolfe"
+    changed: >-
+      Powhatan's rapid consent to his daughter's marriage - he sent
+      an uncle and two of his own sons within ten days to stand as his
+      deputies at the wedding - secured a peace confirmed by both
+      Powhatan and Opechancanough and brought the neighbouring
+      Chickahominy into alliance with the colony as well.
+    source: smith-1624
+    contested: false
+  - year: 1618
+    type: succession-crisis
+    name: "Powhatan dies; Itopatin succeeds"
+    changed: >-
+      Powhatan died in April 1618, and his brother Itopatin succeeded
+      him with Opechancanough's own confirmation of the English
+      league - but it was Opechancanough, not the new nominal
+      paramount chief, who held the real initiative in the
+      confederacy's dealings with the colony from this point on.
+    source: smith-1624
+    contested: false
+  - year: 1622
+    type: catastrophe
+    name: "The massacre of March 22"
+    changed: >-
+      After weeks of deliberately maintained trust following the
+      killing of the warrior Nemattanow, Opechancanough's warriors
+      struck every outlying plantation on the same morning, killing
+      three hundred and forty-seven English men, women and children in
+      a single coordinated attack that ended a decade of uneasy peace
+      and opened a war Smith's own narrative does not live to see the
+      end of.
+    source: smith-1624
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: smith-1624 }
+    religions_carried: { count: 0, items: [], source: smith-1624 }
+    successor_claims: { count: 0, items: [], source: smith-1624 }
