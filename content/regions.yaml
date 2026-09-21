@@ -984,3 +984,12 @@ regions:
       as rich, for the years it covers, as any polity on this site.
     group: africa-maghreb
     thread: false
+
+  - id: hawaii
+    name: Hawaii
+    blurb: >-
+      One island chain, fought over by rival chiefs for a generation, until a
+      war god's own favorite turned Western cannon and a decade of alliance
+      and betrayal into the single kingdom that outlasted every rival claim.
+    group: oceania
+    thread: false

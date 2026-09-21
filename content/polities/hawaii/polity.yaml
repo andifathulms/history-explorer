@@ -1,0 +1,131 @@
+id: hawaii
+region: hawaii
+
+name:
+  latin: Kingdom of Hawaii
+  script: null
+  script_lang: null
+
+# fornander-1880 dates Kamehameha's first real territorial rule - a
+# third of Hawaii Island, won at the battle of Mokuohai - to 1782,
+# following the death of King Kalaniopuu and the succession dispute
+# with Kalaniopuu's son Kiwalao that Kamehameha's own role in Captain
+# Cook's 1779 death (covered in this record's first chapter) precedes
+# as backstory rather than as the founding itself.
+span:
+  start: { min: 1782, max: 1782, source: fornander-1880 }
+  # fornander-1880 dates the battle of Nuuanu, which brought Hawaii,
+  # Maui, Kahoolawe, Lanai, Molokai and Oahu under Kamehameha's single
+  # rule, to April 1795, and states explicitly that "the acquisition
+  # of Kauai was delayed for several years" beyond this - Kauai's own
+  # peaceful submission, c. 1810, completing the unification of the
+  # full island chain, is not narrated here in detail. 1795 is used as
+  # the span's own end because the source itself frames Nuuanu as "the
+  # closing scene in the ancient history of the Hawaiian Islands."
+  end: { min: 1795, max: 1795, source: fornander-1880 }
+
+identity: >-
+  A war god's guardian and one of three rival claimants to a single
+  island, who fought his way to sole rule of Hawaii through a
+  battlefield death, a temple sacrifice he had personally arranged,
+  and a final conquest that drove a defeated army over a cliff -
+  uniting most of the Hawaiian chain under one government for the
+  first time in its own recorded history.
+
+# fornander-1880 does not name a fixed capital for this period; power
+# moved with Kamehameha's own court and campaigns between Kona,
+# Kohala and, after 1795, Oahu.
+capitals: []
+
+core_region: The Hawaiian archipelago
+
+rulers:
+  # fornander-1880's own narrative stops at the 1795 conquest of Oahu;
+  # Kamehameha's historical reign continued, and Kauai submitted
+  # peacefully around 1810, but neither is covered here in the detail
+  # this record draws from.
+  founder: { name: "Kamehameha I", reign: [1782, 1795], source: fornander-1880 }
+  peak: { name: "Kamehameha I", reign: [1782, 1795], source: fornander-1880 }
+  last: { name: "Kamehameha I", reign: [1782, 1795], source: fornander-1880 }
+
+scripts_and_languages:
+  administration: [Hawaiian]
+  writing_system: null
+
+institutions:
+  military_basis: { values: [conscript, tribal-levy], source: fornander-1880 }
+  revenue_basis: null
+  # There was no fixed rule of succession beyond descent and the
+  # favor of the ruling chief; Kalaniopuu's own division of authority
+  # between his son Kiwalao and his nephew Kamehameha, and the war
+  # that followed it, is the clearest evidence this source gives.
+  succession_rule: { values: [factional, descent], source: fornander-1880 }
+  legitimation: { values: [descent, conquest, divine-sanction], source: fornander-1880 }
+
+preceded_by_external: []
+
+succeeded_by_external: []
+
+# fornander-1880 narrates no institutional end - the opposite: a
+# founding triumph. The Kingdom of Hawaii continued under
+# Kamehameha's own successors for a century after this record's own
+# narrative stops, until the monarchy was overthrown in 1893 and the
+# islands annexed by the United States in 1898 - a true end well
+# beyond what this source covers, and not asserted here.
+ended: null
+
+turning_points:
+  - year: 1779
+    type: catastrophe
+    name: "Captain Cook killed at Kealakekua Bay"
+    changed: >-
+      An affray touched off by Cook's own attempt to take King
+      Kalaniopuu aboard his ship ended with Cook's death on the beach;
+      a young Kamehameha, the highest-ranking chief present in the
+      absence of the heir Kiwalao, was later accused by a contemporary
+      trader of having encouraged the killing.
+    source: fornander-1880
+    contested: true
+  - year: 1782
+    type: battle
+    name: "The battle of Mokuohai"
+    changed: >-
+      King Kiwalao was killed by the chief Keeaumoku after a land
+      dispute drove several Kona chiefs into revolt, splitting Hawaii
+      Island into three rival territories under Kamehameha,
+      Keawemauhili and Keoua Kuahuula - Kamehameha's own first real
+      rule, over a third of the island alone.
+    source: fornander-1880
+    contested: false
+  - year: 1791
+    type: treaty
+    name: "Keoua killed at Puukohola"
+    changed: >-
+      Persuaded to travel to Kona for a reconciliation he seems to
+      have half-expected would end in his own death, Keoua Kuahuula
+      was speared by Keeaumoku the moment he stepped ashore and his
+      body sacrificed at Kamehameha's newly finished war temple -
+      ending the last rival claim to Hawaii Island and uniting it
+      under one ruler for the first time since Mokuohai.
+    source: fornander-1880
+    contested: false
+  - year: 1795
+    type: battle
+    name: "The battle of Nuuanu"
+    changed: >-
+      Kamehameha's forces broke Kalanikupule's Oahu army in the
+      Nuuanu valley, driving a large part of it over the valley's own
+      cliff face; the victory brought Hawaii, Maui, Kahoolawe, Lanai,
+      Molokai and Oahu under a single government for the first time,
+      and is treated by the source as the close of the old, disunited
+      era of Hawaiian history.
+    source: fornander-1880
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: fornander-1880 }
+    religions_carried: { count: 0, items: [], source: fornander-1880 }
+    successor_claims: { count: 0, items: [], source: fornander-1880 }

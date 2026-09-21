@@ -81,6 +81,11 @@ export const REGION_GROUPS = [
   // it renders nowhere — see isPopulatedRegion — so this costs a reader
   // nothing and gives the next polity somewhere to go.
   { id: 'the-americas', name: 'The Americas' },
+  // New shelf, opened for Hawaii: no earlier group fit a Pacific island
+  // kingdom, and folding it into 'the-americas' on nothing but ocean
+  // adjacency would have been geography standing in for the actual
+  // reason regions share a shelf everywhere else in this list.
+  { id: 'oceania', name: 'Oceania' },
 ] as const
 export type RegionGroupId = (typeof REGION_GROUPS)[number]['id']
 
