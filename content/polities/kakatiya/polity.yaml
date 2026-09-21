@@ -60,7 +60,19 @@ ended:
   year: 1323
   source: yazdani-1960
 
-preceded_by_external: []
+preceded_by_external:
+  - name: the Western Chalukya Empire of Kalyani
+    type: vassal of
+    year: null
+    note: >-
+      Beta I, the family's own obscure founder, accompanied his
+      Western Chalukya overlords on campaign around 1052, and his
+      descendants held their fief of Anumakonda as Chalukya vassals -
+      "a mandalika, a vassal ruler owing allegiance to the Chalukya
+      emperor at Kalyani" - for generations before Kakatiya rule
+      became an independent kingdom in its own right.
+    source: yazdani-1960
+    contested: false
 succeeded_by_external: []
 
 turning_points:

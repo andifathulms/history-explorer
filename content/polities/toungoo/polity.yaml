@@ -57,7 +57,18 @@ institutions:
 
 preceded_by_external: []
 
-succeeded_by_external: []
+succeeded_by_external:
+  - name: the restored Mon kingdom of Pegu
+    type: conquered by
+    year: 1752
+    note: >-
+      Talaing (Mon) forces took Ava itself in 1752, ending the dynasty
+      outright; the occupying army withdrew most of its strength back
+      to Pegu within weeks rather than press its advantage further
+      north, a hesitation that gave the resistance forming around
+      Alaungpaya the opening it needed.
+    source: harvey-burma-1925
+    contested: false
 
 ended:
   type: conquest

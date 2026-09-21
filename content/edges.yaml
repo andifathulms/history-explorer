@@ -4629,3 +4629,161 @@ edges:
       own dynasty in the Liang's place.
     source: boulger-china-1881
     contested: false
+
+  - from: kizzuwatna
+    to: hittite
+    type: absorbed remnants of
+    year: -1400
+    note: >-
+      No conquest is recorded: a treaty concluded with the Hittite king
+      Tudhaliya I fixed Kizzuwatna's borders in unusual detail, and
+      afterward the kingdom simply stops appearing in the record as a
+      separate party to negotiate with, administered from then on as
+      part of the Hittite state.
+    source: trameri-2020
+    contested: false
+
+  - from: persis
+    to: sasanian
+    type: absorbed remnants of
+    year: 224
+    note: >-
+      No army from outside took Persis: its own vassal king, Ardashir,
+      killed his Parthian overlord Artabanus IV in battle at
+      Hormozdgan and became king of kings himself, at which point the
+      kingdom he had inherited stopped being a distinct vassal state
+      and became the dynastic and religious core of the empire he had
+      just founded.
+    source: daryaee-2009
+    contested: false
+
+  - from: nizari
+    to: mongol
+    type: conquered by
+    year: 1256
+    note: >-
+      Talked into surrender by their own captive, the scholar Nasir
+      al-Din Tusi, the Nizari leadership handed Hulegu's siege engines
+      the fortress of Alamut itself; the grand master Rukn al-Din was
+      killed on the road east and the Persian Nizari communities were
+      put to the sword on the Great Khan's order.
+    source: browne-1906
+    contested: false
+
+  - from: nizari
+    to: mamluk-sultanate
+    type: conquered by
+    year: 1273
+    note: >-
+      The Syrian castles the Mongols never reached fell separately, to
+      Baybars, who reduced them between about 1270 and 1273 and then
+      kept their garrisons in Mamluk service rather than destroying
+      them.
+    source: daftary-2007
+    contested: false
+
+  - from: mutapa
+    to: portugal
+    type: absorbed remnants of
+    year: 1902
+    note: >-
+      Never conquered outright as an empire, the Mutapa state shrank
+      province by province for two centuries until only the district
+      of Chidima remained; Portuguese forces broke its last ruler
+      Dzuda in 1884-87, and a final rising under Dzuda's successor
+      Chioko Dambamupute, which briefly threatened to retake the old
+      empire's ground, ended with Chioko's death in 1902.
+    source: mudenge-1988
+    contested: false
+
+  - from: gahadavala
+    to: ghurid
+    type: conquered by
+    year: 1194
+    note: >-
+      Shihab-ud-din (Muhammad of Ghor) destroyed Jayachandra's army at
+      Chandawar and plundered Varanasi itself - "thus ends the story
+      of the independent kingdom of Kanauj," in smith-1904's own
+      words. Kanauj kept a tributary afterlife afterward under chiefs
+      of the Chandela clan, but as a subordinate administration under
+      Muhammadan overlordship, not a return of the paramountcy
+      Chandawar had just ended.
+    source: smith-1904
+    contested: false
+
+  - from: chahamana
+    to: ghurid
+    type: conquered by
+    year: 1192
+    note: >-
+      Prithviraja's confederate army, victorious at Tarain a year
+      earlier, was broken by the same Ghurid cavalry it had beaten in
+      1191; the defeat opened the Ghurid conquest of Delhi and the
+      wider Gangetic plain and ended Chahamana independence for good.
+    source: smith-1904
+    contested: false
+
+  - from: chandela
+    to: ghurid
+    type: conquered by
+    year: 1203
+    note: >-
+      Qutb al-Din Aibak, still acting as a Ghurid general, took the
+      fortress of Kalanjar after a drought broke the garrison's own
+      resistance - the last major holdout of organized Hindu
+      resistance in Bundelkhand, three years before Aibak's own
+      Delhi Sultanate existed as a separate state.
+    source: smith-1904
+    contested: false
+
+  - from: kakatiya
+    to: delhi-sultanate
+    type: conquered by
+    year: 1323
+    note: >-
+      Ulugh Khan, brother of the Delhi sultan Muhammad bin Tughluq,
+      captured Prataparudra's capital and sent the king east under
+      armed escort; Prataparudra never reached Delhi, dying on the
+      Narmada partway through the journey.
+    source: yazdani-1960
+    contested: false
+
+  - from: chen
+    to: sui
+    type: conquered by
+    year: 589
+    note: >-
+      Sui armies crossed the Yangtze and took the Chen capital, a
+      conquest the population itself seemed relieved to accept -
+      reuniting, under Yang Jian's new dynasty, an empire that had
+      been divided into hostile states since the Han's own collapse
+      more than three and a half centuries earlier.
+    source: boulger-china-1881
+    contested: false
+
+  - from: goryeo
+    to: joseon
+    type: overthrew
+    year: 1392
+    note: >-
+      Gen. Yi T'ae-jo, having already stripped King Kongyang of his
+      sons, ministers and freedom of action, received the royal seals
+      without a final confrontation and founded his own dynasty in
+      Goryeo's place - a change of throne made, like the one that had
+      begun the Goryeo dynasty itself in 918, by the court's own
+      choice rather than open battle.
+    source: hulbert-1905
+    contested: false
+
+  - from: carthage
+    to: roman-republic
+    type: conquered by
+    year: -146
+    note: >-
+      After the Third Punic War's siege reduced the city, Scipio
+      Aemilianus razed it and enslaved the survivors - the destruction
+      of the one Mediterranean power that had ever met Rome on
+      genuinely equal terms, and the end of a rivalry that had run for
+      more than a century.
+    source: bosworth-smith-carthage-1878
+    contested: false

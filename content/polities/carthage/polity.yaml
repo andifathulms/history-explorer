@@ -58,7 +58,18 @@ institutions:
   succession_rule: null
   legitimation: null
 
-preceded_by_external: []
+preceded_by_external:
+  - name: Tyre
+    year: null
+    note: >-
+      Carthage began, on the account preserved by later legend, as a
+      Phoenician trading settlement from Tyre - its inhabitants
+      treating themselves as tenants of the Berber population that
+      already held the land rather than as owners of it, a memory of
+      peaceful settlement that Bosworth Smith reads as more reliable
+      than the story of exile and flight later wrapped around it.
+    source: bosworth-smith-carthage-1878
+    contested: false
 
 succeeded_by_external: []
 
