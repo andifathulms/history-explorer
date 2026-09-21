@@ -1,0 +1,153 @@
+id: cuman-kipchak
+region: turkic-steppe
+
+name:
+  latin: Cuman-Kipchak confederation
+  # boswell-kipchak-1927 gives the people's own name, Kipchak, in
+  # Latin transliteration only; no source consulted for this record
+  # supplies an original script, and none of the many names other
+  # peoples used for them - Cuman, Polovtsy, Valvi, Kun - was their
+  # own.
+  script: null
+  script_lang: null
+
+# boswell-kipchak-1927 dates the Kipchaks' first appearance on the
+# borders of Rus to 1054, the earliest point the source itself gives a
+# calendar year for their presence in Europe, after a migration west
+# out of the Kirghiz steppe whose own beginning the source does not
+# date precisely.
+span:
+  start: { min: 1054, max: 1054, source: boswell-kipchak-1927 }
+  # 1331 is the source's own last dated appearance of identifiably
+  # Kipchak forces acting as such - cavalry serving Poland against the
+  # Teutonic Order at Plowce - nearly a century after the Mongol
+  # conquest formally ended Kipchak independence in 1223-40. The span
+  # is carried forward to cover that afterlife; `ended` below marks
+  # the political end.
+  end: { min: 1331, max: 1331, source: boswell-kipchak-1927 }
+
+identity: >-
+  A confederation of Turkic tribes known by a different name to every
+  neighbor they fought or married into - Russians, Georgians,
+  Hungarians, Bulgarians and Byzantines all in turn - broken by a
+  Mongol army that talked their own allies into abandoning them, and
+  scattered afterward into becoming ancestors of half the royal houses
+  of Eastern Europe and, through slaves sold into Egypt, sultans of
+  the Mamluk dynasty.
+
+# boswell-kipchak-1927 names no single fixed capital; the confederation
+# used towns like Sharukan, Osenev and Sugrov as khans' own headquarters
+# and briefly controlled surviving Khazar towns like Sarkel, but held no
+# single seat of government.
+capitals: []
+
+core_region: The Pontic-Caspian steppe from the Volga to the Danube at its widest extent
+
+rulers:
+  # boswell-kipchak-1927 names many khans across two centuries but no
+  # single founder of the confederation itself, which formed through
+  # migration and conquest rather than a single act of founding.
+  founder: { name: null, source: null }
+  peak: { name: Bonyak, source: boswell-kipchak-1927 }
+  # Yury, son of Konchak, led the Kipchaks at the Kalka in 1223
+  # alongside Kotyan; boswell-kipchak-1927 does not treat either as a
+  # sole ruler of the whole confederation, which had no single throne
+  # to hold.
+  last: { name: "Yury, son of Konchak", source: boswell-kipchak-1927 }
+
+scripts_and_languages:
+  administration: [Kipchak Turkic]
+  writing_system: null
+
+institutions:
+  military_basis: { values: [tribal-levy], source: boswell-kipchak-1927 }
+  revenue_basis: { values: [tribute], source: boswell-kipchak-1927 }
+  succession_rule: null
+  legitimation: null
+
+preceded_by_external: []
+
+# Not succeeded_by_external: the Golden Horde (golden-horde) is already
+# a record here, so the Mongol absorption of Kipchak territory and
+# population is an edge in edges.yaml rather than a name with no page.
+succeeded_by_external: []
+
+# boswell-kipchak-1927 describes the Kalka disaster of 1223 as only
+# the opening blow: Kotyan and other khans went on operating for years
+# afterward, fleeing to Hungary only once "the second Mongol invasion"
+# reorganized the steppe as the Kipchak Khanate under Batu - the same
+# polity already recorded here as golden-horde, whose own span starts
+# in 1242 (halperin-1985). That year, not 1223, is used below as the
+# actual end of Kipchak independence.
+ended:
+  type: conquest
+  by: [golden-horde]
+  year: 1242
+  source: boswell-kipchak-1927
+
+turning_points:
+  - year: 1091
+    type: battle
+    name: "Lebounion, fighting for Byzantium"
+    changed: >-
+      Called in by Emperor Alexius to help meet a mass of Pecheneg
+      refugees threatening his own European territory, the Kipchaks
+      shared in his decisive victory at Lebounion - the high point of
+      their brief usefulness as an ally before fifty years of raiding
+      their former patron's own frontier provinces began.
+    source: boswell-kipchak-1927
+    contested: false
+  - year: 1096
+    type: siege
+    name: "Bonyak raids the Pechersky monastery"
+    changed: >-
+      Khan Bonyak's forces broke into Kiev's own Pechersky monastery
+      while the monks were resting after morning prayers - an
+      intrusion shocking enough that the chronicler, ordinarily
+      detached, recorded the moment in his own words rather than
+      simply the event.
+    source: boswell-kipchak-1927
+    contested: false
+  - year: 1103
+    type: battle
+    name: "Vladimir Monomakh's campaign at Suten"
+    changed: >-
+      A princely alliance Monomakh had spent years assembling marched
+      deep into the steppe and crushed the main Kipchak force at
+      Suten, killing twenty khans including the redoubtable Altunopa -
+      the first of two campaigns that broke Kipchak power on the
+      Russian frontier for sixty years.
+    source: boswell-kipchak-1927
+    contested: false
+  - year: 1185
+    type: battle
+    name: "Prince Igor's disaster"
+    changed: >-
+      Konchak's forces destroyed Prince Igor of Novgorod-Seversk's
+      expedition, a defeat significant enough to produce both a
+      detailed prose account in the Kievan Chronicle and the epic
+      *Tale of the Host of Igor* - the clearest sign of a Kipchak
+      revival the Russian frontier had not faced since Bonyak's own
+      generation.
+    source: boswell-kipchak-1927
+    contested: false
+  - year: 1223
+    type: battle
+    name: "The river Kalka"
+    changed: >-
+      A Mongol army under Jebe and Subutai talked the Kipchaks into
+      abandoning their Alan and Caucasian allies, defeated the
+      coalition, and then maneuvered a combined Russian-Kipchak
+      relief force into a catastrophic defeat on the river Kalka -
+      the beginning of the end of Kipchak independence, though full
+      Mongol conquest of the steppe took another generation.
+    source: boswell-kipchak-1927
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: boswell-kipchak-1927 }
+    religions_carried: { count: 0, items: [], source: boswell-kipchak-1927 }
+    successor_claims: { count: 0, items: [], source: boswell-kipchak-1927 }

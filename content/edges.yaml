@@ -4987,3 +4987,18 @@ edges:
       who founded the First Turkic Khaganate on the same ground.
     source: golden-1992
     contested: false
+
+  - from: cuman-kipchak
+    to: golden-horde
+    type: absorbed remnants of
+    year: 1242
+    note: >-
+      A Mongol army under Jebe and Subutai broke Kipchak power at the
+      Kalka in 1223 by talking them into abandoning their own allies,
+      but Kipchak khans like Kotyan went on operating for years
+      afterward; only the second Mongol invasion completed the
+      conquest, reorganizing the whole Pontic-Caspian steppe as the
+      Kipchak Khanate under Batu - a state built on Kipchak population
+      and territory even as it answered to a new Mongol dynasty.
+    source: boswell-kipchak-1927
+    contested: false
