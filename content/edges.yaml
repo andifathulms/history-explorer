@@ -2426,6 +2426,18 @@ edges:
     source: stigand-1913
     contested: false
 
+  - from: pate
+    to: al-busaid
+    type: conquered by
+    year: 1822
+    note: "Ordered to give up the Mazaru'i garrison its own 1807 succession
+           crisis had left behind and refusing, Pate was taken by a fleet
+           under Sa'id's general Hamad, along with the dependent towns of
+           Siu and Faza - fifteen years before Sa'id took Mombasa itself by
+           the same kind of pressure."
+    source: stigand-1913
+    contested: false
+
   - from: ayyubid
     to: rasulid
     type: seceded from

@@ -1,0 +1,114 @@
+id: pate
+region: swahili-coast
+
+name:
+  latin: Sultanate of Pate
+  script: پاتی
+  script_lang: ar
+
+span:
+  # stigand-1913 does not name whoever led Pate's own break from Omani
+  # allegiance, only that "at this time" - 1746, the same year Ali bin
+  # Osman made himself independent governor of Mombasa - "Pate shook
+  # off their allegiance to Oman."
+  start: { min: 1746, max: 1746, source: stigand-1913 }
+  # stigand-1913 dates Sa'id's fleet, under his general Hamad, taking
+  # Pate, Siu and Faza outright to 1822, after Pate refused an order
+  # to expel its own Mazaru'i garrison.
+  end: { min: 1822, max: 1822, source: stigand-1913 }
+
+identity: >-
+  An island sultanate at the head of the Lamu archipelago, ruling a
+  mainland coast from the Juba to Kilifi at its widest reach, that
+  spent a rebellious generation playing Oman and its own Mazaru'i
+  neighbours in Mombasa against each other before a dead sultan's
+  succession dispute gave both of them the opening to finish it.
+
+# stigand-1913 does not name a Pate capital distinct from the town
+# itself, on Pate Island in the Lamu archipelago.
+capitals:
+  - { name: Pate, source: stigand-1913 }
+
+core_region: Pate Island and the Lamu archipelago, with mainland dependencies reaching from the Juba river to Kilifi at their widest
+
+rulers:
+  # stigand-1913 gives no name for whoever ruled Pate when it broke
+  # from Oman in 1746 - only the act itself.
+  founder: null
+  peak: { name: "Sultan Fumomadi", source: stigand-1913 }
+  last: { name: "Sultan Ahmed", source: stigand-1913 }
+
+scripts_and_languages:
+  administration: [Swahili, Arabic]
+  writing_system: Arabic
+
+institutions:
+  military_basis: { values: [tribal-levy], source: stigand-1913 }
+  revenue_basis: { values: [tribute, trade-toll], source: stigand-1913 }
+  succession_rule: { values: [factional], source: stigand-1913 }
+  legitimation: { values: [descent], source: stigand-1913 }
+
+preceded_by_external: []
+
+succeeded_by_external: []
+
+ended:
+  type: conquest
+  by: [al-busaid]
+  year: 1822
+  source: stigand-1913
+
+turning_points:
+  - year: 1746
+    type: revolt
+    name: "Pate breaks with Oman"
+    changed: >-
+      In the same year Mombasa's Mazaru'i made themselves independent
+      of the Imam, Pate withdrew its own allegiance to Oman - and soon
+      afterward went to open war with the Mazaru'i themselves over the
+      division of Pemba's tax revenue, besieging their position at
+      Kilindini before the two sides came to terms.
+    source: stigand-1913
+    contested: false
+  - year: 1776
+    type: treaty
+    name: "Pate recognises the Imam's rule"
+    changed: >-
+      Thirty years after breaking with Oman, Pate agreed to recognise
+      the Imam's rule - a diplomatic accommodation rather than a
+      surrender, since no garrison, tribute or governor from Oman
+      followed it, and Pate's own sultans went on ruling exactly as
+      before.
+    source: stigand-1913
+    contested: false
+  - year: 1807
+    type: succession-crisis
+    name: "Sultan Fumomadi's death divides the throne"
+    changed: >-
+      Fumomadi's death opened a contested succession between Fumoluti,
+      favoured by a party in Lamu, and Ahmed; Mombasa's Mazaru'i
+      governor marched troops to Pate, installed Ahmed on the throne,
+      and carried Fumoluti off to Mombasa, driving his partisans into
+      exile in Lamu and setting the Mazaru'i against that town when
+      they attacked it there and were repulsed.
+    source: stigand-1913
+    contested: false
+  - year: 1822
+    type: battle
+    name: "Sa'id's fleet takes Pate, Siu and Faza"
+    changed: >-
+      Ordered to expel the Mazaru'i garrison the Mombasa succession
+      crisis had left behind and refusing, Pate was taken outright by
+      a fleet under Sa'id's general Hamad, along with the dependent
+      towns of Siu and Faza - the end of Pate ruling itself under a
+      sultan of its own line.
+    source: stigand-1913
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: stigand-1913 }
+    religions_carried: { count: 0, items: [], source: stigand-1913 }
+    successor_claims: { count: 0, items: [], source: stigand-1913 }
