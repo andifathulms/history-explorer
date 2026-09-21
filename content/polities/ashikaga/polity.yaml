@@ -57,7 +57,19 @@ ended:
   source: griffis-1883
 
 preceded_by_external: []
-succeeded_by_external: []
+succeeded_by_external:
+  - name: Oda Nobunaga
+    type: overthrew
+    year: 1573
+    note: >-
+      Nobunaga expelled the last Ashikaga shogun, Yoshiaki, from Kyoto
+      in 1573, ending the office the family had held for nearly two
+      and a half centuries; Nobunaga himself was killed by one of his
+      own captains in 1582 before he could complete a unification of
+      Japan, work his successors Hideyoshi and Ieyasu carried on from
+      the foundations his own campaigns had laid.
+    source: griffis-1883
+    contested: false
 
 institutions:
   military_basis: { values: [client-levy], source: griffis-1883 }

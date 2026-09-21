@@ -49,7 +49,18 @@ institutions:
   # Hugh Capet and again for Charles VII in 1429.
   legitimation: { values: [descent, divine-sanction], source: kitchin-1899 }
 
-preceded_by_external: []
+preceded_by_external:
+  - name: the West Frankish kingdom
+    year: 987
+    note: >-
+      The last Carolingian king in the west, Louis V, died without a
+      son in 987, and the great men of the kingdom passed over his own
+      surviving uncle to elect Hugh, duke of the Franks, in his place -
+      a change of dynasty on the same throne rather than a conquest,
+      won under the influence of Gerbert of Aurillac and with
+      Archbishop Adalberon of Reims presiding.
+    source: kitchin-1899
+    contested: false
 
 succeeded_by_external:
   - name: the French Republic

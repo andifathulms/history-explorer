@@ -4787,3 +4787,96 @@ edges:
       more than a century.
     source: bosworth-smith-carthage-1878
     contested: false
+
+  - from: chalukya
+    to: rashtrakuta
+    type: overthrew
+    year: 753
+    note: >-
+      Dantidurga, who had served the Chalukya emperor Kirttivarman II
+      as a loyal feudatory and even married into the imperial line by
+      force, spent years isolating his own overlord on the margins
+      before overthrowing him outright and taking the Chalukya throne
+      for his own family.
+    source: yazdani-1960
+    contested: false
+
+  - from: toyotomi
+    to: tokugawa
+    type: overthrew
+    year: 1600
+    note: >-
+      Ieyasu's victory at Sekigahara made him Japan's actual master
+      without yet giving him the formal shogunal title; Hideyoshi's
+      son Hideyori survived at Osaka Castle as a nominal rival for
+      another fifteen years, a lingering threat to Tokugawa rule that
+      was not finally removed until the castle fell in 1615.
+    source: griffis-1883
+    contested: false
+
+  - from: silla
+    to: later-baekje
+    type: seceded from
+    year: 897
+    note: >-
+      Kyŏn Hwŏn, a Silla army officer who had thrown off his own
+      allegiance to the court in the 890s, formalized his revolt in
+      897 by founding a permanent capital at Wan-san and reviving, on
+      the same southwestern ground, the name of the old kingdom of
+      Baekje that Silla and Tang had destroyed together two and a half
+      centuries before.
+    source: hulbert-1905
+    contested: false
+
+  - from: delhi-sultanate
+    to: bahmani
+    type: seceded from
+    year: 1347
+    note: >-
+      Deccan officers of Muhammad bin Tughluq, pushed into open revolt
+      by a recall order delivered with open contempt, held Daulatabad
+      and much of the Deccan outright; their interim king stood aside
+      in favor of his own general Zafar Khan, who was crowned Ala-ud-
+      Din Hasan Bahman Shah on 3 August 1347.
+    source: firishta-briggs-1829
+    contested: false
+
+  - from: hungary
+    to: moldavia
+    type: seceded from
+    year: 1359
+    note: >-
+      The Hungarian crown had planted the frontier march under Voivode
+      Dragoș to hold the eastern Carpathian approach against a
+      weakening Mongol threat; what is dated is not that founding but
+      the break from Hungarian control that followed it in 1359.
+    source: dorin-matei-2018
+    contested: false
+
+  - from: vladimir-suzdal
+    to: tver
+    type: partitioned from
+    year: null
+    note: >-
+      Tver was cut from the larger appanage of Pereiaslavl, itself one
+      of five shares Vsevolod III's own undivided Vladimir-Suzdal
+      territory had already been broken into under his sons and
+      grandsons - no source dates the moment precisely, only the point
+      at which a named Prince of Tver first appears negotiating as an
+      independent power.
+    source: kliuchevsky-1912
+    contested: false
+
+  - from: byzantine
+    to: epirus
+    type: absorbed remnants of
+    year: 1204
+    note: >-
+      When the Fourth Crusade sacked Constantinople, Michael Komnenos
+      Doukas deserted the Latin army dividing up Byzantine territory,
+      crossed into the remote country of Epirus, and made himself
+      protector of a Greek population the empire's collapse had left
+      to nobody's authority at all - a foundation, Nicol notes, with
+      no Latin or Byzantine emperor's sanction behind it.
+    source: nicol-1984
+    contested: false

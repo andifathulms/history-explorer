@@ -57,7 +57,18 @@ ended:
   year: 1600
   source: griffis-1883
 
-preceded_by_external: []
+preceded_by_external:
+  - name: Oda Nobunaga
+    year: 1582
+    note: >-
+      Hideyoshi served Nobunaga as a general under the assumed name
+      Hashiba and avenged his master's murder within days of it,
+      moving swiftly enough against the killer to make himself, rather
+      than any of Nobunaga's own sons, the dead warlord's political
+      heir - inheriting the unification project Nobunaga had built but
+      not lived to finish.
+    source: griffis-1883
+    contested: false
 
 succeeded_by_external:
   - name: The Tokugawa Shogunate

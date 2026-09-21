@@ -37,6 +37,20 @@ ended:
   year: 535
   source: parker-1895
 
+preceded_by_external:
+  - name: the Western Jin court
+    type: vassal of
+    year: 315
+    note: >-
+      The Toba's own rise began quietly, as a reward for loyalty
+      rather than a conquest: in 315 the Jin court, still nominally
+      ruling all of China though already losing its grip on the
+      north, made Ilu, chief of the westernmost Toba tribe, Prince of
+      Tai - the patent of authority the family built on for three
+      generations before claiming an empire of its own.
+    source: parker-1895
+    contested: false
+
 succeeded_by_external:
   - name: the Eastern and Western Wei
     type: partitioned from

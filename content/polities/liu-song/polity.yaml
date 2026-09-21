@@ -57,7 +57,18 @@ institutions:
 # The Eastern Jin, whose last emperor Liu Yu deposed and had
 # murdered, is already a record in this collection (jin-sima); see
 # edges.yaml.
-preceded_by_external: []
+preceded_by_external:
+  - name: the Eastern Jin dynasty
+    type: overthrew
+    year: 420
+    note: >-
+      Liu Yu, a general who had already made himself the power behind
+      the Eastern Jin throne, took the imperial title outright in 420
+      and proclaimed himself Kaotsou, founder of the Song dynasty -
+      ending a Jin line that had governed a divided China, in the
+      south only, for exactly a century.
+    source: boulger-china-1881
+    contested: false
 
 succeeded_by_external: []
 
