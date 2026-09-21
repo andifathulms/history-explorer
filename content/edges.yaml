@@ -4960,3 +4960,16 @@ edges:
       competing princely lines that also produced Vladimir-Suzdal.
     source: rambaud-russia-1880
     contested: false
+
+  - from: sena
+    to: ghurid
+    type: conquered by
+    year: 1199
+    note: >-
+      Muhammad Bakhtiyar Khalji took the Sena capital at Nadia with a
+      raiding force smaller than a modest merchant caravan, destroyed
+      the city, and sent a substantial share of the plunder on to his
+      own Ghurid overlord, Qutb al-Din Aibak - "the dishonoured end of
+      the last Hindu kingdom" of Bengal, in smith-1904's own phrase.
+    source: smith-1904
+    contested: false
