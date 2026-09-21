@@ -1,0 +1,126 @@
+id: zanzibar
+region: swahili-coast
+
+name:
+  latin: Sultanate of Zanzibar
+  script: سلطنة زنجبار
+  script_lang: ar
+
+span:
+  # lyne-1905 dates Lord Canning's Award separating Zanzibar from
+  # Muscat to April 2, 1861, accepted by Seyyid Thuwaini on May 15 and
+  # by Seyyid Majid on June 25 of that year - the point Zanzibar
+  # became, for the first time, a sovereign state rather than the
+  # richer half of a single Omani dominion.
+  start: { min: 1861, max: 1861, source: lyne-1905 }
+  # lyne-1905 dates Seyyid Hamid bin Thuwaini's sudden death to August
+  # 25, 1896, and the bombardment that crushed the usurper Khaled bin
+  # Barghash and installed a British-approved successor to the morning
+  # of August 27 - the point Zanzibar's sultan stopped being able to
+  # act against a British ultimatum at all.
+  end: { min: 1896, max: 1896, source: lyne-1905 }
+
+identity: >-
+  A sultanate carved out of a larger Omani inheritance by a
+  brother-against-brother succession dispute that Britain itself was
+  asked to settle, which spent thirty-five years as the hinge of the
+  East African slave and ivory trade before losing most of its
+  mainland to German and British partition and its last real
+  independence to thirty-seven minutes of naval gunfire.
+
+capitals:
+  - { name: Zanzibar Town, source: lyne-1905 }
+
+core_region: Zanzibar and Pemba, with a mainland sphere from Cape Delgado to Somalia at its widest before German and British delimitation
+
+rulers:
+  # Reign given here from the 1861 Award, not from Majid's earlier,
+  # unseparated governorship of Zanzibar under his father Seyyid Said
+  # from 1856.
+  founder: { name: "Seyyid Majid bin Said", reign: [1861, 1870], source: lyne-1905 }
+  peak: { name: "Seyyid Barghash bin Said", reign: [1870, 1888], source: lyne-1905 }
+  # lyne-1905's own appendix king-list does not recognise Khaled bin
+  # Barghash's two-day seizure of the palace as a reign at all,
+  # passing directly from Hamid's death to Hamoud's installation two
+  # days later. Hamid is given here as the last ruler this record
+  # recognises, since his death is what opened the crisis the
+  # bombardment ended.
+  last: { name: "Seyyid Hamid bin Thuwaini", reign: [1893, 1896], source: lyne-1905 }
+
+scripts_and_languages:
+  administration: [Arabic, Swahili]
+  writing_system: Arabic
+
+institutions:
+  military_basis: { values: [mercenary, standing-professional], source: lyne-1905 }
+  revenue_basis: { values: [trade-toll, monopoly], source: lyne-1905 }
+  succession_rule: { values: [factional], source: lyne-1905 }
+  legitimation: { values: [descent, investiture], source: lyne-1905 }
+
+preceded_by_external: []
+
+succeeded_by_external: []
+
+ended:
+  type: gradual absorption
+  by: []
+  year: 1896
+  source: lyne-1905
+
+turning_points:
+  - year: 1861
+    type: treaty
+    name: "The Canning Award"
+    changed: >-
+      Arbitrating a succession dispute between Sultan Said's sons
+      Thuwaini in Muscat and Majid in Zanzibar, the Governor-General of
+      India declared Majid sovereign ruler of Zanzibar and its African
+      dominions in his own right, owing Muscat only an annual subsidy
+      - separating, for the first time, the African and Arabian halves
+      of Said's old dominion into two independent states.
+    source: lyne-1905
+    contested: false
+  - year: 1873
+    type: treaty
+    name: "Frere's mission forces the sea trade closed"
+    changed: >-
+      Under the threat of a naval blockade, Sir Bartle Frere's mission
+      compelled Seyyid Barghash to sign a treaty closing the sea route
+      of the slave trade and shutting Zanzibar's own slave market - the
+      commerce that had built the sultanate's wealth put, for the
+      first time, under external and enforceable prohibition.
+    source: lyne-1905
+    contested: false
+  - year: 1885
+    type: treaty
+    name: "The German surprise"
+    changed: >-
+      Commodore Paschen's German fleet entered the harbour on August 7
+      and demanded Barghash recognise the Kaiser's protectorate over
+      Usagara, Uzeguha, Nguru, Ukami and Witu and withdraw his own
+      troops from them; lacking any force to answer the fleet with,
+      Barghash submitted within the week, and the mainland empire the
+      sultanate had spent decades building
+      began coming apart at a speed no negotiation had prepared for.
+    source: lyne-1905
+    contested: false
+  - year: 1896
+    type: catastrophe
+    name: "The bombardment"
+    changed: >-
+      When Khaled bin Barghash seized the palace within hours of Seyyid
+      Hamid's death, a British ultimatum and, on its refusal, a
+      thirty-seven-minute bombardment by three warships destroyed the
+      palace, sank the sultanate's one warship, and installed a
+      British-approved successor - after which no sultan of Zanzibar
+      again acted against a British demand.
+    source: lyne-1905
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: lyne-1905 }
+    religions_carried: { count: 0, items: [], source: lyne-1905 }
+    successor_claims: { count: 0, items: [], source: lyne-1905 }

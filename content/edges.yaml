@@ -2438,6 +2438,18 @@ edges:
     source: stigand-1913
     contested: false
 
+  - from: al-busaid
+    to: zanzibar
+    type: partitioned from
+    year: 1861
+    note: "Lord Canning's arbitration of the succession dispute between
+           Sa'id bin Sultan's sons gave Majid sovereign rule over Zanzibar
+           and the African dominions in his own right, separate from
+           Thuwaini's Muscat, in exchange for an annual subsidy owed to
+           the poorer Arabian half."
+    source: lyne-1905
+    contested: false
+
   - from: ayyubid
     to: rasulid
     type: seceded from
