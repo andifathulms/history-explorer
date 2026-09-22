@@ -10097,3 +10097,51 @@ sources:
       copyrighted work, not a public-domain text, but the standard
       archaeological atlas of a site with no surviving textual record
       of its own.
+
+  - id: kroeber-trujillo-1926
+    kind: book
+    author: Alfred L. Kroeber
+    title: "Archaeological Explorations in Peru, Part I: Ancient Pottery from Trujillo"
+    publisher: Field Museum of Natural History
+    year: 1926
+    note: >-
+      A site survey by an early excavator of the Peruvian north coast,
+      following up on Max Uhle's pioneering 1899 excavations at the
+      ruins of Moche for the University of California. Used here for the
+      physical description of the two great earthen pyramids of the
+      site, the Huaca del Sol and the smaller terraced Huaca de la Luna,
+      standing on the plain between the Cerro Blanco hill and the Moche
+      river a few kilometers from the Pacific coast. Out of copyright.
+
+  - id: kroeber-peru-1930
+    kind: book
+    author: Alfred L. Kroeber
+    title: "Archaeological Explorations in Peru, Part II"
+    publisher: Field Museum of Natural History
+    year: 1930
+    note: >-
+      A continuation of the author's north-coast survey work. Used here
+      for the polychrome mural paintings first noted at the Huaca de la
+      Luna by Eduard Seler in 1910 and rediscovered, more extensively,
+      in 1925-26, depicting a battle between human figures and
+      personified weapons and tools - the same "revolt of the artifacts"
+      myth documented elsewhere in ancient Mexico. Out of copyright.
+
+  - id: collier-viru-1955
+    kind: book
+    author: Donald Collier
+    title: "Cultural Chronology and Change as Reflected in the Ceramics of the Virú Valley, Peru"
+    publisher: "Field Museum of Natural History (Fieldiana: Anthropology, Vol. 43)"
+    year: 1955
+    note: >-
+      A chronological synthesis of the north Peruvian coast built from
+      the Viru Valley Project's stratigraphic and, by the time of
+      writing, early radiocarbon evidence. Used here for Wendell
+      Bennett's 1949 pre-radiocarbon estimate - cited by the author as
+      the working chronology of the field at the time - placing the
+      Gallinazo and Mochica cultural period at approximately A.D.
+      300-1000, and for the source's own framing of a "Late Epoch"
+      beginning with "the collapse of Mochica culture" and continuing
+      until the Spanish conquest. The only accessible source found for
+      this record giving a dated chronological bracket for the Mochica
+      period.

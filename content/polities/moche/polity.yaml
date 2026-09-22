@@ -1,0 +1,81 @@
+id: moche
+region: the-andes
+
+name:
+  latin: Moche (Mochica)
+  script: null
+  script_lang: null
+
+# No source consulted for this record gives calendar dates for the Mochica
+# period from stratigraphy or dynastic record; nothing of the kind survives
+# for a nonliterate culture. collier-viru-1955 cites Wendell Bennett's 1949
+# estimate - the working chronology of the field at the time of writing,
+# arrived at from stratigraphic and geological evidence before radiocarbon
+# dating was available - which places the Gallinazo and Mochica cultural
+# period at approximately A.D. 300 to 1000.
+span:
+  start: { min: 300, max: 300, source: collier-viru-1955 }
+  end: { min: 1000, max: 1000, source: collier-viru-1955 }
+
+identity: >-
+  The major culture of Peru's north coast before Chimor, known for two
+  great earthen pyramids at the type site of Moche, polychrome murals of
+  a myth in which weapons and tools rise up against their makers, and
+  fine painted pottery depicting its own world in detail.
+
+capitals:
+  - { name: Moche, from: 300, source: collier-viru-1955 }
+
+core_region: The north Peruvian coast, the Moche, Chicama and Virú valleys
+
+rulers:
+  # No source consulted for this record names any Mochica ruler.
+  founder: null
+  peak: null
+  last: null
+
+scripts_and_languages:
+  administration: [Mochica (unwritten)]
+  writing_system: null
+
+ended:
+  type: fragmentation
+  by: []
+  year: 1000
+  source: collier-viru-1955
+
+turning_points:
+  - year: 300
+    type: reform
+    name: Two pyramids on the plain
+    changed: >-
+      On a dry plain between the Cerro Blanco hill and the Moche river,
+      a few kilometers from the Pacific, the site's builders raised the
+      Huaca del Sol, a massive freestanding earthen pyramid, and the
+      smaller, terraced Huaca de la Luna against the hillside. Max Uhle's
+      1899 excavations there, and the type collection of pottery he
+      recovered, gave the whole culture its modern name.
+    source: kroeber-trujillo-1926
+    contested: false
+  - year: 900
+    type: reform
+    name: A revolt of the artifacts
+    changed: >-
+      Polychrome murals uncovered on the inner walls of the Huaca de la
+      Luna - first glimpsed by Eduard Seler in 1910 and much more fully
+      exposed in 1925-26 - depict a battle between human figures and
+      personified weapons and tools, a "revolt of the artifacts" myth
+      also recorded elsewhere in ancient Mexico. Painted in red, yellow,
+      pink and light blue on whitewashed adobe, the scenes are the
+      clearest surviving record of Mochica narrative art on the walls
+      of one of its own temples.
+    source: kroeber-peru-1930
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
