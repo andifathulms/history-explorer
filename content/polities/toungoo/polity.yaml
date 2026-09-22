@@ -17,11 +17,9 @@ span:
 identity: >-
   A refugee garrison town's dynasty, founded by a fifteen-year-old
   king who reunited Burma by conquest and stratagem, carried to its
-  own peak by his general and brother-in-law Bayinnaung, rebuilt from
-  sixteen years of fragmentation by a grandson's patient reconquest
-  and a revenue inquest that outlasted the wars which made it
-  necessary, and ended two centuries after its founding when a
-  starving Ava fell to Mon rebels who burned it to the ground.
+  peak by his general and brother-in-law Bayinnaung, rebuilt from
+  fragmentation by a grandson's patient reconquest, and ended two
+  centuries after its founding when a starving Ava fell to Mon rebels.
 
 capitals:
   - { name: Toungoo, source: harvey-burma-1925 }

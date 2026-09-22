@@ -22,13 +22,11 @@ span:
   end: { min: 1512, max: 1512, source: chapman-1918 }
 
 identity: >-
-  A mountain kingdom of Basque resistance fighters who ambushed
-  Charlemagne's own rearguard at Roncesvalles, and whose greatest king
-  briefly ruled nearly the whole Christian north before dividing it
-  again among his sons - a division from which Castile and Aragon
-  emerged as kingdoms in their own right, while Navarre itself, reduced
-  ever since, was finally split in two by a conquest three centuries
-  later.
+  A mountain kingdom of Basque fighters who ambushed Charlemagne's
+  rearguard at Roncesvalles, whose greatest king briefly ruled nearly
+  the whole Christian north before dividing it among his sons - a
+  division from which Castile and Aragon emerged, while Navarre,
+  reduced ever since, was finally split by conquest.
 
 capitals:
   - { name: Pamplona, source: chapman-1918 }

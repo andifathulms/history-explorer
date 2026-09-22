@@ -21,16 +21,11 @@ span:
   end: { min: 1946, max: 1946, source: colonial-report-zanzibar-1946 }
 
 identity: >-
-  A sultanate carved out of a larger Omani inheritance by a
-  brother-against-brother succession dispute that Britain itself was
-  asked to settle, which spent thirty-five years as the hinge of the
-  East African slave and ivory trade before losing most of its
-  mainland to German and British partition and, in 1896, thirty-seven
-  minutes of naval gunfire - and which continued for decades afterward
-  as a British protectorate, its throne now filled and vacated with
-  British sanction, under a sultan whose own reign was already the
-  longest in the dynasty's history when the sources drawn on here
-  stop.
+  A sultanate carved from a larger Omani inheritance by a
+  brother-against-brother dispute Britain was asked to settle - hinge
+  of the East African slave and ivory trade before losing its mainland
+  to partition and, in 1896, thirty-seven minutes of naval gunfire,
+  then continuing for decades as a British protectorate.
 
 capitals:
   - { name: Zanzibar Town, source: lyne-1905 }

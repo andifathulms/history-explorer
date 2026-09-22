@@ -33,12 +33,10 @@ span:
 
 identity: >-
   The Dalai Lama's own government, installed by a Mongol khan who
-  crushed a rival Tibetan king, run for decades by an able regent who
-  built the Potala in the Fifth Dalai Lama's name, drawn steadily
-  under Chinese oversight after a disputed reincarnation split
-  Tibetans, Mongols and the Qing court against each other, and twice
-  driven into exile by foreign armies before expelling the last of
-  them from its own capital in 1912.
+  crushed a rival king, run for decades by a regent who built the
+  Potala in the Fifth Dalai Lama's name, drawn under Chinese oversight
+  after a disputed reincarnation, and twice exiled before expelling
+  the last foreign army in 1912.
 
 capitals:
   - { name: Lhasa, source: bell-1924 }

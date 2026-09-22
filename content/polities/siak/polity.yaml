@@ -22,12 +22,11 @@ span:
   end: { min: 1946, max: 1946, source: khairiah-siak-education-2024 }
 
 identity: >-
-  A kingdom founded on a claim rather than a conquest of soil - a
-  posthumous prince's disputed birthright to Johor's own throne, converted
-  into a separate Sumatran sultanate once the claim to Johor itself could
-  not be made to stick - that outlasted Dutch colonial rule and ended when
-  its own last sultan handed its treasury to a new republic rather than
-  bargain for his own line's future.
+  A kingdom founded on a claim rather than a conquest - a posthumous
+  prince's disputed birthright to Johor's throne, converted into a
+  separate sultanate once that claim failed - that outlasted Dutch
+  rule and ended when its last sultan handed its treasury to a new
+  republic.
 
 capitals:
   - { name: "Siak Sri Indrapura", source: andaya-1975 }

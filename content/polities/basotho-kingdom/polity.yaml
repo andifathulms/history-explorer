@@ -16,23 +16,18 @@ name:
 # kingdom built around Moshoeshoe's own leadership - to 1820.
 span:
   start: { min: 1820, max: 1820, source: casalis-basutos-1861 }
-  # casalis-basutos-1861 is a missionary memoir covering the author's
-  # own 23 years in South Africa (per its own subtitle), beginning
-  # with his 1833 arrival at Moshoeshoe's court; its narrative,
-  # including the undated war against Boer encroachment and the
-  # "moral sovereignty" proclamation covered in the kingdom's own
-  # final chapter here, cannot postdate his 1856 departure. The span
-  # is carried to that outer bound.
-  end: { min: 1833, max: 1856, source: casalis-basutos-1861 }
+  # theal-1908-v4 dates Moshoeshoe's death at Thaba Bosiu to 11 March
+  # 1870, two years after the 12 March 1868 proclamation that made the
+  # Basuto British subjects - the last point either source consulted
+  # here reaches.
+  end: { min: 1870, max: 1870, source: theal-1908-v4 }
 
 identity: >-
-  A federation of Sotho chiefdoms shattered by the wars Shaka's own
-  conquests set loose across the highlands, rebuilt around one
-  mountain stronghold by a chief who suppressed cannibalism with a
-  sentence rather than an army, turned back the Ndebele with a gift
-  of cattle, and spent his final documented years watching Boer
-  emigrants and an indifferent colonial government erode what the
-  wars themselves had failed to break.
+  A federation of Sotho chiefdoms shattered by wars Shaka's conquests
+  set loose, rebuilt around one mountain stronghold by a chief who
+  suppressed cannibalism with a sentence rather than an army, and who
+  secured his people's survival, in old age, by trading sovereignty
+  for a British protectorate.
 
 capitals:
   - { name: Thaba Bosiu, source: casalis-basutos-1861 }
@@ -42,11 +37,12 @@ core_region: The Caledon River valley and Maloti mountains of present-day Lesoth
 rulers:
   founder: { name: Moshoeshoe, source: casalis-basutos-1861 }
   peak: { name: Moshoeshoe, source: casalis-basutos-1861 }
-  # casalis-basutos-1861 does not narrate Moshoeshoe's own death or
-  # succession; his reign continued long past this source's own
-  # narrative window, through the 1868 establishment of a British
-  # protectorate, to his death in 1870.
-  last: { name: Moshoeshoe, source: casalis-basutos-1861 }
+  # theal-1908-v4 records that in his final years Moshoeshoe's own
+  # power had already passed to his sons Letsie, Molapo and Masupha,
+  # who governed their own followers without reference to him; he
+  # died at Thaba Bosiu on 11 March 1870, four months after sending
+  # Queen Victoria a kaross as thanks for the protectorate.
+  last: { name: Moshoeshoe, source: theal-1908-v4 }
 
 scripts_and_languages:
   administration: [Sesotho]
@@ -62,14 +58,10 @@ preceded_by_external: []
 
 succeeded_by_external: []
 
-# casalis-basutos-1861 narrates no institutional end for the kingdom -
-# only an unresolved war and a failed colonial settlement, still open
-# when the author's own account stops. The kingdom did not in fact end
-# in the destructive sense this field elsewhere records: it became a
-# British protectorate (Basutoland) in 1868, two years before
-# Moshoeshoe's own death, and survives today as the independent
-# Kingdom of Lesotho - a continuation, not an ending, and one this
-# record's own source does not reach.
+# Neither source narrates an institutional end. The kingdom became a
+# British protectorate, Basutoland, on 12 March 1868, continued under
+# it long past Moshoeshoe's own 1870 death, and survives today as the
+# independent Kingdom of Lesotho - a continuation, not an ending.
 ended: null
 
 turning_points:
@@ -95,6 +87,31 @@ turning_points:
       between the Basotho kingdom and the colonial world whose
       encroachment would define the rest of his reign.
     source: casalis-basutos-1861
+    contested: false
+  - year: 1868
+    type: treaty
+    name: "Basutoland proclaimed British territory"
+    changed: >-
+      After years of Moshoeshoe's own repeated requests, and with Free
+      State commandos still in the field against him, the high
+      commissioner proclaimed the Basuto British subjects and their
+      country British territory on the 12th of March - trading the
+      independence the kingdom had defended since its founding for
+      protection against a war it could no longer contain alone.
+    source: theal-1908-v4
+    contested: false
+  - year: 1870
+    type: catastrophe
+    name: "Death of Moshoeshoe"
+    changed: >-
+      Four months after sending Queen Victoria a kaross of panther
+      skins as thanks for the protectorate, Moshoeshoe died at Thaba
+      Bosiu on the 11th of March, his own authority over his people
+      already passed in practice to his sons - a death colonial
+      newspapers scarcely noticed, though the Basotho themselves
+      turned within moments toward regarding him as a protecting
+      ancestral spirit.
+    source: theal-1908-v4
     contested: false
 
 measures:

@@ -19,11 +19,11 @@ span:
   end: { min: -2055, max: -2055, source: shaw-2000 }
 
 identity: >-
-  A century and a quarter with no single king: the landed governors who had
-  kept the Old Kingdom's nomes running went on running them after Memphis
-  fell silent, and the kingship that had held the whole Nile valley for a
-  thousand years became a prize two rival lines, one at Herakleopolis and
-  one at Thebes, spent generations fighting over.
+  A century and a quarter with no single king: the landed governors
+  who had kept the Old Kingdom's nomes running went on running them
+  after Memphis fell silent, and the kingship became a prize two
+  rival lines, one at Herakleopolis and one at Thebes, spent
+  generations fighting over.
 
 capitals:
   - { name: Herakleopolis, source: breasted-1905 }

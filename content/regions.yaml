@@ -598,8 +598,12 @@ regions:
   # produced, which is a trading relationship and not a succession. Hard rule 7
   # says a region without a thread is a normal region, and this is what one
   # looks like.
+  # Renamed from "The Zimbabwe Plateau and the Swahili Coast" once a real
+  # swahili-coast region existed below: the old name left two regions both
+  # carrying "Swahili Coast," and Kilwa's own place here was always about
+  # the gold trade with the plateau, not the coast at large.
   - id: zimbabwe-and-the-coast
-    name: The Zimbabwe Plateau and the Swahili Coast
+    name: The Zimbabwe Plateau and Kilwa
     blurb: >-
       One inland stone capital and one island port, four hundred miles and a
       river apart, joined by a single commodity: the gold of the plateau, which

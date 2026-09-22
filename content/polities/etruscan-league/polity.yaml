@@ -25,10 +25,10 @@ span:
 
 identity: >-
   A confederation of twelve Etruscan cities whose kings once ruled
-  Rome itself, who marched to restore an expelled Tarquin and were
-  turned back at the Arsian Wood, and who spent a century and a half
-  after losing Veii being worn down city by city until one last stand
-  at the Vadimonian Lake.
+  Rome, who marched to restore an expelled Tarquin and were turned
+  back at the Arsian Wood, and who spent a century and a half after
+  losing Veii worn down city by city to one last stand at the
+  Vadimonian Lake.
 
 capitals:
   - { name: Veii, source: dennis-etruria-1848 }

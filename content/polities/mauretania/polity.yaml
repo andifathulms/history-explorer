@@ -21,14 +21,14 @@ span:
   # Caligula to shortly before the emperor's own British expedition,
   # which other ancient sources place in AD 40; the kingdom was
   # annexed rather than left to an heir.
-  end: { min: -40, max: -40, source: suetonius-thomson-forester-1855 }
+  end: { min: 40, max: 40, source: suetonius-thomson-forester-1855 }
 
 identity: >-
-  A western Berber kingdom that entered the record through a peace
-  offer Rome's own corrupt senators refused to answer, then through a
-  king's decision to betray the son-in-law he had gone to war
-  alongside - surviving two more centuries as Rome's client before an
-  emperor executed its last king for wearing too fine a robe.
+  A western Berber kingdom born of a betrayed peace offer and a king's
+  betrayal of his own son-in-law, surviving two centuries as Rome's
+  client and reaching its height under a scholar-king married to
+  Cleopatra's own daughter, before an emperor executed its last king
+  for wearing too fine a robe.
 
 # No source consulted for this record names Bocchus's own capital;
 # later Mauretanian kings are known to have ruled from Volubilis and
@@ -40,16 +40,14 @@ core_region: Northwestern Africa along the Mediterranean and Atlantic coasts, co
 
 rulers:
   founder: { name: Bocchus, source: sallust-jugurtha-pollard-1882 }
-  peak: { name: Bocchus, source: sallust-jugurtha-pollard-1882 }
-  # No source consulted for this record traces the throne in detail
-  # between Bocchus and Bogud's own era in Caesar's civil war (46 BC)
-  # and Ptolemy's reign under Caligula (c. AD 40) - a gap of some
-  # eight decades that includes Augustus's installation of Juba II,
-  # son of the Numidian King Juba I, as client king of a reunified
-  # Mauretania after 25 BC, and Juba II's marriage to Cleopatra
-  # Selene, daughter of Mark Antony and Cleopatra VII - facts
-  # well-established elsewhere but not sourced here from a primary
-  # text actually consulted for this record.
+  # cassius-dio-cary-1955 dates Juba II's transfer from his father's
+  # Numidian throne to a reunified Mauretania to 25 BC; his reign there
+  # ran for decades - strabo-hamilton-falconer-1856 calls his death
+  # only "lately," undated precisely, but a translator's note bounds
+  # it no later than AD 18 or 19 - making his the longest and most
+  # settled reign of any king covered here, against Bocchus's few
+  # turbulent years in the Jugurthine War.
+  peak: { name: "Juba II", source: cassius-dio-cary-1955 }
   last: { name: Ptolemy, source: suetonius-thomson-forester-1855 }
 
 scripts_and_languages:
@@ -67,7 +65,7 @@ preceded_by_external: []
 succeeded_by_external:
   - name: The Roman Empire
     type: conquered by
-    year: -40
+    year: 40
     note: >-
       Caligula had Ptolemy executed at Rome and annexed Mauretania
       outright rather than recognize a successor, ending the kingdom's
@@ -79,7 +77,7 @@ succeeded_by_external:
 ended:
   type: conquest
   by: []
-  year: -40
+  year: 40
   source: suetonius-thomson-forester-1855
 
 turning_points:
@@ -127,7 +125,31 @@ turning_points:
       time.
     source: caesar-african-war-loeb-1955
     contested: false
-  - year: -40
+  - year: -25
+    type: treaty
+    name: "Juba II transferred to Mauretania"
+    changed: >-
+      Trading Juba's own hereditary Numidian throne - by then largely
+      absorbed into Roman territory - for Mauretania and the former
+      possessions of Bocchus and Bogud, Augustus reunited the kingdom
+      under a single client king for the first time since Caesar's
+      civil war, and installed as its ruler a man raised in Italy and
+      married to Cleopatra Selene, daughter of Antony and Cleopatra.
+    source: cassius-dio-cary-1955
+    contested: false
+  - year: 6
+    type: revolt
+    name: "The Gaetulians rise against Juba"
+    changed: >-
+      Discontented with Juba's own rule and unwilling to be governed
+      by Romans at one remove, the Gaetulians rose, ravaged
+      neighbouring territory and killed a number of the Roman soldiers
+      sent against them before Cornelius Cossus subdued them - a
+      revolt substantial enough that Cossus was voted triumphal
+      honours and the title Gaetulicus for ending it.
+    source: cassius-dio-cary-1955
+    contested: false
+  - year: 40
     type: catastrophe
     name: "Ptolemy executed for a purple robe"
     changed: >-

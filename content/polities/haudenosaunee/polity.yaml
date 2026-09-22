@@ -22,12 +22,11 @@ span:
   end: { min: 1848, max: 1848, source: morgan-iroquois-1851 }
 
 identity: >-
-  A confederacy of five, later six, nations of present-day New York, bound
-  by fifty hereditary sachemships under a law tradition credited to the
+  A confederacy of five, later six, New York nations, bound by fifty
+  hereditary sachemships under a law tradition credited to the
   Onondaga lawgiver Dekanawida, that broke the Huron, Erie and Neutral
-  nations, held the balance between French and English colonial power for a
-  century, and split irreparably over which side to support in the American
-  Revolution.
+  nations, held the balance of French and English power for a
+  century, and split over the American Revolution.
 
 capitals:
   - { name: Onondaga (council fire), from: null, source: morgan-iroquois-1851 }

@@ -15,12 +15,11 @@ span:
   end: { min: 1571, max: 1571, source: morga-stanley-1868 }
 
 identity: >-
-  Two allied fortified towns facing each other across the mouth of the
-  Pasig river on Manila Bay, ruled by chiefs styled raja, home to resident
-  Chinese and Japanese trading communities and a bronze cannon foundry,
-  that burned rather than pay the tribute a Spanish expedition never
-  actually demanded, and was refounded the following year as Spanish
-  Manila on the ashes of its own principal town.
+  Two allied fortified towns facing each other across the Pasig
+  river's mouth on Manila Bay, ruled by chiefs styled raja, home to
+  resident Chinese and Japanese traders, that burned rather than pay
+  a tribute never actually demanded, and was refounded the next year
+  as Spanish Manila.
 
 capitals:
   - { name: Maynila, from: null, source: blair-robertson-vol3 }

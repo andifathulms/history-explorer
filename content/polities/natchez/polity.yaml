@@ -19,10 +19,10 @@ span:
 
 identity: >-
   A theocratic chiefdom of the lower Mississippi ruled by a Great Sun
-  descended, by its own account, from the sun itself, whose nobility
-  passed only through women and whose royal funerals could claim a dozen
-  lives by strangulation - destroyed within a single year after a French
-  commandant demanded the cornfields of its oldest village for his own.
+  descended, by its own account, from the sun, nobility passed only
+  through women, and royal funerals could claim a dozen lives by
+  strangulation - destroyed within a year after a French commandant
+  demanded its oldest village's cornfields.
 
 capitals:
   - { name: "Grand Village (Natchez)", from: null, source: dupratz-louisiana-1774 }

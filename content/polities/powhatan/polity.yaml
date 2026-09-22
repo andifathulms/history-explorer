@@ -20,11 +20,10 @@ span:
 
 identity: >-
   A paramount chiefdom of some thirty Tidewater tribes, ruled from a
-  riverside court its own emperor abandoned rather than let the
-  English see too much of, that answered a colony's arrival first
-  with a captive's ransom, then with a daughter's marriage, and
-  finally, under a brother who had watched both fail to secure the
-  peace, with a single coordinated morning of killing.
+  riverside court its emperor abandoned rather than let the English
+  see too much, that answered a colony's arrival first with a
+  captive's ransom, then a daughter's marriage, and finally a single
+  coordinated morning of killing.
 
 capitals:
   - { name: Werowocomoco, to: 1609, source: smith-1624 }

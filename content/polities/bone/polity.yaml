@@ -26,12 +26,11 @@ span:
   end: { min: 1860, max: 1860, source: zainol-dali-nordin-2020 }
 
 identity: >-
-  A Bugis kingdom fought into Islam at spear-point by its own coastal
-  neighbor, whose escaped, enslaved prince came back a generation later
-  with a foreign fleet and made Bone the paramount power of the whole
-  peninsula instead - a status a council of seven noble houses helped
-  sustain for a century and a half, until a Dutch army broke it in 1860
-  and reduced the kingdom to a loan held on someone else's terms.
+  A Bugis kingdom fought into Islam at spear-point by its coastal
+  neighbor, whose escaped, enslaved prince returned a generation later
+  with a foreign fleet and made Bone the peninsula's paramount power
+  instead, sustained a century and a half until a Dutch army broke it
+  in 1860.
 
 capitals:
   - { name: Watampone, source: andaya-1981 }

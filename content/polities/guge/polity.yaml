@@ -24,11 +24,11 @@ span:
   end: { min: 1630, max: 1630, source: wessels-1924-jesuit-travellers }
 
 identity: >-
-  A refuge kingdom the old Tibetan royal line built in the far west after
-  its dynasty collapsed at home, best remembered for one king's
+  A refuge kingdom the old Tibetan royal line built in the far west
+  after its dynasty collapsed at home, best remembered for one king's
   decade-long temple-building campaign that helped restart Buddhism on
-  the plateau, and ended nearly six centuries later when a rejected
-  second marriage dragged it into a war with Ladakh it did not survive.
+  the plateau, and ended centuries later when a rejected marriage
+  dragged it into a war with Ladakh.
 
 capitals:
   - { name: "Tsaparang (with a major religious center at Tholing)", source: jahoda-2019-nyarma }

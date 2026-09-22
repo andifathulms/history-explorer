@@ -15,19 +15,21 @@ name:
 # regional power this record actually covers.
 span:
   start: { min: 1816, max: 1816, source: bryant-zululand-1929 }
-  # bryant-zululand-1929's own narrative runs only to Shaka's 1828
-  # assassination. The Zulu Kingdom itself continued for another half
-  # century under Dingane, Mpande and Cetshwayo, through the 1879
-  # Anglo-Zulu War, down to formal British annexation in 1887 - a true
-  # end well beyond what this source narrates and not asserted here.
-  end: { min: 1828, max: 1828, source: bryant-zululand-1929 }
+  # colenso-zulu-war-1880 dates Cetshwayo's capture, ending organized
+  # Zulu resistance, to 28 August 1879. Between Shaka's 1828
+  # assassination and this record's own resumption of the narrative in
+  # 1856, Dingane's twelve-year reign, his war with the Voortrekkers
+  # and the Battle of Blood River, and the first sixteen years of
+  # Mpande's reign are not covered by any source consulted here - see
+  # the rulers.last comment below.
+  end: { min: 1879, max: 1879, source: colenso-zulu-war-1880 }
 
 identity: >-
-  A minor clan descended from a seventeenth-century migrant, seized by
-  an exiled, illegitimate son who turned his own childhood humiliation
-  into a military machine that reordered the whole of southeastern
-  Africa within a decade - and was killed by his own brothers within
-  twelve years of taking the throne.
+  A minor clan seized by an exiled, illegitimate son who built a
+  military power that reordered southeastern Africa within a decade,
+  survived his own murder by his brothers, and fought imperial Britain
+  under a fourth king before its capital burned and its king was
+  hunted down in a forest.
 
 capitals:
   - { name: Bulawayo, source: bryant-zululand-1929 }
@@ -43,9 +45,14 @@ rulers:
   founder: { name: Shaka, reign: [1816, 1828], source: bryant-zululand-1929 }
   peak: { name: Shaka, reign: [1816, 1828], source: bryant-zululand-1929 }
   # Dingane, one of Shaka's own assassins, took the throne after him
-  # and reigned until 1840; bryant-zululand-1929's own narrative ends
-  # with Shaka's death and does not follow the succession further.
-  last: { name: Shaka, reign: [1816, 1828], source: bryant-zululand-1929 }
+  # and reigned until 1840, when his own half-brother Mpande, backed
+  # by Boer allies, overthrew him. Neither Dingane's reign nor the
+  # first sixteen years of Mpande's is covered by a source consulted
+  # here; colenso-zulu-war-1880 picks the narrative up with the 1856
+  # civil war between Mpande's sons Cetshwayo and Mbulazi; Mpande
+  # reigned on in name until his natural death in 1872, when Cetshwayo,
+  # already the power behind the throne since 1856, was crowned king.
+  last: { name: Cetshwayo, reign: [1872, 1879], source: colenso-zulu-war-1880 }
 
 scripts_and_languages:
   administration: [isiZulu]
@@ -64,19 +71,22 @@ institutions:
 
 preceded_by_external: []
 
-# Not a succession to record here: Dingane, one of Shaka's own
-# assassins, took the same Zulu throne rather than founding a
-# separate state, so this is the kingdom's own continuation rather
-# than a predecessor/successor relation - see the span and rulers.last
-# comments above for what that continuation was and why it is not
-# covered further in this record.
+# Not a succession to record here: every ruler through Cetshwayo held
+# the same Zulu throne rather than founding a separate state, so
+# Dingane's and Mpande's reigns are the kingdom's own continuation
+# rather than a predecessor/successor relation - see the rulers.last
+# comment for what of that continuation is and is not covered here.
+# After Cetshwayo's capture Britain divided Zululand among thirteen
+# appointed chiefs rather than annexing it outright; the kingdom was
+# not formally annexed until 1887, a decade of further history not
+# covered by a source consulted here.
 succeeded_by_external: []
 
 ended:
-  type: internal usurpation
+  type: conquest
   by: []
-  year: 1828
-  source: bryant-zululand-1929
+  year: 1879
+  source: colenso-zulu-war-1880
 
 turning_points:
   - year: 1816
@@ -123,6 +133,63 @@ turning_points:
       reign of the king who had built the kingdom in the first place.
     source: bryant-zululand-1929
     contested: true
+  - year: 1856
+    type: revolt
+    name: "Cetshwayo defeats Mbulazi at Tugela"
+    changed: >-
+      With the aging Mpande unwilling or unable to name an heir, his
+      sons Cetshwayo and Mbulazi fought a civil war for the
+      succession; Mbulazi was killed and his party routed with great
+      slaughter, and although Cetshwayo neither deposed his father nor
+      took the throne outright, from that year the real authority of
+      the kingdom was his.
+    source: colenso-zulu-war-1880
+    contested: false
+  - year: 1872
+    type: succession-crisis
+    name: "Mpande dies, Cetshwayo crowned"
+    changed: >-
+      Mpande died a natural death after decades of nominal rule,
+      immobilized in his last years by his own great weight, and
+      Cetshwayo - already the kingdom's effective ruler for sixteen
+      years - was proclaimed king in name as well as fact.
+    source: colenso-zulu-war-1880
+    contested: false
+  - year: 1879
+    type: battle
+    name: "Isandhlwana"
+    changed: >-
+      A Zulu force estimated at ten thousand or more overran the
+      British camp at Isandhlwana on the 22nd of January, encircling
+      and destroying the defending column in the single heaviest
+      defeat a British army suffered at the hands of a colonized
+      people in the nineteenth century - a victory that briefly halted
+      the invasion of Zululand outright.
+    source: colenso-zulu-war-1880
+    contested: false
+  - year: 1879
+    type: siege
+    name: "Ulundi burned"
+    changed: >-
+      A British square armed with artillery and Gatling guns broke a
+      Zulu attack of an estimated fifteen to twenty thousand men on
+      the 4th of July in barely half an hour; the royal capital of
+      Ulundi was set alight the same day, and with it the organized
+      military power the kingdom had maintained since Shaka's own
+      reign.
+    source: colenso-zulu-war-1880
+    contested: false
+  - year: 1879
+    type: catastrophe
+    name: "Cetshwayo captured"
+    changed: >-
+      Found sheltering in a kraal in the Ngome forest on the 28th of
+      August, Cetshwayo was taken by a mounted patrol and delivered to
+      the ruins of his own capital before being shipped into exile at
+      Cape Town - ending organized resistance and the reign of the
+      kingdom's last independent king.
+    source: colenso-zulu-war-1880
+    contested: false
 
 measures:
   reach_km2: null

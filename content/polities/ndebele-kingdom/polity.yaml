@@ -19,10 +19,10 @@ span:
 
 identity: >-
   A war-band that fled a Zulu king's death sentence and carved a
-  second Zulu-model kingdom a thousand miles north of the first,
-  broken from its land twice - once by Boer commandos on the
-  highveld, once by a chartered company's columns beyond the
-  Limpopo - and refounded once before it was not refounded again.
+  second Zulu-model kingdom a thousand miles north, broken from its
+  land twice - once by Boer commandos, once by a chartered company's
+  columns beyond the Limpopo - and refounded once before it was not
+  refounded again.
 
 capitals:
   - { name: Mosega, to: 1837, source: theal-1908-v2 }

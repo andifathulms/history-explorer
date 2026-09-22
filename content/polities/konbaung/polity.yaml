@@ -21,13 +21,11 @@ span:
   end: { min: 1824, max: 1824, source: harvey-burma-1925 }
 
 identity: >-
-  A village headman's dynasty, raised from a stockade of felled toddy
-  trees against a Talaing army that had just burned the old Burmese
-  capital, that went on to sack Ayutthaya, repel four Chinese
-  invasions and conquer Arakan under its founder's own sons - before a
-  later king, certain that one Burman was worth four Englishmen,
-  marched into a war with the East India Company his own court had no
-  accurate idea how to measure.
+  A village headman's dynasty, raised from a stockade of toddy trees
+  against an army that had just burned the old Burmese capital, that
+  sacked Ayutthaya, repelled four Chinese invasions and conquered
+  Arakan - before a later king, certain one Burman was worth four
+  Englishmen, marched on the East India Company.
 
 capitals:
   - { name: Shwebo (Moksobomyo), from: 1752, source: harvey-burma-1925 }

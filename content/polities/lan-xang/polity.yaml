@@ -19,13 +19,9 @@ span:
 
 identity: >-
   The Lao kingdom of the middle Mekong, joined under one crown by an
-  exile's son raised at the Khmer court, ruled from Luang Prabang and
-  then Wiengchan (Vientiane), which fought Burma to a standstill under
-  King Jai Jett'a, lost him without a trace in a Cambodian jungle,
-  passed through Burmese vassalage and back to independence, split into
-  rival thrones by treaty, and fell at last to a Siamese army that
-  emptied its capital of plunder, including the Emerald Buddha its own
-  king had once carried off from Chiengmai.
+  exile's son raised at the Khmer court, which fought Burma to a
+  standstill, lost a king without a trace in a Cambodian jungle, split
+  into rival thrones, and fell at last to a Siamese army.
 
 capitals:
   - { name: Luang Prabang, from: 1353, source: coedes-1968 }

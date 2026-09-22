@@ -19,12 +19,11 @@ span:
   end: { min: 1837, max: 1837, source: stigand-1913 }
 
 identity: >-
-  A Swahili port and its fort, held by a governing family who avenged
-  a murdered predecessor, declared themselves independent of the Imam
-  who had installed them, and spent a century turning back sieges from
-  Oman, Zanzibar and Britain before intrigue and a broken family
-  finally handed the fort to the one power all the fighting had been
-  meant to keep out.
+  A Swahili port and fort, held by a family who avenged a murdered
+  predecessor, declared themselves independent of the Imam who
+  installed them, and spent a century turning back sieges from Oman,
+  Zanzibar and Britain before intrigue handed the fort to the power
+  the fighting had meant to keep out.
 
 capitals:
   - { name: Mombasa, source: stigand-1913 }

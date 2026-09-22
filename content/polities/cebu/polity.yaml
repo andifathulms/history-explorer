@@ -14,12 +14,11 @@ span:
   end: { min: 1565, max: 1565, source: morga-stanley-1868 }
 
 identity: >-
-  A tribute-collecting port on the island of Cebu, ruled by Raja Humabon,
-  that struck a blood compact and mass baptism with Magellan's expedition
-  in 1521, watched its new ally die at the hands of a neighboring chief who
-  refused the same submission, and turned on the survivors at a banquet
-  before falling to a second Spanish fleet under Legazpi forty-four years
-  later.
+  A tribute-collecting port on Cebu, ruled by Raja Humabon, that
+  struck a blood compact and mass baptism with Magellan's expedition
+  in 1521, watched its new ally die at a neighboring chief's hands,
+  turned on the survivors at a banquet, and fell to a second Spanish
+  fleet forty-four years later.
 
 capitals:
   - { name: Cebu (Sugbu), from: null, source: pigafetta-1906 }
