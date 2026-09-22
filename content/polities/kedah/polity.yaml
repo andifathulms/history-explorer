@@ -1,0 +1,97 @@
+id: kedah
+region: sumatra-and-the-peninsula
+
+name:
+  latin: Kedah
+  script: null
+  script_lang: null
+
+span:
+  # winstedt-kedah-1920 dates the conversion of Kedah's first Muslim
+  # ruler, Sultan Muzaffar Shah, to 1474, per an Achinese account
+  # corroborated by the Sejarah Melayu.
+  start: { min: 1474, max: 1474, source: winstedt-kedah-1920 }
+  # winstedt-kedah-1920 dates the Siamese invasion, after which Sultan
+  # Ahmad Tajuddin Halim Shah fled and Siamese forces occupied and
+  # partitioned the country, to 1821.
+  end: { min: 1821, max: 1821, source: winstedt-kedah-1920 }
+
+identity: >-
+  One of the oldest Malay sultanates, converted to Islam in 1474,
+  plundered by Portugal and Aceh in turn, blockaded for decades by the
+  Dutch over its tin trade, and broken by a Siamese invasion that cut
+  its population from 180,000 to 6,000 within six years.
+
+capitals:
+  - { name: Kota Kuala Kedah, from: 1474, source: winstedt-kedah-1920 }
+
+core_region: The northwestern Malay Peninsula
+
+rulers:
+  founder: { name: Sultan Muzaffar Shah I, source: winstedt-kedah-1920 }
+  peak: null
+  last: { name: Sultan Ahmad Tajuddin Halim Shah, source: winstedt-kedah-1920 }
+
+scripts_and_languages:
+  administration: [Malay]
+  writing_system: Jawi
+
+ended:
+  type: conquest
+  by: []
+  year: 1821
+  source: winstedt-kedah-1920
+
+turning_points:
+  - year: 1611
+    type: catastrophe
+    name: Fire and sword from Tenasserim
+    changed: >-
+      A Portuguese force under Dioge de Mendoca Furtado, sailing down
+      from Tenasserim toward Malacca, destroyed the towns of Kedah
+      with fire and sword - proof that neither Siamese overlordship
+      nor Kedah's own standing as a major tin port could shield it
+      from a passing European fleet.
+    source: winstedt-kedah-1920
+    contested: false
+  - year: 1619
+    type: battle
+    name: The Sultan led into captivity
+    changed: >-
+      Aceh's Sultan Iskandar Muda, campaigning against the rulers of
+      the Malay Peninsula, led Kedah's own Sultan Sulaiman Shah into
+      captivity along with the ruler of Perak. Achinese influence over
+      Kedah persisted for some years afterward.
+    source: winstedt-kedah-1920
+    contested: false
+  - year: 1821
+    type: catastrophe
+    name: A population cut to a thirtieth
+    changed: >-
+      Siam invaded Kedah, forcing Sultan Ahmad Tajuddin Halim Shah to
+      flee to Province Wellesley; the occupying Siamese administration
+      divided the country into four parts under separate rulers, and
+      within six years its population fell from 180,000 to 6,000. The
+      sultan was not restored, under Siamese protection, until 1843.
+    source: winstedt-kedah-1920
+    contested: false
+
+# Neither the Siamese administration that occupied Kedah after 1821 nor the
+# British authority that took over suzerainty in 1909 has its own record here.
+succeeded_by_external:
+  - name: Siamese occupation, and later British suzerainty
+    year: 1821
+    note: >-
+      Siam occupied and partitioned Kedah from 1821, restoring Sultan
+      Ahmad Tajuddin Halim Shah under its own protection in 1843; in
+      1909 Siam transferred its suzerainty over Kedah to Great Britain,
+      which administered it as one of the Unfederated Malay States.
+    source: winstedt-kedah-1920
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
