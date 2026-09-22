@@ -15,14 +15,18 @@ span:
   # earliest point at which the source dates him performing a
   # sovereign act as an established king.
   start: { min: 1797, max: 1797, source: ellis-1829-v1 }
-  # ellis-1829-v2 dates Pomare II's death to 7 December 1821.
-  end: { min: 1821, max: 1821, source: ellis-1829-v2 }
+  # gordon-cumming-1882 dates Pomare V's cession of nominal sovereignty
+  # to June 1880, with formal annexation proclaimed at Papeete in 1881;
+  # 1880 is used here as the point Tahiti's own monarchy ceased to
+  # hold even nominal power.
+  end: { min: 1880, max: 1880, source: gordon-cumming-1882 }
 
 identity: >-
-  A district chief's rise to sole rule of Tahiti on borrowed muskets
-  and mutineers' aid, tested at once by a rebellion his own seizure of
-  a war god provoked, and carried by his son through civil war, exile
-  and a Sabbath ambush into the battle that broke the old religion.
+  A district chief's rise to sole rule of Tahiti on borrowed muskets,
+  carried by his son through civil war into the battle that broke the
+  old religion, and ended three reigns later when a French admiral's
+  own gunpowder saluted a flag the last king could only trade for a
+  pension.
 
 # Neither source names a fixed seat for this period. Matavai was the
 # district ceded to the mission in 1797, Pare was Pomare I's own home
@@ -36,7 +40,10 @@ core_region: Tahiti and Eimeo (Moorea), with allied chiefs on Huahine and Raiate
 rulers:
   founder: { name: "Pomare I", reign: [1797, 1803], source: ellis-1829-v1 }
   peak: { name: "Pomare II", reign: [1804, 1821], source: ellis-1829-v1 }
-  last: { name: "Pomare II", reign: [1804, 1821], source: ellis-1829-v2 }
+  # gordon-cumming-1882 dates Pomare V's accession to 1877, on his
+  # mother Pomare IV's death, and his cession of nominal sovereignty
+  # to June 1880.
+  last: { name: "Pomare V", reign: [1877, 1880], source: gordon-cumming-1882 }
 
 scripts_and_languages:
   administration: [Tahitian]
@@ -50,14 +57,22 @@ institutions:
 
 preceded_by_external: []
 
-succeeded_by_external: []
+succeeded_by_external:
+  - name: The French colony of Tahiti
+    type: absorbed remnants of
+    year: 1881
+    note: >-
+      Formally proclaimed at Papeete in 1881, the annexation converted
+      a protectorate already French in substance since 1843 into a
+      colony outright, with Pomare V pensioned off rather than
+      succeeded by any Tahitian ruler.
+    source: gordon-cumming-1882
 
-# ellis-1829-v2 narrates no institutional end to the kingdom itself -
-# only Pomare II's own death. His son was crowned Pomare III in 1824,
-# and the dynasty continued under later Pomares until the French
-# protectorate of 1842 and the annexation of 1880, both well beyond
-# what either volume used here covers.
-ended: null
+ended:
+  type: gradual absorption
+  by: []
+  year: 1880
+  source: gordon-cumming-1882
 
 turning_points:
   - year: 1797
@@ -123,6 +138,31 @@ turning_points:
       the time - calls the heaviest the mission and the nation had
       suffered since the introduction of Christianity.
     source: ellis-1829-v2
+    contested: false
+  - year: 1843
+    type: treaty
+    name: "The French Protectorate imposed"
+    changed: >-
+      Admiral Dupetit-Thouars, having already seized the Marquesas,
+      threatened to bombard Papeete unless Queen Pomare IV paid a
+      thirty-thousand-dollar indemnity for supposed insults to the
+      French flag; she fled by night to Moorea, her adviser Consul
+      Pritchard was arrested and expelled without trial, and the
+      Protectorate was proclaimed over her absent objection, its flag
+      saluted with gunpowder the admiral himself supplied.
+    source: gordon-cumming-1882
+    contested: false
+  - year: 1880
+    type: treaty
+    name: "Pomare V cedes nominal sovereignty"
+    changed: >-
+      Persuaded by the French commandant to trade what remained of his
+      own royal authority for a life pension of twelve thousand
+      dollars a year, Pomare V ceded the nominal sovereignty the
+      Protectorate had already stripped of substance since 1843 - a
+      cession formally proclaimed as the annexation of Tahiti at
+      Papeete the following year.
+    source: gordon-cumming-1882
     contested: false
 
 measures:

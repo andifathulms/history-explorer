@@ -14,15 +14,17 @@ span:
   # 1837 - which places its outbreak at or near the start of Tanoa's
   # own reign.
   start: { min: 1829, max: 1829, source: williams-1858 }
-  # williams-1858 dates Thakombau's public baptism to 11 January 1857.
-  end: { min: 1857, max: 1857, source: williams-1858 }
+  # brewster-fiji-1922 dates the Deed of Cession, placing Fiji under
+  # British sovereignty, to 1874 - the year Bau's own independence,
+  # already resting heavily on European administration, ended outright.
+  end: { min: 1874, max: 1874, source: brewster-fiji-1922 }
 
 identity: >-
-  A war-won chieftaincy on a small islet, nearly destroyed by a
-  seven-year rebellion its ruler's exiled son put down by fire and
-  stealth as a boy, and carried by that son to supremacy over the
-  coalition that once drove his father out - sealed by his own public
-  conversion.
+  A war-won chieftaincy nearly destroyed by rebellion its ruler's
+  exiled son put down by fire as a boy, carried by that son to
+  supremacy and Christian conversion, and ceded by him to Britain in
+  1874 - a cession whose own returning ship brought measles that
+  killed a third of Fiji.
 
 # williams-1858 names Mbau (Bau), a small islet off the coast of Viti
 # Levu, as the seat of the Vunivalu throughout.
@@ -34,7 +36,7 @@ core_region: The island of Bau and its dependent towns on Viti Levu, Vanua Levu 
 rulers:
   founder: { name: "Tanoa", reign: [1829, 1852], source: williams-1858 }
   peak: { name: "Thakombau", reign: [1852, 1857], source: williams-1858 }
-  last: { name: "Thakombau", reign: [1852, 1857], source: williams-1858 }
+  last: { name: "Thakombau", reign: [1852, 1874], source: brewster-fiji-1922 }
 
 scripts_and_languages:
   administration: [Fijian]
@@ -53,15 +55,22 @@ institutions:
 
 preceded_by_external: []
 
-succeeded_by_external: []
+succeeded_by_external:
+  - name: The Colony of Fiji
+    type: absorbed remnants of
+    year: 1874
+    note: >-
+      Negotiated by Sir Hercules Robinson, Governor of New South Wales,
+      the Deed of Cession placed Fiji under Queen Victoria's
+      sovereignty once Thakombau and the leading chiefs had signed it,
+      and the islands were proclaimed a Crown Colony.
+    source: brewster-fiji-1922
 
-# williams-1858 narrates no institutional end - Bau's own supremacy
-# over its former rivals was, if anything, more secure at the point
-# this source stops than at any earlier point in the record. Thakombau
-# went on to take the title Tui Viti, and in 1874 ceded Fiji to
-# Britain; neither event is covered by this source, and no ending is
-# asserted here.
-ended: null
+ended:
+  type: gradual absorption
+  by: []
+  year: 1874
+  source: brewster-fiji-1922
 
 turning_points:
   - year: 1829
@@ -119,6 +128,19 @@ turning_points:
       chiefs less than twenty years before - brought Christianity to
       the political centre of Fiji for the first time.
     source: williams-1858
+    contested: false
+  - year: 1874
+    type: treaty
+    name: "The Deed of Cession"
+    changed: >-
+      Thakombau and the leading chiefs signed the Deed of Cession
+      negotiated by Sir Hercules Robinson, placing Fiji under British
+      sovereignty; an attendant on the king's own subsequent voyage to
+      Sydney as Robinson's guest brought home measles, previously
+      unknown in Fiji, which killed roughly a third of the population
+      within the year and fed the frontier war the colony's first
+      governor fought to subdue the interior soon after.
+    source: brewster-fiji-1922
     contested: false
 
 measures:

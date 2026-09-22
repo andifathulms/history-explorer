@@ -14,21 +14,19 @@ name:
 # as backstory rather than as the founding itself.
 span:
   start: { min: 1782, max: 1782, source: fornander-1880 }
-  # fornander-1880 dates the battle of Nuuanu, which brought Hawaii,
-  # Maui, Kahoolawe, Lanai, Molokai and Oahu under Kamehameha's single
-  # rule, to April 1795, and states explicitly that "the acquisition
-  # of Kauai was delayed for several years" beyond this - Kauai's own
-  # peaceful submission, c. 1810, completing the unification of the
-  # full island chain, is not narrated here in detail. 1795 is used as
-  # the span's own end because the source itself frames Nuuanu as "the
-  # closing scene in the ancient history of the Hawaiian Islands."
-  end: { min: 1795, max: 1795, source: fornander-1880 }
+  # alexander-hawaii-1899 dates the Committee of Safety's proclamation
+  # abolishing the monarchy to 17 January 1893, and Liliuokalani's own
+  # surrender of authority to the same date - the end of the kingdom's
+  # own independence, two years before Kamehameha I's own line had
+  # even finished its first century of rule. The 1898 annexation to
+  # the United States is covered as afterlife, beyond this span.
+  end: { min: 1893, max: 1893, source: alexander-hawaii-1899 }
 
 identity: >-
-  A war god's guardian, one of three rival claimants to a single
-  island, who won sole rule of Hawaii through a battlefield death, a
-  temple sacrifice, and a conquest that drove a defeated army over a
-  cliff - uniting most of the Hawaiian chain for the first time.
+  A war god's guardian who won sole rule of Hawaii through battle,
+  sacrifice and conquest, whose line ended without an heir two
+  generations later, and whose elected successors lost the throne
+  outright to a colony of residents backed by an American warship.
 
 # fornander-1880 does not name a fixed capital for this period; power
 # moved with Kamehameha's own court and campaigns between Kona,
@@ -38,13 +36,12 @@ capitals: []
 core_region: The Hawaiian archipelago
 
 rulers:
-  # fornander-1880's own narrative stops at the 1795 conquest of Oahu;
-  # Kamehameha's historical reign continued, and Kauai submitted
-  # peacefully around 1810, but neither is covered here in the detail
-  # this record draws from.
-  founder: { name: "Kamehameha I", reign: [1782, 1795], source: fornander-1880 }
-  peak: { name: "Kamehameha I", reign: [1782, 1795], source: fornander-1880 }
-  last: { name: "Kamehameha I", reign: [1782, 1795], source: fornander-1880 }
+  founder: { name: "Kamehameha I", reign: [1782, 1819], source: alexander-hawaii-1899 }
+  peak: { name: "Kamehameha I", reign: [1782, 1819], source: alexander-hawaii-1899 }
+  # alexander-hawaii-1899 dates Liliuokalani's accession to 20 January
+  # 1891 and her surrender of authority to 17 January 1893 - a reign
+  # of just under two years, and the kingdom's last.
+  last: { name: "Liliuokalani", reign: [1891, 1893], source: alexander-hawaii-1899 }
 
 scripts_and_languages:
   administration: [Hawaiian]
@@ -62,15 +59,24 @@ institutions:
 
 preceded_by_external: []
 
-succeeded_by_external: []
+succeeded_by_external:
+  - name: The Republic of Hawaii
+    type: absorbed remnants of
+    year: 1894
+    note: >-
+      The provisional government installed after Liliuokalani's
+      overthrow was formally reconstituted as the Republic of Hawaii
+      under President Sanford B. Dole in 1894, before itself seeking
+      annexation to the United States - a government built from the
+      outset to negotiate its own absorption rather than to govern
+      independently.
+    source: alexander-hawaii-1899
 
-# fornander-1880 narrates no institutional end - the opposite: a
-# founding triumph. The Kingdom of Hawaii continued under
-# Kamehameha's own successors for a century after this record's own
-# narrative stops, until the monarchy was overthrown in 1893 and the
-# islands annexed by the United States in 1898 - a true end well
-# beyond what this source covers, and not asserted here.
-ended: null
+ended:
+  type: internal usurpation
+  by: []
+  year: 1893
+  source: alexander-hawaii-1899
 
 turning_points:
   # Cook's 1779 death at Kealakekua Bay, covered in this record's first
@@ -111,6 +117,63 @@ turning_points:
       and is treated by the source as the close of the old, disunited
       era of Hawaiian history.
     source: fornander-1880
+    contested: false
+  - year: 1810
+    type: treaty
+    name: "Kauai's peaceful cession"
+    changed: >-
+      Persuaded aboard ship by a trader's hostage and Kamehameha's own
+      pledge of safety, Kaumuali'i of Kauai offered his islands
+      outright and was allowed to keep them in fief for his own
+      lifetime, on condition that Kamehameha's son Liholiho would
+      inherit them - completing, for the first time, a single
+      government over every inhabited island in the chain.
+    source: alexander-hawaii-1899
+    contested: false
+  - year: 1819
+    type: succession-crisis
+    name: "Death of Kamehameha I"
+    changed: >-
+      Kamehameha died at Kailua on the 8th of May, at eighty-two,
+      having refused a human sacrifice proposed to prolong his life
+      with the words "the men are sacred to the king" - leaving the
+      throne to his son Liholiho without a rival left alive to contest
+      it.
+    source: alexander-hawaii-1899
+    contested: false
+  - year: 1819
+    type: reform
+    name: "Abolition of the kapu system"
+    changed: >-
+      Liholiho's public breach of the eating taboo at Kailua, and the
+      shout that followed it - "the gods are a lie" - brought down the
+      whole structure of idol worship and taboo within days; a
+      priest-backed rising in defense of the old order was crushed
+      that December at the battle of Kuamo'o, ending organized
+      resistance to the change.
+    source: alexander-hawaii-1899
+    contested: false
+  - year: 1872
+    type: succession-crisis
+    name: "The Kamehameha line ends"
+    changed: >-
+      Kamehameha V died suddenly on the 11th of December without
+      naming an heir, ending the dynasty founded by his great-uncle;
+      the throne passed, for the first time, to a king chosen by vote
+      of the legislature rather than by descent.
+    source: alexander-hawaii-1899
+    contested: false
+  - year: 1893
+    type: revolt
+    name: "The Committee of Safety overthrows the monarchy"
+    changed: >-
+      A Committee of Safety, organized among the kingdom's resident
+      merchants after Liliuokalani's own attempt to proclaim a new
+      constitution, formed a provisional government with the backing
+      of an American warship's landing force and proclaimed the
+      monarchy abolished on the 17th of January; the queen surrendered
+      her authority the same day rather than risk bloodshed.
+    source: alexander-hawaii-1899
     contested: false
 
 measures:
