@@ -5079,3 +5079,17 @@ edges:
       battle Stenton calls the end of Mercian ascendancy.
     source: stenton-1947-2ed
     contested: false
+
+  - from: wales
+    to: norman-england
+    type: conquered by
+    year: 1282
+    note: >-
+      Llywelyn ap Gruffudd was killed near the Irfon on 11 December
+      1282, and although his brother Dafydd held out in Snowdonia
+      into 1283, Lloyd's own account treats Llywelyn's death as the
+      turning point after which the Welsh cause could not be
+      sustained - the end of the native principality Edward I's
+      conquest formally completed the following year.
+    source: lloyd-wales-v2-1912
+    contested: false

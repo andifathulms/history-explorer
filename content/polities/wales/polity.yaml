@@ -1,0 +1,104 @@
+id: wales
+region: the-british-isles
+
+name:
+  latin: Principality of Wales
+  script: null
+  script_lang: null
+
+span:
+  # lloyd-wales-v2-1912 dates the battle of Bryn Derwin, in which
+  # Llywelyn ap Gruffudd defeated and captured his own brothers and
+  # secured sole rule of Gwynedd, to the summer of 1255.
+  start: { min: 1255, max: 1255, source: lloyd-wales-v2-1912 }
+  # lloyd-wales-v2-1912 dates Llywelyn's death near the Irfon to 11
+  # December 1282, and treats it as the decisive turning point of the
+  # war; mopping-up fighting and the capture and execution of his
+  # brother Dafydd continued into 1283, but the source's own account
+  # frames Llywelyn's death as the point after which the Welsh cause
+  # could not be carried on.
+  end: { min: 1282, max: 1282, source: lloyd-wales-v2-1912 }
+
+identity: >-
+  A prince who won Gwynedd by defeating his own brothers in an hour,
+  forced an English king to recognize him as Prince of Wales by
+  treaty, and died almost by accident, struck down by a soldier who
+  did not know him, in a skirmish he had no need to join.
+
+# lloyd-wales-v2-1912 names no single fixed capital; Llywelyn's own
+# power was seated in Gwynedd and the mountain stronghold of Snowdonia
+# (Eryri), to which he and his brother Dafydd were driven back in the
+# final war.
+capitals: []
+
+core_region: Gwynedd and Snowdonia, with overlordship extended across most of native Wales at its widest reach
+
+rulers:
+  founder: { name: "Llywelyn ap Gruffudd", reign: [1255, 1282], source: lloyd-wales-v2-1912 }
+  peak: { name: "Llywelyn ap Gruffudd", reign: [1255, 1282], source: lloyd-wales-v2-1912 }
+  last: { name: "Llywelyn ap Gruffudd", reign: [1255, 1282], source: lloyd-wales-v2-1912 }
+
+scripts_and_languages:
+  administration: [Welsh, Latin]
+  writing_system: Latin
+
+institutions:
+  military_basis: { values: [tribal-levy], source: lloyd-wales-v2-1912 }
+  revenue_basis: { values: [tribute], source: lloyd-wales-v2-1912 }
+  succession_rule: { values: [factional], source: lloyd-wales-v2-1912 }
+  legitimation: { values: [conquest, investiture], source: lloyd-wales-v2-1912 }
+
+preceded_by_external: []
+
+succeeded_by_external: []
+
+ended:
+  type: conquest
+  by: [norman-england]
+  year: 1282
+  source: lloyd-wales-v2-1912
+
+turning_points:
+  - year: 1255
+    type: battle
+    name: "The battle of Bryn Derwin"
+    changed: >-
+      A quarrel over the partition of Gwynedd between Llywelyn and his
+      brothers Owain and Dafydd was settled by battle at Bryn Derwin;
+      in the space of one hour Llywelyn defeated both and took them
+      prisoner, securing for himself the sole lordship of Anglesey and
+      Snowdonia and the standing to act as leader of Wales as a whole.
+    source: lloyd-wales-v2-1912
+    contested: false
+  - year: 1267
+    type: treaty
+    name: "The Treaty of Montgomery"
+    changed: >-
+      After eleven years of intermittent war, King Henry III agreed
+      terms that met Llywelyn's own demands in full; on the 29th of
+      September the prince did homage and swore fealty at the ford of
+      Montgomery, and a formal document recognized him as Prince of
+      Wales - a title and a recognition no Welsh ruler had secured
+      from the English crown before him.
+    source: lloyd-wales-v2-1912
+    contested: false
+  - year: 1282
+    type: catastrophe
+    name: "Death at the Irfon"
+    changed: >-
+      Attempting to raise the south against Edward I while his brother
+      Dafydd held Snowdonia, Llywelyn was cut off from his own troops
+      near the river Irfon and killed by an English soldier who did
+      not recognize him; his head was sent to Edward and displayed
+      before being sent on to London, and with his death the Welsh
+      cause lost the one leader capable of sustaining it.
+    source: lloyd-wales-v2-1912
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: lloyd-wales-v2-1912 }
+    religions_carried: { count: 0, items: [], source: lloyd-wales-v2-1912 }
+    successor_claims: { count: 0, items: [], source: lloyd-wales-v2-1912 }
