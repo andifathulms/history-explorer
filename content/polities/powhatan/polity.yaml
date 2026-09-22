@@ -13,17 +13,18 @@ span:
   # narrative, which begins with Smith's own capture and presentation
   # before Powhatan that same year.
   start: { min: 1607, max: 1607, source: smith-1624 }
-  # smith-1624's own narrative runs to the July 1624 revocation of the
-  # Virginia Company's charter, without reaching an institutional end
-  # for the confederacy itself.
-  end: { min: 1624, max: 1624, source: smith-1624 }
+  # campbell-virginia-1860 dates the October 1646 treaty with
+  # Necotowance, Opechancanough's successor, which subordinated the
+  # confederacy to the English crown - the point this record treats
+  # as the end of its own independence.
+  end: { min: 1646, max: 1646, source: campbell-virginia-1860 }
 
 identity: >-
-  A paramount chiefdom of some thirty Tidewater tribes, ruled from a
-  riverside court its emperor abandoned rather than let the English
-  see too much, that answered a colony's arrival first with a
-  captive's ransom, then a daughter's marriage, and finally a single
-  coordinated morning of killing.
+  A paramount chiefdom of some thirty Tidewater tribes that answered a
+  colony's arrival with a captive's ransom, a daughter's marriage, and
+  two coordinated mornings of killing a generation apart, before its
+  last ruler died a captive's death and his successor bought peace
+  with tribute and the crown's own authority.
 
 capitals:
   - { name: Werowocomoco, to: 1609, source: smith-1624 }
@@ -33,10 +34,12 @@ core_region: The Tidewater region of Virginia, between the James and Potomac riv
 rulers:
   founder: { name: "Powhatan", source: smith-1624 }
   peak: { name: "Powhatan", source: smith-1624 }
-  # smith-1624 names Opechancanough as the confederacy's paramount
-  # chief and the contriver of the 1622 massacre; the source's own
-  # narrative does not reach his death.
-  last: { name: "Opechancanough", source: smith-1624 }
+  # campbell-virginia-1860 dates Opechancanough's capture by Sir
+  # William Berkeley, his death at Jamestown about a fortnight later,
+  # shot by one of his own guards, and the treaty his successor
+  # Necotowance signed that October - all to 1646, though the source
+  # gives no more precise date for the capture or death themselves.
+  last: { name: "Opechancanough", source: campbell-virginia-1860 }
 
 scripts_and_languages:
   administration: [Powhatan]
@@ -54,17 +57,24 @@ institutions:
 
 preceded_by_external: []
 
-succeeded_by_external: []
+succeeded_by_external:
+  - name: Necotowance's tributary chieftainship
+    type: vassal of
+    year: 1646
+    note: >-
+      Styled "King of the Indians" rather than the confederacy's own
+      paramount title, Necotowance agreed by treaty to hold his
+      authority from the English crown, cede the land between the
+      York and James rivers, and pay an annual tribute of twenty
+      beaver skins - a subordinate chieftainship rather than the
+      independent confederacy it replaced.
+    source: campbell-virginia-1860
 
-# smith-1624 does not narrate an institutional end - the massacre it
-# closes on opened a war, not a conclusion. Opechancanough's own
-# paramountcy, and Powhatan resistance to the colony, continued for
-# more than two decades beyond this source: a second, larger uprising
-# in 1644, Opechancanough's own capture and killing in English custody
-# in 1646, and a treaty the same year that subordinated his successor
-# to the English crown - a true end well beyond what this source
-# covers, and not asserted here.
-ended: null
+ended:
+  type: conquest
+  by: []
+  year: 1646
+  source: campbell-virginia-1860
 
 turning_points:
   - year: 1607
@@ -124,6 +134,29 @@ turning_points:
       and opened a war Smith's own narrative does not live to see the
       end of.
     source: smith-1624
+    contested: false
+  - year: 1644
+    type: catastrophe
+    name: "The second massacre"
+    changed: >-
+      On the 18th of April, Opechancanough's warriors struck the
+      colony a second time; the attack's first advantage went
+      unfollowed, and the colonists rallied, gathered their cattle,
+      and organized a war of reprisal that gave the now-ancient
+      Opechancanough no chance to strike a third time.
+    source: campbell-virginia-1860
+    contested: false
+  - year: 1646
+    type: treaty
+    name: "Necotowance's treaty subordinates the confederacy"
+    changed: >-
+      Captured by Sir William Berkeley too infirm to walk and shot dead
+      in custody by one of his own guards a fortnight later,
+      Opechancanough was succeeded by Necotowance, who that October
+      agreed by treaty to hold his authority from the English crown,
+      cede the land between the York and James rivers, and pay an
+      annual tribute - ending the confederacy's own independence.
+    source: campbell-virginia-1860
     contested: false
 
 measures:
