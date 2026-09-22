@@ -5106,3 +5106,16 @@ edges:
       paid tribute to the Franks.
     source: oman-darkages-1905
     contested: false
+
+  - from: volga-bulgaria
+    to: mongol
+    type: conquered by
+    year: 1237
+    note: >-
+      The Mongol conquest of the Volga Bulghars in 1237 ended
+      Bulghar kingship on the middle Volga, following the same
+      armies' destruction of Gurganj, the Khwarazmian capital on
+      the road Ibn Fadlan's own embassy had once taken to reach
+      Bulghar, in 1221.
+    source: lunde-stone-ibnfadlan-2012
+    contested: false

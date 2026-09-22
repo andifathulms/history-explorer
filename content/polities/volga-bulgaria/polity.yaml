@@ -1,0 +1,97 @@
+id: volga-bulgaria
+region: turkic-steppe
+
+name:
+  latin: Volga Bulgaria
+  # No source consulted for this record supplies the Volga Bulghars' own
+  # name for their kingdom in their own script.
+  script: null
+  script_lang: null
+
+# lunde-stone-ibnfadlan-2012 dates the arrival of Ibn Fadlan's embassy at
+# Almish's camp to 12-13 May 922; that embassy, and the reading of the
+# caliph's letter that followed a few days later, is the first securely
+# dated point at which a Bulghar king is attested as ruler of a Volga
+# kingdom by a contemporary eyewitness.
+span:
+  start: { min: 922, max: 922, source: lunde-stone-ibnfadlan-2012 }
+  # The same source's own chronology dates the Mongol conquest of the
+  # Volga Bulghars to 1237.
+  end: { min: 1237, max: 1237, source: lunde-stone-ibnfadlan-2012 }
+
+identity: >-
+  A Turkic kingdom on the middle Volga that converted to Islam, grew from a
+  seasonal market into the world's leading fur emporium, and was conquered
+  by the Mongols after surviving a Rus sack of its capital in 969.
+
+capitals:
+  - { name: Bulghar, from: 922, source: lunde-stone-ibnfadlan-2012 }
+
+core_region: The middle Volga and Kama river confluence
+
+rulers:
+  # Almish ibn Shilki Yiltawar took the Muslim name Ja'far, son of Abd
+  # Allah, during the 922 investiture; no source consulted names a later
+  # king at Bulghar's twelfth-century peak or at the 1237 conquest.
+  founder:
+    name: "Almish ibn Shilki Yiltawar (Ja'far ibn Abd Allah)"
+    source: lunde-stone-ibnfadlan-2012
+  peak: null
+  last: null
+
+scripts_and_languages:
+  administration: [Bulghar Turkic, Arabic]
+  writing_system: null
+
+ended:
+  type: conquest
+  by: [mongol]
+  year: 1237
+  source: lunde-stone-ibnfadlan-2012
+
+turning_points:
+  - year: 922
+    type: conversion
+    name: The khutba renamed
+    changed: >-
+      Almish had the Friday sermon in his camp altered from a prayer for
+      "King Yiltawar" to one for "your slave Ja'far, son of Abd Allah,
+      amir of the Bulghars, client of the Commander of the Faithful,"
+      taking an Islamic name in place of his father's because his father
+      had died an unbeliever. It bound the kingship formally to the
+      Abbasid caliphate rather than to steppe custom, the same reading of
+      the letter that had brought the Bulghars an official mosque and a
+      minbar.
+    source: lunde-stone-ibnfadlan-2012
+    contested: false
+  - year: 969
+    type: catastrophe
+    name: The Rus sack Bulghar and Khazaran
+    changed: >-
+      The Rus of Kiev, having already broken the Khazar khaganate,
+      destroyed both Khazaran, the Khazar capital, and Bulghar itself.
+      The kingdom nonetheless kept its own kings and, within little more
+      than a century, had expanded its control south along the Volga as
+      far as the old Khazar heartland - the sack did not end Bulghar rule
+      so much as clear the power that had previously held it as a vassal.
+    source: lunde-stone-ibnfadlan-2012
+    contested: false
+  - year: 1237
+    type: catastrophe
+    name: The Mongol conquest
+    changed: >-
+      The Mongols conquered the Volga Bulghars, ending five centuries of
+      Bulghar kingship on the middle Volga less than a decade after the
+      same armies had razed Gurganj, the Khwarazmian capital whose ruins
+      had themselves sat astride the road Ibn Fadlan's embassy had once
+      taken to reach Bulghar.
+    source: lunde-stone-ibnfadlan-2012
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
