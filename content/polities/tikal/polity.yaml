@@ -1,0 +1,94 @@
+id: tikal
+region: mesoamerica
+
+name:
+  latin: Tikal
+  # martin-grube-2008 gives the Classic-period name of the kingdom as
+  # Yax Mutal ("First Mutal"); "Tikal" is a modern Yucatec Mayan name
+  # ("at the waterhole") applied by later travellers, not the
+  # dynasty's own name for itself.
+  script: null
+  script_lang: null
+
+span:
+  # martin-grube-2008 traces the dynasty's founding to a lord called
+  # Yax Ehb Xook, but no source pinpoints his rule in time; the first
+  # contemporary date at Tikal, on Stela 29, is 292.
+  start: { min: 292, max: 292, source: martin-grube-2008 }
+  # Stela 11, raised for the k'atun-ending of 869, was Tikal's final
+  # dated monument; martin-grube-2008 calls it "an appropriate setting
+  # for the city's final sculpture."
+  end: { min: 869, max: 869, source: martin-grube-2008 }
+
+identity: >-
+  The largest Classic Maya kingdom of the central Petén, thrown into a
+  new Teotihuacan-linked dynasty by the 378 entrada, humbled by Calakmul
+  in a 562 defeat, and revived under Jasaw Chan K'awiil I before its
+  authority splintered in the ninth century.
+
+capitals:
+  - { name: Tikal, from: 292, source: martin-grube-2008 }
+
+core_region: The central Petén lowlands, northern Guatemala
+
+rulers:
+  founder: { name: Yax Ehb Xook, source: martin-grube-2008 }
+  peak: { name: Jasaw Chan K'awiil I, reign: [682, 734], source: martin-grube-2008 }
+  # martin-grube-2008 names the ruler who raised Tikal's final
+  # monument, Stela 11 of 869, as a namesake of the dynasty's earlier
+  # peak king, styled Jasaw Chan K'awiil II.
+  last: { name: Jasaw Chan K'awiil II, source: martin-grube-2008 }
+
+scripts_and_languages:
+  administration: [Classic Maya]
+  writing_system: Maya script
+
+ended:
+  type: fragmentation
+  by: []
+  year: 869
+  source: martin-grube-2008
+
+turning_points:
+  - year: 378
+    type: succession-crisis
+    name: The entrada of Sihyaj K'ahk'
+    changed: >-
+      A lord named Sihyaj K'ahk' arrived at Tikal on 15 January 378,
+      the same day King Chak Tok Ich'aak I died; his entire lineage
+      was replaced by a new royal line tied to distant Teotihuacan,
+      whose regalia and political orientation shaped Tikal's kingship
+      for the next four centuries. Nearly every existing monument at
+      Tikal was destroyed or dispersed in the aftermath.
+    source: martin-grube-2008
+    contested: false
+  - year: 562
+    type: battle
+    name: The star war and the Hiatus
+    changed: >-
+      An unnamed but probably Calakmul-linked power overran Tikal in a
+      "star war" attack timed to a stationary point of Venus, ending
+      Tikal's mastery of the central Petén and its own king, Wak Chan
+      K'awiil, was never heard of again. No dated monument was raised
+      at Tikal for the next 130 years.
+    source: martin-grube-2008
+    contested: false
+  - year: 695
+    type: battle
+    name: Jasaw Chan K'awiil's revenge
+    changed: >-
+      In August 695 Jasaw Chan K'awiil I "brought down the flint and
+      shield" of Calakmul's king Yich'aak K'ahk', capturing one of
+      Calakmul's own patron deities in the process. The victory
+      restored much of Tikal's Early Classic standing and set off the
+      decline of Calakmul's wider hegemony over the region.
+    source: martin-grube-2008
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

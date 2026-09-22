@@ -1,0 +1,99 @@
+id: calakmul
+region: mesoamerica
+
+name:
+  latin: Calakmul
+  # martin-grube-2008 identifies the ruling house as the Kaanul, or
+  # "Snake," dynasty - a title carried by its kings well before any
+  # of them are securely placed at Calakmul itself, which is a
+  # modern archaeological name for the site.
+  script: null
+  script_lang: null
+
+span:
+  # Earlier Snake dynasts are attested at other sites, chiefly
+  # Dzibanche; martin-grube-2008 dates the first Late Classic
+  # monuments raised at Calakmul itself, Stelae 28 and 29, to 623.
+  start: { min: 623, max: 623, source: martin-grube-2008 }
+  # martin-grube-2008 identifies Stela 61, naming a king called Aj
+  # Took', as Calakmul's last dated monument, most likely marking the
+  # k'atun-ending of 909.
+  end: { min: 909, max: 909, source: martin-grube-2008 }
+
+identity: >-
+  The seat of the Snake dynasty, Tikal's great Classic Maya rival, whose
+  king Yuknoom the Great built a network of client kingdoms across the
+  Petén before a 695 defeat by Tikal ended its fifty-year golden age.
+
+capitals:
+  - { name: Calakmul, from: 623, source: martin-grube-2008 }
+
+core_region: The central Petén, southern Campeche, Mexico
+
+rulers:
+  # martin-grube-2008 records a 109-year gap in Calakmul's own
+  # monumental record before 623, and notes that no monument by any
+  # of the Snake dynasty's known Early Classic kings stands at
+  # Calakmul itself; no source names a securely dated founder for the
+  # dynasty at this specific city.
+  founder: null
+  peak: { name: "Yuknoom the Great (Yuknoom Ch'een II)", reign: [636, 686], source: martin-grube-2008 }
+  # Aj Took', "He of Flint," is named on Stela 61, the last dated
+  # monument raised at Calakmul; no source gives him reign dates.
+  last: { name: "Aj Took'", source: martin-grube-2008 }
+
+scripts_and_languages:
+  administration: [Classic Maya]
+  writing_system: Maya script
+
+ended:
+  type: fragmentation
+  by: []
+  year: 909
+  source: martin-grube-2008
+
+turning_points:
+  - year: 657
+    type: battle
+    name: Tikal taken in a star war
+    changed: >-
+      Yuknoom the Great campaigned into the Petexbatun region and then
+      took Tikal itself in a "star war" attack, bringing King Nuun
+      Ujol Chaak under Calakmul's supervision. It was the high point
+      of a reign that also installed or supervised kings at El Perú,
+      Cancuen, Moral-Reforma and Naranjo, making Calakmul the
+      dominant hegemon of the central lowlands.
+    source: martin-grube-2008
+    contested: false
+  - year: 695
+    type: battle
+    name: The golden age ends
+    changed: >-
+      King Yich'aak K'ahk' led Calakmul's forces against Tikal's
+      Jasaw Chan K'awiil I in August 695 and was decisively defeated,
+      losing the effigy of a patron deity in the fighting. Diplomatic
+      relationships with client kingdoms fell away sharply afterward,
+      and although Calakmul's own power was far from destroyed, its
+      fifty-year golden age was over.
+    source: martin-grube-2008
+    contested: false
+  - year: 909
+    type: catastrophe
+    name: A last stone before silence
+    changed: >-
+      Central authority at Calakmul had already collapsed by 830, when
+      the city raised no monument for the key bak'tun-ending, and only
+      a scattered handful of later stones followed. Stela 61, naming a
+      king called Aj Took' in an inscription reduced to little more
+      than a single ceremonial date, was the last dated monument the
+      city ever raised.
+    source: martin-grube-2008
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

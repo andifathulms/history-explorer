@@ -1,0 +1,89 @@
+id: palenque
+region: mesoamerica
+
+name:
+  latin: Palenque
+  # martin-grube-2008 gives the kingdom's own name as Baakal ("Bone");
+  # "Palenque" is a Spanish name for the ruins, "the palisade."
+  script: null
+  script_lang: null
+
+span:
+  # martin-grube-2008 dates the accession of the dynasty's founder,
+  # K'uk' Bahlam I, to 431.
+  start: { min: 431, max: 431, source: martin-grube-2008 }
+  # The last dated reference to the Baakal kingdom martin-grube-2008
+  # identifies is a clay brick from the peripheral site of Comalcalco,
+  # created around 814.
+  end: { min: 814, max: 814, source: martin-grube-2008 }
+
+identity: >-
+  A western Maya kingdom sacked twice by Calakmul's Snake dynasty before
+  its 12-year-old king K'inich Janaab Pakal restored it, built the
+  Temple of the Inscriptions over his own tomb, and left behind Maya
+  art's most famous sarcophagus lid.
+
+capitals:
+  - { name: "Lakamha' (Palenque)", from: 431, source: martin-grube-2008 }
+
+core_region: The western Maya lowlands, Chiapas, Mexico
+
+rulers:
+  founder: { name: "K'uk' Bahlam I", reign: [431, 435], source: martin-grube-2008 }
+  peak: { name: "K'inich Janaab Pakal I", reign: [615, 683], source: martin-grube-2008 }
+  last: { name: "Wak Kimi Janaab Pakal (Janaab Pakal III)", source: martin-grube-2008 }
+
+scripts_and_languages:
+  administration: [Classic Maya]
+  writing_system: Maya script
+
+ended:
+  type: fragmentation
+  by: []
+  year: 814
+  source: martin-grube-2008
+
+turning_points:
+  - year: 611
+    type: siege
+    name: Lakamha' sacked a second time
+    changed: >-
+      Scroll Serpent, ruler of Calakmul's Snake kingdom, personally
+      led an army across the Usumacinta River and sacked Palenque on
+      4 April 611 - the second such attack in twelve years. Neither
+      the reigning king nor his designated successor lived another
+      year, and a strange three-year interregnum followed under a
+      ruler named only for an ancestral deity, its true identity still
+      debated by scholars.
+    source: martin-grube-2008
+    contested: false
+  - year: 615
+    type: succession-crisis
+    name: A twelve-year-old king
+    changed: >-
+      The interregnum ended with the accession of the 12-year-old
+      K'inich Janaab Pakal, crowned by his mother, Lady Sak K'uk', who
+      is shown presenting him with the royal "drum major" crown on the
+      Oval Palace Tablet. She and her consort retained practical power
+      through his formative years, but his reign would go on to
+      restore Palenque's regional standing and its greatest monuments.
+    source: martin-grube-2008
+    contested: false
+  - year: 799
+    type: succession-crisis
+    name: The last king known at Palenque
+    changed: >-
+      Wak Kimi Janaab Pakal, or Janaab Pakal III, acceded to the
+      Baakal throne in 799 - the last ruler of Palenque known to any
+      surviving inscription, recorded only on an incised vessel found
+      in a modest residential burial rather than a royal monument.
+    source: martin-grube-2008
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
