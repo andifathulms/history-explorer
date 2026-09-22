@@ -5143,3 +5143,15 @@ edges:
       continued to rule locally for decades afterward.
     source: wood-history-siam-1924
     contested: false
+
+  - from: hanthawaddy
+    to: toungoo
+    type: conquered by
+    year: 1539
+    note: >-
+      Tabinshwehti forged a letter that led King Takayutpi to execute
+      his own two ablest commanders as traitors; his demoralized army
+      deserted, he fled to Prome, and Tabinshwehti took Pegu without
+      a fight.
+    source: harvey-1925
+    contested: false

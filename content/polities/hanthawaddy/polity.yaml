@@ -1,0 +1,93 @@
+id: hanthawaddy
+region: mainland-southeast-asia
+
+name:
+  latin: Hanthawaddy (Pegu)
+  script: null
+  script_lang: null
+
+span:
+  # harvey-1925 dates Wareru's single combat victory over the rival
+  # governor Tarabya, which made him sole prince of the Lower Burma
+  # state, to 1287.
+  start: { min: 1287, max: 1287, source: harvey-1925 }
+  # harvey-1925 dates Tabinshwehti's capture of Pegu, taken "without
+  # striking a blow" after the last king's ablest commanders were
+  # tricked into a fatal accusation of treason, to 1539.
+  end: { min: 1539, max: 1539, source: harvey-1925 }
+
+identity: >-
+  A Mon kingdom founded by a runaway elephant-stable guardsman in Lower
+  Burma, ruled by a queen who abdicated to a monk chosen by lottery, and
+  absorbed by the Toungoo dynasty's Tabinshwehti after 252 years of Mon
+  kingship at Martaban and Pegu.
+
+capitals:
+  - { name: Martaban, from: 1287, source: harvey-1925 }
+  - { name: Pegu, from: 1369, source: harvey-1925 }
+
+core_region: The Irrawaddy delta and the Lower Burma coast
+
+rulers:
+  founder: { name: Wareru, reign: [1287, 1296], source: harvey-1925 }
+  peak: { name: Dhammazedi, reign: [1472, 1492], source: harvey-1925 }
+  last: { name: Takayutpi, source: harvey-1925 }
+
+scripts_and_languages:
+  administration: [Mon]
+  writing_system: Mon script
+
+ended:
+  type: conquest
+  by: [toungoo]
+  year: 1539
+  source: harvey-1925
+
+turning_points:
+  - year: 1287
+    type: battle
+    name: Single combat with Tarabya
+    changed: >-
+      Wareru, a Shan former palace guardsman who had seized the
+      governorship of Martaban by murder, made common cause with
+      Tarabya, the rebel governor of Pegu, against the crumbling Pagan
+      kingdom. When Tarabya then tried to ambush him, Wareru defeated
+      him in single combat on elephant-back and, after Tarabya's
+      renewed plotting led to his execution, became sole prince of a
+      Lower Burma state that would last until 1539.
+    source: harvey-1925
+    contested: false
+  - year: 1472
+    type: succession-crisis
+    name: A bowl chosen by lottery
+    changed: >-
+      Queen Shinsawbu, who had ruled well for seven years after
+      succeeding to a throne left without a male heir, retired and
+      left the succession to a lottery between the two monks who had
+      once helped her escape captivity at Ava - hiding a layman's
+      robe and small models of the royal regalia in one of their
+      almsbowls. The bowl fell to Dhammazedi, who left the monkhood,
+      married her daughter and took the throne.
+    source: harvey-1925
+    contested: false
+  - year: 1539
+    type: battle
+    name: A letter left behind on purpose
+    changed: >-
+      Unable to take Pegu by direct assault, Tabinshwehti of Toungoo
+      forged a letter to the Pegu king's two ablest commanders,
+      promising each of them a city to rule, and arranged for it to
+      be found by provoking a staged quarrel and fleeing. King
+      Takayutpi, believing his own best commanders were traitors, had
+      them executed; his demoralized army deserted, he fled to Prome,
+      and Tabinshwehti entered Pegu without a fight.
+    source: harvey-1925
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
