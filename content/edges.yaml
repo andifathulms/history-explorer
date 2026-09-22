@@ -5066,3 +5066,16 @@ edges:
       since 911.
     source: powicke-lossofnormandy-1913
     contested: false
+
+  - from: mercia
+    to: wessex
+    type: conquered by
+    year: 825
+    note: >-
+      Egbert's victory over Beornwulf at Ellendun broke Mercian
+      overlordship outright: Kent, Essex, Surrey and Sussex submitted
+      to Wessex within the year, and East Anglia, in revolt against
+      its own Mercian king, turned to Egbert for protection - the
+      battle Stenton calls the end of Mercian ascendancy.
+    source: stenton-1947-2ed
+    contested: false

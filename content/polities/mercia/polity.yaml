@@ -1,0 +1,117 @@
+id: mercia
+region: the-british-isles
+
+name:
+  latin: Kingdom of Mercia
+  script: null
+  script_lang: null
+
+span:
+  # stenton-1947-2ed dates Aethelbald's murder and the civil war
+  # between Beornred and Offa to 757, with Offa driving Beornred into
+  # exile before the year was out.
+  start: { min: 757, max: 757, source: stenton-1947-2ed }
+  # stenton-1947-2ed dates the battle of Ellendun, in which Egbert of
+  # Wessex defeated Beornwulf of Mercia, to 825, and states plainly
+  # that with it "the ascendancy of the Mercian kings came to an end."
+  end: { min: 825, max: 825, source: stenton-1947-2ed }
+
+identity: >-
+  A midland kingdom seized after a bodyguard's assassination of its
+  king, built by its new ruler into the dominant power of England
+  through Welsh conquest, a two-hundred-mile earthwork, and marriage
+  diplomacy that made client kings of Wessex and Northumbria alike -
+  undone within thirty years of its founder's death.
+
+# No source consulted here names a single fixed royal seat; Offa's
+# own rival archbishopric was raised at Lichfield, but the court
+# itself moved with the king.
+capitals: []
+
+core_region: The English midlands, with dependencies extending to Kent, East Anglia and the Welsh march
+
+rulers:
+  founder: { name: "Offa", reign: [757, 796], source: stenton-1947-2ed }
+  peak: { name: "Offa", reign: [757, 796], source: stenton-1947-2ed }
+  last: { name: "Beornwulf", source: stenton-1947-2ed }
+
+scripts_and_languages:
+  administration: [Old English, Latin]
+  writing_system: Latin
+
+institutions:
+  military_basis: { values: [tribal-levy], source: green-shorthistory-1875 }
+  revenue_basis: { values: [tribute, land-tax], source: green-shorthistory-1875 }
+  succession_rule: { values: [factional], source: stenton-1947-2ed }
+  legitimation: { values: [conquest, descent], source: stenton-1947-2ed }
+
+preceded_by_external: []
+
+succeeded_by_external: []
+
+ended:
+  type: conquest
+  by: [wessex]
+  year: 825
+  source: stenton-1947-2ed
+
+turning_points:
+  - year: 757
+    type: succession-crisis
+    name: "Offa exiles Beornred"
+    changed: >-
+      Aethelbald was murdered by his own bodyguard at Seckington, and
+      the civil war that followed between Beornred and Offa - both
+      descended from a brother of the earlier king Penda - ended
+      before the year was out with Offa driving his rival into exile;
+      it took seven more years before he commanded any real power
+      beyond Mercia's own midland heartland.
+    source: stenton-1947-2ed
+    contested: false
+  - year: 785
+    type: reform
+    name: "Offa's Dyke and the Mercian law"
+    changed: >-
+      Having beaten back the Welsh from Hereford and driven the king
+      of Powys from his own capital, Offa abandoned raiding for a
+      fixed frontier: a linear earthwork running some two hundred
+      miles from the mouth of the Wye to the mouth of the Dee, behind
+      which English settlers and remaining Welsh inhabitants lived
+      under a Mercian law code issued to govern relations between
+      them.
+    source: green-shorthistory-1875
+    contested: false
+  - year: 796
+    type: treaty
+    name: "The first English trade treaty"
+    changed: >-
+      A marriage dispute in 789 - Offa would not give his daughter to
+      Charlemagne's son unless Charlemagne's own daughter married his
+      son in return - broke off correspondence between the two kings
+      and closed Frankish ports to English traders for years; through
+      the mediation of Alcuin and Gervold of Saint-Wandrille the
+      breach ended in 796 with the first commercial treaty in English
+      history, guaranteeing traders of each kingdom the protection of
+      the other's public authorities.
+    source: stenton-1947-2ed
+    contested: false
+  - year: 825
+    type: battle
+    name: "The battle of Ellendun"
+    changed: >-
+      Egbert of Wessex defeated Beornwulf of Mercia at Ellendun in one
+      of the decisive battles of Anglo-Saxon history; within the year
+      Kent, Essex, Surrey and Sussex had submitted to Egbert, East
+      Anglia had turned to him for protection against its own Mercian
+      overlord, and Beornwulf himself was dead, killed by the East
+      Angles he had marched against to force back into submission.
+    source: stenton-1947-2ed
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: stenton-1947-2ed }
+    religions_carried: { count: 0, items: [], source: stenton-1947-2ed }
+    successor_claims: { count: 0, items: [], source: stenton-1947-2ed }
