@@ -1,0 +1,91 @@
+id: cahokia
+region: eastern-woodlands
+
+name:
+  latin: Cahokia
+  # "Cahokia" is a modern name, borrowed from an unrelated historic-era
+  # Illinois Confederation subgroup that lived nearby; fowler-cahokia-
+  # atlas-1989 states plainly that there is no evidence the historic
+  # Cahokia people were themselves the mound-builders. No source
+  # consulted for this record supplies the city's own name for itself.
+  script: null
+  script_lang: null
+
+# No source consulted for this record supplies a founding date in the sense
+# other records use; nothing in the archaeological record of a nonliterate
+# society could. fowler-cahokia-atlas-1989's own radiocarbon dating instead
+# frames the site by intensity of occupation: nearly half of 95 assays from
+# Cahokia fall between A.D. 900 and 1150, and the source's own periodization
+# table gives A.D. 1000-1400 as the Mississippian period during which
+# Cahokia reached "the full florescence" of the society that built it.
+span:
+  start: { min: 900, max: 900, source: fowler-cahokia-atlas-1989 }
+  end: { min: 1400, max: 1400, source: fowler-cahokia-atlas-1989 }
+
+identity: >-
+  The largest pre-Columbian settlement north of Mexico, centered on a
+  hundred-foot earthen pyramid built in some fourteen stages, ringed by
+  wooden circles read as a solar calendar, and housing a population the
+  excavator's own count puts at ten thousand or more at its height.
+
+capitals:
+  - { name: Cahokia, from: 900, source: fowler-cahokia-atlas-1989 }
+
+core_region: The American Bottom floodplain, near present-day St. Louis
+
+rulers:
+  # No source consulted for this record names any ruler, chief or
+  # dynasty at Cahokia; nothing of the site's own political
+  # vocabulary survives in writing.
+  founder: null
+  peak: null
+  last: null
+
+scripts_and_languages:
+  administration: [Mississippian (unwritten)]
+  writing_system: null
+
+ended:
+  type: fragmentation
+  by: []
+  year: 1400
+  source: fowler-cahokia-atlas-1989
+
+turning_points:
+  - year: 1100
+    type: reform
+    name: A wall around the center
+    changed: >-
+      Radiocarbon dates on material cut by the east wall's
+      construction show a large wooden palisade was raised after
+      A.D. 1100, enclosing roughly eighty-three hectares around
+      Cahokia's central plaza and its largest mounds and separating
+      an inner precinct of elite residences and mortuary buildings
+      from the smaller mound-and-plaza clusters spreading beyond it.
+      Large circles of wooden posts excavated nearby, dubbed
+      "Woodhenges" by their excavator, have been interpreted as
+      calendrical structures tracking the solar year.
+    source: fowler-cahokia-atlas-1989
+    contested: false
+  - year: 1150
+    type: reform
+    name: Fourteen stages of earth
+    changed: >-
+      Solid-core drilling through Monks Mound, the site's central
+      earthwork, revealed that it had been raised in roughly fourteen
+      distinct construction stages beginning about A.D. 900, each
+      stage averaging some eighteen years of work, on the basis of
+      radiocarbon dates bracketing the project between about A.D. 900
+      and 1150. At completion its base covered roughly sixteen acres
+      and its summit stood about a hundred feet above the floodplain,
+      the largest earthen monument north of Mexico.
+    source: fowler-cahokia-atlas-1989
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: { value: 10000, at: 1100, source: fowler-cahokia-atlas-1989 }
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
