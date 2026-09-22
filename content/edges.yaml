@@ -5093,3 +5093,16 @@ edges:
       conquest formally completed the following year.
     source: lloyd-wales-v2-1912
     contested: false
+
+  - from: avar
+    to: carolingian
+    type: vassal of
+    year: 805
+    note: >-
+      Broken by Charlemagne's Danube campaign of 790-791 and by
+      Pippin and Eric of Friuli's repeated capture of the Ring, the
+      Avar chiefs submitted at Aachen in 805, accepted Christianity,
+      and were placed under a vassal Chagan baptized Abraham who
+      paid tribute to the Franks.
+    source: oman-darkages-1905
+    contested: false

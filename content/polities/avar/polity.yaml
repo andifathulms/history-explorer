@@ -1,0 +1,116 @@
+id: avar
+region: turkic-steppe
+
+name:
+  latin: Avar Khaganate
+  # No source consulted for this record supplies the Avars' name for
+  # themselves in their own script; their language is not securely
+  # classified.
+  script: null
+  script_lang: null
+
+# theophylact-simocatta-whitby-1986's own editorial note dates the Avars'
+# arrival on the Roman diplomatic horizon to 558, as refugees fleeing the
+# westward expansion of the Turkic federation of central Asia.
+span:
+  start: { min: 558, max: 558, source: theophylact-simocatta-whitby-1986 }
+  # oman-darkages-1905 dates the submission of the Avar chiefs at Aachen,
+  # and Charlemagne's appointment of one of them as vassal Chagan under
+  # the baptismal name Abraham, to 805.
+  end: { min: 805, max: 805, source: oman-darkages-1905 }
+
+identity: >-
+  A nomadic power that settled the Danube-Tisza plain after helping break
+  the Gepids, besieged Constantinople in 626 at the height of its
+  strength, and was broken in turn by Charlemagne's Danube campaigns and
+  reduced to a Frankish vassalage.
+
+capitals:
+  - { name: The Ring, from: 567, source: oman-darkages-1905 }
+
+core_region: The Danube-Tisza plain (Pannonia)
+
+rulers:
+  # No source consulted for this record names the Chagan personally at
+  # any point in the sixth or early seventh century - each is referred
+  # to only by the title, never a personal name.
+  founder: null
+  peak: null
+  # oman-darkages-1905 names no chagan for the 805 submission at Aachen;
+  # the vassal chief who took the title afterward is named only by his
+  # baptismal name, Abraham.
+  last: { name: Abraham, source: oman-darkages-1905 }
+
+scripts_and_languages:
+  administration: [Avar]
+  writing_system: null
+
+ended:
+  type: conquest
+  by: [carolingian]
+  year: 805
+  source: oman-darkages-1905
+
+turning_points:
+  - year: 567
+    type: battle
+    name: The Gepids crushed, Pannonia taken
+    changed: >-
+      The Avars, newly arrived on the Danube frontier, allied with the
+      Lombards to destroy the Gepid kingdom that had disputed mastery of
+      Pannonia with them, then occupied Pannonia itself once the terrified
+      Lombards had abandoned it for Italy. It gave the Avars a settled
+      base on the middle Danube from which every later campaign, against
+      both the Franks in the west and Constantinople in the east, was
+      launched.
+    source: theophylact-simocatta-whitby-1986
+    contested: false
+  - year: 582
+    type: siege
+    name: Sirmium falls, the tribute treaty follows
+    changed: >-
+      Sirmium, a great Roman city between the Sava and the Danube, fell to
+      the Avars after a long siege, and the Romans bought peace by
+      agreeing to pay the Chagan eighty thousand gold coins a year in
+      silver and embroidered cloth. It set the pattern of the following
+      decades: an Avar khaganate no longer content merely to hold
+      Pannonia, but able to extract tribute from the Roman state on its
+      southern border by force.
+    source: theophylact-simocatta-whitby-1986
+    contested: false
+  - year: 626
+    type: siege
+    name: The siege of Constantinople fails
+    changed: >-
+      The Chagan brought the whole Avar horde to the walls of
+      Constantinople, coordinated with a Persian army across the
+      Bosporus, and for over a week deployed siege towers, stone-throwers
+      and a Slavic canoe flotilla against the city before the flotilla was
+      destroyed in the Golden Horn and the Chagan burned his own siege
+      engines and withdrew. It was the height of Avar reach into Roman
+      territory and also the point after which that reach was never
+      matched again; within the year several of the Chagan's Slavic
+      subject peoples had risen in revolt.
+    source: chronicon-paschale-whitby-1989
+    contested: false
+  - year: 805
+    type: treaty
+    name: Submission at Aachen
+    changed: >-
+      Broken by Charlemagne's Danube campaign and by his son Pippin's
+      repeated capture of the Ring itself, the Avar chiefs travelled to
+      Aachen, did homage to Charlemagne, and accepted Christianity. He
+      appointed one of them to rule the remaining Avars as his vassal
+      under the old title of Chagan, baptized Abraham, paying tribute to
+      the Franks. It closed nearly two and a half centuries of Avar
+      independence on the Danube.
+    source: oman-darkages-1905
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
