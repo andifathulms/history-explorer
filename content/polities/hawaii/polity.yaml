@@ -59,7 +59,7 @@ institutions:
   # favor of the ruling chief; Kalaniopuu's own division of authority
   # between his son Kiwalao and his nephew Kamehameha, and the war
   # that followed it, is the clearest evidence this source gives.
-  succession_rule: { values: [factional, descent], source: fornander-1880 }
+  succession_rule: { values: [factional], source: fornander-1880 }
   legitimation: { values: [descent, conquest, divine-sanction], source: fornander-1880 }
 
 preceded_by_external: []
@@ -75,17 +75,10 @@ succeeded_by_external: []
 ended: null
 
 turning_points:
-  - year: 1779
-    type: catastrophe
-    name: "Captain Cook killed at Kealakekua Bay"
-    changed: >-
-      An affray touched off by Cook's own attempt to take King
-      Kalaniopuu aboard his ship ended with Cook's death on the beach;
-      a young Kamehameha, the highest-ranking chief present in the
-      absence of the heir Kiwalao, was later accused by a contemporary
-      trader of having encouraged the killing.
-    source: fornander-1880
-    contested: true
+  # Cook's 1779 death at Kealakekua Bay, covered in this record's first
+  # chapter, is not listed as a turning point here: the span begins at
+  # Kamehameha's own first rule in 1782, and 1779 falls outside it as
+  # backstory rather than as an event in the polity's own history.
   - year: 1782
     type: battle
     name: "The battle of Mokuohai"

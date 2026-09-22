@@ -59,7 +59,7 @@ scripts_and_languages:
 institutions:
   military_basis: { values: [tribal-levy, client-levy], source: stigand-1913 }
   revenue_basis: { values: [trade-toll], source: stigand-1913 }
-  succession_rule: { values: [descent], source: stigand-1913 }
+  succession_rule: { values: [primogeniture], source: stigand-1913 }
   # Both, for a real distinction the source draws: Ahmad's own standing
   # rested on loyalty to Portugal and descent within the Malindi line;
   # his son Yusuf was additionally invested by the Portuguese crown

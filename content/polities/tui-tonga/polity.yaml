@@ -57,7 +57,7 @@ scripts_and_languages:
 institutions:
   military_basis: { values: [tribal-levy], source: thomson-1894 }
   revenue_basis: { values: [tribute], source: thomson-1894 }
-  succession_rule: { values: [descent], source: thomson-1894 }
+  succession_rule: { values: [primogeniture], source: thomson-1894 }
   legitimation: { values: [descent, divine-sanction], source: thomson-1894 }
 
 preceded_by_external: []
