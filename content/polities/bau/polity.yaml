@@ -1,0 +1,130 @@
+id: bau
+region: pacific-islands
+
+name:
+  latin: Bau
+  script: null
+  script_lang: null
+
+span:
+  # williams-1858 dates Na-Ulivou's death and his brother Tanoa's
+  # succession as Vunivalu of Bau to 1829. The rebellion that drove
+  # Tanoa into exile is dated only by its own length - "a seven years'
+  # civil war" that "had just passed its crisis" by the close of
+  # 1837 - which places its outbreak at or near the start of Tanoa's
+  # own reign.
+  start: { min: 1829, max: 1829, source: williams-1858 }
+  # williams-1858 dates Thakombau's public baptism to 11 January 1857.
+  end: { min: 1857, max: 1857, source: williams-1858 }
+
+identity: >-
+  A war-won chieftaincy on a small fortified islet, nearly destroyed by
+  a seven-year rebellion its own ruler's exiled son put down by fire
+  and stealth as a boy, and carried by that same son to supremacy over
+  the coalition that had once driven his father out - sealed, in the
+  end, not by another war but by his own public conversion.
+
+# williams-1858 names Mbau (Bau), a small islet off the coast of Viti
+# Levu, as the seat of the Vunivalu throughout.
+capitals:
+  - { name: Bau, source: williams-1858 }
+
+core_region: The island of Bau and its dependent towns on Viti Levu, Vanua Levu and the coastal islands
+
+rulers:
+  founder: { name: "Tanoa", reign: [1829, 1852], source: williams-1858 }
+  peak: { name: "Thakombau", reign: [1852, 1857], source: williams-1858 }
+  last: { name: "Thakombau", reign: [1852, 1857], source: williams-1858 }
+
+scripts_and_languages:
+  administration: [Fijian]
+  writing_system: null
+
+institutions:
+  military_basis: { values: [tribal-levy], source: williams-1858 }
+  revenue_basis: { values: [tribute], source: williams-1858 }
+  # Tanoa's own succession, as his brother rather than his son, and the
+  # rebellion and civil war that shadowed his entire reign, are the
+  # clearest evidence this source gives; no fixed rule of inheritance
+  # protected either him or his sons from armed rivals within the
+  # family and its allies.
+  succession_rule: { values: [factional], source: williams-1858 }
+  legitimation: { values: [conquest, divine-sanction], source: williams-1858 }
+
+preceded_by_external: []
+
+succeeded_by_external: []
+
+# williams-1858 narrates no institutional end - Bau's own supremacy
+# over its former rivals was, if anything, more secure at the point
+# this source stops than at any earlier point in the record. Thakombau
+# went on to take the title Tui Viti, and in 1874 ceded Fiji to
+# Britain; neither event is covered by this source, and no ending is
+# asserted here.
+ended: null
+
+turning_points:
+  - year: 1829
+    type: succession-crisis
+    name: "Tanoa succeeds Na-Ulivou"
+    changed: >-
+      Na-Ulivou, the Vunivalu who had made Bau the leading power in
+      Fiji at the expense of Verata, died and was succeeded by his
+      brother Tanoa - a succession almost immediately contested by a
+      rebellion that would drive the new Vunivalu into exile for years.
+    source: williams-1858
+    contested: false
+  - year: 1837
+    type: revolt
+    name: "Seru's coup restores Tanoa"
+    changed: >-
+      With his father exiled and the rebels who had driven him out in
+      control of Bau, the young prince Seru quietly won over key
+      defectors, fenced off the loyalist quarter of the town by night,
+      and burned out the rebel quarter beside it - a coup so effective
+      that Seru was afterward known as Thakombau, "evil to Mbau," and
+      Tanoa was restored to a throne his son had really won back for
+      him.
+    source: williams-1858
+    contested: false
+  - year: 1852
+    type: succession-crisis
+    name: "Death of Tanoa"
+    changed: >-
+      Tanoa died on the 8th of December after a reign of twenty-three
+      years shadowed by rebellion and family violence, and Thakombau -
+      already exercising much of his father's authority in his old
+      age - succeeded him as Vunivalu.
+    source: williams-1858
+    contested: false
+  - year: 1855
+    type: treaty
+    name: "The death of Ratu Nggara ends the Rewa war"
+    changed: >-
+      The implacable King of Rewa, Bau's chief rival, died of dysentery
+      on the 26th of January without leaving instructions to continue
+      the war he had led; Thakombau's peace offer, backed by the
+      intervention of King George of Tonga against a renewed rebellion
+      that followed, brought some seventy towns back into Bau's
+      allegiance.
+    source: williams-1858
+    contested: false
+  - year: 1857
+    type: conversion
+    name: "Thakombau's baptism"
+    changed: >-
+      Publicly baptized on the 11th of January together with his
+      queen, Thakombau - the same man whose restoration of his father
+      had been sealed by the killing and eating of captured rebel
+      chiefs less than twenty years before - brought Christianity to
+      the political centre of Fiji for the first time.
+    source: williams-1858
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: williams-1858 }
+    religions_carried: { count: 0, items: [], source: williams-1858 }
+    successor_claims: { count: 0, items: [], source: williams-1858 }
