@@ -1,0 +1,101 @@
+id: maguindanao
+region: the-eastern-archipelago
+
+name:
+  latin: Magindanao
+  script: null
+  script_lang: null
+
+span:
+  # No Moro record dated events before the Spanish arrival; Saleeby
+  # reasons from genealogical generation-counts, cross-checked against
+  # Captain Thomas Forest's 1776 estimate, that Sharif Kabungsuwan's
+  # arrival and Magindanao's conversion to Islam occurred about 1475.
+  start: { min: 1475, max: 1475, source: saleeby-moro-1905 }
+  # saleeby-moro-1905 dates Sultan Kudarat II's treaty submitting to
+  # Spanish sovereignty, which the source calls the beginning of the
+  # sultanate's downfall, to 1837.
+  end: { min: 1837, max: 1837, source: saleeby-moro-1905 }
+
+identity: >-
+  The great Islamic sultanate of the Mindanao river valley, whose Sultan
+  Kudarat held Spanish conquest in check for decades before a weaker
+  successor of the same name submitted to Spanish sovereignty two
+  centuries later.
+
+capitals:
+  - { name: Magindanao, from: 1475, source: saleeby-moro-1905 }
+
+core_region: The Pulangi (Rio Grande de Mindanao) river valley
+
+rulers:
+  founder: { name: Sharif Kabungsuwan, source: saleeby-moro-1905 }
+  peak: { name: "Sultan Kudarat (Dipatuan Qudrat)", source: saleeby-moro-1905 }
+  last: { name: "Sultan Kudrat II (Sultan Sakandar Qudratu'l-Lah)", source: saleeby-moro-1905 }
+
+scripts_and_languages:
+  administration: [Magindanao, Malay]
+  writing_system: Jawi
+
+ended:
+  type: gradual absorption
+  by: []
+  year: 1837
+  source: saleeby-moro-1905
+
+turning_points:
+  - year: 1597
+    type: battle
+    name: A Spanish marquis checked at Tampakan
+    changed: >-
+      Datu Bwisan, allied with Silongan, the raja of Buayan, checked
+      the invasion of the Spanish Marquis Rodriguez and defeated him
+      at Tampakan - the sultanate's first recorded clash with the
+      power that would contest it for the next two and a half
+      centuries.
+    source: saleeby-moro-1905
+    contested: false
+  - year: 1636
+    type: siege
+    name: Corcuera reduces Kudarat's fort
+    changed: >-
+      General Corcuera led a Spanish expedition against Sultan
+      Kudarat, whose forces held out with a heavily fortified position
+      and a substantial arsenal of firearms before the fort was
+      reduced; the Spanish carried off eight bronze cannon, twenty-
+      seven lantaka and a hundred muskets. Ten years later Kudarat,
+      grown more powerful still, chose to make peace with Spain on
+      his own terms rather than continue the war.
+    source: saleeby-moro-1905
+    contested: false
+  - year: 1837
+    type: treaty
+    name: The last sultan who kept the old rites
+    changed: >-
+      Sultan Kudrat II, a young ruler remembered as the last sultan to
+      observe every custom and rite of the sultanate in full, signed a
+      treaty submitting to Spanish sovereignty and accepted the
+      subordinate title of Feudatory King of Tamontaka. Spain began
+      appointing his successors and regulating shipping along a coast
+      the first Sultan Kudarat had once held closed by force.
+    source: saleeby-moro-1905
+    contested: false
+
+# The Spanish colonial administration that expanded along the Pulangi valley
+# after 1837 has no record here.
+succeeded_by_external:
+  - name: Spanish colonial administration
+    year: 1837
+    note: >-
+      Spain expanded its garrisons along the Pulangi through the 1840s
+      and 1850s, steadily narrowing the terms on which a sultanate the
+      1837 treaty had already subordinated continued to exist.
+    source: saleeby-moro-1905
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }
