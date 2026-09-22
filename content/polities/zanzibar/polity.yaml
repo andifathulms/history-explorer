@@ -13,20 +13,24 @@ span:
   # became, for the first time, a sovereign state rather than the
   # richer half of a single Omani dominion.
   start: { min: 1861, max: 1861, source: lyne-1905 }
-  # lyne-1905 dates Seyyid Hamid bin Thuwaini's sudden death to August
-  # 25, 1896, and the bombardment that crushed the usurper Khaled bin
-  # Barghash and installed a British-approved successor to the morning
-  # of August 27 - the point Zanzibar's sultan stopped being able to
-  # act against a British ultimatum at all.
-  end: { min: 1896, max: 1896, source: lyne-1905 }
+  # colonial-report-zanzibar-1946 was still describing Seyyid Khalifa
+  # bin Harub - enthroned in 1911 - as "the reigning Sultan" thirty-
+  # five years into his reign when it was written; 1946, the report's
+  # own year, is the latest point either source used here can date the
+  # sultanate to.
+  end: { min: 1946, max: 1946, source: colonial-report-zanzibar-1946 }
 
 identity: >-
   A sultanate carved out of a larger Omani inheritance by a
   brother-against-brother succession dispute that Britain itself was
   asked to settle, which spent thirty-five years as the hinge of the
   East African slave and ivory trade before losing most of its
-  mainland to German and British partition and its last real
-  independence to thirty-seven minutes of naval gunfire.
+  mainland to German and British partition and, in 1896, thirty-seven
+  minutes of naval gunfire - and which continued for decades afterward
+  as a British protectorate, its throne now filled and vacated with
+  British sanction, under a sultan whose own reign was already the
+  longest in the dynasty's history when the sources drawn on here
+  stop.
 
 capitals:
   - { name: Zanzibar Town, source: lyne-1905 }
@@ -39,13 +43,13 @@ rulers:
   # from 1856.
   founder: { name: "Seyyid Majid bin Said", reign: [1861, 1870], source: lyne-1905 }
   peak: { name: "Seyyid Barghash bin Said", reign: [1870, 1888], source: lyne-1905 }
-  # lyne-1905's own appendix king-list does not recognise Khaled bin
-  # Barghash's two-day seizure of the palace as a reign at all,
-  # passing directly from Hamid's death to Hamoud's installation two
-  # days later. Hamid is given here as the last ruler this record
-  # recognises, since his death is what opened the crisis the
-  # bombardment ended.
-  last: { name: "Seyyid Hamid bin Thuwaini", reign: [1893, 1896], source: lyne-1905 }
+  # colonial-report-zanzibar-1946 dates Khalifa bin Harub's accession
+  # to 9 December 1911, after the throne had first been offered to and
+  # declined by another candidate following Ali bin Hamoud's
+  # abdication. His reign continued long past 1946, the report's own
+  # year and the latest point either source used here reaches; he did
+  # not in fact die until 1960.
+  last: { name: "Seyyid Khalifa bin Harub", reign: [1911, 1946], source: colonial-report-zanzibar-1946 }
 
 scripts_and_languages:
   administration: [Arabic, Swahili]
@@ -61,11 +65,13 @@ preceded_by_external: []
 
 succeeded_by_external: []
 
-ended:
-  type: gradual absorption
-  by: []
-  year: 1896
-  source: lyne-1905
+# Neither source used here narrates an institutional end. The
+# sultanate outlived both of them: it continued as a British
+# protectorate past 1946, reached independence in December 1963, was
+# overthrown in the revolution of January 1964, and was joined to
+# Tanganyika in April of that year to form Tanzania - none of it
+# drafted from here, and none of it asserted.
+ended: null
 
 turning_points:
   - year: 1861
@@ -104,6 +110,19 @@ turning_points:
       began coming apart at a speed no negotiation had prepared for.
     source: lyne-1905
     contested: false
+  - year: 1890
+    type: treaty
+    name: "The British Protectorate proclaimed"
+    changed: >-
+      On the 4th of November, with France and Germany's supremacy
+      claims waived in exchange for Madagascar and Heligoland,
+      Zanzibar and Pemba were proclaimed a British Protectorate;
+      within a year a constitutional government was established with
+      a British Representative as First Minister, formalising an
+      external control over the sultanate's own affairs that the 1896
+      bombardment would later enforce by force rather than treaty.
+    source: colonial-report-zanzibar-1946
+    contested: false
   - year: 1896
     type: catastrophe
     name: "The bombardment"
@@ -115,6 +134,18 @@ turning_points:
       British-approved successor - after which no sultan of Zanzibar
       again acted against a British demand.
     source: lyne-1905
+    contested: false
+  - year: 1911
+    type: succession-crisis
+    name: "Khalifa bin Harub ascends the throne"
+    changed: >-
+      Ali bin Hamoud's abdication in 1911, after fifteen years in which
+      the throne had already passed through three sultans, left the
+      succession unsettled until the British Government's own choice,
+      Khalifa bin Harub, was enthroned on the 9th of December - opening
+      a reign that had already outlasted every one of his predecessors
+      combined by the time either source used here stops.
+    source: colonial-report-zanzibar-1946
     contested: false
 
 measures:
