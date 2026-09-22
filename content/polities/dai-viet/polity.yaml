@@ -68,15 +68,13 @@ preceded_by_external:
     source: taylor-2013
 
 succeeded_by_external:
-  - name: the Ho, the Ming occupation, and the Le
+  - name: the Ho dynasty and the Ming occupation
     year: 1400
     note: >-
       Ho Quy Ly deposed his own grandson and reigned seven years; the Ming
-      invaded in 1407 on the pretext of restoring the Tran, annexed the country
-      and held it for twenty years; Le Loi drove them out by 1427 and founded a
-      dynasty that lasted three hundred and sixty. Under Le Thanh Tong the
-      Vietnamese state took the shape it kept until the French, and finished
-      Champa in 1471.
+      invaded in 1407 on the pretext of restoring the Tran, annexed the
+      country and held it for twenty years, until Le Loi's uprising drove
+      them out.
     source: taylor-2013
 
 institutions:

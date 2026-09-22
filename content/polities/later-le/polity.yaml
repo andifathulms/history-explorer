@@ -1,0 +1,105 @@
+id: later-le
+region: mainland-southeast-asia
+
+name:
+  latin: Dai Viet under the Later Le
+  # Written in Chu Nom, a script this project cannot proofread with
+  # confidence - null for the same reason given on dai-viet.
+  script: null
+  script_lang: null
+
+span:
+  # truong-vinh-ky-1875 dates Le Loi's coronation, following the
+  # poisoning of the puppet Tran king Tran Cao and the formal
+  # announcement of the Ming court that the Tran line was extinct,
+  # to 1428.
+  start: { min: 1428, max: 1428, source: truong-vinh-ky-1875 }
+  # truong-vinh-ky-1875 gives the reign of Le Chieu Thong, the
+  # dynasty's twenty-seventh and last king, as 1786-1788.
+  end: { min: 1788, max: 1788, source: truong-vinh-ky-1875 }
+
+identity: >-
+  The dynasty Le Loi founded after driving out a twenty-year Ming
+  occupation, which reached its territorial and legal high point under
+  Le Thanh Tong before its last king fled to Qing China, ending three
+  hundred and sixty years of Le kingship.
+
+capitals:
+  - { name: Thang Long, from: 1428, source: truong-vinh-ky-1875 }
+
+core_region: The Red River delta, expanding south along the coast
+
+rulers:
+  founder: { name: Le Loi, reign: [1428, 1433], source: truong-vinh-ky-1875 }
+  peak: { name: Le Thanh Tong, reign: [1460, 1497], source: truong-vinh-ky-1875 }
+  last: { name: Le Chieu Thong, reign: [1786, 1788], source: truong-vinh-ky-1875 }
+
+scripts_and_languages:
+  administration: [Literary Chinese, Vietnamese]
+  writing_system: Chinese characters, with chu Nom for Vietnamese
+
+ended:
+  type: conquest
+  by: [tay-son]
+  year: 1788
+  source: truong-vinh-ky-1875
+
+turning_points:
+  - year: 1428
+    type: succession-crisis
+    name: The puppet king is poisoned
+    changed: >-
+      With the Ming occupation broken, the Vietnamese court demanded the
+      death of the puppet Tran king Tran Cao and the coronation of Le
+      Loi, the uprising's own general; Tran Cao poisoned himself while
+      fleeing rather than face execution. Le Loi accepted the throne and
+      informed the Ming court that the Tran line was extinct, founding a
+      dynasty that would last three hundred and sixty years.
+    source: truong-vinh-ky-1875
+    contested: false
+  - year: 1471
+    type: battle
+    name: The fall of Cha Ban
+    changed: >-
+      Le Thanh Tong personally led an army of some 160,000 men against
+      Champa, storming its capital Cha Ban on 1 March 1471, killing an
+      estimated 40,000 Cham and taking 30,000 prisoners including King
+      Tra Toan, who died in captivity soon after. Champa was partitioned
+      into three small principalities under Cham chiefs answering to
+      Dai Viet, ending its capacity to threaten Vietnamese territory.
+    source: truong-vinh-ky-1875
+    contested: false
+  - year: 1788
+    type: revolt
+    name: The last king flees to China
+    changed: >-
+      Le Chieu Thong fled north into Qing territory after the Tay Son
+      general Nguyen Hue destroyed the Qing army sent to restore him,
+      shaving his head and adopting Chinese dress on his advisers'
+      counsel - a symbolic abdication a Qing official used to argue the
+      war was over. He was escorted to Beijing in 1789, given a minor
+      honorary rank, and never permitted to return to Vietnam.
+    source: truong-vinh-ky-1875
+    contested: false
+
+# Between the extinction of the Tran line in 1400 and Le Loi's own coronation
+# in 1428, Ho Quy Ly's usurpation and the subsequent Ming occupation intervene;
+# the Ho dynasty has no record here, and the Ming occupation is a documented
+# episode of an existing record's own history rather than a distinct polity.
+preceded_by_external:
+  - name: the Ho dynasty
+    type: overthrew
+    year: 1400
+    note: >-
+      Ho Quy Ly deposed the last Tran child-emperor in 1400 and reigned
+      seven years before the Ming invasion of 1407 ended his own line in
+      turn, opening the occupation Le Loi's uprising eventually broke.
+    source: truong-vinh-ky-1875
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: null, items: [], source: null }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

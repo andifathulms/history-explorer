@@ -5119,3 +5119,15 @@ edges:
       Bulghar, in 1221.
     source: lunde-stone-ibnfadlan-2012
     contested: false
+
+  - from: later-le
+    to: tay-son
+    type: conquered by
+    year: 1788
+    note: >-
+      The Tay Son general Nguyen Hue destroyed the Qing army sent to
+      restore Le Chieu Thong to the throne, who fled to China rather
+      than remain; Tay Son forces then held the north Le kingship had
+      governed for three hundred and sixty years.
+    source: truong-vinh-ky-1875
+    contested: false
