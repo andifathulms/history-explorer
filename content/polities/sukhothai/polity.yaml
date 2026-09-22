@@ -1,0 +1,88 @@
+id: sukhothai
+region: mainland-southeast-asia
+
+name:
+  latin: Sukhothai
+  script: null
+  script_lang: null
+
+span:
+  # wood-history-siam-1924 dates the capture of Sukhothai from
+  # Cambodian rule, and the coronation of King Sri Indraditya, to 1238.
+  start: { min: 1238, max: 1238, source: wood-history-siam-1924 }
+  # wood-history-siam-1924 states that King Thammaraja II's reduction
+  # to a vassal of Ayutthaya "marks the end of the independent Tai
+  # Kingdom of Sukhothai, after an existence of 132 years" - 1238 plus
+  # 132, by the source's own arithmetic.
+  end: { min: 1370, max: 1370, source: wood-history-siam-1924 }
+
+identity: >-
+  The first independent Tai kingdom, carved from Cambodian territory and
+  raised to a power reaching the Bay of Bengal under Ram Khamhaeng, who
+  adapted Khmer script into the first Thai alphabet before Ayutthaya
+  reduced his successors to vassalage.
+
+capitals:
+  - { name: Sukhothai, from: 1238, source: wood-history-siam-1924 }
+
+core_region: The upper Chao Phraya basin, north-central Thailand
+
+rulers:
+  founder: { name: Sri Indraditya, source: wood-history-siam-1924 }
+  peak: { name: Ram Khamhaeng, reign: [1275, 1317], source: wood-history-siam-1924 }
+  last: { name: Thammaraja II, source: wood-history-siam-1924 }
+
+scripts_and_languages:
+  administration: [Thai]
+  writing_system: Thai script
+
+ended:
+  type: gradual absorption
+  by: [ayutthaya]
+  year: 1370
+  source: wood-history-siam-1924
+
+turning_points:
+  - year: 1238
+    type: battle
+    name: A city taken from Cambodia
+    changed: >-
+      Two allied Tai chiefs, Khun Bang Klang Tao and Khun Pha Mueang,
+      defeated a Cambodian army sent to restore order and took the
+      city of Sukhothai, then a northern outpost of the Cambodian
+      empire. Khun Bang Klang Tao was crowned King Sri Indraditya,
+      founding a kingdom the Tai people would come to remember as the
+      origin of an independent Siam.
+    source: wood-history-siam-1924
+    contested: false
+  - year: 1283
+    type: reform
+    name: An alphabet for the Tai language
+    changed: >-
+      King Ram Khamhaeng adapted the Khmer alphabet then in use across
+      Siam into a new script suited to writing Tai words, first
+      brought into use in 1283 and essentially the same alphabet
+      still used to write Thai today. It spread with his own conquests
+      across the Chao Phraya basin and beyond.
+    source: wood-history-siam-1924
+    contested: false
+  - year: 1370
+    type: succession-crisis
+    name: A vassal of Ayutthaya
+    changed: >-
+      After an eight-year reign, King Thammaraja II was forced to
+      accept vassal status under the newer kingdom of Ayutthaya,
+      founded twenty years earlier at Ut'ong. Sukhothai's kings
+      continued to rule locally for another half-century, but the
+      independent Tai kingdom Ram Khamhaeng had built was, from this
+      point, a subject state.
+    source: wood-history-siam-1924
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 1, items: [Thai script], source: wood-history-siam-1924 }
+    religions_carried: { count: null, items: [], source: null }
+    successor_claims: { count: null, items: [], source: null }

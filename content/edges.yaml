@@ -5131,3 +5131,15 @@ edges:
       governed for three hundred and sixty years.
     source: truong-vinh-ky-1875
     contested: false
+
+  - from: sukhothai
+    to: ayutthaya
+    type: vassal of
+    year: 1370
+    note: >-
+      After an eight-year reign, King Thammaraja II was forced to
+      accept vassal status under Ayutthaya, ending 132 years of
+      independent Sukhothai kingship, though Sukhothai's own kings
+      continued to rule locally for decades afterward.
+    source: wood-history-siam-1924
+    contested: false
