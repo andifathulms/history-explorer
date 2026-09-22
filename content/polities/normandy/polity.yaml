@@ -1,0 +1,108 @@
+id: normandy
+region: the-british-isles
+
+name:
+  latin: Duchy of Normandy
+  script: null
+  script_lang: null
+
+span:
+  # palgrave-normandy-1851 dates the negotiations at Saint-Clair-sur-
+  # Epte, by which King Charles the Simple ceded the lands around
+  # Rouen to Rollo, to 911-912.
+  start: { min: 911, max: 912, source: palgrave-normandy-1851 }
+  # powicke-lossofnormandy-1913 dates the fall of Rouen, which it
+  # states brought the war in Normandy to an end, to 24 June 1204.
+  end: { min: 1204, max: 1204, source: powicke-lossofnormandy-1913 }
+
+identity: >-
+  A Viking chief's raiding camp turned French royal fief by a treaty
+  its own duke refused to kneel for, whose descendants conquered
+  England outright in 1066 and lost the duchy itself to the French
+  crown a century and a half later, after a six-month siege and one
+  betrayed city.
+
+# No source consulted here names a single fixed ducal capital; Rouen
+# was the seat Rollo was granted and the city whose loss, in 1204,
+# ended the duchy.
+capitals:
+  - { name: Rouen, source: palgrave-normandy-1851 }
+
+core_region: The lower Seine valley, expanding to the whole of present-day Normandy, with England added by conquest in 1066
+
+rulers:
+  founder: { name: "Rollo", source: palgrave-normandy-1851 }
+  peak: { name: "William the Conqueror", reign: [1035, 1066], source: freeman-shorthistory-1880 }
+  # powicke-lossofnormandy-1913 does not treat John, king of England
+  # and duke of Normandy, as a Norman ruler in his own right so much
+  # as the Angevin king under whom the duchy was lost; he is named
+  # here as the duchy's own last ruler because it was during his
+  # reign that Normandy passed to the French crown.
+  last: { name: "John", source: powicke-lossofnormandy-1913 }
+
+scripts_and_languages:
+  administration: [Old Norman, Latin]
+  writing_system: Latin
+
+institutions:
+  military_basis: { values: [tribal-levy, standing-professional], source: freeman-shorthistory-1880 }
+  revenue_basis: { values: [land-tax], source: powicke-lossofnormandy-1913 }
+  succession_rule: { values: [primogeniture], source: freeman-shorthistory-1880 }
+  legitimation: { values: [investiture, conquest], source: palgrave-normandy-1851 }
+
+preceded_by_external: []
+
+succeeded_by_external: []
+
+ended:
+  type: conquest
+  by: [france]
+  year: 1204
+  source: powicke-lossofnormandy-1913
+
+turning_points:
+  - year: 911
+    type: treaty
+    name: "Saint-Clair-sur-Epte"
+    changed: >-
+      King Charles the Simple ceded the lands around the ruined city
+      of Rouen to the Viking leader Rollo in exchange for baptism and
+      an oath of homage; when the ceremony required Rollo to kiss the
+      king's foot, he refused outright and had a proxy perform the
+      act instead, who threw Charles backward in the doing of it - the
+      founding insult of a duchy that would spend three centuries
+      treating its nominal overlord with the same regard.
+    source: palgrave-normandy-1851
+    contested: true
+  - year: 1066
+    type: battle
+    name: "The battle of Hastings"
+    changed: >-
+      Duke William's archers, ordered to shoot upward so their arrows
+      fell among the men defending the English standard, killed King
+      Harold with a shaft through the eye; four knights reached the
+      dying king and finished him with their swords, and though full
+      conquest of England took years more, no English army ever again
+      stood against William in the field.
+    source: freeman-shorthistory-1880
+    contested: false
+  - year: 1204
+    type: siege
+    name: "Chateau Gaillard falls, Rouen surrenders"
+    changed: >-
+      Roger de Lacy surrendered Chateau Gaillard to Philip Augustus on
+      the 6th of March after a six-month siege, and Rouen - "the
+      unconquered city" - capitulated on the 24th of June rather than
+      wait out a thirty-day armistice for help from King John that
+      never came, ending organized resistance and passing the duchy
+      to the French crown outright.
+    source: powicke-lossofnormandy-1913
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: palgrave-normandy-1851 }
+    religions_carried: { count: 0, items: [], source: palgrave-normandy-1851 }
+    successor_claims: { count: 0, items: [], source: freeman-shorthistory-1880 }

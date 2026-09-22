@@ -5053,3 +5053,16 @@ edges:
       and territory even as it answered to a new Mongol dynasty.
     source: boswell-kipchak-1927
     contested: false
+
+  - from: normandy
+    to: france
+    type: conquered by
+    year: 1204
+    note: >-
+      Philip Augustus took Chateau Gaillard after a six-month siege in
+      March 1204 and received the surrender of Rouen that June,
+      ending King John's rule in the duchy and bringing Normandy
+      under direct French royal administration for the first time
+      since 911.
+    source: powicke-lossofnormandy-1913
+    contested: false
