@@ -1,0 +1,135 @@
+id: tahiti
+region: pacific-islands
+
+name:
+  latin: Kingdom of Tahiti
+  script: null
+  script_lang: null
+
+span:
+  # ellis-1829-v1 gives no single date for Pomare I's rise to supreme
+  # authority over Tahiti, crediting it to gradual accumulation of
+  # European firearms, foreign seamen and the aid of the Bounty
+  # mutineers. 1797, the arrival of the mission ship Duff and Pomare's
+  # own cession of the district of Matavai to the missionaries, is the
+  # earliest point at which the source dates him performing a
+  # sovereign act as an established king.
+  start: { min: 1797, max: 1797, source: ellis-1829-v1 }
+  # ellis-1829-v2 dates Pomare II's death to 7 December 1821.
+  end: { min: 1821, max: 1821, source: ellis-1829-v2 }
+
+identity: >-
+  A district chief's rise to sole rule of Tahiti on borrowed muskets
+  and mutineers' aid, tested almost at once by a rebellion his own
+  seizure of a war god provoked, and carried by his son through civil
+  war, exile and a Sabbath ambush into the battle that broke the old
+  religion for good.
+
+# Neither source names a fixed seat for this period. Matavai was the
+# district ceded to the mission in 1797, Pare was Pomare I's own home
+# district, and Eimeo (Moorea) was where Pomare II governed in exile
+# from 1808 to 1811 - the record moves between all three rather than
+# settling on one.
+capitals: []
+
+core_region: Tahiti and Eimeo (Moorea), with allied chiefs on Huahine and Raiatea
+
+rulers:
+  founder: { name: "Pomare I", reign: [1797, 1803], source: ellis-1829-v1 }
+  peak: { name: "Pomare II", reign: [1804, 1821], source: ellis-1829-v1 }
+  last: { name: "Pomare II", reign: [1804, 1821], source: ellis-1829-v2 }
+
+scripts_and_languages:
+  administration: [Tahitian]
+  writing_system: null
+
+institutions:
+  military_basis: { values: [tribal-levy, mercenary], source: ellis-1829-v1 }
+  revenue_basis: null
+  succession_rule: { values: [primogeniture], source: ellis-1829-v1 }
+  legitimation: { values: [conquest, divine-sanction], source: ellis-1829-v1 }
+
+preceded_by_external: []
+
+succeeded_by_external: []
+
+# ellis-1829-v2 narrates no institutional end to the kingdom itself -
+# only Pomare II's own death. His son was crowned Pomare III in 1824,
+# and the dynasty continued under later Pomares until the French
+# protectorate of 1842 and the annexation of 1880, both well beyond
+# what either volume used here covers.
+ended: null
+
+turning_points:
+  - year: 1797
+    type: treaty
+    name: "Cession of Matavai to the mission"
+    changed: >-
+      Pomare granted the London Missionary Society's arriving party
+      the district of Matavai to settle in - the earliest dated act of
+      him exercising the authority of an established king over
+      Tahitian land.
+    source: ellis-1829-v1
+    contested: false
+  - year: 1802
+    type: revolt
+    name: "The war of Rua"
+    changed: >-
+      Pomare's forcible seizure of the war god Oro from the chiefs of
+      Atehuru, who had refused to surrender the idol, touched off the
+      most powerful rebellion yet seen on the island, devastating
+      several districts before it was contained - proof that the
+      king's authority still rested on force applied district by
+      district, not on unopposed rule.
+    source: ellis-1829-v1
+    contested: false
+  - year: 1803
+    type: succession-crisis
+    name: "Death of Pomare I"
+    changed: >-
+      Pomare died at sea off Matavai on the 3rd of September; his son
+      Otu succeeded him and, the following year, assumed his father's
+      name - fixing "Pomare" as the regal name of Tahiti from that
+      point on.
+    source: ellis-1829-v1
+    contested: false
+  - year: 1809
+    type: revolt
+    name: "Civil war drives Pomare II into exile"
+    changed: >-
+      A rebellion the missionaries themselves fled dissolved Pomare
+      II's government on Tahiti and drove him into exile on Eimeo,
+      where he remained excluded from his hereditary dominions for two
+      years before the missionaries who had abandoned the islands
+      returned and found him newly open to their teaching.
+    source: ellis-1829-v1
+    contested: false
+  - year: 1815
+    type: battle
+    name: "The battle of Bunaauia"
+    changed: >-
+      Ambushed at Sabbath worship by the last pagan army on Tahiti,
+      Pomare's Christian party held the field, killed the idolatrous
+      chieftain, and went on to burn the image temple and altars of
+      Oro - the defeat that the source credits with the general and
+      lasting reception of Christianity across Tahiti and Eimeo alike.
+    source: ellis-1829-v1
+    contested: false
+  - year: 1821
+    type: catastrophe
+    name: "Death of Pomare II"
+    changed: >-
+      Pomare II died on Eimeo on the 7th of December after a period of
+      declining health, a loss the author - present in the islands at
+      the time - calls the heaviest the mission and the nation had
+      suffered since the introduction of Christianity.
+    source: ellis-1829-v2
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: ellis-1829-v1 }
+    religions_carried: { count: 0, items: [], source: ellis-1829-v1 }
+    successor_claims: { count: 0, items: [], source: ellis-1829-v1 }

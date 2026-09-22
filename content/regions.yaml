@@ -1004,21 +1004,16 @@ regions:
     group: africa-maghreb
     thread: true
 
-  - id: hawaii
-    name: Hawaii
+  # Was two regions, hawaii and tonga, each carrying exactly one polity - the
+  # single-record-shelf pattern this list otherwise avoids. Merged once Tahiti
+  # gave the group a third island kingdom with nothing but ocean joining any
+  # of them to the others: no shared thread, no shared trade, just distance
+  # from every other region in the corpus.
+  - id: pacific-islands
+    name: Oceania
     blurb: >-
-      One island chain, fought over by rival chiefs for a generation, until a
-      war god's own favorite turned Western cannon and a decade of alliance
-      and betrayal into the single kingdom that outlasted every rival claim.
-    group: oceania
-    thread: false
-
-  - id: tonga
-    name: The Tu'i Tonga Empire
-    blurb: >-
-      A sacred chief's tribute network across the western Pacific, held
-      together by a murdered king's son and then quietly handed away, office
-      by office, to temporal lines of his own making until none of the power
-      was his to keep.
+      Island kingdoms built and unbuilt an ocean apart from anywhere else in
+      this collection - Tahiti, Tonga and Hawaii, each fought over by rival
+      chiefs and unified in turn by one line that outlasted the rest.
     group: oceania
     thread: false
