@@ -1,0 +1,128 @@
+id: valois-burgundy
+region: frankish-world
+
+name:
+  latin: Duchy of Burgundy
+  script: null
+  script_lang: null
+
+span:
+  # kirk-charlesbold-v1-1864 dates the assassination of John the
+  # Fearless at Montereau, and Philip the Good's accession as duke in
+  # his place, to 10 September 1419 - the point at which Burgundy's
+  # break with France, and its alliance with England, became fixed
+  # policy rather than open question.
+  start: { min: 1419, max: 1419, source: kirk-charlesbold-v1-1864 }
+  # kirk-charlesbold-v3-1864 dates the battle of Nancy, in which
+  # Charles the Bold's army was destroyed and Charles himself killed,
+  # to 5 January 1477.
+  end: { min: 1477, max: 1477, source: kirk-charlesbold-v3-1864 }
+
+identity: >-
+  A French royal fief turned rival great power by an assassination its
+  own duke set out to avenge, built through marriage and purchase into
+  a state stretching from the Somme to the Zuiderzee, and destroyed in
+  a single winter battle its final duke had no need to fight at all.
+
+# Neither volume names a single fixed capital; the Burgundian court
+# moved between Dijon, Brussels and, especially under Philip the Good,
+# Bruges and Lille.
+capitals: []
+
+core_region: Burgundy, Flanders, Brabant, Hainaut, Holland and Luxembourg, astride the border of France and the Holy Roman Empire
+
+rulers:
+  founder: { name: "Philip the Good", reign: [1419, 1467], source: kirk-charlesbold-v1-1864 }
+  peak: { name: "Philip the Good", reign: [1419, 1467], source: kirk-charlesbold-v1-1864 }
+  last: { name: "Charles the Bold", reign: [1467, 1477], source: kirk-charlesbold-v3-1864 }
+
+scripts_and_languages:
+  administration: [French, Dutch]
+  writing_system: Latin
+
+institutions:
+  military_basis: { values: [standing-professional, mercenary], source: kirk-charlesbold-v3-1864 }
+  revenue_basis: { values: [trade-toll, land-tax], source: kirk-charlesbold-v1-1864 }
+  succession_rule: { values: [primogeniture], source: kirk-charlesbold-v1-1864 }
+  legitimation: { values: [descent, investiture], source: kirk-charlesbold-v1-1864 }
+
+preceded_by_external: []
+
+succeeded_by_external:
+  - name: The Habsburg Netherlands
+    type: claimed legitimacy of
+    year: 1477
+    note: >-
+      Charles the Bold's only child, Mary of Burgundy, inherited his
+      Low Countries territories and married Maximilian of Habsburg the
+      same year, carrying most of the Burgundian inheritance into the
+      House of Habsburg; Louis XI of France seized the duchy of
+      Burgundy itself and other border territories by right of their
+      status as French fiefs.
+    source: kirk-charlesbold-v3-1864
+
+ended:
+  type: conquest
+  by: []
+  year: 1477
+  source: kirk-charlesbold-v3-1864
+
+turning_points:
+  - year: 1419
+    type: catastrophe
+    name: "John the Fearless assassinated at Montereau"
+    changed: >-
+      Meeting the dauphin under safe conduct on the bridge at
+      Montereau to negotiate peace, John the Fearless was struck down
+      by the dauphin's own men; his son Philip, learning of it at
+      Ghent, told his wife "your brother has assassinated my father"
+      and turned Burgundy toward the English alliance that would
+      shape the whole of his reign.
+    source: kirk-charlesbold-v1-1864
+    contested: false
+  - year: 1430
+    type: reform
+    name: "The Order of the Golden Fleece founded"
+    changed: >-
+      On his marriage to Isabella of Portugal, whose portrait he had
+      commissioned from Jan van Eyck before agreeing to the match,
+      Philip founded a new order of chivalry that soon outshone every
+      comparable honor in Europe - dignity conferred by a vassal
+      prince rather than a crowned one, and accepted as though it made
+      no difference.
+    source: kirk-charlesbold-v1-1864
+    contested: false
+  - year: 1467
+    type: succession-crisis
+    name: "Death of Philip the Good"
+    changed: >-
+      Philip died at Hinges in June, and Charles, arriving at Bruges
+      so fast he outrode his own escort, wept at his father's bedside
+      with a violence that startled those who knew him only as cold
+      and exacting - before succeeding him as duke and turning
+      Burgundy's still-considerable strength toward wars of his own
+      choosing.
+    source: kirk-charlesbold-v1-1864
+    contested: false
+  - year: 1477
+    type: battle
+    name: "The battle of Nancy"
+    changed: >-
+      Attempting to hold a siege against a relieving army of Lorrainers
+      and Swiss more than twice the size of his own exhausted force,
+      Charles was killed and his army destroyed; his body was found
+      two days later, stripped and frozen into a ditch, mauled by
+      wolves or dogs, and identified by his own physician, valet and
+      laundress from old scars and uncut nails - ending, in one
+      afternoon, the independent existence of the state he and his
+      father had spent fifty-eight years building.
+    source: kirk-charlesbold-v3-1864
+    contested: false
+
+measures:
+  reach_km2: null
+  peak_population: null
+  influence:
+    descendant_scripts: { count: 0, items: [], source: kirk-charlesbold-v1-1864 }
+    religions_carried: { count: 0, items: [], source: kirk-charlesbold-v1-1864 }
+    successor_claims: { count: 0, items: [], source: kirk-charlesbold-v1-1864 }
