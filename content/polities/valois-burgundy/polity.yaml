@@ -92,6 +92,31 @@ turning_points:
       no difference.
     source: kirk-charlesbold-v1-1864
     contested: false
+  - year: 1435
+    type: treaty
+    name: "The Treaty of Arras"
+    changed: >-
+      After a great peace congress at Arras broke apart over England's
+      refusal to give up its claim to the French crown, Philip made
+      good on an earlier warning and went over to the French side,
+      recognizing Charles VII as king in exchange for Auxerre, Macon,
+      Peronne, Montdidier and the Somme towns, and a personal release
+      from feudal homage to the crown he had just recognized. It
+      reversed the English alliance that had opened his reign and
+      helped bring down the English cause in France within a year.
+    source: kitchin-1899
+    contested: false
+  - year: 1452
+    type: revolt
+    name: "Ghent crushed at Gavere"
+    changed: >-
+      Ghent, the leading city of a Flanders that had never fully
+      accepted Burgundian rule, rose against Philip outright; he
+      crushed the revolt on the field of Gavere, a defeat so complete
+      that it marked the final subjection of the Flemish cities to
+      ducal authority.
+    source: kitchin-1899
+    contested: false
   - year: 1467
     type: succession-crisis
     name: "Death of Philip the Good"
