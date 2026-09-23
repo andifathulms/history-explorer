@@ -43,6 +43,18 @@ ended:
   source: winstedt-kedah-1920
 
 turning_points:
+  - year: 1511
+    type: catastrophe
+    name: Malacca falls to Portugal
+    changed: >-
+      The fall of Malacca to a Portuguese conquest, and the exile and
+      1513 death of its last Malay sultan, ended the possibility of
+      protection or precedence from the senior Malay court a Kedah
+      prince had once travelled to for the royal regalia; a Portuguese
+      account five years later described Kedah plainly as a
+      tributary of Siam.
+    source: winstedt-kedah-1920
+    contested: false
   - year: 1611
     type: catastrophe
     name: Fire and sword from Tenasserim
