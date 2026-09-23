@@ -93,6 +93,18 @@ turning_points:
       subject peoples had risen in revolt.
     source: chronicon-paschale-whitby-1989
     contested: false
+  - year: 678
+    type: treaty
+    name: An embassy to Constantinople
+    changed: >-
+      An Avar embassy reached Constantinople to congratulate Emperor
+      Constantine IV on his victory over an Arab siege of the city,
+      the clearest sign of a Chagan again treating with Byzantium as
+      an equal after decades in which the flow of Byzantine coin into
+      Avar territory - and, with it, any clear record of contact
+      between the two - had dried up following 626.
+    source: somogyi-2008
+    contested: false
   - year: 805
     type: treaty
     name: Submission at Aachen
