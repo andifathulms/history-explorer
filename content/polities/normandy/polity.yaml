@@ -74,6 +74,19 @@ turning_points:
       treating its nominal overlord with the same regard.
     source: palgrave-normandy-1851
     contested: true
+  - year: 1047
+    type: battle
+    name: "Val-es-Dunes"
+    changed: >-
+      A rebellion by the still Danish-speaking western half of the
+      duchy, backed by William's own cousin Guy of Burgundy, nearly
+      cost the young duke his life; with help from King Henry of
+      France he crushed the rising at Val-es-Dunes near Caen, becoming
+      master of his own duchy for the first time and fixing that
+      Normandy would take its character from French Rouen rather than
+      Danish Bayeux.
+    source: freeman-shorthistory-1880
+    contested: false
   - year: 1066
     type: battle
     name: "The battle of Hastings"
@@ -85,6 +98,30 @@ turning_points:
       conquest of England took years more, no English army ever again
       stood against William in the field.
     source: freeman-shorthistory-1880
+    contested: false
+  - year: 1106
+    type: battle
+    name: "Tinchebray"
+    changed: >-
+      King Henry I of England defeated and captured his own brother,
+      Duke Robert Curthose, at Tinchebray on Michaelmas Eve - forty
+      years to the day after their father's landing at Pevensey -
+      reuniting Normandy with England under one ruler. Robert remained
+      Henry's prisoner for the rest of his life, dying in captivity
+      nearly three decades later.
+    source: norgate-angevin-v1-1887
+    contested: false
+  - year: 1144
+    type: battle
+    name: "Geoffrey of Anjou takes Rouen"
+    changed: >-
+      After a decade fighting to win Normandy for his wife the Empress
+      Matilda against the supporters of the rival claimant Stephen,
+      Geoffrey of Anjou took Rouen in January 1144 and the last
+      holdout fortress, Arques, the following summer, completing his
+      own conquest of the duchy - held, he insisted, by his own right
+      rather than his wife's or his infant son's.
+    source: norgate-angevin-v1-1887
     contested: false
   - year: 1204
     type: siege
