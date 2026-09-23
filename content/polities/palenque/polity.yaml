@@ -69,6 +69,30 @@ turning_points:
       restore Palenque's regional standing and its greatest monuments.
     source: martin-grube-2008
     contested: false
+  - year: 692
+    type: reform
+    name: The Group of the Cross dedicated
+    changed: >-
+      K'inich Kan Bahlam II dedicated the Temples of the Cross, the
+      Sun and the Foliated Cross together, a coordinated building
+      program that gave each god of the Palenque Triad its own shrine
+      and bound the king's own reign to the mythic founding of the
+      kingdom - the clearest architectural statement of Palenque's
+      recovery since the sack of 611.
+    source: martin-grube-2008
+    contested: false
+  - year: 711
+    type: battle
+    name: A king seized in his own capital
+    changed: >-
+      Tonina's forces penetrated the Palenque capital itself in a
+      "star war" attack and captured King K'an Joy Chitam II,
+      commemorated on a Tonina monument showing him bound and
+      humiliated. No inscription records what became of him
+      afterward, and no later Palenque defeat was again significant
+      enough for a rival to carve it in stone.
+    source: martin-grube-2008
+    contested: false
   - year: 799
     type: succession-crisis
     name: The last king known at Palenque
