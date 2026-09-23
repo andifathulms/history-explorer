@@ -62,6 +62,18 @@ turning_points:
       Tikal was destroyed or dispersed in the aftermath.
     source: martin-grube-2008
     contested: false
+  - year: 445
+    type: reform
+    name: Stela 31 and a revived kingship
+    changed: >-
+      Sihyaj Chan K'awiil II dedicated Stela 31, a deliberately archaic
+      monument copying one raised a century and a half earlier, showing
+      himself in full Maya regalia and naming himself sixteenth in the
+      line of the dynasty's founder, Yax Ehb Xook - a public claim that
+      Maya kingship at Tikal had been restored rather than permanently
+      diluted by the foreign line the 378 entrada had installed.
+    source: martin-grube-2008
+    contested: false
   - year: 562
     type: battle
     name: The star war and the Hiatus
@@ -82,6 +94,18 @@ turning_points:
       Calakmul's own patron deities in the process. The victory
       restored much of Tikal's Early Classic standing and set off the
       decline of Calakmul's wider hegemony over the region.
+    source: martin-grube-2008
+    contested: false
+  - year: 744
+    type: battle
+    name: An encirclement broken
+    changed: >-
+      Yik'in Chan K'awiil defeated a city allied to El Perú in July
+      743, capturing the effigy of its patron god, and just 191 days
+      later seized Naranjo's own capital and took its king prisoner -
+      breaking a hostile ring around Tikal that had held for at least
+      a century and confirming his father's 695 recovery as lasting
+      dominance rather than a passing reversal.
     source: martin-grube-2008
     contested: false
 
