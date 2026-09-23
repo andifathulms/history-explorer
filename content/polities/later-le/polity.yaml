@@ -57,6 +57,18 @@ turning_points:
       dynasty that would last three hundred and sixty years.
     source: truong-vinh-ky-1875
     contested: false
+  - year: 1459
+    type: succession-crisis
+    name: A scaling ladder in the night
+    changed: >-
+      Nghi Dan, an elder half-brother set aside from the succession
+      years before, had King Le Nhan Tong murdered in a night attack
+      on the palace and proclaimed himself king; the mandarins he had
+      not won over deposed him after eight months and forced him to
+      choose his own death, raising the eighteen-year-old Le Thanh
+      Tong to the throne in his place.
+    source: truong-vinh-ky-1875
+    contested: false
   - year: 1471
     type: battle
     name: The fall of Cha Ban
@@ -67,6 +79,42 @@ turning_points:
       Tra Toan, who died in captivity soon after. Champa was partitioned
       into three small principalities under Cham chiefs answering to
       Dai Viet, ending its capacity to threaten Vietnamese territory.
+    source: truong-vinh-ky-1875
+    contested: false
+  - year: 1497
+    type: reform
+    name: The Hong Duc code and a king's confession
+    changed: >-
+      Le Thanh Tong's legal reforms, later known by his reign name as
+      the Hong Duc code, abolished the old practice of buying back a
+      punishment with a payment, reserving only eight categories of
+      case for the king's own judgment. He died in the first month of
+      1497 after naming his own two failings as a ruler on his
+      deathbed, having named his son king before him the previous day.
+    source: truong-vinh-ky-1875
+    contested: false
+  - year: 1527
+    type: succession-crisis
+    name: An abdication no honorable minister would write
+    changed: >-
+      The general Mac Dang Dung, who had already had the captive King
+      Le Chieu Tong murdered the year before, forced the boy king Le
+      Cung Hoang to sign an act of abdication after his own minister
+      of the interior refused to draft it, and proclaimed himself king
+      under the name Minh Duc, ordering the deposed king and the queen
+      mother to take their own lives soon after.
+    source: truong-vinh-ky-1875
+    contested: false
+  - year: 1572
+    type: battle
+    name: A miraculous dream at Ai Tu
+    changed: >-
+      Nguyen Hoang, sent south to govern Thuan Hoa and Quang Nam by
+      his brother-in-law and rival Trinh Kiem, survived a Mac invasion
+      force of ten thousand men with only twenty junks and no army
+      worth the name, by his own account through a miraculous dream -
+      holding the southern territory that his own descendants, the
+      Nguyen lords, would keep out of Trinh hands for two centuries.
     source: truong-vinh-ky-1875
     contested: false
   - year: 1788
