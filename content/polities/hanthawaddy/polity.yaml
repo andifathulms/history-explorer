@@ -57,6 +57,30 @@ turning_points:
       Lower Burma state that would last until 1539.
     source: harvey-1925
     contested: false
+  - year: 1391
+    type: battle
+    name: A golden barge returned
+    changed: >-
+      Razadarit's forces cleared Burmese troops from the frontier
+      garrison of Myanaung and defeated an attempt to retake it so
+      completely that the Talaings returned the Burmese king's own
+      captured golden barge along with a letter praising fair dealing
+      between enemies - a rare gesture of chivalry in a war of ambush
+      and stratagem that had opened six years earlier when Razadarit's
+      own uncle invited Ava to invade.
+    source: harvey-1925
+    contested: false
+  - year: 1423
+    type: catastrophe
+    name: Caught in his own snare
+    changed: >-
+      Razadarit, who had sworn off war on hearing of his great rival's
+      death the year before, was caught in his own rope while snaring
+      elephants and died of his injuries on the journey home at the
+      age of fifty-four, closing a reign his own chronicle called
+      unable to overcome only "King Death."
+    source: harvey-1925
+    contested: false
   - year: 1472
     type: succession-crisis
     name: A bowl chosen by lottery
