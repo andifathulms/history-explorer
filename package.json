@@ -12,6 +12,7 @@
     "test": "node --test lib/*.test.ts",
     "basemaps": "node scripts/trim-basemaps.mjs",
     "basemaps:cliopatria": "node scripts/trim-cliopatria.mjs",
+    "basemaps:land": "node scripts/trim-land.mjs",
     "verify": "node scripts/verification-report.mjs",
     "fonts": "node scripts/fetch-fonts.mjs",
     "check:links": "node scripts/check-links.mjs",
