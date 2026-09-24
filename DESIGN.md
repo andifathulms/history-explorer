@@ -210,9 +210,26 @@ short bar would say *small*. An empty cell says *unknown*, which is the truth.
 
 ## The map
 
-Polygons filled at low opacity in `kashi` on `dawat` ground, with edge blur
-driven by the `BORDERPRECISION` field — precise borders render crisp, imprecise
-ones dissolve. A border you cannot trust should look like one.
+The ground is three steps of `dawat`, darkest to lightest: sea (`dawat.sink`),
+land no polity is drawn holding (`dawat.raise`, from Natural Earth), and the
+neighbours (`dawat.lift`, flat and opaque with a faint `kaghaz` hairline — a
+translucent wash stacks wherever a dataset overlaps itself). A ten-degree
+graticule sits under the land, so it shows only at sea. The subject is
+`kashi.soft`, the one light thing on the map.
+
+No neighbour gets a hue of its own, for the reason given under Color: a map
+that colours each state differently asserts a character for each one.
+
+Edge blur is driven by the dataset's border precision — `BORDERPRECISION` in
+historical-basemaps, the softest setting for Cliopatria, which grades nothing.
+A border you cannot trust should look like one. The subject is clipped to land,
+because a coast is not a frontier: soft where it met a neighbour, sharp where it
+met the sea.
+
+Names come from the dataset, spelling included: the subject in `kaghaz`, the
+largest neighbours in `debu.paper`, placed only where the name falls inside its
+shape and collides with nothing. Hidden below `md`, where the legend carries the
+subject alone.
 
 The snapshot year sits next to the map at all times, never in a footnote, because
 the polygon is the nearest snapshot rather than the peak.

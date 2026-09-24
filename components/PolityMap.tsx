@@ -56,8 +56,8 @@ export function PolityMap({ polity }: { polity: Polity }) {
         Extent
       </SectionHead>
 
-      <div className="grid max-w-data gap-8 md:grid-cols-[minmax(0,1fr)_16rem] md:items-start">
-        <div className="overflow-hidden rounded border border-dawat-edge bg-dawat">
+      <div className="grid max-w-data gap-8 md:grid-cols-[minmax(0,1fr)_16rem] md:grid-rows-[auto_1fr] md:items-start md:gap-y-6">
+        <div className="overflow-hidden rounded border border-dawat-edge bg-dawat-sink">
           <svg
             viewBox={`0 0 ${map.width} ${map.height}`}
             width="100%"
@@ -81,47 +81,100 @@ export function PolityMap({ polity }: { polity: Polity }) {
                   {b > 0 ? <feGaussianBlur stdDeviation={b} /> : null}
                 </filter>
               ))}
+              {/* The blur says a frontier is uncertain. A coast is not a
+                  frontier, so the subject is clipped to land: soft where it
+                  met a neighbour, sharp where it met the sea. */}
+              <path id={`land-shape-${polity.id}`} d={map.land} />
+              <clipPath id={`land-${polity.id}`}>
+                <use href={`#land-shape-${polity.id}`} />
+              </clipPath>
             </defs>
 
-            {map.land ? <path d={map.land} className="fill-kaghaz/[0.06]" /> : null}
+            {/* Three steps of the one ground, darkest to lightest: sea,
+              land nobody is drawn holding, and the neighbours. No neighbour
+              gets a hue of its own — DESIGN.md: a map that recolours by
+              civilisation asserts a character for each one. The grid goes
+              under the land so it shows only at sea. */}
+            <path
+              d={map.graticule}
+              fill="none"
+              className="stroke-kaghaz/[0.07]"
+              strokeWidth={0.5}
+            />
+            <use href={`#land-shape-${polity.id}`} className="fill-dawat-raise" />
 
             {map.context.map((c, i) => (
-              // Context, at the faintest weight that is still visibly there.
-              // At 5% fill over 10% stroke the neighbours were effectively
-              // invisible, which made the subject look like it sat on an empty
-              // world rather than among the polities it had borders with.
-              <path key={i} d={c.d} className="fill-kaghaz/10 stroke-kaghaz/20" strokeWidth={0.5} />
-            ))}
-
-            {map.subject.map((s, i) => (
+              // Flat and opaque, not a translucent wash: the datasets overlap
+              // their own polygons, and at 10% each overlap stacked into a
+              // different grey, so the neighbours read as a stain rather than
+              // as states.
               <path
                 key={i}
-                d={s.d}
-                className="fill-kashi/45 stroke-firuze-ink"
-                strokeWidth={1.5}
-                filter={`url(#soft-${polity.id}-${blurFor(s.precision)})`}
+                d={c.d}
+                className="fill-dawat-lift stroke-kaghaz/[0.13]"
+                strokeWidth={0.6}
+                strokeLinejoin="round"
               >
-                {/* A single string. React takes one text child on <title>
-                    and drops the rest, so this had been shipping empty on
-                    every map since it was written: the shapes had no
-                    accessible name at all. */}
-                <title>
-                  {clio
-                    ? `${s.name} — Cliopatria does not grade border precision`
-                    : `${s.name} — border precision ${
-                        s.precision === 3
-                          ? '3, determined by international law'
-                          : s.precision === 2
-                            ? '2, moderately precise'
-                            : '1, approximate'
-                      }`}
-                </title>
+                <title>{c.name}</title>
               </path>
             ))}
+
+            <g clipPath={`url(#land-${polity.id})`}>
+              {map.subject.map((s, i) => (
+                <path
+                  key={i}
+                  d={s.d}
+                  className="fill-kashi-soft/75 stroke-kashi-soft"
+                  strokeWidth={1.5}
+                  filter={`url(#soft-${polity.id}-${blurFor(s.precision)})`}
+                >
+                  {/* A single string. React takes one text child on <title>
+                  and drops the rest, so this had been shipping empty on
+                  every map since it was written: the shapes had no
+                  accessible name at all. */}
+                  <title>
+                    {clio
+                      ? `${s.name} — Cliopatria does not grade border precision`
+                      : `${s.name} — border precision ${
+                          s.precision === 3
+                            ? '3, determined by international law'
+                            : s.precision === 2
+                              ? '2, moderately precise'
+                              : '1, approximate'
+                        }`}
+                  </title>
+                </path>
+              ))}
+            </g>
+
+            {/* Names from the dataset itself, spelling included. Too small to
+              read on a phone, where the legend carries the subject alone. */}
+            <g className="hidden font-mono md:inline" aria-hidden="true">
+              {map.labels.map((l) => (
+                <text
+                  key={l.name}
+                  x={l.x}
+                  y={l.y}
+                  textAnchor="middle"
+                  dominantBaseline="central"
+                  fontSize={l.subject ? 9 : 8}
+                  letterSpacing="0.08em"
+                  paintOrder="stroke"
+                  strokeWidth={3}
+                  strokeLinejoin="round"
+                  className={
+                    l.subject
+                      ? 'fill-kaghaz stroke-kashi-deep/60'
+                      : 'fill-debu-paper stroke-dawat-lift'
+                  }
+                >
+                  {l.name.toUpperCase()}
+                </text>
+              ))}
+            </g>
           </svg>
         </div>
-
-        <div className="text-[15px] leading-relaxed">
+        <div className="text-[15px] leading-relaxed md:col-start-2 md:row-span-2 md:row-start-1">
           {/* Never in a footnote. The polygon is not the peak. */}
           {clio && map.range ? (
             <>
@@ -181,24 +234,30 @@ export function PolityMap({ polity }: { polity: Polity }) {
               point is that it is an illustration and not a measurement. */}
           <dl className="mt-6 border-t border-kashi/15 pt-4">
             <div className="flex items-baseline gap-3 py-1.5">
-              <dt
-                aria-hidden="true"
-                className="mt-1 h-3 w-5 shrink-0 border border-firuze-ink bg-kashi/45"
-              />
+              <dt aria-hidden="true" className="mt-1 h-3.5 w-6 shrink-0 bg-dawat-sink p-[3px]">
+                <span className="block h-full w-full bg-kashi-soft/75" />
+              </dt>
               <dd className="text-[14px] leading-snug text-debu-ink">
                 <span className="text-kashi-deep">{polity.name.latin}</span>, as the{' '}
                 {clio ? 'dataset' : 'snapshot'} draws it
               </dd>
             </div>
             <div className="flex items-baseline gap-3 py-1.5">
-              <dt
-                aria-hidden="true"
-                className="mt-1 h-3 w-5 shrink-0 border border-dawat-edge bg-dawat-lift"
-              />
+              <dt aria-hidden="true" className="mt-1 h-3.5 w-6 shrink-0 bg-dawat-sink p-[3px]">
+                <span className="block h-full w-full border border-kaghaz/[0.13] bg-dawat-lift" />
+              </dt>
               <dd className="text-[14px] leading-snug text-debu-ink">
                 {clio
                   ? 'Everything else alive in the same years'
                   : 'Everything else on the same snapshot'}
+              </dd>
+            </div>
+            <div className="flex items-baseline gap-3 py-1.5">
+              <dt aria-hidden="true" className="mt-1 h-3.5 w-6 shrink-0 bg-dawat-sink p-[3px]">
+                <span className="block h-full w-full bg-dawat-raise" />
+              </dt>
+              <dd className="text-[14px] leading-snug text-debu-ink">
+                Land the dataset assigns to no polity, on a modern coastline
               </dd>
             </div>
           </dl>
@@ -218,40 +277,44 @@ export function PolityMap({ polity }: { polity: Polity }) {
             )}
           </p>
         </div>
+        {/* The caveat is its own grid item: under the map on a wide screen,
+            after the side panel on a narrow one, so the year stays next to
+            the map at every width. */}
+        <div className="md:col-start-1">
+          {clio ? (
+            <p className="max-w-measure text-[15px] leading-relaxed text-debu-ink">
+              The maintainers&rsquo; caveat, which belongs here rather than in the footnotes: these
+              maps reflect only one version of the territory held by past polities, and border
+              uncertainties and differing opinions on names, territorial changes and durations are
+              common. Boundaries from{' '}
+              <a
+                href="https://github.com/Seshat-Global-History-Databank/cliopatria"
+                rel="noreferrer"
+                className="text-kashi underline underline-offset-2 hover:text-firuze-ink"
+              >
+                Cliopatria
+              </a>
+              , Seshat Global History Databank, CC-BY-4.0; coordinates rounded and trimmed to the
+              region.
+            </p>
+          ) : (
+            <p className="max-w-measure text-[15px] leading-relaxed text-debu-ink">
+              The dataset author&rsquo;s caveat, which belongs here rather than in the footnotes:
+              territorial boundary as a concept is meaningful in Europe only after Westphalia,
+              ancient polities overlap, and old vector borders drawn on modern coastlines mislead
+              because rivers and shorelines move. Boundaries from{' '}
+              <a
+                href="https://github.com/aourednik/historical-basemaps"
+                rel="noreferrer"
+                className="text-kashi underline underline-offset-2 hover:text-firuze-ink"
+              >
+                historical-basemaps
+              </a>
+              , CC-BY-4.0.
+            </p>
+          )}
+        </div>
       </div>
-
-      {clio ? (
-        <p className="mt-8 max-w-measure text-[15px] leading-relaxed text-debu-ink">
-          The maintainers&rsquo; caveat, which belongs here rather than in the footnotes: these maps
-          reflect only one version of the territory held by past polities, and border uncertainties
-          and differing opinions on names, territorial changes and durations are common. Boundaries
-          from{' '}
-          <a
-            href="https://github.com/Seshat-Global-History-Databank/cliopatria"
-            rel="noreferrer"
-            className="text-kashi underline underline-offset-2 hover:text-firuze-ink"
-          >
-            Cliopatria
-          </a>
-          , Seshat Global History Databank, CC-BY-4.0; coordinates rounded and trimmed to the
-          region.
-        </p>
-      ) : (
-        <p className="mt-8 max-w-measure text-[15px] leading-relaxed text-debu-ink">
-          The dataset author&rsquo;s caveat, which belongs here rather than in the footnotes:
-          territorial boundary as a concept is meaningful in Europe only after Westphalia, ancient
-          polities overlap, and old vector borders drawn on modern coastlines mislead because rivers
-          and shorelines move. Boundaries from{' '}
-          <a
-            href="https://github.com/aourednik/historical-basemaps"
-            rel="noreferrer"
-            className="text-kashi underline underline-offset-2 hover:text-firuze-ink"
-          >
-            historical-basemaps
-          </a>
-          , CC-BY-4.0.
-        </p>
-      )}
     </section>
   )
 }
