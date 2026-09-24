@@ -101,6 +101,9 @@ const wanted = new Map() // snapshot -> Set(feature names)
 {
   let snapshot = null
   for (const line of linkText.split('\n')) {
+    // Reset per entry: a Cliopatria entry has no `snapshot:` line, and its
+    // features must not attach to whichever snapshot came before it.
+    if (/^\s*- polity:/.test(line)) snapshot = null
     const snap = line.match(/^\s*snapshot:\s*(\S+)/)
     if (snap) snapshot = snap[1].replace(/['"]/g, '')
     const feats = line.match(/^\s*features:\s*\[(.*)\]/)
