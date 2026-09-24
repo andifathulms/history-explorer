@@ -3120,6 +3120,29 @@ sources:
       this site's Melaka record it was written by people arguing about a
       succession while it was still open.
 
+  - id: cliopatria
+    kind: dataset
+    author: Ed Chalstrey, James Bennett and the Seshat Global History Databank
+    title: "Cliopatria: a geospatial database of world-wide political entities from 3400BCE to 2024CE"
+    edition: v0.2.0, doi:10.5281/zenodo.20274630
+    year: 2026
+    url: https://github.com/Seshat-Global-History-Databank/cliopatria
+    licence: CC-BY-4.0
+    note: >-
+      Map polygons only, rows valid over year ranges. Never a source for a
+      measure: the dataset's own Area column is dropped at trim. See hard
+      rule 5.
+
+  - id: natural-earth
+    kind: dataset
+    author: Natural Earth contributors
+    title: "Natural Earth 1:50m Land"
+    url: https://www.naturalearthdata.com/downloads/50m-physical-vectors/50m-land/
+    licence: Public domain
+    note: >-
+      Modern coastline drawn under Cliopatria maps so that land no polity
+      claimed does not read as sea. Never a source for a measure.
+
   - id: historical-basemaps
     kind: dataset
     author: Andre Ourednik and contributors
