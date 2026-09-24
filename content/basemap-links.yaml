@@ -13,6 +13,11 @@
 # region of each snapshot to keep, so adding a link here and re-running
 # `npm run basemaps` is the whole workflow.
 #
+# An entry with `dataset: cliopatria` and a `year` in place of `snapshot`
+# draws from Seshat's Cliopatria instead, whose rows carry a year range rather
+# than a fixed snapshot: the row used is the one whose range contains `year`.
+# Those are trimmed by scripts/trim-cliopatria.mjs from a downloaded release.
+#
 # Polities with no entry:
 #   akkadian, median, kushan, rashidun, tahirid, ghurid, tulunid, ikhshidid,
 #   hamdanid, rustamid, karakhanid, zangid, ayyubid, rum, jin, majapahit
@@ -96,8 +101,15 @@ links:
     peak_year: 557
     features: [Göktürks]
 
+  # From Cliopatria, not historical-basemaps. The 700 snapshot still draws a
+  # Sasanian Empire from the Euphrates to the Oxus half a century after
+  # Yazdegerd III died, and stops the Umayyad polygon at the Syrian desert, so
+  # Iraq, Iran, Khurasan, Transoxiana and Sind were all missing from a map of
+  # the largest state of its age. Cliopatria's row for 718-723 contains the
+  # cited peak year itself.
   - polity: umayyad
-    snapshot: 700
+    dataset: cliopatria
+    year: 720
     peak_year: 720
     features: [Umayyad Caliphate]
 
