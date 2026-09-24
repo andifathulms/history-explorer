@@ -3,7 +3,7 @@ import fs from 'node:fs'
 import path from 'node:path'
 import { parse as parseYaml } from 'yaml'
 import { geoMercator, geoPath } from 'd3-geo'
-import type { FeatureCollection, Feature, Geometry } from 'geojson'
+import type { FeatureCollection, Feature, Geometry, Polygon, MultiPolygon } from 'geojson'
 
 /**
  * Peak-extent polygons, loaded at build.
@@ -26,9 +26,17 @@ export interface BasemapProps {
   BORDERPRECISION: number | null
 }
 
+export type BasemapDataset = 'historical-basemaps' | 'cliopatria'
+
 export interface BasemapView {
+  dataset: BasemapDataset
   /** The dataset's own tag for the file, e.g. "900" or "bc500". */
   snapshot: string
+  /**
+   * Cliopatria only: the years the subject's row is valid for. Its rows are
+   * ranges rather than fixed snapshots, and the range is what the UI shows.
+   */
+  range: [number, number] | null
   /** That tag as a signed year, for arithmetic and for display. */
   snapshotYear: number
   peakYear: number
@@ -36,14 +44,24 @@ export interface BasemapView {
   subject: { d: string; precision: number | null; name: string }[]
   /** Everything else in frame, drawn faint, so the shape sits somewhere. */
   context: { d: string; name: string }[]
+  /**
+   * Modern land, clipped to the frame, or null when the dataset needs none.
+   * Cliopatria draws polities only, so without this the Sahara and the sea
+   * would be the same colour.
+   */
+  land: string | null
   width: number
   height: number
 }
 
 interface Link {
   polity: string
-  /** YAML gives a number for AD tags and a string for the "bc" ones. */
-  snapshot: string | number
+  /** Absent means historical-basemaps. */
+  dataset?: BasemapDataset
+  /** historical-basemaps: YAML gives a number for AD tags and a string for the "bc" ones. */
+  snapshot?: string | number
+  /** cliopatria: the year whose row is drawn. */
+  year?: number
   peak_year: number
   features: string[]
 }
@@ -74,6 +92,13 @@ function getLinks(): Link[] {
 }
 
 const cache = new Map<string, FeatureCollection<Geometry, BasemapProps>>()
+
+/** Cliopatria rows carry their validity range and no border precision. */
+interface CliopatriaProps {
+  NAME: string
+  FROM: number
+  TO: number
+}
 
 function snapshot(tag: string): FeatureCollection<Geometry, BasemapProps> {
   const hit = cache.get(tag)
@@ -107,7 +132,9 @@ export function getBasemap(polityId: string, width = 640, height = 380): Basemap
   const link = getLinks().find((l) => l.polity === polityId)
   if (!link) return null
 
-  const fc = snapshot(String(link.snapshot))
+  const dataset: BasemapDataset = link.dataset ?? 'historical-basemaps'
+  const tag = dataset === 'cliopatria' ? `cliopatria-${link.year}` : String(link.snapshot)
+  const fc = snapshot(tag)
   const wanted = new Set(link.features)
   const subjectFeatures = fc.features.filter((f) => wanted.has(f.properties.NAME))
   if (subjectFeatures.length === 0) return null
@@ -117,14 +144,20 @@ export function getBasemap(polityId: string, width = 640, height = 380): Basemap
       [24, 24],
       [width - 24, height - 24],
     ],
-    { type: 'FeatureCollection', features: subjectFeatures } as FeatureCollection,
+    {
+      type: 'FeatureCollection',
+      features: subjectFeatures,
+    } as FeatureCollection,
   )
   const toPath = geoPath(projection)
 
   const subject = subjectFeatures
     .map((f) => ({
       d: toPath(f as Feature) ?? '',
-      precision: f.properties.BORDERPRECISION,
+      // Cliopatria does not grade its borders, so this is null and blurFor
+      // gives it the approximate softness — the honest reading of a frontier
+      // nobody claims to know to the line.
+      precision: f.properties.BORDERPRECISION ?? null,
       name: f.properties.NAME,
     }))
     .filter((s) => s.d)
@@ -141,12 +174,33 @@ export function getBasemap(polityId: string, width = 640, height = 380): Basemap
     .map((f) => ({ d: toPath(f as Feature) ?? '', name: f.properties.NAME }))
     .filter((c) => c.d)
 
+  const landGeoms = (fc as unknown as { land?: (Polygon | MultiPolygon)[] }).land
+  // Clipping is set last, after subject and context are already drawn, so it
+  // only trims the land: a continent is mostly off canvas.
+  const land = landGeoms
+    ? geoPath(
+        projection.clipExtent([
+          [0, 0],
+          [width, height],
+        ]),
+      )({
+        type: 'GeometryCollection',
+        geometries: landGeoms,
+      })
+    : null
+
+  const row = subjectFeatures[0].properties as unknown as Partial<CliopatriaProps>
+
   return {
-    snapshot: String(link.snapshot),
-    snapshotYear: snapshotYear(link.snapshot),
+    dataset,
+    snapshot: tag,
+    range:
+      dataset === 'cliopatria' && row.FROM != null && row.TO != null ? [row.FROM, row.TO] : null,
+    snapshotYear: dataset === 'cliopatria' ? (link.year as number) : snapshotYear(link.snapshot!),
     peakYear: link.peak_year,
     subject,
     context,
+    land,
     width,
     height,
   }

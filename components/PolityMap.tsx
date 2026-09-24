@@ -37,6 +37,10 @@ export function PolityMap({ polity }: { polity: Polity }) {
   }
 
   const drift = Math.abs(map.snapshotYear - map.peakYear)
+  const clio = map.dataset === 'cliopatria'
+  // A Cliopatria row is valid for a range of years; when that range contains
+  // the cited peak, the shape is the dataset's own shape for the peak year.
+  const coversPeak = !!map.range && map.range[0] <= map.peakYear && map.peakYear <= map.range[1]
 
   return (
     <section aria-labelledby="map-heading" className="mt-16">
@@ -58,15 +62,28 @@ export function PolityMap({ polity }: { polity: Polity }) {
             viewBox={`0 0 ${map.width} ${map.height}`}
             width="100%"
             role="img"
-            aria-label={`${polity.name.latin} on the ${formatYear(map.snapshotYear)} basemap snapshot`}
+            aria-label={
+              clio && map.range
+                ? `${polity.name.latin} as Cliopatria draws it for ${formatYear(map.range[0])}–${formatYear(map.range[1])}`
+                : `${polity.name.latin} on the ${formatYear(map.snapshotYear)} basemap snapshot`
+            }
           >
             <defs>
               {[0, 1.5, 4].map((b) => (
-                <filter key={b} id={`soft-${polity.id}-${b}`} x="-20%" y="-20%" width="140%" height="140%">
+                <filter
+                  key={b}
+                  id={`soft-${polity.id}-${b}`}
+                  x="-20%"
+                  y="-20%"
+                  width="140%"
+                  height="140%"
+                >
                   {b > 0 ? <feGaussianBlur stdDeviation={b} /> : null}
                 </filter>
               ))}
             </defs>
+
+            {map.land ? <path d={map.land} className="fill-kaghaz/[0.06]" /> : null}
 
             {map.context.map((c, i) => (
               // Context, at the faintest weight that is still visibly there.
@@ -89,13 +106,15 @@ export function PolityMap({ polity }: { polity: Polity }) {
                     every map since it was written: the shapes had no
                     accessible name at all. */}
                 <title>
-                  {`${s.name} — border precision ${
-                    s.precision === 3
-                      ? '3, determined by international law'
-                      : s.precision === 2
-                        ? '2, moderately precise'
-                        : '1, approximate'
-                  }`}
+                  {clio
+                    ? `${s.name} — Cliopatria does not grade border precision`
+                    : `${s.name} — border precision ${
+                        s.precision === 3
+                          ? '3, determined by international law'
+                          : s.precision === 2
+                            ? '2, moderately precise'
+                            : '1, approximate'
+                      }`}
                 </title>
               </path>
             ))}
@@ -104,16 +123,41 @@ export function PolityMap({ polity }: { polity: Polity }) {
 
         <div className="text-[15px] leading-relaxed">
           {/* Never in a footnote. The polygon is not the peak. */}
-          <p className="font-mono text-micro uppercase text-debu-ink">Snapshot year</p>
-          <p className="mt-1 font-mono text-[22px] tabular-nums text-kashi-deep">
-            {formatYear(map.snapshotYear)}
-          </p>
-          <p className="mt-2 text-debu-ink">
-            This is the nearest available snapshot to the cited peak of{' '}
-            <span className="tabular-nums">{formatYear(map.peakYear)}</span>
-            {drift ? `, ${drift} year${drift === 1 ? '' : 's'} away` : ''}. It is not the
-            peak.
-          </p>
+          {clio && map.range ? (
+            <>
+              <p className="font-mono text-micro uppercase text-debu-ink">Dataset years</p>
+              <p className="mt-1 font-mono text-[22px] tabular-nums text-kashi-deep">
+                {formatYear(map.range[0])}–{formatYear(map.range[1])}
+              </p>
+              <p className="mt-2 text-debu-ink">
+                {coversPeak ? (
+                  <>
+                    Cliopatria gives one shape for these years, and they contain the cited peak of{' '}
+                    <span className="tabular-nums">{formatYear(map.peakYear)}</span>. It is still
+                    one reading of a frontier, not a survey.
+                  </>
+                ) : (
+                  <>
+                    The nearest range Cliopatria gives to the cited peak of{' '}
+                    <span className="tabular-nums">{formatYear(map.peakYear)}</span>. It is not the
+                    peak.
+                  </>
+                )}
+              </p>
+            </>
+          ) : (
+            <>
+              <p className="font-mono text-micro uppercase text-debu-ink">Snapshot year</p>
+              <p className="mt-1 font-mono text-[22px] tabular-nums text-kashi-deep">
+                {formatYear(map.snapshotYear)}
+              </p>
+              <p className="mt-2 text-debu-ink">
+                This is the nearest available snapshot to the cited peak of{' '}
+                <span className="tabular-nums">{formatYear(map.peakYear)}</span>
+                {drift ? `, ${drift} year${drift === 1 ? '' : 's'} away` : ''}. It is not the peak.
+              </p>
+            </>
+          )}
 
           <p className="mt-6 font-mono text-micro uppercase text-debu-ink">Cited extent</p>
           <p
@@ -137,42 +181,77 @@ export function PolityMap({ polity }: { polity: Polity }) {
               point is that it is an illustration and not a measurement. */}
           <dl className="mt-6 border-t border-kashi/15 pt-4">
             <div className="flex items-baseline gap-3 py-1.5">
-              <dt aria-hidden="true" className="mt-1 h-3 w-5 shrink-0 border border-firuze-ink bg-kashi/45" />
+              <dt
+                aria-hidden="true"
+                className="mt-1 h-3 w-5 shrink-0 border border-firuze-ink bg-kashi/45"
+              />
               <dd className="text-[14px] leading-snug text-debu-ink">
-                <span className="text-kashi-deep">{polity.name.latin}</span>, as the
-                snapshot draws it
+                <span className="text-kashi-deep">{polity.name.latin}</span>, as the{' '}
+                {clio ? 'dataset' : 'snapshot'} draws it
               </dd>
             </div>
             <div className="flex items-baseline gap-3 py-1.5">
-              <dt aria-hidden="true" className="mt-1 h-3 w-5 shrink-0 border border-dawat-edge bg-dawat-lift" />
+              <dt
+                aria-hidden="true"
+                className="mt-1 h-3 w-5 shrink-0 border border-dawat-edge bg-dawat-lift"
+              />
               <dd className="text-[14px] leading-snug text-debu-ink">
-                Everything else on the same snapshot
+                {clio
+                  ? 'Everything else alive in the same years'
+                  : 'Everything else on the same snapshot'}
               </dd>
             </div>
           </dl>
 
           <p className="mt-4 text-debu-ink">
-            Edges are blurred from the dataset&rsquo;s own border-precision field. Every
-            feature in this period is marked <span className="tabular-nums">1</span>,
-            approximate, so every border here dissolves.
+            {clio ? (
+              <>
+                Cliopatria does not grade its borders, so every edge is drawn at the softest
+                setting. A frontier in this period was a zone of control, not a line.
+              </>
+            ) : (
+              <>
+                Edges are blurred from the dataset&rsquo;s own border-precision field. Every feature
+                in this period is marked <span className="tabular-nums">1</span>, approximate, so
+                every border here dissolves.
+              </>
+            )}
           </p>
         </div>
       </div>
 
-      <p className="mt-8 max-w-measure text-[15px] leading-relaxed text-debu-ink">
-        The dataset author&rsquo;s caveat, which belongs here rather than in the
-        footnotes: territorial boundary as a concept is meaningful in Europe only after
-        Westphalia, ancient polities overlap, and old vector borders drawn on modern
-        coastlines mislead because rivers and shorelines move. Boundaries from{' '}
-        <a
-          href="https://github.com/aourednik/historical-basemaps"
-          rel="noreferrer"
-          className="text-kashi underline underline-offset-2 hover:text-firuze-ink"
-        >
-          historical-basemaps
-        </a>
-        , CC-BY-4.0.
-      </p>
+      {clio ? (
+        <p className="mt-8 max-w-measure text-[15px] leading-relaxed text-debu-ink">
+          The maintainers&rsquo; caveat, which belongs here rather than in the footnotes: these maps
+          reflect only one version of the territory held by past polities, and border uncertainties
+          and differing opinions on names, territorial changes and durations are common. Boundaries
+          from{' '}
+          <a
+            href="https://github.com/Seshat-Global-History-Databank/cliopatria"
+            rel="noreferrer"
+            className="text-kashi underline underline-offset-2 hover:text-firuze-ink"
+          >
+            Cliopatria
+          </a>
+          , Seshat Global History Databank, CC-BY-4.0; coordinates rounded and trimmed to the
+          region.
+        </p>
+      ) : (
+        <p className="mt-8 max-w-measure text-[15px] leading-relaxed text-debu-ink">
+          The dataset author&rsquo;s caveat, which belongs here rather than in the footnotes:
+          territorial boundary as a concept is meaningful in Europe only after Westphalia, ancient
+          polities overlap, and old vector borders drawn on modern coastlines mislead because rivers
+          and shorelines move. Boundaries from{' '}
+          <a
+            href="https://github.com/aourednik/historical-basemaps"
+            rel="noreferrer"
+            className="text-kashi underline underline-offset-2 hover:text-firuze-ink"
+          >
+            historical-basemaps
+          </a>
+          , CC-BY-4.0.
+        </p>
+      )}
     </section>
   )
 }
