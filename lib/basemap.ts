@@ -2,8 +2,8 @@ import 'server-only'
 import fs from 'node:fs'
 import path from 'node:path'
 import { parse as parseYaml } from 'yaml'
-import { geoMercator, geoPath } from 'd3-geo'
-import type { FeatureCollection, Feature, Geometry, Polygon, MultiPolygon } from 'geojson'
+import { geoContains, geoGraticule10, geoMercator, geoPath } from 'd3-geo'
+import type { FeatureCollection, Feature, Geometry } from 'geojson'
 
 /**
  * Peak-extent polygons, loaded at build.
@@ -45,11 +45,18 @@ export interface BasemapView {
   /** Everything else in frame, drawn faint, so the shape sits somewhere. */
   context: { d: string; name: string }[]
   /**
-   * Modern land, clipped to the frame, or null when the dataset needs none.
-   * Cliopatria draws polities only, so without this the Sahara and the sea
-   * would be the same colour.
+   * Modern land, clipped to the frame. Neither dataset draws the ground, so
+   * without this unclaimed land and the sea would be the same colour.
    */
-  land: string | null
+  land: string
+  /** Ten-degree lines, drawn under the land so they show only at sea. */
+  graticule: string
+  /**
+   * Where names go: the subject's, and the largest neighbours' that fit.
+   * Placed at a centroid only when it falls inside the shape, and dropped
+   * rather than allowed to collide.
+   */
+  labels: { name: string; x: number; y: number; subject: boolean }[]
   width: number
   height: number
 }
@@ -81,6 +88,17 @@ function snapshotYear(tag: string | number): number {
 }
 
 let links: Link[] | null = null
+
+let landCache: Geometry | null = null
+
+function getLand(): Geometry {
+  if (!landCache) {
+    landCache = JSON.parse(
+      fs.readFileSync(path.join(process.cwd(), 'data', 'basemaps', 'land.json'), 'utf8'),
+    ) as Geometry
+  }
+  return landCache
+}
 
 function getLinks(): Link[] {
   if (!links) {
@@ -149,7 +167,15 @@ export function getBasemap(polityId: string, width = 640, height = 380): Basemap
       features: subjectFeatures,
     } as FeatureCollection,
   )
-  const toPath = geoPath(projection)
+  // Everything is clipped just outside the frame: the path data stays small,
+  // and a neighbour cut by the frame edge does not draw its hairline along it.
+  projection.clipExtent([
+    [-8, -8],
+    [width + 8, height + 8],
+  ])
+  // A tenth of a unit is a fifteenth of a pixel at the widest this renders;
+  // d3's default of three places was a third of the page weight in digits.
+  const toPath = geoPath(projection).digits(1)
 
   const subject = subjectFeatures
     .map((f) => ({
@@ -162,32 +188,55 @@ export function getBasemap(polityId: string, width = 640, height = 380): Basemap
     }))
     .filter((s) => s.d)
 
-  // The projection is fitted to the subject, so most of the snapshot lands off
-  // canvas. Emitting its path data anyway was most of the page weight, so
-  // context is clipped to what is actually in frame.
-  const context = fc.features
+  const inFrame = fc.features
     .filter((f) => !wanted.has(f.properties.NAME))
-    .filter((f) => {
-      const [[x0, y0], [x1, y1]] = toPath.bounds(f as Feature)
-      return x1 > 0 && y1 > 0 && x0 < width && y0 < height
-    })
+    .filter((f) => toPath.area(f as Feature) > 0)
+  const context = inFrame
     .map((f) => ({ d: toPath(f as Feature) ?? '', name: f.properties.NAME }))
     .filter((c) => c.d)
 
-  const landGeoms = (fc as unknown as { land?: (Polygon | MultiPolygon)[] }).land
-  // Clipping is set last, after subject and context are already drawn, so it
-  // only trims the land: a continent is mostly off canvas.
-  const land = landGeoms
-    ? geoPath(
-        projection.clipExtent([
-          [0, 0],
-          [width, height],
-        ]),
-      )({
-        type: 'GeometryCollection',
-        geometries: landGeoms,
-      })
-    : null
+  const land = toPath(getLand()) ?? ''
+  const graticule = toPath(geoGraticule10()) ?? ''
+
+  // Labels, largest first. Mono caps at 8 units: about 5.4 units a character
+  // with the tracking, 10 tall. A name that would overlap one already placed,
+  // or run off the frame, is left off rather than squeezed in.
+  const labels: BasemapView['labels'] = []
+  const boxes: [number, number, number, number][] = []
+  const place = (f: Feature, name: string, isSubject: boolean) => {
+    const [x, y] = toPath.centroid(f)
+    const at = projection.invert?.([x, y])
+    if (!Number.isFinite(x) || !at || !geoContains(f, at)) return
+    const w = name.length * (isSubject ? 6.2 : 5.4) + 6
+    const box: [number, number, number, number] = [x - w / 2, y - 7, x + w / 2, y + 7]
+    if (box[0] < 6 || box[2] > width - 6 || box[1] < 6 || box[3] > height - 6) return
+    if (boxes.some((o) => box[0] < o[2] && box[2] > o[0] && box[1] < o[3] && box[3] > o[1])) return
+    boxes.push(box)
+    labels.push({ name, x, y, subject: isSubject })
+  }
+  // The subject first, so a neighbour never takes its place. Its largest part
+  // carries the name when it is in several pieces.
+  const largest = subjectFeatures
+    .flatMap((f) =>
+      f.geometry.type === 'MultiPolygon'
+        ? f.geometry.coordinates.map(
+            (c) =>
+              ({
+                type: 'Feature',
+                properties: {},
+                geometry: { type: 'Polygon', coordinates: c },
+              }) as Feature,
+          )
+        : [f as Feature],
+    )
+    .sort((a, b) => toPath.area(b) - toPath.area(a))[0]
+  if (largest) place(largest, subjectFeatures[0].properties.NAME, true)
+  inFrame
+    .map((f) => ({ f: f as Feature, a: toPath.area(f as Feature) }))
+    .filter(({ a }) => a > 3000)
+    .sort((a, b) => b.a - a.a)
+    .slice(0, 8)
+    .forEach(({ f }) => place(f, (f.properties as BasemapProps).NAME, false))
 
   const row = subjectFeatures[0].properties as unknown as Partial<CliopatriaProps>
 
@@ -201,6 +250,8 @@ export function getBasemap(polityId: string, width = 640, height = 380): Basemap
     subject,
     context,
     land,
+    graticule,
+    labels,
     width,
     height,
   }

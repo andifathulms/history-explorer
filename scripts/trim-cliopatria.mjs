@@ -2,12 +2,9 @@
  * Trim Cliopatria into data/basemaps/ for the links that name it.
  *
  * Run with:
- *   npm run basemaps:cliopatria -- <cliopatria_polities_only.geojson> <ne_50m_land.geojson>
+ *   npm run basemaps:cliopatria -- <cliopatria_polities_only.geojson>
  *
- * Cliopatria draws polities and nothing else, so unclaimed land — the Sahara,
- * the steppe — is simply absent and would render as sea. A Natural Earth land
- * layer (public domain) goes underneath so the reader can tell the two apart.
- * It is modern coastline, which the map's caveat already says.
+ * The land underneath is not this script's: see trim-land.mjs.
  *
  * The release is a 44 MB zip on GitHub (Seshat-Global-History-Databank/
  * cliopatria), so it is downloaded and unzipped by hand rather than fetched
@@ -29,12 +26,8 @@ const OUT = path.join(process.cwd(), 'data', 'basemaps')
 const LINKS = path.join(process.cwd(), 'content', 'basemap-links.yaml')
 const MARGIN = 12
 
-const [input, landInput] = process.argv.slice(2)
-if (!input || !landInput) {
-  throw new Error(
-    'usage: trim-cliopatria.mjs <cliopatria_polities_only.geojson> <ne_50m_land.geojson>',
-  )
-}
+const input = process.argv[2]
+if (!input) throw new Error('usage: trim-cliopatria.mjs <cliopatria_polities_only.geojson>')
 
 const round = (n) => Math.round(n * 100) / 100
 
@@ -135,7 +128,6 @@ const wanted = new Map()
 }
 
 const rows = JSON.parse(fs.readFileSync(input, 'utf8')).features
-const landRows = JSON.parse(fs.readFileSync(landInput, 'utf8')).features
 fs.mkdirSync(OUT, { recursive: true })
 
 for (const [year, targets] of wanted) {
@@ -174,13 +166,6 @@ for (const [year, targets] of wanted) {
     })
   }
 
-  // Whole land polygons, not clipped: the renderer's projection clips them to
-  // the frame, and Afro-Eurasia is one polygon either way.
-  const land = landRows
-    .filter((f) => f.geometry && touchesRegion(f.geometry, B))
-    .map((f) => simplifyGeometry(f.geometry))
-    .filter(Boolean)
-
   const file = path.join(OUT, `cliopatria-${year}.json`)
   fs.writeFileSync(
     file,
@@ -189,7 +174,6 @@ for (const [year, targets] of wanted) {
       name: `cliopatria_${year}_trimmed`,
       year,
       features,
-      land,
     }),
   )
   console.log(
@@ -197,6 +181,4 @@ for (const [year, targets] of wanted) {
   )
 }
 
-console.log(
-  'Sources: Seshat Global History Databank, Cliopatria, CC-BY-4.0; Natural Earth, public domain.',
-)
+console.log('Source: Seshat Global History Databank, Cliopatria, CC-BY-4.0.')
