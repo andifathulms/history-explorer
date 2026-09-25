@@ -204,6 +204,11 @@ export function getBasemap(polityId: string, width = 640, height = 380): Basemap
   const labels: BasemapView['labels'] = []
   const boxes: [number, number, number, number][] = []
   const place = (f: Feature, name: string, isSubject: boolean) => {
+    // A neighbour's name is a landmark, not a caption. Cliopatria names some
+    // rows as sentences — "(Alliance between Byzantine Empire and Khazaria)"
+    // — and those are left to the hover title rather than laid across a
+    // country.
+    if (!isSubject && name.length > 32) return
     const [x, y] = toPath.centroid(f)
     const at = projection.invert?.([x, y])
     if (!Number.isFinite(x) || !at || !geoContains(f, at)) return
