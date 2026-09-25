@@ -19,15 +19,14 @@
 # Those are trimmed by scripts/trim-cliopatria.mjs from a downloaded release.
 #
 # Polities with no entry:
-#   akkadian, median, kushan, rashidun, tahirid, ghurid, tulunid, ikhshidid,
+#   akkadian, median, kushan, tahirid, ghurid, tulunid, ikhshidid,
 #   hamdanid, rustamid, karakhanid, zangid, ayyubid, rum, jin, majapahit
 #
-# Sixteen polities have no entry because no feature in any nearby snapshot
-# names them. The dataset draws the large states of each period and folds the
+# Fifteen polities have no entry because no feature in any nearby
+# historical-basemaps snapshot names them. The dataset draws the large states of each period and folds the
 # rest into whichever neighbour formally held the ground: the Tahirids and
 # Rustamids appear inside the Abbasid and Aghlabid polygons, the Ayyubids and
-# Zangids inside their neighbours, the Rashidun inside the Umayyad snapshot
-# that follows them. That is the dataset being right about formal authority,
+# Zangids inside their neighbours. That is the dataset being right about formal authority,
 # and the map correctly has nothing of its own to draw.
 
 links:
@@ -107,6 +106,16 @@ links:
   # Iraq, Iran, Khurasan, Transoxiana and Sind were all missing from a map of
   # the largest state of its age. Cliopatria's row for 718-723 contains the
   # cited peak year itself.
+  # The Rashidun were folded into the 700 snapshot's Umayyad polygon and had
+  # no map of their own. Cliopatria draws them year by year from 633; its row
+  # for 647-655 contains the cited peak of 655, the last year before the first
+  # civil war shrinks the shape.
+  - polity: rashidun
+    dataset: cliopatria
+    year: 655
+    peak_year: 655
+    features: [Rashidun Caliphate]
+
   - polity: umayyad
     dataset: cliopatria
     year: 720
