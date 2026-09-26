@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { loadCorpus, getPolity } from '@/lib/content'
 import { buildField, rate, DEFAULT_WEIGHTS } from '@/lib/ratings'
-import { Page, Shell, PageHead } from '@/components/Shell'
+import { Page, Shell, PageHero } from '@/components/Shell'
 import { PageNav, type NavSection } from '@/components/PageNav'
 
 export const metadata: Metadata = {
@@ -42,24 +42,24 @@ export default function About() {
     : 0
 
   return (
-    <Page ground="paper" current="About">
+    <Page ground="paper" nav="dark" current="About">
+      <PageHero kicker="Method, limits, sources" title="About">
+        <p>
+          History Explorer is a reading site about polities — what they were, how far
+          they reached, how long they lasted, and what they left behind. It is built
+          around one constraint: every claim carries the work it came from, and where no
+              figure exists the gap is drawn rather than filled.
+            </p>
+      </PageHero>
       <Shell className="flex-1 pb-24">
         <div className="flex gap-12">
-          <aside className="hidden shrink-0 pt-16 lg:block lg:w-[224px]">
+          <aside className="hidden shrink-0 pt-12 lg:block lg:w-[224px]">
             <div className="sticky top-24">
               <PageNav sections={sections} />
             </div>
           </aside>
 
           <main id="main" className="min-w-0 flex-1">
-          <PageHead kicker="Method, limits, sources" title="About" ground="paper">
-            <p>
-          History Explorer is a reading site about polities — what they were, how far
-          they reached, how long they lasted, and what they left behind. It is built
-          around one constraint: every claim carries the work it came from, and where no
-              figure exists the gap is drawn rather than filled.
-            </p>
-          </PageHead>
 
         <section className="mt-16 max-w-measure border-t border-kashi/15 pt-8">
           <h2

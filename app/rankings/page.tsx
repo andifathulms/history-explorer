@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import { loadCorpus } from '@/lib/content'
-import { Page, Shell, PageHead } from '@/components/Shell'
+import { Page, Shell, PageHero } from '@/components/Shell'
 import { Comparison } from '@/components/Comparison'
 
 export const metadata: Metadata = {
@@ -13,23 +13,16 @@ export default function RankingsView() {
   const { narrative, backdrop, denominators } = loadCorpus()
 
   return (
-    <Page ground="paper" current="Rankings">
+    <Page ground="paper" nav="dark" current="Rankings">
       <main id="main" className="flex-1">
         {/* The heading stays on the site's grid, aligned with the nav; only the
             data block below bleeds wider. A whole page shifted left would read
             as a different site rather than as a wide table. */}
-        <Shell>
-          <PageHead kicker="Measured, not judged" title="Rankings" ground="paper">
-            <p>
-              Five boards over one corpus, measured against {backdrop.length} of the
-              largest states in world history so that a position is a true statement
-              rather than a comparison against eight things. Largest and longest are
-              different questions, and this page answers them separately rather than
-              handing you their average.
-            </p>
-          </PageHead>
-
-          <div className="mt-8 grid max-w-[74rem] gap-x-12 gap-y-4 text-[16px] leading-relaxed text-debu-ink md:grid-cols-2">
+        <PageHero
+          kicker="Measured, not judged"
+          title="Rankings"
+          after={
+            <div className="mt-8 grid max-w-[74rem] gap-x-12 gap-y-4 text-[16px] leading-relaxed text-kaghaz/60 md:grid-cols-2">
             <p>
               Two of the five boards fuse anything at all, and both are functions of your
               sliders rather than of the site&rsquo;s opinion. Nothing here is published
@@ -45,8 +38,16 @@ export default function RankingsView() {
               bottom of it.
             </p>
           </div>
-
-        </Shell>
+          }
+        >
+          <p>
+              Five boards over one corpus, measured against {backdrop.length} of the
+              largest states in world history so that a position is a true statement
+              rather than a comparison against eight things. Largest and longest are
+              different questions, and this page answers them separately rather than
+              handing you their average.
+            </p>
+        </PageHero>
 
         <Shell wide className="pb-24">
           <Comparison narrative={narrative} backdrop={backdrop} denominators={denominators} />

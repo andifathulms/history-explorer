@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { loadCorpus, hasPage, displayName } from '@/lib/content'
-import { Page, Shell, PageHead } from '@/components/Shell'
+import { Page, Shell, PageHero } from '@/components/Shell'
 import { END_TYPES, type EndType } from '@/lib/types'
 import { formatYear } from '@/lib/years'
 
@@ -62,16 +62,15 @@ export default function Endings() {
   const regionName = (id: string) => regions.find((r) => r.id === id)?.name ?? id
 
   return (
-    <Page ground="paper" current="Endings">
+    <Page ground="paper" nav="dark" current="Endings">
       <main id="main" className="flex-1">
-        <Shell className="pb-24">
-          <PageHead kicker="A closed vocabulary of six" title="Endings" ground="paper">
-            <p>
+        <PageHero kicker="A closed vocabulary of six" title="Endings">
+          <p>
           Every polity here records how it stopped, typed from a closed list of six rather
           than described in prose, so that it can be counted. {ended.length} of{' '}
               {all.length} carry one.
             </p>
-            <p className="mt-4 text-[17px] leading-relaxed text-debu-ink">
+            <p className="mt-4 text-[17px] leading-relaxed text-kaghaz/60">
               The vocabulary was fixed before most of this corpus existed, which is what
               makes the tally worth reading: it was not shaped to fit the answer. As it
               stands, <span className="tabular-nums">{conquered}</span> polities here were
@@ -79,7 +78,7 @@ export default function Endings() {
               <span className="tabular-nums">{otherwise}</span> stopped some other way — an
               even split, which is itself the finding.
             </p>
-            <p className="mt-4 text-[17px] leading-relaxed text-debu-ink">
+            <p className="mt-4 text-[17px] leading-relaxed text-kaghaz/60">
               That second half divides again:{' '}
               {rest.map((r, i) => (
                 <span key={r.type}>
@@ -89,7 +88,8 @@ export default function Endings() {
               ))}
               .
             </p>
-          </PageHead>
+        </PageHero>
+        <Shell className="pb-24">
 
         <section className="mt-16">
           {END_TYPES.map((t) => {

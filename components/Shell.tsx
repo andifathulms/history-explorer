@@ -96,12 +96,44 @@ export function PageHead({
       </h1>
       {children ? (
         <div
-          className={`mt-6 max-w-measure text-lede ${dark ? 'text-debu-paper' : 'text-ink'}`}
+          className={`mt-6 max-w-measure text-lede ${dark ? 'text-kaghaz/85' : 'text-ink'}`}
         >
           {children}
         </div>
       ) : null}
     </header>
+  )
+}
+
+/**
+ * The top of a section page: the dark band with the page head in it.
+ *
+ * Every page opens the same way now — orient on dawat, read on paper — which
+ * the polities index and the polity pages started. `after` is for what belongs
+ * with the head rather than the body: a pair of method paragraphs, a row of
+ * counts. A paragraph in the lede that wants to be quieter than the first one
+ * uses `text-kaghaz/60`, the dark ground's secondary text.
+ */
+export function PageHero({
+  kicker,
+  title,
+  children,
+  after,
+}: {
+  kicker: string
+  title: React.ReactNode
+  children?: React.ReactNode
+  after?: React.ReactNode
+}) {
+  return (
+    <HeroBand>
+      <Shell className="pb-12 sm:pb-14">
+        <PageHead kicker={kicker} title={title} ground="dark">
+          {children}
+        </PageHead>
+        {after}
+      </Shell>
+    </HeroBand>
   )
 }
 

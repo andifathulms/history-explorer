@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { sourceUsage, hasPage, displayName, getPolity } from '@/lib/content'
 import { formatSpan } from '@/lib/years'
-import { Page, Shell, PageHead, StatRow } from '@/components/Shell'
+import { Page, Shell, PageHero, StatRow } from '@/components/Shell'
 import { Cite } from '@/components/Cite'
 import { SourceFilter } from '@/components/SourceFilter'
 import { PageNav, type NavSection } from '@/components/PageNav'
@@ -84,41 +84,13 @@ export default function Sources() {
   ]
 
   return (
-    <Page ground="paper" current="Sources">
-      <Shell className="flex-1 pb-24">
-        <div className="flex gap-12">
-          <aside className="hidden shrink-0 pt-16 lg:block lg:w-[224px]">
-            <div className="sticky top-24">
-              <PageNav sections={sections} />
-            </div>
-          </aside>
-
-          <main id="main" className="min-w-0 flex-1">
-          <PageHead kicker="Where the weight sits" title="Sources" ground="paper">
-            <p>
-          {used.length} works carrying {totalClaims.toLocaleString('en-GB')} citations. The
-          build already refuses to ship a citation that does not resolve, so this page is
-          not about whether the sourcing exists. It is about how it is distributed, which
-              is the more useful question once a corpus is large.
-            </p>
-            <p className="mt-4 text-[17px] leading-relaxed text-debu-ink">
-              A polity whose every claim rests on one book is not better sourced than a
-              polity with a visible gap. It is one disagreement away from being wrong
-              throughout, and nothing on its own page shows that. This page shows it.
-            </p>
-            {/* The shape, said once and counted at build. The page argued about
-                distribution and stated none of it. */}
-            <p className="mt-4 text-[17px] leading-relaxed text-debu-ink">
-              The ten most-used works carry{' '}
-              {Math.round((topTen / totalClaims) * 100)}% of those citations; the middle
-              work is cited {median} times, and {once} are cited once.{' '}
-              {reachable} of {uses.length} carry a link to something readable online — the
-              rest are citations you take to a library.
-            </p>
-          </PageHead>
-
+    <Page ground="paper" nav="dark" current="Sources">
+      <PageHero
+        kicker="Where the weight sits"
+        title="Sources"
+        after={
           <StatRow
-            ground="paper"
+            ground="dark"
             stats={[
               { value: used.length, label: 'Works cited' },
               { value: totalClaims.toLocaleString('en-GB'), label: 'Citations' },
@@ -126,6 +98,38 @@ export default function Sources() {
               { value: unused.length, label: 'Listed but uncited' },
             ]}
           />
+        }
+      >
+        <p>
+          {used.length} works carrying {totalClaims.toLocaleString('en-GB')} citations. The
+          build already refuses to ship a citation that does not resolve, so this page is
+          not about whether the sourcing exists. It is about how it is distributed, which
+              is the more useful question once a corpus is large.
+            </p>
+            <p className="mt-4 text-[17px] leading-relaxed text-kaghaz/60">
+              A polity whose every claim rests on one book is not better sourced than a
+              polity with a visible gap. It is one disagreement away from being wrong
+              throughout, and nothing on its own page shows that. This page shows it.
+            </p>
+            {/* The shape, said once and counted at build. The page argued about
+                distribution and stated none of it. */}
+            <p className="mt-4 text-[17px] leading-relaxed text-kaghaz/60">
+              The ten most-used works carry{' '}
+              {Math.round((topTen / totalClaims) * 100)}% of those citations; the middle
+              work is cited {median} times, and {once} are cited once.{' '}
+              {reachable} of {uses.length} carry a link to something readable online — the
+              rest are citations you take to a library.
+            </p>
+      </PageHero>
+      <Shell className="flex-1 pb-24">
+        <div className="flex gap-12">
+          <aside className="hidden shrink-0 pt-12 lg:block lg:w-[224px]">
+            <div className="sticky top-24">
+              <PageNav sections={sections} />
+            </div>
+          </aside>
+
+          <main id="main" className="min-w-0 flex-1">
 
         {concentrated.length ? (
           <section className="mt-16 max-w-measure border-t border-kashi/15 pt-8">

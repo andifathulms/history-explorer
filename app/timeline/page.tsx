@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { formatYear } from '@/lib/years'
 import { tickInterval } from '@/lib/thread'
 import { loadCorpus } from '@/lib/content'
-import { Page, Shell, PageHead } from '@/components/Shell'
+import { Page, Shell, PageHero } from '@/components/Shell'
 import { ConcurrencyProfile } from '@/components/ConcurrencyProfile'
 import { TimelineChart, type TimelineRow } from '@/components/TimelineChart'
 import { PHASES } from '@/lib/types'
@@ -84,11 +84,10 @@ export default function TimelineView() {
   for (let y = Math.ceil(first / step) * step; y <= last; y += step) if (y !== 0) centuries.push(y)
 
   return (
-    <Page ground="paper" current="Timeline">
+    <Page ground="paper" nav="dark" current="Timeline">
       <main id="main" className="flex-1">
-        <Shell className="pb-24">
-          <PageHead kicker="Concurrency, not sequence" title="Timeline" ground="paper">
-            <p>
+        <PageHero kicker="Concurrency, not sequence" title="Timeline">
+          <p>
                 Overlap is the point: {concurrent} of these {rows.length} ran concurrently
               with at least one other, which is the thing a list of dynasties by region
               cannot show you. Rows are sorted by cited start date, so a neighbour on this
@@ -96,7 +95,8 @@ export default function TimelineView() {
               there. A soft bar end means the sources disagree about when it started or
               stopped.
             </p>
-          </PageHead>
+        </PageHero>
+        <Shell className="pb-24 pt-10">
 
         {/* The shape of the corpus before the chart of it. Twelve screens of
             Gantt say the same thing and say it twelve screens at a time. */}
