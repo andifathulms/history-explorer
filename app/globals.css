@@ -402,6 +402,232 @@
       border-color 220ms cubic-bezier(0.22, 0.61, 0.36, 1);
   }
 
+  /* --- Polity cards ---------------------------------------------------------
+     One card, two layouts. The index's Cards / List switch sets data-view on
+     the shelves, and the same markup reflows — rendering a second copy of 419
+     polities for the list would have doubled a page that is already the
+     largest on the site. */
+
+  /* minmax(0, 1fr), not 1fr: an auto track grows to its longest unbreakable
+     line, and one long name in a script was enough to push a phone sideways. */
+  .pcards {
+    @apply mt-6 grid gap-3.5;
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  @media (min-width: 768px) {
+    .pcards {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .pcards {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+
+  .pcard {
+    @apply relative flex h-full flex-col rounded-xl border border-kashi/10 bg-kaghaz-raise px-5 pb-4 pt-5
+      shadow-paper;
+    transition:
+      transform 200ms cubic-bezier(0.22, 0.61, 0.36, 1),
+      box-shadow 200ms cubic-bezier(0.22, 0.61, 0.36, 1),
+      border-color 200ms cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+
+  /* The lift is the index's, not the home grid's: DESIGN.md keeps the hub
+     still, and this is where a reader is choosing between cards. */
+  .pcard:hover,
+  .pcard.is-hot {
+    @apply border-kashi/25 shadow-paper-lift;
+    transform: translateY(-2px);
+  }
+
+  .pcard:hover .pcard-name,
+  .pcard.is-hot .pcard-name {
+    @apply text-firuze-ink;
+  }
+
+  .pcard-top {
+    @apply flex items-baseline justify-between gap-3;
+  }
+
+  .pcard-span {
+    @apply font-mono text-[12px] tabular-nums tracking-[0.02em] text-firuze-ink;
+  }
+
+  .pcard-script {
+    @apply truncate text-[21px] leading-none text-kashi-soft/90;
+  }
+
+  .pcard-name {
+    @apply mt-3 font-display text-[20px] font-semibold leading-snug text-kashi-deep transition-colors;
+    text-wrap: balance;
+  }
+
+  .pcard-identity {
+    @apply mb-4 mt-2 text-[15.5px] leading-relaxed text-ink/90;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .pcard-strip {
+    @apply mt-auto;
+  }
+
+  .pcard-foot {
+    @apply mt-2.5 flex flex-wrap items-baseline gap-x-3.5 gap-y-1 border-t border-kashi/10 pt-3
+      font-sans text-[13px] leading-tight text-debu-ink;
+  }
+
+  .pcard-foot dt {
+    @apply sr-only;
+  }
+
+  .pcard-foot .fig {
+    @apply font-mono text-[12.5px] tabular-nums text-ink;
+  }
+
+  .pcards[data-view='list'] {
+    grid-template-columns: minmax(0, 1fr);
+    @apply gap-0 overflow-hidden rounded-xl border border-kashi/10 bg-kaghaz-raise shadow-paper;
+  }
+
+  .pcards[data-view='list'] .pcard {
+    @apply grid gap-x-5 gap-y-1 rounded-none border-0 border-b border-kashi/10 px-4 py-3 shadow-none;
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-areas: 'name span' 'strip strip' 'foot foot';
+    transform: none;
+  }
+
+  .pcards[data-view='list'] > li:last-child .pcard {
+    @apply border-b-0;
+  }
+
+  .pcards[data-view='list'] .pcard:hover,
+  .pcards[data-view='list'] .pcard.is-hot {
+    @apply bg-kaghaz-lift shadow-none;
+  }
+
+  .pcards[data-view='list'] .pcard-top {
+    display: contents;
+  }
+
+  .pcards[data-view='list'] .pcard-span {
+    grid-area: span;
+    align-self: center;
+  }
+
+  .pcards[data-view='list'] .pcard-script,
+  .pcards[data-view='list'] .pcard-identity {
+    display: none;
+  }
+
+  .pcards[data-view='list'] .pcard-name {
+    @apply mt-0 text-[17px];
+    grid-area: name;
+  }
+
+  .pcards[data-view='list'] .pcard-strip {
+    grid-area: strip;
+    align-self: center;
+  }
+
+  .pcards[data-view='list'] .pcard-foot {
+    @apply mt-0 border-t-0 pt-0;
+    grid-area: foot;
+    align-self: center;
+  }
+
+  @media (min-width: 768px) {
+    .pcards[data-view='list'] .pcard {
+      grid-template-columns: minmax(0, 1.3fr) 7.5rem minmax(0, 1fr) auto;
+      grid-template-areas: 'name span strip foot';
+    }
+
+    .pcards[data-view='list'] .pcard-foot {
+      @apply flex-nowrap justify-end whitespace-nowrap;
+    }
+  }
+
+  /* --- Span strips ----------------------------------------------------------
+     A span drawn to scale. Length is the cited span and nothing else; where an
+     endpoint is a range, the range is drawn pale and the part both readings
+     agree on is drawn solid. */
+
+  .strip {
+    @apply relative h-[18px];
+  }
+
+  .strip-track {
+    @apply absolute inset-x-0 top-[8px] h-[2px] rounded-full bg-kashi/10;
+  }
+
+  .strip-tick {
+    @apply absolute top-[6px] h-[6px] w-px bg-kashi/25;
+  }
+
+  .strip-bar {
+    @apply absolute top-[4px] h-[10px] rounded-[2px] bg-kashi;
+    min-width: 2px;
+  }
+
+  .strip-bar-soft {
+    @apply bg-kashi/35;
+  }
+
+  /* --- Region lanes --------------------------------------------------------- */
+
+  .lane {
+    @apply grid items-center gap-x-3 rounded-md py-[3px] transition-colors;
+    grid-template-columns: minmax(0, 11rem) minmax(0, 1fr);
+  }
+
+  .lane-name {
+    @apply truncate text-right font-sans text-[13px] text-ink/85;
+  }
+
+  .lane-track {
+    @apply relative h-3.5;
+  }
+
+  .lane-bar {
+    @apply absolute top-[1px] h-3 rounded-[3px] bg-kashi-soft/60 transition-colors;
+    min-width: 3px;
+  }
+
+  .lane-bar-soft {
+    @apply bg-kashi-soft/25;
+  }
+
+  .lane:hover,
+  .lane.is-hot {
+    @apply bg-kashi-wash/60;
+  }
+
+  .lane:hover .lane-bar:not(.lane-bar-soft),
+  .lane.is-hot .lane-bar:not(.lane-bar-soft) {
+    @apply bg-firuze;
+  }
+
+  .lane:hover .lane-name,
+  .lane.is-hot .lane-name {
+    @apply text-kashi-deep;
+  }
+
+  @media (max-width: 639px) {
+    .lane {
+      grid-template-columns: minmax(0, 7.5rem) minmax(0, 1fr);
+    }
+
+    .lane-name {
+      @apply text-[12px];
+    }
+  }
+
   /* --- The measure --------------------------------------------------------- */
 
   .prose-measure > * + * {

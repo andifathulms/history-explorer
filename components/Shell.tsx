@@ -11,12 +11,19 @@ export function Page({
   ground,
   current,
   wash = false,
+  nav,
   children,
 }: {
   ground: 'dark' | 'paper'
   current?: string
   /** The one gradient on the site, behind the top of a dark landing view. */
   wash?: boolean
+  /**
+   * The nav's ground, where it differs from the page's. A paper page that
+   * opens on a dark hero — the polities index, a polity — wants a dark bar
+   * sitting on that hero rather than a pale strip across the top of it.
+   */
+  nav?: 'dark' | 'paper'
   children: React.ReactNode
 }) {
   return (
@@ -25,7 +32,7 @@ export function Page({
         wash ? 'wash-dark' : ''
       }`}
     >
-      <SiteNav ground={ground} current={current} />
+      <SiteNav ground={nav ?? ground} current={current} />
       {children}
     </div>
   )
@@ -231,5 +238,34 @@ export function Crumbs({
         ))}
       </ol>
     </nav>
+  )
+}
+
+/**
+ * The dark band a reading page opens on.
+ *
+ * Dark for navigating, light for reading: the top of the polities index and of
+ * a polity page is where a reader orients — what this is, when, where — and
+ * the chapters and tables below are where they read. The band carries its own
+ * wash rather than the `ground-dark` class, whose grain is fixed to the
+ * viewport and would bleed onto the paper beneath.
+ */
+export function HeroBand({
+  children,
+  className = '',
+}: {
+  children: React.ReactNode
+  className?: string
+}) {
+  return (
+    <div
+      className={`relative isolate overflow-hidden bg-dawat text-kaghaz ${className}`}
+      style={{
+        backgroundImage:
+          'radial-gradient(110% 90% at 8% 0%, rgba(27,74,107,0.55), transparent 60%), radial-gradient(70% 60% at 100% 100%, rgba(62,156,156,0.08), transparent 60%)',
+      }}
+    >
+      {children}
+    </div>
   )
 }

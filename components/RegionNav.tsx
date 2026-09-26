@@ -40,6 +40,7 @@ export function RegionNav({ groups }: { groups: NavGroup[] }) {
   const flat = groups.flatMap((g) => g.regions)
   const threaded = flat.filter((r) => r.thread).length
   const [active, setActive] = useState<string | null>(flat[0]?.id ?? null)
+  const [opened, setOpened] = useState<Set<string>>(() => new Set())
   const box = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
@@ -108,74 +109,104 @@ export function RegionNav({ groups }: { groups: NavGroup[] }) {
 
   if (!flat.length) return null
 
+  const activeGroup = groups.find((g) => g.regions.some((r) => r.id === active))?.id
+
   return (
     <div
       ref={box}
-      className="sticky top-24 max-h-[calc(100vh-7.5rem)] overflow-y-auto pb-6"
+      className="sticky top-24 max-h-[calc(100vh-7.5rem)] overflow-y-auto pb-6 pe-1"
     >
-      <nav aria-label="Regions">
-        <p className="kicker border-b border-kashi/15 pb-2 text-debu-ink">
-          {flat.length} regions
+      <nav aria-label="Regions" className="font-sans">
+        <p className="label border-b border-kashi/15 pb-2.5 text-debu-ink">
+          <span className="font-mono tabular-nums">{flat.length}</span> regions
         </p>
 
-        {groups.map((g) => (
-          <div key={g.id} className="mt-4 first:mt-3">
-            <p className="font-mono text-micro uppercase tracking-[0.08em] text-firuze-ink">
-              {g.name}
-            </p>
-            <ul className="mt-1">
-              {g.regions.map((r) => {
-                const here = r.id === active
-                return (
-                  <li key={r.id}>
-                    <a
-                      href={`#${r.id}`}
-                      data-region={r.id}
-                      data-nav-region={r.id}
-                      aria-current={here ? 'true' : undefined}
-                      className={`flex items-baseline gap-2 border-s-2 py-[5px] ps-2.5 text-[13px] leading-snug transition-colors ${
-                        here
-                          ? 'border-firuze-ink text-firuze-ink'
-                          : 'border-kashi/15 text-debu-ink hover:border-kashi/40 hover:text-kashi'
-                      }`}
-                    >
-                      <span className="min-w-0">{r.name}</span>
-                      {r.thread ? (
-                        <>
-                          <span aria-hidden="true" className="ms-auto shrink-0 text-firuze-ink">
-                            &#8942;
-                          </span>
-                          <span className="sr-only"> — carries a thread</span>
-                        </>
-                      ) : null}
-                      <span
-                        className={`font-mono text-micro tabular-nums ${
-                          r.thread ? '' : 'ms-auto'
-                        } shrink-0 text-debu-ink`}
+        {groups.map((g) => {
+          // Fifty-seven rows do not fit a viewport, so groups fold. The one the
+          // reader is standing in is always open; the rest open on request and
+          // stay open until closed.
+          const open = g.id === activeGroup || opened.has(g.id)
+          const count = g.regions.reduce((n, r) => n + r.count, 0)
+          return (
+            <div key={g.id} className="border-b border-kashi/10 py-1.5">
+              <button
+                type="button"
+                aria-expanded={open}
+                aria-controls={`rnav-${g.id}`}
+                onClick={() =>
+                  setOpened((prev) => {
+                    const next = new Set(prev)
+                    if (next.has(g.id)) next.delete(g.id)
+                    else next.add(g.id)
+                    return next
+                  })
+                }
+                className="flex w-full items-center justify-between gap-3 rounded-md py-1.5 text-left text-[13px] font-semibold leading-snug text-kashi-deep"
+              >
+                <span className="min-w-0">{g.name}</span>
+                <span className="flex shrink-0 items-center gap-1.5 font-mono text-[11px] font-normal tabular-nums text-debu-ink">
+                  {count}
+                  <svg
+                    width="10"
+                    height="10"
+                    viewBox="0 0 10 10"
+                    aria-hidden="true"
+                    className={`transition-transform ${open ? 'rotate-90' : ''}`}
+                  >
+                    <path d="M3 1.5 6.5 5 3 8.5" fill="none" stroke="currentColor" strokeWidth="1.5" />
+                  </svg>
+                </span>
+              </button>
+              <ul id={`rnav-${g.id}`} hidden={!open} className="mb-1.5 mt-0.5">
+                {g.regions.map((r) => {
+                  const here = r.id === active
+                  return (
+                    <li key={r.id}>
+                      <a
+                        href={`#${r.id}`}
+                        data-region={r.id}
+                        data-nav-region={r.id}
+                        aria-current={here ? 'true' : undefined}
+                        className={`flex items-baseline gap-2 rounded-md px-2.5 py-[6px] text-[13.5px] leading-snug transition-colors ${
+                          here
+                            ? 'bg-kaghaz-raise font-medium text-kashi-deep shadow-[inset_2px_0_0_theme(colors.firuze-ink)]'
+                            : 'text-debu-ink hover:bg-kaghaz-raise/70 hover:text-kashi-deep'
+                        }`}
                       >
-                        {String(r.count).padStart(2, '0')}
-                      </span>
-                    </a>
-                  </li>
-                )
-              })}
-            </ul>
-          </div>
-        ))}
+                        <span className="min-w-0">{r.name}</span>
+                        {r.thread ? (
+                          <>
+                            <span
+                              aria-hidden="true"
+                              className="ms-auto h-1.5 w-1.5 shrink-0 self-center rounded-full bg-firuze"
+                            />
+                            <span className="sr-only"> — carries a thread</span>
+                          </>
+                        ) : null}
+                        <span
+                          className={`font-mono text-[11px] font-normal tabular-nums ${
+                            r.thread ? '' : 'ms-auto'
+                          } shrink-0 text-debu-ink`}
+                        >
+                          {String(r.count).padStart(2, '0')}
+                        </span>
+                      </a>
+                    </li>
+                  )
+                })}
+              </ul>
+            </div>
+          )
+        })}
 
-        {/* What the mark means, in text.
-
-            It went up as a `title`, which is the one thing this codebase has
-            spent the week taking out of other components: a hover delay, no
-            keyboard focus, and nothing at all on touch. A glyph a reader
-            cannot ask about is decoration, and a vertical ellipsis on its own
-            reads as an overflow menu rather than as a thread. */}
-        <p className="mt-6 border-t border-kashi/15 pt-3 text-[12.5px] leading-snug text-debu-ink">
-          <span aria-hidden="true" className="text-firuze-ink">
-            &#8942;
-          </span>{' '}
-          marks the {threaded} regions where sourced edges join two polities, and a
-          thread can be walked.
+        {/* What the mark means, in text. A glyph a reader cannot ask about is
+            decoration, so the dot is explained here rather than in a title. */}
+        <p className="mt-4 flex items-baseline gap-2 text-[12.5px] leading-snug text-debu-ink">
+          <span aria-hidden="true" className="h-1.5 w-1.5 shrink-0 translate-y-[-1px] rounded-full bg-firuze" />
+          <span>
+            Marks the {threaded} regions where sourced edges join two polities, and a
+            thread can be walked.
+          </span>
         </p>
       </nav>
     </div>

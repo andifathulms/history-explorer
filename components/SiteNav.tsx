@@ -74,7 +74,7 @@ export function SiteNav({ ground, current }: { ground: 'dark' | 'paper'; current
     <header
       className={`sticky top-0 z-40 border-b backdrop-blur-md ${
         dark
-          ? 'border-dawat-edge bg-dawat/80 text-kaghaz'
+          ? 'border-dawat-edge bg-dawat/95 text-kaghaz'
           : 'border-kashi/12 bg-kaghaz/85 text-kashi-deep'
       }`}
     >
