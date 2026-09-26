@@ -1,3 +1,4 @@
+import { Children, isValidElement } from "react";
 import { compileMDX } from "next-mdx-remote/rsc";
 import { ASIDE, type Chapter } from "@/lib/types";
 import { citeShort, getSource } from "@/lib/content";
@@ -19,10 +20,31 @@ import { Figure } from "@/components/Figure";
  * chapter sits, "aside" says that the question does not apply.
  */
 
+/**
+ * Marks the MDX `Figure` binding as block-level, for the paragraph below.
+ */
+const BLOCK = Symbol.for("chapter-block");
+
+/**
+ * A paragraph, unless it holds a figure.
+ *
+ * MDX wraps a `<Figure />` written on its own line — or at the head of a
+ * paragraph, as 684 chapter markers are — in a <p>. A <figure> cannot sit in a
+ * <p>: the browser closes the paragraph before it, the DOM no longer matches
+ * what the server sent, and React threw away and re-rendered the whole
+ * document on every polity page with a figure. The same styling on a <div>
+ * keeps the reading rhythm and gives the parser nothing to repair.
+ */
+function Paragraph(p: React.HTMLAttributes<HTMLParagraphElement>) {
+  const block = Children.toArray(p.children).some(
+    (c) => isValidElement(c) && (c.type as { [BLOCK]?: boolean })[BLOCK],
+  );
+  const Tag = block ? "div" : "p";
+  return <Tag className="mt-5 max-w-measure text-body text-ink" {...p} />;
+}
+
 const components = {
-  p: (p: React.HTMLAttributes<HTMLParagraphElement>) => (
-    <p className="mt-5 max-w-measure text-body text-ink" {...p} />
-  ),
+  p: Paragraph,
   /**
    * A `##` inside a chapter body, rendered as an h4 because the chapter's own
    * title is the h3 above it and the section's heading the h2 above that.
@@ -91,7 +113,10 @@ async function One({ chapter }: { chapter: Chapter }) {
     // knows which polity they are in.
     components: {
       ...components,
-      Figure: (p: { id: string }) => <Figure {...p} polity={chapter.polity} />,
+      Figure: Object.assign(
+        (p: { id: string }) => <Figure {...p} polity={chapter.polity} />,
+        { [BLOCK]: true },
+      ),
     },
     options: { parseFrontmatter: false },
   });
