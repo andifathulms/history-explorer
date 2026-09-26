@@ -24,7 +24,7 @@ export default function NotFound() {
               <li key={l.href}>
                 <Link
                   href={l.href}
-                  className="link-underline font-mono text-[12.5px] uppercase tracking-[0.08em] text-firuze-bright"
+                  className="link-underline font-sans text-[14px] font-semibold text-firuze-bright"
                 >
                   {l.label} →
                 </Link>

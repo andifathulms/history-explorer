@@ -64,7 +64,7 @@ export function SourceFilter({ total }: { total: number }) {
           }}
           className="w-full max-w-[22rem] border border-kashi/25 bg-kaghaz-raise px-3.5 py-2.5 text-[16px] text-kashi-deep placeholder:text-debu-ink/70 focus-visible:border-firuze-ink"
         />
-        <p aria-live="polite" className="font-mono text-micro uppercase text-debu-ink">
+        <p aria-live="polite" className="font-sans text-[12.5px] font-medium text-debu-ink">
           {query.trim() === '' ? (
             <>Searches authors, titles and ids</>
           ) : (

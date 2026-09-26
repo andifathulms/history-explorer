@@ -64,7 +64,7 @@ export function ConcurrencyProfile({ spans }: { spans: Span[] }) {
         <h2 id="profile-heading" className="kicker text-debu-ink">
           How many at once
         </h2>
-        <p className="font-mono text-micro uppercase text-debu-ink">
+        <p className="font-sans text-[12.5px] font-medium text-debu-ink">
           peak <span className="tabular-nums text-zarrin-ink">{ceiling}</span> in the{' '}
           <span className="tabular-nums">{formatYear(peak.at)}s</span>
         </p>

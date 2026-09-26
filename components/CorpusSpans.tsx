@@ -111,7 +111,7 @@ export function CorpusSpans({ polities }: { polities: Polity[] }) {
         })}
       </svg>
       </div>
-      <figcaption className="mt-5 flex flex-wrap items-center gap-x-6 gap-y-2 font-mono text-micro uppercase text-debu-paper">
+      <figcaption className="mt-5 flex flex-wrap items-center gap-x-6 gap-y-2 font-sans text-[12.5px] font-medium text-debu-paper">
         <span className="flex items-center gap-2">
           <span className="inline-block h-[3px] w-6 rounded-full bg-firuze/85" /> agreed extent
         </span>

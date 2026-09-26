@@ -181,7 +181,7 @@ export default function ContinuityIndex() {
           </p>
           <ul className="mt-6 flex flex-wrap gap-x-2.5 gap-y-2">
             {EDGE_TYPES.map((t) => (
-              <li key={t} className="rounded-full border border-dawat-edge px-3 py-1.5 font-mono text-micro uppercase text-debu-paper">
+              <li key={t} className="rounded-full border border-dawat-edge px-3 py-1.5 font-sans text-[12.5px] font-medium text-debu-paper">
                 {t}
               </li>
             ))}

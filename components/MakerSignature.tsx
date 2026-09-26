@@ -89,7 +89,7 @@ export function MakerSignature() {
 
   return (
     <div className="flex flex-col gap-3 sm:items-end">
-      <p className="font-mono text-micro uppercase text-debu-paper">
+      <p className="font-sans text-[12.5px] font-medium text-debu-paper">
         Designed &amp; built by{' '}
         <a
           href={MAKER.portfolio}

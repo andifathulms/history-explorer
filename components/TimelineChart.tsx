@@ -151,7 +151,7 @@ export function TimelineChart({
               }}
               className="mt-3 w-full max-w-[22rem] border border-kashi/25 bg-kaghaz-raise px-3.5 py-2.5 text-[16px] text-kashi-deep placeholder:text-debu-ink/70 focus-visible:border-firuze-ink"
             />
-            <p aria-live="polite" className="mt-2 font-mono text-micro uppercase text-debu-ink">
+            <p aria-live="polite" className="mt-2 font-sans text-[12.5px] font-medium text-debu-ink">
               {q === '' ? (
                 <>Searches names and regions</>
               ) : (
@@ -181,13 +181,13 @@ export function TimelineChart({
                 <button
                   type="button"
                   onClick={() => setYear(null)}
-                  className="shrink-0 font-mono text-micro uppercase text-firuze-ink hover:text-kashi"
+                  className="shrink-0 font-sans text-[12.5px] font-medium text-firuze-ink hover:text-kashi"
                 >
                   Clear
                 </button>
               ) : null}
             </div>
-            <p aria-live="polite" className="mt-2 font-mono text-micro uppercase text-debu-ink">
+            <p aria-live="polite" className="mt-2 font-sans text-[12.5px] font-medium text-debu-ink">
               {year == null ? (
                 <>Drag to see who was standing</>
               ) : (
@@ -202,7 +202,7 @@ export function TimelineChart({
       </div>
 
       {/* ---- Key ------------------------------------------------------- */}
-      <div className="mt-8 flex flex-wrap gap-x-6 gap-y-2 border-t border-kashi/15 pt-5 font-mono text-micro uppercase text-debu-ink">
+      <div className="mt-8 flex flex-wrap gap-x-6 gap-y-2 border-t border-kashi/15 pt-5 font-sans text-[12.5px] font-medium text-debu-ink">
         <span className="flex items-center gap-2">
           <span className="inline-block h-2.5 w-6 rounded-full bg-kashi/70" /> cited span
         </span>

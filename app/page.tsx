@@ -113,15 +113,15 @@ export default function Home() {
                     <h3 className="font-display text-[26px] font-semibold text-kaghaz transition-colors group-hover:text-firuze-bright">
                       {s.title}
                     </h3>
-                    <span className="font-mono text-micro uppercase text-debu-paper">
+                    <span className="font-sans text-[12.5px] font-medium text-debu-paper">
                       {String(i + 1).padStart(2, '0')}
                     </span>
                   </div>
-                  <p className="mt-1.5 font-mono text-micro uppercase text-firuze">{s.count}</p>
+                  <p className="mt-1.5 font-sans text-[12.5px] font-medium text-firuze">{s.count}</p>
                   <p className="mt-4 text-[16px] leading-relaxed text-debu-paper">{s.body}</p>
                   <span
                     aria-hidden="true"
-                    className="mt-6 font-mono text-micro uppercase text-kaghaz/45 transition-colors group-hover:text-firuze-bright"
+                    className="mt-6 font-sans text-[12.5px] font-medium text-kaghaz/45 transition-colors group-hover:text-firuze-bright"
                   >
                     Open →
                   </span>

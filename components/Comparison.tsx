@@ -94,7 +94,7 @@ export function Comparison({
 
   return (
     <>
-      <div className="mt-12 grid gap-8 lg:grid-cols-[264px_1fr]">
+      <div className="mt-12 grid grid-cols-[minmax(0,1fr)] gap-8 lg:grid-cols-[264px_minmax(0,1fr)]">
         <aside className="card-paper p-6 lg:sticky lg:top-24 lg:self-start">
           <h2 className="kicker text-debu-ink">Your weights</h2>
 
@@ -104,7 +104,7 @@ export function Comparison({
                 key={key}
                 type="button"
                 onClick={() => setWeights(preset.weights)}
-                className="rounded-full border border-kashi/30 px-3 py-1 font-mono text-micro uppercase text-kashi transition-colors hover:border-firuze-ink hover:text-firuze-ink"
+                className="rounded-full border border-kashi/30 px-3 py-1 font-sans text-[12.5px] font-medium text-kashi transition-colors hover:border-firuze-ink hover:text-firuze-ink"
               >
                 {preset.label}
               </button>
@@ -115,7 +115,7 @@ export function Comparison({
             {AXES.map((a) => (
               <label key={a} className="block">
                 <span className="flex items-baseline justify-between">
-                  <span className="font-mono text-[12.5px] uppercase tracking-[0.06em] text-kashi">
+                  <span className="font-sans text-[13px] font-medium text-kashi">
                     {AXIS_LABELS[a]}
                   </span>
                   <span className="font-mono text-[13px] tabular-nums text-debu-ink">
@@ -160,7 +160,7 @@ export function Comparison({
             {INFLUENCE_KEYS.map((k) => (
               <label key={k} className="block">
                 <span className="flex items-baseline justify-between">
-                  <span className="font-mono text-[12.5px] uppercase tracking-[0.06em] text-kashi">
+                  <span className="font-sans text-[13px] font-medium text-kashi">
                     {INFLUENCE_LABELS[k]}
                   </span>
                   <span className="font-mono text-[13px] tabular-nums text-debu-ink">
@@ -189,7 +189,7 @@ export function Comparison({
                   type="button"
                   onClick={() => setScale(s)}
                   aria-pressed={scale === s}
-                  className={`rounded-full border px-3 py-1 font-mono text-micro uppercase transition-colors ${
+                  className={`rounded-full border px-3 py-1 font-sans text-[12.5px] font-medium transition-colors ${
                     scale === s
                       ? 'border-firuze-ink bg-firuze-ink text-kaghaz'
                       : 'border-kashi/30 text-kashi hover:border-firuze-ink'
@@ -214,7 +214,7 @@ export function Comparison({
                   type="button"
                   onClick={() => setNormalisation(n)}
                   aria-pressed={normalisation === n}
-                  className={`rounded-full border px-3 py-1 font-mono text-micro uppercase transition-colors ${
+                  className={`rounded-full border px-3 py-1 font-sans text-[12.5px] font-medium transition-colors ${
                     normalisation === n
                       ? 'border-firuze-ink bg-firuze-ink text-kaghaz'
                       : 'border-kashi/30 text-kashi hover:border-firuze-ink'
@@ -249,7 +249,7 @@ export function Comparison({
                   type="button"
                   onClick={() => setBoard(b)}
                   aria-pressed={board === b}
-                  className={`rounded-full border px-3.5 py-1.5 font-mono text-micro uppercase tracking-[0.06em] transition-colors ${
+                  className={`rounded-full border px-3.5 py-1.5 font-sans text-[13px] font-medium transition-colors ${
                     board === b
                       ? 'border-kashi bg-kashi text-kaghaz'
                       : 'border-kashi/30 text-kashi hover:border-firuze-ink hover:text-firuze-ink'
@@ -268,7 +268,7 @@ export function Comparison({
             </p>
 
             {meta.readerOwned ? (
-              <p className="mt-2 max-w-measure font-mono text-micro uppercase tracking-[0.06em] text-zarrin-ink">
+              <p className="mt-2 max-w-measure font-sans text-[13px] font-medium text-zarrin-ink">
                 This ordering is yours, not the site&rsquo;s
               </p>
             ) : null}
@@ -303,7 +303,10 @@ export function Comparison({
               section; inside a two-column grid it pulled the table into the
               sidebar gutter and added 54px of scrollWidth, so the table showed
               a horizontal scrollbar on a desktop that had room for it. */}
-          <div className="overflow-x-auto">
+          {/* `relative`, so the table's screen-reader-only labels — absolutely
+              positioned — are contained by the scroll box rather than
+              escaping it and widening the page on a phone. */}
+          <div className="relative overflow-x-auto">
             <table className="w-full min-w-[780px] border-collapse text-left">
               <caption className="sr-only">
                 Polities ranked by your weighted total, with each axis&rsquo;s cited figure
@@ -338,7 +341,7 @@ export function Comparison({
                       <th
                         key={h}
                         scope="col"
-                        className="py-3 pe-4 align-bottom font-mono text-micro font-normal uppercase text-debu-ink"
+                        className="py-3 pe-4 align-bottom font-sans text-[12.5px] font-medium text-debu-ink"
                       >
                         {h === '#' ? <span className="sr-only">Rank</span> : h}
                         {/* The three counts need naming once, not on all 66

@@ -207,15 +207,17 @@ export default function Sources() {
                     A track of fixed width with the fill scaled inside it. The
                     percentage now resolves against the track rather than
                     against the page, so nothing clamps and nothing saturates. */}
-                <div className="mt-3 flex items-center gap-4">
-                  <div className="h-[7px] w-full max-w-[420px] shrink-0 rounded-full bg-kashi/12">
+                {/* Wraps, so on a phone the count drops under a full-width
+                    track instead of pushing the page sideways. */}
+                <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1.5">
+                  <div className="h-[7px] w-full max-w-[420px] rounded-full bg-kashi/12">
                     <div
                       className="h-full rounded-full bg-kashi/55"
                       style={{ width: `${Math.max(0.8, (u.claims / max) * 100)}%` }}
                     />
                   </div>
-                  <span className="shrink-0 font-mono text-micro uppercase tabular-nums text-debu-ink">
-                    {u.claims} {u.claims === 1 ? 'citation' : 'citations'}
+                  <span className="shrink-0 font-sans text-[12.5px] text-debu-ink">
+                    <span className="font-mono tabular-nums">{u.claims}</span> {u.claims === 1 ? 'citation' : 'citations'}
                     {u.chapters ? ` · ${u.chapters} chapter${u.chapters === 1 ? '' : 's'}` : ''}
                   </span>
                 </div>

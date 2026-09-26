@@ -35,6 +35,10 @@ It is scoped to one region and always will be. A single thread through every
 polity on the site would be a line through Bukhara and Palembang, which is a
 sequence nobody cited — the design rule and the data rule are the same rule here.
 
+On a polity page the current polity is marked on the rail in `firuze`, the
+thread's own colour. It was `zarrin`, which the palette keeps for the peak and
+nothing else.
+
 When a polity has no thread, its page simply has no rail, and the reading column
 takes the full measure. There is no placeholder, no greyed-out rail, no "not
 available in this region". An absent instrument is not an error state.
@@ -46,7 +50,7 @@ Persian ceramic, deliberately cooled. Two grounds, each with a job.
 | Token | Hex | Job |
 |---|---|---|
 | `dawat` | `#0B1520` | Ink-over-lapis. Ground for navigating: home, continuity, maps. |
-| `kaghaz` | `#E9EBE5` | Cool grey-green paper. Ground for reading and for tables. |
+| `kaghaz` | `#E4E7E0` | Cool grey-green paper. Ground for reading and for tables. |
 | `kashi` | `#1B4A6B` | Tile blue. Structure: rules, rail, headings on paper. |
 | `firuze` | `#3E9C9C` | Turquoise. The thread itself, and only the thread. |
 | `zarrin` | `#C08A2E` | Saffron. Peak-phase markers only. Nothing else. |
@@ -85,11 +89,18 @@ scaled to display size reads as a large paragraph, not as a title, and the front
 door needed a voice. The rule that survives is the underlying one — a second face
 must do a different job, not add flavour.
 
-**IBM Plex Mono** for figures: years, percentiles, km², axis labels, table heads,
-the kicker above a section title. On this site a number is the subject matter
-rather than furniture, and a column of them should line up because they are meant
-to be compared. It is also what keeps a slider value from looking like prose you
+**IBM Plex Mono** for figures: years, percentiles, km², axis labels, and the
+kicker above a page title. On this site a number is the subject matter rather
+than furniture, and a column of them should line up because they are meant to be
+compared. It is also what keeps a slider value from looking like prose you
 cannot edit.
+
+**IBM Plex Sans** for the interface: navigation, buttons, chips, tabs and the
+labels that name a field. Sentence case, never tracked capitals. It was added in
+the 2026 refresh because mono was doing two jobs — figures and every piece of
+furniture — and a button, a label and a number set in the same uppercase mono
+could not be told apart. The test for which of the two a string gets is whether
+it is a quantity.
 
 **Amiri** for Perso-Arabic. It is here to set سامانیان and غزنویان properly,
 which is content, not ornament — the writing system is one of the fields the site
@@ -178,7 +189,10 @@ itself once across the region's span, polity names appearing as it passes.
 Roughly 1.4s, then completely still.
 
 Nothing else animates on its own. No section entrances, no card hovers on the
-home grid. Interaction-triggered motion is welcome — the rating panel opening,
+home grid. The polities index is the exception to the hover rule and only to
+that one: its cards lift two pixels on hover or focus, because that page is
+where a reader is choosing between them, and a region's lanes light the card
+they point at. Interaction-triggered motion is welcome — the rating panel opening,
 the map crossfading between snapshot years — because it shows what changed.
 `prefers-reduced-motion` skips the draw and renders the finished thread.
 
@@ -292,3 +306,41 @@ home grid that lift and shadow. Scroll-triggered entrances. Each of those would
 have made a screenshot better and the reading worse, and the site's identity
 still rests on the grammar — length is a cited quantity — rather than on any one
 drawn object.
+
+## The 2026 refresh
+
+The rework gave the site a frame. This pass gives its two most-read pages a
+picture. It changed no figure, no citation and no rule about gaps.
+
+**Values, not hues.** Same six roles, same names. The paper ground went a step
+deeper and the reading surface a step lighter, because the two measured 1.09:1
+and every card read as a smudge on the page rather than an object on it. Body
+text is one solid ink (`ink`, #13212C) instead of dawat at five different
+opacities. `kashi.wash` is a tint for state — the selected tab, the active
+chip — and is a step of tile blue, not a new colour.
+
+**A fifth face, with one job.** See Type. Fraunces is also shipped with its
+optical-size axis now, so a title at 84px gets the display cut on its own.
+
+**Dark heads on reading pages.** The polities index and every polity page open
+on a `dawat` band and then turn to paper. This extends "dark for navigating,
+light for reading" into the page rather than breaking it: the band is where a
+reader orients — what, when, where — and the paper is where they read. The
+polity band carries the snapshot map, which was always drawn on dawat, beside
+the name. The map keeps its caveats in the move: the snapshot year sits on the
+drawing, the caption says it is the nearest snapshot and not the peak, and the
+full Extent section is one link down.
+
+**Spans drawn wherever they are cited.** The index gives every region a lane
+per polity and every card a strip on the corpus's full axis. A polity page draws
+its own span, its rulers' reigns, its capitals, its turning points and its
+contemporaries' overlaps. All of these follow the one grammar: length is a cited
+quantity, a range is drawn pale with the part both readings agree on solid, and
+nothing is joined.
+
+**The gutter is the thread's.** The section list moved into a sticky tab bar
+under the hero, so a polity with no thread has no gutter at all, as the Thread
+section always said, and a threaded one has the rail at the top of the column.
+
+**Saffron, rationed again.** It marks the peak phase on the chapter arc and the
+peak-era ruler's reign, and nothing else.

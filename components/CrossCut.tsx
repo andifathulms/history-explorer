@@ -87,7 +87,7 @@ export function CrossCut({ polities }: { polities: CrossCutPolity[] }) {
         Cut across the regions
       </h2>
       <details>
-        <summary className="inline-block cursor-pointer font-mono text-meta uppercase tracking-[0.1em] text-firuze-ink hover:text-kashi">
+        <summary className="inline-block cursor-pointer font-sans text-[14px] font-semibold text-firuze-ink hover:text-kashi">
           Cut across the regions
         </summary>
         <p className="mt-4 max-w-measure text-[16px] leading-relaxed text-debu-ink">
@@ -102,7 +102,7 @@ export function CrossCut({ polities }: { polities: CrossCutPolity[] }) {
           const coded = stats.coded.get(f.key) ?? 0
           return (
             <div key={f.key}>
-              <h3 className="flex flex-wrap items-baseline gap-x-3 font-mono text-[12.5px] uppercase tracking-[0.06em] text-kashi">
+              <h3 className="flex flex-wrap items-baseline gap-x-3 font-sans text-[13px] font-medium text-kashi">
                 {f.label}
                 {/* Coverage stated before the reader picks anything, not after.
                     A facet covering 18 of 66 cannot support "these are the
@@ -134,7 +134,7 @@ export function CrossCut({ polities }: { polities: CrossCutPolity[] }) {
                           ? undefined
                           : () => setSelected(on ? null : { field: f.key, value: v })
                       }
-                      className={`rounded-full border px-3 py-1 font-mono text-micro uppercase transition-colors ${
+                      className={`rounded-full border px-3 py-1 font-sans text-[12.5px] font-medium transition-colors ${
                         on
                           ? 'border-kashi bg-kashi text-kaghaz'
                           : n === 0
@@ -190,7 +190,7 @@ export function CrossCut({ polities }: { polities: CrossCutPolity[] }) {
                   >
                     {p.latin}
                   </Link>
-                  <span className="ms-2 font-mono text-micro uppercase text-debu-ink">
+                  <span className="ms-2 font-sans text-[12.5px] font-medium text-debu-ink">
                     {p.regionName}
                   </span>
                 </li>
