@@ -63,7 +63,7 @@ function AxisRow({
         <h3 className="font-mono text-[13px] uppercase tracking-[0.08em] text-kashi">
           {label}
         </h3>
-        <p className="font-mono text-[15px] tabular-nums text-dawat/85">{figure}</p>
+        <p className="font-mono text-[15px] tabular-nums text-ink">{figure}</p>
       </div>
       <div className="mt-2.5">{children}</div>
       {pct ? (

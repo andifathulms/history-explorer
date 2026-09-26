@@ -163,7 +163,7 @@ export function ExtentTrajectory({ polity }: { polity: Polity }) {
               {formatYear(p.at)}
             </span>
             <span className="tabular-nums text-kashi">{formatKm2(p.km2)}</span>
-            <span className="text-[14px] text-dawat/75">
+            <span className="text-[14px] text-ink/80">
               <cite className="not-italic">{citeShort(p.source)}</cite>
               {p.note ? <span className="text-debu-ink"> — {p.note}</span> : null}
             </span>

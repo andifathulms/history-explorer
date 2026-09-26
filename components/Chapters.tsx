@@ -21,7 +21,7 @@ import { Figure } from "@/components/Figure";
 
 const components = {
   p: (p: React.HTMLAttributes<HTMLParagraphElement>) => (
-    <p className="mt-5 max-w-measure text-body text-dawat/88" {...p} />
+    <p className="mt-5 max-w-measure text-body text-ink" {...p} />
   ),
   /**
    * A `##` inside a chapter body, rendered as an h4 because the chapter's own
@@ -63,7 +63,7 @@ const components = {
   ),
   blockquote: (p: React.HTMLAttributes<HTMLQuoteElement>) => (
     <blockquote
-      className="mt-5 max-w-measure border-s-2 border-kashi/40 ps-4 text-dawat/80"
+      className="mt-5 max-w-measure border-s-2 border-kashi/40 ps-4 text-ink"
       {...p}
     />
   ),

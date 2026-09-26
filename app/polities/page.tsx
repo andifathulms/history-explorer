@@ -308,7 +308,7 @@ export default function PolitiesIndex() {
                           <p className="mt-1.5 font-mono text-micro uppercase tabular-nums text-firuze-ink">
                             {formatSpan(p.span.start.min, p.span.end.max)}
                           </p>
-                          <p className="mb-5 mt-3 text-[16px] leading-relaxed text-dawat/80">
+                          <p className="mb-5 mt-3 text-[16px] leading-relaxed text-ink">
                             {p.identity}
                           </p>
                           {/* A dl rather than a run-on line: uppercase prose
@@ -323,7 +323,7 @@ export default function PolitiesIndex() {
                             <dt className="font-mono text-micro uppercase text-debu-ink">
                               Chapters
                             </dt>
-                            <dd className="font-mono tabular-nums text-dawat/75">{n}</dd>
+                            <dd className="font-mono tabular-nums text-ink/80">{n}</dd>
                             {/* How it ended, in place of the population line.
                                 Coded for every record, one word, and the most
                                 differentiating thing a card can carry — two
@@ -333,7 +333,7 @@ export default function PolitiesIndex() {
                             <dt className="font-mono text-micro uppercase text-debu-ink">
                               Ended
                             </dt>
-                            <dd className="font-mono tabular-nums text-dawat/75">
+                            <dd className="font-mono tabular-nums text-ink/80">
                               {/* The type alone, no year. It repeated the end
                                   of the span two lines above on 200 of the 212
                                   records — and "fragmentation, 2181 BC" is the
@@ -361,7 +361,7 @@ export default function PolitiesIndex() {
                               className={
                                 p.measures.reach_km2?.value == null
                                   ? 'italic text-debu-ink'
-                                  : 'font-mono tabular-nums text-dawat/75'
+                                  : 'font-mono tabular-nums text-ink/80'
                               }
                             >
                               {formatKm2(p.measures.reach_km2?.value ?? null)}

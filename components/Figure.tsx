@@ -53,7 +53,7 @@ function One({ fig, grouped }: { fig: FigureData; grouped: boolean }) {
           not the same text and neither substitutes for the other — a reader on
           a screen reader gets both, in that order, and a caption that merely
           repeats the alt wastes one of them. */}
-      <figcaption className="mt-3 text-[14.5px] leading-relaxed text-dawat/85">
+      <figcaption className="mt-3 text-[14.5px] leading-relaxed text-ink">
         {fig.caption}
       </figcaption>
 

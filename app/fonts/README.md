@@ -10,14 +10,15 @@ its own repository should not have a third party in that path.
 ## What is here, and why only this
 
 Only the weights the site uses. `font-semibold` (600) and the default (400) are
-the only weights any component asks for; there is no 500 and no 700 in the
-markup, so there are none here.
+the weights the reading and display faces are asked for. The interface face
+adds 500, the label weight; nothing asks for 700, so there is none here.
 
 | Family | Weights | Styles | Subsets |
 |---|---|---|---|
 | Spectral | 400, 600 | normal, italic (400 only) | latin, latin-ext |
-| Fraunces | 400–700 variable, one file per style | normal, italic | latin, latin-ext (roman); latin only (italic) |
+| Fraunces | 400–700 variable, one file per style; roman also carries the optical-size axis (9–144) | normal, italic | latin, latin-ext (roman); latin only (italic) |
 | IBM Plex Mono | 400 | normal | latin, latin-ext |
+| IBM Plex Sans | 400, 500, 600 | normal | latin, latin-ext |
 | Amiri | 400 | normal | arabic |
 
 Fraunces italic is carried because the ending types — *conquest*,
@@ -45,7 +46,7 @@ would cost several megabytes to set a few dozen glyphs.
 
 ## Licence
 
-All four families are under the **SIL Open Font License 1.1**, which permits
+All five families are under the **SIL Open Font License 1.1**, which permits
 redistribution with the software. Copyright notices, verbatim from each
 project:
 
@@ -53,7 +54,7 @@ project:
   (https://github.com/productiontype/Spectral)
 - **Fraunces** — Copyright 2020 The Fraunces Project Authors
   (https://github.com/undercasetype/Fraunces)
-- **IBM Plex Mono** — Copyright 2017 IBM Corp.
+- **IBM Plex Mono** and **IBM Plex Sans** — Copyright 2017 IBM Corp.
   (https://github.com/IBM/plex)
 - **Amiri** — Copyright 2010-2023 Khaled Hosny
   (https://github.com/alif-type/amiri)

@@ -211,7 +211,7 @@ export default function PolityPage({ params }: { params: { id: string } }) {
                 ) : null}
               </p>
 
-              <p className="mt-6 max-w-measure text-lede text-dawat/85">{p.identity}</p>
+              <p className="mt-6 max-w-measure text-lede text-ink">{p.identity}</p>
 
               <StatRow ground="paper" stats={headline} />
             </header>

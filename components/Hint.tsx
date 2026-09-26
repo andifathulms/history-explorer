@@ -83,7 +83,7 @@ export function Hint({
         <span
           id={id}
           role="note"
-          className="absolute start-0 top-[calc(100%+6px)] z-20 block w-[248px] max-w-[76vw] border border-kashi/25 bg-kaghaz-lift p-3 font-latin text-[14px] font-normal normal-case not-italic leading-relaxed tracking-normal text-dawat/85 shadow-paper"
+          className="absolute start-0 top-[calc(100%+6px)] z-20 block w-[248px] max-w-[76vw] border border-kashi/25 bg-kaghaz-lift p-3 font-latin text-[14px] font-normal normal-case not-italic leading-relaxed tracking-normal text-ink shadow-paper"
         >
           {children}
         </span>

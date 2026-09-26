@@ -23,7 +23,7 @@ import { SectionHead } from '@/components/Shell'
 /** One party in the sentence: linked where it has a page, plain where it does not. */
 function Party({ id, emphasise }: { id: string; emphasise: boolean }) {
   const name = displayName(id)
-  if (!emphasise) return <span className="text-dawat/70">{name}</span>
+  if (!emphasise) return <span className="text-ink/80">{name}</span>
   return hasPage(id) ? (
     <Link
       href={`/polity/${id}/`}
@@ -58,18 +58,18 @@ function ExternalRow({ item, polity }: { item: ExternalNeighbour; polity: string
         )}
         {item.type ? (
           <>
-            <span className="text-dawat/70">{polity}</span>
+            <span className="text-ink/80">{polity}</span>
             <span className="italic text-kashi">{item.type}</span>
           </>
         ) : null}
-        <span className="font-semibold text-dawat/85">{item.name}</span>
+        <span className="font-semibold text-ink">{item.name}</span>
         {item.contested ? (
           <span className="rounded-full border border-debu/50 px-2 py-0.5 font-mono text-micro uppercase text-debu-ink">
             contested
           </span>
         ) : null}
       </p>
-      <p className="mt-1.5 max-w-measure text-[15px] leading-relaxed text-dawat/80">{item.note}</p>
+      <p className="mt-1.5 max-w-measure text-[15px] leading-relaxed text-ink">{item.note}</p>
     </li>
   )
 }
@@ -338,7 +338,7 @@ function TransferRow({ item, subject }: { item: Transfer; subject: 'lost' | 'gai
         <span className="font-mono text-[14px] tabular-nums text-debu-ink">
           {item.year == null ? '\u2014' : formatYear(item.year)}
         </span>
-        <span className="font-semibold text-dawat/85">{item.what}</span>
+        <span className="font-semibold text-ink">{item.what}</span>
         <span className="italic text-kashi">{subject === 'lost' ? 'to' : 'from'}</span>
         <Party id={other} emphasise />
         {item.contested ? (

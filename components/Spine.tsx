@@ -76,7 +76,7 @@ export function Spine({ chapters }: { chapters: Chapter[] }) {
                   className="group block rounded-sm outline-offset-4 focus-visible:outline focus-visible:outline-2 focus-visible:outline-firuze-ink"
                 >
                   {label}
-                  <span className="mt-1 block max-w-[22ch] text-[13.5px] leading-snug text-dawat/75 group-hover:text-firuze-ink">
+                  <span className="mt-1 block max-w-[22ch] text-[13.5px] leading-snug text-ink/80 group-hover:text-firuze-ink">
                     {chapter.title}
                   </span>
                 </a>

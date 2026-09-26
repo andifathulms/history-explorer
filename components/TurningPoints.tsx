@@ -92,7 +92,7 @@ export function TurningPoints({ polity }: { polity: Polity }) {
             </p>
 
             {/* The point of the entry, and so the largest thing in it. */}
-            <p className="mt-1.5 max-w-measure text-body text-dawat/88">{t.changed}</p>
+            <p className="mt-1.5 max-w-measure text-body text-ink">{t.changed}</p>
 
             <p className="mt-1.5 text-[14px] text-debu-ink">
               <cite className="not-italic">{citeShort(t.source)}</cite>

@@ -89,7 +89,7 @@ export function PageHead({
       </h1>
       {children ? (
         <div
-          className={`mt-6 max-w-measure text-lede ${dark ? 'text-debu-paper' : 'text-dawat/78'}`}
+          className={`mt-6 max-w-measure text-lede ${dark ? 'text-debu-paper' : 'text-ink'}`}
         >
           {children}
         </div>
@@ -124,8 +124,8 @@ export function StatRow({
   const dark = ground === 'dark'
   return (
     <dl
-      className={`mt-10 grid grid-cols-2 gap-px border sm:grid-cols-4 ${
-        dark ? 'border-dawat-edge bg-dawat-edge' : 'border-kashi/12 bg-kashi/12'
+      className={`mt-10 grid grid-cols-2 gap-px overflow-hidden rounded-xl border sm:grid-cols-4 ${
+        dark ? 'border-dawat-edge bg-dawat-edge' : 'border-kashi/12 bg-kashi/12 shadow-paper'
       }`}
     >
       {stats.map((s) => (
@@ -133,7 +133,7 @@ export function StatRow({
           key={s.label}
           className={`px-4 py-4 sm:px-5 sm:py-5 ${dark ? 'bg-dawat' : 'bg-kaghaz-raise'}`}
         >
-          <dt className={`kicker ${dark ? 'text-debu-paper' : 'text-debu-ink'}`}>{s.label}</dt>
+          <dt className={`label ${dark ? 'text-debu-paper' : 'text-debu-ink'}`}>{s.label}</dt>
           <dd
             className={`mt-2 leading-tight [overflow-wrap:break-word] ${
               s.gap
@@ -182,7 +182,11 @@ export function SectionHead({
   )
 }
 
-/** Where you are, above the title. Two levels only — this is not a deep site. */
+/**
+ * Where you are, above the title. Two levels only — this is not a deep site.
+ * Sentence case in the interface face: these are links, and uppercase mono
+ * made them read as a caption.
+ */
 export function Crumbs({
   trail,
   ground,
@@ -193,11 +197,11 @@ export function Crumbs({
   const dark = ground === 'dark'
   return (
     <nav aria-label="Breadcrumb" className="pt-10">
-      <ol className="flex flex-wrap items-center gap-x-2 font-mono text-micro uppercase">
+      <ol className="flex flex-wrap items-center gap-x-2 gap-y-1 font-sans text-[13px] leading-snug">
         {trail.map((t, i) => (
           <li key={t.label} className="flex items-center gap-2">
             {i > 0 ? (
-              <span aria-hidden="true" className={dark ? 'text-debu-paper' : 'text-debu-ink'}>
+              <span aria-hidden="true" className={`opacity-60 ${dark ? 'text-debu-paper' : 'text-debu-ink'}`}>
                 /
               </span>
             ) : null}
@@ -216,7 +220,12 @@ export function Crumbs({
                 {t.label}
               </Link>
             ) : (
-              <span className={dark ? 'text-kaghaz' : 'text-kashi-deep'}>{t.label}</span>
+              <span
+                aria-current="page"
+                className={`font-medium ${dark ? 'text-kaghaz' : 'text-kashi-deep'}`}
+              >
+                {t.label}
+              </span>
             )}
           </li>
         ))}

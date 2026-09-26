@@ -415,7 +415,7 @@ export function Comparison({
 
                     {/* Three numbers, never one, even in a table cell. */}
                     <td className="py-4 pe-4">
-                      <span className="font-mono text-[15px] tabular-nums text-dawat/85">
+                      <span className="font-mono text-[15px] tabular-nums text-ink">
                         {INFLUENCE_KEYS.map((k) => {
                           const c = r.influence.counts[k].count
                           return c === null ? '—' : c
@@ -430,7 +430,7 @@ export function Comparison({
                       <td className="py-4 pe-4">
                         {r.intensity.perYear.present ? (
                           <>
-                            <span className="font-mono text-[15px] tabular-nums text-dawat/85">
+                            <span className="font-mono text-[15px] tabular-nums text-ink">
                               {Math.round(r.intensity.perYear.value.min).toLocaleString('en-GB')}
                             </span>
                             {/* A range, because the duration is one. Collapsing
@@ -512,7 +512,7 @@ function AxisCell({
         <span className="text-[14px] italic text-debu-ink">{NO_FIGURE}</span>
       ) : (
         <>
-          <span className="font-mono text-[15px] tabular-nums text-dawat/85">{figure}</span>
+          <span className="font-mono text-[15px] tabular-nums text-ink">{figure}</span>
           <span className="mt-2 block h-[6px] w-full rounded-full bg-kashi/10">
             {pct === null ? null : (
               <>

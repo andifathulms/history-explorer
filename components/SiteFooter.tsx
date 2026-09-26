@@ -78,7 +78,7 @@ export function SiteFooter() {
             made the footer end in a stack of bars, so they share this one:
             note on the left, credit on the right, stacked on a phone. */}
         <div className="mt-12 flex flex-col gap-8 border-t border-dawat-edge pt-6 sm:flex-row sm:items-start sm:justify-between sm:gap-12">
-          <p className="max-w-[54ch] font-mono text-micro uppercase text-debu-paper">
+          <p className="max-w-[54ch] font-sans text-[13px] leading-relaxed text-debu-paper">
             Chapters drafted against named sources · coverage follows one
             person&rsquo;s curiosity and claims no completeness
           </p>

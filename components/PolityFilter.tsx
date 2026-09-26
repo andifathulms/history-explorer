@@ -41,6 +41,11 @@ export function PolityFilter({ total }: { total: number }) {
   const [shown, setShown] = useState(total)
   const input = useRef<HTMLInputElement>(null)
 
+  // Arriving from the search button on another page: /polities/#find.
+  useEffect(() => {
+    if (window.location.hash === '#find') input.current?.focus({ preventScroll: true })
+  }, [])
+
   useEffect(() => {
     const q = fold(query.trim())
     const cards = document.querySelectorAll<HTMLElement>('[data-polity]')
@@ -77,7 +82,7 @@ export function PolityFilter({ total }: { total: number }) {
   }, [query])
 
   return (
-    <div className="mt-10 border-t border-kashi/15 pt-6">
+    <div id="find" className="mt-10 scroll-mt-28 border-t border-kashi/15 pt-6">
       {/* `block`, stated rather than inherited from the fact that a <div>
           happens to follow it. See the note in TimelineChart. */}
       <label htmlFor="polity-filter" className="kicker block text-debu-ink">

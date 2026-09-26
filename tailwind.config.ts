@@ -24,18 +24,27 @@ const config: Config = {
           lift: '#17293A',
           edge: '#20364A',
         },
-        /* Cool grey-green paper. Ground for reading and for tables. */
+        /* Cool grey-green paper. Ground for reading and for tables.
+
+           The 2026 refresh deepened the ground a step and lifted the surface
+           to near-white. The two used to measure 1.09:1 against each other,
+           which is why every card read as a faint smudge on the page rather
+           than as an object on it; they now measure 1.21:1, and the paper
+           shadow does the rest. Same hue, same role. */
         kaghaz: {
-          DEFAULT: '#E9EBE5',
-          sink: '#DEE1D9',
-          raise: '#F3F4EF',
-          lift: '#FAFBF7',
+          DEFAULT: '#E4E7E0',
+          sink: '#D9DDD4',
+          raise: '#FBFBF8',
+          lift: '#FFFFFF',
         },
         /* Tile blue. Structure: rules, rail, headings on paper. */
         kashi: {
           DEFAULT: '#1B4A6B',
           deep: '#0E3450',
           soft: '#3F7297',
+          /* A tint for state on paper: the selected tab, the active chip, the
+             current row. A step of tile blue, not a new hue. */
+          wash: '#D9E4EA',
         },
         /* Turquoise. The thread itself, and only the thread. */
         firuze: {
@@ -64,7 +73,11 @@ const config: Config = {
          * Use these for text. Use the tokens above for the thread, the rails,
          * the bars and everything else graphical.
          */
-        'debu-ink': '#63675F', // 4.9:1 on kaghaz
+        'debu-ink': '#5B6058', // 5.2:1 on kaghaz, 6.2:1 on kaghaz.raise
+        /* Body text on paper. Was dawat at 75-88% opacity, which set reading
+           text in a grey that varied component to component; this is one solid
+           ink at 15.8:1 on the surface. */
+        ink: '#13212C',
         'debu-paper': '#868A82', // 5.2:1 on dawat
         'firuze-ink': '#2A6E6E', // 4.8:1 on kaghaz
         'zarrin-ink': '#7F5B1D', // 5.1:1 on kaghaz
@@ -74,11 +87,14 @@ const config: Config = {
         latin: ['var(--font-spectral)', 'Georgia', 'serif'],
         arabic: ['var(--font-amiri)', 'serif'],
         mono: ['var(--font-mono)', 'ui-monospace', 'SFMono-Regular', 'monospace'],
+        /* The interface voice: nav, buttons, chips, labels, in sentence case.
+           Its job is to be not-a-number, so that mono can mean one. */
+        sans: ['var(--font-sans)', 'system-ui', '-apple-system', 'Segoe UI', 'sans-serif'],
       },
       fontSize: {
         /* Fluid display sizes. A reference work should open at a size that says
            this is a made thing, then settle immediately into reading type. */
-        hero: ['clamp(2.6rem, 1.4rem + 5.2vw, 5.25rem)', { lineHeight: '0.98', letterSpacing: '-0.022em' }],
+        hero: ['clamp(2.6rem, 1.4rem + 5.2vw, 5.25rem)', { lineHeight: '0.98', letterSpacing: '-0.012em' }],
         display: ['clamp(2.1rem, 1.4rem + 3.1vw, 3.5rem)', { lineHeight: '1.04', letterSpacing: '-0.018em' }],
         title: ['clamp(1.55rem, 1.2rem + 1.5vw, 2.1rem)', { lineHeight: '1.12', letterSpacing: '-0.012em' }],
         lede: ['clamp(1.125rem, 1.04rem + 0.4vw, 1.3125rem)', { lineHeight: '1.55' }],
@@ -87,6 +103,8 @@ const config: Config = {
         /* The mono voice: kickers, axis labels, table heads. */
         meta: ['0.75rem', { lineHeight: '1.3', letterSpacing: '0.1em' }],
         micro: ['0.6875rem', { lineHeight: '1.3', letterSpacing: '0.08em' }],
+        /* The sans label: a field name, a chip, a caption over a figure. */
+        label: ['0.8125rem', { lineHeight: '1.35', letterSpacing: '0.005em' }],
       },
       maxWidth: {
         measure: '68ch',
@@ -101,14 +119,15 @@ const config: Config = {
          */
         data: '56rem',
         shell: '1240px',
+        wide: '1440px',
       },
       transitionTimingFunction: {
         thread: 'cubic-bezier(0.33, 0.1, 0.15, 1)',
         ease: 'cubic-bezier(0.22, 0.61, 0.36, 1)',
       },
       boxShadow: {
-        paper: '0 1px 2px rgba(14,52,80,0.05), 0 8px 24px -12px rgba(14,52,80,0.18)',
-        'paper-lift': '0 2px 4px rgba(14,52,80,0.06), 0 18px 40px -18px rgba(14,52,80,0.28)',
+        paper: '0 1px 2px rgba(14,52,80,0.06), 0 10px 28px -14px rgba(14,52,80,0.22)',
+        'paper-lift': '0 2px 4px rgba(14,52,80,0.07), 0 22px 44px -18px rgba(14,52,80,0.32)',
       },
     },
   },
