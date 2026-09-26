@@ -76,7 +76,7 @@ const VALUE_HINT: Record<string, string> = {
   titulature: "A predecessor's title taken as one's own ground",
 }
 
-function Row({
+function Card({
   label,
   hint,
   coded,
@@ -86,42 +86,27 @@ function Row({
   coded: InstitutionsData[keyof InstitutionsData]
 }) {
   return (
-    <div className="border-t border-kashi/15 py-3.5 sm:grid sm:grid-cols-[12rem_1fr] sm:gap-6">
-      <dt className="font-mono text-[12.5px] uppercase tracking-[0.06em] text-debu-ink">
-        {label}
-        <span className="mt-1 block font-latin text-[13px] normal-case leading-snug tracking-normal text-debu-ink/85">
-          {hint}
-        </span>
+    <div className="card-paper flex min-w-0 flex-col px-5 py-4">
+      <dt>
+        <span className="label block text-kashi">{label}</span>
+        <span className="mt-1 block font-sans text-[12.5px] leading-snug text-debu-ink">{hint}</span>
       </dt>
-      <dd className="mt-2 sm:mt-0">
+      <dd className="mt-3 flex flex-1 flex-col">
         {coded ? (
           <>
-            <span className="flex flex-wrap items-baseline gap-x-2 gap-y-1">
-              {coded.values.map((v, i) => (
-                <span key={v} className="text-kashi">
-                  {v.replace(/-/g, ' ')}
-                  {i < coded.values.length - 1 ? (
-                    <span className="text-debu-ink"> and</span>
-                  ) : null}
-                </span>
-              ))}
+            <span className="font-display text-[20px] font-semibold capitalize leading-snug text-kashi-deep">
+              {coded.values.map((v) => v.replace(/-/g, ' ')).join(' · ')}
             </span>
             {/* What the words mean, on the page rather than under a hover.
-                One line per value, in the order the values are printed.
-
                 The term is repeated only where there is more than one, since
-                a definition has to say which value it defines. On a single
-                value it was printing the word twice in consecutive lines —
-                "land grant" and then "land grant — Service in return for
-                assigned revenue" — which reads as a stutter. */}
-            <ul className="mt-1.5 max-w-measure space-y-0.5">
+                a definition has to say which value it defines. */}
+            <ul className="mt-1.5 space-y-0.5">
               {coded.values.map((v) =>
                 VALUE_HINT[v] ? (
-                  <li key={v} className="text-[14px] leading-snug text-debu-ink">
+                  <li key={v} className="font-sans text-[13.5px] leading-snug text-debu-ink">
                     {coded.values.length > 1 ? (
                       <>
-                        <span className="text-kashi/80">{v.replace(/-/g, ' ')}</span>{' '}
-                        &mdash;{' '}
+                        <span className="text-kashi">{v.replace(/-/g, ' ')}</span> &mdash;{' '}
                       </>
                     ) : null}
                     {VALUE_HINT[v]}
@@ -129,12 +114,12 @@ function Row({
                 ) : null,
               )}
             </ul>
-            <span className="mt-2 block text-[14px] text-debu-ink">
-              <cite className="not-italic">{citeShort(coded.source)}</cite>
-            </span>
+            <cite className="mt-auto block pt-3 font-latin text-[13.5px] italic leading-snug text-debu-ink">
+              {citeShort(coded.source)}
+            </cite>
           </>
         ) : (
-          <span className="italic text-debu-ink">{NO_FIGURE}</span>
+          <span className="font-latin text-[17px] italic text-debu-ink">{NO_FIGURE}</span>
         )}
       </dd>
     </div>
@@ -151,17 +136,21 @@ export function Institutions({ polity }: { polity: Polity }) {
         ground="paper"
         id="institutions-heading"
         aside={
-          <span className="font-mono text-micro uppercase text-debu-ink">
-            {coded} of {FIELDS.length} coded
+          <span>
+            <span className="font-mono tabular-nums">{coded}</span> of{' '}
+            <span className="font-mono tabular-nums">{FIELDS.length}</span> coded
           </span>
         }
       >
         How it was governed
       </SectionHead>
 
-      <dl className="max-w-data">
+      {/* Four cards, each a question and its answer. A missing answer keeps
+          its card and says so at the same size as a present one: an empty
+          card next to three full ones is the honest picture. */}
+      <dl className="grid gap-3.5 sm:grid-cols-2 xl:grid-cols-4">
         {FIELDS.map((f) => (
-          <Row key={f.key} label={f.label} hint={f.hint} coded={inst[f.key]} />
+          <Card key={f.key} label={f.label} hint={f.hint} coded={inst[f.key]} />
         ))}
       </dl>
 

@@ -6,131 +6,266 @@ import { scriptLang } from '@/lib/scripts'
 import { SectionHead } from '@/components/Shell'
 
 /**
+ * The facts a reader looks up, as panels rather than a fifteen-row table.
+ *
  * PRD section 4, item 4. Three rulers only — founder, peak-era, last — because
  * a dynasty list is a different kind of object and belongs in a reference work.
+ * Where a reign is cited it is drawn on the polity's own span, so the three
+ * read as positions in a life rather than as three names: the Samanids' peak
+ * ruler sits a quarter of the way in, their last one past the fall of Bukhara.
+ * The peak reign carries the saffron that DESIGN.md keeps for peak-phase
+ * markers, which is exactly what it is.
  *
  * A null ruler renders as "No cited figure" like any other gap. The Ghurid last
  * sultan is genuinely unresolved between sources, and printing the most-cited
  * guess would be exactly the invention the hard rules forbid.
  *
+ * Capitals with dates become a strip on the same span, each seat as long as
+ * the years it was held. A capital with no dates is listed, not drawn: a bar
+ * would have to guess where it began.
+ *
  * Script runs get their language from the characters — see lib/scripts.ts.
- * Both of these fields used to be hardcoded `lang="fa"`, which set Πέλλα,
- * 長安, 𒀀𒂵𒉈𒆠 and Principatus Antiochenus right-to-left in the Arabic face.
  */
-function Row({ label, children }: { label: string; children: React.ReactNode }) {
+
+function Gap() {
+  return <span className="font-latin italic text-debu-ink">{NO_FIGURE}</span>
+}
+
+function Panel({
+  label,
+  className = '',
+  children,
+}: {
+  label: string
+  className?: string
+  children: React.ReactNode
+}) {
   return (
-    <div className="border-t border-kashi/15 py-3.5 sm:grid sm:grid-cols-[12rem_1fr] sm:gap-6">
-      <dt className="font-mono text-[12.5px] uppercase tracking-[0.06em] text-debu-ink">
-        {label}
-      </dt>
-      <dd className="mt-1 sm:mt-0">{children}</dd>
+    <div className={`card-paper min-w-0 px-5 py-4 ${className}`}>
+      <dt className="label text-debu-ink">{label}</dt>
+      <dd className="mt-2.5">{children}</dd>
     </div>
   )
 }
 
-function Gap() {
-  return <span className="italic text-debu-ink">{NO_FIGURE}</span>
+const ROLES = [
+  { key: 'founder' as const, label: 'Founder' },
+  { key: 'peak' as const, label: 'Peak-era ruler' },
+  { key: 'last' as const, label: 'Last ruler' },
+]
+
+function RulerName({ r, declared }: { r: Ruler; declared?: string | null }) {
+  return (
+    <>
+      <span className="block font-display text-[17px] font-semibold leading-snug text-kashi-deep">
+        {r.name}
+      </span>
+      {/* Inline inside a block, so a right-to-left name keeps the left edge
+          the Latin name above it sets, rather than running to the far side. */}
+      {r.script ? (
+        <span className="block">
+          <span lang={scriptLang(r.script, declared)} className="text-[16px] leading-snug text-kashi-soft">
+            {r.script}
+          </span>
+        </span>
+      ) : null}
+    </>
+  )
 }
 
-function RulerLine({ r, declared }: { r: Ruler | null; declared?: string | null }) {
-  if (!r) return <Gap />
+function Rulers({ polity: p }: { polity: Polity }) {
+  const a0 = p.span.start.min
+  const a1 = p.span.end.max
+  const pct = (y: number) => Math.min(100, Math.max(0, ((y - a0) / (a1 - a0)) * 100))
+  const drawn = ROLES.some((r) => p.rulers[r.key]?.reign)
+
   return (
-    <span>
-      {r.name}
-      {r.script ? (
-        <span lang={scriptLang(r.script, declared)} className="ml-2 text-[17px] text-kashi">
-          {r.script}
-        </span>
+    <div>
+      <ol className="grid gap-x-6 gap-y-4 sm:grid-cols-3">
+        {ROLES.map(({ key, label }) => {
+          const r = p.rulers[key]
+          return (
+            <li key={key} className="min-w-0">
+              <p
+                className={`font-sans text-[12px] font-medium ${
+                  key === 'peak' ? 'text-zarrin-ink' : 'text-debu-ink'
+                }`}
+              >
+                {label}
+                {r?.reign ? (
+                  <span className="ms-1.5 font-mono text-[11.5px] font-normal tabular-nums">
+                    r. {formatSpan(r.reign[0], r.reign[1])}
+                  </span>
+                ) : null}
+              </p>
+              <div className="mt-1">{r ? <RulerName r={r} declared={p.name.script_lang} /> : <Gap />}</div>
+            </li>
+          )
+        })}
+      </ol>
+
+      {drawn ? (
+        <figure className="mt-5">
+          <div aria-hidden="true" className="relative h-3">
+            <span className="absolute inset-x-0 top-[5px] h-[2px] rounded-full bg-kashi-wash" />
+            {ROLES.map(({ key }) => {
+              const reign = p.rulers[key]?.reign
+              if (!reign) return null
+              return (
+                <span
+                  key={key}
+                  className={`absolute top-0 h-3 rounded-[3px] ${key === 'peak' ? 'bg-zarrin' : 'bg-kashi'}`}
+                  style={{
+                    left: `${pct(reign[0])}%`,
+                    width: `${Math.max(0.8, pct(reign[1]) - pct(reign[0]))}%`,
+                  }}
+                />
+              )
+            })}
+          </div>
+          <figcaption className="mt-1.5 flex justify-between font-mono text-[11px] tabular-nums text-debu-ink">
+            <span>{formatYear(a0)}</span>
+            <span className="font-sans">Reigns on the polity&rsquo;s span</span>
+            <span>{formatYear(a1)}</span>
+          </figcaption>
+        </figure>
       ) : null}
-      {r.reign ? (
-        <span className="ms-2 font-mono text-[14px] tabular-nums text-debu-ink">
-          r. {formatSpan(r.reign[0], r.reign[1])}
-        </span>
+    </div>
+  )
+}
+
+function Capitals({ polity: p }: { polity: Polity }) {
+  if (!p.capitals.length) {
+    // Not a <Gap />. `NO_FIGURE` says nobody has opened a source, and an
+    // empty capitals list says the opposite — the same reading this site
+    // gives an empty turning-point list and an edgeless polity. The Holy
+    // Roman Empire is the record that forced the distinction: it had no
+    // capital, and its emperors governed from wherever their own dynasty's
+    // lands were.
+    return <span className="text-debu-ink">No fixed seat recorded</span>
+  }
+
+  const a0 = p.span.start.min
+  const a1 = p.span.end.max
+  const pct = (y: number) => Math.min(100, Math.max(0, ((y - a0) / (a1 - a0)) * 100))
+  // Only seats with a start can be placed; one with no end runs to the
+  // next seat's start, or to the end of the span, which is what "from 892"
+  // with nothing after it means on the record.
+  const dated = p.capitals
+    .filter((c) => c.from != null)
+    .sort((x, y) => (x.from as number) - (y.from as number))
+
+  return (
+    <>
+      <ul className="space-y-1">
+        {p.capitals.map((c, i) => (
+          <li key={i} className="flex flex-wrap items-baseline gap-x-2">
+            <span className="font-display text-[17px] font-semibold text-kashi-deep">{c.name}</span>
+            {c.script ? (
+              <span lang={scriptLang(c.script, p.name.script_lang)} className="text-[16px] text-kashi-soft">
+                {c.script}
+              </span>
+            ) : null}
+            {c.from != null ? (
+              <span className="font-mono text-[12.5px] tabular-nums text-debu-ink">
+                {c.to != null ? formatSpan(c.from, c.to) : `from ${formatYear(c.from)}`}
+              </span>
+            ) : null}
+          </li>
+        ))}
+      </ul>
+      {dated.length ? (
+        <div aria-hidden="true" className="relative mt-4 h-2.5 overflow-hidden rounded-full bg-kashi-wash">
+          {dated.map((c, i) => {
+            const from = c.from as number
+            const to = c.to ?? dated[i + 1]?.from ?? a1
+            return (
+              <span
+                key={i}
+                className={`absolute top-0 h-full border-e-2 border-kaghaz-raise ${
+                  i % 2 ? 'bg-kashi' : 'bg-kashi-soft'
+                }`}
+                style={{ left: `${pct(from)}%`, width: `${pct(to) - pct(from)}%` }}
+              />
+            )
+          })}
+        </div>
       ) : null}
-    </span>
+    </>
   )
 }
 
 export function Facts({ polity }: { polity: Polity }) {
   const p = polity
+  const admin = p.scripts_and_languages.administration
   return (
-    <section aria-labelledby="facts-heading" className="mt-16">
+    <section aria-labelledby="facts-heading" className="mt-12">
       <SectionHead ground="paper" id="facts-heading">
-        Facts
+        Overview
       </SectionHead>
-      <dl className="max-w-data">
-        <Row label="Core region">{p.core_region || <Gap />}</Row>
+      <dl className="grid gap-3.5 md:grid-cols-6">
+        <Panel label="Rulers" className="md:col-span-6">
+          <Rulers polity={p} />
+        </Panel>
 
-        <Row label="Capitals">
-          {p.capitals.length ? (
-            <ul>
-              {p.capitals.map((c, i) => (
-                <li key={i}>
-                  {c.name}
-                  {c.script ? (
-                    <span
-                      lang={scriptLang(c.script, p.name.script_lang)}
-                      className="ml-2 text-[17px] text-kashi"
-                    >
-                      {c.script}
-                    </span>
-                  ) : null}
-                  {c.from ? (
-                    <span className="ms-2 font-mono text-[14px] tabular-nums text-debu-ink">
-                      from {formatYear(c.from)}
-                      {c.to ? ` to ${formatYear(c.to)}` : ''}
-                    </span>
-                  ) : null}
+        <Panel label="Capitals" className="md:col-span-4">
+          <Capitals polity={p} />
+        </Panel>
+
+        <Panel label="How it ended" className="md:col-span-2">
+          {p.ended ? (
+            <>
+              <span className="block font-display text-[21px] font-semibold capitalize leading-tight text-kashi-deep">
+                {p.ended.type}
+              </span>
+              {p.ended.year ? (
+                <span className="mt-1 block font-mono text-[13px] tabular-nums text-debu-ink">
+                  {formatYear(p.ended.year)}
+                </span>
+              ) : null}
+              <cite className="mt-2 block font-latin text-[14px] not-italic leading-snug text-debu-ink">
+                {citeShort(p.ended.source)}
+              </cite>
+            </>
+          ) : (
+            <Gap />
+          )}
+        </Panel>
+
+        <Panel label="Languages of administration" className="md:col-span-3">
+          {admin.length ? (
+            <ul className="flex flex-wrap gap-1.5">
+              {admin.map((l) => (
+                <li
+                  key={l}
+                  className="rounded-md bg-kashi-wash px-2.5 py-1.5 font-sans text-[13.5px] font-medium leading-none text-kashi-deep"
+                >
+                  {l}
                 </li>
               ))}
             </ul>
           ) : (
-            // Not a <Gap />. `NO_FIGURE` says nobody has opened a source, and an
-            // empty capitals list says the opposite — the same reading this site
-            // gives an empty turning-point list and an edgeless polity. The
-            // Holy Roman Empire is the record that forced the distinction: it
-            // had no capital, and its emperors governed from wherever their own
-            // dynasty's lands were.
-            <span className="text-debu-ink">No fixed seat recorded</span>
-          )}
-        </Row>
-
-        <Row label="Founder">
-          <RulerLine r={p.rulers.founder} declared={p.name.script_lang} />
-        </Row>
-        <Row label="Peak-era ruler">
-          <RulerLine r={p.rulers.peak} declared={p.name.script_lang} />
-        </Row>
-        <Row label="Last ruler">
-          <RulerLine r={p.rulers.last} declared={p.name.script_lang} />
-        </Row>
-
-        <Row label="Administration">
-          {p.scripts_and_languages.administration.length ? (
-            p.scripts_and_languages.administration.join(', ')
-          ) : (
             <Gap />
           )}
-        </Row>
-        <Row label="Writing system">{p.scripts_and_languages.writing_system ?? <Gap />}</Row>
+          <p className="mt-3 font-sans text-[13.5px] text-debu-ink">
+            Writing system:{' '}
+            {p.scripts_and_languages.writing_system ? (
+              <span className="text-ink">{p.scripts_and_languages.writing_system}</span>
+            ) : (
+              <Gap />
+            )}
+          </p>
+        </Panel>
 
-        <Row label="How it ended">
-          {p.ended ? (
-            <span>
-              <span className="font-semibold text-kashi">{p.ended.type}</span>
-              {p.ended.year ? (
-                <span className="ms-2 font-mono text-[14px] tabular-nums text-debu-ink">
-                  {formatYear(p.ended.year)}
-                </span>
-              ) : null}
-              <span className="mt-1 block text-[15px] text-debu-ink">
-                {citeShort(p.ended.source)}
-              </span>
+        <Panel label="Core region" className="md:col-span-3">
+          {p.core_region ? (
+            <span className="font-display text-[19px] font-semibold leading-snug text-kashi-deep">
+              {p.core_region}
             </span>
           ) : (
             <Gap />
           )}
-        </Row>
+        </Panel>
       </dl>
     </section>
   )

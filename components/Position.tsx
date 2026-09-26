@@ -47,9 +47,21 @@ function Party({ id, emphasise }: { id: string; emphasise: boolean }) {
  * question. The row is quieter than an edge row because the claim is smaller —
  * a sourced sentence rather than a typed, drawable relation.
  */
+const CONTESTED =
+  'inline-flex items-center rounded-full border border-dashed border-debu/60 px-2 py-[3px] font-sans text-[11.5px] font-medium leading-none text-debu-ink'
+
+/**
+ * One neighbour, as a card. The rule down its inner edge is the thread's own
+ * colour and points at the polity in the middle column, which is the one
+ * place outside the thread itself that turquoise is used: this section is the
+ * polity's piece of a thread.
+ */
+const EDGE_CARD =
+  'card-paper relative px-4 py-3.5 before:absolute before:top-5 before:hidden before:h-[2px] before:w-6 before:bg-firuze lg:before:block'
+
 function ExternalRow({ item, polity }: { item: ExternalNeighbour; polity: string }) {
   return (
-    <li className="border-t border-kashi/15 py-3 first:border-t-0">
+    <li className={EDGE_CARD}>
       <p className="flex flex-wrap items-baseline gap-x-2">
         {item.year == null ? null : (
           <span className="font-mono text-[14px] tabular-nums text-debu-ink">
@@ -59,17 +71,13 @@ function ExternalRow({ item, polity }: { item: ExternalNeighbour; polity: string
         {item.type ? (
           <>
             <span className="text-ink/80">{polity}</span>
-            <span className="italic text-kashi">{item.type}</span>
+            <span className="italic text-firuze-ink">{item.type}</span>
           </>
         ) : null}
-        <span className="font-semibold text-ink">{item.name}</span>
-        {item.contested ? (
-          <span className="rounded-full border border-debu/50 px-2 py-0.5 font-mono text-micro uppercase text-debu-ink">
-            contested
-          </span>
-        ) : null}
+        <span className="font-display text-[17px] font-semibold text-kashi-deep">{item.name}</span>
+        {item.contested ? <span className={CONTESTED}>Contested</span> : null}
       </p>
-      <p className="mt-1.5 max-w-measure text-[15px] leading-relaxed text-ink">{item.note}</p>
+      <p className="mt-1.5 text-[15px] leading-relaxed text-ink">{item.note}</p>
     </li>
   )
 }
@@ -87,21 +95,17 @@ function ExternalRow({ item, polity }: { item: ExternalNeighbour; polity: string
 function EdgeRow({ edge, other }: { edge: Edge; other: string }) {
   const { subject, object } = edgeParties(edge)
   return (
-    <li className="border-t border-kashi/15 py-3 first:border-t-0">
+    <li className={EDGE_CARD}>
       <p className="flex flex-wrap items-baseline gap-x-2">
         <span className="font-mono text-[14px] tabular-nums text-debu-ink">
           {edge.year == null ? '—' : formatYear(edge.year)}
         </span>
         <Party id={subject} emphasise={subject === other} />
-        <span className="italic text-kashi">{edge.type}</span>
+        <span className="italic text-firuze-ink">{edge.type}</span>
         <Party id={object} emphasise={object === other} />
-        {edge.contested ? (
-          <span className="rounded-full border border-debu/50 px-2 py-0.5 font-mono text-micro uppercase text-debu-ink">
-            contested
-          </span>
-        ) : null}
+        {edge.contested ? <span className={CONTESTED}>Contested</span> : null}
       </p>
-      <p className="mt-1 max-w-measure text-[16px] leading-relaxed text-debu-ink">{edge.note}</p>
+      <p className="mt-1.5 text-[15px] leading-relaxed text-debu-ink">{edge.note}</p>
     </li>
   )
 }
@@ -255,13 +259,14 @@ export function Position({
 
       <Resumption earlier={resumes} later={resumedBy} />
 
-      <div className="grid max-w-data gap-10 md:grid-cols-2">
-        <div>
-          <h3 className="font-display text-[19px] font-semibold text-kashi-deep">
-            What led here
-          </h3>
+      {/* Before, the polity, after. On a wide screen the polity stands in the
+          middle column and each neighbour's card points at it; narrower, the
+          three stack in reading order. */}
+      <div className="grid items-start gap-6 lg:grid-cols-[minmax(0,1fr)_11rem_minmax(0,1fr)] lg:gap-0">
+        <div className="lg:pe-6 [&_li]:before:-right-6">
+          <h3 className="label mb-2.5 text-debu-ink">What led here</h3>
           {predecessors.length || before.length ? (
-            <ul className="mt-2">
+            <ul className="space-y-2.5">
               {predecessors.map((e, i) => (
                 <EdgeRow key={i} edge={e} other={e.from} />
               ))}
@@ -280,12 +285,19 @@ export function Position({
           )}
         </div>
 
-        <div>
-          <h3 className="font-display text-[19px] font-semibold text-kashi-deep">
-            What led away
-          </h3>
+        <div className="lg:sticky lg:top-40 lg:pt-8">
+          <div className="rounded-xl bg-kashi-deep px-4 py-4 text-center text-kaghaz shadow-paper">
+            <p className="font-display text-[18px] font-semibold leading-tight">{name}</p>
+            <p className="mt-1 font-mono text-[12px] tabular-nums text-kaghaz/70">
+              {formatRange(polity.span.start.min, polity.span.end.max)}
+            </p>
+          </div>
+        </div>
+
+        <div className="lg:ps-6 [&_li]:before:-left-6">
+          <h3 className="label mb-2.5 text-debu-ink">What led away</h3>
           {successors.length || after.length ? (
-            <ul className="mt-2">
+            <ul className="space-y-2.5">
               {successors.map((e, i) => (
                 <EdgeRow key={i} edge={e} other={e.to} />
               ))}
@@ -333,7 +345,7 @@ export function Position({
 function TransferRow({ item, subject }: { item: Transfer; subject: 'lost' | 'gained' }) {
   const other = subject === 'lost' ? item.to : item.from
   return (
-    <li className="border-t border-kashi/15 py-3 first:border-t-0">
+    <li className="card-paper px-4 py-3.5">
       <p className="flex flex-wrap items-baseline gap-x-2">
         <span className="font-mono text-[14px] tabular-nums text-debu-ink">
           {item.year == null ? '\u2014' : formatYear(item.year)}
@@ -341,13 +353,9 @@ function TransferRow({ item, subject }: { item: Transfer; subject: 'lost' | 'gai
         <span className="font-semibold text-ink">{item.what}</span>
         <span className="italic text-kashi">{subject === 'lost' ? 'to' : 'from'}</span>
         <Party id={other} emphasise />
-        {item.contested ? (
-          <span className="rounded-full border border-debu/50 px-2 py-0.5 font-mono text-micro uppercase text-debu-ink">
-            contested
-          </span>
-        ) : null}
+        {item.contested ? <span className={CONTESTED}>Contested</span> : null}
       </p>
-      <p className="mt-1 max-w-measure text-[16px] leading-relaxed text-debu-ink">{item.note}</p>
+      <p className="mt-1.5 text-[15px] leading-relaxed text-debu-ink">{item.note}</p>
     </li>
   )
 }
@@ -366,11 +374,11 @@ export function Transfers({ lost, gained }: { lost: Transfer[]; gained: Transfer
         This is not succession and draws no thread &mdash; territory changing hands
         says nothing about what became what.
       </p>
-      <div className="mt-6 grid max-w-data gap-10 md:grid-cols-2">
+      <div className="mt-6 grid gap-6 md:grid-cols-2">
         {lost.length ? (
           <div>
-            <h3 className="font-display text-[19px] font-semibold text-kashi-deep">Lost</h3>
-            <ul className="mt-2">
+            <h3 className="label mb-2.5 text-debu-ink">Lost</h3>
+            <ul className="space-y-2.5">
               {lost.map((t, i) => (
                 <TransferRow key={i} item={t} subject="lost" />
               ))}
@@ -379,8 +387,8 @@ export function Transfers({ lost, gained }: { lost: Transfer[]; gained: Transfer
         ) : null}
         {gained.length ? (
           <div>
-            <h3 className="font-display text-[19px] font-semibold text-kashi-deep">Taken</h3>
-            <ul className="mt-2">
+            <h3 className="label mb-2.5 text-debu-ink">Taken</h3>
+            <ul className="space-y-2.5">
               {gained.map((t, i) => (
                 <TransferRow key={i} item={t} subject="gained" />
               ))}

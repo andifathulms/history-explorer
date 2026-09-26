@@ -51,19 +51,21 @@ export function Spine({ chapters }: { chapters: Chapter[] }) {
           const extra = (counts.get(phase) ?? 0) - 1
           const label = (
             <>
+              {/* Saffron for the peak and nowhere else on the arc: DESIGN.md's
+                  one rationed accent, on the one thing it is rationed for. */}
               <span
                 aria-hidden
-                className={`block h-1 rounded-full ${
-                  chapter ? 'bg-kashi' : 'bg-kashi/15'
+                className={`block h-2 rounded-full ${
+                  chapter ? (phase === 'peak' ? 'bg-zarrin' : 'bg-kashi') : 'bg-kashi/15'
                 }`}
               />
               <span
-                className={`mt-2 block font-mono text-micro uppercase tracking-[0.08em] ${
-                  chapter ? 'text-kashi' : 'text-debu-ink/55'
+                className={`mt-2 block font-sans text-[12.5px] font-medium capitalize ${
+                  chapter ? (phase === 'peak' ? 'text-zarrin-ink' : 'text-kashi') : 'text-debu-ink/60'
                 }`}
               >
                 {phase}
-                {extra > 0 ? <span className="tabular-nums"> ·{extra + 1}</span> : null}
+                {extra > 0 ? <span className="font-mono tabular-nums"> ·{extra + 1}</span> : null}
               </span>
             </>
           )
@@ -126,7 +128,7 @@ export function Spine({ chapters }: { chapters: Chapter[] }) {
           exactly where a reader is most likely to wonder what the word is
           doing there. One disclosure, all six, no JavaScript. */}
       <details className="mt-3">
-        <summary className="inline-block cursor-pointer font-mono text-micro uppercase tracking-[0.08em] text-firuze-ink hover:text-kashi">
+        <summary className="inline-block cursor-pointer font-sans text-[13px] font-medium text-firuze-ink hover:text-kashi">
           What the phases mean
         </summary>
         <dl className="mt-3 max-w-measure">
@@ -135,14 +137,14 @@ export function Spine({ chapters }: { chapters: Chapter[] }) {
               key={phase}
               className="flex flex-wrap gap-x-3 border-t border-kashi/12 py-1.5 text-[14px] leading-snug"
             >
-              <dt className="font-mono text-micro uppercase tracking-[0.08em] text-kashi sm:w-[9rem]">
+              <dt className="font-sans text-[13px] font-medium capitalize text-kashi sm:w-[9rem]">
                 {phase}
               </dt>
               <dd className="text-debu-ink">{PHASE_BLURB[phase]}</dd>
             </div>
           ))}
           <div className="flex flex-wrap gap-x-3 border-t border-kashi/12 py-1.5 text-[14px] leading-snug">
-            <dt className="font-mono text-micro uppercase tracking-[0.08em] text-debu-ink sm:w-[9rem]">
+            <dt className="font-sans text-[13px] font-medium capitalize text-debu-ink sm:w-[9rem]">
               aside
             </dt>
             <dd className="text-debu-ink">

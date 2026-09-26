@@ -239,7 +239,11 @@ export default function PolityPage({ params }: { params: { id: string } }) {
 
             <Transfers lost={lost} gained={gained} />
 
-            <Contemporaries certain={certain} possible={possible} />
+            <Contemporaries
+              certain={certain}
+              possible={possible}
+              span={[p.span.start.min, p.span.end.max]}
+            />
 
             <PolityMap polity={p} />
 

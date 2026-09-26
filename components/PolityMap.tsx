@@ -49,7 +49,7 @@ export function PolityMap({ polity }: { polity: Polity }) {
         ground="paper"
         id="map-heading"
         aside={
-          <span className="font-mono text-micro uppercase text-debu-ink">
+          <span>
             An illustration, not a measurement
           </span>
         }
@@ -58,14 +58,14 @@ export function PolityMap({ polity }: { polity: Polity }) {
       </SectionHead>
 
       <div className="grid max-w-data gap-8 md:grid-cols-[minmax(0,1fr)_16rem] md:grid-rows-[auto_1fr] md:items-start md:gap-y-6">
-        <div className="overflow-hidden rounded border border-dawat-edge bg-dawat-sink">
+        <div className="overflow-hidden rounded-xl border border-dawat-edge bg-dawat-sink">
           <MapDrawing polity={polity} map={map} />
         </div>
         <div className="text-[15px] leading-relaxed md:col-start-2 md:row-span-2 md:row-start-1">
           {/* Never in a footnote. The polygon is not the peak. */}
           {clio && map.range ? (
             <>
-              <p className="font-mono text-micro uppercase text-debu-ink">Dataset years</p>
+              <p className="label text-debu-ink">Dataset years</p>
               <p className="mt-1 font-mono text-[22px] tabular-nums text-kashi-deep">
                 {formatYear(map.range[0])}–{formatYear(map.range[1])}
               </p>
@@ -87,7 +87,7 @@ export function PolityMap({ polity }: { polity: Polity }) {
             </>
           ) : (
             <>
-              <p className="font-mono text-micro uppercase text-debu-ink">Snapshot year</p>
+              <p className="label text-debu-ink">Snapshot year</p>
               <p className="mt-1 font-mono text-[22px] tabular-nums text-kashi-deep">
                 {formatYear(map.snapshotYear)}
               </p>
@@ -99,7 +99,7 @@ export function PolityMap({ polity }: { polity: Polity }) {
             </>
           )}
 
-          <p className="mt-6 font-mono text-micro uppercase text-debu-ink">Cited extent</p>
+          <p className="label mt-6 text-debu-ink">Cited extent</p>
           <p
             className={
               cited

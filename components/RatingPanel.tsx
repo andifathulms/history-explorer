@@ -60,7 +60,7 @@ function AxisRow({
   return (
     <div className="border-t border-kashi/15 py-4">
       <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
-        <h3 className="font-mono text-[13px] uppercase tracking-[0.08em] text-kashi">
+        <h3 className="label text-kashi">
           {label}
         </h3>
         <p className="font-mono text-[15px] tabular-nums text-ink">{figure}</p>
@@ -112,12 +112,14 @@ export function RatingPanel({
         onClick={() => setOpen((o) => !o)}
         aria-expanded={open}
         aria-controls="rating-body"
-        className="group flex w-full items-baseline justify-between gap-4 border-t border-kashi/25 py-5 text-left"
+        className="group flex w-full flex-wrap items-baseline justify-between gap-x-4 gap-y-1 border-t border-kashi/20 pb-5 pt-6 text-left"
       >
-        <span className="kicker text-debu-ink transition-colors group-hover:text-firuze-ink">
+        {/* Set as the section headings are, so the collapsed panel reads as the
+            page's last section rather than as a footnote. */}
+        <span className="font-display text-[clamp(1.45rem,1.2rem+0.9vw,1.85rem)] font-semibold leading-tight text-kashi-deep transition-colors group-hover:text-firuze-ink">
           Rating
         </span>
-        <span className="font-mono text-micro uppercase text-kashi">
+        <span className="font-sans text-[13px] text-debu-ink">
           {r.totalProvenance}{' '}
           <span aria-hidden="true" className="ms-2 inline-block text-firuze-ink">
             {open ? '−' : '+'}
@@ -183,7 +185,7 @@ export function RatingPanel({
             bar between them, because they are not one quantity. Only the reader's
             sliders on the rankings view may combine them. */}
         <div className="border-t border-kashi/15 py-4">
-          <h3 className="font-mono text-[13px] uppercase tracking-[0.08em] text-kashi">
+          <h3 className="label text-kashi">
             Influence
           </h3>
           <p className="mt-2 max-w-measure text-[15px] leading-relaxed text-debu-ink">
@@ -195,7 +197,7 @@ export function RatingPanel({
               const c = r.influence.counts[k]
               return (
                 <div key={k}>
-                  <p className="font-mono text-micro uppercase text-debu-ink">
+                  <p className="label text-debu-ink">
                     {INFLUENCE_LABELS[k]}
                   </p>
                   <p
@@ -218,7 +220,7 @@ export function RatingPanel({
 
         <div className="border-t border-kashi/30 py-4">
           <div className="flex flex-wrap items-baseline justify-between gap-x-4">
-            <h3 className="font-mono text-[13px] uppercase tracking-[0.08em] text-kashi">
+            <h3 className="label text-kashi">
               Weighted total
             </h3>
             <p className="font-mono text-[15px] tabular-nums text-kashi-deep">

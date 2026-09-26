@@ -159,9 +159,14 @@ export function StatRow({
 }
 
 /**
- * A section heading inside a page: mono kicker over a hairline. Used wherever
- * a page changes subject — succession, facts, the map — so the eye can find
- * the joins in a long polity page without the headings shouting.
+ * A section heading inside a page: a display title over a hairline, with an
+ * optional aside on the right. Used wherever a page changes subject —
+ * succession, facts, the map — so the eye can find the joins in a long page.
+ *
+ * It was a 12px uppercase mono kicker, which kept the headings from shouting
+ * and also kept them from being found: on a polity page ten sections all
+ * opened on the same small grey capitals as every label inside them. A title
+ * in the display face at a modest size is still quiet, and it is a heading.
  */
 export function SectionHead({
   children,
@@ -177,14 +182,23 @@ export function SectionHead({
   const dark = ground === 'dark'
   return (
     <div
-      className={`flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1 border-t pb-4 pt-4 ${
-        dark ? 'border-dawat-edge' : 'border-kashi/15'
+      className={`mb-6 flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1 border-t pt-6 ${
+        dark ? 'border-dawat-edge' : 'border-kashi/20'
       }`}
     >
-      <h2 id={id} className={`kicker ${dark ? 'text-debu-paper' : 'text-debu-ink'}`}>
+      <h2
+        id={id}
+        className={`scroll-mt-36 font-display text-[clamp(1.45rem,1.2rem+0.9vw,1.85rem)] font-semibold leading-tight ${
+          dark ? 'text-kaghaz' : 'text-kashi-deep'
+        }`}
+      >
         {children}
       </h2>
-      {aside}
+      {aside ? (
+        <div className={`font-sans text-[13px] ${dark ? 'text-debu-paper' : 'text-debu-ink'}`}>
+          {aside}
+        </div>
+      ) : null}
     </div>
   )
 }

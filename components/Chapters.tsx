@@ -129,33 +129,21 @@ async function One({ chapter }: { chapter: Chapter }) {
           "Chapters" and "The rise of the Samanids" as peers while the page set
           one at 12px mono uppercase and the other at 30px display. The outline
           and the type scale now agree about which contains which. */}
-      <h3 className="font-display text-chapter text-kashi-deep">
+      <h3 className="font-display text-chapter text-kashi-deep [text-wrap:balance]">
         {chapter.title}
       </h3>
 
       {/* Hard rule 4: every chapter names its source, on the page, in the
           reading flow. Provenance in a footnote is provenance nobody reads. */}
-      <p className="mt-3 max-w-measure border-b border-kashi/20 pb-3 text-[14.5px] leading-relaxed text-debu-ink">
-        <span className="font-mono text-micro uppercase">Drafted from</span>{" "}
-        <cite className="not-italic">{citeShort(chapter.drafted_from)}</cite>
-        {source?.url ? (
-          <>
-            {" · "}
-            <a
-              href={source.url}
-              className="underline underline-offset-2 hover:text-firuze-ink"
-              rel="noreferrer"
-            >
-              source
-            </a>
-          </>
-        ) : null}
+      <p className="mt-3 flex max-w-measure flex-wrap items-center gap-x-3 gap-y-2 border-b border-kashi/20 pb-3.5 font-sans text-[13.5px] leading-relaxed text-debu-ink">
         {chapter.phase ? (
           <span
-            className={`ms-3 rounded-full px-2 py-0.5 font-mono text-micro uppercase not-italic ${
+            className={`inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-[12px] font-medium capitalize leading-none ${
               chapter.phase === ASIDE
-                ? "border border-dashed border-kashi/25 text-debu-ink"
-                : "border border-kashi/20"
+                ? "border border-dashed border-kashi/30 text-debu-ink"
+                : chapter.phase === "peak"
+                  ? "bg-zarrin/15 text-zarrin-ink"
+                  : "bg-kashi-wash text-kashi"
             }`}
           >
             {chapter.phase}
@@ -168,11 +156,40 @@ async function One({ chapter }: { chapter: Chapter }) {
             ) : null}
           </span>
         ) : null}
+        <span>
+          Drafted from{" "}
+          <cite className="font-latin text-[14.5px] italic text-ink">
+            {citeShort(chapter.drafted_from)}
+          </cite>
+          {source?.url ? (
+            <>
+              {" · "}
+              <a
+                href={source.url}
+                className="underline underline-offset-2 hover:text-firuze-ink"
+                rel="noreferrer"
+              >
+                source
+              </a>
+            </>
+          ) : null}
+        </span>
       </p>
 
       {content}
     </article>
   );
+}
+
+/**
+ * Reading time, at 230 words a minute. A property of the text on the page,
+ * not a figure about the past, so rule 2's ban on estimates is not in play —
+ * but it is rounded to whole minutes and never shown below one, so it does
+ * not pretend to more precision than a reader's own pace allows.
+ */
+function minutes(chapters: Chapter[]): number {
+  const words = chapters.reduce((n, c) => n + c.body.split(/\s+/).filter(Boolean).length, 0);
+  return Math.max(1, Math.round(words / 230));
 }
 
 export async function Chapters({ chapters }: { chapters: Chapter[] }) {
@@ -182,8 +199,9 @@ export async function Chapters({ chapters }: { chapters: Chapter[] }) {
         ground="paper"
         id="chapters-heading"
         aside={
-          <span className="font-mono text-micro uppercase text-debu-ink">
-            {chapters.length} in order
+          <span>
+            <span className="font-mono tabular-nums">{chapters.length}</span> in order · about{" "}
+            <span className="font-mono tabular-nums">{minutes(chapters)}</span> minutes
           </span>
         }
       >
@@ -203,41 +221,58 @@ export async function Chapters({ chapters }: { chapters: Chapter[] }) {
           wanted is the right price; a screen and a half when it is not is not. */}
       <Spine chapters={chapters} />
 
-      {chapters.length > 2 ? (
-        <nav aria-label="Chapters" className="mt-10 mb-14">
-          {/* Open. It was folded to buy a phone reader the screen and a half
-              of furniture that the spine plus thirteen rows cost them, but a
-              contents list nobody can see is a contents list nobody uses, and
-              on the page this is the index. The spine above it is a picture of
-              the arc; this is the list of what to read. */}
-          <details open>
-            <summary className="inline-block cursor-pointer py-2 font-mono text-micro uppercase tracking-[0.08em] text-firuze-ink hover:text-kashi">
-              Contents &mdash; {chapters.length} chapters
-            </summary>
-            <ol className="mt-2 grid gap-x-8 gap-y-1 sm:grid-cols-2">
-              {chapters.map((c, i) => (
-                // The whole row is the link, not the title inside it. It was a
-                // 36px target with a hit area that stopped at the last letter of
-                // the title, on the page's primary index.
-                <li key={c.slug} className="border-b border-kashi/10">
-                  <a
-                    href={`#${c.slug}`}
-                    className="group flex items-baseline gap-3 py-3 text-[16px] text-kashi hover:text-firuze-ink"
+      {/* The contents, as cards: number, phase, title, length and source.
+          It was a folded list, then an open one; either way it was thirteen
+          rows of the same grey. A card per chapter lets a reader see the arc
+          they are about to read — where the peak chapters are, which is long,
+          what each was drafted from — and the first one says where to begin. */}
+      {chapters.length > 1 ? (
+        <nav aria-label="Chapters" className="mb-14 mt-8">
+          <ol className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
+            {chapters.map((c, i) => (
+              <li key={c.slug} className="min-w-0">
+                <a
+                  href={`#${c.slug}`}
+                  className={`group flex h-full flex-col rounded-xl border px-4 pb-3.5 pt-3.5 transition-[box-shadow,border-color] ${
+                    i === 0
+                      ? "border-kashi-deep bg-kashi-deep text-kaghaz hover:shadow-paper-lift"
+                      : "border-kashi/10 bg-kaghaz-raise hover:border-kashi/25 hover:shadow-paper"
+                  }`}
+                >
+                  <span
+                    className={`flex items-baseline justify-between gap-3 font-sans text-[12px] font-medium capitalize ${
+                      i === 0
+                        ? "text-kaghaz/70"
+                        : c.phase === "peak"
+                          ? "text-zarrin-ink"
+                          : "text-debu-ink"
+                    }`}
                   >
-                    <span className="font-mono text-micro tabular-nums text-debu-ink">
+                    {c.phase ?? "\u00A0"}
+                    <span className="font-mono tabular-nums">
                       {String(i + 1).padStart(2, "0")}
                     </span>
-                    <span className="link-underline">{c.title}</span>
-                    {c.phase ? (
-                      <span className="ms-auto ps-3 font-mono text-micro uppercase text-debu-ink">
-                        {c.phase}
-                      </span>
-                    ) : null}
-                  </a>
-                </li>
-              ))}
-            </ol>
-          </details>
+                  </span>
+                  <span
+                    className={`mt-2 font-display text-[17px] font-semibold leading-snug [text-wrap:balance] ${
+                      i === 0 ? "text-kaghaz" : "text-kashi-deep group-hover:text-firuze-ink"
+                    }`}
+                  >
+                    {c.title}
+                  </span>
+                  <span
+                    className={`mt-auto pt-3 font-sans text-[12.5px] ${
+                      i === 0 ? "text-kaghaz/70" : "text-debu-ink"
+                    }`}
+                  >
+                    {i === 0 ? "Start reading · " : ""}
+                    <span className="font-mono tabular-nums">{minutes([c])}</span> min ·{" "}
+                    {citeShort(c.drafted_from)}
+                  </span>
+                </a>
+              </li>
+            ))}
+          </ol>
         </nav>
       ) : (
         <div className="mb-14" />

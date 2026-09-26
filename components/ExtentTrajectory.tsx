@@ -80,7 +80,7 @@ export function ExtentTrajectory({ polity }: { polity: Polity }) {
         ground="paper"
         id="extent-heading"
         aside={
-          <span className="font-mono text-micro uppercase text-debu-ink">
+          <span>
             {points.length} cited figures
           </span>
         }
