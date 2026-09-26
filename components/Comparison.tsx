@@ -284,7 +284,7 @@ export function Comparison({
           ) : null}
 
           {eraGapped ? (
-            <p className="mb-5 max-w-measure border-s-2 border-zarrin-ink ps-4 text-[15px] text-debu-ink">
+            <p className="card-paper mb-5 max-w-measure px-5 py-4 text-[15px] text-debu-ink">
               Era-normalised reach reads as a gap for every polity here. The denominator
               it needs — world land under state control at a given date — is not carried
               by any source this site cites, and summing the reference set to manufacture

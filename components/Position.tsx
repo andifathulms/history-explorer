@@ -56,8 +56,12 @@ const CONTESTED =
  * place outside the thread itself that turquoise is used: this section is the
  * polity's piece of a thread.
  */
+//
+// Only the first card in each column carries the connector. It sits level with
+// the polity in the middle; a connector on every card pointed the lower ones at
+// empty page.
 const EDGE_CARD =
-  'card-paper relative px-4 py-3.5 before:absolute before:top-5 before:hidden before:h-[2px] before:w-6 before:bg-firuze lg:before:block'
+  'card-paper relative px-4 py-3.5 before:absolute before:top-5 before:hidden before:h-[2px] before:w-6 before:bg-firuze lg:first:before:block'
 
 function ExternalRow({ item, polity }: { item: ExternalNeighbour; polity: string }) {
   return (
@@ -175,7 +179,7 @@ function Resumption({ earlier, later }: { earlier?: Polity; later?: Polity }) {
   if (!other) return null
   const when = formatRange(other.span.start.min, other.span.end.max)
   return (
-    <p className="mb-8 max-w-measure border-l-2 border-kashi/30 pl-4 text-body text-debu-ink">
+    <p className="card-paper mb-8 max-w-measure px-5 py-4 text-body text-debu-ink">
       {earlier ? 'The same polity, earlier: ' : 'The same polity, later: '}
       {hasPage(other.id) ? (
         <Link
@@ -285,7 +289,10 @@ export function Position({
           )}
         </div>
 
-        <div className="lg:sticky lg:top-40 lg:pt-8">
+        {/* Not sticky. It was, and the neighbours' connectors are fixed to their
+            cards, so while the page scrolled the centre slid away from the
+            lines pointing at it and parked wherever the shorter column ended. */}
+        <div>
           <div className="rounded-xl bg-kashi-deep px-4 py-4 text-center text-kaghaz shadow-paper">
             <p className="font-display text-[18px] font-semibold leading-tight">{name}</p>
             <p className="mt-1 font-mono text-[12px] tabular-nums text-kaghaz/70">

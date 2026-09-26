@@ -89,7 +89,7 @@ export function PageNav({ sections }: { sections: NavSection[] }) {
   return (
     <nav aria-label="On this page">
       <p className="label border-b border-kashi/15 pb-2.5 text-debu-ink">On this page</p>
-      <ol className="mt-1">
+      <ol className="mt-2 space-y-0.5">
         {sections.map((s) => {
           const here = s.id === active
           return (
@@ -97,10 +97,10 @@ export function PageNav({ sections }: { sections: NavSection[] }) {
               <a
                 href={`#${s.id}`}
                 aria-current={here ? 'true' : undefined}
-                className={`block border-s-2 py-[5px] ps-3 font-sans text-[13.5px] leading-snug transition-colors ${
+                className={`block rounded-md px-2.5 py-[6px] font-sans text-[13.5px] leading-snug transition-colors ${
                   here
-                    ? 'border-firuze-ink text-firuze-ink'
-                    : 'border-kashi/15 text-debu-ink hover:border-kashi/40 hover:text-kashi'
+                    ? 'bg-kaghaz-raise font-medium text-kashi-deep shadow-paper'
+                    : 'text-debu-ink hover:bg-kaghaz-raise/70 hover:text-kashi-deep'
                 }`}
               >
                 {s.label}

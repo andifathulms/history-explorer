@@ -168,7 +168,7 @@ export function RegionNav({ groups }: { groups: NavGroup[] }) {
                         aria-current={here ? 'true' : undefined}
                         className={`flex items-baseline gap-2 rounded-md px-2.5 py-[6px] text-[13.5px] leading-snug transition-colors ${
                           here
-                            ? 'bg-kaghaz-raise font-medium text-kashi-deep shadow-[inset_2px_0_0_theme(colors.firuze-ink)]'
+                            ? 'bg-kaghaz-raise font-medium text-kashi-deep shadow-paper'
                             : 'text-debu-ink hover:bg-kaghaz-raise/70 hover:text-kashi-deep'
                         }`}
                       >

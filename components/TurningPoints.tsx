@@ -3,6 +3,7 @@ import { formatYear } from '@/lib/years'
 import { citeShort } from '@/lib/content'
 import { SectionHead } from '@/components/Shell'
 import { Hint } from '@/components/Hint'
+import { sentenceCase } from '@/lib/text'
 
 /**
  * Dated hinges in the polity's life.
@@ -102,8 +103,8 @@ export function TurningPoints({ polity }: { polity: Polity }) {
                     `title` is a hover delay, no keyboard focus and nothing at
                     all on touch, which put a closed vocabulary out of reach of
                     every reader on a phone. */}
-                <span className="inline-flex items-center gap-1 rounded-full bg-kashi-wash px-2.5 py-1 font-sans text-[12px] font-medium capitalize leading-none text-kashi">
-                  {t.type.replace(/-/g, ' ')}
+                <span className="inline-flex items-center gap-1 rounded-full bg-kashi-wash px-2.5 py-1 font-sans text-[12px] font-medium leading-none text-kashi">
+                  {sentenceCase(t.type)}
                   <Hint label={t.type.replace(/-/g, ' ')}>{TYPE_HINT[t.type]}</Hint>
                 </span>
                 {t.contested ? (

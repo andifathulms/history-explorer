@@ -3,6 +3,7 @@ import { formatYear, formatSpan } from '@/lib/years'
 import { NO_FIGURE } from '@/lib/gaps'
 import { citeShort } from '@/lib/content'
 import { scriptLang } from '@/lib/scripts'
+import { sentenceCase } from '@/lib/text'
 import { SectionHead } from '@/components/Shell'
 
 /**
@@ -79,26 +80,46 @@ function Rulers({ polity: p }: { polity: Polity }) {
   const pct = (y: number) => Math.min(100, Math.max(0, ((y - a0) / (a1 - a0)) * 100))
   const drawn = ROLES.some((r) => p.rulers[r.key]?.reign)
 
+  // One person in more than one role — Muhammad founded the Medinan
+  // community, led it at its height and was its last head — is one entry
+  // with every role named, not the same name printed three times, and one
+  // bar rather than three stacked on each other.
+  type Key = (typeof ROLES)[number]['key']
+  const entries: { keys: Key[]; labels: string[]; r: Ruler | null }[] = []
+  for (const { key, label } of ROLES) {
+    const r = p.rulers[key]
+    const same = r
+      ? entries.find(
+          (e) => e.r && e.r.name === r.name && (e.r.reign?.join() ?? '') === (r.reign?.join() ?? ''),
+        )
+      : undefined
+    if (same) {
+      same.keys.push(key)
+      same.labels.push(label.toLowerCase())
+    } else entries.push({ keys: [key], labels: [label], r })
+  }
+  const cols = entries.length === 3 ? 'sm:grid-cols-3' : entries.length === 2 ? 'sm:grid-cols-2' : ''
+
   return (
     <div>
-      <ol className="grid gap-x-6 gap-y-4 sm:grid-cols-3">
-        {ROLES.map(({ key, label }) => {
-          const r = p.rulers[key]
+      <ol className={`grid gap-x-6 gap-y-4 ${cols}`}>
+        {entries.map(({ keys, labels, r }) => {
+          const peak = keys.includes('peak')
           return (
-            <li key={key} className="min-w-0">
-              <p
-                className={`font-sans text-[12px] font-medium ${
-                  key === 'peak' ? 'text-zarrin-ink' : 'text-debu-ink'
-                }`}
-              >
-                {label}
+            <li key={keys.join()} className="min-w-0">
+              <p className={`font-sans text-[12px] font-medium ${peak ? 'text-zarrin-ink' : 'text-debu-ink'}`}>
+                {labels.length > 1
+                  ? `${labels.slice(0, -1).join(', ')} and ${labels[labels.length - 1]}`
+                  : labels[0]}
                 {r?.reign ? (
                   <span className="ms-1.5 font-mono text-[11.5px] font-normal tabular-nums">
                     r. {formatSpan(r.reign[0], r.reign[1])}
                   </span>
                 ) : null}
               </p>
-              <div className="mt-1">{r ? <RulerName r={r} declared={p.name.script_lang} /> : <Gap />}</div>
+              <div className="mt-1">
+                {r ? <RulerName r={r} declared={p.name.script_lang} /> : <Gap />}
+              </div>
             </li>
           )
         })}
@@ -108,13 +129,13 @@ function Rulers({ polity: p }: { polity: Polity }) {
         <figure className="mt-5">
           <div aria-hidden="true" className="relative h-3">
             <span className="absolute inset-x-0 top-[5px] h-[2px] rounded-full bg-kashi-wash" />
-            {ROLES.map(({ key }) => {
-              const reign = p.rulers[key]?.reign
+            {entries.map(({ keys, r }) => {
+              const reign = r?.reign
               if (!reign) return null
               return (
                 <span
-                  key={key}
-                  className={`absolute top-0 h-3 rounded-[3px] ${key === 'peak' ? 'bg-zarrin' : 'bg-kashi'}`}
+                  key={keys.join()}
+                  className={`absolute top-0 h-3 rounded-[3px] ${keys.includes('peak') ? 'bg-zarrin' : 'bg-kashi'}`}
                   style={{
                     left: `${pct(reign[0])}%`,
                     width: `${Math.max(0.8, pct(reign[1]) - pct(reign[0]))}%`,
@@ -215,8 +236,8 @@ export function Facts({ polity }: { polity: Polity }) {
         <Panel label="How it ended" className="md:col-span-2">
           {p.ended ? (
             <>
-              <span className="block font-display text-[21px] font-semibold capitalize leading-tight text-kashi-deep">
-                {p.ended.type}
+              <span className="block font-display text-[21px] font-semibold leading-tight text-kashi-deep">
+                {sentenceCase(p.ended.type)}
               </span>
               {p.ended.year ? (
                 <span className="mt-1 block font-mono text-[13px] tabular-nums text-debu-ink">
