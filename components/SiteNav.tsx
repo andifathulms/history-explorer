@@ -64,11 +64,10 @@ export function SiteNav({ ground, current }: { ground: 'dark' | 'paper'; current
   const hover = dark
     ? 'hover:bg-dawat-lift hover:text-kaghaz'
     : 'hover:bg-kaghaz-raise hover:text-kashi-deep'
-  // The current section is a filled pill with a turquoise underline, rather
-  // than a colour change alone.
-  const live = dark
-    ? 'bg-dawat-lift text-kaghaz shadow-[inset_0_-2px_0_theme(colors.firuze.bright)]'
-    : 'bg-kaghaz-raise text-kashi-deep shadow-[inset_0_-2px_0_theme(colors.firuze-ink)]'
+  // The current section is a filled pill, rather than a colour change alone.
+  // Nothing under it: an underline on a rounded pill was two indicators for
+  // one state.
+  const live = dark ? 'bg-dawat-lift text-kaghaz' : 'bg-kashi-wash text-kashi-deep'
 
   return (
     <header

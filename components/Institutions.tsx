@@ -76,7 +76,20 @@ const VALUE_HINT: Record<string, string> = {
   titulature: "A predecessor's title taken as one's own ground",
 }
 
-function Card({
+/**
+ * One question and its answer, as a row.
+ *
+ * These were four cards side by side, and a grid of cards is as tall as its
+ * tallest: one coded field with two values and their definitions stretched
+ * three uncoded neighbours into tall empty boxes, and a polity with nothing
+ * coded got four. A row is as tall as its own answer, so an uncoded field
+ * takes one line and still says so plainly, and the question sits in a
+ * column the eye can run down.
+ *
+ * Values are chips in the vocabulary's own lower case. Title-casing them made
+ * "Divine Sanction" read as a proper noun.
+ */
+function Row({
   label,
   hint,
   coded,
@@ -86,40 +99,34 @@ function Card({
   coded: InstitutionsData[keyof InstitutionsData]
 }) {
   return (
-    <div className="card-paper flex min-w-0 flex-col px-5 py-4">
+    <div className="grid gap-x-8 gap-y-2 px-5 py-4 sm:px-6 md:grid-cols-[15rem_minmax(0,1fr)]">
       <dt>
-        <span className="label block text-kashi">{label}</span>
-        <span className="mt-1 block font-sans text-[12.5px] leading-snug text-debu-ink">{hint}</span>
+        <span className="block font-sans text-[14.5px] font-semibold text-kashi-deep">{label}</span>
+        <span className="mt-0.5 block font-sans text-[12.5px] leading-snug text-debu-ink">{hint}</span>
       </dt>
-      <dd className="mt-3 flex flex-1 flex-col">
+      <dd className="min-w-0">
         {coded ? (
           <>
-            <span className="font-display text-[20px] font-semibold capitalize leading-snug text-kashi-deep">
-              {coded.values.map((v) => v.replace(/-/g, ' ')).join(' · ')}
-            </span>
-            {/* What the words mean, on the page rather than under a hover.
-                The term is repeated only where there is more than one, since
-                a definition has to say which value it defines. */}
-            <ul className="mt-1.5 space-y-0.5">
-              {coded.values.map((v) =>
-                VALUE_HINT[v] ? (
-                  <li key={v} className="font-sans text-[13.5px] leading-snug text-debu-ink">
-                    {coded.values.length > 1 ? (
-                      <>
-                        <span className="text-kashi">{v.replace(/-/g, ' ')}</span> &mdash;{' '}
-                      </>
-                    ) : null}
-                    {VALUE_HINT[v]}
-                  </li>
-                ) : null,
-              )}
+            {/* Each value with what it means beside it, on the page rather
+                than under a hover. */}
+            <ul className="space-y-1.5">
+              {coded.values.map((v) => (
+                <li key={v} className="flex flex-wrap items-baseline gap-x-2.5 gap-y-1">
+                  <span className="shrink-0 rounded-md bg-kashi-wash px-2.5 py-1.5 font-sans text-[14px] font-semibold leading-none text-kashi-deep">
+                    {v.replace(/-/g, ' ')}
+                  </span>
+                  {VALUE_HINT[v] ? (
+                    <span className="min-w-0 text-[15.5px] leading-snug text-ink">{VALUE_HINT[v]}</span>
+                  ) : null}
+                </li>
+              ))}
             </ul>
-            <cite className="mt-auto block pt-3 font-latin text-[13.5px] italic leading-snug text-debu-ink">
+            <cite className="mt-2 block font-sans text-[12.5px] not-italic text-debu-ink">
               {citeShort(coded.source)}
             </cite>
           </>
         ) : (
-          <span className="font-latin text-[17px] italic text-debu-ink">{NO_FIGURE}</span>
+          <span className="font-latin text-[16px] italic text-debu-ink">{NO_FIGURE}</span>
         )}
       </dd>
     </div>
@@ -145,12 +152,9 @@ export function Institutions({ polity }: { polity: Polity }) {
         How it was governed
       </SectionHead>
 
-      {/* Four cards, each a question and its answer. A missing answer keeps
-          its card and says so at the same size as a present one: an empty
-          card next to three full ones is the honest picture. */}
-      <dl className="grid gap-3.5 sm:grid-cols-2 xl:grid-cols-4">
+      <dl className="card-paper divide-y divide-kashi/10 overflow-hidden">
         {FIELDS.map((f) => (
-          <Card key={f.key} label={f.label} hint={f.hint} coded={inst[f.key]} />
+          <Row key={f.key} label={f.label} hint={f.hint} coded={inst[f.key]} />
         ))}
       </dl>
 

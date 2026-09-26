@@ -159,8 +159,10 @@ export function StatRow({
 }
 
 /**
- * A section heading inside a page: a display title over a hairline, with an
- * optional aside on the right. Used wherever a page changes subject —
+ * A section heading inside a page: a display title with an optional aside on
+ * the right. No rule above it — the space before a section and the title's
+ * own size mark the join, and a hairline over every heading on a ten-section
+ * page read as ruled paper rather than as structure. Used wherever a page changes subject —
  * succession, facts, the map — so the eye can find the joins in a long page.
  *
  * It was a 12px uppercase mono kicker, which kept the headings from shouting
@@ -181,11 +183,7 @@ export function SectionHead({
 }) {
   const dark = ground === 'dark'
   return (
-    <div
-      className={`mb-6 flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1 border-t pt-6 ${
-        dark ? 'border-dawat-edge' : 'border-kashi/20'
-      }`}
-    >
+    <div className="mb-6 flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1">
       <h2
         id={id}
         className={`scroll-mt-36 font-display text-[clamp(1.45rem,1.2rem+0.9vw,1.85rem)] font-semibold leading-tight ${

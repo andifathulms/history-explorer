@@ -112,7 +112,7 @@ export function RatingPanel({
         onClick={() => setOpen((o) => !o)}
         aria-expanded={open}
         aria-controls="rating-body"
-        className="group flex w-full flex-wrap items-baseline justify-between gap-x-4 gap-y-1 border-t border-kashi/20 pb-5 pt-6 text-left"
+        className="group flex w-full flex-wrap items-baseline justify-between gap-x-4 gap-y-1 pb-5 text-left"
       >
         {/* Set as the section headings are, so the collapsed panel reads as the
             page's last section rather than as a footnote. */}
