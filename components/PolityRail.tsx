@@ -58,9 +58,17 @@ export function PolityRail({
   // rail printed start.min at a y computed from start.max, so the Ghurids'
   // 879 sat where 1011 belongs and the column read as though it were unsorted.
   // A number beside a time axis has to be the number that position means.
-  const RAIL_X = 60
-  const NAME_X = 76
+  //
+  // A BC range such as "1595–1530 BC" is wider than that gutter and ran into
+  // the rail itself, so a thread holding one gets a wider gutter and the names
+  // a little less room.
+  const longest = Math.max(
+    ...polities.map((p) => formatRange(p.span.start.min, p.span.start.max).length),
+  )
+  const RAIL_X = longest > 9 ? 84 : 60
+  const NAME_X = RAIL_X + 16
   const W = 224
+  const nameChars = longest > 9 ? 17 : 21
   const y = (year: number) => PAD + ((year - first) / (last - first)) * (H - PAD * 2)
 
   const ordered = [...polities].sort((a, b) => a.span.start.min - b.span.start.min)
@@ -82,7 +90,7 @@ export function PolityRail({
    */
   const LINE = 13
   const rowsFor = (p: Polity) =>
-    wrapName(p.name.latin).length + (p.id === active.id ? 1 : 0)
+    wrapName(p.name.latin, nameChars).length + (p.id === active.id ? 1 : 0)
 
   const anchor = ordered.map((p) => y(p.span.start.max))
   const label: number[] = []
@@ -230,7 +238,7 @@ export function PolityRail({
                     <>
                       <circle cx={RAIL_X} cy={top} r={5} className="fill-firuze-ink" />
                       <text x={NAME_X} y={at + 4} className="fill-kashi text-[13px] font-semibold">
-                        {wrapName(p.name.latin).map((line, i) => (
+                        {wrapName(p.name.latin, nameChars).map((line, i) => (
                           <tspan key={i} x={NAME_X} dy={i === 0 ? 0 : 14}>
                             {line}
                           </tspan>
@@ -238,7 +246,7 @@ export function PolityRail({
                       </text>
                       <text
                         x={NAME_X}
-                        y={at + 4 + wrapName(p.name.latin).length * 16}
+                        y={at + 4 + wrapName(p.name.latin, nameChars).length * 16}
                         className="fill-debu-ink text-[11px] italic"
                       >
                         you are here
@@ -251,7 +259,7 @@ export function PolityRail({
                         y={at + 4}
                         className="fill-debu-ink text-[12px] hover:fill-firuze-ink"
                       >
-                        {wrapName(p.name.latin).map((line, i) => (
+                        {wrapName(p.name.latin, nameChars).map((line, i) => (
                           <tspan key={i} x={NAME_X} dy={i === 0 ? 0 : 13}>
                             {line}
                           </tspan>
@@ -262,7 +270,7 @@ export function PolityRail({
                     /* Context polity: on the rail for the shape of the era, but
                        it has no chapters and so no page to send the reader to. */
                     <text x={NAME_X} y={at + 4} className="fill-debu-ink/60 text-[12px]">
-                      {wrapName(p.name.latin).map((line, i) => (
+                      {wrapName(p.name.latin, nameChars).map((line, i) => (
                         <tspan key={i} x={NAME_X} dy={i === 0 ? 0 : 13}>
                           {line}
                         </tspan>
