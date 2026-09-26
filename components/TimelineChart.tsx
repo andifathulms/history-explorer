@@ -125,14 +125,14 @@ export function TimelineChart({
       </h2>
 
       {/* ---- Controls -------------------------------------------------- */}
-      <div className="border-t border-kashi/15 pt-6">
+      <div className="card-paper px-5 py-5 sm:px-6">
         <div className="grid gap-6 md:grid-cols-2">
           <div>
             {/* `block`. A <label> is inline and an <input> is inline-block, so
                 with nothing between them the two sat on one line and the
                 label ran straight into the box. The year control below only
                 escaped it because a <div> happens to stand between. */}
-            <label htmlFor="timeline-filter" className="kicker block text-debu-ink">
+            <label htmlFor="timeline-filter" className="label block text-kashi-deep">
               Filter the rows
             </label>
             <input
@@ -149,7 +149,7 @@ export function TimelineChart({
                   e.currentTarget.blur()
                 }
               }}
-              className="mt-3 w-full max-w-[22rem] border border-kashi/25 bg-kaghaz-raise px-3.5 py-2.5 text-[16px] text-kashi-deep placeholder:text-debu-ink/70 focus-visible:border-firuze-ink"
+              className="mt-3 w-full max-w-[24rem] rounded-lg border border-kashi/20 bg-kaghaz px-3.5 py-2.5 text-[16px] text-ink placeholder:text-debu-ink/70 focus-visible:border-firuze-ink"
             />
             <p aria-live="polite" className="mt-2 font-sans text-[12.5px] font-medium text-debu-ink">
               {q === '' ? (
@@ -163,7 +163,7 @@ export function TimelineChart({
           </div>
 
           <div>
-            <label htmlFor="timeline-year" className="kicker block text-debu-ink">
+            <label htmlFor="timeline-year" className="label block text-kashi-deep">
               Stand at a year
             </label>
             <div className="mt-3 flex items-center gap-4">
@@ -202,7 +202,7 @@ export function TimelineChart({
       </div>
 
       {/* ---- Key ------------------------------------------------------- */}
-      <div className="mt-8 flex flex-wrap gap-x-6 gap-y-2 border-t border-kashi/15 pt-5 font-sans text-[12.5px] font-medium text-debu-ink">
+      <div className="mt-6 flex flex-wrap gap-x-6 gap-y-2 font-sans text-[12.5px] font-medium text-debu-ink">
         <span className="flex items-center gap-2">
           <span className="inline-block h-2.5 w-6 rounded-full bg-kashi/70" /> cited span
         </span>
@@ -333,13 +333,16 @@ export function TimelineChart({
                         strokeWidth={1}
                       />
                     ) : null}
-                    {ticks.map((t) => (
+                    {ticks.map((t, i) => (
+                      // The first label starts at its tick rather than
+                      // centring on it: centred, "3000 BC" hung half off the
+                      // left edge of the SVG and read as "000 BC".
                       <text
                         key={t}
                         x={x(t)}
                         y={top + ROW - 18}
                         className="fill-debu-ink font-mono text-[11px] tabular-nums"
-                        textAnchor="middle"
+                        textAnchor={i === 0 && x(t) < 30 ? 'start' : 'middle'}
                       >
                         {tickLabel(t)}
                       </text>

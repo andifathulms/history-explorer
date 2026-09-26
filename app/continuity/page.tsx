@@ -55,37 +55,55 @@ export default function ContinuityIndex() {
           </PageHead>
 
         <section className="mt-16">
-          <h2 className="kicker border-t border-dawat-edge pt-5 text-debu-paper">Threads</h2>
-          <ul className="mt-2 grid gap-px border border-dawat-edge bg-dawat-edge md:grid-cols-2">
+          <h2 className="kicker text-debu-paper">Threads</h2>
+          {/* Separate cards, each opening on the thread in miniature: every
+              polity in the region as one hairline on the region's own axis,
+              in the thread's colour. The shape says more than the counts
+              beneath it — Egypt's is a staircase, the Caliphates' a fan. */}
+          <ul className="mt-5 grid gap-4 md:grid-cols-2">
             {threaded.map((r) => {
               const ps = politiesInRegion(r.id)
               const es = edgesInRegion(r.id)
               const from = Math.min(...ps.map((p) => p.span.start.min))
               const to = Math.max(...ps.map((p) => p.span.end.max))
+              const pct = (y: number) => ((y - from) / (to - from || 1)) * 100
               return (
-                <li key={r.id} className="bg-dawat">
+                <li key={r.id}>
                   <Link
                     href={`/continuity/${r.id}/`}
-                    className="group flex h-full flex-col p-7 transition-colors hover:bg-dawat-raise"
+                    className="card-dark group flex h-full flex-col rounded-xl p-6 hover:border-kashi-soft/60 sm:p-7"
                   >
+                    <div aria-hidden="true" className="relative mb-5 flex flex-col gap-[3px]">
+                      {ps.map((p) => (
+                        <span key={p.id} className="relative block h-[3px]">
+                          <span
+                            className={`absolute inset-y-0 rounded-full ${
+                              p.context_only ? 'bg-firuze/30' : 'bg-firuze'
+                            }`}
+                            style={{
+                              left: `${pct(p.span.start.min)}%`,
+                              width: `${Math.max(0.8, pct(p.span.end.max) - pct(p.span.start.min))}%`,
+                            }}
+                          />
+                        </span>
+                      ))}
+                    </div>
                     <h3 className="font-display text-[24px] font-semibold text-kaghaz transition-colors group-hover:text-firuze-bright">
                       {r.name}
                     </h3>
-                    <p className="mt-2 font-mono text-micro uppercase tabular-nums text-firuze">
-                      {formatSpan(from, to)} · {ps.length} polities · {es.length} edge
+                    <p className="mt-1.5 font-sans text-[13px] text-kaghaz/60">
+                      <span className="font-mono tabular-nums">{formatSpan(from, to)}</span> ·{' '}
+                      <span className="font-mono tabular-nums">{ps.length}</span> polities ·{' '}
+                      <span className="font-mono tabular-nums">{es.length}</span> edge
                       {es.length === 1 ? '' : 's'}
                     </p>
-                    <p className="mt-4 text-[16px] leading-relaxed text-debu-paper">{r.blurb}</p>
+                    <p className="mt-3 line-clamp-4 text-[16px] leading-relaxed text-debu-paper">
+                      {r.blurb}
+                    </p>
                   </Link>
                 </li>
               )
             })}
-            {/* An odd number of threads leaves the tinted parent showing where a
-                card should be. One filler closes the rectangle; it is
-                decoration, so it is hidden from the accessibility tree. */}
-            {threaded.length % 2 === 1 ? (
-              <li aria-hidden className="hidden bg-dawat md:block" />
-            ) : null}
           </ul>
         </section>
 

@@ -102,28 +102,25 @@ export default function Home() {
 
         <Shell className="py-16 sm:py-20">
           <h2 className="kicker text-debu-paper">Six ways in</h2>
-          <ul className="mt-8 grid gap-px border border-dawat-edge bg-dawat-edge sm:grid-cols-2 lg:grid-cols-3">
-            {sections.map((s, i) => (
-              <li key={s.href} className="bg-dawat">
+          {/* Six separate cards rather than one ruled grid, and no 01–06: the
+              sections are not a sequence, and numbering them said they were.
+              The count is plain paper-tone text, because turquoise belongs to
+              the thread. No lift on hover — DESIGN.md keeps the hub still — only
+              the title and the arrow answer the pointer. */}
+          <ul className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {sections.map((s) => (
+              <li key={s.href}>
                 <Link
                   href={s.href}
-                  className="group flex h-full flex-col p-7 transition-colors hover:bg-dawat-raise"
+                  className="card-dark group flex h-full flex-col rounded-xl p-7 hover:border-kashi-soft/60"
                 >
-                  <div className="flex items-baseline justify-between gap-4">
-                    <h3 className="font-display text-[26px] font-semibold text-kaghaz transition-colors group-hover:text-firuze-bright">
-                      {s.title}
-                    </h3>
-                    <span className="font-sans text-[12.5px] font-medium text-debu-paper">
-                      {String(i + 1).padStart(2, '0')}
-                    </span>
-                  </div>
-                  <p className="mt-1.5 font-sans text-[12.5px] font-medium text-firuze">{s.count}</p>
+                  <h3 className="font-display text-[26px] font-semibold text-kaghaz transition-colors group-hover:text-firuze-bright">
+                    {s.title}
+                  </h3>
+                  <p className="mt-1.5 font-sans text-[13px] font-medium text-kaghaz/60">{s.count}</p>
                   <p className="mt-4 text-[16px] leading-relaxed text-debu-paper">{s.body}</p>
-                  <span
-                    aria-hidden="true"
-                    className="mt-6 font-sans text-[12.5px] font-medium text-kaghaz/45 transition-colors group-hover:text-firuze-bright"
-                  >
-                    Open →
+                  <span className="mt-auto pt-6 font-sans text-[13.5px] font-semibold text-kaghaz/70 transition-colors group-hover:text-firuze-bright">
+                    Open {s.title.toLowerCase()} <span aria-hidden="true">→</span>
                   </span>
                 </Link>
               </li>
