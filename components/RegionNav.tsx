@@ -40,7 +40,10 @@ export function RegionNav({ groups }: { groups: NavGroup[] }) {
   const flat = groups.flatMap((g) => g.regions)
   const threaded = flat.filter((r) => r.thread).length
   const [active, setActive] = useState<string | null>(flat[0]?.id ?? null)
-  const [opened, setOpened] = useState<Set<string>>(() => new Set())
+  // What the reader has chosen for each group, where they have chosen. A
+  // group with no choice follows the scroll: open while it holds the region
+  // being read, folded otherwise.
+  const [chosen, setChosen] = useState<Map<string, boolean>>(() => new Map())
   const box = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
@@ -123,9 +126,10 @@ export function RegionNav({ groups }: { groups: NavGroup[] }) {
 
         {groups.map((g) => {
           // Fifty-seven rows do not fit a viewport, so groups fold. The one the
-          // reader is standing in is always open; the rest open on request and
-          // stay open until closed.
-          const open = g.id === activeGroup || opened.has(g.id)
+          // reader is standing in opens by itself, and any group — that one
+          // included — stays however the reader last set it. It used to be
+          // forced open, so the group you were reading could not be closed.
+          const open = chosen.get(g.id) ?? g.id === activeGroup
           const count = g.regions.reduce((n, r) => n + r.count, 0)
           return (
             <div key={g.id} className="border-b border-kashi/10 py-1.5">
@@ -134,12 +138,7 @@ export function RegionNav({ groups }: { groups: NavGroup[] }) {
                 aria-expanded={open}
                 aria-controls={`rnav-${g.id}`}
                 onClick={() =>
-                  setOpened((prev) => {
-                    const next = new Set(prev)
-                    if (next.has(g.id)) next.delete(g.id)
-                    else next.add(g.id)
-                    return next
-                  })
+                  setChosen((prev) => new Map(prev).set(g.id, !open))
                 }
                 className="flex w-full items-center justify-between gap-3 rounded-md py-1.5 text-left text-[13px] font-semibold leading-snug text-kashi-deep"
               >
