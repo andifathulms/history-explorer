@@ -392,6 +392,74 @@ Run this over a polity that was drafted before these rules existed.
    autonomy law gave the province the sultanate's own name back. None of that is
    the polity, and all of it is what the polity became.
 
+## Frontend standards
+
+Binding for every change to `app/`, `components/` and `app/globals.css`,
+whoever or whatever model is making it. DESIGN.md holds the reasons; this is
+the checklist. Read both before touching the UI, and screenshot what you
+changed at 1440px and 390px before calling it done.
+
+**Tokens and type**
+
+- Colours come from `tailwind.config.ts` only. No new hue, no hex in a
+  component, no per-region theming. `firuze` is the thread and succession,
+  nothing else; `zarrin` is the peak phase and nothing else.
+- Body text on paper is `text-ink`, never dawat at an opacity.
+- Five faces, one job each: Fraunces for titles, Spectral for reading,
+  IBM Plex Sans for interface (nav, buttons, chips, tabs, labels — the
+  `.label` class), IBM Plex Mono for figures only (years, km², counts,
+  percentiles — anything that is a quantity), Amiri for Arabic script.
+- Interface text is sentence case. No uppercase tracked labels except the
+  one mono kicker above a page title. A closed-vocabulary value is shown
+  with `sentenceCase()` from `lib/text.ts` or in its stored lower case —
+  never CSS `capitalize`, which title-cases every word.
+
+**Layout**
+
+- A section page opens on the dark band (`PageHero`, or `HeroBand` for a
+  custom head) with `nav="dark"` on `Page`, then turns to paper. Dark to
+  orient, paper to read.
+- Section headings use `SectionHead`: a Fraunces title, no rule above it.
+- Surfaces on paper are `card-paper` (rounded, one soft shadow). A list of
+  question-and-answer pairs is one panel with a row per item, not a grid
+  of cards: a card grid is as tall as its tallest card and leaves empty
+  boxes next to sparse data.
+- Every grid track that holds text or a table is `minmax(0, 1fr)`, and a
+  wide table scrolls inside a `relative overflow-x-auto` box. The page
+  never scrolls sideways at 390px.
+- Sticky only for page furniture (nav, section tabs, sidebars). Never make
+  one element of a diagram sticky while its connectors are not.
+
+**Patterns that are banned** — each was tried here and taken out:
+
+- A coloured left border or inset rail marking the active or selected item
+  (`border-s-2`, `border-l-2`, `shadow-[inset_2px_0_0…]`). Mark state with
+  a filled background and weight. Blockquotes in chapters are the one
+  place a left rule is allowed.
+- An underline added under a pill or button that is already filled.
+- Hairlines over every heading; ruled grids built from `gap-px` on a
+  tinted parent.
+- Invented numbering (01 / 02 / 03) on things that are not a sequence.
+- Title Case On Coded Values.
+- The same person or value printed several times; merge it and name every
+  role it fills.
+- Gradients other than the one wash on the dark band, glows, emoji, card
+  hover lifts on the home page.
+
+**Data honesty in pictures**
+
+- A bar's length is a cited quantity or it is not drawn. Ranges are drawn
+  pale with the part both readings agree on solid. Nothing is joined with
+  a line. A missing value says "No cited figure" in italic Spectral and
+  takes the same space as a present one.
+- A map is labelled as an illustration wherever it appears, with its
+  snapshot year on it.
+
+**Checks before committing UI work**: `npm run typecheck`, `npm run lint`,
+`npm test`, `npm run build`, `npm run check:links`, `npm run check:voice`,
+then look at the pages you changed at both widths with no console errors
+(a hydration error means the server HTML was thrown away).
+
 ## Quality floor
 
 Responsive to mobile. Visible keyboard focus. `prefers-reduced-motion`

@@ -344,3 +344,13 @@ section always said, and a threaded one has the rail at the top of the column.
 
 **Saffron, rationed again.** It marks the peak phase on the chapter arc and the
 peak-era ruler's reign, and nothing else.
+
+**Taken back out.** A few things from the first pass of the refresh read as
+generated rather than designed, and were removed on review: a turquoise
+underline under the already-filled nav pill, a hairline over every section
+heading, coloured left rails marking the active row in the sidebars, a
+four-card grid for the institutional fields that stretched three empty
+cards to the height of one full one, title-cased vocabulary ("Divine
+Sanction"), and a sticky centre card in the succession diagram that slid
+away from the connectors pointing at it. The rules that came out of those
+are in CLAUDE.md under Frontend standards.
