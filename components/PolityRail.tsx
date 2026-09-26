@@ -8,6 +8,11 @@ import { hasPage } from '@/lib/content'
  * sticky column, scrolled to nothing — the whole sequence is visible at once and
  * the current polity is marked, so you always know where in it you are standing.
  *
+ * The current polity is marked in turquoise, the thread's own colour. It was
+ * saffron, which DESIGN.md keeps for peak-phase markers and nothing else — so
+ * on a threaded page the gold on the rail and the gold on the chapter arc said
+ * two different things in one colour.
+ *
  * On mobile it becomes a scrolling row of the region's polities. It used to be
  * a three-pixel bar with a year at each end and a gold segment on it, which
  * named nothing, linked to nothing and rendered above the breadcrumb — so the
@@ -112,7 +117,7 @@ export function PolityRail({
                 </span>
                 <span
                   className={`mt-1 block text-[14px] leading-snug ${
-                    isActive ? 'font-semibold text-zarrin-ink' : 'text-kashi'
+                    isActive ? 'font-semibold text-firuze-ink' : 'text-kashi'
                   }`}
                 >
                   {p.name.latin}
@@ -128,7 +133,7 @@ export function PolityRail({
               <li
                 key={p.id}
                 className={`w-[152px] shrink-0 snap-start bg-kaghaz-raise ${
-                  isActive ? 'border-t-2 border-zarrin' : ''
+                  isActive ? 'border-t-2 border-firuze' : ''
                 }`}
               >
                 {isActive || !hasPage(p.id) ? (
@@ -190,7 +195,7 @@ export function PolityRail({
                       y1={top}
                       x2={NAME_X - 6}
                       y2={at}
-                      className={isActive ? 'stroke-zarrin/50' : 'stroke-kashi/25'}
+                      className={isActive ? 'stroke-firuze/50' : 'stroke-kashi/25'}
                       strokeWidth={1}
                     />
                   ) : null}
@@ -199,7 +204,7 @@ export function PolityRail({
                     x2={RAIL_X}
                     y1={y(p.span.start.min)}
                     y2={y(p.span.end.max)}
-                    className={isActive ? 'stroke-zarrin/30' : 'stroke-transparent'}
+                    className={isActive ? 'stroke-firuze/30' : 'stroke-transparent'}
                     strokeWidth={7}
                     strokeLinecap="round"
                   />
@@ -208,7 +213,7 @@ export function PolityRail({
                     x2={isActive ? RAIL_X : RAIL_X + 6}
                     y1={top}
                     y2={bottom}
-                    className={isActive ? 'stroke-zarrin' : 'stroke-kashi/45'}
+                    className={isActive ? 'stroke-firuze' : 'stroke-kashi/45'}
                     strokeWidth={isActive ? 4 : 2}
                     strokeLinecap="round"
                   />
@@ -216,14 +221,14 @@ export function PolityRail({
                     x={0}
                     y={at + 4}
                     className={`font-mono text-[10px] tabular-nums ${
-                      isActive ? 'fill-zarrin-ink' : 'fill-debu-ink'
+                      isActive ? 'fill-firuze-ink' : 'fill-debu-ink'
                     }`}
                   >
                     {formatRange(p.span.start.min, p.span.start.max)}
                   </text>
                   {isActive ? (
                     <>
-                      <circle cx={RAIL_X} cy={top} r={5} className="fill-zarrin-ink" />
+                      <circle cx={RAIL_X} cy={top} r={5} className="fill-firuze-ink" />
                       <text x={NAME_X} y={at + 4} className="fill-kashi text-[13px] font-semibold">
                         {wrapName(p.name.latin).map((line, i) => (
                           <tspan key={i} x={NAME_X} dy={i === 0 ? 0 : 14}>

@@ -3,6 +3,7 @@ import { formatYear } from '@/lib/years'
 import { getBasemap, blurFor } from '@/lib/basemap'
 import { NO_FIGURE, formatKm2 } from '@/lib/gaps'
 import { SectionHead } from '@/components/Shell'
+import { MapDrawing } from '@/components/MapDrawing'
 
 /**
  * The map. An illustration, and labelled as one.
@@ -58,121 +59,7 @@ export function PolityMap({ polity }: { polity: Polity }) {
 
       <div className="grid max-w-data gap-8 md:grid-cols-[minmax(0,1fr)_16rem] md:grid-rows-[auto_1fr] md:items-start md:gap-y-6">
         <div className="overflow-hidden rounded border border-dawat-edge bg-dawat-sink">
-          <svg
-            viewBox={`0 0 ${map.width} ${map.height}`}
-            width="100%"
-            role="img"
-            aria-label={
-              clio && map.range
-                ? `${polity.name.latin} as Cliopatria draws it for ${formatYear(map.range[0])}–${formatYear(map.range[1])}`
-                : `${polity.name.latin} on the ${formatYear(map.snapshotYear)} basemap snapshot`
-            }
-          >
-            <defs>
-              {[0, 1.5, 4].map((b) => (
-                <filter
-                  key={b}
-                  id={`soft-${polity.id}-${b}`}
-                  x="-20%"
-                  y="-20%"
-                  width="140%"
-                  height="140%"
-                >
-                  {b > 0 ? <feGaussianBlur stdDeviation={b} /> : null}
-                </filter>
-              ))}
-              {/* The blur says a frontier is uncertain. A coast is not a
-                  frontier, so the subject is clipped to land: soft where it
-                  met a neighbour, sharp where it met the sea. */}
-              <path id={`land-shape-${polity.id}`} d={map.land} />
-              <clipPath id={`land-${polity.id}`}>
-                <use href={`#land-shape-${polity.id}`} />
-              </clipPath>
-            </defs>
-
-            {/* Three steps of the one ground, darkest to lightest: sea,
-              land nobody is drawn holding, and the neighbours. No neighbour
-              gets a hue of its own — DESIGN.md: a map that recolours by
-              civilisation asserts a character for each one. The grid goes
-              under the land so it shows only at sea. */}
-            <path
-              d={map.graticule}
-              fill="none"
-              className="stroke-kaghaz/[0.07]"
-              strokeWidth={0.5}
-            />
-            <use href={`#land-shape-${polity.id}`} className="fill-dawat-raise" />
-
-            {map.context.map((c, i) => (
-              // Flat and opaque, not a translucent wash: the datasets overlap
-              // their own polygons, and at 10% each overlap stacked into a
-              // different grey, so the neighbours read as a stain rather than
-              // as states.
-              <path
-                key={i}
-                d={c.d}
-                className="fill-dawat-lift stroke-kaghaz/[0.13]"
-                strokeWidth={0.6}
-                strokeLinejoin="round"
-              >
-                <title>{c.name}</title>
-              </path>
-            ))}
-
-            <g clipPath={`url(#land-${polity.id})`}>
-              {map.subject.map((s, i) => (
-                <path
-                  key={i}
-                  d={s.d}
-                  className="fill-kashi-soft/75 stroke-kashi-soft"
-                  strokeWidth={1.5}
-                  filter={`url(#soft-${polity.id}-${blurFor(s.precision)})`}
-                >
-                  {/* A single string. React takes one text child on <title>
-                  and drops the rest, so this had been shipping empty on
-                  every map since it was written: the shapes had no
-                  accessible name at all. */}
-                  <title>
-                    {clio
-                      ? `${s.name} — Cliopatria does not grade border precision`
-                      : `${s.name} — border precision ${
-                          s.precision === 3
-                            ? '3, determined by international law'
-                            : s.precision === 2
-                              ? '2, moderately precise'
-                              : '1, approximate'
-                        }`}
-                  </title>
-                </path>
-              ))}
-            </g>
-
-            {/* Names from the dataset itself, spelling included. Too small to
-              read on a phone, where the legend carries the subject alone. */}
-            <g className="hidden font-mono md:inline" aria-hidden="true">
-              {map.labels.map((l) => (
-                <text
-                  key={l.name}
-                  x={l.x}
-                  y={l.y}
-                  textAnchor="middle"
-                  dominantBaseline="central"
-                  fontSize={l.subject ? 9 : 8}
-                  letterSpacing="0.08em"
-                  paintOrder="stroke"
-                  strokeWidth={3}
-                  strokeLinejoin="round"
-                  className={
-                    l.subject
-                      ? 'fill-kaghaz stroke-kashi-deep/60'
-                      : 'fill-debu-paper stroke-dawat-lift'
-                  }
-                >
-                  {l.name.toUpperCase()}
-                </text>
-              ))}
-            </g>
-          </svg>
+          <MapDrawing polity={polity} map={map} />
         </div>
         <div className="text-[15px] leading-relaxed md:col-start-2 md:row-span-2 md:row-start-1">
           {/* Never in a footnote. The polygon is not the peak. */}

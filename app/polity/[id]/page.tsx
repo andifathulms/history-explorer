@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { formatRange } from '@/lib/years'
 import { notFound } from 'next/navigation'
 import {
   loadCorpus,
@@ -17,10 +16,13 @@ import { scriptLang } from '@/lib/scripts'
 import { buildField, rate, DEFAULT_WEIGHTS, ordinal } from '@/lib/ratings'
 import { contemporariesOf } from '@/lib/contemporaries'
 import { formatKm2, formatPopulation, NO_FIGURE } from '@/lib/gaps'
-import { Page, Shell, Crumbs, StatRow } from '@/components/Shell'
+import { citeShort } from '@/lib/content'
+import { Page, Shell } from '@/components/Shell'
 import { PolityRail } from '@/components/PolityRail'
 import { PolityFoot } from '@/components/PolityFoot'
-import { PageNav, type NavSection } from '@/components/PageNav'
+import { PolityHero, type HeroFigure } from '@/components/PolityHero'
+import { SectionTabs } from '@/components/SectionTabs'
+import type { NavSection } from '@/components/PageNav'
 import { Position, Transfers } from '@/components/Position'
 import { Chapters } from '@/components/Chapters'
 import { Facts } from '@/components/Facts'
@@ -66,11 +68,6 @@ export default function PolityPage({ params }: { params: { id: string } }) {
 
   const { certain, possible } = contemporariesOf(p, corpus.all, corpus.backdrop)
 
-  // What the gutter nav lists. Built from the same conditions the sections
-  // themselves render under, so a nav entry can never point at a section that
-  // decided not to draw itself — the two sections that come and go are the
-  // extent series, which needs two cited figures before it is a trajectory,
-  // and territory, which most polities never lost or took.
   // Either side of this polity on its own region's shelf, by start date, which
   // is the order /polities/ already browses in. Context-only records are
   // skipped because they have no page to send anybody to.
@@ -79,192 +76,149 @@ export default function PolityPage({ params }: { params: { id: string } }) {
   const previous = here > 0 ? shelf[here - 1] : undefined
   const next = here >= 0 && here < shelf.length - 1 ? shelf[here + 1] : undefined
 
-  const sections: NavSection[] = [
-    { id: 'facts-heading', label: 'Facts' },
+  // What the section tabs list. Built from the same conditions the sections
+  // themselves render under, so a tab can never point at a section that
+  // decided not to draw itself — the two sections that come and go are the
+  // extent series, which needs two cited figures before it is a trajectory,
+  // and territory, which most polities never lost or took.
+  //
+  // Every named neighbour, recorded or external, is the Succession tab's count.
+  const succession =
+    predecessors.length +
+    successors.length +
+    (p.preceded_by_external?.length ?? 0) +
+    (p.succeeded_by_external?.length ?? 0)
+  const sections: (NavSection & { count?: number })[] = [
+    { id: 'facts-heading', label: 'Overview' },
     { id: 'institutions-heading', label: 'Institutions' },
-    { id: 'turning-heading', label: 'Turning points' },
+    {
+      id: 'turning-heading',
+      label: 'Turning points',
+      ...(p.turning_points.length ? { count: p.turning_points.length } : {}),
+    },
     ...(p.measures.extent.length >= 2
       ? [{ id: 'extent-heading', label: 'Extent over time' }]
       : []),
-    { id: 'chapters-heading', label: 'Chapters' },
-    { id: 'position-heading', label: 'Succession' },
+    { id: 'chapters-heading', label: 'Chapters', count: chapters.length },
+    { id: 'position-heading', label: 'Succession', ...(succession ? { count: succession } : {}) },
     ...(lost.length || gained.length
       ? [{ id: 'transfers-heading', label: 'Territory' }]
       : []),
     ...(certain.length || possible.length
-      ? [{ id: 'contemporaries-heading', label: 'Contemporaries' }]
+      ? [
+          {
+            id: 'contemporaries-heading',
+            label: 'Contemporaries',
+            count: certain.length + possible.length,
+          },
+        ]
       : []),
     { id: 'map-heading', label: 'Map' },
     { id: 'rating', label: 'Rating' },
   ]
 
-  const span = p.span
-  const startLabel = formatRange(span.start.min, span.start.max)
-  const endLabel = formatRange(span.end.min, span.end.max)
   const years = rating.longevity.years
+  const reach = p.measures.reach_km2
 
-  // The masthead figures are the four a reader asks first. They are the same
-  // values the rating panel expands on, printed once at the top rather than
-  // waiting at the foot of a long page — and a missing one says so here too.
-  const headline = [
+  // The four a reader asks first. They are the same values the rating panel
+  // expands on, printed at the top rather than waiting at the foot of a long
+  // page — and a missing one says so here too.
+  const figures: HeroFigure[] = [
     {
-      label: 'Reach',
-      value: formatKm2(p.measures.reach_km2?.value ?? null),
-      gap: p.measures.reach_km2?.value == null,
+      label: 'Reach at peak',
+      value: formatKm2(reach?.value ?? null),
+      gap: reach?.value == null,
+      note: reach?.value != null ? `${reach.at} · ${citeShort(reach.source)}` : undefined,
     },
     {
       label: 'Lasted',
       value:
         years.min === years.max ? `${years.min} yrs` : `${years.min}–${years.max} yrs`,
+      note: years.min === years.max ? undefined : 'The sources date its ends as ranges.',
     },
     {
-      label: 'Population',
+      label: 'Peak population',
       value: formatPopulation(p.measures.peak_population?.value ?? null),
       gap: p.measures.peak_population?.value == null,
     },
-    // Was "Ended by", which printed a closed-vocabulary word in tabular mono
-    // as though it were a figure, and now sits sixty pixels lower in Facts
-    // with its year and its citation. The rating is the figure that was
-    // missing: it is what this site computes and nowhere else publishes, and
-    // it used to be collapsed at the very foot of the page.
+    // The one figure this site computes rather than cites. The bar is its
+    // length because it is a share — a percentile — and the note says what it
+    // was computed from, as the rating panel always does.
     {
       label: 'Rating',
       value: rating.total.present
         ? `${ordinal(Math.round(rating.total.value * 100))} pct`
         : NO_FIGURE,
       gap: !rating.total.present,
+      bar: rating.total.present ? rating.total.value : undefined,
+      note: (
+        <>
+          {rating.totalProvenance} ·{' '}
+          <a href="#rating" className="text-firuze-bright hover:text-kaghaz">
+            how
+          </a>
+        </>
+      ),
     },
   ]
 
   return (
     // Paper ground: this is a reading view, and the change of ground says so
-    // without a label.
-    <Page ground="paper" current="Polities">
+    // without a label. The hero above it is dark because it is where a reader
+    // orients, and the nav goes dark with it.
+    <Page ground="paper" nav="dark" current="Polities">
+      <PolityHero
+        polity={p}
+        region={region}
+        threadSize={railPolities.length}
+        chapters={chapters}
+        figures={figures}
+      />
+
+      <SectionTabs
+        sections={sections}
+        next={next ? { href: `/polity/${next.id}/`, label: next.name.latin } : undefined}
+      />
+
       <Shell className="flex-1 pb-28">
-        <Crumbs
-          ground="paper"
-          trail={[
-            { href: '/polities/', label: 'Polities' },
-            // The region crumb links to its own section on /polities/, which
-            // already carries `id={r.id}` and a scroll-margin for exactly this.
-            // A region has no page of its own — browsing is one list — so this
-            // is where the label means, and leaving it dead made the middle of
-            // every breadcrumb on the site the only unclickable one.
-            ...(region ? [{ href: `/polities/#${region.id}`, label: region.name }] : []),
-            { label: p.name.latin },
-          ]}
-        />
-
         <div className="flex gap-12">
-          {/* The gutter, on every polity rather than only the threaded ones.
-              A layout that appears and disappears on a data property the
-              reader cannot see is not a layout, and the column stood empty on
-              most pages while the page it flanked had no way to move around
-              except the scrollbar. */}
-          <aside className="hidden shrink-0 pt-10 lg:block lg:w-[224px]">
-            {/* The rail can run past the viewport on a crowded region, so the
-                whole gutter scrolls inside itself rather than clipping. */}
-            <div className="sticky top-24 max-h-[calc(100vh-7.5rem)] overflow-y-auto pb-6">
-              <PageNav sections={sections} />
-              {railPolities.length ? (
-                <div className="mt-10 border-t border-kashi/15 pt-6">
-                  <p className="kicker pb-3 text-debu-ink">In this thread</p>
-                  <PolityRail polities={railPolities} active={p} variant="rail" />
-                </div>
-              ) : null}
-            </div>
-          </aside>
-
-          <main id="main" className="min-w-0 flex-1">
-            <header className="pt-6">
-              <div className="flex flex-wrap items-baseline gap-x-6 gap-y-2">
-                <h1 className="font-display text-display font-semibold text-kashi-deep">
-                  {p.name.latin}
-                </h1>
-                {p.name.script ? (
-                  <p
-                    lang={p.name.script_lang ?? scriptLang(p.name.script ?? '')}
-                    className="text-[30px] leading-tight text-kashi"
-                  >
-                    {p.name.script}
-                  </p>
-                ) : null}
+          {/* The gutter is the thread's, and only a threaded polity has one.
+              The section list that used to stand in it on every page is the
+              tab bar above now; a polity with no thread takes the full
+              measure, as DESIGN.md always said it should. */}
+          {railPolities.length ? (
+            <aside className="hidden shrink-0 pt-12 lg:block lg:w-[224px]">
+              {/* The rail can run past the viewport on a crowded region, so
+                  the column scrolls inside itself rather than clipping. */}
+              <div className="sticky top-36 max-h-[calc(100vh-10rem)] overflow-y-auto pb-6">
+                <p className="label pb-3 text-debu-ink">In this thread</p>
+                <PolityRail polities={railPolities} active={p} variant="rail" />
               </div>
+            </aside>
+          ) : null}
 
-              {/* Both endpoints are ranges where the sources disagree, so they
-                  are labelled rather than run together: "819–892 – 999–1005"
-                  reads as four dates in a row and says nothing. */}
-              <p className="mt-4 flex flex-wrap gap-x-6 gap-y-1 font-mono text-[13px] uppercase tracking-[0.08em] text-debu-ink">
-                <span>
-                  Began <span className="tabular-nums text-kashi">{startLabel}</span>
-                </span>
-                <span>
-                  Ended <span className="tabular-nums text-kashi">{endLabel}</span>
-                </span>
-                {region ? (
-                  <Link
-                    href={`/polities/#${region.id}`}
-                    className="transition-colors hover:text-firuze-ink"
-                  >
-                    {region.name}
-                  </Link>
-                ) : null}
-              </p>
-
-              <p className="mt-6 max-w-measure text-lede text-ink">{p.identity}</p>
-
-              <StatRow ground="paper" stats={headline} />
-            </header>
-
-            {/* Mobile has no gutter to put furniture in, so both instruments
-                sit here instead — below the name and the figures rather than
-                above the breadcrumb, where an unlabelled bar used to be the
-                first thing a phone reader met. */}
-            <div className="mt-10 lg:hidden">
-              <details className="border-y border-kashi/15 py-3">
-                <summary className="cursor-pointer font-mono text-micro uppercase tracking-[0.08em] text-firuze-ink">
-                  On this page &mdash; {sections.length} sections
-                </summary>
-                <ul className="mt-3 grid grid-cols-2 gap-x-6">
-                  {sections.map((sec) => (
-                    <li key={sec.id}>
-                      <a
-                        href={`#${sec.id}`}
-                        className="block border-b border-kashi/10 py-2.5 font-mono text-[12px] uppercase tracking-[0.05em] text-kashi"
-                      >
-                        {sec.label}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </details>
-
-              {railPolities.length ? (
-                <div className="mt-8">
-                  <PolityRail polities={railPolities} active={p} variant="strip" />
-                </div>
-              ) : null}
-            </div>
+          <main id="main" className="min-w-0 flex-1 pt-4">
+            {railPolities.length ? (
+              <div className="mt-8 lg:hidden">
+                <PolityRail polities={railPolities} active={p} variant="strip" />
+              </div>
+            ) : null}
 
             {/* Order, and the reasoning for it.
 
                 The reference sections come first because most arrivals are
                 looking something up, not settling in: who founded it, where it
-                was, what ended it. Those are a fifteen-row list and a handful
-                of dated hinges, so they cost a reader who came to read one
-                screen — while the old order cost a reader who came to look up
-                the whole essay. On the Abbasid page every one of these sat past
-                a five-thousand-nine-hundred-word scroll.
+                was, what ended it. The tab bar makes the chapters one tap away
+                from the top, so a reader who came to read is no longer charged
+                for the reader who came to look something up.
 
                 Turning points and the extent series sit above the chapters
                 rather than below them because both are chronological: they
                 frame the read instead of interrupting it.
 
-                Succession moved below the chapters. It is a claim about this
+                Succession sits below the chapters. It is a claim about this
                 polity's relations, and it means more once you know the polity
-                than before you do — and on an edgeless polity it opened the
-                page on a paragraph about what is not recorded, which is the
-                weakest possible first line under an identity sentence. */}
+                than before you do. */}
             <Facts polity={p} />
 
             <Institutions polity={p} />

@@ -72,6 +72,9 @@ export function SiteNav({ ground, current }: { ground: 'dark' | 'paper'; current
 
   return (
     <header
+      // h-16 on the bar, stated: the polity page's section tabs stick directly
+      // beneath it at top-16, and a nav whose height came from its padding
+      // would leave a gap or an overlap whenever a font loaded late.
       className={`sticky top-0 z-40 border-b backdrop-blur-md ${
         dark
           ? 'border-dawat-edge bg-dawat/95 text-kaghaz'
@@ -80,7 +83,7 @@ export function SiteNav({ ground, current }: { ground: 'dark' | 'paper'; current
     >
       <nav
         aria-label="Sections"
-        className="mx-auto flex max-w-shell items-center gap-6 px-5 py-3.5 sm:px-8"
+        className="mx-auto flex h-16 max-w-shell items-center gap-6 px-5 sm:px-8"
       >
         <Link
           href="/"

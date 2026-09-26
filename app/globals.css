@@ -218,6 +218,11 @@
     scroll-padding-top: 5.5rem;
   }
 
+  /* And the section tabs beneath it, where a page has them. */
+  html:has(.section-tabs) {
+    scroll-padding-top: 8.5rem;
+  }
+
   body {
     @apply font-latin text-body antialiased;
   }
