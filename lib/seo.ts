@@ -132,6 +132,12 @@ export function pageMeta({
       images: [
         {
           url: absolute(card.path),
+          // Stated rather than left to be sniffed. WhatsApp and a few other
+          // scrapers fetch the picture with a HEAD request and give up on a
+          // response they cannot type; secureUrl is the same URL said again
+          // under the property older readers look for first.
+          secureUrl: absolute(card.path),
+          type: 'image/png',
           ...(card.width ? { width: card.width } : {}),
           ...(card.height ? { height: card.height } : {}),
           alt: card.alt,
