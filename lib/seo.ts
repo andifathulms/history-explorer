@@ -83,6 +83,15 @@ export function clamp(text: string, limit = 200): string {
 export interface PageMeta {
   /** The page's own title, without the site name; omitted on the home page. */
   title?: string
+  /**
+   * What the card headline says, where that differs from the tab title.
+   *
+   * A polity's tab reads "Samanid Empire" and its card reads "Samanid Empire,
+   * 819–999": the tab sits in a strip of other tabs from the same site and the
+   * card sits alone in a chat window, where the dates are the first thing
+   * worth knowing and there is room to say them.
+   */
+  cardTitle?: string
   description: string
   /** Site path with both slashes, e.g. "/polity/samanid/". */
   path: string
@@ -97,10 +106,17 @@ export interface PageMeta {
  * Every page calls this. A page that sets metadata by hand inherits the root
  * card and shares as the front page, which is the bug this replaced.
  */
-export function pageMeta({ title, description, path, type = 'website', image }: PageMeta): Metadata {
+export function pageMeta({
+  title,
+  cardTitle,
+  description,
+  path,
+  type = 'website',
+  image,
+}: PageMeta): Metadata {
   const url = absolute(path)
   const card = image ?? DEFAULT_OG_IMAGE
-  const heading = fullTitle(title)
+  const heading = fullTitle(cardTitle ?? title)
   const summary = clamp(description)
 
   return {

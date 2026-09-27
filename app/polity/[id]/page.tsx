@@ -1,4 +1,6 @@
 import type { Metadata } from 'next'
+import { pageMeta } from '@/lib/seo'
+import { formatSpan } from '@/lib/years'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import {
@@ -37,10 +39,26 @@ export function generateStaticParams() {
   return loadCorpus().narrative.map((p) => ({ id: p.id }))
 }
 
+/**
+ * What one polity looks like when its link is pasted somewhere.
+ *
+ * The headline carries the span because a card stands alone: a reader meeting
+ * "Samanid Empire" in a chat window wants to know which centuries before they
+ * want anything else. The description leads with the dates and the ground and
+ * then gives the polity's own one-line identity, which is the sentence the
+ * page opens with too.
+ */
 export function generateMetadata({ params }: { params: { id: string } }): Metadata {
   const p = getPolity(params.id)
   if (!p) return {}
-  return { title: p.name.latin, description: p.identity }
+  const span = formatSpan(p.span.start.min, p.span.end.max)
+  return pageMeta({
+    title: p.name.latin,
+    cardTitle: `${p.name.latin}, ${span}`,
+    description: `${span}. ${p.identity}`,
+    path: `/polity/${p.id}/`,
+    type: 'article',
+  })
 }
 
 export default function PolityPage({ params }: { params: { id: string } }) {
