@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { pageMeta } from '@/lib/seo'
 import { formatSpan } from '@/lib/years'
 import Link from 'next/link'
 import {
@@ -13,11 +14,12 @@ import { edgeTallies } from '@/lib/thread'
 import { Page, Shell, PageHead } from '@/components/Shell'
 import { EDGE_TYPES } from '@/lib/types'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: 'Continuity',
   description:
     'Typed, dated, cited succession — how one polity became the next, where a source says it did.',
-}
+  path: '/continuity/',
+})
 
 export default function ContinuityIndex() {
   const { regions, edges } = loadCorpus()

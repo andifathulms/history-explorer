@@ -62,6 +62,24 @@ export function fullTitle(title?: string): string {
   return title ? `${title} · ${SITE_NAME}` : `${SITE_NAME} — ${TAGLINE}`
 }
 
+/**
+ * A description cut to what a card will actually show.
+ *
+ * A region blurb runs to four sentences, and every consumer of it truncates:
+ * Google at roughly 160 characters, WhatsApp sooner, each of them mid-word and
+ * without saying so. Cutting here means the break lands between words and at a
+ * sentence where one is close to the limit, so the clipped version still reads
+ * as a finished thought.
+ */
+export function clamp(text: string, limit = 200): string {
+  const t = text.replace(/\s+/g, ' ').trim()
+  if (t.length <= limit) return t
+  const head = t.slice(0, limit)
+  const sentence = Math.max(head.lastIndexOf('. '), head.lastIndexOf('; '))
+  if (sentence > limit * 0.6) return head.slice(0, sentence + 1)
+  return `${head.slice(0, head.lastIndexOf(' '))}…`
+}
+
 export interface PageMeta {
   /** The page's own title, without the site name; omitted on the home page. */
   title?: string
@@ -83,17 +101,18 @@ export function pageMeta({ title, description, path, type = 'website', image }: 
   const url = absolute(path)
   const card = image ?? DEFAULT_OG_IMAGE
   const heading = fullTitle(title)
+  const summary = clamp(description)
 
   return {
     ...(title ? { title } : {}),
-    description,
+    description: summary,
     alternates: { canonical: url },
     openGraph: {
       type,
       siteName: SITE_NAME,
       url,
       title: heading,
-      description,
+      description: summary,
       images: [
         {
           url: absolute(card.path),
@@ -106,7 +125,7 @@ export function pageMeta({ title, description, path, type = 'website', image }: 
     twitter: {
       card: 'summary_large_image',
       title: heading,
-      description,
+      description: summary,
       images: [absolute(card.path)],
     },
   }

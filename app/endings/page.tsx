@@ -1,15 +1,17 @@
 import type { Metadata } from 'next'
+import { pageMeta } from '@/lib/seo'
 import Link from 'next/link'
 import { loadCorpus, hasPage, displayName } from '@/lib/content'
 import { Page, Shell, PageHero } from '@/components/Shell'
 import { END_TYPES, type EndType, type Polity } from '@/lib/types'
 import { formatYear } from '@/lib/years'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: 'Endings',
   description:
     'How polities stopped: a closed vocabulary of six, counted across the corpus.',
-}
+  path: '/endings/',
+})
 
 /** Why each word exists, in the terms the coding decisions actually used. */
 const GLOSS: Record<EndType, string> = {

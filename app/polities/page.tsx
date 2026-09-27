@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { pageMeta } from '@/lib/seo'
 import Link from 'next/link'
 import { formatSpan } from '@/lib/years'
 import {
@@ -16,10 +17,11 @@ import { PolityBrowser } from '@/components/PolityBrowser'
 import { PolityCard } from '@/components/PolityCard'
 import { RegionLanes } from '@/components/RegionLanes'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: 'Polities',
   description: 'Every polity on the site, grouped by region, with what is cited for each.',
-}
+  path: '/polities/',
+})
 
 /** Width of one column in the hero's density strip, in years. */
 const BIN = 50

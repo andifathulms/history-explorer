@@ -1,13 +1,15 @@
 import type { Metadata } from 'next'
+import { pageMeta } from '@/lib/seo'
 import { loadCorpus } from '@/lib/content'
 import { Page, Shell, PageHero } from '@/components/Shell'
 import { Comparison } from '@/components/Comparison'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: 'Rankings',
   description:
     'Every polity measured on cited figures only, ranked by weights you set yourself.',
-}
+  path: '/rankings/',
+})
 
 export default function RankingsView() {
   const { narrative, backdrop, denominators } = loadCorpus()

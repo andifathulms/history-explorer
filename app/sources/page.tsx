@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { pageMeta } from '@/lib/seo'
 import Link from 'next/link'
 import { sourceUsage, hasPage, displayName, getPolity } from '@/lib/content'
 import { formatSpan } from '@/lib/years'
@@ -7,11 +8,12 @@ import { Cite } from '@/components/Cite'
 import { SourceFilter } from '@/components/SourceFilter'
 import { PageNav, type NavSection } from '@/components/PageNav'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: 'Sources',
   description:
     'Every work this site cites, what rests on it, and where the corpus leans hardest on a single book.',
-}
+  path: '/sources/',
+})
 
 function PolityList({ ids, spans = false }: { ids: string[]; spans?: boolean }) {
   return (

@@ -1,14 +1,16 @@
 import type { Metadata } from 'next'
+import { pageMeta } from '@/lib/seo'
 import Link from 'next/link'
 import { loadCorpus, getPolity } from '@/lib/content'
 import { buildField, rate, DEFAULT_WEIGHTS } from '@/lib/ratings'
 import { Page, Shell, PageHero } from '@/components/Shell'
 import { PageNav, type NavSection } from '@/components/PageNav'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: 'About',
   description: 'How this site was made, how the chapters were drafted, and what the numbers are not.',
-}
+  path: '/about/',
+})
 
 export default function About() {
   const corpus = loadCorpus()

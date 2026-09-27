@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { pageMeta } from '@/lib/seo'
 import { notFound } from 'next/navigation'
 import {
   getRegion,
@@ -20,7 +21,12 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: { params: { region: string } }): Metadata {
   const r = getRegion(params.region)
   if (!r) return {}
-  return { title: r.name, description: r.blurb }
+  return pageMeta({
+    title: r.name,
+    description: r.blurb,
+    path: `/continuity/${r.id}/`,
+    type: 'article',
+  })
 }
 
 export default function RegionThread({ params }: { params: { region: string } }) {

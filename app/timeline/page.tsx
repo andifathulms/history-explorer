@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { pageMeta } from '@/lib/seo'
 import { formatYear } from '@/lib/years'
 import { tickInterval } from '@/lib/thread'
 import { loadCorpus } from '@/lib/content'
@@ -14,10 +15,11 @@ import { PHASES } from '@/lib/types'
 export function generateMetadata(): Metadata {
   const { narrative, context } = loadCorpus()
   const n = narrative.length + context.length
-  return {
+  return pageMeta({
     title: 'Timeline',
     description: `${n} polities as overlapping spans on one axis, with what is cited for each.`,
-  }
+    path: '/timeline/',
+  })
 }
 
 /**
