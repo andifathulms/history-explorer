@@ -455,6 +455,23 @@ changed at 1440px and 390px before calling it done.
 - A map is labelled as an illustration wherever it appears, with its
   snapshot year on it.
 
+**Metadata and share cards**
+
+- Every page's metadata comes from `pageMeta()` in `lib/seo.ts`, which
+  builds the title, description, canonical and both card blocks from one
+  absolute base. A page that writes its own `Metadata` object inherits the
+  front page's card and shares as the front page.
+- Absolute URLs are built in `lib/seo.ts`, never from a bare path. The site
+  is served from a subpath on Pages, where `/polity/samanid/` resolves
+  against the domain root — right in development, wrong when deployed.
+- A new route goes into `app/sitemap.ts` in the same change.
+- A polity's card is drawn at build time by `app/polity/[id]/opengraph-image.tsx`
+  and holds to the same rule as the page: a bar's length is a cited quantity,
+  an uncertain endpoint is drawn pale. `scripts/og-extension.mjs` gives the
+  exported files their `.png` and runs as postbuild — an extensionless file is
+  served as `application/octet-stream` and draws no card.
+- Structured data (`components/JsonLd.tsx`) states only what the page shows.
+
 **Checks before committing UI work**: `npm run typecheck`, `npm run lint`,
 `npm test`, `npm run build`, `npm run check:links`, `npm run check:voice`,
 then look at the pages you changed at both widths with no console errors
