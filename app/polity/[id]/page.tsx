@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { pageMeta } from '@/lib/seo'
+import { BreadcrumbJsonLd, PolityJsonLd } from '@/components/JsonLd'
 import { formatSpan } from '@/lib/years'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
@@ -18,7 +19,7 @@ import { scriptLang } from '@/lib/scripts'
 import { buildField, rate, DEFAULT_WEIGHTS, ordinal } from '@/lib/ratings'
 import { contemporariesOf } from '@/lib/contemporaries'
 import { formatKm2, formatPopulation, NO_FIGURE } from '@/lib/gaps'
-import { citeShort } from '@/lib/content'
+import { citeShort, getSource } from '@/lib/content'
 import { Page, Shell } from '@/components/Shell'
 import { PolityRail } from '@/components/PolityRail'
 import { PolityFoot } from '@/components/PolityFoot'
@@ -77,6 +78,12 @@ export default function PolityPage({ params }: { params: { id: string } }) {
   if (!p || p.context_only) notFound()
 
   const chapters = getChapters(p.id)
+  // The works the chapters were drafted from, in full, each already named on
+  // the page under the chapter that rests on it.
+  const citations = [...new Set(chapters.map((c) => c.drafted_from))]
+    .map((id) => getSource(id))
+    .filter((s): s is NonNullable<typeof s> => Boolean(s))
+    .map((s) => [s.author, s.container ?? s.title, s.year].filter(Boolean).join(', '))
   const { predecessors, successors } = getNeighbours(p.id)
   const { resumes, resumedBy } = getResumption(p.id)
   const { lost, gained } = getTransfers(p.id)
@@ -195,6 +202,23 @@ export default function PolityPage({ params }: { params: { id: string } }) {
     // without a label. The hero above it is dark because it is where a reader
     // orients, and the nav goes dark with it.
     <Page ground="paper" nav="dark" current="Polities">
+      {/* What the page is about, and the trail to it, for a crawler. Both
+          restate what the page already shows. */}
+      <PolityJsonLd
+        name={p.name.latin}
+        span={formatSpan(p.span.start.min, p.span.end.max)}
+        identity={p.identity}
+        path={`/polity/${p.id}/`}
+        citations={citations}
+      />
+      <BreadcrumbJsonLd
+        trail={[
+          { name: 'Home', path: '/' },
+          { name: 'Polities', path: '/polities/' },
+          ...(region ? [{ name: region.name, path: `/polities/#${region.id}` }] : []),
+          { name: p.name.latin, path: `/polity/${p.id}/` },
+        ]}
+      />
       <PolityHero
         polity={p}
         region={region}

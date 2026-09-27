@@ -3,6 +3,7 @@ import { loadCorpus, getChapters, isPopulatedRegion } from '@/lib/content'
 import { Page, Shell, StatRow } from '@/components/Shell'
 import { CorpusSpans } from '@/components/CorpusSpans'
 import { formatYear } from '@/lib/years'
+import { SiteJsonLd } from '@/components/JsonLd'
 
 /**
  * The front door is a hub, not the thread.
@@ -68,6 +69,7 @@ export default function Home() {
 
   return (
     <Page ground="dark" current="Home" wash>
+      <SiteJsonLd />
       <main id="main" className="flex-1">
         <Shell className="pb-4 pt-16 sm:pt-20">
           <p className="kicker text-firuze-bright">A reading site about polities</p>

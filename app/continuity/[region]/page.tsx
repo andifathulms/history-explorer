@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { pageMeta } from '@/lib/seo'
+import { BreadcrumbJsonLd } from '@/components/JsonLd'
 import { notFound } from 'next/navigation'
 import {
   getRegion,
@@ -53,6 +54,13 @@ export default function RegionThread({ params }: { params: { region: string } })
 
   return (
     <Page ground="dark" current="Continuity" wash>
+      <BreadcrumbJsonLd
+        trail={[
+          { name: 'Home', path: '/' },
+          { name: 'Continuity', path: '/continuity/' },
+          { name: region.name, path: `/continuity/${region.id}/` },
+        ]}
+      />
       <main id="main" className="flex-1">
         <Shell className="pb-24">
           <Crumbs
