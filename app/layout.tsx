@@ -1,5 +1,14 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import {
+  BASE_PATH,
+  SITE_URL,
+  SITE_NAME,
+  SITE_DESCRIPTION,
+  SITE_CARD_DESCRIPTION,
+  fullTitle,
+  pageMeta,
+} from '@/lib/seo'
 import { SiteFooter } from '@/components/SiteFooter'
 
 /**
@@ -30,20 +39,28 @@ import { SiteFooter } from '@/components/SiteFooter'
  * deployed site while working perfectly in development, which is the most
  * expensive kind of wrong.
  */
-const base = process.env.NEXT_PUBLIC_BASE_PATH ?? ''
-
-/** Where relative metadata URLs resolve from, for the cards that need absolute ones. */
-const site = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://andifathulms.github.io/history-explorer'
+const base = BASE_PATH
 
 export const metadata: Metadata = {
-  metadataBase: new URL(site),
+  // The home page's own card first, so the fields below can restate the ones
+  // that differ between a card and a search result.
+  ...pageMeta({ description: SITE_CARD_DESCRIPTION, path: '/' }),
+  metadataBase: new URL(SITE_URL),
   title: {
-    default: 'History Explorer — what empires were, and what can be said about them',
-    template: '%s · History Explorer',
+    default: fullTitle(),
+    template: `%s · ${SITE_NAME}`,
   },
-  description:
-    'A reading site about polities: what they were, how far they reached, how long they lasted, and — where a source says so — how one became the next.',
-  applicationName: 'History Explorer',
+  description: SITE_DESCRIPTION,
+  applicationName: SITE_NAME,
+  // What a search engine is allowed to do with the pages. Stated rather than
+  // assumed: the default is permissive, but a site whose whole point is being
+  // read should say so, and `max-image-preview` is what lets a result carry
+  // the card picture instead of a thumbnail.
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1 },
+  },
   // Next emits the manifest link without the base path, so it is named here
   // instead. The file itself lands at out/manifest.webmanifest and is served
   // under the subpath correctly; only the href needed saying.
@@ -58,36 +75,6 @@ export const metadata: Metadata = {
       { url: `${base}/brand/icon-32.png`, sizes: '32x32', type: 'image/png' },
     ],
     apple: [{ url: `${base}/brand/apple-touch-icon.png`, sizes: '180x180' }],
-  },
-  openGraph: {
-    type: 'website',
-    siteName: 'History Explorer',
-    url: `${site}/`,
-    title: 'History Explorer — what empires were, and what can be said about them',
-    description:
-      'Every claim carries the work it came from, and where no figure exists the gap is drawn rather than filled.',
-    images: [
-      {
-        // Relative, not prefixed. Card images resolve against `metadataBase`,
-        // which already carries the subpath — prefixing here too produced
-        // /history-explorer/history-explorer/brand/og.png. The icon links
-        // above are the opposite case and do need it: nothing resolves those
-        // for us.
-        url: '/brand/og.png',
-        width: 1200,
-        height: 630,
-        // The card is the span strip with one bar drawn hollow, which is the
-        // site's own rule in one picture: a gap is shown, not filled.
-        alt: 'History Explorer — duration spans on one axis, one of them hollow for want of a cited date.',
-      },
-    ],
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'History Explorer',
-    description:
-      'Every claim carries the work it came from, and where no figure exists the gap is drawn rather than filled.',
-    images: ['/brand/og.png'],
   },
 }
 
