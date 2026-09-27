@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "node scripts/og-extension.mjs",
+    "og:extension": "node scripts/og-extension.mjs",
     "start": "npx serve out",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",

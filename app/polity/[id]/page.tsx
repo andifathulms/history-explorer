@@ -58,6 +58,16 @@ export function generateMetadata({ params }: { params: { id: string } }): Metada
     description: `${span}. ${p.identity}`,
     path: `/polity/${p.id}/`,
     type: 'article',
+    // The card drawn for this polity by opengraph-image.tsx, named with the
+    // extension scripts/og-extension.mjs gives it after the export. Pointing
+    // at the extensionless path Next writes would hand a scraper a file
+    // GitHub Pages serves as application/octet-stream.
+    image: {
+      path: `/polity/${p.id}/opengraph-image.png`,
+      width: 1200,
+      height: 630,
+      alt: `${p.name.latin}, ${span}, with its span drawn on the axis the whole corpus is measured against.`,
+    },
   })
 }
 

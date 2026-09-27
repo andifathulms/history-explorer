@@ -73,3 +73,40 @@ npm run fonts
 Re-downloads the same subsets, rewrites the `@font-face` block at the top of
 `app/globals.css`, and leaves everything else alone. Run it when a family needs
 a new weight — and add the weight to the table above when you do.
+
+## `og/` — the same faces as TrueType
+
+The share cards are drawn at build time by a renderer that reads TrueType and
+not woff2, and it gets no CSS, so the faces have to be handed to it as bytes.
+`og/` holds four:
+
+| File | From | How |
+|---|---|---|
+| `fraunces-600.ttf` | `fraunces-var-latin.woff2` | instanced at `wght=600`, `opsz=96` — the one size and weight a card title is set at |
+| `plexmono-400.ttf` | `plexmono-400-latin.woff2` | decompressed, unchanged |
+| `plexsans-500.ttf` | `plexsans-500-latin.woff2` | decompressed, unchanged |
+| `spectral-400.ttf` | `spectral-400-latin.woff2` | decompressed, unchanged |
+
+Latin only, because a card sets the Latin name; the Perso-Arabic name is on the
+page rather than the card. Together they are under 150KB and none of them is
+served to a browser.
+
+Derived with fontTools, which is the one tool in this repository that is not
+node:
+
+```
+python3 -c "
+from fontTools.ttLib import TTFont
+from fontTools.varLib import instancer
+f = TTFont('app/fonts/fraunces-var-latin.woff2')
+i = instancer.instantiateVariableFont(f, {'wght': 600, 'opsz': 96}, inplace=False)
+i.flavor = None; i.save('app/fonts/og/fraunces-600.ttf')
+for src, dst in [('plexmono-400-latin','plexmono-400'), ('plexsans-500-latin','plexsans-500'), ('spectral-400-latin','spectral-400')]:
+    t = TTFont(f'app/fonts/{src}.woff2'); t.flavor = None; t.save(f'app/fonts/og/{dst}.ttf')
+"
+```
+
+Instancing a variable font is a modification, which the OFL permits and asks be
+renamed on redistribution. These are build inputs rather than something the
+site serves, and the name stays so the card and the page are visibly the same
+face.
